@@ -131,62 +131,127 @@ function isAllIndiaJob(job: JobEntry): boolean {
   const board = job.b.toLowerCase();
   const title = job.t.toLowerCase();
 
-  // Handle Central Exception Bodies located in states / cities
-  if (
-    board.includes('punjab national bank') ||
-    id.includes('pnb-') ||
-    board.includes('isro') ||
-    board.includes('aiims') ||
-    board.includes('nit ') ||
-    board.includes('nitt') ||
-    board.includes('manit') ||
-    board.includes('esic') ||
-    board.includes('icmr') ||
-    board.includes('rail wheel factory') ||
-    board.includes('rwf') ||
-    (board.includes('airports authority of india') && !id.includes('aai-kolkata') && !id.includes('aai-eastern-region') && !title.includes('wb domiciles'))
-  ) {
-    if (id.includes('upsc-principal-vice-principal') || title.includes('gnct delhi')) {
-      return false;
-    }
+  // ── PASS 1: Explicit All India / Central Govt / National PSU whitelist ────────
+  // These match first to avoid being caught by broad state keywords below
+  const allIndiaPatterns = [
+    // Constitutional / National Recruitment Bodies
+    'upsc', 'ssc', 'union public service', 'staff selection',
+    // Railways (Central)
+    'rrb', 'railway', 'rail wheel factory', 'railtel', 'rcil', 'konkan railway', 'krcl', 'northeast frontier',
+    'central railway', 'nfr',
+    // Defence
+    'indian army', 'indian navy', 'indian air force', 'iaf', 'drdo', 'territorial army',
+    'armoured vehicles nigam', 'avnl', 'ordnance factory', 'munitions india',
+    // Space
+    'isro', 'nrsc', 'istrac', 'ursc', 'master control facility', 'mcf',
+    // National PSUs / CPSEs
+    'ongc', 'iocl', 'bpcl', 'bharat petroleum', 'hpcl', 'hindustan petroleum',
+    'nalco', 'national aluminium', 'irel', 'wcl', 'western coalfields', 'ncl', 'northern coalfields',
+    'nlcil', 'nlc india', 'nlc limited',
+    'hal', 'hindustan aeronautics', 'beml', 'bharat electronics', 'bel',
+    'sjvn', 'ntpc', 'ngel', 'power grid', 'nhsrcl', 'nhidcl',
+    'rcf', 'rashtriya chemicals', 'rites', 'ihmcl', 'iifcl',
+    'spmcil', 'security printing', 'fagmil', 'pdil',
+    // Banking / Insurance / Finance
+    'ibps', 'institute of banking personnel', 'reserve bank', 'rbi', 'sbi',
+    'union bank', 'punjab national bank', 'bank of baroda', 'bank of india',
+    'central bank', 'indian bank', 'uco bank', 'pnb', 'iob',
+    'nicl', 'national insurance', 'sidbi', 'small industries development bank',
+    'tmb', 'tamilnad mercantile bank', 'nabard', 'exim bank',
+    // AIIMS / National Medical / Research
+    'aiims', 'esic', 'icmr', 'niper', 'national institute of pharmaceutical',
+    'ccrum', 'ccras', 'central council for research in ayurvedic',
+    'sinp', 'saha institute of nuclear physics',
+    'csir', 'national geophysical', 'ngri',
+    // National Institutes
+    'iit', 'nit trichy', 'nitt', 'manit', 'amu', 'aligarh muslim university',
+    'icar', 'iifcl',
+    // Airports / Civil Aviation
+    'airports authority of india', 'aai',
+    // IT / Others
+    'stpi', 'software technology parks', 'cert-in', 'cert in',
+    'edcil', 'prl', 'physical research laboratory',
+    'icai', 'icsi', 'institute of company secretaries',
+    // Health / NHM National
+    'norcet',
+  ];
+
+  if (allIndiaPatterns.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
+    // Carve-out: UPSC notification for GNCT Delhi teaching posts is state-specific
+    if (id.includes('upsc-principal-vice-principal') || title.includes('gnct delhi')) return false;
+    // Carve-out: AAI Kolkata / Eastern region (WB domicile restricted)
+    if (id.includes('aai-kolkata') || id.includes('aai-eastern-region') || title.includes('wb domiciles')) return false;
     return true;
   }
 
-  const stateKeywords = [
-    'uppsc', 'verka', 'milkfed', 'patna-high-court', 'patna high court',
-    'rtmnu', 'nagpur university', 'up-bulandshahr', 'tumakuru', 'pmmh-delhi',
-    'daman-government-college', 'rajasthan-safai', 'assam-allied', 'cgssb',
-    'mpsc', 'college-of-art-delhi', 'district court', 'anganwadi',
-    'govt of nct of delhi', 'mizoram public service', 'chhattisgarh staff selection',
-    'local self government department', 'dme assam', 'government college daman',
-    'district program office bulandshahr', 'principal district',
-    'pt. madan mohan malaviya hospital', 'aai-kolkata', 'aai-eastern-region',
-    'wb domiciles', 'gnct delhi', 'gnctd', 'education dept, gnct', 'upsc-principal-vice-principal',
-    'shri krishna ayush university', 'skau', 'karnataka examinations authority', 'kea',
-    'tamil nadu state transport', 'tnstc', 'janjgir-champa', 'dr. hedgewar arogya sansthan',
-    'dhas', 'district urban development cell', 'dudc', 'bidar', 'tnsrlm', 'msrlm',
-    'solapur', 'kanchipuram', 'haryana', 'karnataka', 'chhattisgarh', 'mizoram',
-    'tamil nadu', 'punjab', 'rajasthan', 'assam', 'delhi', 'bihar',
-    'dharwad', 'davanagere', 'vijayapura', 'bengaluru', 'thane', 'tmc', 'chamarajanagar', 'cims', 'jayadeva', 'sjicr'
+  // ── PASS 2: Explicit State / Local / District body blocklist ─────────────────
+  const statePatterns = [
+    // State PSCs / SSBs / Boards
+    'uppsc', 'mpsc', 'cgssb', 'jkssb', 'tslprb', 'hartron',
+    'jammu and kashmir services selection', 'jammu & kashmir services selection',
+    'telangana state level police', 'telangana state',
+    'mizoram public service', 'chhattisgarh staff selection',
+    'karnataka examinations authority', 'kea',
+    'verka', 'milkfed',
+    // State Transport
+    'tamil nadu state transport', 'tnstc',
+    'madhya pradesh yatri', 'mpypil',
+    // State Power
+    'rajasthan rajya vidyut', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn',
+    // State Health / NHM
+    'national health mission', 'nhm', 'zilla panchayat', 'district health',
+    'dme assam', 'assam allied',
+    // State Education
+    'shri krishna ayush university', 'skau',
+    'rtmnu', 'nagpur university', 'rashtrasant tukadoji',
+    'government college daman',
+    // State courts / judiciary
+    'high court', 'district court', 'sessions court', 'patna high court',
+    'principal district', 'district judge',
+    // Municipal / Urban Bodies
+    'municipal corporation', 'municipal council', 'mahanagara palike',
+    'nagarasabe', 'urban local bod', 'nagar parishad',
+    'thane municipal', 'district urban development', 'dudc', 'pourakarmika',
+    // Local / District / State Govt departments
+    'anganwadi', 'icds', 'bal vikas',
+    'district program office', 'district programme officer',
+    'child development services',
+    'kasturba gandhi', 'kgbv',
+    'sub-divisional officer', 'office of deputy commissioner',
+    'sub divisional officer', 'sdo contai',
+    'pt. madan mohan malaviya hospital', 'rao tula ram memorial',
+    'rtrmh', 'pmmh',
+    'dr. hedgewar arogya sansthan', 'dhas',
+    'education recruitment directorate, punjab',
+    'directorate of education recruitment',
+    'local self government department',
+    'tnsrlm', 'tamil nadu state rural',
+    'msrlm', 'maharashtra state rural',
+    'dcpu', 'district child protection',
+    // State-specific keywords
+    'govt of karnataka', 'government of karnataka',
+    'govt of maharashtra', 'government of maharashtra',
+    'govt of nct of delhi', 'govt. of nct of delhi', 'gnct delhi',
+    'govt of uttar pradesh', 'government of uttar pradesh', 'govt. of uttar pradesh',
+    'govt of west bengal', 'government of west bengal',
+    'govt of bihar', 'government of bihar',
+    'govt of odisha', 'government of odisha',
+    'govt of andhra pradesh', 'government of andhra pradesh',
+    'govt of himachal pradesh', 'government of himachal pradesh',
+    'govt of rajasthan', 'government of rajasthan',
+    'govt of assam', 'government of assam',
+    'govt of chhattisgarh', 'government of chhattisgarh',
+    'govt of haryana', 'government of haryana',
+    'govt of telangana', 'government of telangana',
+    'govt of tamil', 'government of tamil',
+    'jayadeva', 'sjicr', 'cims chamarajanagar',
   ];
 
-  if (stateKeywords.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
+  if (statePatterns.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
     return false;
   }
 
-  const allIndiaKeywords = [
-    'upsc', 'ssc', 'rrb', 'isro', 'army', 'navy', 'air force', 'iaf', 'drdo', 'ongc',
-    'iocl', 'esic', 'aai', 'nicl', 'sidbi', 'union bank', 'pnb', 'irel', 'wcl',
-    'rites', 'icai', 'cert-in', 'ngel', 'pdil', 'nhsrcl', 'nhidcl', 'ihmcl', 'spmcil',
-    'ccras', 'stpi', 'prl', 'nfr', 'edcil', 'fagmil', 'beml', 'ncl', 'hpcl', 'icar',
-    'icsi', 'avnl', 'nalco', 'tmb', 'norcet', 'iifcl', 'rail wheel factory', 'aiims',
-    'nit trichy', 'nitt', 'manit-bhopal'
-  ];
-
-  if (allIndiaKeywords.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
-    return true;
-  }
-
+  // ── PASS 3: Default — treat as All India ─────────────────────────────────────
   return true;
 }
 
