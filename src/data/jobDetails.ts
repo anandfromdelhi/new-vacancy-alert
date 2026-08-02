@@ -7496,7 +7496,72 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { label: 'SKAU Online Application Portal', url: 'https://recruitment.skau.ac.in/nonteaching/' },
       { label: 'SKAU Official Website', url: 'https://www.skau.ac.in' }
     ],
-    faqs: []
+    faqs: [
+      {
+        question: "1. Can candidates from other states (UP, Rajasthan, etc.) apply?",
+        answer: "Yes. This recruitment is open to candidates from outside Haryana. However, other-state candidates:\n\n• Pay the higher application fee slab (₹1,500, same as Haryana General/UR male candidates)\n• Compete only in the Unreserved/General category — reservation benefits (DSC, OSC, BC-A, BC-B, EWS, ESM, PwBD) are available only to candidates who hold Haryana domicile\n\nSo a Rajasthan or UP candidate can apply, but won't get OBC/category relaxation even if they belong to that category in their home state."
+      },
+      {
+        question: "2. Is the exam CBT (Computer-Based) or OMR-based?",
+        answer: "The written test for all three posts is described as MCQ-based. The Clerk post additionally has a computer-based typing test (typed on computer, English, 30 NWPM minimum) that comes before the written test. The official notification doesn't explicitly use the words \"CBT\" or \"OMR\" for the written paper in available sources — if this matters for your prep (OMR bubble-sheet vs on-screen computer test), it's worth double-checking the exact mode in the detailed notification PDF or the university's exam-guidelines annexure, since this affects how you practice."
+      },
+      {
+        question: "3. What is the syllabus, and which books/batches are recommended?",
+        answer: "Syllabus (from the official pattern):\n\n• Staff Nurse & Ayurvedic Pharmacist (105 min, 90 marks, 90 Qs, no negative marking): Concerned subject/field – 50 marks; Reasoning & Mathematics – 10; Haryana GK & Current Affairs – 10; General English & Hindi – 10; Basic Computer Knowledge – 10.\n• Clerk (90 min, 70 marks, 70 Qs, after clearing typing test, no negative marking): Reasoning & Mathematics – 20; Haryana GK & Current Affairs – 20; General English & Hindi – 20; Basic Computer Knowledge – 10.\n\nRecommendation on coaching books or YouTube batches varies and changes fast; candidates are advised to check official study materials and course announcements."
+      },
+      {
+        question: "4. Is Haryana Registration or Haryana CET required?",
+        answer: "This is important and commonly confused with HSSC recruitments:\n\n• This is a university-level, direct recruitment by SKAU, not conducted through HSSC's CET (Common Eligibility Test) system. Based on the official pattern, SKAU is holding its own written test for each post — there's no mention of a CET Group-C/Group-D screening prerequisite in the official advertisement summary.\n• Staff Nurse applicants do need active \"A-grade Nurse\" registration with the Haryana Nurses Registration Council (or an equivalent body) — that's a professional registration requirement specific to the nursing post, not the same thing as Haryana CET."
+      },
+      {
+        question: "5. Can I apply with a provisional degree, or if my final-semester marksheet/registration renewal is pending?",
+        answer: "General practice in most Haryana recruitments is that you need the qualification/registration valid as on the closing date (21 August 2026) — provisional certificates are often accepted if the degree-awarding process is complete and only the final certificate is pending, but a renewal that is still \"in process\" with no valid certificate in hand is often risky. Please check the notification's exact wording before applying."
+      },
+      {
+        question: "6. Where do we send the hard copy of documents?",
+        answer: "Based on the how-to-apply steps in the official notification, this recruitment does not ask for a hard copy to be posted anywhere. The process is: fill the form online → pay fee → download the submitted application → sign every page → upload the scanned signed copy back onto the portal."
+      },
+      {
+        question: "7. Is this a permanent job or contractual?",
+        answer: "It's a regular, direct-recruitment permanent post under Haryana's AYUSH higher education system — not contractual. All selected candidates are posted at the SKAU campus in Kurukshetra (fixed location, not transferable)."
+      },
+      {
+        question: "8. Can ANM nurses or other nursing streams apply for the Staff Nurse post?",
+        answer: "The eligibility for Staff Nurse specifically requires GNM or B.Sc. Nursing plus A-grade Nurse registration with the Haryana Nurses Registration Council. ANM (Auxiliary Nurse Midwifery) is typically registered as a separate, lower category (not \"A-grade Nurse\") in most state nursing councils, so an ANM-only qualification generally would not meet this post's requirement."
+      },
+      {
+        question: "9. For Clerk — is it just a typing test, or is there also a written exam/degree requirement?",
+        answer: "It's a three-stage process, not typing-only:\n\n1) Typing test (10 min, 15 marks, 30 NWPM minimum, computer-based)\n2) Written MCQ test (90 min, 70 marks) — only for those who clear the typing test\n3) Academic Achievement marks (15 marks, based on 10th/12th/Graduation percentage), verified at document verification\n\nYou also need a Graduation degree to be eligible at all — it's not open to non-graduates."
+      },
+      {
+        question: "10. When will the exam be conducted / what's the expected exam date?",
+        answer: "The official notification (dated 28 July 2026) covers the application window (30 July – 21 August 2026). The confirmed exam date will be announced separately via admit cards after the application window closes. Keep checking skau.ac.in for official updates."
+      },
+      {
+        question: "11. Why is the application portal/link not opening?",
+        answer: "General troubleshooting to suggest: try a different browser, clear cache, avoid peak-hour traffic close to the deadline, and use the official portal URL directly (recruitment.skau.ac.in/nonteaching) rather than third-party links."
+      },
+      {
+        question: "12. Where will exam centers be located? Will there be a center in Lucknow/UP?",
+        answer: "Exam center details are typically released with the admit card, closer to the exam date on the official portal."
+      },
+      {
+        question: "13. What is the sequence of the selection process? Is it a single-day exam?",
+        answer: "For Clerk: typing test happens first (only qualifiers proceed to the written test), so it is sequential. For Staff Nurse/Ayurvedic Pharmacist: it's a single written test, followed later by a separate document verification round (in a 1:5 shortlisting ratio) where academic achievement marks are added."
+      },
+      {
+        question: "14. When will the syllabus video be uploaded?",
+        answer: "Content schedules depend on individual creators. The official written test syllabus is already published in the notification."
+      },
+      {
+        question: "15. Can science graduates apply for the Clerk post?",
+        answer: "Yes. The Clerk eligibility just requires a Graduate degree from a recognised university (plus the typing/computer criteria) — the notification doesn't restrict it to a specific stream like commerce or arts, so science graduates are eligible."
+      },
+      {
+        question: "16. How many total vacancies are there for Clerk?",
+        answer: "29 vacancies for Clerk (out of 60 total posts: Staff Nurse-25, Ayurvedic Pharmacist-6, Clerk-29)."
+      }
+    ]
   },
 
   'nlcil-apprentice-recruitment-2026': {
