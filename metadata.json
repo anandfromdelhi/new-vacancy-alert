@@ -1,0 +1,8 @@
+{
+  "name": "NewVacancyAlert.in",
+  "description": "Get the latest Government Jobs 2026 notifications including Central Government, State Government, Railway, Banking, SSC, UPSC, Police, Defence, PSU and Teaching vacancies with official PDFs and application links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

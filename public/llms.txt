@@ -1,0 +1,28 @@
+# NewVacancyAlert.in
+
+NewVacancyAlert.in is a high-speed, interactive visual dashboard and unified repository for verified Indian central and state government job notifications, admit cards, exam results, and academic timelines.
+
+## Core Services
+
+- **Unified Job Board**: Multi-column real-time filtering by category (Technical, Banking, Defense, Railway, Education, Medical) and active search query parameters.
+- **Detailed Directives**: Each job has a dedicated detail page detailing exact age limits, relaxation matrices, academic qualification rules, selection stages, step-by-step dispatch guidelines, required dossiers, and direct official PDF source references.
+- **Verification Engine**: 100% human-verified source notices with explicit red-alert warnings, yellow caution tips, and green general advisories to prevent candidate application errors.
+
+## Site Map & Key URIs
+
+- **Home Dashboard**: `https://newvacancyalert.in/` - Main repository with multi-attribute live list sorting (post counts, date published, deadlines).
+- **Search System**: `https://newvacancyalert.in/?q={search_term}` - Real-time keyword filter query parameter.
+- **Individual Job Entries**: `/vssc-apprentice-recruitment-2026`, `/indian-army-sscw-tech-68`, `/rites-am-mechanical-2026`, etc.
+
+## Data Schema & Entities
+
+Each recruitment notification contains structured parameters including:
+- `board`: Recruiting Government Authority or Organization.
+- `title`: Standard post names and total vacancy count.
+- `advtNo`: Official Advertisement Reference Number.
+- `vacancies`: Quantified active training/job positions.
+- `jobLocation`: Regional station or headquarters.
+- `applicationMode`: Online, Walk-In selection, or Offline postal dispatch.
+- `eligibility`: Education requirements, exact age limits, and medical fitness parameters.
+- `salary`: Consolidated pay scales or monthly stipend values.
+- `faqs`: 10-30 verified question-and-answer pairs per job post.

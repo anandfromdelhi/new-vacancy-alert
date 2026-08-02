@@ -1,0 +1,38 @@
+{
+  "rulesVersion": "2",
+  "authEnabled": true,
+  "collections": [
+    {
+      "name": "marketingPartners",
+      "path": "marketingPartners/{userId}",
+      "description": "Stores marketing partner registration details",
+      "rules": {
+        "read": [
+          {
+            "condition": "request.auth != null && request.auth.uid == userId",
+            "description": "Users can read their own profile"
+          }
+        ],
+        "create": [
+          {
+            "condition": "request.auth != null && request.auth.uid == userId",
+            "description": "Users can create their own profile"
+          }
+        ],
+        "update": [
+          {
+            "condition": "request.auth != null && request.auth.uid == userId",
+            "description": "Users can update their own profile"
+          }
+        ],
+        "delete": [
+          {
+            "condition": "false",
+            "description": "Profiles cannot be deleted"
+          }
+        ]
+      },
+      "indexes": []
+    }
+  ]
+}

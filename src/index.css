@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E40AF;
+  --color-primary-hover: #1e3a8a;
+  --color-accent: #16A34A;
+  --color-bg-light: #F8FAFC;
+  --color-text-dark: #111827;
+}
+
+@layer base {
+  :root {
+    --background: #F8FAFC;
+    --foreground: #111827;
+    --card: #ffffff;
+    --card-foreground: #111827;
+    --border: #e2e8f0;
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] antialiased transition-colors duration-200;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@media print {
+  /* Force exact color reproduction (background colors, gradients, text colors, borders, badges) */
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Hide non-printable UI elements */
+  nav, header, footer, .print\:hidden,
+  button, input, select, textarea,
+  [role="dialog"], .fixed {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Expand containers for full width clean print layout */
+  .max-w-6xl, .max-w-7xl, .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Ensure two-column grids display cleanly on page */
+  .grid {
+    display: grid !important;
+  }
+
+  /* Prevent awkward page breaks inside cards, sections, and tables */
+  section, article, table, tr, .bg-white, .rounded-2xl, .rounded-xl {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
