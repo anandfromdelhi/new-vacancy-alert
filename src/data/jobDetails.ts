@@ -58,6 +58,344 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026': {
+    id: 'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026',
+    seoTitle: 'IBPS CSA Clerk Recruitment 2026 (CRP CSA-XVI) - Apply Online for 11,102 Posts',
+    seoDescription: 'Institute of Banking Personnel Selection (IBPS) CRP CSA-XVI notification out for 11,102 Customer Service Associate (Clerk) vacancies in 11 Public Sector Banks. Pay Scale Rs 24,050 - 64,480. Any Graduate apply online at ibps.in from 1 to 21 August 2026.',
+    focusKeywords: 'IBPS Clerk Recruitment 2026, IBPS CSA XVI Vacancy 2026, Customer Service Associate IBPS Jobs, ibps in apply online, Bank Clerk Recruitment 2026',
+    lsiKeywords: 'ibps crp csa xvi notification pdf download, ibps clerk state wise vacancies 2026, ibps csa preliminary main exam pattern syllabus, ibps clerk age limit salary pay scale',
+    title: 'IBPS Customer Service Associate (CSA / Clerk) Recruitment 2026 (CRP CSA-XVI) – 11,102 Vacancies in 11 Participating Public Sector Banks across India | Apply Online at ibps.in from 01 to 21 August 2026',
+    board: 'Institute of Banking Personnel Selection (IBPS), Mumbai on behalf of 11 Participating Public Sector Banks',
+    advtNo: 'Notification: CRP CSA-XVI (Vacancies of 2027-28) Dated 01.08.2026',
+    vacancies: 11102,
+    jobLocation: 'Participating Public Sector Banks across all 36 States and Union Territories of India',
+    applicationMode: 'Online Application via IBPS Official Website (https://www.ibps.in)',
+    applicationStatus: 'Active - Online Registration & Fee Payment Window: 01 August 2026 to 21 August 2026',
+    lastUpdated: 'August 01, 2026',
+    overview: [
+      'Institute of Banking Personnel Selection (IBPS), an autonomous body authorized by Public Sector Banks in India, has released official recruitment notification for Common Recruitment Process CRP CSA-XVI for vacancies of 2027-28.',
+      'This nationwide recruitment drive is conducted for filling 11,102 Customer Service Associate (CSA / Clerical Cadre) vacancies across 11 Participating Public Sector Banks: Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Indian Bank, Indian Overseas Bank, Punjab National Bank, Punjab & Sind Bank, UCO Bank, and Union Bank of India.',
+      'Total Vacancies: 11,102 State-wise & Category-wise Customer Service Associate (CSA) Posts across all States & UTs of India (Uttar Pradesh: 1731, Karnataka: 1414, Maharashtra: 1051, West Bengal: 946, Gujarat: 698, Tamil Nadu: 675, Madhya Pradesh: 570, Bihar: 491, Punjab: 481, Delhi: 415, Rajasthan: 392, Assam: 349, Odisha: 337, etc.).',
+      'Pay Scale & Compensation: Basic Pay Scale Rs. 24,050 - 1340/3 - 28070 - 1650/3 - 33020 - 2000/4 - 41020 - 2340/7 - 57400 - 4400/1 - 61800 - 2680/1 - 64,480/-. CSAs are eligible for DA, HRA, CCA, Transport, Special Allowance, Medical reimbursement, and perquisites as per Bipartite Settlement / Bank rules.',
+      'Educational Qualification (as on 21.08.2026): Graduation / Bachelor’s Degree in any discipline from a recognized University by Govt of India. Computer literacy (operating knowledge/diploma/degree or studied in school) and proficiency in the specified local language of the State/UT applied for are mandatory.',
+      'Age Limit (as on 01.08.2026): Minimum 20 Years, Maximum 28 Years (born between 02.08.1998 and 01.08.2006). Age relaxation: +5 Yrs for SC/ST (up to 33 Yrs), +3 Yrs for OBC NCL (up to 31 Yrs), +10 Yrs for PwBD (up to 38-43 Yrs), Ex-Servicemen as per rules.',
+      'Application Fee: Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM/DESM candidates; Rs. 850/- (inclusive of GST) for all other candidates (UR/OBC/EWS). Payable online via Debit/Credit Cards, Net Banking, IMPS, Wallets, UPI.',
+      'Selection Process: Two-tier Online Examinations — Phase 1: Online Preliminary Exam (100 Qs, 100 Marks, 60 Mins in Oct 2026) and Phase 2: Online Main Exam (160 Qs, 200 Marks, 125 Mins in Dec 2026). Final merit list and provisional allotment (March 2027) will be based solely on Main Exam scores.',
+      'How to Apply: Apply online at https://www.ibps.in -> CRP CSA -> "CLICK HERE TO APPLY ONLINE FOR CRP-CSA-XVI" between 01.08.2026 and 21.08.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Agency', value: 'Institute of Banking Personnel Selection (IBPS)' },
+      { label: 'Examination Name', value: 'CRP CSA-XVI (Common Recruitment Process for Customer Service Associates 2027-28)' },
+      { label: 'Total Vacancies', value: '11,102 Posts (State-wise & Category-wise in 11 Public Sector Banks)' },
+      { label: 'Participating Banks', value: '11 Banks (PNB, Bank of Baroda, Canara Bank, Union Bank, Bank of India, Indian Bank, Central Bank, IOB, UCO Bank, Bank of Maharashtra, Punjab & Sind Bank)' },
+      { label: 'Designation', value: 'Customer Service Associate (CSA / Clerical Cadre)' },
+      { label: 'Basic Pay Scale', value: 'Rs. 24,050 – 64,480/- per month + Allowances (DA, HRA, CCA, Medical)' },
+      { label: 'Application Fee', value: 'Rs. 175 (SC/ST/PwBD/ESM) | Rs. 850 (UR/OBC/EWS)' },
+      { label: 'Payment Modes', value: 'Online via Debit/Credit Card, Net Banking, IMPS, UPI' },
+      { label: 'Educational Qualification', value: 'Bachelor’s Degree (Graduation) in any discipline + Computer Literacy + Local Language' },
+      { label: 'Age Limit (as on 01.08.2026)', value: '20 to 28 Years (UR/EWS) | SC/ST: 33 Yrs | OBC: 31 Yrs | PwBD: 38-43 Yrs' },
+      { label: 'Prelims Exam Date', value: 'October 2026 (Call Letter in September 2026)' },
+      { label: 'Mains Exam Date', value: 'December 2026 (Call Letter in November 2026)' },
+      { label: 'Provisional Allotment Date', value: 'March 2027' },
+      { label: 'Official Portal', value: 'https://www.ibps.in' }
+    ],
+    importantDates: [
+      { event: 'Official CRP CSA-XVI Notification Release Date', date: '01-08-2026' },
+      { event: 'Online Registration Window & Fee Payment', date: '01-08-2026 to 21-08-2026' },
+      { event: 'Application Form Edit Window', date: '2 days after registration closure' },
+      { event: 'Conduct of Pre-Examination Training (PET)', date: 'September 2026' },
+      { event: 'Download of Call Letters for Online Preliminary Examination', date: 'September 2026' },
+      { event: 'Online Examination – Preliminary', date: 'October 2026' },
+      { event: 'Result of Online Preliminary Examination', date: 'November 2026' },
+      { event: 'Download of Call Letters for Online Main Examination', date: 'November 2026' },
+      { event: 'Online Examination – Main', date: 'December 2026' },
+      { event: 'Declaration of Provisional Allotment', date: 'March 2027' }
+    ],
+    vacanciesDetails: [
+      { category: 'Uttar Pradesh', count: '1,731 Vacancies (UR: 672, OBC: 508, SC: 375, EWS: 159, ST: 17)' },
+      { category: 'Karnataka', count: '1,414 Vacancies (UR: 567, OBC: 386, SC: 224, EWS: 136, ST: 101)' },
+      { category: 'Maharashtra', count: '1,051 Vacancies (UR: 452, OBC: 291, SC: 117, EWS: 95, ST: 96)' },
+      { category: 'West Bengal', count: '946 Vacancies (UR: 354, SC: 236, OBC: 224, EWS: 83, ST: 49)' },
+      { category: 'Gujarat', count: '698 Vacancies (UR: 288, OBC: 194, SC: 50, ST: 103, EWS: 63)' },
+      { category: 'Tamil Nadu', count: '675 Vacancies (UR: 262, OBC: 213, SC: 137, EWS: 58, ST: 5)' },
+      { category: 'Madhya Pradesh', count: '570 Vacancies (UR: 218, SC: 91, ST: 114, OBC: 98, EWS: 49)' },
+      { category: 'Bihar', count: '491 Vacancies (UR: 213, OBC: 146, SC: 89, EWS: 42, ST: 1)' },
+      { category: 'Punjab', count: '481 Vacancies (UR: 185, SC: 150, OBC: 106, EWS: 40, ST: 0)' },
+      { category: 'Delhi (NCT)', count: '415 Vacancies (UR: 156, OBC: 123, SC: 65, EWS: 36, ST: 35)' },
+      { category: 'Rajasthan', count: '392 Vacancies (UR: 153, OBC: 84, SC: 67, ST: 53, EWS: 35)' },
+      { category: 'Assam', count: '349 Vacancies (UR: 155, OBC: 97, ST: 41, EWS: 30, SC: 26)' },
+      { category: 'Odisha', count: '337 Vacancies (UR: 143, ST: 70, SC: 55, OBC: 40, EWS: 29)' },
+      { category: 'Chhattisgarh', count: '265 Vacancies (UR: 114, ST: 82, SC: 33, EWS: 23, OBC: 13)' },
+      { category: 'Haryana', count: '196 Vacancies (UR: 86, OBC: 56, SC: 39, EWS: 15, ST: 0)' },
+      { category: 'Telangana', count: '191 Vacancies (UR: 80, OBC: 48, SC: 29, ST: 18, EWS: 16)' },
+      { category: 'Andhra Pradesh', count: '186 Vacancies (UR: 75, OBC: 53, SC: 33, EWS: 14, ST: 11)' },
+      { category: 'Other States & UTs (36 Total)', count: '2,094 Vacancies (Jharkhand: 182, Uttarakhand: 145, Kerala: 108, HP: 97, J&K: 67, Tripura: 64, Goa: 61, Manipur: 42, Nagaland: 31, Sikkim: 28, Puducherry: 26, Meghalaya: 22, Chandigarh: 20, A&N: 18, DNH: 18, Mizoram: 17, Lakshadweep: 11, Daman & Diu: 7, Ladakh: 6)' },
+      { category: 'Total Indicative Vacancies Across India', count: '11,102 Vacancies' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Participating Public Sector Banks', count: 'Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Indian Bank, Indian Overseas Bank, Punjab National Bank, Punjab & Sind Bank, UCO Bank, Union Bank of India' }
+    ],
+    eligibility: {
+      education: [
+        'Bachelor’s Degree (Graduation) in any discipline from a University recognized by the Government of India or any equivalent qualification recognized as such by the Central Government.',
+        'Educational Result Date: The candidate must possess valid Mark-sheet / Degree Certificate proving graduation on or before 21.08.2026.',
+        'Computer Literacy: Operating and working knowledge in computer systems is mandatory. Candidates should possess a Certificate/Diploma/Degree in computer operations/language OR must have studied Computer/Information Technology as a subject in High School/College.',
+        'Local Language Proficiency: Candidates must be proficient in (reading, writing, speaking, and understanding) the specified local language of the State/UT applied for (refer to Annexure III).'
+      ],
+      experience: [
+        'Fresh Graduates are eligible to apply. No prior work experience is required for Customer Service Associate (Clerk) posts.'
+      ],
+      ageLimit: 'Calculated as on 01.08.2026: Minimum 20 Years, Maximum 28 Years (Candidate must be born between 02.08.1998 and 01.08.2006, both dates inclusive).',
+      ageRelaxation: [
+        { category: 'Scheduled Caste / Scheduled Tribe (SC / ST)', relaxation: '5 Years relaxation (Upper age limit: 33 Years)' },
+        { category: 'Other Backward Classes (OBC Non-Creamy Layer)', relaxation: '3 Years relaxation (Upper age limit: 31 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years relaxation (UR/EWS: 38 Yrs | OBC: 41 Yrs | SC/ST: 43 Yrs)' },
+        { category: 'Ex-Servicemen (ESM) / Disabled Ex-Servicemen (DESM)', relaxation: 'Military Service + 3 Years (Max 50 Years; SC/ST DESM Max 50 Yrs)' },
+        { category: 'Widows, Divorced Women & Legally Separated Women', relaxation: 'Concession up to 35 Yrs (UR/EWS), 38 Yrs (OBC), 40 Yrs (SC/ST)' }
+      ],
+      medicalStandards: [
+        'Selected candidates must satisfy medical fitness standards set by the Allotted Participating Bank.'
+      ]
+    },
+    salary: {
+      payLevel: 'Customer Service Associate (CSA / Clerical Cadre) Pay Scale under Bipartite Settlement',
+      initialPay: 'Basic Pay Scale: Rs. 24,050 – 1340/3 – 28070 – 1650/3 – 33020 – 2000/4 – 41020 – 2340/7 – 57400 – 4400/1 – 61800 – 2680/1 – 64,480/- per month',
+      allowances: 'Eligible for Dearness Allowance (DA), House Rent Allowance (HRA), City Compensatory Allowance (CCA), Transport Allowance, Special Allowance, Medical benefits, and perquisites as per Bank rules.'
+    },
+    applicationFee: [
+      { category: 'SC / ST / PwBD / ESM / DESM Candidates', fee: 'Rs. 175/- (inclusive of GST)', refund: 'Non-refundable intimation charges' },
+      { category: 'All Other Candidates (General UR / OBC / EWS)', fee: 'Rs. 850/- (inclusive of GST)', refund: 'Non-refundable application fee' }
+    ],
+    howToPayFee: [
+      'Pay online between 01.08.2026 and 21.08.2026 through the integrated payment gateway.',
+      'Payment modes accepted: Debit Cards (RuPay/Visa/MasterCard/Maestro), Credit Cards, Internet Banking, IMPS, Cash Cards / Mobile Wallets, UPI.',
+      'Upon successful payment, an e-receipt is generated. Print the e-receipt and application form.'
+    ],
+    selectionProcess: [
+      { stage: '1. Online Preliminary Examination (October 2026)', description: 'Objective test of 100 questions (100 marks, 60 mins): English (30 Qs), Numerical Ability (35 Qs), Reasoning Ability (35 Qs). Qualifying test to shortlist candidates for Mains.' },
+      { stage: '2. Online Main Examination (December 2026)', description: 'Objective test of 160 questions (200 marks, 125 mins): General/Financial Awareness (40 Qs, 50 Marks), General English (40 Qs, 40 Marks), Reasoning (40 Qs, 60 Marks), Quant Aptitude (40 Qs, 50 Marks).' },
+      { stage: '3. Local Language Proficiency Test (LLPT)', description: 'Qualified Mains candidates who did not study specified local language in 10th/12th will undergo LLPT conducted by Bank.' },
+      { stage: '4. Provisional Allotment (March 2027)', description: 'Merit-cum-preference provisional allotment to Participating Banks based solely on Online Main Examination marks.' }
+    ],
+    reservation: {
+      title: 'Reservation & Relaxation Rules',
+      detailsList: [
+        'Reservations for SC, ST, OBC-NCL, EWS, and PwBD as per Government of India guidelines.',
+        'State/UT wise reservation quota applicable based on candidate’s domicile/chosen state.',
+        'Scribe facility and 20 mins per hour compensatory time for eligible PwBD candidates.'
+      ]
+    },
+    howToApply: [
+      'Visit IBPS official website: https://www.ibps.in.',
+      'Click on "CRP CSA" -> "CLICK HERE TO APPLY ONLINE FOR CRP- Customer Service Associates (CRP-CSA-XVI)".',
+      'Click "CLICK HERE FOR NEW REGISTRATION" and enter Name, Email ID, and Mobile Number to generate Registration Number & Password.',
+      'Upload scanned recent passport photo (20-50KB, 200x230px), signature (10-20KB, 140x60px), left thumb impression (20-50KB, 240x240px), handwritten declaration (50-100KB, 800x400px), and 10th/Graduation certificate.',
+      'Select state of application, bank preferences, and pay fee (Rs. 175 SC/ST/PwBD or Rs. 850 Others) via UPI/Debit/Credit Card/Net Banking.',
+      'Submit form and print system-generated application form and e-receipt.'
+    ],
+    documentsRequired: [
+      'Proof of Date of Birth (Class 10th / SSLC Mark Sheet or Birth Certificate).',
+      'Graduation Degree Certificate / Consolidated Mark Sheet proving result on or before 21.08.2026.',
+      'Certificate/Diploma/Degree proving Computer Knowledge or mark sheet showing Computer/IT subject.',
+      'Class 10th or above mark sheet evidencing study of specified local language (if applicable).',
+      'Caste Certificate for SC / ST / OBC (NCL) in prescribed Govt of India format.',
+      'EWS Income and Asset Certificate (valid for FY 2026-27 issued on or after 01.04.2026).',
+      'Disability Certificate (PwBD) / Discharge Certificate (Ex-Servicemen).',
+      'Scanned Photograph, Signature, Left Thumb Impression, and Handwritten Declaration.'
+    ],
+    importantInstructions: [
+      'State/UT Application Rule: Candidates can apply for vacancies in only ONE State / UT.',
+      'Negative Marking: 0.25 marks deducted for each wrong answer in both Preliminary and Main exams.',
+      'Result Declaration Date: Final graduation result must be declared on or before 21.08.2026.',
+      'DigiLocker Integration: Candidates can optionally link credentials via DigiLocker.',
+      'Application edit window: Available for 2 days after closure of registration.'
+    ],
+    urls: [
+      { label: 'IBPS Official Website Homepage', url: 'https://www.ibps.in' },
+      { label: 'IBPS CRP CSA Online Application Portal', url: 'https://www.ibps.in' },
+      { label: 'IBPS Online Grievance System', url: 'https://cgrs.ibps.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in IBPS Clerk / CSA Recruitment 2026 (CRP CSA-XVI)?', answer: 'IBPS has advertised 11,102 indicative Customer Service Associate (CSA / Clerical Cadre) vacancies across 11 Participating Public Sector Banks in 36 States and Union Territories.' },
+      { question: 'What are the online registration dates for IBPS CRP CSA-XVI?', answer: 'Online registration and fee payment window is open from 01st August 2026 to 21st August 2026 on www.ibps.in.' },
+      { question: 'When will the IBPS Clerk / CSA Preliminary and Main Exams be conducted?', answer: 'The Online Preliminary Examination will be conducted in October 2026 (Call letter in Sept 2026), and the Online Main Examination will be conducted in December 2026 (Call letter in Nov 2026). Provisional allotment will take place in March 2027.' },
+      { question: 'What is the application fee for IBPS Clerk / CSA 2026?', answer: 'The fee is Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM/DESM candidates, and Rs. 850/- (inclusive of GST) for General (UR), OBC, and EWS candidates.' },
+      { question: 'Can a candidate apply for more than one State / UT?', answer: 'No, candidates can apply for vacancies in only ONE State or Union Territory.' },
+      { question: 'Is there any interview for IBPS Customer Service Associate (Clerk) posts?', answer: 'No, there is NO interview for clerical/CSA posts. Selection is based 100% on marks obtained in the Online Main Examination, subject to qualifying the Local Language Proficiency Test (LLPT) if applicable.' }
+    ]
+  },
+  'rcf-ltd-management-trainee-recruitment-2026': {
+    id: 'rcf-ltd-management-trainee-recruitment-2026',
+    seoTitle: 'RCF Ltd Management Trainee Recruitment 2026 - Apply Online for 94 MT Posts',
+    seoDescription: 'Rashtriya Chemicals & Fertilizers Limited (RCF Ltd) Navratna PSU notification out for 94 Management Trainee (MT) vacancies in Chemical, Electrical, Mechanical, IT, Finance & Marketing. Stipend Rs 60,000/pm, Pay scale Rs 40,000 - 1,40,000. BE/B.Tech/MBA/CA/CMA apply online at rcfltd.com from 8 to 24 August 2026.',
+    focusKeywords: 'RCF Ltd Management Trainee Recruitment 2026, RCF Mumbai Vacancy 2026, RCF MT Chemical Mechanical Electrical Jobs, rcfltd com apply online, RCF Navratna PSU Recruitment',
+    lsiKeywords: 'rcf ltd advertisement no 16022026, rcf management trainee salary stipend age limit, rcf mt online test syllabus pattern, rashtriya chemicals and fertilizers chembur trombay thal jobs',
+    title: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) Management Trainee Recruitment 2026 – 94 Vacancies for MT in Chemical, Electrical, Instrumentation, Finance, Marketing, IT, Mechanical, Civil, Fire & Others | Apply Online at rcfltd.com from 08 to 24 August 2026',
+    board: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Government of India Navratna Undertaking (Administrative Building, Chembur, Mumbai – 400074, Maharashtra)',
+    advtNo: 'Advertisement No.: 16022026',
+    vacancies: 94,
+    jobLocation: 'RCF Manufacturing Units at Trombay (Chembur, Mumbai) and Thal (Dist. Raigad, Maharashtra), Area Marketing Offices across India, or any RCF project site',
+    applicationMode: 'Online Application via RCF Official Website (https://www.rcfltd.com)',
+    applicationStatus: 'Upcoming / Active - Registration Window: 08 August 2026 (08:00 AM) to 24 August 2026 (05:00 PM)',
+    lastUpdated: 'August 02, 2026',
+    overview: [
+      'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) — a leading profit-making "Navratna" Government of India Public Sector Undertaking (PSU) under the Ministry of Chemicals and Fertilizers with operational revenues exceeding Rs. 18,690.90 crores — has released official advertisement No. 16022026 for recruitment of Management Trainees.',
+      'RCF Ltd operates state-of-the-art fertilizer and industrial chemical manufacturing units at Trombay (Chembur, Mumbai) and Thal (Dist. Raigad, Maharashtra) supported by a nationwide marketing network.',
+      'Total Vacancies: 94 Management Trainee (MT) Posts — MT Chemical (32), MT Boiler (06), MT Mechanical (04), MT Electrical (10), MT Instrumentation (09), MT Materials (01), MT Civil (01), MT Fire (01), MT CC Lab (01), MT Industrial Engineering (02), MT Information Technology (05), MT Rajbhasha (02), MT Finance (10), and MT Marketing (10).',
+      'Training Stipend & Pay Scale: Selected candidates undergo 1 year of training with a lump sum stipend of Rs. 60,000/- per month + Free lodging at company hostel in Trombay / Thal + Medical facility at RCF Hospital. Upon successful absorption into E1 Grade (Pay Scale Rs. 40,000 – 1,40,000/-), minimum total monthly gross emoluments will be approximately Rs. 86,320/- per month (Basic Pay + VDA 51.80% + Perks 34% + HRA 30%).',
+      'Application Fee: Rs. 1,000/- (plus bank charges and applicable GST) for General (UR), OBC (NCL), and EWS candidates. SC, ST, ExSM, PwBD, and Female candidates are completely EXEMPTED from paying any application fee.',
+      'Age Limit (as on 01.02.2026): Upper age limit for UR / EWS is 27 years (32 years for Ph.D CC Lab). Age relaxation: +5 Yrs for SC/ST (up to 32 Yrs), +3 Yrs for OBC NCL (up to 30 Yrs), +10 to 15 Yrs for PwBD candidates.',
+      'Selection Process: Computer-Based Online Test (90 Minutes, 100 Questions: 50 Domain + 50 Aptitude/English/Reasoning/GK) carrying 80% weightage, followed by Personal Interview carrying 20% weightage (shortlisting ratio 1:7).',
+      'How to Apply: Visit www.rcfltd.com -> HR -> RECRUITMENT -> "APPLY ONLINE" between 08.08.2026 (08:00 AM) and 24.08.2026 (05:00 PM). Upload photo (20-50KB), signature (10-20KB), left thumb impression, and handwritten declaration.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organisation', value: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Govt of India Navratna PSU' },
+      { label: 'Advertisement Number', value: 'Advertisement No.: 16022026' },
+      { label: 'Total Vacancies', value: '94 Posts (Management Trainee across 14 Disciplines)' },
+      { label: 'MT Chemical', value: '32 Posts (UR: 12, SC: 05, ST: 03, OBC: 09, EWS: 03)' },
+      { label: 'MT Electrical & Instrumentation', value: 'Electrical: 10 Posts | Instrumentation: 09 Posts' },
+      { label: 'MT Mechanical & Civil & Fire', value: 'Mechanical: 04 Posts | Civil: 01 Post | Fire: 01 Post | Boiler: 06 Posts' },
+      { label: 'MT IT & Industrial Engg & Materials', value: 'IT: 05 Posts | Industrial Engg: 02 Posts | Materials: 01 Post | CC Lab: 01 Post' },
+      { label: 'MT Finance & Marketing & Rajbhasha', value: 'Finance: 10 Posts | Marketing: 10 Posts | Rajbhasha: 02 Posts' },
+      { label: 'Training Stipend', value: 'Rs. 60,000/- per month lump sum + Free shared hostel accommodation & medical' },
+      { label: 'Absorbed Pay Scale (E1 Grade)', value: 'Rs. 40,000 – 1,40,000/- (Gross Emoluments: approx Rs. 86,320/- per month)' },
+      { label: 'Application Fee', value: 'Rs. 1,000 + GST (UR/OBC/EWS) | NIL / Exempted for SC, ST, PwBD, ExSM & Female Candidates' },
+      { label: 'Online Application Window', value: '08th August 2026 (08:00 AM) to 24th August 2026 (05:00 PM)' },
+      { label: 'Age Limit (UR/EWS as on 01.02.2026)', value: 'Max 27 Years (SC/ST: 32 Yrs | OBC: 30 Yrs | PwBD: 37-42 Yrs)' },
+      { label: 'Test Centres', value: 'Bhopal, Delhi/NCR, Lucknow, Hyderabad, Bengaluru, Chennai, Guwahati, Kolkata, Mumbai/Navi Mumbai, Nagpur' },
+      { label: 'Official Website', value: 'https://www.rcfltd.com' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Publication Date', date: '02-08-2026' },
+      { event: 'Commencement of Online Registration of Application', date: '08-08-2026 at 08:00 AM' },
+      { event: 'Last Date for Online Registration & Application Fee Payment', date: '24-08-2026 at 05:00 PM' },
+      { event: 'Cut-off Date for Reckoning Eligibility (Age & Qualifications)', date: '01-02-2026' },
+      { event: 'Download of Call Letter & CBT Examination Date', date: 'To be published on www.rcfltd.com' }
+    ],
+    vacanciesDetails: [
+      { category: 'Management Trainee (Chemical)', count: '32 Posts (UR: 12, SC: 05, ST: 03, OBC-NCL: 09, EWS: 03)' },
+      { category: 'Management Trainee (Boiler)', count: '06 Posts (SC: 02, ST: 02, EWS: 02)' },
+      { category: 'Management Trainee (Mechanical)', count: '04 Posts (UR: 01, OBC-NCL: 02, EWS: 01)' },
+      { category: 'Management Trainee (Electrical)', count: '10 Posts (UR: 04, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
+      { category: 'Management Trainee (Instrumentation)', count: '09 Posts (UR: 03, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
+      { category: 'Management Trainee (Materials)', count: '01 Post (OBC-NCL: 01)' },
+      { category: 'Management Trainee (Civil)', count: '01 Post (OBC-NCL: 01)' },
+      { category: 'Management Trainee (Fire)', count: '01 Post (OBC-NCL: 01)' },
+      { category: 'Management Trainee (CC Lab)', count: '01 Post (EWS: 01)' },
+      { category: 'Management Trainee (Industrial Engineering)', count: '02 Posts (UR: 01, EWS: 01)' },
+      { category: 'Management Trainee (Information Technology)', count: '05 Posts (UR: 02, SC: 01, OBC-NCL: 02)' },
+      { category: 'Management Trainee (Rajbhasha)', count: '02 Posts (UR: 02)' },
+      { category: 'Management Trainee (Finance)', count: '10 Posts (UR: 05, SC: 01, ST: 01, OBC-NCL: 02, EWS: 01)' },
+      { category: 'Management Trainee (Marketing)', count: '10 Posts (UR: 04, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
+      { category: 'Total Sanctioned Management Trainee Vacancies', count: '94 Posts' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Trombay Unit (Chembur, Mumbai, Maharashtra)', count: 'Manufacturing Plant Operations, Process Control & Lab Units' },
+      { region: 'Thal Unit (Dist. Raigad, Maharashtra)', count: 'Large Scale Fertilizer Production & Maintenance Units' },
+      { region: 'All India Area Marketing Offices', count: 'Nationwide Marketing, Distribution & Field Sales Offices' }
+    ],
+    eligibility: {
+      education: [
+        'MT Chemical (32 Posts): 4 years B.E. / B.Tech in Chemical Engineering / Chemical Technology / Petrochemical Engineering / Petrochemical Technology OR 3-year B.E/B.Tech after 3-year Diploma OR Dual/Integrated degree.',
+        'MT Boiler (06 Posts): 4 years B.E. / B.Tech in Chemical / Petrochemical / Mechanical / Instrumentation / Electrical discipline + Mandatory valid Boiler Operation Engineer’s Certificate (BOE) / Boiler Proficiency Certificate.',
+        'MT Mechanical (04 Posts): 4 years B.E. / B.Tech in Mechanical Engineering / Civil & Infrastructure / Construction Technology / Allied Engineering.',
+        'MT Electrical (10 Posts): 4 years B.E. / B.Tech in Electrical Engineering / Electrical and Power Engineering / Electrical Power Engineering.',
+        'MT Instrumentation (09 Posts): 4 years B.E. / B.Tech in Instrumentation Engineering / Instrumentation Technology / Instrumentation & Control Engineering.',
+        'MT Materials (01 Post): 4 years B.E. / B.Tech in Chemical / Mechanical / Electrical / Instrumentation / Petrochemical / Civil Engineering.',
+        'MT Civil (01 Post): 4 years B.E. / B.Tech in Civil Engineering / Civil & Infrastructure Engineering / Construction Technology & Management.',
+        'MT Fire (01 Post): 4 years B.E. / B.Tech in Fire or Fire & Safety Engineering.',
+        'MT CC Lab (01 Post): Ph.D. in Chemistry OR 4-year B.E./B.Tech in Chemical Engg / Petrochemical Engg / Chemical Tech.',
+        'MT Industrial Engineering (02 Posts): 4 years B.E./B.Tech in Industrial Engineering OR B.E./B.Tech in any discipline + 2-year full-time PG Degree/Diploma in Industrial Engineering / Industrial Engg & Management.',
+        'MT Information Technology (05 Posts): 4 years B.E. / B.Tech in Information Technology / Computer Science / Computer Technology / Computer Engineering.',
+        'MT Rajbhasha (02 Posts): Master’s degree in Hindi with English as compulsory/elective subject at degree level OR Master’s degree in English with Hindi.',
+        'MT Finance (10 Posts): Chartered Accountant (CA) / Cost Accountant (CMA) OR 2-year full-time MBA (Finance) / MMS (Finance) / PGDM (Finance) / PGDBM (Finance) after Graduation in Commerce (B.Com, BMS, BAF, BBA).',
+        'MT Marketing (10 Posts): 2-year full-time MBA / MMS / PGDM / PGDBM with specialization in Marketing / Agri. Business Management / Agriculture after B.Sc / B.E / B.Tech / B.Sc Agriculture.'
+      ],
+      experience: [
+        'No post-qualification experience required for MT posts (except BOE Certificate for MT Boiler). Candidates in final year of Graduation/Post-Graduation are NOT eligible.'
+      ],
+      ageLimit: 'Upper age limit as on 01.02.2026: UR / EWS: Max 27 Years (Ph.D CC Lab: 32 Yrs) | SC / ST: Max 32 Years | OBC (NCL): Max 30 Years.',
+      ageRelaxation: [
+        { category: 'SC / ST Category Candidates', relaxation: '5 Years relaxation (Upper age limit: 32 Years)' },
+        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years relaxation (Upper age limit: 30 Years)' },
+        { category: 'PwBD Candidates (UR / EWS)', relaxation: '10 Years relaxation (Upper age limit: 37 Years)' },
+        { category: 'PwBD Candidates (OBC NCL)', relaxation: '13 Years relaxation (Upper age limit: 40 Years)' },
+        { category: 'PwBD Candidates (SC / ST)', relaxation: '15 Years relaxation (Upper age limit: 42 Years)' },
+        { category: '1984 Riot Victims Children/Family', relaxation: '5 Years additional age concession' }
+      ],
+      medicalStandards: [
+        'Candidates must meet pre-employment medical standards prescribed by RCF Ltd Physician (physical exam, audiometry, ECG, vision, chest X-ray, lung function, BMI).'
+      ]
+    },
+    salary: {
+      payLevel: '1-Year Training Period Stipend & Post-Absorption E1 Grade Pay Scale',
+      initialPay: 'Training Period: Rs. 60,000/- per month lump sum stipend + Free shared hostel accommodation. Absorbed Pay Scale (E1 Grade): Rs. 40,000 – 1,40,000/- (Initial Monthly Gross Emoluments approx Rs. 86,320/- per month).',
+      allowances: 'Includes Basic Pay + VDA (51.80%) + Perks (34%) + HRA (30%). On absorption: Company accommodation, Performance Related Pay (PRP), Free Medical facility for self & dependents, Gratuity, Contributory PF, Pension & Social Security schemes. Marketing trainees get Rs. 5,000/pm fixed allowance.'
+    },
+    applicationFee: [
+      { category: 'General (UR) / OBC (NCL) / EWS Candidates', fee: 'Rs. 1,000/- plus Bank Charges + GST', refund: 'Non-refundable application fee' },
+      { category: 'SC / ST / ExSM / PwBD / Female Candidates', fee: 'NIL (Exempted)', refund: 'Exempted from payment of application fee' }
+    ],
+    howToPayFee: [
+      'Pay Rs. 1,000/- online during application form submission via integrated payment gateway.',
+      'Payment modes accepted: Debit Cards (RuPay/Visa/MasterCard/Maestro), Credit Cards, Internet Banking, IMPS, Cash Cards / Mobile Wallets.',
+      'Take printout of e-receipt and online application form after successful transaction.'
+    ],
+    selectionProcess: [
+      { stage: '1. Online Computer-Based Test (CBT)', description: '90 Minutes online test with 100 questions (50 Domain curriculum questions @ 2 marks each + 50 General English, Quant, Reasoning & GK questions @ 1 mark each). Negative marking applicable.' },
+      { stage: '2. Document Scrutiny & Verification', description: 'Scrutiny of uploaded certificates, mark sheets, age proof, degree certificates, caste validity, and BOE certificates.' },
+      { stage: '3. Personal Interview', description: 'Shortlisted candidates (ratio 1:7) called for Personal Interview. Outstation SC/ST candidates reimbursed III-Tier AC rail fare.' },
+      { stage: '4. Final Selection & Medical Exam', description: 'Final merit list prepared with 80% weightage for Online Test + 20% weightage for Personal Interview (min 50% marks in interview). Subject to Pre-Employment Medical Fitness.' }
+    ],
+    reservation: {
+      title: 'Reservation & Relaxation Guidelines',
+      detailsList: [
+        'Reservations for SC, ST, OBC-NCL, EWS, and PwBD as per Government of India DPE guidelines.',
+        'OBC (NCL) candidates must submit certificate issued on or after 1st April 2025.',
+        'SC/ST/ExSM/PwBD/Female candidates are completely exempted from payment of application fee.'
+      ]
+    },
+    howToApply: [
+      'Visit official website www.rcfltd.com -> HR -> RECRUITMENT.',
+      'Click on "APPLY ONLINE" for Advt. No. 16022026 between 08/08/2026 (08:00 AM) and 24/08/2026 (05:00 PM).',
+      'Click "Click here for New Registration" and fill Name, Mobile Number, and Email ID to generate Provisional Registration Number & Password.',
+      'Upload scanned passport photo (20KB - 50KB, 200x230px), signature in black ink (10KB - 20KB, 140x60px), left thumb impression (20KB - 50KB, 240x240px), and handwritten declaration (50KB - 100KB, 800x400px).',
+      'Fill education details, percentage in final year graduation/post-graduation, and post preference.',
+      'Pay Rs. 1,000/- application fee online via Debit Card / Credit Card / Net Banking (SC/ST/PwBD/Female exempted).',
+      'Click "COMPLETE REGISTRATION" and print system-generated application form for future record.'
+    ],
+    documentsRequired: [
+      'Class 10th / Matriculation School Certificate (Proof of Age).',
+      'Final Year Graduation (B.E / B.Tech / B.Sc / B.Com) Mark sheet & Degree Certificate showing aggregate percentage.',
+      'Post-Graduation (MBA / MMS / PGDM / M.Sc / Ph.D) Semester-wise Mark sheets & Degree Certificate.',
+      'Boiler Operation Engineer’s Certificate (BOE) / Boiler Proficiency Certificate (for MT Boiler).',
+      'Caste Certificate (SC/ST/OBC-NCL in Central Govt format) & Caste Validity Certificate (for Maharashtra candidates).',
+      'EWS Income and Assets Certificate (issued on or after 1st April 2025).',
+      'Disability Certificate (PwBD min 40% disability) / Discharge Certificate (Ex-Servicemen).',
+      'Scanned Passport Photograph, Signature, Left Thumb Impression, and Handwritten Declaration.'
+    ],
+    importantInstructions: [
+      'Educational qualifications must be from UGC / AICTE recognized Universities / Institutions.',
+      'Minimum Percentage: Minimum 60% aggregate marks in Final Year of Graduation / Post-Graduation (55% for SC/ST category candidates).',
+      'Candidates in the final year of Graduation / Post-Graduation are NOT eligible to apply.',
+      'Service Bond: Bond of Rs. 2,00,000/- (Two Lakhs) in the form of Fixed Deposit marked with lien to RCF Ltd for 4 years (including 1 year training).',
+      'Probation: 1 year training period followed by 6 months probation period.',
+      'Online registration deadline: 24/08/2026 up to 5:00 PM.'
+    ],
+    urls: [
+      { label: 'RCF Ltd Official Recruitment Portal', url: 'https://www.rcfltd.com' },
+      { label: 'RCF Ltd Official Website Homepage', url: 'https://www.rcfltd.com' },
+      { label: 'RCF Ltd Career / HR Section', url: 'https://www.rcfltd.com/hr-recruitment' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in RCF Ltd Management Trainee Recruitment 2026?', answer: 'RCF Ltd has advertised 94 vacancies for Management Trainees across Chemical (32), Electrical (10), Mechanical (04), Instrumentation (09), IT (05), Finance (10), Marketing (10), Boiler (06), Civil (01), Fire (01), CC Lab (01), Industrial Engg (02), Materials (01), and Rajbhasha (02).' },
+      { question: 'What are the online registration dates for RCF Ltd MT Recruitment 2026?', answer: 'Online registration opens on 08th August 2026 at 8:00 AM and closes on 24th August 2026 at 5:00 PM on www.rcfltd.com.' },
+      { question: 'What is the stipend during training and pay scale upon absorption in RCF Ltd?', answer: 'Selected Management Trainees receive a lump sum stipend of Rs. 60,000/- per month + free shared hostel lodging during 1-year training. Upon absorption in E1 Grade (Pay Scale Rs. 40,000 - 1,40,000/-), initial total monthly gross emoluments are approximately Rs. 86,320/- per month.' },
+      { question: 'Who is exempted from paying the RCF Ltd application fee?', answer: 'SC, ST, PwBD, Ex-Servicemen, and Female candidates are completely EXEMPTED from paying the application fee. General (UR), OBC (NCL), and EWS candidates must pay Rs. 1,000/- plus GST.' },
+      { question: 'Are final year students eligible to apply for RCF Ltd MT 2026?', answer: 'No, candidates in the final year of Graduation or Post-Graduation are NOT eligible to apply. Applicants must have completed their degree with minimum 60% aggregate in the final year (55% for SC/ST) as on 01.02.2026.' },
+      { question: 'What is the selection pattern for RCF Management Trainees?', answer: 'Selection is based on a 90-minute Computer Based Online Test (100 questions: 50 domain + 50 aptitude/English/reasoning/GK) carrying 80% weightage, followed by a Personal Interview carrying 20% weightage.' }
+    ]
+  },
   'nrsc-isro-research-scientist-project-associate-recruitment-2026': {
     id: 'nrsc-isro-research-scientist-project-associate-recruitment-2026',
     seoTitle: 'NRSC ISRO Recruitment 2026 - Apply Online for 48 Research Scientist, Project Scientist & JRF Posts',

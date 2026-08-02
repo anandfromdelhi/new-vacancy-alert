@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026',
+    b: 'Institute of Banking Personnel Selection (IBPS) & 11 Participating Public Sector Banks',
+    t: 'IBPS Clerk / CSA Recruitment 2026 (CRP CSA-XVI) – 11,102 Vacancies for Customer Service Associate (CSA / Clerical Cadre) across 11 Public Sector Banks in All States/UTs | Apply Online at ibps.in from 01 to 21 August 2026',
+    d: '01-08-2026',
+    l: '21-08-2026 (Online Application at ibps.in)',
+    a: 'CRP CSA-XVI Notification (Vacancies 2027-28) Dated 01/08/2026',
+    q: 'Bachelor Degree (Graduation in Any Discipline) + Computer Knowledge + Local Language Proficiency of State/UT (Age 20 - 28 Yrs)',
+    desc: 'Institute of Banking Personnel Selection (IBPS) invites online applications for Common Recruitment Process (CRP CSA-XVI) for recruitment of 11,102 Customer Service Associate (CSA / Clerical Cadre) posts across 11 Participating Public Sector Banks (Bank of Baroda, PNB, Canara Bank, Union Bank, Bank of India, etc.). Pay scale Rs. 24,050 - 64,480 plus allowances. Selection based on Online Preliminary Exam (Oct 2026) and Online Main Exam (Dec 2026). Apply online at www.ibps.in from 01/08/2026 to 21/08/2026.',
+    u: 'https://www.ibps.in'
+  },
+  {
+    id: 'rcf-ltd-management-trainee-recruitment-2026',
+    b: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Govt of India Navratna Undertaking, Mumbai',
+    t: 'RCF Ltd Management Trainee Recruitment 2026 – 94 Vacancies for MT in Chemical (32), Electrical (10), Mechanical (04), Instrumentation (09), IT (05), Finance (10), Marketing (10), Civil, Fire & Others | Apply Online at rcfltd.com from 08 to 24 August 2026',
+    d: '02-08-2026',
+    l: '24-08-2026 (Online Application at rcfltd.com)',
+    a: 'Advt. No. 16022026 Dated 02/08/2026',
+    q: 'B.E / B.Tech / Dual Degree in Engineering (Chemical, Mech, Elec, Inst, Civil, IT, Fire) OR MBA / MMS / CA / CMA / Ph.D / Master Degree in Hindi/English',
+    desc: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), a leading Navratna CPSE under Govt of India, invites online applications for 94 Management Trainee (MT) posts across Chemical, Mechanical, Electrical, Instrumentation, IT, Finance, Marketing, Civil, Fire, and CC Lab disciplines. Monthly stipend of Rs. 60,000 during 1-year training, followed by E1 Grade pay scale Rs. 40,000 - 1,40,000 (Gross approx Rs. 86,320/pm). Selection via Computer Based Test (80%) and Personal Interview (20%). Apply online at www.rcfltd.com between 08/08/2026 and 24/08/2026.',
+    u: 'https://www.rcfltd.com'
+  },
+  {
     id: 'nrsc-isro-research-scientist-project-associate-recruitment-2026',
     b: 'National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), Dept of Space, Govt of India',
     t: 'NRSC ISRO Recruitment 2026 – 48 Vacancies for Research Scientist (13), Project Associate (05), Project Scientist-B (08), Project Scientist-I (02) & JRF (20) | Apply Online at nrsc.gov.in from 01 to 21 August 2026',
