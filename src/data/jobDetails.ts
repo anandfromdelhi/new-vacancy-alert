@@ -58,6 +58,1367 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'indian-air-force-iaf-agniveervayu-intake-01-2027-rally-recruitment-2026': {
+    id: 'indian-air-force-iaf-agniveervayu-intake-01-2027-rally-recruitment-2026',
+    seoTitle: 'Indian Air Force Agniveervayu Recruitment 2026 (Intake 01/2027) - Open Rally Details',
+    seoDescription: 'Indian Air Force (IAF) Agniveervayu Intake 01/2027 Open Recruitment Rally for Nagaland & Andaman Islands. 10+2/Diploma with 50% marks eligible. Born 01 Jan 2005 to 01 Jul 2009. Stipend Rs 30,000 to Rs 40,000 + Seva Nidhi Rs 10.04 Lakhs. Zero Fee. Rally dates 31 Aug to 07 Sep 2026.',
+    focusKeywords: 'IAF Agniveervayu Recruitment 2026, Agniveervayu Intake 01/2027 Open Rally, Indian Air Force Rally Nagaland Andaman, Air Force Agniveer Qualification Age Limit, iafrecruitment edcil co in',
+    lsiKeywords: 'agniveervayu physical fitness test pft run time, agniveervayu stipend seva nidhi package, air force rally venue Chumoukedima Port Blair, air force agniveer written test raga english syllabus',
+    title: 'Indian Air Force (IAF) Open Recruitment Rally 2026 for Agniveervayu (Other Than Science Subjects) – Intake 01/2027 | Male & Female Candidates of NE States & Andaman & Nicobar Islands | Open Rally from 31 August to 07 September 2026',
+    board: 'Indian Air Force (IAF), Central Airmen Selection Board (CASB), Brar Square, Delhi Cantt, New Delhi – 110010',
+    advtNo: 'Official Notification - AGNIVEERVAYU INTAKE 01/2027 (Open Recruitment Rally)',
+    vacancies: 'Open Recruitment Rally (State-wise Allotment based on Merit)',
+    jobLocation: 'Air Force Stations / Units Across India & Abroad',
+    applicationMode: 'Direct Reporting at Open Recruitment Rally Venue (Reporting Time 6:00 AM onwards)',
+    applicationStatus: 'Active - Open Rally Dates: 31 August 2026 to 07 September 2026',
+    lastUpdated: 'August 02, 2026',
+    overview: [
+      'The Indian Air Force (IAF) has released the Official Notification for Open Recruitment Rally for enrolment of unmarried Indian male and female candidates as Agniveervayu (Other Than Science Subjects) for Intake 01/2027.',
+      'The Open Recruitment Rally will be held from 31st August 2026 to 07th September 2026 at two designated rally venues in Nagaland (Chumoukedima) and Andaman & Nicobar Islands (Port Blair).',
+      'Target States & Union Territories: 1) Chumoukedima (Nagaland) venue covers all districts of Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura, and Sikkim; 2) Sri Vijaya Puram (Port Blair) venue covers all districts of UT of Andaman & Nicobar Islands.',
+      'Rally Schedule at Nagaland (NAPTC Chumoukedima): Women Candidates: 01-02 Sept 2026 (Reporting 01 Sept); Men Candidates: 04-05 Sept 2026 (Reporting 04 Sept). Cut-off reporting time is 10:00 AM on reporting date.',
+      'Rally Schedule at Andaman & Nicobar (Netaji Stadium, Port Blair): Women Candidates: 01-02 Sept 2026 (Reporting 01 Sept); Men Candidates: 03-04 Sept 2026 (Reporting 03 Sept). Cut-off reporting time is 10:00 AM on reporting date.',
+      'Date of Birth Block: Candidates born between 01 January 2005 and 01 July 2009 (both dates inclusive) are eligible to appear in the Open Recruitment Rally. Upper age limit on date of enrolment is 22 years.',
+      'Educational Qualification: Passed 10+2 / Intermediate / Equivalent Examination in any stream from recognized Central/State Education Board with minimum 50% aggregate marks and 50% marks in English; OR Passed 2-year Vocational Course with 50% aggregate and 50% English; OR Passed 3-year Diploma Course in Engineering (Mechanical/Electrical/Electronics/Auto/CSE/IT/Instrumentation) with 50% aggregate and 50% English.',
+      'Monthly Stipend & Agniveer Package: 1st Year: ₹30,000/- (In-Hand ₹21,000); 2nd Year: ₹33,000/- (In-Hand ₹23,100); 3rd Year: ₹36,500/- (In-Hand ₹25,550); 4th Year: ₹40,000/- (In-Hand ₹28,000). Total Agniveer Corpus Fund contribution after 4 years is ₹5.02 Lakhs.',
+      'Seva Nidhi Package on Exit: One-time Seva Nidhi Package of approximately ₹10.04 Lakhs (candidate\'s contribution + matching Govt contribution + interest) on completion of 4 years engagement. Up to 25% of each batch will be enrolled in regular cadre of Indian Air Force as Airman.',
+      'Selection Process: 1) Initial Certificate Verification -> 2) Physical Fitness Test (PFT-I & PFT-II) -> 3) Objective Written Test (45 mins: English 20 Qs + RAGA 30 Qs) -> 4) Adaptability Test-I -> 5) Adaptability Test-II -> 6) Medical Examination (at 11 ASC Jorhat / 8 ASC Sri Vijaya Puram in Sept 2026).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organisation', value: 'Indian Air Force (IAF) - Central Airmen Selection Board (CASB)' },
+      { label: 'Exam / Intake Name', value: 'AGNIVEERVAYU INTAKE 01/2027 (Other Than Science Subjects)' },
+      { label: 'Entry Mode', value: 'Open Recruitment Rally (Direct Walk-in Selection)' },
+      { label: 'Rally Venues', value: 'Chumoukedima (Nagaland) & Sri Vijaya Puram / Port Blair (Andaman & Nicobar)' },
+      { label: 'Covered States/UTs', value: 'Nagaland, Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Tripura, Sikkim & Andaman & Nicobar' },
+      { label: 'Date of Birth Eligibility', value: 'Born between 01 Jan 2005 and 01 Jul 2009 (Max Age 22 Yrs)' },
+      { label: 'Educational Qualification', value: '10+2 / Intermediate / 2-Yr Vocational / 3-Yr Diploma (Min 50% Aggregate & 50% English)' },
+      { label: 'Monthly Package', value: 'Rs. 30,000/- to Rs. 40,000/- pm + Risk/Hardship & Travel Allowances' },
+      { label: 'Seva Nidhi Package', value: 'Approx Rs. 10.04 Lakhs upon completion of 4 Years' },
+      { label: 'Application Fee', value: 'EXEMPTED / ZERO (Rs. 0/- for all candidates)' },
+      { label: 'Rally Dates', value: '31 August 2026 to 07 September 2026 (Reporting from 06:00 AM)' },
+      { label: 'Official Website Portal', value: 'https://iafrecruitment.edcil.co.in' }
+    ],
+    importantDates: [
+      { event: 'Official Rally Advertisement Release Date', date: '02-08-2026' },
+      { event: 'Women Rally Reporting Date (Nagaland - NAPTC Chumoukedima)', date: '01-09-2026 (Reporting 06:00 AM to 10:00 AM)' },
+      { event: 'Men Rally Reporting Date (Nagaland - NAPTC Chumoukedima)', date: '04-09-2026 (Reporting 06:00 AM to 10:00 AM)' },
+      { event: 'Women Rally Reporting Date (Andaman - Port Blair Netaji Stadium)', date: '01-09-2026 (Reporting 06:00 AM to 10:00 AM)' },
+      { event: 'Men Rally Reporting Date (Andaman - Port Blair Netaji Stadium)', date: '03-09-2026 (Reporting 06:00 AM to 10:00 AM)' },
+      { event: 'Conduct of Medical Examination', date: 'September 2026 (at 11 ASC Jorhat & 8 ASC Sri Vijaya Puram)' },
+      { event: 'Publishing of Provisional Select List (PSL)', date: '14-11-2026' },
+      { event: 'Publishing of Final Enrolment List', date: '01-12-2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Open Recruitment Rally (Nagaland Venue - NAPTC Chumoukedima)', count: 'All districts of Assam, Nagaland, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Tripura, Sikkim' },
+      { category: 'Open Recruitment Rally (Andaman Venue - Port Blair Netaji Stadium)', count: 'All districts of UT of Andaman & Nicobar Islands' },
+      { category: 'Total Agniveervayu Enrolment', count: 'State-wise Merit based on Performance & Medical Fitness' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Nagaland Armed Police Training Centre (NAPTC), Chumoukedima', count: 'North Eastern States (Assam, Nagaland, Arunachal, Manipur, Meghalaya, Mizoram, Tripura, Sikkim)' },
+      { region: 'Netaji Stadium, Sri Vijaya Puram, Port Blair', count: 'Andaman & Nicobar Islands' }
+    ],
+    eligibility: {
+      education: [
+        '10+2 / Intermediate / Equivalent: Passed 10+2 or equivalent examination in any stream / subjects from Education Boards recognized by Central / State / UT with minimum 50% marks in aggregate and 50% marks in English.',
+        'OR Vocational Course: Passed two years Vocational Course from Education Boards recognized by Central/State/UT with minimum 50% marks in aggregate and 50% marks in English in Vocational Course (or in Intermediate/Matriculation if English is not a subject in Vocational Course).',
+        'OR 3-Year Diploma: Passed Three years Diploma Course in Engineering (Mechanical/ Electrical/ Electronics/ Automobile/ CSE/ Instrumentation/ IT) from recognized Polytechnic institute with 50% marks in aggregate and 50% marks in English in Diploma Course (or in Intermediate/Matriculation).',
+        'Percentage Rounding Off: Exact percentage as in marksheet will be considered. For example 49.99% will be taken as 49% and NOT rounded off to 50%.',
+        'Domicile Requirement: Candidate must possess permanent domicile certificate of the specified States/UTs OR be Children of Air Force Personnel (COAFP-I / COAFP-II).'
+      ],
+      experience: [
+        'No prior work experience required. Open entry for fresh 10+2/Diploma candidates.'
+      ],
+      ageLimit: 'Date of Birth Range: Born between 01 January 2005 and 01 July 2009 (both dates inclusive). Maximum age limit on date of enrolment is 22 years.',
+      ageRelaxation: [
+        { category: 'Standard Age Limit', relaxation: '22 Years Maximum at date of enrolment (Born 01.01.2005 to 01.07.2009)' }
+      ],
+      medicalStandards: [
+        'Height: Male Minimum 152 cms; Female Minimum 152 cms (147 cms for NE/Uttarakhand Hilly regions, 150 cms for Lakshadweep).',
+        'Chest: Male Minimum 77 cms with at least 5 cms expansion; Female minimum range of expansion 05 cms.',
+        'Hearing: Able to hear forced whisper from 6 meters distance in each ear separately.',
+        'Dental: Min 14 dental points with healthy gums. Orthodontic appliances declared UNFIT.',
+        'Visual Standards: 6/12 each eye, correctable to 6/6 each eye (Hypermetropia +2.0D, Myopia -1D, Astigmatism +-0.50D). Colour Vision CP-II. LASIK/PRK history NOT accepted.',
+        'Tattoo Policy: Permanent body tattoos permitted ONLY on inner face of forearms or back side of palm for general candidates. Tribal customs considered.'
+      ]
+    },
+    salary: {
+      payLevel: 'Agniveervayu Special Monthly Package Scheme',
+      initialPay: 'Year 1: ₹30,000/pm (In-hand ₹21,000) | Year 2: ₹33,000/pm (In-hand ₹23,100) | Year 3: ₹36,500/pm (In-hand ₹25,550) | Year 4: ₹40,000/pm (In-hand ₹28,000)',
+      allowances: 'Risk & Hardship allowances, Dress & Travel allowances, Free Ration, Clothing, Accommodation & Leave Travel Concession (LTC). Seva Nidhi Package ₹10.04 Lakhs on completion of 4 years. Non-contributory Life Insurance Cover ₹48 Lakhs.'
+    },
+    applicationFee: [
+      { category: 'All Male & Female Candidates (General / OBC / EWS / SC / ST)', fee: 'Exempted (Rs. 0/-)', refund: 'Zero Fee for Open Recruitment Rally' }
+    ],
+    howToPayFee: [
+      'No application fee or registration fee is required. The Open Recruitment Rally is completely free of cost.'
+    ],
+    selectionProcess: [
+      { stage: '1. Document Verification & Initial Eligibility Check', description: 'Scrutiny of original 10th & 10+2/Diploma mark sheets, Domicile certificate, COAFP certificate, and photos at rally venue prior to PFT.' },
+      { stage: '2. Physical Fitness Test - I (PFT-I 1.6 Km Run)', description: 'Male candidates must complete 1.6 Km run within 7 minutes. Female candidates must complete 1.6 Km run within 8 minutes.' },
+      { stage: '3. Physical Fitness Test - II (PFT-II Exercises)', description: 'Male: 10 Push-ups (1 min), 10 Sit-ups (1 min), 20 Squats (1 min). Female: 10 Sit-ups (1 min 30 sec), 15 Squats (1 min).' },
+      { stage: '4. Objective Written Test (45 Minutes)', description: 'Bilingual (English & Hindi) objective test on OMR sheet. 45 Mins test: English (20 Qs, 10+2 CBSE syllabus) + Reasoning & General Awareness / RAGA (30 Qs). 1 mark per correct answer, 0.25 negative marking per wrong answer.' },
+      { stage: '5. Adaptability Test - I & Adaptability Test - II', description: 'Objective test to assess suitability for employment in IAF across varied geographic terrain, weather, and military environment.' },
+      { stage: '6. Medical Examination (Sept 2026)', description: 'Medical board examination at 11 ASC Jorhat / 8 ASC Sri Vijaya Puram including Blood Haemogram, Urine RE/ME, Biochemistry, ECG, Chest X-Ray & USG.' }
+    ],
+    reservation: {
+      title: 'Agnipath Scheme Guidelines',
+      detailsList: [
+        'Open to unmarried male and female Indian citizens holding valid Domicile of specified NE States or Andaman & Nicobar Islands.',
+        'Up to 25% of each batch of Agniveervayu will be enrolled in regular cadre of Indian Air Force as Airman based on objective performance criteria.'
+      ]
+    },
+    howToApply: [
+      'No online application form submission is required prior to rally.',
+      'Eligible candidates must report directly to the designated Rally Venue at 6:00 AM on the specified reporting date (01 Sept / 04 Sept for Nagaland; 01 Sept / 03 Sept for Port Blair).',
+      'Reporting Cut-off Time: 10:00 AM on the reporting date.',
+      'Bring HB pencil, eraser, glue stick, stapler, black & blue ballpoint pens.',
+      'Bring 10 recent un-attested passport size colour photographs (front portrait with light background holding black slate in front of chest with candidate\'s name & date of photo taken written in white chalk).',
+      'Bring Original & 4 self-attested photocopies of 10th Passing Certificate (DOB proof).',
+      'Bring Original & 4 self-attested photocopies of 10+2 / Intermediate / Diploma Marksheet & Passing Certificate.',
+      'Bring Original & 4 self-attested photocopies of Domicile Certificate (or COAFP Certificate for AF children).',
+      'Bring Duly Filled Consent Form for Physical Fitness Test (signed by parent/guardian if below 18 years).',
+      'Bring Aadhaar Card as photo ID proof.'
+    ],
+    documentsRequired: [
+      '10 un-attested recent passport size colour photos with name and date written on a black slate.',
+      'Original + 4 photocopies of 10th / Matriculation Passing Certificate (DOB proof).',
+      'Original + 4 photocopies of 10+2 / Intermediate / Diploma Course Passing Certificate & Marksheets.',
+      'Original + 4 photocopies of Permanent Domicile Certificate issued by Revenue Dept.',
+      'COAFP Certificate (for Children of Air Force Personnel, if applicable).',
+      'Original Consent Form for Physical Fitness Test & Medical Tests.',
+      'Original + 4 photocopies of NCC A/B/C Certificate (if held).',
+      'Valid Aadhaar Card or Photo ID Proof.'
+    ],
+    importantInstructions: [
+      'Open Rally Format: No pre-registration fee required. Direct reporting at rally venue.',
+      'Electronic Devices Prohibited: Mobile phones, smart watches, and electronic gadgets are strictly banned in testing areas.',
+      'Negative Marking: 0.25 marks deducted for each wrong answer in written test.',
+      'Original Marksheets Mandatory: Candidates must bring original educational marksheets or DigiLocker verified printouts.'
+    ],
+    urls: [
+      { label: 'CASB / IAF Official Recruitment Portal', url: 'https://iafrecruitment.edcil.co.in' },
+      { label: 'Indian Air Force Official Website', url: 'https://indianairforce.nic.in' },
+      { label: 'IAF Agniveervayu Candidate Login Portal', url: 'https://agnipathvayu.cdac.in' }
+    ],
+    faqs: [
+      { question: 'Is the Indian Air Force Agniveervayu Intake 01/2027 an Open Recruitment Rally?', answer: 'Yes, it is an Open Recruitment Rally where eligible male and female candidates report directly to the rally venues at Nagaland or Andaman & Nicobar Islands.' },
+      { question: 'What are the rally dates and venues for IAF Agniveervayu Intake 01/2027?', answer: 'Rallies will be held from 31 August 2026 to 07 September 2026 at NAPTC Chumoukedima (Nagaland) and Netaji Stadium, Sri Vijaya Puram (Port Blair, Andaman & Nicobar).' },
+      { question: 'What is the date of birth eligibility block for Agniveervayu Intake 01/2027?', answer: 'Candidates must be born between 01 January 2005 and 01 July 2009 (both dates inclusive). Upper age limit at enrolment is 22 years.' },
+      { question: 'What is the educational qualification required for Agniveervayu (Other Than Science Subjects)?', answer: 'Candidates must have passed 10+2 / Intermediate / 2-Yr Vocational / 3-Yr Diploma with minimum 50% aggregate marks and 50% marks in English.' },
+      { question: 'Is there any application fee for IAF Agniveervayu Open Recruitment Rally?', answer: 'No, there is zero application fee for all candidates.' }
+    ]
+  },
+  'jkssb-pm-package-kashmiri-migrants-recruitment-2026': {
+    id: 'jkssb-pm-package-kashmiri-migrants-recruitment-2026',
+    seoTitle: 'JKSSB PM Package Recruitment 2026 (Advt 07 of 2026) - Apply Online for 72 Posts',
+    seoDescription: 'Jammu and Kashmir Services Selection Board (JKSSB) PM Package recruitment 2026 for Kashmiri Migrants & Non-Migrant Kashmiri Pandits. 72 posts of Sub-Inspector Finance, Depot Assistant, Junior Librarian, JSA, Draftsman. Apply online at jkssb.nic.in by 08 September 2026.',
+    focusKeywords: 'JKSSB PM Package Recruitment 2026, JKSSB Advt 07 of 2026, Kashmiri Migrants Non Migrant Kashmiri Pandits Jobs, Sub Inspector Finance Depot Assistant JKSSB, jkssb nic in apply online',
+    lsiKeywords: 'sro 412 of 2009 sro 425 of 2017 jkssb pm package, jkssb sub inspector finance syllabus pay scale, depot assistant junior librarian qualification age limit, jkssb omr exam pattern',
+    title: 'Jammu and Kashmir Services Selection Board (JKSSB) Advertisement Notification No. 07 of 2026 – 72 Vacancies under PM Package for Kashmiri Migrants & Non-Migrant Kashmiri Pandits (Sub-Inspector Finance, Depot Assistant, Junior Librarian, JSA, Draftsman) | Apply Online at jkssb.nic.in from 10 August to 08 September 2026',
+    board: 'Jammu and Kashmir Services Selection Board (JKSSB), Muthi, Akhnoor Road, Jammu / ZamZam Complex Rambagh, Srinagar',
+    advtNo: 'Advertisement Notification No. 07 of 2026 Dated 08.07.2026',
+    vacancies: 72,
+    jobLocation: 'Divisional Cadre Kashmir (Kashmir Division, UT of Jammu & Kashmir)',
+    applicationMode: 'Online Application via JKSSB Official Portal (https://www.jkssb.nic.in)',
+    applicationStatus: 'Upcoming - Online Application Window: 10 August 2026 to 08 September 2026',
+    lastUpdated: 'July 08, 2026',
+    overview: [
+      'The Jammu & Kashmir Services Selection Board (JKSSB) has published Advertisement Notification No. 07 of 2026 dated 08.07.2026 under a Special Recruitment Drive for Kashmiri Migrants and Non-Migrant Kashmiri Pandits under Prime Minister\'s Package.',
+      'Only "Migrants" as defined in SRO 412 dated 30.12.2009 or "Kashmiri Pandits" as defined in SRO 425 dated 10.10.2017 are eligible to apply for these posts.',
+      'Total Vacancies: 72 Divisional Cadre Posts in Kashmir Division across Disaster Management Relief Rehabilitation & Reconstruction, Finance, Transport, School Education, Planning, and Food & Civil Supplies Departments.',
+      'Post-wise Breakdown: Sub-Inspector Finance (39 Posts), Depot Assistant (14 Posts), Junior Librarian (10 Posts), Library Assistant (05 Posts), Junior Statistical Assistant (02 Posts), Motor Vehicle Traffic Assistant (01 Post), and Draftsman Civil (01 Post).',
+      'Pay Scales: Level-5 (29,200 - 92,300), Level-4 (25,500 - 81,100), Level-2 (19,900 - 63,200), and SL-1 (14,800 - 47,100).',
+      'Educational Qualification: 10th Pass (for Depot Assistant) / ITI + Driving License (for MVTA) / 2-Year Draftsman Diploma (for Draftsman) / Bachelor\'s Degree in Library Science (for Junior Librarian) / Graduation in any discipline (for Sub-Inspector) / Graduation with Eco/Stats/Maths (for JSA). Valid J&K Domicile & Migrant Certificate required.',
+      'Age Limit (as on 01.01.2026): Open Merit (OM): Maximum 40 Years (Born between 01.01.1986 and 01.01.2008); SC / ST-1 / ST-2 / RBA / ALC-IB / EWS / OBC: Maximum 43 Years; PwBD: Maximum 42 Years; Ex-Servicemen: Age minus military service (max 50 Yrs).',
+      'Application Fee: Rs. 600/- for Open Merit / General candidates; Rs. 500/- for SC, ST-1, ST-2, EWS, and PwBD candidates. Payable online via Net Banking, Credit Card, or Debit Card.',
+      'Selection Process: Merit-based selection through Objective Type Multiple Choice Written Examination (OMR based) with 0.25 negative marking per wrong answer.',
+      'How to Apply: Apply online on https://www.jkssb.nic.in between 10.08.2026 and 08.09.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'Jammu and Kashmir Services Selection Board (JKSSB)' },
+      { label: 'Special Package Scheme', value: 'PM Package for Kashmiri Migrants & Non-Migrant Kashmiri Pandits (SRO 412 / SRO 425)' },
+      { label: 'Notification Number', value: 'Advertisement Notification No. 07 of 2026' },
+      { label: 'Total Vacancies', value: '72 Divisional Cadre Kashmir Posts' },
+      { label: 'Sub-Inspector (Finance)', value: '39 Posts (Level-4: 25,500 - 81,100 | Any Graduate)' },
+      { label: 'Depot Assistant', value: '14 Posts (SL-1: 14,800 - 47,100 | 10th Pass)' },
+      { label: 'Junior Librarian & Lib Assistant', value: '15 Posts (Junior Librarian: 10 | Lib Assistant: 05)' },
+      { label: 'Junior Statistical Assistant', value: '02 Posts (Level-5: 29,200 - 92,300)' },
+      { label: 'Essential Qualification', value: '10th / ITI / Diploma / Graduation / B.Lib.I.Sc' },
+      { label: 'Application Fee', value: 'Rs. 600 (General) | Rs. 500 (SC/ST/EWS/PwBD)' },
+      { label: 'Online Registration Window', value: '10th August 2026 to 08th September 2026' },
+      { label: 'Official Portal', value: 'https://www.jkssb.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '08-07-2026' },
+      { event: 'Commencement of Online Applications', date: '10-08-2026' },
+      { event: 'Cut-off Date / Last Date for Online Applications', date: '08-09-2026' },
+      { event: 'Date of Reckoning Age Limit', date: '01-01-2026' },
+      { event: 'Written Exam Date', date: 'To be notified on www.jkssb.nic.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Sub-Inspector (Finance Dept, Div. KMR)', count: '39 Posts (OM: 15, SC: 3, ST1: 4, ST2: 4, OBC: 3, ALC/IB: 2, RBA: 4, EWS: 4)' },
+      { category: 'Depot Assistant (Food & Civil Supplies Dept, Div. KMR)', count: '14 Posts (OM: 6, SC: 1, ST1: 2, ST2: 1, OBC: 1, ALC/IB: 1, RBA: 1, EWS: 1)' },
+      { category: 'Junior Librarian (School Education Dept, Div. KMR)', count: '10 Posts (OM: 4, SC: 1, ST1: 1, ST2: 1, OBC: 1, RBA: 1, EWS: 1)' },
+      { category: 'Library Assistant (School Education Dept, Div. KMR)', count: '05 Posts (OM: 2, SC: 1, ST1: 1, ST2: 1)' },
+      { category: 'Junior Statistical Assistant (Planning Dept, Div. KMR)', count: '02 Posts (OM: 1, SC: 1)' },
+      { category: 'Motor Vehicle Traffic Assistant / MVTA (Transport Dept)', count: '01 Post (OM: 1)' },
+      { category: 'Draftsman Civil (Public Works R&B Dept, Div. KMR)', count: '01 Post (OM: 1)' },
+      { category: 'Total PM Package Vacancies', count: '72 Posts' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Divisional Cadre Kashmir (Kashmir Valley)', count: 'All 72 posts earmarked for Kashmir Division under PM Package' }
+    ],
+    eligibility: {
+      education: [
+        'Migrant / Kashmiri Pandit Status: Only Migrants certified under SRO 412 of 2009 (by Relief & Rehabilitation Commissioner J&K) or Kashmiri Pandits certified under SRO 425 of 2017 (by Deputy Commissioner) are eligible.',
+        'Sub-Inspector (Finance): Graduation (Degree in any discipline) from a recognized University.',
+        'Depot Assistant: Matriculation (10th Class Pass) or equivalent from a recognized Board.',
+        'Junior Librarian: Bachelor\'s Degree in Library Science (B.Lib.I.Sc / BLIS) from a recognized University.',
+        'Library Assistant: Graduation Degree from a recognized University with Degree / Diploma in Library Science.',
+        'Junior Statistical Assistant: Bachelor\'s Degree with Economics / Statistics / Mathematics / Commerce / Computer Applications / IT as an elective subject.',
+        'Motor Vehicle Traffic Assistant (MVTA): 10th Pass with ITI Motor Mechanic Vehicle (2-yr course) + Driving License for Motor Cycle with Gear & Light Motor Vehicles (LMV).',
+        'Draftsman (Civil): 2-Year Draftsman (Civil) Training Course Certificate / Diploma from any Government recognized Institute.',
+        'Domicile: Candidate must be a Domicile of UT of Jammu & Kashmir and possess a valid Domicile Certificate issued on or before 08.09.2026.'
+      ],
+      experience: [
+        'Fresh candidates meeting educational requirements are eligible.'
+      ],
+      ageLimit: 'Calculated as on 01.01.2026: Open Merit (OM): 40 Years (Not born before 01.01.1986, not after 01.01.2008).',
+      ageRelaxation: [
+        { category: 'Scheduled Caste (SC)', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'Scheduled Tribe ST-1 & ST-2', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'Residents of Backward Areas (RBA)', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'ALC / IB (Line of Actual Control / Int. Border)', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'Economically Weaker Section (EWS)', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'Other Backward Classes (OBC)', relaxation: '43 Years (Not born before 01.01.1983)' },
+        { category: 'Physically Challenged Person (PwBD)', relaxation: '42 Years (Not born before 01.01.1984)' },
+        { category: 'Ex-Servicemen (ESM)', relaxation: 'Actual military service deducted from age (max 50 Yrs)' }
+      ],
+      medicalStandards: [
+        'Candidates must be physically fit for field duties in their respective departments.'
+      ]
+    },
+    salary: {
+      payLevel: 'UT of J&K Pay Matrix Scale (7th Pay Commission)',
+      initialPay: 'Sub-Inspector / Draftsman / Junior Librarian: Level-4 (Rs. 25,500 - 81,100) | JSA: Level-5 (Rs. 29,200 - 92,300) | MVTA / Lib Asst: Level-2 (Rs. 19,900 - 63,200) | Depot Asst: SL-1 (Rs. 14,800 - 47,100)',
+      allowances: 'Dearness Allowance (DA), House Rent Allowance (HRA), Special Allowance & Medical Allowance as per J&K Govt rules.'
+    },
+    applicationFee: [
+      { category: 'Open Merit (OM) / General Candidates', fee: 'Rs. 600/-', refund: 'Non-refundable application fee' },
+      { category: 'SC, ST-1, ST-2, EWS, and PwBD Candidates', fee: 'Rs. 500/-', refund: 'Concessional application fee' }
+    ],
+    howToPayFee: [
+      'Pay online via Net Banking, Credit Card, or Debit Card on the JKSSB application portal.',
+      'Fee disputes can be reported to ssbjk-grievance.jk.gov.in.'
+    ],
+    selectionProcess: [
+      { stage: '1. Objective Type Written Test (OMR Exam)', description: 'Multiple Choice Question (MCQ) written test conducted in English. 0.25 negative marking per incorrect response. Final selection based solely on written test merit.' },
+      { stage: '2. Document Verification (DV)', description: 'Shortlisted candidates will be called for Document Verification with original Domicile, Migrant, Category, and Qualification certificates.' }
+    ],
+    reservation: {
+      title: 'J&K PM Package Special Rules',
+      detailsList: [
+        'Restricted exclusively to Kashmiri Migrants (SRO 412) and Non-Migrant Kashmiri Pandits (SRO 425).',
+        'Horizontal reservation for Ex-Servicemen and Persons with Benchmark Disabilities (PwBD) as per J&K rules.'
+      ]
+    },
+    howToApply: [
+      'Visit official JKSSB website: https://www.jkssb.nic.in.',
+      'Click on "Online Application for Advt No. 07 of 2026".',
+      'Register account by entering Name, DOB, Email ID, and Mobile Number.',
+      'Fill application details, select post preference, enter Migrant Certificate details & J&K Domicile number.',
+      'Upload live photograph, scanned signature (10-20 KB), category certificate (max 100 KB PDF), and educational certificates (max 100 KB PDF).',
+      'Pay application fee of Rs. 600/- (Rs. 500/- for SC/ST/EWS/PwBD) online.',
+      'Submit the application and take a printout of the submitted form for Document Verification.'
+    ],
+    documentsRequired: [
+      'Valid J&K Domicile Certificate issued on or before 08.08.2026.',
+      'Kashmiri Migrant Certificate (issued by Relief & Rehabilitation Commissioner under SRO 412) OR Non-Migrant Kashmiri Pandit Certificate (issued by Deputy Commissioner under SRO 425).',
+      'Matriculation / 10th Class Mark sheet & Certificate (DOB proof).',
+      'Graduation / Diploma / ITI / Library Science Certificates & Mark Sheets.',
+      'Valid Category Certificate (SC/ST/EWS/OBC/RBA/ALC-IB) issued on or before cut-off date.',
+      'Valid Driving License for MVTA post.',
+      'Scanned Photo & Signature.'
+    ],
+    importantInstructions: [
+      'Eligibility Cut-Off Date: All qualifications, Domicile, and Category certificates must be valid on or before 08.09.2026.',
+      'Migrant Certificate Mandatory: Must produce SRO 412 / SRO 425 certificate at Document Verification.',
+      'No Hard Copies: Do not send hard copies of application to JKSSB office by post.'
+    ],
+    urls: [
+      { label: 'JKSSB Official Website Homepage', url: 'https://www.jkssb.nic.in' },
+      { label: 'JKSSB Online Application Portal', url: 'https://www.jkssb.nic.in' },
+      { label: 'JKSSB Fee Grievance Email', url: 'mailto:ssbjk-grievance.jk.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in JKSSB Advt 07 of 2026 (PM Package)?', answer: 'JKSSB has advertised 72 Divisional Cadre vacancies in Kashmir Division under PM Package for Kashmiri Migrants & Non-Migrant Kashmiri Pandits.' },
+      { question: 'Who is eligible to apply for JKSSB Advt 07 of 2026?', answer: 'Only Kashmiri Migrants (certified under SRO 412) or Non-Migrant Kashmiri Pandits (certified under SRO 425) holding a valid J&K Domicile Certificate are eligible.' },
+      { question: 'What are the main posts advertised under PM Package Advt 07/2026?', answer: 'The posts include Sub-Inspector Finance (39), Depot Assistant (14), Junior Librarian (10), Library Assistant (5), Junior Statistical Assistant (2), MVTA (1), and Draftsman Civil (1).' },
+      { question: 'What is the last date to submit online applications for JKSSB Advt 07/2026?', answer: 'The online application portal opens on 10th August 2026 and closes on 08th September 2026.' },
+      { question: 'What is the age limit for Open Merit candidates in JKSSB PM Package Recruitment?', answer: 'The upper age limit for Open Merit (OM) candidates is 40 years as on 01.01.2026 (reserved categories get up to 43 years).' }
+    ]
+  },
+  'ibps-crp-csa-xvi-clerk-customer-service-associate-recruitment-2026': {
+    id: 'ibps-crp-csa-xvi-clerk-customer-service-associate-recruitment-2026',
+    seoTitle: 'IBPS Clerk Recruitment 2026 (CRP CSA-XVI) - Apply Online for Customer Service Associate Posts',
+    seoDescription: 'IBPS notification out for Customer Service Associate (CSA / Clerical Cadre) CRP CSA-XVI for vacancies of 2027-28 in 11 Public Sector Banks. Any Graduate eligible. Age 20 to 28 yrs. Prelims in Oct 2026, Mains in Dec 2026. Apply online at ibps.in by 21 August 2026.',
+    focusKeywords: 'IBPS Clerk Recruitment 2026, IBPS CRP CSA XVI Notification, Customer Service Associate IBPS Bank Jobs, ibps in apply online, Bank Clerk Vacancies 2026',
+    lsiKeywords: 'ibps csa prelims mains exam pattern syllabus, ibps clerk state wise vacancies cutoff, bank clerk salary 24050 64480 pay scale, ibps local language test llpt',
+    title: 'Institute of Banking Personnel Selection (IBPS) Common Recruitment Process (CRP CSA-XVI) – State-wise Vacancies for Customer Service Associate (CSA / Clerical Cadre) in 11 Public Sector Banks | Apply Online at ibps.in by 21 August 2026',
+    board: 'Institute of Banking Personnel Selection (IBPS), Autonomous Body under RBI & Ministry of Finance, Mumbai',
+    advtNo: 'Notification for CRP CSA-XVI for Vacancies of 2027-28',
+    vacancies: 6000,
+    jobLocation: 'All 36 States & Union Territories of India (Allotted Bank Branches)',
+    applicationMode: 'Online Application via IBPS Official Website (https://www.ibps.in)',
+    applicationStatus: 'Active - Online Registration & Fee Payment Window: 01 August 2026 to 21 August 2026',
+    lastUpdated: 'August 01, 2026',
+    overview: [
+      'The Institute of Banking Personnel Selection (IBPS) has officially released the detailed Notification for the Common Recruitment Process (CRP CSA-XVI) for recruitment of Customer Service Associates (CSA - Clerical Cadre) in 11 Participating Public Sector Banks for vacancies of financial year 2027-28.',
+      'Participating Public Sector Banks: Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Indian Bank, Indian Overseas Bank, Punjab National Bank, Punjab & Sind Bank, UCO Bank, and Union Bank of India.',
+      'Vacancies are advertised on a State/UT-wise basis across all 36 States & UTs in India. Candidates can apply for vacancies in any ONE State/UT of their choice.',
+      'State-wise Indicative Vacancies: Uttar Pradesh (1,731), Karnataka (1,414), Maharashtra (1,051), West Bengal (946), Gujarat (698), Tamil Nadu (675), Madhya Pradesh (570), Bihar (491), Punjab (481), Delhi NCR (415), Rajasthan (392), Assam (349), Odisha (337), Chhattisgarh (265), Telangana (191), Andhra Pradesh (186), Jharkhand (182), Uttarakhand (145), Kerala (108), Himachal Pradesh (97), Haryana (196), Jammu & Kashmir (67), Goa (61), Chandigarh (20), etc.',
+      'Pay Scale & Emoluments: Revised Bipartite Clerical Scale ₹ 24050-1340/3-28070-1650/3-33020-2000/4-41020-2340/7-57400-4400/1-61800-2680/1-64480. Plus Dearness Allowance (DA), House Rent Allowance (HRA), Transport Allowance, Special Allowance, Medical Aid, and Pension under National Pension System (NPS).',
+      'Educational Qualification (as on 21.08.2026): Graduation (Degree in any discipline) from a University recognized by the Govt. of India. Must possess valid mark sheet/degree certificate on or before 21.08.2026. Operating/working knowledge in computer systems is mandatory (Certificate/Diploma/Degree in computer operations/Language OR studied Computer/IT in High School/College).',
+      'Local Language Proficiency: Candidates must be proficient in reading, writing, speaking, and understanding the specified local language of the opted State/UT. Local Language Proficiency Test (LLPT) will be conducted before joining if not studied at 10th level or above.',
+      'Age Limit (as on 01.08.2026): Minimum 20 Years and Maximum 28 Years (Born between 02.08.1998 and 01.08.2006 inclusive). Age relaxation: +5 Yrs for SC/ST, +3 Yrs for OBC-NCL, +10 Yrs for PwBD, Service+3 Yrs for ESM, up to 35/38/40 Yrs for Widows/Divorced Women.',
+      'Application Fee: Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM/DESM candidates; Rs. 850/- (inclusive of GST) for General, EWS, and OBC candidates. Payable online via Debit/Credit Card, Net Banking, UPI, or Wallets.',
+      'Selection Process: Two-stage Online Examination — Phase 1: Online Preliminary Exam (100 Marks, 60 Mins, Oct 2026) -> Phase 2: Online Main Exam (200 Marks, 160 Qs, 125 Mins, Dec 2026) -> Local Language Test -> Provisional Allotment in March 2027.',
+      'How to Apply: Apply online on https://www.ibps.in under "CRP CSA -> CRP CSA-XVI" between 01.08.2026 and 21.08.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Agency', value: 'Institute of Banking Personnel Selection (IBPS)' },
+      { label: 'Exam Name & Cadre', value: 'CRP CSA-XVI for Customer Service Associate (Clerk) Posts' },
+      { label: 'Participating Banks', value: '11 Public Sector Banks (PNB, Canara, Bank of Baroda, Bank of India, etc.)' },
+      { label: 'Total Estimated Vacancies', value: 'State-wise Vacancies in all 36 States & UTs (6,000+ Total)' },
+      { label: 'Clerical Pay Scale', value: 'Basic ₹ 24,050 - 64,480/- (Gross salary approx ₹ 35,000 - 40,000/pm)' },
+      { label: 'Educational Qualification', value: 'Graduation Degree in any stream + Computer Proficiency + Local Language' },
+      { label: 'Age Limit', value: '20 to 28 Years as on 01.08.2026 (SC/ST: 33 Yrs | OBC: 31 Yrs | PwBD: 38 Yrs)' },
+      { label: 'Application Fee', value: 'Rs. 850 for General/OBC/EWS | Rs. 175 for SC/ST/PwBD/ESM' },
+      { label: 'Online Application Dates', value: '01 August 2026 to 21 August 2026' },
+      { event: 'Prelims Exam Date', value: 'October 2026' },
+      { event: 'Mains Exam Date', value: 'December 2026' },
+      { label: 'Official Website', value: 'https://www.ibps.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release Date', date: '01-08-2026' },
+      { event: 'Opening Date of Online Registration & Fee Payment', date: '01-08-2026' },
+      { event: 'Last Date of Online Registration & Fee Payment', date: '21-08-2026' },
+      { event: 'Application Edit Window (Post Closure)', date: 'For 2 Days after closure (Notified on IBPS website)' },
+      { event: 'Download of Call Letters for Online Prelims Exam', date: 'September 2026' },
+      { event: 'Conduct of Online Preliminary Examination', date: 'October 2026' },
+      { event: 'Declaration of Prelims Result', date: 'November 2026' },
+      { event: 'Download of Call Letter for Online Main Exam', date: 'November 2026' },
+      { event: 'Conduct of Online Main Examination', date: 'December 2026' },
+      { event: 'Provisional Allotment to Participating Banks', date: 'March 2027' }
+    ],
+    vacanciesDetails: [
+      { category: 'Uttar Pradesh', count: '1,731 Posts (UR: 672, OBC: 508, SC: 375, EWS: 159, ST: 17)' },
+      { category: 'Karnataka', count: '1,414 Posts (UR: 567, OBC: 386, SC: 224, EWS: 136, ST: 101)' },
+      { category: 'Maharashtra', count: '1,051 Posts (UR: 452, OBC: 291, SC: 117, EWS: 95, ST: 96)' },
+      { category: 'West Bengal', count: '946 Posts (UR: 354, SC: 236, OBC: 224, EWS: 83, ST: 49)' },
+      { category: 'Gujarat', count: '698 Posts (UR: 288, OBC: 194, ST: 103, EWS: 63, SC: 50)' },
+      { category: 'Tamil Nadu', count: '675 Posts (UR: 262, OBC: 213, SC: 137, EWS: 58, ST: 5)' },
+      { category: 'Madhya Pradesh', count: '570 Posts (UR: 218, ST: 114, SC: 91, OBC: 98, EWS: 49)' },
+      { category: 'Bihar', count: '491 Posts (UR: 213, OBC: 146, SC: 89, EWS: 42, ST: 1)' },
+      { category: 'Punjab', count: '481 Posts (UR: 185, SC: 150, OBC: 106, EWS: 40)' },
+      { category: 'Delhi NCR', count: '415 Posts (UR: 156, OBC: 123, SC: 65, EWS: 36, ST: 35)' },
+      { category: 'Rajasthan', count: '392 Posts (UR: 153, OBC: 84, SC: 67, ST: 53, EWS: 35)' },
+      { category: 'Assam', count: '349 Posts (UR: 155, OBC: 97, ST: 41, EWS: 30, SC: 26)' },
+      { category: 'Odisha', count: '337 Posts (UR: 143, ST: 70, SC: 55, OBC: 40, EWS: 29)' },
+      { category: 'Chhattisgarh', count: '265 Posts (UR: 114, ST: 82, SC: 33, EWS: 23, OBC: 13)' },
+      { category: 'Haryana', count: '196 Posts (UR: 86, OBC: 56, SC: 39, EWS: 15)' },
+      { category: 'Telangana', count: '191 Posts (UR: 80, OBC: 48, SC: 29, ST: 18, EWS: 16)' },
+      { category: 'Andhra Pradesh', count: '186 Posts (UR: 75, OBC: 53, SC: 33, EWS: 14, ST: 11)' },
+      { category: 'Jharkhand', count: '182 Posts (UR: 83, ST: 45, OBC: 21, SC: 19, EWS: 14)' },
+      { category: 'Other States & UTs (JK, HP, Goa, UK, UTs)', count: 'Remaining vacancies distributed across rest of States/UTs' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Participating Public Sector Banks', count: 'Bank of Baroda, Bank of India, Bank of Maharashtra, Canara Bank, Central Bank of India, Indian Bank, Indian Overseas Bank, Punjab National Bank, Punjab & Sind Bank, UCO Bank, Union Bank of India' }
+    ],
+    eligibility: {
+      education: [
+        'Graduation (Degree in any discipline) from a University recognized by the Government of India or any equivalent qualification recognized by the Central Government.',
+        'Must possess valid Mark-sheet / Degree Certificate that candidate is a Graduate as on 21.08.2026.',
+        'Computer Literacy: Operating and working knowledge in computer systems is mandatory. Candidates should have Certificate/Diploma/Degree in computer operations/Language OR should have studied Computer / Information Technology as one of the subjects in High School/College.',
+        'Local Language Proficiency: Candidates must be proficient in reading, writing, speaking, and understanding the specified local language of the State/UT applied for.'
+      ],
+      experience: [
+        'No prior work experience mandatory.'
+      ],
+      ageLimit: 'Calculated as on 01.08.2026: Minimum 20 Years and Maximum 28 Years (Candidate must have been born between 02.08.1998 and 01.08.2006 both dates inclusive).',
+      ageRelaxation: [
+        { category: 'Scheduled Caste & Scheduled Tribe (SC / ST)', relaxation: '5 Years relaxation (Upper age limit 33 Years)' },
+        { category: 'Other Backward Classes (OBC Non-Creamy Layer)', relaxation: '3 Years relaxation (Upper age limit 31 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years relaxation (Upper age limit 38 Years)' },
+        { category: 'Ex-Servicemen (ESM / DESM)', relaxation: 'Actual military service period + 3 Years (Max 50 Years)' },
+        { category: 'Widows, Divorced Women & Legally Separated Women', relaxation: 'Up to 35 Years (General/EWS), 38 Years (OBC), 40 Years (SC/ST)' }
+      ],
+      medicalStandards: [
+        'Selected candidates must meet the medical fitness standards of the allotted Participating Bank.'
+      ]
+    },
+    salary: {
+      payLevel: '11th Bipartite Settlement Clerical Pay Scale in Public Sector Banks',
+      initialPay: 'Basic Pay ₹ 24,050/- in scale ₹ 24050-1340/3-28070-1650/3-33020-2000/4-41020-2340/7-57400-4400/1-61800-2680/1-64480',
+      allowances: 'Dearness Allowance (DA), House Rent Allowance (HRA), Special Allowance, Transport Allowance, Medical Aid, Leased Accommodation/HRA, and NPS Pension benefits. Total starting gross salary approx ₹ 35,000/- to ₹ 40,000/- per month.'
+    },
+    applicationFee: [
+      { category: 'SC, ST, PwBD, ESM, DESM Candidates', fee: 'Rs. 175/-', refund: 'Inclusive of GST. Non-refundable intimation charges' },
+      { category: 'All Other Candidates (General / Unreserved / EWS / OBC)', fee: 'Rs. 850/-', refund: 'Inclusive of GST. Non-refundable application fee' }
+    ],
+    howToPayFee: [
+      'Pay ONLINE using Debit Cards (RuPay/Visa/MasterCard/Maestro), Credit Cards, Internet Banking, IMPS, Cash Cards, Mobile Wallets, or UPI.',
+      'Take a printout of the generated e-Receipt after successful online fee payment.'
+    ],
+    selectionProcess: [
+      { stage: '1. Online Preliminary Examination (Oct 2026)', description: 'Screening test of 100 Marks (100 MCQs in 60 Mins with 20 mins sectional timing): English Language (30 Qs / 30 Marks), Numerical Ability (35 Qs / 35 Marks), Reasoning Ability (35 Qs / 35 Marks). 0.25 negative marking per wrong answer.' },
+      { stage: '2. Online Main Examination (Dec 2026)', description: '160 MCQs for 200 Marks (125 Mins duration): General/Financial Awareness (40 Qs / 50 Marks, 20 mins), General English (40 Qs / 40 Marks, 35 mins), Reasoning Ability (40 Qs / 60 Marks, 35 mins), Quantitative Aptitude (40 Qs / 50 Marks, 35 mins). Final merit list based on Mains score.' },
+      { stage: '3. Local Language Proficiency Test (LLPT)', description: 'Conduct by Allotted Bank before joining for candidates who did not study specified local language in 10th standard or above. Qualifying in nature.' },
+      { stage: '4. Document Verification & Provisional Allotment (March 2027)', description: 'Provisional allotment done based on merit-cum-preference in participating banks.' }
+    ],
+    reservation: {
+      title: 'Government of India Bank Reservation Guidelines',
+      detailsList: [
+        'State/UT-wise vertical reservation for SC, ST, OBC-NCL, EWS, and horizontal reservation for PwBD & Ex-Servicemen.',
+        'DigiLocker integration available for uploading educational credentials and ID documents.',
+        'Reserve list of approximately 30% of vacancies will be maintained by IBPS.'
+      ]
+    },
+    howToApply: [
+      'Visit official IBPS website: https://www.ibps.in.',
+      'Click on "CRP CSA" -> "Apply Online for CRP- Customer Service Associates (CRP-CSA-XVI)".',
+      'Click on "CLICK HERE FOR NEW REGISTRATION" and enter Name, Mobile Number, and Email ID.',
+      'Note down Provisional Registration Number and Password.',
+      'Fill personal details, educational qualifications, computer literacy details, and opt for your preferred State/UT and Bank preferences.',
+      'Upload clear scanned passport photo (20-50 KB JPEG), signature in black ink (10-20 KB JPEG), left thumb impression (20-50 KB JPEG), and hand-written declaration in English (50-100 KB JPEG).',
+      'Upload Class 10th / SSLC Certificate (PDF up to 500 KB). Live photograph capture via webcam/mobile phone is also required.',
+      'Pay examination fee of Rs. 850/- (or Rs. 175/- for reserved categories) online.',
+      'Submit the application and save the system-generated printout for Document Verification.'
+    ],
+    documentsRequired: [
+      'SSC / 10th Class Certificate as Proof of Date of Birth & Local Language study.',
+      'Graduation Mark Sheets (all semesters/years) and Degree / Provisional Passing Certificate (issued on or before 21.08.2026).',
+      'Computer Literacy Certificate / Diploma / Degree OR Mark sheet showing Computer/IT studied in School/College.',
+      'Caste Certificate for SC/ST/OBC-NCL (with Non-Creamy Layer clause issued on or after 01.04.2026).',
+      'EWS Income & Asset Certificate valid for 2026-27 (for 2025-26 FY).',
+      'Disability Certificate for PwBD / Discharge Booklet for Ex-Servicemen.',
+      'Valid Photo ID Proof (Aadhaar Card, E-Aadhaar, PAN Card, Passport, Driving License, Voter ID).'
+    ],
+    importantInstructions: [
+      'Single Application Only: Only one application permitted per candidate. Multiple applications will be rejected.',
+      'State-wise Application: Candidates can apply for vacancies in only ONE State/UT.',
+      'Negative Marking: 0.25 marks deducted for each wrong answer in both Prelims and Mains exams.',
+      'Edit Window: 2-day edit window provided after registration closure for correcting mistakes.'
+    ],
+    urls: [
+      { label: 'IBPS Official Website Homepage', url: 'https://www.ibps.in' },
+      { label: 'IBPS Candidate Complaint Grievance Portal', url: 'https://cgrs.ibps.in' },
+      { label: 'IBPS CRP CSA Online Application Portal', url: 'https://www.ibps.in' }
+    ],
+    faqs: [
+      { question: 'What is the full form of CRP CSA in IBPS Recruitment 2026?', answer: 'CRP CSA stands for Common Recruitment Process for Customer Service Associates (Clerical Cadre) in Participating Public Sector Banks.' },
+      { question: 'What is the last date to apply online for IBPS Clerk / CSA Recruitment 2026?', answer: 'The last date to register online and pay fees on www.ibps.in is 21st August 2026.' },
+      { question: 'When will the IBPS Clerk 2026 Prelims and Mains Examinations be held?', answer: 'The Online Preliminary Examination is scheduled for October 2026 and the Online Main Examination is scheduled for December 2026.' },
+      { question: 'Can final year students apply for IBPS Clerk / CSA 2026?', answer: 'No, candidates must possess a valid graduation degree result declared on or before 21st August 2026.' },
+      { question: 'What is the application fee for IBPS Clerk 2026?', answer: 'The application fee is Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM candidates and Rs. 850/- (inclusive of GST) for all other candidates.' }
+    ]
+  },
+  'rcf-ltd-management-trainee-recruitment-2026': {
+    id: 'rcf-ltd-management-trainee-recruitment-2026',
+    seoTitle: 'RCF Ltd Management Trainee Recruitment 2026 (Advt 16022026) - Apply Online for 94 Posts',
+    seoDescription: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) notification out for 94 Management Trainee vacancies in Chemical, Mechanical, Electrical, IT, Finance, Marketing. BE/BTech, MBA, CA/CMA eligible. Stipend Rs 60,000/pm, E-1 pay scale Rs 40000-140000. Apply online at rcfltd.com from 8 to 24 Aug 2026.',
+    focusKeywords: 'RCF Ltd Management Trainee Recruitment 2026, RCF Advt 16022026 Notification, Management Trainee Chemical Mechanical Electrical RCF Jobs, rcfltd com apply online, PSU Jobs Mumbai Maharashtra',
+    lsiKeywords: 'rcf mt stipend 60000 e1 pay scale, rcf ltd application fee age limit relaxation, rcf mt online test syllabus exam pattern, navratna psu recruitment 2026',
+    title: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) Recruitment 2026 (Advt. No. 16022026) – 94 Vacancies for Management Trainee (MT) in Chemical, Mechanical, Electrical, Instrumentation, IT, Finance, Marketing & Civil | Apply Online at rcfltd.com from 08 to 24 August 2026',
+    board: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Navratna Government of India Undertaking, Administrative Building, Chembur, Mumbai – 400074',
+    advtNo: 'Advertisement No. 16022026',
+    vacancies: 94,
+    jobLocation: 'RCF Manufacturing Units at Trombay (Mumbai) & Thal (Dist. Raigad, Maharashtra) and Marketing Area Offices across India',
+    applicationMode: 'Online Application via RCF Official Portal (https://www.rcfltd.com)',
+    applicationStatus: 'Upcoming - Online Application Window: 08 August 2026 (08:00 AM) to 24 August 2026 (05:00 PM IST)',
+    lastUpdated: 'August 01, 2026',
+    overview: [
+      'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), a leading profit-making Navratna PSU under the Government of India, has published Advertisement No. 16022026 for recruitment of Management Trainees in various engineering, technical, and executive disciplines.',
+      'RCF Ltd invites online applications from dynamic engineering graduates, post-graduates, CA/CMA, and MBAs for filling up 94 vacancies in its Trombay (Mumbai) and Thal (Raigad) manufacturing units and nationwide marketing network.',
+      'Total Vacancies: 94 Management Trainee Posts — Chemical (32), Boiler (06), Mechanical (04), Electrical (10), Instrumentation (09), Materials (01), Civil (01), Fire (01), CC Lab (01), Industrial Engineering (02), Information Technology (05), Rajbhasha (02), Finance (10), and Marketing (10).',
+      'Training Period & Stipend: 1-Year Training Period during which Management Trainees will receive a lump sum stipend of Rs. 60,000/- per month + Free Hostel Accommodation / Quarter facility + Medical facility at RCF Hospital.',
+      'Pay Scale on Absorption: Upon successful completion of 1 year training, candidates will be absorbed in E1 Grade in the Pay Scale of Rs. 40,000 - 1,40,000/- (Initial Basic Pay Rs. 40,000/- + VDA + Perks 34% + HRA 30%, making minimum gross emoluments approx Rs. 86,320/- per month).',
+      'Educational Qualification (as on 01.02.2026): Regular full-time 4-Year B.E. / B.Tech engineering degree in relevant stream (Chemical, Mechanical, Electrical, Instrumentation, Civil, Fire, IT, CSE, etc.) with minimum 60% aggregate (55% for SC/ST); OR CA / CMA / MBA / MMS / PGDM in Finance/Marketing; OR MSc/PhD in Chemistry.',
+      'Age Limit (as on 01.02.2026): Upper Age Limit for UR/EWS: 27 Years; SC/ST: 32 Years (5 Yrs relaxation); OBC-NCL: 30 Years (3 Yrs relaxation); PwBD: 37 to 42 Years; 1984 Riot Victims: +5 Years.',
+      'Application Fee: Rs. 1,000/- + Bank Charges + GST for General, OBC(NCL), and EWS candidates. SC, ST, Ex-Servicemen, PwBD, and Female candidates are 100% EXEMPTED from paying application fee.',
+      'Selection Process: Computer-Based Online Test (80% weightage) + Personal Interview (20% weightage). Online test will be held in 10 major cities including Mumbai, Delhi, Kolkata, Chennai, Bengaluru, Hyderabad, etc.',
+      'How to Apply: Apply online at https://www.rcfltd.com under "HR -> RECRUITMENT" between 08.08.2026 (08:00 AM) and 24.08.2026 (05:00 PM).'
+    ],
+    highlights: [
+      { label: 'Recruiting PSU', value: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) - Navratna PSU' },
+      { label: 'Notification Number', value: 'Advertisement No. 16022026' },
+      { label: 'Total Vacancies', value: '94 Management Trainee (MT) Posts' },
+      { label: 'MT Chemical', value: '32 Posts (Level E-1 | BE/BTech Chemical)' },
+      { label: 'MT Electrical & Instrumentation', value: '19 Posts (Electrical: 10 | Instrumentation: 09)' },
+      { label: 'MT Finance & Marketing', value: '20 Posts (Finance: 10 | Marketing: 10)' },
+      { label: 'Stipend During Training', value: 'Rs. 60,000/- per month + Free Hostel Accommodation' },
+      { label: 'Gross Salary on Absorption', value: 'E-1 Grade (Rs. 40,000 - 1,40,000/-) | Gross Approx Rs. 86,320/- pm' },
+      { label: 'Application Fee', value: 'Rs. 1,000 + GST (SC/ST/PwBD/ExSM/Female: FREE)' },
+      { label: 'Online Application Window', value: '08th August 2026 (08:00 AM) to 24th August 2026 (05:00 PM IST)' },
+      { label: 'Official Portal', value: 'https://www.rcfltd.com' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Publication Date', date: '01-08-2026' },
+      { event: 'Commencement Date for Online Application Registration', date: '08-08-2026 at 08:00 AM IST' },
+      { event: 'Last Date / Closing Date for Submission of Online Application', date: '24-08-2026 up to 05:00 PM IST' },
+      { event: 'Date of Reckoning Age & Educational Eligibility Criteria', date: '01-02-2026' },
+      { event: 'Date of Computer-Based Online Test', date: 'To be communicated on www.rcfltd.com' }
+    ],
+    vacanciesDetails: [
+      { category: 'Management Trainee (Chemical)', count: '32 Posts (UR: 12, SC: 5, ST: 3, OBC-NCL: 9, EWS: 3)' },
+      { category: 'Management Trainee (Boiler)', count: '06 Posts (SC: 2, ST: 2, EWS: 2)' },
+      { category: 'Management Trainee (Mechanical)', count: '04 Posts (UR: 1, OBC-NCL: 2, EWS: 1)' },
+      { category: 'Management Trainee (Electrical)', count: '10 Posts (UR: 4, SC: 1, ST: 1, OBC-NCL: 3, EWS: 1)' },
+      { category: 'Management Trainee (Instrumentation)', count: '09 Posts (UR: 3, SC: 1, ST: 1, OBC-NCL: 3, EWS: 1)' },
+      { category: 'Management Trainee (Materials)', count: '01 Post (ST: 1)' },
+      { category: 'Management Trainee (Civil)', count: '01 Post (OBC-NCL: 1)' },
+      { category: 'Management Trainee (Fire)', count: '01 Post (OBC-NCL: 1)' },
+      { category: 'Management Trainee (CC Lab)', count: '01 Post (EWS: 1)' },
+      { category: 'Management Trainee (Industrial Engineering)', count: '02 Posts (UR: 1, EWS: 1)' },
+      { category: 'Management Trainee (Information Technology)', count: '05 Posts (UR: 2, SC: 1, OBC-NCL: 2)' },
+      { category: 'Management Trainee (Rajbhasha)', count: '02 Posts (UR: 2)' },
+      { category: 'Management Trainee (Finance)', count: '10 Posts (UR: 5, SC: 1, ST: 1, OBC-NCL: 2, EWS: 1 | PwBD: 2)' },
+      { category: 'Management Trainee (Marketing)', count: '10 Posts (UR: 4, SC: 1, ST: 1, OBC-NCL: 3, EWS: 1 | PwBD: 1)' },
+      { category: 'Total Sanctioned Management Trainee Posts', count: '94 Posts across all disciplines' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Trombay Unit (Chembur, Mumbai, Maharashtra)', count: 'Manufacturing unit & Corporate Headquarters' },
+      { region: 'Thal Unit (Alibag, Dist. Raigad, Maharashtra)', count: 'Manufacturing plant' },
+      { region: 'Marketing Area Offices Across India', count: 'Pan-India marketing network' }
+    ],
+    eligibility: {
+      education: [
+        'MT Chemical / Mechanical / Electrical / Instrumentation / Civil / Materials / Industrial Engg: Regular full-time 4-Year B.E. / B.Tech in relevant Engineering stream from AICTE/UGC recognized institute with minimum 60% aggregate in Final Year (55% for SC/ST). 3-Year B.E./B.Tech after Diploma also eligible.',
+        'MT Boiler: 4-Year B.E./B.Tech in Chemical/Mechanical/Electrical/Instrumentation + Valid Boiler Operation Engineer (BOE) Certificate.',
+        'MT IT: 4-Year B.E./B.Tech in IT / CSE / Computer Technology / Computer Engineering with min 60% (55% SC).',
+        'MT Fire: 4-Year B.E./B.Tech in Fire Engineering or Fire & Safety Discipline.',
+        'MT CC Lab: Ph.D. in Chemistry OR 4-Year B.E./B.Tech in Chemical Engineering / Technology.',
+        'MT Rajbhasha: Master\'s Degree in Hindi with English at Degree level OR Master\'s Degree in English with Hindi at Degree level with min 60% marks.',
+        'MT Finance: CA / CMA OR Regular full-time B.Com / BBA / BMS + 2-Year Full-time MBA / MMS / PGDM in Finance with min 60% aggregate (55% SC/ST).',
+        'MT Marketing: Regular full-time Science / Engineering / Agriculture Graduate + 2-Year Full-time MBA / MMS / PGDM in Marketing / Agri-Business Management with min 60% aggregate (55% SC/ST).'
+      ],
+      experience: [
+        'No prior post-qualification work experience required for entry-level MT posts (except BOE certificate for MT Boiler).'
+      ],
+      ageLimit: 'Calculated as on 01.02.2026: Upper Age Limit for UR / EWS category is 27 Years.',
+      ageRelaxation: [
+        { category: 'Scheduled Caste & Scheduled Tribe (SC / ST)', relaxation: '5 Years relaxation (Max Age: 32 Years)' },
+        { category: 'Other Backward Classes (OBC-NCL)', relaxation: '3 Years relaxation (Max Age: 30 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD UR/EWS)', relaxation: '10 Years relaxation (Max Age: 37 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD OBC-NCL)', relaxation: '13 Years relaxation (Max Age: 40 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD SC/ST)', relaxation: '15 Years relaxation (Max Age: 42 Years)' },
+        { category: '1984 Riot Victims / Children', relaxation: '5 Years additional concession' }
+      ],
+      medicalStandards: [
+        'Candidates must satisfy RCF Ltd pre-employment medical fitness standards.'
+      ]
+    },
+    salary: {
+      payLevel: 'E1 Grade Executive Level (Navratna PSU Pay Scale)',
+      initialPay: '1st Year Training: Fixed Stipend Rs. 60,000/- pm. On Absorption: E-1 Scale Rs. 40,000 - 1,40,000/- (Basic Pay Rs. 40,000/-)',
+      allowances: 'VDA (51.8%), Perks (34%), HRA (30%), PRP (Performance Related Pay), Free Medical Facility for self & family, Contributory PF, Gratuity, Pension & Company Accommodation.'
+    },
+    applicationFee: [
+      { category: 'General, OBC (Non-Creamy Layer), and EWS Candidates', fee: 'Rs. 1,000/-', refund: 'Non-refundable application fee (+ Bank Charges + GST)' },
+      { category: 'SC, ST, Ex-Servicemen, PwBD, and Female Candidates', fee: 'Exempted (Rs. 0/-)', refund: '100% Fee Exempted' }
+    ],
+    howToPayFee: [
+      'Pay online via Net Banking, Debit Cards (RuPay/Visa/MasterCard/Maestro), Credit Cards, or Mobile Wallets.',
+      'Keep e-Receipt printout after successful fee transaction.'
+    ],
+    selectionProcess: [
+      { stage: '1. Computer-Based Online Test (CBT)', description: '90 Minutes test carrying 100 questions (50 Domain/Technical questions @ 2 marks each + 50 Aptitude/English/Reasoning/GK questions @ 1 mark each). 80% weightage in final merit.' },
+      { stage: '2. Personal Interview', description: 'Shortlisted candidates called in 1:7 ratio based on CBT performance. 20% weightage in final merit. Min 50% marks in interview mandatory to qualify.' }
+    ],
+    reservation: {
+      title: 'Central PSU Reservation Rules',
+      detailsList: [
+        'Vertical reservation for SC, ST, OBC-NCL, EWS, and horizontal reservation for PwBD as per DPE guidelines.',
+        'Selected MTs must execute a 4-year Service Bond for Rs. 2,000,000/- (Rupees Two Lakhs) at the time of joining.'
+      ]
+    },
+    howToApply: [
+      'Visit official RCF website: https://www.rcfltd.com.',
+      'Click on "HR -> RECRUITMENT" and select "Apply Online for Advt. No. 16022026".',
+      'Click on "Click here for New Registration" and enter Name, Mobile Number, and Email ID.',
+      'Fill qualification marks, age, category, and preferred test city.',
+      'Upload clear scanned passport photo (4.5x3.5 cm, 20-50 KB JPEG), signature in black ink (10-20 KB JPEG), left thumb impression (20-50 KB JPEG), and hand-written declaration (50-100 KB JPEG).',
+      'Pay Rs. 1,000 fee online (if applicable) and submit the form.',
+      'Print the final application form and e-Receipt for Document Verification.'
+    ],
+    documentsRequired: [
+      'Class 10th / Matriculation Mark Sheet / Certificate as DOB proof.',
+      'BE / B.Tech / B.Com / BBA / BSc / MSc / MBA Degree & Semester-wise Mark Sheets.',
+      'Caste Certificate for SC/ST/OBC-NCL (issued on or after 01.04.2025).',
+      'EWS Income & Asset Certificate (issued on or after 01.04.2025).',
+      'PwBD Disability Certificate (40% or above).',
+      'Valid Photo ID Proof (Aadhaar Card, PAN Card, Driving License, Voter ID).'
+    ],
+    importantInstructions: [
+      'Service Bond: Selected candidates must sign a 4-year bond for Rs. 2 Lakhs.',
+      'Final Year Candidates Ineligible: Candidates in final year of graduation/post-graduation are NOT eligible.',
+      'Minimum Marks Requirement: 60% aggregate in qualifying degree (55% for SC/ST).',
+      'CBT Test Cities: Bhopal, Delhi NCR, Lucknow, Hyderabad, Bengaluru, Chennai, Guwahati, Kolkata, Mumbai/Thane, Nagpur.'
+    ],
+    urls: [
+      { label: 'RCF Official Portal Homepage', url: 'https://www.rcfltd.com' },
+      { label: 'RCF Recruitment Page', url: 'https://www.rcfltd.com' },
+      { label: 'RCF Grievance Helpdesk', url: 'https://www.rcfltd.com' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in RCF Ltd Management Trainee Recruitment 2026?', answer: 'RCF Ltd has advertised 94 Management Trainee (MT) vacancies across Chemical, Mechanical, Electrical, Instrumentation, IT, Finance, Marketing, and other disciplines.' },
+      { question: 'What are the application dates for RCF Ltd MT Recruitment 2026 (Advt 16022026)?', answer: 'Online application window opens on 08th August 2026 (08:00 AM) and closes on 24th August 2026 (05:00 PM IST) on www.rcfltd.com.' },
+      { question: 'What is the stipend and salary for Management Trainee in RCF Ltd?', answer: 'During 1 year training, MTs receive a fixed monthly stipend of Rs. 60,000/- plus free accommodation. On absorption in E-1 Grade, gross salary is approx Rs. 86,320/- per month.' },
+      { question: 'Who is exempted from paying application fees in RCF Ltd?', answer: 'Female candidates, SC, ST, PwBD, and Ex-Servicemen candidates are completely exempted from paying application fees.' },
+      { question: 'What is the selection process for RCF Management Trainee 2026?', answer: 'Selection is based on a Computer-Based Online Test (80% weightage) followed by a Personal Interview (20% weightage).' }
+    ]
+  },
+  'isro-nrsc-research-scientist-jrf-project-associate-recruitment-2026': {
+    id: 'isro-nrsc-research-scientist-jrf-project-associate-recruitment-2026',
+    seoTitle: 'ISRO NRSC Recruitment 2026 (Advt NRSC/RMT/1/2026) - Apply Online for 48 Posts',
+    seoDescription: 'ISRO National Remote Sensing Centre (NRSC) Hyderabad recruitment notification for 48 Research Scientist, Junior Research Fellow (JRF), Project Associate & Project Scientist vacancies. MSc, MTech, BE/BTech eligible. Salary up to Rs 56,100 + HRA. Apply online at nrsc.gov.in by 21 August 2026.',
+    focusKeywords: 'ISRO NRSC Recruitment 2026, NRSC Hyderabad Vacancy 2026, Research Scientist JRF ISRO Jobs, nrsc gov in apply online, ISRO Remote Sensing Jobs',
+    lsiKeywords: 'isro nrsc salary pay scale age limit, jrf research scientist age relaxation, isro nrsc application fee refund, geospatial remote sensing gis jobs 2026',
+    title: 'ISRO National Remote Sensing Centre (NRSC) Recruitment 2026 (Advt. No. NRSC/RMT/1/2026) – 48 Temporary Research Vacancies for Research Scientist, JRF, Project Associate & Project Scientist | Apply Online at nrsc.gov.in by 21 August 2026',
+    board: 'National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), Department of Space, Government of India, Balanagar, Hyderabad – 500037',
+    advtNo: 'Advt. No. NRSC/RMT/1/2026 Dated 01.08.2026',
+    vacancies: 48,
+    jobLocation: 'NRSC Hyderabad / Shadnagar (Rangareddy District) & Regional Remote Sensing Centres (RRSC Delhi, Bengaluru, Nagpur, Kolkata, Jodhpur)',
+    applicationMode: 'Online Application via NRSC Career Portal (https://www.nrsc.gov.in/Career_Apply)',
+    applicationStatus: 'Active - Online Registration Window: 01 August 2026 (10:00 AM) to 21 August 2026 (05:00 PM IST)',
+    lastUpdated: 'August 01, 2026',
+    overview: [
+      'National Remote Sensing Centre (NRSC), a premier centre under the Indian Space Research Organisation (ISRO), Department of Space, Govt of India, has released Advertisement No. NRSC/RMT/1/2026 dated 01.08.2026.',
+      'NRSC invites online applications for filling up 48 temporary research personnel positions across various satellite remote sensing, geospatial, disaster management, and space application projects.',
+      'Total Vacancies: 48 Positions — Research Scientist / RS (14 Posts), Project Associate-I / PAI (03 Posts), Project Associate-II / PAII (02 Posts), Project Scientist-B / PSB (08 Posts), Project Scientist-I / PSI (02 Posts), and Junior Research Fellow / JRF (19 Posts).',
+      'Pay Scale & Monthly Emoluments: Research Scientist & Project Scientist: Rs. 56,100/- per month + HRA + DA (as per Govt of India norms); Project Associate-I: Rs. 31,000/- + HRA; Project Associate-II: Rs. 35,000/- + HRA; Junior Research Fellow (JRF): Rs. 37,000/- + HRA (with possibility to upgrade to SRF @ Rs. 42,000/- + HRA after 2 years based on performance).',
+      'Educational Qualification: M.E. / M.Tech / M.Sc / B.E. / B.Tech in Civil, Water Resources, Remote Sensing & GIS, Geoinformatics, Geology, Computer Science, Information Technology, Data Science, AI/ML, Physics, Atmospheric Science, Oceanography, Geophysics, or Agriculture from a recognized University/Institute.',
+      'Age Limit (as on 21.08.2026): JRF & M.Sc-based RS: Max 28 Years; M.Tech-based RS: Max 30 Years; Project Associate (PA-I, PA-II) & Project Scientist (PS-I, PS-B): Max 35 Years. Age relaxation: +5 Yrs for SC/ST, +3 Yrs for OBC.',
+      'Application Fee: Rs. 250/- (Rupees Two Hundred and Fifty only) for each application, payable online via BHARATKOSH payment gateway. Full Rs. 250 fee is 100% REFUNDABLE for all Female, SC, ST, PwBD, and Ex-Servicemen candidates who participate in the selection process.',
+      'Selection Process: Initial screening/shortlisting based on academic credentials and experience -> Personal Interview (conducted either in-person at NRSC Hyderabad/Shadnagar or online mode).',
+      'Tenure: Purely temporary on project basis for 1 year, extendable up to a maximum period of 5 years for JRF and RS based on project performance and validity.',
+      'How to Apply: Register and submit online application at https://www.nrsc.gov.in/Career_Apply between 01.08.2026 (10:00 Hrs) and 21.08.2026 (17:00 Hrs).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organisation', value: 'National Remote Sensing Centre (NRSC), ISRO, Dept. of Space, Govt of India' },
+      { label: 'Notification Number', value: 'Advt. No. NRSC/RMT/1/2026' },
+      { label: 'Total Vacancies', value: '48 Temporary Research Personnel Posts' },
+      { label: 'Research Scientist (RS)', value: '14 Posts (Rs. 56,100 + HRA + DA)' },
+      { label: 'Junior Research Fellow (JRF)', value: '19 Posts (Rs. 37,000 + HRA | Upgradeable to SRF Rs. 42,000+)' },
+      { label: 'Project Associate (PA-I & PA-II)', value: '05 Posts (Rs. 31,000 to Rs. 35,000 + HRA)' },
+      { label: 'Project Scientist (PS-B & PS-I)', value: '10 Posts (Rs. 56,000 + HRA)' },
+      { label: 'Essential Qualification', value: 'M.E / M.Tech / M.Sc / B.E / B.Tech in relevant disciplines' },
+      { label: 'Application Fee', value: 'Rs. 250 (100% Refundable for Women, SC, ST, PwBD & ExSM)' },
+      { label: 'Online Application Window', value: '01st August 2026 (10:00 AM) to 21st August 2026 (05:00 PM IST)' },
+      { label: 'Official Website Portal', value: 'https://www.nrsc.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Publication Date', date: '01-08-2026' },
+      { event: 'Commencement of Online Registration', date: '01-08-2026 at 10:00 AM IST' },
+      { event: 'Closing Date of Online Registration', date: '21-08-2026 up to 05:00 PM IST' },
+      { event: 'Cut-off Date for Age & Eligibility Criteria', date: '21-08-2026' },
+      { event: 'Schedule of Personal Interview', date: 'To be communicated to shortlisted candidates via email' }
+    ],
+    vacanciesDetails: [
+      { category: 'Research Scientist (RS20 to RS25)', count: '14 Posts (Water Resources: 3, GIS/Geoinformatics: 7, Geology: 2, CSE/IT: 1, AI/ML/Data Sci: 1)' },
+      { category: 'Junior Research Fellow (JRF30 to JRF35)', count: '19 Posts (Physics/Atmospheric Sci: 9, Oceanography/Geophysics: 6, Agrometeorology: 2, Agriculture/Horticulture: 1, AI/Data Sci: 1)' },
+      { category: 'Project Associate - I (PAI-06)', count: '03 Posts (B.E./B.Tech Computer Science & Engineering / IT)' },
+      { category: 'Project Associate - II (PAII-02 & PAII-03)', count: '02 Posts (B.E./B.Tech CSE/IT or Geoinformatics + 2 Yrs R&D Experience)' },
+      { category: 'Project Scientist - B (PSB03 to PSB06)', count: '08 Posts (Geology: 1, Geoinformatics: 1, CSE/IT: 5, Agriculture/Geospatial: 1)' },
+      { category: 'Project Scientist - I (PSI-06)', count: '02 Posts (M.E./M.Tech Computer Science & Engineering / IT)' },
+      { category: 'Total Sanctioned Temporary Positions', count: '48 Positions across NRSC Hyderabad & Regional Centres' }
+    ],
+    regionWiseVacancies: [
+      { region: 'NRSC Headquarters & Campuses (Hyderabad & Shadnagar)', count: 'Main posting hub' },
+      { region: 'Regional Remote Sensing Centres (RRSCs)', count: 'RRSC North (Delhi), RRSC South (Bengaluru), RRSC Nagpur, RRSC Kolkata, RRSC Jodhpur' }
+    ],
+    eligibility: {
+      education: [
+        'Research Scientist (RS): M.E. / M.Tech / M.Sc in Civil, Water Resources, Remote Sensing & GIS, Geoinformatics, Geology, Applied Geology, Computer Science, IT, Data Science, AI/ML, or Agriculture with minimum 60% or 65% aggregate marks.',
+        'Junior Research Fellow (JRF): Master\'s Degree (M.Sc / M.Tech) in Physics, Atmospheric Science, Oceanography, Marine Science, Geophysics, Remote Sensing, GIS, Agrometeorology, Agriculture, Horticulture, CSE, or Data Science + CSIR-UGC NET / GATE qualification certificate.',
+        'Project Associate-I & II: B.E. / B.Tech in Computer Science & Engineering / IT (plus 2 years R&D experience for PA-II).',
+        'Project Scientist-B & I: M.Sc / M.Tech / B.E. / B.Tech in Geology, Geoinformatics, Remote Sensing, CSE, IT, or Agricultural Physics.'
+      ],
+      experience: [
+        'Research Scientist / JRF / PA-I: Fresh graduates eligible.',
+        'Project Associate-II: Minimum 02 years experience in R&D in Industrial/Academic institutions or S&T organizations.'
+      ],
+      ageLimit: 'Calculated as on 21.08.2026: JRF & M.Sc-based RS: Max 28 Years (UR/EWS); M.Tech-based RS: Max 30 Years (UR/EWS); PA-I, PA-II, PS-I, PS-B: Max 35 Years (UR/EWS).',
+      ageRelaxation: [
+        { category: 'Scheduled Caste & Scheduled Tribe (SC / ST)', relaxation: '5 Years relaxation (JRF/RS: up to 33/35 Yrs | PA/PS: up to 40 Yrs)' },
+        { category: 'Other Backward Classes (OBC)', relaxation: '3 Years relaxation (JRF/RS: up to 31/33 Yrs | PA/PS: up to 38 Yrs)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years relaxation as per Govt of India orders' },
+        { category: 'Ex-Servicemen (ExSM)', relaxation: 'As per Central Government rules' }
+      ],
+      medicalStandards: [
+        'Candidates must satisfy medical fitness standards set by NRSC / ISRO rules.'
+      ]
+    },
+    salary: {
+      payLevel: 'Central Government / ISRO Project Emoluments Norms',
+      initialPay: 'Research Scientist (RS) & Project Scientist (PS-B/I): Rs. 56,100/- + HRA + DA | JRF: Rs. 37,000/- + HRA | PA-I: Rs. 31,000/- + HRA | PA-II: Rs. 35,000/- + HRA',
+      allowances: 'HRA at prescribed rates (if accommodation not provided), medical benefits for self, and maternity leave for female candidates.'
+    },
+    applicationFee: [
+      { category: 'All Candidates (Unreserved / EWS / OBC)', fee: 'Rs. 250/-', refund: 'Non-refundable application fee for General male candidates' },
+      { category: 'All Women, SC, ST, PwBD, and Ex-Servicemen Candidates', fee: 'Rs. 250/-', refund: 'Full Rs. 250/- REFUNDED into bank account upon participating in the selection process' }
+    ],
+    howToPayFee: [
+      'Pay online through BHARATKOSH payment gateway linked within the online application portal.',
+      'Bank account details must be filled accurately in the application form to receive the fee refund.'
+    ],
+    selectionProcess: [
+      { stage: '1. Screening / Shortlisting', description: 'NRSC reserves the right to screen and shortlist applications based on academic performance, CGPA, and relevance of specialization.' },
+      { stage: '2. Personal Interview', description: 'Screened-in shortlisted candidates will be invited for Personal Interview (in-person at NRSC or virtual mode). Call letters sent via registered email.' }
+    ],
+    reservation: {
+      title: 'ISRO / NRSC Project Guidelines',
+      detailsList: [
+        'Positions are purely temporary for 1 year, extendable up to 5 years maximum based on project review.',
+        'Reservation for SC, ST, OBC, EWS, PwBD & ExSM as per Government of India directives.',
+        'Full fee refund provided for exempted categories upon participating in interview.'
+      ]
+    },
+    howToApply: [
+      'Visit official NRSC Career Portal: https://www.nrsc.gov.in/Career_Apply.',
+      'Click on "Apply Online" for Advt. No. NRSC/RMT/1/2026.',
+      'Fill personal details, educational qualifications, CGPA/percentage, and contact info.',
+      'Upload recent colour passport photograph (110x140 px, max 40 KB JPEG) and signature (200x50 px, max 20 KB JPEG).',
+      'Upload essential qualification mark sheets, degree certificates, GATE/NET scorecards, and caste/category certificates (PDF format).',
+      'Pay application fee of Rs. 250/- via BHARATKOSH payment gateway.',
+      'Submit the application and download/print the personalized Registration Confirmation Form for future reference.'
+    ],
+    documentsRequired: [
+      'SSC / 10th Class Certificate as DOB proof.',
+      'Intermediate / Diploma Certificate.',
+      'Graduation & Post-Graduation Mark Sheets (Semester-wise & Consolidated) and Degree Certificates.',
+      'GATE / NET Qualification Certificate & Scorecard (for JRF posts).',
+      'Valid Caste Certificate (SC/ST/OBC-NCL) / EWS Income & Asset Certificate.',
+      'PwBD Certificate / Discharge Certificate for ExSM (if claiming fee refund/relaxation).',
+      'Clear Passport Photo (max 40 KB) & Scanned Signature (max 20 KB).'
+    ],
+    importantInstructions: [
+      'Online Application Only: No physical application form will be accepted.',
+      'Fee Refund Policy: Rs. 250 fee refunded to Women/SC/ST/PwBD/ExSM candidates who participate in selection.',
+      'Tenure Period: Purely temporary for 1 year, extendable up to 5 years for JRF/RS.',
+      'Multiple Applications: Separate application required for each Post Code.'
+    ],
+    urls: [
+      { label: 'NRSC Official Registration Portal (Apply Online)', url: 'https://www.nrsc.gov.in/Career_Apply' },
+      { label: 'ISRO Official Website Homepage', url: 'https://www.isro.gov.in' },
+      { label: 'NRSC Official Website Homepage', url: 'https://www.nrsc.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in ISRO NRSC Recruitment 2026 (Advt NRSC/RMT/1/2026)?', answer: 'NRSC ISRO has advertised 48 temporary research positions including Research Scientist (14), JRF (19), Project Associate (5), and Project Scientist (10).' },
+      { question: 'What is the last date to apply online for NRSC ISRO jobs?', answer: 'The last date to complete online registration at www.nrsc.gov.in/Career_Apply is 21st August 2026 up to 05:00 PM IST.' },
+      { question: 'What is the pay scale for Research Scientists at ISRO NRSC?', answer: 'Research Scientists and Project Scientists receive a monthly remuneration of Rs. 56,100/- + HRA + DA as per Central Government norms.' },
+      { question: 'Is the application fee refunded by NRSC ISRO?', answer: 'Yes, the application fee of Rs. 250/- is 100% refunded to all Women, SC, ST, PwBD, and Ex-Servicemen candidates who participate in the selection process.' },
+      { question: 'What is the age limit for JRF and Research Scientist posts in NRSC?', answer: 'Upper age limit for JRF and M.Sc-based Research Scientist is 28 years; M.Tech-based Research Scientist is 30 years; Project Associate/Scientist is 35 years (age relaxations apply).' }
+    ]
+  },
+  'krcl-konkan-railway-je-sse-station-master-alp-track-maintainer-recruitment-2026': {
+    id: 'krcl-konkan-railway-je-sse-station-master-alp-track-maintainer-recruitment-2026',
+    seoTitle: 'Konkan Railway Recruitment 2026 (Advt CO/P-R/02/2026) - Apply Online for 201 Posts',
+    seoDescription: 'Konkan Railway Corporation Ltd (KRCL) notification out for 201 vacancies of Station Master, Assistant Loco Pilot, Junior Engineer, SSE, Track Maintainer & Technicians. ITI, Diploma, BE/BTech, Graduate eligible. Apply online at konkanrailway.com in August 2026.',
+    focusKeywords: 'Konkan Railway Recruitment 2026, KRCL Vacancy 2026 Notification, Station Master ALP JE SSE KRCL Jobs, konkanrailway com apply online, Railway Jobs Maharashtra Goa Karnataka',
+    lsiKeywords: 'krcl co p r 02 2026 syllabus cbt exam pattern, konkan railway land loser preference salary, krcl alp station master track maintainer age limit, railway recruitment 2026 level 1 to 7',
+    title: 'Konkan Railway Corporation Limited (KRCL) Recruitment 2026 (Advt. No. CO/P-R/02/2026) – 201 Vacancies for Station Master, Assistant Loco Pilot, Junior Engineer, Senior Section Engineer, Track Maintainer & Technicians | Apply Online at konkanrailway.com in August 2026',
+    board: 'Konkan Railway Corporation Limited (KRCL), Public Sector Undertaking under Ministry of Railways, Belapur Bhavan, Sector-11, CBD Belapur, Navi Mumbai – 400614',
+    advtNo: 'Employment Notification No. CO/P-R/02/2026 Dated 31.07.2026',
+    vacancies: 201,
+    jobLocation: 'Konkan Railway Route / Network (Maharashtra, Goa, Karnataka)',
+    applicationMode: 'Online Application via KRCL Official Portal (https://www.konkanrailway.com)',
+    applicationStatus: 'Upcoming - Online Application Window opens last week of August 2026 (Tentatively)',
+    lastUpdated: 'July 31, 2026',
+    overview: [
+      'Konkan Railway Corporation Limited (KRCL) has published Employment Notification No. CO/P-R/02/2026 dated 31.07.2026 for open market recruitment of Group \'C\' and Erstwhile Group \'D\' posts.',
+      'KRCL invites online applications from eligible candidates domiciled in Maharashtra, Goa, and Karnataka, registered employment exchange candidates along the KR route, land losers, and KRCL employees.',
+      'Total Vacancies: 201 Posts — Senior Section Engineer S&T (05), SSE Mechanical (06), Junior Engineer Civil (25), JE Mechanical (07), Section Controller (09), Station Master (15), Commercial Supervisor (07), Goods Train Manager (10), Assistant Loco Pilot / ALP (30), ESTM-III (15), Technician-III Mechanical (15), and Track Maintainer-IV (57).',
+      'Pay Scale & Pay Matrix: SSE: Level 7 (Basic Pay Rs. 44,900/-); JE, Station Master, Section Controller, Commercial Supervisor: Level 6 (Basic Pay Rs. 35,400/-); Goods Train Manager: Level 5 (Rs. 29,200/-); ALP, ESTM-III, Technician-III: Level 2 (Rs. 19,900/-); Track Maintainer-IV: Level 1 (Rs. 18,000/-). Plus DA, HRA, Transport Allowance.',
+      'Eligibility & Qualifications: 10th / SSLC + ITI / CCAA for Technicians/ALP/ESTM-III; 10th Pass for Track Maintainer; Graduation in any discipline for Station Master/Section Controller/Goods Train Manager/Commercial Supervisor; Diploma / Degree in relevant Engineering stream for JE/SSE.',
+      'Preference Order in Recruitment: 1st Preference: Land loser candidates along KR line; 2nd Preference: Employment Exchange registered candidates along KR route; 3rd Preference: Domiciles of Maharashtra, Goa, Karnataka & KRCL employees.',
+      'Age Limit (as on 01/08/2026): Group C Posts: 18 to 36 Years; Track Maintainer (Group D): 18 to 45 Years. Age relaxation: +5 Yrs for SC/ST, +3 Yrs for OBC-NCL, +10 to 15 Yrs for PwBD.',
+      'Application Fee: Rs. 1,180/- (Rs. 1000 + 18% GST). Full Rs. 1,000 fee is REFUNDABLE upon appearing in CBT for SC, ST, ExSM, Female, Minorities, EBC, and PwBD candidates.',
+      'Selection Process: Computer Based Test (CBT) tentatively scheduled in September 2026 -> Computer Based Aptitude Test (CBAT) for SCOR/SM/ALP -> PET for Track Maintainer -> Document Verification & Medical Exam.',
+      'How to Apply: Online registration link will go live on https://www.konkanrailway.com in the last week of August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Agency', value: 'Konkan Railway Corporation Limited (KRCL)' },
+      { label: 'Notification Number', value: 'Employment Notification No. CO/P-R/02/2026' },
+      { label: 'Total Vacancies', value: '201 Posts across 12 Post Categories' },
+      { label: 'Senior Section Engineer (S&T / Mech)', value: '11 Posts (Level 7 | Pay Rs. 44,900/-)' },
+      { label: 'Junior Engineer (Civil / Mech)', value: '32 Posts (Level 6 | Pay Rs. 35,400/-)' },
+      { label: 'Station Master & Section Controller', value: '24 Posts (Level 6 | Pay Rs. 35,400/- | Any Graduate)' },
+      { label: 'Assistant Loco Pilot (ALP)', value: '30 Posts (Level 2 | Pay Rs. 19,900/- | ITI / Diploma / Degree)' },
+      { label: 'Track Maintainer IV', value: '57 Posts (Level 1 | Pay Rs. 18,000/- | Limited to Land Losers)' },
+      { label: 'Technician-III & ESTM-III', value: '30 Posts (Level 2 | Pay Rs. 19,900/- | ITI / CCAA)' },
+      { label: 'Application Fee', value: 'Rs. 1,180 (Rs. 1000 Refundable upon appearing in CBT for SC/ST/Female/PwBD/ExSM)' },
+      { label: 'Online Application Window', value: 'Opens Last Week of August 2026 (Tentative)' },
+      { label: 'CBT Exam Date', value: 'September 2026 (Tentative)' },
+      { label: 'Official Website', value: 'https://www.konkanrailway.com' }
+    ],
+    importantDates: [
+      { event: 'Employment Notification Date', date: '31-07-2026' },
+      { event: 'Opening Date of Online Registration Portal', date: 'Last week of August 2026 (Tentative)' },
+      { event: 'Last Date of Online Application Submission', date: 'To be notified in August 2026 (approx 30 days)' },
+      { event: 'Tentative Schedule of Computer Based Test (CBT)', date: 'September 2026' },
+      { event: 'Date of Reckoning Age & Eligibility', date: '01-08-2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Junior Engineer (Civil) - Level 6', count: '25 Posts (UR: 12, EWS: 3, OBC-NCL: 5, SC: 3, ST: 2 | ExSM: 2)' },
+      { category: 'Track Maintainer - IV - Level 1 (Land Losers Only)', count: '57 Posts (UR: 14, EWS: 13, OBC-NCL: 0, SC: 19, ST: 11 | ExSM: 11)' },
+      { category: 'Senior Section Engineer (S&T) - Level 7', count: '05 Posts (UR: 2, EWS: 1, OBC-NCL: 1, SC: 1, ST: 0)' },
+      { category: 'ESTM-III (S&T) - Level 2', count: '15 Posts (UR: 11, EWS: 3, OBC-NCL: 1, SC: 0, ST: 0 | ExSM: 1)' },
+      { category: 'Section Controller - Level 6', count: '09 Posts (UR: 5, EWS: 1, OBC-NCL: 0, SC: 2, ST: 1)' },
+      { category: 'Station Master - Level 6', count: '15 Posts (UR: 11, EWS: 1, OBC-NCL: 0, SC: 2, ST: 1 | ExSM: 1)' },
+      { category: 'Goods Train Manager - Level 5', count: '10 Posts (UR: 7, EWS: 1, OBC-NCL: 0, SC: 2, ST: 0 | ExSM: 1)' },
+      { category: 'Assistant Loco Pilot (ALP) - Level 2', count: '30 Posts (UR: 21, EWS: 2, OBC-NCL: 0, SC: 5, ST: 2 | ExSM: 3)' },
+      { category: 'Senior Section Engineer (Mechanical) - Level 7', count: '06 Posts (UR: 1, EWS: 1, OBC-NCL: 1, SC: 3, ST: 0)' },
+      { category: 'Junior Engineer (Mechanical) - Level 6', count: '07 Posts (UR: 4, EWS: 0, OBC-NCL: 1, SC: 2, ST: 0)' },
+      { category: 'Technician-III (Mechanical) - Level 2', count: '15 Posts (UR: 14, EWS: 0, OBC-NCL: 0, SC: 0, ST: 1 | ExSM: 1)' },
+      { category: 'Commercial Supervisor - Level 6', count: '07 Posts (UR: 3, EWS: 1, OBC-NCL: 1, SC: 1, ST: 1 | PwBD: 1)' },
+      { category: 'Total Sanctioned Posts in KRCL', count: '201 Posts (UR: 105, EWS: 27, OBC-NCL: 10, SC: 40, ST: 19 | ExSM: 20, PwBD: 01)' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Konkan Railway Jurisdiction (Maharashtra, Goa, Karnataka)', count: '201 Posts across Civil, Electrical, Mechanical, S&T, Operating & Commercial' }
+    ],
+    eligibility: {
+      education: [
+        'Station Master / Section Controller / Goods Train Manager / Commercial Supervisor: Graduation in any discipline from a recognized University.',
+        'Junior Engineer (Civil / Mechanical): 3-Year Diploma in Civil / Mechanical / Electrical / Electronics / Manufacturing / Mechatronics / Automobile Engineering OR B.E. / B.Tech from recognized University.',
+        'Senior Section Engineer (S&T / Mechanical): 4-Year Bachelor\'s Degree (B.E./B.Tech) in Electrical / Electronics / IT / CSE / Mechanical / Manufacturing / Mechatronics / Instrumentation OR M.Sc Electronics.',
+        'Assistant Loco Pilot (ALP): Matriculation / SSLC plus ITI in Armature/Electrician/Fitter/Diesel Mechanic/Motor Vehicle/Radio TV/Refrigeration AC/Wireman OR Course Completed Act Apprenticeship (CCAA) OR 3-Year Diploma in Mech/Elec/Electronics/Automobile Engg OR B.E./B.Tech.',
+        'ESTM-III & Technician-III: Matriculation / SSLC plus ITI in Electrician / Electronics Mechanic / Wireman / Fitter / Welder / Diesel Mechanic OR CCAA OR 10+2 with Physics and Maths.',
+        'Track Maintainer IV: 10th pass from a recognized board (Recruitment limited to Land Loser candidates only).'
+      ],
+      experience: [
+        'No prior work experience mandatory for fresh diploma/degree/ITI holders.'
+      ],
+      ageLimit: 'Reckoned as on 01/08/2026: Group C Posts: 18 to 36 Years (UR/EWS); Track Maintainer (Group D): 18 to 45 Years (UR/EWS).',
+      ageRelaxation: [
+        { category: 'Scheduled Caste & Scheduled Tribe (SC & ST)', relaxation: '5 Years relaxation (Group C: Max 41 Yrs | Group D: Max 50 Yrs)' },
+        { category: 'Other Backward Classes (OBC-NCL)', relaxation: '3 Years relaxation (Group C: Max 39 Yrs)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD UR/EWS)', relaxation: '10 Years relaxation (Max 46 Yrs)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD OBC-NCL)', relaxation: '13 Years relaxation (Max 49 Yrs)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD SC/ST)', relaxation: '15 Years relaxation (Max 51 Yrs)' },
+        { category: 'Ex-Servicemen (Ex. SM)', relaxation: 'Service period + 3 to 8 Years deduction from actual age' }
+      ],
+      medicalStandards: [
+        'A-1 Vision (6/6 distant without glasses, no Lasik) for ALP.',
+        'A-2 Vision for Station Master & Section Controller.',
+        'A-3 Vision for Junior Engineer & SSE.',
+        'B-1 / C-1 Vision for Technicians and Commercial Supervisor.'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix under Indian Railways / KRCL Rules',
+      initialPay: 'SSE (Level 7): Rs. 44,900/- | JE, SM, SCOR, Comm Sup (Level 6): Rs. 35,400/- | Goods Train Manager (Level 5): Rs. 29,200/- | ALP, ESTM-III, Tech-III (Level 2): Rs. 19,900/- | Track Maintainer (Level 1): Rs. 18,000/-',
+      allowances: 'DA, HRA, Transport Allowance, Running Allowance (for ALP/Train Manager), Night Duty Allowance & Railway Medical Facilities.'
+    },
+    applicationFee: [
+      { category: 'All Candidates (General / Unreserved / OBC)', fee: 'Rs. 1,180/-', refund: 'Rs. 1,000 + 18% GST (Rs. 180). Non-refundable for General candidates' },
+      { category: 'SC, ST, Ex-Serviceman, Female, Minorities, EBC, PwBD', fee: 'Rs. 1,180/-', refund: 'Full Rs. 1,000/- REFUNDED to candidate upon appearing in CBT (minus bank charges)' }
+    ],
+    howToPayFee: [
+      'Pay ONLINE only via Internet Banking, Debit Card, Credit Card, or UPI on KRCL application portal.',
+      'Refund of Rs. 1,000 for exempted categories will be credited back to the original bank account after CBT.'
+    ],
+    selectionProcess: [
+      { stage: '1. Computer Based Test (CBT)', description: 'Screening CBT of 100 MCQs (90 Minutes duration). Available in 5 languages: English, Hindi, Marathi, Konkani, and Kannada. Negative marking of 1 mark per wrong answer.' },
+      { stage: '2. Computer Based Aptitude Test (CBAT)', description: 'Mandatory for Section Controller, Station Master, and ALP. Merit generated with 70% weightage to CBT + 30% weightage to Aptitude Test.' },
+      { stage: '3. Physical Efficiency Test (PET)', description: 'Mandatory for Track Maintainer IV. Male: Lift & carry 35 kg for 100m in 2 mins + 1000m run in 4 min 15 sec. Female: Lift & carry 20 kg for 100m in 2 mins + 1000m run in 5 min 40 sec.' },
+      { stage: '4. Document Verification & Medical Exam', description: 'DV conducted for 1.3x to 1.5x candidates followed by strict Railway Medical Fitness Examination.' }
+    ],
+    reservation: {
+      title: 'KRCL Recruitment Preferences & Reservation',
+      detailsList: [
+        '1st Preference: Land loser candidates whose land was acquired for Konkan Railway Line between Roha (MH) and Thokur (KA).',
+        '2nd Preference: Candidates registered in Employment Exchanges along KR route in Raigad, Sindhudurg, Ratnagiri, Goa, Uttara Kannada, Udupi, South Kannada.',
+        '3rd Preference: Non-land loser candidates domiciled in Maharashtra, Goa, and Karnataka, and KRCL employees.',
+        'Vertical reservation for SC, ST, OBC-NCL, EWS, and horizontal reservation for Ex-Servicemen & PwBD.'
+      ]
+    },
+    howToApply: [
+      'Visit official portal of KRCL: https://www.konkanrailway.com.',
+      'Navigate to Departments -> Personnel -> Recruitment Policy / Online Application Link.',
+      'Register with personal details, email ID, and mobile number.',
+      'Fill post preferences carefully (options once exercised in online form are final).',
+      'Upload clear passport-size photo (30-70 KB JPEG, plain white background), signature (30-70 KB JPEG), caste certificate (PDF up to 500 KB), and PwBD/Scribe documents.',
+      'Pay examination fee of Rs. 1,180/- online via Net Banking/Debit Card/Credit Card/UPI.',
+      'Submit online application and keep a printed copy for Document Verification.'
+    ],
+    documentsRequired: [
+      'Land Loser Certificate issued by SLAO / Tahsildar (for Land Loser quota candidates).',
+      'Matriculation / Class 10th / SSLC Certificate as DOB proof.',
+      'HSC, Graduation, ITI/NCVT-SCVT, CCAA, or Engineering Diploma/Degree Certificate & Mark Sheets.',
+      'Domicile Certificate of Maharashtra, Goa, or Karnataka State.',
+      'SC/ST Caste Certificate (Annexure-III) / OBC-NCL Caste Certificate (Annexure-IV issued within 1 year).',
+      'Income & Asset Certificate for EWS (Annexure-VIII) / Income Certificate for EBC Fee Waiver (Annexure-VI).',
+      'Aadhaar Card and PAN Card copies.',
+      '12 copies of identical recent passport-size photograph used in application.'
+    ],
+    importantInstructions: [
+      'Land Loser Priority: Land loser candidates receive 1st preference for recruitment.',
+      'Fee Refund on CBT Appearance: Rs. 1,000 refunded to SC/ST/Female/ExSM/PwBD candidates who appear in CBT.',
+      'No Hard Copy Post: Do NOT send hard or soft copies of application to KRCL office.',
+      'CBT Schedule: Tentatively scheduled in September 2026.'
+    ],
+    urls: [
+      { label: 'Konkan Railway Official Website Homepage', url: 'https://www.konkanrailway.com' },
+      { label: 'KRCL Recruitment Portal', url: 'https://www.konkanrailway.com' },
+      { label: 'Recruitment Helpdesk Email', url: 'mailto:helpdskrectcell@krcl.co.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in Konkan Railway Recruitment 2026 (Advt CO/P-R/02/2026)?', answer: 'Konkan Railway Corporation Ltd (KRCL) has advertised 201 vacancies across 12 Group C and Group D post categories.' },
+      { question: 'When will the online application link open for Konkan Railway 2026?', answer: 'The online registration link will go live on www.konkanrailway.com in the last week of August 2026 (tentatively).' },
+      { question: 'Who gets priority/preference in Konkan Railway recruitment?', answer: '1st preference is given to Land Losers along the Konkan Railway route; 2nd preference to candidates registered in Employment Exchanges along KR route; 3rd preference to Domiciles of Maharashtra, Goa, and Karnataka & KRCL employees.' },
+      { question: 'What is the fee refund policy for KRCL CBT exam?', answer: 'Candidates belonging to SC, ST, ExSM, Female, Minorities, EBC, and PwBD who pay Rs. 1,180/- will receive a FULL REFUND of Rs. 1,000/- into their bank account upon appearing in the CBT.' },
+      { question: 'What is the qualification for Station Master and ALP in KRCL?', answer: 'Station Master requires Graduation in any discipline. Assistant Loco Pilot (ALP) requires 10th Pass + ITI in relevant trade OR CCAA OR 3-Year Diploma / B.E. / B.Tech in Engineering.' }
+    ]
+  },
+  'jkssb-pwd-rb-draftsman-works-supervisor-recruitment-2026': {
+    id: 'jkssb-pwd-rb-draftsman-works-supervisor-recruitment-2026',
+    seoTitle: 'JKSSB PWD Recruitment 2026 (Advt 06/2026) - Apply Online for 357 Posts',
+    seoDescription: 'J&K Services Selection Board (JKSSB) Advt 06/2026 notification out for 357 vacancies of Draftsman Civil (97) and Works Supervisor (260) in Public Works R&B Department. Pay Level 4 and SL-2. ITI, Diploma, 10th pass apply online at jkssb.nic.in from 1 to 30 August 2026.',
+    focusKeywords: 'JKSSB PWD Recruitment 2026, JKSSB Advt 06 of 2026 Notification, Draftsman Civil Works Supervisor JKSSB Jobs, jkssb nic in apply online, JKSSB Vacancy 2026',
+    lsiKeywords: 'jkssb draftsman civil works supervisor syllabus exam pattern, jkssb pwd pay scale level 4 sl 2, jk domicile govt jobs 2026, jkssb application fee age relaxation',
+    title: 'JKSSB Public Works (R&B) Department Recruitment 2026 (Advt. No. 06 of 2026) – 357 Vacancies for Draftsman (Civil) & Works Supervisor in Jammu & Kashmir Divisions | Apply Online at jkssb.nic.in from 01 to 30 August 2026',
+    board: 'Jammu and Kashmir Services Selection Board (JKSSB), Muthi, Akhnoor Road, Jammu / ZamZam Complex Rambagh, Srinagar (UT of J&K)',
+    advtNo: 'Advertisement Notification No. 06 of 2026 Dated 06.07.2026',
+    vacancies: 357,
+    jobLocation: 'Divisional Cadre Jammu & Divisional Cadre Kashmir, UT of Jammu & Kashmir',
+    applicationMode: 'Online Application via JKSSB Portal (https://www.jkssb.nic.in)',
+    applicationStatus: 'Active - Online Registration Window: 01 August 2026 to 30 August 2026',
+    lastUpdated: 'July 06, 2026',
+    overview: [
+      'Jammu and Kashmir Services Selection Board (JKSSB) has issued Advertisement Notification No. 06 of 2026 dated 06.07.2026 for filling 357 Divisional Cadre vacancies under direct recruitment in the Public Works (R&B) Department, Government of UT of Jammu & Kashmir.',
+      'This recruitment drive offers opportunities for engineering diploma holders and ITI certificate holders for the positions of Draftsman (Civil) and Works Supervisor in Jammu and Kashmir divisions.',
+      'Total Vacancies: 357 Posts — Draftsman (Civil) Div. Jammu: 48 Posts; Draftsman (Civil) Div. Kashmir: 49 Posts; Works Supervisor Div. Jammu: 194 Posts; Works Supervisor Div. Kashmir: 66 Posts.',
+      'Pay Scale & Level: Draftsman (Civil): Level-4 (Rs. 25,500 - 81,100/-); Works Supervisor: SL-2 (Rs. 15,900 - 50,400/-). Plus allowances as per UT of J&K Government rules.',
+      'Educational Qualification (as on 30.08.2026): Draftsman (Civil): 2-Year Draftsman Training Course Certificate / Diploma from a recognized Institute; Works Supervisor: Matriculation (10th Pass) + ITI Certificate in Building Construction or Carpentry Trade (awarded by JKBOTE or DGT Govt of India).',
+      'Domicile Mandatory: Candidates must be Domiciles of UT of Jammu & Kashmir and possess a valid Domicile Certificate issued on or before 30.08.2026.',
+      'Age Limit (as on 01.01.2026): Open Merit (OM): Max 40 Years; SC, ST-1, ST-2, RBA, ALC/IB, EWS, OBC: Max 43 Years; PwBD: Max 42 Years; Ex-Servicemen: Max 48 Years.',
+      'Application Fee: Rs. 600/- for Open Merit (OM) candidates; Rs. 500/- for SC, ST-1, ST-2, EWS, and PwBD candidates. Payable online via Net Banking, Debit/Credit Card.',
+      'Selection Process: Written OMR Examination only. Objective Type MCQs in English Language. 0.25 negative marks per incorrect answer.',
+      'How to Apply: Apply online at https://www.jkssb.nic.in between 01.08.2026 and 30.08.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Agency', value: 'Jammu and Kashmir Services Selection Board (JKSSB)' },
+      { label: 'Indenting Department', value: 'Public Works (R&B) Department, UT of Jammu & Kashmir' },
+      { label: 'Notification Number', value: 'Advertisement Notification No. 06 of 2026' },
+      { label: 'Total Vacancies', value: '357 Posts (Divisional Cadre Jammu & Kashmir)' },
+      { label: 'Draftsman (Civil)', value: '97 Posts (Jammu: 48 | Kashmir: 49 | Level-4 Rs. 25,500-81,100)' },
+      { label: 'Works Supervisor', value: '260 Posts (Jammu: 194 | Kashmir: 66 | SL-2 Rs. 15,900-50,400)' },
+      { label: 'Educational Qualification', value: '10th + ITI (Building Construction/Carpentry) OR 2-Yr Diploma in Draftsman Civil' },
+      { label: 'Domicile Requirement', value: 'Valid Domicile Certificate of UT of J&K issued on or before 30.08.2026' },
+      { label: 'Age Limit (as on 01.01.2026)', value: 'OM: 40 Yrs | SC/ST/RBA/ALC/IB/EWS/OBC: 43 Yrs | PwBD: 42 Yrs' },
+      { label: 'Application Fee', value: 'Rs. 600 (OM) | Rs. 500 (SC/ST/EWS/PwBD) Online' },
+      { label: 'Online Application Window', value: '01st August 2026 to 30th August 2026' },
+      { label: 'Official Portal', value: 'https://www.jkssb.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Publication Date', date: '06-07-2026' },
+      { event: 'Commencement Date for Online Applications', date: '01-08-2026' },
+      { event: 'Cut-off Date / Last Date for Online Application Submission', date: '30-08-2026' },
+      { event: 'Date of Reckoning Age Limit', date: '01-01-2026' },
+      { event: 'Date of OMR Written Examination', date: 'To be notified on www.jkssb.nic.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Draftsman (Civil) - Div. Jammu (Item 93)', count: '48 Posts (OM: 19, SC: 4, ST1: 5, ST2: 5, OBC: 4, ALC/IB: 2, RBA: 5, EWS: 4)' },
+      { category: 'Draftsman (Civil) - Div. Kashmir (Item 94)', count: '49 Posts (OM: 19, SC: 4, ST1: 5, ST2: 5, OBC: 4, ALC/IB: 2, RBA: 5, EWS: 5)' },
+      { category: 'Works Supervisor - Div. Jammu (Item 95)', count: '194 Posts (OM: 78, SC: 16, ST1: 20, ST2: 19, OBC: 16, ALC/IB: 7, RBA: 19, EWS: 19)' },
+      { category: 'Works Supervisor - Div. Kashmir (Item 96)', count: '66 Posts (OM: 27, SC: 5, ST1: 7, ST2: 7, OBC: 5, ALC/IB: 3, RBA: 6, EWS: 6)' },
+      { category: 'Total Vacancies in PWD (R&B) Department', count: '357 Posts (OM: 143, SC: 29, ST1: 37, ST2: 36, OBC: 29, ALC/IB: 14, RBA: 35, EWS: 34)' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Jammu Division Cadre', count: '242 Posts (Draftsman Civil: 48, Works Supervisor: 194)' },
+      { region: 'Kashmir Division Cadre', count: '115 Posts (Draftsman Civil: 49, Works Supervisor: 66)' }
+    ],
+    eligibility: {
+      education: [
+        'Draftsman (Civil) [Items 93 & 94]: Two years Draftsman Training Course Certificate / Diploma from any Government recognized Institute.',
+        'Works Supervisor [Items 95 & 96]: Matriculation Examination Pass or its equivalent from any recognized institute/university AND having ITI Certificate in Building Construction or Carpentry Trade (awarded by JKBOTE or DGT Govt of India).',
+        'Domicile Certificate: Must possess a valid Domicile Certificate of UT of J&K on or before 30.08.2026.'
+      ],
+      experience: [
+        'No prior work experience is required for entry-level Draftsman or Works Supervisor posts.'
+      ],
+      ageLimit: 'Calculated as on 01.01.2026: Open Merit (OM): 40 Years (Born between 01.01.1986 and 01.01.2008).',
+      ageRelaxation: [
+        { category: 'Open Merit (OM)', relaxation: 'Max Age: 40 Years' },
+        { category: 'Scheduled Caste (SC)', relaxation: 'Max Age: 43 Years (Born 01.01.1983 - 01.01.2008)' },
+        { category: 'Scheduled Tribe (ST-1 / ST-2)', relaxation: 'Max Age: 43 Years' },
+        { category: 'Residents of Backward Areas (RBA)', relaxation: 'Max Age: 43 Years' },
+        { category: 'ALC / IB (Adjoining Line of Actual Control/Intl Border)', relaxation: 'Max Age: 43 Years' },
+        { category: 'Economically Weaker Section (EWS)', relaxation: 'Max Age: 43 Years' },
+        { category: 'Other Backward Classes (OBC)', relaxation: 'Max Age: 43 Years' },
+        { category: 'Physically Challenged Person (PwBD)', relaxation: 'Max Age: 42 Years' },
+        { category: 'Ex-Servicemen (ESM)', relaxation: 'Deduct military service + 3 Yrs from actual age' }
+      ],
+      medicalStandards: [
+        'Candidates must satisfy physical fitness standards set by JKSSB / Appointing Authority.'
+      ]
+    },
+    salary: {
+      payLevel: 'UT of Jammu & Kashmir Pay Matrix Rules',
+      initialPay: 'Draftsman (Civil): Level-4 (Rs. 25,500 - 81,100/-) | Works Supervisor: SL-2 (Rs. 15,900 - 50,400/-)',
+      allowances: 'Eligible for DA, HRA, and applicable allowances under J&K Govt rules.'
+    },
+    applicationFee: [
+      { category: 'Open Merit (OM) Candidates', fee: 'Rs. 600/-', refund: 'Non-refundable application fee' },
+      { category: 'SC, ST-1, ST-2, EWS & PwBD Candidates', fee: 'Rs. 500/-', refund: 'Non-refundable application fee' }
+    ],
+    howToPayFee: [
+      'Pay online via Net Banking, Credit Card, or Debit Card during online application submission.',
+      'In case of excess fee payment disputes, email ssbjk-grievance.jk.gov.in.'
+    ],
+    selectionProcess: [
+      { stage: '1. Written OMR Examination', description: 'Objective Type Multiple Choice Questions set in English language. Negative marking of 0.25 marks per wrong answer.' },
+      { stage: '2. Document Verification (DV)', description: 'Merit-shortlisted candidates must produce original Domicile Certificate, 10th Certificate, ITI/Diploma Certificate, and Category Certificate.' }
+    ],
+    reservation: {
+      title: 'J&K Reservation Rules',
+      detailsList: [
+        'Vertical reservations for SC, ST-1, ST-2, OBC, ALC/IB, RBA, and EWS under J&K Reservation Rules.',
+        'Horizontal reservation for Ex-Servicemen (ESM) up to Level-6E (Rs. 35,900 - 113,500) and PwBD as per rules.'
+      ]
+    },
+    howToApply: [
+      'Visit official portal of JKSSB: https://www.jkssb.nic.in.',
+      'Click on "Online Application Form for Advt. No. 06 of 2026".',
+      'Register your Name, Date of Birth, Email ID, and Mobile Number.',
+      'Upload Live Photograph, Signature (10-20 KB), Category Certificate (Max 100 KB PDF), and Qualification Certificates (Max 100 KB PDF).',
+      'Select items / posts (Draftsman Civil or Works Supervisor) and indicate Divisional Cadre preferences.',
+      'Pay application fee (Rs. 600 OM or Rs. 500 Reserved) online via Net Banking/Debit/Credit Card.',
+      'Submit application form and print a copy for Document Verification.'
+    ],
+    documentsRequired: [
+      'Valid Domicile Certificate of UT of Jammu & Kashmir issued on or before 30.08.2026.',
+      'Matriculation / 10th Diploma Certificate as DOB proof.',
+      'ITI Certificate in Building Construction or Carpentry Trade (awarded by JKBOTE or DGT).',
+      'Two-Year Draftsman (Civil) Training Course Certificate / Diploma.',
+      'Valid Category Certificate (SC/ST/OBC/RBA/ALC-IB/EWS/PwBD).',
+      'Two recent passport-size colour photographs (with date printed) & Photo ID Proof (Aadhaar, Voter ID, Driving License).'
+    ],
+    importantInstructions: [
+      'Domicile Cut-off Date: Must possess valid J&K Domicile Certificate on or before 30.08.2026.',
+      'No Hardcopy Submission: Do NOT send hard copies of application to JKSSB office.',
+      'Single Application for Item: Only latest valid application will be considered if multiple applications are submitted.',
+      'Negative Marking: 0.25 marks deducted for wrong answer in OMR test.'
+    ],
+    urls: [
+      { label: 'JKSSB Official Website Homepage', url: 'https://www.jkssb.nic.in' },
+      { label: 'JKSSB Online Application Portal', url: 'https://www.jkssb.nic.in' },
+      { label: 'JKSSB Fee Grievance Email', url: 'mailto:ssbjk-grievance.jk.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in JKSSB PWD Recruitment 2026 (Advt 06/2026)?', answer: 'JKSSB has advertised 357 vacancies for Draftsman (Civil) [97 posts] and Works Supervisor [260 posts] in Public Works (R&B) Department.' },
+      { question: 'What are the online application dates for JKSSB Advt 06/2026?', answer: 'Online application window opens on 01st August 2026 and closes on 30th August 2026 on www.jkssb.nic.in.' },
+      { question: 'What is the educational qualification for Works Supervisor in JKSSB?', answer: 'Candidates must have passed 10th (Matriculation) from a recognized board AND possess an ITI Certificate in Building Construction or Carpentry Trade.' },
+      { question: 'Is Domicile Certificate of J&K mandatory for JKSSB PWD recruitment?', answer: 'Yes, candidates must be Domiciles of UT of Jammu & Kashmir and possess a valid Domicile Certificate issued on or before 30.08.2026.' },
+      { question: 'What is the application fee for JKSSB PWD posts?', answer: 'The fee is Rs. 600/- for Open Merit (OM) candidates and Rs. 500/- for SC, ST-1, ST-2, EWS, and PwBD candidates.' }
+    ]
+  },
+  'aiims-kalyani-junior-resident-non-academic-recruitment-2026': {
+    id: 'aiims-kalyani-junior-resident-non-academic-recruitment-2026',
+    seoTitle: 'AIIMS Kalyani Junior Resident Recruitment 2026 - Apply Online for 84 JR Posts',
+    seoDescription: 'AIIMS Kalyani notification out for 84 Junior Resident (Non-Academic) 6-month tenure vacancies. MBBS degree from NMC recognized institute eligible. Pay Level 10 plus NPA. Apply online by 24 August 2026. Exam & interview on 8 September 2026.',
+    focusKeywords: 'AIIMS Kalyani Junior Resident Recruitment 2026, AIIMS Kalyani JR Non Academic Vacancy 2026, MBBS Jobs West Bengal, aiimskalyani edu in recruitment apply online',
+    lsiKeywords: 'aiims kalyani junior resident salary npa age limit, mbbs doctors vacancy aiims kalyani walk in interview, jr non academic tenure posts 2026',
+    title: 'AIIMS Kalyani Junior Resident (Non-Academic) Recruitment 2026 – 84 Vacancies for MBBS Doctors in Various Departments | Apply Online at aiimskalyani.edu.in by 24 August 2026',
+    board: 'All India Institute of Medical Sciences (AIIMS), Kalyani (Statutory Body under Ministry of Health and Family Welfare, Govt of India, NH-34 Connector, Basantapur, Saguna, Kalyani, Nadia, West Bengal – 741245)',
+    advtNo: 'No. 1650/E-12015/25/26-(SR/T/JR) Dated 31.07.2026',
+    vacancies: 84,
+    jobLocation: 'AIIMS Kalyani Campus, District Nadia, West Bengal',
+    applicationMode: 'Online Registration via Google Form + Offline Walk-in Interview with Demand Draft',
+    applicationStatus: 'Active - Registration Deadline: 24 August 2026 (05:00 PM IST)',
+    lastUpdated: 'July 31, 2026',
+    overview: [
+      'All India Institute of Medical Sciences (AIIMS), Kalyani — an Institute of National Importance established under the Pradhan Mantri Swasthya Suraksha Yojana (PMSSY), Ministry of Health & Family Welfare, Govt of India — has released notification No. 1650/E-12015/25/26-(SR/T/JR) for engagement of Junior Residents (Non-Academic).',
+      'This recruitment drive is conducted for filling 84 Junior Resident (Non-Academic) posts on a 6-month tenure basis across various clinical and non-clinical departments at AIIMS Kalyani.',
+      'Total Vacancies: 84 Posts — Unreserved (UR): 34, EWS: 08, OBC: 23, SC: 13, ST: 06 (including 3 posts reserved for PwBD).',
+      'Pay Scale & Remuneration: 7th CPC Pay Matrix Level 10 / Pay Scale Rs. 15,600 - 39,100 + Grade Pay Rs. 5,400 (6th CPC) + Non-Practicing Allowance (NPA) for Medical Graduates.',
+      'Educational Qualification: MBBS Degree from an NMC recognized Institution. Candidates must have completed compulsory rotating internship and possess Permanent Medical Registration under NMC / State Medical Council.',
+      'Internship Passing Date: Candidates must have passed MBBS (including Internship) not earlier than 3 years before 24.08.2026 (i.e., on or after 24th August 2023). Candidates who completed 2 terms of JR anywhere are NOT eligible.',
+      'Age Limit (as on 24.08.2026): Upper age limit is 33 Years for UR candidates. Age relaxation: +5 Yrs for SC/ST (up to 38 Yrs), +3 Yrs for OBC (up to 36 Yrs), +10 Yrs for PwBD (up to 43 Yrs).',
+      'Application Fee: Rs. 1,000/- for UR/OBC candidates; Rs. 500/- for SC/ST/EWS candidates; PwBD candidates are EXEMPTED. Fee payable via Demand Draft in favour of "AIIMS KALYANI INTERNAL RESOURCES ACCOUNT" payable at Kalyani.',
+      'Selection Process: Written Examination and/or Personal Interview scheduled tentatively on 08.08.2026 / 08.09.2026 in the Examination Hall, Auditorium Building, AIIMS Kalyani.',
+      'How to Apply: Register online through official link https://forms.gle/4f8GaA6iePAsazbC9 by 24.08.2026 (5:00 PM). On exam day, bring filled application form, Demand Draft, original certificates, and 1 set of self-attested photocopies.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: 'All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal' },
+      { label: 'Notification Number', value: 'No. 1650/E-12015/25/26-(SR/T/JR)' },
+      { label: 'Post Name', value: 'Junior Resident (Non-Academic) - 6 Months Tenure' },
+      { label: 'Total Vacancies', value: '84 Posts (UR: 34, EWS: 08, OBC: 23, SC: 13, ST: 06 | PwBD: 03)' },
+      { label: 'Essential Qualification', value: 'MBBS Degree + Internship Completion + NMC/State Medical Registration' },
+      { label: 'Internship Cut-off Date', value: 'Completed on or after 24th August 2023 (within last 3 years)' },
+      { label: 'Pay Scale', value: 'Level 10 (Rs. 15,600-39,100 + GP 5,400) + NPA for Medical Graduates' },
+      { label: 'Application Fee', value: 'Rs. 1,000 (UR/OBC) | Rs. 500 (SC/ST/EWS) | NIL (PwBD) via Demand Draft' },
+      { label: 'Online Registration Deadline', value: '24th August 2026 up to 5:00 PM IST' },
+      { label: 'Written Exam & Interview Date', value: '08th September 2026 (Tentative) at AIIMS Kalyani Campus' },
+      { label: 'Age Limit', value: 'Max 33 Years for UR (SC/ST: 38 Yrs | OBC: 36 Yrs | PwBD: 43 Yrs)' },
+      { label: 'Official Website', value: 'https://www.aiimskalyani.edu.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31-07-2026' },
+      { event: 'Last Date of Online Google Form Registration', date: '24-08-2026 up to 05:00 PM IST' },
+      { event: 'Tentative Date of Written Examination & Interview', date: '08-09-2026 at AIIMS Kalyani' },
+      { event: 'Reporting & Document Verification Time', date: 'To be published on www.aiimskalyani.edu.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: '34 Posts' },
+      { category: 'Other Backward Classes (OBC)', count: '23 Posts' },
+      { category: 'Scheduled Caste (SC)', count: '13 Posts' },
+      { category: 'Economically Weaker Section (EWS)', count: '08 Posts' },
+      { category: 'Scheduled Tribe (ST)', count: '06 Posts' },
+      { category: 'Total Sanctioned Junior Resident Vacancies', count: '84 Posts (includes 03 PwBD horizontal reservation)' }
+    ],
+    regionWiseVacancies: [
+      { region: 'AIIMS Kalyani Clinical & Non-Clinical Departments', count: '84 Posts (Trauma & Emergency, General Medicine, Surgery, Orthopedics, Pediatrics, etc.)' }
+    ],
+    eligibility: {
+      education: [
+        'MBBS Degree from a Medical Institution recognized by the National Medical Commission (NMC).',
+        'Compulsory rotating internship completed on or before 24.08.2026.',
+        'Permanent Medical Registration Certificate issued by NMC or any State Medical Council.',
+        'Passing Date Requirement: MBBS (including Internship) passed not earlier than 3 years before 24.08.2026 (i.e. on or after 24th August 2023).'
+      ],
+      experience: [
+        'Candidates who have already completed two terms (6 months each = 1 year) of Junior Residency anywhere in Army, CHS, Private Hospitals or AIIMS are NOT eligible.'
+      ],
+      ageLimit: 'Upper age limit as on 24.08.2026: Maximum 33 Years for Unreserved (UR) category candidates.',
+      ageRelaxation: [
+        { category: 'Scheduled Caste / Scheduled Tribe (SC / ST)', relaxation: '5 Years relaxation (Upper age limit: 38 Years)' },
+        { category: 'Other Backward Classes (OBC)', relaxation: '3 Years relaxation (Upper age limit: 36 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years relaxation (Upper age limit: 43 Years)' }
+      ],
+      medicalStandards: [
+        'Candidates must satisfy medical fitness standards set by AIIMS Kalyani Medical Board. Private practice of any kind is strictly prohibited.'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level 10 / 6th CPC Pay Scale Rs. 15,600 - 39,100 + Grade Pay Rs. 5,400',
+      initialPay: 'Basic Pay Rs. 15,600-39,100 + GP Rs. 5,400 (Level 10) + Non-Practicing Allowance (NPA) as admissible for Medical Graduates.',
+      allowances: 'Includes DA, HRA, and medical benefits as per Central Government and AIIMS Kalyani rules.'
+    },
+    applicationFee: [
+      { category: 'Unreserved (UR) / OBC Category Candidates', fee: 'Rs. 1,000/-', refund: 'Non-refundable application fee' },
+      { category: 'SC / ST / EWS Category Candidates', fee: 'Rs. 500/-', refund: 'Non-refundable application fee' },
+      { category: 'PwBD Category Candidates', fee: 'NIL (Exempted)', refund: 'Exempted from payment of application fee' }
+    ],
+    howToPayFee: [
+      'Pay via Demand Draft (DD) in favour of "AIIMS KALYANI INTERNAL RESOURCES ACCOUNT" payable at Kalyani.',
+      'Enclose scan copy of Demand Draft during online registration and submit physical DD on exam/interview day.'
+    ],
+    selectionProcess: [
+      { stage: '1. Online Registration', description: 'Mandatory online registration via Google Form link by 24.08.2026 (5:00 PM).' },
+      { stage: '2. Document Verification', description: 'Verification of MBBS certificates, internship completion, NMC registration, attempt certificate, and Demand Draft at AIIMS Kalyani venue.' },
+      { stage: '3. Written Examination', description: 'Screening written exam conducted at AIIMS Kalyani Examination Hall on 08.09.2026 (tentative).' },
+      { stage: '4. Personal Walk-in Interview', description: 'Selection based on performance in Personal Interview of qualified candidates in the written exam.' }
+    ],
+    reservation: {
+      title: 'Reservation & Tenure Guidelines',
+      detailsList: [
+        'Tenure engagement is strictly for 6 months, renewable or terminable per Institute rules.',
+        '4% horizontal reservation provided for PwBD candidates.',
+        'OBC-NCL Certificate must be issued on or after 01.04.2026.'
+      ]
+    },
+    howToApply: [
+      'Fill online Google Form registration link: https://forms.gle/4f8GaA6iePAsazbC9 on or before 24.08.2026 (5:00 PM).',
+      'Upload mandatory documents: MBBS mark sheets, attempt certificate, degree certificate, internship completion certificate, NMC registration, Aadhaar card, category certificate, and scan copy of Demand Draft.',
+      'Purchase Demand Draft of Rs. 1,000/- (UR/OBC) or Rs. 500/- (SC/ST/EWS) in favour of "AIIMS KALYANI INTERNAL RESOURCES ACCOUNT" payable at Kalyani.',
+      'Download and print the prescribed Application Form attached to the advertisement.',
+      'On 08.09.2026 (exam day), report to Examination Hall, Ground Floor, Auditorium Building, AIIMS Kalyani with physical Demand Draft, filled application form, original documents, and 1 set of self-attested photocopies.'
+    ],
+    documentsRequired: [
+      'Identity Proof (PAN Card, Passport, Driving License, Voter Card, Aadhar Card).',
+      'Date of Birth Proof (Class 10th Certificate / Birth Certificate).',
+      'MBBS Mark Sheets (1st, 2nd, 3rd & Final Year) & Degree Certificate.',
+      'Proof of MBBS Exam Attempts Certificate.',
+      'Compulsory Rotating Internship Completion Certificate.',
+      'Permanent Medical Registration Certificate (NMC / State Medical Council).',
+      'FMGE Certificate issued by NBE (for Foreign Medical Graduates).',
+      'Caste / Category Certificate (OBC-NCL / EWS / SC / ST) issued on or after 01.04.2026.',
+      'Original Demand Draft & 2 Recent Passport Size Photographs.'
+    ],
+    importantInstructions: [
+      'Prior Online Registration Mandatory: No candidate will be allowed to appear without prior online registration by 24.08.2026.',
+      'Tenure Period: Appointment is purely contractual for 6 months.',
+      'Private Practice Prohibited: Whole-time appointment with zero private practice.',
+      'Original Internship Certificate: Must be produced on exam/interview day.'
+    ],
+    urls: [
+      { label: 'AIIMS Kalyani Official Registration Link (Google Form)', url: 'https://forms.gle/4f8GaA6iePAsazbC9' },
+      { label: 'AIIMS Kalyani Official Website Homepage', url: 'https://www.aiimskalyani.edu.in' },
+      { label: 'Clarification Email for Recruitment', url: 'mailto:academics.recruitment@aiimskalyani.edu.in' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in AIIMS Kalyani Junior Resident Recruitment 2026?', answer: 'AIIMS Kalyani has advertised 84 vacancies for Junior Resident (Non-Academic) on a 6-month tenure basis.' },
+      { question: 'What is the last date to register online for AIIMS Kalyani Junior Residency?', answer: 'The last date to complete online registration via the official Google Form link is 24th August 2026 up to 5:00 PM IST.' },
+      { question: 'When will the written exam and interview be conducted at AIIMS Kalyani?', answer: 'The written exam and walk-in interview are tentatively scheduled for 08th September 2026 at the Examination Hall, Ground Floor, Auditorium Building, AIIMS Kalyani.' },
+      { question: 'What is the qualification and internship cut-off requirement?', answer: 'Candidates must possess an MBBS degree from an NMC recognized institute and have completed their compulsory internship on or after 24th August 2023 (within the last 3 years).' },
+      { question: 'What is the pay scale for Junior Residents at AIIMS Kalyani?', answer: 'Junior Residents are placed in 7th CPC Pay Matrix Level 10 (Pay Scale Rs. 15,600 - 39,100 + Grade Pay Rs. 5,400) plus Non-Practicing Allowance (NPA) and admissible allowances.' }
+    ]
+  },
+  'sinp-kolkata-scientist-scientific-assistant-technician-ldc-recruitment-2026': {
+    id: 'sinp-kolkata-scientist-scientific-assistant-technician-ldc-recruitment-2026',
+    seoTitle: 'SINP Kolkata Recruitment 2026 - Apply Online for 62 Scientist, Assistant & Technician Posts',
+    seoDescription: 'Saha Institute of Nuclear Physics (SINP) Kolkata notification out for 62 vacancies of Scientist C, Scientific Assistant B, Technician B, LDC, Security Guard & Work Assistant. Pay Level 1 to 10. M.Sc, Diploma, ITI, Graduate, 10th pass candidates apply online at saha.ac.in by 15 September 2026.',
+    focusKeywords: 'SINP Kolkata Recruitment 2026, Saha Institute of Nuclear Physics Jobs, DAE Kolkata Vacancy 2026, SINP Scientist C Scientific Assistant Technician LDC, saha ac in apply online',
+    lsiKeywords: 'sinp estt advt 11 2026, sinp kolkata salary age limit qualification, dae research institute jobs west bengal, sinp technician b ldc security guard work assistant',
+    title: 'Saha Institute of Nuclear Physics (SINP), Kolkata Recruitment 2026 – 62 Vacancies for Scientist \'C\', Scientific Assistant \'B\', Technician \'B\', LDC, Security Guard \'A\', Work Assistant \'A\' & Halwai-cum-Cook | Apply Online at saha.ac.in by 15 September 2026',
+    board: 'Saha Institute of Nuclear Physics (SINP), Kolkata, Department of Atomic Energy (DAE), Government of India (1/AF, Bidhannagar, Kolkata – 700064, West Bengal)',
+    advtNo: 'Advt. No. SINP/Estt./Advt./11/2026 Dated 31.07.2026',
+    vacancies: 62,
+    jobLocation: 'SINP Campus at Bidhannagar, Kolkata, West Bengal',
+    applicationMode: 'Online Application via SINP Portal (https://www.saha.ac.in/web/job-opportunities) + Email PDF Copy',
+    applicationStatus: 'Active - Online Application Window: 31 July 2026 (06:00 PM) to 15 September 2026 (03:00 PM IST)',
+    lastUpdated: 'July 31, 2026',
+    overview: [
+      'Saha Institute of Nuclear Physics (SINP), Kolkata, an autonomous grant-in-aid institution under the Department of Atomic Energy (DAE), Government of India, has published recruitment advertisement SINP/Estt./Advt./11/2026 dated 31.07.2026.',
+      'SINP invites online applications from eligible candidates for direct recruitment and deputation across 62 scientific, technical, administrative, and auxiliary positions.',
+      'Total Vacancies: 62 Posts — Scientist \'C\' (05), Scientific Assistant \'B\' (08), Technician \'B\' (18), Assistant Administrative Officer - I (01), Lower Division Clerk / LDC (07), Security Guard \'A\' (08), Work Assistant \'A\' (11), and Halwai-cum-Cook (04).',
+      'Pay Scale & Emoluments: Scientist \'C\': Level 10 (7th CPC Basic Pay Rs. 56,100+); Scientific Assistant \'B\': Level 6 (Basic Pay Rs. 35,400+); Technician \'B\': Level 3 (Basic Pay Rs. 21,700+); AAO-I: Level 7; LDC: Level 2; Security Guard A & Work Assistant A: Level 1; Halwai-cum-Cook: Level 3. Plus DA, HRA, and allowances per Institute rules.',
+      'Application Fee: Rs. 500/- for Scientist \'C\' and Scientific Assistant \'B\'; Rs. 300/- for all other posts. All Women candidates, PwBD, Ex-Servicemen, Deputation applicants, and SC/ST candidates (for posts reserved only for respective category) are EXEMPTED.',
+      'Age Limit (as on closing date 15.09.2026): Scientist \'C\': Max 33 Yrs; Scientific Assistant \'B\': Max 30 Yrs; Technician \'B\': Max 25 Yrs; LDC, Security Guard A, Work Assistant A: Max 27 Yrs; Halwai-cum-Cook: Max 25 Yrs. Age relaxation: +5 Yrs for SC/ST, +3 Yrs for OBC, +10 to 15 Yrs for PwBD.',
+      'Selection Process: Written Test, Trade/Skill Test, Physical Test, and Interview based on post category.',
+      'How to Apply: Apply online at https://www.saha.ac.in/web/job-opportunities by 15.09.2026 (3:00 PM IST). After submission, save PDF application form and email to recruit.staff@saha.ac.in by 18.09.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organisation', value: 'Saha Institute of Nuclear Physics (SINP), Kolkata (DAE Autonomous Institute)' },
+      { label: 'Advertisement Number', value: 'Advt. No. SINP/Estt./Advt./11/2026' },
+      { label: 'Advertisement Date', value: '31st July 2026' },
+      { label: 'Total Vacancies', value: '62 Posts (Scientific, Technical, Administrative & Auxiliary Categories)' },
+      { label: 'Scientist \'C\'', value: '05 Posts (Level 10 | Max Age: 33 Yrs | PwBD Reserved)' },
+      { label: 'Scientific Assistant \'B\'', value: '08 Posts (Level 6 | Max Age: 30 Yrs | Computer, Electronics, Mechanical, AC)' },
+      { label: 'Technician \'B\'', value: '18 Posts (Level 3 | Max Age: 25 Yrs | ITI / SSC in Comp, Elec, AC, Welder, Carpentry)' },
+      { label: 'Administrative & Auxiliary', value: 'AAO-I: 01 | LDC: 07 | Security Guard A: 08 | Work Assistant A: 11 | Cook: 04' },
+      { label: 'Application Fee', value: 'Rs. 500 (Scientist C & SA-B) | Rs. 300 (Other Posts) | Exempted for Women, PwBD, ExSM & SC/ST' },
+      { label: 'Online Application Window', value: '31 July 2026 to 15 September 2026 (up to 3:00 PM IST)' },
+      { label: 'Email PDF Submission Last Date', value: '18 September 2026 (up to 3:00 PM IST)' },
+      { label: 'Official Website', value: 'https://www.saha.ac.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Publication Date', date: '31-07-2026' },
+      { event: 'Opening Date of Online Application', date: '31-07-2026 at 06:00 PM IST' },
+      { event: 'Last Date of Online Application Submission', date: '15-09-2026 up to 03:00 PM IST' },
+      { event: 'Last Date to Email PDF Application Form', date: '18-09-2026 up to 03:00 PM IST' },
+      { event: 'Last Date for Hardcopy Receipt (Deputation/Proper Channel)', date: '28-09-2026 up to 03:00 PM IST' }
+    ],
+    vacanciesDetails: [
+      { category: 'Scientist \'C\' (A/1/2026 to A/4/2026)', count: '05 Posts (Level 10 | Reserved for PwBD across Low Vision, Hearing, Locomotor, Autism)' },
+      { category: 'Scientific Assistant \'B\' (B/1/2026 to B/6/2026)', count: '08 Posts (Level 6 | Computer: 01, GR-B: 01, SIRC: 01, BM-E: 03, AC: 01, WKS: 01)' },
+      { category: 'Technician \'B\' (C/1/2026 to C/9/2026)', count: '18 Posts (Level 3 | Comp: 01, WKS: 01, BMC-1: 01, BMC-2: 01, ELEC: 05, AC: 01, ELECT: 01, SIRC: 03, FRENA: 04)' },
+      { category: 'Assistant Administrative Officer - I (B/7/2026-AAO-I)', count: '01 Post (Level 7 | Deputation Basis)' },
+      { category: 'Lower Division Clerk (C/10/2026-LDC)', count: '07 Posts (Level 2 | UR: 02, SC: 01, OBC-NCL: 04 | 1 post for PwBD)' },
+      { category: 'Security Guard A (C/11/2026-SGA)', count: '08 Posts (Level 1 | UR: 05, OBC-NCL: 03 | 04 posts for Ex-Servicemen)' },
+      { category: 'Work Assistant \'A\' (C/12/2026-WA)', count: '11 Posts (Level 1 | UR: 02, EWS: 01, OBC-NCL: 08)' },
+      { category: 'Halwai-cum-Cook (C/13/2026-Cook)', count: '04 Posts (Level 3 | UR: 01, SC: 01, OBC-NCL: 02)' }
+    ],
+    regionWiseVacancies: [
+      { region: 'Saha Institute of Nuclear Physics (SINP), Bidhannagar, Kolkata', count: '62 Posts across Scientific, Technical, Administrative & Auxiliary Departments' }
+    ],
+    eligibility: {
+      education: [
+        'Scientist \'C\' (05 Posts): M.Sc in Physics / Applied Physics / Optics / Photonics / Electronics from a recognized University.',
+        'Scientific Assistant \'B\' (08 Posts): Diploma in Computer Software Technology / Electronics & Instrumentation / Electrical / Mechanical / Air-Conditioning & Refrigeration Engineering.',
+        'Technician \'B\' (18 Posts): SSC / HSC (60% marks with Science & Maths) + Minimum 1-year ITI Certificate in Computer Hardware, Welding, Draughtsman (Civil), Carpentry, Electrician, Refrigeration & AC, Electronics Mechanic, or COPA + 3 Years relevant experience.',
+        'Lower Division Clerk (07 Posts): Graduate from a recognized University with minimum 50% marks + Typing speed of 35 wpm in English (10,500 KDPH) + Computer course certificate.',
+        'Security Guard A (08 Posts): SSC / 10th pass + Physical fitness as per GOI norms (15 years service for Ex-Servicemen; 2 years experience for Civilians).',
+        'Work Assistant \'A\' (11 Posts): Secondary School Certificate (SSC / 10th pass) + Minimum 1 year experience in relevant field.',
+        'Halwai-cum-Cook (04 Posts): 10th class pass + Certificate/Diploma in Catering + 2 years cooking experience in Govt Dept/Undertaking.'
+      ],
+      experience: [
+        'Technician \'B\': Minimum 3 years post-ITI experience in relevant trade.',
+        'Scientist \'C\' (A/4/2026): Minimum 2 years post-qualification experience in X-ray synchrotron / beamline / ion beam accelerators.',
+        'Work Assistant & Cook: Minimum 1 to 2 years relevant experience.'
+      ],
+      ageLimit: 'Calculated as on closing date of application (15.09.2026): Scientist \'C\': Max 33 Yrs; Scientific Assistant \'B\': Max 30 Yrs; Technician \'B\' & Halwai-cum-Cook: Max 25 Yrs; LDC, Security Guard A, Work Assistant A: Max 27 Yrs.',
+      ageRelaxation: [
+        { category: 'SC / ST Category Candidates', relaxation: '5 Years relaxation' },
+        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years relaxation' },
+        { category: 'PwBD Candidates (Unreserved)', relaxation: '10 Years relaxation' },
+        { category: 'PwBD Candidates (OBC NCL)', relaxation: '13 Years relaxation' },
+        { category: 'PwBD Candidates (SC / ST)', relaxation: '15 Years relaxation' },
+        { category: 'Ex-Servicemen (ESM)', relaxation: 'Military service + 3 Years deduction from actual age' }
+      ],
+      medicalStandards: [
+        'Candidates must be physically and mentally fit as per GOI/DAE standards (SHAPE-I for Security Guard).'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Level Matrix under DAE / Central Government Rules',
+      initialPay: 'Scientist \'C\': Level 10 (Rs. 56,100+) | Scientific Assistant \'B\': Level 6 (Rs. 35,400+) | Technician \'B\': Level 3 (Rs. 21,700+) | LDC: Level 2 | Work Assistant & Security Guard: Level 1',
+      allowances: 'Includes Dearness Allowance (DA), House Rent Allowance (HRA), Transport Allowance, Medical facilities, and other perks per SINP rules.'
+    },
+    applicationFee: [
+      { category: 'Scientist \'C\' & Scientific Assistant \'B\' Candidates', fee: 'Rs. 500/-', refund: 'Non-refundable application fee' },
+      { category: 'Technician \'B\', LDC, Security Guard, Work Assistant & Cook Candidates', fee: 'Rs. 300/-', refund: 'Non-refundable application fee' },
+      { category: 'Women / PwBD / ExSM / SC / ST / Deputation Candidates', fee: 'NIL (Exempted)', refund: '100% Exempted from payment of application fee' }
+    ],
+    howToPayFee: [
+      'Pay online through online remittance on the SINP recruitment portal.',
+      'Enter transaction reference number while submitting the online application form.'
+    ],
+    selectionProcess: [
+      { stage: '1. Scientist \'C\'', description: 'Shortlisting based on qualification/experience followed by Personal Interview. Written test may be conducted if required.' },
+      { stage: '2. Scientific Assistant \'B\' & Technician \'B\'', description: 'Phase I Written Test (qualifying in nature) -> Phase II Trade Test for qualified candidates. Final merit list based on Trade Test marks.' },
+      { stage: '3. Lower Division Clerk (LDC)', description: 'Phase I Written Test -> Phase II Computer Typing Skill Test (35 wpm). Final merit list based on Written Test marks of typing-qualified candidates.' },
+      { stage: '4. Security Guard \'A\'', description: 'Phase I Physical Fitness Test (qualifying) -> Phase II Written Test. Final merit list based on Written Test marks.' },
+      { stage: '5. Work Assistant \'A\'', description: 'MCQ-based Written Test. Final merit list prepared based on Written Test marks.' },
+      { stage: '6. Halwai-cum-Cook', description: 'Phase I Written Test (qualifying) -> Phase II Cooking Skill Test. Final merit list based on Skill Test marks.' }
+    ],
+    reservation: {
+      title: 'Reservation & Relaxation Rules',
+      detailsList: [
+        'Reservations for SC, ST, OBC-NCL, EWS, PwBD, and Ex-Servicemen as per Government of India DAE guidelines.',
+        'Scientist \'C\' posts strictly reserved for PwBD candidates under DoPT O.M.',
+        'Women, PwBD, ExSM, and SC/ST candidates exempted from paying application fee.'
+      ]
+    },
+    howToApply: [
+      'Visit SINP official job portal: https://www.saha.ac.in/web/job-opportunities.',
+      'Click on the online application link for Advt. No. SINP/Estt./Advt./11/2026.',
+      'Fill in personal, educational, ITI/technical, and experience details.',
+      'Upload self-attested PDF copies of age proof, degree/diploma/ITI certificates, experience, caste/PwBD certificates, photo, and signature.',
+      'Pay application fee (Rs. 500 or Rs. 300) online and enter transaction reference ID (if applicable).',
+      'Submit online application form, save PDF copy, and email the single combined PDF file (renamed as "Post Code_Application No.") to recruit.staff@saha.ac.in by 18.09.2026 (3:00 PM IST).'
+    ],
+    documentsRequired: [
+      'Age Proof (Birth Certificate / Class 10th Admit Card or Certificate / Passport).',
+      'All Educational Qualification Certificates & Mark Sheets.',
+      'ITI Certificate & National Trade Certificate (for Technician B).',
+      'Experience Certificates in relevant fields.',
+      'Proof of Online Fee Remittance / Receipt.',
+      'Caste Certificate (SC/ST/OBC-NCL/EWS) in Central Govt format.',
+      'Disability Certificate (PwBD min 40% disability) / Discharge Certificate (Ex-Servicemen).',
+      'Scanned Photograph and Signature in JPEG format.'
+    ],
+    importantInstructions: [
+      'Age Reckoning Date: Age and qualifications will be reckoned as on the closing date of online application (15.09.2026).',
+      'Email PDF Mandatory Requirement: Submitting the PDF application form via email to recruit.staff@saha.ac.in by 18.09.2026 is mandatory.',
+      'Application Fee Non-Refundable: Fee once paid will not be refunded under any circumstances.',
+      'Deputation Applicants: Must forward hardcopy through proper channel with Vigilance Clearance and 5-year APARs by 28.09.2026.'
+    ],
+    urls: [
+      { label: 'SINP Kolkata Official Recruitment Portal', url: 'https://www.saha.ac.in/web/job-opportunities' },
+      { label: 'SINP Kolkata Official Website Homepage', url: 'https://www.saha.ac.in' },
+      { label: 'Official Notification PDF Link', url: 'https://www.saha.ac.in/web/job-opportunities' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in SINP Kolkata Recruitment 2026?', answer: 'Saha Institute of Nuclear Physics (SINP), Kolkata has advertised 62 vacancies across Scientific, Technical, Administrative, and Auxiliary categories.' },
+      { question: 'What is the last date to apply online and email the application PDF for SINP Kolkata?', answer: 'The last date for online application submission on www.saha.ac.in is 15th September 2026 (3:00 PM IST), and the last date to email the PDF application form to recruit.staff@saha.ac.in is 18th September 2026 (3:00 PM IST).' },
+      { question: 'What is the application fee for SINP Kolkata posts?', answer: 'The fee is Rs. 500/- for Scientist \'C\' and Scientific Assistant \'B\' posts, and Rs. 300/- for Technician \'B\', LDC, Security Guard, Work Assistant, and Cook posts. Women, PwBD, Ex-Servicemen, and SC/ST candidates are EXEMPTED.' },
+      { question: 'What is the pay scale for Scientific Assistant B and Technician B in SINP?', answer: 'Scientific Assistant \'B\' is placed in 7th CPC Pay Level 6 (Basic Pay Rs. 35,400+), while Technician \'B\' is in Level 3 (Basic Pay Rs. 21,700+) plus DA, HRA, and allowances.' },
+      { question: 'Is emailing the PDF application form mandatory after online submission?', answer: 'Yes! After submitting the online application, saving the application form as a PDF and emailing it along with supporting documents to recruit.staff@saha.ac.in by 18.09.2026 (3:00 PM) is compulsory.' }
+    ]
+  },
   'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026': {
     id: 'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026',
     seoTitle: 'IBPS CSA Clerk Recruitment 2026 (CRP CSA-XVI) - Apply Online for 11,102 Posts',
@@ -222,339 +1583,6 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is the application fee for IBPS Clerk / CSA 2026?', answer: 'The fee is Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM/DESM candidates, and Rs. 850/- (inclusive of GST) for General (UR), OBC, and EWS candidates.' },
       { question: 'Can a candidate apply for more than one State / UT?', answer: 'No, candidates can apply for vacancies in only ONE State or Union Territory.' },
       { question: 'Is there any interview for IBPS Customer Service Associate (Clerk) posts?', answer: 'No, there is NO interview for clerical/CSA posts. Selection is based 100% on marks obtained in the Online Main Examination, subject to qualifying the Local Language Proficiency Test (LLPT) if applicable.' }
-    ]
-  },
-  'rcf-ltd-management-trainee-recruitment-2026': {
-    id: 'rcf-ltd-management-trainee-recruitment-2026',
-    seoTitle: 'RCF Ltd Management Trainee Recruitment 2026 - Apply Online for 94 MT Posts',
-    seoDescription: 'Rashtriya Chemicals & Fertilizers Limited (RCF Ltd) Navratna PSU notification out for 94 Management Trainee (MT) vacancies in Chemical, Electrical, Mechanical, IT, Finance & Marketing. Stipend Rs 60,000/pm, Pay scale Rs 40,000 - 1,40,000. BE/B.Tech/MBA/CA/CMA apply online at rcfltd.com from 8 to 24 August 2026.',
-    focusKeywords: 'RCF Ltd Management Trainee Recruitment 2026, RCF Mumbai Vacancy 2026, RCF MT Chemical Mechanical Electrical Jobs, rcfltd com apply online, RCF Navratna PSU Recruitment',
-    lsiKeywords: 'rcf ltd advertisement no 16022026, rcf management trainee salary stipend age limit, rcf mt online test syllabus pattern, rashtriya chemicals and fertilizers chembur trombay thal jobs',
-    title: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) Management Trainee Recruitment 2026 – 94 Vacancies for MT in Chemical, Electrical, Instrumentation, Finance, Marketing, IT, Mechanical, Civil, Fire & Others | Apply Online at rcfltd.com from 08 to 24 August 2026',
-    board: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Government of India Navratna Undertaking (Administrative Building, Chembur, Mumbai – 400074, Maharashtra)',
-    advtNo: 'Advertisement No.: 16022026',
-    vacancies: 94,
-    jobLocation: 'RCF Manufacturing Units at Trombay (Chembur, Mumbai) and Thal (Dist. Raigad, Maharashtra), Area Marketing Offices across India, or any RCF project site',
-    applicationMode: 'Online Application via RCF Official Website (https://www.rcfltd.com)',
-    applicationStatus: 'Upcoming / Active - Registration Window: 08 August 2026 (08:00 AM) to 24 August 2026 (05:00 PM)',
-    lastUpdated: 'August 02, 2026',
-    overview: [
-      'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) — a leading profit-making "Navratna" Government of India Public Sector Undertaking (PSU) under the Ministry of Chemicals and Fertilizers with operational revenues exceeding Rs. 18,690.90 crores — has released official advertisement No. 16022026 for recruitment of Management Trainees.',
-      'RCF Ltd operates state-of-the-art fertilizer and industrial chemical manufacturing units at Trombay (Chembur, Mumbai) and Thal (Dist. Raigad, Maharashtra) supported by a nationwide marketing network.',
-      'Total Vacancies: 94 Management Trainee (MT) Posts — MT Chemical (32), MT Boiler (06), MT Mechanical (04), MT Electrical (10), MT Instrumentation (09), MT Materials (01), MT Civil (01), MT Fire (01), MT CC Lab (01), MT Industrial Engineering (02), MT Information Technology (05), MT Rajbhasha (02), MT Finance (10), and MT Marketing (10).',
-      'Training Stipend & Pay Scale: Selected candidates undergo 1 year of training with a lump sum stipend of Rs. 60,000/- per month + Free lodging at company hostel in Trombay / Thal + Medical facility at RCF Hospital. Upon successful absorption into E1 Grade (Pay Scale Rs. 40,000 – 1,40,000/-), minimum total monthly gross emoluments will be approximately Rs. 86,320/- per month (Basic Pay + VDA 51.80% + Perks 34% + HRA 30%).',
-      'Application Fee: Rs. 1,000/- (plus bank charges and applicable GST) for General (UR), OBC (NCL), and EWS candidates. SC, ST, ExSM, PwBD, and Female candidates are completely EXEMPTED from paying any application fee.',
-      'Age Limit (as on 01.02.2026): Upper age limit for UR / EWS is 27 years (32 years for Ph.D CC Lab). Age relaxation: +5 Yrs for SC/ST (up to 32 Yrs), +3 Yrs for OBC NCL (up to 30 Yrs), +10 to 15 Yrs for PwBD candidates.',
-      'Selection Process: Computer-Based Online Test (90 Minutes, 100 Questions: 50 Domain + 50 Aptitude/English/Reasoning/GK) carrying 80% weightage, followed by Personal Interview carrying 20% weightage (shortlisting ratio 1:7).',
-      'How to Apply: Visit www.rcfltd.com -> HR -> RECRUITMENT -> "APPLY ONLINE" between 08.08.2026 (08:00 AM) and 24.08.2026 (05:00 PM). Upload photo (20-50KB), signature (10-20KB), left thumb impression, and handwritten declaration.'
-    ],
-    highlights: [
-      { label: 'Recruiting Organisation', value: 'Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), A Govt of India Navratna PSU' },
-      { label: 'Advertisement Number', value: 'Advertisement No.: 16022026' },
-      { label: 'Total Vacancies', value: '94 Posts (Management Trainee across 14 Disciplines)' },
-      { label: 'MT Chemical', value: '32 Posts (UR: 12, SC: 05, ST: 03, OBC: 09, EWS: 03)' },
-      { label: 'MT Electrical & Instrumentation', value: 'Electrical: 10 Posts | Instrumentation: 09 Posts' },
-      { label: 'MT Mechanical & Civil & Fire', value: 'Mechanical: 04 Posts | Civil: 01 Post | Fire: 01 Post | Boiler: 06 Posts' },
-      { label: 'MT IT & Industrial Engg & Materials', value: 'IT: 05 Posts | Industrial Engg: 02 Posts | Materials: 01 Post | CC Lab: 01 Post' },
-      { label: 'MT Finance & Marketing & Rajbhasha', value: 'Finance: 10 Posts | Marketing: 10 Posts | Rajbhasha: 02 Posts' },
-      { label: 'Training Stipend', value: 'Rs. 60,000/- per month lump sum + Free shared hostel accommodation & medical' },
-      { label: 'Absorbed Pay Scale (E1 Grade)', value: 'Rs. 40,000 – 1,40,000/- (Gross Emoluments: approx Rs. 86,320/- per month)' },
-      { label: 'Application Fee', value: 'Rs. 1,000 + GST (UR/OBC/EWS) | NIL / Exempted for SC, ST, PwBD, ExSM & Female Candidates' },
-      { label: 'Online Application Window', value: '08th August 2026 (08:00 AM) to 24th August 2026 (05:00 PM)' },
-      { label: 'Age Limit (UR/EWS as on 01.02.2026)', value: 'Max 27 Years (SC/ST: 32 Yrs | OBC: 30 Yrs | PwBD: 37-42 Yrs)' },
-      { label: 'Test Centres', value: 'Bhopal, Delhi/NCR, Lucknow, Hyderabad, Bengaluru, Chennai, Guwahati, Kolkata, Mumbai/Navi Mumbai, Nagpur' },
-      { label: 'Official Website', value: 'https://www.rcfltd.com' }
-    ],
-    importantDates: [
-      { event: 'Official Advertisement Publication Date', date: '02-08-2026' },
-      { event: 'Commencement of Online Registration of Application', date: '08-08-2026 at 08:00 AM' },
-      { event: 'Last Date for Online Registration & Application Fee Payment', date: '24-08-2026 at 05:00 PM' },
-      { event: 'Cut-off Date for Reckoning Eligibility (Age & Qualifications)', date: '01-02-2026' },
-      { event: 'Download of Call Letter & CBT Examination Date', date: 'To be published on www.rcfltd.com' }
-    ],
-    vacanciesDetails: [
-      { category: 'Management Trainee (Chemical)', count: '32 Posts (UR: 12, SC: 05, ST: 03, OBC-NCL: 09, EWS: 03)' },
-      { category: 'Management Trainee (Boiler)', count: '06 Posts (SC: 02, ST: 02, EWS: 02)' },
-      { category: 'Management Trainee (Mechanical)', count: '04 Posts (UR: 01, OBC-NCL: 02, EWS: 01)' },
-      { category: 'Management Trainee (Electrical)', count: '10 Posts (UR: 04, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
-      { category: 'Management Trainee (Instrumentation)', count: '09 Posts (UR: 03, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
-      { category: 'Management Trainee (Materials)', count: '01 Post (OBC-NCL: 01)' },
-      { category: 'Management Trainee (Civil)', count: '01 Post (OBC-NCL: 01)' },
-      { category: 'Management Trainee (Fire)', count: '01 Post (OBC-NCL: 01)' },
-      { category: 'Management Trainee (CC Lab)', count: '01 Post (EWS: 01)' },
-      { category: 'Management Trainee (Industrial Engineering)', count: '02 Posts (UR: 01, EWS: 01)' },
-      { category: 'Management Trainee (Information Technology)', count: '05 Posts (UR: 02, SC: 01, OBC-NCL: 02)' },
-      { category: 'Management Trainee (Rajbhasha)', count: '02 Posts (UR: 02)' },
-      { category: 'Management Trainee (Finance)', count: '10 Posts (UR: 05, SC: 01, ST: 01, OBC-NCL: 02, EWS: 01)' },
-      { category: 'Management Trainee (Marketing)', count: '10 Posts (UR: 04, SC: 01, ST: 01, OBC-NCL: 03, EWS: 01)' },
-      { category: 'Total Sanctioned Management Trainee Vacancies', count: '94 Posts' }
-    ],
-    regionWiseVacancies: [
-      { region: 'Trombay Unit (Chembur, Mumbai, Maharashtra)', count: 'Manufacturing Plant Operations, Process Control & Lab Units' },
-      { region: 'Thal Unit (Dist. Raigad, Maharashtra)', count: 'Large Scale Fertilizer Production & Maintenance Units' },
-      { region: 'All India Area Marketing Offices', count: 'Nationwide Marketing, Distribution & Field Sales Offices' }
-    ],
-    eligibility: {
-      education: [
-        'MT Chemical (32 Posts): 4 years B.E. / B.Tech in Chemical Engineering / Chemical Technology / Petrochemical Engineering / Petrochemical Technology OR 3-year B.E/B.Tech after 3-year Diploma OR Dual/Integrated degree.',
-        'MT Boiler (06 Posts): 4 years B.E. / B.Tech in Chemical / Petrochemical / Mechanical / Instrumentation / Electrical discipline + Mandatory valid Boiler Operation Engineer’s Certificate (BOE) / Boiler Proficiency Certificate.',
-        'MT Mechanical (04 Posts): 4 years B.E. / B.Tech in Mechanical Engineering / Civil & Infrastructure / Construction Technology / Allied Engineering.',
-        'MT Electrical (10 Posts): 4 years B.E. / B.Tech in Electrical Engineering / Electrical and Power Engineering / Electrical Power Engineering.',
-        'MT Instrumentation (09 Posts): 4 years B.E. / B.Tech in Instrumentation Engineering / Instrumentation Technology / Instrumentation & Control Engineering.',
-        'MT Materials (01 Post): 4 years B.E. / B.Tech in Chemical / Mechanical / Electrical / Instrumentation / Petrochemical / Civil Engineering.',
-        'MT Civil (01 Post): 4 years B.E. / B.Tech in Civil Engineering / Civil & Infrastructure Engineering / Construction Technology & Management.',
-        'MT Fire (01 Post): 4 years B.E. / B.Tech in Fire or Fire & Safety Engineering.',
-        'MT CC Lab (01 Post): Ph.D. in Chemistry OR 4-year B.E./B.Tech in Chemical Engg / Petrochemical Engg / Chemical Tech.',
-        'MT Industrial Engineering (02 Posts): 4 years B.E./B.Tech in Industrial Engineering OR B.E./B.Tech in any discipline + 2-year full-time PG Degree/Diploma in Industrial Engineering / Industrial Engg & Management.',
-        'MT Information Technology (05 Posts): 4 years B.E. / B.Tech in Information Technology / Computer Science / Computer Technology / Computer Engineering.',
-        'MT Rajbhasha (02 Posts): Master’s degree in Hindi with English as compulsory/elective subject at degree level OR Master’s degree in English with Hindi.',
-        'MT Finance (10 Posts): Chartered Accountant (CA) / Cost Accountant (CMA) OR 2-year full-time MBA (Finance) / MMS (Finance) / PGDM (Finance) / PGDBM (Finance) after Graduation in Commerce (B.Com, BMS, BAF, BBA).',
-        'MT Marketing (10 Posts): 2-year full-time MBA / MMS / PGDM / PGDBM with specialization in Marketing / Agri. Business Management / Agriculture after B.Sc / B.E / B.Tech / B.Sc Agriculture.'
-      ],
-      experience: [
-        'No post-qualification experience required for MT posts (except BOE Certificate for MT Boiler). Candidates in final year of Graduation/Post-Graduation are NOT eligible.'
-      ],
-      ageLimit: 'Upper age limit as on 01.02.2026: UR / EWS: Max 27 Years (Ph.D CC Lab: 32 Yrs) | SC / ST: Max 32 Years | OBC (NCL): Max 30 Years.',
-      ageRelaxation: [
-        { category: 'SC / ST Category Candidates', relaxation: '5 Years relaxation (Upper age limit: 32 Years)' },
-        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years relaxation (Upper age limit: 30 Years)' },
-        { category: 'PwBD Candidates (UR / EWS)', relaxation: '10 Years relaxation (Upper age limit: 37 Years)' },
-        { category: 'PwBD Candidates (OBC NCL)', relaxation: '13 Years relaxation (Upper age limit: 40 Years)' },
-        { category: 'PwBD Candidates (SC / ST)', relaxation: '15 Years relaxation (Upper age limit: 42 Years)' },
-        { category: '1984 Riot Victims Children/Family', relaxation: '5 Years additional age concession' }
-      ],
-      medicalStandards: [
-        'Candidates must meet pre-employment medical standards prescribed by RCF Ltd Physician (physical exam, audiometry, ECG, vision, chest X-ray, lung function, BMI).'
-      ]
-    },
-    salary: {
-      payLevel: '1-Year Training Period Stipend & Post-Absorption E1 Grade Pay Scale',
-      initialPay: 'Training Period: Rs. 60,000/- per month lump sum stipend + Free shared hostel accommodation. Absorbed Pay Scale (E1 Grade): Rs. 40,000 – 1,40,000/- (Initial Monthly Gross Emoluments approx Rs. 86,320/- per month).',
-      allowances: 'Includes Basic Pay + VDA (51.80%) + Perks (34%) + HRA (30%). On absorption: Company accommodation, Performance Related Pay (PRP), Free Medical facility for self & dependents, Gratuity, Contributory PF, Pension & Social Security schemes. Marketing trainees get Rs. 5,000/pm fixed allowance.'
-    },
-    applicationFee: [
-      { category: 'General (UR) / OBC (NCL) / EWS Candidates', fee: 'Rs. 1,000/- plus Bank Charges + GST', refund: 'Non-refundable application fee' },
-      { category: 'SC / ST / ExSM / PwBD / Female Candidates', fee: 'NIL (Exempted)', refund: 'Exempted from payment of application fee' }
-    ],
-    howToPayFee: [
-      'Pay Rs. 1,000/- online during application form submission via integrated payment gateway.',
-      'Payment modes accepted: Debit Cards (RuPay/Visa/MasterCard/Maestro), Credit Cards, Internet Banking, IMPS, Cash Cards / Mobile Wallets.',
-      'Take printout of e-receipt and online application form after successful transaction.'
-    ],
-    selectionProcess: [
-      { stage: '1. Online Computer-Based Test (CBT)', description: '90 Minutes online test with 100 questions (50 Domain curriculum questions @ 2 marks each + 50 General English, Quant, Reasoning & GK questions @ 1 mark each). Negative marking applicable.' },
-      { stage: '2. Document Scrutiny & Verification', description: 'Scrutiny of uploaded certificates, mark sheets, age proof, degree certificates, caste validity, and BOE certificates.' },
-      { stage: '3. Personal Interview', description: 'Shortlisted candidates (ratio 1:7) called for Personal Interview. Outstation SC/ST candidates reimbursed III-Tier AC rail fare.' },
-      { stage: '4. Final Selection & Medical Exam', description: 'Final merit list prepared with 80% weightage for Online Test + 20% weightage for Personal Interview (min 50% marks in interview). Subject to Pre-Employment Medical Fitness.' }
-    ],
-    reservation: {
-      title: 'Reservation & Relaxation Guidelines',
-      detailsList: [
-        'Reservations for SC, ST, OBC-NCL, EWS, and PwBD as per Government of India DPE guidelines.',
-        'OBC (NCL) candidates must submit certificate issued on or after 1st April 2025.',
-        'SC/ST/ExSM/PwBD/Female candidates are completely exempted from payment of application fee.'
-      ]
-    },
-    howToApply: [
-      'Visit official website www.rcfltd.com -> HR -> RECRUITMENT.',
-      'Click on "APPLY ONLINE" for Advt. No. 16022026 between 08/08/2026 (08:00 AM) and 24/08/2026 (05:00 PM).',
-      'Click "Click here for New Registration" and fill Name, Mobile Number, and Email ID to generate Provisional Registration Number & Password.',
-      'Upload scanned passport photo (20KB - 50KB, 200x230px), signature in black ink (10KB - 20KB, 140x60px), left thumb impression (20KB - 50KB, 240x240px), and handwritten declaration (50KB - 100KB, 800x400px).',
-      'Fill education details, percentage in final year graduation/post-graduation, and post preference.',
-      'Pay Rs. 1,000/- application fee online via Debit Card / Credit Card / Net Banking (SC/ST/PwBD/Female exempted).',
-      'Click "COMPLETE REGISTRATION" and print system-generated application form for future record.'
-    ],
-    documentsRequired: [
-      'Class 10th / Matriculation School Certificate (Proof of Age).',
-      'Final Year Graduation (B.E / B.Tech / B.Sc / B.Com) Mark sheet & Degree Certificate showing aggregate percentage.',
-      'Post-Graduation (MBA / MMS / PGDM / M.Sc / Ph.D) Semester-wise Mark sheets & Degree Certificate.',
-      'Boiler Operation Engineer’s Certificate (BOE) / Boiler Proficiency Certificate (for MT Boiler).',
-      'Caste Certificate (SC/ST/OBC-NCL in Central Govt format) & Caste Validity Certificate (for Maharashtra candidates).',
-      'EWS Income and Assets Certificate (issued on or after 1st April 2025).',
-      'Disability Certificate (PwBD min 40% disability) / Discharge Certificate (Ex-Servicemen).',
-      'Scanned Passport Photograph, Signature, Left Thumb Impression, and Handwritten Declaration.'
-    ],
-    importantInstructions: [
-      'Educational qualifications must be from UGC / AICTE recognized Universities / Institutions.',
-      'Minimum Percentage: Minimum 60% aggregate marks in Final Year of Graduation / Post-Graduation (55% for SC/ST category candidates).',
-      'Candidates in the final year of Graduation / Post-Graduation are NOT eligible to apply.',
-      'Service Bond: Bond of Rs. 2,00,000/- (Two Lakhs) in the form of Fixed Deposit marked with lien to RCF Ltd for 4 years (including 1 year training).',
-      'Probation: 1 year training period followed by 6 months probation period.',
-      'Online registration deadline: 24/08/2026 up to 5:00 PM.'
-    ],
-    urls: [
-      { label: 'RCF Ltd Official Recruitment Portal', url: 'https://www.rcfltd.com' },
-      { label: 'RCF Ltd Official Website Homepage', url: 'https://www.rcfltd.com' },
-      { label: 'RCF Ltd Career / HR Section', url: 'https://www.rcfltd.com/hr-recruitment' }
-    ],
-    faqs: [
-      { question: 'What is the total number of vacancies in RCF Ltd Management Trainee Recruitment 2026?', answer: 'RCF Ltd has advertised 94 vacancies for Management Trainees across Chemical (32), Electrical (10), Mechanical (04), Instrumentation (09), IT (05), Finance (10), Marketing (10), Boiler (06), Civil (01), Fire (01), CC Lab (01), Industrial Engg (02), Materials (01), and Rajbhasha (02).' },
-      { question: 'What are the online registration dates for RCF Ltd MT Recruitment 2026?', answer: 'Online registration opens on 08th August 2026 at 8:00 AM and closes on 24th August 2026 at 5:00 PM on www.rcfltd.com.' },
-      { question: 'What is the stipend during training and pay scale upon absorption in RCF Ltd?', answer: 'Selected Management Trainees receive a lump sum stipend of Rs. 60,000/- per month + free shared hostel lodging during 1-year training. Upon absorption in E1 Grade (Pay Scale Rs. 40,000 - 1,40,000/-), initial total monthly gross emoluments are approximately Rs. 86,320/- per month.' },
-      { question: 'Who is exempted from paying the RCF Ltd application fee?', answer: 'SC, ST, PwBD, Ex-Servicemen, and Female candidates are completely EXEMPTED from paying the application fee. General (UR), OBC (NCL), and EWS candidates must pay Rs. 1,000/- plus GST.' },
-      { question: 'Are final year students eligible to apply for RCF Ltd MT 2026?', answer: 'No, candidates in the final year of Graduation or Post-Graduation are NOT eligible to apply. Applicants must have completed their degree with minimum 60% aggregate in the final year (55% for SC/ST) as on 01.02.2026.' },
-      { question: 'What is the selection pattern for RCF Management Trainees?', answer: 'Selection is based on a 90-minute Computer Based Online Test (100 questions: 50 domain + 50 aptitude/English/reasoning/GK) carrying 80% weightage, followed by a Personal Interview carrying 20% weightage.' }
-    ]
-  },
-  'nrsc-isro-research-scientist-project-associate-recruitment-2026': {
-    id: 'nrsc-isro-research-scientist-project-associate-recruitment-2026',
-    seoTitle: 'NRSC ISRO Recruitment 2026 - Apply Online for 48 Research Scientist, Project Scientist & JRF Posts',
-    seoDescription: 'National Remote Sensing Centre (NRSC), ISRO Department of Space notification out for 48 vacancies of Research Scientist, Project Associate, Project Scientist & JRF. Pay scale up to Rs 56,100 + HRA. BE/B.Tech/ME/M.Tech/M.Sc qualified candidates apply online at nrsc.gov.in from 1 to 21 August 2026.',
-    focusKeywords: 'NRSC ISRO Recruitment 2026, NRSC Hyderabad Vacancy 2026, ISRO Research Scientist Recruitment, NRSC JRF Vacancy 2026, nrsc gov in career apply online',
-    lsiKeywords: 'nrsc isro advertisement nrsc rmt 1 2026, nrsc research scientist project associate salary age limit, isro remote sensing gis computer science jobs, nrsc hyderabad shadnagar recruitment 2026',
-    title: 'National Remote Sensing Centre (NRSC), ISRO Recruitment 2026 – 48 Vacancies for Research Scientist, Project Associate I & II, Project Scientist-B, Project Scientist-I & Junior Research Fellow (JRF) | Apply Online at nrsc.gov.in from 01 to 21 August 2026',
-    board: 'National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), Department of Space, Government of India (Balanagar, Hyderabad – 500037, Telangana)',
-    advtNo: 'Advt. No. NRSC/RMT/1/2026 Dated 01.08.2026',
-    vacancies: 48,
-    jobLocation: 'NRSC Hyderabad & Shadnagar (Rangareddy Dist, Telangana), RRSC North (New Delhi), RRSC South (Bengaluru), and other NRSC regional campuses across India',
-    applicationMode: 'Online Application via NRSC Official Recruitment Portal (https://www.nrsc.gov.in/Career_Apply)',
-    applicationStatus: 'Active - Online Registration Window: 01 August 2026 (10:00 Hrs) to 21 August 2026 (17:00 Hrs)',
-    lastUpdated: 'August 01, 2026',
-    overview: [
-      'National Remote Sensing Centre (NRSC), one of the primary research and operational centres of Indian Space Research Organisation (ISRO), Department of Space (DOS), Government of India, has issued official recruitment notification Advt. No. NRSC/RMT/1/2026 dated 01.08.2026.',
-      'NRSC invites online applications from eligible Indian nationals for 48 temporary research personnel positions across multiple projects in satellite remote sensing, geospatial technologies, AI/ML, disaster management, hydrology, geology, forestry, and space technology applications.',
-      'Total Vacancies: 48 Temporary Research Positions — Research Scientist (13), Project Associate-I (03), Project Associate-II (02), Project Scientist-B (08), Project Scientist-I (02), and Junior Research Fellow / JRF (20).',
-      'Posting Locations: Primary duty station at NRSC Headquarters (Balanagar, Hyderabad) and Shadnagar campus (Rangareddy District, Telangana). Positions are also identified at RRSC North (New Delhi) and RRSC South (Bengaluru), with liability to serve at any NRSC campus across India.',
-      'Emoluments & Stipend: Research Scientist / Project Scientist-B / Project Scientist-I: Rs. 56,100/- to Rs. 56,000/- + HRA + DA; Project Associate-II: Rs. 35,000/- + HRA; Project Associate-I: Rs. 31,000/- + HRA; Junior Research Fellow (JRF): Rs. 37,000/- + HRA (with possibility of enhancement to SRF at Rs. 42,000/- + HRA after 2 years).',
-      'Application Fee: Rs. 250/- (Non-refundable) for all candidates, payable via Bharatkosh payment gateway. Fully refunded (100% refund of Rs. 250/-) to Women candidates, SC/ST, PwBD, and Ex-Servicemen who participate in the selection process.',
-      'Age Limit (as on 21.08.2026): JRF & RS (M.Sc based): Max 28 Yrs (UR/EWS); RS (M.Tech based): Max 30 Yrs (UR/EWS); PA-I, PA-II, PS-I, PS-B: Max 35 Yrs (UR/EWS). Age relaxation: +3 Yrs for OBC, +5 Yrs for SC/ST, +10 Yrs for PwBD.',
-      'Selection Process: Initial screening based on academic qualification, GATE/CSIR-NET/UGC-NET score (for JRF), followed by Personal Interview of shortlisted/screened-in candidates.',
-      'How to Apply: Apply online at https://www.nrsc.gov.in/Career_Apply between 01.08.2026 (10:00 AM) and 21.08.2026 (5:00 PM). Upload passport photo (max 40KB) and signature (max 20KB).'
-    ],
-    highlights: [
-      { label: 'Recruiting Organisation', value: 'National Remote Sensing Centre (NRSC), ISRO, Department of Space, Govt. of India' },
-      { label: 'Advertisement Number', value: 'Advt. No. NRSC/RMT/1/2026' },
-      { label: 'Advertisement Date', value: '01st August 2026' },
-      { label: 'Total Vacancies', value: '48 Posts (Temporary Research Personnel)' },
-      { label: 'Research Scientist (RS)', value: '13 Posts (RS20: 03, RS21: 05, RS22: 02, RS23: 02, RS24: 01, RS25: 01)' },
-      { label: 'Project Associate (PA-I & PA-II)', value: '05 Posts (PAI-06: 03, PAII-02: 01, PAII-03: 01)' },
-      { label: 'Project Scientist (PS-B & PS-I)', value: '10 Posts (PSB03: 01, PSB04: 01, PSB05: 05, PSB06: 01, PSI-06: 02)' },
-      { label: 'Junior Research Fellow (JRF)', value: '20 Posts (JRF30: 09, JRF31: 06, JRF32: 01, JRF33: 01, JRF34: 01, JRF35: 01)' },
-      { label: 'Pay Scale / Emoluments', value: 'RS/PS-B/PS-I: Rs. 56,100 + HRA | PA-II: Rs. 35,000 + HRA | PA-I: Rs. 31,000 + HRA | JRF: Rs. 37,000 + HRA' },
-      { label: 'Application Fee', value: 'Rs. 250 (100% Fully Refundable for Women, SC, ST, PwBD & Ex-Servicemen)' },
-      { label: 'Payment Gateway', value: 'Online BHARATKOSH Payment Gateway' },
-      { label: 'Age Limit (UR/EWS)', value: 'JRF & RS (M.Sc): Max 28 Yrs | RS (M.Tech): Max 30 Yrs | PA-I, PA-II, PS-I, PS-B: Max 35 Yrs' },
-      { label: 'Online Application Window', value: '01st August 2026 (10:00 AM) to 21st August 2026 (05:00 PM)' },
-      { label: 'Duty Stations / Postings', value: 'NRSC Hyderabad, Shadnagar (Rangareddy), RRSC North (New Delhi), RRSC South (Bengaluru)' },
-      { label: 'Official Portal', value: 'https://www.nrsc.gov.in/Career_Apply' }
-    ],
-    importantDates: [
-      { event: 'Official Recruitment Notification Date', date: '01-08-2026' },
-      { event: 'Online Application Portal Opening Date', date: '01-08-2026 (10:00 Hrs)' },
-      { event: 'Closing Date for Submission of Online Application & Fee Payment', date: '21-08-2026 (17:00 Hrs)' },
-      { event: 'Interview & Document Verification Schedule', date: 'To be published on www.nrsc.gov.in and communicated via email to screened-in candidates' }
-    ],
-    vacanciesDetails: [
-      { category: 'Research Scientist (RS20 to RS25)', count: '13 Posts (Water Resources, RS & GIS, Geology, Civil, CS/IT, Data Science/AI)' },
-      { category: 'Project Associate-I (PAI-06)', count: '03 Posts (B.E/B.Tech in Computer Science / IT / Web Technologies / DBMS)' },
-      { category: 'Project Associate-II (PAII-02 & PAII-03)', count: '02 Posts (B.E/B.Tech/M.Sc + 2 Years R&D Experience in AI/ML/GIS)' },
-      { category: 'Project Scientist-B (PSB03 to PSB06)', count: '08 Posts (Geology, Spatial Tech, CS/IT, Agriculture/Remote Sensing)' },
-      { category: 'Project Scientist-I (PSI-06)', count: '02 Posts (M.E/M.Tech in CS/IT + CI/CD / Docker / Kubernetes / ML)' },
-      { category: 'Junior Research Fellow (JRF30 to JRF35)', count: '20 Posts (Physics, Oceanography, Agriculture, RS & GIS, AI/ML/Deep Learning)' },
-      { category: 'Total Sanctioned Temporary Positions', count: '48 Posts' }
-    ],
-    regionWiseVacancies: [
-      { region: 'NRSC Hyderabad & Shadnagar Campus (Telangana)', count: '39 Posts across RS, PA-I, PA-II, PS-B, PS-I, and JRF positions' },
-      { region: 'RRSC North, New Delhi', count: '05 Posts (RS23: 01, PAII-02: 01, PAII-03: 01, RS24: 01, PSB03/04: 01)' },
-      { region: 'RRSC South, Bengaluru (Karnataka)', count: '04 Posts (JRF32: 01, JRF33: 01, JRF34: 01, JRF35: 01)' }
-    ],
-    eligibility: {
-      education: [
-        'Research Scientist RS20 (03 Posts): M.E / M.Tech in Civil Engineering with specialization in Water Resources / Hydrology / Irrigation Water Management with B.E/B.Tech in Civil / Agriculture Engineering.',
-        'Research Scientist RS21 (05 Posts): M.E / M.Tech in Remote Sensing & GIS / Geoinformatics / Spatial Information Technology with B.E/B.Tech in Civil Engineering.',
-        'Research Scientist RS22 (02 Posts): M.Sc / M.Sc Tech / M.Tech in Geology / Applied Geology with B.Sc in Geology and Physics/Mathematics compulsory.',
-        'Research Scientist RS23 (02 Posts): M.E / M.Tech in Remote Sensing & GIS / Geoinformatics with B.E/B.Tech in any branch of Engineering (1 post at RRSC North New Delhi).',
-        'Research Scientist RS24 (01 Post): M.E / M.Tech in Computer Science & Engineering / Information Technology with B.E/B.Tech in CSE / IT (RRSC North New Delhi).',
-        'Research Scientist RS25 (01 Post): M.E / M.Tech in Data Science & Analytics / Computer Vision / AI / Machine Learning with B.E/B.Tech in any branch of Engineering.',
-        'Project Associate-I PAI-06 (03 Posts): B.E / B.Tech in Computer Science & Engineering / Information Technology.',
-        'Project Associate-II PAII-02 & PAII-03 (02 Posts): B.E/B.Tech in CSE/IT OR B.E/B.Tech/M.Sc in Geoinformatics/Remote Sensing & GIS + 02 years R&D experience in Industrial/Academic/S&T organisations.',
-        'Project Scientist-B PSB03 to PSB06 (08 Posts): M.Sc / M.Sc Tech / M.Tech in Geology, Remote Sensing & GIS, CS/IT, or Agriculture (with 4-year B.Sc Agriculture or Life Sciences).',
-        'Project Scientist-I PSI-06 (02 Posts): M.E / M.Tech in Computer Science & Engineering / IT with B.E/B.Tech in CSE / IT.',
-        'Junior Research Fellow JRF30 to JRF35 (20 Posts): Master’s Degree in Physics, Atmospheric Science, Meteorology, Oceanography, Agriculture, Remote Sensing & GIS, Computer Science, AI/ML + Valid CSIR-UGC NET / GATE score.'
-      ],
-      experience: [
-        'Project Associate-II (PAII-02 / PAII-03): Minimum 2 years of experience in Research & Development in Industrial and Academic Institutions, or S&T Organizations.',
-        'Project Scientist-B: Minimum 2 years of experience for review committee increments.',
-        'Desirable Qualifications / Technical Skills: Python, R, C++, C#, Java, HTML/CSS/JavaScript, React, Angular, Vue.js, Django, Flask, PostgreSQL, PostGIS, MySQL, MongoDB, Docker, Kubernetes, Jenkins CI/CD, GIS software (ArcMap, QGIS, ERDAS, Google Earth Engine, OpenLayers, Geoserver).'
-      ],
-      ageLimit: 'Calculated as on closing date of application (21.08.2026): JRF & RS (M.Sc based): Max 28 Years (UR/EWS); RS (M.Tech based): Max 30 Years (UR/EWS); PA-I, PA-II, PS-I, PS-B: Max 35 Years (UR/EWS).',
-      ageRelaxation: [
-        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years (JRF/RS M.Sc: 31 Yrs | RS M.Tech: 33 Yrs | PA/PS: 38 Yrs)' },
-        { category: 'SC / ST Candidates', relaxation: '5 Years (JRF/RS M.Sc: 33 Yrs | RS M.Tech: 35 Yrs | PA/PS: 40 Yrs)' },
-        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years upper age relaxation as per Govt of India orders' },
-        { category: 'Ex-Servicemen', relaxation: 'As per Govt of India orders upon producing discharge certificate' }
-      ],
-      medicalStandards: [
-        'Candidates must be in sound physical and mental health to carry out research, field observation, and laboratory duties.'
-      ]
-    },
-    salary: {
-      payLevel: 'Consolidated Monthly Emoluments & Stipend under DOS / ISRO NRSC Rules',
-      initialPay: 'Research Scientist / PS-B / PS-I: Rs. 56,100/- | PA-II: Rs. 35,000/- | PA-I: Rs. 31,000/- | JRF: Rs. 37,000/- per month',
-      allowances: 'Plus House Rent Allowance (HRA) as per prescribed rates at place of posting (if official accommodation is not provided). Medical benefits for self as per NRSC/ISRO rules.'
-    },
-    applicationFee: [
-      { category: 'General Merit (UR) / OBC / EWS Candidates', fee: 'Rs. 250/-', refund: 'Non-refundable processing fee' },
-      { category: 'Women / SC / ST / PwBD / Ex-Servicemen Candidates', fee: 'Rs. 250/-', refund: '100% Fully Refundable upon appearing in selection process' }
-    ],
-    howToPayFee: [
-      'After completing all details in online application, candidates are redirected to BHARATKOSH payment gateway.',
-      'Pay Rs. 250/- online using Net Banking, Debit Card, Credit Card, or UPI.',
-      'Upon successful payment, download and print the e-receipt for future reference.'
-    ],
-    selectionProcess: [
-      { stage: '1. Online Application Submission', description: 'Submit online application at https://www.nrsc.gov.in/Career_Apply between 01.08.2026 (10:00 AM) and 21.08.2026 (5:00 PM).' },
-      { stage: '2. Initial Screening & Shortlisting', description: 'Screening based on academic credentials (minimum 60%-65% aggregate marks or 6.5-6.84 CGPA), GATE/CSIR-NET valid score (for JRFs), and relevant R&D experience.' },
-      { stage: '3. Personal Interview', description: 'Screened-in shortlisted candidates called for Personal Interview at NRSC Hyderabad or online/designated venue. Call letter sent via registered email.' },
-      { stage: '4. Document Verification & Joining', description: 'Verification of original certificates (mark sheets, degree certificates, NET/GATE score card, category/caste certificates, NOC). Selected candidates appointed on temporary tenure.' }
-    ],
-    reservation: {
-      title: 'Reservation & Relaxation Rules',
-      detailsList: [
-        'Reservations for SC, ST, OBC-NCL, EWS, PwBD, and Ex-Servicemen as per Government of India orders.',
-        'Age relaxation extended for SC/ST (+5 Yrs), OBC (+3 Yrs), and PwBD (+10 Yrs).',
-        'Application fee 100% refunded to Women, SC, ST, PwBD, and Ex-Servicemen candidates upon participating in the selection process.'
-      ]
-    },
-    howToApply: [
-      'Visit the official NRSC website recruitment portal: https://www.nrsc.gov.in/Career_Apply.',
-      'Click on "Online Application for Advt. No. NRSC/RMT/1/2026" between 01.08.2026 (1000 Hrs) and 21.08.2026 (1700 Hrs).',
-      'Fill in personal details, educational qualifications, marks/CGPA, GATE/NET details, and work experience.',
-      'Upload recent passport-size photograph (.jpg/.jpeg, max 40KB, 110x140px) and signature (.jpg/.jpeg, max 20KB, 200x50px).',
-      'Pay application fee of Rs. 250/- online via Bharatkosh payment gateway (enter bank account details for refund if eligible).',
-      'Submit application form and download personalized registration confirmation form containing Name, Registration Number, Advt No, and Post Code.'
-    ],
-    documentsRequired: [
-      'Class 10th / SSC Mark sheet & Passing Certificate (Date of Birth Proof).',
-      'Intermediate / 10+2 / Diploma Certificate & Mark sheets.',
-      'Graduation (B.Sc / B.E / B.Tech) Consolidated Mark sheet & Degree Certificate.',
-      'Post-Graduation (M.Sc / M.E / M.Tech) Consolidated Semester-wise Mark sheets & Degree Certificate.',
-      'Valid GATE / CSIR-UGC NET Qualification Score Card (for JRF post codes JRF30 to JRF35).',
-      'Community / Caste Certificate (SC/ST/OBC-NCL) & EWS Income Certificate in prescribed Govt of India format.',
-      'Disability Certificate (PwBD) / Discharge Certificate (Ex-Servicemen) if claiming fee refund / age relaxation.',
-      'Experience Certificate for Project Associate-II (minimum 2 years R&D experience).',
-      'No Objection Certificate (NOC) if currently employed in Govt / PSU / Autonomous bodies.'
-    ],
-    importantInstructions: [
-      'All degrees must be duly recognized by AICTE / UGC or authorized Government of India bodies.',
-      'Minimum Marks Criteria: Aggregate minimum 60% (or CGPA 6.5/10) for M.E/M.Tech; minimum 65% (or CGPA 6.84/10) for M.Sc / B.E / B.Tech; minimum 60% for B.Sc.',
-      'Candidates pursuing degrees through Open and Distance Learning (ODL) are NOT eligible.',
-      'Rounding off CGPA/percentage marks is not permitted (enter nearest 2 decimal places e.g. 8.23).',
-      'Tenure: Temporary basis for 1 year, extendable up to a maximum of 5 years for JRF/RS based on periodic performance review and project validity.',
-      'Only online applications submitted before 21.08.2026 (1700 Hrs) will be accepted.'
-    ],
-    urls: [
-      { label: 'NRSC Official Online Application Portal', url: 'https://www.nrsc.gov.in/Career_Apply' },
-      { label: 'NRSC Official Website Homepage', url: 'https://www.nrsc.gov.in' },
-      { label: 'Official Notification PDF Download', url: 'https://www.nrsc.gov.in/sites/default/files/NRSC_RMT_1_2026.pdf' }
-    ],
-    faqs: [
-      { question: 'What is the total number of vacancies in NRSC ISRO Recruitment 2026?', answer: 'NRSC ISRO has advertised 48 temporary research positions across Research Scientist (13), Project Associate-I & II (05), Project Scientist-B & I (10), and Junior Research Fellow / JRF (20).' },
-      { question: 'What is the last date to apply online for NRSC ISRO Recruitment 2026?', answer: 'The last date for online registration and submission of application on www.nrsc.gov.in is 21st August 2026 up to 5:00 PM (1700 Hrs).' },
-      { question: 'Is there any application fee refund for women or SC/ST candidates?', answer: 'Yes! The application fee of Rs. 250/- will be 100% fully refunded to all Women candidates, SC/ST, PwBD, and Ex-Servicemen candidates who participate in the selection process.' },
-      { question: 'What is the pay scale / stipend for Research Scientist and JRF in NRSC?', answer: 'Research Scientist / Project Scientist-B & I receive Rs. 56,100/- + HRA + DA. Junior Research Fellow (JRF) receives Rs. 37,000/- + HRA (enhanceable to SRF at Rs. 42,000/- + HRA after 2 years). Project Associate-II receives Rs. 35,000/- + HRA and Project Associate-I receives Rs. 31,000/- + HRA.' },
-      { question: 'Where will selected candidates be posted?', answer: 'Primary posting locations are NRSC Headquarters in Balanagar, Hyderabad and Shadnagar campus (Rangareddy Dist, Telangana). Postings are also available at RRSC North (New Delhi) and RRSC South (Bengaluru), with liability to serve at any NRSC campus across India.' },
-      { question: 'Is GATE or CSIR-UGC NET mandatory for JRF positions?', answer: 'Yes, for JRF post codes JRF30 to JRF35, candidates must have qualified a national level examination such as CSIR-UGC NET (including lectureship/GATE) or national level tests conducted by DST, DBT, DAE, DOS, DRDO, ICAR, ICMR, IIT, IISc, etc.' }
     ]
   },
   'sri-jayadeva-institute-assistant-professor-recruitment-2026': {
