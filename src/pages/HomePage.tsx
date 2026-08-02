@@ -504,50 +504,29 @@ export default function HomePage() {
               </button>
             </div>
 
-            {/* Trending Quick Search Badges */}
-            <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 pt-1 text-xs text-blue-100">
-              <span className="font-extrabold text-emerald-300 flex items-center gap-1 mr-1">
-                <Sparkles className="h-3 w-3" />
-                Trending Searches:
+            {/* Qualification Quick Filter Buttons ("Jobs for") */}
+            <div className="pt-2 space-y-2 text-center">
+              <span className="text-xs sm:text-sm font-black text-emerald-300 tracking-wide block">
+                Qualification based vacancies <span className="text-[10px] sm:text-xs font-medium text-blue-200 normal-case opacity-90 ml-1">click to open</span>
               </span>
-              {['Railway', 'UPSC', 'Banking', 'Defense', '10th Pass', 'ISRO', 'Graduate'].map((tag) => (
-                <button
-                  key={tag}
-                  onClick={() => setSearchTerm(prev => prev.toLowerCase() === tag.toLowerCase() ? '' : tag)}
-                  className={`px-2.5 py-1 rounded-lg text-xs font-extrabold transition-all border cursor-pointer ${
-                    searchTerm.toLowerCase() === tag.toLowerCase()
-                      ? 'bg-emerald-500 text-white border-emerald-400 shadow-sm'
-                      : 'bg-white/10 hover:bg-white/25 border-white/20 text-blue-50'
-                  }`}
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
-
-            {/* Social Follow Bar at Bottom of Hero Section */}
-            <div className="pt-3 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-              <span className="text-xs font-extrabold text-blue-200 uppercase tracking-wider">Follow Us:</span>
-              <a
-                href="https://www.facebook.com/profile.php?id=61592714690988"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white rounded-lg text-xs font-bold transition border border-white/20 shadow-sm"
-                title="Follow NewVacancyAlert on Facebook"
-              >
-                <Facebook className="w-4 h-4 fill-current text-blue-300 shrink-0" />
-                <span>Facebook</span>
-              </a>
-              <a
-                href="https://www.instagram.com/newvacancyalert.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-pink-500/30 to-purple-500/30 hover:from-pink-500/40 hover:to-purple-500/40 text-white rounded-lg text-xs font-bold transition border border-pink-300/30 shadow-sm"
-                title="Follow NewVacancyAlert on Instagram"
-              >
-                <Instagram className="w-4 h-4 text-pink-300 shrink-0" />
-                <span>Instagram</span>
-              </a>
+              <div className="flex flex-wrap items-center justify-center gap-2">
+                {[
+                  { label: '10th Pass', slug: '10th-pass' },
+                  { label: '12th Pass', slug: '12th-pass' },
+                  { label: 'BA', slug: 'ba' },
+                  { label: 'B Com', slug: 'bcom' },
+                  { label: 'BSc', slug: 'bsc' },
+                  { label: 'B Tech', slug: 'btech' }
+                ].map(item => (
+                  <Link
+                    key={item.slug}
+                    to={`/jobs-for/${item.slug}`}
+                    className="px-3 sm:px-4 py-1.5 rounded-xl text-xs sm:text-sm font-black bg-white/10 hover:bg-emerald-400 hover:text-slate-950 text-blue-50 border border-white/25 hover:border-emerald-300 shadow-sm transition-all duration-150 active:scale-95 cursor-pointer"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
 
 
