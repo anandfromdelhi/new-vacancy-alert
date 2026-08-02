@@ -58,6 +58,167 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'nrsc-isro-research-scientist-project-associate-recruitment-2026': {
+    id: 'nrsc-isro-research-scientist-project-associate-recruitment-2026',
+    seoTitle: 'NRSC ISRO Recruitment 2026 - Apply Online for 48 Research Scientist, Project Scientist & JRF Posts',
+    seoDescription: 'National Remote Sensing Centre (NRSC), ISRO Department of Space notification out for 48 vacancies of Research Scientist, Project Associate, Project Scientist & JRF. Pay scale up to Rs 56,100 + HRA. BE/B.Tech/ME/M.Tech/M.Sc qualified candidates apply online at nrsc.gov.in from 1 to 21 August 2026.',
+    focusKeywords: 'NRSC ISRO Recruitment 2026, NRSC Hyderabad Vacancy 2026, ISRO Research Scientist Recruitment, NRSC JRF Vacancy 2026, nrsc gov in career apply online',
+    lsiKeywords: 'nrsc isro advertisement nrsc rmt 1 2026, nrsc research scientist project associate salary age limit, isro remote sensing gis computer science jobs, nrsc hyderabad shadnagar recruitment 2026',
+    title: 'National Remote Sensing Centre (NRSC), ISRO Recruitment 2026 – 48 Vacancies for Research Scientist, Project Associate I & II, Project Scientist-B, Project Scientist-I & Junior Research Fellow (JRF) | Apply Online at nrsc.gov.in from 01 to 21 August 2026',
+    board: 'National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), Department of Space, Government of India (Balanagar, Hyderabad – 500037, Telangana)',
+    advtNo: 'Advt. No. NRSC/RMT/1/2026 Dated 01.08.2026',
+    vacancies: 48,
+    jobLocation: 'NRSC Hyderabad & Shadnagar (Rangareddy Dist, Telangana), RRSC North (New Delhi), RRSC South (Bengaluru), and other NRSC regional campuses across India',
+    applicationMode: 'Online Application via NRSC Official Recruitment Portal (https://www.nrsc.gov.in/Career_Apply)',
+    applicationStatus: 'Active - Online Registration Window: 01 August 2026 (10:00 Hrs) to 21 August 2026 (17:00 Hrs)',
+    lastUpdated: 'August 01, 2026',
+    overview: [
+      'National Remote Sensing Centre (NRSC), one of the primary research and operational centres of Indian Space Research Organisation (ISRO), Department of Space (DOS), Government of India, has issued official recruitment notification Advt. No. NRSC/RMT/1/2026 dated 01.08.2026.',
+      'NRSC invites online applications from eligible Indian nationals for 48 temporary research personnel positions across multiple projects in satellite remote sensing, geospatial technologies, AI/ML, disaster management, hydrology, geology, forestry, and space technology applications.',
+      'Total Vacancies: 48 Temporary Research Positions — Research Scientist (13), Project Associate-I (03), Project Associate-II (02), Project Scientist-B (08), Project Scientist-I (02), and Junior Research Fellow / JRF (20).',
+      'Posting Locations: Primary duty station at NRSC Headquarters (Balanagar, Hyderabad) and Shadnagar campus (Rangareddy District, Telangana). Positions are also identified at RRSC North (New Delhi) and RRSC South (Bengaluru), with liability to serve at any NRSC campus across India.',
+      'Emoluments & Stipend: Research Scientist / Project Scientist-B / Project Scientist-I: Rs. 56,100/- to Rs. 56,000/- + HRA + DA; Project Associate-II: Rs. 35,000/- + HRA; Project Associate-I: Rs. 31,000/- + HRA; Junior Research Fellow (JRF): Rs. 37,000/- + HRA (with possibility of enhancement to SRF at Rs. 42,000/- + HRA after 2 years).',
+      'Application Fee: Rs. 250/- (Non-refundable) for all candidates, payable via Bharatkosh payment gateway. Fully refunded (100% refund of Rs. 250/-) to Women candidates, SC/ST, PwBD, and Ex-Servicemen who participate in the selection process.',
+      'Age Limit (as on 21.08.2026): JRF & RS (M.Sc based): Max 28 Yrs (UR/EWS); RS (M.Tech based): Max 30 Yrs (UR/EWS); PA-I, PA-II, PS-I, PS-B: Max 35 Yrs (UR/EWS). Age relaxation: +3 Yrs for OBC, +5 Yrs for SC/ST, +10 Yrs for PwBD.',
+      'Selection Process: Initial screening based on academic qualification, GATE/CSIR-NET/UGC-NET score (for JRF), followed by Personal Interview of shortlisted/screened-in candidates.',
+      'How to Apply: Apply online at https://www.nrsc.gov.in/Career_Apply between 01.08.2026 (10:00 AM) and 21.08.2026 (5:00 PM). Upload passport photo (max 40KB) and signature (max 20KB).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organisation', value: 'National Remote Sensing Centre (NRSC), ISRO, Department of Space, Govt. of India' },
+      { label: 'Advertisement Number', value: 'Advt. No. NRSC/RMT/1/2026' },
+      { label: 'Advertisement Date', value: '01st August 2026' },
+      { label: 'Total Vacancies', value: '48 Posts (Temporary Research Personnel)' },
+      { label: 'Research Scientist (RS)', value: '13 Posts (RS20: 03, RS21: 05, RS22: 02, RS23: 02, RS24: 01, RS25: 01)' },
+      { label: 'Project Associate (PA-I & PA-II)', value: '05 Posts (PAI-06: 03, PAII-02: 01, PAII-03: 01)' },
+      { label: 'Project Scientist (PS-B & PS-I)', value: '10 Posts (PSB03: 01, PSB04: 01, PSB05: 05, PSB06: 01, PSI-06: 02)' },
+      { label: 'Junior Research Fellow (JRF)', value: '20 Posts (JRF30: 09, JRF31: 06, JRF32: 01, JRF33: 01, JRF34: 01, JRF35: 01)' },
+      { label: 'Pay Scale / Emoluments', value: 'RS/PS-B/PS-I: Rs. 56,100 + HRA | PA-II: Rs. 35,000 + HRA | PA-I: Rs. 31,000 + HRA | JRF: Rs. 37,000 + HRA' },
+      { label: 'Application Fee', value: 'Rs. 250 (100% Fully Refundable for Women, SC, ST, PwBD & Ex-Servicemen)' },
+      { label: 'Payment Gateway', value: 'Online BHARATKOSH Payment Gateway' },
+      { label: 'Age Limit (UR/EWS)', value: 'JRF & RS (M.Sc): Max 28 Yrs | RS (M.Tech): Max 30 Yrs | PA-I, PA-II, PS-I, PS-B: Max 35 Yrs' },
+      { label: 'Online Application Window', value: '01st August 2026 (10:00 AM) to 21st August 2026 (05:00 PM)' },
+      { label: 'Duty Stations / Postings', value: 'NRSC Hyderabad, Shadnagar (Rangareddy), RRSC North (New Delhi), RRSC South (Bengaluru)' },
+      { label: 'Official Portal', value: 'https://www.nrsc.gov.in/Career_Apply' }
+    ],
+    importantDates: [
+      { event: 'Official Recruitment Notification Date', date: '01-08-2026' },
+      { event: 'Online Application Portal Opening Date', date: '01-08-2026 (10:00 Hrs)' },
+      { event: 'Closing Date for Submission of Online Application & Fee Payment', date: '21-08-2026 (17:00 Hrs)' },
+      { event: 'Interview & Document Verification Schedule', date: 'To be published on www.nrsc.gov.in and communicated via email to screened-in candidates' }
+    ],
+    vacanciesDetails: [
+      { category: 'Research Scientist (RS20 to RS25)', count: '13 Posts (Water Resources, RS & GIS, Geology, Civil, CS/IT, Data Science/AI)' },
+      { category: 'Project Associate-I (PAI-06)', count: '03 Posts (B.E/B.Tech in Computer Science / IT / Web Technologies / DBMS)' },
+      { category: 'Project Associate-II (PAII-02 & PAII-03)', count: '02 Posts (B.E/B.Tech/M.Sc + 2 Years R&D Experience in AI/ML/GIS)' },
+      { category: 'Project Scientist-B (PSB03 to PSB06)', count: '08 Posts (Geology, Spatial Tech, CS/IT, Agriculture/Remote Sensing)' },
+      { category: 'Project Scientist-I (PSI-06)', count: '02 Posts (M.E/M.Tech in CS/IT + CI/CD / Docker / Kubernetes / ML)' },
+      { category: 'Junior Research Fellow (JRF30 to JRF35)', count: '20 Posts (Physics, Oceanography, Agriculture, RS & GIS, AI/ML/Deep Learning)' },
+      { category: 'Total Sanctioned Temporary Positions', count: '48 Posts' }
+    ],
+    regionWiseVacancies: [
+      { region: 'NRSC Hyderabad & Shadnagar Campus (Telangana)', count: '39 Posts across RS, PA-I, PA-II, PS-B, PS-I, and JRF positions' },
+      { region: 'RRSC North, New Delhi', count: '05 Posts (RS23: 01, PAII-02: 01, PAII-03: 01, RS24: 01, PSB03/04: 01)' },
+      { region: 'RRSC South, Bengaluru (Karnataka)', count: '04 Posts (JRF32: 01, JRF33: 01, JRF34: 01, JRF35: 01)' }
+    ],
+    eligibility: {
+      education: [
+        'Research Scientist RS20 (03 Posts): M.E / M.Tech in Civil Engineering with specialization in Water Resources / Hydrology / Irrigation Water Management with B.E/B.Tech in Civil / Agriculture Engineering.',
+        'Research Scientist RS21 (05 Posts): M.E / M.Tech in Remote Sensing & GIS / Geoinformatics / Spatial Information Technology with B.E/B.Tech in Civil Engineering.',
+        'Research Scientist RS22 (02 Posts): M.Sc / M.Sc Tech / M.Tech in Geology / Applied Geology with B.Sc in Geology and Physics/Mathematics compulsory.',
+        'Research Scientist RS23 (02 Posts): M.E / M.Tech in Remote Sensing & GIS / Geoinformatics with B.E/B.Tech in any branch of Engineering (1 post at RRSC North New Delhi).',
+        'Research Scientist RS24 (01 Post): M.E / M.Tech in Computer Science & Engineering / Information Technology with B.E/B.Tech in CSE / IT (RRSC North New Delhi).',
+        'Research Scientist RS25 (01 Post): M.E / M.Tech in Data Science & Analytics / Computer Vision / AI / Machine Learning with B.E/B.Tech in any branch of Engineering.',
+        'Project Associate-I PAI-06 (03 Posts): B.E / B.Tech in Computer Science & Engineering / Information Technology.',
+        'Project Associate-II PAII-02 & PAII-03 (02 Posts): B.E/B.Tech in CSE/IT OR B.E/B.Tech/M.Sc in Geoinformatics/Remote Sensing & GIS + 02 years R&D experience in Industrial/Academic/S&T organisations.',
+        'Project Scientist-B PSB03 to PSB06 (08 Posts): M.Sc / M.Sc Tech / M.Tech in Geology, Remote Sensing & GIS, CS/IT, or Agriculture (with 4-year B.Sc Agriculture or Life Sciences).',
+        'Project Scientist-I PSI-06 (02 Posts): M.E / M.Tech in Computer Science & Engineering / IT with B.E/B.Tech in CSE / IT.',
+        'Junior Research Fellow JRF30 to JRF35 (20 Posts): Master’s Degree in Physics, Atmospheric Science, Meteorology, Oceanography, Agriculture, Remote Sensing & GIS, Computer Science, AI/ML + Valid CSIR-UGC NET / GATE score.'
+      ],
+      experience: [
+        'Project Associate-II (PAII-02 / PAII-03): Minimum 2 years of experience in Research & Development in Industrial and Academic Institutions, or S&T Organizations.',
+        'Project Scientist-B: Minimum 2 years of experience for review committee increments.',
+        'Desirable Qualifications / Technical Skills: Python, R, C++, C#, Java, HTML/CSS/JavaScript, React, Angular, Vue.js, Django, Flask, PostgreSQL, PostGIS, MySQL, MongoDB, Docker, Kubernetes, Jenkins CI/CD, GIS software (ArcMap, QGIS, ERDAS, Google Earth Engine, OpenLayers, Geoserver).'
+      ],
+      ageLimit: 'Calculated as on closing date of application (21.08.2026): JRF & RS (M.Sc based): Max 28 Years (UR/EWS); RS (M.Tech based): Max 30 Years (UR/EWS); PA-I, PA-II, PS-I, PS-B: Max 35 Years (UR/EWS).',
+      ageRelaxation: [
+        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years (JRF/RS M.Sc: 31 Yrs | RS M.Tech: 33 Yrs | PA/PS: 38 Yrs)' },
+        { category: 'SC / ST Candidates', relaxation: '5 Years (JRF/RS M.Sc: 33 Yrs | RS M.Tech: 35 Yrs | PA/PS: 40 Yrs)' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years upper age relaxation as per Govt of India orders' },
+        { category: 'Ex-Servicemen', relaxation: 'As per Govt of India orders upon producing discharge certificate' }
+      ],
+      medicalStandards: [
+        'Candidates must be in sound physical and mental health to carry out research, field observation, and laboratory duties.'
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Emoluments & Stipend under DOS / ISRO NRSC Rules',
+      initialPay: 'Research Scientist / PS-B / PS-I: Rs. 56,100/- | PA-II: Rs. 35,000/- | PA-I: Rs. 31,000/- | JRF: Rs. 37,000/- per month',
+      allowances: 'Plus House Rent Allowance (HRA) as per prescribed rates at place of posting (if official accommodation is not provided). Medical benefits for self as per NRSC/ISRO rules.'
+    },
+    applicationFee: [
+      { category: 'General Merit (UR) / OBC / EWS Candidates', fee: 'Rs. 250/-', refund: 'Non-refundable processing fee' },
+      { category: 'Women / SC / ST / PwBD / Ex-Servicemen Candidates', fee: 'Rs. 250/-', refund: '100% Fully Refundable upon appearing in selection process' }
+    ],
+    howToPayFee: [
+      'After completing all details in online application, candidates are redirected to BHARATKOSH payment gateway.',
+      'Pay Rs. 250/- online using Net Banking, Debit Card, Credit Card, or UPI.',
+      'Upon successful payment, download and print the e-receipt for future reference.'
+    ],
+    selectionProcess: [
+      { stage: '1. Online Application Submission', description: 'Submit online application at https://www.nrsc.gov.in/Career_Apply between 01.08.2026 (10:00 AM) and 21.08.2026 (5:00 PM).' },
+      { stage: '2. Initial Screening & Shortlisting', description: 'Screening based on academic credentials (minimum 60%-65% aggregate marks or 6.5-6.84 CGPA), GATE/CSIR-NET valid score (for JRFs), and relevant R&D experience.' },
+      { stage: '3. Personal Interview', description: 'Screened-in shortlisted candidates called for Personal Interview at NRSC Hyderabad or online/designated venue. Call letter sent via registered email.' },
+      { stage: '4. Document Verification & Joining', description: 'Verification of original certificates (mark sheets, degree certificates, NET/GATE score card, category/caste certificates, NOC). Selected candidates appointed on temporary tenure.' }
+    ],
+    reservation: {
+      title: 'Reservation & Relaxation Rules',
+      detailsList: [
+        'Reservations for SC, ST, OBC-NCL, EWS, PwBD, and Ex-Servicemen as per Government of India orders.',
+        'Age relaxation extended for SC/ST (+5 Yrs), OBC (+3 Yrs), and PwBD (+10 Yrs).',
+        'Application fee 100% refunded to Women, SC, ST, PwBD, and Ex-Servicemen candidates upon participating in the selection process.'
+      ]
+    },
+    howToApply: [
+      'Visit the official NRSC website recruitment portal: https://www.nrsc.gov.in/Career_Apply.',
+      'Click on "Online Application for Advt. No. NRSC/RMT/1/2026" between 01.08.2026 (1000 Hrs) and 21.08.2026 (1700 Hrs).',
+      'Fill in personal details, educational qualifications, marks/CGPA, GATE/NET details, and work experience.',
+      'Upload recent passport-size photograph (.jpg/.jpeg, max 40KB, 110x140px) and signature (.jpg/.jpeg, max 20KB, 200x50px).',
+      'Pay application fee of Rs. 250/- online via Bharatkosh payment gateway (enter bank account details for refund if eligible).',
+      'Submit application form and download personalized registration confirmation form containing Name, Registration Number, Advt No, and Post Code.'
+    ],
+    documentsRequired: [
+      'Class 10th / SSC Mark sheet & Passing Certificate (Date of Birth Proof).',
+      'Intermediate / 10+2 / Diploma Certificate & Mark sheets.',
+      'Graduation (B.Sc / B.E / B.Tech) Consolidated Mark sheet & Degree Certificate.',
+      'Post-Graduation (M.Sc / M.E / M.Tech) Consolidated Semester-wise Mark sheets & Degree Certificate.',
+      'Valid GATE / CSIR-UGC NET Qualification Score Card (for JRF post codes JRF30 to JRF35).',
+      'Community / Caste Certificate (SC/ST/OBC-NCL) & EWS Income Certificate in prescribed Govt of India format.',
+      'Disability Certificate (PwBD) / Discharge Certificate (Ex-Servicemen) if claiming fee refund / age relaxation.',
+      'Experience Certificate for Project Associate-II (minimum 2 years R&D experience).',
+      'No Objection Certificate (NOC) if currently employed in Govt / PSU / Autonomous bodies.'
+    ],
+    importantInstructions: [
+      'All degrees must be duly recognized by AICTE / UGC or authorized Government of India bodies.',
+      'Minimum Marks Criteria: Aggregate minimum 60% (or CGPA 6.5/10) for M.E/M.Tech; minimum 65% (or CGPA 6.84/10) for M.Sc / B.E / B.Tech; minimum 60% for B.Sc.',
+      'Candidates pursuing degrees through Open and Distance Learning (ODL) are NOT eligible.',
+      'Rounding off CGPA/percentage marks is not permitted (enter nearest 2 decimal places e.g. 8.23).',
+      'Tenure: Temporary basis for 1 year, extendable up to a maximum of 5 years for JRF/RS based on periodic performance review and project validity.',
+      'Only online applications submitted before 21.08.2026 (1700 Hrs) will be accepted.'
+    ],
+    urls: [
+      { label: 'NRSC Official Online Application Portal', url: 'https://www.nrsc.gov.in/Career_Apply' },
+      { label: 'NRSC Official Website Homepage', url: 'https://www.nrsc.gov.in' },
+      { label: 'Official Notification PDF Download', url: 'https://www.nrsc.gov.in/sites/default/files/NRSC_RMT_1_2026.pdf' }
+    ],
+    faqs: [
+      { question: 'What is the total number of vacancies in NRSC ISRO Recruitment 2026?', answer: 'NRSC ISRO has advertised 48 temporary research positions across Research Scientist (13), Project Associate-I & II (05), Project Scientist-B & I (10), and Junior Research Fellow / JRF (20).' },
+      { question: 'What is the last date to apply online for NRSC ISRO Recruitment 2026?', answer: 'The last date for online registration and submission of application on www.nrsc.gov.in is 21st August 2026 up to 5:00 PM (1700 Hrs).' },
+      { question: 'Is there any application fee refund for women or SC/ST candidates?', answer: 'Yes! The application fee of Rs. 250/- will be 100% fully refunded to all Women candidates, SC/ST, PwBD, and Ex-Servicemen candidates who participate in the selection process.' },
+      { question: 'What is the pay scale / stipend for Research Scientist and JRF in NRSC?', answer: 'Research Scientist / Project Scientist-B & I receive Rs. 56,100/- + HRA + DA. Junior Research Fellow (JRF) receives Rs. 37,000/- + HRA (enhanceable to SRF at Rs. 42,000/- + HRA after 2 years). Project Associate-II receives Rs. 35,000/- + HRA and Project Associate-I receives Rs. 31,000/- + HRA.' },
+      { question: 'Where will selected candidates be posted?', answer: 'Primary posting locations are NRSC Headquarters in Balanagar, Hyderabad and Shadnagar campus (Rangareddy Dist, Telangana). Postings are also available at RRSC North (New Delhi) and RRSC South (Bengaluru), with liability to serve at any NRSC campus across India.' },
+      { question: 'Is GATE or CSIR-UGC NET mandatory for JRF positions?', answer: 'Yes, for JRF post codes JRF30 to JRF35, candidates must have qualified a national level examination such as CSIR-UGC NET (including lectureship/GATE) or national level tests conducted by DST, DBT, DAE, DOS, DRDO, ICAR, ICMR, IIT, IISc, etc.' }
+    ]
+  },
   'sri-jayadeva-institute-assistant-professor-recruitment-2026': {
     id: 'sri-jayadeva-institute-assistant-professor-recruitment-2026',
     seoTitle: 'Sri Jayadeva Institute Recruitment 2026 - Apply for 34 Assistant Professor Posts',

@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'nrsc-isro-research-scientist-project-associate-recruitment-2026',
+    b: 'National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), Dept of Space, Govt of India',
+    t: 'NRSC ISRO Recruitment 2026 – 48 Vacancies for Research Scientist (13), Project Associate (05), Project Scientist-B (08), Project Scientist-I (02) & JRF (20) | Apply Online at nrsc.gov.in from 01 to 21 August 2026',
+    d: '01-08-2026',
+    l: '21-08-2026 (Online Application at nrsc.gov.in)',
+    a: 'Advt. No. NRSC/RMT/1/2026 Dated 01/08/2026',
+    q: 'BE / B.Tech / ME / M.Tech / M.Sc in Remote Sensing, GIS, Computer Science, Geology, Civil, Agriculture, Physics or Equivalent',
+    desc: 'National Remote Sensing Centre (NRSC), ISRO, Department of Space invites online applications for 48 temporary research positions across Hyderabad, New Delhi, Bengaluru, and regional centers. Positions include Research Scientist (13), Project Associate-I & II (05), Project Scientist-B & I (10), and Junior Research Fellow (20). Pay scale up to Rs. 56,100 + HRA. Selection via screening and interview. Apply online at www.nrsc.gov.in between 01/08/2026 and 21/08/2026.',
+    u: 'https://www.nrsc.gov.in'
+  },
+  {
     id: 'sri-jayadeva-institute-assistant-professor-recruitment-2026',
     b: 'Sri Jayadeva Institute of Cardiovascular Sciences & Research (SJICR), Bengaluru, Govt of Karnataka',
     t: 'Sri Jayadeva Institute Recruitment 2026 – 34 Assistant Professor Vacancies in Cardiology, CT Surgery, Electrophysiology, Anaesthesia & Vascular Surgery (Bangalore & Kalaburagi Branches) | Apply Offline by 11 August 2026',
