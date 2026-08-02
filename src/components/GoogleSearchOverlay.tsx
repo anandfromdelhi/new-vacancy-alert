@@ -8,6 +8,7 @@ interface GoogleSearchOverlayProps {
   isOpen: boolean;
   onClose: () => void;
   initialQuery?: string;
+  archiveOnly?: boolean;
 }
 
 interface AdditionalSearchPage {
@@ -16,6 +17,36 @@ interface AdditionalSearchPage {
   category: string;
   path: string;
   subtitle?: string;
+}
+
+function parseDateString(dateStr: string): Date {
+  if (!dateStr || dateStr === '–' || dateStr.trim() === '' || dateStr.toLowerCase().includes('instant')) {
+    return new Date(1970, 0, 1);
+  }
+  const cleanStr = dateStr.replace(/\//g, '-').trim();
+  const parts = cleanStr.split('-');
+  if (parts.length === 3) {
+    const day = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1;
+    const year = parseInt(parts[2], 10);
+    if (!isNaN(day) && !isNaN(month) && !isNaN(year) && year > 1000) {
+      return new Date(year, month, day);
+    }
+  }
+  const nativeParsed = new Date(dateStr);
+  if (!isNaN(nativeParsed.getTime())) {
+    return nativeParsed;
+  }
+  return new Date(1970, 0, 1);
+}
+
+function isJobExpired(lastDateStr: string): boolean {
+  if (!lastDateStr) return false;
+  const parsed = parseDateString(lastDateStr);
+  if (parsed.getFullYear() < 2000) return false;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return parsed < today;
 }
 
 const ADDITIONAL_PAGES: AdditionalSearchPage[] = [
@@ -76,10 +107,22 @@ const TRENDING_SEARCHES = [
   'Anganwadi Helper UP'
 ];
 
+const ARCHIVED_TRENDING_SEARCHES = [
+  'Thane Municipal Corporation',
+  'Davanagere DHFWS Nurse',
+  'Vijayapura DHFWS',
+  'RVUNL Rajasthan Power',
+  'Delhi RTRMH Senior Resident',
+  'Jamui DCPU Support Person',
+  'PMMH Delhi Senior Resident',
+  'ICAI Executive Officer'
+];
+
 export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   isOpen,
   onClose,
-  initialQuery = ''
+  initialQuery = '',
+  archiveOnly = false
 }) => {
   const [query, setQuery] = useState(initialQuery);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -89,9 +132,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   useEffect(() => {
     if (isOpen) {
       setQuery(initialQuery);
-      // Disable scrolling on background body
       document.body.style.overflow = 'hidden';
-      // Auto-focus input
       setTimeout(() => {
         inputRef.current?.focus();
       }, 50);
@@ -104,7 +145,6 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
     };
   }, [isOpen, initialQuery]);
 
-  // Handle ESC key press
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && isOpen) {
@@ -119,9 +159,14 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
 
   const cleanQuery = query.trim().toLowerCase();
 
+  // Target jobs pool: If archiveOnly is true, ONLY include expired jobs
+  const jobsPool = archiveOnly
+    ? JOBS_DATA.filter(job => isJobExpired(job.l))
+    : JOBS_DATA;
+
   // Search logic for jobs
   const jobResults = cleanQuery
-    ? JOBS_DATA.filter(job => {
+    ? jobsPool.filter(job => {
         const board = (job.b || '').toLowerCase();
         const title = (job.t || '').toLowerCase();
         const qual = (job.q || '').toLowerCase();
@@ -140,8 +185,8 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
       }).slice(0, 20)
     : [];
 
-  // Search logic for additional pages
-  const pageResults = cleanQuery
+  // Search logic for additional pages (disabled when archiveOnly is true)
+  const pageResults = (!archiveOnly && cleanQuery)
     ? ADDITIONAL_PAGES.filter(p => 
         p.title.toLowerCase().includes(cleanQuery) ||
         p.category.toLowerCase().includes(cleanQuery) ||
@@ -225,7 +270,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search jobs, board, qualification..."
+            placeholder={archiveOnly ? "Search archived recruitments (closed applications)..." : "Search jobs, board, qualification..."}
             className="w-full bg-transparent text-slate-900 text-sm sm:text-base font-semibold placeholder-slate-400 focus:outline-none"
           />
           {query && (
@@ -250,19 +295,19 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
           /* Empty Query State: Show Trending Searches & Quick Badges */
           <div className="p-4 sm:p-6 max-w-2xl mx-auto space-y-6">
             <div>
-              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-blue-600 mb-3">
-                <TrendingUp className="w-4 h-4" />
-                <span>Trending Searches in India</span>
+              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-600 mb-3">
+                <TrendingUp className="w-4 h-4 text-amber-600" />
+                <span>{archiveOnly ? 'Trending Archived Recruitments' : 'Trending Searches in India'}</span>
               </div>
               <div className="space-y-1">
-                {TRENDING_SEARCHES.map((term) => (
+                {(archiveOnly ? ARCHIVED_TRENDING_SEARCHES : TRENDING_SEARCHES).map((term) => (
                   <button
                     key={term}
                     onClick={() => handleTrendingClick(term)}
-                    className="w-full text-left flex items-center justify-between py-2.5 px-3 rounded-xl bg-white hover:bg-blue-50/80 text-slate-800 hover:text-blue-700 transition group border border-slate-200/80 hover:border-blue-200 shadow-2xs cursor-pointer"
+                    className="w-full text-left flex items-center justify-between py-2.5 px-3 rounded-xl bg-white hover:bg-amber-50/80 text-slate-800 hover:text-amber-800 transition group border border-slate-200/80 hover:border-amber-200 shadow-2xs cursor-pointer"
                   >
                     <div className="flex items-center gap-3 min-w-0">
-                      <Search className="w-4 h-4 text-slate-400 group-hover:text-blue-600 shrink-0" />
+                      <Search className="w-4 h-4 text-slate-400 group-hover:text-amber-600 shrink-0" />
                       <span className="text-sm font-bold truncate">{term}</span>
                     </div>
                     <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 shrink-0" />

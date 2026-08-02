@@ -26,7 +26,7 @@ const MarketingDashboardPage = lazy(() => import('./pages/marketing/MarketingDas
 const MarketingTermsPage = lazy(() => import('./pages/marketing/MarketingTermsPage'));
 const AdminPage = lazy(() => import('./pages/AdminPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
-
+const ArchivesPage = lazy(() => import('./pages/ArchivesPage'));
 
 // A lightweight loading spinner fallback
 function PageLoader() {
@@ -50,6 +50,7 @@ export default function App() {
                 <Route path="/" element={<MainLayout />}>
                   <Route index element={<HomePage />} />
                   <Route path="index.html" element={<Navigate to="/" replace />} />
+                  <Route path="archives" element={<ArchivesPage />} />
                   <Route path="articles" element={<ArticlesPage />} />
                   <Route path="about" element={<AboutPage />} />
                   <Route path="contact" element={<ContactPage />} />

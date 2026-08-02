@@ -395,8 +395,8 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { label: 'Age Limit', value: '20 to 28 Years as on 01.08.2026 (SC/ST: 33 Yrs | OBC: 31 Yrs | PwBD: 38 Yrs)' },
       { label: 'Application Fee', value: 'Rs. 850 for General/OBC/EWS | Rs. 175 for SC/ST/PwBD/ESM' },
       { label: 'Online Application Dates', value: '01 August 2026 to 21 August 2026' },
-      { event: 'Prelims Exam Date', value: 'October 2026' },
-      { event: 'Mains Exam Date', value: 'December 2026' },
+      { label: 'Prelims Exam Date', value: 'October 2026' },
+      { label: 'Mains Exam Date', value: 'December 2026' },
       { label: 'Official Website', value: 'https://www.ibps.in' }
     ],
     importantDates: [

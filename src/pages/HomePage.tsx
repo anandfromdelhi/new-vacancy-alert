@@ -9,7 +9,7 @@ import {
   Search, Calendar, Briefcase, FileText, CheckCircle2, ChevronRight, ChevronDown,
   Clock, ArrowRight, Building2, ShieldAlert, Rocket, BookOpen, Users, 
   AlertCircle, Filter, Sparkles, RotateCcw, ArrowUp, LayoutGrid, TableProperties, HelpCircle,
-  Facebook, Instagram, Globe, Flag, MapPin
+  Facebook, Instagram, Globe, Flag, MapPin, Archive
 } from 'lucide-react';
 
 function getCategoryAndColor(board: string, title: string) {
@@ -264,12 +264,31 @@ export default function HomePage() {
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
   const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
   const [visibleCount, setVisibleCount] = useState<number>(5);
+  const [isArchiveOpen, setIsArchiveOpen] = useState(false);
+  const [archiveSearch, setArchiveSearch] = useState('');
+  const [archiveVisibleCount, setArchiveVisibleCount] = useState(5);
   const navigate = useNavigate();
 
   // Active non-expired jobs list
   const activeJobsData = useMemo(() => {
     return JOBS_DATA.filter(job => !isJobExpired(job.l));
   }, []);
+
+  // Expired / Archived jobs list
+  const expiredJobsData = useMemo(() => {
+    return JOBS_DATA.filter(job => isJobExpired(job.l));
+  }, []);
+
+  const filteredExpiredJobs = useMemo(() => {
+    if (!archiveSearch.trim()) return expiredJobsData;
+    const term = archiveSearch.toLowerCase();
+    return expiredJobsData.filter(job =>
+      job.b.toLowerCase().includes(term) ||
+      job.t.toLowerCase().includes(term) ||
+      job.q.toLowerCase().includes(term) ||
+      job.a.toLowerCase().includes(term)
+    );
+  }, [expiredJobsData, archiveSearch]);
 
   // Region Scope counts for filtering
   const scopeCounts = useMemo(() => {
@@ -968,6 +987,36 @@ export default function HomePage() {
                 )}
               </div>
             </div>
+
+          {/* Archives Section Card */}
+          <Link
+            to="/archives"
+            className="block group bg-slate-900 hover:bg-slate-900/95 border-2 border-slate-800 hover:border-amber-500/50 rounded-2xl p-5 sm:p-6 text-white shadow-xl mt-8 transition-all duration-200 cursor-pointer"
+          >
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-start sm:items-center gap-3.5">
+                <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 shrink-0 group-hover:scale-105 transition-transform">
+                  <Archive className="h-6 w-6" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2.5 flex-wrap">
+                    <h2 className="text-base sm:text-lg font-black text-slate-100 tracking-tight group-hover:text-amber-300 transition-colors">
+                      Archives <span className="text-slate-400 text-xs sm:text-sm font-semibold">(recruitments whose last date to apply have passed)</span>
+                    </h2>
+                  </div>
+                  <p className="text-xs font-medium text-slate-400 mt-1 flex items-center gap-2">
+                    <span className="inline-block w-2 h-2 rounded-full bg-rose-400"></span>
+                    Browse and search through {expiredJobsData.length} archived recruitment notifications.
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full sm:w-auto px-5 py-2.5 bg-amber-500/10 group-hover:bg-amber-500 text-amber-300 group-hover:text-slate-950 font-extrabold text-xs rounded-xl border border-amber-500/30 transition-all flex items-center justify-center gap-2 shrink-0 shadow-xs">
+                <span>Open Archives Subpage</span>
+                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </Link>
 
           {/* SEO Information & FAQ Section for Search Engine Optimization */}
           <section className="bg-white border-2 border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-6 mt-8">
