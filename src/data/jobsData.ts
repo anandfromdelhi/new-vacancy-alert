@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'mecl-executive-trainee-upsc-ese-recruitment-2026',
+    b: 'Mineral Exploration and Consultancy Limited (MECL), Nagpur',
+    t: 'MECL Executive Trainee Recruitment 2026 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers through UPSC ESE 2024 Score (Pay Scale ₹40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026',
+    d: '03-08-2026',
+    l: '14-08-2026',
+    a: 'Advertisement No. 02/Rectt./2026',
+    q: 'B.E./B.Tech (Electrical / Mechanical 60% Marks) + Appeared in UPSC ESE 2024 Interview (Age Max 28 Yrs, Fee ₹500)',
+    desc: 'Mineral Exploration and Consultancy Limited (MECL), a Mini-Ratna-I CPSE under Ministry of Mines, invites online applications for recruitment of 13 Executive Trainees (Mechanical & Electrical) in E-1 Grade. Shortlisting based on UPSC ESE 2024 Marks (out of 1200). Pay Scale: Rs. 40,000 - 1,40,000. Apply online at mecl.co.in from 01.08.2026 to 14.08.2026.',
+    u: 'https://www.mecl.co.in'
+  },
+  {
     id: 'jkpsc-assistant-professor-recruitment-2026',
     b: 'Jammu and Kashmir Public Service Commission (JKPSC), J&K',
     t: 'JKPSC Assistant Professor & Librarian Recruitment 2026 (Notification 05-PSC of 2026) – 205 Vacancies in Govt Degree Colleges (Pay Level-10 ₹57,700-1,82,400) | Apply Online at jkpsc.nic.in by 31 August 2026',

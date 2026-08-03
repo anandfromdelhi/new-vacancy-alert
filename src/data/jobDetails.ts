@@ -58,6 +58,130 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'mecl-executive-trainee-upsc-ese-recruitment-2026': {
+    id: 'mecl-executive-trainee-upsc-ese-recruitment-2026',
+    seoTitle: 'MECL Executive Trainee Recruitment 2026 Notification, 13 Vacancies, UPSC ESE Score, Apply Online | NewVacancyAlert',
+    seoDescription: 'MECL recruitment 2026 notification out for 13 Executive Trainee (Mechanical & Electrical) posts through UPSC ESE 2024 Score (Advt 02/Rectt./2026). Check B.E/B.Tech eligibility, Pay Scale Rs. 40000-140000 (E-1 Grade), apply online at mecl.co.in by 14 August 2026.',
+    focusKeywords: 'MECL Executive Trainee Recruitment 2026, MECL UPSC ESE 2026 Vacancy, MECL Mechanical Electrical Engineer Online Form, MECL E-1 Pay Scale 40000 140000, mecl co in',
+    lsiKeywords: 'Mineral Exploration and Consultancy Limited Recruitment, MECL ET Mechanical 2026, MECL ET Electrical Nagpur, UPSC ESE 2024 Score PSU Jobs, Ministry of Mines PSU Recruitment 2026',
+    title: 'MECL Executive Trainee Recruitment 2026 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers through UPSC ESE 2024 Score (Pay Scale ₹40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026',
+    board: 'Mineral Exploration and Consultancy Limited (MECL), Nagpur, Ministry of Mines, Govt of India',
+    advtNo: 'Advertisement No. 02/Rectt./2026',
+    vacancies: 13,
+    jobLocation: 'Anywhere in India (MECL Projects, Offices & Establishments)',
+    applicationMode: 'Online Application Form (MECL Online Recruitment Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Mineral Exploration and Consultancy Limited (MECL), a Mini-Ratna-I Central Public Sector Enterprise (CPSE) under the Ministry of Mines, Government of India, has issued official Advertisement No. 02/Rectt./2026 for recruitment of Executive Trainees in Electrical and Mechanical engineering disciplines.',
+      'A total of 13 Executive Trainee (E-1 Grade) vacancies are being filled through Direct Recruitment based strictly on the UPSC Engineering Services Examination 2024 (UPSC ESE 2024) score out of 1200 marks. Candidates who cleared UPSC ESE 2024 Written Examination and appeared for Interview (under UPSC Public Disclosure Scheme) are eligible.',
+      'Selected candidates will be appointed in the E-1 IDA Pay Scale of Rs. 40,000 – Rs. 1,40,000/- with initial basic pay of Rs. 40,000/- per month. Interested engineering graduates can apply online at www.mecl.co.in from 01 August 2026 to 14 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruitment Enterprise', value: 'Mineral Exploration and Consultancy Limited (MECL) (Mini-Ratna-I CPSE)' },
+      { label: 'Ministry', value: 'Ministry of Mines, Government of India' },
+      { label: 'Advertisement Number', value: 'Advertisement No. 02/Rectt./2026' },
+      { label: 'Selection Mechanism', value: 'UPSC Engineering Services Examination 2024 (ESE 2024 Score out of 1200)' },
+      { label: 'Post Names', value: 'Executive Trainee (Electrical) & Executive Trainee (Mechanical)' },
+      { label: 'Total Vacancies', value: '13 Posts (Electrical: 1 | Mechanical: 12 across 3 divisions)' },
+      { label: 'Grade & Pay Scale', value: 'E-1 Grade (Pay Scale: Rs. 40,000 – Rs. 1,40,000/-)' },
+      { label: 'Educational Qualification', value: 'B.E. / B.Tech in Electrical / Mechanical Engineering (Min 60% Marks) + UPSC ESE 2024 Interviewed' },
+      { label: 'Upper Age Limit', value: 'Maximum 28 Years for UR (as on 01.08.2026)' },
+      { label: 'Application Fee', value: 'General / OBC / EWS: Rs. 500/- | SC / ST / PwD / Ex-SM: NIL' },
+      { label: 'Service Bond', value: 'Rs. 1.8 Lakhs bond to serve for minimum 36 months' },
+      { label: 'Online Application Dates', value: '01 August 2026 to 14 August 2026' },
+      { label: 'Official Website', value: 'https://www.mecl.co.in | https://meclsphere.co.in' }
+    ],
+    importantDates: [
+      { event: 'Crucial Date of Reckoning for Age & Eligibility', date: '01 August 2026' },
+      { event: 'Commencement of Online Application on MECL Portal', date: '01 August 2026' },
+      { event: 'Closing Date for Submitting Online Application Form', date: '14 August 2026' },
+      { event: 'Document Verification & Offer Letter', date: 'To be notified on MECL career portal' }
+    ],
+    vacanciesDetails: [
+      { category: 'Executive Trainee (Electrical) - Post Code 1', count: '01 Post (UR: 1)' },
+      { category: 'Executive Trainee (Mechanical) - Procurement & Contract Division - Post Code 2', count: '05 Posts (UR: 3, OBC: 1, SC: 1; PwD: 1)' },
+      { category: 'Executive Trainee (Mechanical) - Store & Disposal Division - Post Code 3', count: '02 Posts (UR: 2)' },
+      { category: 'Executive Trainee (Mechanical) - Drilling Division - Post Code 4', count: '05 Posts (UR: 3, OBC: 1, SC: 1)' },
+      { category: 'Total Vacancies', count: '13 Posts (UR: 9, OBC: 2, SC: 2)' }
+    ],
+    eligibility: {
+      education: [
+        'Executive Trainee (Electrical): Full-time B.E. / B.Tech in Electrical Engineering or Electrical & Electronics Engineering with minimum 60% aggregate marks from a recognized UGC/AICTE approved University/Institute.',
+        'Executive Trainee (Mechanical): Full-time B.E. / B.Tech in Mechanical Engineering with minimum 60% aggregate marks from a recognized UGC/AICTE approved University/Institute.',
+        'UPSC ESE 2024 Mandatory Criterion: Candidate MUST have cleared the Written Round of UPSC Engineering Services Examination 2024 (Mechanical/Electrical), appeared for the UPSC ESE 2024 Interview, and opted to share marks under UPSC Public Disclosure Scheme (PDS).'
+      ],
+      ageLimit: 'Maximum 28 Years for Unreserved (UR) candidates as on 01 August 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years relaxation (Up to 33 Years)' },
+        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years relaxation (Up to 31 Years)' },
+        { category: 'Persons with Benchmark Disabilities (PwD General)', relaxation: '10 Years relaxation (Up to 38 Years)' },
+        { category: 'PwD (OBC-NCL)', relaxation: '13 Years relaxation (Up to 41 Years)' },
+        { category: 'PwD (SC/ST)', relaxation: '15 Years relaxation (Up to 43 Years)' }
+      ],
+      experience: [
+        'NIL / Freshers allowed (No post-qualification experience required).'
+      ]
+    },
+    salary: {
+      payLevel: 'E-1 Grade IDA Pay Scale',
+      initialPay: 'Rs. 40,000/- per month (Basic Pay during 1-year training)',
+      allowances: [
+        'Pay Scale E-1 Grade: Rs. 40,000 – Rs. 1,40,000/-',
+        'Industrial Dearness Allowance (IDA), House Rent Allowance (HRA), Cafeteria Allowances, Provident Fund (PF), NPS, Performance Related Pay (PRP)',
+        'Group Medical & Personal Accident Insurance, Term Insurance, Two/Four-wheeler loan, and House Building Advance (HBA)'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS Candidates', fee: 'Rs. 500/-', refund: 'Non-refundable' },
+      { category: 'SC / ST / PwD / Ex-Servicemen / Internal MECL Candidates', fee: 'NIL / Exempted', refund: 'No fee payable' }
+    ],
+    howToPayFee: [
+      'Pay application fee of Rs. 500/- online through Net Banking / Online Payment into MECL Bank Account or by scanning QR Code on MECL website Careers section.'
+    ],
+    selectionProcess: [
+      { stage: 'UPSC ESE 2024 Score Shortlisting', description: 'Candidates will be shortlisted strictly in decreasing order of total marks scored (out of 1200) in UPSC Engineering Services Examination 2024 for Electrical/Mechanical streams.' },
+      { stage: 'No Separate Test or Interview', description: 'MECL will NOT conduct any separate written examination or interview. Selection is 100% based on UPSC ESE 2024 score.' },
+      { stage: 'Document Verification (DV)', description: 'Shortlisted candidates will be called for Document Verification to verify UPSC ESE 2024 scorecard, B.E/B.Tech degree, and age/category certificates.' },
+      { stage: 'Medical Fitness Examination', description: 'Appointment is subject to being certified medically fit by a Govt Medical Officer / CMO of Govt Hospital.' }
+    ],
+    howToApply: [
+      'Visit the official MECL website at www.mecl.co.in and navigate to "CAREER" section (https://www.mecl.co.in/Careers.aspx or meclsphere.co.in).',
+      'Register on the MECL Online Recruitment Portal using your valid email ID and mobile number.',
+      'Fill in personal details, academic qualifications (B.E/B.Tech percentage), and UPSC ESE 2024 Roll Number & Scorecard details.',
+      'Upload required documents: Recent colour photo (< 50 KB), Signature (< 20 KB), Category/PwD certificate (PDF < 300 KB), UPSC ESE 2024 Scorecard (PDF < 300 KB), ID Proof (PDF < 300 KB), and Fee Payment Proof.',
+      'Pay the application fee of Rs. 500/- online (for General/OBC/EWS) into MECL Bank Account.',
+      'Submit the online application form and take a printout of the generated application form for future reference.'
+    ],
+    documentsRequired: [
+      'Recent Passport Size Colour Photograph (JPG/JPEG, < 50 KB, 170x132 px)',
+      'Scanned Signature on white background (JPG/JPEG, < 20 KB, 75x170 px)',
+      'Valid UPSC ESE 2024 Scorecard / Result showing Roll No & Marks out of 1200 (PDF < 300 KB)',
+      'B.E. / B.Tech Engineering Degree Certificate & Marksheets showing min 60% aggregate',
+      'Matriculation / 10th Certificate (Age Proof)',
+      'Government ID Proof (Aadhaar Card / PAN Card / Driving Licence)',
+      'Valid Caste / Category Certificate (SC/ST/OBC-NCL/EWS) in Central Govt format',
+      'Proof of Payment of Application Fee (PDF < 300 KB)'
+    ],
+    importantInstructions: [
+      'Only candidates who appeared for UPSC ESE 2024 Interview and consented to share marks under PDS are eligible.',
+      'The crucial date for age, qualification, and category certificates is 01 August 2026.',
+      'Selected candidates must execute a service bond of Rs. 1.8 Lakhs to serve MECL for a minimum period of 36 months.',
+      'Deduction of Rs. 5,000/- per month as retention amount will be made from monthly salary for 36 months (refundable after 3 yrs).',
+      'Selected Executive Trainees undergo 1-year training and can be posted at any MECL project office across India.'
+    ],
+    urls: [
+      { label: 'MECL Careers Portal', url: 'https://www.mecl.co.in/Careers.aspx' },
+      { label: 'MECL Official Website', url: 'https://www.mecl.co.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for MECL Executive Trainee recruitment 2026?', answer: 'The last date to submit online application forms on www.mecl.co.in is 14 August 2026.' },
+      { question: 'Is there any separate exam or interview conducted by MECL?', answer: 'No, shortlisting is done 100% based on the UPSC Engineering Services Examination 2024 (UPSC ESE 2024) score (out of 1200 marks).' },
+      { question: 'What is the salary scale for MECL Executive Trainee (E-1 Grade)?', answer: 'Selected ETs get initial basic pay of Rs. 40,000/- per month during training in the pay scale of Rs. 40,000 – Rs. 1,40,000/- plus IDA, HRA, and perks.' },
+      { question: 'Is there a service bond for MECL Executive Trainees?', answer: 'Yes, candidates must execute a service bond of Rs. 1.8 Lakhs to serve the company for a minimum of 36 months.' },
+      { question: 'What is the application fee for MECL Executive Trainee 2026?', answer: 'Application fee is Rs. 500/- for General, OBC, and EWS candidates. SC, ST, PwD, and Ex-SM candidates are exempted.' }
+    ]
+  },
   'jkpsc-assistant-professor-recruitment-2026': {
     id: 'jkpsc-assistant-professor-recruitment-2026',
     seoTitle: 'JKPSC Assistant Professor Recruitment 2026 Notification, 205 Vacancies, Pay Level-10, Apply Online | NewVacancyAlert',
