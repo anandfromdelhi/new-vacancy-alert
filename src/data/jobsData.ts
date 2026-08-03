@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'amtron-assam-unified-portal-recruitment-2026',
+    b: 'Assam Electronics Development Corporation Ltd. (AMTRON), Guwahati',
+    t: 'AMTRON Assam Recruitment 2026 (Advt AEDC/HRD/AUP/672) – 15 IT Vacancies for Developers, DBA, Content Manager & Graphic Designer (Salary up to ₹90,000/pm) | Apply Online at recruitment.amtron.in by 12 August 2026',
+    d: '03-08-2026',
+    l: '12-08-2026',
+    a: 'Advt. No. AEDC/HRD/AUP/Adv./672 Dated 24-07-2026',
+    q: 'BE/B.Tech (CS/IT) / MCA / M.Sc (IT) / BCA / Graduate / Diploma + 3 Yrs Exp (No Application Fee, Age 21-38 Yrs)',
+    desc: 'Assam Electronics Development Corporation Limited (AMTRON) invites online applications for contractual engagement of 15 IT & Content Personnel under the Assam Unified Portal (AUP) Project. Posts: Frontend Developer, Backend Developer, Drupal Headless CMS Developer, Database Administrator, Content Manager & Graphic Designer. Salary: Rs. 35,000 to Rs. 90,000/pm. No application fee. Apply online at recruitment.amtron.in by 12 August 2026.',
+    u: 'https://recruitment.amtron.in'
+  },
+  {
     id: 'gsssb-horticulture-assistant-recruitment-2026',
     b: 'Gujarat Subordinate Service Selection Board (GSSSB), Gujarat',
     t: 'GSSSB Horticulture Assistant Recruitment 2026 (Advt 454/2026-27) – 100 Vacancies in Agriculture & Farmers Welfare Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 17 August 2026',

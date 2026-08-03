@@ -58,6 +58,135 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'amtron-assam-unified-portal-recruitment-2026': {
+    id: 'amtron-assam-unified-portal-recruitment-2026',
+    seoTitle: 'AMTRON Recruitment 2026 Notification, 15 IT Vacancies, Salary up to Rs 90000, Apply Online | NewVacancyAlert',
+    seoDescription: 'AMTRON recruitment 2026 notification out for 15 Developer, DBA, Content Manager & Graphic Designer posts under Assam Unified Portal Project (Advt 672). Check BE/B.Tech/MCA eligibility, salary up to Rs 90000/pm, no application fee, apply online at recruitment.amtron.in.',
+    focusKeywords: 'AMTRON Recruitment 2026, Assam Electronics Development Corporation IT Jobs, AMTRON Assam Unified Portal Vacancy 2026, AMTRON Developer DBA Content Manager Online Form, recruitment amtron in',
+    lsiKeywords: 'AMTRON Guwahati Jobs 2026, AMTRON Frontend Backend Developer Salary 85000, AMTRON DBA Salary 90000, AMTRON Drupal CMS Developer Assam, Govt of Assam IT Contractual Jobs',
+    title: 'AMTRON Assam Recruitment 2026 (Advt AEDC/HRD/AUP/672) – 15 IT Vacancies for Developers, DBA, Content Manager & Graphic Designer (Salary up to ₹90,000/pm) | Apply Online at recruitment.amtron.in by 12 August 2026',
+    board: 'Assam Electronics Development Corporation Ltd. (AMTRON), Guwahati, Government of Assam',
+    advtNo: 'Notice No: AEDC/HRD/AUP/Adv./672 Dated 24.07.2026',
+    vacancies: 15,
+    jobLocation: 'Guwahati, Assam (AMTRON Headquarters & Project Locations)',
+    applicationMode: 'Online Application Form (AMTRON Recruitment Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Assam Electronics Development Corporation Limited (AMTRON), Guwahati, has issued official Recruitment Notice No. AEDC/HRD/AUP/Adv./672 for contractual engagement of technical and content management personnel under the Assam Unified Portal (AUP) Project, Department of Information Technology, Government of Assam.',
+      'A total of 15 contractual posts are open for Frontend Developers, Backend Developers, Drupal Headless CMS Developers, Database Administrators, Content Managers, and Graphic Designers. The engagement is initially for 11 months, extendable annually up to 3 years based on performance.',
+      'Selected IT professionals will receive competitive monthly salaries ranging from Rs. 35,000/- up to Rs. 90,000/- per month. There is NO application fee for any candidate. Eligible candidates can apply online at recruitment.amtron.in on or before 12 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruitment Corporation', value: 'Assam Electronics Development Corporation Ltd. (AMTRON), Guwahati' },
+      { label: 'Project Name', value: 'Assam Unified Portal (AUP) Project (IT Department, Govt of Assam)' },
+      { label: 'Notice Reference Number', value: 'No: AEDC/HRD/AUP/Adv./672' },
+      { label: 'Total Vacancies', value: '15 Posts across 6 Professional Roles' },
+      { label: 'Monthly Remuneration', value: 'Rs. 35,000/- to Rs. 90,000/- per month (Role specific)' },
+      { label: 'Tenure of Engagement', value: 'Contractual for 11 months initially, extendable up to 3 years' },
+      { label: 'Educational Qualification', value: 'BE/B.Tech (CS/IT) / MCA / M.Sc (IT) / BCA / Graduate / Graphic Diploma + Min 3 Yrs Exp' },
+      { label: 'Age Limit', value: '21 to 38 Years (as on 01.01.2026)' },
+      { label: 'Application Fee', value: 'NIL / Free for All Candidates' },
+      { label: 'Selection Mode', value: 'Shortlisting + Technical/Practical Assessment & Viva-Voce / Portfolio Review' },
+      { label: 'Online Application Dates', value: '29 July 2026 to 12 August 2026' },
+      { label: 'Posting Location', value: 'Bamunimaidan, Guwahati, Assam' },
+      { label: 'Official Portal', value: 'https://recruitment.amtron.in | https://amtron.in' }
+    ],
+    importantDates: [
+      { event: 'Official Recruitment Notice Date', date: '24 July 2026' },
+      { event: 'Opening Date for Submission of Online Application', date: '29 July 2026' },
+      { event: 'Last Date for Submission of Online Application', date: '12 August 2026' },
+      { event: 'Technical Assessment & Viva-Voce / Portfolio Review', date: 'To be intimated to shortlisted candidates via email' }
+    ],
+    vacanciesDetails: [
+      { category: 'Frontend Developer / Sr. Frontend Developer (React JS)', count: '02 Posts (Salary: Rs. 35,000 - Rs. 85,000/pm)' },
+      { category: 'Backend Developer / Sr. Backend Developer (Python FastAPI)', count: '02 Posts (Salary: Rs. 35,000 - Rs. 85,000/pm)' },
+      { category: 'CMS Developer / Sr. CMS Developer (Drupal Headless)', count: '02 Posts (Salary: Rs. 45,000 - Rs. 85,000/pm)' },
+      { category: 'Content Manager (CMS / GIGW 3.0)', count: '05 Posts (Salary: Rs. 35,000 - Rs. 55,000/pm)' },
+      { category: 'Database Administrator / Sr. Database Administrator (MySQL / Postgres)', count: '02 Posts (Salary: Rs. 60,000 - Rs. 90,000/pm)' },
+      { category: 'Graphic Designer (Figma / Photoshop / UI Design)', count: '02 Posts (Salary: Rs. 35,000 - Rs. 55,000/pm)' },
+      { category: 'Total Vacancies', count: '15 Posts' }
+    ],
+    eligibility: {
+      education: [
+        'Frontend / Backend / CMS Developer: BE/B.Tech in CS/IT/equivalent, MCA, M.Sc (IT), or equivalent with min 3 years relevant experience (min 5 years for Sr. level).',
+        'Database Administrator: BE/B.Tech in CS/IT/equivalent, MCA, M.Sc (IT), or BCA with relevant certification with min 3 years experience (min 5 years for Sr. level).',
+        'Content Manager: Graduate in Mass Communication, Journalism, English, or IT with mandatory working knowledge of CMS platforms and min 3 years experience in content management/digital publishing.',
+        'Graphic Designer: Degree/Diploma in Graphic Design, Fine Arts, Visual Communication or equivalent with min 3 years experience in web/digital design.'
+      ],
+      ageLimit: 'Minimum 21 Years and Maximum 38 Years as on 1st January 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST (H) / ST (P) Candidates', relaxation: '5 Years relaxation (Up to 43 Years)' },
+        { category: 'OBC / MOBC Candidates', relaxation: '3 Years relaxation (Up to 41 Years)' },
+        { category: 'Persons with Disabilities (PwD)', relaxation: '10 Years relaxation (Up to 48 Years)' }
+      ],
+      experience: [
+        'Minimum 3 years relevant post-qualification experience required for all posts (Minimum 5 years for Senior-level designation).'
+      ]
+    },
+    salary: {
+      payLevel: 'Monthly Pay Band Structure (Based on Skill & Experience)',
+      initialPay: 'Rs. 35,000/- to Rs. 90,000/- per month',
+      allowances: [
+        'Frontend Developer / Sr. Frontend Developer: Rs. 35,000 to Rs. 85,000/- per month',
+        'Backend Developer / Sr. Backend Developer: Rs. 35,000 to Rs. 85,000/- per month',
+        'CMS Developer / Sr. CMS Developer (Drupal): Rs. 45,000 to Rs. 85,000/- per month',
+        'Content Manager: Rs. 35,000 to Rs. 55,000/- per month',
+        'Database Administrator / Sr. Database Administrator: Rs. 60,000 to Rs. 90,000/- per month',
+        'Graphic Designer: Rs. 35,000 to Rs. 55,000/- per month'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates (General / OBC / SC / ST / PwD / Women)', fee: 'NIL / Free', refund: 'No fee payable' }
+    ],
+    howToPayFee: [
+      'No application fee is required to be paid for AMTRON recruitment.'
+    ],
+    selectionProcess: [
+      { stage: 'Initial Shortlisting', description: 'Screening of applications based on eligibility, qualifications, and relevant experience.' },
+      { stage: 'Technical / Practical Assessment (For Developer & DBA Posts)', description: 'Hands-on practical test evaluating coding skills (React, Python FastAPI, Drupal, MySQL/Postgres).' },
+      { stage: 'Portfolio / Work Sample Review (For Content Manager & Graphic Designer)', description: 'Evaluation of digital design portfolio, published content, and GIGW 3.0 compliance understanding.' },
+      { stage: 'Viva-Voce / Personal Interview', description: 'Interactive interview by the Selection Committee to assess technical proficiency and domain knowledge.' },
+      { stage: 'Background & Police Verification', description: 'Verification of original academic/experience certificates and police background check before joining.' }
+    ],
+    howToApply: [
+      'Visit the official AMTRON recruitment portal at https://recruitment.amtron.in.',
+      'Click on "Register" to create your account using email ID and mobile number.',
+      'Log in using your Registration Number and Date of Birth.',
+      'Fill in personal details, educational qualifications, and work experience details accurately.',
+      'Upload required documents: Age proof (10th admit/cert), recent photograph (< 100 KB), signature (< 100 KB), Photo ID proof, Address proof, Academic certificates, and Work experience certificates (PDF < 2 MB).',
+      'Review your application details thoroughly and submit the online application form.',
+      'Download and print the computer-generated acknowledgment page for future reference.'
+    ],
+    documentsRequired: [
+      '10th Standard Admit Card / Certificate or Birth Certificate (Age Proof)',
+      'Latest passport-size photograph (JPG/JPEG, < 100 KB)',
+      'Scanned copy of signature (JPG/JPEG, < 100 KB)',
+      'Photo ID Proof (Aadhaar Card / Voter ID / PAN Card / Passport / Driving Licence)',
+      'Address Proof (Aadhaar / Voter ID / Utility Bill)',
+      'Educational Qualification Marksheets & Degree Certificates (10th onwards)',
+      'Work Experience Certificate(s) issued by previous employers',
+      'Caste / Category Certificate (if applicable)'
+    ],
+    importantInstructions: [
+      'Preference will be given to candidates having Assam domicile.',
+      'No application fee is charged for this recruitment.',
+      'Employment is purely contractual under the AUP Project initially for 11 months, extendable up to 3 years.',
+      'Assignment of "Senior" designation requires a minimum of 5 years relevant post-qualification experience.',
+      'Keep your email ID and mobile number active as all interview call letters and updates will be communicated online.'
+    ],
+    urls: [
+      { label: 'AMTRON Official Online Application Portal', url: 'https://recruitment.amtron.in' },
+      { label: 'AMTRON Official Website', url: 'https://amtron.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for AMTRON IT recruitment 2026?', answer: 'The last date to submit online application forms on recruitment.amtron.in is 12 August 2026.' },
+      { question: 'Is there any application fee for AMTRON recruitment 2026?', answer: 'No, there is NO application fee for any candidate applying for these posts.' },
+      { question: 'What are the posts available under AMTRON AUP project?', answer: 'The 15 posts include Frontend Developer (2), Backend Developer (2), Headless Drupal CMS Developer (2), Content Manager (5), Database Administrator (2), and Graphic Designer (2).' },
+      { question: 'What is the maximum salary offered in AMTRON recruitment?', answer: 'Database Administrators receive up to Rs. 90,000/- per month, while Developers can get up to Rs. 85,000/- per month based on technical assessment and experience.' },
+      { question: 'What is the selection process for AMTRON recruitment?', answer: 'Shortlisting of candidates followed by Technical/Practical Assessment & Viva-Voce for Developer/DBA posts, and Portfolio Review & Viva-Voce for Content Manager and Graphic Designer posts.' }
+    ]
+  },
   'gsssb-horticulture-assistant-recruitment-2026': {
     id: 'gsssb-horticulture-assistant-recruitment-2026',
     seoTitle: 'GSSSB Horticulture Assistant Recruitment 2026 Notification, 100 Vacancies, Syllabus, Pay, Apply Online | NewVacancyAlert',
