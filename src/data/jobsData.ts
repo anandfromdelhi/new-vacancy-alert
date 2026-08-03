@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'du-professor-associate-professor-recruitment-2026',
+    b: 'University of Delhi (DU), Delhi',
+    t: 'DU Professor & Associate Professor Recruitment 2026 (Advt 321/2026 & 322/2026) – 86 Teaching Vacancies in 9 Departments (Pay Level 13A & 14) | Apply Online at du.ac.in by 20 August 2026',
+    d: '03-08-2026',
+    l: '20-08-2026',
+    a: 'Advt. No. R&P/322/2026 & R&P/321/2026 Dated 31.07.2026',
+    q: 'Ph.D. Degree in Relevant Subject + 8/10 Yrs Teaching/Research Experience + Research Score 75/120',
+    desc: 'University of Delhi (DU) invites online applications for appointment to 86 teaching faculty positions — 30 Professors (Pay Level 14) and 56 Associate Professors (Pay Level 13A) across 9 Departments: Chemistry, Environmental Studies, Genetics, Geology, Hindi, Linguistics, Operational Research, Philosophy, and Zoology. Qualification: Ph.D. with minimum 8/10 years teaching/research experience and required research publications score. Apply online at du.ac.in by 20 August 2026.',
+    u: 'https://www.du.ac.in'
+  },
+  {
     id: 'telangana-karimnagar-anganwadi-teacher-recruitment-2026',
     b: 'Department of Women & Child Development (WDCW), Karimnagar District, Telangana',
     t: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026 – 60 Vacancies for 12th Pass Women | Apply Online at wdcw.tg.nic.in by 15 August 2026',

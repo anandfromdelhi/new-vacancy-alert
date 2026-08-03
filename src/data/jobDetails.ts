@@ -58,6 +58,145 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'du-professor-associate-professor-recruitment-2026': {
+    id: 'du-professor-associate-professor-recruitment-2026',
+    seoTitle: 'DU Professor & Associate Professor Recruitment 2026 Notification, 86 Vacancies, Salary, Eligibility, Apply Online | NewVacancyAlert',
+    seoDescription: 'Delhi University (DU) recruitment 2026 notification out for 86 Professor & Associate Professor positions across 9 departments. Check Ph.D. eligibility, 8-10 yrs experience, Level 13A & 14 pay matrix salary, research score criteria, apply online at du.ac.in.',
+    focusKeywords: 'DU Professor Recruitment 2026, Delhi University Associate Professor Vacancy, DU Faculty Advt 321 322 2026, DU Level 14 Pay Scale Professor, du ac in',
+    lsiKeywords: 'Delhi University Teaching Jobs 2026, DU Chemistry Zoology Hindi Philosophy Professor, DU Academic Pay Level 13A 14, DU Faculty Research Score 120 75, DU Teaching Online Application Form',
+    title: 'DU Professor & Associate Professor Recruitment 2026 (Advt 321/2026 & 322/2026) – 86 Teaching Vacancies in 9 Departments (Pay Level 13A & 14) | Apply Online at du.ac.in by 20 August 2026',
+    board: 'University of Delhi (DU), North Campus, Delhi – 110007',
+    advtNo: 'Advt. No. R&P/322/2026 (Professor) & R&P/321/2026 (Associate Professor) Dated 31.07.2026',
+    vacancies: 86,
+    jobLocation: 'University of Delhi (Main University Departments), New Delhi',
+    applicationMode: 'Online Application Form',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'University of Delhi (DU) has issued two official recruitment advertisements — Advt. No. R&P/322/2026 for Professor (30 Posts) and Advt. No. R&P/321/2026 for Associate Professor (56 Posts + 4 PwBD) — inviting online applications for 86 teaching faculty positions across 9 University Departments.',
+      'The departments include Chemistry, Environmental Studies, Genetics, Geology, Hindi, Linguistics, Operational Research, Philosophy, and Zoology. The posts carry 7th Central Pay Commission Pay Matrix Level 14 (Professor) and Level 13A (Associate Professor).',
+      'Eligible scholars with mandatory Ph.D. degree, prescribed teaching/research experience (8 years for Associate Professor, 10 years for Professor), and valid research publication scores can fill the online application form at https://www.du.ac.in until 20 August 2026 (or 2 weeks from publication in Employment News, whichever is later).'
+    ],
+    highlights: [
+      { label: 'University Name', value: 'University of Delhi (DU), Delhi' },
+      { label: 'Advertisement Numbers', value: 'Advt. No. R&P/322/2026 (Professor) & R&P/321/2026 (Associate Professor)' },
+      { label: 'Post Names', value: 'Professor & Associate Professor' },
+      { label: 'Total Vacancies', value: '86 Posts (30 Professor + 56 Associate Professor + 4 PwBD)' },
+      { label: 'Pay Scales', value: 'Level-14 Matrix (Professor) | Level-13A Matrix (Associate Professor)' },
+      { label: 'Participating Departments', value: 'Chemistry, Env Studies, Genetics, Geology, Hindi, Linguistics, Operational Research, Philosophy, Zoology' },
+      { label: 'Educational Qualification', value: 'Ph.D. Degree (Mandatory) + Master Degree (55% Marks)' },
+      { label: 'Teaching / Research Experience', value: '10 Years for Professor | 8 Years for Associate Professor' },
+      { label: 'Minimum Research Score', value: '120 Points (Professor) | 75 Points (Associate Professor)' },
+      { label: 'Application Fee', value: 'UR: Rs. 2000 | OBC/EWS/Women: Rs. 1500 | SC/ST: Rs. 1000 | PwBD: Rs. 500' },
+      { label: 'Last Date to Apply', value: '20 August 2026' },
+      { label: 'Official Website', value: 'https://www.du.ac.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '31 July 2026' },
+      { event: 'Commencement of Online Application Form', date: '31 July 2026' },
+      { event: 'Last Date for Submission of Online Application', date: '20 August 2026 (or 2 weeks from Employment News pub)' },
+      { event: 'Screening & Presentation Assessment Date', date: 'To be published on DU website / candidate dashboards' }
+    ],
+    vacanciesDetails: [
+      { category: 'Professor (Chemistry)', count: '6 Posts (SC: 2, OBC: 2, EWS: 2)' },
+      { category: 'Professor (Environmental Studies)', count: '2 Posts (UR: 1, OBC: 1)' },
+      { category: 'Professor (Genetics)', count: '1 Post (UR: 1)' },
+      { category: 'Professor (Geology)', count: '3 Posts (SC: 1, ST: 1, OBC: 1)' },
+      { category: 'Professor (Hindi)', count: '3 Posts (UR: 1, OBC: 1, EWS: 1)' },
+      { category: 'Professor (Linguistics)', count: '2 Posts (ST: 1, OBC: 1)' },
+      { category: 'Professor (Operational Research)', count: '1 Post (EWS: 1)' },
+      { category: 'Professor (Philosophy)', count: '4 Posts (UR: 1, OBC: 2, EWS: 1)' },
+      { category: 'Professor (Zoology)', count: '4 Posts (UR: 1, SC: 1, OBC: 1, EWS: 1)' },
+      { category: 'Total Professor Vacancies', count: '30 Posts (UR: 6, SC: 4, ST: 3, OBC: 11, EWS: 6)' },
+      { category: 'Associate Professor (Chemistry)', count: '4 Posts (SC: 1, OBC: 1, EWS: 2)' },
+      { category: 'Associate Professor (Environmental Studies)', count: '3 Posts (SC: 1, ST: 1, OBC: 1)' },
+      { category: 'Associate Professor (Genetics)', count: '2 Posts (UR: 1, EWS: 1)' },
+      { category: 'Associate Professor (Geology)', count: '4 Posts (UR: 2, OBC: 2)' },
+      { category: 'Associate Professor (Hindi)', count: '4 Posts (UR: 1, OBC: 2, EWS: 1, PwBD-VI: 1)' },
+      { category: 'Associate Professor (Linguistics)', count: '6 Posts (UR: 1, SC: 2, ST: 1, OBC: 2)' },
+      { category: 'Associate Professor (Operational Research)', count: '3 Posts (ST: 1, OBC: 1, EWS: 1)' },
+      { category: 'Associate Professor (Philosophy)', count: '16 Posts (UR: 7, SC: 2, ST: 1, OBC: 4, EWS: 2, PwBD-LD: 1, PwBD-VI: 1)' },
+      { category: 'Associate Professor (Zoology)', count: '6 Posts (UR: 1, SC: 2, OBC: 2, EWS: 1)' },
+      { category: 'Total Associate Professor Vacancies', count: '56 Posts + 4 PwBD (UR: 15, SC: 10, ST: 5, OBC: 17, EWS: 9)' }
+    ],
+    eligibility: {
+      education: [
+        'For Professor (Pay Level 14): Ph.D. degree in concerned / allied / relevant discipline (Mandatory). Published work of high quality with min 10 research publications in peer-reviewed or UGC-listed/SCOPUS journals. Total research score of 120 as per criteria.',
+        'For Associate Professor (Pay Level 13A): Good academic record with Ph.D. degree in concerned / allied / relevant discipline (Mandatory) AND Master’s degree with at least 55% marks (50% for SC/ST/OBC/PwBD). Min 7 publications in peer-reviewed/UGC-listed/SCOPUS journals. Total research score of 75 as per criteria.'
+      ],
+      ageLimit: 'As per UGC / University of Delhi norms for University Faculty positions.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD', relaxation: '5% relaxation in Master’s degree marks (55% to 50%) as per UGC guidelines' }
+      ],
+      experience: [
+        'For Professor: Minimum 10 years of teaching experience in University/College as Assistant Professor / Associate Professor / Professor, and/or research experience at equivalent level at University/National-level Institutions with evidence of having guided doctoral candidates (OR 10 years outstanding professional experience with Ph.D.).',
+        'For Associate Professor: Minimum 8 years of experience of teaching and/or research in an academic/research position equivalent to that of Assistant Professor in a University, College or accredited research Institution/Industry.'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Academic Pay Matrix Level 14 (Professor) & Level 13A (Associate Professor)',
+      initialPay: 'Professor: Basic Pay Rs. 1,44,200/- pm (Level 14) | Associate Professor: Basic Pay Rs. 1,31,400/- pm (Level 13A)',
+      allowances: [
+        'Dearness Allowance (DA as per Central Govt rates)',
+        'House Rent Allowance (HRA @ 27% in Delhi NCR)',
+        'Transport Allowance (TA) and Medical Benefits as per DU/UGC rules',
+        'Gross Salary: Approx. Rs. 1,90,000/- to Rs. 2,30,000/- per month'
+      ]
+    },
+    applicationFee: [
+      { category: 'Unreserved (UR) Candidates', fee: 'Rs. 2,000/-', refund: 'Non-refundable' },
+      { category: 'OBC / EWS & Women Applicants', fee: 'Rs. 1,500/-', refund: 'Non-refundable' },
+      { category: 'SC / ST Candidates', fee: 'Rs. 1,000/-', refund: 'Non-refundable' },
+      { category: 'Persons with Benchmark Disabilities (PwBD)', fee: 'Rs. 500/-', refund: 'Non-refundable' }
+    ],
+    howToPayFee: [
+      'Pay online through Credit Card, Debit Card, or Net Banking during online application form submission.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Screening & Research Score Shortlisting', description: 'Screening Committee will evaluate research scores out of UGC-CARE/SCOPUS publications. Candidates with highest research score (Min 120 for Professor; Min 75 for Associate Professor) will be shortlisted (30 for 1st vacancy + 10 for each additional).' },
+      { stage: 'Stage 2: Presentation Assessment Committee', description: 'Shortlisted candidates will make a presentation before Presentation Assessment Committee (Graded A to D).' },
+      { stage: 'Stage 3: Personal Interview by Selection Committee', description: 'Final selection conducted by duly constituted Selection Committee chaired by Vice Chancellor / Nominee.' }
+    ],
+    howToApply: [
+      'Visit the University of Delhi official website at https://www.du.ac.in.',
+      'Click on "Jobs and Opportunities" under the head "Work with DU".',
+      'Select the online application portal link for Advt. No. R&P/322/2026 (Professor) or R&P/321/2026 (Associate Professor).',
+      'Register on the portal with valid email ID and personal credentials.',
+      'Fill up online form details: Personal information, academic qualifications, Ph.D. award details, teaching/research experience, and research paper publication entries (with UGC-CARE/SCOPUS details).',
+      'Calculate and enter the research score as per screening guidelines.',
+      'Upload necessary documents: Ph.D. degree certificate, Master degree marksheets, experience certificates, research paper copies, category certificate, and photo/signature.',
+      'Pay application fee online (UR: Rs. 2000, OBC/EWS/Women: Rs. 1500, SC/ST: Rs. 1000, PwBD: Rs. 500).',
+      'Submit form before 20 August 2026 and download application receipt.'
+    ],
+    documentsRequired: [
+      'Class 10th Board Certificate for Date of Birth proof',
+      'Bachelor Degree & Master Degree (with 55% marks) Certificates & Marksheets',
+      'Ph.D. Degree Award Certificate with Ph.D. regulation compliance certificate',
+      'Teaching / Research Experience Certificates showing designation and pay scale',
+      'Copies of Published Research Papers in UGC-CARE / SCOPUS indexed journals',
+      'Proof of Doctoral Guidance / Research Projects / Patents (if claiming score)',
+      'Category Certificate (SC / ST / OBC / EWS / PwBD Certificate in Central format)',
+      'No Objection Certificate (NOC) from present employer (if working in Govt/PSU/University)',
+      'Scanned Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Ph.D. degree is MANDATORY for appointment to both Professor and Associate Professor posts.',
+      'Only research publications indexed in UGC-CARE list or SCOPUS will be considered for research score calculation.',
+      'Minimum research score requirement: 120 for Professor; 75 for Associate Professor.',
+      'Candidates applying for multiple departments/posts must apply separately and pay separate application fees.',
+      'For technical issues, email registrar@du.ac.in or teaching_rec@admin.du.ac.in.'
+    ],
+    urls: [
+      { label: 'University of Delhi Official Website', url: 'https://www.du.ac.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for DU Professor and Associate Professor recruitment 2026?', answer: 'The last date to submit online application forms on du.ac.in is 20 August 2026 (or 2 weeks from date of publication in Employment News, whichever is later).' },
+      { question: 'Is Ph.D. mandatory for DU Associate Professor and Professor recruitment?', answer: 'Yes, Ph.D. degree in the concerned/allied discipline is mandatory for both Professor and Associate Professor positions in University of Delhi.' },
+      { question: 'What is the pay scale for DU Professor and Associate Professor posts?', answer: 'Professor: Academic Pay Level 14 (Basic Pay Rs. 1,44,200/- pm). Associate Professor: Academic Pay Level 13A (Basic Pay Rs. 1,31,400/- pm).' },
+      { question: 'What is the application fee for Delhi University faculty recruitment 2026?', answer: 'UR: Rs. 2,000/-; OBC/EWS and Women applicants: Rs. 1,500/-; SC/ST: Rs. 1,000/-; PwBD: Rs. 500/-.' },
+      { question: 'What is the minimum research score required for shortlisting in DU faculty positions?', answer: 'Minimum research score requirement is 120 points for Professor (Advt 322/2026) and 75 points for Associate Professor (Advt 321/2026).' }
+    ]
+  },
   'telangana-karimnagar-anganwadi-teacher-recruitment-2026': {
     id: 'telangana-karimnagar-anganwadi-teacher-recruitment-2026',
     seoTitle: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026 Notification, Vacancy, Merit Criteria, Apply Online | NewVacancyAlert',
