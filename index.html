@@ -46,13 +46,24 @@
       }
     }
     </script>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) & Consent Mode -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0ZRZMMFSP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
+      // Check stored user consent
+      var savedConsent = localStorage.getItem('cookie_consent') || localStorage.getItem('cookie_consent_accepted');
+      var isGranted = savedConsent === 'accepted' || savedConsent === 'true';
+
+      gtag('consent', 'default', {
+        'analytics_storage': isGranted ? 'granted' : 'denied',
+        'ad_storage': isGranted ? 'granted' : 'denied',
+        'ad_user_data': isGranted ? 'granted' : 'denied',
+        'ad_personalization': isGranted ? 'granted' : 'denied'
+      });
+
+      gtag('js', new Date());
       gtag('config', 'G-Y0ZRZMMFSP');
     </script>
     
