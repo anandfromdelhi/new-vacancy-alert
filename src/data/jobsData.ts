@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026',
+    b: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division No-1 Kasumpti Shimla',
+    t: 'HP Jal Shakti Vibhag Shimla Recruitment 2026 – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Worker (Honorarium up to Rs. 7,100/PM) | Apply Offline by 20 August 2026',
+    d: '03-08-2026',
+    l: '20-08-2026 (5:00 PM)',
+    a: 'Notice No. JSV-EA-III-Para Pump Operator/2026-13283-86',
+    q: '8th Pass / 10th Pass with ITI in Electrician, Wireman, Fitter, Plumber, Motor/Diesel Mechanic (Age 18-45 Yrs)',
+    desc: 'Office of Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla-171009, HP Jal Shakti Vibhag, invites offline application forms for 40 vacancies of Para Pump Operator (12), Para Fitter (3), and Multipurpose Worker (25) on honorarium basis. Monthly Honorarium: Rs 7,100/PM for Para PO/Fitter and Rs 6,000/PM for Multipurpose Worker. Selection based on academic marks, experience, BPL status, skill test, and physical test. Submit offline form by 20 August 2026 upto 5:00 PM.',
+    u: 'https://hpjalshakti.gov.in'
+  },
+  {
     id: 'sddmasc-delhi-junior-resident-walk-in-recruitment-2026',
     b: 'Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Govt of NCT of Delhi',
     t: 'SDDMASC Delhi Junior Resident (JR) Recruitment 2026 – 12 Vacancies for MBBS Doctors (Pay Level 10 Basic Rs. 56,100) | Walk-in Interview on 07 August 2026',

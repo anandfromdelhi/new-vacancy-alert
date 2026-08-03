@@ -58,6 +58,120 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026': {
+    id: 'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026',
+    seoTitle: 'HP Jal Shakti Vibhag Shimla Recruitment 2026 Notification, Vacancy, Eligibility, Salary, Application Form | NewVacancyAlert',
+    seoDescription: 'HP Jal Shakti Vibhag Division No-1 Kasumpti Shimla recruitment 2026 notification out for 40 Para Pump Operator, Para Fitter & Multipurpose Worker posts. Check 8th/10th ITI eligibility, honorarium Rs 7100, age limit 18-45 yrs, key dates, offline application form.',
+    focusKeywords: 'HP Jal Shakti Vibhag Recruitment 2026, HPJSV Kasumpti Shimla Vacancy, Para Pump Operator Para Fitter Multipurpose Worker HP Jal Shakti, HP Jal Shakti Honorarium Salary, hpjalshakti gov in',
+    lsiKeywords: 'HP Jal Shakti Vibhag Shimla 40 Posts, Jal Shakti Department HP ITI Jobs, Para Fitter ITI Plumber Jobs Shimla, HP Multipurpose Worker 8th Pass Vacancy, HPJSV Offline Application Form PDF',
+    title: 'HP Jal Shakti Vibhag Shimla Recruitment 2026 – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Worker (Honorarium up to Rs. 7,100/PM) | Apply Offline by 20 August 2026',
+    board: 'Office of Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla - 171009, Himachal Pradesh Jal Shakti Vibhag',
+    advtNo: 'Notice No. JSV-EA-III-Para Pump Operator/2026-13283-86 Dated 28.03.2026',
+    vacancies: 40,
+    jobLocation: 'Jal Shakti Division No-1 Kasumpti Shimla, Himachal Pradesh',
+    applicationMode: 'Offline Application Form (By Post or By Hand)',
+    applicationStatus: 'Offline Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Office of the Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla - 171009, has issued an official recruitment notice for filling up 40 posts on honorarium basis for the operation and maintenance of Water Supply and Irrigation Schemes.',
+      'The recruitment includes 12 posts of Para Pump Operator, 03 posts of Para Fitter, and 25 posts of Multipurpose Worker. Selection will be based on academic marks (8th/10th class), experience in IPH/HPJSV, BPL status, skill test, and physical test.',
+      'Interested and eligible Bonafide Himachali candidates can submit their neatly typed/handwritten offline application form along with self-attested documents to the Executive Engineer office on or before 20 August 2026 up to 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Department Name', value: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV)' },
+      { label: 'Division & Location', value: 'Jal Shakti Division No-1 Kasumpti Shimla - 171009' },
+      { label: 'Notice Reference', value: 'JSV-EA-III-Para Pump Operator/2026-13283-86' },
+      { label: 'Posts Offered', value: 'Para Pump Operator, Para Fitter, Multipurpose Worker' },
+      { label: 'Total Vacancies', value: '40 Posts (Para PO: 12, Para Fitter: 03, MP Worker: 25)' },
+      { label: 'Honorarium Pay', value: 'Rs. 7,100/- PM (Para PO/Fitter) & Rs. 6,000/- PM (MP Worker)' },
+      { label: 'Qualification', value: '8th Pass / 10th Pass with ITI in relevant trade' },
+      { label: 'Age Limit', value: '18 to 45 Years' },
+      { label: 'Application Mode', value: 'Offline Submission (Post / Hand)' },
+      { label: 'Last Date to Receive Application', value: '20 August 2026 (up to 5:00 PM)' },
+      { label: 'Application Fee', value: 'Rs. 0/- (No Fee)' },
+      { label: 'Official Website', value: 'https://hpjalshakti.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notice Release Date', date: '28 March 2026 / July 2026' },
+      { event: 'Commencement of Offline Application', date: 'Active Now' },
+      { event: 'Last Date to Receive Application Form at Kasumpti Shimla Office', date: '20 August 2026 (up to 5:00 PM)' },
+      { event: 'Skill Test & Physical Test Schedule', date: 'Separate Call Letters will be issued to shortlisted candidates' }
+    ],
+    vacanciesDetails: [
+      { category: 'Para Pump Operator (Honorarium Rs. 7,100/- PM)', count: '12 Posts (UR: 7, SC: 2, OBC: 2, ST: 0, EWS: 1)' },
+      { category: 'Para Fitter (Honorarium Rs. 7,100/- PM)', count: '3 Posts (UR: 3)' },
+      { category: 'Multipurpose Worker (Honorarium Rs. 6,000/- PM)', count: '25 Posts (UR: 13, SC: 5, OBC: 4, ST: 1, EWS: 2)' },
+      { category: 'Total HPJSV Kasumpti Shimla Vacancies', count: 40 }
+    ],
+    eligibility: {
+      education: [
+        'Para Pump Operator: Minimum Matriculation (10th) with ITI certificate in Electrician / Wireman / Diesel Mechanic / Pump Mechanic / Motor Mechanic / Pump Operator cum Mechanic OR 10th with certificate under Skill Development Scheme of Govt.',
+        'Para Fitter: Minimum Matriculation (10th) with ITI certificate in Fitter / Plumber trade OR 10th with certificate under Skill Development Scheme of Govt.',
+        'Multipurpose Worker: Minimum Middle Pass (8th Class) or its equivalent recognized by State or Central Govt.',
+        'Bonafide Resident: Candidate must possess a valid Bonafide Himachali Certificate.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 45 Years for all categories.',
+      ageRelaxation: [
+        { category: 'General / SC / ST / OBC Candidates', relaxation: 'Age between 18 to 45 Years' }
+      ],
+      experience: [
+        'Experience certificate in related field from IPH / HPPWD / CPWD / PSUs / outsourcing agency providing services in HP Jal Shakti Vibhag (issued by Executive Engineer JSV) carries 2 marks in selection.'
+      ]
+    },
+    salary: {
+      payLevel: 'Monthly Honorarium Basis',
+      initialPay: 'Rs. 7,100/- PM for Para PO & Fitter; Rs. 6,000/- PM for Multipurpose Worker',
+      allowances: [
+        'Fixed monthly honorarium for 6 hours working per day as per Himachal Pradesh Govt guidelines'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories (UR / SC / ST / OBC / EWS / BPL)', fee: 'Rs. 0/- (Nil / No Fee)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'No application fee is required for applying to HP Jal Shakti Vibhag posts.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Shortlisting based on Evaluation Criteria (Out of 10 Marks)', description: 'Academic Marks (5-6 marks) + BPL Status (1 mark for Para PO/Fitter) + Experience in IPH/JSV (2 marks @ 0.5 mark per 6 months).' },
+      { stage: 'Stage 2: Skill Test & Physical Test (2 Marks)', description: 'Shortlisted candidates will be called for Skill Test and Physical Test (2 marks). Separate call letters will be issued.' }
+    ],
+    howToApply: [
+      'Download or print the prescribed application form proforma for the relevant post (Para PO/Fitter OR Multipurpose Worker).',
+      'Fill up the application form neatly in English or Hindi with all details (Name, Father Name, DOB, Qualification marks, Category, Experience, Mobile No.).',
+      'Attach self-attested copies of required certificates: Bonafide Himachali certificate, 8th/10th marksheets, ITI skill certificate, Proof of Age, BPL certificate (if applicable), Experience certificate from EE (JSV), Character certificate from 1st Class Magistrate, and Category certificate.',
+      'Send the completed application form by post OR submit by hand to the office of "Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla - 171009, Himachal Pradesh" on or before 20 August 2026 up to 5:00 PM.',
+      'Applications received after 20.08.2026 (5:00 PM) or incomplete applications will be rejected straightway.'
+    ],
+    documentsRequired: [
+      'Filled Application Form proforma with recent passport size photograph pasted',
+      'Bonafide Himachali Certificate',
+      'Matriculation (10th) Marksheet / Certificate showing detailed marks obtained',
+      'Middle (8th) Marksheet / Certificate (for Multipurpose Worker)',
+      'Relevant ITI / Skill Development Certificate (for Para PO / Para Fitter)',
+      'Proof of Age Certificate (10th Certificate / Birth Certificate)',
+      'BPL Certificate issued by competent authority (if applicable)',
+      'Experience Certificate issued by Executive Engineer (JSV/IPH/CPWD/HPPWD)',
+      'Character Certificate issued by 1st Class Magistrate',
+      'Valid SC / ST / OBC / EWS Category Certificate'
+    ],
+    importantInstructions: [
+      'Candidate applying for Para Pump Operator / Para Fitter must attach detailed 10th marksheet; candidate applying for Multipurpose Worker must attach detailed 8th marksheet.',
+      'Working hours will be 6 hours per day.',
+      'No TA/DA will be payable for appearing in skill and physical test.',
+      'Separate call letters will be issued for skill and physical test after initial screening.',
+      'For queries, contact office phone: 0177-2620591.'
+    ],
+    urls: [
+      { label: 'HP Jal Shakti Vibhag Official Website', url: 'https://hpjalshakti.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for HP Jal Shakti Vibhag Shimla Recruitment 2026?', answer: 'The last date to submit offline application forms at Jal Shakti Division No-1 Kasumpti Shimla office is 20 August 2026 up to 5:00 PM.' },
+      { question: 'What is the qualification required for Para Pump Operator & Para Fitter in HPJSV?', answer: '10th Pass with ITI certificate in relevant trade (Electrician/Wireman/Mechanic for Pump Operator; Fitter/Plumber for Fitter) OR 10th pass under Skill Development Scheme.' },
+      { question: 'What is the monthly honorarium for HP Jal Shakti Vibhag posts?', answer: 'Para Pump Operator & Para Fitter: Rs. 7,100/- PM. Multipurpose Worker: Rs. 6,000/- PM.' },
+      { question: 'What is the age limit for HP Jal Shakti Vibhag Kasumpti Shimla posts?', answer: 'Minimum 18 years and maximum 45 years.' },
+      { question: 'How to submit the application form for HPJSV Kasumpti Shimla recruitment?', answer: 'Submit the filled offline application form with self-attested documents by post or by hand to Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla - 171009 before 20.08.2026 (5:00 PM).' }
+    ]
+  },
   'sddmasc-delhi-junior-resident-walk-in-recruitment-2026': {
     id: 'sddmasc-delhi-junior-resident-walk-in-recruitment-2026',
     seoTitle: 'SDDMASC Delhi Junior Resident Recruitment 2026 Walk-in Interview, Eligibility, Salary, Application Form | NewVacancyAlert',
