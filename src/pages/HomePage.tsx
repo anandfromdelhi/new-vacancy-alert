@@ -708,13 +708,6 @@ export default function HomePage() {
 
           {/* Right Main Column (Listings & Table View) */}
           <main className="lg:col-span-8 xl:col-span-9 2xl:col-span-9 3xl:col-span-10 space-y-6">
-            {/* Mobile Marketing Partner Link */}
-            <div className="lg:hidden text-center -mt-2 mb-1">
-              <Link to="/marketing-partner" className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2 decoration-slate-300">
-                Become a Marketing Partner & Earn Rewards
-              </Link>
-            </div>
-
             {/* Adsterra Display Banner */}
             <AdsterraBanner />
 
@@ -1054,6 +1047,13 @@ export default function HomePage() {
                 <span>Read Articles</span>
               </Link>
             </div>
+          </div>
+
+          {/* Mobile Marketing Partner Link - Below Follow Us Section */}
+          <div className="lg:hidden text-center mt-3">
+            <Link to="/marketing-partner" className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2 decoration-slate-300">
+              Become a Marketing Partner & Earn Rewards
+            </Link>
           </div>
           </main>
         </div>
