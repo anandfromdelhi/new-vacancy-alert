@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'stpi-chief-administrative-officer-registrar-recruitment-2026',
+    b: 'Software Technology Parks of India (STPI), MeitY, Govt of India',
+    t: 'STPI Chief Administrative Officer-cum-Registrar Recruitment 2026 (Notice 2(3)/I/STPI-HQ/2026-2027) – Level-13 Group A Vacancy | Apply Online at stpi.in by 14 September 2026',
+    d: '03-08-2026',
+    l: '14-09-2026 (23:00 Hrs)',
+    a: 'Employment Notice No. 2(3)/I/STPI-HQ/2026-2027',
+    q: 'MBA / Post Graduate / Graduate with PG Diploma + 15 Yrs Experience (Age Max 50 Yrs for Direct, 56 Yrs for Deputation)',
+    desc: 'Software Technology Parks of India (STPI), an autonomous society under the Ministry of Electronics and Information Technology (MeitY), Govt of India, invites online applications for filling Group A Non-S&T post of Chief Administrative Officer-cum-Registrar (A-VIII) on Deputation / Absorption / Direct Recruitment basis. Pay Level 13 (Basic Rs. 1,23,100 - Rs. 2,15,900/-). Selection via Personal Interview. Application fee Rs. 1000/- (Female/SC/ST/PH Exempted). Apply online at www.stpi.in from 01.08.2026 to 14.09.2026.',
+    u: 'https://www.stpi.in'
+  },
+  {
     id: 'indian-air-force-iaf-agniveervayu-intake-01-2027-rally-recruitment-2026',
     b: 'Indian Air Force (IAF), Central Airmen Selection Board (CASB)',
     t: 'Indian Air Force Agniveervayu Recruitment 2026 (Intake 01/2027) – Open Recruitment Rally at Nagaland & Andaman Islands for Male & Female Candidates (Other Than Science Subjects) | Rally Dates 31 Aug to 07 Sep 2026',

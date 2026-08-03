@@ -58,6 +58,127 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'stpi-chief-administrative-officer-registrar-recruitment-2026': {
+    id: 'stpi-chief-administrative-officer-registrar-recruitment-2026',
+    seoTitle: 'STPI Chief Administrative Officer Registrar Recruitment 2026 Notification, Eligibility, Salary, Apply Online | NewVacancyAlert',
+    seoDescription: 'STPI recruitment 2026 notification out for Chief Administrative Officer-cum-Registrar (Level-13). Check eligibility, age limit, application fee Rs. 1000, key dates, selection interview, and official PDF apply online link at stpi.in.',
+    focusKeywords: 'STPI Recruitment 2026, STPI Chief Administrative Officer, STPI CAO Registrar Vacancy, STPI MeitY Jobs 2026, STPI Level 13 Salary',
+    lsiKeywords: 'Software Technology Parks of India Recruitment, STPI Group A Non ST Vacancy, STPI Registrar Eligibility, STPI Application Fee, stpi.in online application',
+    title: 'STPI Chief Administrative Officer-cum-Registrar Recruitment 2026 (Notice No. 2(3)/I/STPI-HQ/2026-2027) – Apply Online for Group A Level-13 Post',
+    board: 'Software Technology Parks of India (STPI), Ministry of Electronics & Information Technology (MeitY), Govt. of India',
+    advtNo: 'Employment Notice No. 2(3)/I/STPI-HQ/2026-2027',
+    vacancies: 1,
+    jobLocation: 'STPI HQ New Delhi / Any STPI Center across India',
+    applicationMode: 'Online Only (via www.stpi.in)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Software Technology Parks of India (STPI), an Autonomous Society under the Ministry of Electronics and Information Technology (MeitY), Government of India, has published an official Employment Notification No. 2(3)/I/STPI-HQ/2026-2027 for the recruitment of Group A Non-S&T vacancy for the post of Chief Administrative Officer-cum-Registrar (A-VIII).',
+      'The vacancy is proposed to be filled up by Deputation / Absorption / Direct Recruitment basis. Appointments made on Absorption or Direct Recruitment basis will be on probation for a period of two (02) years from the date of joining the post.',
+      'Eligible candidates meeting the prescribed qualifications and 15 years experience requirements can fill online application forms on the official portal www.stpi.in from 01 August 2026 up to 14 September 2026 (23:00 Hrs).'
+    ],
+    highlights: [
+      { label: 'Recruitment Organization', value: 'Software Technology Parks of India (STPI), MeitY' },
+      { label: 'Employment Notice No.', value: 'Notice No. 2(3)/I/STPI-HQ/2026-2027' },
+      { label: 'Name of Post', value: 'Chief Administrative Officer-cum-Registrar (A-VIII) [Post Code: A-8]' },
+      { label: 'Cadre & Classification', value: 'Group A (Non-S&T Cadre)' },
+      { label: 'Total Number of Posts', value: '01 Post (Unreserved / UR)' },
+      { label: 'Pay Level', value: 'Pay Level 13 (Rs. 1,23,100 – Rs. 2,15,900/-)' },
+      { label: 'Mode of Recruitment', value: 'Deputation / Absorption / Direct Recruitment' },
+      { label: 'Probation Period', value: '2 Years for Direct Recruitment & Absorption' },
+      { label: 'Online Application Dates', value: '01.08.2026 to 14.09.2026 (23:00 Hrs)' },
+      { label: 'Selection Method', value: 'Screening of Online Applications & Personal Interview' },
+      { label: 'Official Website', value: 'https://www.stpi.in' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '01 August 2026' },
+      { event: 'Online Application Start Date', date: '01 August 2026' },
+      { event: 'Last Date & Time for Receipt of Online Application', date: '14 September 2026 (23:00 Hrs)' },
+      { event: 'Age & Qualification Reckoning Date', date: '14 September 2026' },
+      { event: 'Tentative Schedule of Personal Interview', date: 'October – November 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: 1 },
+      { category: 'Total Vacancies', count: 1 }
+    ],
+    eligibility: {
+      education: [
+        'For Direct Recruit: MBA / Post Graduate in any discipline OR Graduate in any discipline with PG Diploma in Management from a recognized University/Institute.',
+        'Must possess at least 15 years of post-qualification experience in a responsible position in the field of Personnel Management and Labour Laws.',
+        'Must have experience of organizing senior-level meetings, familiarity with Government functioning, exposure to working of Societies, budget preparation, and related administrative matters.',
+        'For Promotion / Absorption / Deputation: Officers of Central / State Govt. / PSUs / Autonomous Bodies holding analogous post on regular basis OR having 5 years regular service in Level 12 (Rs. 78,800 – Rs. 2,09,200) with experience in Administration, Personnel, or Vigilance AND possessing qualifications prescribed for Direct Recruitment.'
+      ],
+      ageLimit: 'Direct Recruitment: Maximum 50 Years (Relaxation as per Govt. norms up to 5 years for SC/ST/OBC/STPI employees/contract staff). Absorption / Deputation: Maximum 56 Years as on closing date (14.09.2026).',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years' },
+        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years' },
+        { category: 'Persons with Benchmark Disabilities (PwBD)', relaxation: '10 Years (13 Yrs for OBC, 15 Yrs for SC/ST)' },
+        { category: 'STPI Contract Employees', relaxation: 'Equivalent to period of continuous service in STPI (Max 5 Years)' },
+        { category: 'Deputation / Absorption Basis', relaxation: 'Upper Age Limit up to 56 Years' }
+      ],
+      experience: [
+        '15 years of post-qualification experience in Personnel Management, Labour Laws, Government administrative procedures, budget preparation, and Society operations.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Level 13 (7th CPC CDA Pattern)',
+      initialPay: 'Rs. 1,23,100/- per month (Pay Matrix Scale: Rs. 1,23,100 – Rs. 2,15,900/-)',
+      allowances: [
+        'Dearness Allowance (DA as applicable to Central Govt employees)',
+        'House Rent Allowance (HRA depending on posting location)',
+        'Transport Allowance (TA) and Medical Benefits',
+        'Equivalent IDA Pay Scale in PSU: Rs. 1,00,000 – Rs. 2,60,000/-',
+        'Equivalent Pay Scale in Public Sector Banks: Rs. 1,04,240 – Rs. 1,16,120/-'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS Candidates', fee: 'Rs. 1,000/-', refund: 'Non-refundable' },
+      { category: 'Female Candidates (All Categories)', fee: 'Rs. 0/- (Exempted)', refund: 'N/A' },
+      { category: 'SC / ST / PwBD (PH) Candidates', fee: 'Rs. 0/- (Exempted)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'An application fee of Rs. 1000/- is payable online per application through the payment gateway available on the online application portal. No fee is required to be paid by female candidates and candidates belonging to SC/ST/PH category.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Screening of Applications', description: 'Submitted online applications will be screened against prescribed qualifications, experience, and age criteria.' },
+      { stage: 'Stage 2: Personal Interview', description: 'Screened-in candidates will be called for Personal Interview scheduled tentatively in October – November 2026. Selection will be made on the basis of Personal Interview.' }
+    ],
+    howToApply: [
+      'Go to the official website of Software Technology Parks of India at www.stpi.in.',
+      'Click on the Online Application link for "Employment Notice No. 2(3)/I/STPI-HQ/2026-2027".',
+      'Register your candidate profile with basic details, email, and mobile number.',
+      'Fill up the complete online application form carefully with qualification details and 15 years experience credentials.',
+      'Candidates working in Central/State Govt/PSUs/Autonomous bodies must upload NOC issued from their organization at the time of applying online.',
+      'Pay the application fee of Rs. 1000/- online (if applicable) and submit the application form before 14.09.2026 (23:00 Hrs).',
+      'Take a printout of the completed online application form for future reference during interview screening.'
+    ],
+    documentsRequired: [
+      'Passport size Photograph and Signature (JPEG/PNG)',
+      '10th / Matriculation Certificate as Proof of Date of Birth',
+      'Graduation / MBA / Post Graduate Degree & Marksheets',
+      '15 Years Experience Certificates in Personnel Management & Labour Laws',
+      'No Objection Certificate (NOC) from current organization (for Govt/PSU/Autonomous employees)',
+      'Caste / Category Certificate (SC/ST/OBC-NCL/EWS/PwBD if applicable)',
+      'CDA / IDA Pay Scale Equivalency certificate (if applying on Deputation / Absorption basis from PSU/Bank)'
+    ],
+    importantInstructions: [
+      'Only completed filled online applications shall be considered for further recruitment process.',
+      'Probation period for Absorption / Direct Recruitment basis is 2 years.',
+      'Deputation period initially shall be for 3 years.',
+      'Selected candidates shall be liable for posting at any center of STPI across India.',
+      'For any difficulty in filling the application form, helpline number: 011 – 24628081.'
+    ],
+    urls: [
+      { label: 'Official Website & Online Application Portal', url: 'https://www.stpi.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for STPI Chief Administrative Officer Recruitment 2026?', answer: 'The last date to submit online applications is 14 September 2026 (up to 23:00 hours).' },
+      { question: 'What is the Pay Level for STPI Chief Administrative Officer-cum-Registrar post?', answer: 'The post carries Pay Level 13 (Basic Rs. 1,23,100 – Rs. 2,15,900/-).' },
+      { question: 'Is there any application fee for Female and SC/ST candidates?', answer: 'No fee is required to be paid by female candidates and candidates belonging to SC/ST/PH category.' },
+      { question: 'What is the maximum age limit for Direct Recruitment in STPI CAO Registrar vacancy?', answer: 'The upper age limit for Direct Recruitment is 50 years (relaxable as per Govt norms for reserved categories and STPI staff).' },
+      { question: 'What is the selection process for STPI Registrar vacancy 2026?', answer: 'Selection for the post shall be based on screening of online applications followed by a Personal Interview.' }
+    ]
+  },
   'indian-air-force-iaf-agniveervayu-intake-01-2027-rally-recruitment-2026': {
     id: 'indian-air-force-iaf-agniveervayu-intake-01-2027-rally-recruitment-2026',
     seoTitle: 'Indian Air Force Agniveervayu Recruitment 2026 (Intake 01/2027) - Open Rally Details',
