@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'sddmasc-delhi-junior-resident-walk-in-recruitment-2026',
+    b: 'Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Govt of NCT of Delhi',
+    t: 'SDDMASC Delhi Junior Resident (JR) Recruitment 2026 – 12 Vacancies for MBBS Doctors (Pay Level 10 Basic Rs. 56,100) | Walk-in Interview on 07 August 2026',
+    d: '03-08-2026',
+    l: '07-08-2026 (Walk-in Interview)',
+    a: 'Notice F.2 (14)/751/Rectt/JR/WII/vol.X/SDDMASC/2024/2612',
+    q: 'MBBS Degree from MCI Recognized Institute + Rotatory Internship / FMG Exam + DMC Registration (Age Max 30 Yrs)',
+    desc: 'Office of Medical Superintendent, Govt of NCT of Delhi, Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Dabri, New Delhi, invites applications for Walk-in-Interview for 12 vacant posts of Junior Residents (JR) Doctors on Adhoc basis. Pay Level 10 (Basic Rs. 56,100/- + allowances). Registration on 07 August 2026 from 9:00 AM to 11:30 AM at Room No. 201, 2nd Floor, Administrative Block, SDDMASC. Zero application fee.',
+    u: 'https://health.delhi.gov.in'
+  },
+  {
     id: 'mecl-executive-trainee-electrical-mechanical-recruitment-2026',
     b: 'Mineral Exploration and Consultancy Limited (MECL), Ministry of Mines',
     t: 'MECL Executive Trainee Recruitment 2026 via UPSC ESE 2024 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers (E-1 Grade Pay Rs. 40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026',

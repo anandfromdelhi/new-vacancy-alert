@@ -58,6 +58,126 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'sddmasc-delhi-junior-resident-walk-in-recruitment-2026': {
+    id: 'sddmasc-delhi-junior-resident-walk-in-recruitment-2026',
+    seoTitle: 'SDDMASC Delhi Junior Resident Recruitment 2026 Walk-in Interview, Eligibility, Salary, Application Form | NewVacancyAlert',
+    seoDescription: 'SDDMASC Delhi Junior Resident (JR) recruitment 2026 walk-in interview on 07 August 2026 for 12 MBBS doctor vacancies. Check eligibility, age limit 30 yrs, pay level 10 Rs 56100, DMC registration, venue, and application proforma details.',
+    focusKeywords: 'SDDMASC Delhi Junior Resident Recruitment 2026, Shri Dada Dev Hospital JR Walk In Interview, Delhi Govt Hospital Junior Resident Vacancy, SDDMASC JR Doctor Salary Level 10, health delhigovt nic in',
+    lsiKeywords: 'Dada Dev Hospital Dabri Delhi JR Recruitment, Delhi Govt Doctor Vacancy 2026, Junior Resident MBBS Walk In Interview Delhi, DMC Registration Medical Officer, SDDMASC Adhoc JR Jobs',
+    title: 'SDDMASC Delhi Junior Resident (JR) Recruitment 2026 – 12 Vacancies for MBBS Doctors (Pay Level-10 Basic Rs. 56,100) | Walk-in Interview on 07 August 2026',
+    board: 'Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Govt. of NCT of Delhi, Dabri, New Delhi – 110045',
+    advtNo: 'Notice No. F.2 (14)/751/Rectt/JR/WII/vol.X/SDDMASC/2024/2612 Dated 31/07/2026',
+    vacancies: 12,
+    jobLocation: 'SDDMASC Hospital, Dabri, New Delhi',
+    applicationMode: 'Walk-in Interview (Offline Registration on 07.08.2026)',
+    applicationStatus: 'Walk-in Interview Scheduled',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Office of Medical Superintendent, Government of NCT of Delhi, Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Dabri, New Delhi, has issued an official notice for Walk-in-Interview for filling up 12 vacant posts of Junior Resident (JR) Doctors on Adhoc basis.',
+      'The appointments will be initially for a period of 44 days, extendable up to a maximum period of one (01) year under the Residency Scheme of Govt. of India or till regular/adhoc fresh candidates join.',
+      'Eligible MBBS doctors possessing valid Delhi Medical Council (DMC) registration or proof of having applied for DMC registration can attend the Walk-in Interview on 07 August 2026 (Registration timing: 9:00 AM to 11:30 AM) at Room No. 201, 2nd Floor, Administrative Block, SDDMASC, Dabri, New Delhi-110045.'
+    ],
+    highlights: [
+      { label: 'Hospital Name', value: 'Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC)' },
+      { label: 'Governing Body', value: 'Govt. of NCT of Delhi (Health & Family Welfare Dept)' },
+      { label: 'Official Notice No.', value: 'F.2 (14)/751/Rectt/JR/WII/vol.X/SDDMASC/2024/2612' },
+      { label: 'Post Name', value: 'Junior Resident (JR)' },
+      { label: 'Total Vacancies', value: '12 Posts (UR: 04, OBC: 04, ST: 02, EWS: 02)' },
+      { label: 'Pay Level & Salary', value: 'Level 10 Pay Matrix (Basic Rs. 56,100/- + Usual Allowances)' },
+      { label: 'Tenure', value: 'Adhoc basis (44 days extendable up to 1 Year)' },
+      { label: 'Interview Date', value: '07 August 2026 (Registration: 09:00 AM to 11:30 AM)' },
+      { label: 'Interview Venue', value: 'Room No. 201, 2nd Floor, Admin Block, SDDMASC, Dabri, New Delhi' },
+      { label: 'Application Fee', value: 'Rs. 0/- (Nil / No Fee)' },
+      { label: 'Official Website', value: 'https://health.delhi.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notice Release Date', date: '31 July 2026' },
+      { event: 'Date of Walk-in Interview', date: '07 August 2026' },
+      { event: 'Candidate Registration Timing on Interview Day', date: '09:00 AM to 11:30 AM (Strictly No entry after 11:30 AM)' },
+      { event: 'Interview Commencement Time', date: '11:30 AM onwards on 07.08.2026' },
+      { event: 'Age & Eligibility Reckoning Date', date: '07 August 2026 (Date of Interview)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: 4 },
+      { category: 'Other Backward Class (OBC - Delhi Only)', count: 4 },
+      { category: 'Scheduled Tribe (ST)', count: 2 },
+      { category: 'Economically Weaker Section (EWS)', count: 2 },
+      { category: 'Total Junior Resident Vacancies', count: 12 }
+    ],
+    eligibility: {
+      education: [
+        'MBBS Degree from a recognized University / Institution recognized by Medical Council of India (MCI) / National Medical Commission (NMC).',
+        'Candidate must have completed one-year rotatory internship / passed FMG examination within 2 years from the date of interview (i.e. between 07.08.2024 and 07.08.2026).',
+        'Relaxed Category Provision: Candidates who completed internship > 2 years ago or completed 1 year residency earlier can appear under Relaxed Category if fresh candidates are fewer than 3 times the vacant posts.',
+        'DMC Registration: Mandatory valid registration with Delhi Medical Council (DMC) OR proof of having applied for DMC registration at the time of interview.'
+      ],
+      ageLimit: 'Maximum 30 Years for General / UR candidates as on date of interview (07.08.2026). Age relaxations apply as per Govt. rules.',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years (Up to 35 Years)' },
+        { category: 'OBC Candidates (Delhi OBC Only)', relaxation: '3 Years (Up to 33 Years)' },
+        { category: 'Persons with Disabilities (Divyangjan PWD)', relaxation: '5 Years Extra Relaxation (Up to 35 Yrs UR, 40 Yrs SC/ST)' }
+      ],
+      experience: [
+        'Freshers eligible (Candidates who completed 1 year rotatory internship eligible). Prior Junior Residency experience not mandatory.'
+      ]
+    },
+    salary: {
+      payLevel: 'Level 10 of 7th CPC Pay Matrix',
+      initialPay: 'Rs. 56,100/- per month basic pay',
+      allowances: [
+        'Dearness Allowance (DA as applicable to GNCTD employees)',
+        'House Rent Allowance (HRA at 27% for Delhi/X category city)',
+        'NPA (Non-Practicing Allowance if admissible)',
+        'Transport Allowance (TA) and medical benefits as per rules',
+        'Gross Monthly Salary: Approx. Rs. 85,000 – Rs. 95,000/- per month'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories (UR / OBC / SC / ST / EWS / PWD)', fee: 'Rs. 0/- (No Fee)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'No application fee is required for attending the Walk-in Interview.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Registration & Document Screening', description: 'Candidates must report at Room No. 201, 2nd Floor, Admin Block, SDDMASC between 9:00 AM and 11:30 AM on 07.08.2026 for document verification and registration.' },
+      { stage: 'Stage 2: Walk-in Interview', description: 'Selection will be conducted purely through Walk-in Interview by the Selection Board. Selected candidates will be issued offer letters to join within 7 working days.' }
+    ],
+    howToApply: [
+      'Download the official application proforma attached with the notification or fill the prescribed application form.',
+      'Bring duly filled application form along with 2 recent passport size photographs.',
+      'Bring all original documents along with 1 set of self-attested photocopies of: 10th Marksheet/Certificate (DOB proof), MBBS Degree & all year marksheets, Internship completion certificate / FMG certificate, DMC Registration / application receipt, Caste / EWS / PWD certificate (Delhi OBC certificate for current financial year).',
+      'Report for registration at Room No. 201, 2nd Floor, Administrative Block, Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Dabri, New Delhi-110045 between 09:00 AM and 11:30 AM on 07 August 2026.',
+      'No entry will be allowed after 11:30 AM.'
+    ],
+    documentsRequired: [
+      'Filled Application Form & Checklist with 2 Passport Size Photographs',
+      'Class 10th Certificate / Birth Certificate as Proof of Date of Birth',
+      'MBBS Degree Certificate & All Professional Year Marksheets',
+      'Compulsory Rotatory Internship Completion Certificate / FMG Certificate',
+      'Valid Delhi Medical Council (DMC) Registration Certificate OR DMC Application Proof',
+      'Delhi OBC Non-Creamy Layer Certificate issued for current financial year (for OBC seats)',
+      'SC / ST / EWS / PWD Certificate issued by competent authority (if applicable)',
+      'Aadhaar Card / PAN Card / Resident Proof',
+      'No Objection Certificate (NOC) from current employer (if serving in Govt/PSU)'
+    ],
+    importantInstructions: [
+      'OBC reservation is admissible ONLY to candidates possessing valid Delhi OBC Non-Creamy Layer certificate. Outside Delhi OBC candidates will be treated under General (UR) category.',
+      'Strictly no entry will be allowed for registration after 11:30 AM on 07.08.2026.',
+      'Appointments are on adhoc basis for 44 days extendable up to 1 year.',
+      'Selected doctors must join within 7 working days from issue of offer letter.',
+      'For official notices, visit www.health.delhigovt.nic.in or hospital notice board.'
+    ],
+    urls: [
+      { label: 'Delhi Health Department Official Website', url: 'https://health.delhi.gov.in' }
+    ],
+    faqs: [
+      { question: 'When is the Walk-in Interview for SDDMASC Delhi Junior Resident recruitment 2026?', answer: 'The Walk-in Interview will be held on 07 August 2026. Registration takes place from 09:00 AM to 11:30 AM.' },
+      { question: 'Where is the interview venue for SDDMASC Delhi JR Doctor post?', answer: 'Venue: Room No. 201, 2nd Floor, Administrative Block, Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Dabri, New Delhi - 110045.' },
+      { question: 'What is the salary of Junior Resident Doctor at SDDMASC Delhi?', answer: 'Junior Residents receive Pay Level 10 with basic pay of Rs. 56,100/- plus DA, HRA, and usual allowances as per GNCTD rules (Gross ~ Rs. 85,000 - 95,000/pm).' },
+      { question: 'Is Delhi Medical Council (DMC) registration compulsory for SDDMASC JR interview?', answer: 'Yes, candidate must possess a valid DMC registration or proof of having applied for DMC registration at the time of interview.' },
+      { question: 'What is the age limit for SDDMASC Junior Resident vacancy?', answer: 'The upper age limit is 30 years for General candidates as on 07.08.2026, with 5 years relaxation for SC/ST, 3 years for OBC, and 5 years extra for PwD.' }
+    ]
+  },
   'mecl-executive-trainee-electrical-mechanical-recruitment-2026': {
     id: 'mecl-executive-trainee-electrical-mechanical-recruitment-2026',
     seoTitle: 'MECL Executive Trainee Recruitment 2026 Notification, Eligibility, Salary, UPSC ESE Score, Apply Online | NewVacancyAlert',
