@@ -708,55 +708,6 @@ export default function HomePage() {
 
           {/* Right Main Column (Listings & Table View) */}
           <main className="lg:col-span-8 xl:col-span-9 2xl:col-span-9 3xl:col-span-10 space-y-6">
-            {/* Mobile Social Handles Banner - Placed ABOVE Tabs for seamless navigation */}
-            <div className="bg-gradient-to-r from-blue-900 via-slate-900 to-indigo-900 text-white rounded-2xl p-3.5 shadow-sm border border-slate-800/60 flex flex-col gap-2.5 lg:hidden">
-              <div className="flex items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
-                  <span className="p-1.5 rounded-lg bg-blue-500/20 text-blue-300">
-                    <Sparkles className="h-4 w-4" />
-                  </span>
-                  <div>
-                    <p className="text-xs font-black text-white">Follow Us for Daily Alerts</p>
-                    <p className="text-[10px] text-blue-200 font-medium">@NewVacancyAlert</p>
-                  </div>
-                </div>
-                <div className="flex items-center gap-1.5 shrink-0">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61592714690988"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-2.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black transition flex items-center gap-1 text-[11px] border border-blue-400/30"
-                    title="Facebook Page"
-                  >
-                    <Facebook className="h-3.5 w-3.5 fill-current" />
-                    <span>Facebook</span>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/newvacancyalert.in/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-2.5 py-1.5 rounded-xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 hover:opacity-90 text-white font-black transition flex items-center gap-1 text-[11px] border border-pink-400/30"
-                    title="Instagram Profile"
-                  >
-                    <Instagram className="h-3.5 w-3.5" />
-                    <span>Instagram</span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Articles Button Below Follow Us */}
-              <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between">
-                <span className="text-[11px] font-bold text-blue-200">Exam Guides & Calendars:</span>
-                <Link
-                  to="/articles"
-                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-amber-400 text-blue-950 border border-amber-300 shadow-xs"
-                >
-                  <BookOpen className="w-3.5 h-3.5 text-blue-950 shrink-0" />
-                  <span>Read Articles</span>
-                </Link>
-              </div>
-            </div>
-
             {/* Mobile Marketing Partner Link */}
             <div className="lg:hidden text-center -mt-2 mb-1">
               <Link to="/marketing-partner" className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2 decoration-slate-300">
@@ -1051,10 +1002,57 @@ export default function HomePage() {
                 </h3>
                 <p className="text-xs font-medium leading-relaxed text-slate-600">
                   Select "Last Date: Soonest First" from the list sort dropdown menu to immediately prioritize application deadlines that are closing soon.
-                </p>
-              </div>
             </div>
           </section>
+
+          {/* Mobile Social Handles Banner - Placed at Bottom of Home Page Above Footer */}
+          <div className="bg-gradient-to-r from-blue-900 via-slate-900 to-indigo-900 text-white rounded-2xl p-3.5 shadow-sm border border-slate-800/60 flex flex-col gap-2.5 lg:hidden mt-8">
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                <span className="p-1.5 rounded-lg bg-blue-500/20 text-blue-300">
+                  <Sparkles className="h-4 w-4" />
+                </span>
+                <div>
+                  <p className="text-xs font-black text-white">Follow Us for Daily Alerts</p>
+                  <p className="text-[10px] text-blue-200 font-medium">@NewVacancyAlert</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 shrink-0">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61592714690988"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-2.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black transition flex items-center gap-1 text-[11px] border border-blue-400/30"
+                  title="Facebook Page"
+                >
+                  <Facebook className="h-3.5 w-3.5 fill-current" />
+                  <span>Facebook</span>
+                </a>
+                <a
+                  href="https://www.instagram.com/newvacancyalert.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-2.5 py-1.5 rounded-xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 hover:opacity-90 text-white font-black transition flex items-center gap-1 text-[11px] border border-pink-400/30"
+                  title="Instagram Profile"
+                >
+                  <Instagram className="h-3.5 w-3.5" />
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Articles Button Below Follow Us */}
+            <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between">
+              <span className="text-[11px] font-bold text-blue-200">Exam Guides & Calendars:</span>
+              <Link
+                to="/articles"
+                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-amber-400 text-blue-950 border border-amber-300 shadow-xs"
+              >
+                <BookOpen className="w-3.5 h-3.5 text-blue-950 shrink-0" />
+                <span>Read Articles</span>
+              </Link>
+            </div>
+          </div>
           </main>
         </div>
       </div>
