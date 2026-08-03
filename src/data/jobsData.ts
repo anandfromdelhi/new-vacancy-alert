@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'mecl-executive-trainee-electrical-mechanical-recruitment-2026',
+    b: 'Mineral Exploration and Consultancy Limited (MECL), Ministry of Mines',
+    t: 'MECL Executive Trainee Recruitment 2026 via UPSC ESE 2024 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers (E-1 Grade Pay Rs. 40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026',
+    d: '03-08-2026',
+    l: '14-08-2026',
+    a: 'Advertisement No. 02/Rectt./2026 (File No. RECTR/34/2026-HR-MECL)',
+    q: 'BE / B.Tech in Mechanical / Electrical Engineering with 60% Marks + Qualified UPSC ESE 2024 Written & Interview (Age Max 28 Yrs)',
+    desc: 'Mineral Exploration and Consultancy Limited (MECL), a Miniratna-I CPSE under Ministry of Mines, Govt of India, invites online applications for 13 Executive Trainee (ET) posts in Mechanical (12) and Electrical (01) disciplines through UPSC Engineering Services Examination 2024 (UPSC ESE 2024) score. Pay scale E-1 Grade Rs. 40,000 - 1,40,000/-. Direct selection based on UPSC ESE 2024 marks (out of 1200); no separate written exam or interview. Application fee Rs. 500/- (SC/ST/PwD/Ex-SM Exempted). Apply online at www.mecl.co.in from 01.08.2026 to 14.08.2026.',
+    u: 'https://www.mecl.co.in'
+  },
+  {
     id: 'stpi-chief-administrative-officer-registrar-recruitment-2026',
     b: 'Software Technology Parks of India (STPI), MeitY, Govt of India',
     t: 'STPI Chief Administrative Officer-cum-Registrar Recruitment 2026 (Notice 2(3)/I/STPI-HQ/2026-2027) – Level-13 Group A Vacancy | Apply Online at stpi.in by 14 September 2026',
