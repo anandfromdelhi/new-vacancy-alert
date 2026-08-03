@@ -5,6 +5,7 @@ import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { jobDetailsData } from '../data/jobDetails';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
+import AdsterraBanner from '../components/AdsterraBanner';
 import { 
   Search, Calendar, Briefcase, FileText, CheckCircle2, ChevronRight, ChevronDown,
   Clock, ArrowRight, Building2, ShieldAlert, Rocket, BookOpen, Users, 
@@ -762,6 +763,9 @@ export default function HomePage() {
                 Become a Marketing Partner & Earn Rewards
               </Link>
             </div>
+
+            {/* Adsterra Display Banner */}
+            <AdsterraBanner />
 
             {/* Connected Tabs & Listings Container */}
             <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">

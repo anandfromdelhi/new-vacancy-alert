@@ -15,6 +15,7 @@ import { jobDetailsData } from '../data/jobDetails';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
+import AdsterraBanner from '../components/AdsterraBanner';
 import { useAuth } from '../context/AuthContext';
 
 const isNoData = (val: any): boolean => {
@@ -864,6 +865,9 @@ export default function JobDetailPage() {
         
         {/* Main Content Area */}
         <div className="flex-1 space-y-8 min-w-0">
+          
+          {/* Adsterra Display Banner */}
+          <AdsterraBanner className="print:hidden" />
           
           {/* SEO Introduction */}
           {activeOverview.length > 0 && (
