@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'jkpsc-assistant-professor-recruitment-2026',
+    b: 'Jammu and Kashmir Public Service Commission (JKPSC), J&K',
+    t: 'JKPSC Assistant Professor & Librarian Recruitment 2026 (Notification 05-PSC of 2026) – 205 Vacancies in Govt Degree Colleges (Pay Level-10 ₹57,700-1,82,400) | Apply Online at jkpsc.nic.in by 31 August 2026',
+    d: '03-08-2026',
+    l: '31-08-2026',
+    a: 'Notification No. 05-PSC (DR-P) OF 2026 Dated 31-07-2026',
+    q: 'Master Degree (55% Marks) + NET/SLET/SET OR Ph.D in relevant discipline (J&K Domicile Mandatory, Age Max 40-43 Yrs)',
+    desc: 'Jammu and Kashmir Public Service Commission (JKPSC) invites online applications from J&K domiciles for recruitment to 205 posts of Assistant Professor, College Director of Physical Education & Sports, and Librarian in Higher Education Department Govt Degree Colleges. Pay Scale: Level-10 (Rs. 57,700 - 1,82,400). Apply online at jkpsc.nic.in from 01.08.2026 to 31.08.2026.',
+    u: 'https://jkpsc.nic.in'
+  },
+  {
     id: 'amtron-assam-unified-portal-recruitment-2026',
     b: 'Assam Electronics Development Corporation Ltd. (AMTRON), Guwahati',
     t: 'AMTRON Assam Recruitment 2026 (Advt AEDC/HRD/AUP/672) – 15 IT Vacancies for Developers, DBA, Content Manager & Graphic Designer (Salary up to ₹90,000/pm) | Apply Online at recruitment.amtron.in by 12 August 2026',

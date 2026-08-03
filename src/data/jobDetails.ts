@@ -58,6 +58,143 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'jkpsc-assistant-professor-recruitment-2026': {
+    id: 'jkpsc-assistant-professor-recruitment-2026',
+    seoTitle: 'JKPSC Assistant Professor Recruitment 2026 Notification, 205 Vacancies, Pay Level-10, Apply Online | NewVacancyAlert',
+    seoDescription: 'JKPSC recruitment 2026 notification out for 205 Assistant Professor, Librarian & Sports Director posts in J&K Govt Degree Colleges (Notification 05-PSC). Check Master degree NET/Ph.D eligibility, Pay Level-10 (Rs 57700-182400), apply online at jkpsc.nic.in.',
+    focusKeywords: 'JKPSC Assistant Professor Recruitment 2026, J&K Higher Education Assistant Professor Vacancy 05 PSC 2026, JKPSC Librarian Recruitment 2026, JKPSC Assistant Professor Online Form, jkpsc nic in',
+    lsiKeywords: 'JKPSC College Professor 205 Posts, JKPSC Assistant Professor Salary Level 10, JKPSC Assistant Professor Syllabus 120 Questions, J&K Govt Degree College Assistant Professor, J&K Domicile Jobs 2026',
+    title: 'JKPSC Assistant Professor & Librarian Recruitment 2026 (Notification 05-PSC of 2026) – 205 Vacancies in Govt Degree Colleges (Pay Level-10 ₹57,700-1,82,400) | Apply Online at jkpsc.nic.in by 31 August 2026',
+    board: 'Jammu and Kashmir Public Service Commission (JKPSC), Srinagar / Jammu',
+    advtNo: 'Notification No. 05-PSC (DR-P) OF 2026 Dated 31-07-2026',
+    vacancies: 205,
+    jobLocation: 'UT of Jammu & Kashmir (Government Degree Colleges under Higher Education Dept)',
+    applicationMode: 'Online Application Form (JKPSC Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Jammu and Kashmir Public Service Commission (JKPSC), Solina Srinagar / Resham Ghar Colony Jammu, has issued official Notification No. 05-PSC (DR-P) OF 2026 for direct recruitment to 205 posts of Assistant Professor, College Director of Physical Education & Sports, and Librarian in Government Degree Colleges under the Higher Education Department, UT of Jammu & Kashmir.',
+      'Candidates possessing a Master Degree with minimum 55% marks (50% for SC/ST/Differently-abled) in the relevant subject along with UGC/CSIR NET/SLET/SET clearance OR Ph.D Degree in accordance with UGC Regulations are eligible to apply.',
+      'All 205 posts carry UGC Pay Level-10 Matrix (Rs. 57,700 – Rs. 1,82,400). Only candidates possessing a valid Domicile Certificate of UT of Jammu & Kashmir are eligible to apply online at http://jkpsc.nic.in from 01 August 2026 to 31 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruitment Body', value: 'Jammu and Kashmir Public Service Commission (JKPSC)' },
+      { label: 'Department Name', value: 'Higher Education Department, UT of Jammu & Kashmir' },
+      { label: 'Notification Number', value: 'Notification No. 05-PSC (DR-P) OF 2026 Dated 31-07-2026' },
+      { label: 'Post Names', value: 'Assistant Professor, College Director of Physical Education & Sports, Librarian' },
+      { label: 'Total Vacancies', value: '205 Posts across 29 Subject Disciplines' },
+      { label: 'Pay Scale', value: 'Pay Level-10 (Rs. 57,700 – Rs. 1,82,400)' },
+      { label: 'Educational Qualification', value: 'Master Degree (55% marks) + NET/SLET/SET OR Ph.D' },
+      { label: 'Domicile Requirement', value: 'Must be a Domicile of UT of Jammu & Kashmir' },
+      { label: 'Age Limit', value: 'Open Merit: Max 40 Yrs | Reserved Categories: Max 43 Yrs (as on 01.01.2026)' },
+      { label: 'Selection Mode', value: 'Written Exam (120 MCQs / 3 Hours) + Academic & Research Weightage' },
+      { label: 'Online Application Dates', value: '01 August 2026 to 31 August 2026' },
+      { label: 'Online Form Correction Window', value: '01 September 2026 to 03 September 2026' },
+      { label: 'Application Fee', value: 'General: Rs. 1,200 | Reserved Categories: Rs. 700 | PHC: NIL' },
+      { label: 'Official Portal', value: 'http://jkpsc.nic.in | https://jkpsc.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31 July 2026' },
+      { event: 'Opening Date for Online Application Form', date: '01 August 2026' },
+      { event: 'Last Date for Online Application Submission & Fee Payment', date: '31 August 2026' },
+      { event: 'Online Application Form Correction Window', date: '01 September 2026 to 03 September 2026' },
+      { event: 'Cut-off Date for Age & Academic Qualifications', date: '31 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Assistant Professor Chemistry', count: '27 Posts (OM: 11, RBA: 3, SC: 2, ST-1: 3, ST-2: 3, EWS: 2, LAC/IB: 1, OBC: 2)' },
+      { category: 'Assistant Professor Botany', count: '24 Posts (OM: 10, RBA: 2, SC: 2, ST-1: 3, ST-2: 2, EWS: 2, LAC/IB: 1, OBC: 2)' },
+      { category: 'Assistant Professor Physics', count: '22 Posts (OM: 9, RBA: 2, SC: 2, ST-1: 2, ST-2: 2, EWS: 2, LAC/IB: 1, OBC: 2)' },
+      { category: 'Assistant Professor Zoology', count: '21 Posts (OM: 9, RBA: 2, SC: 1, ST-1: 2, ST-2: 2, EWS: 2, LAC/IB: 1, OBC: 2)' },
+      { category: 'Assistant Professor English', count: '14 Posts (OM: 6, RBA: 1, SC: 1, ST-1: 2, ST-2: 1, EWS: 1, LAC/IB: 1, OBC: 1)' },
+      { category: 'Assistant Professor Education', count: '10 Posts (OM: 4, RBA: 1, SC: 1, ST-1: 1, ST-2: 1, EWS: 1, OBC: 1)' },
+      { category: 'Assistant Professor Geography', count: '10 Posts (OM: 4, RBA: 1, SC: 1, ST-1: 1, ST-2: 1, EWS: 1, OBC: 1)' },
+      { category: 'College Director of Physical Education & Sports', count: '09 Posts (OM: 3, RBA: 1, SC: 1, ST-1: 1, ST-2: 1, EWS: 1, OBC: 1)' },
+      { category: 'Assistant Professor Mathematics', count: '08 Posts (OM: 3, RBA: 1, SC: 1, ST-1: 1, ST-2: 1, OBC: 1)' },
+      { category: 'Assistant Professor Commerce', count: '07 Posts (OM: 3, RBA: 1, SC: 1, ST-1: 1, ST-2: 1)' },
+      { category: 'Assistant Professor Economics', count: '07 Posts (OM: 3, RBA: 1, SC: 1, ST-1: 1, ST-2: 1)' },
+      { category: 'Assistant Professor History / Home Science / Political Science', count: '06 Posts each' },
+      { category: 'Librarian', count: '04 Posts (OM: 2, SC: 1, ST-1: 1)' },
+      { category: 'Assistant Professor Urdu', count: '04 Posts (OM: 2, SC: 1, ST-1: 1)' },
+      { category: 'Other Disciplines (Arabic, Biochem, Dogri, Comp App, Hindi, Music, etc.)', count: '24 Posts combined' },
+      { category: 'Total Vacancies', count: '205 Posts (OM: 91, RBA: 16, SC: 26, ST-1: 23, ST-2: 19, EWS: 12, LAC/IB: 5, OBC: 13)' }
+    ],
+    eligibility: {
+      education: [
+        'Assistant Professor (General Disciplines): Master’s Degree with 55% marks (50% for SC/ST/Differently-abled/Ph.D holders prior to 19.09.1991) in concerned subject from an Indian/Foreign University + cleared UGC/CSIR NET or SET/SLET OR holding a Ph.D Degree as per UGC Regulations 2009/2016 or from top 500 World University Ranking (QS/THE/ARWU).',
+        'Assistant Professor Computer Application: Master’s Degree in Computer Application / Computer Science with at least 60% marks (55% for SC/ST/PwD) + NET/SLET/SET OR Ph.D.',
+        'Librarian: Master’s Degree in Library Science / Information Science / Documentation Science with at least 55% marks (50% for SC/ST/PwD) + NET/SLET/SET OR Ph.D.',
+        'College Director of Physical Education & Sports: Master’s Degree in Physical Education & Sports Science with 55% marks + NET/SLET/SET OR Ph.D + Physical Fitness Test.',
+        'Domicile: Candidate must be a valid Domicile of UT of Jammu & Kashmir.'
+      ],
+      ageLimit: 'Age as on 1st January 2026:',
+      ageRelaxation: [
+        { category: 'Open Merit (OM) / In-service Government Candidates', relaxation: 'Maximum 40 Years (Not born before 01.01.1986, not born after 01.01.2008)' },
+        { category: 'Reserved Categories (SC / ST-1 / ST-2 / RBA / EWS / LAC/IB / OBC)', relaxation: 'Maximum 43 Years (Not born before 01.01.1983, not born after 01.01.2008)' },
+        { category: 'Physically Challenged (PHC)', relaxation: 'Maximum 42 Years (Not born before 01.01.1982, not born after 01.01.2008)' }
+      ],
+      experience: [
+        'No prior teaching experience is mandatory, but research publications, awards, and post-doctoral work carry additional weightage in selection.'
+      ]
+    },
+    salary: {
+      payLevel: 'UGC Pay Matrix Level-10',
+      initialPay: 'Rs. 57,700/- per month (Starting Basic Pay)',
+      allowances: [
+        'Pay Band Level-10 (Rs. 57,700 – Rs. 1,82,400)',
+        'Dearness Allowance (DA), House Rent Allowance (HRA), Medical Allowance, and central/state college benefits as per J&K Government rules'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / Open Merit (OM) Category Candidates', fee: 'Rs. 1,200/-', refund: 'Non-refundable' },
+      { category: 'Reserved Categories (SC / ST / RBA / EWS / LAC/IB / OBC)', fee: 'Rs. 700/-', refund: 'Non-refundable' },
+      { category: 'Physically Handicapped (PHC) Candidates', fee: 'NIL / Exempted', refund: 'No fee required' }
+    ],
+    howToPayFee: [
+      'Pay application fee online through JKPSC payment gateway using Credit Card, Debit Card, Net Banking or UPI.'
+    ],
+    selectionProcess: [
+      { stage: 'Written Examination (120 Marks)', description: '3-Hour competitive written examination carrying 120 Multiple Choice Questions (MCQs) based on prescribed subject syllabus.' },
+      { stage: 'Academic & Research Criteria Weightage', description: 'Weightage for academic merit (Master Degree, M.Phil, Ph.D, NET/JRF), research publications in UGC Care journals, and awards.' },
+      { stage: 'Physical Fitness Test (For Sports Director Post)', description: 'Physical test as per UGC Regulations 2018 for College Director of Physical Education & Sports.' },
+      { stage: 'Document Verification', description: 'Verification of original academic degrees, NET/SET/Ph.D certificates, J&K Domicile certificate, and category certificates.' }
+    ],
+    howToApply: [
+      'Visit the official website of JKPSC at http://jkpsc.nic.in.',
+      'Complete One Time Registration (OTR) or update your existing profile.',
+      'Upload recent photograph (date stamped, taken after 01.01.2025, 10-20 KB) and signature (10-20 KB).',
+      'Go to "Show Examination" -> Select "Assistant Professor / Librarian 2026 (Advt 05-PSC)".',
+      'Click "Apply", verify all details imported from OTR, and select your subject discipline & exam center (Srinagar / Jammu).',
+      'Submit the application form and pay the online fee (Rs. 1,200 for General; Rs. 700 for Reserved).',
+      'Print and save the generated application form and fee receipt for document verification.'
+    ],
+    documentsRequired: [
+      'Date of Birth Certificate (Secondary School / Matriculation Certificate)',
+      'Domicile Certificate of UT of Jammu & Kashmir',
+      'Graduation & Master’s Degree Marksheet & Certificate (with minimum 55% / 50% marks)',
+      'NET / SLET / SET Certificate OR Ph.D Degree Certificate (with MSP compliance certificate)',
+      'Category Certificate (RBA, SC, ST-1, ST-2, EWS, LAC/IB, OBC, PHC) issued on or before 31.08.2026',
+      'Scanned Date-Stamped Photograph and Signature',
+      'Research Publications / Award Certificates (for claiming additional selection weightage)'
+    ],
+    importantInstructions: [
+      'Only Domiciles of UT of Jammu & Kashmir are eligible to apply.',
+      'Cut-off date for age, educational qualification, and category certificates is 31 August 2026.',
+      'Hard copy of online application is not required to be sent to JKPSC office.',
+      'An editing window will be available on the portal from 01.09.2026 to 03.09.2026 to edit submitted forms.',
+      'Negative marking may apply in the written examination as per JKPSC rules.'
+    ],
+    urls: [
+      { label: 'JKPSC Official Portal', url: 'http://jkpsc.nic.in' },
+      { label: 'JKPSC Direct Online Application Portal', url: 'https://jkpsc.nic.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for JKPSC Assistant Professor recruitment 2026?', answer: 'The last date to submit online application forms on jkpsc.nic.in is 31 August 2026.' },
+      { question: 'What is the pay scale for JKPSC Assistant Professor & Librarian posts?', answer: 'All posts carry UGC Pay Band Level-10 with starting basic pay of Rs. 57,700/- per month (Scale Rs. 57,700 – Rs. 1,82,400).' },
+      { question: 'Is J&K Domicile mandatory to apply for JKPSC Assistant Professor jobs?', answer: 'Yes, only candidates possessing a valid Domicile Certificate of the Union Territory of Jammu & Kashmir are eligible.' },
+      { question: 'What is the educational qualification for JKPSC Assistant Professor?', answer: 'Master Degree with at least 55% marks (50% for SC/ST/PwD) in relevant subject along with UGC NET/SLET/SET OR Ph.D Degree.' },
+      { question: 'What is the application fee for JKPSC Assistant Professor recruitment?', answer: 'Application fee is Rs. 1,200/- for General/Open Merit candidates and Rs. 700/- for Reserved category candidates. PHC candidates are exempted.' }
+    ]
+  },
   'amtron-assam-unified-portal-recruitment-2026': {
     id: 'amtron-assam-unified-portal-recruitment-2026',
     seoTitle: 'AMTRON Recruitment 2026 Notification, 15 IT Vacancies, Salary up to Rs 90000, Apply Online | NewVacancyAlert',
