@@ -58,6 +58,123 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'india-post-bengaluru-staff-car-driver-recruitment-2026': {
+    id: 'india-post-bengaluru-staff-car-driver-recruitment-2026',
+    seoTitle: 'India Post Bengaluru Staff Car Driver Recruitment 2026 Notification, 11 Posts | NewVacancyAlert',
+    seoDescription: 'India Post Mail Motor Service Bengaluru recruitment 2026 out for 11 Staff Car Driver (Ordinary Grade) vacancies on Deputation/Absorption basis. Check 10th pass & LMV/HMV license eligibility, Pay Level-2 Rs 19900-63200, apply offline through proper channel.',
+    focusKeywords: 'India Post Bengaluru Staff Car Driver Recruitment 2026, Mail Motor Service Bengaluru Driver Vacancy, India Post MMS Driver Deputation, India Post Staff Car Driver Application Form, indiapost gov in',
+    lsiKeywords: 'India Post Karnataka Circle Driver 11 Posts, MMS Bengaluru Staff Car Driver Salary Level 2, Central Govt Deputation Driver Jobs, India Post Driver Application Annexure',
+    title: 'India Post Bengaluru Staff Car Driver Recruitment 2026 (Advt No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025) – 11 Vacancies on Deputation/Absorption (Pay Level-2 ₹19,900-63,200) | Apply Offline',
+    board: 'Department of Posts, Ministry of Communications, Govt. of India (Office of the Manager, Mail Motor Service, Bengaluru - 560001)',
+    advtNo: 'No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025 (Dated 01 August 2026)',
+    vacancies: 11,
+    jobLocation: 'Mail Motor Service (MMS) Bengaluru (10 Posts) & MMS Sub Depot Mysuru (01 Post), Karnataka',
+    applicationMode: 'Offline Application through Proper Channel (Speed Post Only)',
+    applicationStatus: 'Offline Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Department of Posts, Ministry of Communications, Government of India, Office of the Manager, Mail Motor Service (MMS), Bengaluru-560001 has issued notification No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025 dated 01.08.2026 for filling up 11 vacancies of Staff Car Driver (Ordinary Grade), General Central Services, Group-C, Non-Gazetted, Non-Ministerial.',
+      'The vacancies are available at MMS Bengaluru (10 posts) and MMS Sub Depot Mysuru (01 post) on Deputation / Absorption basis from eligible serving employees in Department of Posts and other Central Government Ministries.',
+      'Selected candidates will be placed in Pay Matrix Level-2 (Rs. 19,900 – 63,200/- under 7th CPC) plus admissible central allowances. Eligible serving employees must submit their application in duplicate through proper channel within 60 days from the publication date in Employment News.'
+    ],
+    highlights: [
+      { label: 'Recruitment Organization', value: 'Department of Posts (India Post), Ministry of Communications' },
+      { label: 'Office Location', value: 'Manager, Mail Motor Service (MMS), Vasanthanagar, Bengaluru-560001' },
+      { label: 'Notification Ref', value: 'No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025 Dated 01.08.2026' },
+      { label: 'Post Name', value: 'Staff Car Driver (Ordinary Grade), Group-C Non-Gazetted' },
+      { label: 'Total Vacancies', value: '11 Posts (MMS Bengaluru: 10 | MMS Sub Depot Mysuru: 01)' },
+      { label: 'Recruitment Category', value: 'Serving Eligible Central Government Employees Only (Deputation / Absorption)' },
+      { label: 'Pay Scale', value: 'Pay Level-2 (Rs. 19,900 – Rs. 63,200/- in 7th CPC Pay Matrix) + Allowances' },
+      { label: 'Educational Qualification', value: '10th Standard Pass + Valid LMV & HMV Driving License + 3 Yrs Driving Experience' },
+      { label: 'Maximum Age Limit', value: 'Not exceeding 56 Years as on closing date' },
+      { label: 'Application Fee', value: 'NIL / No Fee' },
+      { label: 'Application Deadline', value: 'Within 60 Days from date of publication in Employment News (Approx. 30 September 2026)' },
+      { label: 'Official Portal', value: 'https://www.indiapost.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release Date', date: '01 August 2026' },
+      { event: 'Employment News Publication Date', date: 'August 2026' },
+      { event: 'Last Date for Receipt of Application through Proper Channel', date: 'Within 60 Days of Employment News Publication (Speed Post Only)' },
+      { event: 'Driving / Trade Test Date', date: 'To be notified to shortlisted candidates' }
+    ],
+    vacanciesDetails: [
+      { category: 'Mail Motor Service (MMS), Bengaluru', count: '10 Vacancies' },
+      { category: 'MMS Sub Depot, Mysuru', count: '01 Vacancy' },
+      { category: 'Total Staff Car Driver Vacancies', count: '11 Posts' }
+    ],
+    eligibility: {
+      education: [
+        'Pass in 10th Standard (Matriculation) from a recognized Board or Institute.',
+        'Possession of a valid Driving License for driving Light and Heavy Motor Vehicles (LMV & HMV).',
+        'Knowledge of Motor Mechanism (candidate should be able to remove minor defects in vehicles).',
+        'Experience of driving Light and Heavy Motor Vehicles for at least 3 years.',
+        'Desirable: 3 years service experience as Home Guard or Civil Volunteers.'
+      ],
+      ageLimit: 'Maximum age limit for appointment by deputation / absorption shall NOT exceed 56 years as on the closing date of receipt of applications.',
+      ageRelaxation: [
+        { category: 'Central Govt Employees / Serving Officials', relaxation: 'Up to 56 Years' },
+        { category: 'Armed Forces Personnel', relaxation: 'Deputation terms up to date of release from Armed Forces, followed by re-employment' }
+      ],
+      experience: [
+        'Must possess regular Dispatch Rider or MTS (Group-C) service in Level-1 (Rs. 18,000-56,900 / GP 1800) with valid LMV/HMV license and 3 years driving experience.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Level-2 (7th CPC Pay Matrix)',
+      initialPay: 'Rs. 19,900/- basic pay per month (Pay Scale: Rs. 19,900 – Rs. 63,200/-)',
+      allowances: [
+        'Dearness Allowance (DA), House Rent Allowance (HRA), Transport Allowance (TA), and Other Admissible Central Government Allowances'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Serving Government Candidates', fee: 'NIL / No Application Fee', refund: 'Free Application' }
+    ],
+    howToPayFee: [
+      'No application fee is required for applying to this deputation/absorption post.'
+    ],
+    selectionProcess: [
+      { stage: 'Scrutiny of Applications', description: 'Verification of eligibility documents, APARs for last 5 years, vigilance clearance, and driving experience certificates forwarded through proper channel.' },
+      { stage: 'Driving Test & Trade Test', description: 'Practical driving competence test for Light and Heavy Motor Vehicles and vehicle defect removal trade test as per Directorate syllabus.' },
+      { stage: 'Deputation / Absorption Appointment', description: 'Selection based on merit in driving test and administrative clearance.' }
+    ],
+    howToApply: [
+      'Visit www.indiapost.gov.in to download the official notification and application proforma (Annexure-I & Annexure-II).',
+      'Fill up Annexure-I in duplicate carefully with all service, qualification, and driving license details.',
+      'Get Annexure-II duly signed and certified by the Head of Office / Employer / Forwarding Authority.',
+      'Attach self-attested copies of 10th pass certificate, valid LMV/HMV driving license, 3-year driving experience certificate, 5-year APARs (2020-21 to 2024-25), Vigilance Clearance, Integrity Certificate, and Penalty statement.',
+      'Send completed application envelope super-scribed with "APPLICATION FOR THE POST OF STAFF CAR DRIVER (ORDINARY GRADE) ON DEPUTATION/ABSORPTION BASIS" by SPEED POST ONLY to:',
+      'Address: "The Manager, Mail Motor Service, No. 4, Basaveshwara Road, Vasanthanagar, Bengaluru - 560001, Karnataka".',
+      'Ensure the hard copy reaches through proper channel within 60 days from the publication date in Employment News.'
+    ],
+    documentsRequired: [
+      'Duly filled Application Form in Duplicate (Annexure-I)',
+      'Employer Certificate & Forwarding Letter (Annexure-II)',
+      '10th Standard / SSLC Certificate (Age & Qualification Proof)',
+      'Valid Driving License copy for LMV & HMV (attested by Gazetted Officer)',
+      '3-Year LMV & HMV Vehicle Driving Experience Certificate (attested by Gazetted Officer)',
+      'Integrity Certificate & Vigilance Clearance Certificate',
+      'Major / Minor Penalty Certificate for last 10 years (or NIL certificate)',
+      'Attested copies of APARs / ACRs for the last 5 years (2020-21 to 2024-25)',
+      'Caste Certificate if SC / ST (if applicable)'
+    ],
+    importantInstructions: [
+      'This recruitment is strictly open for serving eligible Central Government employees (Department of Posts or other Ministries).',
+      'Applications submitted directly without proper channel forwarding will be straightway rejected.',
+      'Must apply via SPEED POST ONLY within 60 days of Employment News notification.',
+      'Max age limit is 56 years as on the closing date.',
+      'Deputation period initially up to 3 years.'
+    ],
+    urls: [
+      { label: 'India Post Official Recruitment Page', url: 'https://www.indiapost.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for India Post Bengaluru Staff Car Driver recruitment 2026?', answer: 'Applications must reach through proper channel within 60 days from the date of publication in Employment News (approx. late September 2026).' },
+      { question: 'Who is eligible for India Post MMS Bengaluru Driver post?', answer: 'Serving regular Group-C employees (MTS / Dispatch Riders) in Central Government departments holding 10th pass, valid LMV/HMV license, and 3 years driving experience.' },
+      { question: 'What is the pay scale for Staff Car Driver in India Post Bengaluru?', answer: 'The post carries 7th CPC Pay Matrix Level-2 (Rs. 19,900 – Rs. 63,200/-) plus DA, HRA and central allowances.' },
+      { question: 'Where should the offline application be sent?', answer: 'Send by Speed Post only to: The Manager, Mail Motor Service, No. 4, Basaveshwara Road, Vasanthanagar, Bengaluru-560001, Karnataka.' },
+      { question: 'Is there any application fee for India Post Staff Car Driver vacancy?', answer: 'No, there is no application fee for applying on deputation/absorption basis.' }
+    ]
+  },
   'jkpsc-assistant-professor-backlog-recruitment-2026': {
     id: 'jkpsc-assistant-professor-backlog-recruitment-2026',
     seoTitle: 'JKPSC Assistant Professor Backlog Recruitment 2026 Notification, 67 Vacancies, Apply Online | NewVacancyAlert',

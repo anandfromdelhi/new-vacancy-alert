@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'india-post-bengaluru-staff-car-driver-recruitment-2026',
+    b: 'Department of Posts (India Post), MMS Bengaluru, Karnataka Circle',
+    t: 'India Post Bengaluru Staff Car Driver Recruitment 2026 (Advt No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025) – 11 Vacancies on Deputation/Absorption (Pay Level-2 ₹19,900-63,200) | Apply Offline',
+    d: '03-08-2026',
+    l: '30-09-2026',
+    a: 'No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025 Dated 01.08.2026',
+    q: '10th Pass + Valid LMV & HMV Driving License + 3 Yrs Driving Experience + Serving Govt Employee (Age Max 56 Yrs)',
+    desc: 'Office of the Manager, Mail Motor Service (MMS), Bengaluru invites offline applications from serving eligible Central Government employees for recruitment to 11 Staff Car Driver (Ordinary Grade) posts on Deputation/Absorption basis. Pay Level-2 (Rs. 19,900 - 63,200). Apply through proper channel within 60 days of Employment News publication.',
+    u: 'https://www.indiapost.gov.in'
+  },
+  {
     id: 'jkpsc-assistant-professor-backlog-recruitment-2026',
     b: 'Jammu & Kashmir Public Service Commission (JKPSC), Srinagar/Jammu',
     t: 'JKPSC Assistant Professor Backlog Recruitment 2026 (Advt 06-PSC(DR-P) of 2026) – 67 Vacancies in Higher Education Dept (Academic Level-10 ₹57,700) | Apply Online at jkpsc.nic.in by 31 August 2026',
