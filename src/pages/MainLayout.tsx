@@ -3,6 +3,7 @@ import { Outlet, useLocation, useNavigate, Link } from 'react-router';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent from '../components/CookieConsent';
+import AdsterraBanner from '../components/AdsterraBanner';
 import { ArrowLeft, Home } from 'lucide-react';
 
 export default function MainLayout() {
@@ -43,6 +44,11 @@ export default function MainLayout() {
             </div>
           </div>
         )}
+      </div>
+
+      {/* Global Adsterra Display Banner - Rendered across all pages */}
+      <div className="w-full bg-slate-100/50 py-3 border-t border-slate-200">
+        <AdsterraBanner />
       </div>
 
       <Footer />
