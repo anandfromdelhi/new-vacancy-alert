@@ -37,6 +37,14 @@ function rateLimiter(req: express.Request, res: express.Response, next: express.
 
 app.use(rateLimiter);
 
+// Security: Block any requests for source maps (.map files)
+app.use((req, res, next) => {
+  if (req.path.endsWith(".map")) {
+    return res.status(404).send("Not Found");
+  }
+  next();
+});
+
 // Security Middleware: Set production HTTP security headers
 app.use((req, res, next) => {
   // Prevent clickjacking by restricting framing
