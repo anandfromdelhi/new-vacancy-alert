@@ -1002,6 +1002,8 @@ export default function HomePage() {
                 </h3>
                 <p className="text-xs font-medium leading-relaxed text-slate-600">
                   Select "Last Date: Soonest First" from the list sort dropdown menu to immediately prioritize application deadlines that are closing soon.
+                </p>
+              </div>
             </div>
           </section>
 
