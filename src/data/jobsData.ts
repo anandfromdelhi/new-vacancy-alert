@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'apsc-veterinary-officer-recruitment-2026',
+    b: 'Assam Public Service Commission (APSC), Guwahati',
+    t: 'APSC Veterinary Officer Recruitment 2026 (Advt No. 11/2026) – 137 Vacancies under Animal Husbandry & Veterinary Dept (Pay Scale ₹30,000-1,10,000 + GP ₹12,700) | Apply Online at apscrecruitment.in by 06 September 2026',
+    d: '03-08-2026',
+    l: '06-09-2026',
+    a: 'Advt. No. 11/2026 (eCF No. 819767/96 Dated 03-08-2026)',
+    q: 'Degree in Animal Husbandry & Veterinary Science (B.V.Sc & A.H.) + Permanent Resident of Assam / PRC (Age 21-38 Yrs)',
+    desc: 'Assam Public Service Commission (APSC) invites online applications for recruitment to 137 posts of Veterinary Officer / Block Veterinary Officer (VO/BVO) under Animal Husbandry & Veterinary Department, Govt of Assam. Pay Scale: Rs. 30,000 - 1,10,000/- with Grade Pay Rs. 12,700/- (Pay Band 4). Apply online at apscrecruitment.in from 07.08.2026 to 06.09.2026.',
+    u: 'https://apscrecruitment.in'
+  },
+  {
     id: 'mecl-executive-trainee-upsc-ese-recruitment-2026',
     b: 'Mineral Exploration and Consultancy Limited (MECL), Nagpur',
     t: 'MECL Executive Trainee Recruitment 2026 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers through UPSC ESE 2024 Score (Pay Scale ₹40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026',

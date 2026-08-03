@@ -58,6 +58,134 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'apsc-veterinary-officer-recruitment-2026': {
+    id: 'apsc-veterinary-officer-recruitment-2026',
+    seoTitle: 'APSC Veterinary Officer Recruitment 2026 Notification, 137 Vacancies, Apply Online | NewVacancyAlert',
+    seoDescription: 'APSC recruitment 2026 notification out for 137 Veterinary Officer / Block Veterinary Officer (VO/BVO) posts (Advt 11/2026). Check B.V.Sc & A.H eligibility, Pay Scale Rs 30000-110000 + GP 12700, apply online at apscrecruitment.in by 06 September 2026.',
+    focusKeywords: 'APSC Veterinary Officer Recruitment 2026, Assam Block Veterinary Officer Vacancy Advt 11 2026, APSC VO BVO Online Form, APSC B.V.Sc A.H Jobs Assam, apscrecruitment in',
+    lsiKeywords: 'APSC Veterinary Officer 137 Posts, Assam Animal Husbandry Recruitment, APSC VO Salary Grade Pay 12700, Assam Permanent Resident PRC Jobs, APSC VO Syllabus Exam Pattern',
+    title: 'APSC Veterinary Officer Recruitment 2026 (Advt No. 11/2026) – 137 Vacancies under Animal Husbandry & Veterinary Dept (Pay Scale ₹30,000-1,10,000 + GP ₹12,700) | Apply Online at apscrecruitment.in by 06 September 2026',
+    board: 'Assam Public Service Commission (APSC), Jawaharnagar, Khanapara, Guwahati',
+    advtNo: 'ADVT. NO. 11/2026 (eCF No. 819767/96 Dated 03.08.2026)',
+    vacancies: 137,
+    jobLocation: 'Assam (Animal Husbandry & Veterinary Department Offices & Dispensaries)',
+    applicationMode: 'Online Application Form (APSC OTR Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Assam Public Service Commission (APSC), Jawaharnagar, Khanapara, Guwahati, has issued official Advertisement No. 11/2026 for direct recruitment to 137 posts of Veterinary Officer / Block Veterinary Officer (VO/BVO) under the Animal Husbandry & Veterinary Department, Government of Assam.',
+      'Candidates holding a Degree in Animal Husbandry & Veterinary Science (B.V.Sc & A.H.) from a recognized university and holding permanent residency proof (PRC or Employment Exchange card) of Assam are eligible to apply.',
+      'The posts carry Pay Band 4 scale of Rs. 30,000/- to Rs. 1,10,000/- with Grade Pay of Rs. 12,700/- per month. Interested eligible candidates can register and apply online at https://apscrecruitment.in from 07 August 2026 to 06 September 2026.'
+    ],
+    highlights: [
+      { label: 'Recruitment Body', value: 'Assam Public Service Commission (APSC)' },
+      { label: 'Department Name', value: 'Animal Husbandry & Veterinary Department, Govt. of Assam' },
+      { label: 'Advertisement Number', value: 'ADVT. NO. 11/2026 (Dated 03-08-2026)' },
+      { label: 'Post Name', value: 'Veterinary Officer / Block Veterinary Officer (VO / BVO)' },
+      { label: 'Total Vacancies', value: '137 Posts (including 41 Reserved for Women & 4 PwBD)' },
+      { label: 'Pay Scale', value: 'Pay Band 4: Rs. 30,000 – Rs. 1,10,000/- + Grade Pay Rs. 12,700/-' },
+      { label: 'Educational Qualification', value: 'Degree in Animal Husbandry & Veterinary Science (B.V.Sc & A.H.)' },
+      { label: 'Residency Criteria', value: 'Permanent Resident of Assam (PRC / Employment Exchange Certificate)' },
+      { label: 'Age Limit', value: '21 to 38 Years as on 01.01.2026 (SC/ST: up to 43 Yrs, OBC/MOBC: up to 41 Yrs)' },
+      { label: 'Selection Mode', value: 'Screening Test / Written Examination followed by Viva-Voce / Interview' },
+      { label: 'Online Application Dates', value: '07 August 2026 to 06 September 2026' },
+      { label: 'Last Date for Fee Payment', value: '08 September 2026' },
+      { label: 'Application Fee', value: 'General: Rs. 297.20 | OBC/MOBC: Rs. 197.20 | SC/ST/BPL/PwBD: Rs. 47.20' },
+      { label: 'Official Website', value: 'https://apscrecruitment.in | http://www.apsc.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release Date', date: '03 August 2026' },
+      { event: 'Commencement of Online Application Form', date: '07 August 2026' },
+      { event: 'Closing Date for Submitting Online Application Form', date: '06 September 2026' },
+      { event: 'Last Date for Payment of Application Fee', date: '08 September 2026' },
+      { event: 'Examination / Screening Test Date', date: 'To be notified on APSC portal' }
+    ],
+    vacanciesDetails: [
+      { category: 'Open Category (Unreserved - UR)', count: '106 Posts (32 Reserved for Women)' },
+      { category: 'OBC / MOBC', count: '06 Posts (02 Reserved for Women)' },
+      { category: 'OBC / MOBC (Tea Tribe & Adivasi Community)', count: '01 Post (0 Reserved for Women)' },
+      { category: 'Schedule Caste (SC)', count: '11 Posts (03 Reserved for Women)' },
+      { category: 'Schedule Tribe Plains (STP)', count: '09 Posts (03 Reserved for Women)' },
+      { category: 'Schedule Tribe Hills (STH)', count: '04 Posts (01 Reserved for Women)' },
+      { category: 'Total Vacancies', count: '137 Posts (41 Reserved for Women)' },
+      { category: 'Persons with Benchmark Disabilities (PwBD)', count: '04 Posts (Blindness/LV: 1, Deaf/HI: 1, Locomotor: 1, Autism: 1)' },
+      { category: 'Ex-Servicemen Reservation', count: '02 Posts' }
+    ],
+    eligibility: {
+      education: [
+        'Must possess at least a Bachelor Degree in Animal Husbandry & Veterinary Science (B.V.Sc & A.H.) from any recognized University or Institution.',
+        'Residency Proof: Candidate must be an Indian Citizen and Permanent Resident of Assam. Upload copy of valid Permanent Resident Certificate (PRC) issued in Assam for educational purposes OR valid Employment Exchange Registration Certificate of Assam.'
+      ],
+      ageLimit: 'Minimum 21 Years and Maximum 38 Years as on 01 January 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years relaxation (Up to 43 Years)' },
+        { category: 'OBC / MOBC Candidates', relaxation: '3 Years relaxation (Up to 41 Years)' },
+        { category: 'Persons with Benchmark Disability (PwBD)', relaxation: '10 Years relaxation irrespective of category (Up to 48 Years)' },
+        { category: 'Ex-Servicemen Candidates', relaxation: 'Upper age limit up to 50 Years for UR (+3 yrs for OBC, +5 yrs for SC/ST)' }
+      ],
+      experience: [
+        'NIL / Fresh graduates allowed.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Band 4 (Assam State Government Scale)',
+      initialPay: 'Rs. 30,000/- to Rs. 1,10,000/- per month',
+      allowances: [
+        'Grade Pay: Rs. 12,700/- per month',
+        'Dearness Allowance (DA), House Rent Allowance (HRA), Medical Allowance, and Non-Practicing Allowance (NPA) as admissible under Assam Govt Rules'
+      ]
+    },
+    applicationFee: [
+      { category: 'General Category Candidates', fee: 'Rs. 250/- + Rs. 47.20 (Processing Fee) = Total Rs. 297.20', refund: 'Non-refundable' },
+      { category: 'OBC / MOBC Category Candidates', fee: 'Rs. 150/- + Rs. 47.20 (Processing Fee) = Total Rs. 197.20', refund: 'Non-refundable' },
+      { category: 'SC / ST / BPL / PwBD Candidates', fee: 'NIL Fee + Rs. 47.20 (Processing Fee) = Total Rs. 47.20', refund: 'Non-refundable' }
+    ],
+    howToPayFee: [
+      'Pay total application & CSC-SPV processing fee online using Debit Card, Credit Card, Net Banking, or GRAS portal during online form submission.'
+    ],
+    selectionProcess: [
+      { stage: 'Screening Test / Written Examination', description: 'Objective type / written screening examination conducted at designated zonal centers (Guwahati, Dibrugarh/Jorhat, Silchar, Nagaon, Tezpur, Kokrajhar).' },
+      { stage: 'Viva-Voce / Interview', description: 'Personal interview conducted by APSC for shortlisted candidates from written exam.' },
+      { stage: 'Document Verification', description: 'Verification of original B.V.Sc & A.H degree, marksheets, PRC/Employment Exchange registration, caste, and Small Family declaration.' }
+    ],
+    howToApply: [
+      'Visit the official APSC Recruitment Portal at https://apscrecruitment.in.',
+      'Click on "Register Here" and complete One-Time Registration (OTR) profile with basic details, mobile number, and email ID.',
+      'Log in with registered credentials and update OTR profile by uploading PRC/Employment Exchange Certificate, B.V.Sc & A.H degree marksheet, age proof, and caste certificate.',
+      'Go to active recruitment notifications and select "ADVT. NO. 11/2026 - Veterinary Officer / Block Veterinary Officer".',
+      'Fill in necessary application details, select exam zonal center preference, and upload recent photo (50-200 KB) and signature (50-200 KB).',
+      'Fill Small Family Norms Form-A declaration and preview application form.',
+      'Proceed to pay online application fee (Rs. 297.20 for UR; Rs. 197.20 for OBC; Rs. 47.20 for SC/ST/PwBD) and download final application printout.'
+    ],
+    documentsRequired: [
+      'Class 10th / 12th Admit Card / Pass Certificate / Marksheet (Proof of Date of Birth)',
+      'Permanent Resident Certificate (PRC) of Assam OR Assam Employment Exchange Registration Certificate',
+      'B.V.Sc & A.H. Degree Certificate and Marksheets (all semesters/years)',
+      'Scanned Recent Passport Photograph (50-200 KB, not older than 3 months)',
+      'Scanned Signature (50-200 KB)',
+      'Valid Caste Certificate for SC/ST/OBC/MOBC (issued by competent Assam authority)',
+      'BPL Certificate / PwBD Certificate / Ex-Servicemen Identity Card (if applicable)',
+      'Small Family Norms Declaration Form-A (as per Govt Notification ABP.69/2019/17)'
+    ],
+    importantInstructions: [
+      'Only Permanent Residents of Assam possessing valid PRC or Assam Employment Exchange Registration are eligible.',
+      'Mandatory submission of Small Family Norms declaration form during online application.',
+      'Government employees of Assam must upload NOC from their appointing authority during application.',
+      'Fees once paid will not be refunded under any circumstances.',
+      'Written/Screening examination will be held across 6 zones: Silchar, Jorhat, Nagaon, Tezpur, Kokrajhar, Guwahati.'
+    ],
+    urls: [
+      { label: 'APSC Online Recruitment Portal', url: 'https://apscrecruitment.in' },
+      { label: 'APSC Official Website', url: 'http://www.apsc.nic.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for APSC Veterinary Officer recruitment 2026?', answer: 'The last date to submit online application forms on apscrecruitment.in is 06 September 2026 (Fee payment till 08 September 2026).' },
+      { question: 'What is the pay scale for APSC Veterinary Officer / Block Veterinary Officer?', answer: 'The post carries Pay Band 4 scale of Rs. 30,000/- to Rs. 1,10,000/- per month with Grade Pay of Rs. 12,700/-.' },
+      { question: 'Is Assam PRC or Employment Exchange certificate compulsory?', answer: 'Yes, candidates must be permanent residents of Assam and submit a valid PRC or Assam Employment Exchange Registration Certificate.' },
+      { question: 'What is the educational qualification required for APSC VO/BVO?', answer: 'Degree in Animal Husbandry & Veterinary Science (B.V.Sc & A.H.) from a recognized University or Institute.' },
+      { question: 'What is the application fee for APSC Veterinary Officer recruitment?', answer: 'Total fee is Rs. 297.20 for General candidates, Rs. 197.20 for OBC/MOBC, and Rs. 47.20 for SC/ST/BPL/PwBD candidates.' }
+    ]
+  },
   'mecl-executive-trainee-upsc-ese-recruitment-2026': {
     id: 'mecl-executive-trainee-upsc-ese-recruitment-2026',
     seoTitle: 'MECL Executive Trainee Recruitment 2026 Notification, 13 Vacancies, UPSC ESE Score, Apply Online | NewVacancyAlert',
