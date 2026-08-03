@@ -58,6 +58,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'aiims-bathinda-faculty-recruitment-2026': {
+    id: 'aiims-bathinda-faculty-recruitment-2026',
+    seoTitle: 'AIIMS Bathinda Faculty Recruitment 2026 Notification, 77 Vacancies, Pay Level 12-14A | NewVacancyAlert',
+    seoDescription: 'AIIMS Bathinda recruitment 2026 notification out for 77 Faculty posts (Professor, Additional, Associate & Assistant Professor) on Direct Recruitment Basis. Check MD/MS eligibility, Pay Level 12 to 14A, submit Google Form by 21 Aug 2026 & Hard copy by 28 Aug 2026.',
+    focusKeywords: 'AIIMS Bathinda Faculty Recruitment 2026, AIIMS Bathinda Professor Assistant Professor Vacancy, AIIMS Bathinda Doctor Recruitment 2026, AIIMS Bathinda Application Form, aiimsbathinda edu in',
+    lsiKeywords: 'AIIMS Bathinda Faculty 77 Posts, AIIMS Bathinda Professor Salary Level 14A, Medical Faculty Jobs Punjab 2026, PMSSY Autonomous Institute Jobs, AIIMS Bathinda Recruitment Cell Address',
+    title: 'AIIMS Bathinda Faculty Recruitment 2026 (Advt AIIMS/BTI/RC/Faculty/2026/2373) – 77 Vacancies for Professor, Additional, Associate & Assistant Professor (Pay Level-12 to 14A) | Apply by 21 August 2026',
+    board: 'All India Institute of Medical Sciences (AIIMS), Bathinda, Punjab (Ministry of Health & Family Welfare, Govt of India)',
+    advtNo: 'Advt No. AIIMS/BTI/RC/Faculty/2026/2373 (Dated 31 July 2026)',
+    vacancies: 77,
+    jobLocation: 'AIIMS Bathinda, Mandi Dabwali Road, Bathinda - 151001, Punjab',
+    applicationMode: 'Dual Mode: Mandatory Online Google Form + Hard Copy Submission by Post',
+    applicationStatus: 'Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'All India Institute of Medical Sciences (AIIMS), Bathinda, an Autonomous Institute of National Importance under the Ministry of Health & Family Welfare, Govt of India, has published official advertisement AIIMS/BTI/RC/Faculty/2026/2373 for recruitment of Faculty (Group-A) posts.',
+      'A total of 77 faculty positions (17 Professor, 5 Additional Professor, 23 Associate Professor, and 32 Assistant Professor) are being filled across 34 medical & surgical departments on Direct Recruitment Basis.',
+      'Positions carry 7th CPC Pay Matrix scales ranging from Level-12 (Rs. 1,01,500 – 1,67,400/-) to Level-14-A (Rs. 1,68,900 – 2,20,400/-) plus Non-Practicing Allowance (NPA) and allowances.',
+      'Eligible medical specialists can submit the mandatory online Google Form by 21 August 2026 (05:00 PM) and send the hard copy of their application along with document proofs to reach AIIMS Bathinda by 28 August 2026 (05:00 PM).'
+    ],
+    highlights: [
+      { label: 'Recruitment Institute', value: 'All India Institute of Medical Sciences (AIIMS), Bathinda (Punjab)' },
+      { label: 'Institute Status', value: 'Autonomous Institute of National Importance (PMSSY, Ministry of Health & FW)' },
+      { label: 'Advertisement Ref', value: 'AIIMS/BTI/RC/Faculty/2026/2373 (Dated 31.07.2026)' },
+      { label: 'Post Cadres', value: 'Professor, Additional Professor, Associate Professor & Assistant Professor' },
+      { label: 'Total Vacancies', value: '77 Posts (Professor: 17 | Addl Prof: 5 | Assoc Prof: 23 | Asst Prof: 32)' },
+      { label: 'Pay Scales', value: '7th CPC Level-12 to Level-14-A (Rs. 1,01,500 to Rs. 2,20,400/- + NPA)' },
+      { label: 'Educational Qualification', value: 'MD / MS / DM / M.Ch / DNB / Ph.D in relevant specialty + NMC/MCI registration & teaching experience' },
+      { label: 'Upper Age Limit', value: 'Max 58 Yrs (Professor/Addl Prof) | Max 50 Yrs (Associate/Assistant Prof) as on 21.08.2026' },
+      { label: 'Application Fee', value: 'General / OBC / EWS: Rs. 2,360/- | SC / ST: Rs. 1,180/- | PwBD: NIL' },
+      { label: 'Google Form Deadline', value: '21 August 2026 by 05:00 PM IST' },
+      { label: 'Hard Copy Submission Deadline', value: '28 August 2026 by 05:00 PM IST' },
+      { label: 'Official Website', value: 'https://www.aiimsbathinda.edu.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release Date', date: '31 July 2026' },
+      { event: 'Crucial Date for Age, Qualification & Experience', date: '21 August 2026' },
+      { event: 'Last Date to Submit Online Google Form', date: '21 August 2026 (05:00 PM IST)' },
+      { event: 'Last Date for Receipt of Hard Copy Application Form', date: '28 August 2026 (05:00 PM IST)' },
+      { event: 'Personal Interview Schedule', date: 'To be notified on AIIMS Bathinda website' }
+    ],
+    vacanciesDetails: [
+      { category: 'Professor (Level-14A)', count: '17 Posts (UR: 4, OBC: 6, SC: 4, ST: 3)' },
+      { category: 'Additional Professor (Level-13A2+)', count: '05 Posts (UR: 1, OBC: 2, SC: 1, EWS: 1)' },
+      { category: 'Associate Professor (Level-13A1+)', count: '23 Posts (UR: 3, OBC: 12, SC: 3, ST: 3, EWS: 2)' },
+      { category: 'Assistant Professor (Level-12)', count: '32 Posts (UR: 11, OBC: 10, SC: 6, ST: 2, EWS: 3)' },
+      { category: 'Total Faculty Vacancies', count: '77 Posts' }
+    ],
+    eligibility: {
+      education: [
+        'Must possess a medical qualification included in the First or Second Schedule or Part II of the Third Schedule to the Indian Medical Council Act of 1956.',
+        'Postgraduate Qualification: MD / MS / DM / M.Ch / DNB in the respective discipline from a recognized University / Institute.',
+        'Must be registered with NMC / State Medical Council.',
+        'Teaching & Research Experience: Relevant teaching/research experience as per NMC/MCI regulations (14 yrs for Professor; 10 yrs for Addl Professor; 6 yrs for Assoc Professor; 3 yrs for Asst Professor after PG degree).'
+      ],
+      ageLimit: 'Maximum 58 Years for Professor & Additional Professor; Maximum 50 Years for Associate Professor & Assistant Professor as on 21 August 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years relaxation' },
+        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years relaxation' },
+        { category: 'Government Servants (Central/State)', relaxation: '5 Years relaxation as per DoPT rules' },
+        { category: 'PwBD / Ex-Servicemen Candidates', relaxation: 'As per DoPT Guidelines' }
+      ],
+      experience: [
+        'Assistant Professor: 3 years teaching/research experience in a recognized institution after obtaining MD/MS/DNB.',
+        'Associate Professor: 6 years teaching/research experience after obtaining MD/MS/DNB (of which 3 yrs as Asst Professor).',
+        'Additional Professor: 10 years teaching/research experience after obtaining MD/MS/DNB (of which 4 yrs as Assoc Professor).',
+        'Professor: 14 years teaching/research experience after obtaining MD/MS/DNB (of which 3 yrs as Addl Professor or 4 yrs as Assoc Professor).'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level 12 to 14-A',
+      initialPay: 'Rs. 1,01,500/- to Rs. 1,68,900/- basic pay per month',
+      allowances: [
+        'Professor: Level-14-A (Rs. 1,68,900 – Rs. 2,20,400/-)',
+        'Additional Professor: Level-13-A2+ (Rs. 1,48,200 – Rs. 2,11,400/-)',
+        'Associate Professor: Level-13-A1+ (Rs. 1,38,300 – Rs. 2,09,200/-)',
+        'Assistant Professor: Level-12 (Rs. 1,01,500 – Rs. 1,67,400/-)',
+        'Non-Practicing Allowance (NPA) @ 20% of basic pay + DA, HRA, TA, and Cell Phone/LTC benefits as per Central Govt rules'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS Candidates', fee: 'Rs. 2,360/- (including 18% GST)', refund: 'Non-refundable' },
+      { category: 'SC / ST Candidates', fee: 'Rs. 1,180/- (including 18% GST)', refund: 'Non-refundable' },
+      { category: 'Persons with Benchmark Disabilities (PwBD)', fee: 'NIL / Exempted', refund: 'No fee payable' }
+    ],
+    howToPayFee: [
+      'Pay application fee through Online Mode via SBI Collect Payment Gateway at https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=2322756.'
+    ],
+    selectionProcess: [
+      { stage: 'Scrutiny of Applications', description: 'Applications received by hard copy and Google form will be scrutinized by the Scrutiny Committee of AIIMS Bathinda.' },
+      { stage: 'Shortlisting / Screening Test (If required)', description: 'In case applicant numbers are high, shortlisting criteria or written screening exam may be conducted.' },
+      { stage: 'Personal Interview', description: 'Shortlisted eligible candidates will be called for physical personal interview before the Standing Selection Committee at AIIMS Bathinda.' },
+      { stage: 'Document Verification & Medical Exam', description: 'Verification of original PG degrees, medical council registration, experience certificates, and medical fitness.' }
+    ],
+    howToApply: [
+      'Fill mandatory Google Form online via link https://forms.gle/mCrJikTZRih6o6mF7 latest by 21 August 2026 (05:00 PM IST).',
+      'Visit www.aiimsbathinda.edu.in to download official Application Form (in MS Word format).',
+      'Fill application form carefully, attach self-attested copies of PG degree, marksheets, MCI/NMC registration, experience certificates, age proof, and category certificates.',
+      'Pay prescribed fee (Rs. 2,360/- for General/OBC/EWS; Rs. 1,180/- for SC/ST) via SBI Collect link (corpID: 2322756) and print transaction receipt.',
+      'Super-scribe on top of envelope: "APPLICATION FOR THE POST OF ......... DEPTT. OF .........".',
+      'Send hard copy by Speed Post or Registered Post to: "The Recruitment Cell, Administrative Block, Medical College Building, Mandi Dabwali Road, AIIMS, Bathinda-151001, Punjab" so as to reach on or before 28 August 2026 (05:00 PM IST).'
+    ],
+    documentsRequired: [
+      'Duly filled & signed application form with candidate brief profile',
+      'Class 10th / 12th Admit Card or Certificate (Age Proof)',
+      'MBBS & MD / MS / DM / M.Ch / DNB / Ph.D Degree Certificates & Marksheets',
+      'Medical Council Registration Certificate (NMC / State Medical Council)',
+      'Experience Certificates proving required post-PG teaching/research duration',
+      'SBI Collect Fee Payment Transaction Receipt',
+      'Valid Caste / Category Certificate (SC/ST/OBC-NCL/EWS in Govt of India format)',
+      'No Objection Certificate (NOC) if working in Govt / PSU / Autonomous Body',
+      'Two recent passport-size photographs'
+    ],
+    importantInstructions: [
+      'Both online Google Form submission (by 21 Aug 2026) and Hard Copy submission (by 28 Aug 2026) are MANDATORY.',
+      'OBC-NCL Certificate must be issued between 01.04.2026 and 21.08.2026 in Central Govt format.',
+      'EWS Certificate must be issued between 01.04.2026 and 21.08.2026 for FY 2025-2026.',
+      'Private practice of any kind is strictly prohibited for AIIMS faculty.',
+      'Selected candidates are governed by New Pension Scheme (NPS) and subject to 2 years probation.'
+    ],
+    urls: [
+      { label: 'AIIMS Bathinda Google Application Form', url: 'https://forms.gle/mCrJikTZRih6o6mF7' },
+      { label: 'AIIMS Bathinda SBI Collect Fee Payment', url: 'https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=2322756' },
+      { label: 'AIIMS Bathinda Official Website', url: 'https://www.aiimsbathinda.edu.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for AIIMS Bathinda Faculty recruitment 2026?', answer: 'Online Google Form submission closes on 21 August 2026 (05:00 PM). Hard copy of application form must reach AIIMS Bathinda by 28 August 2026 (05:00 PM).' },
+      { question: 'How many total faculty vacancies are announced at AIIMS Bathinda?', answer: 'A total of 77 Faculty posts are announced (17 Professor, 5 Additional Professor, 23 Associate Professor, and 32 Assistant Professor).' },
+      { question: 'What is the pay scale for Assistant Professor at AIIMS Bathinda?', answer: 'Assistant Professor post is in Pay Level-12 (Rs. 1,01,500 – Rs. 1,67,400/-) plus NPA @ 20% and central allowances.' },
+      { question: 'What is the application fee for AIIMS Bathinda faculty posts?', answer: 'Application fee is Rs. 2,360/- for General/OBC/EWS candidates and Rs. 1,180/- for SC/ST candidates (inclusive of 18% GST). PwBD candidates are exempted.' },
+      { question: 'Where should I send the hard copy of the application form?', answer: 'Send by Speed Post/Registered Post to: Recruitment Cell, Administrative Block, Medical College Building, Mandi Dabwali Road, AIIMS, Bathinda-151001, Punjab.' }
+    ]
+  },
   'apsc-veterinary-officer-recruitment-2026': {
     id: 'apsc-veterinary-officer-recruitment-2026',
     seoTitle: 'APSC Veterinary Officer Recruitment 2026 Notification, 137 Vacancies, Apply Online | NewVacancyAlert',

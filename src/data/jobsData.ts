@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'aiims-bathinda-faculty-recruitment-2026',
+    b: 'All India Institute of Medical Sciences (AIIMS), Bathinda',
+    t: 'AIIMS Bathinda Faculty Recruitment 2026 (Advt AIIMS/BTI/RC/Faculty/2026/2373) – 77 Vacancies for Professor, Additional, Associate & Assistant Professor (Pay Level-12 to 14A) | Apply by 21 August 2026',
+    d: '03-08-2026',
+    l: '21-08-2026',
+    a: 'Advt No. AIIMS/BTI/RC/Faculty/2026/2373 Dated 31.07.2026',
+    q: 'MD/MS/DM/M.Ch / DNB / Ph.D in concerned specialty + Teaching & Research Experience (Age Max 50-58 Yrs)',
+    desc: 'All India Institute of Medical Sciences (AIIMS), Bathinda invites offline & online Google Form applications for recruitment to 77 Faculty positions (Professor, Additional Professor, Associate Professor, Assistant Professor) on Direct Recruitment Basis. Pay Level 12 to Level 14-A (Rs 1,01,500 - 2,20,400 + NPA). Online Google Form submit by 21.08.2026 & Hard Copy receipt by 28.08.2026.',
+    u: 'https://www.aiimsbathinda.edu.in'
+  },
+  {
     id: 'apsc-veterinary-officer-recruitment-2026',
     b: 'Assam Public Service Commission (APSC), Guwahati',
     t: 'APSC Veterinary Officer Recruitment 2026 (Advt No. 11/2026) – 137 Vacancies under Animal Husbandry & Veterinary Dept (Pay Scale ₹30,000-1,10,000 + GP ₹12,700) | Apply Online at apscrecruitment.in by 06 September 2026',
