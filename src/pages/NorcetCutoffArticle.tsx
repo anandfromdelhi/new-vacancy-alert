@@ -19,7 +19,7 @@ import CommentsSection from '../components/CommentsSection';
 import { useAuth } from '../context/AuthContext';
 
 export default function NorcetCutoffArticle() {
-  const { requireAuthForAction } = useAuth();
+  const { requireAuthForDownloadAction } = useAuth();
   const [scrollProgress, setScrollProgress] = useState(0);
   const [activeSection, setActiveSection] = useState('hero');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ export default function NorcetCutoffArticle() {
   };
 
   const startPdfDownload = () => {
-    requireAuthForAction(
+    requireAuthForDownloadAction(
       executePdfDownload,
       "Google Sign-In Required for PDF Download",
       "Please sign in with your Google Account to download AIIMS NORCET Cutoff Marks & Analysis as a PDF."

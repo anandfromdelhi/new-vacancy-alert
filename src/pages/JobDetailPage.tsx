@@ -55,7 +55,7 @@ export default function JobDetailPage() {
   const [showDock, setShowDock] = useState(false);
   const [dockQuery, setDockQuery] = useState('');
   const [flashedSection, setFlashedSection] = useState<string | null>(null);
-  const { requireAuthForAction } = useAuth();
+  const { requireAuthForAction, requireAuthForDownloadAction } = useAuth();
   const [faqSearch, setFaqSearch] = useState('');
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
@@ -71,7 +71,7 @@ export default function JobDetailPage() {
   };
 
   const startPdfDownload = () => {
-    requireAuthForAction(
+    requireAuthForDownloadAction(
       executePdfDownload,
       "Google Sign-In Required for PDF Download",
       "Please sign in with your Google Account to download complete recruitment details as a clean PDF document."
@@ -210,7 +210,7 @@ export default function JobDetailPage() {
   };
 
   const handleDownloadDvChecklist = () => {
-    requireAuthForAction(
+    requireAuthForDownloadAction(
       executeDownloadDvChecklist,
       "Google Sign-In Required",
       "Please sign in with Google to download the Document Verification Checklist."

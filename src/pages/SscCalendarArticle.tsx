@@ -13,11 +13,11 @@ import CommentsSection from '../components/CommentsSection';
 import { useAuth } from '../context/AuthContext';
 
 export default function SscCalendarArticle() {
-  const { requireAuthForAction } = useAuth();
+  const { requireAuthForDownloadAction } = useAuth();
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleDownloadPdf = () => {
-    requireAuthForAction(
+    requireAuthForDownloadAction(
       () => window.print(),
       "Google Sign-In Required for PDF Download",
       "Sign in with Google to download or save the official SSC Exam Calendar PDF."

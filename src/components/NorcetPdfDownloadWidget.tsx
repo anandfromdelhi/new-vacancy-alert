@@ -13,7 +13,7 @@ export default function NorcetPdfDownloadWidget({
   title = 'AIIMS NORCET Previous Years Solved Question Papers (2017–2023)',
   subtitle = 'Download 8+ Full Solved Exam Question Papers with Answer Keys (AIIMS Raipur, Jodhpur, Bhopal, Delhi, NORCET 2020–2023) in PDF format.'
 }: NorcetPdfDownloadWidgetProps) {
-  const { user, requireAuthForAction } = useAuth();
+  const { user, requireAuthForDownloadAction } = useAuth();
   const [downloadSuccess, setDownloadSuccess] = useState<boolean>(false);
 
   const candidatePaths = [
@@ -49,7 +49,7 @@ export default function NorcetPdfDownloadWidget({
   };
 
   const handleDownloadClick = () => {
-    requireAuthForAction(
+    requireAuthForDownloadAction(
       triggerDirectDownload,
       "Google Sign-In Required for PDF Download",
       "Please sign in with your Google Account to unlock and download AIIMS NORCET Solved Papers PDF for free."

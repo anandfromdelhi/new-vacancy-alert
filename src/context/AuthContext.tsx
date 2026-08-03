@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 import { User, onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
 import { auth, googleProvider } from '../lib/firebase';
 import GoogleLoginModal from '../components/GoogleLoginModal';
+import { executeGatedPdfDownload, getTodayDownloadCount, canDownloadPdf } from '../utils/downloadTracker';
 
 interface AuthContextType {
   user: User | null;
@@ -14,6 +15,9 @@ interface AuthContextType {
   openLoginModal: (onSuccessAction?: () => void, title?: string, subtitle?: string) => void;
   closeLoginModal: () => void;
   requireAuthForAction: (action: () => void, title?: string, subtitle?: string) => void;
+  requireAuthForDownloadAction: (action: () => void, title?: string, subtitle?: string) => void;
+  getTodayDownloadCount: () => number;
+  canDownloadPdf: () => boolean;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -93,6 +97,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const requireAuthForDownloadAction = (action: () => void, title?: string, subtitle?: string) => {
+    if (user) {
+      executeGatedPdfDownload(user.uid, action);
+    } else {
+      openLoginModal(() => {
+        const currentUser = auth.currentUser;
+        executeGatedPdfDownload(currentUser?.uid, action);
+      }, title, subtitle);
+    }
+  };
+
+  const getUserDownloadCount = () => {
+    return getTodayDownloadCount(user?.uid);
+  };
+
+  const checkCanDownloadPdf = () => {
+    return canDownloadPdf(user?.uid);
+  };
+
   return (
     <AuthContext.Provider
       value={{
@@ -105,7 +128,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         loginModalSubtitle,
         openLoginModal,
         closeLoginModal,
-        requireAuthForAction
+        requireAuthForAction,
+        requireAuthForDownloadAction,
+        getTodayDownloadCount: getUserDownloadCount,
+        canDownloadPdf: checkCanDownloadPdf
       }}
     >
       {children}
