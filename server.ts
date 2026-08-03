@@ -8,6 +8,72 @@ import { generateRssXml } from "./src/utils/rssGenerator.js";
 const app = express();
 const PORT = 3000;
 
+// Security: Disable server fingerprinting header
+app.disable("x-powered-by");
+
+// Rate Limiting (In-Memory IP Rate Limiter)
+const ipRequestMap = new Map<string, { count: number; resetTime: number }>();
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
+const MAX_REQUESTS_PER_WINDOW = 500; // max requests per 15 mins per IP
+
+function rateLimiter(req: express.Request, res: express.Response, next: express.NextFunction) {
+  const clientIp = (req.headers["x-forwarded-for"] as string || req.socket.remoteAddress || "unknown").split(",")[0].trim();
+  const now = Date.now();
+
+  const record = ipRequestMap.get(clientIp);
+  if (!record || now > record.resetTime) {
+    ipRequestMap.set(clientIp, { count: 1, resetTime: now + RATE_LIMIT_WINDOW_MS });
+    return next();
+  }
+
+  if (record.count >= MAX_REQUESTS_PER_WINDOW) {
+    res.setHeader("Retry-After", "900");
+    return res.status(429).send("Too Many Requests. Please try again later.");
+  }
+
+  record.count += 1;
+  next();
+}
+
+app.use(rateLimiter);
+
+// Security Middleware: Set production HTTP security headers
+app.use((req, res, next) => {
+  // Prevent clickjacking by restricting framing
+  res.setHeader("X-Frame-Options", "DENY");
+  // Prevent MIME type sniffing
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  // Enforce HTTPS (HSTS) in production
+  if (process.env.NODE_ENV === "production" || req.headers["x-forwarded-proto"] === "https") {
+    res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+  }
+  // Referrer policy
+  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  // Restrict sensitive browser APIs
+  res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=()");
+  // Cross-Origin Isolation & Popups
+  res.setHeader("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
+  res.setHeader("Cross-Origin-Resource-Policy", "same-origin");
+
+  // Content-Security-Policy: Allow trusted domain scripts, styles, fonts, and connections
+  const cspHeader = [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://cdn.onesignal.com https://mittengulped.com https://apis.google.com https://*.firebaseapp.com",
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+    "font-src 'self' https://fonts.gstatic.com data:",
+    "img-src 'self' data: blob: https: http:",
+    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://onesignal.com https://*.onesignal.com https://pagead2.googlesyndication.com https://mittengulped.com",
+    "frame-src 'self' https://*.firebaseapp.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://mittengulped.com",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-ancestors 'none'"
+  ].join("; ");
+
+  res.setHeader("Content-Security-Policy", cspHeader);
+  next();
+});
+
 // Helper to escape HTML attributes safely
 function escapeHtml(str: string): string {
   return str

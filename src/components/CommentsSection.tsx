@@ -152,13 +152,21 @@ export default function CommentsSection({ pageId, pageTitle = 'Discussion & Q&A'
     setSubmitting(true);
     setSuccessMsg('');
 
+    // Input sanitization: Strip dangerous script vectors & event attributes
+    const cleanContent = content
+      .trim()
+      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+      .replace(/on\w+="[^"]*"/gi, '')
+      .replace(/on\w+='[^']*'/gi, '')
+      .replace(/javascript:/gi, '');
+
     const newCommentData = {
       page_id: pageId,
       author_name: displayName,
       author_role: authorRole.trim() || 'Aspirant',
       author_uid: user.uid || '',
       author_email: user.email || '',
-      content: content.trim(),
+      content: cleanContent,
       likes_count: 0,
       parent_id: replyToId || null,
       created_at: new Date().toISOString(),
