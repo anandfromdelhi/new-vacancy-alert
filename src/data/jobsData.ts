@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'gsssb-horticulture-assistant-recruitment-2026',
+    b: 'Gujarat Subordinate Service Selection Board (GSSSB), Gujarat',
+    t: 'GSSSB Horticulture Assistant Recruitment 2026 (Advt 454/2026-27) – 100 Vacancies in Agriculture & Farmers Welfare Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 17 August 2026',
+    d: '03-08-2026',
+    l: '17-08-2026 (23:59 Hrs)',
+    a: 'Advt. No. 454/2026-27 Dated 03-08-2026',
+    q: 'Diploma in Horticulture from Agricultural University Polytechnic + Computer Knowledge (Age 18-33 Yrs)',
+    desc: 'Gujarat Subordinate Service Selection Board (GSSSB) invites online applications for direct recruitment to 100 posts of Horticulture Assistant, Class-III in the Agriculture, Farmers Welfare and Co-operation Department, Govt of Gujarat. Qualification: Diploma in Horticulture with basic computer knowledge. Fixed Pay: Rs. 26,000/pm for first 5 years. Apply online via OJAS portal from 03.08.2026 to 17.08.2026.',
+    u: 'https://ojas.gujarat.gov.in'
+  },
+  {
     id: 'gsssb-multipurpose-health-supervisor-recruitment-2026',
     b: 'Gujarat Subordinate Service Selection Board (GSSSB), Gujarat',
     t: 'GSSSB Multi-Purpose Health Supervisor Recruitment 2026 (Advt 452/2026-27) – 119 Vacancies in Health Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 15 August 2026',

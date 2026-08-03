@@ -58,6 +58,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'gsssb-horticulture-assistant-recruitment-2026': {
+    id: 'gsssb-horticulture-assistant-recruitment-2026',
+    seoTitle: 'GSSSB Horticulture Assistant Recruitment 2026 Notification, 100 Vacancies, Syllabus, Pay, Apply Online | NewVacancyAlert',
+    seoDescription: 'GSSSB recruitment 2026 notification out for 100 Horticulture Assistant Class-III posts in Gujarat Agriculture Dept (Advt 454/2026-27). Check Horticulture Diploma eligibility, fixed pay Rs. 26000, 210-mark exam syllabus, apply online at ojas.gujarat.gov.in.',
+    focusKeywords: 'GSSSB Horticulture Assistant Recruitment 2026, Gujarat Bagayat Madadnish Vacancy Advt 454 2026, GSSSB Horticulture Assistant Online Form, OJAS Gujarat Horticulture Jobs, ojas gujarat gov in',
+    lsiKeywords: 'GSSSB Class 3 Horticulture Assistant 100 Posts, GSSSB Horticulture Diploma Jobs 2026, GSSSB Horticulture Salary 26000, GSSSB Horticulture Assistant Syllabus 210 Marks, OJAS Application Fee Refund',
+    title: 'GSSSB Horticulture Assistant Recruitment 2026 (Advt 454/2026-27) – 100 Vacancies in Agriculture & Farmers Welfare Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 17 August 2026',
+    board: 'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar, Government of Gujarat',
+    advtNo: 'Advertisement No. 454/2026-27 Dated 03-08-2026',
+    vacancies: 100,
+    jobLocation: 'Gujarat State (Directorate of Horticulture, Agriculture & Farmers Welfare Dept)',
+    applicationMode: 'Online Application Form (OJAS Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar, has released official Advertisement No. 454/2026-27 for direct recruitment to 100 posts of Horticulture Assistant, Class-III (બાગાયત મદદનીશ, વર્ગ-૩) under the Directorate of Horticulture, Department of Agriculture, Farmers Welfare and Co-operation, Government of Gujarat.',
+      'Candidates holding a Diploma in Horticulture from a recognized Polytechnic of an Agricultural/Horticultural University along with basic computer knowledge are eligible to apply.',
+      'Selected candidates will receive a fixed monthly salary of Rs. 26,000/- for the first 5 years, following which regular appointment in Pay Level-4 (Rs. 25,500 – Rs. 81,100) will be granted subject to satisfactory performance. Eligible male and female candidates can submit online application forms on OJAS portal (https://ojas.gujarat.gov.in) from 03 August 2026 (14:00 Hrs) to 17 August 2026 (23:59 Hrs).'
+    ],
+    highlights: [
+      { label: 'Recruitment Board', value: 'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar' },
+      { label: 'Department Name', value: 'Directorate of Horticulture, Dept of Agriculture, Farmers Welfare & Co-operation' },
+      { label: 'Advertisement Number', value: 'Advt. No. 454/2026-27' },
+      { label: 'Post Name', value: 'Horticulture Assistant, Class-III (બાગાયત મદદનીશ, વર્ગ-૩)' },
+      { label: 'Total Vacancies', value: '100 Posts (Male & Female Both Eligible)' },
+      { label: 'Fixed Pay (First 5 Yrs)', value: 'Rs. 26,000/- per month' },
+      { label: 'Regular Pay Scale (After 5 Yrs)', value: 'Pay Level-4 (Rs. 25,500 – Rs. 81,100)' },
+      { label: 'Educational Qualification', value: 'Diploma in Horticulture from recognized Agriculture Polytechnic' },
+      { label: 'Age Limit', value: '18 to 33 Years (as on 17.08.2026)' },
+      { label: 'Selection Mode', value: 'Single-Stage MCQ Examination (CBRT/OMR) - 210 Marks' },
+      { label: 'Minimum Qualifying Marks', value: '40% separately in Part-A and Part-B' },
+      { label: 'Online Application Dates', value: '03 August 2026 (14:00 Hrs) to 17 August 2026 (23:59 Hrs)' },
+      { label: 'Application Fee', value: 'UR: Rs. 500 | Reserved Categories (SEBC/SC/ST/EWS/Women/PwD): Rs. 400 (Refundable upon exam appearance)' },
+      { label: 'Official Portal', value: 'https://ojas.gujarat.gov.in | https://gsssb.gujarat.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '03 August 2026' },
+      { event: 'Commencement of Online Application Form', date: '03 August 2026 (14:00 Hrs)' },
+      { event: 'Last Date for Online Application Submission', date: '17 August 2026 (23:59 Hrs)' },
+      { event: 'Last Date for Online Fee Payment', date: '20 August 2026 (23:59 Hrs)' },
+      { event: 'Age & Qualification Cut-off Date', date: '17 August 2026' },
+      { event: 'Written MCQ Exam Date', date: 'To be announced on GSSSB portal' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: '41 Posts (General: 28, Women: 13)' },
+      { category: 'Socially & Educationally Backward Class (SEBC)', count: '27 Posts (General: 19, Women: 8)' },
+      { category: 'Scheduled Tribe (ST)', count: '15 Posts (General: 11, Women: 4)' },
+      { category: 'Economically Weaker Section (EWS)', count: '10 Posts (General: 7, Women: 3)' },
+      { category: 'Scheduled Caste (SC)', count: '07 Posts (General: 5, Women: 2)' },
+      { category: 'Total Vacancies', count: '100 Posts (30 Posts Reserved for Women)' },
+      { category: 'Ex-Servicemen Horizontal Reservation', count: '10 Posts' },
+      { category: 'Persons with Disabilities (PwD) Reservation', count: '04 Posts' }
+    ],
+    eligibility: {
+      education: [
+        'Must possess a Diploma in Horticulture obtained from a Polytechnic of an Agriculture/Horticulture University established under relevant Central or State Agriculture/Horticulture Universities legislation in India.',
+        'Computer Knowledge: Must possess basic computer knowledge certificate/diploma OR have passed Class 10th/12th with Computer as a subject (or pass prescribed exam before appointment).',
+        'Language Requirement: Must possess adequate knowledge of Gujarati or Hindi or both.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 33 Years as on 17 August 2026.',
+      ageRelaxation: [
+        { category: 'Unreserved (General) Women Candidates', relaxation: '5 Years relaxation (Up to 40 Years)' },
+        { category: 'Reserved Category Male Candidates (SC / ST / SEBC / EWS)', relaxation: '5 Years relaxation (Up to 40 Years)' },
+        { category: 'Reserved Category Women Candidates (SC / ST / SEBC / EWS)', relaxation: '10 Years relaxation (Up to 45 Years)' },
+        { category: 'General Category Candidates with Disability (PwD)', relaxation: '10 Years relaxation (Up to 43/45 Years)' },
+        { category: 'Ex-Servicemen', relaxation: 'Period of service plus 3 years' }
+      ],
+      experience: [
+        'No prior work experience is required. Diploma holders in Horticulture are directly eligible.'
+      ]
+    },
+    salary: {
+      payLevel: 'Fixed Pay for 5 Years & Level-4 Matrix (After 5 Years)',
+      initialPay: 'Rs. 26,000/- per month (Fixed Pay for first 5 years)',
+      allowances: [
+        'Fixed monthly pay of Rs. 26,000/- per month for the first 5 years',
+        'Regular appointment after 5 years in Level-4 Pay Scale (Rs. 25,500 – Rs. 81,100) with DA, HRA, and state allowances'
+      ]
+    },
+    applicationFee: [
+      { category: 'Unreserved / General Candidates', fee: 'Rs. 500/-', refund: 'Refundable if candidate appears in exam' },
+      { category: 'Reserved Categories (SEBC, SC, ST, EWS, Women, PwD, Ex-Servicemen)', fee: 'Rs. 400/-', refund: 'Refundable if candidate appears in exam' }
+    ],
+    howToPayFee: [
+      'Pay exam fee online through OJAS payment link using Net Banking, Debit/Credit Card, UPI or Mobile Wallet by 20 August 2026 (23:59 Hrs).'
+    ],
+    selectionProcess: [
+      { stage: 'Single-Stage Objective MCQ Examination (CBRT / OMR - 210 Marks)', description: '3-Hour (180 Mins) competitive exam carrying 210 Questions for 210 Marks.' },
+      { stage: 'Part-A: General Ability & Aptitude (90 Marks)', description: 'Reasoning & Data Interpretation (30 Marks), Quantitative Aptitude (30 Marks), Constitution of India (10 Marks), Current Affairs (10 Marks), Gujarati & English Comprehension (10 Marks).' },
+      { stage: 'Part-B: Technical Horticulture Subject Knowledge (120 Marks)', description: 'Fruit Science (20 Marks), Vegetable Science (20 Marks), Floriculture & Landscape Architecture (20 Marks), Post-harvest Technology (20 Marks), Natural Resource Management (10 Marks), Plant Protection (10 Marks), Basic Science (10 Marks), Social Science (10 Marks).' },
+      { stage: 'Qualifying Cut-off & Negative Marking', description: 'Minimum 40% qualifying marks separately in Part-A and Part-B. Negative marking of 0.25 marks (1/4th) per wrong answer.' },
+      { stage: 'Bonus Marks & Document Verification', description: '+5% bonus marks for Widowed Women and Sports Certificate holders. Document verification of top candidates (approx. 2x of vacancies).' }
+    ],
+    howToApply: [
+      'Visit the official OJAS Gujarat website at https://ojas.gujarat.gov.in.',
+      'Navigate to "Online Application" -> "Apply" -> Select GSSSB / 202627 / 454 - Horticulture Assistant, Class-III.',
+      'Click on "Apply Now", fill up Personal, Academic, and Category details.',
+      'Save the application form and record your unique Application Number.',
+      'Upload recent passport size photograph (white background, < 1 yr old) and signature.',
+      'Verify all details carefully and click "Confirm Application".',
+      'Pay application fee (Rs. 500 for General; Rs. 400 for Reserved/Women) on OJAS payment gateway by 20 August 2026 (23:59 Hrs).',
+      'Print and save the confirmed application form and e-receipt for future recruitment stages.'
+    ],
+    documentsRequired: [
+      'Class 10th & 12th Marksheets and Passing Certificates',
+      'Diploma in Horticulture Certificate & Marksheets from Agriculture Polytechnic',
+      'Basic Computer Knowledge Certificate',
+      'School Leaving Certificate / Birth Certificate for Date of Birth proof',
+      'Caste Certificate / Non-Creamy Layer (NCL) Certificate (for SC/ST/SEBC candidates)',
+      'EWS Certificate (issued between 01 April 2026 and 17 August 2026)',
+      'Disability / Ex-Servicemen Certificate (if applicable)',
+      'Widow Certificate / Sports Certificate (for claiming 5% bonus marks)',
+      'Scanned Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Both Male and Female candidates holding a Diploma in Horticulture are eligible to apply.',
+      'Minimum qualifying standard is 40% separately in Part-A and Part-B of the MCQ exam.',
+      'Examination fee will be refunded to candidates who appear in the written exam.',
+      '0.25 negative marking applies for incorrect answers in the MCQ test.',
+      'Application must be confirmed on OJAS portal before 17 August 2026 (23:59 Hrs).'
+    ],
+    urls: [
+      { label: 'OJAS Gujarat Online Application Portal', url: 'https://ojas.gujarat.gov.in' },
+      { label: 'GSSSB Official Website', url: 'https://gsssb.gujarat.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for GSSSB Horticulture Assistant recruitment 2026?', answer: 'The last date to submit online application forms on ojas.gujarat.gov.in is 17 August 2026 (up to 23:59 Hrs). Online fee payment can be done till 20 August 2026.' },
+      { question: 'What is the educational qualification for GSSSB Horticulture Assistant Class-III?', answer: 'Candidate must possess a Diploma in Horticulture from a Polytechnic of a recognized Agriculture/Horticulture University with basic computer knowledge.' },
+      { question: 'What is the fixed monthly pay for GSSSB Horticulture Assistant post?', answer: 'Selected candidates get a fixed monthly salary of Rs. 26,000/- for the first 5 years. After 5 years, regular appointment is granted in Pay Level-4 (Rs. 25,500 – Rs. 81,100).' },
+      { question: 'Is examination fee refundable in GSSSB Horticulture Assistant recruitment?', answer: 'Yes, candidates who actually appear for the MCQ written examination will get a refund of their examination fee.' },
+      { question: 'What is the exam syllabus and marks distribution for GSSSB Horticulture Assistant?', answer: 'It is a 210-mark MCQ test (3 Hours) consisting of Part-A (90 marks: Reasoning 30, Quant 30, Constitution 10, Current Affairs 10, Gujarati/English 10) and Part-B (120 marks: Horticulture Technical Subject Knowledge) with 0.25 negative marking.' }
+    ]
+  },
   'gsssb-multipurpose-health-supervisor-recruitment-2026': {
     id: 'gsssb-multipurpose-health-supervisor-recruitment-2026',
     seoTitle: 'GSSSB Multi-Purpose Health Supervisor Recruitment 2026 Notification, 119 Vacancies, Syllabus, Pay, Apply Online | NewVacancyAlert',
