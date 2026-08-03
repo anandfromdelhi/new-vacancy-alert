@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'mssc-manipur-special-primary-teacher-recruitment-2026',
+    b: 'Manipur Staff Selection Commission (MSSC), Govt of Manipur',
+    t: 'MSSC Manipur Special Primary Teacher Recruitment 2026 (Advt 02/2026) – 80 Vacancies in Education (S) Dept (Pay Level 6) | Apply Online at manipurssc.mn.gov.in by 20 August 2026',
+    d: '03-08-2026',
+    l: '20-08-2026 (5:00 PM)',
+    a: 'Advt. No. 02/2026 (File No. MS-SSC/1/2026-MSSC-MSSC)',
+    q: '10+2 (12th) with 50% Marks + D.Ed / D.El.Ed in Special Education with RCI CRR + Passed TET-1 (Age 18-38 Yrs)',
+    desc: 'Manipur Staff Selection Commission (MSSC) invites online applications from Employment Exchange sponsored candidates of Manipur for 80 regular posts of Special Primary Teacher in Education (S) Department. Pay Level 6 (Group-C Non-Gazetted). Qualification: 12th with 50% marks + D.Ed / D.El.Ed in Special Education (RCI CRR Number) + Passed TET-1. Selection through 100-mark CBT (GK, Maths, English). Application fee Rs. 400/- (SC/ST Rs. 200/-, PwD Exempted). Apply online at manipurssc.mn.gov.in from 31.07.2026 to 20.08.2026.',
+    u: 'https://manipurssc.mn.gov.in'
+  },
+  {
     id: 'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026',
     b: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division No-1 Kasumpti Shimla',
     t: 'HP Jal Shakti Vibhag Shimla Recruitment 2026 – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Worker (Honorarium up to Rs. 7,100/PM) | Apply Offline by 20 August 2026',

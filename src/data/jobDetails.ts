@@ -58,6 +58,132 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'mssc-manipur-special-primary-teacher-recruitment-2026': {
+    id: 'mssc-manipur-special-primary-teacher-recruitment-2026',
+    seoTitle: 'MSSC Manipur Special Primary Teacher Recruitment 2026 Notification, Eligibility, Syllabus, Salary, Apply Online | NewVacancyAlert',
+    seoDescription: 'MSSC Manipur Special Primary Teacher recruitment 2026 notification out for 80 vacancies in Education (S) Dept. Check 12th, D.Ed Special Education RCI, TET-1 eligibility, age limit 18-38 yrs, Level 6 salary, CBT exam syllabus, apply online at manipurssc.mn.gov.in.',
+    focusKeywords: 'MSSC Manipur Special Primary Teacher Recruitment 2026, Manipur SSC Special Primary Teacher Advt 02 2026, Manipur D Ed Special Education Jobs, MSSC Level 6 Pay Salary, manipurssc.mn.gov.in',
+    lsiKeywords: 'Manipur Special Education Primary Teacher Vacancy 2026, Manipur TET Paper 1 Primary Teacher Jobs, RCI CRR Special Education Teacher Manipur, MSSC CBT Exam Pattern Syllabus 2026, MSSC Employment Exchange Online Form',
+    title: 'MSSC Manipur Special Primary Teacher Recruitment 2026 (Advt 02/2026) – 80 Vacancies in Education (S) Dept (Pay Level-6) | Apply Online at manipurssc.mn.gov.in by 20 August 2026',
+    board: 'Manipur Staff Selection Commission (MSSC), DC Office Complex Imphal West, Lamphelpat, Manipur – 795004',
+    advtNo: 'Advt. No. 02/2026 (File No. MS-SSC/1/2026-MSSC-MSSC) Dated 22/07/2026',
+    vacancies: 80,
+    jobLocation: 'Manipur State (Schools under Education-S Department)',
+    applicationMode: 'Online Application Form (Sponsored by Employment Exchange)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Manipur Staff Selection Commission (MSSC), Imphal, has issued official advertisement No. 02/2026 inviting online applications for recruitment to 80 regular posts of Special Primary Teachers in the Education (S) Department, Government of Manipur.',
+      'The posts carry Pay Level 6 under the Manipur Services (Revised Pay) Rules and are classified as Group-C Non-Gazetted. Candidates must be sponsored by the concerned Employment Exchange of Manipur to submit online applications.',
+      'Eligible candidates with 10+2 (12th Class) with minimum 50% marks, D.Ed. in Special Education with valid Rehabilitation Council of India (RCI) CRR number, and qualified State TET-1 can apply online at https://manipurssc.mn.gov.in from 31 July 2026 (5:00 PM) to 20 August 2026 (5:00 PM).'
+    ],
+    highlights: [
+      { label: 'Commission Name', value: 'Manipur Staff Selection Commission (MSSC)' },
+      { label: 'Department', value: 'Education (S) Department, Govt. of Manipur' },
+      { label: 'Advertisement No.', value: 'Advt. No. 02/2026' },
+      { label: 'Post Name', value: 'Special Primary Teacher' },
+      { label: 'Service Group & Pay Scale', value: 'Group-C Non-Gazetted | Level-6 Pay Matrix' },
+      { label: 'Total Vacancies', value: '80 Posts (UR: 42, ST: 24, SC: 01, OBC-Meitei: 10, OBC-MP: 03; PwD: 03)' },
+      { label: 'Qualification', value: '10+2 (50% Marks) + D.Ed / D.El.Ed Special Education (RCI CRR) + TET-1' },
+      { label: 'Age Limit', value: '18 to 38 Years (as on 22.07.2026)' },
+      { label: 'Examination Mode', value: 'Computer Based Test (CBT) - 100 MCQs (No Negative Marking)' },
+      { label: 'Online Apply Dates', value: '31.07.2026 (5:00 PM) to 20.08.2026 (5:00 PM)' },
+      { label: 'Official Website', value: 'https://manipurssc.mn.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '22 July 2026' },
+      { event: 'Commencement of Online Application Submission', date: '31 July 2026 (from 5:00 PM)' },
+      { event: 'Last Date & Time for Online Application Submission', date: '20 August 2026 (up to 5:00 PM)' },
+      { event: 'Last Date for Online Fee Payment', date: '20 August 2026 (5:00 PM)' },
+      { event: 'CBT Examination Date & e-Admit Card Download', date: 'To be notified separately on MSSC website' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: 42 },
+      { category: 'Scheduled Tribe (ST)', count: 24 },
+      { category: 'Scheduled Caste (SC)', count: 1 },
+      { category: 'OBC (Meitei / C-M)', count: 10 },
+      { category: 'OBC (Meitei Pangal / MP)', count: 3 },
+      { category: 'Persons with Benchmark Disabilities (PwD)', count: '3 Posts (Horizontal: Blindness 1, Deaf 1, Locomotor 1)' },
+      { category: 'Total Special Primary Teacher Vacancies', count: 80 }
+    ],
+    eligibility: {
+      education: [
+        'Class 10+2 (or its equivalent) with at least 50% marks from a recognized University / Board (OR 10+2 with 45% marks in accordance with NCTE 2002 Regulations). AND',
+        'D.Ed. in Special Education from a Rehabilitation Council of India (RCI) approved Institute and possess a valid RCI CRR Number OR D.El.Ed. with recognized RCI qualification equivalent to D.Ed. in Special Education with valid RCI CRR number. AND',
+        '6 months training of teaching in cross disability area in inclusive education (if proposed program is not available, recruited candidates with D.Ed Special Education must undergo aforesaid training as soon as conducted). AND',
+        'Passed Teacher Eligibility Test-1 (TET-1 / Paper 1) conducted by the State Govt. or any other agency approved by NCTE.',
+        'Domicile & Language: Must be a citizen of India, permanent resident of Manipur, able to speak Manipuri or any tribal dialect of Manipur, and sponsored by concerned Employment Exchange of Manipur.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 38 Years as on date of advertisement (22.07.2026). Upper age limit is relaxable for SC/ST, OBC, and Manipur Govt servants.',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years (Up to 43 Years)' },
+        { category: 'OBC (Meitei / Meitei Pangal) Candidates', relaxation: '3 Years (Up to 41 Years)' },
+        { category: 'Manipur State Govt Servants', relaxation: 'Extent of continuous service put in the post/service' }
+      ],
+      experience: [
+        'Freshers with prescribed 12th + D.Ed Special Education + RCI CRR + TET-1 credentials are eligible.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Level 6 of Manipur Services (Revised Pay) Rules',
+      initialPay: 'Basic Pay Rs. 35,400/- per month (Pay Matrix Level 6)',
+      allowances: [
+        'Dearness Allowance (DA as applicable to Manipur Govt employees)',
+        'House Rent Allowance (HRA)',
+        'Medical Allowance and other benefits as per State Govt rules',
+        'Gross Monthly Salary: Approx. Rs. 45,000 – Rs. 52,000/- per month'
+      ]
+    },
+    applicationFee: [
+      { category: 'General & OBC Candidates', fee: 'Rs. 400/-', refund: 'Non-refundable' },
+      { category: 'SC & ST Candidates', fee: 'Rs. 200/-', refund: 'Non-refundable' },
+      { category: 'Persons with Benchmark Disabilities (PwD)', fee: 'Rs. 0/- (Exempted)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'Pay online through UPI, Net Banking, Visa / Master Card / Debit Card during online application form submission at manipurssc.mn.gov.in.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Computer Based Test (CBT)', description: 'Single paper objective test of 100 MCQs for 100 Marks (Duration: 75 Minutes). Subjects: General Knowledge (50 Qs), Basic Mathematics (25 Qs), English Language (25 Qs). Standard: Class XII level. No negative marking.' },
+      { stage: 'Stage 2: Document Verification & Merit List', description: 'Candidates shortlisted based on CBT marks will be called for original document verification and RCI CRR validation.' }
+    ],
+    howToApply: [
+      'Ensure candidate registration in the concerned Employment Exchange of Manipur to get sponsored.',
+      'Visit official MSSC portal at https://manipurssc.mn.gov.in.',
+      'Register on the portal using parameters matching Employment Exchange sponsorship credentials.',
+      'Fill up personal details, educational qualifications (12th %, D.Ed Special Ed details, RCI CRR number, TET-1 details), and select preferred exam centre (Imphal / Churachandpur / Senapati).',
+      'Upload recent photograph, signature, and self-attested documents (12th certificate, D.Ed certificate, RCI CRR certificate, TET-1 certificate, Permanent Resident Certificate, Employment Exchange sponsorship card).',
+      'Pay application fee online (Rs. 400 for Gen/OBC; Rs. 200 for SC/ST; PwD Exempted) via UPI/Debit Card/Net Banking.',
+      'Submit the application before 20 August 2026 (5:00 PM) and take a printout of the generated application confirmation page.'
+    ],
+    documentsRequired: [
+      'Class 10th & 12th Marksheets and Board Certificates',
+      'D.Ed. Special Education / D.El.Ed. Diploma Certificate & Marksheets',
+      'Valid RCI CRR Registration Number & Certificate',
+      'TET-1 (Paper 1) Passed Certificate',
+      'Permanent Resident Certificate (PRC) of Manipur State',
+      'Employment Exchange Sponsorship Card / Registration Certificate of Manipur',
+      'SC / ST / OBC (Meitei / Meitei Pangal) / PwD Certificate (if applicable)',
+      'No Objection Certificate (NOC) from employer (for serving Govt employees)',
+      'Scanned Passport Size Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Only candidates who have been sponsored by the concerned Employment Exchange of Manipur are allowed to submit online applications.',
+      'CBT exam duration is 75 minutes for 100 MCQs (100 Marks). There is NO negative marking for incorrect answers.',
+      'Candidates must possess a valid RCI CRR registration number at the time of application.',
+      'Exam centres are available at Imphal, Churachandpur, and Senapati districts.',
+      'For technical support or official notices, visit https://manipurssc.mn.gov.in or email mssc-mn@manipur.gov.in.'
+    ],
+    urls: [
+      { label: 'MSSC Manipur Official Website & Apply Online', url: 'https://manipurssc.mn.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for MSSC Manipur Special Primary Teacher recruitment 2026?', answer: 'The last date to submit online application forms on manipurssc.mn.gov.in is 20 August 2026 up to 5:00 PM.' },
+      { question: 'What are the essential qualifications for Special Primary Teacher in Manipur SSC?', answer: 'Class 12th with 50% marks + D.Ed. in Special Education (with RCI CRR number) + Passed TET-1 (Paper 1) + Employment Exchange sponsorship of Manipur.' },
+      { question: 'What is the selection exam pattern for MSSC Special Primary Teacher 2026?', answer: 'Computer Based Test (CBT) of 100 MCQs (100 Marks, 75 Mins): General Knowledge (50 Qs), Basic Mathematics (25 Qs), English Language (25 Qs). No negative marking.' },
+      { question: 'What is the pay scale for MSSC Manipur Special Primary Teacher post?', answer: 'Pay Level 6 of Manipur Services (Revised Pay) Rules (Basic Pay Rs. 35,400/- per month + DA, HRA; Gross ~ Rs. 45,000 - 52,000/pm).' },
+      { question: 'Is Employment Exchange registration compulsory for Manipur SSC teacher vacancy?', answer: 'Yes, only candidates who have been sponsored by the concerned Employment Exchange of Manipur are allowed to submit online applications.' }
+    ]
+  },
   'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026': {
     id: 'hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026',
     seoTitle: 'HP Jal Shakti Vibhag Shimla Recruitment 2026 Notification, Vacancy, Eligibility, Salary, Application Form | NewVacancyAlert',
