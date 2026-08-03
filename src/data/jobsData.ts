@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'telangana-karimnagar-anganwadi-teacher-recruitment-2026',
+    b: 'Department of Women & Child Development (WDCW), Karimnagar District, Telangana',
+    t: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026 – 60 Vacancies for 12th Pass Women | Apply Online at wdcw.tg.nic.in by 15 August 2026',
+    d: '03-08-2026',
+    l: '15-08-2026 (5:00 PM)',
+    a: 'Notification No. A/1124/2026-27 Dated 31-07-2026',
+    q: 'Intermediate (12th Class) Pass | Local Resident Women Candidates Only (Age 18-35 Yrs)',
+    desc: 'Department of Women, Children, Disabled and Senior Citizens, Karimnagar District, Government of Telangana, invites online applications from eligible local women candidates for 60 Anganwadi Teacher posts across Gangadhara (20), Huzurabad (16), Karimnagar Rural (16), and Karimnagar Urban (8) ICDS projects. Qualification: 12th Pass. Selection based on Intermediate marks merit (70 marks), special weightage (widow/orphan/PWD), and interview (10 marks). Apply online at wdcw.tg.nic.in from 01.08.2026 to 15.08.2026 (5:00 PM).',
+    u: 'https://wdcw.tg.nic.in'
+  },
+  {
     id: 'mssc-manipur-special-primary-teacher-recruitment-2026',
     b: 'Manipur Staff Selection Commission (MSSC), Govt of Manipur',
     t: 'MSSC Manipur Special Primary Teacher Recruitment 2026 (Advt 02/2026) – 80 Vacancies in Education (S) Dept (Pay Level 6) | Apply Online at manipurssc.mn.gov.in by 20 August 2026',

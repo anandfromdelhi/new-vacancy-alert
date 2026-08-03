@@ -58,6 +58,121 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'telangana-karimnagar-anganwadi-teacher-recruitment-2026': {
+    id: 'telangana-karimnagar-anganwadi-teacher-recruitment-2026',
+    seoTitle: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026 Notification, Vacancy, Merit Criteria, Apply Online | NewVacancyAlert',
+    seoDescription: 'Telangana Karimnagar District Anganwadi Teacher recruitment 2026 notification out for 60 vacancies across Gangadhara, Huzurabad, Karimnagar Rural & Urban ICDS projects. Check 12th pass eligibility, local residence criteria, age 18-35 yrs, merit marks breakdown, apply online at wdcw.tg.nic.in.',
+    focusKeywords: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026, Karimnagar ICDS Anganwadi Teacher Vacancy 2026, WDCW Telangana Anganwadi Online Form, Karimnagar Anganwadi 12th Pass Jobs, wdcw tg nic in',
+    lsiKeywords: 'Karimnagar Anganwadi Teacher 60 Posts, WDCW Karimnagar District Notification A 1124 2026, Telangana Anganwadi Teacher Selection Merit Marks, Gangadhara Huzurabad Anganwadi Jobs, Local Women Anganwadi Recruitment Telangana',
+    title: 'Telangana Karimnagar Anganwadi Teacher Recruitment 2026 – 60 Vacancies for 12th Pass Women | Apply Online at wdcw.tg.nic.in by 15 August 2026',
+    board: 'Department of Women, Children, Persons with Disabilities and Senior Citizens, Karimnagar District, Government of Telangana',
+    advtNo: 'Notification No. A/1124/2026-27 Dated 31-07-2026',
+    vacancies: 60,
+    jobLocation: 'Karimnagar District (Gangadhara, Huzurabad, Karimnagar Rural & Urban), Telangana',
+    applicationMode: 'Online Application Form',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Government of Telangana, Department of Women, Children, Persons with Disabilities and Senior Citizens, Karimnagar District, has issued official Notification No. A/1124/2026-27 inviting online applications from eligible local women candidates for filling up 60 vacant posts of Anganwadi Teachers.',
+      'The vacancies are available under Integrated Child Development Services (ICDS) projects in Gangadhara (20), Huzurabad (16), Karimnagar Rural (16), and Karimnagar Urban (8) areas of Karimnagar District.',
+      'Women candidates who have passed Intermediate (12th Class) and are local residents of the respective Anganwadi Centre area / Gram Panchayat / Ward can apply online through the official department portal at https://wdcw.tg.nic.in/ from 01 August 2026 to 15 August 2026 (up to 5:00 PM).'
+    ],
+    highlights: [
+      { label: 'Department Name', value: 'Department of WDCW & Senior Citizens, Karimnagar District, Telangana' },
+      { label: 'Notification Reference', value: 'Notification No. A/1124/2026-27 Dated 31-07-2026' },
+      { label: 'Post Name', value: 'Anganwadi Teacher (Exclusive for Women Candidates)' },
+      { label: 'Total Vacancies', value: '60 Posts (Gangadhara: 20, Huzurabad: 16, Rural: 16, Urban: 8)' },
+      { label: 'Educational Qualification', value: 'Intermediate (12th Pass)' },
+      { label: 'Residence Requirement', value: 'Local Resident Woman of Concerned Anganwadi Centre / Ward / Gram Panchayat' },
+      { label: 'Age Limit', value: '18 to 35 Years (as on 01.07.2026)' },
+      { label: 'Selection Mode', value: '12th Class Marks Merit (70) + Special Category Weightage + Interview (10)' },
+      { label: 'Online Application Dates', value: '01.08.2026 to 15.08.2026 (up to 5:00 PM)' },
+      { label: 'Application Fee', value: 'Rs. 0/- (No Application Fee mentioned)' },
+      { label: 'Official Website', value: 'https://wdcw.tg.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31 July 2026' },
+      { event: 'Commencement of Online Application', date: '01 August 2026' },
+      { event: 'Last Date for Online Application Submission', date: '15 August 2026 (up to 5:00 PM)' },
+      { event: 'Interview Schedule by District Selection Committee', date: 'To be notified on WDCW website / local news' }
+    ],
+    vacanciesDetails: [
+      { category: 'Gangadhara ICDS Project', count: 20 },
+      { category: 'Huzurabad ICDS Project', count: 16 },
+      { category: 'Karimnagar Rural ICDS Project', count: 16 },
+      { category: 'Karimnagar Urban ICDS Project', count: 8 },
+      { category: 'Total Karimnagar District Anganwadi Teacher Vacancies', count: 60 }
+    ],
+    eligibility: {
+      education: [
+        'Must have passed Intermediate (12th Class) from a recognized Board / Institution.',
+        'Gender & Local Residence: Only female candidates who are local residents belonging to the specific area of the concerned Anganwadi Centre are eligible.',
+        'For Rural Areas: Candidate must belong to the relevant Gram Panchayat (or relevant habitation/village for SC/sub-plan posts).',
+        'For Urban Areas: Candidate must belong to the relevant Ward / Division.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 35 Years as on 01 July 2026.',
+      ageRelaxation: [
+        { category: 'Eligible Local Women Candidates', relaxation: 'Age strictly between 18 to 35 Years as on 01.07.2026' }
+      ],
+      experience: [
+        'No prior work experience is required. Fresh 12th pass local women candidates are eligible to apply.'
+      ]
+    },
+    salary: {
+      payLevel: 'State Govt Honorarium Pay Scale for Anganwadi Teachers in Telangana',
+      initialPay: 'Rs. 13,650/- per month (Fixed Monthly Honorarium as per Telangana State Govt rules)',
+      allowances: [
+        'Fixed monthly honorarium for Anganwadi Teachers',
+        'Additional project incentives & statutory insurance cover as per ICDS guidelines'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories (Women Candidates)', fee: 'Rs. 0/- (Nil / No Fee)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'No application fee is required for submitting online form.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Academic Merit Calculation (Out of 70 Marks)', description: '70% weightage given to marks obtained in Intermediate (12th Class).' },
+      { stage: 'Stage 2: Special Category Weightage (Max 20 Marks)', description: 'Widow: 5 Marks; Orphan: 10 Marks; Person with Disability (PwD): 5 Marks.' },
+      { stage: 'Stage 3: Interview by District Selection Committee (10 Marks)', description: 'Interview conducted by District Selection Committee chaired by District Collector, Karimnagar.' }
+    ],
+    howToApply: [
+      'Visit the official website of Women Development and Child Welfare Department, Telangana at https://wdcw.tg.nic.in/.',
+      'Locate the "Karimnagar District Anganwadi Recruitment 2026" link and click on Online Application.',
+      'Fill in personal details, local residence credentials (Gram Panchayat / Ward / Division), and 12th Class academic marks accurately.',
+      'Upload required self-attested document proofs: Intermediate marks memo, Residence/Nativity Certificate issued by Tahsildar, Date of Birth proof, Aadhar Card, and Special Category certificates (Widow / Orphan / PwD, if applicable).',
+      'Verify all details carefully and submit the online application form before 15 August 2026 (5:00 PM).',
+      'Take a printout of the submitted online application for future reference during interview and document verification.',
+      'Note: Offline applications submitted through CDPO/DWO office, Prajavani, post, or email will NOT be accepted.'
+    ],
+    documentsRequired: [
+      'Intermediate (12th Class) Pass Certificate and Detailed Marks Memo',
+      'Local Residence / Residence Certificate (Gram Panchayat / Ward) issued by Tahsildar',
+      'Proof of Age (SSC Memo / Birth Certificate)',
+      'Aadhar Card / Voter ID for Identity Proof',
+      'Caste / Community Certificate (for SC / ST / BC candidates)',
+      'Special Category Certificate: Widow Certificate / Orphan Certificate / PwD Certificate (if claiming weightage marks)',
+      'Passport size photograph and signature scan'
+    ],
+    importantInstructions: [
+      'Applications must be submitted ONLINE ONLY through https://wdcw.tg.nic.in/. Offline submissions will be rejected.',
+      'Strict local residence criteria applies. Candidates must belong to the same Gram Panchayat / Ward of the Anganwadi Centre.',
+      'Selection is purely merit-based: Intermediate marks (70) + Special category (up to 20) + Interview (10).',
+      'The District Collector / Chairman, Karimnagar District, reserves the right to modify or cancel the notification.',
+      'For assistance, visit https://wdcw.tg.nic.in/ or contact District Welfare Office, Karimnagar.'
+    ],
+    urls: [
+      { label: 'WDCW Telangana Official Website & Apply Online Portal', url: 'https://wdcw.tg.nic.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for Karimnagar Anganwadi Teacher Recruitment 2026?', answer: 'The last date to submit online applications at wdcw.tg.nic.in is 15 August 2026 up to 5:00 PM.' },
+      { question: 'What is the educational qualification for Anganwadi Teacher in Karimnagar District?', answer: 'Candidate must have passed Intermediate (12th Class) and must be a local female resident of the concerned Anganwadi Centre Gram Panchayat / Ward.' },
+      { question: 'What is the age limit for Telangana Anganwadi Teacher post?', answer: 'Candidate must be between 18 and 35 years of age as on 01 July 2026.' },
+      { question: 'How many total vacancies are announced in Karimnagar District Anganwadi Teacher recruitment?', answer: 'Total 60 Anganwadi Teacher vacancies (Gangadhara: 20, Huzurabad: 16, Karimnagar Rural: 16, Karimnagar Urban: 8).' },
+      { question: 'What is the selection process for Karimnagar Anganwadi Teacher posts?', answer: 'Selection is based on 100 Marks criteria: Intermediate marks (70 marks) + Special category weightage (Widow 5, Orphan 10, PwD 5) + District Selection Committee Interview (10 marks).' }
+    ]
+  },
   'mssc-manipur-special-primary-teacher-recruitment-2026': {
     id: 'mssc-manipur-special-primary-teacher-recruitment-2026',
     seoTitle: 'MSSC Manipur Special Primary Teacher Recruitment 2026 Notification, Eligibility, Syllabus, Salary, Apply Online | NewVacancyAlert',
