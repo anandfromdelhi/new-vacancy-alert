@@ -58,6 +58,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'jkpsc-assistant-professor-backlog-recruitment-2026': {
+    id: 'jkpsc-assistant-professor-backlog-recruitment-2026',
+    seoTitle: 'JKPSC Assistant Professor Backlog Recruitment 2026 Notification, 67 Vacancies, Apply Online | NewVacancyAlert',
+    seoDescription: 'JKPSC recruitment 2026 notification out for 67 Assistant Professor (Backlog Vacancies) posts across 24 disciplines (Advt 06-PSC(DR-P) of 2026). Check Master degree NET/SLET/Ph.D eligibility, Pay Level-10 Rs 57700, apply online at jkpsc.nic.in by 31 August 2026.',
+    focusKeywords: 'JKPSC Assistant Professor Backlog Recruitment 2026, JKPSC Assistant Professor Notification 06 2026, JKPSC Higher Education Dept Vacancy, J&K Assistant Professor Salary Level 10, jkpsc nic in',
+    lsiKeywords: 'JKPSC Assistant Professor 67 Backlog Posts, J&K Domicile Assistant Professor Jobs, JKPSC Political Science Assistant Professor, JKPSC NET SLET PhD Qualification, JKPSC Application Edit Form',
+    title: 'JKPSC Assistant Professor Backlog Recruitment 2026 (Advt 06-PSC(DR-P) of 2026) – 67 Vacancies in Higher Education Dept (Academic Level-10 ₹57,700) | Apply Online at jkpsc.nic.in by 31 August 2026',
+    board: 'Jammu and Kashmir Public Service Commission (JKPSC), Solina Srinagar / Resham Ghar Colony Jammu',
+    advtNo: 'Notification No. 06 - PSC (DR-P) OF 2026 (Dated 31 July 2026)',
+    vacancies: 67,
+    jobLocation: 'Jammu & Kashmir (Government Degree Colleges under Higher Education Dept)',
+    applicationMode: 'Online Application Form (JKPSC Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Jammu and Kashmir Public Service Commission (JKPSC), Srinagar/Jammu, has released official Notification No. 06-PSC (DR-P) OF 2026 dated 31.07.2026 for backlog direct recruitment (1st Special Drive) to Assistant Professor posts in the Higher Education Department, UT of Jammu & Kashmir.',
+      'A total of 67 backlog vacancies are advertised across 24 subjects including Political Science (23), Statistics (7), Punjabi (6), Kashmiri (3), Anthropology (3), Veterinary Tech (3), Chemistry (2), Music (2), IT (2), Agriculture Tech (2), Water Management (2), and others.',
+      'Positions carry 7th CPC Academic Level-10 scale (pre-revised Rs. 15,600 – 39,100 + AGP Rs. 6000, entry basic pay Rs. 57,700/-) plus usual allowances. Candidates with J&K Domicile status can apply online at http://jkpsc.nic.in from 01 August 2026 to 31 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruitment Body', value: 'Jammu & Kashmir Public Service Commission (JKPSC)' },
+      { label: 'Department Name', value: 'Higher Education Department, UT of Jammu & Kashmir' },
+      { label: 'Notification Number', value: 'Notification No: 06 - PSC (DR-P) OF 2026 (Dated 31.07.2026)' },
+      { label: 'Post Name', value: 'Assistant Professor (Backlog Vacancies - 1st Special Drive)' },
+      { label: 'Total Vacancies', value: '67 Posts across 24 Academic Disciplines' },
+      { label: 'Pay Scale', value: 'Academic Level-10 (Pre-revised Rs. 15,600-39,100 + AGP Rs. 6000 | Entry Pay Rs. 57,700/-)' },
+      { label: 'Educational Qualification', value: "Master's Degree (55% / 50% for SC/ST/PwD) + NET / SLET / SET or Ph.D Degree" },
+      { label: 'Domicile Requirement', value: 'Must be a Domicile of UT of Jammu & Kashmir' },
+      { label: 'Age Limit', value: '18 to 40 Years for OM (Up to 43 Years for SC/ST/RBA/ALC/IB/PSP/EWS) as on 01.01.2026' },
+      { label: 'Selection Process', value: 'Written Examination (120 MCQs, 3 Hrs) + Weightage / Personal Interview' },
+      { label: 'Online Application Dates', value: '01 August 2026 to 31 August 2026' },
+      { label: 'Form Correction Window', value: '01 September 2026 to 03 September 2026' },
+      { label: 'Application Fee', value: 'General (OM): Rs. 1,200/- | Reserved Categories: Rs. 700/- | PwBD: NIL' },
+      { label: 'Official Portal', value: 'http://jkpsc.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release Date', date: '31 July 2026' },
+      { event: 'Commencement of Online Application Form', date: '01 August 2026' },
+      { event: 'Last Date to Fill Online Application & Fee Payment', date: '31 August 2026' },
+      { event: 'Crucial Date for Age & Qualification Eligibility', date: '01 January 2026' },
+      { event: 'Online Application Edit / Correction Window', date: '01 September 2026 to 03 September 2026' },
+      { event: 'Written Examination Date', date: 'To be notified on JKPSC website' }
+    ],
+    vacanciesDetails: [
+      { category: 'Political Science', count: '23 Posts (OM: 15, SC: 2, ST: 2, ALC/IB: 1, PSP: 1, EWS: 2)' },
+      { category: 'Statistics', count: '07 Posts (OM: 4, SC: 1, ST: 1, Social Caste: 1)' },
+      { category: 'Punjabi', count: '06 Posts (OM: 2, SC: 1, ST: 1, Backward: 1, PSP: 1)' },
+      { category: 'Anthropology', count: '03 Posts (SC: 1, ST: 1, Backward: 1)' },
+      { category: 'Kashmiri', count: '03 Posts (SC: 2, PSP: 1)' },
+      { category: 'Veterinary Technology', count: '03 Posts (ALC/IB: 1, EWS: 2)' },
+      { category: 'Chemistry / Clinical Biochemistry / Industrial Chemistry', count: '04 Posts (Chemistry: 2, Clinical Bio: 1, Industrial: 1)' },
+      { category: 'Water Management / Agriculture Tech / Functional English', count: '06 Posts (Water Mgmt: 2, Agri Tech: 2, Functional Eng: 2)' },
+      { category: 'Music / Music & Instrument Vocal', count: '04 Posts (Music: 2, Vocal: 2)' },
+      { category: 'Information Technology / Geology / Sociology / Persian / Arabic / English / Maths / Nutrition / Islamic Studies / Horticulture', count: '12 Posts (1-2 posts each)' },
+      { category: 'Total Backlog Vacancies', count: '67 Posts across 24 Disciplines' }
+    ],
+    eligibility: {
+      education: [
+        'Masters Degree with 55% marks (50% for SC/ST/Differently abled) in concerned or relevant/allied subject from an Indian University or accredited foreign university.',
+        'Must have cleared National Eligibility Test (NET) conducted by UGC/CSIR or similar test accredited by UGC like SLET/SET.',
+        'Candidates awarded Ph.D. degree in accordance with UGC 2009/2016 regulations are exempted from mandatory NET/SLET/SET requirement.',
+        'Domicile: Candidate must be a Domicile of the Union Territory of Jammu & Kashmir and possess valid Domicile Certificate issued by competent authority.'
+      ],
+      ageLimit: 'Age as on 01 January 2026: OM / Open Merit: Max 40 Yrs (Born 01.01.1986 to 01.01.2008).',
+      ageRelaxation: [
+        { category: 'Reserved Categories (SC / ST / RBA / ALC/IB / Social Caste / PSP / EWS)', relaxation: 'Up to 43 Years (Born 01.01.1983 to 01.01.2008)' },
+        { category: 'In-Service Candidates / Government Employees', relaxation: 'Up to 40 Years (Born 01.01.1986 to 01.01.2008)' },
+        { category: 'Physically Challenged (PHC / PwBD)', relaxation: 'Up to 42 Years (Born 01.01.1982 to 01.01.2008)' }
+      ],
+      experience: [
+        'Fresh Postgraduates with NET/SLET/SET or Ph.D holders are eligible. Prior teaching experience carries weightage in merit calculation.'
+      ]
+    },
+    salary: {
+      payLevel: 'Academic Level-10 (7th CPC Pay Scale)',
+      initialPay: 'Pre-revised Rs. 15,600 – 39,100 + AGP Rs. 6000 (Entry Basic Pay Rs. 57,700/- per month)',
+      allowances: [
+        'Dearness Allowance (DA), House Rent Allowance (HRA), Medical Allowance, and Travel Allowance as per J&K UT Higher Education Department Rules'
+      ]
+    },
+    applicationFee: [
+      { category: 'General Category (OM)', fee: 'Rs. 1,200/-', refund: 'Non-refundable' },
+      { category: 'Reserved Categories (SC/ST/RBA/ALC-IB/Social Caste/PSP/EWS)', fee: 'Rs. 700/-', refund: 'Non-refundable' },
+      { category: 'PHC / PwBD Candidates', fee: 'NIL / Exempted', refund: 'No fee payable' }
+    ],
+    howToPayFee: [
+      'Deposit application fee online using Credit Card, Debit Card, or Net Banking on the official JKPSC recruitment portal during online application submission.'
+    ],
+    selectionProcess: [
+      { stage: 'Written Examination', description: 'Objective type written examination comprising 120 MCQs with 3 hours duration held at Srinagar and Jammu exam centers.' },
+      { stage: 'Academic & Research Weightage', description: 'Points awarded for UG/PG percentage, NET/SLET/JRF, M.Phil, Ph.D, research publications, awards, and experience as per J&K PSC Rules 2021.' },
+      { stage: 'Personal Interview & Document Verification', description: 'Shortlisted candidates based on written test and academic score will be called for interview and verification of original certificates.' }
+    ],
+    howToApply: [
+      'Visit the official JKPSC website at http://jkpsc.nic.in.',
+      'Click on "One Time Registration" (OTR) or log in if already registered.',
+      'Update OTR profile with personal details, educational qualifications, PG marks, NET/SLET/Ph.D details, and J&K Domicile details.',
+      'Upload mandatory scanned photograph (10-20 KB, dated stamped after 01.01.2026) and signature (10-20 KB).',
+      'Go to "Show Examination" and select "Notification No. 06 - PSC (DR-P) OF 2026 - Assistant Professor Backlog".',
+      'Select relevant subject discipline, review application details, and submit form.',
+      'Pay online application fee (Rs. 1,200/- for OM; Rs. 700/- for Reserved categories) via online payment gateway.',
+      'Download and retain a printout of the submitted application form for future document verification (No hard copy to be sent to JKPSC office).'
+    ],
+    documentsRequired: [
+      'Date of Birth Certificate (Secondary School / Matriculation Certificate)',
+      'UT of Jammu & Kashmir Domicile Certificate',
+      'Graduation Degree Certificate & Marksheets',
+      'Postgraduate Degree Certificate & Marksheets (Master Degree)',
+      'NET / SLET / SET Certificate or Ph.D Degree Notification & Compliance Certificate',
+      'Valid Category Certificate for SC/ST/RBA/ALC-IB/Social Caste/PSP/EWS (if applicable)',
+      'Disability Certificate for PwBD / In-Service Certificate signed by HOD (if applicable)',
+      'Scanned Recent Stamp-Dated Passport Photograph (10-20 KB)',
+      'Scanned Signature (10-20 KB)'
+    ],
+    importantInstructions: [
+      'Only Domiciles of UT of Jammu & Kashmir are eligible to apply.',
+      'No hard copy of application form needs to be sent to the Commission initially.',
+      'Online application form edit window will be available from 01.09.2026 to 03.09.2026.',
+      'Fees once paid will not be adjusted or refunded under any circumstances.',
+      'Written test will be conducted at Srinagar and Jammu examination centers.'
+    ],
+    urls: [
+      { label: 'JKPSC Online Application Portal', url: 'http://jkpsc.nic.in' },
+      { label: 'JKPSC Official Website', url: 'http://www.jkpsc.nic.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for JKPSC Assistant Professor Backlog recruitment 2026?', answer: 'The last date to submit online applications and pay fee on jkpsc.nic.in is 31 August 2026. Correction window is open from 01 to 03 September 2026.' },
+      { question: 'How many backlog vacancies are advertised under JKPSC Notification 06 of 2026?', answer: 'A total of 67 Assistant Professor backlog posts are advertised across 24 disciplines in J&K Government Colleges.' },
+      { question: 'Is J&K Domicile Certificate mandatory for JKPSC Assistant Professor posts?', answer: 'Yes, candidates must be domiciles of the Union Territory of Jammu & Kashmir and possess a valid Domicile Certificate.' },
+      { question: 'What is the pay scale for Assistant Professor in J&K Higher Education Department?', answer: 'The post is in Academic Level-10 (Pre-revised Rs. 15,600 - 39,100 + AGP Rs. 6000, initial basic pay Rs. 57,700/- per month).' },
+      { question: 'What is the application fee for JKPSC Assistant Professor recruitment?', answer: 'Application fee is Rs. 1,200/- for General/OM candidates and Rs. 700/- for Reserved category candidates. PHC/PwBD candidates are exempted.' }
+    ]
+  },
   'aiims-bathinda-faculty-recruitment-2026': {
     id: 'aiims-bathinda-faculty-recruitment-2026',
     seoTitle: 'AIIMS Bathinda Faculty Recruitment 2026 Notification, 77 Vacancies, Pay Level 12-14A | NewVacancyAlert',

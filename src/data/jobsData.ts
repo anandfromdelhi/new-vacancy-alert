@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'jkpsc-assistant-professor-backlog-recruitment-2026',
+    b: 'Jammu & Kashmir Public Service Commission (JKPSC), Srinagar/Jammu',
+    t: 'JKPSC Assistant Professor Backlog Recruitment 2026 (Advt 06-PSC(DR-P) of 2026) – 67 Vacancies in Higher Education Dept (Academic Level-10 ₹57,700) | Apply Online at jkpsc.nic.in by 31 August 2026',
+    d: '03-08-2026',
+    l: '31-08-2026',
+    a: 'Notification No. 06 - PSC (DR-P) OF 2026 Dated 31.07.2026',
+    q: 'Master Degree (55% marks / 50% for Reserved) + NET / SLET / SET or Ph.D + J&K Domicile (Age 18-40/43 Yrs)',
+    desc: 'Jammu and Kashmir Public Service Commission (JKPSC) invites online applications for backlog recruitment to 67 posts of Assistant Professor across 24 disciplines in Government Colleges under Higher Education Department, J&K. Pay Level 10 (Rs. 57,700). Domicile of J&K required. Apply online at jkpsc.nic.in from 01.08.2026 to 31.08.2026.',
+    u: 'http://jkpsc.nic.in'
+  },
+  {
     id: 'aiims-bathinda-faculty-recruitment-2026',
     b: 'All India Institute of Medical Sciences (AIIMS), Bathinda',
     t: 'AIIMS Bathinda Faculty Recruitment 2026 (Advt AIIMS/BTI/RC/Faculty/2026/2373) – 77 Vacancies for Professor, Additional, Associate & Assistant Professor (Pay Level-12 to 14A) | Apply by 21 August 2026',
