@@ -58,6 +58,134 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'gsssb-multipurpose-health-supervisor-recruitment-2026': {
+    id: 'gsssb-multipurpose-health-supervisor-recruitment-2026',
+    seoTitle: 'GSSSB Multi-Purpose Health Supervisor Recruitment 2026 Notification, 119 Vacancies, Syllabus, Pay, Apply Online | NewVacancyAlert',
+    seoDescription: 'GSSSB recruitment 2026 notification out for 119 Multi-Purpose Health Supervisor Class-III posts in Gujarat Health Dept (Advt 452/2026-27). Check 1-yr Sanitary Inspector / MPHW eligibility, fixed pay Rs. 26000, exam pattern, apply online at ojas.gujarat.gov.in.',
+    focusKeywords: 'GSSSB Multi Purpose Health Supervisor Recruitment 2026, Gujarat Health Supervisor Vacancy 2026 Advt 452, GSSSB MPHW Supervisor Online Form, OJAS Gujarat Health Supervisor Jobs, ojas gujarat gov in',
+    lsiKeywords: 'GSSSB Class 3 Health Supervisor 119 Posts, GSSSB Sanitary Inspector Supervisor Salary 26000, GSSSB Health Supervisor Syllabus 210 Marks, Gujarat Health Department Male Jobs 2026',
+    title: 'GSSSB Multi-Purpose Health Supervisor Recruitment 2026 (Advt 452/2026-27) – 119 Vacancies in Health Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 15 August 2026',
+    board: 'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar, Government of Gujarat',
+    advtNo: 'Advertisement No. 452/2026-27 Dated 01-08-2026',
+    vacancies: 119,
+    jobLocation: 'Gujarat State (Health and Family Welfare Department)',
+    applicationMode: 'Online Application Form (OJAS Portal)',
+    applicationStatus: 'Online Application Active',
+    lastUpdated: '03 August 2026',
+    overview: [
+      'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar, has released official Advertisement No. 452/2026-27 for direct recruitment to 119 posts of Multi-Purpose Health Supervisor, Class-III under the Office of the Additional Director (Public Health), Health and Family Welfare Department, Government of Gujarat.',
+      'This recruitment drive is open for eligible male candidates holding a 1-year MPHW basic course certificate, Sanitary Inspector Diploma, or ITI Health Sanitary Inspector certificate with computer knowledge.',
+      'Selected candidates will be appointed on a fixed pay of Rs. 26,000/- per month for the first 5 years, after which regular appointment in Pay Level-4 (Rs. 25,500 – Rs. 81,100) will be granted based on satisfactory service. Candidates can apply online via OJAS portal (https://ojas.gujarat.gov.in) between 01 August 2026 (14:00 Hrs) and 15 August 2026 (23:59 Hrs).'
+    ],
+    highlights: [
+      { label: 'Recruitment Board', value: 'Gujarat Subordinate Service Selection Board (GSSSB), Gandhinagar' },
+      { label: 'Department Name', value: 'Health and Family Welfare Department (Public Health Wing), Govt of Gujarat' },
+      { label: 'Advertisement Number', value: 'Advt. No. 452/2026-27' },
+      { label: 'Post Name', value: 'Multi-Purpose Health Supervisor, Class-III (Male Candidates Only)' },
+      { label: 'Total Vacancies', value: '119 Posts' },
+      { label: 'Fixed Pay (First 5 Yrs)', value: 'Rs. 26,000/- per month' },
+      { label: 'Regular Pay Scale (After 5 Yrs)', value: 'Pay Level-4 (Rs. 25,500 – Rs. 81,100)' },
+      { label: 'Educational Qualification', value: '1-Year MPHW / Sanitary Inspector Diploma / ITI Health Sanitary Inspector' },
+      { label: 'Age Limit', value: '18 to 33 Years (as on 15.08.2026)' },
+      { label: 'Selection Mode', value: 'Single-Stage MCQ Examination (CBRT/OMR) - 210 Marks' },
+      { label: 'Tentative Exam Month', value: 'November 2026' },
+      { label: 'Online Application Dates', value: '01 August 2026 (14:00 Hrs) to 15 August 2026 (23:59 Hrs)' },
+      { label: 'Application Fee', value: 'General: Rs. 500 | Reserved Categories (SEBC/SC/ST/EWS/PwD): Rs. 400' },
+      { label: 'Official Portal', value: 'https://ojas.gujarat.gov.in | https://gsssb.gujarat.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '01 August 2026' },
+      { event: 'Commencement of Online Application Form', date: '01 August 2026 (14:00 Hrs)' },
+      { event: 'Last Date for Online Application Submission', date: '15 August 2026 (23:59 Hrs)' },
+      { event: 'Last Date for Online Fee Payment', date: '18 August 2026 (23:59 Hrs)' },
+      { event: 'Tentative Month of CBRT / OMR MCQ Exam', date: 'November 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Multi-Purpose Health Supervisor, Class-III (Total Posts)', count: 119 },
+      { category: 'Gender Eligibility', count: 'Male Candidates Only (Female candidates cannot apply)' },
+      { category: 'Category Reservation', count: 'As per Gujarat State reservation rules for SC, ST, SEBC, EWS, PwD & Ex-Servicemen' }
+    ],
+    eligibility: {
+      education: [
+        'Must have successfully completed at least a 1-year Multi-Purpose Health Worker (MPHW) basic course or certificate/diploma course from a Government-recognized institution; OR',
+        'Must have completed a 1-year Diploma Course in Sanitary Inspector from a Government-recognized institution; OR',
+        'Must have completed a 1-year Health Sanitary Inspector course from an Industrial Training Institute (ITI) or Govt-recognized institution.',
+        'Computer Knowledge: Must possess basic computer knowledge certificate/diploma OR have passed Class 10th/12th with Computer as a subject (or pass prescribed exam before appointment).',
+        'Language Requirement: Must possess adequate knowledge of Gujarati or Hindi or both.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 33 Years as on 15 August 2026.',
+      ageRelaxation: [
+        { category: 'Reserved Category Male Candidates (SC / ST / SEBC / EWS)', relaxation: '5 Years relaxation (Up to 38 Years)' },
+        { category: 'General Category Male Candidates with Disability (PwD)', relaxation: '10 Years relaxation (Up to 43 Years)' },
+        { category: 'Reserved Category Male Candidates with Disability (PwD)', relaxation: '15 Years relaxation (Up to 45 Years)' },
+        { category: 'Ex-Servicemen', relaxation: 'As per Gujarat Civil Services Rules' }
+      ],
+      experience: [
+        'No prior work experience is required. Candidates possessing the prescribed qualification/diploma are eligible.'
+      ]
+    },
+    salary: {
+      payLevel: 'Fixed Pay for 5 Years & Level-4 Matrix (After 5 Years)',
+      initialPay: 'Rs. 26,000/- per month (Fixed Pay for first 5 years)',
+      allowances: [
+        'Fixed Pay of Rs. 26,000/- per month for the first 5 years as per Gujarat Govt resolutions',
+        'Regular appointment after 5 years in Pay Level-4 (Rs. 25,500 – Rs. 81,100) with DA, HRA, CLA and state benefits'
+      ]
+    },
+    applicationFee: [
+      { category: 'Unreserved / General Candidates', fee: 'Rs. 500/-', refund: 'Non-refundable' },
+      { category: 'Reserved Categories (SEBC, SC, ST, EWS, PwD, Ex-Servicemen)', fee: 'Rs. 400/-', refund: 'Non-refundable' }
+    ],
+    howToPayFee: [
+      'Pay exam fee online via Net Banking, Credit Card, Debit Card, or UPI on OJAS portal by 18 August 2026 (23:59 Hrs).'
+    ],
+    selectionProcess: [
+      { stage: 'Single-Stage Objective MCQ Examination (CBRT / OMR - 210 Marks)', description: '3-Hour (180 Mins) competitive exam carrying 210 Questions for 210 Marks.' },
+      { stage: 'Part-A: General Ability & Language (90 Marks)', description: 'Reasoning & Data Interpretation (30 Marks), Quantitative Aptitude (30 Marks), Constitution of India, Current Affairs, Gujarati & English Comprehension (30 Marks).' },
+      { stage: 'Part-B: Technical Subject & Application (120 Marks)', description: '120 Questions based on Multi-Purpose Health Worker / Sanitary Inspector course syllabus and its practical application.' },
+      { stage: 'Negative Marking & Sports Bonus', description: '0.25 Marks (1/4th) deducted per wrong answer. Additional 5% bonus marks awarded for eligible national/international sports certificate holders.' },
+      { stage: 'Document Verification', description: 'Verification of original academic, diploma, age, residence, caste, and computer certificates.' }
+    ],
+    howToApply: [
+      'Visit the official OJAS Gujarat portal at https://ojas.gujarat.gov.in or GSSSB website at https://gsssb.gujarat.gov.in.',
+      'Click on "Online Application" -> "Apply Online" and select GSSSB/202627/452 - Multi-Purpose Health Supervisor, Class-III.',
+      'Fill up Personal Details and Educational Qualification details accurately.',
+      'Save the application and note down your unique Application Number.',
+      'Upload recent passport size photograph and signature as per prescribed dimensions.',
+      'Click on "Confirm Application" to submit your application. (Note: Once confirmed, no details can be modified).',
+      'Proceed to Online Fee Payment and pay the application fee (Rs. 500 for General; Rs. 400 for Reserved) before 18 August 2026 (23:59 Hrs).',
+      'Download and print the confirmed application form and fee payment receipt for future reference.'
+    ],
+    documentsRequired: [
+      'Class 10th & 12th Marksheets and Passing Certificates',
+      '1-Year MPHW Basic Course / Sanitary Inspector Diploma / ITI Health Sanitary Inspector Certificate & Marksheets',
+      'Basic Computer Knowledge Certificate / Diploma',
+      'School Leaving Certificate / Birth Certificate for Date of Birth proof',
+      'Caste / Non-Creamy Layer (NCL) Certificate (for SC/ST/SEBC candidates issued by Gujarat Govt)',
+      'EWS Certificate (for EWS category candidates)',
+      'Disability Certificate (for PwD candidates, if applicable)',
+      'Sports Certificate (if claiming 5% sports bonus marks)',
+      'Scanned Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Only MALE candidates are eligible to apply for this post. Female candidates cannot apply.',
+      'Online applications are accepted exclusively through https://ojas.gujarat.gov.in. Offline forms will not be accepted.',
+      'Negative marking of 0.25 marks per wrong answer applies in the MCQ examination.',
+      'Candidates must ensure their application is "CONFIRMED" on the portal before the last date, otherwise it will not be considered.',
+      'Tentative MCQ exam is scheduled for November 2026.'
+    ],
+    urls: [
+      { label: 'OJAS Gujarat Official Online Application Portal', url: 'https://ojas.gujarat.gov.in' },
+      { label: 'GSSSB Official Website', url: 'https://gsssb.gujarat.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for GSSSB Multi-Purpose Health Supervisor recruitment 2026?', answer: 'The last date to submit online application forms on ojas.gujarat.gov.in is 15 August 2026 (up to 23:59 Hrs). Online fee payment can be done till 18 August 2026.' },
+      { question: 'Can female candidates apply for GSSSB Multi-Purpose Health Supervisor post?', answer: 'No, as per Advt 452/2026-27, the post of Multi-Purpose Health Supervisor is for male candidates only.' },
+      { question: 'What is the educational qualification required for GSSSB Health Supervisor Class-III?', answer: 'Candidate must have completed a 1-year MPHW course, Sanitary Inspector Diploma, or ITI Health Sanitary Inspector course with basic computer knowledge and knowledge of Gujarati/Hindi.' },
+      { question: 'What is the pay scale for GSSSB Health Supervisor post?', answer: 'Selected candidates receive a fixed pay of Rs. 26,000/- per month for the first 5 years. After 5 years, regular appointment is given in Pay Level-4 (Rs. 25,500 - Rs. 81,100).' },
+      { question: 'What is the exam pattern for GSSSB Multi-Purpose Health Supervisor recruitment?', answer: 'It is a 210-mark MCQ test (3 Hours) consisting of Part-A (90 marks: Reasoning, Maths, Constitution, Gujarati/English) and Part-B (120 marks: Health & Sanitary Inspector Subject Knowledge) with 0.25 negative marking.' }
+    ]
+  },
   'du-professor-associate-professor-recruitment-2026': {
     id: 'du-professor-associate-professor-recruitment-2026',
     seoTitle: 'DU Professor & Associate Professor Recruitment 2026 Notification, 86 Vacancies, Salary, Eligibility, Apply Online | NewVacancyAlert',

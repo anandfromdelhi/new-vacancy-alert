@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'gsssb-multipurpose-health-supervisor-recruitment-2026',
+    b: 'Gujarat Subordinate Service Selection Board (GSSSB), Gujarat',
+    t: 'GSSSB Multi-Purpose Health Supervisor Recruitment 2026 (Advt 452/2026-27) – 119 Vacancies in Health Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 15 August 2026',
+    d: '03-08-2026',
+    l: '15-08-2026 (23:59 Hrs)',
+    a: 'Advt. No. 452/2026-27 Dated 01-08-2026',
+    q: '1-Yr MPHW Course / Sanitary Inspector Diploma / Health Sanitary Inspector ITI + Computer Knowledge (Male Only, Age 18-33 Yrs)',
+    desc: 'Gujarat Subordinate Service Selection Board (GSSSB) invites online applications from eligible male candidates for direct recruitment to 119 posts of Multi-Purpose Health Supervisor, Class-III in the Health & Family Welfare Department, Govt of Gujarat. Qualification: 1-Year MPHW or Sanitary Inspector Diploma/ITI course with basic computer knowledge. Fixed Pay: Rs. 26,000/pm for first 5 years. Apply online via OJAS portal from 01.08.2026 to 15.08.2026.',
+    u: 'https://ojas.gujarat.gov.in'
+  },
+  {
     id: 'du-professor-associate-professor-recruitment-2026',
     b: 'University of Delhi (DU), Delhi',
     t: 'DU Professor & Associate Professor Recruitment 2026 (Advt 321/2026 & 322/2026) – 86 Teaching Vacancies in 9 Departments (Pay Level 13A & 14) | Apply Online at du.ac.in by 20 August 2026',
