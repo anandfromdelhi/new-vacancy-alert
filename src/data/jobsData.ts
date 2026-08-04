@@ -12,6 +12,39 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'esic-ludhiana-faculty-senior-resident-tutor-2026',
+    b: 'ESIC Medical College & Hospital, Ludhiana (Punjab)',
+    t: 'ESIC Ludhiana Teaching Faculty & Senior Resident Recruitment 2026 (Advt Z/121/2023-MED ADMN) – 102 Vacancies (Walk-in Interview on 12 August 2026) | Email Documents by 08 August 2026',
+    d: '04-08-2026',
+    l: '12-08-2026',
+    a: 'No. Z/121/2023-MED ADMN-Part(1) Dated 31.07.2026',
+    q: 'MBBS / MD / MS / DNB / DM / M.Ch in relevant specialty (NMC registered) | Max Age 45-69 Yrs',
+    desc: 'ESIC Medical College & Hospital Ludhiana (Punjab) invites eligible medical professionals for offline Walk-in Interview on 12th August 2026 for recruitment to 102 contractual posts of Teaching Faculty (Professor, Associate & Assistant Professor), Senior Resident (3 Year & 1 Year GDMO), and Tutor across various clinical and pre-clinical departments. Consolidated gross pay up to ₹2.5 Lakh per month. Email advance scanned application with supporting documents to dean-ludhiana.pb@esic.gov.in by 08 August 2026.',
+    u: 'https://www.esic.gov.in'
+  },
+  {
+    id: 'aai-western-region-apprentice-recruitment-2026',
+    b: 'Airports Authority of India (AAI Western Region), RHQ Mumbai',
+    t: 'AAI Western Region Graduate & Diploma Apprentice Recruitment 2026 (Advt 03/08/2026/APPRENTICE/WR) – 47 Vacancies for MH, GJ, MP & Diu Domiciles | Apply Online via NATS 2.0 by 30 September 2026',
+    d: '04-08-2026',
+    l: '30-09-2026',
+    a: 'Advt. No. 03/08/2026/APPRENTICE (Graduate/Diploma)/WR',
+    q: 'Degree (B.Com, BBA, B.E/B.Tech in Civil, Elec, ECE, CS/IT, Mech, any Degree) / Diploma (Civil, Elec, Mech) Passed on/after 01.04.2022 + Domicile of MH, GJ, MP or Diu (Age 18-26 Yrs)',
+    desc: 'Airports Authority of India (AAI), Regional Headquarters, Western Region, Mumbai invites online applications from eligible Degree and Diploma holders domiciled in Maharashtra, Gujarat, Madhya Pradesh, or UT of Diu for 47 One-Year Graduate & Diploma Apprentice training slots across Western Region airports. Monthly stipend ₹15,000 for Graduates & ₹12,000 for Diploma holders. No application fee. Apply online via NATS 2.0 portal by 30th September 2026.',
+    u: 'https://nats.education.gov.in'
+  },
+  {
+    id: 'rites-it-professionals-recruitment-2026',
+    b: 'RITES Limited (A Govt. of India Enterprise)',
+    t: 'RITES IT Professionals Recruitment 2026 (Advt VC No. RG/13/26 to RG/15/26) – 3 Vacancies for DGM, Senior Manager & Manager on Regular Basis | Apply Online by 24 August 2026',
+    d: '04-08-2026',
+    l: '24-08-2026',
+    a: 'VC No. RG/13/26, RG/14/26, RG/15/26',
+    q: 'BE/B.Tech/MCA/M.Sc in CS/IT/Electronics + 5 to 11 Yrs Experience (Max Age 35-41 Yrs)',
+    desc: 'RITES Limited, a Navratna CPSE under the Ministry of Railways, invites online applications for recruitment to 3 posts of IT Professionals on regular basis, including Deputy General Manager (Joint Program Manager), Senior Manager (Cyber Security Expert), and Manager (API Developer). Pay scale up to ₹70,000-2,00,000 (IDA). Apply online at rites.com by 24 August 2026.',
+    u: 'http://www.rites.com'
+  },
+  {
     id: 'india-post-bengaluru-staff-car-driver-recruitment-2026',
     b: 'Department of Posts (India Post), MMS Bengaluru, Karnataka Circle',
     t: 'India Post Bengaluru Staff Car Driver Recruitment 2026 (Advt No. B-9/XI/Rect of Dvrs/DP/Dlgs/2025) – 11 Vacancies on Deputation/Absorption (Pay Level-2 ₹19,900-63,200) | Apply Offline',

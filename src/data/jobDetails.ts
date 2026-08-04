@@ -58,6 +58,367 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'esic-ludhiana-faculty-senior-resident-tutor-2026': {
+    id: 'esic-ludhiana-faculty-senior-resident-tutor-2026',
+    seoTitle: 'ESIC Ludhiana Faculty & Senior Resident Recruitment 2026 (102 Posts) – Walk-in Interview on 12 August',
+    seoDescription: 'ESIC Medical College & Hospital Ludhiana Recruitment 2026: 102 vacancies for Professor, Associate/Assistant Professor, Senior Resident & Tutor. Check department-wise posts, eligibility, NMC norms, interview date (12 August 2026) & email application link.',
+    focusKeywords: 'ESIC Ludhiana Recruitment 2026, ESIC Medical College Ludhiana Faculty Vacancy, ESIC Ludhiana Senior Resident Interview, ESIC Ludhiana Walk In Interview',
+    lsiKeywords: 'ESIC Ludhiana teaching faculty 2026, ESIC Ludhiana SR job, dean-ludhiana.pb@esic.gov.in, esic.gov.in Ludhiana notification',
+    title: 'ESIC Medical College & Hospital Ludhiana Teaching Faculty & Senior Resident Recruitment 2026 – 102 Vacancies',
+    board: 'ESIC Medical College & Hospital, Ludhiana (Punjab)',
+    advtNo: 'No. Z/121/2023-MED ADMN-Part(1) Dated 31.07.2026',
+    vacancies: 102,
+    jobLocation: 'Ludhiana, Punjab',
+    applicationMode: 'Email Advance Documents + Offline Walk-In Interview',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'ESIC Medical College & Hospital, Ludhiana (Punjab), under the Ministry of Labour & Employment, Government of India, has published recruitment advertisement No. Z/121/2023-MED ADMN-Part(1) for filling up 102 contractual posts.',
+      'Positions include Teaching Faculty (Professor, Associate Professor, Assistant Professor), Senior Residents (3 years under Residency scheme & 1 year against GDMO), and Tutors across multiple medical specialties.',
+      'Eligible candidates must email their advance application form along with scanned documents to dean-ludhiana.pb@esic.gov.in by 08 August 2026 (Friday) and report for offline Walk-in Interview on 12 August 2026 (Wednesday).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'ESIC Medical College & Hospital, Ludhiana (Punjab)' },
+      { label: 'Parent Ministry', value: 'Ministry of Labour & Employment, Govt. of India' },
+      { label: 'Post Names', value: 'Professor, Associate Professor, Assistant Professor, Senior Resident (3 Yr / 1 Yr GDMO), Tutor' },
+      { label: 'Advt Number', value: 'Z/121/2023-MED ADMN-Part(1) Dated 31.07.2026' },
+      { label: 'Total Vacancies', value: '102 Posts' },
+      { label: 'Tenure', value: 'Faculty: 1 Year (extendable to 3 Yrs) | SR: 3 Years / 1 Year' },
+      { label: 'Gross Remuneration', value: 'Professor: ₹2.5 L/pm | Assoc Prof: ₹1.7 L/pm | Asst Prof & SR: ₹1.45 L/pm | Tutor: ₹1.2 L/pm' },
+      { label: 'Advance Email Submission Date', value: '08 August 2026 (Friday)' },
+      { label: 'Walk-in Interview Date & Time', value: '12 August 2026 (Wednesday) | Reporting: 09:00 AM - 10:00 AM' },
+      { label: 'Interview Venue', value: '2nd Floor, Dean Office, ESIC Medical College Hospital, Ludhiana-141001 (Punjab)' },
+      { label: 'Official Website', value: 'https://www.esic.gov.in / www.mcludhiana.esic.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31.07.2026' },
+      { event: 'Last Date to Email Advance Application & Scanned Documents', date: '08.08.2026 (Friday)' },
+      { event: 'Walk-in Interview Date & Candidate Reporting Time', date: '12.08.2026 (Wednesday) | 09:00 AM to 10:00 AM' }
+    ],
+    vacanciesDetails: [
+      { category: 'Professor (Contractual)', count: '12 Posts (Anatomy, Community Medicine, FMT, Gen Medicine, Gen Surgery, Pharmacology, Plastic Surgery, Cardiology, Medical Oncology, Endocrinology, Neurology, Gastroenterology)' },
+      { category: 'Associate Professor (Contractual)', count: '21 Posts (Anatomy, Biochemistry, Blood Bank, Dental, Dermatology, FMT, Gen Medicine, Ophthal, Ortho, Pediatrics, Physio, Psychiatry, Radiology, Cardiology, Oncology, Nephro, Urology, etc.)' },
+      { category: 'Assistant Professor (Contractual)', count: '14 Posts (A&E, Anaesthesia, Anatomy, Community Medicine, Dental, Obs&Gynae, Pathology, Pediatrics, Radiology)' },
+      { category: 'Senior Resident (3 Years under Residency Scheme)', count: '38 Posts (Anaesthesia, FMT, Gen Medicine, Gen Surgery, ICU, Microbiology, Obs&Gynae, Ophthal, Ortho, Pediatrics, Pharmacology, Physio, Radiology, Cardiology, Oncology, Nephro, Urology)' },
+      { category: 'Senior Resident (1 Year against GDMO)', count: '10 Posts (A&E, Anaesthesia, Gen Medicine, Gen Surgery, Obs&Gynae, Orthopaedics)' },
+      { category: 'Tutor', count: '7 Posts (Microbiology, Pathology, Pharmacology, Physiology)' },
+      { category: 'Total Vacancies', count: 102 }
+    ],
+    eligibility: {
+      education: [
+        'Teaching Faculty (Professor / Associate Professor / Assistant Professor): MD / MS / DNB / DM / M.Ch in concerned specialty as per latest National Medical Commission (NMC) norms.',
+        'Senior Resident: MD / MS / DNB in concerned specialty or 2 years post-MBBS experience in relevant branch.',
+        'Tutor: MD in concerned subject (or MBBS with 2 years experience).',
+        'Updated Medical Registration Certificate from NMC or Punjab Medical Council is mandatory.'
+      ],
+      ageLimit: 'Age as on 12.08.2026 (date of interview): Teaching Faculty: Not exceeding 69 Years | Senior Resident: Not exceeding 45 Years.',
+      ageRelaxation: [
+        { category: 'SC / ST Category', relaxation: '5 Years' },
+        { category: 'OBC Category', relaxation: '3 Years' },
+        { category: 'Ex-Servicemen & PwBD', relaxation: 'As per GOI rules' }
+      ],
+      experience: [
+        'Teaching experience and post-qualification experience as per NMC guidelines for respective cadre.'
+      ]
+    },
+    salary: {
+      payLevel: 'Gross Consolidated Monthly Remuneration (IDA / 7th CPC Matrix)',
+      initialPay: 'Professor: ₹1,23,100 (Level 13) + allowances (Gross ~₹2.5 Lakh pm) | Associate Professor: ₹78,800 (Level 12) + allowances (Gross ~₹1.7 Lakh pm) | Assistant Professor & Senior Resident: ₹67,700 (Level 11) + allowances (Gross ~₹1.45 Lakh pm) | Tutor: ₹56,100 (Level 10) + allowances (Gross ~₹1.2 Lakh pm)',
+      allowances: [
+        'Basic pay + DA & other admissible allowances under ESIC rules.',
+        'For SRs with Diploma only: ₹1,350/pm deducted.',
+        'For SRs without Degree/Diploma: ₹2,250/pm deducted.'
+      ]
+    },
+    applicationFee: [
+      { category: 'SC / ST / ESIC Employees / Female / Defence Ex-Servicemen / PwBD', fee: 'Nil (Exempted)', refund: 'N/A' },
+      { category: 'All Other Categories (UR / EWS / OBC)', fee: 'Rs. 500/-', refund: 'Non-refundable' }
+    ],
+    howToPayFee: [
+      'Fee of ₹500/- to be paid through Demand Draft in favor of "ESI Fund A/c No. 1", Payable at Ludhiana.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Email Advance Document Scrutiny', description: 'Submit filled application form along with scanned certificates & DD by 08.08.2026 to dean-ludhiana.pb@esic.gov.in.' },
+      { stage: 'Stage 2: Walk-In Interview & Original Document Verification', description: 'Report at 2nd Floor, Dean Office, ESIC Medical College Hospital, Ludhiana on 12.08.2026 between 09:00 AM to 10:00 AM with original documents.' },
+      { stage: 'Stage 3: Result Publication', description: 'Final merit list published on www.mcludhiana.esic.gov.in & www.esic.gov.in.' }
+    ],
+    howToApply: [
+      'Download the official application form format from www.esic.gov.in or www.mcludhiana.esic.gov.in.',
+      'Fill up the application form neatly and attach self-attested copies of 10th certificate, MBBS/MD/MS marksheets & degree, NMC/Punjab Medical Council Registration, experience certificates, research publications, caste/category certificate, Aadhaar card, and Demand Draft (if applicable).',
+      'Scan the filled form & documents and email to dean-ludhiana.pb@esic.gov.in on or before 08.08.2026. Mention "Name, Post Applied and Department" in the subject line of the email.',
+      'Appear in person for Walk-in Interview on 12.08.2026 (09:00 AM to 10:00 AM) at Dean Office, 2nd Floor, ESIC Medical College Hospital, Ludhiana-141001 with original documents and Demand Draft.'
+    ],
+    documentsRequired: [
+      '10th Class Passing Certificate for Date of Birth proof',
+      'All Marksheets, Attempt Certificates & Degree Certificates of MBBS, MD/MS/DNB/DM/M.Ch',
+      'Updated Punjab Medical Council / NMC Medical Registration Certificate',
+      'Proof of Research Publications & Indexing Agency Proof (if applicable)',
+      'Experience Certificate(s) & Relieving / NOC Certificate from current employer',
+      'Recent Passport Size Photograph',
+      'Aadhaar Card / ID Proof',
+      'Valid EWS / OBC / SC / ST / PwBD Certificate (if applicable)',
+      'Demand Draft of ₹500/- (if applicable)'
+    ],
+    importantInstructions: [
+      'No private practice is allowed after joining ESIC Medical College Ludhiana.',
+      'Retired Professors can also apply (age up to 69 years).',
+      'Candidates appointed against vacant reserved category post for 44 days are subject to extension.',
+      'No TA/DA will be paid for attending the interview.'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://www.esic.gov.in' },
+      { label: 'ESIC Ludhiana Website', url: 'http://www.mcludhiana.esic.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the walk-in interview date for ESIC Ludhiana recruitment 2026?', answer: 'The offline Walk-in Interview will be held on 12 August 2026 (Wednesday) from 09:00 AM to 10:00 AM at Dean Office, ESIC Medical College Hospital, Ludhiana.' },
+      { question: 'What is the last date to email advance document copies to ESIC Ludhiana?', answer: 'Candidates must email their scanned application form and documents to dean-ludhiana.pb@esic.gov.in by 08 August 2026 (Friday).' },
+      { question: 'What is the total number of vacancies available?', answer: 'There are 102 total vacancies across Professor (12), Associate Professor (21), Assistant Professor (14), Senior Resident 3-Yr (38), Senior Resident 1-Yr (10), and Tutor (7).' },
+      { question: 'What is the application fee for female and SC/ST candidates?', answer: 'SC, ST, ESIC Employees, Female candidates, Defence Ex-Servicemen, and PH candidates are exempt from fee (NIL).' },
+      { question: 'What is the maximum age limit for Senior Resident posts?', answer: 'The maximum age limit for Senior Residents is 45 years as on date of interview (12.08.2026).' }
+    ]
+  },
+  'aai-western-region-apprentice-recruitment-2026': {
+    id: 'aai-western-region-apprentice-recruitment-2026',
+    seoTitle: 'AAI Western Region Apprentice Recruitment 2026 (47 Posts) – Apply Online for Graduate & Diploma Apprentices',
+    seoDescription: 'Airports Authority of India (AAI RHQ Mumbai Western Region) Apprentice Recruitment 2026: Apply online for 47 Graduate & Diploma Apprentice slots across MH, GJ, MP & Diu airports. Check stipend, eligibility, NATS 2.0 registration link & last date (30 September 2026).',
+    focusKeywords: 'AAI Western Region Apprentice Recruitment 2026, AAI Mumbai Apprentice Vacancy, AAI Graduate Diploma Apprentice 2026, NATS 2.0 AAI WR Apprentice',
+    lsiKeywords: 'AAI Apprentice 2026, Airports Authority of India Mumbai recruitment, AAI Western Region 47 apprentice posts, WMHMCC000058 AAI NATS portal',
+    title: 'AAI Western Region Graduate & Diploma Apprentice Engagement 2026-27 (Advt No. 03/08/2026/APPRENTICE/WR) – 47 Vacancies',
+    board: 'Airports Authority of India (AAI Western Region), RHQ Mumbai',
+    advtNo: '03/08/2026/APPRENTICE (Graduate/Diploma)/WR',
+    vacancies: 47,
+    jobLocation: 'Mumbai, Kolhapur, Jamnagar, Jabalpur, Kandla, Bhuj, Diu, Gondia, Solapur, Porbandar, Keshod (Western Region Airports)',
+    applicationMode: 'Online via NATS 2.0 Portal',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Airports Authority of India (AAI), a Schedule-A Mini Ratna Category-1 Public Sector Enterprise under the Ministry of Civil Aviation, invites online applications from eligible Degree and Diploma holders for engagement as Apprentices under the Apprentices Act, 1961 for the year 2026-27.',
+      'A total of 47 One-Year Apprenticeship training slots are available across various airports under Regional Headquarters (RHQ), Western Region, Mumbai.',
+      'Candidates who are domiciles of Maharashtra, Gujarat, Madhya Pradesh, or the Union Territory of Diu and reside near the respective airports are eligible to apply through the NATS 2.0 portal from 03.08.2026 to 30.09.2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Airports Authority of India (AAI RHQ Western Region, Mumbai)' },
+      { label: 'Post Name', value: 'Graduate Apprentice & Diploma Apprentice' },
+      { label: 'Advt Number', value: '03/08/2026/APPRENTICE (Graduate/Diploma)/WR' },
+      { label: 'NATS Establishment No.', value: 'WMHMCC000058' },
+      { label: 'Total Vacancies', value: '47 Posts (Graduate: 36, Diploma: 11)' },
+      { label: 'Training Duration', value: '1 Year (12 Months)' },
+      { label: 'Monthly Stipend', value: 'Graduate: ₹15,000/- pm | Diploma: ₹12,000/- pm' },
+      { label: 'Eligibility Domicile', value: 'Maharashtra, Gujarat, Madhya Pradesh & UT of Diu' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Online Application Window', value: '03 August 2026 to 30 September 2026' },
+      { label: 'Official NATS Portal', value: 'https://nats.education.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Commencement of Online Application through NATS 2.0 Portal', date: '03.08.2026' },
+      { event: 'Last Date of Online Application through NATS Portal', date: '30.09.2026 (Wednesday)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Graduate Apprentice (Finance) - B.Com / BBA', count: '13 (Mumbai, Kolhapur, Jamnagar, Jabalpur, Kandla, Bhuj, Diu, Gondia, Solapur)' },
+      { category: 'Graduate Apprentice (Electrical / Civil Engg)', count: '8 (Mumbai, Kolhapur, Keshod, Kandla, Gondia, Solapur)' },
+      { category: 'Graduate Apprentice (Electronics & Telecomm)', count: '2 (Mumbai)' },
+      { category: 'Graduate Apprentice (IT / Computer Science)', count: '1 (Jabalpur)' },
+      { category: 'Graduate Apprentice (Mechanical Engg)', count: '2 (Mumbai, Porbandar)' },
+      { category: 'Graduate Apprentice (HR) - Any Degree + Computer Knowledge', count: '4 (Mumbai)' },
+      { category: 'Diploma Apprentice (Electrical / Civil Engg)', count: '5 (Mumbai, Kolhapur, Kandla, Gondia)' },
+      { category: 'Diploma Apprentice (Mechanical Engg)', count: '1 (Mumbai)' },
+      { category: 'Total Apprentice Slots', count: 47 }
+    ],
+    eligibility: {
+      education: [
+        'Graduate Apprentice (Engineering / Tech): Full-time regular 4-year B.E. / B.Tech Degree in Civil, Electrical, Electronics & Telecommunications, Computer Science, IT, Mechanical or Automobile Engineering from an AICTE recognized institution.',
+        'Graduate Apprentice (Finance): Degree in Commerce (B.Com) or Bachelor of Business Administration (BBA).',
+        'Graduate Apprentice (HR): Degree in any discipline with knowledge of computer and administrative work.',
+        'Diploma Apprentice: Full-time regular 3-year Diploma in Electrical, Civil, Mechanical, or Automobile Engineering.',
+        'Candidates must have passed Degree/Diploma on or after 01.04.2022 with minimum 50% aggregate marks (45% for SC/ST).'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 26 Years as on 31.07.2026.',
+      ageRelaxation: [
+        { category: 'SC / ST Category', relaxation: '5 Years' },
+        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years' },
+        { category: 'PwBD Category', relaxation: 'As per Govt rules' }
+      ],
+      experience: [
+        'Only candidates without prior job experience or apprenticeship training for 1 year or more after passing qualifying exam are eligible.',
+        'Must be a domicile of Maharashtra, Gujarat, Madhya Pradesh, or UT of Diu.'
+      ]
+    },
+    salary: {
+      payLevel: 'Monthly Consolidated Stipend',
+      initialPay: 'Graduate Apprentice: ₹15,000/- per month | Diploma Apprentice: ₹12,000/- per month',
+      allowances: [
+        'Government share credited directly via DBT from BOAT to apprentice registered bank account.',
+        'Graduate: ₹8,850 (Establishment) + ₹6,150 (Govt DBT)',
+        'Diploma: ₹6,550 (Establishment) + ₹5,450 (Govt DBT)'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories (UR / EWS / OBC / SC / ST / PwBD)', fee: 'Nil (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Merit List', description: 'Shortlisting based on percentage (%) of marks scored in qualifying Degree / Diploma examination.' },
+      { stage: 'Stage 2: Document Verification & Interview', description: 'Verification of original certificates/testimonials and interview via registered email notification.' },
+      { stage: 'Stage 3: Medical Fitness & Police Verification', description: 'Submission of Medical Fitness Certificate from Gazetted Govt Medical Officer and local Police Verification Certificate at time of joining.' }
+    ],
+    howToApply: [
+      'Register as a Student on NATS 2.0 Web Portal (https://nats.education.gov.in/).',
+      'Log in to your NATS account and search for Establishment Name "Airports Authority of India, RHQ, Western Region" or Establishment ID "WMHMCC000058".',
+      'Select the relevant discipline/trade apprenticeship advertisement and submit your online application on the NATS portal.',
+      'Save the application confirmation for future reference.',
+      'Last date to submit online application on NATS portal is 30.09.2026.'
+    ],
+    documentsRequired: [
+      'Degree / Diploma Marksheets (All Semesters/Years) and Provisional/Original Degree Certificate',
+      'High School (10th) Certificate as Date of Birth Proof',
+      'Domicile Certificate of Maharashtra / Gujarat / Madhya Pradesh / UT of Diu',
+      'Caste / Category Certificate (SC/ST/OBC-NCL/EWS) if applicable',
+      'Percentage Conversion Document / Certificate (if CGPA/CPI system)',
+      'Photo Identity Proof (Aadhaar Card, PAN Card, Passport, etc.)',
+      'Medical Fitness Certificate & Police Verification Certificate (at time of joining)'
+    ],
+    importantInstructions: [
+      'No hard copy needs to be sent by post to AAI office.',
+      'Candidates who passed qualifying exam before 01.04.2022 are NOT eligible.',
+      'Engagement is strictly for 1 year training and carries no right for regular employment in AAI.'
+    ],
+    urls: [
+      { label: 'Apply Online via NATS 2.0 Portal', url: 'https://nats.education.gov.in' },
+      { label: 'Official Website', url: 'https://www.aai.aero' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for AAI Western Region Apprentice 2026?', answer: 'The last date to submit online application through the NATS 2.0 portal is 30 September 2026.' },
+      { question: 'Who can apply for AAI Western Region Apprentice recruitment?', answer: 'Candidates having full-time regular Degree (B.Com, BBA, BE/B.Tech, HR) or Diploma passed on or after 01.04.2022 who are domiciles of Maharashtra, Gujarat, Madhya Pradesh, or UT of Diu.' },
+      { question: 'What is the monthly stipend for AAI Apprentices?', answer: 'Graduate Apprentices receive ₹15,000/- per month and Diploma Apprentices receive ₹12,000/- per month.' },
+      { question: 'What is the NATS Establishment ID for AAI RHQ Western Region?', answer: 'The NATS 2.0 Establishment ID for AAI RHQ Western Region Mumbai is WMHMCC000058.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee for any category.' }
+    ]
+  },
+  'rites-it-professionals-recruitment-2026': {
+    id: 'rites-it-professionals-recruitment-2026',
+    seoTitle: 'RITES IT Professionals Recruitment 2026 (3 Posts) – Apply Online for DGM, Sr Manager & Manager Vacancies',
+    seoDescription: 'RITES Limited Recruitment 2026: Apply online for 3 IT Professional vacancies (DGM, Sr Manager Cyber Security, Manager API Developer). Check eligibility, qualification, salary, selection process, syllabus & last date (24 August 2026).',
+    focusKeywords: 'RITES IT Professionals Recruitment 2026, RITES Cyber Security Expert, RITES API Developer, RITES DGM Recruitment 2026',
+    lsiKeywords: 'RITES vacancy 2026, RITES IT jobs, RITES recruitment VC No RG 13 26 RG 14 26 RG 15 26, rites.com online application',
+    title: 'RITES IT Professionals Recruitment 2026 (Advt VC No. RG/13/26, RG/14/26, RG/15/26) – 3 Vacancies',
+    board: 'RITES Limited (A Govt. of India Enterprise)',
+    advtNo: 'VC No. RG/13/26, RG/14/26 & RG/15/26',
+    vacancies: 3,
+    jobLocation: 'Gurgaon / Anywhere in India / Abroad',
+    applicationMode: 'Online',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'RITES Limited, a Navratna Central Public Sector Enterprise (CPSE) under the Ministry of Railways, Government of India, is a premier multi-disciplinary consultancy organization in transport, infrastructure, and related technologies.',
+      'RITES Ltd. has issued recruitment notification for 3 vacancies of IT Professionals on regular basis across three designations: Deputy General Manager (Joint Program Manager), Senior Manager (Cyber Security Expert), and Manager (API Developer).',
+      'Eligible engineering and IT professionals can apply online through the official RITES website (www.rites.com) from 03 August 2026 to 24 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'RITES Limited (Ministry of Railways, Govt. of India)' },
+      { label: 'Post Names', value: 'Deputy General Manager (Joint Program Manager), Senior Manager (Cyber Security Expert), Manager (API Developer)' },
+      { label: 'Advt / VC Numbers', value: 'VC No. RG/13/26, RG/14/26, RG/15/26' },
+      { label: 'Total Vacancies', value: '3 Posts (UR)' },
+      { label: 'Employment Type', value: 'Regular Basis' },
+      { label: 'Pay Scale', value: '₹50,000 – ₹2,00,000 (IDA Pay Scale depending on post)' },
+      { label: 'Selection Mode', value: 'Written Test & Interview / Interview only (DGM)' },
+      { label: 'Online Application Dates', value: '03 August 2026 to 24 August 2026' },
+      { label: 'Written Test Date', value: '30 August 2026' },
+      { label: 'Official Website', value: 'http://www.rites.com' }
+    ],
+    importantDates: [
+      { event: 'Commencement of Online Application & Fee Payment', date: '03.08.2026' },
+      { event: 'Last Date for Online Application & Fee Payment', date: '24.08.2026' },
+      { event: 'Written Test Date (for Sr Manager & Manager posts)', date: '30.08.2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Deputy General Manager (Joint Program Manager) - VC No. RG/13/26', count: '1 (UR, Max Age: 41 Yrs)' },
+      { category: 'Senior Manager (Cyber Security Expert) - VC No. RG/14/26', count: '1 (UR, Max Age: 38 Yrs)' },
+      { category: 'Manager (API Developer) - VC No. RG/15/26', count: '1 (UR, Max Age: 35 Yrs)' },
+      { category: 'Total Vacancies', count: 3 }
+    ],
+    eligibility: {
+      education: [
+        'Bachelor’s Degree in Computer Engineering / Computer Technology / Computer Science / Computer Applications / Information Technology / Electronics / Electronics & Telecommunications / Electronics & Communication / Electronics & Instrumentation OR Post Graduate Degree in Electronics / Telecommunication / Computer Science / IT / Computer Applications from an AICTE/UGC recognized University.',
+        'UR/EWS candidates must have Minimum 60% marks in the qualifying degree. Reserved category candidates (SC/ST/OBC-NCL/PwBD) must have minimum 50% marks.'
+      ],
+      ageLimit: 'Age limit as on 24.08.2026 (cut-off date): DGM: 41 Years | Sr Manager: 38 Years | Manager: 35 Years.',
+      ageRelaxation: [
+        { category: 'SC/ST Category', relaxation: '5 Years' },
+        { category: 'OBC-NCL Category', relaxation: '3 Years' },
+        { category: 'PwBD Category', relaxation: '10 Years' },
+        { category: 'J&K Domicile', relaxation: '5 Years' },
+        { category: 'RITES Regular / Contract Employees', relaxation: '5 Years' }
+      ],
+      experience: [
+        'DGM (Joint Program Manager) [VC No. RG/13/26]: Total 11 Years post-qualification experience out of which minimum 5 years in large strategic IT & digital transformation programs, multi-vendor environments, and government stakeholder management.',
+        'Sr Manager (Cyber Security Expert) [VC No. RG/14/26]: Total 8 Years post-qualification experience out of which minimum 6 years in enterprise cybersecurity, VAPT, IAM, MFA, SIEM, ISO 27001, CERT-In, and DevSecOps.',
+        'Manager (API Developer) [VC No. RG/15/26]: Total 5 Years post-qualification experience in REST APIs, microservices, Spring Boot, Java, and API security/gateway integration.'
+      ]
+    },
+    salary: {
+      payLevel: 'IDA Pay Scale (Regular Basis)',
+      initialPay: 'DGM: ₹70,000 - ₹2,00,000 | Sr Manager: ₹60,000 - ₹1,80,000 | Manager: ₹50,000 - ₹1,60,000',
+      allowances: [
+        'Basic Pay + Dearness Allowance (DA)',
+        'Fixed/Variable Allowances as per scale',
+        'Performance Related Pay (PRP)',
+        'Medical Facilities, HRA / Lease Accommodation',
+        'PF, Gratuity, and Post Retirement Medical Scheme'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / OBC Candidates', fee: 'Rs. 600/- plus applicable taxes', refund: 'Non-refundable' },
+      { category: 'EWS / SC / ST / PWD Candidates', fee: 'Rs. 300/- plus applicable taxes', refund: 'Refunded upon participation in selection process (Written test/Interview)' }
+    ],
+    howToPayFee: [
+      'Fee must be deposited online during online application submission through HDFC payment gateway.'
+    ],
+    selectionProcess: [
+      { stage: 'For Deputy General Manager (VC No. RG/13/26)', description: 'Document Scrutiny followed by 100% Interview (Technical & Professional proficiency - 65%, Personality & Communication - 35%).' },
+      { stage: 'For Sr Manager (RG/14/26) & Manager (RG/15/26)', description: 'Written Test (60% weightage) + Interview (40% weightage). Written Test has 125 objective questions (2.5 hours duration, no negative marking). Minimum 50% marks in written test required for UR/EWS (45% for SC/ST/OBC/PwBD).' }
+    ],
+    examPattern: {
+      duration: '2.5 Hours (150 minutes)',
+      totalQuestions: 125,
+      negativeMarking: 'No Negative Marking',
+      sections: [
+        { name: 'Written Test (Objective Multiple Choice Questions)', questions: 125 }
+      ]
+    },
+    examCentres: {
+      title: 'Written Test Examination Cities',
+      details: 'Written Test will be conducted across 6 locations: Delhi/Gurgaon, Kolkata, Bangalore, Mumbai, Bhubaneswar, and Guwahati.'
+    },
+    howToApply: [
+      'Visit official website http://www.rites.com under Career Section.',
+      'Fill up the online application form with accurate details and note down the generated Registration Number.',
+      'Upload required documents including Date of Birth proof, Qualification marksheets/certificates, Caste/EWS certificate (if applicable), ID proof, and Experience certificates in chronological order.',
+      'Pay online application fee (₹600 for Gen/OBC, ₹300 for EWS/SC/ST/PwBD).',
+      'Download and retain a copy of the filled online application form for future reference and document verification.'
+    ],
+    documentsRequired: [
+      '1 recent passport size color photograph',
+      'High School (10th) certificate as proof of Date of Birth',
+      'Certificates & Marksheets of 10th, 12th, Diploma, Graduation & Post-Graduation',
+      'Proof of Experience certificates (joining letter, offer letter, relieving letter, pay slips, Form 16)',
+      'Valid EWS / SC / ST / OBC-NCL Certificate (if applicable)',
+      'Proof of Identity & Address (Aadhaar Card, Voter ID, Passport, PAN Card)',
+      'PwBD Certificate (if applicable)'
+    ],
+    importantInstructions: [
+      'Cut-off date for age, qualification, and experience criteria is 24.08.2026.',
+      'OBC-NCL certificate should not be older than one year as on 24.08.2026.',
+      'EWS certificate must be valid for Financial Year 2026-27.',
+      'No hard copy needs to be sent by post/courier.'
+    ],
+    urls: [
+      { label: 'Apply Online / Career Portal', url: 'http://www.rites.com' },
+      { label: 'Official Website', url: 'http://www.rites.com' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for RITES IT Professionals Recruitment 2026?', answer: 'The last date for submission of online application and fee payment is 24 August 2026.' },
+      { question: 'What is the total number of vacancies in RITES IT Recruitment 2026?', answer: 'There are a total of 3 vacancies: DGM (1 post), Sr Manager Cyber Security (1 post), and Manager API Developer (1 post).' },
+      { question: 'Is there any written test for Deputy General Manager post?', answer: 'No, selection for the DGM post (VC No. RG/13/26) is based on Document Scrutiny and Interview only (100% weightage).' },
+      { question: 'What is the application fee for RITES IT recruitment?', answer: 'General and OBC candidates need to pay ₹600 + taxes. EWS, SC, ST, and PwBD candidates pay ₹300 + taxes (refundable after appearing in exam/interview).' },
+      { question: 'When will the written test be conducted?', answer: 'The written test for Sr Manager and Manager posts is scheduled for 30 August 2026 across 6 exam centers in India.' }
+    ]
+  },
   'india-post-bengaluru-staff-car-driver-recruitment-2026': {
     id: 'india-post-bengaluru-staff-car-driver-recruitment-2026',
     seoTitle: 'India Post Bengaluru Staff Car Driver Recruitment 2026 Notification, 11 Posts | NewVacancyAlert',
