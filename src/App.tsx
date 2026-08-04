@@ -28,6 +28,8 @@ const AdminPage = lazy(() => import('./pages/AdminPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
 const ArchivesPage = lazy(() => import('./pages/ArchivesPage'));
 const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage'));
+const StateJobsPage = lazy(() => import('./pages/StateJobsPage'));
+const BoardJobsPage = lazy(() => import('./pages/BoardJobsPage'));
 
 // A lightweight loading spinner fallback
 function PageLoader() {
@@ -53,6 +55,8 @@ export default function App() {
                   <Route path="index.html" element={<Navigate to="/" replace />} />
                   <Route path="archives" element={<ArchivesPage />} />
                   <Route path="jobs-for/:qualification" element={<QualificationJobsPage />} />
+                  <Route path="state/:stateSlug" element={<StateJobsPage />} />
+                  <Route path="board/:boardSlug" element={<BoardJobsPage />} />
                   <Route path="articles" element={<ArticlesPage />} />
                   <Route path="about" element={<AboutPage />} />
                   <Route path="contact" element={<ContactPage />} />

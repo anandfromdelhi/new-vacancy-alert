@@ -5,6 +5,7 @@ import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { jobDetailsData } from '../data/jobDetails';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
+import CategoriesSection from '../components/CategoriesSection';
 import AdsterraBanner from '../components/AdsterraBanner';
 import { 
   Search, Calendar, Briefcase, FileText, CheckCircle2, ChevronRight, ChevronDown,
@@ -505,30 +506,8 @@ export default function HomePage() {
               </button>
             </div>
 
-            {/* Qualification Quick Filter Buttons ("Jobs for") */}
-            <div className="pt-2 space-y-2 text-center">
-              <span className="text-xs sm:text-sm font-black text-emerald-300 tracking-wide block">
-                Qualification based vacancies <span className="text-[10px] sm:text-xs font-medium text-blue-200 normal-case opacity-90 ml-1">click to open</span>
-              </span>
-              <div className="flex flex-wrap items-center justify-center gap-2">
-                {[
-                  { label: '10th Pass', slug: '10th-pass' },
-                  { label: '12th Pass', slug: '12th-pass' },
-                  { label: 'BA', slug: 'ba' },
-                  { label: 'B Com', slug: 'bcom' },
-                  { label: 'BSc', slug: 'bsc' },
-                  { label: 'B Tech', slug: 'btech' }
-                ].map(item => (
-                  <Link
-                    key={item.slug}
-                    to={`/jobs-for/${item.slug}`}
-                    className="px-3 sm:px-4 py-1.5 rounded-xl text-xs sm:text-sm font-black bg-white/10 hover:bg-emerald-400 hover:text-slate-950 text-blue-50 border border-white/25 hover:border-emerald-300 shadow-sm transition-all duration-150 active:scale-95 cursor-pointer"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
+            {/* Categories Section (Qualification Wise, State Wise, Board Wise popups) */}
+            <CategoriesSection activeJobs={activeJobsData} />
 
 
           </div>
