@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'uppsc-computer-cadre-manager-programmer-recruitment-2026',
+    b: 'Uttar Pradesh Public Service Commission (UPPSC)',
+    t: 'UPPSC Computer Cadre Recruitment 2026 (Advt No. A-2/E-1/2026) – 10 Vacancies for Manager (System), Senior Programmer, Programmer Gr-2 & Computer Operator Gr-B | Apply Online by 03 September 2026',
+    d: '04-08-2026',
+    l: '03-09-2026',
+    a: 'Advertisement No. A-2/E-1/2026 Dated 03.08.2026',
+    q: 'Degree / PGDCA / O Level / B.E / B.Tech / MCA (CS/IT/Data Science) + Typing (Hindi 25 wpm, Eng 40 wpm)',
+    desc: 'Uttar Pradesh Public Service Commission (UPPSC), Prayagraj invites online OTR-based applications for 10 vacancies in Computer Cadre across 4 posts: Manager (System) (01 Post, Level-11 ₹5400 GP), Senior Programmer (01 Post, ₹4600 GP), Programmer Grade-2 (01 Post, Level-7 ₹4600 GP), and Computer Operator Grade-B (07 Posts, Level-5 ₹2800 GP). Selection via Written Examination and Typing Test. Apply online at uppsc.up.nic.in from 03.08.2026 to 03.09.2026 (Fee submission by 03.09.2026).',
+    u: 'https://uppsc.up.nic.in'
+  },
+  {
+    id: 'aweil-kanpur-executive-finance-trainee-recruitment-2026',
+    b: 'Advanced Weapons & Equipment India Limited (AWEIL)',
+    t: 'AWEIL Kanpur Finance Professionals Recruitment 2026 (Advt No. AWEIL/10/2026, 12/2026 & 13/2026) – 18 Vacancies for Executive Finance & Trainees | Apply Offline by 31 August 2026',
+    d: '04-08-2026',
+    l: '31-08-2026',
+    a: 'Advt. No. AWEIL/10/2026, AWEIL/12/2026 & AWEIL/13/2026',
+    q: 'CA / CMA (Qualified / Newly Qualified / Intermediate) from ICAI / ICMAI',
+    desc: 'Advanced Weapons & Equipment India Limited (AWEIL), a Govt. of India Defence PSU under Ministry of Defence, invites offline applications for 18 contractual finance posts: Executive Finance (09 Posts, ₹90,000/- pm), Executive Finance Trainee (03 Posts, ₹60,000/- pm), and Jr. Executive Finance Trainee (06 Posts, ₹32,000/- pm). Apply offline by sending hard copy to Director (HR), AWEIL, Ordnance Factory Kanpur (OFC) premises, Kanpur UP by 31st August 2026.',
+    u: 'https://www.aweil.in'
+  },
+  {
     id: 'opsc-assistant-executive-engineer-civil-recruitment-2026',
     b: 'Odisha Public Service Commission (OPSC)',
     t: 'OPSC Assistant Executive Engineer (Civil) Recruitment 2026 (Advt No. 07 of 2026-27) – 46 Vacancies for AEE (Civil) Group-A | Apply Online by 11 September 2026',

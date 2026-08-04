@@ -58,6 +58,231 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'uppsc-computer-cadre-manager-programmer-recruitment-2026': {
+    id: 'uppsc-computer-cadre-manager-programmer-recruitment-2026',
+    seoTitle: 'UPPSC Computer Cadre Recruitment 2026 (10 Posts) – Apply Online for Manager System & Programmer',
+    seoDescription: 'UPPSC Computer Cadre Recruitment 2026 (Advt A-2/E-1/2026): 10 vacancies for Manager System, Senior Programmer, Programmer Grade-2 & Computer Operator Grade-B. Check eligibility, syllabus, exam pattern & online OTR last date (03 Sept 2026).',
+    focusKeywords: 'UPPSC Computer Cadre Recruitment 2026, UPPSC Manager System Vacancy, UPPSC Programmer Grade 2, UPPSC Computer Operator Grade B',
+    lsiKeywords: 'UPPSC Advt A-2/E-1/2026, uppsc.up.nic.in online application, UPPSC OTR registration, Industrial Development Department UP jobs',
+    title: 'UPPSC Computer Cadre Posts Recruitment 2026 (Advt No. A-2/E-1/2026) – 10 Vacancies',
+    board: 'Uttar Pradesh Public Service Commission (UPPSC)',
+    advtNo: 'Advertisement No. A-2/E-1/2026 Dated 03.08.2026',
+    vacancies: 10,
+    jobLocation: 'Uttar Pradesh (Various Departments / UPPSC HQ Prayagraj)',
+    applicationMode: 'Online OTR Application',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Uttar Pradesh Public Service Commission (UPPSC), Prayagraj has released Advertisement No. A-2/E-1/2026 for recruitment to 10 Computer Cadre positions in various departments under the Govt. of Uttar Pradesh.',
+      'The recruitment is being held for 4 distinct posts: Manager (System) (01 Post in Industrial Development Dept), Senior Programmer (01 Post in Industrial Development Dept), Programmer Grade-2 (01 Post in Directorate of Financial Planning & Resources), and Computer Operator Grade-B (07 Posts in UPPSC Prayagraj).',
+      'Candidates holding relevant degrees in Computer Application, Computer Science, Engineering (B.E/B.Tech), MCA, or PGDCA with O Level certification can apply online through OTR mode on uppsc.up.nic.in from 03 August 2026 to 03 September 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'Uttar Pradesh Public Service Commission (UPPSC), Prayagraj' },
+      { label: 'Exam Name', value: 'UPPSC Computer Cadre Examination 2026' },
+      { label: 'Advt Number', value: 'Advertisement No. A-2/E-1/2026 Dated 03.08.2026' },
+      { label: 'Post Names', value: 'Manager (System), Senior Programmer, Programmer Grade-2, Computer Operator Grade-B' },
+      { label: 'Total Vacancies', value: '10 Posts (Manager System: 1, Sr Programmer: 1, Programmer Gr-2: 1, Computer Operator Gr-B: 7)' },
+      { label: 'Pay Scales', value: 'Manager (System): ₹15,600-39,100 (GP ₹5,400) | Sr Programmer: ₹9,300-34,800 (GP ₹4,600) | Programmer Gr-2: Level-7 ₹44,900-1,42,400 (GP ₹4,600) | Computer Operator Gr-B: Level-5 ₹5,200-20,200 (GP ₹2,800)' },
+      { label: 'Age Limit', value: '21 to 40 years as on 1st July 2026 (Born between 02.07.1986 and 01.07.2005)' },
+      { label: 'Application Fee', value: '₹225 for UR/EWS/OBC | ₹105 for SC/ST/Ex-SM | ₹25 for PwD' },
+      { label: 'Commencement Date', value: '03 August 2026' },
+      { label: 'Last Date for Online Fee & Form Submission', value: '03 September 2026' },
+      { label: 'Last Date for Form Correction', value: '10 September 2026' },
+      { label: 'Official Websites', value: 'https://uppsc.up.nic.in | https://otr.pariksha.nic.in' }
+    ],
+    importantDates: [
+      { event: 'Online Application & OTR Portal Start Date', date: '03.08.2026' },
+      { event: 'Last Date for Fee Payment in Bank & Online Submission', date: '03.09.2026' },
+      { event: 'Last Date for Correction/Modification in Online Application', date: '10.09.2026' },
+      { event: 'Examination Date', date: 'To be notified by UPPSC via e-Admit Card' }
+    ],
+    vacanciesDetails: [
+      { category: 'Manager (System) - Industrial Development Dept', count: '01 Post (UR: 1)' },
+      { category: 'Senior Programmer - Industrial Development Dept', count: '01 Post (UR: 1)' },
+      { category: 'Programmer Grade-2 - Directorate of Financial Planning', count: '01 Post (UR: 1)' },
+      { category: 'Computer Operator Grade-B - UPPSC Prayagraj', count: '07 Posts (UR: 4, SC: 1, OBC: 2)' },
+      { category: 'Total Computer Cadre Vacancies', count: 10 }
+    ],
+    eligibility: {
+      education: [
+        'Manager (System): Degree in Computer Application / Computer Engineering / IT from a recognized University.',
+        'Senior Programmer: Degree with Diploma in Computer Application / Computer Engineering / IT.',
+        'Programmer Grade-2: Bachelor\'s Degree from recognized University + Post Graduate Diploma in Computer Science (PGDCA) OR \'A\' Level Certificate from DOEACC (NIELIT) + Knowledge of Software development (C/C++, FoxPro, RDBMS like Oracle/Ingres/Sybase) + Networking OS + Office Automation.',
+        'Computer Operator Grade-B: Bachelor\'s Degree with Diploma in Computer Science OR Bachelor\'s Degree with "O" Level Certificate from DOEACC + Knowledge of Data Entry in Hindi & English on MS Office/Lotus/SmartSuite + Knowledge of Networking on Novell/Windows NT + Speed of 25 wpm in Hindi typing & 40 wpm in English typing.'
+      ],
+      ageLimit: '21 to 40 years as on 01.07.2026 (Born not earlier than 2nd July 1986 and not later than 1st July 2005). Max 55 years for PwD candidates.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / Skilled Players / UP Govt Employees / Basic/Madhyamik Teachers', relaxation: '5 Years' },
+        { category: 'Physically Handicapped (PwD) of UP', relaxation: '15 Years' },
+        { category: 'Ex-Servicemen / Emergency Commissioned Officers of UP', relaxation: '3 Years + Service Period' },
+        { category: 'Research Scholars under Chief Minister Fellowship Programme', relaxation: 'Up to 3 Years' }
+      ],
+      experience: [
+        'Preferential qualification: 2 years service in Territorial Army OR "B" Certificate of NCC.'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-5, Level-7, and Grade Pay ₹4600/₹5400',
+      initialPay: 'Manager (System): PB-3 ₹15,600-39,100 (GP ₹5,400) | Senior Programmer: ₹9,300-34,800 (GP ₹4,600) | Programmer Grade-2: Level-7 ₹44,900-1,42,400 (GP ₹4,600) | Computer Operator Grade-B: Level-5 ₹5,200-20,200 (GP ₹2,800)',
+      allowances: [
+        'Dearness Allowance (DA), House Rent Allowance (HRA), City Compensatory Allowance (CCA), and Medical facilities as per UP Govt rules.'
+      ]
+    },
+    applicationFee: [
+      { category: 'Unreserved (UR) / EWS / OBC Candidates', fee: '₹225/- (Exam Fee ₹200 + Processing Fee ₹25)', refund: 'Non-Refundable' },
+      { category: 'Scheduled Caste (SC) / Scheduled Tribe (ST) Candidates', fee: '₹105/- (Exam Fee ₹80 + Processing Fee ₹25)', refund: 'Non-Refundable' },
+      { category: 'Persons with Disabilities (PwDs)', fee: '₹25/- (Exam Fee Nil + Processing Fee ₹25)', refund: 'Non-Refundable' },
+      { category: 'Ex-Servicemen Candidates', fee: '₹105/- (Exam Fee ₹80 + Processing Fee ₹25)', refund: 'Non-Refundable' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: OTR & Online Application', description: 'Mandatory One Time Registration (OTR) on otr.pariksha.nic.in at least 72 hours before filling online form.' },
+      { stage: 'Stage 2: Written Examination', description: 'Objective type MCQ test covering Computer Application (75 Qs/150 Marks for Manager, 50 Qs/100 Marks for others), Logical Ability, Maths & English (Total 110 Qs/220 Marks or 85 Qs/170 Marks). Negative marking of 0.33 (1/3rd).' },
+      { stage: 'Stage 3: Hindi & English Typing Test (for Computer Operator Gr-B)', description: 'Typing Test on Computer: 25 wpm speed in Hindi & 40 wpm speed in English (Total 55 Marks - 27.5 marks each for 10-minute test).' }
+    ],
+    howToApply: [
+      'Complete One Time Registration (OTR) at otr.pariksha.nic.in and obtain 11-digit OTR Number.',
+      'Visit the UPPSC portal: uppsc.up.nic.in and click on "ALL NOTIFICATIONS/ADVERTISEMENTS" -> "Apply" for Advertisement No. A-2/E-1/2026.',
+      'Authenticate with OTR Number via OTP (received on mobile/email) or OTR Password.',
+      'Fill essential qualifications, select posts applied for (Manager System / Sr Programmer / Programmer Gr-2 / Computer Operator Gr-B).',
+      'Pay application fee online via SBI MOPS (Netbanking, Credit/Debit Card, UPI).',
+      'Submit Application Part-2, verify populated details, and take a printout of the final submitted application form for future reference.'
+    ],
+    documentsRequired: [
+      '11-Digit UPPSC OTR Registration Number',
+      'High School (10th) Certificate for Date of Birth verification',
+      'Intermediate (12th) & Graduation Degree Certificates',
+      'Computer Degree / PGDCA / DOEACC "A" Level / "O" Level Certificate',
+      'Valid Caste Certificate issued from Father\'s side (for SC/ST/OBC female candidates)',
+      'Valid EWS Income & Asset Certificate for FY 2025-26',
+      'Disability Certificate (Form II/III/IV) / Ex-Servicemen Discharge Certificate (if applicable)',
+      'Proof of Chief Minister Fellowship Programme completion (if claiming age/weightage relaxation)'
+    ],
+    importantInstructions: [
+      'Negative marking of 1/3rd (0.33) marks will be applicable in objective examination.',
+      'Minimum qualifying efficiency standard: 35% for SC/ST candidates and 40% for all other categories.',
+      'Caste certificate for female candidates must be issued from the father\'s side to be valid for reservation benefit.'
+    ],
+    urls: [
+      { label: 'Official UPPSC Website', url: 'https://uppsc.up.nic.in' },
+      { label: 'UPPSC OTR Portal', url: 'https://otr.pariksha.nic.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for UPPSC Computer Cadre recruitment 2026?', answer: 'The last date for payment of exam fee and online application submission is 03 September 2026.' },
+      { question: 'Is OTR registration compulsory for UPPSC Computer Cadre?', answer: 'Yes, candidate must generate OTR Number at least 72 hours before submitting online application.' },
+      { question: 'What are the 4 posts included in this notification?', answer: '1. Manager (System) 2. Senior Programmer 3. Programmer Grade-2 4. Computer Operator Grade-B.' },
+      { question: 'What is the typing speed requirement for Computer Operator Grade-B?', answer: '25 words per minute in Hindi typing and 40 words per minute in English typing on computer.' }
+    ]
+  },
+  'aweil-kanpur-executive-finance-trainee-recruitment-2026': {
+    id: 'aweil-kanpur-executive-finance-trainee-recruitment-2026',
+    seoTitle: 'AWEIL Kanpur Finance Professionals Recruitment 2026 (18 Posts) – Apply Offline for Executive & Trainees',
+    seoDescription: 'Advanced Weapons & Equipment India Limited (AWEIL Kanpur) Recruitment 2026: 18 contractual vacancies for Executive Finance, Executive Finance Trainee & Jr. Executive Finance Trainee. Check CA/CMA eligibility, pay up to Rs 90,000/pm & last date (31 Aug 2026).',
+    focusKeywords: 'AWEIL Executive Finance Recruitment 2026, AWEIL Finance Trainee Vacancy, AWEIL Kanpur Recruitment 2026, Advanced Weapons and Equipment India Limited Jobs',
+    lsiKeywords: 'AWEIL Advt 10/2026 12/2026 13/2026, aweil.in application form, Ordnance Factory Kanpur OFC jobs, Defence PSU CA CMA jobs',
+    title: 'AWEIL Kanpur Finance Cadre Recruitment 2026 (Advt No. 10/2026, 12/2026 & 13/2026) – 18 Vacancies',
+    board: 'Advanced Weapons & Equipment India Limited (AWEIL)',
+    advtNo: 'Advt. No. AWEIL/10/2026, AWEIL/12/2026 & AWEIL/13/2026',
+    vacancies: 18,
+    jobLocation: 'AWEIL HQ Kanpur / Units at Kanpur, Jabalpur, Korwa, Kolkata, Tiruchirappalli',
+    applicationMode: 'Offline Application by Speed Post / Courier',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Advanced Weapons & Equipment India Limited (AWEIL), a Scheduled "A" Defence Public Sector Undertaking (DPSU) under the Department of Defence Production, Ministry of Defence, Govt. of India, with Corporate Headquarters at Kanpur, has released recruitment notifications for 18 contractual Finance positions.',
+      'Applications are invited from eligible Indian Nationals for the posts of Executive Finance (09 Posts), Executive Finance Trainee (03 Posts), and Jr. Executive Finance Trainee (06 Posts) on a full-time contract basis for a period of 3 years (renewable annually with 10% annual increment).',
+      'Interested candidates should send their hard copy applications with required self-attested documents to Director (HR), AWEIL, Ordnance Factory Kanpur (OFC) premises, Kanpur UP on or before 31 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Advanced Weapons & Equipment India Limited (AWEIL)' },
+      { label: 'Parent Department', value: 'Department of Defence Production, Ministry of Defence, Govt. of India' },
+      { label: 'Category', value: 'Defence Public Sector Undertaking (DPSU - Schedule A)' },
+      { label: 'Post Names', value: 'Executive Finance, Executive Finance Trainee, Jr. Executive Finance Trainee' },
+      { label: 'Advt Numbers', value: 'Advt. No. AWEIL/10/2026, AWEIL/12/2026 & AWEIL/13/2026' },
+      { label: 'Total Vacancies', value: '18 Contractual Posts (3 Years Tenure)' },
+      { label: 'Monthly Emoluments', value: 'Executive Finance: ₹90,000/- | Executive Trainee: ₹60,000/- | Jr. Executive Trainee: ₹32,000/- (10% Annual Increase)' },
+      { label: 'Application Mode', value: 'Offline (Hard Copy via Speed Post / Courier)' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Last Date of Receipt of Hard Copy', value: '31 August 2026' },
+      { label: 'Official Websites', value: 'www.aweil.in | www.ddpdoo.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Notification Release Date', date: '04.08.2026' },
+      { event: 'Last Date for Receipt of Hard Copy Application at AWEIL Kanpur', date: '31.08.2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Executive Finance (Advt AWEIL/10/2026)', count: '09 Posts (UR: 3, SC: 2, ST: 1, OBC: 2, EWS: 1)' },
+      { category: 'Executive Finance Trainee (Advt AWEIL/12/2026)', count: '03 Posts (UR: 1, ST: 1, EWS: 1)' },
+      { category: 'Jr. Executive Finance Trainee (Advt AWEIL/13/2026)', count: '06 Posts (UR: 3, SC: 1, ST: 1, EWS: 1)' },
+      { category: 'Total Contractual Finance Vacancies', count: 18 }
+    ],
+    eligibility: {
+      education: [
+        'Executive Finance (₹90,000/pm): Qualified CA from ICAI or CMA from ICMAI (Associate/Fellow Member) + Minimum 03 years post-qualification experience (excluding articleship). Max Age: 35 Years.',
+        'Executive Finance Trainee (₹60,000/pm): Newly Qualified CA or CMA from ICAI or ICMAI. Max Age: 27 Years.',
+        'Jr. Executive Finance Trainee (₹32,000/pm): Intermediate CA or CMA from ICAI or ICMAI + Completed prescribed Internship/articleship. Max Age: 25 Years.'
+      ],
+      ageLimit: 'Executive Finance: Max 35 Yrs | Executive Finance Trainee: Max 27 Yrs | Jr. Executive Finance Trainee: Max 25 Yrs (as on 31/08/2026).',
+      ageRelaxation: [
+        { category: 'SC / ST Candidates', relaxation: '5 Years' },
+        { category: 'OBC (Non-Creamy Layer) Candidates', relaxation: '3 Years' },
+        { category: 'PwD Candidates', relaxation: '10 Years over and above upper age limit' }
+      ],
+      experience: [
+        'Executive Finance: 3 years post-qualification experience in Book keeping, Bills payables/receivables, Payroll, TDS, Costing, Budgeting, Banking, GST, Corporate Tax, Treasury management.',
+        'Finance Trainees / Jr. Trainees: Internship/Articleship completed as per ICAI/ICMAI norms.'
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Emoluments (Fixed Term Contract - 3 Years)',
+      initialPay: 'Executive Finance: ₹90,000/- pm | Executive Trainee: ₹60,000/- pm (Remuneration ₹50,000 + Conveyance ₹6,000 + Medical ₹3,000 + Mobile ₹1,000) | Jr. Executive Trainee: ₹32,000/- pm (Remuneration ₹25,000 + Conveyance ₹4,000 + Medical ₹2,000 + Mobile ₹1,000)',
+      allowances: [
+        'Emoluments enhanced by @ 10% per year upon satisfactory annual performance review. 12 days Casual Leave per year.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Shortlisting of Applications', description: 'Screening based on CA/CMA qualifications, stage attempts, aggregate percentage marks, and relevant experience in ratio of 1:10.' },
+      { stage: 'Stage 2: Personal Interview', description: 'Interview by Selection Committee at AWEIL HQ Kanpur / designated units.' }
+    ],
+    howToApply: [
+      'Download the official application proforma from www.aweil.in or ddpdoo.gov.in.',
+      'Fill up the application form neatly in BLOCK LETTERS with personal details, educational qualifications, CA/CMA attempt details, and experience details.',
+      'Paste one recent passport size photograph (4.4 cm x 5.8 cm) on the application form and sign across it. Attach a second photograph with full name on the backside.',
+      'Enclose self-attested photocopies of Birth Certificate / 10th Class Certificate, 12th, Graduation, CA/CMA pass certificates & marksheets, ICAI/ICMAI membership proof, experience & articleship certificates, Aadhaar Card, PAN Card, and Caste/Category Certificate (if applicable).',
+      'Superscribe the envelope with: "APPLICATION FOR THE POST [Post Name - Executive Finance / Executive Finance Trainee / Jr. Executive Finance Trainee] (on Contractual Basis)".',
+      'Send by Speed Post / Courier service to: "DIRECTOR (HR), Advanced Weapons and Equipment India Limited, Ordnance Factory Kanpur (OFC) premises, Kalpi Road, Kanpur UP - 208009".',
+      'Ensure the hard copy reaches on or before 31 August 2026.'
+    ],
+    documentsRequired: [
+      'Filled Application Form proforma',
+      '2 Self-attested recent color passport size photographs',
+      'Proof of Date of Birth (10th / High School Certificate)',
+      '12th Marksheet & Graduation Marksheets/Degrees',
+      'CA / CMA Inter / Final Pass Certificates & Stage Marksheets',
+      'ICAI / ICMAI Membership Certificate (Associate / Fellow)',
+      'Articleship / Internship Completion Certificate',
+      'Experience Certificates showing exact tenure and nature of duties (for Executive Finance)',
+      'Self-attested copy of Aadhaar Card & PAN Card',
+      'Valid Caste / Category Certificate (SC/ST/OBC/EWS/PWD if applicable)'
+    ],
+    importantInstructions: [
+      'Postings will be at AWEIL HQ Kanpur or units at Kanpur, Jabalpur, Korwa (UP), Kolkata, Tiruchirappalli (Trichy).',
+      'Only hard copy of application via Speed Post / Courier is acceptable.',
+      'Official website sources: www.aweil.in | www.ddpdoo.gov.in'
+    ],
+    urls: [
+      { label: 'Official Website AWEIL', url: 'https://www.aweil.in' },
+      { label: 'Official Website DDP', url: 'https://www.ddpdoo.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for AWEIL Kanpur Finance Recruitment 2026?', answer: 'Hard copy applications must reach AWEIL Kanpur by 31 August 2026.' },
+      { question: 'What are the 3 finance positions advertised?', answer: '1. Executive Finance (9 Posts, ₹90,000/pm) 2. Executive Finance Trainee (3 Posts, ₹60,000/pm) 3. Jr. Executive Finance Trainee (6 Posts, ₹32,000/pm).' },
+      { question: 'What is the educational qualification required?', answer: 'CA or CMA qualification from ICAI or ICMAI (Final qualified for Executive & Trainee, Inter qualified for Jr. Trainee).' },
+      { question: 'Where should the application form be submitted?', answer: 'By Speed Post/Courier to Director (HR), Advanced Weapons and Equipment India Limited, Ordnance Factory Kanpur (OFC) premises, Kalpi Road, Kanpur UP - 208009.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee.' }
+    ]
+  },
   'opsc-assistant-executive-engineer-civil-recruitment-2026': {
     id: 'opsc-assistant-executive-engineer-civil-recruitment-2026',
     seoTitle: 'OPSC AEE Civil Recruitment 2026 (46 Posts) – Apply Online for Assistant Executive Engineer Group A',
