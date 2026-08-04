@@ -58,6 +58,753 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'opsc-assistant-executive-engineer-civil-recruitment-2026': {
+    id: 'opsc-assistant-executive-engineer-civil-recruitment-2026',
+    seoTitle: 'OPSC AEE Civil Recruitment 2026 (46 Posts) – Apply Online for Assistant Executive Engineer Group A',
+    seoDescription: 'OPSC Assistant Executive Engineer Civil Recruitment 2026: 46 Group-A vacancies under Housing & Urban Development Dept. Check eligibility (B.Tech Civil), pay Level 12, prelims exam date (08 Nov 2026) & last date (11 Sept 2026).',
+    focusKeywords: 'OPSC AEE Civil Recruitment 2026, OPSC Assistant Executive Engineer Civil Vacancy, OPSC Municipal Engineering Service, opsc.gov.in online application',
+    lsiKeywords: 'OPSC Advt 07 of 2026-27, OPSC AEE Civil syllabus, Odisha Civil Engineering Govt Jobs, OPSC Level 12 pay scale',
+    title: 'OPSC Assistant Executive Engineer (Civil) Group-A Recruitment 2026 (Advt No. 07 of 2026-27) – 46 Vacancies',
+    board: 'Odisha Public Service Commission (OPSC)',
+    advtNo: 'ADVERTISEMENT NO. 07 OF 2026-27 (Notice No. 4430/PSC)',
+    vacancies: 46,
+    jobLocation: 'Odisha (Municipal Engineering Service Cadre)',
+    applicationMode: 'Online Application',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Odisha Public Service Commission (OPSC), Cuttack has issued Advertisement No. 07 of 2026-27 (Notice No. 4430/PSC) for recruitment to 46 Group-A posts of Assistant Executive Engineer (Civil) in the Odisha Municipal Engineering Service Cadre under Housing & Urban Development Department, Govt. of Odisha.',
+      'Applications are invited online from eligible Civil Engineering Graduates holding a degree or AMIE qualification. Pay Level-12 of Pay Matrix (pre-revised PB-3 Rs. 15,600 - 39,100 + GP Rs. 5,400/-).',
+      'The online submission window will be active from 11 August 2026 to 11 September 2026 (5:00 PM). Preliminary Examination is scheduled for 08 November 2026 (Sunday).'
+    ],
+    highlights: [
+      { label: 'Recruiting Commission', value: 'Odisha Public Service Commission (OPSC), Cuttack' },
+      { label: 'Department', value: 'Housing & Urban Development Department, Govt of Odisha' },
+      { label: 'Cadre Name', value: 'Odisha Municipal Engineering Service Cadre' },
+      { label: 'Post Name', value: 'Assistant Executive Engineer (Civil) - Group A' },
+      { label: 'Advt Number', value: 'ADVERTISEMENT NO. 07 OF 2026-27' },
+      { label: 'Total Vacancies', value: '46 Posts (15 for Women)' },
+      { label: 'Pay Scale', value: 'Level-12 of Pay Matrix (pre-revised PB-3 ₹15,600-39,100 + GP ₹5,400)' },
+      { label: 'Age Limit', value: '21 to 42 years as on 1st January 2026 (Born between 02.01.1984 and 01.01.2005)' },
+      { label: 'Examination Fee', value: '₹700/- for UR/SEBC (Refundable upon appearing in Prelims) | Exempted for SC/ST/PwD of Odisha' },
+      { label: 'Preliminary Exam Date', value: '08 November 2026 (Sunday)' },
+      { label: 'Online Application Dates', value: '11 August 2026 to 11 September 2026 (until 05:00 PM)' },
+      { label: 'Official Website', value: 'https://www.opsc.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Release Date', date: '04.08.2026' },
+      { event: 'Online Application Start Date', date: '11.08.2026' },
+      { event: 'Last Date for Online Application & Fee Submission', date: '11.09.2026 (until 05:00 PM)' },
+      { event: 'Preliminary Examination Date', date: '08.11.2026 (Sunday)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Unreserved (UR)', count: '24 Posts (08 Women)' },
+      { category: 'SEBC (Non-Creamy Layer)', count: '05 Posts (02 Women)' },
+      { category: 'Scheduled Caste (SC)', count: '07 Posts (02 Women)' },
+      { category: 'Scheduled Tribe (ST)', count: '10 Posts (03 Women)' },
+      { category: 'Persons with Disabilities (PwD)', count: '02 Posts (Horizontal reservation)' },
+      { category: 'Total Vacancies', count: 46 }
+    ],
+    eligibility: {
+      education: [
+        'Graduate in Civil Engineering (B.E / B.Tech in Civil) from any University/Institution recognized by the Government OR Associated Member of the Institution of Engineers of India in Civil (AMIE Civil).',
+        'Odia Language Qualification: Candidate must be able to read, write, and speak Odia and must have passed Middle School exam with Odia, Matriculation with Odia medium, or Class-VII Odia test.'
+      ],
+      ageLimit: 'Age as on 01.01.2026: Minimum 21 years and Maximum 42 years (Born not earlier than 2nd Jan 1984 and not later than 1st Jan 2005).',
+      ageRelaxation: [
+        { category: 'SC / ST / SEBC / Women / Ex-Servicemen', relaxation: '5 Years' },
+        { category: 'Persons with Disabilities (PwD - 40%+)', relaxation: '10 Years (Cumulative 15 Yrs for PwD SC/ST/SEBC)' }
+      ],
+      experience: [
+        'Fresh Civil Engineering graduates are eligible.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Matrix Level-12 (ORSP Rules-2017)',
+      initialPay: 'Pre-revised PB-3 (₹15,600 - ₹39,100 + Grade Pay ₹5,400/-) with initial basic pay ₹56,100/- pm + DA and allowances.',
+      allowances: [
+        'Dearness Allowance (DA), HRA, Medical allowance, and urban allowances as sanctioned by Govt of Odisha.'
+      ]
+    },
+    applicationFee: [
+      { category: 'General / SEBC Candidates', fee: '₹700/- (Refunded to candidates who actually appear in Prelims)', refund: 'Refundable to test takers' },
+      { category: 'SC / ST / PwD Candidates of Odisha', fee: 'Nil (Exempted)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Preliminary Examination', description: 'Screening Test of 100 MCQs in Civil Engineering (100 Marks, 1.5 Hours). 0.25 negative marking. Shortlists 10x candidates.' },
+      { stage: 'Stage 2: Main Examination', description: 'Written Exam of 500 Marks: Paper-I General Studies (200 Marks, 100 MCQs) & Paper-II Civil Engineering (300 Marks, 150 MCQs). 25% negative marking.' },
+      { stage: 'Stage 3: Viva-Voce / Interview', description: 'Personality test of 50 Marks. Final merit list drawn out of 550 total marks.' }
+    ],
+    howToApply: [
+      'Visit the official website of OPSC: www.opsc.gov.in.',
+      'Click on "Apply Online" and register under the e-Chayan portal w.e.f 11.08.2026.',
+      'Fill in personal details, educational qualifications, civil engineering degree marks, and Odia language proficiency details.',
+      'Upload scanned passport size photograph, signature, left-thumb impression, and disability/caste certificate (if applicable).',
+      'Pay ₹700 examination fee via Netbanking/Debit/Credit Card/UPI (if applicable).',
+      'Submit the online form and keep a printed copy of the Permanent Public Service Account Number (PPSAN) application for future document verification.'
+    ],
+    documentsRequired: [
+      'Printed copy of submitted online application form (PPSAN format)',
+      'HSC / 10th Certificate as Date of Birth proof',
+      'Intermediate / +2 Science Certificate',
+      'Degree Certificate & Semester Marksheets in Civil Engineering / AMIE Certificate',
+      'Certificate of Odia language test pass (Class VII/10th level)',
+      'Valid SEBC Caste Certificate (issued within 3 years of application date)',
+      'Valid SC / ST / PwD / Ex-Servicemen Certificate (if applicable)',
+      'NOC from employer for government servants',
+      'Four recent passport size photographs'
+    ],
+    importantInstructions: [
+      'Preliminary Examination date: 08 November 2026 at Kataka, Bhubaneswar, Baleshwar, Berhampur, Sambalpur, Jayapur.',
+      'Exam fee of ₹700 will be refunded to original payment mode for candidates who appear in Prelims.',
+      'Technical helpline number: 0671-2304707 (10:30 AM to 5:00 PM working days).'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://www.opsc.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the online application period for OPSC AEE Civil recruitment 2026?', answer: 'Online application opens on 11 August 2026 and closes on 11 September 2026 (5:00 PM).' },
+      { question: 'What is the date for OPSC AEE Civil Preliminary Exam?', answer: 'The Preliminary Examination is scheduled for 08 November 2026 (Sunday).' },
+      { question: 'Is Odia language knowledge mandatory?', answer: 'Yes, candidates must be able to read, write, and speak Odia and have passed Odia test in Class 7th or 10th.' },
+      { question: 'Is the examination fee refundable?', answer: 'Yes, the ₹700 fee will be refunded to candidates who actually appear in the Preliminary Examination.' }
+    ]
+  },
+  'clw-chittaranjan-sports-quota-recruitment-2026': {
+    id: 'clw-chittaranjan-sports-quota-recruitment-2026',
+    seoTitle: 'CLW Chittaranjan Sports Quota Recruitment 2026 (25 Posts) – Apply Offline for Level 1 to 5',
+    seoDescription: 'Chittaranjan Locomotive Works (CLW Indian Railways) Sports Quota Recruitment 2026: 25 vacancies in Level-1, Level-2 & Level-5 across Archery, Badminton, Basketball, Golf, Football & Swimming. Check eligibility, sports norms & last date (20 Aug 2026).',
+    focusKeywords: 'CLW Chittaranjan Sports Quota Recruitment 2026, CLW Railway Vacancy 2026, Indian Railways Sports Quota, Chittaranjan Locomotive Works Recruitment',
+    lsiKeywords: 'CLW Employment Notice GMA/Rectt.&MPP/Sports Quota, clw.indianrailways.gov.in application form, Railway Sports Quota 2026-27, CLW Chittaranjan Paschim Bardhaman',
+    title: 'CLW Chittaranjan Sports Quota Recruitment 2026-27 (Employment Notice GMA/Sports Quota) – 25 Vacancies',
+    board: 'Chittaranjan Locomotive Works (CLW), Indian Railways',
+    advtNo: 'Employment Notice No. GMA/Rectt.&MPP/Sports Quota/2026-2027',
+    vacancies: 25,
+    jobLocation: 'CLW Chittaranjan, Paschim Bardhaman, West Bengal',
+    applicationMode: 'Offline Application by Registered Post / Drop Box',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Chittaranjan Locomotive Works (CLW), Chittaranjan, a premier electric locomotive manufacturing unit of Indian Railways located in Paschim Bardhaman, West Bengal, has published Employment Notice No. GMA/Rectt.&MPP/Sports Quota/2026-2027.',
+      'Applications are invited in the prescribed offline format from eligible active sportspersons (Indian Nationals) for recruitment against Sports Quota (Open Advertisement & Talent Scouting) for the year 2026-27 across Pay Levels 1, 2, 4, and 5.',
+      'A total of 25 vacancies are available in sports disciplines including Archery, Badminton, Basketball, Golf, Football, Gymnastics, Swimming, and Shooting. Last date for receipt of offline applications is 20 August 2026 (17:00 Hrs).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Chittaranjan Locomotive Works (CLW), Indian Railways' },
+      { label: 'Unit Type', value: 'Electric Locomotive Production Unit, Ministry of Railways' },
+      { label: 'Post Category', value: 'Group C Sports Quota (Open Advertisement & Talent Scouting)' },
+      { label: 'Advt Number', value: 'Employment Notice No. GMA/Rectt.&MPP/Sports Quota/2026-2027' },
+      { label: 'Total Vacancies', value: '25 Posts (Level 5/4: 2, Level 2: 8, Level 1: 15)' },
+      { label: 'Pay Scales', value: 'Level-5/4 (GP ₹2800/₹2400) | Level-2 (GP ₹1900) | Level-1 (GP ₹1800)' },
+      { label: 'Age Limit', value: '18 to 25 years as on 01.01.2026 (No age relaxation for any category)' },
+      { label: 'Application Fee', value: '₹500 for General/OBC | ₹250 for SC/ST/Ex-Servicemen/Women/EBC' },
+      { label: 'Application Start Date', value: '21.07.2026' },
+      { label: 'Application Closing Date', value: '20.08.2026 (17:00 Hrs) | Remote Areas: 31.08.2026' },
+      { label: 'Official Website', value: 'https://clw.indianrailways.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Employment Notice Date', date: '20.07.2026' },
+      { event: 'Offline Application Opening Date', date: '21.07.2026 (10:00 AM)' },
+      { event: 'Last Date for Receipt of Application at CLW', date: '20.08.2026 (until 17:00 Hrs)' },
+      { event: 'Last Date for Remote Areas (NE/J&K/A&N/Himalayan Districts)', date: '31.08.2026 (until 17:00 Hrs)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Archery (Men & Women)', count: '04 Posts (Level-5/4: 1, Level-2: 2, Level-1: 1)' },
+      { category: 'Badminton (Women & Men)', count: '04 Posts (Level-2: 2, Level-1: 2)' },
+      { category: 'Basketball (Men & Women)', count: '07 Posts (Level-1: 7)' },
+      { category: 'Golf (Men)', count: '01 Post (Level-5/4: 1)' },
+      { category: 'Football (Men - Striker/Defender/Back)', count: '03 Posts (Level-1: 3)' },
+      { category: 'Gymnastic (Men & Women)', count: '03 Posts (Level-2: 3)' },
+      { category: 'Swimming (Men & Women)', count: '02 Posts (Level-1: 2)' },
+      { category: 'Shooting (Men - 100M Air Rifle / 50M Prone)', count: '01 Post (Level-2: 1)' },
+      { category: 'Total Level-5/4 Vacancies', count: 2 },
+      { category: 'Total Level-2 Vacancies', count: 8 },
+      { category: 'Total Level-1 Vacancies', count: 15 },
+      { category: 'Grand Total Sports Quota Vacancies', count: 25 }
+    ],
+    eligibility: {
+      education: [
+        'Level-5 / Level-4 (GP ₹2800 / ₹2400): Graduate degree in any discipline from a recognized University.',
+        'Level-2 (GP ₹1900): Passed 12th (10+2) or equivalent OR Matriculation + Course Completed Act Apprenticeship (CCAA) / ITI approved by NCVT.',
+        'Level-1 (GP ₹1800): 10th (Matriculation) Pass OR ITI OR National Apprenticeship Certificate (NAC) granted by NCVT.',
+        'Sports Norms: Active player who represented Country in Olympics / Category-A/B/C International Championships or secured 1st/2nd/3rd position in Senior/Junior National Championships / National Games / Inter-University on or after 01/04/2024.'
+      ],
+      ageLimit: 'Minimum 18 years and Maximum 25 years as on 01/01/2026. (Born between 02/01/1997 and 01/01/2008). No age relaxation is allowed even for SC/ST/OBC/PwBD candidates.',
+      experience: [
+        'Sports performance in current & previous 2 financial years (01.04.2024 onwards).'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-1, Level-2, Level-4, and Level-5',
+      initialPay: 'Level-5: ₹29,200/- | Level-4: ₹25,500/- | Level-2: ₹19,900/- | Level-1: ₹18,000/- + Railway allowances.',
+      allowances: [
+        'DA, HRA, Transport Allowance, Railway Pass/PTO, and free medical treatment as per Railway Rules.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Other Candidates (General / OBC)', fee: '₹500/-', refund: '₹400 refunded after appearing in Sports Trials' },
+      { category: 'SC / ST / Ex-Servicemen / PwBD / Women / Minorities / EBC', fee: '₹250/-', refund: '₹250 refunded after appearing in Sports Trials' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Sports Trial Assessment', description: 'Trial of sports performance (40 Marks, min 25 marks required to qualify as FIT).' },
+      { stage: 'Stage 2: Sports Achievements & Qualification Scrutiny', description: 'Assessment of Sports Achievements (50 Marks max) + Educational Qualification (10 Marks max).' },
+      { stage: 'Stage 3: Medical Examination', description: 'Medical fitness test in prescribed Railway medical standard prior to appointment.' }
+    ],
+    howToApply: [
+      'Download and print the application proforma (Annexure A) from www.clw.indianrailways.gov.in.',
+      'Fill up all columns in candidate\'s own handwriting using blue/black ball point pen in English or Hindi.',
+      'Write the sample declaration statement in own handwriting in the blank space provided.',
+      'Affix one recent color passport photo on form and enclose 2 additional signed photographs.',
+      'Obtain Indian Postal Order (IPO) or Demand Draft (DD) of ₹500 (or ₹250) drawn in favour of "PFA, Chittaranjan Locomotive Works" payable at Chittaranjan.',
+      'Enclose self-attested photocopies of 10th, 12th/Graduation certificates, sports certificates, caste certificate, and fee proof.',
+      'Superscribe envelope: "APPLICATION AGAINST SPORTS QUOTA (OPEN ADVERTISMENT & TALENT SCOUTING) RECRUITMENT FOR THE YEAR 2026-2027" specifying Category No. & Discipline.',
+      'Send by post to: "Chief Personnel Officer, Administrative Building, Chittaranjan Locomotive Works, PO-Chittaranjan, District-Paschim Bardhaman, West Bengal, Pin Code-713331" OR drop in Drop Box at Dy.GM\'s Office CLW by 20.08.2026 (17:00 Hrs).'
+    ],
+    documentsRequired: [
+      'Filled Application Form (Annexure-A) in candidate\'s handwriting',
+      'Original Indian Postal Order (IPO) or Bank Demand Draft (DD) for fee',
+      'Proof of Date of Birth (10th Matriculation Certificate)',
+      '12th / Graduation / ITI / NAC Educational Certificates',
+      'Original sports achievement certificates (01/04/2024 onwards)',
+      'Valid SC / ST / OBC / EWS Caste Certificate (Annexure B/D/E)',
+      'Income Certificate for EBC fee waiver (Annexure C if applicable)',
+      'Two extra signed passport size color photographs'
+    ],
+    importantInstructions: [
+      'Typing proficiency test (30 wpm English / 25 wpm Hindi) must be passed within 4 years for Clerk-cum-Typist posts.',
+      'Selection is purely merit-based; no agents or coaching centers are authorized.',
+      'Contact query number: 9163340605 (Senior Personnel Officer Admn, CLW).'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://clw.indianrailways.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for CLW Chittaranjan Sports Quota recruitment 2026?', answer: 'The last date for receipt of offline applications at CLW Chittaranjan is 20 August 2026 (17:00 Hrs).' },
+      { question: 'What is the age limit for Railway Sports Quota?', answer: 'Minimum 18 years and maximum 25 years as on 01.01.2026. No age relaxation is allowed for any category.' },
+      { question: 'In whose favor should the Demand Draft / Postal Order be drawn?', answer: 'Drawn in favour of "PFA, Chittaranjan Locomotive Works" payable at Chittaranjan.' },
+      { question: 'Where should the offline application be sent?', answer: 'To Chief Personnel Officer, Administrative Building, Chittaranjan Locomotive Works, PO-Chittaranjan, Paschim Bardhaman, West Bengal - 713331.' }
+    ]
+  },
+  'igdtuw-delhi-teaching-faculty-recruitment-2026': {
+    id: 'igdtuw-delhi-teaching-faculty-recruitment-2026',
+    seoTitle: 'IGDTUW Delhi Teaching Faculty Recruitment 2026 (36 Posts) – Apply Online for Professor, Associate & Asst Professor',
+    seoDescription: 'Indira Gandhi Delhi Technical University for Women (IGDTUW Delhi) Recruitment 2026: 36 teaching vacancies for Professor, Associate Professor & Assistant Professor. Check eligibility, salary (Level 10 to 14), online & hard copy last dates.',
+    focusKeywords: 'IGDTUW Delhi Teaching Recruitment 2026, IGDTUW Assistant Professor Vacancy, IGDTUW Professor Recruitment, IGDTUW Kashmere Gate Delhi',
+    lsiKeywords: 'IGDTUW Recruitment Notice 01/2026, igdtuw.ac.in online application, IGDTUW CSE IT ECE MAE Faculty, Delhi Govt University Jobs',
+    title: 'IGDTUW Delhi Teaching Positions Recruitment 2026 (Advt No. 01/2026) – 36 Vacancies',
+    board: 'Indira Gandhi Delhi Technical University for Women (IGDTUW)',
+    advtNo: 'RECRUITMENT NOTICE No. 01/2026',
+    vacancies: 36,
+    jobLocation: 'IGDTUW Campus, Kashmere Gate, Delhi-110006',
+    applicationMode: 'Online Application + Hard Copy by Post',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Indira Gandhi Delhi Technical University for Women (IGDTUW), established by Delhi Act 9 of 2012, Govt of NCT of Delhi, has released Recruitment Notice No. 01/2026 for Direct Recruitment of Group-A regular teaching positions.',
+      'A total of 36 faculty vacancies are available across Professor (10 Posts), Associate Professor (14 Posts), and Assistant Professor (12 Posts) in departments of Computer Science & Engineering, Information Technology, Electronics & Communication, Mechanical & Automation Engineering, Architecture & Planning, Mathematics, Chemistry, and English.',
+      'Interested female and male candidates can fill up the online application on www.igdtuw.ac.in by 21 August 2026 (23:59 Hrs) and send hard copy with credentials to the Registrar by 28 August 2026 (4:30 PM).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Indira Gandhi Delhi Technical University for Women (IGDTUW), Delhi' },
+      { label: 'Governing Body', value: 'Govt. of NCT of Delhi' },
+      { label: 'Post Names', value: 'Professor, Associate Professor, Assistant Professor' },
+      { label: 'Advt Number', value: 'RECRUITMENT NOTICE No. 01/2026' },
+      { label: 'Total Vacancies', value: '36 Group-A Regular Teaching Posts' },
+      { label: 'Pay Scales', value: 'Professor: Level-14 (₹1,44,200-2,18,200) | Associate Prof: Level-13A1 (₹1,31,400-2,17,100) | Asst Prof: Level-10 (₹57,700-1,82,400)' },
+      { label: 'Application Fee', value: '₹1,000 for UR | ₹800 for OBC(NCL)/EWS/Women | Exempted for SC/ST/PwBD' },
+      { label: 'Last Date of Online Application', value: '21 August 2026 (until 23:59 Hrs)' },
+      { label: 'Last Date for Hard Copy Receipt', value: '28 August 2026 (until 4:30 PM)' },
+      { label: 'Official Website', value: 'https://www.igdtuw.ac.in' }
+    ],
+    importantDates: [
+      { event: 'Online Application Portal Start Date', date: '22.07.2026' },
+      { event: 'Last Date to Fill Online Application Form', date: '21.08.2026 (until 23:59 Hrs)' },
+      { event: 'Last Date for Receipt of Printed Hard Copy at IGDTUW', date: '28.08.2026 (until 4:30 PM)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Professor (Level-14)', count: '10 Posts (UR: 4, SC: 1, ST: 1, OBC: 3, EWS: 1)' },
+      { category: 'Associate Professor (Level-13A1)', count: '14 Posts (UR: 3, SC: 2, ST: 2, OBC: 5, EWS: 2)' },
+      { category: 'Assistant Professor (Level-10)', count: '12 Posts (UR: 3, SC: 1, ST: 3, OBC: 4, EWS: 1)' },
+      { category: 'Total Teaching Vacancies', count: 36 }
+    ],
+    eligibility: {
+      education: [
+        'Assistant Professor (CSE/IT/ECE/MAE): B.E/B.Tech/B.S and M.E/M.Tech/M.S in relevant branch with 1st class or equivalent at either degree.',
+        'Assistant Professor (Architecture/Planning): B.Arch / B.Plan + M.Arch / M.Plan with 1st class + relevant professional experience as per COA / AICTE norms.',
+        'Assistant Professor (Chemistry/Maths/English): Master’s Degree with 55% marks + NET/CSIR-NET/SLET qualification OR Ph.D degree as per UGC Regulations 2009/2016.',
+        'Associate Professor: Ph.D degree in relevant branch + 1st class at Bachelor’s/Master’s + min 8 years teaching/research/industry experience + min 6 SCI/UGC/AICTE research publications.',
+        'Professor: Ph.D degree in relevant branch + 1st class at Bachelor’s/Master’s + min 10 years teaching/research/industry experience + min 6 to 10 research publications + guided at least 2 Ph.D scholars.'
+      ],
+      ageLimit: 'Professor: 55 Yrs | Associate Professor: 50 Yrs | Assistant Professor: 35 Yrs (CSE/IT/ECE/MAE/Arch/Plan) / 40 Yrs (Chemistry/Maths/English).',
+      ageRelaxation: [
+        { category: 'SC / ST / PwBD Candidates', relaxation: '5 Years' },
+        { category: 'OBC Candidates (Delhi Govt List)', relaxation: '3 Years' },
+        { category: 'Government Servants / Contractual Employees of IGDTUW', relaxation: '5 Years as per Delhi Govt rules' }
+      ],
+      experience: [
+        'Assistant Professor: 0 to 3 years experience depending on discipline | Associate Professor: 8 years | Professor: 10 years.'
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-10, Level-13A1, and Level-14',
+      initialPay: 'Professor: ₹1,44,200/- (Level 14) | Associate Professor: ₹1,31,400/- (Level 13A1) | Assistant Professor: ₹57,700/- (Level 10)',
+      allowances: [
+        'DA, HRA, Transport Allowance, and medical benefits as per Govt. of NCT of Delhi / IGDTUW rules.'
+      ]
+    },
+    applicationFee: [
+      { category: 'Unreserved (UR) Candidates', fee: '₹1,000/-', refund: 'Non-Refundable' },
+      { category: 'OBC (NCL) / EWS / Women Candidates', fee: '₹800/-', refund: 'Non-Refundable' },
+      { category: 'SC / ST / PwBD Candidates', fee: 'Nil (Exempted)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Application Screening & Shortlisting', description: 'Screening of credentials as per API score parameters (Table 1 Part A & B) and written test for Assistant Professor if required.' },
+      { stage: 'Stage 2: Classroom Seminar / Presentation', description: 'Shortlisted candidates make presentation before departmental committee to evaluate teaching aptitude.' },
+      { stage: 'Stage 3: Personal Interview', description: 'Final selection interview by Selection Committee (50% weightage API + 50% interview score).' }
+    ],
+    howToApply: [
+      'Fill in the online application form on IGDTUW website: www.igdtuw.ac.in.',
+      'Pay the required application fee online (if applicable) and submit the form by 21.08.2026 (23:59 Hrs).',
+      'Take a printout of the submitted online application form, sign it, and attach self-attested copies of educational marksheets, Ph.D degree, NET certificate, experience certificates, research papers, and fee proof.',
+      'Send the hard copy envelope superscribed "Advertisement Notice No. 01/2026 - Application for the post of [Post Name] in [Department Name]" to: "The Registrar, Indira Gandhi Delhi Technical University for Women, Kashmere Gate, Delhi – 110006".',
+      'Ensure the hard copy reaches by 28 August 2026 (till 4:30 PM).'
+    ],
+    documentsRequired: [
+      'Printed copy of submitted online application form',
+      'Proof of online application fee payment',
+      '10th / 12th Certificate as Date of Birth proof',
+      'UG, PG, B.E/B.Tech, B.Arch, M.Arch, M.Plan & Ph.D Degree Certificates',
+      'NET / SLET / GATE qualification certificate (if applicable)',
+      'Experience certificates showing exact period of service',
+      'Valid OBC (Delhi) / SC / ST / EWS / PwBD Certificate (if applicable)',
+      'Valid Council of Architecture (CoA) Registration (for Architecture & Planning faculty)',
+      'List of SCI / UGC-CARE research publications, patents, and Ph.D guidance proof'
+    ],
+    importantInstructions: [
+      'Only OBC certificates issued by Govt. of NCT of Delhi are valid for reservation benefit.',
+      'Incomplete applications or applications where hard copy is received after 28.08.2026 will be rejected.',
+      'Contact for queries: recruitment@igdtuw.ac.in | Phone: 011-23865541'
+    ],
+    urls: [
+      { label: 'Online Application Portal', url: 'https://www.igdtuw.ac.in' },
+      { label: 'Official Website', url: 'https://www.igdtuw.ac.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for IGDTUW Delhi recruitment 2026?', answer: 'The last date to fill online application is 21 August 2026 (23:59 Hrs).' },
+      { question: 'Is hard copy submission mandatory?', answer: 'Yes, printed hard copy with self-attested documents must reach IGDTUW by 28 August 2026 (4:30 PM).' },
+      { question: 'Are women candidates exempted from application fee?', answer: 'Women candidates pay a reduced fee of ₹800/-, while SC/ST/PwBD candidates are fully exempted.' },
+      { question: 'What are the pay levels for faculty posts?', answer: 'Level-14 for Professor, Level-13A1 for Associate Professor, and Level-10 for Assistant Professor.' }
+    ]
+  },
+  'dnhdd-samagra-shiksha-tgt-pgt-recruitment-2026': {
+    id: 'dnhdd-samagra-shiksha-tgt-pgt-recruitment-2026',
+    seoTitle: 'DNH & DD Samagra Shiksha TGT PGT Recruitment 2026 (37 Posts) – Walk-in Interview on 10 Aug',
+    seoDescription: 'Directorate of Education UT of DNH & DD Samagra Shiksha Recruitment 2026: 37 vacancies for Trained Graduate Teachers (TGT - Rs 27,000) & Post Graduate Teachers (PGT - Rs 29,000). Check eligibility, subjects & walk-in date (10 August 2026).',
+    focusKeywords: 'DNH DD Samagra Shiksha Recruitment 2026, DNH TGT PGT Vacancy, Daman Diu Teacher Recruitment 2026, Samagra Shiksha Dadra Nagar Haveli',
+    lsiKeywords: 'Samagra Shiksha Moti Daman, ddd.gov.in notification, dnh.gov.in teacher vacancy, TGT PGT walk in interview Daman',
+    title: 'UT of DNH & DD Samagra Shiksha TGT & PGT Recruitment 2026 (Advt 5430) – 37 Vacancies',
+    board: 'Directorate of Education, Samagra Shiksha, UT of Dadra & Nagar Haveli and Daman & Diu',
+    advtNo: 'No. DOE/DNHDD/SS/REC.TGTs_PGTs_Non-Teaching/2025/5430 Dated 03.08.2026',
+    vacancies: 37,
+    jobLocation: 'Dadra & Nagar Haveli (DNH) & Daman Districts',
+    applicationMode: 'Offline Application + Walk-In Interview',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu under Samagra Shiksha (a Centrally Sponsored Scheme), has published recruitment notice for engagement of TGTs and PGTs on Short Term Contract (STC) basis for Government Schools.',
+      'A total of 37 teacher positions (9 Trained Graduate Teachers - TGTs and 28 Post Graduate Teachers - PGTs) are available across English, Hindi, Gujarati, Marathi, Science, Commerce, and Humanities mediums.',
+      'Eligible candidates can attend the Walk-in-Interview on 10 August 2026 (Monday) at 09:30 AM at Shiksha Sadan, Moti Daman.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Directorate of Education, UT of Dadra & Nagar Haveli and Daman & Diu' },
+      { label: 'Scheme Name', value: 'Samagra Shiksha (CSS)' },
+      { label: 'Post Names', value: 'Trained Graduate Teacher (TGT), Post Graduate Teacher (PGT)' },
+      { label: 'Advt Number', value: 'No. DOE/DNHDD/SS/REC.TGTs_PGTs_Non-Teaching/2025/5430 Dated 03.08.2026' },
+      { label: 'Total Vacancies', value: '37 Posts (14 for DNH District + 23 for Daman District)' },
+      { label: 'Monthly Remuneration', value: 'TGT: ₹27,000/- pm consolidated | PGT: ₹29,000/- pm consolidated' },
+      { label: 'Age Limit', value: 'Not exceeding 30 years (relaxable as per GOI guidelines)' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Walk-in Interview Date & Time', value: '10 August 2026 (Monday) at 09:30 AM' },
+      { label: 'Interview Venue', value: 'Shiksha Sadan, Moti Daman, UT of DNH & DD' },
+      { label: 'Official Websites', value: 'www.ddd.gov.in | www.dnh.gov.in | www.diu.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '03.08.2026' },
+      { event: 'Walk-in Interview Date & Time', date: '10.08.2026 (Monday) at 09:30 AM' }
+    ],
+    vacanciesDetails: [
+      { category: 'TGT English Medium (Hindi, Gujarati, Social Science)', count: '6 Posts (DNH: 2, Daman: 4)' },
+      { category: 'TGT Hindi Medium (Hindi, Gujarati)', count: '3 Posts (DNH: 0, Daman: 3)' },
+      { category: 'PGT English Medium (Hindi, Chem, Maths, Bio, Commerce, History)', count: '10 Posts (DNH: 1, Daman: 9)' },
+      { category: 'PGT Marathi Medium (Marathi, Secretarial Practice)', count: '2 Posts (DNH: 2, Daman: 0)' },
+      { category: 'PGT Hindi Medium (English, Psych, Pol Sci, History, Comm, Eco, Chem, Phy, Bio)', count: '13 Posts (DNH: 6, Daman: 7)' },
+      { category: 'PGT Gujarati Medium (Accountancy, OC, Economics, Statistics)', count: '3 Posts (DNH: 3, Daman: 0)' },
+      { category: 'Total TGT Vacancies', count: 9 },
+      { category: 'Total PGT Vacancies', count: 28 },
+      { category: 'Grand Total Vacancies', count: 37 }
+    ],
+    eligibility: {
+      education: [
+        'Trained Graduate Teacher (TGT): Graduate from recognized university in respective subject with at least 50% marks + B.Ed. from NCTE recognized institution OR 4-year B.A.Ed. / B.Sc.Ed.',
+        'Post Graduate Teacher (PGT): Post Graduate degree from recognized university in respective subject with at least 50% marks + B.Ed. from NCTE recognized institution OR 4-year B.A.Ed. / B.Sc.Ed.',
+        'Medium Condition: The medium of study in SSC (Class 10th) should be the same as the medium of teaching applied for (not applicable for language subjects).'
+      ],
+      ageLimit: 'Not exceeding 30 years as on date of interview. Upper age limit relaxable as per GOI rules.',
+      experience: [
+        'Teaching experience in secondary / higher secondary schools desirable.'
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Remuneration (Short Term Contract)',
+      initialPay: 'TGTs: ₹27,000/- per month | PGTs: ₹29,000/- per month',
+      allowances: [
+        'Fixed consolidated monthly remuneration.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Registration & Document Verification', description: 'Reporting at venue on 10.08.2026 (09:30 AM) with filled application form and original certificates.' },
+      { stage: 'Stage 2: Walk-In Interview', description: 'Personal interview by Selection Committee based on academic merit and teaching aptitude.' }
+    ],
+    howToApply: [
+      'Download and print the prescribed application form format attached with the official advertisement from www.ddd.gov.in / www.dnh.gov.in.',
+      'Fill up the application form, tick medium & subject, paste self-attested passport size photograph.',
+      'Attach self-attested copies of SSC, HSC, Graduation, Post-Graduation marksheets, B.Ed. certificate, and domicile certificate.',
+      'Attend the Walk-in-Interview in person on 10 August 2026 (Monday) at 09:30 AM at Shiksha Sadan, Moti Daman.',
+      'Submit separate application forms if applying for more than one post/subject.'
+    ],
+    documentsRequired: [
+      'Filled Application Form format',
+      'Leaving Certificate / SSC Marksheet (showing medium of study)',
+      'HSC (10+2) Marksheet & Certificate',
+      'Graduation & Post-Graduation Marksheets & Degree Certificates',
+      'Professional B.Ed. / M.Ed. / B.A.Ed / B.Sc.Ed Marksheet & Certificate',
+      'Domicile Certificate of DNH / Daman / Diu (if applicable)',
+      'Caste Certificate (SC/ST/OBC) if claiming age relaxation'
+    ],
+    importantInstructions: [
+      'Engagement is purely on Short Term Contract (STC) basis.',
+      'Candidates must ensure their 10th medium matches the medium of post applied for.',
+      'Official notification source: www.ddd.gov.in / www.dnh.gov.in / www.diu.gov.in'
+    ],
+    urls: [
+      { label: 'Official Website Daman', url: 'https://www.ddd.gov.in' },
+      { label: 'Official Website DNH', url: 'https://www.dnh.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the date of walk-in interview for DNH & DD TGT PGT recruitment 2026?', answer: 'The Walk-in-Interview will take place on 10 August 2026 (Monday) at 09:30 AM.' },
+      { question: 'Where is the interview venue?', answer: 'Shiksha Sadan, Moti Daman.' },
+      { question: 'What is the salary for TGT and PGT teachers?', answer: '₹27,000/- per month for TGTs and ₹29,000/- per month for PGTs.' },
+      { question: 'What is the maximum age limit?', answer: 'Not exceeding 30 years (relaxable as per GOI rules).' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee.' }
+    ]
+  },
+  'wcd-haryana-female-supervisor-recruitment-2026': {
+    id: 'wcd-haryana-female-supervisor-recruitment-2026',
+    seoTitle: 'WCD Haryana Female Supervisor Recruitment 2026 (108 Posts) – Apply Offline on Deputation',
+    seoDescription: 'Women and Child Development Department Haryana (WCD Panchkula) Recruitment 2026: 108 vacancies for Female Supervisor on Transfer/Deputation basis in FPL-6 (Rs 35,400). Check eligibility, application form & last date (03 September 2026).',
+    focusKeywords: 'WCD Haryana Female Supervisor Recruitment 2026, WCD Haryana Vacancy, Haryana WCD Supervisor Deputation, WCD Panchkula Recruitment',
+    lsiKeywords: 'WCD Haryana 108 Female Supervisor, wcdhry.gov.in application form, Haryana Supervisor FPL 6, WCD Sector 4 Panchkula',
+    title: 'WCD Haryana Female Supervisor Recruitment 2026 – 108 Vacancies on Deputation / Transfer Basis',
+    board: 'Women and Child Development Department (WCD), Govt of Haryana',
+    advtNo: 'Filling up Female Supervisor Posts on Transfer/Deputation Dated 04.08.2026',
+    vacancies: 108,
+    jobLocation: 'Haryana (Various Districts / HQs)',
+    applicationMode: 'Offline Application through Proper Channel',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Women and Child Development Department (WCD), Government of Haryana, intends to fill up 108 posts of Female Supervisor on a transfer/deputation basis for an initial period of one year or until direct recruitment through HSSC.',
+      'Eligible female employees holding analogous posts in Ministries, Departments, Organizations, or Offices under the Government of Haryana can submit their application.',
+      'Applications completed in all respects should reach the Director, Women and Child Development Department, Sector-4, Panchkula, Haryana within 30 days of advertisement publication (by 03 September 2026).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Women and Child Development Department (WCD), Govt of Haryana' },
+      { label: 'Post Name', value: 'Female Supervisor' },
+      { label: 'Total Vacancies', value: '108 Posts' },
+      { label: 'Nature of Job', value: 'Transfer / Deputation Basis (Initial 1 year)' },
+      { label: 'Pay Scale', value: 'FPL-6 (₹35,400/- per month initial basic pay)' },
+      { label: 'Target Applicants', value: 'Female Employees serving in Haryana Govt Departments' },
+      { label: 'Application Mode', value: 'Offline (By Registered Post / Speed Post through proper channel)' },
+      { label: 'Last Date to Apply', value: '03 September 2026 (Within 30 days of publication)' },
+      { label: 'Official Website', value: 'http://wcdhry.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '04.08.2026' },
+      { event: 'Last Date for Receipt of Application at WCD Panchkula', date: '03.09.2026 (Within 30 days)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Female Supervisor (Pay Matrix FPL-6)', count: 108 },
+      { category: 'Total Vacancies', count: 108 }
+    ],
+    eligibility: {
+      education: [
+        'Passed 10+2 (Intermediate) from a recognized Board.',
+        'Knowledge of Hindi up to Matric Standard.'
+      ],
+      experience: [
+        'Must be holding analogous posts in Ministries / Departments / Organisations / Offices under Govt. of Haryana on regular basis.',
+        'Good ACR/Integrity Certificate record for the previous ten years with no adverse remarks or pending chargesheet/enquiry.'
+      ]
+    },
+    salary: {
+      payLevel: 'Functional Pay Level FPL-6',
+      initialPay: '₹35,400/- per month + applicable allowances as per Haryana Govt rules.',
+      allowances: [
+        'DA, HRA, and medical allowances as per Haryana Govt deputation norms.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Document Verification', description: 'Scrutiny of Bio-Data, ACRs/APARs for past 10 years, Integrity Certificate, and No Objection Certificate (NOC) from parent department.' },
+      { stage: 'Stage 2: Deputation Selection', description: 'Selection Committee assessment based on service credentials and administrative suitability.' }
+    ],
+    howToApply: [
+      'Download the official Application Proforma from WCD Haryana website or notification.',
+      'Fill up the Bio-Data form neatly and attach self-attested copies of 10+2, Matric Hindi proof, and service credentials.',
+      'Obtain 10-year ACR integrity record clearance and NOC from your parent department/HOD.',
+      'Forward the complete application through proper channel to: "Director, Women and Child Development Department, Bays No 15-20, Sector-4, Panchkula, Haryana – 134112".',
+      'Ensure the envelope reaches the destination on or before 03 September 2026.'
+    ],
+    documentsRequired: [
+      'Filled Application Bio-Data proforma',
+      'Matriculation (10th) Certificate showing Hindi language qualification',
+      '10+2 Marksheet & Certificate',
+      'ACR / Integrity Certificate for past 10 years (Good record)',
+      'No Chargesheet / No Pending Enquiry Certificate from parent department',
+      'Proof of present post & pay scale (FPL-6 equivalent)'
+    ],
+    importantInstructions: [
+      'Only female employees currently serving in Haryana State Govt departments/offices are eligible.',
+      'Applications received after 30 days from publication will not be entertained.',
+      'Deputation will be for 1 year or until direct recruitment through HSSC.'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'http://wcdhry.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for WCD Haryana Female Supervisor deputation 2026?', answer: 'Applications must reach WCD Department Panchkula within 30 days of publication (by 03 September 2026).' },
+      { question: 'Who is eligible to apply?', answer: 'Female employees serving in Haryana Govt departments holding 10+2 qualification and analogous posts.' },
+      { question: 'What is the pay scale for Female Supervisor?', answer: 'Pay Level FPL-6 (₹35,400/- initial pay).' },
+      { question: 'Is there any application fee?', answer: 'No application fee is required.' }
+    ]
+  },
+  'jipmer-puducherry-karaikal-deputation-recruitment-2026': {
+    id: 'jipmer-puducherry-karaikal-deputation-recruitment-2026',
+    seoTitle: 'JIPMER Puducherry & Karaikal Recruitment 2026 (15 Group A & B Posts) – Apply Offline on Deputation',
+    seoDescription: 'JIPMER Puducherry & Karaikal Recruitment 2026: 15 Group A & B vacancies for Controller of Exams, Registrar, System Analyst, Computer Programmer & Accounts Officer. Check pay up to Rs 2,09,200 (Level 12) & last date (21 Sept 2026).',
+    focusKeywords: 'JIPMER Puducherry Recruitment 2026, JIPMER Deputation Vacancy 2026, JIPMER Registrar Controller of Exams, JIPMER Karaikal Recruitment',
+    lsiKeywords: 'JIPMER Puducherry Group A Group B, jipmer.edu.in notification, JIPMER Administrative Officer Dhanvantari Nagar',
+    title: 'JIPMER Puducherry & Karaikal Group A & B Deputation Recruitment 2026 (Advt JPADMN-1REC03(1)/1/2026) – 15 Vacancies',
+    board: 'Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)',
+    advtNo: 'No. JPADMN-1REC03(1)/1/2026 Dated 03.08.2026',
+    vacancies: 15,
+    jobLocation: 'JIPMER Puducherry & JIPMER Karaikal',
+    applicationMode: 'Offline Application through Proper Channel',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry, an Institution of National Importance under Ministry of Health & Family Welfare, Govt. of India, has issued Advertisement Notice No. JPADMN-1REC03(1)/1/2026.',
+      'Applications are invited from eligible Officers of Central / State / U.T. Governments, Statutory / Autonomous Bodies, Universities, and R&D Organisations to fill 15 Group A & B posts on a Deputation basis across JIPMER Puducherry and JIPMER Karaikal campuses.',
+      'Positions include Controller of Examinations, Registrar, System Analyst, Computer Programmer, Purchase Officer, Accounts Officer, Data Processing Assistant Grade A, and Assistant Registrar in Pay Levels 7 to 12. Submit offline application by 21 September 2026 (4:30 PM).'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)' },
+      { label: 'Status', value: 'An Institution of National Importance under Ministry of Health & Family Welfare, Govt of India' },
+      { label: 'Post Names', value: 'Controller of Exams, Registrar, System Analyst, Computer Programmer, Purchase Officer, Accounts Officer, DPA, Asst Registrar' },
+      { label: 'Advt Number', value: 'No. JPADMN-1REC03(1)/1/2026 Dated 03.08.2026' },
+      { label: 'Total Vacancies', value: '15 Posts (8 at Puducherry + 7 at Karaikal)' },
+      { label: 'Nature of Job', value: 'Deputation Basis (Initial period up to 3 years)' },
+      { label: 'Pay Matrix', value: 'Level-7 (₹44,900-1,42,400) to Level-12 (₹78,800-2,09,200)' },
+      { label: 'Maximum Age Limit', value: 'Not exceeding 56 years as on closing date' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Last Date of Receipt of Application', value: '21 September 2026 (Monday) until 04:30 PM' },
+      { label: 'Official Website', value: 'https://www.jipmer.edu.in' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Date', date: '03.08.2026' },
+      { event: 'Last Date for Receipt of Application at JIPMER Puducherry', date: '21.09.2026 (until 4:30 PM)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Controller of Examinations (JIPMER Puducherry)', count: '1 Post (Level-12: ₹78,800-2,09,200)' },
+      { category: 'Registrar (JIPMER Puducherry)', count: '1 Post (Level-12: ₹78,800-2,09,200)' },
+      { category: 'Registrar (JIPMER Karaikal)', count: '1 Post (Level-12: ₹78,800-2,09,200)' },
+      { category: 'System Analyst (JIPMER Puducherry)', count: '2 Posts (Level-11: ₹67,700-2,08,700)' },
+      { category: 'Computer Programmer (JIPMER Puducherry)', count: '2 Posts (Level-10: ₹56,100-1,77,500)' },
+      { category: 'Computer Programmer (JIPMER Karaikal)', count: '1 Post (Level-10: ₹56,100-1,77,500)' },
+      { category: 'Purchase Officer (JIPMER Puducherry)', count: '1 Post (Level-10: ₹56,100-1,77,500)' },
+      { category: 'Assistant Controller of Examinations (JIPMER Karaikal)', count: '1 Post (Level-10: ₹56,100-1,77,500)' },
+      { category: 'Accounts Officer (JIPMER Karaikal)', count: '1 Post (Level-9: ₹53,100-1,67,800)' },
+      { category: 'Data Processing Assistant Grade A (JIPMER Puducherry)', count: '1 Post (Level-7: ₹44,900-1,42,400)' },
+      { category: 'Assistant Registrar (JIPMER Puducherry)', count: '1 Post (Level-7: ₹44,900-1,42,400)' },
+      { category: 'Assistant Registrar (JIPMER Karaikal)', count: '2 Posts (Level-7: ₹44,900-1,42,400)' },
+      { category: 'Total Deputation Vacancies', count: 15 }
+    ],
+    eligibility: {
+      education: [
+        'Controller of Exams / Registrar / Asst Controller of Exams: Master’s Degree or Graduation from recognized University with 3 to 8 years experience in conduct of examinations, admissions, or academic administration.',
+        'System Analyst / Computer Programmer / DPA Grade A: MCA / M.Sc (CS/IT) OR B.E / B.Tech (CS/IT/ECE) with 3 to 5 years experience in programming / information systems.',
+        'Purchase Officer: Post Graduate Degree/Diploma in Materials Management (MBA / PG Diploma in Materials Management desirable).',
+        'Accounts Officer: Graduate in Commerce or Economics with SAS exam passed OR Chartered Accountant (CA).',
+        'Assistant Registrar: Degree from recognized University + 3 years experience in handling admissions & examinations.'
+      ],
+      ageLimit: 'Upper age limit shall not exceed 56 years as on the closing date (21.09.2026).',
+      experience: [
+        '3 to 10 years regular service in feeder pay level / analogous posts in Central/State Govt or Autonomous bodies.'
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Matrix Level-7 to Level-12 (7th CPC)',
+      initialPay: 'Level-12: ₹78,800 - ₹2,09,200 | Level-11: ₹67,700 - ₹2,08,700 | Level-10: ₹56,100 - ₹1,77,500 | Level-9: ₹53,100 - ₹1,67,800 | Level-7: ₹44,900 - ₹1,42,400',
+      allowances: [
+        'Deputation allowance, DA, HRA, and medical benefits as per Central Govt DoPT rules.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Applicants', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Application Scrutiny', description: 'Screening of applications received through proper channel, APARs for last 5 years, Vigilance & Integrity clearances.' },
+      { stage: 'Stage 2: Personal Interview / Interaction', description: 'Interview by Selection Committee at JIPMER Puducherry.' }
+    ],
+    howToApply: [
+      'Download the official application proforma from the JIPMER website (www.jipmer.edu.in).',
+      'Fill up the proforma and attach self-attested copies of educational qualifications, experience certificates, APARs for the last 5 years, Vigilance clearance, Cadre clearance, and Integrity Certificate.',
+      'Submit the application through proper channel to: "Shri Hawa Singh, Senior Administrative Officer, Room No. 210, II Floor, Administrative Block, JIPMER, Dhanvantari Nagar, Puducherry – 605 006".',
+      'Superscribe the envelope: "APPLICATION FOR THE POST OF [POST NAME] ON DEPUTATION BASIS AT JIPMER PUDUCHERRY/KARAIKAL".',
+      'Ensure the application reaches by 21 September 2026 (04:30 PM).'
+    ],
+    documentsRequired: [
+      'Filled Application Proforma through proper channel',
+      'No Objection Certificate (NOC) from present employer',
+      'Attested copies of APARs for the past 5 years',
+      'Vigilance Clearance Certificate & Integrity Certificate',
+      'Major / Minor Penalty Certificate for last 10 years',
+      'Educational Degree & Experience Certificates'
+    ],
+    importantInstructions: [
+      'Only regular employees of Central/State Govt, UTs, Universities, and Autonomous Bodies are eligible (Private sector employees not eligible).',
+      'Advance copy can be sent within deadline if proper channel routing is delayed.',
+      'Contact for queries: 0413-2296022 | Email: jipmer.deputation@gmail.com'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://www.jipmer.edu.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for JIPMER Deputation Recruitment 2026?', answer: 'The last date for receipt of filled application forms at JIPMER Puducherry is 21 September 2026 until 04:30 PM.' },
+      { question: 'What is the maximum age limit?', answer: 'The upper age limit is 56 years as on the closing date.' },
+      { question: 'Are private sector employees eligible?', answer: 'No, these posts are strictly on deputation basis for Central/State Govt and Autonomous body officers.' },
+      { question: 'Where should the application be sent?', answer: 'To Senior Administrative Officer, Room No. 210, Administrative Block, JIPMER, Dhanvantari Nagar, Puducherry – 605006.' }
+    ]
+  },
+  'csir-niscpr-project-staff-recruitment-2026': {
+    id: 'csir-niscpr-project-staff-recruitment-2026',
+    seoTitle: 'CSIR-NIScPR New Delhi Project Staff Recruitment 2026 (14 Posts) – Walk-in Interview on 03 Sept',
+    seoDescription: 'CSIR-NIScPR New Delhi Project Staff Recruitment 2026: 14 vacancies for Project Associate-I, Project Associate-II & Senior Project Associate. Check eligibility, salary (up to Rs 42,000+HRA), interview date (03 September 2026) & application format.',
+    focusKeywords: 'CSIR NIScPR Recruitment 2026, CSIR NIScPR Project Staff Vacancy, CSIR NIScPR Walk In Interview New Delhi, CSIR NIScPR PAT Recruitment',
+    lsiKeywords: 'CSIR NIScPR Pusa Gate New Delhi, NIScPR ULIP Project, niscpr.res.in application form, CSIR Senior Project Associate',
+    title: 'CSIR-NIScPR New Delhi Project Staff Recruitment 2026 (Advt NIScPR/ULIP/VII/2026-R&A) – 14 Vacancies',
+    board: 'CSIR - National Institute of Science Communication & Policy Research (NIScPR)',
+    advtNo: 'Advt No. – NIScPR/ULIP/VII/2026-R&A',
+    vacancies: 14,
+    jobLocation: 'CSIR-NIScPR, Dr. K.S. Krishnan Marg, Pusa Gate, New Delhi-110012',
+    applicationMode: 'Offline Application + Walk-In Interview',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'CSIR-National Institute of Science Communication and Policy Research (CSIR-NIScPR), New Delhi, a multidisciplinary national research laboratory under CSIR, Ministry of Science & Technology, Govt. of India, has published recruitment notification Advt No. NIScPR/ULIP/VII/2026-R&A.',
+      'Applications are invited from eligible Indian citizens for Walk-in-Interview for engagement as Project Staff (Project Associate-I, Project Associate-II, Senior Project Associate) under CSIR ULIP project activities for project tenure running up to 31 March 2031.',
+      'A total of 14 contractual positions are available in areas including Web Development, Traditional Knowledge Communication, Rural Development Technologies, English Science Content Development, Graphic Design, and Audio & Video Editing. Walk-in interview will be conducted on 03 September 2026 at CSIR-NIScPR, New Delhi.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'CSIR - National Institute of Science Communication & Policy Research (NIScPR)' },
+      { label: 'Parent Council', value: 'Council of Scientific & Industrial Research (CSIR), Govt of India' },
+      { label: 'Post Names', value: 'Project Associate-I (PAT-I), Project Associate-II (PAT-II), Senior Project Associate (SPA)' },
+      { label: 'Advt Number', value: 'Advt No. – NIScPR/ULIP/VII/2026-R&A' },
+      { label: 'Total Vacancies', value: '14 Positions across 3 Projects' },
+      { label: 'Project Tenure', value: '01 June 2026 to 31 March 2031' },
+      { label: 'Monthly Emoluments', value: 'PAT-I: ₹25,000 - ₹31,000 + HRA | PAT-II: ₹28,000 - ₹35,000 + HRA | SPA: ₹42,000 + HRA' },
+      { label: 'Age Limit', value: 'PAT-I & PAT-II: Max 35 Yrs | Senior PAT / SPA: Max 40 Yrs as on 03.09.2026' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Walk-in Interview Date & Time', value: '03 September 2026 (Thursday) | Reporting: 09:00 AM to 11:00 AM' },
+      { label: 'Interview Venue', value: 'Vivekananda Hall, CSIR-NIScPR, Dr. K.S. Krishnan Marg, Pusa Gate, New Delhi-110012' },
+      { label: 'Nearest Metro Station', value: 'Rajendra Place Metro Station, New Delhi' },
+      { label: 'Official Website', value: 'https://www.niscpr.res.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release', date: '04.08.2026' },
+      { event: 'Walk-in Interview Date & Reporting Time', date: '03.09.2026 (Thursday) | 09:00 AM to 11:00 AM' },
+      { event: 'Crucial Date for Age Reckoning', date: '03.09.2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Project Associate-I (IT / CS Web Dev)', count: '1 Position (Pay: ₹25,000/- or ₹31,000/- + HRA)' },
+      { category: 'Project Associate-I (Science / Engg / Medicine)', count: '2 Positions (Pay: ₹25,000/- or ₹31,000/- + HRA)' },
+      { category: 'Project Associate-II (Science / Engg + 2 Yrs Exp)', count: '4 Positions across 2 Projects (Pay: ₹28,000/- or ₹35,000/- + HRA)' },
+      { category: 'Senior Project Associate (TK / Rural Dev + 3 Yrs Exp / Ph.D)', count: '4 Positions across 2 Projects (Pay: ₹42,000/- + HRA)' },
+      { category: 'Sr. Project Associate (SPA) cum Reporter - English Content', count: '1 Position (Pay: ₹42,000/- + HRA)' },
+      { category: 'Sr. Project Associate (SPA) cum Graphic Designer', count: '1 Position (Pay: ₹42,000/- + HRA)' },
+      { category: 'Sr. Project Associate (SPA) cum Audio & Video Editor', count: '1 Position (Pay: ₹42,000/- + HRA)' },
+      { category: 'Total Project Staff Positions', count: 14 }
+    ],
+    eligibility: {
+      education: [
+        'PAT-I (IT/CS): MCA / B.E / B.Tech in IT / Computer Science or equivalent degree with knowledge of PERL/Java/JSP/Python/PHP/ASP.NET, Linux, SQL/MySQL/PostgreSQL, CMS & AI/ML tools.',
+        'PAT-I / PAT-II (Science/Engg): Master’s degree in Natural/Agricultural/Pharmaceutical Sciences/MVSc/Animal Sciences OR Bachelor’s degree in Engineering/Technology/Medicine. For PAT-II: 2 years research experience required.',
+        'Senior Project Associate (SPA): Master’s degree / B.E/B.Tech/MBBS with 3 years research & development experience OR Ph.D degree in Science/Pharma/MD/MS with 2 years research experience.',
+        'SPA (Graphic Designer): Master’s/Bachelor’s degree in Journalism/Mass Comm/Graphic Design + 4 years experience in graphic designing/animation (CorelDraw, Photoshop, InDesign, 3D Max, Adobe).',
+        'SPA (Audio & Video Editor): Master’s/Bachelor’s degree in Journalism/Mass Comm/Visual Media + 4 years experience in mainstream TV/film/production house as Video Editor (Adobe Premiere Pro, VFX, SFX).'
+      ],
+      ageLimit: 'Age as on 03.09.2026: PAT-I & PAT-II: Maximum 35 Years | Senior Project Associate / SPA: Maximum 40 Years.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD Candidates', relaxation: 'As per GOI / CSIR rules' }
+      ],
+      experience: [
+        '0 to 4 years experience depending on post requirements as specified in notification.'
+      ]
+    },
+    salary: {
+      payLevel: 'Monthly Consolidated Emoluments + Admissible HRA',
+      initialPay: 'PAT-I: ₹31,000/- + HRA (NET/GATE qualified) / ₹25,000/- + HRA (others) | PAT-II: ₹35,000/- + HRA (NET/GATE qualified) / ₹28,000/- + HRA (others) | SPA: ₹42,000/- + HRA',
+      allowances: [
+        'HRA admissible as per rules of sponsoring agency / CSIR-NIScPR.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Document Verification', description: 'Reporting at NIScPR Reception Desk on 03.09.2026 (09:00 AM to 11:00 AM) with filled application form and original certificates.' },
+      { stage: 'Stage 2: Screening & Interview', description: 'Evaluation of academic records, experience, and performance in personal interview / written test.' }
+    ],
+    howToApply: [
+      'Download and print the official Application Form format attached with Advt No. NIScPR/ULIP/VII/2026-R&A.',
+      'Fill up the application form in block/capital letters, paste recent passport size color photograph and sign across it.',
+      'Attach one complete set of self-attested photocopies of educational marksheets, degree/diploma certificates, experience certificates, category certificate, publications, and pen drive with sample works (if applicable).',
+      'Attend the Walk-in-Interview in person on 03 September 2026 (09:00 AM to 11:00 AM) at Vivekananda Hall, CSIR-NIScPR, Dr. K.S. Krishnan Marg, Pusa Gate, New Delhi-110012 with original documents.'
+    ],
+    documentsRequired: [
+      'Filled and signed Application Form format',
+      '10th / SSC Certificate as Date of Birth proof',
+      'UG, PG, B.E/B.Tech, B.Lib, Ph.D Marksheets & Degree Certificates',
+      'NET / CSIR-UGC / ICAR / ICMR / GATE Qualification Certificate (if applicable)',
+      'Experience Certificate(s) showing exact period of service',
+      'Recent Passport Size Photograph',
+      'Valid SC/ST/OBC/EWS/PwBD Certificate (if applicable)',
+      'Pen drive / hard copy of publications, videos/audio content, graphic portfolios (for SPA positions)'
+    ],
+    importantInstructions: [
+      'Candidates reporting after 11:00 AM on 03.09.2026 will not be entertained.',
+      'No TA/DA will be paid for attending the walk-in-interview.',
+      'Contract tenure is initially for 6 months, extendable subject to performance and fund availability up to max 6 years overall CSIR contract limit.',
+      'Nearest metro station is Rajendra Place Metro Station, New Delhi.'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://www.niscpr.res.in' }
+    ],
+    faqs: [
+      { question: 'What is the walk-in interview date for CSIR-NIScPR recruitment 2026?', answer: 'The Walk-in-Interview will be held on 03 September 2026 (Thursday) with reporting time between 09:00 AM and 11:00 AM.' },
+      { question: 'Where is the interview venue located?', answer: 'Vivekananda Hall, CSIR-NIScPR, Dr. K.S. Krishnan Marg, Pusa Gate, New Delhi-110012 (Nearest Metro: Rajendra Place).' },
+      { question: 'What is the salary for Senior Project Associate (SPA)?', answer: 'Senior Project Associate gets ₹42,000/- per month + HRA.' },
+      { question: 'What is the maximum age limit for Project Associates?', answer: 'Maximum 35 years for PAT-I & PAT-II, and maximum 40 years for Senior Project Associate as on 03.09.2026.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee for any candidate.' }
+    ]
+  },
   'cutn-guest-faculty-recruitment-2026': {
     id: 'cutn-guest-faculty-recruitment-2026',
     seoTitle: 'CUTN Guest Faculty Recruitment 2026 (29 Posts) – Apply via Email for Teaching Positions',

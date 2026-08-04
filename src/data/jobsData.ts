@@ -12,6 +12,83 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'opsc-assistant-executive-engineer-civil-recruitment-2026',
+    b: 'Odisha Public Service Commission (OPSC)',
+    t: 'OPSC Assistant Executive Engineer (Civil) Recruitment 2026 (Advt No. 07 of 2026-27) – 46 Vacancies for AEE (Civil) Group-A | Apply Online by 11 September 2026',
+    d: '04-08-2026',
+    l: '11-09-2026',
+    a: 'ADVERTISEMENT NO. 07 OF 2026-27 (Notice No. 4430/PSC)',
+    q: 'Graduate in Civil Engineering (B.E / B.Tech Civil) OR Associated Member of IEI in Civil (Must read/write/speak Odia)',
+    desc: 'Odisha Public Service Commission (OPSC), Cuttack invites online applications for 46 posts of Assistant Executive Engineer (Civil) in Group-\'A\' of Odisha Municipal Engineering Service Cadre under Housing & Urban Development Department, Govt of Odisha. Pay Matrix Level-12 (₹15,600-39,100 + GP ₹5,400). Selection through Preliminary Exam (08 Nov 2026), Main Exam (500 Marks), and Viva-Voce (50 Marks). Apply online at www.opsc.gov.in from 11.08.2026 to 11.09.2026 (5:00 PM).',
+    u: 'https://www.opsc.gov.in'
+  },
+  {
+    id: 'clw-chittaranjan-sports-quota-recruitment-2026',
+    b: 'Chittaranjan Locomotive Works (CLW), Indian Railways',
+    t: 'CLW Chittaranjan Sports Quota Recruitment 2026-27 (Advt GMA/Rectt.&MPP/Sports Quota) – 25 Vacancies in Level 1 to Level 5 | Apply Offline by 20 August 2026',
+    d: '04-08-2026',
+    l: '20-08-2026',
+    a: 'Employment Notice No. GMA/Rectt.&MPP/Sports Quota/2026-2027',
+    q: '10th Pass / ITI / NAC for Level-1 | 12th Pass or ITI for Level-2 | Any Graduation for Level-5/4 + Sports Achievements',
+    desc: 'Chittaranjan Locomotive Works (CLW), Indian Railways invites offline applications from eligible active sportspersons for 25 vacancies against Sports Quota (Open Advertisement & Talent Scouting) for 2026-27 across Level-5/4 (2 Posts), Level-2 (8 Posts), and Level-1 (15 Posts) in Archery, Badminton, Basketball, Golf, Football, Gymnastics, Swimming, and Shooting. Age 18 to 25 years. Apply offline with Demand Draft / IPO of ₹500 (₹250 for SC/ST/Women/EBC) by post to Dy.GM / Chief Personnel Officer CLW Chittaranjan, West Bengal by 20th August 2026 (17:00 Hrs).',
+    u: 'https://clw.indianrailways.gov.in'
+  },
+  {
+    id: 'igdtuw-delhi-teaching-faculty-recruitment-2026',
+    b: 'Indira Gandhi Delhi Technical University for Women (IGDTUW)',
+    t: 'IGDTUW Delhi Teaching Faculty Recruitment 2026 (Advt 01/2026) – 36 Vacancies for Professor, Associate Professor & Assistant Professor | Apply Online by 21 August 2026',
+    d: '04-08-2026',
+    l: '21-08-2026',
+    a: 'RECRUITMENT NOTICE No. 01/2026',
+    q: 'Ph.D / Master\'s / B.E / B.Tech / B.Arch / M.Arch / M.Plan (UGC/AICTE/COA norms)',
+    desc: 'Indira Gandhi Delhi Technical University for Women (IGDTUW), Kashmere Gate, Delhi invites online applications for 36 Group-A regular teaching positions of Professor (10, Level-14: ₹1,44,200-2,18,200), Associate Professor (14, Level-13A1: ₹1,31,400-2,17,100), and Assistant Professor (12, Level-10: ₹57,700-1,82,400) across CSE, IT, ECE, MAE, Architecture, Chemistry, Mathematics, and English. Apply online at www.igdtuw.ac.in by 21st August 2026 (23:59 Hrs) and submit printout with documents to Registrar IGDTUW Delhi by 28th August 2026 (4:30 PM).',
+    u: 'https://www.igdtuw.ac.in'
+  },
+  {
+    id: 'dnhdd-samagra-shiksha-tgt-pgt-recruitment-2026',
+    b: 'Directorate of Education, Samagra Shiksha, UT of Dadra & Nagar Haveli and Daman & Diu',
+    t: 'UT of DNH & DD Samagra Shiksha Recruitment 2026 – 37 Vacancies for TGT & PGT Teachers | Walk-in Interview on 10 August 2026',
+    d: '04-08-2026',
+    l: '10-08-2026',
+    a: 'No. DOE/DNHDD/SS/REC.TGTs_PGTs_Non-Teaching/2025/5430 Dated 03.08.2026',
+    q: 'Graduation (50%) + B.Ed for TGT | Post Graduation (50%) + B.Ed for PGT (Medium specific, Max Age 30 Yrs)',
+    desc: 'Directorate of Education, UT Administration of Dadra & Nagar Haveli and Daman & Diu under Samagra Shiksha invites eligible candidates for Walk-in-Interview on 10.08.2026 (Monday) at 09:30 AM for 37 Trained Graduate Teacher (TGT - 9 Posts, ₹27,000/- pm) and Post Graduate Teacher (PGT - 28 Posts, ₹29,000/- pm) positions on Short Term Contract (STC) basis for Govt schools in DNH and Daman districts. Walk-in interview venue: Shiksha Sadan, Moti Daman.',
+    u: 'https://www.ddd.gov.in'
+  },
+  {
+    id: 'wcd-haryana-female-supervisor-recruitment-2026',
+    b: 'Women and Child Development Department (WCD), Govt of Haryana',
+    t: 'WCD Haryana Female Supervisor Recruitment 2026 – 108 Vacancies on Deputation / Transfer Basis | Apply Offline by 03 September 2026',
+    d: '04-08-2026',
+    l: '03-09-2026',
+    a: 'Filling up Female Supervisor Posts on Transfer/Deputation Dated 04.08.2026',
+    q: '10+2 (Intermediate) Pass + Knowledge of Hindi up to Matric (Female Govt Employees)',
+    desc: 'Women and Child Development Department (WCD), Government of Haryana invites offline applications from eligible female personnel serving in Ministries/Departments/Offices under Govt of Haryana for 108 posts of Female Supervisor on Transfer/Deputation basis in Pay Level FPL-6 (₹35,400/-). Apply offline through proper channel to Director, WCD Department, Sector-4, Panchkula, Haryana within 30 days of publication (by 03 September 2026).',
+    u: 'http://wcdhry.gov.in'
+  },
+  {
+    id: 'jipmer-puducherry-karaikal-deputation-recruitment-2026',
+    b: 'Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)',
+    t: 'JIPMER Puducherry & Karaikal Recruitment 2026 (Advt JPADMN-1REC03(1)/1/2026) – 15 Group A & B Posts on Deputation | Apply Offline by 21 September 2026',
+    d: '04-08-2026',
+    l: '21-09-2026',
+    a: 'No. JPADMN-1REC03(1)/1/2026 Dated 03.08.2026',
+    q: 'Officers from Central/State Govt/UT/Universities (Degree/Master\'s/MBA/CA/B.E/B.Tech, Max Age 56 Yrs)',
+    desc: 'Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry invites offline applications from eligible Officers of Central/State Govt/UT/Universities for 15 Group A & B posts on Deputation basis across Puducherry and Karaikal campuses. Posts include Controller of Examinations, Registrar, System Analyst, Computer Programmer, Purchase Officer, Accounts Officer, Data Processing Assistant, and Assistant Registrar. Pay Level 7 to Level 12 (up to ₹2,09,200). Apply offline through proper channel to Senior Administrative Officer, JIPMER Puducherry by 21st September 2026 (4:30 PM).',
+    u: 'https://www.jipmer.edu.in'
+  },
+  {
+    id: 'csir-niscpr-project-staff-recruitment-2026',
+    b: 'CSIR - National Institute of Science Communication & Policy Research (NIScPR)',
+    t: 'CSIR-NIScPR New Delhi Project Staff Recruitment 2026 (Advt NIScPR/ULIP/VII/2026-R&A) – 14 Vacancies for PAT-I, PAT-II & Senior PAT | Walk-in Interview on 03 September 2026',
+    d: '04-08-2026',
+    l: '03-09-2026',
+    a: 'Advt No. – NIScPR/ULIP/VII/2026-R&A',
+    q: 'MCA / B.E / B.Tech (IT/CS) / M.Sc (Natural/Agri/Pharma/Life Sci) / Journalism / Mass Comm / Ph.D / Diploma',
+    desc: 'CSIR-National Institute of Science Communication and Policy Research (CSIR-NIScPR), New Delhi invites eligible candidates for Walk-in-Interview on 03.09.2026 for 14 Project Staff positions under CSIR ULIP project (Tenure June 2026 to March 2031). Posts include Project Associate-I (₹25,000 - ₹31,000 + HRA), Project Associate-II (₹28,000 - ₹35,000 + HRA), and Senior Project Associate / SPA (₹42,000 + HRA) across IT/Web Dev, Traditional Knowledge, Science Communication, Content Development, Graphic Design, and Video Editing. Report at NIScPR Reception Desk, Pusa Gate, New Delhi on 03rd September 2026 (09:00 AM to 11:00 AM) with filled application form and original certificates.',
+    u: 'https://www.niscpr.res.in'
+  },
+  {
     id: 'cutn-guest-faculty-recruitment-2026',
     b: 'Central University of Tamil Nadu (CUTN), Thiruvarur',
     t: 'CUTN Guest Faculty Recruitment 2026 (Advt CUTN/GF/01/2026) – 29 Vacancies across 12 Departments | Apply via Email by 07 August 2026',
