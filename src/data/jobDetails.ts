@@ -58,6 +58,444 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'cutn-guest-faculty-recruitment-2026': {
+    id: 'cutn-guest-faculty-recruitment-2026',
+    seoTitle: 'CUTN Guest Faculty Recruitment 2026 (29 Posts) – Apply via Email for Teaching Positions',
+    seoDescription: 'Central University of Tamil Nadu (CUTN Thiruvarur) Guest Faculty Recruitment 2026: 29 vacancies across 12 departments. Check eligibility, honorarium (Rs 50,000/pm), email application process & last date (07 August 2026).',
+    focusKeywords: 'CUTN Guest Faculty Recruitment 2026, Central University of Tamil Nadu Vacancy, CUTN Teaching Jobs, CUTN Thiruvarur Recruitment',
+    lsiKeywords: 'CUTN Guest Faculty 2026, recruitmentteaching@cutn.ac.in, CUTN Assistant Professor, cutn.ac.in notification',
+    title: 'Central University of Tamil Nadu (CUTN) Guest Faculty Engagement 2026 (Advt CUTN/GF/01/2026) – 29 Vacancies',
+    board: 'Central University of Tamil Nadu (CUTN), Thiruvarur',
+    advtNo: 'CUTN/GF/01/2026 Dated 31.07.2026',
+    vacancies: 29,
+    jobLocation: 'Neelakudi Campus, Thiruvarur, Tamil Nadu',
+    applicationMode: 'Email Application (Single PDF)',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Central University of Tamil Nadu (CUTN), established by an Act of Parliament in 2009, invites applications from eligible candidates for engagement as Guest Faculty across various academic departments.',
+      'A total of 29 temporary Guest Faculty positions are available for a period of one semester / six months in departments such as Chemistry, Hindi, Mathematics, Biotechnology, English, Geography, Social Work, Tourism, Computer Science, Management, Media & Sanskrit.',
+      'Interested candidates should send their filled application form along with self-attested testimonials as a single PDF file through email to recruitmentteaching@cutn.ac.in on or before 07 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Central University of Tamil Nadu (CUTN), Thiruvarur' },
+      { label: 'Post Name', value: 'Guest Faculty' },
+      { label: 'Advt Number', value: 'CUTN/GF/01/2026 Dated 31.07.2026' },
+      { label: 'Total Vacancies', value: '29 Positions across 12 Departments' },
+      { label: 'Tenure', value: 'One Semester / 6 Months (Purely temporary basis)' },
+      { label: 'Honorarium', value: '₹1,500/- per lecture (Maximum ₹50,000/- per month)' },
+      { label: 'Application Mode', value: 'Email PDF to recruitmentteaching@cutn.ac.in' },
+      { label: 'Last Date to Apply', value: '07 August 2026' },
+      { label: 'Official Website', value: 'https://cutn.ac.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31.07.2026' },
+      { event: 'Last Date to Send Email Application (PDF)', date: '07.08.2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Chemistry', count: 5 },
+      { category: 'Hindi', count: 4 },
+      { category: 'English Studies', count: 3 },
+      { category: 'Mathematics', count: 3 },
+      { category: 'Biotechnology', count: 3 },
+      { category: 'Computer Science', count: 2 },
+      { category: 'Geography', count: 2 },
+      { category: 'Tourism and Hospitality Management', count: 2 },
+      { category: 'Social Work', count: 2 },
+      { category: 'Media and Communication', count: 1 },
+      { category: 'Management', count: 1 },
+      { category: 'Tamil (Sanskrit)', count: 1 },
+      { category: 'Total Guest Faculty Positions', count: 29 }
+    ],
+    eligibility: {
+      education: [
+        'Master’s degree with 55% marks (or an equivalent grade) in relevant subject from an Indian or accredited foreign university.',
+        'Must have cleared National Eligibility Test (NET) conducted by UGC or CSIR, OR awarded Ph.D degree in relevant subject as per UGC Regulations 2009/2016.',
+        'Qualifications as per UGC Regulations 2018 for Assistant Professor.'
+      ],
+      ageLimit: 'Superannuated teachers considered up to maximum age limit of 70 years.',
+      experience: [
+        'Teaching / research experience in relevant discipline desirable.'
+      ]
+    },
+    salary: {
+      payLevel: 'Lecture-based Honorarium',
+      initialPay: '₹1,500/- per lecture, subject to a maximum ceiling of ₹50,000/- per month.',
+      allowances: [
+        'No other benefits, allowances, pension or leave admissible.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Application Screening', description: 'Scrutiny of received email applications, academic performance, NET/Ph.D credentials, and research output.' },
+      { stage: 'Stage 2: Interview / Presentation', description: 'Shortlisted candidates called for interaction/interview by selection committee.' }
+    ],
+    howToApply: [
+      'Download and print the official Application Proforma from CUTN website (www.cutn.ac.in).',
+      'Fill in all fields neatly, attach self-attested copies of marksheets, degree certificates, NET/Ph.D proof, and experience certificates.',
+      'Convert the completed form and all documents into a single consolidated PDF file.',
+      'Email the single PDF file to recruitmentteaching@cutn.ac.in on or before 07.08.2026.',
+      'Mention "Application for Guest Faculty in [Department Name] - [Your Name]" in the email subject.'
+    ],
+    documentsRequired: [
+      'Filled and signed Application Proforma',
+      '10th / 12th Certificate for Date of Birth proof',
+      'UG & PG Marksheets and Degree Certificates (Min 55% in PG)',
+      'NET / CSIR-NET / SLET qualification certificate or Ph.D Degree Certificate',
+      'Teaching & Research Experience Certificates (if any)',
+      'Category Certificate (SC/ST/OBC/EWS) if applicable'
+    ],
+    importantInstructions: [
+      'Incomplete applications or applications received after 07.08.2026 will be rejected.',
+      'Engagement is purely temporary and gives no right to claim regular absorption.',
+      'Check www.cutn.ac.in regularly for interview updates.'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'https://cutn.ac.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for CUTN Guest Faculty Recruitment 2026?', answer: 'The last date to submit email applications is 07 August 2026.' },
+      { question: 'What is the honorarium for Guest Faculty at CUTN?', answer: '₹1,500/- per lecture up to a maximum of ₹50,000/- per month.' },
+      { question: 'How to submit the application?', answer: 'Scanned application form along with self-attested documents converted into a single PDF file must be emailed to recruitmentteaching@cutn.ac.in.' },
+      { question: 'What is the educational qualification required?', answer: 'Master’s degree in relevant subject with 55% marks + NET/CSIR-NET OR Ph.D degree as per UGC norms.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee.' }
+    ]
+  },
+  'ncra-tifr-pune-staff-trainee-recruitment-2026': {
+    id: 'ncra-tifr-pune-staff-trainee-recruitment-2026',
+    seoTitle: 'NCRA-TIFR Pune Recruitment 2026 (22 Posts) – Apply Online for Technical, Admin & Trainee Vacancies',
+    seoDescription: 'National Centre for Radio Astrophysics (NCRA-TIFR Pune) Recruitment 2026: 22 vacancies for Project Admin Officer, Technical Assistant, Engineer Trainee, Library Trainee & Admin Trainee. Check pay up to Rs 1,03,400, eligibility & last date (31 August 2026).',
+    focusKeywords: 'NCRA TIFR Pune Recruitment 2026, NCRA Technical Assistant Vacancy, NCRA Engineer Trainee Pune, TIFR NCRA Recruitment',
+    lsiKeywords: 'NCRA TIFR Pune 2026, SKA Project NCRA Pune, tinyurl.com/ncrajob-2026, estt@ncra.tifr.res.in',
+    title: 'NCRA-TIFR Pune Project Staff & Trainee Recruitment 2026 (Advt No. 2026/09) – 22 Vacancies',
+    board: 'National Centre for Radio Astrophysics (NCRA-TIFR), Pune',
+    advtNo: 'Recruitment Advertisement No. 2026/09',
+    vacancies: 22,
+    jobLocation: 'Pune, Khodad & Ooty Campuses',
+    applicationMode: 'Online or Offline Hard Copy by Post',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'National Centre for Radio Astrophysics (NCRA), Pune of Tata Institute of Fundamental Research (TIFR), an autonomous institute under the Department of Atomic Energy, Govt. of India, has published Recruitment Advertisement No. 2026/09.',
+      'Applications are invited for 22 positions on contract/trainee basis across SKA Project and NCRA campuses in Pune, Khodad (GMRT), and Ooty (ORT).',
+      'Positions include Project Administrative Officer, Project Admin Assistant, Project Technical Assistants (Hardware, OMC, SRC), Engineer Trainee (Servo), Library Trainee, Administrative Trainee, and Tradesman Trainee (Electrical). Monthly pay ranges from ₹18,500 to ₹1,03,400. Apply online by 31 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'National Centre for Radio Astrophysics (NCRA-TIFR), Pune' },
+      { label: 'Parent Department', value: 'Department of Atomic Energy (DAE), Govt. of India' },
+      { label: 'Post Names', value: 'Project Admin Officer, Admin Assistant, Tech Assistant, Engineer Trainee, Library Trainee, Admin Trainee, Tradesman Trainee' },
+      { label: 'Advt Number', value: 'Recruitment Advertisement No. 2026/09' },
+      { label: 'Total Vacancies', value: '22 Posts' },
+      { label: 'Tenure', value: 'SKA Project Posts (Sr 1-5): 3 Years | Other Posts (Sr 6-9): 2 Years' },
+      { label: 'Total Monthly Pay', value: '₹18,500/- to ₹1,03,400/- per month depending on post' },
+      { label: 'Age Limit', value: '28 to 40 Years as on 31.08.2026' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Last Date to Apply', value: '31 August 2026' },
+      { label: 'Online Application Portal', value: 'https://tinyurl.com/ncrajob-2026' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Release', date: '04.08.2026' },
+      { event: 'Last Date of Receipt of Online / Offline Application', date: '31.08.2026' },
+      { event: 'Crucial Date for Age & Qualification Eligibility', date: '31.08.2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Project Administrative Officer (Pune)', count: '2 Posts (UR: 1, EWS: 1) - Pay: ₹1,03,400/- pm' },
+      { category: 'Project Administrative Assistant (Pune)', count: '1 Post (EWS: 1) - Pay: ₹63,900/- pm' },
+      { category: 'Project Technical Assistant (Low Hardware) (Pune)', count: '3 Posts (UR: 1, SC: 1, ST: 1) - Pay: ₹63,900/- pm' },
+      { category: 'Project Technical Assistant (OMC) (Pune)', count: '2 Posts (UR: 2) - Pay: ₹63,900/- pm' },
+      { category: 'Project Technical Assistant (SRC) (Pune)', count: '3 Posts (UR: 2, OBC: 1) - Pay: ₹63,900/- pm' },
+      { category: 'Engineer Trainee (Servo) (Khodad)', count: '2 Posts (UR: 2) - Pay: ₹35,000/- pm' },
+      { category: 'Library Trainee (Pune)', count: '1 Post (UR: 1) - Pay: ₹22,000/- pm' },
+      { category: 'Administrative Trainee (Pune / Khodad)', count: '6 Posts (UR: 6) - Pay: ₹22,000/- pm' },
+      { category: 'Tradesman Trainee (Electrical) (Pune)', count: '2 Posts (UR: 2) - Pay: ₹18,500/- pm' },
+      { category: 'Total Vacancies', count: 22 }
+    ],
+    eligibility: {
+      education: [
+        'Project Admin Officer: Graduate (min 60%) + Diploma/Degree in Management + computer proficiency + 5 yrs experience (Level 6 equivalent). Max Age 40 Yrs.',
+        'Project Admin Assistant: Graduate (min 55%) + computer proficiency + 3 yrs experience in accounts/stores/admin. Max Age 33 Yrs.',
+        'Project Technical Assistant (Hardware / OMC / SRC): Full time B.Sc Science (Electronics/CS/IT) OR Diploma in Engineering (Electronics/Allied) with min 60% marks + 1 yr hardware/system experience. Max Age 28 Yrs (31 for OBC, 33 for SC/ST).',
+        'Engineer Trainee (Servo): B.E / B.Tech in Electronics & Communication / Electronics Engineering with min 60% marks. Max Age 28 Yrs.',
+        'Library Trainee: Graduate + B.Lib.I.Sc / M.Lib.I.Sc from recognized university. Max Age 28 Yrs.',
+        'Administrative Trainee: Graduate from recognized university with computer & typing knowledge. Max Age 28 Yrs.',
+        'Tradesman Trainee (Electrical): NTC (ITI) OR NAC in Electrical/Electrician trade with min 60% marks + valid wireman license. Max Age 28 Yrs.'
+      ],
+      ageLimit: '28 to 40 Years as on 31.08.2026 depending on post.',
+      ageRelaxation: [
+        { category: 'SC / ST Category', relaxation: '5 Years' },
+        { category: 'OBC Category', relaxation: '3 Years' },
+        { category: 'PwBD & Ex-Servicemen', relaxation: 'As per GOI rules' }
+      ],
+      experience: [
+        '0 to 5 years experience depending on post requirements.'
+      ]
+    },
+    salary: {
+      payLevel: 'Fixed Monthly Remuneration (TME)',
+      initialPay: 'Project Admin Officer: ₹1,03,400/- pm | Project Admin Asst & Tech Asst: ₹63,900/- pm | Engineer Trainee: ₹35,000/- pm | Library & Admin Trainee: ₹22,000/- pm | Tradesman Trainee: ₹18,500/- pm',
+      allowances: [
+        'Fixed consolidated monthly emoluments (TME).'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Application Screening', description: 'Shortlisting based on educational qualification, marks percentage, and relevant work experience.' },
+      { stage: 'Stage 2: Written Test / Trade Test / Interview', description: 'Selection test or personal interview depending on post requirements.' }
+    ],
+    howToApply: [
+      'Apply online via the NCRA recruitment link: https://tinyurl.com/ncrajob-2026 on or before 31.08.2026.',
+      'Alternatively, candidates unable to apply online can send filled hard copy application in a sealed envelope superscribed "Application for the post of [Post Name]" to: "Administrative Officer-D (Establishment), NCRA-TIFR, Post Bag 3, Ganeshkhind, Savitribai Phule Pune University Campus, Pune 411007".',
+      'Applications received after 31.08.2026 will not be entertained.'
+    ],
+    documentsRequired: [
+      '10th / SSC Certificate as Date of Birth proof',
+      'Educational Marksheets & Degree/Diploma/ITI Certificates (All Semesters/Years)',
+      'Experience Certificate(s) for relevant experience',
+      'Electrical Wireman License (for Tradesman Trainee Electrical)',
+      'Valid SC/ST/OBC/EWS/PwBD Certificate (if applicable)',
+      'Computer & Typing Proficiency Certificates'
+    ],
+    importantInstructions: [
+      'All posts are transferable within NCRA campuses (Pune, Khodad, Ooty).',
+      'Candidates may be required to work in shifts and on weekends as per operational needs.',
+      'Contact email for queries: estt@ncra.tifr.res.in'
+    ],
+    urls: [
+      { label: 'Apply Online Portal', url: 'https://tinyurl.com/ncrajob-2026' },
+      { label: 'Official Website', url: 'http://www.ncra.tifr.res.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for NCRA-TIFR Pune Recruitment 2026?', answer: 'The last date to submit online application or hard copy post is 31 August 2026.' },
+      { question: 'Where are the job locations?', answer: 'Posts are located across NCRA campuses in Pune, Khodad (GMRT), and Ooty (ORT).' },
+      { question: 'What is the salary for Project Administrative Officer?', answer: 'The fixed total monthly emolument (TME) for Project Administrative Officer is ₹1,03,400/- per month.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee.' },
+      { question: 'What is the qualification for Project Technical Assistant?', answer: 'Full-time B.Sc Science (Electronics/CS/IT) OR Diploma in Engineering (Electronics/Allied) with min 60% marks + 1 yr experience.' }
+    ]
+  },
+  'echs-panaji-sindhudurg-staff-recruitment-2026': {
+    id: 'echs-panaji-sindhudurg-staff-recruitment-2026',
+    seoTitle: 'ECHS Panaji & Sindhudurg Recruitment 2026 (11 Posts) – Apply Offline for Medical & Support Staff',
+    seoDescription: 'Ex-Servicemen Contributory Health Scheme (ECHS Station HQ Panaji) Recruitment 2026: 11 vacancies for Dental Officer, Officer in Charge, Pharmacist, Nursing Asst, Driver, Female Attendant & Safaiwala. Check eligibility, salary, interview date (27 August 2026) & application form.',
+    focusKeywords: 'ECHS Panaji Recruitment 2026, ECHS Sindhudurg Vacancy 2026, ECHS Goa Medical Staff Recruitment, ECHS Station HQ Panaji',
+    lsiKeywords: 'ECHS Polyclinic Panaji Sindhudurg, ECHS Dental Officer Goa, ECHS Pharmacist Panaji, echs.gov.in application form',
+    title: 'ECHS Station HQ Panaji & Sindhudurg Staff Recruitment 2026 – 11 Vacancies',
+    board: 'Ex-Servicemen Contributory Health Scheme (ECHS), Station HQ Panaji',
+    advtNo: 'Employment Notice Stn HQ (ECHS Cell) Panaji Dated 04.08.2026',
+    vacancies: 11,
+    jobLocation: 'Panaji (Goa) & Sindhudurg (Maharashtra)',
+    applicationMode: 'Offline (By Hand / Registered Post)',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Ex-Servicemen Contributory Health Scheme (ECHS), Station HQ (ECHS Cell) Panaji, Ministry of Defence, Government of India, has released an employment notice for contractual recruitment of Medical, Para Medical, and Non-Medical staff.',
+      'A total of 11 vacancies are available across 2 ECHS Polyclinics located in Panaji (Goa) and Sindhudurg (Maharashtra) for a period of one year (renewable based on performance).',
+      'Eligible candidates can submit their offline application in the prescribed format along with self-attested photocopies of certificates to Station HQ ECHS Cell Panaji by 20 August 2026 (14:00 hrs). Walk-in interviews will be conducted on 27 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Station HQ (ECHS Cell) Panaji, Ministry of Defence, Govt of India' },
+      { label: 'Polyclinic Locations', value: 'ECHS Polyclinic Panaji (Goa) & ECHS Polyclinic Sindhudurg (Maharashtra)' },
+      { label: 'Post Names', value: 'Officer in Charge, Dental Officer, Nursing Asst, Pharmacist, Dental Hygienist, Amb Driver, Female Attendant, Safaiwala' },
+      { label: 'Total Vacancies', value: '11 Posts' },
+      { label: 'Tenure', value: '1 Year (Contractual, renewable)' },
+      { label: 'Fixed Remuneration', value: '₹21,800/- to ₹95,000/- per month depending on post' },
+      { label: 'Preference', value: 'Preference given to Ex-Servicemen' },
+      { label: 'Last Date of Application', value: '20 August 2026 (by 14:00 hrs)' },
+      { label: 'Interview Date & Time', value: '27 August 2026 (Reporting at 09:00 hrs)' },
+      { label: 'Interview Venue', value: 'ECHS Cell, Station HQ Panaji, S V Road, Near Panaji Police Station, Goa' },
+      { label: 'Official Website', value: 'https://www.echs.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '04.08.2026' },
+      { event: 'Last Date for Receipt of Application at Stn HQ Panaji', date: '20.08.2026 (by 14:00 hrs)' },
+      { event: 'Reporting Time for Walk-in Interview', date: '27.08.2026 (09:00 hrs)' },
+      { event: 'Interview Time Window', date: '27.08.2026 (10:00 hrs to 14:00 hrs)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Officer in Charge (Panaji)', count: '1 Post (Fixed Pay: ₹95,000/- pm)' },
+      { category: 'Dental Officer (Panaji)', count: '1 Post (Fixed Pay: ₹95,000/- pm)' },
+      { category: 'Dental Officer (Sindhudurg)', count: '1 Post (Fixed Pay: ₹95,000/- pm)' },
+      { category: 'Nursing Assistant (Sindhudurg)', count: '1 Post (Fixed Pay: ₹36,500/- pm)' },
+      { category: 'Pharmacist (Panaji)', count: '1 Post (Fixed Pay: ₹36,500/- pm)' },
+      { category: 'Dental A/T/H (Panaji)', count: '1 Post (Fixed Pay: ₹36,500/- pm)' },
+      { category: 'Ambulance Driver (Panaji)', count: '1 Post (Fixed Pay: ₹25,600/- pm)' },
+      { category: 'Female Attendant (Panaji)', count: '1 Post (Fixed Pay: ₹21,800/- pm)' },
+      { category: 'Female Attendant (Sindhudurg)', count: '1 Post (Fixed Pay: ₹21,800/- pm)' },
+      { category: 'Safaiwala (Panaji)', count: '1 Post (Fixed Pay: ₹21,800/- pm)' },
+      { category: 'Safaiwala (Sindhudurg)', count: '1 Post (Fixed Pay: ₹21,800/- pm)' },
+      { category: 'Total Vacancies', count: 11 }
+    ],
+    eligibility: {
+      education: [
+        'Officer in Charge: Graduation + Minimum 5 years work experience in health care institutions or managerial positions.',
+        'Dental Officer: BDS Degree + Minimum 3 years work experience.',
+        'Nursing Assistant: GNM Diploma / Class-I Nursing Assistant course (Armed Forces) + Minimum 5 years work experience.',
+        'Pharmacist: B.Pharm OR 10+2 Science with Diploma in Pharmacy from a recognized institute & registered as pharmacist + Minimum 3 years work experience.',
+        'Dental A/T/H: Diploma in Dental Hygiene / Class-I DH / DORA course (Armed Forces) + Minimum 5 years work experience.',
+        'Ambulance Driver: 8th Class pass / Class 1 MT Driver (Armed Forces) + Valid Civil Driving License + Minimum 5 years work experience.',
+        'Female Attendant & Safaiwala: Literate + Minimum 5 years work experience.'
+      ],
+      ageLimit: 'As per ECHS criteria for contractual engagement.',
+      experience: [
+        '3 to 5 years relevant work experience required as specified per post.',
+        'Preference will be given to Ex-Servicemen candidates.'
+      ]
+    },
+    salary: {
+      payLevel: 'Fixed Monthly Consolidated Remuneration',
+      initialPay: 'Officer in Charge & Dental Officer: ₹95,000/- pm | Nursing Asst, Pharmacist & Dental A/T/H: ₹36,500/- pm | Ambulance Driver: ₹25,600/- pm | Female Attendant & Safaiwala: ₹21,800/- pm',
+      allowances: [
+        'Consolidated monthly remuneration as per ECHS norms.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Applicants (Ex-Servicemen & Civilians)', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Document Scrutiny', description: 'Screening of applications and verification of educational qualifications & experience certificates.' },
+      { stage: 'Stage 2: Walk-In Interview', description: 'Interview on 27.08.2026 between 10:00 AM to 02:00 PM at Station HQ Panaji.' },
+      { stage: 'Stage 3: On Job Training (OJT)', description: 'Selected candidates will undergo an Unpaid On Job Training (OJT) for 10 days prior to joining.' }
+    ],
+    howToApply: [
+      'Download the official ECHS application form from www.echs.gov.in.',
+      'Fill up the application form and attach self-attested photocopies of 10th/Matric, 10+2, Graduation/Diploma/Degree certificates, marksheets, experience certificates, discharge book, PPO, service records, and 2 passport size photographs.',
+      'Submit the application to "Station HQ (ECHS Cell) Panaji, S V Road, Near Panaji Police Station, Goa" on or before 20 August 2026 by 14:00 hrs.',
+      'Report for interview on 27 August 2026 at 09:00 hrs with all original certificates and documents.'
+    ],
+    documentsRequired: [
+      '2 passport size photographs',
+      'Matriculation (10th) Marksheet & Certificate for Date of Birth proof',
+      '10+2 Science Marksheet & Certificate (for Pharmacist/Para-medical)',
+      'Graduation / BDS / Diploma / Nursing Passing Certificates & Marksheets',
+      'State Pharmacy / Dental / Nursing Council Registration Certificate',
+      'Experience Certificates (Min 3-5 years as required)',
+      'For Ex-Servicemen: Discharge Book, PPO, Service Records',
+      'Valid Civil Driving License (for Ambulance Driver)'
+    ],
+    importantInstructions: [
+      'Applications received after 20 Aug 2026 (14:00 hrs) will not be accepted.',
+      'No TA/DA is admissible for attending the interview.',
+      'Selected candidates must complete 10 days unpaid On Job Training (OJT).',
+      'Contact for queries: 0832-2423003 | Email: stnhqpanajigoaechs@gmail.com'
+    ],
+    urls: [
+      { label: 'Download Application Form / ECHS Portal', url: 'https://www.echs.gov.in' },
+      { label: 'Official Website', url: 'https://www.echs.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for ECHS Panaji & Sindhudurg recruitment 2026?', answer: 'The last date to submit offline application forms at Station HQ ECHS Cell Panaji is 20 August 2026 by 14:00 hrs.' },
+      { question: 'When and where is the interview scheduled?', answer: 'The interview will be held on 27 August 2026 (09:00 AM) at ECHS Cell, Station HQ Panaji, S V Road, Near Panaji Police Station, Goa.' },
+      { question: 'What is the monthly pay for Dental Officer and Officer in Charge?', answer: 'The fixed remuneration for Dental Officer and Officer in Charge is ₹95,000/- per month.' },
+      { question: 'Are civilian candidates eligible to apply?', answer: 'Yes, both civilians and ex-servicemen can apply, though preference is given to Ex-Servicemen.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee for applying.' }
+    ]
+  },
+  'hpjsv-sunni-para-worker-recruitment-2026': {
+    id: 'hpjsv-sunni-para-worker-recruitment-2026',
+    seoTitle: 'HPJSV Sunni Para Worker Recruitment 2026 (40 Posts) – Apply Offline for Pump Operator, Fitter & MPW',
+    seoDescription: 'Himachal Pradesh Jal Shakti Vibhag (Jal Shakti Division Sunni Shimla) Recruitment 2026: 40 vacancies for Para Pump Operator, Para Fitter & Multipurpose Worker. Check 8th/10th/ITI eligibility, honorarium, selection process & last date (29 August 2026).',
+    focusKeywords: 'HPJSV Sunni Recruitment 2026, Jal Shakti Division Sunni Vacancy, HPJSV Para Worker Sunni Shimla, HP Jal Shakti Vibhag Sunni Recruitment',
+    lsiKeywords: 'HPJSV Sunni Para Pump Operator, HPJSV Sunni Para Fitter, HPJSV Multipurpose Worker Sunni, hpiph.org Sunni application form',
+    title: 'HPJSV Jal Shakti Division Sunni Para Worker Recruitment 2026 (Advt No. 5142-51) – 40 Vacancies',
+    board: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division Sunni, Distt. Shimla',
+    advtNo: 'JSV-DS-CB-EA-II-Para-Engagement/2026:-5142-51 Dated 03.08.2026',
+    vacancies: 40,
+    jobLocation: 'Jal Shakti Division Sunni, District Shimla, Himachal Pradesh',
+    applicationMode: 'Offline (By Hand / Registered Post)',
+    lastUpdated: '04 August 2026',
+    overview: [
+      'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Office of the Executive Engineer, Jal Shakti Division Sunni, District Shimla, has issued notification No. JSV-DS-CB-EA-II-Para-Engagement/2026:-5142-51 dated 03.08.2026.',
+      'Applications on prescribed format are invited from desirous Bonafide Himachali candidates for engagement against 40 posts of various categories on honorarium basis (6 hours per day).',
+      'The positions include 12 Para Pump Operators, 3 Para Fitters, and 25 Multipurpose Workers. Applications complete in all respects must reach the office of Executive Engineer, Jal Shakti Division Sunni between 05 August 2026 and 29 August 2026 by 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division Sunni, Shimla' },
+      { label: 'Post Names', value: 'Para Pump Operator, Para Fitter, Multipurpose Worker (MPW)' },
+      { label: 'Advt / Endorsement No.', value: 'JSV-DS-CB-EA-II-Para-Engagement/2026:-5142-51 Dated 03.08.2026' },
+      { label: 'Total Vacancies', value: '40 Posts (PPO: 12, Fitter: 3, MPW: 25)' },
+      { label: 'Engagement Basis', value: 'Honorarium Basis (6 Hours Per Day)' },
+      { label: 'Monthly Honorarium', value: 'Para Pump Operator & Fitter: ₹7,100/- pm | Multipurpose Worker: ₹6,000/- pm' },
+      { label: 'Eligibility Domicile', value: 'Bonafide Himachali Candidates Only' },
+      { label: 'Age Limit', value: '18 to 45 Years as on 29.08.2026' },
+      { label: 'Application Fee', value: 'Nil (No Application Fee)' },
+      { label: 'Application Receipt Window', value: '05 August 2026 to 29 August 2026 (up to 5:00 PM)' },
+      { label: 'Official Website', value: 'http://www.hpiph.org' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '03.08.2026' },
+      { event: 'Commencement of Offline Application Receipt', date: '05.08.2026' },
+      { event: 'Last Date of Receipt of Offline Application Form', date: '29.08.2026 (by 5:00 PM)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Para Pump Operator', count: '12 Posts (UR: 7, SC: 2, OBC: 2, EWS: 1)' },
+      { category: 'Para Fitter', count: '3 Posts (UR: 3)' },
+      { category: 'Multipurpose Worker (MPW)', count: '25 Posts (UR: 13, SC: 5, ST: 1, OBC: 4, EWS: 2)' },
+      { category: 'Total Vacancies', count: 40 }
+    ],
+    eligibility: {
+      education: [
+        'Para Pump Operator: Matriculation (10th) from a recognized Board + ITI Certificate in Electrician / Wireman / Diesel Mechanic / Pump Mechanic / Motor Vehicle Mechanic / Pump Operation & Maintenance OR 10th Pass with Certificate in above trade under Skill Development Scheme.',
+        'Para Fitter: Matriculation (10th) from a recognized Board + ITI Certificate in Fitter / Plumber OR 10th Pass with Certificate in above trade under Skill Development Scheme.',
+        'Multipurpose Worker (MPW): Middle Pass (8th Pass) or above from a recognized School by H.P. State Government.',
+        'Candidate must compulsory attach detailed marks sheet of Matric / Middle standard from Education Board or Principal.'
+      ],
+      ageLimit: 'Minimum 18 Years and Maximum 45 Years as on 29.08.2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC Candidates', relaxation: 'As per H.P. Govt. rules' }
+      ],
+      experience: [
+        'Bonafide Himachali candidate.',
+        'Experience certificate in JSV / HPPWD / CPWD / PSUs or outsourcing agency providing services in HP Jal Shakti Vibhag (0.5 mark for every completed 6 months, max 2 marks).'
+      ]
+    },
+    salary: {
+      payLevel: 'Monthly Fixed Honorarium (6 Hours Per Day)',
+      initialPay: 'Para Pump Operator: ₹7,100/- pm | Para Fitter: ₹7,100/- pm | Multipurpose Worker: ₹6,000/- pm',
+      allowances: [
+        'Fixed monthly honorarium for 6 hours daily service in Jal Shakti Division Sunni.'
+      ]
+    },
+    applicationFee: [
+      { category: 'All Categories (UR / EWS / OBC / SC / ST)', fee: 'Nil (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Document Evaluation (Out of 10 Marks)', description: 'For Para Pump Operator & Fitter: (1) Matric Marks Percentage = 5 Marks max, (2) BPL Family = 1 Mark, (3) Experience in JSV/HPPWD/CPWD/PSUs = 2 Marks max, (4) Skill & Physical Test = 2 Marks max. For MPW: (1) Middle Standard Marks Percentage = 6 Marks max, (2) Experience = 2 Marks max, (3) Skill & Physical Test = 2 Marks max.' },
+      { stage: 'Stage 2: Skill Test & Physical Test', description: 'Evaluation of practical knowledge of fault repair, pump installation, pipe fitting, and physical capability to carry tools/pipes in hilly areas.' },
+      { stage: 'Stage 3: Final Selection List', description: 'Merit list based on total score out of 10 marks published on notice board.' }
+    ],
+    howToApply: [
+      'Obtain the prescribed application form format from the office of Executive Engineer, Jal Shakti Division Sunni or website www.hpiph.org.',
+      'Fill up the application form with complete details and attach self-attested copies of 10th / 8th marksheet, ITI / Skill Development certificate, Bonafide Himachali certificate, BPL certificate (if applicable), Experience certificate, Category certificate, Proof of Age, and Character Certificate from 1st Class Magistrate.',
+      'Submit the application form by hand or post to "Executive Engineer, Jal Shakti Division Sunni, District Shimla, H.P." positively between 05.08.2026 and 29.08.2026 by 5:00 PM.',
+      'Incomplete applications or applications received after 29.08.2026 (5:00 PM) will be rejected.'
+    ],
+    documentsRequired: [
+      'Matriculation (10th) / Middle (8th) Certificate showing detailed marks obtained',
+      'ITI Certificate / Skill Development Scheme Certificate (for Pump Operator & Fitter)',
+      'Bonafide Himachali Certificate',
+      'BPL Certificate issued by competent authority (not older than 6 months)',
+      'Experience Certificate in JSV / HPPWD / CPWD / PSUs (if applicable)',
+      'Category Certificate (SC/ST/OBC/EWS) issued by competent authority',
+      'Proof of Age Certificate',
+      'Character Certificate issued by 1st Class Magistrate'
+    ],
+    importantInstructions: [
+      'Candidate applying for Para Pump Operator / Para Fitter must attach detailed marksheet of Matric standard.',
+      'Candidate applying for MPW must attach detailed marksheet of Middle standard.',
+      'Candidate should be physically fit without physical disabilities or color blindness to carry tools/pipes in hilly terrain.',
+      'Inquiries can be made at phone number 0177-2786632.'
+    ],
+    urls: [
+      { label: 'Official Website', url: 'http://www.hpiph.org' }
+    ],
+    faqs: [
+      { question: 'What is the last date to submit application for HPJSV Sunni Para Worker 2026?', answer: 'The last date to submit offline application forms at Executive Engineer office Jal Shakti Division Sunni is 29 August 2026 by 5:00 PM.' },
+      { question: 'What are the posts available in HPJSV Sunni recruitment?', answer: 'There are 40 total posts: Para Pump Operator (12 posts), Para Fitter (3 posts), and Multipurpose Worker (25 posts).' },
+      { question: 'What is the monthly honorarium for Para Workers in Jal Shakti Division Sunni?', answer: 'Para Pump Operator and Para Fitter receive ₹7,100/- per month, and Multipurpose Workers receive ₹6,000/- per month for 6 hours daily service.' },
+      { question: 'Is there any application fee?', answer: 'No, there is no application fee for any category.' },
+      { question: 'Who is eligible for these posts?', answer: 'Only Bonafide Himachali candidates aged between 18 and 45 years as on 29.08.2026 fulfilling the educational qualifications (8th/10th/ITI) can apply.' }
+    ]
+  },
   'esic-ludhiana-faculty-senior-resident-tutor-2026': {
     id: 'esic-ludhiana-faculty-senior-resident-tutor-2026',
     seoTitle: 'ESIC Ludhiana Faculty & Senior Resident Recruitment 2026 (102 Posts) – Walk-in Interview on 12 August',

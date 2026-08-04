@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'cutn-guest-faculty-recruitment-2026',
+    b: 'Central University of Tamil Nadu (CUTN), Thiruvarur',
+    t: 'CUTN Guest Faculty Recruitment 2026 (Advt CUTN/GF/01/2026) – 29 Vacancies across 12 Departments | Apply via Email by 07 August 2026',
+    d: '04-08-2026',
+    l: '07-08-2026',
+    a: 'CUTN/GF/01/2026 Dated 31.07.2026',
+    q: 'Master\'s Degree (55%) in relevant subject + NET/CSIR-NET or Ph.D (UGC Regulations 2018)',
+    desc: 'Central University of Tamil Nadu (CUTN), Thiruvarur invites email applications for 29 Guest Faculty positions across 12 departments including Hindi, English, CS, Maths, Geography, Media, Management, Tourism, Chemistry, Social Work, Biotech, and Sanskrit. Honorarium ₹1,500 per lecture up to ₹50,000 per month. Email filled application form with documents to recruitmentteaching@cutn.ac.in on or before 07th August 2026.',
+    u: 'https://cutn.ac.in'
+  },
+  {
+    id: 'ncra-tifr-pune-staff-trainee-recruitment-2026',
+    b: 'National Centre for Radio Astrophysics (NCRA-TIFR), Pune',
+    t: 'NCRA-TIFR Pune Recruitment 2026 (Advt 2026/09) – 22 Vacancies for Project Admin, Technical Assistant, Engineer Trainee, Library & Tradesman Trainees | Apply Online by 31 August 2026',
+    d: '04-08-2026',
+    l: '31-08-2026',
+    a: 'Recruitment Advertisement No. 2026/09',
+    q: 'B.E/B.Tech (ECE/EE), B.Sc (Science/CS/IT), Diploma, B.Lib/M.Lib, Graduation, ITI/NTC/NAC Electrical (Max Age 28-40 Yrs)',
+    desc: 'National Centre for Radio Astrophysics (NCRA) of Tata Institute of Fundamental Research (TIFR), Pune invites online/offline applications for 22 vacancies of Project Administrative Officer, Project Admin Assistant, Project Technical Assistant (Hardware, OMC, SRC), Engineer Trainee (Servo), Library Trainee, Administrative Trainee, and Tradesman Trainee (Electrical). Monthly remuneration up to ₹1,03,400/-. Apply online at tinyurl.com/ncrajob-2026 by 31st August 2026.',
+    u: 'https://tinyurl.com/ncrajob-2026'
+  },
+  {
+    id: 'echs-panaji-sindhudurg-staff-recruitment-2026',
+    b: 'Ex-Servicemen Contributory Health Scheme (ECHS), Station HQ Panaji',
+    t: 'ECHS Panaji & Sindhudurg Staff Recruitment 2026 – 11 Vacancies for Officer in Charge, Dental Officer, Pharmacist, Nursing Asst, Driver & Support Staff | Apply Offline by 20 August 2026',
+    d: '04-08-2026',
+    l: '20-08-2026',
+    a: 'Employment Notice Stn HQ (ECHS Cell) Panaji Dated 04.08.2026',
+    q: 'BDS / B.Pharm / GNM Diploma / Graduation / 8th Pass / Literate + Relevant Experience',
+    desc: 'Station HQ (ECHS Cell) Panaji, Ministry of Defence, Government of India invites offline applications for engagement of 11 Medical, Para Medical, and Non-Medical staff on contractual basis at ECHS Polyclinics in Panaji (Goa) and Sindhudurg (Maharashtra). Posts include Officer in Charge (₹95,000/pm), Dental Officer (₹95,000/pm), Pharmacist (₹36,500/pm), Nursing Assistant (₹36,500/pm), Ambulance Driver (₹25,600/pm), Female Attendant, and Safaiwala (₹21,800/pm). Preference to Ex-Servicemen. Submit offline application to Stn HQ ECHS Cell Panaji by 20th August 2026 (2:00 PM). Interview on 27th August 2026.',
+    u: 'https://www.echs.gov.in'
+  },
+  {
+    id: 'hpjsv-sunni-para-worker-recruitment-2026',
+    b: 'Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division Sunni, Distt. Shimla',
+    t: 'HPJSV Sunni Para Worker Recruitment 2026 (Advt No. 5142-51) – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Workers | Apply Offline by 29 August 2026',
+    d: '04-08-2026',
+    l: '29-08-2026',
+    a: 'No. JSV-DS-CB-EA-II-Para-Engagement/2026:-5142-51 Dated 03.08.2026',
+    q: '8th Pass (MPW) / 10th Pass + ITI in Fitter, Plumber, Electrician, Pump Mechanic, Wireman (Age 18-45 Yrs) + Bonafide Himachali',
+    desc: 'Executive Engineer, Jal Shakti Division Sunni, District Shimla, Himachal Pradesh invites offline applications from Bonafide Himachali candidates for recruitment to 40 Para Worker posts on honorarium basis. Posts include 12 Para Pump Operators (₹7,100/pm), 3 Para Fitters (₹7,100/pm), and 25 Multipurpose Workers (₹6,000/pm). Apply offline by submitting prescribed application form with documents to Executive Engineer office Sunni between 05.08.2026 and 29.08.2026 (5:00 PM).',
+    u: 'http://www.hpiph.org'
+  },
+  {
     id: 'esic-ludhiana-faculty-senior-resident-tutor-2026',
     b: 'ESIC Medical College & Hospital, Ludhiana (Punjab)',
     t: 'ESIC Ludhiana Teaching Faculty & Senior Resident Recruitment 2026 (Advt Z/121/2023-MED ADMN) – 102 Vacancies (Walk-in Interview on 12 August 2026) | Email Documents by 08 August 2026',
