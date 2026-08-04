@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { Link } from 'react-router';
 import { getStatesWithCounts, getBoardsWithCounts } from '../utils/categoryUtils';
 import { GraduationCap, MapPin, Building2, X, ChevronRight, Briefcase } from 'lucide-react';
@@ -77,9 +78,9 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
         </button>
       </div>
 
-      {/* Popup Overlay */}
-      {activePopup && (
-        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4">
+      {/* Popup Overlay using React Portal to render at body root */}
+      {activePopup && createPortal(
+        <div className="fixed inset-0 z-[9999] text-left flex items-end sm:items-center justify-center p-0 sm:p-4">
           {/* Backdrop */}
           <div
             className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity"
@@ -108,21 +109,37 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
             {/* Header */}
             <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100 shrink-0">
               <h3 className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                {activePopup === 'qualification' && <><GraduationCap className="w-5 h-5 text-blue-600" /> Qualifications</>}
-                {activePopup === 'state' && <><MapPin className="w-5 h-5 text-blue-600" /> States</>}
-                {activePopup === 'board' && <><Building2 className="w-5 h-5 text-blue-600" /> Departments / Boards</>}
+                {activePopup === 'qualification' && (
+                  <>
+                    <GraduationCap className="w-5 h-5 text-blue-600" />
+                    <span>Qualifications</span>
+                  </>
+                )}
+                {activePopup === 'state' && (
+                  <>
+                    <MapPin className="w-5 h-5 text-amber-600" />
+                    <span>State Wise Vacancies</span>
+                  </>
+                )}
+                {activePopup === 'board' && (
+                  <>
+                    <Building2 className="w-5 h-5 text-indigo-600" />
+                    <span>Board / Org Wise</span>
+                  </>
+                )}
               </h3>
               <button
                 onClick={closePopup}
-                className="p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full transition-colors"
+                className="p-1 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            {/* Scrollable List */}
-            <div className="overflow-y-auto overflow-x-hidden pb-6 p-3 sm:p-5 flex-1 custom-scrollbar bg-slate-50">
-              <div className="grid gap-2">
+            {/* Scrollable Content */}
+            <div className="overflow-y-auto p-4 flex-1">
+              <div className="space-y-2">
+                {/* Qualification List */}
                 {activePopup === 'qualification' &&
                   qualifications.map((q) => (
                     <Link
@@ -131,7 +148,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                       onClick={closePopup}
                       className="group flex items-center justify-between p-3.5 bg-white border border-slate-100 rounded-xl hover:border-blue-200 hover:shadow-md transition-all relative overflow-hidden"
                     >
-                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 rounded-l-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-l-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex items-center gap-3">
                         <div className="p-2 bg-slate-50 rounded-lg group-hover:bg-blue-50 transition-colors">
                           {q.icon}
@@ -144,6 +161,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                     </Link>
                   ))}
 
+                {/* State List */}
                 {activePopup === 'state' &&
                   statesData.map((s) => (
                     <Link
@@ -155,7 +173,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                       <div className="absolute left-0 top-0 bottom-0 w-1 bg-emerald-500 rounded-l-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex items-center gap-3">
                         <div className="p-2 bg-slate-50 rounded-lg group-hover:bg-emerald-50 transition-colors">
-                          <MapPin className="w-5 h-5 text-emerald-500" />
+                          <MapPin className="w-5 h-5 text-emerald-600" />
                         </div>
                         <span className="font-semibold text-slate-700 group-hover:text-emerald-700 transition-colors">
                           {s.name}
@@ -169,11 +187,12 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                       </div>
                     </Link>
                   ))}
-                  
-                  {activePopup === 'state' && statesData.length === 0 && (
-                     <div className="py-8 text-center text-slate-500 font-medium">No state vacancies currently available.</div>
-                  )}
 
+                 {activePopup === 'state' && statesData.length === 0 && (
+                   <div className="py-8 text-center text-slate-500 font-medium">No state vacancies currently available.</div>
+                 )}
+
+                {/* Board List */}
                 {activePopup === 'board' &&
                   boardsData.map((b) => (
                     <Link
@@ -206,7 +225,8 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
