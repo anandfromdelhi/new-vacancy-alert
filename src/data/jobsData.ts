@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'sidbi-specialist-officer-mira-recruitment-2026',
+    b: 'Small Industries Development Bank of India (SIDBI)',
+    t: 'SIDBI Specialist Officer Recruitment 2026 – Market Intelligence & Research Analyst (MIRA) | Apply by 25 August 2026',
+    d: '05-08-2026',
+    l: '25-08-2026',
+    a: 'Advertisement No. 04/2026-27 (Full-time Contractual Basis)',
+    q: 'Graduate Degree in Economics / Statistics / Maths / Engg / Finance / Data Science + 5 Yrs Exp.',
+    desc: 'Small Industries Development Bank of India (SIDBI) invites applications for engagement of Market Intelligence and Research Analyst (MIRA) as Specialist Officer on contractual basis (3-5 years) in Mumbai. CTC approx ₹20.00 Lakh per annum. Apply via email to recruitment@sidbi.in on or before 25 August 2026.',
+    u: 'https://www.sidbi.in'
+  },
+  {
+    id: 'nhsrcl-technician-recruitment-2026',
+    b: 'National High Speed Rail Corporation Limited (NHSRCL)',
+    t: 'NHSRCL Technician Recruitment 2026 (Vacancy Notice 35/2026 to 49/2026) – 219 Posts (Civil, Electrical, S&T, Rolling Stock) | Apply Online',
+    d: '06-08-2026',
+    l: '30-08-2026',
+    a: 'Vacancy Notice Nos. 35/2026 to 49/2026 (Absorption Basis)',
+    q: '10th Pass + ITI / Apprenticeship in Relevant Trade OR Diploma in Civil/EEE/ECE/Mech/IT + 2 Yrs Exp.',
+    desc: 'National High Speed Rail Corporation Limited (NHSRCL) invites applications for 219 Technician posts across 15 trades (Track Fitter, Electrical, Signalling & Telecom, Rolling Stock, etc.) for Mumbai-Ahmedabad High Speed Rail Project. IDA Pay scale ₹35,000-1,10,000 (NE-2). Selection via CBT, DV, and Medical Exam. Apply online by 30 August 2026.',
+    u: 'https://nhsrcl.in'
+  },
+  {
     id: 'mpesb-group-2-sub-group-4-patwari-recruitment-2026',
     b: 'Madhya Pradesh Employees Selection Board (MPESB / MP ESB), Bhopal',
     t: 'MP ESB Group-2 Sub-Group-4 & Patwari Recruitment Exam 2026 – Apply Online for Group-2 Class III & Patwari Posts | Last Date 18 August 2026',

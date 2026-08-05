@@ -58,6 +58,249 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'sidbi-specialist-officer-mira-recruitment-2026': {
+    id: 'sidbi-specialist-officer-mira-recruitment-2026',
+    seoTitle: 'SIDBI Specialist Officer MIRA Recruitment 2026 – Apply for Market Intelligence Analyst',
+    seoDescription: 'Small Industries Development Bank of India (SIDBI) Specialist Officer Recruitment 2026: Apply for Market Intelligence & Research Analyst (MIRA) post. Remuneration approx ₹20.00 Lakh CTC per annum. Check eligibility, experience & application procedure.',
+    focusKeywords: 'SIDBI Specialist Officer Recruitment 2026, SIDBI MIRA Recruitment 2026, SIDBI Market Intelligence Research Analyst, sidbi.in recruitment email',
+    lsiKeywords: 'Small Industries Development Bank of India Mumbai, SIDBI Contractual Specialist Officer, SIDBI MIRA Salary CTC 20 Lakhs, recruitment@sidbi.in application',
+    title: 'SIDBI Specialist Officer Recruitment 2026 (Market Intelligence & Research Analyst – MIRA)',
+    board: 'Small Industries Development Bank of India (SIDBI) - Principal Financial Institution for MSME',
+    advtNo: 'Advertisement No. 04/2026-27 (Full-time Contractual Basis)',
+    vacancies: 1,
+    jobLocation: 'Mumbai (Head Office / Central Operations)',
+    applicationMode: 'Email Application to recruitment@sidbi.in',
+    applicationStatus: 'Active - Submit Application by 25 August 2026',
+    lastUpdated: '05 August 2026',
+    overview: [
+      'Small Industries Development Bank of India (SIDBI), established under an Act of the Indian Parliament as the Principal Financial Institution for the Promotion, Financing, and Development of the Micro, Small, and Medium Enterprise (MSME) sector, invites applications from eligible candidates for engagement of Specialist Officers on a full-time Contractual Basis.',
+      'The Bank is recruiting for the post of Market Intelligence and Research Analyst (MIRA) (Post Code 01) stationed at Mumbai. The contractual engagement will initially be for a period of three (3) years, subject to an interim review, and is extendable for a further period of up to two (2) years at the Bank\'s sole discretion.',
+      'MIRA will serve as SIDBI\'s dedicated intelligence and research resource, tracking macroeconomic, policy, and sectoral trends to surface actionable opportunity pipelines for MSME growth, digital enablement, climate/ESG, and fintech financing models.',
+      'Selected candidates will receive an indicative Cost to Company (CTC) / remuneration of approximately ₹20.00 Lakh per annum plus Group Insurance, annual increments, and performance-linked variable pay.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: 'Small Industries Development Bank of India (SIDBI)' },
+      { label: 'Advertisement No.', value: 'Advertisement No. 04/2026-27' },
+      { label: 'Post Name', value: 'Market Intelligence and Research Analyst (MIRA) (Post Code 01)' },
+      { label: 'Employment Type', value: 'Full-time Contractual (Initial 3 Years, Extendable up to 5 Years)' },
+      { label: 'Total Vacancy', value: '01 Post (UR / PwBD-VI Horizontal Reservation)' },
+      { label: 'Place of Posting', value: 'Mumbai (with pan-India transferability)' },
+      { label: 'Remuneration / CTC', value: 'Approx ₹20.00 Lakh Per Annum + Group Insurance & Variable Pay' },
+      { label: 'Upper Age Limit', value: 'Max 35 Years (as on July 31, 2026)' },
+      { label: 'Educational Qualification', value: 'Graduate in Economics / Statistics / Maths / Engg / Finance / Data Science / Public Policy' },
+      { label: 'Required Experience', value: 'Minimum 5 Years in Market Intelligence, Sector Research, Strategy, or Analytics' },
+      { label: 'Selection Method', value: 'Shortlisting & Online Personal Interview' },
+      { label: 'Application Last Date', value: '25 August 2026 (via Email)' }
+    ],
+    importantDates: [
+      { event: 'Official Advertisement Release Date', date: '05 August 2026' },
+      { event: 'Cut-off Date for Age & Qualification', date: '31 July 2026' },
+      { event: 'Last Date for Email Submission of Application', date: '25 August 2026' },
+      { event: 'Online Personal Interview Date', date: 'To be informed to shortlisted candidates via email' }
+    ],
+    vacanciesDetails: [
+      { category: 'Market Intelligence and Research Analyst (MIRA) - Unreserved (UR)', count: 1 },
+      { category: 'PwBD (VI - Visually Impaired) Horizontal Reservation', count: 1 }
+    ],
+    eligibility: {
+      education: [
+        'Mandatory Qualification: Graduate degree in Economics, Statistics, Mathematics, Engineering, Commerce, Finance, Data Science, Public Policy or related field from a recognized University/Institute.',
+        'Desirable Qualification: Post-graduate degree/diploma (MBA/PGDM in Strategy/Finance/Analytics, M.Stat, M.Sc in Data/Analytics, MPP/MPA) or professional certifications (CFA, FRM, Data/BI certifications).',
+        'Experience Requirement: Minimum 5 years of post-qualification experience in market intelligence, economic/sector research, strategy, consulting, policy research, analytics or business research roles in Banks, NBFCs, DFIs, rating agencies, think tanks, or consulting firms.',
+        'Hands-on Competencies: Expertise in building insight briefs, leadership presentations, market sizing, competitive benchmarking, and working with data tools (Excel / SQL / Power BI).'
+      ],
+      ageLimit: 'Candidate should not be more than 35 years old as on July 31, 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD', relaxation: 'As per Govt. of India guidelines' }
+      ]
+    },
+    salary: {
+      payLevel: 'Contractual CTC Basis',
+      initialPay: 'Approx ₹20.00 Lakh per annum (Cost to Company)',
+      allowances: 'Group Insurance facilities, provision for annual increment based on performance review, and performance-linked variable pay.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Preliminary Screening & Shortlisting', description: 'Screening of applications based on eligibility criteria, qualifications, experience, and technical competencies.' },
+      { stage: '2. Online Personal Interview', description: 'Online interview before the Selection Committee (100 marks total) to assess candidate suitability, domain knowledge, and communication skills.' },
+      { stage: '3. Final Selection & Medical Fitness', description: 'Final merit list based on scores obtained in interview. Selected candidate must be declared medically fit by Bank Medical Officer.' }
+    ],
+    howToApply: [
+      'Download the official application form from SIDBI website: https://www.sidbi.in/ under Careers section.',
+      'Fill out the application form (in English or Hindi) carefully and paste a recent passport size photograph.',
+      'Sign across the photograph and complete the Curriculum Vitae (CV).',
+      'Attach self-attested copies of proof of identity, age, educational marksheets/certificates, and work experience certificates.',
+      'Send the complete scanned application PDF via email to recruitment@sidbi.in on or before August 25, 2026.',
+      'Mention exact Subject Line: "Application for the post of 01, Market Intelligence and Research Analyst (MIRA) <Candidate Name>".'
+    ],
+    documentsRequired: [
+      'Duly filled & signed Application Form with passport photo',
+      'Updated Curriculum Vitae (CV) signed with date',
+      'Proof of Date of Birth (10th SSLC Marksheet / Birth Certificate)',
+      'Graduation & Post-Graduation Marksheets and Degree Certificates',
+      'Work Experience Certificates from employers (Mandatory - applications without experience certificates will be rejected)',
+      'Category / Caste / PwBD Certificate (if claiming reservation)',
+      'Valid Photo ID Proof (Aadhaar Card, PAN Card, Passport, Voter ID)'
+    ],
+    importantInstructions: [
+      'No hard copy submission by post is required; application must be submitted via email to recruitment@sidbi.in.',
+      'Handwritten applications or unsigned CVs will be summarily rejected.',
+      'Candidate must be a citizen of India.'
+    ],
+    urls: [
+      { label: 'SIDBI Official Website', url: 'https://www.sidbi.in' },
+      { label: 'SIDBI Careers Portal', url: 'https://www.sidbi.in/en/careers' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to submit SIDBI MIRA application?',
+        answer: 'The last date to send your application via email to recruitment@sidbi.in is 25 August 2026.'
+      },
+      {
+        question: 'What is the CTC offered for SIDBI Market Intelligence & Research Analyst?',
+        answer: 'The indicative remuneration / CTC is approximately ₹20.00 Lakh per annum plus Group Insurance, annual performance increments, and variable pay.'
+      },
+      {
+        question: 'Is there any application fee for SIDBI MIRA recruitment?',
+        answer: 'No. Candidates are not required to pay any application fee.'
+      },
+      {
+        question: 'How will the interview be conducted?',
+        answer: 'Shortlisted candidates will be invited for an Online Personal Interview.'
+      }
+    ]
+  },
+
+  'nhsrcl-technician-recruitment-2026': {
+    id: 'nhsrcl-technician-recruitment-2026',
+    seoTitle: 'NHSRCL Technician Recruitment 2026 – Apply Online for 219 Technician Posts',
+    seoDescription: 'National High Speed Rail Corporation Limited (NHSRCL) Technician Recruitment 2026 (Notice 35/2026 to 49/2026): 219 vacancies in Civil, Track, Electrical, S&T & Rolling Stock. Check pay scale ₹35,000-1,10,000, eligibility & apply online.',
+    focusKeywords: 'NHSRCL Technician Recruitment 2026, Bullet Train Technician Vacancy, NHSRCL 219 Posts 2026, nhsrcl.in apply online',
+    lsiKeywords: 'National High Speed Rail Corporation Limited Mumbai Ahmedabad, NHSRCL Technician Pay Scale 35000, NHSRCL Track Fitter Electrical S&T',
+    title: 'NHSRCL Technician Recruitment 2026 (Vacancy Notice Nos. 35/2026 to 49/2026) – 219 Vacancies',
+    board: 'National High Speed Rail Corporation Limited (NHSRCL) - Govt. of India Joint Sector Enterprise',
+    advtNo: 'Vacancy Notice Nos. 35/2026 to 49/2026 (Absorption Basis)',
+    vacancies: 219,
+    jobLocation: 'Anywhere in NHSRCL / MAHSR Project (Mumbai - Ahmedabad High Speed Rail Corridor)',
+    applicationMode: 'Online via nhsrcl.in',
+    applicationStatus: 'Active - Apply Online by 30 August 2026',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'National High Speed Rail Corporation Limited (NHSRCL), a Joint Sector Company of Government of India and participating State Governments formed for the implementation of India\'s first High Speed Train Corridor Project (Mumbai-Ahmedabad Bullet Train), invites applications for 219 Technician posts.',
+      'The recruitment is being conducted on Absorption Basis in IDA Pay Scale of ₹35,000 - 1,10,000 (NE-2 Cadre) for regular and contractual employees working in Operations & Maintenance departments of Indian Railways, Govt-owned/operated Railways, Metro Railways, or RRTS systems.',
+      'Vacancies are spread across 15 technical disciplines: Civil/Track (Fitter, Mechanic, Draughtsman, Surveyor, Electrician, Welder, Plumber, Painter), Electrical, Signalling & Telecom (S&T), and Rolling Stock (Fitter, Machinist, Welder, Electrician, RAC).',
+      'Selection will be conducted through a Computer Based Test (CBT), Document Verification, and Medical Examination in Bee-one (B-1) medical standard.'
+    ],
+    highlights: [
+      { label: 'Recruiting Enterprise', value: 'National High Speed Rail Corporation Limited (NHSRCL)' },
+      { label: 'Project Name', value: 'Mumbai-Ahmedabad High Speed Rail (MAHSR) Bullet Train Project' },
+      { label: 'Vacancy Notice Numbers', value: 'Vacancy Notice Nos. 35/2026 to 49/2026' },
+      { label: 'Total Vacancies', value: '219 Posts across 15 Technician Trades' },
+      { label: 'Pay Scale', value: 'IDA Pay Scale ₹35,000 - 1,10,000/- (NE-2 Level) + DA, HRA & Perks' },
+      { label: 'Educational Qualification', value: '10th SSLC + ITI / Act Apprenticeship OR 3-Year Diploma in Engg' },
+      { label: 'Mandatory Work Experience', value: 'Minimum 2 Years post-qualification experience in O&M in Railways/Metro/RRTS' },
+      { label: 'Upper Age Limit', value: 'Maximum 35 Years (reckoned as on 30th June 2026)' },
+      { label: 'Application Fee', value: '₹400 for UR / EWS / OBC; ₹0/- for SC / ST / Women' },
+      { label: 'Selection Mode', value: 'Computer Based Test (CBT) + Document Verification + Medical Exam' },
+      { label: 'Medical Standard', value: 'Bee-One (B-1) Standard as per Railway Medical Manual' },
+      { label: 'Service Surety Bond', value: '₹3,00,000/- Bond for 4 Years minimum service' }
+    ],
+    importantDates: [
+      { event: 'Cut-off Date for Age & Experience', date: '30 June 2026' },
+      { event: 'Online Application Start Date', date: '06 August 2026' },
+      { event: 'Online Application Last Date', date: '30 August 2026' },
+      { event: 'Computer Based Test (CBT) Date', date: 'To be announced on nhsrcl.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Technician (Civil/Track Fitter) - Notice 35/2026', count: 18 },
+      { category: 'Technician (Civil/Track Mechanic) - Notice 36/2026', count: 16 },
+      { category: 'Technician (Civil/Track Draughtsman) - Notice 37/2026', count: 8 },
+      { category: 'Technician (Civil/Track Surveyor) - Notice 38/2026', count: 7 },
+      { category: 'Technician (Civil/Track Electrician) - Notice 39/2026', count: 8 },
+      { category: 'Technician (Civil/Track Welder) - Notice 40/2026', count: 6 },
+      { category: 'Technician (Civil-Plumber) - Notice 41/2026', count: 2 },
+      { category: 'Technician (Civil-Painter) - Notice 42/2026', count: 2 },
+      { category: 'Technician (Electrical) - Notice 43/2026', count: 77 },
+      { category: 'Technician (Signalling & Telecom) - Notice 44/2026', count: 63 },
+      { category: 'Technician (Rolling Stock Fitter) - Notice 45/2026', count: 10 },
+      { category: 'Technician (Rolling Stock Machinist) - Notice 46/2026', count: 2 },
+      { category: 'Technician (Rolling Stock Welder) - Notice 47/2026', count: 2 },
+      { category: 'Technician (Rolling Stock Electrician) - Notice 48/2026', count: 13 },
+      { category: 'Technician (Rolling Stock RAC) - Notice 49/2026', count: 3 },
+      { category: 'Total Technician Vacancies', count: 219 }
+    ],
+    eligibility: {
+      education: [
+        'Essential Qualification: Matriculation / SSLC plus ITI in relevant trade from NCVT/SCVT OR Matriculation plus Course Completed Act Apprenticeship OR 3-year Diploma in Engineering (Civil, Electrical, Electronics, Mechanical, S&T, IT) from a recognized University/Institute.',
+        'Mandatory Experience: Minimum 02 years of post-qualification experience in relevant field within Operations & Maintenance (O&M) departments of Indian Railways, Govt-owned/operated Railways, Metro Railways, or RRTS systems.',
+        'Higher Qualification Note: Candidates having BE/B.Tech without ITI/Diploma are NOT eligible for Technician posts.'
+      ],
+      ageLimit: 'Maximum Age: 35 years as on 30th June 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD / Ex-Servicemen', relaxation: 'As per Govt. of India rules' }
+      ]
+    },
+    salary: {
+      payLevel: 'IDA Pay Scale NE-2 Cadre',
+      initialPay: '₹35,000 - 1,10,000/-',
+      allowances: 'Perks, HRA, Medical Benefits, EPF, Gratuity, and IDA allowances as per NHSRCL rules.'
+    },
+    applicationFee: [
+      { category: 'UR / EWS / OBC Candidates', fee: '₹400/- (plus transaction charges)', refund: 'N/A' },
+      { category: 'SC / ST / Women Candidates', fee: '₹0/- (Exempted)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Computer Based Test (CBT)', description: 'Online CBT covering technical domain knowledge and general aptitude.' },
+      { stage: '2. Document Verification', description: 'Verification of original certificates, work experience certificates, and NOC from current employer.' },
+      { stage: '3. Medical Examination', description: 'Medical examination in Bee-one (B-1) standard as per Indian Railway Medical Manual (IRMM).' }
+    ],
+    howToApply: [
+      'Visit official NHSRCL website: https://nhsrcl.in/ under Careers section.',
+      'Click on Vacancy Notice Nos. 35/2026 to 49/2026 Apply Online link.',
+      'Select the specific post code you wish to apply for (candidates can apply for only one post).',
+      'Fill in personal details, educational qualifications, and details of 2+ years Railway/Metro experience.',
+      'Pay application fee of ₹400 (if applicable) via online payment gateway.',
+      'Submit the online application form and take a printout for future reference.'
+    ],
+    documentsRequired: [
+      'Printed Online Application Form',
+      'Proof of Date of Birth (10th SSLC Marksheet)',
+      'ITI Certificate / Course Completed Act Apprenticeship Certificate / Diploma Certificate',
+      'Experience Certificate / Competency Certificate clearly stating 2+ years O&M Railways/Metro experience',
+      'NOC from current employer (if serving in Govt/PSU/Railways)',
+      'Caste / EWS / Disability Certificate (if applicable)',
+      'Valid Photo ID Proof (Aadhaar, Voter ID, Driving Licence, Passport)'
+    ],
+    importantInstructions: [
+      'Selected candidates must execute a Surety Bond of ₹3,00,000/- to serve the corporation for a minimum period of 4 years.',
+      'Candidates can apply for only one post code among 35/2026 to 49/2026.',
+      'BE/BTech candidates without ITI/Diploma are not eligible.'
+    ],
+    urls: [
+      { label: 'NHSRCL Official Website', url: 'https://nhsrcl.in' },
+      { label: 'NHSRCL Careers Portal', url: 'https://nhsrcl.in/en/careers' }
+    ],
+    faqs: [
+      {
+        question: 'What is the total number of vacancies in NHSRCL Technician Recruitment 2026?',
+        answer: 'There are 219 Technician vacancies across 15 trades including Electrical (77), S&T (63), Track Fitter (18), and Rolling Stock.'
+      },
+      {
+        question: 'What is the pay scale for NHSRCL Technicians?',
+        answer: 'Technicians will be placed in the IDA Pay Scale of ₹35,000 - 1,10,000 (NE-2 Cadre).'
+      },
+      {
+        question: 'Is Railway/Metro experience mandatory for NHSRCL Technician posts?',
+        answer: 'Yes. Candidates must have a minimum of 2 years post-qualification experience in O&M departments of Indian Railways, Metro Railways, or RRTS.'
+      },
+      {
+        question: 'What is the application fee for NHSRCL Technician exam?',
+        answer: 'The application fee is ₹400 for UR/EWS/OBC candidates. SC, ST, and Women candidates are exempted from fee.'
+      }
+    ]
+  },
   'mpesb-group-2-sub-group-4-patwari-recruitment-2026': {
     id: 'mpesb-group-2-sub-group-4-patwari-recruitment-2026',
     seoTitle: 'MP ESB Group-2 Sub-Group-4 Recruitment 2026 – Apply Online for Patwari & Class-3 Posts',
