@@ -1132,6 +1132,145 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {/* Custom NLCIL Apprentice Category & Slot Breakdown Section */}
+          {id === 'nlcil-apprentice-recruitment-2026' && (
+            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 sm:p-6 md:p-8 space-y-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="bg-blue-100 text-blue-800 font-black text-[10px] sm:text-xs uppercase px-2.5 py-1 rounded-lg tracking-wider">
+                    Detailed Slot & Stipend Breakdown
+                  </span>
+                  <h3 className="text-base sm:text-xl font-black text-slate-900 mt-1">
+                    NLCIL Apprentice Vacancies & Category Allocation
+                  </h3>
+                </div>
+                <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-extrabold text-xs px-3 py-1.5 rounded-xl">
+                  1,235 Total Slots
+                </span>
+              </div>
+
+              {/* Large Screen View: Comprehensive Category Table */}
+              <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-xs">
+                <table className="w-full text-left border-collapse min-w-[650px]">
+                  <thead>
+                    <tr className="bg-slate-800 text-white text-xs font-black uppercase tracking-wider">
+                      <th className="py-3.5 px-4">Apprentice Category</th>
+                      <th className="py-3.5 px-4 text-center">PAP Wards (L&DC/02/2026)</th>
+                      <th className="py-3.5 px-4 text-center">Employee Wards (L&DC/03/2026)</th>
+                      <th className="py-3.5 px-4 text-center">Contract Wards (L&DC/03/2026)</th>
+                      <th className="py-3.5 px-4 text-right">Monthly Stipend</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 text-xs font-bold text-slate-700">
+                    <tr className="hover:bg-blue-50/40">
+                      <td className="py-3 px-4">
+                        <div className="font-extrabold text-slate-900">1. Trade Apprentices (ITI)</div>
+                        <div className="text-[11px] text-slate-500 font-medium">Fitter, Turner, Electrician, Motor Mech, Wireman, Diesel Mech, Steno, Welder, COPA, RAC</div>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-black border border-blue-200">352 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-purple-50 text-purple-800 px-2.5 py-1 rounded-lg font-black border border-purple-200">72 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-amber-50 text-amber-800 px-2.5 py-1 rounded-lg font-black border border-amber-200">72 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-right font-black text-emerald-700">
+                        ₹12,000/- pm
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/40">
+                      <td className="py-3 px-4">
+                        <div className="font-extrabold text-slate-900">2. Non-Engineering Graduate</div>
+                        <div className="text-[11px] text-slate-500 font-medium">B.Com, B.Sc (CS, Geology, Chem, Microbio), BCA, BBA, Nursing, B.Pharm</div>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-black border border-blue-200">221 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-purple-50 text-purple-800 px-2.5 py-1 rounded-lg font-black border border-purple-200">46 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-amber-50 text-amber-800 px-2.5 py-1 rounded-lg font-black border border-amber-200">46 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-right font-black text-emerald-700">
+                        ₹12,524/- to ₹15,028/- pm
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/40">
+                      <td className="py-3 px-4">
+                        <div className="font-extrabold text-slate-900">3. Engineering Graduate (B.E/B.Tech)</div>
+                        <div className="text-[11px] text-slate-500 font-medium">Mechanical, EEE, Civil, Instrumentation, Chemical, Mining, CSE, IT, ECE</div>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-black border border-blue-200">214 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-purple-50 text-purple-800 px-2.5 py-1 rounded-lg font-black border border-purple-200">44 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-amber-50 text-amber-800 px-2.5 py-1 rounded-lg font-black border border-amber-200">44 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-right font-black text-emerald-700">
+                        ₹15,028/- pm
+                      </td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/40">
+                      <td className="py-3 px-4">
+                        <div className="font-extrabold text-slate-900">4. Technician Diploma</div>
+                        <div className="text-[11px] text-slate-500 font-medium">Mechanical, EEE, Civil, Instrumentation, Mining, CSE, ECE, Pharmacist</div>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-black border border-blue-200">88 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-purple-50 text-purple-800 px-2.5 py-1 rounded-lg font-black border border-purple-200">18 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <span className="bg-amber-50 text-amber-800 px-2.5 py-1 rounded-lg font-black border border-amber-200">18 Slots</span>
+                      </td>
+                      <td className="py-3 px-4 text-right font-black text-emerald-700">
+                        ₹12,524/- pm
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr className="bg-slate-100 font-black text-xs text-slate-900">
+                      <td className="py-3 px-4">Total Training Slots</td>
+                      <td className="py-3 px-4 text-center text-blue-900">875 Slots</td>
+                      <td className="py-3 px-4 text-center text-purple-900">180 Slots</td>
+                      <td className="py-3 px-4 text-center text-amber-900">180 Slots</td>
+                      <td className="py-3 px-4 text-right text-emerald-800">1,235 Total Slots</td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+
+              {/* Special Guidance & Eligibility Rules Alert Box */}
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-300/80 rounded-2xl p-4 sm:p-6 space-y-3">
+                <div className="flex items-center gap-2 text-amber-900 font-black text-sm sm:text-base">
+                  <AlertTriangle className="h-5 w-5 text-amber-600 shrink-0" />
+                  <span>Important Project Notice: State Domicile & Discipline Rules</span>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-semibold text-slate-700">
+                  <div className="bg-white/80 p-3.5 rounded-xl border border-amber-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">📌 Barsingsar Project (Rajasthan) vs Neyveli (Tamil Nadu):</p>
+                    <p className="leading-relaxed">
+                      NLCIL Barsingsar Project recruitment is strictly restricted to Rajasthan domicile candidates. For Neyveli notifications (L&DC/02/2026 & L&DC/03/2026), eligibility is reserved for Neyveli PAPs and NLCIL employee/contract wards.
+                    </p>
+                  </div>
+                  <div className="bg-white/80 p-3.5 rounded-xl border border-amber-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">💻 CS / IT / BCA / MCA Eligibility Rules:</p>
+                    <p className="leading-relaxed">
+                      CSE & IT graduates/diploma holders and BCA graduates ARE eligible under Neyveli notices. MCA is NOT eligible. In project notices where CS/IT or BCA are omitted (e.g. Barsingsar), those candidates cannot apply.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Eligibility Criteria */}
           {hasEligibility && (
             <section 

@@ -11752,98 +11752,163 @@ export const jobDetailsData: Record<string, JobDetail> = {
 
   'nlcil-apprentice-recruitment-2026': {
     id: 'nlcil-apprentice-recruitment-2026',
-    seoTitle: 'NLCIL Apprentice Recruitment 2026 - 1235 ITI, Diploma, Graduate Vacancies',
-    seoDescription: 'NLC India Limited (NLCIL) invites online applications for 1235 Trade ITI, Engineering Graduate, Diploma, and Non-Engineering Graduate Apprentice posts under Advt L&DC/02/2026 & L&DC/03/2026. Apply by 11th August 2026.',
-    focusKeywords: 'NLCIL Apprentice Recruitment 2026, NLC India Limited Apprentice Vacancy, NLC Neyveli Trade Apprentice, NLC Graduate Apprentice',
-    lsiKeywords: 'NLCIL PAP apprentice application 2026, NLCIL employee wards apprentice, NLC Neyveli stipend 15028, nlcindia in careers apply online',
-    title: 'NLCIL Neyveli Apprentice Recruitment 2026 (ITI, Diploma, Engineering & Non-Engineering Graduates) – 1235 Posts',
-    board: 'NLC India Limited (NLCIL) - A Navratna Govt. of India Enterprise',
-    advtNo: 'Advt. No. L&DC/02/2026 (PAPs) & L&DC/03/2026 (NLCIL Wards/Spouses)',
+    seoTitle: 'NLCIL Apprentice Recruitment 2026 – 1235 Posts | Apply Online for ITI, Diploma & Graduate',
+    seoDescription: 'NLC India Limited (NLCIL) Apprentice Recruitment 2026 (Advt L&DC/02/2026 & L&DC/03/2026): 1235 vacancies for ITI Trade, Diploma, Engineering & Non-Engineering Graduates. Check stipend, PAP & employee ward rules, trade breakdown, FAQs & apply online at nlcindia.in by 11 August 2026.',
+    focusKeywords: 'NLCIL Apprentice Recruitment 2026, NLC India Limited Apprentice Vacancy, NLC Neyveli Trade Apprentice, NLC Graduate Apprentice, nlcindia.in careers apply online',
+    lsiKeywords: 'NLCIL PAP apprentice application 2026, NLCIL employee wards apprentice, NLC Neyveli stipend 15028, NLCIL Barsingsar Rajasthan apprentice eligibility, NLC apprentice hard copy submission',
+    title: 'NLC India Limited (NLCIL) Apprentice Recruitment 2026 (Advt No. L&DC/02/2026 & L&DC/03/2026) – 1235 Vacancies',
+    board: 'NLC India Limited (NLCIL) - A Navratna Govt. of India Public Sector Enterprise (Ministry of Coal)',
+    advtNo: 'Advt. No. L&DC/02/2026 (PAP Wards) & Advt. No. L&DC/03/2026 (NLCIL Employee & Contract Wards)',
     vacancies: 1235,
-    jobLocation: 'Neyveli, Cuddalore District (Tamil Nadu)',
-    applicationMode: 'Online',
-    applicationStatus: 'Active - Apply Online by 11.08.2026',
-    lastUpdated: 'July 29, 2026',
+    jobLocation: 'Neyveli Projects (Cuddalore District, Tamil Nadu) / Barsingsar Project (Rajasthan)',
+    applicationMode: 'Online Registration via nlcindia.in (Scanned Uploads for Neyveli / Hard Copy Submission for Barsingsar)',
+    applicationStatus: 'Active - Apply Online by 11 August 2026 (5:00 PM)',
+    lastUpdated: '05 August 2026',
     overview: [
-      'NLC India Limited (NLCIL), a Navratna Public Sector Enterprise under the Ministry of Coal, invites online applications for 1-year Apprenticeship Training for the year 2026-27 under the Apprentices Act, 1961.',
-      'A total of 1235 apprenticeship training slots are advertised across two distinct notifications: Advt No. L&DC/02/2026 (875 slots for Project Affected Persons - PAPs) and Advt No. L&DC/03/2026 (360 slots for Wards & Spouses of NLCIL In-Service, Retired, Deceased Employees and Contract Workmen).',
-      'Disciplines include Trade (ITI), Engineering Graduates (B.E/B.Tech), Technician Diploma Holders, and Non-Engineering Graduates (B.Com, B.Sc, BCA, BBA, B.Pharm, B.Sc Nursing).',
-      'Selection is strictly based on academic percentage of marks in the qualifying examination.'
+      'NLC India Limited (NLCIL), a premier "Navratna" Public Sector Enterprise under the Ministry of Coal, Government of India, invites online applications for 1-year Apprenticeship Training for the year 2026-27 under the Apprentices Act, 1961.',
+      'A total of 1,235 apprenticeship training slots are announced across two major official notifications: Advt. No. L&DC/02/2026 (875 slots for Wards of NLCIL Project Affected Persons - PAPs whose house or land was acquired after 01.07.1989 for Neyveli Projects) and Advt. No. L&DC/03/2026 (360 slots equally shared between Wards/Spouses of In-Service, Retired, Deceased NLCIL Employees and Wards of NLCIL Contract Workmen engaged through Indcoserve, Howsicos, AMC/BMC).',
+      'The engagement covers 4 major categories: Trade (ITI - 496 Total Slots), Non-Engineering Graduates (B.Com, B.Sc, BCA, BBA, B.Pharm, B.Sc Nursing - 313 Total Slots), Engineering Graduates (B.E/B.Tech - 302 Total Slots), and Technician Diploma Holders (124 Total Slots). Monthly stipend ranges from ₹12,000/- to ₹15,028/- per month (with Govt. Direct Benefit Transfer - DBT scheme where applicable).',
+      'Selection is 100% merit-based on the percentage of marks obtained in the qualifying ITI, Diploma, or Degree examination. There is NO written examination and NO interview.'
     ],
-    highlights: [],
+    highlights: [
+      { label: 'Recruiting Enterprise', value: 'NLC India Limited (NLCIL) - A Navratna Govt. of India Public Sector Enterprise (Ministry of Coal)' },
+      { label: 'Notification Numbers', value: 'Advt. No. L&DC/02/2026 (PAPs) & Advt. No. L&DC/03/2026 (NLCIL Employees & Contract Wards)' },
+      { label: 'Total Training Slots', value: '1,235 Slots (875 PAP Wards + 360 NLCIL Employee & Contract Wards/Spouses)' },
+      { label: 'Apprentice Categories', value: 'Trade (ITI), Engineering Graduate, Non-Engineering Graduate, Technician (Diploma)' },
+      { label: 'Monthly Stipend Range', value: '₹12,000/- to ₹15,028/- per month (with Govt DBT benefit where applicable)' },
+      { label: 'Training Period', value: '1 Year (12 Months) under the Apprentices Act, 1961' },
+      { label: 'Minimum Age', value: 'Completed 18 Years as per Apprenticeship Act 1961 sec 3 (a)' },
+      { label: 'Selection Scheme', value: 'Purely Academic Marks Merit List (No Written Exam & No Interview)' },
+      { label: 'Online Registration Start', value: '29 July 2026 (10:00 AM)' },
+      { label: 'Land Dept PAP Doc Submission', value: '07 August 2026 (to obtain PAP Certificate)' },
+      { label: 'Online Registration Closing', value: '11 August 2026 (05:00 PM)' },
+      { label: 'Display of Selected List', value: '24 August 2026 (Tentative)' },
+      { label: 'Joining Date for Training', value: '26 August 2026 (Tentative)' }
+    ],
     importantDates: [
       { event: 'Opening of Online Registration of Applications', date: '29-07-2026 (10:00 AM)' },
-      { event: 'Last Date to Submit Documents at Land Dept (for PAP Certificate)', date: '07-08-2026' },
-      { event: 'Closing of Online Application Registration', date: '11-08-2026 (05:00 PM)' },
+      { event: 'Last Date to Submit Documents at Land Dept (to obtain PAP Certificate)', date: '07-08-2026' },
+      { event: 'Closing of Online Registration of Applications', date: '11-08-2026 (05:00 PM)' },
       { event: 'Tentative Date of Display of Selected Candidates', date: '24-08-2026' },
       { event: 'Tentative Date of Joining for Apprenticeship Training', date: '26-08-2026' }
     ],
     vacanciesDetails: [
-      { category: 'Trade Apprentices (ITI) - PAP Wards (L&DC/02/2026)', count: 352 },
-      { category: 'Non-Engineering Graduate Apprentices - PAP Wards (L&DC/02/2026)', count: 221 },
-      { category: 'Engineering Graduate Apprentices - PAP Wards (L&DC/02/2026)', count: 214 },
-      { category: 'Technician Diploma Apprentices - PAP Wards (L&DC/02/2026)', count: 88 },
-      { category: 'Trade Apprentices (ITI) - NLCIL Employee Wards (L&DC/03/2026)', count: 72 },
-      { category: 'Trade Apprentices (ITI) - Contract Workmen Wards (L&DC/03/2026)', count: 72 },
-      { category: 'Non-Engineering Graduate Apprentices - NLCIL Employee Wards (L&DC/03/2026)', count: 46 },
-      { category: 'Non-Engineering Graduate Apprentices - Contract Wards (L&DC/03/2026)', count: 46 },
-      { category: 'Engineering Graduate Apprentices - NLCIL Employee Wards (L&DC/03/2026)', count: 44 },
-      { category: 'Engineering Graduate Apprentices - Contract Wards (L&DC/03/2026)', count: 44 },
-      { category: 'Technician Diploma Apprentices - NLCIL Employee Wards (L&DC/03/2026)', count: 18 },
-      { category: 'Technician Diploma Apprentices - Contract Wards (L&DC/03/2026)', count: 18 }
+      { category: 'Trade Apprentices (ITI) - PAP Wards (L&DC/02/2026)', count: '352 Slots (Fitter 63, Turner 23, Motor Mech 60, Electrician 55, Wireman 3, Diesel Mech 63, Steno 55, Welder 10, COPA 15, RAC 5)' },
+      { category: 'Non-Engineering Graduate Apprentices - PAP Wards (L&DC/02/2026)', count: '221 Slots (B.Com 50, B.Sc CS 50, BCA 30, BBA 38, Geology 8, Chemistry 14, Microbiology 5, Nursing 20, B.Pharm Allopathy 5, B.Pharm Ayurveda 1)' },
+      { category: 'Engineering Graduate Apprentices - PAP Wards (L&DC/02/2026)', count: '214 Slots (Mechanical 45, EEE 45, Civil 15, Instrumentation 8, Chemical 10, Mining 25, CSE 38, IT 13, ECE 15)' },
+      { category: 'Technician Diploma Apprentices - PAP Wards (L&DC/02/2026)', count: '88 Slots (Mechanical 25, EEE 25, Civil 5, Instrumentation 5, Mining 15, CSE 5, ECE 5, Pharmacist 3)' },
+      { category: 'Trade Apprentices (ITI) - Employee & Contract Wards (L&DC/03/2026)', count: '144 Slots (72 NLCIL Employee Wards/Spouses + 72 Contract Workmen Wards)' },
+      { category: 'Non-Engineering Graduate Apprentices - Employee & Contract Wards (L&DC/03/2026)', count: '92 Slots (46 NLCIL Employee Wards/Spouses + 46 Contract Workmen Wards)' },
+      { category: 'Engineering Graduate Apprentices - Employee & Contract Wards (L&DC/03/2026)', count: '88 Slots (44 NLCIL Employee Wards/Spouses + 44 Contract Workmen Wards)' },
+      { category: 'Technician Diploma Apprentices - Employee & Contract Wards (L&DC/03/2026)', count: '36 Slots (18 NLCIL Employee Wards/Spouses + 18 Contract Workmen Wards)' },
+      { category: 'Total NLCIL Apprenticeship Vacancies', count: '1,235 Slots across 4 Categories' }
     ],
     eligibility: {
       education: [
-        'Trade (ITI) Apprentice: Passed ITI under Craftsman Training Scheme in the relevant trade (Fitter, Turner, Motor Mechanic, Electrician, Wireman, Diesel Mechanic, Steno, Welder, COPA, RAC) from a recognized institute.',
-        'Engineering Graduate Apprentice: Regular full-time B.E. / B.Tech degree in Mechanical, EEE, Civil, Instrumentation, Chemical, Mining, CSE, IT, or ECE from a recognized University.',
-        'Technician Diploma Apprentice: Regular full-time Diploma in Mechanical, EEE, Civil, Instrumentation, Mining, CSE, ECE, or Pharmacy from a recognized board/university.',
-        'Non-Engineering Graduate Apprentice: Regular full-time B.Com, B.Sc (CS, Geology, Chemistry, Microbiology, Nursing), BCA, BBA, B.Pharm (Allopathy/Ayurveda) from a UGC-approved university.',
-        'Year of Passing Requirement: Engineering, Diploma, and Non-Engineering Graduate candidates must have passed qualifying examination in 2022, 2023, 2024, 2025, or 2026 (Year of passing not applicable for ITI).',
-        'Special Target Group Eligibility: Must be a Ward of NLCIL Project Affected Persons (PAP whose land/house was acquired after 01.07.1989) OR Ward/Spouse of NLCIL In-service, Retired, Deceased Employee or Contract Workman (INDCOSERVE, HOWSICOS, AMC/BMC).'
+        '1. Trade (ITI) Apprentice: Passed ITI in the relevant trade (Fitter, Turner, Motor Mechanic, Electrician, Wireman, Diesel Mechanic, Stenographer, Welder, COPA, RAC) from a recognized institute under Craftsman Training Scheme. Year of passing restriction does NOT apply to ITI candidates.',
+        '2. Engineering Graduate Apprentice: Regular full-time B.E. / B.Tech degree in Mechanical, Electrical & Electronics, Civil, Instrumentation, Chemical, Mining, Computer Science & Engineering, Information Technology, or Electronics & Communication from a recognized University/Institution. Must have passed in 2022, 2023, 2024, 2025, or 2026.',
+        '3. Technician (Diploma) Apprentice: Regular full-time Diploma in Engineering/Technology in Mechanical, EEE, Civil, Instrumentation, Mining, CSE, ECE, or Pharmacy from a recognized board/university. Must have passed in 2022, 2023, 2024, 2025, or 2026.',
+        '4. Non-Engineering Graduate Apprentice: Regular full-time Bachelor\'s degree in Commerce (B.Com), B.Sc Computer Science, BCA, BBA, B.Sc Geology, B.Sc Chemistry, B.Sc Microbiology, B.Sc Nursing, B.Pharm (Allopathy), or B.Pharm (Ayurveda) from a UGC-approved university. Must have passed in 2022, 2023, 2024, 2025, or 2026.',
+        '5. Candidate Target Category: Candidate MUST be either (A) Ward of an NLCIL Project Affected Persons (PAP whose house/land was acquired after 01.07.1989 for Neyveli Projects), OR (B) Ward / Spouse of serving, retired, or deceased NLCIL Employee, OR (C) Ward of NLCIL Contract Workman (INDCOSERVE, HOWSICOS, AMC/BMC on rolls).',
+        '6. Prior Experience / Apprenticeship Bar: Candidates who have previously undergone or are currently undergoing apprenticeship training at NLCIL or elsewhere, or possess 1 year or more of work experience, are NOT eligible.'
       ],
-      ageLimit: 'Minimum Age: Completed 18 years as on date of application as per Apprenticeship Act 1961.',
+      ageLimit: 'Completed 18 years of age as per Section 3 (a) of the Apprenticeship Act, 1961. Maximum age relaxation and reservation for SC/ST/OBC-NCL/EWS/PwBD applies as per Government of India rules.',
       ageRelaxation: [
-        { category: 'SC / ST / OBC / EWS / PwBD', relaxation: 'Reservation as per Apprenticeship Rules' }
+        { category: 'SC / ST / OBC-NCL / EWS / PwBD', relaxation: 'Reservation provided as per Apprentices Act & Govt. Rules' }
       ]
     },
     salary: {
-      payLevel: 'Monthly Stipend (as per Apprenticeship Rules)',
-      initialPay: 'Engineering & Nursing/Pharm Graduates: Rs. 15,028/- pm | Non-Engineering & Diploma: Rs. 12,524/- pm | ITI: Rs. 12,000/- pm'
+      payLevel: 'Monthly Stipend as per Apprenticeship Act 1961 & NLCIL Guidelines',
+      initialPay: 'Engineering Graduate & B.Sc Nursing / B.Pharm: ₹15,028/- pm (includes ₹4,500/- Govt DBT) | Non-Engineering Graduate & Diploma: ₹12,524/- pm (includes ₹4,000-₹4,500 Govt DBT) | ITI Trade: ₹12,000/- pm',
+      allowances: '1 Year (12 Months) fixed apprenticeship training period. Direct Benefit Transfer (DBT) scheme stipend component paid directly by Government of India.'
     },
     applicationFee: [
-      { category: 'All Candidates', fee: 'No Application Fee', refund: 'NA' }
+      { category: 'All Candidates (PAP / Employee / Contract Wards)', fee: '₹0/- (No Application Fee)', refund: 'N/A' }
     ],
     selectionProcess: [
-      { stage: 'Academic Merit Shortlisting', description: 'Selection for ITI Apprentices will be based on ITI percentage of marks. For Degree/Diploma apprentices, selection will be based on final aggregate percentage of marks in the qualifying degree/diploma examination.' },
-      { stage: 'Document Verification', description: 'Verification of original marksheets, transfer certificate, community certificate, and PAP / NLCIL Employee / Contract Workman certificate.' }
+      { stage: '1. Trade (ITI) Selection Scheme', description: 'Selection of ITI Trade Apprentices will be based strictly on the percentage of marks obtained in the qualifying ITI examination.' },
+      { stage: '2. Graduate & Diploma Selection Scheme', description: 'Selection of Engineering, Non-Engineering, and Diploma Apprentices will be based on aggregate percentage of marks in the Bachelor Degree or Diploma final qualifying examination.' },
+      { stage: '3. CGPA / OGPA Conversion Rules', description: 'If awarded Grades/CGPA, percentage is calculated by multiplying CGPA by 10 (or as per University conversion certificate). For semester-wise/year-wise marks without standard scheme, average percentage of all semesters/years from 2nd year onwards (or 1st year for Non-Engg) will be calculated.' },
+      { stage: '4. Document Verification & Joining', description: 'Selected candidates will undergo original document verification (marksheets, TC, community certificate, PAP certificate / Employee ID / Contract Form) before joining training.' }
     ],
     howToApply: [
-      'Step 1: Visit the official website of NLC India Limited at www.nlcindia.in.',
-      'Step 2: Navigate to Careers -> Trainees & Apprentices.',
-      'Step 3: Click on "Apply Online (Trade / Graduate / Technician Apprentice)" under Advertisement No. L&DC/02/2026 or L&DC/03/2026.',
-      'Step 4: Register and fill out the online application form with personal, educational, and category details.',
-      'Step 5: Upload required scanned original documents (Photo max 50KB, Signature max 50KB, TC, Aadhaar, merged Marksheets PDF max 250KB, Community Cert, and valid PAP / Employee / Contract Workman Certificate).',
-      'Step 6: Submit the online application before 11.08.2026 (05:00 PM) and print out the application confirmation page.'
+      'Visit the official website of NLC India Limited: https://www.nlcindia.in/',
+      'Navigate to Careers -> Trainees & Apprentices section.',
+      'Click on "Apply Online (Trade / Graduate / Technician Apprentice)" under Advt. No. L&DC/02/2026 (for PAPs) or Advt. No. L&DC/03/2026 (for Employee & Contract Wards).',
+      'Complete registration with personal details, educational qualifications, marks obtained, and category information.',
+      'Upload scanned original copies of required documents: Photo (JPEG, max 50KB), Signature (JPEG, max 50KB), TC (PDF/JPEG, max 50KB), Aadhaar Card (PDF/JPEG, max 250KB), merged Educational Marksheets PDF (max 250KB), Community Certificate (max 250KB), and valid PAP Certificate / Employee ID / Contract Form (max 250KB).',
+      'Submit the online form before 11 August 2026 (05:00 PM) and print out the application confirmation page.'
     ],
     documentsRequired: [
-      'Recent Passport-size colour photograph (JPEG, max 50 KB).',
-      'Scanned Signature (JPEG, max 50 KB).',
-      'Original Transfer Certificate (TC) (PDF/JPEG, max 50 KB).',
-      'Aadhaar Card (PDF/JPEG, max 250 KB).',
-      'SSLC / HSC Marksheet as DOB proof & qualification proof.',
-      'Merged PDF of all semester/consolidated marksheets & Provisional/Degree/Diploma/ITI Certificate (max 250 KB).',
-      'Valid Community Certificate (OBC-NCL issued on/after 01-04-2026 / SC / ST / EWS) (max 250 KB).',
-      'Valid PAP Certificate issued by Land Dept NLCIL (for PAP applicants) OR Employee ID Card / Medical Book / Form-1/2 for NLCIL Employee & Contract Wards (max 250 KB).'
+      'Recent Passport-size colour photograph (3.5 cm x 4.5 cm, JPEG, max 50 KB)',
+      'Candidate Signature (JPEG, max 50 KB)',
+      'Original Transfer Certificate (TC) (PDF or JPEG, max 50 KB)',
+      'Original Aadhaar Card (PDF or JPEG, max 250 KB)',
+      'Educational & Age Proof: SSLC (10th) Marksheet (DOB proof) & HSC (12th) Marksheet',
+      'For ITI Candidates: 8th/SSLC Marksheet, ITI Semester-wise/Consolidated Marksheet & Trade Certificate (Merged PDF, max 250 KB)',
+      'For UG Graduate / Diploma Candidates: Provisional / Degree / Diploma Certificate, Temporary Certificate (if 2026 passed), Semester-wise & Consolidated Marksheets, CGPA conversion cert (Merged PDF, max 250 KB)',
+      'Community Certificate: OBC-NCL (issued on/after 01-04-2026) / SC / ST / EWS Certificate (PDF/JPEG, max 250 KB)',
+      'Disability Certificate (for PwBD candidates, max 250 KB) & Ex-Servicemen Certificate (if applicable)',
+      'Additional Document for PAP Wards: Valid PAP Certificate issued by Land Dept, NLCIL (PDF, max 250 KB)',
+      'Additional Document for Employee Wards: Employee ID Card, Medical Identity Book (1st & 3rd pages) & Treatment Book',
+      'Additional Document for Contract Workmen Wards: Duly filled Form-1 / Form-2 signed by concerned authorities (PDF, max 250 KB)'
     ],
     importantInstructions: [
       'Candidates should not have previously undergone or currently be undergoing apprenticeship training at NLCIL or elsewhere.',
       'Candidates must not have 1 year or more of prior work experience.',
+      'OBC Non-Creamy Layer certificate must be valid and issued on or after 01-04-2026.',
       'Completion of apprenticeship training gives no right or claim for regular or temporary employment in NLC India Limited.'
     ],
     urls: [
-      { label: 'NLCIL Official Careers Portal', url: 'https://www.nlcindia.in' }
+      { label: 'NLCIL Official Careers Portal (www.nlcindia.in)', url: 'https://www.nlcindia.in' },
+      { label: 'Apply Online Portal (Trainees & Apprentices)', url: 'https://www.nlcindia.in' }
     ],
-    faqs: []
+    faqs: [
+      {
+        question: 'Is this recruitment only for candidates from Rajasthan?',
+        answer: 'Eligibility depends on the specific NLCIL project notification. For the NLC India Limited (NLCIL) Barsingsar Project Apprentice Recruitment, eligibility is strictly restricted to candidates belonging to the State of Rajasthan; candidates from other states are not eligible even with required qualifications. However, for NLCIL Neyveli Projects (Advt L&DC/02/2026 & L&DC/03/2026), eligibility is specified for Project Affected Persons (PAPs) of Neyveli projects and Wards/Spouses of NLCIL In-service/Retired/Deceased Employees and Contract Workmen.'
+      },
+      {
+        question: 'Can candidates from other states apply?',
+        answer: 'No. For state/project-specific notifications such as the NLCIL Barsingsar Project (Rajasthan), candidates from states like Uttar Pradesh, Delhi, Haryana, Punjab, Bihar, Madhya Pradesh, or any other state cannot apply unless they fulfill the local state domicile/land acquisition requirement specified in the notification. For Neyveli notifications, only eligible PAPs or NLCIL employee/contract wards can apply.'
+      },
+      {
+        question: 'Are Computer Science (CS/CSE) or Information Technology (IT) graduates eligible?',
+        answer: 'Under NLCIL Neyveli Advt L&DC/02/2026 & L&DC/03/2026, Computer Science & Engineering (CSE) and Information Technology (IT) graduates ARE eligible for Engineering Graduate (38 PAP + 16 Employee/Contract slots) and Technician Diploma (5 PAP + 2 Employee/Contract slots) Apprentice posts. However, in certain regional notifications (such as the Barsingsar Project notice), CS/CSE/IT branches are not included in advertised disciplines, so CS/IT candidates cannot apply for those specific notices.'
+      },
+      {
+        question: 'Can BCA students apply?',
+        answer: 'Under NLCIL Neyveli Advt L&DC/02/2026 (30 slots for PAPs) and L&DC/03/2026 (12 slots for Employee/Contract wards), BCA graduates ARE eligible under Non-Engineering Graduate Apprentice vacancies. However, if BCA is not listed among notified degree disciplines in a specific project notification (such as Barsingsar), BCA graduates cannot apply for that notification.'
+      },
+      {
+        question: 'Can MCA students apply?',
+        answer: 'No. MCA (Master of Computer Applications) is a Post-Graduate degree and is not an eligible qualification under NLCIL apprentice recruitment notifications. Candidates must possess only the specific Bachelor degree, Diploma, or ITI qualifications listed in the notification.'
+      },
+      {
+        question: 'Is ITI Electrician eligible?',
+        answer: 'Yes. ITI Electrician candidates are fully eligible (e.g. 55 PAP slots + 26 Employee/Contract slots under Neyveli notifications), provided they meet all conditions: belonging to the required candidate category (PAP / Employee Ward / Rajasthan Domicile), possessing a valid ITI Electrician certificate under Craftsman Training Scheme, fulfilling qualifying year rules, registering on the NAPS portal, and having no prior apprenticeship or 1+ year work experience.'
+      },
+      {
+        question: 'Which ITI trades are eligible for NLCIL Apprenticeship?',
+        answer: 'Eligible ITI trades under NLCIL notifications include: Electrician, Fitter, Turner, Mechanic (Motor Vehicle), Wireman, Mechanic (Diesel), Stenographer, Welder, COPA (Computer Operator and Programming Assistant), Refrigeration & Air Conditioning (RAC) Technician, Plumber, and Horticulture (trade availability varies by project notification).'
+      },
+      {
+        question: 'After filling the online application, where should I send the hard copy?',
+        answer: 'For notifications requiring physical hard-copy submission (such as the NLCIL Barsingsar Project), after completing online registration, candidates must download & print the submitted application form, sign it, attach self-attested document copies, and send it to the Barsingsar Project Office of NLC India Limited by post or drop it in the designated collection box before the deadline. For Neyveli online registration, scanned documents are uploaded online directly at nlcindia.in.'
+      },
+      {
+        question: 'Which documents should be attached with the hard copy or uploaded online?',
+        answer: 'Candidates should attach / upload self-attested copies of: (1) Printed Application Form & NATS/NAPS Registration Number, (2) Aadhaar Card, (3) 10th SSLC Marksheet (DOB proof), (4) 12th HSC Marksheet, (5) ITI / Diploma / Degree Semester-wise & Consolidated Marksheets, (6) Provisional or Degree/Diploma Certificate, (7) Community Certificate (SC/ST/OBC-NCL/EWS), (8) Transfer Certificate (TC), (9) CGPA to Percentage Conversion Certificate, and (10) Valid PAP Certificate / Employee ID / Contract Workman Form.'
+      },
+      {
+        question: 'Can I submit only the online application without sending a hard copy?',
+        answer: 'For Neyveli Advt L&DC/02/2026 & L&DC/03/2026, online application with scanned document uploads on nlcindia.in is complete. However, for project notifications specifying hard-copy submission (such as Barsingsar), completing only online registration is NOT sufficient; failing to submit the signed hard copy with documents before the deadline will lead to rejection.'
+      },
+      {
+        question: 'Is there any written exam or interview for NLCIL Apprentice Selection?',
+        answer: 'No. Selection for NLCIL Apprenticeship is 100% merit-based. There is NO written examination and NO interview. The merit list is prepared strictly based on aggregate marks obtained in the qualifying ITI, Diploma, or Degree examination.'
+      }
+    ]
   },
 
   'kea-karnataka-grama-adhikari-vao-recruitment-2026': {

@@ -999,12 +999,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     id: 'nlcil-apprentice-recruitment-2026',
     b: 'NLC India Limited (NLCIL)',
-    t: 'Graduate, Diploma, ITI & Non-Engineering Apprentices – 1235 Posts',
+    t: 'NLCIL Apprentice Recruitment 2026 – 1235 Vacancies for ITI Trade, Engineering Graduate, Diploma & Non-Engineering Graduate | Apply Online by 11 August 2026',
     d: '29-07-2026',
     l: '11-08-2026',
-    a: 'Advt. No. L&DC/02/2026 & L&DC/03/2026',
-    q: 'ITI, Diploma, B.E/B.Tech, B.Com, B.Sc, BCA, BBA, B.Pharm, B.Sc Nursing',
-    desc: 'NLCIL Neyveli invites online applications for 1235 Apprenticeship slots for PAP Wards, NLCIL Employee & Contract Wards/Spouses.',
+    a: 'Advt. No. L&DC/02/2026 (PAPs) & L&DC/03/2026 (Employees & Contract Wards)',
+    q: 'Passed ITI / Diploma / B.E / B.Tech / B.Com / B.Sc / BCA / BBA / B.Pharm / B.Sc Nursing (2022-2026 Passed)',
+    desc: 'NLC India Limited (NLCIL), Neyveli invites online applications for 1235 Apprenticeship Training slots (1 Year) across 4 categories under Advt No. L&DC/02/2026 (875 slots for Project Affected Persons PAPs) and Advt No. L&DC/03/2026 (360 slots for NLCIL Employee & Contract Workmen Wards/Spouses). Monthly Stipend up to ₹15,028/-. Selection is purely merit-based on qualifying marks without any written exam or interview. Apply online at nlcindia.in by 11 August 2026.',
     u: 'https://www.nlcindia.in'
   },
 
