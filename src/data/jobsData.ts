@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026',
+    b: 'Child Development Services & Nutrition, District Ambedkarnagar, Govt. of Uttar Pradesh',
+    t: 'ICDS UP Ambedkarnagar Anganwadi Worker & Sahayika Recruitment 2026 (Letter No. C-1021) – 107 Vacancies (2 Worker + 105 Helper) | Apply Online by 24 August 2026',
+    d: '03-08-2026',
+    l: '24-08-2026',
+    a: 'Letter No. C-1021 / Dist.Prog.Off./ICDS-Selection/2026-27',
+    q: 'Intermediate (12th Pass) (Only Female Candidates)',
+    desc: 'District Programme Officer, Ambedkarnagar (ICDS), Uttar Pradesh invites online applications from eligible female candidates for 107 honorarium-based vacant posts (02 Anganwadi Karyakatri & 105 Sahayika Helper) across 10 Child Development Projects (Akbarpur, Tanda, Baskhari, Bhiti, Katehari, Jalalpur, Bhiyaon, Jahangirganj, Ramnagar, Shahar City). Minimum qualification is Intermediate (12th Pass). Selection will be strictly merit-based without any written exam or interview. Apply online at upanganwadibharti.in by 24 August 2026.',
+    u: 'https://upanganwadibharti.in/'
+  },
+  {
     id: 'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026',
     b: 'Child Development Services & Nutrition, District Kushinagar, Govt. of Uttar Pradesh',
     t: 'ICDS UP Kushinagar Anganwadi Karyakartri Recruitment 2026 (Letter No. C-1627) – 245 Vacancies across 15 Projects | Apply Online by 19 August 2026',

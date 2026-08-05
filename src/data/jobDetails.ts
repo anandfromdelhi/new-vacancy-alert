@@ -58,6 +58,133 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026': {
+    id: 'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026',
+    seoTitle: 'ICDS UP Ambedkarnagar Anganwadi Karyakatri & Sahayika Recruitment 2026 – 107 Posts | Apply Online',
+    seoDescription: 'District Programme Officer Ambedkarnagar Anganwadi Worker & Sahayika Recruitment 2026 (Letter C-1021): 107 vacancies (2 Worker, 105 Helper) in 10 Child Development Projects. Check project-wise posts, eligibility, BPL limit & apply online at upanganwadibharti.in by 24 August 2026.',
+    focusKeywords: 'Ambedkarnagar Anganwadi Bharti 2026, ICDS UP Ambedkarnagar Anganwadi Karyakatri, Anganwadi Sahayika Helper Vacancy Ambedkarnagar, upanganwadibharti.in Ambedkarnagar',
+    lsiKeywords: 'District Programme Officer Ambedkarnagar, UP Anganwadi Bharti 2026, Tanda Jalalpur Akbarpur Anganwadi Vacancy, Anganwadi Sahayika Merit List Ambedkarnagar',
+    title: 'ICDS UP District Ambedkarnagar Anganwadi Karyakatri & Sahayika Recruitment 2026 (Letter No. C-1021) – 107 Vacancies',
+    board: 'Child Development Services & Nutrition (ICDS), District Ambedkarnagar, Govt. of Uttar Pradesh',
+    advtNo: 'Letter No. C-1021 / Dist.Prog.Off./ICDS-Selection/2026-27 (Dated: 03 August 2026)',
+    vacancies: 107,
+    jobLocation: 'Ambedkarnagar District, Uttar Pradesh (across 10 Child Development Projects)',
+    applicationMode: 'Online via upanganwadibharti.in',
+    lastUpdated: '05 August 2026',
+    overview: [
+      'District Programme Officer, Ambedkarnagar (Child Development Services and Nutrition, U.P. Lucknow) has published Press Notice Letter No. C-1021/Dist.Prog.Off./ICDS-Selection/2026-27 dated 03 August 2026 inviting online applications for 107 honorarium-based vacant posts (02 Anganwadi Karyakatri Workers and 105 Sahayika Helpers).',
+      'The vacant posts are distributed across 10 Child Development Projects in Ambedkarnagar district: Akbarpur (09 Sahayika), Tanda (17 Sahayika), Baskhari (06 Sahayika), Bhiti (10 Sahayika), Katehari (15 Sahayika), Jalalpur (18 Sahayika), Bhiyaon (04 Sahayika), Jahangirganj (07 Sahayika), Ramnagar (04 Sahayika), and City Shahar (02 Karyakatri Worker + 15 Sahayika Helper).',
+      'Only female candidates who are permanent residents of the respective Gram Sabha (for rural areas) or Ward (for urban areas) in Ambedkarnagar district are eligible to apply. Selection is based purely on merit using the formula: (Percentage of marks in Intermediate + Graduation + Post-Graduation) / 10 without any written exam or interview. The last date to submit online applications at upanganwadibharti.in is 24 August 2026 (midnight 12:00 AM).'
+    ],
+    highlights: [
+      { label: 'Recruiting Department', value: 'Child Development Services & Nutrition (ICDS), District Ambedkarnagar, Uttar Pradesh' },
+      { label: 'Notification Number', value: 'Letter No. C-1021 / Dist.Prog.Off./ICDS-Selection/2026-27' },
+      { label: 'Notification Date', value: '03 August 2026' },
+      { label: 'Post Names', value: 'Anganwadi Karyakatri (Worker) & Sahayika (Helper)' },
+      { label: 'Total Vacancies', value: '107 Posts (2 Karyakatri Worker + 105 Sahayika Helper)' },
+      { label: 'Sahayika Category Breakdown', value: 'SC: 29, OBC: 28, Unreserved: 48 (Total 105 Helper Posts)' },
+      { label: 'Karyakatri Category Breakdown', value: 'SC: 1, OBC: 1 (Total 2 Worker Posts in City Shahar)' },
+      { label: 'Eligible Gender', value: 'Only Female Candidates' },
+      { label: 'Mandatory Residence', value: 'Must be resident of same Gram Sabha (Rural) or same Ward (Urban) in Ambedkarnagar' },
+      { label: 'Minimum Qualification', value: 'Intermediate (12th Pass) or equivalent' },
+      { label: 'Age Limit', value: '18 to 35 Years as on 01 July 2026' },
+      { label: 'BPL Income Limit', value: 'Rural: Up to ₹46,080/- per family/yr | Urban: Up to ₹56,460/- per family/yr' },
+      { label: 'Application Fee', value: 'Nil (₹0/- No Fee for All Categories)' },
+      { label: 'Application Mode', value: 'Online through portal upanganwadibharti.in' },
+      { label: 'Last Date to Apply', value: '24 August 2026 (up to 12:00 AM Midnight)' }
+    ],
+    importantDates: [
+      { event: 'Notification Release Date', date: '03 August 2026' },
+      { event: 'Online Application Start Date', date: '03 August 2026' },
+      { event: 'Last Date for Online Application Submission', date: '24 August 2026 (up to 12:00 AM Midnight)' },
+      { event: 'Merit List & Selection Announcement', date: 'To be notified on upanganwadibharti.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Akbarpur Project', count: '9 Sahayika Helper Posts (SC: 3, OBC: 2, UR: 4)' },
+      { category: 'Tanda Project', count: '17 Sahayika Helper Posts (SC: 8, OBC: 2, UR: 7)' },
+      { category: 'Baskhari Project', count: '6 Sahayika Helper Posts (SC: 2, OBC: 2, UR: 2)' },
+      { category: 'Bhiti Project', count: '10 Sahayika Helper Posts (SC: 4, OBC: 2, UR: 4)' },
+      { category: 'Katehari Project', count: '15 Sahayika Helper Posts (SC: 3, OBC: 3, UR: 9)' },
+      { category: 'Jalalpur Project', count: '18 Sahayika Helper Posts (SC: 5, OBC: 8, UR: 5)' },
+      { category: 'Bhiyaon Project', count: '4 Sahayika Helper Posts (OBC: 1, UR: 3)' },
+      { category: 'Jahangirganj Project', count: '7 Sahayika Helper Posts (SC: 2, OBC: 1, UR: 4)' },
+      { category: 'Ramnagar Project', count: '4 Sahayika Helper Posts (OBC: 1, UR: 3)' },
+      { category: 'City (Shahar) Project', count: '2 Karyakatri Worker Posts (SC: 1, OBC: 1) + 15 Sahayika Helper Posts (SC: 2, OBC: 6, UR: 7)' },
+      { category: 'Total Vacancies', count: '107 Posts (2 Anganwadi Karyakatri + 105 Sahayika Helper)' }
+    ],
+    eligibility: {
+      education: [
+        'Gender Restriction: Only female candidates are eligible to apply for Anganwadi Karyakatri and Sahayika posts.',
+        'Minimum Educational Qualification: Passed Intermediate (12th Class) or equivalent examination from a recognized Board.',
+        'Residence Requirement: Candidate MUST be a permanent resident of the concerned Gram Sabha (for rural areas) or concerned Ward (for urban areas) in Ambedkarnagar district.',
+        'Income Certificate Cut-off: Annual family income cut-off is fixed at Rs. 46,080/- per family per annum for Rural areas and Rs. 56,460/- per family per annum for Urban areas.',
+        '50% Promotion Quota for Sahayika: 50% of vacant Karyakatri posts will be filled by promoting existing Sahayikas having 5 years regular service, 12th pass qualification, and age up to 50 years.'
+      ],
+      ageLimit: 'Minimum 18 years and Maximum 35 years as on 01 July 2026. Date of birth recorded in the High School marksheet and certificate will be valid. Maximum service age is 62 years.'
+    },
+    salary: {
+      payLevel: 'Honorarium Based Post (Anganwadi Karyakatri & Sahayika)',
+      initialPay: 'Monthly Honorarium + Allowances as per UP Govt Rules',
+      allowances: 'Performance incentives and government scheme allowances'
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS', fee: '₹0/-', refund: 'N/A' },
+      { category: 'SC / ST / PwD', fee: '₹0/-', refund: 'N/A' },
+      { category: 'All Category Female Candidates', fee: '₹0/-', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Selection Priority Chart', description: 'Priority: (1) BPL Widow -> (2) BPL Legally Divorced/Deserted -> (3) BPL Other Women -> (4) APL Widow -> (5) APL Divorced -> (6) APL Other Women.' },
+      { stage: 'Educational Merit Formula', description: 'Merit Score = (Percentage of marks in Intermediate + Percentage of marks in Graduation + Percentage of marks in Post-Graduation) / 10.' },
+      { stage: 'Online Verification of Certificates', description: 'Online digital verification of Income, Caste, and Residence certificates issued by Tehsil portal.' },
+      { stage: 'Approval & Appointment', description: 'Selection Committee recommendation approved by District Magistrate Ambedkarnagar. Appointment letter issued by District Programme Officer.' }
+    ],
+    howToApply: [
+      'Visit the official UP Anganwadi Bharti portal: https://upanganwadibharti.in/',
+      'Select District: Ambedkarnagar, Block/Project Name, and Gram Sabha/Ward.',
+      'Fill in Personal Details, Date of Birth (as per 10th certificate), and Residence details.',
+      'Enter Educational Qualifications from High School up to Post Graduation with exact roll numbers and marks obtained.',
+      'Upload clean, legible self-attested digital copies of Income Certificate, Caste Certificate, Residence Certificate, and Educational Certificates.',
+      'Carefully verify all details before final submission. Submit online application on or before 24 August 2026 (midnight 12:00 AM).'
+    ],
+    documentsRequired: [
+      'High School (10th) Marksheet & Certificate (for DOB proof)',
+      'Intermediate (12th) Marksheet & Certificate',
+      'Graduation & Post Graduation Marksheets (if applicable)',
+      'Tehsil digitally signed Residence Certificate (Gram Sabha / Ward mandatory)',
+      'Tehsil digitally signed Income Certificate (BPL limit compliant)',
+      'Caste Certificate (for SC / OBC category applicants)',
+      'Attested copy of Husband Death Certificate & Family Register (for Widow applicants, if applicable)',
+      'Competent Court Legal Order (for Divorced / Abandoned applicants, if applicable)',
+      'Passport size Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Only online applications submitted through upanganwadibharti.in will be accepted. Hard copy or offline applications will be rejected.',
+      'Only female candidates residing in the specific Gram Sabha or Ward are eligible.',
+      'Two women from the same family will not be appointed as Anganwadi Karyakatri / Sahayika at the same Anganwadi Centre.'
+    ],
+    urls: [
+      { label: 'Apply Online Portal (upanganwadibharti.in)', url: 'https://upanganwadibharti.in/' },
+      { label: 'Official Website (Directorate of Child Development UP)', url: 'https://upanganwadibharti.in/' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for Ambedkarnagar Anganwadi Recruitment 2026?',
+        answer: 'The last date to submit online applications on upanganwadibharti.in is 24 August 2026 (up to midnight 12:00 AM).'
+      },
+      {
+        question: 'How many vacancies are available in Ambedkarnagar Anganwadi recruitment?',
+        answer: 'There are a total of 107 vacant posts across 10 Child Development Projects in Ambedkarnagar: 02 Anganwadi Karyakatri Workers and 105 Sahayika Helpers.'
+      },
+      {
+        question: 'What is the merit formula for Ambedkarnagar Anganwadi selection?',
+        answer: 'Merit score is calculated as (Percentage of marks in Intermediate + Percentage of marks in Graduation + Percentage of marks in Post-Graduation) / 10.'
+      },
+      {
+        question: 'Is there any application fee or written examination for Ambedkarnagar Anganwadi Worker/Helper?',
+        answer: 'No, application fee is Nil (Free for all candidates) and selection is made purely on merit basis without any exam or interview.'
+      }
+    ]
+  },
   'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026': {
     id: 'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026',
     seoTitle: 'ICDS UP Kushinagar Anganwadi Karyakartri Recruitment 2026 – 245 Posts | Apply Online',
