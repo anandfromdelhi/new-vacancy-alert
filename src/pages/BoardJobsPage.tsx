@@ -291,6 +291,8 @@ export default function BoardJobsPage() {
         isOpen={isGoogleSearchOpen} 
         onClose={() => setIsGoogleSearchOpen(false)} 
         initialQuery={searchTerm}
+        customJobsPool={boardActiveJobs}
+        contextTitle={`${boardName} Jobs`}
       />
     </main>
   );

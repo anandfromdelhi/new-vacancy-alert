@@ -294,6 +294,8 @@ export default function StateJobsPage() {
         isOpen={isGoogleSearchOpen} 
         onClose={() => setIsGoogleSearchOpen(false)} 
         initialQuery={searchTerm}
+        customJobsPool={stateActiveJobs}
+        contextTitle={`${stateName} Jobs`}
       />
     </main>
   );

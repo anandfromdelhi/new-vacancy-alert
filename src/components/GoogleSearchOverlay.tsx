@@ -9,6 +9,8 @@ interface GoogleSearchOverlayProps {
   onClose: () => void;
   initialQuery?: string;
   archiveOnly?: boolean;
+  customJobsPool?: JobEntry[];
+  contextTitle?: string;
 }
 
 interface AdditionalSearchPage {
@@ -122,7 +124,9 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   isOpen,
   onClose,
   initialQuery = '',
-  archiveOnly = false
+  archiveOnly = false,
+  customJobsPool,
+  contextTitle
 }) => {
   const [query, setQuery] = useState(initialQuery);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -159,8 +163,10 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
 
   const cleanQuery = query.trim().toLowerCase();
 
-  // Target jobs pool: If archiveOnly is true, ONLY include expired jobs
-  const jobsPool = archiveOnly
+  // Target jobs pool: If customJobsPool is passed, use ONLY that pool
+  const jobsPool = customJobsPool
+    ? customJobsPool
+    : archiveOnly
     ? JOBS_DATA.filter(job => isJobExpired(job.l))
     : JOBS_DATA;
 
@@ -185,8 +191,8 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
       }).slice(0, 20)
     : [];
 
-  // Search logic for additional pages (disabled when archiveOnly is true)
-  const pageResults = (!archiveOnly && cleanQuery)
+  // Search logic for additional pages (disabled when customJobsPool or archiveOnly is active)
+  const pageResults = (!customJobsPool && !archiveOnly && cleanQuery)
     ? ADDITIONAL_PAGES.filter(p => 
         p.title.toLowerCase().includes(cleanQuery) ||
         p.category.toLowerCase().includes(cleanQuery) ||
@@ -270,7 +276,13 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={archiveOnly ? "Search archived recruitments (closed applications)..." : "Search jobs, board, qualification..."}
+            placeholder={
+              contextTitle 
+                ? `Search within ${contextTitle}...` 
+                : archiveOnly 
+                ? "Search archived recruitments (closed applications)... font-semibold" 
+                : "Search jobs, board, qualification..."
+            }
             className="w-full bg-transparent text-slate-900 text-sm sm:text-base font-semibold placeholder-slate-400 focus:outline-none"
           />
           {query && (

@@ -587,6 +587,8 @@ export default function QualificationJobsPage() {
         isOpen={isGoogleSearchOpen} 
         onClose={() => setIsGoogleSearchOpen(false)} 
         initialQuery={searchTerm}
+        customJobsPool={qualificationActiveJobs}
+        contextTitle={`${meta.shortLabel} Vacancies`}
       />
     </main>
   );
