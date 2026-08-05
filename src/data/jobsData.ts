@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026',
+    b: 'ICMR - National Institute of Health Research (ICMR-NIHR), Jodhpur',
+    t: 'ICMR-NIHR Jodhpur Recruitment 2026 – Project Research Scientist-III/II, Administrative Officer & Field Officer | Walk-in-Interview 24 August 2026',
+    d: '06-08-2026',
+    l: '24-08-2026',
+    a: 'No. NIHR/HTAIn/ADOPT_Proj./Budget/Rectt./2026/(e-288705)',
+    q: 'Graduate / Master Degree in Public Health / M.Sc Life Sciences / Ph.D / MPH / Pharm.D / M.Pharm',
+    desc: 'ICMR National Institute of Health Research (NIHR), Jodhpur invites eligible candidates for Walk-in-Interview / Written Test for temporary project human resource positions (Project Research Scientist-III, Project Research Scientist-II, Administrative Officer, Field Officer) under HTAIn ADOPT Project. Monthly salary up to ₹78,000 + HRA. Walk-in-interview on 24 August 2026 in Jodhpur.',
+    u: 'https://niirncd.icmr.org.in'
+  },
+  {
+    id: 'isro-icrb-assistants-jpa-udc-stenographer-recruitment-2026',
+    b: 'ISRO Centralised Recruitment Board (ICRB) / Department of Space',
+    t: 'ISRO ICRB Recruitment 2026 – 244 Vacancies for Assistant, Junior Personal Assistant (JPA), UDC & Stenographer | Apply Online by 16 August 2026',
+    d: '27-07-2026',
+    l: '16-08-2026',
+    a: 'Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026',
+    q: 'Graduation Degree with Min 60% Marks OR Diploma in Commercial/Secretarial Practice + Computer & Steno Proficiency',
+    desc: 'ISRO Centralised Recruitment Board (ICRB), Department of Space invites online applications for 244 vacancies of Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC), and Stenographers across ISRO Centres and Autonomous Bodies (Ahmedabad, Bengaluru, Hassan, Hyderabad, Sriharikota, Thiruvananthapuram, New Delhi). Level-4 Pay Matrix (Basic ₹25,500 + DA/HRA). Apply online at isro.gov.in by 16 August 2026.',
+    u: 'https://www.isro.gov.in'
+  },
+  {
     id: 'sidbi-specialist-officer-mira-recruitment-2026',
     b: 'Small Industries Development Bank of India (SIDBI)',
     t: 'SIDBI Specialist Officer Recruitment 2026 – Market Intelligence & Research Analyst (MIRA) | Apply by 25 August 2026',

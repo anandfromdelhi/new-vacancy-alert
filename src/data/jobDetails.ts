@@ -58,6 +58,238 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026': {
+    id: 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026',
+    seoTitle: 'ICMR-NIHR Jodhpur Recruitment 2026 – Walk-in-Interview for Project Scientists & Officers',
+    seoDescription: 'ICMR National Institute of Health Research (NIHR), Jodhpur Recruitment 2026: Walk-in-Interview on 24 August 2026 for Project Research Scientist-III, Scientist-II, Administrative Officer & Field Officer. Salary up to ₹78,000 + HRA. Check qualifications & reporting details.',
+    focusKeywords: 'ICMR NIHR Jodhpur Recruitment 2026, ICMR Project Research Scientist Vacancy, ICMR NIHR Walk in Interview 2026, niirncd.icmr.org.in recruitment',
+    lsiKeywords: 'ICMR Jodhpur Project Scientist 78000 HRA, ICMR Administrative Officer Field Officer Jodhpur, HTAIn ADOPT Project ICMR NIHR, ICMR Jodhpur walk-in date 24 August 2026',
+    title: 'ICMR-NIHR Jodhpur Recruitment 2026 (Project Research Scientists, Administrative Officer & Field Officer)',
+    board: 'ICMR - National Institute of Health Research (ICMR-NIHR), Department of Health Research, Govt. of India',
+    advtNo: 'No. NIHR/HTAIn/ADOPT_Proj./Budget/Rectt./2026/(e-288705)',
+    vacancies: 5,
+    jobLocation: 'ICMR-NIHR, Jodhpur (Rajasthan) or anywhere in India on project requirements',
+    applicationMode: 'Walk-in-Interview / Written Test on 24 August 2026',
+    applicationStatus: 'Active - Walk-in-Interview on 24 August 2026 (09:00 AM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'ICMR - National Institute of Health Research (ICMR-NIHR), Jodhpur, an autonomous institute under the Department of Health Research, Ministry of Health and Family Welfare, Government of India, invites applications from eligible candidates for Walk-in-Interview / Written Test for temporary project human resource positions.',
+      'The positions are being filled under the project titled "ADOPT ~ (Accelerating Dissemination and Operational Promotion of Health Technology Assessment in India (HTAIn) at ICMR-NIHR, Jodhpur". A total of 05 project vacancies are announced across 4 designations: Project Research Scientist-III (Non-Medical - 01 Post), Project Research Scientist-II (Non-Medical - 02 Posts), Administrative Officer (01 Post), and Field Officer (01 Post).',
+      'Remuneration ranges from ₹30,000/- to ₹78,000/- per month + HRA as per rules. The initial tenure is for one year, extendable as per project norms.',
+      'Eligible candidates must report with their completed application form and original certificates for verification at ICMR-NIHR, New Pali Road, Jodhpur on 24 August 2026 between 09:00 AM and 10:00 AM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institute', value: 'ICMR - National Institute of Health Research (ICMR-NIHR), Jodhpur' },
+      { label: 'Parent Department', value: 'Department of Health Research, Ministry of Health & Family Welfare, Govt. of India' },
+      { label: 'Project Name', value: 'ADOPT ~ (HTAIn) Project at ICMR-NIHR, Jodhpur' },
+      { label: 'Advertisement No.', value: 'No. NIHR/HTAIn/ADOPT_Proj./Budget/Rectt./2026/(e-288705)' },
+      { label: 'Total Vacancies', value: '05 Posts (Scientist-III: 1, Scientist-II: 2, Admin Officer: 1, Field Officer: 1)' },
+      { label: 'Monthly Remuneration', value: '₹30,000/- to ₹78,000/- + HRA per month (depending on post)' },
+      { label: 'Upper Age Limit', value: '35 to 50 Years (varying by designation)' },
+      { label: 'Selection Mode', value: 'Verification of documents followed by Walk-in-Interview / Written Test' },
+      { label: 'Reporting Date & Time', value: '24 August 2026 (09:00 AM to 10:00 AM)' },
+      { label: 'Reporting Venue', value: 'ICMR-NIHR, New Pali Road, Jodhpur, Rajasthan - 342005' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '03 August 2026' },
+      { event: 'Walk-in-Interview & Verification Date', date: '24 August 2026 (09:00 AM to 10:00 AM)' },
+      { event: 'Crucial Date for Age & Experience', date: '24 August 2026 (Date of Walk-in)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Project Research Scientist-III (Non-Medical) - UR', count: 1 },
+      { category: 'Project Research Scientist-II (Non-Medical) - UR', count: 2 },
+      { category: 'Administrative Officer - UR', count: 1 },
+      { category: 'Field Officer - UR', count: 1 },
+      { category: 'Total Project Vacancies', count: 5 }
+    ],
+    eligibility: {
+      education: [
+        '1. Project Research Scientist-III (Non-Medical) (Max 45 Yrs | ₹78,000 + HRA): Ph.D in Microbiology/Biochemistry/Biotechnology with 5 years post-Ph.D R&D/teaching experience OR 1st Class MPH/Pharm D/Master degree in Microbiology/Biotech/Life Sciences/Pharmacy/MHA with 8 years experience OR 2nd Class M.Sc/MPH with Ph.D + 8 years experience (including 2 yrs R&D team management).',
+        '2. Project Research Scientist-II (Non-Medical) (Max 40 Yrs | ₹67,000 + HRA): M.Sc in Life Sciences / MPH / MHA / M.Pharm / Pharm.D (Doctor of Pharmacy) with 4 years experience in relevant area. Desirable: Ph.D with 2 yrs exp.',
+        '3. Administrative Officer (Max 50 Yrs | ₹50,000 pm): Bachelor Degree with minimum 03 years experience under Govt Dept/Statutory or Autonomous bodies/Universities/PSU with MS Office knowledge OR Retired Section Officer / Under Secretary to Govt of India.',
+        '4. Field Officer (Max 35 Yrs | ₹30,000 pm): Graduate in Public Health with 3 years experience OR Master degree in Public Health (MPH) OR Pharm D from a recognized institution.'
+      ],
+      ageLimit: '35 to 50 years maximum depending on post code as on date of Walk-in (24.08.2026).',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD / Govt Employees / Ex-Servicemen', relaxation: 'As per DoPT / ICMR rules' }
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Remuneration + HRA',
+      initialPay: 'Scientist-III: ₹78,000 + HRA | Scientist-II: ₹67,000 + HRA | Admin Officer: ₹50,000 | Field Officer: ₹30,000',
+      allowances: 'HRA as applicable per ICMR norms. Position is temporary and project-based.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Document Verification', description: 'Candidates must report with filled application form, 1 set of self-attested photocopies and original certificates for verification.' },
+      { stage: '2. Written Test / Interview', description: 'If candidates exceed 30 for a post, a written test will be conducted (Qualifying marks: UR/OBC/EWS 40%, SC/ST 35%). Top 5-8 candidates will be interviewed.' }
+    ],
+    howToApply: [
+      'Download application form from ICMR website: https://www.icmr.gov.in or http://niirncd.icmr.org.in.',
+      'Fill out the application form completely with your personal details, educational qualifications, and work experience.',
+      'Attach one set of self-attested photocopies of all certificates (SSLC, Degree, Marksheets, Experience, Category).',
+      'Report in person for Walk-in-Interview on 24 August 2026 between 09:00 AM and 10:00 AM at ICMR-NIHR, New Pali Road, Jodhpur, Rajasthan - 342005.',
+      'Bring all original documents for verification at the reporting venue.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form',
+      'Passport size photograph',
+      'Proof of Date of Birth (10th SSLC Certificate)',
+      'Educational Marksheets & Degree Certificates (Graduation, Master, Ph.D, Pharm D)',
+      'Work Experience Certificates',
+      'No Objection Certificate (NOC) if currently employed in Govt/PSU/Autonomous Body',
+      'Caste / EWS / PwBD Certificate (if claiming age relaxation)',
+      'Valid Photo Identity Proof (Aadhaar Card, Voter ID, Passport)'
+    ],
+    importantInstructions: [
+      'No TA/DA will be paid for attending the Walk-in-interview / written test.',
+      'Positions are purely temporary for project duration.',
+      'Reporting time is strictly 09:00 AM to 10:00 AM on 24.08.2026.'
+    ],
+    urls: [
+      { label: 'ICMR Official Website', url: 'https://www.icmr.gov.in' },
+      { label: 'ICMR-NIHR Jodhpur Portal', url: 'http://niirncd.icmr.org.in' }
+    ],
+    faqs: [
+      {
+        question: 'When is the walk-in-interview date for ICMR-NIHR Jodhpur posts?',
+        answer: 'The walk-in-interview / written test will be held on 24 August 2026 from 09:00 AM to 10:00 AM at ICMR-NIHR, New Pali Road, Jodhpur.'
+      },
+      {
+        question: 'What is the salary for Project Research Scientist-III at ICMR-NIHR?',
+        answer: 'Project Research Scientist-III offers a monthly remuneration of ₹78,000/- + HRA.'
+      },
+      {
+        question: 'Is there any written test for ICMR Jodhpur walk-in recruitment?',
+        answer: 'If more than 30 eligible candidates report for a post, a screening written test will be held before interviewing top candidates.'
+      }
+    ]
+  },
+
+  'isro-icrb-assistants-jpa-udc-stenographer-recruitment-2026': {
+    id: 'isro-icrb-assistants-jpa-udc-stenographer-recruitment-2026',
+    seoTitle: 'ISRO ICRB Recruitment 2026 – Apply Online for 244 Assistant, JPA & UDC Posts',
+    seoDescription: 'ISRO Centralised Recruitment Board (ICRB) Recruitment 2026 (Advt 01/2026): 244 vacancies for Assistants, Junior Personal Assistants (JPA), UDC & Stenographers. Check Pay Level-4 ₹25,500, zone-wise vacancies & apply online by 16 August 2026.',
+    focusKeywords: 'ISRO ICRB Recruitment 2026, ISRO Assistant Vacancy 2026, ISRO Junior Personal Assistant, isro.gov.in apply online',
+    lsiKeywords: 'ISRO ICRB 244 Assistant JPA UDC Steno, ISRO Pay Matrix Level 4 Basic 25500, ISRO Autonomous Bodies Assistant, ISRO written test syllabus 2026',
+    title: 'ISRO ICRB Recruitment 2026 (Assistants, Junior Personal Assistants, UDC & Stenographers) – 244 Vacancies',
+    board: 'ISRO Centralised Recruitment Board (ICRB) / Department of Space (DOS), Govt. of India',
+    advtNo: 'Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026',
+    vacancies: 244,
+    jobLocation: 'ISRO Centres & Autonomous Bodies (Ahmedabad, Bengaluru, Hassan, Hyderabad, Mahendragiri, Sriharikota, Thiruvananthapuram, New Delhi)',
+    applicationMode: 'Online via www.isro.gov.in',
+    applicationStatus: 'Active - Apply Online by 16 August 2026 (11:55 PM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'ISRO Centralised Recruitment Board (ICRB), Department of Space, Government of India invites online applications from meritorious candidates for recruitment to the posts of Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC), and Stenographers.',
+      'A total of 244 vacancies are advertised across Level 4 of Pay Matrix at constituent ISRO Centres, DOS Branch Secretariat, and Autonomous Bodies under Department of Space located in Ahmedabad, Bengaluru, Hassan, Hyderabad, Mahendragiri, New Delhi, Sriharikota, and Thiruvananthapuram.',
+      'Posts include Assistant in ISRO Centres (113 vacancies), Junior Personal Assistant in ISRO (81 vacancies), Upper Division Clerk in Bengaluru (22 vacancies), Stenographer in Bengaluru (10 vacancies), Assistant in Autonomous Bodies (17 vacancies), and JPA in Autonomous Bodies (01 vacancy).',
+      'Selection will be based on a Written Test / CBT (150 minutes duration with 100-200 MCQs) followed by a Skill Test (Computer Literacy Test / Stenography Test in 1:5 ratio).'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'ISRO Centralised Recruitment Board (ICRB) / Department of Space' },
+      { label: 'Advertisement No.', value: 'Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026' },
+      { label: 'Total Vacancies', value: '244 Vacancies (Assistant: 130, JPA: 82, UDC: 22, Steno: 10)' },
+      { label: 'Pay Scale / Level', value: 'Level 4 of Pay Matrix (Minimum Basic Pay ₹25,500/- p.m. + DA, HRA, TA)' },
+      { label: 'Job Locations', value: 'Ahmedabad, Bengaluru, Hassan, Hyderabad, Mahendragiri, New Delhi, Sriharikota, Thiruvananthapuram' },
+      { label: 'Upper Age Limit', value: '28 Years as on 16.08.2026 (31 yrs for OBC, 33 yrs for SC/ST)' },
+      { label: 'Educational Qualification', value: 'Graduate Degree with Min 60% marks OR Diploma in Commercial/Secretarial Practice' },
+      { label: 'Application Fee', value: '₹100 Fee + ₹400 Processing Fee (₹400 refunded after CBT test; Full refund for Women/SC/ST/PwBD)' },
+      { label: 'Selection Scheme', value: 'Written Test / CBT (Objective MCQs) + Skill Test (Computer Literacy / Steno Test)' },
+      { label: 'Negative Marking', value: '1/4 mark (0.25) per wrong answer in Written Test' },
+      { label: 'Online Registration Window', value: '27 July 2026 (10:00 AM) to 16 August 2026 (11:55 PM)' }
+    ],
+    importantDates: [
+      { event: 'Opening Date of Online Registration', date: '27-07-2026 (10:00 AM)' },
+      { event: 'Closing Date of Online Registration', date: '16-08-2026 (11:55 PM)' },
+      { event: 'Last Date for Online Fee Payment', date: '16-08-2026' },
+      { event: 'Written Test / CBT Date', date: 'To be notified on www.isro.gov.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Post No. 1 - Assistant (ISRO Centres)', count: 113 },
+      { category: 'Post No. 2 - Junior Personal Assistant (JPA) (ISRO Centres)', count: 81 },
+      { category: 'Post No. 3 - Upper Division Clerk (UDC) (Bengaluru)', count: 22 },
+      { category: 'Post No. 4 - Stenographer (Bengaluru)', count: 10 },
+      { category: 'Post No. 5 - Assistant (Autonomous Institutions under DOS)', count: 17 },
+      { category: 'Post No. 6 - Junior Personal Assistant (Autonomous Institutions under DOS)', count: 1 },
+      { category: 'Total ISRO ICRB Vacancies', count: 244 }
+    ],
+    eligibility: {
+      education: [
+        'Assistant & UDC (Post Codes 1, 3, 5): Graduation with Minimum 60% marks or CGPA of 6.32 on a 10-point scale from a recognized University + Proficiency in the use of Computers.',
+        'Junior Personal Assistant & Stenographer (Post Codes 2, 4, 6): Graduation with Minimum 60% marks OR Diploma in Commercial / Secretarial Practice with Minimum 60% marks + Minimum 1 year experience as Steno-Typist/Stenographer + Minimum speed of 60 w.p.m. in English Stenography + Proficiency in use of Computers.'
+      ],
+      ageLimit: '28 years maximum as on 16.08.2026.',
+      ageRelaxation: [
+        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years (Max 31 Years)' },
+        { category: 'SC / ST', relaxation: '5 Years (Max 33 Years)' },
+        { category: 'PwBD Candidates', relaxation: '10 Years' },
+        { category: 'Central Govt Employees / Ex-Servicemen', relaxation: 'As per Govt of India orders' }
+      ]
+    },
+    salary: {
+      payLevel: 'Level 4 of Pay Matrix',
+      initialPay: 'Minimum Basic Pay ₹25,500/- per month',
+      allowances: 'Dearness Allowance [DA], House Rent Allowance [HRA], Transport Allowance, medical facilities, subsidised canteen, LTC, and Group Insurance.'
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS Male Candidates', fee: '₹500/- initially (₹100 Application Fee + ₹400 Processing Fee; ₹400 refunded after appearing in CBT)', refund: '₹400/- refunded' },
+      { category: 'Women / SC / ST / PwBD / Ex-Servicemen Candidates', fee: '₹500/- initially (Full ₹500/- refunded after appearing in CBT)', refund: '₹500/- full refund' }
+    ],
+    selectionProcess: [
+      { stage: '1. Written Test / CBT', description: 'Objective type paper of 150 minutes duration with 100-200 MCQs covering General English, Quantitative Aptitude, Reasoning, and General Knowledge (or Steno/JPA syllabus). Qualifying marks: UR 50%, Reserved 40%.' },
+      { stage: '2. Skill Test (Computer Literacy / Stenography Test)', description: 'Shortlisted candidates in ratio 1:5 will undergo Skill Test on Computer (MS Word 35m, MS Excel 35m, MS Powerpoint 30m) or 60 wpm English Stenography Test. Passing marks: UR 60%, Reserved 50%.' },
+      { stage: '3. Final Selection', description: 'Final merit list prepared based on marks scored in Written Test among candidates who qualify the Skill Test.' }
+    ],
+    howToApply: [
+      'Visit official ISRO website: https://www.isro.gov.in under Careers tab.',
+      'Click on "Advt No. ISRO:ICRB:01(A-JPA):2026 Apply Online" link.',
+      'Fill in personal details, educational qualifications (marks/CGPA), zone choices, and contact info.',
+      'Upload recent passport size colour photo (50-100 KB, JPEG) and signature (10-20 KB, JPEG).',
+      'Pay application processing fee of ₹500 via Bharatkosh e-Payment gateway (Internet Banking / UPI / Debit Card).',
+      'Submit the application before 16 August 2026 (11:55 PM) and preserve your Registration Number.'
+    ],
+    documentsRequired: [
+      'Scanned Passport Size Photograph (50 to 100 KB, JPEG)',
+      'Scanned Signature (10 to 20 KB, JPEG)',
+      'Proof of Date of Birth (10th SSLC Marksheet)',
+      'Graduation / Diploma Marksheets & Degree Certificates (showing min 60% or CGPA 6.32)',
+      'Caste Certificate [OBC-NCL / SC / ST] valid for FY 2026-27 (for fee refund & age relaxation)',
+      'Income & Asset Certificate for EWS candidates valid for FY 2026-27',
+      'Disability Certificate for PwBD candidates',
+      'No Objection Certificate (NOC) if currently employed in Govt/PSU/Autonomous body'
+    ],
+    importantInstructions: [
+      'Candidates can apply for multiple posts under different post numbers, but must submit separate applications and fee.',
+      'Conversion of CGPA into percentage is NOT permitted to determine eligibility; CGPA must directly meet 6.32 on 10-point scale.',
+      'Written test will be conducted at 38 venues across India.'
+    ],
+    urls: [
+      { label: 'ISRO Official Website (www.isro.gov.in)', url: 'https://www.isro.gov.in' },
+      { label: 'ISRO Careers & ICRB Portal', url: 'https://www.isro.gov.in/Careers.html' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for ISRO ICRB Assistant & JPA Recruitment 2026?',
+        answer: 'The last date for online application registration and fee payment on isro.gov.in is 16 August 2026 (11:55 PM).'
+      },
+      {
+        question: 'What is the minimum qualification percentage for ISRO Assistant posts?',
+        answer: 'Candidates must possess a Bachelor degree with a minimum of 60% marks or a CGPA of 6.32 on a 10-point scale.'
+      },
+      {
+        question: 'Is application fee refunded by ISRO?',
+        answer: 'Yes. Candidates who appear in the written test/CBT will receive fee refund: ₹400 refund for General/OBC male candidates, and full ₹500 refund for Women, SC, ST, PwBD, and Ex-Servicemen.'
+      },
+      {
+        question: 'What is the age limit for ISRO ICRB recruitment 2026?',
+        answer: 'The upper age limit is 28 years as on 16.08.2026, with age relaxation of 3 years for OBC (31 yrs) and 5 years for SC/ST (33 yrs).'
+      }
+    ]
+  },
+
   'sidbi-specialist-officer-mira-recruitment-2026': {
     id: 'sidbi-specialist-officer-mira-recruitment-2026',
     seoTitle: 'SIDBI Specialist Officer MIRA Recruitment 2026 – Apply for Market Intelligence Analyst',
