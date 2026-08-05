@@ -22,42 +22,44 @@ export function fromSlug(slug: string): string {
     .join(' ');
 }
 
-// Configuration for state and central government detection
+// All-India recruiting bodies and central open recruitments (anyone in India can apply)
 const ALL_INDIA_KEYWORDS = [
   'upsc', 'ssc', 'rrb', 'railway', 'isro', 'drdo', 'indian army', 'indian navy', 'indian air force', 'iaf',
-  'ongc', 'iocl', 'bpcl', 'hpcl', 'esic', 'aiims', 'ibps', 'hal', 'bel', 'beml', 'ntpc',
-  'sjvn', 'nlcil', 'nalco', 'stpi', 'railtel', 'rcil', 'krcl', 'nrsc', 'sinp', 'csir', 'mecl',
+  'ongc', 'iocl', 'bpcl', 'hpcl', 'esic', 'ibps', 'hal', 'bel', 'beml', 'ntpc',
+  'sjvn', 'nlcil', 'nalco', 'stpi', 'railtel', 'rcil', 'krcl', 'nrsc', 'sinp', 'mecl',
   'spmcil', 'cert-in', 'nhsrcl', 'nhidcl', 'ihmcl', 'fagmil', 'pdil', 'ngel', 'rcf ltd', 'rites', 'irel',
   'wcl', 'ncl', 'nicl', 'sidbi', 'tmb', 'nabard', 'icai', 'icsi', 'icar', 'aai', 'prl', 'edcil',
   'avnl', 'niper', 'ofdr', 'munitions india', 'ccras', 'ccrum', 'rwf', 'iifcl',
-  'india post', 'department of posts',
+  'india post', 'department of posts', 'aweil', 'csir', 'jipmer', 'sspl', 'ncra-tifr',
   'institute of banking personnel', 'union bank', 'punjab national bank', 'pnb',
-  'sbi', 'reserve bank', 'rbi', 'national insurance company',
-  'tamilnad mercantile bank', 'sspl'
+  'sbi', 'reserve bank', 'rbi', 'national insurance company', 'tamilnad mercantile bank'
 ];
 
+// State & UT mapping keywords
 const STATE_MAP: Record<string, string[]> = {
-  'Karnataka': ['karnataka', 'bengaluru', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'kea', 'sjicr', 'dudc'],
-  'Jammu & Kashmir': ['jammu', 'kashmir', 'jkpsc', 'jkssb'],
-  'Punjab': ['punjab', 'mohali', 'sas nagar', 'sikhiya bharti'],
+  'Uttar Pradesh': ['uttar pradesh', 'uppsc', 'aligarh muslim university', 'amu', 'azamgarh', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur', 'raebareli'],
+  'Odisha': ['odisha', 'opsc', 'bhadrak'],
+  'Dadra & Nagar Haveli and Daman & Diu': ['dadra and nagar haveli', 'dadra & nagar haveli', 'dadra', 'daman', 'dnh', 'dnhdd', 'diu'],
+  'Haryana': ['haryana', 'wcd haryana', 'hartron', 'kurukshetra'],
+  'Delhi': ['delhi', 'igdtuw', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi'],
+  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur'],
+  'Jammu & Kashmir': ['jammu and kashmir', 'jammu & kashmir', 'jammu', 'kashmir', 'jkpsc', 'jkssb', 'j&k'],
+  'Maharashtra': ['maharashtra', 'mumbai', 'pune', 'thane municipal', 'msrlm', 'solapur', 'sindhudurg'],
+  'Goa': ['panaji', 'echs panaji', 'goa'],
+  'Tamil Nadu': ['tamil nadu', 'cutn', 'thiruvarur', 'tnstc', 'tnsrlm'],
+  'Karnataka': ['karnataka', 'bengaluru', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'kea', 'sjicr', 'dudc', 'cims'],
+  'Punjab': ['punjab', 'ludhiana', 'mohali', 'sas nagar', 'sikhiya bharti'],
   'Assam': ['assam', 'apsc', 'amtron', 'guwahati', 'dme assam'],
   'Gujarat': ['gujarat', 'gsssb'],
-  'Delhi': ['delhi', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi'],
-  'Telangana': ['telangana', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal'],
+  'Telangana': ['telangana', 'hyderabad', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal'],
   'Manipur': ['manipur', 'mssc'],
-  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur'],
-  'Maharashtra': ['maharashtra', 'thane municipal', 'msrlm', 'solapur'],
-  'Rajasthan': ['rajasthan', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn'],
-  'Uttar Pradesh': ['uttar pradesh', 'aligarh muslim university', 'azamgarh', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur', 'raebareli'],
-  'West Bengal': ['west bengal', 'contai', 'purba medinipur'],
+  'Rajasthan': ['rajasthan', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn', 'dlb rajasthan'],
+  'West Bengal': ['west bengal', 'clw', 'chittaranjan', 'contai', 'purba medinipur'],
   'Andhra Pradesh': ['andhra pradesh', 'kadapa'],
-  'Odisha': ['odisha', 'bhadrak'],
-  'Haryana': ['haryana', 'hartron', 'kurukshetra'],
   'Chhattisgarh': ['chhattisgarh', 'baloda bazar', 'janjgir', 'cgssb'],
   'Bihar': ['bihar', 'jamui', 'dcpu'],
   'Madhya Pradesh': ['madhya pradesh', 'mpypil'],
-  'Tamil Nadu': ['tamil nadu', 'tnstc', 'tnsrlm'],
-  'Mizoram': ['mizoram public service']
+  'Mizoram': ['mizoram public service', 'mizoram']
 };
 
 /**
@@ -67,23 +69,54 @@ function containsKeyword(text: string, keyword: string): boolean {
   const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const prefix = /^[\w]/.test(keyword) ? '\\b' : '';
   const suffix = /[\w]$/.test(keyword) ? '\\b' : '';
-  return new RegExp(`${prefix}${escaped}${suffix}`).test(text);
+  return new RegExp(`${prefix}${escaped}${suffix}`, 'i').test(text);
 }
 
 /**
  * Returns the Indian state/UT name (or 'All India') for a given job.
+ * Classification logic:
+ * 1. Checks candidate eligibility scope / domicile / state recruitment board.
+ * 2. Checks if job is an All India open recruitment (Central Govt, Central PSUs, National Bodies open to all Indian citizens).
+ * 3. Fallback: Checks board location / state keywords.
  */
 export function getStateFromJob(job: JobEntry): string {
-  const text = `${job.b} ${job.t}`.toLowerCase();
+  const idStr = job.id || '';
+  const text = `${job.b} ${job.t} ${idStr}`.toLowerCase();
 
-  // 1. Check All India patterns first (highest priority)
+  // Indicators that a job is specifically a state/UT recruitment or restricted by state domicile
+  const stateGovTriggers = [
+    'public service commission', 'services selection board', 'state level police',
+    'samagra shiksha', 'jal shakti', 'district health', 'district court', 'district judge',
+    'municipal corporation', 'district urban development', 'anganwadi', 'zila panchayat',
+    'sikhiya bharti', 'state power sector', 'state transport', 'sub-divisional officer',
+    'state electronics development', 'deputation basis in women and child'
+  ];
+
+  let isStateSpecific = stateGovTriggers.some(trigger => text.includes(trigger));
+
+  if (text.includes('western region') && (text.includes('mumbai') || text.includes('daman') || text.includes('diu') || text.includes('maharashtra'))) {
+    isStateSpecific = true;
+  }
+
+  // If state-specific, match to state/UT first
+  if (isStateSpecific) {
+    for (const [state, keywords] of Object.entries(STATE_MAP)) {
+      for (const kw of keywords) {
+        if (containsKeyword(text, kw)) {
+          return state;
+        }
+      }
+    }
+  }
+
+  // Check All India open recruitments
   for (const kw of ALL_INDIA_KEYWORDS) {
     if (containsKeyword(text, kw)) {
       return 'All India';
     }
   }
 
-  // 2. Check State patterns
+  // Fallback: Check all state location patterns
   for (const [state, keywords] of Object.entries(STATE_MAP)) {
     for (const kw of keywords) {
       if (containsKeyword(text, kw)) {
@@ -92,7 +125,7 @@ export function getStateFromJob(job: JobEntry): string {
     }
   }
 
-  return 'Other'; // Fallback if no matching pattern is found
+  return 'All India';
 }
 
 /**
@@ -120,11 +153,9 @@ export function getBoardNameFromJob(job: JobEntry): string {
     const acronym = acronymMatch[1];
     
     // Check if there is a location attached, usually separated by a comma
-    // e.g. "All India Institute of Medical Sciences (AIIMS), Bathinda" -> "AIIMS Bathinda"
     const parts = b.split(',');
     if (parts.length > 1) {
       const secondPart = parts[1].trim();
-      // Only append if it looks like a short location, not a long descriptor
       if (secondPart && !secondPart.includes('Govt') && !secondPart.includes('Dept') && secondPart.length < 20) {
         return `${acronym} ${secondPart}`;
       }
