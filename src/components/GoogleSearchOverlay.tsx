@@ -250,7 +250,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
 
   return (
     <div 
-      className="fixed inset-0 z-[200] flex items-start md:items-center justify-center p-0 md:p-6 font-sans animate-in fade-in duration-150"
+      className="fixed inset-0 z-[200] flex items-start justify-center p-0 md:pt-16 md:pb-8 md:px-6 font-sans animate-in fade-in duration-150"
       role="dialog"
       aria-modal="true"
       aria-label="Search"
@@ -261,8 +261,8 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
         onClick={onClose}
       />
 
-      {/* Modal Popup Container */}
-      <div className="relative w-full md:max-w-2xl lg:max-w-3xl h-full md:h-auto md:max-h-[85vh] bg-slate-50 md:rounded-2xl shadow-2xl border-0 md:border md:border-slate-200/80 flex flex-col text-slate-900 overflow-hidden z-10 animate-in zoom-in-95 duration-150">
+      {/* Modal Popup Container - Fixed top positioning & stable height */}
+      <div className="relative w-full md:max-w-2xl lg:max-w-3xl h-full md:h-[75vh] md:max-h-[700px] md:min-h-[450px] bg-slate-50 md:rounded-2xl shadow-2xl border-0 md:border md:border-slate-200/80 flex flex-col text-slate-900 overflow-hidden z-10 animate-in zoom-in-95 duration-150">
         
         {/* Top Search Bar Row */}
         <div className="w-full bg-white border-b border-slate-200 px-3.5 py-3 flex items-center gap-2.5 shadow-xs shrink-0">
