@@ -1,0 +1,58 @@
+---
+name: batch-pdf-processor
+description: Handles batch uploads of multiple PDF vacancy notices (e.g. 5 PDFs at once). Sequentially scans each PDF, checks for duplicates against existing site entries, and adds new entries with full detailed schemas, builds, and pushes to GitHub.
+---
+
+# Batch PDF Vacancy Processor Skill
+
+Use this skill whenever the user uploads multiple PDF files of different government job recruitment notices in a single prompt or batch.
+
+## When to Trigger
+Trigger this skill whenever:
+- The user uploads 2, 3, 4, 5, or more PDF files in a single session.
+- The user asks: "Process these PDFs", "Add all these uploaded vacancies", "Scan and add these job notifications", or requests batch processing of multiple job files.
+
+## Sequential Batch Workflow
+
+For each uploaded PDF file in the batch (e.g. File 1 of 5, File 2 of 5, etc.):
+
+### Step 1: Extract Document Text & Metadata
+Run the fast PDF extractor:
+```bash
+python scripts/extract_pdf_data.py "<pdf_filepath>"
+```
+Extract key parameters: Board Name, Advt/Letter No., Post Titles, Total Vacancies, Application Dates, Qualification, Age Limit, Fee, Salary/Stipend, Selection Scheme, and Documents.
+
+### Step 2: Duplicate Check
+Run the duplicate scanner against `jobsData.ts`:
+```bash
+python scripts/check_duplicate_vacancy.py "<Title/Text>" "<Board Name>" "<Advt No>"
+```
+- **If Duplicate (Score >= 50 or matching Advt No)**: Mark file as `DUPLICATE SKIPPED` or update existing entry.
+- **If New (NO MATCH)**: Proceed to generate full job entry.
+
+### Step 3: Create Full Job Schema & Entry
+Construct complete detailed entries for the new vacancy:
+1. **`jobsData.ts`**: Add unique `id`, `b` (board), `t` (title with post count & last date), `d` (post date), `l` (last date), `a` (advt no), `q` (qualification summary), `desc` (rich description), `u` (official website).
+2. **`jobDetails.ts`**: Add full `JobDetail` schema containing:
+   - `id`, `seoTitle`, `seoDescription`, `focusKeywords`, `lsiKeywords`
+   - `title`, `board`, `advtNo`, `vacancies`, `jobLocation`, `applicationMode`, `applicationStatus`, `lastUpdated`
+   - `overview` (3-4 paragraphs)
+   - `highlights` array (10-12 key-value pairs)
+   - `importantDates` array
+   - `vacanciesDetails` array
+   - `eligibility` object (`education`, `ageLimit`, `ageRelaxation`)
+   - `salary` object
+   - `applicationFee` array
+   - `selectionProcess` array
+   - `howToApply` array
+   - `documentsRequired` array
+   - `importantInstructions` array
+   - `urls` array
+   - `faqs` array (4-6 comprehensive Q&As)
+
+### Step 4: Verify & Deploy
+After processing all PDFs in the batch:
+1. Run `npm run build` to verify clean compilation.
+2. Stage, commit, and push changes to GitHub (`git add .`, `git commit -m "..."`, `git push origin main`).
+3. Present a structured summary table for all uploaded files (Status: Added / Duplicate, Job ID, Board, Vacancies, Last Date).
