@@ -38,35 +38,83 @@ const QUALIFICATION_MAP: Record<string, QualificationMeta> = {
   },
   'ba': {
     slug: 'ba',
-    shortLabel: 'BA',
+    shortLabel: 'Any Graduate / BA',
     title: 'Latest BA & Graduate Government Jobs 2026',
     badge: 'Bachelor of Arts (BA) / Any Graduate',
-    description: 'Active recruitment notifications for BA (Bachelor of Arts) graduates and general degree holders across public sector departments.',
+    description: 'Active recruitment notifications for BA graduates and general degree holders across public sector departments.',
     keywords: 'BA Govt Jobs 2026, Graduate Govt Jobs, Arts Graduate Vacancy, General Graduation Sarkari Bharti'
   },
   'bcom': {
     slug: 'bcom',
-    shortLabel: 'B Com',
+    shortLabel: 'B.Com / Commerce',
     title: 'Latest B.Com & Commerce Government Jobs 2026',
-    badge: 'B.Com / Commerce / Finance / CA',
-    description: 'Verified public sector job alerts for B.Com, Commerce, Accounts, Audit, CA, and Finance graduates.',
+    badge: 'B.Com / Commerce / Finance',
+    description: 'Verified public sector job alerts for B.Com, Commerce, Accounts, and Audit graduates.',
     keywords: 'BCom Govt Jobs 2026, Commerce Graduate Jobs, Accountant Vacancy, Bank PO Clerk Commerce Jobs'
   },
   'bsc': {
     slug: 'bsc',
-    shortLabel: 'BSc',
+    shortLabel: 'B.Sc / Science',
     title: 'Latest B.Sc & Science Government Jobs 2026',
-    badge: 'B.Sc / Science / Nursing / Medical',
+    badge: 'B.Sc / Science / Nursing / Agriculture',
     description: 'Active central and state government recruitment notifications for B.Sc Science, Nursing, Agriculture, and Allied Healthcare graduates.',
     keywords: 'BSc Govt Jobs 2026, Science Graduate Vacancy, B.Sc Nursing Jobs, Agriculture Officer Vacancy'
   },
   'btech': {
     slug: 'btech',
-    shortLabel: 'B Tech',
+    shortLabel: 'B.Tech / B.E',
     title: 'Latest B.Tech & Engineering Government Jobs 2026',
     badge: 'B.E / B.Tech / Engineering',
     description: 'Verified engineering job notifications for B.E / B.Tech graduates across ISRO, DRDO, PSUs, Railways, and Public Works Departments.',
     keywords: 'BTech Govt Jobs 2026, Engineering Sarkari Vacancy, Executive Trainee PSUs, Assistant Engineer Jobs'
+  },
+  'diploma': {
+    slug: 'diploma',
+    shortLabel: 'Diploma',
+    title: 'Latest Diploma & Polytechnic Government Jobs 2026',
+    badge: 'Diploma / Polytechnic',
+    description: 'Active public sector, railway, and government vacancies for Polytechnic and Engineering Diploma holders.',
+    keywords: 'Diploma Govt Jobs 2026, Polytechnic Sarkari Vacancy, Junior Engineer Diploma Jobs, Railway Diploma Jobs'
+  },
+  'iti': {
+    slug: 'iti',
+    shortLabel: 'ITI / NAC',
+    title: 'Latest ITI & Trade Apprentice Government Jobs 2026',
+    badge: 'ITI / NAC / NTC Trade Certificate',
+    description: 'Verified job and apprenticeship alerts for ITI NCVT/SCVT and National Apprenticeship Certificate (NAC) holders.',
+    keywords: 'ITI Govt Jobs 2026, ITI Apprentice Vacancy, Railway ITI Jobs, Ordnance Factory ITI Bharti'
+  },
+  'post-graduation': {
+    slug: 'post-graduation',
+    shortLabel: 'Post Graduate / Master\'s',
+    title: 'Latest Post Graduate & Master\'s Government Jobs 2026',
+    badge: 'Post Graduation / M.Sc / M.Tech / MCA / MBA',
+    description: 'Active recruitment alerts for Post Graduates, Master\'s degree holders, MBA, MCA, M.Sc, and M.Tech candidates.',
+    keywords: 'Post Graduate Govt Jobs 2026, Master Degree Sarkari Vacancy, MCA Jobs, MBA Govt Jobs'
+  },
+  'medical-nursing': {
+    slug: 'medical-nursing',
+    shortLabel: 'MBBS / Medical / Nursing',
+    title: 'Latest Medical, Doctor & Nursing Government Jobs 2026',
+    badge: 'MBBS / MD / BDS / GNM / Nursing / Pharmacy',
+    description: 'Verified job notifications for Doctors, MBBS, Medical Officers, Senior Residents, GNM Nurses, and Pharmacists.',
+    keywords: 'Medical Officer Govt Jobs 2026, Doctor Sarkari Vacancy, Nursing Officer Jobs, GNM Nurse Bharti'
+  },
+  'finance-ca': {
+    slug: 'finance-ca',
+    shortLabel: 'CA / CMA / CS',
+    title: 'Latest CA, CMA & Finance Professional Government Jobs 2026',
+    badge: 'CA / CMA / ICWA / CS / Finance',
+    description: 'Verified public sector recruitment alerts for Chartered Accountants (CA), Cost Accountants (CMA), and Finance Professionals.',
+    keywords: 'CA Govt Jobs 2026, CMA Finance Vacancy, Chartered Accountant PSU Jobs, Finance Executive Recruitment'
+  },
+  'phd': {
+    slug: 'phd',
+    shortLabel: 'Ph.D / Doctorate',
+    title: 'Latest Ph.D, Scientist & Professor Government Jobs 2026',
+    badge: 'Ph.D / Doctorate / Research',
+    description: 'Active recruitment alerts for Ph.D holders, Research Scholars, Scientists, and University Professors.',
+    keywords: 'Phd Govt Jobs 2026, Scientist Vacancy, Assistant Professor Jobs, Research Fellow Sarkari Bharti'
   }
 };
 
@@ -204,30 +252,30 @@ function isAllIndiaJob(job: JobEntry): boolean {
 }
 
 function matchesQualification(job: JobEntry, slug: string): boolean {
-  const q = (job.q || '').toLowerCase();
-  const t = (job.t || '').toLowerCase();
-  const desc = (job.desc || '').toLowerCase();
-  const text = q + ' ' + t + ' ' + desc;
+  const text = `${job.q || ''} ${job.t || ''} ${job.desc || ''}`.toLowerCase();
 
-  if (slug === '10th-pass') {
-    return text.includes('10th') || text.includes('matric') || text.includes('ssc');
-  }
-  if (slug === '12th-pass') {
-    return text.includes('12th') || text.includes('intermediate') || text.includes('puc') || text.includes('+2 stage') || text.includes('higher secondary') || text.includes('diploma');
-  }
-  if (slug === 'ba') {
-    return text.includes('b.a') || text.includes('ba,') || text.includes('b.a.') || text.includes('graduation (ba') || text.includes('any graduate') || text.includes('graduation in any') || text.includes('graduate in any') || text.includes('any degree');
-  }
-  if (slug === 'bcom') {
-    return text.includes('b.com') || text.includes('bcom') || text.includes('commerce') || text.includes('ca') || text.includes('icwa') || text.includes('any graduate') || text.includes('graduation in any') || text.includes('graduate in any');
-  }
-  if (slug === 'bsc') {
-    return text.includes('b.sc') || text.includes('bsc') || text.includes('science') || text.includes('nursing') || text.includes('m.sc') || text.includes('any graduate') || text.includes('graduation in any') || text.includes('graduate in any');
-  }
-  if (slug === 'btech') {
-    return text.includes('b.e') || text.includes('b.tech') || text.includes('btech') || text.includes('engineering') || text.includes('m.tech') || text.includes('m.e');
-  }
-  return false;
+  const kwMap: Record<string, string[]> = {
+    '10th-pass': ['10th', 'matriculation', 'matric', 'secondary', '8th', 'literate'],
+    '12th-pass': ['12th', 'intermediate', 'higher secondary', '10+2', 'puc'],
+    'ba': ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor'],
+    'btech': ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan'],
+    'bsc': ['b.sc', 'bsc', 'b.vsc', 'science', 'nursing', 'agriculture'],
+    'bcom': ['b.com', 'bcom', 'commerce', 'accountant', 'accounts'],
+    'diploma': ['diploma', 'polytechnic'],
+    'iti': ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice'],
+    'post-graduation': ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'llm', 'm.arch', 'm.plan', 'mvsc', 'm.ch'],
+    'medical-nursing': ['mbbs', 'md', 'ms', 'dnb', 'dm', 'bds', 'dental', 'gnm', 'b.pharm', 'pharmacy', 'medical', 'tutor', 'senior resident'],
+    'finance-ca': ['ca', 'cma', 'icwai', 'chartered accountant', 'icai', 'icmai', 'icsi', 'company secretary'],
+    'phd': ['ph.d', 'phd', 'doctorate']
+  };
+
+  const keywords = kwMap[slug];
+  if (!keywords) return false;
+
+  return keywords.some(kw => {
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`\\b${escaped}\\b`, 'i').test(text);
+  });
 }
 
 function getVacancyCount(title: string): number {

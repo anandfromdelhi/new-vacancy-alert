@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router';
-import { getStatesWithCounts, getBoardsWithCounts } from '../utils/categoryUtils';
-import { GraduationCap, MapPin, Building2, X, ChevronRight, Briefcase } from 'lucide-react';
+import { getStatesWithCounts, getBoardsWithCounts, getQualificationsWithCounts } from '../utils/categoryUtils';
+import { GraduationCap, MapPin, Building2, X, ChevronRight } from 'lucide-react';
 
 interface JobEntry {
   id: string;
@@ -38,17 +38,9 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
 
   const closePopup = () => setActivePopup(null);
 
+  const qualificationsData = activePopup === 'qualification' ? getQualificationsWithCounts(activeJobs) : [];
   const statesData = activePopup === 'state' ? getStatesWithCounts(activeJobs) : [];
   const boardsData = activePopup === 'board' ? getBoardsWithCounts(activeJobs) : [];
-
-  const qualifications = [
-    { name: '10th Pass', slug: '10th-pass', icon: <Briefcase className="w-5 h-5 text-blue-500" /> },
-    { name: '12th Pass', slug: '12th-pass', icon: <Briefcase className="w-5 h-5 text-emerald-500" /> },
-    { name: 'BA', slug: 'ba', icon: <GraduationCap className="w-5 h-5 text-purple-500" /> },
-    { name: 'B.Sc', slug: 'bsc', icon: <GraduationCap className="w-5 h-5 text-orange-500" /> },
-    { name: 'B.Com', slug: 'bcom', icon: <GraduationCap className="w-5 h-5 text-rose-500" /> },
-    { name: 'B.Tech', slug: 'btech', icon: <GraduationCap className="w-5 h-5 text-indigo-500" /> },
-  ];
 
   return (
     <div className="pt-2 space-y-2 text-center">
@@ -112,7 +104,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                 {activePopup === 'qualification' && (
                   <>
                     <GraduationCap className="w-5 h-5 text-blue-600" />
-                    <span>Qualifications</span>
+                    <span>Qualification Wise Vacancies</span>
                   </>
                 )}
                 {activePopup === 'state' && (
@@ -141,7 +133,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
               <div className="space-y-2">
                 {/* Qualification List */}
                 {activePopup === 'qualification' &&
-                  qualifications.map((q) => (
+                  qualificationsData.map((q) => (
                     <Link
                       key={q.slug}
                       to={`/jobs-for/${q.slug}`}
@@ -150,16 +142,25 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                     >
                       <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-l-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex items-center gap-3">
-                        <div className="p-2 bg-slate-50 rounded-lg group-hover:bg-blue-50 transition-colors">
-                          {q.icon}
+                        <div className="p-2 bg-slate-50 rounded-lg group-hover:bg-blue-50 transition-colors shrink-0">
+                          <GraduationCap className="w-5 h-5 text-blue-600" />
                         </div>
-                        <span className="font-semibold text-slate-700 group-hover:text-blue-700 transition-colors">
-                          {q.name}
+                        <span className="font-semibold text-slate-800 group-hover:text-blue-700 transition-colors">
+                          {q.name} <span className="text-slate-400 font-bold text-xs ml-1">({q.count})</span>
                         </span>
                       </div>
-                      <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+                      <div className="flex items-center gap-3 shrink-0">
+                        <span className="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-md">
+                          {q.count}
+                        </span>
+                        <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 transition-colors" />
+                      </div>
                     </Link>
                   ))}
+
+                 {activePopup === 'qualification' && qualificationsData.length === 0 && (
+                   <div className="py-8 text-center text-slate-500 font-medium">No qualification vacancies currently available.</div>
+                 )}
 
                 {/* State List */}
                 {activePopup === 'state' &&
@@ -176,7 +177,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                           <MapPin className="w-5 h-5 text-emerald-600" />
                         </div>
                         <span className="font-semibold text-slate-700 group-hover:text-emerald-700 transition-colors">
-                          {s.name}
+                          {s.name} <span className="text-slate-400 font-bold text-xs ml-1">({s.count})</span>
                         </span>
                       </div>
                       <div className="flex items-center gap-3">
@@ -207,7 +208,7 @@ export default function CategoriesSection({ activeJobs }: CategoriesSectionProps
                           <Building2 className="w-5 h-5 text-blue-500" />
                         </div>
                         <span className="font-semibold text-slate-700 group-hover:text-blue-700 transition-colors truncate">
-                          {b.name}
+                          {b.name} <span className="text-slate-400 font-bold text-xs ml-1">({b.count})</span>
                         </span>
                       </div>
                       <div className="flex items-center gap-3 shrink-0">
