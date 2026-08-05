@@ -250,212 +250,218 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
 
   return (
     <div 
-      className="fixed inset-0 z-[200] bg-slate-50 text-slate-900 flex flex-col font-sans animate-in fade-in duration-150"
+      className="fixed inset-0 z-[200] flex items-start md:items-center justify-center p-0 md:p-6 font-sans animate-in fade-in duration-150"
       role="dialog"
       aria-modal="true"
       aria-label="Search"
     >
-      {/* Top Search Bar Row - Styled like Website Light Search */}
-      <div className="w-full bg-white border-b border-slate-200 px-3 py-2.5 sm:py-3 flex items-center gap-2 shadow-xs shrink-0">
-        <button
-          onClick={onClose}
-          className="p-2 rounded-full hover:bg-slate-100 text-slate-600 hover:text-slate-900 transition cursor-pointer"
-          aria-label="Back / Close search"
-          title="Back"
-        >
-          <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6" />
-        </button>
+      {/* Backdrop */}
+      <div 
+        className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+        onClick={onClose}
+      />
 
-        <form 
-          onSubmit={handleSubmitSearch}
-          className="flex-1 relative flex items-center bg-slate-100 border border-slate-300 rounded-full px-3.5 py-1.5 sm:py-2 focus-within:bg-white focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/20 transition-all"
-        >
-          <Search className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 shrink-0 mr-2.5" />
-          <input
-            ref={inputRef}
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder={
-              contextTitle 
-                ? `Search within ${contextTitle}...` 
-                : archiveOnly 
-                ? "Search archived recruitments (closed applications)... font-semibold" 
-                : "Search jobs, board, qualification..."
-            }
-            className="w-full bg-transparent text-slate-900 text-sm sm:text-base font-semibold placeholder-slate-400 focus:outline-none"
-          />
-          {query && (
-            <button
-              type="button"
-              onClick={() => {
-                setQuery('');
-                inputRef.current?.focus();
-              }}
-              className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-200 transition cursor-pointer"
-              title="Clear search"
-            >
-              <X className="w-4 h-4 sm:w-5 sm:h-5" />
-            </button>
-          )}
-        </form>
-      </div>
+      {/* Modal Popup Container */}
+      <div className="relative w-full md:max-w-2xl lg:max-w-3xl h-full md:h-auto md:max-h-[85vh] bg-slate-50 md:rounded-2xl shadow-2xl border-0 md:border md:border-slate-200/80 flex flex-col text-slate-900 overflow-hidden z-10 animate-in zoom-in-95 duration-150">
+        
+        {/* Top Search Bar Row */}
+        <div className="w-full bg-white border-b border-slate-200 px-3.5 py-3 flex items-center gap-2.5 shadow-xs shrink-0">
+          <button
+            onClick={onClose}
+            className="p-2 rounded-full hover:bg-slate-100 text-slate-600 hover:text-slate-900 transition cursor-pointer"
+            aria-label="Close search"
+            title="Close"
+          >
+            <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6 md:hidden" />
+            <X className="w-5 h-5 sm:w-6 sm:h-6 hidden md:block" />
+          </button>
 
-      {/* Main Search Body / Indexed Results List */}
-      <div className="flex-1 overflow-y-auto divide-y divide-slate-200 bg-slate-50">
-        {!cleanQuery ? (
-          /* Empty Query State: Show Trending Searches & Quick Badges */
-          <div className="p-4 sm:p-6 max-w-2xl mx-auto space-y-6">
-            <div>
-              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-600 mb-3">
-                <TrendingUp className="w-4 h-4 text-amber-600" />
-                <span>{archiveOnly ? 'Trending Archived Recruitments' : 'Trending Searches in India'}</span>
-              </div>
-              <div className="space-y-1">
-                {(archiveOnly ? ARCHIVED_TRENDING_SEARCHES : TRENDING_SEARCHES).map((term) => (
-                  <button
-                    key={term}
-                    onClick={() => handleTrendingClick(term)}
-                    className="w-full text-left flex items-center justify-between py-2.5 px-3 rounded-xl bg-white hover:bg-amber-50/80 text-slate-800 hover:text-amber-800 transition group border border-slate-200/80 hover:border-amber-200 shadow-2xs cursor-pointer"
-                  >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <Search className="w-4 h-4 text-slate-400 group-hover:text-amber-600 shrink-0" />
-                      <span className="text-sm font-bold truncate">{term}</span>
-                    </div>
-                    <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 shrink-0" />
-                  </button>
-                ))}
-              </div>
-            </div>
+          <form 
+            onSubmit={handleSubmitSearch}
+            className="flex-1 relative flex items-center bg-slate-100 border border-slate-300 rounded-full px-3.5 py-1.5 sm:py-2 focus-within:bg-white focus-within:border-blue-600 focus-within:ring-2 focus-within:ring-blue-500/20 transition-all"
+          >
+            <Search className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 shrink-0 mr-2.5" />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={
+                contextTitle 
+                  ? `Search within ${contextTitle}...` 
+                  : archiveOnly 
+                  ? "Search archived recruitments (closed applications)..." 
+                  : "Search jobs, board, qualification..."
+              }
+              className="w-full bg-transparent text-slate-900 text-sm sm:text-base font-semibold placeholder-slate-400 focus:outline-none"
+            />
+            {query && (
+              <button
+                type="button"
+                onClick={() => {
+                  setQuery('');
+                  inputRef.current?.focus();
+                }}
+                className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-200 transition cursor-pointer"
+                title="Clear search"
+              >
+                <X className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+            )}
+          </form>
+        </div>
 
-            <div className="pt-3 border-t border-slate-200">
-              <span className="text-xs font-bold text-slate-500 block mb-2.5">
-                Popular Categories
-              </span>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  { name: 'Railway Jobs', query: 'Railway' },
-                  { name: 'UPSC Recruitment', query: 'UPSC' },
-                  { name: '10th / 12th Pass', query: '10th' },
-                  { name: 'District Courts', query: 'District Court' },
-                  { name: 'Anganwadi Posts', query: 'Anganwadi' },
-                  { name: 'ISRO / Defence', query: 'ISRO' },
-                  { name: 'Apprenticeships', query: 'Apprentice' },
-                  { name: 'Engineering', query: 'B.Tech' }
-                ].map((tag) => (
-                  <button
-                    key={tag.name}
-                    onClick={() => handleTrendingClick(tag.query)}
-                    className="px-3 py-1.5 bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 rounded-lg text-xs font-bold text-slate-700 hover:text-blue-700 transition shadow-2xs cursor-pointer"
-                  >
-                    {tag.name}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-        ) : (
-          /* Active Search Results List */
-          <div className="w-full">
-            {totalResultsCount === 0 ? (
-              <div className="p-8 text-center space-y-3 max-w-md mx-auto">
-                <Search className="w-10 h-10 text-slate-400 mx-auto" />
-                <h3 className="text-base font-bold text-slate-800">
-                  No matching recruitment notifications found
-                </h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  Try searching for keywords like <strong className="text-slate-800">"Railway"</strong>, <strong className="text-slate-800">"UPSC"</strong>, <strong className="text-slate-800">"District Court"</strong>, or board names like <strong className="text-slate-800">"HARTRON"</strong> or <strong className="text-slate-800">"MPYPIL"</strong>.
-                </p>
-                <button
-                  onClick={() => setQuery('')}
-                  className="mt-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-bold text-white transition cursor-pointer shadow-xs"
-                >
-                  <RotateCcw className="w-3.5 h-3.5" />
-                  <span>Clear Search</span>
-                </button>
-              </div>
-            ) : (
+        {/* Main Search Body / Indexed Results List */}
+        <div className="flex-1 overflow-y-auto divide-y divide-slate-200 bg-slate-50 max-h-[calc(100vh-65px)] md:max-h-[70vh]">
+          {!cleanQuery ? (
+            /* Empty Query State: Show Trending Searches & Quick Badges */
+            <div className="p-4 sm:p-6 max-w-2xl mx-auto space-y-6">
               <div>
-                <div className="px-4 py-2 bg-slate-100 border-b border-slate-200 flex items-center justify-between text-xs font-extrabold text-slate-500">
-                  <span>{totalResultsCount} Indexed Results</span>
-                  <span className="text-[11px] text-blue-600 font-bold">Tap to view subpage</span>
+                <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-600 mb-3">
+                  <TrendingUp className="w-4 h-4 text-amber-600" />
+                  <span>{archiveOnly ? 'Trending Archived Recruitments' : 'Trending Searches in India'}</span>
                 </div>
+                <div className="space-y-1">
+                  {(archiveOnly ? ARCHIVED_TRENDING_SEARCHES : TRENDING_SEARCHES).map((term) => (
+                    <button
+                      key={term}
+                      onClick={() => handleTrendingClick(term)}
+                      className="w-full text-left flex items-center justify-between py-2.5 px-3 rounded-xl bg-white hover:bg-amber-50/80 text-slate-800 hover:text-amber-800 transition group border border-slate-200/80 hover:border-amber-200 shadow-2xs cursor-pointer"
+                    >
+                      <div className="flex items-center gap-3 min-w-0">
+                        <Search className="w-4 h-4 text-slate-400 group-hover:text-amber-600 shrink-0" />
+                        <span className="text-sm font-bold truncate">{term}</span>
+                      </div>
+                      <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 shrink-0" />
+                    </button>
+                  ))}
+                </div>
+              </div>
 
-                {/* Additional Pages Matching Query */}
-                {pageResults.length > 0 && (
-                  <div className="border-b border-slate-200">
-                    {pageResults.map((p) => (
-                      <button
-                        key={p.id}
-                        onClick={() => handleSelectPage(p.path)}
-                        className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
-                      >
-                        <div className="flex items-center gap-3 min-w-0 pr-2">
-                          <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
-                          <div className="truncate">
-                            <span className="text-sm font-extrabold text-slate-900 group-hover:text-blue-700 block truncate">
-                              {renderHighlightedText(p.title, cleanQuery)}
-                            </span>
-                            {p.subtitle && (
-                              <span className="text-xs text-slate-500 truncate block">
-                                {p.subtitle}
+              <div className="pt-3 border-t border-slate-200">
+                <span className="text-xs font-bold text-slate-500 block mb-2.5">
+                  Popular Categories
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    { name: 'Railway Jobs', query: 'Railway' },
+                    { name: 'UPSC Recruitment', query: 'UPSC' },
+                    { name: '10th / 12th Pass', query: '10th' },
+                    { name: 'District Courts', query: 'District Court' },
+                    { name: 'Anganwadi Posts', query: 'Anganwadi' },
+                    { name: 'ISRO / Defence', query: 'ISRO' },
+                    { name: 'Apprenticeships', query: 'Apprentice' },
+                    { name: 'Engineering', query: 'B.Tech' }
+                  ].map((tag) => (
+                    <button
+                      key={tag.name}
+                      onClick={() => handleTrendingClick(tag.query)}
+                      className="px-3 py-1.5 bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 rounded-lg text-xs font-bold text-slate-700 hover:text-blue-700 transition shadow-2xs cursor-pointer"
+                    >
+                      {tag.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            /* Active Search Results List */
+            <div className="w-full">
+              {totalResultsCount === 0 ? (
+                <div className="p-8 text-center space-y-3 max-w-md mx-auto">
+                  <Search className="w-10 h-10 text-slate-400 mx-auto" />
+                  <h3 className="text-base font-bold text-slate-800">
+                    No matching recruitment notifications found
+                  </h3>
+                  <p className="text-xs text-slate-500 leading-relaxed">
+                    Try searching for keywords like <strong className="text-slate-800">"Railway"</strong>, <strong className="text-slate-800">"UPSC"</strong>, <strong className="text-slate-800">"District Court"</strong>, or board names like <strong className="text-slate-800">"HARTRON"</strong> or <strong className="text-slate-800">"MPYPIL"</strong>.
+                  </p>
+                  <button
+                    onClick={() => setQuery('')}
+                    className="mt-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-bold text-white transition cursor-pointer shadow-xs"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5" />
+                    <span>Clear Search</span>
+                  </button>
+                </div>
+              ) : (
+                <div>
+                  <div className="px-4 py-2 bg-slate-100 border-b border-slate-200 flex items-center justify-between text-xs font-extrabold text-slate-500">
+                    <span>{totalResultsCount} Indexed Results</span>
+                    <span className="text-[11px] text-blue-600 font-bold">Tap to view subpage</span>
+                  </div>
+
+                  {/* Additional Pages Matching Query */}
+                  {pageResults.length > 0 && (
+                    <div className="border-b border-slate-200">
+                      {pageResults.map((p) => (
+                        <button
+                          key={p.id}
+                          onClick={() => handleSelectPage(p.path)}
+                          className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
+                        >
+                          <div className="flex items-center gap-3 min-w-0 pr-2">
+                            <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
+                            <div className="truncate">
+                              <span className="text-sm font-extrabold text-slate-900 group-hover:text-blue-700 block truncate">
+                                {renderHighlightedText(p.title, cleanQuery)}
                               </span>
-                            )}
+                              {p.subtitle && (
+                                <span className="text-xs text-slate-500 truncate block">
+                                  {p.subtitle}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-1 shrink-0">
+                            <span className="hidden sm:inline text-[10px] uppercase font-black px-2 py-0.5 rounded bg-blue-100 text-blue-800 border border-blue-200">
+                              {p.category}
+                            </span>
+                            <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition" />
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Single Line Indexed Job Results */}
+                  {jobResults.map((job) => (
+                    <button
+                      key={job.id}
+                      onClick={() => handleSelectJob(job.id)}
+                      className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
+                    >
+                      <div className="flex items-center gap-3 min-w-0 pr-2">
+                        <Search className="w-4 h-4 text-slate-400 group-hover:text-blue-600 shrink-0" />
+                        <div className="truncate">
+                          {/* Single line display: Board - Title */}
+                          <div className="text-sm font-bold text-slate-900 group-hover:text-blue-700 truncate transition">
+                            <span className="text-slate-800 font-extrabold mr-1">
+                              {renderHighlightedText(job.b, cleanQuery)}:
+                            </span>
+                            <span>
+                              {renderHighlightedText(job.t, cleanQuery)}
+                            </span>
+                          </div>
+                          {/* Compact sub-info: Qualification & Last Date */}
+                          <div className="text-[11px] text-slate-500 truncate mt-0.5 flex items-center gap-2">
+                            <span className="truncate">Qual: {job.q}</span>
+                            <span className="text-slate-300">•</span>
+                            <span className="shrink-0 text-amber-700 font-bold">Last Date: {job.l}</span>
                           </div>
                         </div>
-                        <div className="flex items-center gap-1 shrink-0">
-                          <span className="hidden sm:inline text-[10px] uppercase font-black px-2 py-0.5 rounded bg-blue-100 text-blue-800 border border-blue-200">
-                            {p.category}
-                          </span>
-                          <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition" />
-                        </div>
-                      </button>
-                    ))}
-                  </div>
-                )}
-
-                {/* Single Line Indexed Job Results */}
-                {jobResults.map((job) => (
-                  <button
-                    key={job.id}
-                    onClick={() => handleSelectJob(job.id)}
-                    className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
-                  >
-                    <div className="flex items-center gap-3 min-w-0 pr-2">
-                      <Search className="w-4 h-4 text-slate-400 group-hover:text-blue-600 shrink-0" />
-                      <div className="truncate">
-                        {/* Single line display: Board - Title */}
-                        <div className="text-sm font-bold text-slate-900 group-hover:text-blue-700 truncate transition">
-                          <span className="text-slate-800 font-extrabold mr-1">
-                            {renderHighlightedText(job.b, cleanQuery)}:
-                          </span>
-                          <span>
-                            {renderHighlightedText(job.t, cleanQuery)}
-                          </span>
-                        </div>
-                        {/* Compact sub-info: Qualification & Last Date */}
-                        <div className="text-[11px] text-slate-500 truncate mt-0.5 flex items-center gap-2">
-                          <span className="truncate">Qual: {job.q}</span>
-                          <span className="text-slate-300">•</span>
-                          <span className="shrink-0 text-amber-700 font-bold">Last Date: {job.l}</span>
-                        </div>
                       </div>
-                    </div>
 
-                    <div className="flex items-center gap-2 shrink-0">
-                      <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 transition" />
-                    </div>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-      </div>
-
-      {/* Footer helper */}
-      <div className="p-3 bg-white border-t border-slate-200 text-center text-xs text-slate-500 shrink-0 font-medium">
-        Direct navigation to official job notification sub-pages • NewVacancyAlert.in
+                      <div className="flex items-center gap-2 shrink-0">
+                        <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 transition" />
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
