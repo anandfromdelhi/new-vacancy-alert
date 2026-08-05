@@ -379,10 +379,10 @@ export default function HomePage() {
     return { filteredJobs: result, allIndiaJobs: allIndia, stateJobs: state };
   }, [searchTerm, selectedCategory, sortBy]);
 
-  // Reset visible cards count back to 5 when search, category, scope, or sort order changes
+  // Reset visible cards count back when search, category, scope, sort order, or viewMode changes
   useEffect(() => {
-    setVisibleCount(5);
-  }, [searchTerm, selectedCategory, selectedScope, sortBy]);
+    setVisibleCount(viewMode === 'table' ? 10 : 5);
+  }, [searchTerm, selectedCategory, selectedScope, sortBy, viewMode]);
 
   // Automatically switch tabs (All India vs State Specific) when searching or filtering
   // if the currently active scope has 0 matching jobs but the other scope has matching jobs.
@@ -805,7 +805,7 @@ export default function HomePage() {
                       {allIndiaJobs.length > visibleCount && (
                         <div className="pt-4 pb-1 flex flex-col items-center justify-center gap-2 border-t border-slate-100">
                           <button
-                            onClick={() => setVisibleCount(prev => prev + 5)}
+                            onClick={() => setVisibleCount(prev => prev + (viewMode === 'table' ? 10 : 5))}
                             className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer border border-blue-500"
                           >
                             <span>View More ({allIndiaJobs.length - visibleCount} remaining)</span>
@@ -861,7 +861,7 @@ export default function HomePage() {
                       {stateJobs.length > visibleCount && (
                         <div className="pt-4 pb-1 flex flex-col items-center justify-center gap-2 border-t border-slate-100">
                           <button
-                            onClick={() => setVisibleCount(prev => prev + 5)}
+                            onClick={() => setVisibleCount(prev => prev + (viewMode === 'table' ? 10 : 5))}
                             className="w-full sm:w-auto px-6 py-3 bg-amber-600 hover:bg-amber-700 active:scale-95 text-white font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer border border-amber-500"
                           >
                             <span>View More ({stateJobs.length - visibleCount} remaining)</span>
