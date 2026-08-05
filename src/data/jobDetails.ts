@@ -58,6 +58,136 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026': {
+    id: 'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026',
+    seoTitle: 'ICDS UP Kushinagar Anganwadi Karyakartri Recruitment 2026 – 245 Posts | Apply Online',
+    seoDescription: 'Office of District Programme Officer Kushinagar Anganwadi Karyakartri Recruitment 2026 (Letter C-1627): 245 vacancies for female candidates in 15 Child Development Projects. Check project-wise posts, eligibility, BPL limit & apply online at upanganwadibharti.in by 19 August 2026.',
+    focusKeywords: 'Kushinagar Anganwadi Bharti 2026, ICDS UP Kushinagar Anganwadi Karyakartri, Anganwadi Worker Vacancy Kushinagar, upanganwadibharti.in Kushinagar',
+    lsiKeywords: 'District Programme Officer Kushinagar, UP Anganwadi Bharti 2026, Sewarhi Padrauna Khadda Anganwadi Vacancy, Anganwadi Karyakartri Merit List Kushinagar',
+    title: 'ICDS UP District Kushinagar Anganwadi Karyakartri Recruitment 2026 (Letter No. C-1627) – 245 Posts',
+    board: 'Child Development Services & Nutrition (ICDS), District Kushinagar, Govt. of Uttar Pradesh',
+    advtNo: 'Letter No. C-1627 / Dist. Programme Office / Child Dev. / Selection / 2026-27 (Dated: 29 July, 2026)',
+    vacancies: 245,
+    jobLocation: 'Kushinagar District, Uttar Pradesh (across 15 Child Development Projects)',
+    applicationMode: 'Online via upanganwadibharti.in',
+    lastUpdated: '05 August 2026',
+    overview: [
+      'District Programme Officer, Kushinagar (Directorate of Child Development Services and Nutrition, U.P. Lucknow) has published Notification Letter No. C-1627/Dist. Programme Office/Child Dev./Selection/2026-27 dated 29 July 2026 inviting online applications for 245 honorarium-based vacant posts of Anganwadi Karyakartri (Anganwadi Worker).',
+      'The vacant posts are distributed across 15 urban and rural Child Development Projects in Kushinagar district: Sewarhi (13), Shahar Padrauna (02), Vishunpura (18), Hata (21), Padrauna (58), Tamkuhiraj (12), Kaptanganj (07), Motichak (06), Khadda (42), Dudahi (11), Nebua Naurangia (03), Sukrauli (07), Fazilnagar (15), Ramkola (14), and Kasya (16).',
+      'Only female candidates who are permanent residents of the respective Gram Sabha (for rural areas) or Ward (for urban areas) in Kushinagar district are eligible to apply. Selection is based purely on merit (educational marks up to Post Graduate level) without any written examination or interview. The last date to submit online applications at upanganwadibharti.in is 19 August 2026 (midnight).'
+    ],
+    highlights: [
+      { label: 'Recruiting Department', value: 'Child Development Services & Nutrition (ICDS), District Kushinagar, Uttar Pradesh' },
+      { label: 'Notification Number', value: 'Letter No. C-1627 / Dist. Programme Office / Child Dev. / Selection / 2026-27' },
+      { label: 'Notification Date', value: '29 July 2026' },
+      { label: 'Post Name', value: 'Anganwadi Karyakartri (Anganwadi Worker)' },
+      { label: 'Total Vacancies', value: '245 Posts (SC: 59, OBC: 65, Unreserved: 121)' },
+      { label: 'Eligible Gender', value: 'Only Female Candidates' },
+      { label: 'Mandatory Residence', value: 'Must be resident of same Gram Sabha (Rural) or same Ward (Urban) in Kushinagar' },
+      { label: 'Minimum Qualification', value: 'Intermediate (12th Pass) (Merit calculated up to Post Graduate level)' },
+      { label: 'Age Limit', value: '18 to 35 Years as on 01 July 2026' },
+      { label: 'BPL Income Limit', value: 'Rural: Up to ₹46,080/- per family/yr | Urban: Up to ₹56,460/- per family/yr' },
+      { label: 'Application Fee', value: 'Nil (₹0/- No Fee for All Categories)' },
+      { label: 'Application Mode', value: 'Online through portal upanganwadibharti.in' },
+      { label: 'Last Date to Apply', value: '19 August 2026 (up to 12:00 AM Midnight)' }
+    ],
+    importantDates: [
+      { event: 'Notification Release Date', date: '29 July 2026' },
+      { event: 'Online Application Start Date', date: '29 July 2026' },
+      { event: 'Last Date for Online Application Submission', date: '19 August 2026 (up to 12:00 AM Midnight)' },
+      { event: 'Merit List & Selection Announcement', date: 'To be notified on upanganwadibharti.in' }
+    ],
+    vacanciesDetails: [
+      { category: 'Sewarhi Project', count: '13 Posts (SC: 5, OBC: 1, UR: 7)' },
+      { category: 'Shahar Padrauna Project', count: '02 Posts (SC: 1, OBC: 0, UR: 1)' },
+      { category: 'Vishunpura Project', count: '18 Posts (SC: 5, OBC: 3, UR: 10)' },
+      { category: 'Hata Project', count: '21 Posts (SC: 6, OBC: 8, UR: 7)' },
+      { category: 'Padrauna Project', count: '58 Posts (SC: 10, OBC: 20, UR: 28)' },
+      { category: 'Tamkuhiraj Project', count: '12 Posts (SC: 2, OBC: 1, UR: 9)' },
+      { category: 'Kaptanganj Project', count: '07 Posts (SC: 2, OBC: 0, UR: 5)' },
+      { category: 'Motichak Project', count: '06 Posts (SC: 2, OBC: 3, UR: 1)' },
+      { category: 'Khadda Project', count: '42 Posts (SC: 8, OBC: 11, UR: 23)' },
+      { category: 'Dudahi Project', count: '11 Posts (SC: 5, OBC: 2, UR: 4)' },
+      { category: 'Nebua Naurangia Project', count: '03 Posts (SC: 1, OBC: 0, UR: 2)' },
+      { category: 'Sukrauli Project', count: '07 Posts (SC: 2, OBC: 1, UR: 4)' },
+      { category: 'Fazilnagar Project', count: '15 Posts (SC: 4, OBC: 5, UR: 6)' },
+      { category: 'Ramkola Project', count: '14 Posts (SC: 2, OBC: 5, UR: 7)' },
+      { category: 'Kasya Project', count: '16 Posts (SC: 4, OBC: 5, UR: 7)' },
+      { category: 'Total Vacancies', count: '245 Posts (SC: 59, OBC: 65, Unreserved: 121)' }
+    ],
+    eligibility: {
+      education: [
+        'Gender Restriction: Only female candidates are eligible to apply for Anganwadi Karyakartri posts.',
+        'Minimum Educational Qualification: Passed Intermediate (12th Class) or equivalent examination from a recognized Board.',
+        'Higher Education Merit Points: Merit list will be prepared on the basis of candidate highest educational qualifications (High School, Intermediate, Graduation, Post-Graduation).',
+        'Residence Requirement: Candidate MUST be a permanent resident of the concerned Gram Sabha (for rural areas) or concerned Ward (for urban areas) where the vacancy exists.',
+        'Income Certificate Cut-off: In accordance with Social Welfare Dept GO, annual family income cut-off is fixed at Rs. 46,080/- per family per annum for Rural areas and Rs. 56,460/- per family per annum for Urban areas.'
+      ],
+      ageLimit: 'Minimum 18 years and Maximum 35 years as on 01 July 2026. Date of birth recorded in the High School marksheet and certificate will be valid.'
+    },
+    salary: {
+      payLevel: 'Honorarium Based Post (Anganwadi Karyakartri)',
+      initialPay: 'Monthly Honorarium + Allowances as per UP Govt Rules',
+      allowances: 'Performance incentives and government scheme allowances'
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS', fee: '₹0/-', refund: 'N/A' },
+      { category: 'SC / ST / PwD', fee: '₹0/-', refund: 'N/A' },
+      { category: 'All Category Female Candidates', fee: '₹0/-', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Educational Merit List', description: 'Merit list is prepared automatically on the portal based on percentage obtained in High School, Intermediate, Graduation, and Post Graduation degrees.' },
+      { stage: 'Online Verification of Certificates', description: 'Online verification of Income, Caste, and Residence certificates via Tehsil portal digital database.' },
+      { stage: 'Document Verification', description: 'Verification of original certificates and Gram Sabha / Ward domicile proofs.' },
+      { stage: 'Final Appointment', description: 'Direct appointment order issued by District Programme Officer Kushinagar. No written test or interview is conducted.' }
+    ],
+    howToApply: [
+      'Visit the official UP Anganwadi Bharti portal: https://upanganwadibharti.in/',
+      'Select District: Kushinagar, Block/Project Name, and Gram Sabha/Ward.',
+      'Fill in Personal Details, Date of Birth (as per 10th certificate), and Residence details.',
+      'Enter Educational Qualifications from High School up to Post Graduation with exact roll numbers, marks obtained, and maximum marks.',
+      'Upload clean, legible self-attested digital copies of Income Certificate, Caste Certificate, Residence Certificate, and Educational Certificates.',
+      'Carefully verify all details before final submission. Submit online application on or before 19 August 2026 (midnight 12:00 AM).'
+    ],
+    documentsRequired: [
+      'High School (10th) Marksheet & Certificate (for DOB proof)',
+      'Intermediate (12th) Marksheet & Certificate',
+      'Graduation & Post Graduation Marksheets (if applicable)',
+      'Tehsil digitally signed Residence Certificate (Gram Sabha / Ward mandatory)',
+      'Tehsil digitally signed Income Certificate (BPL limit compliant)',
+      'Caste Certificate (for SC / OBC category applicants)',
+      'Attested copy of Husband Death Certificate & Family Register (for Widow applicants, if applicable)',
+      'Competent Court Legal Order (for Divorced / Abandoned applicants, if applicable)',
+      'Passport size Photograph and Signature'
+    ],
+    importantInstructions: [
+      'Only online applications submitted through upanganwadibharti.in will be accepted. Hard copy or offline applications sent by post will be rejected.',
+      'Only female candidates residing in the specific Gram Sabha or Ward are eligible.',
+      'Two women from the same family will not be appointed as Anganwadi Karyakartri / Sahayika at the same Anganwadi Centre.'
+    ],
+    urls: [
+      { label: 'Apply Online Portal (upanganwadibharti.in)', url: 'https://upanganwadibharti.in/' },
+      { label: 'Official Website (Directorate of Child Development UP)', url: 'https://upanganwadibharti.in/' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for Kushinagar Anganwadi Recruitment 2026?',
+        answer: 'The last date to submit online applications on upanganwadibharti.in is 19 August 2026 (up to midnight 12:00 AM).'
+      },
+      {
+        question: 'How many vacancies are available in Kushinagar Anganwadi Karyakartri recruitment?',
+        answer: 'There are a total of 245 vacant posts of Anganwadi Karyakartri across 15 Child Development Projects in Kushinagar (SC: 59, OBC: 65, UR: 121).'
+      },
+      {
+        question: 'What is the minimum qualification and age limit for Kushinagar Anganwadi Worker?',
+        answer: 'Minimum educational qualification is Intermediate (12th Pass). Age limit is 18 to 35 years as on 01 July 2026.'
+      },
+      {
+        question: 'Is there any application fee or written exam for Anganwadi Karyakartri post?',
+        answer: 'No, application fee is Nil (Free for all candidates) and selection is made strictly on merit basis without any exam or interview.'
+      }
+    ]
+  },
   'uppsc-computer-cadre-manager-programmer-recruitment-2026': {
     id: 'uppsc-computer-cadre-manager-programmer-recruitment-2026',
     seoTitle: 'UPPSC Computer Cadre Recruitment 2026 (10 Posts) – Apply Online for Manager System & Programmer',

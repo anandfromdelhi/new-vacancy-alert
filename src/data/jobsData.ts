@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026',
+    b: 'Child Development Services & Nutrition, District Kushinagar, Govt. of Uttar Pradesh',
+    t: 'ICDS UP Kushinagar Anganwadi Karyakartri Recruitment 2026 (Letter No. C-1627) – 245 Vacancies across 15 Projects | Apply Online by 19 August 2026',
+    d: '29-07-2026',
+    l: '19-08-2026',
+    a: 'Letter No. C-1627 / Dist. Programme Office / Child Dev. / Selection / 2026-27',
+    q: 'Intermediate (12th Pass) (Only Female Candidates)',
+    desc: 'District Programme Officer, Kushinagar, Child Development Services and Nutrition (ICDS), Uttar Pradesh invites online applications from eligible female candidates residing in the respective Gram Sabha/Ward for honorarium-based 245 posts of Anganwadi Karyakartri (Anganwadi Worker) across 15 Child Development Projects (Sewarhi, Shahar Padrauna, Vishunpura, Hata, Padrauna, Tamkuhiraj, Kaptanganj, Motichak, Khadda, Dudahi, Nebua Naurangia, Sukrauli, Fazilnagar, Ramkola, Kasya). Selection will be strictly merit-based up to Post-Graduate level qualification without any exam or interview.',
+    u: 'https://upanganwadibharti.in/'
+  },
+  {
     id: 'uppsc-computer-cadre-manager-programmer-recruitment-2026',
     b: 'Uttar Pradesh Public Service Commission (UPPSC)',
     t: 'UPPSC Computer Cadre Recruitment 2026 (Advt No. A-2/E-1/2026) – 10 Vacancies for Manager (System), Senior Programmer, Programmer Gr-2 & Computer Operator Gr-B | Apply Online by 03 September 2026',
