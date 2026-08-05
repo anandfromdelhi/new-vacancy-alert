@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'mpesb-group-2-sub-group-4-patwari-recruitment-2026',
+    b: 'Madhya Pradesh Employees Selection Board (MPESB / MP ESB), Bhopal',
+    t: 'MP ESB Group-2 Sub-Group-4 & Patwari Recruitment Exam 2026 – Apply Online for Group-2 Class III & Patwari Posts | Last Date 18 August 2026',
+    d: '04-08-2026',
+    l: '18-08-2026',
+    a: 'MP ESB Group-2 Sub-Group-4 Joint Recruitment Exam Rulebook 2026',
+    q: 'Graduate Degree in Relevant Discipline + CPCT Certification / MP Employment Exchange Reg.',
+    desc: 'Madhya Pradesh Employees Selection Board (MPESB), Bhopal invites online applications for Group-2 Sub-Group-4 Class III Joint Recruitment Examination 2026 including Patwari (Executive), Assistant Auditor, Block Panchayat Officer, Data Entry Operator, and various departmental posts across 60+ MP State departments. Selection via 200-mark written examination starting 22 September 2026. Apply online at esb.mp.gov.in or via MPOnline portal from 04 August to 18 August 2026.',
+    u: 'https://www.esb.mp.gov.in'
+  },
+  {
     id: 'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026',
     b: 'Child Development Services & Nutrition, District Ambedkarnagar, Govt. of Uttar Pradesh',
     t: 'ICDS UP Ambedkarnagar Anganwadi Worker & Sahayika Recruitment 2026 (Letter No. C-1021) – 107 Vacancies (2 Worker + 105 Helper) | Apply Online by 24 August 2026',

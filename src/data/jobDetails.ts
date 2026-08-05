@@ -58,6 +58,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'mpesb-group-2-sub-group-4-patwari-recruitment-2026': {
+    id: 'mpesb-group-2-sub-group-4-patwari-recruitment-2026',
+    seoTitle: 'MP ESB Group-2 Sub-Group-4 Recruitment 2026 – Apply Online for Patwari & Class-3 Posts',
+    seoDescription: 'MPESB Group-2 Sub-Group-4 Joint Recruitment Exam 2026: Apply online for Patwari Executive, Assistant Auditor, Block Panchayat Officer & 60+ Departmental Posts. Check syllabus, exam pattern, age relaxation, CPCT rules & last date (18 August 2026).',
+    focusKeywords: 'MP ESB Group 2 Sub Group 4 2026, MPESB Patwari Recruitment 2026, MP ESB Group 2 Syllabus, esb.mp.gov.in online application',
+    lsiKeywords: 'Madhya Pradesh Employees Selection Board Bhopal, MP Group 2 Sub Group 4 Rulebook, MP Patwari Eligibility CPCT, MP Online Portal Fee',
+    title: 'MP ESB Group-2 Sub-Group-4 Joint Recruitment Examination 2026 (Including Patwari Executive Posts)',
+    board: 'Madhya Pradesh Employees Selection Board (MPESB / MP ESB), Bhopal',
+    advtNo: 'MP ESB Group-2 Sub-Group-4 Joint Recruitment Exam 2026 Rulebook (Issued August 2026)',
+    vacancies: 'Group-2 Sub-Group-4 Class III Posts & 200 Patwari (Divyang/PwD) Vacancies',
+    jobLocation: 'Madhya Pradesh (Statewide across various MP State Departments & Districts)',
+    applicationMode: 'Online via MPOnline Portal / esb.mp.gov.in',
+    lastUpdated: '05 August 2026',
+    overview: [
+      'Madhya Pradesh Employees Selection Board (MPESB / ESB), Bhopal has released the official 144-page Rulebook for the Group-2 Sub-Group-4 Joint Recruitment Examination 2026 for Class III (Tritiya Shreni) executive and non-executive posts under various MP State Government Departments.',
+      'The recruitment covers a wide spectrum of posts including Patwari (Executive - Land Resources Management Gwalior), Block Panchayat Officer, Assistant Auditor (Directorate of Local Fund Audit), Data Entry Operator, Panchayat Coordination Officer, Assistant Librarian, District Cooperative Education Instructor, and administrative roles across 60+ departments.',
+      'Online applications commence on 04 August 2026 and close on 18 August 2026 with a correction window available up to 23 August 2026. The computer-based examination is scheduled to start on 22 September 2026 in two daily shifts across major cities in Madhya Pradesh.'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'Madhya Pradesh Employees Selection Board (MPESB / ESB), Bhopal' },
+      { label: 'Exam Name', value: 'Group-2 Sub-Group-4 Joint Recruitment Examination 2026' },
+      { label: 'Post Cadre', value: 'Class III (Tritiya Shreni) Executive & Non-Executive Posts + Patwari (Executive)' },
+      { label: 'Educational Qualification', value: 'Graduate Degree in relevant discipline from a recognized University' },
+      { label: 'Mandatory Registration', value: 'Valid Registration with MP Employment Exchange + CPCT for Patwari/Typing posts' },
+      { label: 'Age Limit', value: '18 to 40 Years for General; 18 to 45 Years for SC/ST/OBC/Women/PwD (as on 01.01.2026)' },
+      { label: 'Application Fee', value: '₹500 for UR | ₹250 for MP Domicile SC/ST/OBC/EWS/PwD | Portal Fee ₹60/₹20' },
+      { label: 'Online Application Dates', value: '04 August 2026 to 18 August 2026' },
+      { label: 'Application Correction Window', value: '04 August 2026 to 23 August 2026' },
+      { label: 'Examination Start Date', value: '22 September 2026 (Two Shifts Daily)' },
+      { label: 'Exam Scheme', value: 'Computer Based Test (CBT) – 200 Marks Total (Part A: 100 + Part B: 100)' }
+    ],
+    importantDates: [
+      { event: 'Online Application Start Date', date: '04 August 2026' },
+      { event: 'Online Application Last Date', date: '18 August 2026' },
+      { event: 'Application Form Correction Window', date: '04 August 2026 to 23 August 2026' },
+      { event: 'Admit Card Release Date', date: 'September 2026' },
+      { event: 'Computer Based Examination Start Date', date: '22 September 2026 (Tuesday onwards)' },
+      { event: 'Shift 1 Timing', date: 'Reporting 8:00–9:00 AM | Exam 10:00 AM–12:00 PM' },
+      { event: 'Shift 2 Timing', date: 'Reporting 1:00–2:00 PM | Exam 3:00 PM–5:00 PM' }
+    ],
+    vacanciesDetails: [
+      { category: 'Group-2 Sub-Group-4 Departmental Posts', count: 'Class III Vacancies across 60+ Departments (Directorate of Panchayat Raj, Local Fund Audit, Social Justice, Economics & Statistics, Rewa Engg College, etc.)' },
+      { category: 'Patwari Executive (PwD Special Quota)', count: '200 Reserved Posts (94 Hearing Impaired, 45 Locomotor Disability, 61 Other Disability Codes)' },
+      { category: 'Total Posts', count: 'Multiple Class III Executive & Non-Executive Vacancies across MP State Departments' }
+    ],
+    eligibility: {
+      education: [
+        'Educational Qualification: Graduate Degree in the relevant discipline/subject from a recognized University as prescribed by each recruiting department service rules.',
+        'CPCT Qualification for Patwari & Computer Posts: Candidates applying for Patwari (Executive) or computer/clerical posts must possess CPCT (Computer Proficiency Certification Test — Hindi typing + computer skills) score card prior to application or must qualify it within 3 years of probation period.',
+        'MP Employment Exchange Registration: Active registration with Madhya Pradesh Employment Exchange is mandatory.',
+        'Citizenship & Domicile: Must be an Indian citizen. MP Domicile required to claim category reservation, age relaxation, and fee concessions.',
+        'Patwari Disability Eligibility: Visual impairment (blindness/low vision) candidates are NOT eligible for Patwari posts as per rules.',
+        'Qualifying Marks: Minimum 50% for UR candidates; 40% for SC/ST/OBC/EWS/PwD candidates (10% relaxation on qualifying marks).'
+      ],
+      ageLimit: 'Minimum 18 years and Maximum 40 years for UR candidates; Maximum 45 years for MP Domicile SC/ST/OBC, PwD, Women, Government/PSU employees as on 01.01.2026. Cap for contract employees is 55 years.'
+    },
+    salary: {
+      payLevel: 'Pay Level-5 to Level-9 (Class III Cadre)',
+      initialPay: 'Patwari Pay Scale: ₹5,200–20,200 + Grade Pay ₹2,100. Other posts carry Grade Pay ₹2,400 / ₹2,800 / ₹3,600 as per department rules.',
+      allowances: 'DA, HRA, TA & State Government Employee Benefits'
+    },
+    applicationFee: [
+      { category: 'Unreserved (UR) Candidates', fee: '₹500/-', refund: 'N/A' },
+      { category: 'MP Domicile SC / ST / OBC / EWS / PwD', fee: '₹250/-', refund: 'N/A' },
+      { category: 'Direct Recruitment Backlog Posts', fee: '₹0/- (No Fee)', refund: 'N/A' },
+      { category: 'MPOnline Kiosk Portal Charge', fee: '₹60/-', refund: 'N/A' },
+      { category: 'Citizen User Login Portal Charge', fee: '₹20/-', refund: 'N/A' }
+    ],
+    examPattern: {
+      duration: '2 Hours (120 Minutes) per shift',
+      totalQuestions: 200,
+      negativeMarking: '-0.25 marks per wrong answer (+1 mark for correct answer)',
+      sections: [
+        { name: 'Part A: General Science, General Hindi, General English, General Mathematics', questions: 100 },
+        { name: 'Part B: General Knowledge & Aptitude, General Computer Knowledge, General Reasoning, General Management', questions: 100 }
+      ],
+      subHeader: 'Single Computer-Based Examination (200 Marks Total). Normalised Equi-Percentile (NEP) scaling method used for multi-shift score normalization.'
+    },
+    selectionProcess: [
+      { stage: 'Single Stage Written Examination (CBT)', description: 'One paper of 200 marks conducted in online CBT mode across 11 examination cities in Madhya Pradesh.' },
+      { stage: 'Score Normalization (NEP Scaling)', description: 'Normalised Equi-Percentile (NEP) scaling applied to normalize scores across multi-shift sessions.' },
+      { stage: 'Biometric & Document Verification', description: 'Multi-level biometric verification and original document verification by respective recruiting departments.' },
+      { stage: 'Final Allotment & Counselling', description: 'Department and district allotment based on candidate preference ranking, merit list, and category reservation roster.' }
+    ],
+    howToApply: [
+      'Visit the official website of MPESB: https://www.esb.mp.gov.in or MPOnline portal: https://peb.mponline.gov.in/',
+      'Click on "Group-2 (Sub-Group-4) Joint Recruitment Examination 2026 Apply Online".',
+      'Complete Profile Registration (Aadhaar e-KYC and Profile Photo/Signature upload).',
+      'Fill in Personal Details, Educational Qualifications, MP Employment Exchange Registration No, and CPCT score details.',
+      'Rank your Department & Post Preferences carefully in order of priority (only ranked posts will be considered).',
+      'Pay the Application Fee (₹500 for UR, ₹250 for Reserved + Portal Charges) via MPOnline Kiosk, Net Banking, or Credit/Debit Card.',
+      'Submit the form and take a printout of the submitted application form for future reference.'
+    ],
+    documentsRequired: [
+      'Recent Colour Photograph (white background, < 3 months old, both ears visible)',
+      'Candidate Signature and Sample Handwriting Text',
+      'High School (10th) Marksheet (DOB proof)',
+      'Graduate Degree Certificate / Marksheet',
+      'CPCT Score Card (if applicable)',
+      'Active MP Employment Exchange Registration Certificate',
+      'Caste Certificate (for SC / ST / OBC category candidates)',
+      'EWS Certificate / Disability Certificate (if applicable)',
+      'Valid Original Photo ID (Aadhaar, Voter ID, Driving Licence, Passport, or PAN Card)'
+    ],
+    importantInstructions: [
+      'Aadhaar e-KYC and multi-level biometric verification are mandatory at entry and during the examination.',
+      'One negative mark (-0.25) applies for each wrong answer.',
+      'Candidates must select post preferences carefully; unranked posts will not be considered even with qualifying scores.',
+      'Visual impairment candidates are not eligible for Patwari posts.'
+    ],
+    urls: [
+      { label: 'Official MPESB Website (esb.mp.gov.in)', url: 'https://www.esb.mp.gov.in' },
+      { label: 'MPOnline Candidate Portal (peb.mponline.gov.in)', url: 'https://peb.mponline.gov.in/' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for MP ESB Group-2 Sub-Group-4 Recruitment 2026?',
+        answer: 'The last date to submit online applications is 18 August 2026. The correction window remains open until 23 August 2026.'
+      },
+      {
+        question: 'When will the MP ESB Group-2 Sub-Group-4 examination be conducted?',
+        answer: 'The computer-based examination is scheduled to start on 22 September 2026 (Tuesday) in two daily shifts.'
+      },
+      {
+        question: 'What is the exam pattern and marking scheme for Group-2 Sub-Group-4?',
+        answer: 'The exam consists of 200 questions (200 marks) split into Part A (Science, Hindi, English, Maths - 100 marks) and Part B (GK, Computer, Reasoning, Management - 100 marks). 1 mark for correct answer and -0.25 negative marking for wrong answer.'
+      },
+      {
+        question: 'Is CPCT mandatory for MP Patwari posts?',
+        answer: 'CPCT certification is required for Patwari and computer/typing posts; candidates can clear CPCT either before or within 3 years of probation period.'
+      }
+    ]
+  },
   'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026': {
     id: 'icds-up-ambedkarnagar-anganwadi-karyakatri-sahayika-recruitment-2026',
     seoTitle: 'ICDS UP Ambedkarnagar Anganwadi Karyakatri & Sahayika Recruitment 2026 – 107 Posts | Apply Online',
