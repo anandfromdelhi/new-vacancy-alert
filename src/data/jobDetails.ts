@@ -58,6 +58,390 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'iiser-pune-sports-coach-part-time-recruitment-2026': {
+    id: 'iiser-pune-sports-coach-part-time-recruitment-2026',
+    seoTitle: 'IISER Pune Sports Coach Recruitment 2026 – Apply Online for 10 Part-Time Coach Posts',
+    seoDescription: 'IISER Pune Sports Coach Recruitment 2026 (Advt 62/2026): Apply online for 10 Part-Time Sports Coach posts (Athletics, Badminton, Cricket, Football, Volleyball & more). Remuneration ₹825 per 2.5 hr session. Upper age limit 55 years. Apply online at iiserpune.ac.in by 18 August 2026.',
+    focusKeywords: 'IISER Pune Sports Coach Recruitment 2026, IISER Pune Coach Vacancy 2026, IISER Pune Part Time Coach, iiserpune.ac.in recruitment',
+    lsiKeywords: 'IISER Pune Sports Coach Advt 62 2026, IISER Pune NIS Coaching BP Ed, IISER Pune Sports Coach 825 per session, IISER Pune temporary contractual coach',
+    title: 'IISER Pune Part-Time Sports Coach Recruitment 2026 (Advt No. 62/2026) – 10 Contractual Vacancies',
+    board: 'Indian Institute of Science Education and Research (IISER) Pune (Ministry of Education, Govt. of India)',
+    advtNo: 'ADVERTISEMENT No.: 62/2026 Dated 04-08-2026',
+    vacancies: 10,
+    jobLocation: 'IISER Pune Campus, Dr. Homi Bhabha Road, Pune, Maharashtra – 411008',
+    applicationMode: 'Online via IISER Recruitment Portal',
+    applicationStatus: 'Active - Apply Online by 18 August 2026',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'The Indian Institute of Science Education and Research (IISER) Pune, a premier institute of national importance established under Ministry of Education, Govt. of India, invites online applications from Indian nationals for 10 part-time Sports Coach positions purely on temporary and contractual basis.',
+      'One position is advertised in each of the 10 sports disciplines: Athletics, Badminton, Basketball, Cricket, Football, Kabaddi, Kho-Kho, Lawn Tennis, Table Tennis, and Volleyball.',
+      'Selected coaches will be paid ₹825/- per session of 2.5 hours a day (6 days a week with flexible morning or evening shifts).',
+      'The tenure of appointment is up to 31.12.2026, extendable for further periods subject to satisfactory performance and requirement.',
+      'Eligible candidates must apply online through the IISER Pune recruitment portal before 18 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institute', value: 'Indian Institute of Science Education and Research (IISER) Pune' },
+      { label: 'Institute Status', value: 'Institute of National Importance (Ministry of Education, Govt. of India)' },
+      { label: 'Advertisement No.', value: 'ADVERTISEMENT No.: 62/2026' },
+      { label: 'Total Vacancies', value: '10 Posts (1 in each of 10 Sports Disciplines)' },
+      { label: 'Emoluments', value: '₹825/- per session of 2.5 hours a day (6 days a week)' },
+      { label: 'Work Timings', value: 'Flexible shifts (Morning or Evening), 2.5 hours per session, 6 days/week' },
+      { label: 'Upper Age Limit', value: 'Not more than 55 years (as on 18.08.2026)' },
+      { label: 'Contract Tenure', value: 'Up to 31.12.2026 (Extendable based on performance)' },
+      { label: 'Application Fee', value: '₹0/- (No Application Fee)' },
+      { label: 'Selection Scheme', value: 'Shortlisting based on qualification & experience followed by Interview' },
+      { label: 'Last Date to Apply Online', value: '18 August 2026' }
+    ],
+    importantDates: [
+      { event: 'Date of Publication', date: '04 August 2026' },
+      { event: 'Opening Date for Online Application', date: '04 August 2026' },
+      { event: 'Last Date for Submitting Online Application', date: '18 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Sports Coach (Athletics)', count: 1 },
+      { category: 'Sports Coach (Badminton)', count: 1 },
+      { category: 'Sports Coach (Basketball)', count: 1 },
+      { category: 'Sports Coach (Cricket)', count: 1 },
+      { category: 'Sports Coach (Football)', count: 1 },
+      { category: 'Sports Coach (Kabaddi)', count: 1 },
+      { category: 'Sports Coach (Kho-Kho)', count: 1 },
+      { category: 'Sports Coach (Lawn Tennis)', count: 1 },
+      { category: 'Sports Coach (Table Tennis)', count: 1 },
+      { category: 'Sports Coach (Volleyball)', count: 1 },
+      { category: 'Total Part-Time Sports Coach Vacancies', count: 10 }
+    ],
+    eligibility: {
+      education: [
+        'Essential Qualification: Certificate course from National Institute of Sports (NIS) in Coaching / Diploma from NIS in Coaching / Bachelor\'s degree in Physical Education (B.P. Ed.).',
+        'Essential Experience: Minimum 2 years of coaching experience at High School or above level in relevant sport from reputed educational institute.',
+        'Desirable Qualification: Led sports team/s at State / University level as a coach.'
+      ],
+      ageLimit: 'Not more than 55 years as on 18 August 2026.',
+      ageRelaxation: [
+        { category: 'Candidates with Higher Qualification / Experience', relaxation: 'Age relaxation considered with prior approval of competent authority' }
+      ]
+    },
+    salary: {
+      payLevel: 'Per Session Basis',
+      initialPay: '₹825/- per session of 2.5 hours a day (6 days a week)',
+      allowances: 'Purely temporary & contractual post up to 31.12.2026.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Screening & Shortlisting', description: 'Screening Committee will shortlist candidates based on NIS certificate, B.P.Ed. degree, and coaching experience.' },
+      { stage: '2. Personal Interview', description: 'Shortlisted candidates will be called for interview at IISER Pune campus (No TA/DA paid).' }
+    ],
+    howToApply: [
+      'Visit IISER Pune official recruitment portal: https://www.iiserpune.ac.in.',
+      'Click on "Register Now to apply" and verify your email address via OTP.',
+      'Log in and click "Apply Now", select Advertisement No. 62/2026 and Sports Coach post.',
+      'Fill in personal details, educational qualifications (NIS/B.P.Ed.), and 2 years coaching experience details.',
+      'Upload soft copy of recent passport size photograph (less than 1 MB).',
+      'Submit the online application before 18 August 2026.'
+    ],
+    documentsRequired: [
+      'Soft copy of recent Passport size Photograph (under 1 MB)',
+      'Proof of Age (Class 10th / School Leaving Certificate)',
+      'NIS Certificate in Coaching / NIS Diploma / B.P.Ed. Degree Certificate & Marksheets',
+      'Coaching Experience Certificate (min 2 years at High School or higher level)',
+      'No Objection Certificate (NOC) if currently employed'
+    ],
+    importantInstructions: [
+      'Appointment is purely temporary and carries no claim for absorption in IISER Pune.',
+      'Only shortlisted candidates will be informed via email.',
+      'No TA/DA will be admissible for appearing for the interview.'
+    ],
+    urls: [
+      { label: 'IISER Pune Official Website', url: 'https://www.iiserpune.ac.in' },
+      { label: 'IISER Pune Recruitment Portal', url: 'https://www.iiserpune.ac.in/opportunities/careers' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply online for IISER Pune Sports Coach Recruitment 2026?',
+        answer: 'The last date to submit online applications on iiserpune.ac.in is 18 August 2026.'
+      },
+      {
+        question: 'What is the pay rate for Sports Coach at IISER Pune?',
+        answer: 'Sports Coaches are paid ₹825/- per session of 2.5 hours a day (6 days a week).'
+      },
+      {
+        question: 'What is the upper age limit for IISER Pune Sports Coach posts?',
+        answer: 'The maximum age limit is 55 years as on 18 August 2026.'
+      }
+    ]
+  },
+
+  'aiims-bhubaneswar-group-a-b-c-deputation-recruitment-2026': {
+    id: 'aiims-bhubaneswar-group-a-b-c-deputation-recruitment-2026',
+    seoTitle: 'AIIMS Bhubaneswar Recruitment 2026 – Apply Offline for 61 Group A, B & C Deputation Posts',
+    seoDescription: 'AIIMS Bhubaneswar Deputation Recruitment 2026 (Advt DEPUTATION/02/2026): Apply offline for 61 posts (Medical Supt, Registrar, Nursing Supt, Pharmacist, JAO, UDC, etc.). Pay Levels from Level-4 to Level-14. Check eligibility & apply within 45 days.',
+    focusKeywords: 'AIIMS Bhubaneswar Recruitment 2026, AIIMS Bhubaneswar Deputation 2026, AIIMS Bhubaneswar Group A B C Vacancy, aiimsbhubaneswar.nic.in',
+    lsiKeywords: 'AIIMS Bhubaneswar Medical Superintendent Deputation, AIIMS Bhubaneswar Nursing Superintendent Level 11, AIIMS Bhubaneswar Pharmacist UDC Deputation, AIIMS Bhubaneswar Advt DEPUTATION 02 2026',
+    title: 'AIIMS Bhubaneswar Group A, B & C Deputation Recruitment 2026 (Advt No. DEPUTATION/02/2026) – 61 Vacancies',
+    board: 'All India Institute of Medical Sciences (AIIMS), Bhubaneswar (Ministry of Health & Family Welfare, Govt. of India)',
+    advtNo: 'Advt No. - DEPUTATION/02/2026',
+    vacancies: 61,
+    jobLocation: 'AIIMS Bhubaneswar, Sijua, Patrapada, Bhubaneswar, Odisha – 751019',
+    applicationMode: 'Offline (Hard Copy by Speed Post / Registered Post)',
+    applicationStatus: 'Active - Apply within 45 days from Employment News publication (Approx 18 September 2026)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'All India Institute of Medical Sciences (AIIMS), Bhubaneswar, an Autonomous Institute of National Importance under Ministry of Health & Family Welfare, Govt. of India, invites applications in prescribed pro-forma (Hard Copy Only) from eligible officials of Central / State / UT Governments, Statutory / Autonomous Bodies, Universities, and R&D Organizations for filling up various Group "A", "B", and "C" posts on Deputation Basis.',
+      'A total of 61 vacancies are advertised across 25 administrative, healthcare, and technical posts including Medical Superintendent (1), Chief Librarian (1), Registrar (1), System Analyst (1), Chief Nursing Officer (1), Nursing Superintendent (3), Chief Pharmacist (1), Junior Administrative Officer (9), Pharmacist Grade I (11), Medical Record Officer (4), Personal Assistant (6), and Senior Administrative Assistant/UDC (3).',
+      'Pay Scales range from Level-4 (Basic ₹25,500) up to Level-14 + NPA (Basic ₹1,44,200) as per 7th CPC.',
+      'Deputation period is initially up to 3 years, extendable as per DoPT / MoHFW guidelines.',
+      'Duly filled applications along with APARs, Vigilance Clearance, and NOC must reach AIIMS Bhubaneswar within 45 days from the date of publication in Employment News.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: 'All India Institute of Medical Sciences (AIIMS), Bhubaneswar' },
+      { label: 'Institution Status', value: 'Autonomous Apex Healthcare Institute of National Importance (MoHFW)' },
+      { label: 'Advertisement No.', value: 'Advt No. - DEPUTATION/02/2026' },
+      { label: 'Total Vacancies', value: '61 Posts across 25 Group A, B & C designations' },
+      { label: 'Deputation Tenure', value: 'Initially up to 3 years (Extendable per DoPT rules)' },
+      { label: 'Pay Levels (Group A)', value: 'Level-10 (Basic ₹56,100) to Level-14 + NPA (Basic ₹1,44,200)' },
+      { label: 'Pay Levels (Group B & C)', value: 'Level-4 (Basic ₹25,500) to Level-7 (Basic ₹44,900)' },
+      { label: 'Application Fee', value: '₹0/- (No Application Fee)' },
+      { label: 'Application Mode', value: 'Offline (Hard Copy by Speed Post / Registered Post)' },
+      { label: 'Submission Window', value: 'Within 45 days from publication of notice in Employment News' },
+      { label: 'Address for Submission', value: 'Shri Dibya Ranjan Pattnaik, AAO, Recruitment Cell, Academic Block, AIIMS Bhubaneswar-751019' }
+    ],
+    importantDates: [
+      { event: 'Notification Issued Date', date: '04 August 2026' },
+      { event: 'Closing Date for Receipt of Hard Copy', date: '45 days from Employment News publication (approx 18 September 2026)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Group A: Medical Superintendent (Level 14 + NPA)', count: 1 },
+      { category: 'Group A: Chief Librarian (Level 13)', count: 1 },
+      { category: 'Group A: Registrar (Level 12)', count: 1 },
+      { category: 'Group A: Senior Analyst / System Analyst (Level 12)', count: 1 },
+      { category: 'Group A: Chief Nursing Officer (Level 12)', count: 1 },
+      { category: 'Group A: Senior Administrative Officer (Level 11)', count: 1 },
+      { category: 'Group A: Senior Procurement Cum Store Officer (Level 11)', count: 1 },
+      { category: 'Group A: Nursing Superintendent (Level 11)', count: 3 },
+      { category: 'Group A: Chief Dietician (Level 11)', count: 1 },
+      { category: 'Group A: Chief Medical Social Service Officer (Level 11)', count: 1 },
+      { category: 'Group A: CSSD Officer (Level 11)', count: 1 },
+      { category: 'Group A: Principal Private Secretary (Level 11)', count: 1 },
+      { category: 'Group A: Librarian Selection Grade (Level 11)', count: 1 },
+      { category: 'Group A: Chief Medical Record Officer (Level 10)', count: 1 },
+      { category: 'Group B: Private Secretary (Level 7)', count: 3 },
+      { category: 'Group B: Chief Pharmacist (Level 7)', count: 1 },
+      { category: 'Group B: Senior Sanitation Officer (Level 7)', count: 1 },
+      { category: 'Group B: Manager / Supervisor / Gas Officer (Level 7)', count: 1 },
+      { category: 'Group B: Junior Administrative Officer (Level 6)', count: 9 },
+      { category: 'Group B: Sr. Pharmacist (Level 6)', count: 3 },
+      { category: 'Group B: Pharmacist Grade I (Level 6)', count: 11 },
+      { category: 'Group B: Medical Record Officer (Level 6)', count: 4 },
+      { category: 'Group B: Sanitation Officer (Level 6)', count: 3 },
+      { category: 'Group B: Personal Assistant (Level 6)', count: 6 },
+      { category: 'Group C: Senior Administrative Assistant / UDC (Level 4)', count: 3 },
+      { category: 'Total AIIMS Bhubaneswar Deputation Vacancies', count: 61 }
+    ],
+    eligibility: {
+      education: [
+        '1. Medical Superintendent (Level 14): MBBS + MD/MS or Master in Hospital Administration (MHA) + 10 years experience in Hospital Administration.',
+        '2. Chief Nursing Officer & Nursing Superintendent: Officers from Govt/Autonomous bodies holding analogous posts or 5-10 years regular service in PB-3 GP 6600/5400.',
+        '3. Pharmacist Grade I & Sr Pharmacist (Level 6): Officers holding analogous posts or 5-6 years regular service in Pharmacist Grade II (GP 2800).',
+        '4. Junior Administrative Officer & UDC (Level 4/6): Officers holding analogous posts or 8-10 years regular service in lower grade + Graduate Degree + Computer Proficiency.',
+        '5. Private Sector Candidates: Private sector applicants are NOT eligible for deputation posts per rules.'
+      ],
+      ageLimit: 'Upper age limit regulated as per DoPT OM dated 05.02.2018 (Max 56 years for deputation).',
+      ageRelaxation: [
+        { category: 'Deputation Rules', relaxation: 'Regulated as per DoPT guidelines' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Levels 4 to 14',
+      initialPay: 'Level 4 (₹25,500) to Level 14 (₹1,44,200) + Usual Allowances admissible to Central Govt Employees at Bhubaneswar',
+      allowances: 'HRA, DA, Transport Allowance, NPA for Medical Officers as applicable.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Cadre Scrutiny', description: 'Scrutiny of APARs (last 5 years), Vigilance Clearance, Integrity Certificate, and NOC from parent department.' },
+      { stage: '2. Personal Interview / Selection', description: 'Selection Committee interview at AIIMS Bhubaneswar.' }
+    ],
+    howToApply: [
+      'Download application form Annexure-I, II & III from official website: https://aiimsbhubaneswar.nic.in.',
+      'Fill out the application form completely with employment history, basic pay, grade pay, and educational qualifications.',
+      'Get the Cadre Controlling Authority Certificate (Annexure-II) signed and stamped by your employer with NOC & Vigilance Clearance.',
+      'Attach self-attested copies of certificates, experience certificates, APARs of preceding 5 years, and integrity certificate.',
+      'Super-scribe the envelope with "The Post Applied for _____________ (On Deputation)".',
+      'Send the hard copy by Speed Post / Registered Post to: "Shri Dibya Ranjan Pattnaik, Assistant Administrative Officer, Recruitment Cell, Academic Block, AIIMS Bhubaneswar-751019".',
+      'Application must reach within 45 days of publication in Employment News.'
+    ],
+    documentsRequired: [
+      'Duly filled & signed Application Form (Annexure-I, II, III)',
+      'Self-attested copies of Educational Qualification Certificates',
+      'Self-attested copies of Experience Certificates',
+      'APARs of preceding 05 years (duly attested)',
+      'Vigilance Clearance Certificate',
+      'Integrity Certificate',
+      'No Objection Certificate (NOC) from Cadre Controlling Authority',
+      'List of major/minor penalties imposed in last 10 years (if any)'
+    ],
+    importantInstructions: [
+      'Only hard copies sent via Speed/Registered Post will be accepted.',
+      'Private sector employees are not eligible for deputation.',
+      'Parent cadre must agree to relieve the selected officer immediately.'
+    ],
+    urls: [
+      { label: 'AIIMS Bhubaneswar Official Website', url: 'https://aiimsbhubaneswar.nic.in' },
+      { label: 'AIIMS Bhubaneswar Recruitment Page', url: 'https://aiimsbhubaneswar.nic.in/Recruitment.aspx' }
+    ],
+    faqs: [
+      {
+        question: 'What is the mode of application for AIIMS Bhubaneswar Deputation recruitment 2026?',
+        answer: 'Application mode is strictly Offline (Hard Copy sent via Speed Post or Registered Post).'
+      },
+      {
+        question: 'What is the last date to submit hard copy for AIIMS Bhubaneswar Deputation posts?',
+        answer: 'Applications must reach within 45 days from the date of publication of vacancy notice in Employment News.'
+      },
+      {
+        question: 'Can private sector employees apply for AIIMS Bhubaneswar deputation posts?',
+        answer: 'No. As per rules, applications of candidates from private sector are not considered for recruitment on deputation basis.'
+      }
+    ]
+  },
+
+  'jkssb-district-divisional-ut-cadre-recruitment-2026': {
+    id: 'jkssb-district-divisional-ut-cadre-recruitment-2026',
+    seoTitle: 'JKSSB Recruitment 2026 (Advt 08/2026) – Apply Online for 518 Posts at jkssb.nic.in',
+    seoDescription: 'JKSSB Advertisement Notification 08 of 2026: Apply online for 518 UT/Divisional/District Cadre vacancies (Junior Pharmacist, Staff Nurse, Lab Tech, Horticulture Technician, etc.). Apply online from 10 Sept to 09 Oct 2026 at jkssb.nic.in.',
+    focusKeywords: 'JKSSB Recruitment 2026, JKSSB Advt 08 of 2026, JKSSB Junior Pharmacist 2026, jkssb.nic.in apply online',
+    lsiKeywords: 'JKSSB 518 Vacancies Notification 2026, JKSSB Health Educator Sanitary Inspector, JKSSB Horticulture Technician Grade IV, JKSSB Junior Staff Nurse FMPHW MMPHW',
+    title: 'JKSSB UT, Divisional & District Cadre Recruitment 2026 (Advt 08 of 2026) – 518 Vacancies',
+    board: 'Jammu & Kashmir Services Selection Board (JKSSB)',
+    advtNo: 'Advertisement Notification No. 08 of 2026 Dated 04.08.2026',
+    vacancies: 518,
+    jobLocation: 'UT of Jammu & Kashmir (Various Districts & Divisions across J&K)',
+    applicationMode: 'Online via www.jkssb.nic.in',
+    applicationStatus: 'Upcoming - Online Applications Open from 10 September 2026 to 09 October 2026',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Jammu and Kashmir Services Selection Board (JKSSB) has issued Advertisement Notification No. 08 of 2026 for direct recruitment to 518 UT, Divisional, and District Cadre posts across various J&K Government Departments.',
+      'Department-wise break-up: Health & Medical Education Department (421 posts), Higher Education Department (48 posts), Agriculture Production Department (46 posts), and Labour & Employment Department (03 posts).',
+      'Major posts include Junior Pharmacist (213 posts), Junior Lab Technician (48 posts), Junior Staff Nurse (47 posts), Horticulture Technician Grade-IV (45 posts), FMPHW (41 posts), Junior Laboratory Assistant (48 posts), Health Educator (15 posts), Sanitary Inspector (14 posts), MMPHW (13 posts), Junior Theatre Technician (10 posts), and Junior Ophthalmic Technician (19 posts).',
+      'Candidates possessing J&K Domicile status with 10th, 10+2, Basic Horticulture Training, ITI, Pharmacy Diploma, GNM, or B.Sc Science Degree are eligible to apply.',
+      'Online application window will be active on www.jkssb.nic.in from 10 September 2026 to 09 October 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Board', value: 'Jammu & Kashmir Services Selection Board (JKSSB)' },
+      { label: 'Advertisement No.', value: 'Advertisement Notification No. 08 of 2026' },
+      { label: 'Total Vacancies', value: '518 Posts (UT, Divisional & District Cadres)' },
+      { label: 'Health & Medical Education Posts', value: '421 Vacancies (Junior Pharmacist, Staff Nurse, Lab Tech, FMPHW, etc.)' },
+      { label: 'Higher Education Posts', value: '48 Vacancies (Junior Laboratory Assistant)' },
+      { label: 'Agriculture Production Posts', value: '46 Vacancies (Horticulture Technician Gr-IV & Sr Canning Attendant)' },
+      { label: 'Labour & Employment Posts', value: '03 Vacancies (Supervisor)' },
+      { label: 'Pay Levels', value: 'SL-2 (₹15,900-50,400) to Level-6 (₹35,400-1,12,400)' },
+      { label: 'Upper Age Limit (OM)', value: '40 Years (Born between 01.01.1986 and 01.01.2008)' },
+      { label: 'Upper Age Limit (SC/ST/RBA/ALC/EWS/OBC)', value: '43 Years (Born between 01.01.1983 and 01.01.2008)' },
+      { label: 'Application Fee', value: '₹600/- (₹500/- for SC/ST-1/ST-2/EWS/PwBD)' },
+      { label: 'Selection Scheme', value: 'Objective Type OMR Written Examination (Negative marking 0.25 marks)' },
+      { label: 'Online Application Dates', value: '10 September 2026 to 09 October 2026' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '04 August 2026' },
+      { event: 'Commencement of Online Applications', date: '10 September 2026' },
+      { event: 'Last Date for Submission of Online Application', date: '09 October 2026' },
+      { event: 'Cut-off Date for Qualifications & Domicile', date: '09 October 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Health & Medical Education: Junior Pharmacist (Level-4 ₹25,500-81,100)', count: 213 },
+      { category: 'Health & Medical Education: Junior Lab Technician (Level-4 ₹25,500-81,100)', count: 48 },
+      { category: 'Health & Medical Education: Junior Staff Nurse (Level-4 ₹25,500-81,100)', count: 47 },
+      { category: 'Health & Medical Education: FMPHW (Level-2 ₹19,900-63,200)', count: 41 },
+      { category: 'Health & Medical Education: Junior Ophthalmic Technician (Level-4)', count: 19 },
+      { category: 'Health & Medical Education: Health Educator (Level-6 ₹35,400-112,400)', count: 15 },
+      { category: 'Health & Medical Education: Sanitary Inspector (Level-6D ₹35,800-113,200)', count: 14 },
+      { category: 'Health & Medical Education: MMPHW (Level-2 ₹19,900-63,200)', count: 13 },
+      { category: 'Health & Medical Education: Junior Theatre Technician (Level-4)', count: 10 },
+      { category: 'Health & Medical Education: Para Medical Assistant (Level-4)', count: 1 },
+      { category: 'Higher Education: Junior Laboratory Assistant (Level-2 ₹19,900-63,200)', count: 48 },
+      { category: 'Agriculture Production: Horticulture Technician Grade-IV (SL-2 ₹15,900-50,400)', count: 45 },
+      { category: 'Agriculture Production: Senior Canning Attendant (Level-2 ₹19,900-63,200)', count: 1 },
+      { category: 'Labour & Employment: Supervisor (Level-2 ₹19,900-63,200)', count: 3 },
+      { category: 'Total JKSSB Advt 08 of 2026 Vacancies', count: 518 }
+    ],
+    eligibility: {
+      education: [
+        '1. Domicile Requirement: Candidate must be a Domicile of Union Territory of Jammu & Kashmir and possess a valid Domicile Certificate on or before 09.10.2026.',
+        '2. Junior Pharmacist (Level-4): 10+2 with Science having Degree/Diploma in Pharmacy Course from recognized Institute.',
+        '3. Junior Staff Nurse (Level-4): Matric or above qualification with Science + Diploma in General Nursing & Midwifery (GNM) from recognized Institute.',
+        '4. Junior Lab Technician (Level-4): Matric or above + 2 years Diploma in Lab Technician or Degree in Lab Technology course.',
+        '5. Horticulture Technician Grade-IV (SL-2): 10+2 with one year Basic Horticulture training passed from recognized institute.',
+        '6. Junior Laboratory Assistant (Level-2): Graduate in Science (B.Sc). Preference given to candidates holding PG Diploma in Professional Lab Course in Chemistry / Science.',
+        '7. Health Educator (Level-6): Graduation with Science from any recognized University.',
+        '8. Sanitary Inspector (Level-6D): 10+2 or above + minimum 2 year Diploma in Sanitation and Public Health.'
+      ],
+      ageLimit: 'Age as on 01.01.2026: Open Merit (OM) Max 40 Yrs (Born 01.01.1986 to 01.01.2008). Reserved Categories Max 43 Yrs (Born 01.01.1983 to 01.01.2008).',
+      ageRelaxation: [
+        { category: 'SC / ST-1 / ST-2 / RBA / ALC/IB / EWS / OBC', relaxation: 'Upper age limit 43 years' },
+        { category: 'Physically Challenged Person (PwBD)', relaxation: 'Upper age limit 42 years' },
+        { category: 'Ex-Servicemen (ESM)', relaxation: 'Actual service deducted + 3 years' }
+      ]
+    },
+    salary: {
+      payLevel: 'Pay Matrix Level-2 to Level-6',
+      initialPay: 'SL-2: ₹15,900-50,400 | Level-2: ₹19,900-63,200 | Level-4: ₹25,500-81,100 | Level-6: ₹35,400-112,400',
+      allowances: 'DA, HRA, Travel Allowance, Medical & other allowances per J&K UT rules.'
+    },
+    applicationFee: [
+      { category: 'Open Merit (OM) & Unreserved Candidates', fee: '₹600/- (Rupees Six Hundred Only)', refund: 'Non-refundable' },
+      { category: 'SC / ST-1 / ST-2 / EWS / PwBD Candidates', fee: '₹500/- (Rupees Five Hundred Only)', refund: 'Non-refundable' }
+    ],
+    selectionProcess: [
+      { stage: '1. Objective Written Examination', description: 'Written / OMR Objective Type Examination with English MCQs. Negative marking of 0.25 marks per wrong answer.' },
+      { stage: '2. Document Verification (DV)', description: 'Verification of original Domicile Certificate, Marksheets, Category Certificate, and Training Certificates.' }
+    ],
+    howToApply: [
+      'Visit official JKSSB portal: https://www.jkssb.nic.in.',
+      'Click on Online Application link for Advertisement Notification No. 08 of 2026.',
+      'Register with active Email ID and Mobile Number.',
+      'Fill in personal details, J&K Domicile info, educational qualifications, and post preferences.',
+      'Upload live photograph & signature (10-20 KB) and Category/Qualification certificates (max 100 KB PDF).',
+      'Pay application fee of ₹600/- (₹500 for reserved categories) via Net Banking, Credit/Debit card.',
+      'Submit the application form online before 09 October 2026.'
+    ],
+    documentsRequired: [
+      'Printout of Online Application Form',
+      'Valid J&K UT Domicile Certificate',
+      'Class 10th / Matriculation Certificate for DOB proof',
+      'Class 12th / Graduation Marksheets & Degree Certificates',
+      'Diploma / Degree Certificate in Pharmacy / Nursing / Lab Tech / Basic Horticulture',
+      'Valid Category Certificate (SC/ST/RBA/ALC-IB/EWS/OBC)',
+      'Two recent passport size colour photographs',
+      'Valid Photo ID Proof (Aadhaar Card, Voter ID, PAN Card)'
+    ],
+    importantInstructions: [
+      'Candidate must possess valid J&K Domicile Certificate on or before cut-off date 09.10.2026.',
+      'No hard copy of application form needs to be sent to JKSSB office prior to DV.',
+      'Negative marking of 1/4th (0.25) marks applicable in written test.'
+    ],
+    urls: [
+      { label: 'JKSSB Official Website', url: 'https://jkssb.nic.in' },
+      { label: 'JKSSB Online Application Portal', url: 'https://jkssb.nic.in/Pages/Applicant/Jobs.aspx' }
+    ],
+    faqs: [
+      {
+        question: 'When can candidates apply online for JKSSB Advt 08 of 2026?',
+        answer: 'Online application window will open on 10 September 2026 and close on 09 October 2026.'
+      },
+      {
+        question: 'Is J&K Domicile mandatory for applying for JKSSB 518 posts?',
+        answer: 'Yes, candidates must be Domiciles of UT of Jammu & Kashmir and hold a valid Domicile Certificate.'
+      },
+      {
+        question: 'What is the application fee for JKSSB Advt 08 of 2026?',
+        answer: 'Fee is ₹600/- for General/OM candidates and ₹500/- for SC, ST, EWS, and PwBD candidates.'
+      }
+    ]
+  },
+
   'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026': {
     id: 'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026',
     seoTitle: 'MANUU Darbhanga Recruitment 2026 – Walk-in-Interview for Caretaker, Electrician & Plumber',

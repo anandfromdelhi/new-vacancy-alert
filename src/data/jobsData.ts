@@ -12,6 +12,39 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'iiser-pune-sports-coach-part-time-recruitment-2026',
+    b: 'Indian Institute of Science Education and Research (IISER) Pune',
+    t: 'IISER Pune Recruitment 2026 – Apply Online for 10 Part-Time Sports Coach Posts (Athletics, Badminton, Cricket, Football, Volleyball & others) | Last Date 18 August 2026',
+    d: '04-08-2026',
+    l: '18-08-2026',
+    a: 'ADVERTISEMENT No.: 62/2026 Dated 04-08-2026',
+    q: 'Certificate Course / Diploma from NIS in Coaching OR B.P. Ed. Degree + 2 Years Coaching Experience',
+    desc: 'Indian Institute of Science Education and Research (IISER) Pune invites online applications from Indian nationals for 10 contractual part-time Sports Coach posts in Athletics, Badminton, Basketball, Cricket, Football, Kabaddi, Kho-Kho, Lawn Tennis, Table Tennis, and Volleyball. Remuneration ₹825/- per 2.5 hr session. Upper age limit 55 years. Apply online by 18 August 2026.',
+    u: 'https://www.iiserpune.ac.in'
+  },
+  {
+    id: 'aiims-bhubaneswar-group-a-b-c-deputation-recruitment-2026',
+    b: 'All India Institute of Medical Sciences (AIIMS), Bhubaneswar',
+    t: 'AIIMS Bhubaneswar Recruitment 2026 – Apply Offline for 61 Group A, B & C Posts on Deputation (Medical Supt, Registrar, Nursing Supt, Pharmacist, JAO, UDC) | Last Date 18 September 2026',
+    d: '04-08-2026',
+    l: '18-09-2026',
+    a: 'Advt No. - DEPUTATION/02/2026',
+    q: 'Officers from Central / State Govt / Autonomous Bodies holding Analogous Posts or requisite Regular Service',
+    desc: 'All India Institute of Medical Sciences (AIIMS), Bhubaneswar invites offline applications from eligible Central/State/UT Govt/Autonomous body officials for filling up 61 Group A, B, and C posts on Deputation Basis for up to 3 years. Pay Levels from Level-4 (UDC) up to Level-14 (Medical Superintendent). Apply by Speed/Registered Post within 45 days of Employment News publication.',
+    u: 'https://aiimsbhubaneswar.nic.in'
+  },
+  {
+    id: 'jkssb-district-divisional-ut-cadre-recruitment-2026',
+    b: 'Jammu & Kashmir Services Selection Board (JKSSB)',
+    t: 'JKSSB Recruitment 2026 (Advt 08 of 2026) – Apply Online for 518 Vacancies (Junior Pharmacist, Staff Nurse, Lab Tech, Horticulture Technician & others) | Apply 10 Sept to 09 Oct 2026',
+    d: '04-08-2026',
+    l: '09-10-2026',
+    a: 'Advertisement Notification No. 08 of 2026 Dated 04.08.2026',
+    q: '10th / 10+2 with Basic Horticulture Training / ITI / Diploma in Pharmacy / GNM / Lab Tech / B.Sc Science Degree + J&K Domicile',
+    desc: 'Jammu and Kashmir Services Selection Board (JKSSB) invites online applications for direct recruitment to 518 UT/Divisional/District Cadre posts across Agriculture Production (46), Health & Medical Education (421), Higher Education (48), and Labour & Employment (3) Departments. Pay Levels from SL-2 (₹15,900-50,400) to Level-6 (₹35,400-1,12,400). Apply online at jkssb.nic.in from 10 September to 09 October 2026.',
+    u: 'https://jkssb.nic.in'
+  },
+  {
     id: 'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026',
     b: 'Maulana Azad National Urdu University (MANUU), Central University',
     t: 'MANUU Darbhanga Recruitment 2026 – 10 Contractual Vacancies for Caretakers (Male/Female), Electrician & Plumber | Walk-in Interview on 11 August 2026',
