@@ -23,8 +23,9 @@ def extract_pdf_fast(pdf_path, max_pages=None):
     for page_idx in range(pages_to_read):
         page = reader.pages[page_idx]
         text = page.extract_text() or ""
+        clean_text = text.encode('ascii', errors='ignore').decode('ascii')
         print(f"--- PAGE {page_idx + 1} OF {total_pages} ---")
-        print(text[:500] + ("..." if len(text) > 500 else ""))
+        print(clean_text[:500] + ("..." if len(clean_text) > 500 else ""))
         print("\n")
         full_text.append(f"=== PAGE {page_idx + 1} ===\n{text}")
 

@@ -58,6 +58,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'ongc-medical-officers-specialist-recruitment-2026': {
+    id: 'ongc-medical-officers-specialist-recruitment-2026',
+    seoTitle: 'ONGC Medical Officer Recruitment 2026 – Apply Online for 24 Doctor & Specialist Posts',
+    seoDescription: 'Oil and Natural Gas Corporation Ltd. (ONGC) Medical Officers & Specialist Recruitment 2026 (Advt 3/2026): Apply for 24 Fixed Term posts (MO-OH, Specialist & Homeopathy). Annual CTC up to ₹15.85 Lakhs. No age limit. Check qualifications, location-wise seats & apply online by 18 August 2026.',
+    focusKeywords: 'ONGC Medical Officer Recruitment 2026, ONGC Doctor Vacancy 2026, ONGC Specialist Doctor Recruitment, ongcindia.com apply online',
+    lsiKeywords: 'ONGC Medical Officer Occupational Health MBBS, ONGC Specialist Dehradun Sivasagar Hospital, ONGC BHMS Homeopathy Doctor, ONGC Advt 3 2026 RP, ONGC Medical Officer CTC 15 Lakhs',
+    title: 'ONGC Medical Officers & Specialist Recruitment 2026 (Advt. No. 3/2026 R&P) – 24 Vacancies',
+    board: 'Oil and Natural Gas Corporation Ltd. (ONGC) - A Maharatna Public Sector Enterprise',
+    advtNo: 'Advt. No. 3/2026 (R&P) (Engagement of Doctors on Fixed Term Basis till 30.06.2028)',
+    vacancies: 24,
+    jobLocation: 'Various ONGC Work Locations (Dehradun, Sivasagar, Ahmedabad, Ankleshwar, Baroda, Dahej, Cambay, Mehsana, Uran, Kakinada, Rajahmundry, Karaikal, Agartala, Jorhat)',
+    applicationMode: 'Online via www.ongcindia.com',
+    applicationStatus: 'Active - Apply Online by 18 August 2026 (23:59 Hours)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Oil and Natural Gas Corporation Ltd. (ONGC), a "Maharatna" Public Sector Enterprise and India\'s flagship energy major engaged in Exploration and Production of Oil and Gas in India and abroad, invites online applications for engagement of Doctors on Fixed Term Basis till 30.06.2028.',
+      'A total of 24 positions are announced across 14 ONGC work locations for Medical Officer – Occupational Health (MO-OH) (14 posts), Specialist Doctors for Dehradun Hospital (3 posts), Specialist Doctors for Sivasagar Hospital (5 posts), and Homeopathy Doctors for Dehradun & Sivasagar (2 posts).',
+      'Selected candidates will be paid a consolidated annual Cost to Company (CTC) ranging from ₹7,80,000/- to ₹15,85,200/- per annum based on qualification and post, along with annual increments, in-house OPD medical facilities, and family floater medical insurance cover up to ₹7.5 Lakhs.',
+      'There is NO maximum age limit for applying. Selection will be based on qualification weightage (70 marks) followed by in-person physical Document Verification and Interview (30 marks) at the respective work locations.'
+    ],
+    highlights: [
+      { label: 'Recruiting Enterprise', value: 'Oil and Natural Gas Corporation Ltd. (ONGC)' },
+      { label: 'Enterprise Status', value: 'Maharatna Public Sector Enterprise (Ministry of Petroleum & Natural Gas)' },
+      { label: 'Advertisement No.', value: 'Advt. No. 3/2026 (R&P)' },
+      { label: 'Tenure Period', value: 'Fixed Term Engagement from date of joining till 30.06.2028' },
+      { label: 'Total Vacancies', value: '24 Posts (MO-OH: 14, Specialist Dehradun: 3, Specialist Sivasagar: 5, Homeopathy: 2)' },
+      { label: 'Upper Age Limit', value: 'No Maximum Age Limit' },
+      { label: 'Annual CTC (MO-OH MBBS)', value: '₹12,00,000/- (1st Year) | ₹12,18,000/- (2nd Year)' },
+      { label: 'Annual CTC (Specialist MD/MS)', value: '₹15,60,000/- (1st Year) | ₹15,85,200/- (2nd Year)' },
+      { label: 'Annual CTC (Specialist PG Diploma)', value: '₹13,20,000/- (1st Year) | ₹13,41,600/- (2nd Year)' },
+      { label: 'Annual CTC (Homeopathy BHMS)', value: '₹7,80,000/- (1st Year) | ₹7,89,600/- (2nd Year)' },
+      { label: 'Application Fee', value: '₹0/- (No Application Fee)' },
+      { label: 'Selection Process', value: 'Qualification Marks Weightage (70 Marks) + In-Person Physical Interview (30 Marks)' },
+      { label: 'Online Registration Dates', value: '05 August 2026 to 18 August 2026 (23:59 Hours)' }
+    ],
+    importantDates: [
+      { event: 'Opening Date for Online Registration', date: '05 August 2026' },
+      { event: 'Closing Date for Online Registration', date: '18 August 2026 (23:59 Hours)' },
+      { event: 'Crucial Date for Qualification & Registration', date: 'On or before date of interview' },
+      { event: 'In-Person Document Verification & Interview', date: 'To be intimated to candidates via email' }
+    ],
+    vacanciesDetails: [
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Dehradun', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Ahmedabad', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Ankleshwar', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Baroda', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Dahej', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Cambay', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Mehsana', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Uran', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Kakinada', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Rajahmundry', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Karaikal', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Agartala', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Jorhat', count: 1 },
+      { category: 'A. Medical Officer - Occupational Health (MO-OH) (MBBS) - Sivasagar', count: 1 },
+      { category: 'B. Specialist Doctors (Dehradun Hospital) (Physician, Paediatrics, Surgery)', count: 3 },
+      { category: 'C. Specialist Doctors (Sivasagar Hospital) (Anaesthesia, Gynaecology, Physician, Surgery)', count: 5 },
+      { category: 'D. Medical Officer - Homeopathy (BHMS) (Dehradun: 1, Sivasagar: 1)', count: 2 },
+      { category: 'Total Fixed Term Medical Vacancies', count: 24 }
+    ],
+    eligibility: {
+      education: [
+        'A. Medical Officer - Occupational Health (MO-OH): Bachelor of Medicine and Bachelor of Surgery (MBBS) Degree. Candidates having training in occupational health/public health or occupational medicine will be preferred.',
+        'B. Specialist Doctors (Dehradun & Sivasagar Hospitals): MD / MS / DNB or PG Diploma in respective stream (Physician, Paediatrics, Surgery, Anaesthesia, Obstetrics & Gynaecology).',
+        'C. Medical Officer - Homeopathy: Bachelor of Homeopathic Medicine and Surgery (BHMS) Degree from a recognized University/Institute.',
+        'Mandatory Registration: Degree (MBBS / MD / MS / BHMS) must compulsorily be registered with Medical Council of India (MCI) / National Medical Commission (NMC) / National Commission for Homoeopathy (NCH) / State Medical Council.'
+      ],
+      ageLimit: 'There is NO maximum age limit for applying.',
+      ageRelaxation: [
+        { category: 'All Categories', relaxation: 'No age ceiling applies' }
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Annual CTC Basis',
+      initialPay: 'MO-OH (MBBS): ₹12.00 Lakhs/yr | Specialist (MD/MS): ₹15.60 Lakhs/yr | Specialist (Diploma): ₹13.20 Lakhs/yr | Homeopathy (BHMS): ₹7.80 Lakhs/yr',
+      allowances: 'In-house OPD medical facility for self, spouse & 2 dependents + Reimbursement for premium of Family Floater Medical Cover of ₹7.5 Lakhs for indoor treatment.'
+    },
+    applicationFee: [
+      { category: 'All Candidates (UR / OBC / EWS / SC / ST / PwBD)', fee: '₹0/- (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Shortlisting & Qualification Weightage (70 Marks)', description: '60 marks for essential qualification + up to 10 marks for relevant higher qualifications (MD/MS/DNB/M.Ch/DM). Shortlisting ratio for Homeopathy is 1:10.' },
+      { stage: '2. In-Person Physical Interview (30 Marks)', description: 'Physical interview conducted at respective work location venue. Qualifying marks: 18 marks for UR/EWS/OBC; 12 marks for SC/ST.' },
+      { stage: '3. Medical Examination', description: 'Selected candidates must pass ONGC Medical Examination as per ONGC Medical Examination Rules.' }
+    ],
+    howToApply: [
+      'Visit official ONGC website: https://www.ongcindia.com under Careers / Recruitment section.',
+      'Click on the registration web link for "Engagement of Doctors on Fixed Term Basis Advt. No. 3/2026 (R&P)".',
+      'Fill in personal details, educational qualifications, MCI/State Medical Council registration details, and work experience.',
+      'Upload recent passport size photo with signature (jpg/jpeg, up to 200 KB), 10th DOB certificate, MBBS/BHMS/MD degree marksheets & registration certificate.',
+      'Candidates can apply for only ONE post-location combination based on eligibility.',
+      'Submit the application online before 18 August 2026 (23:59 Hours).'
+    ],
+    documentsRequired: [
+      'Recent Passport size colour photograph with signature pasted below (jpg/jpeg, max 200 KB)',
+      'Valid Photo ID Proof (PAN Card, Aadhaar Card, Passport, Driving Licence, Voter ID)',
+      '10th Board Certificate containing Date of Birth (DOB)',
+      'Consolidated Marksheet & Degree Certificate of MBBS / BHMS',
+      'Degree and Marksheets for Post Graduate Degree / Diploma / DNB (if applicable)',
+      'Certificate regarding training in occupational health / public health / occupational medicine (if applicable)',
+      'Valid Registration Certificate with MCI / NMC / NCH / State Medical Council',
+      'Category Certificate (OBC-NCL / SC / ST / EWS) issued on or after 01.04.2026'
+    ],
+    importantInstructions: [
+      'No application fee is charged.',
+      'No TA/DA will be paid for attending the physical interview.',
+      'Candidate must possess a valid registration certificate with Medical Council on date of interview.'
+    ],
+    urls: [
+      { label: 'ONGC Official Website', url: 'https://www.ongcindia.com' },
+      { label: 'ONGC Careers Portal', url: 'https://www.ongcindia.com/wps/wcm/connect/ongc-en/about-ongc/careers' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply online for ONGC Medical Officers Recruitment 2026?',
+        answer: 'The last date to register online on ongcindia.com is 18 August 2026 (23:59 Hours).'
+      },
+      {
+        question: 'What is the annual CTC for ONGC Medical Officer (Occupational Health)?',
+        answer: 'The annual CTC for MO(OH) MBBS is ₹12,00,000/- for the 1st year and ₹12,18,000/- for the 2nd year.'
+      },
+      {
+        question: 'Is there any age limit to apply for ONGC Doctor posts?',
+        answer: 'No. There is no maximum age limit for applying for ONGC Medical Officer and Specialist posts.'
+      },
+      {
+        question: 'How will candidates be selected for ONGC Doctor recruitment?',
+        answer: 'Selection is based on 70% weightage for educational qualifications & higher degrees, and 30% marks for in-person physical interview.'
+      }
+    ]
+  },
+
   'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026': {
     id: 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026',
     seoTitle: 'ICMR-NIHR Jodhpur Recruitment 2026 – Walk-in-Interview for Project Scientists & Officers',

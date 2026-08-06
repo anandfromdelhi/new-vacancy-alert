@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'ongc-medical-officers-specialist-recruitment-2026',
+    b: 'Oil and Natural Gas Corporation Ltd. (ONGC)',
+    t: 'ONGC Medical Officers & Specialist Recruitment 2026 – Apply Online for 24 Fixed Term Posts (MO-OH, Specialist & Homeopathy) | Last Date 18 August 2026',
+    d: '05-08-2026',
+    l: '18-08-2026',
+    a: 'Advt. No. 3/2026 (R&P)',
+    q: 'MBBS / MD / MS / DNB / PG Diploma / BHMS Degree + Valid MCI / NMC / NCH / State Registration',
+    desc: 'Oil and Natural Gas Corporation Ltd. (ONGC), a Maharatna PSE, invites online applications for engagement of 24 Medical Officers (Occupational Health), Specialists (Physician, Paediatrics, Surgery, Anaesthesia, Gynaecology), and Homeopathy Doctors on Fixed Term Basis till 30.06.2028 across 14 ONGC locations. Annual CTC up to ₹15,85,200/-. No upper age limit. Apply online at ongcindia.com by 18 August 2026.',
+    u: 'https://www.ongcindia.com'
+  },
+  {
     id: 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026',
     b: 'ICMR - National Institute of Health Research (ICMR-NIHR), Jodhpur',
     t: 'ICMR-NIHR Jodhpur Recruitment 2026 – Project Research Scientist-III/II, Administrative Officer & Field Officer | Walk-in-Interview 24 August 2026',
