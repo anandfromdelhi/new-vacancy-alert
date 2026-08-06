@@ -213,7 +213,7 @@ export function getQualificationsWithCounts(jobs: JobEntry[]): QualificationCoun
       };
     })
     .filter(q => q.count > 0)
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /**
@@ -230,7 +230,7 @@ export function getStatesWithCounts(jobs: JobEntry[]): Array<{name: string, slug
 
   return Object.entries(counts)
     .map(([name, count]) => ({ name, slug: toSlug(name), count }))
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /**
@@ -252,7 +252,7 @@ export function getBoardsWithCounts(jobs: JobEntry[]): Array<{name: string, slug
 
   return Object.entries(counts)
     .map(([slug, count]) => ({ name: names[slug], slug, count }))
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /**
