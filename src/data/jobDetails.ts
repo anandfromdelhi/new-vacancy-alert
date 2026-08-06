@@ -58,6 +58,467 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'district-court-sbs-nagar-clerk-recruitment-2026': {
+    id: 'district-court-sbs-nagar-clerk-recruitment-2026',
+    seoTitle: 'District Court SBS Nagar Recruitment 2026 – Apply Offline for 13 Clerk Posts',
+    seoDescription: 'District & Sessions Judge Shaheed Bhagat Singh Nagar (Nawanshahr, Punjab) Recruitment 2026: Apply offline for 13 Clerk posts on adhoc basis in Level-5 Pay Matrix. BA/BSc degree + Punjabi in 10th. Apply offline by 13 August 2026 (5:00 PM).',
+    focusKeywords: 'District Court SBS Nagar Recruitment 2026, Nawanshahr District Court Clerk Vacancy, Punjab District Court Clerk Recruitment, nawanshahr.dcourts.gov.in',
+    lsiKeywords: 'SBS Nagar District Court Clerk Pay Level 5, District Judge Shaheed Bhagat Singh Nagar Clerk walk-in test, Nawanshahr Clerk recruitment last date 13 August 2026, Punjab Judiciary adhoc clerk jobs',
+    title: 'District & Sessions Judge SBS Nagar (Nawanshahr, Punjab) Clerk Recruitment 2026 – 13 Adhoc Posts',
+    board: 'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (SBS Nagar / Nawanshahr), Punjab',
+    advtNo: 'Public Appointment Notice / Endst. No. 5591/DSJ-6A Dated 27.07.2026',
+    vacancies: 13,
+    jobLocation: 'District & Sessions Court, Shaheed Bhagat Singh Nagar (Nawanshahr), Punjab',
+    applicationMode: 'Offline (Hard copy via Speed Post / Registered Post / By Hand)',
+    applicationStatus: 'Active - Apply Offline by 13 August 2026 (5:00 PM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (SBS Nagar / Nawanshahr, Punjab) invites offline applications in prescribed proforma for filling up 13 vacant posts of Clerks on adhoc basis for a period of six months or till regular appointments are made by Hon\'ble High Court of Punjab and Haryana.',
+      'Category-wise vacancies: Freedom Fighter (Female: 1), Sportsmen Gen (Female: 1), Sportsmen SC (Male: 1), SC Other (Female: 3), PHC Blindness (Female: 1), ESM Gen (Male: 2), ESM Gen (Female: 2), ESM SC (Male: 2) — Total 13 Posts.',
+      'Selected candidates will receive fixed monthly salary (Basic Pay only) in Pay Matrix Level-5 of 7th Central Pay Commission as adopted by Punjab Govt.',
+      'Applicants must possess B.A./B.Sc. degree with Matriculation Punjabi language pass and computer proficiency.',
+      'Complete application forms with self-attested documents must reach the District & Sessions Court, Shaheed Bhagat Singh Nagar by 13 August 2026 before 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Office', value: 'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Punjab)' },
+      { label: 'Jurisdiction', value: 'Hon\'ble High Court of Punjab & Haryana, Chandigarh' },
+      { label: 'Post Name', value: 'Clerk (On Adhoc Basis)' },
+      { label: 'Total Vacancies', value: '13 Posts' },
+      { label: 'Pay Scale', value: 'Pay Matrix Level-5 of 7th CPC (Fixed Basic Pay as per Punjab Govt)' },
+      { label: 'Age Limit', value: '18 to 37 years as on 01.08.2026 (Relaxation per rules)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee)' },
+      { label: 'Selection Scheme', value: 'Written Test (English & GK) + Computer Typing Test (30 WPM)' },
+      { label: 'Last Date for Receipt', value: '13 August 2026 (by 5:00 PM)' },
+      { label: 'Official Portal', value: 'https://districts.ecourts.gov.in/nawanshahr' }
+    ],
+    importantDates: [
+      { event: 'Notification Dated', date: '27 July 2026' },
+      { event: 'Last Date for Receipt of Hard Copy Application', date: '13 August 2026 (up to 5:00 PM)' },
+      { event: 'Crucial Date for Age Calculation', date: '01 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Freedom Fighter (Female)', count: 1 },
+      { category: 'Sportsmen (General Female)', count: 1 },
+      { category: 'Sportsmen (SC Male)', count: 1 },
+      { category: 'SC Other (Female)', count: 3 },
+      { category: 'PHC (L.V./Blindness Female)', count: 1 },
+      { category: 'Ex-Servicemen ESM (General Male)', count: 2 },
+      { category: 'Ex-Servicemen ESM (General Female)', count: 2 },
+      { category: 'Ex-Servicemen ESM (SC Male)', count: 2 },
+      { category: 'Total Adhoc Clerk Vacancies', count: 13 }
+    ],
+    eligibility: {
+      education: [
+        '1. Essential Qualification: Degree of B.A. / B.Sc. or equivalent thereto from a recognized University.',
+        '2. Language Qualification: Must have passed Punjabi language as a subject in Matriculation examination.',
+        '3. Computer Proficiency: Candidate should have proficiency in operation of computer.'
+      ],
+      ageLimit: '18 to 37 years as on 01.08.2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / BC / Reserved Categories of Punjab', relaxation: 'As per Punjab Govt & High Court rules' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-5',
+      initialPay: 'Fixed Monthly Salary (Basic Pay Level-5) as adopted by Punjab Govt',
+      allowances: 'Adhoc basis initially for 6 months or until regular appointments.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Written Test (100 Marks, 2 Hours)', description: 'English Composition (50 Marks) & General Knowledge (50 Marks). Minimum qualifying 33% in each subject & 40% aggregate.' },
+      { stage: '2. Computer Typing Test', description: 'Candidates qualifying written test (10 times vacancies) called for Computer Typing Test in English at speed of 30 W.P.M.' }
+    ],
+    howToApply: [
+      'Download prescribed proforma application form from official website https://districts.ecourts.gov.in/nawanshahr.',
+      'Fill out the form in CAPITAL letters with personal details, educational qualifications, Punjabi subject in 10th, and contact info.',
+      'Attach self-attested photocopies of 10th DOB certificate, Graduation degree/marksheets, Punjabi pass certificate, category certificate, and 2 recent passport size photographs.',
+      'Send hard copy by post or submit by hand to: "Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar, Punjab".',
+      'Ensure application reaches by 13 August 2026 before 5:00 PM.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form Proforma',
+      'Two recent Passport size Photographs (duly signed)',
+      'Self-attested copy of Matriculation (10th) Certificate showing DOB & Punjabi pass proof',
+      'Self-attested copy of B.A. / B.Sc. / Graduation Degree Certificate & Marksheets',
+      'Self-attested copy of Category / Caste / ESM / PH Certificate (if applicable)',
+      'Self-attested copy of Photo ID & Residence proof'
+    ],
+    importantInstructions: [
+      'Punjabi subject in Matriculation is mandatory.',
+      'Application received after 5:00 PM on 13 August 2026 will be rejected without any reason.',
+      'Check venue and schedule updates regularly on https://districts.ecourts.gov.in/nawanshahr.'
+    ],
+    urls: [
+      { label: 'SBS Nagar (Nawanshahr) District Court Portal', url: 'https://districts.ecourts.gov.in/nawanshahr' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for District Court SBS Nagar Clerk recruitment 2026?',
+        answer: 'Hard copy applications must reach the Office of the District & Sessions Judge, SBS Nagar by 13 August 2026 before 5:00 PM.'
+      },
+      {
+        question: 'What is the qualification required for SBS Nagar Clerk posts?',
+        answer: 'Candidates must possess B.A./B.Sc. degree, have passed Punjabi in 10th class, and be proficient in computer operations.'
+      },
+      {
+        question: 'What is the typing speed required for Nawanshahr Court Clerk?',
+        answer: 'Qualifying candidates must pass English Computer Typing Test at a speed of 30 W.P.M.'
+      }
+    ]
+  },
+
+  'district-court-sonepur-clerk-typist-steno-recruitment-2026': {
+    id: 'district-court-sonepur-clerk-typist-steno-recruitment-2026',
+    seoTitle: 'District Court Sonepur Recruitment 2026 – Apply Offline for 22 Clerk, Typist & Steno Posts',
+    seoDescription: 'District Court Sonepur (Subarnapur, Odisha) Recruitment 2026 (Advt 01/2026): Apply offline for 22 vacancies of Junior Clerk-cum-Copyist, Junior Typist & Stenographer Grade-III. +3 Graduation + DCA. Zero Fee. Apply offline by 31 August 2026.',
+    focusKeywords: 'District Court Sonepur Recruitment 2026, Subarnapur District Court Vacancy, Odisha Judiciary Clerk Typist Steno, sonepur.dcourts.gov.in',
+    lsiKeywords: 'District Court Sonepur Junior Clerk Copyist Level 4, Subarnapur District Court Steno Grade 3 Level 7, Odisha District Court Recruitment 31 August 2026, Sonepur Court DCA computer qualification',
+    title: 'District Court Sonepur Recruitment 2026 (Junior Clerk, Typist & Stenographer) – 22 Regular Posts',
+    board: 'Office of the District Judge, Sonepur (Subarnapur District Judiciary), Government of Odisha',
+    advtNo: 'Advertisement No. 01 of 2026 Dated 30.07.2026',
+    vacancies: 22,
+    jobLocation: 'District & Civil Courts, Sonepur (Subarnapur District), Odisha – 767017',
+    applicationMode: 'Offline (Hard Copy by Speed Post / Registered Post Only)',
+    applicationStatus: 'Active - Apply Offline by 31 August 2026 (5:00 PM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Office of the District Judge, Sonepur (Subarnapur District Judiciary, Odisha) invites offline applications in prescribed format (Form-A) from eligible candidates for filling up 22 regular vacancies in the cadre of Junior Clerk-cum-Copyist, Junior Typist, and Stenographer Grade-III.',
+      'Cadre-wise vacancies: Junior Clerk-cum-Copyist (15 posts: UR 7, SC 2, ST 5, SEBC 1), Junior Typist (03 posts: UR 2, ST 1), and Stenographer Grade-III (04 posts: UR 3, ST 1).',
+      'Pay Scales: Level-4 (₹19,900 - 63,200/-) for Junior Clerk & Junior Typist; Level-7 (₹25,500 - 81,100/-) for Stenographer Grade-III.',
+      'Educational requirement: Passed +3 Examination (Graduation) or equivalent with minimum Diploma in Computer Application (DCA) from recognized institute and Odia language proficiency (ME standard).',
+      'Hard copy applications with self-attested documents must reach the Office of the District Judge, Sonepur by 31 August 2026 before 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Office', value: 'Office of the District Judge, Sonepur (Subarnapur Judiciary, Odisha)' },
+      { label: 'Parent Jurisdiction', value: 'Hon\'ble High Court of Orissa, Cuttack' },
+      { label: 'Advertisement No.', value: 'Advertisement No. 01 of 2026' },
+      { label: 'Total Vacancies', value: '22 Regular Vacancies (Clerk: 15, Typist: 3, Steno: 4)' },
+      { label: 'Pay Scale (Clerk & Typist)', value: 'Pay Matrix Level-4 (₹19,900 - 63,200/-)' },
+      { label: 'Pay Scale (Stenographer Gr-III)', value: 'Pay Matrix Level-7 (₹25,500 - 81,100/-)' },
+      { label: 'Age Limit', value: '18 to 42 years as on 31.08.2026 (Relaxation for SC/ST/SEBC/Women/PH)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee for any category)' },
+      { label: 'Selection Scheme', value: 'Written Test + Typewriting/Shorthand Test + Computer Science Test (Practical) + Viva-Voce' },
+      { label: 'Last Date for Receipt', value: '31 August 2026 (by 5:00 PM)' },
+      { label: 'Official Portal', value: 'https://sonepur.dcourts.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '30 July 2026' },
+      { event: 'Last Date for Receipt of Hard Copy Application', date: '31 August 2026 (up to 5:00 PM)' },
+      { event: 'Crucial Date for Age & Qualifications', date: '31 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Junior Clerk-cum-Copyist (UR 7, SC 2, ST 5, SEBC 1)', count: 15 },
+      { category: 'Junior Typist (UR 2, ST 1)', count: 3 },
+      { category: 'Stenographer Grade-III (UR 3, ST 1)', count: 4 },
+      { category: 'Total Sonepur District Court Vacancies', count: 22 }
+    ],
+    eligibility: {
+      education: [
+        '1. Educational Qualification: Must have passed at least +3 examination (Graduation in Arts/Science/Commerce) or equivalent from a recognized university.',
+        '2. Computer Qualification: Must have passed at least Diploma in Computer Application (DCA) from a recognized institute.',
+        '3. Language Requirement: Must be able to speak, read, and write Odia and have passed ME standard Odia test.',
+        '4. Technical Speed (for Typist): Minimum 40 wpm speed in Typewriting in English on computer.',
+        '5. Technical Speed (for Steno): Minimum 80 wpm in Shorthand and 40 wpm in Typewriting in English on computer.'
+      ],
+      ageLimit: '18 to 42 years as on 31 August 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / SEBC / Women Candidates', relaxation: '5 Years' },
+        { category: 'PwD Candidates', relaxation: '10 Years' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-4 & Level-7',
+      initialPay: 'Clerk/Typist: ₹19,900/- pm (Level-4) | Steno Gr-III: ₹25,500/- pm (Level-7)',
+      allowances: 'DA, HRA, Medical & other allowances per Odisha State Govt rules.'
+    },
+    applicationFee: [
+      { category: 'All Candidates (UR/SC/ST/SEBC/PwD/Women)', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Written Test (for Clerk)', description: 'English (100 marks, 2 hrs), Arithmetic (100 marks, 1 hr), General Knowledge (100 marks, 1 hr). Qualifying 35% in each paper.' },
+      { stage: '2. Skill Tests (for Typist/Steno)', description: 'English Qualifying Test (100 marks) + Typewriting Test 40 wpm / Shorthand Test 80 wpm (50 marks).' },
+      { stage: '3. Computer Science Test (Practical)', description: 'Practical test on MS Word, Excel, PowerPoint & Internet (100 marks, 1 hr). Qualifying 50% for UR, 40% for SC/ST.' },
+      { stage: '4. Viva-Voce Test', description: 'Personal interview of 45 marks (Clerk/Copyist) / 35 marks (Typist/Steno).' }
+    ],
+    howToApply: [
+      'Download application Form-A from official portal https://sonepur.dcourts.gov.in.',
+      'Fill in the application form in CAPITAL letters with educational qualifications (+3/DCA), Odia pass proof, and category details.',
+      'Attach self-attested photocopies of 10th HSC, +2, +3 Graduation marksheets & degree, DCA certificate, Odia pass certificate, character certificates (2 gazetted), and caste certificate.',
+      'Attach 4 self-attested passport size photographs and 2 self-addressed postal envelopes with ₹56/- postal stamps on each.',
+      'Super-scribe the envelope with "APPLICATION FOR THE POST OF ______________".',
+      'Send by Speed Post or Registered Post to: "The Office of the District Judge, Sonepur, PIN-767017, Odisha".',
+      'Ensure application reaches by 31 August 2026 before 5:00 PM.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form-A',
+      'Four recent self-attested Passport size Photographs',
+      'Self-attested copy of 10th HSC Certificate & Marksheet for DOB proof',
+      'Self-attested copies of +2 and +3 Graduation Certificates & Marksheets',
+      'Self-attested copy of DCA (Diploma in Computer Application) Certificate',
+      'Self-attested copy of Shorthand / Typewriting Certificate (for Steno/Typist)',
+      'Self-attested copy of Odia Language Pass Certificate (ME standard)',
+      'Two Character Certificates from Gazetted Officers / Medical Practitioner',
+      'Two self-addressed postal envelopes (5"x12") with ₹56/- stamps each',
+      'Valid Category / Caste / PwD / Sports Certificate'
+    ],
+    importantInstructions: [
+      'No application fee required.',
+      'Application received after 5:00 PM on 31.08.2026 will be rejected.',
+      'Regular updates available on https://sonepur.dcourts.gov.in.'
+    ],
+    urls: [
+      { label: 'Sonepur District Court Official Portal', url: 'https://sonepur.dcourts.gov.in' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for District Court Sonepur recruitment 2026?',
+        answer: 'Hard copy applications must reach the Office of the District Judge, Sonepur by 31 August 2026 before 5:00 PM.'
+      },
+      {
+        question: 'Is there any application fee for Sonepur District Court posts?',
+        answer: 'No, there is zero application fee for all candidates.'
+      },
+      {
+        question: 'Is DCA mandatory for Sonepur Court Junior Clerk and Typist posts?',
+        answer: 'Yes, candidates must possess at least a Diploma in Computer Application (DCA) from a recognized institute.'
+      }
+    ]
+  },
+
+  'district-court-balasore-clerk-typist-steno-recruitment-2026': {
+    id: 'district-court-balasore-clerk-typist-steno-recruitment-2026',
+    seoTitle: 'District Court Balasore Recruitment 2026 – Apply Offline for 48 Clerk, Typist & Steno Posts',
+    seoDescription: 'District Court Balasore (Odisha) Recruitment 2026 (Advt 03/2026): Apply offline for 48 regular vacancies of Junior Clerk & Copyist, Stenographer Grade-III & Junior Typist. +3 Graduation + DCA. Zero Fee. Apply by Speed/Registered Post by 07 August 2026.',
+    focusKeywords: 'District Court Balasore Recruitment 2026, Balasore District Court Vacancy, Odisha Judiciary Clerk Typist Steno, balasore.dcourts.gov.in',
+    lsiKeywords: 'Balasore District Court Junior Clerk Copyist Level 4, Balasore District Court Steno Grade 3 Level 7, Odisha District Court Recruitment 07 August 2026, Balasore Court DCA computer qualification',
+    title: 'District Court Balasore Recruitment 2026 (Junior Clerk, Stenographer & Typist) – 48 Regular Posts',
+    board: 'Office of the District Judge, Balasore (District Judiciary), Government of Odisha',
+    advtNo: 'ADVERTISEMENT NO.- 03 OF 2026 Dated 07.07.2026',
+    vacancies: 48,
+    jobLocation: 'District & Civil Courts, Balasore, Odisha – 756001',
+    applicationMode: 'Offline (Hard Copy by Speed Post / Registered Post Only)',
+    applicationStatus: 'Active - Apply Offline by 07 August 2026 (5:00 PM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Office of the District Judge, Balasore (Odisha) invites offline applications in prescribed format (Form-A) from eligible candidates for filling up 48 regular vacancies in the Judgship of Balasore.',
+      'Cadre-wise vacancies: Junior Clerk & Copyist (32 posts: UR 14, SC 7, ST 9, SEBC 2), Stenographer Grade-III (07 posts: UR 2, SC 1, ST 3, SEBC 1), and Junior Typist (09 posts: UR 6, SC 1, ST 1, SEBC 1).',
+      'Pay Matrix: Level-4 (₹19,900 - 63,200/-) for Junior Clerk & Junior Typist; Level-7 (₹25,500 - 81,100/-) for Stenographer Grade-III.',
+      'Qualifications: Passed +3 Examination (Graduation in Arts/Science/Commerce) or equivalent + Diploma in Computer Application (DCA) + Odia language proficiency (ME standard).',
+      'Applications sent via Speed Post or Registered Post only must reach the Registrar, Civil Courts, Balasore by 07 August 2026 before 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Office', value: 'Office of the District Judge, Balasore (Judgship of Balasore, Odisha)' },
+      { label: 'Parent High Court', value: 'Hon\'ble High Court of Orissa, Cuttack' },
+      { label: 'Advertisement No.', value: 'ADVERTISEMENT NO.- 03 OF 2026' },
+      { label: 'Total Vacancies', value: '48 Regular Vacancies (Clerk: 32, Steno: 7, Typist: 9)' },
+      { label: 'Pay Scale (Clerk & Typist)', value: 'Pay Matrix Level-4 (₹19,900 - 63,200/-)' },
+      { label: 'Pay Scale (Stenographer Gr-III)', value: 'Pay Matrix Level-7 (₹25,500 - 81,100/-)' },
+      { label: 'Age Limit', value: '18 to 42 years as on 07.08.2026 (Relaxation per rules)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee for any category)' },
+      { label: 'Selection Scheme', value: 'Written Test + Technical Skill Test + Computer Practical Test + Viva-Voce' },
+      { label: 'Last Date for Receipt', value: '07 August 2026 (by 5:00 PM)' },
+      { label: 'Address for Submission', value: 'REGISTRAR, CIVIL COURTS, BALASORE, AT/PO/PS/DIST.- BALASORE, PIN CODE-756001' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '07 July 2026' },
+      { event: 'Last Date for Receipt of Hard Copy Application', date: '07 August 2026 (up to 5:00 PM)' },
+      { event: 'Crucial Date for Age & Qualifications', date: '07 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Junior Clerk & Copyist (UR 14, SC 7, ST 9, SEBC 2)', count: 32 },
+      { category: 'Stenographer Grade-III (UR 2, SC 1, ST 3, SEBC 1)', count: 7 },
+      { category: 'Junior Typist (UR 6, SC 1, ST 1, SEBC 1)', count: 9 },
+      { category: 'Total Balasore District Court Vacancies', count: 48 }
+    ],
+    eligibility: {
+      education: [
+        '1. Educational Qualification: Must have passed at least +3 examination (Graduation) or equivalent from a recognized university.',
+        '2. Computer Qualification: Must have passed at least Diploma in Computer Application (DCA) from a recognized institute.',
+        '3. Language Proficiency: Must be able to speak, read, and write Odia and have passed ME standard Odia test.',
+        '4. Technical Speed (for Typist): Minimum 40 wpm speed in Typewriting in English on computer.',
+        '5. Technical Speed (for Steno): Minimum 80 wpm in Shorthand and 40 wpm in Typewriting in English on computer.'
+      ],
+      ageLimit: '18 to 42 years as on 07 August 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / SEBC / Women Candidates', relaxation: '5 Years' },
+        { category: 'PwD Candidates', relaxation: '10 Years' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-4 & Level-7',
+      initialPay: 'Clerk/Typist: ₹19,900/- pm (Level-4) | Steno Gr-III: ₹25,500/- pm (Level-7)',
+      allowances: 'DA, HRA, Medical & other allowances per Odisha Govt rules.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Written Test (for Clerk)', description: 'English (100 marks), Arithmetic (100 marks), General Knowledge (100 marks). Minimum 35% in each paper.' },
+      { stage: '2. Skill Tests (for Typist/Steno)', description: 'English Qualifying Test (100 marks) + Shorthand/Typewriting Test (50 marks).' },
+      { stage: '3. Computer Science Test (Practical)', description: 'Practical test on MS Office & Internet (100 marks, 1 hr). Qualifying 50% (40% for SC/ST).' },
+      { stage: '4. Viva-Voce Test', description: 'Personal interview of 45 marks (Clerk) / 35 marks (Typist/Steno).' }
+    ],
+    howToApply: [
+      'Download application Form-A from official website https://balasore.dcourts.gov.in.',
+      'Fill in the application form in CAPITAL letters with educational qualifications (+3/DCA), Odia pass proof, and category details.',
+      'Attach self-attested photocopies of 10th HSC, +2, +3 Graduation marksheets & degree, DCA certificate, Odia pass certificate, character certificates (2 gazetted), and caste certificate.',
+      'Attach 3 self-signed passport size photographs and 2 self-addressed postal envelopes with ₹60/- stamps on each.',
+      'Super-scribe the envelope with "APPLICATION FOR THE POST OF ______________".',
+      'Send by Speed Post or Registered Post to: "REGISTRAR, CIVIL COURTS, BALASORE, AT/PO/PS/DIST.- BALASORE, PIN CODE-756001, Odisha".',
+      'Ensure application reaches by 07 August 2026 before 5:00 PM.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form-A',
+      'Three recent self-signed Passport size Photographs',
+      'Self-attested copy of 10th HSC Certificate & Marksheet for DOB proof',
+      'Self-attested copies of +2 and +3 Graduation Certificates & Marksheets',
+      'Self-attested copy of DCA (Diploma in Computer Application) Certificate',
+      'Self-attested copy of Shorthand / Typewriting Certificate (for Steno/Typist)',
+      'Self-attested copy of Odia Language Pass Certificate (ME standard)',
+      'Two Character Certificates from Gazetted Officers / Medical Practitioner',
+      'Two self-addressed postal envelopes with ₹60/- stamps each',
+      'Valid Category / Caste / PwD / Sports Certificate'
+    ],
+    importantInstructions: [
+      'No application fee required.',
+      'Application received after 5:00 PM on 07.08.2026 will be rejected.',
+      'Regular updates available on https://balasore.dcourts.gov.in.'
+    ],
+    urls: [
+      { label: 'Balasore District Court Official Portal', url: 'https://balasore.dcourts.gov.in' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for Balasore District Court recruitment 2026?',
+        answer: 'Hard copy applications must reach the Registrar, Civil Courts, Balasore by 07 August 2026 before 5:00 PM.'
+      },
+      {
+        question: 'What is the pay level for Stenographer Grade-III at Balasore Court?',
+        answer: 'Stenographer Grade-III is in Pay Matrix Level-7 (₹25,500 - 81,100/-).'
+      },
+      {
+        question: 'Is there any application fee for Balasore Court posts?',
+        answer: 'No, there is zero application fee for all candidates.'
+      }
+    ]
+  },
+
+  'district-court-cuttack-clerk-typist-salaried-amin-recruitment-2026': {
+    id: 'district-court-cuttack-clerk-typist-salaried-amin-recruitment-2026',
+    seoTitle: 'District Court Cuttack Recruitment 2026 – Apply Offline for 28 Clerk, Typist & Amin Posts',
+    seoDescription: 'District Court Cuttack (Odisha) Recruitment 2026: Apply offline for 28 regular vacancies of Junior Clerk-cum-Copyist, Junior Typist & Salaried Amin. +3 Graduation / Matric + RI Training. Zero Fee. Apply by Speed/Registered Post by 07 August 2026.',
+    focusKeywords: 'District Court Cuttack Recruitment 2026, Cuttack District Court Vacancy, Odisha Judiciary Clerk Typist Salaried Amin, cuttack.dcourts.gov.in',
+    lsiKeywords: 'Cuttack District Court Junior Clerk Copyist Level 4, Cuttack District Court Salaried Amin Level 5, Odisha District Court Recruitment 07 August 2026, Cuttack Court Revenue Inspector training',
+    title: 'District Court Cuttack Recruitment 2026 (Junior Clerk, Typist & Salaried Amin) – 28 Regular Posts',
+    board: 'Office of the District Judge, Cuttack (District Judiciary), Government of Odisha',
+    advtNo: 'Advertisement Dated 08.07.2026 / Memo No. 5292(2)',
+    vacancies: 28,
+    jobLocation: 'District & Civil Courts, Cuttack, Odisha – 753002',
+    applicationMode: 'Offline (Hard Copy by Speed Post / Registered Post Only)',
+    applicationStatus: 'Active - Apply Offline by 07 August 2026 (5:00 PM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Office of the District Judge, Cuttack (Judgship of Cuttack, Odisha) invites offline applications in prescribed format from desirous candidates for filling up 28 regular vacancies in the cadre of Junior Clerk-cum-Copyist, Junior Typist, and Salaried Amin.',
+      'Cadre-wise vacancies: Junior Clerk-cum-Copyist (22 posts: SEBC 4, SC 3, ST 15), Junior Typist (03 posts: UR 2, ST 1), and Salaried Amin (03 posts: ST 3).',
+      'Pay Matrix: Level-4 (₹19,900 - 63,200/-) for Junior Clerk & Junior Typist; Level-5 (₹21,700 - 69,100/-) for Salaried Amin.',
+      'Qualifications: Passed +3 Examination (Graduation) or equivalent + DCA for Clerk/Typist | Passed Matriculation (+2/10th) + Revenue Inspector (RI) Training from recognized institution for Salaried Amin.',
+      'Applications sent via Speed Post or Registered Post only must reach the Office of the District Judge, Cuttack by 07 August 2026 before 5:00 PM.'
+    ],
+    highlights: [
+      { label: 'Recruiting Office', value: 'Office of the District Judge, Cuttack (Judgship of Cuttack, Odisha)' },
+      { label: 'Parent High Court', value: 'Hon\'ble High Court of Orissa, Cuttack' },
+      { label: 'Advertisement Date', value: '08 July 2026 (Memo No. 5292(2))' },
+      { label: 'Total Vacancies', value: '28 Regular Vacancies (Clerk: 22, Typist: 3, Salaried Amin: 3)' },
+      { label: 'Pay Scale (Clerk & Typist)', value: 'Pay Matrix Level-4 (₹19,900 - 63,200/-)' },
+      { label: 'Pay Scale (Salaried Amin)', value: 'Pay Matrix Level-5 (₹21,700 - 69,100/-)' },
+      { label: 'Age Limit', value: '18 to 42 years as on 07.08.2026 (Relaxation per rules)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee for any category)' },
+      { label: 'Selection Scheme', value: 'Written Test + Technical/Practical Test + Viva-Voce' },
+      { label: 'Last Date for Receipt', value: '07 August 2026 (by 5:00 PM)' },
+      { label: 'Address for Submission', value: 'Office of the District Judge, Cuttack, PIN CODE-753002, Odisha' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '08 July 2026' },
+      { event: 'Last Date for Receipt of Hard Copy Application', date: '07 August 2026 (up to 5:00 PM)' },
+      { event: 'Crucial Date for Age & Qualifications', date: '07 August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Junior Clerk-cum-Copyist (SEBC 4, SC 3, ST 15)', count: 22 },
+      { category: 'Junior Typist (UR 2, ST 1)', count: 3 },
+      { category: 'Salaried Amin (ST 3)', count: 3 },
+      { category: 'Total Cuttack District Court Vacancies', count: 28 }
+    ],
+    eligibility: {
+      education: [
+        '1. Junior Clerk & Typist: Passed at least +3 examination (Graduation) + Diploma in Computer Application (DCA) + Spoken/Written Odia (ME standard) + Typewriting 40 wpm (for Typist).',
+        '2. Salaried Amin: Passed Matriculation / +2 or equivalent + Passed Revenue Inspector (RI) Training from a recognized Institution.'
+      ],
+      ageLimit: '18 to 42 years as on 07 August 2026.',
+      ageRelaxation: [
+        { category: 'SC / ST / SEBC / Women Candidates', relaxation: '5 Years' },
+        { category: 'PwD Candidates', relaxation: '10 Years' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Matrix Level-4 & Level-5',
+      initialPay: 'Clerk/Typist: ₹19,900/- pm (Level-4) | Salaried Amin: ₹21,700/- pm (Level-5)',
+      allowances: 'DA, HRA, Medical & other allowances per Odisha Govt rules.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Written Test (for Clerk)', description: 'English (100 marks), Arithmetic (100 marks), General Knowledge (100 marks). Minimum 35% in each paper.' },
+      { stage: '2. Written Test (for Salaried Amin)', description: 'Arithmetic (100 marks), Technical Survey Knowledge (100 marks), English & Odia (100 marks).' },
+      { stage: '3. Computer Practical Test / Field Survey Test', description: 'Computer Science Practical (100 marks) / Field Survey Practical Test (50 marks).' },
+      { stage: '4. Viva-Voce Test', description: 'Personal interview of 45 marks (Clerk) / 35 marks (Typist) / 30 marks (Salaried Amin).' }
+    ],
+    howToApply: [
+      'Download application format from official website https://cuttack.dcourts.gov.in.',
+      'Fill in the application form in CAPITAL letters with educational qualifications (+3/DCA/RI Training), Odia pass proof, and category details.',
+      'Attach self-attested photocopies of 10th HSC, +2, +3 Graduation / RI Training marksheets & certificates, DCA certificate, Odia pass certificate, character certificates (2 gazetted), and caste certificate.',
+      'Attach 4 self-attested passport size photographs and 2 self-addressed postal envelopes with ₹56/- stamps on each.',
+      'Super-scribe the envelope with "APPLICATION FOR THE POST OF ______________".',
+      'Send by Speed Post or Registered Post to: "Office of the District Judge, Cuttack, PIN-753002, Odisha".',
+      'Ensure application reaches by 07 August 2026 before 5:00 PM.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form',
+      'Four recent self-attested Passport size Photographs',
+      'Self-attested copy of 10th HSC Certificate & Marksheet for DOB proof',
+      'Self-attested copies of +2 and +3 Graduation Certificates / RI Training Certificate',
+      'Self-attested copy of DCA Certificate (for Clerk & Typist)',
+      'Self-attested copy of Odia Language Pass Certificate (ME standard)',
+      'Two Character Certificates from Gazetted Officers / Medical Practitioner',
+      'Two self-addressed postal envelopes with ₹56/- stamps each',
+      'Valid Category / Caste / PwD / Sports Certificate'
+    ],
+    importantInstructions: [
+      'No application fee required.',
+      'Application received after 5:00 PM on 07.08.2026 will be rejected.',
+      'Regular updates available on https://cuttack.dcourts.gov.in.'
+    ],
+    urls: [
+      { label: 'Cuttack District Court Official Portal', url: 'https://cuttack.dcourts.gov.in' }
+    ],
+    faqs: [
+      {
+        question: 'What is the last date to apply for Cuttack District Court recruitment 2026?',
+        answer: 'Hard copy applications must reach the Office of the District Judge, Cuttack by 07 August 2026 before 5:00 PM.'
+      },
+      {
+        question: 'What is the qualification required for Salaried Amin post at Cuttack Court?',
+        answer: 'Candidates must possess Matriculation (+2/10th) and have passed Revenue Inspector (RI) Training.'
+      },
+      {
+        question: 'Is there any application fee for Cuttack District Court posts?',
+        answer: 'No, there is zero application fee for all candidates.'
+      }
+    ]
+  },
+
   'iiser-pune-sports-coach-part-time-recruitment-2026': {
     id: 'iiser-pune-sports-coach-part-time-recruitment-2026',
     seoTitle: 'IISER Pune Sports Coach Recruitment 2026 – Apply Online for 10 Part-Time Coach Posts',

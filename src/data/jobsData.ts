@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'district-court-sbs-nagar-clerk-recruitment-2026',
+    b: 'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Punjab)',
+    t: 'District Court SBS Nagar Recruitment 2026 – Apply Offline for 13 Adhoc Clerk Vacancies | Last Date 13 August 2026',
+    d: '27-07-2026',
+    l: '13-08-2026',
+    a: 'Public Appointment Notice / Endst. No. 5591/DSJ-6A',
+    q: 'Bachelor Degree (B.A. / B.Sc. or equivalent) + Passed Matriculation Punjabi + Computer Proficiency',
+    desc: 'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Nawanshahr, Punjab) invites offline applications for 13 adhoc vacancies of Clerks in Pay Matrix Level-5 of 7th CPC. Candidates possessing B.A./B.Sc. degree with Matriculation Punjabi can apply offline by 13 August 2026 (5:00 PM).',
+    u: 'https://districts.ecourts.gov.in/nawanshahr'
+  },
+  {
+    id: 'district-court-sonepur-clerk-typist-steno-recruitment-2026',
+    b: 'Office of the District Judge, Sonepur (Subarnapur Judiciary, Odisha)',
+    t: 'District Court Sonepur Recruitment 2026 – Apply Offline for 22 Vacancies of Junior Clerk, Junior Typist & Stenographer Grade-III | Last Date 31 August 2026',
+    d: '30-07-2026',
+    l: '31-08-2026',
+    a: 'Advertisement No. 01 of 2026 Dated 30.07.2026',
+    q: '+3 Examination (Graduation) + Diploma in Computer Application (DCA) + Odia Pass (Zero Fee)',
+    desc: 'Office of the District Judge, Sonepur (Subarnapur, Odisha) invites offline applications for 22 regular vacancies including Junior Clerk-cum-Copyist (15), Junior Typist (3), and Stenographer Grade-III (4). Pay Levels 4 & 7. Age 18 to 42 years. No application fee. Apply offline by Speed/Registered post by 31 August 2026.',
+    u: 'https://sonepur.dcourts.gov.in'
+  },
+  {
+    id: 'district-court-balasore-clerk-typist-steno-recruitment-2026',
+    b: 'Office of the District Judge, Balasore (District Judiciary, Odisha)',
+    t: 'District Court Balasore Recruitment 2026 – Apply Offline for 48 Vacancies of Junior Clerk & Copyist, Stenographer Gr-III & Junior Typist | Last Date 07 August 2026',
+    d: '07-07-2026',
+    l: '07-08-2026',
+    a: 'ADVERTISEMENT NO.- 03 OF 2026 Dated 07.07.2026',
+    q: '+3 Examination (Graduation) + Diploma in Computer Application (DCA) + Odia Language Pass (Zero Fee)',
+    desc: 'Office of the District Judge, Balasore (Odisha) invites offline applications for 48 regular vacancies including Junior Clerk & Copyist (32), Stenographer Grade-III (7), and Junior Typist (9). Pay Matrix Level-4 & Level-7. Age limit 18 to 42 years. Zero application fee. Apply offline via Speed Post / Registered Post by 07 August 2026.',
+    u: 'https://balasore.dcourts.gov.in'
+  },
+  {
+    id: 'district-court-cuttack-clerk-typist-salaried-amin-recruitment-2026',
+    b: 'Office of the District Judge, Cuttack (District Judiciary, Odisha)',
+    t: 'District Court Cuttack Recruitment 2026 – Apply Offline for 28 Vacancies of Junior Clerk-cum-Copyist, Junior Typist & Salaried Amin | Last Date 07 August 2026',
+    d: '08-07-2026',
+    l: '07-08-2026',
+    a: 'Advertisement Dated 08.07.2026 / Memo No. 5292(2)',
+    q: '+3 Graduation + DCA (for Clerk/Typist) OR Matriculation + Revenue Inspector (RI) Training (for Salaried Amin)',
+    desc: 'Office of the District Judge, Cuttack (Odisha) invites offline applications for 28 regular vacancies of Junior Clerk-cum-Copyist (22), Junior Typist (3), and Salaried Amin (3). Pay Matrix Level-4 & Level-5. Age limit 18 to 42 years. Zero application fee. Apply offline via Speed/Registered post by 07 August 2026 (5:00 PM).',
+    u: 'https://cuttack.dcourts.gov.in'
+  },
+  {
     id: 'iiser-pune-sports-coach-part-time-recruitment-2026',
     b: 'Indian Institute of Science Education and Research (IISER) Pune',
     t: 'IISER Pune Recruitment 2026 – Apply Online for 10 Part-Time Sports Coach Posts (Athletics, Badminton, Cricket, Football, Volleyball & others) | Last Date 18 August 2026',
