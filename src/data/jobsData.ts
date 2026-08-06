@@ -1379,5 +1379,38 @@ export const JOBS_DATA: JobEntry[] = [
     q: 'Master Degree / Ph.D in relevant discipline as per UGC / AICTE norms + NET / SLET (if applicable)',
     desc: 'Central University of Haryana (CUH), Mahendergarh invites online applications from Indian nationals for 32 posts of Professor, Associate Professor, and Assistant Professor across 12 departments (Chemistry, Mathematics, Physics, Political Science, Sociology, Economics, Law, Pharmaceutical Science, Printing & Packaging Tech, Civil Engg, Statistics, Geography) under Advt Nos. CUH/02/R/T/2026 and CUH/03/R/T/2026. Apply online by 31 August 2026 (11:00 PM).',
     u: 'https://www.cuh.ac.in'
+  },
+  {
+    id: 'ada-project-assistant-recruitment-2026',
+    b: 'Aeronautical Development Agency (ADA), Ministry of Defence, Govt of India, Bengaluru',
+    t: 'ADA Bengaluru Recruitment 2026 – Apply Online for 111 Project Assistant-I Vacancies in Engineering (CSE, ECE, Aero, EEE, Mech, Civil, Metallurgy) | Salary up to ₹37,000/pm + HRA | Last Date 13 August 2026',
+    d: '03-08-2026',
+    l: '13-08-2026',
+    a: 'ADA:ADV-138:2026',
+    q: 'B.E / B.Tech / M.E / M.Tech / B.Sc + M.Sc in relevant Engineering discipline (First Class)',
+    desc: 'Aeronautical Development Agency (ADA), Ministry of Defence invites online applications from Indian nationals for engagement of 111 Project Assistant-I positions on tenure basis in CSE, ECE, Aerospace, EEE, Mechanical, Metallurgy, and Civil Engineering disciplines in Bengaluru. Consolidated stipend ₹31,000/- to ₹37,000/- per month + HRA. Age limit 28 years. Apply online by 13 August 2026 (17:00 Hrs).',
+    u: 'https://ada.gov.in'
+  },
+  {
+    id: 'csir-nal-project-staff-walk-in-recruitment-2026',
+    b: 'CSIR - National Aerospace Laboratories (CSIR-NAL), Bengaluru',
+    t: 'CSIR-NAL Bengaluru Walk-in Recruitment 2026 – Apply for 89 Vacancies of Project Associate-I, Project Associate-II, Senior PAT & Project Assistant (ITI/Diploma/Degree/PG) | Walk-in Interview 10 to 25 August 2026',
+    d: '05-08-2026',
+    l: '25-08-2026',
+    a: 'ADVT. No. 13/2026/PS',
+    q: '10th + ITI Fitter, Diploma in Engineering, B.E / B.Tech, M.E / M.Tech, M.Sc (Physics/Chemistry/Electronics/Materials)',
+    desc: 'CSIR - National Aerospace Laboratories (CSIR-NAL), Bengaluru invites qualified candidates for walk-in interviews to fill 89 temporary/contractual Project Staff positions (Project Associate I/II, Senior PAT, Project Assistant I/II) across various aerospace, mechanical, electronics, and materials engineering projects. Monthly emoluments from ₹18,000/- to ₹42,000/- + HRA. Walk-in interviews scheduled between 10 to 25 August 2026 at CSIR-NAL, Kodihalli, Bengaluru.',
+    u: 'https://www.nal.res.in'
+  },
+  {
+    id: 'bank-of-baroda-specialist-officer-recruitment-2026',
+    b: 'Bank of Baroda (BOB)',
+    t: 'Bank of Baroda (BOB) Recruitment 2026 – Apply Online for 206 Specialist Officers (Digital Banking, Facility Management, Info Security, Security, EDMO, Taxation & Accounts) | Last Date 26 August 2026',
+    d: '06-08-2026',
+    l: '26-08-2026',
+    a: 'BOB/HRM/REC/ADVT/2026/15',
+    q: 'B.E / B.Tech (CS/IT/ECE/EEE/Civil/Electrical), MCA, M.Sc (IT/Data Science), CA / ICWA / MBA, Graduation + Experience',
+    desc: 'Bank of Baroda (BOB), one of India’s leading public sector banks, invites online applications for recruitment of 206 Specialist Officers on regular basis across Digital Banking, Facility Management, Information Security, Security, Enterprise Data Management Office, and Corporate Accounts & Taxation Planning. Scales range from JMG/S-I to SMG/S-IV. Apply online by 26 August 2026.',
+    u: 'https://www.bankofbaroda.bank.in'
   }
 ];

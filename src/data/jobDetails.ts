@@ -26634,6 +26634,255 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What are the pay levels for Assistant Professor and Associate Professor?', answer: 'Assistant Professor posts carry Pay Level 10, and Associate Professor posts carry Pay Level 13A as per the 7th Pay Commission.' },
       { question: 'How to apply for multiple posts or departments?', answer: 'Applicants applying for more than one post or department must apply separately and pay separate application fees for each post.' }
     ]
+  },
+  'ada-project-assistant-recruitment-2026': {
+    id: 'ada-project-assistant-recruitment-2026',
+    seoTitle: 'ADA Bengaluru Project Assistant Recruitment 2026 – Apply Online for 111 Posts',
+    seoDescription: 'Aeronautical Development Agency (ADA) Bengaluru invites online applications for 111 Project Assistant-I positions in CSE, ECE, Aerospace, EEE, Mechanical, Civil & Metallurgy. Apply by 13 August 2026.',
+    focusKeywords: 'ADA Recruitment 2026, ADA Project Assistant Vacancy, Aeronautical Development Agency Jobs, ADA Bangalore Recruitment 2026',
+    lsiKeywords: 'ADA Online Application 2026, Defence Research Jobs Bangalore, ADA ADV 138 2026, Project Assistant Engineering Jobs',
+    title: 'ADA Bengaluru Recruitment 2026 – Apply Online for 111 Project Assistant-I Vacancies in Engineering Disciplines',
+    board: 'Aeronautical Development Agency (ADA), Ministry of Defence, Govt of India, Bengaluru',
+    advtNo: 'ADA:ADV-138:2026',
+    vacancies: 111,
+    jobLocation: 'Bengaluru, Karnataka',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '03-08-2026',
+    overview: [
+      'Aeronautical Development Agency (ADA), an autonomous body under the Ministry of Defence, Govt. of India, has published an official notification (ADVT No. ADA:ADV-138:2026) for engagement of Project Assistant-I on tenure basis in Bengaluru.',
+      'A total of 111 tentative vacancies are available across Computer Science, Electronics & Communication, Aeronautical/Aerospace, Electrical & Electronics, Mechanical, Metallurgy, and Civil Engineering disciplines.',
+      'Eligible Indian nationals can register online at https://ada.gov.in up to 13th August 2026 (17:00 Hrs) and appear for Written Test / Interview in Bangalore.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'Aeronautical Development Agency (ADA), Ministry of Defence' },
+      { label: 'Advt Number', value: 'ADA:ADV-138:2026' },
+      { label: 'Post Name', value: 'Project Assistant-1' },
+      { label: 'Total Vacancies', value: '111 Posts' },
+      { label: 'Stipend', value: 'Rs. 31,000/- to Rs. 37,000/- per month + HRA' },
+      { label: 'Job Location', value: 'Bengaluru (Bangalore), Karnataka' },
+      { label: 'Application Mode', value: 'Online Registration + Walk-in Reporting' },
+      { label: 'Last Date to Register', value: '13 August 2026 (17:00 Hrs)' },
+      { label: 'Tentative Exam/Interview Dates', value: '16 Aug, 23 Aug, or 30 Aug 2026' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '03-08-2026' },
+      { event: 'Online Registration Closing Date', date: '13-08-2026 (17:00 Hrs)' },
+      { event: 'Tentative Written Test / Interview Dates', date: '16th, 23rd or 30th August 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Computer Science Engineering / IT', count: 15 },
+      { category: 'Electronics & Communication Engineering', count: 20 },
+      { category: 'Aeronautical / Aerospace Engineering', count: 10 },
+      { category: 'Electrical & Electronics Engineering / Instrumentation', count: 20 },
+      { category: 'Mechanical Engineering / Production', count: 43 },
+      { category: 'Metallurgy Engineering / Material Science', count: 1 },
+      { category: 'Civil Engineering / Structural', count: 2 }
+    ],
+    eligibility: {
+      education: [
+        'First Class B.E / B.Tech or M.E / M.Tech in relevant discipline from a recognized University.',
+        'OR First Class B.Sc + M.Sc with GATE/NET score or 2 years relevant experience.',
+        'Valid GATE score / M.Tech holders from IIT/NIT qualify directly for Interview, while B.E/B.Tech candidates without GATE will undergo shortlisting via Written Test followed by Interview.'
+      ],
+      ageLimit: 'Maximum 28 years as on 13-08-2026. Age relaxation applicable for SC/ST/OBC (Non-Creamy Layer) candidates as per Govt rules.'
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Stipend + Admissible HRA',
+      initialPay: 'Rs. 31,000/- per month + HRA (for B.E/B.Tech first class) / Rs. 37,000/- per month + HRA (for M.E/M.Tech or experienced candidates)',
+      allowances: 'HRA as per ADA rules. Tenure initially for 2 years, extendable up to further 2 years (one year at a time).'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Direct Interview', description: 'For GATE qualified / M.Tech IIT/NIT candidates.' },
+      { stage: 'Written Test & Interview', description: 'For non-GATE B.E/B.Tech candidates, shortlisting via written exam (GATE pattern syllabus with negative marking) followed by interview.' }
+    ],
+    officialLinks: [
+      { label: 'ADA Official Website', url: 'https://ada.gov.in' },
+      { label: 'Download Official Notification PDF (ADVT-138)', url: 'https://ada.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to register online for ADA Project Assistant recruitment 2026?', answer: 'The online registration closes on 13th August 2026 at 17:00 Hrs.' },
+      { question: 'What is the monthly stipend for ADA Project Assistant-1?', answer: 'Candidates with B.E/B.Tech receive Rs. 31,000/- pm + HRA. All other qualified candidates receive Rs. 37,000/- pm + HRA.' },
+      { question: 'Where will the written test and interview be conducted?', answer: 'The written test and interview will be conducted in Bangalore on 16th, 23rd or 30th August 2026.' }
+    ]
+  },
+  'csir-nal-project-staff-walk-in-recruitment-2026': {
+    id: 'csir-nal-project-staff-walk-in-recruitment-2026',
+    seoTitle: 'CSIR-NAL Bengaluru Walk-in Recruitment 2026 – 89 Project Associate & Assistant Posts',
+    seoDescription: 'CSIR - National Aerospace Laboratories (CSIR-NAL) Bengaluru invites applications for walk-in interviews from 10 to 25 August 2026 for 89 Project Staff posts.',
+    focusKeywords: 'CSIR NAL Recruitment 2026, NAL Bengaluru Walk in Interview, CSIR NAL Project Associate Vacancy',
+    lsiKeywords: 'CSIR NAL ADVT 13 2026 PS, Aerospace Engineering Jobs Bangalore, NAL Project Staff Walk in 2026',
+    title: 'CSIR-NAL Bengaluru Walk-in Recruitment 2026 – 89 Vacancies of Project Associate-I/II, Senior PAT & Project Assistant',
+    board: 'CSIR - National Aerospace Laboratories (CSIR-NAL), Bengaluru',
+    advtNo: 'ADVT. No. 13/2026/PS',
+    vacancies: 89,
+    jobLocation: 'Bengaluru, Karnataka',
+    applicationMode: 'Walk-in Interview',
+    applicationStatus: 'Active',
+    lastUpdated: '05-08-2026',
+    overview: [
+      'CSIR - National Aerospace Laboratories (CSIR-NAL), a premier research laboratory under CSIR, Ministry of Science & Technology, Govt. of India, has announced walk-in interviews under Advt No. 13/2026/PS for engagement of 89 Project Staff positions on temporary and contract basis.',
+      'Positions include Project Associate-I, Project Associate-II, Senior PAT, Project Assistant-I, and Project Assistant-II across diverse aerospace, mechanical, electronics, instrumentation, software, and materials engineering projects.',
+      'Interested Indian nationals meeting requisite qualifications can report for registration and document verification between 9.00 AM to 9.45 AM at CSIR-NAL, Kodihalli, Bengaluru on specified dates between 10th and 25th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: 'CSIR - National Aerospace Laboratories (CSIR-NAL)' },
+      { label: 'Advt Number', value: 'ADVT. No. 13/2026/PS' },
+      { label: 'Total Vacancies', value: '89 Posts' },
+      { label: 'Posts Offered', value: 'Project Associate I & II, Sr PAT, Project Assistant I & II' },
+      { label: 'Monthly Emoluments', value: 'Rs. 18,000/- to Rs. 42,000/- per month + HRA' },
+      { label: 'Walk-in Interview Dates', value: '10, 12, 14, 17, 21, 24 & 25 August 2026' },
+      { label: 'Reporting Time', value: '9:00 AM to 9:45 AM on specified dates' },
+      { label: 'Interview Venue', value: 'RAB Meeting Complex, CSIR-NAL, Kodihalli, Bengaluru - 560017' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '05-08-2026' },
+      { event: 'Walk-in Date (Mechanical/Aerospace PA-I/II)', date: '10-08-2026' },
+      { event: 'Walk-in Date (ECE/EEE/CS/Physics PA-I/II)', date: '12-08-2026' },
+      { event: 'Walk-in Date (Chemistry/Metallurgy PA-I/II)', date: '14-08-2026' },
+      { event: 'Walk-in Date (Chemistry PA-II)', date: '17-08-2026' },
+      { event: 'Walk-in Date (Aerospace/Mechanical PA-II)', date: '21-08-2026' },
+      { event: 'Walk-in Date (ITI Fitter / Diploma Mech PA-I/II)', date: '24-08-2026' },
+      { event: 'Walk-in Date (Senior PAT Electronics/Aero)', date: '25-08-2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Project Associate-I (Mechanical/Aerospace/Civil)', count: 16 },
+      { category: 'Project Associate-II (Aerospace/Mechanical/Control)', count: 2 },
+      { category: 'Project Associate-I (ECE/EEE/CS/Physics)', count: 12 },
+      { category: 'Project Associate-II (ECE/EEE/Robotics/CS/Data Science)', count: 15 },
+      { category: 'Project Associate-II (CSE/IT)', count: 2 },
+      { category: 'Project Associate-I (Chemistry/Materials Science)', count: 3 },
+      { category: 'Project Associate-I (Metallurgical/Physics)', count: 1 },
+      { category: 'Project Associate-II (Metallurgical/M.Tech)', count: 2 },
+      { category: 'Project Associate-II (Chemistry)', count: 4 },
+      { category: 'Project Associate-II (Aerospace/Thermal/Structures)', count: 16 },
+      { category: 'Project Assistant-I (10th + ITI Fitter)', count: 8 },
+      { category: 'Project Assistant-II (Diploma Mech / B.Sc Chemistry)', count: 5 },
+      { category: 'Senior PAT (Electronics / Aerospace / Mech)', count: 3 }
+    ],
+    eligibility: {
+      education: [
+        'Project Assistant-I: SSC / 10th Pass plus ITI in Fitter / Turner / Machinist trade.',
+        'Project Assistant-II: Diploma in Engineering / Technology or B.Sc in Chemistry.',
+        'Project Associate-I: Bachelor’s degree in Engineering/Technology (Mechanical/Aerospace/Civil/ECE/EEE/CS) OR M.Sc in Physics/Electronics/Chemistry.',
+        'Project Associate-II: B.E/B.Tech with 2 years relevant experience OR M.E/M.Tech / M.Sc.',
+        'Senior PAT: B.E/B.Tech with 3 years experience OR M.E/M.Tech with 2 years experience OR Ph.D.'
+      ],
+      ageLimit: 'Maximum 35 years as on Walk-in Interview date. Relaxation of 5 years for SC/ST/PwBD/Women and 3 years for OBC candidates.'
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Emoluments + HRA',
+      initialPay: 'Project Assistant-I: ₹18,000/- + HRA | Project Assistant-II: ₹20,000/- + HRA | Project Associate-I: ₹25,000/- to ₹31,000/- + HRA | Project Associate-II: ₹28,000/- to ₹35,000/- + HRA | Senior PAT: ₹42,000/- + HRA',
+      allowances: 'HRA as applicable under CSIR rules.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Registration & Document Verification', description: 'Candidates must report at CSIR-NAL between 9:00 AM and 9:45 AM on their discipline walk-in date with application form and original certificates.' },
+      { stage: 'Personal Interview', description: 'Walk-in interview on the same day by the Selection Committee.' }
+    ],
+    officialLinks: [
+      { label: 'CSIR-NAL Official Website', url: 'https://www.nal.res.in' },
+      { label: 'Download Walk-in Advertisement PDF (13/2026/PS)', url: 'https://www.nal.res.in' }
+    ],
+    faqs: [
+      { question: 'Do candidates need to send applications by post for CSIR-NAL recruitment?', answer: 'No. Candidates are NOT required to send applications by post or email. They must bring the filled application form directly to the Walk-in Interview.' },
+      { question: 'Where is the venue for the CSIR-NAL walk-in interview?', answer: 'The venue is RAB Meeting Complex, National Aerospace Laboratories (CSIR-NAL), Adjacent to SBI NAL Branch, Kodihalli, Bengaluru - 560017.' },
+      { question: 'What is the reporting time for the walk-in interview?', answer: 'Registration is open between 9:00 AM and 9:45 AM on the specified interview date for each post.' }
+    ]
+  },
+  'bank-of-baroda-specialist-officer-recruitment-2026': {
+    id: 'bank-of-baroda-specialist-officer-recruitment-2026',
+    seoTitle: 'Bank of Baroda Specialist Officer BOB Recruitment 2026 – Apply Online for 206 Posts',
+    seoDescription: 'Bank of Baroda (BOB) invites online applications for 206 Specialist Officers in Digital Banking, Facility Management, Info Security, Security, EDMO & Taxation. Apply by 26 August 2026.',
+    focusKeywords: 'Bank of Baroda Recruitment 2026, BOB Specialist Officer Vacancy, Bank of Baroda SO Jobs 2026',
+    lsiKeywords: 'BOB HRM REC ADVT 2026 15, Bank of Baroda Online Application 2026, Bank Jobs 2026, BOB Technical Officer',
+    title: 'Bank of Baroda (BOB) Recruitment 2026 – Apply Online for 206 Specialist Officers (Digital Banking, Facility Mgmt, Security, EDMO & Accounts)',
+    board: 'Bank of Baroda (BOB)',
+    advtNo: 'BOB/HRM/REC/ADVT/2026/15',
+    vacancies: 206,
+    jobLocation: 'All India (Posting anywhere in India)',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'Bank of Baroda (BOB), a leading Indian public sector bank, has released a comprehensive recruitment advertisement (Advt No. BOB/HRM/REC/ADVT/2026/15) for recruitment of 206 Specialist Officers on regular basis across various key departments.',
+      'Positions are advertised across Digital Banking (19 posts), Facility Management (88 posts), Information Security (16 posts), Security (54 posts), Enterprise Data Management Office (14 posts), and Corporate Accounts & Taxation Planning (15 posts).',
+      'Eligible candidates can apply online through Bank of Baroda’s career portal from 6th August 2026 to 26th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Bank', value: 'Bank of Baroda (BOB)' },
+      { label: 'Advt Number', value: 'BOB/HRM/REC/ADVT/2026/15' },
+      { label: 'Total Vacancies', value: '206 Posts' },
+      { label: 'Scales Offered', value: 'JMG/S-I, MMG/S-II, MMG/S-III, SMG/S-IV' },
+      { label: 'Application Mode', value: 'Online Mode Only' },
+      { label: 'Start Date to Apply', value: '06 August 2026' },
+      { label: 'Last Date to Apply', value: '26 August 2026' },
+      { label: 'Application Fee', value: '₹ 850/- (Gen/OBC/EWS) / ₹ 175/- (SC/ST/PWD/Women)' },
+      { label: 'Official Website', value: 'www.bankofbaroda.bank.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '06-08-2026' },
+      { event: 'Online Application Start Date', date: '06-08-2026' },
+      { event: 'Last Date to Apply & Pay Fees', date: '26-08-2026' },
+      { event: 'Online Examination / Interview Date', date: 'To be notified on Bank website' }
+    ],
+    vacanciesDetails: [
+      { category: 'Digital Banking - Manager & Sr Manager Digital Product', count: 14 },
+      { category: 'Digital Banking - Product Manager Digital Lending', count: 5 },
+      { category: 'Facility Management - Technical Officer Civil (JMG/S-I)', count: 35 },
+      { category: 'Facility Management - Technical Manager Civil (MMG/S-II)', count: 21 },
+      { category: 'Facility Management - Technical Sr Manager Civil (MMG/S-III)', count: 6 },
+      { category: 'Facility Management - Technical Officer Electrical (JMG/S-I)', count: 15 },
+      { category: 'Facility Management - Technical Manager Electrical (MMG/S-II)', count: 9 },
+      { category: 'Facility Management - Technical Sr Manager Electrical (MMG/S-III)', count: 2 },
+      { category: 'Information Security - Manager Information Security (MMG/S-II)', count: 13 },
+      { category: 'Information Security - Sr Manager Information Security (MMG/S-III)', count: 3 },
+      { category: 'Security - Manager Security (MMG/S-II)', count: 54 },
+      { category: 'Enterprise Data Management Office - Data Scientist / Data Profiling / DQ Analyst / BI', count: 14 },
+      { category: 'Corporate Accounts & Taxation - Manager / Sr Manager Taxation & Accounts / Investor Relations', count: 15 }
+    ],
+    eligibility: {
+      education: [
+        'Digital Banking: B.E/B.Tech in CS/IT/ECE or MCA/M.Sc + 3 to 6 years relevant experience.',
+        'Facility Management: B.E/B.Tech in Civil or Electrical Engineering + 2 to 7 years relevant experience.',
+        'Information Security: B.E/B.Tech in CS/IT/ECE/EEE or MCA/M.Sc/M.Tech + Security Certification (CEH/CompTIA/CISA/CISSP) + 3 to 6 years experience.',
+        'Security: Graduate in any discipline + minimum 5 years commissioned service in Army/Navy/Air Force or Police/Paramilitary officer rank.',
+        'Enterprise Data Management: B.E/B.Tech/M.Tech/M.Sc/BCA/MCA/Graduation in Statistics/Data Science + 6 to 10 years experience.',
+        'Corporate Accounts & Taxation: Chartered Accountant (CA) / ICWA or MBA / Graduation in Commerce/Economics + 2 to 8 years experience.'
+      ],
+      ageLimit: 'Min 23 years, Max 43 years (varies by post and scale as on 01-08-2026). Age relaxation as per Govt guidelines (SC/ST: +5 yrs, OBC: +3 yrs, PwBD: +10-15 yrs).'
+    },
+    salary: {
+      payLevel: 'Pay Scale as per 12th Bipartite Settlement / Joint Note',
+      initialPay: 'JMG/S-I: ₹48,480 - ₹85,920 | MMG/S-II: ₹64,820 - ₹93,960 | MMG/S-III: ₹85,920 - ₹1,05,280 | SMG/S-IV: ₹1,02,300 - ₹1,20,940',
+      allowances: 'DA, HRA, CCA, Medical Benefits, Perquisites and other allowances as per Bank policy. Service Bond of 3 years applies.'
+    },
+    applicationFee: [
+      { category: 'General, OBC & EWS Candidates', fee: '₹ 850/- (Inclusive of GST) + Gateway Charges', refund: 'Non-Refundable' },
+      { category: 'SC, ST, PWD, ESM & Women Candidates', fee: '₹ 175/- (Intimation Charges only)', refund: 'Non-Refundable' }
+    ],
+    howToPayFee: [
+      'Application fee must be paid online via Debit Card, Credit Card, Net Banking, or UPI through the integrated payment gateway.'
+    ],
+    selectionProcess: [
+      { stage: 'Application Scrutiny & Shortlisting', description: 'Applications will be shortlisted based on qualifications, experience, and domain expertise.' },
+      { stage: 'Online Examination / Psychometric Test', description: 'If conducted, online exam will cover Reasoning (25), English (25), Quantitative Aptitude (25), and Professional Knowledge (150 marks).' },
+      { stage: 'Personal Interview (PI)', description: 'Interview carrying 60% qualifying marks for General/EWS and 55% for Reserved categories.' }
+    ],
+    officialLinks: [
+      { label: 'Bank of Baroda Career Portal', url: 'https://www.bankofbaroda.bank.in/careers.htm' },
+      { label: 'Download Official Notification PDF (BOB/HRM/REC/ADVT/2026/15)', url: 'https://www.bankofbaroda.bank.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to submit online applications for BOB Specialist Officer Recruitment 2026?', answer: 'The last date for online submission of applications and fee payment is 26th August 2026.' },
+      { question: 'What is the application fee for female candidates in Bank of Baroda recruitment?', answer: 'Female candidates of all categories pay Rs. 175/- (Intimation charges only).' },
+      { question: 'Is there a service bond for selected candidates in Bank of Baroda?', answer: 'Yes. Selected candidates must execute a service bond to serve the bank for a minimum period of 3 years.' }
+    ]
   }
 };
 
