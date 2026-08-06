@@ -1368,5 +1368,16 @@ export const JOBS_DATA: JobEntry[] = [
   { id: 'ihmcl-systems-engineer-2026', d: '04 jul 2026', b: 'IHMCL', t: 'Systems Engineer – 30 Posts', q: 'B.Tech/B.E', a: 'IHMCL/HR/Recruit./03/2026/04', l: '02-08-2026', u: 'https://www.freejobalert.com/articles/ihmcl-recruitment-2026-systems-engineer-3056704', desc: 'The company that runs FASTag and highway toll systems is hiring IT engineers.' },
   { id: 'territorial-army-130-inf-bn-2026', d: '26 jun 2026', b: 'Territorial Army', t: 'Soldier – 69 Posts', q: 'Other', a: 'CBC 10120/11/0005/2627', l: '08-08-2026', u: 'https://www.130ta.com', desc: 'A part-time volunteer army unit is recruiting soldiers through an open recruitment rally.' },
   { id: 'ccrum-recruitment-2026', d: '25 jun 2026', b: 'CCRUM', t: 'Staff Nurse, MTS and More – 179 Posts', q: 'Any Graduate, B.Sc, B.Tech/B.E, Any Post Graduate, PG Diploma', a: '01/2026', l: '31-07-2026', u: 'https://www.freejobalert.com/articles/ccrum-recruitment-2026-apply-online-for-176-staff-nurse-mts-and-more-posts-3053323', desc: 'A body that researches Unani medicine is hiring nurses and helpers for its hospitals.' },
-  { id: 'isro-istrac-apprentices-2026', d: '23 jun 2026', b: 'ISRO ISTRAC', t: 'Apprentices – 95 Posts', q: 'B.Tech/B.E, B.Sc, Diploma, ITI, MLISc', a: 'ISTRAC:01:2026', l: '31-07-2026', u: 'https://www.istrac.gov.in', desc: "Government of India, Department of Space, ISRO Telemetry Tracking & Command Network (ISTRAC) invites applications from Graduate, Diploma, and Trade ITI Apprentices for the year 2026-2027." }
+  { id: 'isro-istrac-apprentices-2026', d: '23 jun 2026', b: 'ISRO ISTRAC', t: 'Apprentices – 95 Posts', q: 'B.Tech/B.E, B.Sc, Diploma, ITI, MLISc', a: 'ISTRAC:01:2026', l: '31-07-2026', u: 'https://www.istrac.gov.in', desc: "Government of India, Department of Space, ISRO Telemetry Tracking & Command Network (ISTRAC) invites applications from Graduate, Diploma, and Trade ITI Apprentices for the year 2026-2027." },
+  {
+    id: 'cuh-faculty-recruitment-2026',
+    b: 'Central University of Haryana (CUH), Mahendergarh (Ministry of Education)',
+    t: 'Central University of Haryana (CUH) Recruitment 2026 – Apply Online for 32 Faculty Vacancies (Professor, Associate Professor & Assistant Professor) in Science, Humanities & Engineering | Last Date 31 August 2026',
+    d: '31-07-2026',
+    l: '31-08-2026',
+    a: 'CUH/02/R/T/2026 & CUH/03/R/T/2026',
+    q: 'Master Degree / Ph.D in relevant discipline as per UGC / AICTE norms + NET / SLET (if applicable)',
+    desc: 'Central University of Haryana (CUH), Mahendergarh invites online applications from Indian nationals for 32 posts of Professor, Associate Professor, and Assistant Professor across 12 departments (Chemistry, Mathematics, Physics, Political Science, Sociology, Economics, Law, Pharmaceutical Science, Printing & Packaging Tech, Civil Engg, Statistics, Geography) under Advt Nos. CUH/02/R/T/2026 and CUH/03/R/T/2026. Apply online by 31 August 2026 (11:00 PM).',
+    u: 'https://www.cuh.ac.in'
+  }
 ];

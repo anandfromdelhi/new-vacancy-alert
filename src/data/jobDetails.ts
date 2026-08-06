@@ -26544,6 +26544,96 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is PPQE and is it mandatory to have pen-picture details?', answer: 'PPQE stands for Post Professional Qualification Experience (completed years). Yes, providing pen-picture details of professional work experience, achievements, and responsibilities is absolutely mandatory in the application form, otherwise, the application will be rejected.' },
       { question: 'Where will selected candidates be posted?', answer: 'Design discipline executives will be posted in any Design Centre of HAL, and Finance executives will be posted in any Division, R&D Centre, or Office of HAL in India, with liability for transfer.' }
     ]
+  },
+  'cuh-faculty-recruitment-2026': {
+    id: 'cuh-faculty-recruitment-2026',
+    seoTitle: 'Central University of Haryana CUH Recruitment 2026 – 32 Professor & Assistant Professor Posts',
+    seoDescription: 'Central University of Haryana (CUH) invites online applications for 32 posts of Associate Professor and Assistant Professor across 12 departments. Apply online by 31 August 2026.',
+    focusKeywords: 'CUH Recruitment 2026, Central University of Haryana Faculty Jobs, CUH Assistant Professor Vacancy 2026',
+    lsiKeywords: 'CUH Associate Professor Jobs 2026, Central University of Haryana Teaching Vacancy, CUH Online Form 2026, UGC Faculty Recruitment 2026',
+    title: 'Central University of Haryana (CUH) Recruitment 2026 – Apply Online for 32 Faculty Vacancies (Professor, Associate Professor & Assistant Professor)',
+    board: 'Central University of Haryana (CUH), Mahendergarh (Ministry of Education)',
+    advtNo: 'CUH/02/R/T/2026 & CUH/03/R/T/2026',
+    vacancies: 32,
+    jobLocation: 'Jant-Pali, Mahendergarh, Haryana',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '31-07-2026',
+    overview: [
+      'Central University of Haryana (CUH), Mahendergarh (a central university established under Act No. 25 of 2009 of Parliament) has released two official employment notifications (Advt Nos. CUH/02/R/T/2026 & CUH/03/R/T/2026) for direct recruitment to 32 posts of Professor, Associate Professor, and Assistant Professor across various departments.',
+      'Eligible Indian nationals, including overseas citizens of India, with relevant Master\'s degree / Ph.D qualifications as per UGC / AICTE norms can submit online applications through the CUH web portal by 31st August 2026 (11:00 PM).'
+    ],
+    highlights: [
+      { label: 'Recruiting University', value: 'Central University of Haryana (CUH)' },
+      { label: 'Advt Numbers', value: 'CUH/02/R/T/2026 & CUH/03/R/T/2026' },
+      { label: 'Total Vacancies', value: '32 Posts' },
+      { label: 'Posts Offered', value: 'Associate Professor & Assistant Professor' },
+      { label: 'Pay Scale', value: 'Level 10 (Asst Prof) & Level 13A (Assoc Prof)' },
+      { label: 'Job Location', value: 'Jant-Pali, Mahendergarh, Haryana' },
+      { label: 'Application Mode', value: 'Online Mode Only' },
+      { label: 'Last Date to Apply', value: '31 August 2026 (11:00 PM)' },
+      { label: 'Official Website', value: 'www.cuh.ac.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '31-07-2026' },
+      { event: 'Online Application Start Date', date: '31-07-2026' },
+      { event: 'Last Date for Online Application', date: '31-08-2026 (11:00 PM)' },
+      { event: 'Interview / Shortlisting Dates', date: 'To be notified on university website' }
+    ],
+    vacanciesDetails: [
+      { category: 'School of Basic Science - Chemistry (Associate Professor)', count: 2 },
+      { category: 'School of Basic Science - Chemistry (Assistant Professor)', count: 4 },
+      { category: 'School of Basic Science - Mathematics (Associate Professor)', count: 2 },
+      { category: 'School of Basic Science - Mathematics (Assistant Professor)', count: 4 },
+      { category: 'School of Basic Science - Physics & Astrophysics (Associate Professor)', count: 2 },
+      { category: 'School of Basic Science - Physics & Astrophysics (Assistant Professor)', count: 4 },
+      { category: 'Political Science (Assistant Professor)', count: 2 },
+      { category: 'Sociology (Associate Professor)', count: 1 },
+      { category: 'Economics (Assistant Professor)', count: 2 },
+      { category: 'Law (Assistant Professor)', count: 3 },
+      { category: 'Pharmaceutical Science (Associate Professor)', count: 1 },
+      { category: 'Printing & Packaging Technology (Associate Professor)', count: 1 },
+      { category: 'Printing & Packaging Technology (Assistant Professor)', count: 1 },
+      { category: 'Civil Engineering (Associate Professor)', count: 1 },
+      { category: 'Statistics (Assistant Professor)', count: 1 },
+      { category: 'Geography (Associate Professor)', count: 1 }
+    ],
+    eligibility: {
+      education: [
+        'Assistant Professor: Master’s degree with 55% marks (or an equivalent grade) in a relevant/allied discipline from an Indian University, or an equivalent degree from an accredited foreign university.',
+        'Must have cleared UGC-NET or SLET/SET, OR possess a Ph.D. degree in accordance with UGC Regulations 2018 as amended from time to time.',
+        'Associate Professor: Good academic record with Ph.D. degree in the concerned/allied/relevant discipline + Master’s degree with at least 55% marks.',
+        'Minimum 8 years of experience of teaching and/or research in an academic/research position equivalent to that of Assistant Professor in a University, College or Accredited Research Institution/industry with minimum 7 publications in peer-reviewed or UGC-listed journals.'
+      ],
+      ageLimit: 'As per UGC Regulations 2018 and Central University Rules.'
+    },
+    salary: {
+      payLevel: 'Pay Level 10 for Assistant Professor & Pay Level 13A for Associate Professor',
+      initialPay: 'As per 7th Pay Commission (Level 10: ₹57,700 - ₹1,82,400 / Level 13A: ₹1,31,400 - ₹2,17,100)',
+      allowances: 'DA, HRA, TA, and other admissible benefits as per Central Government / UGC rules.'
+    },
+    applicationFee: [
+      { category: 'UR / OBC / EWS Category', fee: '₹ 1,000/-', refund: 'Non-Refundable' },
+      { category: 'SC / ST / PwBD / Women Candidates', fee: 'Nil (Exempted)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'Application fee must be paid strictly online through Credit Card, Debit Card, Net Banking, or Payment Gateway provided in the university application portal.'
+    ],
+    selectionProcess: [
+      { stage: 'Screening & Shortlisting', description: 'Applications will be shortlisted and screened based on UGC Regulations 2018 guidelines and university shortlisting criteria.' },
+      { stage: 'Interview & Seminar Presentation', description: 'Shortlisted candidates will be invited for Personal Interview and teaching / research seminar presentation.' }
+    ],
+    officialLinks: [
+      { label: 'CUH Official Recruitment Portal', url: 'https://www.cuh.ac.in' },
+      { label: 'Download Notification PDF (CUH/02/R/T/2026)', url: 'https://www.cuh.ac.in' },
+      { label: 'Download Notification PDF (CUH/03/R/T/2026)', url: 'https://www.cuh.ac.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for CUH Faculty Recruitment 2026?', answer: 'The last date to submit online applications is 31st August 2026 up to 11:00 PM.' },
+      { question: 'What is the application fee for SC/ST/PwBD and Women candidates?', answer: 'SC, ST, PwBD, and Women candidates are completely exempted from paying the application fee.' },
+      { question: 'What are the pay levels for Assistant Professor and Associate Professor?', answer: 'Assistant Professor posts carry Pay Level 10, and Associate Professor posts carry Pay Level 13A as per the 7th Pay Commission.' },
+      { question: 'How to apply for multiple posts or departments?', answer: 'Applicants applying for more than one post or department must apply separately and pay separate application fees for each post.' }
+    ]
   }
 };
 
