@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'dgft-mumbai-young-professional-recruitment-2026',
+    b: 'Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai (Ministry of Commerce)',
+    t: 'DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional (YP) Vacancies in Economics, Legal, Management & Data Science | Salary ₹60,000/pm | Last Date 18 August 2026',
+    d: '03-08-2026',
+    l: '18-08-2026',
+    a: 'Advt Dated 03.08.2026 (Ref 75/03/2025/HRD/Mumbai)',
+    q: 'Master Degree in Economics / LLM / LLB / MBA / B.Tech / BE / MCA / Data Science + 1 Yr Experience',
+    desc: 'Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai invites online applications for 16 Young Professional (YP) positions on contract basis in Economics, Legal, General Management, and Data Science disciplines. Consolidated salary ₹60,000/- per month. Age below 35 years. Apply via Google Form and email by 18 August 2026.',
+    u: 'https://dgft.gov.in'
+  },
+  {
     id: 'district-court-sbs-nagar-clerk-recruitment-2026',
     b: 'Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Punjab)',
     t: 'District Court SBS Nagar Recruitment 2026 – Apply Offline for 13 Adhoc Clerk Vacancies | Last Date 13 August 2026',

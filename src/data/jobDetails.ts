@@ -58,6 +58,121 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'dgft-mumbai-young-professional-recruitment-2026': {
+    id: 'dgft-mumbai-young-professional-recruitment-2026',
+    seoTitle: 'DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional Posts',
+    seoDescription: 'DGFT Zonal Office Mumbai Young Professionals Recruitment 2026: Apply online for 16 YP posts in Economics, Legal, Management & Data Science. Consolidated Salary ₹60,000/pm. Age below 35 yrs. Apply online by 18 August 2026.',
+    focusKeywords: 'DGFT Mumbai Recruitment 2026, DGFT Young Professional Vacancy 2026, DGFT YP Salary 60000, dgft.gov.in recruitment',
+    lsiKeywords: 'DGFT Mumbai Young Professional Economics Legal Data Science, Directorate General of Foreign Trade YP 2026, DGFT Mumbai 16 YP posts application link',
+    title: 'DGFT Zonal Office Mumbai Young Professionals (YP) Recruitment 2026 – 16 Contractual Vacancies',
+    board: 'Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai (Ministry of Commerce & Industry, Govt. of India)',
+    advtNo: 'Advt Dated 03.08.2026 (Ref No. 75/03/2025/HRD/Mumbai I/1318/2026)',
+    vacancies: 16,
+    jobLocation: 'Office of Additional DGFT, Nishtha Bhavan, Churchgate, Mumbai, Maharashtra – 400020',
+    applicationMode: 'Online Google Form + Email & Hard Copy',
+    applicationStatus: 'Active - Apply Online by 18 August 2026',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'The Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai, an attached office of Ministry of Commerce and Industry, Govt. of India, invites applications from eligible candidates for engagement as Young Professionals (YP) on contract basis.',
+      'A total of 16 vacancies are advertised across 4 functional disciplines: Economics, Legal, General Management, and Data Science.',
+      'Engaged Young Professionals will work on implementation of schemes under the Foreign Trade Policy, trade promotion, export facilitation, and data analytics.',
+      'Selected candidates will receive a consolidated monthly remuneration of ₹60,000/- per month.',
+      'Engagement will be initially for 1 year, extendable up to 3 years based on performance.',
+      'Eligible candidates must fill out the Google Form (https://forms.gle/oMi5Lyo3YP2ZtbX67) and email signed application form along with resume to hrdmum-dgft@nic.in before 18 August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Office', value: 'Office of Additional DGFT, Zonal Office Mumbai (Ministry of Commerce)' },
+      { label: 'Parent Ministry', value: 'Ministry of Commerce & Industry, Government of India' },
+      { label: 'Post Name', value: 'Young Professional (YP)' },
+      { label: 'Total Vacancies', value: '16 Posts (Contractual)' },
+      { label: 'Consolidated Salary', value: '₹60,000/- per month' },
+      { label: 'Upper Age Limit', value: 'Below 35 years (as on 01 July 2026)' },
+      { label: 'Tenure of Engagement', value: '1 Year (Extendable up to 3 Years max)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee)' },
+      { label: 'Application Process', value: 'Google Form + Email signed form with documents + Hard copy by post' },
+      { label: 'Email for Submission', value: 'hrdmum-dgft@nic.in' },
+      { label: 'Last Date to Apply', value: '18 August 2026' }
+    ],
+    importantDates: [
+      { event: 'Date of Notification', date: '03 August 2026' },
+      { event: 'Last Date for Submitting Online Google Form & Email Application', date: '18 August 2026' },
+      { event: 'Crucial Date for Age Determination', date: '01 July 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Young Professional (Economics)', count: 4 },
+      { category: 'Young Professional (Legal)', count: 4 },
+      { category: 'Young Professional (General Management)', count: 4 },
+      { category: 'Young Professional (Data Science)', count: 4 },
+      { category: 'Total DGFT Mumbai YP Vacancies', count: 16 }
+    ],
+    eligibility: {
+      education: [
+        '1. Economics Discipline: Master\'s Degree in Economics (preferably with International Trade specialization).',
+        '2. Legal Discipline: LLM / LLB and PG Diploma in any legal subject.',
+        '3. General Management Discipline: MBA or equivalent from an institution having NIRF ranking up to 100 in Management / Master\'s in Public Policy / International Trade.',
+        '4. Data Science Discipline: B.Tech/B.E. in any discipline / MCA / Master\'s in Data Science / Data Analytics / Computational Mathematics.',
+        '5. Post-Qualification Experience: Minimum 1 year post-qualification work experience in relevant field with proficiency in computer skills.',
+        '6. Desirable (General Management): Experience in multimedia content creation, graphic design, and relevant software tools.'
+      ],
+      ageLimit: 'Below 35 years as on 01 July 2026.',
+      ageRelaxation: [
+        { category: 'Deputation / Contractual Rules', relaxation: 'As per Govt of India rules' }
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Fee',
+      initialPay: '₹60,000/- per month (minus Professional Tax / TDS as applicable)',
+      allowances: '18 days paid leave per year. No other allowances or housing facility.'
+    },
+    applicationFee: [
+      { category: 'All Applicants', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Document & Profile Shortlisting', description: 'Shortlisting of candidates based on academic credentials, NIRF ranking, and 1 year experience.' },
+      { stage: '2. Personal Interview', description: 'Interview conducted by Selection Committee at DGFT Zonal Office Mumbai.' }
+    ],
+    howToApply: [
+      'Fill out the online application via Google Form: https://forms.gle/oMi5Lyo3YP2ZtbX67.',
+      'Download and print the application form proforma from the notification document.',
+      'Fill and sign the application form in block letters.',
+      'Scan the signed application form along with Resume, PAN card, Aadhaar card, and qualification marksheets/certificates into PDF format.',
+      'Email the scanned PDF to hrdmum-dgft@nic.in with subject: "Application for Young Professional".',
+      'Send a hard copy by post/courier to: "Deputy DGFT(HRD), O/o Addl.DGFT, Nishtha Bhavan, 48, Sir Vithaldas Thackersey Marg, Churchgate, Mumbai – 400020".',
+      'Ensure email and Google Form submission before 18 August 2026.'
+    ],
+    documentsRequired: [
+      'Signed Application Form Proforma',
+      'Detailed Resume / CV',
+      'Self-attested copy of Aadhaar Card & PAN Card',
+      'Self-attested copies of Educational Qualification Degrees & Marksheets',
+      'Self-attested copy of 1 Year Work Experience Certificate',
+      'Medical Fitness Certificate & Police Verification Report (prior to engagement)'
+    ],
+    importantInstructions: [
+      'Filling the Google Form link AND emailing signed application form is mandatory.',
+      'Maximum tenure of engagement is 3 years total.',
+      'Incomplete applications or applications received after due date will be rejected.'
+    ],
+    urls: [
+      { label: 'DGFT Official Portal', url: 'https://dgft.gov.in' },
+      { label: 'DGFT Mumbai YP Google Application Form', url: 'https://forms.gle/oMi5Lyo3YP2ZtbX67' }
+    ],
+    faqs: [
+      {
+        question: 'What is the monthly salary for DGFT Mumbai Young Professional posts?',
+        answer: 'Selected Young Professionals receive a consolidated fee of ₹60,000/- per month.'
+      },
+      {
+        question: 'What is the last date to apply for DGFT Mumbai YP recruitment 2026?',
+        answer: 'Applications must be submitted via Google Form and email to hrdmum-dgft@nic.in by 18 August 2026.'
+      },
+      {
+        question: 'What is the age limit for DGFT Young Professional posts?',
+        answer: 'Candidates must be below 35 years of age as on 01 July 2026.'
+      }
+    ]
+  },
+
   'district-court-sbs-nagar-clerk-recruitment-2026': {
     id: 'district-court-sbs-nagar-clerk-recruitment-2026',
     seoTitle: 'District Court SBS Nagar Recruitment 2026 – Apply Offline for 13 Clerk Posts',
