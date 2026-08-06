@@ -92,13 +92,37 @@ const QUALIFICATION_MAP: Record<string, QualificationMeta> = {
     description: 'Active recruitment alerts for Post Graduates, Master\'s degree holders, MBA, MCA, M.Sc, and M.Tech candidates.',
     keywords: 'Post Graduate Govt Jobs 2026, Master Degree Sarkari Vacancy, MCA Jobs, MBA Govt Jobs'
   },
-  'medical-nursing': {
-    slug: 'medical-nursing',
-    shortLabel: 'MBBS / Medical / Nursing',
-    title: 'Latest Medical, Doctor & Nursing Government Jobs 2026',
-    badge: 'MBBS / MD / BDS / GNM / Nursing / Pharmacy',
-    description: 'Verified job notifications for Doctors, MBBS, Medical Officers, Senior Residents, GNM Nurses, and Pharmacists.',
-    keywords: 'Medical Officer Govt Jobs 2026, Doctor Sarkari Vacancy, Nursing Officer Jobs, GNM Nurse Bharti'
+  'mbbs-doctor': {
+    slug: 'mbbs-doctor',
+    shortLabel: 'MBBS / Doctor',
+    title: 'Latest MBBS Doctor & Medical Officer Government Jobs 2026',
+    badge: 'MBBS / MD / MS / DNB / DM / Medical Officer',
+    description: 'Verified job notifications for MBBS Doctors, Medical Officers, Senior Residents, Tutors, and Specialist Physicians in government hospitals, AIIMS, ESIC, Railways, and Defence.',
+    keywords: 'MBBS Govt Jobs 2026, Medical Officer Vacancy, Senior Resident Jobs, Doctor Sarkari Bharti, AIIMS Doctor Recruitment'
+  },
+  'nursing': {
+    slug: 'nursing',
+    shortLabel: 'Nursing / GNM / ANM',
+    title: 'Latest Nursing, GNM & ANM Government Jobs 2026',
+    badge: 'B.Sc Nursing / GNM / ANM / Staff Nurse',
+    description: 'Active government nursing vacancies for GNM, ANM, B.Sc Nursing, and Staff Nurse posts across AIIMS, ESIC, State Health Departments, and Railways.',
+    keywords: 'Nursing Govt Jobs 2026, GNM Staff Nurse Vacancy, ANM Sarkari Bharti, BSc Nursing Recruitment'
+  },
+  'pharmacist': {
+    slug: 'pharmacist',
+    shortLabel: 'Pharmacist / B.Pharm',
+    title: 'Latest Pharmacist & B.Pharm Government Jobs 2026',
+    badge: 'B.Pharm / D.Pharm / Pharmacist',
+    description: 'Verified public sector recruitment alerts for Pharmacists, B.Pharm, D.Pharm graduates across government hospitals, ESIC, Railways, and CGHS.',
+    keywords: 'Pharmacist Govt Jobs 2026, B.Pharm Vacancy, D.Pharm Sarkari Bharti, Government Pharmacist Recruitment'
+  },
+  'dental-bds': {
+    slug: 'dental-bds',
+    shortLabel: 'Dental / BDS',
+    title: 'Latest Dental Surgeon & BDS Government Jobs 2026',
+    badge: 'BDS / MDS / Dental Surgeon / Dental Hygienist',
+    description: 'Active government job alerts for BDS, MDS graduates, Dental Surgeons, and Dental Hygienists in AIIMS, state health departments, and public hospitals.',
+    keywords: 'BDS Govt Jobs 2026, Dental Surgeon Vacancy, MDS Sarkari Bharti, Government Dental Officer Recruitment'
   },
   'finance-ca': {
     slug: 'finance-ca',
@@ -259,12 +283,15 @@ function matchesQualification(job: JobEntry, slug: string): boolean {
     '12th-pass': ['12th', 'intermediate', 'higher secondary', '10+2', 'puc'],
     'ba': ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor'],
     'btech': ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan'],
-    'bsc': ['b.sc', 'bsc', 'b.vsc', 'science', 'nursing', 'agriculture'],
+    'bsc': ['b.sc', 'bsc', 'b.vsc', 'science', 'agriculture'],
     'bcom': ['b.com', 'bcom', 'commerce', 'accountant', 'accounts'],
     'diploma': ['diploma', 'polytechnic'],
     'iti': ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice'],
     'post-graduation': ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'llm', 'm.arch', 'm.plan', 'mvsc', 'm.ch'],
-    'medical-nursing': ['mbbs', 'md', 'ms', 'dnb', 'dm', 'bds', 'dental', 'gnm', 'b.pharm', 'pharmacy', 'medical', 'tutor', 'senior resident'],
+    'mbbs-doctor': ['mbbs', 'md', 'ms', 'dnb', 'dm', 'medical officer', 'senior resident', 'tutor', 'registrar', 'demonstrator'],
+    'nursing': ['nursing', 'gnm', 'anm', 'b.sc nursing', 'staff nurse', 'nurse', 'fmphw', 'mmphw'],
+    'pharmacist': ['pharmacy', 'pharmacist', 'b.pharm', 'd.pharm', 'pharm.d', 'drug inspector'],
+    'dental-bds': ['bds', 'dental', 'mds', 'dental surgeon', 'dental hygienist'],
     'finance-ca': ['ca', 'cma', 'icwai', 'chartered accountant', 'icai', 'icmai', 'icsi', 'company secretary'],
     'phd': ['ph.d', 'phd', 'doctorate']
   };
