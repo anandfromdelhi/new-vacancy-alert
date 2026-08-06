@@ -58,6 +58,360 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026': {
+    id: 'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026',
+    seoTitle: 'MANUU Darbhanga Recruitment 2026 – Walk-in-Interview for Caretaker, Electrician & Plumber',
+    seoDescription: 'Maulana Azad National Urdu University (MANUU) Off Campus Darbhanga Recruitment 2026: Walk-in-Interview on 11 August 2026 for Caretaker (Male/Female), Electrician & Plumber posts. Monthly salary ₹19,525. Check qualifications & reporting venue.',
+    focusKeywords: 'MANUU Darbhanga Recruitment 2026, MANUU Caretaker Vacancy 2026, MANUU Hostel Staff Walk-in Interview, manuu.edu.in recruitment',
+    lsiKeywords: 'MANUU Off Campus Darbhanga Hostels, MANUU Caretaker Electrician Plumber salary 19525, MANUU Darbhanga walk-in date 11 August 2026, MANUU Urdu knowledge hostel jobs',
+    title: 'MANUU Off Campus Darbhanga Hostels Recruitment 2026 (Caretakers, Electrician & Plumber) – 10 Contractual Posts',
+    board: 'Maulana Azad National Urdu University (MANUU), Central University under Ministry of Education, Govt. of India',
+    advtNo: 'Walk-in Notification for MANUU Off Campus Darbhanga',
+    vacancies: 10,
+    jobLocation: 'MANUU Hostels, Darbhanga, Bihar – 846002',
+    applicationMode: 'Walk-in-Interview on 11 August 2026 (11:00 AM)',
+    applicationStatus: 'Active - Walk-in-Interview on 11 August 2026 (Registration by 10:00 AM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'Maulana Azad National Urdu University (MANUU), a Central University established by an Act of Parliament under the Ministry of Education, Government of India, invites applications for Walk-in-Interview for engagement of suitable persons on short-term contractual basis for Boys & Girls Hostels at MANUU Off Campus Darbhanga (Bihar).',
+      'A total of 10 contractual positions are announced: Caretakers (Male & Female - 08 posts: 04 Male and 04 Female), Electrician (Male - 01 post), and Plumber (Male - 01 post).',
+      'Selected candidates will be paid a consolidated monthly remuneration of ₹19,525/- per month.',
+      'The initial engagement is for a period of 89 days, extendable on the basis of performance evaluation and university requirement.',
+      'Desirous eligible candidates must directly report for Walk-in-Interview on Tuesday, 11 August 2026 at 11:00 AM (Registration closes at 10:00 AM) at Office of the Provost, MANUU Hostel, Ilyas Ashraf Nagar, Chandanpatti, Laheriasarai, Darbhanga, Bihar – 846002.'
+    ],
+    highlights: [
+      { label: 'Recruiting University', value: 'Maulana Azad National Urdu University (MANUU)' },
+      { label: 'University Type', value: 'Central University under Ministry of Education, Govt. of India (NAAC Grade A+)' },
+      { label: 'Posting Location', value: 'MANUU Hostels, Off Campus Darbhanga (Bihar)' },
+      { label: 'Total Vacancies', value: '10 Posts (Caretaker: 8 [4 Male, 4 Female], Electrician: 1, Plumber: 1)' },
+      { label: 'Monthly Remuneration', value: '₹19,525/- per month (Consolidated)' },
+      { label: 'Age Limit', value: 'Preferably below 35 years' },
+      { label: 'Contract Duration', value: '89 Days initially (extendable based on performance)' },
+      { label: 'Application Fee', value: '₹0/- (No Fee)' },
+      { label: 'Selection Scheme', value: 'Registration at 10:00 AM followed by Walk-in-Interview at 11:00 AM' },
+      { label: 'Walk-in Interview Date', value: 'Tuesday, 11 August 2026 (11:00 AM)' },
+      { label: 'Reporting Venue', value: 'MANUU-Provost Office, Ilyas Ashraf Nagar, Chandanpatti, Laheriasarai, Darbhanga, Bihar – 846002' }
+    ],
+    importantDates: [
+      { event: 'Notification Issued Date', date: '03 August 2026' },
+      { event: 'Registration Time at Venue', date: '11 August 2026 (by 10:00 AM)' },
+      { event: 'Walk-in-Interview Date & Time', date: '11 August 2026 at 11:00 AM' }
+    ],
+    vacanciesDetails: [
+      { category: 'Caretaker (Male)', count: 4 },
+      { category: 'Caretaker (Female)', count: 4 },
+      { category: 'Electrician (Male)', count: 1 },
+      { category: 'Plumber (Male)', count: 1 },
+      { category: 'Total Hostel Staff Vacancies', count: 10 }
+    ],
+    eligibility: {
+      education: [
+        '1. Caretaker (Male & Female) (₹19,525 pm | Below 35 Yrs): Bachelor Degree in any discipline from a recognized University + Proficiency in Computer Operations + Knowledge of Urdu. Experience: Minimum 2 years experience in Managing Hostel / Canteen / Guest House related affairs.',
+        '2. Electrician (Male) (₹19,525 pm | Below 35 Yrs): ITI in Electrician from recognized University/Institute (NCVT Certification) + Knowledge of Urdu (Preferably). Experience: Minimum 2 years experience in Electrician work.',
+        '3. Plumber (Male) (₹19,525 pm | Below 35 Yrs): ITI in Plumbing from recognized University/Institute (NCVT Certification) + Knowledge of Urdu (Preferably). Experience: Minimum 2 years experience in Plumbing work.'
+      ],
+      ageLimit: 'Preferably below 35 years as on date of Walk-in-Interview.',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / PwBD / Ex-Servicemen', relaxation: 'As per Central Govt / MANUU rules' }
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Remuneration',
+      initialPay: '₹19,525/- per month (Fixed Consolidated)',
+      allowances: 'Purely on short-term contract basis for 89 days.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Registration at Venue', description: 'Candidates must report at MANUU Hostel Darbhanga office by 10:00 AM on 11.08.2026 to register.' },
+      { stage: '2. Walk-in-Interview', description: 'Personal interview conducted by the Selection Board at 11:00 AM on 11.08.2026.' }
+    ],
+    howToApply: [
+      'Download the official notification and registration form from www.manuu.edu.in.',
+      'Fill out the Registration Form in CAPITAL letters with your details, educational qualifications, Urdu proficiency, and experience.',
+      'Attach one passport size photograph, one set of self-attested photocopies of all certificates (qualification, age, experience, caste).',
+      'Provide two professional references with contact number and email ID in the application form.',
+      'Report directly for Walk-in-Interview on 11 August 2026 at 10:00 AM at MANUU-Provost Office, Ilyas Ashraf Nagar, Chandanpatti, Laheriasarai, Darbhanga, Bihar – 846002.',
+      'Bring all original documents for verification at the reporting venue.'
+    ],
+    documentsRequired: [
+      'Filled & signed Registration Form',
+      'One recent Passport size Photograph',
+      'Original & Self-attested copies of 10th/Proof of Age Certificate',
+      'Original & Self-attested copies of Graduation / ITI Certificate & Marksheets',
+      'Experience Certificate (min 2 years in relevant field)',
+      'Proof of Urdu Knowledge (Urdu in 10th/12th/Degree or Certificate)',
+      'Valid Category / Caste Certificate (if applicable)',
+      'Valid Photo Identity Proof (Aadhaar Card, Voter ID, PAN Card)'
+    ],
+    importantInstructions: [
+      'Candidate with knowledge of Urdu will be preferred.',
+      'Registration closes strictly at 10:00 AM on 11 August 2026. No late arrival will be entertained.',
+      'No TA/DA will be paid for attending the Walk-in-Interview.'
+    ],
+    urls: [
+      { label: 'MANUU Official Website', url: 'https://www.manuu.edu.in' },
+      { label: 'MANUU Notifications & Recruitment Page', url: 'https://manuu.edu.in/Notifications' }
+    ],
+    faqs: [
+      {
+        question: 'When is the Walk-in-Interview for MANUU Darbhanga Caretaker & Technical staff?',
+        answer: 'The Walk-in-Interview will take place on Tuesday, 11 August 2026 at 11:00 AM (Registration closes at 10:00 AM).'
+      },
+      {
+        question: 'What is the salary for Caretaker & Electrician at MANUU Darbhanga?',
+        answer: 'Selected candidates will receive a consolidated monthly remuneration of ₹19,525/- per month.'
+      },
+      {
+        question: 'Is Urdu knowledge required for MANUU Darbhanga vacancies?',
+        answer: 'Yes, knowledge of Urdu is required for Caretaker posts and preferred for Electrician and Plumber posts.'
+      }
+    ]
+  },
+
+  'esic-pune-faculty-senior-resident-medical-officer-recruitment-2026': {
+    id: 'esic-pune-faculty-senior-resident-medical-officer-recruitment-2026',
+    seoTitle: 'ESIC Pune Recruitment 2026 – Walk-in-Interview for 38 Faculty, SR & MO Posts',
+    seoDescription: 'ESIC Medical College & Hospital Bibvewadi, Pune Recruitment 2026 (Advt 08/2026): Walk-in-Interview on 11-13 August 2026 for 38 posts of Professor, Associate/Assistant Professor, Senior Resident & DCBO Medical Officers. Emoluments up to ₹2.57 Lakhs. Check department-wise vacancies & reporting details.',
+    focusKeywords: 'ESIC Pune Recruitment 2026, ESIC Bibvewadi Teaching Faculty, ESIC Senior Resident Pune, bibvewadihospital.esic.gov.in',
+    lsiKeywords: 'ESIC Medical College Hospital Pune Walk-in, ESIC Pune Professor Associate Assistant Professor, ESIC Medical Officer DCBO Yavatmal Gondia Washim, ESIC Pune walk-in dates 11-13 August 2026',
+    title: 'ESIC Medical College & Hospital Pune Recruitment 2026 (Faculty, Senior Resident & DCBO Medical Officers) – 38 Vacancies',
+    board: "Employees' State Insurance Corporation (ESIC) Medical College & Hospital, Bibvewadi, Pune, Maharashtra",
+    advtNo: 'Advertisement No. 08 of 2026 (In Continuation of Advertisement No. 07/2026)',
+    vacancies: 38,
+    jobLocation: 'ESIC Medical College & Hospital, Bibvewadi, Pune & DCBOs in Yavatmal, Gondia, Washim (Maharashtra)',
+    applicationMode: 'Walk-in-Interview on 11-13 August 2026',
+    applicationStatus: 'Active - Walk-in-Interviews on 11, 12 & 13 August 2026 (09:00 AM to 10:30 AM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'ESIC Medical College and Hospital, Bibvewadi, Pune (Maharashtra), under Employees\' State Insurance Corporation (Ministry of Labour & Employment, Govt. of India), invites eligible medical candidates for Walk-in-Interview for engagement on contractual basis.',
+      'The recruitment is advertised under Advertisement No. 08 of 2026 (in continuation of Advt 07/2026) for a total of 38 vacancies across 6 cadres: Professor (6 posts), Associate Professor (11 posts), Assistant Professor (7 posts), Senior Resident 1-Year (1 post), Senior Resident 3-Year (10 posts), and Medical Officers for ESIC DCBOs in Yavatmal, Gondia, Washim (3 posts).',
+      'Consolidated monthly emoluments range from ₹1,10,000/- (for DCBO Medical Officers) up to ₹2,57,000/- (for Professors) under 7th CPC levels.',
+      'Walk-in-interviews will be conducted from 11 August 2026 to 13 August 2026 (Reporting 09:00 AM to 10:30 AM) at the Office of the Dean/Medical Superintendent, ESIC Medical College and Hospital, Bibvewadi, Pune.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: "ESIC Medical College & Hospital, Bibvewadi, Pune" },
+      { label: 'Parent Body', value: 'Employees State Insurance Corporation (Ministry of Labour & Employment, Govt. of India)' },
+      { label: 'Advertisement No.', value: 'Advertisement No. 08 of 2026 (Continuation of 07/2026)' },
+      { label: 'Total Vacancies', value: '38 Contractual Vacancies (Faculty: 24, SR: 11, DCBO MO: 3)' },
+      { label: 'Emoluments (Professor)', value: '7th CPC Level 13 (Basic ₹1,23,100, Approx Emoluments ₹2,57,000/- pm)' },
+      { label: 'Emoluments (Associate Professor)', value: '7th CPC Level 12 (Basic ₹78,800, Approx Emoluments ₹1,70,000/- pm)' },
+      { label: 'Emoluments (Assistant Prof & SR)', value: '7th CPC Level 11 (Basic ₹67,700, Approx Emoluments ₹1,50,000/- pm)' },
+      { label: 'Emoluments (DCBO Medical Officer)', value: '7th CPC Level 10 (Basic ₹56,000, Approx Emoluments ₹1,10,000/- pm)' },
+      { label: 'Upper Age Limit', value: 'Faculty: 68 Yrs | Senior Resident: 45 Yrs | DCBO Medical Officer: 35 Yrs' },
+      { label: 'Application Fee', value: '₹500/- Demand Draft (₹0 for SC/ST/ESIC/Female/EXS/PH)' },
+      { label: 'Reporting Window', value: '09:00 AM to 10:30 AM on designated interview date' },
+      { label: 'Interview Dates', value: '11 August 2026, 12 August 2026 & 13 August 2026' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '04 August 2026' },
+      { event: 'Walk-in Interview Day 1 (Anatomy, Biochem, Physio, Comm, Forensic, Micro, Pharma, Psychiatry)', date: '11 August 2026 (09:00 AM)' },
+      { event: 'Walk-in Interview Day 2 (Gen Med, Paediatrics, Radio, Anaesthesia, Blood Bank, Ortho, Surgery, Emergency)', date: '12 August 2026 (09:00 AM)' },
+      { event: 'Walk-in Interview Day 3 (Nephro, Oncology, ICU/Critical Care, DCBO Medical Officers)', date: '13 August 2026 (09:00 AM)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Professor (OBC 2, UR 2, EWS 1, SC 1)', count: 6 },
+      { category: 'Associate Professor (UR 6, OBC 2, SC 2, ST 1)', count: 11 },
+      { category: 'Assistant Professor (OBC 3, UR 2, EWS 2)', count: 7 },
+      { category: 'Senior Resident (1 Year) (OBC 1)', count: 1 },
+      { category: 'Senior Resident (3 Years) (UR 3, OBC 3, EWS 2, SC 1, ST 1)', count: 10 },
+      { category: 'Medical Officer for DCBO Yavatmal (UR)', count: 1 },
+      { category: 'Medical Officer for DCBO Gondia (ST)', count: 1 },
+      { category: 'Medical Officer for DCBO Washim (EWS)', count: 1 },
+      { category: 'Total ESIC Pune Contractual Vacancies', count: 38 }
+    ],
+    eligibility: {
+      education: [
+        'Teaching Faculty & Senior Residents: MD / MS / DNB / PG Diploma in concerned Specialty as per National Medical Commission (NMC erstwhile MCI) guidelines + NMC / State Medical Council Registration.',
+        'Medical Officers in DCBOs (Yavatmal, Gondia, Washim): Recognized MBBS Degree included in NMC Schedules + Completion of compulsory rotating internship + Registration with NMC / Maharashtra Medical Council.'
+      ],
+      ageLimit: 'Faculty: Max 68 Yrs | Senior Resident: Max 45 Yrs | DCBO Medical Officer: Max 35 Yrs (as on 11.08.2026).',
+      ageRelaxation: [
+        { category: 'SC / ST', relaxation: '5 Years' },
+        { category: 'OBC (Non-Creamy Layer)', relaxation: '3 Years' },
+        { category: 'PwD Candidates', relaxation: 'As per Govt of India rules' }
+      ]
+    },
+    salary: {
+      payLevel: '7th CPC Pay Scale + DA & Admissible Emoluments',
+      initialPay: 'Professor: ₹2,57,000/- pm | Assoc Prof: ₹1,70,000/- pm | Asst Prof & SR: ₹1,50,000/- pm | DCBO MO: ₹1,10,000/- pm',
+      allowances: 'Dearness Allowance automatically revised as per HQ orders.'
+    },
+    applicationFee: [
+      { category: 'General / OBC / EWS Candidates', fee: '₹500/- Demand Draft in favor of "ESI Fund A/c No.-1", payable at Pune', refund: 'Non-refundable' },
+      { category: 'SC / ST / ESIC Regular Employees / Female / Ex-Servicemen / PwD Candidates', fee: '₹0/- (Exempted)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Scrutiny of Documents', description: 'Scrutiny of application forms, NMC registration, publications, and degree certificates at reporting time (09:00 to 10:30 AM).' },
+      { stage: '2. Personal Interview', description: 'Interview before the Selection Board. Selection based on interview performance.' }
+    ],
+    howToApply: [
+      'Download application format Annexure-A (for Faculty/SR) or Annexure-B (for DCBO MO) from www.esic.gov.in/recruitments or bibvewadihospital.esic.gov.in.',
+      'Fill out the application form carefully with qualification details, publications, and experience.',
+      'Prepare a Demand Draft of ₹500/- in favor of "ESI Fund A/c No.-1" payable at Pune (if applicable).',
+      'Assemble one set of self-attested photocopies of 10th DOB certificate, MBBS marksheets & degree, MD/MS/DNB degree, NMC/MMC registration, caste certificate, publications, and experience certificates.',
+      'Report in person on the designated interview date (11, 12, or 13 August 2026) between 09:00 AM and 10:30 AM at Office of Dean, ESIC Medical College and Hospital, Bibvewadi, Pune.',
+      'Bring all original certificates and 1 recent passport size photo.'
+    ],
+    documentsRequired: [
+      'Filled & signed Application Form (Annexure-A or B)',
+      'Demand Draft of ₹500 (if applicable)',
+      'Class 10th Certificate for DOB proof',
+      'MBBS Marksheets (all years), Attempt Certificate & Degree Certificate',
+      'MD/MS/DNB/PG Diploma Marksheets & Degree Certificates',
+      'Valid National Medical Council (NMC) / Maharashtra Medical Council Registration Certificate',
+      'Proof of Publications (NMC approved)',
+      'Experience Certificates (in Govt/Pvt Hospital/Institute)',
+      'Valid Caste / EWS / OBC-NCL / PwD Certificate',
+      'Aadhaar Card & PAN Card',
+      'No Objection Certificate (NOC) if currently in Govt service'
+    ],
+    importantInstructions: [
+      'Private practice of any kind is strictly prohibited.',
+      'Tenure is initially 1 year, extendable up to 3 years based on performance.',
+      'Contractual doctors must submit security deposit of ₹20,000 at joining.'
+    ],
+    urls: [
+      { label: 'ESIC Bibvewadi Pune Hospital Portal', url: 'https://bibvewadihospital.esic.gov.in' },
+      { label: 'ESIC Official Recruitment Portal', url: 'https://www.esic.gov.in/recruitments' }
+    ],
+    faqs: [
+      {
+        question: 'What are the interview dates for ESIC Medical College Pune recruitment 2026?',
+        answer: 'Walk-in-interviews will be conducted from 11 August to 13 August 2026 depending on the specialty.'
+      },
+      {
+        question: 'What is the salary for Assistant Professor & Senior Resident at ESIC Pune?',
+        answer: 'The approximate monthly emoluments for Assistant Professor and Senior Resident are ₹1,50,000/- per month (Level 11 of 7th CPC).'
+      },
+      {
+        question: 'Who is exempted from paying the application fee for ESIC Pune walk-in?',
+        answer: 'SC, ST, ESIC regular employees, Female, Ex-Servicemen, and PwD candidates are completely exempted from application fee.'
+      }
+    ]
+  },
+
+  'esic-bikaner-specialist-senior-resident-recruitment-2026': {
+    id: 'esic-bikaner-specialist-senior-resident-recruitment-2026',
+    seoTitle: 'ESIC Bikaner Recruitment 2026 – Walk-in-Interview for 16 Specialist & Resident Doctor Posts',
+    seoDescription: 'ESIC Hospital Jaisalmer Road Bikaner Recruitment 2026 (Advt 155/A/ESICH-BKN): Walk-in-Interview on 20 August 2026 for Full Time Specialists, Senior Residents (3 Yrs), and GDMO Residents (1 Yr). Monthly salary up to ₹1,21,408. Check qualifications & reporting venue.',
+    focusKeywords: 'ESIC Bikaner Recruitment 2026, ESIC Specialist Vacancy Bikaner, ESIC Senior Resident Bikaner, esic.nic.in recruitment',
+    lsiKeywords: 'ESIC Hospital Jaisalmer Road Bikaner Walk-in, ESIC Bikaner Specialist 121408 salary, ESIC Bikaner Senior Resident 20 August 2026, ESIC Rajasthan doctor walk-in',
+    title: 'ESIC Hospital Bikaner Recruitment 2026 (Full Time Specialists & Senior Residents) – 16 Contractual Posts',
+    board: "Employees' State Insurance Corporation (ESIC) Hospital, Bikaner, Rajasthan",
+    advtNo: 'FL.No. 155/A/ESICH-BKN/REC/ADMN/2023-1 Dated 03-08-2026',
+    vacancies: 16,
+    jobLocation: 'ESIC Hospital, Jaisalmer Road, Bikaner, Rajasthan – 334001',
+    applicationMode: 'Walk-in-Interview on 20 August 2026 (Thursday)',
+    applicationStatus: 'Active - Walk-in-Interview on 20 August 2026 (Reporting 09:00 AM to 11:00 AM)',
+    lastUpdated: '06 August 2026',
+    overview: [
+      'ESIC Hospital, Jaisalmer Road, Bikaner (Rajasthan), an autonomous body under Ministry of Labour & Employment, Government of India, invites eligible medical candidates for Walk-in-Interview for contractual engagement of doctors.',
+      'A total of 16 contractual positions are announced across 3 cadres: Full Time Specialists on Contract (06 posts), Senior Resident 3-Year Contract (05 posts), and Senior/Junior Resident against vacant GDMO post for 1 Year (05 posts).',
+      'Specialist disciplines include Pathology, Dermatology, Orthopaedics, Radiology, General Surgery, General Medicine, Obs & Gynaecology, and Ophthalmology.',
+      'Consolidated monthly remuneration is ₹1,21,408/- per month for Specialists and ₹1,21,048/- per month for GDMO Residents, with 7th CPC Level 11 pay for 3-Year Senior Residents.',
+      'Interested candidates must appear for Walk-in-Interview on Thursday, 20 August 2026 between 09:00 AM and 11:00 AM at Conference Hall, ESIC Hospital, Jaisalmer Road, Bikaner, Rajasthan.'
+    ],
+    highlights: [
+      { label: 'Recruiting Institution', value: 'ESIC Hospital, Jaisalmer Road, Bikaner, Rajasthan' },
+      { label: 'Ministry', value: 'Ministry of Labour & Employment, Govt. of India' },
+      { label: 'File Reference No.', value: 'FL.No. 155/A/ESICH-BKN/REC/ADMN/2023-1' },
+      { label: 'Total Vacancies', value: '16 Posts (Specialist: 6, SR 3-Yr: 5, SR/JR GDMO 1-Yr: 5)' },
+      { label: 'Monthly Salary (Specialists)', value: '₹1,21,408/- per month (Consolidated)' },
+      { label: 'Monthly Salary (SR/JR GDMO)', value: '₹1,21,048/- per month (Consolidated)' },
+      { label: 'Monthly Pay (SR 3-Year)', value: '7th CPC Level 11 Pay Scale' },
+      { label: 'Upper Age Limit', value: 'Specialists: 69 Yrs | Senior Residents & GDMO: 45 Yrs' },
+      { label: 'Application Fee', value: '₹0/- (No Fee)' },
+      { label: 'Walk-in Interview Date', value: 'Thursday, 20 August 2026 (Reporting 09:00 AM to 11:00 AM)' },
+      { label: 'Reporting Venue', value: 'Conference Hall, ESIC Hospital, Jaisalmer Road, Bikaner, Rajasthan – 334001' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '03 August 2026' },
+      { event: 'Reporting Window at Venue', date: '20 August 2026 (09:00 AM to 11:00 AM)' },
+      { event: 'Walk-in-Interview Date', date: '20 August 2026 (Thursday)' },
+      { event: 'Crucial Date for Age & Eligibility', date: '20 August 2026 (Date of Interview)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Full Time Specialist (Pathology - SC 1)', count: 1 },
+      { category: 'Full Time Specialist (Dermatology - OBC 1)', count: 1 },
+      { category: 'Full Time Specialist (Orthopaedics - UR 1)', count: 1 },
+      { category: 'Full Time Specialist (Radiology - OBC 1)', count: 1 },
+      { category: 'Full Time Specialist (General Surgery - UR 1)', count: 1 },
+      { category: 'Full Time Specialist (General Medicine - UR 1)', count: 1 },
+      { category: 'Senior Resident 3-Yr (Obs & Gynaecology - OBC 1)', count: 1 },
+      { category: 'Senior Resident 3-Yr (Orthopaedics - UR 1)', count: 1 },
+      { category: 'Senior Resident 3-Yr (General Medicine - OBC 1, SC 1)', count: 2 },
+      { category: 'Senior Resident 3-Yr (Ophthalmology - UR 1)', count: 1 },
+      { category: 'Senior/Junior Resident GDMO 1-Yr (UR 4, EWS 1)', count: 5 },
+      { category: 'Total ESIC Bikaner Contractual Medical Vacancies', count: 16 }
+    ],
+    eligibility: {
+      education: [
+        '1. Full Time Specialists (Max 69 Yrs | ₹1,21,408 pm): PG Degree or equivalent with 3 years post-PG experience OR PG Diploma with 5 years post-PG experience in respective specialty + valid MCI / State Medical Council Registration.',
+        '2. Senior Resident (3 Years) (Max 45 Yrs | 7th CPC Level 11): PG Degree or Diploma / DNB in concerned specialty from recognized university + valid MCI / State Medical Council Registration.',
+        '3. Senior/Junior Resident against GDMO (1 Year) (Max 45 Yrs | ₹1,21,048 pm): PG Degree / Diploma / DNB preferred. If unavailable, MBBS with experience or clinical knowledge considered.'
+      ],
+      ageLimit: 'Specialists: Max 69 Yrs | Senior Residents & GDMO Residents: Max 45 Yrs as on date of interview (20.08.2026).',
+      ageRelaxation: [
+        { category: 'SC / ST / OBC / EWS', relaxation: 'As per Central Govt rules' }
+      ]
+    },
+    salary: {
+      payLevel: 'Consolidated Monthly Remuneration / 7th CPC Level 11',
+      initialPay: 'Specialists: ₹1,21,408/- pm | GDMO Resident: ₹1,21,048/- pm | SR 3-Yr: 7th CPC Level 11 Pay',
+      allowances: 'Contractual engagement initially for 1 year, extendable up to 3 years.'
+    },
+    applicationFee: [
+      { category: 'All Candidates', fee: '₹0/- (No Fee)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: '1. Scrutiny of Documents & Registration', description: 'Reporting & document submission between 09:00 AM and 11:00 AM on 20.08.2026 at venue.' },
+      { stage: '2. Walk-in-Interview', description: 'Personal interview conducted by Selection Board. Minimum 50% qualifying marks required in interview.' }
+    ],
+    howToApply: [
+      'Download application form Annexure-A from official website www.esic.nic.in/recruitments.',
+      'Fill out the application form completely with qualification details, MBBS/MD marks, and MCI registration info.',
+      'Attach two recent passport size photographs and one set of self-attested photocopies of all certificates.',
+      'Report in person on Thursday, 20 August 2026 between 09:00 AM and 11:00 AM at Conference Hall, ESIC Hospital, Jaisalmer Road, Bikaner, Rajasthan.',
+      'Bring all original documents for verification at reporting venue.'
+    ],
+    documentsRequired: [
+      'Filled Application Form (Annexure-A)',
+      'Two recent Passport size Photographs',
+      'Proof of Date of Birth (Class 10th SSLC Certificate)',
+      'MBBS Marksheets (all years), Attempt Certificate & Degree Certificate',
+      'PG Degree / Diploma / DNB Marksheets & Degree Certificate',
+      'Valid MCI / RMC / State Medical Council Registration Certificate',
+      'Experience Certificate(s)',
+      'Caste / EWS / OBC-NCL Certificate in prescribed Central Govt format',
+      'Aadhaar Card & PAN Card',
+      'No Objection Certificate (NOC) if currently employed'
+    ],
+    importantInstructions: [
+      'Reporting time is strictly 09:00 AM to 11:00 AM on 20 August 2026.',
+      'Private practice of any kind will not be allowed.',
+      'Selected Specialists & SRs must deposit refundable security DD of ₹25,000.'
+    ],
+    urls: [
+      { label: 'ESIC Official Recruitment Portal', url: 'https://www.esic.gov.in/recruitments' }
+    ],
+    faqs: [
+      {
+        question: 'When is the walk-in-interview date for ESIC Hospital Bikaner doctor recruitment?',
+        answer: 'The walk-in-interview will take place on Thursday, 20 August 2026 (Reporting between 09:00 AM and 11:00 AM).'
+      },
+      {
+        question: 'What is the salary for Full Time Specialists at ESIC Bikaner?',
+        answer: 'Full Time Specialists receive a consolidated monthly remuneration of ₹1,21,408/- per month.'
+      },
+      {
+        question: 'What is the age limit for ESIC Bikaner Specialist posts?',
+        answer: 'The upper age limit for Full Time Specialists is 69 years as on the date of interview.'
+      }
+    ]
+  },
+
   'ongc-medical-officers-specialist-recruitment-2026': {
     id: 'ongc-medical-officers-specialist-recruitment-2026',
     seoTitle: 'ONGC Medical Officer Recruitment 2026 – Apply Online for 24 Doctor & Specialist Posts',

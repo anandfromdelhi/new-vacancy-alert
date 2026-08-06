@@ -12,6 +12,39 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026',
+    b: 'Maulana Azad National Urdu University (MANUU), Central University',
+    t: 'MANUU Darbhanga Recruitment 2026 – 10 Contractual Vacancies for Caretakers (Male/Female), Electrician & Plumber | Walk-in Interview on 11 August 2026',
+    d: '03-08-2026',
+    l: '11-08-2026',
+    a: 'Walk-in Notification for MANUU Off Campus Darbhanga',
+    q: 'Bachelor Degree (for Caretaker) / ITI in Electrician / ITI in Plumbing (NCVT Pass + Urdu Knowledge)',
+    desc: 'Maulana Azad National Urdu University (MANUU), a Central University under Ministry of Education, invites applications for Walk-in-Interview for 10 short-term contractual vacancies of Caretakers (Male & Female - 8 posts), Electrician (1 post), and Plumber (1 post) for Hostels at MANUU Off Campus Darbhanga (Bihar). Monthly salary ₹19,525/-. Walk-in interview on 11 August 2026 at MANUU Darbhanga.',
+    u: 'https://www.manuu.edu.in'
+  },
+  {
+    id: 'esic-pune-faculty-senior-resident-medical-officer-recruitment-2026',
+    b: "Employees' State Insurance Corporation (ESIC) Medical College & Hospital, Pune",
+    t: 'ESIC Pune Recruitment 2026 – 38 Contractual Vacancies for Professor, Associate/Assistant Professor, Senior Resident & Medical Officers | Walk-in Interview 11-13 August 2026',
+    d: '04-08-2026',
+    l: '13-08-2026',
+    a: 'Advertisement No. 08 of 2026 (In Continuation of Advt 07/2026)',
+    q: 'MBBS / MD / MS / DNB / Diploma in relevant Medical Specialty + NMC / Maharashtra Medical Council Registration',
+    desc: 'ESIC Medical College & Hospital, Bibvewadi, Pune invites eligible doctors for Walk-in-Interview for 38 contractual vacancies of Professor (6), Associate Professor (11), Assistant Professor (7), Senior Resident 3-Yr (10), Senior Resident 1-Yr (1), and Medical Officers for DCBOs in Yavatmal, Gondia, Washim (3). Emoluments up to ₹2,57,000/- pm. Walk-in interviews from 11 to 13 August 2026 in Pune.',
+    u: 'https://bibvewadihospital.esic.gov.in'
+  },
+  {
+    id: 'esic-bikaner-specialist-senior-resident-recruitment-2026',
+    b: "Employees' State Insurance Corporation (ESIC) Hospital, Bikaner",
+    t: 'ESIC Bikaner Recruitment 2026 – 16 Contractual Vacancies for Full Time Specialists, Senior Residents & GDMO Residents | Walk-in Interview on 20 August 2026',
+    d: '03-08-2026',
+    l: '20-08-2026',
+    a: 'FL.No. 155/A/ESICH-BKN/REC/ADMN/2023-1 Dated 03-08-2026',
+    q: 'MBBS Degree / PG Degree / Diploma / DNB in concerned Specialty + MCI / State Registration',
+    desc: 'ESIC Hospital Jaisalmer Road, Bikaner (Rajasthan) invites applications for Walk-in-Interview for 16 contractual medical posts including Full Time Specialists (6 posts), Senior Resident 3-Yr (5 posts), and Senior/Junior Residents against GDMO (5 posts). Monthly salary up to ₹1,21,408/-. Age limit up to 69 years. Walk-in-interview on 20 August 2026 in Bikaner.',
+    u: 'https://www.esic.gov.in'
+  },
+  {
     id: 'ongc-medical-officers-specialist-recruitment-2026',
     b: 'Oil and Natural Gas Corporation Ltd. (ONGC)',
     t: 'ONGC Medical Officers & Specialist Recruitment 2026 – Apply Online for 24 Fixed Term Posts (MO-OH, Specialist & Homeopathy) | Last Date 18 August 2026',
