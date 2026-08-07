@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'drdo-drdl-paid-internship-2026',
+    b: 'Defence Research & Development Organisation (DRDO) – DRDL Hyderabad',
+    t: 'DRDO DRDL Paid Internship 2026 – Apply for 165 Paid Internships for B.E/B.Tech/M.E/M.Tech/M.Sc Students | Stipend ₹5,000/month | Advt DRDL/HRD/INTERNSHIP/2026/01 | Last Date 16 August 2026',
+    d: '07-08-2026',
+    l: '16-08-2026',
+    a: 'Advt No. DRDL/HRD/INTERNSHIP/2026/01',
+    q: 'Pursuing Final Year B.E/B.Tech OR Pursuing M.E/M.Tech / M.Sc (Physical Science/Maths) with Min 60%',
+    desc: 'Defence Research and Development Laboratory (DRDL), Hyderabad under DRDO invites applications for 165 Paid Internship slots across Electronics (58), Mechanical/Aerospace (87), CSE/IT/AI (15), and Mathematics (05). Duration: 6 months. Monthly Stipend: ₹5,000/- per month. Final year UG/PG engineering and science students under 28 years can email application forms by 16 August 2026 to drdlintern2026@gmail.com.',
+    u: 'https://www.drdo.gov.in'
+  },
+  {
     id: 'aiims-raipur-senior-resident-recruitment-2026',
     b: 'All India Institute of Medical Sciences (AIIMS), Raipur',
     t: 'AIIMS Raipur Senior Resident Recruitment 2026 – Apply Online for 121 Senior Resident (Non-Academic) Posts | Pay Level-11 (₹67,700/month + NPA) | MD/MS/DNB/MDS/Diploma Eligible | Last Date 16 August 2026',
