@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'bank-of-baroda-so-recruitment-2026',
+    b: 'Bank of Baroda (BOB)',
+    t: 'Bank of Baroda Recruitment 2026 – Apply Online for 206 Specialist Officer Posts across Digital Banking, Facility Management, Info Security & Accounts | Advt BOB/HRM/REC/ADVT/2026/15 | Last Date 26 August 2026',
+    d: '07-08-2026',
+    l: '26-08-2026',
+    a: 'BOB/HRM/REC/ADVT/2026/15',
+    q: 'B.E / B.Tech / MCA / CA / ICWA / Graduation / Post Graduation in Relevant Field + Experience',
+    desc: 'Bank of Baroda invites online applications for 206 regular Specialist Officer (SO) vacancies across Digital Banking (19), Facility Management - Civil/Electrical (88), Information Security (16), Security (54), Enterprise Data Management Office - Data Scientist/Analysts (14), and Corporate Accounts & Taxation (15). Scales: JMG/S-I, MMG/S-II, MMG/S-III, SMG/S-IV. Apply online at bankofbaroda.in by 26 August 2026.',
+    u: 'https://www.bankofbaroda.in/careers'
+  },
+  {
     id: 'drdo-drdl-paid-internship-2026',
     b: 'Defence Research & Development Organisation (DRDO) – DRDL Hyderabad',
     t: 'DRDO DRDL Paid Internship 2026 – Apply for 165 Paid Internships for B.E/B.Tech/M.E/M.Tech/M.Sc Students | Stipend ₹5,000/month | Advt DRDL/HRD/INTERNSHIP/2026/01 | Last Date 16 August 2026',
