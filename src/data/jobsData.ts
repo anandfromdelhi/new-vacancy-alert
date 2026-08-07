@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'sbi-junior-associate-special-recruitment-drive-2026',
+    b: 'State Bank of India (SBI)',
+    t: 'SBI Junior Associate Recruitment 2026 – Apply Online for 1,538 Special Recruitment Drive Backlog Vacancies (Customer Support & Sales) for SC/ST/OBC | Salary ₹46,000/month | Advt CRPD/CR/SPLDRIVE/2026-27/16 | Last Date 27 August 2026',
+    d: '07-08-2026',
+    l: '27-08-2026',
+    a: 'CRPD/CR/SPLDRIVE/2026-27/16',
+    q: 'Graduation in Any Discipline from Recognized University',
+    desc: 'State Bank of India (SBI) invites online applications for 1,538 Junior Associate (Customer Support & Sales) Special Recruitment Drive Backlog Vacancies across SC (207), ST (1,219), and OBC (112) categories in 16 Circles/States. Starting basic pay ₹26,730/- (gross starting salary ~₹46,000/month in metro). Graduates aged 20 to 28 years (with applicable category relaxations) can apply online on sbi.co.in by 27 August 2026.',
+    u: 'https://sbi.bank.in/web/careers'
+  },
+  {
     id: 'mpesb-group-2-subgroup-4-patwari-recruitment-2026',
     b: 'Madhya Pradesh Employees Selection Board (MPESB), Bhopal',
     t: 'MPESB Group 2 Sub Group 4 Recruitment 2026 – Apply Online for 2,106 Posts of Patwari, Panchayat Coordinator, Computer Operator, Assistant Manager & Sub-Auditor | Advt Group-2 Sub-Group-4 2026 | Last Date 18 August 2026',
