@@ -31,6 +31,40 @@ const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage')
 const StateJobsPage = lazy(() => import('./pages/StateJobsPage'));
 const BoardJobsPage = lazy(() => import('./pages/BoardJobsPage'));
 
+// Notification Section Sub-pages for RRB Technician CEN 02/2026
+const PostsAndVacancies = lazy(() => import('./pages/notification-sections/PostsAndVacancies'));
+const ImportantDates = lazy(() => import('./pages/notification-sections/ImportantDates'));
+const ImportantInstructions = lazy(() => import('./pages/notification-sections/ImportantInstructions'));
+const GeneralInstructions = lazy(() => import('./pages/notification-sections/GeneralInstructions'));
+const VacancyDetails = lazy(() => import('./pages/notification-sections/VacancyDetails'));
+const MedicalStandards = lazy(() => import('./pages/notification-sections/MedicalStandards'));
+const NationalityCitizenship = lazy(() => import('./pages/notification-sections/NationalityCitizenship'));
+const AgeLimit = lazy(() => import('./pages/notification-sections/AgeLimit'));
+const AgeRelaxation = lazy(() => import('./pages/notification-sections/AgeRelaxation'));
+const EducationalQualification = lazy(() => import('./pages/notification-sections/EducationalQualification'));
+const ApplicationFee = lazy(() => import('./pages/notification-sections/ApplicationFee'));
+const Reservation = lazy(() => import('./pages/notification-sections/Reservation'));
+const ExServiceman = lazy(() => import('./pages/notification-sections/ExServiceman'));
+const Pwbd = lazy(() => import('./pages/notification-sections/Pwbd'));
+const ScribeFacility = lazy(() => import('./pages/notification-sections/ScribeFacility'));
+const RecruitmentProcess = lazy(() => import('./pages/notification-sections/RecruitmentProcess'));
+const CbtDetails = lazy(() => import('./pages/notification-sections/CbtDetails'));
+const DocumentVerification = lazy(() => import('./pages/notification-sections/DocumentVerification'));
+const HowToApply = lazy(() => import('./pages/notification-sections/HowToApply'));
+const CreateAccount = lazy(() => import('./pages/notification-sections/CreateAccount'));
+const ApplicationGuidelines = lazy(() => import('./pages/notification-sections/ApplicationGuidelines'));
+const LivePhotoInstructions = lazy(() => import('./pages/notification-sections/LivePhotoInstructions'));
+const DocumentsRequired = lazy(() => import('./pages/notification-sections/DocumentsRequired'));
+const ApplicationCorrection = lazy(() => import('./pages/notification-sections/ApplicationCorrection'));
+const InvalidApplications = lazy(() => import('./pages/notification-sections/InvalidApplications'));
+const ECallLetter = lazy(() => import('./pages/notification-sections/ECallLetter'));
+const OriginalDocumentVerification = lazy(() => import('./pages/notification-sections/OriginalDocumentVerification'));
+const UnfairMeansAndDebarment = lazy(() => import('./pages/notification-sections/UnfairMeansAndDebarment'));
+const RrbWebsites = lazy(() => import('./pages/notification-sections/RrbWebsites'));
+const PostParameters = lazy(() => import('./pages/notification-sections/PostParameters'));
+const ZoneWiseVacancy = lazy(() => import('./pages/notification-sections/ZoneWiseVacancy'));
+const MergedPostCategories = lazy(() => import('./pages/notification-sections/MergedPostCategories'));
+
 // A lightweight loading spinner fallback
 function PageLoader() {
   return (
@@ -74,7 +108,46 @@ export default function App() {
                   <Route path="rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />
                   <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
                   <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
+
+                  {/* RRB Technician Notification Detailed Sub-Pages */}
+                  <Route path="rrb-technician-cen-02-2026/posts-and-vacancies" element={<PostsAndVacancies />} />
+                  <Route path="rrb-technician-cen-02-2026/important-dates" element={<ImportantDates />} />
+                  <Route path="rrb-technician-cen-02-2026/important-instructions" element={<ImportantInstructions />} />
+                  <Route path="rrb-technician-cen-02-2026/general-instructions" element={<GeneralInstructions />} />
+                  <Route path="rrb-technician-cen-02-2026/vacancy-details" element={<VacancyDetails />} />
+                  <Route path="rrb-technician-cen-02-2026/medical-standards" element={<MedicalStandards />} />
+                  <Route path="rrb-technician-cen-02-2026/nationality-citizenship" element={<NationalityCitizenship />} />
+                  <Route path="rrb-technician-cen-02-2026/age-limit" element={<AgeLimit />} />
+                  <Route path="rrb-technician-cen-02-2026/age-relaxation" element={<AgeRelaxation />} />
+                  <Route path="rrb-technician-cen-02-2026/educational-qualification" element={<EducationalQualification />} />
+                  <Route path="rrb-technician-cen-02-2026/application-fee" element={<ApplicationFee />} />
+                  <Route path="rrb-technician-cen-02-2026/reservation" element={<Reservation />} />
+                  <Route path="rrb-technician-cen-02-2026/ex-serviceman" element={<ExServiceman />} />
+                  <Route path="rrb-technician-cen-02-2026/pwbd" element={<Pwbd />} />
+                  <Route path="rrb-technician-cen-02-2026/scribe-facility" element={<ScribeFacility />} />
+                  <Route path="rrb-technician-cen-02-2026/recruitment-process" element={<RecruitmentProcess />} />
+                  <Route path="rrb-technician-cen-02-2026/cbt-details" element={<CbtDetails />} />
+                  <Route path="rrb-technician-cen-02-2026/document-verification" element={<DocumentVerification />} />
+                  <Route path="rrb-technician-cen-02-2026/how-to-apply" element={<HowToApply />} />
+                  <Route path="rrb-technician-cen-02-2026/create-account" element={<CreateAccount />} />
+                  <Route path="rrb-technician-cen-02-2026/application-guidelines" element={<ApplicationGuidelines />} />
+                  <Route path="rrb-technician-cen-02-2026/live-photo-instructions" element={<LivePhotoInstructions />} />
+                  <Route path="rrb-technician-cen-02-2026/documents-required" element={<DocumentsRequired />} />
+                  <Route path="rrb-technician-cen-02-2026/application-correction" element={<ApplicationCorrection />} />
+                  <Route path="rrb-technician-cen-02-2026/invalid-applications" element={<InvalidApplications />} />
+                  <Route path="rrb-technician-cen-02-2026/e-call-letter" element={<ECallLetter />} />
+                  <Route path="rrb-technician-cen-02-2026/original-document-verification" element={<OriginalDocumentVerification />} />
+                  <Route path="rrb-technician-cen-02-2026/unfair-means-and-debarment" element={<UnfairMeansAndDebarment />} />
+                  <Route path="rrb-technician-cen-02-2026/rrb-websites" element={<RrbWebsites />} />
+                  <Route path="rrb-technician-cen-02-2026/post-parameters" element={<PostParameters />} />
+                  <Route path="rrb-technician-cen-02-2026/zone-wise-vacancy" element={<ZoneWiseVacancy />} />
+                  <Route path="rrb-technician-cen-02-2026/merged-post-categories" element={<MergedPostCategories />} />
+
+                  {/* Single Segment ID Route for Job Detail Pages */}
                   <Route path=":id" element={<JobDetailPage />} />
+
+                  {/* Catch-all Wildcard Route to prevent any blank unrendered pages */}
+                  <Route path="*" element={<JobDetailPage />} />
                 </Route>
               </Routes>
             </Suspense>
@@ -84,5 +157,3 @@ export default function App() {
     </ThemeProvider>
   );
 }
-
-
