@@ -60,6 +60,191 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'iocl-northern-region-apprentice-recruitment-2026': {
+    id: 'iocl-northern-region-apprentice-recruitment-2026',
+    seoTitle: 'IOCL Northern Region Apprentice Recruitment 2026 (418 Posts) Apply Online | NewVacancyAlert',
+    seoDescription: 'IOCL Marketing Division Northern Region Apprentice 2026 online application for 418 Technician, Trade & Graduate Apprentice vacancies in Delhi, UP, Punjab, Haryana, Rajasthan, HP, J&K, Uttarakhand. Check eligibility, stipend, and apply link.',
+    focusKeywords: 'IOCL Apprentice Recruitment 2026, IOCL Northern Region Apprentice 2026, IOCL Marketing Division Apprentice Notification, IOCL Apprentice Online Form 2026',
+    lsiKeywords: 'IOCL Trade Apprentice, IOCL Technician Apprentice Diploma, IOCL Graduate Apprentice Salary Stipend, NATS NAPS Portal IOCL Application, IOCL Apprentice Merit List 2026',
+    title: 'IOCL Northern Region Apprentice Recruitment 2026 Notification for 418 Trade, Technician & Graduate Posts',
+    board: 'Indian Oil Corporation Limited (IOCL), Marketing Division - Northern Region',
+    advtNo: 'IOCL/MKTG/NR/APPR/2026-27/1',
+    vacancies: 418,
+    jobLocation: 'Delhi, Haryana, Punjab, Chandigarh, Himachal Pradesh, Jammu & Kashmir, Rajasthan, Uttar Pradesh & Uttarakhand',
+    applicationMode: 'Online via NATS / NAPS Portal & MS Form',
+    applicationStatus: 'Active - Apply Online Now',
+    lastUpdated: '2026-08-07',
+    overview: [
+      "Indian Oil Corporation Limited (IOCL), a Fortune Global 500 Central Public Sector Undertaking, has released official notification (Advt No. IOCL/MKTG/NR/APPR/2026-27/1) for the engagement of 418 Trade, Technician, and Graduate Apprentices across its Marketing Division in the Northern Region.",
+      "The apprenticeship training opportunities are available across 9 States and Union Territories: Delhi (50), Uttar Pradesh (121), Rajasthan (76), Punjab (57), Haryana (37), Chandigarh (30), Himachal Pradesh (22), Jammu & Kashmir (20), and Uttarakhand (20).",
+      "No Written Exam and No Interview will be conducted for this recruitment. Selection is purely based on the aggregate percentage of marks secured by candidates in their prescribed essential qualification (Matric + ITI / Diploma / Degree / Class 12th).",
+      "Selected apprentices will receive statutory monthly stipend plus an additional ₹2,500/- per month from IOCL towards miscellaneous expenses. Apprenticeship training duration is 12 months."
+    ],
+    highlights: [
+      { label: "Notification Number", value: "IOCL/MKTG/NR/APPR/2026-27/1" },
+      { label: "Organization", value: "Indian Oil Corporation Limited (IOCL)" },
+      { label: "Division / Region", value: "Marketing Division - Northern Region (NR)" },
+      { label: "Total Apprenticeship Seats", value: "418 Seats" },
+      { label: "Apprenticeship Categories", value: "Technician, Trade & Graduate Apprentices" },
+      { label: "Selection Process", value: "Purely Merit-Based (No Written Test / No Interview)" },
+      { label: "Training Duration", value: "12 Months (1 Year)" },
+      { label: "Monthly Extra Allowance", value: "₹2,500/- per month over & above statutory stipend" },
+      { label: "Application Mode", value: "Online (NATS / NAPS Portal + MS Office Form)" },
+      { label: "Application Start Date", value: "07 August 2026 (10:00 AM)" },
+      { label: "Application Last Date", value: "06 September 2026 (05:00 PM)" }
+    ],
+    importantDates: [
+      { event: "Notification Release Date", date: "07 August 2026" },
+      { event: "Online Registration Opens (NATS / NAPS)", date: "07 August 2026 (10:00 AM)" },
+      { event: "Last Date to Apply Online", date: "06 September 2026 (05:00 PM)" },
+      { event: "Last Date for MS Form Location Preference Submission", date: "06 September 2026 (05:00 PM)" },
+      { event: "Document Verification & Merit Intimation", date: "To be notified via email / SMS" }
+    ],
+    applicationFee: {
+      details: "Zero Application Fee for all candidates across all categories.",
+      breakdown: [
+        { category: "General / UR", amount: "₹0 (Exempted)" },
+        { category: "EWS", amount: "₹0 (Exempted)" },
+        { category: "OBC (NCL)", amount: "₹0 (Exempted)" },
+        { category: "SC / ST", amount: "₹0 (Exempted)" },
+        { category: "PwBD / Female", amount: "₹0 (Exempted)" }
+      ]
+    },
+    vacanciesDetails: [
+      { category: "Delhi State", count: 50 },
+      { category: "Uttar Pradesh State", count: 121 },
+      { category: "Rajasthan State", count: 76 },
+      { category: "Punjab State", count: 57 },
+      { category: "Haryana State", count: 37 },
+      { category: "Chandigarh UT", count: 30 },
+      { category: "Himachal Pradesh State", count: 22 },
+      { category: "Jammu & Kashmir UT", count: 20 },
+      { category: "Uttarakhand State", count: 20 }
+    ],
+    regionWiseVacancies: [
+      { region: "Delhi - Technician Apprentice (Mech/Elec/Inst/Civil/EE/ECE)", count: 10 },
+      { region: "Delhi - Trade Apprentice (Fitter/Elec/Electronics/Inst/Machinist)", count: 10 },
+      { region: "Delhi - Graduate Apprentice (BA/B.Sc/B.Com/BBA)", count: 20 },
+      { region: "Delhi - Trade Apprentice Data Entry Operator (DEO)", count: 10 },
+      { region: "Uttar Pradesh - Technician Apprentice (Diploma Engg)", count: 54 },
+      { region: "Uttar Pradesh - Trade Apprentice (ITI Trades)", count: 37 },
+      { region: "Uttar Pradesh - Graduate Apprentice", count: 20 },
+      { region: "Uttar Pradesh - Trade Apprentice Data Entry Operator", count: 10 },
+      { region: "Rajasthan - Technician Apprentice (Diploma Engg)", count: 26 },
+      { region: "Rajasthan - Trade Apprentice (ITI Trades)", count: 22 },
+      { region: "Rajasthan - Graduate Apprentice", count: 16 },
+      { region: "Rajasthan - Trade Apprentice Data Entry Operator", count: 12 },
+      { region: "Punjab - Technician Apprentice (Diploma Engg)", count: 27 },
+      { region: "Punjab - Trade Apprentice (ITI Trades)", count: 10 },
+      { region: "Punjab - Graduate Apprentice", count: 12 },
+      { region: "Punjab - Trade Apprentice Data Entry Operator", count: 8 },
+      { region: "Haryana - Technician Apprentice (Diploma Engg)", count: 12 },
+      { region: "Haryana - Trade Apprentice (ITI Trades)", count: 10 },
+      { region: "Haryana - Graduate Apprentice", count: 8 },
+      { region: "Haryana - Trade Apprentice Data Entry Operator", count: 7 },
+      { region: "Chandigarh - Technician & Trade Apprentice", count: 3 },
+      { region: "Chandigarh - Graduate & DEO Apprentice", count: 27 },
+      { region: "Himachal Pradesh - All Apprentice Disciplines", count: 22 },
+      { region: "Jammu & Kashmir - All Apprentice Disciplines", count: 20 },
+      { region: "Uttarakhand - All Apprentice Disciplines", count: 20 }
+    ],
+    eligibility: {
+      education: [
+        "Technician Apprentice (Codes 101-106): 3 years regular full-time Diploma in Mechanical, Electrical, Instrumentation, Civil, Electrical & Electronics, or Electronics Engineering from a recognized University/Institute with minimum 50% aggregate marks (45% for SC/ST/PwBD).",
+        "Trade Apprentice ITI (Codes 107-111): Regular full-time 2-year ITI (NCVT/SCVT) in Fitter, Electrician, Electronics Mechanic, Instrument Mechanic, or Machinist. Pass marks required.",
+        "Graduate Apprentice (Code 112): Regular full-time Graduation degree (BBA / BA / B.Com / B.Sc) from recognized university with minimum 50% aggregate marks (45% for SC/ST/PwBD).",
+        "Trade Apprentice Data Entry Operator - Fresher (Code 113): Class 12th Pass (below Graduate). Pass marks required.",
+        "Trade Apprentice Data Entry Operator - Skill Certificate (Code 114): Class 12th Pass + Domestic Data Entry Operator Skill Certificate issued under NSQF / Central Govt."
+      ],
+      ageLimit: "Minimum 18 years and Maximum 24 years as on 31.08.2026. Candidate must be born between 31.08.2002 and 31.08.2008.",
+      ageRelaxation: [
+        { category: "SC / ST Category", relaxation: "5 Years Upper Age Relaxation (Up to 29 Years)" },
+        { category: "OBC (Non-Creamy Layer)", relaxation: "3 Years Upper Age Relaxation (Up to 27 Years)" },
+        { category: "Persons with Benchmark Disabilities (PwBD)", relaxation: "10 Years (UR), 13 Years (OBC-NCL), 15 Years (SC/ST)" }
+      ],
+      medicalStandards: [
+        "Candidates must be declared medically fit as per IOCL Pre-Engagement Medical Fitness Standards.",
+        "Reimbursement of up to ₹3,000/- will be provided to shortlisted candidates towards medical test expense receipts during document verification."
+      ],
+      experience: [
+        "Candidates having work experience of 1 year or more after acquiring qualification are NOT eligible.",
+        "Candidates possessing higher qualifications like B.E / B.Tech / MBA / MCA / CA / ICWA / LLB are NOT eligible."
+      ]
+    },
+    salary: {
+      payLevel: "Apprenticeship Monthly Stipend as per Apprentices Act 1961 / BOAT / NAPS Rules",
+      initialPay: "Statutory Stipend + ₹2,500/- per month Extra Miscellaneous Expense",
+      allowances: [
+        "Statutory monthly stipend as per Apprenticeship Act / NATS / NAPS guidelines.",
+        "Additional ₹2,500/- per month paid directly by Indian Oil Corporation Limited (MD), NR towards miscellaneous expenses.",
+        "Direct Benefit Transfer (DBT): Stipend disbursed directly into candidate's Aadhaar-seeded bank account."
+      ]
+    },
+    selectionProcess: [
+      "No Written Test / Examination will be conducted.",
+      "No Interview will be held.",
+      "Merit List Generation: Purely based on aggregate percentage of marks secured in the prescribed essential qualification.",
+      "Tie Breaking Rule: Older candidate by date of birth receives higher rank; if DOB is same, higher percentage in Matriculation (10th) is considered.",
+      "Document Verification: Shortlisted candidates on merit will be called for Document Verification and Pre-engagement medical fitness check."
+    ],
+    howToApplySteps: [
+      "Step 1: Register on the relevant Apprenticeship Portal:",
+      "   • For Graduate & Technician Apprentice (Diploma/Degree): Register on NATS Portal (https://nats.education.gov.in/student_register.php).",
+      "   • For Trade Apprentice (ITI & DEO): Register on NAPS Portal (http://www.apprenticeshipindia.gov.in/).",
+      "Step 2: Ensure 100% completion of your NATS/NAPS profile including Aadhaar seeding, bank details, e-KYC, and APAAR ID.",
+      "Step 3: Search for Establishment ID of Indian Oil Corporation Limited (MD)-Northern Region:",
+      "   • NATS Establishment ID: NDLSDC000005",
+      "   • NAPS Establishment ID: E05200700003",
+      "Step 4: Apply for the preferred Discipline Opportunity on the NATS/NAPS portal.",
+      "Step 5: Mandatory Second Step: After portal submission, fill out the official Microsoft Office Form link (https://forms.cloud.microsoft/r/pw7D2cUK7c) submitting your details and 3 preferred posting locations by 06 September 2026 (05:00 PM)."
+    ],
+    documentsRequired: [
+      "Matriculation (Class 10th) Marksheet & Passing Certificate (as proof of Date of Birth).",
+      "Class 12th / ITI Marksheet & National Trade Certificate (NCVT/SCVT) for Trade Apprentices.",
+      "Diploma in Engineering Semester-wise / Consolidated Marksheets & Provisional/Final Certificate for Technician Apprentices.",
+      "Graduation Degree Marksheets & Provisional/Degree Certificate for Graduate Apprentices.",
+      "Caste Certificate for SC/ST/OBC-NCL candidates (OBC-NCL issued on or after 01.09.2025).",
+      "EWS Certificate in prescribed Govt of India format.",
+      "Disability Certificate (PwBD) issued by competent authority (min 40% disability).",
+      "Aadhaar Card, PAN Card & Bank Passbook of Aadhaar-seeded bank account with printed candidate name.",
+      "Pre-Engagement Medical Fitness Certificate."
+    ],
+    officialLinks: [
+      { label: "Official IOCL Northern Region Apprentice Notification PDF", url: "https://www.iocl.com/apprenticeships" },
+      { label: "NATS Portal Registration (Graduate & Diploma)", url: "https://nats.education.gov.in/student_register.php" },
+      { label: "NAPS Portal Registration (Trade ITI & DEO)", url: "http://www.apprenticeshipindia.gov.in/" },
+      { label: "Mandatory MS Office Location Preference Form Link", url: "https://forms.cloud.microsoft/r/pw7D2cUK7c" },
+      { label: "Aadhaar Seeding Check Link (UIDAI)", url: "https://myaadhaar.uidai.gov.in/" },
+      { label: "NPCI DBT Status Link", url: "https://www.npci.org.in/" },
+      { label: "IOCL Official Website", url: "https://www.iocl.com" }
+    ],
+    faqs: [
+      {
+        question: "What is the total number of vacancies in IOCL Northern Region Apprentice Recruitment 2026?",
+        answer: "A total of 418 vacancies/seats are released across Delhi, Uttar Pradesh, Rajasthan, Punjab, Haryana, Chandigarh, Himachal Pradesh, Jammu & Kashmir, and Uttarakhand."
+      },
+      {
+        question: "Is there any written test or interview for IOCL Apprentice 2026?",
+        answer: "No. There is no written test or interview. Selection is made strictly on the basis of merit (percentage of marks obtained in the qualifying Diploma / ITI / Degree / Class 12th examination)."
+      },
+      {
+        question: "What is the age limit for IOCL Northern Region Apprentice 2026?",
+        answer: "Candidates must be between 18 to 24 years of age as on 31.08.2026 (born between 31.08.2002 and 31.08.2008). Upper age relaxation applies for SC/ST (+5 years), OBC-NCL (+3 years), and PwBD (+10 to 15 years)."
+      },
+      {
+        question: "What is the extra allowance paid by IOCL in addition to stipend?",
+        answer: "In addition to the statutory monthly apprenticeship stipend under BOAT/NAPS, IOCL (Marketing Division), Northern Region will pay ₹2,500/- per month extra towards miscellaneous expenses."
+      },
+      {
+        question: "Are B.Tech or MBA graduates eligible for IOCL Trade/Technician Apprentice?",
+        answer: "No. Candidates possessing higher professional qualifications such as B.E/B.Tech, MBA, MCA, CA, ICWA, or LLB are NOT eligible."
+      },
+      {
+        question: "Is it mandatory to fill out the Microsoft Form after applying on NATS/NAPS portal?",
+        answer: "Yes! After applying on NATS or NAPS portal, candidates MUST submit their details along with state and 3 preferred location choices in the Microsoft Office Form (https://forms.cloud.microsoft/r/pw7D2cUK7c) before 06 September 2026 @ 5:00 PM."
+      }
+    ]
+  },
   'dgft-mumbai-young-professional-recruitment-2026': {
     id: 'dgft-mumbai-young-professional-recruitment-2026',
     seoTitle: 'DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional Posts',

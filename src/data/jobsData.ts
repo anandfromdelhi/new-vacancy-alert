@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'iocl-northern-region-apprentice-recruitment-2026',
+    b: 'Indian Oil Corporation Limited (IOCL), Marketing Division (Northern Region)',
+    t: 'IOCL Northern Region Apprentice Recruitment 2026 – Apply Online for 418 Trade, Technician & Graduate Apprentice Vacancies across Delhi, UP, Punjab, Haryana, Rajasthan, HP, J&K & Uttarakhand | No Exam Fee | Merit Based Selection | Last Date 06 September 2026',
+    d: '07-08-2026',
+    l: '06-09-2026',
+    a: 'Advt No. IOCL/MKTG/NR/APPR/2026-27/1',
+    q: '10th + ITI / 3-Yr Engineering Diploma / Graduate (BA/B.Sc/B.Com/BBA) / 12th Pass',
+    desc: 'Indian Oil Corporation Limited (IOCL), Marketing Division (Northern Region) invites online applications for engagement of 418 Trade, Technician, and Graduate Apprentices under the Apprentices Act 1961 across Delhi, Haryana, Punjab, Chandigarh, Himachal Pradesh, Jammu & Kashmir, Rajasthan, Uttar Pradesh, and Uttarakhand. No written test or application fee. Selection purely on merit basis. Apply online via NATS/NAPS portal by 06 September 2026 (5:00 PM).',
+    u: 'https://www.iocl.com/apprenticeships'
+  },
+  {
     id: 'dgft-mumbai-young-professional-recruitment-2026',
     b: 'Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai (Ministry of Commerce)',
     t: 'DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional (YP) Vacancies in Economics, Legal, Management & Data Science | Salary ₹60,000/pm | Last Date 18 August 2026',
