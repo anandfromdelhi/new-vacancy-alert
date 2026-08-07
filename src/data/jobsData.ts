@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'gmc-wanaparthy-faculty-sr-tutor-recruitment-2026',
+    b: 'Government Medical College (GMC), Wanaparthy – Govt of Telangana',
+    t: 'GMC Wanaparthy Recruitment 2026 – Walk-in Interview for 160 Faculty, Senior Resident & Tutor Posts | Salary up to ₹1,90,000/month | Rc.No.1881-1/GMC/WNP/2026 | Walk-in Date 12 August 2026',
+    d: '07-08-2026',
+    l: '12-08-2026',
+    a: 'Rc.No.1881-1/GMC/WNP/2026 Dated 06.08.2026',
+    q: 'MBBS / MD / MS / DNB / DM / MCh / MDS / M.Sc with Ph.D in Concerned Specialty',
+    desc: 'Government Medical College (GMC) & Government General Hospital, Wanaparthy under DME Telangana invites applications for 160 contract & honorarium posts including Professor (25), Associate Professor (43), Assistant Professor (29), Senior Resident (33), and Tutor (30) across 32 medical specialties. Remuneration up to ₹1.90 Lakhs/month. Walk-in Interview on 12 August 2026 at GMC Wanaparthy campus.',
+    u: 'https://dme.telangana.gov.in'
+  },
+  {
     id: 'bank-of-baroda-so-recruitment-2026',
     b: 'Bank of Baroda (BOB)',
     t: 'Bank of Baroda Recruitment 2026 – Apply Online for 206 Specialist Officer Posts across Digital Banking, Facility Management, Info Security & Accounts | Advt BOB/HRM/REC/ADVT/2026/15 | Last Date 26 August 2026',
