@@ -512,7 +512,19 @@ export default function JobDetailPage() {
 
   const hasExamCentres = job.examCentres && !isNoData(job.examCentres.details);
 
-  const activeHowToApply = (job.howToApply || []).filter(item => !isNoData(item));
+  const defaultHowToApply = [
+    `Visit the official recruitment portal of ${job.board || 'the organization'} at ${job.officialLinks?.[0]?.url || job.u || 'the official website'}.`,
+    'Search for the official advertisement/notification and read all eligibility criteria carefully.',
+    'Complete user registration by providing your basic details, valid email address, and mobile number.',
+    'Fill in the application form accurately with personal, educational, and professional qualification details.',
+    'Upload scanned copies of required documents, passport photograph, signature, and category certificate if applicable.',
+    'Pay the application fee (if applicable) using the prescribed online or offline payment method.',
+    'Submit the completed application form and print a copy of the acknowledgment/application slip for future reference.'
+  ];
+
+  const activeHowToApply = (job.howToApply && job.howToApply.length > 0)
+    ? job.howToApply.filter(item => !isNoData(item))
+    : defaultHowToApply;
   const hasHowToApply = activeHowToApply.length > 0;
 
   const hasFaqs = job.faqs && job.faqs.length > 0;
@@ -1818,7 +1830,7 @@ export default function JobDetailPage() {
             </h2>
             <div className="bg-slate-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-100 mb-6 sm:mb-8">
               <ol className="space-y-3 sm:space-y-4">
-                {(job.howToApply || []).map((step, idx) => (
+                {activeHowToApply.map((step, idx) => (
                   <li key={idx} className="flex items-start gap-3 sm:gap-4 text-justify">
                     <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue-100 text-blue-600 font-black flex items-center justify-center shrink-0 border border-blue-200 text-[10px] sm:text-xs">
                       {idx + 1}
