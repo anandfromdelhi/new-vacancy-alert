@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'hppsc-hp-police-constable-recruitment-2026',
+    b: 'Himachal Pradesh Public Service Commission (HPPSC) / HP Police Department',
+    t: 'HPPSC HP Police Constable Recruitment 2026 – Apply Online for 491 Male Constable Vacancies | Pay Level-3 (₹20,200-64,000) | 12th Pass Eligible | Online Registration',
+    d: '07-08-2026',
+    l: '31-08-2026',
+    a: 'Advt No. 57/7-2026 Dated 10.07.2026',
+    q: 'Passed 10+2 (Class 12th) from Recognized Board / School in HP (Bonafide Himachali Exempted)',
+    desc: 'Himachal Pradesh Public Service Commission (HPPSC) invites online applications for 491 male Constable (Class-III Non-Gazetted) vacancies in HP Police Department. Pay matrix Level-3 (₹20,200-64,000). Candidates with 10+2 qualification aged 18-25 years (relaxation for SC/ST/OBC/HG) can apply online on hppsc.hp.gov.in.',
+    u: 'http://www.hppsc.hp.gov.in/hppsc'
+  },
+  {
     id: 'army-aoc-group-c-recruitment-2026',
     b: 'Army Ordnance Corps (AOC), Ministry of Defence',
     t: 'Army AOC Group C Recruitment 2026 – Apply Online for 2615 Vacancies of Tradesman Mate, Fireman, JOA, MTS & Material Assistant | Pay Level 1 to 5 | Last Date 22 September 2026',
