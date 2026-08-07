@@ -60,7 +60,89 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
-  'indian-army-ssc-tech-68-men-recruitment-2026': {
+  'mpsc-talathi-group-c-recruitment-2026': {
+    id: 'mpsc-talathi-group-c-recruitment-2026',
+    seoTitle: 'MPSC Talathi Recruitment 2026 – Apply Online for 1539 Village Revenue Officer Posts',
+    seoDescription: 'MPSC Talathi Recruitment 2026 notification for 1539 Group-C posts. Deadline extended to 10 August 2026. Check eligibility, age limit, exam pattern and apply online at mpsc.gov.in.',
+    focusKeywords: 'MPSC Talathi Recruitment 2026, MPSC Group C Combined Exam 2026, Maharashtra Village Revenue Officer, mpsc.gov.in',
+    lsiKeywords: 'Talathi Bharti 2026 Maharashtra, Revenue and Forest Department Vacancy, MPSC Group C Prelims Exam Date',
+    title: 'MPSC Talathi Recruitment 2026 (Advt No. 017/2026) – Apply Online for 1539 Village Revenue Officer Posts',
+    board: 'Maharashtra Public Service Commission (MPSC)',
+    advtNo: '017/2026',
+    vacancies: 1539,
+    jobLocation: 'Across Maharashtra',
+    applicationMode: 'Online',
+    applicationStatus: 'Active (Extended)',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'Maharashtra Public Service Commission (MPSC) has released recruitment notification Advt No. 017/2026 for 1539 Talathi (Village Revenue Officer), Group-C posts in the Revenue & Forest Department, Government of Maharashtra.',
+      'Selection will be conducted through Maharashtra Group-C Services Combined Preliminary Examination 2026. The online application deadline has been extended up to 10th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'Maharashtra Public Service Commission (MPSC)' },
+      { label: 'Department', value: 'Revenue & Forest Department, Govt. of Maharashtra' },
+      { label: 'Advt Reference', value: 'Advt. No. 017/2026 (Corrigendum dt. 22-07-2026)' },
+      { label: 'Post Name', value: 'Talathi (Village Revenue Officer), Group-C' },
+      { label: 'Total Vacancies', value: '1,539 Posts' },
+      { label: 'Exam Name', value: 'Maharashtra Group-C Services Combined Prelims Exam 2026' },
+      { label: 'Educational Qualification', value: 'Any Graduate (Bachelor Degree)' },
+      { label: 'Age Limit', value: '18 to 38 Years (Relaxable for reserved categories)' },
+      { label: 'Extended Last Date to Apply', value: '10 August 2026' },
+      { label: 'Preliminary Exam Date', value: '25 October 2026 (Offline OMR-based)' }
+    ],
+    importantDates: [
+      { event: 'Notification Released', date: '25-06-2026' },
+      { event: 'Online Application Start Date', date: '27-06-2026' },
+      { event: 'Corrigendum & Extension Date', date: '22-07-2026' },
+      { event: 'Extended Application Last Date', date: '10-08-2026' },
+      { event: 'Age Limit Reckoning Date', date: '05-08-2026' },
+      { event: 'Preliminary Examination Date', date: '25-10-2026 (Offline OMR)' }
+    ],
+    vacanciesDetails: [
+      { category: 'Talathi (Village Revenue Officer), Group-C', count: 1539 }
+    ],
+    eligibility: {
+      education: [
+        'Must possess a Bachelor Degree in any discipline from a recognized University or equivalent qualification recognized by the Government of Maharashtra.',
+        'Knowledge of Marathi language is essential.'
+      ],
+      ageLimit: '18 to 38 years as on 05 August 2026 for General/Unreserved candidates. Upper age relaxation applicable for Reserved Categories (up to 43 years) as per Govt rules.'
+    },
+    salary: {
+      payLevel: 'Pay Level S-10 (₹25,500 - ₹81,100)',
+      initialPay: 'Basic Pay ₹25,500 per month',
+      allowances: 'Plus DA, HRA, and other allowances as per Maharashtra Government Rules.'
+    },
+    applicationFee: [
+      { category: 'Unreserved / Open Category', fee: '₹394', refund: 'N/A' },
+      { category: 'Reserved / EWS / Orphan Candidates', fee: '₹294', refund: 'N/A' },
+      { category: 'Ex-Servicemen (Group-C Posts)', fee: '₹44', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'Online payment through Net Banking, Credit Card, Debit Card or UPI through MPSC Online Application Portal.'
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Preliminary Examination', description: 'Maharashtra Group-C Services Combined Preliminary Exam 2026 (100 Marks, 1 Hour, Objective OMR).' },
+      { stage: 'Stage 2: Main Examination', description: 'Group-C Main Examination for candidates qualified in Preliminary Exam.' },
+      { stage: 'Stage 3: Document Verification & Merit List', description: 'Verification of original certificates and final merit listing.' }
+    ],
+    howToApply: [
+      'Visit the official MPSC Online Application Portal at mpsconline.gov.in or mpsc.gov.in.',
+      'Register your Profile if not already registered on the portal.',
+      'Log in with your credentials and fill the online application form for Group-C Combined Examination 2026.',
+      'Select post preference as Talathi (Village Revenue Officer) and upload required certificates and photo/signature.',
+      'Pay the online examination fee before 10 August 2026.',
+      'Submit the application and print out the fee receipt and submitted application form for future reference.'
+    ],
+    urls: [
+      { label: 'Official Website Portal', url: 'https://mpsc.gov.in' },
+      { label: 'MPSC Online Application Portal', url: 'https://mpsconline.gov.in' }
+    ],
+    officialLinks: [
+      { label: 'Official Website Portal', url: 'https://mpsc.gov.in' },
+      { label: 'MPSC Online Application Portal', url: 'https://mpsconline.gov.in' }
+    ]
+  },  'indian-army-ssc-tech-68-men-recruitment-2026': {
     id: 'indian-army-ssc-tech-68-men-recruitment-2026',
     seoTitle: 'Indian Army SSC Tech 68 Men Recruitment 2026 – Apply Online for 350 Posts',
     seoDescription: 'Indian Army 68th SSC Tech (Men) Course April 2027 recruitment notification for 350 posts. Check eligibility, age limit, salary, and apply online at joinindianarmy.nic.in.',
