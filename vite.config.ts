@@ -17,8 +17,20 @@ export default defineConfig(() => {
       minify: 'esbuild',
       cssMinify: 'esbuild',
       target: 'es2022',
-      reportCompressedSize: false, // Disables calculating gzip size for all chunks during build (saves 10-15s)
+      reportCompressedSize: false,
       chunkSizeWarningLimit: 3500,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'vendor-react': ['react', 'react-dom', 'react-router', 'react-helmet-async'],
+            'vendor-icons': ['lucide-react'],
+            'vendor-pdf': ['jspdf', 'html2canvas', 'html-to-image'],
+            'vendor-charts': ['recharts'],
+            'vendor-supabase': ['@supabase/supabase-js'],
+            'vendor-firebase': ['firebase/app', 'firebase/auth', 'firebase/firestore']
+          }
+        }
+      }
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
