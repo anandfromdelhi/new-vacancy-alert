@@ -26948,7 +26948,7 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'Is UIDAI / NSEIT certificate mandatory for this vacancy?', answer: 'Yes, candidates must possess a valid Aadhaar Operator or Supervisor Certificate issued by UIDAI or NSEIT.' },
       { question: 'Is there any application fee for CSC Aadhaar Operator posts?', answer: 'No, applying for CSC Aadhaar Supervisor/Operator recruitment is completely free of cost for all candidates.' }
     ]
-  }
+  },
 };
 
 

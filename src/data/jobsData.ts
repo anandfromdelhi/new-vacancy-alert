@@ -1423,5 +1423,5 @@ export const JOBS_DATA: JobEntry[] = [
     q: '12th Pass or ITI / Diploma + Valid UIDAI / NSEIT Aadhaar Operator/Supervisor Certificate',
     desc: 'CSC e-Governance Services India Ltd. invites online applications for 348 district-level contractual posts of Aadhaar Supervisor & Operator across Bihar, UP, MP, CG, Maharashtra, Karnataka, Haryana, Punjab, Rajasthan, Odisha, and Goa. Remuneration as per State Minimum Wages. Last date to apply online is 20 August 2026.',
     u: 'https://career.csccloud.in'
-  }
+  },
 ];
