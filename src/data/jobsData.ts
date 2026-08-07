@@ -1403,39 +1403,6 @@ export const JOBS_DATA: JobEntry[] = [
     u: 'https://www.nal.res.in'
   },
   {
-    id: 'bank-of-baroda-specialist-officer-recruitment-2026',
-    b: 'Bank of Baroda (BOB)',
-    t: 'Bank of Baroda (BOB) Recruitment 2026 – Apply Online for 206 Specialist Officers (Digital Banking, Facility Management, Info Security, Security, EDMO, Taxation & Accounts) | Last Date 26 August 2026',
-    d: '06-08-2026',
-    l: '26-08-2026',
-    a: 'BOB/HRM/REC/ADVT/2026/15',
-    q: 'B.E / B.Tech (CS/IT/ECE/EEE/Civil/Electrical), MCA, M.Sc (IT/Data Science), CA / ICWA / MBA, Graduation + Experience',
-    desc: 'Bank of Baroda (BOB), one of India’s leading public sector banks, invites online applications for recruitment of 206 Specialist Officers on regular basis across Digital Banking, Facility Management, Information Security, Security, Enterprise Data Management Office, and Corporate Accounts & Taxation Planning. Scales range from JMG/S-I to SMG/S-IV. Apply online by 26 August 2026.',
-    u: 'https://www.bankofbaroda.bank.in'
-  },
-  {
-    id: 'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026',
-    b: 'Andhra Pradesh State Co-operative Bank (APCOB) & AP DCCBs',
-    t: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & Assistant Manager Vacancies | Salary up to ₹80,560 | Last Date 07 August 2026',
-    d: '24-07-2026',
-    l: '07-08-2026',
-    a: 'APCOB/DCCB/2026-27',
-    q: 'Graduation in any discipline / First Class Degree / B.Com 55% / Post Graduate + Telugu Proficiency & Computer Knowledge',
-    desc: 'Andhra Pradesh State Co-operative Bank (APCOB) and District Co-operative Central Banks (Chittoor, Kadapa, Nellore, Prakasam, Vizianagaram DCCBs) invite online applications for 338 vacancies of Staff Assistant and Assistant Manager (Scale-I). Age 20 to 30 years. Selection through online exam. Apply online by 07 August 2026.',
-    u: 'https://apcob.bank.in'
-  },
-  {
-    id: 'shs-bihar-specialist-doctor-recruitment-2026',
-    b: 'State Health Society Bihar (SHSB), NHM Bihar',
-    t: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Vacancies (Gynaecologist, Paediatrician, Anaesthetist, Physician, Surgeons) | Honorarium up to ₹1,20,000/pm | Last Date 21 August 2026',
-    d: '06-08-2026',
-    l: '21-08-2026',
-    a: '03/2026',
-    q: 'MBBS with MD / MS / DNB or Diploma in concerned specialty registered with NMC / Bihar Medical Council',
-    desc: 'State Health Society Bihar (SHSB), National Health Mission invites online applications for 450 contractual Specialist Doctor posts including Gynaecologist (94), Paediatrician (115), Anaesthetist (132), MD Medicine (60), General Surgeon (27), and Orthopaedic Surgeon (22). Monthly honorarium ₹90,000 to ₹1,20,000. Apply online from 07 August to 21 August 2026.',
-    u: 'https://shs.bihar.gov.in'
-  },
-  {
     id: 'ntpc-deputy-manager-recruitment-2026',
     b: 'NTPC Limited',
     t: 'NTPC Deputy Manager Recruitment 2026 – Apply Online for 135 Vacancies in Electrical, Mechanical & C&I | E4 Pay Scale ₹70,000–₹2,00,000 | Last Date 26 August 2026',
@@ -1445,5 +1412,16 @@ export const JOBS_DATA: JobEntry[] = [
     q: 'B.E / B.Tech / B.Sc (Engg) in Electrical, Mechanical or Control & Instrumentation with min 60% marks + 10 Years Post-Qualification Experience',
     desc: 'NTPC Limited, India’s premier power CPSE, invites online applications for 135 posts of Deputy Manager (E4 Grade) in Mechanical (55), Electrical (40), and Control & Instrumentation (40). Pay scale ₹70,000 - ₹2,00,000. Apply online from 12 August to 26 August 2026.',
     u: 'https://careers.ntpc.co.in'
+  },
+  {
+    id: 'csc-aadhaar-supervisor-operator-recruitment-2026',
+    b: 'CSC e-Governance Services India Limited (MeitY)',
+    t: 'CSC Aadhaar Supervisor / Operator Recruitment 2026 – Apply Online for 348 District-Level Vacancies Across 12 States | 12th Pass / ITI / Diploma + UIDAI Certificate | Last Date 20 August 2026',
+    d: '06-08-2026',
+    l: '20-08-2026',
+    a: 'CSC/Aadhaar/2026',
+    q: '12th Pass or ITI / Diploma + Valid UIDAI / NSEIT Aadhaar Operator/Supervisor Certificate',
+    desc: 'CSC e-Governance Services India Ltd. invites online applications for 348 district-level contractual posts of Aadhaar Supervisor & Operator across Bihar, UP, MP, CG, Maharashtra, Karnataka, Haryana, Punjab, Rajasthan, Odisha, and Goa. Remuneration as per State Minimum Wages. Last date to apply online is 20 August 2026.',
+    u: 'https://career.csccloud.in'
   }
 ];

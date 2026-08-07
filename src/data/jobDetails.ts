@@ -26795,253 +26795,6 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is the reporting time for the walk-in interview?', answer: 'Registration is open between 9:00 AM and 9:45 AM on the specified interview date for each post.' }
     ]
   },
-  'bank-of-baroda-specialist-officer-recruitment-2026': {
-    id: 'bank-of-baroda-specialist-officer-recruitment-2026',
-    seoTitle: 'Bank of Baroda Specialist Officer BOB Recruitment 2026 – Apply Online for 206 Posts',
-    seoDescription: 'Bank of Baroda (BOB) invites online applications for 206 Specialist Officers in Digital Banking, Facility Management, Info Security, Security, EDMO & Taxation. Apply by 26 August 2026.',
-    focusKeywords: 'Bank of Baroda Recruitment 2026, BOB Specialist Officer Vacancy, Bank of Baroda SO Jobs 2026',
-    lsiKeywords: 'BOB HRM REC ADVT 2026 15, Bank of Baroda Online Application 2026, Bank Jobs 2026, BOB Technical Officer',
-    title: 'Bank of Baroda (BOB) Recruitment 2026 – Apply Online for 206 Specialist Officers (Digital Banking, Facility Mgmt, Security, EDMO & Accounts)',
-    board: 'Bank of Baroda (BOB)',
-    advtNo: 'BOB/HRM/REC/ADVT/2026/15',
-    vacancies: 206,
-    jobLocation: 'All India (Posting anywhere in India)',
-    applicationMode: 'Online',
-    applicationStatus: 'Active',
-    lastUpdated: '06-08-2026',
-    overview: [
-      'Bank of Baroda (BOB), a leading Indian public sector bank, has released a comprehensive recruitment advertisement (Advt No. BOB/HRM/REC/ADVT/2026/15) for recruitment of 206 Specialist Officers on regular basis across various key departments.',
-      'Positions are advertised across Digital Banking (19 posts), Facility Management (88 posts), Information Security (16 posts), Security (54 posts), Enterprise Data Management Office (14 posts), and Corporate Accounts & Taxation Planning (15 posts).',
-      'Eligible candidates can apply online through Bank of Baroda’s career portal from 6th August 2026 to 26th August 2026.'
-    ],
-    highlights: [
-      { label: 'Recruiting Bank', value: 'Bank of Baroda (BOB)' },
-      { label: 'Advt Number', value: 'BOB/HRM/REC/ADVT/2026/15' },
-      { label: 'Total Vacancies', value: '206 Posts' },
-      { label: 'Scales Offered', value: 'JMG/S-I, MMG/S-II, MMG/S-III, SMG/S-IV' },
-      { label: 'Application Mode', value: 'Online Mode Only' },
-      { label: 'Start Date to Apply', value: '06 August 2026' },
-      { label: 'Last Date to Apply', value: '26 August 2026' },
-      { label: 'Application Fee', value: '₹ 850/- (Gen/OBC/EWS) / ₹ 175/- (SC/ST/PWD/Women)' },
-      { label: 'Official Website', value: 'www.bankofbaroda.bank.in' }
-    ],
-    importantDates: [
-      { event: 'Official Notification Date', date: '06-08-2026' },
-      { event: 'Online Application Start Date', date: '06-08-2026' },
-      { event: 'Last Date to Apply & Pay Fees', date: '26-08-2026' },
-      { event: 'Online Examination / Interview Date', date: 'To be notified on Bank website' }
-    ],
-    vacanciesDetails: [
-      { category: 'Digital Banking - Manager & Sr Manager Digital Product', count: 14 },
-      { category: 'Digital Banking - Product Manager Digital Lending', count: 5 },
-      { category: 'Facility Management - Technical Officer Civil (JMG/S-I)', count: 35 },
-      { category: 'Facility Management - Technical Manager Civil (MMG/S-II)', count: 21 },
-      { category: 'Facility Management - Technical Sr Manager Civil (MMG/S-III)', count: 6 },
-      { category: 'Facility Management - Technical Officer Electrical (JMG/S-I)', count: 15 },
-      { category: 'Facility Management - Technical Manager Electrical (MMG/S-II)', count: 9 },
-      { category: 'Facility Management - Technical Sr Manager Electrical (MMG/S-III)', count: 2 },
-      { category: 'Information Security - Manager Information Security (MMG/S-II)', count: 13 },
-      { category: 'Information Security - Sr Manager Information Security (MMG/S-III)', count: 3 },
-      { category: 'Security - Manager Security (MMG/S-II)', count: 54 },
-      { category: 'Enterprise Data Management Office - Data Scientist / Data Profiling / DQ Analyst / BI', count: 14 },
-      { category: 'Corporate Accounts & Taxation - Manager / Sr Manager Taxation & Accounts / Investor Relations', count: 15 }
-    ],
-    eligibility: {
-      education: [
-        'Digital Banking: B.E/B.Tech in CS/IT/ECE or MCA/M.Sc + 3 to 6 years relevant experience.',
-        'Facility Management: B.E/B.Tech in Civil or Electrical Engineering + 2 to 7 years relevant experience.',
-        'Information Security: B.E/B.Tech in CS/IT/ECE/EEE or MCA/M.Sc/M.Tech + Security Certification (CEH/CompTIA/CISA/CISSP) + 3 to 6 years experience.',
-        'Security: Graduate in any discipline + minimum 5 years commissioned service in Army/Navy/Air Force or Police/Paramilitary officer rank.',
-        'Enterprise Data Management: B.E/B.Tech/M.Tech/M.Sc/BCA/MCA/Graduation in Statistics/Data Science + 6 to 10 years experience.',
-        'Corporate Accounts & Taxation: Chartered Accountant (CA) / ICWA or MBA / Graduation in Commerce/Economics + 2 to 8 years experience.'
-      ],
-      ageLimit: 'Min 23 years, Max 43 years (varies by post and scale as on 01-08-2026). Age relaxation as per Govt guidelines (SC/ST: +5 yrs, OBC: +3 yrs, PwBD: +10-15 yrs).'
-    },
-    salary: {
-      payLevel: 'Pay Scale as per 12th Bipartite Settlement / Joint Note',
-      initialPay: 'JMG/S-I: ₹48,480 - ₹85,920 | MMG/S-II: ₹64,820 - ₹93,960 | MMG/S-III: ₹85,920 - ₹1,05,280 | SMG/S-IV: ₹1,02,300 - ₹1,20,940',
-      allowances: 'DA, HRA, CCA, Medical Benefits, Perquisites and other allowances as per Bank policy. Service Bond of 3 years applies.'
-    },
-    applicationFee: [
-      { category: 'General, OBC & EWS Candidates', fee: '₹ 850/- (Inclusive of GST) + Gateway Charges', refund: 'Non-Refundable' },
-      { category: 'SC, ST, PWD, ESM & Women Candidates', fee: '₹ 175/- (Intimation Charges only)', refund: 'Non-Refundable' }
-    ],
-    howToPayFee: [
-      'Application fee must be paid online via Debit Card, Credit Card, Net Banking, or UPI through the integrated payment gateway.'
-    ],
-    selectionProcess: [
-      { stage: 'Application Scrutiny & Shortlisting', description: 'Applications will be shortlisted based on qualifications, experience, and domain expertise.' },
-      { stage: 'Online Examination / Psychometric Test', description: 'If conducted, online exam will cover Reasoning (25), English (25), Quantitative Aptitude (25), and Professional Knowledge (150 marks).' },
-      { stage: 'Personal Interview (PI)', description: 'Interview carrying 60% qualifying marks for General/EWS and 55% for Reserved categories.' }
-    ],
-    officialLinks: [
-      { label: 'Bank of Baroda Career Portal', url: 'https://www.bankofbaroda.bank.in/careers.htm' },
-      { label: 'Download Official Notification PDF (BOB/HRM/REC/ADVT/2026/15)', url: 'https://www.bankofbaroda.bank.in' }
-    ],
-    faqs: [
-      { question: 'What is the last date to submit online applications for BOB Specialist Officer Recruitment 2026?', answer: 'The last date for online submission of applications and fee payment is 26th August 2026.' },
-      { question: 'What is the application fee for female candidates in Bank of Baroda recruitment?', answer: 'Female candidates of all categories pay Rs. 175/- (Intimation charges only).' },
-      { question: 'Is there a service bond for selected candidates in Bank of Baroda?', answer: 'Yes. Selected candidates must execute a service bond to serve the bank for a minimum period of 3 years.' }
-    ]
-  },
-  'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026': {
-    id: 'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026',
-    seoTitle: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & AM Posts',
-    seoDescription: 'APCOB and AP DCCBs (Chittoor, Kadapa, Nellore, Prakasam, Vizianagaram) invite online applications for 338 Staff Assistant and Assistant Manager posts. Apply by 07 August 2026.',
-    focusKeywords: 'APCOB Recruitment 2026, AP DCCB Staff Assistant Vacancy, APCOB Assistant Manager Recruitment 2026',
-    lsiKeywords: 'APCOB Online Form 2026, AP Cooperative Bank Jobs, Prakasam DCCB Recruitment, Kadapa DCCB Staff Assistant',
-    title: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & Assistant Manager Vacancies',
-    board: 'Andhra Pradesh State Co-operative Bank (APCOB) & AP DCCBs',
-    advtNo: 'APCOB/DCCB/2026-27',
-    vacancies: 338,
-    jobLocation: 'Andhra Pradesh',
-    applicationMode: 'Online',
-    applicationStatus: 'Active',
-    lastUpdated: '24-07-2026',
-    overview: [
-      'The Andhra Pradesh State Co-operative Bank Ltd. (APCOB) and affiliated District Co-operative Central Banks (DCCBs) of Chittoor, Kadapa, Nellore, Prakasam, Visakhapatnam, and Vizianagaram have released official recruitment notifications for 338 vacancies of Staff Assistant and Assistant Manager (Scale-I).',
-      'Eligible candidates with a Bachelor’s or Master’s degree, proficiency in Telugu language, and computer knowledge can submit online applications through the official bank websites from 24th July 2026 to 7th August 2026.'
-    ],
-    highlights: [
-      { label: 'Recruiting Body', value: 'APCOB & AP District Co-operative Central Banks (DCCBs)' },
-      { label: 'Total Vacancies', value: '338 Posts' },
-      { label: 'Posts Offered', value: 'Staff Assistant & Assistant Manager (Scale-I)' },
-      { label: 'Pay Scale', value: '₹24,050 – ₹64,480 (Staff Assistant) / ₹40,480 – ₹80,560 (AM)' },
-      { label: 'Job Location', value: 'Various Districts in Andhra Pradesh' },
-      { label: 'Application Mode', value: 'Online Mode Only' },
-      { label: 'Start Date to Apply', value: '24 July 2026' },
-      { label: 'Last Date to Apply', value: '07 August 2026' },
-      { label: 'Official Website', value: 'https://apcob.bank.in' }
-    ],
-    importantDates: [
-      { event: 'Official Notification Date', date: '24-07-2026' },
-      { event: 'Online Application Start Date', date: '24-07-2026' },
-      { event: 'Last Date for Online Application & Fee Payment', date: '07-08-2026' },
-      { event: 'Online Written Examination Date', date: 'To be notified on official portal' }
-    ],
-    vacanciesDetails: [
-      { category: 'Chittoor DCCB (Staff Assistant)', count: 24 },
-      { category: 'Kadapa DCCB (Staff Assistant)', count: 14 },
-      { category: 'Kadapa DCCB (Assistant Manager)', count: 6 },
-      { category: 'Nellore DCCB (Staff Assistant)', count: 59 },
-      { category: 'Prakasam DCCB (Staff Assistant)', count: 172 },
-      { category: 'Prakasam DCCB (Assistant Manager)', count: 38 },
-      { category: 'Vizianagaram DCCB (Staff Assistant)', count: 25 }
-    ],
-    eligibility: {
-      education: [
-        'Staff Assistant: Graduation in any discipline from a recognized University + Proficiency in local language (Telugu) and working knowledge of computers.',
-        'Assistant Manager: First Class Graduation in any discipline OR Commerce Graduate with minimum 55% marks OR Post Graduate degree in any discipline + Proficiency in Telugu & computer knowledge.'
-      ],
-      ageLimit: '20 to 30 years as on 24-07-2026. Age relaxation: SC/ST (+5 yrs), BC (+3 yrs), PwBD (+10 to 15 yrs), Ex-Servicemen (+3 yrs + service).'
-    },
-    salary: {
-      payLevel: 'State Co-operative Bank Pay Scale',
-      initialPay: 'Staff Assistant: ₹24,050 – ₹64,480 (Approx ₹47,000/pm starting gross) | Assistant Manager: ₹40,480 – ₹80,560 (Approx ₹62,571/pm starting gross)',
-      allowances: 'DA, HRA, Medical Aid, Conveyance allowance, and other benefits as per Bank rules.'
-    },
-    applicationFee: [
-      { category: 'OC / BC / EWS Candidates', fee: '₹ 826/- (Inclusive of GST)', refund: 'Non-Refundable' },
-      { category: 'SC / ST / PwBD / Ex-Servicemen Candidates', fee: '₹ 590/- (Inclusive of GST)', refund: 'Non-Refundable' }
-    ],
-    howToPayFee: [
-      'Application fee must be paid strictly online using Debit Card, Credit Card, Net Banking, or UPI during online registration.'
-    ],
-    selectionProcess: [
-      { stage: 'Online Written Examination', description: 'Objective online test covering Reasoning (50 marks), Quantitative Aptitude (50 marks), English Language (40 marks), General/Financial Awareness (40 marks), and Computer Knowledge (20 marks) - Total 200 marks.' },
-      { stage: 'Document Verification & Medical Exam', description: 'Shortlisted candidates based on online test merit will undergo certificate verification and medical test.' }
-    ],
-    officialLinks: [
-      { label: 'APCOB Official Bank Portal', url: 'https://apcob.bank.in' }
-    ],
-    faqs: [
-      { question: 'What is the last date to apply for APCOB & AP DCCBs recruitment 2026?', answer: 'The last date to submit online applications is 7th August 2026.' },
-      { question: 'Is knowledge of Telugu mandatory for APCOB Staff Assistant posts?', answer: 'Yes, proficiency in local Telugu language is mandatory for candidates applying for DCCB posts in Andhra Pradesh.' },
-      { question: 'What is the application fee for SC/ST candidates?', answer: 'SC, ST, PwBD, and Ex-Servicemen candidates pay ₹590/- (inclusive of GST).' }
-    ]
-  },
-  'shs-bihar-specialist-doctor-recruitment-2026': {
-    id: 'shs-bihar-specialist-doctor-recruitment-2026',
-    seoTitle: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Doctor Posts',
-    seoDescription: 'State Health Society Bihar (SHSB) invites online applications for 450 Specialist Doctor vacancies (Gynaecologist, Paediatrician, Anaesthetist, Surgeon, Physician). Apply by 21 August 2026.',
-    focusKeywords: 'SHS Bihar Specialist Doctor Recruitment 2026, SHSB Specialist Doctor Vacancy, Bihar NHM Doctor Jobs 2026',
-    lsiKeywords: 'SHS Bihar Online Application 2026, State Health Society Bihar Doctor Salary, Bihar Medical Officer Vacancy, shs.bihar.gov.in recruitment',
-    title: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Vacancies',
-    board: 'State Health Society Bihar (SHSB), NHM Bihar',
-    advtNo: '03/2026',
-    vacancies: 450,
-    jobLocation: 'Bihar',
-    applicationMode: 'Online',
-    applicationStatus: 'Active',
-    lastUpdated: '06-08-2026',
-    overview: [
-      'The State Health Society Bihar (SHSB), under the National Health Mission (NHM), Government of Bihar, has issued Advertisement No. 03/2026 for the recruitment of 450 Specialist Doctors on a contractual basis initially for 11 months.',
-      'Positions are available across six major medical specialties: Obstetrician & Gynaecologist, Paediatrician, Anaesthetist, MD Medicine / Physician, General Surgeon, and Orthopaedic Surgeon. Eligible candidates with MBBS and MD/MS/DNB or Diploma in concerned field can apply online from 7th August 2026 to 21st August 2026 (6:00 PM).'
-    ],
-    highlights: [
-      { label: 'Recruiting Authority', value: 'State Health Society Bihar (SHSB), Govt of Bihar' },
-      { label: 'Advt Number', value: 'Advt No. 03/2026' },
-      { label: 'Total Vacancies', value: '450 Posts' },
-      { label: 'Name of Posts', value: 'Specialist Doctors (6 Specialties)' },
-      { label: 'Monthly Honorarium', value: '₹90,000/- to ₹1,20,000/- per month' },
-      { label: 'Job Nature', value: 'Contractual (Initially 11 months, extendable)' },
-      { label: 'Application Mode', value: 'Online (shs.bihar.gov.in)' },
-      { label: 'Start Date to Apply', value: '07 August 2026 (10:00 AM)' },
-      { label: 'Last Date to Apply', value: '21 August 2026 (06:00 PM)' },
-      { label: 'Official Portal', value: 'https://shs.bihar.gov.in' }
-    ],
-    importantDates: [
-      { event: 'Official Notification Date', date: '06-08-2026' },
-      { event: 'Online Application Start Date', date: '07-08-2026 (10:00 AM)' },
-      { event: 'Last Date for Submission of Online Application', date: '21-08-2026 (06:00 PM)' },
-      { event: 'Cut-off Date for Age & Educational Eligibility', date: '01-08-2026' },
-      { event: 'Document Verification / Counselling (Tentative)', date: 'September 2026' }
-    ],
-    vacanciesDetails: [
-      { category: 'Obstetrician and Gynaecologist', count: 94 },
-      { category: 'Paediatrician', count: 115 },
-      { category: 'Anaesthetist', count: 132 },
-      { category: 'MD Medicine / Physician', count: 60 },
-      { category: 'General Surgeon', count: 27 },
-      { category: 'Orthopaedic Surgeon', count: 22 }
-    ],
-    eligibility: {
-      education: [
-        'Obstetrician & Gynaecologist: MD/MS/DNB in Obstetrics & Gynaecology OR DGO (Diploma in Gynaecology & Obstetrics).',
-        'Paediatrician: MD/DNB in Paediatrics OR Diploma in Child Health (DCH).',
-        'Anaesthetist: MD/DNB in Anaesthesia OR Diploma in Anaesthesia (DA).',
-        'MD Medicine / Physician: MD/DNB in General Medicine.',
-        'General Surgeon: MS/DNB in General Surgery.',
-        'Orthopaedic Surgeon: MBBS with MS-Ortho/DNB in Orthopaedics OR D.Ortho.',
-        'Registration: Candidate must be permanently registered with Bihar Council of Medical Registration (BCMR Patna) or Medical Council of India (MCI) / National Medical Commission (NMC).'
-      ],
-      ageLimit: 'As on 01-08-2026: UR/EWS Male (Max 37 yrs), UR/EWS Female & BC/EBC Male/Female (Max 40 yrs), SC/ST Male/Female (Max 42 yrs). PwBD candidates get 10 years additional age relaxation.'
-    },
-    salary: {
-      payLevel: 'NHM Contractual Consolidated Honorarium',
-      initialPay: 'MD/MS/DNB Degree Holders: ₹1,00,000/- per month (District HQ) or ₹1,20,000/- per month (Non-District HQ). Diploma Holders: ₹90,000/- per month.',
-      allowances: 'Fixed consolidated monthly honorarium under National Health Mission Bihar rules.'
-    },
-    applicationFee: [
-      { category: 'UR / EWS / BC / EBC Male Candidates', fee: '₹ 500/-', refund: 'Non-Refundable' },
-      { category: 'All Female Candidates / SC / ST / PwBD Candidates', fee: '₹ 250/-', refund: 'Non-Refundable' }
-    ],
-    howToPayFee: [
-      'Application fee must be paid online via Net Banking, Credit Card, Debit Card, or UPI on the official SHSB portal.'
-    ],
-    selectionProcess: [
-      { stage: 'Academic Merit Evaluation', description: 'Selection is based on 100 marks weightage: MBBS examination percentage (Max 60 marks) + PG Degree MD/MS/DNB (40 marks) OR PG Diploma (30 marks).' },
-      { stage: 'Document Verification & Counselling', description: 'Candidates shortlisted based on academic merit score will be called for counseling and original certificate verification in Patna.' }
-    ],
-    officialLinks: [
-      { label: 'State Health Society Bihar Official Portal', url: 'https://shs.bihar.gov.in' }
-    ],
-    faqs: [
-      { question: 'What is the last date to apply online for SHS Bihar Specialist Doctor Recruitment 2026?', answer: 'The last date to submit online applications is 21st August 2026 up to 6:00 PM.' },
-      { question: 'What is the monthly salary for Specialist Doctors in SHS Bihar?', answer: 'Specialist Doctors with MD/MS/DNB receive ₹1,00,000/- to ₹1,20,000/- per month depending on posting location, while Diploma holders receive ₹90,000/- per month.' },
-      { question: 'Is medical registration required for SHSB doctor recruitment?', answer: 'Yes, valid registration with Bihar Council of Medical Registration (BCMR Patna) or NMC/MCI is mandatory.' }
-    ]
-  },
   'ntpc-deputy-manager-recruitment-2026': {
     id: 'ntpc-deputy-manager-recruitment-2026',
     seoTitle: 'NTPC Deputy Manager Recruitment 2026 – Apply Online for 135 E4 Posts',
@@ -27112,6 +26865,88 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is the last date to apply online for NTPC Deputy Manager recruitment 2026?', answer: 'The last date to submit online applications on the NTPC careers portal is 26th August 2026.' },
       { question: 'What is the pay scale for Deputy Manager (E4 Level) in NTPC?', answer: 'The pay scale for E4 level Deputy Managers is ₹70,000 – ₹2,00,000 per month plus applicable allowances.' },
       { question: 'What experience is required for NTPC Deputy Manager posts?', answer: 'Candidates must possess a minimum of 10 years post-qualification executive experience in relevant engineering fields.' }
+    ]
+  },
+  'csc-aadhaar-supervisor-operator-recruitment-2026': {
+    id: 'csc-aadhaar-supervisor-operator-recruitment-2026',
+    seoTitle: 'CSC Aadhaar Supervisor & Operator Recruitment 2026 – Apply Online for 348 Posts',
+    seoDescription: 'CSC e-Governance Services India Ltd. invites online applications for 348 Aadhaar Supervisor/Operator posts across 12 states. 12th/ITI/Diploma + UIDAI Cert. Apply by 20 August 2026.',
+    focusKeywords: 'CSC Aadhaar Supervisor Recruitment 2026, Aadhaar Operator Vacancy 2026, CSC Job Portal career.csccloud.in',
+    lsiKeywords: 'Aadhaar Supervisor Salary, UIDAI NSEIT Certificate Jobs, District Aadhaar Operator Vacancy',
+    title: 'CSC Aadhaar Supervisor / Operator Recruitment 2026 – Apply Online for 348 District Posts',
+    board: 'CSC e-Governance Services India Limited (MeitY)',
+    advtNo: 'CSC/Aadhaar/2026',
+    vacancies: 348,
+    jobLocation: 'Multiple States (Bihar, UP, MP, CG, Maharashtra, Karnataka, Haryana, Punjab, Rajasthan, Odisha, Goa)',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'CSC e-Governance Services India Limited, a Special Purpose Vehicle (SPV) under the Ministry of Electronics and Information Technology (MeitY), Government of India, has released the notification for recruitment of 348 Aadhaar Supervisor and Operator vacancies.',
+      'The recruitment is being conducted on a 1-year contractual basis for district-level Aadhaar Seva Kendra operations across 12 participating states. Online applications are open on the official CSC Job Portal (career.csccloud.in) until 20th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'CSC e-Governance Services India Ltd. (MeitY, Govt of India)' },
+      { label: 'Advt Reference', value: 'CSC/Aadhaar/2026' },
+      { label: 'Post Names', value: 'Aadhaar Supervisor / Aadhaar Operator (District Level)' },
+      { label: 'Total Vacancies', value: '348 Posts' },
+      { label: 'States Covered', value: 'Bihar, Chhattisgarh, MP, Maharashtra, UP, Karnataka, Goa, Haryana, Odisha, Rajasthan, Punjab' },
+      { label: 'Tenure', value: '1 Year Contractual' },
+      { label: 'Remuneration', value: 'As per State Minimum Wages for Semi-Skilled Manpower' },
+      { label: 'Application Mode', value: 'Online (career.csccloud.in)' },
+      { label: 'Last Date to Apply', value: '20 August 2026' },
+      { label: 'Official Portal', value: 'https://career.csccloud.in' }
+    ],
+    importantDates: [
+      { event: 'Notification Date', date: '25-06-2026' },
+      { event: 'Online Application Window Open', date: '25-06-2026' },
+      { event: 'Last Date to Apply Online', date: '20-08-2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Karnataka District Centres', count: 104 },
+      { category: 'Bihar District Centres', count: 48 },
+      { category: 'Chhattisgarh District Centres', count: 19 },
+      { category: 'Uttar Pradesh District Centres', count: 19 },
+      { category: 'Haryana District Centres', count: 15 },
+      { category: 'Punjab District Centres', count: 9 },
+      { category: 'Madhya Pradesh District Centres', count: 7 },
+      { category: 'Odisha District Centres', count: 4 },
+      { category: 'Rajasthan District Centres (Kota)', count: 2 },
+      { category: 'Maharashtra District Centres (Yavatmal)', count: 1 },
+      { category: 'Goa District Centre', count: 1 },
+      { category: 'Other Participating State Locations', count: 119 }
+    ],
+    eligibility: {
+      education: [
+        '12th Pass (Intermediate / Senior Secondary) from a recognized Board, OR',
+        'Matriculation (10th Pass) with 2 Years ITI Course, OR 3 Years Polytechnic Diploma.',
+        'Mandatory Certification: Must possess a valid Aadhaar Operator / Supervisor Certificate issued by UIDAI / NSEIT testing and certification agency.'
+      ],
+      ageLimit: 'Minimum age 18 years as on date of application. No upper age bar mentioned in official notification.'
+    },
+    salary: {
+      payLevel: 'Contractual Remuneration',
+      initialPay: 'As per State Minimum Wages applicable for Semi-Skilled / Skilled manpower in respective state + performance incentive based on enrollment volume.',
+      allowances: 'Workplace equipment and technical connectivity provided by CSC e-Governance.'
+    },
+    applicationFee: [
+      { category: 'All Candidates (General / OBC / SC / ST / PwBD / Female)', fee: 'Nil (No Application Fee)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'No application fee is payable for applying to CSC Aadhaar Supervisor/Operator recruitment 2026.'
+    ],
+    selectionProcess: [
+      { stage: 'Online Application Screening', description: 'Screening of applications based on educational qualification, UIDAI certificate validity, and local district residency.' },
+      { stage: 'Document Verification & Skill Assessment', description: 'Verification of original certificates, UIDAI credentials, and practical assessment on Aadhaar enrollment software.' }
+    ],
+    officialLinks: [
+      { label: 'CSC Official Careers Portal', url: 'https://career.csccloud.in' },
+      { label: 'CSC e-Governance Main Portal', url: 'https://csc.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for CSC Aadhaar Supervisor/Operator recruitment 2026?', answer: 'The last date to submit online applications on career.csccloud.in is 20th August 2026.' },
+      { question: 'Is UIDAI / NSEIT certificate mandatory for this vacancy?', answer: 'Yes, candidates must possess a valid Aadhaar Operator or Supervisor Certificate issued by UIDAI or NSEIT.' },
+      { question: 'Is there any application fee for CSC Aadhaar Operator posts?', answer: 'No, applying for CSC Aadhaar Supervisor/Operator recruitment is completely free of cost for all candidates.' }
     ]
   }
 };
