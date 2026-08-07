@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { jobDetailsData } from '../src/data/jobDetails.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
-import { getPageMetaData, injectMetaTags } from '../server.js';
+import { getPageMetaData, injectMetaTags } from '../src/utils/metaHelper.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
