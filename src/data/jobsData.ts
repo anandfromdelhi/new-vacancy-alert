@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'mpesb-group-2-subgroup-4-patwari-recruitment-2026',
+    b: 'Madhya Pradesh Employees Selection Board (MPESB), Bhopal',
+    t: 'MPESB Group 2 Sub Group 4 Recruitment 2026 – Apply Online for 2,106 Posts of Patwari, Panchayat Coordinator, Computer Operator, Assistant Manager & Sub-Auditor | Advt Group-2 Sub-Group-4 2026 | Last Date 18 August 2026',
+    d: '07-08-2026',
+    l: '18-08-2026',
+    a: 'Rulebook Group-02 Sub-Group-04 Combined Recruitment Exam 2026',
+    q: 'Graduate Degree in any discipline / B.Com / Science / B.E / B.Tech / BCA + CPCT / Computer Diploma as applicable',
+    desc: 'Madhya Pradesh Employees Selection Board (MPESB) invites online applications for 2,106 vacancies under Group-02 Sub-Group-04 Combined Recruitment Exam 2026. Posts include Patwari (200), Panchayat Samanvay Adhikari (365), Computer Operator / Assistant Grade-3 (124), Sub-Auditor / Assistant Auditor (105), Assistant Inspector / Mandi Supervisor (530), and Assistant Manager (45). Apply online at esb.mp.gov.in by 18 August 2026.',
+    u: 'https://esb.mp.gov.in'
+  },
+  {
     id: 'dlsa-ujjain-plv-recruitment-2026',
     b: 'District Legal Services Authority (DLSA), Ujjain – Govt of MP',
     t: 'DLSA Ujjain PLV Recruitment 2026 – Apply for 170 Para Legal Volunteer (PLV) Vacancies across Ujjain & Tehsils | 10th Pass Eligible | No Fee | Advt 741/PLV/2026 | Last Date 31 August 2026',
