@@ -26883,6 +26883,82 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is the application fee for female candidates in Bank of Baroda recruitment?', answer: 'Female candidates of all categories pay Rs. 175/- (Intimation charges only).' },
       { question: 'Is there a service bond for selected candidates in Bank of Baroda?', answer: 'Yes. Selected candidates must execute a service bond to serve the bank for a minimum period of 3 years.' }
     ]
+  },
+  'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026': {
+    id: 'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026',
+    seoTitle: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & AM Posts',
+    seoDescription: 'APCOB and AP DCCBs (Chittoor, Kadapa, Nellore, Prakasam, Vizianagaram) invite online applications for 338 Staff Assistant and Assistant Manager posts. Apply by 07 August 2026.',
+    focusKeywords: 'APCOB Recruitment 2026, AP DCCB Staff Assistant Vacancy, APCOB Assistant Manager Recruitment 2026',
+    lsiKeywords: 'APCOB Online Form 2026, AP Cooperative Bank Jobs, Prakasam DCCB Recruitment, Kadapa DCCB Staff Assistant',
+    title: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & Assistant Manager Vacancies',
+    board: 'Andhra Pradesh State Co-operative Bank (APCOB) & AP DCCBs',
+    advtNo: 'APCOB/DCCB/2026-27',
+    vacancies: 338,
+    jobLocation: 'Andhra Pradesh',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '24-07-2026',
+    overview: [
+      'The Andhra Pradesh State Co-operative Bank Ltd. (APCOB) and affiliated District Co-operative Central Banks (DCCBs) of Chittoor, Kadapa, Nellore, Prakasam, Visakhapatnam, and Vizianagaram have released official recruitment notifications for 338 vacancies of Staff Assistant and Assistant Manager (Scale-I).',
+      'Eligible candidates with a Bachelor’s or Master’s degree, proficiency in Telugu language, and computer knowledge can submit online applications through the official bank websites from 24th July 2026 to 7th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Body', value: 'APCOB & AP District Co-operative Central Banks (DCCBs)' },
+      { label: 'Total Vacancies', value: '338 Posts' },
+      { label: 'Posts Offered', value: 'Staff Assistant & Assistant Manager (Scale-I)' },
+      { label: 'Pay Scale', value: '₹24,050 – ₹64,480 (Staff Assistant) / ₹40,480 – ₹80,560 (AM)' },
+      { label: 'Job Location', value: 'Various Districts in Andhra Pradesh' },
+      { label: 'Application Mode', value: 'Online Mode Only' },
+      { label: 'Start Date to Apply', value: '24 July 2026' },
+      { label: 'Last Date to Apply', value: '07 August 2026' },
+      { label: 'Official Website', value: 'https://apcob.bank.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '24-07-2026' },
+      { event: 'Online Application Start Date', date: '24-07-2026' },
+      { event: 'Last Date for Online Application & Fee Payment', date: '07-08-2026' },
+      { event: 'Online Written Examination Date', date: 'To be notified on official portal' }
+    ],
+    vacanciesDetails: [
+      { category: 'Chittoor DCCB (Staff Assistant)', count: 24 },
+      { category: 'Kadapa DCCB (Staff Assistant)', count: 14 },
+      { category: 'Kadapa DCCB (Assistant Manager)', count: 6 },
+      { category: 'Nellore DCCB (Staff Assistant)', count: 59 },
+      { category: 'Prakasam DCCB (Staff Assistant)', count: 172 },
+      { category: 'Prakasam DCCB (Assistant Manager)', count: 38 },
+      { category: 'Vizianagaram DCCB (Staff Assistant)', count: 25 }
+    ],
+    eligibility: {
+      education: [
+        'Staff Assistant: Graduation in any discipline from a recognized University + Proficiency in local language (Telugu) and working knowledge of computers.',
+        'Assistant Manager: First Class Graduation in any discipline OR Commerce Graduate with minimum 55% marks OR Post Graduate degree in any discipline + Proficiency in Telugu & computer knowledge.'
+      ],
+      ageLimit: '20 to 30 years as on 24-07-2026. Age relaxation: SC/ST (+5 yrs), BC (+3 yrs), PwBD (+10 to 15 yrs), Ex-Servicemen (+3 yrs + service).'
+    },
+    salary: {
+      payLevel: 'State Co-operative Bank Pay Scale',
+      initialPay: 'Staff Assistant: ₹24,050 – ₹64,480 (Approx ₹47,000/pm starting gross) | Assistant Manager: ₹40,480 – ₹80,560 (Approx ₹62,571/pm starting gross)',
+      allowances: 'DA, HRA, Medical Aid, Conveyance allowance, and other benefits as per Bank rules.'
+    },
+    applicationFee: [
+      { category: 'OC / BC / EWS Candidates', fee: '₹ 826/- (Inclusive of GST)', refund: 'Non-Refundable' },
+      { category: 'SC / ST / PwBD / Ex-Servicemen Candidates', fee: '₹ 590/- (Inclusive of GST)', refund: 'Non-Refundable' }
+    ],
+    howToPayFee: [
+      'Application fee must be paid strictly online using Debit Card, Credit Card, Net Banking, or UPI during online registration.'
+    ],
+    selectionProcess: [
+      { stage: 'Online Written Examination', description: 'Objective online test covering Reasoning (50 marks), Quantitative Aptitude (50 marks), English Language (40 marks), General/Financial Awareness (40 marks), and Computer Knowledge (20 marks) - Total 200 marks.' },
+      { stage: 'Document Verification & Medical Exam', description: 'Shortlisted candidates based on online test merit will undergo certificate verification and medical test.' }
+    ],
+    officialLinks: [
+      { label: 'APCOB Official Bank Portal', url: 'https://apcob.bank.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply for APCOB & AP DCCBs recruitment 2026?', answer: 'The last date to submit online applications is 7th August 2026.' },
+      { question: 'Is knowledge of Telugu mandatory for APCOB Staff Assistant posts?', answer: 'Yes, proficiency in local Telugu language is mandatory for candidates applying for DCCB posts in Andhra Pradesh.' },
+      { question: 'What is the application fee for SC/ST candidates?', answer: 'SC, ST, PwBD, and Ex-Servicemen candidates pay ₹590/- (inclusive of GST).' }
+    ]
   }
 };
 

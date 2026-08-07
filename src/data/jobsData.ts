@@ -1412,5 +1412,16 @@ export const JOBS_DATA: JobEntry[] = [
     q: 'B.E / B.Tech (CS/IT/ECE/EEE/Civil/Electrical), MCA, M.Sc (IT/Data Science), CA / ICWA / MBA, Graduation + Experience',
     desc: 'Bank of Baroda (BOB), one of India’s leading public sector banks, invites online applications for recruitment of 206 Specialist Officers on regular basis across Digital Banking, Facility Management, Information Security, Security, Enterprise Data Management Office, and Corporate Accounts & Taxation Planning. Scales range from JMG/S-I to SMG/S-IV. Apply online by 26 August 2026.',
     u: 'https://www.bankofbaroda.bank.in'
+  },
+  {
+    id: 'apcob-dccb-staff-assistant-assistant-manager-recruitment-2026',
+    b: 'Andhra Pradesh State Co-operative Bank (APCOB) & AP DCCBs',
+    t: 'APCOB & AP DCCBs Recruitment 2026 – Apply Online for 338 Staff Assistant & Assistant Manager Vacancies | Salary up to ₹80,560 | Last Date 07 August 2026',
+    d: '24-07-2026',
+    l: '07-08-2026',
+    a: 'APCOB/DCCB/2026-27',
+    q: 'Graduation in any discipline / First Class Degree / B.Com 55% / Post Graduate + Telugu Proficiency & Computer Knowledge',
+    desc: 'Andhra Pradesh State Co-operative Bank (APCOB) and District Co-operative Central Banks (Chittoor, Kadapa, Nellore, Prakasam, Vizianagaram DCCBs) invite online applications for 338 vacancies of Staff Assistant and Assistant Manager (Scale-I). Age 20 to 30 years. Selection through online exam. Apply online by 07 August 2026.',
+    u: 'https://apcob.bank.in'
   }
 ];
