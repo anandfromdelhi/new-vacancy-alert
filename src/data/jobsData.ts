@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'aiims-raipur-senior-resident-recruitment-2026',
+    b: 'All India Institute of Medical Sciences (AIIMS), Raipur',
+    t: 'AIIMS Raipur Senior Resident Recruitment 2026 – Apply Online for 121 Senior Resident (Non-Academic) Posts | Pay Level-11 (₹67,700/month + NPA) | MD/MS/DNB/MDS/Diploma Eligible | Last Date 16 August 2026',
+    d: '07-08-2026',
+    l: '16-08-2026',
+    a: 'Ref No. 9/327/2026/Recruit./Reg./AIIMSRPR/2120 Dated 06.08.2026',
+    q: 'Postgraduate Medical Degree (MD / MS / DNB / Diploma / MDS) in Concerned Discipline',
+    desc: 'AIIMS Raipur invites online applications via Google Form for 121 Senior Resident (Non-Academic) Group A vacancies across 39 medical & surgical departments under Govt of India Residency Scheme. Pay Level-11 (₹67,700 + usual allowances & NPA). MD/MS/DNB/MDS candidates aged up to 45 years can apply online by 16 August 2026 on aiimsraipur.edu.in.',
+    u: 'https://www.aiimsraipur.edu.in'
+  },
+  {
     id: 'jssc-jilcce-recruitment-2026',
     b: 'Jharkhand Staff Selection Commission (JSSC)',
     t: 'JSSC JILCCE 2026 – Apply Online for 326 Posts of Health Supervisor, Junior Regional Inspector, Multipurpose Health Worker & Veterinary Assistant | Advt 03/2026 | Last Date 19 August 2026',
