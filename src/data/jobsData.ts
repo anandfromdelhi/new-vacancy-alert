@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'dlsa-ujjain-plv-recruitment-2026',
+    b: 'District Legal Services Authority (DLSA), Ujjain – Govt of MP',
+    t: 'DLSA Ujjain PLV Recruitment 2026 – Apply for 170 Para Legal Volunteer (PLV) Vacancies across Ujjain & Tehsils | 10th Pass Eligible | No Fee | Advt 741/PLV/2026 | Last Date 31 August 2026',
+    d: '07-08-2026',
+    l: '31-08-2026',
+    a: 'No. 741/PLV/JIVISEPRA/2026 Dated 06.08.2026',
+    q: 'Passed Class 10th (Matriculation) from Recognized Board',
+    desc: 'District Legal Services Authority (DLSA), Ujjain (MP) under NALSA scheme invites offline applications for empanelment of 170 Para Legal Volunteers (PLVs) for Session 2026-27 across Ujjain (70), Khachrod (20), Nagda (20), Mahidpur (20), Tarana (20), and Badnagar (20). 10th Pass candidates aged 18+ can submit offline application forms by hand or post to DLSA Ujjain by 31 August 2026.',
+    u: 'https://ujjain.dcourts.gov.in'
+  },
+  {
     id: 'gmc-wanaparthy-faculty-sr-tutor-recruitment-2026',
     b: 'Government Medical College (GMC), Wanaparthy – Govt of Telangana',
     t: 'GMC Wanaparthy Recruitment 2026 – Walk-in Interview for 160 Faculty, Senior Resident & Tutor Posts | Salary up to ₹1,90,000/month | Rc.No.1881-1/GMC/WNP/2026 | Walk-in Date 12 August 2026',
