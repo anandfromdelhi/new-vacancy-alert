@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'jssc-jilcce-recruitment-2026',
+    b: 'Jharkhand Staff Selection Commission (JSSC)',
+    t: 'JSSC JILCCE 2026 – Apply Online for 326 Posts of Health Supervisor, Junior Regional Inspector, Multipurpose Health Worker & Veterinary Assistant | Advt 03/2026 | Last Date 19 August 2026',
+    d: '07-08-2026',
+    l: '19-08-2026',
+    a: 'Advt No. 03/2026 (JILCCE-2026)',
+    q: '10+2 (Intermediate) with Science / Math / Biology from Recognized Board',
+    desc: 'Jharkhand Staff Selection Commission (JSSC) invites online applications for 326 regular vacancies under Jharkhand Intermediate Level Combined Competitive Examination 2026 (JILCCE-2026). Posts include Health Supervisor, Junior Regional Inspector, Multipurpose Health Worker, Veterinary Assistant, Insect Collector, and Fisheries Technical Assistant. Apply online at jssc.jharkhand.gov.in.',
+    u: 'https://jssc.jharkhand.gov.in'
+  },
+  {
     id: 'hppsc-hp-police-female-constable-recruitment-2026',
     b: 'Himachal Pradesh Public Service Commission (HPPSC) / HP Police Department',
     t: 'HPPSC HP Police Female Constable Recruitment 2026 – Apply Online for 243 Female Constable Vacancies | Pay Level-3 (₹20,200-64,000) | 12th Pass Eligible | Online Registration',

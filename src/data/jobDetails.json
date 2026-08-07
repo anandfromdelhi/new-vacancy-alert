@@ -1,4 +1,184 @@
 {
+  "jssc-jilcce-recruitment-2026": {
+    "id": "jssc-jilcce-recruitment-2026",
+    "seoTitle": "JSSC JILCCE Recruitment 2026 (326 Posts) Apply Online | NewVacancyAlert",
+    "seoDescription": "JSSC Jharkhand Intermediate Level Combined Competitive Exam 2026 (JILCCE-2026) Advt 03/2026 for 326 posts. Check post-wise eligibility, pay scale, age limit, syllabus & apply online link.",
+    "focusKeywords": "JSSC JILCCE Recruitment 2026, Jharkhand Intermediate Level Exam 2026, JSSC Advt 03/2026 Online Form, JILCCE 326 Posts Eligibility Syllabus",
+    "lsiKeywords": "JSSC Health Supervisor Vacancy, JSSC Junior Regional Inspector Salary, JSSC Multipurpose Health Worker Online Form, JILCCE Exam Pattern Paper 1 2 3 Syllabus, jssc.jharkhand.gov.in online apply",
+    "title": "JSSC JILCCE 2026 Notification Out for 326 Posts of Health Supervisor, Junior Regional Inspector & Other Vacancies",
+    "board": "Jharkhand Staff Selection Commission (JSSC)",
+    "advtNo": "03/2026 (JILCCE-2026 Regular Vacancy)",
+    "vacancies": 326,
+    "jobLocation": "Jharkhand",
+    "applicationMode": "Online via JSSC Portal (jssc.jharkhand.gov.in)",
+    "applicationStatus": "Active - Apply Online Starts 20 July 2026",
+    "lastUpdated": "2026-08-07",
+    "overview": [
+      "Jharkhand Staff Selection Commission (JSSC) has published the official notification for Jharkhand Intermediate Level Combined Competitive Examination 2026 (JILCCE-2026) vide Advertisement No. 03/2026.",
+      "A total of 326 regular vacancies are announced across 6 distinct posts including Swasthya Paravekshak (Health Supervisor), Kaniyo Kshetriya Anveshak (Junior Regional Inspector), Bahuuddeshiya Swasthya Karyakarta (Multipurpose Health Worker), Veterinary Assistant, Insect Collector, and Fisheries Technical Assistant.",
+      "The selection will be based on a two-stage examination process (Preliminary Exam if applicants exceed 50,000, followed by Mains Written Exam consisting of Paper 1, Paper 2, and Paper 3).",
+      "Online registration starts on 20 July 2026 and closes on 19 August 2026 midnight on the official commission website www.jssc.jharkhand.gov.in."
+    ],
+    "highlights": [
+      { "label": "Recruiting Commission", "value": "Jharkhand Staff Selection Commission (JSSC)" },
+      { "label": "Exam Name", "value": "Jharkhand Intermediate Level Combined Competitive Exam 2026 (JILCCE-2026)" },
+      { "label": "Advertisement No.", "value": "03/2026 (Regular Vacancy)" },
+      { "label": "Total Vacancies", "value": "326 Posts" },
+      { "label": "Educational Qualification", "value": "10+2 (Intermediate) with Science / Math / Biology" },
+      { "label": "Age Limit (Minimum)", "value": "18 Years (as on post-specific reference dates)" },
+      { "label": "Application Fee", "value": "₹100/- (General/OBC/EWS), ₹50/- (SC/ST of Jharkhand)" },
+      { "label": "Official Website", "value": "jssc.jharkhand.gov.in" }
+    ],
+    "importantDates": [
+      { "event": "Official Advertisement Release Date", "date": "02 January 2026" },
+      { "event": "Online Registration Start Date", "date": "20 July 2026" },
+      { "event": "Last Date for Online Registration & Application", "date": "19 August 2026 (Midnight)" },
+      { "event": "Last Date for Fee Payment, Photo & Signature Upload", "date": "20 August 2026 (Midnight)" },
+      { "event": "Online Application Correction Window", "date": "21 August 2026 to 23 August 2026 (Midnight)" },
+      { "event": "CBT / OMR Exam Date", "date": "To be notified by JSSC" }
+    ],
+    "applicationFee": {
+      "details": "Application fee is non-refundable. Jharkhand PwD candidates (40% or higher disability) are completely exempt from fee payment.",
+      "breakdown": [
+        { "category": "Unreserved (UR) / EWS / EBC-I / BC-II Candidates", "amount": "₹100.00" },
+        { "category": "SC / ST Candidates residing natively in Jharkhand State", "amount": "₹50.00" },
+        { "category": "Divyang (PwD) Candidates of Jharkhand (≥ 40% Disability)", "amount": "Exempted (₹0.00)" }
+      ]
+    },
+    "vacanciesDetails": [
+      { "category": "Health Supervisor (Health Directorate) - Total", "count": 137 },
+      { "category": "Health Supervisor - UR", "count": 57 },
+      { "category": "Health Supervisor - ST (including 1 Primitive Tribe)", "count": 43 },
+      { "category": "Health Supervisor - SC", "count": 16 },
+      { "category": "Health Supervisor - EBC-I", "count": 8 },
+      { "category": "Health Supervisor - BC-II", "count": 0 },
+      { "category": "Health Supervisor - EWS", "count": 13 },
+      { "category": "Junior Regional Inspector (Planning & Dev / Economics & Stats) - Total", "count": 27 },
+      { "category": "Junior Regional Inspector - UR", "count": 12 },
+      { "category": "Junior Regional Inspector - ST", "count": 4 },
+      { "category": "Junior Regional Inspector - SC", "count": 3 },
+      { "category": "Junior Regional Inspector - EBC-I", "count": 3 },
+      { "category": "Junior Regional Inspector - BC-II", "count": 3 },
+      { "category": "Junior Regional Inspector - EWS", "count": 2 },
+      { "category": "Multipurpose Health Worker (Health & Family Welfare) - Total", "count": 62 },
+      { "category": "Multipurpose Health Worker - UR", "count": 35 },
+      { "category": "Multipurpose Health Worker - ST", "count": 14 },
+      { "category": "Multipurpose Health Worker - SC", "count": 7 },
+      { "category": "Multipurpose Health Worker - EWS", "count": 6 },
+      { "category": "Veterinary / Medical Assistant (Urban Dev & Housing Dept) - Total", "count": 27 },
+      { "category": "Veterinary Assistant - UR", "count": 12 },
+      { "category": "Veterinary Assistant - ST", "count": 7 },
+      { "category": "Veterinary Assistant - SC", "count": 3 },
+      { "category": "Veterinary Assistant - EBC-I", "count": 2 },
+      { "category": "Veterinary Assistant - BC-II", "count": 1 },
+      { "category": "Veterinary Assistant - EWS", "count": 2 },
+      { "category": "Insect Collector (Health Directorate) - Total", "count": 32 },
+      { "category": "Insect Collector - UR", "count": 15 },
+      { "category": "Insect Collector - ST", "count": 6 },
+      { "category": "Insect Collector - SC", "count": 3 },
+      { "category": "Insect Collector - EBC-I", "count": 3 },
+      { "category": "Insect Collector - BC-II", "count": 2 },
+      { "category": "Insect Collector - EWS", "count": 3 },
+      { "category": "Fisheries Technical Assistant (Agri, Animal Husbandry & Coop) - Total", "count": 41 },
+      { "category": "Fisheries Technical Assistant - UR", "count": 17 },
+      { "category": "Fisheries Technical Assistant - ST", "count": 10 },
+      { "category": "Fisheries Technical Assistant - SC", "count": 4 },
+      { "category": "Fisheries Technical Assistant - EBC-I", "count": 3 },
+      { "category": "Fisheries Technical Assistant - BC-II", "count": 3 },
+      { "category": "Fisheries Technical Assistant - EWS", "count": 4 }
+    ],
+    "eligibility": {
+      "education": [
+        "1. Health Supervisor (Lok Swasthya Nideshalaya): 10+2 / Intermediate passed with Science or I.Sc. from a recognized Board/Institution.",
+        "2. Junior Regional Inspector (Kaniyo Kshetriya Anveshak): Intermediate / 10+2 passed with Mathematics from a recognized Board/Institution.",
+        "3. Multipurpose Health Worker (Bahuuddeshiya Swasthya Karyakarta): 10+2 / Intermediate passed with Science or I.Sc. from a recognized Board/Institution.",
+        "4. Veterinary Assistant / Medical Assistant: Intermediate with Biology / Life Science from a recognized University / College / Board.",
+        "5. Insect Collector (Keet Sangrahakarta): Intermediate / 10+2 passed with Biology / Life Science from a recognized Institution.",
+        "6. Fisheries Technical Assistant (Matasyaki Takniki Sahayak): Intermediate / 10+2 passed with Biology / Life Science from a recognized Board."
+      ],
+      "ageLimit": "Minimum age is 18 years for all posts as on specified calculation reference date. Maximum age limit varies from 35 to 40 years based on category.",
+      "ageRelaxation": [
+        { "category": "Unreserved (UR) & EWS (Male & Female)", "relaxation": "35 Years Maximum Age" },
+        { "category": "Extremely Backward Class (EBC-I) & Backward Class (BC-II) Male", "relaxation": "37 Years Maximum Age" },
+        { "category": "UR / EWS / EBC-I / BC-II Female Candidates", "relaxation": "38 Years Maximum Age" },
+        { "category": "SC / ST Candidates (Male & Female)", "relaxation": "40 Years Maximum Age" },
+        { "category": "Divyang (PwD) Candidates (All Categories)", "relaxation": "10 Years Additional Age Relaxation" },
+        { "category": "Ex-Servicemen Candidates", "relaxation": "5 Years Additional Age Relaxation" }
+      ],
+      "medicalStandards": [
+        "Age calculation reference dates per post: Health Supervisor (01-08-2023), Junior Regional Inspector (01-08-2025), Multipurpose Health Worker (01-08-2023), Veterinary Assistant (01-08-2023), Insect Collector (01-08-2024), Fisheries Technical Assistant (01-08-2024).",
+        "Sports Quota reservation admissible under Class 'C' posts for medal winners / record holders as per Jharkhand Govt Resolution No. 1709."
+      ]
+    },
+    "salary": {
+      "payLevel": "Post-wise Revised 7th Pay Matrix Scale",
+      "initialPay": "Pay Level 1 to Level 4 (₹18,000 – ₹81,100)",
+      "allowances": [
+        "Health Supervisor: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹2,400.",
+        "Junior Regional Inspector: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹2,000.",
+        "Multipurpose Health Worker: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹1,900.",
+        "Veterinary Assistant: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹1,900.",
+        "Insect Collector: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹1,800.",
+        "Fisheries Technical Assistant: Pay Band PB-I (₹5,200 - 20,200) Grade Pay ₹1,800.",
+        "Standard allowances (DA, HRA, Medical, Transport) applicable under Jharkhand State Govt Rules."
+      ]
+    },
+    "selectionProcess": [
+      "1. Preliminary Examination (if total applications exceed 50,000): 120 Objective MCQs of 2 Hours duration. Subjects: General Studies (30 Qs), Jharkhand GK (60 Qs), General Math (10 Qs), General Science (10 Qs), Reasoning (10 Qs). Qualifying in nature.",
+      "2. Mains Written Examination (3 Papers of 2 Hours each):",
+      "   - Paper 1 (Language Knowledge): Hindi (60 Qs) + English (60 Qs) = 120 Questions. Qualifying nature (Minimum 30% required, marks not added to merit list).",
+      "   - Paper 2 (Regional / Tribal Language): 100 MCQs in chosen regional language (Hindi, English, Urdu, Santhali, Bengali, Mundari, Ho, Khadia, Kudukh, Kurmali, Khortha, Nagpuri, Panchpargania, Odia, Sanskrit). Min 30% required.",
+      "3. Paper 3 (General Knowledge): 120 Questions (General Studies 30 Qs, Jharkhand GK 40 Qs, General Science 20 Qs, General Math 10 Qs, Reasoning 10 Qs, Computer Basics 10 Qs). Min 30% required.",
+      "4. Final Merit List Preparation: Based on consolidated combined marks of Paper 2 + Paper 3 (Equal marks resolved by Age & English Name Spelling).",
+      "5. Document Verification (DV) & Medical Scrutiny."
+    ],
+    "howToApplySteps": [
+      "Step 1: Visit the official portal of JSSC (jssc.jharkhand.gov.in).",
+      "Step 2: Click on 'Online Application for JILCCE-2026' under active application links.",
+      "Step 3: Click 'New Registration' and enter candidate's name, DOB, mobile number, email, and Jharkhand residential status.",
+      "Step 4: Login with Registration Number and Password sent to registered mobile/email.",
+      "Step 5: Fill educational details, select post preferences in order of priority, and save application.",
+      "Step 6: Pay the examination fee (₹100 / ₹50) on the next day via SBI Collect payment portal.",
+      "Step 7: Upload scanned passport-size photograph and full signature, then submit and print the application form."
+    ],
+    "documentsRequired": [
+      "Matriculation / 10th Certificate (Age Proof).",
+      "10+2 / Intermediate Marksheet & Pass Certificate.",
+      "Jharkhand Local Resident Certificate (SDO level post 02.06.2016 or CO level post 19.07.2019).",
+      "Category / Caste Certificate for SC/ST/EBC-I/BC-II (SDO/CO level in prescribed H.P./Jharkhand format).",
+      "Non-Creamy Layer (NCL) Self-Declaration (Form XV) for OBC candidates if certificate expired.",
+      "EWS Income & Asset Certificate (issued by SDO/CO).",
+      "Divyangjan (PwD) Disability Certificate (Min 40% disability issued by Civil Surgeon/Medical Board).",
+      "Scanned Photograph & Signature."
+    ],
+    "officialLinks": [
+      { "label": "Official JSSC Recruitment Portal", "url": "https://jssc.jharkhand.gov.in" },
+      { "label": "JSSC JILCCE 2026 Official Notification PDF (Advt 03/2026)", "url": "https://jssc.jharkhand.gov.in" },
+      { "label": "Jharkhand Government Official Portal", "url": "https://jharkhand.gov.in" }
+    ],
+    "faqs": [
+      {
+        "question": "What is the total number of vacancies in JSSC JILCCE 2026 Recruitment?",
+        "answer": "A total of 326 regular vacancies are announced across 6 posts including Health Supervisor (137), Junior Regional Inspector (27), Multipurpose Health Worker (62), Veterinary Assistant (27), Insect Collector (32), and Fisheries Technical Assistant (41)."
+      },
+      {
+        "question": "What is the educational qualification required for JILCCE 2026?",
+        "answer": "Candidates must have passed 10+2 / Intermediate with Science / Math / Biology from a recognized Board or University depending on the specific post applied."
+      },
+      {
+        "question": "What are the key dates for JSSC JILCCE 2026 Online Application?",
+        "answer": "Online application starts on 20 July 2026 and the last date to register is 19 August 2026. The fee payment and photo upload window closes on 20 August 2026."
+      },
+      {
+        "question": "How is the final merit list calculated in JSSC JILCCE 2026?",
+        "answer": "The final merit list is prepared on the basis of total combined marks obtained in Paper 2 (Regional/Tribal Language - 100 Marks) and Paper 3 (General Knowledge - 120 Marks) of the Mains Exam. Paper 1 (Language Knowledge) is qualifying in nature."
+      },
+      {
+        "question": "What is the examination fee for JILCCE 2026?",
+        "answer": "₹100 for General / EWS / EBC-I / BC-II candidates and ₹50 for SC/ST candidates of Jharkhand state. PwD candidates (≥ 40% disability) are completely exempt."
+      }
+    ]
+  },
   "hppsc-hp-police-female-constable-recruitment-2026": {
     "id": "hppsc-hp-police-female-constable-recruitment-2026",
     "seoTitle": "HPPSC HP Police Female Constable Recruitment 2026 (243 Posts) Apply Online | NewVacancyAlert",
