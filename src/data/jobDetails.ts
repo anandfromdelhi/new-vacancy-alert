@@ -27041,6 +27041,78 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'What is the monthly salary for Specialist Doctors in SHS Bihar?', answer: 'Specialist Doctors with MD/MS/DNB receive ₹1,00,000/- to ₹1,20,000/- per month depending on posting location, while Diploma holders receive ₹90,000/- per month.' },
       { question: 'Is medical registration required for SHSB doctor recruitment?', answer: 'Yes, valid registration with Bihar Council of Medical Registration (BCMR Patna) or NMC/MCI is mandatory.' }
     ]
+  },
+  'ntpc-deputy-manager-recruitment-2026': {
+    id: 'ntpc-deputy-manager-recruitment-2026',
+    seoTitle: 'NTPC Deputy Manager Recruitment 2026 – Apply Online for 135 E4 Posts',
+    seoDescription: 'NTPC Limited invites online applications for 135 Deputy Manager posts in Mechanical, Electrical, and C&I. Pay Scale ₹70,000 - ₹2,00,000. Apply by 26 August 2026.',
+    focusKeywords: 'NTPC Deputy Manager Recruitment 2026, NTPC E4 Level Vacancy, NTPC Experienced Engineer Recruitment 2026',
+    lsiKeywords: 'NTPC Mechanical Deputy Manager, NTPC Electrical Deputy Manager, NTPC C&I Engineer Salary, careers.ntpc.co.in',
+    title: 'NTPC Deputy Manager Recruitment 2026 – Apply Online for 135 Vacancies',
+    board: 'NTPC Limited',
+    advtNo: '10/26',
+    vacancies: 135,
+    jobLocation: 'All India (NTPC Stations / Projects)',
+    applicationMode: 'Online',
+    applicationStatus: 'Upcoming',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'NTPC Limited, a Maharatna CPSE under the Ministry of Power, Government of India, has issued Advertisement No. 10/26 for recruitment of experienced engineering professionals as Deputy Managers at E4 grade.',
+      'A total of 135 vacancies are announced in Electrical, Mechanical, and Control & Instrumentation (C&I) disciplines across various NTPC project sites. Online registration opens on 12th August 2026 and closes on 26th August 2026.'
+    ],
+    highlights: [
+      { label: 'Recruiting Organization', value: 'NTPC Limited (A Maharatna CPSE)' },
+      { label: 'Advt Number', value: 'Advt. No. 10/26' },
+      { label: 'Post Name', value: 'Deputy Manager (E4 Level)' },
+      { label: 'Total Vacancies', value: '135 Posts' },
+      { label: 'Disciplines Offered', value: 'Mechanical (55), Electrical (40), C&I (40)' },
+      { label: 'Pay Scale', value: 'IDA Pay Scale ₹70,000 – ₹2,00,000 (E4 Grade)' },
+      { label: 'Application Mode', value: 'Online (careers.ntpc.co.in)' },
+      { label: 'Start Date to Apply', value: '12 August 2026' },
+      { label: 'Last Date to Apply', value: '26 August 2026' },
+      { label: 'Official Careers Site', value: 'https://careers.ntpc.co.in' }
+    ],
+    importantDates: [
+      { event: 'Short Notice Released', date: '06-08-2026' },
+      { event: 'Online Registration Start Date', date: '12-08-2026' },
+      { event: 'Last Date to Apply Online & Fee Payment', date: '26-08-2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Deputy Manager (Mechanical)', count: 55 },
+      { category: 'Deputy Manager (Electrical)', count: 40 },
+      { category: 'Deputy Manager (Control & Instrumentation - C&I)', count: 40 }
+    ],
+    eligibility: {
+      education: [
+        'Degree in Engineering (B.E / B.Tech / B.Sc Engg) in Mechanical / Production / Electrical / Electrical & Electronics / Instrumentation / Control & Instrumentation / Electronics & Telecommunication with minimum 60% aggregate marks from a recognized University / Institute.',
+        'Experience: Minimum 10 years of post-qualification executive work experience in power plant operation / maintenance / commissioning / erection / engineering.'
+      ],
+      ageLimit: 'Maximum age 40 years as on 26-08-2026. Age relaxation as per Govt of India guidelines: OBC (NCL) +3 yrs, SC/ST +5 yrs, PwBD +10 yrs, Ex-Servicemen as per rules.'
+    },
+    salary: {
+      payLevel: 'E4 Grade IDA Scale',
+      initialPay: '₹70,000 – ₹2,00,000 (Basic Pay ₹70,000/- plus Dearness Allowance, Perks, PRP, Medical Benefits, Provident Fund, Pension, and Accommodation).',
+      allowances: 'DA, HRA/Company accommodation, Cafeteria Perks @ 35% of Basic Pay, Medical facilities, and Performance Related Pay (PRP).'
+    },
+    applicationFee: [
+      { category: 'General / EWS / OBC Candidates', fee: '₹ 300/-', refund: 'Non-Refundable' },
+      { category: 'SC / ST / PwBD / XSM / Female Candidates', fee: 'Nil (Exempted)', refund: 'N/A' }
+    ],
+    howToPayFee: [
+      'Fee can be paid online via Net Banking, Debit Card, Credit Card, or UPI, or offline at SBI branch through pay-in slip generated from NTPC portal.'
+    ],
+    selectionProcess: [
+      { stage: 'Screening / Shortlisting', description: 'Shortlisting based on educational qualification marks and post-qualification experience.' },
+      { stage: 'Personal Interview', description: 'Shortlisted candidates will be invited for Personal Interview (and Written/Online Test if required by management).' }
+    ],
+    officialLinks: [
+      { label: 'NTPC Official Careers Portal', url: 'https://careers.ntpc.co.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for NTPC Deputy Manager recruitment 2026?', answer: 'The last date to submit online applications on the NTPC careers portal is 26th August 2026.' },
+      { question: 'What is the pay scale for Deputy Manager (E4 Level) in NTPC?', answer: 'The pay scale for E4 level Deputy Managers is ₹70,000 – ₹2,00,000 per month plus applicable allowances.' },
+      { question: 'What experience is required for NTPC Deputy Manager posts?', answer: 'Candidates must possess a minimum of 10 years post-qualification executive experience in relevant engineering fields.' }
+    ]
   }
 };
 

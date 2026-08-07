@@ -1434,5 +1434,16 @@ export const JOBS_DATA: JobEntry[] = [
     q: 'MBBS with MD / MS / DNB or Diploma in concerned specialty registered with NMC / Bihar Medical Council',
     desc: 'State Health Society Bihar (SHSB), National Health Mission invites online applications for 450 contractual Specialist Doctor posts including Gynaecologist (94), Paediatrician (115), Anaesthetist (132), MD Medicine (60), General Surgeon (27), and Orthopaedic Surgeon (22). Monthly honorarium ₹90,000 to ₹1,20,000. Apply online from 07 August to 21 August 2026.',
     u: 'https://shs.bihar.gov.in'
+  },
+  {
+    id: 'ntpc-deputy-manager-recruitment-2026',
+    b: 'NTPC Limited',
+    t: 'NTPC Deputy Manager Recruitment 2026 – Apply Online for 135 Vacancies in Electrical, Mechanical & C&I | E4 Pay Scale ₹70,000–₹2,00,000 | Last Date 26 August 2026',
+    d: '06-08-2026',
+    l: '26-08-2026',
+    a: '10/26',
+    q: 'B.E / B.Tech / B.Sc (Engg) in Electrical, Mechanical or Control & Instrumentation with min 60% marks + 10 Years Post-Qualification Experience',
+    desc: 'NTPC Limited, India’s premier power CPSE, invites online applications for 135 posts of Deputy Manager (E4 Grade) in Mechanical (55), Electrical (40), and Control & Instrumentation (40). Pay scale ₹70,000 - ₹2,00,000. Apply online from 12 August to 26 August 2026.',
+    u: 'https://careers.ntpc.co.in'
   }
 ];

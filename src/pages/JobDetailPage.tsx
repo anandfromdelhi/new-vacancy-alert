@@ -195,10 +195,18 @@ export default function JobDetailPage() {
   };
 
   const executeDownloadDvChecklist = () => {
-    if (!job?.documentsRequired) return;
+    if (!job) return;
+    const docs = job.documentsRequired || [
+      'Educational Certificates & Marksheets (Matriculation / Graduation / Post Graduation / Diploma)',
+      'Identity Proof (Aadhaar Card / PAN Card / Voter ID / Passport)',
+      'Category / Caste Certificate (OBC / SC / ST / EWS) if applicable',
+      'Disability Certificate (PwBD) / Ex-Servicemen Discharge Book if applicable',
+      'Recent Passport Size Photograph & Signature Scan',
+      'Work Experience Certificates (if applicable)'
+    ];
     const content = `DOCUMENT VERIFICATION CHECKLIST - ${job.title}\n${job.board}\n` +
       `--------------------------------------------------\n\n` +
-      job.documentsRequired.map((doc: string, idx: number) => `[  ] ${idx + 1}. ${doc}`).join('\n\n') +
+      docs.map((doc: string, idx: number) => `[  ] ${idx + 1}. ${doc}`).join('\n\n') +
       `\n\n--------------------------------------------------\nDownloaded from NewVacancyAlert.in`;
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob);
@@ -213,8 +221,50 @@ export default function JobDetailPage() {
     requireAuthForDownloadAction(
       executeDownloadDvChecklist,
       "Google Sign-In Required",
-      "Please sign in with Google to download the Document Verification Checklist."
+      "Please sign in with your Google Account to download the Document Verification Checklist."
     );
+  };
+
+  const jobSchema = {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": job?.title,
+    "description": job?.seoDescription || job?.overview?.join(' '),
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": job?.board,
+      "value": job?.advtNo || job?.id
+    },
+    "datePosted": job?.lastUpdated || "2026-08-01",
+    "validThrough": job?.importantDates?.find(d => d.event.toLowerCase().includes('last date'))?.date || "2026-12-31",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": job?.board,
+      "sameAs": "https://newvacancyalert.in",
+      "logo": "https://newvacancyalert.in/logo.png"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": job?.jobLocation || "India",
+        "addressCountry": "IN"
+      }
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": (job?.faqs || []).map(f => ({
+      "@type": "Question",
+      "name": f.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.answer
+      }
+    }))
   };
 
   useEffect(() => {
@@ -545,19 +595,6 @@ export default function JobDetailPage() {
         "url": "https://newvacancyalert.in/logo.png"
       }
     }
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": job.faqs.map(f => ({
-      "@type": "Question",
-      "name": f.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": f.answer
-      }
-    }))
   };
 
   const breadcrumbSchema = {
@@ -1688,7 +1725,7 @@ export default function JobDetailPage() {
                 Interview Evaluation Syllabus
               </h2>
               <div className="space-y-3 sm:space-y-4">
-                {job.syllabus.map((item, idx) => (
+                {(job.syllabus || []).map((item, idx) => (
                   <div key={idx} className="border border-slate-200 rounded-lg sm:rounded-xl overflow-hidden">
                     <div className="bg-slate-50 px-3.5 py-2.5 sm:px-5 sm:py-4 border-b border-slate-200">
                       <h4 className="font-black text-slate-800 text-xs sm:text-sm md:text-base">{item.section}</h4>
@@ -1828,7 +1865,14 @@ export default function JobDetailPage() {
                   <UploadCloud className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Documents Required Checklist
                 </h3>
                 <ul className="space-y-2.5 sm:space-y-3">
-                  {job.documentsRequired.map((doc, idx) => (
+                  {(job.documentsRequired || [
+                    'Educational Certificates & Marksheets (Matriculation / Graduation / Post Graduation / Diploma)',
+                    'Identity Proof (Aadhaar Card / PAN Card / Voter ID / Passport)',
+                    'Category / Caste Certificate (OBC / SC / ST / EWS) if applicable',
+                    'Disability Certificate (PwBD) / Ex-Servicemen Discharge Book if applicable',
+                    'Recent Passport Size Photograph & Signature Scan',
+                    'Work Experience Certificates (if applicable)'
+                  ]).map((doc, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-justify">
                       <CheckCircle2 className="h-4 w-4 sm:h-4.5 sm:w-4.5 text-emerald-500 mt-0.5 shrink-0" />
                       <span className="text-[11px] sm:text-xs md:text-sm font-semibold text-slate-600 leading-relaxed">{doc}</span>
@@ -1848,7 +1892,11 @@ export default function JobDetailPage() {
                   <AlertCircle className="h-4 w-4 sm:h-5 sm:w-5 text-rose-500" /> Important Instructions
                 </h3>
                 <div className="space-y-2.5 sm:space-y-3">
-                  {job.importantInstructions.map((inst, idx) => {
+                  {(job.importantInstructions || [
+                    'Ensure all details entered in the application form are correct before final submission.',
+                    'Applications submitted after the last date or through unauthorized modes will not be accepted.',
+                    'Candidates must maintain a valid email ID and mobile number throughout the recruitment process.'
+                  ]).map((inst, idx) => {
                     const isBanned = inst.includes('liable to be rejected') || inst.includes('NOT') || inst.includes('Wrong');
                     return (
                       <div 
@@ -2032,7 +2080,7 @@ export default function JobDetailPage() {
               <LinkIcon className="h-4.5 w-4.5 text-blue-600" /> Official Links
             </h3>
             <div className="flex flex-col gap-2">
-              {job.urls.map((link, idx) => (
+              {(job.officialLinks || job.urls || []).map((link, idx) => (
                 <a 
                   key={idx}
                   href={link.url}
