@@ -60,6 +60,86 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'indian-army-ssc-tech-68-men-recruitment-2026': {
+    id: 'indian-army-ssc-tech-68-men-recruitment-2026',
+    seoTitle: 'Indian Army SSC Tech 68 Men Recruitment 2026 – Apply Online for 350 Posts',
+    seoDescription: 'Indian Army 68th SSC Tech (Men) Course April 2027 recruitment notification for 350 posts. Check eligibility, age limit, salary, and apply online at joinindianarmy.nic.in.',
+    focusKeywords: 'Indian Army SSC Tech 68 Men, Indian Army Recruitment 2026, OTA Gaya April 2027',
+    lsiKeywords: 'Short Service Commission Technical, Join Indian Army, OTA Gaya, Engineering Officer Army',
+    title: 'Indian Army 68th SSC Tech (Men) Course April 2027 – Apply Online for 350 Technical Officer Posts',
+    board: 'Indian Army',
+    advtNo: 'SSC(T)-68 Men (Apr 2027)',
+    vacancies: 350,
+    jobLocation: 'Across India / OTA Gaya, Bihar',
+    applicationMode: 'Online',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'Indian Army has released recruitment notification for 350 vacancies in 68th Short Service Commission (Technical) Men Course commencing in April 2027 at Officers Training Academy (OTA), Gaya, Bihar.',
+      'Unmarried male engineering graduates and final year engineering students in notified streams aged between 20 and 27 years are eligible to apply online at joinindianarmy.nic.in.'
+    ],
+    highlights: [
+      { label: 'Organization', value: 'Indian Army' },
+      { label: 'Entry Type', value: 'Short Service Commission (Technical) – SSC(T)-68 Men' },
+      { label: 'Total Vacancies', value: '350 Posts (Tentative)' },
+      { label: 'Training Academy', value: 'Officers Training Academy (OTA), Gaya, Bihar' },
+      { label: 'Course Commencement', value: 'April 2027' },
+      { label: 'Application Mode', value: 'Online (www.joinindianarmy.nic.in)' }
+    ],
+    importantDates: [
+      { event: 'Online Application Start Date', date: '09-07-2026 (15:00 Hrs)' },
+      { event: 'Online Application Last Date', date: '07-08-2026 (15:00 Hrs)' },
+      { event: 'Shortlisting Cut-off Publication', date: 'September 2026' },
+      { event: 'SSB Interview Period', date: 'October to December 2026' },
+      { event: 'Course Commencement at OTA Gaya', date: 'April 2027' }
+    ],
+    vacanciesDetails: [
+      { category: 'Civil Engineering', count: 75 },
+      { category: 'Computer Science & Engineering', count: 60 },
+      { category: 'Electrical Engineering', count: 33 },
+      { category: 'Electronics Engineering', count: 64 },
+      { category: 'Mechanical Engineering', count: 101 },
+      { category: 'Miscellaneous Engineering Streams', count: 17 }
+    ],
+    eligibility: {
+      education: [
+        'Engineering Degree (B.E / B.Tech) in notified engineering streams from a recognized University/Institute.',
+        'Candidates in final year of Engineering Degree course are also eligible to apply, provided they pass all exams prior to commencement of training.'
+      ],
+      ageLimit: '20 to 27 years as on 01 April 2027 (Born between 02 April 2000 and 01 April 2007, both dates inclusive).'
+    },
+    salary: {
+      payLevel: 'Level 10 (Lieutenant)',
+      initialPay: '₹56,100 per month',
+      allowances: 'Military Service Pay (MSP): ₹15,500 pm | Stipend during training: ₹56,100 pm | CTC approx ₹17-18 Lakh per annum'
+    },
+    applicationFee: [
+      { category: 'All Candidates (Unmarried Male)', fee: 'Nil (Free)', refund: 'N/A' }
+    ],
+    selectionProcess: [
+      { stage: 'Stage 1: Shortlisting', description: 'Applications shortlisted based on cumulative percentage of marks up to 6th semester of B.E/B.Tech degree.' },
+      { stage: 'Stage 2: SSB Interview', description: '5-Day SSB Interview process at Selection Centres (Prayagraj, Bhopal, Bengaluru, Jalandhar).' },
+      { stage: 'Stage 3: Medical Examination', description: 'Comprehensive medical fitness test for SSB recommended candidates.' },
+      { stage: 'Stage 4: Final Merit List', description: 'Merit list prepared strictly on the basis of marks obtained in SSB interview.' }
+    ],
+    howToApply: [
+      'Visit the official Indian Army portal at www.joinindianarmy.nic.in.',
+      'Click on Officers Entry Apply/Login and complete registration.',
+      'Log in with registered credentials and navigate to SSC(T)-68 Men Course.',
+      'Fill in personal, educational, and engineering stream details accurately.',
+      'Upload required documents like photo, signature, and semester marksheets.',
+      'Submit the online application before 07-08-2026 (15:00 Hrs) and save printout for reference.'
+    ],
+    urls: [
+      { label: 'Apply Online Portal', url: 'https://www.joinindianarmy.nic.in' },
+      { label: 'Official Notification PDF', url: 'https://www.joinindianarmy.nic.in/writereaddata/Portal/NotificationPDF/Combined_Notificatin_SSC_T_-68.pdf' },
+      { label: 'Official Website', url: 'https://www.joinindianarmy.nic.in' }
+    ],
+    officialLinks: [
+      { label: 'Apply Online Portal', url: 'https://www.joinindianarmy.nic.in' },
+      { label: 'Official Notification PDF', url: 'https://www.joinindianarmy.nic.in/writereaddata/Portal/NotificationPDF/Combined_Notificatin_SSC_T_-68.pdf' },
+      { label: 'Official Website', url: 'https://www.joinindianarmy.nic.in' }
+    ]
+  },
   'dgft-mumbai-young-professional-recruitment-2026': {
     id: 'dgft-mumbai-young-professional-recruitment-2026',
     seoTitle: 'DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional Posts',
