@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'hppsc-hp-police-female-constable-recruitment-2026',
+    b: 'Himachal Pradesh Public Service Commission (HPPSC) / HP Police Department',
+    t: 'HPPSC HP Police Female Constable Recruitment 2026 – Apply Online for 243 Female Constable Vacancies | Pay Level-3 (₹20,200-64,000) | 12th Pass Eligible | Online Registration',
+    d: '07-08-2026',
+    l: '31-08-2026',
+    a: 'Advt No. 58/7-2026 Dated 10.07.2026',
+    q: 'Passed 10+2 (Class 12th) from Recognized Board / School in HP (Bonafide Himachali Exempted)',
+    desc: 'Himachal Pradesh Public Service Commission (HPPSC) invites online applications from eligible female candidates for 243 posts of Constables (Female) Class-III (Non-Gazetted) in HP Police Department. Pay Level-3 (₹20,200-64,000). Candidates with 10+2 qualification aged 18-25 years (relaxation for SC/ST/OBC/HG) can apply online on hppsc.hp.gov.in.',
+    u: 'http://www.hppsc.hp.gov.in/hppsc'
+  },
+  {
     id: 'hppsc-hp-police-constable-recruitment-2026',
     b: 'Himachal Pradesh Public Service Commission (HPPSC) / HP Police Department',
     t: 'HPPSC HP Police Constable Recruitment 2026 – Apply Online for 491 Male Constable Vacancies | Pay Level-3 (₹20,200-64,000) | 12th Pass Eligible | Online Registration',
