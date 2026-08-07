@@ -1423,5 +1423,16 @@ export const JOBS_DATA: JobEntry[] = [
     q: 'Graduation in any discipline / First Class Degree / B.Com 55% / Post Graduate + Telugu Proficiency & Computer Knowledge',
     desc: 'Andhra Pradesh State Co-operative Bank (APCOB) and District Co-operative Central Banks (Chittoor, Kadapa, Nellore, Prakasam, Vizianagaram DCCBs) invite online applications for 338 vacancies of Staff Assistant and Assistant Manager (Scale-I). Age 20 to 30 years. Selection through online exam. Apply online by 07 August 2026.',
     u: 'https://apcob.bank.in'
+  },
+  {
+    id: 'shs-bihar-specialist-doctor-recruitment-2026',
+    b: 'State Health Society Bihar (SHSB), NHM Bihar',
+    t: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Vacancies (Gynaecologist, Paediatrician, Anaesthetist, Physician, Surgeons) | Honorarium up to ₹1,20,000/pm | Last Date 21 August 2026',
+    d: '06-08-2026',
+    l: '21-08-2026',
+    a: '03/2026',
+    q: 'MBBS with MD / MS / DNB or Diploma in concerned specialty registered with NMC / Bihar Medical Council',
+    desc: 'State Health Society Bihar (SHSB), National Health Mission invites online applications for 450 contractual Specialist Doctor posts including Gynaecologist (94), Paediatrician (115), Anaesthetist (132), MD Medicine (60), General Surgeon (27), and Orthopaedic Surgeon (22). Monthly honorarium ₹90,000 to ₹1,20,000. Apply online from 07 August to 21 August 2026.',
+    u: 'https://shs.bihar.gov.in'
   }
 ];

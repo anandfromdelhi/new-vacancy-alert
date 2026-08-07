@@ -26959,6 +26959,88 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { question: 'Is knowledge of Telugu mandatory for APCOB Staff Assistant posts?', answer: 'Yes, proficiency in local Telugu language is mandatory for candidates applying for DCCB posts in Andhra Pradesh.' },
       { question: 'What is the application fee for SC/ST candidates?', answer: 'SC, ST, PwBD, and Ex-Servicemen candidates pay ₹590/- (inclusive of GST).' }
     ]
+  },
+  'shs-bihar-specialist-doctor-recruitment-2026': {
+    id: 'shs-bihar-specialist-doctor-recruitment-2026',
+    seoTitle: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Doctor Posts',
+    seoDescription: 'State Health Society Bihar (SHSB) invites online applications for 450 Specialist Doctor vacancies (Gynaecologist, Paediatrician, Anaesthetist, Surgeon, Physician). Apply by 21 August 2026.',
+    focusKeywords: 'SHS Bihar Specialist Doctor Recruitment 2026, SHSB Specialist Doctor Vacancy, Bihar NHM Doctor Jobs 2026',
+    lsiKeywords: 'SHS Bihar Online Application 2026, State Health Society Bihar Doctor Salary, Bihar Medical Officer Vacancy, shs.bihar.gov.in recruitment',
+    title: 'SHS Bihar Specialist Doctor Recruitment 2026 – Apply Online for 450 Vacancies',
+    board: 'State Health Society Bihar (SHSB), NHM Bihar',
+    advtNo: '03/2026',
+    vacancies: 450,
+    jobLocation: 'Bihar',
+    applicationMode: 'Online',
+    applicationStatus: 'Active',
+    lastUpdated: '06-08-2026',
+    overview: [
+      'The State Health Society Bihar (SHSB), under the National Health Mission (NHM), Government of Bihar, has issued Advertisement No. 03/2026 for the recruitment of 450 Specialist Doctors on a contractual basis initially for 11 months.',
+      'Positions are available across six major medical specialties: Obstetrician & Gynaecologist, Paediatrician, Anaesthetist, MD Medicine / Physician, General Surgeon, and Orthopaedic Surgeon. Eligible candidates with MBBS and MD/MS/DNB or Diploma in concerned field can apply online from 7th August 2026 to 21st August 2026 (6:00 PM).'
+    ],
+    highlights: [
+      { label: 'Recruiting Authority', value: 'State Health Society Bihar (SHSB), Govt of Bihar' },
+      { label: 'Advt Number', value: 'Advt No. 03/2026' },
+      { label: 'Total Vacancies', value: '450 Posts' },
+      { label: 'Name of Posts', value: 'Specialist Doctors (6 Specialties)' },
+      { label: 'Monthly Honorarium', value: '₹90,000/- to ₹1,20,000/- per month' },
+      { label: 'Job Nature', value: 'Contractual (Initially 11 months, extendable)' },
+      { label: 'Application Mode', value: 'Online (shs.bihar.gov.in)' },
+      { label: 'Start Date to Apply', value: '07 August 2026 (10:00 AM)' },
+      { label: 'Last Date to Apply', value: '21 August 2026 (06:00 PM)' },
+      { label: 'Official Portal', value: 'https://shs.bihar.gov.in' }
+    ],
+    importantDates: [
+      { event: 'Official Notification Date', date: '06-08-2026' },
+      { event: 'Online Application Start Date', date: '07-08-2026 (10:00 AM)' },
+      { event: 'Last Date for Submission of Online Application', date: '21-08-2026 (06:00 PM)' },
+      { event: 'Cut-off Date for Age & Educational Eligibility', date: '01-08-2026' },
+      { event: 'Document Verification / Counselling (Tentative)', date: 'September 2026' }
+    ],
+    vacanciesDetails: [
+      { category: 'Obstetrician and Gynaecologist', count: 94 },
+      { category: 'Paediatrician', count: 115 },
+      { category: 'Anaesthetist', count: 132 },
+      { category: 'MD Medicine / Physician', count: 60 },
+      { category: 'General Surgeon', count: 27 },
+      { category: 'Orthopaedic Surgeon', count: 22 }
+    ],
+    eligibility: {
+      education: [
+        'Obstetrician & Gynaecologist: MD/MS/DNB in Obstetrics & Gynaecology OR DGO (Diploma in Gynaecology & Obstetrics).',
+        'Paediatrician: MD/DNB in Paediatrics OR Diploma in Child Health (DCH).',
+        'Anaesthetist: MD/DNB in Anaesthesia OR Diploma in Anaesthesia (DA).',
+        'MD Medicine / Physician: MD/DNB in General Medicine.',
+        'General Surgeon: MS/DNB in General Surgery.',
+        'Orthopaedic Surgeon: MBBS with MS-Ortho/DNB in Orthopaedics OR D.Ortho.',
+        'Registration: Candidate must be permanently registered with Bihar Council of Medical Registration (BCMR Patna) or Medical Council of India (MCI) / National Medical Commission (NMC).'
+      ],
+      ageLimit: 'As on 01-08-2026: UR/EWS Male (Max 37 yrs), UR/EWS Female & BC/EBC Male/Female (Max 40 yrs), SC/ST Male/Female (Max 42 yrs). PwBD candidates get 10 years additional age relaxation.'
+    },
+    salary: {
+      payLevel: 'NHM Contractual Consolidated Honorarium',
+      initialPay: 'MD/MS/DNB Degree Holders: ₹1,00,000/- per month (District HQ) or ₹1,20,000/- per month (Non-District HQ). Diploma Holders: ₹90,000/- per month.',
+      allowances: 'Fixed consolidated monthly honorarium under National Health Mission Bihar rules.'
+    },
+    applicationFee: [
+      { category: 'UR / EWS / BC / EBC Male Candidates', fee: '₹ 500/-', refund: 'Non-Refundable' },
+      { category: 'All Female Candidates / SC / ST / PwBD Candidates', fee: '₹ 250/-', refund: 'Non-Refundable' }
+    ],
+    howToPayFee: [
+      'Application fee must be paid online via Net Banking, Credit Card, Debit Card, or UPI on the official SHSB portal.'
+    ],
+    selectionProcess: [
+      { stage: 'Academic Merit Evaluation', description: 'Selection is based on 100 marks weightage: MBBS examination percentage (Max 60 marks) + PG Degree MD/MS/DNB (40 marks) OR PG Diploma (30 marks).' },
+      { stage: 'Document Verification & Counselling', description: 'Candidates shortlisted based on academic merit score will be called for counseling and original certificate verification in Patna.' }
+    ],
+    officialLinks: [
+      { label: 'State Health Society Bihar Official Portal', url: 'https://shs.bihar.gov.in' }
+    ],
+    faqs: [
+      { question: 'What is the last date to apply online for SHS Bihar Specialist Doctor Recruitment 2026?', answer: 'The last date to submit online applications is 21st August 2026 up to 6:00 PM.' },
+      { question: 'What is the monthly salary for Specialist Doctors in SHS Bihar?', answer: 'Specialist Doctors with MD/MS/DNB receive ₹1,00,000/- to ₹1,20,000/- per month depending on posting location, while Diploma holders receive ₹90,000/- per month.' },
+      { question: 'Is medical registration required for SHSB doctor recruitment?', answer: 'Yes, valid registration with Bihar Council of Medical Registration (BCMR Patna) or NMC/MCI is mandatory.' }
+    ]
   }
 };
 
