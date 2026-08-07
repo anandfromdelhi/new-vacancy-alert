@@ -50,11 +50,13 @@ export interface JobDetail {
     title?: string;
     details: string;
   };
-  howToApply: string[];
-  documentsRequired: string[];
-  importantInstructions: string[];
-  urls: { label: string; url: string }[];
-  faqs: { question: string; answer: string }[];
+  howToApply?: string[];
+  documentsRequired?: string[];
+  importantInstructions?: string[];
+  urls?: { label: string; url: string }[];
+  officialLinks?: { label: string; url: string }[];
+  u?: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
@@ -3075,6 +3077,7 @@ export const jobDetailsData: Record<string, JobDetail> = {
         'Passed 10+2 (Intermediate) from a recognized Board.',
         'Knowledge of Hindi up to Matric Standard.'
       ],
+      ageLimit: 'As per Haryana Government Service Rules (Upper age limit up to 42 Years, with applicable relaxation as per Govt rules).',
       experience: [
         'Must be holding analogous posts in Ministries / Departments / Organisations / Offices under Govt. of Haryana on regular basis.',
         'Good ACR/Integrity Certificate record for the previous ten years with no adverse remarks or pending chargesheet/enquiry.'
@@ -26623,6 +26626,11 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { stage: 'Screening & Shortlisting', description: 'Applications will be shortlisted and screened based on UGC Regulations 2018 guidelines and university shortlisting criteria.' },
       { stage: 'Interview & Seminar Presentation', description: 'Shortlisted candidates will be invited for Personal Interview and teaching / research seminar presentation.' }
     ],
+    urls: [
+      { label: 'CUH Official Recruitment Portal', url: 'https://www.cuh.ac.in' },
+      { label: 'Download Notification PDF (CUH/02/R/T/2026)', url: 'https://www.cuh.ac.in' },
+      { label: 'Download Notification PDF (CUH/03/R/T/2026)', url: 'https://www.cuh.ac.in' }
+    ],
     officialLinks: [
       { label: 'CUH Official Recruitment Portal', url: 'https://www.cuh.ac.in' },
       { label: 'Download Notification PDF (CUH/02/R/T/2026)', url: 'https://www.cuh.ac.in' },
@@ -26719,6 +26727,10 @@ export const jobDetailsData: Record<string, JobDetail> = {
     selectionProcess: [
       { stage: 'Direct Interview', description: 'For GATE qualified / M.Tech IIT/NIT candidates.' },
       { stage: 'Written Test & Interview', description: 'For non-GATE B.E/B.Tech candidates, shortlisting via written exam (GATE pattern syllabus with negative marking) followed by interview.' }
+    ],
+    urls: [
+      { label: 'ADA Official Website', url: 'https://ada.gov.in' },
+      { label: 'Download Official Notification PDF (ADVT-138)', url: 'https://ada.gov.in' }
     ],
     officialLinks: [
       { label: 'ADA Official Website', url: 'https://ada.gov.in' },
@@ -26827,6 +26839,10 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { stage: 'Registration & Document Verification', description: 'Candidates must report at CSIR-NAL between 9:00 AM and 9:45 AM on their discipline walk-in date with application form and original certificates.' },
       { stage: 'Personal Interview', description: 'Walk-in interview on the same day by the Selection Committee.' }
     ],
+    urls: [
+      { label: 'CSIR-NAL Official Website', url: 'https://www.nal.res.in' },
+      { label: 'Download Walk-in Advertisement PDF (13/2026/PS)', url: 'https://www.nal.res.in' }
+    ],
     officialLinks: [
       { label: 'CSIR-NAL Official Website', url: 'https://www.nal.res.in' },
       { label: 'Download Walk-in Advertisement PDF (13/2026/PS)', url: 'https://www.nal.res.in' }
@@ -26919,6 +26935,9 @@ export const jobDetailsData: Record<string, JobDetail> = {
     selectionProcess: [
       { stage: 'Screening / Shortlisting', description: 'Shortlisting based on educational qualification marks and post-qualification experience.' },
       { stage: 'Personal Interview', description: 'Shortlisted candidates will be invited for Personal Interview (and Written/Online Test if required by management).' }
+    ],
+    urls: [
+      { label: 'NTPC Official Careers Portal', url: 'https://careers.ntpc.co.in' }
     ],
     officialLinks: [
       { label: 'NTPC Official Careers Portal', url: 'https://careers.ntpc.co.in' }
@@ -27023,6 +27042,10 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { stage: 'Online Application Screening', description: 'Screening of applications based on educational qualification, UIDAI certificate validity, and local district residency.' },
       { stage: 'Document Verification & Skill Assessment', description: 'Verification of original certificates, UIDAI credentials, and practical assessment on Aadhaar enrollment software.' }
     ],
+    urls: [
+      { label: 'CSC Official Careers Portal', url: 'https://career.csccloud.in' },
+      { label: 'CSC e-Governance Main Portal', url: 'https://csc.gov.in' }
+    ],
     officialLinks: [
       { label: 'CSC Official Careers Portal', url: 'https://career.csccloud.in' },
       { label: 'CSC e-Governance Main Portal', url: 'https://csc.gov.in' }
@@ -27116,6 +27139,10 @@ export const jobDetailsData: Record<string, JobDetail> = {
     selectionProcess: [
       { stage: 'Competitive Written Examination', description: 'KEA Competitive Offline OMR Examination testing General Knowledge, Mathematics/Surveying Aptitude, and Kannada Proficiency.' },
       { stage: 'Document Verification', description: 'Verification of original educational marksheets, caste/category certificates, and rural/Kannada medium certificates.' }
+    ],
+    urls: [
+      { label: 'KEA Official Portal', url: 'http://kea.kar.nic.in' },
+      { label: 'KEA Online Application Portal', url: 'https://cetonline.karnataka.gov.in/kea/' }
     ],
     officialLinks: [
       { label: 'KEA Official Portal', url: 'http://kea.kar.nic.in' },
@@ -27216,6 +27243,9 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { stage: 'Preference Criteria', description: 'First preference to BPL widows, divorced/abandoned women, followed by general BPL candidates residing in the same Gram Sabha/Ward.' },
       { stage: 'Document Verification', description: 'Verification of residence proof, income certificate, caste certificate, and 12th marksheet.' }
     ],
+    urls: [
+      { label: 'UP Anganwadi Official Portal', url: 'https://upanganwadibharti.in' }
+    ],
     officialLinks: [
       { label: 'UP Anganwadi Official Portal', url: 'https://upanganwadibharti.in' }
     ],
@@ -27307,6 +27337,9 @@ export const jobDetailsData: Record<string, JobDetail> = {
     selectionProcess: [
       { stage: 'Merit Shortlisting', description: 'Board of Apprenticeship Training (SR) will shortlist candidates based on percentage of marks obtained in basic qualification (Degree / Diploma).' },
       { stage: 'Certificate Verification', description: 'Shortlisted candidates will be invited for physical certificate verification at TNSTC Trichy Region office.' }
+    ],
+    urls: [
+      { label: 'NATS Official Portal', url: 'https://nats.education.gov.in' }
     ],
     officialLinks: [
       { label: 'NATS Official Portal', url: 'https://nats.education.gov.in' }
@@ -27402,6 +27435,9 @@ export const jobDetailsData: Record<string, JobDetail> = {
       { stage: 'Kannada Language Test (Qualifying)', description: 'Mandatory 150 Marks Kannada Language Exam (Min 50 Marks required to qualify for candidates who did not study Kannada in SSLC/10th).' },
       { stage: 'Competitive Offline OMR Exam', description: 'Paper 1 (General Knowledge 100 Marks) & Paper 2 (General Kannada, General English & Computer Knowledge 100 Marks).' },
       { stage: 'District-wise Merit & DV', description: 'District-wise final selection based on written exam scores.' }
+    ],
+    urls: [
+      { label: 'KEA Official Website', url: 'https://cetonline.karnataka.gov.in/kea/' }
     ],
     officialLinks: [
       { label: 'KEA Official Website', url: 'https://cetonline.karnataka.gov.in/kea/' }
@@ -27501,6 +27537,9 @@ export const jobDetailsData: Record<string, JobDetail> = {
     selectionProcess: [
       { stage: 'Competitive Offline OMR Exam', description: 'Paper 1 (General Knowledge 100 Marks) & Paper 2 (General Kannada, General English & Computer Knowledge 100 Marks). Negative marking 0.25 marks per wrong answer.' },
       { stage: 'District-wise Merit & DV', description: 'Selection strictly based on competitive exam score for chosen district.' }
+    ],
+    urls: [
+      { label: 'KEA Official Website', url: 'https://cetonline.karnataka.gov.in/kea/' }
     ],
     officialLinks: [
       { label: 'KEA Official Website', url: 'https://cetonline.karnataka.gov.in/kea/' }

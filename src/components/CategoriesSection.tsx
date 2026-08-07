@@ -4,16 +4,7 @@ import { Link } from 'react-router';
 import { getStatesWithCounts, getBoardsWithCounts, getQualificationsWithCounts } from '../utils/categoryUtils';
 import { GraduationCap, MapPin, Building2, X, ChevronRight } from 'lucide-react';
 
-interface JobEntry {
-  id: string;
-  title: string;
-  link: string;
-  lastDate: string | null;
-  state: string;
-  board: string;
-  category: string;
-  qualifications: string[];
-}
+import { JobEntry } from '../data/jobsData';
 
 interface CategoriesSectionProps {
   activeJobs: JobEntry[];

@@ -61,6 +61,32 @@ export default function JobDetailPage() {
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
   const [pdfProgress, setPdfProgress] = useState(0);
 
+  // Smart Multi-Tier Job ID Resolution
+  const rawId = (id || '').trim().toLowerCase().replace(/\/$/, '');
+
+  let matchedKey = Object.keys(jobDetailsData).find(
+    k => k === id || k.toLowerCase() === rawId
+  );
+
+  if (!matchedKey && rawId) {
+    matchedKey = Object.keys(jobDetailsData).find(k => {
+      const kLower = k.toLowerCase();
+      return kLower.includes(rawId) || rawId.includes(kLower);
+    });
+  }
+
+  if (!matchedKey && rawId) {
+    const tokens = rawId.split(/[-_\s]+/).filter(t => t.length > 3);
+    if (tokens.length > 0) {
+      matchedKey = Object.keys(jobDetailsData).find(k => {
+        const kLower = k.toLowerCase();
+        return tokens.every(token => kLower.includes(token));
+      });
+    }
+  }
+
+  const job = matchedKey ? jobDetailsData[matchedKey] : null;
+
   const executePdfDownload = () => {
     setShowPdfModal(true);
     setIsGeneratingPdf(true);
@@ -315,32 +341,6 @@ export default function JobDetailPage() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [id]);
-
-  // Smart Multi-Tier Job ID Resolution
-  const rawId = (id || '').trim().toLowerCase().replace(/\/$/, '');
-
-  let matchedKey = Object.keys(jobDetailsData).find(
-    k => k === id || k.toLowerCase() === rawId
-  );
-
-  if (!matchedKey && rawId) {
-    matchedKey = Object.keys(jobDetailsData).find(k => {
-      const kLower = k.toLowerCase();
-      return kLower.includes(rawId) || rawId.includes(kLower);
-    });
-  }
-
-  if (!matchedKey && rawId) {
-    const tokens = rawId.split(/[-_\s]+/).filter(t => t.length > 3);
-    if (tokens.length > 0) {
-      matchedKey = Object.keys(jobDetailsData).find(k => {
-        const kLower = k.toLowerCase();
-        return tokens.every(token => kLower.includes(token));
-      });
-    }
-  }
-
-  const job = matchedKey ? jobDetailsData[matchedKey] : null;
 
   if (!job) {
     return (
