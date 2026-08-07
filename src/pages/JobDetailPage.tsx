@@ -422,7 +422,7 @@ export default function JobDetailPage() {
     );
   }
 
-  const boardInitials = job.board.split(' ').map(w => w[0]).join('').replace(/[^A-Za-z]/g, '').substring(0, 4).toUpperCase() || 'GOVT';
+  const boardInitials = (job.board || '').split(' ').map(w => w[0]).join('').replace(/[^A-Za-z]/g, '').substring(0, 4).toUpperCase() || 'GOVT';
 
   const scrollToSection = (sectionId: string, alignToCenter = false) => {
     const element = document.getElementById(sectionId);
@@ -1672,7 +1672,7 @@ export default function JobDetailPage() {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-xs sm:text-sm font-semibold">
-                    {job.examPattern.sections.map((sec, idx) => (
+                    {(job.examPattern?.sections || []).map((sec, idx) => (
                       <tr key={idx} className="hover:bg-slate-50/50">
                         <td className="py-2 px-3 sm:py-3 sm:px-5 text-slate-700 font-bold">
                           {job.id.includes('isro') ? sec.name.replace('Interview - ', '') : sec.name}
@@ -1752,7 +1752,7 @@ export default function JobDetailPage() {
               <div className="bg-violet-100 p-1.5 sm:p-2 rounded-md sm:rounded-lg text-violet-600"><Users className="h-4 w-4 sm:h-5 sm:w-5" /></div>
               {job.reservation?.title || "Reservation & Category Details"}
             </h2>
-            {job.reservation ? (
+            {job.reservation && job.reservation.detailsList && job.reservation.detailsList.length > 0 ? (
               <div className="space-y-3 sm:space-y-4">
                 <div className="bg-indigo-50/40 border border-indigo-100 rounded-lg sm:rounded-xl p-3.5 sm:p-5">
                   <ul className="space-y-2.5 sm:space-y-3">
@@ -1814,11 +1814,11 @@ export default function JobDetailPage() {
           <section id="how-to-apply" className="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-slate-200 p-4 sm:p-6 md:p-8 scroll-mt-24">
             <h2 className="text-base sm:text-xl md:text-2xl font-black text-slate-800 mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3">
               <div className="bg-blue-100 p-1.5 sm:p-2 rounded-md sm:rounded-lg text-blue-600"><Send className="h-4 w-4 sm:h-5 sm:w-5" /></div>
-              How to Apply {job.applicationMode.toLowerCase().includes('online') ? 'Online' : 'Offline'}
+              How to Apply {(job.applicationMode || '').toLowerCase().includes('online') ? 'Online' : 'Offline'}
             </h2>
             <div className="bg-slate-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-100 mb-6 sm:mb-8">
               <ol className="space-y-3 sm:space-y-4">
-                {job.howToApply.map((step, idx) => (
+                {(job.howToApply || []).map((step, idx) => (
                   <li key={idx} className="flex items-start gap-3 sm:gap-4 text-justify">
                     <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-blue-100 text-blue-600 font-black flex items-center justify-center shrink-0 border border-blue-200 text-[10px] sm:text-xs">
                       {idx + 1}
