@@ -13,7 +13,12 @@ export default defineConfig(() => {
       dedupe: ['react', 'react-dom'],
     },
     build: {
-      sourcemap: false
+      sourcemap: false,
+      minify: 'esbuild',
+      cssMinify: 'esbuild',
+      target: 'es2022',
+      reportCompressedSize: false, // Disables calculating gzip size for all chunks during build (saves 10-15s)
+      chunkSizeWarningLimit: 3500,
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
