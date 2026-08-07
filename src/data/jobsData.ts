@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    id: 'army-aoc-group-c-recruitment-2026',
+    b: 'Army Ordnance Corps (AOC), Ministry of Defence',
+    t: 'Army AOC Group C Recruitment 2026 – Apply Online for 2615 Vacancies of Tradesman Mate, Fireman, JOA, MTS & Material Assistant | Pay Level 1 to 5 | Last Date 22 September 2026',
+    d: '07-08-2026',
+    l: '22-09-2026',
+    a: 'AOC Group C Civilian Recruitment 2026 Notification',
+    q: 'Matriculation (10th Pass) / 12th Pass with Typing / Bachelor Degree in Any Stream',
+    desc: 'Army Ordnance Corps (AOC), Ministry of Defence invites online applications for 2,615 Civilian Group C vacancies including Tradesman Mate (1799), Fireman (508), Junior Office Assistant JOA (104), Multi-Tasking Staff MTS (142), and Material Assistant (50). Pay matrix ranges from Level-1 (₹18,000-56,900) to Level-5 (₹29,200-92,300). Apply online at aocrecruitment.gov.in from 24 August to 22 September 2026.',
+    u: 'https://aocrecruitment.gov.in'
+  },
+  {
     id: 'iocl-northern-region-apprentice-recruitment-2026',
     b: 'Indian Oil Corporation Limited (IOCL), Marketing Division (Northern Region)',
     t: 'IOCL Northern Region Apprentice Recruitment 2026 – Apply Online for 418 Trade, Technician & Graduate Apprentice Vacancies across Delhi, UP, Punjab, Haryana, Rajasthan, HP, J&K & Uttarakhand | No Exam Fee | Merit Based Selection | Last Date 06 September 2026',

@@ -60,6 +60,139 @@ export interface JobDetail {
 }
 
 export const jobDetailsData: Record<string, JobDetail> = {
+  'army-aoc-group-c-recruitment-2026': {
+    id: 'army-aoc-group-c-recruitment-2026',
+    seoTitle: 'Army AOC Group C Recruitment 2026 (2615 Posts) Apply Online | NewVacancyAlert',
+    seoDescription: 'Army Ordnance Corps (AOC) Group C Recruitment 2026 online form for 2615 Tradesman Mate, Fireman, JOA, MTS & Material Assistant vacancies. Check post-wise eligibility, salary, exam pattern & apply link.',
+    focusKeywords: 'Army AOC Group C Recruitment 2026, AOC Tradesman Mate Vacancy 2026, AOC Fireman Recruitment, AOC JOA MTS Material Assistant Online Form',
+    lsiKeywords: 'AOC Group C Syllabus Exam Pattern, Army Ordnance Corps Civilian Jobs, aocrecruitment.gov.in online form 2026, AOC Group C Salary 7th Pay Level',
+    title: 'Army AOC Group C Recruitment 2026 Notification Out for 2,615 Tradesman Mate, Fireman, JOA, MTS & Material Assistant Posts',
+    board: 'Army Ordnance Corps (AOC), Ministry of Defence, Government of India',
+    advtNo: 'AOC Civilian Group C Notification 2026-27',
+    vacancies: 2615,
+    jobLocation: 'All India (Army Ordnance Corps Units & Ordnance Depots)',
+    applicationMode: 'Online via official AOC Portal',
+    applicationStatus: 'Upcoming - Short Notice Released (Apply Opens 24 Aug 2026)',
+    lastUpdated: '2026-08-07',
+    overview: [
+      "The Army Ordnance Corps (AOC) under the Ministry of Defence, Government of India has released the short notice for AOC Group C Civilian Recruitment 2026.",
+      "A total of 2,615 vacancies are announced for various Group C posts including Tradesman Mate (1799), Fireman (508), Multi-Tasking Staff MTS (142), Junior Office Assistant JOA (104), and Material Assistant (50).",
+      "Candidates who have passed 10th, 12th, or Graduation degree from a recognized Board/University are eligible to apply depending on the specific post.",
+      "The online application process will commence on 24 August 2026 and the last date to submit online applications is 22 September 2026. The written examination is tentatively scheduled for November 2026."
+    ],
+    highlights: [
+      { label: "Recruiting Agency", value: "Army Ordnance Corps (AOC)" },
+      { label: "Parent Department", value: "Ministry of Defence, Govt of India" },
+      { label: "Total Posts", value: "2,615 Vacancies" },
+      { label: "Post Categories", value: "Tradesman Mate, Fireman, JOA, MTS, Material Assistant" },
+      { label: "Pay Scale", value: "Pay Level-1 (₹18,000-56,900) to Level-5 (₹29,200-92,300)" },
+      { label: "Selection Process", value: "Written Exam, PET/Typing Test, DV & Medical" },
+      { label: "Application Start Date", value: "24 August 2026" },
+      { label: "Application Last Date", value: "22 September 2026" },
+      { label: "Tentative Exam Date", value: "November 2026" },
+      { label: "Official Website", value: "aocrecruitment.gov.in" }
+    ],
+    importantDates: [
+      { event: "Employment News Short Notice", date: "15 August 2026" },
+      { event: "Online Application Start Date", date: "24 August 2026" },
+      { event: "Last Date to Apply Online", date: "22 September 2026" },
+      { event: "Written Examination Date", date: "November 2026 (Tentative)" }
+    ],
+    applicationFee: {
+      details: "Application fee details will be updated upon release of full detailed notification. (Generally exempt for SC/ST/PwBD/ESM/Female candidates).",
+      breakdown: [
+        { category: "General / EWS / OBC", amount: "To be notified in detailed PDF" },
+        { category: "SC / ST / PwBD / Female", amount: "Exempted (Expected ₹0)" }
+      ]
+    },
+    vacanciesDetails: [
+      { category: "Tradesman Mate", count: 1799 },
+      { category: "Fireman", count: 508 },
+      { category: "Multi-Tasking Staff (MTS)", count: 142 },
+      { category: "Junior Office Assistant (JOA)", count: 104 },
+      { category: "Material Assistant", count: 50 }
+    ],
+    eligibility: {
+      education: [
+        "Tradesman Mate: Matriculation / 10th Class Pass from a recognized Board.",
+        "Fireman: Matriculation / 10th Class Pass from a recognized Board.",
+        "Multi-Tasking Staff (MTS): Matriculation / 10th Class Pass from a recognized Board.",
+        "Junior Office Assistant (JOA): 12th Pass (Intermediate) from a recognized Board/University + English Typing Speed of 35 words per minute on Computer.",
+        "Material Assistant: Bachelor's Degree in any stream from a recognized University or Diploma in Material Management / Engineering."
+      ],
+      ageLimit: "Minimum 18 years and Maximum 25 years for Tradesman Mate, Fireman, JOA & MTS; Minimum 18 to 27 years for Material Assistant as on crucial cutoff date.",
+      ageRelaxation: [
+        { category: "SC / ST Category", relaxation: "5 Years Upper Age Relaxation (Up to 30/32 Years)" },
+        { category: "OBC (Non-Creamy Layer)", relaxation: "3 Years Upper Age Relaxation (Up to 28/30 Years)" },
+        { category: "PwBD / Ex-Servicemen", relaxation: "As per Govt of India Ministry of Defence Rules" }
+      ],
+      medicalStandards: [
+        "Fireman Physical Standards: Height min 165 cm (162.5 cm for ST), Chest 81.5 cm unexpanded (85 cm expanded), Weight min 50 kg.",
+        "Fireman Physical Endurance Test: Carrying a person of 63.5 kg to a distance of 183 meters within 96 seconds, 2.7 meter broad jump, and 3 meter vertical rope climbing."
+      ]
+    },
+    salary: {
+      payLevel: "7th CPC Pay Matrix Matrix Level-1, Level-2 & Level-5",
+      initialPay: "Level-1 (₹18,000), Level-2 (₹19,900), Level-5 (₹29,200)",
+      allowances: [
+        "Tradesman Mate & MTS: Pay Level-1 (₹18,000 – ₹56,900) + DA, HRA, Transport Allowance.",
+        "Fireman & JOA: Pay Level-2 (₹19,900 – ₹63,200) + DA, HRA, Medical, Uniform Allowance.",
+        "Material Assistant: Pay Level-5 (₹29,200 – ₹92,300) + Central Govt Allowances."
+      ]
+    },
+    selectionProcess: [
+      "1. Written Examination: Objective multiple-choice paper carrying 100 questions (100 Marks) covering General Intelligence & Reasoning (25 Q), General Awareness (25 Q), Numerical Aptitude (25 Q), and English Language (25 Q).",
+      "2. Physical Efficiency Test (PET): Applicable for Fireman & Tradesman Mate posts.",
+      "3. Typing Speed Test: Applicable for Junior Office Assistant (JOA) post (English 35 wpm).",
+      "4. Document Verification: Scrutiny of original certificates, educational proofs, and category certificates.",
+      "5. Medical Examination: Medical fitness test conducted at designated Military Hospital / Medical Authority."
+    ],
+    howToApplySteps: [
+      "Step 1: Visit the official Army Ordnance Corps recruitment website (aocrecruitment.gov.in).",
+      "Step 2: Click on the 'Candidate Registration' link and register using your mobile number and email ID.",
+      "Step 3: Log in using your credentials and select the post applied for (Tradesman Mate, Fireman, JOA, MTS, Material Assistant).",
+      "Step 4: Fill in personal details, educational qualifications, address, and category information.",
+      "Step 5: Upload scanned copies of photograph, signature, 10th/12th/Degree marksheets, and caste certificate.",
+      "Step 6: Submit the online application form before 22 September 2026 and download the printable PDF application copy for reference."
+    ],
+    documentsRequired: [
+      "Matriculation (Class 10th) Marksheet & Certificate (Date of Birth Proof).",
+      "12th Pass Marksheet & Certificate (for JOA).",
+      "Graduation Degree / Diploma Certificate (for Material Assistant).",
+      "Caste Certificate (SC/ST/OBC-NCL in Central Format).",
+      "EWS Income & Asset Certificate (if applicable).",
+      "Valid Photo ID Proof (Aadhaar Card / PAN Card / Voter ID).",
+      "Recent Passport Size Color Photographs with clear background.",
+      "Signature image (clear black/blue ink on white paper)."
+    ],
+    officialLinks: [
+      { label: "Army AOC Official Recruitment Website", url: "https://aocrecruitment.gov.in" },
+      { label: "AOC Group C Short Notice PDF Link", url: "https://aocrecruitment.gov.in" },
+      { label: "Ministry of Defence Official Portal", url: "https://mod.gov.in" }
+    ],
+    faqs: [
+      {
+        question: "What is the total number of vacancies in Army AOC Group C Recruitment 2026?",
+        answer: "A total of 2,615 civilian Group C vacancies are announced, including Tradesman Mate (1799), Fireman (508), Multi-Tasking Staff MTS (142), Junior Office Assistant JOA (104), and Material Assistant (50)."
+      },
+      {
+        question: "What is the educational qualification required for AOC Tradesman Mate & Fireman?",
+        answer: "Candidates must have passed Matriculation (Class 10th) from a recognized Board for Tradesman Mate, Fireman, and MTS posts."
+      },
+      {
+        question: "What are the start and end dates for AOC Group C online application 2026?",
+        answer: "Online application opens on 24 August 2026 and the last date to apply online is 22 September 2026."
+      },
+      {
+        question: "What is the syllabus and exam pattern for AOC Group C Written Exam?",
+        answer: "The exam consists of 100 questions (100 Marks) covering 4 sections: General Intelligence & Reasoning (25 Q), General Awareness (25 Q), Numerical Aptitude (25 Q), and English Language (25 Q)."
+      },
+      {
+        question: "What is the salary pay scale for AOC Group C posts?",
+        answer: "Tradesman Mate & MTS are in Pay Level-1 (₹18,000-56,900); Fireman & JOA are in Pay Level-2 (₹19,900-63,200); and Material Assistant is in Pay Level-5 (₹29,200-92,300)."
+      }
+    ]
+  },
   'iocl-northern-region-apprentice-recruitment-2026': {
     id: 'iocl-northern-region-apprentice-recruitment-2026',
     seoTitle: 'IOCL Northern Region Apprentice Recruitment 2026 (418 Posts) Apply Online | NewVacancyAlert',
