@@ -19,51 +19,158 @@
       "Eligible Indian citizens holding a Bachelor's Degree in any discipline aged 20 to 28 years (plus category age relaxations) can register online from 07 August 2026 to 27 August 2026."
     ],
     "highlights": [
-      { "label": "Recruiting Organization", "value": "State Bank of India (SBI)" },
-      { "label": "Department", "value": "Central Recruitment & Promotion Department (CRPD), Mumbai" },
-      { "label": "Post Name", "value": "Junior Associate (Customer Support & Sales) - Clerical Cadre" },
-      { "label": "Drive Type", "value": "Special Recruitment Drive for SC / ST / OBC Backlog Vacancies" },
-      { "label": "Advertisement No.", "value": "CRPD/CR/SPLDRIVE/2026-27/16" },
-      { "label": "Total Vacancies", "value": "1,538 Backlog Posts (SC: 207, ST: 1219, OBC: 112)" },
-      { "label": "Educational Qualification", "value": "Graduation in any discipline from a recognized University" },
-      { "label": "Age Limit (as on 01.04.2026)", "value": "20 to 28 Years (+ Age Relaxation for SC/ST/OBC/PwBD/Ex-S)" },
-      { "label": "Starting Basic Pay", "value": "₹26,730/- per month (Total Emoluments ~₹46,000/month in Metro)" },
-      { "label": "Application Window", "value": "07 August 2026 to 27 August 2026" },
-      { "label": "Tentative Exam Dates", "value": "Prelims: Sept 2026 | Mains: Oct/Nov 2026" },
-      { "label": "Official Website", "value": "https://sbi.bank.in/web/careers" }
+      {
+        "label": "Recruiting Organization",
+        "value": "State Bank of India (SBI)"
+      },
+      {
+        "label": "Department",
+        "value": "Central Recruitment & Promotion Department (CRPD), Mumbai"
+      },
+      {
+        "label": "Post Name",
+        "value": "Junior Associate (Customer Support & Sales) - Clerical Cadre"
+      },
+      {
+        "label": "Drive Type",
+        "value": "Special Recruitment Drive for SC / ST / OBC Backlog Vacancies"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "CRPD/CR/SPLDRIVE/2026-27/16"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "1,538 Backlog Posts (SC: 207, ST: 1219, OBC: 112)"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "Graduation in any discipline from a recognized University"
+      },
+      {
+        "label": "Age Limit (as on 01.04.2026)",
+        "value": "20 to 28 Years (+ Age Relaxation for SC/ST/OBC/PwBD/Ex-S)"
+      },
+      {
+        "label": "Starting Basic Pay",
+        "value": "₹26,730/- per month (Total Emoluments ~₹46,000/month in Metro)"
+      },
+      {
+        "label": "Application Window",
+        "value": "07 August 2026 to 27 August 2026"
+      },
+      {
+        "label": "Tentative Exam Dates",
+        "value": "Prelims: Sept 2026 | Mains: Oct/Nov 2026"
+      },
+      {
+        "label": "Official Website",
+        "value": "https://sbi.bank.in/web/careers"
+      }
     ],
     "importantDates": [
-      { "event": "Notification Release Date", "date": "07 August 2026" },
-      { "event": "Online Registration & Fee Payment Start Date", "date": "07 August 2026" },
-      { "event": "Last Date to Apply Online & Pay Fee", "date": "27 August 2026 (11:59 PM)" },
-      { "event": "Pre-Exam Training (Online) Availability", "date": "1st Week of September 2026" },
-      { "event": "Phase-I Preliminary Examination Call Letter Download", "date": "10 Days before Exam Date" },
-      { "event": "Phase-I Preliminary Examination Date (Tentative)", "date": "September 2026" },
-      { "event": "Phase-II Main Examination Date (Tentative)", "date": "October / November 2026" }
+      {
+        "event": "Notification Release Date",
+        "date": "07 August 2026"
+      },
+      {
+        "event": "Online Registration & Fee Payment Start Date",
+        "date": "07 August 2026"
+      },
+      {
+        "event": "Last Date to Apply Online & Pay Fee",
+        "date": "27 August 2026 (11:59 PM)"
+      },
+      {
+        "event": "Pre-Exam Training (Online) Availability",
+        "date": "1st Week of September 2026"
+      },
+      {
+        "event": "Phase-I Preliminary Examination Call Letter Download",
+        "date": "10 Days before Exam Date"
+      },
+      {
+        "event": "Phase-I Preliminary Examination Date (Tentative)",
+        "date": "September 2026"
+      },
+      {
+        "event": "Phase-II Main Examination Date (Tentative)",
+        "date": "October / November 2026"
+      }
     ],
-    "applicationFee": {
-      "details": "Application fee/intimation charges must be paid online using Debit Card, Credit Card, or Internet Banking.",
-      "breakdown": [
-        { "category": "SC / ST / PwBD / XS / DXS Candidates", "amount": "₹0.00 (Nil - Exempted)" },
-        { "category": "OBC Candidates", "amount": "₹750.00 (Non-refundable)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "SC / ST / PwBD / XS / DXS Candidates",
+        "fee": "₹0.00 (Nil - Exempted)",
+        "refund": ""
+      },
+      {
+        "category": "OBC Candidates",
+        "fee": "₹750.00 (Non-refundable)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Gandhinagar Circle (Gujarat State - Gujarati)", "count": 289 },
-      { "category": "Maharashtra / Mumbai Metro Circle (Maharashtra State - Marathi)", "count": 165 },
-      { "category": "Bhopal Circle (Madhya Pradesh & Chhattisgarh - Hindi)", "count": 160 },
-      { "category": "Patna Circle (Jharkhand & Bihar - Hindi/Santhali/Urdu)", "count": 145 },
-      { "category": "Bengaluru Circle (Karnataka State - Kannada)", "count": 120 },
-      { "category": "Bhubaneswar Circle (Odisha State - Odia)", "count": 111 },
-      { "category": "Jaipur Circle (Rajasthan State - Hindi)", "count": 106 },
-      { "category": "Amaravati Circle (Andhra Pradesh - Telugu/Urdu)", "count": 88 },
-      { "category": "Chennai Circle (Tamil Nadu - Tamil)", "count": 65 },
-      { "category": "Guwahati Circle (Assam & Tripura - Assamese/Bengali/Bodo/Kokborok)", "count": 61 },
-      { "category": "Kolkata Circle (West Bengal - Bengali/Nepali)", "count": 55 },
-      { "category": "Chandigarh Circle (Chandigarh, J&K, HP, Punjab - Hindi/Urdu/Punjabi)", "count": 93 },
-      { "category": "Hyderabad Circle (Telangana - Telugu/Urdu)", "count": 32 },
-      { "category": "Lucknow Circle (Uttar Pradesh - Hindi/Urdu)", "count": 31 },
-      { "category": "New Delhi Circle (Delhi - Hindi)", "count": 17 }
+      {
+        "category": "Gandhinagar Circle (Gujarat State - Gujarati)",
+        "count": 289
+      },
+      {
+        "category": "Maharashtra / Mumbai Metro Circle (Maharashtra State - Marathi)",
+        "count": 165
+      },
+      {
+        "category": "Bhopal Circle (Madhya Pradesh & Chhattisgarh - Hindi)",
+        "count": 160
+      },
+      {
+        "category": "Patna Circle (Jharkhand & Bihar - Hindi/Santhali/Urdu)",
+        "count": 145
+      },
+      {
+        "category": "Bengaluru Circle (Karnataka State - Kannada)",
+        "count": 120
+      },
+      {
+        "category": "Bhubaneswar Circle (Odisha State - Odia)",
+        "count": 111
+      },
+      {
+        "category": "Jaipur Circle (Rajasthan State - Hindi)",
+        "count": 106
+      },
+      {
+        "category": "Amaravati Circle (Andhra Pradesh - Telugu/Urdu)",
+        "count": 88
+      },
+      {
+        "category": "Chennai Circle (Tamil Nadu - Tamil)",
+        "count": 65
+      },
+      {
+        "category": "Guwahati Circle (Assam & Tripura - Assamese/Bengali/Bodo/Kokborok)",
+        "count": 61
+      },
+      {
+        "category": "Kolkata Circle (West Bengal - Bengali/Nepali)",
+        "count": 55
+      },
+      {
+        "category": "Chandigarh Circle (Chandigarh, J&K, HP, Punjab - Hindi/Urdu/Punjabi)",
+        "count": 93
+      },
+      {
+        "category": "Hyderabad Circle (Telangana - Telugu/Urdu)",
+        "count": 32
+      },
+      {
+        "category": "Lucknow Circle (Uttar Pradesh - Hindi/Urdu)",
+        "count": 31
+      },
+      {
+        "category": "New Delhi Circle (Delhi - Hindi)",
+        "count": 17
+      }
     ],
     "eligibility": {
       "education": [
@@ -86,10 +193,22 @@
       ]
     },
     "selectionProcess": [
-      "1. Phase-I Preliminary Examination: Online Objective Test of 100 Marks (1 Hour duration - 30 English, 35 Numerical Ability, 35 Reasoning Ability). 1/4th negative marking. No sectional cutoff.",
-      "2. Phase-II Main Examination: Online Objective Test of 200 Marks (2 Hours 40 Minutes - 50 Financial Awareness, 40 English, 50 Quant, 50 Reasoning/Computer). 1/4th negative marking.",
-      "3. Phase-III Local Language Proficiency Test (LLPT): Conducted before joining for candidates who did not study local language in 10th/12th standard.",
-      "4. Final Selection: Merit list drawn State-wise and Category-wise based solely on aggregate marks scored in Main Exam."
+      {
+        "stage": "Phase-I Preliminary Examination",
+        "description": "Online Objective Test of 100 Marks (1 Hour duration - 30 English, 35 Numerical Ability, 35 Reasoning Ability). 1/4th negative marking. No sectional cutoff."
+      },
+      {
+        "stage": "Phase-II Main Examination",
+        "description": "Online Objective Test of 200 Marks (2 Hours 40 Minutes - 50 Financial Awareness, 40 English, 50 Quant, 50 Reasoning/Computer). 1/4th negative marking."
+      },
+      {
+        "stage": "Phase-III Local Language Proficiency Test (LLPT)",
+        "description": "Conducted before joining for candidates who did not study local language in 10th/12th standard."
+      },
+      {
+        "stage": "Final Selection",
+        "description": "Merit list drawn State-wise and Category-wise based solely on aggregate marks scored in Main Exam."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit SBI Careers Portal at sbi.bank.in/web/careers or bank.sbi/careers.",
@@ -108,10 +227,6 @@
       "Class 10th / 12th Marksheet showing local language subject.",
       "Government of India format Caste Certificate (SC/ST/OBC Non-Creamy Layer issued between 01.04.2026 and joining date).",
       "Valid Photo Identity Proof (Aadhar / PAN / Passport / Voter ID / Driving License)."
-    ],
-    "officialLinks": [
-      { "label": "SBI Official Careers Portal", "url": "https://sbi.bank.in/web/careers" },
-      { "label": "State Bank of India Home", "url": "https://bank.sbi" }
     ],
     "faqs": [
       {
@@ -133,6 +248,16 @@
       {
         "question": "What are the start and end dates for SBI Junior Associate Special Drive registration?",
         "answer": "Online registration and fee payment are open from 07 August 2026 to 27 August 2026."
+      }
+    ],
+    "urls": [
+      {
+        "label": "SBI Official Careers Portal",
+        "url": "https://sbi.bank.in/web/careers"
+      },
+      {
+        "label": "State Bank of India Home",
+        "url": "https://bank.sbi"
       }
     ]
   },
@@ -157,47 +282,145 @@
       "The online application window is open from 04 August 2026 to 18 August 2026. The online computer-based exam is scheduled from 22 September 2026 onwards."
     ],
     "highlights": [
-      { "label": "Recruiting Board", "value": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal" },
-      { "label": "Exam Name", "value": "Group-02 Sub-Group-04 Combined Recruitment Exam 2026" },
-      { "label": "Notification Reference", "value": "समूह-02 उपसमूह-04 संयुक्त भर्ती परीक्षा-2026 Rulebook" },
-      { "label": "Total Posts", "value": "2,106 Vacancies across 61 MP State Departments" },
-      { "label": "Online Application Dates", "value": "04 August 2026 to 18 August 2026" },
-      { "label": "Form Correction Dates", "value": "04 August 2026 to 23 August 2026" },
-      { "label": "Computer Based Test Date", "value": "From 22 September 2026 (Tuesday) Onwards" },
-      { "label": "Exam Shifts", "value": "Shift 1 (10 AM to 12 PM) | Shift 2 (03 PM to 05 PM)" },
-      { "label": "Age Limit (as on 01.01.2026)", "value": "18 to 40 Years (UR Open) | 18 to 45 Years (SC/ST/OBC/Women)" },
-      { "label": "Official Portals", "value": "https://esb.mp.gov.in / https://mponline.gov.in" }
+      {
+        "label": "Recruiting Board",
+        "value": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal"
+      },
+      {
+        "label": "Exam Name",
+        "value": "Group-02 Sub-Group-04 Combined Recruitment Exam 2026"
+      },
+      {
+        "label": "Notification Reference",
+        "value": "समूह-02 उपसमूह-04 संयुक्त भर्ती परीक्षा-2026 Rulebook"
+      },
+      {
+        "label": "Total Posts",
+        "value": "2,106 Vacancies across 61 MP State Departments"
+      },
+      {
+        "label": "Online Application Dates",
+        "value": "04 August 2026 to 18 August 2026"
+      },
+      {
+        "label": "Form Correction Dates",
+        "value": "04 August 2026 to 23 August 2026"
+      },
+      {
+        "label": "Computer Based Test Date",
+        "value": "From 22 September 2026 (Tuesday) Onwards"
+      },
+      {
+        "label": "Exam Shifts",
+        "value": "Shift 1 (10 AM to 12 PM) | Shift 2 (03 PM to 05 PM)"
+      },
+      {
+        "label": "Age Limit (as on 01.01.2026)",
+        "value": "18 to 40 Years (UR Open) | 18 to 45 Years (SC/ST/OBC/Women)"
+      },
+      {
+        "label": "Official Portals",
+        "value": "https://esb.mp.gov.in / https://mponline.gov.in"
+      }
     ],
     "importantDates": [
-      { "event": "Official Rulebook Release Date", "date": "04 August 2026" },
-      { "event": "Online Application Submission Opening Date", "date": "04 August 2026" },
-      { "event": "Last Date to Apply Online", "date": "18 August 2026 (11:59 PM)" },
-      { "event": "Last Date for Online Application Form Correction", "date": "23 August 2026" },
-      { "event": "Admit Card Download Availability", "date": "1st Week of September 2026" },
-      { "event": "Commencement of Online Examination (CBT)", "date": "22 September 2026 (Tuesday)" }
+      {
+        "event": "Official Rulebook Release Date",
+        "date": "04 August 2026"
+      },
+      {
+        "event": "Online Application Submission Opening Date",
+        "date": "04 August 2026"
+      },
+      {
+        "event": "Last Date to Apply Online",
+        "date": "18 August 2026 (11:59 PM)"
+      },
+      {
+        "event": "Last Date for Online Application Form Correction",
+        "date": "23 August 2026"
+      },
+      {
+        "event": "Admit Card Download Availability",
+        "date": "1st Week of September 2026"
+      },
+      {
+        "event": "Commencement of Online Examination (CBT)",
+        "date": "22 September 2026 (Tuesday)"
+      }
     ],
-    "applicationFee": {
-      "details": "Application fee must be paid online via MP Online Kiosk, Debit Card, Credit Card, Net Banking, or UPI.",
-      "breakdown": [
-        { "category": "Unreserved (UR) / Out of MP State Candidates", "amount": "₹500.00 + MP Online Kiosk Charges" },
-        { "category": "SC / ST / OBC / EWS / PwD (MP Domicile Only)", "amount": "₹250.00 + MP Online Kiosk Charges" },
-        { "category": "Backlog Direct Recruitment Posts", "amount": "Nil (₹0.00)" },
-        { "category": "MP Online Kiosk Service Charge", "amount": "₹60.00 (Kiosk) / ₹20.00 (Registered Citizen User)" },
-        { "category": "Form Correction Fee per attempt", "amount": "₹20.00 (Correction Fee) + ₹40.00 (Portal Fee)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "Unreserved (UR) / Out of MP State Candidates",
+        "fee": "₹500.00 + MP Online Kiosk Charges",
+        "refund": ""
+      },
+      {
+        "category": "SC / ST / OBC / EWS / PwD (MP Domicile Only)",
+        "fee": "₹250.00 + MP Online Kiosk Charges",
+        "refund": ""
+      },
+      {
+        "category": "Backlog Direct Recruitment Posts",
+        "fee": "Nil (₹0.00)",
+        "refund": ""
+      },
+      {
+        "category": "MP Online Kiosk Service Charge",
+        "fee": "₹60.00 (Kiosk) / ₹20.00 (Registered Citizen User)",
+        "refund": ""
+      },
+      {
+        "category": "Form Correction Fee per attempt",
+        "fee": "₹20.00 (Correction Fee) + ₹40.00 (Portal Fee)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Patwari ( Special Recruitment for PwD Candidates - District Wise)", "count": 200 },
-      { "category": "Khand Panchayat Adhikari (Panchayat Raj Directorate)", "count": 5 },
-      { "category": "Panchayat Samanvay Adhikari (Direct & Backlog)", "count": 365 },
-      { "category": "Computer Operator cum Assistant Grade-3 (Social Justice Dept)", "count": 124 },
-      { "category": "Up-Ankekshak / Sub-Auditor (Cooperative Department)", "count": 105 },
-      { "category": "Assistant Inspector / Mandi Up-Nirishak (MP State Agri Marketing Board)", "count": 530 },
-      { "category": "Statistical Investigator / Anveshak (Directorate of Economics & Stats)", "count": 82 },
-      { "category": "Assistant Manager (General / Technical - Directorate of Industry / Small Industries)", "count": 57 },
-      { "category": "Data Entry Operator / Junior Assistant cum DEO (MP Warehousing & Logistics Corp / Civil Supplies)", "count": 136 },
-      { "category": "Statistical Inspector / Assistant Revenue Officer / Revenue Inspector (Municipal Corporations)", "count": 88 },
-      { "category": "Librarian / Assistant Librarian / Cataloguer / Hostel Matron / Welfare Officer & Other Posts", "count": 414 }
+      {
+        "category": "Patwari ( Special Recruitment for PwD Candidates - District Wise)",
+        "count": 200
+      },
+      {
+        "category": "Khand Panchayat Adhikari (Panchayat Raj Directorate)",
+        "count": 5
+      },
+      {
+        "category": "Panchayat Samanvay Adhikari (Direct & Backlog)",
+        "count": 365
+      },
+      {
+        "category": "Computer Operator cum Assistant Grade-3 (Social Justice Dept)",
+        "count": 124
+      },
+      {
+        "category": "Up-Ankekshak / Sub-Auditor (Cooperative Department)",
+        "count": 105
+      },
+      {
+        "category": "Assistant Inspector / Mandi Up-Nirishak (MP State Agri Marketing Board)",
+        "count": 530
+      },
+      {
+        "category": "Statistical Investigator / Anveshak (Directorate of Economics & Stats)",
+        "count": 82
+      },
+      {
+        "category": "Assistant Manager (General / Technical - Directorate of Industry / Small Industries)",
+        "count": 57
+      },
+      {
+        "category": "Data Entry Operator / Junior Assistant cum DEO (MP Warehousing & Logistics Corp / Civil Supplies)",
+        "count": 136
+      },
+      {
+        "category": "Statistical Inspector / Assistant Revenue Officer / Revenue Inspector (Municipal Corporations)",
+        "count": 88
+      },
+      {
+        "category": "Librarian / Assistant Librarian / Cataloguer / Hostel Matron / Welfare Officer & Other Posts",
+        "count": 414
+      }
     ],
     "eligibility": {
       "education": [
@@ -224,11 +447,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Single-Stage Online Computer Based Examination (CBT) of 200 Marks (100 Marks Part-A + 100 Marks Part-B).",
-      "2. Minimum Qualifying Marks: 50% for Unreserved (UR) category and 40% for SC / ST / OBC / EWS / PwD candidates.",
-      "3. Equi-Percentile Normalisation scaling method for multi-shift normalisation.",
-      "4. Post-wise and District-wise merit list & preference allocation by MPESB.",
-      "5. Document verification and biometric authentication by respective appointing departments."
+      {
+        "stage": "Single-Stage Online Computer Based Examination (CBT)",
+        "description": "Single-Stage Online Computer Based Examination (CBT) of 200 Marks (100 Marks Part-A + 100 Marks Part-B)."
+      },
+      {
+        "stage": "Minimum Qualifying Marks",
+        "description": "50% for Unreserved (UR) category and 40% for SC / ST / OBC / EWS / PwD candidates."
+      },
+      {
+        "stage": "Equi-Percentile Normalisation scaling method for multi-shift",
+        "description": "Equi-Percentile Normalisation scaling method for multi-shift normalisation."
+      },
+      {
+        "stage": "Post-wise and District-wise merit list &",
+        "description": "Post-wise and District-wise merit list & preference allocation by MPESB."
+      },
+      {
+        "stage": "Document verification and biometric authentication by",
+        "description": "Document verification and biometric authentication by respective appointing departments."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official MPESB portal (esb.mp.gov.in / mponline.gov.in).",
@@ -248,10 +486,6 @@
       "Active MP Employment Exchange Registration Number (जीवित रोजगार पंजीयन प्रमाण पत्र).",
       "Self-handwritten declaration text scan in prescribed template.",
       "Recent passport photograph (white background, taken within 3 months with name & date printed)."
-    ],
-    "officialLinks": [
-      { "label": "MPESB Official Portal", "url": "https://esb.mp.gov.in" },
-      { "label": "MP Online Services Portal", "url": "https://mponline.gov.in" }
     ],
     "faqs": [
       {
@@ -273,6 +507,16 @@
       {
         "question": "What are the start and end dates for MPESB Group 2 Subgroup 4 online application?",
         "answer": "Online application opens on 04 August 2026 and closes on 18 August 2026. Online CBT exam starts from 22 September 2026."
+      }
+    ],
+    "urls": [
+      {
+        "label": "MPESB Official Portal",
+        "url": "https://esb.mp.gov.in"
+      },
+      {
+        "label": "MP Online Services Portal",
+        "url": "https://mponline.gov.in"
       }
     ]
   },
@@ -296,37 +540,101 @@
       "Candidates who have passed 10th class (Matriculation) aged 18 years and above, possessing good character and willingness to render voluntary legal awareness services to poor, underprivileged, and missing children, can submit offline applications by 31 August 2026."
     ],
     "highlights": [
-      { "label": "Recruiting Body", "value": "District Legal Services Authority (DLSA), Ujjain (MP)" },
-      { "label": "Scheme Name", "value": "NALSA Para Legal Volunteers Scheme (Session 2026-27)" },
-      { "label": "Advertisement No.", "value": "741/पीएलवी/जीविसेप्रा/2026 Dated 06.08.2026" },
-      { "label": "Total Posts", "value": "170 Para Legal Volunteers (PLVs)" },
-      { "label": "Educational Qualification", "value": "Minimum 10th Class (Matriculation) Pass" },
-      { "label": "Minimum Age", "value": "18 Years (No upper age limit)" },
-      { "label": "Nature of Work", "value": "Voluntary Legal Services & Literacy Outreach" },
-      { "label": "Remuneration", "value": "Honorarium / Daily Allowance payable as per NALSA/MPSLSA norms" },
-      { "label": "Application Fee", "value": "Nil (₹0.00)" },
-      { "label": "Application Deadline", "value": "31 August 2026 (5:00 PM)" },
-      { "label": "Official Website", "value": "https://ujjain.dcourts.gov.in" }
+      {
+        "label": "Recruiting Body",
+        "value": "District Legal Services Authority (DLSA), Ujjain (MP)"
+      },
+      {
+        "label": "Scheme Name",
+        "value": "NALSA Para Legal Volunteers Scheme (Session 2026-27)"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "741/पीएलवी/जीविसेप्रा/2026 Dated 06.08.2026"
+      },
+      {
+        "label": "Total Posts",
+        "value": "170 Para Legal Volunteers (PLVs)"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "Minimum 10th Class (Matriculation) Pass"
+      },
+      {
+        "label": "Minimum Age",
+        "value": "18 Years (No upper age limit)"
+      },
+      {
+        "label": "Nature of Work",
+        "value": "Voluntary Legal Services & Literacy Outreach"
+      },
+      {
+        "label": "Remuneration",
+        "value": "Honorarium / Daily Allowance payable as per NALSA/MPSLSA norms"
+      },
+      {
+        "label": "Application Fee",
+        "value": "Nil (₹0.00)"
+      },
+      {
+        "label": "Application Deadline",
+        "value": "31 August 2026 (5:00 PM)"
+      },
+      {
+        "label": "Official Website",
+        "value": "https://ujjain.dcourts.gov.in"
+      }
     ],
     "importantDates": [
-      { "event": "Notification Release Date", "date": "06 August 2026" },
-      { "event": "Offline Application Submission Opening Date", "date": "06 August 2026" },
-      { "event": "Last Date for Submission of Offline Application Form & Affidavit", "date": "31 August 2026 (up to 5:00 PM)" },
-      { "event": "Shortlist & Interview Date Intimation", "date": "To be published on ujjain.dcourts.gov.in / SMS / WhatsApp" }
+      {
+        "event": "Notification Release Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Offline Application Submission Opening Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Last Date for Submission of Offline Application Form & Affidavit",
+        "date": "31 August 2026 (up to 5:00 PM)"
+      },
+      {
+        "event": "Shortlist & Interview Date Intimation",
+        "date": "To be published on ujjain.dcourts.gov.in / SMS / WhatsApp"
+      }
     ],
-    "applicationFee": {
-      "details": "The recruitment and empanelment process is completely free of charge. No application fee or processing fee is required.",
-      "breakdown": [
-        { "category": "All Candidates", "amount": "₹0.00 (No Fee)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "All Candidates",
+        "fee": "₹0.00 (No Fee)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "District Legal Services Authority, Ujjain Headquarters", "count": 70 },
-      { "category": "Tehsil Legal Services Committee, Khachrod (खाचरौद)", "count": 20 },
-      { "category": "Tehsil Legal Services Committee, Nagda (नागदा)", "count": 20 },
-      { "category": "Tehsil Legal Services Committee, Mahidpur (महिदपुर)", "count": 20 },
-      { "category": "Tehsil Legal Services Committee, Tarana (तराना)", "count": 20 },
-      { "category": "Tehsil Legal Services Committee, Badnagar (बड़नगर)", "count": 20 }
+      {
+        "category": "District Legal Services Authority, Ujjain Headquarters",
+        "count": 70
+      },
+      {
+        "category": "Tehsil Legal Services Committee, Khachrod (खाचरौद)",
+        "count": 20
+      },
+      {
+        "category": "Tehsil Legal Services Committee, Nagda (नागदा)",
+        "count": 20
+      },
+      {
+        "category": "Tehsil Legal Services Committee, Mahidpur (महिदपुर)",
+        "count": 20
+      },
+      {
+        "category": "Tehsil Legal Services Committee, Tarana (तराना)",
+        "count": 20
+      },
+      {
+        "category": "Tehsil Legal Services Committee, Badnagar (बड़नगर)",
+        "count": 20
+      }
     ],
     "eligibility": {
       "education": [
@@ -349,10 +657,22 @@
       ]
     },
     "selectionProcess": [
-      "1. Scrutiny of offline applications, bio-data format, and attached affidavits.",
-      "2. Shortlisting of eligible candidates based on local area residence and suitability.",
-      "3. Personal Interview by the Selection Committee at District Court Premises, Ujjain.",
-      "4. Publication of final empanelled PLV list on Ujjain District Court official website (https://ujjain.dcourts.gov.in) and notice board."
+      {
+        "stage": "Scrutiny of offline applications, bio-data format,",
+        "description": "Scrutiny of offline applications, bio-data format, and attached affidavits."
+      },
+      {
+        "stage": "Shortlisting of eligible candidates based on",
+        "description": "Shortlisting of eligible candidates based on local area residence and suitability."
+      },
+      {
+        "stage": "Personal Interview by the Selection Committee",
+        "description": "Personal Interview by the Selection Committee at District Court Premises, Ujjain."
+      },
+      {
+        "stage": "Publication of final empanelled PLV list",
+        "description": "Publication of final empanelled PLV list on Ujjain District Court official website (https://ujjain.dcourts.gov.in) and notice board."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Download the official PLV application format and affidavit format from ujjain.dcourts.gov.in.",
@@ -369,10 +689,6 @@
       "Character Certificate.",
       "Passport size recent photographs.",
       "Experience / Service certificates (for retired employees, MSW students, SHG members)."
-    ],
-    "officialLinks": [
-      { "label": "Official Ujjain District Court Portal", "url": "https://ujjain.dcourts.gov.in" },
-      { "label": "MP State Legal Services Authority (MPSLSA)", "url": "https://mpslsa.mp.gov.in" }
     ],
     "faqs": [
       {
@@ -394,6 +710,16 @@
       {
         "question": "Can advocates apply for PLV post?",
         "answer": "No, registered advocates and legal practitioners are not eligible to become PLVs as per NALSA guidelines."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official Ujjain District Court Portal",
+        "url": "https://ujjain.dcourts.gov.in"
+      },
+      {
+        "label": "MP State Legal Services Authority (MPSLSA)",
+        "url": "https://mpslsa.mp.gov.in"
       }
     ]
   },
@@ -418,35 +744,93 @@
       "Walk-in Interview will be conducted on 12th August 2026 (Wednesday) from 10:00 AM to 4:00 PM at Government Medical College, Wanaparthy campus."
     ],
     "highlights": [
-      { "label": "Recruiting Body", "value": "GMC Wanaparthy & GGH Wanaparthy (Govt of Telangana)" },
-      { "label": "Administrative Control", "value": "Director of Medical Education (DME), Telangana" },
-      { "label": "Notification Reference", "value": "Rc.No.1881-1/GMC/WNP/2026 Dated 06.08.2026" },
-      { "label": "Total Posts", "value": "160 Vacancies (Professor-25, Assoc Prof-43, Asst Prof-29, SR-33, Tutor-30)" },
-      { "label": "Walk-in Interview Date", "value": "12 August 2026 (Wednesday), 10:00 AM to 4:00 PM" },
-      { "label": "Walk-in Venue", "value": "Government Medical College, Wanaparthy" },
-      { "label": "Consolidated Pay Range", "value": "₹55,000/- to ₹1,90,000/- Per Month" },
-      { "label": "Tenure Period", "value": "Up to 31.03.2027 (Purely Temporary / Contractual)" },
-      { "label": "Application Fee", "value": "Nil (₹0.00)" },
-      { "label": "Official Portal", "value": "dme.telangana.gov.in / wanaparthy.telangana.gov.in" }
+      {
+        "label": "Recruiting Body",
+        "value": "GMC Wanaparthy & GGH Wanaparthy (Govt of Telangana)"
+      },
+      {
+        "label": "Administrative Control",
+        "value": "Director of Medical Education (DME), Telangana"
+      },
+      {
+        "label": "Notification Reference",
+        "value": "Rc.No.1881-1/GMC/WNP/2026 Dated 06.08.2026"
+      },
+      {
+        "label": "Total Posts",
+        "value": "160 Vacancies (Professor-25, Assoc Prof-43, Asst Prof-29, SR-33, Tutor-30)"
+      },
+      {
+        "label": "Walk-in Interview Date",
+        "value": "12 August 2026 (Wednesday), 10:00 AM to 4:00 PM"
+      },
+      {
+        "label": "Walk-in Venue",
+        "value": "Government Medical College, Wanaparthy"
+      },
+      {
+        "label": "Consolidated Pay Range",
+        "value": "₹55,000/- to ₹1,90,000/- Per Month"
+      },
+      {
+        "label": "Tenure Period",
+        "value": "Up to 31.03.2027 (Purely Temporary / Contractual)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "Nil (₹0.00)"
+      },
+      {
+        "label": "Official Portal",
+        "value": "dme.telangana.gov.in / wanaparthy.telangana.gov.in"
+      }
     ],
     "importantDates": [
-      { "event": "Official Notification Issue Date", "date": "06 August 2026" },
-      { "event": "Walk-in Interview & Document Verification Date", "date": "12 August 2026 (10:00 AM to 4:00 PM)" },
-      { "event": "Cut-off Date for Age Limit Calculation", "date": "31 March 2026" },
-      { "event": "Tentative Joining Date for Selected Candidates", "date": "Within 1 Week of Receiving Appointment Order" }
+      {
+        "event": "Official Notification Issue Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Walk-in Interview & Document Verification Date",
+        "date": "12 August 2026 (10:00 AM to 4:00 PM)"
+      },
+      {
+        "event": "Cut-off Date for Age Limit Calculation",
+        "date": "31 March 2026"
+      },
+      {
+        "event": "Tentative Joining Date for Selected Candidates",
+        "date": "Within 1 Week of Receiving Appointment Order"
+      }
     ],
-    "applicationFee": {
-      "details": "No application fee or registration charge is required for attending the Walk-in Interview at GMC Wanaparthy.",
-      "breakdown": [
-        { "category": "All Candidates", "amount": "₹0.00 (Free Registration)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "All Candidates",
+        "fee": "₹0.00 (Free Registration)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Professor (Contract Basis)", "count": 25 },
-      { "category": "Associate Professor (Contract Basis)", "count": 43 },
-      { "category": "Assistant Professor (Contract Basis)", "count": 29 },
-      { "category": "Senior Resident (Honorarium Basis)", "count": 33 },
-      { "category": "Tutor (Contract Basis)", "count": 30 }
+      {
+        "category": "Professor (Contract Basis)",
+        "count": 25
+      },
+      {
+        "category": "Associate Professor (Contract Basis)",
+        "count": 43
+      },
+      {
+        "category": "Assistant Professor (Contract Basis)",
+        "count": 29
+      },
+      {
+        "category": "Senior Resident (Honorarium Basis)",
+        "count": 33
+      },
+      {
+        "category": "Tutor (Contract Basis)",
+        "count": 30
+      }
     ],
     "eligibility": {
       "education": [
@@ -473,10 +857,22 @@
       ]
     },
     "selectionProcess": [
-      "1. Walk-in Interview and physical verification of original marksheets, PG degree, TSMC registration, and research publications.",
-      "2. Merit List Preparation based on marks obtained in MD/MS/DNB/DM/MCh/MDS PG degree (50% marks considered if grade is awarded).",
-      "3. Adherence to Telangana State Rule of Reservation and Presidential Order (PO 2018) local cadre allocation rules.",
-      "4. Issuance of provisional appointment orders and joining within 1 week of receipt."
+      {
+        "stage": "Walk-in Interview and physical verification of",
+        "description": "Walk-in Interview and physical verification of original marksheets, PG degree, TSMC registration, and research publications."
+      },
+      {
+        "stage": "Merit List Preparation based on marks",
+        "description": "Merit List Preparation based on marks obtained in MD/MS/DNB/DM/MCh/MDS PG degree (50% marks considered if grade is awarded)."
+      },
+      {
+        "stage": "Adherence to Telangana State Rule of",
+        "description": "Adherence to Telangana State Rule of Reservation and Presidential Order (PO 2018) local cadre allocation rules."
+      },
+      {
+        "stage": "Issuance of provisional appointment orders and",
+        "description": "Issuance of provisional appointment orders and joining within 1 week of receipt."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Review official GMC Wanaparthy Notification Rc.No.1881-1/GMC/WNP/2026.",
@@ -496,10 +892,6 @@
       "Relieving Order from previous institute (if applicable).",
       "Aadhar Card & PAN Card.",
       "Passport size recent photographs."
-    ],
-    "officialLinks": [
-      { "label": "Telangana DME Official Portal", "url": "https://dme.telangana.gov.in" },
-      { "label": "Wanaparthy District Official Portal", "url": "https://wanaparthy.telangana.gov.in" }
     ],
     "faqs": [
       {
@@ -521,6 +913,16 @@
       {
         "question": "What is the upper age limit for Assistant Professor and Senior Resident posts?",
         "answer": "Age as on 31.03.2026: Below 65 years for Professor/Associate Prof/Assistant Prof; below 45 years for Senior Resident & Tutor."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Telangana DME Official Portal",
+        "url": "https://dme.telangana.gov.in"
+      },
+      {
+        "label": "Wanaparthy District Official Portal",
+        "url": "https://wanaparthy.telangana.gov.in"
       }
     ]
   },
@@ -545,56 +947,178 @@
       "Eligible candidates with B.E/B.Tech, MCA, M.Sc, CA/ICWA, or Graduation degrees with relevant post-qualification work experience can apply online from 06 August 2026 to 26 August 2026 on bankofbaroda.in."
     ],
     "highlights": [
-      { "label": "Recruiting Bank", "value": "Bank of Baroda (BOB)" },
-      { "label": "Advertisement No.", "value": "BOB/HRM/REC/ADVT/2026/15" },
-      { "label": "Post Type", "value": "Specialist Officer (Regular Basis)" },
-      { "label": "Total Vacancies", "value": "206 Posts (UR-99, OBC-53, SC-28, ST-9, EWS-17)" },
-      { "label": "Pay Scales", "value": "JMG/S-I, MMG/S-II, MMG/S-III & SMG/S-IV" },
-      { "label": "Educational Qualification", "value": "BE / B.Tech / MCA / M.Sc / CA / ICWA / Graduate with Experience" },
-      { "label": "Age Limit", "value": "23 to 43 Years (depending on position as on 01.08.2026)" },
-      { "label": "Probation Period", "value": "12 Months (1 Year)" },
-      { "label": "Selection Method", "value": "Shortlisting / Online Test + Personal Interview (PI)" },
-      { "label": "Application Fee", "value": "₹850/- (Gen/OBC/EWS), ₹175/- (SC/ST/PwBD/ESM/Women)" },
-      { "label": "Official Portal", "value": "www.bankofbaroda.in/careers" }
+      {
+        "label": "Recruiting Bank",
+        "value": "Bank of Baroda (BOB)"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "BOB/HRM/REC/ADVT/2026/15"
+      },
+      {
+        "label": "Post Type",
+        "value": "Specialist Officer (Regular Basis)"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "206 Posts (UR-99, OBC-53, SC-28, ST-9, EWS-17)"
+      },
+      {
+        "label": "Pay Scales",
+        "value": "JMG/S-I, MMG/S-II, MMG/S-III & SMG/S-IV"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "BE / B.Tech / MCA / M.Sc / CA / ICWA / Graduate with Experience"
+      },
+      {
+        "label": "Age Limit",
+        "value": "23 to 43 Years (depending on position as on 01.08.2026)"
+      },
+      {
+        "label": "Probation Period",
+        "value": "12 Months (1 Year)"
+      },
+      {
+        "label": "Selection Method",
+        "value": "Shortlisting / Online Test + Personal Interview (PI)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹850/- (Gen/OBC/EWS), ₹175/- (SC/ST/PwBD/ESM/Women)"
+      },
+      {
+        "label": "Official Portal",
+        "value": "www.bankofbaroda.in/careers"
+      }
     ],
     "importantDates": [
-      { "event": "Official Notification Release Date", "date": "06 August 2026" },
-      { "event": "Online Registration Start Date", "date": "06 August 2026" },
-      { "event": "Last Date for Submission of Online Application & Fee Payment", "date": "26 August 2026" },
-      { "event": "Crucial Date for Age & Eligibility Determination", "date": "01 August 2026" },
-      { "event": "Online Test / Interview Call Letter Download", "date": "To be notified via Email / BOB Website" },
-      { "event": "Personal Interview / Psychometric Test Date", "date": "To be intimated to shortlisted candidates" }
+      {
+        "event": "Official Notification Release Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Online Registration Start Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Last Date for Submission of Online Application & Fee Payment",
+        "date": "26 August 2026"
+      },
+      {
+        "event": "Crucial Date for Age & Eligibility Determination",
+        "date": "01 August 2026"
+      },
+      {
+        "event": "Online Test / Interview Call Letter Download",
+        "date": "To be notified via Email / BOB Website"
+      },
+      {
+        "event": "Personal Interview / Psychometric Test Date",
+        "date": "To be intimated to shortlisted candidates"
+      }
     ],
-    "applicationFee": {
-      "details": "Non-refundable application fee / intimation charges payable online via Debit Card, Credit Card, Net Banking, or UPI.",
-      "breakdown": [
-        { "category": "General / EWS / OBC Candidates", "amount": "₹850.00 (Inclusive of GST) + Gateway Charges" },
-        { "category": "SC / ST / PwBD / ESM & Female Candidates", "amount": "₹175.00 (Inclusive of GST) + Gateway Charges" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "General / EWS / OBC Candidates",
+        "fee": "₹850.00 (Inclusive of GST) + Gateway Charges",
+        "refund": "Non-refundable"
+      },
+      {
+        "category": "SC / ST / PwBD / ESM & Female Candidates",
+        "fee": "₹175.00 (Inclusive of GST) + Gateway Charges",
+        "refund": "Non-refundable"
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Digital Banking: Manager - Digital Product (MMG/S-II)", "count": 13 },
-      { "category": "Digital Banking: Senior Manager - Digital Product (MMG/S-III)", "count": 1 },
-      { "category": "Digital Banking: Product Manager - Digital Lending (MMG/S-II)", "count": 5 },
-      { "category": "Facility Management: Technical Officer - Civil Engineer (JMG/S-I)", "count": 35 },
-      { "category": "Facility Management: Technical Manager - Civil Engineer (MMG/S-II)", "count": 21 },
-      { "category": "Facility Management: Technical Senior Manager - Civil Engineer (MMG/S-III)", "count": 6 },
-      { "category": "Facility Management: Technical Officer - Electrical Engineer (JMG/S-I)", "count": 15 },
-      { "category": "Facility Management: Technical Manager - Electrical Engineer (MMG/S-II)", "count": 9 },
-      { "category": "Facility Management: Technical Senior Manager - Electrical Engineer (MMG/S-III)", "count": 2 },
-      { "category": "Information Security: Manager - Information Security (MMG/S-II)", "count": 13 },
-      { "category": "Information Security: Senior Manager - Information Security (MMG/S-III)", "count": 3 },
-      { "category": "Security Department: Manager - Security (MMG/S-II)", "count": 54 },
-      { "category": "EDMO: Chief Manager - Data Scientist (SMG/S-IV)", "count": 1 },
-      { "category": "EDMO: Senior Manager - Data Scientist (MMG/S-III)", "count": 1 },
-      { "category": "EDMO: Senior Manager - Data Profiling (MMG/S-III)", "count": 2 },
-      { "category": "EDMO: Senior Manager - DQ Analyst (MMG/S-III)", "count": 2 },
-      { "category": "EDMO: Senior Manager - BI & Dashboard Development (MMG/S-III)", "count": 8 },
-      { "category": "Accounts & Taxation: Manager - Taxation (MMG/S-II)", "count": 5 },
-      { "category": "Accounts & Taxation: Manager - Accounts (MMG/S-II)", "count": 5 },
-      { "category": "Accounts & Taxation: Senior Manager - Taxation (MMG/S-III)", "count": 2 },
-      { "category": "Accounts & Taxation: Senior Manager - Accounts (MMG/S-III)", "count": 2 },
-      { "category": "Accounts & Taxation: Chief Manager - Investor Relations (SMG/S-IV)", "count": 1 }
+      {
+        "category": "Digital Banking: Manager - Digital Product (MMG/S-II)",
+        "count": 13
+      },
+      {
+        "category": "Digital Banking: Senior Manager - Digital Product (MMG/S-III)",
+        "count": 1
+      },
+      {
+        "category": "Digital Banking: Product Manager - Digital Lending (MMG/S-II)",
+        "count": 5
+      },
+      {
+        "category": "Facility Management: Technical Officer - Civil Engineer (JMG/S-I)",
+        "count": 35
+      },
+      {
+        "category": "Facility Management: Technical Manager - Civil Engineer (MMG/S-II)",
+        "count": 21
+      },
+      {
+        "category": "Facility Management: Technical Senior Manager - Civil Engineer (MMG/S-III)",
+        "count": 6
+      },
+      {
+        "category": "Facility Management: Technical Officer - Electrical Engineer (JMG/S-I)",
+        "count": 15
+      },
+      {
+        "category": "Facility Management: Technical Manager - Electrical Engineer (MMG/S-II)",
+        "count": 9
+      },
+      {
+        "category": "Facility Management: Technical Senior Manager - Electrical Engineer (MMG/S-III)",
+        "count": 2
+      },
+      {
+        "category": "Information Security: Manager - Information Security (MMG/S-II)",
+        "count": 13
+      },
+      {
+        "category": "Information Security: Senior Manager - Information Security (MMG/S-III)",
+        "count": 3
+      },
+      {
+        "category": "Security Department: Manager - Security (MMG/S-II)",
+        "count": 54
+      },
+      {
+        "category": "EDMO: Chief Manager - Data Scientist (SMG/S-IV)",
+        "count": 1
+      },
+      {
+        "category": "EDMO: Senior Manager - Data Scientist (MMG/S-III)",
+        "count": 1
+      },
+      {
+        "category": "EDMO: Senior Manager - Data Profiling (MMG/S-III)",
+        "count": 2
+      },
+      {
+        "category": "EDMO: Senior Manager - DQ Analyst (MMG/S-III)",
+        "count": 2
+      },
+      {
+        "category": "EDMO: Senior Manager - BI & Dashboard Development (MMG/S-III)",
+        "count": 8
+      },
+      {
+        "category": "Accounts & Taxation: Manager - Taxation (MMG/S-II)",
+        "count": 5
+      },
+      {
+        "category": "Accounts & Taxation: Manager - Accounts (MMG/S-II)",
+        "count": 5
+      },
+      {
+        "category": "Accounts & Taxation: Senior Manager - Taxation (MMG/S-III)",
+        "count": 2
+      },
+      {
+        "category": "Accounts & Taxation: Senior Manager - Accounts (MMG/S-III)",
+        "count": 2
+      },
+      {
+        "category": "Accounts & Taxation: Chief Manager - Investor Relations (SMG/S-IV)",
+        "count": 1
+      }
     ],
     "eligibility": {
       "education": [
@@ -607,10 +1131,22 @@
       ],
       "ageLimit": "Varies by position as on 01.08.2026: JMG/S-I (23-35 Yrs), MMG/S-II (23-37 Yrs), MMG/S-III (27-40 Yrs), SMG/S-IV (28-43 Yrs).",
       "ageRelaxation": [
-        { "category": "Scheduled Caste (SC) / Scheduled Tribe (ST)", "relaxation": "5 Years Relaxation" },
-        { "category": "Other Backward Classes (OBC-NCL)", "relaxation": "3 Years Relaxation" },
-        { "category": "Persons with Benchmark Disabilities (PwBD)", "relaxation": "10 Years (Gen/EWS), 13 Years (OBC), 15 Years (SC/ST)" },
-        { "category": "Ex-Servicemen & Commissioned Officers (ECOs/SSCOs)", "relaxation": "5 Years (Gen/EWS), 8 Years (OBC), 10 Years (SC/ST)" }
+        {
+          "category": "Scheduled Caste (SC) / Scheduled Tribe (ST)",
+          "relaxation": "5 Years Relaxation"
+        },
+        {
+          "category": "Other Backward Classes (OBC-NCL)",
+          "relaxation": "3 Years Relaxation"
+        },
+        {
+          "category": "Persons with Benchmark Disabilities (PwBD)",
+          "relaxation": "10 Years (Gen/EWS), 13 Years (OBC), 15 Years (SC/ST)"
+        },
+        {
+          "category": "Ex-Servicemen & Commissioned Officers (ECOs/SSCOs)",
+          "relaxation": "5 Years (Gen/EWS), 8 Years (OBC), 10 Years (SC/ST)"
+        }
       ],
       "medicalStandards": [
         "All educational qualifications must be from recognized AICTE/UGC/Govt approved Universities/Institutions.",
@@ -627,11 +1163,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Online Application Scrutiny & Preliminary Shortlisting based on qualification, experience, and domain skill set.",
-      "2. Online Written Test (if conducted): 150 MCQs (Reasoning 25 Qs, English 25 Qs, Quant 25 Qs, Professional Knowledge 75 Qs / 150 Marks). Total 225 Marks, 150 Mins.",
-      "3. Psychometric Test / Personal Interview (PI): Minimum qualifying marks in PI are 60% for General/EWS and 55% for Reserved Categories.",
-      "4. Combined Merit List preparation based on Online Test and/or Interview performance.",
-      "5. Document Verification & Medical Examination prior to appointment."
+      {
+        "stage": "Online Application Scrutiny & Preliminary Shortlisting",
+        "description": "Online Application Scrutiny & Preliminary Shortlisting based on qualification, experience, and domain skill set."
+      },
+      {
+        "stage": "Online Written Test (if conducted)",
+        "description": "150 MCQs (Reasoning 25 Qs, English 25 Qs, Quant 25 Qs, Professional Knowledge 75 Qs / 150 Marks). Total 225 Marks, 150 Mins."
+      },
+      {
+        "stage": "Psychometric Test / Personal Interview (PI)",
+        "description": "Minimum qualifying marks in PI are 60% for General/EWS and 55% for Reserved Categories."
+      },
+      {
+        "stage": "Combined Merit List preparation based on",
+        "description": "Combined Merit List preparation based on Online Test and/or Interview performance."
+      },
+      {
+        "stage": "Document Verification & Medical Examination prior",
+        "description": "Document Verification & Medical Examination prior to appointment."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official Bank of Baroda portal (www.bankofbaroda.bank.in/careers) and go to 'Current Opportunities'.",
@@ -653,11 +1204,6 @@
       "Photo ID Proof (PAN Card / Aadhar Card / Passport / Voter ID).",
       "Passport-size recent color photographs."
     ],
-    "officialLinks": [
-      { "label": "Official Bank of Baroda Careers Portal", "url": "https://www.bankofbaroda.bank.in/careers" },
-      { "label": "Bank of Baroda Specialist Officer Online Application Link", "url": "https://www.bankofbaroda.bank.in/careers" },
-      { "label": "Bank of Baroda Official Website", "url": "https://www.bankofbaroda.in" }
-    ],
     "faqs": [
       {
         "question": "What is the total number of vacancies in Bank of Baroda SO Recruitment 2026?",
@@ -678,6 +1224,20 @@
       {
         "question": "What is the application fee for Bank of Baroda SO Recruitment?",
         "answer": "₹850/- (inclusive of GST) for General, EWS, and OBC candidates; ₹175/- (inclusive of GST) for SC, ST, PwBD, ESM, and Women candidates."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official Bank of Baroda Careers Portal",
+        "url": "https://www.bankofbaroda.bank.in/careers"
+      },
+      {
+        "label": "Bank of Baroda Specialist Officer Online Application Link",
+        "url": "https://www.bankofbaroda.bank.in/careers"
+      },
+      {
+        "label": "Bank of Baroda Official Website",
+        "url": "https://www.bankofbaroda.in"
       }
     ]
   },
@@ -702,36 +1262,97 @@
       "Final year undergraduate engineering students (B.E. / B.Tech) and pursuing postgraduate students (M.E. / M.Tech / M.Sc Physical Science / Mathematics) aged below 28 years with minimum 60% marks can submit their applications by 16 August 2026."
     ],
     "highlights": [
-      { "label": "Recruiting Body", "value": "DRDO - Defence Research & Development Laboratory (DRDL)" },
-      { "label": "Location", "value": "Hyderabad, Telangana (500058)" },
-      { "label": "Advertisement No.", "value": "DRDL/HRD/INTERNSHIP/2026/01" },
-      { "label": "Total Internship Slots", "value": "165 Slots" },
-      { "label": "Monthly Stipend", "value": "₹5,000/- per month" },
-      { "label": "Internship Duration", "value": "06 Months (01 Sep 2026 to 28 Feb 2027)" },
-      { "label": "Eligible Qualification", "value": "Final Year B.E / B.Tech OR Pursuing M.E / M.Tech / M.Sc (Min 60%)" },
-      { "label": "Upper Age Limit", "value": "Below 28 Years" },
-      { "label": "Application Fee", "value": "Nil (₹0.00)" },
-      { "label": "Submission Email", "value": "drdlintern2026@gmail.com" },
-      { "label": "Official Website", "value": "www.drdo.gov.in" }
+      {
+        "label": "Recruiting Body",
+        "value": "DRDO - Defence Research & Development Laboratory (DRDL)"
+      },
+      {
+        "label": "Location",
+        "value": "Hyderabad, Telangana (500058)"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "DRDL/HRD/INTERNSHIP/2026/01"
+      },
+      {
+        "label": "Total Internship Slots",
+        "value": "165 Slots"
+      },
+      {
+        "label": "Monthly Stipend",
+        "value": "₹5,000/- per month"
+      },
+      {
+        "label": "Internship Duration",
+        "value": "06 Months (01 Sep 2026 to 28 Feb 2027)"
+      },
+      {
+        "label": "Eligible Qualification",
+        "value": "Final Year B.E / B.Tech OR Pursuing M.E / M.Tech / M.Sc (Min 60%)"
+      },
+      {
+        "label": "Upper Age Limit",
+        "value": "Below 28 Years"
+      },
+      {
+        "label": "Application Fee",
+        "value": "Nil (₹0.00)"
+      },
+      {
+        "label": "Submission Email",
+        "value": "drdlintern2026@gmail.com"
+      },
+      {
+        "label": "Official Website",
+        "value": "www.drdo.gov.in"
+      }
     ],
     "importantDates": [
-      { "event": "Official Advertisement Date", "date": "06 August 2026" },
-      { "event": "Last Date for Filling & Emailing Applications", "date": "16 August 2026" },
-      { "event": "Declaration of Shortlisted Candidates for Interview", "date": "23 August 2026" },
-      { "event": "Walk-in Interview / Verification at DRDL Hyderabad", "date": "August 2026 (To be intimated)" },
-      { "event": "Commencement Date of Paid Internship", "date": "01 September 2026" }
+      {
+        "event": "Official Advertisement Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Last Date for Filling & Emailing Applications",
+        "date": "16 August 2026"
+      },
+      {
+        "event": "Declaration of Shortlisted Candidates for Interview",
+        "date": "23 August 2026"
+      },
+      {
+        "event": "Walk-in Interview / Verification at DRDL Hyderabad",
+        "date": "August 2026 (To be intimated)"
+      },
+      {
+        "event": "Commencement Date of Paid Internship",
+        "date": "01 September 2026"
+      }
     ],
-    "applicationFee": {
-      "details": "No application fee or registration charge is applicable for applying to DRDO DRDL Paid Internship.",
-      "breakdown": [
-        { "category": "All Candidates (UG / PG Students)", "amount": "₹0.00 (Exempted)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "All Candidates (UG / PG Students)",
+        "fee": "₹0.00 (Exempted)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Branch EE: Electronics / ECE / EIE / Electrical Engineering", "count": 58 },
-      { "category": "Branch ME: Mechanical / Chemical / Aerospace / Production / Material / Safety / Textile Tech", "count": 87 },
-      { "category": "Branch PH: Mathematics & Allied Physical Sciences", "count": 5 },
-      { "category": "Branch CS: Computer Science & Engg (CSE, AI, Cyber Security & Allied)", "count": 15 }
+      {
+        "category": "Branch EE: Electronics / ECE / EIE / Electrical Engineering",
+        "count": 58
+      },
+      {
+        "category": "Branch ME: Mechanical / Chemical / Aerospace / Production / Material / Safety / Textile Tech",
+        "count": 87
+      },
+      {
+        "category": "Branch PH: Mathematics & Allied Physical Sciences",
+        "count": 5
+      },
+      {
+        "category": "Branch CS: Computer Science & Engg (CSE, AI, Cyber Security & Allied)",
+        "count": 15
+      }
     ],
     "eligibility": {
       "education": [
@@ -756,11 +1377,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Screening of applications based on academic marks (% or converted CGPA) and referral letter.",
-      "2. Shortlisting of candidates for interaction / interview.",
-      "3. Intimation to shortlisted candidates via Phone, Email, and DRDO website notification.",
-      "4. Walk-in Interview & Document Verification at DRDL Campus, Kanchanbagh, Hyderabad.",
-      "5. Submission of College NOC, Police Verification Certificate, Indemnity Bond, and Character Certificate at joining."
+      {
+        "stage": "Screening of applications based on academic",
+        "description": "Screening of applications based on academic marks (% or converted CGPA) and referral letter."
+      },
+      {
+        "stage": "Shortlisting of candidates for interaction /",
+        "description": "Shortlisting of candidates for interaction / interview."
+      },
+      {
+        "stage": "Intimation to shortlisted candidates via Phone,",
+        "description": "Intimation to shortlisted candidates via Phone, Email, and DRDO website notification."
+      },
+      {
+        "stage": "Walk-in Interview & Document Verification at",
+        "description": "Walk-in Interview & Document Verification at DRDL Campus, Kanchanbagh, Hyderabad."
+      },
+      {
+        "stage": "Submission of College NOC, Police Verification",
+        "description": "Submission of College NOC, Police Verification Certificate, Indemnity Bond, and Character Certificate at joining."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Download the official DRDO DRDL Internship application form and Referral Letter format from DRDO website / notification PDF.",
@@ -782,11 +1418,6 @@
       "3 Passport-size Photographs.",
       "Bank Account details (passbook/cancelled cheque) for stipend transfer."
     ],
-    "officialLinks": [
-      { "label": "Official DRDO Portal", "url": "https://www.drdo.gov.in" },
-      { "label": "DRDO DRDL Internship Email Address", "url": "mailto:drdlintern2026@gmail.com" },
-      { "label": "DRDO DRDL Hyderabad Location Map", "url": "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl" }
-    ],
     "faqs": [
       {
         "question": "What is the total number of internship vacancies in DRDO DRDL Paid Internship 2026?",
@@ -807,6 +1438,20 @@
       {
         "question": "How to submit application for DRDO DRDL Internship 2026?",
         "answer": "Candidates must email their scanned application form and college referral letter to drdlintern2026@gmail.com on or before 16 August 2026."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official DRDO Portal",
+        "url": "https://www.drdo.gov.in"
+      },
+      {
+        "label": "DRDO DRDL Internship Email Address",
+        "url": "mailto:drdlintern2026@gmail.com"
+      },
+      {
+        "label": "DRDO DRDL Hyderabad Location Map",
+        "url": "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl"
       }
     ]
   },
@@ -831,84 +1476,284 @@
       "Candidates possessing MD/MS/DNB/Diploma/MDS degrees completing tenure on or before 31 August 2026 are eligible. Online application via Google Form is active from 06 August 2026 to 16 August 2026."
     ],
     "highlights": [
-      { "label": "Recruiting Institute", "value": "AIIMS Raipur (Chhattisgarh)" },
-      { "label": "Ministry", "value": "Ministry of Health & Family Welfare, Govt. of India" },
-      { "label": "Advertisement No.", "value": "No. 9/327/2026/Recruit./Reg./AIIMSRPR/2120" },
-      { "label": "Post Name", "value": "Senior Resident (Non-Academic) - Group A" },
-      { "label": "Total Vacancies", "value": "121 Posts (including 4 PwBD posts)" },
-      { "label": "Pay Matrix Scale", "value": "Pay Level-11 (Cell 01, ₹67,700/- + NPA + Allowances)" },
-      { "label": "Educational Qualification", "value": "MD / MS / DNB / Diploma / MDS in respective discipline" },
-      { "label": "Upper Age Limit", "value": "45 Years (as on 16.08.2026)" },
-      { "label": "Tenure Period", "value": "Up to 3 Years under Govt of India Residency Scheme" },
-      { "label": "Selection Method", "value": "Shortlisting / Interview at AIIMS Raipur" },
-      { "label": "Application Fee", "value": "₹1,000/- (General/OBC/EWS), Nil (Women/SC/ST/PwBD/ESM)" },
-      { "label": "Official Website", "value": "www.aiimsraipur.edu.in" }
+      {
+        "label": "Recruiting Institute",
+        "value": "AIIMS Raipur (Chhattisgarh)"
+      },
+      {
+        "label": "Ministry",
+        "value": "Ministry of Health & Family Welfare, Govt. of India"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "No. 9/327/2026/Recruit./Reg./AIIMSRPR/2120"
+      },
+      {
+        "label": "Post Name",
+        "value": "Senior Resident (Non-Academic) - Group A"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "121 Posts (including 4 PwBD posts)"
+      },
+      {
+        "label": "Pay Matrix Scale",
+        "value": "Pay Level-11 (Cell 01, ₹67,700/- + NPA + Allowances)"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "MD / MS / DNB / Diploma / MDS in respective discipline"
+      },
+      {
+        "label": "Upper Age Limit",
+        "value": "45 Years (as on 16.08.2026)"
+      },
+      {
+        "label": "Tenure Period",
+        "value": "Up to 3 Years under Govt of India Residency Scheme"
+      },
+      {
+        "label": "Selection Method",
+        "value": "Shortlisting / Interview at AIIMS Raipur"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹1,000/- (General/OBC/EWS), Nil (Women/SC/ST/PwBD/ESM)"
+      },
+      {
+        "label": "Official Website",
+        "value": "www.aiimsraipur.edu.in"
+      }
     ],
     "importantDates": [
-      { "event": "Official Advertisement Release Date", "date": "06 August 2026" },
-      { "event": "Online Registration & Google Form Opening Date", "date": "06 August 2026" },
-      { "event": "Last Date for Submission of Online Google Form", "date": "16 August 2026 (5:00 PM)" },
-      { "event": "Crucial Date for Completion of Qualifying Degree/Tenure", "date": "31 August 2026" },
-      { "event": "Publication of Shortlisted Candidates for Interview", "date": "To be notified on AIIMS Raipur Portal" },
-      { "event": "Walk-in / In-Person Interview Date", "date": "To be conducted at AIIMS Raipur Campus" }
+      {
+        "event": "Official Advertisement Release Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Online Registration & Google Form Opening Date",
+        "date": "06 August 2026"
+      },
+      {
+        "event": "Last Date for Submission of Online Google Form",
+        "date": "16 August 2026 (5:00 PM)"
+      },
+      {
+        "event": "Crucial Date for Completion of Qualifying Degree/Tenure",
+        "date": "31 August 2026"
+      },
+      {
+        "event": "Publication of Shortlisted Candidates for Interview",
+        "date": "To be notified on AIIMS Raipur Portal"
+      },
+      {
+        "event": "Walk-in / In-Person Interview Date",
+        "date": "To be conducted at AIIMS Raipur Campus"
+      }
     ],
-    "applicationFee": {
-      "details": "Non-refundable application fee payable via NEFT in Bank of India account before submitting Google Form.",
-      "breakdown": [
-        { "category": "General / OBC / EWS Candidates", "amount": "₹1,000.00" },
-        { "category": "Women / SC / ST / PwBD / Ex-Servicemen Candidates", "amount": "Nil (₹0.00)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "General / OBC / EWS Candidates",
+        "fee": "₹1,000.00",
+        "refund": "Non-refundable"
+      },
+      {
+        "category": "Women / SC / ST / PwBD / Ex-Servicemen Candidates",
+        "fee": "Nil (₹0.00)",
+        "refund": "Non-refundable"
+      }
+    ],
     "bankAccountDetails": [
-      { "detail": "Bank Name", "info": "Bank of India" },
-      { "detail": "Branch", "info": "Tatibandh, Raipur" },
-      { "detail": "Account Name", "info": "AIIMS, Raipur" },
-      { "detail": "Account Number", "info": "936320110000024" },
-      { "detail": "IFSC Code", "info": "BKID0009363" },
-      { "detail": "MICR Code", "info": "492013010" }
+      {
+        "detail": "Bank Name",
+        "info": "Bank of India"
+      },
+      {
+        "detail": "Branch",
+        "info": "Tatibandh, Raipur"
+      },
+      {
+        "detail": "Account Name",
+        "info": "AIIMS, Raipur"
+      },
+      {
+        "detail": "Account Number",
+        "info": "936320110000024"
+      },
+      {
+        "detail": "IFSC Code",
+        "info": "BKID0009363"
+      },
+      {
+        "detail": "MICR Code",
+        "info": "492013010"
+      }
     ],
     "vacanciesDetails": [
-      { "category": "Anaesthesiology & Critical Care", "count": 5 },
-      { "category": "Anatomy", "count": 2 },
-      { "category": "Biochemistry", "count": 3 },
-      { "category": "Burns & Plastic Surgery", "count": 3 },
-      { "category": "Cardiology", "count": 1 },
-      { "category": "CTVS (Cardiothoracic & Vascular Surgery)", "count": 2 },
-      { "category": "Clinical Hematology", "count": 2 },
-      { "category": "Community & Family Medicine", "count": 5 },
-      { "category": "Dentistry (Oral & Maxillofacial Surgery)", "count": 1 },
-      { "category": "Dentistry (Pedodontics)", "count": 1 },
-      { "category": "Dentistry (Conservative Dentistry & Endodontics)", "count": 2 },
-      { "category": "Dermatology", "count": 2 },
-      { "category": "Endocrinology", "count": 3 },
-      { "category": "Forensic Medicine & Toxicology", "count": 4 },
-      { "category": "Gastroenterology", "count": 4 },
-      { "category": "General Medicine", "count": 8 },
-      { "category": "General Surgery", "count": 6 },
-      { "category": "Medical Oncology", "count": 3 },
-      { "category": "Microbiology", "count": 4 },
-      { "category": "Neonatology", "count": 2 },
-      { "category": "Nephrology", "count": 4 },
-      { "category": "Neurology", "count": 2 },
-      { "category": "Neurosurgery", "count": 1 },
-      { "category": "Nuclear Medicine", "count": 2 },
-      { "category": "Obstetrics & Gynecology", "count": 2 },
-      { "category": "Orthopaedics", "count": 4 },
-      { "category": "Paediatric Surgery", "count": 2 },
-      { "category": "Paediatrics", "count": 3 },
-      { "category": "Pathology & Lab Medicine", "count": 5 },
-      { "category": "Pharmacology", "count": 1 },
-      { "category": "Physical Medicine & Rehabilitation (PMR)", "count": 2 },
-      { "category": "Physiology", "count": 2 },
-      { "category": "Psychiatry", "count": 1 },
-      { "category": "Radiation Oncology", "count": 3 },
-      { "category": "Radio Diagnosis", "count": 3 },
-      { "category": "School of Public Health", "count": 1 },
-      { "category": "Surgical Gastroenterology", "count": 2 },
-      { "category": "Surgical Oncology", "count": 3 },
-      { "category": "Transfusion Medicine & Blood Bank", "count": 1 },
-      { "category": "Trauma & Emergency", "count": 10 },
-      { "category": "Urology", "count": 4 }
+      {
+        "category": "Anaesthesiology & Critical Care",
+        "count": 5
+      },
+      {
+        "category": "Anatomy",
+        "count": 2
+      },
+      {
+        "category": "Biochemistry",
+        "count": 3
+      },
+      {
+        "category": "Burns & Plastic Surgery",
+        "count": 3
+      },
+      {
+        "category": "Cardiology",
+        "count": 1
+      },
+      {
+        "category": "CTVS (Cardiothoracic & Vascular Surgery)",
+        "count": 2
+      },
+      {
+        "category": "Clinical Hematology",
+        "count": 2
+      },
+      {
+        "category": "Community & Family Medicine",
+        "count": 5
+      },
+      {
+        "category": "Dentistry (Oral & Maxillofacial Surgery)",
+        "count": 1
+      },
+      {
+        "category": "Dentistry (Pedodontics)",
+        "count": 1
+      },
+      {
+        "category": "Dentistry (Conservative Dentistry & Endodontics)",
+        "count": 2
+      },
+      {
+        "category": "Dermatology",
+        "count": 2
+      },
+      {
+        "category": "Endocrinology",
+        "count": 3
+      },
+      {
+        "category": "Forensic Medicine & Toxicology",
+        "count": 4
+      },
+      {
+        "category": "Gastroenterology",
+        "count": 4
+      },
+      {
+        "category": "General Medicine",
+        "count": 8
+      },
+      {
+        "category": "General Surgery",
+        "count": 6
+      },
+      {
+        "category": "Medical Oncology",
+        "count": 3
+      },
+      {
+        "category": "Microbiology",
+        "count": 4
+      },
+      {
+        "category": "Neonatology",
+        "count": 2
+      },
+      {
+        "category": "Nephrology",
+        "count": 4
+      },
+      {
+        "category": "Neurology",
+        "count": 2
+      },
+      {
+        "category": "Neurosurgery",
+        "count": 1
+      },
+      {
+        "category": "Nuclear Medicine",
+        "count": 2
+      },
+      {
+        "category": "Obstetrics & Gynecology",
+        "count": 2
+      },
+      {
+        "category": "Orthopaedics",
+        "count": 4
+      },
+      {
+        "category": "Paediatric Surgery",
+        "count": 2
+      },
+      {
+        "category": "Paediatrics",
+        "count": 3
+      },
+      {
+        "category": "Pathology & Lab Medicine",
+        "count": 5
+      },
+      {
+        "category": "Pharmacology",
+        "count": 1
+      },
+      {
+        "category": "Physical Medicine & Rehabilitation (PMR)",
+        "count": 2
+      },
+      {
+        "category": "Physiology",
+        "count": 2
+      },
+      {
+        "category": "Psychiatry",
+        "count": 1
+      },
+      {
+        "category": "Radiation Oncology",
+        "count": 3
+      },
+      {
+        "category": "Radio Diagnosis",
+        "count": 3
+      },
+      {
+        "category": "School of Public Health",
+        "count": 1
+      },
+      {
+        "category": "Surgical Gastroenterology",
+        "count": 2
+      },
+      {
+        "category": "Surgical Oncology",
+        "count": 3
+      },
+      {
+        "category": "Transfusion Medicine & Blood Bank",
+        "count": 1
+      },
+      {
+        "category": "Trauma & Emergency",
+        "count": 10
+      },
+      {
+        "category": "Urology",
+        "count": 4
+      }
     ],
     "eligibility": {
       "education": [
@@ -920,12 +1765,30 @@
       ],
       "ageLimit": "Maximum 45 years as on closing date of receipt of application form (16.08.2026). Age and experience will be counted as on date of interview.",
       "ageRelaxation": [
-        { "category": "Scheduled Caste (SC) / Scheduled Tribe (ST)", "relaxation": "5 Years Relaxation (Up to 50 Years)" },
-        { "category": "Other Backward Classes (OBC-NCL)", "relaxation": "3 Years Relaxation (Up to 48 Years)" },
-        { "category": "Persons with Benchmark Disabilities (PwBD) General", "relaxation": "10 Years Relaxation (Up to 55 Years)" },
-        { "category": "Persons with Benchmark Disabilities (PwBD) OBC", "relaxation": "13 Years Relaxation (Up to 58 Years)" },
-        { "category": "Persons with Benchmark Disabilities (PwBD) SC/ST", "relaxation": "15 Years Relaxation (Up to 60 Years)" },
-        { "category": "Ex-Servicemen & Commissioned Officers / Govt Servants", "relaxation": "5 Years Relaxation" }
+        {
+          "category": "Scheduled Caste (SC) / Scheduled Tribe (ST)",
+          "relaxation": "5 Years Relaxation (Up to 50 Years)"
+        },
+        {
+          "category": "Other Backward Classes (OBC-NCL)",
+          "relaxation": "3 Years Relaxation (Up to 48 Years)"
+        },
+        {
+          "category": "Persons with Benchmark Disabilities (PwBD) General",
+          "relaxation": "10 Years Relaxation (Up to 55 Years)"
+        },
+        {
+          "category": "Persons with Benchmark Disabilities (PwBD) OBC",
+          "relaxation": "13 Years Relaxation (Up to 58 Years)"
+        },
+        {
+          "category": "Persons with Benchmark Disabilities (PwBD) SC/ST",
+          "relaxation": "15 Years Relaxation (Up to 60 Years)"
+        },
+        {
+          "category": "Ex-Servicemen & Commissioned Officers / Govt Servants",
+          "relaxation": "5 Years Relaxation"
+        }
       ],
       "medicalStandards": [
         "OBC-NCL Certificate must be issued on or after 01.04.2026 based on income for FY 2025-26 along with Non-Creamy Layer declaration.",
@@ -942,11 +1805,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Shortlisting based on Bio-data & Qualifications by Search-cum-Selection Committee.",
-      "2. Screening Test (CBT / Offline Test) in case a large number of applications are received for any post.",
-      "3. Personal Interview: Conducted at AIIMS Raipur campus (Tatibandh, G.E. Road, Raipur, C.G. 492099).",
-      "4. Final Selection List preparation based on performance in Interview & Verification of original documents.",
-      "5. Medical Examination by Competent Medical Board at AIIMS Raipur prior to joining."
+      {
+        "stage": "Shortlisting based on Bio-data & Qualifications",
+        "description": "Shortlisting based on Bio-data & Qualifications by Search-cum-Selection Committee."
+      },
+      {
+        "stage": "Screening Test (CBT / Offline Test)",
+        "description": "Screening Test (CBT / Offline Test) in case a large number of applications are received for any post."
+      },
+      {
+        "stage": "Personal Interview",
+        "description": "Conducted at AIIMS Raipur campus (Tatibandh, G.E. Road, Raipur, C.G. 492099)."
+      },
+      {
+        "stage": "Final Selection List preparation based on",
+        "description": "Final Selection List preparation based on performance in Interview & Verification of original documents."
+      },
+      {
+        "stage": "Medical Examination by Competent Medical Board",
+        "description": "Medical Examination by Competent Medical Board at AIIMS Raipur prior to joining."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official AIIMS Raipur portal (www.aiimsraipur.edu.in) and download the prescribed Application Proforma.",
@@ -968,11 +1846,6 @@
       "No Objection Certificate (NOC) if working in Govt / Semi-Govt / Autonomous organization.",
       "Passport-size recent color photographs."
     ],
-    "officialLinks": [
-      { "label": "Official AIIMS Raipur Website", "url": "https://www.aiimsraipur.edu.in" },
-      { "label": "AIIMS Raipur Senior Resident Online Google Form Link", "url": "https://forms.gle/6Wa9sb2i66mDqvMZ9" },
-      { "label": "AIIMS Raipur Senior Resident Official Notification PDF", "url": "https://www.aiimsraipur.edu.in" }
-    ],
     "faqs": [
       {
         "question": "What is the total number of Senior Resident vacancies in AIIMS Raipur Recruitment 2026?",
@@ -993,6 +1866,20 @@
       {
         "question": "What is the application fee for AIIMS Raipur Senior Resident?",
         "answer": "₹1,000/- for General, OBC, and EWS candidates. Women, SC, ST, PwBD, and Ex-Servicemen candidates are exempted from fee payment."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official AIIMS Raipur Website",
+        "url": "https://www.aiimsraipur.edu.in"
+      },
+      {
+        "label": "AIIMS Raipur Senior Resident Online Google Form Link",
+        "url": "https://forms.gle/6Wa9sb2i66mDqvMZ9"
+      },
+      {
+        "label": "AIIMS Raipur Senior Resident Official Notification PDF",
+        "url": "https://www.aiimsraipur.edu.in"
       }
     ]
   },
@@ -1017,72 +1904,243 @@
       "Online registration starts on 20 July 2026 and closes on 19 August 2026 midnight on the official commission website www.jssc.jharkhand.gov.in."
     ],
     "highlights": [
-      { "label": "Recruiting Commission", "value": "Jharkhand Staff Selection Commission (JSSC)" },
-      { "label": "Exam Name", "value": "Jharkhand Intermediate Level Combined Competitive Exam 2026 (JILCCE-2026)" },
-      { "label": "Advertisement No.", "value": "03/2026 (Regular Vacancy)" },
-      { "label": "Total Vacancies", "value": "326 Posts" },
-      { "label": "Educational Qualification", "value": "10+2 (Intermediate) with Science / Math / Biology" },
-      { "label": "Age Limit (Minimum)", "value": "18 Years (as on post-specific reference dates)" },
-      { "label": "Application Fee", "value": "₹100/- (General/OBC/EWS), ₹50/- (SC/ST of Jharkhand)" },
-      { "label": "Official Website", "value": "jssc.jharkhand.gov.in" }
+      {
+        "label": "Recruiting Commission",
+        "value": "Jharkhand Staff Selection Commission (JSSC)"
+      },
+      {
+        "label": "Exam Name",
+        "value": "Jharkhand Intermediate Level Combined Competitive Exam 2026 (JILCCE-2026)"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "03/2026 (Regular Vacancy)"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "326 Posts"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "10+2 (Intermediate) with Science / Math / Biology"
+      },
+      {
+        "label": "Age Limit (Minimum)",
+        "value": "18 Years (as on post-specific reference dates)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹100/- (General/OBC/EWS), ₹50/- (SC/ST of Jharkhand)"
+      },
+      {
+        "label": "Official Website",
+        "value": "jssc.jharkhand.gov.in"
+      }
     ],
     "importantDates": [
-      { "event": "Official Advertisement Release Date", "date": "02 January 2026" },
-      { "event": "Online Registration Start Date", "date": "20 July 2026" },
-      { "event": "Last Date for Online Registration & Application", "date": "19 August 2026 (Midnight)" },
-      { "event": "Last Date for Fee Payment, Photo & Signature Upload", "date": "20 August 2026 (Midnight)" },
-      { "event": "Online Application Correction Window", "date": "21 August 2026 to 23 August 2026 (Midnight)" },
-      { "event": "CBT / OMR Exam Date", "date": "To be notified by JSSC" }
+      {
+        "event": "Official Advertisement Release Date",
+        "date": "02 January 2026"
+      },
+      {
+        "event": "Online Registration Start Date",
+        "date": "20 July 2026"
+      },
+      {
+        "event": "Last Date for Online Registration & Application",
+        "date": "19 August 2026 (Midnight)"
+      },
+      {
+        "event": "Last Date for Fee Payment, Photo & Signature Upload",
+        "date": "20 August 2026 (Midnight)"
+      },
+      {
+        "event": "Online Application Correction Window",
+        "date": "21 August 2026 to 23 August 2026 (Midnight)"
+      },
+      {
+        "event": "CBT / OMR Exam Date",
+        "date": "To be notified by JSSC"
+      }
     ],
-    "applicationFee": {
-      "details": "Application fee is non-refundable. Jharkhand PwD candidates (40% or higher disability) are completely exempt from fee payment.",
-      "breakdown": [
-        { "category": "Unreserved (UR) / EWS / EBC-I / BC-II Candidates", "amount": "₹100.00" },
-        { "category": "SC / ST Candidates residing natively in Jharkhand State", "amount": "₹50.00" },
-        { "category": "Divyang (PwD) Candidates of Jharkhand (≥ 40% Disability)", "amount": "Exempted (₹0.00)" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "Unreserved (UR) / EWS / EBC-I / BC-II Candidates",
+        "fee": "₹100.00",
+        "refund": "Non-refundable"
+      },
+      {
+        "category": "SC / ST Candidates residing natively in Jharkhand State",
+        "fee": "₹50.00",
+        "refund": "Non-refundable"
+      },
+      {
+        "category": "Divyang (PwD) Candidates of Jharkhand (≥ 40% Disability)",
+        "fee": "Exempted (₹0.00)",
+        "refund": "Non-refundable"
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "Health Supervisor (Health Directorate) - Total", "count": 137 },
-      { "category": "Health Supervisor - UR", "count": 57 },
-      { "category": "Health Supervisor - ST (including 1 Primitive Tribe)", "count": 43 },
-      { "category": "Health Supervisor - SC", "count": 16 },
-      { "category": "Health Supervisor - EBC-I", "count": 8 },
-      { "category": "Health Supervisor - BC-II", "count": 0 },
-      { "category": "Health Supervisor - EWS", "count": 13 },
-      { "category": "Junior Regional Inspector (Planning & Dev / Economics & Stats) - Total", "count": 27 },
-      { "category": "Junior Regional Inspector - UR", "count": 12 },
-      { "category": "Junior Regional Inspector - ST", "count": 4 },
-      { "category": "Junior Regional Inspector - SC", "count": 3 },
-      { "category": "Junior Regional Inspector - EBC-I", "count": 3 },
-      { "category": "Junior Regional Inspector - BC-II", "count": 3 },
-      { "category": "Junior Regional Inspector - EWS", "count": 2 },
-      { "category": "Multipurpose Health Worker (Health & Family Welfare) - Total", "count": 62 },
-      { "category": "Multipurpose Health Worker - UR", "count": 35 },
-      { "category": "Multipurpose Health Worker - ST", "count": 14 },
-      { "category": "Multipurpose Health Worker - SC", "count": 7 },
-      { "category": "Multipurpose Health Worker - EWS", "count": 6 },
-      { "category": "Veterinary / Medical Assistant (Urban Dev & Housing Dept) - Total", "count": 27 },
-      { "category": "Veterinary Assistant - UR", "count": 12 },
-      { "category": "Veterinary Assistant - ST", "count": 7 },
-      { "category": "Veterinary Assistant - SC", "count": 3 },
-      { "category": "Veterinary Assistant - EBC-I", "count": 2 },
-      { "category": "Veterinary Assistant - BC-II", "count": 1 },
-      { "category": "Veterinary Assistant - EWS", "count": 2 },
-      { "category": "Insect Collector (Health Directorate) - Total", "count": 32 },
-      { "category": "Insect Collector - UR", "count": 15 },
-      { "category": "Insect Collector - ST", "count": 6 },
-      { "category": "Insect Collector - SC", "count": 3 },
-      { "category": "Insect Collector - EBC-I", "count": 3 },
-      { "category": "Insect Collector - BC-II", "count": 2 },
-      { "category": "Insect Collector - EWS", "count": 3 },
-      { "category": "Fisheries Technical Assistant (Agri, Animal Husbandry & Coop) - Total", "count": 41 },
-      { "category": "Fisheries Technical Assistant - UR", "count": 17 },
-      { "category": "Fisheries Technical Assistant - ST", "count": 10 },
-      { "category": "Fisheries Technical Assistant - SC", "count": 4 },
-      { "category": "Fisheries Technical Assistant - EBC-I", "count": 3 },
-      { "category": "Fisheries Technical Assistant - BC-II", "count": 3 },
-      { "category": "Fisheries Technical Assistant - EWS", "count": 4 }
+      {
+        "category": "Health Supervisor (Health Directorate) - Total",
+        "count": 137
+      },
+      {
+        "category": "Health Supervisor - UR",
+        "count": 57
+      },
+      {
+        "category": "Health Supervisor - ST (including 1 Primitive Tribe)",
+        "count": 43
+      },
+      {
+        "category": "Health Supervisor - SC",
+        "count": 16
+      },
+      {
+        "category": "Health Supervisor - EBC-I",
+        "count": 8
+      },
+      {
+        "category": "Health Supervisor - BC-II",
+        "count": 0
+      },
+      {
+        "category": "Health Supervisor - EWS",
+        "count": 13
+      },
+      {
+        "category": "Junior Regional Inspector (Planning & Dev / Economics & Stats) - Total",
+        "count": 27
+      },
+      {
+        "category": "Junior Regional Inspector - UR",
+        "count": 12
+      },
+      {
+        "category": "Junior Regional Inspector - ST",
+        "count": 4
+      },
+      {
+        "category": "Junior Regional Inspector - SC",
+        "count": 3
+      },
+      {
+        "category": "Junior Regional Inspector - EBC-I",
+        "count": 3
+      },
+      {
+        "category": "Junior Regional Inspector - BC-II",
+        "count": 3
+      },
+      {
+        "category": "Junior Regional Inspector - EWS",
+        "count": 2
+      },
+      {
+        "category": "Multipurpose Health Worker (Health & Family Welfare) - Total",
+        "count": 62
+      },
+      {
+        "category": "Multipurpose Health Worker - UR",
+        "count": 35
+      },
+      {
+        "category": "Multipurpose Health Worker - ST",
+        "count": 14
+      },
+      {
+        "category": "Multipurpose Health Worker - SC",
+        "count": 7
+      },
+      {
+        "category": "Multipurpose Health Worker - EWS",
+        "count": 6
+      },
+      {
+        "category": "Veterinary / Medical Assistant (Urban Dev & Housing Dept) - Total",
+        "count": 27
+      },
+      {
+        "category": "Veterinary Assistant - UR",
+        "count": 12
+      },
+      {
+        "category": "Veterinary Assistant - ST",
+        "count": 7
+      },
+      {
+        "category": "Veterinary Assistant - SC",
+        "count": 3
+      },
+      {
+        "category": "Veterinary Assistant - EBC-I",
+        "count": 2
+      },
+      {
+        "category": "Veterinary Assistant - BC-II",
+        "count": 1
+      },
+      {
+        "category": "Veterinary Assistant - EWS",
+        "count": 2
+      },
+      {
+        "category": "Insect Collector (Health Directorate) - Total",
+        "count": 32
+      },
+      {
+        "category": "Insect Collector - UR",
+        "count": 15
+      },
+      {
+        "category": "Insect Collector - ST",
+        "count": 6
+      },
+      {
+        "category": "Insect Collector - SC",
+        "count": 3
+      },
+      {
+        "category": "Insect Collector - EBC-I",
+        "count": 3
+      },
+      {
+        "category": "Insect Collector - BC-II",
+        "count": 2
+      },
+      {
+        "category": "Insect Collector - EWS",
+        "count": 3
+      },
+      {
+        "category": "Fisheries Technical Assistant (Agri, Animal Husbandry & Coop) - Total",
+        "count": 41
+      },
+      {
+        "category": "Fisheries Technical Assistant - UR",
+        "count": 17
+      },
+      {
+        "category": "Fisheries Technical Assistant - ST",
+        "count": 10
+      },
+      {
+        "category": "Fisheries Technical Assistant - SC",
+        "count": 4
+      },
+      {
+        "category": "Fisheries Technical Assistant - EBC-I",
+        "count": 3
+      },
+      {
+        "category": "Fisheries Technical Assistant - BC-II",
+        "count": 3
+      },
+      {
+        "category": "Fisheries Technical Assistant - EWS",
+        "count": 4
+      }
     ],
     "eligibility": {
       "education": [
@@ -1095,12 +2153,30 @@
       ],
       "ageLimit": "Minimum age is 18 years for all posts as on specified calculation reference date. Maximum age limit varies from 35 to 40 years based on category.",
       "ageRelaxation": [
-        { "category": "Unreserved (UR) & EWS (Male & Female)", "relaxation": "35 Years Maximum Age" },
-        { "category": "Extremely Backward Class (EBC-I) & Backward Class (BC-II) Male", "relaxation": "37 Years Maximum Age" },
-        { "category": "UR / EWS / EBC-I / BC-II Female Candidates", "relaxation": "38 Years Maximum Age" },
-        { "category": "SC / ST Candidates (Male & Female)", "relaxation": "40 Years Maximum Age" },
-        { "category": "Divyang (PwD) Candidates (All Categories)", "relaxation": "10 Years Additional Age Relaxation" },
-        { "category": "Ex-Servicemen Candidates", "relaxation": "5 Years Additional Age Relaxation" }
+        {
+          "category": "Unreserved (UR) & EWS (Male & Female)",
+          "relaxation": "35 Years Maximum Age"
+        },
+        {
+          "category": "Extremely Backward Class (EBC-I) & Backward Class (BC-II) Male",
+          "relaxation": "37 Years Maximum Age"
+        },
+        {
+          "category": "UR / EWS / EBC-I / BC-II Female Candidates",
+          "relaxation": "38 Years Maximum Age"
+        },
+        {
+          "category": "SC / ST Candidates (Male & Female)",
+          "relaxation": "40 Years Maximum Age"
+        },
+        {
+          "category": "Divyang (PwD) Candidates (All Categories)",
+          "relaxation": "10 Years Additional Age Relaxation"
+        },
+        {
+          "category": "Ex-Servicemen Candidates",
+          "relaxation": "5 Years Additional Age Relaxation"
+        }
       ],
       "medicalStandards": [
         "Age calculation reference dates per post: Health Supervisor (01-08-2023), Junior Regional Inspector (01-08-2025), Multipurpose Health Worker (01-08-2023), Veterinary Assistant (01-08-2023), Insect Collector (01-08-2024), Fisheries Technical Assistant (01-08-2024).",
@@ -1121,13 +2197,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Preliminary Examination (if total applications exceed 50,000): 120 Objective MCQs of 2 Hours duration. Subjects: General Studies (30 Qs), Jharkhand GK (60 Qs), General Math (10 Qs), General Science (10 Qs), Reasoning (10 Qs). Qualifying in nature.",
-      "2. Mains Written Examination (3 Papers of 2 Hours each):",
-      "   - Paper 1 (Language Knowledge): Hindi (60 Qs) + English (60 Qs) = 120 Questions. Qualifying nature (Minimum 30% required, marks not added to merit list).",
-      "   - Paper 2 (Regional / Tribal Language): 100 MCQs in chosen regional language (Hindi, English, Urdu, Santhali, Bengali, Mundari, Ho, Khadia, Kudukh, Kurmali, Khortha, Nagpuri, Panchpargania, Odia, Sanskrit). Min 30% required.",
-      "3. Paper 3 (General Knowledge): 120 Questions (General Studies 30 Qs, Jharkhand GK 40 Qs, General Science 20 Qs, General Math 10 Qs, Reasoning 10 Qs, Computer Basics 10 Qs). Min 30% required.",
-      "4. Final Merit List Preparation: Based on consolidated combined marks of Paper 2 + Paper 3 (Equal marks resolved by Age & English Name Spelling).",
-      "5. Document Verification (DV) & Medical Scrutiny."
+      {
+        "stage": "Preliminary Examination (if total applications exceed 50,000)",
+        "description": "120 Objective MCQs of 2 Hours duration. Subjects: General Studies (30 Qs), Jharkhand GK (60 Qs), General Math (10 Qs), General Science (10 Qs), Reasoning (10 Qs). Qualifying in nature."
+      },
+      {
+        "stage": "Mains Written Examination (3 Papers of 2 Hours each)",
+        "description": "- Paper 1 (Language Knowledge): Hindi (60 Qs) + English (60 Qs) = 120 Questions. Qualifying nature (Minimum 30% required, marks not added to merit list). - Paper 2 (Regional / Tribal Language): 100 MCQs in chosen regional language (Hindi, English, Urdu, Santhali, Bengali, Mundari, Ho, Khadia, Kudukh, Kurmali, Khortha, Nagpuri, Panchpargania, Odia, Sanskrit). Min 30% required."
+      },
+      {
+        "stage": "Paper 3 (General Knowledge)",
+        "description": "120 Questions (General Studies 30 Qs, Jharkhand GK 40 Qs, General Science 20 Qs, General Math 10 Qs, Reasoning 10 Qs, Computer Basics 10 Qs). Min 30% required."
+      },
+      {
+        "stage": "Final Merit List Preparation",
+        "description": "Based on consolidated combined marks of Paper 2 + Paper 3 (Equal marks resolved by Age & English Name Spelling)."
+      },
+      {
+        "stage": "Document Verification (DV) & Medical Scrutiny.",
+        "description": "Document Verification (DV) & Medical Scrutiny."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official portal of JSSC (jssc.jharkhand.gov.in).",
@@ -1147,11 +2236,6 @@
       "EWS Income & Asset Certificate (issued by SDO/CO).",
       "Divyangjan (PwD) Disability Certificate (Min 40% disability issued by Civil Surgeon/Medical Board).",
       "Scanned Photograph & Signature."
-    ],
-    "officialLinks": [
-      { "label": "Official JSSC Recruitment Portal", "url": "https://jssc.jharkhand.gov.in" },
-      { "label": "JSSC JILCCE 2026 Official Notification PDF (Advt 03/2026)", "url": "https://jssc.jharkhand.gov.in" },
-      { "label": "Jharkhand Government Official Portal", "url": "https://jharkhand.gov.in" }
     ],
     "faqs": [
       {
@@ -1173,6 +2257,20 @@
       {
         "question": "What is the examination fee for JILCCE 2026?",
         "answer": "₹100 for General / EWS / EBC-I / BC-II candidates and ₹50 for SC/ST candidates of Jharkhand state. PwD candidates (≥ 40% disability) are completely exempt."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official JSSC Recruitment Portal",
+        "url": "https://jssc.jharkhand.gov.in"
+      },
+      {
+        "label": "JSSC JILCCE 2026 Official Notification PDF (Advt 03/2026)",
+        "url": "https://jssc.jharkhand.gov.in"
+      },
+      {
+        "label": "Jharkhand Government Official Portal",
+        "url": "https://jharkhand.gov.in"
       }
     ]
   },
@@ -1197,51 +2295,157 @@
       "The selection process comprises Physical Standard Test (PST), Physical Efficiency Test (PET), 90 Marks Written Examination, Document Verification (with NCC marks), and Medical Examination."
     ],
     "highlights": [
-      { "label": "Recruiting Commission", "value": "Himachal Pradesh Public Service Commission (HPPSC)" },
-      { "label": "Department", "value": "Himachal Pradesh Police Department" },
-      { "label": "Advertisement No.", "value": "58/7-2026 (Dated 10-07-2026)" },
-      { "label": "Post Name", "value": "Constable (Female) Class-III Non-Gazetted" },
-      { "label": "Total Vacancies", "value": "243 Posts" },
-      { "label": "Pay Scale", "value": "Pay Band Level-3 (₹20,200 – ₹64,000)" },
-      { "label": "Educational Qualification", "value": "10+2 (Class 12th) Passed" },
-      { "label": "Age Limit (as on 01.01.2026)", "value": "18 to 25 Years (General / EWS / Ward of Ex-SM)" },
-      { "label": "Application Fee", "value": "₹600/- for All Categories" },
-      { "label": "Official Website", "value": "hppsc.hp.gov.in/hppsc" }
+      {
+        "label": "Recruiting Commission",
+        "value": "Himachal Pradesh Public Service Commission (HPPSC)"
+      },
+      {
+        "label": "Department",
+        "value": "Himachal Pradesh Police Department"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "58/7-2026 (Dated 10-07-2026)"
+      },
+      {
+        "label": "Post Name",
+        "value": "Constable (Female) Class-III Non-Gazetted"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "243 Posts"
+      },
+      {
+        "label": "Pay Scale",
+        "value": "Pay Band Level-3 (₹20,200 – ₹64,000)"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "10+2 (Class 12th) Passed"
+      },
+      {
+        "label": "Age Limit (as on 01.01.2026)",
+        "value": "18 to 25 Years (General / EWS / Ward of Ex-SM)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹600/- for All Categories"
+      },
+      {
+        "label": "Official Website",
+        "value": "hppsc.hp.gov.in/hppsc"
+      }
     ],
     "importantDates": [
-      { "event": "Official Advertisement Release Date", "date": "10 July 2026" },
-      { "event": "Online Application Registration Start Date", "date": "10 July 2026" },
-      { "event": "Last Date for Submission of Online Application (ORA)", "date": "31 August 2026 (11:59 PM)" },
-      { "event": "PST / PET Physical Efficiency Test Date", "date": "To be intimated by HP Police Dept" },
-      { "event": "Offline Written Examination Date", "date": "To be intimated by HPPSC" }
+      {
+        "event": "Official Advertisement Release Date",
+        "date": "10 July 2026"
+      },
+      {
+        "event": "Online Application Registration Start Date",
+        "date": "10 July 2026"
+      },
+      {
+        "event": "Last Date for Submission of Online Application (ORA)",
+        "date": "31 August 2026 (11:59 PM)"
+      },
+      {
+        "event": "PST / PET Physical Efficiency Test Date",
+        "date": "To be intimated by HP Police Dept"
+      },
+      {
+        "event": "Offline Written Examination Date",
+        "date": "To be intimated by HPPSC"
+      }
     ],
-    "applicationFee": {
-      "details": "A uniform examination fee of ₹600/- is charged from all candidates irrespective of category via Debit Card / Credit Card / UPI / Online digital mode.",
-      "breakdown": [
-        { "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)", "amount": "₹600.00" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)",
+        "fee": "₹600.00",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "General / Unreserved (UR)", "count": 60 },
-      { "category": "UR Wards of Freedom Fighters (WFF)", "count": 3 },
-      { "category": "UR Ward of Ex-Servicemen", "count": 22 },
-      { "category": "UR Home Guards", "count": 16 },
-      { "category": "Scheduled Caste (SC) UR", "count": 28 },
-      { "category": "SC WFF", "count": 7 },
-      { "category": "SC BPL", "count": 8 },
-      { "category": "SC Ward of Ex-SM", "count": 7 },
-      { "category": "SC Home Guards", "count": 8 },
-      { "category": "Scheduled Tribe (ST) UR", "count": 5 },
-      { "category": "ST BPL", "count": 3 },
-      { "category": "ST Ward of Ex-SM", "count": 2 },
-      { "category": "ST Home Guards", "count": 2 },
-      { "category": "OBC UR", "count": 24 },
-      { "category": "OBC WFF", "count": 6 },
-      { "category": "OBC BPL", "count": 7 },
-      { "category": "OBC Ward of Ex-SM", "count": 5 },
-      { "category": "OBC Home Guards", "count": 6 },
-      { "category": "Economically Weaker Section (EWS)", "count": 20 },
-      { "category": "EWS Home Guards", "count": 4 }
+      {
+        "category": "General / Unreserved (UR)",
+        "count": 60
+      },
+      {
+        "category": "UR Wards of Freedom Fighters (WFF)",
+        "count": 3
+      },
+      {
+        "category": "UR Ward of Ex-Servicemen",
+        "count": 22
+      },
+      {
+        "category": "UR Home Guards",
+        "count": 16
+      },
+      {
+        "category": "Scheduled Caste (SC) UR",
+        "count": 28
+      },
+      {
+        "category": "SC WFF",
+        "count": 7
+      },
+      {
+        "category": "SC BPL",
+        "count": 8
+      },
+      {
+        "category": "SC Ward of Ex-SM",
+        "count": 7
+      },
+      {
+        "category": "SC Home Guards",
+        "count": 8
+      },
+      {
+        "category": "Scheduled Tribe (ST) UR",
+        "count": 5
+      },
+      {
+        "category": "ST BPL",
+        "count": 3
+      },
+      {
+        "category": "ST Ward of Ex-SM",
+        "count": 2
+      },
+      {
+        "category": "ST Home Guards",
+        "count": 2
+      },
+      {
+        "category": "OBC UR",
+        "count": 24
+      },
+      {
+        "category": "OBC WFF",
+        "count": 6
+      },
+      {
+        "category": "OBC BPL",
+        "count": 7
+      },
+      {
+        "category": "OBC Ward of Ex-SM",
+        "count": 5
+      },
+      {
+        "category": "OBC Home Guards",
+        "count": 6
+      },
+      {
+        "category": "Economically Weaker Section (EWS)",
+        "count": 20
+      },
+      {
+        "category": "EWS Home Guards",
+        "count": 4
+      }
     ],
     "eligibility": {
       "education": [
@@ -1250,10 +2454,22 @@
       ],
       "ageLimit": "Minimum 18 years and Maximum 25 years as on 01.01.2026 for General / EWS / Ward of Ex-SM candidates.",
       "ageRelaxation": [
-        { "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas", "relaxation": "18 to 27 Years (2 Years Age Relaxation)" },
-        { "category": "OBC / OBC Ward of Ex-SM", "relaxation": "18 to 27 Years (2 Years Age Relaxation)" },
-        { "category": "Home Guards (Gen / OBC / EWS)", "relaxation": "20 to 28 Years" },
-        { "category": "Home Guards (SC / ST / Gorkhas)", "relaxation": "20 to 28 Years" }
+        {
+          "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas",
+          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
+        },
+        {
+          "category": "OBC / OBC Ward of Ex-SM",
+          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
+        },
+        {
+          "category": "Home Guards (Gen / OBC / EWS)",
+          "relaxation": "20 to 28 Years"
+        },
+        {
+          "category": "Home Guards (SC / ST / Gorkhas)",
+          "relaxation": "20 to 28 Years"
+        }
       ],
       "medicalStandards": [
         "Physical Height (Gen/EWS/OBC/HG): Min 5 Feet 2 Inches (5'-2\").",
@@ -1270,11 +2486,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Physical Standard Test (PST): Measurement of Height. Marks awarded for height (0 to 6 Marks).",
-      "2. Physical Efficiency Test (PET - Female): 800m Race (3 min 45 sec), High Jump (1.10m in 3 attempts), 100m Race (17 sec), Broad Jump (3m in 3 attempts). Qualifying nature.",
-      "3. Written Examination: 90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking).",
-      "4. NCC Certificate Evaluation & Document Verification: NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark.",
-      "5. Final Merit List (100 Marks Total): Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
+      {
+        "stage": "Physical Standard Test (PST)",
+        "description": "Measurement of Height. Marks awarded for height (0 to 6 Marks)."
+      },
+      {
+        "stage": "Physical Efficiency Test (PET - Female)",
+        "description": "800m Race (3 min 45 sec), High Jump (1.10m in 3 attempts), 100m Race (17 sec), Broad Jump (3m in 3 attempts). Qualifying nature."
+      },
+      {
+        "stage": "Written Examination",
+        "description": "90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking)."
+      },
+      {
+        "stage": "NCC Certificate Evaluation & Document Verification",
+        "description": "NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark."
+      },
+      {
+        "stage": "Final Merit List (100 Marks Total)",
+        "description": "Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official website of HPPSC (hppsc.hp.gov.in/hppsc).",
@@ -1293,11 +2524,6 @@
       "Service Certificate for Home Guard candidates.",
       "NCC Certificate (A / B / C) for bonus marks.",
       "Scanned recent Passport size Photograph & Signature."
-    ],
-    "officialLinks": [
-      { "label": "Official HPPSC Recruitment Portal", "url": "http://www.hppsc.hp.gov.in/hppsc" },
-      { "label": "HPPSC HP Police Female Constable Advertisement PDF", "url": "http://www.hppsc.hp.gov.in/hppsc" },
-      { "label": "Himachal Pradesh Police Department Official Website", "url": "https://hppolice.gov.in" }
     ],
     "faqs": [
       {
@@ -1319,6 +2545,20 @@
       {
         "question": "What is the application fee for HP Police Constable recruitment?",
         "answer": "A uniform application fee of ₹600.00 is charged from all candidates across all categories."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official HPPSC Recruitment Portal",
+        "url": "http://www.hppsc.hp.gov.in/hppsc"
+      },
+      {
+        "label": "HPPSC HP Police Female Constable Advertisement PDF",
+        "url": "http://www.hppsc.hp.gov.in/hppsc"
+      },
+      {
+        "label": "Himachal Pradesh Police Department Official Website",
+        "url": "https://hppolice.gov.in"
       }
     ]
   },
@@ -1343,47 +2583,141 @@
       "The selection process comprises Physical Standard Test (PST), Physical Efficiency Test (PET), 90 Marks Written Examination, Document Verification (with NCC marks), and Medical Examination."
     ],
     "highlights": [
-      { "label": "Recruiting Commission", "value": "Himachal Pradesh Public Service Commission (HPPSC)" },
-      { "label": "Department", "value": "Himachal Pradesh Police Department" },
-      { "label": "Advertisement No.", "value": "57/7-2026 (Dated 10-07-2026)" },
-      { "label": "Post Name", "value": "Constable (Male) Class-III Non-Gazetted" },
-      { "label": "Total Vacancies", "value": "491 Posts" },
-      { "label": "Pay Scale", "value": "Pay Band Level-3 (₹20,200 – ₹64,000)" },
-      { "label": "Educational Qualification", "value": "10+2 (Class 12th) Passed" },
-      { "label": "Age Limit (as on 01.01.2026)", "value": "18 to 25 Years (General / EWS)" },
-      { "label": "Application Fee", "value": "₹600/- for All Categories" },
-      { "label": "Official Website", "value": "hppsc.hp.gov.in/hppsc" }
+      {
+        "label": "Recruiting Commission",
+        "value": "Himachal Pradesh Public Service Commission (HPPSC)"
+      },
+      {
+        "label": "Department",
+        "value": "Himachal Pradesh Police Department"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "57/7-2026 (Dated 10-07-2026)"
+      },
+      {
+        "label": "Post Name",
+        "value": "Constable (Male) Class-III Non-Gazetted"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "491 Posts"
+      },
+      {
+        "label": "Pay Scale",
+        "value": "Pay Band Level-3 (₹20,200 – ₹64,000)"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "10+2 (Class 12th) Passed"
+      },
+      {
+        "label": "Age Limit (as on 01.01.2026)",
+        "value": "18 to 25 Years (General / EWS)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹600/- for All Categories"
+      },
+      {
+        "label": "Official Website",
+        "value": "hppsc.hp.gov.in/hppsc"
+      }
     ],
     "importantDates": [
-      { "event": "Official Advertisement Release Date", "date": "10 July 2026" },
-      { "event": "Online Application Registration Start Date", "date": "10 July 2026" },
-      { "event": "Last Date for Submission of Online Application (ORA)", "date": "31 August 2026 (11:59 PM)" },
-      { "event": "PST / PET Physical Efficiency Test Date", "date": "To be intimated by HP Police Dept" },
-      { "event": "Offline Written Examination Date", "date": "To be intimated by HPPSC" }
+      {
+        "event": "Official Advertisement Release Date",
+        "date": "10 July 2026"
+      },
+      {
+        "event": "Online Application Registration Start Date",
+        "date": "10 July 2026"
+      },
+      {
+        "event": "Last Date for Submission of Online Application (ORA)",
+        "date": "31 August 2026 (11:59 PM)"
+      },
+      {
+        "event": "PST / PET Physical Efficiency Test Date",
+        "date": "To be intimated by HP Police Dept"
+      },
+      {
+        "event": "Offline Written Examination Date",
+        "date": "To be intimated by HPPSC"
+      }
     ],
-    "applicationFee": {
-      "details": "A uniform examination fee of ₹600/- is charged from all candidates irrespective of category via Debit Card / Credit Card / UPI / Online digital mode.",
-      "breakdown": [
-        { "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)", "amount": "₹600.00" }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)",
+        "fee": "₹600.00",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
-      { "category": "General / Unreserved (UR)", "count": 140 },
-      { "category": "UR Wards of Freedom Fighters (WFF)", "count": 9 },
-      { "category": "UR Home Guards", "count": 38 },
-      { "category": "Scheduled Caste (SC) UR", "count": 68 },
-      { "category": "SC WFF", "count": 19 },
-      { "category": "SC BPL", "count": 17 },
-      { "category": "SC Home Guards", "count": 18 },
-      { "category": "Scheduled Tribe (ST) UR", "count": 13 },
-      { "category": "ST BPL", "count": 6 },
-      { "category": "ST Home Guards", "count": 4 },
-      { "category": "OBC UR", "count": 54 },
-      { "category": "OBC WFF", "count": 16 },
-      { "category": "OBC BPL", "count": 17 },
-      { "category": "OBC Home Guards", "count": 15 },
-      { "category": "Economically Weaker Section (EWS)", "count": 48 },
-      { "category": "EWS Home Guards", "count": 9 }
+      {
+        "category": "General / Unreserved (UR)",
+        "count": 140
+      },
+      {
+        "category": "UR Wards of Freedom Fighters (WFF)",
+        "count": 9
+      },
+      {
+        "category": "UR Home Guards",
+        "count": 38
+      },
+      {
+        "category": "Scheduled Caste (SC) UR",
+        "count": 68
+      },
+      {
+        "category": "SC WFF",
+        "count": 19
+      },
+      {
+        "category": "SC BPL",
+        "count": 17
+      },
+      {
+        "category": "SC Home Guards",
+        "count": 18
+      },
+      {
+        "category": "Scheduled Tribe (ST) UR",
+        "count": 13
+      },
+      {
+        "category": "ST BPL",
+        "count": 6
+      },
+      {
+        "category": "ST Home Guards",
+        "count": 4
+      },
+      {
+        "category": "OBC UR",
+        "count": 54
+      },
+      {
+        "category": "OBC WFF",
+        "count": 16
+      },
+      {
+        "category": "OBC BPL",
+        "count": 17
+      },
+      {
+        "category": "OBC Home Guards",
+        "count": 15
+      },
+      {
+        "category": "Economically Weaker Section (EWS)",
+        "count": 48
+      },
+      {
+        "category": "EWS Home Guards",
+        "count": 9
+      }
     ],
     "eligibility": {
       "education": [
@@ -1392,10 +2726,22 @@
       ],
       "ageLimit": "Minimum 18 years and Maximum 25 years as on 01.01.2026 for General / EWS candidates.",
       "ageRelaxation": [
-        { "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas", "relaxation": "18 to 27 Years (2 Years Age Relaxation)" },
-        { "category": "OBC / OBC Ward of Ex-SM", "relaxation": "18 to 27 Years (2 Years Age Relaxation)" },
-        { "category": "Home Guards (Gen / OBC / EWS)", "relaxation": "20 to 28 Years" },
-        { "category": "Home Guards (SC / ST / Gorkhas)", "relaxation": "20 to 28 Years" }
+        {
+          "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas",
+          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
+        },
+        {
+          "category": "OBC / OBC Ward of Ex-SM",
+          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
+        },
+        {
+          "category": "Home Guards (Gen / OBC / EWS)",
+          "relaxation": "20 to 28 Years"
+        },
+        {
+          "category": "Home Guards (SC / ST / Gorkhas)",
+          "relaxation": "20 to 28 Years"
+        }
       ],
       "medicalStandards": [
         "Physical Height (Gen/EWS/OBC/HG): Min 5 Feet 6 Inches (5'-6\"); Chest 31\" x 32\".",
@@ -1412,11 +2758,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Physical Standard Test (PST): Measurement of Height and Chest. Marks awarded for height (0 to 6 Marks).",
-      "2. Physical Efficiency Test (PET): 1500m Race (5 min 30 sec), High Jump (1.35m in 3 attempts), 100m Race (14 sec), Broad Jump (4m in 3 attempts). Qualifying nature.",
-      "3. Written Examination: 90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking).",
-      "4. NCC Certificate Evaluation & Document Verification: NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark.",
-      "5. Final Merit List (100 Marks Total): Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
+      {
+        "stage": "Physical Standard Test (PST)",
+        "description": "Measurement of Height and Chest. Marks awarded for height (0 to 6 Marks)."
+      },
+      {
+        "stage": "Physical Efficiency Test (PET)",
+        "description": "1500m Race (5 min 30 sec), High Jump (1.35m in 3 attempts), 100m Race (14 sec), Broad Jump (4m in 3 attempts). Qualifying nature."
+      },
+      {
+        "stage": "Written Examination",
+        "description": "90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking)."
+      },
+      {
+        "stage": "NCC Certificate Evaluation & Document Verification",
+        "description": "NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark."
+      },
+      {
+        "stage": "Final Merit List (100 Marks Total)",
+        "description": "Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official website of HPPSC (hppsc.hp.gov.in/hppsc).",
@@ -1435,11 +2796,6 @@
       "Service Certificate for Home Guard candidates.",
       "NCC Certificate (A / B / C) for bonus marks.",
       "Scanned recent Passport size Photograph & Signature."
-    ],
-    "officialLinks": [
-      { "label": "Official HPPSC Recruitment Portal", "url": "http://www.hppsc.hp.gov.in/hppsc" },
-      { "label": "HPPSC HP Police Constable Advertisement PDF", "url": "http://www.hppsc.hp.gov.in/hppsc" },
-      { "label": "Himachal Pradesh Police Department Official Website", "url": "https://hppolice.gov.in" }
     ],
     "faqs": [
       {
@@ -1461,6 +2817,20 @@
       {
         "question": "What is the application fee for HP Police Constable recruitment?",
         "answer": "A uniform application fee of ₹600.00 is charged from all candidates across all categories."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Official HPPSC Recruitment Portal",
+        "url": "http://www.hppsc.hp.gov.in/hppsc"
+      },
+      {
+        "label": "HPPSC HP Police Constable Advertisement PDF",
+        "url": "http://www.hppsc.hp.gov.in/hppsc"
+      },
+      {
+        "label": "Himachal Pradesh Police Department Official Website",
+        "url": "https://hppolice.gov.in"
       }
     ]
   },
@@ -1544,19 +2914,18 @@
         "date": "November 2026 (Tentative)"
       }
     ],
-    "applicationFee": {
-      "details": "Application fee details will be updated upon release of full detailed notification. (Generally exempt for SC/ST/PwBD/ESM/Female candidates).",
-      "breakdown": [
-        {
-          "category": "General / EWS / OBC",
-          "amount": "To be notified in detailed PDF"
-        },
-        {
-          "category": "SC / ST / PwBD / Female",
-          "amount": "Exempted (Expected ₹0)"
-        }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "General / EWS / OBC",
+        "fee": "To be notified in detailed PDF",
+        "refund": ""
+      },
+      {
+        "category": "SC / ST / PwBD / Female",
+        "fee": "Exempted (Expected ₹0)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
       {
         "category": "Tradesman Mate",
@@ -1617,11 +2986,26 @@
       ]
     },
     "selectionProcess": [
-      "1. Written Examination: Objective multiple-choice paper carrying 100 questions (100 Marks) covering General Intelligence & Reasoning (25 Q), General Awareness (25 Q), Numerical Aptitude (25 Q), and English Language (25 Q).",
-      "2. Physical Efficiency Test (PET): Applicable for Fireman & Tradesman Mate posts.",
-      "3. Typing Speed Test: Applicable for Junior Office Assistant (JOA) post (English 35 wpm).",
-      "4. Document Verification: Scrutiny of original certificates, educational proofs, and category certificates.",
-      "5. Medical Examination: Medical fitness test conducted at designated Military Hospital / Medical Authority."
+      {
+        "stage": "Written Examination",
+        "description": "Objective multiple-choice paper carrying 100 questions (100 Marks) covering General Intelligence & Reasoning (25 Q), General Awareness (25 Q), Numerical Aptitude (25 Q), and English Language (25 Q)."
+      },
+      {
+        "stage": "Physical Efficiency Test (PET)",
+        "description": "Applicable for Fireman & Tradesman Mate posts."
+      },
+      {
+        "stage": "Typing Speed Test",
+        "description": "Applicable for Junior Office Assistant (JOA) post (English 35 wpm)."
+      },
+      {
+        "stage": "Document Verification",
+        "description": "Scrutiny of original certificates, educational proofs, and category certificates."
+      },
+      {
+        "stage": "Medical Examination",
+        "description": "Medical fitness test conducted at designated Military Hospital / Medical Authority."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Visit the official Army Ordnance Corps recruitment website (aocrecruitment.gov.in).",
@@ -1640,20 +3024,6 @@
       "Valid Photo ID Proof (Aadhaar Card / PAN Card / Voter ID).",
       "Recent Passport Size Color Photographs with clear background.",
       "Signature image (clear black/blue ink on white paper)."
-    ],
-    "officialLinks": [
-      {
-        "label": "Army AOC Official Recruitment Website",
-        "url": "https://aocrecruitment.gov.in"
-      },
-      {
-        "label": "AOC Group C Short Notice PDF Link",
-        "url": "https://aocrecruitment.gov.in"
-      },
-      {
-        "label": "Ministry of Defence Official Portal",
-        "url": "https://mod.gov.in"
-      }
     ],
     "faqs": [
       {
@@ -1675,6 +3045,20 @@
       {
         "question": "What is the salary pay scale for AOC Group C posts?",
         "answer": "Tradesman Mate & MTS are in Pay Level-1 (₹18,000-56,900); Fireman & JOA are in Pay Level-2 (₹19,900-63,200); and Material Assistant is in Pay Level-5 (₹29,200-92,300)."
+      }
+    ],
+    "urls": [
+      {
+        "label": "Army AOC Official Recruitment Website",
+        "url": "https://aocrecruitment.gov.in"
+      },
+      {
+        "label": "AOC Group C Short Notice PDF Link",
+        "url": "https://aocrecruitment.gov.in"
+      },
+      {
+        "label": "Ministry of Defence Official Portal",
+        "url": "https://mod.gov.in"
       }
     ]
   },
@@ -1766,31 +3150,33 @@
         "date": "To be notified via email / SMS"
       }
     ],
-    "applicationFee": {
-      "details": "Zero Application Fee for all candidates across all categories.",
-      "breakdown": [
-        {
-          "category": "General / UR",
-          "amount": "₹0 (Exempted)"
-        },
-        {
-          "category": "EWS",
-          "amount": "₹0 (Exempted)"
-        },
-        {
-          "category": "OBC (NCL)",
-          "amount": "₹0 (Exempted)"
-        },
-        {
-          "category": "SC / ST",
-          "amount": "₹0 (Exempted)"
-        },
-        {
-          "category": "PwBD / Female",
-          "amount": "₹0 (Exempted)"
-        }
-      ]
-    },
+    "applicationFee": [
+      {
+        "category": "General / UR",
+        "fee": "₹0 (Exempted)",
+        "refund": ""
+      },
+      {
+        "category": "EWS",
+        "fee": "₹0 (Exempted)",
+        "refund": ""
+      },
+      {
+        "category": "OBC (NCL)",
+        "fee": "₹0 (Exempted)",
+        "refund": ""
+      },
+      {
+        "category": "SC / ST",
+        "fee": "₹0 (Exempted)",
+        "refund": ""
+      },
+      {
+        "category": "PwBD / Female",
+        "fee": "₹0 (Exempted)",
+        "refund": ""
+      }
+    ],
     "vacanciesDetails": [
       {
         "category": "Delhi State",
@@ -1973,11 +3359,26 @@
       ]
     },
     "selectionProcess": [
-      "No Written Test / Examination will be conducted.",
-      "No Interview will be held.",
-      "Merit List Generation: Purely based on aggregate percentage of marks secured in the prescribed essential qualification.",
-      "Tie Breaking Rule: Older candidate by date of birth receives higher rank; if DOB is same, higher percentage in Matriculation (10th) is considered.",
-      "Document Verification: Shortlisted candidates on merit will be called for Document Verification and Pre-engagement medical fitness check."
+      {
+        "stage": "No Written Test / Examination will",
+        "description": "No Written Test / Examination will be conducted."
+      },
+      {
+        "stage": "No Interview will be held.",
+        "description": "No Interview will be held."
+      },
+      {
+        "stage": "Merit List Generation",
+        "description": "Purely based on aggregate percentage of marks secured in the prescribed essential qualification."
+      },
+      {
+        "stage": "Tie Breaking Rule",
+        "description": "Older candidate by date of birth receives higher rank; if DOB is same, higher percentage in Matriculation (10th) is considered."
+      },
+      {
+        "stage": "Document Verification",
+        "description": "Shortlisted candidates on merit will be called for Document Verification and Pre-engagement medical fitness check."
+      }
     ],
     "howToApplySteps": [
       "Step 1: Register on the relevant Apprenticeship Portal:",
@@ -2001,7 +3402,33 @@
       "Aadhaar Card, PAN Card & Bank Passbook of Aadhaar-seeded bank account with printed candidate name.",
       "Pre-Engagement Medical Fitness Certificate."
     ],
-    "officialLinks": [
+    "faqs": [
+      {
+        "question": "What is the total number of vacancies in IOCL Northern Region Apprentice Recruitment 2026?",
+        "answer": "A total of 418 vacancies/seats are released across Delhi, Uttar Pradesh, Rajasthan, Punjab, Haryana, Chandigarh, Himachal Pradesh, Jammu & Kashmir, and Uttarakhand."
+      },
+      {
+        "question": "Is there any written test or interview for IOCL Apprentice 2026?",
+        "answer": "No. There is no written test or interview. Selection is made strictly on the basis of merit (percentage of marks obtained in the qualifying Diploma / ITI / Degree / Class 12th examination)."
+      },
+      {
+        "question": "What is the age limit for IOCL Northern Region Apprentice 2026?",
+        "answer": "Candidates must be between 18 to 24 years of age as on 31.08.2026 (born between 31.08.2002 and 31.08.2008). Upper age relaxation applies for SC/ST (+5 years), OBC-NCL (+3 years), and PwBD (+10 to 15 years)."
+      },
+      {
+        "question": "What is the extra allowance paid by IOCL in addition to stipend?",
+        "answer": "In addition to the statutory monthly apprenticeship stipend under BOAT/NAPS, IOCL (Marketing Division), Northern Region will pay ₹2,500/- per month extra towards miscellaneous expenses."
+      },
+      {
+        "question": "Are B.Tech or MBA graduates eligible for IOCL Trade/Technician Apprentice?",
+        "answer": "No. Candidates possessing higher professional qualifications such as B.E/B.Tech, MBA, MCA, CA, ICWA, or LLB are NOT eligible."
+      },
+      {
+        "question": "Is it mandatory to fill out the Microsoft Form after applying on NATS/NAPS portal?",
+        "answer": "Yes! After applying on NATS or NAPS portal, candidates MUST submit their details along with state and 3 preferred location choices in the Microsoft Office Form (https://forms.cloud.microsoft/r/pw7D2cUK7c) before 06 September 2026 @ 5:00 PM."
+      }
+    ],
+    "urls": [
       {
         "label": "Official IOCL Northern Region Apprentice Notification PDF",
         "url": "https://www.iocl.com/apprenticeships"
@@ -2029,32 +3456,6 @@
       {
         "label": "IOCL Official Website",
         "url": "https://www.iocl.com"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is the total number of vacancies in IOCL Northern Region Apprentice Recruitment 2026?",
-        "answer": "A total of 418 vacancies/seats are released across Delhi, Uttar Pradesh, Rajasthan, Punjab, Haryana, Chandigarh, Himachal Pradesh, Jammu & Kashmir, and Uttarakhand."
-      },
-      {
-        "question": "Is there any written test or interview for IOCL Apprentice 2026?",
-        "answer": "No. There is no written test or interview. Selection is made strictly on the basis of merit (percentage of marks obtained in the qualifying Diploma / ITI / Degree / Class 12th examination)."
-      },
-      {
-        "question": "What is the age limit for IOCL Northern Region Apprentice 2026?",
-        "answer": "Candidates must be between 18 to 24 years of age as on 31.08.2026 (born between 31.08.2002 and 31.08.2008). Upper age relaxation applies for SC/ST (+5 years), OBC-NCL (+3 years), and PwBD (+10 to 15 years)."
-      },
-      {
-        "question": "What is the extra allowance paid by IOCL in addition to stipend?",
-        "answer": "In addition to the statutory monthly apprenticeship stipend under BOAT/NAPS, IOCL (Marketing Division), Northern Region will pay ₹2,500/- per month extra towards miscellaneous expenses."
-      },
-      {
-        "question": "Are B.Tech or MBA graduates eligible for IOCL Trade/Technician Apprentice?",
-        "answer": "No. Candidates possessing higher professional qualifications such as B.E/B.Tech, MBA, MCA, CA, ICWA, or LLB are NOT eligible."
-      },
-      {
-        "question": "Is it mandatory to fill out the Microsoft Form after applying on NATS/NAPS portal?",
-        "answer": "Yes! After applying on NATS or NAPS portal, candidates MUST submit their details along with state and 3 preferred location choices in the Microsoft Office Form (https://forms.cloud.microsoft/r/pw7D2cUK7c) before 06 September 2026 @ 5:00 PM."
       }
     ]
   },
@@ -5488,246 +6889,6 @@
       {
         "question": "What is the application fee for NHSRCL Technician exam?",
         "answer": "The application fee is ₹400 for UR/EWS/OBC candidates. SC, ST, and Women candidates are exempted from fee."
-      }
-    ]
-  },
-  "mpesb-group-2-sub-group-4-patwari-recruitment-2026": {
-    "id": "mpesb-group-2-sub-group-4-patwari-recruitment-2026",
-    "seoTitle": "MP ESB Group-2 Sub-Group-4 Recruitment 2026 – Apply Online for Patwari & Class-3 Posts",
-    "seoDescription": "MPESB Group-2 Sub-Group-4 Joint Recruitment Exam 2026: Apply online for Patwari Executive, Assistant Auditor, Block Panchayat Officer & 60+ Departmental Posts. Check syllabus, exam pattern, age relaxation, CPCT rules & last date (18 August 2026).",
-    "focusKeywords": "MP ESB Group 2 Sub Group 4 2026, MPESB Patwari Recruitment 2026, MP ESB Group 2 Syllabus, esb.mp.gov.in online application",
-    "lsiKeywords": "Madhya Pradesh Employees Selection Board Bhopal, MP Group 2 Sub Group 4 Rulebook, MP Patwari Eligibility CPCT, MP Online Portal Fee",
-    "title": "MP ESB Group-2 Sub-Group-4 Joint Recruitment Examination 2026 (Including Patwari Executive Posts)",
-    "board": "Madhya Pradesh Employees Selection Board (MPESB / MP ESB), Bhopal",
-    "advtNo": "MP ESB Group-2 Sub-Group-4 Joint Recruitment Exam 2026 Rulebook (Issued August 2026)",
-    "vacancies": "Group-2 Sub-Group-4 Class III Posts & 200 Patwari (Divyang/PwD) Vacancies",
-    "jobLocation": "Madhya Pradesh (Statewide across various MP State Departments & Districts)",
-    "applicationMode": "Online via MPOnline Portal / esb.mp.gov.in",
-    "lastUpdated": "05 August 2026",
-    "overview": [
-      "Madhya Pradesh Employees Selection Board (MPESB / ESB), Bhopal has released the official 144-page Rulebook for the Group-2 Sub-Group-4 Joint Recruitment Examination 2026 for Class III (Tritiya Shreni) executive and non-executive posts under various MP State Government Departments.",
-      "The recruitment covers a wide spectrum of posts including Patwari (Executive - Land Resources Management Gwalior), Block Panchayat Officer, Assistant Auditor (Directorate of Local Fund Audit), Data Entry Operator, Panchayat Coordination Officer, Assistant Librarian, District Cooperative Education Instructor, and administrative roles across 60+ departments.",
-      "Online applications commence on 04 August 2026 and close on 18 August 2026 with a correction window available up to 23 August 2026. The computer-based examination is scheduled to start on 22 September 2026 in two daily shifts across major cities in Madhya Pradesh."
-    ],
-    "highlights": [
-      {
-        "label": "Recruiting Body",
-        "value": "Madhya Pradesh Employees Selection Board (MPESB / ESB), Bhopal"
-      },
-      {
-        "label": "Exam Name",
-        "value": "Group-2 Sub-Group-4 Joint Recruitment Examination 2026"
-      },
-      {
-        "label": "Post Cadre",
-        "value": "Class III (Tritiya Shreni) Executive & Non-Executive Posts + Patwari (Executive)"
-      },
-      {
-        "label": "Educational Qualification",
-        "value": "Graduate Degree in relevant discipline from a recognized University"
-      },
-      {
-        "label": "Mandatory Registration",
-        "value": "Valid Registration with MP Employment Exchange + CPCT for Patwari/Typing posts"
-      },
-      {
-        "label": "Age Limit",
-        "value": "18 to 40 Years for General; 18 to 45 Years for SC/ST/OBC/Women/PwD (as on 01.01.2026)"
-      },
-      {
-        "label": "Application Fee",
-        "value": "₹500 for UR | ₹250 for MP Domicile SC/ST/OBC/EWS/PwD | Portal Fee ₹60/₹20"
-      },
-      {
-        "label": "Online Application Dates",
-        "value": "04 August 2026 to 18 August 2026"
-      },
-      {
-        "label": "Application Correction Window",
-        "value": "04 August 2026 to 23 August 2026"
-      },
-      {
-        "label": "Examination Start Date",
-        "value": "22 September 2026 (Two Shifts Daily)"
-      },
-      {
-        "label": "Exam Scheme",
-        "value": "Computer Based Test (CBT) – 200 Marks Total (Part A: 100 + Part B: 100)"
-      }
-    ],
-    "importantDates": [
-      {
-        "event": "Online Application Start Date",
-        "date": "04 August 2026"
-      },
-      {
-        "event": "Online Application Last Date",
-        "date": "18 August 2026"
-      },
-      {
-        "event": "Application Form Correction Window",
-        "date": "04 August 2026 to 23 August 2026"
-      },
-      {
-        "event": "Admit Card Release Date",
-        "date": "September 2026"
-      },
-      {
-        "event": "Computer Based Examination Start Date",
-        "date": "22 September 2026 (Tuesday onwards)"
-      },
-      {
-        "event": "Shift 1 Timing",
-        "date": "Reporting 8:00–9:00 AM | Exam 10:00 AM–12:00 PM"
-      },
-      {
-        "event": "Shift 2 Timing",
-        "date": "Reporting 1:00–2:00 PM | Exam 3:00 PM–5:00 PM"
-      }
-    ],
-    "vacanciesDetails": [
-      {
-        "category": "Group-2 Sub-Group-4 Departmental Posts",
-        "count": "Class III Vacancies across 60+ Departments (Directorate of Panchayat Raj, Local Fund Audit, Social Justice, Economics & Statistics, Rewa Engg College, etc.)"
-      },
-      {
-        "category": "Patwari Executive (PwD Special Quota)",
-        "count": "200 Reserved Posts (94 Hearing Impaired, 45 Locomotor Disability, 61 Other Disability Codes)"
-      },
-      {
-        "category": "Total Posts",
-        "count": "Multiple Class III Executive & Non-Executive Vacancies across MP State Departments"
-      }
-    ],
-    "eligibility": {
-      "education": [
-        "Educational Qualification: Graduate Degree in the relevant discipline/subject from a recognized University as prescribed by each recruiting department service rules.",
-        "CPCT Qualification for Patwari & Computer Posts: Candidates applying for Patwari (Executive) or computer/clerical posts must possess CPCT (Computer Proficiency Certification Test — Hindi typing + computer skills) score card prior to application or must qualify it within 3 years of probation period.",
-        "MP Employment Exchange Registration: Active registration with Madhya Pradesh Employment Exchange is mandatory.",
-        "Citizenship & Domicile: Must be an Indian citizen. MP Domicile required to claim category reservation, age relaxation, and fee concessions.",
-        "Patwari Disability Eligibility: Visual impairment (blindness/low vision) candidates are NOT eligible for Patwari posts as per rules.",
-        "Qualifying Marks: Minimum 50% for UR candidates; 40% for SC/ST/OBC/EWS/PwD candidates (10% relaxation on qualifying marks)."
-      ],
-      "ageLimit": "Minimum 18 years and Maximum 40 years for UR candidates; Maximum 45 years for MP Domicile SC/ST/OBC, PwD, Women, Government/PSU employees as on 01.01.2026. Cap for contract employees is 55 years."
-    },
-    "salary": {
-      "payLevel": "Pay Level-5 to Level-9 (Class III Cadre)",
-      "initialPay": "Patwari Pay Scale: ₹5,200–20,200 + Grade Pay ₹2,100. Other posts carry Grade Pay ₹2,400 / ₹2,800 / ₹3,600 as per department rules.",
-      "allowances": "DA, HRA, TA & State Government Employee Benefits"
-    },
-    "applicationFee": [
-      {
-        "category": "Unreserved (UR) Candidates",
-        "fee": "₹500/-",
-        "refund": "N/A"
-      },
-      {
-        "category": "MP Domicile SC / ST / OBC / EWS / PwD",
-        "fee": "₹250/-",
-        "refund": "N/A"
-      },
-      {
-        "category": "Direct Recruitment Backlog Posts",
-        "fee": "₹0/- (No Fee)",
-        "refund": "N/A"
-      },
-      {
-        "category": "MPOnline Kiosk Portal Charge",
-        "fee": "₹60/-",
-        "refund": "N/A"
-      },
-      {
-        "category": "Citizen User Login Portal Charge",
-        "fee": "₹20/-",
-        "refund": "N/A"
-      }
-    ],
-    "examPattern": {
-      "duration": "2 Hours (120 Minutes) per shift",
-      "totalQuestions": 200,
-      "negativeMarking": "-0.25 marks per wrong answer (+1 mark for correct answer)",
-      "sections": [
-        {
-          "name": "Part A: General Science, General Hindi, General English, General Mathematics",
-          "questions": 100
-        },
-        {
-          "name": "Part B: General Knowledge & Aptitude, General Computer Knowledge, General Reasoning, General Management",
-          "questions": 100
-        }
-      ],
-      "subHeader": "Single Computer-Based Examination (200 Marks Total). Normalised Equi-Percentile (NEP) scaling method used for multi-shift score normalization."
-    },
-    "selectionProcess": [
-      {
-        "stage": "Single Stage Written Examination (CBT)",
-        "description": "One paper of 200 marks conducted in online CBT mode across 11 examination cities in Madhya Pradesh."
-      },
-      {
-        "stage": "Score Normalization (NEP Scaling)",
-        "description": "Normalised Equi-Percentile (NEP) scaling applied to normalize scores across multi-shift sessions."
-      },
-      {
-        "stage": "Biometric & Document Verification",
-        "description": "Multi-level biometric verification and original document verification by respective recruiting departments."
-      },
-      {
-        "stage": "Final Allotment & Counselling",
-        "description": "Department and district allotment based on candidate preference ranking, merit list, and category reservation roster."
-      }
-    ],
-    "howToApply": [
-      "Visit the official website of MPESB: https://www.esb.mp.gov.in or MPOnline portal: https://peb.mponline.gov.in/",
-      "Click on \"Group-2 (Sub-Group-4) Joint Recruitment Examination 2026 Apply Online\".",
-      "Complete Profile Registration (Aadhaar e-KYC and Profile Photo/Signature upload).",
-      "Fill in Personal Details, Educational Qualifications, MP Employment Exchange Registration No, and CPCT score details.",
-      "Rank your Department & Post Preferences carefully in order of priority (only ranked posts will be considered).",
-      "Pay the Application Fee (₹500 for UR, ₹250 for Reserved + Portal Charges) via MPOnline Kiosk, Net Banking, or Credit/Debit Card.",
-      "Submit the form and take a printout of the submitted application form for future reference."
-    ],
-    "documentsRequired": [
-      "Recent Colour Photograph (white background, < 3 months old, both ears visible)",
-      "Candidate Signature and Sample Handwriting Text",
-      "High School (10th) Marksheet (DOB proof)",
-      "Graduate Degree Certificate / Marksheet",
-      "CPCT Score Card (if applicable)",
-      "Active MP Employment Exchange Registration Certificate",
-      "Caste Certificate (for SC / ST / OBC category candidates)",
-      "EWS Certificate / Disability Certificate (if applicable)",
-      "Valid Original Photo ID (Aadhaar, Voter ID, Driving Licence, Passport, or PAN Card)"
-    ],
-    "importantInstructions": [
-      "Aadhaar e-KYC and multi-level biometric verification are mandatory at entry and during the examination.",
-      "One negative mark (-0.25) applies for each wrong answer.",
-      "Candidates must select post preferences carefully; unranked posts will not be considered even with qualifying scores.",
-      "Visual impairment candidates are not eligible for Patwari posts."
-    ],
-    "urls": [
-      {
-        "label": "Official MPESB Website (esb.mp.gov.in)",
-        "url": "https://www.esb.mp.gov.in"
-      },
-      {
-        "label": "MPOnline Candidate Portal (peb.mponline.gov.in)",
-        "url": "https://peb.mponline.gov.in/"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is the last date to apply for MP ESB Group-2 Sub-Group-4 Recruitment 2026?",
-        "answer": "The last date to submit online applications is 18 August 2026. The correction window remains open until 23 August 2026."
-      },
-      {
-        "question": "When will the MP ESB Group-2 Sub-Group-4 examination be conducted?",
-        "answer": "The computer-based examination is scheduled to start on 22 September 2026 (Tuesday) in two daily shifts."
-      },
-      {
-        "question": "What is the exam pattern and marking scheme for Group-2 Sub-Group-4?",
-        "answer": "The exam consists of 200 questions (200 marks) split into Part A (Science, Hindi, English, Maths - 100 marks) and Part B (GK, Computer, Reasoning, Management - 100 marks). 1 mark for correct answer and -0.25 negative marking for wrong answer."
-      },
-      {
-        "question": "Is CPCT mandatory for MP Patwari posts?",
-        "answer": "CPCT certification is required for Patwari and computer/typing posts; candidates can clear CPCT either before or within 3 years of probation period."
       }
     ]
   },
@@ -33276,268 +34437,6 @@
       {
         "question": "Is travel reimbursement provided for attending the interview?",
         "answer": "Yes, shortlisted candidates called for interview will be reimbursed 2nd Class AC (Sleeper) to-and-fro train/bus fare by the shortest route."
-      }
-    ]
-  },
-  "isro-assistant-jpa-udc-stenographer-2026": {
-    "id": "isro-assistant-jpa-udc-stenographer-2026",
-    "seoTitle": "ISRO Assistant, JPA, UDC & Stenographer Recruitment 2026 – Apply Online for 244 Posts",
-    "seoDescription": "ISRO Centralised Recruitment Board (ICRB) invites online applications for 244 posts of Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC), and Stenographers. Apply online by 16th August 2026.",
-    "focusKeywords": "ISRO Assistant Recruitment 2026, ISRO JPA Vacancy 2026, ISRO UDC Stenographer 244 Posts",
-    "lsiKeywords": "ISRO ICRB Advt ISRO:ICRB:01(A-JPA):2026, ISRO Assistant qualification salary exam pattern, isro.gov.in apply online",
-    "title": "Assistants, Junior Personal Assistants, Upper Division Clerks & Stenographers – 244 Posts",
-    "board": "Indian Space Research Organisation (ISRO) – ISRO Centralised Recruitment Board (ICRB)",
-    "advtNo": "Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026",
-    "vacancies": 244,
-    "jobLocation": "Ahmedabad, Bengaluru, Hassan, Hyderabad, Mahendragiri, New Delhi, Sriharikota, Thiruvananthapuram & Autonomous Bodies",
-    "applicationMode": "ONLINE",
-    "applicationStatus": "Active - Apply Online Now",
-    "lastUpdated": "27th July 2026",
-    "overview": [
-      "Indian Space Research Organisation (ISRO) / Department of Space (DOS), through ISRO Centralised Recruitment Board (ICRB), has issued Advertisement No. ISRO:ICRB:01(A-JPA):2026 dated 27th July 2026 for the recruitment of Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC), and Stenographers in Pay Level 4 across various ISRO Centres, DOS Branch Secretariat, and Autonomous Bodies under DOS.",
-      "A total of 244 vacancies are advertised across 6 distinct post categories: Post No. 1 - Assistant in ISRO Centres (113 posts), Post No. 2 - Junior Personal Assistant in ISRO Centres (81 posts), Post No. 3 - Upper Division Clerk in Bengaluru (22 posts), Post No. 4 - Stenographer in Bengaluru (10 posts), Post No. 5 - Assistant in Autonomous Bodies like NARL Gadanki & IIRS Dehradun (17 posts), and Post No. 6 - Junior Personal Assistant in Autonomous Bodies (01 post).",
-      "Interested and eligible candidates holding a Graduation Degree (min 60% marks / CGPA 6.32) or Diploma in Commercial/Secretarial Practice can apply online through the official TCS iON / Digialm application portal from 27th July 2026 to 16th August 2026.",
-      "Comprehensive details regarding post-wise and zone-wise vacancy breakdown, educational eligibility, age limits, pay scale, written test & skill test exam pattern, computer literacy syllabus, tie-breaking criteria, and step-by-step application instructions are systematically compiled below."
-    ],
-    "highlights": [
-      {
-        "label": "Recruiting Organization",
-        "value": "Indian Space Research Organisation (ISRO) – ICRB"
-      },
-      {
-        "label": "Advertisement No.",
-        "value": "Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026"
-      },
-      {
-        "label": "Post Names",
-        "value": "Assistant, Junior Personal Assistant (JPA), Upper Division Clerk (UDC), Stenographer"
-      },
-      {
-        "label": "Total Vacancies",
-        "value": "244 Posts (113 Assistant + 81 JPA + 22 UDC + 10 Steno + 17 Asst Auto + 1 JPA Auto)"
-      },
-      {
-        "label": "Pay Matrix Level",
-        "value": "Pay Level-4 (Basic Pay Rs. 25,500/- + DA, HRA, TA & Allowances)"
-      },
-      {
-        "label": "Job Locations",
-        "value": "Ahmedabad, Bengaluru, Hassan, Hyderabad, Mahendragiri, New Delhi, Sriharikota & Thiruvananthapuram"
-      },
-      {
-        "label": "Selection Method",
-        "value": "Written Test (CBT Objective) + Computer Literacy / Stenography Skill Test"
-      },
-      {
-        "label": "Application Fee",
-        "value": "Rs. 100/- App Fee + Rs. 500/- Processing Fee (Refundable as per rules)"
-      },
-      {
-        "label": "Registration Dates",
-        "value": "27th July 2026 to 16th August 2026 (11:55 PM)"
-      },
-      {
-        "label": "Official Apply Portal",
-        "value": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html"
-      }
-    ],
-    "importantDates": [
-      {
-        "event": "Official Notification Release Date",
-        "date": "27.07.2026"
-      },
-      {
-        "event": "Commencement of Online Registration",
-        "date": "27.07.2026 (10:00 AM)"
-      },
-      {
-        "event": "Closing Date for Online Application & Fee Payment",
-        "date": "16.08.2026 (11:55 PM)"
-      },
-      {
-        "event": "Crucial Date for Age & Qualification Calculation",
-        "date": "16.08.2026"
-      },
-      {
-        "event": "Publication of Answer Keys on ISRO Website",
-        "date": "Within 3 working days of Written Test"
-      },
-      {
-        "event": "Objection Window for Answer Keys",
-        "date": "Within 5 days of Answer Key release"
-      }
-    ],
-    "vacanciesDetails": [
-      {
-        "category": "Post 1: Assistant (ISRO Centres)",
-        "count": "113 Posts (Ahmedabad: 27, Bengaluru: 26, Hassan: 01, Hyderabad: 13, Mahendragiri: 07, New Delhi: 01, Sriharikota: 32, Thiruvananthapuram: 06)"
-      },
-      {
-        "category": "Post 2: Junior Personal Assistant (ISRO Centres)",
-        "count": "81 Posts (Ahmedabad: 21, Bengaluru: 19, Hassan: 02, Hyderabad: 02, Mahendragiri: 02, Sriharikota: 14, Thiruvananthapuram: 21)"
-      },
-      {
-        "category": "Post 3: Upper Division Clerk (UDC - Bengaluru)",
-        "count": "22 Posts (UR: 08, OBC: 05, SC: 04, ST: 02, EWS: 03)"
-      },
-      {
-        "category": "Post 4: Stenographer (Bengaluru)",
-        "count": "10 Posts (UR: 08, OBC: 01, SC: 00, ST: 01, EWS: 00)"
-      },
-      {
-        "category": "Post 5: Assistant (Autonomous Bodies - NARL/IIRS)",
-        "count": "17 Posts (Ahmedabad: 11, Sriharikota/NARL Gadanki: 03, Thiruvananthapuram: 03)"
-      },
-      {
-        "category": "Post 6: Junior Personal Assistant (Autonomous Bodies)",
-        "count": "01 Post (Ahmedabad: 01)"
-      }
-    ],
-    "eligibility": {
-      "education": [
-        "For Assistant / Upper Division Clerk (Post No. 1, 3 & 5): Graduation with a minimum of 60% marks or CGPA of 6.32 on a 10-point scale as declared by any recognized University AND Proficiency in the use of Computers.",
-        "For Junior Personal Assistant / Stenographer (Post No. 2, 4 & 6): Graduation with Min 60% marks or CGPA 6.32 OR Diploma in Commercial/Secretarial Practice with Min 60% marks AND 1-year experience as Steno-Typist/Stenographer (or BOAT Apprenticeship Certificate) AND Minimum speed of 60 w.p.m. in English Stenography AND Proficiency in the use of Computers."
-      ],
-      "ageLimit": "28 Years as on 16.08.2026 for Unreserved (UR) & EWS candidates (Born on or after 17.08.1998).",
-      "ageRelaxation": [
-        {
-          "category": "OBC Candidates",
-          "relaxation": "31 Years (Born on or after 17.08.1995)"
-        },
-        {
-          "category": "SC / ST Candidates",
-          "relaxation": "33 Years (Born on or after 17.08.1993)"
-        },
-        {
-          "category": "Serving Govt Employees & Ex-Servicemen",
-          "relaxation": "As per Govt of India orders"
-        },
-        {
-          "category": "PwBD / Sportspersons / Widows / Divorced Women",
-          "relaxation": "Relaxable as per Central Govt Rules"
-        }
-      ]
-    },
-    "salary": {
-      "payLevel": "Level 4 of Pay Matrix (7th CPC)",
-      "initialPay": "Minimum Basic Pay of Rs. 25,500/- per month. In addition, Dearness Allowance (DA), House Rent Allowance (HRA), and Transport Allowance are payable as per extant rules. Employees will be governed by the New Pension Scheme (NPS). Additional benefits include subsidised canteen, medical facilities for self & dependents, LTA, Group Insurance, and House Building Advance. Gross monthly emoluments approx. Rs. 45,000+ per month."
-    },
-    "applicationFee": [
-      {
-        "category": "Application Fee (All Candidates)",
-        "fee": "Rs. 100/- per application",
-        "refund": "Non-Refundable"
-      },
-      {
-        "category": "Initial Processing Fee (All Candidates)",
-        "fee": "Rs. 500/- per application",
-        "refund": "Uniformly paid initially"
-      },
-      {
-        "category": "Exempted Categories (Women, SC/ST, PwBD, Ex-SM)",
-        "fee": "Full Rs. 500/- Refunded",
-        "refund": "Upon appearing in Written Test/CBT"
-      },
-      {
-        "category": "Other Candidates (UR / OBC / EWS Male)",
-        "fee": "Rs. 400/- Refunded (Deducting Rs. 100 App Fee)",
-        "refund": "Upon appearing in Written Test/CBT"
-      }
-    ],
-    "selectionProcess": [
-      {
-        "stage": "Written Test (CBT)",
-        "description": "Single objective-type paper of 200 Questions (200 Marks) for 150 minutes duration. Qualifying marks: 50% in each Part for UR, 40% in each Part for Reserved categories."
-      },
-      {
-        "stage": "Computer Literacy Skill Test (Assistants/UDC)",
-        "description": "Practical computer test on MS Word (35 marks), MS Excel (35 marks), and MS Power Point (30 marks) for 75 minutes. Pass marks: 60% for UR, 50% for Reserved."
-      },
-      {
-        "stage": "Stenography Skill Test (JPA/Stenographer)",
-        "description": "Shorthand dictation for 300 words @ 60 wpm (5 mins) + Computer Transcription (30 mins). Max mistakes: 10% for UR, 12% for Reserved."
-      },
-      {
-        "stage": "Final Selection",
-        "description": "Based on marks scored in the Written Test among candidates who qualify in the Skill Test in a 1:5 ratio (min 10 candidates per category)."
-      }
-    ],
-    "examPattern": {
-      "duration": "150 Minutes (2 Hours 30 Minutes)",
-      "totalQuestions": "200 MCQs (200 Marks)",
-      "negativeMarking": "+1 Mark for Correct Answer, -0.25 Penalty for Wrong Answer",
-      "sections": [
-        {
-          "name": "Assistant / UDC (Post 1, 3, 5): Part A (General English 50 Qs), Part B (Quant 50 Qs), Part C (Reasoning 50 Qs), Part D (General Knowledge 50 Qs)",
-          "questions": "200 MCQs (200 Marks)"
-        },
-        {
-          "name": "JPA / Stenographer (Post 2, 4, 6): Part A (English Language & Comprehension 100 Qs), Part B (Reasoning 50 Qs), Part C (Quant & GK 50 Qs)",
-          "questions": "200 MCQs (200 Marks)"
-        }
-      ]
-    },
-    "howToApply": [
-      "Step 1: Visit the official ISRO application portal hosted on Digialm: https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html (or via www.isro.gov.in).",
-      "Step 2: Read the complete notification and FAQ before starting registration.",
-      "Step 3: Fill in STEP-I Online Registration details (Candidate Name, Mobile Number, Email ID, Post & Zone selection) to generate your unique Registration Number.",
-      "Step 4: Fill in STEP-II Application Form entering educational marks (60% or CGPA 6.32+), personal details, address, and exam center preference.",
-      "Step 5: Upload recent passport size photograph (20kb-50kb, jpg/jpeg format) and signature (10kb-20kb, jpg/jpeg format on white paper with black ink).",
-      "Step 6: Pay the application fee / processing fee (Rs. 500/-) online via Bharatkosh e-Payment gateway using Internet Banking, UPI, or Debit Card.",
-      "Step 7: Verify all entered fields, submit the online application form, and save/print the system-generated application receipt for future reference."
-    ],
-    "documentsRequired": [
-      "Recent passport size color photograph (20kb–50kb size, 200x230 pixels, white background)",
-      "Scanned signature on white paper with black ink pen (10kb–20kb size, 140x60 pixels)",
-      "Class 10th (Matriculation) Certificate / Marksheet for Date of Birth proof",
-      "Graduation Degree / Consolidated Marksheet / Diploma Certificate showing 60%+ marks or CGPA 6.32+",
-      "Stenography & Computer Proficiency Certificates / Experience Certificate (for JPA & Stenographer)",
-      "Valid Caste Certificate for SC / ST / OBC-NCL candidates (in Central Govt format as on 16.08.2026)",
-      "Income & Asset Certificate for EWS candidates valid for FY 2026-2027",
-      "Disability Certificate digitized on UDID portal for PwBD candidates (Min 40% disability)",
-      "Discharge Certificate / PPO for Ex-Servicemen & No Objection Certificate (NOC) for Govt employees",
-      "Bank Account details (Bank Name, Branch, Account No, IFSC) for processing fee refund"
-    ],
-    "importantInstructions": [
-      "Multiple Post Application: Candidates may apply for multiple posts (e.g. Assistant in Ahmedabad and UDC in Bengaluru), but CANNOT apply for the same post in different zones. Same written test center must be chosen when applying for multiple posts.",
-      "Written Test Venues (38 Cities): Agartala, Ahmedabad, Bengaluru, Bhopal, Bhubaneshwar, Chandigarh/Mohali, Chennai, Dehradun, Delhi, Ernakulum, Gorakhpur, Gurugram, Guwahati, Hyderabad, Indore, Jaipur, Jammu, Jodhpur, Kanpur, Kavaratti, Kolkata, Lucknow, Mangaluru, Mumbai, Mysore, Nagpur, Patna, Port Blair, Pune, Raipur, Ranchi, Shillong, Tiruchirapalli, Thiruvananthapuram, Varanasi, Vijayawada, Vishakhapatnam.",
-      "Helpline & Support: For any query or technical clarification, candidates can email rmt-icrb@isro.gov.in.",
-      "TA Reimbursement: Candidates attending Skill Test will be reimbursed second-class train fare by shortest route."
-    ],
-    "urls": [
-      {
-        "label": "Apply Online (TCS iON / Digialm Portal)",
-        "url": "https://cdn.digialm.com//EForms/configuredHtml/1258/101396//Index.html"
-      },
-      {
-        "label": "Official Website (ISRO)",
-        "url": "https://www.isro.gov.in"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is the last date to apply online for ISRO Assistant and JPA recruitment 2026?",
-        "answer": "The last date to submit online applications and pay the fee is 16th August 2026 at 11:55 PM."
-      },
-      {
-        "question": "What is the total number of vacancies in ISRO ICRB 2026 recruitment?",
-        "answer": "There are a total of 244 vacancies spread across Assistants (113 ISRO + 17 Autonomous), JPA (81 ISRO + 1 Autonomous), UDC (22), and Stenographers (10)."
-      },
-      {
-        "question": "What is the educational qualification needed for ISRO Assistant and UDC posts?",
-        "answer": "Candidates must hold a Graduation Degree with minimum 60% marks or CGPA of 6.32 on a 10-point scale from a recognized University AND have computer proficiency."
-      },
-      {
-        "question": "What is the selection process for ISRO Assistants, JPA, UDC, and Stenographers?",
-        "answer": "Selection consists of a 200-mark Objective Written Test (150 minutes duration) with negative marking (+1, -0.25), followed by a qualifying Computer Literacy Skill Test (for Assistant/UDC) or Stenography Test (for JPA/Steno)."
-      },
-      {
-        "question": "Is the Rs. 500 processing fee refundable?",
-        "answer": "Yes! Full Rs. 500/- is refunded to exempted categories (Women, SC/ST, PwBD, Ex-SM) who appear in the Written Test. Rs. 400/- is refunded to all other candidates who appear in the test (after deducting Rs. 100 application fee)."
-      },
-      {
-        "question": "What is the age limit for ISRO Assistant recruitment 2026?",
-        "answer": "The upper age limit is 28 years as on 16.08.2026 for UR/EWS. Relaxation up to 31 years for OBC and 33 years for SC/ST is applicable."
       }
     ]
   },
