@@ -40,25 +40,25 @@ const STATE_MAP: Record<string, string[]> = {
   'Uttar Pradesh': ['uttar pradesh', 'uppsc', 'aligarh muslim university', 'amu', 'azamgarh', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur', 'raebareli'],
   'Odisha': ['odisha', 'opsc', 'bhadrak'],
   'Dadra & Nagar Haveli and Daman & Diu': ['dadra and nagar haveli', 'dadra & nagar haveli', 'dadra', 'daman', 'dnh', 'dnhdd', 'diu'],
-  'Haryana': ['haryana', 'wcd haryana', 'hartron', 'kurukshetra'],
-  'Delhi': ['delhi', 'igdtuw', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi'],
-  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur'],
+  'Haryana': ['haryana', 'wcd haryana', 'hartron', 'kurukshetra', 'panchkula'],
+  'Delhi': ['delhi', 'igdtuw', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi', 'niscpr', 'sspl'],
+  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur', 'hppsc'],
   'Jammu & Kashmir': ['jammu and kashmir', 'jammu & kashmir', 'jammu', 'kashmir', 'jkpsc', 'jkssb', 'j&k'],
-  'Maharashtra': ['maharashtra', 'mumbai', 'pune', 'thane municipal', 'msrlm', 'solapur', 'sindhudurg'],
+  'Maharashtra': ['maharashtra', 'mumbai', 'pune', 'thane municipal', 'msrlm', 'solapur', 'sindhudurg', 'dehu road'],
   'Goa': ['panaji', 'echs panaji', 'goa'],
   'Tamil Nadu': ['tamil nadu', 'cutn', 'thiruvarur', 'tnstc', 'tnsrlm'],
-  'Karnataka': ['karnataka', 'bengaluru', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'kea', 'sjicr', 'dudc', 'cims'],
-  'Punjab': ['punjab', 'ludhiana', 'mohali', 'sas nagar', 'sikhiya bharti'],
+  'Karnataka': ['karnataka', 'bengaluru', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'kea', 'sjicr', 'dudc', 'cims', 'ursc'],
+  'Punjab': ['punjab', 'ludhiana', 'mohali', 'sas nagar', 'sikhiya bharti', 'verka', 'milkfed'],
   'Assam': ['assam', 'apsc', 'amtron', 'guwahati', 'dme assam'],
   'Gujarat': ['gujarat', 'gsssb'],
-  'Telangana': ['telangana', 'hyderabad', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal'],
+  'Telangana': ['telangana', 'hyderabad', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal', 'wanaparthy', 'drdl', 'ngri'],
   'Manipur': ['manipur', 'mssc'],
   'Rajasthan': ['rajasthan', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn', 'dlb rajasthan'],
-  'West Bengal': ['west bengal', 'clw', 'chittaranjan', 'contai', 'purba medinipur'],
+  'West Bengal': ['west bengal', 'clw', 'chittaranjan', 'contai', 'purba medinipur', 'kolkata', 'kalyani', 'nscbi', 'sinp'],
   'Andhra Pradesh': ['andhra pradesh', 'kadapa'],
-  'Chhattisgarh': ['chhattisgarh', 'baloda bazar', 'janjgir', 'cgssb'],
+  'Chhattisgarh': ['chhattisgarh', 'baloda bazar', 'janjgir', 'cgssb', 'raipur'],
   'Bihar': ['bihar', 'jamui', 'dcpu'],
-  'Madhya Pradesh': ['madhya pradesh', 'mpypil'],
+  'Madhya Pradesh': ['madhya pradesh', 'mpypil', 'bhopal', 'ujjain', 'indore', 'gwalior', 'mpesb'],
   'Mizoram': ['mizoram public service', 'mizoram']
 };
 
@@ -83,40 +83,17 @@ export function getStateFromJob(job: JobEntry): string {
   const idStr = job.id || '';
   const text = `${job.b} ${job.t} ${idStr}`.toLowerCase();
 
-  // Indicators that a job is specifically a state/UT recruitment or restricted by state domicile
-  const stateGovTriggers = [
-    'public service commission', 'services selection board', 'state level police',
-    'samagra shiksha', 'jal shakti', 'district health', 'district court', 'district judge',
-    'municipal corporation', 'district urban development', 'anganwadi', 'zila panchayat',
-    'sikhiya bharti', 'state power sector', 'state transport', 'sub-divisional officer',
-    'state electronics development', 'deputation basis in women and child'
+  // Explicit Nationwide Combined Exams / All-India Multi-State Drives
+  const nationwideExams = [
+    'norcet', 'civil services examination', 'combined graduate level', 'ssc cgl', 'ssc chsl',
+    'rrb technician', 'ibps clerk', 'ibps po', 'sbi clerk', 'sbi po', 'crp csa'
   ];
 
-  let isStateSpecific = stateGovTriggers.some(trigger => text.includes(trigger));
-
-  if (text.includes('western region') && (text.includes('mumbai') || text.includes('daman') || text.includes('diu') || text.includes('maharashtra'))) {
-    isStateSpecific = true;
+  if (nationwideExams.some(kw => text.includes(kw))) {
+    return 'All India';
   }
 
-  // If state-specific, match to state/UT first
-  if (isStateSpecific) {
-    for (const [state, keywords] of Object.entries(STATE_MAP)) {
-      for (const kw of keywords) {
-        if (containsKeyword(text, kw)) {
-          return state;
-        }
-      }
-    }
-  }
-
-  // Check All India open recruitments
-  for (const kw of ALL_INDIA_KEYWORDS) {
-    if (containsKeyword(text, kw)) {
-      return 'All India';
-    }
-  }
-
-  // Fallback: Check all state location patterns
+  // Check if job matches a specific State / UT location in STATE_MAP
   for (const [state, keywords] of Object.entries(STATE_MAP)) {
     for (const kw of keywords) {
       if (containsKeyword(text, kw)) {
@@ -125,6 +102,7 @@ export function getStateFromJob(job: JobEntry): string {
     }
   }
 
+  // Fallback to All India
   return 'All India';
 }
 
@@ -135,6 +113,8 @@ export function getBoardNameFromJob(job: JobEntry): string {
   const b = job.b;
 
   // Manual overrides for long, complex names without clear acronyms
+  if (b.includes('NIScPR')) return 'CSIR-NIScPR';
+  if (b.includes('Milk Producers') || b.includes('MILKFED')) return 'Verka MILKFED Punjab';
   if (b.includes('District Basic Education Officer, Bulandshahr')) return 'DBEO Bulandshahr';
   if (b.includes('District Basic Education Officer, Banda')) return 'DBEO Banda';
   if (b.includes('Programme Officer, Farrukhabad')) return 'DPO Farrukhabad';
@@ -182,9 +162,9 @@ export interface QualificationCount {
  */
 export function getQualificationsWithCounts(jobs: JobEntry[]): QualificationCount[] {
   const categories = [
-    { name: '10th Pass', slug: '10th-pass', keywords: ['10th', 'matriculation', 'matric', 'secondary', '8th', 'literate'] },
+    { name: '10th Pass', slug: '10th-pass', keywords: ['10th', 'matriculation', 'matric', 'secondary', '8th', 'literate', 'pourakarmika', 'safai', 'soldier'] },
     { name: '12th Pass', slug: '12th-pass', keywords: ['12th', 'intermediate', 'higher secondary', '10+2', 'puc'] },
-    { name: 'Any Graduate', slug: 'ba', keywords: ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor'] },
+    { name: 'Any Graduate', slug: 'ba', keywords: ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor', 'llb', 'law'] },
     { name: 'B.Tech / B.E', slug: 'btech', keywords: ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan'] },
     { name: 'B.Sc / Science', slug: 'bsc', keywords: ['b.sc', 'bsc', 'b.vsc', 'science', 'agriculture'] },
     { name: 'B.Com / Commerce', slug: 'bcom', keywords: ['b.com', 'bcom', 'commerce', 'accountant', 'accounts'] },
