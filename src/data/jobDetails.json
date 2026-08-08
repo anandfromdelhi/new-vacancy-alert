@@ -2274,354 +2274,77 @@
       }
     ]
   },
-  "hppsc-hp-police-female-constable-recruitment-2026": {
-    "id": "hppsc-hp-police-female-constable-recruitment-2026",
-    "seoTitle": "HPPSC HP Police Female Constable Recruitment 2026 (243 Posts) Apply Online | NewVacancyAlert",
-    "seoDescription": "HPPSC HP Police Female Constable Recruitment 2026 online form for 243 Female Constable vacancies. Check 12th pass eligibility, age limit, physical PST/PET standards, salary & apply link.",
-    "focusKeywords": "HP Police Female Constable Recruitment 2026, HPPSC Female Constable Vacancy 2026, HP Police Female Constable 243 Posts, hppsc.hp.gov.in female constable online form",
-    "lsiKeywords": "HP Police Female Constable Physical Test PST PET, HP Police Female Constable Salary Pay Level 3, HPPSC Female Constable Syllabus Exam Pattern 90 Marks, HP Police Constable Application Fee 600",
-    "title": "HPPSC HP Police Female Constable Recruitment 2026 Notification Out for 243 Female Constable Posts",
-    "board": "Himachal Pradesh Public Service Commission (HPPSC) & HP Police Department",
-    "advtNo": "58/7-2026 Dated 10-07-2026",
-    "vacancies": 243,
-    "jobLocation": "Himachal Pradesh",
-    "applicationMode": "Online via HPPSC ORA Portal",
-    "applicationStatus": "Active - Apply Online Now",
-    "lastUpdated": "2026-08-07",
-    "overview": [
-      "Himachal Pradesh Public Service Commission (HPPSC) has released official advertisement notification (Advt No. 58/7-2026) for recruitment to 243 posts of Constables (Female) Class-III (Non-Gazetted) in Himachal Pradesh Police Department.",
-      "Out of 243 total vacancies, 101 are for General/UR category, 58 for SC, 48 for OBC, 24 for EWS, and 12 for ST female candidates (including WFF, BPL, Ex-SM Wards, and Home Guards quotas).",
-      "Selected female candidates will be appointed on a regular basis in Pay Band Level-3 (Rs 20,200 – 64,000) in HP Police Department and undergo basic Recruitment Training Course (RTC) at PTC Daroh.",
-      "The selection process comprises Physical Standard Test (PST), Physical Efficiency Test (PET), 90 Marks Written Examination, Document Verification (with NCC marks), and Medical Examination."
-    ],
-    "highlights": [
-      {
-        "label": "Recruiting Commission",
-        "value": "Himachal Pradesh Public Service Commission (HPPSC)"
-      },
-      {
-        "label": "Department",
-        "value": "Himachal Pradesh Police Department"
-      },
-      {
-        "label": "Advertisement No.",
-        "value": "58/7-2026 (Dated 10-07-2026)"
-      },
-      {
-        "label": "Post Name",
-        "value": "Constable (Female) Class-III Non-Gazetted"
-      },
-      {
-        "label": "Total Vacancies",
-        "value": "243 Posts"
-      },
-      {
-        "label": "Pay Scale",
-        "value": "Pay Band Level-3 (₹20,200 – ₹64,000)"
-      },
-      {
-        "label": "Educational Qualification",
-        "value": "10+2 (Class 12th) Passed"
-      },
-      {
-        "label": "Age Limit (as on 01.01.2026)",
-        "value": "18 to 25 Years (General / EWS / Ward of Ex-SM)"
-      },
-      {
-        "label": "Application Fee",
-        "value": "₹600/- for All Categories"
-      },
-      {
-        "label": "Official Website",
-        "value": "hppsc.hp.gov.in/hppsc"
-      }
-    ],
-    "importantDates": [
-      {
-        "event": "Official Advertisement Release Date",
-        "date": "10 July 2026"
-      },
-      {
-        "event": "Online Application Registration Start Date",
-        "date": "10 July 2026"
-      },
-      {
-        "event": "Last Date for Submission of Online Application (ORA)",
-        "date": "31 August 2026 (11:59 PM)"
-      },
-      {
-        "event": "PST / PET Physical Efficiency Test Date",
-        "date": "To be intimated by HP Police Dept"
-      },
-      {
-        "event": "Offline Written Examination Date",
-        "date": "To be intimated by HPPSC"
-      }
-    ],
-    "applicationFee": [
-      {
-        "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)",
-        "fee": "₹600.00",
-        "refund": ""
-      }
-    ],
-    "vacanciesDetails": [
-      {
-        "category": "General / Unreserved (UR)",
-        "count": 60
-      },
-      {
-        "category": "UR Wards of Freedom Fighters (WFF)",
-        "count": 3
-      },
-      {
-        "category": "UR Ward of Ex-Servicemen",
-        "count": 22
-      },
-      {
-        "category": "UR Home Guards",
-        "count": 16
-      },
-      {
-        "category": "Scheduled Caste (SC) UR",
-        "count": 28
-      },
-      {
-        "category": "SC WFF",
-        "count": 7
-      },
-      {
-        "category": "SC BPL",
-        "count": 8
-      },
-      {
-        "category": "SC Ward of Ex-SM",
-        "count": 7
-      },
-      {
-        "category": "SC Home Guards",
-        "count": 8
-      },
-      {
-        "category": "Scheduled Tribe (ST) UR",
-        "count": 5
-      },
-      {
-        "category": "ST BPL",
-        "count": 3
-      },
-      {
-        "category": "ST Ward of Ex-SM",
-        "count": 2
-      },
-      {
-        "category": "ST Home Guards",
-        "count": 2
-      },
-      {
-        "category": "OBC UR",
-        "count": 24
-      },
-      {
-        "category": "OBC WFF",
-        "count": 6
-      },
-      {
-        "category": "OBC BPL",
-        "count": 7
-      },
-      {
-        "category": "OBC Ward of Ex-SM",
-        "count": 5
-      },
-      {
-        "category": "OBC Home Guards",
-        "count": 6
-      },
-      {
-        "category": "Economically Weaker Section (EWS)",
-        "count": 20
-      },
-      {
-        "category": "EWS Home Guards",
-        "count": 4
-      }
-    ],
-    "eligibility": {
-      "education": [
-        "Female candidate must have passed Matriculation (10th) and +2 (Class 12th) from any recognized School / Board / Institution situated within Himachal Pradesh.",
-        "Condition of passing 10th & 12th from HP schools shall NOT apply to Bonafide Himachalis."
-      ],
-      "ageLimit": "Minimum 18 years and Maximum 25 years as on 01.01.2026 for General / EWS / Ward of Ex-SM candidates.",
-      "ageRelaxation": [
-        {
-          "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas",
-          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
-        },
-        {
-          "category": "OBC / OBC Ward of Ex-SM",
-          "relaxation": "18 to 27 Years (2 Years Age Relaxation)"
-        },
-        {
-          "category": "Home Guards (Gen / OBC / EWS)",
-          "relaxation": "20 to 28 Years"
-        },
-        {
-          "category": "Home Guards (SC / ST / Gorkhas)",
-          "relaxation": "20 to 28 Years"
-        }
-      ],
-      "medicalStandards": [
-        "Physical Height (Gen/EWS/OBC/HG): Min 5 Feet 2 Inches (5'-2\").",
-        "Physical Height (SC/ST/Gorkhas/HG SC-ST): Min 5 Feet 0 Inches (5'-0\").",
-        "Height Marks for Female (PST): 5'-8\" and above = 6 Marks; 5'-7\" to 5'-8\" = 5 Marks; 5'-6\" to 5'-7\" = 4 Marks; 5'-5\" to 5'-6\" = 3 Marks; 5'-4\" to 5'-5\" = 2 Marks; 5'-3\" to 5'-4\" = 1 Mark; Below 5'-3\" = 0 Marks."
-      ]
-    },
-    "salary": {
-      "payLevel": "HP Civil Services Revised Pay Band Level-3",
-      "initialPay": "Pay Level-3 (₹20,200 – ₹64,000)",
-      "allowances": [
-        "Pay Band Level-3 (Rs 20,200 - 64,000) in HP Police Department.",
-        "Dearness Allowance (DA), House Rent Allowance (HRA), Medical & Uniform Allowances as per HP Govt rules."
-      ]
-    },
-    "selectionProcess": [
-      {
-        "stage": "Physical Standard Test (PST)",
-        "description": "Measurement of Height. Marks awarded for height (0 to 6 Marks)."
-      },
-      {
-        "stage": "Physical Efficiency Test (PET - Female)",
-        "description": "800m Race (3 min 45 sec), High Jump (1.10m in 3 attempts), 100m Race (17 sec), Broad Jump (3m in 3 attempts). Qualifying nature."
-      },
-      {
-        "stage": "Written Examination",
-        "description": "90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking)."
-      },
-      {
-        "stage": "NCC Certificate Evaluation & Document Verification",
-        "description": "NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark."
-      },
-      {
-        "stage": "Final Merit List (100 Marks Total)",
-        "description": "Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
-      }
-    ],
-    "howToApplySteps": [
-      "Step 1: Visit the official website of HPPSC (hppsc.hp.gov.in/hppsc).",
-      "Step 2: Click on 'Apply Online' on the homepage and navigate to One Time Registration (OTR).",
-      "Step 3: Register as a new user by providing personal details, email ID, mobile number, and Bonafide Himachali details.",
-      "Step 4: Log into your account and select Advertisement No. 58/7-2026 for Constable (Female) recruitment.",
-      "Step 5: Fill in educational details, choose ONE preferred District for PST/PET and Written Test.",
-      "Step 6: Upload scanned copies of Matriculation certificate, 10+2 certificate, Bonafide Himachali certificate, Caste/EWS certificate, and photograph/signature.",
-      "Step 7: Pay the online examination fee of ₹600/- via Debit Card/Credit Card/UPI and print your application form."
-    ],
-    "documentsRequired": [
-      "Matriculation (10th) Certificate (Age Proof).",
-      "10+2 (Class 12th) Marksheet & Certificate.",
-      "Bonafide Himachali Certificate.",
-      "Valid Category Certificate (SC/ST/OBC/EWS/BPL/WFF/Ward of Ex-SM as per H.P. Govt format).",
-      "Service Certificate for Home Guard candidates.",
-      "NCC Certificate (A / B / C) for bonus marks.",
-      "Scanned recent Passport size Photograph & Signature."
-    ],
-    "faqs": [
-      {
-        "question": "What is the total number of vacancies in HPPSC HP Police Female Constable Recruitment 2026?",
-        "answer": "A total of 243 female Constable (Class-III Non-Gazetted) vacancies are announced across General, SC, ST, OBC, EWS, BPL, WFF, Ex-SM Wards, and Home Guard categories."
-      },
-      {
-        "question": "What is the educational qualification for HP Police Female Constable 2026?",
-        "answer": "Candidates must have passed 10+2 (Class 12th) from a recognized School/Board in Himachal Pradesh (Condition of HP schooling exempt for Bonafide Himachalis)."
-      },
-      {
-        "question": "What is the PET physical efficiency test standard for female candidates?",
-        "answer": "PET consists of 800m Race (in 3 min 45 sec), High Jump (1.10m), 100m Race (in 17 sec), and Broad Jump (3m)."
-      },
-      {
-        "question": "What is the age limit for HP Police Female Constable?",
-        "answer": "18 to 25 years for General/EWS candidates as on 01.01.2026. Age relaxation up to 27 years for SC/ST/OBC and up to 28 years for Home Guards."
-      },
-      {
-        "question": "What is the application fee for HP Police Constable recruitment?",
-        "answer": "A uniform application fee of ₹600.00 is charged from all candidates across all categories."
-      }
-    ],
-    "urls": [
-      {
-        "label": "Official HPPSC Recruitment Portal",
-        "url": "http://www.hppsc.hp.gov.in/hppsc"
-      },
-      {
-        "label": "HPPSC HP Police Female Constable Advertisement PDF",
-        "url": "http://www.hppsc.hp.gov.in/hppsc"
-      },
-      {
-        "label": "Himachal Pradesh Police Department Official Website",
-        "url": "https://hppolice.gov.in"
-      }
-    ]
-  },
   "hppsc-hp-police-constable-recruitment-2026": {
     "id": "hppsc-hp-police-constable-recruitment-2026",
-    "seoTitle": "HPPSC HP Police Constable Recruitment 2026 (491 Posts) Apply Online | NewVacancyAlert",
-    "seoDescription": "HPPSC HP Police Constable Recruitment 2026 online application for 491 Male Constable vacancies. Check 12th pass eligibility, age limit, physical PST/PET standards, salary & apply link.",
+    "seoTitle": "HPPSC HP Police Constable Recruitment 2026 – 734 Posts (491 Male + 243 Female) | Advt 57 & 58/7-2026 | Apply by 31 Aug 2026 | NewVacancyAlert",
+    "seoDescription": "HPPSC HP Police Constable Recruitment 2026: 491 Male (Advt 57/7-2026) + 243 Female (Advt 58/7-2026) = 734 total posts. Selection via PST, PET, Written Exam 90 Marks + NCC 4 Marks + Height 6 Marks. Fee ₹600. Apply online via ORA portal by 31 August 2026.",
     "focusKeywords": "HP Police Constable Recruitment 2026, HPPSC Constable Vacancy 2026, HP Police Male Constable 491 Posts, hppsc.hp.gov.in constable online form",
     "lsiKeywords": "HP Police Constable Physical Test PST PET, HP Police Constable Salary Pay Level 3, HPPSC Constable Syllabus Exam Pattern 90 Marks, HP Police Constable Application Fee 600",
-    "title": "HPPSC HP Police Constable Recruitment 2026 Notification Out for 491 Male Constable Posts",
+    "title": "HPPSC HP Police Constable Recruitment 2026 Notification Out for 734 Posts (491 Male + 243 Female Constable)",
     "board": "Himachal Pradesh Public Service Commission (HPPSC) & HP Police Department",
-    "advtNo": "57/7-2026 Dated 10-07-2026",
-    "vacancies": 491,
+    "advtNo": "Advt No. 57/7-2026 (Male Constable) & Advt No. 58/7-2026 (Female Constable) — Both Dated 10-07-2026",
+    "vacancies": 734,
     "jobLocation": "Himachal Pradesh",
     "applicationMode": "Online via HPPSC ORA Portal",
     "applicationStatus": "Active - Apply Online Now",
     "lastUpdated": "2026-08-07",
     "overview": [
-      "Himachal Pradesh Public Service Commission (HPPSC) has released official advertisement notification (Advt No. 57/7-2026) for recruitment to 491 posts of Constables (Male) Class-III (Non-Gazetted) in Himachal Pradesh Police Department.",
-      "Out of 491 total vacancies, 187 are for General/UR category, 122 for SC, 102 for OBC, 57 for EWS, and 23 for ST candidates (including WFF, BPL, and Home Guards quotas).",
-      "Selected candidates will be appointed on a regular basis in Pay Band Level-3 (Rs 20,200 – 64,000) in HP Police Department and undergo basic Recruitment Training Course (RTC) at PTC Daroh.",
-      "The selection process comprises Physical Standard Test (PST), Physical Efficiency Test (PET), 90 Marks Written Examination, Document Verification (with NCC marks), and Medical Examination."
+      "Himachal Pradesh Public Service Commission (HPPSC) and HP Police Department have jointly released two concurrent recruitment notifications on 10 July 2026 for the post of Constable (IRB/District Police). Advertisement No. 57/7-2026 covers 491 Male Constable posts and Advertisement No. 58/7-2026 covers 243 Female Constable posts — a combined total of 734 constable vacancies across Himachal Pradesh.",
+      "Candidates must apply separately under the respective advertisement number via the Himachal Pradesh Online Recruitment Application (HP ORA) portal. A single application fee of ₹600/- applies for all candidates irrespective of category. Last date for online application for both advertisements is 31 August 2026 (11:59 PM).",
+      "Selection is conducted in four stages: Physical Standard Test (PST), Physical Efficiency Test (PET), Written Examination (90 MCQs), and NCC Certificate Evaluation. Final merit list is out of 100 marks: Written Exam (90 Marks) + Height marks (6 Marks) + NCC marks (4 Marks)."
     ],
     "highlights": [
       {
-        "label": "Recruiting Commission",
-        "value": "Himachal Pradesh Public Service Commission (HPPSC)"
-      },
-      {
-        "label": "Department",
-        "value": "Himachal Pradesh Police Department"
-      },
-      {
-        "label": "Advertisement No.",
-        "value": "57/7-2026 (Dated 10-07-2026)"
+        "label": "Recruiting Organization",
+        "value": "Himachal Pradesh Public Service Commission (HPPSC) & HP Police Department"
       },
       {
         "label": "Post Name",
-        "value": "Constable (Male) Class-III Non-Gazetted"
+        "value": "Constable (IRB / District Police)"
+      },
+      {
+        "label": "Advt No. (Male)",
+        "value": "57/7-2026 Dated 10-07-2026 — 491 Male Posts"
+      },
+      {
+        "label": "Advt No. (Female)",
+        "value": "58/7-2026 Dated 10-07-2026 — 243 Female Posts"
       },
       {
         "label": "Total Vacancies",
-        "value": "491 Posts"
+        "value": "734 Posts (491 Male + 243 Female)"
       },
       {
-        "label": "Pay Scale",
-        "value": "Pay Band Level-3 (₹20,200 – ₹64,000)"
+        "label": "Job Location",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "label": "Application Mode",
+        "value": "Online via HP ORA Portal (hpora.hp.gov.in)"
       },
       {
         "label": "Educational Qualification",
-        "value": "10+2 (Class 12th) Passed"
+        "value": "Matriculation (10th) & +2 (12th) from HP recognised institution"
       },
       {
-        "label": "Age Limit (as on 01.01.2026)",
-        "value": "18 to 25 Years (General / EWS)"
+        "label": "Age Limit (General)",
+        "value": "18 to 25 years as on 01.01.2026"
       },
       {
         "label": "Application Fee",
-        "value": "₹600/- for All Categories"
+        "value": "₹600/- for all categories"
+      },
+      {
+        "label": "Application Start Date",
+        "value": "10 July 2026"
+      },
+      {
+        "label": "Application Last Date",
+        "value": "31 August 2026 (11:59 PM)"
       },
       {
         "label": "Official Website",
-        "value": "hppsc.hp.gov.in/hppsc"
+        "value": "hppsc.hp.gov.in / hppolice.gov.in"
       }
     ],
     "importantDates": [
@@ -2648,9 +2371,14 @@
     ],
     "applicationFee": [
       {
-        "category": "All Candidates (General / SC / ST / OBC / EWS / Home Guards)",
+        "category": "All Candidates — Male Constable (Advt 57/7-2026)",
         "fee": "₹600.00",
-        "refund": ""
+        "refund": "Non-refundable"
+      },
+      {
+        "category": "All Candidates — Female Constable (Advt 58/7-2026)",
+        "fee": "₹600.00",
+        "refund": "Non-refundable"
       }
     ],
     "vacanciesDetails": [
@@ -2721,10 +2449,10 @@
     ],
     "eligibility": {
       "education": [
-        "Candidate must have passed Matriculation (10th) and +2 (Class 12th) from any recognized School / Board / Institution situated within Himachal Pradesh.",
-        "Condition of passing 10th & 12th from HP schools shall NOT apply to Bonafide Himachalis."
+        "All candidates (Male & Female) must have passed Matriculation (10th Standard) and +2 (Class 12th) from any recognised School / Board / Institution situated within Himachal Pradesh.",
+        "This condition of studying in HP schools shall NOT apply to Bonafide Himachalis who have studied outside HP."
       ],
-      "ageLimit": "Minimum 18 years and Maximum 25 years as on 01.01.2026 for General / EWS candidates.",
+      "ageLimit": "Minimum 18 years and Maximum 25 years as on 01.01.2026 for General / EWS candidates. Maximum 27 years for SC/ST/OBC/Gorkhas. Home Guards: 20 to 28 years.",
       "ageRelaxation": [
         {
           "category": "SC / ST / SC-ST Ward of Ex-SM / Gorkhas",
@@ -2744,9 +2472,14 @@
         }
       ],
       "medicalStandards": [
-        "Physical Height (Gen/EWS/OBC/HG): Min 5 Feet 6 Inches (5'-6\"); Chest 31\" x 32\".",
-        "Physical Height (SC/ST/Gorkhas/HG SC-ST): Min 5 Feet 4 Inches (5'-4\"); Chest 29\" x 30\".",
-        "Height Marks (PST): 6'-0\" and above = 6 Marks; 5'-11\" to 5'-12\" = 5 Marks; 5'-10\" to 5'-11\" = 4 Marks; 5'-9\" to 5'-10\" = 3 Marks; 5'-8\" to 5'-9\" = 2 Marks; 5'-7\" to 5'-8\" = 1 Mark; Below 5'-7\" = 0 Marks."
+        "--- MALE CONSTABLE STANDARDS ---",
+        "Height (General/EWS/OBC/HG): Min 5 Feet 6 Inches (5'-6\"); Chest (unexpanded/expanded): 31\" × 32\".",
+        "Height (SC/ST/Gorkhas/HG SC-ST): Min 5 Feet 4 Inches (5'-4\"); Chest: 29\" × 30\".",
+        "Male Height Marks (PST): 6'-0\" and above = 6 Marks; 5'-11\" to 5'-12\" = 5 Marks; 5'-10\" to 5'-11\" = 4 Marks; 5'-9\" to 5'-10\" = 3 Marks; 5'-8\" to 5'-9\" = 2 Marks; 5'-7\" to 5'-8\" = 1 Mark; Below 5'-7\" = 0 Marks.",
+        "--- FEMALE CONSTABLE STANDARDS ---",
+        "Height (General/EWS/OBC/HG Female): Min 5 Feet 2 Inches (5'-2\"). No chest requirement.",
+        "Height (SC/ST/Gorkhas/HG SC-ST Female): Min 5 Feet 0 Inches (5'-0\").",
+        "Female Height Marks (PST): 5'-8\" and above = 6 Marks; 5'-7\" to 5'-8\" = 5 Marks; 5'-6\" to 5'-7\" = 4 Marks; 5'-5\" to 5'-6\" = 3 Marks; 5'-4\" to 5'-5\" = 2 Marks; 5'-3\" to 5'-4\" = 1 Mark; Below 5'-3\" = 0 Marks."
       ]
     },
     "salary": {
@@ -2759,24 +2492,24 @@
     },
     "selectionProcess": [
       {
-        "stage": "Physical Standard Test (PST)",
-        "description": "Measurement of Height and Chest. Marks awarded for height (0 to 6 Marks)."
+        "stage": "Stage 1: Physical Standard Test (PST)",
+        "description": "Measurement of Height (and Chest for Male candidates). Height marks awarded on scale of 0–6. Male: Min 5'6\" (Gen/OBC/EWS/HG), 5'4\" (SC/ST/Gorkhas). Female: Min 5'2\" (Gen/OBC/EWS/HG), 5'0\" (SC/ST/Gorkhas). Candidates failing PST are eliminated."
       },
       {
-        "stage": "Physical Efficiency Test (PET)",
-        "description": "1500m Race (5 min 30 sec), High Jump (1.35m in 3 attempts), 100m Race (14 sec), Broad Jump (4m in 3 attempts). Qualifying nature."
+        "stage": "Stage 2: Physical Efficiency Test (PET)",
+        "description": "Male PET: 1500m Race (5 min 30 sec), High Jump (1.35m in 3 attempts), 100m Race (14 sec), Broad Jump (4m in 3 attempts). Female PET: 800m Race (3 min 45 sec), High Jump (1.10m in 3 attempts), 100m Race (17 sec), Broad Jump (3m in 3 attempts). PET is qualifying in nature — no marks added to merit."
       },
       {
-        "stage": "Written Examination",
-        "description": "90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks with 0.25 negative marking (Option E available to avoid negative marking)."
+        "stage": "Stage 3: Written Examination",
+        "description": "90 Objective MCQ Questions of 2 Hours duration carrying 90 Marks. Subjects cover General Knowledge, Current Affairs, Reasoning, and HP-specific topics. Negative marking of 0.25 marks per wrong answer. Option E available to attempt 0 marks without negative marking."
       },
       {
-        "stage": "NCC Certificate Evaluation & Document Verification",
-        "description": "NCC C Certificate = 4 Marks, B = 2 Marks, A = 1 Mark."
+        "stage": "Stage 4: NCC Certificate Evaluation & Document Verification",
+        "description": "NCC C Certificate holders = 4 Marks; NCC B Certificate = 2 Marks; NCC A Certificate = 1 Mark. Original certificates and all educational/category documents verified at this stage."
       },
       {
-        "stage": "Final Merit List (100 Marks Total)",
-        "description": "Written Exam (90 Marks) + Height (06 Marks) + NCC Marks (04 Marks)."
+        "stage": "Stage 5: Final Merit List (100 Marks Total)",
+        "description": "Written Exam (90 Marks) + Height PST Marks (06 Marks) + NCC Marks (max 04 Marks) = 100 Marks Total. Separate merit lists prepared for Male (491 posts) and Female (243 posts) candidates."
       }
     ],
     "howToApplySteps": [
@@ -2825,7 +2558,15 @@
         "url": "http://www.hppsc.hp.gov.in/hppsc"
       },
       {
-        "label": "HPPSC HP Police Constable Advertisement PDF",
+        "label": "HP ORA Online Application Portal",
+        "url": "https://www.hpora.hp.gov.in"
+      },
+      {
+        "label": "HPPSC Advt 57/7-2026 – Male Constable Advertisement PDF",
+        "url": "http://www.hppsc.hp.gov.in/hppsc"
+      },
+      {
+        "label": "HPPSC Advt 58/7-2026 – Female Constable Advertisement PDF",
         "url": "http://www.hppsc.hp.gov.in/hppsc"
       },
       {
