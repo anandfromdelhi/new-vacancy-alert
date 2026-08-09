@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "hp-high-court-district-judiciary-recruitment-2026",
+    "b": "High Court of Himachal Pradesh, Shimla (HPHC) / District Judiciary",
+    "t": "HP High Court District Judiciary Recruitment 2026 – Apply Online for 388 Posts of Clerk, Stenographer, Process Server, Peon & Court Manager | Pay up to ₹1,54,300",
+    "d": "05.08.2026",
+    "l": "10.08.2026",
+    "a": "Advertisement Notice No. DJ-ADVT./2026 (1) Dated 05.08.2026",
+    "q": "Class 12th (10+2) / Graduate Degree / MBA depending on post",
+    "desc": "High Court of Himachal Pradesh, Shimla invites Online Recruitment Applications (ORA) for filling up 388 clearcut/anticipated vacancies of Court Manager, Clerk, Stenographer Grade-III, Driver, Process Server, and Peon/Chowkidar/Safai Karamchari on the Establishment of District Judiciary in HP under Himachal Pradesh District Judiciary Staff Rules 2022.",
+    "u": "https://www.hphcrecruitment.in/login"
+},
+  {
     "id": "kea-karnataka-esi-pharmacist-nursing-officer-2026",
     "b": "Karnataka Examination Authority (KEA) / ESI Medical Services Department",
     "t": "KEA Karnataka ESI Recruitment 2026 – Apply Online for 188 Posts of Pharmacist Officer & Nursing Officer (Shushrushadhikari) | Salary up to ₹99,400",
