@@ -477,26 +477,28 @@ export default function JobDetailPage() {
     window.print();
   };
 
-  const activeOverview = (job.overview || []).filter(p => !isNoData(p));
-  const activeHighlights = (job.highlights || []).filter(item => !isNoData(item.value));
-  const activeDates = (job.importantDates || []).filter(item => !isNoData(item.date) && !isNoData(item.event));
+  const activeOverview = (Array.isArray(job.overview) ? job.overview : []).filter(p => !isNoData(p));
+  const activeHighlights = (Array.isArray(job.highlights) ? job.highlights : []).filter(item => !isNoData(item?.value));
+  const activeDates = (Array.isArray(job.importantDates) ? job.importantDates : []).filter(item => !isNoData(item?.date) && !isNoData(item?.event));
   
-  const activeVacancyDetails = (job.vacanciesDetails || []).filter(item => !isNoData(item.count) && !isNoData(item.category));
-  const activeRegionWiseVacancies = (job.regionWiseVacancies || []).filter(item => !isNoData(item.count) && !isNoData(item.region));
+  const activeVacancyDetails = (Array.isArray(job.vacanciesDetails) ? job.vacanciesDetails : []).filter(item => !isNoData(item?.count) && !isNoData(item?.category));
+  const activeRegionWiseVacancies = (Array.isArray(job.regionWiseVacancies) ? job.regionWiseVacancies : []).filter(item => !isNoData(item?.count) && !isNoData(item?.region));
   const hasVacancies = activeVacancyDetails.length > 0 || activeRegionWiseVacancies.length > 0;
 
-  const activeEducation = (job.eligibility?.education || []).filter(item => !isNoData(item));
+  const activeEducation = (Array.isArray(job.eligibility?.education) ? job.eligibility.education : []).filter(item => !isNoData(item));
   const hasAgeLimit = !isNoData(job.eligibility?.ageLimit);
-  const activeAgeRelaxation = (job.eligibility?.ageRelaxation || []).filter(item => !isNoData(item.relaxation) && !isNoData(item.category));
-  const activeMedical = (job.eligibility?.medicalStandards || []).filter(item => !isNoData(item));
+  const activeAgeRelaxation = (Array.isArray(job.eligibility?.ageRelaxation) ? job.eligibility.ageRelaxation : []).filter(item => !isNoData(item?.relaxation) && !isNoData(item?.category));
+  const activeMedical = (Array.isArray(job.eligibility?.medicalStandards) ? job.eligibility.medicalStandards : []).filter(item => !isNoData(item));
   const hasEligibility = activeEducation.length > 0 || hasAgeLimit || activeAgeRelaxation.length > 0 || activeMedical.length > 0;
 
   const hasSalary = job.salary && (!isNoData(job.salary.payLevel) || !isNoData(job.salary.initialPay));
 
-  const activeFees = (job.applicationFee || []).filter(item => !isNoData(item.fee) && !isNoData(item.category));
-  const hasFees = activeFees.length > 0;
+  const activeFees = Array.isArray(job.applicationFee) 
+    ? job.applicationFee.filter(item => !isNoData(item?.fee) && !isNoData(item?.category)) 
+    : [];
+  const hasFees = activeFees.length > 0 || (typeof job.applicationFee === 'object' && job.applicationFee !== null);
 
-  const activeSelection = (job.selectionProcess || []).filter(item => !isNoData(item.stage) && !isNoData(item.description));
+  const activeSelection = (Array.isArray(job.selectionProcess) ? job.selectionProcess : []).filter(item => !isNoData(item?.stage) && !isNoData(item?.description));
   const hasSelection = activeSelection.length > 0;
 
   const hasExamPattern = job.examPattern && !isNoData(job.examPattern.duration) && job.examPattern.sections && job.examPattern.sections.length > 0;

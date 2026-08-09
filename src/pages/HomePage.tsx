@@ -102,7 +102,7 @@ function parseDateString(dateStr: string): Date {
   if (!dateStr || dateStr === '–' || dateStr.trim() === '' || dateStr.toLowerCase().includes('instant')) {
     return new Date(1970, 0, 1);
   }
-  const cleanStr = dateStr.replace(/\//g, '-').trim();
+  const cleanStr = dateStr.replace(/[\/.]/g, '-').trim();
   const parts = cleanStr.split('-');
   if (parts.length === 3) {
     const day = parseInt(parts[0], 10);
