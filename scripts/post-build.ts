@@ -100,6 +100,7 @@ async function runPostBuild() {
 
   await Promise.all(writePromises);
   console.log(`🚀 SSG Pre-rendering completed! Parallel pre-rendered HTML for ${routes.size} URLs.`);
+  process.exit(0);
 }
 
 runPostBuild().catch(err => {

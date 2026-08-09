@@ -153,3 +153,4 @@ if (qualUnassigned.length === 0) {
 console.log('\n=======================================================');
 console.log('                 AUDIT COMPLETED                       ');
 console.log('=======================================================\n');
+process.exit(0);
