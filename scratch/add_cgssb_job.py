@@ -1,0 +1,161 @@
+import json
+
+job_data = {
+  "id": "cgssb-chhattisgarh-teacher-recruitment-2026",
+  "seoTitle": "CGSSB Teacher Recruitment 2026 Apply Online for CG Vyapam Shikshak Recruitment Exam (LST26)",
+  "seoDescription": "CGSSB Chhattisgarh Staff Selection Board notification for School Education Department Teacher Recruitment Exam (LST26). Check exam date (25 Oct 2026), syllabus, fee refund rule & apply online by 02 Sept 2026.",
+  "focusKeywords": "CGSSB Teacher Recruitment 2026, CG Vyapam Shikshak Recruitment 2026, cgssb.cgstate.gov.in LST26, Chhattisgarh School Education Teacher Exam",
+  "lsiKeywords": "CGSSB LST26 Exam Date 25 Oct 2026, CGSSB Fee Refund Rule, CG Vyapam Profile Registration, Chhattisgarh Teacher Exam Pattern Negative Marking",
+  "title": "CGSSB Chhattisgarh Teacher Recruitment 2026 – Apply Online for School Education Dept Teacher Recruitment Exam (LST26) | Exam Date: 25 October 2026",
+  "board": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) / Directorate of Public Instruction",
+  "advtNo": "Notice No. F-20/2026/3399 Dated 07.08.2026 (Exam Code: LST26)",
+  "vacancies": 3300,
+  "jobLocation": "Chhattisgarh (16 District Headquarters)",
+  "applicationMode": "Online (https://cgssb.cgstate.gov.in)",
+  "applicationStatus": "Active",
+  "lastUpdated": "07 August 2026",
+  "overview": [
+    "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) has released official notification F-20/2026/3399 inviting Online Applications for the Written Recruitment Examination for Teacher (Shikshak) posts under Directorate of Public Instruction, Government of Chhattisgarh under Exam Code LST26.",
+    "Candidates seeking recruitment in Chhattisgarh School Education Department can submit online profile registration and application form on cgssb.cgstate.gov.in or vyapamcg.cgstate.gov.in from 07 August 2026 to 02 September 2026 (5:00 PM).",
+    "As per Government of Chhattisgarh rules, application fee paid by local resident candidates of Chhattisgarh who appear in the examination will be 100% refunded directly into their bank accounts after the declaration of exam results.",
+    "The Written Competitive Exam (LST26) is tentatively scheduled for Sunday, 25 October 2026 (10:00 AM to 12:15 PM) across 16 District Headquarters in Chhattisgarh."
+  ],
+  "highlights": [
+    { "label": "Recruiting Body", "value": "Chhattisgarh Staff Selection Board (CGSSB / CG Vyapam)" },
+    { "label": "Department", "value": "Directorate of Public Instruction, Govt of Chhattisgarh" },
+    { "label": "Exam Code", "value": "LST26 (Shikshak Recruitment Written Exam 2026)" },
+    { "label": "Notification No.", "value": "F-20/2026/3399 Dated 07.08.2026" },
+    { "label": "Educational Qualification", "value": "Graduation Degree + B.Ed / D.El.Ed + CG TET / CTET Paper-II Qualified" },
+    { "label": "Age Limit", "value": "21 to 40 Years (Up to 45 Years for Reserved Categories & CG Domicile)" },
+    { "label": "Application Fee", "value": "General: Rs. 350 | OBC: Rs. 250 | SC/ST/Divyang: Rs. 200 (100% Refundable for CG Domiciles)" },
+    { "label": "Tentative Exam Date", "value": "25.10.2026 (Sunday, 10:00 AM to 12:15 PM)" },
+    { "label": "Admit Card Date", "value": "19.10.2026 (Monday)" },
+    { "label": "Exam Centers", "value": "16 District Headquarters across Chhattisgarh State" },
+    { "label": "Selection Process", "value": "Written Competitive OMR Exam (100 Marks, 0.25 Negative Marking) + DV" },
+    { "label": "Online Application Dates", "value": "07.08.2026 to 02.09.2026 (Correction: 03.09.2026 to 05.09.2026)" }
+  ],
+  "importantDates": [
+    { "event": "Notification Published Date", "date": "07.08.2026" },
+    { "event": "Opening Date of Online Application", "date": "07.08.2026" },
+    { "event": "Closing Date for Submission of Online Application", "date": "02.09.2026" },
+    { "event": "Online Application Correction Window (Truti Sudhar)", "date": "03.09.2026 to 05.09.2026" },
+    { "event": "Admit Card Release Date on Website", "date": "19.10.2026" },
+    { "event": "Tentative Written Examination Date (LST26)", "date": "25.10.2026" }
+  ],
+  "vacanciesDetails": [
+    { "category": "Teacher (Shikshak) - School Education Department", "count": "3,300+ Posts (Category-wise allocation as per DPI CG Notice)" }
+  ],
+  "regionWiseVacancies": [
+    { "region": "Sarguja Division (Ambikapur)", "count": "District Code 11" },
+    { "region": "Bilaspur Division", "count": "District Code 13" },
+    { "region": "Bastar Division (Jagdalpur)", "count": "District Code 17" },
+    { "region": "Raipur Division", "count": "District Code 25" },
+    { "region": "Durg Division", "count": "District Code 16" }
+  ],
+  "eligibility": {
+    "education": [
+      "Must possess Graduation Degree in relevant subject from a recognized University.",
+      "Must possess B.Ed (Bachelor of Education) OR D.El.Ed (Diploma in Elementary Education).",
+      "Must have qualified CG TET (Chhattisgarh Teacher Eligibility Test) OR CTET (Central Teacher Eligibility Test) Paper-II for Upper Primary Level (Classes 6-8).",
+      "Must be a local resident (Bonafide Domicile) of Chhattisgarh State."
+    ],
+    "ageLimit": "Minimum 21 Years. Maximum Age Limit: General: 40 Years | SC / ST / OBC / Female / CG Domicile: Up to 45 Years (as per CG Govt relaxation rules).",
+    "ageRelaxation": [
+      { "category": "SC / ST / OBC Candidates of Chhattisgarh", "relaxation": "5 Years (Max age 45 Years)" },
+      { "category": "Female Candidates (CG Domicile)", "relaxation": "10 Years (Max age 45 Years)" },
+      { "category": "Persons with Disabilities (Divyang)", "relaxation": "Up to 45 Years" },
+      { "category": "Ex-Servicemen & Guest Teachers", "relaxation": "As per CG Govt Rules" }
+    ],
+    "medicalStandards": [
+      "Candidates must be in sound mental and physical health.",
+      "Divyang candidates must possess valid Disability Certificate showing minimum 40% benchmark disability."
+    ]
+  },
+  "salary": {
+    "payLevel": "Chhattisgarh State Pay Matrix Level-8",
+    "initialPay": "Rs. 35,400/- (Basic Pay Level 8) + Applicable DA, HRA, Medical Allowances",
+    "allowances": [
+      "Stipend/Probation Pay Rule of CG Govt applies during initial 3 years probation period",
+      "Contributory Pension Scheme (NPS / Old Pension Benefits as per CG Govt policy)"
+    ]
+  },
+  "applicationFee": {
+    "general": "Rs. 350/- (100% Refundable for CG Domiciles who appear in exam)",
+    "obc": "Rs. 250/- (100% Refundable for CG Domiciles who appear in exam)",
+    "ews": "Rs. 350/- (100% Refundable for CG Domiciles who appear in exam)",
+    "sc_st": "Rs. 200/- (100% Refundable for CG Domiciles who appear in exam)",
+    "pwbd_female": "Rs. 200/- (100% Refundable for CG Divyang candidates who appear in exam)"
+  },
+  "howToPayFee": [
+    "Pay examination fee online via Net Banking, Credit Card, Debit Card, or UPI on CGSSB portal while submitting online application.",
+    "IMPORTANT FEE REFUND RULE: As per CG Govt order dated 21.04.2025/2026, the examination fee paid by Bonafide Residents of Chhattisgarh who actually appear in the examination will be 100% refunded directly back to the original bank account used during online payment."
+  ],
+  "selectionProcess": [
+    "Written Competitive Examination (LST26): Objective OMR Mode.",
+    "   - Total Questions: 100 MCQs (100 Marks).",
+    "   - Duration: 2 Hours 15 Minutes (10:00 AM to 12:15 PM).",
+    "   - Negative Marking: 0.25 Marks (1/4th) deducted for each incorrect answer.",
+    "Declaration of Model Answer Key & Objection Window (Rs. 50/- per objection).",
+    "Final Merit List & Document Verification (DV) by Directorate of Public Instruction, CG."
+  ],
+  "examPattern": {
+    "mode": "Written Competitive Exam (Offline OMR Mode)",
+    "screeningCriteria": "100 MCQs | 100 Marks | 2 Hours 15 Mins Duration | 0.25 Negative Marking",
+    "finalSelection": "100% Merit Basis on Written Examination Marks (LST26) + DV Verification."
+  },
+  "syllabus": [
+    "Child Development & Pedagogy (बाल विकास एवं शिक्षाशास्त्र): 30 Marks",
+    "General Hindi (सामान्य हिंदी): 25 Marks",
+    "General English (सामान्य अंग्रेजी): 25 Marks",
+    "Mathematics & Science / Social Science (गणित एवं विज्ञान / सामाजिक अध्ययन): 30 Marks",
+    "General Knowledge & Computer Awareness (सामान्य ज्ञान एवं कंप्यूटर की सामान्य जानकारी): 10 Marks"
+  ],
+  "howToApplySteps": [
+    "Visit official CGSSB / CG Vyapam website at https://cgssb.cgstate.gov.in or https://vyapamcg.cgstate.gov.in.",
+    "Click on 'New Profile Registration' link to create user profile with mobile number and Aadhaar/Photo verification.",
+    "Log in to candidate portal using registered mobile number and password.",
+    "Select 'Lok Shikshan Shikshak Recruitment Examination 2026 (LST26)' and fill in educational details, CG TET/CTET details, and exam center preference.",
+    "Upload recent passport photograph (light background, 50-100KB) and signature (50-100KB).",
+    "Pay examination fee online (General ₹350, OBC ₹250, SC/ST ₹200) and click on 'SUBMIT' button.",
+    "Download and print acknowledgment application form. Keep original payment bank account details for fee refund after exam."
+  ],
+  "documentsRequired": [
+    "Printed copy of Online Application Form & Fee Submission Receipt.",
+    "Class 10th / SSLC Marksheet for Date of Birth verification.",
+    "Graduation Degree & all Semester Marksheets.",
+    "B.Ed / D.El.Ed Marksheets & Passing Certificate.",
+    "CG TET / CTET Paper-II Certificate.",
+    "Chhattisgarh Bonafide Resident / Domicile Certificate (छत्तीसगढ़ मूल निवास प्रमाण पत्र).",
+    "Caste Certificate for SC/ST/OBC (Non-Creamy Layer) issued by Competent Authority.",
+    "Divyang Disability Certificate (for PwD candidates).",
+    "Passport size Photograph & Photo ID Proof (Aadhaar / Voter ID / DL)."
+  ],
+  "importantInstructions": [
+    "Online Application Window: 07.08.2026 to 02.09.2026 (up to 5:00 PM).",
+    "Online Correction Window (Truti Sudhar): 03.09.2026 to 05.09.2026 (up to 5:00 PM).",
+    "Written Exam Date: 25.10.2026 (Sunday, 10:00 AM to 12:15 PM).",
+    "Admit Card will be uploaded 7 days prior on 19.10.2026. No admit card will be sent by post.",
+    "Negative marking of 0.25 marks (1/4th) applies for every wrong answer.",
+    "CGSSB Candidate Helpline: 0771-2972780 / Mobile: 8269801982 (10:00 AM to 5:30 PM working days)."
+  ],
+  "urls": [
+    { "label": "Apply Online (CGSSB Official Portal)", "url": "https://cgssb.cgstate.gov.in" },
+    { "label": "Official CG Vyapam Website (vyapamcg.cgstate.gov.in)", "url": "https://vyapamcg.cgstate.gov.in" }
+  ],
+  "officialLinks": [
+    { "label": "CGSSB Official Portal", "url": "https://cgssb.cgstate.gov.in" }
+  ],
+  "faqs": [
+    { "question": "What is the exam date for CGSSB Chhattisgarh Teacher Recruitment 2026 (LST26)?", "answer": "The tentative written exam date for LST26 is Sunday, 25 October 2026 from 10:00 AM to 12:15 PM." },
+    { "question": "What is the last date to apply online for CGSSB Teacher Exam 2026?", "answer": "The closing date for submission of online application is 02 September 2026 by 5:00 PM." },
+    { "question": "Is the application fee refundable in CGSSB Teacher Exam?", "answer": "Yes! As per Chhattisgarh Govt rules, the application fee paid by local residents of Chhattisgarh who actually appear in the exam will be 100% refunded to their bank account." },
+    { "question": "Is there negative marking in CGSSB LST26 Teacher Exam?", "answer": "Yes. 0.25 marks (1/4th) will be deducted for each incorrect answer." },
+    { "question": "What are the qualifications required for CGSSB Shikshak Recruitment?", "answer": "Candidates must possess a Graduation Degree, B.Ed / D.El.Ed, and CG TET or CTET Paper-II qualification." },
+    { "question": "When will CGSSB Teacher Admit Card 2026 be released?", "answer": "Admit cards will be available for download on the CGSSB portal starting 19 October 2026." }
+  ]
+}
+
+with open('scratch/temp_cgssb.json', 'w', encoding='utf-8') as f:
+    json.dump(job_data, f, indent=2, ensure_ascii=False)
+
+print("Saved scratch/temp_cgssb.json")

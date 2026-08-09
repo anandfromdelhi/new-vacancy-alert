@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "cgssb-chhattisgarh-teacher-recruitment-2026",
+    "b": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) / Directorate of Public Instruction",
+    "t": "CGSSB Chhattisgarh Teacher Recruitment 2026 – Apply Online for School Education Dept Teacher Recruitment Exam (LST26) | Exam Date: 25 October 2026",
+    "d": "07.08.2026",
+    "l": "07.08.2026",
+    "a": "Notice No. F-20/2026/3399 Dated 07.08.2026 (Exam Code: LST26)",
+    "q": "Graduation Degree + B.Ed / D.El.Ed + CG TET / CTET Paper-II Qualified",
+    "desc": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) has released official notification F-20/2026/3399 inviting Online Applications for the Written Recruitment Examination for Teacher (Shikshak) posts under Directorate of Public Instruction, Government of Chhattisgarh under Exam Code LST26.",
+    "u": "https://cgssb.cgstate.gov.in"
+},
+  {
     "id": "hp-high-court-district-judiciary-recruitment-2026",
     "b": "High Court of Himachal Pradesh, Shimla (HPHC) / District Judiciary",
     "t": "HP High Court District Judiciary Recruitment 2026 – Apply Online for 388 Posts of Clerk, Stenographer, Process Server, Peon & Court Manager | Pay up to ₹1,54,300",
