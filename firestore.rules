@@ -1,8 +1,102 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // =========================================================================
+    // 1. COMMENTS COLLECTION SECURITY
+    // =========================================================================
+    match /comments/{commentId} {
+      // 1a. Public Read: Anyone can read public comments
+      allow read: if true;
+
+      // 1b. Comment Creation: Authenticated users can post comments tied strictly to their own UID
+      //     Enforces required & allowed fields, serverTimestamp for created_at, likes_count == 0
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasAll([
+             'page_id', 'author_name', 'author_role', 'author_uid',
+             'content', 'likes_count', 'created_at'
+           ])
+        && request.resource.data.keys().hasOnly([
+             'page_id', 'author_name', 'author_role', 'author_uid',
+             'content', 'likes_count', 'parent_id', 'created_at'
+           ])
+        && request.resource.data.author_uid == request.auth.uid
+        && request.resource.data.content is string
+        && request.resource.data.content.size() > 0
+        && request.resource.data.content.size() <= 2000
+        && request.resource.data.page_id is string
+        && request.resource.data.likes_count == 0
+        && request.resource.data.created_at == request.time
+        && (!('parent_id' in request.resource.data) || request.resource.data.parent_id == null || request.resource.data.parent_id is string);
+
+      // 1c. Comment Editing: Author can ONLY edit the 'content' field of their own comment
+      //     Prevents modifying author_uid, author_name, author_role, created_at, page_id, parent_id, or likes_count
+      allow update: if request.auth != null
+        && resource.data.author_uid == request.auth.uid
+        && request.resource.data.author_uid == resource.data.author_uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['content'])
+        && request.resource.data.content is string
+        && request.resource.data.content.size() > 0
+        && request.resource.data.content.size() <= 2000;
+
+      // 1d. Comment Deletion: Only the original author can delete their own comment
+      allow delete: if request.auth != null
+        && resource.data.author_uid == request.auth.uid;
+
+      // -----------------------------------------------------------------------
+      // 1e. LIKES SUBCOLLECTION: comments/{commentId}/likes/{userId}
+      // -----------------------------------------------------------------------
+      match /likes/{userId} {
+        // Public Read: Anyone can read likes to check like state or calculate like count
+        allow read: if true;
+
+        // User can create or delete ONLY their own like document matching their authenticated UID
+        allow create, delete: if request.auth != null
+          && request.auth.uid == userId;
+
+        // Direct updates to like documents are disabled
+        allow update: if false;
+      }
+    }
+
+    // =========================================================================
+    // 2. MARKETING PARTNERS COLLECTION SECURITY
+    // =========================================================================
     match /marketingPartners/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      // 2a. Owner Read: Marketing partners can only read their own registration profile
+      allow read: if request.auth != null && request.auth.uid == userId;
+
+      // 2b. Profile Creation: Authenticated users can register their own document ID matching UID
+      //     Enforces uid == request.auth.uid, totalClicks == 0, and registeredAt == request.time
+      allow create: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.totalClicks == 0
+        && request.resource.data.registeredAt == request.time
+        && request.resource.data.keys().hasOnly([
+             'uid', 'name', 'email', 'phone', 'state', 'district', 'occupation',
+             'registeredAt', 'acceptedTerms', 'acceptedMarketingConsent', 'totalClicks'
+           ]);
+
+      // 2c. Profile Update: Owner can ONLY update legitimate profile fields
+      //     Prevents modifying uid, registeredAt, or totalClicks directly from the client
+      allow update: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+             'name', 'email', 'phone', 'state', 'district', 'occupation',
+             'acceptedTerms', 'acceptedMarketingConsent'
+           ]);
+
+      // 2d. Profile Deletion: Prevented from client SDK
+      allow delete: if false;
+    }
+
+    // =========================================================================
+    // 3. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
+    // =========================================================================
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }

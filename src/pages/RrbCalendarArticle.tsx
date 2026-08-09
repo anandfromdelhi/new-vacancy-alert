@@ -9,6 +9,7 @@ import {
   Info, Bell, Zap, Eye, RefreshCw, Sun, Moon, ListFilter, Bookmark
 } from 'lucide-react';
 import SubscribeWidget from '../components/SubscribeWidget';
+import CommentsSection from '../components/CommentsSection';
 import { useAuth } from '../context/AuthContext';
 
 export default function RrbCalendarArticle() {
@@ -1176,6 +1177,9 @@ export default function RrbCalendarArticle() {
         </section>
 
 
+
+        {/* Comments & Discussion */}
+        <CommentsSection pageId="rrb-calendar" pageTitle="RRB Exam Calendar 2026-27" />
 
         {/* Push Notification Subscription Bar at Bottom */}
         <SubscribeWidget mode="bottom" />

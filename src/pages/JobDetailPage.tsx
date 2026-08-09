@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { jobDetailsData } from '../data/jobDetails';
 import SubscribeWidget from '../components/SubscribeWidget';
+import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
 import { useAuth } from '../context/AuthContext';
@@ -3151,6 +3152,11 @@ export default function JobDetailPage() {
       </div>
 
 
+
+      {/* Comments & Discussion */}
+      <div className="max-w-6xl mx-auto px-4 mt-8 print:hidden">
+        <CommentsSection pageId={`job-${id || 'detail'}`} pageTitle={job.title || 'Government Job Notification'} />
+      </div>
 
       {/* Priority OneSignal Subscription Settings (Bottom of Sub-page, visible only when subscribed, spanning full layout width) */}
       <div className="max-w-6xl mx-auto px-4 mt-8 pb-12 print:hidden">

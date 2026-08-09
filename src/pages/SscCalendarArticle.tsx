@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { sscCalendarData, sscRevisionHistory, sscFaqs, SscExamEvent } from '../data/sscCalendarData';
 import SubscribeWidget from '../components/SubscribeWidget';
+import CommentsSection from '../components/CommentsSection';
 import { useAuth } from '../context/AuthContext';
 
 export default function SscCalendarArticle() {
@@ -463,6 +464,9 @@ export default function SscCalendarArticle() {
         </div>
 
 
+
+        {/* Comments & Discussion */}
+        <CommentsSection pageId="ssc-calendar" pageTitle="SSC Exam Calendar" />
 
         {/* Subscribe Widget at Bottom */}
         <SubscribeWidget mode="bottom" />

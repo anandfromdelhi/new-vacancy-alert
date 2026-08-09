@@ -14,6 +14,7 @@ import {
   BarChart, Bar
 } from 'recharts';
 import SubscribeWidget from '../components/SubscribeWidget';
+import CommentsSection from '../components/CommentsSection';
 import { useAuth } from '../context/AuthContext';
 
 export default function NorcetCutoffArticle() {
@@ -865,6 +866,11 @@ export default function NorcetCutoffArticle() {
       </div>
 
 
+
+      {/* Comments & Discussion */}
+      <div className="max-w-6xl mx-auto px-4 mt-8 print:hidden">
+        <CommentsSection pageId="norcet-cutoff" pageTitle="AIIMS NORCET Cutoff Marks & Analysis" />
+      </div>
 
       {/* Priority Push Notification Subscription Settings at Bottom */}
       <div className="max-w-6xl mx-auto px-4 mt-8 pb-12 print:hidden">
