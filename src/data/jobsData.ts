@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kea-karnataka-esi-pharmacist-nursing-officer-2026",
+    "b": "Karnataka Examination Authority (KEA) / ESI Medical Services Department",
+    "t": "KEA Karnataka ESI Recruitment 2026 – Apply Online for 188 Posts of Pharmacist Officer & Nursing Officer (Shushrushadhikari) | Salary up to ₹99,400",
+    "d": "06.08.2026",
+    "l": "07.08.2026",
+    "a": "Notification No. ED/KEA/34/RECT/2026 Dated 06.08.2026",
+    "q": "Diploma in Pharmacy (D.Pharm) / Diploma in General Nursing (GNM) / B.Sc Nursing",
+    "desc": "Karnataka Examination Authority (KEA), Bengaluru on behalf of the Department of ESI Medical Services, Government of Karnataka invites Online Recruitment Applications for direct recruitment of 188 Group 'C' posts of Pharmacist Officer and Nursing Officer (Shushrushadhikari) under Residual Parent Cadre (RPC) Notification No. ED/KEA/34/RECT/2026.",
+    "u": "https://cetonline.karnataka.gov.in/kea/"
+},
+  {
     "id": "upsc-recruitment-advt-10-2026",
     "b": "Union Public Service Commission (UPSC)",
     "t": "UPSC Recruitment 2026 (Advt No. 10/2026) – Apply Online for 34 Posts of Assistant Executive Engineer, Research Officer, Assistant Director & Officers | Pay Level 7 to 10",

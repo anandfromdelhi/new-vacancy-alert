@@ -1,32 +1,33 @@
+import json
 import sys
 import os
-import json
-import re
 
-def add_job_entry(json_file_path):
-    if not os.path.exists(json_file_path):
-        print(f"Error: File {json_file_path} not found.")
+def add_job_entry(json_filepath):
+    if not os.path.exists(json_filepath):
+        print(f"[ERROR] File not found: {json_filepath}")
         sys.exit(1)
 
-    with open(json_file_path, 'r', encoding='utf-8') as f:
+    with open(json_filepath, 'r', encoding='utf-8') as f:
         job = json.load(f)
 
     job_id = job.get("id")
     if not job_id:
-        print("Error: 'id' is required in job JSON.")
+        print("[ERROR] Job JSON must contain an 'id' field!")
         sys.exit(1)
 
-    # 1. Check duplicate in jobDetails.json
+    # 1. Update jobDetails.json
     details_file = "src/data/jobDetails.json"
-    with open(details_file, 'r', encoding='utf-8') as f:
-        job_details = json.load(f)
+    if os.path.exists(details_file):
+        with open(details_file, 'r', encoding='utf-8') as f:
+            details_data = json.load(f)
+    else:
+        details_data = {}
 
-    if job_id in job_details:
-        print(f"[INFO] Job ID '{job_id}' is already present in jobDetails.json. Updating entry.")
-    
-    job_details[job_id] = job
+    details_data[job_id] = job
+
     with open(details_file, 'w', encoding='utf-8') as f:
-        json.dump(job_details, f, indent=2, ensure_ascii=False)
+        json.dump(details_data, f, indent=2, ensure_ascii=False)
+
     print(f"[SUCCESS] Saved '{job_id}' to jobDetails.json")
 
     # 2. Check duplicate in jobsData.ts
@@ -34,6 +35,7 @@ def add_job_entry(json_file_path):
     with open(jobs_file, 'r', encoding='utf-8') as f:
         jobs_text = f.read()
 
+    if f'"id": "{job_id}"' not in jobs_text:
         qual_val = "See eligibility"
         for h in job.get("highlights", []):
             if "qualification" in h.get("label", "").lower():
@@ -49,7 +51,7 @@ def add_job_entry(json_file_path):
             "a": job.get("advtNo", ""),
             "q": qual_val,
             "desc": job.get("overview", [""])[0],
-            "u": job.get("urls", [{}])[0].get("url", "") if job.get("urls") else "https://www.konkanrailway.com"
+            "u": job.get("urls", [{}])[0].get("url", "") if job.get("urls") else "https://cetonline.karnataka.gov.in/kea/"
         }
         marker = "export const JOBS_DATA: JobEntry[] = ["
         entry_json = json.dumps(summary_entry, indent=4, ensure_ascii=False)
