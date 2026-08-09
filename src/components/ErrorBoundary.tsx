@@ -11,8 +11,14 @@ interface State {
 }
 
 export class ErrorBoundary extends Component<Props, State> {
+  // @ts-ignore
+  override props: Props;
+  // @ts-ignore
+  override state: State;
+
   constructor(props: Props) {
     super(props);
+    this.props = props;
     this.state = {
       hasError: false,
       error: null,
@@ -28,12 +34,12 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   private handleReset = () => {
-    this.setState({ hasError: false, error: null });
+    (this as any).setState({ hasError: false, error: null });
     window.location.reload();
   };
 
   private handleGoHome = () => {
-    this.setState({ hasError: false, error: null });
+    (this as any).setState({ hasError: false, error: null });
     window.location.href = '/';
   };
 

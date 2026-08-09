@@ -14,8 +14,8 @@ export default defineConfig(() => {
     },
     build: {
       sourcemap: false,
-      minify: 'esbuild',
-      cssMinify: 'esbuild',
+      minify: 'esbuild' as const,
+      cssMinify: 'esbuild' as const,
       target: 'es2022',
       reportCompressedSize: false,
       chunkSizeWarningLimit: 3500,

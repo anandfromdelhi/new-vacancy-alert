@@ -36,7 +36,7 @@ const ALL_INDIA_KEYWORDS = [
 ];
 
 // State & UT mapping keywords
-const STATE_MAP: Record<string, string[]> = {
+export const STATE_MAP: Record<string, string[]> = {
   'Uttar Pradesh': ['uttar pradesh', 'uppsc', 'aligarh muslim university', 'amu', 'azamgarh', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur', 'raebareli'],
   'Odisha': ['odisha', 'opsc', 'bhadrak'],
   'Dadra & Nagar Haveli and Daman & Diu': ['dadra and nagar haveli', 'dadra & nagar haveli', 'dadra', 'daman', 'dnh', 'dnhdd', 'diu'],

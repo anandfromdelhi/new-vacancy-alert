@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "upsc-recruitment-advt-10-2026",
+    "b": "Union Public Service Commission (UPSC)",
+    "t": "UPSC Recruitment 2026 (Advt No. 10/2026) – Apply Online for 34 Posts of Assistant Executive Engineer, Research Officer, Assistant Director & Officers | Pay Level 7 to 10",
+    "d": "08.08.2026",
+    "l": "08.08.2026",
+    "a": "Advertisement No. 10/2026 Dated 08.08.2026",
+    "q": "NIL (Exempted)",
+    "desc": "Union Public Service Commission (UPSC) invites Online Recruitment Applications (ORA) for direct recruitment by selection to 34 Group 'A' & Group 'B' Gazetted posts across various Central Ministries and Union Territory of Ladakh under Advertisement No. 10/2026.",
+    "u": "https://upsconline.nic.in/ora/"
+},
+  {
+    "id": "iob-local-bank-officer-recruitment-2026",
+    "b": "Indian Overseas Bank (IOB), Central Office, Chennai",
+    "t": "IOB Local Bank Officer Recruitment 2026 – Apply Online for 250 LBO Posts (JMGS-I) in Tamil Nadu, Karnataka, Maharashtra & Gujarat | Advt No. HRDD/RECT/02/2026-27",
+    "d": "07.08.2026",
+    "l": "08.08.2026",
+    "a": "HRDD/RECT/02/2026-27 Dated 07.08.2026",
+    "q": "Rs. 850/- (inclusive of GST)",
+    "desc": "Indian Overseas Bank (IOB), a premier Public Sector Bank headquartered in Chennai with nationwide and international presence, invites online applications for direct recruitment of 250 Local Bank Officers (LBO) in Junior Management Grade Scale-I (JMGS - I).",
+    "u": "https://www.iob.bank.in"
+},
+  {
+    "id": "krcl-apprentice-recruitment-2026",
+    "b": "Konkan Railway Corporation Limited (KRCL), A Govt of India Undertaking",
+    "t": "KRCL Apprentice Recruitment 2026 – Walk-in Document Verification for 134 Graduate & Diploma Apprentice Posts | Notification No. CO/APPR/2026/01",
+    "d": "07.08.2026",
+    "l": "Open (Prior to Walk-in DV)",
+    "a": "CO/APPR/2026/01 Dated 07.08.2026",
+    "q": "NIL (No Application Fee)",
+    "desc": "Konkan Railway Corporation Limited (KRCL), a Public Sector Undertaking under the Ministry of Railways, is conducting a Special Drive to engage Apprentice Trainees under the Apprentices Act 1961/1973 through the National Apprenticeship Training Scheme (NATS).",
+    "u": "https://nats.education.gov.in"
+},
+  {
+    "id": "isro-hsfc-scientist-engineer-sd-recruitment-2026",
+    "b": "Human Space Flight Centre (HSFC), ISRO, Bengaluru",
+    "t": "ISRO HSFC Scientist / Engineer 'SD' Recruitment 2026 – Apply Online for 06 Posts | Level 11 Pay Matrix (Rs. 67,700 - Rs. 2,08,700) | Advt HSFC:01:RMT:2026 | Last Date 30 August 2026",
+    "d": "10-08-2026",
+    "l": "30-08-2026",
+    "a": "HSFC:01:RMT:2026 Dated 10.08.2026",
+    "q": "Ph.D. in relevant discipline (Bioinstrumentation / Biotechnology / Cell Biology / Computational Biology / Biomedical Engg) + ME/M.Tech/MS/M.Sc + BE/B.Tech/B.Sc/BS-MS",
+    "desc": "Human Space Flight Centre (HSFC), ISRO, Bengaluru invites online applications for direct recruitment of 06 Scientist/Engineer 'SD' (Group 'A') posts in Pay Level 11 (Rs. 67,700 - Rs. 2,08,700). Candidates holding Ph.D. in relevant fields with prescribed pre-requisite degrees can apply online at isro.gov.in by 30 August 2026. No application fee.",
+    "u": "https://www.isro.gov.in"
+},
+  {
     "id": "sbi-junior-associate-special-recruitment-drive-2026",
     "b": "State Bank of India (SBI)",
     "t": "SBI Junior Associate Recruitment 2026 – Apply Online for 1,538 Special Recruitment Drive Backlog Vacancies (Customer Support & Sales) for SC/ST/OBC | Salary ₹46,000/month | Advt CRPD/CR/SPLDRIVE/2026-27/16 | Last Date 27 August 2026",

@@ -980,6 +980,154 @@ export default function JobDetailPage() {
             />
           )}
 
+                    {id === 'isro-hsfc-scientist-engineer-sd-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl shadow-xl border-2 border-indigo-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      ISRO Human Space Flight Programme
+                    </span>
+                    <span className="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Pay Level 11 (₹67,700–₹2,08,700)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      No Application Fee (₹0)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Human Space Flight Centre (HSFC), Bengaluru
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Direct Recruitment of <strong>Scientist/Engineer 'SD' (Group 'A')</strong> across 6 cutting-edge space research domains: Bioinstrumentation, Space Radiation Biology, Proteomic Adaptation, Digital Twin Biology, Biomechanics & Real-time AI/ML Signal Processing.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://www.isro.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-blue-600 hover:bg-blue-500 text-white font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on ISRO Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
+                    {id === 'krcl-apprentice-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-amber-950 to-orange-950 rounded-2xl shadow-xl border-2 border-amber-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Konkan Railway NATS Special Drive
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Stipend up to ₹6,150/month (DBT)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      No Written Exam / Fee (₹0)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Konkan Railway Corporation Limited (KRCL)
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Walk-in Document Verification for <strong>134 Graduate &amp; Diploma Apprentice Trainees</strong> (Civil, Electrical, Electronics, Mechanical &amp; General Stream Graduates) passouts from 2021 to 2025.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://nats.education.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Register on NATS Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
+                    {id === 'iob-local-bank-officer-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-blue-950 via-indigo-900 to-slate-900 rounded-2xl shadow-xl border-2 border-blue-400/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Public Sector Bank Officer Drive
+                    </span>
+                    <span className="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      JMGS Scale-I (₹48,480–₹85,920)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Online CBT + Interview (80:20)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Indian Overseas Bank (IOB) – Local Bank Officer 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Direct Recruitment of <strong>250 Local Bank Officers (Scale-I)</strong> across Tamil Nadu (100), Karnataka (50), Maharashtra (50) &amp; Gujarat (50). Selected officers will be posted in the applied state for the first 12 years.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://www.iob.bank.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-blue-600 hover:bg-blue-500 text-white font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on IOB Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
+                    {id === 'upsc-recruitment-advt-10-2026' && (
+            <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-indigo-950 rounded-2xl shadow-xl border-2 border-amber-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      UPSC Direct Recruitment Selection
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Pay Level 7 to Level 10
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Fee ₹25 (NIL for Women/SC/ST/PwBD)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Union Public Service Commission (UPSC) – Advt 10/2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Direct Recruitment to <strong>34 Group 'A' &amp; 'B' Gazetted Posts</strong>: AEE Civil &amp; Electronics, Assistant Director Engg, Hindi Superintendent (Law), Research Officer (NATMO), and UT Ladakh Officers.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://upsconline.nic.in/ora/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on UPSC ORA Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -1019,6 +1167,43 @@ export default function JobDetailPage() {
                 <div className="bg-purple-100 p-1.5 sm:p-2 rounded-md sm:rounded-lg text-purple-600"><Calendar className="h-4 w-4 sm:h-5 sm:w-5" /></div>
                 Important Dates
               </h2>
+                    {id === 'krcl-apprentice-recruitment-2026' && (
+                      <div className="my-6 bg-amber-50/70 border-2 border-amber-200 rounded-2xl p-4 sm:p-6 shadow-xs">
+                        <div className="flex items-center justify-between border-b border-amber-200/80 pb-3 mb-4">
+                          <h4 className="text-xs sm:text-sm font-black text-amber-950 uppercase tracking-wider flex items-center gap-2">
+                            <MapPin className="h-4.5 w-4.5 text-amber-600" /> Walk-in Document Verification Schedule &amp; Venue
+                          </h4>
+                          <span className="text-[10px] font-black text-amber-900 bg-amber-200/70 px-2.5 py-1 rounded-lg">09:00 AM – 12:00 PM</span>
+                        </div>
+
+                        <div className="mb-4 bg-white p-3.5 rounded-xl border border-amber-200/60 text-xs sm:text-sm text-slate-800 font-medium">
+                          <span className="font-black text-amber-900">Official Venue:</span> Executives Club, Konkan Rail Vihar, Sector-40, Opp. Seawoods Railway Station (West), Navi Mumbai – 400706.
+                        </div>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                          <div className="bg-white border border-slate-200 p-3 rounded-xl">
+                            <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">24 August 2026</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5">Civil Engineering</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">BE Civil (24) &amp; Diploma Civil (20)</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 p-3 rounded-xl">
+                            <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">25 August 2026</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5">Electrical &amp; Electronics</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">BE/Diploma Elec (30) &amp; ECE (15)</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 p-3 rounded-xl">
+                            <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">27 August 2026</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5">Mechanical Engineering</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">BE Mech (10) &amp; Diploma Mech (15)</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 p-3 rounded-xl">
+                            <span className="bg-rose-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">28 August 2026</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5">General Stream</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">BA / B.Sc / B.Com / BBA / BMS (20)</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
               
               {/* Visual Timeline */}
               {activeDates.length >= 2 && (
@@ -1341,6 +1526,94 @@ export default function JobDetailPage() {
                     <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2 border-b border-slate-100 pb-2">
                       <BookOpen className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Educational Qualification
                     </h3>
+                    {id === 'upsc-recruitment-advt-10-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-amber-600" /> 7 Post Categories Vacancy &amp; Qualification Breakdown
+                          </h4>
+                          <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">34 Total Posts</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 01 (1 Post)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">AEE (Civil) – Min of Ports</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 10 | Max 38 Yrs (OBC) | Degree in Civil Engg + 2 yrs exp</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 02 (9 Posts)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">AEE (Electronics) – Min of Ports</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 10 | Max 35 Yrs | Degree in Telecom/ECE/Electronics + 2 yrs exp</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 03 (1 Post)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">Assistant Director (Engg) – Ports</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 07 | Max 30 Yrs (UR) | BE/B.Tech (Civil/Mech) + 2 yrs exp</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 04 (1 Post)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">Hindi Superintendent – Law Min</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 10 | Max 35 Yrs | LLM + 2 yrs exp OR LLB + 4 yrs exp + Hindi</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 05 (11 Posts)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">Research Officer – NATMO</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 10 | Max 35 Yrs | Master's (Geo/Geology/GIS) + 5 yrs exp</p>
+                          </div>
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+                            <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Vacancy 06 &amp; 07 (11 Posts)</span>
+                            <h5 className="font-black text-slate-900 text-xs mt-1.5 mb-1">Ladakh Officers (Horticulture / Soil)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium">Level 08 | Max 40 Yrs (ST) | B.Sc Agri/Hort/Soil/B.Tech | Ladakh Domicile Only</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                    {id === 'iob-local-bank-officer-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Building2 className="h-4 w-4 text-blue-600" /> State-wise Vacancies &amp; Mandatory Language Requirements
+                          </h4>
+                          <span className="text-[10px] font-bold text-blue-700 bg-blue-50 border border-blue-100 px-2 py-0.5 rounded-md">250 Total Posts</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                          <div className="bg-gradient-to-br from-blue-50 to-indigo-50/60 border border-blue-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between gap-2 mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Tamil Nadu</span>
+                              <span className="bg-blue-100 text-blue-800 font-extrabold text-[10px] px-2 py-0.5 rounded">100 Posts</span>
+                            </div>
+                            <p className="text-xs font-black text-slate-800 mb-1">Language: Tamil</p>
+                            <p className="text-[11px] text-slate-600 font-medium">UR 37 | OBC 33 | SC 15 | EWS 9 | ST 6</p>
+                          </div>
+                          <div className="bg-gradient-to-br from-emerald-50 to-teal-50/60 border border-emerald-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between gap-2 mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Karnataka</span>
+                              <span className="bg-emerald-100 text-emerald-800 font-extrabold text-[10px] px-2 py-0.5 rounded">50 Posts</span>
+                            </div>
+                            <p className="text-xs font-black text-slate-800 mb-1">Language: Kannada</p>
+                            <p className="text-[11px] text-slate-600 font-medium">UR 19 | OBC 16 | SC 8 | EWS 4 | ST 3</p>
+                          </div>
+                          <div className="bg-gradient-to-br from-purple-50 to-indigo-50/60 border border-purple-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between gap-2 mb-2">
+                              <span className="bg-purple-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Maharashtra</span>
+                              <span className="bg-purple-100 text-purple-800 font-extrabold text-[10px] px-2 py-0.5 rounded">50 Posts</span>
+                            </div>
+                            <p className="text-xs font-black text-slate-800 mb-1">Language: Marathi</p>
+                            <p className="text-[11px] text-slate-600 font-medium">UR 19 | OBC 15 | SC 7 | EWS 5 | ST 4</p>
+                          </div>
+                          <div className="bg-gradient-to-br from-amber-50 to-orange-50/60 border border-amber-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between gap-2 mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Gujarat</span>
+                              <span className="bg-amber-100 text-amber-800 font-extrabold text-[10px] px-2 py-0.5 rounded">50 Posts</span>
+                            </div>
+                            <p className="text-xs font-black text-slate-800 mb-1">Language: Gujarati</p>
+                            <p className="text-[11px] text-slate-600 font-medium">UR 19 | OBC 16 | SC 6 | EWS 4 | ST 5</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                     
                     {id === 'aiims-norcet-11-nursing-officer-2026' && (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
@@ -1386,6 +1659,138 @@ export default function JobDetailPage() {
                               <span>Experience: MANDATORY 2 Years in min. 50-Bedded Hospital AFTER qualification & registration!</span>
                             </li>
                           </ul>
+                        </div>
+                      </div>
+                    )}
+                    {id === 'isro-hsfc-scientist-engineer-sd-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-indigo-600" /> Post Code Wise Qualification & Scope Breakdown
+                          </h4>
+                          <span className="text-[10px] font-bold text-indigo-700 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded-md">6 Post Codes</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {/* Post Code 01 */}
+                          <div className="bg-gradient-to-br from-blue-50 to-indigo-50/60 border border-blue-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-blue-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 01</span>
+                                <span className="bg-blue-100 text-blue-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Bioinstrumentation / Biophysics / Medical Physics</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-blue-900">Essential:</span> Ph.D. in Bioinstrumentation / Biophysics / Medical Physics.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> ME/M.Tech/MS (Biomedical Instrumentation / Medical Imaging / Healthcare Informatics / Biomedical Engg) (min 60% / 6.5 CGPA) AND BE/B.Tech (min 65% / 6.84 CGPA).
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-blue-100/80 text-[10px] font-bold text-blue-700">
+                              Scope: Wearable health sensors, bio-signal acquisition & portable diagnostics.
+                            </div>
+                          </div>
+
+                          {/* Post Code 02 */}
+                          <div className="bg-gradient-to-br from-emerald-50 to-teal-50/60 border border-emerald-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-emerald-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 02</span>
+                                <span className="bg-emerald-100 text-emerald-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Developmental Biology / Biotechnology</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-emerald-900">Essential:</span> Ph.D. in Developmental Biology / Biotechnology.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> ME/M.Tech/MS (Biotech / Bioscience / Biochemical Engg) (min 60% / 6.5 CGPA) + BE/B.Tech (65% / 6.84 CGPA) OR BS-MS dual degree (60% / 6.5 CGPA).
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-emerald-100/80 text-[10px] font-bold text-emerald-700">
+                              Scope: Radiation biology, 3D organoids, astronaut disease biology & host-pathogen interactions.
+                            </div>
+                          </div>
+
+                          {/* Post Code 03 */}
+                          <div className="bg-gradient-to-br from-amber-50 to-orange-50/60 border border-amber-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 03</span>
+                                <span className="bg-amber-100 text-amber-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Cellular & Molecular Biology / Cell Biology</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-amber-900">Essential:</span> Ph.D. in Cellular & Molecular Biology / Cell Biology.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> M.Sc (Microbiology / Mol Biology / Biochemistry / Genetics / Life Sci) (min 60% / 6.5 CGPA) + B.Sc (60% / 6.5 CGPA) OR BS-MS dual degree.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-amber-100/80 text-[10px] font-bold text-amber-700">
+                              Scope: Immune cellular adaptation, proteomic biomarkers, gene editing & confocal microscopy.
+                            </div>
+                          </div>
+
+                          {/* Post Code 04 */}
+                          <div className="bg-gradient-to-br from-purple-50 to-indigo-50/60 border border-purple-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-purple-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 04</span>
+                                <span className="bg-purple-100 text-purple-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Computational Biology / Systems Biology / Bioinformatics</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-purple-900">Essential:</span> Ph.D. in Computational Biology / Systems Biology / Bioinformatics.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> ME/M.Tech/MS (Biomedical / Computational Bio / Bioinformatics) (60% / 6.5 CGPA) + BE/B.Tech (65% / 6.84 CGPA) OR BS-MS dual degree.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-purple-100/80 text-[10px] font-bold text-purple-700">
+                              Scope: In-silico modeling, Digital Twin Biology, neural networks & closed-loop life support simulation.
+                            </div>
+                          </div>
+
+                          {/* Post Code 05 */}
+                          <div className="bg-gradient-to-br from-rose-50 to-pink-50/60 border border-rose-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-rose-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 05</span>
+                                <span className="bg-rose-100 text-rose-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Biomedical Engineering / Sciences (Biomechanics)</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-rose-900">Essential:</span> Ph.D. in Biomedical Engg / Sciences with Biomechanics thesis.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> ME/M.Tech/MS (Biomechanics / Biomechanical Engg / Biomedical Engg) (min 60% / 6.5 CGPA) AND BE/B.Tech (min 65% / 6.84 CGPA).
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-rose-100/80 text-[10px] font-bold text-rose-700">
+                              Scope: Gait analysis, motion capture, force-plate studies & musculoskeletal analysis.
+                            </div>
+                          </div>
+
+                          {/* Post Code 06 */}
+                          <div className="bg-gradient-to-br from-sky-50 to-blue-50/60 border border-sky-200 rounded-xl p-4 shadow-xs flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between gap-2 mb-2">
+                                <span className="bg-sky-600 text-white font-black text-[10px] px-2 py-0.5 rounded">Post Code 06</span>
+                                <span className="bg-sky-100 text-sky-800 font-extrabold text-[10px] px-2 py-0.5 rounded">01 UR</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Biomedical Engineering / Sciences (Bio-imaging & DSP)</h5>
+                              <p className="text-[11px] text-slate-700 font-semibold mb-2">
+                                <span className="font-black text-sky-900">Essential:</span> Ph.D. in Biomedical Engg / Sciences with Bio-imaging / DSP thesis.
+                              </p>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <span className="font-bold text-slate-800">Pre-requisite:</span> ME/M.Tech/MS (Biomedical Engg / Medical Imaging / Signal Processing) (min 60% / 6.5 CGPA) AND BE/B.Tech (min 65% / 6.84 CGPA).
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-sky-100/80 text-[10px] font-bold text-sky-700">
+                              Scope: Microgravity tissue bio-imaging (confidential), DSP algorithms & AI/ML integration.
+                            </div>
+                          </div>
                         </div>
                       </div>
                     )}
@@ -1843,6 +2248,34 @@ export default function JobDetailPage() {
               </ol>
             </div>
             
+                        {id === 'isro-hsfc-scientist-engineer-sd-recruitment-2026' && (
+              <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
+                <h4 className="text-xs sm:text-sm font-black text-blue-400 mb-3 flex items-center gap-2">
+                  <UploadCloud className="h-4.5 w-4.5 text-blue-400" /> Document & Image Upload Specifications (Advt No. HSFC:01:RMT:2026)
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">1. Color Photograph</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Recent color passport photo (&lt; 6 months). Plain white background, full front view. Max size: <strong>1 MB</strong> (500 px height × 400 px width, .jpg/.jpeg). No selfies or B&amp;W photos.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">2. Signature Image</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Clear legible signature in black/blue ink on white paper. Max size: <strong>1 MB</strong> (200 px height × 700 px width, .jpg/.jpeg format).
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">3. PDF Certificates</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Ph.D. thesis/degree, Master's &amp; Bachelor's marksheets, DOB proof, PwBD/NOC/Discharge certificates in <strong>.pdf</strong> format (max <strong>1 MB</strong> per document).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {id === 'aiims-norcet-11-nursing-officer-2026' && (
               <div className="my-6 bg-blue-50/60 border border-blue-200 rounded-2xl p-4 sm:p-5">
                 <h4 className="text-xs sm:text-sm font-black text-slate-800 mb-3 flex items-center gap-2">
@@ -1874,7 +2307,69 @@ export default function JobDetailPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               <div>
                 <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
-                  <UploadCloud className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Documents Required Checklist
+                              {id === 'iob-local-bank-officer-recruitment-2026' && (
+              <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
+                <h4 className="text-xs sm:text-sm font-black text-blue-400 mb-3 flex items-center gap-2">
+                  <UploadCloud className="h-4.5 w-4.5 text-blue-400" /> Image &amp; Document Scanning Specifications (Advt No. HRDD/RECT/02/2026-27)
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                  <div className="bg-slate-800/90 border border-slate-700 p-3 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">1. Passport Photograph</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      20–50 KB (.jpg/.jpeg format, 200×230 px). Light/white background. Webcam live photo capture also required.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">2. Running Signature</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      10–20 KB (.jpg/.jpeg format, 140×60 px). Signed in <strong>black ink</strong> on white paper. No capital letters.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">3. Left Thumb Impression</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      20–50 KB (.jpg/.jpeg format, 240×240 px, 3cm×3cm). Clear impression in blue/black ink without smudging.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3 rounded-xl">
+                    <h5 className="font-black text-xs text-blue-300 mb-1">4. Handwritten Declaration</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      50–100 KB (.jpg/.jpeg, 800×400 px, 10cm×5cm). Written in candidate's handwriting in English with black ink.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+                            {id === 'upsc-recruitment-advt-10-2026' && (
+              <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
+                <h4 className="text-xs sm:text-sm font-black text-amber-400 mb-3 flex items-center gap-2">
+                  <UploadCloud className="h-4.5 w-4.5 text-amber-400" /> UPSC ORA Portal Upload &amp; Verification Rules (Advt 10/2026)
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-amber-300 mb-1">1. Live Photo &amp; Passport Image</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Upload passport photo with clear face + <strong>mandatory live photo capture</strong> via webcam or mobile QR code.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-amber-300 mb-1">2. Signature (Signed 3 Times)</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Sign <strong>three times (one below another)</strong> in black ink on white paper. No capital letter initials.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-amber-300 mb-1">3. PDF Claim Certificates</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      DOB proof (10th), degree marksheets, experience certificates (prescribed format), caste/EWS/PwBD certificates in <strong>.pdf</strong> format.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+                <UploadCloud className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Documents Required Checklist
                 </h3>
                 <ul className="space-y-2.5 sm:space-y-3">
                   {(job.documentsRequired || [
