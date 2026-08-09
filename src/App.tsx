@@ -24,7 +24,6 @@ const SalaryCalculatorArticle = lazy(() => import('./pages/SalaryCalculatorArtic
 const MarketingPartnerPage = lazy(() => import('./pages/marketing/MarketingPartnerPage'));
 const MarketingDashboardPage = lazy(() => import('./pages/marketing/MarketingDashboardPage'));
 const MarketingTermsPage = lazy(() => import('./pages/marketing/MarketingTermsPage'));
-const AdminPage = lazy(() => import('./pages/AdminPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
 const ArchivesPage = lazy(() => import('./pages/ArchivesPage'));
 const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage'));
@@ -96,7 +95,6 @@ export default function App() {
                   <Route path="contact" element={<ContactPage />} />
                   <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
                   <Route path="rss-feed" element={<RssFeedPage />} />
-                  <Route path="admin" element={<AdminPage />} />
 
                   <Route path="salary-calculator" element={<SalaryCalculatorArticle />} />
                   <Route path="govt-job-salary-calculator" element={<Navigate to="/salary-calculator" replace />} />

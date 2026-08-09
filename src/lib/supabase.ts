@@ -9,15 +9,4 @@ export const supabase: SupabaseClient | null = isSupabaseConfigured
   ? createClient(supabaseUrl!, supabaseAnonKey!)
   : null;
 
-export interface CommentItem {
-  id: string;
-  page_id: string;
-  author_name: string;
-  author_role?: string;
-  author_uid?: string;
-  author_email?: string;
-  content: string;
-  likes_count: number;
-  parent_id?: string | null;
-  created_at: string;
-}
+
