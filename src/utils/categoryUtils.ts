@@ -24,7 +24,7 @@ export function fromSlug(slug: string): string {
 
 // All-India recruiting bodies and central open recruitments (anyone in India can apply)
 const ALL_INDIA_KEYWORDS = [
-  'upsc', 'ssc', 'rrb', 'railway', 'isro', 'drdo', 'indian army', 'indian navy', 'indian air force', 'iaf',
+  'upsc', 'union public service commission', 'ssc', 'rrb', 'railway', 'isro', 'drdo', 'indian army', 'indian navy', 'indian air force', 'iaf',
   'ongc', 'iocl', 'bpcl', 'hpcl', 'esic', 'aiims', 'ibps', 'hal', 'bel', 'beml', 'ntpc',
   'sjvn', 'nlcil', 'nalco', 'stpi', 'railtel', 'rcil', 'krcl', 'nrsc', 'sinp', 'mecl',
   'spmcil', 'cert-in', 'nhsrcl', 'nhidcl', 'ihmcl', 'fagmil', 'pdil', 'ngel', 'rcf ltd', 'rites', 'irel',
@@ -32,7 +32,7 @@ const ALL_INDIA_KEYWORDS = [
   'avnl', 'niper', 'ofdr', 'munitions india', 'ccras', 'ccrum', 'rwf', 'iifcl',
   'india post', 'department of posts', 'aweil', 'csir', 'jipmer', 'sspl', 'ncra-tifr',
   'institute of banking personnel', 'union bank', 'punjab national bank', 'pnb',
-  'sbi', 'reserve bank', 'rbi', 'national insurance company', 'tamilnad mercantile bank'
+  'sbi', 'reserve bank', 'rbi', 'national insurance company', 'tamilnad mercantile bank', 'iob', 'indian overseas bank'
 ];
 
 // State & UT mapping keywords
@@ -93,7 +93,12 @@ export function getStateFromJob(job: JobEntry): string {
     return 'All India';
   }
 
-  // Check if job matches a specific State / UT location in STATE_MAP
+  // FIRST: Check if job is an All-India Recruiting Body / Open Central Organization
+  if (ALL_INDIA_KEYWORDS.some(kw => containsKeyword(text, kw))) {
+    return 'All India';
+  }
+
+  // SECOND: Check if job matches a specific State / UT location in STATE_MAP
   for (const [state, keywords] of Object.entries(STATE_MAP)) {
     for (const kw of keywords) {
       if (containsKeyword(text, kw)) {
