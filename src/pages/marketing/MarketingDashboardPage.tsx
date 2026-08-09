@@ -112,23 +112,19 @@ export default function MarketingDashboardPage() {
 
   const downloadPDF = () => {
     const link = document.createElement('a');
-    link.href = '/poster_A4.pdf';
-    link.download = 'NewVacancyAlert-A4-Poster.pdf';
+    link.href = '/newvacancyalert_poster.pdf';
+    link.download = 'newvacancyalert_poster.pdf';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
-  const downloadPNG = async () => {
-    // We can generate a simple canvas representation for PNG, but for brevity,
-    // let's just download the QR code image itself as PNG.
-    const qrDataUrl = await generateQRCodeDataURL();
-    if (!qrDataUrl) return;
-    
+  const downloadPNG = () => {
     const link = document.createElement('a');
-    link.href = qrDataUrl;
-    link.download = 'NewVacancyAlert-QR.png';
+    link.href = '/newvacancyalert_poster.png';
+    link.download = 'newvacancyalert_poster.png';
+    link.target = '_blank';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -230,7 +226,7 @@ export default function MarketingDashboardPage() {
                       onClick={downloadPNG}
                       className="w-full flex items-center justify-center gap-2 px-5 py-3 bg-white border border-slate-300 hover:bg-slate-100 text-slate-800 rounded-xl font-bold text-sm transition-colors"
                     >
-                      <QrCode className="w-4 h-4 text-slate-600" /> Download QR Code Only (PNG)
+                      <Download className="w-4 h-4 text-slate-600" /> Download Poster Image (PNG)
                     </button>
                   </div>
                 </div>
