@@ -1,14 +1,20 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { 
-  MessageSquare, Heart, Reply, Trash2, Edit2, Send, X, AlertCircle, 
-  CheckCircle2, Lock, Sparkles, UserCheck
+import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+import {
+  MessageSquare, Heart, Reply, Trash2, Edit2, Send, X, AlertCircle,
+  CheckCircle2, Lock, Sparkles, UserCheck, Flag, ShieldAlert, Ban,
+  ChevronDown, Clock, ChevronUp
 } from 'lucide-react';
-import { 
-  collection, query, where, orderBy, limit, addDoc, updateDoc, 
-  deleteDoc, doc, setDoc, getDoc, onSnapshot, serverTimestamp 
+import {
+  collection, query, where, orderBy, limit, addDoc, updateDoc,
+  deleteDoc, doc, setDoc, getDoc, getDocs, startAfter, onSnapshot,
+  serverTimestamp, QueryDocumentSnapshot, DocumentData
 } from 'firebase/firestore';
 import { db, auth, googleProvider } from '../lib/firebase';
-import { signInWithPopup } from 'firebase/auth';
+import { signInWithPopup, onAuthStateChanged, User } from 'firebase/auth';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Types
+// ─────────────────────────────────────────────────────────────────────────────
 
 interface CommentItem {
   id: string;
@@ -20,6 +26,7 @@ interface CommentItem {
   likes_count: number;
   parent_id: string | null;
   created_at: any;
+  status?: string; // undefined | 'approved' | 'hidden' | 'deleted'
 }
 
 interface CommentsSectionProps {
@@ -27,502 +34,889 @@ interface CommentsSectionProps {
   pageTitle?: string;
 }
 
-export default function CommentsSection({ pageId, pageTitle = 'Discussion & Q&A' }: CommentsSectionProps) {
-  const [comments, setComments] = useState<CommentItem[]>([]);
-  const [userLikesMap, setUserLikesMap] = useState<Record<string, boolean>>({});
-  const [newCommentText, setNewCommentText] = useState('');
-  const [replyParentId, setReplyParentId] = useState<string | null>(null);
-  const [replyText, setReplyText] = useState('');
-  const [editingCommentId, setEditingCommentId] = useState<string | null>(null);
-  const [editText, setEditText] = useState('');
-  const [loading, setLoading] = useState(true);
-  const [submitting, setSubmitting] = useState(false);
-  const [notice, setNotice] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+const REPORT_REASONS = ['Spam', 'Advertising', 'Abusive', 'Offensive', 'Misleading', 'Other'];
+const PAGE_SIZE = 20;
 
-  const currentUser = auth.currentUser;
+/**
+ * Visibility rule:
+ *   Show when: status is missing, undefined, or 'approved'
+ *   Hide when: status === 'hidden' || status === 'deleted'
+ */
+function isCommentVisible(c: CommentItem): boolean {
+  return c.status !== 'hidden' && c.status !== 'deleted';
+}
 
-  const showNotice = (message: string, type: 'success' | 'error' = 'success') => {
-    setNotice({ message, type });
-    setTimeout(() => setNotice(null), 4000);
-  };
+// ─────────────────────────────────────────────────────────────────────────────
+// Floating Comments Button — rendered outside the drawer
+// ─────────────────────────────────────────────────────────────────────────────
 
-  // 1. Subscribe to Firestore Comments for this page
-  useEffect(() => {
-    setLoading(true);
-    try {
-      const q = query(
-        collection(db, 'comments'),
-        where('page_id', '==', pageId),
-        orderBy('created_at', 'asc'),
-        limit(100)
-      );
+interface FloatingButtonProps {
+  count: number;
+  onClick: () => void;
+}
 
-      const unsubscribe = onSnapshot(
-        q,
-        (snapshot) => {
-          const loaded: CommentItem[] = snapshot.docs.map((d) => ({
-            id: d.id,
-            ...d.data()
-          })) as CommentItem[];
+function FloatingCommentsButton({ count, onClick }: FloatingButtonProps) {
+  return (
+    <>
+      {/* Desktop: right-centre of viewport */}
+      <button
+        onClick={onClick}
+        aria-label={`Open comments (${count})`}
+        className="hidden md:flex fixed right-4 top-1/2 -translate-y-1/2 z-40
+                   flex-col items-center gap-1
+                   bg-white hover:bg-blue-50 active:scale-95
+                   border border-slate-200 hover:border-blue-300
+                   shadow-lg rounded-2xl px-3 py-3.5 transition-all duration-200
+                   text-slate-600 hover:text-blue-700 group"
+      >
+        <MessageSquare className="h-5 w-5 group-hover:scale-110 transition-transform" />
+        <span className="text-[10px] font-black leading-none">{count}</span>
+      </button>
 
-          setComments(loaded);
-          setLoading(false);
-        },
-        (err: any) => {
-          console.error('Firestore comments subscribe error:', err);
-          if (err?.code === 'permission-denied') {
-            showNotice('Permission denied while reading comments.', 'error');
-          } else {
-            showNotice('Failed to load comments. Please refresh.', 'error');
-          }
-          setLoading(false);
-        }
-      );
+      {/* Mobile: bottom-right, above the sticky bottom nav (≈64px from bottom) */}
+      <button
+        onClick={onClick}
+        aria-label={`Open comments (${count})`}
+        className="md:hidden fixed bottom-[72px] right-4 z-40
+                   flex items-center gap-1.5
+                   bg-blue-600 hover:bg-blue-700 active:scale-95
+                   text-white font-bold text-xs
+                   shadow-xl rounded-full px-3.5 py-2.5 transition-all duration-200"
+      >
+        <MessageSquare className="h-4 w-4" />
+        <span>{count}</span>
+      </button>
+    </>
+  );
+}
 
-      return () => unsubscribe();
-    } catch (err) {
-      console.error('Query setup error:', err);
-      setLoading(false);
-    }
-  }, [pageId]);
+// ─────────────────────────────────────────────────────────────────────────────
+// Single Comment Card
+// ─────────────────────────────────────────────────────────────────────────────
 
-  // 2. Fetch User Likes for loaded comments if user is authenticated
-  useEffect(() => {
-    if (!currentUser || comments.length === 0) {
-      setUserLikesMap({});
-      return;
-    }
+interface CommentCardProps {
+  comment: CommentItem;
+  replies: CommentItem[];
+  currentUser: User | null;
+  isLiked: boolean;
+  isReported: boolean;
+  isEditing: boolean;
+  editText: string;
+  replyParentId: string | null;
+  replyText: string;
+  submitting: boolean;
+  onToggleLike: (id: string) => void;
+  onSetReply: (id: string | null) => void;
+  onSetReplyText: (t: string) => void;
+  onSubmitReply: (e: React.FormEvent, parentId: string) => void;
+  onStartEdit: (id: string, content: string) => void;
+  onCancelEdit: () => void;
+  onSetEditText: (t: string) => void;
+  onSaveEdit: (id: string) => void;
+  onDelete: (id: string) => void;
+  onReport: (id: string) => void;
+  onBlock: (uid: string, name: string) => void;
+  userLikesMap: Record<string, boolean>;
+}
 
-    let isMounted = true;
-    const fetchUserLikes = async () => {
-      const likesState: Record<string, boolean> = {};
-      for (const comment of comments) {
-        try {
-          const likeDocRef = doc(db, 'comments', comment.id, 'likes', currentUser.uid);
-          const snap = await getDoc(likeDocRef);
-          if (snap.exists()) {
-            likesState[comment.id] = true;
-          }
-        } catch {
-          // Ignore individual fetch errors
-        }
-      }
-      if (isMounted) {
-        setUserLikesMap(likesState);
-      }
-    };
-
-    fetchUserLikes();
-    return () => { isMounted = false; };
-  }, [currentUser, comments]);
-
-  // Handle Google Login Trigger
-  const handleLogin = async () => {
-    try {
-      await signInWithPopup(auth, googleProvider);
-      showNotice('Successfully signed in with Google!');
-    } catch (err: any) {
-      console.error('Login error:', err);
-      showNotice('Sign-in failed. Please try again.', 'error');
-    }
-  };
-
-  // Create New Comment or Reply
-  const handleCreateComment = async (e: React.FormEvent, parentId: string | null = null) => {
-    e.preventDefault();
-    const textToSubmit = parentId ? replyText : newCommentText;
-    
-    if (!textToSubmit.trim()) {
-      showNotice('Comment text cannot be empty.', 'error');
-      return;
-    }
-
-    if (!currentUser) {
-      await handleLogin();
-      return;
-    }
-
-    setSubmitting(true);
-    try {
-      const commentPayload = {
-        page_id: pageId,
-        author_name: currentUser.displayName || 'Candidate',
-        author_role: 'Candidate',
-        author_uid: currentUser.uid,
-        content: textToSubmit.trim(),
-        likes_count: 0,
-        parent_id: parentId || null,
-        created_at: serverTimestamp()
-      };
-
-      await addDoc(collection(db, 'comments'), commentPayload);
-
-      if (parentId) {
-        setReplyText('');
-        setReplyParentId(null);
-        showNotice('Reply posted successfully!');
-      } else {
-        setNewCommentText('');
-        showNotice('Comment posted successfully!');
-      }
-    } catch (err: any) {
-      console.error('Error creating comment:', err);
-      if (err?.code === 'permission-denied') {
-        showNotice('Permission denied: Unable to post comment.', 'error');
-      } else {
-        showNotice('Failed to post comment. Please try again.', 'error');
-      }
-    } finally {
-      setSubmitting(false);
-    }
-  };
-
-  // Edit Comment (Updates ONLY content field to satisfy security rules)
-  const handleSaveEdit = async (commentId: string) => {
-    if (!editText.trim()) {
-      showNotice('Edit content cannot be empty.', 'error');
-      return;
-    }
-
-    if (!currentUser) {
-      showNotice('Please sign in to edit your comment.', 'error');
-      return;
-    }
-
-    setSubmitting(true);
-    try {
-      const commentRef = doc(db, 'comments', commentId);
-      await updateDoc(commentRef, {
-        content: editText.trim()
-      });
-
-      setEditingCommentId(null);
-      setEditText('');
-      showNotice('Comment updated successfully!');
-    } catch (err: any) {
-      console.error('Error updating comment:', err);
-      if (err?.code === 'permission-denied') {
-        showNotice('Permission denied: You can only edit your own comments.', 'error');
-      } else {
-        showNotice('Failed to update comment.', 'error');
-      }
-    } finally {
-      setSubmitting(false);
-    }
-  };
-
-  // Delete Comment
-  const handleDeleteComment = async (commentId: string) => {
-    if (!currentUser) return;
-    if (!window.confirm('Are you sure you want to delete this comment?')) return;
-
-    try {
-      await deleteDoc(doc(db, 'comments', commentId));
-      showNotice('Comment deleted.');
-    } catch (err: any) {
-      console.error('Error deleting comment:', err);
-      if (err?.code === 'permission-denied') {
-        showNotice('Permission denied: You can only delete your own comments.', 'error');
-      } else {
-        showNotice('Failed to delete comment.', 'error');
-      }
-    }
-  };
-
-  // Toggle Like / Unlike (Uses comments/{commentId}/likes/{userId} subcollection)
-  const handleToggleLike = async (commentId: string) => {
-    if (!currentUser) {
-      await handleLogin();
-      return;
-    }
-
-    const isCurrentlyLiked = !!userLikesMap[commentId];
-    const likeRef = doc(db, 'comments', commentId, 'likes', currentUser.uid);
-
-    // Optimistic UI Update
-    setUserLikesMap((prev) => ({ ...prev, [commentId]: !isCurrentlyLiked }));
-
-    try {
-      if (isCurrentlyLiked) {
-        await deleteDoc(likeRef);
-      } else {
-        await setDoc(likeRef, {
-          likedAt: serverTimestamp()
-        });
-      }
-    } catch (err: any) {
-      console.error('Error toggling like:', err);
-      // Revert optimistic update on failure
-      setUserLikesMap((prev) => ({ ...prev, [commentId]: isCurrentlyLiked }));
-      if (err?.code === 'permission-denied') {
-        showNotice('Permission denied while liking comment.', 'error');
-      } else {
-        showNotice('Action failed. Please try again.', 'error');
-      }
-    }
-  };
-
-  // Split Top-level Comments vs Replies
-  const topLevelComments = useMemo(() => comments.filter((c) => !c.parent_id), [comments]);
-  const repliesMap = useMemo(() => {
-    const map: Record<string, CommentItem[]> = {};
-    comments.forEach((c) => {
-      if (c.parent_id) {
-        if (!map[c.parent_id]) map[c.parent_id] = [];
-        map[c.parent_id].push(c);
-      }
-    });
-    return map;
-  }, [comments]);
+function CommentCard({
+  comment, replies, currentUser,
+  isLiked, isReported, isEditing, editText, replyParentId, replyText,
+  submitting,
+  onToggleLike, onSetReply, onSetReplyText, onSubmitReply,
+  onStartEdit, onCancelEdit, onSetEditText, onSaveEdit,
+  onDelete, onReport, onBlock,
+  userLikesMap,
+}: CommentCardProps) {
+  const isOwner = currentUser?.uid === comment.author_uid;
 
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 sm:p-6 my-8">
-      {/* Header Bar */}
-      <div className="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
-        <div className="flex items-center gap-2.5">
-          <div className="p-2 bg-blue-50 text-blue-600 rounded-xl">
-            <MessageSquare className="h-5 w-5" />
+    <div className="bg-slate-50/70 border border-slate-200 rounded-xl p-3.5 transition-all">
+      {/* Author Row */}
+      <div className="flex items-center justify-between mb-2">
+        <div className="flex items-center gap-2">
+          <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-black text-xs
+                          flex items-center justify-center uppercase shrink-0">
+            {comment.author_name.charAt(0)}
           </div>
           <div>
-            <h3 className="font-black text-slate-900 text-base sm:text-lg tracking-tight">
-              {pageTitle}
-            </h3>
-            <p className="text-xs font-medium text-slate-500">
-              Community Discussion ({comments.length} Comments)
-            </p>
+            <span className="font-bold text-slate-900 text-xs block leading-tight">
+              {comment.author_name}
+            </span>
+            <span className="text-[10px] text-slate-400 block">{comment.author_role}</span>
           </div>
         </div>
 
-        {currentUser ? (
-          <div className="flex items-center gap-2 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200">
-            <UserCheck className="h-4 w-4 text-emerald-600" />
-            <span className="text-xs font-bold text-slate-700 max-w-[120px] truncate">
-              {currentUser.displayName || 'Logged In'}
-            </span>
-          </div>
-        ) : (
-          <button
-            onClick={handleLogin}
-            className="flex items-center gap-1.5 text-xs font-bold bg-blue-50 hover:bg-blue-100 text-blue-700 px-3 py-1.5 rounded-lg transition-colors border border-blue-200"
-          >
-            <Lock className="h-3.5 w-3.5" /> Sign in to Discuss
-          </button>
-        )}
+        <div className="flex items-center gap-0.5">
+          {!isOwner && currentUser && (
+            <button
+              onClick={() => onBlock(comment.author_uid, comment.author_name)}
+              className="p-1.5 text-slate-300 hover:text-amber-500 transition-colors"
+              title="Block user"
+            >
+              <Ban className="h-3.5 w-3.5" />
+            </button>
+          )}
+          {!isOwner && (
+            <button
+              onClick={() => !isReported && onReport(comment.id)}
+              disabled={isReported}
+              className={`p-1.5 transition-colors ${
+                isReported ? 'text-amber-400' : 'text-slate-300 hover:text-amber-500'
+              }`}
+              title={isReported ? 'Already reported' : 'Report comment'}
+            >
+              <Flag className="h-3.5 w-3.5" />
+            </button>
+          )}
+          {isOwner && (
+            <>
+              <button
+                onClick={() => onStartEdit(comment.id, comment.content)}
+                className="p-1.5 text-slate-300 hover:text-blue-600 transition-colors"
+                title="Edit"
+              >
+                <Edit2 className="h-3.5 w-3.5" />
+              </button>
+              <button
+                onClick={() => onDelete(comment.id)}
+                className="p-1.5 text-slate-300 hover:text-red-500 transition-colors"
+                title="Delete"
+              >
+                <Trash2 className="h-3.5 w-3.5" />
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
-      {/* Notice Banner */}
-      {notice && (
-        <div className={`mb-4 p-3 rounded-xl flex items-center justify-between text-xs font-bold ${
-          notice.type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : 'bg-emerald-50 text-emerald-800 border border-emerald-200'
-        }`}>
-          <div className="flex items-center gap-2">
-            {notice.type === 'error' ? <AlertCircle className="h-4 w-4 shrink-0" /> : <CheckCircle2 className="h-4 w-4 shrink-0" />}
-            <span>{notice.message}</span>
-          </div>
-          <button onClick={() => setNotice(null)} className="opacity-70 hover:opacity-100">
-            <X className="h-3.5 w-3.5" />
-          </button>
-        </div>
-      )}
-
-      {/* Main Comment Input Box */}
-      <form onSubmit={(e) => handleCreateComment(e, null)} className="mb-8">
-        <div className="relative">
+      {/* Content / Edit form */}
+      {isEditing ? (
+        <div className="space-y-2 my-2">
           <textarea
-            value={newCommentText}
-            onChange={(e) => setNewCommentText(e.target.value)}
-            placeholder={currentUser ? "Share your thoughts or ask a question about this notification..." : "Click to sign in with Google and post a comment..."}
-            rows={3}
+            value={editText}
+            onChange={e => onSetEditText(e.target.value)}
+            rows={2}
             maxLength={2000}
-            onClick={() => { if (!currentUser) handleLogin(); }}
-            className="w-full rounded-xl border border-slate-300 p-3.5 text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all shadow-xs"
+            className="w-full rounded-lg border border-blue-400 p-2 text-xs text-slate-800
+                       focus:outline-none focus:ring-1 focus:ring-blue-500"
           />
-          <div className="flex items-center justify-between mt-2">
-            <span className="text-[11px] text-slate-400 font-medium">
-              {newCommentText.length}/2000 characters
-            </span>
+          <div className="flex gap-2">
             <button
-              type="submit"
-              disabled={submitting || !newCommentText.trim()}
-              className="bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold px-4 py-2 rounded-xl text-xs flex items-center gap-1.5 transition-colors shadow-xs"
-            >
-              <Send className="h-3.5 w-3.5" /> Post Comment
-            </button>
+              onClick={() => onSaveEdit(comment.id)}
+              disabled={submitting}
+              className="bg-blue-600 text-white font-bold px-3 py-1 rounded-lg text-xs"
+            >Save</button>
+            <button
+              onClick={onCancelEdit}
+              className="bg-slate-200 text-slate-700 font-bold px-3 py-1 rounded-lg text-xs"
+            >Cancel</button>
           </div>
-        </div>
-      </form>
-
-      {/* Comments Feed List */}
-      {loading ? (
-        <div className="text-center py-8 text-slate-400 text-xs font-medium">
-          Loading discussion comments...
-        </div>
-      ) : topLevelComments.length === 0 ? (
-        <div className="text-center py-10 bg-slate-50 rounded-xl border border-dashed border-slate-200">
-          <Sparkles className="h-8 w-8 text-slate-300 mx-auto mb-2" />
-          <p className="text-xs font-bold text-slate-600">No comments yet.</p>
-          <p className="text-[11px] text-slate-400 mt-1">Be the first candidate to start the discussion!</p>
         </div>
       ) : (
-        <div className="space-y-4">
-          {topLevelComments.map((comment) => {
-            const isOwner = currentUser?.uid === comment.author_uid;
-            const isLiked = !!userLikesMap[comment.id];
-            const childReplies = repliesMap[comment.id] || [];
+        <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-wrap">
+          {comment.content}
+        </p>
+      )}
 
+      {/* Actions */}
+      <div className="flex items-center gap-4 mt-2.5 pt-2 border-t border-slate-200/60">
+        <button
+          onClick={() => onToggleLike(comment.id)}
+          className={`flex items-center gap-1 text-xs font-bold transition-colors ${
+            isLiked ? 'text-red-600' : 'text-slate-400 hover:text-red-500'
+          }`}
+        >
+          <Heart className={`h-3.5 w-3.5 ${isLiked ? 'fill-current' : ''}`} />
+          <span>{isLiked ? '♥ Liked' : '♡ Like'}</span>
+        </button>
+        <button
+          onClick={() => onSetReply(replyParentId === comment.id ? null : comment.id)}
+          className="flex items-center gap-1 text-xs font-bold text-slate-400 hover:text-blue-600 transition-colors"
+        >
+          <Reply className="h-3.5 w-3.5" />
+          <span>Reply {replies.length > 0 ? `(${replies.length})` : ''}</span>
+        </button>
+      </div>
+
+      {/* Inline Reply Form */}
+      {replyParentId === comment.id && (
+        <form
+          onSubmit={e => onSubmitReply(e, comment.id)}
+          className="mt-2.5 pl-3 border-l-2 border-blue-400"
+        >
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={replyText}
+              onChange={e => onSetReplyText(e.target.value)}
+              placeholder="Write a reply…"
+              maxLength={2000}
+              className="flex-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs
+                         text-slate-800 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            />
+            <button
+              type="submit"
+              disabled={submitting || !replyText.trim()}
+              className="bg-blue-600 text-white font-bold px-3 py-1.5 rounded-lg text-xs
+                         disabled:opacity-50"
+            >Reply</button>
+          </div>
+        </form>
+      )}
+
+      {/* Replies */}
+      {replies.length > 0 && (
+        <div className="mt-2.5 pl-3.5 space-y-2 border-l-2 border-slate-200">
+          {replies.map(reply => {
+            const isReplyOwner = currentUser?.uid === reply.author_uid;
+            const isReplyLiked = !!userLikesMap[reply.id];
             return (
-              <div key={comment.id} className="bg-slate-50/70 border border-slate-200 rounded-xl p-4 transition-all">
-                {/* Author Bar */}
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-black text-xs flex items-center justify-center uppercase">
-                      {comment.author_name.charAt(0)}
-                    </div>
-                    <div>
-                      <span className="font-bold text-slate-900 text-xs block">{comment.author_name}</span>
-                      <span className="text-[10px] text-slate-500 block">{comment.author_role}</span>
-                    </div>
-                  </div>
-                  
-                  {isOwner && (
-                    <div className="flex items-center gap-1">
-                      <button
-                        onClick={() => {
-                          setEditingCommentId(comment.id);
-                          setEditText(comment.content);
-                        }}
-                        className="p-1 text-slate-400 hover:text-blue-600 transition-colors"
-                        title="Edit comment"
-                      >
-                        <Edit2 className="h-3.5 w-3.5" />
-                      </button>
-                      <button
-                        onClick={() => handleDeleteComment(comment.id)}
-                        className="p-1 text-slate-400 hover:text-red-600 transition-colors"
-                        title="Delete comment"
-                      >
-                        <Trash2 className="h-3.5 w-3.5" />
-                      </button>
-                    </div>
+              <div key={reply.id} className="bg-white p-2.5 rounded-lg border border-slate-200">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="font-bold text-xs text-slate-800">{reply.author_name}</span>
+                  {isReplyOwner && (
+                    <button
+                      onClick={() => onDelete(reply.id)}
+                      className="text-[10px] text-slate-400 hover:text-red-500"
+                    >Delete</button>
                   )}
                 </div>
-
-                {/* Comment Content or Edit Form */}
-                {editingCommentId === comment.id ? (
-                  <div className="my-2 space-y-2">
-                    <textarea
-                      value={editText}
-                      onChange={(e) => setEditText(e.target.value)}
-                      rows={2}
-                      maxLength={2000}
-                      className="w-full rounded-lg border border-blue-400 p-2 text-xs text-slate-800 focus:outline-none"
-                    />
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={() => handleSaveEdit(comment.id)}
-                        disabled={submitting}
-                        className="bg-blue-600 text-white font-bold px-3 py-1 rounded text-xs"
-                      >
-                        Save
-                      </button>
-                      <button
-                        onClick={() => setEditingCommentId(null)}
-                        className="bg-slate-200 text-slate-700 font-bold px-3 py-1 rounded text-xs"
-                      >
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal whitespace-pre-wrap">
-                    {comment.content}
-                  </p>
-                )}
-
-                {/* Action Buttons Bar */}
-                <div className="flex items-center gap-4 mt-3 pt-2 border-t border-slate-200/60">
-                  <button
-                    onClick={() => handleToggleLike(comment.id)}
-                    className={`flex items-center gap-1 text-xs font-bold transition-colors ${
-                      isLiked ? 'text-red-600' : 'text-slate-500 hover:text-red-500'
-                    }`}
-                  >
-                    <Heart className={`h-3.5 w-3.5 ${isLiked ? 'fill-current text-red-600' : ''}`} />
-                    <span>{isLiked ? '♥ Liked' : '♡ Like'}</span>
-                  </button>
-
-                  <button
-                    onClick={() => setReplyParentId(replyParentId === comment.id ? null : comment.id)}
-                    className="flex items-center gap-1 text-xs font-bold text-slate-500 hover:text-blue-600 transition-colors"
-                  >
-                    <Reply className="h-3.5 w-3.5" />
-                    <span>Reply</span>
-                  </button>
-                </div>
-
-                {/* Inline Reply Form */}
-                {replyParentId === comment.id && (
-                  <form onSubmit={(e) => handleCreateComment(e, comment.id)} className="mt-3 pl-4 border-l-2 border-blue-500">
-                    <div className="flex gap-2">
-                      <input
-                        type="text"
-                        value={replyText}
-                        onChange={(e) => setReplyText(e.target.value)}
-                        placeholder="Write a reply..."
-                        maxLength={2000}
-                        className="flex-1 rounded-lg border border-slate-300 px-3 py-1.5 text-xs text-slate-800 focus:outline-none focus:ring-1 focus:ring-blue-500"
-                      />
-                      <button
-                        type="submit"
-                        disabled={submitting || !replyText.trim()}
-                        className="bg-blue-600 text-white font-bold px-3 py-1.5 rounded-lg text-xs"
-                      >
-                        Reply
-                      </button>
-                    </div>
-                  </form>
-                )}
-
-                {/* Child Replies Feed */}
-                {childReplies.length > 0 && (
-                  <div className="mt-3 pl-4 space-y-2 border-l-2 border-slate-200">
-                    {childReplies.map((reply) => {
-                      const isReplyOwner = currentUser?.uid === reply.author_uid;
-                      const isReplyLiked = !!userLikesMap[reply.id];
-
-                      return (
-                        <div key={reply.id} className="bg-white p-3 rounded-lg border border-slate-200 shadow-2xs">
-                          <div className="flex items-center justify-between mb-1">
-                            <span className="font-bold text-xs text-slate-800">{reply.author_name}</span>
-                            {isReplyOwner && (
-                              <button
-                                onClick={() => handleDeleteComment(reply.id)}
-                                className="text-slate-400 hover:text-red-600 text-[10px]"
-                              >
-                                Delete
-                              </button>
-                            )}
-                          </div>
-                          <p className="text-xs text-slate-600 whitespace-pre-wrap">{reply.content}</p>
-                          <button
-                            onClick={() => handleToggleLike(reply.id)}
-                            className={`mt-2 flex items-center gap-1 text-[11px] font-bold ${
-                              isReplyLiked ? 'text-red-600' : 'text-slate-400 hover:text-red-500'
-                            }`}
-                          >
-                            <Heart className={`h-3 w-3 ${isReplyLiked ? 'fill-current' : ''}`} />
-                            <span>{isReplyLiked ? '♥ Liked' : '♡ Like'}</span>
-                          </button>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
+                <p className="text-xs text-slate-600 whitespace-pre-wrap">{reply.content}</p>
+                <button
+                  onClick={() => onToggleLike(reply.id)}
+                  className={`mt-1.5 flex items-center gap-1 text-[11px] font-bold ${
+                    isReplyLiked ? 'text-red-600' : 'text-slate-400 hover:text-red-500'
+                  }`}
+                >
+                  <Heart className={`h-3 w-3 ${isReplyLiked ? 'fill-current' : ''}`} />
+                  <span>{isReplyLiked ? '♥ Liked' : '♡ Like'}</span>
+                </button>
               </div>
             );
           })}
         </div>
       )}
     </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Main CommentsSection (Drawer + Floating Button)
+// ─────────────────────────────────────────────────────────────────────────────
+
+export default function CommentsSection({ pageId, pageTitle = 'Discussion & Q&A' }: CommentsSectionProps) {
+  // ── Auth ──────────────────────────────────────────────────────────────────
+  const [currentUser, setCurrentUser] = useState<User | null>(auth.currentUser);
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, u => setCurrentUser(u));
+    return unsub;
+  }, []);
+
+  // ── Drawer open state ─────────────────────────────────────────────────────
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  // ── Comments list ─────────────────────────────────────────────────────────
+  const [comments, setComments] = useState<CommentItem[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  // ── Pagination cursor (for "load older" — going DESC so cursor is oldest) ─
+  const [oldestDoc, setOldestDoc] = useState<QueryDocumentSnapshot<DocumentData> | null>(null);
+  const [hasMore, setHasMore] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
+
+  // ── Interaction maps ──────────────────────────────────────────────────────
+  const [userLikesMap, setUserLikesMap] = useState<Record<string, boolean>>({});
+  const [userReportsMap, setUserReportsMap] = useState<Record<string, boolean>>({});
+  const [blockedUsers, setBlockedUsers] = useState<string[]>(() => {
+    try { return JSON.parse(localStorage.getItem('nv_user_blocks') || '[]'); } catch { return []; }
+  });
+
+  // ── Input states ──────────────────────────────────────────────────────────
+  const [newCommentText, setNewCommentText] = useState('');
+  const [replyParentId, setReplyParentId] = useState<string | null>(null);
+  const [replyText, setReplyText] = useState('');
+  const [editingCommentId, setEditingCommentId] = useState<string | null>(null);
+  const [editText, setEditText] = useState('');
+
+  // ── Report modal ──────────────────────────────────────────────────────────
+  const [reportingCommentId, setReportingCommentId] = useState<string | null>(null);
+  const [reportReason, setReportReason] = useState('Spam');
+  const [reportDescription, setReportDescription] = useState('');
+
+  // ── Anti-spam ─────────────────────────────────────────────────────────────
+  const [lastPostTs, setLastPostTs] = useState(0);
+  const [lastPostText, setLastPostText] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
+  // ── Notices ───────────────────────────────────────────────────────────────
+  const [notice, setNotice] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+  const showNotice = useCallback((message: string, type: 'success' | 'error' = 'success') => {
+    setNotice({ message, type });
+    setTimeout(() => setNotice(null), 4000);
+  }, []);
+
+  const listRef = useRef<HTMLDivElement>(null);
+  const unsubRef = useRef<(() => void) | null>(null);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 1. onSnapshot listener — newest 20 DESC
+  //    This satisfies: realtime updates, immediate appearance, no page refresh
+  //    Required index: page_id ASC + created_at DESC  (composite)
+  // ─────────────────────────────────────────────────────────────────────────
+  useEffect(() => {
+    // Tear down previous listener
+    if (unsubRef.current) { unsubRef.current(); unsubRef.current = null; }
+    setComments([]);
+    setOldestDoc(null);
+    setHasMore(false);
+    setLoading(true);
+
+    const q = query(
+      collection(db, 'comments'),
+      where('page_id', '==', pageId),
+      orderBy('created_at', 'desc'),
+      limit(PAGE_SIZE)
+    );
+
+    const unsub = onSnapshot(
+      q,
+      snapshot => {
+        const loaded: CommentItem[] = snapshot.docs.map(d => ({ id: d.id, ...d.data() } as CommentItem));
+        setComments(loaded);
+        if (snapshot.docs.length > 0) {
+          setOldestDoc(snapshot.docs[snapshot.docs.length - 1]);
+        }
+        setHasMore(snapshot.docs.length === PAGE_SIZE);
+        setLoading(false);
+      },
+      err => {
+        console.error('Comments listener error:', err);
+        setLoading(false);
+        if (err?.code === 'permission-denied') {
+          showNotice('Permission denied while reading comments.', 'error');
+        }
+      }
+    );
+
+    unsubRef.current = unsub;
+    return () => { unsub(); unsubRef.current = null; };
+  }, [pageId, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 2. Load OLDER comments (cursor = oldestDoc, DESC → older)
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleLoadMore = useCallback(async () => {
+    if (!oldestDoc || !hasMore || loadingMore) return;
+    setLoadingMore(true);
+    try {
+      const q = query(
+        collection(db, 'comments'),
+        where('page_id', '==', pageId),
+        orderBy('created_at', 'desc'),
+        startAfter(oldestDoc),
+        limit(PAGE_SIZE)
+      );
+      const snapshot = await getDocs(q);
+      const next: CommentItem[] = snapshot.docs.map(d => ({ id: d.id, ...d.data() } as CommentItem));
+
+      setComments(prev => {
+        const ids = new Set(prev.map(c => c.id));
+        return [...prev, ...next.filter(c => !ids.has(c.id))];
+      });
+      if (snapshot.docs.length > 0) {
+        setOldestDoc(snapshot.docs[snapshot.docs.length - 1]);
+      }
+      setHasMore(snapshot.docs.length === PAGE_SIZE);
+    } catch (err) {
+      console.error('Load more error:', err);
+      showNotice('Failed to load older comments.', 'error');
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [oldestDoc, hasMore, loadingMore, pageId, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 3. Fetch user interaction states (likes + reports) for current batch
+  // ─────────────────────────────────────────────────────────────────────────
+  useEffect(() => {
+    if (!currentUser || comments.length === 0) {
+      setUserLikesMap({});
+      setUserReportsMap({});
+      return;
+    }
+    let alive = true;
+    (async () => {
+      const likes: Record<string, boolean> = {};
+      const reports: Record<string, boolean> = {};
+      for (const c of comments) {
+        try {
+          const lSnap = await getDoc(doc(db, 'comments', c.id, 'likes', currentUser.uid));
+          if (lSnap.exists()) likes[c.id] = true;
+
+          const rSnap = await getDoc(doc(db, 'commentReports', `${c.id}_${currentUser.uid}`));
+          if (rSnap.exists()) reports[c.id] = true;
+        } catch { /* ignore */ }
+      }
+      if (alive) { setUserLikesMap(likes); setUserReportsMap(reports); }
+    })();
+    return () => { alive = false; };
+  }, [currentUser?.uid, comments.length]); // only refetch when user changes or batch size changes
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 4. Derived: visible + sorted newest→oldest for display
+  // ─────────────────────────────────────────────────────────────────────────
+  const visibleComments = useMemo(() =>
+    comments.filter(c => !blockedUsers.includes(c.author_uid) && isCommentVisible(c)),
+    [comments, blockedUsers]
+  );
+
+  // DESC query already returns newest first; replies nested inside parent
+  const topLevel = useMemo(() => visibleComments.filter(c => !c.parent_id), [visibleComments]);
+  const repliesMap = useMemo(() => {
+    const m: Record<string, CommentItem[]> = {};
+    visibleComments.forEach(c => {
+      if (c.parent_id) {
+        (m[c.parent_id] = m[c.parent_id] || []).push(c);
+      }
+    });
+    // Sort replies oldest-first within each parent
+    Object.values(m).forEach(arr => arr.sort((a, b) => {
+      const at = a.created_at?.seconds ?? 0;
+      const bt = b.created_at?.seconds ?? 0;
+      return at - bt;
+    }));
+    return m;
+  }, [visibleComments]);
+
+  const visibleCount = visibleComments.length;
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 5. Auth helpers
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleLogin = useCallback(async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+      showNotice('Signed in with Google!');
+    } catch (err: any) {
+      console.error(err);
+      showNotice('Sign-in failed.', 'error');
+    }
+  }, [showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 6. Anti-spam guard
+  // ─────────────────────────────────────────────────────────────────────────
+  const checkAntiSpam = useCallback((text: string): boolean => {
+    const now = Date.now();
+    if (now - lastPostTs < 10000) {
+      showNotice(`Please wait ${Math.ceil((10000 - (now - lastPostTs)) / 1000)}s before posting again.`, 'error');
+      return false;
+    }
+    if (text.trim().toLowerCase() === lastPostText.trim().toLowerCase()) {
+      showNotice('Duplicate comment. Please modify your text.', 'error');
+      return false;
+    }
+    return true;
+  }, [lastPostTs, lastPostText, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 7. Create comment / reply
+  //    NO status field added → existing rules accept it
+  //    → immediately visible (no pending state)
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleCreateComment = useCallback(async (e: React.FormEvent, parentId: string | null = null) => {
+    e.preventDefault();
+    const text = parentId ? replyText : newCommentText;
+
+    if (!text.trim()) { showNotice('Comment cannot be empty.', 'error'); return; }
+    if (text.length > 2000) { showNotice('Comment exceeds 2000 characters.', 'error'); return; }
+    if (!currentUser) { await handleLogin(); return; }
+    if (!checkAntiSpam(text)) return;
+
+    setSubmitting(true);
+    try {
+      await addDoc(collection(db, 'comments'), {
+        page_id: pageId,
+        author_name: currentUser.displayName || 'Candidate',
+        author_role: 'Candidate',
+        author_uid: currentUser.uid,
+        content: text.trim(),
+        likes_count: 0,
+        parent_id: parentId || null,
+        created_at: serverTimestamp(),
+      });
+      // onSnapshot listener will pick up the new document automatically.
+      // No local state mutation needed — avoids duplicates.
+      setLastPostTs(Date.now());
+      setLastPostText(text.trim());
+      if (parentId) { setReplyText(''); setReplyParentId(null); showNotice('Reply posted!'); }
+      else { setNewCommentText(''); showNotice('Comment posted!'); }
+    } catch (err: any) {
+      console.error(err);
+      showNotice(
+        err?.code === 'permission-denied'
+          ? 'Permission denied: Unable to post.'
+          : 'Failed to post. Please try again.',
+        'error'
+      );
+    } finally {
+      setSubmitting(false);
+    }
+  }, [replyText, newCommentText, currentUser, pageId, handleLogin, checkAntiSpam, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 8. Edit (content only)
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleSaveEdit = useCallback(async (commentId: string) => {
+    if (!editText.trim() || !currentUser) return;
+    setSubmitting(true);
+    try {
+      await updateDoc(doc(db, 'comments', commentId), { content: editText.trim() });
+      // onSnapshot will update the list automatically
+      setEditingCommentId(null);
+      setEditText('');
+      showNotice('Comment updated!');
+    } catch (err: any) {
+      console.error(err);
+      showNotice('Failed to update comment.', 'error');
+    } finally { setSubmitting(false); }
+  }, [editText, currentUser, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 9. Delete
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleDeleteComment = useCallback(async (commentId: string) => {
+    if (!currentUser || !window.confirm('Delete this comment?')) return;
+    try {
+      await deleteDoc(doc(db, 'comments', commentId));
+      // onSnapshot removes it automatically
+      showNotice('Comment deleted.');
+    } catch (err: any) {
+      console.error(err);
+      showNotice('Failed to delete.', 'error');
+    }
+  }, [currentUser, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 10. Like / Unlike
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleToggleLike = useCallback(async (commentId: string) => {
+    if (!currentUser) { await handleLogin(); return; }
+    const liked = !!userLikesMap[commentId];
+    const likeRef = doc(db, 'comments', commentId, 'likes', currentUser.uid);
+    setUserLikesMap(prev => ({ ...prev, [commentId]: !liked }));
+    try {
+      if (liked) await deleteDoc(likeRef);
+      else await setDoc(likeRef, { likedAt: serverTimestamp() });
+    } catch (err: any) {
+      console.error(err);
+      setUserLikesMap(prev => ({ ...prev, [commentId]: liked }));
+      showNotice('Action failed.', 'error');
+    }
+  }, [currentUser, userLikesMap, handleLogin, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 11. Report
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleSubmitReport = useCallback(async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!reportingCommentId || !currentUser) return;
+    if (userReportsMap[reportingCommentId]) {
+      showNotice('You have already reported this comment.', 'error');
+      setReportingCommentId(null);
+      return;
+    }
+    setSubmitting(true);
+    try {
+      await setDoc(doc(db, 'commentReports', `${reportingCommentId}_${currentUser.uid}`), {
+        commentId: reportingCommentId,
+        reporterUid: currentUser.uid,
+        reason: reportReason,
+        description: reportDescription.trim().slice(0, 500),
+        status: 'pending',
+        createdAt: serverTimestamp(),
+      });
+      setUserReportsMap(prev => ({ ...prev, [reportingCommentId]: true }));
+      showNotice('Comment reported. Thank you.');
+      setReportingCommentId(null);
+      setReportDescription('');
+    } catch (err: any) {
+      console.error(err);
+      showNotice('Failed to submit report.', 'error');
+    } finally { setSubmitting(false); }
+  }, [reportingCommentId, currentUser, userReportsMap, reportReason, reportDescription, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // 12. Block user (local, localStorage)
+  // ─────────────────────────────────────────────────────────────────────────
+  const handleBlockUser = useCallback((uid: string, name: string) => {
+    if (!window.confirm(`Block comments from ${name}? You will no longer see their posts.`)) return;
+    const updated = [...blockedUsers, uid];
+    setBlockedUsers(updated);
+    try { localStorage.setItem('nv_user_blocks', JSON.stringify(updated)); } catch {}
+    showNotice(`${name} blocked.`);
+  }, [blockedUsers, showNotice]);
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // Drawer body — shared between desktop drawer and mobile bottom-sheet
+  // ─────────────────────────────────────────────────────────────────────────
+  const DrawerBody = (
+    <div className="flex flex-col h-full">
+      {/* Header */}
+      <div className="flex items-center justify-between px-4 py-3 border-b border-slate-200 shrink-0">
+        <div className="flex items-center gap-2">
+          <MessageSquare className="h-4 w-4 text-blue-600" />
+          <span className="font-black text-sm text-slate-900">
+            {pageTitle}
+          </span>
+          <span className="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
+            {visibleCount}
+          </span>
+        </div>
+        <button
+          onClick={() => setDrawerOpen(false)}
+          className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+        >
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+
+      {/* Auth bar */}
+      <div className="px-4 py-2 border-b border-slate-100 shrink-0">
+        {currentUser ? (
+          <div className="flex items-center gap-2 text-xs text-slate-600 font-semibold">
+            <UserCheck className="h-3.5 w-3.5 text-emerald-500" />
+            <span className="truncate max-w-[200px]">{currentUser.displayName}</span>
+          </div>
+        ) : (
+          <button
+            onClick={handleLogin}
+            className="flex items-center gap-1.5 text-xs font-bold text-blue-700 bg-blue-50
+                       hover:bg-blue-100 px-3 py-1.5 rounded-lg border border-blue-200 transition-colors"
+          >
+            <Lock className="h-3.5 w-3.5" /> Sign in with Google to comment
+          </button>
+        )}
+      </div>
+
+      {/* Notice */}
+      {notice && (
+        <div className={`mx-4 mt-2 p-2.5 rounded-xl flex items-center justify-between text-xs font-bold shrink-0 ${
+          notice.type === 'error'
+            ? 'bg-red-50 text-red-700 border border-red-200'
+            : 'bg-emerald-50 text-emerald-800 border border-emerald-200'
+        }`}>
+          <div className="flex items-center gap-1.5">
+            {notice.type === 'error'
+              ? <AlertCircle className="h-3.5 w-3.5 shrink-0" />
+              : <CheckCircle2 className="h-3.5 w-3.5 shrink-0" />}
+            {notice.message}
+          </div>
+          <button onClick={() => setNotice(null)}><X className="h-3 w-3" /></button>
+        </div>
+      )}
+
+      {/* Comment input */}
+      <div className="px-4 py-3 border-b border-slate-100 shrink-0">
+        <form onSubmit={e => handleCreateComment(e, null)}>
+          <textarea
+            value={newCommentText}
+            onChange={e => setNewCommentText(e.target.value)}
+            placeholder={
+              currentUser
+                ? 'Share your thoughts or ask a question…'
+                : 'Sign in above to post a comment…'
+            }
+            rows={2}
+            maxLength={2000}
+            disabled={!currentUser}
+            onClick={() => { if (!currentUser) handleLogin(); }}
+            className="w-full rounded-xl border border-slate-300 px-3 py-2.5 text-xs
+                       text-slate-800 placeholder-slate-400 resize-none
+                       focus:outline-none focus:ring-2 focus:ring-blue-500
+                       disabled:bg-slate-50 disabled:cursor-pointer transition-all"
+          />
+          <div className="flex items-center justify-between mt-1.5">
+            <span className="text-[10px] text-slate-400">{newCommentText.length}/2000</span>
+            <button
+              type="submit"
+              disabled={submitting || !newCommentText.trim() || !currentUser}
+              className="bg-blue-600 hover:bg-blue-700 disabled:opacity-50
+                         text-white font-bold px-3.5 py-1.5 rounded-xl text-xs
+                         flex items-center gap-1.5 transition-colors"
+            >
+              <Send className="h-3.5 w-3.5" /> Post
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {/* Comments list — scrollable */}
+      <div ref={listRef} className="flex-1 overflow-y-auto px-4 py-3 space-y-3">
+        {loading ? (
+          <div className="text-center py-10 text-slate-400 text-xs">Loading comments…</div>
+        ) : topLevel.length === 0 ? (
+          <div className="text-center py-10">
+            <Sparkles className="h-8 w-8 text-slate-200 mx-auto mb-2" />
+            <p className="text-xs font-bold text-slate-600">No comments yet.</p>
+            <p className="text-[11px] text-slate-400 mt-1">Be the first to start the discussion!</p>
+          </div>
+        ) : (
+          <>
+            {topLevel.map(comment => (
+              <CommentCard
+                key={comment.id}
+                comment={comment}
+                replies={repliesMap[comment.id] || []}
+                currentUser={currentUser}
+                isLiked={!!userLikesMap[comment.id]}
+                isReported={!!userReportsMap[comment.id]}
+                isEditing={editingCommentId === comment.id}
+                editText={editText}
+                replyParentId={replyParentId}
+                replyText={replyText}
+                submitting={submitting}
+                onToggleLike={handleToggleLike}
+                onSetReply={setReplyParentId}
+                onSetReplyText={setReplyText}
+                onSubmitReply={handleCreateComment}
+                onStartEdit={(id, content) => { setEditingCommentId(id); setEditText(content); }}
+                onCancelEdit={() => setEditingCommentId(null)}
+                onSetEditText={setEditText}
+                onSaveEdit={handleSaveEdit}
+                onDelete={handleDeleteComment}
+                onReport={setReportingCommentId}
+                onBlock={handleBlockUser}
+                userLikesMap={userLikesMap}
+              />
+            ))}
+
+            {/* Load older comments */}
+            {hasMore && (
+              <div className="text-center pt-2">
+                <button
+                  onClick={handleLoadMore}
+                  disabled={loadingMore}
+                  className="bg-slate-100 hover:bg-slate-200 disabled:opacity-50
+                             text-slate-700 font-bold px-4 py-2 rounded-xl text-xs
+                             flex items-center gap-1.5 mx-auto border border-slate-200 transition-colors"
+                >
+                  <ChevronDown className="h-4 w-4" />
+                  {loadingMore ? 'Loading…' : 'Load older comments'}
+                </button>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // Render
+  // ─────────────────────────────────────────────────────────────────────────
+  return (
+    <>
+      {/* Floating button — always visible on job/article pages */}
+      <FloatingCommentsButton count={visibleCount} onClick={() => setDrawerOpen(true)} />
+
+      {/* ── Desktop drawer — right side, ~400px ─────────────────────────── */}
+      {drawerOpen && (
+        <>
+          {/* Overlay (click to close) */}
+          <div
+            className="hidden md:block fixed inset-0 z-40 bg-slate-900/20"
+            onClick={() => setDrawerOpen(false)}
+          />
+          {/* Drawer */}
+          <div
+            className="hidden md:flex fixed right-0 top-0 bottom-0 z-50
+                       w-[400px] max-w-[95vw] bg-white shadow-2xl
+                       flex-col border-l border-slate-200
+                       animate-in slide-in-from-right duration-300"
+          >
+            {DrawerBody}
+          </div>
+        </>
+      )}
+
+      {/* ── Mobile bottom-sheet ──────────────────────────────────────────── */}
+      {drawerOpen && (
+        <>
+          <div
+            className="md:hidden fixed inset-0 z-40 bg-slate-900/30"
+            onClick={() => setDrawerOpen(false)}
+          />
+          {/* Bottom sheet: stops above sticky nav (bottom-[64px]) */}
+          <div
+            className="md:hidden fixed left-0 right-0 bottom-[64px] z-50
+                       bg-white rounded-t-2xl shadow-2xl border-t border-slate-200
+                       flex flex-col
+                       max-h-[82vh]
+                       animate-in slide-in-from-bottom duration-300"
+          >
+            {/* Pull handle */}
+            <div className="flex justify-center pt-2 pb-1 shrink-0">
+              <div className="w-10 h-1 rounded-full bg-slate-300" />
+            </div>
+            {DrawerBody}
+          </div>
+        </>
+      )}
+
+      {/* ── Report Modal ─────────────────────────────────────────────────── */}
+      {reportingCommentId && (
+        <div className="fixed inset-0 bg-slate-900/50 z-[60] flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl max-w-sm w-full p-5 shadow-2xl border border-slate-200">
+            <div className="flex items-center justify-between mb-4 border-b border-slate-100 pb-3">
+              <div className="flex items-center gap-2 text-amber-600 font-black text-sm">
+                <ShieldAlert className="h-5 w-5" /> Report Comment
+              </div>
+              <button onClick={() => setReportingCommentId(null)}>
+                <X className="h-4 w-4 text-slate-400 hover:text-slate-600" />
+              </button>
+            </div>
+            <form onSubmit={handleSubmitReport} className="space-y-3">
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">Reason</label>
+                <select
+                  value={reportReason}
+                  onChange={e => setReportReason(e.target.value)}
+                  className="w-full rounded-xl border border-slate-300 p-2.5 text-xs text-slate-800 focus:ring-2 focus:ring-blue-500"
+                >
+                  {REPORT_REASONS.map(r => <option key={r}>{r}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className="block text-xs font-bold text-slate-700 mb-1">
+                  Details ({reportDescription.length}/500)
+                </label>
+                <textarea
+                  value={reportDescription}
+                  onChange={e => setReportDescription(e.target.value)}
+                  placeholder="Optional: additional context for moderators…"
+                  rows={3}
+                  maxLength={500}
+                  className="w-full rounded-xl border border-slate-300 p-2.5 text-xs text-slate-800 focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div className="flex justify-end gap-2 pt-2 border-t border-slate-100">
+                <button
+                  type="button"
+                  onClick={() => setReportingCommentId(null)}
+                  className="px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-100 rounded-xl"
+                >Cancel</button>
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="px-4 py-2 text-xs font-bold text-white bg-amber-600 hover:bg-amber-700 rounded-xl"
+                >Submit Report</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

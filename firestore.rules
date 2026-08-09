@@ -93,7 +93,30 @@ service cloud.firestore {
     }
 
     // =========================================================================
-    // 3. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
+    // 3. COMMENT REPORTS COLLECTION SECURITY
+    // =========================================================================
+    match /commentReports/{reportId} {
+      // Public & User Reading Denied (Only Admins via Firebase Admin SDK can read)
+      allow read: if false;
+
+      // Authenticated users can create ONLY their own report document matching reporterUid
+      allow create: if request.auth != null
+        && request.resource.data.reporterUid == request.auth.uid
+        && request.resource.data.keys().hasOnly([
+             'commentId', 'reporterUid', 'reason', 'description', 'createdAt', 'status'
+           ])
+        && request.resource.data.reason in ['Spam', 'Advertising', 'Abusive', 'Offensive', 'Misleading', 'Other']
+        && request.resource.data.description is string
+        && request.resource.data.description.size() <= 500
+        && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time;
+
+      // Client updates and deletions are strictly disabled
+      allow update, delete: if false;
+    }
+
+    // =========================================================================
+    // 4. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
     // =========================================================================
     match /{document=**} {
       allow read, write: if false;
