@@ -34,7 +34,12 @@ def add_job_entry(json_file_path):
     with open(jobs_file, 'r', encoding='utf-8') as f:
         jobs_text = f.read()
 
-    if f'"id": "{job_id}"' not in jobs_text:
+        qual_val = "See eligibility"
+        for h in job.get("highlights", []):
+            if "qualification" in h.get("label", "").lower():
+                qual_val = h.get("value", "")
+                break
+
         summary_entry = {
             "id": job_id,
             "b": job.get("board", ""),
@@ -42,7 +47,7 @@ def add_job_entry(json_file_path):
             "d": job.get("importantDates", [{}])[0].get("date", "Today"),
             "l": job.get("importantDates", [{}, {}])[1].get("date", "See details"),
             "a": job.get("advtNo", ""),
-            "q": job.get("highlights", [{}, {}, {}, {}, {}, {}, {}, {}])[7].get("value", "") if len(job.get("highlights", [])) > 7 else "See eligibility",
+            "q": qual_val,
             "desc": job.get("overview", [""])[0],
             "u": job.get("urls", [{}])[0].get("url", "") if job.get("urls") else "https://www.konkanrailway.com"
         }

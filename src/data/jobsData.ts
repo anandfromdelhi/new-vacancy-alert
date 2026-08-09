@@ -18,7 +18,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "08.08.2026",
     "l": "08.08.2026",
     "a": "Advertisement No. 10/2026 Dated 08.08.2026",
-    "q": "NIL (Exempted)",
+    "q": "BE / B.Tech (Civil / Electronics / Mech / Agri) / LLM / LLB / Master\'s (Geography/Geology/GIS) / B.Sc (Agri/Hort) / Graduation in Any Discipline",
     "desc": "Union Public Service Commission (UPSC) invites Online Recruitment Applications (ORA) for direct recruitment by selection to 34 Group 'A' & Group 'B' Gazetted posts across various Central Ministries and Union Territory of Ladakh under Advertisement No. 10/2026.",
     "u": "https://upsconline.nic.in/ora/"
 },
@@ -29,7 +29,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "07.08.2026",
     "l": "08.08.2026",
     "a": "HRDD/RECT/02/2026-27 Dated 07.08.2026",
-    "q": "Rs. 850/- (inclusive of GST)",
+    "q": "Graduation Degree in Any Discipline from Recognized University",
     "desc": "Indian Overseas Bank (IOB), a premier Public Sector Bank headquartered in Chennai with nationwide and international presence, invites online applications for direct recruitment of 250 Local Bank Officers (LBO) in Junior Management Grade Scale-I (JMGS - I).",
     "u": "https://www.iob.bank.in"
 },
@@ -1085,7 +1085,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "21-07-2026",
     "l": "05-08-2026 (Offline Application)",
     "a": "Endst. No. DCH/Estt./Recruitment/2026-8552-73",
-    "q": "Retired Patwari / Kanungo with minimum 5 years service in HP Revenue Department (Max age 65 years)",
+    "q": "Retired Patwari / Kanungo / Passed Class 10th / Matriculation or Graduate Degree",
     "desc": "Office of Deputy Commissioner, Hamirpur (HP) invites offline applications from retired Patwaris and Kanungos for re-engagement on remuneration basis across vacant Patwar Circles in District Hamirpur. Consolidated monthly remuneration is ₹40,000/-. Applicants must be under 65 years of age with 5 years minimum service experience. Submit completed form to DC Office Hamirpur by 5th August 2026.",
     "u": "https://hamirpur.nic.in"
   },
