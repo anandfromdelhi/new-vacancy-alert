@@ -94,6 +94,7 @@ function FloatingCommentsButton({ count, onClick }: FloatingButtonProps) {
 // ─────────────────────────────────────────────────────────────────────────────
 
 interface CommentCardProps {
+  key?: React.Key;
   comment: CommentItem;
   replies: CommentItem[];
   currentUser: User | null;

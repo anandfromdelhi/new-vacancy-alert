@@ -15,6 +15,7 @@ import {
 } from 'recharts';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
+import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import { useAuth } from '../context/AuthContext';
 
 export default function NorcetCutoffArticle() {
