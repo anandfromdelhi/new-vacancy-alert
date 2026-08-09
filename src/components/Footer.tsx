@@ -61,7 +61,6 @@ export default function Footer() {
             <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="cursor-pointer hover:text-[#1e40af] flex items-center gap-0.5">
               <Rss className="w-3 h-3 text-amber-600 inline" /> RSS
             </a>
-            <Link to="/admin" className="cursor-pointer hover:text-[#1e40af]">Admin</Link>
           </div>
         </div>
       </div>
