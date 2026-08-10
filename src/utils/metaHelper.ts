@@ -51,6 +51,7 @@ export function getPageMetaData(urlPath: string) {
   let description =
     "Get the latest central and state government job notifications for 2026, upcoming active vacancies, admit cards, exam keys, and verified results instantly.";
   let ogUrl = `https://newvacancyalert.in/${cleanPath}`;
+  let faqSchema: object | null = null;
 
   if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks") {
     title = "AIIMS NORCET Previous Year Cutoff (Last 3 Exams) | NewVacancyAlert";
@@ -125,12 +126,27 @@ export function getPageMetaData(urlPath: string) {
     description =
       job.seoDescription ||
       `Complete notification details, eligibility, application fee, key dates, and official PDF download for ${job.title}.`;
+    
+    if (job.faqs && job.faqs.length > 0) {
+      faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": job.faqs.map((f: { question: string; answer: string }) => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.answer
+          }
+        }))
+      };
+    }
   }
 
-  return { title, description, ogUrl };
+  return { title, description, ogUrl, faqSchema };
 }
 
-export function injectMetaTags(htmlTemplate: string, meta: { title: string; description: string; ogUrl: string }) {
+export function injectMetaTags(htmlTemplate: string, meta: { title: string; description: string; ogUrl: string; faqSchema?: object | null }) {
   const safeTitle = escapeHtml(meta.title);
   const safeDesc = escapeHtml(meta.description);
 
@@ -162,6 +178,11 @@ export function injectMetaTags(htmlTemplate: string, meta: { title: string; desc
     /<meta property="twitter:description" content=".*?" \/>/gi,
     `<meta property="twitter:description" content="${safeDesc}" />`
   );
+
+  if (meta.faqSchema) {
+    const schemaScript = `<script type="application/ld+json">${JSON.stringify(meta.faqSchema)}</script>`;
+    html = html.replace('</head>', `${schemaScript}\n</head>`);
+  }
 
   return html;
 }
