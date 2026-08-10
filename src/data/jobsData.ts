@@ -12,6 +12,39 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "capf-medical-officers-mosb-2025",
+    "b": "Central Armed Police Forces Medical Officer Selection Board (MOSB-2025) / ITBP, Ministry of Home Affairs",
+    "t": "CAPF Medical Officers (MOSB-2025) Recruitment Notification Out for 282 Super Specialist, Specialist & Medical Officer Posts in BSF, CRPF, ITBP, SSB & Assam Rifles – Apply Online",
+    "d": "August 2026",
+    "l": "10 August 2026 (00:01 AM)",
+    "a": "MOSB-2025 / MHA Direct Recruitment",
+    "q": "MBBS / PG Degree or Diploma / DM or M.Ch in relevant specialty + NMC Registration",
+    "desc": "Medical Officer Selection Board-2025 (MOSB-2025), Directorate General, Indo-Tibetan Border Police Force (ITBP), Ministry of Home Affairs, Govt. of India has released official advertisement for direct recruitment of Group 'A' Medical Officers in Central Armed Police Forces (BSF, CRPF, ITBP, SSB) & Assam Rifles.",
+    "u": "https://www.recruitment.itbpolice.nic.in"
+},
+  {
+    "id": "drdo-hemrl-pune-apprentice-2026",
+    "b": "High Energy Materials Research Laboratory (HEMRL), Pune – DRDO, Ministry of Defence",
+    "t": "DRDO HEMRL Pune Graduate Apprentice Recruitment 2026 Notification Out for 50 Posts – Apply Offline by 28 August",
+    "d": "August 2026",
+    "l": "28 August 2026",
+    "a": "HEMRL/HRD/APPRENTICE/2026-27/01",
+    "q": "See eligibility",
+    "desc": "High Energy Materials Research Laboratory (HEMRL), Pune, a premier R&D establishment under Defence Research & Development Organization (DRDO), Ministry of Defence, Govt. of India, has released official advertisement HEMRL/HRD/APPRENTICE/2026-27/01 for engagement of Graduate Apprentices for One Year Apprentice Training (2026-27).",
+    "u": "https://drdo.gov.in/drdo/en/offerings/vacancies"
+},
+  {
+    "id": "eil-experienced-modellers-2026",
+    "b": "Engineers India Limited (EIL), A Govt of India Undertaking (Navratna PSU)",
+    "t": "EIL Experienced Modellers Recruitment 2026 Notification Out for 22 Associate Modeller Posts (Piping, Civil, Instrumentation, Safety & Equipment) – Apply Online",
+    "d": "07 August 2026",
+    "l": "31 July 2026",
+    "a": "HRD/Rectt./Advt./2026-27/06",
+    "q": "Diploma or B.E./B.Tech/B.Sc (Engg) with min 60% marks or equivalent CGPI",
+    "desc": "Engineers India Limited (EIL), a Navratna Public Sector Enterprise and India's premier Total Solutions Engineering Consultancy Company, has published official advertisement HRD/Rectt./Advt./2026-27/06 for engagement of experienced Modellers on a Fixed Term Basis for a period of 2 Years.",
+    "u": "http://www.engineersindia.com"
+},
+  {
     "id": "cgssb-chhattisgarh-teacher-recruitment-2026",
     "b": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) / Directorate of Public Instruction",
     "t": "CGSSB Chhattisgarh Teacher Recruitment 2026 – Apply Online for School Education Dept Teacher Recruitment Exam (LST26) | Exam Date: 25 October 2026",
