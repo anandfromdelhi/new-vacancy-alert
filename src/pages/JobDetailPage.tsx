@@ -2868,7 +2868,7 @@ export default function JobDetailPage() {
                     <span className="text-fuchsia-600 bg-fuchsia-100 px-1.5 py-0.5 rounded text-[10px] sm:text-xs mt-0.5 shrink-0">Q</span> 
                     {faq.question}
                   </h3>
-                  <p className="text-slate-600 font-semibold leading-relaxed pl-5 sm:pl-7 text-[11px] sm:text-xs md:text-sm text-justify">
+                  <p className="text-slate-600 font-semibold leading-relaxed pl-5 sm:pl-7 text-[11px] sm:text-xs md:text-sm text-justify whitespace-pre-line">
                     {faq.answer}
                   </p>
                 </div>

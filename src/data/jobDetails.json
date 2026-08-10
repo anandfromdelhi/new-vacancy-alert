@@ -15406,24 +15406,84 @@
     ],
     "faqs": [
       {
-        "question": "What is the full form of CRP CSA in IBPS Recruitment 2026?",
-        "answer": "CRP CSA stands for Common Recruitment Process for Customer Service Associates (Clerical Cadre) in Participating Public Sector Banks."
+        "question": "Is a separate computer certificate mandatory?",
+        "answer": "No, not necessarily.\n\nThe notification requires working knowledge of computer systems. A candidate can satisfy this through a Certificate/Diploma/Degree in computer operations/language, or by having Computer/Information Technology as a subject in high school/college. So if you studied IT/computers as a subject in school or college, a separate certificate generally isn't required.\n\nImportant: Don't assume that every private certificate automatically qualifies. The relevant qualification is what the notification specifies."
       },
       {
-        "question": "What is the last date to apply online for IBPS Clerk / CSA Recruitment 2026?",
-        "answer": "The last date to register online and pay fees on www.ibps.in is 21st August 2026."
+        "question": "Can I quickly obtain a computer certificate?",
+        "answer": "Be careful here.\n\nDon't buy a random DCA/ADCA/Tally/online certificate just because an institute says it will work for IBPS. The notification specifies the type of computer qualification/knowledge accepted.\n\nIf you already studied computer/IT in school, college, BCA, etc., that may already satisfy the requirement."
       },
       {
-        "question": "When will the IBPS Clerk 2026 Prelims and Mains Examinations be held?",
-        "answer": "The Online Preliminary Examination is scheduled for October 2026 and the Online Main Examination is scheduled for December 2026."
+        "question": "Can final-year students apply?",
+        "answer": "Generally, no if they have not completed graduation by the prescribed cutoff.\n\nFor CSA-XV, the candidate had to possess a valid marksheet/degree certificate showing that they were a graduate on the date of registration, with the qualification as of 21 August 2025.\n\nSo someone still in 7th/8th semester and awaiting the result could not simply apply on the assumption that the degree would be completed later."
       },
       {
-        "question": "Can final year students apply for IBPS Clerk / CSA 2026?",
-        "answer": "No, candidates must possess a valid graduation degree result declared on or before 21st August 2026."
+        "question": "What is the age limit?",
+        "answer": "For CSA-XV:\n\nMinimum: 20 years\nMaximum: 28 years\nAge calculated as on 1 August 2025\nCandidate had to be born between 2 August 1997 and 1 August 2005, inclusive.\n\nRelaxations included, among others:\n\nSC/ST: 5 years\nOBC-NCL: 3 years\nPwBD: 10 years\n\nThere are additional relaxations for specified categories.\n\nFemale candidates do not get a general age relaxation merely for being female."
       },
       {
-        "question": "What is the application fee for IBPS Clerk 2026?",
-        "answer": "The application fee is Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM candidates and Rs. 850/- (inclusive of GST) for all other candidates."
+        "question": "If I apply from another state, does my category become General?",
+        "answer": "No, simply applying for another state's vacancy does not automatically convert your category to General.\n\nHowever, reservation and certificate requirements are governed by the applicable rules, and candidates should ensure their certificate is valid for the relevant recruitment.\n\nAlso remember that CSA recruitment involves state/UT-wise vacancies and local-language proficiency."
+      },
+      {
+        "question": "Does CIBIL score affect eligibility?",
+        "answer": "This is one of the most misunderstood clauses.\n\nThere is no single IBPS-prescribed minimum CIBIL score such as 700 or 750 in the notification.\n\nThe notification says the candidate must maintain a healthy credit history, with the minimum credit score being according to the policy of the participating bank.\n\nMore importantly:\n\nCredit history is NOT a pre-condition for applying.\n\nIf an adverse account has not been updated by joining time, the candidate may need to get it corrected or provide an NOC from the lender. The final decision rests with the allotted bank."
+      },
+      {
+        "question": "What about caste/EWS certificates?",
+        "answer": "Candidates should follow the exact certificate requirements in the notification and applicable Government rules.\n\nDon't assume that an old certificate automatically works.\n\nFor OBC-NCL/EWS especially, candidates should ensure that the certificate is valid for the relevant period and format required for the recruitment."
+      },
+      {
+        "question": "Are there sectional cutoffs and sectional timings?",
+        "answer": "Yes.\n\nFor CSA-XV Prelims:\n\nSection\tQuestions\tMarks\tTime\nEnglish\t30\t30\t20 min\nNumerical Ability\t35\t35\t20 min\nReasoning\t35\t35\t20 min\nTotal\t100\t100\t60 min\n\nThe sections are separately timed.\n\nMains also has separate section timings:\n\nGeneral/Financial Awareness — 35 min\nGeneral English — 35 min\nReasoning — 35 min\nQuantitative Aptitude — 30 min\n\nTotal: 120 minutes."
+      },
+      {
+        "question": "Is there an interview or typing test?",
+        "answer": "No interview. No typing test.\n\nThe major stages are:\n\nPrelims → Mains → Local Language Proficiency Test (LLPT)\n\nThe LLPT is different from a typing test; it checks proficiency in the relevant local language."
+      },
+      {
+        "question": "What score should I target?",
+        "answer": "There is no single safe score for all India.\n\nThe cutoff varies according to:\n\nState/UT\nCategory\nNumber of vacancies\nCandidate performance\nDifficulty level\n\nFor preparation, don't target merely the previous cutoff. Aim substantially above the expected cutoff.\n\nFor example, if a state historically has a Prelims cutoff around 75, preparing for 80–85+ provides a better margin than targeting 75."
+      },
+      {
+        "question": "Can I choose an exam centre in another state?",
+        "answer": "Yes, your examination centre and the state/UT for which you're applying are not necessarily the same thing.\n\nThe examination centre is allotted according to the options/availability specified in the application and IBPS arrangements.\n\nBut you cannot confuse exam-centre choice with the state vacancy you are applying for.\n\nYour selected state/UT determines the relevant vacancy/local-language requirements."
+      },
+      {
+        "question": "Which batch should I buy?",
+        "answer": "This isn't an IBPS eligibility requirement.\n\nFor a beginner with ~60 days, I would not automatically recommend buying an expensive batch.\n\nYou need:\n\nPrelims concept preparation\nDaily Quant/Reasoning practice\nEnglish\nPrevious-year questions\nFull mocks\nMains GA/Financial Awareness preparation\n\nIf a free/low-cost structured course covers these adequately, a paid batch isn't mandatory."
+      },
+      {
+        "question": "What should I enter under graduation specialization?",
+        "answer": "Enter your actual graduation degree/subjects exactly as reflected in your educational records.\n\nFor example:\n\nB.Com → Commerce/appropriate subject\nB.Sc → actual science subject\nB.A. → actual subjects\n\nDon't randomly select a specialization just to get past the form.\n\nIf the portal's dropdown doesn't accurately represent your degree, use the option/instructions specified by IBPS rather than inventing a specialization."
+      },
+      {
+        "question": "What if the application form shows a red error?",
+        "answer": "First check:\n\nRequired field missing\nIncorrect date format\nPhotograph/signature/document size\nInvalid qualification selection\nIncorrect state/centre selection\nBrowser/cache issue\nPayment/session timeout\n\nTry Chrome/Edge, incognito mode, clearing cache, and a stable internet connection.\n\nIf the problem is on the IBPS portal itself, use the official IBPS help/grievance mechanism rather than relying on coaching-centre advice."
+      },
+      {
+        "question": "Is there negative marking?",
+        "answer": "Yes.\n\nFor CSA-XV objective tests, 0.25 marks are deducted for each wrong answer. There is no penalty for an unanswered question.\n\nSo:\n\n4 wrong answers = −1 mark"
+      },
+      {
+        "question": "Did the Mains pattern change?",
+        "answer": "Yes. CSA-XV introduced a revised Mains structure compared with older IBPS Clerk patterns.\n\nThe CSA-XV Mains structure was:\n\nSection\tQuestions\tMarks\tTime\nGeneral/Financial Awareness\t40\t50\t35 min\nGeneral English\t40\t40\t35 min\nReasoning Ability\t40\t60\t35 min\nQuantitative Aptitude\t35\t50\t30 min\nTotal\t155\t200\t120 min"
+      },
+      {
+        "question": "Can I use a provisional degree certificate?",
+        "answer": "The critical requirement is that you must have proof that you had already graduated by the prescribed date.\n\nThe notification specifically refers to a valid marksheet/degree certificate establishing graduation.\n\nSo if your university hasn't issued the original degree yet, a valid provisional certificate/appropriate university documentation can be relevant, but candidates should follow the exact DV instructions issued for that recruitment."
+      },
+      {
+        "question": "What about a previous FIR/criminal case?",
+        "answer": "Don't hide or falsify information.\n\nIf the application specifically asks about criminal/legal matters, answer according to the actual facts and the wording of the declaration.\n\nA past FIR does not automatically mean that every candidate is permanently disqualified, but concealment or a false declaration can create serious problems.\n\nFor an individual case involving acquittal, pending proceedings, conviction, etc., the exact facts matter."
+      },
+      {
+        "question": "What is the application fee?",
+        "answer": "For CSA-XV:\n\n₹175: SC/ST/PwBD/ESM/DESM\n₹850: all others\n\nBoth figures included GST.\n\nThere is no general female-only fee exemption."
+      },
+      {
+        "question": "I'm scoring 50–55 in mocks. Should I apply?",
+        "answer": "Yes, if you're otherwise eligible.\n\nA mock score of 50–55 doesn't mean you cannot clear IBPS Clerk.\n\nYour score depends on:\n\nMock difficulty\nState/category\nCutoff\nAccuracy\nSpeed\nImprovement over the next several weeks\n\nIf you're currently at 50–55, I'd focus on getting to 65–70+ consistently, then pushing higher rather than abandoning the attempt."
       }
     ]
   },
@@ -17512,28 +17572,84 @@
     ],
     "faqs": [
       {
-        "question": "What is the total number of vacancies in IBPS Clerk / CSA Recruitment 2026 (CRP CSA-XVI)?",
-        "answer": "IBPS has advertised 11,102 indicative Customer Service Associate (CSA / Clerical Cadre) vacancies across 11 Participating Public Sector Banks in 36 States and Union Territories."
+        "question": "Is a separate computer certificate mandatory?",
+        "answer": "No, not necessarily.\n\nThe notification requires working knowledge of computer systems. A candidate can satisfy this through a Certificate/Diploma/Degree in computer operations/language, or by having Computer/Information Technology as a subject in high school/college. So if you studied IT/computers as a subject in school or college, a separate certificate generally isn't required.\n\nImportant: Don't assume that every private certificate automatically qualifies. The relevant qualification is what the notification specifies."
       },
       {
-        "question": "What are the online registration dates for IBPS CRP CSA-XVI?",
-        "answer": "Online registration and fee payment window is open from 01st August 2026 to 21st August 2026 on www.ibps.in."
+        "question": "Can I quickly obtain a computer certificate?",
+        "answer": "Be careful here.\n\nDon't buy a random DCA/ADCA/Tally/online certificate just because an institute says it will work for IBPS. The notification specifies the type of computer qualification/knowledge accepted.\n\nIf you already studied computer/IT in school, college, BCA, etc., that may already satisfy the requirement."
       },
       {
-        "question": "When will the IBPS Clerk / CSA Preliminary and Main Exams be conducted?",
-        "answer": "The Online Preliminary Examination will be conducted in October 2026 (Call letter in Sept 2026), and the Online Main Examination will be conducted in December 2026 (Call letter in Nov 2026). Provisional allotment will take place in March 2027."
+        "question": "Can final-year students apply?",
+        "answer": "Generally, no if they have not completed graduation by the prescribed cutoff.\n\nFor CSA-XV, the candidate had to possess a valid marksheet/degree certificate showing that they were a graduate on the date of registration, with the qualification as of 21 August 2025.\n\nSo someone still in 7th/8th semester and awaiting the result could not simply apply on the assumption that the degree would be completed later."
       },
       {
-        "question": "What is the application fee for IBPS Clerk / CSA 2026?",
-        "answer": "The fee is Rs. 175/- (inclusive of GST) for SC/ST/PwBD/ESM/DESM candidates, and Rs. 850/- (inclusive of GST) for General (UR), OBC, and EWS candidates."
+        "question": "What is the age limit?",
+        "answer": "For CSA-XV:\n\nMinimum: 20 years\nMaximum: 28 years\nAge calculated as on 1 August 2025\nCandidate had to be born between 2 August 1997 and 1 August 2005, inclusive.\n\nRelaxations included, among others:\n\nSC/ST: 5 years\nOBC-NCL: 3 years\nPwBD: 10 years\n\nThere are additional relaxations for specified categories.\n\nFemale candidates do not get a general age relaxation merely for being female."
       },
       {
-        "question": "Can a candidate apply for more than one State / UT?",
-        "answer": "No, candidates can apply for vacancies in only ONE State or Union Territory."
+        "question": "If I apply from another state, does my category become General?",
+        "answer": "No, simply applying for another state's vacancy does not automatically convert your category to General.\n\nHowever, reservation and certificate requirements are governed by the applicable rules, and candidates should ensure their certificate is valid for the relevant recruitment.\n\nAlso remember that CSA recruitment involves state/UT-wise vacancies and local-language proficiency."
       },
       {
-        "question": "Is there any interview for IBPS Customer Service Associate (Clerk) posts?",
-        "answer": "No, there is NO interview for clerical/CSA posts. Selection is based 100% on marks obtained in the Online Main Examination, subject to qualifying the Local Language Proficiency Test (LLPT) if applicable."
+        "question": "Does CIBIL score affect eligibility?",
+        "answer": "This is one of the most misunderstood clauses.\n\nThere is no single IBPS-prescribed minimum CIBIL score such as 700 or 750 in the notification.\n\nThe notification says the candidate must maintain a healthy credit history, with the minimum credit score being according to the policy of the participating bank.\n\nMore importantly:\n\nCredit history is NOT a pre-condition for applying.\n\nIf an adverse account has not been updated by joining time, the candidate may need to get it corrected or provide an NOC from the lender. The final decision rests with the allotted bank."
+      },
+      {
+        "question": "What about caste/EWS certificates?",
+        "answer": "Candidates should follow the exact certificate requirements in the notification and applicable Government rules.\n\nDon't assume that an old certificate automatically works.\n\nFor OBC-NCL/EWS especially, candidates should ensure that the certificate is valid for the relevant period and format required for the recruitment."
+      },
+      {
+        "question": "Are there sectional cutoffs and sectional timings?",
+        "answer": "Yes.\n\nFor CSA-XV Prelims:\n\nSection\tQuestions\tMarks\tTime\nEnglish\t30\t30\t20 min\nNumerical Ability\t35\t35\t20 min\nReasoning\t35\t35\t20 min\nTotal\t100\t100\t60 min\n\nThe sections are separately timed.\n\nMains also has separate section timings:\n\nGeneral/Financial Awareness — 35 min\nGeneral English — 35 min\nReasoning — 35 min\nQuantitative Aptitude — 30 min\n\nTotal: 120 minutes."
+      },
+      {
+        "question": "Is there an interview or typing test?",
+        "answer": "No interview. No typing test.\n\nThe major stages are:\n\nPrelims → Mains → Local Language Proficiency Test (LLPT)\n\nThe LLPT is different from a typing test; it checks proficiency in the relevant local language."
+      },
+      {
+        "question": "What score should I target?",
+        "answer": "There is no single safe score for all India.\n\nThe cutoff varies according to:\n\nState/UT\nCategory\nNumber of vacancies\nCandidate performance\nDifficulty level\n\nFor preparation, don't target merely the previous cutoff. Aim substantially above the expected cutoff.\n\nFor example, if a state historically has a Prelims cutoff around 75, preparing for 80–85+ provides a better margin than targeting 75."
+      },
+      {
+        "question": "Can I choose an exam centre in another state?",
+        "answer": "Yes, your examination centre and the state/UT for which you're applying are not necessarily the same thing.\n\nThe examination centre is allotted according to the options/availability specified in the application and IBPS arrangements.\n\nBut you cannot confuse exam-centre choice with the state vacancy you are applying for.\n\nYour selected state/UT determines the relevant vacancy/local-language requirements."
+      },
+      {
+        "question": "Which batch should I buy?",
+        "answer": "This isn't an IBPS eligibility requirement.\n\nFor a beginner with ~60 days, I would not automatically recommend buying an expensive batch.\n\nYou need:\n\nPrelims concept preparation\nDaily Quant/Reasoning practice\nEnglish\nPrevious-year questions\nFull mocks\nMains GA/Financial Awareness preparation\n\nIf a free/low-cost structured course covers these adequately, a paid batch isn't mandatory."
+      },
+      {
+        "question": "What should I enter under graduation specialization?",
+        "answer": "Enter your actual graduation degree/subjects exactly as reflected in your educational records.\n\nFor example:\n\nB.Com → Commerce/appropriate subject\nB.Sc → actual science subject\nB.A. → actual subjects\n\nDon't randomly select a specialization just to get past the form.\n\nIf the portal's dropdown doesn't accurately represent your degree, use the option/instructions specified by IBPS rather than inventing a specialization."
+      },
+      {
+        "question": "What if the application form shows a red error?",
+        "answer": "First check:\n\nRequired field missing\nIncorrect date format\nPhotograph/signature/document size\nInvalid qualification selection\nIncorrect state/centre selection\nBrowser/cache issue\nPayment/session timeout\n\nTry Chrome/Edge, incognito mode, clearing cache, and a stable internet connection.\n\nIf the problem is on the IBPS portal itself, use the official IBPS help/grievance mechanism rather than relying on coaching-centre advice."
+      },
+      {
+        "question": "Is there negative marking?",
+        "answer": "Yes.\n\nFor CSA-XV objective tests, 0.25 marks are deducted for each wrong answer. There is no penalty for an unanswered question.\n\nSo:\n\n4 wrong answers = −1 mark"
+      },
+      {
+        "question": "Did the Mains pattern change?",
+        "answer": "Yes. CSA-XV introduced a revised Mains structure compared with older IBPS Clerk patterns.\n\nThe CSA-XV Mains structure was:\n\nSection\tQuestions\tMarks\tTime\nGeneral/Financial Awareness\t40\t50\t35 min\nGeneral English\t40\t40\t35 min\nReasoning Ability\t40\t60\t35 min\nQuantitative Aptitude\t35\t50\t30 min\nTotal\t155\t200\t120 min"
+      },
+      {
+        "question": "Can I use a provisional degree certificate?",
+        "answer": "The critical requirement is that you must have proof that you had already graduated by the prescribed date.\n\nThe notification specifically refers to a valid marksheet/degree certificate establishing graduation.\n\nSo if your university hasn't issued the original degree yet, a valid provisional certificate/appropriate university documentation can be relevant, but candidates should follow the exact DV instructions issued for that recruitment."
+      },
+      {
+        "question": "What about a previous FIR/criminal case?",
+        "answer": "Don't hide or falsify information.\n\nIf the application specifically asks about criminal/legal matters, answer according to the actual facts and the wording of the declaration.\n\nA past FIR does not automatically mean that every candidate is permanently disqualified, but concealment or a false declaration can create serious problems.\n\nFor an individual case involving acquittal, pending proceedings, conviction, etc., the exact facts matter."
+      },
+      {
+        "question": "What is the application fee?",
+        "answer": "For CSA-XV:\n\n₹175: SC/ST/PwBD/ESM/DESM\n₹850: all others\n\nBoth figures included GST.\n\nThere is no general female-only fee exemption."
+      },
+      {
+        "question": "I'm scoring 50–55 in mocks. Should I apply?",
+        "answer": "Yes, if you're otherwise eligible.\n\nA mock score of 50–55 doesn't mean you cannot clear IBPS Clerk.\n\nYour score depends on:\n\nMock difficulty\nState/category\nCutoff\nAccuracy\nSpeed\nImprovement over the next several weeks\n\nIf you're currently at 50–55, I'd focus on getting to 65–70+ consistently, then pushing higher rather than abandoning the attempt."
       }
     ]
   },
