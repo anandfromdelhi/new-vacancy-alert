@@ -16,6 +16,7 @@ import {
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
+import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
 
 export default function NorcetCutoffArticle() {
@@ -522,6 +523,8 @@ export default function NorcetCutoffArticle() {
                 </tbody>
               </table>
             </div>
+
+            <MarketingPartnerBanner className="my-6" />
 
             <h3 className="text-sm font-black text-slate-800 mb-4 text-center">Trend Interactive Graph (Percentile)</h3>
             <div className="w-full h-80">

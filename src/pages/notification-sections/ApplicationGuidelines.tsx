@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { ArrowLeft } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
+import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 
 export default function ApplicationGuidelines() {
   return (
@@ -37,6 +38,8 @@ export default function ApplicationGuidelines() {
             <div className="prose max-w-none text-slate-700">
               <p>This section provides comprehensive details regarding Application Guidelines as outlined in the official RRB Technician CEN 02/2026 notification.</p>
               
+              <MarketingPartnerBanner className="my-6" />
+
               {/* Note to AI: Replace this section with detailed PDF content */}
               <div className="mt-8 p-6 bg-slate-100 rounded-lg border border-slate-200 text-center">
                 <p className="text-slate-500 font-medium">Detailed content for this section is being populated from the official PDF...</p>

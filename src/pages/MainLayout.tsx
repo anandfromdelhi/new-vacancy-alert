@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieConsent from '../components/CookieConsent';
 import AdsterraBanner from '../components/AdsterraBanner';
+import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { ArrowLeft, Home } from 'lucide-react';
 
 export default function MainLayout() {
@@ -11,6 +12,7 @@ export default function MainLayout() {
   const navigate = useNavigate();
 
   const isHome = location.pathname === '/';
+  const isMarketingPartnerPage = location.pathname.startsWith('/marketing-partner');
   const isNotificationHome = location.pathname === '/rrb-technician-cen-02-2026';
   const isSubPage = location.pathname.startsWith('/rrb-technician-cen-02-2026/');
 
@@ -19,6 +21,13 @@ export default function MainLayout() {
       <Header />
       <div className="flex-1 flex flex-col">
         <Outlet />
+
+        {/* Marketing Partner Single-Line Section on all sub pages */}
+        {!isHome && !isMarketingPartnerPage && (
+          <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 my-3 print:hidden">
+            <MarketingPartnerBanner />
+          </div>
+        )}
         
         {/* Back Navigation Footer */}
         {!isHome && (

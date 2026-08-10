@@ -10,6 +10,7 @@ import {
 import { sscCalendarData, sscRevisionHistory, sscFaqs, SscExamEvent } from '../data/sscCalendarData';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
+import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
 
 export default function SscCalendarArticle() {
@@ -334,6 +335,8 @@ export default function SscCalendarArticle() {
             )}
           </div>
         </div>
+
+        <MarketingPartnerBanner className="my-6" />
 
         {/* Timeline View */}
         <div className="mb-12">

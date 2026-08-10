@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
+import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
 
 export default function RrbCalendarArticle() {
@@ -534,6 +535,8 @@ export default function RrbCalendarArticle() {
             })}
           </div>
         </section>
+
+        <MarketingPartnerBanner className="my-6" />
 
         {/* HIGHLIGHT INFORMATION BOXES */}
         <section id="highlights" className="space-y-4">
