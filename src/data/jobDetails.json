@@ -58047,33 +58047,48 @@
       }
     ],
     "selectionProcess": [
-      "Online Application Submission on www.gims.ac.in",
-      "Computer Based Test (CBT) Examination (100 MCQs carrying 100 Marks)",
-      "Preparation of Merit / Selection List based strictly on CBT Score (No Interview stage)",
-      "Tie Resolution: Candidate older in age placed higher in merit list",
-      "Biometric & Original Document Verification (DV)",
-      "Medical Examination & Final Appointment Order"
-    ],
-    "examPattern": [
       {
-        "subject": "Section A: Core Nursing (Mental Health, Fundamentals, First Aid, ACLS/BCLS, Microbiology, Child Health, Nursing Mgmt, Med-Surg, Pharma, Pathology)",
-        "questions": 60,
-        "marks": 60,
-        "duration": "2 Hours (Total CBT Time)"
+        "stage": "Stage 1: Online Application Submission",
+        "description": "Candidates register and submit their online application form on official portal www.gims.ac.in on or before 07 September 2026."
       },
       {
-        "subject": "Section B: Applied Sciences & Protocols (Anatomy, Physiology, Biochemistry, Nutrition, Psychology, Forensic Nursing, National Health Programs, Research & Stats)",
-        "questions": 25,
-        "marks": 25,
-        "duration": "Bilingual (Hindi & English)"
+        "stage": "Stage 2: Computer Based Test (CBT)",
+        "description": "Direct recruitment CBT exam consisting of 100 Objective MCQs (100 Marks) for 2 Hours. Question paper is bilingual (Hindi & English). Assessing 80% theoretical nursing knowledge and 20% practical/clinical scenario knowledge. Marking: +1 Mark for correct, -0.25 Mark for incorrect answer."
       },
       {
-        "subject": "Section C: General Aptitude & Informatics (Basic Sciences, Communicative English, Community Health, Environmental Hygiene, Ethics, Health/Nursing Informatics)",
-        "questions": 15,
-        "marks": 15,
-        "duration": "Negative Marking: 0.25 Mark"
+        "stage": "Stage 3: CBT Merit List Preparation",
+        "description": "Selection is strictly based on performance in CBT score. Minimum qualifying cutoff: 40% for General / OBC / EWS and 35% for SC / ST. There is NO separate interview or skill test stage."
+      },
+      {
+        "stage": "Stage 4: Document Verification (DV) & Medical Examination",
+        "description": "Verification of original credentials (educational degrees, Nursing Council registration, 2-year hospital experience for GNM candidates, caste/domicile certificates) followed by medical fitness examination before final appointment."
       }
     ],
+    "examPattern": {
+      "duration": "2 Hours (120 Minutes)",
+      "mode": "Computer Based Test (CBT)",
+      "totalQuestions": 100,
+      "negativeMarking": "+1 Mark for correct answer; -0.25 Mark (1/4th) negative marking for wrong answer. No negative marking for unanswered questions.",
+      "screeningCriteria": "Minimum Qualifying Cutoff: 40% for General / OBC / EWS; 35% for SC / ST.",
+      "finalSelection": "100% CBT Merit Score (No Interview / No Skill Test)",
+      "subHeader": "Section-wise MCQ & Marks Distribution",
+      "col1": "Section & Subject Coverage",
+      "col2": "Questions / Marks",
+      "sections": [
+        {
+          "name": "Section A: Core Nursing Specialties (Mental Health, Fundamentals, First Aid, ACLS/BCLS, Microbiology, Child Health, Nursing Mgmt, Med-Surg, Pharma, Pathology)",
+          "questions": 60
+        },
+        {
+          "name": "Section B: Applied Sciences & Healthcare Protocols (Anatomy, Physiology, Biochemistry, Nutrition, Psychology, Forensic Nursing, National Health Programs, Research & Stats)",
+          "questions": 25
+        },
+        {
+          "name": "Section C: General Aptitude, Humanities & Informatics (Basic Sciences, Communicative English, Community Health, Environmental Hygiene, Ethics, Health/Nursing Informatics)",
+          "questions": 15
+        }
+      ]
+    },
     "examPatternNotes": [
       "Exam Mode: Computer Based Test (CBT) consisting of 100 MCQs carrying 100 Marks.",
       "Nature of Questions: 80% Theoretical Knowledge + 20% Practical Knowledge scenario questions.",
@@ -58208,6 +58223,47 @@
       {
         "question": "Is there any update on government hospital job openings vs private job options?",
         "answer": "GIMS Staff Nurse Recruitment 2026 is a permanent government sector recruitment for 100 regular Staff Nurse posts under UP Govt. B.Sc Nursing candidates and GNM candidates with 2 years 50-bed hospital experience are encouraged to apply before 07 September 2026."
+      }
+    ],
+    "syllabus": [
+      {
+        "section": "Section A – Core Nursing Specialties (60 Questions / 60 Marks)",
+        "topics": [
+          "Mental Health Nursing",
+          "Fundamentals of Nursing / Nursing Foundations",
+          "First Aid, ACLS (Advanced Cardiac Life Support) & BCLS (Basic Cardiac Life Support)",
+          "Applied Microbiology & Infection Control Protocols",
+          "Child Health & Neonatal Nursing",
+          "Nursing Management, Leadership & Ward Administration",
+          "Applied Sociology in Nursing Practice",
+          "Medical & Surgical Nursing (Adult & Geriatric Care)",
+          "Pharmacology & Safe Medication Administration",
+          "Pathology & Diagnostic Test Interpretation"
+        ]
+      },
+      {
+        "section": "Section B – Applied Sciences & Healthcare Protocols (25 Questions / 25 Marks)",
+        "topics": [
+          "Applied Human Anatomy",
+          "Applied Human Physiology",
+          "Biochemistry & Clinical Biomarkers",
+          "Nutrition, Dietetics & Therapeutic Diets",
+          "Applied Psychology & Patient Counseling",
+          "Forensic Nursing & Legal Aspects in Nursing",
+          "National Health Programmes & Standard Treatment Protocols",
+          "Nursing Research Methodology & Health Statistics"
+        ]
+      },
+      {
+        "section": "Section C – General Aptitude, Humanities & Informatics (15 Questions / 15 Marks)",
+        "topics": [
+          "Basic Biological & Physical Sciences",
+          "Communicative English & Medical Terminology",
+          "Community Health Nursing & Preventive Care",
+          "Environmental Hygiene & Biomedical Waste Management",
+          "Professionalism, Bioethics & Patient Rights",
+          "Health & Nursing Informatics, Digital Health Tools & Technology"
+        ]
       }
     ]
   },
