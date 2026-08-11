@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bmc-mumbai-shikshan-sevak-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporation (BMC / MCGM) – Education Department, Mumbai",
+    "t": "BMC Mumbai Shikshan Sevak Recruitment 2026 Notification Out for 935 Posts (Marathi, English, Drawing & Music Medium) via Pavitra Portal",
+    "d": "09 July 2026",
+    "l": "Active via Pavitra Portal",
+    "a": "क्र.ईओआर/ओडी/113",
+    "q": "12th Pass + D.El.Ed / D.Ed OR Graduation + B.Ed + Mandatory TET / CTET Passed",
+    "desc": "Brihanmumbai Municipal Corporation (BMC / MCGM), Education Department, Mumbai has released official advertisement EOR/OD/113 for direct recruitment of 935 Shikshan Sevak (शिक्षण सेवक / Teacher) Group-C posts in BMC Primary and Upper Primary Schools.",
+    "u": "https://portal.mcgm.gov.in"
+},
+  {
+    "id": "esic-indore-faculty-senior-resident-recruitment-2026",
+    "b": "ESIC Medical College & Hospital, Indore (M.P.) – Ministry of Labour & Employment, Govt of India",
+    "t": "ESIC Medical College & Hospital Indore Recruitment 2026 Notification Out for 77 Teaching Faculty & Senior Resident Posts",
+    "d": "07 August 2026",
+    "l": "15 August 2026 (Walk-in 18 Aug)",
+    "a": "Rolling Advertisement No. 06 of 2026 (F. No. A-12016/3/2025-ADMN)",
+    "q": "MBBS / MD / MS / DNB / DM / M.Ch + State/NMC Medical Council Registration",
+    "desc": "ESIC Medical College & Hospital, Nanda Nagar, Indore (M.P.), an autonomous medical institution under the Ministry of Labour & Employment, Government of India, has released Rolling Advertisement No. 06 of 2026 for recruitment of 77 Teaching Faculty and Senior Resident posts on contract basis.",
+    "u": "https://www.esic.gov.in/recruitments"
+  },
+  {
+    "id": "up-anganwadi-worker-recruitment-etawah-2026",
+    "b": "District Program Officer Office, Etawah / Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh",
+    "t": "UP Anganwadi Karyakatri Recruitment 2026 Notification Out for 102 Vacancies in Etawah District",
+    "d": "07 August 2026",
+    "l": "30 August 2026 (12:00 Midnight)",
+    "a": "विज्ञप्ति / 2026-27 / C-909",
+    "q": "Intermediate (12th Pass) / Graduation / Post Graduation",
+    "desc": "Office of the District Program Officer, Etawah, under the Child Development Services & Nutrition Department (Bal Vikas Seva Evam Pushtahar Vibhag), Government of Uttar Pradesh, has issued official notification C-909 for direct recruitment of 102 Anganwadi Workers (आँगनवाड़ी कार्यकत्री).",
+    "u": "http://upanganwadibharti.in"
+  },
+  {
+    "id": "rcf-kapurthala-apprentice-recruitment-2026",
+    "b": "Rail Coach Factory (RCF), Kapurthala – Ministry of Railways, Govt of India",
+    "t": "Rail Coach Factory (RCF) Kapurthala Act Apprentice Recruitment 2026 Notification Out for 734 Posts in Indian Railways",
+    "d": "07 August 2026",
+    "l": "05 September 2026 (24:00 Hrs)",
+    "a": "Notice No. A-1/2026",
+    "q": "10th Pass (min 50% aggregate marks) + National Trade Certificate (NTC ITI)",
+    "desc": "Rail Coach Factory (RCF), Kapurthala, Punjab, a leading passenger coach manufacturing facility under the Ministry of Railways, Government of India, has published Notice No. A-1/2026 for engagement of 734 Act Apprentices under the Apprenticeship Act 1961.",
+    "u": "https://www.rcf.indianrailways.gov.in"
+  },
+  {
+    "id": "ecor-gdce-railway-recruitment-2026",
+    "b": "Railway Recruitment Cell (RRC), East Coast Railway, Bhubaneswar",
+    "t": "East Coast Railway (ECoR) GDCE Recruitment 2026 Notification Out for 1,421 Vacancies (ALP, Station Master, Goods Guard, JE, Technicians)",
+    "d": "07 August 2026",
+    "l": "14 September 2026",
+    "a": "ECoR/Pers/RRC-GDCE/2026",
+    "q": "10th+ITI / Diploma / B.E / B.Tech / 12th Pass / Degree (Post-wise)",
+    "desc": "Railway Recruitment Cell (RRC), East Coast Railway (ECoR), Bhubaneswar has published official notification ECoR/Pers/RRC-GDCE/2026 for General Departmental Competitive Examination (GDCE 2026) to fill 1,421 vacancies against 25% Direct Recruitment Quota.",
+    "u": "https://www.rrcbbs.org.in"
+  },
+  {
+    "id": "gims-greater-noida-staff-nurse-recruitment-2026",
+    "b": "Government Institute of Medical Sciences (GIMS), Greater Noida, Uttar Pradesh",
+    "t": "GIMS Greater Noida Staff Nurse Recruitment 2026 Notification Out for 100 Non-Teaching Vacancies in UP Medical Sciences Institute",
+    "d": "09 August 2026",
+    "l": "07 September 2026",
+    "a": "GIMS/2026/Manpower/NT-03/10",
+    "q": "B.Sc. Nursing / Post Basic B.Sc. Nursing OR GNM Diploma + 2 Yrs Hospital Exp (min 50 beds)",
+    "desc": "Government Institute of Medical Sciences (GIMS), Greater Noida, Gautam Buddha Nagar, an autonomous institute under the Government of Uttar Pradesh (established on the lines of SGPGI Lucknow), has issued official notification GIMS/2026/Manpower/NT-03/10 for direct recruitment of 100 Staff Nurse vacancies.",
+    "u": "https://www.gims.ac.in"
+  },
+  {
+    "id": "icf-chennai-apprentice-recruitment-2026",
+    "b": "Integral Coach Factory (ICF), Chennai – Ministry of Railways, Govt of India",
+    "t": "ICF Chennai Act Apprentice Recruitment 2026 Notification Out for 1,010 Posts (Freshers & Ex-ITI) in Indian Railways",
+    "d": "08 August 2026",
+    "l": "07 September 2026 (5:30 PM)",
+    "a": "APP/01/2026-2027 (PB/RR/39/App/2026)",
+    "q": "10th Pass (min 50% marks) / 12th Science (MLT) / ITI NTC Trade Certificate",
+    "desc": "Integral Coach Factory (ICF), Chennai, a premier railway coach manufacturing factory under the Ministry of Railways, Government of India, has published official advertisement APP/01/2026-2027 for engagement of 1,010 Act Apprentices under the Apprentices Act 1961.",
+    "u": "https://pb.icf.gov.in"
+  },
+  {
+    "id": "maharashtra-icds-mukhya-sevika-recruitment-2026",
+    "b": "Integrated Child Development Services (ICDS) Commissionerate, Women & Child Development Department, Maharashtra",
+    "t": "Maharashtra ICDS Mukhya Sevika (Supervisor) Recruitment 2026 Notification Out for 272+ Vacancies in WCD Department",
+    "d": "05 August 2026",
+    "l": "21 August 2026",
+    "a": "जाक्र/एबाविसेयोआ/आस्था/का-1/3367",
+    "q": "Graduation Degree (BA / BSc / BCom / Any Graduate) from a recognized University",
+    "desc": "Commissioner, Integrated Child Development Services (ICDS) Scheme, Women and Child Development Department, Government of Maharashtra, Navi Mumbai has issued official notification 3367 for the recruitment of 272+ Mukhya Sevika (Supervisor / मुख्यसेविका / पर्यवेक्षिका) vacancies.",
+    "u": "https://womenchild.maharashtra.gov.in"
+  },
+  {
+    "id": "kea-esis-pharmacist-nursing-officer-2026",
+    "b": "Karnataka Examinations Authority (KEA), Bengaluru / ESIS Medical Services Department",
+    "t": "KEA ESIS Pharmacist & Nursing Officer Recruitment 2026 Notification Out for 188 Group-C Vacancies in ESIS Medical Services Department",
+    "d": "06 August 2026",
+    "l": "30 August 2026",
+    "a": "ED/KEA/34/Recruitment/2026 (RPC & HK)",
+    "q": "Diploma in Pharmacy (D.Pharm) / Diploma in General Nursing (GNM) + Registration",
+    "desc": "Karnataka Examinations Authority (KEA), Bengaluru has issued official advertisement ED/KEA/34/Recruitment/2026 for direct recruitment of 188 Group-C vacancies in the Employees State Insurance Scheme (ESIS) Medical Services Department, Government of Karnataka.",
+    "u": "https://cetonline.karnataka.gov.in/kea/"
+  },
+  {
+    "id": "cgssb-teacher-recruitment-lst26-2026",
+    "b": "Chhattisgarh Staff Selection Board (CGSSB / CG VYAPAM), Raipur",
+    "t": "CGSSB Teacher Recruitment 2026 (LST26) Exam Notice Released by Directorate of Public Instruction Chhattisgarh",
+    "d": "07 August 2026",
+    "l": "02 September 2026 (5:00 PM)",
+    "a": "F-20/2026/3399 (LST26)",
+    "q": "Graduation Degree / B.Ed / D.El.Ed in relevant discipline",
+    "desc": "Chhattisgarh Staff Selection Board (CGSSB), Nava Raipur (formerly CG VYAPAM) has published official notification F-20/2026/3399 regarding the written recruitment examination for Teacher Posts (LST26) under the Directorate of Public Instruction, Chhattisgarh.",
+    "u": "https://cgssb.cgstate.gov.in"
+  },
+  {
     "id": "capf-medical-officers-mosb-2025",
     "b": "Central Armed Police Forces Medical Officer Selection Board (MOSB-2025) / ITBP, Ministry of Home Affairs",
     "t": "CAPF Medical Officers (MOSB-2025) Recruitment Notification Out for 282 Super Specialist, Specialist & Medical Officer Posts in BSF, CRPF, ITBP, SSB & Assam Rifles – Apply Online",
