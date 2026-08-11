@@ -58047,36 +58047,42 @@
       }
     ],
     "selectionProcess": [
+      "Online Application Submission on www.gims.ac.in",
       "Computer Based Test (CBT) Examination (100 MCQs carrying 100 Marks)",
-      "Tie Resolution: Candidate older in age placed higher in merit",
+      "Preparation of Merit / Selection List based strictly on CBT Score (No Interview stage)",
+      "Tie Resolution: Candidate older in age placed higher in merit list",
       "Biometric & Original Document Verification (DV)",
-      "Medical Examination & Appointment"
+      "Medical Examination & Final Appointment Order"
     ],
     "examPattern": [
       {
-        "subject": "Section A: Core Nursing Subjects (Mental Health, Fundamentals, Child Health, MS Nursing, Pharmacology, etc.)",
+        "subject": "Section A: Core Nursing (Mental Health, Fundamentals, First Aid, ACLS/BCLS, Microbiology, Child Health, Nursing Mgmt, Med-Surg, Pharma, Pathology)",
         "questions": 60,
         "marks": 60,
         "duration": "2 Hours (Total CBT Time)"
       },
       {
-        "subject": "Section B: Applied Sciences & Protocols (Anatomy, Physiology, Nutrition, Forensic Nursing, National Health Programs)",
+        "subject": "Section B: Applied Sciences & Protocols (Anatomy, Physiology, Biochemistry, Nutrition, Psychology, Forensic Nursing, National Health Programs, Research & Stats)",
         "questions": 25,
         "marks": 25,
-        "duration": "Bilingual (English & Hindi)"
+        "duration": "Bilingual (Hindi & English)"
       },
       {
-        "subject": "Section C: General Aptitude & English (Basic Sciences, Communicative English, Community Health, Professional Values)",
+        "subject": "Section C: General Aptitude & Informatics (Basic Sciences, Communicative English, Community Health, Environmental Hygiene, Ethics, Health/Nursing Informatics)",
         "questions": 15,
         "marks": 15,
         "duration": "Negative Marking: 0.25 Mark"
       }
     ],
     "examPatternNotes": [
-      "Total Questions: 100 MCQs (80% Theoretical Knowledge + 20% Practical Knowledge).",
-      "Negative Marking: 1/4th mark (-0.25 mark) will be deducted for each incorrect answer.",
-      "Minimum Qualifying Cutoff: 40% for UR/EWS/OBC; 35% for SC/ST.",
-      "CBT Exam Cities: Delhi/NCR, Lucknow, Gorakhpur, Varanasi."
+      "Exam Mode: Computer Based Test (CBT) consisting of 100 MCQs carrying 100 Marks.",
+      "Nature of Questions: 80% Theoretical Knowledge + 20% Practical Knowledge scenario questions.",
+      "Language: Bilingual in Hindi and English (English version treated as final in case of dispute).",
+      "Marking Scheme: +1 Mark for correct answer; -0.25 (1/4th) Negative Marking for wrong answer.",
+      "Unanswered Questions: No negative marking for left/unanswered questions.",
+      "Minimum Qualifying Cutoff: 40% for General / OBC / EWS categories; 35% for SC / ST categories.",
+      "Note on Practical Ratio: The 80% theory + 20% practical ratio refers to the internal distribution of CBT questions, NOT a separate practical/skill test.",
+      "Exam Cities: Delhi/NCR, Lucknow, Gorakhpur, Varanasi."
     ],
     "eligibilityCriteria": [
       "Option 1: B.Sc. Nursing (4-year course) or B.Sc. Nursing (Post Basic 2-year course) from an INC/State Nursing Council recognized institute AND registered as Nurse & Midwife.",
