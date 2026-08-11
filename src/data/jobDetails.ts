@@ -19,14 +19,14 @@ export interface JobDetail {
   importantDates: { event: string; date: string }[];
   vacanciesDetails: { category: string; count: number | string }[];
   regionWiseVacancies?: { region: string; count: number | string }[];
-  eligibility: {
+  eligibility?: {
     education: string[];
     ageLimit: string;
     ageRelaxation?: { category: string; relaxation: string }[];
     medicalStandards?: string[];
     experience?: string[];
   };
-  salary: {
+  salary?: {
     payLevel: string;
     initialPay: string;
     allowances?: string | string[];
@@ -48,5 +48,5 @@ export interface JobDetail {
   faqs?: { question: string; answer: string }[];
 }
 
-export const jobDetailsData: Record<string, JobDetail> = jobDetailsJson as Record<string, JobDetail>;
+export const jobDetailsData: Record<string, JobDetail> = (jobDetailsJson as unknown) as Record<string, JobDetail>;
 export default jobDetailsData;

@@ -12,6 +12,72 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "asc-centre-south-bangalore-group-c-recruitment-2026",
+    "b": "ASC Centre (South) - Bangalore, Ministry of Defence, Govt. of India",
+    "t": "Ministry of Defence ASC Centre (South) Bangalore Recruitment 2026 – Apply Offline for 62 Group 'C' Civilian Posts",
+    "d": "15 August 2026",
+    "l": "15 August 2026",
+    "a": "Employment News 15–21 August 2026 Notice",
+    "q": "10th Pass / Diploma in Catering (as per trade requirements)",
+    "desc": "Ministry of Defence, Civilian Direct Recruitment Board, CHQ, ASC Centre (South) - Bangalore, Post - Agram, Bangalore - 560007 has published a direct recruitment notification in Employment News (15 - 21 August 2026) for filling 62 Group 'C' Civilian posts.",
+    "u": "https://www.employmentnews.gov.in"
+},
+  {
+    "id": "esic-maharashtra-empanelment-of-advocates-2026",
+    "b": "Employees' State Insurance Corporation (ESIC), Regional Office Maharashtra",
+    "t": "ESIC Maharashtra Advocates Empanelment 2026 – Apply Offline for 457 Panel Counsel Posts (2026-2029)",
+    "d": "10 August 2026",
+    "l": "28 August 2026 (till 5:00 PM)",
+    "a": "File No. T-11/12/2/2016-Legal",
+    "q": "LL.B / Law Degree from a recognized Indian University & Bar Council Registration",
+    "desc": "Employees' State Insurance Corporation (ESIC), Regional Office Maharashtra, Mumbai has released an official notice (File No. T-11/12/2/2016-Legal) inviting applications for the Empanelment of Advocates / Panel Counsel for the 3-year period 2026–2029.",
+    "u": "https://romaharashtra.esic.gov.in"
+},
+  {
+    "id": "bpcl-technician-operator-recruitment-2026",
+    "b": "Bharat Petroleum Corporation Limited (BPCL)",
+    "t": "BPCL Non-Management Technician & Operator Recruitment 2026 – Apply Online for 154 Posts at Mumbai & Kochi Refineries",
+    "d": "29 July 2026",
+    "l": "29 July 2026 (12:00 AM)",
+    "a": "BPCL.HR.ER.03.NMGT.RECT",
+    "q": "3-Year Diploma in Engg (Chemical / Mechanical / Electrical) with 60% marks",
+    "desc": "Bharat Petroleum Corporation Limited (BPCL), a Maharatna Central Public Sector Undertaking (CPSU), has released Advertisement No. BPCL.HR.ER.03.NMGT.RECT for the recruitment of entry-level Non-Management posts in NG-2 grade for its Refineries situated at Mumbai and Kochi.",
+    "u": "https://www.bharatpetroleum.in/careers"
+},
+  {
+    "id": "sctimst-project-technical-support-ii-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), Trivandrum",
+    "t": "SCTIMST Project Technical Support II Recruitment 2026 – Walk-in Interview for ICMR Funded AI Project",
+    "d": "27 July 2026",
+    "l": "18 August 2026 at 10:00 AM",
+    "a": "R&P Cell/34/5517/SCTIMST/2026",
+    "q": "3-Year Degree in Life Sciences/Physical Sciences + 2 Yrs Research Experience",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), Thiruvananthapuram, an Institution of National Importance under the Department of Science and Technology, Government of India, has announced Walk-in Interview for the post of Project Technical Support II - (Temporary).",
+    "u": "https://www.sctimst.ac.in"
+},
+  {
+    "id": "upsssc-pashudhan-prasar-adhikari-recruitment-2026",
+    "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "t": "UPSSSC Pashudhan Prasar Adhikari (Livestock Extension Officer) Mains Recruitment 2026 – Apply Online for 1,251 Vacancies",
+    "d": "10 August 2026",
+    "l": "09 September 2026",
+    "a": "17-Exam/2026 (17-परीक्षा/2026)",
+    "q": "10+2 Science (Biology) + 2-Year Pashudhan Prasar Diploma",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued Notification No. 17-Exam/2026 for the recruitment of 1,251 Pashudhan Prasar Adhikari (Livestock Extension Officer) posts under the Directorate of Animal Husbandry, Uttar Pradesh.",
+    "u": "https://upsssc.gov.in"
+},
+  {
+    "id": "sbi-junior-associate-clerk-recruitment-2026",
+    "b": "State Bank of India (SBI)",
+    "t": "SBI Junior Associate (Customer Support & Sales) Recruitment 2026 – Apply Online for 7,680 Regular & 2,086 Backlog Vacancies",
+    "d": "11 August 2026",
+    "l": "31 August 2026",
+    "a": "CRPD/CR/2026-27/17",
+    "q": "Graduation in any discipline from a recognized University",
+    "desc": "State Bank of India (SBI), Central Recruitment & Promotion Department (CRPD), Corporate Centre, Mumbai has released Advertisement No. CRPD/CR/2026-27/17 for the recruitment of Junior Associates (Customer Support & Sales) in clerical cadre across various circles in India.",
+    "u": "https://sbi.bank.in/web/careers/current-openings"
+},
+  {
     "id": "bmc-mumbai-shikshan-sevak-recruitment-2026",
     "b": "Brihanmumbai Municipal Corporation (BMC / MCGM) – Education Department, Mumbai",
     "t": "BMC Mumbai Shikshan Sevak Recruitment 2026 Notification Out for 935 Posts (Marathi, English, Drawing & Music Medium) via Pavitra Portal",
