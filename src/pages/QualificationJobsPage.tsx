@@ -133,6 +133,22 @@ const QUALIFICATION_MAP: Record<string, QualificationMeta> = {
     description: 'Verified public sector recruitment alerts for Chartered Accountants (CA), Cost Accountants (CMA), and Finance Professionals.',
     keywords: 'CA Govt Jobs 2026, CMA Finance Vacancy, Chartered Accountant PSU Jobs, Finance Executive Recruitment'
   },
+  'law-llb': {
+    slug: 'law-llb',
+    shortLabel: 'Law / LL.B / Advocates',
+    title: 'Latest Law, LL.B & Advocate Government Jobs 2026',
+    badge: 'LL.B / LL.M / Advocate / Legal Officer',
+    description: 'Verified government job alerts for Law Graduates, LL.B, LL.M, Legal Officers, Law Assistants, and Panel Advocates across public sector undertakings, courts, and central/state departments.',
+    keywords: 'Law Govt Jobs 2026, LLB Vacancy, Legal Officer Sarkari Bharti, Advocate Panel Recruitment, Court Law Assistant Jobs'
+  },
+  'teaching-bed': {
+    slug: 'teaching-bed',
+    shortLabel: 'B.Ed / Teaching / D.El.Ed',
+    title: 'Latest B.Ed, Teaching & D.El.Ed Government Jobs 2026',
+    badge: 'B.Ed / D.El.Ed / TET / Teacher / Lecturer',
+    description: 'Active government teaching vacancy notifications for B.Ed, D.El.Ed, TET/CTET qualified candidates, Assistant Professors, Tutors, and School Teachers across central & state education boards.',
+    keywords: 'B.Ed Govt Jobs 2026, Teaching Vacancy, Primary Teacher Sarkari Bharti, Assistant Professor Jobs, TET CTET Jobs'
+  },
   'phd': {
     slug: 'phd',
     shortLabel: 'Ph.D / Doctorate',

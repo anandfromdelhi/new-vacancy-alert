@@ -75,9 +75,10 @@ function containsKeyword(text: string, keyword: string): boolean {
 /**
  * Returns the Indian state/UT name (or 'All India') for a given job.
  * Classification logic:
- * 1. Checks candidate eligibility scope / domicile / state recruitment board.
- * 2. Checks if job is an All India open recruitment (Central Govt, Central PSUs, National Bodies open to all Indian citizens).
- * 3. Fallback: Checks board location / state keywords.
+ * 1. Explicit Nationwide Combined Exams (NORCET, SSC CGL/CHSL, RRB, IBPS, SBI Clerk/PO) -> 'All India'.
+ * 2. Explicit State / City Location match in Board/Title/ID -> State (e.g. AIIMS Raipur -> Chhattisgarh, ESIC Pune -> Maharashtra).
+ * 3. General All-India Central Bodies -> 'All India'.
+ * 4. Fallback -> 'All India'.
  */
 export function getStateFromJob(job: JobEntry): string {
   const idStr = job.id || '';
@@ -93,18 +94,18 @@ export function getStateFromJob(job: JobEntry): string {
     return 'All India';
   }
 
-  // FIRST: Check if job is an All-India Recruiting Body / Open Central Organization
-  if (ALL_INDIA_KEYWORDS.some(kw => containsKeyword(text, kw))) {
-    return 'All India';
-  }
-
-  // SECOND: Check if job matches a specific State / UT location in STATE_MAP
+  // FIRST: Check if job explicitly specifies a State/UT or regional city in board/title
   for (const [state, keywords] of Object.entries(STATE_MAP)) {
     for (const kw of keywords) {
       if (containsKeyword(text, kw)) {
         return state;
       }
     }
+  }
+
+  // SECOND: Check if job is a Central/National Body open nationwide without regional state binding
+  if (ALL_INDIA_KEYWORDS.some(kw => containsKeyword(text, kw))) {
+    return 'All India';
   }
 
   // Fallback to All India
@@ -118,6 +119,7 @@ export function getBoardNameFromJob(job: JobEntry): string {
   const b = job.b;
 
   // Manual overrides for long, complex names without clear acronyms
+  if (b.includes('Central Armed Police Forces Medical Officer Selection Board')) return 'CAPF MOSB';
   if (b.includes('NIScPR')) return 'CSIR-NIScPR';
   if (b.includes('Milk Producers') || b.includes('MILKFED')) return 'Verka MILKFED Punjab';
   if (b.includes('District Basic Education Officer, Bulandshahr')) return 'DBEO Bulandshahr';
@@ -169,18 +171,20 @@ export function getQualificationsWithCounts(jobs: JobEntry[]): QualificationCoun
   const categories = [
     { name: '10th Pass', slug: '10th-pass', keywords: ['10th', 'matriculation', 'matric', 'secondary', '8th', 'literate', 'pourakarmika', 'safai', 'soldier'] },
     { name: '12th Pass', slug: '12th-pass', keywords: ['12th', 'intermediate', 'higher secondary', '10+2', 'puc'] },
-    { name: 'Any Graduate', slug: 'ba', keywords: ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor', 'llb', 'law'] },
+    { name: 'Any Graduate', slug: 'ba', keywords: ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor'] },
     { name: 'B.Tech / B.E', slug: 'btech', keywords: ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan'] },
     { name: 'B.Sc / Science', slug: 'bsc', keywords: ['b.sc', 'bsc', 'b.vsc', 'science', 'agriculture'] },
     { name: 'B.Com / Commerce', slug: 'bcom', keywords: ['b.com', 'bcom', 'commerce', 'accountant', 'accounts'] },
     { name: 'Diploma', slug: 'diploma', keywords: ['diploma', 'polytechnic'] },
     { name: 'ITI / NAC', slug: 'iti', keywords: ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice'] },
-    { name: 'Post Graduate / Master\'s', slug: 'post-graduation', keywords: ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'llm', 'm.arch', 'm.plan', 'mvsc', 'm.ch'] },
+    { name: 'Post Graduate / Master\'s', slug: 'post-graduation', keywords: ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'm.arch', 'm.plan', 'mvsc', 'm.ch'] },
     { name: 'MBBS / Doctor', slug: 'mbbs-doctor', keywords: ['mbbs', 'md', 'ms', 'dnb', 'dm', 'medical officer', 'senior resident', 'tutor', 'registrar', 'demonstrator'] },
     { name: 'Nursing / GNM / ANM', slug: 'nursing', keywords: ['nursing', 'gnm', 'anm', 'b.sc nursing', 'staff nurse', 'nurse', 'fmphw', 'mmphw'] },
     { name: 'Pharmacist / B.Pharm', slug: 'pharmacist', keywords: ['pharmacy', 'pharmacist', 'b.pharm', 'd.pharm', 'pharm.d', 'drug inspector'] },
     { name: 'Dental / BDS', slug: 'dental-bds', keywords: ['bds', 'dental', 'mds', 'dental surgeon', 'dental hygienist'] },
     { name: 'CA / CMA / CS', slug: 'finance-ca', keywords: ['ca', 'cma', 'icwai', 'chartered accountant', 'icai', 'icmai', 'icsi', 'company secretary'] },
+    { name: 'Law / LL.B / Advocates', slug: 'law-llb', keywords: ['llb', 'll.b', 'llm', 'law', 'advocate', 'counsel', 'legal officer', 'legal assistant', 'judicial'] },
+    { name: 'B.Ed / Teaching / D.El.Ed', slug: 'teaching-bed', keywords: ['b.ed', 'bed', 'd.el.ed', 'deled', 'tet', 'ctet', 'teacher', 'lecturer', 'assistant professor', 'professor', 'tutor'] },
     { name: 'Ph.D / Doctorate', slug: 'phd', keywords: ['ph.d', 'phd', 'doctorate'] }
   ];
 
