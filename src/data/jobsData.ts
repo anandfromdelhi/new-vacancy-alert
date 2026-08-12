@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "osssc-nursing-officer-recruitment-2026",
+    "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar",
+    "t": "OSSSC Nursing Officer Recruitment 2026 Extended Last Date – Apply Online for 5,989 District Cadre Group-C Vacancies",
+    "d": "12 June 2026",
+    "l": "13 June 2026",
+    "a": "IIE-54/2026-1962/OSSSC dated 12/06/2026",
+    "q": "10+2 Pass + Diploma in GNM / BSc Nursing + Odisha Nursing Council Registration",
+    "desc": "The Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar has published notification IIE-54/2026-1962/OSSSC for the recruitment of 5,989 District Cadre Group-C Nursing Officers across all 30 districts of Odisha under the Health & Family Welfare Department.",
+    "u": "https://www.osssc.gov.in"
+},
+  {
     "id": "asc-centre-south-bangalore-group-c-recruitment-2026",
     "b": "ASC Centre (South) - Bangalore, Ministry of Defence, Govt. of India",
     "t": "Ministry of Defence ASC Centre (South) Bangalore Recruitment 2026 – Apply Offline for 62 Group 'C' Civilian Posts",

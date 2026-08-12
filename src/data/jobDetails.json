@@ -230,24 +230,84 @@
     ],
     "faqs": [
       {
-        "question": "What is the total number of backlog vacancies in SBI Junior Associate Special Drive 2026?",
-        "answer": "A total of 1,538 backlog vacancies are advertised across SC (207), ST (1,219), and OBC (112) categories in 16 Circles."
+        "question": "Why are there 0 vacancies in Bihar, Jharkhand, Delhi, Haryana, Punjab, Uttarakhand, etc. in SBI Clerk 2026?",
+        "answer": "Because the 1,538 vacancies in this particular notification are backlog vacancies, not the new regular vacancies for the 2026–27 recruitment cycle. A backlog vacancy generally represents a reserved-category vacancy from an earlier recruitment that remained unfilled. Therefore, the distribution is completely different from what you would expect from a normal SBI Clerk notification. Zero in Delhi/Bihar/Haryana etc. does NOT mean SBI will have zero regular Clerk vacancies there this year."
       },
       {
-        "question": "Can Unreserved (General) or EWS candidates apply for this special recruitment drive?",
-        "answer": "No, this is a Special Recruitment Drive specifically for SC, ST, and OBC backlog vacancies only."
+        "question": "Will SBI Clerk 2026 vacancies be updated or increased later?",
+        "answer": "Possibly, but don't assume they will be. The current notification is specifically for the backlog drive. The much more important development for most aspirants will be the separate regular SBI Clerk notification, which should contain fresh state-wise vacancies for the new recruitment cycle. If your state has zero seats in the present notification, wait for the regular notification rather than concluding that SBI Clerk has no vacancy in your state."
       },
       {
-        "question": "What is the starting salary for SBI Junior Associate (Clerk)?",
-        "answer": "The starting basic pay is ₹26,730/-. Total starting gross salary in Metro cities like Mumbai is approximately ₹46,000/- per month."
+        "question": "Why is there no vacancy in Delhi, Haryana, and NCR for SBI Clerk 2026?",
+        "answer": "This is a consequence of the backlog-vacancy nature of the current recruitment. It does not mean SBI has stopped recruiting Junior Associates in Delhi/NCR or Haryana. Also remember that SBI recruitment is organized according to State/UT/circle-wise vacancies, rather than simply according to where candidates live."
       },
       {
-        "question": "What is the age limit for SBI Clerk Special Drive 2026?",
-        "answer": "Age as on 01.04.2026 is 20 to 28 years. SC/ST candidates get 5 years relaxation (up to 33 yrs) and OBC candidates get 3 years relaxation (up to 31 yrs)."
+        "question": "What should candidates from zero-vacancy states do for SBI Clerk 2026?",
+        "answer": "Wait for the regular notification. If you're from Delhi, Haryana, Bihar, Jharkhand, Punjab, Uttarakhand, etc., choosing another state merely because it has backlog vacancies is not recommended unless you genuinely satisfy that state's local-language requirement and are eligible for the applicable reserved category. The regular notification is likely to be far more relevant."
       },
       {
-        "question": "What are the start and end dates for SBI Junior Associate Special Drive registration?",
-        "answer": "Online registration and fee payment are open from 07 August 2026 to 27 August 2026."
+        "question": "Can I apply for SBI Clerk 2026 from another state?",
+        "answer": "Yes, subject to the notification's conditions — but the important issue is the local language. SBI's Junior Associate recruitment is state/UT based. Candidates apply for vacancies of one State/UT only and must qualify the specified local-language test (LPT) where applicable. For example, living in Delhi does not prevent you from applying for Maharashtra, but if you select Maharashtra, you must be prepared for Marathi language requirements."
+      },
+      {
+        "question": "How strict is the Language Proficiency Test (LPT) in SBI Clerk recruitment?",
+        "answer": "It is a mandatory qualifying requirement. The LPT checks whether you know the specified local language of the selected state (e.g., Marathi for Maharashtra, Gujarati for Gujarat, Tamil for Tamil Nadu, Odia for Odisha, Kannada for Karnataka, Malayalam for Kerala, Punjabi for Punjab, Bengali for West Bengal, Hindi/Urdu for UP). Candidates who cannot produce acceptable proof of having studied the specified local language in 10th or 12th standard must qualify the LPT. Failing the required LPT will result in disqualification."
+      },
+      {
+        "question": "Will applying outside your home state automatically cause LPT problems?",
+        "answer": "No. Your home state is not the deciding factor. The important question is whether you can prove/meet the language requirement of the state applied for. A candidate from Delhi could apply for Maharashtra, but if they cannot establish Marathi proficiency through standard qualification routes, they may have to take the LPT. Do not choose a state simply because it has a lower cutoff."
+      },
+      {
+        "question": "If I apply for SBI Clerk from another state, where will my exam centre be?",
+        "answer": "You can generally appear for the Preliminary and Mains examination at a notified examination centre of your choice/availability, subject to SBI's arrangements. However, your recruitment is against the state applied for. SBI's rules state that the local-language test (LPT) is conducted at a centre decided by SBI in the state applied for, at the candidate's own expense. (Exam centre ≠ state of recruitment)."
+      },
+      {
+        "question": "How should candidates choose a state when applying for SBI Clerk?",
+        "answer": "Choose the state where you genuinely satisfy the local-language requirement first; then compare vacancies and expected competition. The recommended sequence is: Language eligibility → vacancy → expected competition → posting preference. Remember that candidates are considered against the State/UT applied for and are posted in that state if selected."
+      },
+      {
+        "question": "What is the difference between Regular and Backlog vacancies in SBI recruitment?",
+        "answer": "A Regular vacancy is a newly identified vacancy for the current recruitment cycle. A Backlog vacancy is a reserved vacancy from an earlier recruitment that remained unfilled and is carried forward to be filled through a special drive. The current 1,538-post notification is specifically a backlog recruitment, which explains the unusual state-wise vacancy distribution."
+      },
+      {
+        "question": "Can eligible candidates apply for both Regular and Backlog SBI Clerk recruitments?",
+        "answer": "Yes, if you are eligible for both and SBI permits applications for both drives. They are separate recruitment drives. For example, an eligible SC/ST/OBC candidate could potentially participate in both the backlog recruitment and the upcoming regular recruitment, provided they satisfy the eligibility conditions of both."
+      },
+      {
+        "question": "Will the exams for SBI Clerk Regular and Backlog recruitments be separate?",
+        "answer": "Do not assume they will be combined. The current notification is a separate Special Recruitment Drive, so candidates should treat it as a separate recruitment unless SBI subsequently announces otherwise. Expect separate application and exam processes."
+      },
+      {
+        "question": "Can General (Unreserved) candidates apply for these SBI Clerk backlog vacancies?",
+        "answer": "No. The 1,538 backlog vacancies are reserved exclusively for SC, ST, and OBC candidates carried forward from previous recruitment drives. Unreserved / General category candidates cannot claim an SC/ST/OBC backlog seat."
+      },
+      {
+        "question": "What is the age limit and cutoff date for SBI Clerk Special Drive 2026?",
+        "answer": "For the backlog notification, the basic age requirement is 20 to 28 years as of the cut-off date specified in the official notification, plus applicable relaxations for reserved categories (5 years for SC/ST, 3 years for OBC, up to 10–15 years for PwBD). Ensure you check your exact Date of Birth against the specific cut-off date stated in the notification."
+      },
+      {
+        "question": "Why are some states showing SC/ST vacancies but zero OBC vacancies?",
+        "answer": "Because backlog vacancies are category-specific. If SBI had an SC/ST backlog in a particular state but no OBC backlog, it cannot convert or reassign those seats. A table showing SC: 0 | ST: 12 | OBC: 0 simply reflects historical unfilled reserved positions for that state, not a policy of ignoring OBC candidates."
+      },
+      {
+        "question": "Is the SBI Clerk 2026 question paper available in English?",
+        "answer": "Yes. The examination paper is provided in English along with Hindi and the relevant regional language(s) depending on the state (e.g., English/Hindi/Marathi in Maharashtra, English/Hindi/Gujarati in Gujarat, English/Hindi/Odia in Odisha, English/Hindi/Bengali in WB, English/Hindi/Urdu in UP/Bihar). The question paper medium is separate from the LPT requirement."
+      },
+      {
+        "question": "Did SBI Apprentice recruitment reduce regular Clerk vacancies?",
+        "answer": "No. There is no basis in the official notification to conclude that Apprentice recruitment reduced Clerk vacancies. SBI Apprentice and SBI Junior Associate are different recruitment streams. The 1,538-post announcement is a backlog drive, and the upcoming regular Junior Associate recruitment will provide the actual fresh vacancy numbers."
+      },
+      {
+        "question": "Why are videos claiming 9,000 to 11,000+ vacancies when this notification says 1,538?",
+        "answer": "Because numbers like 9,000 or 11,000+ circulating online represent projected estimates for the upcoming Regular recruitment cycle, whereas 1,538 is the officially notified count for the Special Backlog Drive. Do not add backlog figures to unofficial YouTube estimates; wait for SBI's official regular notification."
+      },
+      {
+        "question": "Where can candidates download the official SBI Clerk notification PDF?",
+        "answer": "The official notification should always be downloaded directly from SBI's official careers portal at sbi.bank.in/web/careers or bank.sbi/careers. Always verify the advertisement on SBI's official site rather than relying on unverified Telegram or social media files."
+      },
+      {
+        "question": "Should students run a Twitter/X campaign regarding uneven SBI Clerk vacancies?",
+        "answer": "Campaigns will not force SBI to convert reserved backlog seats into UR seats, as backlog vacancies are legally reserved carried-forward positions. If raising concerns, the appropriate request to SBI would be to clarify state-wise vacancy requirements and release the regular SBI Clerk notification with fresh vacancies at the earliest."
       }
     ],
     "urls": [
@@ -59569,28 +59629,84 @@
     ],
     "faqs": [
       {
-        "question": "What is the total number of vacancies in SBI Junior Associate Recruitment 2026?",
-        "answer": "SBI has announced 7,680 Regular vacancies and 2,086 Backlog vacancies across various circles in India, making a total of 9,766 vacancies."
+        "question": "Why are there 0 vacancies in Bihar, Jharkhand, Delhi, Haryana, Punjab, Uttarakhand, etc. in SBI Clerk 2026?",
+        "answer": "Because the 1,538 vacancies in this particular notification are backlog vacancies, not the new regular vacancies for the 2026–27 recruitment cycle. A backlog vacancy generally represents a reserved-category vacancy from an earlier recruitment that remained unfilled. Therefore, the distribution is completely different from what you would expect from a normal SBI Clerk notification. Zero in Delhi/Bihar/Haryana etc. does NOT mean SBI will have zero regular Clerk vacancies there this year."
       },
       {
-        "question": "What is the last date to apply for SBI Clerk 2026?",
-        "answer": "The online application window is open from 11 August 2026 to 31 August 2026."
+        "question": "Will SBI Clerk 2026 vacancies be updated or increased later?",
+        "answer": "Possibly, but don't assume they will be. The current notification is specifically for the backlog drive. The much more important development for most aspirants will be the separate regular SBI Clerk notification, which should contain fresh state-wise vacancies for the new recruitment cycle. If your state has zero seats in the present notification, wait for the regular notification rather than concluding that SBI Clerk has no vacancy in your state."
       },
       {
-        "question": "What is the age limit for SBI Junior Associate post?",
-        "answer": "Candidates must be aged between 20 and 28 years as on 01.04.2026 (born between 02.04.1998 and 01.04.2006). Age relaxation applies for reserved categories."
+        "question": "Why is there no vacancy in Delhi, Haryana, and NCR for SBI Clerk 2026?",
+        "answer": "This is a consequence of the backlog-vacancy nature of the current recruitment. It does not mean SBI has stopped recruiting Junior Associates in Delhi/NCR or Haryana. Also remember that SBI recruitment is organized according to State/UT/circle-wise vacancies, rather than simply according to where candidates live."
       },
       {
-        "question": "Can final year students apply for SBI Junior Associate 2026?",
-        "answer": "Yes, final year/semester graduation students can apply provisionally, provided they can produce proof of passing graduation on or before 31.12.2026."
+        "question": "What should candidates from zero-vacancy states do for SBI Clerk 2026?",
+        "answer": "Wait for the regular notification. If you're from Delhi, Haryana, Bihar, Jharkhand, Punjab, Uttarakhand, etc., choosing another state merely because it has backlog vacancies is not recommended unless you genuinely satisfy that state's local-language requirement and are eligible for the applicable reserved category. The regular notification is likely to be far more relevant."
       },
       {
-        "question": "What is the pay scale and starting salary for SBI JA?",
-        "answer": "The starting basic pay is Rs. 26,730/- per month (with 2 advance increments). Total starting gross emoluments in a Metro city like Mumbai will be around Rs. 46,000/- per month."
+        "question": "Can I apply for SBI Clerk 2026 from another state?",
+        "answer": "Yes, subject to the notification's conditions — but the important issue is the local language. SBI's Junior Associate recruitment is state/UT based. Candidates apply for vacancies of one State/UT only and must qualify the specified local-language test (LPT) where applicable. For example, living in Delhi does not prevent you from applying for Maharashtra, but if you select Maharashtra, you must be prepared for Marathi language requirements."
       },
       {
-        "question": "Is there any negative marking in SBI Clerk Prelims and Mains exams?",
-        "answer": "Yes, 1/4th mark assigned to the question will be deducted as negative marking for each incorrect answer."
+        "question": "How strict is the Language Proficiency Test (LPT) in SBI Clerk recruitment?",
+        "answer": "It is a mandatory qualifying requirement. The LPT checks whether you know the specified local language of the selected state (e.g., Marathi for Maharashtra, Gujarati for Gujarat, Tamil for Tamil Nadu, Odia for Odisha, Kannada for Karnataka, Malayalam for Kerala, Punjabi for Punjab, Bengali for West Bengal, Hindi/Urdu for UP). Candidates who cannot produce acceptable proof of having studied the specified local language in 10th or 12th standard must qualify the LPT. Failing the required LPT will result in disqualification."
+      },
+      {
+        "question": "Will applying outside your home state automatically cause LPT problems?",
+        "answer": "No. Your home state is not the deciding factor. The important question is whether you can prove/meet the language requirement of the state applied for. A candidate from Delhi could apply for Maharashtra, but if they cannot establish Marathi proficiency through standard qualification routes, they may have to take the LPT. Do not choose a state simply because it has a lower cutoff."
+      },
+      {
+        "question": "If I apply for SBI Clerk from another state, where will my exam centre be?",
+        "answer": "You can generally appear for the Preliminary and Mains examination at a notified examination centre of your choice/availability, subject to SBI's arrangements. However, your recruitment is against the state applied for. SBI's rules state that the local-language test (LPT) is conducted at a centre decided by SBI in the state applied for, at the candidate's own expense. (Exam centre ≠ state of recruitment)."
+      },
+      {
+        "question": "How should candidates choose a state when applying for SBI Clerk?",
+        "answer": "Choose the state where you genuinely satisfy the local-language requirement first; then compare vacancies and expected competition. The recommended sequence is: Language eligibility → vacancy → expected competition → posting preference. Remember that candidates are considered against the State/UT applied for and are posted in that state if selected."
+      },
+      {
+        "question": "What is the difference between Regular and Backlog vacancies in SBI recruitment?",
+        "answer": "A Regular vacancy is a newly identified vacancy for the current recruitment cycle. A Backlog vacancy is a reserved vacancy from an earlier recruitment that remained unfilled and is carried forward to be filled through a special drive. The current 1,538-post notification is specifically a backlog recruitment, which explains the unusual state-wise vacancy distribution."
+      },
+      {
+        "question": "Can eligible candidates apply for both Regular and Backlog SBI Clerk recruitments?",
+        "answer": "Yes, if you are eligible for both and SBI permits applications for both drives. They are separate recruitment drives. For example, an eligible SC/ST/OBC candidate could potentially participate in both the backlog recruitment and the upcoming regular recruitment, provided they satisfy the eligibility conditions of both."
+      },
+      {
+        "question": "Will the exams for SBI Clerk Regular and Backlog recruitments be separate?",
+        "answer": "Do not assume they will be combined. The current notification is a separate Special Recruitment Drive, so candidates should treat it as a separate recruitment unless SBI subsequently announces otherwise. Expect separate application and exam processes."
+      },
+      {
+        "question": "Can General (Unreserved) candidates apply for these SBI Clerk backlog vacancies?",
+        "answer": "No. The 1,538 backlog vacancies are reserved exclusively for SC, ST, and OBC candidates carried forward from previous recruitment drives. Unreserved / General category candidates cannot claim an SC/ST/OBC backlog seat."
+      },
+      {
+        "question": "What is the age limit and cutoff date for SBI Clerk Special Drive 2026?",
+        "answer": "For the backlog notification, the basic age requirement is 20 to 28 years as of the cut-off date specified in the official notification, plus applicable relaxations for reserved categories (5 years for SC/ST, 3 years for OBC, up to 10–15 years for PwBD). Ensure you check your exact Date of Birth against the specific cut-off date stated in the notification."
+      },
+      {
+        "question": "Why are some states showing SC/ST vacancies but zero OBC vacancies?",
+        "answer": "Because backlog vacancies are category-specific. If SBI had an SC/ST backlog in a particular state but no OBC backlog, it cannot convert or reassign those seats. A table showing SC: 0 | ST: 12 | OBC: 0 simply reflects historical unfilled reserved positions for that state, not a policy of ignoring OBC candidates."
+      },
+      {
+        "question": "Is the SBI Clerk 2026 question paper available in English?",
+        "answer": "Yes. The examination paper is provided in English along with Hindi and the relevant regional language(s) depending on the state (e.g., English/Hindi/Marathi in Maharashtra, English/Hindi/Gujarati in Gujarat, English/Hindi/Odia in Odisha, English/Hindi/Bengali in WB, English/Hindi/Urdu in UP/Bihar). The question paper medium is separate from the LPT requirement."
+      },
+      {
+        "question": "Did SBI Apprentice recruitment reduce regular Clerk vacancies?",
+        "answer": "No. There is no basis in the official notification to conclude that Apprentice recruitment reduced Clerk vacancies. SBI Apprentice and SBI Junior Associate are different recruitment streams. The 1,538-post announcement is a backlog drive, and the upcoming regular Junior Associate recruitment will provide the actual fresh vacancy numbers."
+      },
+      {
+        "question": "Why are videos claiming 9,000 to 11,000+ vacancies when this notification says 1,538?",
+        "answer": "Because numbers like 9,000 or 11,000+ circulating online represent projected estimates for the upcoming Regular recruitment cycle, whereas 1,538 is the officially notified count for the Special Backlog Drive. Do not add backlog figures to unofficial YouTube estimates; wait for SBI's official regular notification."
+      },
+      {
+        "question": "Where can candidates download the official SBI Clerk notification PDF?",
+        "answer": "The official notification should always be downloaded directly from SBI's official careers portal at sbi.bank.in/web/careers or bank.sbi/careers. Always verify the advertisement on SBI's official site rather than relying on unverified Telegram or social media files."
+      },
+      {
+        "question": "Should students run a Twitter/X campaign regarding uneven SBI Clerk vacancies?",
+        "answer": "Campaigns will not force SBI to convert reserved backlog seats into UR seats, as backlog vacancies are legally reserved carried-forward positions. If raising concerns, the appropriate request to SBI would be to clarify state-wise vacancy requirements and release the regular SBI Clerk notification with fresh vacancies at the earliest."
       }
     ]
   },
@@ -60833,6 +60949,248 @@
       {
         "question": "What is the exam pattern and negative marking for ASC Centre Bangalore written exam?",
         "answer": "The written test comprises 150 MCQs for 150 Marks (Reasoning 25, GA 50, English 50, Quant 25) with a 2-hour duration and 0.25 negative marking."
+      }
+    ]
+  },
+  "osssc-nursing-officer-recruitment-2026": {
+    "id": "osssc-nursing-officer-recruitment-2026",
+    "seoTitle": "OSSSC Nursing Officer Recruitment 2026 (5989 Posts) Last Date Extended Apply Online | NewVacancyAlert",
+    "seoDescription": "OSSSC Nursing Officer Recruitment 2026 notification for 5,989 Group-C District Cadre posts across 30 Odisha districts. Extended last date to apply is 16 August 2026. Check salary, age limit, syllabus & apply online.",
+    "focusKeywords": "OSSSC Nursing Officer Recruitment 2026, OSSSC Nursing Officer Extended Date 2026, osssc.gov.in nursing officer apply online, Odisha Nursing Officer 5989 Vacancy 2026",
+    "lsiKeywords": "OSSSC Nursing Officer Qualification GNM BSc Nursing, OSSSC Nursing Officer Syllabus Exam Pattern, OSSSC Nursing Officer District Wise Vacancy 2026, OSSSC Nursing Officer Pay Scale 29200",
+    "title": "OSSSC Nursing Officer Recruitment 2026 Extended Last Date – Apply Online for 5,989 District Cadre Group-C Vacancies",
+    "board": "Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar",
+    "advtNo": "IIE-54/2026-1962/OSSSC dated 12/06/2026",
+    "vacancies": 5989,
+    "jobLocation": "Odisha (Across 30 Districts)",
+    "applicationMode": "Online via OSSSC Portal (www.osssc.gov.in)",
+    "applicationStatus": "Active - Extended Last Date to Apply 16 August 2026 (Registration) / 19 August 2026 (Submission)",
+    "lastUpdated": "2026-08-11",
+    "overview": [
+      "The Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar has published notification IIE-54/2026-1962/OSSSC for the recruitment of 5,989 District Cadre Group-C Nursing Officers across all 30 districts of Odisha under the Health & Family Welfare Department.",
+      "Candidates selected for this recruitment will be posted as Nursing Officers in district health infrastructure and may also be deployed as Community Health Officers (CHO) by the respective appointing authorities.",
+      "The online registration window opened on 13 June 2026 and the last date to register online has been extended to 16 August 2026 (with final application submission up to 19 August 2026). The examination fee of ₹500 is fully refunded to candidates who actually appear for the written examination."
+    ],
+    "highlights": [
+      {
+        "label": "Recruiting Board",
+        "value": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)"
+      },
+      {
+        "label": "Department",
+        "value": "Health & Family Welfare Department, Government of Odisha"
+      },
+      {
+        "label": "Post Name",
+        "value": "Nursing Officer (District Cadre, Group-C)"
+      },
+      {
+        "label": "Advertisement No.",
+        "value": "IIE-54/2026-1962/OSSSC dated 12/06/2026"
+      },
+      {
+        "label": "Total Vacancies",
+        "value": "5,989 Posts across 30 Odisha Districts"
+      },
+      {
+        "label": "Pay Scale & Level",
+        "value": "₹29,200 - ₹92,300 (Pay Matrix Level-8, Cell-01) - Starting Basic ₹29,200/month"
+      },
+      {
+        "label": "Educational Qualification",
+        "value": "10+2 Pass + Diploma in GNM / BSc Nursing + Odisha Nursing Council Registration"
+      },
+      {
+        "label": "Age Limit (as on 12.06.2026)",
+        "value": "21 to 42 Years (+ Age Relaxations for SC/ST/SEBC/Women/PwD)"
+      },
+      {
+        "label": "Application Fee",
+        "value": "₹500 (Refundable upon appearing in exam) | Nil for SC/ST/PwD"
+      },
+      {
+        "label": "Extended Last Date to Apply",
+        "value": "16 August 2026 (Registration) / 19 August 2026 (Submission)"
+      },
+      {
+        "label": "Selection Process",
+        "value": "Written Test (100 Marks MCQ) + Document Verification (No Interview)"
+      },
+      {
+        "label": "Official Portal",
+        "value": "https://www.osssc.gov.in"
+      }
+    ],
+    "importantDates": [
+      {
+        "event": "Notification Release Date",
+        "date": "12 June 2026"
+      },
+      {
+        "event": "Online Registration Start Date",
+        "date": "13 June 2026"
+      },
+      {
+        "event": "Original Registration Last Date",
+        "date": "06 July 2026"
+      },
+      {
+        "event": "Original Application Submission Last Date",
+        "date": "13 July 2026"
+      },
+      {
+        "event": "Extended Online Registration Last Date",
+        "date": "16 August 2026"
+      },
+      {
+        "event": "Extended Online Application Submission Last Date",
+        "date": "19 August 2026"
+      },
+      {
+        "event": "Written Examination Date",
+        "date": "To be notified separately (OMR / CBRE mode)"
+      }
+    ],
+    "applicationFee": [
+      {
+        "category": "Unreserved (UR) / SEBC / All Other Candidates",
+        "fee": "₹500.00",
+        "refund": "Refundable to candidates who actually appear in the examination"
+      },
+      {
+        "category": "SC / ST / PwD (Persons with Disabilities) Candidates",
+        "fee": "₹0.00 (Nil - Exempted)",
+        "refund": "Exempted from fee payment"
+      }
+    ],
+    "vacanciesDetails": [
+      {
+        "category": "Unreserved (UR)",
+        "count": 1880
+      },
+      {
+        "category": "UR - Women (W)",
+        "count": 941
+      },
+      {
+        "category": "Scheduled Tribe (ST)",
+        "count": 1057
+      },
+      {
+        "category": "ST - Women (W)",
+        "count": 531
+      },
+      {
+        "category": "Scheduled Caste (SC)",
+        "count": 645
+      },
+      {
+        "category": "SC - Women (W)",
+        "count": 326
+      },
+      {
+        "category": "SEBC",
+        "count": 406
+      },
+      {
+        "category": "SEBC - Women (W)",
+        "count": 203
+      }
+    ],
+    "eligibility": {
+      "education": [
+        "1. Academic Qualification: Must have passed 10+2 in the 10+2 system or its equivalent.",
+        "2. Professional Qualification: Must hold a Diploma in GNM (General Nursing & Midwifery) or BSc Nursing from any Medical College and Hospitals of the State or any other institution approved by the Indian Nursing Council.",
+        "3. Registration: Must have registered their name in the Nursing Council of the State of Odisha and possess a valid Registration or Renewal Certificate as on the date of submission of the online application form.",
+        "4. Odia Language Proficiency: Candidates must be able to speak, read, and write Odia and have satisfied one of the following: passed Middle School Exam with Odia as language subject; passed Matriculation or equivalent with Odia medium; passed Odia as language subject in Class-VII or above; or passed Odia test in M.E. School Standard conducted by School & Mass Education Department."
+      ],
+      "ageLimit": "As on 12 June 2026 (Date of Advertisement): 21 to 42 Years. Age Relaxation: SC / ST / SEBC / Women candidates get 5 years relaxation (upper limit 47 years); PwD candidates get 10 years relaxation (upper limit 52 years); PwD candidates under SC/ST/SEBC get cumulative 10 years over category relaxation; Ex-Servicemen get relaxation equal to period of defence service rendered; Contractual Nursing Officers under OSH&FW / ASHAs get upper limit up to 45 years.",
+      "medicalStandards": [
+        "Must be an Indian citizen of good character.",
+        "If married, candidate must not have more than one spouse living.",
+        "PwD candidates must possess a Permanent Disability Certificate showing not less than 40% disability issued by Competent Authority."
+      ]
+    },
+    "salary": {
+      "payLevel": "Odisha Revised Scale of Pay (ORSP) Rules 2017 - Permanent Group-C District Cadre Post",
+      "initialPay": "Pay Matrix Level-8, Cell-01 with Pay Scale ₹29,200 - ₹92,300. Starting Basic Pay is ₹29,200/- per month.",
+      "allowances": [
+        "Dearness Allowance (DA), House Rent Allowance (HRA), Medical Allowance, and other perquisites as admissible under Government of Odisha rules."
+      ]
+    },
+    "selectionProcess": [
+      {
+        "stage": "Stage 1 - Written Test (100 Marks)",
+        "description": "Single Written Exam consisting of 100 MCQs for 100 marks (2 hours duration in OMR or CBRE mode). Breakdown: 60 Qs from Nursing Syllabus (Annexure-II), 25 Qs on Practical Skills, 10 Qs on Arithmetic (HSC standard), 5 Qs on English (HSC standard). Negative marking: 0.25 marks per wrong answer. Minimum qualifying marks: 30% for ST/SC/PwD/Ex-Servicemen/Sportsperson, 35% for others."
+      },
+      {
+        "stage": "Stage 2 - Provisional Master Merit List",
+        "description": "Prepared after Written Test based on normalized marks. Shortlisted candidates for DV will be at not less than 1.25 times the number of advertised vacancies category-wise."
+      },
+      {
+        "stage": "Stage 3 - Document Verification (DV)",
+        "description": "Shortlisted candidates appear before District Level Board in Office of Collector & District Magistrate. Original certificates verified by Chief District Medical & Public Health Officers."
+      },
+      {
+        "stage": "Stage 4 - Provisional Select List",
+        "description": "Equal to advertised vacancies, drawn strictly based on merit, category, and candidate's district preference."
+      }
+    ],
+    "howToApplySteps": [
+      "Step 1: Visit the OSSSC official website at www.osssc.gov.in.",
+      "Step 2: On the Home page, click 'Apply Online' if you are a New User. If registered previously, click 'Re-registration' under Applicant Menu.",
+      "Step 3: Keep scanned signature (20 KB - 50 KB) and colour passport photograph (20 KB - 100 KB) in JPG/JPEG/PNG format ready.",
+      "Step 4: Fill the Registration Form first and generate User ID & Password.",
+      "Step 5: Log in and complete the Online Application Form with academic, professional, and nursing council registration details.",
+      "Step 6: Select district preferences in order of priority (up to all 30 districts).",
+      "Step 7: Pay examination fee of ₹500 (if applicable) using Net Banking, Debit/Credit Card, or UPI and print Confirmation Page.",
+      "Step 8: Submit the online application before extended deadline of 19 August 2026."
+    ],
+    "documentsRequired": [
+      "Certificate of Registration in Nursing Council of Odisha (valid as on online application submission date).",
+      "HSC (10th) examination certificate or equivalent proof of Date of Birth.",
+      "10+2 Pass Certificate & Marksheets.",
+      "Diploma in GNM or BSc Nursing Certificate & Marksheets.",
+      "Certificate of passing Odia language subject (Class VII / ME standard or HSC).",
+      "Caste Certificate (SC/ST/SEBC) or UDID Card/Disability Certificate showing min 40% permanent disability.",
+      "Discharge Certificate & Identity Card for Ex-Servicemen.",
+      "Contractual work experience certificate under OSH&FW / ASHA for age relaxation.",
+      "Sports ID Card issued by Sports & Youth Services Dept, Govt of Odisha (for Sportspersons)."
+    ],
+    "faqs": [
+      {
+        "question": "What is the extended last date to apply for OSSSC Nursing Officer 2026?",
+        "answer": "The extended last date for online registration is 16 August 2026, and the last date for submitting the full online application form is 19 August 2026."
+      },
+      {
+        "question": "How many vacancies are notified for OSSSC Nursing Officer 2026?",
+        "answer": "A total of 5,989 Group-C District Cadre Nursing Officer posts are advertised across all 30 districts of Odisha."
+      },
+      {
+        "question": "What is the educational qualification for OSSSC Nursing Officer?",
+        "answer": "Candidates must have passed 10+2, hold a Diploma in GNM or BSc Nursing from an Indian Nursing Council approved institution, and be registered with the Odisha Nursing Council."
+      },
+      {
+        "question": "Is the OSSSC Nursing Officer application fee refundable?",
+        "answer": "Yes! The ₹500 fee paid by General/SEBC candidates will be refunded to candidates who actually appear in the written examination."
+      },
+      {
+        "question": "What is the pay scale for OSSSC Nursing Officer post?",
+        "answer": "The pay scale is ₹29,200–₹92,300 at Pay Matrix Level-8, Cell-01 with starting basic pay of ₹29,200 per month."
+      },
+      {
+        "question": "What is the exam pattern for the OSSSC Nursing Officer Written Test?",
+        "answer": "The Written Test is 100 marks MCQ (2 hours duration): 60 Qs from Nursing Syllabus, 25 Qs on Practical Skills, 10 Qs on Arithmetic (10th standard), and 5 Qs on English (10th standard). Negative marking is 0.25 per wrong answer."
+      }
+    ],
+    "urls": [
+      {
+        "label": "OSSSC Official Portal",
+        "url": "https://www.osssc.gov.in"
+      },
+      {
+        "label": "OSSSC Online Application Link",
+        "url": "https://www.osssc.gov.in"
       }
     ]
   }
