@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tnpsc-group-2-2a-combined-civil-services-recruitment-2026",
+    "b": "Tamil Nadu Public Service Commission (TNPSC)",
+    "t": "TNPSC Combined Civil Services Examination-II (Group II & IIA Services) 2026 Notification Out for 821 Vacancies",
+    "d": "11 August 2026",
+    "l": "11 August 2026",
+    "a": "Advertisement No. 740 | Notification No. 07 / 2026 (Dated 11.08.2026)",
+    "q": "Bachelor's Degree in any discipline / B.A. / B.Sc / B.Com / B.L. / Master's Degree",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has released the official notification for Combined Civil Services Examination - II (Group II and IIA Services) 2026 under Advertisement No. 740 / Notification No. 07/2026 dated 11.08.2026.",
+    "u": "https://www.tnpscexams.in"
+},
+  {
+    "id": "cochin-shipyard-graduate-technician-apprentice-recruitment-2026",
+    "b": "Cochin Shipyard Limited (CSL) - A Govt of India Enterprise (Ministry of Ports, Shipping and Waterways)",
+    "t": "Cochin Shipyard Limited (CSL) Graduate & Technician (Diploma) Apprentice Recruitment 2026 Notification Out for 139 Seats",
+    "d": "12 August 2026",
+    "l": "12 August 2026",
+    "a": "CSL/P&A/APPE/SEL. DESIGNTD/DEGREE_DIPLOMA_2023_2024/2023/4 Dated 12 Aug 2026",
+    "q": "See eligibility",
+    "desc": "Cochin Shipyard Limited (CSL), a listed premier Mini Ratna Schedule 'A' Company under the Ministry of Ports, Shipping and Waterways, Government of India, has published an official notification for engagement of Graduate and Technician (Diploma) Apprentices for 1-year apprenticeship training under the Apprentices (Amendment) Act 1973.",
+    "u": "https://nats.education.gov.in"
+},
+  {
+    "id": "karnataka-school-education-teacher-recruitment-2026",
+    "b": "Karnataka School Education Department (Department of Public Instruction), Government of Karnataka",
+    "t": "Karnataka Teacher Recruitment 2026 Notification Out for 15,000 Teaching Vacancies in Government Primary & High Schools",
+    "d": "12 August 2026",
+    "l": "18 August 2026",
+    "a": "District-Wise Gazette Notices (10–12 August 2026) | Karnataka Education Department Rules 2026",
+    "q": "12th / PUC, Diploma, Degree, Graduation, B.Ed / D.Ed / TET / B.P.Ed / Computer Science",
+    "desc": "The Karnataka School Education Department (Department of Public Instruction), Government of Karnataka, has officially announced the mega recruitment drive for 15,000 teaching posts in Government Primary and High Schools for the 2026-27 academic session.",
+    "u": "https://schooleducation.karnataka.gov.in"
+},
+  {
+    "id": "up-maharajganj-anganwadi-worker-helper-recruitment-2026",
+    "b": "Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh (जिला कार्यक्रम अधिकारी, महराजगंज)",
+    "t": "UP Maharajganj Anganwadi Worker & Sahayika Recruitment 2026 Notification Out for 305 Vacancies",
+    "d": "11 August 2026",
+    "l": "11 August 2026",
+    "a": "1/2025/3313/58-1-2025 (1917687) | Letter No. 11-08-2026",
+    "q": "Minimum Intermediate (12th Pass), Maximum Post Graduate (PG)",
+    "desc": "District Program Officer (जिला कार्यक्रम अधिकारी), Maharajganj under Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh has published an official recruitment notification for 305 posts of Anganwadi Workers (आंगनवाड़ी कार्यकर्त्री) and Anganwadi Helpers (आंगनवाड़ी सहायिका) on honorarium basis across 13 Bal Vikas Projects.",
+    "u": "https://upanganwadibharti.in"
+},
+  {
     "id": "osssc-nursing-officer-recruitment-2026",
     "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar",
     "t": "OSSSC Nursing Officer Recruitment 2026 Extended Last Date – Apply Online for 5,989 District Cadre Group-C Vacancies",
