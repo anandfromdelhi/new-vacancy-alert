@@ -119,18 +119,35 @@ export async function startServer() {
     const distPath = path.join(process.cwd(), "dist");
     const indexHtmlPath = path.join(distPath, "index.html");
 
-    app.use(express.static(distPath, { index: false }));
+    // Serve pre-rendered HTML pages for routes
+    app.get("*", (req, res, next) => {
+      const url = req.path;
+      // Skip static assets with file extensions (e.g. .js, .css, .png)
+      if (url.includes(".") && !url.endsWith(".html")) {
+        return next();
+      }
 
-    app.get("*", (req, res) => {
-      const meta = getPageMetaData(req.path);
+      const cleanPath = url.replace(/^\/+|\/+$/g, "");
+      const staticFile = cleanPath === "" 
+        ? path.resolve(distPath, "index.html")
+        : path.resolve(distPath, cleanPath, "index.html");
+
+      if (fs.existsSync(staticFile)) {
+        return res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).sendFile(staticFile);
+      }
+
+      // Fallback for dynamic / unlisted routes
+      const meta = getPageMetaData(url);
       try {
         const rawHtml = fs.readFileSync(indexHtmlPath, "utf-8");
         const html = injectMetaTags(rawHtml, meta);
-        res.status(200).set({ "Content-Type": "text/html" }).send(html);
+        res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).send(html);
       } catch (err) {
         res.status(500).send("Error loading application");
       }
     });
+
+    app.use(express.static(distPath, { index: false, redirect: false }));
   }
 
   app.listen(PORT, "0.0.0.0", () => {

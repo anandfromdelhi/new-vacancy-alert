@@ -3,6 +3,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { jobDetailsData } from '../src/data/jobDetails.js';
 import { getPageMetaData, injectMetaTags } from '../server.js';
+import { render } from '../src/entry-server.js';
+import { QUAL_CATEGORIES, STATE_MAP } from '../src/utils/categoryUtils.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,7 +18,7 @@ async function prerender() {
     process.exit(1);
   }
 
-  const rawHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
+  const rawTemplate = fs.readFileSync(indexHtmlPath, 'utf-8');
 
   // Collect all static routes
   const routes = new Set<string>([
@@ -37,7 +39,17 @@ async function prerender() {
     '/marketing-partner/terms',
   ]);
 
-  // Add 32 Notification Detailed Sub-Pages
+  // Add qualification category pages
+  QUAL_CATEGORIES.forEach(cat => {
+    routes.add(`/jobs-for/${cat.slug}`);
+  });
+
+  // Add state category pages
+  Object.keys(STATE_MAP).forEach(stateKey => {
+    routes.add(`/state/${stateKey}`);
+  });
+
+  // Add 32 Notification Detailed Sub-Pages for RRB Technician
   const subPages = [
     'posts-and-vacancies',
     'important-dates',
@@ -77,7 +89,7 @@ async function prerender() {
     routes.add(`/rrb-technician-cen-02-2026/${sp}`);
   });
 
-  // Add all Job Detail pages (200+ jobs)
+  // Add all Job Detail pages (240+ jobs)
   Object.keys(jobDetailsData).forEach(jobId => {
     routes.add(`/${jobId}`);
   });
@@ -85,22 +97,92 @@ async function prerender() {
   let generatedCount = 0;
 
   for (const routePath of routes) {
-    const meta = getPageMetaData(routePath);
-    const html = injectMetaTags(rawHtml, meta);
+    let pageHtml = rawTemplate;
 
+    // 1. Full React Server-Side Component Tree Rendering
+    try {
+      const { html: renderedContent } = render(routePath);
+      if (renderedContent) {
+        pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${renderedContent}</div>`);
+      }
+    } catch (ssrError) {
+      console.warn(`⚠️ SSR render warning for route ${routePath}:`, ssrError);
+    }
+
+    // 2. Inject Meta Tags (title, description, OG tags)
+    const meta = getPageMetaData(routePath);
+    pageHtml = injectMetaTags(pageHtml, meta);
+
+    // 3. Inject JobPosting & FAQPage JSON-LD Structured Data for job pages
+    const cleanRoute = routePath.replace(/^\/+|\/+$/g, '');
+    const matchedKey = Object.keys(jobDetailsData).find(k => k === cleanRoute || k.toLowerCase() === cleanRoute.toLowerCase());
+    const job = matchedKey ? jobDetailsData[matchedKey] : null;
+    if (job) {
+      const jsonLdScripts: string[] = [];
+
+      const jobSchema = {
+        "@context": "https://schema.org/",
+        "@type": "JobPosting",
+        "title": job.title,
+        "description": job.seoDescription || (job.overview ? job.overview.join(' ') : job.title),
+        "identifier": {
+          "@type": "PropertyValue",
+          "name": job.board,
+          "value": job.advtNo || job.id
+        },
+        "datePosted": job.lastUpdated || "2026-08-01",
+        "validThrough": job.importantDates?.find((d: any) => d.event && d.event.toLowerCase().includes('last date'))?.date || "2026-12-31",
+        "employmentType": "FULL_TIME",
+        "hiringOrganization": {
+          "@type": "Organization",
+          "name": job.board,
+          "sameAs": "https://newvacancyalert.in",
+          "logo": "https://newvacancyalert.in/logo.png"
+        },
+        "jobLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": job.jobLocation || "India",
+            "addressCountry": "IN"
+          }
+        }
+      };
+      jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(jobSchema, null, 2)}\n</script>`);
+
+      if (job.faqs && job.faqs.length > 0) {
+        const faqSchema = {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": job.faqs.map((f: any) => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": f.answer
+            }
+          }))
+        };
+        jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(faqSchema, null, 2)}\n</script>`);
+      }
+
+      const jsonLdHtml = jsonLdScripts.join('\n');
+      pageHtml = pageHtml.replace('</head>', `${jsonLdHtml}\n</head>`);
+    }
+
+    // 4. Save HTML to disk
     if (routePath === '/') {
-      fs.writeFileSync(indexHtmlPath, html);
+      fs.writeFileSync(indexHtmlPath, pageHtml);
     } else {
-      const cleanRoute = routePath.replace(/^\/+|\/+$/g, '');
       const targetDir = path.join(distDir, cleanRoute);
       fs.mkdirSync(targetDir, { recursive: true });
-      fs.writeFileSync(path.join(targetDir, 'index.html'), html);
+      fs.writeFileSync(path.join(targetDir, 'index.html'), pageHtml);
     }
 
     generatedCount++;
   }
 
-  console.log(`🚀 SSG Pre-rendering completed! Successfully pre-rendered HTML for ${generatedCount} URLs.`);
+  console.log(`🚀 SSG Pre-rendering completed! Successfully pre-rendered full HTML content & JSON-LD for ${generatedCount} URLs.`);
 }
 
 prerender().catch(err => {

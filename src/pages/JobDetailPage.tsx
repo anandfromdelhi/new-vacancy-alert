@@ -3032,36 +3032,43 @@ export default function JobDetailPage() {
                 <Share2 className="h-4.5 w-4.5 text-emerald-600" /> Share with Friends
               </h3>
               <div className="grid grid-cols-4 gap-2">
-                <a
-                  href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`*${job.title} - ${job.board}*\n\nRead full vacancy details, eligibility, syllabus, and apply online here:\n${window.location.href}`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center justify-center p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 transition-colors shadow-3xs cursor-pointer border border-emerald-100 hover:border-emerald-200"
-                  title="Share on WhatsApp"
-                >
-                  <MessageCircle className="h-4.5 w-4.5" />
-                  <span className="text-[9px] font-black mt-1">WhatsApp</span>
-                </a>
-                <a
-                  href={`https://telegram.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(`*${job.title} - ${job.board}*\n\nRead full vacancy details, eligibility, syllabus, and apply online here:`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center justify-center p-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 transition-colors shadow-3xs cursor-pointer border border-sky-100 hover:border-sky-200"
-                  title="Share on Telegram"
-                >
-                  <Send className="h-4.5 w-4.5" />
-                  <span className="text-[9px] font-black mt-1">Telegram</span>
-                </a>
-                <a
-                  href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex flex-col items-center justify-center p-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 transition-colors shadow-3xs cursor-pointer border border-blue-100 hover:border-blue-200"
-                  title="Share on Facebook"
-                >
-                  <Facebook className="h-4.5 w-4.5" />
-                  <span className="text-[9px] font-black mt-1">Facebook</span>
-                </a>
+                {(() => {
+                  const currentUrl = typeof window !== 'undefined' ? window.location.href : `https://newvacancyalert.in/${id || ''}`;
+                  return (
+                    <>
+                      <a
+                        href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`*${job.title} - ${job.board}*\n\nRead full vacancy details, eligibility, syllabus, and apply online here:\n${currentUrl}`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-col items-center justify-center p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 transition-colors shadow-3xs cursor-pointer border border-emerald-100 hover:border-emerald-200"
+                        title="Share on WhatsApp"
+                      >
+                        <MessageCircle className="h-4.5 w-4.5" />
+                        <span className="text-[9px] font-black mt-1">WhatsApp</span>
+                      </a>
+                      <a
+                        href={`https://telegram.me/share/url?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(`*${job.title} - ${job.board}*\n\nRead full vacancy details, eligibility, syllabus, and apply online here:`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-col items-center justify-center p-2 rounded-xl bg-sky-50 hover:bg-sky-100 text-sky-700 transition-colors shadow-3xs cursor-pointer border border-sky-100 hover:border-sky-200"
+                        title="Share on Telegram"
+                      >
+                        <Send className="h-4.5 w-4.5" />
+                        <span className="text-[9px] font-black mt-1">Telegram</span>
+                      </a>
+                      <a
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex flex-col items-center justify-center p-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 transition-colors shadow-3xs cursor-pointer border border-blue-100 hover:border-blue-200"
+                        title="Share on Facebook"
+                      >
+                        <Facebook className="h-4.5 w-4.5" />
+                        <span className="text-[9px] font-black mt-1">Facebook</span>
+                      </a>
+                    </>
+                  );
+                })()}
                 <button
                   onClick={copyPageLink}
                   className={`flex flex-col items-center justify-center p-2 rounded-xl transition-colors shadow-3xs cursor-pointer border ${
