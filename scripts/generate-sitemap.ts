@@ -38,17 +38,29 @@ async function generateSitemap() {
   </url>`;
   });
 
+  function parseToIsoDate(dateStr: string, defaultDate: string): string {
+    if (!dateStr) return defaultDate;
+    const str = dateStr.trim();
+    const matchDmy = str.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})$/);
+    if (matchDmy) {
+      const day = matchDmy[1].padStart(2, '0');
+      const month = matchDmy[2].padStart(2, '0');
+      const year = matchDmy[3];
+      return `${year}-${month}-${day}`;
+    }
+    const d = new Date(str);
+    if (!isNaN(d.getTime())) {
+      const year = d.getFullYear();
+      const month = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      return `${year}-${month}-${day}`;
+    }
+    return defaultDate;
+  }
+
   // Add dynamic job routes
   jobs.forEach(job => {
-    let lastMod = now;
-    try {
-      const date = new Date(job.lastUpdated);
-      if (!isNaN(date.getTime())) {
-        lastMod = date.toISOString().split('T')[0];
-      }
-    } catch (e) {
-       // Ignore date parse errors
-    }
+    const lastMod = parseToIsoDate(job.lastUpdated, now);
 
     xml += `
   <url>

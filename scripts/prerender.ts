@@ -95,6 +95,25 @@ async function prerender() {
     if (job) {
       const jsonLdScripts: string[] = [];
 
+      const parseIso = (raw: string | undefined, fallback: string): string => {
+        if (!raw) return fallback;
+        const str = raw.trim();
+        const matchDmy = str.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})$/);
+        if (matchDmy) {
+          return `${matchDmy[3]}-${matchDmy[2].padStart(2, '0')}-${matchDmy[1].padStart(2, '0')}`;
+        }
+        const d = new Date(str);
+        if (!isNaN(d.getTime())) {
+          const year = d.getFullYear();
+          const month = String(d.getMonth() + 1).padStart(2, '0');
+          const day = String(d.getDate()).padStart(2, '0');
+          return `${year}-${month}-${day}`;
+        }
+        return fallback;
+      };
+
+      const rawLastDate = job.importantDates?.find((d: any) => d.event && d.event.toLowerCase().includes('last date'))?.date;
+
       const jobSchema = {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
@@ -105,8 +124,8 @@ async function prerender() {
           "name": job.board,
           "value": job.advtNo || job.id
         },
-        "datePosted": job.lastUpdated || "2026-08-01",
-        "validThrough": job.importantDates?.find((d: any) => d.event && d.event.toLowerCase().includes('last date'))?.date || "2026-12-31",
+        "datePosted": parseIso(job.lastUpdated, "2026-08-01"),
+        "validThrough": parseIso(rawLastDate, "2026-12-31"),
         "employmentType": "FULL_TIME",
         "hiringOrganization": {
           "@type": "Organization",

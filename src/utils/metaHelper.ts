@@ -179,6 +179,19 @@ export function injectMetaTags(htmlTemplate: string, meta: { title: string; desc
     `<meta property="twitter:description" content="${safeDesc}" />`
   );
 
+  // Canonical Link Tag
+  const safeCanonical = escapeHtml(meta.ogUrl);
+  if (/<link rel="canonical" content=".*?" \/>/gi.test(html) || /<link rel="canonical" href=".*?" \/>/gi.test(html)) {
+    html = html.replace(/<link rel="canonical" (?:href|content)=".*?" \/>/gi, `<link rel="canonical" href="${safeCanonical}" />`);
+  } else {
+    html = html.replace('</head>', `<link rel="canonical" href="${safeCanonical}" />\n</head>`);
+  }
+
+  // Meta Robots Tag
+  if (!/<meta name="robots"/gi.test(html)) {
+    html = html.replace('</head>', `<meta name="robots" content="index, follow, max-image-preview:large" />\n</head>`);
+  }
+
   if (meta.faqSchema) {
     const schemaScript = `<script type="application/ld+json">${JSON.stringify(meta.faqSchema)}</script>`;
     html = html.replace('</head>', `${schemaScript}\n</head>`);
