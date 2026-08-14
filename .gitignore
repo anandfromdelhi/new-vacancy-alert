@@ -9,4 +9,8 @@ coverage/
 scratch/
 src/data/jobs-generated/
 src/data/jobs-index-generated.json
+public/sitemap.xml
+public/rss.xml
+public/feed.xml
+public/robots.txt
 
