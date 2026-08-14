@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Mail, MapPin, Send, Facebook, Instagram, MessageSquare } from 'lucide-react';
 
 export default function ContactPage() {

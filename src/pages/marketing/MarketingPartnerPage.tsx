@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Link, useNavigate } from 'react-router';
 import { signInWithPopup, signInWithRedirect, getRedirectResult } from 'firebase/auth';
 import { auth, googleProvider } from '../../lib/firebase';

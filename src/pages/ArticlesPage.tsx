@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Link } from 'react-router';
 import { 
   BookOpen, Search, Calendar, ChevronRight, Clock, ArrowRight, 

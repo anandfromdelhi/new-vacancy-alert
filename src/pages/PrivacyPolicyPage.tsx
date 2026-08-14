@@ -1,5 +1,6 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Shield, Lock, Eye, Server } from 'lucide-react';
 
 export default function PrivacyPolicyPage() {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { useSearchParams } from 'react-router';
 import { 
   Calculator, PieChart as PieChartIcon, IndianRupee, Download, Info, 

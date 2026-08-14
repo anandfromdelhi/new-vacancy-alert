@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Link } from 'react-router';
 import { toPng } from 'html-to-image';
 import jsPDF from 'jspdf';

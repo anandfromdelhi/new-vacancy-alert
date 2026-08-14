@@ -1,5 +1,6 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Info, Target, ShieldCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';

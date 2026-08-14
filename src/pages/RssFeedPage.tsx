@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Rss, Copy, Check, ExternalLink, Sparkles, BookOpen, Bell, ArrowRight } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { jobDetailsData } from '../data/jobDetails';
 import { Link } from 'react-router';
 

@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { Helmet } = ReactHelmetAsync;
 import { Link, useNavigate } from 'react-router';
 import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
