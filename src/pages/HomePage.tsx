@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Link, useNavigate } from 'react-router';
 import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';

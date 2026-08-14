@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { auth, db } from '../../lib/firebase';
 import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { onAuthStateChanged, signOut } from 'firebase/auth';

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Shield, FileText } from 'lucide-react';
 
 export default function MarketingTermsPage() {

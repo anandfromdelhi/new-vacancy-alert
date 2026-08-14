@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { ArrowLeft } from 'lucide-react';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 
 export default function InvalidApplications() {

@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { hydrateRoot } from 'react-dom/client';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { HelmetProvider } = ReactHelmetAsync;
+const { HelmetProvider } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import App from './App.tsx';
 import ErrorBoundary from './components/ErrorBoundary.tsx';
 import './index.css';

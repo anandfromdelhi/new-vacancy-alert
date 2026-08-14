@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Rss, Copy, Check, ExternalLink, Sparkles, BookOpen, Bell, ArrowRight } from 'lucide-react';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import jobsIndexData from '../data/jobs-index-generated.json';
 import { Link } from 'react-router';
 

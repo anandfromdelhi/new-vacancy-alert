@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useParams, Link, useNavigate, Navigate } from 'react-router';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { Helmet } = ReactHelmetAsync;
+const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { JobCard, JobTable } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';

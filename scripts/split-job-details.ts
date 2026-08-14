@@ -39,7 +39,6 @@ for (const [id, job] of Object.entries(jobDetailsData)) {
     vacancies: job.vacancies ?? 0,
     seoTitle: job.seoTitle || '',
     seoDescription: job.seoDescription || '',
-    faqs: job.faqs || [],
     lastUpdated: job.lastUpdated || '',
     overviewSummary: Array.isArray(job.overview) && job.overview.length > 0 ? job.overview[0] : ''
   };

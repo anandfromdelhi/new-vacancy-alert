@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter, Routes, Route, Navigate } from 'react-router';
 import * as ReactHelmetAsync from 'react-helmet-async';
-const { HelmetProvider } = ReactHelmetAsync;
+const { HelmetProvider } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { ThemeProvider } from './components/ThemeProvider';
 import { AuthProvider } from './context/AuthContext';
 import MainLayout from './pages/MainLayout';
