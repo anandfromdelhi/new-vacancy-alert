@@ -138,6 +138,8 @@ async function prerender() {
         jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(faqSchema, null, 2)}\n</script>`);
       }
 
+      jsonLdScripts.push(`<script id="__SSR_JOB_DATA__" type="application/json">${JSON.stringify(job)}</script>`);
+
       pageHtml = pageHtml.replace('</head>', `${jsonLdScripts.join('\n')}\n</head>`);
     }
 

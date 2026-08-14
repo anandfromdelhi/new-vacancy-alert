@@ -92,7 +92,21 @@ export default function JobDetailPage() {
     }
   }
 
-  const initialSsrJob = typeof window === 'undefined' ? (globalThis as any).__SSR_JOB_DATA__ : null;
+  function getInitialSsrJob() {
+    if (typeof window === 'undefined') {
+      return (globalThis as any).__SSR_JOB_DATA__ ?? null;
+    }
+    const el = document.getElementById('__SSR_JOB_DATA__');
+    if (el?.textContent) {
+      try {
+        return JSON.parse(el.textContent);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  }
+  const initialSsrJob = getInitialSsrJob();
   const [job, setJob] = useState<any>(initialSsrJob);
   const [loadingJob, setLoadingJob] = useState<boolean>(!initialSsrJob && !!matchedKey);
 
