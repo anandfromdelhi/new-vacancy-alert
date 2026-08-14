@@ -57,11 +57,50 @@ import OriginalDocumentVerification from './pages/notification-sections/Original
 import UnfairMeansAndDebarment from './pages/notification-sections/UnfairMeansAndDebarment';
 import RrbWebsites from './pages/notification-sections/RrbWebsites';
 import PostParameters from './pages/notification-sections/PostParameters';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import jobsIndexData from './data/jobs-index-generated.json';
 import ZoneWiseVacancy from './pages/notification-sections/ZoneWiseVacancy';
 import MergedPostCategories from './pages/notification-sections/MergedPostCategories';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 export function render(url: string) {
   const helmetContext: any = {};
+
+  const cleanRoute = url.replace(/^\/+|\/+$/g, '');
+  const rawId = cleanRoute.toLowerCase();
+  const indexKeys = Object.keys(jobsIndexData);
+
+  let matchedKey = indexKeys.find(k => k === url || k.toLowerCase() === rawId);
+  if (!matchedKey && rawId) {
+    matchedKey = indexKeys.find(k => {
+      const kLower = k.toLowerCase();
+      return kLower.includes(rawId) || rawId.includes(kLower);
+    });
+  }
+  if (!matchedKey && rawId) {
+    const tokens = rawId.split(/[-_\s]+/).filter(t => t.length > 3);
+    if (tokens.length > 0) {
+      matchedKey = indexKeys.find(k => {
+        const kLower = k.toLowerCase();
+        return tokens.every(token => kLower.includes(token));
+      });
+    }
+  }
+
+  if (matchedKey) {
+    try {
+      const filePath = path.join(__dirname, `data/jobs-generated/${matchedKey}.json`);
+      if (fs.existsSync(filePath)) {
+        (globalThis as any).__SSR_JOB_DATA__ = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      }
+    } catch (e) {
+      // Fallback ignore
+    }
+  }
 
   const html = ReactDOMServer.renderToString(
     <React.StrictMode>
@@ -141,6 +180,8 @@ export function render(url: string) {
       </HelmetProvider>
     </React.StrictMode>
   );
+
+  delete (globalThis as any).__SSR_JOB_DATA__;
 
   return {
     html,

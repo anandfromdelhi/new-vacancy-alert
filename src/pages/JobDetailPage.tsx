@@ -12,13 +12,15 @@ import {
   CreditCard, Send, Building2, Share2, Bookmark, Printer, Copy, ArrowUp, Check,
   Home, Facebook, Instagram, MessageCircle, Download, MessageSquare
 } from 'lucide-react';
-import { jobDetailsData } from '../data/jobDetails';
+import jobsIndexData from '../data/jobs-index-generated.json';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
+
+const jobModules = (import.meta as any).glob ? (import.meta as any).glob('../data/jobs-generated/*.json', { eager: false }) : {};
 
 const isNoData = (val: any): boolean => {
   if (val === null || val === undefined) return true;
@@ -67,13 +69,14 @@ export default function JobDetailPage() {
 
   // Smart Multi-Tier Job ID Resolution
   const rawId = (id || '').trim().toLowerCase().replace(/\/$/, '');
+  const indexKeys = Object.keys(jobsIndexData);
 
-  let matchedKey = Object.keys(jobDetailsData).find(
+  let matchedKey = indexKeys.find(
     k => k === id || k.toLowerCase() === rawId
   );
 
   if (!matchedKey && rawId) {
-    matchedKey = Object.keys(jobDetailsData).find(k => {
+    matchedKey = indexKeys.find(k => {
       const kLower = k.toLowerCase();
       return kLower.includes(rawId) || rawId.includes(kLower);
     });
@@ -82,14 +85,48 @@ export default function JobDetailPage() {
   if (!matchedKey && rawId) {
     const tokens = rawId.split(/[-_\s]+/).filter(t => t.length > 3);
     if (tokens.length > 0) {
-      matchedKey = Object.keys(jobDetailsData).find(k => {
+      matchedKey = indexKeys.find(k => {
         const kLower = k.toLowerCase();
         return tokens.every(token => kLower.includes(token));
       });
     }
   }
 
-  const job = matchedKey ? jobDetailsData[matchedKey] : null;
+  const initialSsrJob = typeof window === 'undefined' ? (globalThis as any).__SSR_JOB_DATA__ : null;
+  const [job, setJob] = useState<any>(initialSsrJob);
+  const [loadingJob, setLoadingJob] = useState<boolean>(!initialSsrJob && !!matchedKey);
+
+  useEffect(() => {
+    if (!matchedKey) {
+      setJob(null);
+      setLoadingJob(false);
+      return;
+    }
+    if (job && (job.id === matchedKey || job.id === id)) {
+      setLoadingJob(false);
+      return;
+    }
+
+    setLoadingJob(true);
+    const globPath = `../data/jobs-generated/${matchedKey}.json`;
+    const loader = jobModules[globPath];
+
+    if (loader) {
+      loader()
+        .then((mod: any) => {
+          setJob(mod.default || mod);
+          setLoadingJob(false);
+        })
+        .catch((err: any) => {
+          console.error(`Failed to load job data for ${matchedKey}`, err);
+          setJob(null);
+          setLoadingJob(false);
+        });
+    } else {
+      setJob(null);
+      setLoadingJob(false);
+    }
+  }, [matchedKey, id]);
 
   const executePdfDownload = () => {
     setShowPdfModal(true);
@@ -345,6 +382,17 @@ export default function JobDetailPage() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [id]);
+
+  if (loadingJob && !job) {
+    return (
+      <div className="w-full bg-slate-50 min-h-[70vh] py-12 px-4 flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+          <span className="text-sm font-extrabold text-slate-700">Loading Job Notification Details...</span>
+        </div>
+      </div>
+    );
+  }
 
   if (!job) {
     return (

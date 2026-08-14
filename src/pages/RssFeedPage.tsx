@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Rss, Copy, Check, ExternalLink, Sparkles, BookOpen, Bell, ArrowRight } from 'lucide-react';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = ReactHelmetAsync;
-import { jobDetailsData } from '../data/jobDetails';
+import jobsIndexData from '../data/jobs-index-generated.json';
 import { Link } from 'react-router';
 
 export default function RssFeedPage() {
@@ -10,7 +10,7 @@ export default function RssFeedPage() {
   const rssUrl = 'https://newvacancyalert.in/rss.xml';
   const feedUrl = 'https://newvacancyalert.in/feed.xml';
 
-  const jobsList = Object.values(jobDetailsData).slice(0, 15);
+  const jobsList = Object.values(jobsIndexData as Record<string, any>).slice(0, 15);
 
   const handleCopy = (url: string) => {
     navigator.clipboard.writeText(url);
@@ -152,7 +152,7 @@ export default function RssFeedPage() {
                   </span>
                 </div>
                 <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
-                  {job.overview?.[0] || job.seoDescription}
+                  {job.overviewSummary || job.seoDescription}
                 </p>
                 <div className="flex items-center gap-3 pt-1 text-[11px] text-slate-500 font-semibold">
                   <span className="bg-slate-100 px-2 py-0.5 rounded text-slate-700 font-bold">{job.board}</span>

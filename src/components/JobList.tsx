@@ -4,7 +4,7 @@ import {
   Building2, Calendar, Clock, ArrowRight, 
   Briefcase, GraduationCap, Shield, HeartPulse, HardHat, Scale
 } from 'lucide-react';
-import { jobDetailsData } from '../data/jobDetails';
+import jobsIndexData from '../data/jobs-index-generated.json';
 import { useNavigationLoader } from '../context/NavigationContext';
 
 export interface JobEntry {
@@ -196,8 +196,9 @@ export function getCompactQualification(q: string): string {
 }
 
 export function getNumberOfPostsInfo(title: string, jobId?: string): { display: string; count: number } {
-  if (jobId && jobDetailsData[jobId]) {
-    const v = jobDetailsData[jobId].vacancies;
+  const indexObj = (jobsIndexData as Record<string, any>);
+  if (jobId && indexObj[jobId]) {
+    const v = indexObj[jobId].vacancies;
     if (typeof v === 'number') {
       return { display: `${v} ${v === 1 ? 'Post' : 'Posts'}`, count: v };
     }

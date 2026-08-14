@@ -4,7 +4,7 @@ const { Helmet } = ReactHelmetAsync;
 import { Link, useNavigate } from 'react-router';
 import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
-import { jobDetailsData } from '../data/jobDetails';
+import jobsIndexData from '../data/jobs-index-generated.json';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
 import CategoriesSection from '../components/CategoriesSection';
 import AdsterraBanner from '../components/AdsterraBanner';
@@ -78,8 +78,9 @@ function getCompactQualification(q: string): string {
 }
 
 function getNumberOfPosts(title: string, jobId?: string): number {
-  if (jobId && jobDetailsData[jobId]) {
-    const v = jobDetailsData[jobId].vacancies;
+  const indexObj = (jobsIndexData as Record<string, any>);
+  if (jobId && indexObj[jobId]) {
+    const v = indexObj[jobId].vacancies;
     if (typeof v === 'number') return v;
     if (typeof v === 'string') {
       const trimmed = v.trim();

@@ -1,4 +1,4 @@
-import { jobDetailsData } from '../data/jobDetails.js';
+import jobsIndexData from '../data/jobs-index-generated.json';
 
 export function escapeHtml(str: string): string {
   return str
@@ -120,8 +120,8 @@ export function getPageMetaData(urlPath: string) {
     title = `Government Jobs for ${qual} Pass Candidates 2026 | NewVacancyAlert`;
     description = `Explore active government job opportunities requiring ${qual} eligibility.`;
   }
-  else if (cleanPath && jobDetailsData[cleanPath]) {
-    const job = jobDetailsData[cleanPath];
+  else if (cleanPath && (jobsIndexData as Record<string, any>)[cleanPath]) {
+    const job = (jobsIndexData as Record<string, any>)[cleanPath];
     title = job.seoTitle || `${job.title} Recruitment 2026 Notification | NewVacancyAlert`;
     description =
       job.seoDescription ||
