@@ -104,7 +104,7 @@ export const JOBS_DATA: JobEntry[] = [
     "b": "ASC Centre (South) - Bangalore, Ministry of Defence, Govt. of India",
     "t": "Ministry of Defence ASC Centre (South) Bangalore Recruitment 2026 – Apply Offline for 62 Group 'C' Civilian Posts",
     "d": "15 August 2026",
-    "l": "15 August 2026",
+    "l": "05 September 2026",
     "a": "Employment News 15–21 August 2026 Notice",
     "q": "10th Pass / Diploma in Catering (as per trade requirements)",
     "desc": "Ministry of Defence, Civilian Direct Recruitment Board, CHQ, ASC Centre (South) - Bangalore, Post - Agram, Bangalore - 560007 has published a direct recruitment notification in Employment News (15 - 21 August 2026) for filling 62 Group 'C' Civilian posts.",
