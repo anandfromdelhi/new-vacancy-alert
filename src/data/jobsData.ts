@@ -12,6 +12,39 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bmc-trade-apprentice-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporation (BMC / MCGM), Labour Department, Mumbai, Maharashtra",
+    "t": "Brihanmumbai Municipal Corporation (BMC) Trade Apprentice Recruitment 2026: Notification Out for 612 Vacancies (Walk-in Rally on 20 & 21 Aug 2026)",
+    "d": "11 August 2026",
+    "l": "Open at apprenticeshipindia.gov.in",
+    "a": "Prakasha/585/MC dated 11.08.2026",
+    "q": "10th Pass (with Marathi) + ITI in relevant trade",
+    "desc": "Brihanmumbai Municipal Corporation (BMC / MCGM), Labour Department, Mumbai has published official recruitment notification Advt No. Prakasha/585/MC dated 11.08.2026 for empanelment of 612 Trade Apprentices under the Apprentices Act 1961.",
+    "u": "https://portal.mcgm.gov.in"
+},
+  {
+    "id": "up-muzaffarnagar-anganwadi-recruitment-2026",
+    "b": "Child Development Services & Nutrition Department (Bal Vikas Seva Evam Pushtahar Vibhag), District Program Office, Muzaffarnagar, Uttar Pradesh",
+    "t": "UP Muzaffarnagar Anganwadi Karyakatri Bharti 2026: Apply Online for 146 Vacancies (12th Pass Female Candidates)",
+    "d": "12 August 2026",
+    "l": "13 August 2026",
+    "a": "C-821 / Ba.Vi.Pa. / Vigyapti / 2026-27",
+    "q": "Intermediate (12th Pass) or equivalent",
+    "desc": "Office of the District Program Officer, Muzaffarnagar (Uttar Pradesh) has released official recruitment advertisement Notice No. C-821 / Ba.Vi.Pa. / Vigyapti / 2026-27 for recruitment of 146 Anganwadi Karyakatri (Anganwadi Workers) across rural and urban Child Development Projects in Muzaffarnagar district.",
+    "u": "http://upanganwadibharti.in"
+},
+  {
+    "id": "dlsa-sheikhpura-plv-recruitment-2026",
+    "b": "District Legal Services Authority (DLSA), Sheikhpura, Bihar",
+    "t": "DLSA Sheikhpura Para Legal Volunteer (PLV) Recruitment 2026: Notification Out for 100 Vacancies (10th Pass Eligible)",
+    "d": "11 August 2026",
+    "l": "12 August 2026",
+    "a": "01/2026",
+    "q": "Matriculation (10th Pass) or equivalent",
+    "desc": "Office of the District Legal Services Authority (DLSA), Sheikhpura (Bihar) has released official notification Advt No. 01/2026 for empanelment of 100 Para Legal Volunteers (PLV) / पारा विधिक स्वयं सेवक across the district.",
+    "u": "https://sheikhpura.dcourts.gov.in"
+},
+  {
     "id": "tnpsc-group-2-2a-combined-civil-services-recruitment-2026",
     "b": "Tamil Nadu Public Service Commission (TNPSC)",
     "t": "TNPSC Combined Civil Services Examination-II (Group II & IIA Services) 2026 Notification Out for 821 Vacancies",
