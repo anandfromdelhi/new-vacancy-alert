@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter, Routes, Route, Navigate } from 'react-router';
-import { HelmetProvider } from 'react-helmet-async';
+import * as ReactHelmetAsync from 'react-helmet-async';
+const { HelmetProvider } = ReactHelmetAsync;
 import { ThemeProvider } from './components/ThemeProvider';
 import { AuthProvider } from './context/AuthContext';
 import MainLayout from './pages/MainLayout';
