@@ -125,6 +125,26 @@ export default function JobDetailPage() {
     const globPath = `../data/jobs-generated/${matchedKey}.json`;
     const loader = jobModules[globPath];
 
+    const fetchJobFallback = () => {
+      fetch(`/data/jobs-generated/${matchedKey}.json`)
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .then(data => {
+          if (data && data.title) {
+            setJob(data);
+          } else {
+            setJob(null);
+          }
+          setLoadingJob(false);
+        })
+        .catch(() => {
+          setJob(null);
+          setLoadingJob(false);
+        });
+    };
+
     if (loader) {
       loader()
         .then((mod: any) => {
@@ -132,13 +152,11 @@ export default function JobDetailPage() {
           setLoadingJob(false);
         })
         .catch((err: any) => {
-          console.error(`Failed to load job data for ${matchedKey}`, err);
-          setJob(null);
-          setLoadingJob(false);
+          console.error(`Failed to load job data for ${matchedKey} via module loader, trying fetch fallback`, err);
+          fetchJobFallback();
         });
     } else {
-      setJob(null);
-      setLoadingJob(false);
+      fetchJobFallback();
     }
   }, [matchedKey, id]);
 

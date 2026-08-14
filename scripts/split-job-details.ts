@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 const jobDetailsPath = path.join(rootDir, 'src/data/jobDetails.json');
 const outputDir = path.join(rootDir, 'src/data/jobs-generated');
+const publicOutputDir = path.join(rootDir, 'public/data/jobs-generated');
 const indexPath = path.join(rootDir, 'src/data/jobs-index-generated.json');
 
 if (!fs.existsSync(jobDetailsPath)) {
@@ -21,14 +22,20 @@ const jobDetailsData: Record<string, any> = JSON.parse(rawData);
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
+if (!fs.existsSync(publicOutputDir)) {
+  fs.mkdirSync(publicOutputDir, { recursive: true });
+}
 
 const indexMap: Record<string, any> = {};
 let count = 0;
 
 for (const [id, job] of Object.entries(jobDetailsData)) {
-  // Write individual job file
+  // Write individual job file in both src/ and public/
   const jobFilePath = path.join(outputDir, `${id}.json`);
-  fs.writeFileSync(jobFilePath, JSON.stringify(job, null, 2), 'utf-8');
+  const publicJobFilePath = path.join(publicOutputDir, `${id}.json`);
+  const jsonContent = JSON.stringify(job, null, 2);
+  fs.writeFileSync(jobFilePath, jsonContent, 'utf-8');
+  fs.writeFileSync(publicJobFilePath, jsonContent, 'utf-8');
 
   // Build lightweight index entry
   indexMap[id] = {

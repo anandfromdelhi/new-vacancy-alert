@@ -8,6 +8,7 @@ coverage/
 !.env.example
 scratch/
 src/data/jobs-generated/
+public/data/jobs-generated/
 src/data/jobs-index-generated.json
 public/sitemap.xml
 public/rss.xml
