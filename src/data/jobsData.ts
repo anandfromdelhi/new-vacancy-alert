@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aai-northern-region-apprentice-recruitment-2026",
+    "b": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi",
+    "t": "AAI Northern Region Apprentice Recruitment 2026: Apply Online for 205 Vacancies (Graduate, Diploma & ITI Trade) | Advt No: 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR",
+    "d": "15 August 2026",
+    "l": "15 August 2026",
+    "a": "01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR",
+    "q": "Regular Degree (B.E/B.Tech/BCA/B.Com/B.Arch) / Diploma / ITI passed in 2024 or later",
+    "desc": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi, a Schedule 'A' Miniratna Category-1 Public Sector Enterprise, has issued advertisement Advt. No. 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR for 1-year apprenticeship training of 205 Graduate, Diploma, and ITI Trade Apprentices for the year 2026-27 under the Apprentices Act, 1961.",
+    "u": "https://nats.education.gov.in"
+},
+  {
+    "id": "rsmssb-junior-engineer-jen-recruitment-2026",
+    "b": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur",
+    "t": "RSMSSB Junior Engineer (JEN) Joint Recruitment 2026: Apply Online for 874 Vacancies (Civil, Mechanical & Electrical) | Advt No: 10/2026",
+    "d": "15 August 2026",
+    "l": "16 August 2026",
+    "a": "Advt. No. 10/2026",
+    "q": "Degree (B.E/B.Tech) or Diploma in Civil / Mechanical / Electrical Engineering",
+    "desc": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur has released detailed advertisement Advt. No. 10/2026 for Junior Engineer Joint Direct Recruitment 2026 (कनिष्ठ अभियंता संयुक्त सीधी भर्ती-2026) for 874 vacancies across PWD, Water Resources Department, and PHED.",
+    "u": "http://sso.rajasthan.gov.in"
+},
+  {
+    "id": "mp-high-court-assistant-grade-3-recruitment-2026",
+    "b": "High Court of Madhya Pradesh (MPHC), Jabalpur",
+    "t": "MP High Court Assistant Grade-III Recruitment 2026: Apply Online for 1,174 Vacancies in MP District Courts | Advt No: 614/Exam/2026",
+    "d": "14 August 2026",
+    "l": "17 August 2026 (12:00 PM)",
+    "a": "614 / परीक्षा / 2026",
+    "q": "Graduation Degree + CPCT Scorecard (MAP-IT) + 1-Year Computer Diploma",
+    "desc": "High Court of Madhya Pradesh (MPHC), Jabalpur has published official advertisement Advt. No. 614/Exam/2026 dated 14.08.2026 for direct recruitment of 1,174 Assistant Grade-III (Sahayak Grade-3) vacancies in District and Sessions Courts of Madhya Pradesh for the recruitment year 2026.",
+    "u": "https://www.mphc.gov.in"
+},
+  {
+    "id": "deo-chittoor-academic-instructor-recruitment-2026",
+    "b": "District Educational Officer (DEO), Chittoor District, School Education Department, Andhra Pradesh",
+    "t": "DEO Chittoor Academic Instructor Recruitment 2026: Apply Offline for 249 Vacancies (156 SGT & 93 School Assistant Posts) | Proceedings Rc.No: 1901/B4/2026",
+    "d": "14 August 2026",
+    "l": "14 & 15 August 2026",
+    "a": "Rc.No: 1901/B4/2026",
+    "q": "SGT: D.El.Ed / D.Ed (+ TET) | SA: Graduation/PG + B.Ed (+ TET)",
+    "desc": "Office of the District Educational Officer (DEO), Chittoor, School Education Department, Govt. of Andhra Pradesh has issued official proceedings Rc.No: 1901/B4/2026 dated 14.08.2026 for engagement of 249 Academic Instructors (School Assistants & Secondary Grade Teachers - SGTs) in Govt/ZPP/MPP/Municipal schools across Chittoor district for the academic year 2026-2027.",
+    "u": "https://cse.ap.gov.in"
+},
+  {
+    "id": "hal-nasik-graduate-diploma-apprentice-recruitment-2026",
+    "b": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, Maharashtra",
+    "t": "HAL Nasik Graduate, Diploma & Non-Technical Graduate Apprentice Recruitment 2026: Apply Online for 272 Vacancies (BE/B.Tech, Diploma, B.A, B.Com, B.Sc, BBA, B.Pharm) | Advt No: HAL/T&D/1614/2026-27/264",
+    "d": "14 August 2026",
+    "l": "14 August 2026",
+    "a": "HAL/T&D/1614/2026-27/264",
+    "q": "Passed Degree / Diploma in 2022, 2023, 2024, 2025, or 2026",
+    "desc": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, a Maharatna Central Public Sector Undertaking under the Ministry of Defence, Govt. of India, has published advertisement Advt. No. HAL/T&D/1614/2026-27/264 inviting online applications for 1-year apprenticeship training of 272 Engineering Graduate, Technician Diploma, and Non-Technical Graduate Apprentices under the Apprentices Act, 1961.",
+    "u": "https://zfrmz.in/5L8gLXmMYLFh2cCT2F7v"
+},
+  {
+    "id": "hal-nasik-iti-apprentice-recruitment-2026",
+    "b": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, Maharashtra",
+    "t": "HAL Nasik ITI Apprentice Recruitment 2026: Apply Online for 355 Vacancies (Fitter, COPA, Electrician, Turner & Others) | Advt No: HAL/T&D/1614/2026/265",
+    "d": "14 August 2026",
+    "l": "14 August 2026",
+    "a": "HAL/T&D/1614/2026/265",
+    "q": "Passed 10th Class (SSC) + Regular ITI (NCVT/SCVT) in relevant trade",
+    "desc": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, a Maharatna Central Public Sector Undertaking under the Ministry of Defence, Govt. of India, has published official advertisement Advt. No. HAL/T&D/1614/2026/265 inviting online applications for 1-year apprenticeship training of 355 ITI Trade Apprentices for the year 2026 under the Apprentices Act, 1961.",
+    "u": "https://zfrmz.in/KSfP6So9GXJgaRx1NTv5"
+},
+  {
+    "id": "bhel-trichy-graduate-apprentice-recruitment-2026",
+    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
+    "t": "BHEL Trichy Graduate Apprentice Recruitment 2026: Apply Online for 90 Vacancies (BE/B.Tech, B.Com Accountant & B.A Asst-HR) | Circular TP: HR: R: GA 2026-27",
+    "d": "14 August 2026",
+    "l": "14 August 2026 (15:00 Hrs)",
+    "a": "TP: HR: R: GA 2026-27",
+    "q": "Regular Full-Time B.E / B.Tech / B.Com / B.A (Passed in 2022 to 2026)",
+    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: GA 2026-27 for engagement of 90 Graduate Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
+    "u": "https://trichy.bhel.com"
+},
+  {
+    "id": "bhel-trichy-technician-diploma-apprentice-recruitment-2026",
+    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
+    "t": "BHEL Trichy Technician (Diploma) Apprentice Recruitment 2026: Apply Online for 60 Vacancies (Mechanical, Civil, EEE, ECE, Computer) | Circular TP: HR: R: TA 2026-27",
+    "d": "14 August 2026",
+    "l": "14 August 2026 (15:00 Hrs)",
+    "a": "TP: HR: R: TA 2026-27",
+    "q": "Regular Full-Time Diploma in Engineering (Passed in 2022 to 2026)",
+    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: TA 2026-27 for engagement of 60 Technician (Diploma) Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
+    "u": "https://trichy.bhel.com"
+},
+  {
+    "id": "bhel-trichy-trade-apprentice-recruitment-2026",
+    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
+    "t": "BHEL Trichy Trade Apprentice Recruitment 2026: Apply Online for 380 Vacancies (Fitter, Welder, Electrician, COPA & Others) | Circular TP: HR: R: AA113",
+    "d": "14 August 2026",
+    "l": "14 August 2026 (15:00 Hrs)",
+    "a": "TP: HR: R: AA113",
+    "q": "10th Pass + Regular Full-Time ITI (NCVT/SCVT) in relevant trade",
+    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has published official circular No. TP: HR: R: AA113 inviting online applications for engagement of 380 Trade Apprentices under the Apprentices Act, 1961 for the training year 2026-27.",
+    "u": "https://trichy.bhel.com"
+},
+  {
+    "id": "iocl-executives-cbt-recruitment-2026",
+    "b": "Indian Oil Corporation Limited (IOCL), Corporate Office, New Delhi",
+    "t": "IOCL Executive Recruitment 2026 Notification Out for Graduate Engineer, Marketing, Law, Quality Control & Diploma Engineers (Advt No: IOCL/CO-HR/RECTT/2026/01)",
+    "d": "14 August 2026",
+    "l": "14 August 2026",
+    "a": "IOCL/CO-HR/RECTT/2026/01",
+    "q": "See eligibility",
+    "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India's flagship energy major, has released detailed advertisement Advt. No.: IOCL/CO-HR/RECTT/2026/01 for recruitment of dynamic and enthusiastic Executives across various disciplines through Computer Based Test (CBT) - 2026.",
+    "u": "https://www.iocl.com/latest-job-opening"
+},
+  {
     "id": "bmc-trade-apprentice-recruitment-2026",
     "b": "Brihanmumbai Municipal Corporation (BMC / MCGM), Labour Department, Mumbai, Maharashtra",
     "t": "Brihanmumbai Municipal Corporation (BMC) Trade Apprentice Recruitment 2026: Notification Out for 612 Vacancies (Walk-in Rally on 20 & 21 Aug 2026)",
