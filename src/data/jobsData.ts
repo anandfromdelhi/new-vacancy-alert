@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "icds-up-kanpur-nagar-anganwadi-sahayika-recruitment-2026",
+    "b": "District Program Officer (ICDS), Kanpur Nagar, Uttar Pradesh",
+    "t": "UP Kanpur Nagar Anganwadi Sahayika Recruitment 2026: Apply Online for 307 Vacancies | ICDS UP",
+    "d": "13 August 2026",
+    "l": "05 September 2026",
+    "a": "C-1247/जि०का०अधि०/आ०बा०रा०था०/विज्ञप्ति/2026-27",
+    "q": "Intermediate (12th Class Pass) or equivalent",
+    "desc": "Office of the District Program Officer, Kanpur Nagar (Bal Vikas Seva Evam Pushtahar Department, Government of Uttar Pradesh) has issued recruitment notification Letter No. C-1247/2026-27 dated 13/08/2026 for the selection of 307 Anganwadi Sahayika (Helper) posts in rural and urban Anganwadi centers across Kanpur Nagar district.",
+    "u": "http://upanganwadibharti.in"
+},
+  {
     "id": "ruhs-medical-officer-recruitment-2026",
     "b": "Rajasthan University of Health Sciences (RUHS), Jaipur / Medical & Health Services Dept, Govt of Rajasthan",
     "t": "RUHS Medical Officer Recruitment 2026: Apply Online for 600 Posts | Medical Officer Direct Recruitment Examination 2026",
