@@ -42,12 +42,29 @@ def add_job_entry(json_filepath):
                 qual_val = h.get("value", "")
                 break
 
+        # Determine posting date (d) and actual closing date (l)
+        dates = job.get("importantDates", [])
+        post_date = "Today"
+        last_date = "See details"
+        
+        if dates:
+            post_date = dates[0].get("date", "Today")
+            closing_found = False
+            for dt in dates:
+                ev = dt.get("event", "").lower()
+                if any(k in ev for k in ["last date", "closing", "end date", "submission", "deadline", "walk-in"]):
+                    last_date = dt.get("date", "")
+                    closing_found = True
+                    break
+            if not closing_found and len(dates) > 1:
+                last_date = dates[-1].get("date", "See details")
+
         summary_entry = {
             "id": job_id,
             "b": job.get("board", ""),
             "t": job.get("title", ""),
-            "d": job.get("importantDates", [{}])[0].get("date", "Today"),
-            "l": job.get("importantDates", [{}, {}])[1].get("date", "See details"),
+            "d": post_date,
+            "l": last_date,
             "a": job.get("advtNo", ""),
             "q": qual_val,
             "desc": job.get("overview", [""])[0],

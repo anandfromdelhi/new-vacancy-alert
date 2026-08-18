@@ -10,9 +10,10 @@ Use this skill whenever the user uploads a single PDF vacancy notification, scre
 ## Key Goals & Principles
 1. **Instant Duplicate Check**: Ensures job is not already on the site.
 2. **Zero-Loss Data Extraction**: Extracts every post code, pay level, qualification, date, fee structure, syllabus, and document rule from the PDF.
-3. **Rich Aesthetic & Visual Cards**: Includes hero mission banner, post code breakdown cards, and document upload specification boxes in `JobDetailPage.tsx`.
-4. **No Horizontal Scroll**: Guarantees all tables and grids are 100% responsive (`grid-cols-1 md:grid-cols-2 lg:grid-cols-3`, `w-full`, `max-w-full`, `break-words`).
-5. **High Speed & Low Compute**: Uses automated scripts to perform check, schema formatting, file updates, and SSG pre-rendering in seconds.
+3. **Strict Application Closing Date (`l` field)**: MUST set `l` in `jobsData.ts` to the **actual application closing/last date** (e.g. `16 September 2026`). **NEVER** set `l` to the notification release date or application start date — putting a release date in `l` causes `isJobExpired()` to prematurely hide active jobs from the Home Page!
+4. **Rich Aesthetic & Visual Cards**: Includes hero mission banner, post code breakdown cards, and document upload specification boxes in `JobDetailPage.tsx`.
+5. **No Horizontal Scroll**: Guarantees all tables and grids are 100% responsive (`grid-cols-1 md:grid-cols-2 lg:grid-cols-3`, `w-full`, `max-w-full`, `break-words`).
+6. **High Speed & Low Compute**: Uses automated scripts to perform check, schema formatting, file updates, and SSG pre-rendering in seconds.
 
 ## Fast Workflow
 
