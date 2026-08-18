@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router';
-import { Search, ArrowLeft, X, ArrowUpLeft, Sparkles, TrendingUp, Briefcase, ChevronRight, RotateCcw } from 'lucide-react';
+import { Search, ArrowLeft, X, ArrowUpLeft, Sparkles, TrendingUp, Briefcase, ChevronRight, RotateCcw, UploadCloud } from 'lucide-react';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { useNavigationLoader } from '../context/NavigationContext';
+import { useAuth } from '../context/AuthContext';
+import { getJobUploadDate } from '../utils/jobUploadDate';
 
 interface GoogleSearchOverlayProps {
   isOpen: boolean;
@@ -132,6 +134,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
   const { startLoading } = useNavigationLoader();
+  const { isAdmin } = useAuth();
 
   useEffect(() => {
     if (isOpen) {
@@ -448,6 +451,15 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                             <span className="truncate">Qual: {job.q}</span>
                             <span className="text-slate-300">•</span>
                             <span className="shrink-0 text-amber-700 font-bold">Last Date: {job.l}</span>
+                            {isAdmin && (
+                              <>
+                                <span className="text-slate-300">•</span>
+                                <span className="shrink-0 text-purple-700 font-bold flex items-center gap-0.5 bg-purple-50 border border-purple-200 px-1.5 py-0.5 rounded text-[10px]" title="Admin Only: Site Upload Date">
+                                  <UploadCloud className="w-2.5 h-2.5" />
+                                  Upload: {getJobUploadDate(job.id, job.d)}
+                                </span>
+                              </>
+                            )}
                           </div>
                         </div>
                       </div>

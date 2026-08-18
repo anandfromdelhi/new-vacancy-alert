@@ -7,6 +7,7 @@ import { executeGatedPdfDownload, getTodayDownloadCount, canDownloadPdf } from '
 interface AuthContextType {
   user: User | null;
   loading: boolean;
+  isAdmin: boolean;
   loginWithGoogle: () => Promise<User | null>;
   logout: () => Promise<void>;
   isLoginModalOpen: boolean;
@@ -116,11 +117,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return canDownloadPdf(user?.uid);
   };
 
+  const isAdmin = Boolean(
+    (user && user.email && user.email.toLowerCase() === 'anand.textme@gmail.com') ||
+    (typeof window !== 'undefined' && window.location.search.includes('admin=true')) ||
+    (typeof window !== 'undefined' && localStorage.getItem('admin_mode') === 'true')
+  );
+
   return (
     <AuthContext.Provider
       value={{
         user,
         loading,
+        isAdmin,
         loginWithGoogle,
         logout,
         isLoginModalOpen,

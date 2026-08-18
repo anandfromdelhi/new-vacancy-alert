@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router';
 import { 
   Building2, Calendar, Clock, ArrowRight, 
-  Briefcase, GraduationCap, Shield, HeartPulse, HardHat, Scale
+  Briefcase, GraduationCap, Shield, HeartPulse, HardHat, Scale, UploadCloud
 } from 'lucide-react';
 import jobsIndexData from '../data/jobs-index-generated.json';
 import { useNavigationLoader } from '../context/NavigationContext';
+import { useAuth } from '../context/AuthContext';
+import { getJobUploadDate } from '../utils/jobUploadDate';
 
 export interface JobEntry {
   id?: string;
@@ -253,6 +255,8 @@ export function JobCard({ job }: { job: JobEntry; key?: React.Key }) {
   const isAllIndia = isAllIndiaJob(job);
   const { startLoading } = useNavigationLoader();
   const formattedLastDate = formatLastDateOnly(job.l);
+  const { isAdmin } = useAuth();
+  const uploadDate = getJobUploadDate(job.id, job.d);
 
   return (
     <div className={`bg-white border-2 border-slate-200 hover:border-blue-400 rounded-xl sm:rounded-2xl p-4 sm:p-5 shadow-xs hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-3.5 sm:gap-5 relative overflow-hidden border-l-[5px] sm:border-l-[6px] ${border} min-h-[140px] md:min-h-[135px]`}>
@@ -276,6 +280,12 @@ export function JobCard({ job }: { job: JobEntry; key?: React.Key }) {
               <Calendar className="h-3 w-3 shrink-0" />
               Posted: {job.d}
             </span>
+            {isAdmin && (
+              <span className="bg-purple-100 border border-purple-300 text-purple-900 text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded flex items-center gap-1 shadow-2xs" title="Admin Only: Date when job was added to site">
+                <UploadCloud className="h-3 w-3 shrink-0 text-purple-700" />
+                Upload Date: {uploadDate}
+              </span>
+            )}
             {postsInfo.display && (
               <span className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-full">
                 🔥 {postsInfo.display}
@@ -335,6 +345,7 @@ export function JobCard({ job }: { job: JobEntry; key?: React.Key }) {
 
 export function JobTable({ jobs, navigate }: { jobs: JobEntry[]; navigate: (path: string) => void }) {
   const { startLoading } = useNavigationLoader();
+  const { isAdmin } = useAuth();
 
   const handleRowClick = (job: JobEntry) => {
     if (job.id) {
@@ -364,6 +375,7 @@ export function JobTable({ jobs, navigate }: { jobs: JobEntry[]; navigate: (path
               const compactBoard = getBoardAcronym(job.b);
               const postsInfo = getNumberOfPostsInfo(job.t, job.id);
               const formattedLastDate = formatLastDateOnly(job.l);
+              const uploadDate = getJobUploadDate(job.id, job.d);
 
               return (
                 <tr 
@@ -374,7 +386,13 @@ export function JobTable({ jobs, navigate }: { jobs: JobEntry[]; navigate: (path
                   }`}
                 >
                   <td className="px-4 py-3.5 text-xs font-semibold text-slate-600 whitespace-nowrap">
-                    {job.d}
+                    <div>{job.d}</div>
+                    {isAdmin && (
+                      <div className="text-[10px] font-black text-purple-700 bg-purple-50 px-1.5 py-0.5 rounded border border-purple-200 mt-1 inline-flex items-center gap-1" title="Admin Only: Site Upload Date">
+                        <UploadCloud className="h-2.5 w-2.5 shrink-0" />
+                        <span>Added: {uploadDate}</span>
+                      </div>
+                    )}
                   </td>
                   <td className="px-4 py-3.5 min-w-[280px]">
                     <div className="flex flex-col gap-1">

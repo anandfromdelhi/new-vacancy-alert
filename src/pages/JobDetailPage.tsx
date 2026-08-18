@@ -19,6 +19,7 @@ import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
+import { getJobUploadDate } from '../utils/jobUploadDate';
 
 const jobModules = (import.meta as any).glob ? (import.meta as any).glob('../data/jobs-generated/*.json', { eager: false }) : {};
 
@@ -61,7 +62,7 @@ export default function JobDetailPage() {
   const [flashedSection, setFlashedSection] = useState<string | null>(null);
   const [isCommentsOpen, setIsCommentsOpen] = useState(false);
   const [commentCount, setCommentCount] = useState(0);
-  const { requireAuthForAction, requireAuthForDownloadAction } = useAuth();
+  const { requireAuthForAction, requireAuthForDownloadAction, isAdmin } = useAuth();
   const [faqSearch, setFaqSearch] = useState('');
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
@@ -951,6 +952,12 @@ export default function JobDetailPage() {
                 <span className="bg-rose-500/10 text-rose-300 border border-rose-400/25 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[10px] sm:text-xs font-black uppercase tracking-wider flex items-center gap-1 sm:gap-1.5">
                   <Users className="h-3 w-3 sm:h-3.5 sm:w-3.5" /> {job.vacancies} Vacancies
                 </span>
+                {isAdmin && (
+                  <span className="bg-purple-500/20 text-purple-200 border border-purple-400/40 px-2.5 py-1 sm:px-3.5 sm:py-1.5 rounded-lg text-[10px] sm:text-xs font-black uppercase tracking-wider flex items-center gap-1.5 shadow-sm" title="Admin Only: Date when job was added to site">
+                    <UploadCloud className="h-3.5 w-3.5 text-purple-300" />
+                    Site Upload Date: {getJobUploadDate(job?.id || matchedKey, job?.lastUpdated || job?.d)}
+                  </span>
+                )}
               </div>
               <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-3 sm:mb-4 tracking-tight print:text-black print:text-3xl">
                 {job.title}
