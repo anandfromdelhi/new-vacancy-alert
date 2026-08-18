@@ -9,9 +9,8 @@ import { QUAL_CATEGORIES, STATE_MAP } from '../src/utils/categoryUtils.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// How many pages to render concurrently. 10-20 is usually the sweet spot —
-// too high and you just thrash the CPU/GC instead of actually going faster.
-const CONCURRENCY = 15;
+// How many pages to render concurrently.
+const CONCURRENCY = 50;
 
 async function prerender() {
   const distDir = path.join(__dirname, '../dist');
