@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "upsssc-veterinary-pharmacist-recruitment-2026",
+    "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow",
+    "t": "UPSSSC Veterinary Pharmacist Recruitment 2026: Apply Online for 1,308 Posts | Advt No: 18-Exam/2026",
+    "d": "14 August 2026",
+    "l": "05 October 2026",
+    "a": "Advt No. 18-Exam/2026 (PET-2025/18)",
+    "q": "12th (Science/Biology) + 2-Yr 3-Mo Diploma in Veterinary Pharmacy",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued advertisement Advt No. 18-Exam/2026 for Veterinary Pharmacist Main Examination (PET-2025)/18 to fill 1,308 vacancies of Veterinary Pharmacist under the Directorate of Animal Husbandry, Government of Uttar Pradesh.",
+    "u": "http://upsssc.gov.in"
+},
+  {
     "id": "icds-up-kanpur-nagar-anganwadi-sahayika-recruitment-2026",
     "b": "District Program Officer (ICDS), Kanpur Nagar, Uttar Pradesh",
     "t": "UP Kanpur Nagar Anganwadi Sahayika Recruitment 2026: Apply Online for 307 Vacancies | ICDS UP",
