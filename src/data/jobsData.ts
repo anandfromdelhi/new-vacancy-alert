@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rrb-je-dms-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
+    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026: Apply Online for 3,993 Vacancies | CEN No. 04/2026",
+    "d": "25 July 2026",
+    "l": "13 September 2026",
+    "a": "CEN No. 04/2026 (JE/DMS)",
+    "q": "Diploma in Engineering / B.E. / B.Tech (Civil, Mech, Elect, ECE, CS/IT)",
+    "desc": "Railway Recruitment Boards (RRBs) have issued the detailed Centralised Employment Notice CEN No. 04/2026 for the recruitment of 3,993 vacancies for various posts of Junior Engineer (JE) and Depot Material Superintendent (DMS) across 21 Railway Recruitment Boards.",
+    "u": "https://rrbapply.gov.in"
+},
+  {
     "id": "aai-northern-region-apprentice-recruitment-2026",
     "b": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi",
     "t": "AAI Northern Region Apprentice Recruitment 2026: Apply Online for 205 Vacancies (Graduate, Diploma & ITI Trade) | Advt No: 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR",
