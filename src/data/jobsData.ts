@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ruhs-medical-officer-recruitment-2026",
+    "b": "Rajasthan University of Health Sciences (RUHS), Jaipur / Medical & Health Services Dept, Govt of Rajasthan",
+    "t": "RUHS Medical Officer Recruitment 2026: Apply Online for 600 Posts | Medical Officer Direct Recruitment Examination 2026",
+    "d": "13 August 2026",
+    "l": "13 October 2026",
+    "a": "F-11()/Entrance & Recruitment Cell/RUHS/2026/1173",
+    "q": "MBBS Degree + Registration with Rajasthan Medical Council (RMC)",
+    "desc": "Rajasthan University of Health Sciences (RUHS), Jaipur has released notification No. F-11()/Entrance & Recruitment Cell/RUHS/2026/1173 dated 13.08.2026 for Medical Officer Direct Recruitment Examination 2026 to fill 600 Posts of Medical Officer (Medical) under the Rajasthan Medical Services Rules-1963 for the Medical, Health & Family Welfare Department, Government of Rajasthan.",
+    "u": "https://www.ruhsraj.org"
+},
+  {
     "id": "rrb-je-dms-recruitment-2026",
     "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
     "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026: Apply Online for 3,993 Vacancies | CEN No. 04/2026",
