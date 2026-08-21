@@ -50,21 +50,26 @@ export function getPageMetaData(urlPath: string) {
   let title = "Latest Government Jobs 2026 & Job Alerts | NewVacancyAlert";
   let description =
     "Get the latest central and state government job notifications for 2026, upcoming active vacancies, admit cards, exam keys, and verified results instantly.";
-  let ogUrl = `https://newvacancyalert.in/${cleanPath}`;
+  let ogUrl = cleanPath === "" || cleanPath === "index.html" 
+    ? "https://newvacancyalert.in/" 
+    : `https://newvacancyalert.in/${cleanPath}`;
   let faqSchema: object | null = null;
 
   if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks") {
     title = "AIIMS NORCET Previous Year Cutoff (Last 3 Exams) | NewVacancyAlert";
     description =
       "Detailed category-wise analysis of NORCET 8, 9, and 10 cutoffs. Predict expected cutoffs for NORCET 11 and download solved question papers PDF.";
+    ogUrl = "https://newvacancyalert.in/aiims-norcet-11-nursing-officer-2026/cutoff";
   } 
   else if (cleanPath === "salary-calculator" || cleanPath === "govt-job-salary-calculator") {
     title = "7th Pay Commission Salary Calculator 2026 | NewVacancyAlert";
     description = "Calculate exact net in-hand salary for central and state government jobs including basic pay, DA, HRA, TA, and deductions.";
+    ogUrl = "https://newvacancyalert.in/salary-calculator";
   }
   else if (cleanPath === "ssc-exam-calendar" || cleanPath === "ssc-exam-calendar-2026-27") {
     title = "SSC Exam Calendar 2026-27 Notification Dates | NewVacancyAlert";
     description = "Complete official exam dates, notification releases, and application schedules for SSC CGL, CHSL, MTS, CPO, and GD Constable.";
+    ogUrl = "https://newvacancyalert.in/ssc-exam-calendar";
   }
   else if (cleanPath === "rrb-exam-calendar-2026-27") {
     title = "RRB Railway Exam Calendar 2026-27 Official Dates | NewVacancyAlert";
