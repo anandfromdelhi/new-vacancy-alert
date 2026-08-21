@@ -55,7 +55,12 @@ export function getPageMetaData(urlPath: string) {
     : `https://newvacancyalert.in/${cleanPath}`;
   let faqSchema: object | null = null;
 
-  if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks") {
+  let isNotFound = false;
+
+  if (cleanPath === "" || cleanPath === "index.html") {
+    // Home page - default title & description
+  }
+  else if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks") {
     title = "AIIMS NORCET Previous Year Cutoff (Last 3 Exams) | NewVacancyAlert";
     description =
       "Detailed category-wise analysis of NORCET 8, 9, and 10 cutoffs. Predict expected cutoffs for NORCET 11 and download solved question papers PDF.";
@@ -98,6 +103,10 @@ export function getPageMetaData(urlPath: string) {
   else if (cleanPath === "rss-feed") {
     title = "RSS Feed & Notification Subscriptions | NewVacancyAlert";
     description = "Subscribe to live RSS job feeds for central and state government recruitment updates.";
+  }
+  else if (cleanPath === "marketing-partner" || cleanPath === "marketing-partner/dashboard" || cleanPath === "marketing-partner/terms") {
+    title = "Marketing Partner Program | NewVacancyAlert";
+    description = "Partner with NewVacancyAlert to reach lakhs of government exam aspirants across India.";
   }
   else if (cleanPath.startsWith("rrb-technician-cen-02-2026/")) {
     const subSlug = cleanPath.replace("rrb-technician-cen-02-2026/", "");
@@ -147,11 +156,17 @@ export function getPageMetaData(urlPath: string) {
       };
     }
   }
+  else {
+    // Unmatched / non-existent route
+    isNotFound = true;
+    title = "Page Not Found | NewVacancyAlert";
+    description = "The requested job notification or page could not be located. Browse active recruitment updates on NewVacancyAlert.";
+  }
 
-  return { title, description, ogUrl, faqSchema };
+  return { title, description, ogUrl, faqSchema, isNotFound };
 }
 
-export function injectMetaTags(htmlTemplate: string, meta: { title: string; description: string; ogUrl: string; faqSchema?: object | null }) {
+export function injectMetaTags(htmlTemplate: string, meta: { title: string; description: string; ogUrl: string; faqSchema?: object | null; isNotFound?: boolean }) {
   const safeTitle = escapeHtml(meta.title);
   const safeDesc = escapeHtml(meta.description);
 
@@ -192,9 +207,15 @@ export function injectMetaTags(htmlTemplate: string, meta: { title: string; desc
     html = html.replace('</head>', `<link rel="canonical" href="${safeCanonical}" />\n</head>`);
   }
 
-  // Meta Robots Tag
-  if (!/<meta name="robots"/gi.test(html)) {
-    html = html.replace('</head>', `<meta name="robots" content="index, follow, max-image-preview:large" />\n</head>`);
+  // Meta Robots Tag (noindex for 404s to avoid Soft 404 penalties)
+  const robotsDirective = meta.isNotFound 
+    ? "noindex, nofollow" 
+    : "index, follow, max-image-preview:large";
+
+  if (/<meta name="robots"/gi.test(html)) {
+    html = html.replace(/<meta name="robots" content=".*?" \/>/gi, `<meta name="robots" content="${robotsDirective}" />`);
+  } else {
+    html = html.replace('</head>', `<meta name="robots" content="${robotsDirective}" />\n</head>`);
   }
 
   if (meta.faqSchema) {

@@ -141,7 +141,8 @@ export async function startServer() {
       try {
         const rawHtml = fs.readFileSync(indexHtmlPath, "utf-8");
         const html = injectMetaTags(rawHtml, meta);
-        res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).send(html);
+        const statusCode = meta.isNotFound ? 404 : 200;
+        res.status(statusCode).set({ "Content-Type": "text/html; charset=utf-8" }).send(html);
       } catch (err) {
         res.status(500).send("Error loading application");
       }
