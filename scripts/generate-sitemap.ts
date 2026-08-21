@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { jobDetailsData } from '../src/data/jobDetails.js';
+import { JOBS_DATA } from '../src/data/jobsData.js';
+import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -17,6 +19,9 @@ async function generateSitemap() {
 
   const jobs = Object.values(jobDetailsData);
   const now = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+
+  const stateList = getStatesWithCounts(JOBS_DATA);
+  const boardList = getBoardsWithCounts(JOBS_DATA);
 
   // Define static routes
   const staticRoutes = [
@@ -76,6 +81,46 @@ async function generateSitemap() {
     <lastmod>${now}</lastmod>
     <changefreq>${route.changefreq}</changefreq>
     <priority>${route.priority}</priority>
+  </url>`;
+  });
+
+  // Add qualification category routes
+  QUAL_CATEGORIES.forEach(cat => {
+    xml += `
+  <url>
+    <loc>${BASE_URL}/jobs-for/${cat.slug}</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+  });
+
+  // Add state routes
+  stateList.forEach(st => {
+    xml += `
+  <url>
+    <loc>${BASE_URL}/state/${st.slug}</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+  });
+  xml += `
+  <url>
+    <loc>${BASE_URL}/state/all-india</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+
+  // Add board routes
+  boardList.forEach(bd => {
+    xml += `
+  <url>
+    <loc>${BASE_URL}/board/${bd.slug}</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>`;
   });
 

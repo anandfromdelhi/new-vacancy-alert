@@ -156,8 +156,8 @@ export async function startServer() {
   });
 }
 
-// Only auto-start server if explicitly run as main server process
-if (!process.env.VERCEL && (process.env.START_SERVER === "true" || process.env.NODE_ENV === "development")) {
+// Only auto-start server if not running in Vercel serverless function environment
+if (!process.env.VERCEL) {
   startServer().catch(console.error);
 }
 

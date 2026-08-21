@@ -2,9 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { jobDetailsData } from '../src/data/jobDetails.js';
-import { getPageMetaData, injectMetaTags } from '../server.js';
+import { JOBS_DATA } from '../src/data/jobsData.js';
+import { getPageMetaData, injectMetaTags } from '../src/utils/metaHelper.js';
 import { render } from '../src/entry-server.js';
-import { QUAL_CATEGORIES, STATE_MAP } from '../src/utils/categoryUtils.js';
+import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -60,12 +61,22 @@ async function prerender() {
     '/marketing-partner/terms',
   ]);
 
+  // 1. Qualification Category Routes
   QUAL_CATEGORIES.forEach(cat => {
     routes.add(`/jobs-for/${cat.slug}`);
   });
 
-  Object.keys(STATE_MAP).forEach(stateKey => {
-    routes.add(`/state/${stateKey}`);
+  // 2. State Routes (slugified)
+  const stateList = getStatesWithCounts(JOBS_DATA);
+  stateList.forEach(st => {
+    routes.add(`/state/${st.slug}`);
+  });
+  routes.add('/state/all-india');
+
+  // 3. Board Routes (slugified)
+  const boardList = getBoardsWithCounts(JOBS_DATA);
+  boardList.forEach(bd => {
+    routes.add(`/board/${bd.slug}`);
   });
 
   const subPages = [
@@ -256,9 +267,29 @@ async function prerender() {
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+
+  // Static pages
   staticRoutes.forEach(route => {
     xml += `\n  <url><loc>${BASE_URL}${route.url}</loc><lastmod>${now}</lastmod><changefreq>${route.changefreq}</changefreq><priority>${route.priority}</priority></url>`;
   });
+
+  // Qualification Category pages
+  QUAL_CATEGORIES.forEach(cat => {
+    xml += `\n  <url><loc>${BASE_URL}/jobs-for/${cat.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+
+  // State pages
+  stateList.forEach(st => {
+    xml += `\n  <url><loc>${BASE_URL}/state/${st.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+  xml += `\n  <url><loc>${BASE_URL}/state/all-india</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+
+  // Board pages
+  boardList.forEach(bd => {
+    xml += `\n  <url><loc>${BASE_URL}/board/${bd.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+
+  // Job Detail pages
   Object.values(jobDetailsData).forEach(job => {
     const lastMod = parseIso(job.lastUpdated, now);
     xml += `\n  <url><loc>${BASE_URL}/${job.id}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`;

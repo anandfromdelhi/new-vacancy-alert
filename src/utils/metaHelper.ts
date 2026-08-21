@@ -120,19 +120,21 @@ export function getPageMetaData(urlPath: string) {
     }
   }
   else if (cleanPath.startsWith("state/")) {
-    const stateName = cleanPath.replace("state/", "").replace(/-/g, " ").toUpperCase();
+    const rawState = cleanPath.replace("state/", "").replace(/-/g, " ");
+    const stateName = rawState.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
     title = `${stateName} Government Jobs 2026 Notifications | NewVacancyAlert`;
-    description = `Find all active public sector, state PSC, and government job vacancies in ${stateName}.`;
+    description = `Find all active public sector, state PSC, and government job vacancies in ${stateName}. Direct PDF notifications, eligibility, and apply online links.`;
   }
   else if (cleanPath.startsWith("board/")) {
-    const boardName = cleanPath.replace("board/", "").replace(/-/g, " ").toUpperCase();
-    title = `${boardName} Recruitment 2026 Notifications & Results | NewVacancyAlert`;
-    description = `Latest active job alerts, exam schedules, and results for ${boardName}.`;
+    const rawBoard = cleanPath.replace("board/", "").replace(/-/g, " ").toUpperCase();
+    title = `${rawBoard} Recruitment 2026 Notifications & Results | NewVacancyAlert`;
+    description = `Latest active job alerts, exam schedules, eligibility, and results for ${rawBoard}. Verified govt job notifications with direct official links.`;
   }
   else if (cleanPath.startsWith("jobs-for/")) {
-    const qual = cleanPath.replace("jobs-for/", "").replace(/-/g, " ").toUpperCase();
-    title = `Government Jobs for ${qual} Pass Candidates 2026 | NewVacancyAlert`;
-    description = `Explore active government job opportunities requiring ${qual} eligibility.`;
+    const rawQual = cleanPath.replace("jobs-for/", "").replace(/-/g, " ");
+    const qualName = rawQual.split(" ").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    title = `Government Jobs for ${qualName} 2026 | NewVacancyAlert`;
+    description = `Explore active central and state government job opportunities requiring ${qualName} eligibility. Check vacancies, salary, exam dates, and apply.`;
   }
   else if (cleanPath && (jobsIndexData as Record<string, any>)[cleanPath]) {
     const job = (jobsIndexData as Record<string, any>)[cleanPath];
@@ -197,6 +199,10 @@ export function injectMetaTags(htmlTemplate: string, meta: { title: string; desc
   html = html.replace(
     /<meta property="twitter:description" content=".*?" \/>/gi,
     `<meta property="twitter:description" content="${safeDesc}" />`
+  );
+  html = html.replace(
+    /<meta property="twitter:url" content=".*?" \/>/gi,
+    `<meta property="twitter:url" content="${escapeHtml(meta.ogUrl)}" />`
   );
 
   // Canonical Link Tag

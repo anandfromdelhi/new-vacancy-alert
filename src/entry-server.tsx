@@ -106,7 +106,7 @@ export function render(url: string) {
               <Routes>
                 <Route path="/" element={<MainLayout />}>
                   <Route index element={<HomePage />} />
-                  <Route path="index.html" element={<Navigate to="/" replace />} />
+                  <Route path="index.html" element={<HomePage />} />
                   <Route path="archives" element={<ArchivesPage />} />
                   <Route path="jobs-for/:qualification" element={<QualificationJobsPage />} />
                   <Route path="state/:stateSlug" element={<StateJobsPage />} />
@@ -118,15 +118,15 @@ export function render(url: string) {
                   <Route path="rss-feed" element={<RssFeedPage />} />
 
                   <Route path="salary-calculator" element={<SalaryCalculatorArticle />} />
-                  <Route path="govt-job-salary-calculator" element={<Navigate to="/salary-calculator" replace />} />
+                  <Route path="govt-job-salary-calculator" element={<SalaryCalculatorArticle />} />
                   <Route path="marketing-partner" element={<MarketingPartnerPage />} />
                   <Route path="marketing-partner/dashboard" element={<MarketingDashboardPage />} />
                   <Route path="marketing-partner/terms" element={<MarketingTermsPage />} />
                   <Route path="ssc-exam-calendar" element={<SscCalendarArticle />} />
-                  <Route path="ssc-exam-calendar-2026-27" element={<Navigate to="/ssc-exam-calendar" replace />} />
+                  <Route path="ssc-exam-calendar-2026-27" element={<SscCalendarArticle />} />
                   <Route path="rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />
                   <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
-                  <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
+                  <Route path="aiims-norcet-11-cutoff-marks" element={<NorcetCutoffArticle />} />
 
                   {/* RRB Technician Notification Detailed Sub-Pages */}
                   <Route path="rrb-technician-cen-02-2026/posts-and-vacancies" element={<PostsAndVacancies />} />
