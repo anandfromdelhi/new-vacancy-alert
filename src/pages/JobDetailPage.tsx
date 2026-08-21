@@ -21,7 +21,10 @@ import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
 import { getJobUploadDate } from '../utils/jobUploadDate';
 
-const jobModules = (import.meta as any).glob ? (import.meta as any).glob('../data/jobs-generated/*.json', { eager: false }) : {};
+const jobModules: Record<string, () => Promise<any>> =
+  typeof (import.meta as any).glob === 'function'
+    ? (import.meta as any).glob('../data/jobs-generated/*.json')
+    : {};
 
 const isNoData = (val: any): boolean => {
   if (val === null || val === undefined) return true;
@@ -366,6 +369,38 @@ export default function JobDetailPage() {
       }
     }))
   };
+
+  // SEO Internal Linking: Calculate 6 Related & Trending Vacancies
+  const relatedJobs = useMemo(() => {
+    if (!job) return [];
+    const indexEntries = Object.entries(jobsIndexData as Record<string, any>);
+    const currentId = (job.id || id || '').toLowerCase();
+    const currentBoard = (job.board || '').toLowerCase();
+    const currentTitle = (job.title || '').toLowerCase();
+
+    const matches = indexEntries.filter(([k, j]) => {
+      if (k.toLowerCase() === currentId) return false;
+      const b = (j.board || '').toLowerCase();
+      const t = (j.title || '').toLowerCase();
+      if (currentBoard && (b.includes(currentBoard) || currentBoard.includes(b))) return true;
+      const keywords = ['apprentice', 'aiims', 'railway', 'rrb', 'bank', 'sbi', 'ibps', 'drdo', 'isro', 'esic', 'teacher', 'constable', 'engineer', 'court', 'clerk', 'nursing', 'medical'];
+      for (const kw of keywords) {
+        if (currentTitle.includes(kw) && (t.includes(kw) || b.includes(kw))) return true;
+      }
+      return false;
+    });
+
+    const result = matches.slice(0, 6);
+    if (result.length < 6) {
+      for (const [k, j] of indexEntries) {
+        if (k.toLowerCase() !== currentId && !result.some(([rk]) => rk === k)) {
+          result.push([k, j]);
+          if (result.length >= 6) break;
+        }
+      }
+    }
+    return result.map(([k, j]) => ({ id: k, ...j }));
+  }, [job, id]);
 
   useEffect(() => {
     if (typeof navigator !== 'undefined' && navigator.share) {
@@ -828,37 +863,6 @@ export default function JobDetailPage() {
     spec.region.toLowerCase().includes(vacancySearch.toLowerCase())
   );
 
-  // SEO Internal Linking: Calculate 6 Related & Trending Vacancies
-  const relatedJobs = useMemo(() => {
-    if (!job) return [];
-    const indexEntries = Object.entries(jobsIndexData as Record<string, any>);
-    const currentId = (job.id || id || '').toLowerCase();
-    const currentBoard = (job.board || '').toLowerCase();
-    const currentTitle = (job.title || '').toLowerCase();
-
-    const matches = indexEntries.filter(([k, j]) => {
-      if (k.toLowerCase() === currentId) return false;
-      const b = (j.board || '').toLowerCase();
-      const t = (j.title || '').toLowerCase();
-      if (currentBoard && (b.includes(currentBoard) || currentBoard.includes(b))) return true;
-      const keywords = ['apprentice', 'aiims', 'railway', 'rrb', 'bank', 'sbi', 'ibps', 'drdo', 'isro', 'esic', 'teacher', 'constable', 'engineer', 'court', 'clerk', 'nursing', 'medical'];
-      for (const kw of keywords) {
-        if (currentTitle.includes(kw) && (t.includes(kw) || b.includes(kw))) return true;
-      }
-      return false;
-    });
-
-    const result = matches.slice(0, 6);
-    if (result.length < 6) {
-      for (const [k, j] of indexEntries) {
-        if (k.toLowerCase() !== currentId && !result.some(([rk]) => rk === k)) {
-          result.push([k, j]);
-          if (result.length >= 6) break;
-        }
-      }
-    }
-    return result.map(([k, j]) => ({ id: k, ...j }));
-  }, [job, id]);
 
   return (
     <div id="printable-job-content" className="w-full bg-slate-50 min-h-screen pb-24 lg:pb-12 relative print:bg-white print:pb-0">
