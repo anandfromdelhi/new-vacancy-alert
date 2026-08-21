@@ -152,6 +152,32 @@ async function prerender() {
         jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(faqSchema)}\n</script>`);
       }
 
+      const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://newvacancyalert.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": job.board || "Government Jobs",
+            "item": "https://newvacancyalert.in/#search"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": job.title,
+            "item": `https://newvacancyalert.in/${job.id || cleanRoute}`
+          }
+        ]
+      };
+      jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(breadcrumbSchema)}\n</script>`);
+
       jsonLdScripts.push(`<script id="__SSR_JOB_DATA__" type="application/json">${JSON.stringify(job)}</script>`);
       pageHtml = pageHtml.replace('</head>', `${jsonLdScripts.join('\n')}\n</head>`);
     }
