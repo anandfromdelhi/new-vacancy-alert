@@ -5,15 +5,33 @@ import { jobDetailsData } from '../src/data/jobDetails.js';
 import { getPageMetaData, injectMetaTags } from '../server.js';
 import { render } from '../src/entry-server.js';
 import { QUAL_CATEGORIES, STATE_MAP } from '../src/utils/categoryUtils.js';
+import { generateRssXml } from '../src/utils/rssGenerator.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const BASE_URL = 'https://newvacancyalert.in';
+const CONCURRENCY = 60;
 
-// How many pages to render concurrently.
-const CONCURRENCY = 50;
+function parseIso(raw: string | undefined, fallback: string): string {
+  if (!raw) return fallback;
+  const str = raw.trim();
+  const matchDmy = str.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})$/);
+  if (matchDmy) {
+    return `${matchDmy[3]}-${matchDmy[2].padStart(2, '0')}-${matchDmy[1].padStart(2, '0')}`;
+  }
+  const d = new Date(str);
+  if (!isNaN(d.getTime())) {
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+  return fallback;
+}
 
 async function prerender() {
   const distDir = path.join(__dirname, '../dist');
+  const publicDir = path.join(__dirname, '../public');
   const indexHtmlPath = path.join(distDir, 'index.html');
 
   if (!fs.existsSync(indexHtmlPath)) {
@@ -21,7 +39,7 @@ async function prerender() {
     process.exit(1);
   }
 
-  const rawTemplate = fs.readFileSync(indexHtmlPath, 'utf-8');
+  const rawTemplate = await fs.promises.readFile(indexHtmlPath, 'utf-8');
 
   // Collect all static routes
   const routes = new Set<string>([
@@ -69,8 +87,7 @@ async function prerender() {
     routes.add(`/${jobId}`);
   });
 
-  // --- Per-route work, unchanged logic, just extracted into a function ---
-  function renderRoute(routePath: string) {
+  async function renderRoute(routePath: string): Promise<void> {
     let pageHtml = rawTemplate;
 
     try {
@@ -86,31 +103,10 @@ async function prerender() {
     pageHtml = injectMetaTags(pageHtml, meta);
 
     const cleanRoute = routePath.replace(/^\/+|\/+$/g, '');
-    const matchedKey = Object.keys(jobDetailsData).find(
-      k => k === cleanRoute || k.toLowerCase() === cleanRoute.toLowerCase()
-    );
-    const job = matchedKey ? jobDetailsData[matchedKey] : null;
+    const job = (jobDetailsData as Record<string, any>)[cleanRoute] || null;
 
     if (job) {
       const jsonLdScripts: string[] = [];
-
-      const parseIso = (raw: string | undefined, fallback: string): string => {
-        if (!raw) return fallback;
-        const str = raw.trim();
-        const matchDmy = str.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})$/);
-        if (matchDmy) {
-          return `${matchDmy[3]}-${matchDmy[2].padStart(2, '0')}-${matchDmy[1].padStart(2, '0')}`;
-        }
-        const d = new Date(str);
-        if (!isNaN(d.getTime())) {
-          const year = d.getFullYear();
-          const month = String(d.getMonth() + 1).padStart(2, '0');
-          const day = String(d.getDate()).padStart(2, '0');
-          return `${year}-${month}-${day}`;
-        }
-        return fallback;
-      };
-
       const rawLastDate = job.importantDates?.find((d: any) => d.event && d.event.toLowerCase().includes('last date'))?.date;
 
       const jobSchema = {
@@ -141,7 +137,7 @@ async function prerender() {
           }
         }
       };
-      jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(jobSchema, null, 2)}\n</script>`);
+      jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(jobSchema)}\n</script>`);
 
       if (job.faqs && job.faqs.length > 0) {
         const faqSchema = {
@@ -153,40 +149,110 @@ async function prerender() {
             "acceptedAnswer": { "@type": "Answer", "text": f.answer }
           }))
         };
-        jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(faqSchema, null, 2)}\n</script>`);
+        jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(faqSchema)}\n</script>`);
       }
 
       jsonLdScripts.push(`<script id="__SSR_JOB_DATA__" type="application/json">${JSON.stringify(job)}</script>`);
-
       pageHtml = pageHtml.replace('</head>', `${jsonLdScripts.join('\n')}\n</head>`);
     }
 
     if (routePath === '/') {
-      fs.writeFileSync(indexHtmlPath, pageHtml);
+      await fs.promises.writeFile(indexHtmlPath, pageHtml, 'utf-8');
     } else {
       const targetDir = path.join(distDir, cleanRoute);
-      fs.mkdirSync(targetDir, { recursive: true });
-      fs.writeFileSync(path.join(targetDir, 'index.html'), pageHtml);
+      await fs.promises.mkdir(targetDir, { recursive: true });
+      await fs.promises.writeFile(path.join(targetDir, 'index.html'), pageHtml, 'utf-8');
     }
   }
 
-  // --- Batch execution instead of one-at-a-time ---
+  // --- Batch execution in parallel ---
   const routeList = Array.from(routes);
   let generatedCount = 0;
 
   for (let i = 0; i < routeList.length; i += CONCURRENCY) {
     const batch = routeList.slice(i, i + CONCURRENCY);
     await Promise.all(
-      batch.map(routePath =>
-        Promise.resolve().then(() => {
-          renderRoute(routePath);
-          generatedCount++;
-        })
-      )
+      batch.map(async routePath => {
+        await renderRoute(routePath);
+        generatedCount++;
+      })
     );
   }
 
   console.log(`🚀 SSG Pre-rendering completed! Successfully pre-rendered full HTML content & JSON-LD for ${generatedCount} URLs.`);
+
+  // Generate Sitemap, RSS feeds, and robots.txt asynchronously in parallel
+  const now = new Date().toISOString().split('T')[0];
+  const staticRoutes = [
+    { url: '/', priority: '1.0', changefreq: 'daily' },
+    { url: '/articles', priority: '0.8', changefreq: 'daily' },
+    { url: '/archives', priority: '0.8', changefreq: 'daily' },
+    { url: '/salary-calculator', priority: '0.8', changefreq: 'monthly' },
+    { url: '/ssc-exam-calendar', priority: '0.8', changefreq: 'monthly' },
+    { url: '/rrb-exam-calendar-2026-27', priority: '0.8', changefreq: 'monthly' },
+    { url: '/aiims-norcet-11-nursing-officer-2026/cutoff', priority: '0.8', changefreq: 'monthly' },
+    { url: '/about', priority: '0.5', changefreq: 'monthly' },
+    { url: '/contact', priority: '0.5', changefreq: 'monthly' },
+    { url: '/privacy-policy', priority: '0.3', changefreq: 'monthly' },
+    { url: '/rss-feed', priority: '0.5', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/posts-and-vacancies', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/important-dates', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/important-instructions', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/general-instructions', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/vacancy-details', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/medical-standards', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/nationality-citizenship', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/age-limit', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/age-relaxation', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/educational-qualification', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/application-fee', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/reservation', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/ex-serviceman', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/pwbd', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/scribe-facility', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/recruitment-process', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/cbt-details', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/document-verification', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/how-to-apply', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/create-account', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/application-guidelines', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/live-photo-instructions', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/documents-required', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/application-correction', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/invalid-applications', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/e-call-letter', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/original-document-verification', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/unfair-means-and-debarment', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/rrb-websites', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/post-parameters', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/zone-wise-vacancy', priority: '0.7', changefreq: 'monthly' },
+    { url: '/rrb-technician-cen-02-2026/merged-post-categories', priority: '0.7', changefreq: 'monthly' }
+  ];
+
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+  staticRoutes.forEach(route => {
+    xml += `\n  <url><loc>${BASE_URL}${route.url}</loc><lastmod>${now}</lastmod><changefreq>${route.changefreq}</changefreq><priority>${route.priority}</priority></url>`;
+  });
+  Object.values(jobDetailsData).forEach(job => {
+    const lastMod = parseIso(job.lastUpdated, now);
+    xml += `\n  <url><loc>${BASE_URL}/${job.id}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`;
+  });
+  xml += `\n</urlset>`;
+
+  const rssXmlContent = generateRssXml();
+  const robotsTxt = `User-agent: *\nAllow: /\n\nSitemap: ${BASE_URL}/sitemap.xml\n`;
+
+  await Promise.all([
+    fs.promises.writeFile(path.join(publicDir, 'sitemap.xml'), xml),
+    fs.promises.writeFile(path.join(publicDir, 'rss.xml'), rssXmlContent),
+    fs.promises.writeFile(path.join(publicDir, 'feed.xml'), rssXmlContent),
+    fs.promises.writeFile(path.join(publicDir, 'robots.txt'), robotsTxt),
+    fs.promises.writeFile(path.join(distDir, 'sitemap.xml'), xml),
+    fs.promises.writeFile(path.join(distDir, 'rss.xml'), rssXmlContent),
+    fs.promises.writeFile(path.join(distDir, 'feed.xml'), rssXmlContent),
+    fs.promises.writeFile(path.join(distDir, 'robots.txt'), robotsTxt)
+  ]);
+  console.log('✅ Sitemap, RSS feeds & robots.txt generated.');
 }
 
 prerender().catch(err => {

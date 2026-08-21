@@ -62,6 +62,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import jobsIndexData from './data/jobs-index-generated.json';
+import { jobDetailsData } from './data/jobDetails.js';
 import ZoneWiseVacancy from './pages/notification-sections/ZoneWiseVacancy';
 import MergedPostCategories from './pages/notification-sections/MergedPostCategories';
 
@@ -92,15 +93,8 @@ export function render(url: string) {
     }
   }
 
-  if (matchedKey) {
-    try {
-      const filePath = path.join(__dirname, `data/jobs-generated/${matchedKey}.json`);
-      if (fs.existsSync(filePath)) {
-        (globalThis as any).__SSR_JOB_DATA__ = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      }
-    } catch (e) {
-      // Fallback ignore
-    }
+  if (matchedKey && (jobDetailsData as Record<string, any>)[matchedKey]) {
+    (globalThis as any).__SSR_JOB_DATA__ = (jobDetailsData as Record<string, any>)[matchedKey];
   }
 
   const html = ReactDOMServer.renderToString(
