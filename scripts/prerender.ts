@@ -199,6 +199,14 @@ async function prerender() {
       const targetDir = path.join(distDir, cleanRoute);
       await fs.promises.mkdir(targetDir, { recursive: true });
       await fs.promises.writeFile(path.join(targetDir, 'index.html'), pageHtml, 'utf-8');
+
+      // Also create flat .html file for hosts that lookup route.html before directory index
+      const flatHtmlPath = path.join(distDir, `${cleanRoute}.html`);
+      const flatParentDir = path.dirname(flatHtmlPath);
+      if (flatParentDir !== distDir) {
+        await fs.promises.mkdir(flatParentDir, { recursive: true });
+      }
+      await fs.promises.writeFile(flatHtmlPath, pageHtml, 'utf-8');
     }
   }
 
