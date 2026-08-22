@@ -7,6 +7,7 @@ import { getPageMetaData, injectMetaTags } from '../src/utils/metaHelper.js';
 import { render } from '../src/entry-server.js';
 import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
+import jobsIndexData from '../src/data/jobs-index-generated.json' with { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -97,6 +98,16 @@ async function prerender() {
   Object.keys(jobDetailsData).forEach(jobId => {
     routes.add(`/${jobId}`);
   });
+
+  Object.keys(jobsIndexData).forEach(jobId => {
+    routes.add(`/${jobId}`);
+  });
+
+  JOBS_DATA.forEach(job => {
+    if (job.id) routes.add(`/${job.id}`);
+  });
+
+  console.log(`📋 Discovered ${routes.size} total routes to pre-render for SSG...`);
 
   async function renderRoute(routePath: string): Promise<void> {
     let pageHtml = rawTemplate;
@@ -222,6 +233,7 @@ async function prerender() {
         generatedCount++;
       })
     );
+    console.log(`  ⚡ Prerendered ${generatedCount}/${routeList.length} pages...`);
   }
 
   console.log(`🚀 SSG Pre-rendering completed! Successfully pre-rendered full HTML content & JSON-LD for ${generatedCount} URLs.`);
@@ -298,7 +310,18 @@ async function prerender() {
   });
 
   // Job Detail pages
-  Object.values(jobDetailsData).forEach(job => {
+  const allJobMap = new Map<string, any>();
+  Object.values(jobDetailsData).forEach((job: any) => {
+    if (job && job.id) allJobMap.set(job.id, job);
+  });
+  Object.values(jobsIndexData).forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+  JOBS_DATA.forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+
+  allJobMap.forEach(job => {
     const lastMod = parseIso(job.lastUpdated, now);
     xml += `\n  <url><loc>${BASE_URL}/${job.id}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`;
   });
@@ -320,7 +343,13 @@ async function prerender() {
   console.log('✅ Sitemap, RSS feeds & robots.txt generated.');
 }
 
-prerender().catch(err => {
-  console.error('❌ Error during SSG prerendering:', err);
-  process.exit(1);
-});
+prerender()
+  .then(() => {
+    console.log('✨ All static pages successfully generated. Exiting process.');
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error('❌ Error during SSG prerendering:', err);
+    process.exit(1);
+  });
+
