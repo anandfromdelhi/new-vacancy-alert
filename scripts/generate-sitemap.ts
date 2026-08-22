@@ -5,6 +5,7 @@ import { jobDetailsData } from '../src/data/jobDetails.js';
 import { JOBS_DATA } from '../src/data/jobsData.js';
 import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
+import jobsIndexData from '../src/data/jobs-index-generated.json' with { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -145,7 +146,18 @@ async function generateSitemap() {
   }
 
   // Add dynamic job routes
-  jobs.forEach(job => {
+  const allJobMap = new Map<string, any>();
+  Object.values(jobDetailsData).forEach((job: any) => {
+    if (job && job.id) allJobMap.set(job.id, job);
+  });
+  Object.values(jobsIndexData).forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+  JOBS_DATA.forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+
+  allJobMap.forEach(job => {
     const lastMod = parseToIsoDate(job.lastUpdated, now);
 
     xml += `
@@ -160,7 +172,7 @@ async function generateSitemap() {
   xml += `\n</urlset>`;
 
   fs.writeFileSync(sitemapPath, xml);
-  console.log(`✅ Sitemap generated at ${sitemapPath}`);
+  console.log(`✅ Sitemap generated with ${allJobMap.size} vacancies at ${sitemapPath}`);
 
   // Generate RSS feeds
   const rssXmlContent = generateRssXml();
@@ -179,5 +191,13 @@ Sitemap: ${BASE_URL}/sitemap.xml
   console.log(`✅ robots.txt generated at ${robotsPath}`);
 }
 
-generateSitemap().catch(console.error);
+generateSitemap()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch((err) => {
+    console.error('❌ Error generating sitemap:', err);
+    process.exit(1);
+  });
+
 
