@@ -2269,6 +2269,66 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'powergrid-nr3-apprenticeship-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-emerald-600" /> Trade-wise Eligibility &amp; Passing Window Rules (NR-III)
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">Passed 11.09.2024 to 10.09.2026</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                          <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">ITI Trades</span>
+                              <span className="text-[10px] font-bold text-emerald-700">8 Slots (UP &amp; UK)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">ITI (Electrician)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Full-time regular ITI in Electrician trade (NCVT / SCVT recognized). Must register on <strong>NAPS Portal</strong>.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Stipend: ₹13,500/month (+ ₹2,500 HRA)
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Diploma Engg</span>
+                              <span className="text-[10px] font-bold text-blue-700">13 Slots (UP)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Diploma (Electrical / Civil)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Full-time 3-year Diploma in Electrical or Civil Engineering. Must register on <strong>NATS Portal</strong>.
+                            </p>
+                            <div className="bg-blue-50 rounded-lg p-2 text-[10px] font-bold text-blue-800">
+                              Stipend: ₹15,000/month (incl. ₹5,450 DBT)
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-purple-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Graduate Engg</span>
+                              <span className="text-[10px] font-bold text-purple-700">4 Slots (UP)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Graduate (Electrical / Civil)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Full-time regular B.E. / B.Tech / B.Sc (Engg.) in Electrical or Civil. Must register on <strong>NATS Portal</strong>.
+                            </p>
+                            <div className="bg-purple-50 rounded-lg p-2 text-[10px] font-bold text-purple-800">
+                              Stipend: ₹17,500/month (incl. ₹6,150 DBT)
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 text-[11px] font-bold text-amber-900 flex items-start gap-2">
+                          <AlertTriangle className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                          <span>Strict 2-Year Passing Rule: Candidates must have passed final examination between 11.09.2024 and 10.09.2026. Distance / online / part-time degrees, result-awaited candidates, or those with &gt;1 year job experience are strictly ineligible.</span>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="space-y-2.5 sm:space-y-3">
                       {activeEducation.map((item, idx) => {
                         const isHeader = item.endsWith(':') || item.includes('Essential for');
@@ -3124,6 +3184,52 @@ export default function JobDetailPage() {
                       <li>• <strong>Dimensions:</strong> Minimum 140 &times; 60 pixels (Scan box: 35 &times; 20 mm).</li>
                       <li>• <strong>Resolution:</strong> Scan with minimum resolution of 100 DPI.</li>
                     </ul>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {id === 'powergrid-nr3-apprenticeship-recruitment-2026' && (
+              <div className="my-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                  <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                    <FileSignature className="h-4 w-4 text-emerald-600" /> NAPS/NATS Portal Registration &amp; Aadhaar DBT Rules
+                  </h4>
+                  <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">Mandatory Prerequisites</span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Step 1: ITI Portal</span>
+                      <span className="text-[10px] font-bold text-emerald-700">NAPS</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-xs mb-1">NAPS Portal Registration</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      ITI Electrician candidates must register on <strong className="text-emerald-800">apprenticeshipindia.gov.in</strong> and achieve 100% profile completion before applying on POWERGRID portal.
+                    </p>
+                  </div>
+
+                  <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Step 1: Degree/Diploma</span>
+                      <span className="text-[10px] font-bold text-blue-700">NATS</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-xs mb-1">NATS Portal Registration</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Diploma &amp; Graduate Engineering candidates must register on <strong className="text-blue-800">nats.education.gov.in</strong> and generate their 16-digit student enrolment ID.
+                    </p>
+                  </div>
+
+                  <div className="bg-white border-2 border-amber-100 rounded-xl p-3.5 shadow-xs">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Step 2: Bank Seeding</span>
+                      <span className="text-[10px] font-bold text-amber-700">UIDAI DBT</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-xs mb-1">Aadhaar-Seeded Bank Account</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Bank account must be active &amp; Aadhaar-seeded for Govt DBT stipend share. Name &amp; DOB must match identically in 10th cert, Aadhaar &amp; Bank.
+                    </p>
                   </div>
                 </div>
               </div>
