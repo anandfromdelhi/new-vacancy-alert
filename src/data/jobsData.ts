@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "powergrid-nr1-apprenticeship-recruitment-2026",
+    "b": "Power Grid Corporation of India Limited (POWERGRID)",
+    "t": "POWERGRID Northern Region-I (NR-I) Apprenticeship Recruitment 2026 – Apply Online for 35 ITI, Diploma & Graduate Apprentice Posts (Last Date: 10 September 2026)",
+    "d": "21 August 2026",
+    "l": "10 September 2026",
+    "a": "Apprenticeship/2026-27/NR-I/01",
+    "q": "ITI (Electrician) / Diploma / B.E. / B.Tech / B.Sc (Engg) in Electrical / Civil",
+    "desc": "Power Grid Corporation of India Limited (POWERGRID), a Maharatna Public Sector Enterprise under the Ministry of Power, Government of India, has officially released the recruitment notification (Ref No: Apprenticeship/2026-27/NR-I/01) for the engagement of Trade, Diploma, and Graduate Apprentices for a 1-year duration under the Apprentices Act 1961.",
+    "u": "https://www.powergrid.in/en/rolling-advertisement-for-enagagement-of-apprentices"
+},
+  {
     "id": "powergrid-nr3-apprenticeship-recruitment-2026",
     "b": "Power Grid Corporation of India Limited (POWERGRID)",
     "t": "POWERGRID Northern Region-III (NR-III) Apprenticeship Recruitment 2026 – Apply Online for 25 ITI, Diploma & Graduate Apprentice Posts (Last Date: 10 September 2026)",

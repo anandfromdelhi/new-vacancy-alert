@@ -2269,11 +2269,11 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
-                    {id === 'powergrid-nr3-apprenticeship-recruitment-2026' && (
+                    {(id === 'powergrid-nr1-apprenticeship-recruitment-2026' || id === 'powergrid-nr3-apprenticeship-recruitment-2026') && (
                       <div className="my-6 space-y-4">
                         <div className="flex items-center justify-between border-b border-slate-200 pb-2">
                           <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
-                            <Layers className="h-4 w-4 text-emerald-600" /> Trade-wise Eligibility &amp; Passing Window Rules (NR-III)
+                            <Layers className="h-4 w-4 text-emerald-600" /> Trade-wise Eligibility &amp; Passing Window Rules ({id.includes('nr1') ? 'NR-I Faridabad' : 'NR-III Lucknow'})
                           </h4>
                           <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">Passed 11.09.2024 to 10.09.2026</span>
                         </div>
@@ -2282,7 +2282,7 @@ export default function JobDetailPage() {
                           <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
                             <div className="flex items-center justify-between mb-2">
                               <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">ITI Trades</span>
-                              <span className="text-[10px] font-bold text-emerald-700">8 Slots (UP &amp; UK)</span>
+                              <span className="text-[10px] font-bold text-emerald-700">{id.includes('nr1') ? '8 Slots (DL, HR, UP, UK)' : '8 Slots (UP & UK)'}</span>
                             </div>
                             <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">ITI (Electrician)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
@@ -2296,7 +2296,7 @@ export default function JobDetailPage() {
                           <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
                             <div className="flex items-center justify-between mb-2">
                               <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Diploma Engg</span>
-                              <span className="text-[10px] font-bold text-blue-700">13 Slots (UP)</span>
+                              <span className="text-[10px] font-bold text-blue-700">{id.includes('nr1') ? '19 Slots (DL, HR, UP, UK)' : '13 Slots (UP)'}</span>
                             </div>
                             <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Diploma (Electrical / Civil)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
@@ -2310,7 +2310,7 @@ export default function JobDetailPage() {
                           <div className="bg-white border-2 border-purple-100 rounded-xl p-3.5 shadow-xs">
                             <div className="flex items-center justify-between mb-2">
                               <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Graduate Engg</span>
-                              <span className="text-[10px] font-bold text-purple-700">4 Slots (UP)</span>
+                              <span className="text-[10px] font-bold text-purple-700">{id.includes('nr1') ? '8 Slots (DL, HR, UP, UK)' : '4 Slots (UP)'}</span>
                             </div>
                             <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Graduate (Electrical / Civil)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
@@ -3189,7 +3189,7 @@ export default function JobDetailPage() {
               </div>
             )}
 
-            {id === 'powergrid-nr3-apprenticeship-recruitment-2026' && (
+            {(id === 'powergrid-nr1-apprenticeship-recruitment-2026' || id === 'powergrid-nr3-apprenticeship-recruitment-2026') && (
               <div className="my-6 space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-200 pb-2">
                   <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
