@@ -467,12 +467,12 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
 
                   {/* Additional Pages Matching Query */}
                   {pageResults.length > 0 && (
-                    <div className="border-b border-slate-200">
+                    <div className="p-3 sm:p-4 pb-0 space-y-2.5 bg-slate-100/70">
                       {pageResults.map((p) => (
                         <button
                           key={p.id}
                           onClick={() => handleSelectPage(p.path)}
-                          className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
+                          className="w-full text-left p-3.5 bg-white hover:bg-blue-50/70 rounded-2xl border border-slate-200/90 hover:border-blue-300 shadow-2xs hover:shadow-xs transition-all flex items-center justify-between group cursor-pointer"
                         >
                           <div className="flex items-center gap-3 min-w-0 pr-2">
                             <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
@@ -481,25 +481,25 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                                 {renderHighlightedText(p.title, cleanQuery)}
                               </span>
                               {p.subtitle && (
-                                <span className="text-xs text-slate-500 truncate block">
+                                <span className="text-xs text-slate-500 truncate block mt-0.5">
                                   {p.subtitle}
                                 </span>
                               )}
                             </div>
                           </div>
-                          <div className="flex items-center gap-1 shrink-0">
-                            <span className="hidden sm:inline text-[10px] uppercase font-black px-2 py-0.5 rounded bg-blue-100 text-blue-800 border border-blue-200">
+                          <div className="flex items-center gap-2 shrink-0">
+                            <span className="text-[10px] uppercase font-black px-2.5 py-0.5 rounded-lg bg-blue-100 text-blue-800 border border-blue-200">
                               {p.category}
                             </span>
-                            <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition" />
+                            <ChevronRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all" />
                           </div>
                         </button>
                       ))}
                     </div>
                   )}
 
-                  {/* Visually Structured Job Results */}
-                  <div className="divide-y divide-slate-100">
+                  {/* Visually Structured Job Results as Separate Cards */}
+                  <div className="p-3 sm:p-4 space-y-3 bg-slate-100/70">
                     {jobResults.map((job) => {
                       const boardAcronym = getBoardAcronym(job.b);
                       const postCount = getPostCount(job.t, job.desc);
@@ -510,19 +510,19 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                         <button
                           key={job.id}
                           onClick={() => handleSelectJob(job.id)}
-                          className="w-full text-left p-3.5 sm:p-4 bg-white hover:bg-blue-50/70 active:bg-blue-100/60 transition-all border-b border-slate-200/80 group cursor-pointer flex flex-col gap-2.5 relative"
+                          className="w-full text-left p-4 bg-white hover:bg-blue-50/40 rounded-2xl border border-slate-200/90 hover:border-blue-400/80 shadow-2xs hover:shadow-md transition-all duration-150 group cursor-pointer flex flex-col gap-2.5 relative"
                         >
                           {/* Top Header: Board Acronym + No. of Posts Badge + Direct Action */}
                           <div className="flex items-center justify-between gap-2">
                             <div className="flex items-center gap-2 flex-wrap">
                               {/* 1. Name of Board (Only Acronym) */}
-                              <span className="text-[11px] font-black uppercase tracking-wider text-blue-800 bg-blue-100/90 border border-blue-300/80 px-2.5 py-0.5 rounded-md shadow-2xs">
+                              <span className="text-[11px] font-black uppercase tracking-wider text-blue-700 bg-blue-50 border border-blue-200/90 px-2.5 py-0.5 rounded-lg shadow-2xs">
                                 {renderHighlightedText(boardAcronym, cleanQuery)}
                               </span>
 
                               {/* 2. No of Posts */}
                               {postCount && (
-                                <span className="text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-md flex items-center gap-1">
+                                <span className="text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200/80 px-2.5 py-0.5 rounded-lg flex items-center gap-1">
                                   <Users className="w-3 h-3 text-slate-500" />
                                   <span>{postCount}</span>
                                 </span>
@@ -541,7 +541,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                           </h4>
 
                           {/* 4. Who Can Apply (Qualifications) */}
-                          <div className="flex items-start gap-2 text-[11px] sm:text-xs text-slate-700 bg-slate-50/80 border border-slate-200/80 rounded-lg p-2 group-hover:bg-white group-hover:border-blue-200 transition-colors">
+                          <div className="flex items-start gap-2 text-[11px] sm:text-xs text-slate-700 bg-slate-50/90 border border-slate-200/70 rounded-xl p-2.5 group-hover:bg-white group-hover:border-blue-200 transition-colors">
                             <GraduationCap className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                             <div className="leading-tight">
                               <span className="font-bold text-slate-800 mr-1">Eligibility:</span>
@@ -550,15 +550,15 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                           </div>
 
                           {/* 5 & 6. Bottom Row: Posted Date & Last Date to Apply */}
-                          <div className="flex items-center justify-between text-[11px] text-slate-500 font-medium pt-1 border-t border-slate-100 flex-wrap gap-2">
+                          <div className="flex items-center justify-between text-[11px] text-slate-500 font-medium pt-2 border-t border-slate-100 flex-wrap gap-2">
                             {/* Posted Date */}
-                            <span className="flex items-center gap-1 text-slate-500 text-[11px]">
+                            <span className="flex items-center gap-1.5 text-slate-500 text-[11px]">
                               <Calendar className="w-3.5 h-3.5 text-slate-400" />
                               <span>Posted: <strong className="text-slate-700 font-semibold">{formatCleanDate(job.d)}</strong></span>
                             </span>
 
                             {/* Last Date to Apply */}
-                            <span className="flex items-center gap-1 text-amber-900 bg-amber-50 border border-amber-200/90 px-2 py-0.5 rounded-md font-bold text-[11px]">
+                            <span className="flex items-center gap-1.5 text-amber-900 bg-amber-50/90 border border-amber-200/90 px-2.5 py-0.5 rounded-lg font-bold text-[11px]">
                               <Clock className="w-3.5 h-3.5 text-amber-600" />
                               <span>Last Date: <strong className="text-amber-950 font-black">{formatCleanDate(job.l)}</strong></span>
                             </span>
