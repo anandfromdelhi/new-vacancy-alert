@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import { jobDetailsData } from '../src/data/jobDetails.js';
 import { JOBS_DATA } from '../src/data/jobsData.js';
 import { getPageMetaData, injectMetaTags } from '../src/utils/metaHelper.js';
-import { render } from '../src/entry-server.js';
 import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
 import jobsIndexData from '../src/data/jobs-index-generated.json' with { type: 'json' };
@@ -111,15 +110,6 @@ async function prerender() {
 
   async function renderRoute(routePath: string): Promise<void> {
     let pageHtml = rawTemplate;
-
-    try {
-      const { html: renderedContent } = render(routePath);
-      if (renderedContent) {
-        pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${renderedContent}</div>`);
-      }
-    } catch (ssrError) {
-      console.warn(`⚠️ SSR render warning for route ${routePath}:`, ssrError);
-    }
 
     const meta = getPageMetaData(routePath);
     pageHtml = injectMetaTags(pageHtml, meta);

@@ -2187,6 +2187,88 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'rrb-je-dms-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-blue-600" /> Engineering Exam Groups &amp; Discipline Mapping (CEN 04/2026)
+                          </h4>
+                          <span className="text-[10px] font-bold text-blue-900 bg-blue-100 px-2 py-0.5 rounded-md">4 Technical Groups + DMS</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <div className="bg-white border-2 border-sky-100 hover:border-sky-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-sky-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Exam Group 1</span>
+                              <span className="text-[11px] font-bold text-sky-700">Annexure VIII-A</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Civil &amp; Allied Engineering Group</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma in Civil Engg / B.Sc in Civil Engg (3 yrs) / BE/B.Tech in Civil Engineering or combination of sub-streams.
+                            </p>
+                            <div className="bg-sky-50 rounded-lg p-2 text-[10px] font-bold text-sky-800">
+                              Posts: P.Way, Works, Bridge, Design Drawing &amp; Estimation (Civil), Track Machine, Research Civil.
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Exam Group 2</span>
+                              <span className="text-[11px] font-bold text-emerald-700">Annexure VIII-D</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Mechanical &amp; Allied Engineering Group</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma / BE / B.Tech in Mechanical, Production, Automobile, Manufacturing, Mechatronics, Industrial, Machining, Tools &amp; Die.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Posts: Carriage &amp; Wagon, Diesel Mechanical, Workshop, Design Mechanical, Millwright.
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-amber-100 hover:border-amber-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Exam Group 3</span>
+                              <span className="text-[11px] font-bold text-amber-700">Annexure VIII-B</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Electrical &amp; Allied Engineering Group</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma / BE / B.Tech in Electrical, Electronics, Mechanical Engineering or combination of sub-streams.
+                            </p>
+                            <div className="bg-amber-50 rounded-lg p-2 text-[10px] font-bold text-amber-800">
+                              Posts: Electrical General Services, TRD, TRS, EMU, Workshop, Design Drawing &amp; Estimation.
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-purple-100 hover:border-purple-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Exam Group 4</span>
+                              <span className="text-[11px] font-bold text-purple-700">Annexure VIII-C</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Electronics &amp; Allied Engineering Group</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma / BE / B.Tech in Electrical, Electronics, IT, Communication Engg, Computer Science &amp; Engg, Computer Science.
+                            </p>
+                            <div className="bg-purple-50 rounded-lg p-2 text-[10px] font-bold text-purple-800">
+                              Posts: S&amp;T Signal, Telecommunication, S&amp;T Workshop, S&amp;T Design Drawing.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-xl p-3.5 sm:p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-sm border border-slate-800">
+                          <div>
+                            <span className="bg-indigo-500 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase mr-2">Category 37</span>
+                            <strong className="text-xs sm:text-sm text-indigo-200">Depot Material Superintendent (DMS - Stores)</strong>
+                            <p className="text-[11px] text-slate-300 mt-0.5">
+                              Diploma / Degree in <strong>ANY Engineering Discipline</strong> eligible! Choose any one of the 4 Exam Groups during application.
+                            </p>
+                          </div>
+                          <span className="shrink-0 bg-indigo-600/60 border border-indigo-400/40 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                            163 Total Posts
+                          </span>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="space-y-2.5 sm:space-y-3">
                       {activeEducation.map((item, idx) => {
                         const isHeader = item.endsWith(':') || item.includes('Essential for');
@@ -2262,6 +2344,61 @@ export default function JobDetailPage() {
                         ))}
                       </ul>
                     </div>
+
+                    {id === 'rrb-je-dms-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-emerald-600" /> Medical Standards &amp; LASIK Surgery Eligibility Rules
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">IRMM Vol-1 Chapter 5</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                          <div className="bg-white border-2 border-rose-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-rose-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard A-3</span>
+                              <span className="text-[10px] font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Highest Acuity</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/9, 6/9 (Lens &le; 2D)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Near Vision: 0.6, 0.6. Must pass Colour, Binocular, Night &amp; Mesopic tests.
+                            </p>
+                            <div className="bg-rose-100 text-rose-900 font-black text-[10px] p-2 rounded-lg border border-rose-300">
+                              ⚠️ LASIK SURGERY: Strictly INELIGIBLE for A-3 posts!
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard B-1</span>
+                              <span className="text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Moderate</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/9, 6/12 (Lens &le; 4D)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Near Vision: 0.6, 0.6. Must pass Colour, Binocular, Night &amp; Mesopic vision tests.
+                            </p>
+                            <div className="bg-amber-100 text-amber-900 font-black text-[10px] p-2 rounded-lg border border-amber-300">
+                              ✅ LASIK: Allowed if &ge;1 yr old, corneal thickness &ge;425&mu;m &amp; normal fundus.
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard C-1</span>
+                              <span className="text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">Workshop / Stores</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/12, 6/18 with/without glasses</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Near Vision: 0.6, 0.6 with/without glasses for reading or close work.
+                            </p>
+                            <div className="bg-blue-100 text-blue-900 font-black text-[10px] p-2 rounded-lg border border-blue-300">
+                              Suitable for Workshop, Design Drawing &amp; Stores Depot posts.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -2487,6 +2624,85 @@ export default function JobDetailPage() {
                         Final Merit basis: Marks obtained in Stage 2 Mains ONLY determine final selection &amp; institute allocation!
                       </li>
                     </ul>
+                  </div>
+                </div>
+              )}
+
+              {id === 'rrb-je-dms-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Stage 1 CBT */}
+                    <div className="bg-gradient-to-br from-blue-50/80 to-slate-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-100 pb-2.5">
+                        <div>
+                          <span className="bg-blue-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 1</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm md:text-base mt-1">1st Stage CBT (Screening)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-blue-800 bg-blue-100 px-2.5 py-1 rounded-lg">90 Mins</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Total Questions:</strong> 100 MCQs (100 Marks)</li>
+                        <li><strong>Subjects:</strong> Maths (30 Qs), Reasoning (25 Qs), GA (15 Qs), General Science (30 Qs)</li>
+                        <li><strong>Negative Marking:</strong> 1/3rd (0.33) Mark deducted per wrong answer</li>
+                        <li><strong>Shortlisting Ratio:</strong> 15 times community-wise vacancy called for CBT-II</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Screening Nature: CBT-I normalized marks are purely for shortlisting for CBT-II!
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Stage 2 CBT */}
+                    <div className="bg-gradient-to-br from-indigo-50/80 to-slate-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-indigo-100 pb-2.5">
+                        <div>
+                          <span className="bg-indigo-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 2</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm md:text-base mt-1">2nd Stage CBT (Technical + General)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-lg">120 Mins</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Total Questions:</strong> 150 MCQs (150 Marks)</li>
+                        <li><strong>Technical Abilities:</strong> 100 MCQs (Exam Group Syllabus)</li>
+                        <li><strong>General Subjects:</strong> GA (15 Qs), Physics &amp; Chem (15 Qs), Computers (10 Qs), Env (10 Qs)</li>
+                        <li><strong>On-Screen Feature:</strong> Virtual Calculator available on screen!</li>
+                        <li className="bg-indigo-100/70 p-2 rounded-lg text-indigo-950 font-extrabold border border-indigo-200">
+                          Merit Determining: CBT-II marks generate the final Merit Index for DV &amp; Allotment!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Merit Index Formula Card */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <Target className="h-4 w-4" /> Normalization &amp; Merit Index Calculation Formula
+                      </h4>
+                      <span className="text-[10px] font-mono font-bold text-slate-400 bg-slate-800 px-2 py-0.5 rounded">Para 13.4.2</span>
+                    </div>
+                    <div className="bg-slate-800/90 rounded-xl p-3 sm:p-4 text-center mb-3 border border-slate-700">
+                      <code className="text-emerald-400 font-mono text-xs sm:text-sm md:text-base font-bold">
+                        Merit Index = Sq + (St - Sq) &times; [ (M - Mq) / (Mt - Mq) ]
+                      </code>
+                    </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
+                      <div className="bg-slate-800/60 p-2 rounded-lg border border-slate-700/50">
+                        <span className="text-[10px] text-amber-400 font-bold block">Sq = 350</span>
+                        <span className="text-[10px] text-slate-300">Score assigned to Mq</span>
+                      </div>
+                      <div className="bg-slate-800/60 p-2 rounded-lg border border-slate-700/50">
+                        <span className="text-[10px] text-amber-400 font-bold block">St = 900</span>
+                        <span className="text-[10px] text-slate-300">Score assigned to Mt</span>
+                      </div>
+                      <div className="bg-slate-800/60 p-2 rounded-lg border border-slate-700/50">
+                        <span className="text-[10px] text-amber-400 font-bold block">Mq = 40</span>
+                        <span className="text-[10px] text-slate-300">UR Qualifying Marks</span>
+                      </div>
+                      <div className="bg-slate-800/60 p-2 rounded-lg border border-slate-700/50">
+                        <span className="text-[10px] text-amber-400 font-bold block">Mt</span>
+                        <span className="text-[10px] text-slate-300">Mean of Top 0.1%</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}
@@ -2726,10 +2942,7 @@ export default function JobDetailPage() {
               </div>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-              <div>
-                <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
-                              {id === 'iob-local-bank-officer-recruitment-2026' && (
+            {id === 'iob-local-bank-officer-recruitment-2026' && (
               <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
                 <h4 className="text-xs sm:text-sm font-black text-blue-400 mb-3 flex items-center gap-2">
                   <UploadCloud className="h-4.5 w-4.5 text-blue-400" /> Image &amp; Document Scanning Specifications (Advt No. HRDD/RECT/02/2026-27)
@@ -2875,7 +3088,51 @@ export default function JobDetailPage() {
               </div>
             )}
 
-                <UploadCloud className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Documents Required Checklist
+            {id === 'rrb-je-dms-recruitment-2026' && (
+              <div className="my-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                  <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                    <UploadCloud className="h-4 w-4 text-orange-600" /> Live Webcam Photo &amp; Cursive Signature Specifications
+                  </h4>
+                  <span className="text-[10px] font-bold text-orange-900 bg-orange-100 px-2 py-0.5 rounded-md">Rejection Rules</span>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-white border-2 border-orange-200 rounded-xl p-4 shadow-xs">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-orange-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Live Photo</span>
+                      <span className="text-[10px] font-bold text-orange-700 bg-orange-50 px-2 py-0.5 rounded">Webcam / Mobile Camera</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Live Capture Instructions</h5>
+                    <ul className="space-y-1.5 text-[11px] text-slate-600 font-medium">
+                      <li>• <strong>Dark Clothing:</strong> Wear dark colors to contrast with plain background.</li>
+                      <li>• <strong>Position:</strong> Camera at eye level, face centered, neutral expression.</li>
+                      <li>• <strong>NO Accessories:</strong> Do NOT wear caps, masks, or spectacles/glasses.</li>
+                      <li>• <strong>Strict Ban:</strong> Do NOT capture photo of a pre-existing photograph!</li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-white border-2 border-blue-200 rounded-xl p-4 shadow-xs">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Signature</span>
+                      <span className="text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">30 to 49 KB JPG</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1.5">Signature Upload Rules</h5>
+                    <ul className="space-y-1.5 text-[11px] text-slate-600 font-medium">
+                      <li>• <strong>Black Ink:</strong> Sign on white paper using black ink pen only.</li>
+                      <li>• <strong>Running Hand:</strong> Cursive handwriting only. <strong>BLOCK / CAPITAL letters REJECTED!</strong></li>
+                      <li>• <strong>Dimensions:</strong> Minimum 140 &times; 60 pixels (Scan box: 35 &times; 20 mm).</li>
+                      <li>• <strong>Resolution:</strong> Scan with minimum resolution of 100 DPI.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+              <div>
+                <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2">
+                  <UploadCloud className="h-4 w-4 sm:h-5 sm:w-5 text-blue-500" /> Documents Required Checklist
                 </h3>
                 <ul className="space-y-2.5 sm:space-y-3">
                   {(job.documentsRequired || [
