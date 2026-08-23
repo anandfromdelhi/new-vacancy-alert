@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router';
-import { Search, ArrowLeft, X, ArrowUpLeft, Sparkles, TrendingUp, Briefcase, ChevronRight, RotateCcw, UploadCloud } from 'lucide-react';
+import { Search, ArrowLeft, X, ArrowUpLeft, Sparkles, TrendingUp, Briefcase, ChevronRight, RotateCcw, Users, Calendar, Clock, GraduationCap } from 'lucide-react';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { useNavigationLoader } from '../context/NavigationContext';
 import { useAuth } from '../context/AuthContext';
@@ -51,6 +51,77 @@ function isJobExpired(lastDateStr: string): boolean {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return parsed < today;
+}
+
+// Helper to extract clean acronym from board name
+function getBoardAcronym(board?: string): string {
+  if (!board) return 'GOVT';
+  
+  // 1. Look for acronym inside parentheses e.g. "Indian Oil Corporation Limited (IOCL)" or "(MPESB / MP Vyapam)"
+  const matches = board.match(/\(([^)]+)\)/g);
+  if (matches) {
+    for (const m of matches) {
+      const content = m.replace(/[()]/g, '').trim();
+      if (content.includes('/')) {
+        const parts = content.split('/');
+        for (const p of parts) {
+          const trimmed = p.trim();
+          if (trimmed.length >= 2 && trimmed.length <= 12 && !/district|government|state|department|recruitment|health|ministry|advt/i.test(trimmed)) {
+            return trimmed.toUpperCase();
+          }
+        }
+      }
+      if (content.length >= 2 && content.length <= 14 && !/district|government|state|department|recruitment|health|ministry|advt/i.test(content)) {
+        return content.toUpperCase();
+      }
+    }
+  }
+
+  // 2. Check if first part before comma/dash is already short (e.g. "POWERGRID", "HARTRON", "BEML", "RITES")
+  const first = board.split(/[,–-]/)[0].trim();
+  if (first.length >= 2 && first.length <= 10) {
+    return first.toUpperCase();
+  }
+
+  // 3. Fallback: Initials from capitalized words
+  const words = first.split(/[\s\-,/]+/).filter(w => 
+    w && w[0] === w[0].toUpperCase() && !/^(of|and|the|for|in|limited|ltd|dept|department|division|commission|board|corporation|authority|office|services)$/i.test(w)
+  );
+  if (words.length >= 2 && words.length <= 5) {
+    return words.map(w => w[0]).join('').toUpperCase();
+  }
+
+  return first.slice(0, 10).toUpperCase();
+}
+
+// Helper to extract post count from title or description
+function getPostCount(title?: string, desc?: string): string | null {
+  const text = `${title || ''} ${desc || ''}`;
+  const m = text.match(/(?:for|out for|–|-)?\s*([0-9,]+)\+?\s*(?:Posts|Vacancies|Slots|Positions|Openings|Seats|Apprentice|Para Legal)/i);
+  if (m && m[1]) {
+    const num = parseInt(m[1].replace(/,/g, ''), 10);
+    if (!isNaN(num) && num > 0) {
+      return `${num.toLocaleString('en-IN')} Posts`;
+    }
+  }
+  return null;
+}
+
+// Helper to clean post title (removes trailing advt/last dates)
+function getCleanPostTitle(title?: string): string {
+  if (!title) return 'Government Recruitment Notification';
+  let t = title;
+  t = t.replace(/\s*\|\s*Advt(?:\s*No\.?)?:.*$/i, '');
+  t = t.replace(/\s*\|\s*Last\s*Date:.*$/i, '');
+  t = t.replace(/\s*\(\s*Last\s*Date:.*?\)/i, '');
+  return t.trim();
+}
+
+// Helper to format clean date display
+function formatCleanDate(dateStr?: string): string {
+  if (!dateStr || dateStr === '–' || dateStr.trim() === '') return 'Not specified';
+  const clean = dateStr.replace(/\(Till.*?\)/i, '').replace(/\(.*?PM.*?\)/i, '').replace(/\(.*?AM.*?\)/i, '').trim();
+  return clean || dateStr;
 }
 
 const ADDITIONAL_PAGES: AdditionalSearchPage[] = [
@@ -427,48 +498,75 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
                     </div>
                   )}
 
-                  {/* Single Line Indexed Job Results */}
-                  {jobResults.map((job) => (
-                    <button
-                      key={job.id}
-                      onClick={() => handleSelectJob(job.id)}
-                      className="w-full text-left px-4 py-3 sm:py-3.5 flex items-center justify-between bg-white hover:bg-blue-50/70 active:bg-blue-100 transition border-b border-slate-200/80 group cursor-pointer"
-                    >
-                      <div className="flex items-center gap-3 min-w-0 pr-2">
-                        <Search className="w-4 h-4 text-slate-400 group-hover:text-blue-600 shrink-0" />
-                        <div className="truncate">
-                          {/* Single line display: Board - Title */}
-                          <div className="text-sm font-bold text-slate-900 group-hover:text-blue-700 truncate transition">
-                            <span className="text-slate-800 font-extrabold mr-1">
-                              {renderHighlightedText(job.b, cleanQuery)}:
-                            </span>
-                            <span>
-                              {renderHighlightedText(job.t, cleanQuery)}
-                            </span>
-                          </div>
-                          {/* Compact sub-info: Qualification & Last Date */}
-                          <div className="text-[11px] text-slate-500 truncate mt-0.5 flex items-center gap-2">
-                            <span className="truncate">Qual: {job.q}</span>
-                            <span className="text-slate-300">•</span>
-                            <span className="shrink-0 text-amber-700 font-bold">Last Date: {job.l}</span>
-                            {isAdmin && (
-                              <>
-                                <span className="text-slate-300">•</span>
-                                <span className="shrink-0 text-purple-700 font-bold flex items-center gap-0.5 bg-purple-50 border border-purple-200 px-1.5 py-0.5 rounded text-[10px]" title="Admin Only: Site Upload Date">
-                                  <UploadCloud className="w-2.5 h-2.5" />
-                                  Upload: {getJobUploadDate(job.id, job.d)}
-                                </span>
-                              </>
-                            )}
-                          </div>
-                        </div>
-                      </div>
+                  {/* Visually Structured Job Results */}
+                  <div className="divide-y divide-slate-100">
+                    {jobResults.map((job) => {
+                      const boardAcronym = getBoardAcronym(job.b);
+                      const postCount = getPostCount(job.t, job.desc);
+                      const cleanPostTitle = getCleanPostTitle(job.t);
+                      const qualification = (job.q && job.q !== 'See eligibility') ? job.q : 'Refer to detailed notification for complete qualifications';
 
-                      <div className="flex items-center gap-2 shrink-0">
-                        <ArrowUpLeft className="w-4 h-4 text-slate-400 group-hover:text-slate-600 transition" />
-                      </div>
-                    </button>
-                  ))}
+                      return (
+                        <button
+                          key={job.id}
+                          onClick={() => handleSelectJob(job.id)}
+                          className="w-full text-left p-3.5 sm:p-4 bg-white hover:bg-blue-50/70 active:bg-blue-100/60 transition-all border-b border-slate-200/80 group cursor-pointer flex flex-col gap-2.5 relative"
+                        >
+                          {/* Top Header: Board Acronym + No. of Posts Badge + Direct Action */}
+                          <div className="flex items-center justify-between gap-2">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              {/* 1. Name of Board (Only Acronym) */}
+                              <span className="text-[11px] font-black uppercase tracking-wider text-blue-800 bg-blue-100/90 border border-blue-300/80 px-2.5 py-0.5 rounded-md shadow-2xs">
+                                {renderHighlightedText(boardAcronym, cleanQuery)}
+                              </span>
+
+                              {/* 2. No of Posts */}
+                              {postCount && (
+                                <span className="text-[11px] font-bold text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-md flex items-center gap-1">
+                                  <Users className="w-3 h-3 text-slate-500" />
+                                  <span>{postCount}</span>
+                                </span>
+                              )}
+                            </div>
+
+                            <div className="flex items-center text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all text-xs font-bold gap-1 shrink-0">
+                              <span className="text-[11px] font-semibold text-slate-500 group-hover:text-blue-700 hidden sm:inline">View Details</span>
+                              <ChevronRight className="w-4 h-4" />
+                            </div>
+                          </div>
+
+                          {/* 3. Name of Post */}
+                          <h4 className="text-xs sm:text-sm font-extrabold text-slate-900 group-hover:text-blue-700 leading-snug line-clamp-2 transition-colors">
+                            {renderHighlightedText(cleanPostTitle, cleanQuery)}
+                          </h4>
+
+                          {/* 4. Who Can Apply (Qualifications) */}
+                          <div className="flex items-start gap-2 text-[11px] sm:text-xs text-slate-700 bg-slate-50/80 border border-slate-200/80 rounded-lg p-2 group-hover:bg-white group-hover:border-blue-200 transition-colors">
+                            <GraduationCap className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+                            <div className="leading-tight">
+                              <span className="font-bold text-slate-800 mr-1">Eligibility:</span>
+                              <span className="font-medium text-slate-600">{renderHighlightedText(qualification, cleanQuery)}</span>
+                            </div>
+                          </div>
+
+                          {/* 5 & 6. Bottom Row: Posted Date & Last Date to Apply */}
+                          <div className="flex items-center justify-between text-[11px] text-slate-500 font-medium pt-1 border-t border-slate-100 flex-wrap gap-2">
+                            {/* Posted Date */}
+                            <span className="flex items-center gap-1 text-slate-500 text-[11px]">
+                              <Calendar className="w-3.5 h-3.5 text-slate-400" />
+                              <span>Posted: <strong className="text-slate-700 font-semibold">{formatCleanDate(job.d)}</strong></span>
+                            </span>
+
+                            {/* Last Date to Apply */}
+                            <span className="flex items-center gap-1 text-amber-900 bg-amber-50 border border-amber-200/90 px-2 py-0.5 rounded-md font-bold text-[11px]">
+                              <Clock className="w-3.5 h-3.5 text-amber-600" />
+                              <span>Last Date: <strong className="text-amber-950 font-black">{formatCleanDate(job.l)}</strong></span>
+                            </span>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
               )}
             </div>
