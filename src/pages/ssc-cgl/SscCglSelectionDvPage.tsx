@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { 
   FileText, CheckCircle2, AlertCircle, ArrowRight, ArrowLeft,
   BookOpen, Clock, ShieldCheck, HelpCircle, Layers, Sparkles, ChevronDown, 
-  ChevronUp, UserCheck, CheckSquare, MapPin, Building2, Download
+  ChevronUp, UserCheck, CheckSquare, MapPin, Building2, Download, AlertTriangle, Check
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -25,32 +25,48 @@ export default function SscCglSelectionDvPage() {
   };
 
   const dvChecklist = [
-    { doc: "10th Standard Matriculation Certificate", purpose: "Official proof of Date of Birth and Candidate/Parent's name spelling.", status: "Mandatory" },
-    { doc: "Graduation Degree Certificate / Provisional", purpose: "Must be issued on or before the crucial cut-off date specified in notification.", status: "Mandatory" },
-    { doc: "All Semester / Year-Wise Marksheets", purpose: "Complete proof of having passed all subjects in the Bachelor Degree.", status: "Mandatory" },
-    { doc: "OBC-NCL Certificate in Central Govt Format", purpose: "Must be issued within 3 financial years prior to the crucial application deadline.", status: "Category Specific" },
-    { doc: "EWS Income & Asset Certificate", purpose: "Must be valid for the current financial year based on income of previous financial year.", status: "Category Specific" },
-    { doc: "SC / ST Caste Certificate", purpose: "Official Central Government format certificate from authorized Tehsildar/SDM.", status: "Category Specific" },
-    { doc: "NOC for Central/State Govt Employees", purpose: "Mandatory No Objection Certificate from present appointing authority.", status: "Govt Employees" },
-    { doc: "Original Photo ID Proof + 4 Passport Photos", purpose: "Aadhaar Card / Voter ID / Passport with matching Date of Birth.", status: "Mandatory" }
+    { doc: "10th Standard Matriculation Certificate & Marksheet", purpose: "Conclusive legal proof of Date of Birth, Candidate Name, and Father/Mother Name spelling.", format: "Original + 2 Self-Attested Sets", status: "Mandatory" },
+    { doc: "12th Standard / Higher Secondary Certificate", purpose: "Proof of basic academic foundation and essential Maths/Stats verification for JSO candidates.", format: "Original + 2 Self-Attested Sets", status: "Mandatory" },
+    { doc: "Graduation Degree Certificate / Provisional Degree", purpose: "Must be issued by a recognized University on or before the crucial cut-off date.", format: "Original + 2 Self-Attested Sets", status: "Mandatory" },
+    { doc: "All Semester / Year-Wise Marksheets", purpose: "Complete chronological proof of having passed all subjects without backlog across all academic years.", format: "Original + 2 Sets", status: "Mandatory" },
+    { doc: "OBC-NCL Certificate in Central Govt Prescribed Format", purpose: "Must be issued by authorized Tehsildar/SDM within 3 financial years prior to the crucial application deadline.", format: "Central Format Only", status: "Category Specific" },
+    { doc: "EWS Income & Asset Certificate", purpose: "Must be valid for the current recruitment financial year based on gross family income of the preceding financial year.", format: "Annexure Format", status: "Category Specific" },
+    { doc: "SC / ST Caste Certificate", purpose: "Permanent Central Government format certificate from authorized revenue authority.", format: "Central Format", status: "Category Specific" },
+    { doc: "No Objection Certificate (NOC) for Govt Servants", purpose: "Mandatory NOC from the present appointing authority for candidates currently serving in Central/State Govt/PSU.", format: "Signed by Competent Authority", status: "Govt Employees" },
+    { doc: "Ex-Servicemen Discharge Book & Undertaking", purpose: "Armed Forces service book showing duration of military tenure and date of discharge.", format: "Original Service Book", status: "Ex-Servicemen" },
+    { doc: "PwBD Disability Certificate", purpose: "Form V/VI/VII certificate from an authorized Medical Board specifying disability percentage (min 40%).", format: "Medical Board Format", status: "PwBD" },
+    { doc: "Name Change Gazette Notification / Marriage Certificate", purpose: "Mandatory for candidates whose name differs between 10th Certificate and Graduation Degree.", format: "Gazette Copy / Affidavit", status: "If Applicable" },
+    { doc: "Original Valid Photo ID + 6 Recent Passport Photos", purpose: "Aadhaar Card / Voter ID / Passport / Driving License with matching Date of Birth.", format: "Original ID + Photos", status: "Mandatory" }
+  ];
+
+  const regionalWebsites = [
+    { region: "Northern Region (NR)", hq: "New Delhi", states: "Delhi, Rajasthan, Uttarakhand", url: "sscnr.nic.in" },
+    { region: "Central Region (CR)", hq: "Prayagraj", states: "Uttar Pradesh, Bihar", url: "ssc-cr.org" },
+    { region: "Eastern Region (ER)", hq: "Kolkata", states: "West Bengal, Odisha, Jharkhand, A&N Islands, Sikkim", url: "sscer.org" },
+    { region: "Western Region (WR)", hq: "Mumbai", states: "Maharashtra, Gujarat, Goa, Daman & Diu, Dadra & Nagar Haveli", url: "sscwr.net" },
+    { region: "Southern Region (SR)", hq: "Chennai", states: "Andhra Pradesh, Telangana, Tamil Nadu, Puducherry", url: "sscsr.gov.in" },
+    { region: "North Western Region (NWR)", hq: "Chandigarh", states: "Punjab, Haryana, Himachal Pradesh, J&K, Ladakh, Chandigarh", url: "sscnwr.org" },
+    { region: "MP Sub-Region (MPR)", hq: "Raipur", states: "Madhya Pradesh, Chhattisgarh", url: "sscmpr.org" },
+    { region: "KKR Region (KKR)", hq: "Bengaluru", states: "Karnataka, Kerala, Lakshadweep", url: "ssckkr.kar.nic.in" },
+    { region: "North Eastern Region (NER)", hq: "Guwahati", states: "Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Tripura", url: "sscner.org.in" }
   ];
 
   const faqs = [
     {
       q: "Does SSC conduct Document Verification (DV) now?",
-      a: "No! SSC no longer conducts Document Verification. Under the revised recruitment process, Document Verification is conducted directly by the User Department (e.g. Income Tax Dept, Customs, CAG, MEA, MoD) after the final result and department allocation are published by SSC."
+      a: "No! SSC no longer conducts Document Verification. Under the revised recruitment procedure, Document Verification is conducted directly by the User Department (e.g. Income Tax Dept, Central Excise, CAG, MEA, MoD) after final merit allocation is declared by SSC."
     },
     {
-      q: "What if my OBC-NCL certificate is issued after the closing date of application?",
-      a: "SSC notifications state that the OBC-NCL certificate should be in the prescribed Central format and issued on or before the crucial closing date. However, user departments generally accept certificates issued within the valid financial year or allow provisional acceptance with an affidavit."
+      q: "What if my OBC-NCL certificate is issued after the crucial closing date?",
+      a: "SSC rules specify that OBC-NCL certificates must be issued within 3 years prior to the crucial application deadline. However, user departments generally accept certificates issued within the valid financial year or accept provisional joining subject to an affidavit."
     },
     {
-      q: "What documents are required to enter the SSC CGL exam hall?",
-      a: "You MUST carry: (1) Printed SSC CGL Admit Card, (2) Two recent color passport-size photographs, and (3) At least one original valid Photo ID (Aadhaar, Voter ID, Driving License, Passport) having the exact same Date of Birth as printed on the admit card."
+      q: "What is the sliding mechanism in SSC CGL merit allocation?",
+      a: "The sliding mechanism (incorporating FIX and FLOAT options) allows candidates who were tentatively allocated a lower preference to automatically slide up to their higher preferred post if vacancies open up from higher-ranked candidates declining offers or failing DV."
     },
     {
-      q: "What is the timeline from Tier-I exam to final joining?",
-      a: "Typically, the entire recruitment cycle takes between 8 to 12 months: Tier-I -> (60 days) Tier-II -> (30 days) Post Preference Form -> (30 days) Final Result -> (60–90 days) Departmental DV & Medical -> Joining Letter."
+      q: "What should I carry to the SSC CGL examination hall?",
+      a: "You MUST carry: (1) Printed SSC CGL Admit Card, (2) Two recent passport-size photographs, and (3) At least one original valid Photo ID (Aadhaar, Voter ID, Passport, Driving License) having the exact same Date of Birth as printed on the admit card."
     }
   ];
 
@@ -90,7 +106,7 @@ export default function SscCglSelectionDvPage() {
               Chapter 7 of 7
             </span>
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">
-              14 Min Read
+              20 Min Read
             </span>
             <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1 rounded-lg border border-emerald-200 flex items-center gap-1">
               <CheckSquare className="w-3.5 h-3.5 text-emerald-600" /> Master Checklist Included
@@ -115,43 +131,43 @@ export default function SscCglSelectionDvPage() {
           </div>
         </header>
 
-        {/* Section 1: Step-by-Step Selection Journey Roadmap */}
+        {/* Section 1: 6-Stage Selection Lifecycle */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-blue-100 text-blue-700 font-bold"><Layers className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">1. The 6-Stage SSC CGL Selection Journey</h2>
-              <p className="text-xs text-slate-500 font-medium">From online application to final joining letter</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">1. The Complete 6-Stage SSC CGL Selection Roadmap</h2>
+              <p className="text-xs text-slate-500 font-medium">From online registration on ssc.gov.in to final joining appointment</p>
             </div>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-3.5">
             {[
-              { stage: "Stage 1", title: "Online Application & OTR", desc: "One-Time Registration on ssc.gov.in with live webcam photograph capture and fee payment." },
-              { stage: "Stage 2", title: "Tier-I Computer Based Examination", desc: "100 Questions, 200 Marks. Strictly qualifying screening test to filter candidates for Tier-II." },
-              { stage: "Stage 3", title: "Tier-II Examination & DEST Typing", desc: "The definitive 390-mark merit examination + Computer Module + DEST typing test on the same day." },
-              { stage: "Stage 4", title: "Option-cum-Preference Submission", desc: "Candidates submit online post preferences across all 34+ departments on the SSC portal." },
-              { stage: "Stage 5", title: "Final Result & Merit Allocation", desc: "SSC computes composite merit and publishes roll numbers with allocated posts/departments." },
-              { stage: "Stage 6", title: "Departmental DV, Medical & Joining", desc: "Allocated Ministry/Department conducts final certificate verification, medical check, and issues appointment." }
+              { stage: "Stage 1", title: "Online Registration (OTR) & Application", desc: "Candidates create One-Time Registration on ssc.gov.in with live webcam photograph capture, signature upload, and pay the ₹100 fee (exempted for Women/SC/ST/PwBD/ESM)." },
+              { stage: "Stage 2", title: "Tier-I CBT Examination (Screening)", desc: "100 Questions, 200 Marks in 60 minutes across 4 subjects. Strictly qualifying in nature to shortlist approximately 10 to 12 times the vacancy volume for Tier-II." },
+              { stage: "Stage 3", title: "Tier-II CBT Examination & DEST Typing", desc: "Session-I (130 Questions, 390 Marks for composite merit + 60-mark Computer Module) + Session-II (2,000 keystroke DEST typing test in 15 minutes) conducted on the exact same day." },
+              { stage: "Stage 4", title: "Option-cum-Preference Submission", desc: "After Tier-II evaluation, SSC opens an online portal where candidates submit their prioritized post and department choices (e.g. B01, B05, B03, A01) across all participating ministries." },
+              { stage: "Stage 5", title: "Final Merit List & Department Allocation", desc: "SSC compiles the 390-mark merit list, verifies computer/DEST qualifying cutoffs, and publishes the final result allocating candidates to specific user ministries based on rank and preference." },
+              { stage: "Stage 6", title: "Departmental Document Verification (DV) & Joining", desc: "The allocated Ministry (CBDT, CBIC, C&AG, MEA, etc.) conducts physical verification of original degrees, caste certificates, and medical tests, and issues official appointment letters." }
             ].map((st, idx) => (
-              <div key={idx} className="flex items-start gap-3.5 p-4 rounded-xl bg-slate-50 border border-slate-200">
-                <span className="px-2.5 py-1 rounded-lg bg-blue-600 text-white font-black text-xs shrink-0">{st.stage}</span>
-                <div>
+              <div key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+                <span className="px-3 py-1 rounded-lg bg-blue-600 text-white font-black text-xs shrink-0">{st.stage}</span>
+                <div className="space-y-0.5">
                   <h4 className="font-extrabold text-slate-900 text-sm">{st.title}</h4>
-                  <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">{st.desc}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">{st.desc}</p>
                 </div>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Section 2: Document Verification Master Checklist Table */}
+        {/* Section 2: Document Verification Master Checklist */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-emerald-100 text-emerald-700 font-bold"><CheckSquare className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Master Document Verification (DV) Checklist</h2>
-              <p className="text-xs text-slate-500 font-medium">Keep both original and 2 sets of self-attested photocopies ready</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Master Departmental Document Verification (DV) Checklist</h2>
+              <p className="text-xs text-slate-500 font-medium">Keep both original documents and 2 complete sets of self-attested photocopies ready</p>
             </div>
           </div>
 
@@ -160,8 +176,9 @@ export default function SscCglSelectionDvPage() {
               <thead className="bg-slate-100 text-slate-700 font-extrabold uppercase text-[11px] tracking-wider border-b border-slate-200">
                 <tr>
                   <th className="p-3.5">Document Name</th>
-                  <th className="p-3.5">Purpose & Key Requirement</th>
-                  <th className="p-3.5 text-right">Requirement Status</th>
+                  <th className="p-3.5">Purpose & Critical Verification Criteria</th>
+                  <th className="p-3.5">Required Format</th>
+                  <th className="p-3.5 text-right">Status</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 font-medium text-slate-800">
@@ -169,6 +186,7 @@ export default function SscCglSelectionDvPage() {
                   <tr key={idx} className="hover:bg-slate-50 transition">
                     <td className="p-3.5 font-bold text-slate-900">{d.doc}</td>
                     <td className="p-3.5 text-xs text-slate-600">{d.purpose}</td>
+                    <td className="p-3.5 text-xs font-semibold text-slate-700">{d.format}</td>
                     <td className="p-3.5 text-right font-black text-xs">
                       <span className={`px-2.5 py-0.5 rounded-md ${
                         d.status === 'Mandatory' ? 'bg-blue-100 text-blue-800' : 'bg-slate-100 text-slate-700'
@@ -180,6 +198,30 @@ export default function SscCglSelectionDvPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </section>
+
+        {/* Section 3: Regional SSC Portals Directory */}
+        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
+            <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><Building2 className="w-5 h-5" /></div>
+            <div>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. Official SSC Regional Websites & Jurisdictions</h2>
+              <p className="text-xs text-slate-500 font-medium">Download Admit Cards and City Intimation Slips from your respective regional portal</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            {regionalWebsites.map((r, idx) => (
+              <div key={idx} className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
+                <div className="flex justify-between items-center">
+                  <span className="font-extrabold text-slate-900 text-xs">{r.region}</span>
+                  <span className="text-[11px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">{r.hq}</span>
+                </div>
+                <p className="text-[11px] text-slate-500 line-clamp-2">{r.states}</p>
+                <div className="text-[11px] font-mono text-slate-700 font-semibold pt-1">{r.url}</div>
+              </div>
+            ))}
           </div>
         </section>
 

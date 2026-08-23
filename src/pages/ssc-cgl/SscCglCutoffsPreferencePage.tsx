@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { 
   Trophy, CheckCircle2, AlertCircle, ArrowRight, ArrowLeft,
   BookOpen, Clock, ShieldCheck, HelpCircle, Layers, Sparkles, ChevronDown, 
-  ChevronUp, Scale, Compass, TrendingUp, MapPin, Building2, Briefcase
+  ChevronUp, Scale, Compass, TrendingUp, MapPin, Building2, Briefcase, Award, Check
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -25,34 +25,43 @@ export default function SscCglCutoffsPreferencePage() {
   };
 
   const preferenceRanking = [
-    { rank: 1, post: "ASO in Central Secretariat Service (CSS)", priority: "Delhi Posting & Fast Promotions", ceiling: "Under Secretary / Joint Secretary", level: "Level 7" },
-    { rank: 2, post: "Inspector of Income Tax (CBDT)", priority: "Social Respect, Desk+Field, Home State Chance", ceiling: "Joint Commissioner (IRS equivalent)", level: "Level 7" },
-    { rank: 3, post: "ASO in Ministry of External Affairs (MEA)", priority: "Foreign Postings, Hard Currency Allowances", ceiling: "First Secretary / Ambassadorial postings", level: "Level 7" },
-    { rank: 4, post: "Assistant Enforcement Officer (AEO in ED)", priority: "High Authority, Financial Crimes, PMLA", ceiling: "Joint Director (ED)", level: "Level 7" },
-    { rank: 5, post: "Inspector (Central Excise / GST in CBIC)", priority: "High Vacancy Volume, Enforcement, Uniform", ceiling: "Assistant Commissioner", level: "Level 7" },
-    { rank: 6, post: "Sub-Inspector in CBI", priority: "Premier Investigative Agency, 20% Extra Pay", ceiling: "Superintendent of Police (SP)", level: "Level 7" },
-    { rank: 7, post: "Assistant Audit Officer (AAO in C&AG)", priority: "Highest Initial Pay (Level 8), Gazetted Rank", ceiling: "Senior Audit Officer / Director", level: "Level 8" },
-    { rank: 8, post: "Divisional Accountant (under C&AG)", priority: "Complete Office Autonomy, Home State posting", ceiling: "Senior Divisional Accounts Officer", level: "Level 6" },
-    { rank: 9, post: "Auditor in C&AG / CGA / CGDA", priority: "Low Work Stress, Time for UPSC preparation", ceiling: "Senior Auditor / Audit Officer", level: "Level 5" },
-    { rank: 10, post: "Tax Assistant (CBDT / CBIC)", priority: "Gateway to Revenue, Faster TA to ITI promotion", ceiling: "Income Tax Officer (ITO)", level: "Level 4" }
+    { rank: 1, code: "B01", post: "ASO in Central Secretariat Service (CSS)", priority: "100% Delhi Posting & Fast Promotions", ceiling: "Under Secretary / Joint Secretary", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 2, code: "B05", post: "Inspector of Income Tax (CBDT)", priority: "Highest Social Prestige, Raids & Field, Home State Allotment", ceiling: "Joint Commissioner (IRS level)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 3, code: "B03", post: "ASO in Ministry of External Affairs (MEA)", priority: "Foreign Postings, Hard Currency Foreign Allowance (₹2L-₹4L/mo)", ceiling: "First Secretary / Ambassadorial postings", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 4, code: "B09", post: "Assistant Enforcement Officer (AEO in ED)", priority: "High Power, PMLA / FEMA Investigations, Financial Crimes", ceiling: "Joint Director (ED)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 5, code: "B06", post: "Inspector (Central Excise / GST in CBIC)", priority: "High Vacancy Volume, Enforcement, Uniform, Industrial Belts", ceiling: "Assistant Commissioner (Customs & GST)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 6, code: "B10", post: "Sub-Inspector in CBI", priority: "Premier Investigative Agency, 20% Extra Special Security Pay", ceiling: "Superintendent of Police (SP in CBI)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 7, code: "A01", post: "Assistant Audit Officer (AAO in C&AG)", priority: "Highest Starting Entry Pay (Level 8), Group 'B' Gazetted Rank", ceiling: "Senior Audit Officer / Director (Audit)", level: "Level 8 (₹47.6k-₹1.51L)" },
+    { rank: 8, code: "B04", post: "ASO in Armed Forces HQ (AFHQ / MoD)", priority: "Delhi Armed Forces Complex, High Stability, Defence Perks", ceiling: "Director (Armed Forces HQ Service)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 9, code: "B08", post: "Examiner (Customs Appraising in CBIC)", priority: "Assessment of Import/Export Cargo at Major Ports, Fast Promotion", ceiling: "Assistant Commissioner (Customs)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 10, code: "B07", post: "Preventive Officer (Customs in CBIC)", priority: "Uniformed Port/Airport Surveillance, Anti-Smuggling, White Uniform", ceiling: "Assistant Commissioner (Customs)", level: "Level 7 (₹44.9k-₹1.42L)" },
+    { rank: 11, code: "B13", post: "Divisional Accountant (under C&AG)", priority: "Complete Office Autonomy in State PWD, Home District Chance", ceiling: "Senior Divisional Accounts Officer", level: "Level 6 (₹35.4k-₹1.12L)" },
+    { rank: 12, code: "B11", post: "Sub-Inspector in NIA (National Investigation Agency)", priority: "Counter-Terrorism Operations, Central MHA Investigation", ceiling: "Superintendent of Police (NIA)", level: "Level 6 (₹35.4k-₹1.12L)" },
+    { rank: 13, code: "C01", post: "Auditor in C&AG / CGDA / CGA", priority: "Low Daily Work Stress, Fixed Hours, Ideal for UPSC/State PSC Prep", ceiling: "Senior Audit Officer / Accounts Officer", level: "Level 5 (₹29.2k-₹92.3k)" },
+    { rank: 14, code: "C05", post: "Tax Assistant (CBDT - Direct Taxes)", priority: "Gateway to Direct Taxes, High Home State Chance, Fast TA to ITI", ceiling: "Income Tax Officer (ITO)", level: "Level 4 (₹25.5k-₹81.1k)" },
+    { rank: 15, code: "C06", post: "Tax Assistant (CBIC - Indirect Taxes)", priority: "Central GST & Customs Administration, Regular Desk Timing", ceiling: "Superintendent of GST", level: "Level 4 (₹25.5k-₹81.1k)" }
   ];
 
   const faqs = [
     {
       q: "Can I change my post preferences after submitting the SSC CGL Option Form?",
-      a: "No! Once the Option-cum-Preference form is finally submitted on the official SSC portal after Tier-II, NO changes are permitted under any circumstances. You are allocated strictly based on your merit rank and the order of preferences submitted."
+      a: "No! Once the Option-cum-Preference form is submitted and confirmed on the official SSC portal after Tier-II, NO modification is permitted under any circumstances. You are allocated strictly based on your merit rank and the serial order of preferences submitted."
     },
     {
-      q: "Why do many North Indian candidates prefer ASO in CSS over Central Excise Inspector?",
-      a: "ASO in CSS guarantees a permanent posting in New Delhi (Central Ministries) with fixed office hours, no field transfers, and institutional promotions. Central Excise Inspectors often face initial postings in South or Western Coastal zones (Chennai, Bengaluru, Mumbai, Kochi) where inter-charge transfers to North India are severely restricted."
+      q: "Why do North Indian candidates prefer ASO in CSS over Central Excise Inspector?",
+      a: "ASO in CSS guarantees a permanent lifetime posting in New Delhi (Central Ministries) with fixed 9-to-5 office hours, no transfer stress, and institutional promotions to Under Secretary. Central Excise Inspectors often face initial postings in Southern or Western coastal zones (Chennai, Bengaluru, Mumbai, Kochi) where inter-charge transfer (ICT) to North India is heavily restricted."
     },
     {
       q: "Is Assistant Audit Officer (AAO) mandatory to have a Commerce degree?",
-      a: "No. Any graduate can apply for AAO. However, after selection, you must clear the Subordinate Audit/Accounts Service (SAS) examination within your 2-year probation period."
+      a: "No. Any graduate in Arts, Science, Commerce, or Engineering can apply for AAO. However, after joining, you must clear the Subordinate Audit/Accounts Service (SAS) departmental examination within your 2-year probation period to confirm your appointment."
     },
     {
       q: "How does SSC normalise marks in Tier-I?",
-      a: "SSC uses a standard deviation-based multi-shift normalisation formula that equalises the difficulty levels across different exam shifts, ensuring candidates in tougher shifts are fairly adjusted."
+      a: "SSC uses a standard deviation-based multi-shift normalisation formula that equalises the difficulty levels across different exam shifts, ensuring candidates appearing in tougher shifts are fairly adjusted."
+    },
+    {
+      q: "What is the sliding mechanism in SSC CGL merit allocation?",
+      a: "The sliding mechanism automatically upgrades candidates from a lower preference to a higher preferred post if higher-ranked candidates decline an offer or fail document verification, preventing seat wastage."
     }
   ];
 
@@ -92,7 +101,7 @@ export default function SscCglCutoffsPreferencePage() {
               Chapter 5 of 7
             </span>
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">
-              15 Min Read
+              18 Min Read
             </span>
             <span className="text-xs font-bold text-indigo-800 bg-indigo-50 px-3 py-1 rounded-lg border border-indigo-200 flex items-center gap-1">
               <Compass className="w-3.5 h-3.5 text-indigo-600" /> Post Selection Matrix
@@ -103,7 +112,7 @@ export default function SscCglCutoffsPreferencePage() {
             SSC CGL Cut-Off Trends & Practical Post Preference Ranking Guide
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
-            How to strategically balance starting pay levels, institutional promotion ceilings, home cadre posting security, and field versus desk work when filling your official SSC option-cum-preference form.
+            How to strategically balance starting pay levels, institutional promotion ceilings, home cadre posting security, and field versus desk work when submitting your official SSC option-cum-preference form.
           </p>
 
           {/* Nav */}
@@ -120,40 +129,40 @@ export default function SscCglCutoffsPreferencePage() {
           </div>
         </header>
 
-        {/* Section 1: The 4 Decision Pillars */}
+        {/* Section 1: The 4 Strategic Decision Pillars */}
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
             <span className="text-xs font-black uppercase text-blue-700 bg-blue-50 px-2.5 py-0.5 rounded-md border border-blue-200">Pillar 1</span>
-            <h4 className="font-extrabold text-slate-900 text-sm">Location Security</h4>
-            <p className="text-xs text-slate-600 leading-relaxed">ASO CSS guarantees 100% Delhi tenure. Inspector CBIC/CBI involves nationwide or coastal postings.</p>
+            <h4 className="font-extrabold text-slate-900 text-sm">Location Stability</h4>
+            <p className="text-xs text-slate-600 leading-relaxed">ASO CSS & AFHQ guarantee 100% Delhi tenure. CBIC Central Excise & CBI involve pan-India or coastal transfers.</p>
           </div>
 
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
             <span className="text-xs font-black uppercase text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-md border border-emerald-200">Pillar 2</span>
-            <h4 className="font-extrabold text-slate-900 text-sm">Promotion Speed</h4>
-            <p className="text-xs text-slate-600 leading-relaxed">ASO CSS & Income Tax have structured career paths to Under Secretary and Joint Commissioner.</p>
+            <h4 className="font-extrabold text-slate-900 text-sm">Promotion Ceilings</h4>
+            <p className="text-xs text-slate-600 leading-relaxed">ASO CSS & Income Tax Inspector offer fast institutional promotions to Under Secretary / Joint Commissioner.</p>
           </div>
 
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
             <span className="text-xs font-black uppercase text-purple-700 bg-purple-50 px-2.5 py-0.5 rounded-md border border-purple-200">Pillar 3</span>
             <h4 className="font-extrabold text-slate-900 text-sm">Work-Life Balance</h4>
-            <p className="text-xs text-slate-600 leading-relaxed">Auditors, Divisional Accountants, and TA offer relaxed work hours ideal for higher exam prep.</p>
+            <p className="text-xs text-slate-600 leading-relaxed">Auditors, Divisional Accountants, and Tax Assistants provide relaxed hours ideal for UPSC/State PCS study.</p>
           </div>
 
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
             <span className="text-xs font-black uppercase text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded-md border border-amber-200">Pillar 4</span>
-            <h4 className="font-extrabold text-slate-900 text-sm">Authority & Uniform</h4>
-            <p className="text-xs text-slate-600 leading-relaxed">Central Excise, Preventive Officer, and CBI provide active field power, raids, and uniform perks.</p>
+            <h4 className="font-extrabold text-slate-900 text-sm">Authority & Perks</h4>
+            <p className="text-xs text-slate-600 leading-relaxed">Central Excise, CBI, and ED offer enforcement power, raids, uniforms, and specialized security allowances.</p>
           </div>
         </section>
 
-        {/* Section 2: Recommended Practical Ranking Table */}
+        {/* Section 2: Comprehensive Top 15 Post Preference Matrix */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-blue-100 text-blue-700 font-bold"><Trophy className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">Practical Top 10 SSC CGL Post Preference Order</h2>
-              <p className="text-xs text-slate-500 font-medium">Ranked by career ceiling, location stability, and candidate demand</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">Master Top 15 Post Preference Hierarchy Table</h2>
+              <p className="text-xs text-slate-500 font-medium">Ranked by career ceiling, location stability, social prestige, and candidate demand</p>
             </div>
           </div>
 
@@ -164,7 +173,7 @@ export default function SscCglCutoffsPreferencePage() {
                   <th className="p-3.5 text-center">Rank</th>
                   <th className="p-3.5">Post & Organization</th>
                   <th className="p-3.5">Key Advantage & Priority</th>
-                  <th className="p-3.5">Career Ceiling / Promotion</th>
+                  <th className="p-3.5">Promotion Ceiling</th>
                   <th className="p-3.5 text-right">Pay Band</th>
                 </tr>
               </thead>
@@ -172,7 +181,10 @@ export default function SscCglCutoffsPreferencePage() {
                 {preferenceRanking.map((row) => (
                   <tr key={row.rank} className="hover:bg-slate-50/80 transition">
                     <td className="p-3.5 text-center font-black text-blue-700 text-sm">#{row.rank}</td>
-                    <td className="p-3.5 font-bold text-slate-900">{row.post}</td>
+                    <td className="p-3.5">
+                      <span className="font-bold text-slate-900">{row.post}</span>
+                      <span className="block text-[11px] text-slate-500 font-semibold">{row.code}</span>
+                    </td>
                     <td className="p-3.5 text-xs text-slate-600">{row.priority}</td>
                     <td className="p-3.5 text-xs text-slate-700 font-semibold">{row.ceiling}</td>
                     <td className="p-3.5 text-right font-black text-slate-900">{row.level}</td>
@@ -180,6 +192,39 @@ export default function SscCglCutoffsPreferencePage() {
                 ))}
               </tbody>
             </table>
+          </div>
+        </section>
+
+        {/* Section 3: Deep Comparison - Desk vs Field vs Location */}
+        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
+            <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><Scale className="w-5 h-5" /></div>
+            <div>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. In-Depth Comparative Analysis: Top 5 Cadres</h2>
+              <p className="text-xs text-slate-500 font-medium">Evaluating trade-offs between initial salary, location lock-in, and transfer rules</p>
+            </div>
+          </div>
+
+          <div className="space-y-4 text-xs sm:text-sm text-slate-700">
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <Building2 className="w-4 h-4 text-blue-600" /> ASO in CSS (DoPT) vs MEA vs Income Tax Inspector
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                <strong>ASO in CSS:</strong> Highest stability. 100% postings in South Block, North Block, and Shastri Bhawan in New Delhi. Fixed 9 AM to 5:30 PM timings, 5-day work week, excellent government quarters in Central Delhi, and institutional promotions to Under Secretary.<br />
+                <strong>ASO in MEA:</strong> Candidates undergo 2-3 years in Delhi before mandatory rotational 3-year foreign postings. Offers foreign allowances in USD/Euros, free international housing, and diplomatic passports.<br />
+                <strong>Inspector of Income Tax (CBDT):</strong> Direct taxation enforcement with search, seizure, assessment, and investigation powers. Highest social respect among all non-uniform posts with strong home state allocation chances.
+              </p>
+            </div>
+
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <AlertCircle className="w-4 h-4 text-amber-600" /> The Central Excise Inspector Transfer Risk
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Central Excise (GST) offers maximum vacancy numbers each cycle. However, since the ban on Inter-Charge Transfers (ICT), candidates allocated to Southern Zones (Chennai, Hyderabad, Kochi, Bengaluru) or Western Zones (Mumbai, Vadodara) cannot easily transfer back to Northern home states (Delhi, UP, Rajasthan, Haryana). Factor in geographic preference before placing CBIC above desk cadres!
+              </p>
+            </div>
           </div>
         </section>
 

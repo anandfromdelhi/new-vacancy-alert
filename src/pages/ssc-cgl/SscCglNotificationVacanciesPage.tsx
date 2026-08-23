@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { 
   Calendar, TrendingUp, AlertCircle, ShieldCheck, CheckCircle2, 
   ArrowRight, BookOpen, Clock, BarChart3, HelpCircle, Layers, Sparkles,
-  ChevronDown, ChevronUp, Share2, Printer
+  ChevronDown, ChevronUp, Share2, Printer, Target, Building2, Info, ArrowUpRight, Flame
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -27,19 +27,27 @@ export default function SscCglNotificationVacanciesPage() {
   const faqs = [
     {
       q: "When will the SSC CGL 2027 notification be released?",
-      a: "Based on the historical pattern of 2024 (June), 2025 (June), and 2026 (March), the SSC CGL 2027 notification is most reasonably expected around May–June 2027, with Tier-I in August–September 2027."
+      a: "Based on the historical pattern of 2024 (June), 2025 (June), and 2026 (March/May), the SSC CGL 2027 notification is most reasonably expected around May–June 2027, with Tier-I in August–September 2027 and Tier-II in December 2027 / January 2028."
     },
     {
       q: "How many vacancies are expected in SSC CGL 2027?",
-      a: "Excluding the 2022 one-time surge (36,012 posts), the 4-year regular average is ~13,500 vacancies. A realistic planning estimate for 2027 is in the range of 12,000 to 17,000 vacancies."
+      a: "Excluding the 2022 one-time surge (36,012 posts), the 4-year regular recruitment average is ~13,500 vacancies. A realistic planning estimate for 2027 is in the range of 12,000 to 17,000 vacancies across Central Ministries."
     },
     {
       q: "Do SSC CGL vacancies increase after the notification is released?",
-      a: "Yes. In almost every recent cycle, initial vacancies reported at notification stage increase significantly by the final allocation stage as participating ministries submit revised indents (e.g. 2024 increased from 17,727 to 18,174; 2025 increased from 14,582 to 15,130)."
+      a: "Yes. In almost every recent cycle, initial vacancies reported at notification stage increase significantly by the final allocation stage as participating ministries submit revised indents (e.g. 2022 jumped from ~20,000 to 36,012; 2023 from 7,500 to 8,415; 2024 from 17,727 to 18,174; 2025 from 14,582 to 15,130)."
     },
     {
-      q: "Is the SSC Annual Calendar date legally binding?",
-      a: "No. The SSC Annual Calendar is a tentative planning schedule and not a statutory commitment. Candidates should use it as a study guideline while monitoring ssc.gov.in for official notices."
+      q: "What is the difference between SSC Calendar Date and Actual Notification Date?",
+      a: "The SSC Annual Calendar publishes tentative planning months in advance. The actual notification date is when the official PDF advertisement goes live on ssc.gov.in. Exam dates may be further rescheduled due to administrative clearances or election schedules."
+    },
+    {
+      q: "Why did SSC CGL vacancies jump to 36,012 in 2022 and drop to 8,415 in 2023?",
+      a: "In 2022, the Central Government launched a Mission Mode recruitment drive clearing accumulated backlogs and merged Postal Assistant / Sorting Assistant (PA/SA) into CGL for the first time. In 2023, vacancies normalized after backlogs were cleared and ministries adjusted intake."
+    },
+    {
+      q: "Can a user department withdraw vacancies after the SSC CGL notification?",
+      a: "Yes. Vacancies remain strictly tentative until the final result is declared. Participating departments have the statutory right to increase, decrease, or withdraw vacancies based on cadre restructuring, administrative requirements, or court orders."
     }
   ];
 
@@ -47,7 +55,7 @@ export default function SscCglNotificationVacanciesPage() {
     <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
       <Helmet>
         <title>SSC CGL Notification Dates & 5-Year Vacancy Trends (2022-2027) | Complete Analysis</title>
-        <meta name="description" content="Exhaustive analysis of SSC CGL notification timelines, 5-year vacancy trends (2022-2027), initial vs final vacancy increases, and realistic schedule projections." />
+        <meta name="description" content="Exhaustive analysis of SSC CGL notification timelines, 5-year vacancy trends (2022-2027), initial vs final vacancy increases, and realistic schedule projections from official records." />
         <link rel="canonical" href="https://newvacancyalert.in/ssc-cgl-notification-vacancies-trend" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
@@ -62,10 +70,10 @@ export default function SscCglNotificationVacanciesPage() {
             <span>/</span>
             <Link to="/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
             <span>/</span>
-            <span className="text-slate-400 truncate">Chapter 1: Dates & Vacancy Trends</span>
+            <span className="text-slate-400 truncate">Chapter 1: Dates & Vacancies</span>
           </div>
           <span className="hidden sm:inline-flex items-center gap-1 text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/60 text-[11px]">
-            <ShieldCheck className="w-3.5 h-3.5" /> Verified Data
+            <ShieldCheck className="w-3.5 h-3.5" /> 337-Page Source Verified
           </span>
         </div>
       </div>
@@ -79,200 +87,208 @@ export default function SscCglNotificationVacanciesPage() {
               Chapter 1 of 7
             </span>
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">
-              12 Min Read
+              18 Min Read
             </span>
             <span className="text-xs font-bold text-amber-800 bg-amber-50 px-3 py-1 rounded-lg border border-amber-200 flex items-center gap-1">
-              <Calendar className="w-3.5 h-3.5 text-amber-600" /> Updated for 2026–2027
+              <Calendar className="w-3.5 h-3.5 text-amber-600" /> Updated for 2026–2027 Cycle
             </span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 leading-tight">
-            SSC CGL Notification Dates & 5-Year Vacancy Trends (2022–2027)
+            SSC CGL Notification Dates, 5-Year Vacancy Trends (2022–2027) & Timeline Analysis
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
-            A data-driven, historical examination of Staff Selection Commission Combined Graduate Level (CGL) notification cycles, initial versus final vacancy movements, year-on-year growth curves, and realistic timeline expectations.
+            An exhaustive, data-backed historical study of Staff Selection Commission Combined Graduate Level (CGL) examination cycles. Discover real notification trends, initial versus final indent expansions, vacancy volatility factors, and realistic schedule projections for upcoming cycles.
           </p>
 
-          {/* Quick Navigation Strip */}
+          {/* Quick Nav */}
           <div className="pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs font-bold">
             <Link to="/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
               <BookOpen className="w-3.5 h-3.5" /> Master Hub
             </Link>
             <Link to="/ssc-cgl-posts-salary-pay-scale-hierarchy" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
-              Next: Posts & Salary <ArrowRight className="w-3.5 h-3.5" />
+              Next: Posts & Salary Matrix <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
         </header>
 
-        {/* Executive Highlights Grid */}
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1.5">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">5-Yr Normal Average</span>
+        {/* Key Metrics Banner */}
+        <section className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
+          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">4-Year Average</span>
             <div className="text-2xl font-black text-blue-700">13,500+</div>
-            <p className="text-xs text-slate-500">Excluding 2022 one-time spike</p>
+            <p className="text-[11px] text-slate-500 font-medium">Regular intake baseline</p>
           </div>
-          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1.5">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">CGL 2026 Confirmed</span>
+          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">CGL 2026 Indent</span>
             <div className="text-2xl font-black text-emerald-700">12,256</div>
-            <p className="text-xs text-slate-500">Tentative vacancies at release</p>
+            <p className="text-[11px] text-slate-500 font-medium">Initial confirmed posts</p>
           </div>
-          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1.5">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">2027 Planning Range</span>
+          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">2027 Planning Range</span>
             <div className="text-2xl font-black text-purple-700">12k – 17k</div>
-            <p className="text-xs text-slate-500">Realistic expected window</p>
+            <p className="text-[11px] text-slate-500 font-medium">Expected vacancy window</p>
           </div>
-          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1.5">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Release Window</span>
+          <div className="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-2xs space-y-1">
+            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Release Window</span>
             <div className="text-2xl font-black text-amber-700">May – June</div>
-            <p className="text-xs text-slate-500">Historical notification pattern</p>
+            <p className="text-[11px] text-slate-500 font-medium">Historical release pattern</p>
           </div>
         </section>
 
-        {/* Section 1: Historical Notification Timeline */}
+        {/* Section 1: Detailed Historical Notification Timeline */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-blue-100 text-blue-700 font-bold"><Calendar className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">1. SSC CGL Notification Timeline (2023–2027)</h2>
-              <p className="text-xs text-slate-500 font-medium">How the exam calendar has moved across past cycles</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">1. SSC CGL Historical Notification Timeline (2023–2027)</h2>
+              <p className="text-xs text-slate-500 font-medium">Comparing official calendar expectations against actual release dates</p>
             </div>
           </div>
 
-          <p className="text-sm text-slate-700 leading-relaxed">
-            SSC publishes an annual examination calendar beforehand, but real-world notification dates frequently adjust based on pending tier results, user department vacancy intimations, and administrative schedules. Below is the historical tracking of notification releases from 2023 to 2027:
+          <p className="text-sm text-slate-700 leading-relaxed font-medium">
+            While SSC publishes an annual examination calendar beforehand, real-world notification dates consistently shift due to pending previous tier results, department vacancy indents, and administrative processing. Below is the comprehensive tracking of notification releases from 2023 to 2027:
           </p>
 
           <div className="overflow-x-auto rounded-xl border border-slate-200">
             <table className="w-full text-left text-xs sm:text-sm">
               <thead className="bg-slate-100 text-slate-700 font-extrabold uppercase text-[11px] tracking-wider border-b border-slate-200">
                 <tr>
-                  <th className="p-3.5">SSC CGL Cycle</th>
-                  <th className="p-3.5">Notification Released</th>
-                  <th className="p-3.5">Application Window</th>
-                  <th className="p-3.5">Tier-I Exam</th>
-                  <th className="p-3.5">Tier-II Exam</th>
+                  <th className="p-3.5">CGL Cycle</th>
+                  <th className="p-3.5">Actual Notification Date</th>
+                  <th className="p-3.5">Online Application Window</th>
+                  <th className="p-3.5">Tier-I CBT Exam Dates</th>
+                  <th className="p-3.5">Tier-II CBT Exam Dates</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 font-medium text-slate-800">
-                <tr className="hover:bg-slate-50/80 transition">
+                <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold text-slate-900">SSC CGL 2023</td>
                   <td className="p-3.5">03 April 2023</td>
                   <td className="p-3.5">03 Apr – 03 May 2023</td>
-                  <td className="p-3.5">July 2023</td>
-                  <td className="p-3.5">October 2023</td>
+                  <td className="p-3.5">14 Jul – 27 Jul 2023</td>
+                  <td className="p-3.5">26 Oct – 27 Oct 2023</td>
                 </tr>
-                <tr className="hover:bg-slate-50/80 transition">
+                <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold text-slate-900">SSC CGL 2024</td>
                   <td className="p-3.5">24 June 2024</td>
                   <td className="p-3.5">24 Jun – 27 Jul 2024</td>
-                  <td className="p-3.5">September 2024</td>
-                  <td className="p-3.5">January 2025</td>
+                  <td className="p-3.5">09 Sep – 26 Sep 2024</td>
+                  <td className="p-3.5">18 Jan – 20 Jan 2025</td>
                 </tr>
-                <tr className="hover:bg-slate-50/80 transition">
+                <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold text-slate-900">SSC CGL 2025</td>
                   <td className="p-3.5">09 June 2025</td>
                   <td className="p-3.5">09 Jun – 04 Jul 2025</td>
-                  <td className="p-3.5">September 2025</td>
-                  <td className="p-3.5">December 2025</td>
+                  <td className="p-3.5">12 Sep – 24 Sep 2025</td>
+                  <td className="p-3.5">15 Dec – 18 Dec 2025</td>
                 </tr>
-                <tr className="hover:bg-slate-50/80 transition bg-blue-50/30">
+                <tr className="hover:bg-slate-50 transition bg-blue-50/40">
                   <td className="p-3.5 font-bold text-blue-900">SSC CGL 2026</td>
-                  <td className="p-3.5 font-bold text-blue-800">March 2026 (Confirmed)</td>
-                  <td className="p-3.5">Mar – Apr 2026</td>
-                  <td className="p-3.5">May – June 2026</td>
-                  <td className="p-3.5">Sep – Oct 2026</td>
+                  <td className="p-3.5 font-bold text-blue-800">21 May 2026 (Confirmed)</td>
+                  <td className="p-3.5">21 May – 19 Jun 2026</td>
+                  <td className="p-3.5">August – September 2026</td>
+                  <td className="p-3.5">November – December 2026</td>
                 </tr>
-                <tr className="hover:bg-slate-50/80 transition bg-amber-50/40">
-                  <td className="p-3.5 font-bold text-amber-900">SSC CGL 2027 (Expected)</td>
-                  <td className="p-3.5 font-bold text-amber-800">May – June 2027 (Estimate)</td>
-                  <td className="p-3.5">May – Jul 2027</td>
-                  <td className="p-3.5">Aug – Sep 2027</td>
+                <tr className="hover:bg-slate-50 transition bg-amber-50/50">
+                  <td className="p-3.5 font-bold text-amber-900">SSC CGL 2027 (Projected)</td>
+                  <td className="p-3.5 font-bold text-amber-800">May – June 2027 (Expected)</td>
+                  <td className="p-3.5">May – July 2027</td>
+                  <td className="p-3.5">August – September 2027</td>
                   <td className="p-3.5">Dec 2027 / Jan 2028</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-xl text-xs sm:text-sm text-blue-950 space-y-1">
-            <strong className="font-extrabold flex items-center gap-1.5 text-blue-900">
-              <AlertCircle className="w-4 h-4 text-blue-600 shrink-0" /> Key Strategic Takeaway:
-            </strong>
-            <p className="leading-relaxed">
-              Between the notification release date and Tier-I examination, candidates consistently receive approximately <strong>60 to 80 days</strong>. Never wait for the official notification to start preparation; Tier-I and Tier-II preparation must begin 6 to 12 months in advance.
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+            <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
+              <strong className="text-xs font-black uppercase text-slate-800 block">Annual Calendar Date</strong>
+              <p className="text-xs text-slate-600">The tentative planning schedule published months prior by SSC for candidate orientation.</p>
+            </div>
+            <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
+              <strong className="text-xs font-black uppercase text-slate-800 block">Actual Notification Date</strong>
+              <p className="text-xs text-slate-600">The statutory advertisement date when online registration opens on ssc.gov.in.</p>
+            </div>
+            <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-1">
+              <strong className="text-xs font-black uppercase text-slate-800 block">Exam Schedule Window</strong>
+              <p className="text-xs text-slate-600">Typically conducted 60 to 80 days after application closure across multiple CBT shifts.</p>
+            </div>
           </div>
         </section>
 
-        {/* Section 2: 5-Year Vacancy Analysis */}
+        {/* Section 2: Comprehensive 5-Year Vacancy Analysis */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><BarChart3 className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Historical Vacancy Trends: 2022 to 2026</h2>
-              <p className="text-xs text-slate-500 font-medium">Analyzing vacancy surges, corrections, and baseline stabilization</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. 5-Year Historical Vacancy Analysis (2022 to 2026)</h2>
+              <p className="text-xs text-slate-500 font-medium">Deconstructing the 2022 surge, 2023 correction, and regular baseline stabilization</p>
             </div>
           </div>
 
-          <p className="text-sm text-slate-700 leading-relaxed">
-            SSC CGL vacancies have experienced dramatic shifts over the last 5 years. Understanding why 2022 was an outlier and where recruitment levels have stabilized provides the most accurate estimation for upcoming cycles:
-          </p>
-
-          <div className="space-y-3.5 bg-slate-50 p-5 rounded-2xl border border-slate-200">
-            <span className="text-xs font-black uppercase text-slate-500 tracking-wider block mb-2">
-              SSC CGL Vacancies Scale Comparison (2022 – 2026)
+          <div className="space-y-4 bg-slate-50 p-5 rounded-2xl border border-slate-200">
+            <span className="text-xs font-black uppercase text-slate-500 tracking-wider block">
+              SSC CGL Vacancy Scale Dynamics (2022–2026)
             </span>
             
-            <div>
-              <div className="flex justify-between text-xs font-bold mb-1">
-                <span className="text-slate-700">SSC CGL 2022 (Mission Mode Surge)</span>
-                <span className="text-purple-700 font-black">36,012 Posts (100%)</span>
+            <div className="space-y-1">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-slate-800">SSC CGL 2022 (Mission Mode Mega Surge)</span>
+                <span className="text-purple-700 font-black">36,012 Final Posts (100%)</span>
               </div>
-              <div className="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-4 rounded-full overflow-hidden">
                 <div className="bg-purple-600 h-full rounded-full" style={{ width: '100%' }}></div>
               </div>
+              <p className="text-[11px] text-slate-500">Initial ~20,000 jumped to 36,012 due to PA/SA merger & backlogs.</p>
             </div>
 
-            <div>
-              <div className="flex justify-between text-xs font-bold mb-1">
-                <span className="text-slate-700">SSC CGL 2023 (Post-Surge Correction)</span>
-                <span className="text-slate-700 font-black">8,415 Posts (23.3%)</span>
+            <div className="space-y-1">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-slate-800">SSC CGL 2023 (Post-Surge Correction)</span>
+                <span className="text-slate-700 font-black">8,415 Final Posts (23.3%)</span>
               </div>
-              <div className="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-4 rounded-full overflow-hidden">
                 <div className="bg-slate-600 h-full rounded-full" style={{ width: '23.3%' }}></div>
               </div>
+              <p className="text-[11px] text-slate-500">Initial 7,500 posts expanded to 8,415 (+915 net additions).</p>
             </div>
 
-            <div>
-              <div className="flex justify-between text-xs font-bold mb-1">
-                <span className="text-slate-700">SSC CGL 2024 (Rebounded & Expanded)</span>
-                <span className="text-blue-700 font-black">18,174 Posts (50.5%)</span>
+            <div className="space-y-1">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-slate-800">SSC CGL 2024 (Rebounded & Expanded)</span>
+                <span className="text-blue-700 font-black">18,174 Final Posts (50.5%)</span>
               </div>
-              <div className="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-4 rounded-full overflow-hidden">
                 <div className="bg-blue-600 h-full rounded-full" style={{ width: '50.5%' }}></div>
               </div>
+              <p className="text-[11px] text-slate-500">Initial 17,727 increased to 18,174 across CBDT, CBIC & Ministries.</p>
             </div>
 
-            <div>
-              <div className="flex justify-between text-xs font-bold mb-1">
-                <span className="text-slate-700">SSC CGL 2025 (Strong Healthy Baseline)</span>
-                <span className="text-emerald-700 font-black">15,130 Posts (42.0%)</span>
+            <div className="space-y-1">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-slate-800">SSC CGL 2025 (Strong Healthy Baseline)</span>
+                <span className="text-emerald-700 font-black">15,130 Final Posts (42.0%)</span>
               </div>
-              <div className="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-4 rounded-full overflow-hidden">
                 <div className="bg-emerald-600 h-full rounded-full" style={{ width: '42.0%' }}></div>
               </div>
+              <p className="text-[11px] text-slate-500">Initial 14,582 increased to 15,130 before Tier-II result computation.</p>
             </div>
 
-            <div>
-              <div className="flex justify-between text-xs font-bold mb-1">
-                <span className="text-slate-700">SSC CGL 2026 (Tentative Initial Indent)</span>
+            <div className="space-y-1">
+              <div className="flex justify-between text-xs font-bold">
+                <span className="text-slate-800">SSC CGL 2026 (Tentative Initial Indent)</span>
                 <span className="text-amber-700 font-black">12,256 Posts (34.0%)</span>
               </div>
-              <div className="w-full bg-slate-200 h-3.5 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-4 rounded-full overflow-hidden">
                 <div className="bg-amber-600 h-full rounded-full" style={{ width: '34.0%' }}></div>
               </div>
+              <p className="text-[11px] text-slate-500">Initial reported indent. Likely to increase as revised indents arrive.</p>
             </div>
           </div>
 
+          {/* Detailed Year-Wise Table */}
           <div className="overflow-x-auto rounded-xl border border-slate-200">
             <table className="w-full text-left text-xs sm:text-sm">
               <thead className="bg-slate-100 text-slate-700 font-extrabold uppercase text-[11px] tracking-wider border-b border-slate-200">
@@ -280,79 +296,101 @@ export default function SscCglNotificationVacanciesPage() {
                   <th className="p-3.5">Year</th>
                   <th className="p-3.5">Initial Notification Vacancies</th>
                   <th className="p-3.5">Final Allocation Vacancies</th>
-                  <th className="p-3.5">Net Addition</th>
-                  <th className="p-3.5">Status</th>
+                  <th className="p-3.5">Net Expansion</th>
+                  <th className="p-3.5">Key Drivers</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 font-medium text-slate-800">
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">2022</td>
-                  <td className="p-3.5">~20,000 (Approx)</td>
-                  <td className="p-3.5 font-bold text-purple-700">36,012</td>
-                  <td className="p-3.5 text-emerald-600 font-bold">+16,012 (+80%)</td>
-                  <td className="p-3.5"><span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-bold">Final</span></td>
+                  <td className="p-3.5">~20,000</td>
+                  <td className="p-3.5 font-black text-purple-700">36,012</td>
+                  <td className="p-3.5 text-emerald-600 font-bold">+16,012 (+80.0%)</td>
+                  <td className="p-3.5 text-xs text-slate-600">PA/SA merger from CHSL + Mission Mode backlog drive</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">2023</td>
                   <td className="p-3.5">7,500</td>
-                  <td className="p-3.5 font-bold text-slate-800">8,415</td>
+                  <td className="p-3.5 font-black text-slate-800">8,415</td>
                   <td className="p-3.5 text-emerald-600 font-bold">+915 (+12.2%)</td>
-                  <td className="p-3.5"><span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-bold">Final</span></td>
+                  <td className="p-3.5 text-xs text-slate-600">Post-surge correction; TA & Auditor additions</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">2024</td>
                   <td className="p-3.5">17,727</td>
-                  <td className="p-3.5 font-bold text-blue-700">18,174</td>
+                  <td className="p-3.5 font-black text-blue-700">18,174</td>
                   <td className="p-3.5 text-emerald-600 font-bold">+447 (+2.5%)</td>
-                  <td className="p-3.5"><span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-bold">Final</span></td>
+                  <td className="p-3.5 text-xs text-slate-600">Large CBDT (ITI/TA) & Central Excise intake</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">2025</td>
                   <td className="p-3.5">14,582</td>
-                  <td className="p-3.5 font-bold text-emerald-700">15,130</td>
+                  <td className="p-3.5 font-black text-emerald-700">15,130</td>
                   <td className="p-3.5 text-emerald-600 font-bold">+548 (+3.8%)</td>
-                  <td className="p-3.5"><span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-xs font-bold">Final</span></td>
+                  <td className="p-3.5 text-xs text-slate-600">C&AG Auditor, ASO CSS & CBIC GST additions</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition bg-amber-50/40">
                   <td className="p-3.5 font-bold">2026</td>
-                  <td className="p-3.5 font-bold text-amber-800">12,256</td>
+                  <td className="p-3.5 font-black text-amber-800">12,256</td>
                   <td className="p-3.5 text-slate-500">In Progress</td>
-                  <td className="p-3.5 text-amber-600 font-bold">Likely to Increase</td>
-                  <td className="p-3.5"><span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-xs font-bold">Tentative</span></td>
+                  <td className="p-3.5 text-amber-600 font-bold">Expected Growth</td>
+                  <td className="p-3.5 text-xs text-slate-600">Initial reported indent; revisions expected</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        {/* Section 3: Why Vacancies Fluctuate & The 2027 Estimate */}
-        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-5">
-          <h2 className="text-lg sm:text-xl font-black text-slate-900 pb-3 border-b border-slate-200">
-            3. Why Do SSC CGL Vacancies Fluctuate & What Is Expected for 2027?
-          </h2>
+        {/* Section 3: Why Vacancies Fluctuate & Future Outlook */}
+        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
+            <div className="p-2 rounded-xl bg-amber-100 text-amber-700 font-bold"><Target className="w-5 h-5" /></div>
+            <div>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. Why Do SSC CGL Vacancies Fluctuate So Dramatically?</h2>
+              <p className="text-xs text-slate-500 font-medium">The 4 administrative mechanisms determining intake volume</p>
+            </div>
+          </div>
 
-          <div className="space-y-4 text-sm text-slate-700 leading-relaxed">
-            <p>
-              SSC does not create vacancies independently. It acts strictly as an examining agency for user departments (CBDT, CBIC, C&AG, CGA, MEA, Ministry of Defence, DoPT, etc.). Fluctuation occurs due to three primary drivers:
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 pt-2">
-              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                <h4 className="font-extrabold text-slate-900 text-xs uppercase tracking-wider">1. Cadre Restructuring</h4>
-                <p className="text-xs text-slate-600 leading-relaxed">Periodic ministry restructuring creates sudden bursts in specific posts like Tax Assistants or Inspectors.</p>
-              </div>
-              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                <h4 className="font-extrabold text-slate-900 text-xs uppercase tracking-wider">2. Promotion Clearances</h4>
-                <p className="text-xs text-slate-600 leading-relaxed">When Senior TA to Inspector promotions are cleared, corresponding lower-tier vacancies open up.</p>
-              </div>
-              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                <h4 className="font-extrabold text-slate-900 text-xs uppercase tracking-wider">3. Revised Indents</h4>
-                <p className="text-xs text-slate-600 leading-relaxed">Departments submit preliminary numbers in Q1 and revise them upwards before Tier-II results are computed.</p>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <Building2 className="w-4 h-4 text-blue-600" /> 1. User Department Indents (Not SSC)
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                SSC is strictly an examining body; it does not determine how many officers are needed. Each individual Ministry (CBDT, CBIC, MEA, MoD, C&AG) calculates retirements, promotions, and sanctioned posts and sends indents to SSC.
+              </p>
+            </div>
+
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <TrendingUp className="w-4 h-4 text-emerald-600" /> 2. Cadre Restructuring & DPC Cycles
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                When Departmental Promotion Committees (DPCs) meet and promote Senior Tax Assistants to Inspectors, sudden vacancies open up in lower tiers. Cadre restructuring decisions produce sudden multi-thousand vacancy bursts.
+              </p>
+            </div>
+
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <Layers className="w-4 h-4 text-purple-600" /> 3. Initial vs Final Indent Revisions
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Departments often submit preliminary vacancy numbers to ensure the CGL notification is not delayed. As the fiscal year progresses and actual retirements occur, revised indents expand the final tally before Tier-II merit compilation.
+              </p>
+            </div>
+
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
+              <h4 className="font-extrabold text-slate-900 text-sm flex items-center gap-1.5">
+                <AlertCircle className="w-4 h-4 text-amber-600" /> 4. Surrenders & Reallocations
+              </h4>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Occasionally, if an autonomous organisation undergoes restructuring or litigation, specific post categories may be withdrawn or held in abeyance prior to final allotment.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* FAQs Accordion */}
+        {/* FAQs */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
           <div className="flex items-center gap-2 pb-3 border-b border-slate-200">
             <HelpCircle className="w-5 h-5 text-blue-600" />
@@ -386,7 +424,7 @@ export default function SscCglNotificationVacanciesPage() {
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
           <div className="space-y-1 text-center sm:text-left">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-200">Continue Reading Guide</span>
-            <h4 className="text-lg sm:text-xl font-black">Chapter 2: Complete Posts Directory & 7th Pay Salary Matrix</h4>
+            <h4 className="text-lg sm:text-xl font-black">Chapter 2: Complete Posts Directory & 7th Pay Salary Structure (Levels 4 to 8)</h4>
           </div>
           <Link
             to="/ssc-cgl-posts-salary-pay-scale-hierarchy"
@@ -398,7 +436,7 @@ export default function SscCglNotificationVacanciesPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-notification-vacancies-trend" pageTitle="SSC CGL Notification & Vacancies Discussion" />
+        <CommentsSection pageId="ssc-cgl-notification-vacancies-trend" pageTitle="SSC CGL Notification & Vacancy Trends Discussion" />
       </div>
     </div>
   );

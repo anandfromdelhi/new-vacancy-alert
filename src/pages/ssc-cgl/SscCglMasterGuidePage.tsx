@@ -6,7 +6,7 @@ import {
   BookOpen, Calendar, DollarSign, Dumbbell, Target, Trophy, 
   BookCheck, CheckSquare, ShieldCheck, ArrowRight, Sparkles, 
   BarChart3, ChevronRight, HelpCircle, ChevronDown, ChevronUp,
-  Layers, Users, Building2, Flame, Award, Clock
+  Layers, Users, Building2, Flame, Award, Clock, Check, FileText
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -31,10 +31,10 @@ export default function SscCglMasterGuidePage() {
       slug: "/ssc-cgl-notification-vacancies-trend",
       number: "Chapter 1",
       title: "Notification Dates & 5-Year Vacancy Trends (2022–2027)",
-      desc: "Historical analysis of notification release schedules, 5-year vacancy trends from 36,012 to 12,256, initial vs final vacancy dynamics, and expected timelines.",
+      desc: "Historical analysis of notification release patterns, 5-year vacancy trends from 36,012 to 12,256, initial vs final vacancy dynamics, and expected timelines.",
       icon: Calendar,
       badge: "Historical Data",
-      readTime: "12 Min Read",
+      readTime: "18 Min Read",
       color: "from-blue-500/10 to-blue-600/5 border-blue-200 hover:border-blue-400"
     },
     {
@@ -45,7 +45,7 @@ export default function SscCglMasterGuidePage() {
       desc: "All 34+ posts across Levels 8 to 4 with starting basic pay, in-hand salary calculations across X, Y, Z cities, DA (53%) integration, and promotion ladders.",
       icon: DollarSign,
       badge: "7th CPC Scales",
-      readTime: "15 Min Read",
+      readTime: "20 Min Read",
       color: "from-emerald-500/10 to-emerald-600/5 border-emerald-200 hover:border-emerald-400"
     },
     {
@@ -56,7 +56,7 @@ export default function SscCglMasterGuidePage() {
       desc: "Educational qualifications, crucial cut-off rules, category age relaxations, and mandatory Physical Measurement & Endurance standards for Inspector and SI posts.",
       icon: Dumbbell,
       badge: "Medical & PST",
-      readTime: "14 Min Read",
+      readTime: "18 Min Read",
       color: "from-purple-500/10 to-purple-600/5 border-purple-200 hover:border-purple-400"
     },
     {
@@ -67,7 +67,7 @@ export default function SscCglMasterGuidePage() {
       desc: "Architectural guide to Tier-I qualifying structure, Tier-II 390-mark composite merit scheme, Computer Module, and DEST typing test (27 WPM / 2000 keystrokes).",
       icon: Target,
       badge: "390-Mark Scheme",
-      readTime: "16 Min Read",
+      readTime: "20 Min Read",
       color: "from-amber-500/10 to-amber-600/5 border-amber-200 hover:border-amber-400"
     },
     {
@@ -78,7 +78,7 @@ export default function SscCglMasterGuidePage() {
       desc: "How to strategically balance starting salary, institutional promotion ceiling, home state cadre stability, and desk vs field work when filling your SSC option form.",
       icon: Trophy,
       badge: "Preference Matrix",
-      readTime: "15 Min Read",
+      readTime: "18 Min Read",
       color: "from-indigo-500/10 to-indigo-600/5 border-indigo-200 hover:border-indigo-400"
     },
     {
@@ -89,7 +89,7 @@ export default function SscCglMasterGuidePage() {
       desc: "A battle-tested study roadmap covering 4 preparation quarters, an 8-hour daily schedule, standard subject-wise booklist, and 3-round mock test optimization.",
       icon: BookCheck,
       badge: "Study Timetable",
-      readTime: "16 Min Read",
+      readTime: "20 Min Read",
       color: "from-rose-500/10 to-rose-600/5 border-rose-200 hover:border-rose-400"
     },
     {
@@ -100,7 +100,7 @@ export default function SscCglMasterGuidePage() {
       desc: "Everything regarding city intimation slips, regional portal download steps, the 6-stage journey to joining, and the definitive Departmental DV dossier checklist.",
       icon: CheckSquare,
       badge: "DV Checklist",
-      readTime: "14 Min Read",
+      readTime: "20 Min Read",
       color: "from-teal-500/10 to-teal-600/5 border-teal-200 hover:border-teal-400"
     }
   ];
@@ -117,6 +117,10 @@ export default function SscCglMasterGuidePage() {
     {
       q: "What is the starting salary in SSC CGL?",
       a: "Starting basic pay ranges from ₹25,500 (Pay Level 4) to ₹47,600 (Pay Level 8). With 53% DA, HRA, and Transport Allowances, starting in-hand monthly salaries range from ~₹44,000 (Tax Assistant in Z City) to ~₹96,000 (Assistant Audit Officer in X City like Delhi/Mumbai)."
+    },
+    {
+      q: "Can any graduate apply for SSC CGL?",
+      a: "Yes! More than 90% of SSC CGL posts (such as Income Tax Inspector, Central Excise Inspector, ASO in CSS/MEA, Auditors, Tax Assistants) require only a recognized Bachelor's Degree in any discipline with no minimum percentage requirement."
     }
   ];
 

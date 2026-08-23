@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { 
   BookOpen, CheckCircle2, AlertCircle, ArrowRight, ArrowLeft,
   Clock, ShieldCheck, HelpCircle, Layers, Sparkles, ChevronDown, 
-  ChevronUp, Laptop, Keyboard, BarChart2, Target, Award
+  ChevronUp, Laptop, Keyboard, BarChart2, Target, Award, Check, FileText
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -24,10 +24,25 @@ export default function SscCglExamPatternSyllabusPage() {
     }
   };
 
+  const cptPosts = [
+    "Assistant Section Officer (ASO) in Central Secretariat Service (CSS)",
+    "Assistant Section Officer (ASO) in Ministry of External Affairs (MEA)",
+    "Assistant Section Officer (ASO) in Armed Forces HQ (AFHQ)",
+    "Assistant Section Officer (ASO) in Ministry of Electronics & IT (MeitY)",
+    "Assistant / Section Officer in other Ministries & Departments",
+    "Inspector Central Excise / GST in Central Board of Indirect Taxes (CBIC)",
+    "Preventive Officer in Central Board of Indirect Taxes (CBIC)",
+    "Examiner in Central Board of Indirect Taxes (CBIC)",
+    "Tax Assistant in Central Board of Direct Taxes (CBDT)",
+    "Tax Assistant in Central Board of Indirect Taxes (CBIC)",
+    "Executive Assistant in CBIC",
+    "Assistant in Serious Fraud Investigation Office (SFIO)"
+  ];
+
   const faqs = [
     {
       q: "Are Tier-I marks added to the final merit list?",
-      a: "No! Under the revised SSC CGL exam pattern, Tier-I is strictly qualifying in nature. Its marks are used ONLY to shortlist candidates for Tier-II. Final selection and merit ranking are computed entirely from the 390 marks in Tier-II Paper-I (Section-I + Section-II)."
+      a: "No! Under the revised SSC CGL exam pattern, Tier-I is strictly qualifying in nature. Its normalized marks are used solely to shortlist candidates for Tier-II. Final selection and merit ranking are computed 100% from the 390 marks in Tier-II Paper-I (Section-I + Section-II)."
     },
     {
       q: "Is Computer Knowledge Test mandatory for all SSC CGL candidates?",
@@ -40,6 +55,10 @@ export default function SscCglExamPatternSyllabusPage() {
     {
       q: "What is the negative marking scheme in SSC CGL?",
       a: "In Tier-I, negative marking is 0.50 marks per wrong answer (1/4th of 2 marks). In Tier-II, negative marking is 1 mark per wrong answer for each 3-mark question (1/3rd penalty)."
+    },
+    {
+      q: "Is there sectional timing in SSC CGL Tier-II?",
+      a: "Yes! Tier-II has strict 1-hour sectional timing. Section I (Maths & Reasoning) must be completed in exactly 60 minutes. Once Section I time expires, you cannot return to it and the computer automatically switches to Section II (English & GA) for 60 minutes, followed by 15 minutes for Computer Knowledge."
     }
   ];
 
@@ -65,7 +84,7 @@ export default function SscCglExamPatternSyllabusPage() {
             <span className="text-slate-400 truncate">Chapter 4: Exam Pattern & Syllabus</span>
           </div>
           <span className="hidden sm:inline-flex items-center gap-1 text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/60 text-[11px]">
-            <ShieldCheck className="w-3.5 h-3.5" /> Official Syllabus
+            <ShieldCheck className="w-3.5 h-3.5" /> Official Syllabus Verified
           </span>
         </div>
       </div>
@@ -79,7 +98,7 @@ export default function SscCglExamPatternSyllabusPage() {
               Chapter 4 of 7
             </span>
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">
-              16 Min Read
+              20 Min Read
             </span>
             <span className="text-xs font-bold text-blue-800 bg-blue-50 px-3 py-1 rounded-lg border border-blue-200 flex items-center gap-1">
               <Target className="w-3.5 h-3.5 text-blue-600" /> Tier-II: 390 Marks Scheme
@@ -113,7 +132,7 @@ export default function SscCglExamPatternSyllabusPage() {
             <div className="p-2 rounded-xl bg-blue-100 text-blue-700 font-bold"><Clock className="w-5 h-5" /></div>
             <div>
               <h2 className="text-lg sm:text-xl font-black text-slate-900">1. Tier-I Examination Pattern (Qualifying Stage)</h2>
-              <p className="text-xs text-slate-500 font-medium">100 Questions • 200 Marks • 60 Minutes • CBT Mode</p>
+              <p className="text-xs text-slate-500 font-medium">100 Questions • 200 Marks • 60 Minutes • CBT Mode • -0.50 Negative Marking</p>
             </div>
           </div>
 
@@ -172,74 +191,94 @@ export default function SscCglExamPatternSyllabusPage() {
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><Award className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Tier-II Paper-I Pattern (The Decisive 390-Mark Merit Stage)</h2>
-              <p className="text-xs text-slate-500 font-medium">Session-I (130 Questions • 390 Marks) + Session-II (DEST Typing)</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Tier-II Paper-I Architecture (The Decisive 390-Mark Merit Stage)</h2>
+              <p className="text-xs text-slate-500 font-medium">Session-I (130 Questions • 390 Marks • 2 Hours 15 Mins) + Session-II (DEST Typing)</p>
             </div>
           </div>
 
           <div className="space-y-4">
-            {/* Section I Box */}
+            {/* Section I */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3">
               <div className="flex justify-between items-center pb-2 border-b border-slate-200">
-                <span className="font-black text-sm text-purple-800">Section I: Mathematical Abilities & Reasoning (1 Hour)</span>
+                <span className="font-black text-sm text-purple-800">Section I: Mathematical Abilities & Reasoning (1 Hour Sectional Clock)</span>
                 <span className="text-xs font-bold bg-purple-100 text-purple-900 px-2.5 py-0.5 rounded-md">60 Qs • 180 Marks</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module I: Mathematical Abilities</strong>
-                  <span>30 Questions • 90 Marks (Arithmetic, Algebra, Geometry, Mensuration, Trigonometry, Statistics & Probability)</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module I: Mathematical Abilities (30 Qs • 90 Marks)</strong>
+                  <p className="text-slate-600">Arithmetic (Number Systems, Percentages, Ratio, Profit & Loss, Time & Work), Advanced Maths (Algebra, Geometry, Coordinate Geometry, Mensuration, Trigonometry), Statistics & Probability (Mean, Median, Mode, Standard Deviation, Simple Probability).</p>
                 </div>
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module II: Reasoning & General Intelligence</strong>
-                  <span>30 Questions • 90 Marks (Verbal, Non-Verbal, Analytical, Critical Thinking, Syllogisms, Coding)</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module II: Reasoning & Intelligence (30 Qs • 90 Marks)</strong>
+                  <p className="text-slate-600">Analogies, Similarities and Differences, Spatial Visualization, Spatial Orientation, Problem Solving, Analysis, Judgment, Decision Making, Visual Memory, Discrimination, Observation, Relationship Concepts, Arithmetical Reasoning, Syllogisms, Coding-Decoding.</p>
                 </div>
               </div>
             </div>
 
-            {/* Section II Box */}
+            {/* Section II */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3">
               <div className="flex justify-between items-center pb-2 border-b border-slate-200">
-                <span className="font-black text-sm text-blue-800">Section II: English Language & General Awareness (1 Hour)</span>
+                <span className="font-black text-sm text-blue-800">Section II: English Language & General Awareness (1 Hour Sectional Clock)</span>
                 <span className="text-xs font-bold bg-blue-100 text-blue-900 px-2.5 py-0.5 rounded-md">70 Qs • 210 Marks</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module I: English Language & Comprehension</strong>
-                  <span>45 Questions • 135 Marks (Grammar, Vocab, Reading Passages, Active/Passive, Direct/Indirect)</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module I: English Comprehension (45 Qs • 135 Marks)</strong>
+                  <p className="text-slate-600">Vocabulary, Grammar, Sentence Structure, Spotting the Error, Fill in the Blanks, Synonyms/Antonyms, Idioms & Phrases, One-Word Substitution, Sentence Improvement, Active/Passive Voice, Direct/Indirect Speech, Cloze Test, Reading Comprehension Passages.</p>
                 </div>
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module II: General Awareness</strong>
-                  <span>25 Questions • 75 Marks (History, Polity, Geography, Economy, Science, Current Affairs)</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module II: General Awareness (25 Qs • 75 Marks)</strong>
+                  <p className="text-slate-600">History, Culture, Geography, Economic Scene, General Policy, Scientific Research, Indian Constitution, Books & Authors, Awards & Honors, Government Schemes, Monthly Current Affairs (National & International).</p>
                 </div>
               </div>
             </div>
 
-            {/* Section III Box */}
+            {/* Section III */}
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3">
               <div className="flex justify-between items-center pb-2 border-b border-slate-200">
-                <span className="font-black text-sm text-emerald-800">Section III: Computer Knowledge & DEST Typing (Qualifying Modules)</span>
-                <span className="text-xs font-bold bg-emerald-100 text-emerald-900 px-2.5 py-0.5 rounded-md">Mandatory for All</span>
+                <span className="font-black text-sm text-emerald-800">Section III: Qualifying Modules (Computer & DEST Typing)</span>
+                <span className="text-xs font-bold bg-emerald-100 text-emerald-900 px-2.5 py-0.5 rounded-md">Mandatory for All Posts</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module I: Computer Knowledge (15 Mins)</strong>
-                  <span>20 Questions • 60 Marks (Basics, MS Office, Networking, Cyber Security). Higher cutoff for CPT posts!</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module I: Computer Knowledge (20 Qs • 60 Marks • 15 Mins)</strong>
+                  <p className="text-slate-600">Computer Basics (CPU, Memory, Ports, Windows Explorer), Software (MS Word, MS Excel, MS PowerPoint), Internet & Emails (Web Browsing, Search Engines, Protocols), Cyber Security (Viruses, Trojans, Firewalls, Phishing).</p>
                 </div>
-                <div className="bg-white p-3 rounded-xl border border-slate-200">
-                  <strong className="block text-slate-900 mb-1">Module II: DEST Typing Test (15 Mins)</strong>
-                  <span>2,000 Key Depressions in 15 Minutes (~27 WPM). Evaluated on typing passage. Mandatory for all posts.</span>
+                <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-1">
+                  <strong className="block text-slate-900 font-bold">Module II: DEST Typing Test (2,000 Keystrokes • 15 Mins)</strong>
+                  <p className="text-slate-600">Conducted on computer interface. 2,000 key depressions in 15 minutes (~27 WPM). Must clear permissible error percentage.</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section 3: DEST Typing Error Benchmarks */}
+        {/* Section 3: CPT Posts List with Higher Standard Benchmark */}
+        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
+            <div className="p-2 rounded-xl bg-indigo-100 text-indigo-700 font-bold"><Laptop className="w-5 h-5" /></div>
+            <div>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. Posts Requiring Higher Computer Knowledge (CPT) Cut-Off</h2>
+              <p className="text-xs text-slate-500 font-medium">SSC sets elevated qualifying marks for these premier executive cadres</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {cptPosts.map((post, idx) => (
+              <div key={idx} className="flex items-center gap-2 p-3 bg-slate-50 rounded-xl border border-slate-200 text-xs font-semibold text-slate-800">
+                <Check className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>{post}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Section 4: DEST Typing Error Tolerance Matrix */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-amber-100 text-amber-700 font-bold"><Keyboard className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. DEST Typing Permissible Error Limits</h2>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">4. DEST Typing Permissible Error Limits Matrix</h2>
               <p className="text-xs text-slate-500 font-medium">Standard qualifying cutoff vs Higher standard CPT/DEST posts</p>
             </div>
           </div>
@@ -248,26 +287,26 @@ export default function SscCglExamPatternSyllabusPage() {
             <table className="w-full text-left text-xs sm:text-sm">
               <thead className="bg-slate-100 text-slate-700 font-extrabold uppercase text-[11px] tracking-wider border-b border-slate-200">
                 <tr>
-                  <th className="p-3.5">Category</th>
+                  <th className="p-3.5">Candidate Category</th>
                   <th className="p-3.5">Standard Qualifying Max Error %</th>
-                  <th className="p-3.5">Higher Standard Cut-Off Posts (TA/CPT)</th>
+                  <th className="p-3.5 bg-blue-50/60 text-blue-900 font-black">Higher Standard Cut-Off Posts (TA / CPT)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 font-medium text-slate-800">
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">Unreserved (UR)</td>
-                  <td className="p-3.5 font-bold text-slate-900">20% Maximum Error</td>
-                  <td className="p-3.5 font-black text-blue-700">5% Maximum Error (Strict)</td>
+                  <td className="p-3.5 font-bold text-slate-900">20% Max Error</td>
+                  <td className="p-3.5 font-black text-blue-700 bg-blue-50/30">5% Max Error (Strict Benchmark)</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">OBC / EWS</td>
-                  <td className="p-3.5 font-bold text-slate-900">25% Maximum Error</td>
-                  <td className="p-3.5 font-black text-blue-700">7% Maximum Error</td>
+                  <td className="p-3.5 font-bold text-slate-900">25% Max Error</td>
+                  <td className="p-3.5 font-black text-blue-700 bg-blue-50/30">7% Max Error</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition">
                   <td className="p-3.5 font-bold">SC / ST / PwBD / ESM</td>
-                  <td className="p-3.5 font-bold text-slate-900">30% Maximum Error</td>
-                  <td className="p-3.5 font-black text-blue-700">10% Maximum Error</td>
+                  <td className="p-3.5 font-bold text-slate-900">30% Max Error</td>
+                  <td className="p-3.5 font-black text-blue-700 bg-blue-50/30">10% Max Error</td>
                 </tr>
               </tbody>
             </table>
@@ -308,7 +347,7 @@ export default function SscCglExamPatternSyllabusPage() {
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
           <div className="space-y-1 text-center sm:text-left">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-200">Continue Reading Guide</span>
-            <h4 className="text-lg sm:text-xl font-black">Chapter 5: Cut-Off Trends & Post Preference Career Ranking</h4>
+            <h4 className="text-lg sm:text-xl font-black">Chapter 5: Cut-Off Trends & Post Preference Ranking Strategy</h4>
           </div>
           <Link
             to="/ssc-cgl-cutoffs-post-preference-ranking-guide"

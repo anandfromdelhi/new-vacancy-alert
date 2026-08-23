@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { 
   ShieldCheck, CheckCircle2, AlertCircle, ArrowRight, ArrowLeft,
   BookOpen, Clock, Dumbbell, Eye, Scale, HelpCircle, Layers, Sparkles,
-  ChevronDown, ChevronUp, UserCheck, HeartPulse
+  ChevronDown, ChevronUp, UserCheck, HeartPulse, Check, AlertTriangle, FileText
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
@@ -24,10 +24,21 @@ export default function SscCglEligibilityPhysicalPage() {
     }
   };
 
+  const ageRelaxations = [
+    { cat: "SC / ST Candidates", relax: "5 Years", maxAge27: "32 Years", maxAge30: "35 Years", maxAge32: "37 Years" },
+    { cat: "OBC-NCL (Non-Creamy Layer)", relax: "3 Years", maxAge27: "30 Years", maxAge30: "33 Years", maxAge32: "35 Years" },
+    { cat: "PwBD (Unreserved / General)", relax: "10 Years", maxAge27: "37 Years", maxAge30: "40 Years", maxAge32: "42 Years" },
+    { cat: "PwBD (OBC-NCL)", relax: "13 Years", maxAge27: "40 Years", maxAge30: "43 Years", maxAge32: "45 Years" },
+    { cat: "PwBD (SC / ST)", relax: "15 Years", maxAge27: "42 Years", maxAge30: "45 Years", maxAge32: "47 Years" },
+    { cat: "Ex-Servicemen (ESM)", relax: "3 Years after deduction of military service from actual age", maxAge27: "Service + 3 Yrs", maxAge30: "Service + 3 Yrs", maxAge32: "Service + 3 Yrs" },
+    { cat: "Defence Personnel Disabled in Action", relax: "3 Years (General/OBC) / 8 Years (SC/ST)", maxAge27: "30 / 35 Yrs", maxAge30: "33 / 38 Yrs", maxAge32: "35 / 40 Yrs" },
+    { cat: "Central Govt Civilian Employees (3+ Yrs Service)", relax: "Up to 40 Years of Age (45 Years for SC/ST)", maxAge27: "40 / 45 Yrs", maxAge30: "40 / 45 Yrs", maxAge32: "40 / 45 Yrs" }
+  ];
+
   const faqs = [
     {
       q: "Can final year graduation students apply for SSC CGL?",
-      a: "Yes, candidates appearing in their final year can apply, PROVIDED they acquire the essential educational qualification (i.e. their final degree result is declared) on or before the crucial cut-off date specified in the official notification (usually 1st August of the exam year)."
+      a: "Yes, candidates appearing in their final year can apply, PROVIDED they acquire the essential educational qualification (i.e. their final degree result is declared) on or before the crucial cut-off date specified in the official notification (usually 1st August of the recruitment year)."
     },
     {
       q: "Which SSC CGL posts require Physical Standards (PST) and Endurance Tests (PET)?",
@@ -35,11 +46,15 @@ export default function SscCglEligibilityPhysicalPage() {
     },
     {
       q: "What happens if a candidate fails the Physical Test (PST/PET)?",
-      a: "If a candidate is selected for a post requiring physical standards (e.g. Central Excise Inspector) but fails the Physical/Medical test during departmental verification, they are NOT considered for any other post in that cycle. Therefore, candidates should check physical eligibility before filling post preferences!"
+      a: "If a candidate is selected for a post requiring physical standards (e.g. Central Excise Inspector) but fails the Physical/Medical test during departmental verification, they are NOT considered for any other post in that cycle. Therefore, candidates must verify their height, chest, and vision before submitting post preferences!"
     },
     {
-      q: "What is the age relaxation for OBC, SC/ST, and PwBD candidates?",
-      a: "Standard age relaxations beyond the upper age limit: SC/ST: +5 Years; OBC-NCL: +3 Years; PwBD (Unreserved): +10 Years; PwBD (OBC): +13 Years; PwBD (SC/ST): +15 Years; Ex-Servicemen: 3 years after deduction of military service from actual age."
+      q: "Are color-blind candidates eligible for Inspector posts in CBIC?",
+      a: "No. Inspector (Central Excise), Preventive Officer, and Examiner posts under CBIC strictly disqualify candidates with color blindness due to customs port inspection and substance testing requirements. Color-blind candidates can safely opt for ASO in CSS/MEA, Income Tax Inspector, Auditors, and Tax Assistants."
+    },
+    {
+      q: "What is the crucial date for age calculation in SSC CGL?",
+      a: "SSC calculates age as of 1st August of the exam year (if the notification is released in the middle/latter half of the year) or 1st January (if released early). Candidates must be within the specified birth date brackets mentioned in the official advertisement."
     }
   ];
 
@@ -79,7 +94,7 @@ export default function SscCglEligibilityPhysicalPage() {
               Chapter 3 of 7
             </span>
             <span className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-lg border border-slate-200">
-              14 Min Read
+              18 Min Read
             </span>
             <span className="text-xs font-bold text-purple-800 bg-purple-50 px-3 py-1 rounded-lg border border-purple-200 flex items-center gap-1">
               <Dumbbell className="w-3.5 h-3.5 text-purple-600" /> Physical & Medical Rules Included
@@ -90,7 +105,7 @@ export default function SscCglEligibilityPhysicalPage() {
             SSC CGL Eligibility Criteria, Age Limits & Physical Standards (PST/PET)
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
-            A comprehensive breakdown of educational prerequisites, degree cut-off rules, post-wise age limits (18-27, 20-30, 18-32), and mandatory Physical Measurement & Endurance standards for Inspector and Sub-Inspector posts.
+            An encyclopedic guide covering educational qualifications, crucial degree cut-off rules, post-wise age windows (18-27, 20-30, 18-32), category relaxations, and mandatory male/female Physical Measurement and Endurance Standards (PST/PET) for Inspector and Sub-Inspector posts.
           </p>
 
           {/* Quick Nav */}
@@ -121,7 +136,7 @@ export default function SscCglEligibilityPhysicalPage() {
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
               <span className="text-xs font-black uppercase text-blue-700 bg-blue-50 px-2.5 py-0.5 rounded-md border border-blue-200">All General Posts (90%+)</span>
               <h4 className="font-extrabold text-slate-900 text-sm">Any Bachelor Degree</h4>
-              <p className="text-xs text-slate-600 leading-relaxed">Graduation in any discipline (BA, B.Sc, B.Com, B.Tech, BBA, BCA, MBBS, etc.) from a recognized University. No minimum percentage requirement!</p>
+              <p className="text-xs text-slate-600 leading-relaxed">Graduation in any discipline (BA, B.Sc, B.Com, B.Tech, BBA, BCA, MBBS, LLB) from a recognized University. No minimum percentage requirement!</p>
             </div>
 
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-2">
@@ -136,15 +151,60 @@ export default function SscCglEligibilityPhysicalPage() {
               <p className="text-xs text-slate-600 leading-relaxed">Essential: Any Bachelor Degree. Desirable: CA / CMA / CS / M.Com / MBA (Finance) / Masters in Business Economics.</p>
             </div>
           </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-xl text-xs sm:text-sm text-blue-950 space-y-1">
+            <strong className="font-extrabold flex items-center gap-1.5 text-blue-900">
+              <FileText className="w-4 h-4 text-blue-600 shrink-0" /> The Crucial Date Rule:
+            </strong>
+            <p className="leading-relaxed">
+              Candidates who have appeared in their final semester degree examinations must have their result declared on or before the crucial date specified in the notification (e.g. 1st August). Mere completion of exams without result declaration prior to the crucial date leads to disqualification during Departmental Document Verification.
+            </p>
+          </div>
         </section>
 
-        {/* Section 2: Physical Measurement & Endurance Standards */}
+        {/* Section 2: Age Limits & Relaxations Table */}
+        <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+          <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
+            <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><Scale className="w-5 h-5" /></div>
+            <div>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Category-Wise Age Relaxation Master Matrix</h2>
+              <p className="text-xs text-slate-500 font-medium">Upper age ceilings across all 3 SSC CGL post age categories</p>
+            </div>
+          </div>
+
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className="w-full text-left text-xs sm:text-sm">
+              <thead className="bg-slate-100 text-slate-700 font-extrabold uppercase text-[11px] tracking-wider border-b border-slate-200">
+                <tr>
+                  <th className="p-3.5">Category</th>
+                  <th className="p-3.5">Prescribed Relaxation</th>
+                  <th className="p-3.5 text-center">Max Age (18–27 Posts)</th>
+                  <th className="p-3.5 text-center">Max Age (20–30 Posts)</th>
+                  <th className="p-3.5 text-right">Max Age (JSO: 18–32)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200 font-medium text-slate-800">
+                {ageRelaxations.map((r, idx) => (
+                  <tr key={idx} className="hover:bg-slate-50 transition">
+                    <td className="p-3.5 font-bold text-slate-900">{r.cat}</td>
+                    <td className="p-3.5 text-xs text-slate-600">{r.relax}</td>
+                    <td className="p-3.5 text-center font-bold text-slate-800">{r.maxAge27}</td>
+                    <td className="p-3.5 text-center font-bold text-blue-700">{r.maxAge30}</td>
+                    <td className="p-3.5 text-right font-bold text-purple-700">{r.maxAge32}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Section 3: Comprehensive Physical Standards (PST & PET) Matrix */}
         <section className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
           <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
             <div className="p-2 rounded-xl bg-purple-100 text-purple-700 font-bold"><Dumbbell className="w-5 h-5" /></div>
             <div>
-              <h2 className="text-lg sm:text-xl font-black text-slate-900">2. Complete Physical Standards (PST & PET) Matrix</h2>
-              <p className="text-xs text-slate-500 font-medium">Mandatory for Central Excise Inspector, PO, Examiner, CBI, NIA & BRO</p>
+              <h2 className="text-lg sm:text-xl font-black text-slate-900">3. Physical Measurement & Endurance Standards (PST & PET)</h2>
+              <p className="text-xs text-slate-500 font-medium">Mandatory for Central Excise Inspector, Preventive Officer, Examiner, CBI, NIA & BRO</p>
             </div>
           </div>
 
@@ -165,16 +225,20 @@ export default function SscCglEligibilityPhysicalPage() {
                   <span>81 cms (Fully expanded with min 5 cm expansion)</span>
                 </li>
                 <li className="flex justify-between border-b border-slate-100 pb-1.5">
-                  <strong>Walking (PET CBIC):</strong>
+                  <strong>Walking Test (CBIC):</strong>
                   <span>1,600 metres in 15 minutes</span>
                 </li>
                 <li className="flex justify-between border-b border-slate-100 pb-1.5">
-                  <strong>Cycling (PET CBIC):</strong>
+                  <strong>Cycling Test (CBIC):</strong>
                   <span>8 Kms in 30 minutes</span>
                 </li>
+                <li className="flex justify-between border-b border-slate-100 pb-1.5">
+                  <strong>Height (SI in CBI):</strong>
+                  <span>Min 165 cms (Chest: 76 cms with expansion)</span>
+                </li>
                 <li className="flex justify-between pb-1">
-                  <strong>Height (SI in CBI / NIA):</strong>
-                  <span>Min 165 cms (Chest: 76 cms expanded)</span>
+                  <strong>Height (SI in NIA):</strong>
+                  <span>Min 170 cms (Chest: 76 cms with 5 cm expansion)</span>
                 </li>
               </ul>
             </div>
@@ -195,27 +259,32 @@ export default function SscCglEligibilityPhysicalPage() {
                   <span>Min 48 Kgs (Relaxable by 2 Kgs for ST/NE)</span>
                 </li>
                 <li className="flex justify-between border-b border-slate-100 pb-1.5">
-                  <strong>Walking (PET CBIC):</strong>
+                  <strong>Walking Test (CBIC):</strong>
                   <span>1 Km in 20 minutes</span>
                 </li>
                 <li className="flex justify-between border-b border-slate-100 pb-1.5">
-                  <strong>Cycling (PET CBIC):</strong>
+                  <strong>Cycling Test (CBIC):</strong>
                   <span>3 Kms in 25 minutes</span>
                 </li>
-                <li className="flex justify-between pb-1">
-                  <strong>Height (SI in CBI / NIA):</strong>
+                <li className="flex justify-between border-b border-slate-100 pb-1.5">
+                  <strong>Height (SI in CBI):</strong>
                   <span>Min 150 cms (Relaxable for Hillmen/Tribals)</span>
+                </li>
+                <li className="flex justify-between pb-1">
+                  <strong>Height (SI in NIA):</strong>
+                  <span>Min 150 cms (Relaxable for Tribals)</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="bg-amber-50 border-l-4 border-amber-600 p-4 rounded-r-xl text-xs sm:text-sm text-amber-950 space-y-1">
-            <strong className="font-extrabold flex items-center gap-1.5 text-amber-900">
-              <AlertCircle className="w-4 h-4 text-amber-600 shrink-0" /> Important Rule Warning:
+          {/* Vision & Color Blindness Alert */}
+          <div className="bg-rose-50 border-l-4 border-rose-600 p-4 rounded-r-xl text-xs sm:text-sm text-rose-950 space-y-1.5">
+            <strong className="font-extrabold flex items-center gap-1.5 text-rose-900">
+              <Eye className="w-4 h-4 text-rose-600 shrink-0" /> Vision Standards & Color Blindness Disqualification Rule:
             </strong>
             <p className="leading-relaxed">
-              Eye Vision standards for SI in CBI/NIA require distant vision of 6/6 in one and 6/9 in the other eye with or without correction, with NO color blindness for Preventive Officer/Examiner posts.
+              Eye Vision standards for SI in CBI/NIA require distant vision of 6/6 in one eye and 6/9 in the other eye with or without glasses, with near vision of 0.6 in one eye and 0.8 in the other eye. <strong>Color blindness is an absolute disqualification</strong> for Inspector (Central Excise), Preventive Officer, Examiner, and BRO posts.
             </p>
           </div>
         </section>
