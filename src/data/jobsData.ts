@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bob-local-bank-officer-lbo-recruitment-2026",
+    "b": "Bank of Baroda (BOB)",
+    "t": "Bank of Baroda LBO Recruitment 2026 – Apply Online for 2,482 Local Bank Officer (Scale-I) Posts | Advt: BOB/HRM/REC/ADVT/2026/16 (Last Date: 07 September 2026)",
+    "d": "18 August 2026",
+    "l": "07 September 2026",
+    "a": "BOB/HRM/REC/ADVT/2026/16",
+    "q": "Graduation in any discipline + Min 1 Year Officer Exp in Scheduled Commercial Bank",
+    "desc": "Bank of Baroda (BOB), one of India's premier and largest Public Sector Scheduled Commercial Banks ('India's International Bank'), has released notification BOB/HRM/REC/ADVT/2026/16 for the recruitment of Local Bank Officers (LBO) in Junior Management Grade / Scale-I (JMG/S-I) on a regular full-time basis.",
+    "u": "https://www.bankofbaroda.bank.in/Career.htm"
+},
+  {
     "id": "ngel-engineer-executive-re-recruitment-2026",
     "b": "NTPC Green Energy Limited (NGEL)",
     "t": "NGEL Engineer & Executive (Renewable Energy) Recruitment 2026 – Apply Online for 147 Posts (Advt No: 04/26 | Last Date: 07 September 2026)",

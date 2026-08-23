@@ -2443,6 +2443,66 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'bob-local-bank-officer-lbo-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-orange-600" /> 12-Year Home State Posting Guarantee &amp; Experience Rules
+                          </h4>
+                          <span className="text-[10px] font-bold text-orange-900 bg-orange-100 px-2 py-0.5 rounded-md">Scale-I (JMG/S-I) Regular</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                          <div className="bg-white border-2 border-orange-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-orange-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Posting Security</span>
+                              <span className="text-[10px] font-bold text-orange-700">12 Years Locked</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Guaranteed State Posting</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Officers are guaranteed posting within their applied State for the <strong>first 12 years</strong> of service or until promotion to SMGS-IV Grade (Chief Manager).
+                            </p>
+                            <div className="bg-orange-50 rounded-lg p-2 text-[10px] font-bold text-orange-800">
+                              Apply for ONLY ONE State
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Bank Officer Exp</span>
+                              <span className="text-[10px] font-bold text-blue-700">Min 1 Year</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Scheduled Commercial Bank</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Min 1 year post-qualification officer experience in any RBI 2nd Schedule bank. Clerical cadre &amp; &lt;6 months stints excluded.
+                            </p>
+                            <div className="bg-blue-50 rounded-lg p-2 text-[10px] font-bold text-blue-800">
+                              1 Advance Increment on Joining!
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Language &amp; Bond</span>
+                              <span className="text-[10px] font-bold text-emerald-700">LPT + 3-Yr Bond</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Local Language &amp; Bond</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Must be proficient in State language (exempt if studied in 10th/12th). 3-Year Service Bond (or 3 months gross salary up to ₹2 Lakhs).
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Pay Scale: ₹48,480 - ₹85,920 + DA/HRA
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 text-[11px] font-bold text-amber-900 flex items-start gap-2">
+                          <AlertTriangle className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                          <span>Exclusion Notice: Current Bank of Baroda officers, contractual employees, or former BOB officers who resigned within the last 3 years (as on 01.08.2026) are NOT eligible to apply.</span>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="space-y-2.5 sm:space-y-3">
                       {activeEducation.map((item, idx) => {
                         const isHeader = item.endsWith(':') || item.includes('Essential for');
@@ -2929,6 +2989,82 @@ export default function JobDetailPage() {
                       {['Delhi NCR', 'Mumbai', 'Kolkata', 'Chennai', 'Lucknow', 'Jaipur', 'Ahmedabad', 'Bhopal', 'Raipur', 'Visakhapatnam'].map((city, idx) => (
                         <div key={idx} className="bg-slate-800/80 p-2 rounded-lg border border-slate-700 text-slate-200">
                           📍 {city}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'bob-local-bank-officer-lbo-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  {/* English Qualifying Notice & Exam Timings */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-orange-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">English Language is Qualifying Only</h4>
+                        <span className="text-[10px] font-bold text-orange-800 bg-orange-100 px-2 py-0.5 rounded">Para 12.1 Rule</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>English Test:</strong> 30 Qs (30 Marks / 30 Mins) is strictly qualifying in nature.</li>
+                        <li>• <strong>Merit List:</strong> Calculated ONLY on Banking Knowledge (30) + GA (30) + Reasoning/Quant (30) + GD/PI!</li>
+                        <li>• <strong>Sectional Timing:</strong> Fixed 30 minutes allotted for each of the 4 sections.</li>
+                        <li className="bg-orange-100/70 p-2 rounded-lg text-orange-950 font-extrabold border border-orange-200">
+                          Negative Marking: 0.25 (1/4th) mark deducted for each incorrect answer.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">LPT &amp; Interview Weightage</h4>
+                        <span className="text-[10px] font-bold text-blue-800 bg-blue-100 px-2 py-0.5 rounded">GD/PI Qualifying</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>Local Language Test (LPT):</strong> Mandatory before Interview (exempt if local language studied in 10th/12th).</li>
+                        <li>• <strong>GD/PI Qualifying:</strong> Minimum 60% for General and 55% for Reserved Categories.</li>
+                        <li>• <strong>Biometric/IRIS:</strong> Right thumb &amp; IRIS scan verified at exam, interview, and joining.</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Live Photo Capture: Webcam or mobile QR scan mandatory during form fillup!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* 20 States Vacancy & Language Distribution */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <Building2 className="h-4 w-4" /> 20 States Vacancy &amp; Local Language Distribution
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">2,482 Regular Posts</span>
+                    </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-2 text-center text-xs font-bold mt-3">
+                      {[
+                        { s: 'Gujarat', v: '1,185', l: 'Gujarati' },
+                        { s: 'Karnataka', v: '418', l: 'Kannada' },
+                        { s: 'Maharashtra', v: '218', l: 'Marathi' },
+                        { s: 'Tamil Nadu', v: '132', l: 'Tamil' },
+                        { s: 'Odisha', v: '100', l: 'Odia' },
+                        { s: 'Andhra Pradesh', v: '80', l: 'Telugu' },
+                        { s: 'Telangana', v: '50', l: 'Telugu' },
+                        { s: 'Kerala', v: '49', l: 'Malayalam' },
+                        { s: 'West Bengal', v: '42', l: 'Bengali / Nepali' },
+                        { s: 'Assam', v: '40', l: 'Assamese / Bodo' },
+                        { s: 'Punjab', v: '34', l: 'Punjabi' },
+                        { s: 'Goa', v: '21', l: 'Konkani' },
+                        { s: 'Arunachal Pr.', v: '20', l: 'English*' },
+                        { s: 'J & K', v: '15', l: 'Urdu/Kashmiri/Dogri' },
+                        { s: 'Meghalaya', v: '15', l: 'Garo / Khasi' },
+                        { s: 'Mizoram', v: '15', l: 'Mizo' },
+                        { s: 'Nagaland', v: '15', l: 'English*' },
+                        { s: 'Manipur', v: '15', l: 'Manipuri / Meitei' },
+                        { s: 'Sikkim', v: '10', l: 'Nepali / Sikkimese' },
+                        { s: 'Tripura', v: '8', l: 'Bengali / Kokborok' }
+                      ].map((item, idx) => (
+                        <div key={idx} className="bg-slate-800/80 p-2 rounded-lg border border-slate-700 text-slate-200">
+                          <span className="text-amber-400 font-extrabold block text-xs">{item.s} ({item.v})</span>
+                          <span className="text-[10px] text-slate-400 font-medium">{item.l}</span>
                         </div>
                       ))}
                     </div>
