@@ -53,6 +53,11 @@ Construct complete detailed entries for the new vacancy:
 
 ### Step 4: Verify & Deploy
 After processing all PDFs in the batch:
-1. Run `npm run build` to verify clean compilation.
-2. Stage, commit, and push changes to GitHub (`git add .`, `git commit -m "..."`, `git push origin main`).
+1. Run `npm run build` to verify clean compilation and fast SSG page pre-rendering (should finish in ~1 minute).
+2. Stage, commit, and push changes to GitHub using MinGit at `C:\Users\Administrator\MinGit\cmd\git.exe`:
+   ```powershell
+   & "C:\Users\Administrator\MinGit\cmd\git.exe" add .
+   & "C:\Users\Administrator\MinGit\cmd\git.exe" commit -m "feat(jobs): batch add <count> recruitment notifications"
+   & "C:\Users\Administrator\MinGit\cmd\git.exe" push origin main
+   ```
 3. Present a structured summary table for all uploaded files (Status: Added / Duplicate, Job ID, Board, Vacancies, Last Date).

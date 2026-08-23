@@ -65,9 +65,10 @@ npm run build
 ```
 This automatically executes:
 1. `npm run prebuild` (`scripts/split-job-details.ts`): Splits details into `src/data/jobs-generated/<job-id>.json` and updates `src/data/jobs-index-generated.json`.
-2. `vite build`: Compiles production bundles.
-3. `scripts/prerender.ts`: Pre-renders full HTML and JSON-LD for all vacancy paths, generating `dist/<job-id>/index.html` and `dist/<job-id>.html`.
+2. `vite build`: Compiles production client bundles.
+3. `scripts/prerender.ts`: High-speed SSG generator pre-rendering 550+ HTML pages, meta tags, and Schema.org JSON-LD scripts (`JobPosting`, `FAQPage`, `BreadcrumbList`) in ~15s without heavy Node-side SSR overhead.
 4. `sitemap.xml`, `robots.txt`, and RSS feed regeneration for `public/` and `dist/`.
+*Note: Keep `scripts/prerender.ts` lightweight using fast static HTML/metadata injection to ensure total build time stays ~1 minute and never freezes.*
 
 ### Step 6: Commit and Push
 Always first look for and use Git inside `C:\Users\Administrator\MinGit\cmd` (specifically `C:\Users\Administrator\MinGit\cmd\git.exe`) when executing this step:
