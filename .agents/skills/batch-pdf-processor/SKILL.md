@@ -50,6 +50,9 @@ Construct complete detailed entries for the new vacancy:
    - `importantInstructions` array
    - `urls` array
    - `faqs` array (4-6 comprehensive Q&As)
+3. **`JobDetailPage.tsx` Visual Elements & Sidebar Rule**:
+   - Ensure custom visual cards in main content are responsive grids.
+   - Any widgets placed in the right sidebar (such as **Related & Trending Government Vacancies 2026**) must strictly tile vertically (`flex flex-col space-y-2.5`) and never use horizontal multi-column grids.
 
 ### Step 4: Verify & Deploy
 After processing all PDFs in the batch:
