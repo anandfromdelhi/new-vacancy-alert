@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iocl-executive-cbt-recruitment-2026",
+    "b": "Indian Oil Corporation Limited (IOCL)",
+    "t": "IOCL Executive Recruitment 2026 through CBT – Apply Online for Graduate & Diploma Engineers, Officers & AQCO Posts | Advt No: IOCL/CO-HR/RECTT/2026/01 (Last Date: 03 September 2026)",
+    "d": "14 August 2026",
+    "l": "03 September 2026 (Till 17:00 Hrs)",
+    "a": "IOCL/CO-HR/RECTT/2026/01",
+    "q": "B.E./B.Tech/Diploma (Engg) / MBA (Marketing) / LLB / M.Sc (Chemistry)",
+    "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India’s premier energy flagship company ranked among Fortune Global 500 enterprises, has officially announced the recruitment of Executives through Computer Based Test (CBT) - 2026 under Advertisement No. IOCL/CO-HR/RECTT/2026/01.",
+    "u": "https://iocl.com/latest-job-opening"
+},
+  {
     "id": "bob-local-bank-officer-lbo-recruitment-2026",
     "b": "Bank of Baroda (BOB)",
     "t": "Bank of Baroda LBO Recruitment 2026 – Apply Online for 2,482 Local Bank Officer (Scale-I) Posts | Advt: BOB/HRM/REC/ADVT/2026/16 (Last Date: 07 September 2026)",

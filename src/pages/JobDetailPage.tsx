@@ -2503,6 +2503,66 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'iocl-executive-cbt-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-rose-600" /> 3-Grade Executive Hierarchy &amp; Pay Package (Advt 2026/01)
+                          </h4>
+                          <span className="text-[10px] font-bold text-rose-900 bg-rose-100 px-2 py-0.5 rounded-md">Direct CBT Selection</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                          <div className="bg-white border-2 border-rose-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-rose-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Grade 'A'</span>
+                              <span className="text-[10px] font-bold text-rose-700">₹18.4 LPA CTC</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Graduate Engg / Marketing / Law</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              B.E./B.Tech (7 Disciplines) / MBA Marketing / LLB (2 yrs exp). Basic: ₹50,000 – ₹1,60,000.
+                            </p>
+                            <div className="bg-rose-50 rounded-lg p-2 text-[10px] font-bold text-rose-800">
+                              Age: 26 Yrs (Engg), 28 (Mktg), 30 (Law)
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Grade 'A0'</span>
+                              <span className="text-[10px] font-bold text-blue-700">₹14.8 LPA CTC</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Asst Quality Control Officer (AQCO)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              M.Sc Chemistry (min 60% / 55% SC/ST) + 2 yrs in Testing/R&amp;D/NABL chemical lab. Basic: ₹40,000 – ₹1,40,000.
+                            </p>
+                            <div className="bg-blue-50 rounded-lg p-2 text-[10px] font-bold text-blue-800">
+                              Max Age: 30 Years (as on 01.07.2026)
+                            </div>
+                          </div>
+
+                          <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Grade 'E0'</span>
+                              <span className="text-[10px] font-bold text-emerald-700">₹11.1 LPA CTC</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Diploma Engineers (Elec / Mech / Safety)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma in Engineering (min 65% / 55% SC/ST). For Safety: Diploma + 1-yr Industrial Safety. Basic: ₹30,000 – ₹1,20,000.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Max Age: 26 Years (as on 01.07.2026)
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="bg-rose-50 border border-rose-200 rounded-xl p-3 text-[11px] font-bold text-rose-900 flex items-start gap-2">
+                          <AlertTriangle className="h-4 w-4 text-rose-600 shrink-0 mt-0.5" />
+                          <span>Strict Higher Qualification Bar for Grade E0: Candidates holding B.E., B.Tech, MBA, CA, CS, CMA, MCA, or Ph.D are strictly ineligible for Diploma Engineer posts. Inter-disciplinary engineering degrees (like Mechatronics / Robotics) are also ineligible for Grade A.</span>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="space-y-2.5 sm:space-y-3">
                       {activeEducation.map((item, idx) => {
                         const isHeader = item.endsWith(':') || item.includes('Essential for');
@@ -3067,6 +3127,56 @@ export default function JobDetailPage() {
                           <span className="text-[10px] text-slate-400 font-medium">{item.l}</span>
                         </div>
                       ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'iocl-executive-cbt-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  {/* Merit Weightage & CBT Structure */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="bg-gradient-to-br from-rose-50 to-orange-50 border-2 border-rose-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-rose-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">Composite Merit Score Weightage</h4>
+                        <span className="text-[10px] font-bold text-rose-800 bg-rose-100 px-2 py-0.5 rounded">Para 7.5 Scheme</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>Computer Based Test (CBT):</strong> 85% Final Merit Weightage (100 Marks).</li>
+                        <li>• <strong>Group Discussion (GD) &amp; Group Task (GT):</strong> 5% Weightage (Min Pass: 40%).</li>
+                        <li>• <strong>Personal Interview (PI):</strong> 10% Weightage (Min Pass: 40%).</li>
+                        <li className="bg-rose-100/70 p-2 rounded-lg text-rose-950 font-extrabold border border-rose-200">
+                          Composite Cut-Off: 45% (Gen/EWS/OBC) | 40% (SC/ST) | 30% (PwBD).
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">Sectional Timings &amp; Cut-Offs</h4>
+                        <span className="text-[10px] font-bold text-blue-800 bg-blue-100 px-2 py-0.5 rounded">150 Mins Duration</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>Section A (Aptitude - 50 Qs):</strong> 60 Minutes (Quant 20, Reasoning 15, English 15).</li>
+                        <li>• <strong>Section B (Domain - 50 Qs):</strong> 90 Minutes (Discipline Specific).</li>
+                        <li>• <strong>CBT Qualifying Cut-Off:</strong> 40% in each section &amp; 45% overall (35%/40% for SC/ST, 25%/30% PwBD).</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Travel Reimbursement: 3rd AC Rail Fare for SC/ST/PwBD in CBT; 2nd AC Rail Fare for all candidates in GD/GT/PI!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* 83 Pan-India CBT Cities */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <MapPin className="h-4 w-4" /> 83 Online CBT Examination Cities Across India
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">Exam on 24 Sept 2026</span>
+                    </div>
+                    <div className="text-xs text-slate-300 leading-relaxed mt-2 bg-slate-800/60 p-3 rounded-xl border border-slate-700">
+                      <strong>Major Centers:</strong> Delhi NCR, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, Ahmedabad, Pune, Jaipur, Lucknow, Patna, Bhopal, Raipur, Bhubaneswar, Guwahati, Chandigarh, Ranchi, Dehradun, Jammu, Ernakulam, Coimbatore, Visakhapatnam, and 60+ other cities across all States &amp; UTs.
                     </div>
                   </div>
                 </div>
