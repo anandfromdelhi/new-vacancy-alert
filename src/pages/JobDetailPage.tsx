@@ -4065,33 +4065,33 @@ export default function JobDetailPage() {
 
           {/* Related & Trending Vacancies (SEO Internal Linking Mesh) */}
           {relatedJobs.length > 0 && (
-            <div className="mt-8 bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-xs print:hidden">
-              <div className="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+            <div className="mt-8 bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-xs print:hidden">
+              <div className="flex items-center justify-between mb-3.5 pb-2.5 border-b border-slate-100">
                 <div>
-                  <h3 className="text-sm sm:text-base font-black text-slate-900 flex items-center gap-2">
-                    <Briefcase className="h-4 w-4 text-blue-600" /> Related &amp; Trending Government Vacancies 2026
+                  <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
+                    <Briefcase className="h-4 w-4 text-blue-600 shrink-0" /> Related &amp; Trending Vacancies 2026
                   </h3>
-                  <p className="text-[11px] text-slate-500 font-medium mt-0.5">Explore more recruitment drives, syllabus guides, and application deadlines</p>
+                  <p className="text-[10px] text-slate-500 font-medium mt-0.5">Explore active recruitment drives &amp; deadlines</p>
                 </div>
-                <Link to="/" className="text-xs font-bold text-blue-600 hover:underline hidden sm:inline-flex items-center gap-1">
-                  View All Jobs <ChevronRight className="h-3.5 w-3.5" />
+                <Link to="/" className="text-[11px] font-bold text-blue-600 hover:underline inline-flex items-center gap-0.5 shrink-0">
+                  View All <ChevronRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              <div className="flex flex-col space-y-2.5">
                 {relatedJobs.map((rj) => (
                   <Link
                     key={rj.id}
                     to={`/${rj.id}`}
-                    className="bg-slate-50/70 hover:bg-blue-50/50 border border-slate-200/80 hover:border-blue-300 rounded-xl p-3.5 transition-all shadow-2xs hover:shadow-xs flex flex-col justify-between group"
+                    className="bg-slate-50/70 hover:bg-blue-50/60 border border-slate-200/80 hover:border-blue-300 rounded-xl p-3 transition-all shadow-2xs hover:shadow-xs flex flex-col justify-between group"
                   >
                     <div>
-                      <div className="flex items-center justify-between gap-1 mb-1.5">
-                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded truncate max-w-[170px]">
+                      <div className="flex items-center justify-between gap-1.5 mb-1.5">
+                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded truncate max-w-[180px]">
                           {rj.board || 'Govt Job'}
                         </span>
                         {rj.vacancies && Number(rj.vacancies) > 0 ? (
-                          <span className="text-[10px] font-bold text-slate-600 bg-white border border-slate-200 px-1.5 py-0.5 rounded">
+                          <span className="text-[10px] font-bold text-slate-600 bg-white border border-slate-200 px-1.5 py-0.5 rounded shrink-0">
                             {rj.vacancies} Posts
                           </span>
                         ) : null}
@@ -4100,9 +4100,9 @@ export default function JobDetailPage() {
                         {rj.title}
                       </h4>
                     </div>
-                    <div className="mt-2.5 pt-2 border-t border-slate-200/60 flex items-center justify-between text-[11px] text-slate-500 font-medium">
-                      <span>{rj.jobLocation || 'India'}</span>
-                      <span className="text-blue-600 font-bold group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5">
+                    <div className="mt-2 pt-2 border-t border-slate-200/60 flex items-center justify-between text-[11px] text-slate-500 font-medium">
+                      <span className="truncate max-w-[160px]">{rj.jobLocation || 'India'}</span>
+                      <span className="text-blue-600 font-bold group-hover:translate-x-0.5 transition-transform flex items-center gap-0.5 shrink-0">
                         Details &rarr;
                       </span>
                     </div>
