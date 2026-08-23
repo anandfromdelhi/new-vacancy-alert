@@ -27,6 +27,62 @@ interface ArticleItem {
 
 const ARTICLES_LIST: ArticleItem[] = [
   {
+    id: 'ssc-cgl-master-guide',
+    slug: '/ssc-cgl-master-guide',
+    title: 'The Ultimate SSC CGL Master Guide: Complete 360° Handbook & Resource Hub',
+    excerpt: 'The complete compendium for SSC CGL: Notification timelines, 34+ post directories, 7th Pay Commission salaries, physical standards, new 390-mark exam pattern, and preparation roadmap.',
+    category: 'SSC',
+    author: 'SSC Exams Desk',
+    date: '23rd August 2026',
+    readTime: '20 min read',
+    featured: true,
+    badge: '👑 Flagship Compendium',
+    icon: Award,
+    views: '112.4K Views'
+  },
+  {
+    id: 'ssc-cgl-posts-salary',
+    slug: '/ssc-cgl-posts-salary-pay-scale-hierarchy',
+    title: 'SSC CGL Posts Directory, Hierarchy & 7th Pay Salary Structure (Levels 4 to 8)',
+    excerpt: 'Exhaustive guide to all 34+ SSC CGL posts across Level 8, 7, 6, 5, and 4 with 7th Pay Commission in-hand salary calculations, DA (53%), HRA, and career hierarchy.',
+    category: 'SSC',
+    author: 'Govt Finance Desk',
+    date: '23rd August 2026',
+    readTime: '15 min read',
+    featured: true,
+    badge: '💰 Salary Matrix',
+    icon: Calculator,
+    views: '74.2K Views'
+  },
+  {
+    id: 'ssc-cgl-exam-pattern',
+    slug: '/ssc-cgl-exam-pattern-syllabus-dest-typing',
+    title: 'SSC CGL New Exam Pattern, Detailed Syllabus & DEST Typing Benchmark',
+    excerpt: 'Detailed analysis of SSC CGL Tier-I qualifying structure, Tier-II 390-mark composite merit scheme, Computer Knowledge CPT rules, and DEST typing error benchmarks.',
+    category: 'SSC',
+    author: 'SSC Exams Desk',
+    date: '23rd August 2026',
+    readTime: '16 min read',
+    featured: true,
+    badge: '🎯 390-Mark Pattern',
+    icon: BookOpen,
+    views: '62.8K Views'
+  },
+  {
+    id: 'ssc-cgl-prep-strategy',
+    slug: '/ssc-cgl-preparation-strategy-study-plan-books-mocks',
+    title: 'SSC CGL 12-Month Preparation Roadmap, Daily Study Plan & Booklist',
+    excerpt: 'Step-by-step SSC CGL study plan: 12-month zero-to-hero roadmap, daily 8-hour timetable, subject-wise booklist, and 3-round mock test taking technique.',
+    category: 'SSC',
+    author: 'SSC Exams Desk',
+    date: '23rd August 2026',
+    readTime: '16 min read',
+    featured: false,
+    badge: '📚 Study Plan',
+    icon: Rocket,
+    views: '51.9K Views'
+  },
+  {
     id: 'salary-calculator-2026',
     slug: '/salary-calculator',
     title: '7th Pay Commission Salary Calculator 2026: DA, HRA, NPS & In-Hand Salary',

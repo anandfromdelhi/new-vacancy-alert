@@ -161,6 +161,13 @@ const ADDITIONAL_PAGES: AdditionalSearchPage[] = [
     subtitle: 'Calculate in-hand pay, DA (53%), HRA, TA & Grade Pay'
   },
   {
+    id: 'ssc-cgl-master-guide',
+    title: 'The Ultimate SSC CGL Master Guide (360° Handbook & Strategy)',
+    category: 'SSC Flagship',
+    path: '/ssc-cgl-master-guide',
+    subtitle: 'Notification, salary levels 4-8, physical standards, 390-mark pattern, books & DV checklist'
+  },
+  {
     id: 'articles',
     title: 'All Government Recruitment Guides & Articles',
     category: 'Guides',
