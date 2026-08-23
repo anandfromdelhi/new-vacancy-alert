@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ngel-engineer-executive-re-recruitment-2026",
+    "b": "NTPC Green Energy Limited (NGEL)",
+    "t": "NGEL Engineer & Executive (Renewable Energy) Recruitment 2026 – Apply Online for 147 Posts (Advt No: 04/26 | Last Date: 07 September 2026)",
+    "d": "21 August 2026",
+    "l": "07 September 2026 (Till 18:00 Hrs)",
+    "a": "Advt. No. 04/26",
+    "q": "B.E./B.Tech/B.Sc (Engg) / CA/CMA / MBA/PGDM (HR/CSR) / MA (Hindi/English) + Experience",
+    "desc": "NTPC Green Energy Limited (NGEL), an umbrella green subsidiary of Maharatna PSU NTPC Limited dedicated to renewable power, Battery Energy Storage Systems (BESS), and green hydrogen generation to achieve 60 GW capacity by 2032, has released recruitment notification Advt. No. 04/26.",
+    "u": "https://www.ngel.in"
+},
+  {
     "id": "powergrid-nr1-apprenticeship-recruitment-2026",
     "b": "Power Grid Corporation of India Limited (POWERGRID)",
     "t": "POWERGRID Northern Region-I (NR-I) Apprenticeship Recruitment 2026 – Apply Online for 35 ITI, Diploma & Graduate Apprentice Posts (Last Date: 10 September 2026)",

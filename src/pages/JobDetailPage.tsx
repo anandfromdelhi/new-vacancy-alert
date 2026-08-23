@@ -2329,6 +2329,120 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'ngel-engineer-executive-re-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-emerald-600" /> 8 Disciplines Qualification &amp; Experience Breakdown (Advt 04/26)
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">147 Total Posts</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                          <div className="bg-white border-2 border-sky-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-sky-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">43 Posts</span>
+                              <span className="text-[10px] font-bold text-sky-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Engineer (RE - Civil)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              B.E./B.Tech/B.Sc (Civil) min 65% (55% SC/ST/PwBD) + 3 yrs in Geotech/piling/structural steel/switchyard.
+                            </p>
+                            <span className="text-[10px] font-bold text-sky-800 bg-sky-50 px-2 py-0.5 rounded block text-center">Solar/Wind RE Preferred</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-blue-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">69 Posts</span>
+                              <span className="text-[10px] font-bold text-blue-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Engineer (RE - Electrical)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              B.E./B.Tech (Electrical/EEE/EIC/Power) min 65% (55% SC/ST/PwBD) + 3 yrs in switchyard/testing/transformers.
+                            </p>
+                            <span className="text-[10px] font-bold text-blue-800 bg-blue-50 px-2 py-0.5 rounded block text-center">Power Systems &amp; High Voltage</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-indigo-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">09 Posts</span>
+                              <span className="text-[10px] font-bold text-indigo-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Engineer (RE - Mechanical)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              B.E./B.Tech (Mech/Prod/Industrial/Power) min 65% (55% SC/ST/PwBD) + 3 yrs in power generation. ME/M.Tech preferred.
+                            </p>
+                            <span className="text-[10px] font-bold text-indigo-800 bg-indigo-50 px-2 py-0.5 rounded block text-center">Thermal/Hydro/Gas/RE</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-emerald-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">07 Posts</span>
+                              <span className="text-[10px] font-bold text-emerald-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Engineer (RE - Safety)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              B.Tech (Mech/Elec/Civil) + Diploma in Industrial Safety (RLI) OR Degree in Fire &amp; Safety + 3 yrs safety exp.
+                            </p>
+                            <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded block text-center">Factories Act Compliances</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-purple-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">04 Posts</span>
+                              <span className="text-[10px] font-bold text-purple-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Executive (RE - HR)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              MBA / PGDM / MSW (HR/IR/Personnel) min 65% (55% SC/ST/PwBD) + 3 yrs executive experience in HR functions.
+                            </p>
+                            <span className="text-[10px] font-bold text-purple-800 bg-purple-50 px-2 py-0.5 rounded block text-center">SAP &amp; Analytics Preferred</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-teal-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-teal-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">09 Posts</span>
+                              <span className="text-[10px] font-bold text-teal-700">Min 1 Yr Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Executive (RE - Finance)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Qualified CA or CMA (ICWA) + 1 year post-qualification executive experience in Accounts/Finance/Taxation.
+                            </p>
+                            <span className="text-[10px] font-bold text-teal-800 bg-teal-50 px-2 py-0.5 rounded block text-center">IndAS &amp; SEBI LODR</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-amber-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">05 Posts</span>
+                              <span className="text-[10px] font-bold text-amber-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Executive (RE - CSR)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              PG Degree/Diploma in Rural Dev / MSW / MBA / B.Tech (min 65%) + 3 yrs experience in CSR / SES surveys.
+                            </p>
+                            <span className="text-[10px] font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded block text-center">Companies Act CSR Plans</span>
+                          </div>
+
+                          <div className="bg-white border-2 border-rose-100 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-rose-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">01 Post</span>
+                              <span className="text-[10px] font-bold text-rose-700">Min 3 Yrs Exp</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Executive (RE - Rajbhasha)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Master's in Hindi with English at degree level (or vice-versa) + 3 yrs terminology &amp; translation experience.
+                            </p>
+                            <span className="text-[10px] font-bold text-rose-800 bg-rose-50 px-2 py-0.5 rounded block text-center">Official Language Policy</span>
+                          </div>
+                        </div>
+
+                        <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-3 text-[11px] font-bold text-emerald-900 flex items-start gap-2">
+                          <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
+                          <span>Remuneration &amp; Tenure: Fixed-term appointment for 3 Years (extendable up to 2 years) with approximate CTC of ₹11,00,000/- per annum including HRA, mediclaim, performance pay, and satisfactory service grant.</span>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="space-y-2.5 sm:space-y-3">
                       {activeEducation.map((item, idx) => {
                         const isHeader = item.endsWith(':') || item.includes('Essential for');
@@ -2762,6 +2876,61 @@ export default function JobDetailPage() {
                         <span className="text-[10px] text-amber-400 font-bold block">Mt</span>
                         <span className="text-[10px] text-slate-300">Mean of Top 0.1%</span>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'ngel-engineer-executive-re-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Path A: Selection with CBT */}
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50 border-2 border-sky-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-sky-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">Path A: Selection With Online CBT</h4>
+                        <span className="text-[10px] font-bold text-sky-800 bg-sky-100 px-2 py-0.5 rounded">100 Marks Total</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>CBT Score (70 Marks):</strong> 100 MCQs (70 Qs SKT + 30 Qs Aptitude). 1/4th negative marking.</li>
+                        <li>• <strong>Experience (10 Marks):</strong> 5 marks for min required exp + 1 mark per additional year (max 10 marks).</li>
+                        <li>• <strong>Personal Interview (20 Marks):</strong> Qualifying: 40% UR / 30% Reserved.</li>
+                        <li className="bg-sky-100/70 p-2 rounded-lg text-sky-950 font-extrabold border border-sky-200">
+                          Min Qualifying in CBT: SKT (40% UR / 30% Res) &amp; AT (30% UR / 22.5% Res).
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Path B: Selection Without CBT */}
+                    <div className="bg-gradient-to-br from-teal-50 to-emerald-50 border-2 border-teal-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-teal-200 pb-2">
+                        <h4 className="font-black text-slate-800 text-xs sm:text-sm">Path B: Selection Without CBT (Direct)</h4>
+                        <span className="text-[10px] font-bold text-teal-800 bg-teal-100 px-2 py-0.5 rounded">100 Marks Total</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li>• <strong>Shortlisting:</strong> Based on age, qualification %, and executive experience.</li>
+                        <li>• <strong>Experience Weightage (30 Marks):</strong> 50% minimum qualifying marks.</li>
+                        <li>• <strong>Interview Weightage (70 Marks):</strong> Qualifying: 55% UR / 45% Reserved.</li>
+                        <li className="bg-teal-100/70 p-2 rounded-lg text-teal-950 font-extrabold border border-teal-200">
+                          Merit Order: Offer of appointment issued based on relative cumulative rank.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* 10 Metro Exam Cities */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <MapPin className="h-4 w-4" /> 10 Online CBT Examination Cities (Pan India)
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">All India Centers</span>
+                    </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 text-center text-xs font-bold mt-3">
+                      {['Delhi NCR', 'Mumbai', 'Kolkata', 'Chennai', 'Lucknow', 'Jaipur', 'Ahmedabad', 'Bhopal', 'Raipur', 'Visakhapatnam'].map((city, idx) => (
+                        <div key={idx} className="bg-slate-800/80 p-2 rounded-lg border border-slate-700 text-slate-200">
+                          📍 {city}
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
