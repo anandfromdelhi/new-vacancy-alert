@@ -232,7 +232,7 @@ export default function SscCglPrepBooksMocksPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-preparation-strategy-study-plan-books-mocks" pageTitle="SSC CGL 12-Month Preparation Plan Discussion" />
       </div>
     </div>
   );

@@ -229,7 +229,7 @@ export default function SscCglSelectionDvPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-admit-card-selection-dv-checklist" pageTitle="SSC CGL Selection & DV Checklist Discussion" />
       </div>
     </div>
   );

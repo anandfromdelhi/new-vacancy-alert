@@ -320,7 +320,7 @@ export default function SscCglExamPatternSyllabusPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-exam-pattern-syllabus-dest-typing" pageTitle="SSC CGL Exam Pattern & Syllabus Discussion" />
       </div>
     </div>
   );

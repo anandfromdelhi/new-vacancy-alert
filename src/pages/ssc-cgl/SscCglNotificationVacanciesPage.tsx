@@ -398,7 +398,7 @@ export default function SscCglNotificationVacanciesPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-notification-vacancies-trend" pageTitle="SSC CGL Notification & Vacancies Discussion" />
       </div>
     </div>
   );

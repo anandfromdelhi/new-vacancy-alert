@@ -102,6 +102,8 @@ export default function App() {
                   <Route path="state/:stateSlug" element={<StateJobsPage />} />
                   <Route path="board/:boardSlug" element={<BoardJobsPage />} />
                   <Route path="articles" element={<ArticlesPage />} />
+                  <Route path="blog" element={<Navigate to="/articles" replace />} />
+                  <Route path="blogs" element={<Navigate to="/articles" replace />} />
                   <Route path="about" element={<AboutPage />} />
                   <Route path="contact" element={<ContactPage />} />
                   <Route path="privacy-policy" element={<PrivacyPolicyPage />} />

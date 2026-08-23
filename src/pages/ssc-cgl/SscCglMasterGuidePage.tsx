@@ -321,7 +321,7 @@ export default function SscCglMasterGuidePage() {
         </section>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-master-guide" pageTitle="SSC CGL Master Guide Discussion" />
       </div>
     </div>
   );

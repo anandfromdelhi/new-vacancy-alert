@@ -30,7 +30,7 @@ interface CommentItem {
 }
 
 interface CommentsSectionProps {
-  pageId: string;
+  pageId?: string;
   pageTitle?: string;
   isOpen?: boolean;
   onOpenChange?: (open: boolean) => void;
@@ -306,13 +306,16 @@ function CommentCard({
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function CommentsSection({
-  pageId,
+  pageId: rawPageId,
   pageTitle = 'Discussion & Q&A',
   isOpen: externalIsOpen,
   onOpenChange,
   onCountChange,
   hideFloatingButton = false,
 }: CommentsSectionProps) {
+  // Safe pageId resolution
+  const pageId = rawPageId || (typeof window !== 'undefined' ? (window.location.pathname.replace(/^\//, '') || 'home') : 'home');
+
   // ── Auth ──────────────────────────────────────────────────────────────────
   const [currentUser, setCurrentUser] = useState<User | null>(auth.currentUser);
   useEffect(() => {
@@ -386,6 +389,11 @@ export default function CommentsSection({
     setOldestDoc(null);
     setHasMore(false);
     setLoading(true);
+
+    if (!pageId) {
+      setLoading(false);
+      return;
+    }
 
     const q = query(
       collection(db, 'comments'),

@@ -229,7 +229,7 @@ export default function SscCglCutoffsPreferencePage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-cutoffs-post-preference-ranking-guide" pageTitle="SSC CGL Cutoffs & Post Preference Discussion" />
       </div>
     </div>
   );

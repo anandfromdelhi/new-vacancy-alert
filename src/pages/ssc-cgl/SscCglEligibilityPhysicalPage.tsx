@@ -266,7 +266,7 @@ export default function SscCglEligibilityPhysicalPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-eligibility-physical-standards-pst-pet" pageTitle="SSC CGL Eligibility & Physical Standards Discussion" />
       </div>
     </div>
   );

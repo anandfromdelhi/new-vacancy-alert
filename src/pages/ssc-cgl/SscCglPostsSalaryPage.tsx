@@ -415,7 +415,7 @@ export default function SscCglPostsSalaryPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection />
+        <CommentsSection pageId="ssc-cgl-posts-salary-pay-scale-hierarchy" pageTitle="SSC CGL Posts & Salary Structure Discussion" />
       </div>
     </div>
   );
