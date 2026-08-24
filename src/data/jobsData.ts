@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-kharagpur-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "03-09-2026",
+    "a": "LIT/SRIC/R/AEH/2026/114",
+    "q": "Post Graduate Degree in Basic Science OR Graduate / Post Graduate Degree in Prof...",
+    "desc": "Indian Institute of Technology Kharagpur has officially published an employment notification (Advertisement No: LIT/SRIC/R/AEH/2026/114) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-roorkee-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "30 August 2026",
+    "a": "2374",
+    "q": "Ph.D. in Rock Mechanics with 2 journal articles in Q1 journal as first author fr...",
+    "desc": "Indian Institute of Technology Roorkee has officially published an employment notification (Advertisement No: 2374) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "almora-forest-division-total-posts-recruitment-2026",
+    "b": "Almora Forest Division",
+    "t": "Almora Forest Division Recruitment 2026 – Apply Email for 5 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "24 August 2026",
+    "a": "921 / 1-13",
+    "q": "M.V.Sc. with at least 1 year of experience in wildlife veterinary healthcare man...",
+    "desc": "Almora Forest Division has officially published an employment notification (Advertisement No: 921 / 1-13) for the recruitment of 5 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-banaras-hindu-university-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology (Banaras Hindu University)",
+    "t": "Indian Institute of Technology (Banaras Hindu University) Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "10 September 2026",
+    "a": "ANRF/ECRG/2025/003818/ENS",
+    "q": "Bachelor's and Master's Degree in Sciences (Biotechnology, Microbiology, Molecul...",
+    "desc": "Indian Institute of Technology (Banaras Hindu University) has officially published an employment notification (Advertisement No: ANRF/ECRG/2025/003818/ENS) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "indira-gandhi-rashtriya-uran-akademi-igrua-salary-recruitment-2026",
     "b": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
     "t": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) Recruitment 2026 – Apply Email for 2 Salary Posts",
