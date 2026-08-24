@@ -1,4 +1,6 @@
-import jobDetailsJson from './jobDetails.json';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 export interface JobDetail {
   id: string;
@@ -48,5 +50,44 @@ export interface JobDetail {
   faqs?: { question: string; answer: string }[];
 }
 
-export const jobDetailsData: Record<string, JobDetail> = (jobDetailsJson as unknown) as Record<string, JobDetail>;
+let cachedData: Record<string, JobDetail> | null = null;
+
+function loadJobDetails(): Record<string, JobDetail> {
+  if (cachedData) return cachedData;
+  try {
+    let dirname = '';
+    if (typeof __dirname !== 'undefined') {
+      dirname = __dirname;
+    } else if (typeof import.meta !== 'undefined' && import.meta.url) {
+      dirname = path.dirname(fileURLToPath(import.meta.url));
+    }
+    const jsonPath = dirname ? path.join(dirname, 'jobDetails.json') : path.resolve('src/data/jobDetails.json');
+    cachedData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+  } catch {
+    cachedData = {};
+  }
+  return cachedData || {};
+}
+
+export const jobDetailsData: Record<string, JobDetail> = new Proxy({}, {
+  get(_target, prop: string) {
+    return loadJobDetails()[prop];
+  },
+  has(_target, prop: string) {
+    return prop in loadJobDetails();
+  },
+  ownKeys() {
+    return Reflect.ownKeys(loadJobDetails());
+  },
+  getOwnPropertyDescriptor(_target, prop: string) {
+    const data = loadJobDetails();
+    return Object.getOwnPropertyDescriptor(data, prop) || {
+      configurable: true,
+      enumerable: true,
+      value: data[prop]
+    };
+  }
+});
+
 export default jobDetailsData;
+
