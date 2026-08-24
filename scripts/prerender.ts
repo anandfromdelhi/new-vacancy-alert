@@ -45,7 +45,6 @@ async function prerender() {
   // Collect all static routes
   const routes = new Set<string>([
     '/',
-    '/archives',
     '/articles',
     '/about',
     '/contact',
@@ -241,7 +240,6 @@ async function prerender() {
   const staticRoutes = [
     { url: '/', priority: '1.0', changefreq: 'daily' },
     { url: '/articles', priority: '0.8', changefreq: 'daily' },
-    { url: '/archives', priority: '0.8', changefreq: 'daily' },
     { url: '/salary-calculator', priority: '0.8', changefreq: 'monthly' },
     { url: '/ssc-exam-calendar', priority: '0.8', changefreq: 'monthly' },
     { url: '/rrb-exam-calendar-2026-27', priority: '0.8', changefreq: 'monthly' },

@@ -22,7 +22,6 @@ import MarketingPartnerPage from './pages/marketing/MarketingPartnerPage';
 import MarketingDashboardPage from './pages/marketing/MarketingDashboardPage';
 import MarketingTermsPage from './pages/marketing/MarketingTermsPage';
 import RssFeedPage from './pages/RssFeedPage';
-import ArchivesPage from './pages/ArchivesPage';
 import QualificationJobsPage from './pages/QualificationJobsPage';
 import StateJobsPage from './pages/StateJobsPage';
 import BoardJobsPage from './pages/BoardJobsPage';
@@ -107,7 +106,6 @@ export function render(url: string) {
                 <Route path="/" element={<MainLayout />}>
                   <Route index element={<HomePage />} />
                   <Route path="index.html" element={<HomePage />} />
-                  <Route path="archives" element={<ArchivesPage />} />
                   <Route path="jobs-for/:qualification" element={<QualificationJobsPage />} />
                   <Route path="state/:stateSlug" element={<StateJobsPage />} />
                   <Route path="board/:boardSlug" element={<BoardJobsPage />} />

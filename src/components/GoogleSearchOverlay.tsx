@@ -10,7 +10,6 @@ interface GoogleSearchOverlayProps {
   isOpen: boolean;
   onClose: () => void;
   initialQuery?: string;
-  archiveOnly?: boolean;
   customJobsPool?: JobEntry[];
   contextTitle?: string;
 }
@@ -189,22 +188,10 @@ const TRENDING_SEARCHES = [
   'Anganwadi Helper UP'
 ];
 
-const ARCHIVED_TRENDING_SEARCHES = [
-  'Thane Municipal Corporation',
-  'Davanagere DHFWS Nurse',
-  'Vijayapura DHFWS',
-  'RVUNL Rajasthan Power',
-  'Delhi RTRMH Senior Resident',
-  'Jamui DCPU Support Person',
-  'PMMH Delhi Senior Resident',
-  'ICAI Executive Officer'
-];
-
 export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   isOpen,
   onClose,
   initialQuery = '',
-  archiveOnly = false,
   customJobsPool,
   contextTitle
 }) => {
@@ -245,11 +232,7 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   const cleanQuery = query.trim().toLowerCase();
 
   // Target jobs pool: If customJobsPool is passed, use ONLY that pool
-  const jobsPool = customJobsPool
-    ? customJobsPool
-    : archiveOnly
-    ? JOBS_DATA.filter(job => isJobExpired(job.l))
-    : JOBS_DATA;
+  const jobsPool = customJobsPool || JOBS_DATA;
 
   // Search logic for jobs
   const jobResults = cleanQuery
@@ -272,8 +255,8 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
       }).slice(0, 20)
     : [];
 
-  // Search logic for additional pages (disabled when customJobsPool or archiveOnly is active)
-  const pageResults = (!customJobsPool && !archiveOnly && cleanQuery)
+  // Search logic for additional pages (disabled when customJobsPool is active)
+  const pageResults = (!customJobsPool && cleanQuery)
     ? ADDITIONAL_PAGES.filter(p => 
         p.title.toLowerCase().includes(cleanQuery) ||
         p.category.toLowerCase().includes(cleanQuery) ||
@@ -370,8 +353,6 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
               placeholder={
                 contextTitle 
                   ? `Search within ${contextTitle}...` 
-                  : archiveOnly 
-                  ? "Search archived recruitments (closed applications)..." 
                   : "Search jobs, board, qualification..."
               }
               className="w-full bg-transparent text-slate-900 text-sm sm:text-base font-semibold placeholder-slate-400 focus:outline-none"
@@ -400,10 +381,10 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
               <div>
                 <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-amber-600 mb-3">
                   <TrendingUp className="w-4 h-4 text-amber-600" />
-                  <span>{archiveOnly ? 'Trending Archived Recruitments' : 'Trending Searches in India'}</span>
+                  <span>Trending Searches in India</span>
                 </div>
                 <div className="space-y-1">
-                  {(archiveOnly ? ARCHIVED_TRENDING_SEARCHES : TRENDING_SEARCHES).map((term) => (
+                  {TRENDING_SEARCHES.map((term) => (
                     <button
                       key={term}
                       onClick={() => handleTrendingClick(term)}

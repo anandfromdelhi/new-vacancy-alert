@@ -80,10 +80,6 @@ export function getPageMetaData(urlPath: string) {
     title = "RRB Railway Exam Calendar 2026-27 Official Dates | NewVacancyAlert";
     description = "Official annual schedule for Railway Recruitment Board (RRB) exams including NTPC, ALP, Technician, Group D, and JE vacancies.";
   }
-  else if (cleanPath === "archives") {
-    title = "Government Job Archives & History | NewVacancyAlert";
-    description = "Browse historical government job notifications, past recruitment drives, and archive database.";
-  }
   else if (cleanPath === "articles") {
     title = "Syllabus, Exam Strategy & Recruitment Guides | NewVacancyAlert";
     description = "Read expert articles on government job preparations, exam patterns, cutoff trends, and career advice.";

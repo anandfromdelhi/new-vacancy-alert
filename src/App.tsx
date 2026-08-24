@@ -36,7 +36,6 @@ const MarketingPartnerPage = lazy(() => import('./pages/marketing/MarketingPartn
 const MarketingDashboardPage = lazy(() => import('./pages/marketing/MarketingDashboardPage'));
 const MarketingTermsPage = lazy(() => import('./pages/marketing/MarketingTermsPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
-const ArchivesPage = lazy(() => import('./pages/ArchivesPage'));
 const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage'));
 const StateJobsPage = lazy(() => import('./pages/StateJobsPage'));
 const BoardJobsPage = lazy(() => import('./pages/BoardJobsPage'));
@@ -97,7 +96,6 @@ export default function App() {
                 <Route path="/" element={<MainLayout />}>
                   <Route index element={<HomePage />} />
                   <Route path="index.html" element={<Navigate to="/" replace />} />
-                  <Route path="archives" element={<ArchivesPage />} />
                   <Route path="jobs-for/:qualification" element={<QualificationJobsPage />} />
                   <Route path="state/:stateSlug" element={<StateJobsPage />} />
                   <Route path="board/:boardSlug" element={<BoardJobsPage />} />

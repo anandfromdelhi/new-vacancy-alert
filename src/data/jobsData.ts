@@ -21,7 +21,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Master of Pharmacy (M.Pharm) from a recognized University / PCI Institute",
     "desc": "All India Institute of Medical Sciences (AIIMS), New Delhi, an Autonomous Institute of National Importance under the Ministry of Health and Family Welfare, Government of India, has published an official employment notification for the contractual post of Project Coordinator-II in the Department of Rheumatology / Clinical Immunology.",
     "u": "https://www.aiims.edu"
-},
+  },
   {
     "id": "aiia-child-counsellor-psychologist-recruitment-2026",
     "b": "All India Institute of Ayurveda (AIIA), New Delhi, Ministry of Ayush, Government of India",
@@ -32,18 +32,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Master's Degree in Psychology (MA / M.Sc Psychology) from a recognized University",
     "desc": "All India Institute of Ayurveda (AIIA), New Delhi, an Autonomous Apex Institute under the Ministry of Ayush, Government of India, has published an official walk-in recruitment notification for the contractual position of Child Counsellor cum Psychologist in the Kaumarbhritya (Pediatrics) Department / Child Healthcare Unit.",
     "u": "https://aiia.gov.in"
-},
-  {
-    "id": "sainik-school-ambikapur-recruitment-2026",
-    "b": "Sainik School Ambikapur, Chhattisgarh, Sainik Schools Society, Ministry of Defence, Govt. of India",
-    "t": "Sainik School Ambikapur Recruitment 2026 – Apply Offline for 7 Laboratory Assistant, Matron, Band Master & Ward Boy Posts",
-    "d": "20 August 2026",
-    "l": "20 August 2026",
-    "a": "SSA/Recruitment/2026/01",
-    "q": "12th Pass / 12th Science / B.P.Ed / Music Degree or Band Master Course",
-    "desc": "Sainik School Ambikapur, located in Surguja district of Chhattisgarh and functioning under the aegis of Sainik Schools Society, Ministry of Defence, Government of India, has issued an official recruitment notification for filling 07 non-teaching and support staff vacancies on regular/contractual terms.",
-    "u": "https://www.sainikschoolambikapur.org.in"
-},
+  },
   {
     "id": "nit-raipur-research-associate-recruitment-2026",
     "b": "National Institute of Technology (NIT), Raipur, Ministry of Education, Government of India",
@@ -54,7 +43,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ph.D. in Mathematics from an INI/Recognized University",
     "desc": "National Institute of Technology (NIT), Raipur, an Institute of National Importance (INI) under the Ministry of Education, Government of India, has released an official recruitment advertisement (Advt. No. NITRR/Maths/2026/448) for the temporary position of Research Associate (RA) in the Department of Mathematics.",
     "u": "https://www.nitrr.ac.in"
-},
+  },
   {
     "id": "pgimer-consultant-paediatrics-recruitment-2026",
     "b": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh",
@@ -65,7 +54,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MD (Paediatrics) from a recognized Medical College/NMC Institute",
     "desc": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh, an autonomous Institute of National Importance under the Ministry of Health and Family Welfare, Government of India, has published an employment circular for the engagement of 01 Consultant (Paediatrics) on a contractual basis in the Department of Pediatrics / Telemedicine Project.",
     "u": "https://pgimer.edu.in"
-},
+  },
   {
     "id": "niper-guwahati-secretary-to-registrar-recruitment-2026",
     "b": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, Ministry of Chemicals & Fertilizers, Govt. of India",
@@ -76,18 +65,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor's Degree in any discipline from a recognized University",
     "desc": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, an Autonomous Institute of National Importance under the Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, Government of India, has published an official employment notification (Advt. Phase-14/2026) for the regular appointment of Secretary to Registrar.",
     "u": "https://www.niperguwahati.ac.in"
-},
-  {
-    "id": "apsmha-non-official-member-recruitment-2026",
-    "b": "Arunachal Pradesh State Mental Health Authority (APSMHA), Directorate of Health Services / NHM, Government of Arunachal Pradesh",
-    "t": "APSMHA Recruitment 2026 – Apply Offline for 10 Non-Official Member Posts (Advt. No. SMHA/01/Correspondences/GOI/2024)",
-    "d": "14 August 2026",
-    "l": "14 August 2026",
-    "a": "SMHA/01/Correspondences/GOI/2024",
-    "q": "See eligibility",
-    "desc": "Arunachal Pradesh State Mental Health Authority (APSMHA), established under the statutory provisions of the Mental Healthcare Act, 2017 (MHCA 2017) by the Government of Arunachal Pradesh, has invited Letters of Expression / Applications from eligible professionals and representatives for appointment as Non-Official Members.",
-    "u": "https://nhm.arunachal.gov.in"
-},
+  },
   {
     "id": "dsh-kurnool-cas-recruitment-2026",
     "b": "Directorate of Secondary Health (DSH) / DCHS, Kurnool, Government of Andhra Pradesh",
@@ -98,7 +76,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / PG Degree / MD / MS / DNB / Diploma in relevant discipline + APMC Registration",
     "desc": "Directorate of Secondary Health (DSH), District Coordinator of Hospital Services (DCHS), Kurnool, Government of Andhra Pradesh has issued an official recruitment circular for the engagement of 11 Civil Assistant Surgeon Specialists and Civil Assistant Surgeons (General) on a contract basis in government secondary health hospitals and community healthcare centres across Kurnool district.",
     "u": "https://kurnool.ap.gov.in"
-},
+  },
   {
     "id": "sbc-visakhapatnam-group-c-recruitment-2026",
     "b": "Ship Building Centre (SBC), Visakhapatnam, Ministry of Defence (R&D), Government of India",
@@ -109,7 +87,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "See eligibility",
     "desc": "Ship Building Centre (SBC), Visakhapatnam, a premier strategic work centre operating under the Ministry of Defence (Research & Development), Government of India, has published an official employment notification (Advt. No. 3201/2026) inviting online applications from Indian citizens for General Central Service Group 'C' Technical and Non-Technical (Non-Gazetted, Non-Ministerial) positions.",
     "u": "https://sbcrecruitment.in"
-},
+  },
   {
     "id": "dwcweo-eluru-recruitment-2026",
     "b": "District Women & Child Welfare & Empowerment Office (DWCWEO), Eluru, Government of Andhra Pradesh",
@@ -120,7 +98,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "7th Pass / 10th Pass / Graduate (Commerce/Maths) / MBBS (Pediatrics)",
     "desc": "District Women & Child Welfare & Empowerment Office (DWCWEO), Eluru, Government of Andhra Pradesh has released the official recruitment notification (Advt. No. R.C.No.2/02/2024) for filling 08 contractual vacancies in Specialized Adoption Agencies (SAA) and Child Care Institutions across Eluru district.",
     "u": "https://eluru.ap.gov.in"
-},
+  },
   {
     "id": "psssb-clerk-common-cadre-recruitment-2026",
     "b": "Punjab Subordinate Services Selection Board (PSSSB), SAS Nagar (Mohali), Government of Punjab",
@@ -131,7 +109,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor Degree in any discipline + 120-Hr Computer Course / DOEACC O-Level + 10th Punjabi",
     "desc": "Punjab Subordinate Services Selection Board (PSSSB / SSSB Punjab), Forest Complex, Sector-68, SAS Nagar (Mohali) has released a crucial Corrigendum Notice for Advertisement No. 02/2026 for recruitment to 531 Common Cadre Clerk (Group-C) vacancies across 29 Punjab Government Departments and District Administrative Offices.",
     "u": "https://sssb.punjab.gov.in"
-},
+  },
   {
     "id": "iocl-executive-cbt-recruitment-2026",
     "b": "Indian Oil Corporation Limited (IOCL)",
@@ -142,7 +120,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E./B.Tech/Diploma (Engg) / MBA (Marketing) / LLB / M.Sc (Chemistry)",
     "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India’s premier energy flagship company ranked among Fortune Global 500 enterprises, has officially announced the recruitment of Executives through Computer Based Test (CBT) - 2026 under Advertisement No. IOCL/CO-HR/RECTT/2026/01.",
     "u": "https://iocl.com/latest-job-opening"
-},
+  },
   {
     "id": "bob-local-bank-officer-lbo-recruitment-2026",
     "b": "Bank of Baroda (BOB)",
@@ -153,7 +131,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation in any discipline + Min 1 Year Officer Exp in Scheduled Commercial Bank",
     "desc": "Bank of Baroda (BOB), one of India's premier and largest Public Sector Scheduled Commercial Banks ('India's International Bank'), has released notification BOB/HRM/REC/ADVT/2026/16 for the recruitment of Local Bank Officers (LBO) in Junior Management Grade / Scale-I (JMG/S-I) on a regular full-time basis.",
     "u": "https://www.bankofbaroda.bank.in/Career.htm"
-},
+  },
   {
     "id": "ngel-engineer-executive-re-recruitment-2026",
     "b": "NTPC Green Energy Limited (NGEL)",
@@ -164,7 +142,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E./B.Tech/B.Sc (Engg) / CA/CMA / MBA/PGDM (HR/CSR) / MA (Hindi/English) + Experience",
     "desc": "NTPC Green Energy Limited (NGEL), an umbrella green subsidiary of Maharatna PSU NTPC Limited dedicated to renewable power, Battery Energy Storage Systems (BESS), and green hydrogen generation to achieve 60 GW capacity by 2032, has released recruitment notification Advt. No. 04/26.",
     "u": "https://www.ngel.in"
-},
+  },
   {
     "id": "powergrid-nr1-apprenticeship-recruitment-2026",
     "b": "Power Grid Corporation of India Limited (POWERGRID)",
@@ -175,7 +153,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "ITI (Electrician) / Diploma / B.E. / B.Tech / B.Sc (Engg) in Electrical / Civil",
     "desc": "Power Grid Corporation of India Limited (POWERGRID), a Maharatna Public Sector Enterprise under the Ministry of Power, Government of India, has officially released the recruitment notification (Ref No: Apprenticeship/2026-27/NR-I/01) for the engagement of Trade, Diploma, and Graduate Apprentices for a 1-year duration under the Apprentices Act 1961.",
     "u": "https://www.powergrid.in/en/rolling-advertisement-for-enagagement-of-apprentices"
-},
+  },
   {
     "id": "powergrid-nr3-apprenticeship-recruitment-2026",
     "b": "Power Grid Corporation of India Limited (POWERGRID)",
@@ -186,7 +164,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "ITI (Electrician) / Diploma / B.E. / B.Tech / B.Sc (Engg) in Electrical / Civil",
     "desc": "Power Grid Corporation of India Limited (POWERGRID), a Maharatna Public Sector Enterprise under the Ministry of Power, Government of India, has officially released the recruitment notification (Ref No: Apprenticeship/2026-27/ NR-III /01) for the engagement of Trade, Diploma, and Graduate Apprentices for a 1-year duration under the Apprentices Act 1961.",
     "u": "https://www.powergrid.in/en/rolling-advertisement-for-enagagement-of-apprentices"
-},
+  },
   {
     "id": "upsssc-veterinary-pharmacist-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow",
@@ -197,7 +175,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th (Science/Biology) + 2-Yr 3-Mo Diploma in Veterinary Pharmacy",
     "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued advertisement Advt No. 18-Exam/2026 for Veterinary Pharmacist Main Examination (PET-2025)/18 to fill 1,308 vacancies of Veterinary Pharmacist under the Directorate of Animal Husbandry, Government of Uttar Pradesh.",
     "u": "http://upsssc.gov.in"
-},
+  },
   {
     "id": "icds-up-kanpur-nagar-anganwadi-sahayika-recruitment-2026",
     "b": "District Program Officer (ICDS), Kanpur Nagar, Uttar Pradesh",
@@ -208,7 +186,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Intermediate (12th Class Pass) or equivalent",
     "desc": "Office of the District Program Officer, Kanpur Nagar (Bal Vikas Seva Evam Pushtahar Department, Government of Uttar Pradesh) has issued recruitment notification Letter No. C-1247/2026-27 dated 13/08/2026 for the selection of 307 Anganwadi Sahayika (Helper) posts in rural and urban Anganwadi centers across Kanpur Nagar district.",
     "u": "http://upanganwadibharti.in"
-},
+  },
   {
     "id": "ruhs-medical-officer-recruitment-2026",
     "b": "Rajasthan University of Health Sciences (RUHS), Jaipur / Medical & Health Services Dept, Govt of Rajasthan",
@@ -219,7 +197,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS Degree + Registration with Rajasthan Medical Council (RMC)",
     "desc": "Rajasthan University of Health Sciences (RUHS), Jaipur has released notification No. F-11()/Entrance & Recruitment Cell/RUHS/2026/1173 dated 13.08.2026 for Medical Officer Direct Recruitment Examination 2026 to fill 600 Posts of Medical Officer (Medical) under the Rajasthan Medical Services Rules-1963 for the Medical, Health & Family Welfare Department, Government of Rajasthan.",
     "u": "https://www.ruhsraj.org"
-},
+  },
   {
     "id": "rrb-je-dms-recruitment-2026",
     "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
@@ -230,7 +208,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma in Engineering / B.E. / B.Tech (Civil, Mech, Elect, ECE, CS/IT)",
     "desc": "Railway Recruitment Boards (RRBs) have issued the detailed Centralised Employment Notice CEN No. 04/2026 for the recruitment of 3,993 vacancies for various posts of Junior Engineer (JE) and Depot Material Superintendent (DMS) across 21 Railway Recruitment Boards.",
     "u": "https://rrbapply.gov.in"
-},
+  },
   {
     "id": "aai-northern-region-apprentice-recruitment-2026",
     "b": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi",
@@ -241,7 +219,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Regular Degree (B.E/B.Tech/BCA/B.Com/B.Arch) / Diploma / ITI passed in 2024 or later",
     "desc": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi, a Schedule 'A' Miniratna Category-1 Public Sector Enterprise, has issued advertisement Advt. No. 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR for 1-year apprenticeship training of 205 Graduate, Diploma, and ITI Trade Apprentices for the year 2026-27 under the Apprentices Act, 1961.",
     "u": "https://nats.education.gov.in"
-},
+  },
   {
     "id": "rsmssb-junior-engineer-jen-recruitment-2026",
     "b": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur",
@@ -252,7 +230,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Degree (B.E/B.Tech) or Diploma in Civil / Mechanical / Electrical Engineering",
     "desc": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur has released detailed advertisement Advt. No. 10/2026 for Junior Engineer Joint Direct Recruitment 2026 (कनिष्ठ अभियंता संयुक्त सीधी भर्ती-2026) for 874 vacancies across PWD, Water Resources Department, and PHED.",
     "u": "http://sso.rajasthan.gov.in"
-},
+  },
   {
     "id": "mp-high-court-assistant-grade-3-recruitment-2026",
     "b": "High Court of Madhya Pradesh (MPHC), Jabalpur",
@@ -263,18 +241,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation Degree + CPCT Scorecard (MAP-IT) + 1-Year Computer Diploma",
     "desc": "High Court of Madhya Pradesh (MPHC), Jabalpur has published official advertisement Advt. No. 614/Exam/2026 dated 14.08.2026 for direct recruitment of 1,174 Assistant Grade-III (Sahayak Grade-3) vacancies in District and Sessions Courts of Madhya Pradesh for the recruitment year 2026.",
     "u": "https://www.mphc.gov.in"
-},
-  {
-    "id": "deo-chittoor-academic-instructor-recruitment-2026",
-    "b": "District Educational Officer (DEO), Chittoor District, School Education Department, Andhra Pradesh",
-    "t": "DEO Chittoor Academic Instructor Recruitment 2026: Apply Offline for 249 Vacancies (156 SGT & 93 School Assistant Posts) | Proceedings Rc.No: 1901/B4/2026",
-    "d": "14 August 2026",
-    "l": "21 August 2026 (5:00 PM)",
-    "a": "Rc.No: 1901/B4/2026",
-    "q": "SGT: D.El.Ed / D.Ed (+ TET) | SA: Graduation/PG + B.Ed (+ TET)",
-    "desc": "Office of the District Educational Officer (DEO), Chittoor, School Education Department, Govt. of Andhra Pradesh has issued official proceedings Rc.No: 1901/B4/2026 dated 14.08.2026 for engagement of 249 Academic Instructors (School Assistants & Secondary Grade Teachers - SGTs) in Govt/ZPP/MPP/Municipal schools across Chittoor district for the academic year 2026-2027.",
-    "u": "https://cse.ap.gov.in"
-},
+  },
   {
     "id": "hal-nasik-graduate-diploma-apprentice-recruitment-2026",
     "b": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, Maharashtra",
@@ -285,7 +252,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Passed Degree / Diploma in 2022, 2023, 2024, 2025, or 2026",
     "desc": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, a Maharatna Central Public Sector Undertaking under the Ministry of Defence, Govt. of India, has published advertisement Advt. No. HAL/T&D/1614/2026-27/264 inviting online applications for 1-year apprenticeship training of 272 Engineering Graduate, Technician Diploma, and Non-Technical Graduate Apprentices under the Apprentices Act, 1961.",
     "u": "https://zfrmz.in/5L8gLXmMYLFh2cCT2F7v"
-},
+  },
   {
     "id": "hal-nasik-iti-apprentice-recruitment-2026",
     "b": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, Maharashtra",
@@ -296,7 +263,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Passed 10th Class (SSC) + Regular ITI (NCVT/SCVT) in relevant trade",
     "desc": "Hindustan Aeronautics Limited (HAL), Aircraft Division, Nasik, a Maharatna Central Public Sector Undertaking under the Ministry of Defence, Govt. of India, has published official advertisement Advt. No. HAL/T&D/1614/2026/265 inviting online applications for 1-year apprenticeship training of 355 ITI Trade Apprentices for the year 2026 under the Apprentices Act, 1961.",
     "u": "https://zfrmz.in/KSfP6So9GXJgaRx1NTv5"
-},
+  },
   {
     "id": "bhel-trichy-graduate-apprentice-recruitment-2026",
     "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
@@ -307,7 +274,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Regular Full-Time B.E / B.Tech / B.Com / B.A (Passed in 2022 to 2026)",
     "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: GA 2026-27 for engagement of 90 Graduate Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
     "u": "https://trichy.bhel.com"
-},
+  },
   {
     "id": "bhel-trichy-technician-diploma-apprentice-recruitment-2026",
     "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
@@ -318,7 +285,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Regular Full-Time Diploma in Engineering (Passed in 2022 to 2026)",
     "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: TA 2026-27 for engagement of 60 Technician (Diploma) Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
     "u": "https://trichy.bhel.com"
-},
+  },
   {
     "id": "bhel-trichy-trade-apprentice-recruitment-2026",
     "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
@@ -329,7 +296,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass + Regular Full-Time ITI (NCVT/SCVT) in relevant trade",
     "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has published official circular No. TP: HR: R: AA113 inviting online applications for engagement of 380 Trade Apprentices under the Apprentices Act, 1961 for the training year 2026-27.",
     "u": "https://trichy.bhel.com"
-},
+  },
   {
     "id": "iocl-executives-cbt-recruitment-2026",
     "b": "Indian Oil Corporation Limited (IOCL), Corporate Office, New Delhi",
@@ -340,18 +307,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "See eligibility",
     "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India's flagship energy major, has released detailed advertisement Advt. No.: IOCL/CO-HR/RECTT/2026/01 for recruitment of dynamic and enthusiastic Executives across various disciplines through Computer Based Test (CBT) - 2026.",
     "u": "https://www.iocl.com/latest-job-opening"
-},
-  {
-    "id": "bmc-trade-apprentice-recruitment-2026",
-    "b": "Brihanmumbai Municipal Corporation (BMC / MCGM), Labour Department, Mumbai, Maharashtra",
-    "t": "Brihanmumbai Municipal Corporation (BMC) Trade Apprentice Recruitment 2026: Notification Out for 612 Vacancies (Walk-in Rally on 20 & 21 Aug 2026)",
-    "d": "11 August 2026",
-    "l": "21 August 2026",
-    "a": "Prakasha/585/MC dated 11.08.2026",
-    "q": "10th Pass (with Marathi) + ITI in relevant trade",
-    "desc": "Brihanmumbai Municipal Corporation (BMC / MCGM), Labour Department, Mumbai has published official recruitment notification Advt No. Prakasha/585/MC dated 11.08.2026 for empanelment of 612 Trade Apprentices under the Apprentices Act 1961.",
-    "u": "https://portal.mcgm.gov.in"
-},
+  },
   {
     "id": "up-muzaffarnagar-anganwadi-recruitment-2026",
     "b": "Child Development Services & Nutrition Department (Bal Vikas Seva Evam Pushtahar Vibhag), District Program Office, Muzaffarnagar, Uttar Pradesh",
@@ -362,7 +318,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Intermediate (12th Pass) or equivalent",
     "desc": "Office of the District Program Officer, Muzaffarnagar (Uttar Pradesh) has released official recruitment advertisement Notice No. C-821 / Ba.Vi.Pa. / Vigyapti / 2026-27 for recruitment of 146 Anganwadi Karyakatri (Anganwadi Workers) across rural and urban Child Development Projects in Muzaffarnagar district.",
     "u": "http://upanganwadibharti.in"
-},
+  },
   {
     "id": "dlsa-sheikhpura-plv-recruitment-2026",
     "b": "District Legal Services Authority (DLSA), Sheikhpura, Bihar",
@@ -373,7 +329,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Matriculation (10th Pass) or equivalent",
     "desc": "Office of the District Legal Services Authority (DLSA), Sheikhpura (Bihar) has released official notification Advt No. 01/2026 for empanelment of 100 Para Legal Volunteers (PLV) / पारा विधिक स्वयं सेवक across the district.",
     "u": "https://sheikhpura.dcourts.gov.in"
-},
+  },
   {
     "id": "tnpsc-group-2-2a-combined-civil-services-recruitment-2026",
     "b": "Tamil Nadu Public Service Commission (TNPSC)",
@@ -384,7 +340,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor's Degree in any discipline / B.A. / B.Sc / B.Com / B.L. / Master's Degree",
     "desc": "Tamil Nadu Public Service Commission (TNPSC) has released the official notification for Combined Civil Services Examination - II (Group II and IIA Services) 2026 under Advertisement No. 740 / Notification No. 07/2026 dated 11.08.2026.",
     "u": "https://www.tnpscexams.in"
-},
+  },
   {
     "id": "cochin-shipyard-graduate-technician-apprentice-recruitment-2026",
     "b": "Cochin Shipyard Limited (CSL) - A Govt of India Enterprise (Ministry of Ports, Shipping and Waterways)",
@@ -395,7 +351,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "See eligibility",
     "desc": "Cochin Shipyard Limited (CSL), a listed premier Mini Ratna Schedule 'A' Company under the Ministry of Ports, Shipping and Waterways, Government of India, has published an official notification for engagement of Graduate and Technician (Diploma) Apprentices for 1-year apprenticeship training under the Apprentices (Amendment) Act 1973.",
     "u": "https://nats.education.gov.in"
-},
+  },
   {
     "id": "karnataka-school-education-teacher-recruitment-2026",
     "b": "Karnataka School Education Department (Department of Public Instruction), Government of Karnataka",
@@ -406,7 +362,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th / PUC, Diploma, Degree, Graduation, B.Ed / D.Ed / TET / B.P.Ed / Computer Science",
     "desc": "The Karnataka School Education Department (Department of Public Instruction), Government of Karnataka, has officially announced the mega recruitment drive for 15,000 teaching posts in Government Primary and High Schools for the 2026-27 academic session.",
     "u": "https://schooleducation.karnataka.gov.in"
-},
+  },
   {
     "id": "up-maharajganj-anganwadi-worker-helper-recruitment-2026",
     "b": "Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh (जिला कार्यक्रम अधिकारी, महराजगंज)",
@@ -417,18 +373,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Minimum Intermediate (12th Pass), Maximum Post Graduate (PG)",
     "desc": "District Program Officer (जिला कार्यक्रम अधिकारी), Maharajganj under Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh has published an official recruitment notification for 305 posts of Anganwadi Workers (आंगनवाड़ी कार्यकर्त्री) and Anganwadi Helpers (आंगनवाड़ी सहायिका) on honorarium basis across 13 Bal Vikas Projects.",
     "u": "https://upanganwadibharti.in"
-},
-  {
-    "id": "osssc-nursing-officer-recruitment-2026",
-    "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar",
-    "t": "OSSSC Nursing Officer Recruitment 2026 Extended Last Date – Apply Online for 5,989 District Cadre Group-C Vacancies",
-    "d": "12 June 2026",
-    "l": "13 June 2026",
-    "a": "IIE-54/2026-1962/OSSSC dated 12/06/2026",
-    "q": "10+2 Pass + Diploma in GNM / BSc Nursing + Odisha Nursing Council Registration",
-    "desc": "The Odisha Sub-ordinate Staff Selection Commission (OSSSC), Bhubaneswar has published notification IIE-54/2026-1962/OSSSC for the recruitment of 5,989 District Cadre Group-C Nursing Officers across all 30 districts of Odisha under the Health & Family Welfare Department.",
-    "u": "https://www.osssc.gov.in"
-},
+  },
   {
     "id": "asc-centre-south-bangalore-group-c-recruitment-2026",
     "b": "ASC Centre (South) - Bangalore, Ministry of Defence, Govt. of India",
@@ -439,7 +384,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass / Diploma in Catering (as per trade requirements)",
     "desc": "Ministry of Defence, Civilian Direct Recruitment Board, CHQ, ASC Centre (South) - Bangalore, Post - Agram, Bangalore - 560007 has published a direct recruitment notification in Employment News (15 - 21 August 2026) for filling 62 Group 'C' Civilian posts.",
     "u": "https://www.employmentnews.gov.in"
-},
+  },
   {
     "id": "esic-maharashtra-empanelment-of-advocates-2026",
     "b": "Employees' State Insurance Corporation (ESIC), Regional Office Maharashtra",
@@ -450,29 +395,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "LL.B / Law Degree from a recognized Indian University & Bar Council Registration",
     "desc": "Employees' State Insurance Corporation (ESIC), Regional Office Maharashtra, Mumbai has released an official notice (File No. T-11/12/2/2016-Legal) inviting applications for the Empanelment of Advocates / Panel Counsel for the 3-year period 2026–2029.",
     "u": "https://romaharashtra.esic.gov.in"
-},
-  {
-    "id": "bpcl-technician-operator-recruitment-2026",
-    "b": "Bharat Petroleum Corporation Limited (BPCL)",
-    "t": "BPCL Non-Management Technician & Operator Recruitment 2026 – Apply Online for 154 Posts at Mumbai & Kochi Refineries",
-    "d": "29 July 2026",
-    "l": "29 July 2026 (12:00 AM)",
-    "a": "BPCL.HR.ER.03.NMGT.RECT",
-    "q": "3-Year Diploma in Engg (Chemical / Mechanical / Electrical) with 60% marks",
-    "desc": "Bharat Petroleum Corporation Limited (BPCL), a Maharatna Central Public Sector Undertaking (CPSU), has released Advertisement No. BPCL.HR.ER.03.NMGT.RECT for the recruitment of entry-level Non-Management posts in NG-2 grade for its Refineries situated at Mumbai and Kochi.",
-    "u": "https://www.bharatpetroleum.in/careers"
-},
-  {
-    "id": "sctimst-project-technical-support-ii-recruitment-2026",
-    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), Trivandrum",
-    "t": "SCTIMST Project Technical Support II Recruitment 2026 – Walk-in Interview for ICMR Funded AI Project",
-    "d": "27 July 2026",
-    "l": "18 August 2026",
-    "a": "R&P Cell/34/5517/SCTIMST/2026",
-    "q": "3-Year Degree in Life Sciences/Physical Sciences + 2 Yrs Research Experience",
-    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST), Thiruvananthapuram, an Institution of National Importance under the Department of Science and Technology, Government of India, has announced Walk-in Interview for the post of Project Technical Support II - (Temporary).",
-    "u": "https://www.sctimst.ac.in"
-},
+  },
   {
     "id": "upsssc-pashudhan-prasar-adhikari-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
@@ -483,7 +406,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10+2 Science (Biology) + 2-Year Pashudhan Prasar Diploma",
     "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued Notification No. 17-Exam/2026 for the recruitment of 1,251 Pashudhan Prasar Adhikari (Livestock Extension Officer) posts under the Directorate of Animal Husbandry, Uttar Pradesh.",
     "u": "https://upsssc.gov.in"
-},
+  },
   {
     "id": "sbi-junior-associate-clerk-recruitment-2026",
     "b": "State Bank of India (SBI)",
@@ -494,7 +417,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation in any discipline from a recognized University",
     "desc": "State Bank of India (SBI), Central Recruitment & Promotion Department (CRPD), Corporate Centre, Mumbai has released Advertisement No. CRPD/CR/2026-27/17 for the recruitment of Junior Associates (Customer Support & Sales) in clerical cadre across various circles in India.",
     "u": "https://sbi.bank.in/web/careers/current-openings"
-},
+  },
   {
     "id": "bmc-mumbai-shikshan-sevak-recruitment-2026",
     "b": "Brihanmumbai Municipal Corporation (BMC / MCGM) – Education Department, Mumbai",
@@ -505,7 +428,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Pass + D.El.Ed / D.Ed OR Graduation + B.Ed + Mandatory TET / CTET Passed",
     "desc": "Brihanmumbai Municipal Corporation (BMC / MCGM), Education Department, Mumbai has released official advertisement EOR/OD/113 for direct recruitment of 935 Shikshan Sevak (शिक्षण सेवक / Teacher) Group-C posts in BMC Primary and Upper Primary Schools.",
     "u": "https://portal.mcgm.gov.in"
-},
+  },
   {
     "id": "esic-indore-faculty-senior-resident-recruitment-2026",
     "b": "ESIC Medical College & Hospital, Indore (M.P.) – Ministry of Labour & Employment, Govt of India",
@@ -573,17 +496,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://pb.icf.gov.in"
   },
   {
-    "id": "maharashtra-icds-mukhya-sevika-recruitment-2026",
-    "b": "Integrated Child Development Services (ICDS) Commissionerate, Women & Child Development Department, Maharashtra",
-    "t": "Maharashtra ICDS Mukhya Sevika (Supervisor) Recruitment 2026 Notification Out for 272+ Vacancies in WCD Department",
-    "d": "05 August 2026",
-    "l": "21 August 2026",
-    "a": "जाक्र/एबाविसेयोआ/आस्था/का-1/3367",
-    "q": "Graduation Degree (BA / BSc / BCom / Any Graduate) from a recognized University",
-    "desc": "Commissioner, Integrated Child Development Services (ICDS) Scheme, Women and Child Development Department, Government of Maharashtra, Navi Mumbai has issued official notification 3367 for the recruitment of 272+ Mukhya Sevika (Supervisor / मुख्यसेविका / पर्यवेक्षिका) vacancies.",
-    "u": "https://womenchild.maharashtra.gov.in"
-  },
-  {
     "id": "kea-esis-pharmacist-nursing-officer-2026",
     "b": "Karnataka Examinations Authority (KEA), Bengaluru / ESIS Medical Services Department",
     "t": "KEA ESIS Pharmacist & Nursing Officer Recruitment 2026 Notification Out for 188 Group-C Vacancies in ESIS Medical Services Department",
@@ -615,7 +527,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / PG Degree or Diploma / DM or M.Ch in relevant specialty + NMC Registration",
     "desc": "Medical Officer Selection Board-2025 (MOSB-2025), Directorate General, Indo-Tibetan Border Police Force (ITBP), Ministry of Home Affairs, Govt. of India has released official advertisement for direct recruitment of Group 'A' Medical Officers in Central Armed Police Forces (BSF, CRPF, ITBP, SSB) & Assam Rifles.",
     "u": "https://www.recruitment.itbpolice.nic.in"
-},
+  },
   {
     "id": "drdo-hemrl-pune-apprentice-2026",
     "b": "High Energy Materials Research Laboratory (HEMRL), Pune – DRDO, Ministry of Defence",
@@ -626,18 +538,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "See eligibility",
     "desc": "High Energy Materials Research Laboratory (HEMRL), Pune, a premier R&D establishment under Defence Research & Development Organization (DRDO), Ministry of Defence, Govt. of India, has released official advertisement HEMRL/HRD/APPRENTICE/2026-27/01 for engagement of Graduate Apprentices for One Year Apprentice Training (2026-27).",
     "u": "https://drdo.gov.in/drdo/en/offerings/vacancies"
-},
-  {
-    "id": "eil-experienced-modellers-2026",
-    "b": "Engineers India Limited (EIL), A Govt of India Undertaking (Navratna PSU)",
-    "t": "EIL Experienced Modellers Recruitment 2026 Notification Out for 22 Associate Modeller Posts (Piping, Civil, Instrumentation, Safety & Equipment) – Apply Online",
-    "d": "07 August 2026",
-    "l": "21 August 2026 (23:59 hrs)",
-    "a": "HRD/Rectt./Advt./2026-27/06",
-    "q": "Diploma or B.E./B.Tech/B.Sc (Engg) with min 60% marks or equivalent CGPI",
-    "desc": "Engineers India Limited (EIL), a Navratna Public Sector Enterprise and India's premier Total Solutions Engineering Consultancy Company, has published official advertisement HRD/Rectt./Advt./2026-27/06 for engagement of experienced Modellers on a Fixed Term Basis for a period of 2 Years.",
-    "u": "http://www.engineersindia.com"
-},
+  },
   {
     "id": "cgssb-chhattisgarh-teacher-recruitment-2026",
     "b": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) / Directorate of Public Instruction",
@@ -648,7 +549,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation Degree + B.Ed / D.El.Ed + CG TET / CTET Paper-II Qualified",
     "desc": "Chhattisgarh Staff Selection Board, Raipur (CGSSB / CG Vyapam) has released official notification F-20/2026/3399 inviting Online Applications for the Written Recruitment Examination for Teacher (Shikshak) posts under Directorate of Public Instruction, Government of Chhattisgarh under Exam Code LST26.",
     "u": "https://cgssb.cgstate.gov.in"
-},
+  },
   {
     "id": "hp-high-court-district-judiciary-recruitment-2026",
     "b": "High Court of Himachal Pradesh, Shimla (HPHC) / District Judiciary",
@@ -659,7 +560,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Class 12th (10+2) / Graduate Degree / MBA depending on post",
     "desc": "High Court of Himachal Pradesh, Shimla invites Online Recruitment Applications (ORA) for filling up 388 clearcut/anticipated vacancies of Court Manager, Clerk, Stenographer Grade-III, Driver, Process Server, and Peon/Chowkidar/Safai Karamchari on the Establishment of District Judiciary in HP under Himachal Pradesh District Judiciary Staff Rules 2022.",
     "u": "https://www.hphcrecruitment.in/login"
-},
+  },
   {
     "id": "kea-karnataka-esi-pharmacist-nursing-officer-2026",
     "b": "Karnataka Examination Authority (KEA) / ESI Medical Services Department",
@@ -670,18 +571,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma in Pharmacy (D.Pharm) / Diploma in General Nursing (GNM) / B.Sc Nursing",
     "desc": "Karnataka Examination Authority (KEA), Bengaluru on behalf of the Department of ESI Medical Services, Government of Karnataka invites Online Recruitment Applications for direct recruitment of 188 Group 'C' posts of Pharmacist Officer and Nursing Officer (Shushrushadhikari) under Residual Parent Cadre (RPC) Notification No. ED/KEA/34/RECT/2026.",
     "u": "https://cetonline.karnataka.gov.in/kea/"
-},
-  {
-    "id": "upsc-recruitment-advt-10-2026",
-    "b": "Union Public Service Commission (UPSC)",
-    "t": "UPSC Recruitment 2026 (Advt No. 10/2026) – Apply Online for 34 Posts of Assistant Executive Engineer, Research Officer, Assistant Director & Officers | Pay Level 7 to 10",
-    "d": "08-08-2026",
-    "l": "08.08.2026",
-    "a": "Advertisement No. 10/2026 Dated 08.08.2026",
-    "q": "BE / B.Tech (Civil / Electronics / Mech / Agri) / LLM / LLB / Master\'s (Geography/Geology/GIS) / B.Sc (Agri/Hort) / Graduation in Any Discipline",
-    "desc": "Union Public Service Commission (UPSC) invites Online Recruitment Applications (ORA) for direct recruitment by selection to 34 Group 'A' & Group 'B' Gazetted posts across various Central Ministries and Union Territory of Ladakh under Advertisement No. 10/2026.",
-    "u": "https://upsconline.nic.in/ora/"
-},
+  },
   {
     "id": "iob-local-bank-officer-recruitment-2026",
     "b": "Indian Overseas Bank (IOB), Central Office, Chennai",
@@ -692,7 +582,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation Degree in Any Discipline from Recognized University",
     "desc": "Indian Overseas Bank (IOB), a premier Public Sector Bank headquartered in Chennai with nationwide and international presence, invites online applications for direct recruitment of 250 Local Bank Officers (LBO) in Junior Management Grade Scale-I (JMGS - I).",
     "u": "https://www.iob.bank.in"
-},
+  },
   {
     "id": "krcl-apprentice-recruitment-2026",
     "b": "Konkan Railway Corporation Limited (KRCL), A Govt of India Undertaking",
@@ -703,7 +593,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "NIL (No Application Fee)",
     "desc": "Konkan Railway Corporation Limited (KRCL), a Public Sector Undertaking under the Ministry of Railways, is conducting a Special Drive to engage Apprentice Trainees under the Apprentices Act 1961/1973 through the National Apprenticeship Training Scheme (NATS).",
     "u": "https://nats.education.gov.in"
-},
+  },
   {
     "id": "isro-hsfc-scientist-engineer-sd-recruitment-2026",
     "b": "Human Space Flight Centre (HSFC), ISRO, Bengaluru",
@@ -714,7 +604,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ph.D. in relevant discipline (Bioinstrumentation / Biotechnology / Cell Biology / Computational Biology / Biomedical Engg) + ME/M.Tech/MS/M.Sc + BE/B.Tech/B.Sc/BS-MS",
     "desc": "Human Space Flight Centre (HSFC), ISRO, Bengaluru invites online applications for direct recruitment of 06 Scientist/Engineer 'SD' (Group 'A') posts in Pay Level 11 (Rs. 67,700 - Rs. 2,08,700). Candidates holding Ph.D. in relevant fields with prescribed pre-requisite degrees can apply online at isro.gov.in by 30 August 2026. No application fee.",
     "u": "https://www.isro.gov.in"
-},
+  },
   {
     "id": "sbi-junior-associate-special-recruitment-drive-2026",
     "b": "State Bank of India (SBI)",
@@ -725,17 +615,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation in Any Discipline from Recognized University",
     "desc": "State Bank of India (SBI) invites online applications for 1,538 Junior Associate (Customer Support & Sales) Special Recruitment Drive Backlog Vacancies across SC (207), ST (1,219), and OBC (112) categories in 16 Circles/States. Starting basic pay ₹26,730/- (gross starting salary ~₹46,000/month in metro). Graduates aged 20 to 28 years (with applicable category relaxations) can apply online on sbi.co.in by 27 August 2026.",
     "u": "https://sbi.bank.in/web/careers"
-  },
-  {
-    "id": "mpesb-group-2-subgroup-4-patwari-recruitment-2026",
-    "b": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal",
-    "t": "MPESB Group 2 Sub Group 4 Recruitment 2026 – Apply Online for 2,106 Posts of Patwari, Panchayat Coordinator, Computer Operator, Assistant Manager & Sub-Auditor | Advt Group-2 Sub-Group-4 2026 | Last Date 18 August 2026",
-    "d": "07-08-2026",
-    "l": "18-08-2026",
-    "a": "Rulebook Group-02 Sub-Group-04 Combined Recruitment Exam 2026",
-    "q": "Graduate Degree in any discipline / B.Com / Science / B.E / B.Tech / BCA + CPCT / Computer Diploma as applicable",
-    "desc": "Madhya Pradesh Employees Selection Board (MPESB) invites online applications for 2,106 vacancies under Group-02 Sub-Group-04 Combined Recruitment Exam 2026. Posts include Patwari (200), Panchayat Samanvay Adhikari (365), Computer Operator / Assistant Grade-3 (124), Sub-Auditor / Assistant Auditor (105), Assistant Inspector / Mandi Supervisor (530), and Assistant Manager (45). Apply online at esb.mp.gov.in by 18 August 2026.",
-    "u": "https://esb.mp.gov.in"
   },
   {
     "id": "dlsa-ujjain-plv-recruitment-2026",
@@ -749,17 +628,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://ujjain.dcourts.gov.in"
   },
   {
-    "id": "gmc-wanaparthy-faculty-sr-tutor-recruitment-2026",
-    "b": "Government Medical College (GMC), Wanaparthy – Govt of Telangana",
-    "t": "GMC Wanaparthy Recruitment 2026 – Walk-in Interview for 160 Faculty, Senior Resident & Tutor Posts | Salary up to ₹1,90,000/month | Rc.No.1881-1/GMC/WNP/2026 | Walk-in Date 12 August 2026",
-    "d": "07-08-2026",
-    "l": "12-08-2026",
-    "a": "Rc.No.1881-1/GMC/WNP/2026 Dated 06.08.2026",
-    "q": "MBBS / MD / MS / DNB / DM / MCh / MDS / M.Sc with Ph.D in Concerned Specialty",
-    "desc": "Government Medical College (GMC) & Government General Hospital, Wanaparthy under DME Telangana invites applications for 160 contract & honorarium posts including Professor (25), Associate Professor (43), Assistant Professor (29), Senior Resident (33), and Tutor (30) across 32 medical specialties. Remuneration up to ₹1.90 Lakhs/month. Walk-in Interview on 12 August 2026 at GMC Wanaparthy campus.",
-    "u": "https://dme.telangana.gov.in"
-  },
-  {
     "id": "bank-of-baroda-so-recruitment-2026",
     "b": "Bank of Baroda (BOB)",
     "t": "Bank of Baroda Recruitment 2026 – Apply Online for 206 Specialist Officer Posts across Digital Banking, Facility Management, Info Security & Accounts | Advt BOB/HRM/REC/ADVT/2026/15 | Last Date 26 August 2026",
@@ -769,39 +637,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E / B.Tech / MCA / CA / ICWA / Graduation / Post Graduation in Relevant Field + Experience",
     "desc": "Bank of Baroda invites online applications for 206 regular Specialist Officer (SO) vacancies across Digital Banking (19), Facility Management - Civil/Electrical (88), Information Security (16), Security (54), Enterprise Data Management Office - Data Scientist/Analysts (14), and Corporate Accounts & Taxation (15). Scales: JMG/S-I, MMG/S-II, MMG/S-III, SMG/S-IV. Apply online at bankofbaroda.in by 26 August 2026.",
     "u": "https://www.bankofbaroda.in/careers"
-  },
-  {
-    "id": "drdo-drdl-paid-internship-2026",
-    "b": "Defence Research & Development Organisation (DRDO) – DRDL Hyderabad",
-    "t": "DRDO DRDL Paid Internship 2026 – Apply for 165 Paid Internships for B.E/B.Tech/M.E/M.Tech/M.Sc Students | Stipend ₹5,000/month | Advt DRDL/HRD/INTERNSHIP/2026/01 | Last Date 16 August 2026",
-    "d": "07-08-2026",
-    "l": "16-08-2026",
-    "a": "Advt No. DRDL/HRD/INTERNSHIP/2026/01",
-    "q": "Pursuing Final Year B.E/B.Tech OR Pursuing M.E/M.Tech / M.Sc (Physical Science/Maths) with Min 60%",
-    "desc": "Defence Research and Development Laboratory (DRDL), Hyderabad under DRDO invites applications for 165 Paid Internship slots across Electronics (58), Mechanical/Aerospace (87), CSE/IT/AI (15), and Mathematics (05). Duration: 6 months. Monthly Stipend: ₹5,000/- per month. Final year UG/PG engineering and science students under 28 years can email application forms by 16 August 2026 to drdlintern2026@gmail.com.",
-    "u": "https://www.drdo.gov.in"
-  },
-  {
-    "id": "aiims-raipur-senior-resident-recruitment-2026",
-    "b": "All India Institute of Medical Sciences (AIIMS), Raipur",
-    "t": "AIIMS Raipur Senior Resident Recruitment 2026 – Apply Online for 121 Senior Resident (Non-Academic) Posts | Pay Level-11 (₹67,700/month + NPA) | MD/MS/DNB/MDS/Diploma Eligible | Last Date 16 August 2026",
-    "d": "07-08-2026",
-    "l": "16-08-2026",
-    "a": "Ref No. 9/327/2026/Recruit./Reg./AIIMSRPR/2120 Dated 06.08.2026",
-    "q": "Postgraduate Medical Degree (MD / MS / DNB / Diploma / MDS) in Concerned Discipline",
-    "desc": "AIIMS Raipur invites online applications via Google Form for 121 Senior Resident (Non-Academic) Group A vacancies across 39 medical & surgical departments under Govt of India Residency Scheme. Pay Level-11 (₹67,700 + usual allowances & NPA). MD/MS/DNB/MDS candidates aged up to 45 years can apply online by 16 August 2026 on aiimsraipur.edu.in.",
-    "u": "https://www.aiimsraipur.edu.in"
-  },
-  {
-    "id": "jssc-jilcce-recruitment-2026",
-    "b": "Jharkhand Staff Selection Commission (JSSC)",
-    "t": "JSSC JILCCE 2026 – Apply Online for 326 Posts of Health Supervisor, Junior Regional Inspector, Multipurpose Health Worker & Veterinary Assistant | Advt 03/2026 | Last Date 19 August 2026",
-    "d": "07-08-2026",
-    "l": "19 August 2026 (Midnight)",
-    "a": "Advt No. 03/2026 (JILCCE-2026)",
-    "q": "10+2 (Intermediate) with Science / Math / Biology from Recognized Board",
-    "desc": "Jharkhand Staff Selection Commission (JSSC) invites online applications for 326 regular vacancies under Jharkhand Intermediate Level Combined Competitive Examination 2026 (JILCCE-2026). Posts include Health Supervisor, Junior Regional Inspector, Multipurpose Health Worker, Veterinary Assistant, Insect Collector, and Fisheries Technical Assistant. Apply online at jssc.jharkhand.gov.in.",
-    "u": "https://jssc.jharkhand.gov.in"
   },
   {
     "id": "hppsc-hp-police-constable-recruitment-2026",
@@ -837,28 +672,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iocl.com/apprenticeships"
   },
   {
-    "id": "dgft-mumbai-young-professional-recruitment-2026",
-    "b": "Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai (Ministry of Commerce)",
-    "t": "DGFT Mumbai Recruitment 2026 – Apply Online for 16 Young Professional (YP) Vacancies in Economics, Legal, Management & Data Science | Salary ₹60,000/pm | Last Date 18 August 2026",
-    "d": "03-08-2026",
-    "l": "18 August 2026",
-    "a": "Advt Dated 03.08.2026 (Ref 75/03/2025/HRD/Mumbai)",
-    "q": "Master Degree in Economics / LLM / LLB / MBA / B.Tech / BE / MCA / Data Science + 1 Yr Experience",
-    "desc": "Directorate General of Foreign Trade (DGFT), Zonal Office Mumbai invites online applications for 16 Young Professional (YP) positions on contract basis in Economics, Legal, General Management, and Data Science disciplines. Consolidated salary ₹60,000/- per month. Age below 35 years. Apply via Google Form and email by 18 August 2026.",
-    "u": "https://dgft.gov.in"
-  },
-  {
-    "id": "district-court-sbs-nagar-clerk-recruitment-2026",
-    "b": "Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Punjab)",
-    "t": "District Court SBS Nagar Recruitment 2026 – Apply Offline for 13 Adhoc Clerk Vacancies | Last Date 13 August 2026",
-    "d": "27-07-2026",
-    "l": "13-08-2026",
-    "a": "Public Appointment Notice / Endst. No. 5591/DSJ-6A",
-    "q": "Bachelor Degree (B.A. / B.Sc. or equivalent) + Passed Matriculation Punjabi + Computer Proficiency",
-    "desc": "Office of the District & Sessions Judge, Shaheed Bhagat Singh Nagar (Nawanshahr, Punjab) invites offline applications for 13 adhoc vacancies of Clerks in Pay Matrix Level-5 of 7th CPC. Candidates possessing B.A./B.Sc. degree with Matriculation Punjabi can apply offline by 13 August 2026 (5:00 PM).",
-    "u": "https://districts.ecourts.gov.in/nawanshahr"
-  },
-  {
     "id": "district-court-sonepur-clerk-typist-steno-recruitment-2026",
     "b": "Office of the District Judge, Sonepur (Subarnapur Judiciary, Odisha)",
     "t": "District Court Sonepur Recruitment 2026 – Apply Offline for 22 Vacancies of Junior Clerk, Junior Typist & Stenographer Grade-III | Last Date 31 August 2026",
@@ -868,39 +681,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "+3 Examination (Graduation) + Diploma in Computer Application (DCA) + Odia Pass (Zero Fee)",
     "desc": "Office of the District Judge, Sonepur (Subarnapur, Odisha) invites offline applications for 22 regular vacancies including Junior Clerk-cum-Copyist (15), Junior Typist (3), and Stenographer Grade-III (4). Pay Levels 4 & 7. Age 18 to 42 years. No application fee. Apply offline by Speed/Registered post by 31 August 2026.",
     "u": "https://sonepur.dcourts.gov.in"
-  },
-  {
-    "id": "district-court-balasore-clerk-typist-steno-recruitment-2026",
-    "b": "Office of the District Judge, Balasore (District Judiciary, Odisha)",
-    "t": "District Court Balasore Recruitment 2026 – Apply Offline for 48 Vacancies of Junior Clerk & Copyist, Stenographer Gr-III & Junior Typist | Last Date 07 August 2026",
-    "d": "07-07-2026",
-    "l": "07-08-2026",
-    "a": "ADVERTISEMENT NO.- 03 OF 2026 Dated 07.07.2026",
-    "q": "+3 Examination (Graduation) + Diploma in Computer Application (DCA) + Odia Language Pass (Zero Fee)",
-    "desc": "Office of the District Judge, Balasore (Odisha) invites offline applications for 48 regular vacancies including Junior Clerk & Copyist (32), Stenographer Grade-III (7), and Junior Typist (9). Pay Matrix Level-4 & Level-7. Age limit 18 to 42 years. Zero application fee. Apply offline via Speed Post / Registered Post by 07 August 2026.",
-    "u": "https://balasore.dcourts.gov.in"
-  },
-  {
-    "id": "district-court-cuttack-clerk-typist-salaried-amin-recruitment-2026",
-    "b": "Office of the District Judge, Cuttack (District Judiciary, Odisha)",
-    "t": "District Court Cuttack Recruitment 2026 – Apply Offline for 28 Vacancies of Junior Clerk-cum-Copyist, Junior Typist & Salaried Amin | Last Date 07 August 2026",
-    "d": "08-07-2026",
-    "l": "07-08-2026",
-    "a": "Advertisement Dated 08.07.2026 / Memo No. 5292(2)",
-    "q": "+3 Graduation + DCA (for Clerk/Typist) OR Matriculation + Revenue Inspector (RI) Training (for Salaried Amin)",
-    "desc": "Office of the District Judge, Cuttack (Odisha) invites offline applications for 28 regular vacancies of Junior Clerk-cum-Copyist (22), Junior Typist (3), and Salaried Amin (3). Pay Matrix Level-4 & Level-5. Age limit 18 to 42 years. Zero application fee. Apply offline via Speed/Registered post by 07 August 2026 (5:00 PM).",
-    "u": "https://cuttack.dcourts.gov.in"
-  },
-  {
-    "id": "iiser-pune-sports-coach-part-time-recruitment-2026",
-    "b": "Indian Institute of Science Education and Research (IISER) Pune",
-    "t": "IISER Pune Recruitment 2026 – Apply Online for 10 Part-Time Sports Coach Posts (Athletics, Badminton, Cricket, Football, Volleyball & others) | Last Date 18 August 2026",
-    "d": "04-08-2026",
-    "l": "18 August 2026",
-    "a": "ADVERTISEMENT No.: 62/2026 Dated 04-08-2026",
-    "q": "Certificate Course / Diploma from NIS in Coaching OR B.P. Ed. Degree + 2 Years Coaching Experience",
-    "desc": "Indian Institute of Science Education and Research (IISER) Pune invites online applications from Indian nationals for 10 contractual part-time Sports Coach posts in Athletics, Badminton, Basketball, Cricket, Football, Kabaddi, Kho-Kho, Lawn Tennis, Table Tennis, and Volleyball. Remuneration ₹825/- per 2.5 hr session. Upper age limit 55 years. Apply online by 18 August 2026.",
-    "u": "https://www.iiserpune.ac.in"
   },
   {
     "id": "aiims-bhubaneswar-group-a-b-c-deputation-recruitment-2026",
@@ -925,50 +705,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://jkssb.nic.in"
   },
   {
-    "id": "manuu-darbhanga-hostel-caretaker-electrician-plumber-recruitment-2026",
-    "b": "Maulana Azad National Urdu University (MANUU), Central University",
-    "t": "MANUU Darbhanga Recruitment 2026 – 10 Contractual Vacancies for Caretakers (Male/Female), Electrician & Plumber | Walk-in Interview on 11 August 2026",
-    "d": "03-08-2026",
-    "l": "11-08-2026",
-    "a": "Walk-in Notification for MANUU Off Campus Darbhanga",
-    "q": "Bachelor Degree (for Caretaker) / ITI in Electrician / ITI in Plumbing (NCVT Pass + Urdu Knowledge)",
-    "desc": "Maulana Azad National Urdu University (MANUU), a Central University under Ministry of Education, invites applications for Walk-in-Interview for 10 short-term contractual vacancies of Caretakers (Male & Female - 8 posts), Electrician (1 post), and Plumber (1 post) for Hostels at MANUU Off Campus Darbhanga (Bihar). Monthly salary ₹19,525/-. Walk-in interview on 11 August 2026 at MANUU Darbhanga.",
-    "u": "https://www.manuu.edu.in"
-  },
-  {
-    "id": "esic-pune-faculty-senior-resident-medical-officer-recruitment-2026",
-    "b": "Employees' State Insurance Corporation (ESIC) Medical College & Hospital, Pune",
-    "t": "ESIC Pune Recruitment 2026 – 38 Contractual Vacancies for Professor, Associate/Assistant Professor, Senior Resident & Medical Officers | Walk-in Interview 11-13 August 2026",
-    "d": "04-08-2026",
-    "l": "13-08-2026",
-    "a": "Advertisement No. 08 of 2026 (In Continuation of Advt 07/2026)",
-    "q": "MBBS / MD / MS / DNB / Diploma in relevant Medical Specialty + NMC / Maharashtra Medical Council Registration",
-    "desc": "ESIC Medical College & Hospital, Bibvewadi, Pune invites eligible doctors for Walk-in-Interview for 38 contractual vacancies of Professor (6), Associate Professor (11), Assistant Professor (7), Senior Resident 3-Yr (10), Senior Resident 1-Yr (1), and Medical Officers for DCBOs in Yavatmal, Gondia, Washim (3). Emoluments up to ₹2,57,000/- pm. Walk-in interviews from 11 to 13 August 2026 in Pune.",
-    "u": "https://bibvewadihospital.esic.gov.in"
-  },
-  {
-    "id": "esic-bikaner-specialist-senior-resident-recruitment-2026",
-    "b": "Employees' State Insurance Corporation (ESIC) Hospital, Bikaner",
-    "t": "ESIC Bikaner Recruitment 2026 – 16 Contractual Vacancies for Full Time Specialists, Senior Residents & GDMO Residents | Walk-in Interview on 20 August 2026",
-    "d": "03-08-2026",
-    "l": "20 August 2026",
-    "a": "FL.No. 155/A/ESICH-BKN/REC/ADMN/2023-1 Dated 03-08-2026",
-    "q": "MBBS Degree / PG Degree / Diploma / DNB in concerned Specialty + MCI / State Registration",
-    "desc": "ESIC Hospital Jaisalmer Road, Bikaner (Rajasthan) invites applications for Walk-in-Interview for 16 contractual medical posts including Full Time Specialists (6 posts), Senior Resident 3-Yr (5 posts), and Senior/Junior Residents against GDMO (5 posts). Monthly salary up to ₹1,21,408/-. Age limit up to 69 years. Walk-in-interview on 20 August 2026 in Bikaner.",
-    "u": "https://www.esic.gov.in"
-  },
-  {
-    "id": "ongc-medical-officers-specialist-recruitment-2026",
-    "b": "Oil and Natural Gas Corporation Ltd. (ONGC)",
-    "t": "ONGC Medical Officers & Specialist Recruitment 2026 – Apply Online for 24 Fixed Term Posts (MO-OH, Specialist & Homeopathy) | Last Date 18 August 2026",
-    "d": "05-08-2026",
-    "l": "18 August 2026 (23:59 Hours)",
-    "a": "Advt. No. 3/2026 (R&P)",
-    "q": "MBBS / MD / MS / DNB / PG Diploma / BHMS Degree + Valid MCI / NMC / NCH / State Registration",
-    "desc": "Oil and Natural Gas Corporation Ltd. (ONGC), a Maharatna PSE, invites online applications for engagement of 24 Medical Officers (Occupational Health), Specialists (Physician, Paediatrics, Surgery, Anaesthesia, Gynaecology), and Homeopathy Doctors on Fixed Term Basis till 30.06.2028 across 14 ONGC locations. Annual CTC up to ₹15,85,200/-. No upper age limit. Apply online at ongcindia.com by 18 August 2026.",
-    "u": "https://www.ongcindia.com"
-  },
-  {
     "id": "icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026",
     "b": "ICMR - National Institute of Health Research (ICMR-NIHR), Jodhpur",
     "t": "ICMR-NIHR Jodhpur Recruitment 2026 – Project Research Scientist-III/II, Administrative Officer & Field Officer | Walk-in-Interview 24 August 2026",
@@ -978,17 +714,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduate / Master Degree in Public Health / M.Sc Life Sciences / Ph.D / MPH / Pharm.D / M.Pharm",
     "desc": "ICMR National Institute of Health Research (NIHR), Jodhpur invites eligible candidates for Walk-in-Interview / Written Test for temporary project human resource positions (Project Research Scientist-III, Project Research Scientist-II, Administrative Officer, Field Officer) under HTAIn ADOPT Project. Monthly salary up to ₹78,000 + HRA. Walk-in-interview on 24 August 2026 in Jodhpur.",
     "u": "https://niirncd.icmr.org.in"
-  },
-  {
-    "id": "isro-icrb-assistants-jpa-udc-stenographer-recruitment-2026",
-    "b": "ISRO Centralised Recruitment Board (ICRB) / Department of Space",
-    "t": "ISRO ICRB Recruitment 2026 – 244 Vacancies for Assistant, Junior Personal Assistant (JPA), UDC & Stenographer | Apply Online by 16 August 2026",
-    "d": "27-07-2026",
-    "l": "16-08-2026",
-    "a": "Advt No. ISRO:ICRB:01(A-JPA):2026 dated 27-07-2026",
-    "q": "Graduation Degree with Min 60% Marks OR Diploma in Commercial/Secretarial Practice + Computer & Steno Proficiency",
-    "desc": "ISRO Centralised Recruitment Board (ICRB), Department of Space invites online applications for 244 vacancies of Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC), and Stenographers across ISRO Centres and Autonomous Bodies (Ahmedabad, Bengaluru, Hassan, Hyderabad, Sriharikota, Thiruvananthapuram, New Delhi). Level-4 Pay Matrix (Basic ₹25,500 + DA/HRA). Apply online at isro.gov.in by 16 August 2026.",
-    "u": "https://www.isro.gov.in"
   },
   {
     "id": "sidbi-specialist-officer-mira-recruitment-2026",
@@ -1021,17 +746,6 @@ export const JOBS_DATA: JobEntry[] = [
     "a": "Letter No. C-1021 / Dist.Prog.Off./ICDS-Selection/2026-27",
     "q": "Intermediate (12th Pass) (Only Female Candidates)",
     "desc": "District Programme Officer, Ambedkarnagar (ICDS), Uttar Pradesh invites online applications from eligible female candidates for 107 honorarium-based vacant posts (02 Anganwadi Karyakatri & 105 Sahayika Helper) across 10 Child Development Projects (Akbarpur, Tanda, Baskhari, Bhiti, Katehari, Jalalpur, Bhiyaon, Jahangirganj, Ramnagar, Shahar City). Minimum qualification is Intermediate (12th Pass). Selection will be strictly merit-based without any written exam or interview. Apply online at upanganwadibharti.in by 24 August 2026.",
-    "u": "https://upanganwadibharti.in/"
-  },
-  {
-    "id": "icds-up-kushinagar-anganwadi-karyakartri-recruitment-2026",
-    "b": "Child Development Services & Nutrition, District Kushinagar, Govt. of Uttar Pradesh",
-    "t": "ICDS UP Kushinagar Anganwadi Karyakartri Recruitment 2026 (Letter No. C-1627) – 245 Vacancies across 15 Projects | Apply Online by 19 August 2026",
-    "d": "29-07-2026",
-    "l": "19 August 2026 (up to 12:00 AM Midnight)",
-    "a": "Letter No. C-1627 / Dist. Programme Office / Child Dev. / Selection / 2026-27",
-    "q": "Intermediate (12th Pass) (Only Female Candidates)",
-    "desc": "District Programme Officer, Kushinagar, Child Development Services and Nutrition (ICDS), Uttar Pradesh invites online applications from eligible female candidates residing in the respective Gram Sabha/Ward for honorarium-based 245 posts of Anganwadi Karyakartri (Anganwadi Worker) across 15 Child Development Projects (Sewarhi, Shahar Padrauna, Vishunpura, Hata, Padrauna, Tamkuhiraj, Kaptanganj, Motichak, Khadda, Dudahi, Nebua Naurangia, Sukrauli, Fazilnagar, Ramkola, Kasya). Selection will be strictly merit-based up to Post-Graduate level qualification without any exam or interview.",
     "u": "https://upanganwadibharti.in/"
   },
   {
@@ -1068,39 +782,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.opsc.gov.in"
   },
   {
-    "id": "clw-chittaranjan-sports-quota-recruitment-2026",
-    "b": "Chittaranjan Locomotive Works (CLW), Indian Railways",
-    "t": "CLW Chittaranjan Sports Quota Recruitment 2026-27 (Advt GMA/Rectt.&MPP/Sports Quota) – 25 Vacancies in Level 1 to Level 5 | Apply Offline by 20 August 2026",
-    "d": "04-08-2026",
-    "l": "20.08.2026 (until 17:00 Hrs)",
-    "a": "Employment Notice No. GMA/Rectt.&MPP/Sports Quota/2026-2027",
-    "q": "10th Pass / ITI / NAC for Level-1 | 12th Pass or ITI for Level-2 | Any Graduation for Level-5/4 + Sports Achievements",
-    "desc": "Chittaranjan Locomotive Works (CLW), Indian Railways invites offline applications from eligible active sportspersons for 25 vacancies against Sports Quota (Open Advertisement & Talent Scouting) for 2026-27 across Level-5/4 (2 Posts), Level-2 (8 Posts), and Level-1 (15 Posts) in Archery, Badminton, Basketball, Golf, Football, Gymnastics, Swimming, and Shooting. Age 18 to 25 years. Apply offline with Demand Draft / IPO of ₹500 (₹250 for SC/ST/Women/EBC) by post to Dy.GM / Chief Personnel Officer CLW Chittaranjan, West Bengal by 20th August 2026 (17:00 Hrs).",
-    "u": "https://clw.indianrailways.gov.in"
-  },
-  {
-    "id": "igdtuw-delhi-teaching-faculty-recruitment-2026",
-    "b": "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
-    "t": "IGDTUW Delhi Teaching Faculty Recruitment 2026 (Advt 01/2026) – 36 Vacancies for Professor, Associate Professor & Assistant Professor | Apply Online by 21 August 2026",
-    "d": "04-08-2026",
-    "l": "21.08.2026 (until 23:59 Hrs)",
-    "a": "RECRUITMENT NOTICE No. 01/2026",
-    "q": "Ph.D / Master's / B.E / B.Tech / B.Arch / M.Arch / M.Plan (UGC/AICTE/COA norms)",
-    "desc": "Indira Gandhi Delhi Technical University for Women (IGDTUW), Kashmere Gate, Delhi invites online applications for 36 Group-A regular teaching positions of Professor (10, Level-14: ₹1,44,200-2,18,200), Associate Professor (14, Level-13A1: ₹1,31,400-2,17,100), and Assistant Professor (12, Level-10: ₹57,700-1,82,400) across CSE, IT, ECE, MAE, Architecture, Chemistry, Mathematics, and English. Apply online at www.igdtuw.ac.in by 21st August 2026 (23:59 Hrs) and submit printout with documents to Registrar IGDTUW Delhi by 28th August 2026 (4:30 PM).",
-    "u": "https://www.igdtuw.ac.in"
-  },
-  {
-    "id": "dnhdd-samagra-shiksha-tgt-pgt-recruitment-2026",
-    "b": "Directorate of Education, Samagra Shiksha, UT of Dadra & Nagar Haveli and Daman & Diu",
-    "t": "UT of DNH & DD Samagra Shiksha Recruitment 2026 – 37 Vacancies for TGT & PGT Teachers | Walk-in Interview on 10 August 2026",
-    "d": "04-08-2026",
-    "l": "10-08-2026",
-    "a": "No. DOE/DNHDD/SS/REC.TGTs_PGTs_Non-Teaching/2025/5430 Dated 03.08.2026",
-    "q": "Graduation (50%) + B.Ed for TGT | Post Graduation (50%) + B.Ed for PGT (Medium specific, Max Age 30 Yrs)",
-    "desc": "Directorate of Education, UT Administration of Dadra & Nagar Haveli and Daman & Diu under Samagra Shiksha invites eligible candidates for Walk-in-Interview on 10.08.2026 (Monday) at 09:30 AM for 37 Trained Graduate Teacher (TGT - 9 Posts, ₹27,000/- pm) and Post Graduate Teacher (PGT - 28 Posts, ₹29,000/- pm) positions on Short Term Contract (STC) basis for Govt schools in DNH and Daman districts. Walk-in interview venue: Shiksha Sadan, Moti Daman.",
-    "u": "https://www.ddd.gov.in"
-  },
-  {
     "id": "wcd-haryana-female-supervisor-recruitment-2026",
     "b": "Women and Child Development Department (WCD), Govt of Haryana",
     "t": "WCD Haryana Female Supervisor Recruitment 2026 – 108 Vacancies on Deputation / Transfer Basis | Apply Offline by 03 September 2026",
@@ -1134,17 +815,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.niscpr.res.in"
   },
   {
-    "id": "cutn-guest-faculty-recruitment-2026",
-    "b": "Central University of Tamil Nadu (CUTN), Thiruvarur",
-    "t": "CUTN Guest Faculty Recruitment 2026 (Advt CUTN/GF/01/2026) – 29 Vacancies across 12 Departments | Apply via Email by 07 August 2026",
-    "d": "04-08-2026",
-    "l": "07-08-2026",
-    "a": "CUTN/GF/01/2026 Dated 31.07.2026",
-    "q": "Master's Degree (55%) in relevant subject + NET/CSIR-NET or Ph.D (UGC Regulations 2018)",
-    "desc": "Central University of Tamil Nadu (CUTN), Thiruvarur invites email applications for 29 Guest Faculty positions across 12 departments including Hindi, English, CS, Maths, Geography, Media, Management, Tourism, Chemistry, Social Work, Biotech, and Sanskrit. Honorarium ₹1,500 per lecture up to ₹50,000 per month. Email filled application form with documents to recruitmentteaching@cutn.ac.in on or before 07th August 2026.",
-    "u": "https://cutn.ac.in"
-  },
-  {
     "id": "ncra-tifr-pune-staff-trainee-recruitment-2026",
     "b": "National Centre for Radio Astrophysics (NCRA-TIFR), Pune",
     "t": "NCRA-TIFR Pune Recruitment 2026 (Advt 2026/09) – 22 Vacancies for Project Admin, Technical Assistant, Engineer Trainee, Library & Tradesman Trainees | Apply Online by 31 August 2026",
@@ -1156,17 +826,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://tinyurl.com/ncrajob-2026"
   },
   {
-    "id": "echs-panaji-sindhudurg-staff-recruitment-2026",
-    "b": "Ex-Servicemen Contributory Health Scheme (ECHS), Station HQ Panaji",
-    "t": "ECHS Panaji & Sindhudurg Staff Recruitment 2026 – 11 Vacancies for Officer in Charge, Dental Officer, Pharmacist, Nursing Asst, Driver & Support Staff | Apply Offline by 20 August 2026",
-    "d": "04-08-2026",
-    "l": "20.08.2026 (by 14:00 hrs)",
-    "a": "Employment Notice Stn HQ (ECHS Cell) Panaji Dated 04.08.2026",
-    "q": "BDS / B.Pharm / GNM Diploma / Graduation / 8th Pass / Literate + Relevant Experience",
-    "desc": "Station HQ (ECHS Cell) Panaji, Ministry of Defence, Government of India invites offline applications for engagement of 11 Medical, Para Medical, and Non-Medical staff on contractual basis at ECHS Polyclinics in Panaji (Goa) and Sindhudurg (Maharashtra). Posts include Officer in Charge (₹95,000/pm), Dental Officer (₹95,000/pm), Pharmacist (₹36,500/pm), Nursing Assistant (₹36,500/pm), Ambulance Driver (₹25,600/pm), Female Attendant, and Safaiwala (₹21,800/pm). Preference to Ex-Servicemen. Submit offline application to Stn HQ ECHS Cell Panaji by 20th August 2026 (2:00 PM). Interview on 27th August 2026.",
-    "u": "https://www.echs.gov.in"
-  },
-  {
     "id": "hpjsv-sunni-para-worker-recruitment-2026",
     "b": "Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division Sunni, Distt. Shimla",
     "t": "HPJSV Sunni Para Worker Recruitment 2026 (Advt No. 5142-51) – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Workers | Apply Offline by 29 August 2026",
@@ -1176,17 +835,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "8th Pass (MPW) / 10th Pass + ITI in Fitter, Plumber, Electrician, Pump Mechanic, Wireman (Age 18-45 Yrs) + Bonafide Himachali",
     "desc": "Executive Engineer, Jal Shakti Division Sunni, District Shimla, Himachal Pradesh invites offline applications from Bonafide Himachali candidates for recruitment to 40 Para Worker posts on honorarium basis. Posts include 12 Para Pump Operators (₹7,100/pm), 3 Para Fitters (₹7,100/pm), and 25 Multipurpose Workers (₹6,000/pm). Apply offline by submitting prescribed application form with documents to Executive Engineer office Sunni between 05.08.2026 and 29.08.2026 (5:00 PM).",
     "u": "http://www.hpiph.org"
-  },
-  {
-    "id": "esic-ludhiana-faculty-senior-resident-tutor-2026",
-    "b": "ESIC Medical College & Hospital, Ludhiana (Punjab)",
-    "t": "ESIC Ludhiana Teaching Faculty & Senior Resident Recruitment 2026 (Advt Z/121/2023-MED ADMN) – 102 Vacancies (Walk-in Interview on 12 August 2026) | Email Documents by 08 August 2026",
-    "d": "04-08-2026",
-    "l": "12-08-2026",
-    "a": "No. Z/121/2023-MED ADMN-Part(1) Dated 31.07.2026",
-    "q": "MBBS / MD / MS / DNB / DM / M.Ch in relevant specialty (NMC registered) | Max Age 45-69 Yrs",
-    "desc": "ESIC Medical College & Hospital Ludhiana (Punjab) invites eligible medical professionals for offline Walk-in Interview on 12th August 2026 for recruitment to 102 contractual posts of Teaching Faculty (Professor, Associate & Assistant Professor), Senior Resident (3 Year & 1 Year GDMO), and Tutor across various clinical and pre-clinical departments. Consolidated gross pay up to ₹2.5 Lakh per month. Email advance scanned application with supporting documents to dean-ludhiana.pb@esic.gov.in by 08 August 2026.",
-    "u": "https://www.esic.gov.in"
   },
   {
     "id": "aai-western-region-apprentice-recruitment-2026",
@@ -1233,17 +881,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "http://jkpsc.nic.in"
   },
   {
-    "id": "aiims-bathinda-faculty-recruitment-2026",
-    "b": "All India Institute of Medical Sciences (AIIMS), Bathinda",
-    "t": "AIIMS Bathinda Faculty Recruitment 2026 (Advt AIIMS/BTI/RC/Faculty/2026/2373) – 77 Vacancies for Professor, Additional, Associate & Assistant Professor (Pay Level-12 to 14A) | Apply by 21 August 2026",
-    "d": "03-08-2026",
-    "l": "21 August 2026 (05:00 PM IST)",
-    "a": "Advt No. AIIMS/BTI/RC/Faculty/2026/2373 Dated 31.07.2026",
-    "q": "MD/MS/DM/M.Ch / DNB / Ph.D in concerned specialty + Teaching & Research Experience (Age Max 50-58 Yrs)",
-    "desc": "All India Institute of Medical Sciences (AIIMS), Bathinda invites offline & online Google Form applications for recruitment to 77 Faculty positions (Professor, Additional Professor, Associate Professor, Assistant Professor) on Direct Recruitment Basis. Pay Level 12 to Level 14-A (Rs 1,01,500 - 2,20,400 + NPA). Online Google Form submit by 21.08.2026 & Hard Copy receipt by 28.08.2026.",
-    "u": "https://www.aiimsbathinda.edu.in"
-  },
-  {
     "id": "apsc-veterinary-officer-recruitment-2026",
     "b": "Assam Public Service Commission (APSC), Guwahati",
     "t": "APSC Veterinary Officer Recruitment 2026 (Advt No. 11/2026) – 137 Vacancies under Animal Husbandry & Veterinary Dept (Pay Scale ₹30,000-1,10,000 + GP ₹12,700) | Apply Online at apscrecruitment.in by 06 September 2026",
@@ -1255,17 +892,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://apscrecruitment.in"
   },
   {
-    "id": "mecl-executive-trainee-upsc-ese-recruitment-2026",
-    "b": "Mineral Exploration and Consultancy Limited (MECL), Nagpur",
-    "t": "MECL Executive Trainee Recruitment 2026 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers through UPSC ESE 2024 Score (Pay Scale ₹40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026",
-    "d": "03-08-2026",
-    "l": "14-08-2026",
-    "a": "Advertisement No. 02/Rectt./2026",
-    "q": "B.E./B.Tech (Electrical / Mechanical 60% Marks) + Appeared in UPSC ESE 2024 Interview (Age Max 28 Yrs, Fee ₹500)",
-    "desc": "Mineral Exploration and Consultancy Limited (MECL), a Mini-Ratna-I CPSE under Ministry of Mines, invites online applications for recruitment of 13 Executive Trainees (Mechanical & Electrical) in E-1 Grade. Shortlisting based on UPSC ESE 2024 Marks (out of 1200). Pay Scale: Rs. 40,000 - 1,40,000. Apply online at mecl.co.in from 01.08.2026 to 14.08.2026.",
-    "u": "https://www.mecl.co.in"
-  },
-  {
     "id": "jkpsc-assistant-professor-recruitment-2026",
     "b": "Jammu and Kashmir Public Service Commission (JKPSC), J&K",
     "t": "JKPSC Assistant Professor & Librarian Recruitment 2026 (Notification 05-PSC of 2026) – 205 Vacancies in Govt Degree Colleges (Pay Level-10 ₹57,700-1,82,400) | Apply Online at jkpsc.nic.in by 31 August 2026",
@@ -1275,105 +901,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Master Degree (55% Marks) + NET/SLET/SET OR Ph.D in relevant discipline (J&K Domicile Mandatory, Age Max 40-43 Yrs)",
     "desc": "Jammu and Kashmir Public Service Commission (JKPSC) invites online applications from J&K domiciles for recruitment to 205 posts of Assistant Professor, College Director of Physical Education & Sports, and Librarian in Higher Education Department Govt Degree Colleges. Pay Scale: Level-10 (Rs. 57,700 - 1,82,400). Apply online at jkpsc.nic.in from 01.08.2026 to 31.08.2026.",
     "u": "https://jkpsc.nic.in"
-  },
-  {
-    "id": "amtron-assam-unified-portal-recruitment-2026",
-    "b": "Assam Electronics Development Corporation Ltd. (AMTRON), Guwahati",
-    "t": "AMTRON Assam Recruitment 2026 (Advt AEDC/HRD/AUP/672) – 15 IT Vacancies for Developers, DBA, Content Manager & Graphic Designer (Salary up to ₹90,000/pm) | Apply Online at recruitment.amtron.in by 12 August 2026",
-    "d": "03-08-2026",
-    "l": "12-08-2026",
-    "a": "Advt. No. AEDC/HRD/AUP/Adv./672 Dated 24-07-2026",
-    "q": "BE/B.Tech (CS/IT) / MCA / M.Sc (IT) / BCA / Graduate / Diploma + 3 Yrs Exp (No Application Fee, Age 21-38 Yrs)",
-    "desc": "Assam Electronics Development Corporation Limited (AMTRON) invites online applications for contractual engagement of 15 IT & Content Personnel under the Assam Unified Portal (AUP) Project. Posts: Frontend Developer, Backend Developer, Drupal Headless CMS Developer, Database Administrator, Content Manager & Graphic Designer. Salary: Rs. 35,000 to Rs. 90,000/pm. No application fee. Apply online at recruitment.amtron.in by 12 August 2026.",
-    "u": "https://recruitment.amtron.in"
-  },
-  {
-    "id": "gsssb-horticulture-assistant-recruitment-2026",
-    "b": "Gujarat Subordinate Service Selection Board (GSSSB), Gujarat",
-    "t": "GSSSB Horticulture Assistant Recruitment 2026 (Advt 454/2026-27) – 100 Vacancies in Agriculture & Farmers Welfare Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 17 August 2026",
-    "d": "03-08-2026",
-    "l": "17-08-2026 (23:59 Hrs)",
-    "a": "Advt. No. 454/2026-27 Dated 03-08-2026",
-    "q": "Diploma in Horticulture from Agricultural University Polytechnic + Computer Knowledge (Age 18-33 Yrs)",
-    "desc": "Gujarat Subordinate Service Selection Board (GSSSB) invites online applications for direct recruitment to 100 posts of Horticulture Assistant, Class-III in the Agriculture, Farmers Welfare and Co-operation Department, Govt of Gujarat. Qualification: Diploma in Horticulture with basic computer knowledge. Fixed Pay: Rs. 26,000/pm for first 5 years. Apply online via OJAS portal from 03.08.2026 to 17.08.2026.",
-    "u": "https://ojas.gujarat.gov.in"
-  },
-  {
-    "id": "gsssb-multipurpose-health-supervisor-recruitment-2026",
-    "b": "Gujarat Subordinate Service Selection Board (GSSSB), Gujarat",
-    "t": "GSSSB Multi-Purpose Health Supervisor Recruitment 2026 (Advt 452/2026-27) – 119 Vacancies in Health Dept (Pay ₹26,000/pm) | Apply Online at ojas.gujarat.gov.in by 15 August 2026",
-    "d": "03-08-2026",
-    "l": "15-08-2026 (23:59 Hrs)",
-    "a": "Advt. No. 452/2026-27 Dated 01-08-2026",
-    "q": "1-Yr MPHW Course / Sanitary Inspector Diploma / Health Sanitary Inspector ITI + Computer Knowledge (Male Only, Age 18-33 Yrs)",
-    "desc": "Gujarat Subordinate Service Selection Board (GSSSB) invites online applications from eligible male candidates for direct recruitment to 119 posts of Multi-Purpose Health Supervisor, Class-III in the Health & Family Welfare Department, Govt of Gujarat. Qualification: 1-Year MPHW or Sanitary Inspector Diploma/ITI course with basic computer knowledge. Fixed Pay: Rs. 26,000/pm for first 5 years. Apply online via OJAS portal from 01.08.2026 to 15.08.2026.",
-    "u": "https://ojas.gujarat.gov.in"
-  },
-  {
-    "id": "du-professor-associate-professor-recruitment-2026",
-    "b": "University of Delhi (DU), Delhi",
-    "t": "DU Professor & Associate Professor Recruitment 2026 (Advt 321/2026 & 322/2026) – 86 Teaching Vacancies in 9 Departments (Pay Level 13A & 14) | Apply Online at du.ac.in by 20 August 2026",
-    "d": "03-08-2026",
-    "l": "20 August 2026 (or 2 weeks from Employment News pub)",
-    "a": "Advt. No. R&P/322/2026 & R&P/321/2026 Dated 31.07.2026",
-    "q": "Ph.D. Degree in Relevant Subject + 8/10 Yrs Teaching/Research Experience + Research Score 75/120",
-    "desc": "University of Delhi (DU) invites online applications for appointment to 86 teaching faculty positions — 30 Professors (Pay Level 14) and 56 Associate Professors (Pay Level 13A) across 9 Departments: Chemistry, Environmental Studies, Genetics, Geology, Hindi, Linguistics, Operational Research, Philosophy, and Zoology. Qualification: Ph.D. with minimum 8/10 years teaching/research experience and required research publications score. Apply online at du.ac.in by 20 August 2026.",
-    "u": "https://www.du.ac.in"
-  },
-  {
-    "id": "telangana-karimnagar-anganwadi-teacher-recruitment-2026",
-    "b": "Department of Women & Child Development (WDCW), Karimnagar District, Telangana",
-    "t": "Telangana Karimnagar Anganwadi Teacher Recruitment 2026 – 60 Vacancies for 12th Pass Women | Apply Online at wdcw.tg.nic.in by 15 August 2026",
-    "d": "03-08-2026",
-    "l": "15-08-2026 (5:00 PM)",
-    "a": "Notification No. A/1124/2026-27 Dated 31-07-2026",
-    "q": "Intermediate (12th Class) Pass | Local Resident Women Candidates Only (Age 18-35 Yrs)",
-    "desc": "Department of Women, Children, Disabled and Senior Citizens, Karimnagar District, Government of Telangana, invites online applications from eligible local women candidates for 60 Anganwadi Teacher posts across Gangadhara (20), Huzurabad (16), Karimnagar Rural (16), and Karimnagar Urban (8) ICDS projects. Qualification: 12th Pass. Selection based on Intermediate marks merit (70 marks), special weightage (widow/orphan/PWD), and interview (10 marks). Apply online at wdcw.tg.nic.in from 01.08.2026 to 15.08.2026 (5:00 PM).",
-    "u": "https://wdcw.tg.nic.in"
-  },
-  {
-    "id": "mssc-manipur-special-primary-teacher-recruitment-2026",
-    "b": "Manipur Staff Selection Commission (MSSC), Govt of Manipur",
-    "t": "MSSC Manipur Special Primary Teacher Recruitment 2026 (Advt 02/2026) – 80 Vacancies in Education (S) Dept (Pay Level 6) | Apply Online at manipurssc.mn.gov.in by 20 August 2026",
-    "d": "03-08-2026",
-    "l": "20-08-2026 (5:00 PM)",
-    "a": "Advt. No. 02/2026 (File No. MS-SSC/1/2026-MSSC-MSSC)",
-    "q": "10+2 (12th) with 50% Marks + D.Ed / D.El.Ed in Special Education with RCI CRR + Passed TET-1 (Age 18-38 Yrs)",
-    "desc": "Manipur Staff Selection Commission (MSSC) invites online applications from Employment Exchange sponsored candidates of Manipur for 80 regular posts of Special Primary Teacher in Education (S) Department. Pay Level 6 (Group-C Non-Gazetted). Qualification: 12th with 50% marks + D.Ed / D.El.Ed in Special Education (RCI CRR Number) + Passed TET-1. Selection through 100-mark CBT (GK, Maths, English). Application fee Rs. 400/- (SC/ST Rs. 200/-, PwD Exempted). Apply online at manipurssc.mn.gov.in from 31.07.2026 to 20.08.2026.",
-    "u": "https://manipurssc.mn.gov.in"
-  },
-  {
-    "id": "hp-jal-shakti-vibhag-kasumpti-shimla-recruitment-2026",
-    "b": "Himachal Pradesh Jal Shakti Vibhag (HPJSV), Division No-1 Kasumpti Shimla",
-    "t": "HP Jal Shakti Vibhag Shimla Recruitment 2026 – 40 Vacancies for Para Pump Operator, Para Fitter & Multipurpose Worker (Honorarium up to Rs. 7,100/PM) | Apply Offline by 20 August 2026",
-    "d": "03-08-2026",
-    "l": "20 August 2026 (up to 5:00 PM)",
-    "a": "Notice No. JSV-EA-III-Para Pump Operator/2026-13283-86",
-    "q": "8th Pass / 10th Pass with ITI in Electrician, Wireman, Fitter, Plumber, Motor/Diesel Mechanic (Age 18-45 Yrs)",
-    "desc": "Office of Executive Engineer, Jal Shakti Division No-1 Kasumpti Shimla-171009, HP Jal Shakti Vibhag, invites offline application forms for 40 vacancies of Para Pump Operator (12), Para Fitter (3), and Multipurpose Worker (25) on honorarium basis. Monthly Honorarium: Rs 7,100/PM for Para PO/Fitter and Rs 6,000/PM for Multipurpose Worker. Selection based on academic marks, experience, BPL status, skill test, and physical test. Submit offline form by 20 August 2026 upto 5:00 PM.",
-    "u": "https://hpjalshakti.gov.in"
-  },
-  {
-    "id": "sddmasc-delhi-junior-resident-walk-in-recruitment-2026",
-    "b": "Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Govt of NCT of Delhi",
-    "t": "SDDMASC Delhi Junior Resident (JR) Recruitment 2026 – 12 Vacancies for MBBS Doctors (Pay Level 10 Basic Rs. 56,100) | Walk-in Interview on 07 August 2026",
-    "d": "03-08-2026",
-    "l": "07-08-2026 (Walk-in Interview)",
-    "a": "Notice F.2 (14)/751/Rectt/JR/WII/vol.X/SDDMASC/2024/2612",
-    "q": "MBBS Degree from MCI Recognized Institute + Rotatory Internship / FMG Exam + DMC Registration (Age Max 30 Yrs)",
-    "desc": "Office of Medical Superintendent, Govt of NCT of Delhi, Shri Dada Dev Matri Avum Shishu Chikitsalaya (SDDMASC), Dabri, New Delhi, invites applications for Walk-in-Interview for 12 vacant posts of Junior Residents (JR) Doctors on Adhoc basis. Pay Level 10 (Basic Rs. 56,100/- + allowances). Registration on 07 August 2026 from 9:00 AM to 11:30 AM at Room No. 201, 2nd Floor, Administrative Block, SDDMASC. Zero application fee.",
-    "u": "https://health.delhi.gov.in"
-  },
-  {
-    "id": "mecl-executive-trainee-electrical-mechanical-recruitment-2026",
-    "b": "Mineral Exploration and Consultancy Limited (MECL), Ministry of Mines",
-    "t": "MECL Executive Trainee Recruitment 2026 via UPSC ESE 2024 (Advt 02/Rectt./2026) – 13 Vacancies for Mechanical & Electrical Engineers (E-1 Grade Pay Rs. 40,000-1,40,000) | Apply Online at mecl.co.in by 14 August 2026",
-    "d": "03-08-2026",
-    "l": "14-08-2026",
-    "a": "Advertisement No. 02/Rectt./2026 (File No. RECTR/34/2026-HR-MECL)",
-    "q": "BE / B.Tech in Mechanical / Electrical Engineering with 60% Marks + Qualified UPSC ESE 2024 Written & Interview (Age Max 28 Yrs)",
-    "desc": "Mineral Exploration and Consultancy Limited (MECL), a Miniratna-I CPSE under Ministry of Mines, Govt of India, invites online applications for 13 Executive Trainee (ET) posts in Mechanical (12) and Electrical (01) disciplines through UPSC Engineering Services Examination 2024 (UPSC ESE 2024) score. Pay scale E-1 Grade Rs. 40,000 - 1,40,000/-. Direct selection based on UPSC ESE 2024 marks (out of 1200); no separate written exam or interview. Application fee Rs. 500/- (SC/ST/PwD/Ex-SM Exempted). Apply online at www.mecl.co.in from 01.08.2026 to 14.08.2026.",
-    "u": "https://www.mecl.co.in"
   },
   {
     "id": "stpi-chief-administrative-officer-registrar-recruitment-2026",
@@ -1409,17 +936,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.jkssb.nic.in"
   },
   {
-    "id": "ibps-crp-csa-xvi-clerk-customer-service-associate-recruitment-2026",
-    "b": "Institute of Banking Personnel Selection (IBPS) & 11 Public Sector Banks",
-    "t": "IBPS Clerk Recruitment 2026 (CRP CSA-XVI) – State-wise Vacancies for Customer Service Associates (CSA) in 11 Public Sector Banks | Apply Online at ibps.in by 21 August 2026",
-    "d": "01-08-2026",
-    "l": "21-08-2026",
-    "a": "Notification CRP CSA-XVI (Common Recruitment Process 2027-28)",
-    "q": "Graduation in any discipline + Computer Knowledge + Local Language Proficiency (Age 20 - 28 Yrs)",
-    "desc": "Institute of Banking Personnel Selection (IBPS) invites online applications for Common Recruitment Process (CRP CSA-XVI) for recruitment of Customer Service Associates (CSA / Clerical Cadre) in 11 Participating Public Sector Banks (PNB, Canara Bank, Bank of Baroda, Bank of India, Central Bank of India, Indian Bank, UCO Bank, Union Bank, etc.). Thousands of vacancies advertised across all 36 States/UTs. Pay Scale Rs. 24,050 - 64,480/- plus allowances. Selection via Prelims Exam (Oct 2026) and Mains Exam (Dec 2026). Fee Rs. 850 (Rs. 175 for SC/ST/PwBD/ESM). Apply online at www.ibps.in from 01.08.2026 to 21.08.2026.",
-    "u": "https://www.ibps.in"
-  },
-  {
     "id": "rcf-ltd-management-trainee-recruitment-2026",
     "b": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), Chembur, Mumbai",
     "t": "RCF Ltd Management Trainee Recruitment 2026 (Advt 16022026) – 94 Vacancies for MT Chemical, Mechanical, Electrical, Instrumentation, IT, Finance, Marketing & Civil | Apply Online at rcfltd.com from 08 to 24 August 2026",
@@ -1429,17 +945,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "BE / B.Tech Engineering Degree / CA / CMA / MBA / MSc / PhD in relevant discipline (Age Max 27 - 32 Yrs)",
     "desc": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), a Navratna Central Public Sector Undertaking, invites online applications for 94 Management Trainee (MT) posts across Chemical (32), Mechanical (04), Electrical (10), Instrumentation (09), IT (05), Finance (10), Marketing (10), Boiler (06), Civil, Fire, Industrial Engg, Rajbhasha & CC Lab. Monthly stipend during 1-yr training Rs. 60,000/-; on absorption E-1 Grade pay scale Rs. 40,000 - 1,40,000/- (Gross Rs. 86,320/pm). Selection via Online Test & Interview. Fee Rs. 1000 (SC/ST/PwBD/ExSM/Female Exempted). Apply online at www.rcfltd.com from 08.08.2026 to 24.08.2026.",
     "u": "https://www.rcfltd.com"
-  },
-  {
-    "id": "isro-nrsc-research-scientist-jrf-project-associate-recruitment-2026",
-    "b": "National Remote Sensing Centre (NRSC), ISRO, Dept of Space, Govt of India, Hyderabad",
-    "t": "ISRO NRSC Recruitment 2026 (Advt NRSC/RMT/1/2026) – 48 Vacancies for Research Scientist, Junior Research Fellow (JRF), Project Associate & Project Scientist | Apply Online at nrsc.gov.in by 21 August 2026",
-    "d": "01-08-2026",
-    "l": "21-08-2026 up to 05:00 PM IST",
-    "a": "Advt. No. NRSC/RMT/1/2026 Dated 01/08/2026",
-    "q": "BE / B.Tech / ME / M.Tech / M.Sc in CSE, IT, Civil, Remote Sensing, GIS, Physics, Geology, Agriculture (Age Max 28 - 35 Yrs)",
-    "desc": "National Remote Sensing Centre (NRSC), one of the primary centres of Indian Space Research Organisation (ISRO), invites online applications for 48 temporary research positions including Research Scientist (14), Junior Research Fellow / JRF (19), Project Associate I & II (05), and Project Scientist B & I (10). Emoluments range from Rs. 31,000/- up to Rs. 56,100/- per month plus HRA & DA. Application fee Rs. 250 (100% refundable for Women/SC/ST/PwBD/ExSM upon participating in selection). Apply online at www.nrsc.gov.in from 01.08.2026 to 21.08.2026.",
-    "u": "https://www.nrsc.gov.in"
   },
   {
     "id": "krcl-konkan-railway-je-sse-station-master-alp-track-maintainer-recruitment-2026",
@@ -1486,17 +991,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.saha.ac.in"
   },
   {
-    "id": "sri-jayadeva-institute-assistant-professor-recruitment-2026",
-    "b": "Sri Jayadeva Institute of Cardiovascular Sciences & Research (SJICR), Bengaluru, Govt of Karnataka",
-    "t": "Sri Jayadeva Institute Recruitment 2026 – 34 Assistant Professor Vacancies in Cardiology, CT Surgery, Electrophysiology, Anaesthesia & Vascular Surgery (Bangalore & Kalaburagi Branches) | Apply Offline by 11 August 2026",
-    "d": "28-07-2026",
-    "l": "11-08-2026 (Offline Application with DD/IPO)",
-    "a": "Ref No. SJICR/EST(1)/68/2026-27 Dated 28/07/2026",
-    "q": "DM / M.Ch / DrNB / DNB in relevant Specialty + BCBR Course (Age up to 40 - 45 Yrs)",
-    "desc": "Sri Jayadeva Institute of Cardiovascular Sciences & Research (SJICR), Bengaluru invites offline applications from eligible candidates for 34 Assistant Professor posts across Cardiology, C.T. Surgery, Electrophysiology, Cardiac Anaesthesia, and Vascular Surgery for its Bangalore and Kalaburagi branches. Pay scale Rs. 79,800 - 2,11,500. Submit prescribed application form with Demand Draft or Indian Postal Order (Rs. 4000 GM/OBC / Rs. 2500 SC/ST) to Director SJICR Bangalore by 11.08.2026.",
-    "u": "https://www.jayadevacardiology.com"
-  },
-  {
     "id": "punjab-school-education-pti-recruitment-2026",
     "b": "Directorate of Education Recruitment (Sikhiya Bharti Directorate), Punjab (Sector-60, SAS Nagar Mohali)",
     "t": "Punjab Education Department Recruitment 2026 – 2000 Vacancies for Physical Training Instructor (PTI) Primary Cadre (General: 780, EWS: 200, SC: 400, BC: 200, ESM/Sports/PwD/FF) | Apply Online at erd.punjab.gov.in from 01 to 31 August 2026",
@@ -1506,39 +1000,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10+2 (Senior Secondary) + 2-Year Diploma/Certificate in Physical Education (D.P.Ed / C.P.Ed) | Mandatory 10th Punjabi + Punjabi Qualifying Test 50% Marks (Age 18 to 37 Yrs)",
     "desc": "Education Recruitment Directorate, Punjab invites online applications for 2000 fresh vacancies of Physical Training Instructor (PTI) (Primary Cadre) under School Education Department, Punjab. Candidates passing 10+2 with D.P.Ed/C.P.Ed and Matriculation Punjabi can apply online at erd.punjab.gov.in between 01/08/2026 and 31/08/2026. Selection via 70 Marks Written Test + 30 Marks Sports Achievement Gradation + Qualifying Physical Test (PET). Fixed initial salary Rs. 29,200/pm.",
     "u": "https://erd.punjab.gov.in"
-  },
-  {
-    "id": "cims-chamarajanagar-medical-faculty-cmo-recruitment-2026",
-    "b": "Chamarajanagar Institute of Medical Sciences (CIMS), Chamarajanagar, Govt of Karnataka",
-    "t": "CIMS Chamarajanagar Recruitment 2026 – 49 Regular Faculty & Medical Officer Vacancies for Professor (01), Associate Professor (06), Assistant Professor (40) & Casualty Medical Officer (02) | Apply Offline by 14 August 2026",
-    "d": "27-07-2026",
-    "l": "14-08-2026 (up to 5:00 PM via Registered Post / In Person)",
-    "a": "Ref No. CIMS/EST/T.Staff/RPC/12/2026-27 Dated 27.07.2026",
-    "q": "MD / MS / DNB / DrNB / MDS / M.Sc Ph.D (as per NMC) | MBBS for Casualty Medical Officer (Age up to 35-47 Yrs)",
-    "desc": "Chamarajanagar Institute of Medical Sciences (CIMS) invites offline applications on regular basis for 49 teaching and medical officer posts (Professor: 1, Associate Professor: 6, Assistant Professor: 40, Casualty Medical Officer: 2) across RPC & 371J Kalyan Karnataka cadres. Apply offline in prescribed form with Demand Draft of Rs. 4000 to Director CIMS Chamarajanagar by 14.08.2026 (5:00 PM). Selection based on 90% credentials merit + 10% interview score.",
-    "u": "https://cimscrnagara.karnataka.gov.in"
-  },
-  {
-    "id": "thane-municipal-corporation-health-department-recruitment-2026",
-    "b": "Thane Municipal Corporation (TMC), Public Health Department, Govt of Maharashtra",
-    "t": "Thane Municipal Corporation Recruitment 2026 – 61 Vacancies under 15th Finance Commission for GNM Female (28), GNM Male (03) & Multi-Purpose Worker MPW Male (30) | Apply Online (Google Form)",
-    "d": "29-07-2026",
-    "l": "07-08-2026 (up to 2:00 PM via Google Form & Hardcopy/DD Submission)",
-    "a": "Public Health Dept Advertisement Dated 29/07/2026 (15th Finance Commission)",
-    "q": "B.Sc Nursing / GNM + MNC Registration | 12th Science + Paramedical Basic Training / Sanitary Inspector Course (Age 18 to 38 / 65 Yrs)",
-    "desc": "Thane Municipal Corporation (TMC) Public Health Department invites online applications via Google Form for 61 contractual posts (GNM Female: 28, GNM Male: 3, Multi-Purpose Worker Male: 30) for 11 months 29 days under 15th Finance Commission scheme. Apply online via Google Form link and submit self-attested documents with Demand Draft (Rs. 750 Open / Rs. 500 Reserved) at Public Health Dept, 4th Floor TMC Building Panchpakhadi Thane by 07.08.2026 (2:00 PM).",
-    "u": "https://www.thanecity.gov.in"
-  },
-  {
-    "id": "dharwad-dhfws-staff-nurse-lab-tech-recruitment-2026",
-    "b": "District Health & Family Welfare Officer, Zilla Panchayat, Dharwad, Government of Karnataka",
-    "t": "Dharwad DHFWS Recruitment 2026 – 14 Contractual Vacancies for Staff Nurse (12), Jr. Laboratory Technical Officer (1) & Pharmacy Officer (1) | Apply Online (NIC Portal)",
-    "d": "24-07-2026",
-    "l": "05-08-2026 (Online Application) | Document Verification: 10-08-2026 to 12-08-2026",
-    "a": "Ref No. ZIAKUKA-KADHA/Sibbandi-2/Viv/ /2026-27 dated 24.07.2026",
-    "q": "Diploma in Nursing / B.Sc Nursing + KNC Reg | Diploma in Lab Tech + KPB Reg | Diploma in Pharmacy + KPC Reg",
-    "desc": "Office of the District Health & Family Welfare Officer, Zilla Panchayat Dharwad invites online applications for 14 contractual posts (Staff Nurse: 12, Jr. Lab Technical Officer: 1, Pharmacy Officer: 1) for 1 year. Apply online via NIC portal from 28.07.2026 to 05.08.2026. Document verification from 10.08.2026 to 12.08.2026 at DHO Office Dharwad on Roster-cum-Merit basis.",
-    "u": "https://dharwad.nic.in"
   },
   {
     "id": "bengaluru-rural-pourakarmika-special-recruitment-2026",
@@ -1552,28 +1013,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://bengalururural.nic.in"
   },
   {
-    "id": "davanagere-dhfws-staff-nurse-recruitment-2026",
-    "b": "District Health & Family Welfare Officer, Zilla Panchayat, Davanagere District, Govt of Karnataka",
-    "t": "Davanagere DHFWS Staff Nurse Recruitment 2026 – 10 Contractual Vacancies | Walk-in Interview on 04 August 2026 (GNM / B.Sc Nursing, KNC Registered)",
-    "d": "27-07-2026",
-    "l": "04-08-2026 (Walk-in Interview 11:00 AM to 2:00 PM at DHO Office Davanagere)",
-    "a": "Ref No. ZIADA/TENDER/05/2026-27 dated 27/07/2026",
-    "q": "Diploma in Nursing (GNM) / B.Sc Nursing from Govt recognized institution + compulsory Karnataka Nursing Council (KNC) registration",
-    "desc": "Zilla Panchayat Davanagere DHFWS invites eligible candidates for a Walk-in Interview for 10 Staff Nurse contractual posts (1 year tenure). Candidates holding GNM/B.Sc Nursing registered with Karnataka Nursing Council can attend the walk-in interview on 04.08.2026 (11:00 AM - 2:00 PM) at DHO Office Davanagere with original documents and testimonials.",
-    "u": "https://davanagere.nic.in"
-  },
-  {
-    "id": "vijayapura-dhfws-staff-nurse-lab-tech-recruitment-2026",
-    "b": "District Health & Family Welfare Officer, Vijayapura, Government of Karnataka",
-    "t": "Vijayapura DHFWS Recruitment 2026 – 26 Contractual Vacancies for Staff Nurse (16), Laboratory Technical Officer (7) & Pharmacy Officer (3) | Walk-In Interview on 07 August 2026",
-    "d": "28-07-2026",
-    "l": "07-08-2026 (Application submission in-person from 28-07-2026 | Walk-in Interview on 07-08-2026 10:00 AM to 5:30 PM)",
-    "a": "Ref No. /Sr. Superintendent/C.R./693/2026-27 dated 28/07/2026",
-    "q": "B.Sc / Diploma in Nursing + KNC Reg | DMLT (Lab Tech) | D.Pharma + KPC Reg (Age up to 45 Yrs)",
-    "desc": "District Health & Family Welfare Society Vijayapura invites in-person applications and walk-in interviews for 26 contractual posts (Staff Nurse B.Sc quota: 4, Staff Nurse Diploma quota: 12, Laboratory Technical Officer: 7, Pharmacy Officer: 3). Submit prescribed application form in person at DHO Office Vijayapura from 28.07.2026 onward and attend Walk-in Interview on 07.08.2026 (10:00 AM to 5:30 PM). Selection on Roster-cum-Merit basis.",
-    "u": "https://vijayapura.nic.in"
-  },
-  {
     "id": "ofdr-pune-munitions-india-dbw-recruitment-2026",
     "b": "Ordnance Factory Dehu Road (OFDR), Pune, Maharashtra (Unit of Munitions India Limited, Ministry of Defence, Govt. of India)",
     "t": "OFDR Pune Recruitment 2026 – 14 Vacancies for Tenure Based Danger Building Worker (DBW) | Apply Offline (NCTVT/NCVT AOCP or Feeder ITI Trade Pass, Basic Pay Rs. 19,900 + DA, Zero Fee)",
@@ -1583,39 +1022,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ex-Apprentices of AOCP Trade or Feeder Trades (IMCP, MMCP, LACP, PPO, Fitter, Machinist, Turner, Electrician, etc.) from Ordnance Factories or Govt/Pvt ITI",
     "desc": "Ordnance Factory Dehu Road (OFDR), Pune, Maharashtra (a unit of Munitions India Limited, Govt. of India Enterprise under Ministry of Defence) invites offline applications for 14 tenure-based contractual posts of Danger Building Worker (DBW) in Skilled level. Basic Pay Rs. 19,900/- + DA, HRA, EPF, Bonus & Risk Allowance. Category breakup: SC - 05, ST - 02, OBC - 03, EWS - 04 (Ex-SM: 05 horizontal). Selection via NCTVT (NAC) marks (80% weightage) and Trade Test (20% weightage). Zero application fee.",
     "u": "https://munitionsindia.in/career"
-  },
-  {
-    "id": "rajasthan-power-sector-rvunl-recruitment-2026",
-    "b": "Rajasthan Rajya Vidyut Utpadan Nigam Ltd. (RVUNL) & State Power Sector Companies (RVUN, RVPN, JVVN, AVVN, JdVVN), Govt. of Rajasthan",
-    "t": "Rajasthan Power Sector Recruitment 2026 – 2005 Vacancies for Junior Engineer (JEN-I), Junior Accountant & Junior Assistant / Commercial Assistant-II across RVUN, RVPN, JVVNL, AVVNL & JdVVNL | Apply Online",
-    "d": "24-06-2026",
-    "l": "August 2026 (Online Applications open 2nd Fortnight of July 2026)",
-    "a": "Advertisement No. RVUN/Rectt.-2026-27/01 (No. RVUN/P&A/Rectt.2026-27/F.103/D. 120 dated 24.06.2026)",
-    "q": "Degree in Engineering (B.E./B.Tech) for JEN-I | B.Com/BBA/MBA/CA for Jr. Accountant | Graduation + RSCIT/Computer Certificate for Jr. Assistant",
-    "desc": "Rajasthan State Power Sector invites online applications for common recruitment of 2,005 vacancies across 5 State Power Companies (RVUN, RVPN, JVVNL, AVVNL, JdVVNL). Posts include Junior Engineer-I (Electrical: 727, Mechanical: 110, Civil: 32 - Total 869 JENs), Junior Accountant (371 posts), and Junior Assistant / Commercial Assistant-II (765 posts). Includes Non-TSP, TSP Area, and Backlog vacancies. Detailed online application forms available on official energy portal.",
-    "u": "https://energy.rajasthan.gov.in"
-  },
-  {
-    "id": "amu-cdoe-assistant-professor-recruitment-2026",
-    "b": "Centre for Distance and Online Education (CDOE), Aligarh Muslim University (AMU), Aligarh, Uttar Pradesh",
-    "t": "AMU CDOE Assistant Professor Recruitment 2026 – 11 Vacancies in Political Science, History, Economics & LIS | Apply Online & Hard Copy (Fixed Pay Rs. 40,000/pm)",
-    "d": "30-07-2026",
-    "l": "06-08-2026 (Online Form) | 13-08-2026 till 04:00 PM (Hard Copy Submission)",
-    "a": "Local Advertisement No. 02/2026-27/CDOE dated 30/07/2026",
-    "q": "Master's Degree with 55% marks (50% for SC/ST/OBC/PWD) + UGC/CSIR NET/SLET/SET or Ph.D. degree in concerned discipline",
-    "desc": "Centre for Distance and Online Education (CDOE), Aligarh Muslim University (AMU), Aligarh invites online applications for 11 temporary/contractual Assistant Professor posts in Political Science (3), History (3), Economics (3), and Library and Information Science (2) for Academic Session 2026-27. Fixed salary of Rs. 40,000/- per month. Apply online at careers.amuonline.ac.in by 06.08.2026 and submit hard copy with documents to CDOE AMU by 13.08.2026. Walk-in interviews scheduled on 27.08.2026.",
-    "u": "https://careers.amuonline.ac.in"
-  },
-  {
-    "id": "nhm-assam-staff-nurse-recruitment-2026",
-    "b": "National Health Mission (NHM), Assam",
-    "t": "NHM Assam Staff Nurse Recruitment 2026 – 2204 Vacancies | Apply Online for Contractual Staff Nurse Posts (GNM / B.Sc Nursing, Pay Rs. 20,000/pm, Zero Fee)",
-    "d": "29-07-2026",
-    "l": "15-08-2026 (11:59 PM)",
-    "a": "No. NHM-31013(11)/5/2025-HRD-NHM (ECF : 678091) dated 29.07.2026",
-    "q": "B.Sc Nursing / GNM Course from INC recognized institution + Registration with Assam Nurses Midwives & Health Visitors Council",
-    "desc": "Office of the Mission Director, National Health Mission (NHM), Assam invites online applications for 2,204 vacancies of Staff Nurse on a contractual basis. Remuneration: Rs. 20,000/- per month. Category breakup includes UR - 1701, SC - 209, Tea Tribes - 170, ST(H) - 80, OBC/MOBC - 44. Candidates with B.Sc Nursing or GNM degree and Assam Council Registration aged up to 40 years (relaxable) can apply online at nhm.assam.gov.in from 01.08.2026 to 15.08.2026. No application fee.",
-    "u": "https://nhm.assam.gov.in"
   },
   {
     "id": "up-azamgarh-anganwadi-sahayika-recruitment-2026",
@@ -1629,50 +1035,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://upanganwadibharti.in"
   },
   {
-    "id": "up-anganwadi-worker-sahayika-recruitment-2026",
-    "b": "Integrated Child Development Services (ICDS), Bal Vikas Seva evam Pushtahar Vibhag, Govt. of Uttar Pradesh",
-    "t": "UP Anganwadi Recruitment 2026 – District-Wise Active Vacancies for Anganwadi Karyakatri (Worker) & Sahayika (Helper) – Apply Online (12th Pass, No Exam, No Fee)",
-    "d": "21-07-2026",
-    "l": "11-08-2026 (Ayodhya & Unnao) | 07-08-2026 (Ghaziabad) | 06-08-2026 (Raebareli)",
-    "a": "District-wise ICDS Recruitment Notices 2026-27 (Ayodhya Patrank C-1088/DM/B.A./Notice/2026-27)",
-    "q": "Class 12th (Intermediate) for Anganwadi Worker | Class 8th / 10th for Anganwadi Helper (Female Permanent Residents Only)",
-    "desc": "Department of Women & Child Development (Bal Vikas Seva evam Pushtahar Vibhag), Uttar Pradesh announces district-wise recruitment for Anganwadi Karyakatri (Worker) and Anganwadi Sahayika (Helper). Active districts include Ayodhya (220 Karyakatri posts), Raebareli (191 posts), Unnao, Ghaziabad, and others. Selection is 100% merit-based on qualifying educational marks without any written test or interview. Zero application fee for all categories.",
-    "u": "https://upanganwadibharti.in"
-  },
-  {
-    "id": "csir-ngri-hyderabad-project-staff-recruitment-2026",
-    "b": "CSIR - National Geophysical Research Institute (CSIR-NGRI), Hyderabad, Telangana",
-    "t": "CSIR-NGRI Hyderabad Project Staff Recruitment 2026 – 18 Vacancies (Walk-In & Online Interview for Project Assistant, Associate & Scientist Posts, Pay up to ₹78,000/pm + HRA)",
-    "d": "27-07-2026",
-    "l": "03-08-2026 (Online Google Form) / 05, 07 & 11 Aug 2026 (Walk-In Interviews)",
-    "a": "CSIR-NGRI Notification No. PP - 07/2026 dated 27.07.2026",
-    "q": "Diploma (EEE / ECE / EIE) / B.Sc / M.Sc / M.Tech / Ph.D in Geophysics / Geology / Earth Sciences",
-    "desc": "CSIR-National Geophysical Research Institute (CSIR-NGRI), Uppal Road, Hyderabad, Telangana invites applications for Walk-In and Online Interviews to fill 18 temporary Project Personnel positions (Project Assistant-II, Project Associate-I, Project Associate-II, Principal Project Associate, Project Scientist-III). Remuneration ranges from ₹20,000 + HRA up to ₹78,000 + HRA per month. Candidates applying for online interviews must submit Google Form and application form by 3rd August 2026.",
-    "u": "https://www.ngri.res.in"
-  },
-  {
-    "id": "bel-panchkula-project-engineer-recruitment-2026",
-    "b": "Bharat Electronics Limited (BEL), Panchkula (Ministry of Defence)",
-    "t": "BEL Project Engineer Recruitment 2026 – 14 Vacancies in Rajasthan & Gujarat (Walk-in Selection at Jodhpur, Pay Scale up to ₹55,000/pm)",
-    "d": "28-07-2026",
-    "l": "11-08-2026 (Pre-Registration by 09:00 AM / Walk-in at Jodhpur)",
-    "a": "Advt No. 2026-27/07/PK/ PE/006 dated 28.07.2026",
-    "q": "B.E. / B.Tech / B.Sc Engg in ECE / EEE / CSE / IT + 02 Years Relevant Experience",
-    "desc": "Bharat Electronics Limited (BEL), Panchkula invites applications for Walk-In Selection at Jodhpur for 14 posts of Project Engineer (PE-I) for deployment at site locations in Rajasthan (Jodhpur, Jaisalmer) & Gujarat (Jamnagar, Bhuj, Naliya). Consolidated remuneration starts at ₹40,000/pm in 1st year up to ₹55,000/pm in 4th year plus 10% Area Allowance and ₹1,00,000 retention bonus upon completing 4 years. Pre-registration is mandatory before 09:00 AM on 11th August 2026.",
-    "u": "https://bel-india.in"
-  },
-  {
-    "id": "delhi-rtrmh-senior-resident-recruitment-2026",
-    "b": "Rao Tula Ram Memorial Hospital (RTRMH), Govt. of NCT of Delhi",
-    "t": "Delhi RTRMH Senior Resident Adhoc Recruitment 2026 – 27 Posts across 9 Specialties (7th CPC Level 11, Pay ₹67,700/pm)",
-    "d": "29-07-2026",
-    "l": "07-08-2026 (Walk-In Interview 9:30 AM to 11:00 AM)",
-    "a": "Public Notice No. RTRMH/1/1/1/Estt.(03)/PF/2025-26/4048 dated 29.07.2026",
-    "q": "MD / DNB / Diploma in Concerned Stream (Registered with DMC) OR MBBS + 2 Years Experience (OPD & IPD)",
-    "desc": "Rao Tula Ram Memorial Hospital (RTRMH), Jaffarpur, Govt. of NCT of Delhi invites candidates for Walk-in Interview on 7th August 2026 for recruitment of 27 Senior Residents on adhoc basis across 9 medical specialties (Anesthesia: 3, Medicine: 4, Obs & Gynae: 7, Orthopedics: 4, Pediatrics: 5, Surgery: 1, Radiology: 1, Ophthalmology: 1, ENT: 1). Pay Scale 7th CPC Level-11 (Basic ₹67,700/pm plus allowances). Reporting time 09:30 AM to 11:00 AM at Conference Hall, Admn. Block, RTRM Hospital, Jaffarpur, New Delhi.",
-    "u": "https://health.delhi.gov.in"
-  },
-  {
     "id": "niper-raebareli-it-assistant-recruitment-2026",
     "b": "National Institute of Pharmaceutical Education and Research (NIPER) Raebareli",
     "t": "IT Assistant Contractual Recruitment 2026 – 01 Post (Consolidated Salary ₹42,000/pm)",
@@ -1682,39 +1044,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Sc / B.E / B.Tech in Computer Science OR MCA + 3 Years Relevant Experience",
     "desc": "National Institute of Pharmaceutical Education and Research (NIPER) Raebareli invites offline hard copy applications for recruitment of IT Assistant on a purely contractual basis for a duration of 1 year. Consolidated salary ₹42,000/- per month. Download application form from www.niperraebareli.edu.in and submit by post/courier by 24th August 2026.",
     "u": "https://www.niperraebareli.edu.in"
-  },
-  {
-    "id": "iaf-agniveervayu-non-combatant-intake-01-2027",
-    "b": "Indian Air Force (IAF)",
-    "t": "Agniveervayu Non-Combatant (Hospitality & Housekeeping Streams) Intake 01/2027 Recruitment – Various Posts",
-    "d": "31-07-2026",
-    "l": "17-08-2026 (Offline Application)",
-    "a": "Intake 01/2027 under Agnipath Scheme",
-    "q": "Class 10th / Matriculation Passed (Unmarried Male Candidates Born Between 01 Jan 2005 and 01 Jul 2009)",
-    "desc": "Indian Air Force (IAF) invites offline applications from eligible unmarried male candidates for enrolment as Agniveervayu Non-Combatant in Hospitality and Housekeeping streams for Intake 01/2027 under Agnipath scheme. Class 10th passed candidates born between 01 Jan 2005 and 01 Jul 2009 can download application form from iafrecruitment.edcil.co.in and submit by 17th August 2026.",
-    "u": "https://iafrecruitment.edcil.co.in"
-  },
-  {
-    "id": "niper-guwahati-bionest-ceo-recruitment-2026",
-    "b": "National Institute of Pharmaceutical Education and Research (NIPER) Guwahati",
-    "t": "Bio-NEST Incubation Centre CEO – 01 Contractual Post (Consolidated Salary ₹1,00,000/pm)",
-    "d": "30-07-2026",
-    "l": "14-08-2026 (5:00 PM Online)",
-    "a": "NIPERG/Project-Rectt./2026/05/Re/10 dated 30.07.2026",
-    "q": "Ph.D in Life Sciences / Allied Sciences OR MBA / Master in Business Management + 5 to 10 Years Experience",
-    "desc": "NIPER Guwahati invites online applications for recruitment of Chief Executive Officer (CEO) for Bio-NEST NIPER-Guwahati Incubation Centre funded by DBT-BIRAC. Consolidated salary ₹1,00,000/- per month. Apply online at niperguwahati.ac.in by 14th August 2026.",
-    "u": "http://www.niperguwahati.ac.in"
-  },
-  {
-    "id": "mpypil-management-recruitment-2026",
-    "b": "Madhya Pradesh Yatri Parivahan and Infrastructure Limited (MPYPIL), Govt. of MP",
-    "t": "Higher, Senior & Junior Management Posts – 399 Contractual Vacancies (Salary up to ₹2,06,808/pm)",
-    "d": "24-07-2026",
-    "l": "18-08-2026",
-    "a": "Rule Book Nos: MPYPIL/HR(02)/2026/602(a), 603(a) & 604(a) dated 24.07.2026",
-    "q": "BE/B.Tech / MBA / MCA / Graduation / 12th / 11th / ITI + Relevant Experience (Retired Personnel Also Eligible)",
-    "desc": "Madhya Pradesh Yatri Parivahan and Infrastructure Limited (MPYPIL), Bhopal invites online applications for 399 contractual positions across Higher Management (146 posts, pay up to ₹2.06 Lakh/pm), Senior Management (54 posts, pay ₹94,248/pm), and Junior Management & Police/Support Cadre (199 posts, pay ₹32,760 to ₹71,736/pm). Apply online via MPOnline Portal from 29th July to 18th August 2026.",
-    "u": "https://iforms.mponline.gov.in"
   },
   {
     "id": "odisha-bhadrak-district-court-staff-recruitment-2026",
@@ -1728,61 +1057,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://bhadrak.dcourts.gov.in"
   },
   {
-    "id": "hartron-haryana-junior-programmer-panel-recruitment-2026",
-    "b": "Haryana State Electronics Development Corporation Ltd. (HARTRON), Govt. of Haryana",
-    "t": "Junior Programmer Panel Recruitment 2026 – 547 Positions Across 23 Districts in Haryana",
-    "d": "30-07-2026",
-    "l": "09-08-2026 (Online Application)",
-    "a": "Notification No: Hartron/ICTET/2026-27/03",
-    "q": "Graduate + PGDCA/PDCA/PGDIT OR BCA / B.Sc (CS/IT) / MCA / M.Sc (CS/IT) / B.Tech / M.Tech / 3-Yr Diploma (55% marks)",
-    "desc": "HARTRON invites online applications for empanelment of Junior Programmers on Job Work Basis across 23 districts in Haryana (Ambala, Gurugram, Faridabad, Hisar, Karnal, Rohtak, etc.) with monthly remuneration of ₹24,100/-. Candidates will undergo a 2-stage test (Domain Knowledge Test & Practical Test) with 1-month hands-on training. Apply online from 30th July to 9th August 2026 on hartron.org.in.",
-    "u": "https://hartron.org.in"
-  },
-  {
-    "id": "hp-hamirpur-retired-patwari-kanungo-recruitment-2026",
-    "b": "Office of Deputy Commissioner, Hamirpur, District Hamirpur, Govt. of Himachal Pradesh",
-    "t": "Retired Patwari & Kanungo Re-engagement – 21 Vacancies on ₹40,000/- Fixed Remuneration",
-    "d": "21-07-2026",
-    "l": "05-08-2026 (Offline Application)",
-    "a": "Endst. No. DCH/Estt./Recruitment/2026-8552-73",
-    "q": "Retired Patwari / Kanungo / Passed Class 10th / Matriculation or Graduate Degree",
-    "desc": "Office of Deputy Commissioner, Hamirpur (HP) invites offline applications from retired Patwaris and Kanungos for re-engagement on remuneration basis across vacant Patwar Circles in District Hamirpur. Consolidated monthly remuneration is ₹40,000/-. Applicants must be under 65 years of age with 5 years minimum service experience. Submit completed form to DC Office Hamirpur by 5th August 2026.",
-    "u": "https://hamirpur.nic.in"
-  },
-  {
-    "id": "up-kgbv-bulandshahr-teacher-staff-recruitment-2026",
-    "b": "Office of District Basic Education Officer, Bulandshahr, Govt. of Uttar Pradesh",
-    "t": "Kasturba Gandhi Balika Vidyalaya Teacher & Non-Teaching Staff – 160 Contractual Posts",
-    "d": "25-07-2026",
-    "l": "10-08-2026 (5:00 PM by Reg. Post)",
-    "a": "Notification No: 3115-23/2026-27 dated 25.07.2026",
-    "q": "PG / Graduate + B.Ed / Training + TET (or Class 8th Pass for Class-IV / Intermediate for Clerks)",
-    "desc": "Office of District Basic Education Officer, Bulandshahr (Samagra Shiksha, UP) invites offline applications from eligible female candidates for 160 contractual posts in 16 Upgraded KGBVs (Class 9-12) and Class 6-8 KGBVs. Posts include Principal (8), PGTs (48), Computer Teachers (8), Caretakers (8), Lab Assistants (24), Clerks (8), and support staff. Submit form by Registered Post to BSA Bulandshahr by 10th August 2026.",
-    "u": "https://bulandshahar.nic.in"
-  },
-  {
-    "id": "up-kgbv-banda-teacher-staff-recruitment-2026",
-    "b": "Office of District Basic Education Officer, Banda, Govt. of Uttar Pradesh",
-    "t": "Kasturba Gandhi Balika Vidyalaya Teacher & Staff Recruitment – 77 Contractual Posts",
-    "d": "25-07-2026",
-    "l": "08-08-2026 (5:00 PM by Reg. Post)",
-    "a": "Notification No: 7071-09/2026-27 dated 25.07.2026",
-    "q": "PG / Graduate + B.Ed + TET (or Class 8th Pass for Support Staff / Inter for Clerks)",
-    "desc": "Office of District Basic Education Officer, Banda (Samagra Shiksha, UP) invites offline applications from eligible female candidates for 77 contractual posts across 4 upgraded KGBVs (Baberu, Badokhar Khurd, Bisanda, Naraini) and existing schools. Posts include Principal (4), PGTs (26), Computer Science (4), Caretakers (4), Lab Assistants (12), Clerks (6), and support staff. Apply by Registered Post to BSA Banda by 8th August 2026 (5:00 PM).",
-    "u": "https://banda.nic.in"
-  },
-  {
-    "id": "contai-subdivision-nulia-civil-defence-volunteer-2026",
-    "b": "Office of Sub-Divisional Officer, Contai, Purba Medinipur, Govt. of West Bengal",
-    "t": "Nulia Civil Defence Volunteer – 45 Vacancies (30 Male, 15 Female) on Daily Wage",
-    "d": "23-07-2026",
-    "l": "14-08-2026 (in Person at SDO Office)",
-    "a": "Memo No: 47/DMS dated 23.07.2026",
-    "q": "Madhyamik (10th) Pass + Mandatory Civil Defence Basic Training (Contai Residents Only)",
-    "desc": "Office of Sub-Divisional Officer (SDO), Contai, Purba Medinipur (West Bengal) invites applications for 45 Nulia Civil Defence Volunteer positions (30 Male, 15 Female) on daily wage basis. Applicants must be permanent residents of Contai Sub-Division aged 18–38 years with Madhyamik pass and Civil Defence Basic Training. Submit filled form at SDO Office Contai by 14th August 2026.",
-    "u": "https://purbamedinipur.gov.in"
-  },
-  {
     "id": "drdo-sspl-delhi-paid-internship-2026",
     "b": "Solid State Physics Laboratory (SSPL), DRDO, Ministry of Defence, Delhi",
     "t": "Paid Internship (6 Months) – 65 Vacancies in Advanced Semiconductor Research",
@@ -1792,61 +1066,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ongoing B.E./B.Tech or M.Sc./M.Tech (Final Year / Last Semester Students Only)",
     "desc": "DRDO Solid State Physics Laboratory (SSPL), Timarpur, Delhi invites hard-copy applications from final-year B.E./B.Tech and M.Sc./M.Tech students for a 6-month Paid Internship in advanced semiconductor materials, MEMS, MMICs, laser diodes, and nanotechnology. Monthly stipend ₹5,000/-. Apply by post by 30th September 2026.",
     "u": "https://www.drdo.gov.in"
-  },
-  {
-    "id": "drdo-sspl-delhi-apprentice-recruitment-2026",
-    "b": "Solid State Physics Laboratory (SSPL), DRDO, Ministry of Defence, Delhi",
-    "t": "ITI, Diploma & Graduate Apprentice Engagement – 41 Vacancies",
-    "d": "29-07-2026",
-    "l": "21-08-2026",
-    "a": "Advertisement No: 625/HR/Apprentice/2026/M/02",
-    "q": "10th + ITI (First Div) / Diploma / Degree (Physics, Chem, Math, CS, Engg, BA, BCom passed in 2022-2026)",
-    "desc": "DRDO Solid State Physics Laboratory (SSPL), Timarpur, Delhi invites offline applications for 41 ITI, Diploma, and Graduate Apprentice posts for 12 months training. Candidates must register on NATS/NAPS portal and send filled application form by post to DRDO SSPL Delhi by 21st August 2026.",
-    "u": "https://nats.education.gov.in"
-  },
-  {
-    "id": "farrukhabad-anganwadi-helper-recruitment-2026",
-    "b": "District Programme Officer, Farrukhabad, Dept of Women & Child Development, UP",
-    "t": "Contractual Anganwadi Helper – 140 Posts across 8 Urban/Rural ICDS Projects",
-    "d": "29-07-2026",
-    "l": "19-08-2026",
-    "a": "DPO Farrukhabad Anganwadi Bharti Notice dated 29.07.2026",
-    "q": "Intermediate / Class 12 Passed (Local Female Ward/Village Residents)",
-    "desc": "Office of District Programme Officer, Farrukhabad (Uttar Pradesh) invites online applications from eligible local female candidates for 140 contractual Anganwadi Helper vacancies across 8 Urban/Rural ICDS projects (Badhpur, Shamshabad, City, Kamalganj, Kayamganj, Nawabganj, Rajepur, Mohammadabad). Apply online via upanganwadibharti.in by 19th August 2026.",
-    "u": "https://upanganwadibharti.in"
-  },
-  {
-    "id": "hyderabad-anganwadi-teacher-recruitment-2026",
-    "b": "Dept. of Women, Children, Disabled & Senior Citizens Welfare, Hyderabad District",
-    "t": "Main Anganwadi Teachers – 181 Posts across 5 ICDS Projects",
-    "d": "27-07-2026",
-    "l": "22-08-2026 (up to 5:00 PM)",
-    "a": "Notification No: 1170-1/E.O.II/2026 dated 27.07.2026",
-    "q": "Intermediate / Class 12 Passed (Local Female Ward Residents)",
-    "desc": "Department of Women, Children, Disabled and Senior Citizens Welfare, Hyderabad District invites online applications from eligible local female candidates for 181 Main Anganwadi Teacher posts across 5 ICDS projects (Charminar, Golconda, Khairatabad, Nampally, Secunderabad). Apply online via wdcw.tg.nic.in by 22nd August 2026.",
-    "u": "http://wdcw.tg.nic.in"
-  },
-  {
-    "id": "baloda-bazar-district-court-recruitment-2026",
-    "b": "Office of the Principal District & Sessions Judge, Baloda Bazar (Chhattisgarh)",
-    "t": "Stenographer Grade-3 (Hindi/English) & Assistant Grade-3 Cadre – 18 Posts",
-    "d": "23-07-2026",
-    "l": "14-08-2026 (5:30 PM)",
-    "a": "No. 2057/II-12-17/2013 dated 23.07.2026",
-    "q": "Graduation + Hindi/English Shorthand/Typing + 1-Year Computer Diploma (Native CG Residents)",
-    "desc": "Office of the Principal District & Sessions Judge, Baloda Bazar (Chhattisgarh) invites offline applications for 18 posts including Stenographer Grade-3 Hindi (1), Stenographer Grade-3 English (2), and Assistant Grade-3 Cadre (15). Drop filled application in the box at Baloda Bazar Court by 14th August 2026 (5:30 PM).",
-    "u": "https://districts.ecourts.gov.in/balodabazar"
-  },
-  {
-    "id": "jamui-dcpu-pocso-support-person-2026",
-    "b": "District Child Protection Unit (DCPU), Collectorate Jamui, Govt. of Bihar",
-    "t": "Support Person under POCSO Act – 15 Empanelment Posts",
-    "d": "24-04-2026",
-    "l": "15-07-2026 (5:00 PM)",
-    "a": "Advertisement No. 02/2026 (Guideline Letter Nos. 748 & 749)",
-    "q": "PG in MSW/Sociology/Psychology/Child Dev OR Graduate + Child Rights Diploma + 3 Yrs Exp",
-    "desc": "Assistant Director, District Child Protection Unit (DCPU), Jamui (Bihar) invites offline applications for empanelment on 15 temporary posts of Support Person under the POCSO Act 2012. Submit filled form via Speed Post or Registered Post to DCPU Office Jamui by 15th July 2026 (5:00 PM). Honorarium: ₹9,000/- per case.",
-    "u": "https://jamui.nic.in"
   },
   {
     "id": "tslprb-constable-firemen-warder-recruitment-2026",
@@ -1860,28 +1079,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.tgprb.in"
   },
   {
-    "id": "medchal-malkajgiri-anganwadi-teacher-helper-2026",
-    "b": "Dept. of Women, Children, Disabled & Senior Citizens Welfare, Medchal-Malkajgiri District",
-    "t": "Anganwadi Teacher (AWT), Mini Teacher & Anganwadi Helper (AWH) – 62 Posts",
-    "d": "27-07-2026",
-    "l": "05-08-2026 (5:00 PM)",
-    "a": "Recruitment Notification dated 27.07.2026",
-    "q": "10th / 12th Class for Teacher | 8th / 10th Class for Helper (Local Female Residents)",
-    "desc": "District Welfare Officer, Medchal-Malkajgiri District (Telangana) invites online applications from eligible local female candidates for 62 posts of Anganwadi Teacher (18), Mini Anganwadi Teacher (20), and Anganwadi Helper (24). Apply online at mis.tgwdcw.in by 5th August 2026.",
-    "u": "https://mis.tgwdcw.in"
-  },
-  {
-    "id": "sant-kabir-nagar-anganwadi-worker-recruitment-2026",
-    "b": "Child Development Services & Nutrition, District Sant Kabir Nagar, Govt. of Uttar Pradesh",
-    "t": "Anganwadi Workers (Female Contractual) – 192 Posts across 10 ICDS Projects",
-    "d": "29-07-2026",
-    "l": "20-08-2026 (12:00 Midnight)",
-    "a": "Contractual Anganwadi Worker Notification dated 29.07.2026",
-    "q": "Intermediate (10+2) or equivalent (Female Residents of Gram Sabha/Ward)",
-    "desc": "District Programme Officer, Sant Kabir Nagar (UP) invites online applications from eligible female candidates for 192 contractual posts of Anganwadi Workers across 10 ICDS projects. Apply online at upanganwadibharti.in by 20th August 2026.",
-    "u": "https://upanganwadibharti.in"
-  },
-  {
     "id": "ramanagara-district-court-typist-peon-2026",
     "b": "Principal District and Sessions Court, Ramanagara (Bengaluru South District Judiciary)",
     "t": "Typists, Typist-Copyists, Process Servers & Peons – 55 Posts",
@@ -1891,17 +1088,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "2nd PUC / Diploma / SSLC + Typewriting (Kannada & English) / Computer Knowledge",
     "desc": "Principal District and Sessions Court, Bengaluru South District, Ramanagara invites online applications for 55 vacant posts of Typists (10), Typist-Copyists (1), Process Servers (10), and Peons (34). Apply online via official court portal from 30.07.2026 to 31.08.2026 till 11:59 PM.",
     "u": "https://ramanagara.dcourts.gov.in/online-recruitment/"
-  },
-  {
-    "id": "hapur-anganwadi-worker-helper-recruitment-2026",
-    "b": "Child Development Services & Nutrition, District Hapur, Govt. of Uttar Pradesh",
-    "t": "Anganwadi Workers & Anganwadi Helpers (Female) – 317 Posts",
-    "d": "28-07-2026",
-    "l": "18-08-2026 (12:00 Midnight)",
-    "a": "Letter No. (-541/Dist.P.O./A.W. Appt/2026-27)",
-    "q": "Intermediate (10+2) for Worker | 10th Pass for Helper (Female Residents)",
-    "desc": "District Programme Officer, Child Development Services & Nutrition, District Hapur (UP) invites online applications from eligible female candidates for 317 honorarium-based posts of Anganwadi Workers (120) and Anganwadi Helpers (197) across 4 rural projects. Apply online at upanganwadibharti.in by 18th August 2026.",
-    "u": "https://upanganwadibharti.in"
   },
   {
     "id": "yadgir-anganwadi-worker-helper-recruitment-2026",
@@ -1926,17 +1112,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.tgprb.in"
   },
   {
-    "id": "dsh-kadapa-theatre-assistant-gda-recruitment-2026",
-    "b": "Directorate of Secondary Health (DSH), Kadapa, Govt. of Andhra Pradesh",
-    "t": "Theatre Assistant & GDA / MNO / FNO (Outsourcing) – 11 Posts",
-    "d": "28-07-2026",
-    "l": "04-08-2026",
-    "a": "Notification No. 02/2026",
-    "q": "10th Pass (SSC or Equivalent)",
-    "desc": "District Co-Ordinator of Hospital Services (DSH), Kadapa, YSR Kadapa District invites offline applications for 11 posts of Theatre Assistant and GDA/MNO/FNO on outsourcing basis for a period of one year in DSH Hospitals. Apply in person or by registered post by 04th August 2026 (05:00 PM).",
-    "u": "https://kadapa.ap.gov.in"
-  },
-  {
     "id": "sjvn-executive-recruitment-2026",
     "b": "SJVN Limited (A Navratna CPSE - Govt of India & Govt of HP)",
     "t": "Chief General Manager, Dy. Manager & Engineer – 21 Executive Posts",
@@ -1957,39 +1132,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E/B.Tech, Diploma in Engineering (ECE, CSE, EE, IT, EEE)",
     "desc": "RailTel Corporation of India Ltd. (RCIL), a Navratna PSU under Ministry of Railways, invites online applications for 40 Graduate & Diploma Engineer Apprentice posts under Apprentices Act 1961. Apply online via NATS 2.0 portal by 27th August 2026.",
     "u": "https://nats.education.gov.in"
-  },
-  {
-    "id": "skau-kurukshetra-non-teaching-recruitment-2026",
-    "b": "Shri Krishna AYUSH University, Kurukshetra (Haryana)",
-    "t": "Staff Nurse, Ayurvedic Pharmacist & Clerk – 60 Posts",
-    "d": "29-07-2026",
-    "l": "21-08-2026",
-    "a": "Advt. No. NT-01/2026 to 03/2026",
-    "q": "12th Pass, Diploma, B.Sc Nursing, GNM, Graduation",
-    "desc": "Shri Krishna AYUSH University, Kurukshetra invites online applications for 60 non-teaching & para-medical posts (Staff Nurse, Ayurvedic Pharmacist, Clerk). Apply by 21st August 2026.",
-    "u": "https://recruitment.skau.ac.in/nonteaching/"
-  },
-  {
-    "id": "nlcil-apprentice-recruitment-2026",
-    "b": "NLC India Limited (NLCIL)",
-    "t": "NLCIL Apprentice Recruitment 2026 – 1235 Vacancies for ITI Trade, Engineering Graduate, Diploma & Non-Engineering Graduate | Apply Online by 11 August 2026",
-    "d": "29-07-2026",
-    "l": "11-08-2026",
-    "a": "Advt. No. L&DC/02/2026 (PAPs) & L&DC/03/2026 (Employees & Contract Wards)",
-    "q": "Passed ITI / Diploma / B.E / B.Tech / B.Com / B.Sc / BCA / BBA / B.Pharm / B.Sc Nursing (2022-2026 Passed)",
-    "desc": "NLC India Limited (NLCIL), Neyveli invites online applications for 1235 Apprenticeship Training slots (1 Year) across 4 categories under Advt No. L&DC/02/2026 (875 slots for Project Affected Persons PAPs) and Advt No. L&DC/03/2026 (360 slots for NLCIL Employee & Contract Workmen Wards/Spouses). Monthly Stipend up to ₹15,028/-. Selection is purely merit-based on qualifying marks without any written exam or interview. Apply online at nlcindia.in by 11 August 2026.",
-    "u": "https://www.nlcindia.in"
-  },
-  {
-    "id": "kea-karnataka-grama-adhikari-vao-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA) / Revenue Department",
-    "t": "Grama Adhikari (Village Administrative Officer - VAO) – 572 Posts",
-    "d": "29-07-2026",
-    "l": "07-08-2026",
-    "a": "ED/KEA/26/REC-V/2026 (RPC) & ED/KEA/27/REC-V/2026 (KK)",
-    "q": "12th Pass / PUC / Diploma",
-    "desc": "KEA invites online applications for direct recruitment of 572 Group-C Grama Adhikari (Village Administrative Officer) posts in Revenue Dept across 21 districts. Last date extended to 07.08.2026.",
-    "u": "https://cetonline.karnataka.gov.in/kea/"
   },
   {
     "id": "tnstc-apprentice-recruitment-2026",
@@ -2014,94 +1156,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://web.umang.gov.in/landing/"
   },
   {
-    "id": "nhm-janjgir-champa-recruitment-2026",
-    "b": "District Health Society, NHM Janjgir-Champa (Chhattisgarh)",
-    "t": "CHO, Staff Nurse, Radiographer, Lab Tech & Various Contractual Posts – 66 Posts",
-    "d": "29-07-2026",
-    "l": "10-08-2026",
-    "a": "N.H.M./2026-27/5533",
-    "q": "8th, 10th, 12th, ANM, GNM, B.Sc Nursing, Diploma, BDS, Graduation",
-    "desc": "NHM Janjgir-Champa invites applications for 66 contractual positions including CHO, Staff Nurse, Lab Technician, Radiographer, and Support Staff.",
-    "u": "https://janjgir-champa.gov.in"
-  },
-  {
-    "id": "hal-design-management-trainee-2026",
-    "b": "Hindustan Aeronautics Limited (HAL)",
-    "t": "Design Trainee & Management Trainee – 120 Posts",
-    "d": "29-07-2026",
-    "l": "14-08-2026",
-    "a": "HAL/CHRC-TM/RECT-02/2026",
-    "q": "B.E. / B.Tech",
-    "desc": "Hindustan Aeronautics Limited (HAL) invites online applications for 120 posts of Design Trainees and Management Trainees across various engineering disciplines.",
-    "u": "https://www.hal-india.co.in"
-  },
-  {
-    "id": "bpcl-non-management-recruitment-2026",
-    "b": "Bharat Petroleum Corporation Limited (BPCL)",
-    "t": "Process Technician, Operator & Technician – 154 Posts",
-    "d": "29-07-2026",
-    "l": "13-08-2026",
-    "a": "BPCL.HR.ER.03.NMGT.RECT",
-    "q": "Diploma in Engineering",
-    "desc": "BPCL invites online applications for 154 Non-Management posts (Process Technician, Operator, Technician) at Mumbai and Kochi Refineries.",
-    "u": "https://www.bharatpetroleum.com"
-  },
-  {
-    "id": "dhas-delhi-senior-resident-2026",
-    "b": "Dr. Hedgewar Arogya Sansthan (DHAS), Delhi",
-    "t": "Senior Resident (Ad-hoc) – 16 Posts",
-    "d": "29-07-2026",
-    "l": "03-08-2026",
-    "a": "No.F.1/24/2026/APP/SR/DHAS/ESTT/7513",
-    "q": "MBBS with PG Degree/Diploma/DNB",
-    "desc": "Dr. Hedgewar Arogya Sansthan, Delhi invites eligible candidates for a Walk-in Interview to fill 16 Senior Resident posts on an ad-hoc basis.",
-    "u": "https://health.delhi.gov.in"
-  },
-  {
-    "id": "dudc-bidar-pourakarmika-recruitment-2026",
-    "u": "https://bidar.nic.in",
-    "b": "District Urban Development Cell (DUDC), Bidar",
-    "t": "Pourakarmika (Bidar Mahanagara Palike & Basavakalyana) – 264 Posts",
-    "d": "29-07-2026",
-    "l": "19-08-2026 (05:30 PM)",
-    "a": "CR-20/2026-27/665",
-    "q": "Literate / Kannada Speaking",
-    "desc": "Direct recruitment of Pourakarmikas in Bidar Mahanagara Palike and Nagarasabe Basavakalyana."
-  },
-  {
-    "id": "tnsrlm-kanchipuram-block-coordinator-2026",
-    "u": "#",
-    "b": "Tamil Nadu State Rural Livelihood Mission (TNSRLM), Kanchipuram",
-    "t": "Block Coordinator (Women) – 14 Posts",
-    "d": "29-07-2026",
-    "l": "07-08-2026",
-    "a": "Dated 24/07/2026",
-    "q": "Any Degree / B.Sc CS / BCA",
-    "desc": "Recruitment of Block Coordinators for various Block Mission Management Units in Kanchipuram."
-  },
-  {
-    "id": "msrlm-solapur-ifc-anchor-crp-2026",
-    "u": "#",
-    "b": "UMED - Maharashtra State Rural Livelihoods Mission (MSRLM), Solapur",
-    "t": "IFC Block Anchor & Senior CRP – 17 Posts",
-    "d": "29-07-2026",
-    "l": "07-08-2026",
-    "a": "–",
-    "q": "12th Pass / Agri Degree",
-    "desc": "Contractual recruitment for IFC Block Anchor and Senior CRP positions under UMED MSRLM."
-  },
-  {
-    "id": "uppsc-pcs-combined-state-services-2026",
-    "d": "28 jul 2026",
-    "b": "Uttar Pradesh Public Service Commission (UPPSC)",
-    "t": "Combined State / Upper Subordinate Services (PCS) Examination 2026 – ~500 Posts",
-    "q": "Bachelor's Degree in any discipline from recognized University (Postgraduate / specific degree for specialized posts)",
-    "a": "Advt. No. A-1/E-1/2026 Dated: 25/06/2026",
-    "l": "03-08-2026",
-    "u": "https://uppsc.up.nic.in",
-    "desc": "Uttar Pradesh Public Service Commission (UPPSC), Prayagraj invites online applications via OTR for ~500 posts under Combined State / Upper Subordinate Services (PCS) 2026 including SDM, DSP, BDO, ARTO, BSA, Treasury Officer & Naib Tehsildar. Apply online via uppsc.up.nic.in. Fee payment till 27 July & correction till 03 August 2026."
-  },
-  {
     "id": "verka-milkfed-punjab-deputy-manager-2026",
     "d": "28 jul 2026",
     "b": "The Punjab State Cooperative Milk Producers' Federation Ltd. (Verka / MILKFED)",
@@ -2124,28 +1178,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "High Court of Judicature at Patna (Patna High Court), Bihar invites online applications for 68 posts of Ex-Cadre Assistant (Group-C). Pay Level-4 (₹25,500 - ₹81,100). Apply online via patnahighcourt.gov.in from 28th July to 27th August 2026."
   },
   {
-    "id": "aiims-gorakhpur-senior-resident-2026",
-    "d": "28 jul 2026",
-    "b": "All India Institute of Medical Sciences (AIIMS Gorakhpur)",
-    "t": "Senior Resident (Anaesthesiology, Medicine, Surgery, Trauma, Radiology, Ortho, etc.) – 50 Posts",
-    "q": "PG Medical Degree (MD / MS / DNB) in respective specialty discipline + NMC / MCI Registration",
-    "a": "Advt No. AIIMS/GKP/RECT/SR/2026-27/169 dated 28/07/2026",
-    "l": "04-08-2026",
-    "u": "http://www.aiimsgorakhpur.edu.in",
-    "desc": "AIIMS Gorakhpur invites applications via Google Form for 50 Senior Resident posts in Level-11 (₹67,700 + NPA). Submit Google Form by 04th August 2026 (10 AM) and attend Walk-In Interview on 04th August 2026 at Admin Block, AIIMS Gorakhpur."
-  },
-  {
-    "id": "nitt-graduate-diploma-apprentice-2026",
-    "d": "28 jul 2026",
-    "b": "National Institute of Technology Tiruchirappalli (NIT Trichy)",
-    "t": "Graduate & Diploma Apprentice Trainees – 24 Posts",
-    "q": "B.E / B.Tech / Diploma in Engineering (Registered on NATS within 3 years of passing)",
-    "a": "F. No. NITT/R/RC/Apprentice/2026/1 dated 24/07/2026",
-    "l": "04-08-2026",
-    "u": "https://nats.education.gov.in",
-    "desc": "NIT Tiruchirappalli (NITT), Tamil Nadu invites online applications from Graduate and Diploma holders for 24 One-Year Apprentice Trainee positions under NATS. Monthly stipend ₹15,000 for Graduates & ₹14,000 for Diploma holders. Apply online via NATS portal by 04th August 2026."
-  },
-  {
     "id": "aai-kolkata-nscbi-apprentice-2026",
     "d": "28 jul 2026",
     "b": "Airports Authority of India (AAI NSCBI Airport Kolkata)",
@@ -2155,28 +1187,6 @@ export const JOBS_DATA: JobEntry[] = [
     "l": "24-08-2026",
     "u": "https://nats.education.gov.in",
     "desc": "Airports Authority of India (AAI), Netaji Subhash Chandra Bose International (NSCBI) Airport, Kolkata invites online applications from West Bengal domiciles for 38 One-Year Apprentice posts (Graduate, Diploma, ITI Trade) in Civil, Electrical, ECE, IT, Technical & COPA. Apply online via NATS / NAPS portals by 24th August 2026."
-  },
-  {
-    "id": "rtmnu-nagpur-assistant-professor-contractual-2026",
-    "d": "28 jul 2026",
-    "b": "Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU)",
-    "t": "Assistant Professor (Contractual Basis) – 139 Posts",
-    "q": "Master's Degree (Min 55%) + NET / SET or Ph.D in relevant subject / B.E/B.Tech/M.E/M.Tech / B.Pharm/M.Pharm / MBA",
-    "a": "Advt. No. RTMNU/GA/657 dated 24/07/2026",
-    "l": "10-08-2026",
-    "u": "https://www.nagpuruniversity.ac.in",
-    "desc": "Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU), Nagpur invites online applications for 139 temporary posts of Assistant Professor (Contractual) across Humanities, Social Sciences, Science & Tech, Commerce & Management, Fine Arts, Education, Law, and Specialized Centers on ₹40,000/month salary. Apply online by 10th August 2026."
-  },
-  {
-    "id": "up-bulandshahr-anganwadi-recruitment-2026",
-    "d": "27 jul 2026",
-    "b": "District Program Office Bulandshahr, WCD Uttar Pradesh",
-    "t": "Anganwadi Worker (255) & Anganwadi Helper (423) – 678 Posts",
-    "q": "12th (Intermediate) Pass (Female candidates resident of same Gram Sabha / Ward)",
-    "a": "Vigyapti/2026-27 dated 24/07/2026",
-    "l": "14-08-2026",
-    "u": "https://upanganwadibharti.in",
-    "desc": "Office of District Program Officer Bulandshahr, Dept of Women & Child Development UP invites online applications for 678 posts of Anganwadi Worker and Anganwadi Helper. Apply online via upanganwadibharti.in by 14th August 2026."
   },
   {
     "id": "tumakuru-district-court-stenographer-typist-2026",
@@ -2201,39 +1211,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "Rail Wheel Factory (RWF) Yelahanka, Bangalore invites offline applications against Sports Quota 2025-26 / 2026-27 for 15 posts in Level-2 and Level-1 in Badminton, Table Tennis, Cricket, Hockey, Football & Kabaddi. Apply offline by 24th August 2026."
   },
   {
-    "id": "pmmh-delhi-senior-resident-2026",
-    "d": "27 jul 2026",
-    "b": "Pt. Madan Mohan Malaviya Hospital (PMMMH), Govt. of NCT of Delhi",
-    "t": "Senior Resident (Radiology, Anesthesia, Obs & Gynae, Surgery, Medicine, Microbiology) – 10 Posts",
-    "q": "MBBS with PG Degree / Diploma or Non-PG with 2 Yrs Exp + DMC Registration",
-    "a": "Advt No. 08/2026 (F.1(9)302/Pt.MMMH/PF-10/SR/24/8122)",
-    "l": "30-07-2026",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfl4LGQLdMMabMoTmF14xlwMmF-DFNtbzgRz4ijnXy29hhrsw/viewform",
-    "desc": "Pt. Madan Mohan Malaviya Hospital (Govt. of NCT of Delhi), Malviya Nagar invites online registration and walk-in-interview for 10 Senior Resident posts on adhoc basis. Walk-in on 30th July 2026."
-  },
-  {
-    "id": "isro-mcf-hassan-apprentice-2026",
-    "d": "27 jul 2026",
-    "b": "Master Control Facility (MCF), ISRO, Hassan",
-    "t": "Graduate & Technician Apprentices (Engineering, Library Sci, BA, B.Com, B.Sc, Diploma) – 45 Posts",
-    "q": "BE / B.Tech / Graduation (BA, B.Com, B.Sc, Library Sci) / Diploma in Engineering & Commercial Practice (Passed 2022 to 2026)",
-    "a": "Circular No. MCF:ADMIN:02/10/03 dated 13/07/2026",
-    "l": "03-08-2026",
-    "u": "https://www.mcf.gov.in",
-    "desc": "Master Control Facility (MCF), ISRO Hassan invites offline/email applications for 45 Graduate and Technician Apprenticeship Trainees for 1-year training. Apply via email before 03rd August 2026."
-  },
-  {
-    "id": "daman-government-college-guest-lecturer-2026",
-    "d": "27 jul 2026",
-    "b": "Government College Daman, UT Administration of DNH & Daman & Diu",
-    "t": "Guest Lecturers (Botany, Chemistry, English, Mathematics, Zoology) – 12 Posts",
-    "q": "Post Graduate Degree (55%) in relevant subject with NET / SET / SLET or Ph.D.",
-    "a": "Advt No. GC/DMN/Guest Lecturers/2026-27/560 dated 24/07/2026",
-    "l": "06-08-2026",
-    "u": "https://www.govtcollegedaman.ac.in",
-    "desc": "Government College Daman (UT Administration of Dadra & Nagar Haveli and Daman & Diu) invites walk-in-interview applications for 12 Guest Lecturer posts in Botany, Chemistry, English, Maths, and Zoology. Walk-in on 06th August 2026."
-  },
-  {
     "id": "rajasthan-safai-karmchari-recruitment-2026",
     "d": "27 jul 2026",
     "b": "Local Self Government Department (DLB), Rajasthan",
@@ -2243,28 +1220,6 @@ export const JOBS_DATA: JobEntry[] = [
     "l": "28.09.2026 (11:59 PM)",
     "u": "https://sso.rajasthan.gov.in",
     "desc": "Department of Local Self Government (DLB), Rajasthan invites online applications for 24,752 Safai Karmchari posts across 183 Urban Local Bodies. Apply online via SSO Portal from 15th August to 28th September 2026."
-  },
-  {
-    "id": "assam-allied-healthcare-council-member-2026",
-    "d": "27 jul 2026",
-    "b": "Assam Allied and Healthcare Council (DME Assam)",
-    "t": "Part-Time Council Members (11 Healthcare Categories) – 22 Posts",
-    "q": "Postgraduate / Graduate / Diploma in Allied Health Discipline + 10 Years Experience",
-    "a": "Advt No. DME/AAHC/2026/87 dated 24/07/2026",
-    "l": "08-08-2026",
-    "u": "http://www.dmeassam.gov.in",
-    "desc": "Assam Allied and Healthcare Council (DME Assam) invites offline applications for nomination of 22 Part-Time Members across 11 professional categories. Apply within 15 days of notification."
-  },
-  {
-    "id": "nalco-medical-officer-specialist-2026",
-    "d": "27 jul 2026",
-    "b": "National Aluminium Company Limited (NALCO)",
-    "t": "Medical Officer (E02) & Specialist Doctors (E02 & E03) – 06 Posts",
-    "q": "MBBS / MD / MS / Post-MBBS Diploma in Respective Discipline + Relevant Experience",
-    "a": "Advt No. 10260301 dated 20/07/2026",
-    "l": "17-08-2026",
-    "u": "https://mudira.nalcoindia.co.in/Account/LoginBTv2.aspx?ReturnUrl=%2f",
-    "desc": "National Aluminium Company Limited (NALCO), a Navratna Central PSU, invites online applications for Medical Officer (E02) and Specialist (E02 & E03) posts. No application fee. Apply online by 17th August 2026."
   },
   {
     "id": "avnl-recruitment-2026",
@@ -2289,28 +1244,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "SPMCIL (Mini-Ratna PSU under Ministry of Finance) invites online applications for 24 Deputy Manager (IT) and Assistant Manager (HR, Finance, Materials, IT, OL, Safety) posts. Apply online by 24th August 2026."
   },
   {
-    "id": "esic-bhubaneswar-faculty-senior-resident-medical-officer-2026",
-    "d": "24 jul 2026",
-    "b": "ESIC Medical College & Hospital, Bhubaneswar (Odisha)",
-    "t": "Teaching Faculty, Senior Resident & Medical Officer – 122 Posts (Walk-In)",
-    "q": "MBBS / MD / MS / DNB / DM / M.Ch in relevant specialty (NMC / MCI registered)",
-    "a": "Advertisement No. 01 of 2026",
-    "l": "05-08-2026",
-    "u": "https://www.esic.gov.in",
-    "desc": "ESIC Medical College & Hospital, Bhubaneswar invites candidates for Walk-In-Interviews on 3rd & 5th August 2026 for 122 contractual posts of Teaching Faculty (Professor, Associate & Assistant Professor), Senior Resident, and Medical Officer."
-  },
-  {
-    "id": "esic-varanasi-faculty-senior-resident-tutor-2026",
-    "d": "24 jul 2026",
-    "b": "ESIC Medical College & Hospital, Pandeypur, Varanasi",
-    "t": "Teaching Faculty, Senior Resident & Tutor – 59 Posts (Walk-In)",
-    "q": "MBBS / MD / MS / DNB / DM / M.Ch in relevant specialty (NMC / MCI registered)",
-    "a": "Advertisement No. 04/2025",
-    "l": "05-08-2026",
-    "u": "https://www.esic.gov.in",
-    "desc": "ESIC Medical College & Hospital, Varanasi invites applications for 59 contractual posts of Professor, Assoc Prof, Asst Prof, Senior Resident, and Tutor across 20 medical disciplines. Email application form by 3rd August and walk-in on 4th & 5th August 2026."
-  },
-  {
     "id": "manit-bhopal-assistant-professor-faculty-2026",
     "d": "14 jul 2026",
     "b": "Maulana Azad National Institute of Technology (MANIT) Bhopal",
@@ -2320,17 +1253,6 @@ export const JOBS_DATA: JobEntry[] = [
     "l": "24.08.2026 (Till 05:30 PM IST)",
     "u": "https://manitrec.samarth.edu.in",
     "desc": "Maulana Azad National Institute of Technology (MANIT) Bhopal invites online applications for Assistant Professor Grade-I (Level-12) & Grade-II (Level-10) faculty positions across multiple departments. Apply online by 24th August 2026."
-  },
-  {
-    "id": "cgssb-assistant-teacher-lsat26-recruitment-2026",
-    "d": "24 jul 2026",
-    "b": "Chhattisgarh Staff Selection Board (CGSSB / CG Vyapam)",
-    "t": "Sahayak Shikshak (Assistant Teacher - LSAT26) Recruitment",
-    "q": "12th Pass (Min 50%) + D.El.Ed / B.Ed + CG TET or CTET Primary Level Passed",
-    "a": "Exam No. F-20/2026 / 3202",
-    "l": "21.08.2026 (Till 5:00 PM)",
-    "u": "https://cgssb.cgstate.gov.in",
-    "desc": "Chhattisgarh Staff Selection Board (CGSSB) invites online applications for Sahayak Shikshak (Assistant Teacher) written exam LSAT26 under Lok Shikshan Sanchalanalaya. Written exam on 11.10.2026. Apply online by 21st August 2026."
   },
   {
     "id": "mpsc-junior-scientific-officer-jso-2026",
@@ -2344,17 +1266,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "Mizoram Public Service Commission (MPSC) invites online applications for 12 Group B Non-Gazetted posts of Junior Scientific Officer (JSO) in Directorate of Forensic Science Laboratory (Home Dept) in Pay Level 7. Apply online by 27th August 2026."
   },
   {
-    "id": "ccras-research-fellow-consultant-young-professional-2026",
-    "d": "24 jul 2026",
-    "b": "Central Council for Research in Ayurvedic Sciences (CCRAS)",
-    "t": "Senior Research Fellow, Consultant & Young Professional – 17 Posts (Walk-In)",
-    "q": "PG (Stats/Maths/Sanskrit) / AYUSH Degree + MPH / MD/MS (Ayurveda) / Bachelor in Design",
-    "a": "Advertisement No. 04/2026",
-    "l": "06-08-2026",
-    "u": "https://www.ccras.nic.in",
-    "desc": "Central Council for Research in Ayurvedic Sciences (CCRAS), Ministry of Ayush invites candidates for Walk-In-Interview on 06.08.2026 at Janakpuri, New Delhi for 17 contractual posts of SRF, Senior Consultant, Consultant, and Young Professional."
-  },
-  {
     "id": "aai-eastern-region-apprentice-2026",
     "d": "28 jul 2026",
     "b": "Airports Authority of India (AAI Eastern Region)",
@@ -2364,17 +1275,6 @@ export const JOBS_DATA: JobEntry[] = [
     "l": "Check NATS / NAPS Portal",
     "u": "https://nats.education.gov.in",
     "desc": "Airports Authority of India (AAI), Eastern Region invites online applications from eligible candidates from West Bengal, Odisha, Bihar, Jharkhand, Chhattisgarh, Sikkim, and Andaman & Nicobar for 140 One-Year Apprentice posts (35 Graduate, 35 Diploma, 70 ITI) at RHQ Kolkata and Eastern Region Airports. Apply online via NATS/NAPS portals."
-  },
-  {
-    "id": "isro-scientist-engineer-sc-gate-2026",
-    "d": "28 jul 2026",
-    "b": "Indian Space Research Organisation (ISRO)",
-    "t": "Scientist / Engineer 'SC' (Electronics/Mechanical/CS/Civil/Electrical/R&AC/Architecture) – 92 Posts",
-    "q": "B.E / B.Tech / B.Arch with Min 65% Marks + Valid GATE Score",
-    "a": "CBC 49101/11/0007/2627 (ISRO ICRB)",
-    "l": "17-08-2026",
-    "u": "https://www.isro.gov.in",
-    "desc": "ISRO Centralised Recruitment Board (ICRB) invites online applications for 92 vacancies of Scientist/Engineer 'SC' (Group 'A' Gazetted, Pay Level 10 - ₹56,100) based on valid GATE score in Electronics, Mechanical, CS, Civil, Electrical, R&AC, and Architecture across ISRO Centres & PRL. Apply online by 17th August 2026."
   },
   {
     "id": "stpi-junior-hindi-translator-2026",
@@ -2421,83 +1321,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "Indian Army invites offline applications from gainfully employed Ex Armed Forces Commissioned Officers for selection as Territorial Army Officers (05 Posts - 04 Male, 01 Female) under Army Headquarters Selection Board (ASB). Apply offline by 25th August 2026."
   },
   {
-    "id": "upsc-principal-vice-principal-2026",
-    "d": "25 jul 2026",
-    "b": "Union Public Service Commission (UPSC)",
-    "t": "Principal & Vice Principal (Education Dept, GNCT Delhi) – 828 Posts",
-    "q": "Master's Degree + B.Ed + Teaching Exp (10 Yrs for Principal, 2-3 Yrs for Vice Principal)",
-    "a": "Special Advt No. 51/2026",
-    "l": "14-08-2026",
-    "u": "https://upsconline.nic.in/ora/",
-    "desc": "Union Public Service Commission (UPSC) invites online applications for recruitment to 828 posts of Principal (124) and Vice Principal (704) in the Education Department, Govt. of NCT of Delhi. Combined Recruitment Test (CRT) on 01st Nov 2026. Apply online by 14th August 2026."
-  },
-  {
-    "id": "tmb-relationship-manager-2026",
-    "d": "23 jul 2026",
-    "b": "Tamilnad Mercantile Bank Ltd. (TMB)",
-    "t": "Relationship Manager (Manager / Assistant Manager) – Various Posts",
-    "q": "Any Graduation or Post Graduation (Min 60%) + 2-3 Yrs Bank Experience",
-    "a": "Recruitment Advertisement – Relationship Manager",
-    "l": "03-08-2026",
-    "u": "https://www.ib.tmbonline.bank.in/tmb_careers/",
-    "desc": "Tamilnad Mercantile Bank Ltd. (TMB) invites online applications for Relationship Manager (Manager / Assistant Manager) positions across India. Candidates with Any Graduation/PG (60% Marks) and 2-3 years bank experience can apply online by 03rd August 2026."
-  },
-  {
-    "id": "aiims-norcet-11-nursing-officer-2026",
-    "d": "24 jul 2026",
-    "b": "All India Institute of Medical Sciences (AIIMS New Delhi)",
-    "t": "Nursing Officer Recruitment Common Eligibility Test (NORCET-11) – 2218+ Posts",
-    "q": "B.Sc Nursing / Post-Basic B.Sc Nursing OR GNM with 2 Yrs Hospital Exp",
-    "a": "103/2026",
-    "l": "13-08-2026",
-    "u": "https://www.aiimsexams.ac.in",
-    "desc": "AIIMS New Delhi invites online applications for Nursing Officer Recruitment Common Eligibility Test (NORCET-11) for 2218+ Nursing Officer (Group-B) posts across 19 AIIMS institutes, CAPFIMS, ESIC, and Central Govt hospitals. Apply online by 13th August 2026."
-  },
-  {
-    "id": "edcil-aai-consultants-recruitment-2026",
-    "d": "24 jul 2026",
-    "b": "EdCIL / Airports Authority of India (AAI)",
-    "t": "Senior Consultants & Consultants (Law, Psych, Corp Comm) – 10 Posts",
-    "q": "Graduate / Post Graduate / M.Phil (Psychology) / LLB / Mass Comm / Graphic Design / Video Editing",
-    "a": "10/2026, 11/2026 & 01/2026/CHQ/CN",
-    "l": "06-08-2026",
-    "u": "https://www.aai.aero",
-    "desc": "EdCIL (India) Limited on behalf of Airports Authority of India (AAI) invites online applications for 10 Senior Consultant & Consultant posts in Law, Clinical Psychology, and Corporate Communications at New Delhi. Monthly remuneration up to Rs 1.50 Lakh. Apply online by 6th August 2026."
-  },
-  {
-    "id": "hal-executive-posts-2026",
-    "d": "23 jul 2026",
-    "b": "Hindustan Aeronautics Limited (HAL)",
-    "t": "Various Executive Posts (Lateral Entry) – 30 Posts",
-    "q": "B.E/B.Tech/M.E/M.Tech or CA/ICWA + Relevant Experience",
-    "a": "HAL/CHRC-TM/RECT-01/2026",
-    "l": "12-08-2026",
-    "u": "https://www.hal-india.co.in",
-    "desc": "Hindustan Aeronautics Limited (HAL) invites online applications for recruitment of 30 Executive Posts including Finance Officer, Dy. Manager (Finance), and Manager (Design) via Lateral Entry. Apply online by 12th August 2026."
-  },
-  {
-    "id": "icsi-executive-assistant-2026",
-    "d": "22 jul 2026",
-    "b": "The Institute of Company Secretaries of India (ICSI)",
-    "t": "Executive Assistant – 20 Posts",
-    "q": "Graduate in Commerce (B.Com) + 3 Years Experience",
-    "a": "04/2026",
-    "l": "12-08-2026",
-    "u": "https://www.icsi.edu",
-    "desc": "The Institute of Company Secretaries of India (ICSI) invites online applications for recruitment of 20 Executive Assistants across India. Commerce graduates with 3 years experience can apply by 12th August 2026."
-  },
-  {
-    "id": "icar-nifmd-young-professional-ii-2026",
-    "d": "15 jul 2026",
-    "b": "ICAR-NIFMD",
-    "t": "Young Professional-II (YP-II) – 01 Post",
-    "q": "Graduation (Agri) with 1 Year Exp / Master's (Epidemiology/Stats/Public Health)",
-    "a": "Recruitment YP-II/LHDCP/25-26/8-27",
-    "l": "05-08-2026",
-    "u": "http://nifmd.res.in",
-    "desc": "ICAR - National Institute on Foot and Mouth Disease invites applications via email for one contractual post of Young Professional-II (YP-II) at Bhubaneswar, Odisha."
-  },
-  {
     "id": "aai-managers-junior-executives-2026",
     "d": "22 jul 2026",
     "b": "Airports Authority of India (AAI)",
@@ -2520,171 +1343,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "SIDBI invites online applications for 50 posts of Consultant Credit Analyst (CCA) on contractual basis. Qualified Chartered Accountants (CAs) can apply through ICAI Placements."
   },
   {
-    "id": "cr-presenting-officer-recruitment-2026",
-    "d": "21 jul 2026",
-    "b": "Central Railway (Vigilance Branch)",
-    "t": "Presenting Officer (Ex-Cadre) – 01 Post",
-    "q": "Graduate / Degree (Working Railway employee in Level-7 or Level-8 with 5 Years Service)",
-    "a": "G.130/C-125/Presenting Officer/V.Con",
-    "l": "31-07-2026",
-    "u": "https://cr.indianrailways.gov.in",
-    "desc": "Central Railway (Vigilance Branch, CSMT Mumbai) invites offline applications from regular employees of Central Railway for selection of 1 ex-cadre post of Presenting Officer in Level-7 on tenure basis. Apply by 31st July 2026."
-  },
-  {
-    "id": "isro-assistants-jpa-udc-recruitment-2026",
-    "d": "21 jul 2026",
-    "b": "Indian Space Research Organisation (ISRO)",
-    "t": "Assistants, Junior Personal Assistants (JPA), Upper Division Clerks (UDC) & Stenographers – 242 Posts",
-    "q": "Graduation / Diploma in Commercial/Secretarial Practice",
-    "a": "ISRO:ICRB:01(A-JPA):2026",
-    "l": "16-08-2026",
-    "u": "https://www.isro.gov.in",
-    "desc": "Indian Space Research Organisation (ISRO) invites online applications for recruitment of 242 Assistants, Junior Personal Assistants, Upper Division Clerks, and Stenographers. Apply online by 16th August 2026."
-  },
-  {
-    "id": "indian-army-ncc-special-entry-125",
-    "d": "21 jul 2026",
-    "b": "Indian Army",
-    "t": "NCC Special Entry Scheme 125th Course (April 2027) - Women – 06 Posts",
-    "q": "Graduation Degree with min 50% & NCC C Certificate (Min B Grade)",
-    "a": "SSCW (NCC)-125 (April 2027)",
-    "l": "21.08.2026 (15:00 HRS)",
-    "u": "https://www.joinindianarmy.nic.in",
-    "desc": "Join Indian Army via NCC Special Entry Scheme 125th Course (April 2027) for Unmarried Female Candidates. Total 06 vacancies. Apply online by 21 August 2026."
-  },
-  {
-    "id": "union-bank-recruitment-2026",
-    "d": "20 jul 2026",
-    "b": "Union Bank of India",
-    "t": "Specialist Officers & General Banking Officers (GBO) – 395 Posts",
-    "q": "Any Graduate, B.E/B.Tech, CA, MBA, LLB",
-    "a": "Recruitment Project 2026-27",
-    "l": "10-08-2026",
-    "u": "https://www.unionbankofindia.co.in",
-    "desc": "Union Bank of India (UBI) invites online applications for recruitment of 395 Specialist Officers and General Banking Officers (GBO) across various grades (Scale II to VI)."
-  },
-  {
-    "id": "pnb-lbo-recruitment-2026",
-    "d": "20 jul 2026",
-    "b": "Punjab National Bank (PNB)",
-    "t": "Local Bank Officer (LBO) – 545 Posts",
-    "q": "Any Graduate, 1 Year Bank Experience",
-    "a": "Recruitment of Local Bank Officers 2026",
-    "l": "09-08-2026",
-    "u": "https://www.pnbindia.in",
-    "desc": "Punjab National Bank (PNB) invites online applications for recruitment of 545 Local Bank Officers in JMGS-I scale. Required proficiency in specified local language."
-  },
-  {
-    "id": "nfr-act-apprentice-2026",
-    "d": "20 jul 2026",
-    "b": "Northeast Frontier Railway (NFR)",
-    "t": "NFR Act Apprentice – 6777 Posts",
-    "q": "10th, 12th, ITI",
-    "a": "NFR/NAPS/ACT APP./2026",
-    "l": "19-08-2026 at 17:30 Hrs",
-    "u": "https://www.nfr.indianrailways.gov.in",
-    "desc": "Northeast Frontier Railway (NFR) invites online applications for engagement of 6777 Act Apprentices for training under the Apprentices Act 1961."
-  },
-  {
-    "id": "indian-army-officer-70-posts-2026",
-    "d": "20 jul 2026",
-    "b": "Indian Army",
-    "t": "Officer (Short Service Commission Technical & Non-Technical) – 70 Posts",
-    "q": "B.E/B.Tech, Graduation, LLB",
-    "a": "Officer Entry Course (Apr 2027)",
-    "l": "20 August 2026 (15:00 Hrs)",
-    "u": "https://www.joinindianarmy.nic.in",
-    "desc": "The Indian Army invites online applications from unmarried male and female candidates for Short Service Commission (SSC) Officer entries for 70 posts."
-  },
-  {
-    "id": "irel-executives-recruitment-2026",
-    "d": "20 jul 2026",
-    "b": "IREL (India) Limited",
-    "t": "Executives (Technical & Non-Technical) – 73 Posts",
-    "q": "B.E./B.Tech, M.Sc, CA, MBA, MSW, LLB",
-    "a": "CO/HRM/35/2026",
-    "l": "10-08-2026",
-    "u": "https://irel.co.in",
-    "desc": "IREL (India) Limited, a CPSE under Department of Atomic Energy, invites online applications for 73 regular Executive posts across technical and non-technical disciplines."
-  },
-  {
-    "id": "wcl-recruitment-2026",
-    "d": "20 jul 2026",
-    "b": "Western Coalfields Limited (WCL)",
-    "t": "Mining Sirdar & Assistant Foreman (Electrical) – 444 Posts",
-    "q": "Matriculation with Mining Sirdar Certificate or Diploma (Mining/Electrical Engg)",
-    "a": "2026/69",
-    "l": "10-08-2026",
-    "u": "https://www.westerncoal.in",
-    "desc": "Western Coalfields Limited (WCL) invites online applications for 444 statutory supervisory positions, including Mining Sirdar and Assistant Foreman (Electrical) in Trainee Grade."
-  },
-  {
-    "id": "iaf-agniveervayu-musician-2026",
-    "d": "20 jul 2026",
-    "b": "Indian Air Force (IAF)",
-    "t": "Agniveervayu (Musician) Intake 01/2027 – Recruitment Rally",
-    "q": "Matriculation (10th Pass) with Music Proficiency & Certification",
-    "a": "INTAKE 01/2027",
-    "l": "02-08-2026",
-    "u": "https://iafrecruitment.edcil.co.in",
-    "desc": "Indian Air Force invites unmarried Indian male and female candidates for pre-registered recruitment rally as Agniveervayu (Musician) at New Delhi and Bengaluru."
-  },
-  {
-    "id": "indian-army-sscw-tech-68",
-    "d": "08 jul 2026",
-    "b": "Indian Army",
-    "t": "68th Short Service Commission (Technical) Women Course (Apr 2027) – 30 Posts",
-    "q": "B.Tech/B.E, Graduation",
-    "a": "SSCW(T)-68",
-    "l": "06-08-2026",
-    "u": "https://www.joinindianarmy.nic.in",
-    "desc": "Indian Army invites online applications from unmarried female engineering graduates and widows of defence personnel for 68th Short Service Commission (Technical) Women Course starting in April 2027."
-  },
-  {
-    "id": "rites-am-mechanical-2026",
-    "d": "17 jul 2026",
-    "b": "RITES",
-    "t": "Assistant Manager (Mechanical) – 24 Posts",
-    "q": "B.E/B.Tech (Mechanical/Production/Industrial/Automobile/Mechatronics)",
-    "a": "RG/11/26",
-    "l": "17-08-2026",
-    "u": "http://www.rites.com",
-    "desc": "RITES Limited, a Navratna CPSE under the Ministry of Railways, invites online applications for 24 Assistant Manager (Mechanical) vacancies on regular basis. Required 2 years experience."
-  },
-  {
-    "id": "icai-executive-officer-2026",
-    "d": "18 jul 2026",
-    "b": "ICAI",
-    "t": "Executive Officer – 50 Posts",
-    "q": "Chartered Accountant (CA)",
-    "a": "07/2026/HRD/04",
-    "l": "31-07-2026",
-    "u": "https://www.icai.org",
-    "desc": "The Institute of Chartered Accountants of India (ICAI) invites online applications for regular appointment of 50 Executive Officers. Chartered Accountants, including freshers, are eligible."
-  },
-  {
-    "id": "nicl-assistant-2026",
-    "d": "18 jul 2026",
-    "b": "NICL",
-    "t": "Assistant – 500 Posts",
-    "q": "Any Graduate",
-    "a": "Not Mentioned in Official Notification",
-    "l": "07-08-2026",
-    "u": "https://nationalinsurance.nic.co.in/recruitment/",
-    "desc": "National Insurance Company Limited (NICL) invites online applications for recruitment of 500 Assistants in Class III cadre from open market."
-  },
-  {
-    "id": "indian-army-officer-entries-2026",
-    "d": "17 jul 2026",
-    "b": "Indian Army",
-    "t": "JAG Entry Scheme 125th Course – 10 Posts",
-    "q": "Law Graduate (LLB) with minimum 55% aggregate marks from recognized University",
-    "a": "CBC 10601/11/0010/2627",
-    "l": "17-08-2026",
-    "u": "https://www.joinindianarmy.nic.in",
-    "desc": "The Army is recruiting law graduates as officers to serve as military legal advisors."
-  },
-  {
     "id": "iifcl-projects-individual-consultant-2026",
     "d": "17 jul 2026",
     "b": "IPL",
@@ -2696,171 +1354,6 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "IIFCL Projects Limited (IPL), a wholly owned subsidiary of IIFCL (a Govt. of India Enterprise), invites rolling applications for 65+ Individual Consultant positions across infrastructure, finance, legal, and IT fields."
   },
   {
-    "id": "beml-executive-2026",
-    "d": "17 jul 2026",
-    "b": "BEML",
-    "t": "Executive – 23 Posts",
-    "q": "B.E/B.Tech, M.E/M.Tech, Master's Degree",
-    "a": "KP/S/12/2026",
-    "l": "01-08-2026",
-    "u": "https://www.freejobalert.com/articles/beml-executive-recruitment-2026-apply-online-for-23-engineer-assistant-manager-and-more-posts-3057401",
-    "desc": "A defence and heavy-equipment manufacturer is hiring executives for engineering and management roles."
-  },
-  {
-    "id": "ongc-geologists-engineers-2026",
-    "d": "17 jul 2026",
-    "b": "ONGC",
-    "t": "Geologists, Engineers – 52 Posts",
-    "q": "B.Tech/B.E, M.Sc, M.E/M.Tech",
-    "a": "2/2026 (R&P)",
-    "l": "31-07-2026",
-    "u": "https://www.freejobalert.com/articles/ongc-graduate-trainee-recruitment-2026-apply-online-for-geologists-engineers-posts-3057609",
-    "desc": "India's top oil and gas explorer is hiring geologists and engineers as graduate trainees."
-  },
-  {
-    "id": "ncl-mining-sirdar-surveyor-2026",
-    "d": "16 jul 2026",
-    "b": "NCL",
-    "t": "Mining Sirdar, Surveyor – 259 Posts",
-    "q": "B.Tech/B.E, Diploma, 10TH",
-    "a": "NCL/SING/HR/Direct-Recruitment/2026-27/246",
-    "l": "05-08-2026",
-    "u": "https://www.freejobalert.com/articles/ncl-mining-sirdar-surveyor-recruitment-2026-3057766",
-    "desc": "A coal mining company is hiring supervisors and surveyors for its mines."
-  },
-  {
-    "id": "hpcl-apprentice-2026",
-    "d": "16 jul 2026",
-    "b": "HPCL",
-    "t": "Graduate Apprentice Trainee – 373 Posts",
-    "q": "B.Tech/B.E",
-    "a": "–",
-    "l": "31-07-2026",
-    "u": "https://www.freejobalert.com/articles/hpcl-graduate-apprentice-recruitment-2026-3058199",
-    "desc": "An oil refining company is offering apprentice training to fresh graduates."
-  },
-  {
-    "id": "rrb-section-controller",
-    "d": "15 jul 2026",
-    "b": "RRB",
-    "t": "Section Controller – 119 Posts",
-    "q": "Any Graduate",
-    "a": "03/2026",
-    "l": "14-08-2026",
-    "u": "https://www.freejobalert.com/articles/rrb-section-controller-recruitment-2026-apply-online-for-119-posts-3055121",
-    "desc": "Indian Railways is hiring controllers to manage and track train movement on the network."
-  },
-  {
-    "id": "cert-in-scientist-b-2026",
-    "d": "14 jul 2026",
-    "b": "CERT-In",
-    "t": "Scientist-B – 133 Posts",
-    "q": "B.E/B.Tech/M.Sc/MCA (CS/IT/Data Science/AI/Electronics/ECE)",
-    "a": "CERT-In/SCB/2026/1",
-    "l": "17-08-2026",
-    "u": "https://www.cert-in.org.in",
-    "desc": "Indian Computer Emergency Response Team (CERT-In) under MeitY invites online applications for 133 posts of Scientist-B on Direct Recruitment basis based on GATE 2024/2025/2026 scores. No experience required."
-  },
-  {
-    "id": "iocl-panipat-apprentice-2026",
-    "d": "14 jul 2026",
-    "b": "IOCL",
-    "t": "Apprentices – 1450 Posts",
-    "q": "B.A, B.Com, B.Sc, Diploma, ITI",
-    "a": "PR/P/Apprentice/60(2026-27)",
-    "l": "12-08-2026",
-    "u": "https://www.freejobalert.com/articles/iocl-panipat-refinery-apprentices-recruitment-2026-apply-online-for-1450-posts-3058245",
-    "desc": "IOCL's Panipat refinery is offering apprentice training across several trades."
-  },
-  {
-    "id": "ngel-deputy-general-manager-assistant-engineer-2026",
-    "d": "13 jul 2026",
-    "b": "NGEL",
-    "t": "Deputy General Manager, Assistant Engineer – 114 Posts",
-    "q": "B.Tech/B.E, Diploma",
-    "a": "02/26",
-    "l": "31-07-2026",
-    "u": "https://www.freejobalert.com/articles/ngel-recruitment-2026-apply-online-for-114-deputy-general-manager-assistant-manager-posts-3055902",
-    "desc": "NTPC's clean energy arm is hiring managers and engineers for its solar and green power projects."
-  },
-  {
-    "id": "upsc-recruitment-08-2026",
-    "d": "10 jul 2026",
-    "b": "UPSC",
-    "t": "Prosecutor, Specialist and More – 48 Posts",
-    "q": "LLB, MBBS, DNB, M.Sc, DM",
-    "a": "08/2026",
-    "l": "31-07-2026",
-    "u": "https://www.freejobalert.com/articles/upsc-recruitment-2026-apply-online-for-assistant-soil-chemist-prosecutor-and-more-posts-3057787",
-    "desc": "UPSC, India's top recruiting body, is filling specialist posts like prosecutors and doctors across departments."
-  },
-  {
-    "id": "nhsrcl-technician-2026",
-    "d": "07 jul 2026",
-    "b": "NHSRCL",
-    "t": "Technician – 237 Posts",
-    "q": "Diploma, ITI",
-    "a": "–",
-    "l": "05-08-2026",
-    "u": "https://www.freejobalert.com/articles/nhsrcl-technician-recruitment-2026-apply-online-for-237-posts-3057054",
-    "desc": "The company building India's bullet train is hiring technicians for construction and maintenance."
-  },
-  {
-    "id": "nhidcl-associate-2026",
-    "d": "06 jul 2026",
-    "b": "NHIDCL",
-    "t": "Associate – 100 Posts",
-    "q": "Graduation in Civil Engineering or equivalent (IIT/NIT/NIRF Top 100)",
-    "a": "Hiring Notice No. 07/2026",
-    "l": "05-08-2026",
-    "u": "https://www.nhidcl.com",
-    "desc": "National Highways & Infrastructure Development Corporation Limited (NHIDCL) invites online applications for 100 posts of Associates under the State Specific Graduate Scheme (SSGS) on contract."
-  },
-  {
-    "id": "ihmcl-systems-engineer-2026",
-    "d": "04 jul 2026",
-    "b": "IHMCL",
-    "t": "Systems Engineer – 30 Posts",
-    "q": "B.Tech/B.E",
-    "a": "IHMCL/HR/Recruit./03/2026/04",
-    "l": "02-08-2026",
-    "u": "https://www.freejobalert.com/articles/ihmcl-recruitment-2026-systems-engineer-3056704",
-    "desc": "The company that runs FASTag and highway toll systems is hiring IT engineers."
-  },
-  {
-    "id": "territorial-army-130-inf-bn-2026",
-    "d": "26 jun 2026",
-    "b": "Territorial Army",
-    "t": "Soldier – 69 Posts",
-    "q": "Matriculation (10th Pass) for Soldier General Duty / Tradesman",
-    "a": "CBC 10120/11/0005/2627",
-    "l": "08-08-2026",
-    "u": "https://www.130ta.com",
-    "desc": "A part-time volunteer army unit is recruiting soldiers through an open recruitment rally."
-  },
-  {
-    "id": "ccrum-recruitment-2026",
-    "d": "25 jun 2026",
-    "b": "CCRUM",
-    "t": "Staff Nurse, MTS and More – 179 Posts",
-    "q": "Any Graduate, B.Sc, B.Tech/B.E, Any Post Graduate, PG Diploma",
-    "a": "01/2026",
-    "l": "31-07-2026",
-    "u": "https://www.freejobalert.com/articles/ccrum-recruitment-2026-apply-online-for-176-staff-nurse-mts-and-more-posts-3053323",
-    "desc": "A body that researches Unani medicine is hiring nurses and helpers for its hospitals."
-  },
-  {
-    "id": "isro-istrac-apprentices-2026",
-    "d": "23 jun 2026",
-    "b": "ISRO ISTRAC",
-    "t": "Apprentices – 95 Posts",
-    "q": "B.Tech/B.E, B.Sc, Diploma, ITI, MLISc",
-    "a": "ISTRAC:01:2026",
-    "l": "31-07-2026",
-    "u": "https://www.istrac.gov.in",
-    "desc": "Government of India, Department of Space, ISRO Telemetry Tracking & Command Network (ISTRAC) invites applications from Graduate, Diploma, and Trade ITI Apprentices for the year 2026-2027."
-  },
-  {
     "id": "cuh-faculty-recruitment-2026",
     "b": "Central University of Haryana (CUH), Mahendergarh (Ministry of Education)",
     "t": "Central University of Haryana (CUH) Recruitment 2026 – Apply Online for 32 Faculty Vacancies (Professor, Associate Professor & Assistant Professor) in Science, Humanities & Engineering | Last Date 31 August 2026",
@@ -2870,17 +1363,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Master Degree / Ph.D in relevant discipline as per UGC / AICTE norms + NET / SLET (if applicable)",
     "desc": "Central University of Haryana (CUH), Mahendergarh invites online applications from Indian nationals for 32 posts of Professor, Associate Professor, and Assistant Professor across 12 departments (Chemistry, Mathematics, Physics, Political Science, Sociology, Economics, Law, Pharmaceutical Science, Printing & Packaging Tech, Civil Engg, Statistics, Geography) under Advt Nos. CUH/02/R/T/2026 and CUH/03/R/T/2026. Apply online by 31 August 2026 (11:00 PM).",
     "u": "https://www.cuh.ac.in"
-  },
-  {
-    "id": "ada-project-assistant-recruitment-2026",
-    "b": "Aeronautical Development Agency (ADA), Ministry of Defence, Govt of India, Bengaluru",
-    "t": "ADA Bengaluru Recruitment 2026 – Apply Online for 111 Project Assistant-I Vacancies in Engineering (CSE, ECE, Aero, EEE, Mech, Civil, Metallurgy) | Salary up to ₹37,000/pm + HRA | Last Date 13 August 2026",
-    "d": "03-08-2026",
-    "l": "13-08-2026",
-    "a": "ADA:ADV-138:2026",
-    "q": "B.E / B.Tech / M.E / M.Tech / B.Sc + M.Sc in relevant Engineering discipline (First Class)",
-    "desc": "Aeronautical Development Agency (ADA), Ministry of Defence invites online applications from Indian nationals for engagement of 111 Project Assistant-I positions on tenure basis in CSE, ECE, Aerospace, EEE, Mechanical, Metallurgy, and Civil Engineering disciplines in Bengaluru. Consolidated stipend ₹31,000/- to ₹37,000/- per month + HRA. Age limit 28 years. Apply online by 13 August 2026 (17:00 Hrs).",
-    "u": "https://ada.gov.in"
   },
   {
     "id": "csir-nal-project-staff-walk-in-recruitment-2026",
@@ -2905,28 +1387,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://careers.ntpc.co.in"
   },
   {
-    "id": "csc-aadhaar-supervisor-operator-recruitment-2026",
-    "b": "CSC e-Governance Services India Limited (MeitY)",
-    "t": "CSC Aadhaar Supervisor / Operator Recruitment 2026 – Apply Online for 348 District-Level Vacancies Across 12 States | 12th Pass / ITI / Diploma + UIDAI Certificate | Last Date 20 August 2026",
-    "d": "06-08-2026",
-    "l": "20-08-2026",
-    "a": "CSC/Aadhaar/2026",
-    "q": "12th Pass or ITI / Diploma + Valid UIDAI / NSEIT Aadhaar Operator/Supervisor Certificate",
-    "desc": "CSC e-Governance Services India Ltd. invites online applications for 348 district-level contractual posts of Aadhaar Supervisor & Operator across Bihar, UP, MP, CG, Maharashtra, Karnataka, Haryana, Punjab, Rajasthan, Odisha, and Goa. Remuneration as per State Minimum Wages. Last date to apply online is 20 August 2026.",
-    "u": "https://career.csccloud.in"
-  },
-  {
-    "id": "kea-land-surveyor-bhoomapaka-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA) / SSLR Dept",
-    "t": "KEA Land Surveyor (Bhoomapaka) Recruitment 2026 – Apply Online for 750 Posts (RPC 560 + KK 190) | B.Sc / B.E / B.Tech / Diploma / Agri / Sericulture | Last Date Extended 20 August 2026",
-    "d": "05-08-2026",
-    "l": "20-08-2026",
-    "a": "EDI/KEA/ADMN/RECRUITMENT-19/2026(K.K) & RD 42 FLR 2022",
-    "q": "Degree in Engineering/Tech OR B.Sc with Mathematics/Physics OR Diploma in Engineering OR B.Sc in Agriculture / Horticulture / Fisheries / Forestry / Sericulture",
-    "desc": "Karnataka Examinations Authority (KEA) & Survey Settlement and Land Records Department (SSLR) announce direct recruitment of 750 Land Surveyors (Bhoomapaka) including 560 Residual Parent Cadre (RPC) and 190 Kalyana Karnataka (KK) posts. Educational qualifications expanded and last date to apply online extended up to 20 August 2026 (Fee payment till 21 August 2026).",
-    "u": "https://cetonline.karnataka.gov.in/kea/"
-  },
-  {
     "id": "icds-sonbhadra-up-anganwadi-worker-recruitment-2026",
     "b": "Child Development Services & Nutrition, District Sonbhadra, Govt. of Uttar Pradesh",
     "t": "ICDS Sonbhadra UP Anganwadi Worker Recruitment 2026 – Apply Online for 201 Posts | 12th Pass Female Candidates | Last Date 26 August 2026",
@@ -2947,101 +1407,5 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E / B.Tech Degree OR Diploma in Engineering OR Non-Engineering Graduate (BA / B.Sc / B.Com / BBA / BCA) passed during 2022 to 2026",
     "desc": "Tamil Nadu State Transport Corporation (TNSTC) Corporations HQ Villupuram, Kumbakonam, Salem, Madurai, Tirunelveli, MTC Chennai, and SETC TN Ltd under BOAT (Southern Region) invite online applications for 1,518 One-Year Apprenticeship slots (457 Graduate Engg @ ₹12,300/mo, 438 Diploma Engg @ ₹10,900/mo, 623 Non-Engg Graduate). Apply online via NATS Portal by 28 August 2026.",
     "u": "https://nats.education.gov.in"
-  },
-  {
-    "id": "kea-grama-adhikari-vao-kalyana-karnataka-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA) / Revenue Dept",
-    "t": "KEA Grama Adhikari (VAO) Kalyana Karnataka Recruitment 2026 – Apply Online for 67 Group C Posts in Kalaburagi, Bidar & Raichur | PUC (12th Pass) / Diploma | Kannada Exam Oct 2026",
-    "d": "10-07-2026",
-    "l": "30-07-2026",
-    "a": "EDI/KEA/27/NE.VI./2026(K.K.)",
-    "q": "PUC (12th Pass / 10+2) OR 3-Year Diploma OR 2-Year ITI Course or equivalent",
-    "desc": "Karnataka Examinations Authority (KEA) invites online applications for direct recruitment of 67 Group-C Grama Adhikari (Village Administrative Officer - VAO) posts in Revenue Department for Kalyana Karnataka (KK) Region across Kalaburagi (40), Bidar (17), and Raichur (10) districts. Pay Scale ₹27,000 – ₹52,650. Compulsory Kannada Language Exam scheduled for 25 October 2026.",
-    "u": "https://cetonline.karnataka.gov.in/kea/"
-  },
-  {
-    "id": "kea-grama-adhikari-vao-rpc-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA) / Revenue Dept",
-    "t": "KEA Grama Adhikari (VAO) Residual Parent Cadre Recruitment 2026 – Apply Online for 505 Group C Posts across 21 Districts | PUC (12th Pass) / Diploma / ITI | Exam Oct 2026",
-    "d": "10-07-2026",
-    "l": "30-07-2026",
-    "a": "EDI/KEA/26/NE.VI./2026(RPC)",
-    "q": "PUC (12th Pass / 10+2) OR 3-Year Diploma OR 2-Year ITI Course or equivalent",
-    "desc": "Karnataka Examinations Authority (KEA) invites online applications for direct recruitment of 505 Group-C Grama Adhikari (Village Administrative Officer - VAO) posts in Revenue Department for Residual Parent Cadre (RPC) Region across 21 districts including Tumakuru, Mysuru, Mandya, Belagavi, Hassan, etc. Pay Scale ₹27,000 – ₹52,650. Competitive Offline OMR Exam scheduled for 04 October 2026.",
-    "u": "https://cetonline.karnataka.gov.in/kea/"
-  },
-
-  // ─── IBPS CRP CSA-XVI Clerk ──────────────────────────────────────────────
-  {
-    id: 'ibps-crp-csa-xvi-customer-service-associate-clerk-recruitment-2026',
-    b: 'Institute of Banking Personnel Selection (IBPS)',
-    t: 'IBPS Clerk Recruitment 2026 (CRP CSA-XVI) – Apply Online for 11,102 Customer Service Associate Vacancies in 11 Public Sector Banks | Prelims October 2026 | Last Date 21 August 2026',
-    d: '01-08-2026',
-    l: '21-08-2026',
-    a: 'CRP CSA-XVI (Vacancies of 2027-28) Dated 01.08.2026',
-    q: 'Graduation in Any Discipline from a Recognised University',
-    desc: 'IBPS has released CRP CSA-XVI notification for 11,102 Customer Service Associate (Clerk) vacancies across 11 public sector banks. Graduates aged 20–28 years can apply online at ibps.in by 21 August 2026. Prelims in October, Mains in December 2026. Basic pay Rs. 24,050/- per month.',
-    u: 'https://www.ibps.in',
-  },
-  // ─── ICMR NITHR Jabalpur Walk-in ─────────────────────────────────────────
-  {
-    id: 'icmr-nithr-jabalpur-scientist-technician-2026',
-    b: 'ICMR – National Institute for Tribal Health Research (NITHR), Jabalpur',
-    t: 'ICMR NITHR Jabalpur Walk-in Interview 2026 – Project Research Scientist I/II/III, Lab Technician, DEO & Technical Support – 16 Posts | Advt. No. 04/2026-27 | Walk-in 29 July 2026',
-    d: '27-07-2026',
-    l: '29-07-2026',
-    a: 'Advt. No. 04/2026-27 dated 29-07-2026',
-    q: 'MBBS/PhD/MSc/BSc as per post; relevant research experience',
-    desc: 'ICMR-NITHR Jabalpur invites walk-in applications for 16 project posts including Research Scientist (I/II/III), Lab Technician, DEO, and Technical Support. Emoluments: Scientist-III ₹78,000+HRA, Scientist-II ₹67,000+HRA, Lab Tech ₹20,000+HRA. Walk-in Interview on 29 July 2026.',
-    u: 'https://www.nirth.res.in',
-  },
-  // ─── ESIC Teaching Faculty (PGIMSRs / Medical Colleges) ──────────────────
-  {
-    id: 'esic-recruitment-2026',
-    b: "Employees' State Insurance Corporation (ESIC)",
-    t: 'ESIC Teaching Faculty Recruitment 2026 – 118 Professor / Associate Professor Vacancies in ESIC PGIMSRs & Medical Colleges | Apply Offline by 27 July 2026',
-    d: '19-05-2026',
-    l: '27-07-2026',
-    a: 'Not Mentioned in Official Notification',
-    q: 'MBBS + PG Degree (MD/MS/DNB); relevant teaching/clinical experience as per MCI/NMC norms',
-    desc: 'ESIC invites applications for 118 Teaching Faculty posts (Professor / Associate Professor) in ESIC PGIMSRs and Medical Colleges across India. Pay Level-13 (Rs. 1,23,100–2,15,900). Last date for offline application: 27 July 2026 (General); 03 August 2026 (Remote/NE).',
-    u: 'https://www.esic.gov.in',
-  },
-  // ─── RRB Technician CEN 02/2026 ──────────────────────────────────────────
-  {
-    id: 'rrb-technician-2026',
-    b: 'Railway Recruitment Boards (RRBs)',
-    t: 'RRB Technician Recruitment 2026 (CEN 02/2026) – Apply Online for 6,557 Technician Grade I Signal & Grade III Posts | Last Date 31 July 2026',
-    d: '30-06-2026',
-    l: '31-07-2026',
-    a: 'CEN No. 02/2026',
-    q: '10+2 / ITI / B.Sc (Physics / Electronics / CS) as per post; Age 18–36 years',
-    desc: 'Railway Recruitment Boards (RRBs) invite online applications for 6,557 Technician posts under CEN 02/2026 — Technician Gr-I Signal (Pay Level 5: ₹29,200/-) and Technician Gr-III (Pay Level 2: ₹19,900/-). Eligible candidates must apply at rrbapply.gov.in by 31 July 2026.',
-    u: 'https://rrbapply.gov.in',
-  },
-  // ─── PDIL Contract Engineers ──────────────────────────────────────────────
-  {
-    id: 'pdil-engineers-2026',
-    b: 'Projects & Development India Limited (PDIL)',
-    t: 'PDIL Engineer Recruitment 2026 – Apply Online for 153 Contract Engineer (Civil, Electrical, Mechanical, CS, HR, Safety) Posts | Advt HR/71/26/01 | Last Date 27 July 2026',
-    d: '07-07-2026',
-    l: '27-07-2026',
-    a: 'HR/71/26/01(Contract)',
-    q: 'B.E. / B.Tech or Diploma in relevant engineering discipline; experience as applicable',
-    desc: 'PDIL (Mini Ratna Category-I PSU) invites online applications for 153 contract Engineer posts across Civil, Electrical, Mechanical, Computer, Fire/Safety, HR, Instrumentation streams. Consolidated pay: Graduate Sc-4 ₹71,000/–; Diploma Sc-3 ₹40,000/–. Apply by 27 July 2026.',
-    u: 'https://www.pdilin.com',
-  },
-  // ─── Indian Navy SSC Officer AT-27 Course ────────────────────────────────
-  {
-    id: 'indian-navy-ssc-officer-2026',
-    b: 'The Indian Navy',
-    t: 'Indian Navy SSC Officer Recruitment 2026 (Jun 2027 AT-27 Course) – Apply Online for 275 Short Service Commission Officer Posts (Executive / Technical / Education) | Last Date 27 July 2026',
-    d: '25-06-2026',
-    l: '27-07-2026',
-    a: 'Jun 2027 (AT 27) Course',
-    q: 'B.E./B.Tech (60% marks) for Technical; Graduation (60%) for Executive/Education branches',
-    desc: 'Indian Navy invites online applications for 275 Short Service Commission (SSC) Officer posts for the Jun 2027 (AT-27) Course across Executive (GS/Hydro/Pilot/NAOO), Technical (Engineering/Electrical), and Education branches. Gross starting salary ~₹1,20,000/month. Apply online by 27 July 2026.',
-    u: 'https://www.joinindiannavy.gov.in',
-  },
-
+  }
 ];
