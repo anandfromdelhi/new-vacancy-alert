@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mahatma-gandhi-university-mgu-total-posts-recruitment-2026",
+    "b": "Mahatma Gandhi University (MGU)",
+    "t": "Mahatma Gandhi University (MGU) Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05 September 2026",
+    "a": "MAHATMA-GA/Rectt/2026",
+    "q": "Ph.D in Food Science and Nutrition/ relevant discipline with minimum 10 publicat...",
+    "desc": "Mahatma Gandhi University (MGU) has officially published an employment notification (Advertisement No: MAHATMA-GA/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "mahatma-gandhi-university-kerala-mgu-kerala-total-posts-recruitment-2026",
+    "b": "Mahatma Gandhi University, Kerala (MGU Kerala)",
+    "t": "Mahatma Gandhi University, Kerala (MGU Kerala) Recruitment 2026 – Apply Offline for 2 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05 September 2026",
+    "a": "157913/AD A4-3/2021/AD A 4",
+    "q": "BCA, BSc Computer Science, BSc IT, 3 year Diploma in Computer science, Diploma i...",
+    "desc": "Mahatma Gandhi University, Kerala (MGU Kerala) has officially published an employment notification (Advertisement No: 157913/AD A4-3/2021/AD A 4) for the recruitment of 2 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "kerala-high-court-total-posts-recruitment-2026",
+    "b": "Kerala High Court",
+    "t": "Kerala High Court Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "26-09-2026",
+    "a": "KERALA-HIG/Rectt/2026",
+    "q": "Plus Two or equivalent",
+    "desc": "Kerala High Court has officially published an employment notification (Advertisement No: KERALA-HIG/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "institute-for-stem-cell-science-and-regenerative-medicine-bric-instem-essential-qualification-experience-recruitment-2026",
+    "b": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM)",
+    "t": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM) Recruitment 2026 – Apply Online only for 14 Essential Qualification & Experience Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "INSTITUTE-/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM) has officially published an employment notification (Advertisement No: INSTITUTE-/Rectt/2026) for the recruitment of 14 Essential Qualification & Experience vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "the-federal-bank-limited-federal-bank-sales-officer---corporate-salary-recruitment-2026",
+    "b": "The Federal Bank Limited (Federal Bank)",
+    "t": "The Federal Bank Limited (Federal Bank) Recruitment 2026 – Apply Online for 1 Sales Officer - Corporate Salary Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "THE-FEDERA/Rectt/2026",
+    "q": "Graduation",
+    "desc": "The Federal Bank Limited (Federal Bank) has officially published an employment notification (Advertisement No: THE-FEDERA/Rectt/2026) for the recruitment of 1 Sales Officer - Corporate Salary vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "residential-schools-chatra-total-posts-recruitment-2026",
+    "b": "Residential Schools Chatra",
+    "t": "Residential Schools Chatra Recruitment 2026 – Apply Offline for 26 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "06 September 2026",
+    "a": "RESIDENTIA/Rectt/2026",
+    "q": "PG/Graduate B.Ed or teacher training degree in relevant subject, Graduate B.Ed o...",
+    "desc": "Residential Schools Chatra has officially published an employment notification (Advertisement No: RESIDENTIA/Rectt/2026) for the recruitment of 26 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "translational-health-science-and-technology-institute-thsti-total-posts-recruitment-2026",
+    "b": "Translational Health Science and Technology Institute (THSTI)",
+    "t": "Translational Health Science and Technology Institute (THSTI) Recruitment 2026 – Apply Walk-in for 6 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "TRANSLATIO/Rectt/2026",
+    "q": "Masters' degree with 6 years experience or Graduation degree with 8 years experi...",
+    "desc": "Translational Health Science and Technology Institute (THSTI) has officially published an employment notification (Advertisement No: TRANSLATIO/Rectt/2026) for the recruitment of 6 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-gandhinagar-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05 September 2026",
+    "a": "IP/70091/Adv0303",
+    "q": "PhD from reputed institution in India, Minimum 60% or equivalent from Graduation...",
+    "desc": "Indian Institute of Technology Gandhinagar has officially published an employment notification (Advertisement No: IP/70091/Adv0303) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "central-salt-marine-chemicals-research-institute-csir-csmcri-total-posts-recruitment-2026",
+    "b": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI)",
+    "t": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "09 September 2026",
+    "a": "CSIR-CSMCRI/SMC/FTT-050610/2026-27",
+    "q": "Bachelor's degree (B.E./B.Tech) in Civil Engineering",
+    "desc": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) has officially published an employment notification (Advertisement No: CSIR-CSMCRI/SMC/FTT-050610/2026-27) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "icar-indian-agricultural-research-institute-total-posts-recruitment-2026",
+    "b": "ICAR Indian Agricultural Research Institute",
+    "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 – Apply Email for 2 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05-09-2026",
+    "a": "ICAR-INDIA/Rectt/2026",
+    "q": "Masters in Plant Physiology/ Agricultural Physics/ Environmental Sciences/ Agron...",
+    "desc": "ICAR Indian Agricultural Research Institute has officially published an employment notification (Advertisement No: ICAR-INDIA/Rectt/2026) for the recruitment of 2 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "all-india-institute-of-medical-sciences-delhi-aiims-delhi-total-posts-recruitment-2026",
     "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
     "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 – Apply Online for 1 Total Posts Posts",
