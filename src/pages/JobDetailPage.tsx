@@ -1368,6 +1368,43 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'psssb-clerk-common-cadre-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-teal-950 rounded-2xl shadow-xl border-2 border-emerald-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      PSSSB Advt 02/2026 Corrigendum
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Level-2 Pay (₹19,900/mo)
+                    </span>
+                    <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      531 Posts Across 29 Depts
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    PSSSB Clerk (Common Cadre) Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Online applications reopened from <strong>25 August to 07 September 2026</strong> for 531 Clerk posts in Punjab Excise &amp; Taxation, Mandi Board, Revenue &amp; DC Offices.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://sssb.punjab.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on PSSSB Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -1900,7 +1937,7 @@ export default function JobDetailPage() {
                               <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">98 Posts</span>
                               <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Pay: ₹44,425 - ₹83,700</span>
                             </div>
-                            <h5 className="font-black text-slate-900 text-sm mb-1">1. Pharmacist Officer (ಫಾರ್ಮಸಿ ಆಫೀಸರ್)</h5>
+                            <h5 className="font-black text-slate-900 text-sm mb-1">1. Pharmacist Officer (ಫಾರ್ಮಸಿ ಆਫೀಸರ್)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
                               <strong>Qualification:</strong> Diploma in Pharmacy (D.Pharm) from a recognized institute + Must be registered with <strong>Karnataka Pharmacy Council</strong>.
                             </p>
@@ -1910,9 +1947,82 @@ export default function JobDetailPage() {
                               <span className="bg-teal-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">90 Posts</span>
                               <span className="text-xs font-black text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Pay: ₹54,175 - ₹99,400</span>
                             </div>
-                            <h5 className="font-black text-slate-900 text-sm mb-1">2. Nursing Officer (ನರ್ಸಿಂಗ್ ಆಫೀಸರ್ - ಶುಶ್ರೂಷಾಧಿಕಾರಿ)</h5>
+                            <h5 className="font-black text-slate-900 text-sm mb-1">2. Nursing Officer (ನರ್ಸಿಂಗ್ ಆਫೀಸರ್ - ಶುಶ್ರೂಷಾಧಿಕಾರಿ)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
                               <strong>Qualification:</strong> Diploma in General Nursing (GNM) OR B.Sc Nursing from authorized authority + Must be registered with <strong>Karnataka Nursing Council</strong>.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                    {id === 'psssb-clerk-common-cadre-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-emerald-600" /> Major Department-wise Vacancy Allocation
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">531 Total Across 29 Depts</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                          <div className="bg-white border border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">150 Posts</span>
+                              <span className="text-[11px] font-bold text-emerald-700">Field + Head Office</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">1. Excise &amp; Taxation Department</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              145 Posts in Field Offices + 5 Posts in Head Office.
+                            </p>
+                          </div>
+                          <div className="bg-white border border-teal-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-teal-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">90 Posts</span>
+                              <span className="text-[11px] font-bold text-teal-700">Mandi Board</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">2. Punjab State Agri Marketing Board</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Clerk vacancies across Mandi Board branches in Punjab.
+                            </p>
+                          </div>
+                          <div className="bg-white border border-blue-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">36 Posts</span>
+                              <span className="text-[11px] font-bold text-blue-700">District Office</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">3. DC Office Gurdaspur</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              District administration clerical cadre vacancies.
+                            </p>
+                          </div>
+                          <div className="bg-white border border-indigo-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">25 Posts</span>
+                              <span className="text-[11px] font-bold text-indigo-700">Statewide</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">4. Revenue &amp; Disaster Management</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Rehabilitation &amp; Disaster Management offices.
+                            </p>
+                          </div>
+                          <div className="bg-white border border-purple-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">45 Posts</span>
+                              <span className="text-[11px] font-bold text-purple-700">Barnala &amp; Moga</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">5. DC Barnala (24) &amp; DC Moga (21)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Collectorate offices across Malwa region.
+                            </p>
+                          </div>
+                          <div className="bg-white border border-amber-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-1.5">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">185 Posts</span>
+                              <span className="text-[11px] font-bold text-amber-700">23 Other Depts</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">6. Other 23 Punjab Departments</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Forest (18), Defence Welfare (17), DPR (16), DC Roopnagar (16), Sports (14), DC Faridkot (14), SBS Nagar (12), Malerkotla (12), Treasuries (11), Mansa (9), Jalandhar Div (7), Land Records (6), Dairy (6), Faridkot Div (6), Punjab Bhawan Delhi (5), Archives (3), Law (3), Hospitality (3), Culture (3), Fisheries (2), Prisons (2).
                             </p>
                           </div>
                         </div>
@@ -3529,6 +3639,34 @@ export default function JobDetailPage() {
                     <h5 className="font-black text-xs text-sky-300 mb-1">3. Bonafide Himachali Rule</h5>
                     <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
                       Condition of passing 10th/12th from HP school applies for Non-Bonafides. <strong>Bonafide Himachalis are 100% exempt</strong> from this condition.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {id === 'psssb-clerk-common-cadre-recruitment-2026' && (
+              <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
+                <h4 className="text-xs sm:text-sm font-black text-emerald-400 mb-3 flex items-center gap-2">
+                  <FileSignature className="h-4.5 w-4.5 text-emerald-400" /> PSSSB Clerk Mandatory Rules &amp; Typing Benchmarks
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-emerald-300 mb-1">1. Part-A Punjabi Test (50% Min)</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Securing <strong>at least 50% marks</strong> in Matric-level Punjabi language paper is mandatory. Scoring below 50% leads to immediate disqualification.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-emerald-300 mb-1">2. Raavi Font Typing (30 WPM)</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Computer typing test in English &amp; Punjabi at <strong>30 Words Per Minute (WPM)</strong>. Punjabi typing is strictly conducted in <strong>Unicode Raavi Font</strong>.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-slate-700 p-3.5 rounded-xl">
+                    <h5 className="font-black text-xs text-emerald-300 mb-1">3. 120-Hr ISO / O-Level Certificate</h5>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Must possess <strong>120-Hr IT/Computer course</strong> certificate from ISO 9001 certified / Govt recognized institute OR <strong>DOEACC O Level</strong> certificate.
                     </p>
                   </div>
                 </div>

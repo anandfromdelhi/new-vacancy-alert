@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "psssb-clerk-common-cadre-recruitment-2026",
+    "b": "Punjab Subordinate Services Selection Board (PSSSB), SAS Nagar (Mohali), Government of Punjab",
+    "t": "PSSSB Clerk (Common Cadre) Recruitment 2026 – Apply Online for 531 Vacancies across 29 Punjab Government Departments (Advt. No. 02/2026 Corrigendum)",
+    "d": "04 February 2026",
+    "l": "07 September 2026 (5:00 PM)",
+    "a": "Advt. No. 02/2026 (Corrigendum Notice Dated 21.08.2026)",
+    "q": "Bachelor Degree in any discipline + 120-Hr Computer Course / DOEACC O-Level + 10th Punjabi",
+    "desc": "Punjab Subordinate Services Selection Board (PSSSB / SSSB Punjab), Forest Complex, Sector-68, SAS Nagar (Mohali) has released a crucial Corrigendum Notice for Advertisement No. 02/2026 for recruitment to 531 Common Cadre Clerk (Group-C) vacancies across 29 Punjab Government Departments and District Administrative Offices.",
+    "u": "https://sssb.punjab.gov.in"
+},
+  {
     "id": "iocl-executive-cbt-recruitment-2026",
     "b": "Indian Oil Corporation Limited (IOCL)",
     "t": "IOCL Executive Recruitment 2026 through CBT – Apply Online for Graduate & Diploma Engineers, Officers & AQCO Posts | Advt No: IOCL/CO-HR/RECTT/2026/01 (Last Date: 03 September 2026)",
