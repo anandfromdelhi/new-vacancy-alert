@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "north-eastern-hill-university-nehu-shillong-meghalaya-guest-faculty-recruitment-2026",
+    "b": "North-Eastern Hill University (NEHU), Shillong, Meghalaya",
+    "t": "North-Eastern Hill University (NEHU), Shillong, Meghalaya Recruitment 2026 – Apply Online for 1 Guest Faculty Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "NORTH-EAST/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "North-Eastern Hill University (NEHU), Shillong, Meghalaya has officially published an employment notification (Advertisement No: NORTH-EAST/Rectt/2026) for the recruitment of 1 Guest Faculty vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "eklavya-model-residential-school-tamenglong-total-posts-recruitment-2026",
+    "b": "Eklavya Model Residential School Tamenglong",
+    "t": "Eklavya Model Residential School Tamenglong Recruitment 2026 – Apply Offline for 5 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "04-09-2026",
+    "a": "EKLAVYA-MO/Rectt/2026",
+    "q": "Bachelor's Degree as a subject, B.Ed",
+    "desc": "Eklavya Model Residential School Tamenglong has officially published an employment notification (Advertisement No: EKLAVYA-MO/Rectt/2026) for the recruitment of 5 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "bombay-high-court-aurangabad-bench-swayampaki-cook-recruitment-2026",
+    "b": "Bombay High Court, Aurangabad Bench",
+    "t": "Bombay High Court, Aurangabad Bench Recruitment 2026 – Apply Offline, by Speed Post only for 1 Swayampaki (Cook) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "BOMBAY-HIG/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Bombay High Court, Aurangabad Bench has officially published an employment notification (Advertisement No: BOMBAY-HIG/Rectt/2026) for the recruitment of 1 Swayampaki (Cook) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "icmr-national-institute-for-research-on-womens-health-total-posts-recruitment-2026",
+    "b": "ICMR National Institute for Research on Women's Health",
+    "t": "ICMR National Institute for Research on Women's Health Recruitment 2026 – Apply Walk-in for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "C-11015/120/2025-Admn/02/E-288459",
+    "q": "MBBS or equivalent, At least 12 years post-qualification experience",
+    "desc": "ICMR National Institute for Research on Women's Health has officially published an employment notification (Advertisement No: C-11015/120/2025-Admn/02/E-288459) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "maharashtra-state-electricity-transmission-company-limited-mahatransco-apprentice-recruitment-2026",
+    "b": "Maharashtra State Electricity Transmission Company Limited (MAHATRANSCO)",
+    "t": "Maharashtra State Electricity Transmission Company Limited (MAHATRANSCO) Recruitment 2026 – Apply Online for 1 Apprentice Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "MAHARASHTR/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Maharashtra State Electricity Transmission Company Limited (MAHATRANSCO) has officially published an employment notification (Advertisement No: MAHARASHTR/Rectt/2026) for the recruitment of 1 Apprentice vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "hll-lifecare-total-posts-recruitment-2026",
+    "b": "HLL Lifecare",
+    "t": "HLL Lifecare Recruitment 2026 – Apply Online for 6 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "02-09-2026",
+    "a": "HLL/HR/079/2026 and HLL/HR/080/2026",
+    "q": "Bachelor's Degree, M.Tech./M.E., Diploma",
+    "desc": "HLL Lifecare has officially published an employment notification (Advertisement No: HLL/HR/079/2026 and HLL/HR/080/2026) for the recruitment of 6 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "csir-national-environmental-engineering-research-institute-total-posts-recruitment-2026",
+    "b": "CSIR National Environmental Engineering Research Institute",
+    "t": "CSIR National Environmental Engineering Research Institute Recruitment 2026 – Apply Online for 2 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "28-08-2026",
+    "a": "RECRUIT_SD_10A_CRIAD_21082026",
+    "q": "B.E./ B. Tech in Civil / Environmental Engineering from recognized University",
+    "desc": "CSIR National Environmental Engineering Research Institute has officially published an employment notification (Advertisement No: RECRUIT_SD_10A_CRIAD_21082026) for the recruitment of 2 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-indore-iit-indore-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Indore (IIT Indore)",
+    "t": "Indian Institute of Technology Indore (IIT Indore) Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "31 August 2026",
+    "a": "IITI/DOP/ANRF-ECRG/2026/01",
+    "q": "Master's degree in Physics/Applied Physics/Theoretical Physics/Quantum Informati...",
+    "desc": "Indian Institute of Technology Indore (IIT Indore) has officially published an employment notification (Advertisement No: IITI/DOP/ANRF-ECRG/2026/01) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "sanjay-gandhi-thermal-power-station-sgtps-birsinghpur-under-madhya-pradesh-iti-apprentice-under-the-apprentices-act-1961-recruitment-2026",
+    "b": "Sanjay Gandhi Thermal Power Station (SGTPS), Birsinghpur, under Madhya Pradesh Power Generation Company Limited (MPPGCL)",
+    "t": "Sanjay Gandhi Thermal Power Station (SGTPS), Birsinghpur, under Madhya Pradesh Power Generation Company Limited (MPPGCL) Recruitment 2026 – Apply Online for 1 ITI Apprentice (under the Apprentices Act, 1961) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "SANJAY-GAN/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Sanjay Gandhi Thermal Power Station (SGTPS), Birsinghpur, under Madhya Pradesh Power Generation Company Limited (MPPGCL) has officially published an employment notification (Advertisement No: SANJAY-GAN/Rectt/2026) for the recruitment of 1 ITI Apprentice (under the Apprentices Act, 1961) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "dr-harisingh-gour-vishwavidyalaya-sagar-dhsgsu-total-posts-recruitment-2026",
+    "b": "Dr Harisingh Gour Vishwavidyalaya Sagar (DHSGSU)",
+    "t": "Dr Harisingh Gour Vishwavidyalaya Sagar (DHSGSU) Recruitment 2026 – Apply Walk-in for 4 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "DR-HARISIN/Rectt/2026",
+    "q": "B.E./ B.Tech./ B.S. & M.E./ M.Tech in relevant branch, First class or equivalent...",
+    "desc": "Dr Harisingh Gour Vishwavidyalaya Sagar (DHSGSU) has officially published an employment notification (Advertisement No: DR-HARISIN/Rectt/2026) for the recruitment of 4 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "mahatma-gandhi-university-mgu-total-posts-recruitment-2026",
     "b": "Mahatma Gandhi University (MGU)",
     "t": "Mahatma Gandhi University (MGU) Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
