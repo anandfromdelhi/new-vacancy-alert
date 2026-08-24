@@ -4,23 +4,44 @@ import os
 import json
 
 def load_jobs_data():
+    details_path = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'jobDetails.json')
     jobs_path = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'jobsData.ts')
-    details_path = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'jobDetails.ts')
     
     jobs = []
+    seen_ids = set()
     
+    if os.path.exists(details_path):
+        try:
+            with open(details_path, 'r', encoding='utf-8') as f:
+                details = json.load(f)
+                for jid, j in details.items():
+                    jobs.append({
+                        'id': jid,
+                        'board': j.get('board', ''),
+                        'title': j.get('title', ''),
+                        'advtNo': j.get('advtNo', '')
+                    })
+                    seen_ids.add(jid)
+        except Exception:
+            pass
+            
     if os.path.exists(jobs_path):
-        with open(jobs_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            # Extract items from JOBS_DATA array
-            entries = re.findall(r'\{\s*id:\s*[\'"]([^\'"]+)[\'"].*?b:\s*[\'"]([^\'"]+)[\'"].*?t:\s*[\'"]([^\'"]+)[\'"].*?a:\s*[\'"]([^\'"]+)[\'"]', content, re.DOTALL)
-            for j_id, b, t, a in entries:
-                jobs.append({
-                    'id': j_id,
-                    'board': b,
-                    'title': t,
-                    'advtNo': a
-                })
+        try:
+            with open(jobs_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                entries = re.findall(r'\"id\":\s*\"([^\"]+)\"[\s\S]*?\"b\":\s*\"([^\"]+)\"[\s\S]*?\"t\":\s*\"([^\"]+)\"[\s\S]*?\"a\":\s*\"([^\"]+)\"', content)
+                for j_id, b, t, a in entries:
+                    if j_id not in seen_ids:
+                        jobs.append({
+                            'id': j_id,
+                            'board': b,
+                            'title': t,
+                            'advtNo': a
+                        })
+                        seen_ids.add(j_id)
+        except Exception:
+            pass
+
     return jobs
 
 def check_duplicate(query_text, board_query="", advt_query=""):

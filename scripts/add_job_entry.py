@@ -79,6 +79,20 @@ def add_job_entry(json_filepath):
     else:
         print(f"[INFO] '{job_id}' already present in jobsData.ts")
 
+    # 3. Update jobUploadDates.json
+    upload_dates_file = "src/data/jobUploadDates.json"
+    if os.path.exists(upload_dates_file):
+        try:
+            with open(upload_dates_file, 'r', encoding='utf-8') as f:
+                upload_dates = json.load(f)
+        except Exception:
+            upload_dates = {}
+        if job_id not in upload_dates:
+            import datetime
+            upload_dates[job_id] = datetime.datetime.now().strftime("%Y-%m-%d")
+            with open(upload_dates_file, 'w', encoding='utf-8') as f:
+                json.dump(upload_dates, f, indent=2, ensure_ascii=False)
+
     print("\nJob successfully added! Run `npx tsx scripts/post-build.ts` to pre-render site pages.")
 
 if __name__ == "__main__":

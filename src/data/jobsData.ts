@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "central-pollution-control-board-cpcb-ministry-of-environment-forest-climate-monthly-emoluments-consolidated-recruitment-2026",
+    "b": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change",
+    "t": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change Recruitment 2026 – Apply Online only for 1 Monthly Emoluments (Consolidated) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "CENTRAL-PO/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change has officially published an employment notification (Advertisement No: CENTRAL-PO/Rectt/2026) for the recruitment of 1 Monthly Emoluments (Consolidated) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "esic-medical-college-hospital-bihta-patna-under-the-employees-state-vacancies-recruitment-2026",
+    "b": "ESIC Medical College & Hospital, Bihta, Patna – under the Employees' State Insurance Corporation, Ministry of Labour & Employment, Govt. of India",
+    "t": "ESIC Medical College & Hospital, Bihta, Patna – under the Employees' State Insurance Corporation, Ministry of Labour & Employment, Govt. of India Recruitment 2026 – Apply Online / Offline for 1 Vacancies Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "ESIC-MEDIC/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "ESIC Medical College & Hospital, Bihta, Patna – under the Employees' State Insurance Corporation, Ministry of Labour & Employment, Govt. of India has officially published an employment notification (Advertisement No: ESIC-MEDIC/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-patna-iit-patna-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Patna (IIT Patna)",
+    "t": "Indian Institute of Technology Patna (IIT Patna) Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "10-09-2026",
+    "a": "IITP/SA/2026-27/02",
+    "q": "Master's degree in Psychology, PG Diploma/ Certificate courses in General psycho...",
+    "desc": "Indian Institute of Technology Patna (IIT Patna) has officially published an employment notification (Advertisement No: IITP/SA/2026-27/02) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "nalanda-university-vacancies-recruitment-2026",
+    "b": "Nalanda University",
+    "t": "Nalanda University Recruitment 2026 – Apply Online (Google Form) for 19 Vacancies Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "NALANDA-UN/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Nalanda University has officially published an employment notification (Advertisement No: NALANDA-UN/Rectt/2026) for the recruitment of 19 Vacancies vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "central-university-of-south-bihar-cusb-total-posts-recruitment-2026",
+    "b": "Central University of South Bihar (CUSB)",
+    "t": "Central University of South Bihar (CUSB) Recruitment 2026 – Apply Email for 3 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "10-09-2026",
+    "a": "CENTRAL-UN/Rectt/2026",
+    "q": "Ph.D., M.Sc./ M.Tech., Graduate",
+    "desc": "Central University of South Bihar (CUSB) has officially published an employment notification (Advertisement No: CENTRAL-UN/Rectt/2026) for the recruitment of 3 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-guwahati-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati",
+    "t": "Indian Institute of Technology Guwahati Recruitment 2026 – Apply Online for 2 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "27-08-2026",
+    "a": "INDIAN-INS/Rectt/2026",
+    "q": "M.Des in Product Design or allied fields",
+    "desc": "Indian Institute of Technology Guwahati has officially published an employment notification (Advertisement No: INDIAN-INS/Rectt/2026) for the recruitment of 2 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026",
+    "b": "Indian Agricultural Research Institute (ICAR IARI)",
+    "t": "Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 – Apply Walk-in for 3 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "2-4/2024-R&P-Part(3) (E-436740)",
+    "q": "Graduation in Computer Applications/ Information Technology / Computer Science /...",
+    "desc": "Indian Agricultural Research Institute (ICAR IARI) has officially published an employment notification (Advertisement No: 2-4/2024-R&P-Part(3) (E-436740)) for the recruitment of 3 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "visakhapatnam-port-authority-vpa-trade-apprentice-recruitment-2026",
+    "b": "Visakhapatnam Port Authority (VPA)",
+    "t": "Visakhapatnam Port Authority (VPA) Recruitment 2026 – Apply Online for 20 Trade Apprentice Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "VISAKHAPAT/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Visakhapatnam Port Authority (VPA) has officially published an employment notification (Advertisement No: VISAKHAPAT/Rectt/2026) for the recruitment of 20 Trade Apprentice vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "acharya-ng-ranga-agricultural-university-angrau-total-posts-recruitment-2026",
+    "b": "Acharya N.G. Ranga Agricultural University (ANGRAU)",
+    "t": "Acharya N.G. Ranga Agricultural University (ANGRAU) Recruitment 2026 – Apply Walk-in for 11 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "ACHARYA-NG/Rectt/2026",
+    "q": "Ph.D in relevant subject OR Master's degree in relevant subject with 4/5 years o...",
+    "desc": "Acharya N.G. Ranga Agricultural University (ANGRAU) has officially published an employment notification (Advertisement No: ACHARYA-NG/Rectt/2026) for the recruitment of 11 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "one-stop-centre-sri-sathya-sai-total-posts-recruitment-2026",
+    "b": "One Stop Centre Sri Sathya Sai",
+    "t": "One Stop Centre Sri Sathya Sai Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "29 August 2026",
+    "a": "RC No. 20292/A/2025",
+    "q": "At least 2 years experience as security personnel in government or reputed organ...",
+    "desc": "One Stop Centre Sri Sathya Sai has officially published an employment notification (Advertisement No: RC No. 20292/A/2025) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "aiims-delhi-project-coordinator-ii-recruitment-2026",
     "b": "All India Institute of Medical Sciences (AIIMS), New Delhi",
     "t": "AIIMS New Delhi Recruitment 2026 – Apply for Project Coordinator-II (Department of Rheumatology) Post (Consolidated Pay ₹30,000/- Per Month)",
