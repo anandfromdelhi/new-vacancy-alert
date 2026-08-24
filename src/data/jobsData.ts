@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-sciences-jodhpur-salary-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur",
+    "t": "All India Institute of Medical Sciences Jodhpur Recruitment 2026 – Apply Walk-in for 2 Salary Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "AIIMS/JDH/NEO/2026/8/592",
+    "q": "Four-year Nursing Course with NICU experience or Graduate Degree (BMLT/BSc Micro...",
+    "desc": "All India Institute of Medical Sciences Jodhpur has officially published an employment notification (Advertisement No: AIIMS/JDH/NEO/2026/8/592) for the recruitment of 2 Salary vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "central-university-of-rajasthan-curaj-total-posts-recruitment-2026",
+    "b": "Central University of Rajasthan (CURAJ)",
+    "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "09 September 2026",
+    "a": "ANRF/PAIR/2025/000006/PAIR-A",
+    "q": "M.Sc. in Chemistry with ≥ 55% or equivalent CGPA, CSIR-UGC NET/GATE/equivalent q...",
+    "desc": "Central University of Rajasthan (CURAJ) has officially published an employment notification (Advertisement No: ANRF/PAIR/2025/000006/PAIR-A) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "punjab-agricultural-university-pau-total-posts-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "03-09-2026",
+    "a": "PUNJAB-AGR/Rectt/2026",
+    "q": "Graduate degree in any discipline (Preferably Agriculture/Botany), Knowledge of ...",
+    "desc": "Punjab Agricultural University (PAU) has officially published an employment notification (Advertisement No: PUNJAB-AGR/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "subordinate-services-selection-board-punjab-sssb-punjab-psssb-group-d-common-cadre---sewadar-chowkidar-safai-sewak-recruitment-2026",
+    "b": "Subordinate Services Selection Board, Punjab (SSSB Punjab / PSSSB)",
+    "t": "Subordinate Services Selection Board, Punjab (SSSB Punjab / PSSSB) Recruitment 2026 – Apply Online for 1401 Group-D (Common Cadre - Sewadar, Chowkidar, Safai Sewak, and other Group-D designations) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "SUBORDINAT/Rectt/2026",
+    "q": "Matriculation with Punjabi as a subject (exemptions apply - see Eligibility)",
+    "desc": "Subordinate Services Selection Board, Punjab (SSSB Punjab / PSSSB) has officially published an employment notification (Advertisement No: SUBORDINAT/Rectt/2026) for the recruitment of 1401 Group-D (Common Cadre - Sewadar, Chowkidar, Safai Sewak, and other Group-D designations) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "east-coast-railway-ecor-act-apprentice-25-designated-trades-recruitment-2026",
+    "b": "East Coast Railway (ECoR)",
+    "t": "East Coast Railway (ECoR) Recruitment 2026 – Apply Online for 1 Act Apprentice (25 designated trades) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "EAST-COAST/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "East Coast Railway (ECoR) has officially published an employment notification (Advertisement No: EAST-COAST/Rectt/2026) for the recruitment of 1 Act Apprentice (25 designated trades) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "women-and-child-development-department-odisha-total-posts-recruitment-2026",
+    "b": "Women and Child Development Department Odisha",
+    "t": "Women and Child Development Department Odisha Recruitment 2026 – Apply Offline for 8 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "03 September 2026",
+    "a": "12-4",
+    "q": "10th Pass, 8th Pass",
+    "desc": "Women and Child Development Department Odisha has officially published an employment notification (Advertisement No: 12-4) for the recruitment of 8 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-balangir-total-posts-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Balangir",
+    "t": "Odisha Adarsha Vidyalaya Balangir Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "08 September 2026",
+    "a": "001",
+    "q": "Refer to official notification",
+    "desc": "Odisha Adarsha Vidyalaya Balangir has officially published an employment notification (Advertisement No: 001) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Garudabasa",
+    "t": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "11-09-2026",
+    "a": "02",
+    "q": "B.A. / B.Sc. from recognized university, At least two years in hostel management",
+    "desc": "Odisha Adarsha Vidyalaya Garudabasa has officially published an employment notification (Advertisement No: 02) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "central-university-of-odisha-salary-recruitment-2026",
+    "b": "Central University of Odisha",
+    "t": "Central University of Odisha Recruitment 2026 – Apply Email for 4 Salary Posts",
+    "d": "24 August 2026",
+    "l": "25-08-2026",
+    "a": "CUO/DEDN/ICSSR/RP/PVTG/Advt./2026-27/01",
+    "q": "Graduate, Post Graduate, M.Phil/Ph.D.",
+    "desc": "Central University of Odisha has officially published an employment notification (Advertisement No: CUO/DEDN/ICSSR/RP/PVTG/Advt./2026-27/01) for the recruitment of 4 Salary vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "assam-rifles-public-school-total-posts-recruitment-2026",
+    "b": "Assam Rifles Public School",
+    "t": "Assam Rifles Public School Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05-09-2026",
+    "a": "ASSAM-RIFL/Rectt/2026",
+    "q": "Commerce graduate, Basic Computer Application course/ Diploma",
+    "desc": "Assam Rifles Public School has officially published an employment notification (Advertisement No: ASSAM-RIFL/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "north-eastern-hill-university-nehu-shillong-meghalaya-guest-faculty-recruitment-2026",
     "b": "North-Eastern Hill University (NEHU), Shillong, Meghalaya",
     "t": "North-Eastern Hill University (NEHU), Shillong, Meghalaya Recruitment 2026 – Apply Online for 1 Guest Faculty Posts",
