@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-delhi-project-coordinator-ii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), New Delhi",
+    "t": "AIIMS New Delhi Recruitment 2026 – Apply for Project Coordinator-II (Department of Rheumatology) Post (Consolidated Pay ₹30,000/- Per Month)",
+    "d": "21 August 2026",
+    "l": "31 August 2026 (5:00 PM)",
+    "a": "AIIMS/Rheumatology/Project-Coord/2026",
+    "q": "Master of Pharmacy (M.Pharm) from a recognized University / PCI Institute",
+    "desc": "All India Institute of Medical Sciences (AIIMS), New Delhi, an Autonomous Institute of National Importance under the Ministry of Health and Family Welfare, Government of India, has published an official employment notification for the contractual post of Project Coordinator-II in the Department of Rheumatology / Clinical Immunology.",
+    "u": "https://www.aiims.edu"
+},
+  {
+    "id": "aiia-child-counsellor-psychologist-recruitment-2026",
+    "b": "All India Institute of Ayurveda (AIIA), New Delhi, Ministry of Ayush, Government of India",
+    "t": "AIIA New Delhi Recruitment 2026 – Walk-in Interview for Child Counsellor cum Psychologist Post (Consolidated Pay ₹50,000/- Per Month)",
+    "d": "21 August 2026",
+    "l": "02 September 2026 (Reporting Time: 09:30 AM to 10:30 AM)",
+    "a": "AIIA/Rectt/Child-Counsellor/2026",
+    "q": "Master's Degree in Psychology (MA / M.Sc Psychology) from a recognized University",
+    "desc": "All India Institute of Ayurveda (AIIA), New Delhi, an Autonomous Apex Institute under the Ministry of Ayush, Government of India, has published an official walk-in recruitment notification for the contractual position of Child Counsellor cum Psychologist in the Kaumarbhritya (Pediatrics) Department / Child Healthcare Unit.",
+    "u": "https://aiia.gov.in"
+},
+  {
+    "id": "sainik-school-ambikapur-recruitment-2026",
+    "b": "Sainik School Ambikapur, Chhattisgarh, Sainik Schools Society, Ministry of Defence, Govt. of India",
+    "t": "Sainik School Ambikapur Recruitment 2026 – Apply Offline for 7 Laboratory Assistant, Matron, Band Master & Ward Boy Posts",
+    "d": "20 August 2026",
+    "l": "20 August 2026",
+    "a": "SSA/Recruitment/2026/01",
+    "q": "12th Pass / 12th Science / B.P.Ed / Music Degree or Band Master Course",
+    "desc": "Sainik School Ambikapur, located in Surguja district of Chhattisgarh and functioning under the aegis of Sainik Schools Society, Ministry of Defence, Government of India, has issued an official recruitment notification for filling 07 non-teaching and support staff vacancies on regular/contractual terms.",
+    "u": "https://www.sainikschoolambikapur.org.in"
+},
+  {
+    "id": "nit-raipur-research-associate-recruitment-2026",
+    "b": "National Institute of Technology (NIT), Raipur, Ministry of Education, Government of India",
+    "t": "NIT Raipur Recruitment 2026 – Apply for Research Associate (Department of Mathematics) Post (Stipend ₹58,800/- + HRA)",
+    "d": "20 August 2026",
+    "l": "14 September 2026 (5:00 PM)",
+    "a": "NITRR/Maths/2026/448",
+    "q": "Ph.D. in Mathematics from an INI/Recognized University",
+    "desc": "National Institute of Technology (NIT), Raipur, an Institute of National Importance (INI) under the Ministry of Education, Government of India, has released an official recruitment advertisement (Advt. No. NITRR/Maths/2026/448) for the temporary position of Research Associate (RA) in the Department of Mathematics.",
+    "u": "https://www.nitrr.ac.in"
+},
+  {
+    "id": "pgimer-consultant-paediatrics-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh",
+    "t": "PGIMER Chandigarh Recruitment 2026 – Apply for Consultant (Paediatrics) Post (Consolidated Pay ₹1,50,000/- Per Month)",
+    "d": "21 August 2026",
+    "l": "28 August 2026 (5:00 PM)",
+    "a": "PGIMER/Pedia/Consultant/2026",
+    "q": "MD (Paediatrics) from a recognized Medical College/NMC Institute",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh, an autonomous Institute of National Importance under the Ministry of Health and Family Welfare, Government of India, has published an employment circular for the engagement of 01 Consultant (Paediatrics) on a contractual basis in the Department of Pediatrics / Telemedicine Project.",
+    "u": "https://pgimer.edu.in"
+},
+  {
+    "id": "niper-guwahati-secretary-to-registrar-recruitment-2026",
+    "b": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, Ministry of Chemicals & Fertilizers, Govt. of India",
+    "t": "NIPER Guwahati Recruitment 2026 – Apply Online for Secretary to Registrar (Pay Level-8, 7th CPC) Post",
+    "d": "21 August 2026",
+    "l": "19 September 2026 (5:00 PM)",
+    "a": "Advt. Phase-14/2026/Secy-Registrar",
+    "q": "Bachelor's Degree in any discipline from a recognized University",
+    "desc": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, an Autonomous Institute of National Importance under the Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, Government of India, has published an official employment notification (Advt. Phase-14/2026) for the regular appointment of Secretary to Registrar.",
+    "u": "https://www.niperguwahati.ac.in"
+},
+  {
+    "id": "apsmha-non-official-member-recruitment-2026",
+    "b": "Arunachal Pradesh State Mental Health Authority (APSMHA), Directorate of Health Services / NHM, Government of Arunachal Pradesh",
+    "t": "APSMHA Recruitment 2026 – Apply Offline for 10 Non-Official Member Posts (Advt. No. SMHA/01/Correspondences/GOI/2024)",
+    "d": "14 August 2026",
+    "l": "14 August 2026",
+    "a": "SMHA/01/Correspondences/GOI/2024",
+    "q": "See eligibility",
+    "desc": "Arunachal Pradesh State Mental Health Authority (APSMHA), established under the statutory provisions of the Mental Healthcare Act, 2017 (MHCA 2017) by the Government of Arunachal Pradesh, has invited Letters of Expression / Applications from eligible professionals and representatives for appointment as Non-Official Members.",
+    "u": "https://nhm.arunachal.gov.in"
+},
+  {
+    "id": "dsh-kurnool-cas-recruitment-2026",
+    "b": "Directorate of Secondary Health (DSH) / DCHS, Kurnool, Government of Andhra Pradesh",
+    "t": "DSH Kurnool Recruitment 2026 – Walk-in Interview for 11 Civil Assistant Surgeon (Specialists & General) Posts",
+    "d": "22 August 2026",
+    "l": "27 August 2026 (10:00 AM onwards)",
+    "a": "DSH/KRN/CAS/2026",
+    "q": "MBBS / PG Degree / MD / MS / DNB / Diploma in relevant discipline + APMC Registration",
+    "desc": "Directorate of Secondary Health (DSH), District Coordinator of Hospital Services (DCHS), Kurnool, Government of Andhra Pradesh has issued an official recruitment circular for the engagement of 11 Civil Assistant Surgeon Specialists and Civil Assistant Surgeons (General) on a contract basis in government secondary health hospitals and community healthcare centres across Kurnool district.",
+    "u": "https://kurnool.ap.gov.in"
+},
+  {
+    "id": "sbc-visakhapatnam-group-c-recruitment-2026",
+    "b": "Ship Building Centre (SBC), Visakhapatnam, Ministry of Defence (R&D), Government of India",
+    "t": "SBC Visakhapatnam Group C Recruitment 2026 – Apply Online for 9 Construction Assistant, Handler, Fire Engine Driver & CMTD Posts (Advt. No. 3201/2026)",
+    "d": "22 August 2026",
+    "l": "14 September 2026 (23:00 hrs)",
+    "a": "3201/2026",
+    "q": "See eligibility",
+    "desc": "Ship Building Centre (SBC), Visakhapatnam, a premier strategic work centre operating under the Ministry of Defence (Research & Development), Government of India, has published an official employment notification (Advt. No. 3201/2026) inviting online applications from Indian citizens for General Central Service Group 'C' Technical and Non-Technical (Non-Gazetted, Non-Ministerial) positions.",
+    "u": "https://sbcrecruitment.in"
+},
+  {
+    "id": "dwcweo-eluru-recruitment-2026",
+    "b": "District Women & Child Welfare & Empowerment Office (DWCWEO), Eluru, Government of Andhra Pradesh",
+    "t": "DWCWEO Eluru Recruitment 2026 – Apply Offline for 8 Ayah, Cook, Doctor, Educator & Helper Posts (Advt. No. R.C.No.2/02/2024)",
+    "d": "21 August 2026",
+    "l": "31 August 2026 (5:00 PM)",
+    "a": "R.C.No.2/02/2024",
+    "q": "7th Pass / 10th Pass / Graduate (Commerce/Maths) / MBBS (Pediatrics)",
+    "desc": "District Women & Child Welfare & Empowerment Office (DWCWEO), Eluru, Government of Andhra Pradesh has released the official recruitment notification (Advt. No. R.C.No.2/02/2024) for filling 08 contractual vacancies in Specialized Adoption Agencies (SAA) and Child Care Institutions across Eluru district.",
+    "u": "https://eluru.ap.gov.in"
+},
+  {
     "id": "psssb-clerk-common-cadre-recruitment-2026",
     "b": "Punjab Subordinate Services Selection Board (PSSSB), SAS Nagar (Mohali), Government of Punjab",
     "t": "PSSSB Clerk (Common Cadre) Recruitment 2026 – Apply Online for 531 Vacancies across 29 Punjab Government Departments (Advt. No. 02/2026 Corrigendum)",
