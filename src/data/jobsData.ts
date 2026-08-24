@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indira-gandhi-rashtriya-uran-akademi-igrua-salary-recruitment-2026",
+    "b": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+    "t": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) Recruitment 2026 – Apply Email for 2 Salary Posts",
+    "d": "24 August 2026",
+    "l": "10-09-2026",
+    "a": "IGRUA/ADVT/28/2026",
+    "q": "Aircraft Maintenance Engineering/Mechanical Engineering or B.Sc Physics or B.Sc ...",
+    "desc": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) has officially published an employment notification (Advertisement No: IGRUA/ADVT/28/2026) for the recruitment of 2 Salary vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "all-india-institute-of-medical-sciences-gorakhpur-aiims-gorakhpur-total-posts-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur)",
+    "t": "All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) Recruitment 2026 – Apply Offline for 10 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "21 September 2026",
+    "a": "AIIMS/GKP/RECT/DEPUTATION/2026-27/208",
+    "q": "Medical qualification with PG and 10 years hospital admin experience, Graduate w...",
+    "desc": "All India Institute of Medical Sciences, Gorakhpur (AIIMS Gorakhpur) has officially published an employment notification (Advertisement No: AIIMS/GKP/RECT/DEPUTATION/2026-27/208) for the recruitment of 10 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-bhu-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology BHU",
+    "t": "Indian Institute of Technology BHU Recruitment 2026 – Apply Email for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "10 September 2026",
+    "a": "RISE/ECE/CSTUP/26-27/45/temp",
+    "q": "BE/BTech/ME/MTech in Electronics and Communication Engineering or related discip...",
+    "desc": "Indian Institute of Technology BHU has officially published an employment notification (Advertisement No: RISE/ECE/CSTUP/26-27/45/temp) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "noida-metro-rail-corporation-limited-nmrc-senior-section-engineer-senior-section-officer-recruitment-2026",
+    "b": "Noida Metro Rail Corporation Limited (NMRC)",
+    "t": "Noida Metro Rail Corporation Limited (NMRC) Recruitment 2026 – Apply Offline for 34 Senior Section Engineer, Senior Section Officer Posts",
+    "d": "24 August 2026",
+    "l": "22 September 2026",
+    "a": "NOIDA-METR/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Noida Metro Rail Corporation Limited (NMRC) has officially published an employment notification (Advertisement No: NOIDA-METR/Rectt/2026) for the recruitment of 34 Senior Section Engineer, Senior Section Officer vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "up-anganwadi-helper-anganwadi-helper-recruitment-2026",
+    "b": "UP Anganwadi Helper",
+    "t": "UP Anganwadi Helper Recruitment 2026 – Apply Online for 214 Anganwadi Helper Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "UP-ANGANWA/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "UP Anganwadi Helper has officially published an employment notification (Advertisement No: UP-ANGANWA/Rectt/2026) for the recruitment of 214 Anganwadi Helper vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "telangana-anganwadi-teacher-vacancies-recruitment-2026",
+    "b": "Telangana Anganwadi Teacher",
+    "t": "Telangana Anganwadi Teacher Recruitment 2026 – Apply Online for 1 Vacancies Posts",
+    "d": "24 August 2026",
+    "l": "02.09.2026, up to 5:00 PM",
+    "a": "TELANGANA-/Rectt/2026",
+    "q": "Intermediate (12th class) or equivalent",
+    "desc": "Telangana Anganwadi Teacher has officially published an employment notification (Advertisement No: TELANGANA-/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "district-health-society-cuddalore-dhs-cuddalore---under-national-monthly-salary-rs-recruitment-2026",
+    "b": "District Health Society, Cuddalore (DHS Cuddalore) - under National Health Mission",
+    "t": "District Health Society, Cuddalore (DHS Cuddalore) - under National Health Mission Recruitment 2026 – Apply Online for 54 Monthly Salary (Rs.) Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "DISTRICT-H/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "District Health Society, Cuddalore (DHS Cuddalore) - under National Health Mission has officially published an employment notification (Advertisement No: DISTRICT-H/Rectt/2026) for the recruitment of 54 Monthly Salary (Rs.) vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "national-institute-of-technology-tiruchirappalli-total-posts-recruitment-2026",
+    "b": "National Institute of Technology Tiruchirappalli",
+    "t": "National Institute of Technology Tiruchirappalli Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "29 August 2026",
+    "a": "NATIONAL-I/Rectt/2026",
+    "q": "B.E/B.Tech or equivalent with preferable M.E/M.Tech in CSE/IT or equivalent with...",
+    "desc": "National Institute of Technology Tiruchirappalli has officially published an employment notification (Advertisement No: NATIONAL-I/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "district-child-protection-unit-theni-total-posts-recruitment-2026",
+    "b": "District Child Protection Unit Theni",
+    "t": "District Child Protection Unit Theni Recruitment 2026 – Apply Offline for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "01 September 2026",
+    "a": "DISTRICT-C/Rectt/2026",
+    "q": "Graduate preferably in B.A in Social Work/ Sociology/ Social Sciences from a rec...",
+    "desc": "District Child Protection Unit Theni has officially published an employment notification (Advertisement No: DISTRICT-C/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "central-university-of-tamil-nadu-total-posts-recruitment-2026",
+    "b": "Central University of Tamil Nadu",
+    "t": "Central University of Tamil Nadu Recruitment 2026 – Apply Email for 8 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "26 August 2026",
+    "a": "CUTN/CC/GF/08/2026",
+    "q": "Master's degree with minimum 55% marks in the related field with NET/Ph.D or equ...",
+    "desc": "Central University of Tamil Nadu has officially published an employment notification (Advertisement No: CUTN/CC/GF/08/2026) for the recruitment of 8 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "all-india-institute-of-medical-sciences-jodhpur-salary-recruitment-2026",
     "b": "All India Institute of Medical Sciences Jodhpur",
     "t": "All India Institute of Medical Sciences Jodhpur Recruitment 2026 – Apply Walk-in for 2 Salary Posts",
