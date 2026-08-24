@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-sciences-delhi-aiims-delhi-total-posts-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05 September 2026",
+    "a": "ALL-INDIA-/Rectt/2026",
+    "q": "Master's/Postgraduate degree in Pharmaceutical Chemistry, Chemistry, or a relate...",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially published an employment notification (Advertisement No: ALL-INDIA-/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "acharyashree-bhikshu-govt-hospital-abgh-total-posts-recruitment-2026",
+    "b": "Acharyashree Bhikshu Govt Hospital (ABGH)",
+    "t": "Acharyashree Bhikshu Govt Hospital (ABGH) Recruitment 2026 – Apply Walk-in for 7 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "ACHARYASHR/Rectt/2026",
+    "q": "Post Graduate Degree (MD/ DNB/ DIPLOMA or equivalent in concerned stream)",
+    "desc": "Acharyashree Bhikshu Govt Hospital (ABGH) has officially published an employment notification (Advertisement No: ACHARYASHR/Rectt/2026) for the recruitment of 7 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "shri-lal-bahadur-shastri-national-sanskrit-university-slbsnsu-total-posts-recruitment-2026",
+    "b": "Shri Lal Bahadur Shastri National Sanskrit University (SLBSNSU)",
+    "t": "Shri Lal Bahadur Shastri National Sanskrit University (SLBSNSU) Recruitment 2026 – Apply Walk-in for 4 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "No.F.5(99xLib Trainee)/LBSNSU/Lib/2025/359",
+    "q": "Bachelor of Library and Information Science (BLIS), Master of Library & Informat...",
+    "desc": "Shri Lal Bahadur Shastri National Sanskrit University (SLBSNSU) has officially published an employment notification (Advertisement No: No.F.5(99xLib Trainee)/LBSNSU/Lib/2025/359) for the recruitment of 4 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "intelligent-communication-systems-india-icsil-total-posts-recruitment-2026",
+    "b": "Intelligent Communication Systems India (ICSIL)",
+    "t": "Intelligent Communication Systems India (ICSIL) Recruitment 2026 – Apply Walk-in for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "ICSIL/ RC/ 10-A/ Assistant Programmer/ PAO/ 2026-27",
+    "q": "Master's Degree in Computer Applications/ Information Technology, B.E/ B.Tech in...",
+    "desc": "Intelligent Communication Systems India (ICSIL) has officially published an employment notification (Advertisement No: ICSIL/ RC/ 10-A/ Assistant Programmer/ PAO/ 2026-27) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-institute-of-technology-delhi-iit-delhi-total-posts-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 – Apply Email for 2 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "03-09-2026",
+    "a": "IITD/IRD/RM00109G_SN/ 540871",
+    "q": "Bachelor's degree in Computer Science (BTech) or related discipline with dedicat...",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially published an employment notification (Advertisement No: IITD/IRD/RM00109G_SN/ 540871) for the recruitment of 2 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "shri-ram-college-of-commerce-delhi-srcc-total-posts-recruitment-2026",
+    "b": "Shri Ram College of Commerce Delhi (SRCC)",
+    "t": "Shri Ram College of Commerce Delhi (SRCC) Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "05-09-2026",
+    "a": "SHRI-RAM-C/Rectt/2026",
+    "q": "Master's Degree in Science/Technology/Relevant Discipline (Completed).",
+    "desc": "Shri Ram College of Commerce Delhi (SRCC) has officially published an employment notification (Advertisement No: SHRI-RAM-C/Rectt/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "dr-br-ambedkar-university-delhi-aud-a-state-university-established-vacancies-recruitment-2026",
+    "b": "Dr. B.R. Ambedkar University Delhi (AUD), a State University established through an Act of the Legislature of the NCT of Delhi",
+    "t": "Dr. B.R. Ambedkar University Delhi (AUD), a State University established through an Act of the Legislature of the NCT of Delhi Recruitment 2026 – Apply Online for 1 Vacancies Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "DR-BR-AMBE/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "Dr. B.R. Ambedkar University Delhi (AUD), a State University established through an Act of the Legislature of the NCT of Delhi has officially published an employment notification (Advertisement No: DR-BR-AMBE/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "delhi-cantonment-board-total-posts-recruitment-2026",
+    "b": "Delhi Cantonment Board",
+    "t": "Delhi Cantonment Board Recruitment 2026 – Apply Online for 1 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "07 September 2026",
+    "a": "DCB/IT/HA/2026",
+    "q": "Retired/Superannuated officers of the Army Medical Corps (AMC) holding the rank ...",
+    "desc": "Delhi Cantonment Board has officially published an employment notification (Advertisement No: DCB/IT/HA/2026) for the recruitment of 1 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "indian-council-of-social-science-research-icssr-total-posts-recruitment-2026",
+    "b": "Indian Council of Social Science Research (ICSSR)",
+    "t": "Indian Council of Social Science Research (ICSSR) Recruitment 2026 – Apply Email for 5 Total Posts Posts",
+    "d": "24 August 2026",
+    "l": "02 September 2026",
+    "a": "INDIAN-COU/Rectt/2026",
+    "q": "Post Graduate in Social Science discipline with NET/ M.Phil/ Ph.D.",
+    "desc": "Indian Council of Social Science Research (ICSSR) has officially published an employment notification (Advertisement No: INDIAN-COU/Rectt/2026) for the recruitment of 5 Total Posts vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
+    "id": "national-health-mission-nhm-chhattisgarh---office-of-the-vacancies-recruitment-2026",
+    "b": "National Health Mission (NHM) Chhattisgarh - Office of the Chief Medical & Health Officer (CMHO), Ambikapur, District Surguja",
+    "t": "National Health Mission (NHM) Chhattisgarh - Office of the Chief Medical & Health Officer (CMHO), Ambikapur, District Surguja Recruitment 2026 – Apply Offline for 1 Vacancies Posts",
+    "d": "24 August 2026",
+    "l": "Refer Notification",
+    "a": "NATIONAL-H/Rectt/2026",
+    "q": "Refer to official notification",
+    "desc": "National Health Mission (NHM) Chhattisgarh - Office of the Chief Medical & Health Officer (CMHO), Ambikapur, District Surguja has officially published an employment notification (Advertisement No: NATIONAL-H/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
+    "u": "https://t.me/FreeJobAlertOfficially"
+},
+  {
     "id": "central-pollution-control-board-cpcb-ministry-of-environment-forest-climate-monthly-emoluments-consolidated-recruitment-2026",
     "b": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change",
     "t": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change Recruitment 2026 – Apply Online only for 1 Monthly Emoluments (Consolidated) Posts",
