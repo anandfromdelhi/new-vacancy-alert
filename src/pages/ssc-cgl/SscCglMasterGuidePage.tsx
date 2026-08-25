@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglMasterGuidePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -182,7 +183,7 @@ export default function SscCglMasterGuidePage() {
       </div>
 
       {/* Main Content Hub */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 pb-24 space-y-10">
         
         {/* Visual Chapter Directory */}
         <section className="space-y-4">
@@ -325,8 +326,16 @@ export default function SscCglMasterGuidePage() {
         </section>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-master-guide" pageTitle="SSC CGL Master Guide Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-master-guide" pageTitle="SSC CGL Master Guide Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="The Ultimate SSC CGL Master Guide: Complete 360° Handbook & Resource Hub"
+        description="The definitive, exhaustive compendium for SSC Combined Graduate Level (CGL) examination."
+      />
     </div>
   );
 }

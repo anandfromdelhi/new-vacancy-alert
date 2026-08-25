@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglPostsSalaryPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -174,7 +175,7 @@ export default function SscCglPostsSalaryPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Article Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -424,8 +425,16 @@ export default function SscCglPostsSalaryPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-posts-salary-pay-scale-hierarchy" pageTitle="SSC CGL Posts & Salary Structure Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-posts-salary-pay-scale-hierarchy" pageTitle="SSC CGL Posts & Salary Structure Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL Posts Directory, Hierarchy & 7th Pay Salary Structure"
+        description="Exhaustive guide to all 34+ SSC CGL posts across Level 8, 7, 6, 5, and 4 with 7th Pay Commission in-hand salary calculations."
+      />
     </div>
   );
 }

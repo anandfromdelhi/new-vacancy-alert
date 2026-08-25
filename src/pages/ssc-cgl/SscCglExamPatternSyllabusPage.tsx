@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglExamPatternSyllabusPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -89,7 +90,7 @@ export default function SscCglExamPatternSyllabusPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -359,8 +360,16 @@ export default function SscCglExamPatternSyllabusPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-exam-pattern-syllabus-dest-typing" pageTitle="SSC CGL Exam Pattern & Syllabus Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-exam-pattern-syllabus-dest-typing" pageTitle="SSC CGL Exam Pattern & Syllabus Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL New Exam Pattern, Detailed Syllabus & DEST Typing Benchmark"
+        description="Detailed analysis of SSC CGL Tier-I qualifying structure, Tier-II 390-mark composite merit scheme, and DEST typing error benchmarks."
+      />
     </div>
   );
 }

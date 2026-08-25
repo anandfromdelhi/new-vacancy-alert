@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglSelectionDvPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -97,7 +98,7 @@ export default function SscCglSelectionDvPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -271,8 +272,16 @@ export default function SscCglSelectionDvPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-admit-card-selection-dv-checklist" pageTitle="SSC CGL Selection & DV Checklist Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-admit-card-selection-dv-checklist" pageTitle="SSC CGL Selection & DV Checklist Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL Admit Card, Selection Stages & DV Checklist"
+        description="Comprehensive guide to SSC CGL regional admit cards, examination stages from Tier-I to joining, departmental Document Verification (DV) checklist."
+      />
     </div>
   );
 }

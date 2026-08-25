@@ -18,6 +18,7 @@ import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
+import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 import { useAuth } from '../context/AuthContext';
 
 export default function NorcetCutoffArticle() {
@@ -873,54 +874,20 @@ export default function NorcetCutoffArticle() {
 
 
       {/* Comments & Discussion */}
-      <div className="max-w-6xl mx-auto px-4 mt-8 print:hidden">
+      <div id="comments-section" className="max-w-6xl mx-auto px-4 mt-8 print:hidden">
         <CommentsSection pageId="norcet-cutoff" pageTitle="AIIMS NORCET Cutoff Marks & Analysis" />
       </div>
 
       {/* Priority Push Notification Subscription Settings at Bottom */}
-      <div className="max-w-6xl mx-auto px-4 mt-8 pb-12 print:hidden">
+      <div className="max-w-6xl mx-auto px-4 mt-8 pb-24 print:hidden">
         <SubscribeWidget mode="bottom" />
       </div>
 
-      {/* Mobile Sticky Bottom Navigation Bar */}
-      <div className="lg:hidden fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_25px_-5px_rgba(0,0,0,0.15)] z-40 px-2.5 py-2 flex items-center justify-between gap-2 safe-area-bottom print:hidden">
-        {/* Prominent Download Button on Left */}
-        <button
-          onClick={startPdfDownload}
-          className="flex items-center justify-center gap-1 bg-gradient-to-r from-violet-600 via-indigo-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-black px-2 py-1.5 rounded-lg shadow-sm shadow-indigo-200/80 border border-indigo-400/30 cursor-pointer shrink-0 active:scale-95 transition-all"
-        >
-          <Download className="h-3.5 w-3.5 shrink-0 text-white" />
-          <span className="text-[10px] font-black leading-tight whitespace-nowrap">Save PDF</span>
-        </button>
-
-        {/* Navigation Items */}
-        <div className="flex items-center justify-around flex-1 gap-1">
-          {navItems.slice(0, 2).map((item) => {
-            const Icon = item.icon;
-            const isActive = activeSection === item.id;
-            return (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className={`flex flex-col items-center justify-center py-0.5 px-1.5 rounded-lg cursor-pointer transition-colors ${isActive ? 'text-blue-600 font-extrabold' : 'text-slate-500 font-semibold'}`}
-              >
-                <Icon className="h-4 w-4" />
-                <span className="text-[9px]">{item.label}</span>
-              </button>
-            )
-          })}
-
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`flex flex-col items-center justify-center py-0.5 px-1.5 rounded-lg cursor-pointer transition-colors ${isMobileMenuOpen ? 'text-blue-600 font-extrabold' : 'text-slate-500 font-semibold'}`}
-          >
-            <div className="relative">
-              <ListChecks className="h-4 w-4" />
-            </div>
-            <span className="text-[9px]">More</span>
-          </button>
-        </div>
-      </div>
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="AIIMS NORCET 11 Expected Cutoff Marks & Rank Analysis 2026"
+        description="Detailed category-wise analysis of NORCET 8, 9, and 10 cutoffs. Predict expected cutoffs for NORCET 11."
+      />
 
       {/* Mobile Expandable Overlay Menu */}
       {isMobileMenuOpen && (

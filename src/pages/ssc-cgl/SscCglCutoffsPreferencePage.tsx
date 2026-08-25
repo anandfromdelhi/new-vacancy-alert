@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglCutoffsPreferencePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -92,7 +93,7 @@ export default function SscCglCutoffsPreferencePage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -274,8 +275,16 @@ export default function SscCglCutoffsPreferencePage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-cutoffs-post-preference-ranking-guide" pageTitle="SSC CGL Cutoffs & Post Preference Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-cutoffs-post-preference-ranking-guide" pageTitle="SSC CGL Cutoffs & Post Preference Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL Cut-Off Trends & Post Preference Ranking Guide"
+        description="Strategic post preference guide for SSC CGL: Practical rankings across ASO CSS, MEA, Income Tax Inspector, and Excise with historical cut-off analysis."
+      />
     </div>
   );
 }

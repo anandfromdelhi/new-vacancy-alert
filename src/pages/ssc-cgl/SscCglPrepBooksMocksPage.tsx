@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglPrepBooksMocksPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -94,7 +95,7 @@ export default function SscCglPrepBooksMocksPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -313,8 +314,16 @@ export default function SscCglPrepBooksMocksPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-preparation-strategy-study-plan-books-mocks" pageTitle="SSC CGL 12-Month Preparation Plan Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-preparation-strategy-study-plan-books-mocks" pageTitle="SSC CGL 12-Month Preparation Plan Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL 12-Month Preparation Roadmap, Books & Mock Strategy"
+        description="Step-by-step SSC CGL study plan: 12-month zero-to-hero roadmap, daily 8-hour timetable, subject-wise booklist, and 3-round mock test taking technique."
+      />
     </div>
   );
 }

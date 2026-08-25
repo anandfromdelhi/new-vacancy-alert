@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import MarketingPartnerBanner from '../../components/MarketingPartnerBanner';
 import CommentsSection from '../../components/CommentsSection';
+import ArticleStickyBottomBar from '../../components/ArticleStickyBottomBar';
 
 export default function SscCglNotificationVacanciesPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -78,7 +79,7 @@ export default function SscCglNotificationVacanciesPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
         
         {/* Article Header */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-4">
@@ -436,8 +437,16 @@ export default function SscCglNotificationVacanciesPage() {
         </div>
 
         <MarketingPartnerBanner />
-        <CommentsSection pageId="ssc-cgl-notification-vacancies-trend" pageTitle="SSC CGL Notification & Vacancy Trends Discussion" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-cgl-notification-vacancies-trend" pageTitle="SSC CGL Notification & Vacancy Trends Discussion" />
+        </div>
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC CGL Notification Dates, 5-Year Vacancy Trends & Timeline Analysis"
+        description="Comprehensive historical analysis of SSC CGL notification release patterns and 5-year vacancy trends."
+      />
     </div>
   );
 }

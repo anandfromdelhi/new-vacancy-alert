@@ -32,6 +32,7 @@ import TaxRegimeComparison from '../components/salary/TaxRegimeComparison';
 import JobsByLevelSection from '../components/salary/JobsByLevelSection';
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
+import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export default function SalaryCalculatorArticle() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -731,12 +732,20 @@ export default function SalaryCalculatorArticle() {
 
 
         {/* Comments & Discussion */}
-        <CommentsSection pageId="salary-calculator" pageTitle="7th CPC Salary Calculator" />
+        <div id="comments-section">
+          <CommentsSection pageId="salary-calculator" pageTitle="7th CPC Salary Calculator" />
+        </div>
 
         {/* Priority Push Notification Subscription Bar */}
         <SubscribeWidget mode="bottom" />
 
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="7th Pay Commission Salary Calculator 2026: DA, HRA, NPS & In-Hand Salary"
+        description="Calculate exact Central and State Government employee salary. Determine Gross Pay, DA, HRA, TA, NPS deductions, and final In-Hand Net Salary across all Pay Levels."
+      />
 
       {/* Official Printable Salary Slip Modal */}
       <SalarySlipModal

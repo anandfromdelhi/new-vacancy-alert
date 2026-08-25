@@ -12,6 +12,7 @@ import {
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import CommentsSection from '../components/CommentsSection';
 import SubscribeWidget from '../components/SubscribeWidget';
+import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export default function RrbNtpcBestBooksPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -156,7 +157,7 @@ export default function RrbNtpcBestBooksPage() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-24 space-y-8">
 
         {/* Hero Header Card */}
         <header className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-xs space-y-5">
@@ -1016,9 +1017,17 @@ export default function RrbNtpcBestBooksPage() {
         <SubscribeWidget />
 
         {/* Comments Section */}
-        <CommentsSection articleId="best-books-for-rrb-ntpc" articleTitle="Best Books for RRB NTPC 2026: Subject-Wise Best Books for Maths, Reasoning, GK & Previous Year Papers" />
+        <div id="comments-section">
+          <CommentsSection pageId="best-books-for-rrb-ntpc" pageTitle="Best Books for RRB NTPC 2026: Subject-Wise Best Books for Maths, Reasoning, GK & Previous Year Papers" />
+        </div>
 
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="Best Books for RRB NTPC 2026: Subject-Wise Best Books for Maths, Reasoning, GK & Previous Year Papers"
+        description="Comprehensive guide to the best books for RRB NTPC 2026 preparation: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies."
+      />
     </div>
   );
 }

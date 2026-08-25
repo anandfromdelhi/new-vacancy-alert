@@ -12,6 +12,7 @@ import { sscCalendarData, sscRevisionHistory, sscFaqs, SscExamEvent } from '../d
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
+import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 import { useAuth } from '../context/AuthContext';
 
 export default function SscCalendarArticle() {
@@ -470,12 +471,20 @@ export default function SscCalendarArticle() {
 
 
         {/* Comments & Discussion */}
-        <CommentsSection pageId="ssc-calendar" pageTitle="SSC Exam Calendar" />
+        <div id="comments-section">
+          <CommentsSection pageId="ssc-calendar" pageTitle="SSC Exam Calendar" />
+        </div>
 
         {/* Subscribe Widget at Bottom */}
         <SubscribeWidget mode="bottom" />
 
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="SSC Exam Calendar 2026-2027: Notification, Last Date, Admit Card, Exam Date"
+        description="Check the latest SSC Exam Calendar with notification dates, application deadlines, admit cards, exam schedules, and results updated direct from ssc.gov.in."
+      />
     </div>
   );
 }

@@ -12,6 +12,7 @@ import {
 import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
+import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 import { useAuth } from '../context/AuthContext';
 
 export default function RrbCalendarArticle() {
@@ -1183,12 +1184,20 @@ export default function RrbCalendarArticle() {
 
 
         {/* Comments & Discussion */}
-        <CommentsSection pageId="rrb-calendar" pageTitle="RRB Exam Calendar 2026-27" />
+        <div id="comments-section">
+          <CommentsSection pageId="rrb-calendar" pageTitle="RRB Exam Calendar 2026-27" />
+        </div>
 
         {/* Push Notification Subscription Bar at Bottom */}
         <SubscribeWidget mode="bottom" />
 
       </div>
+
+      {/* Sticky Bottom Action Bar */}
+      <ArticleStickyBottomBar 
+        title="RRB Exam Calendar 2026-27: Complete Notification, Exam Date, Admit Card & Result Timeline"
+        description="Official annual schedule for Railway Recruitment Board (RRB) exams including NTPC, ALP, Technician, Group D, and JE vacancies."
+      />
 
       {/* Back to Top Floating Button */}
       {showBackToTop && (
