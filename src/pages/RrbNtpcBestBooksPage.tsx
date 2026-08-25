@@ -26,6 +26,7 @@ export const RRB_NTPC_BOOK_LINKS = {
   FAST_TRACK_MATHS: "https://www.amazon.in/Track-Objective-Arithmetic-Rajesh-Verma/dp/9368406650?crid=1JVFE3TGRQ0I&dib=eyJ2IjoiMSJ9.Me4NJ5UxsFm7MS9B4ejeGHhkheVnlh5qVLTxHUECqn34UntETRahcb-q18mjO2s-4ZyM6qiANHo_JKjggyqzuCRl3JFL-vBr6ratx-dQ1lE6PRwCHzPAc2XqWo0hfhQpOgvPfD3rgLL1g2xk7o6EC8_Mc_-xdwTAflMYSeOO3zKkPGo1nFA6WHwhmy4OrmT0_TrHbPjgYMULMgppxN9Zo8tCFaR8CboXczsSxQQU1-4.fd_W5yQV7KWITJCVlncnC1Nf3edikYzBR8UQFUF5bnU&dib_tag=se&keywords=Fast+Track+Objective+Arithmetic&qid=1787621368&sprefix=fast+track+objective+arithmetic%2Caps%2C313&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=d031419c27de59cbdf9e99b4d8605e71&ref_=as_li_ss_tl",
   QUICKER_MATHS: "https://www.amazon.in/Magical-Quicker-Speed-Oriented-Shortcut-Competitive/dp/B0G7F3JL1Q?crid=3A44Q0FQ6JFG2&dib=eyJ2IjoiMSJ9.pUjQttNxkxPYeTo2h4nHEKqznUYU4gUK5mq64itG65j2qewHUlm5-SzgtD_3X94_7_NeIPqFvQzOwUdCtb9YbGYxvGjoFcH9k7T0Ywk9DGW3_evtHDXKL7bdVxJ-1elNW3Qhx-YeovPv__ifNgKTUT5reHwBt7VT03eJpMPVNTHG4biuWo_I6fkU3xcL7KW1mY2q1kHKgXUvlW6w-8os5VyaJb2iDMzrs_xzImEyajw.9kr2hKFoMb8N0vt6Mn9xGsmQZVKKkYVGSP5QKsDNMlM&dib_tag=se&keywords=Magical+Book+on+Quicker+Maths&qid=1787621595&sprefix=magical+book+on+quicker+maths%2Caps%2C318&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=e83e7dfa5ec39d9373af941173c07f2d&ref_=as_li_ss_tl",
   MANORAMA_YEARBOOK: "https://www.amazon.in/Manorama-Yearbook-Railways-Competitive-Knowledge/dp/935959931X?crid=L311EEYX5HF4&dib=eyJ2IjoiMSJ9.b7NL4oZI6tefO_3h0lkYaWznaf3IvaT0ctsgQJ8InM117NbOjD2_5b32Cg49XoPe2hq1fWaxsV96qXFMId--FspYjGdDj2qxvLWCE_g_eFZy6wkcx8QKOdOSGyYf-ffL5MEZ_vb64GqzTAT7Lyfv0Zg-y5UsRGiwdX0aFfui4XSnuB_7NMJ651AFxSV0SeAM8AJOddnH_Xe5AU39_zHNwnH5-DF7KG91TZtutRhm9Dw.XYwpM1cCFV1UktyUXTtaAIWjtEO8nKTOvaR5SN8vaX0&dib_tag=se&keywords=Manorama+Yearbook&qid=1787621756&sprefix=manorama+yearbook%2Caps%2C311&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=53eab87eba06e977ad9847a318776a8d&ref_=as_li_ss_tl",
+  MK_PANDEY_REASONING: "https://www.amazon.in/Analytical-Reasoning-Magical-Competitive-Preparation/dp/B0G71W4Z6S?crid=B040XIZIFB0A&dib=eyJ2IjoiMSJ9.sMhLI3nKHGrfZYtlcumzyFU_UXBji9tu-zEFusLrnFI0JFnQz3Z9vkgk5oJ3Gt3lJ-8bhZUzXP8a5QIKdAYUwX_fZnVtZI5RyTShIvSPRYalOj5OSQBxmCS_0QZ3UT8GP_l-ONG230_YcGCaS-VZPycESMmOCPfgtzcsxoeYAYNIz3dFMO9rj9kE4Eb-A89n0i4Lor0JZF36JQp-_KhT-A.LVazrhIJ0erJsLv3U8u1IlL3DRct-Q3WX2sDBcOH-uA&dib_tag=se&keywords=Analytical+Reasoning+by+M.K.+Pandey+%28BSC+Publishing%29&qid=1787622083&sprefix=analytical+reasoning+by+m.k.+pandey+bsc+publishing+%2Caps%2C302&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=ae981f9ab979f7d92039df4908dc383f&ref_=as_li_ss_tl",
 };
 
 export default function RrbNtpcBestBooksPage() {
@@ -831,12 +832,20 @@ export default function RrbNtpcBestBooksPage() {
               </a>
             </div>
 
-            <div className="p-5 rounded-xl border border-slate-200 bg-slate-50/50 space-y-2 flex flex-col justify-between">
+            <div className="p-5 rounded-xl border border-slate-200 bg-slate-50/50 space-y-3 flex flex-col justify-between">
               <div className="space-y-2">
                 <span className="text-xs font-bold text-purple-700 uppercase">Analytical Concept</span>
                 <h4 className="font-bold text-slate-900 text-base">Analytical Reasoning by M.K. Pandey</h4>
                 <p className="text-xs text-slate-600 leading-relaxed">Useful for deeper conceptual understanding in statements, assumptions, and critical reasoning topics.</p>
               </div>
+              <a
+                href={RRB_NTPC_BOOK_LINKS.MK_PANDEY_REASONING}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs rounded-xl shadow-xs active:scale-95 transition-all mt-2"
+              >
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon <ExternalLink className="w-3 h-3 opacity-70" />
+              </a>
             </div>
 
             <div className="p-5 rounded-xl border-2 border-purple-300 bg-purple-50/40 space-y-3 flex flex-col justify-between">
