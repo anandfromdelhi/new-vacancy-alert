@@ -8,7 +8,6 @@ import {
   Building2, Users, FileText, CheckCircle2, Calculator
 } from 'lucide-react';
 import SubscribeWidget from '../components/SubscribeWidget';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 
 interface ArticleItem {
   id: string;
@@ -278,8 +277,6 @@ export default function ArticlesPage() {
             </div>
           </div>
         )}
-
-        <MarketingPartnerBanner className="my-6" />
 
         {/* Category Filters */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-4">

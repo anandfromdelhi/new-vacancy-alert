@@ -5,7 +5,6 @@ const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { JobCard, JobTable } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { 
   Search, GraduationCap, ArrowLeft, RotateCcw, LayoutGrid, TableProperties,
   Sparkles, AlertCircle, ChevronDown, CheckCircle2, Building2, ShieldAlert,
@@ -488,7 +487,6 @@ export default function QualificationJobsPage() {
 
       {/* Main Content Area */}
       <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6">
-        <MarketingPartnerBanner className="my-4" />
 
         {/* Search & Filter Bar */}
         <div className="bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-5 shadow-xs space-y-4">

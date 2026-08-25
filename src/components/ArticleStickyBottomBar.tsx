@@ -142,17 +142,18 @@ export default function ArticleStickyBottomBar({
         </div>
       )}
 
-      {/* Main Sticky Bottom Action Bar */}
+      {/* Main Sticky Bottom Action Bar / Floating Dock */}
       <aside 
         aria-label="Article Actions"
-        className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 shadow-[0_-4px_25px_-5px_rgba(0,0,0,0.12)] px-3 sm:px-6 py-2.5 print:hidden safe-area-bottom"
+        className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 shadow-[0_-4px_25px_-5px_rgba(0,0,0,0.12)] px-3 py-2.5 print:hidden safe-area-bottom
+                   md:bottom-6 md:left-1/2 md:-translate-x-1/2 md:right-auto md:w-auto md:max-w-max md:rounded-full md:bg-slate-900/90 md:backdrop-blur-lg md:border md:border-slate-700/70 md:shadow-2xl md:px-3 md:py-2 md:border-t-0"
       >
-        <div className="max-w-4xl mx-auto flex items-center justify-between sm:justify-center gap-2 sm:gap-4">
+        <div className="max-w-4xl mx-auto flex items-center justify-between md:justify-center gap-2 md:gap-2.5">
           
           {/* 1. Download as PDF Button */}
           <button
             onClick={handleDownloadPdf}
-            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 bg-gradient-to-r from-red-600 via-rose-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-bold text-xs sm:text-sm rounded-xl shadow-xs shadow-rose-200 active:scale-95 transition-all cursor-pointer shrink-0"
+            className="flex-1 md:flex-none flex items-center justify-center gap-1.5 md:gap-2 px-3.5 md:px-4 py-2.5 md:py-2 bg-gradient-to-r from-red-600 via-rose-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-bold text-xs md:text-sm rounded-xl md:rounded-full shadow-xs active:scale-95 transition-all cursor-pointer shrink-0"
             title="Download full article as PDF or print"
           >
             <FileDown className="w-4 h-4 shrink-0 text-white" />
@@ -162,23 +163,23 @@ export default function ArticleStickyBottomBar({
           {/* 2. Share Button */}
           <button
             onClick={handleShare}
-            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold text-xs sm:text-sm rounded-xl border border-indigo-200/80 active:scale-95 transition-all cursor-pointer shrink-0"
+            className="flex-1 md:flex-none flex items-center justify-center gap-1.5 md:gap-2 px-3.5 md:px-4 py-2.5 md:py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 md:bg-slate-800/80 md:hover:bg-slate-700 md:text-slate-100 md:hover:text-white font-bold text-xs md:text-sm rounded-xl md:rounded-full border border-indigo-200/80 md:border-slate-700 active:scale-95 transition-all cursor-pointer shrink-0"
             title="Share article with friends or study groups"
           >
-            <Share2 className="w-4 h-4 text-indigo-600 shrink-0" />
+            <Share2 className="w-4 h-4 text-indigo-600 md:text-indigo-400 shrink-0" />
             <span className="whitespace-nowrap">Share</span>
           </button>
 
           {/* 3. Comments Button */}
           <button
             onClick={handleScrollToComments}
-            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs sm:text-sm rounded-xl border border-blue-200/80 active:scale-95 transition-all cursor-pointer shrink-0"
+            className="flex-1 md:flex-none flex items-center justify-center gap-1.5 md:gap-2 px-3.5 md:px-4 py-2.5 md:py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 md:bg-blue-600 md:hover:bg-blue-500 md:text-white font-bold text-xs md:text-sm rounded-xl md:rounded-full border border-blue-200/80 md:border-blue-500/50 active:scale-95 transition-all cursor-pointer shrink-0"
             title="Jump to reader discussion & comments"
           >
             <div className="relative flex items-center">
-              <MessageSquare className="w-4 h-4 text-blue-600 shrink-0" />
+              <MessageSquare className="w-4 h-4 text-blue-600 md:text-white shrink-0" />
               {typeof commentsCount === 'number' && commentsCount > 0 && (
-                <span className="absolute -top-1.5 -right-2 bg-blue-600 text-white text-[9px] font-black px-1 rounded-full">
+                <span className="absolute -top-1.5 -right-2 bg-blue-600 md:bg-amber-400 md:text-slate-950 text-white text-[9px] font-black px-1 rounded-full">
                   {commentsCount}
                 </span>
               )}
@@ -186,10 +187,10 @@ export default function ArticleStickyBottomBar({
             <span className="whitespace-nowrap">Comments</span>
           </button>
 
-          {/* 4. Quick Scroll to Top Button (Hidden on smallest mobile screens for space) */}
+          {/* 4. Quick Scroll to Top Button */}
           <button
             onClick={handleScrollToTop}
-            className="hidden sm:flex items-center justify-center p-2.5 bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 rounded-xl border border-slate-200 active:scale-95 transition-all cursor-pointer shrink-0"
+            className="hidden md:flex items-center justify-center p-2 bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white rounded-full border border-slate-700 active:scale-95 transition-all cursor-pointer shrink-0"
             title="Scroll to Top"
           >
             <ArrowUp className="w-4 h-4" />

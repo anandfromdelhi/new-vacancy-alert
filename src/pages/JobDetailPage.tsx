@@ -17,7 +17,6 @@ import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import { useAuth } from '../context/AuthContext';
 import { getJobUploadDate } from '../utils/jobUploadDate';
 
@@ -1556,8 +1555,6 @@ export default function JobDetailPage() {
             </section>
           )}
 
-          {/* Marketing Partner Callout Section in between job content */}
-          <MarketingPartnerBanner className="print:hidden my-6" />
 
           {/* Vacancy Details */}
           {hasVacancies && (

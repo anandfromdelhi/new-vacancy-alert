@@ -59,34 +59,9 @@ interface FloatingButtonProps {
   onClick: () => void;
 }
 
-function FloatingCommentsButton({ count, onClick }: FloatingButtonProps) {
-  return (
-    <>
-      {/* Desktop: right-centre of viewport with text "Comments" */}
-      <button
-        onClick={onClick}
-        aria-label={`Open comments (${count})`}
-        className="hidden md:flex fixed right-4 top-1/2 -translate-y-1/2 z-40
-                   flex-col items-center gap-1.5
-                   bg-white hover:bg-blue-50 active:scale-95
-                   border-2 border-slate-200 hover:border-blue-300
-                   shadow-xl rounded-2xl px-3.5 py-3 transition-all duration-200
-                   text-slate-700 hover:text-blue-700 group cursor-pointer"
-      >
-        <div className="relative flex items-center justify-center">
-          <MessageSquare className="h-5 w-5 text-blue-600 group-hover:scale-110 transition-transform" />
-        </div>
-        <span className="text-[10px] font-extrabold tracking-tight leading-none">Comments</span>
-        {count > 0 && (
-          <span className="bg-blue-600 text-white font-black text-[9px] px-1.5 py-0.2 rounded-full min-w-[16px] text-center shadow-xs">
-            {count}
-          </span>
-        )}
-      </button>
-
-      {/* Mobile floating button removed per design requirements */}
-    </>
-  );
+function FloatingCommentsButton(_props: FloatingButtonProps) {
+  // Side floating button removed per user request (accessed via bottom dock & inline section)
+  return null;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

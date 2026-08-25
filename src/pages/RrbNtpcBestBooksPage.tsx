@@ -10,7 +10,6 @@ import {
   Briefcase, CheckSquare, Zap, AlertTriangle, Library, BookmarkCheck,
   ShoppingCart, ExternalLink
 } from 'lucide-react';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import CommentsSection from '../components/CommentsSection';
 import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
@@ -1311,9 +1310,6 @@ export default function RrbNtpcBestBooksPage() {
             ))}
           </div>
         </section>
-
-        {/* Marketing Banner */}
-        <MarketingPartnerBanner />
 
         {/* Subscribe Widget */}
         <SubscribeWidget />

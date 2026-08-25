@@ -24,7 +24,6 @@ import PayMatrixExplorer from '../components/salary/PayMatrixExplorer';
 import SalarySlipModal from '../components/salary/SalarySlipModal';
 import DaHistoryTimeline from '../components/salary/DaHistoryTimeline';
 import PromotionSimulator from '../components/salary/PromotionSimulator';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 import CareerGrowthChart from '../components/salary/CareerGrowthChart';
 import SalaryComparison from '../components/salary/SalaryComparison';
 import CityComparisonCard from '../components/salary/CityComparisonCard';
@@ -602,8 +601,6 @@ export default function SalaryCalculatorArticle() {
 
           </div>
         </div>
-
-        <MarketingPartnerBanner className="my-6" />
 
         {/* 1. Interactive Pay Matrix Explorer Grid */}
         <PayMatrixExplorer

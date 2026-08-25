@@ -3,7 +3,6 @@ import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Info, Target, ShieldCheck, Mail } from 'lucide-react';
 import { Link } from 'react-router';
-import MarketingPartnerBanner from '../components/MarketingPartnerBanner';
 
 export default function AboutPage() {
   return (
@@ -51,8 +50,6 @@ export default function AboutPage() {
               <li><strong className="text-slate-800">Comprehensive Guides:</strong> We don't just post links; we provide detailed insights into eligibility, syllabus, and selection processes.</li>
             </ul>
           </section>
-
-          <MarketingPartnerBanner className="my-6" />
 
           <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 text-center mt-8">
             <h3 className="text-lg font-bold text-blue-900 mb-2">Have questions or feedback?</h3>
