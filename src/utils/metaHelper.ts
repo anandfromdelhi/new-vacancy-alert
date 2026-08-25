@@ -80,6 +80,11 @@ export function getPageMetaData(urlPath: string) {
     title = "RRB Railway Exam Calendar 2026-27 Official Dates | NewVacancyAlert";
     description = "Official annual schedule for Railway Recruitment Board (RRB) exams including NTPC, ALP, Technician, Group D, and JE vacancies.";
   }
+  else if (cleanPath === "best-books-for-rrb-ntpc" || cleanPath === "rrb-ntpc-best-books") {
+    title = "Best Books for RRB NTPC 2026: Subject-Wise Maths, Reasoning, GK & PYQs | NewVacancyAlert";
+    description = "Complete guide to the best books for RRB NTPC 2026 preparation: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies.";
+    ogUrl = "https://newvacancyalert.in/best-books-for-rrb-ntpc";
+  }
   else if (cleanPath === "articles") {
     title = "Syllabus, Exam Strategy & Recruitment Guides | NewVacancyAlert";
     description = "Read expert articles on government job preparations, exam patterns, cutoff trends, and career advice.";

@@ -125,6 +125,20 @@ const ARTICLES_LIST: ArticleItem[] = [
     views: '45.2K Views'
   },
   {
+    id: 'best-books-for-rrb-ntpc',
+    slug: '/best-books-for-rrb-ntpc',
+    title: 'Best Books for RRB NTPC 2026: Subject-Wise Best Books for Maths, Reasoning, GK & Previous Year Papers',
+    excerpt: 'Comprehensive guide to the best books for RRB NTPC 2026: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies.',
+    category: 'Railway',
+    author: 'NewVacancyAlert Editorial Team',
+    date: '25th August 2026',
+    readTime: '15 min read',
+    featured: true,
+    badge: '📚 Ultimate Booklist',
+    icon: BookOpen,
+    views: '38.4K Views'
+  },
+  {
     id: 'aiims-norcet-11-cutoff',
     slug: '/aiims-norcet-11-nursing-officer-2026/cutoff',
     title: 'AIIMS NORCET 11 Expected Cutoff Marks & Rank Analysis 2026',

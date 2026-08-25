@@ -29,6 +29,7 @@ async function runPostBuild() {
     { url: '/salary-calculator', priority: '0.8', changefreq: 'monthly' },
     { url: '/ssc-exam-calendar', priority: '0.8', changefreq: 'monthly' },
     { url: '/rrb-exam-calendar-2026-27', priority: '0.8', changefreq: 'monthly' },
+    { url: '/best-books-for-rrb-ntpc', priority: '0.8', changefreq: 'weekly' },
     { url: '/aiims-norcet-11-nursing-officer-2026/cutoff', priority: '0.8', changefreq: 'monthly' },
     { url: '/about', priority: '0.5', changefreq: 'monthly' },
     { url: '/contact', priority: '0.5', changefreq: 'monthly' },
