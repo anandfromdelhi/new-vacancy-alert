@@ -1439,6 +1439,46 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'east-coast-railway-ecor-act-apprentice-25-designated-trades-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 rounded-2xl shadow-xl border-2 border-blue-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      RRC BBS Advt 2026-27
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      1,599 Slots Across 25 Trades
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      100% 10th Merit (No Written Exam)
+                    </span>
+                    <span className="bg-purple-500/20 text-purple-300 border border-purple-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      20% Railway Level-1 Quota
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    East Coast Railway (ECoR) Act Apprentice Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Centralized online applications open from <strong>26 August to 15 September 2026 (17:00 hrs)</strong> for 1,599 Act Apprentice training slots across CRW Mancheswar, Khurda Road, Sambalpur, Rayagada Divisions &amp; HQ Bhubaneswar.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://www.rrcbbs.org.in/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-blue-500 hover:bg-blue-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on RRC BBS Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -1810,6 +1850,136 @@ export default function JobDetailPage() {
                     <p className="font-extrabold text-slate-900">💻 CS / IT / BCA / MCA Eligibility Rules:</p>
                     <p className="leading-relaxed">
                       CSE & IT graduates/diploma holders and BCA graduates ARE eligible under Neyveli notices. MCA is NOT eligible. In project notices where CS/IT or BCA are omitted (e.g. Barsingsar), those candidates cannot apply.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Custom ECoR Railway Apprentice Division & Unit Breakdown */}
+          {id === 'east-coast-railway-ecor-act-apprentice-25-designated-trades-recruitment-2026' && (
+            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 sm:p-6 md:p-8 space-y-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="bg-blue-100 text-blue-800 font-black text-[10px] sm:text-xs uppercase px-2.5 py-1 rounded-lg tracking-wider">
+                    Division &amp; Workshop Slot Matrix
+                  </span>
+                  <h3 className="text-base sm:text-xl font-black text-slate-900 mt-1">
+                    East Coast Railway Unit-wise Slot Distribution (2026–27)
+                  </h3>
+                </div>
+                <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-extrabold text-xs px-3 py-1.5 rounded-xl">
+                  1,599 Total Slots
+                </span>
+              </div>
+
+              {/* Division Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-blue-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-blue-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">Khurda Road</span>
+                      <span className="bg-blue-100 text-blue-900 font-black text-xs px-2.5 py-0.5 rounded-full">773 Slots</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">KUR Division (ELS, Angul &amp; IOH Depot)</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Engineering (471), Mechanical (180), S&amp;T (60), Electrical (60), Medical (2).
+                    </p>
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-200 text-[10px] font-bold text-blue-700">
+                    Key Trades: Fitter, Blacksmith, Bridge Erector, Mason, Welder
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-blue-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-emerald-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">Rayagada</span>
+                      <span className="bg-emerald-100 text-emerald-900 font-black text-xs px-2.5 py-0.5 rounded-full">292 Slots</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">Rayagada (RGDA) Division</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Engineering Dept (261), Electrical Dept (29), Medical Dept (2).
+                    </p>
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-200 text-[10px] font-bold text-emerald-700">
+                    Key Trades: Fitter, Welder, Blacksmith, Grinder, Driller, Sarang
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-blue-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-purple-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">Sambalpur</span>
+                      <span className="bg-purple-100 text-purple-900 font-black text-xs px-2.5 py-0.5 rounded-full">262 Slots</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">Sambalpur (SBP) Division (BLGR)</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Engineering (195), S&amp;T (30), Mechanical (30), Electrical (5), Medical (2).
+                    </p>
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-200 text-[10px] font-bold text-purple-700">
+                    Key Trades: Fitter, Engg Blacksmith, Carpenter, Painter, Plumber
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-blue-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">Workshop</span>
+                      <span className="bg-amber-100 text-amber-900 font-black text-xs px-2.5 py-0.5 rounded-full">250 Slots</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">Carriage Repair Workshop (CRW)</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Mancheswar, Bhubaneswar: Mechanical Dept (200), Electrical Dept (50).
+                    </p>
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-200 text-[10px] font-bold text-amber-700">
+                    Key Trades: Fitter (80), Welder (38), Carpenter (30), Electrician (30)
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-blue-300 transition-all sm:col-span-2 lg:col-span-2">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-indigo-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">HQ Bhubaneswar</span>
+                      <span className="bg-indigo-100 text-indigo-900 font-black text-xs px-2.5 py-0.5 rounded-full">22 Slots</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">ECoR Zonal Headquarters, Bhubaneswar</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Personnel / Accounts / IT Cell Dept: COPA (10), Secretarial Assistant / Stenography (10) | Medical Dept: Lab Technician Pathology (2).
+                    </p>
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-200 text-[10px] font-bold text-indigo-700">
+                    Category Breakdown: UR: 633, SC: 251, ST: 116, OBC: 435, EWS: 164 | PwBD: 50, ESM: 42
+                  </div>
+                </div>
+              </div>
+
+              {/* Crucial Railway Guidelines Box */}
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-6 space-y-3">
+                <div className="flex items-center gap-2 text-blue-900 font-black text-sm sm:text-base">
+                  <ShieldCheck className="h-5 w-5 text-blue-600 shrink-0" />
+                  <span>Important Railway Engagement Rules &amp; CCAA Quota Benefits</span>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs font-semibold text-slate-700">
+                  <div className="bg-white p-3.5 rounded-xl border border-blue-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">🎯 100% Academic Merit Selection</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      Merit list prepared strictly on aggregate 10th marks (min 50%). All subjects calculated — no &apos;best of five&apos;. No written test or interview.
+                    </p>
+                  </div>
+                  <div className="bg-white p-3.5 rounded-xl border border-blue-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">🚂 20% Railway Level-1 Preference</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      Candidates completing CCAA training in Railway establishments holding NAC get preference for up to 20% vacancies in direct RRB/RRC Level-1 (₹18,000–₹56,900) hiring.
+                    </p>
+                  </div>
+                  <div className="bg-white p-3.5 rounded-xl border border-blue-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">🏥 Medical &amp; Physical Standards</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      Height: min 137 cm | Weight: min 25.4 kg | Chest Expansion: min 3.8 cm | Vision: Bee-One standard. Medical certificate from Gazetted Doctor required at DV.
                     </p>
                   </div>
                 </div>

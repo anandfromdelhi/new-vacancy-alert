@@ -211,14 +211,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "east-coast-railway-ecor-act-apprentice-25-designated-trades-recruitment-2026",
-    "b": "East Coast Railway (ECoR)",
-    "t": "East Coast Railway (ECoR) Recruitment 2026 – Apply Online for 1 Act Apprentice (25 designated trades) Posts",
-    "d": "24 August 2026",
-    "l": "Refer Notification",
-    "a": "EAST-COAST/Rectt/2026",
-    "q": "Refer to official notification",
-    "desc": "East Coast Railway (ECoR) has officially published an employment notification (Advertisement No: EAST-COAST/Rectt/2026) for the recruitment of 1 Act Apprentice (25 designated trades) vacancies.",
-    "u": "https://www.rrcbbs.org.in/Act-apprenticeship.pdf"
+    "b": "East Coast Railway (ECoR) - RRC Bhubaneswar",
+    "t": "East Coast Railway (ECoR) Recruitment 2026 – Apply Online for 1599 Act Apprentice (25 Designated Trades) Posts",
+    "d": "21 August 2026",
+    "l": "15 September 2026",
+    "a": "ECoR/Pers/RRC/Act Apprentice/2026-27",
+    "q": "10th Pass (50%) + ITI (Relevant Trade) / 12th Pass PCB",
+    "desc": "Railway Recruitment Cell (RRC), East Coast Railway (ECoR) Bhubaneswar has released an official centralized recruitment notification (ECoR/Pers/RRC/Act Apprentice/2026-27) for engagement of 1599 Act Apprentices across 25 designated trades in Carriage Repair Workshop Mancheswar, Rayagada, Khurda Road, Sambalpur Divisions & HQ Bhubaneswar.",
+    "u": "https://www.rrcbbs.org.in/"
 },
   {
     "id": "women-and-child-development-department-odisha-total-posts-recruitment-2026",
