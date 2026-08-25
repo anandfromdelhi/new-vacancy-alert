@@ -5,6 +5,10 @@ import { jobDetailsData } from '../src/data/jobDetails.js';
 import { generateRssXml } from '../src/utils/rssGenerator.js';
 import { getPageMetaData, injectMetaTags } from '../src/utils/metaHelper.js';
 
+import { QUAL_CATEGORIES, getStatesWithCounts, getBoardsWithCounts } from '../src/utils/categoryUtils.js';
+import { JOBS_DATA } from '../src/data/jobsData.js';
+import jobsIndexData from '../src/data/jobs-index-generated.json' with { type: 'json' };
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const BASE_URL = 'https://newvacancyalert.in';
@@ -14,8 +18,10 @@ async function runPostBuild() {
   const publicDir = path.join(__dirname, '../public');
 
   // 1. Generate Sitemap, RSS feeds, and robots.txt asynchronously in parallel
-  const jobs = Object.values(jobDetailsData);
   const now = new Date().toISOString().split('T')[0];
+
+  const stateList = getStatesWithCounts(JOBS_DATA);
+  const boardList = getBoardsWithCounts(JOBS_DATA);
 
   const staticRoutes = [
     { url: '/', priority: '1.0', changefreq: 'daily' },
@@ -28,6 +34,17 @@ async function runPostBuild() {
     { url: '/contact', priority: '0.5', changefreq: 'monthly' },
     { url: '/privacy-policy', priority: '0.3', changefreq: 'monthly' },
     { url: '/rss-feed', priority: '0.5', changefreq: 'monthly' },
+    { url: '/ssc-cgl-master-guide', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-notification-vacancies-trend', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-posts-salary-pay-scale-hierarchy', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-eligibility-physical-standards-pst-pet', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-exam-pattern-syllabus-dest-typing', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-cutoffs-post-preference-ranking-guide', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-preparation-strategy-study-plan-books-mocks', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-admit-card-selection-dv-checklist', priority: '0.8', changefreq: 'weekly' },
+    { url: '/marketing-partner', priority: '0.6', changefreq: 'monthly' },
+    { url: '/marketing-partner/dashboard', priority: '0.5', changefreq: 'monthly' },
+    { url: '/marketing-partner/terms', priority: '0.4', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/posts-and-vacancies', priority: '0.7', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/important-dates', priority: '0.7', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/important-instructions', priority: '0.7', changefreq: 'monthly' },
@@ -83,10 +100,40 @@ async function runPostBuild() {
   }
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+
+  // Static routes
   staticRoutes.forEach(route => {
     xml += `\n  <url><loc>${BASE_URL}${route.url}</loc><lastmod>${now}</lastmod><changefreq>${route.changefreq}</changefreq><priority>${route.priority}</priority></url>`;
   });
-  jobs.forEach(job => {
+
+  // Qualification category routes
+  QUAL_CATEGORIES.forEach(cat => {
+    xml += `\n  <url><loc>${BASE_URL}/jobs-for/${cat.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+
+  // State routes
+  stateList.forEach(st => {
+    xml += `\n  <url><loc>${BASE_URL}/state/${st.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+
+  // Board routes
+  boardList.forEach(bd => {
+    xml += `\n  <url><loc>${BASE_URL}/board/${bd.slug}</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`;
+  });
+
+  // Dynamic job routes
+  const allJobMap = new Map<string, any>();
+  Object.values(jobDetailsData).forEach((job: any) => {
+    if (job && job.id) allJobMap.set(job.id, job);
+  });
+  Object.values(jobsIndexData).forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+  JOBS_DATA.forEach((job: any) => {
+    if (job && job.id && !allJobMap.has(job.id)) allJobMap.set(job.id, job);
+  });
+
+  allJobMap.forEach(job => {
     const lastMod = parseToIsoDate(job.lastUpdated, now);
     xml += `\n  <url><loc>${BASE_URL}/${job.id}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`;
   });

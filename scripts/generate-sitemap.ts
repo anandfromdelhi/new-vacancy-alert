@@ -36,6 +36,17 @@ async function generateSitemap() {
     { url: '/contact', priority: '0.5', changefreq: 'monthly' },
     { url: '/privacy-policy', priority: '0.3', changefreq: 'monthly' },
     { url: '/rss-feed', priority: '0.5', changefreq: 'monthly' },
+    { url: '/ssc-cgl-master-guide', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-notification-vacancies-trend', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-posts-salary-pay-scale-hierarchy', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-eligibility-physical-standards-pst-pet', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-exam-pattern-syllabus-dest-typing', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-cutoffs-post-preference-ranking-guide', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-preparation-strategy-study-plan-books-mocks', priority: '0.8', changefreq: 'weekly' },
+    { url: '/ssc-cgl-admit-card-selection-dv-checklist', priority: '0.8', changefreq: 'weekly' },
+    { url: '/marketing-partner', priority: '0.6', changefreq: 'monthly' },
+    { url: '/marketing-partner/dashboard', priority: '0.5', changefreq: 'monthly' },
+    { url: '/marketing-partner/terms', priority: '0.4', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/posts-and-vacancies', priority: '0.7', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/important-dates', priority: '0.7', changefreq: 'monthly' },
     { url: '/rrb-technician-cen-02-2026/important-instructions', priority: '0.7', changefreq: 'monthly' },
@@ -105,13 +116,6 @@ async function generateSitemap() {
     <priority>0.7</priority>
   </url>`;
   });
-  xml += `
-  <url>
-    <loc>${BASE_URL}/state/all-india</loc>
-    <lastmod>${now}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>`;
 
   // Add board routes
   boardList.forEach(bd => {
