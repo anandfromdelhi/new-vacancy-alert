@@ -278,13 +278,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "north-eastern-hill-university-nehu-shillong-meghalaya-guest-faculty-recruitment-2026",
     "b": "North-Eastern Hill University (NEHU), Shillong, Meghalaya",
-    "t": "North-Eastern Hill University (NEHU), Shillong, Meghalaya Recruitment 2026 – Apply Online for 1 Guest Faculty Posts",
-    "d": "24 August 2026",
-    "l": "Refer Notification",
-    "a": "NORTH-EAST/Rectt/2026",
-    "q": "Refer to official notification",
-    "desc": "North-Eastern Hill University (NEHU), Shillong, Meghalaya has officially published an employment notification (Advertisement No: NORTH-EAST/Rectt/2026) for the recruitment of 1 Guest Faculty vacancies.",
-    "u": "https://nehu.ac.in/public/assets/files/advertisements/20260821025457_New-Doc-2026-08-21-134722.pdf"
+    "t": "NEHU Shillong & Tura Recruitment 2026 – Apply Online for 107 Guest Faculty Posts Across 43 Departments",
+    "d": "19 August 2026",
+    "l": "31 August 2026",
+    "a": "F.No.8-2/Estt.II(B)/GL/Advertisement/2026-3",
+    "q": "Master's Degree (55%) + NET/SLET/Ph.D. / B.Arch / M.Tech",
+    "desc": "North-Eastern Hill University (NEHU) Shillong & Tura has officially released a recruitment advertisement (F.No.8-2/Estt.II(B)/GL/Advertisement/2026-3) for 107 Guest Faculty posts across 43 academic departments in 8 Schools. Honorarium is ₹1,500/- per lecture up to ₹50,000/- per month.",
+    "u": "https://nehut.samarth.edu.in/"
 },
   {
     "id": "eklavya-model-residential-school-tamenglong-total-posts-recruitment-2026",

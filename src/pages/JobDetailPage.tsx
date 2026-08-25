@@ -1479,6 +1479,46 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'north-eastern-hill-university-nehu-shillong-meghalaya-guest-faculty-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-teal-950 via-slate-900 to-emerald-950 rounded-2xl shadow-xl border-2 border-emerald-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      NEHU Advt 2026-3
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      107 Posts in 43 Departments
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      ₹1,500/Lecture (Max ₹50,000/mo)
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Online Interview for External Candidates
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    NEHU Shillong &amp; Tura Guest Faculty Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Online applications active on the Samarth portal until <strong>31 August 2026</strong> for 107 Guest Faculty positions across 8 Schools in Shillong (79) and Tura (28) campuses.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://nehut.samarth.edu.in/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on Samarth Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -1980,6 +2020,165 @@ export default function JobDetailPage() {
                     <p className="font-extrabold text-slate-900">🏥 Medical &amp; Physical Standards</p>
                     <p className="text-[11px] text-slate-600 leading-relaxed">
                       Height: min 137 cm | Weight: min 25.4 kg | Chest Expansion: min 3.8 cm | Vision: Bee-One standard. Medical certificate from Gazetted Doctor required at DV.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Custom NEHU Guest Faculty School & Campus Breakdown */}
+          {id === 'north-eastern-hill-university-nehu-shillong-meghalaya-guest-faculty-recruitment-2026' && (
+            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 sm:p-6 md:p-8 space-y-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="bg-emerald-100 text-emerald-800 font-black text-[10px] sm:text-xs uppercase px-2.5 py-1 rounded-lg tracking-wider">
+                    School &amp; Campus Distribution
+                  </span>
+                  <h3 className="text-base sm:text-xl font-black text-slate-900 mt-1">
+                    NEHU 8 Schools &amp; 43 Departments Position Matrix
+                  </h3>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="bg-teal-50 text-teal-700 border border-teal-200 font-extrabold text-xs px-3 py-1.5 rounded-xl">
+                    Shillong: 79 Posts
+                  </span>
+                  <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 font-extrabold text-xs px-3 py-1.5 rounded-xl">
+                    Tura: 28 Posts
+                  </span>
+                </div>
+              </div>
+
+              {/* 8 Schools Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-emerald-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School I</span>
+                      <span className="bg-emerald-100 text-emerald-900 font-black text-xs px-2.5 py-0.5 rounded-full">17 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">Economics, Mgmt &amp; Info Sciences</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Commerce (3), Lib Science (3), Tourism (2), Mass Comm (2), Economics (2), Agri-Business (3, Tura), Mgmt (2, Tura).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-blue-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School II</span>
+                      <span className="bg-blue-100 text-blue-900 font-black text-xs px-2.5 py-0.5 rounded-full">5 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Education</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Adult &amp; Continuing Education (2), Education Shillong (2), Education Tura (1).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-teal-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School III</span>
+                      <span className="bg-teal-100 text-teal-900 font-black text-xs px-2.5 py-0.5 rounded-full">13 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">Human &amp; Environmental Sciences</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Geography (3), Forestry (3, Tura), Horticulture (2, Tura), Geology (2), Enviro Studies (2), Anthropology (1).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-indigo-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School IV</span>
+                      <span className="bg-indigo-100 text-indigo-900 font-black text-xs px-2.5 py-0.5 rounded-full">16 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Humanities</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      English (2 Shillong + 3 Tura), Garo (3, Tura), Linguistics (2), Khasi (2), Philosophy (2), Hindi (2).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-rose-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School V</span>
+                      <span className="bg-rose-100 text-rose-900 font-black text-xs px-2.5 py-0.5 rounded-full">10 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Life Sciences</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Botany (4), Biochemistry (2), Zoology (2), Biotechnology &amp; Bioinformatics (2) — All Shillong Campus.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-amber-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School VI</span>
+                      <span className="bg-amber-100 text-amber-900 font-black text-xs px-2.5 py-0.5 rounded-full">3 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Physical Sciences</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Physics (1), Chemistry (1), Statistics (1) — All Shillong Campus.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-purple-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School VII</span>
+                      <span className="bg-purple-100 text-purple-900 font-black text-xs px-2.5 py-0.5 rounded-full">22 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Social Sciences</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Law (5), History &amp; Archaeology (4, Tura), Social Work (4, Tura), History (3), Sociology (2), Political Science (2), Cultural Studies (2).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-300 transition-all">
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="bg-sky-600 text-white font-black text-[10px] px-2 py-0.5 rounded uppercase">School VIII</span>
+                      <span className="bg-sky-100 text-sky-900 font-black text-xs px-2.5 py-0.5 rounded-full">21 Posts</span>
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm mb-1">School of Technology</h5>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                      Architecture (6), IT (5), Biomedical Engg (4), Computer Applications (3, Tura), Basic Sciences (2), Nanotechnology (1).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Crucial Terms & Online Interview Box */}
+              <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-2xl p-4 sm:p-6 space-y-3">
+                <div className="flex items-center gap-2 text-emerald-900 font-black text-sm sm:text-base">
+                  <ShieldCheck className="h-5 w-5 text-emerald-600 shrink-0" />
+                  <span>Important Appointment Terms &amp; Interview Guidelines</span>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 text-xs font-semibold text-slate-700">
+                  <div className="bg-white p-3.5 rounded-xl border border-emerald-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">💰 Honorarium / Remuneration</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      ₹1,500/- per lecture up to a maximum of ₹50,000/- per month. No allowances, pension, gratuity, or vacation salary.
+                    </p>
+                  </div>
+                  <div className="bg-white p-3.5 rounded-xl border border-emerald-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">💻 Online Interview Option</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      For external outstation candidates, the interview may be conducted online via video conferencing upon intimation. No TA/DA paid for in-person attendance.
+                    </p>
+                  </div>
+                  <div className="bg-white p-3.5 rounded-xl border border-emerald-200 space-y-1">
+                    <p className="font-extrabold text-slate-900">⏳ Tenure of Appointment</p>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      Purely temporary for the current semester only or until regular faculty joins the department, whichever is earlier.
                     </p>
                   </div>
                 </div>
