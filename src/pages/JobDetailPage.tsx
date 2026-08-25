@@ -328,34 +328,6 @@ export default function JobDetailPage() {
     );
   };
 
-  const jobSchema = {
-    "@context": "https://schema.org/",
-    "@type": "JobPosting",
-    "title": job?.title,
-    "description": job?.seoDescription || job?.overview?.join(' '),
-    "identifier": {
-      "@type": "PropertyValue",
-      "name": job?.board,
-      "value": job?.advtNo || job?.id
-    },
-    "datePosted": job?.lastUpdated || "2026-08-01",
-    "validThrough": job?.importantDates?.find(d => d.event.toLowerCase().includes('last date'))?.date || "2026-12-31",
-    "employmentType": "FULL_TIME",
-    "hiringOrganization": {
-      "@type": "Organization",
-      "name": job?.board,
-      "sameAs": "https://newvacancyalert.in",
-      "logo": "https://newvacancyalert.in/logo.png"
-    },
-    "jobLocation": {
-      "@type": "Place",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": job?.jobLocation || "India",
-        "addressCountry": "IN"
-      }
-    }
-  };
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -800,23 +772,93 @@ export default function JobDetailPage() {
   };
 
   // Salary parser helper
-  const parseBaseSalary = () => {
-    const payMatch = (job.salary?.initialPay || "").match(/(?:Rs\.?|INR|\b)\s*([\d,]{4,7})/i);
-    let salaryValue = 35400;
-    if (payMatch) {
-      const parsed = parseInt(payMatch[1].replace(/,/g, ""), 10);
-      if (!isNaN(parsed) && parsed >= 5000) {
-        salaryValue = parsed;
+  const getBaseSalarySchema = () => {
+    if (!job.salary) {
+      return {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": 25500,
+          "unitText": "MONTH"
+        }
+      };
+    }
+    const rawText = [
+      job.salary.initialPay || '',
+      job.salary.payLevel || '',
+      typeof job.salary.allowances === 'string' ? job.salary.allowances : (job.salary.allowances || []).join(' ')
+    ].join(' ');
+
+    const matches = [...rawText.matchAll(/(?:₹|Rs\.?|INR|\b)\s*([1-9]\d{0,2}(?:,\d{2,3})+|[1-9]\d{3,5})\b/gi)]
+      .map(m => parseInt(m[1].replace(/,/g, ''), 10))
+      .filter(n => n >= 5000 && n <= 350000);
+
+    if (matches.length >= 2) {
+      const min = Math.min(matches[0], matches[1]);
+      const max = Math.max(matches[0], matches[1]);
+      if (min !== max) {
+        return {
+          "@type": "MonetaryAmount",
+          "currency": "INR",
+          "value": {
+            "@type": "QuantitativeValue",
+            "minValue": min,
+            "maxValue": max,
+            "unitText": "MONTH"
+          }
+        };
       }
     }
-    return salaryValue;
+
+    if (matches.length === 1) {
+      return {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": matches[0],
+          "unitText": "MONTH"
+        }
+      };
+    }
+
+    return {
+      "@type": "MonetaryAmount",
+      "currency": "INR",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 25500,
+        "unitText": "MONTH"
+      }
+    };
   };
 
-  const cleanLoc = job.jobLocation || "India";
-  const pinMatch = cleanLoc.match(/\b\d{6}\b/);
-  const postalCode = pinMatch ? pinMatch[0] : "110001";
-  const locality = cleanLoc.includes(",") ? cleanLoc.split(",")[0].trim() : cleanLoc;
-  const region = cleanLoc.includes(",") ? cleanLoc.split(",").slice(-1)[0].replace(/-\s*\d{6}/, "").trim() : "India";
+  const cleanLoc = (job.jobLocation || job.board || "India").trim();
+  const pinMatch = cleanLoc.match(/\b([1-9]\d{5})\b/);
+  const postalCode = pinMatch ? pinMatch[1] : "110001";
+  let locality = "India";
+  let region = "India";
+
+  if (cleanLoc.includes(",")) {
+    const parts = cleanLoc.split(",").map(p => p.trim());
+    locality = parts[0];
+    region = parts[parts.length - 1].replace(/\b[1-9]\d{5}\b/g, "").replace(/[\(\)\-]/g, "").trim() || "India";
+  } else if (cleanLoc.includes("(") && cleanLoc.includes(")")) {
+    const match = cleanLoc.match(/^(.*?)\((.*?)\)/);
+    if (match) {
+      locality = match[1].trim();
+      region = match[2].trim();
+    } else {
+      locality = cleanLoc;
+      region = cleanLoc;
+    }
+  } else {
+    locality = cleanLoc;
+    region = cleanLoc;
+  }
+
+  const streetAddress = cleanLoc.length > 120 ? cleanLoc.substring(0, 120) : cleanLoc;
 
   const jobPostingSchema = {
     "@context": "https://schema.org",
@@ -828,34 +870,27 @@ export default function JobDetailPage() {
       "name": job.board,
       "value": job.advtNo || job.id
     },
-    "datePosted": "2026-05-19T00:00:00+05:30",
+    "datePosted": job.lastUpdated ? (job.lastUpdated.includes("T") ? job.lastUpdated : `${job.lastUpdated}T00:00:00+05:30`) : "2026-08-01T00:00:00+05:30",
     "validThrough": parseValidThroughDate(),
     "employmentType": "FULL_TIME",
     "hiringOrganization": {
       "@type": "Organization",
       "name": job.board,
-      "sameAs": job.urls?.[0]?.url || "https://newvacancyalert.in"
+      "sameAs": job.urls?.[0]?.url || "https://newvacancyalert.in",
+      "logo": "https://newvacancyalert.in/logo.png"
     },
     "jobLocation": {
       "@type": "Place",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": cleanLoc.length > 100 ? cleanLoc.substring(0, 100) : cleanLoc,
-        "addressLocality": locality,
-        "addressRegion": region,
+        "streetAddress": streetAddress || "Central / State Govt Office",
+        "addressLocality": locality || "India",
+        "addressRegion": region || "India",
         "postalCode": postalCode,
         "addressCountry": "IN"
       }
     },
-    "baseSalary": {
-      "@type": "MonetaryAmount",
-      "currency": "INR",
-      "value": {
-        "@type": "QuantitativeValue",
-        "value": parseBaseSalary(),
-        "unitText": "MONTH"
-      }
-    }
+    "baseSalary": getBaseSalarySchema()
   };
 
   // Specialty filtering for ESIC

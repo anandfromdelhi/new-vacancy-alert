@@ -30,6 +30,107 @@ function parseIso(raw: string | undefined, fallback: string): string {
   return fallback;
 }
 
+function parseBaseSalary(salaryObj: any): object {
+  if (!salaryObj) {
+    return {
+      "@type": "MonetaryAmount",
+      "currency": "INR",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": 25500,
+        "unitText": "MONTH"
+      }
+    };
+  }
+
+  const rawText = [
+    salaryObj.initialPay || '',
+    salaryObj.payLevel || '',
+    typeof salaryObj.allowances === 'string' ? salaryObj.allowances : (salaryObj.allowances || []).join(' ')
+  ].join(' ');
+
+  const matches = [...rawText.matchAll(/(?:₹|Rs\.?|INR|\b)\s*([1-9]\d{0,2}(?:,\d{2,3})+|[1-9]\d{3,5})\b/gi)]
+    .map(m => parseInt(m[1].replace(/,/g, ''), 10))
+    .filter(n => n >= 5000 && n <= 350000);
+
+  if (matches.length >= 2) {
+    const min = Math.min(matches[0], matches[1]);
+    const max = Math.max(matches[0], matches[1]);
+    if (min !== max) {
+      return {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "minValue": min,
+          "maxValue": max,
+          "unitText": "MONTH"
+        }
+      };
+    }
+  }
+
+  if (matches.length === 1) {
+    return {
+      "@type": "MonetaryAmount",
+      "currency": "INR",
+      "value": {
+        "@type": "QuantitativeValue",
+        "value": matches[0],
+        "unitText": "MONTH"
+      }
+    };
+  }
+
+  return {
+    "@type": "MonetaryAmount",
+    "currency": "INR",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": 25500,
+      "unitText": "MONTH"
+    }
+  };
+}
+
+function parseJobLocationAddress(locationStr?: string, boardStr?: string) {
+  const cleanLoc = (locationStr || boardStr || 'India').trim();
+  const pinMatch = cleanLoc.match(/\b([1-9]\d{5})\b/);
+  const postalCode = pinMatch ? pinMatch[1] : '110001';
+
+  let locality = 'India';
+  let region = 'India';
+
+  if (cleanLoc.includes(',')) {
+    const parts = cleanLoc.split(',').map(p => p.trim());
+    locality = parts[0];
+    region = parts[parts.length - 1].replace(/\b[1-9]\d{5}\b/g, '').replace(/[\(\)\-]/g, '').trim() || 'India';
+  } else if (cleanLoc.includes('(') && cleanLoc.includes(')')) {
+    const match = cleanLoc.match(/^(.*?)\((.*?)\)/);
+    if (match) {
+      locality = match[1].trim();
+      region = match[2].trim();
+    } else {
+      locality = cleanLoc;
+      region = cleanLoc;
+    }
+  } else {
+    locality = cleanLoc;
+    region = cleanLoc;
+  }
+
+  const streetAddress = cleanLoc.length > 120 ? cleanLoc.substring(0, 120) : cleanLoc;
+
+  return {
+    "@type": "PostalAddress",
+    "streetAddress": streetAddress || 'Central / State Govt Office',
+    "addressLocality": locality || 'India',
+    "addressRegion": region || 'India',
+    "postalCode": postalCode,
+    "addressCountry": "IN"
+  };
+}
+
 async function prerender() {
   const distDir = path.join(__dirname, '../dist');
   const publicDir = path.join(__dirname, '../public');
@@ -144,17 +245,14 @@ async function prerender() {
         "hiringOrganization": {
           "@type": "Organization",
           "name": job.board,
-          "sameAs": "https://newvacancyalert.in",
+          "sameAs": job.urls?.[0]?.url || "https://newvacancyalert.in",
           "logo": "https://newvacancyalert.in/logo.png"
         },
         "jobLocation": {
           "@type": "Place",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": job.jobLocation || "India",
-            "addressCountry": "IN"
-          }
-        }
+          "address": parseJobLocationAddress(job.jobLocation, job.board)
+        },
+        "baseSalary": parseBaseSalary(job.salary)
       };
       jsonLdScripts.push(`<script type="application/ld+json">\n${JSON.stringify(jobSchema)}\n</script>`);
 
