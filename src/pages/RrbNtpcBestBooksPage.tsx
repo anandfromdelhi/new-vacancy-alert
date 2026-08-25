@@ -22,6 +22,10 @@ export const RRB_NTPC_BOOK_LINKS = {
   RS_MATHS: "https://www.amazon.in/Quantitative-Aptitude-Revised-2025-Competitive/dp/B0D6VFV3ZP?crid=2DM7KJ9H07KCV&dib=eyJ2IjoiMSJ9.VkujiB2B1ecVnsMClRRrpNeHUstiJWme5OSH-29Vgk8iUQafZIyb_reX2qKIEOtjWF1sESOwVASc_j951flB-hqrtll1xuMS0djoQ4ADKMBhRuLx7TLhkUP-G4ou8Fg_duwx527L3SPe51ONkYaC9UMNXXYd0CV-yK7oZQbENfDGcflnqcFBnsACSSGtLhhvG9CJWFIDew81p_lRvI4e_ZgvHIMriwG2Vvl-jGlkvG8.Mjv5uuI2UO1wTZAKB7VayTbPbnu0zzZ0IxXBfHWSFWI&dib_tag=se&keywords=R.S.+Aggarwal+Quantitative+Aptitude&qid=1787620740&sprefix=r.s.+aggarwal+quantitative+aptitude%2Caps%2C372&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=3d0a465adff7fc39ec76eb2b5729df6e&ref_=as_li_ss_tl",
   RS_REASONING: "https://www.amazon.in/Approach-Non-Verbal-Reasoning-Questions-Competitive/dp/B0CVGWMLQL?crid=XCYNOQG40BJ7&dib=eyJ2IjoiMSJ9.6D3cK_BLJrnvFNU3fxPIwU4r2WEXR_CS_fhXqgFr9jrQkG05SXzFiF_kYV0RZYoOAR6d4xbVymnTmtixPbgQGVoC1HodFSaYGLTA0ozEGyslKrYoh0mDkCqNhpewnFPTATqyClV1Ayxp9si2ZiZtD7iQeN7E3lcCrIjeIvwQNnDtGI21rGQkgKK8hKy6FlW_nQFaB5YYcGGatxAOTlJ2VeR98BUF6CXpDFU97X5Wmyo.NUvWt27Df9hS5_Q8-E_YoBcb0k_KNsbo5bprwK_aGkI&dib_tag=se&keywords=R.S.+Aggarwal+Reasoning&qid=1787620800&sprefix=r.s.+aggarwal+reasoning%2Caps%2C302&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=07650e9c6b8208004e71534bec38f789&ref_=as_li_ss_tl",
   LUCENT_GK: "https://www.amazon.in/Lucents-General-Knowledge-2026-Competitive/dp/B0GDQLFJSB?crid=1NYOUG76YSRG2&dib=eyJ2IjoiMSJ9.GusgDlmBTu1WK27kBqcIhHZagnCvG8rdFHdAQyAC-RXLGjTdgAVnKSzl3uInc0HO6zWzdFW8_HbqqPfUERsZYgYKJku2Tok8iDJVdutn24RzypOC0PfO6Vvjk1xOfuG3WsUyucOaqotHS-P0S1DbK09DgXsJ_wDqOHFYeBeylFhAk_PmNh6wQg9ARR9AfSgJKYtVcAs0DsOGqSRoA4WNqd4oVy193HT857fjC2etTnc.YPoYBzRLjrB2gthJIP_jvkB9Rzq6wj2L0oqJB9OgwuU&dib_tag=se&keywords=Lucent+General+Knowledge&qid=1787620845&sprefix=lucent+general+knowledge%2Caps%2C351&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=a76efcb056464e4ae863c213f28c3bee&ref_=as_li_ss_tl",
+  KIRAN_DISHA_PYQ: "https://www.amazon.in/Topic-wise-Undergraduate-Recruitment-Non-Technical-Categories/dp/9371868015?crid=VKHM4C08AD9V&dib=eyJ2IjoiMSJ9.8TDuP8zWDia_yl9Vp5YXL4aZww2znbsl76QAd2DtyXXd2HV1YZgTG48wCZEK_g3rMS1pWu3ZLM7q7kFq9O30hMjE5ICN7nHZitBThprsiKeKVn3wnKErxWwxl4Fqw0oaGP_lx4mzi5TO7TnTk0c7Zeav2pFWFqA7UJeNyUA6AVTQVTdPhhP3DYS5iYZRGEUc7yGQ4nYk1ZmGckM0fZhQEeQFvzRpPm_rPSqWZXWAtOU.bXYCoSw7ZDwcdMK0gwWLEhY_QhBL2l315jOXpGC7bTw&dib_tag=se&keywords=Kiran%2FDisha+RRB+NTPC+PYQs&qid=1787621323&sprefix=kiran%2Fdisha+rrb+ntpc+pyqs%2Caps%2C339&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=da10ba03ba53d93f3401b96b2c2f9424&ref_=as_li_ss_tl",
+  FAST_TRACK_MATHS: "https://www.amazon.in/Track-Objective-Arithmetic-Rajesh-Verma/dp/9368406650?crid=1JVFE3TGRQ0I&dib=eyJ2IjoiMSJ9.Me4NJ5UxsFm7MS9B4ejeGHhkheVnlh5qVLTxHUECqn34UntETRahcb-q18mjO2s-4ZyM6qiANHo_JKjggyqzuCRl3JFL-vBr6ratx-dQ1lE6PRwCHzPAc2XqWo0hfhQpOgvPfD3rgLL1g2xk7o6EC8_Mc_-xdwTAflMYSeOO3zKkPGo1nFA6WHwhmy4OrmT0_TrHbPjgYMULMgppxN9Zo8tCFaR8CboXczsSxQQU1-4.fd_W5yQV7KWITJCVlncnC1Nf3edikYzBR8UQFUF5bnU&dib_tag=se&keywords=Fast+Track+Objective+Arithmetic&qid=1787621368&sprefix=fast+track+objective+arithmetic%2Caps%2C313&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=d031419c27de59cbdf9e99b4d8605e71&ref_=as_li_ss_tl",
+  QUICKER_MATHS: "https://www.amazon.in/Magical-Quicker-Speed-Oriented-Shortcut-Competitive/dp/B0G7F3JL1Q?crid=3A44Q0FQ6JFG2&dib=eyJ2IjoiMSJ9.pUjQttNxkxPYeTo2h4nHEKqznUYU4gUK5mq64itG65j2qewHUlm5-SzgtD_3X94_7_NeIPqFvQzOwUdCtb9YbGYxvGjoFcH9k7T0Ywk9DGW3_evtHDXKL7bdVxJ-1elNW3Qhx-YeovPv__ifNgKTUT5reHwBt7VT03eJpMPVNTHG4biuWo_I6fkU3xcL7KW1mY2q1kHKgXUvlW6w-8os5VyaJb2iDMzrs_xzImEyajw.9kr2hKFoMb8N0vt6Mn9xGsmQZVKKkYVGSP5QKsDNMlM&dib_tag=se&keywords=Magical+Book+on+Quicker+Maths&qid=1787621595&sprefix=magical+book+on+quicker+maths%2Caps%2C318&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=e83e7dfa5ec39d9373af941173c07f2d&ref_=as_li_ss_tl",
+  MANORAMA_YEARBOOK: "https://www.amazon.in/Manorama-Yearbook-Railways-Competitive-Knowledge/dp/935959931X?crid=L311EEYX5HF4&dib=eyJ2IjoiMSJ9.b7NL4oZI6tefO_3h0lkYaWznaf3IvaT0ctsgQJ8InM117NbOjD2_5b32Cg49XoPe2hq1fWaxsV96qXFMId--FspYjGdDj2qxvLWCE_g_eFZy6wkcx8QKOdOSGyYf-ffL5MEZ_vb64GqzTAT7Lyfv0Zg-y5UsRGiwdX0aFfui4XSnuB_7NMJ651AFxSV0SeAM8AJOddnH_Xe5AU39_zHNwnH5-DF7KG91TZtutRhm9Dw.XYwpM1cCFV1UktyUXTtaAIWjtEO8nKTOvaR5SN8vaX0&dib_tag=se&keywords=Manorama+Yearbook&qid=1787621756&sprefix=manorama+yearbook%2Caps%2C311&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=53eab87eba06e977ad9847a318776a8d&ref_=as_li_ss_tl",
 };
 
 export default function RrbNtpcBestBooksPage() {
@@ -38,10 +42,10 @@ export default function RrbNtpcBestBooksPage() {
     { rank: 4, book: "R.S. Aggarwal Quantitative Aptitude", bestFor: "Maths fundamentals", verdict: "⭐⭐⭐⭐½", tag: "Maths Basics", link: RRB_NTPC_BOOK_LINKS.RS_MATHS },
     { rank: 5, book: "R.S. Aggarwal Verbal & Non-Verbal Reasoning", bestFor: "Reasoning fundamentals", verdict: "⭐⭐⭐⭐½", tag: "Reasoning Core", link: RRB_NTPC_BOOK_LINKS.RS_REASONING },
     { rank: 6, book: "Lucent General Knowledge", bestFor: "Static GK", verdict: "⭐⭐⭐⭐⭐", tag: "Static GK Standard", link: RRB_NTPC_BOOK_LINKS.LUCENT_GK },
-    { rank: 7, book: "Kiran/Disha RRB NTPC PYQs", bestFor: "Previous-year practice", verdict: "⭐⭐⭐⭐⭐", tag: "Must-Have PYQs" },
-    { rank: 8, book: "Fast Track Objective Arithmetic", bestFor: "Faster arithmetic", verdict: "⭐⭐⭐⭐", tag: "Speed Maths" },
-    { rank: 9, book: "Magical Book on Quicker Maths", bestFor: "Calculation speed", verdict: "⭐⭐⭐⭐", tag: "Shortcuts" },
-    { rank: 10, book: "Manorama Yearbook", bestFor: "Broader general awareness", verdict: "⭐⭐⭐½", tag: "Annual Reference" }
+    { rank: 7, book: "Kiran/Disha RRB NTPC PYQs", bestFor: "Previous-year practice", verdict: "⭐⭐⭐⭐⭐", tag: "Must-Have PYQs", link: RRB_NTPC_BOOK_LINKS.KIRAN_DISHA_PYQ },
+    { rank: 8, book: "Fast Track Objective Arithmetic", bestFor: "Faster arithmetic", verdict: "⭐⭐⭐⭐", tag: "Speed Maths", link: RRB_NTPC_BOOK_LINKS.FAST_TRACK_MATHS },
+    { rank: 9, book: "Magical Book on Quicker Maths", bestFor: "Calculation speed", verdict: "⭐⭐⭐⭐", tag: "Shortcuts", link: RRB_NTPC_BOOK_LINKS.QUICKER_MATHS },
+    { rank: 10, book: "Manorama Yearbook", bestFor: "Broader general awareness", verdict: "⭐⭐⭐½", tag: "Annual Reference", link: RRB_NTPC_BOOK_LINKS.MANORAMA_YEARBOOK }
   ];
 
   const faqs = [
@@ -324,20 +328,40 @@ export default function RrbNtpcBestBooksPage() {
               </a>
             </div>
 
-            <div className="bg-white/90 backdrop-blur-xs p-4 rounded-xl border border-amber-200/60 shadow-xs flex items-start gap-3">
-              <div className="w-2 h-2 rounded-full bg-rose-500 mt-2 shrink-0" />
-              <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-rose-700 block">Best for Previous Year Questions</span>
-                <span className="font-bold text-slate-900 text-sm sm:text-base">Dedicated RRB NTPC Chapter-wise Solved Papers (Kiran / Disha)</span>
+            <div className="bg-white/90 backdrop-blur-xs p-4 rounded-xl border border-amber-200/60 shadow-xs flex items-start justify-between gap-3">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-rose-500 mt-2 shrink-0" />
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-rose-700 block">Best for Previous Year Questions</span>
+                  <span className="font-bold text-slate-900 text-sm sm:text-base block">Disha / Kiran RRB NTPC Solved PYQs</span>
+                </div>
               </div>
+              <a 
+                href={RRB_NTPC_BOOK_LINKS.KIRAN_DISHA_PYQ} 
+                target="_blank" 
+                rel="noopener noreferrer nofollow"
+                className="shrink-0 px-2.5 py-1 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs rounded-lg shadow-xs flex items-center gap-1 transition-all"
+              >
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy
+              </a>
             </div>
 
-            <div className="bg-white/90 backdrop-blur-xs p-4 rounded-xl border border-amber-200/60 shadow-xs flex items-start gap-3">
-              <div className="w-2 h-2 rounded-full bg-teal-500 mt-2 shrink-0" />
-              <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-teal-700 block">Best for Current Affairs</span>
-                <span className="font-bold text-slate-900 text-sm sm:text-base">Monthly current-affairs digest (Avoid old static books)</span>
+            <div className="bg-white/90 backdrop-blur-xs p-4 rounded-xl border border-amber-200/60 shadow-xs flex items-start justify-between gap-3">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-teal-500 mt-2 shrink-0" />
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-teal-700 block">Best Annual Reference</span>
+                  <span className="font-bold text-slate-900 text-sm sm:text-base block">Manorama Yearbook</span>
+                </div>
               </div>
+              <a 
+                href={RRB_NTPC_BOOK_LINKS.MANORAMA_YEARBOOK} 
+                target="_blank" 
+                rel="noopener noreferrer nofollow"
+                className="shrink-0 px-2.5 py-1 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs rounded-lg shadow-xs flex items-center gap-1 transition-all"
+              >
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy
+              </a>
             </div>
           </div>
 
@@ -698,33 +722,66 @@ export default function RrbNtpcBestBooksPage() {
             </div>
 
             {/* Maths Book 2 */}
-            <div className="p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-colors space-y-2">
+            <div className="p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-colors space-y-3">
               <div className="flex justify-between items-start">
                 <h4 className="font-bold text-slate-900 text-base sm:text-lg">2. Fast Track Objective Arithmetic by Rajesh Verma</h4>
-                <span className="px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-bold">Speed Arithmetic</span>
+                <span className="px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-bold shrink-0">Speed Arithmetic</span>
               </div>
               <p className="text-xs sm:text-sm text-slate-700"><strong>Best for:</strong> Candidates who already understand basic arithmetic and want more speed-oriented preparation. Useful for Percentage, Profit/Loss, Ratio, Average, Time & Work, Interest, and Simplification shortcuts.</p>
+              <div className="pt-1 flex flex-col sm:flex-row items-center justify-between gap-2 border-t border-slate-100">
+                <span className="text-xs text-slate-600 font-semibold">Arihant Publications</span>
+                <a
+                  href={RRB_NTPC_BOOK_LINKS.FAST_TRACK_MATHS}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs rounded-xl shadow-xs active:scale-95 transition-all"
+                >
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon <ExternalLink className="w-3 h-3 opacity-70" />
+                </a>
+              </div>
             </div>
 
             {/* Maths Book 3 */}
-            <div className="p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-colors space-y-2">
+            <div className="p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-colors space-y-3">
               <div className="flex justify-between items-start">
                 <h4 className="font-bold text-slate-900 text-base sm:text-lg">3. Magical Book on Quicker Maths by M. Tyra</h4>
-                <span className="px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-bold">Shortcuts</span>
+                <span className="px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-bold shrink-0">Shortcuts</span>
               </div>
               <p className="text-xs sm:text-sm text-slate-700"><strong>Best for:</strong> Speed and shortcut techniques. <em>Pro-tip:</em> If you are weak in Maths, master concepts first and shortcuts later. Learning shortcuts without concept clarity causes confusion.</p>
+              <div className="pt-1 flex flex-col sm:flex-row items-center justify-between gap-2 border-t border-slate-100">
+                <span className="text-xs text-slate-600 font-semibold">BSC Publishing</span>
+                <a
+                  href={RRB_NTPC_BOOK_LINKS.QUICKER_MATHS}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs rounded-xl shadow-xs active:scale-95 transition-all"
+                >
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon <ExternalLink className="w-3 h-3 opacity-70" />
+                </a>
+              </div>
             </div>
 
             {/* Maths Book 4: PYQs */}
-            <div className="p-5 rounded-xl border-2 border-emerald-300 bg-emerald-50/40 space-y-2">
+            <div className="p-5 rounded-xl border-2 border-emerald-300 bg-emerald-50/40 space-y-3">
               <div className="flex justify-between items-start">
                 <h4 className="font-bold text-emerald-950 text-base sm:text-lg flex items-center gap-1.5">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
                   4. RRB NTPC Maths Previous Year Questions (PYQs)
                 </h4>
-                <span className="px-2 py-0.5 bg-emerald-600 text-white rounded text-xs font-bold">Crucial</span>
+                <span className="px-2 py-0.5 bg-emerald-600 text-white rounded text-xs font-bold shrink-0">Crucial</span>
               </div>
               <p className="text-xs sm:text-sm text-slate-700">Arguably more important than buying another general Mathematics book. PYQs show the exact difficulty level, question formats, and repeatedly asked patterns in Railway examinations.</p>
+              <div className="pt-1 flex flex-col sm:flex-row items-center justify-between gap-2 border-t border-emerald-200/80">
+                <span className="text-xs text-emerald-900 font-semibold">Disha / Kiran Topic-wise Solved Papers</span>
+                <a
+                  href={RRB_NTPC_BOOK_LINKS.KIRAN_DISHA_PYQ}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs rounded-xl shadow-xs active:scale-95 transition-all"
+                >
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon <ExternalLink className="w-3 h-3 opacity-70" />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -782,12 +839,20 @@ export default function RrbNtpcBestBooksPage() {
               </div>
             </div>
 
-            <div className="p-5 rounded-xl border-2 border-purple-300 bg-purple-50/40 space-y-2 flex flex-col justify-between">
+            <div className="p-5 rounded-xl border-2 border-purple-300 bg-purple-50/40 space-y-3 flex flex-col justify-between">
               <div className="space-y-2">
                 <span className="text-xs font-bold text-purple-700 uppercase">Exam Specialist</span>
                 <h4 className="font-bold text-purple-950 text-base">Railway/RRB Reasoning Chapter-Wise PYQs</h4>
                 <p className="text-xs text-slate-700 leading-relaxed font-medium">Learn the concept ➔ solve RRB PYQs ➔ identify repeated patterns ➔ practise those patterns ➔ maximize speed.</p>
               </div>
+              <a
+                href={RRB_NTPC_BOOK_LINKS.KIRAN_DISHA_PYQ}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-xs rounded-xl shadow-xs active:scale-95 transition-all mt-2"
+              >
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon <ExternalLink className="w-3 h-3 opacity-70" />
+              </a>
             </div>
           </div>
         </section>
@@ -1137,24 +1202,24 @@ export default function RrbNtpcBestBooksPage() {
 
             <div className="bg-white p-3.5 rounded-xl shadow-xs space-y-1.5 flex flex-col justify-between">
               <div>
-                <span className="font-bold text-emerald-800 block text-xs uppercase">5. Guided Alternative</span>
-                <p className="font-extrabold text-slate-900">PW All-in-One RRB NTPC</p>
-                <p className="text-slate-500 text-[11px]">Best for video-accompanied study.</p>
+                <span className="font-bold text-emerald-800 block text-xs uppercase">5. Previous Year Questions</span>
+                <p className="font-extrabold text-slate-900">Disha / Kiran RRB NTPC PYQs</p>
+                <p className="text-slate-500 text-[11px]">The ultimate exam calibration tool.</p>
               </div>
-              <a href={RRB_NTPC_BOOK_LINKS.PW} target="_blank" rel="noopener noreferrer nofollow" className="w-full text-center py-1.5 px-2 bg-amber-500 hover:bg-amber-600 font-bold text-[11px] rounded-lg text-slate-950 flex items-center justify-center gap-1 transition-all">
+              <a href={RRB_NTPC_BOOK_LINKS.KIRAN_DISHA_PYQ} target="_blank" rel="noopener noreferrer nofollow" className="w-full text-center py-1.5 px-2 bg-amber-500 hover:bg-amber-600 font-bold text-[11px] rounded-lg text-slate-950 flex items-center justify-center gap-1 transition-all">
                 <ShoppingCart className="w-3 h-3" /> Buy on Amazon
               </a>
             </div>
 
             <div className="bg-white p-3.5 rounded-xl shadow-xs space-y-1.5 flex flex-col justify-between">
               <div>
-                <span className="font-bold text-rose-800 block text-xs uppercase">6. Testing & Current Affairs</span>
-                <p className="font-extrabold text-slate-900">Monthly CA Digest + Full Mock Tests</p>
-                <p className="text-slate-500 text-[11px]">CBT 1 & CBT 2 online test series.</p>
+                <span className="font-bold text-rose-800 block text-xs uppercase">6. Guided Alternative</span>
+                <p className="font-extrabold text-slate-900">PW All-in-One RRB NTPC</p>
+                <p className="text-slate-500 text-[11px]">Best for video-accompanied study.</p>
               </div>
-              <span className="text-center py-1.5 px-2 bg-slate-100 font-bold text-[11px] rounded-lg text-slate-600">
-                Regular Online Practice
-              </span>
+              <a href={RRB_NTPC_BOOK_LINKS.PW} target="_blank" rel="noopener noreferrer nofollow" className="w-full text-center py-1.5 px-2 bg-amber-500 hover:bg-amber-600 font-bold text-[11px] rounded-lg text-slate-950 flex items-center justify-center gap-1 transition-all">
+                <ShoppingCart className="w-3 h-3" /> Buy on Amazon
+              </a>
             </div>
           </div>
 
