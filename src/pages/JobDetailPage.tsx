@@ -1445,6 +1445,44 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'esic-teaching-faculty-professor-senior-resident-and-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 rounded-2xl shadow-xl border-2 border-blue-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-blue-500 to-indigo-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      ESIC Medical College Margao Goa
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      107 Total Posts
+                    </span>
+                    <span className="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Walk-in / Online Interview
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Salary up to ₹1,18,500/month
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    ESIC Margao Goa Teaching Faculty &amp; Senior Resident Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Recruitment of <strong>15 Professors</strong>, <strong>21 Associate Professors</strong>, <strong>36 Assistant Professors</strong>, and <strong>35 Senior Residents</strong> on 1-year contract basis. Walk-in / Online interviews on <strong>01, 02 &amp; 03 September 2026</strong>.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="mailto:deanmargao@gmail.com" 
+                    className="bg-blue-500 hover:bg-blue-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Email Form (Online Interview)
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
                     {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
             <div className="bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 rounded-2xl shadow-xl border-2 border-orange-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
@@ -2631,6 +2669,64 @@ export default function JobDetailPage() {
                               <span>Cadre: District Level</span>
                             </div>
                           </div>
+                        </div>
+                      </div>
+                    )}
+                    {id === 'esic-teaching-faculty-professor-senior-resident-and-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-blue-600" /> Walk-in &amp; Online Interview Schedule (107 Posts)
+                          </h4>
+                          <span className="text-[10px] font-bold text-blue-900 bg-blue-100 px-2 py-0.5 rounded-md">Venue: ESIC Hospital, Margao</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                          <div className="bg-gradient-to-br from-blue-50 to-indigo-50/50 border border-blue-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Day 1</span>
+                              <span className="text-xs font-black text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded">01 September 2026</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1.5">Pre-Clinical, Para-Clinical &amp; Pediatrics</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Anatomy, Physiology, Biochemistry, Microbiology, FMT, Pharmacology &amp; Pediatrics.
+                            </p>
+                            <div className="mt-2.5 pt-2 border-t border-blue-200/60 text-[10px] text-blue-800 font-bold">
+                              Reporting: 09:00 AM to 10:30 AM
+                            </div>
+                          </div>
+
+                          <div className="bg-gradient-to-br from-teal-50 to-emerald-50/50 border border-teal-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-teal-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Day 2</span>
+                              <span className="text-xs font-black text-teal-700 bg-teal-100/70 px-2 py-0.5 rounded">02 September 2026</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1.5">Specialized Clinical &amp; Community Medicine</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              Community Medicine, Pathology, Transfusion Medicine, Eye (Ophthalmology), ENT, Psychiatry, Dermatology &amp; Statistics.
+                            </p>
+                            <div className="mt-2.5 pt-2 border-t border-teal-200/60 text-[10px] text-teal-800 font-bold">
+                              Reporting: 09:00 AM to 10:30 AM
+                            </div>
+                          </div>
+
+                          <div className="bg-gradient-to-br from-amber-50 to-orange-50/50 border border-amber-200 rounded-xl p-4 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Day 3</span>
+                              <span className="text-xs font-black text-amber-700 bg-amber-100/70 px-2 py-0.5 rounded">03 September 2026</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs mb-1.5">Major Broad Specialties &amp; Critical Care</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                              General Medicine, General Surgery, Gynecology &amp; Obstetrics, Orthopedics, ICU, Radiology, Dentistry, Chest Medicine, Anesthesia &amp; Emergency Medicine.
+                            </p>
+                            <div className="mt-2.5 pt-2 border-t border-amber-200/60 text-[10px] text-amber-800 font-bold">
+                              Reporting: 09:00 AM to 10:30 AM
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="p-3 bg-blue-50 border-l-4 border-blue-500 rounded-r-xl text-blue-900 text-xs leading-relaxed">
+                          <strong>Online Interview Option:</strong> Candidates seeking to attend the interview via video link must submit their scanned signed application form with certificates in a single PDF file by email to <strong>deanmargao@gmail.com</strong> by <strong>3:00 PM on 01/09/2026</strong>.
                         </div>
                       </div>
                     )}

@@ -420,15 +420,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "esic-teaching-faculty-professor-senior-resident-and-recruitment-2026",
-    "b": "ESIC Teaching Faculty",
-    "t": "ESIC Teaching Faculty Recruitment 2026 – Apply for 107 Professor, Senior Resident and More Posts",
-    "d": "26 August 2026",
-    "l": "By 3:00 PM on 01.09.2026, to [email protected]",
-    "a": "01",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "ESIC Teaching Faculty has officially released employment advertisement notification 01 for the recruitment of 107 vacancies for Professor, Senior Resident and More posts.",
-    "u": "https://esic.gov.in/attachments/recruitmentfile/Time_Bound_Recruitment_of_Teaching_Faculty_amp_Senior_Resident_on_contract_basis_at_proposed_ESIC_Medical_College_amp_Hospital_Margao_Goa_1787568729.pdf"
-},
+    "b": "ESIC Medical College & Hospital, Margao, Goa",
+    "t": "ESIC Margao Goa Recruitment 2026 – Apply for 107 Teaching Faculty & Senior Resident Posts (Walk-in / Online)",
+    "d": "25 August 2026",
+    "l": "01 September 2026 (Walk-in: 1 to 3 Sep)",
+    "a": "01 (423-A/12/28/2026)",
+    "q": "MD / MS / DNB / MDS / PG Diploma / M.Sc + Ph.D (Medical Disciplines)",
+    "desc": "ESIC Medical College Margao Goa has released Advt 01 for recruitment of 107 vacancies (Professor, Associate Professor, Assistant Professor, Senior Resident).",
+    "u": "https://www.mcgoa.esic.gov.in"
+  },
   {
     "id": "national-forensic-sciences-uni-visiting-medical-consultant-ps-recruitment-2026",
     "b": "National Forensic Sciences University (NFSU)",
