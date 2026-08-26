@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-bank-authorised-doctor-recruitment-2026",
+    "b": "Indian Bank",
+    "t": "Indian Bank Recruitment 2026 – Apply for 1 Authorised Doctor Posts",
+    "d": "26 August 2026",
+    "l": "08 September 2026",
+    "a": "01",
+    "q": "MBBS from recognized university in Allopathic system of medicine, Minimum 10 ...",
+    "desc": "Indian Bank has officially released employment advertisement notification 01 for the recruitment of 1 vacancies for Authorised Doctor posts.",
+    "u": "https://indianbank.bank.in/documents/20117/34414/AUTHORISED%20DOCTOR%20ADVERTISEMENT-ZO%20BAHRAICH2026_08_24_10_14_38.pdf/3993dd95-ee06-d777-f627-7db0767d644b"
+},
+  {
+    "id": "allahabad-university-junior-research-fellow-and-res-recruitment-2026",
+    "b": "Allahabad University",
+    "t": "Allahabad University Recruitment 2026 – Apply for 2 Junior Research Fellow and Research Assistant Posts",
+    "d": "26 August 2026",
+    "l": "06 September 2026",
+    "a": "ALLAHABAD-UNIV/2026",
+    "q": "MSc in Cognitive Science or related discipline (Neuroscience, Psychology), Ex...",
+    "desc": "Allahabad University has officially released employment advertisement notification ALLAHABAD-UNIV/2026 for the recruitment of 2 vacancies for Junior Research Fellow and Research Assistant posts.",
+    "u": "https://www.allduniv.ac.in/upload/file_collection/Notice%20for%20JRF_RA%20recruitment%20_BRK%20PROJECT%202026_Final.pdf"
+},
+  {
+    "id": "pudukkottai-district-out-reach-worker-recruitment-2026",
+    "b": "Pudukkottai District",
+    "t": "Pudukkottai District Recruitment 2026 – Apply for 1 Out Reach Worker Posts",
+    "d": "26 August 2026",
+    "l": "30 August 2026",
+    "a": "PUDUKKOTTAI-DI/2026",
+    "q": "12th or Degree",
+    "desc": "Pudukkottai District has officially released employment advertisement notification PUDUKKOTTAI-DI/2026 for the recruitment of 1 vacancies for Out Reach Worker posts.",
+    "u": "https://cdn.s3waas.gov.in/s342e7aaa88b48137a16a1acd04ed91125/uploads/2026/08/17875600174054.pdf"
+},
+  {
+    "id": "tata-memorial-centre-tmc-junior-engineer-civil-engg-pha-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC)",
+    "t": "Tata Memorial Centre (TMC) Recruitment 2026 – Apply for 2 Junior Engineer (Civil Engg.) / Pharmacist Posts",
+    "d": "26 August 2026",
+    "l": "03 September 2026",
+    "a": "OS/SNG/2026/20",
+    "q": "First Class Diploma in Civil Engineering with 3 years experience, B.Pharm / D...",
+    "desc": "Tata Memorial Centre (TMC) has officially released employment advertisement notification OS/SNG/2026/20 for the recruitment of 2 vacancies for Junior Engineer (Civil Engg.) / Pharmacist posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=bIh0NGCDq3h+5MD2kyj2eQ=="
+},
+  {
+    "id": "oil-india-limited-oil-india-consultant-land-coordination-recruitment-2026",
+    "b": "Oil India Limited (Oil India)",
+    "t": "Oil India Limited (Oil India) Recruitment 2026 – Apply for 1 Consultant (Land & Coordination) Posts",
+    "d": "26 August 2026",
+    "l": "18 September 2026",
+    "a": "HRAQ/CONT-EX-B/26-305",
+    "q": "Graduate/Post-Graduate (any discipline) as Full-time Regular course from Inst...",
+    "desc": "Oil India Limited (Oil India) has officially released employment advertisement notification HRAQ/CONT-EX-B/26-305 for the recruitment of 1 vacancies for Consultant (Land & Coordination) posts.",
+    "u": "https://www.oil-india.com/"
+},
+  {
+    "id": "oav-balangir-warden-chowkidar-and-more-recruitment-2026",
+    "b": "OAV Balangir",
+    "t": "OAV Balangir Recruitment 2026 – Apply for 5 Warden, Chowkidar and More Posts",
+    "d": "26 August 2026",
+    "l": "25-08-2026",
+    "a": "OAV-BALANGIR/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "OAV Balangir has officially released employment advertisement notification OAV-BALANGIR/2026 for the recruitment of 5 vacancies for Warden, Chowkidar and More posts.",
+    "u": "https://balangir.odisha.gov.in/sites/default/files/2026-08/Application%20Form.pdf"
+},
+  {
+    "id": "rcfl-mt-management-trainee-recruitment-2026",
+    "b": "RCFL MT",
+    "t": "RCFL MT Recruitment 2026 – Apply for 1 Management Trainee Posts",
+    "d": "26 August 2026",
+    "l": "24 August 2026, 5:00 pm",
+    "a": "16022026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "RCFL MT has officially released employment advertisement notification 16022026 for the recruitment of 1 vacancies for Management Trainee posts.",
+    "u": "https://www.rcfltd.com/files/MT%202026.pdf"
+},
+  {
+    "id": "kerala-academy-for-skills-exce-manager-media-and-pr-recruitment-2026",
+    "b": "Kerala Academy for Skills Excellence (KASE)",
+    "t": "Kerala Academy for Skills Excellence (KASE) Recruitment 2026 – Apply for 1 Manager - Media and PR Posts",
+    "d": "26 August 2026",
+    "l": "3 September 2026",
+    "a": "KERALA-ACADEMY/2026",
+    "q": "Postgraduate Diploma in Journalism",
+    "desc": "Kerala Academy for Skills Excellence (KASE) has officially released employment advertisement notification KERALA-ACADEMY/2026 for the recruitment of 1 vacancies for Manager - Media and PR posts.",
+    "u": "https://cmd.kerala.gov.in/wp-content/uploads/2026/08/Notification-Final.pdf"
+},
+  {
+    "id": "chikkaballapur-district-community-health-officer-cho-recruitment-2026",
+    "b": "Chikkaballapur District",
+    "t": "Chikkaballapur District Recruitment 2026 – Apply for 1 Community Health Officer (CHO) Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "CHIKKABALLAPUR/2026",
+    "q": "BAMS",
+    "desc": "Chikkaballapur District has officially released employment advertisement notification CHIKKABALLAPUR/2026 for the recruitment of 1 vacancies for Community Health Officer (CHO) posts.",
+    "u": "https://cdn.s3waas.gov.in/s35751ec3e9a4feab575962e78e006250d/uploads/2026/08/17855657003859.pdf"
+},
+  {
+    "id": "defence-institute-of-biodefenc-research-associate-junior-rese-recruitment-2026",
+    "b": "Defence Institute of Biodefence Technologies",
+    "t": "Defence Institute of Biodefence Technologies Recruitment 2026 – Apply for 5 Research Associate & Junior Research Fellow Posts",
+    "d": "26 August 2026",
+    "l": "24 September 2026",
+    "a": "DEFENCE-INSTIT/2026",
+    "q": "PhD in Food Processing Engineering / Food Engineering & Technology / Food Eng...",
+    "desc": "Defence Institute of Biodefence Technologies has officially released employment advertisement notification DEFENCE-INSTIT/2026 for the recruitment of 5 vacancies for Research Associate & Junior Research Fellow posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIBT25082026.pdf"
+},
+  {
     "id": "district-mineral-foundation-tr-specialist-anaesthesiologist-recruitment-2026",
     "b": "District Mineral Foundation Trust",
     "t": "District Mineral Foundation Trust Recruitment 2026 – Apply for 1 Specialist Anaesthesiologist Posts",
