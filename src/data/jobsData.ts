@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026",
+    "b": "Container Corporation of India Ltd. (CONCOR)",
+    "t": "Container Corporation of India Ltd. (CONCOR) Recruitment 2026 – Apply for 77 No. of Posts Posts",
+    "d": "26 August 2026",
+    "l": "30-09-2026",
+    "a": "05/2026",
+    "q": "Relevant Degree / Engineering / MBA / Professional Qualification as per post",
+    "desc": "Container Corporation of India Ltd. (CONCOR) has officially released employment advertisement notification 05/2026 for the recruitment of 77 vacancies for No. of Posts posts.",
+    "u": "https://cms.concorindia.co.in:8000/uploads/cms/pdf/Ai2ZjNLaEQ8lyUd_IndicativeAdvt(nationaldailies).pdf"
+},
+  {
+    "id": "bastar-district-salary-per-month-recruitment-2026",
+    "b": "Bastar District",
+    "t": "Bastar District Recruitment 2026 – Apply for 11 Salary Per Month Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "BASTAR-DISTRIC/2026",
+    "q": "Graduate, B.Ed./D.Ed. (VI) and RCI Registration, M.A. (Relevant Subject), B.E...",
+    "desc": "Bastar District has officially released employment advertisement notification BASTAR-DISTRIC/2026 for the recruitment of 11 vacancies for Salary Per Month posts.",
+    "u": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/08/17875561073445.pdf"
+},
+  {
+    "id": "cmho-balodabazar-nursing-officer-attendant-and-more-essential-educational-qualific-recruitment-2026",
+    "b": "CMHO Balodabazar Nursing Officer, Attendant and More",
+    "t": "CMHO Balodabazar Nursing Officer, Attendant and More Recruitment 2026 – Apply for 38 Essential Educational Qualification Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026, up to 5:30 PM",
+    "a": "CMHO-BALODABAZ/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "CMHO Balodabazar Nursing Officer, Attendant and More has officially released employment advertisement notification CMHO-BALODABAZ/2026 for the recruitment of 38 vacancies for Essential Educational Qualification posts.",
+    "u": "https://cdn.s3waas.gov.in/s304ecb1fa28506ccb6f72b12c0245ddbc/uploads/2026/08/17872026975615.pdf"
+},
+  {
+    "id": "panjab-university-total-posts-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 – Apply for 1 Total Posts Posts",
+    "d": "26 August 2026",
+    "l": "02 September 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "MCA/M.Sc. in Computer Science/IT/Computer Applications/M.Tech or allied subje...",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 1 vacancies for Total Posts posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260821144032-Advertisement%20for%20the%20Guest%20Faculty%2021.8.26.pdf"
+},
+  {
+    "id": "bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026",
+    "b": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar",
+    "t": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar Recruitment 2026 – Apply for 259 259 Accountant, Lower Grade Clerk and More Posts",
+    "d": "26 August 2026",
+    "l": "25 September 2026",
+    "a": "BCECEB(BSFC)-2026/01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar has officially released employment advertisement notification BCECEB(BSFC)-2026/01 for the recruitment of 259 vacancies for 259 Accountant, Lower Grade Clerk and More posts.",
+    "u": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_BSFC26_01.pdf"
+},
+  {
+    "id": "tezpur-university-total-posts-recruitment-2026",
+    "b": "Tezpur University",
+    "t": "Tezpur University Recruitment 2026 – Apply for 3 Total Posts Posts",
+    "d": "26 August 2026",
+    "l": "Within 15 days from the date of issue of this advertisement (04-09-2026)",
+    "a": "TEZPUR-UNIVERS/2026",
+    "q": "M.E./ M.Tech./ M.S./ M.Sc./ MCA/ B.E./ B.Tech.",
+    "desc": "Tezpur University has officially released employment advertisement notification TEZPUR-UNIVERS/2026 for the recruitment of 3 vacancies for Total Posts posts.",
+    "u": "https://www.tezu.ernet.in/ProjectWalkin/20-642.pdf"
+},
+  {
+    "id": "flood-and-river-erosion-management-agency-of-assam-fremaa-total-posts-recruitment-2026",
+    "b": "Flood and River Erosion Management Agency of Assam (FREMAA)",
+    "t": "Flood and River Erosion Management Agency of Assam (FREMAA) Recruitment 2026 – Apply for 12 Total Posts Posts",
+    "d": "26 August 2026",
+    "l": "06 September 2026",
+    "a": "E – No. 561838/438-453",
+    "q": "B.Tech. or equivalent in IT/CS/Geoinformatics, Graduate in Commerce/Finance w...",
+    "desc": "Flood and River Erosion Management Agency of Assam (FREMAA) has officially released employment advertisement notification E – No. 561838/438-453 for the recruitment of 12 vacancies for Total Posts posts.",
+    "u": "https://fremaa.assam.gov.in/sites/default/files/swf_utility_folder/departments/fremaa_webcomindia_org_oid_4/portlet/level_1/files/detailed_advertisement_ita_aa_and_fa_in_aadb_aug_2026_f2.pdf"
+},
+  {
+    "id": "andhra-pradesh-capital-region-development-authority-apcrda-total-posts-recruitment-2026",
+    "b": "Andhra Pradesh Capital Region Development Authority (APCRDA)",
+    "t": "Andhra Pradesh Capital Region Development Authority (APCRDA) Recruitment 2026 – Apply for 4 Total Posts Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "08/2026",
+    "q": "Bachelor's degree in Law from reputed Institutions, Minimum 5 years post-qual...",
+    "desc": "Andhra Pradesh Capital Region Development Authority (APCRDA) has officially released employment advertisement notification 08/2026 for the recruitment of 4 vacancies for Total Posts posts.",
+    "u": "https://crda.ap.gov.in/crda_norifications/NOT08101705/01~Employment%20Notification%20No%2008-2026.pdf"
+},
+  {
+    "id": "homi-bhabha-cancer-hospital-research-centre-total-posts-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital & Research Centre",
+    "t": "Homi Bhabha Cancer Hospital & Research Centre Recruitment 2026 – Apply for 1 Total Posts Posts",
+    "d": "26 August 2026",
+    "l": "03 September 2026",
+    "a": "TMC/HBCHRCV/AD/47/26",
+    "q": "M.B.B.S with Internship completed",
+    "desc": "Homi Bhabha Cancer Hospital & Research Centre has officially released employment advertisement notification TMC/HBCHRCV/AD/47/26 for the recruitment of 1 vacancies for Total Posts posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=7rSj4aNSbwozjmcCubHKew=="
+},
+  {
+    "id": "regional-agricultural-research-station-chintapalle-rars-chintapalle-salary-recruitment-2026",
+    "b": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle)",
+    "t": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle) Recruitment 2026 – Apply for 4 Salary Posts",
+    "d": "26 August 2026",
+    "l": "7 September 2026",
+    "a": "REGIONAL-AGRIC/2026",
+    "q": "Ph.D in Agricultural sciences OR Master's Degree in Agricultural sciences wit...",
+    "desc": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle) has officially released employment advertisement notification REGIONAL-AGRIC/2026 for the recruitment of 4 vacancies for Salary posts.",
+    "u": "https://angrau.ac.in/UPLOADS/CareersPDFs/POF_Chitna_Revised.pdf"
+},
+  {
     "id": "indian-institute-of-technology-kharagpur-total-posts-recruitment-2026",
     "b": "Indian Institute of Technology Kharagpur",
     "t": "Indian Institute of Technology Kharagpur Recruitment 2026 – Apply Online for 1 Total Posts Posts",
