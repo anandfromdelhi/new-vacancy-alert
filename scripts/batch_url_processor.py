@@ -179,28 +179,23 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
             
     # 2. Check by distinct Advt No
     a_norm = re.sub(r'[^a-z0-9]', '', advt_no.lower()) if advt_no else ""
-    if a_norm and len(a_norm) > 4 and not a_norm.endswith("rec2026") and not a_norm.endswith("2026"):
+    if a_norm and len(a_norm) > 5 and not a_norm.endswith("rec2026") and not a_norm.endswith("2026") and a_norm not in ["notification2026", "advtno", "various"]:
         for jid, j in existing_jobs.items():
             ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
             if ex_advt and ex_advt == a_norm:
                 return True, f"Advt No '{j.get('advtNo')}' matches existing '{jid}'"
                 
-    # 3. Precise Board & Title Match
-    # Extract distinct keywords from board and title
-    b_tokens = set(re.findall(r'[a-z0-9]{4,}', board.lower())) - {'recruitment', 'institute', 'technology', 'university', 'department', 'centre', 'center', 'corporation', 'limited', 'india', 'national', 'central', 'state', 'district'}
-    t_tokens = set(re.findall(r'[a-z0-9]{4,}', title.lower())) - {'recruitment', 'apply', 'online', 'offline', 'walkin', 'posts', 'post', 'vacancies', 'vacancy', '2026', 'total'}
-    
-    if b_tokens and t_tokens:
-        for jid, j in existing_jobs.items():
-            ex_b_tokens = set(re.findall(r'[a-z0-9]{4,}', j.get('board', '').lower()))
-            ex_t_tokens = set(re.findall(r'[a-z0-9]{4,}', j.get('title', '').lower()))
-            
-            b_common = b_tokens.intersection(ex_b_tokens)
-            t_common = t_tokens.intersection(ex_t_tokens)
-            
-            # If distinctive board tokens match AND at least 2 post/title tokens match
-            if len(b_common) >= 1 and len(t_common) >= 2:
-                return True, f"Board and Post match with '{jid}' (Board match: {b_common}, Title match: {t_common})"
+    # 3. Same Board & Same Post Check
+    b_norm = re.sub(r'[^a-z0-9]', '', board.lower())
+    for jid, j in existing_jobs.items():
+        ex_b_norm = re.sub(r'[^a-z0-9]', '', j.get('board', '').lower())
+        # Check if the board is genuinely the same organization
+        if b_norm == ex_b_norm or (len(b_norm) > 12 and b_norm in ex_b_norm) or (len(ex_b_norm) > 12 and ex_b_norm in b_norm):
+            p1_tokens = set(re.findall(r'[a-z0-9]{3,}', title.lower())) - {'recruitment', 'apply', 'online', 'offline', 'walkin', 'posts', 'post', 'vacancies', 'vacancy', '2026', 'total', 'various'}
+            p2_tokens = set(re.findall(r'[a-z0-9]{3,}', j.get('title', '').lower())) - {'recruitment', 'apply', 'online', 'offline', 'walkin', 'posts', 'post', 'vacancies', 'vacancy', '2026', 'total', 'various'}
+            common = p1_tokens.intersection(p2_tokens)
+            if p1_tokens and len(common) / len(p1_tokens) >= 0.7:
+                return True, f"Same board '{j.get('board')}' and matching post with '{jid}'"
                 
     return False, ""
 

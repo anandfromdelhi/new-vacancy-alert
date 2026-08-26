@@ -1,0 +1,696 @@
+{
+  "timestamp": "2026-08-26T06:38:53.287115",
+  "total_urls_processed": 107,
+  "total_added": 22,
+  "total_skipped": 85,
+  "added_jobs": [
+    {
+      "id": "seci-engineer-officer-and-more-recruitment-2026",
+      "title": "SECI Recruitment 2026 – Apply for 1 Engineer, Officer and More Posts",
+      "board": "SECI",
+      "vacancies": 1,
+      "closing": "23.09.2026 (5:00 PM)",
+      "link": "https://www.seci.co.in/"
+    },
+    {
+      "id": "ernet-india-project-engineer-level-02-seni-recruitment-2026",
+      "title": "ERNET India Recruitment 2026 – Apply for 6 Project Engineer Level 02 / Senior Project Engineer / Project Manager Level 01 / Project Manager Level 02 Posts",
+      "board": "ERNET India",
+      "vacancies": 6,
+      "closing": "07 September 2026",
+      "link": "https://xn--m1bd4e9a1b9i.xn--h2brj9c/sites/default/files/pdf/final%20advertisement%20Smart%20Classroom.pdf"
+    },
+    {
+      "id": "central-electricity-regulatory-joint-chief-deputy-chief-and-m-recruitment-2026",
+      "title": "Central Electricity Regulatory Commission (CERC) Recruitment 2026 – Apply for 8 Joint Chief, Deputy Chief and More Posts Posts",
+      "board": "Central Electricity Regulatory Commission (CERC)",
+      "vacancies": 8,
+      "closing": "08 October 2026",
+      "link": "https://www.cercind.gov.in/2026/vacancy/VacancyNotice-240826.pdf"
+    },
+    {
+      "id": "national-highways-authority-of-manager-legal-and-senior-libra-recruitment-2026",
+      "title": "National Highways Authority of India (NHAI) Recruitment 2026 – Apply for 5 Manager (Legal) and Senior Librarian & Information Officer Posts",
+      "board": "National Highways Authority of India (NHAI)",
+      "vacancies": 5,
+      "closing": "24-09-2026",
+      "link": "https://nhai.gov.in/nhai/sites/default/files/vacancy_files/Detailed_Advertisment-English_Version.pdf"
+    },
+    {
+      "id": "jawaharlal-nehru-university-jn-advocate-recruitment-2026",
+      "title": "Jawaharlal Nehru University (JNU) Recruitment 2026 – Apply for 1 Advocate Posts",
+      "board": "Jawaharlal Nehru University (JNU)",
+      "vacancies": 1,
+      "closing": "29 August 2026",
+      "link": "https://www.jnu.ac.in/sites/default/files/career/Advertisment_Empanelment_of_Advocates-LawFirms.pdf"
+    },
+    {
+      "id": "sardar-vallabhbhai-national-in-teaching-assistant-recruitment-2026",
+      "title": "Sardar Vallabhbhai National Institute of Technology (SVNIT) Recruitment 2026 – Apply for 1 Teaching Assistant Posts",
+      "board": "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+      "vacancies": 1,
+      "closing": "01 September 2026",
+      "link": "https://www.svnit.ac.in"
+    },
+    {
+      "id": "bhavnagar-municipal-corporatio-executive-engineer-civil-multi-recruitment-2026",
+      "title": "Bhavnagar Municipal Corporation (BMC) Recruitment 2026 – Apply for 80 Executive Engineer (Civil), Multi Purpose Health Worker (Urban Malaria) (Male), Sanitary Sub Inspector Posts",
+      "board": "Bhavnagar Municipal Corporation (BMC)",
+      "vacancies": 80,
+      "closing": "17-09-2026",
+      "link": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/85386281_ccp.pdf"
+    },
+    {
+      "id": "rites-engineer-engineer-ut-testing-recruitment-2026",
+      "title": "RITES Engineer Recruitment 2026 – Apply for 8 Engineer-UT Testing Posts",
+      "board": "RITES Engineer",
+      "vacancies": 8,
+      "closing": "14.09.2026",
+      "link": "https://www.rites.com/Upload/Career/Advertisement_for_CL_08_26_pdf-2026-Aug-24-16-15-2.pdf"
+    },
+    {
+      "id": "hprca-assistant-staff-nurse-various-posts-recruitment-2026",
+      "title": "HPRCA Assistant Staff Nurse Recruitment 2026 – Apply for 780 Various Posts Posts",
+      "board": "HPRCA Assistant Staff Nurse",
+      "vacancies": 780,
+      "closing": "29.08.2026 (till 11:59 PM)",
+      "link": "https://www.freejobalert.com/articles/hprca-assistant-staff-nurse-recruitment-2026-3060019"
+    },
+    {
+      "id": "district-mineral-foundation-tr-specialist-anaesthesiologist-recruitment-2026",
+      "title": "District Mineral Foundation Trust Recruitment 2026 – Apply for 1 Specialist Anaesthesiologist Posts",
+      "board": "District Mineral Foundation Trust",
+      "vacancies": 1,
+      "closing": "02 September 2026",
+      "link": "https://cdn.s3waas.gov.in/s3ff4d5fbbafdf976cfdc032e3bde78de5/uploads/2026/08/17873046715805.pdf"
+    },
+    {
+      "id": "defence-institute-of-biodefenc-research-associate-junior-rese-recruitment-2026",
+      "title": "Defence Institute of Biodefence Technologies Recruitment 2026 – Apply for 5 Research Associate & Junior Research Fellow Posts",
+      "board": "Defence Institute of Biodefence Technologies",
+      "vacancies": 5,
+      "closing": "24 September 2026",
+      "link": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIBT25082026.pdf"
+    },
+    {
+      "id": "chikkaballapur-district-community-health-officer-cho-recruitment-2026",
+      "title": "Chikkaballapur District Recruitment 2026 – Apply for 1 Community Health Officer (CHO) Posts",
+      "board": "Chikkaballapur District",
+      "vacancies": 1,
+      "closing": "31-08-2026",
+      "link": "https://cdn.s3waas.gov.in/s35751ec3e9a4feab575962e78e006250d/uploads/2026/08/17855657003859.pdf"
+    },
+    {
+      "id": "kerala-academy-for-skills-exce-manager-media-and-pr-recruitment-2026",
+      "title": "Kerala Academy for Skills Excellence (KASE) Recruitment 2026 – Apply for 1 Manager - Media and PR Posts",
+      "board": "Kerala Academy for Skills Excellence (KASE)",
+      "vacancies": 1,
+      "closing": "03-09-2026",
+      "link": "https://cmd.kerala.gov.in/wp-content/uploads/2026/08/Notification-Final.pdf"
+    },
+    {
+      "id": "rcfl-mt-management-trainee-recruitment-2026",
+      "title": "RCFL MT Recruitment 2026 – Apply for 1 Management Trainee Posts",
+      "board": "RCFL MT",
+      "vacancies": 1,
+      "closing": "24 August 2026, 5:00 pm",
+      "link": "https://www.rcfltd.com/files/MT%202026.pdf"
+    },
+    {
+      "id": "oav-balangir-warden-chowkidar-and-more-recruitment-2026",
+      "title": "OAV Balangir Recruitment 2026 – Apply for 5 Warden, Chowkidar and More Posts",
+      "board": "OAV Balangir",
+      "vacancies": 5,
+      "closing": "08-09-2026",
+      "link": "https://balangir.odisha.gov.in/sites/default/files/2026-08/Application%20Form.pdf"
+    },
+    {
+      "id": "oil-india-limited-oil-india-consultant-land-coordination-recruitment-2026",
+      "title": "Oil India Limited (Oil India) Recruitment 2026 – Apply for 1 Consultant (Land & Coordination) Posts",
+      "board": "Oil India Limited (Oil India)",
+      "vacancies": 1,
+      "closing": "18 September 2026",
+      "link": "https://www.oil-india.com/"
+    },
+    {
+      "id": "tata-memorial-centre-tmc-junior-engineer-civil-engg-pha-recruitment-2026",
+      "title": "Tata Memorial Centre (TMC) Recruitment 2026 – Apply for 2 Junior Engineer (Civil Engg.) / Pharmacist Posts",
+      "board": "Tata Memorial Centre (TMC)",
+      "vacancies": 2,
+      "closing": "03-09-2026",
+      "link": "https://tmc.gov.in/postmaster/ViewFile?FileId=bIh0NGCDq3h+5MD2kyj2eQ=="
+    },
+    {
+      "id": "pudukkottai-district-out-reach-worker-recruitment-2026",
+      "title": "Pudukkottai District Recruitment 2026 – Apply for 1 Out Reach Worker Posts",
+      "board": "Pudukkottai District",
+      "vacancies": 1,
+      "closing": "30-08-2026",
+      "link": "https://cdn.s3waas.gov.in/s342e7aaa88b48137a16a1acd04ed91125/uploads/2026/08/17875600174054.pdf"
+    },
+    {
+      "id": "allahabad-university-junior-research-fellow-and-res-recruitment-2026",
+      "title": "Allahabad University Recruitment 2026 – Apply for 2 Junior Research Fellow and Research Assistant Posts",
+      "board": "Allahabad University",
+      "vacancies": 2,
+      "closing": "06 September 2026",
+      "link": "https://www.allduniv.ac.in/upload/file_collection/Notice%20for%20JRF_RA%20recruitment%20_BRK%20PROJECT%202026_Final.pdf"
+    },
+    {
+      "id": "indian-bank-authorised-doctor-recruitment-2026",
+      "title": "Indian Bank Recruitment 2026 – Apply for 1 Authorised Doctor Posts",
+      "board": "Indian Bank",
+      "vacancies": 1,
+      "closing": "08-09-2026",
+      "link": "https://indianbank.bank.in/documents/20117/34414/AUTHORISED%20DOCTOR%20ADVERTISEMENT-ZO%20BAHRAICH2026_08_24_10_14_38.pdf/3993dd95-ee06-d777-f627-7db0767d644b"
+    },
+    {
+      "id": "bharat-electronics-limited-bel-havildar-security-recruitment-2026",
+      "title": "Bharat Electronics Limited (BEL) Recruitment 2026 – Apply for 5 Havildar (Security) Posts",
+      "board": "Bharat Electronics Limited (BEL)",
+      "vacancies": 5,
+      "closing": "14.09.2026",
+      "link": "https://bel-india.in/wp-content/uploads/2026/08/Deatiled-Security-Havildar-Advertisment.pdf"
+    },
+    {
+      "id": "birla-industrial-and-technolog-junior-mentor-recruitment-2026",
+      "title": "Birla Industrial and Technological Museum (BITM) Recruitment 2026 – Apply for 5 Junior Mentor Posts",
+      "board": "Birla Industrial and Technological Museum (BITM)",
+      "vacancies": 5,
+      "closing": "25-09-2026",
+      "link": "https://bitm.gov.in/wp-content/uploads/2026/08/MENTOR-Website-Text-24.08.2026.pdf"
+    }
+  ],
+  "skipped_jobs": [
+    {
+      "url": "https://www.freejobalert.com/articles/rars-chintapalle-recruitment-2026-walkin-for-teaching-associate-and-teaching-assistants-posts-3064609",
+      "title": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle) Recruitment 2026 – Apply for 4 Teaching Associate and Teaching Assistants Posts",
+      "board": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'agricultural', 'research'}, Title match: {'agricultural', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/tmc-hbchrcv-medical-officer-recruitment-2026-walkin-3064603",
+      "title": "Homi Bhabha Cancer Hospital & Research Centre Recruitment 2026 – Apply for 1 Medical Officer Posts",
+      "board": "Homi Bhabha Cancer Hospital & Research Centre",
+      "reason": "Duplicate (Advt No 'TMC/HBCHRCV/AD/47/26' matches existing 'homi-bhabha-cancer-hospital-research-centre-total-posts-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/apcrda-assistant-manager-recruitment-2026-apply-online-3064595",
+      "title": "Andhra Pradesh Capital Region Development Authority (APCRDA) Recruitment 2026 – Apply for 4 Assistant Manager-Legal Posts",
+      "board": "Andhra Pradesh Capital Region Development Authority (APCRDA)",
+      "reason": "Duplicate (Board and Post match with 'andhra-pradesh-capital-region-development-authority-apcrda-total-posts-recruitment-2026' (Board match: {'pradesh', 'apcrda', 'development', 'region', 'capital', 'authority', 'andhra'}, Title match: {'pradesh', 'apcrda', 'authority', 'development', 'region', 'capital', 'andhra'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/sbc-visakhapatnam-group-c-recruitment-2026-apply-online-for-fire-engine-driver-construction-handler-and-more-posts-3063735",
+      "title": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D) Recruitment 2026 – Apply for 9 Construction Assistant 'A' (CA'A'), Construction Handler (CH), Fire Engine Driver-OG (FED-OG), Civilian Motor Transport Driver-OG (CMTD-OG) Posts",
+      "board": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D)",
+      "reason": "Duplicate (Board and Post match with 'asc-centre-south-bangalore-group-c-recruitment-2026' (Board match: {'defence', 'ministry'}, Title match: {'defence', 'civilian', 'centre', 'ministry'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-guwahati-project-fellow-recruitment-2026-apply-online-3064579",
+      "title": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 – Apply for 1 Project Fellow Posts",
+      "board": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/fremaa-recruitment-2026-apply-online-for-12-it-assistant-field-assistants-and-more-posts-3064468",
+      "title": "Flood and River Erosion Management Agency of Assam (FREMAA) Recruitment 2026 – Apply for 12 IT Assistant, Accounts Assistant, Field Assistants Posts",
+      "board": "Flood and River Erosion Management Agency of Assam (FREMAA)",
+      "reason": "Duplicate (Advt No 'E – No. 561838/438-453' matches existing 'flood-and-river-erosion-management-agency-of-assam-fremaa-total-posts-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/tezpur-university-recruitment-2026-apply-online-for-junior-research-fellow-senior-research-fellow-posts-3064455",
+      "title": "Tezpur University Recruitment 2026 – Apply for 3 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) Posts",
+      "board": "Tezpur University",
+      "reason": "Duplicate (Board and Post match with 'tezpur-university-total-posts-recruitment-2026' (Board match: {'tezpur'}, Title match: {'tezpur', 'university'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/tezpur-university-assistant-professor-recruitment-2026-apply-online-3064429",
+      "title": "Tezpur University Recruitment 2026 – Apply for 9 Assistant Professor (Contractual) Posts",
+      "board": "Tezpur University",
+      "reason": "Duplicate (Board and Post match with 'tezpur-university-total-posts-recruitment-2026' (Board match: {'tezpur'}, Title match: {'tezpur', 'university'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-patna-recruitment-2026-apply-online-for-senior-research-fellow-srf-project-assistant-pa-posts-3064581",
+      "title": "Indian Institute of Technology Patna (IIT Patna) Recruitment 2026 – Apply for 2 Senior Research Fellow & Project Assistant Posts",
+      "board": "Indian Institute of Technology Patna (IIT Patna)",
+      "reason": "Duplicate (Board and Post match with 'patna-high-court-ex-cadre-assistant-2026' (Board match: {'patna'}, Title match: {'patna', 'assistant'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iiit-bhagalpur-apprentice-recruitment-2026-apply-online-for-21-posts-3064563",
+      "title": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur) Recruitment 2026 – Apply for 21 Apprentice (Graduate and Technician) Posts",
+      "board": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur)",
+      "reason": "Duplicate (Board and Post match with 'iocl-northern-region-apprentice-recruitment-2026' (Board match: {'indian'}, Title match: {'apprentice', 'technician', 'graduate'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/bsfc-recruitment-2026-apply-online-for-259-accountant-lower-grade-clerk-and-more-posts-3064459",
+      "title": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar Recruitment 2026 – Apply for 259 Accountant, Lower Grade Clerk and More Posts",
+      "board": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar",
+      "reason": "Duplicate (Advt No 'BCECEB(BSFC)-2026/01' matches existing 'bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/cusb-crs-project-fellow-recruitment-2026-apply-online-3064453",
+      "title": "Central University of South Bihar (CUSB) Recruitment 2026 – Apply for 1 CRS Project Fellow (Junior) Posts",
+      "board": "Central University of South Bihar (CUSB)",
+      "reason": "Duplicate (Board and Post match with 'central-university-of-south-bihar-cusb-total-posts-recruitment-2026' (Board match: {'cusb', 'south', 'bihar'}, Title match: {'university', 'cusb', 'central', 'south', 'bihar'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/pgimer-project-technical-support-ii-recruitment-2026-apply-online-3064593",
+      "title": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 1 Project Technical Support II Posts",
+      "board": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/pgimer-lab-technician-recruitment-2026-apply-offline-3064587",
+      "title": "Post Graduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 1 Lab Technician Posts",
+      "board": "Post Graduate Institute of Medical Education and Research (PGIMER)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'medical'}, Title match: {'medical', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/panjab-university-guest-faculty-recruitment-2026-apply-offline-3064560",
+      "title": "Panjab University Recruitment 2026 – Apply for 1 Guest Faculty Posts",
+      "board": "Panjab University",
+      "reason": "Duplicate (Board and Post match with 'panjab-university-total-posts-recruitment-2026' (Board match: {'panjab'}, Title match: {'university', 'panjab'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/pgimer-senior-resident-recruitment-2026-walkin-3064492",
+      "title": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 2 Senior Resident (Adhoc) Posts",
+      "board": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'medical'}, Title match: {'medical', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/panjab-university-guest-faculty-recruitment-2026-apply-offline-3064485",
+      "title": "Panjab University Recruitment 2026 – Apply for 1 Guest Faculty Posts",
+      "board": "Panjab University",
+      "reason": "Duplicate (Board and Post match with 'panjab-university-total-posts-recruitment-2026' (Board match: {'panjab'}, Title match: {'university', 'panjab'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/panjab-university-post-doctoral-fellowship-recruitment-2026-walkin-3064482",
+      "title": "Panjab University Recruitment 2026 – Apply for 1 Post Doctoral Fellowship Posts",
+      "board": "Panjab University",
+      "reason": "Duplicate (Board and Post match with 'panjab-university-total-posts-recruitment-2026' (Board match: {'panjab'}, Title match: {'university', 'panjab'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/panjab-university-manager-recruitment-2026-walkin-3064480",
+      "title": "Panjab University Recruitment 2026 – Apply for 4 Manager Posts",
+      "board": "Panjab University",
+      "reason": "Duplicate (Board and Post match with 'panjab-university-total-posts-recruitment-2026' (Board match: {'panjab'}, Title match: {'university', 'panjab'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/panjab-university-lab-technician-recruitment-2026-walkin-3064477",
+      "title": "Panjab University Recruitment 2026 – Apply for 1 Lab. Technician Posts",
+      "board": "Panjab University",
+      "reason": "Duplicate (Board and Post match with 'panjab-university-total-posts-recruitment-2026' (Board match: {'panjab'}, Title match: {'university', 'panjab'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/pgimer-project-nurse-ii-recruitment-2026-apply-offline-3064450",
+      "title": "Post Graduate Institute of Medical Education & Research (PGIMER) Recruitment 2026 – Apply for 1 Project Nurse-II Posts",
+      "board": "Post Graduate Institute of Medical Education & Research (PGIMER)",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/cmho-balodabazar-nursing-officer-attendant-and-more-recruitment-2026-apply-offline-for-38-posts-3064470",
+      "title": "CMHO Balodabazar Nursing Officer, Attendant and More Recruitment 2026 – Apply for 38 38 Posts",
+      "board": "CMHO Balodabazar Nursing Officer, Attendant and More",
+      "reason": "Duplicate (Board and Post match with 'national-health-mission-nhm-chhattisgarh---office-of-the-vacancies-recruitment-2026' (Board match: {'cmho', 'officer'}, Title match: {'cmho', 'officer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/bastar-district-recruitment-2026-apply-offline-for-11-subject-expert-part-time-music-teacher-and-more-posts-3064457",
+      "title": "Bastar District Recruitment 2026 – Apply for 11 High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part Time Music Teacher Posts",
+      "board": "Bastar District",
+      "reason": "Duplicate (Board and Post match with 'bastar-district-salary-per-month-recruitment-2026' (Board match: {'bastar'}, Title match: {'bastar', 'district'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-bhilai-research-associate-i-recruitment-2026-apply-online-3064419",
+      "title": "Indian Institute of Technology Bhilai (IIT Bhilai) Recruitment 2026 – Apply for 1 Research Associate I Posts",
+      "board": "Indian Institute of Technology Bhilai (IIT Bhilai)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/concor-recruitment-2026-apply-online-for-77-management-trainee-and-assistant-officer-posts-3064451",
+      "title": "Container Corporation of India Ltd. (CONCOR) Recruitment 2026 – Apply for 77 Management Trainee & Assistant Officer Posts",
+      "board": "Container Corporation of India Ltd. (CONCOR)",
+      "reason": "Duplicate (Board and Post match with 'container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026' (Board match: {'concor', 'container'}, Title match: {'concor', 'corporation', 'india', 'container'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iocl-recruitment-2026-apply-online-for-production-manager-senior-production-manager-and-senior-manager-posts-3064614",
+      "title": "Indian Oil Corporation Limited (IOCL) Recruitment 2026 – Apply for 1 Production Manager, Senior Production Manager & Senior Manager (PBR-Marketing) Posts",
+      "board": "Indian Oil Corporation Limited (IOCL)",
+      "reason": "Duplicate (Board and Post match with 'iocl-executives-cbt-recruitment-2026' (Board match: {'iocl', 'indian'}, Title match: {'iocl', 'marketing'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/delhi-university-south-campus-junior-research-fellow-recruitment-2026-apply-offline-3064589",
+      "title": "Delhi University South Campus Recruitment 2026 – Apply for 1 Junior Research Fellow Posts",
+      "board": "Delhi University South Campus",
+      "reason": "Duplicate (Board and Post match with 'central-university-of-south-bihar-cusb-total-posts-recruitment-2026' (Board match: {'south'}, Title match: {'university', 'south'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/icmr-young-professional-recruitment-2026-walkin-3064569",
+      "title": "Indian Council of Medical Research (ICMR) Recruitment 2026 – Apply for 1 Young Professional-II Posts",
+      "board": "Indian Council of Medical Research (ICMR)",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'icmr', 'research'}, Title match: {'icmr', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/dpcc-group-a-recruitment-2026-apply-offline-for-17-environmental-engineer-assistant-environmental-engineer-and-more-posts-3064555",
+      "title": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi Recruitment 2026 – Apply for 17 Senior Environmental Engineer (SEE), Environmental Engineer (EE), Assistant Environmental Engineer (AEE) Posts",
+      "board": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi",
+      "reason": "Duplicate (Board and Post match with 'iocl-executives-cbt-recruitment-2026' (Board match: {'delhi'}, Title match: {'engineer', 'control'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/ernet-india-administrative-assistant-procurement-recruitment-2026-apply-online-3064539",
+      "title": "ERNET India Recruitment 2026 – Apply for 1 Administrative Assistant (Procurement) Posts",
+      "board": "ERNET India",
+      "reason": "Duplicate (Board and Post match with 'ernet-india-project-engineer-level-02-seni-recruitment-2026' (Board match: {'ernet'}, Title match: {'india', 'ernet'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/supreme-court-of-india-assistant-registrar-recruitment-2026-apply-offline-3064537",
+      "title": "Supreme Court of India Recruitment 2026 – Apply for 1 Assistant Registrar (Computer) Posts",
+      "board": "Supreme Court of India",
+      "reason": "Duplicate (Board and Post match with 'patna-high-court-ex-cadre-assistant-2026' (Board match: {'court'}, Title match: {'court', 'assistant'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/moefcc-scientific-consultant-grade-i-recruitment-2026-apply-online-3064512",
+      "title": "Ministry of Environment Forest and Climate Change (MoEFCC) Recruitment 2026 – Apply for 1 Scientific Consultant Grade I (Climate Finance) Posts",
+      "board": "Ministry of Environment Forest and Climate Change (MoEFCC)",
+      "reason": "Duplicate (Board and Post match with 'central-pollution-control-board-cpcb-ministry-of-environment-forest-climate-monthly-emoluments-consolidated-recruitment-2026' (Board match: {'environment', 'forest', 'climate', 'ministry', 'change'}, Title match: {'environment', 'forest', 'ministry', 'climate', 'change'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/aiims-delhi-recruitment-2026-apply-online-for-data-entry-operator-project-nurse-iii-posts-3064500",
+      "title": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 – Apply for 2 Data Entry Operator & Project Nurse III Posts",
+      "board": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'medical', 'sciences'}, Title match: {'medical', 'nurse', 'institute', 'sciences'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/powergrid-apprentices-recruitment-2026-apply-online-3064109",
+      "title": "Power Grid Corporation of India Limited (POWERGRID) Recruitment 2026 – Apply for 270 Apprentice (ITI-Electrician, Diploma Electrical, Diploma Civil, Graduate Electrical, Graduate Civil) Posts",
+      "board": "Power Grid Corporation of India Limited (POWERGRID)",
+      "reason": "Duplicate (Board and Post match with 'powergrid-nr3-apprenticeship-recruitment-2026' (Board match: {'powergrid', 'grid', 'power'}, Title match: {'apprentice', 'diploma', 'powergrid', 'graduate'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/sahitya-akademi-recruitment-2026-apply-online-for-30-clerk-mts-and-more-posts-3063652",
+      "title": "Sahitya Akademi (National Academy of Letters) - autonomous organization under the Ministry of Culture, Govt. of India Recruitment 2026 – Apply for 30 Clerk, MTS and More Posts",
+      "board": "Sahitya Akademi (National Academy of Letters) - autonomous organization under the Ministry of Culture, Govt. of India",
+      "reason": "Duplicate (Board and Post match with 'esic-medical-college-hospital-bihta-patna-under-the-employees-state-vacancies-recruitment-2026' (Board match: {'under', 'govt', 'ministry'}, Title match: {'under', 'govt', 'india', 'ministry'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/wdra-consultant-recruitment-2026-apply-offline-3064424",
+      "title": "Warehousing Development and Regulatory Authority (WDRA) Recruitment 2026 – Apply for 1 Consultant (Banking) Posts",
+      "board": "Warehousing Development and Regulatory Authority (WDRA)",
+      "reason": "Duplicate (Board and Post match with 'andhra-pradesh-capital-region-development-authority-apcrda-total-posts-recruitment-2026' (Board match: {'authority', 'development'}, Title match: {'authority', 'development'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/spmcil-assistant-manager-deputy-manager-recruitment-2026-3060221",
+      "title": "Mini-Ratna Category-I CPSE (wholly owned by Government of India) Recruitment 2026 – Apply for 24 Assistant Manager, Deputy Manager Posts",
+      "board": "Mini-Ratna Category-I CPSE (wholly owned by Government of India)",
+      "reason": "Duplicate (Board and Post match with 'sjvn-executive-recruitment-2026' (Board match: {'cpse'}, Title match: {'deputy', 'manager'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/nfsu-recruitment-2026-apply-online-for-visiting-medical-consultant-psychologist-counsellor-posts-3064523",
+      "title": "National Forensic Sciences University (NFSU) Recruitment 2026 – Apply for 1 Visiting Medical Consultant/ Psychologist-Counsellor Posts",
+      "board": "National Forensic Sciences University (NFSU)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'sciences'}, Title match: {'medical', 'sciences'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/esic-teaching-faculty-recruitment-2026-walk-in-for-107-professor-senior-resident-and-more-posts-3064490",
+      "title": "ESIC Teaching Faculty Recruitment 2026 – Apply for 107 Professor, Senior Resident and More Posts",
+      "board": "ESIC Teaching Faculty",
+      "reason": "Duplicate (Board and Post match with 'esic-indore-faculty-senior-resident-recruitment-2026' (Board match: {'esic'}, Title match: {'senior', 'esic', 'teaching', 'faculty', 'resident'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iiit-vadodara-assistant-professor-grade-ii-recruitment-2026-apply-online-for-25-posts-3064616",
+      "title": "Indian Institute of Information Technology Vadodara (IIIT Vadodara) Recruitment 2026 – Apply for 25 Assistant Professor Grade - II Posts",
+      "board": "Indian Institute of Information Technology Vadodara (IIIT Vadodara)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/eil-associate-engineer-recruitment-2026-apply-online-for-12-posts-3064498",
+      "title": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company Recruitment 2026 – Apply for 12 Associate Engineer Grade I (Pipeline/Piping Engineer, Offshore Structural Engineer, Project Engineer) Posts",
+      "board": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company",
+      "reason": "Duplicate (Board and Post match with 'sjvn-executive-recruitment-2026' (Board match: {'navratna'}, Title match: {'limited', 'engineer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/bric-nbrc-project-technical-support-i-recruitment-2026-apply-offline-3064630",
+      "title": "National Brain Research Centre Recruitment 2026 – Apply for 1 Project Technical Support-I Posts",
+      "board": "National Brain Research Centre",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/nbrc-research-assistant-iii-recruitment-2026-apply-offline-3064600",
+      "title": "National Brain Research Centre (NBRC) Recruitment 2026 – Apply for 1 Research Assistant III Posts",
+      "board": "National Brain Research Centre (NBRC)",
+      "reason": "Duplicate (Board and Post match with 'csir-national-environmental-engineering-research-institute-total-posts-recruitment-2026' (Board match: {'research'}, Title match: {'research', 'national'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/nbrc-account-assistant-recruitment-2026-apply-online-3064591",
+      "title": "National Brain Research Centre (NBRC) Recruitment 2026 – Apply for 1 Account Assistant Posts",
+      "board": "National Brain Research Centre (NBRC)",
+      "reason": "Duplicate (Board and Post match with 'csir-national-environmental-engineering-research-institute-total-posts-recruitment-2026' (Board match: {'research'}, Title match: {'research', 'national'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/aiims-jhajjar-project-technical-support-iii-recruitment-2026-apply-online-3064497",
+      "title": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar) Recruitment 2026 – Apply for 1 PTS-III (Project Technical Support-III) Posts",
+      "board": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'medical', 'sciences'}, Title match: {'medical', 'institute', 'sciences'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/nbrc-account-assistant-recruitment-2026-apply-online-3064445",
+      "title": "National Brain Research Centre (NBRC) Recruitment 2026 – Apply for 1 Account Assistant Posts",
+      "board": "National Brain Research Centre (NBRC)",
+      "reason": "Duplicate (Board and Post match with 'csir-national-environmental-engineering-research-institute-total-posts-recruitment-2026' (Board match: {'research'}, Title match: {'research', 'national'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-ism-dhanbad-project-associate-recruitment-2026-apply-online-3064495",
+      "title": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 – Apply for 1 Project Associate-I Posts",
+      "board": "Indian Institute of Technology (ISM) Dhanbad",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-ism-dhanbad-junior-research-fellow-jrf-recruitment-2026-apply-online-3064487",
+      "title": "Indian Institute of Technology (Indian School of Mines) Dhanbad Recruitment 2026 – Apply for 2 Junior Research Fellow (JRF) Posts",
+      "board": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/csir-cftri-senior-project-associate-recruitment-2026-apply-online-3064510",
+      "title": "Central Food Technological Research Institute (CSIR CFTRI) Recruitment 2026 – Apply for 1 Senior Project Associate-I Posts",
+      "board": "Central Food Technological Research Institute (CSIR CFTRI)",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/karnataka-swrt-teacher-recruitment-2026-apply-online-for-140-social-welfare-residential-school-teacher-posts-3064469",
+      "title": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka Recruitment 2026 – Apply for 140 Residential School Teacher (Vasati Shala Shikshakaru) Posts",
+      "board": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka",
+      "reason": "Duplicate (Board and Post match with 'karnataka-school-education-teacher-recruitment-2026' (Board match: {'government', 'karnataka'}, Title match: {'teacher', 'government', 'karnataka'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/igntu-project-assistant-recruitment-2026-apply-online-3064566",
+      "title": "Indira Gandhi National Tribal University (IGNTU) Recruitment 2026 – Apply for 1 Project Assistant Posts",
+      "board": "Indira Gandhi National Tribal University (IGNTU)",
+      "reason": "Duplicate (Board and Post match with 'mahatma-gandhi-university-kerala-mgu-kerala-total-posts-recruitment-2026' (Board match: {'gandhi'}, Title match: {'university', 'gandhi'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/ordnance-factory-katni-labour-welfare-officer-recruitment-2026-apply-offline-3064551",
+      "title": "Ordnance Factory Katni Recruitment 2026 – Apply for 1 Labour Welfare Officer Posts",
+      "board": "Ordnance Factory Katni",
+      "reason": "Duplicate (Board and Post match with 'ofdr-pune-munitions-india-dbw-recruitment-2026' (Board match: {'factory', 'ordnance'}, Title match: {'factory', 'ordnance'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/igntu-company-secretary-cs-firm-recruitment-2026-apply-offline-3064421",
+      "title": "Indira Gandhi National Tribal University (IGNTU) Recruitment 2026 – Apply for 1 Company Secretary (CS) Firm Posts",
+      "board": "Indira Gandhi National Tribal University (IGNTU)",
+      "reason": "Duplicate (Board and Post match with 'mahatma-gandhi-university-kerala-mgu-kerala-total-posts-recruitment-2026' (Board match: {'gandhi'}, Title match: {'university', 'gandhi'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/actrec-recruitment-2026-walkin-for-research-associate-junior-research-fellow-posts-3064626",
+      "title": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 – Apply for 2 Research Associate / Junior Research Fellow Posts",
+      "board": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+      "reason": "Duplicate (Board and Post match with 'nit-raipur-research-associate-recruitment-2026' (Board match: {'education'}, Title match: {'research', 'associate'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/csir-neeri-project-associate-i-recruitment-2026-apply-online-3064618",
+      "title": "CSIR National Environmental Engineering Research Institute Recruitment 2026 – Apply for 1 Project Associate I Posts",
+      "board": "CSIR National Environmental Engineering Research Institute",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/icar-circot-business-manager-recruitment-2026-walkin-3064612",
+      "title": "ICAR Central Institute for Research on Cotton Technology Recruitment 2026 – Apply for 1 Business Manager Posts",
+      "board": "ICAR Central Institute for Research on Cotton Technology",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'icar', 'research'}, Title match: {'icar', 'institute', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/actrec-scientific-assistant-recruitment-2026-walkin-3064521",
+      "title": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 – Apply for 1 Scientific Assistant Posts",
+      "board": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+      "reason": "Duplicate (Board and Post match with 'homi-bhabha-cancer-hospital-research-centre-total-posts-recruitment-2026' (Board match: {'research', 'cancer'}, Title match: {'centre', 'research', 'cancer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/actrec-attendant-recruitment-2026-walkin-3064505",
+      "title": "Advanced Centre For Treatment Research & Education In Cancer (ACTREC) Recruitment 2026 – Apply for 1 Attendant Posts",
+      "board": "Advanced Centre For Treatment Research & Education In Cancer (ACTREC)",
+      "reason": "Duplicate (Board and Post match with 'homi-bhabha-cancer-hospital-research-centre-total-posts-recruitment-2026' (Board match: {'research', 'cancer'}, Title match: {'centre', 'research', 'cancer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/emrs-pallong-non-teaching-staff-recruitment-2026-apply-offline-for-14-driver-cook-and-more-posts-3064437",
+      "title": "Eklavya Model Residential School Pallong (EMRS Pallong) Recruitment 2026 – Apply for 14 Non-Teaching Staff Posts",
+      "board": "Eklavya Model Residential School Pallong (EMRS Pallong)",
+      "reason": "Duplicate (Board and Post match with 'eklavya-model-residential-school-tamenglong-total-posts-recruitment-2026' (Board match: {'model', 'residential', 'eklavya', 'school'}, Title match: {'school', 'residential', 'eklavya', 'model'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/neigrihms-senior-resident-doctor-recruitment-2026-apply-online-for-58-posts-3064605",
+      "title": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS) Recruitment 2026 – Apply for 58 Senior Resident Doctor Posts",
+      "board": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS)",
+      "reason": "Duplicate (Board and Post match with 'gims-greater-noida-staff-nurse-recruitment-2026' (Board match: {'medical', 'sciences'}, Title match: {'medical', 'institute', 'sciences'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-garudabasa-support-staff-recruitment-2026-apply-offline-for-warden-head-cook-and-more-posts-3064635",
+      "title": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply for 5 Support Staff Posts",
+      "board": "Odisha Adarsha Vidyalaya Garudabasa",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-bhalubasa-recruitment-2026-apply-offline-for-warden-assistant-cook-and-more-posts-3064628",
+      "title": "Odisha Adarsha Vidyalaya Bhalubasa Recruitment 2026 – Apply for 5 Supporting Staff (Warden, Chowkidar-cum-Sweeper, Head Cook, Assistant Cook) Posts",
+      "board": "Odisha Adarsha Vidyalaya Bhalubasa",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-garudabasa-warden-recruitment-2026-apply-offline-3064385",
+      "title": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply for 1 Warden Posts",
+      "board": "Odisha Adarsha Vidyalaya Garudabasa",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-mayurbhanj-recruitment-2026-apply-offline-for-warden-chowkidar-and-more-posts-3064624",
+      "title": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) Recruitment 2026 – Apply for 5 Support Staff Posts",
+      "board": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj)",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-shirsa-recruitment-2026-apply-offline-for-warden-head-cook-and-more-posts-3064607",
+      "title": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa) Recruitment 2026 – Apply for 5 Support Staff Posts",
+      "board": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa)",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-morada-recruitment-2026-apply-offline-for-warden-head-cook-and-more-posts-3064598",
+      "title": "Odisha Adarsha Vidyalaya Morada (OAV Morada) Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
+      "board": "Odisha Adarsha Vidyalaya Morada (OAV Morada)",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/wcd-odisha-anganwadi-helper-recruitment-2026-apply-online-3064013",
+      "title": "Women and Child Development Department Odisha Recruitment 2026 – Apply for 11 Anganwadi Helper Posts",
+      "board": "Women and Child Development Department Odisha",
+      "reason": "Duplicate (Board and Post match with 'up-azamgarh-anganwadi-sahayika-recruitment-2026' (Board match: {'child', 'development'}, Title match: {'child', 'anganwadi', 'development'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/gopabandhu-science-college-guest-faculty-recruitment-2026-apply-online-for-18-posts-3064489",
+      "title": "Gopabandhu Science College Recruitment 2026 – Apply for 18 Guest Faculty Posts",
+      "board": "Gopabandhu Science College",
+      "reason": "Duplicate (Board and Post match with 'esic-indore-faculty-senior-resident-recruitment-2026' (Board match: {'college'}, Title match: {'college', 'faculty'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/oav-garudabasa-recruitment-2026-apply-offline-for-warden-head-cook-and-more-posts-3064443",
+      "title": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply for 5 Hostel Support Staff Posts",
+      "board": "Odisha Adarsha Vidyalaya Garudabasa",
+      "reason": "Duplicate (Board and Post match with 'odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026' (Board match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}, Title match: {'vidyalaya', 'garudabasa', 'odisha', 'adarsha'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/jipmer-project-technical-assistant-recruitment-2026-apply-online-3064508",
+      "title": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 – Apply for 2 Project Technical Assistant Posts",
+      "board": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+      "reason": "Duplicate (Board and Post match with 'icmr-nihr-jodhpur-project-scientist-officer-recruitment-2026' (Board match: {'research'}, Title match: {'project', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/ggsmch-project-technical-support-recruitment-2026-apply-offline-3064528",
+      "title": "Guru Gobind Singh Medical College and Hospital (GGSMCH) Recruitment 2026 – Apply for 1 Project Technical Support III (Clinical Pharmacist) Posts",
+      "board": "Guru Gobind Singh Medical College and Hospital (GGSMCH)",
+      "reason": "Duplicate (Board and Post match with 'kea-esis-pharmacist-nursing-officer-2026' (Board match: {'medical'}, Title match: {'medical', 'pharmacist'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/dhs-tiruchirappalli-recruitment-2026-apply-offline-for-driver-and-microbiologist-posts-3064637",
+      "title": "District Health Society Tiruchirappalli (DHS Tiruchirappalli) Recruitment 2026 – Apply for 2 Driver and Microbiologist Posts",
+      "board": "District Health Society Tiruchirappalli (DHS Tiruchirappalli)",
+      "reason": "Duplicate (Board and Post match with 'national-health-mission-nhm-chhattisgarh---office-of-the-vacancies-recruitment-2026' (Board match: {'health'}, Title match: {'health', 'district'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/one-stop-centre-erode-senior-counsellor-recruitment-2026-apply-offline-3064602",
+      "title": "One Stop Centre Erode Recruitment 2026 – Apply for 1 Senior Counsellor Posts",
+      "board": "One Stop Centre Erode",
+      "reason": "Duplicate (Board and Post match with 'one-stop-centre-sri-sathya-sai-total-posts-recruitment-2026' (Board match: {'stop'}, Title match: {'stop', 'centre'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/tmb-specialist-officer-recruitment-2026-apply-online-for-software-engineer-data-scientist-and-more-posts-3064575",
+      "title": "Tamilnad Mercantile Bank Ltd. (TMB) Recruitment 2026 – Apply for 1 Specialist Officer (IT) - multiple specializations Posts",
+      "board": "Tamilnad Mercantile Bank Ltd. (TMB)",
+      "reason": "Duplicate (Board and Post match with 'bank-of-baroda-so-recruitment-2026' (Board match: {'bank'}, Title match: {'bank', 'officer', 'specialist'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/tnuavc-recruitment-2026-apply-offline-for-36-car-driver-cook-helper-and-more-posts-3064542",
+      "title": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC) Recruitment 2026 – Apply for 36 Drone Pilot, Drone Co-Pilot, Car Driver, Cook Helper, Tender Executive, RPTO Instructor, Supervisor, Cook, House Keeping, RPTO Supervisor Posts",
+      "board": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC)",
+      "reason": "Duplicate (Board and Post match with 'tnstc-tamilnadu-apprentice-recruitment-2026' (Board match: {'tamil', 'nadu'}, Title match: {'tamil', 'nadu'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iob-security-guard-recruitment-2026-apply-online-for-25-posts-3064438",
+      "title": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai Recruitment 2026 – Apply for 25 Security Guard (Subordinate Staff Cadre) Posts",
+      "board": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai",
+      "reason": "Duplicate (Board and Post match with 'india-post-bengaluru-staff-car-driver-recruitment-2026' (Board match: {'office'}, Title match: {'staff', 'india'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iiit-agartala-assistant-professor-recruitment-2026-apply-online-for-10-posts-3064633",
+      "title": "Indian Institute of Information Technology Agartala (IIIT Agartala) Recruitment 2026 – Apply for 10 Assistant Professor Grade II (On Contract) Posts",
+      "board": "Indian Institute of Information Technology Agartala (IIIT Agartala)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-kanpur-senior-project-executive-officer-recruitment-2026-apply-online-3064525",
+      "title": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 – Apply for 1 Senior Project Executive Officer Posts",
+      "board": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/ksssci-senior-resident-recruitment-2026-walkin-for-19-posts-3064518",
+      "title": "Kalyan Singh Super Specialty Cancer Institute (KSSSCI) Recruitment 2026 – Apply for 19 Senior Resident (Hospital Services) Posts",
+      "board": "Kalyan Singh Super Specialty Cancer Institute (KSSSCI)",
+      "reason": "Duplicate (Board and Post match with 'homi-bhabha-cancer-hospital-research-centre-total-posts-recruitment-2026' (Board match: {'cancer'}, Title match: {'hospital', 'cancer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/bhu-recruitment-2026-apply-online-for-lab-assistant-srf-and-more-posts-3064462",
+      "title": "Banaras Hindu University (BHU) Recruitment 2026 – Apply for 3 Research Positions Posts",
+      "board": "Banaras Hindu University (BHU)",
+      "reason": "Duplicate (Board and Post match with 'indian-institute-of-technology-banaras-hindu-university-total-posts-recruitment-2026' (Board match: {'hindu', 'banaras'}, Title match: {'hindu', 'university', 'banaras'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/atal-residential-school-azamgarh-recruitment-2026-apply-online-for-11-pgt-and-tgt-posts-3064434",
+      "title": "Atal Residential School Azamgarh Recruitment 2026 – Apply for 11 Guest Faculty Teachers (PGT/TGT) Posts",
+      "board": "Atal Residential School Azamgarh",
+      "reason": "Duplicate (Board and Post match with 'eklavya-model-residential-school-tamenglong-total-posts-recruitment-2026' (Board match: {'residential', 'school'}, Title match: {'residential', 'school'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-roorkee-recruitment-2026-apply-online-for-research-associate-i-jrf-posts-3064573",
+      "title": "Indian Institute of Technology Roorkee Recruitment 2026 – Apply for 2 Research Associate I / JRF Posts",
+      "board": "Indian Institute of Technology Roorkee",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute', 'research'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/ukpsc-veterinary-officer-recruitment-2026-apply-online-for-25-posts-3064558",
+      "title": "Uttarakhand Public Service Commission (UKPSC) Recruitment 2026 – Apply for 25 Veterinary Officer Posts",
+      "board": "Uttarakhand Public Service Commission (UKPSC)",
+      "reason": "Duplicate (Board and Post match with 'apsc-veterinary-officer-recruitment-2026' (Board match: {'service', 'public', 'commission'}, Title match: {'veterinary', 'officer'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/iit-roorkee-junior-research-fellow-recruitment-2026-apply-online-3064427",
+      "title": "Indian Institute of Technology Roorkee Recruitment 2026 – Apply for 1 JRF Posts",
+      "board": "Indian Institute of Technology Roorkee",
+      "reason": "Duplicate (Board and Post match with 'indian-agricultural-research-institute-icar-iari-total-posts-recruitment-2026' (Board match: {'indian'}, Title match: {'indian', 'institute'}))"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/aiims-kalyani-recruitment-2026-apply-online-for-51-senior-resident-senior-demonstrator-posts-3064620",
+      "title": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY Recruitment 2026 – Apply for 51 Senior Resident (Non-Academic); Senior Demonstrator (Anatomy, Physiology, Biochemistry & Biostatistics only) Posts",
+      "board": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY",
+      "reason": "Duplicate (Board and Post match with 'aiims-kalyani-junior-resident-non-academic-recruitment-2026' (Board match: {'medical', 'kalyani', 'health', 'aiims', 'sciences', 'bengal', 'family', 'ministry', 'welfare', 'body', 'under', 'statutory', 'west'}, Title match: {'kalyani', 'academic', 'resident', 'aiims'}))"
+    }
+  ]
+}

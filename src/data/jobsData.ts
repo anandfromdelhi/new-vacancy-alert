@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "panjab-university-guest-faculty-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 – Apply for 1 Guest Faculty Posts",
+    "d": "26 August 2026",
+    "l": "02 September 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "MCA/M.Sc. in Computer Science/IT/Computer Applications/M.Tech or allied subje...",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 1 vacancies for Guest Faculty posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260821144032-Advertisement%20for%20the%20Guest%20Faculty%2021.8.26.pdf"
+},
+  {
+    "id": "postgraduate-institute-of-medi-project-technical-support-ii-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 1 Project Technical Support II Posts",
+    "d": "26 August 2026",
+    "l": "30 August 2026",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "Three Years Graduate degree in life science or PG in public health",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 1 vacancies for Project Technical Support II posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=DocScanner%20kjnkl225Aug2026155002.pdf&PathKey=VACANCY_PATH"
+},
+  {
+    "id": "central-university-of-south-bi-crs-project-fellow-junior-recruitment-2026",
+    "b": "Central University of South Bihar (CUSB)",
+    "t": "Central University of South Bihar (CUSB) Recruitment 2026 – Apply for 1 CRS Project Fellow (Junior) Posts",
+    "d": "26 August 2026",
+    "l": "11 September 2026",
+    "a": "CRS/2025-26/01/1671/274",
+    "q": "M.Sc. Physics with minimum 55% marks (not earlier than 3 years)",
+    "desc": "Central University of South Bihar (CUSB) has officially released employment advertisement notification CRS/2025-26/01/1671/274 for the recruitment of 1 vacancies for CRS Project Fellow (Junior) posts.",
+    "u": "https://cusb.ac.in/index.php?option=com_content&view=article&id=1084:re-advertisement-for-the-post-of-crs-project-fellow-junior-i-crs-project-fellow-junior-ii-01-post-under-under-ugc-dae-csr-funded-project-cusb-rp-124&catid=48&Itemid=587"
+},
+  {
+    "id": "indian-institute-of-informatio-apprentice-graduate-and-techni-recruitment-2026",
+    "b": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur)",
+    "t": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur) Recruitment 2026 – Apply for 21 Apprentice (Graduate and Technician) Posts",
+    "d": "26 August 2026",
+    "l": "09.09.2026",
+    "a": "IIITBH/ADVT/NATS/2026/16",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Indian Institute of Information Technology Bhagalpur (IIIT Bhagalpur) has officially released employment advertisement notification IIITBH/ADVT/NATS/2026/16 for the recruitment of 21 vacancies for Apprentice (Graduate and Technician) posts.",
+    "u": "https://www.iiitbh.ac.in/sites/default/files/Recruitment/ENGAGEMENT%20OF%20APPRENTICES%20UNDER%20THE%20APPRENTICES%20ACT_.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-research-fellow-project-recruitment-2026",
+    "b": "Indian Institute of Technology Patna (IIT Patna)",
+    "t": "Indian Institute of Technology Patna (IIT Patna) Recruitment 2026 – Apply for 2 Senior Research Fellow & Project Assistant Posts",
+    "d": "26 August 2026",
+    "l": "5 September 2026",
+    "a": "R&D/1312/SAB/621",
+    "q": "M Tech/MSc/ME/ B Tech-M Tech Dual degree in Structural/Geotechnical/Civil Eng...",
+    "desc": "Indian Institute of Technology Patna (IIT Patna) has officially released employment advertisement notification R&D/1312/SAB/621 for the recruitment of 2 vacancies for Senior Research Fellow & Project Assistant posts.",
+    "u": "https://www.iitp.ac.in"
+},
+  {
+    "id": "tezpur-university-assistant-professor-contractua-recruitment-2026",
+    "b": "Tezpur University",
+    "t": "Tezpur University Recruitment 2026 – Apply for 9 Assistant Professor (Contractual) Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "23/2026, 24/2026, 25/2026, 26/2026",
+    "q": "Ph.D. in relevant subject as per UGC Regulations 2009/2016",
+    "desc": "Tezpur University has officially released employment advertisement notification 23/2026, 24/2026, 25/2026, 26/2026 for the recruitment of 9 vacancies for Assistant Professor (Contractual) posts.",
+    "u": "https://www.tezu.ernet.in/other/jobs.htm"
+},
+  {
+    "id": "tezpur-university-junior-research-fellow-jrf-sen-recruitment-2026",
+    "b": "Tezpur University",
+    "t": "Tezpur University Recruitment 2026 – Apply for 3 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) Posts",
+    "d": "26 August 2026",
+    "l": "Within 15 days from the date of issue of this advertisement (04-09-2026)",
+    "a": "TEZPUR-UNIVERS/2026",
+    "q": "M.E./ M.Tech./ M.S./ M.Sc./ MCA/ B.E./ B.Tech.",
+    "desc": "Tezpur University has officially released employment advertisement notification TEZPUR-UNIVERS/2026 for the recruitment of 3 vacancies for Junior Research Fellow (JRF) / Senior Research Fellow (SRF) posts.",
+    "u": "https://www.tezu.ernet.in/ProjectWalkin/20-642.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 – Apply for 1 Project Fellow Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Master's degree in Science or Bachelor's Degree in Engineering/Design/Humanit...",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Fellow posts.",
+    "u": "https://www.iitg.ac.in/pdf/f5c5628b564462f8d589326500e140f7.pdf"
+},
+  {
+    "id": "ship-building-centre-visakhapa-construction-assistant-a-caa-c-recruitment-2026",
+    "b": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D)",
+    "t": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D) Recruitment 2026 – Apply for 9 Construction Assistant 'A' (CA'A'), Construction Handler (CH), Fire Engine Driver-OG (FED-OG), Civilian Motor Transport Driver-OG (CMTD-OG) Posts",
+    "d": "26 August 2026",
+    "l": "14 Sep 2026 (23:00 hrs)",
+    "a": "3201/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D) has officially released employment advertisement notification 3201/2026 for the recruitment of 9 vacancies for Construction Assistant 'A' (CA'A'), Construction Handler (CH), Fire Engine Driver-OG (FED-OG), Civilian Motor Transport Driver-OG (CMTD-OG) posts.",
+    "u": "https://sbcrecruitment.in/assets/advertisement%20sbc_2026.pdf"
+},
+  {
+    "id": "regional-agricultural-research-teaching-associate-and-teachin-recruitment-2026",
+    "b": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle)",
+    "t": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle) Recruitment 2026 – Apply for 4 Teaching Associate and Teaching Assistants Posts",
+    "d": "26 August 2026",
+    "l": "7 September 2026",
+    "a": "REGIONAL-AGRIC/2026",
+    "q": "Ph.D in Agricultural sciences OR Master's Degree in Agricultural sciences wit...",
+    "desc": "Regional Agricultural Research Station Chintapalle (RARS Chintapalle) has officially released employment advertisement notification REGIONAL-AGRIC/2026 for the recruitment of 4 vacancies for Teaching Associate and Teaching Assistants posts.",
+    "u": "https://angrau.ac.in/UPLOADS/CareersPDFs/POF_Chitna_Revised.pdf"
+},
+  {
     "id": "birla-industrial-and-technolog-junior-mentor-recruitment-2026",
     "b": "Birla Industrial and Technological Museum (BITM)",
     "t": "Birla Industrial and Technological Museum (BITM) Recruitment 2026 – Apply for 5 Junior Mentor Posts",
