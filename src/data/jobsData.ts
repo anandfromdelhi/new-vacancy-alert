@@ -893,15 +893,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "hprca-assistant-staff-nurse-various-posts-recruitment-2026",
-    "b": "HPRCA Assistant Staff Nurse",
-    "t": "HPRCA Assistant Staff Nurse Recruitment 2026 – Apply for 780 Various Posts Posts",
+    "b": "HP Rajya Chayan Aayog (HPRCA)",
+    "t": "HPRCA Assistant Staff Nurse Recruitment 2026 – Apply Online for 780 Posts (Post Code 26044)",
     "d": "26 August 2026",
-    "l": "29.08.2026 (till 11:59 PM)",
+    "l": "29 August 2026",
     "a": "12/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "HPRCA Assistant Staff Nurse has officially released employment advertisement notification 12/2026 for the recruitment of 780 vacancies for Various Posts posts.",
-    "u": "https://www.freejobalert.com/articles/hprca-assistant-staff-nurse-recruitment-2026-3060019"
-},
+    "q": "B.Sc Nursing (50%) / GNM (50%) + HPNRC Reg. (Female & HP Bonafide)",
+    "desc": "HP Rajya Chayan Aayog (HPRCA), Hamirpur has issued Advt No. 12/2026 with Addendum dated 25.08.2026 for recruitment of 780 Assistant Staff Nurses on 5-year engagement basis (Monthly Honorarium Rs. 25,000/-) in Medical Education & Research Dept.",
+    "u": "https://hprca.hp.gov.in"
+  },
   {
     "id": "rites-engineer-engineer-ut-testing-recruitment-2026",
     "b": "RITES Engineer",

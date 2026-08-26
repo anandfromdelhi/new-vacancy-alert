@@ -1365,6 +1365,46 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'hprca-assistant-staff-nurse-various-posts-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-teal-950 via-slate-900 to-cyan-950 rounded-2xl shadow-xl border-2 border-teal-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-teal-500 to-cyan-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      HPRCA Hamirpur Recruitment 2026
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Vacancy Enhanced: 312 + 468 = 780 Posts
+                    </span>
+                    <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Honorarium: ₹25,000/month
+                    </span>
+                    <span className="bg-rose-500/20 text-rose-300 border border-rose-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Female Candidates Only (HP Bonafide)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    HPRCA Assistant Staff Nurse (Post Code 26044) Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Recruitment of <strong>780 Assistant Staff Nurses</strong> on 5-year engagement basis for Medical Education &amp; Research Dept, HP. <strong>B.Sc Nursing / GNM (50% marks)</strong> with HPNRC Registration. Apply before <strong>29 August 2026 (11:59 PM)</strong>.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://hprca.hp.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-teal-500 hover:bg-teal-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on HPRCA ORA Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
                     {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
             <div className="bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 rounded-2xl shadow-xl border-2 border-orange-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
@@ -2338,7 +2378,7 @@ export default function JobDetailPage() {
                               <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">98 Posts</span>
                               <span className="text-xs font-black text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Pay: ₹44,425 - ₹83,700</span>
                             </div>
-                            <h5 className="font-black text-slate-900 text-sm mb-1">1. Pharmacist Officer (ಫಾರ್ಮಸಿ ಆਫೀಸರ್)</h5>
+                            <h5 className="font-black text-slate-900 text-sm mb-1">1. Pharmacist Officer (ಫಾರ್ಮಸಿ ಆಫೀಸರ್)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
                               <strong>Qualification:</strong> Diploma in Pharmacy (D.Pharm) from a recognized institute + Must be registered with <strong>Karnataka Pharmacy Council</strong>.
                             </p>
@@ -2348,11 +2388,112 @@ export default function JobDetailPage() {
                               <span className="bg-teal-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">90 Posts</span>
                               <span className="text-xs font-black text-teal-700 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">Pay: ₹54,175 - ₹99,400</span>
                             </div>
-                            <h5 className="font-black text-slate-900 text-sm mb-1">2. Nursing Officer (ನರ್ಸಿಂಗ್ ಆਫೀಸರ್ - ಶುಶ್ರೂಷಾಧಿಕಾರಿ)</h5>
+                            <h5 className="font-black text-slate-900 text-sm mb-1">2. Nursing Officer (ನರ್ಸಿಂಗ್ ಆಫೀಸರ್ - ಶುಶ್ರೂಷಾಧಿಕಾರಿ)</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
                               <strong>Qualification:</strong> Diploma in General Nursing (GNM) OR B.Sc Nursing from authorized authority + Must be registered with <strong>Karnataka Nursing Council</strong>.
                             </p>
                           </div>
+                        </div>
+                      </div>
+                    )}
+                    {id === 'hprca-assistant-staff-nurse-various-posts-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-teal-600" /> Category-Wise Revised Vacancy Matrix (Total 780 Posts)
+                          </h4>
+                          <span className="text-[10px] font-bold text-teal-900 bg-teal-100 px-2 py-0.5 rounded-md">Post Code: 26044</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                          <div className="bg-slate-50 border border-slate-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-slate-500 uppercase">General (UR)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-slate-900">280</span>
+                              <span className="text-[10px] text-slate-500">posts (112+168)</span>
+                            </div>
+                          </div>
+                          <div className="bg-blue-50 border border-blue-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-blue-700 uppercase">SC (UR)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-blue-900">155</span>
+                              <span className="text-[10px] text-blue-600">posts (62+93)</span>
+                            </div>
+                          </div>
+                          <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-emerald-700 uppercase">OBC (UR)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-emerald-900">125</span>
+                              <span className="text-[10px] text-emerald-600">posts (50+75)</span>
+                            </div>
+                          </div>
+                          <div className="bg-purple-50 border border-purple-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-purple-700 uppercase">EWS</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-purple-900">100</span>
+                              <span className="text-[10px] text-purple-600">posts (40+60)</span>
+                            </div>
+                          </div>
+                          <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-indigo-700 uppercase">SC (BPL)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-indigo-900">30</span>
+                              <span className="text-[10px] text-indigo-600">posts (12+18)</span>
+                            </div>
+                          </div>
+                          <div className="bg-amber-50 border border-amber-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-amber-700 uppercase">ST (UR)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-amber-900">30</span>
+                              <span className="text-[10px] text-amber-600">posts (12+18)</span>
+                            </div>
+                          </div>
+                          <div className="bg-teal-50 border border-teal-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-teal-700 uppercase">OBC (BPL)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-teal-900">30</span>
+                              <span className="text-[10px] text-teal-600">posts (12+18)</span>
+                            </div>
+                          </div>
+                          <div className="bg-orange-50 border border-orange-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-orange-700 uppercase">ST (BPL)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-orange-900">10</span>
+                              <span className="text-[10px] text-orange-600">posts (4+6)</span>
+                            </div>
+                          </div>
+                          <div className="bg-rose-50 border border-rose-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-rose-700 uppercase">Gen (WFF)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-rose-900">10</span>
+                              <span className="text-[10px] text-rose-600">posts (4+6)</span>
+                            </div>
+                          </div>
+                          <div className="bg-pink-50 border border-pink-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-pink-700 uppercase">SC (WFF)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-pink-900">05</span>
+                              <span className="text-[10px] text-pink-600">posts (2+3)</span>
+                            </div>
+                          </div>
+                          <div className="bg-cyan-50 border border-cyan-200 rounded-xl p-3.5 flex flex-col justify-between">
+                            <span className="text-[11px] font-bold text-cyan-700 uppercase">OBC (WFF)</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-cyan-900">05</span>
+                              <span className="text-[10px] text-cyan-600">posts (2+3)</span>
+                            </div>
+                          </div>
+                          <div className="bg-gradient-to-br from-slate-900 to-teal-950 border border-teal-500/30 rounded-xl p-3.5 flex flex-col justify-between text-white">
+                            <span className="text-[11px] font-bold text-teal-300 uppercase">Grand Total</span>
+                            <div className="flex items-baseline gap-1 mt-1">
+                              <span className="text-xl font-black text-white">780</span>
+                              <span className="text-[10px] text-teal-200">Posts</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="p-3.5 bg-amber-50 border-l-4 border-amber-500 rounded-r-xl text-amber-900 text-xs leading-relaxed">
+                          <strong>Addendum Note (25/08/2026):</strong> As per Addendum Notice No. HPRCA-H(2)-2/2024-9366, 468 additional posts have been clubbed with the original 312 posts advertised under Advt No. 12/2026 for Post Code 26044, making total 780 vacancies for Assistant Staff Nurse in the Department of Medical Education &amp; Research, HP.
                         </div>
                       </div>
                     )}
