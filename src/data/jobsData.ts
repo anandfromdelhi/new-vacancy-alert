@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indira-gandhi-national-tribal-project-assistant-recruitment-2026",
+    "b": "Indira Gandhi National Tribal University (IGNTU)",
+    "t": "Indira Gandhi National Tribal University (IGNTU) Recruitment 2026 – Apply for 1 Project Assistant Posts",
+    "d": "26 August 2026",
+    "l": "7 September 2026",
+    "a": "SNTMOM/1750/2026",
+    "q": "M.Sc. in Geology/Applied Geology",
+    "desc": "Indira Gandhi National Tribal University (IGNTU) has officially released employment advertisement notification SNTMOM/1750/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://portal.igntu.ac.in/upload/notices/Recruitment_Notice/44cb897a-f0ca-4ed3-8c83-c6daf718681f.pdf"
+},
+  {
+    "id": "karnataka-examinations-authori-residential-school-teacher-vas-recruitment-2026",
+    "b": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka",
+    "t": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka Recruitment 2026 – Apply for 140 Residential School Teacher (Vasati Shala Shikshakaru) Posts",
+    "d": "26 August 2026",
+    "l": "19 September 2026",
+    "a": "ED/KEA/39/RC/2026(KK) - Kalyana Karnataka Cadre; ED/KEA/38/RC/2026(RPC) - Residual Post Cadre",
+    "q": "PUC + Diploma/Degree in Elementary Education (or Special Education) + TET qua...",
+    "desc": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka has officially released employment advertisement notification ED/KEA/39/RC/2026(KK) - Kalyana Karnataka Cadre; ED/KEA/38/RC/2026(RPC) - Residual Post Cadre for the recruitment of 140 vacancies for Residential School Teacher (Vasati Shala Shikshakaru) posts.",
+    "u": "https://cetonline.karnataka.gov.in/keawebentry456/swrtkk2026/SWRT_NOTIFICATION_KKkannada.pdf"
+},
+  {
+    "id": "central-food-technological-res-senior-project-associate-i-recruitment-2026",
+    "b": "Central Food Technological Research Institute (CSIR CFTRI)",
+    "t": "Central Food Technological Research Institute (CSIR CFTRI) Recruitment 2026 – Apply for 1 Senior Project Associate-I Posts",
+    "d": "26 August 2026",
+    "l": "06 September 2026",
+    "a": "PAT 54/2026",
+    "q": "Master's Degree in Natural Sciences or equivalent with 3 years' experience OR...",
+    "desc": "Central Food Technological Research Institute (CSIR CFTRI) has officially released employment advertisement notification PAT 54/2026 for the recruitment of 1 vacancies for Senior Project Associate-I posts.",
+    "u": "https://cftri.res.in/ApplicationForm/0_88696700_1787285638.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
+    "t": "Indian Institute of Technology (Indian School of Mines) Dhanbad Recruitment 2026 – Apply for 2 Junior Research Fellow (JRF) Posts",
+    "d": "26 August 2026",
+    "l": "30 September 2026",
+    "a": "CIL/R&D/01/88/2026",
+    "q": "B.E. / B.Tech. in Mining Engineering or Civil Engineering, M.Sc./M.Sc. Tech./...",
+    "desc": "Indian Institute of Technology (Indian School of Mines) Dhanbad has officially released employment advertisement notification CIL/R&D/01/88/2026 for the recruitment of 2 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1754/Project%20JRF_2026-08-21_15-12-12.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-associate-i-recruitment-2026",
+    "b": "Indian Institute of Technology (ISM) Dhanbad",
+    "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 – Apply for 1 Project Associate-I Posts",
+    "d": "26 August 2026",
+    "l": "03 September 2026",
+    "a": "SRDP 1276 G",
+    "q": "B.E./B.Tech/M.Tech/M.S./MCA/M.Sc in CSE, Mathematics & Computing, ECE, EE, Ar...",
+    "desc": "Indian Institute of Technology (ISM) Dhanbad has officially released employment advertisement notification SRDP 1276 G for the recruitment of 1 vacancies for Project Associate-I posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1703/Project%20Associate_2026-08-19_18-40-01.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-pts-iii-project-technical-supp-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar)",
+    "t": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar) Recruitment 2026 – Apply for 1 PTS-III (Project Technical Support-III) Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / BDS + Post Graduate Degree (MDS/MPH/PhD) with three year post qualific...",
+    "desc": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for PTS-III (Project Technical Support-III) posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/NCI-25-8-26.pdf"
+},
+  {
+    "id": "national-brain-research-centre-research-assistant-iii-recruitment-2026",
+    "b": "National Brain Research Centre (NBRC)",
+    "t": "National Brain Research Centre (NBRC) Recruitment 2026 – Apply for 1 Research Assistant III Posts",
+    "d": "26 August 2026",
+    "l": "03 September 2026",
+    "a": "Acad./08/2026",
+    "q": "M.Sc/ BTech or Masters degree",
+    "desc": "National Brain Research Centre (NBRC) has officially released employment advertisement notification Acad./08/2026 for the recruitment of 1 vacancies for Research Assistant III posts.",
+    "u": "https://www.nbrc.ac.in/newweb/wp-content/uploads/2026/08/Revised-Advetisment-82026-Dr-Soumya-RA-III.pdf"
+},
+  {
+    "id": "national-brain-research-centre-project-technical-support-i-recruitment-2026",
+    "b": "National Brain Research Centre",
+    "t": "National Brain Research Centre Recruitment 2026 – Apply for 1 Project Technical Support-I Posts",
+    "d": "26 August 2026",
+    "l": "10 September 2026",
+    "a": "Acad./08/2026",
+    "q": "Bachelor/Diploma preferred, Experience in medical record keeping and filing o...",
+    "desc": "National Brain Research Centre has officially released employment advertisement notification Acad./08/2026 for the recruitment of 1 vacancies for Project Technical Support-I posts.",
+    "u": "https://www.nbrc.ac.in/newweb/wp-content/uploads/2026/08/Dr-Khushbu-lab-Re-Advertisement-Project-Technical-Support.pdf"
+},
+  {
+    "id": "engineers-india-limited-eil-a-associate-engineer-grade-i-pip-recruitment-2026",
+    "b": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company",
+    "t": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company Recruitment 2026 – Apply for 12 Associate Engineer Grade I (Pipeline/Piping Engineer, Offshore Structural Engineer, Project Engineer) Posts",
+    "d": "26 August 2026",
+    "l": "08:00 AM on the intimated date",
+    "a": "HRD/Rectt./Advt./2026-27/07",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company has officially released employment advertisement notification HRD/Rectt./Advt./2026-27/07 for the recruitment of 12 vacancies for Associate Engineer Grade I (Pipeline/Piping Engineer, Offshore Structural Engineer, Project Engineer) posts.",
+    "u": "https://recruitment.eil.co.in/hrdnew/others/73.pdf"
+},
+  {
+    "id": "indian-institute-of-informatio-assistant-professor-grade-ii-recruitment-2026",
+    "b": "Indian Institute of Information Technology Vadodara (IIIT Vadodara)",
+    "t": "Indian Institute of Information Technology Vadodara (IIIT Vadodara) Recruitment 2026 – Apply for 25 Assistant Professor Grade - II Posts",
+    "d": "26 August 2026",
+    "l": "15 September 2026",
+    "a": "IITV/ESTT/RECT/FACULTY/26-27/01",
+    "q": "Ph.D. in the appropriate branch with first class or equivalent (in terms of g...",
+    "desc": "Indian Institute of Information Technology Vadodara (IIIT Vadodara) has officially released employment advertisement notification IITV/ESTT/RECT/FACULTY/26-27/01 for the recruitment of 25 vacancies for Assistant Professor Grade - II posts.",
+    "u": "https://www.iiitvadodara.ac.in"
+},
+  {
     "id": "esic-teaching-faculty-professor-senior-resident-and-recruitment-2026",
     "b": "ESIC Teaching Faculty",
     "t": "ESIC Teaching Faculty Recruitment 2026 – Apply for 107 Professor, Senior Resident and More Posts",
