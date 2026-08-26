@@ -34323,9 +34323,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "Any Graduate / Post Graduate / Master's Degree",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -34775,9 +34773,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "MBBS / MD / MS / Medical Post Graduate Degree",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -35007,9 +35003,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "B.Tech / B.E / B.Sc / Post Graduate in Environmental Science / Engineering",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -35239,9 +35233,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "MBBS / B.Sc Nursing / GNM / Paramedical Degree",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -35915,9 +35907,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "Any Graduate / Post Graduate / Master's Degree",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -42900,9 +42890,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "10th Pass / Matriculation / Any Graduate (Warden, Cook, Chowkidar)",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -45363,9 +45351,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Refer to official notification"
-      ],
+      "education": "MBBS / GNM / B.Sc Nursing / Ayush Medical",
       "ageLimit": "As per government norms (Refer notification). Age relaxation is applicable as per government norms for reserved categories.",
       "medicalStandards": [
         "Candidates must possess sound physical and mental health suitable for performing the assigned duties."
@@ -48039,7 +48025,7 @@
       }
     ],
     "eligibility": {
-      "education": "M.B.B.S with Internship completed",
+      "education": "M.B.B.S / Medical Degree with Internship",
       "ageLimit": "Max: 35 years",
       "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
     },

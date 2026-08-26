@@ -5,6 +5,7 @@ const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { JobCard, JobTable } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
+import { QUAL_CATEGORIES, getStateFromJob } from '../utils/categoryUtils';
 import { 
   Search, GraduationCap, ArrowLeft, RotateCcw, LayoutGrid, TableProperties,
   Sparkles, AlertCircle, ChevronDown, CheckCircle2, Building2, ShieldAlert,
@@ -156,6 +157,30 @@ const QUALIFICATION_MAP: Record<string, QualificationMeta> = {
     badge: 'Ph.D / Doctorate / Research',
     description: 'Active recruitment alerts for Ph.D holders, Research Scholars, Scientists, and University Professors.',
     keywords: 'Phd Govt Jobs 2026, Scientist Vacancy, Assistant Professor Jobs, Research Fellow Sarkari Bharti'
+  },
+  'mba': {
+    slug: 'mba',
+    shortLabel: 'Management / MBA / PGDM',
+    title: 'Latest MBA & Management Government Jobs 2026',
+    badge: 'MBA / PGDM / Management Trainee / HR / Finance',
+    description: 'Active public sector recruitment alerts for MBA graduates, Management Trainees, HR Officers, and Marketing Executives across PSUs, banks, and government organizations.',
+    keywords: 'MBA Govt Jobs 2026, Management Trainee Sarkari Bharti, MBA Finance Jobs, PSU Management Recruitment'
+  },
+  'driver': {
+    slug: 'driver',
+    shortLabel: 'Driver / Heavy Vehicle',
+    title: 'Latest Driver & Heavy Vehicle Government Jobs 2026',
+    badge: 'LMV / HMV Driving License / Fire Engine Driver',
+    description: 'Active central and state government recruitment notifications for Drivers, Heavy Vehicle Operators, CMTD, and Fire Engine Drivers across transport and municipal corporations.',
+    keywords: 'Driver Govt Jobs 2026, HMV Driver Sarkari Bharti, LMV Driver Vacancy, Government Driver Recruitment'
+  },
+  'defence-police': {
+    slug: 'defence-police',
+    shortLabel: 'Defence & Security',
+    title: 'Latest Defence, Police & Security Guard Government Jobs 2026',
+    badge: 'Police / Constable / Security Guard / Havildar',
+    description: 'Verified public sector alerts for Police Constables, Sub-Inspectors, Security Guards, and Havildar posts across state police forces and central public sector undertakings.',
+    keywords: 'Police Govt Jobs 2026, Security Guard Sarkari Bharti, Havildar Recruitment, Defence Security Jobs'
   }
 };
 
@@ -190,135 +215,19 @@ function isJobExpired(lastDateStr: string): boolean {
 }
 
 function isAllIndiaJob(job: JobEntry): boolean {
-  const id = (job.id || '').toLowerCase();
-  const board = job.b.toLowerCase();
-  const title = job.t.toLowerCase();
-
-  const allIndiaPatterns = [
-    'upsc', 'ssc', 'union public service', 'staff selection',
-    'rrb', 'railway', 'rail wheel factory', 'railtel', 'rcil', 'konkan railway', 'krcl', 'northeast frontier',
-    'central railway', 'nfr',
-    'indian army', 'indian navy', 'indian air force', 'iaf', 'drdo', 'territorial army',
-    'armoured vehicles nigam', 'avnl', 'ordnance factory', 'munitions india',
-    'isro', 'nrsc', 'istrac', 'ursc', 'master control facility', 'mcf',
-    'ongc', 'iocl', 'bpcl', 'bharat petroleum', 'hpcl', 'hindustan petroleum',
-    'nalco', 'national aluminium', 'irel', 'wcl', 'western coalfields', 'ncl', 'northern coalfields',
-    'nlcil', 'nlc india', 'nlc limited',
-    'hal', 'hindustan aeronautics', 'beml', 'bharat electronics', 'bel',
-    'sjvn', 'ntpc', 'ngel', 'power grid', 'nhsrcl', 'nhidcl',
-    'rcf', 'rashtriya chemicals', 'rites', 'ihmcl', 'iifcl',
-    'spmcil', 'security printing', 'fagmil', 'pdil',
-    'ibps', 'institute of banking personnel', 'reserve bank', 'rbi', 'sbi',
-    'union bank', 'punjab national bank', 'bank of baroda', 'bank of india',
-    'central bank', 'indian bank', 'uco bank', 'pnb', 'iob',
-    'nicl', 'national insurance', 'sidbi', 'small industries development bank',
-    'tmb', 'tamilnad mercantile bank', 'nabard', 'exim bank',
-    'aiims', 'esic', 'icmr', 'niper', 'national institute of pharmaceutical',
-    'ccrum', 'ccras', 'central council for research in ayurvedic',
-    'sinp', 'saha institute of nuclear physics',
-    'csir', 'national geophysical', 'ngri',
-    'iit', 'nit trichy', 'nitt', 'manit', 'amu', 'aligarh muslim university',
-    'icar', 'iifcl',
-    'airports authority of india', 'aai',
-    'stpi', 'software technology parks', 'cert-in', 'cert in',
-    'edcil', 'prl', 'physical research laboratory',
-    'icai', 'icsi', 'institute of company secretaries',
-    'norcet',
-  ];
-
-  if (allIndiaPatterns.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
-    if (id.includes('upsc-principal-vice-principal') || title.includes('gnct delhi')) return false;
-    if (id.includes('aai-kolkata') || id.includes('aai-eastern-region') || title.includes('wb domiciles')) return false;
-    return true;
-  }
-
-  const statePatterns = [
-    'uppsc', 'mpsc', 'cgssb', 'jkssb', 'tslprb', 'hartron',
-    'jammu and kashmir services selection', 'jammu & kashmir services selection',
-    'telangana state level police', 'telangana state',
-    'mizoram public service', 'chhattisgarh staff selection',
-    'karnataka examinations authority', 'kea',
-    'verka', 'milkfed',
-    'tamil nadu state transport', 'tnstc',
-    'madhya pradesh yatri', 'mpypil',
-    'rajasthan rajya vidyut', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn',
-    'national health mission', 'nhm', 'zilla panchayat', 'district health',
-    'dme assam', 'assam allied',
-    'shri krishna ayush university', 'skau',
-    'rtmnu', 'nagpur university', 'rashtrasant tukadoji',
-    'government college daman',
-    'high court', 'district court', 'sessions court', 'patna high court',
-    'principal district', 'district judge',
-    'municipal corporation', 'municipal council', 'mahanagara palike',
-    'nagarasabe', 'urban local bod', 'nagar parishad',
-    'thane municipal', 'district urban development', 'dudc', 'pourakarmika',
-    'anganwadi', 'icds', 'bal vikas',
-    'district program office', 'district programme officer',
-    'child development services',
-    'kasturba gandhi', 'kgbv',
-    'sub-divisional officer', 'office of deputy commissioner',
-    'sub divisional officer', 'sdo contai',
-    'pt. madan mohan malaviya hospital', 'rao tula ram memorial',
-    'rtrmh', 'pmmh',
-    'dr. hedgewar arogya sansthan', 'dhas',
-    'education recruitment directorate, punjab',
-    'directorate of education recruitment',
-    'local self government department',
-    'tnsrlm', 'tamil nadu state rural',
-    'msrlm', 'maharashtra state rural',
-    'dcpu', 'district child protection',
-    'govt of karnataka', 'government of karnataka',
-    'govt of maharashtra', 'government of maharashtra',
-    'govt of nct of delhi', 'govt. of nct of delhi', 'gnct delhi',
-    'govt of uttar pradesh', 'government of uttar pradesh', 'govt. of uttar pradesh',
-    'govt of west bengal', 'government of west bengal',
-    'govt of bihar', 'government of bihar',
-    'govt of odisha', 'government of odisha',
-    'govt of andhra pradesh', 'government of andhra pradesh',
-    'govt of himachal pradesh', 'government of himachal pradesh',
-    'govt of rajasthan', 'government of rajasthan',
-    'govt of assam', 'government of assam',
-    'govt of chhattisgarh', 'government of chhattisgarh',
-    'govt of haryana', 'government of haryana',
-    'govt of telangana', 'government of telangana',
-    'govt of tamil', 'government of tamil',
-    'jayadeva', 'sjicr', 'cims chamarajanagar',
-  ];
-
-  if (statePatterns.some(k => id.includes(k) || board.includes(k) || title.includes(k))) {
-    return false;
-  }
-
-  return true;
+  return getStateFromJob(job) === 'All India';
 }
 
 function matchesQualification(job: JobEntry, slug: string): boolean {
-  const text = `${job.q || ''} ${job.t || ''} ${job.desc || ''}`.toLowerCase();
+  const text = `${job.q || ''} ${job.t || ''} ${job.b || ''} ${job.desc || ''}`.toLowerCase();
+  const cat = QUAL_CATEGORIES.find(c => c.slug === slug);
+  if (!cat) return false;
 
-  const kwMap: Record<string, string[]> = {
-    '10th-pass': ['10th', 'matriculation', 'matric', 'secondary', '8th', 'literate'],
-    '12th-pass': ['12th', 'intermediate', 'higher secondary', '10+2', 'puc'],
-    'ba': ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor'],
-    'btech': ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan'],
-    'bsc': ['b.sc', 'bsc', 'b.vsc', 'science', 'agriculture'],
-    'bcom': ['b.com', 'bcom', 'commerce', 'accountant', 'accounts'],
-    'diploma': ['diploma', 'polytechnic'],
-    'iti': ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice'],
-    'post-graduation': ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'llm', 'm.arch', 'm.plan', 'mvsc', 'm.ch'],
-    'mbbs-doctor': ['mbbs', 'md', 'ms', 'dnb', 'dm', 'medical officer', 'senior resident', 'tutor', 'registrar', 'demonstrator'],
-    'nursing': ['nursing', 'gnm', 'anm', 'b.sc nursing', 'staff nurse', 'nurse', 'fmphw', 'mmphw'],
-    'pharmacist': ['pharmacy', 'pharmacist', 'b.pharm', 'd.pharm', 'pharm.d', 'drug inspector'],
-    'dental-bds': ['bds', 'dental', 'mds', 'dental surgeon', 'dental hygienist'],
-    'finance-ca': ['ca', 'cma', 'icwai', 'chartered accountant', 'icai', 'icmai', 'icsi', 'company secretary'],
-    'phd': ['ph.d', 'phd', 'doctorate']
-  };
-
-  const keywords = kwMap[slug];
-  if (!keywords) return false;
-
-  return keywords.some(kw => {
+  return cat.keywords.some(kw => {
     const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`\\b${escaped}\\b`, 'i').test(text);
+    const prefix = /^[\w]/.test(kw) ? '\\b' : '';
+    const suffix = /[\w]$/.test(kw) ? '\\b' : '';
+    return new RegExp(`${prefix}${escaped}${suffix}`, 'i').test(text);
   });
 }
 

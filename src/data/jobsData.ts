@@ -1085,7 +1085,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "26 August 2026",
     "l": "03 September 2026",
     "a": "TMC/HBCHRCV/AD/47/26",
-    "q": "M.B.B.S with Internship completed",
+    "q": "M.B.B.S / Medical Degree with Internship",
     "desc": "Homi Bhabha Cancer Hospital & Research Centre has officially released employment advertisement notification TMC/HBCHRCV/AD/47/26 for the recruitment of 1 vacancies for Total Posts posts.",
     "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=7rSj4aNSbwozjmcCubHKew=="
 },
@@ -1217,7 +1217,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "DISTRICT-H/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "MBBS / GNM / B.Sc Nursing / Ayush Medical",
     "desc": "District Health Society, Cuddalore (DHS Cuddalore) - under National Health Mission has officially published an employment notification (Advertisement No: DISTRICT-H/Rectt/2026) for the recruitment of 54 Monthly Salary (Rs.) vacancies.",
     "u": "https://cdn.s3waas.gov.in/s3a96b65a721e561e1e3de768ac819ffbb/uploads/2026/08/17873155463901.pdf"
 },
@@ -1327,7 +1327,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "08 September 2026",
     "a": "001",
-    "q": "Refer to official notification",
+    "q": "10th Pass / Matriculation / Any Graduate (Warden, Cook, Chowkidar)",
     "desc": "Odisha Adarsha Vidyalaya Balangir has officially published an employment notification (Advertisement No: 001) for the recruitment of 1 Total Posts vacancies.",
     "u": "https://balangir.odisha.gov.in/sites/default/files/2026-08/Advertisement_0.pdf"
 },
@@ -1657,7 +1657,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "DR-BR-AMBE/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "Any Graduate / Post Graduate / Master's Degree",
     "desc": "Dr. B.R. Ambedkar University Delhi (AUD), a State University established through an Act of the Legislature of the NCT of Delhi has officially published an employment notification (Advertisement No: DR-BR-AMBE/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
     "u": "https://aud.delhi.gov.in/sites/default/files/2026-08/detailed_teaching_advertisement_no_838_dated_31.07.2026.pdf"
 },
@@ -1690,7 +1690,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "NATIONAL-H/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "MBBS / B.Sc Nursing / GNM / Paramedical Degree",
     "desc": "National Health Mission (NHM) Chhattisgarh - Office of the Chief Medical & Health Officer (CMHO), Ambikapur, District Surguja has officially published an employment notification (Advertisement No: NATIONAL-H/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
     "u": "https://cdn.s3waas.gov.in/s38c7bbbba95c1025975e548cee86dfadc/uploads/2026/08/17872964763060.pdf"
 },
@@ -1701,7 +1701,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "CENTRAL-PO/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "B.Tech / B.E / B.Sc / Post Graduate in Environmental Science / Engineering",
     "desc": "Central Pollution Control Board (CPCB), Ministry of Environment, Forest & Climate Change has officially published an employment notification (Advertisement No: CENTRAL-PO/Rectt/2026) for the recruitment of 1 Monthly Emoluments (Consolidated) vacancies.",
     "u": "https://cpcb.gov.in/openpdffile.php?id=Q2FyZWVyRmlsZXMvMjU1XzE3ODcyMjcyMzZfbWVkaWFwaG90bzM3MzQucGRm"
 },
@@ -1712,7 +1712,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "ESIC-MEDIC/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "MBBS / MD / MS / Medical Post Graduate Degree",
     "desc": "ESIC Medical College & Hospital, Bihta, Patna – under the Employees' State Insurance Corporation, Ministry of Labour & Employment, Govt. of India has officially published an employment notification (Advertisement No: ESIC-MEDIC/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
     "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_for_Recruitment_of_Senior_Residents_and_Super_Specialist_Senior_Residents_at_ESIC_Medical_College_amp_Hospital_Bihta_Patna_Advertisement_No_11_of_2026_1787385268.pdf"
 },
@@ -1734,7 +1734,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "NALANDA-UN/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "Any Graduate / Post Graduate / Master's Degree",
     "desc": "Nalanda University has officially published an employment notification (Advertisement No: NALANDA-UN/Rectt/2026) for the recruitment of 19 Vacancies vacancies.",
     "u": "https://nalandauniv.edu.in/wp-content/uploads/2026/08/Teaching-Advertisement-22.08.2026.pdf"
 },
