@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-mineral-foundation-tr-specialist-anaesthesiologist-recruitment-2026",
+    "b": "District Mineral Foundation Trust",
+    "t": "District Mineral Foundation Trust Recruitment 2026 – Apply for 1 Specialist Anaesthesiologist Posts",
+    "d": "26 August 2026",
+    "l": "02 September 2026",
+    "a": "XXVII-DMFT/137/2026",
+    "q": "MD (Anesthesiology) / MS (Anesthesia) / DNB / Diploma in Anesthesia from an N...",
+    "desc": "District Mineral Foundation Trust has officially released employment advertisement notification XXVII-DMFT/137/2026 for the recruitment of 1 vacancies for Specialist Anaesthesiologist posts.",
+    "u": "https://cdn.s3waas.gov.in/s3ff4d5fbbafdf976cfdc032e3bde78de5/uploads/2026/08/17873046715805.pdf"
+},
+  {
+    "id": "hprca-assistant-staff-nurse-various-posts-recruitment-2026",
+    "b": "HPRCA Assistant Staff Nurse",
+    "t": "HPRCA Assistant Staff Nurse Recruitment 2026 – Apply for 780 Various Posts Posts",
+    "d": "26 August 2026",
+    "l": "29.08.2026 (till 11:59 PM)",
+    "a": "12/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "HPRCA Assistant Staff Nurse has officially released employment advertisement notification 12/2026 for the recruitment of 780 vacancies for Various Posts posts.",
+    "u": "https://www.freejobalert.com/articles/hprca-assistant-staff-nurse-recruitment-2026-3060019"
+},
+  {
+    "id": "rites-engineer-engineer-ut-testing-recruitment-2026",
+    "b": "RITES Engineer",
+    "t": "RITES Engineer Recruitment 2026 – Apply for 8 Engineer-UT Testing Posts",
+    "d": "26 August 2026",
+    "l": "As on the last date of application, i.e. 14.09.2026",
+    "a": "RITES-ENGINEER/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "RITES Engineer has officially released employment advertisement notification RITES-ENGINEER/2026 for the recruitment of 8 vacancies for Engineer-UT Testing posts.",
+    "u": "https://www.rites.com/Upload/Career/Advertisement_for_CL_08_26_pdf-2026-Aug-24-16-15-2.pdf"
+},
+  {
+    "id": "bhavnagar-municipal-corporatio-executive-engineer-civil-multi-recruitment-2026",
+    "b": "Bhavnagar Municipal Corporation (BMC)",
+    "t": "Bhavnagar Municipal Corporation (BMC) Recruitment 2026 – Apply for 80 Executive Engineer (Civil), Multi Purpose Health Worker (Urban Malaria) (Male), Sanitary Sub Inspector Posts",
+    "d": "26 August 2026",
+    "l": "17-09-2026",
+    "a": "BHAVNAGAR-MUNI/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Bhavnagar Municipal Corporation (BMC) has officially released employment advertisement notification BHAVNAGAR-MUNI/2026 for the recruitment of 80 vacancies for Executive Engineer (Civil), Multi Purpose Health Worker (Urban Malaria) (Male), Sanitary Sub Inspector posts.",
+    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/85386281_ccp.pdf"
+},
+  {
+    "id": "sardar-vallabhbhai-national-in-teaching-assistant-recruitment-2026",
+    "b": "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+    "t": "Sardar Vallabhbhai National Institute of Technology (SVNIT) Recruitment 2026 – Apply for 1 Teaching Assistant Posts",
+    "d": "26 August 2026",
+    "l": "01 September 2026",
+    "a": "SARDAR-VALLABH/2026",
+    "q": "M.Tech/M.E. with 1st Class or equivalent CGPA (Min 6.5/10) and B.Tech/B.E. wi...",
+    "desc": "Sardar Vallabhbhai National Institute of Technology (SVNIT) has officially released employment advertisement notification SARDAR-VALLABH/2026 for the recruitment of 1 vacancies for Teaching Assistant posts.",
+    "u": "https://www.svnit.ac.in"
+},
+  {
+    "id": "jawaharlal-nehru-university-jn-advocate-recruitment-2026",
+    "b": "Jawaharlal Nehru University (JNU)",
+    "t": "Jawaharlal Nehru University (JNU) Recruitment 2026 – Apply for 1 Advocate Posts",
+    "d": "26 August 2026",
+    "l": "29 August 2026",
+    "a": "JAWAHARLAL-NEH/2026",
+    "q": "Bachelor degree in Law from a recognized University",
+    "desc": "Jawaharlal Nehru University (JNU) has officially released employment advertisement notification JAWAHARLAL-NEH/2026 for the recruitment of 1 vacancies for Advocate posts.",
+    "u": "https://www.jnu.ac.in/sites/default/files/career/Advertisment_Empanelment_of_Advocates-LawFirms.pdf"
+},
+  {
+    "id": "national-highways-authority-of-manager-legal-and-senior-libra-recruitment-2026",
+    "b": "National Highways Authority of India (NHAI)",
+    "t": "National Highways Authority of India (NHAI) Recruitment 2026 – Apply for 5 Manager (Legal) and Senior Librarian & Information Officer Posts",
+    "d": "26 August 2026",
+    "l": "24 September 2026",
+    "a": "NATIONAL-HIGHW/2026",
+    "q": "Graduate, Master's Degree",
+    "desc": "National Highways Authority of India (NHAI) has officially released employment advertisement notification NATIONAL-HIGHW/2026 for the recruitment of 5 vacancies for Manager (Legal) and Senior Librarian & Information Officer posts.",
+    "u": "https://nhai.gov.in/nhai/sites/default/files/vacancy_files/Detailed_Advertisment-English_Version.pdf"
+},
+  {
+    "id": "central-electricity-regulatory-joint-chief-deputy-chief-and-m-recruitment-2026",
+    "b": "Central Electricity Regulatory Commission (CERC)",
+    "t": "Central Electricity Regulatory Commission (CERC) Recruitment 2026 – Apply for 8 Joint Chief, Deputy Chief and More Posts Posts",
+    "d": "26 August 2026",
+    "l": "08 October 2026",
+    "a": "ADMN-12012/1/2019-CERC",
+    "q": "Degree in Law",
+    "desc": "Central Electricity Regulatory Commission (CERC) has officially released employment advertisement notification ADMN-12012/1/2019-CERC for the recruitment of 8 vacancies for Joint Chief, Deputy Chief and More Posts posts.",
+    "u": "https://www.cercind.gov.in/2026/vacancy/VacancyNotice-240826.pdf"
+},
+  {
+    "id": "ernet-india-project-engineer-level-02-seni-recruitment-2026",
+    "b": "ERNET India",
+    "t": "ERNET India Recruitment 2026 – Apply for 6 Project Engineer Level 02 / Senior Project Engineer / Project Manager Level 01 / Project Manager Level 02 Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "ERNET-INDIA/2026",
+    "q": "Full time B. Tech. /BE /MCA /M. Sc. or equivalent in Electronics/Information ...",
+    "desc": "ERNET India has officially released employment advertisement notification ERNET-INDIA/2026 for the recruitment of 6 vacancies for Project Engineer Level 02 / Senior Project Engineer / Project Manager Level 01 / Project Manager Level 02 posts.",
+    "u": "https://xn--m1bd4e9a1b9i.xn--h2brj9c/sites/default/files/pdf/final%20advertisement%20Smart%20Classroom.pdf"
+},
+  {
+    "id": "seci-engineer-officer-and-more-recruitment-2026",
+    "b": "SECI",
+    "t": "SECI Recruitment 2026 – Apply for 1 Engineer, Officer and More Posts",
+    "d": "26 August 2026",
+    "l": "23.09.2026 (5:00 PM)",
+    "a": "03/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "SECI has officially released employment advertisement notification 03/2026 for the recruitment of 1 vacancies for Engineer, Officer and More posts.",
+    "u": "https://www.seci.co.in/"
+},
+  {
     "id": "container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026",
     "b": "Container Corporation of India Ltd. (CONCOR)",
     "t": "Container Corporation of India Ltd. (CONCOR) Recruitment 2026 – Apply for 77 No. of Posts Posts",
