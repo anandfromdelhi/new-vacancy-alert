@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "odisha-adarsha-vidyalaya-morad-support-staff-for-boys-hostel-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Morada (OAV Morada)",
+    "t": "Odisha Adarsha Vidyalaya Morada (OAV Morada) Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
+    "d": "26 August 2026",
+    "l": "14 September 2026",
+    "a": "OAVM/554/2026",
+    "q": "B.A. / B.Sc., HSC Examination",
+    "desc": "Odisha Adarsha Vidyalaya Morada (OAV Morada) has officially released employment advertisement notification OAVM/554/2026 for the recruitment of 5 vacancies for Support Staff for Boys' Hostel posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/OAVM_2026_554%20NIC%20Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20MORADA.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-shirs-support-staff-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa)",
+    "t": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa) Recruitment 2026 – Apply for 5 Support Staff Posts",
+    "d": "26 August 2026",
+    "l": "12 September 2026",
+    "a": "ADVERTISEMENT-1",
+    "q": "B.A. / B.Sc., HSC, Cooking experience",
+    "desc": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa) has officially released employment advertisement notification ADVERTISEMENT-1 for the recruitment of 5 vacancies for Support Staff posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20Ad.%2BApplication%20Form%20for%20Boys%27%20Hostel.OAV%20Shirsa.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-mayur-support-staff-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj)",
+    "t": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) Recruitment 2026 – Apply for 5 Support Staff Posts",
+    "d": "26 August 2026",
+    "l": "12 September 2026",
+    "a": "ODISHA-ADARSHA/2026",
+    "q": "10th-pass to B.A./B.Sc.",
+    "desc": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 5 vacancies for Support Staff posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/Advertisement%20boys%27%20hostel.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-bhalu-supporting-staff-warden-chowki-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Bhalubasa",
+    "t": "Odisha Adarsha Vidyalaya Bhalubasa Recruitment 2026 – Apply for 5 Supporting Staff (Warden, Chowkidar-cum-Sweeper, Head Cook, Assistant Cook) Posts",
+    "d": "26 August 2026",
+    "l": "12 September 2026",
+    "a": "ADVERTISEMENT - 01",
+    "q": "B.A./B.Sc. for Warden, HSC for Chowkidar-cum-Sweeper, No specific qualificati...",
+    "desc": "Odisha Adarsha Vidyalaya Bhalubasa has officially released employment advertisement notification ADVERTISEMENT - 01 for the recruitment of 5 vacancies for Supporting Staff (Warden, Chowkidar-cum-Sweeper, Head Cook, Assistant Cook) posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/BOYS%20HOSTEL%20ADVERTISEMENT.pdf"
+},
+  {
+    "id": "north-eastern-indira-gandhi-re-senior-resident-doctor-recruitment-2026",
+    "b": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS)",
+    "t": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS) Recruitment 2026 – Apply for 58 Senior Resident Doctor Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "EST-II-RSRD0APSR/1/2024-Estt.II",
+    "q": "Post graduate degree (MD/MS/DNB) in respective fields/subject after obtaining...",
+    "desc": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences (NEIGRIHMS) has officially released employment advertisement notification EST-II-RSRD0APSR/1/2024-Estt.II for the recruitment of 58 vacancies for Senior Resident Doctor posts.",
+    "u": "https://neigrihms.gov.in/Latest%20News/estt-2/2026/250826/2nd%20cut%20off%20date%20of%20the%20Rolling%20Advertisement%20for%20the%20posts%20of%20%20SRD%20-%2007.09.2026.pdf"
+},
+  {
+    "id": "eklavya-model-residential-scho-non-teaching-staff-recruitment-2026",
+    "b": "Eklavya Model Residential School Pallong (EMRS Pallong)",
+    "t": "Eklavya Model Residential School Pallong (EMRS Pallong) Recruitment 2026 – Apply for 14 Non-Teaching Staff Posts",
+    "d": "26 August 2026",
+    "l": "04 September 2026",
+    "a": "7/EMR(P)/RCRMT/2026",
+    "q": "B.Com, B.Sc. Nursing, Bachelor's Degree, Class X Pass, Senior Secondary (Clas...",
+    "desc": "Eklavya Model Residential School Pallong (EMRS Pallong) has officially released employment advertisement notification 7/EMR(P)/RCRMT/2026 for the recruitment of 14 vacancies for Non-Teaching Staff posts.",
+    "u": "https://cdn.s3waas.gov.in/s3a3c65c2974270fd093ee8a9bf8ae7d0b/uploads/2026/08/17873980502480.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-attendant-recruitment-2026",
+    "b": "Advanced Centre For Treatment Research & Education In Cancer (ACTREC)",
+    "t": "Advanced Centre For Treatment Research & Education In Cancer (ACTREC) Recruitment 2026 – Apply for 1 Attendant Posts",
+    "d": "26 August 2026",
+    "l": "01 September 2026",
+    "a": "OS-A/HK/09/2026",
+    "q": "H.S.C. pass",
+    "desc": "Advanced Centre For Treatment Research & Education In Cancer (ACTREC) has officially released employment advertisement notification OS-A/HK/09/2026 for the recruitment of 1 vacancies for Attendant posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-08/Walk%20in%20Attendant%2001.09.2026%20-.pdf"
+},
+  {
+    "id": "icar-central-institute-for-res-business-manager-recruitment-2026",
+    "b": "ICAR Central Institute for Research on Cotton Technology",
+    "t": "ICAR Central Institute for Research on Cotton Technology Recruitment 2026 – Apply for 1 Business Manager Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "ICAR-CENTRAL-I/2026",
+    "q": "M.Tech/ MBA/ CA/ PGDM/ Equivalent master degree in Agriculture",
+    "desc": "ICAR Central Institute for Research on Cotton Technology has officially released employment advertisement notification ICAR-CENTRAL-I/2026 for the recruitment of 1 vacancies for Business Manager posts.",
+    "u": "https://circot.icar.gov.in/sites/default/files/WaikInInterview_BusinessManager_9_9_2026.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-research-associate-junior-rese-recruitment-2026",
+    "b": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+    "t": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 – Apply for 2 Research Associate / Junior Research Fellow Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "ACTREC/ADVT/174/2026",
+    "q": "PhD in Biochemistry/Biophysics/Structural Biology, Master's degree in Life Sc...",
+    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially released employment advertisement notification ACTREC/ADVT/174/2026 for the recruitment of 2 vacancies for Research Associate / Junior Research Fellow posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-08/Advt.%20Advt-174-RA-JRF.pdf"
+},
+  {
+    "id": "ordnance-factory-katni-labour-welfare-officer-recruitment-2026",
+    "b": "Ordnance Factory Katni",
+    "t": "Ordnance Factory Katni Recruitment 2026 – Apply for 1 Labour Welfare Officer Posts",
+    "d": "26 August 2026",
+    "l": "14 September 2026",
+    "a": "ORDNANCE-FACTO/2026",
+    "q": "Bachelor's Degree and Postgraduate Degree/Diploma in Social Work or Social Sc...",
+    "desc": "Ordnance Factory Katni has officially released employment advertisement notification ORDNANCE-FACTO/2026 for the recruitment of 1 vacancies for Labour Welfare Officer posts.",
+    "u": "https://ddpdoo.gov.in/storage/document/6a8c21cbc8297.pdf"
+},
+  {
     "id": "indira-gandhi-national-tribal-project-assistant-recruitment-2026",
     "b": "Indira Gandhi National Tribal University (IGNTU)",
     "t": "Indira Gandhi National Tribal University (IGNTU) Recruitment 2026 – Apply for 1 Project Assistant Posts",
