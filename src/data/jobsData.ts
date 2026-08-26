@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-informatio-assistant-professor-grade-ii-o-recruitment-2026",
+    "b": "Indian Institute of Information Technology Agartala (IIIT Agartala)",
+    "t": "Indian Institute of Information Technology Agartala (IIIT Agartala) Recruitment 2026 – Apply for 10 Assistant Professor Grade II (On Contract) Posts",
+    "d": "26 August 2026",
+    "l": "10 September 2026",
+    "a": "IIITA/Recruitment/2026/02",
+    "q": "Ph.D. (Awarded) in Computer Science & Engineering, IT or other allied areas w...",
+    "desc": "Indian Institute of Information Technology Agartala (IIIT Agartala) has officially released employment advertisement notification IIITA/Recruitment/2026/02 for the recruitment of 10 vacancies for Assistant Professor Grade II (On Contract) posts.",
+    "u": "https://iiitagartala.ac.in/notices/advertisement-for-the-recruitment-of-faculty-positions-in-iiit-agartala"
+},
+  {
+    "id": "indian-overseas-bank-iob-a-gov-security-guard-subordinate-sta-recruitment-2026",
+    "b": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai",
+    "t": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai Recruitment 2026 – Apply for 25 Security Guard (Subordinate Staff Cadre) Posts",
+    "d": "26 August 2026",
+    "l": "14 September 2026",
+    "a": "HRMD/SS/RECT/01/2026-27",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai has officially released employment advertisement notification HRMD/SS/RECT/01/2026-27 for the recruitment of 25 vacancies for Security Guard (Subordinate Staff Cadre) posts.",
+    "u": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement"
+},
+  {
+    "id": "tamil-nadu-unmanned-aerial-veh-drone-pilot-drone-co-pilot-car-recruitment-2026",
+    "b": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC)",
+    "t": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC) Recruitment 2026 – Apply for 36 Drone Pilot, Drone Co-Pilot, Car Driver, Cook Helper, Tender Executive, RPTO Instructor, Supervisor, Cook, House Keeping, RPTO Supervisor Posts",
+    "d": "26 August 2026",
+    "l": "18 September 2026, 5:00 PM",
+    "a": "TAMIL-NADU-UNM/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC) has officially released employment advertisement notification TAMIL-NADU-UNM/2026 for the recruitment of 36 vacancies for Drone Pilot, Drone Co-Pilot, Car Driver, Cook Helper, Tender Executive, RPTO Instructor, Supervisor, Cook, House Keeping, RPTO Supervisor posts.",
+    "u": "https://www.tnuavcorp.com/careers.html"
+},
+  {
+    "id": "tamilnad-mercantile-bank-ltd-t-specialist-officer-it-multiple-recruitment-2026",
+    "b": "Tamilnad Mercantile Bank Ltd. (TMB)",
+    "t": "Tamilnad Mercantile Bank Ltd. (TMB) Recruitment 2026 – Apply for 1 Specialist Officer (IT) - multiple specializations Posts",
+    "d": "26 August 2026",
+    "l": "6 September 2026",
+    "a": "TAMILNAD-MERCA/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Tamilnad Mercantile Bank Ltd. (TMB) has officially released employment advertisement notification TAMILNAD-MERCA/2026 for the recruitment of 1 vacancies for Specialist Officer (IT) - multiple specializations posts.",
+    "u": "https://www.ib.tmbonline.bank.in/tmb_careers/doc/ADV_ITSPCL20262701.pdf"
+},
+  {
+    "id": "one-stop-centre-erode-senior-counsellor-recruitment-2026",
+    "b": "One Stop Centre Erode",
+    "t": "One Stop Centre Erode Recruitment 2026 – Apply for 1 Senior Counsellor Posts",
+    "d": "26 August 2026",
+    "l": "10 September 2026",
+    "a": "ONE-STOP-CENTR/2026",
+    "q": "Master Degree in Social Work / Counselling Psychology / Development Management",
+    "desc": "One Stop Centre Erode has officially released employment advertisement notification ONE-STOP-CENTR/2026 for the recruitment of 1 vacancies for Senior Counsellor posts.",
+    "u": "https://cdn.s3waas.gov.in/s3bca82e41ee7b0833588399b1fcd177c7/uploads/2026/08/17875691736807.pdf"
+},
+  {
+    "id": "district-health-society-tiruch-driver-and-microbiologist-recruitment-2026",
+    "b": "District Health Society Tiruchirappalli (DHS Tiruchirappalli)",
+    "t": "District Health Society Tiruchirappalli (DHS Tiruchirappalli) Recruitment 2026 – Apply for 2 Driver and Microbiologist Posts",
+    "d": "26 August 2026",
+    "l": "04 September 2026",
+    "a": "1900/A5/2026",
+    "q": "Higher School Permanent driving license of light motor vehicle with heavy veh...",
+    "desc": "District Health Society Tiruchirappalli (DHS Tiruchirappalli) has officially released employment advertisement notification 1900/A5/2026 for the recruitment of 2 vacancies for Driver and Microbiologist posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f73b76ce8949fe29bf2a537cfa420e8f/uploads/2026/08/17875699869269.pdf"
+},
+  {
+    "id": "guru-gobind-singh-medical-coll-project-technical-support-iii-recruitment-2026",
+    "b": "Guru Gobind Singh Medical College and Hospital (GGSMCH)",
+    "t": "Guru Gobind Singh Medical College and Hospital (GGSMCH) Recruitment 2026 – Apply for 1 Project Technical Support III (Clinical Pharmacist) Posts",
+    "d": "26 August 2026",
+    "l": "26 August 2026",
+    "a": "GURU-GOBIND-SI/2026",
+    "q": "Graduate in pharmacy with three years' experience OR Post graduate degree in ...",
+    "desc": "Guru Gobind Singh Medical College and Hospital (GGSMCH) has officially released employment advertisement notification GURU-GOBIND-SI/2026 for the recruitment of 1 vacancies for Project Technical Support III (Clinical Pharmacist) posts.",
+    "u": "https://bfuhs.ggsmch.org/wp-content/uploads/2026/08/ggsprojectpost.pdf"
+},
+  {
+    "id": "jawaharlal-institute-of-postgr-project-technical-assistant-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 – Apply for 2 Project Technical Assistant Posts",
+    "d": "26 August 2026",
+    "l": "29 August 2026",
+    "a": "JIP/PSM/HTAIn/23/26",
+    "q": "Graduate in Science/relevant subjects with 3 years of work experience or Mast...",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially released employment advertisement notification JIP/PSM/HTAIn/23/26 for the recruitment of 2 vacancies for Project Technical Assistant posts.",
+    "u": "https://jipmer.edu.in/sites/default/files/1.Recruitment_Notice_2026_%28AMS_PSM%20department%29.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-garud-hostel-support-staff-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Garudabasa",
+    "t": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply for 5 Hostel Support Staff Posts",
+    "d": "26 August 2026",
+    "l": "11 September 2026",
+    "a": "01",
+    "q": "B.A. / B.Sc. from recognized university, HSC Examination from recognized board",
+    "desc": "Odisha Adarsha Vidyalaya Garudabasa has officially released employment advertisement notification 01 for the recruitment of 5 vacancies for Hostel Support Staff posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20Garudabasa%20Betnoti.pdf"
+},
+  {
+    "id": "gopabandhu-science-college-guest-faculty-recruitment-2026",
+    "b": "Gopabandhu Science College",
+    "t": "Gopabandhu Science College Recruitment 2026 – Apply for 18 Guest Faculty Posts",
+    "d": "26 August 2026",
+    "l": "05 September 2026",
+    "a": "01",
+    "q": "Retired teacher at any University / Degree College",
+    "desc": "Gopabandhu Science College has officially released employment advertisement notification 01 for the recruitment of 18 vacancies for Guest Faculty posts.",
+    "u": "https://hims.odisha.gov.in/guest_faculty/home"
+},
+  {
     "id": "odisha-adarsha-vidyalaya-morad-support-staff-for-boys-hostel-recruitment-2026",
     "b": "Odisha Adarsha Vidyalaya Morada (OAV Morada)",
     "t": "Odisha Adarsha Vidyalaya Morada (OAV Morada) Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
