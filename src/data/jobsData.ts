@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "esic-teaching-faculty-professor-senior-resident-and-recruitment-2026",
+    "b": "ESIC Teaching Faculty",
+    "t": "ESIC Teaching Faculty Recruitment 2026 – Apply for 107 Professor, Senior Resident and More Posts",
+    "d": "26 August 2026",
+    "l": "By 3:00 PM on 01.09.2026, to [email protected]",
+    "a": "01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "ESIC Teaching Faculty has officially released employment advertisement notification 01 for the recruitment of 107 vacancies for Professor, Senior Resident and More posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Time_Bound_Recruitment_of_Teaching_Faculty_amp_Senior_Resident_on_contract_basis_at_proposed_ESIC_Medical_College_amp_Hospital_Margao_Goa_1787568729.pdf"
+},
+  {
+    "id": "national-forensic-sciences-uni-visiting-medical-consultant-ps-recruitment-2026",
+    "b": "National Forensic Sciences University (NFSU)",
+    "t": "National Forensic Sciences University (NFSU) Recruitment 2026 – Apply for 1 Visiting Medical Consultant/ Psychologist-Counsellor Posts",
+    "d": "26 August 2026",
+    "l": "06 September 2026",
+    "a": "NATIONAL-FOREN/2026",
+    "q": "MBBS from recognized University/equivalent recognized by MCI, Post Graduation...",
+    "desc": "National Forensic Sciences University (NFSU) has officially released employment advertisement notification NATIONAL-FOREN/2026 for the recruitment of 1 vacancies for Visiting Medical Consultant/ Psychologist-Counsellor posts.",
+    "u": "https://beta.nfsu.ac.in/Uploads/EOI%20visiting%20medical%20consultant_nfsu_goa.pdf"
+},
+  {
+    "id": "mini-ratna-category-i-cpse-who-assistant-manager-deputy-manag-recruitment-2026",
+    "b": "Mini-Ratna Category-I CPSE (wholly owned by Government of India)",
+    "t": "Mini-Ratna Category-I CPSE (wholly owned by Government of India) Recruitment 2026 – Apply for 24 Assistant Manager, Deputy Manager Posts",
+    "d": "26 August 2026",
+    "l": "24.08.2026",
+    "a": "02/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Mini-Ratna Category-I CPSE (wholly owned by Government of India) has officially released employment advertisement notification 02/2026 for the recruitment of 24 vacancies for Assistant Manager, Deputy Manager posts.",
+    "u": "https://www.spmcil.com/wp-content/uploads/2026/08/Notice-dated-24.08.2026.pdf"
+},
+  {
+    "id": "warehousing-development-and-re-consultant-banking-recruitment-2026",
+    "b": "Warehousing Development and Regulatory Authority (WDRA)",
+    "t": "Warehousing Development and Regulatory Authority (WDRA) Recruitment 2026 – Apply for 1 Consultant (Banking) Posts",
+    "d": "26 August 2026",
+    "l": "21 days from the date of publication (10 September 2026)",
+    "a": "WAREHOUSING-DE/2026",
+    "q": "Graduate/ post graduate degree preferably in commerce/ banking & finance",
+    "desc": "Warehousing Development and Regulatory Authority (WDRA) has officially released employment advertisement notification WAREHOUSING-DE/2026 for the recruitment of 1 vacancies for Consultant (Banking) posts.",
+    "u": "https://wdra.gov.in/documents/d/wdra/consultant-banking-20082026"
+},
+  {
+    "id": "sahitya-akademi-national-acade-clerk-mts-and-more-recruitment-2026",
+    "b": "Sahitya Akademi (National Academy of Letters) - autonomous organization under the Ministry of Culture, Govt. of India",
+    "t": "Sahitya Akademi (National Academy of Letters) - autonomous organization under the Ministry of Culture, Govt. of India Recruitment 2026 – Apply for 30 Clerk, MTS and More Posts",
+    "d": "26 August 2026",
+    "l": "Refer Official Notification",
+    "a": "50/2/2026 (also referenced as SA/50/2/2026)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Sahitya Akademi (National Academy of Letters) - autonomous organization under the Ministry of Culture, Govt. of India has officially released employment advertisement notification 50/2/2026 (also referenced as SA/50/2/2026) for the recruitment of 30 vacancies for Clerk, MTS and More posts.",
+    "u": "https://sahitya-akademi.gov.in/pdf/variousposts_22.pdf"
+},
+  {
+    "id": "power-grid-corporation-of-indi-apprentice-iti-electrician-dip-recruitment-2026",
+    "b": "Power Grid Corporation of India Limited (POWERGRID)",
+    "t": "Power Grid Corporation of India Limited (POWERGRID) Recruitment 2026 – Apply for 270 Apprentice (ITI-Electrician, Diploma Electrical, Diploma Civil, Graduate Electrical, Graduate Civil) Posts",
+    "d": "26 August 2026",
+    "l": "10.09.2026",
+    "a": "POWER-GRID-COR/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Power Grid Corporation of India Limited (POWERGRID) has officially released employment advertisement notification POWER-GRID-COR/2026 for the recruitment of 270 vacancies for Apprentice (ITI-Electrician, Diploma Electrical, Diploma Civil, Graduate Electrical, Graduate Civil) posts.",
+    "u": "https://www.powergrid.in/sites/default/files/apprentices_document/NR-I%20Detailed%20Advertisement..pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-data-entry-operator-project-nu-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 – Apply for 2 Data Entry Operator & Project Nurse III Posts",
+    "d": "26 August 2026",
+    "l": "09 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "12th pass, Diploma in Nursing or Midwifery (GNM) or equivalent, Registered nu...",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 2 vacancies for Data Entry Operator & Project Nurse III posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pead-25-8-26.pdf"
+},
+  {
+    "id": "ministry-of-environment-forest-scientific-consultant-grade-i-recruitment-2026",
+    "b": "Ministry of Environment Forest and Climate Change (MoEFCC)",
+    "t": "Ministry of Environment Forest and Climate Change (MoEFCC) Recruitment 2026 – Apply for 1 Scientific Consultant Grade I (Climate Finance) Posts",
+    "d": "26 August 2026",
+    "l": "20 September 2026",
+    "a": "MINISTRY-OF-EN/2026",
+    "q": "Master's degree in Economics",
+    "desc": "Ministry of Environment Forest and Climate Change (MoEFCC) has officially released employment advertisement notification MINISTRY-OF-EN/2026 for the recruitment of 1 vacancies for Scientific Consultant Grade I (Climate Finance) posts.",
+    "u": "https://moef.gov.in/storage/tender/1787309222.pdf"
+},
+  {
+    "id": "supreme-court-of-india-assistant-registrar-computer-recruitment-2026",
+    "b": "Supreme Court of India",
+    "t": "Supreme Court of India Recruitment 2026 – Apply for 1 Assistant Registrar (Computer) Posts",
+    "d": "26 August 2026",
+    "l": "30 September 2026",
+    "a": "SUPREME-COURT-/2026",
+    "q": "Master’s or Bachelor’s degree in Computer Applications or B.E. in Computers o...",
+    "desc": "Supreme Court of India has officially released employment advertisement notification SUPREME-COURT-/2026 for the recruitment of 1 vacancies for Assistant Registrar (Computer) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/08/2026082427.pdf"
+},
+  {
+    "id": "ernet-india-administrative-assistant-procu-recruitment-2026",
+    "b": "ERNET India",
+    "t": "ERNET India Recruitment 2026 – Apply for 1 Administrative Assistant (Procurement) Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "ERNET-INDIA/2026",
+    "q": "Graduate in any discipline with 04 years of post-qualification experience in ...",
+    "desc": "ERNET India has officially released employment advertisement notification ERNET-INDIA/2026 for the recruitment of 1 vacancies for Administrative Assistant (Procurement) posts.",
+    "u": "https://xn--m1bd4e9a1b9i.xn--h2brj9c/sites/default/files/pdf/final%20advertisement%20Administrative%20Assistant.pdf"
+},
+  {
     "id": "delhi-pollution-control-commit-senior-environmental-engineer-recruitment-2026",
     "b": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi",
     "t": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi Recruitment 2026 – Apply for 17 Senior Environmental Engineer (SEE), Environmental Engineer (EE), Assistant Environmental Engineer (AEE) Posts",
