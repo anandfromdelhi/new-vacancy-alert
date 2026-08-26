@@ -667,6 +667,47 @@ def generate_rich_job_schema(data):
 
     return schema
 
+
+def safe_write_json(filepath, data):
+    for attempt in range(5):
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            return True
+        except Exception as e:
+            time.sleep(0.3)
+    try:
+        tmp_file = filepath + ".tmp"
+        with open(tmp_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        if os.path.exists(filepath):
+            os.remove(filepath)
+        os.rename(tmp_file, filepath)
+        return True
+    except Exception as e:
+        print(f"[WARN] Failed to write {filepath}: {e}")
+        return False
+
+def safe_write_text(filepath, content):
+    for attempt in range(5):
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(content)
+            return True
+        except Exception as e:
+            time.sleep(0.3)
+    try:
+        tmp_file = filepath + ".tmp"
+        with open(tmp_file, 'w', encoding='utf-8') as f:
+            f.write(content)
+        if os.path.exists(filepath):
+            os.remove(filepath)
+        os.rename(tmp_file, filepath)
+        return True
+    except Exception as e:
+        print(f"[WARN] Failed to write {filepath}: {e}")
+        return False
+
 def add_job_to_system(job_schema):
     job_id = job_schema["id"]
     
@@ -680,8 +721,7 @@ def add_job_to_system(job_schema):
             details_data = {}
             
     details_data[job_id] = job_schema
-    with open(DETAILS_FILE, 'w', encoding='utf-8') as f:
-        json.dump(details_data, f, indent=2, ensure_ascii=False)
+    safe_write_json(DETAILS_FILE, details_data)
         
     # 2. Update jobsData.ts
     with open(JOBS_DATA_FILE, 'r', encoding='utf-8') as f:
@@ -714,8 +754,7 @@ def add_job_to_system(job_schema):
         marker = "export const JOBS_DATA: JobEntry[] = ["
         entry_json = json.dumps(summary_entry, indent=4, ensure_ascii=False)
         new_content = jobs_text.replace(marker, f"{marker}\n  {entry_json},")
-        with open(JOBS_DATA_FILE, 'w', encoding='utf-8') as f:
-            f.write(new_content)
+        safe_write_text(JOBS_DATA_FILE, new_content)
             
     # 3. Update jobUploadDates.json
     upload_dates = {}
@@ -727,8 +766,7 @@ def add_job_to_system(job_schema):
             upload_dates = {}
     if job_id not in upload_dates:
         upload_dates[job_id] = datetime.datetime.now().strftime("%Y-%m-%d")
-        with open(UPLOAD_DATES_FILE, 'w', encoding='utf-8') as f:
-            json.dump(upload_dates, f, indent=2, ensure_ascii=False)
+        safe_write_json(UPLOAD_DATES_FILE, upload_dates)
             
     return True
 

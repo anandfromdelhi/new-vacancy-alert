@@ -12,6 +12,83 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-senior-resident-non-academic-s-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY",
+    "t": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY Recruitment 2026 – Apply for 51 Senior Resident (Non-Academic); Senior Demonstrator (Anatomy, Physiology, Biochemistry & Biostatistics only) Posts",
+    "d": "26 August 2026",
+    "l": "10 September 2026, 5:00 PM",
+    "a": "E-12015/25/26-(SR/T/JR), dated 24.08.2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY has officially released employment advertisement notification E-12015/25/26-(SR/T/JR), dated 24.08.2026 for the recruitment of 51 vacancies for Senior Resident (Non-Academic); Senior Demonstrator (Anatomy, Physiology, Biochemistry & Biostatistics only) posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/new_sr_advertisement_september_2026_20260824_200050_f76a3506.pdf"
+},
+  {
+    "id": "uttarakhand-public-service-com-veterinary-officer-recruitment-2026",
+    "b": "Uttarakhand Public Service Commission (UKPSC)",
+    "t": "Uttarakhand Public Service Commission (UKPSC) Recruitment 2026 – Apply for 25 Veterinary Officer Posts",
+    "d": "26 August 2026",
+    "l": "14 September 2026 (11:59:59 PM)",
+    "a": "A-2/DR(VO)/S-1/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Uttarakhand Public Service Commission (UKPSC) has officially released employment advertisement notification A-2/DR(VO)/S-1/2026 for the recruitment of 25 vacancies for Veterinary Officer posts.",
+    "u": "https://psc.uk.gov.in/candidate-corner/recruitment"
+},
+  {
+    "id": "indian-institute-of-technology-research-associate-i-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 – Apply for 2 Research Associate I / JRF Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "SRIC/06",
+    "q": "Ph.D. in Geotechnical Engineering/Earthquake Engineering/Mining/Soil Dynamics...",
+    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification SRIC/06 for the recruitment of 2 vacancies for Research Associate I / JRF posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CE/2026/adv200820261.pdf"
+},
+  {
+    "id": "atal-residential-school-azamga-guest-faculty-teachers-pgttgt-recruitment-2026",
+    "b": "Atal Residential School Azamgarh",
+    "t": "Atal Residential School Azamgarh Recruitment 2026 – Apply for 11 Guest Faculty Teachers (PGT/TGT) Posts",
+    "d": "26 August 2026",
+    "l": "03 September 2026",
+    "a": "ATAL-RESIDENTI/2026",
+    "q": "Post Graduate Degree with B.Ed. for PGTs, Graduate Degree with B.Ed. and TET ...",
+    "desc": "Atal Residential School Azamgarh has officially released employment advertisement notification ATAL-RESIDENTI/2026 for the recruitment of 11 vacancies for Guest Faculty Teachers (PGT/TGT) posts.",
+    "u": "https://cdn.s3waas.gov.in/s306138bc5af6023646ede0e1f7c1eac75/uploads/2026/08/17875521172216.pdf"
+},
+  {
+    "id": "banaras-hindu-university-bhu-research-positions-recruitment-2026",
+    "b": "Banaras Hindu University (BHU)",
+    "t": "Banaras Hindu University (BHU) Recruitment 2026 – Apply for 3 Research Positions Posts",
+    "d": "26 August 2026",
+    "l": "09 September 2026",
+    "a": "BANARAS-HINDU-/2026",
+    "q": "First-class PG in Biochemistry/Biotechnology/Molecular & Human Genetics/Zoolo...",
+    "desc": "Banaras Hindu University (BHU) has officially released employment advertisement notification BANARAS-HINDU-/2026 for the recruitment of 3 vacancies for Research Positions posts.",
+    "u": "https://www.bhu.ac.in"
+},
+  {
+    "id": "kalyan-singh-super-specialty-c-senior-resident-hospital-servi-recruitment-2026",
+    "b": "Kalyan Singh Super Specialty Cancer Institute (KSSSCI)",
+    "t": "Kalyan Singh Super Specialty Cancer Institute (KSSSCI) Recruitment 2026 – Apply for 19 Senior Resident (Hospital Services) Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "Ref:-KSSSCI/FR/120-D/1106/2026",
+    "q": "MBBS/BDS/MIHA degree recognition by MCI/DCI, MBBS/BDS, Matriculation",
+    "desc": "Kalyan Singh Super Specialty Cancer Institute (KSSSCI) has officially released employment advertisement notification Ref:-KSSSCI/FR/120-D/1106/2026 for the recruitment of 19 vacancies for Senior Resident (Hospital Services) posts.",
+    "u": "https://cancerinstitute.edu.in/public/uploads/1787227431_6126051f00fd0c56bafe.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-project-executive-offic-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 – Apply for 1 Senior Project Executive Officer Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech or M.Sc in Engineering/ Sciences + 5 years of relevant experience, Ph....",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Senior Project Executive Officer posts.",
+    "u": "https://www.iitk.ac.in/dord/project/cse-speo-21-08-26.html"
+},
+  {
     "id": "indian-institute-of-informatio-assistant-professor-grade-ii-o-recruitment-2026",
     "b": "Indian Institute of Information Technology Agartala (IIIT Agartala)",
     "t": "Indian Institute of Information Technology Agartala (IIIT Agartala) Recruitment 2026 – Apply for 10 Assistant Professor Grade II (On Contract) Posts",
