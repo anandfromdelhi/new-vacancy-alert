@@ -1483,6 +1483,46 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'karnataka-examinations-authori-residential-school-teacher-vas-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-emerald-950 via-slate-900 to-teal-950 rounded-2xl shadow-xl border-2 border-emerald-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      KEA Bengaluru • Social Welfare Dept
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      40 Posts (Kalyana Karnataka)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Scale: ₹41,300 - ₹81,800
+                    </span>
+                    <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Advt ED/KEA/39/RECT/2026(KK)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    KEA Residential School Teacher (ವಸತಿ ಶಾಲಾ ಶಿಕ್ಷಕರು) Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Social Welfare Department recruitment for <strong>40 Residential School Teachers</strong> in Kalyana Karnataka Cadre. <strong>PUC (50%) + D.El.Ed / B.El.Ed + KARTET / CTET</strong>. Apply online before <strong>18 September 2026</strong>.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://cetonline.karnataka.gov.in/kea/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on KEA Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
                     {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
             <div className="bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 rounded-2xl shadow-xl border-2 border-orange-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>

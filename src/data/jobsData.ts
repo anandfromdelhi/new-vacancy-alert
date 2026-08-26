@@ -321,15 +321,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "karnataka-examinations-authori-residential-school-teacher-vas-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka",
-    "t": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka Recruitment 2026 – Apply for 140 Residential School Teacher (Vasati Shala Shikshakaru) Posts",
-    "d": "26 August 2026",
-    "l": "19 September 2026",
-    "a": "ED/KEA/39/RC/2026(KK) - Kalyana Karnataka Cadre; ED/KEA/38/RC/2026(RPC) - Residual Post Cadre",
-    "q": "PUC + Diploma/Degree in Elementary Education (or Special Education) + TET qua...",
-    "desc": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka has officially released employment advertisement notification ED/KEA/39/RC/2026(KK) - Kalyana Karnataka Cadre; ED/KEA/38/RC/2026(RPC) - Residual Post Cadre for the recruitment of 140 vacancies for Residential School Teacher (Vasati Shala Shikshakaru) posts.",
-    "u": "https://cetonline.karnataka.gov.in/keawebentry456/swrtkk2026/SWRT_NOTIFICATION_KKkannada.pdf"
-},
+    "b": "Karnataka Examinations Authority (KEA), Bengaluru",
+    "t": "KEA Karnataka Residential School Teacher Recruitment 2026 – Apply for 40 Posts (Social Welfare Dept, KK Cadre)",
+    "d": "21 August 2026",
+    "l": "18 September 2026",
+    "a": "ED/KEA/39/RECT/2026(KK)",
+    "q": "PUC (10+2 with 50%) + D.El.Ed / B.El.Ed / Special D.Ed + KARTET / CTET Passed",
+    "desc": "Karnataka Examinations Authority (KEA) on behalf of Social Welfare Dept has released Advt ED/KEA/39/RECT/2026(KK) for 40 Residential School Teachers (Vasathi Shala Shikshakaru).",
+    "u": "https://cetonline.karnataka.gov.in/kea/"
+  },
   {
     "id": "central-food-technological-res-senior-project-associate-i-recruitment-2026",
     "b": "Central Food Technological Research Institute (CSIR CFTRI)",
