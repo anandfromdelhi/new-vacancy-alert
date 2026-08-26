@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "birla-industrial-and-technolog-junior-mentor-recruitment-2026",
+    "b": "Birla Industrial and Technological Museum (BITM)",
+    "t": "Birla Industrial and Technological Museum (BITM) Recruitment 2026 – Apply for 5 Junior Mentor Posts",
+    "d": "26 August 2026",
+    "l": "25 September 2026",
+    "a": "03/2026",
+    "q": "Master’s degree in Science or Bachelor’s Degree in Engineering with 1st class",
+    "desc": "Birla Industrial and Technological Museum (BITM) has officially released employment advertisement notification 03/2026 for the recruitment of 5 vacancies for Junior Mentor posts.",
+    "u": "https://bitm.gov.in/wp-content/uploads/2026/08/MENTOR-Website-Text-24.08.2026.pdf"
+},
+  {
+    "id": "bharat-electronics-limited-bel-havildar-security-recruitment-2026",
+    "b": "Bharat Electronics Limited (BEL)",
+    "t": "Bharat Electronics Limited (BEL) Recruitment 2026 – Apply for 5 Havildar (Security) Posts",
+    "d": "26 August 2026",
+    "l": "14.09.2026",
+    "a": "21001/KOT/HR/SECURITY/2026/01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Bharat Electronics Limited (BEL) has officially released employment advertisement notification 21001/KOT/HR/SECURITY/2026/01 for the recruitment of 5 vacancies for Havildar (Security) posts.",
+    "u": "https://bel-india.in/wp-content/uploads/2026/08/Deatiled-Security-Havildar-Advertisment.pdf"
+},
+  {
     "id": "indian-bank-authorised-doctor-recruitment-2026",
     "b": "Indian Bank",
     "t": "Indian Bank Recruitment 2026 – Apply for 1 Authorised Doctor Posts",
