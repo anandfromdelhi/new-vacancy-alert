@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "delhi-pollution-control-commit-senior-environmental-engineer-recruitment-2026",
+    "b": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi",
+    "t": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi Recruitment 2026 – Apply for 17 Senior Environmental Engineer (SEE), Environmental Engineer (EE), Assistant Environmental Engineer (AEE) Posts",
+    "d": "26 August 2026",
+    "l": "Within 21 days from the date of publication of this advertisement in the Employment News/Rozgar Samachar",
+    "a": "DPCC/(3)(2)(86)/Admn-26",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi has officially released employment advertisement notification DPCC/(3)(2)(86)/Admn-26 for the recruitment of 17 vacancies for Senior Environmental Engineer (SEE), Environmental Engineer (EE), Assistant Environmental Engineer (AEE) posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1785310866_yp-iivacancynotification.pdf"
+},
+  {
+    "id": "indian-council-of-medical-rese-young-professional-ii-recruitment-2026",
+    "b": "Indian Council of Medical Research (ICMR)",
+    "t": "Indian Council of Medical Research (ICMR) Recruitment 2026 – Apply for 1 Young Professional-II Posts",
+    "d": "26 August 2026",
+    "l": "02 September 2026",
+    "a": "ICMR/Datacenter/Reg-staff/Nov2024",
+    "q": "Post Graduate in Biostatistics/Statistics/Demography/Population Studies/Publi...",
+    "desc": "Indian Council of Medical Research (ICMR) has officially released employment advertisement notification ICMR/Datacenter/Reg-staff/Nov2024 for the recruitment of 1 vacancies for Young Professional-II posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1785310866_yp-iivacancynotification.pdf"
+},
+  {
+    "id": "delhi-university-south-campus-junior-research-fellow-recruitment-2026",
+    "b": "Delhi University South Campus",
+    "t": "Delhi University South Campus Recruitment 2026 – Apply for 1 Junior Research Fellow Posts",
+    "d": "26 August 2026",
+    "l": "21 September 2026",
+    "a": "ANRF/ARG/2025/004015/LS",
+    "q": "M.Sc/M.Tech in Biochemistry/Life Sciences/Biotechnology or related subjects w...",
+    "desc": "Delhi University South Campus has officially released employment advertisement notification ANRF/ARG/2025/004015/LS for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.du.ac.in/uploads/2026/25082026-biochem-Advt-%20JRF.pdf"
+},
+  {
+    "id": "indian-oil-corporation-limited-production-manager-senior-prod-recruitment-2026",
+    "b": "Indian Oil Corporation Limited (IOCL)",
+    "t": "Indian Oil Corporation Limited (IOCL) Recruitment 2026 – Apply for 1 Production Manager, Senior Production Manager & Senior Manager (PBR-Marketing) Posts",
+    "d": "26 August 2026",
+    "l": "16-09-2026 (Tentative)",
+    "a": "IOCL/CO-HR/Rectt/2026/02",
+    "q": "Relevant Qualification and Experience as per IOCL Recruitment Rules",
+    "desc": "Indian Oil Corporation Limited (IOCL) has officially released employment advertisement notification IOCL/CO-HR/Rectt/2026/02 for the recruitment of 1 vacancies for Production Manager, Senior Production Manager & Senior Manager (PBR-Marketing) posts.",
+    "u": "https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/c3f5a41b620e4380b6883c0b62dc7d63.jpeg"
+},
+  {
+    "id": "container-corporation-of-india-management-trainee-assistant-o-recruitment-2026",
+    "b": "Container Corporation of India Ltd. (CONCOR)",
+    "t": "Container Corporation of India Ltd. (CONCOR) Recruitment 2026 – Apply for 77 Management Trainee & Assistant Officer Posts",
+    "d": "26 August 2026",
+    "l": "30-09-2026",
+    "a": "05/2026",
+    "q": "Relevant Degree / Engineering / MBA / Professional Qualification as per post",
+    "desc": "Container Corporation of India Ltd. (CONCOR) has officially released employment advertisement notification 05/2026 for the recruitment of 77 vacancies for Management Trainee & Assistant Officer posts.",
+    "u": "https://cms.concorindia.co.in:8000/uploads/cms/pdf/Ai2ZjNLaEQ8lyUd_IndicativeAdvt(nationaldailies).pdf"
+},
+  {
+    "id": "indian-institute-of-technology-research-associate-i-recruitment-2026",
+    "b": "Indian Institute of Technology Bhilai (IIT Bhilai)",
+    "t": "Indian Institute of Technology Bhilai (IIT Bhilai) Recruitment 2026 – Apply for 1 Research Associate I Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "PhD in Physics/Materials science/Chemistry",
+    "desc": "Indian Institute of Technology Bhilai (IIT Bhilai) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Research Associate I posts.",
+    "u": "https://www.iitbhilai.ac.in/index.php?pid=adv_aug26_20"
+},
+  {
+    "id": "bastar-district-high-class-teacher-subject-exp-recruitment-2026",
+    "b": "Bastar District",
+    "t": "Bastar District Recruitment 2026 – Apply for 11 High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part Time Music Teacher Posts",
+    "d": "26 August 2026",
+    "l": "07 September 2026",
+    "a": "BASTAR-DISTRIC/2026",
+    "q": "Graduate, B.Ed./D.Ed. (VI) and RCI Registration, M.A. (Relevant Subject), B.E...",
+    "desc": "Bastar District has officially released employment advertisement notification BASTAR-DISTRIC/2026 for the recruitment of 11 vacancies for High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part Time Music Teacher posts.",
+    "u": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/08/17875561073445.pdf"
+},
+  {
+    "id": "post-graduate-institute-of-med-project-nurse-ii-recruitment-2026",
+    "b": "Post Graduate Institute of Medical Education & Research (PGIMER)",
+    "t": "Post Graduate Institute of Medical Education & Research (PGIMER) Recruitment 2026 – Apply for 1 Project Nurse-II Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "MPS/VIRO/UC/26/25",
+    "q": "Second Class or equivalent CGPA, 3 year general nursing & Midwife (GNM) cours...",
+    "desc": "Post Graduate Institute of Medical Education & Research (PGIMER) has officially released employment advertisement notification MPS/VIRO/UC/26/25 for the recruitment of 1 vacancies for Project Nurse-II posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15505"
+},
+  {
+    "id": "panjab-university-lab-technician-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 – Apply for 1 Lab. Technician Posts",
+    "d": "26 August 2026",
+    "l": "31 August 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "B.Sc./Diploma in Engg and Technology (3 years)/B.E./B.Tech in Chemical Engine...",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 1 vacancies for Lab. Technician posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260820085509-lab%20technician.pdf"
+},
+  {
+    "id": "panjab-university-post-doctoral-fellowship-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 – Apply for 1 Post Doctoral Fellowship Posts",
+    "d": "26 August 2026",
+    "l": "27 August 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "Doctorate degree (Submitted/Awarded) in the relevant subject with published r...",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 1 vacancies for Post Doctoral Fellowship posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260821162312-20260821125725-postdoc.pdf"
+},
+  {
     "id": "panjab-university-guest-faculty-recruitment-2026",
     "b": "Panjab University",
     "t": "Panjab University Recruitment 2026 – Apply for 1 Guest Faculty Posts",
