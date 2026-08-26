@@ -1493,20 +1493,20 @@ export default function JobDetailPage() {
                       KEA Bengaluru • Social Welfare Dept
                     </span>
                     <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
-                      40 Posts (Kalyana Karnataka)
+                      140 Total Posts (100 RPC + 40 KK)
                     </span>
                     <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
                       Scale: ₹41,300 - ₹81,800
                     </span>
                     <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
-                      Advt ED/KEA/39/RECT/2026(KK)
+                      Advt 38/2026 (RPC) &amp; 39/2026 (KK)
                     </span>
                   </div>
                   <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
                     KEA Residential School Teacher (ವಸತಿ ಶಾಲಾ ಶಿಕ್ಷಕರು) Recruitment 2026
                   </h3>
                   <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
-                    Social Welfare Department recruitment for <strong>40 Residential School Teachers</strong> in Kalyana Karnataka Cadre. <strong>PUC (50%) + D.El.Ed / B.El.Ed + KARTET / CTET</strong>. Apply online before <strong>18 September 2026</strong>.
+                    Department of Social Welfare recruitment for <strong>140 Residential School Teachers</strong> across Karnataka (<strong>100 RPC + 40 Kalyana Karnataka</strong>). <strong>PUC (50%) + D.El.Ed / B.El.Ed + KARTET / CTET</strong>. Apply online before <strong>18 September 2026</strong>.
                   </p>
                 </div>
                 <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">

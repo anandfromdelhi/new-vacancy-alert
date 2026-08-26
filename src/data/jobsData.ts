@@ -322,12 +322,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "karnataka-examinations-authori-residential-school-teacher-vas-recruitment-2026",
     "b": "Karnataka Examinations Authority (KEA), Bengaluru",
-    "t": "KEA Karnataka Residential School Teacher Recruitment 2026 – Apply for 40 Posts (Social Welfare Dept, KK Cadre)",
+    "t": "KEA Karnataka Residential School Teacher Recruitment 2026 – Apply for 140 Posts (Social Welfare Dept, RPC & KK Cadres)",
     "d": "21 August 2026",
     "l": "18 September 2026",
-    "a": "ED/KEA/39/RECT/2026(KK)",
+    "a": "ED/KEA/38/RECT/2026(RPC) & ED/KEA/39/RECT/2026(KK)",
     "q": "PUC (10+2 with 50%) + D.El.Ed / B.El.Ed / Special D.Ed + KARTET / CTET Passed",
-    "desc": "Karnataka Examinations Authority (KEA) on behalf of Social Welfare Dept has released Advt ED/KEA/39/RECT/2026(KK) for 40 Residential School Teachers (Vasathi Shala Shikshakaru).",
+    "desc": "Karnataka Examinations Authority (KEA) on behalf of Social Welfare Dept has released Advt ED/KEA/38/RECT/2026(RPC) & ED/KEA/39/RECT/2026(KK) for 140 Residential School Teachers.",
     "u": "https://cetonline.karnataka.gov.in/kea/"
   },
   {
