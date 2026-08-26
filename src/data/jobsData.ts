@@ -1036,15 +1036,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026",
-    "b": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar",
-    "t": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar Recruitment 2026 – Apply for 259 259 Accountant, Lower Grade Clerk and More Posts",
-    "d": "26 August 2026",
-    "l": "25 September 2026",
+    "b": "Bihar State Food & Civil Supplies Corporation (BSFC)",
+    "t": "Bihar BSFC Recruitment 2026 – Apply Online for 259 Posts (Assistant Manager, LDC, Quality Controller, Accountant)",
+    "d": "25 August 2026",
+    "l": "24 September 2026",
     "a": "BCECEB(BSFC)-2026/01",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Bihar State Food & Civil Supplies Corporation Ltd. (BSFC), under the Food & Consumer Protection Department, Govt. of Bihar has officially released employment advertisement notification BCECEB(BSFC)-2026/01 for the recruitment of 259 vacancies for 259 Accountant, Lower Grade Clerk and More posts.",
-    "u": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_BSFC26_01.pdf"
-},
+    "q": "Graduate + Typing / B.Com / B.Sc Agri / B.Tech / MBA / CA / CA Inter",
+    "desc": "BCECEB on behalf of Bihar State Food & Civil Supplies Corporation (BSFC) has released Advt BCECEB(BSFC)-2026/01 for recruitment of 259 vacancies (Assistant Manager, LDC, Quality Controller, Accountant, Assistant Account Officer).",
+    "u": "https://bceceboard.bihar.gov.in"
+  },
   {
     "id": "tezpur-university-total-posts-recruitment-2026",
     "b": "Tezpur University",

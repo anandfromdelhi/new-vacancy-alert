@@ -1405,6 +1405,46 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-orange-950 rounded-2xl shadow-xl border-2 border-amber-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      BCECEB BSFC Bihar Recruitment 2026
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      259 Total Vacancies
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Pay Level-2 to Level-7
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Advt BCECEB(BSFC)-2026/01
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Bihar State Food &amp; Civil Supplies Corporation (BSFC) Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Direct recruitment for <strong>81 Assistant Managers</strong> (Level-7), <strong>123 LDCs</strong> (Level-2), <strong>38 Quality Controllers</strong> (Level-4), <strong>11 Accountants</strong> (Level-4), and <strong>6 Assistant Account Officers</strong> (Level-7). Apply online before <strong>24 September 2026</strong>.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://bceceboard.bihar.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on BCECEB Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
                     {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
             <div className="bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 rounded-2xl shadow-xl border-2 border-orange-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
@@ -2494,6 +2534,103 @@ export default function JobDetailPage() {
 
                         <div className="p-3.5 bg-amber-50 border-l-4 border-amber-500 rounded-r-xl text-amber-900 text-xs leading-relaxed">
                           <strong>Addendum Note (25/08/2026):</strong> As per Addendum Notice No. HPRCA-H(2)-2/2024-9366, 468 additional posts have been clubbed with the original 312 posts advertised under Advt No. 12/2026 for Post Code 26044, making total 780 vacancies for Assistant Staff Nurse in the Department of Medical Education &amp; Research, HP.
+                        </div>
+                      </div>
+                    )}
+                    {id === 'bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-amber-600" /> Post-Wise Qualification, Cadre &amp; Pay Scale Breakdown
+                          </h4>
+                          <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">259 Total Posts</span>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs hover:border-amber-400 transition-all flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">81 Posts</span>
+                                <span className="text-[11px] font-black text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">Level-7 (GP ₹4600)</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-sm mb-1">1. Assistant Manager (सहायक प्रबन्धक)</h5>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <strong>Qualification:</strong> MBA OR PGDBM / PGDM approved by AICTE from a recognized University / Institution.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-semibold">
+                              <span>Post Code: 01</span>
+                              <span>Cadre: Block / District</span>
+                            </div>
+                          </div>
+
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs hover:border-blue-400 transition-all flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">123 Posts</span>
+                                <span className="text-[11px] font-black text-blue-700 bg-blue-50 px-2 py-0.5 rounded border border-blue-200">Level-2 (GP ₹1900)</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-sm mb-1">2. Lower Division Clerk (निम्नवर्गीय लिपिक - LDC)</h5>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <strong>Qualification:</strong> Graduation Degree (Bachelor's Degree in any discipline) + Computer Operation &amp; Computer Typing knowledge.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-semibold">
+                              <span>Post Code: 05</span>
+                              <span>Cadre: State / Block / District</span>
+                            </div>
+                          </div>
+
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs hover:border-emerald-400 transition-all flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">38 Posts</span>
+                                <span className="text-[11px] font-black text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">Level-4 (GP ₹2400)</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-sm mb-1">3. Quality Controller (गुणवत्ता नियंत्रक)</h5>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <strong>Qualification:</strong> B.Sc. (Agriculture) OR Food Science / Food Science &amp; Tech / Agricultural Engg / Biotechnology in B.Tech/B.E.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-semibold">
+                              <span>Post Code: 04</span>
+                              <span>Cadre: Block / District</span>
+                            </div>
+                          </div>
+
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs hover:border-purple-400 transition-all flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="bg-purple-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">11 Posts</span>
+                                <span className="text-[11px] font-black text-purple-700 bg-purple-50 px-2 py-0.5 rounded border border-purple-200">Level-4 (GP ₹2400)</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-sm mb-1">4. Accountant (लेखापाल)</h5>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <strong>Qualification:</strong> B.Com Degree from a recognized University with CA Inter (Chartered Accountancy Inter) passed.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-semibold">
+                              <span>Post Code: 03</span>
+                              <span>Cadre: District Level</span>
+                            </div>
+                          </div>
+
+                          <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs hover:border-indigo-400 transition-all flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="bg-indigo-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">06 Posts</span>
+                                <span className="text-[11px] font-black text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">Level-7 (GP ₹4600)</span>
+                              </div>
+                              <h5 className="font-black text-slate-900 text-sm mb-1">5. Assistant Account Officer (सहायक लेखा पदाधिकारी)</h5>
+                              <p className="text-[11px] text-slate-600 font-medium leading-relaxed">
+                                <strong>Qualification:</strong> B.Com with CA, OR B.Com + 5 years working experience as Assistant Account Officer in Central/Bihar Govt/PSU.
+                              </p>
+                            </div>
+                            <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500 font-semibold">
+                              <span>Post Code: 02</span>
+                              <span>Cadre: District Level</span>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     )}
