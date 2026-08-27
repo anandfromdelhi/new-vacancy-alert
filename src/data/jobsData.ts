@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "himachal-pradesh-public-servic-tehsildar-bdo-and-more-recruitment-2026",
+    "b": "Himachal Pradesh Public Service Commission (HPPSC)",
+    "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 – Apply for 5 Tehsildar, BDO and More Posts",
+    "d": "27 August 2026",
+    "l": "22/09/2026, 11:59 PM",
+    "a": "59/8-2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Himachal Pradesh Public Service Commission (HPPSC) has officially released employment advertisement notification 59/8-2026 for the recruitment of 5 vacancies for Tehsildar, BDO and More posts.",
+    "u": "https://hppsc.hp.gov.in/CommonControls/CMSFileView?qs=oeMK915q2HkdpWSZ%2B0aaIFmLDoF0cTjGvKykbXugJ5FH4sUacllacYlnRK0MeZGEfxeUsdEM2p69nc6WDWdQBhIBr3TooKs4EQ87JuUdBNI%3D"
+},
+  {
+    "id": "rail-india-technical-and-econo-am-programmer-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 – Apply for 1 AM-Programmer Posts",
+    "d": "27 August 2026",
+    "l": "25 August 2026",
+    "a": "CP/13/26",
+    "q": "Full time Diploma/B.E./B.Tech in Computer Science, IT, EC&E or equivalent bra...",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially released employment advertisement notification CP/13/26 for the recruitment of 1 vacancies for AM-Programmer posts.",
+    "u": "https://www.rites.com/Upload/Career/Advertisement_for_CP_13_26_pdf-2026-Aug-25-16-24-56.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-coach-for-cultural-activities-recruitment-2026",
+    "b": "National Institute of Technology Kurukshetra",
+    "t": "National Institute of Technology Kurukshetra Recruitment 2026 – Apply for 7 Coach for Cultural Activities Posts",
+    "d": "27 August 2026",
+    "l": "29 August 2026",
+    "a": "29/2026",
+    "q": "MA/Master in Performing with 1st class",
+    "desc": "National Institute of Technology Kurukshetra has officially released employment advertisement notification 29/2026 for the recruitment of 7 vacancies for Coach for Cultural Activities posts.",
+    "u": "https://nitkkr.ac.in/wp-content/uploads/2026/08/Advt.-No.-29.2026.pdf"
+},
+  {
+    "id": "indian-institute-of-management-research-associate-recruitment-2026",
+    "b": "Indian Institute of Management Ahmedabad (IIMA)",
+    "t": "Indian Institute of Management Ahmedabad (IIMA) Recruitment 2026 – Apply for 1 Research Associate Posts",
+    "d": "27 August 2026",
+    "l": "30 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "A postgraduate/ Master's degree in Management, Law, Economics, Public Policy,...",
+    "desc": "Indian Institute of Management Ahmedabad (IIMA) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Research Associate posts.",
+    "u": "https://www.iima.ac.in/sites/default/files/2026-08/CIA_RA_Aug_2026_IIMA.pdf"
+},
+  {
+    "id": "central-university-of-gujarat-doctor-medical-officer-recruitment-2026",
+    "b": "Central University of Gujarat (CUG)",
+    "t": "Central University of Gujarat (CUG) Recruitment 2026 – Apply for 1 Doctor (Medical Officer) Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "MBBS or equivalent from a recognized institution approved by Medical Council ...",
+    "desc": "Central University of Gujarat (CUG) has officially released employment advertisement notification CENTRAL-UNIVER/2026 for the recruitment of 1 vacancies for Doctor (Medical Officer) posts.",
+    "u": "https://www.cug.ac.in/flipbook/index.php?pdf=recruitment_tender/recruitment/Doctor_appointment.pdf"
+},
+  {
+    "id": "national-centre-for-polar-ocea-junior-research-fellow-recruitment-2026",
+    "b": "National Centre for Polar & Ocean Research (NCPOR)",
+    "t": "National Centre for Polar & Ocean Research (NCPOR) Recruitment 2026 – Apply for 4 Junior Research Fellow Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "NCPOR/ 2026/ 07",
+    "q": "Master's degree in relevant discipline or Bachelor's degree in Engineering/ T...",
+    "desc": "National Centre for Polar & Ocean Research (NCPOR) has officially released employment advertisement notification NCPOR/ 2026/ 07 for the recruitment of 4 vacancies for Junior Research Fellow posts.",
+    "u": "https://ncpor.res.in/upload/recruitments/ncpor_2026_07_jrf.PDF"
+},
+  {
+    "id": "csir-national-institute-of-oce-project-associate-i-recruitment-2026",
+    "b": "CSIR National Institute of Oceanography",
+    "t": "CSIR National Institute of Oceanography Recruitment 2026 – Apply for 1 Project Associate - I Posts",
+    "d": "27 August 2026",
+    "l": "30 August 2026",
+    "a": "SSP3677/9297-26",
+    "q": "M.Sc / M.Tech / M.Sc(Tech) in Geophysics / Marine Geophysics / Exploration Ge...",
+    "desc": "CSIR National Institute of Oceanography has officially released employment advertisement notification SSP3677/9297-26 for the recruitment of 1 vacancies for Project Associate - I posts.",
+    "u": "https://www.nio.res.in/vacancies/temporary/1691366"
+},
+  {
+    "id": "national-health-mission-nhm-di-staff-nurse-support-staff-and-recruitment-2026",
+    "b": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa",
+    "t": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa Recruitment 2026 – Apply for 28 Staff Nurse, Support Staff and More Posts",
+    "d": "27 August 2026",
+    "l": "18 September 2026",
+    "a": "DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 dated 26/08/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa has officially released employment advertisement notification DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 dated 26/08/2026 for the recruitment of 28 vacancies for Staff Nurse, Support Staff and More posts.",
+    "u": "https://nhm.goa.gov.in/wp-content/uploads/2026/08/Advertisement-26-08-2026-1537-2026-27-1.pdf"
+},
+  {
+    "id": "national-informatics-centre-ni-scientifictechnical-assistant-recruitment-2026",
+    "b": "National Informatics Centre (NIC)",
+    "t": "National Informatics Centre (NIC) Recruitment 2026 – Apply for 376 Scientific/Technical Assistant-A Posts",
+    "d": "27 August 2026",
+    "l": "30.09.2026 (05:30 PM)",
+    "a": "NIC/STA/2026/2",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "National Informatics Centre (NIC) has officially released employment advertisement notification NIC/STA/2026/2 for the recruitment of 376 vacancies for Scientific/Technical Assistant-A posts.",
+    "u": "https://recruitment.nic.in/DetailedSTA.pdf"
+},
+  {
+    "id": "delhi-metro-rail-corporation-d-supervisor-p-way-recruitment-2026",
+    "b": "Delhi Metro Rail Corporation (DMRC)",
+    "t": "Delhi Metro Rail Corporation (DMRC) Recruitment 2026 – Apply for 4 Supervisor (P. Way) Posts",
+    "d": "27 August 2026",
+    "l": "15 September 2026",
+    "a": "DMRC/PERS/22/HR/2026 (233)",
+    "q": "Graduate (Experience in P.Way department in Indian Railways)",
+    "desc": "Delhi Metro Rail Corporation (DMRC) has officially released employment advertisement notification DMRC/PERS/22/HR/2026 (233) for the recruitment of 4 vacancies for Supervisor (P. Way) posts.",
+    "u": "https://backend.delhimetrorail.com/documents/11556/Advertisement_233_Supervisor_P_Way_PRCE_04_posts.pdf"
+},
+  {
     "id": "indian-railway-finance-corpora-head-of-internal-audit-hia-recruitment-2026",
     "b": "Indian Railway Finance Corporation (IRFC)",
     "t": "Indian Railway Finance Corporation (IRFC) Recruitment 2026 – Apply for 1 Head of Internal Audit (HIA) Posts",
