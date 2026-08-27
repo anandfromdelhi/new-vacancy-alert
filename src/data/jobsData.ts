@@ -12,6 +12,61 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-institute-of-technolo-research-associate-ra-iii-and-recruitment-2026",
+    "b": "National Institute of Technology Durgapur",
+    "t": "National Institute of Technology Durgapur Recruitment 2026 – Apply for 2 Research Associate (RA-III) and Junior Research Fellow (JRF) Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "NITD/ECE/NC/UA/V/RECRUITMENT/2026/01",
+    "q": "Ph.D. in Engineering (Aerospace/ECE/Electrical/Mechanical/Instrumentation) wi...",
+    "desc": "National Institute of Technology Durgapur has officially released employment advertisement notification NITD/ECE/NC/UA/V/RECRUITMENT/2026/01 for the recruitment of 2 vacancies for Research Associate (RA-III) and Junior Research Fellow (JRF) posts.",
+    "u": "https://nitdgp.ac.in/uploads/Advt_Recruitment_for_JRF_and_Project_Lead_Recruitment_under_Project_2026.pdf"
+},
+  {
+    "id": "chittaranjan-national-cancer-i-data-entry-operator-recruitment-2026",
+    "b": "Chittaranjan National Cancer Institute (CNCI)",
+    "t": "Chittaranjan National Cancer Institute (CNCI) Recruitment 2026 – Apply for 1 Data Entry Operator Posts",
+    "d": "27 August 2026",
+    "l": "02 September 2026",
+    "a": "N-028/2026",
+    "q": "Bachelor's Degree, Typing speed of 8000 Key depressions per hour on Computer",
+    "desc": "Chittaranjan National Cancer Institute (CNCI) has officially released employment advertisement notification N-028/2026 for the recruitment of 1 vacancies for Data Entry Operator posts.",
+    "u": "https://cnci.ac.in/backend/public/uploads/2026/08/25/Advt%20for%20the%20post%20of%20DEO_Can%20Staging%20Project.pdf"
+},
+  {
+    "id": "presidency-university-field-investigator-recruitment-2026",
+    "b": "Presidency University",
+    "t": "Presidency University Recruitment 2026 – Apply for 3 Field Investigator Posts",
+    "d": "27 August 2026",
+    "l": "02 September 2026",
+    "a": "PRESIDENCY-UNI/2026",
+    "q": "Post Graduate in Sociology",
+    "desc": "Presidency University has officially released employment advertisement notification PRESIDENCY-UNI/2026 for the recruitment of 3 vacancies for Field Investigator posts.",
+    "u": "https://www.presiuniv.ac.in/web/walkinihsociss240820261.php"
+},
+  {
+    "id": "indian-institute-of-technology-project-assistant-research-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 – Apply for 1 Project Assistant - Research Posts",
+    "d": "27 August 2026",
+    "l": "03 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Bachelors degree in science or 3 years Diploma in Engineering & Technology.",
+    "desc": "Indian Institute of Technology Kharagpur has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Assistant - Research posts.",
+    "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
+},
+  {
+    "id": "national-institute-of-technolo-junior-research-fellow-researc-recruitment-2026",
+    "b": "National Institute of Technology Uttarakhand",
+    "t": "National Institute of Technology Uttarakhand Recruitment 2026 – Apply for 1 Junior Research Fellow/ Research Associate I/ Research Associate II/ Research Associate III Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "07/ 2026",
+    "q": "M.E/ M.Tech./ M.S, Ph.D.",
+    "desc": "National Institute of Technology Uttarakhand has officially released employment advertisement notification 07/ 2026 for the recruitment of 1 vacancies for Junior Research Fellow/ Research Associate I/ Research Associate II/ Research Associate III posts.",
+    "u": "https://nituk.ac.in/uploads/topics/17875656546470.pdf"
+},
+  {
     "id": "all-india-institute-of-medical-various-non-faculty-posts-recruitment-2026",
     "b": "All India Institute of Medical Sciences Raebareli",
     "t": "All India Institute of Medical Sciences Raebareli Recruitment 2026 – Apply for 9 Various Non-Faculty Posts Posts",
