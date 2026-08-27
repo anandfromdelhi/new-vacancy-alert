@@ -674,12 +674,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "health-department-government-o-senior-resident-tutor-tenure-3-recruitment-2026",
     "b": "Health Department, Government of Bihar (via BCECEB)",
-    "t": "Health Department, Government of Bihar (via BCECEB) Recruitment 2026 – Apply for 118 Senior Resident / Tutor (Tenure - 3 years) Posts",
-    "d": "27 August 2026",
-    "l": "08.09.2026 (10:00 PM)",
+    "t": "Bihar Health Department Senior Resident / Tutor (3-Year Tenure) Recruitment 2026 – Apply Online via BCECEB",
+    "d": "25 August 2026",
+    "l": "08 September 2026 (10:00 PM)",
     "a": "BCECEB/Health(SR)/2026(II)/01",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Health Department, Government of Bihar (via BCECEB) has officially released employment advertisement notification BCECEB/Health(SR)/2026(II)/01 for the recruitment of 118 vacancies for Senior Resident / Tutor (Tenure - 3 years) posts.",
+    "q": "Postgraduate Degree (MD / MS / DNB / MDS) in concerned specialty as per NMC 2025",
+    "desc": "Health Department, Government of Bihar, in coordination with BCECEB, has released employment notification BCECEB/Health(SR)/2026(II)/01 for 3-year tenure posts of Senior Resident / Tutor across State Medical and Dental Colleges and Hospitals.",
     "u": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_2SR26_01.pdf"
 },
   {

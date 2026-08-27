@@ -1,15 +1,5 @@
+import json
 import os
-import pypdf
-from check_duplicate_vacancy import check_duplicate
-
-pdf_files = [
-    r"C:\Users\Administrator\.gemini\antigravity\brain\775724cb-d95b-4b74-b6c1-1aaa78f22116\.user_uploaded\media_1785977870052.pdf",
-    r"C:\Users\Administrator\.gemini\antigravity\brain\775724cb-d95b-4b74-b6c1-1aaa78f22116\.user_uploaded\media_1785977870109.pdf",
-    r"C:\Users\Administrator\.gemini\antigravity\brain\775724cb-d95b-4b74-b6c1-1aaa78f22116\.user_uploaded\media_1785977870272.pdf"
-]
-
-for idx, pdf in enumerate(pdf_files, 1):
-    print(f"\n=======================================================")
     print(f" PDF #{idx}: {os.path.basename(pdf)}")
     print(f"=======================================================")
     if os.path.exists(pdf):
