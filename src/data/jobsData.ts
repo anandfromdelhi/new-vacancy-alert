@@ -386,14 +386,14 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Advertisement_staff_ICMR_PRIME_HelP_Dr_Snehil_Gupta_24082026.pdf"
 },
   {
-    "id": "istc-age-limit-recruitment-2026",
-    "b": "ISTC",
-    "t": "ISTC Recruitment 2026 – Apply for 1 Age Limit Posts",
-    "d": "27 August 2026",
-    "l": "18 September 2026",
-    "a": "ISTC/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "ISTC has officially released employment advertisement notification ISTC/2026 for the recruitment of 1 vacancies for Age Limit posts.",
+    "id": "cochin-shipyard-pmis-internship-recruitment-2026",
+    "b": "Cochin Shipyard Limited (CSL)",
+    "t": "Cochin Shipyard Limited (CSL) PMIS Internship Scheme 2026 – Apply Online for 227 ITI, SSLC, Diploma & Graduate Intern Seats",
+    "d": "26 August 2026",
+    "l": "Apply on PMIS Portal",
+    "a": "CSL/P&A/HRM/HRM GENERAL/PM_INTERNSHIP_SCHEME/2024/45",
+    "q": "10th / ITI (NTC) / 12th (HSE) / Diploma in Engg / Any Graduate (Non-B.Tech) / MA",
+    "desc": "Cochin Shipyard Limited (CSL) has officially released employment advertisement notification CSL/P&A/HRM/HRM GENERAL/PM_INTERNSHIP_SCHEME/2024/45 for the engagement of 227 interns under the Prime Minister's Internship Scheme (PMIS).",
     "u": "https://cochinshipyard.in/uploads/career/cd5346e2da18d06f6905eb292e8ce195.pdf"
 },
   {
