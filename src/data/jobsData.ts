@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "chennai-port-authority-superintending-engineer-civil-recruitment-2026",
+    "b": "Chennai Port Authority",
+    "t": "Chennai Port Authority Recruitment 2026 – Apply for 2 Superintending Engineer (Civil) Posts",
+    "d": "27 August 2026",
+    "l": "7 October 2026",
+    "a": "RC1/0299/2026/GA",
+    "q": "Degree in Civil Engineering",
+    "desc": "Chennai Port Authority has officially released employment advertisement notification RC1/0299/2026/GA for the recruitment of 2 vacancies for Superintending Engineer (Civil) posts.",
+    "u": "https://chennaiport.gov.in/api/static/default/career/secivil.pdf"
+},
+  {
+    "id": "madras-university-research-associate-research-as-recruitment-2026",
+    "b": "Madras University",
+    "t": "Madras University Recruitment 2026 – Apply for 5 Research Associate, Research Assistant, Field Investigator Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "MADRAS-UNIVERS/2026",
+    "q": "Postgraduate in a social science discipline or a relevant field (minimum 55%)...",
+    "desc": "Madras University has officially released employment advertisement notification MADRAS-UNIVERS/2026 for the recruitment of 5 vacancies for Research Associate, Research Assistant, Field Investigator posts.",
+    "u": "https://www.unom.ac.in/webportal/uploads/appointments/NHRC_Project_20260825044603_2014.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-associate-ii-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 – Apply for 1 Project Associate II Posts",
+    "d": "27 August 2026",
+    "l": "2 September 2026",
+    "a": "ICSR/PR/Advt.163/2026",
+    "q": "Graduate",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially released employment advertisement notification ICSR/PR/Advt.163/2026 for the recruitment of 1 vacancies for Project Associate II posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1787573667.pdf"
+},
+  {
+    "id": "total-vacancies-non-tsp-tsp-junior-engineer-junior-account-recruitment-2026",
+    "b": "Total Vacancies (Non-TSP + TSP)",
+    "t": "Total Vacancies (Non-TSP + TSP) Recruitment 2026 – Apply for 1 Junior Engineer, Junior Accountant and More Posts",
+    "d": "27 August 2026",
+    "l": "25-08-2026, 12:00 Midnight",
+    "a": "RVUN/Rectt",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Total Vacancies (Non-TSP + TSP) has officially released employment advertisement notification RVUN/Rectt for the recruitment of 1 vacancies for Junior Engineer, Junior Accountant and More posts.",
+    "u": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/18357580f16-96d0-4e22-b8fa-af4105e66590.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-project-research-scientist-i-n-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 – Apply for 4 Project Research Scientist I (Non-Medical) and Project Nurse III Posts",
+    "d": "27 August 2026",
+    "l": "08 September 2026",
+    "a": "AIIMS/JDH/NEO/2026/08/603",
+    "q": "Postgraduate degree, Diploma in General Nursing or Midwife",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification AIIMS/JDH/NEO/2026/08/603 for the recruitment of 4 vacancies for Project Research Scientist I (Non-Medical) and Project Nurse III posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1787561432_Neonatology%20Project-240826.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-project-technical-support-ii-f-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 – Apply for 1 Project Technical support - II (field staff) Posts",
+    "d": "27 August 2026",
+    "l": "03 September 2026",
+    "a": "AIIMS/JDH/MICRO/2026/1384",
+    "q": "12th in Science + Diploma (MLT/DMLT) + Five Years' Experience in relevant sub...",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification AIIMS/JDH/MICRO/2026/1384 for the recruitment of 1 vacancies for Project Technical support - II (field staff) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1787403043_1384-220826.pdf"
+},
+  {
+    "id": "punjab-agricultural-university-female-gym-trainer-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 – Apply for 1 Female Gym Trainer Posts",
+    "d": "27 August 2026",
+    "l": "18 September 2026",
+    "a": "DSW.A.I/2026",
+    "q": "Bachelor Degree, Diploma in Fitness Training, 2 years experience, Punjabi lan...",
+    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification DSW.A.I/2026 for the recruitment of 1 vacancies for Female Gym Trainer posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7536"
+},
+  {
+    "id": "all-india-institute-of-medical-scientist-b-medical-lab-techni-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhubaneswar (AIIMS Bhubaneswar)",
+    "t": "All India Institute of Medical Sciences Bhubaneswar (AIIMS Bhubaneswar) Recruitment 2026 – Apply for 2 Scientist B (Medical), Lab. Technician Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / BDS / B.V.Sc. & AH recognized by MCI / DCI / VCI respectively OR BDS /...",
+    "desc": "All India Institute of Medical Sciences Bhubaneswar (AIIMS Bhubaneswar) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 2 vacancies for Scientist B (Medical), Lab. Technician posts.",
+    "u": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/08/Advertisement-for-Varios-Post-at-State-Level-VRDLDept.-of-Microbiology-AIIMS-BBSR.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-mayur-support-staff-warden-head-cook-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj)",
+    "t": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) Recruitment 2026 – Apply for 5 Support Staff (Warden, Head Cook, Assistant Cook, Chowkidar-cum-Sweeper) Posts",
+    "d": "27 August 2026",
+    "l": "15 September 2026",
+    "a": "ODISHA-ADARSHA/2026",
+    "q": "HSC to B.A./ B.Sc.",
+    "desc": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 5 vacancies for Support Staff (Warden, Head Cook, Assistant Cook, Chowkidar-cum-Sweeper) posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20Bhaliasole%20Suliapada.pdf"
+},
+  {
+    "id": "odisha-adarsha-vidyalaya-sarif-assistant-cook-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Sarifpur",
+    "t": "Odisha Adarsha Vidyalaya Sarifpur Recruitment 2026 – Apply for 1 Assistant Cook Posts",
+    "d": "27 August 2026",
+    "l": "09 September 2026",
+    "a": "ODISHA-ADARSHA/2026",
+    "q": "Preference if trained in cookery",
+    "desc": "Odisha Adarsha Vidyalaya Sarifpur has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 1 vacancies for Assistant Cook posts.",
+    "u": "https://puri.odisha.gov.in/sites/default/files/2026-08/ADVERTISEMENT%20FOR%20THE%20POST%20OF%20ASSISTANT%20COOK%20FOR%20GIRLS%20HOSTEL%20AT%20OAV%20SARIFPUR.pdf"
+},
+  {
     "id": "odisha-adarsha-vidyalaya-titia-support-staff-for-boys-hostel-recruitment-2026",
     "b": "Odisha Adarsha Vidyalaya Titia",
     "t": "Odisha Adarsha Vidyalaya Titia Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
