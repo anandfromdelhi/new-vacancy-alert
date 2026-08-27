@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-various-non-faculty-posts-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Raebareli",
+    "t": "All India Institute of Medical Sciences Raebareli Recruitment 2026 – Apply for 9 Various Non-Faculty Posts Posts",
+    "d": "27 August 2026",
+    "l": "07 October 2026",
+    "a": "AIIMS/RBL/REC/NF/DEP/2026/479",
+    "q": "Medical qualification with PG degree and 10 years hospital administration exp...",
+    "desc": "All India Institute of Medical Sciences Raebareli has officially released employment advertisement notification AIIMS/RBL/REC/NF/DEP/2026/479 for the recruitment of 9 vacancies for Various Non-Faculty Posts posts.",
+    "u": "https://www.aiimsrbl.edu.in"
+},
+  {
+    "id": "motilal-nehru-national-institu-ad-hoc-faculty-in-department-o-recruitment-2026",
+    "b": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
+    "t": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) Recruitment 2026 – Apply for 1 Ad hoc Faculty in Department of Biotechnology Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "05/2026",
+    "q": "Master's Degree in Relevant Discipline",
+    "desc": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) has officially released employment advertisement notification 05/2026 for the recruitment of 1 vacancies for Ad hoc Faculty in Department of Biotechnology posts.",
+    "u": "https://mnnit.ac.in/images/newstories/2026/JobMnnit/1-_Advt._for_Adhoc_faculty_in_Biotechmology_Dept_Advt._No._052026_dt_24.08.2026_MNNIT_Allahabad.pdf"
+},
+  {
+    "id": "mahamana-pandit-madan-mohan-ma-various-project-posts-recruitment-2026",
+    "b": "Mahamana Pandit Madan Mohan Malviya Cancer Centre (MPMMCC)",
+    "t": "Mahamana Pandit Madan Mohan Malviya Cancer Centre (MPMMCC) Recruitment 2026 – Apply for 4 Various Project Posts Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "HBCH/ MPMCC/ PROJECT/ 2026/ 21",
+    "q": "Graduate degree in relevant field with minimum six-month computer course or M...",
+    "desc": "Mahamana Pandit Madan Mohan Malviya Cancer Centre (MPMMCC) has officially released employment advertisement notification HBCH/ MPMCC/ PROJECT/ 2026/ 21 for the recruitment of 4 vacancies for Various Project Posts posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=LWTxVIBFQ6wNGHuK4KxK5g=="
+},
+  {
+    "id": "dr-ram-manohar-lohia-institute-steno-receptionist-and-more-recruitment-2026",
+    "b": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS), Lucknow",
+    "t": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS), Lucknow Recruitment 2026 – Apply for 74 Steno, Receptionist and More Posts",
+    "d": "27 August 2026",
+    "l": "One month from the date the link opens (exact date not specified)",
+    "a": "78-83/Estb.-2/Rectt./Dr.RMLIMS/2026 dated 25.08.2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS), Lucknow has officially released employment advertisement notification 78-83/Estb.-2/Rectt./Dr.RMLIMS/2026 dated 25.08.2026 for the recruitment of 74 vacancies for Steno, Receptionist and More posts.",
+    "u": "https://www.drrmlims.ac.in/"
+},
+  {
+    "id": "atal-awasiya-vidyalaya-guest-faculty-teacher-recruitment-2026",
+    "b": "Atal Awasiya Vidyalaya",
+    "t": "Atal Awasiya Vidyalaya Recruitment 2026 – Apply for 15 Guest Faculty Teacher Posts",
+    "d": "27 August 2026",
+    "l": "30 August 2026",
+    "a": "ATAL-AWASIYA-V/2026",
+    "q": "Master Degree with B.Ed for PGT, Bachelor Degree with B.Ed and TET for TGT",
+    "desc": "Atal Awasiya Vidyalaya has officially released employment advertisement notification ATAL-AWASIYA-V/2026 for the recruitment of 15 vacancies for Guest Faculty Teacher posts.",
+    "u": "https://cdn.s3waas.gov.in/s31700002963a49da13542e0726b7bb758/uploads/2026/08/17875526977540.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-project-technical-support-iii-recruitment-2026",
+    "b": "National Institute of Technology Agartala",
+    "t": "National Institute of Technology Agartala Recruitment 2026 – Apply for 1 Project Technical Support-III Posts",
+    "d": "27 August 2026",
+    "l": "08 September 2026",
+    "a": "F.NITA.42 (24-Bioengg)/Project Proposal/ICMR/Project Fellow",
+    "q": "Three years graduate degree in Microbiology, Biotechnology, Molecular Biology...",
+    "desc": "National Institute of Technology Agartala has officially released employment advertisement notification F.NITA.42 (24-Bioengg)/Project Proposal/ICMR/Project Fellow for the recruitment of 1 vacancies for Project Technical Support-III posts.",
+    "u": "https://nita.ac.in/MO_25-08-2026_Advt-Bio-ICMR-25082026_admin.pdf"
+},
+  {
+    "id": "ramagundam-fertilizers-and-che-engineer-officer-officer-secre-recruitment-2026",
+    "b": "Ramagundam Fertilizers and Chemicals Limited (RFCL)",
+    "t": "Ramagundam Fertilizers and Chemicals Limited (RFCL) Recruitment 2026 – Apply for 40 Engineer, Officer, Officer-Secretarial, Assistant Manager, Deputy Manager, Additional CMO, CMO, Accounts Officer, Chief Manager (across Chemical, Mechanical, Electrical, Materials, Transportation, HR, Medical, Finance & Accounts, and IT disciplines) Posts",
+    "d": "27 August 2026",
+    "l": "24 September 2026, 17:00 hrs",
+    "a": "Rectt/01/2026, dated 26.08.2026",
+    "q": "31 July 2026",
+    "desc": "Ramagundam Fertilizers and Chemicals Limited (RFCL) has officially released employment advertisement notification Rectt/01/2026, dated 26.08.2026 for the recruitment of 40 vacancies for Engineer, Officer, Officer-Secretarial, Assistant Manager, Deputy Manager, Additional CMO, CMO, Accounts Officer, Chief Manager (across Chemical, Mechanical, Electrical, Materials, Transportation, HR, Medical, Finance & Accounts, and IT disciplines) posts.",
+    "u": "https://www.rfcl.co.in/upload/Detailed%20Advt%2001_2026.pdf"
+},
+  {
+    "id": "wdcw-mahabubabad-district-icds-anganwadi-teacher-awt-anganwad-recruitment-2026",
+    "b": "WD&CW, Mahabubabad District (ICDS)",
+    "t": "WD&CW, Mahabubabad District (ICDS) Recruitment 2026 – Apply for 231 Anganwadi Teacher (AWT), Anganwadi Helper/Aya (AWH) Posts",
+    "d": "27 August 2026",
+    "l": "03.09.2026 (up to 5:00 PM)",
+    "a": "WDCW-MAHABUBAB/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "WD&CW, Mahabubabad District (ICDS) has officially released employment advertisement notification WDCW-MAHABUBAB/2026 for the recruitment of 231 vacancies for Anganwadi Teacher (AWT), Anganwadi Helper/Aya (AWH) posts.",
+    "u": "https://mis.tgwdcw.in/AWTNotification2026/MAHABUBABAD_NOTIFICATION_26.08.2026.pdf"
+},
+  {
+    "id": "vochidambaranar-port-authority-visiting-consultant-super-spec-recruitment-2026",
+    "b": "V.O.Chidambaranar Port Authority (VOCPA)",
+    "t": "V.O.Chidambaranar Port Authority (VOCPA) Recruitment 2026 – Apply for 1 Visiting Consultant Super Specialist (Medical Oncologist) Posts",
+    "d": "27 August 2026",
+    "l": "01 September 2026",
+    "a": "No.MED-MEDOOMISC(MISC)/5/2026-Medical/D.",
+    "q": "M.D., DM (Medical Oncology)",
+    "desc": "V.O.Chidambaranar Port Authority (VOCPA) has officially released employment advertisement notification No.MED-MEDOOMISC(MISC)/5/2026-Medical/D. for the recruitment of 1 vacancies for Visiting Consultant Super Specialist (Medical Oncologist) posts.",
+    "u": "https://www.vocport.gov.in/"
+},
+  {
+    "id": "tamil-nadu-agricultural-univer-young-professional-i-senior-re-recruitment-2026",
+    "b": "Tamil Nadu Agricultural University (TNAU)",
+    "t": "Tamil Nadu Agricultural University (TNAU) Recruitment 2026 – Apply for 12 Young Professional I, Senior Research Fellow, Junior Research Fellow, Technical Assistant (Field) Posts",
+    "d": "27 August 2026",
+    "l": "28 August 2026",
+    "a": "TAMIL-NADU-AGR/2026",
+    "q": "Four year Bachelor's Degree B.Sc. (Agriculture), M.Sc. (Agri.) in Plant Patho...",
+    "desc": "Tamil Nadu Agricultural University (TNAU) has officially released employment advertisement notification TAMIL-NADU-AGR/2026 for the recruitment of 12 vacancies for Young Professional I, Senior Research Fellow, Junior Research Fellow, Technical Assistant (Field) posts.",
+    "u": "https://tnau.ac.in/site/csw/job-opportunities/"
+},
+  {
     "id": "chennai-port-authority-superintending-engineer-civil-recruitment-2026",
     "b": "Chennai Port Authority",
     "t": "Chennai Port Authority Recruitment 2026 – Apply for 2 Superintending Engineer (Civil) Posts",
