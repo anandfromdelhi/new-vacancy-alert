@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-railway-finance-corpora-head-of-internal-audit-hia-recruitment-2026",
+    "b": "Indian Railway Finance Corporation (IRFC)",
+    "t": "Indian Railway Finance Corporation (IRFC) Recruitment 2026 – Apply for 1 Head of Internal Audit (HIA) Posts",
+    "d": "27 August 2026",
+    "l": "30 September 2026",
+    "a": "03/2026",
+    "q": "Chartered Accountant or Cost Accountant or full-time MBA/PGDM Course having s...",
+    "desc": "Indian Railway Finance Corporation (IRFC) has officially released employment advertisement notification 03/2026 for the recruitment of 1 vacancies for Head of Internal Audit (HIA) posts.",
+    "u": "https://irfc.co.in/sites/default/files/2026-08/HIA-AD-Final.pdf"
+},
+  {
+    "id": "icar-indian-agricultural-resea-senior-research-fellow-and-you-recruitment-2026",
+    "b": "ICAR-Indian Agricultural Research Institute",
+    "t": "ICAR-Indian Agricultural Research Institute Recruitment 2026 – Apply for 3 Senior Research Fellow and Young Professional-I Posts",
+    "d": "27 August 2026",
+    "l": "22 September 2026",
+    "a": "ICAR-INDIAN-AG/2026",
+    "q": "Master’s degree in Genetics/Plant Breeding/Genetics and Plant Breeding/Biotec...",
+    "desc": "ICAR-Indian Agricultural Research Institute has officially released employment advertisement notification ICAR-INDIAN-AG/2026 for the recruitment of 3 vacancies for Senior Research Fellow and Young Professional-I posts.",
+    "u": "https://iari.res.in/files/jobs/Senior_Research_25082026.pdf"
+},
+  {
+    "id": "karmayogi-bharat-aiml-chatbot-ai-dashboard-deve-recruitment-2026",
+    "b": "Karmayogi Bharat",
+    "t": "Karmayogi Bharat Recruitment 2026 – Apply for 14 AI/ML-Chatbot & AI Dashboard Developer, Mobile App Developer, Project Manager, Senior Technical Support Engineer, Senior Business Analyst, Onboarding and Capacity Building Trainer, Technical Support Engineer Posts",
+    "d": "27 August 2026",
+    "l": "14 September 2026",
+    "a": "KARMAYOGI-BHAR/2026",
+    "q": "Bachelor's Degree in Computer Science / Engineering / Mathematics / or a rela...",
+    "desc": "Karmayogi Bharat has officially released employment advertisement notification KARMAYOGI-BHAR/2026 for the recruitment of 14 vacancies for AI/ML-Chatbot & AI Dashboard Developer, Mobile App Developer, Project Manager, Senior Technical Support Engineer, Senior Business Analyst, Onboarding and Capacity Building Trainer, Technical Support Engineer posts.",
+    "u": "https://karmayogibharat.gov.in"
+},
+  {
+    "id": "national-institute-of-technolo-junior-research-fellow-jrf-recruitment-2026",
+    "b": "National Institute of Technology Raipur",
+    "t": "National Institute of Technology Raipur Recruitment 2026 – Apply for 1 Junior Research Fellow (JRF) Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "NITRR/PHY/2026/345(1)",
+    "q": "Post Graduate Degree in Physics/Electronics/Materials Science/Chemistry Relat...",
+    "desc": "National Institute of Technology Raipur has officially released employment advertisement notification NITRR/PHY/2026/345(1) for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://nitrr.ac.in/others/announcement_docs/1787561384_9752.pdf"
+},
+  {
+    "id": "district-e-governance-society-aadhaar-supervisor-operator-recruitment-2026",
+    "b": "District E Governance Society (DEGS Mungeli)",
+    "t": "District E Governance Society (DEGS Mungeli) Recruitment 2026 – Apply for 9 Aadhaar Supervisor/ Operator Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "DISTRICT-E-GOV/2026",
+    "q": "Higher Secondary (10+2), 1 Year Computer Diploma from recognized institute",
+    "desc": "District E Governance Society (DEGS Mungeli) has officially released employment advertisement notification DISTRICT-E-GOV/2026 for the recruitment of 9 vacancies for Aadhaar Supervisor/ Operator posts.",
+    "u": "https://cdn.s3waas.gov.in/s3051e4e127b92f5d98d3c79b195f2b291/uploads/2026/08/17876527355817.pdf"
+},
+  {
+    "id": "health-department-government-o-senior-resident-tutor-tenure-3-recruitment-2026",
+    "b": "Health Department, Government of Bihar (via BCECEB)",
+    "t": "Health Department, Government of Bihar (via BCECEB) Recruitment 2026 – Apply for 118 Senior Resident / Tutor (Tenure - 3 years) Posts",
+    "d": "27 August 2026",
+    "l": "08.09.2026 (10:00 PM)",
+    "a": "BCECEB/Health(SR)/2026(II)/01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Health Department, Government of Bihar (via BCECEB) has officially released employment advertisement notification BCECEB/Health(SR)/2026(II)/01 for the recruitment of 118 vacancies for Senior Resident / Tutor (Tenure - 3 years) posts.",
+    "u": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_2SR26_01.pdf"
+},
+  {
+    "id": "central-university-of-south-bi-research-associate-i-project-a-recruitment-2026",
+    "b": "Central University of South Bihar (CUSB)",
+    "t": "Central University of South Bihar (CUSB) Recruitment 2026 – Apply for 3 Research Associate-I, Project Associate -1, Scientific Administrative Assistant Posts",
+    "d": "27 August 2026",
+    "l": "10 September 2026",
+    "a": "CUSB/Dev/RP-134/272",
+    "q": "Ph.D. in Bioinformatics/Computational Biology for Research Associate-I; M.Sc....",
+    "desc": "Central University of South Bihar (CUSB) has officially released employment advertisement notification CUSB/Dev/RP-134/272 for the recruitment of 3 vacancies for Research Associate-I, Project Associate -1, Scientific Administrative Assistant posts.",
+    "u": "https://www.cusb.ac.in/index.php?option=com_content&view=article&id=1083:advertisement-for-the-post-of-research-associate-i-01-project-associate-1-01-and-scientific-administrative-assistant-01-under-dbt-funded-project-cusb-rp-134-sanctioned-to-prof-asheesh-shanker-professor-department-of-bioinformatics-cusb&catid=48&Itemid=587"
+},
+  {
+    "id": "rnu-guwahati-stenographer-cg-operator-and-m-recruitment-2026",
+    "b": "RNU Guwahati",
+    "t": "RNU Guwahati Recruitment 2026 – Apply for 1 Stenographer, CG Operator and More Posts",
+    "d": "27 August 2026",
+    "l": "Within one month from the date of publication of the notification on the website (exact calendar date not separately specified in the notification)",
+    "a": "RNU/GUW/CE/26-27",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "RNU Guwahati has officially released employment advertisement notification RNU/GUW/CE/26-27 for the recruitment of 1 vacancies for Stenographer, CG Operator and More posts.",
+    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/08/Notification_Adv_RNU_Guwahati.pdf"
+},
+  {
+    "id": "rajiv-gandhi-university-rgu-crs-project-fellow-junior-i-recruitment-2026",
+    "b": "Rajiv Gandhi University (RGU)",
+    "t": "Rajiv Gandhi University (RGU) Recruitment 2026 – Apply for 1 CRS Project Fellow (Junior)-I Posts",
+    "d": "27 August 2026",
+    "l": "30 August 2026",
+    "a": "RGU/PC/UGC-DAE(III)/687/Md.HR/2026",
+    "q": "MSc in Chemistry with minimum 55% marks (not earlier than 3 years)",
+    "desc": "Rajiv Gandhi University (RGU) has officially released employment advertisement notification RGU/PC/UGC-DAE(III)/687/Md.HR/2026 for the recruitment of 1 vacancies for CRS Project Fellow (Junior)-I posts.",
+    "u": "https://rgu.ac.in/uploads/notices/002.%20Advertisement%20for%20CRS%20Project%20Fellow-I.pdf"
+},
+  {
+    "id": "apsp-rajamahendravaram-record-assistant-office-subord-recruitment-2026",
+    "b": "APSP Rajamahendravaram",
+    "t": "APSP Rajamahendravaram Recruitment 2026 – Apply for 37 Record Assistant, Office Subordinate & More Posts",
+    "d": "27 August 2026",
+    "l": "05.09.2026, 5:00 PM",
+    "a": "APSP-RAJAMAHEN/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "APSP Rajamahendravaram has officially released employment advertisement notification APSP-RAJAMAHEN/2026 for the recruitment of 37 vacancies for Record Assistant, Office Subordinate & More posts.",
+    "u": "https://cdn.s3waas.gov.in/s36f3ef77ac0e3619e98159e9b6febf557/uploads/2026/08/17876527301408.pdf"
+},
+  {
     "id": "all-india-institute-of-medical-senior-resident-non-academic-s-recruitment-2026",
     "b": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY",
     "t": "All India Institute of Medical Sciences (AIIMS), Kalyani, West Bengal - a statutory body under the Ministry of Health & Family Welfare, GOI, established under PMSSY Recruitment 2026 – Apply for 51 Senior Resident (Non-Academic); Senior Demonstrator (Anatomy, Physiology, Biochemistry & Biostatistics only) Posts",
