@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "odisha-adarsha-vidyalaya-titia-support-staff-for-boys-hostel-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Titia",
+    "t": "Odisha Adarsha Vidyalaya Titia Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
+    "d": "27 August 2026",
+    "l": "12 September 2026",
+    "a": "315/OAV TITIA/2026",
+    "q": "HSC, B.A./B.Sc.",
+    "desc": "Odisha Adarsha Vidyalaya Titia has officially released employment advertisement notification 315/OAV TITIA/2026 for the recruitment of 5 vacancies for Support Staff for Boys' Hostel posts.",
+    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20GBNagar.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-junior-research-fellow-project-recruitment-2026",
+    "b": "National Institute of Technology Nagaland",
+    "t": "National Institute of Technology Nagaland Recruitment 2026 – Apply for 3 Junior Research Fellow, Project Associate Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "NIT-N/Advt./CSE/JRF/003/2026",
+    "q": "M.E./M.Tech or equivalent in Computer Science/IT/ECE/EEE/Electronics Engineer...",
+    "desc": "National Institute of Technology Nagaland has officially released employment advertisement notification NIT-N/Advt./CSE/JRF/003/2026 for the recruitment of 3 vacancies for Junior Research Fellow, Project Associate posts.",
+    "u": "https://www.nitnagaland.ac.in/templates/g5_helium/PDF/RECRUITMENT/Advt._NITN_CSE_%20JRF_ANRF-IRG%20-2026.pdf"
+},
+  {
+    "id": "central-agricultural-universit-professor-vegetable-science-recruitment-2026",
+    "b": "Central Agricultural University Imphal",
+    "t": "Central Agricultural University Imphal Recruitment 2026 – Apply for 1 Professor (Vegetable Science) Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "CAU/Reg/126/Apptt-A/98/(Pt.)/2885",
+    "q": "Ph.D. in Vegetable Science with 10 years experience as Professor at Pay Level...",
+    "desc": "Central Agricultural University Imphal has officially released employment advertisement notification CAU/Reg/126/Apptt-A/98/(Pt.)/2885 for the recruitment of 1 vacancies for Professor (Vegetable Science) posts.",
+    "u": "https://cau.ac.in/advertisement-for-engagement-of-1-professor-vegetable-science-and-1-consultant-finance/"
+},
+  {
+    "id": "mahatma-phule-krishi-vidyapeet-assistant-professor-recruitment-2026",
+    "b": "Mahatma Phule Krishi Vidyapeeth (MPKV)",
+    "t": "Mahatma Phule Krishi Vidyapeeth (MPKV) Recruitment 2026 – Apply for 5 Assistant Professor Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "MAHATMA-PHULE-/2026",
+    "q": "Ph.D. or Master's degree",
+    "desc": "Mahatma Phule Krishi Vidyapeeth (MPKV) has officially released employment advertisement notification MAHATMA-PHULE-/2026 for the recruitment of 5 vacancies for Assistant Professor posts.",
+    "u": "https://mpkv.ac.in/Uploads/AKMU/20260817_153412_bb3bfada81eb3b946e4a02f44a8f9442.pdf"
+},
+  {
+    "id": "sanjay-gandhi-national-park-bo-e-buggy-driver-recruitment-2026",
+    "b": "Sanjay Gandhi National Park Borivali (SGNP Borivali)",
+    "t": "Sanjay Gandhi National Park Borivali (SGNP Borivali) Recruitment 2026 – Apply for 1 E Buggy Driver Posts",
+    "d": "27 August 2026",
+    "l": "09 September 2026",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "Valid Driving Licence",
+    "desc": "Sanjay Gandhi National Park Borivali (SGNP Borivali) has officially released employment advertisement notification SANJAY-GANDHI-/2026 for the recruitment of 1 vacancies for E Buggy Driver posts.",
+    "u": "https://mahaforest.gov.in/writereaddata/fckimagefile/Buggy%20Driver%20Ad_0001.pdf"
+},
+  {
+    "id": "indian-institute-of-management-junior-executive-recruitment-2026",
+    "b": "Indian Institute of Management Nagpur (IIM Nagpur)",
+    "t": "Indian Institute of Management Nagpur (IIM Nagpur) Recruitment 2026 – Apply for 1 Junior Executive Posts",
+    "d": "27 August 2026",
+    "l": "08 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Graduation in any discipline with first class or its equivalent grade.",
+    "desc": "Indian Institute of Management Nagpur (IIM Nagpur) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Junior Executive posts.",
+    "u": "https://www.iimnagpur.ac.in/junior-executive-regular-obc/"
+},
+  {
+    "id": "manganese-ore-india-moil-chief-general-manager-personne-recruitment-2026",
+    "b": "Manganese Ore India (MOIL)",
+    "t": "Manganese Ore India (MOIL) Recruitment 2026 – Apply for 1 Chief General Manager (Personnel) Posts",
+    "d": "27 August 2026",
+    "l": "17 September 2026",
+    "a": "CGM(P)/08/2026",
+    "q": "PG Degree in Social Work with specialization in Labour Welfare, Personnel Man...",
+    "desc": "Manganese Ore India (MOIL) has officially released employment advertisement notification CGM(P)/08/2026 for the recruitment of 1 vacancies for Chief General Manager (Personnel) posts.",
+    "u": "https://www.moil.nic.in"
+},
+  {
+    "id": "maulana-azad-national-institut-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal)",
+    "t": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) Recruitment 2026 – Apply for 1 Junior Research Fellow (JRF) Posts",
+    "d": "27 August 2026",
+    "l": "15 September 2026",
+    "a": "ARMREB/ASE/2025/327 dated 03/12/2025",
+    "q": "B.E./B.Tech in Any field of Engineering with valid Gate Score, M.E./M.Tech/M....",
+    "desc": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) has officially released employment advertisement notification ARMREB/ASE/2025/327 dated 03/12/2025 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.manit.ac.in/sites/default/files/documents/DRDO_Project_JRF_Advertisement.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-project-technical-support-iii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS) Recruitment 2026 – Apply for 1 Project Technical Support - III Posts",
+    "d": "27 August 2026",
+    "l": "11:30 AM",
+    "a": "AIIMS Bhopal/ PSY/ 2026/433",
+    "q": "Graduate in relevant subject/field with three years' experience OR PG degree ...",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS) has officially released employment advertisement notification AIIMS Bhopal/ PSY/ 2026/433 for the recruitment of 1 vacancies for Project Technical Support - III posts.",
+    "u": "https://aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Advertisement_staff_ICMR_PRIME_HelP_Dr_Snehil_Gupta_24082026.pdf"
+},
+  {
+    "id": "istc-age-limit-recruitment-2026",
+    "b": "ISTC",
+    "t": "ISTC Recruitment 2026 – Apply for 1 Age Limit Posts",
+    "d": "27 August 2026",
+    "l": "18 September 2026",
+    "a": "ISTC/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "ISTC has officially released employment advertisement notification ISTC/2026 for the recruitment of 1 vacancies for Age Limit posts.",
+    "u": "https://cochinshipyard.in/uploads/career/cd5346e2da18d06f6905eb292e8ce195.pdf"
+},
+  {
     "id": "cochin-port-authority-class-i-posts-recruitment-2026",
     "b": "Cochin Port Authority",
     "t": "Cochin Port Authority Recruitment 2026 – Apply for 6 Class-I Posts Posts",
