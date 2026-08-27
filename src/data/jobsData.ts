@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "cochin-port-authority-class-i-posts-recruitment-2026",
+    "b": "Cochin Port Authority",
+    "t": "Cochin Port Authority Recruitment 2026 – Apply for 6 Class-I Posts Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "A9/DR/CI.I & II/2025-S",
+    "q": "Degree in Economics/Statistics/Mathematics for Dy. Director (Research); MOT 1...",
+    "desc": "Cochin Port Authority has officially released employment advertisement notification A9/DR/CI.I & II/2025-S for the recruitment of 6 vacancies for Class-I Posts posts.",
+    "u": "https://cochinport.gov.in/uploads/tenders_attachments/career_1189_1785473628_711.pdf"
+},
+  {
+    "id": "cochin-university-of-science-a-course-in-charge-recruitment-2026",
+    "b": "Cochin University of Science and Technology (CUSAT)",
+    "t": "Cochin University of Science and Technology (CUSAT) Recruitment 2026 – Apply for 1 Course in Charge Posts",
+    "d": "27 August 2026",
+    "l": "15 September 2026",
+    "a": "Ad.F1/Notification of Contract Teachers/2012 (I)",
+    "q": "B.Tech in Marine/Mechanical Engineering/ Naval Architecture / Extra First Cla...",
+    "desc": "Cochin University of Science and Technology (CUSAT) has officially released employment advertisement notification Ad.F1/Notification of Contract Teachers/2012 (I) for the recruitment of 1 vacancies for Course in Charge posts.",
+    "u": "https://recruit.cusat.ac.in/files/NOTIFICATION_479.pdf"
+},
+  {
+    "id": "centre-for-management-developm-training-coordinator-recruitment-2026",
+    "b": "Centre for Management Development Kerala (CMD Kerala)",
+    "t": "Centre for Management Development Kerala (CMD Kerala) Recruitment 2026 – Apply for 1 Training Coordinator Posts",
+    "d": "27 August 2026",
+    "l": "9 September 2026",
+    "a": "CMD/AB/02/2026",
+    "q": "B. Tech in Food Technology, Full-Time MBA in Marketing from a recognized Inst...",
+    "desc": "Centre for Management Development Kerala (CMD Kerala) has officially released employment advertisement notification CMD/AB/02/2026 for the recruitment of 1 vacancies for Training Coordinator posts.",
+    "u": "https://cmd.kerala.gov.in/wp-content/uploads/2026/08/Training-Coordinator-Notification.pdf"
+},
+  {
+    "id": "india-ship-technology-centre-i-chief-executive-officer-ceo-recruitment-2026",
+    "b": "India Ship Technology Centre (ISTC)",
+    "t": "India Ship Technology Centre (ISTC) Recruitment 2026 – Apply for 1 Chief Executive Officer (CEO) Posts",
+    "d": "27 August 2026",
+    "l": "18 September 2026",
+    "a": "ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A)",
+    "q": "Degree in Naval Architecture Engineering/Marine Engineering/Ocean Engineering...",
+    "desc": "India Ship Technology Centre (ISTC) has officially released employment advertisement notification ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A) for the recruitment of 1 vacancies for Chief Executive Officer (CEO) posts.",
+    "u": "https://cochinshipyard.in/uploads/career/6961e237ed7cdf161777db34e98c0109.pdf"
+},
+  {
+    "id": "birla-institute-of-technology-visiting-faculty-sr-instructor-recruitment-2026",
+    "b": "Birla Institute of Technology And Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology And Science Pilani (BITS Pilani) Recruitment 2026 – Apply for 6 Visiting Faculty / Sr. Instructor / Instructor Posts",
+    "d": "27 August 2026",
+    "l": "31 August 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Ph.D. in Mechanical/Electrical/Robotics/Mechatronics/related, Ph.D. in Mechan...",
+    "desc": "Birla Institute of Technology And Science Pilani (BITS Pilani) has officially released employment advertisement notification BIRLA-INSTITUT/2026 for the recruitment of 6 vacancies for Visiting Faculty / Sr. Instructor / Instructor posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Teaching-Recruitment-Notification_SMCC-WILP_Bengaluru-30-07-2026.pdf"
+},
+  {
+    "id": "canara-bank-securities-limited-avp-operations-cs-compliance-o-recruitment-2026",
+    "b": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL",
+    "t": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL Recruitment 2026 – Apply for 10 AVP Operations; CS & Compliance Officer; Assistant Manager/Officer/Junior Officer on Contract (DP Back Office Operations, Risk Management, Compliance, Institutional Dealer, Research) Posts",
+    "d": "27 August 2026",
+    "l": "15 September 2026, till 6:00 PM",
+    "a": "CANARA-BANK-SE/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL has officially released employment advertisement notification CANARA-BANK-SE/2026 for the recruitment of 10 vacancies for AVP Operations; CS & Compliance Officer; Assistant Manager/Officer/Junior Officer on Contract (DP Back Office Operations, Risk Management, Compliance, Institutional Dealer, Research) posts.",
+    "u": "https://www.canmoney.in/pdf/Vacancy/NOTIFICATION%20OF%20GENERAL%20AND%20SPECIAL%20RECRUITMENT.pdf"
+},
+  {
+    "id": "national-rural-livelihood-miss-cluster-supervisor-skill-block-recruitment-2026",
+    "b": "National Rural Livelihood Mission Karnataka (NRLM Karnataka)",
+    "t": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) Recruitment 2026 – Apply for 6 Cluster Supervisor - Skill, Block Manager - Farm Livelihoods, Block Manager - Non-Farm Livelihood, Taluk Program Manager, District Manager (Institutional & Capacity Building, Social Inclusion & Social Development) Posts",
+    "d": "27 August 2026",
+    "l": "7 September 2026",
+    "a": "NATIONAL-RURAL/2026",
+    "q": "Any Graduation, M.Sc, B.Sc, PG Diploma, MSW/ MBA",
+    "desc": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) has officially released employment advertisement notification NATIONAL-RURAL/2026 for the recruitment of 6 vacancies for Cluster Supervisor - Skill, Block Manager - Farm Livelihoods, Block Manager - Non-Farm Livelihood, Taluk Program Manager, District Manager (Institutional & Capacity Building, Social Inclusion & Social Development) posts.",
+    "u": "https://jobsksrlps.karnataka.gov.in/"
+},
+  {
+    "id": "samagra-shiksha-karnataka-mental-health-academic-resourc-recruitment-2026",
+    "b": "Samagra Shiksha Karnataka",
+    "t": "Samagra Shiksha Karnataka Recruitment 2026 – Apply for 7 Mental Health Academic Resource Person (MH ARP) Posts",
+    "d": "27 August 2026",
+    "l": "2 September 2026",
+    "a": "SAMAGRA-SHIKSH/2026",
+    "q": "M.A/ M.Sc in Psychology, Clinical Psychology, Counselling Psychology",
+    "desc": "Samagra Shiksha Karnataka has officially released employment advertisement notification SAMAGRA-SHIKSH/2026 for the recruitment of 7 vacancies for Mental Health Academic Resource Person (MH ARP) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d5cfead94f5350c12c322b5b664544c1/uploads/2026/08/17876610673319.pdf"
+},
+  {
+    "id": "jawaharlal-nehru-centre-for-ad-arf-instrument-scientist-recruitment-2026",
+    "b": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR)",
+    "t": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) Recruitment 2026 – Apply for 1 ARF Instrument Scientist Posts",
+    "d": "27 August 2026",
+    "l": "07 September 2026",
+    "a": "JNC/AO/Advt",
+    "q": "PhD in Physics/Chemistry",
+    "desc": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) has officially released employment advertisement notification JNC/AO/Advt for the recruitment of 1 vacancies for ARF Instrument Scientist posts.",
+    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-08/Advertisement%20-%20Single%20Cystal%20X-Ray%20facility.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-technical-support-staff-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu (IIT Jammu)",
+    "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 – Apply for 1 Technical Support Staff Posts",
+    "d": "27 August 2026",
+    "l": "04 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Diploma or degree or ITI in electrical or IT or computer applications",
+    "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Technical Support Staff posts.",
+    "u": "https://www.iitjammu.ac.in/Advertisements/Contract/2026/Outsource%20HR-74.pdf"
+},
+  {
     "id": "himachal-pradesh-public-servic-tehsildar-bdo-and-more-recruitment-2026",
     "b": "Himachal Pradesh Public Service Commission (HPPSC)",
     "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 – Apply for 5 Tehsildar, BDO and More Posts",
