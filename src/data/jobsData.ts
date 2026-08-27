@@ -597,12 +597,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "national-informatics-centre-ni-scientifictechnical-assistant-recruitment-2026",
     "b": "National Informatics Centre (NIC)",
-    "t": "National Informatics Centre (NIC) Recruitment 2026 – Apply for 376 Scientific/Technical Assistant-A Posts",
-    "d": "27 August 2026",
-    "l": "30.09.2026 (05:30 PM)",
+    "t": "National Informatics Centre (NIC) Recruitment 2026 – Apply Online for 376 Scientific/Technical Assistant-A Posts via GATE",
+    "d": "26 August 2026",
+    "l": "30 September 2026",
     "a": "NIC/STA/2026/2",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "National Informatics Centre (NIC) has officially released employment advertisement notification NIC/STA/2026/2 for the recruitment of 376 vacancies for Scientific/Technical Assistant-A posts.",
+    "q": "B.E / B.Tech / M.Sc / MS / MCA (CS / IT / ECE / Data Science) + Valid GATE (CS / EC / DA)",
+    "desc": "National Informatics Centre (NIC), Ministry of Electronics and Information Technology (MeitY) has officially released employment advertisement notification NIC/STA/2026/2 for direct recruitment to 376 vacancies for Scientific/Technical Assistant-A posts based on valid GATE scores (2024/2025/2026).",
     "u": "https://recruitment.nic.in/DetailedSTA.pdf"
 },
   {
