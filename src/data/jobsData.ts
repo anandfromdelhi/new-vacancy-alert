@@ -586,12 +586,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "national-health-mission-nhm-di-staff-nurse-support-staff-and-recruitment-2026",
     "b": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa",
-    "t": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa Recruitment 2026 – Apply for 28 Staff Nurse, Support Staff and More Posts",
-    "d": "27 August 2026",
+    "t": "NHM Goa Recruitment 2026 – Apply Online for 135 CHO, Medical Officer, Staff Nurse, Pharmacist & More Posts",
+    "d": "26 August 2026",
     "l": "18 September 2026",
-    "a": "DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 dated 26/08/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa has officially released employment advertisement notification DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 dated 26/08/2026 for the recruitment of 28 vacancies for Staff Nurse, Support Staff and More posts.",
+    "a": "DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537",
+    "q": "8th / 10th / 12th / GNM / B.Sc Nursing / DMLT / B.Pharm / B.Com / B.Sc / MCA / MBBS / MD",
+    "desc": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa has officially released employment advertisement notification DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 for the recruitment of 135 vacancies for CHO, Medical Officer, Staff Nurse, Pharmacist, Support Staff and various posts.",
     "u": "https://nhm.goa.gov.in/wp-content/uploads/2026/08/Advertisement-26-08-2026-1537-2026-27-1.pdf"
 },
   {
