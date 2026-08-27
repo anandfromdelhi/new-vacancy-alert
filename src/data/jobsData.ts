@@ -146,12 +146,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "wdcw-mahabubabad-district-icds-anganwadi-teacher-awt-anganwad-recruitment-2026",
     "b": "WD&CW, Mahabubabad District (ICDS)",
-    "t": "WD&CW, Mahabubabad District (ICDS) Recruitment 2026 – Apply for 231 Anganwadi Teacher (AWT), Anganwadi Helper/Aya (AWH) Posts",
-    "d": "27 August 2026",
-    "l": "03.09.2026 (up to 5:00 PM)",
-    "a": "WDCW-MAHABUBAB/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "WD&CW, Mahabubabad District (ICDS) has officially released employment advertisement notification WDCW-MAHABUBAB/2026 for the recruitment of 231 vacancies for Anganwadi Teacher (AWT), Anganwadi Helper/Aya (AWH) posts.",
+    "t": "WDCW Mahabubabad Recruitment 2026 – Apply Online for 231 Anganwadi Teacher & Helper Posts",
+    "d": "25 August 2026",
+    "l": "03 September 2026",
+    "a": "A2/ICDS/137-1/2026 to A2/ICDS/137-5/2026",
+    "q": "10th (SSC) / 12th (Intermediate) Pass (Local Resident Women Only)",
+    "desc": "Department of Women Development & Child Welfare (WDCW), Mahabubabad District, Telangana has officially released employment notifications A2/ICDS/137-1/2026 to A2/ICDS/137-5/2026 for the recruitment of 231 vacancies for Anganwadi Teachers and Anganwadi Helpers across Dornakal, Gudur, Mahabubabad, Maripeda, and Thorrur ICDS Projects.",
     "u": "https://mis.tgwdcw.in/AWTNotification2026/MAHABUBABAD_NOTIFICATION_26.08.2026.pdf"
 },
   {
