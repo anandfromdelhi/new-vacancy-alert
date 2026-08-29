@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "zilla-panchayat-raichur-clerk-cum-deo-and-tax-collecto-recruitment-2026",
+    "b": "Zilla Panchayat Raichur",
+    "t": "Zilla Panchayat Raichur Recruitment 2026 – Apply for 65 Clerk-cum-DEO and Tax Collector Posts",
+    "d": "29 August 2026",
+    "l": "03.09.2026",
+    "a": "JPNR/Staff-3/DEO/E-63979/2026-27 (Clerk-cum-DEO); JPNR/Staff-3/BC/E-62048/2026-27 (Tax Collector)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Zilla Panchayat Raichur has officially released employment advertisement notification JPNR/Staff-3/DEO/E-63979/2026-27 (Clerk-cum-DEO); JPNR/Staff-3/BC/E-62048/2026-27 (Tax Collector) for the recruitment of 65 vacancies for Clerk-cum-DEO and Tax Collector posts.",
+    "u": "https://sevasindhuservices.karnataka.gov.in/error.do"
+},
+  {
+    "id": "bharat-earth-movers-beml-officer-gr-ii-safety-recruitment-2026",
+    "b": "Bharat Earth Movers (BEML)",
+    "t": "Bharat Earth Movers (BEML) Recruitment 2026 – Apply for 5 Officer (Gr II), Safety Posts",
+    "d": "29 August 2026",
+    "l": "02 September 2026",
+    "a": "KP/S/13/2026",
+    "q": "Diploma in Industrial Safety through Regional Labour Institute/Central Labour...",
+    "desc": "Bharat Earth Movers (BEML) has officially released employment advertisement notification KP/S/13/2026 for the recruitment of 5 vacancies for Officer (Gr II), Safety posts.",
+    "u": "https://bemlindia.in/wp-content/plugins/career/WCP/DATA//Writereaddata/Career/KP_S_13_2026.pdf"
+},
+  {
+    "id": "district-health-and-family-wel-junior-laboratory-technical-of-recruitment-2026",
+    "b": "District Health and Family Welfare Office Chikkaballapur",
+    "t": "District Health and Family Welfare Office Chikkaballapur Recruitment 2026 – Apply for 45 Junior Laboratory Technical Officer, Pharmacy Officer, Nursing Officer Posts",
+    "d": "29 August 2026",
+    "l": "03 September 2026",
+    "a": "DAPRE/CHIPUR/SARAB/04/2024-25 (E-Office No: 68645)",
+    "q": "DMLT, D.Pharm with Karnataka Pharmacy Council Registration, Nursing with Karn...",
+    "desc": "District Health and Family Welfare Office Chikkaballapur has officially released employment advertisement notification DAPRE/CHIPUR/SARAB/04/2024-25 (E-Office No: 68645) for the recruitment of 45 vacancies for Junior Laboratory Technical Officer, Pharmacy Officer, Nursing Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s35751ec3e9a4feab575962e78e006250d/uploads/2026/08/17875579983436.pdf"
+},
+  {
+    "id": "defence-bioengineering-and-ele-junior-research-fellow-recruitment-2026",
+    "b": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL)",
+    "t": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL) Recruitment 2026 – Apply for 2 Junior Research Fellow Posts",
+    "d": "29 August 2026",
+    "l": "18 September 2026",
+    "a": "DEBEL/ HRD/ 1/ JRF-1/ 2026",
+    "q": "BE/ BTech or ME/ MTech in Mechanical Engineering with 1st Division and valid ...",
+    "desc": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL) has officially released employment advertisement notification DEBEL/ HRD/ 1/ JRF-1/ 2026 for the recruitment of 2 vacancies for Junior Research Fellow posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDEBEL27082026.pdf"
+},
+  {
+    "id": "regional-news-unit-doordarshan-casual-assignee-recruitment-2026",
+    "b": "Regional News Unit Doordarshan Kendra Bengaluru",
+    "t": "Regional News Unit Doordarshan Kendra Bengaluru Recruitment 2026 – Apply for 4 Casual Assignee Posts",
+    "d": "29 August 2026",
+    "l": "09 September 2026",
+    "a": "REGIONAL-NEWS-/2026",
+    "q": "Degree from a recognized university, Degree/Diploma in Journalism/Mass Commun...",
+    "desc": "Regional News Unit Doordarshan Kendra Bengaluru has officially released employment advertisement notification REGIONAL-NEWS-/2026 for the recruitment of 4 vacancies for Casual Assignee posts.",
+    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/08/Empanelment-of-Casual-Assignees.pdf"
+},
+  {
+    "id": "karnataka-public-service-commi-audit-officer-group-b-hyderaba-recruitment-2026",
+    "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560001",
+    "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560001 Recruitment 2026 – Apply for 15 Audit Officer, Group 'B' (Hyderabad-Karnataka Cadre) Posts",
+    "d": "29 August 2026",
+    "l": "26 September 2026",
+    "a": "KPSCKA/EXA2/PRSL/11/2026-EXAM2/252",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560001 has officially released employment advertisement notification KPSCKA/EXA2/PRSL/11/2026-EXAM2/252 for the recruitment of 15 vacancies for Audit Officer, Group 'B' (Hyderabad-Karnataka Cadre) posts.",
+    "u": "https://kpsc.kar.nic.in/SAAD%20HK%20Notification%20dt%2027-08-2026.pdf"
+},
+  {
+    "id": "isro-icrb-scientistengineer-scientistengineer-sc-electroni-recruitment-2026",
+    "b": "ISRO ICRB Scientist/Engineer",
+    "t": "ISRO ICRB Scientist/Engineer Recruitment 2026 – Apply for 175 Scientist/Engineer 'SC' (Electronics, Mechanical, Computer Science) Posts",
+    "d": "29 August 2026",
+    "l": "16-09-2026 (11:55 PM)",
+    "a": "ISRO:ICRB:03(EMC):2026 dated 27-08-2026",
+    "q": "BE/B.Tech or equivalent in Electronics & Communication / Mechanical / Compute...",
+    "desc": "ISRO ICRB Scientist/Engineer has officially released employment advertisement notification ISRO:ICRB:03(EMC):2026 dated 27-08-2026 for the recruitment of 175 vacancies for Scientist/Engineer 'SC' (Electronics, Mechanical, Computer Science) posts.",
+    "u": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Bilingual_Advertisement_27082026.pdf"
+},
+  {
+    "id": "principal-district-and-session-peon-sevaka-attender-class-ivg-recruitment-2026",
+    "b": "Principal District and Sessions Court, Hassan, Karnataka",
+    "t": "Principal District and Sessions Court, Hassan, Karnataka Recruitment 2026 – Apply for 48 Peon / Sevaka (Attender), Class-IV/Group-D Posts",
+    "d": "29 August 2026",
+    "l": "17 September 2026, 11:59 PM",
+    "a": "Administration/01/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Principal District and Sessions Court, Hassan, Karnataka has officially released employment advertisement notification Administration/01/2026 for the recruitment of 48 vacancies for Peon / Sevaka (Attender), Class-IV/Group-D posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec01bbb001ba009ed11717eaec9305b2/uploads/2026/08/2026081979.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology (ISM) Dhanbad",
+    "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 – Apply for 1 Junior Research Fellow Posts",
+    "d": "29 August 2026",
+    "l": "31 August 2026",
+    "a": "SRDP 1352 G",
+    "q": "M.E./M.Tech/ M.S/ Integrated M.Tech. or B.E/B.Tech. in Metallurgical /Chemica...",
+    "desc": "Indian Institute of Technology (ISM) Dhanbad has officially released employment advertisement notification SRDP 1352 G for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1373/Project%20JRF_2026-08-15_18-38-56.pdf"
+},
+  {
+    "id": "gurugram-university-research-assistant-recruitment-2026",
+    "b": "Gurugram University",
+    "t": "Gurugram University Recruitment 2026 – Apply for 1 Research Assistant Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "GUG/Pharm/2026/512",
+    "q": "First class M. Pharm. (Pharmaceutical Chemistry); Minimum 60% marks or equiva...",
+    "desc": "Gurugram University has officially released employment advertisement notification GUG/Pharm/2026/512 for the recruitment of 1 vacancies for Research Assistant posts.",
+    "u": "https://gurugramuniversity.ac.in/Notice/Advertisement%20for%20research%20assistant.pdf"
+},
+  {
     "id": "gujarat-alkalies-and-chemicals-iti-diploma-graduate-engineer-recruitment-2026",
     "b": "Gujarat Alkalies and Chemicals Limited (GACL)",
     "t": "Gujarat Alkalies and Chemicals Limited (GACL) Recruitment 2026 – Apply for 1 ITI, Diploma & Graduate Engineer Apprentice Posts",
