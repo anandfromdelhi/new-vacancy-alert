@@ -299,13 +299,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "machine-tool-prototype-factory-fitter-turner-and-more-recruitment-2026",
-    "b": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence",
-    "t": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence Recruitment 2026 – Apply for 162 Fitter, Turner and More Posts",
+    "b": "Machine Tool Prototype Factory (MTPF), Ambarnath – Unit of AVNL, Ministry of Defence",
+    "t": "Machine Tool Prototype Factory (MTPF) Ambarnath Recruitment 2026 – Apply Offline for 162 Trade Apprentice Posts (61st Batch)",
     "d": "29 August 2026",
-    "l": "27 September 2026*",
-    "a": "MACHINE-TOOL-P/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence has officially released employment advertisement notification MACHINE-TOOL-P/2026 for the recruitment of 162 vacancies for Fitter, Turner and More posts.",
+    "l": "01 September 2026 / 21 Days from Advt",
+    "a": "MTPF/61st Batch/Trade Apprentice/2026",
+    "q": "10th (Madhyamik min 50%) for Non-ITI | 10th + ITI in relevant trade for Ex-ITI",
+    "desc": "Machine Tool Prototype Factory (MTPF), Ambarnath, a premier unit of Armoured Vehicles Nigam Limited (AVNL), Government of India Enterprise under the Ministry of Defence, has officially invited applications from eligible Indian citizens for engagement of the 61st Batch of 162 Trade Apprentices (Non-ITI: 83, Ex-ITI: 79) under the Apprentices Act 1961.",
     "u": "https://avnl.co.in"
 },
   {
