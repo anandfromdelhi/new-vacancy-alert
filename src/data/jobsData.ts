@@ -409,14 +409,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "isro-icrb-scientistengineer-scientistengineer-sc-electroni-recruitment-2026",
-    "b": "ISRO ICRB Scientist/Engineer",
-    "t": "ISRO ICRB Scientist/Engineer Recruitment 2026 – Apply for 175 Scientist/Engineer 'SC' (Electronics, Mechanical, Computer Science) Posts",
-    "d": "29 August 2026",
-    "l": "16-09-2026 (11:55 PM)",
+    "b": "Indian Space Research Organisation (ISRO) – ISRO Centralised Recruitment Board (ICRB)",
+    "t": "ISRO ICRB Scientist/Engineer 'SC' Recruitment 2026 – Apply Online for 175 Posts in Electronics, Mechanical & Computer Science",
+    "d": "27 August 2026",
+    "l": "16 September 2026 (11:55 PM)",
     "a": "ISRO:ICRB:03(EMC):2026 dated 27-08-2026",
-    "q": "BE/B.Tech or equivalent in Electronics & Communication / Mechanical / Compute...",
-    "desc": "ISRO ICRB Scientist/Engineer has officially released employment advertisement notification ISRO:ICRB:03(EMC):2026 dated 27-08-2026 for the recruitment of 175 vacancies for Scientist/Engineer 'SC' (Electronics, Mechanical, Computer Science) posts.",
-    "u": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Bilingual_Advertisement_27082026.pdf"
+    "q": "BE / B.Tech in Electronics / Mechanical / CS with min 65% marks or CGPA 6.84/10",
+    "desc": "Indian Space Research Organisation (ISRO), Department of Space, Government of India, through ICRB has invited online applications for 175 Scientist/Engineer 'SC' Group 'A' posts (Electronics: 100, Mechanical: 53, CS: 22) in Level 10 (Basic ₹56,100/- p.m.).",
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/102146/Index.html"
 },
   {
     "id": "principal-district-and-session-peon-sevaka-attender-class-ivg-recruitment-2026",
