@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aligarh-muslim-university-amu-assistant-professor-contractua-recruitment-2026",
+    "b": "Aligarh Muslim University (AMU)",
+    "t": "Aligarh Muslim University (AMU) Recruitment 2026 – Apply for 1 Assistant Professor (Contractual) Posts",
+    "d": "29 August 2026",
+    "l": "7 September 2026",
+    "a": "02/ 2026",
+    "q": "Master's degree in Urdu with 55% marks and NET/ SLET/ SET or equivalent, OR P...",
+    "desc": "Aligarh Muslim University (AMU) has officially released employment advertisement notification 02/ 2026 for the recruitment of 1 vacancies for Assistant Professor (Contractual) posts.",
+    "u": "https://api.amu.ac.in/storage/file/8002/jobs/1787568855.pdf"
+},
+  {
+    "id": "icmr-national-institute-of-hea-consultant-young-professional-recruitment-2026",
+    "b": "ICMR National Institute of Health Research (ICMR NIHR)",
+    "t": "ICMR National Institute of Health Research (ICMR NIHR) Recruitment 2026 – Apply for 4 Consultant & Young Professional Posts",
+    "d": "29 August 2026",
+    "l": "11 September 2026",
+    "a": "ICMR-NATIONAL-/2026",
+    "q": "Post-graduates in Life Sciences/ Pharmacy / Statistics / Social works/ Sociol...",
+    "desc": "ICMR National Institute of Health Research (ICMR NIHR) has officially released employment advertisement notification ICMR-NATIONAL-/2026 for the recruitment of 4 vacancies for Consultant & Young Professional posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1787805689_advertisementofconsultantandyps.pdf"
+},
+  {
+    "id": "district-medical-health-office-lab-technician-and-stls-recruitment-2026",
+    "b": "District Medical & Health Office Hanumakonda",
+    "t": "District Medical & Health Office Hanumakonda Recruitment 2026 – Apply for 3 Lab Technician and STLS Posts",
+    "d": "29 August 2026",
+    "l": "29 August 2026",
+    "a": "01/2026",
+    "q": "Intermediate (10+2) and Diploma or certified course in Medical Laboratory Tec...",
+    "desc": "District Medical & Health Office Hanumakonda has officially released employment advertisement notification 01/2026 for the recruitment of 3 vacancies for Lab Technician and STLS posts.",
+    "u": "https://cdn.s3waas.gov.in/s3ec5decca5ed3d6b8079e2e7e7bacc9f2/uploads/2026/08/17875639005607.pdf"
+},
+  {
+    "id": "nuclear-fuel-complex-nfc-depar-iti-trade-apprentice-recruitment-2026",
+    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad",
+    "t": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad Recruitment 2026 – Apply for 432 ITI Trade Apprentice Posts",
+    "d": "29 August 2026",
+    "l": "16 September 2026",
+    "a": "NFC/R-III/1/08/2026 dated 27 August 2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad has officially released employment advertisement notification NFC/R-III/1/08/2026 dated 27 August 2026 for the recruitment of 432 vacancies for ITI Trade Apprentice posts.",
+    "u": "https://www.nfc.gov.in/pdf/recruitment-advt/2026/nfc-r-III-1082026.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-post-doctoral-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad",
+    "t": "Indian Institute of Technology Hyderabad Recruitment 2026 – Apply for 2 Post-Doctoral Fellow Posts",
+    "d": "29 August 2026",
+    "l": "09 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph. D. in Chemical Engineering/ Material Science/ Chemistry/ Physics",
+    "desc": "Indian Institute of Technology Hyderabad has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 2 vacancies for Post-Doctoral Fellow posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/PostdoctoralFellow-Advertisement_CARBONLab.pdf"
+},
+  {
+    "id": "nuclear-fuel-complex-nfc-depar-diploma-graduate-engineering-recruitment-2026",
+    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India",
+    "t": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India Recruitment 2026 – Apply for 106 Diploma & Graduate Engineering Posts",
+    "d": "29 August 2026",
+    "l": "16 September 2026",
+    "a": "NFC/R-III/1/08/2026/365",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India has officially released employment advertisement notification NFC/R-III/1/08/2026/365 for the recruitment of 106 vacancies for Diploma & Graduate Engineering posts.",
+    "u": "https://www.nfc.gov.in/pdf/recruitment-advt/2026/nfc-r3-1-08-2026-365.pdf"
+},
+  {
+    "id": "rural-development-and-panchaya-record-clerk-recruitment-2026",
+    "b": "Rural Development and Panchayat Raj Department Ramanathapuram (TNRD Ramanathapuram)",
+    "t": "Rural Development and Panchayat Raj Department Ramanathapuram (TNRD Ramanathapuram) Recruitment 2026 – Apply for 1 Record Clerk Posts",
+    "d": "29 August 2026",
+    "l": "30 September 2026",
+    "a": "A1/2543/2026",
+    "q": "10th Pass",
+    "desc": "Rural Development and Panchayat Raj Department Ramanathapuram (TNRD Ramanathapuram) has officially released employment advertisement notification A1/2543/2026 for the recruitment of 1 vacancies for Record Clerk posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f9b902fc3289af4dd08de5d1de54f68f/uploads/2026/08/17872307478076.pdf"
+},
+  {
+    "id": "central-university-of-rajastha-junior-research-fellow-recruitment-2026",
+    "b": "Central University of Rajasthan (CURAJ)",
+    "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 – Apply for 1 Junior Research Fellow Posts",
+    "d": "29 August 2026",
+    "l": "15 September 2026",
+    "a": "CURAJ/BME/ANRF/Ovadetect/01",
+    "q": "M.Tech/M.E. or equivalent in Biomedical Engineering or related fields with va...",
+    "desc": "Central University of Rajasthan (CURAJ) has officially released employment advertisement notification CURAJ/BME/ANRF/Ovadetect/01 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.curaj.ac.in/sites/default/files/JRF%20Advertisement_CURaj.pdf"
+},
+  {
+    "id": "homi-bhabha-cancer-hospital-sa-technician-radio-diagnosis-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital Sangrur",
+    "t": "Homi Bhabha Cancer Hospital Sangrur Recruitment 2026 – Apply for 1 Technician (Radio Diagnosis) Posts",
+    "d": "29 August 2026",
+    "l": "08 September 2026",
+    "a": "OS/SNG/2026/21",
+    "q": "B.Sc. in Radiological Imaging Technology OR B.Sc. in any subject /B. Pharmacy...",
+    "desc": "Homi Bhabha Cancer Hospital Sangrur has officially released employment advertisement notification OS/SNG/2026/21 for the recruitment of 1 vacancies for Technician (Radio Diagnosis) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=svvSVqd+a7tVidGp9MOM9A=="
+},
+  {
+    "id": "national-institute-of-technolo-botany-expert-recruitment-2026",
+    "b": "National Institute of Technology Rourkela",
+    "t": "National Institute of Technology Rourkela Recruitment 2026 – Apply for 1 Botany Expert Posts",
+    "d": "29 August 2026",
+    "l": "04 September 2026",
+    "a": "NITR / SR / 2026 / Advt. - C323MN083 / I / 071",
+    "q": "MSc in Botany from a recognised Indian university followed by Post graduate d...",
+    "desc": "National Institute of Technology Rourkela has officially released employment advertisement notification NITR / SR / 2026 / Advt. - C323MN083 / I / 071 for the recruitment of 1 vacancies for Botany Expert posts.",
+    "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/25082026182400165.pdf"
+},
+  {
     "id": "national-institute-of-technolo-temporary-faculty-recruitment-2026",
     "b": "National Institute of Technology Mizoram",
     "t": "National Institute of Technology Mizoram Recruitment 2026 – Apply for 2 Temporary Faculty Posts",
