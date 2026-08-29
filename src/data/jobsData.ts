@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "gujarat-alkalies-and-chemicals-iti-diploma-graduate-engineer-recruitment-2026",
+    "b": "Gujarat Alkalies and Chemicals Limited (GACL)",
+    "t": "Gujarat Alkalies and Chemicals Limited (GACL) Recruitment 2026 – Apply for 1 ITI, Diploma & Graduate Engineer Apprentice Posts",
+    "d": "29 August 2026",
+    "l": "5 September 2026",
+    "a": "GUJARAT-ALKALI/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Gujarat Alkalies and Chemicals Limited (GACL) has officially released employment advertisement notification GUJARAT-ALKALI/2026 for the recruitment of 1 vacancies for ITI, Diploma & Graduate Engineer Apprentice posts.",
+    "u": "https://gaclportal.gacl.co.in/hrportal/index.jsp#b"
+},
+  {
+    "id": "bhavnagar-municipal-corporatio-mphw-executive-engineer-and-mo-recruitment-2026",
+    "b": "Bhavnagar Municipal Corporation (BMC), Gujarat",
+    "t": "Bhavnagar Municipal Corporation (BMC), Gujarat Recruitment 2026 – Apply for 80 MPHW, Executive Engineer and More Posts",
+    "d": "29 August 2026",
+    "l": "15 September 2026, 23:59 hrs",
+    "a": "/BMC/2026-27/16 (Executive Engineer-Civil); /BMC/2026-27/15 (Sanitary Sub Inspector); /BMC/2026-27/14 (MPHW-Male, Urban Malaria)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Bhavnagar Municipal Corporation (BMC), Gujarat has officially released employment advertisement notification /BMC/2026-27/16 (Executive Engineer-Civil); /BMC/2026-27/15 (Sanitary Sub Inspector); /BMC/2026-27/14 (MPHW-Male, Urban Malaria) for the recruitment of 80 vacancies for MPHW, Executive Engineer and More posts.",
+    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/BMC_202627_16.pdf"
+},
+  {
+    "id": "gujarat-industries-power-compa-diploma-mechanical-engineer-on-recruitment-2026",
+    "b": "Gujarat Industries Power Company (GIPCL)",
+    "t": "Gujarat Industries Power Company (GIPCL) Recruitment 2026 – Apply for 10 Diploma Mechanical Engineer on Fix Term Contract Posts",
+    "d": "29 August 2026",
+    "l": "04 September 2026",
+    "a": "GUJARAT-INDUST/2026",
+    "q": "Full Time Diploma in Mechanical Engineering (min 65%), Chartered Accountant /...",
+    "desc": "Gujarat Industries Power Company (GIPCL) has officially released employment advertisement notification GUJARAT-INDUST/2026 for the recruitment of 10 vacancies for Diploma Mechanical Engineer on Fix Term Contract posts.",
+    "u": "http://career.gipcl.com/job_vacancy#"
+},
+  {
+    "id": "gujarat-police-recruitment-boa-legal-executive-recruitment-2026",
+    "b": "Gujarat Police Recruitment Board (GPRB)",
+    "t": "Gujarat Police Recruitment Board (GPRB) Recruitment 2026 – Apply for 2 Legal Executive Posts",
+    "d": "29 August 2026",
+    "l": "15 September 2026",
+    "a": "GPRB/01/Contract/2026",
+    "q": "Law Graduate from recognized University, Registered with Bar Council of Gujar...",
+    "desc": "Gujarat Police Recruitment Board (GPRB) has officially released employment advertisement notification GPRB/01/Contract/2026 for the recruitment of 2 vacancies for Legal Executive posts.",
+    "u": "https://gprb.gujarat.gov.in/"
+},
+  {
+    "id": "ex-servicemen-contributory-hea-medical-officer-clerk-female-a-recruitment-2026",
+    "b": "Ex Servicemen Contributory Health Scheme (ECHS)",
+    "t": "Ex Servicemen Contributory Health Scheme (ECHS) Recruitment 2026 – Apply for 5 Medical Officer, Clerk, Female Attendant, Peon Posts",
+    "d": "29 August 2026",
+    "l": "23 September 2026",
+    "a": "225/ECHS/Vasco/Advt/15) for 5 vacancies",
+    "q": "MBBS with 3 years experience, Graduate with 5 years clerical experience, Class 8",
+    "desc": "Ex Servicemen Contributory Health Scheme (ECHS) has officially released employment advertisement notification 225/ECHS/Vasco/Advt/15) for 5 vacancies for the recruitment of 5 vacancies for Medical Officer, Clerk, Female Attendant, Peon posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/INS%20Gomantak%2023%20Sep.pdf"
+},
+  {
+    "id": "dr-hedgewar-arogya-sansthan-senior-resident-recruitment-2026",
+    "b": "Dr Hedgewar Arogya Sansthan",
+    "t": "Dr Hedgewar Arogya Sansthan Recruitment 2026 – Apply for 9 Senior Resident Posts",
+    "d": "29 August 2026",
+    "l": "09 September 2026",
+    "a": "No.F.124/2026-APP-SR/DHAS/STT/088/87/04",
+    "q": "MBBS with post graduate Degree/Diploma/DNB in the concerned specialty from a ...",
+    "desc": "Dr Hedgewar Arogya Sansthan has officially released employment advertisement notification No.F.124/2026-APP-SR/DHAS/STT/088/87/04 for the recruitment of 9 vacancies for Senior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wdhas_33.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-project-engineer-project-atten-recruitment-2026",
+    "b": "National Institute of Technology Delhi",
+    "t": "National Institute of Technology Delhi Recruitment 2026 – Apply for 10 Project Engineer, Project Attendant and More Posts Posts",
+    "d": "29 August 2026",
+    "l": "11 September 2026",
+    "a": "NITD/Dean(R&C)/CE/TPQA/2026/02",
+    "q": "B. Tech. (Electrical/ Mechanical), B. Tech. (Civil), Diploma or Equivalent or...",
+    "desc": "National Institute of Technology Delhi has officially released employment advertisement notification NITD/Dean(R&C)/CE/TPQA/2026/02 for the recruitment of 10 vacancies for Project Engineer, Project Attendant and More Posts posts.",
+    "u": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/Recruitment%20Advertisement%20TPQA%2002@nitdelhi49535133-2c77-4a96-964b-a7033543fb2e.pdf"
+},
+  {
+    "id": "babu-jagjivan-ram-memorial-hos-junior-resident-recruitment-2026",
+    "b": "Babu Jagjivan Ram Memorial Hospital",
+    "t": "Babu Jagjivan Ram Memorial Hospital Recruitment 2026 – Apply for 9 Junior Resident Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "BABU-JAGJIVAN-/2026",
+    "q": "MBBS",
+    "desc": "Babu Jagjivan Ram Memorial Hospital has officially released employment advertisement notification BABU-JAGJIVAN-/2026 for the recruitment of 9 vacancies for Junior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wbjrm_19.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-scientist-iii-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 – Apply for 1 Project Scientist - III Posts",
+    "d": "29 August 2026",
+    "l": "03 September 2026",
+    "a": "IITD/IRD/227/2026",
+    "q": "Ph.D. in Optics, Interferometry, Holography, and Optical Imaging, with a mini...",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially released employment advertisement notification IITD/IRD/227/2026 for the recruitment of 1 vacancies for Project Scientist - III posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1787552770217_vc7xo69.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-assistant-professor-recruitment-2026",
+    "b": "National Institute of Technology Delhi (NIT Delhi)",
+    "t": "National Institute of Technology Delhi (NIT Delhi) Recruitment 2026 – Apply for 3 Assistant Professor Posts",
+    "d": "29 August 2026",
+    "l": "31 August 2026",
+    "a": "12/ 2026",
+    "q": "B.E./ B.Tech. and MCA/ M.E./ M.Tech. or equivalent with Ph.D. in relevant area",
+    "desc": "National Institute of Technology Delhi (NIT Delhi) has officially released employment advertisement notification 12/ 2026 for the recruitment of 3 vacancies for Assistant Professor posts.",
+    "u": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/12_2026_Advertisment@nitdelhic0ca2310-9304-4de9-a101-7dba94a61165.pdf"
+},
+  {
     "id": "national-minorities-developmen-senior-legal-consultant-recruitment-2026",
     "b": "National Minorities Development & Finance Corporation (NMDFC)",
     "t": "National Minorities Development & Finance Corporation (NMDFC) Recruitment 2026 – Apply for 1 Senior Legal Consultant Posts",
