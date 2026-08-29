@@ -156,14 +156,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "nuclear-fuel-complex-nfc-depar-iti-trade-apprentice-recruitment-2026",
-    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad",
-    "t": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad Recruitment 2026 – Apply for 432 ITI Trade Apprentice Posts",
-    "d": "29 August 2026",
+    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy (DAE), Hyderabad",
+    "t": "Nuclear Fuel Complex (NFC) Hyderabad ITI Trade Apprentice Recruitment 2026 – Apply Online for 432 Posts",
+    "d": "27 August 2026",
     "l": "16 September 2026",
-    "a": "NFC/R-III/1/08/2026 dated 27 August 2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Hyderabad has officially released employment advertisement notification NFC/R-III/1/08/2026 dated 27 August 2026 for the recruitment of 432 vacancies for ITI Trade Apprentice posts.",
-    "u": "https://www.nfc.gov.in/pdf/recruitment-advt/2026/nfc-r-III-1082026.pdf"
+    "a": "NFC/R-III/1/08/2026 dated 27-08-2026",
+    "q": "10th / SSC Pass & ITI in relevant designated trade (NCVT/SCVT)",
+    "desc": "Nuclear Fuel Complex (NFC), Hyderabad, Department of Atomic Energy (DAE), Govt of India, invites online applications on NAPS portal for engagement of 432 ITI Trade Apprentices for 2026-27 (Stipend: ₹10,560 - ₹11,040/mo).",
+    "u": "https://www.apprenticeshipindia.gov.in/"
 },
   {
     "id": "indian-institute-of-technology-post-doctoral-fellow-recruitment-2026",
