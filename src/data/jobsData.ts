@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-engineerin-junior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur)",
+    "t": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) Recruitment 2026 – Apply for 2 Junior Research Fellow Posts",
+    "d": "29 August 2026",
+    "l": "1 September 2026",
+    "a": "CH 1952)",
+    "q": "M. E./ M. Tech. or M.Sc.",
+    "desc": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) has officially released employment advertisement notification CH 1952) for the recruitment of 2 vacancies for Junior Research Fellow posts.",
+    "u": "https://data.iiests.ac.in/uploads/announcements/files/1787557014_Website%20Copy,%20Snehanshu%20Pal,%20Metallurgy,%2018.08.2026.pdf"
+},
+  {
+    "id": "district-mission-management-un-bank-resource-person-recruitment-2026",
+    "b": "District Mission Management Unit and District Rural Development Cell",
+    "t": "District Mission Management Unit and District Rural Development Cell Recruitment 2026 – Apply for 2 Bank Resource Person Posts",
+    "d": "29 August 2026",
+    "l": "24 August 2026",
+    "a": "461 /PD- DRDC/MALDA/2026",
+    "q": "Retired Bank Employee having Scale-III or more, Age as on 01-01-2026 not more...",
+    "desc": "District Mission Management Unit and District Rural Development Cell has officially released employment advertisement notification 461 /PD- DRDC/MALDA/2026 for the recruitment of 2 vacancies for Bank Resource Person posts.",
+    "u": "https://cdn.s3waas.gov.in/s349ae49a23f67c759bf4fc791ba842aa2/uploads/2026/08/17873320028331.pdf"
+},
+  {
+    "id": "jadavpur-university-guest-faculty-recruitment-2026",
+    "b": "Jadavpur University",
+    "t": "Jadavpur University Recruitment 2026 – Apply for 3 Guest Faculty Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "JADAVPUR-UNIVE/2026",
+    "q": "As per UGC/State Government rules",
+    "desc": "Jadavpur University has officially released employment advertisement notification JADAVPUR-UNIVE/2026 for the recruitment of 3 vacancies for Guest Faculty posts.",
+    "u": "https://jadavpuruniversity.in/storage/2026/08/Walk-in.pdf"
+},
+  {
+    "id": "andrew-yule-company-aycl-consultant-finance-recruitment-2026",
+    "b": "Andrew Yule & Company (AYCL)",
+    "t": "Andrew Yule & Company (AYCL) Recruitment 2026 – Apply for 1 Consultant (Finance) Posts",
+    "d": "29 August 2026",
+    "l": "09 September 2026",
+    "a": "2026/12",
+    "q": "Any Graduate",
+    "desc": "Andrew Yule & Company (AYCL) has officially released employment advertisement notification 2026/12 for the recruitment of 1 vacancies for Consultant (Finance) posts.",
+    "u": "https://www.andrewyule.com/pdf/Website%20Ad%20Matter_Consultant_Finance.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-tutor-non-academic-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Kalyani",
+    "t": "All India Institute of Medical Sciences Kalyani Recruitment 2026 – Apply for 3 Tutor (Non-Academic) Posts",
+    "d": "29 August 2026",
+    "l": "29 September 2026",
+    "a": "1810 /E-12015/25/26-(SR/T/JR)",
+    "q": "MBBS from a recognized University/Institute. For Non-Medical Candidates: Mast...",
+    "desc": "All India Institute of Medical Sciences Kalyani has officially released employment advertisement notification 1810 /E-12015/25/26-(SR/T/JR) for the recruitment of 3 vacancies for Tutor (Non-Academic) posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/tutor_walkin_interview_advertisement_2_20260825_211321_2e24f507.pdf"
+},
+  {
+    "id": "visva-bharati-research-assistant-recruitment-2026",
+    "b": "Visva Bharati",
+    "t": "Visva Bharati Recruitment 2026 – Apply for 1 Research Assistant Posts",
+    "d": "29 August 2026",
+    "l": "31 August 2026",
+    "a": "VISVA-BHARATI/2026",
+    "q": "Post Graduation in Social Science discipline (Physical Education) with 55% wi...",
+    "desc": "Visva Bharati has officially released employment advertisement notification VISVA-BHARATI/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
+    "u": "https://www.visvabharati.ac.in/files/235250826_letterhead_for_walk_in_interview_with_sign.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-research-fellow-srf-res-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 – Apply for 1 Senior Research Fellow (SRF) - Research Posts",
+    "d": "29 August 2026",
+    "l": "31 August 2026",
+    "a": "IIT/SRIC/R/NGS/2026/109)",
+    "q": "Post Graduate Degree in Basic Science OR Graduate / Post Graduate Degree",
+    "desc": "Indian Institute of Technology Kharagpur has officially released employment advertisement notification IIT/SRIC/R/NGS/2026/109) for the recruitment of 1 vacancies for Senior Research Fellow (SRF) - Research posts.",
+    "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
+},
+  {
+    "id": "district-economics-and-statist-gis-technician-recruitment-2026",
+    "b": "District Economics and Statistics Office Almora",
+    "t": "District Economics and Statistics Office Almora Recruitment 2026 – Apply for 1 GIS Technician Posts",
+    "d": "29 August 2026",
+    "l": "02 September 2026",
+    "a": "650/GIS Cell/2026-27",
+    "q": "M.Sc Remote Sensing and GIS, PG Diploma in Remote Sensing & GIS",
+    "desc": "District Economics and Statistics Office Almora has officially released employment advertisement notification 650/GIS Cell/2026-27 for the recruitment of 1 vacancies for GIS Technician posts.",
+    "u": "https://cdn.s3waas.gov.in/s33a0772443a0739141292a5429b952fe6/uploads/2026/08/17876394141665.pdf"
+},
+  {
+    "id": "haldwani-forest-division-working-plan-associate-recruitment-2026",
+    "b": "Haldwani Forest Division",
+    "t": "Haldwani Forest Division Recruitment 2026 – Apply for 1 Working Plan Associate Posts",
+    "d": "29 August 2026",
+    "l": "05 September 2026",
+    "a": "HALDWANI-FORES/2026",
+    "q": "M.Sc. in Botany/ Zoology/ Forestry/ Wildlife/ Soil Sciences with I Division.",
+    "desc": "Haldwani Forest Division has officially released employment advertisement notification HALDWANI-FORES/2026 for the recruitment of 1 vacancies for Working Plan Associate posts.",
+    "u": "https://forest.uk.gov.in/uploads/recruitments/rec-7151_wpa.pdf"
+},
+  {
+    "id": "indian-institute-of-management-library-apprentice-recruitment-2026",
+    "b": "Indian Institute of Management Kashipur (IIM Kashipur)",
+    "t": "Indian Institute of Management Kashipur (IIM Kashipur) Recruitment 2026 – Apply for 1 Library Apprentice Posts",
+    "d": "29 August 2026",
+    "l": "14 September 2026",
+    "a": "LA-01/2026",
+    "q": "Bachelor's degree in library and information science with minimum 60% marks o...",
+    "desc": "Indian Institute of Management Kashipur (IIM Kashipur) has officially released employment advertisement notification LA-01/2026 for the recruitment of 1 vacancies for Library Apprentice posts.",
+    "u": "https://iimkashipur.ac.in/uploads/fo/178764946311.pdf"
+},
+  {
     "id": "aligarh-muslim-university-amu-assistant-professor-contractua-recruitment-2026",
     "b": "Aligarh Muslim University (AMU)",
     "t": "Aligarh Muslim University (AMU) Recruitment 2026 – Apply for 1 Assistant Professor (Contractual) Posts",
