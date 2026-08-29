@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-institute-of-technolo-temporary-faculty-recruitment-2026",
+    "b": "National Institute of Technology Mizoram",
+    "t": "National Institute of Technology Mizoram Recruitment 2026 – Apply for 2 Temporary Faculty Posts",
+    "d": "29 August 2026",
+    "l": "10 September 2026",
+    "a": "NITMZ/R-2-17/TF/2026/1733",
+    "q": "Ph.D. in relevant discipline with First Class in relevant degrees",
+    "desc": "National Institute of Technology Mizoram has officially released employment advertisement notification NITMZ/R-2-17/TF/2026/1733 for the recruitment of 2 vacancies for Temporary Faculty posts.",
+    "u": "https://nitmz.ac.in/wp-content/uploads/2026/08/Advertisement-for-Temporary-Faculty_BSHSS_English-ME_NIT-Mizoram.pdf"
+},
+  {
+    "id": "state-rural-employment-society-mis-deo-technical-support-staf-recruitment-2026",
+    "b": "State Rural Employment Society - District Implementing Division (SRES-DID)",
+    "t": "State Rural Employment Society - District Implementing Division (SRES-DID) Recruitment 2026 – Apply for 10 MIS DEO, Technical Support Staff and More Posts Posts",
+    "d": "29 August 2026",
+    "l": "03 September 2026",
+    "a": "No.SRES-DID/NGP/VB-GRG/Fill/18/2026/",
+    "q": "Master Degree in Rural Development/Agricultural Extension/Social Work or PG D...",
+    "desc": "State Rural Employment Society - District Implementing Division (SRES-DID) has officially released employment advertisement notification No.SRES-DID/NGP/VB-GRG/Fill/18/2026/ for the recruitment of 10 vacancies for MIS DEO, Technical Support Staff and More Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17876539084864.pdf"
+},
+  {
+    "id": "railway-recruitment-cell-weste-64-recruitment-2026",
+    "b": "Railway Recruitment Cell, Western Railway (RRC/WR), Ministry of Railway, Government of India",
+    "t": "Railway Recruitment Cell, Western Railway (RRC/WR), Ministry of Railway, Government of India Recruitment 2026 – Apply for 64 64 Posts",
+    "d": "29 August 2026",
+    "l": "30 September 2026, 18:00 Hrs",
+    "a": "RRC/WR/01/2026 (Sports Quota)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Railway Recruitment Cell, Western Railway (RRC/WR), Ministry of Railway, Government of India has officially released employment advertisement notification RRC/WR/01/2026 (Sports Quota) for the recruitment of 64 vacancies for 64 posts.",
+    "u": "https://www.rrc-wr.com/rrwc/Files/aac5b3f0-87da-456c-ba00-a5db3041a436.pdf"
+},
+  {
+    "id": "esic-professor-senior-resident-and-recruitment-2026",
+    "b": "ESIC",
+    "t": "ESIC Recruitment 2026 – Apply for 76 Professor, Senior Resident and More Posts",
+    "d": "29 August 2026",
+    "l": "Level 10, Index-1",
+    "a": "12/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "ESIC has officially released employment advertisement notification 12/2026 for the recruitment of 76 vacancies for Professor, Senior Resident and More posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Advertisement_for_Recruitment_of_Professor_Associate_Professor_Assistant_Professor_Senior_Resident_and_Tutor_on_contract_basis_at_ESIC_Medical_College_and_Hospital_Andheri_East_Mumbai_400093_1787812165.pdf"
+},
+  {
+    "id": "indian-institute-of-science-ed-senior-administrative-assistan-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Pune (IISER Pune)",
+    "t": "Indian Institute of Science Education and Research Pune (IISER Pune) Recruitment 2026 – Apply for 3 Senior Administrative Assistant Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "73/2026",
+    "q": "Bachelor's degree in Administration or Commerce or Management.",
+    "desc": "Indian Institute of Science Education and Research Pune (IISER Pune) has officially released employment advertisement notification 73/2026 for the recruitment of 3 vacancies for Senior Administrative Assistant posts.",
+    "u": "https://www.iiserpune.ac.in/storage/recruitment/job-posts/2302/documents/a21338b9-7716-4b1e-8a6f-c25b3b6c3940.pdf"
+},
+  {
+    "id": "konkan-railway-corporation-krc-senior-technical-assistantst-recruitment-2026",
+    "b": "Konkan Railway Corporation (KRCL)",
+    "t": "Konkan Railway Corporation (KRCL) Recruitment 2026 – Apply for 3 Senior Technical Assistant/S&T Posts",
+    "d": "29 August 2026",
+    "l": "22 September 2026",
+    "a": "CO/P-R/16C/2026",
+    "q": "Four years Bachelor’s Degree in Electrical/Electronics/Information Technology...",
+    "desc": "Konkan Railway Corporation (KRCL) has officially released employment advertisement notification CO/P-R/16C/2026 for the recruitment of 3 vacancies for Senior Technical Assistant/S&T posts.",
+    "u": "https://konkanrailway.com/sites/default/files/2026-08/16C.pdf"
+},
+  {
+    "id": "machine-tool-prototype-factory-fitter-turner-and-more-recruitment-2026",
+    "b": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence",
+    "t": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence Recruitment 2026 – Apply for 162 Fitter, Turner and More Posts",
+    "d": "29 August 2026",
+    "l": "27 September 2026*",
+    "a": "MACHINE-TOOL-P/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Machine Tool Prototype Factory (MTPF), Ambarnath - a Unit of Armoured Vehicles Nigam Limited (AVNL), a Govt. of India Enterprise, Ministry of Defence has officially released employment advertisement notification MACHINE-TOOL-P/2026 for the recruitment of 162 vacancies for Fitter, Turner and More posts.",
+    "u": "https://avnl.co.in"
+},
+  {
+    "id": "visvesvaraya-national-institut-project-assistant-recruitment-2026",
+    "b": "Visvesvaraya National Institute of Technology (VNIT)",
+    "t": "Visvesvaraya National Institute of Technology (VNIT) Recruitment 2026 – Apply for 2 Project Assistant Posts",
+    "d": "29 August 2026",
+    "l": "04 September 2026",
+    "a": "VISVESVARAYA-N/2026",
+    "q": "Master’s Degree in Chemistry or equivalent",
+    "desc": "Visvesvaraya National Institute of Technology (VNIT) has officially released employment advertisement notification VISVESVARAYA-N/2026 for the recruitment of 2 vacancies for Project Assistant posts.",
+    "u": "https://drive.google.com/file/d/1ub2g5RuuIlIy3Dbi34plZsoLIXLGkcnM/view"
+},
+  {
+    "id": "tata-memorial-centre-tmc-clinical-pharmacologist-infect-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC)",
+    "t": "Tata Memorial Centre (TMC) Recruitment 2026 – Apply for 1 Clinical Pharmacologist (Infectious Diseases) Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "OS/TMH/52/2026",
+    "q": "Doctor of Pharmacy (Pharm. D.)",
+    "desc": "Tata Memorial Centre (TMC) has officially released employment advertisement notification OS/TMH/52/2026 for the recruitment of 1 vacancies for Clinical Pharmacologist (Infectious Diseases) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=Bbxoctxz2hcyA+0bD0qiJg=="
+},
+  {
+    "id": "pdpm-indian-institute-of-infor-junior-research-fellow-jrf-recruitment-2026",
+    "b": "PDPM Indian Institute of Information Technology Design and Manufacturing Jabalpur (IIITDM Jabalpur)",
+    "t": "PDPM Indian Institute of Information Technology Design and Manufacturing Jabalpur (IIITDM Jabalpur) Recruitment 2026 – Apply for 1 Junior Research Fellow (JRF) Posts",
+    "d": "29 August 2026",
+    "l": "1 September 2026",
+    "a": "PDPM-INDIAN-IN/2026",
+    "q": "Graduate \\ Post Graduate Degree (BE\\BTech\\ME\\MTech)",
+    "desc": "PDPM Indian Institute of Information Technology Design and Manufacturing Jabalpur (IIITDM Jabalpur) has officially released employment advertisement notification PDPM-INDIAN-IN/2026 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.iiitdmj.ac.in/jobs/download/JRF/Geospatial-Advt-for-JRF-SRF_PK_24082026.pdf"
+},
+  {
     "id": "zilla-panchayat-raichur-clerk-cum-deo-and-tax-collecto-recruitment-2026",
     "b": "Zilla Panchayat Raichur",
     "t": "Zilla Panchayat Raichur Recruitment 2026 – Apply for 65 Clerk-cum-DEO and Tax Collector Posts",
