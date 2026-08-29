@@ -317,7 +317,7 @@ def parse_vacancy_data(html, url):
 
     # 13. Location
     location = "India"
-    loc_matches = re.findall(r'\b(Delhi|Mumbai|Chandigarh|Kolkata|Assam|Guwahati|Tezpur|Patna|Bhagalpur|Bihar|Bhilai|Balodabazar|Bastar|Chhattisgarh|Gujarat|Vadodara|Surat|Bhavnagar|Haryana|Jhajjar|Jharkhand|Dhanbad|Chatra|Karnataka|Bengaluru|Chikkaballapur|Mysuru|Kerala|Madhya Pradesh|Katni|Odisha|Mayurbhanj|Balangir|Puducherry|Tamil Nadu|Tiruchirappalli|Pudukkottai|Erode|Chennai|Tripura|Agartala|Uttar Pradesh|Kanpur|Lucknow|Varanasi|Azamgarh|Prayagraj|Allahabad|Uttarakhand|Roorkee|Kalyani|West Bengal|Visakhapatnam|Chintapalle|Andhra Pradesh)\b', page_title + " " + board, re.IGNORECASE)
+    loc_matches = re.findall(r'\b(Arunachal Pradesh|Itanagar|Assam|Guwahati|Tezpur|Bihar|Patna|Bhagalpur|Gaya|Chhattisgarh|Raipur|Jashpur|Bilaspur|Durg|Bhilai|Balodabazar|Bastar|Mungeli|Delhi|New Delhi|Gujarat|Gandhinagar|Ahmedabad|Vadodara|Surat|Bhavnagar|Haryana|Gurugram|Jhajjar|Rohtak|Kurukshetra|Jharkhand|Ranchi|Dhanbad|Chatra|Jamshedpur|Karnataka|Bengaluru|Bangalore|Raichur|Hassan|Chikkaballapur|Mysuru|Belagavi|Kerala|Thiruvananthapuram|Kochi|Kozhikode|Madhya Pradesh|Bhopal|Indore|Jabalpur|Gwalior|Katni|Maharashtra|Mumbai|Pune|Nagpur|Sangli|Mizoram|Aizawl|Odisha|Bhubaneswar|Rourkela|Cuttack|Mayurbhanj|Balangir|Punjab|Chandigarh|Sangrur|Mohali|Ludhiana|Patiala|Rajasthan|Jaipur|Jodhpur|Ajmer|Kota|Tamil Nadu|Chennai|Ramanathapuram|Tiruchirappalli|Pudukkottai|Erode|Coimbatore|Madurai|Telangana|Hyderabad|Hanumakonda|Warangal|Tripura|Agartala|Uttar Pradesh|UP|Lucknow|Kanpur|Varanasi|Gorakhpur|Azamgarh|Prayagraj|Allahabad|Aligarh|Uttarakhand|Dehradun|Roorkee|Kashipur|Haldwani|Almora|Nainital|West Bengal|WB|Kolkata|Kalyani|Shibpur|Malda|Santiniketan|Kharagpur|Jadavpur|Andhra Pradesh|Visakhapatnam|Chintapalle|Puducherry)\b', page_title + " " + board, re.IGNORECASE)
     if loc_matches:
         location = loc_matches[0].title()
 
@@ -521,6 +521,18 @@ def generate_rich_job_schema(data):
         {
             "question": f"Where can I check updates regarding admit cards, interview schedules, or results for {board}?",
             "answer": f"All official updates, interview lists, and result notices will be published directly on the official {board} recruitment portal: {urls[-1]['url'] if urls else 'official portal'}."
+        },
+        {
+            "question": f"Can candidates from all states and UTs in India apply for {board} vacancies?",
+            "answer": "Yes, Indian citizens fulfilling the required educational qualification, age limit, and language proficiency criteria are eligible to apply."
+        },
+        {
+            "question": f"What should I do if there is a discrepancy in my online application details?",
+            "answer": f"Candidates must verify all details before final submission. In case of corrections, check the official {board} portal during the edit window if provided."
+        },
+        {
+            "question": f"Who can be contacted for technical assistance regarding {board} recruitment application?",
+            "answer": f"Candidates may contact the official helpdesk or email address provided on the {board} official website."
         }
     ]
 

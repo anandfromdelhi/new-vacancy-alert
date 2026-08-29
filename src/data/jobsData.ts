@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-minorities-developmen-senior-legal-consultant-recruitment-2026",
+    "b": "National Minorities Development & Finance Corporation (NMDFC)",
+    "t": "National Minorities Development & Finance Corporation (NMDFC) Recruitment 2026 – Apply for 1 Senior Legal Consultant Posts",
+    "d": "29 August 2026",
+    "l": "8 September 2026",
+    "a": "02/2026",
+    "q": "Masters Degree in relevant field/subject or technical qualifications like MBA...",
+    "desc": "National Minorities Development & Finance Corporation (NMDFC) has officially released employment advertisement notification 02/2026 for the recruitment of 1 vacancies for Senior Legal Consultant posts.",
+    "u": "https://nmdfc.org/uploads/files/Sr-Consultpdf-915fdeaec4d67e3ae1409c6006287093.pdf"
+},
+  {
+    "id": "delhi-university-assistant-professor-guest-facu-recruitment-2026",
+    "b": "Delhi University",
+    "t": "Delhi University Recruitment 2026 – Apply for 6 Assistant Professor (Guest Faculty) Posts",
+    "d": "29 August 2026",
+    "l": "07 September 2026",
+    "a": "R&P/313/2025",
+    "q": "Master's degree in Social Work with 55% marks, NET/SET or Ph.D. exemption",
+    "desc": "Delhi University has officially released employment advertisement notification R&P/313/2025 for the recruitment of 6 vacancies for Assistant Professor (Guest Faculty) posts.",
+    "u": "https://www.du.ac.in/uploads/2026/27082026-socal%20work-Advertisement%20(1).pdf"
+},
+  {
+    "id": "national-science-centre-delhi-junior-mentor-recruitment-2026",
+    "b": "National Science Centre Delhi (NSC Delhi)",
+    "t": "National Science Centre Delhi (NSC Delhi) Recruitment 2026 – Apply for 1 Junior Mentor Posts",
+    "d": "29 August 2026",
+    "l": "2 September 2026",
+    "a": "11/2026",
+    "q": "Bachelor's degree in Engineering in 1st class (Robotics / Computers / Electro...",
+    "desc": "National Science Centre Delhi (NSC Delhi) has officially released employment advertisement notification 11/2026 for the recruitment of 1 vacancies for Junior Mentor posts.",
+    "u": "https://nscd.gov.in/wp-content/uploads/2026/08/Jr.-Mentor.pdf"
+},
+  {
+    "id": "national-science-centre-science-communicator-recruitment-2026",
+    "b": "National Science Centre",
+    "t": "National Science Centre Recruitment 2026 – Apply for 2 Science Communicator Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "11/2026",
+    "q": "M.Sc. in Physics/Chemistry/Mathematics/Biology (Zoology/Botany) on or after 2023",
+    "desc": "National Science Centre has officially released employment advertisement notification 11/2026 for the recruitment of 2 vacancies for Science Communicator posts.",
+    "u": "https://nscd.gov.in/wp-content/uploads/2026/08/Science-Communicators.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-project-technical-assistant-recruitment-2026",
+    "b": "National Institute of Technology Raipur",
+    "t": "National Institute of Technology Raipur Recruitment 2026 – Apply for 1 Project Technical Assistant Posts",
+    "d": "29 August 2026",
+    "l": "11 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "12th with at least 2 years of work experience in welding trade, ITI (2-years ...",
+    "desc": "National Institute of Technology Raipur has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Project Technical Assistant posts.",
+    "u": "https://nitrr.ac.in/others/announcement_docs/1787314582_5675.pdf"
+},
+  {
+    "id": "government-rbrnes-postgraduate-guest-lecturer-psychology-recruitment-2026",
+    "b": "Government RBRNES Postgraduate College Jashpur",
+    "t": "Government RBRNES Postgraduate College Jashpur Recruitment 2026 – Apply for 1 Guest Lecturer (Psychology) Posts",
+    "d": "29 August 2026",
+    "l": "07 September 2026",
+    "a": "GOVERNMENT-RBR/2026",
+    "q": "As per UGC norms",
+    "desc": "Government RBRNES Postgraduate College Jashpur has officially released employment advertisement notification GOVERNMENT-RBR/2026 for the recruitment of 1 vacancies for Guest Lecturer (Psychology) posts.",
+    "u": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17878264496762.pdf"
+},
+  {
+    "id": "nayak-nityanand-sai-government-guest-lecturer-recruitment-2026",
+    "b": "Nayak Nityanand Sai Government College Jashpur",
+    "t": "Nayak Nityanand Sai Government College Jashpur Recruitment 2026 – Apply for 1 Guest Lecturer Posts",
+    "d": "29 August 2026",
+    "l": "01 September 2026",
+    "a": "63/2026",
+    "q": "Post Graduate with 55% marks (50% for SC/ST/PwD) as per UGC 2018 Regulations",
+    "desc": "Nayak Nityanand Sai Government College Jashpur has officially released employment advertisement notification 63/2026 for the recruitment of 1 vacancies for Guest Lecturer posts.",
+    "u": "https://cdn.s3waas.gov.in/s385fc37b18c57097425b52fc7afbb6969/uploads/2026/08/17878261397800.pdf"
+},
+  {
+    "id": "panjab-university-project-assistant-project-asso-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 – Apply for 6 Project Assistant / Project Associate Posts",
+    "d": "29 August 2026",
+    "l": "08 September 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "Graduate in any discipline, Postgraduate degree in Economics/Statistics/Data ...",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 6 vacancies for Project Assistant / Project Associate posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260825181746-20260825163942-advertisement0001compressed.pdf"
+},
+  {
+    "id": "postgraduate-institute-of-medi-senior-consultant-assistant-pr-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 1 Senior Consultant (Assistant Professor) Posts",
+    "d": "29 August 2026",
+    "l": "05 September 2026",
+    "a": "DT000354",
+    "q": "MD in Psychiatry or equivalent qualification, Three years experience in Psych...",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification DT000354 for the recruitment of 1 vacancies for Senior Consultant (Assistant Professor) posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=Recruitment%20Notices%20for%20the%20post25Aug2026114218.pdf&PathKey=VACANCY_PATH"
+},
+  {
+    "id": "all-india-institute-of-medical-project-associate-i-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati)",
+    "t": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) Recruitment 2026 – Apply for 1 Project Associate I Posts",
+    "d": "29 August 2026",
+    "l": "09 September 2026",
+    "a": "Biochem/AIIMSG/26-27/1057(A)",
+    "q": "Postgraduate degree (minimum 55% marks) in Biochemistry/Biotechnology/Biologi...",
+    "desc": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) has officially released employment advertisement notification Biochem/AIIMSG/26-27/1057(A) for the recruitment of 1 vacancies for Project Associate I posts.",
+    "u": "https://aiimsguwahati.in/viewfile.aspx?fname=8a8375db.pdf&ftype=pdf&rdoctype=cms"
+},
+  {
     "id": "national-institute-of-technolo-research-associate-ra-iii-and-recruitment-2026",
     "b": "National Institute of Technology Durgapur",
     "t": "National Institute of Technology Durgapur Recruitment 2026 – Apply for 2 Research Associate (RA-III) and Junior Research Fellow (JRF) Posts",
