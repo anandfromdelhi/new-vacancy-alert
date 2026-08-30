@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nic-scientific-technical-assistant-recruitment-2026",
+    "b": "National Informatics Centre (NIC), MeitY",
+    "t": "NIC Scientific/Technical Assistant-A Recruitment 2026 – Apply Online for 376 Posts",
+    "d": "28 August 2026",
+    "l": "30 September 2026",
+    "a": "NIC/STA/2026/2",
+    "q": "B.E./B.Tech / M.Sc / MCA / MS in CS/IT/ECE + Valid GATE (2024/2025/2026)",
+    "desc": "NIC invites online applications for 376 Scientific/Technical Assistant-A posts in Level-6 (₹35,400–₹1,12,400) on direct recruitment based on GATE 2024/2025/2026 scores.",
+    "u": "https://recruitment.nic.in"
+},
+  {
     "id": "iob-generalist-so-recruitment-2026",
     "b": "Indian Overseas Bank (IOB)",
     "t": "IOB Generalist & Specialist Officer Recruitment 2026 – Apply Online for 291 Posts",
@@ -1748,17 +1759,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "8th / 10th / 12th / GNM / B.Sc Nursing / DMLT / B.Pharm / B.Com / B.Sc / MCA / MBBS / MD",
     "desc": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa has officially released employment advertisement notification DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 for the recruitment of 135 vacancies for CHO, Medical Officer, Staff Nurse, Pharmacist, Support Staff and various posts.",
     "u": "https://nhm.goa.gov.in/wp-content/uploads/2026/08/Advertisement-26-08-2026-1537-2026-27-1.pdf"
-},
-  {
-    "id": "national-informatics-centre-ni-scientifictechnical-assistant-recruitment-2026",
-    "b": "National Informatics Centre (NIC)",
-    "t": "National Informatics Centre (NIC) Recruitment 2026 – Apply Online for 376 Scientific/Technical Assistant-A Posts via GATE",
-    "d": "26 August 2026",
-    "l": "30 September 2026",
-    "a": "NIC/STA/2026/2",
-    "q": "B.E / B.Tech / M.Sc / MS / MCA (CS / IT / ECE / Data Science) + Valid GATE (CS / EC / DA)",
-    "desc": "National Informatics Centre (NIC), Ministry of Electronics and Information Technology (MeitY) has officially released employment advertisement notification NIC/STA/2026/2 for direct recruitment to 376 vacancies for Scientific/Technical Assistant-A posts based on valid GATE scores (2024/2025/2026).",
-    "u": "https://recruitment.nic.in/DetailedSTA.pdf"
 },
   {
     "id": "delhi-metro-rail-corporation-d-supervisor-p-way-recruitment-2026",
