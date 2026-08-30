@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ai-assets-holding-aiahl-chairman-managing-director-recruitment-2026",
+    "b": "AI Assets Holding (AIAHL)",
+    "t": "AI Assets Holding (AIAHL) Recruitment 2026 – Apply for 1 Chairman & Managing Director Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "AI-ASSETS-HOLD/2026",
+    "q": "Engineering Graduate or Chartered Accountant or Cost Accountant or Post Gradu...",
+    "desc": "AI Assets Holding (AIAHL) has officially released employment advertisement notification AI-ASSETS-HOLD/2026 for the recruitment of 1 vacancies for Chairman & Managing Director posts.",
+    "u": "https://www.aiasl.in/resources/Advertisement%20for%20post%20of%20CMD%20-%20AIAHL.pdf"
+},
+  {
+    "id": "ngel-engineer-executive-recruitment-2026",
+    "b": "NGEL",
+    "t": "NGEL Recruitment 2026 – Apply for 1 Engineer, Executive Posts",
+    "d": "30 August 2026",
+    "l": "07.09.2026 (till 18:00 Hrs)",
+    "a": "NGEL/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "NGEL has officially released employment advertisement notification NGEL/2026 for the recruitment of 1 vacancies for Engineer, Executive posts.",
+    "u": "https://www.ngel.in/public/career/1/9bef2e6c3c/9bef2e6c3c.pdf"
+},
+  {
+    "id": "department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026",
+    "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
+    "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 – Apply for 23 BPM, ABPM & Dak Sevak Posts",
+    "d": "30 August 2026",
+    "l": "Refer Official Notification",
+    "a": "17-12/2026-GDS",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially released employment advertisement notification 17-12/2026-GDS for the recruitment of 23 vacancies for BPM, ABPM & Dak Sevak posts.",
+    "u": "https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf"
+},
+  {
+    "id": "agricultural-and-processed-foo-associate-legal-recruitment-2026",
+    "b": "Agricultural and Processed Food Products Export Development Authority (APEDA)",
+    "t": "Agricultural and Processed Food Products Export Development Authority (APEDA) Recruitment 2026 – Apply for 1 Associate (Legal) Posts",
+    "d": "30 August 2026",
+    "l": "09 September 2026",
+    "a": "PAD-2023-24-000091",
+    "q": "Bachelor of Laws (LL.B), At least 2 years of work experience in the relevant ...",
+    "desc": "Agricultural and Processed Food Products Export Development Authority (APEDA) has officially released employment advertisement notification PAD-2023-24-000091 for the recruitment of 1 vacancies for Associate (Legal) posts.",
+    "u": "https://apeda.gov.in/sites/default/files/recruitment_appointment/Advertisement_Associate_Legal_27_08_2026.pdf"
+},
+  {
+    "id": "all-india-institute-of-ayurved-pharmacist-recruitment-2026",
+    "b": "All India Institute of Ayurveda (AIIA)",
+    "t": "All India Institute of Ayurveda (AIIA) Recruitment 2026 – Apply for 1 Pharmacist Posts",
+    "d": "30 August 2026",
+    "l": "07 September 2026",
+    "a": "Z-50/74/2026-AIIA",
+    "q": "B. Pharma in Ayurveda, 1 year experience in reputed Ayurveda Hospital",
+    "desc": "All India Institute of Ayurveda (AIIA) has officially released employment advertisement notification Z-50/74/2026-AIIA for the recruitment of 1 vacancies for Pharmacist posts.",
+    "u": "https://aiia.gov.in/viewpdf?docTypeId=1&pdfName=1787827657352_Vacancy27082026161732.pdf"
+},
+  {
+    "id": "delhi-college-of-arts-and-comm-assistant-professor-recruitment-2026",
+    "b": "Delhi College of Arts and Commerce (DCAC)",
+    "t": "Delhi College of Arts and Commerce (DCAC) Recruitment 2026 – Apply for 2 Assistant Professor Posts",
+    "d": "30 August 2026",
+    "l": "02 September 2026",
+    "a": "DCAC/GUEST/2026/705",
+    "q": "Master's degree with 55% marks as per UGC Regulations, NET/Ph.D. as applicable",
+    "desc": "Delhi College of Arts and Commerce (DCAC) has officially released employment advertisement notification DCAC/GUEST/2026/705 for the recruitment of 2 vacancies for Assistant Professor posts.",
+    "u": "https://www.du.ac.in/uploads/2026/27082026-dcac-Notice_Guest_Interview_Journalism_compressed.pdf"
+},
+  {
+    "id": "post-graduate-institute-of-med-research-scientist-helping-att-recruitment-2026",
+    "b": "Post Graduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Post Graduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 2 Research Scientist, Helping Attendant Posts",
+    "d": "30 August 2026",
+    "l": "12 September 2026",
+    "a": "POST-GRADUATE-/2026",
+    "q": "M.Sc. in a relevant discipline with 2 year's experience in Microbiology, 10th...",
+    "desc": "Post Graduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POST-GRADUATE-/2026 for the recruitment of 2 vacancies for Research Scientist, Helping Attendant posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=Medmicro28Aug2026121133.pdf&PathKey=VACANCY_PATH"
+},
+  {
+    "id": "directorate-of-animal-husbandr-veterinary-field-assistant-vfa-recruitment-2026",
+    "b": "Directorate of Animal Husbandry and Veterinary, Government of Assam",
+    "t": "Directorate of Animal Husbandry and Veterinary, Government of Assam Recruitment 2026 – Apply for 200 Veterinary Field Assistant (VFA) and its allied cadre posts Posts",
+    "d": "30 August 2026",
+    "l": "23 September 2026, 23:59 hrs",
+    "a": "E-543943/71",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Directorate of Animal Husbandry and Veterinary, Government of Assam has officially released employment advertisement notification E-543943/71 for the recruitment of 200 vacancies for Veterinary Field Assistant (VFA) and its allied cadre posts posts.",
+    "u": "https://animalhusbandry.assam.gov.in/sites/default/files/swf_utility_folder/departments/ahvetdept_webcomindia_org_oid_3/menu/document/advertisement_for_recruitment_of_200_nos._of_vfas.pdf"
+},
+  {
+    "id": "mahapurusha-srimanta-sankarade-faculty-for-four-year-integrat-recruitment-2026",
+    "b": "Mahapurusha Srimanta Sankaradeva Viswavidyalaya (MSSV)",
+    "t": "Mahapurusha Srimanta Sankaradeva Viswavidyalaya (MSSV) Recruitment 2026 – Apply for 19 Faculty for Four-Year Integrated Teacher Education Programme (ITEP) Posts",
+    "d": "30 August 2026",
+    "l": "03 September 2026",
+    "a": "MSSV/R/147/2026/ADV/001",
+    "q": "Postgraduate degree in relevant discipline, M.Ed., Ph.D. in Education, NET/SE...",
+    "desc": "Mahapurusha Srimanta Sankaradeva Viswavidyalaya (MSSV) has officially released employment advertisement notification MSSV/R/147/2026/ADV/001 for the recruitment of 19 vacancies for Faculty for Four-Year Integrated Teacher Education Programme (ITEP) posts.",
+    "u": "https://webadmin.mssv.ac.in/media-library/uploads/7YhGHi8QgkomPnEJPAtYwuRg4bsM3X22HKI9QMl3.pdf"
+},
+  {
+    "id": "railway-recruitment-boards-rrb-junior-engineer-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 – Apply for 4029 Junior Engineer Posts",
+    "d": "30 August 2026",
+    "l": "13.09.2026 (23:59 hrs)",
+    "a": "CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially released employment advertisement notification CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA) for the recruitment of 4029 vacancies for Junior Engineer posts.",
+    "u": "https://rrb.indianrailways.gov.in/-/image/1786627574998CEN_04_2026_JE_DMS_English.pdf/examsDocuments"
+},
+  {
     "id": "indian-institute-of-engineerin-junior-research-fellow-recruitment-2026",
     "b": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur)",
     "t": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) Recruitment 2026 – Apply for 2 Junior Research Fellow Posts",

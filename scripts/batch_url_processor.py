@@ -157,6 +157,27 @@ def parse_vacancy_data(html, url):
     # 3. Extract Links
     official_pdf_url = ""
     official_site_url = ""
+    
+    # First check tables for explicit link rows
+    for t in tables:
+        for r in t.find_all('tr'):
+            cells = r.find_all(['td', 'th'])
+            if len(cells) >= 2:
+                row_label = clean_text(cells[0].get_text()).lower()
+                row_links = [clean_text(a['href']) for a in r.find_all('a', href=True)]
+                for href in row_links:
+                    if any(ign in href for ign in ['freejobalert', 'play.google.com', 'whatsapp', 'telegram', 'instagram', 'facebook', 'twitter', 'colleges.freejobalert']):
+                        continue
+                    if not href.startswith('http'):
+                        continue
+                    if 'notification' in row_label or 'pdf' in row_label or href.endswith('.pdf'):
+                        if not official_pdf_url:
+                            official_pdf_url = href
+                    elif any(k in row_label for k in ['website', 'apply online', 'portal', 'online application', 'apply here', 'official']):
+                        if not official_site_url:
+                            official_site_url = href
+
+    # Fallback to all page links if still missing
     for a in soup.find_all('a', href=True):
         href = clean_text(a['href'])
         txt = clean_text(a.get_text()).lower()
@@ -317,7 +338,7 @@ def parse_vacancy_data(html, url):
 
     # 13. Location
     location = "India"
-    loc_matches = re.findall(r'\b(Arunachal Pradesh|Itanagar|Assam|Guwahati|Tezpur|Bihar|Patna|Bhagalpur|Gaya|Chhattisgarh|Raipur|Jashpur|Bilaspur|Durg|Bhilai|Balodabazar|Bastar|Mungeli|Delhi|New Delhi|Gujarat|Gandhinagar|Ahmedabad|Vadodara|Surat|Bhavnagar|Haryana|Gurugram|Jhajjar|Rohtak|Kurukshetra|Jharkhand|Ranchi|Dhanbad|Chatra|Jamshedpur|Karnataka|Bengaluru|Bangalore|Raichur|Hassan|Chikkaballapur|Mysuru|Belagavi|Kerala|Thiruvananthapuram|Kochi|Kozhikode|Madhya Pradesh|Bhopal|Indore|Jabalpur|Gwalior|Katni|Maharashtra|Mumbai|Pune|Nagpur|Sangli|Mizoram|Aizawl|Odisha|Bhubaneswar|Rourkela|Cuttack|Mayurbhanj|Balangir|Punjab|Chandigarh|Sangrur|Mohali|Ludhiana|Patiala|Rajasthan|Jaipur|Jodhpur|Ajmer|Kota|Tamil Nadu|Chennai|Ramanathapuram|Tiruchirappalli|Pudukkottai|Erode|Coimbatore|Madurai|Telangana|Hyderabad|Hanumakonda|Warangal|Tripura|Agartala|Uttar Pradesh|UP|Lucknow|Kanpur|Varanasi|Gorakhpur|Azamgarh|Prayagraj|Allahabad|Aligarh|Uttarakhand|Dehradun|Roorkee|Kashipur|Haldwani|Almora|Nainital|West Bengal|WB|Kolkata|Kalyani|Shibpur|Malda|Santiniketan|Kharagpur|Jadavpur|Andhra Pradesh|Visakhapatnam|Chintapalle|Puducherry)\b', page_title + " " + board, re.IGNORECASE)
+    loc_matches = re.findall(r'\b(Andhra Pradesh|Arunachal Pradesh|Assam|Bihar|Chhattisgarh|Goa|Gujarat|Haryana|Himachal Pradesh|Jharkhand|Karnataka|Kerala|Madhya Pradesh|Maharashtra|Manipur|Meghalaya|Mizoram|Nagaland|Odisha|Punjab|Rajasthan|Sikkim|Tamil Nadu|Telangana|Tripura|Uttar Pradesh|Uttarakhand|West Bengal|Delhi|New Delhi|Chandigarh|Puducherry|Raebareli|Kozhikode|Rewari|Barnala|Amritsar|Nuapada|Koraput|Malegaon|Shivamogga|Nagpur|Raipur|Patna|Dhanbad|Jamshedpur|Dehradun|Roorkee|Kashipur|Haldwani|Almora|Nainital|Kolkata|Kalyani|Shibpur|Malda|Santiniketan|Kharagpur|Jadavpur|Visakhapatnam|Chintapalle|Hyderabad|Hanumakonda|Warangal|Bengaluru|Bangalore|Raichur|Hassan|Chikkaballapur|Mysuru|Belagavi|Bhopal|Indore|Jabalpur|Gwalior|Katni|Mumbai|Pune|Sangli|Bhubaneswar|Rourkela|Cuttack|Mayurbhanj|Balangir|Jaipur|Jodhpur|Ajmer|Kota|Chennai|Madurai|Coimbatore|Erode|Pudukkottai|Ramanathapuram|Tiruchirappalli|Itanagar|Guwahati|Tezpur|Bhagalpur|Gaya|Jashpur|Bilaspur|Durg|Bhilai|Balodabazar|Bastar|Mungeli|Gandhinagar|Ahmedabad|Vadodara|Surat|Bhavnagar|Gurugram|Jhajjar|Rohtak|Kurukshetra|Ranchi|Chatra|Kochi|Thiruvananthapuram|Aizawl|Sangrur|Mohali|Ludhiana|Patiala|Agartala|Lucknow|Kanpur|Varanasi|Gorakhpur|Azamgarh|Prayagraj|Allahabad|Aligarh)\b', page_title + " " + board + " " + html[:2000], re.IGNORECASE)
     if loc_matches:
         location = loc_matches[0].title()
 
