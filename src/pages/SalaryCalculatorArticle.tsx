@@ -170,7 +170,7 @@ export default function SalaryCalculatorArticle() {
           name="description" 
           content={`Calculate 7th CPC Government Salary for Level ${payLevel} (${levelInfo.defaultTitle}). Basic ₹${basicPay}, DA ${daPercentage}%, HRA, In-Hand Net Salary ₹${netSalary.toLocaleString('en-IN')}. Official Pay Matrix & Slip.`} 
         />
-        <link rel="canonical" href={`https://newvacancyalert.in/salary-calculator?level=${payLevel}&city=${cityType}&basic=${basicPay}`} />
+        <link rel="canonical" href={`https://newvacancyalert.in/articles/salary-calculator`} />
       </Helmet>
 
       <div className="max-w-7xl mx-auto space-y-10">
@@ -776,7 +776,7 @@ export default function SalaryCalculatorArticle() {
           "name": "7th Pay Commission Government Salary Calculator",
           "applicationCategory": "FinancialApplication",
           "operatingSystem": "All",
-          "url": "https://newvacancyalert.in/salary-calculator",
+          "url": "https://newvacancyalert.in/articles/salary-calculator",
           "description": "Comprehensive Government Salary Calculator for 7th CPC. Calculates Gross Pay, DA, HRA, TA, NPS, Tax, and In-Hand Net Salary across Pay Levels 1 to 18.",
           "offers": {
             "@type": "Offer",

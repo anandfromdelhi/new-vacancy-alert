@@ -465,7 +465,7 @@ export default function JobDetailPage() {
                 <span className="text-[11px] text-slate-500 block truncate">2218+ Vacancies 2026</span>
               </Link>
               <Link
-                to="/aiims-norcet-11-nursing-officer-2026/cutoff"
+                to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff"
                 className="p-3 bg-slate-50 hover:bg-blue-50/60 border border-slate-200 rounded-xl transition group"
               >
                 <span className="text-xs font-black text-blue-900 group-hover:text-blue-600 block truncate">
@@ -474,7 +474,7 @@ export default function JobDetailPage() {
                 <span className="text-[11px] text-slate-500 block truncate">Rank Predictor & Percentile</span>
               </Link>
               <Link
-                to="/rrb-exam-calendar-2026-27"
+                to="/articles/rrb-exam-calendar-2026-27"
                 className="p-3 bg-slate-50 hover:bg-blue-50/60 border border-slate-200 rounded-xl transition group"
               >
                 <span className="text-xs font-black text-blue-900 group-hover:text-blue-600 block truncate">
@@ -483,7 +483,7 @@ export default function JobDetailPage() {
                 <span className="text-[11px] text-slate-500 block truncate">NTPC, ALP, Group D Dates</span>
               </Link>
               <Link
-                to="/salary-calculator"
+                to="/articles/salary-calculator"
                 className="p-3 bg-slate-50 hover:bg-blue-50/60 border border-slate-200 rounded-xl transition group"
               >
                 <span className="text-xs font-black text-blue-900 group-hover:text-blue-600 block truncate">
@@ -1124,7 +1124,7 @@ export default function JobDetailPage() {
                   </div>
                 </div>
                 <Link 
-                  to="/rrb-exam-calendar-2026-27" 
+                  to="/articles/rrb-exam-calendar-2026-27" 
                   className="shrink-0 w-full sm:w-auto text-center px-5 py-3 bg-white text-orange-950 hover:bg-amber-100 font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 group-hover:scale-105"
                 >
                   <span>View RRB Calendar</span>
@@ -1433,7 +1433,7 @@ export default function JobDetailPage() {
                 </div>
                 <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
                   <Link
-                    to="/best-books-for-bihar-bsfc"
+                    to="/articles/best-books-for-bihar-bsfc"
                     className="bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 border border-amber-400/40 font-bold px-4 py-3 rounded-xl transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
                   >
                     <BookOpen className="h-4 w-4" /> Best Books &amp; Prep Guide
@@ -1479,7 +1479,7 @@ export default function JobDetailPage() {
                 </div>
                 <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
                   <Link
-                    to="/best-books-for-mpesb"
+                    to="/articles/best-books-for-mpesb"
                     className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
                   >
                     <BookOpen className="h-4 w-4" /> Best Books &amp; Prep Guide
@@ -1961,7 +1961,7 @@ export default function JobDetailPage() {
                     Compare category-wise Stage I & II cutoffs, qualifying percentages, and vacancy trends for NORCET 8, 9, and 10 to plan your strategy.
                   </p>
                 </div>
-                <Link to="/aiims-norcet-11-nursing-officer-2026/cutoff" className="shrink-0 bg-white hover:bg-slate-50 text-blue-900 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 border border-slate-200 w-full sm:w-auto justify-center">
+                <Link to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff" className="shrink-0 bg-white hover:bg-slate-50 text-blue-900 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 border border-slate-200 w-full sm:w-auto justify-center">
                   <TrendingUp className="h-5 w-5 text-blue-700" /> View Cutoff Trends
                 </Link>
               </div>
@@ -4209,7 +4209,7 @@ export default function JobDetailPage() {
                       See what percentile is safe for your category based on the last 3 exams. We analyzed NORCET 8, 9, and 10 cutoffs just for you.
                     </p>
                   </div>
-                  <Link to="/aiims-norcet-11-nursing-officer-2026/cutoff" className="shrink-0 bg-white hover:bg-slate-50 text-emerald-900 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 border border-slate-200 w-full sm:w-auto justify-center">
+                  <Link to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff" className="shrink-0 bg-white hover:bg-slate-50 text-emerald-900 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 border border-slate-200 w-full sm:w-auto justify-center">
                     <Target className="h-5 w-5 text-emerald-700" /> Read Cutoff Guide
                   </Link>
                 </div>
@@ -4238,7 +4238,7 @@ export default function JobDetailPage() {
                     Get the complete subject-wise booklist for General Aptitude (100 Marks) &amp; Technical Stream (100 Marks: Civil, Mech, Elect, CS), along with MP GK, PYQs, and 30-day preparation timetable.
                   </p>
                 </div>
-                <Link to="/best-books-for-mpesb" className="shrink-0 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                <Link to="/articles/best-books-for-mpesb" className="shrink-0 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
                   <BookOpen className="h-5 w-5" /> Read Best Books Guide
                 </Link>
               </div>
@@ -4259,7 +4259,7 @@ export default function JobDetailPage() {
                     Check the tailored book recommendations for LDC (Computer &amp; Typing), Assistant Manager (Management &amp; Economy), Accountant (Accounting &amp; Auditing), and Quality Controller (Agriculture).
                   </p>
                 </div>
-                <Link to="/best-books-for-bihar-bsfc" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                <Link to="/articles/best-books-for-bihar-bsfc" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
                   <BookOpen className="h-5 w-5" /> Read BSFC Best Books Guide
                 </Link>
               </div>
@@ -4950,7 +4950,7 @@ export default function JobDetailPage() {
               
               {id === 'aiims-norcet-11-nursing-officer-2026' && (
                 <Link 
-                  to="/aiims-norcet-11-nursing-officer-2026/cutoff"
+                  to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff"
                   className="bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-200 hover:border-emerald-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
                 >
                   <span className="flex items-center gap-2">

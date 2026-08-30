@@ -73,7 +73,7 @@ export default function SscCglPrepBooksMocksPage() {
       <Helmet>
         <title>SSC CGL 12-Month Preparation Roadmap, Books & Mock Strategy | Study Plan</title>
         <meta name="description" content="Step-by-step SSC CGL study plan: 12-month zero-to-hero roadmap, daily 8-hour timetable, subject-wise booklist, and 3-round mock test taking technique." />
-        <link rel="canonical" href="https://newvacancyalert.in/ssc-cgl-preparation-strategy-study-plan-books-mocks" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/ssc-cgl-preparation-strategy-study-plan-books-mocks" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -85,7 +85,7 @@ export default function SscCglPrepBooksMocksPage() {
             <span>/</span>
             <Link to="/articles" className="hover:text-white transition">Articles</Link>
             <span>/</span>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
             <span>/</span>
             <span className="text-slate-400 truncate">Chapter 6: Preparation Plan & Books</span>
           </div>
@@ -120,13 +120,13 @@ export default function SscCglPrepBooksMocksPage() {
 
           {/* Nav */}
           <div className="pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs font-bold">
-            <Link to="/ssc-cgl-cutoffs-post-preference-ranking-guide" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-cutoffs-post-preference-ranking-guide" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               <ArrowLeft className="w-3.5 h-3.5" /> Prev: Preference Guide
             </Link>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
               <BookOpen className="w-3.5 h-3.5" /> Master Hub
             </Link>
-            <Link to="/ssc-cgl-admit-card-selection-dv-checklist" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-admit-card-selection-dv-checklist" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               Next: Selection & DV <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -305,7 +305,7 @@ export default function SscCglPrepBooksMocksPage() {
             <h4 className="text-lg sm:text-xl font-black">Chapter 7: Admit Card, Selection Stages & Document Verification Checklist</h4>
           </div>
           <Link
-            to="/ssc-cgl-admit-card-selection-dv-checklist"
+            to="/articles/ssc-cgl-admit-card-selection-dv-checklist"
             className="px-5 py-2.5 bg-white text-blue-800 hover:bg-blue-50 font-black text-xs sm:text-sm rounded-xl shadow-xs transition flex items-center gap-1.5 shrink-0"
           >
             <span>Read Chapter 7</span>

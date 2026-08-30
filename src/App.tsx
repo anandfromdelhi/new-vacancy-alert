@@ -102,42 +102,57 @@ export default function App() {
                   <Route path="jobs-for/:qualification" element={<QualificationJobsPage />} />
                   <Route path="state/:stateSlug" element={<StateJobsPage />} />
                   <Route path="board/:boardSlug" element={<BoardJobsPage />} />
+                  {/* Articles Hub & Individual Article Pages */}
                   <Route path="articles" element={<ArticlesPage />} />
                   <Route path="blog" element={<Navigate to="/articles" replace />} />
                   <Route path="blogs" element={<Navigate to="/articles" replace />} />
-                  <Route path="about" element={<AboutPage />} />
-                  <Route path="contact" element={<ContactPage />} />
-                  <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
-                  <Route path="rss-feed" element={<RssFeedPage />} />
+                  <Route path="articles/salary-calculator" element={<SalaryCalculatorArticle />} />
+                  <Route path="articles/ssc-exam-calendar" element={<SscCalendarArticle />} />
+                  <Route path="articles/rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />
+                  <Route path="articles/best-books-for-rrb-ntpc" element={<RrbNtpcBestBooksPage />} />
+                  <Route path="articles/best-books-for-mpesb" element={<MpesbBestBooksPage />} />
+                  <Route path="articles/best-books-for-bihar-bsfc" element={<BiharBsfcBestBooksPage />} />
+                  <Route path="articles/aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
+                  <Route path="articles/aiims-norcet-11-cutoff-marks" element={<NorcetCutoffArticle />} />
 
-                  <Route path="salary-calculator" element={<SalaryCalculatorArticle />} />
-                  <Route path="govt-job-salary-calculator" element={<Navigate to="/salary-calculator" replace />} />
+                  {/* SSC CGL Master Compendium Hub & 7 Child Chapter Articles */}
+                  <Route path="articles/ssc-cgl-master-guide" element={<SscCglMasterGuidePage />} />
+                  <Route path="articles/ssc-cgl-notification-vacancies-trend" element={<SscCglNotificationVacanciesPage />} />
+                  <Route path="articles/ssc-cgl-posts-salary-pay-scale-hierarchy" element={<SscCglPostsSalaryPage />} />
+                  <Route path="articles/ssc-cgl-eligibility-physical-standards-pst-pet" element={<SscCglEligibilityPhysicalPage />} />
+                  <Route path="articles/ssc-cgl-exam-pattern-syllabus-dest-typing" element={<SscCglExamPatternSyllabusPage />} />
+                  <Route path="articles/ssc-cgl-cutoffs-post-preference-ranking-guide" element={<SscCglCutoffsPreferencePage />} />
+                  <Route path="articles/ssc-cgl-preparation-strategy-study-plan-books-mocks" element={<SscCglPrepBooksMocksPage />} />
+                  <Route path="articles/ssc-cgl-admit-card-selection-dv-checklist" element={<SscCglSelectionDvPage />} />
+
+                  {/* Backward-Compatible Redirects from Legacy Paths to /articles/... */}
+                  <Route path="salary-calculator" element={<Navigate to="/articles/salary-calculator" replace />} />
+                  <Route path="govt-job-salary-calculator" element={<Navigate to="/articles/salary-calculator" replace />} />
+                  <Route path="ssc-exam-calendar" element={<Navigate to="/articles/ssc-exam-calendar" replace />} />
+                  <Route path="ssc-exam-calendar-2026-27" element={<Navigate to="/articles/ssc-exam-calendar" replace />} />
+                  <Route path="rrb-exam-calendar-2026-27" element={<Navigate to="/articles/rrb-exam-calendar-2026-27" replace />} />
+                  <Route path="best-books-for-rrb-ntpc" element={<Navigate to="/articles/best-books-for-rrb-ntpc" replace />} />
+                  <Route path="rrb-ntpc-best-books" element={<Navigate to="/articles/best-books-for-rrb-ntpc" replace />} />
+                  <Route path="best-books-for-mpesb" element={<Navigate to="/articles/best-books-for-mpesb" replace />} />
+                  <Route path="best-books-for-mpesb-group-3" element={<Navigate to="/articles/best-books-for-mpesb" replace />} />
+                  <Route path="mpesb-best-books" element={<Navigate to="/articles/best-books-for-mpesb" replace />} />
+                  <Route path="best-books-for-bihar-bsfc" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
+                  <Route path="bihar-bsfc-best-books" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
+                  <Route path="best-books-for-bsfc" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
+                  <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<Navigate to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
+                  <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/articles/aiims-norcet-11-cutoff-marks" replace />} />
+                  <Route path="ssc-cgl-master-guide" element={<Navigate to="/articles/ssc-cgl-master-guide" replace />} />
+                  <Route path="ssc-cgl-notification-vacancies-trend" element={<Navigate to="/articles/ssc-cgl-notification-vacancies-trend" replace />} />
+                  <Route path="ssc-cgl-posts-salary-pay-scale-hierarchy" element={<Navigate to="/articles/ssc-cgl-posts-salary-pay-scale-hierarchy" replace />} />
+                  <Route path="ssc-cgl-eligibility-physical-standards-pst-pet" element={<Navigate to="/articles/ssc-cgl-eligibility-physical-standards-pst-pet" replace />} />
+                  <Route path="ssc-cgl-exam-pattern-syllabus-dest-typing" element={<Navigate to="/articles/ssc-cgl-exam-pattern-syllabus-dest-typing" replace />} />
+                  <Route path="ssc-cgl-cutoffs-post-preference-ranking-guide" element={<Navigate to="/articles/ssc-cgl-cutoffs-post-preference-ranking-guide" replace />} />
+                  <Route path="ssc-cgl-preparation-strategy-study-plan-books-mocks" element={<Navigate to="/articles/ssc-cgl-preparation-strategy-study-plan-books-mocks" replace />} />
+                  <Route path="ssc-cgl-admit-card-selection-dv-checklist" element={<Navigate to="/articles/ssc-cgl-admit-card-selection-dv-checklist" replace />} />
+
                   <Route path="marketing-partner" element={<MarketingPartnerPage />} />
                   <Route path="marketing-partner/dashboard" element={<MarketingDashboardPage />} />
                   <Route path="marketing-partner/terms" element={<MarketingTermsPage />} />
-                  <Route path="ssc-exam-calendar" element={<SscCalendarArticle />} />
-                  <Route path="ssc-exam-calendar-2026-27" element={<Navigate to="/ssc-exam-calendar" replace />} />
-                  <Route path="rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />
-                  <Route path="best-books-for-rrb-ntpc" element={<RrbNtpcBestBooksPage />} />
-                  <Route path="rrb-ntpc-best-books" element={<Navigate to="/best-books-for-rrb-ntpc" replace />} />
-                  <Route path="best-books-for-mpesb" element={<MpesbBestBooksPage />} />
-                  <Route path="best-books-for-mpesb-group-3" element={<Navigate to="/best-books-for-mpesb" replace />} />
-                  <Route path="mpesb-best-books" element={<Navigate to="/best-books-for-mpesb" replace />} />
-                  <Route path="best-books-for-bihar-bsfc" element={<BiharBsfcBestBooksPage />} />
-                  <Route path="bihar-bsfc-best-books" element={<Navigate to="/best-books-for-bihar-bsfc" replace />} />
-                  <Route path="best-books-for-bsfc" element={<Navigate to="/best-books-for-bihar-bsfc" replace />} />
-                  <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
-                  <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
-
-                  {/* SSC CGL Master Compendium Hub & 7 Child Chapter Articles */}
-                  <Route path="ssc-cgl-master-guide" element={<SscCglMasterGuidePage />} />
-                  <Route path="ssc-cgl-notification-vacancies-trend" element={<SscCglNotificationVacanciesPage />} />
-                  <Route path="ssc-cgl-posts-salary-pay-scale-hierarchy" element={<SscCglPostsSalaryPage />} />
-                  <Route path="ssc-cgl-eligibility-physical-standards-pst-pet" element={<SscCglEligibilityPhysicalPage />} />
-                  <Route path="ssc-cgl-exam-pattern-syllabus-dest-typing" element={<SscCglExamPatternSyllabusPage />} />
-                  <Route path="ssc-cgl-cutoffs-post-preference-ranking-guide" element={<SscCglCutoffsPreferencePage />} />
-                  <Route path="ssc-cgl-preparation-strategy-study-plan-books-mocks" element={<SscCglPrepBooksMocksPage />} />
-                  <Route path="ssc-cgl-admit-card-selection-dv-checklist" element={<SscCglSelectionDvPage />} />
 
                   {/* RRB Technician Notification Detailed Sub-Pages */}
                   <Route path="rrb-technician-cen-02-2026/posts-and-vacancies" element={<PostsAndVacancies />} />

@@ -29,7 +29,7 @@ export default function SscCglMasterGuidePage() {
   const chapters = [
     {
       id: "ch1",
-      slug: "/ssc-cgl-notification-vacancies-trend",
+      slug: "/articles/ssc-cgl-notification-vacancies-trend",
       number: "Chapter 1",
       title: "Notification Dates & 5-Year Vacancy Trends (2022–2027)",
       desc: "Historical analysis of notification release patterns, 5-year vacancy trends from 36,012 to 12,256, initial vs final vacancy dynamics, and expected timelines.",
@@ -40,7 +40,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch2",
-      slug: "/ssc-cgl-posts-salary-pay-scale-hierarchy",
+      slug: "/articles/ssc-cgl-posts-salary-pay-scale-hierarchy",
       number: "Chapter 2",
       title: "Posts Directory, Hierarchy & 7th Pay Salary Structure (Levels 4 to 8)",
       desc: "All 34+ posts across Levels 8 to 4 with starting basic pay, in-hand salary calculations across X, Y, Z cities, DA (53%) integration, and promotion ladders.",
@@ -51,7 +51,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch3",
-      slug: "/ssc-cgl-eligibility-physical-standards-pst-pet",
+      slug: "/articles/ssc-cgl-eligibility-physical-standards-pst-pet",
       number: "Chapter 3",
       title: "Eligibility Criteria, Age Limits & Physical Standards (PST/PET)",
       desc: "Educational qualifications, crucial cut-off rules, category age relaxations, and mandatory Physical Measurement & Endurance standards for Inspector and SI posts.",
@@ -62,7 +62,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch4",
-      slug: "/ssc-cgl-exam-pattern-syllabus-dest-typing",
+      slug: "/articles/ssc-cgl-exam-pattern-syllabus-dest-typing",
       number: "Chapter 4",
       title: "New Exam Pattern, Detailed Syllabus & DEST Typing Benchmark",
       desc: "Architectural guide to Tier-I qualifying structure, Tier-II 390-mark composite merit scheme, Computer Module, and DEST typing test (27 WPM / 2000 keystrokes).",
@@ -73,7 +73,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch5",
-      slug: "/ssc-cgl-cutoffs-post-preference-ranking-guide",
+      slug: "/articles/ssc-cgl-cutoffs-post-preference-ranking-guide",
       number: "Chapter 5",
       title: "Cut-Off Trends & Practical Post Preference Career Ranking",
       desc: "How to strategically balance starting salary, institutional promotion ceiling, home state cadre stability, and desk vs field work when filling your SSC option form.",
@@ -84,7 +84,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch6",
-      slug: "/ssc-cgl-preparation-strategy-study-plan-books-mocks",
+      slug: "/articles/ssc-cgl-preparation-strategy-study-plan-books-mocks",
       number: "Chapter 6",
       title: "12-Month Preparation Roadmap, Daily Study Timetable & Booklist",
       desc: "A battle-tested study roadmap covering 4 preparation quarters, an 8-hour daily schedule, standard subject-wise booklist, and 3-round mock test optimization.",
@@ -95,7 +95,7 @@ export default function SscCglMasterGuidePage() {
     },
     {
       id: "ch7",
-      slug: "/ssc-cgl-admit-card-selection-dv-checklist",
+      slug: "/articles/ssc-cgl-admit-card-selection-dv-checklist",
       number: "Chapter 7",
       title: "Admit Card, Selection Stages & Document Verification Master Checklist",
       desc: "Everything regarding city intimation slips, regional portal download steps, the 6-stage journey to joining, and the definitive Departmental DV dossier checklist.",
@@ -130,7 +130,7 @@ export default function SscCglMasterGuidePage() {
       <Helmet>
         <title>The Ultimate SSC CGL Master Guide: 360° Complete Handbook & Resource Hub</title>
         <meta name="description" content="The definitive compendium for SSC CGL: Notification timelines, post directories, 7th Pay Commission salaries, physical standards, new 390-mark exam pattern, books, and preparation roadmap." />
-        <link rel="canonical" href="https://newvacancyalert.in/ssc-cgl-master-guide" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/ssc-cgl-master-guide" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

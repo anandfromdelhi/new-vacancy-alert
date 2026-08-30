@@ -62,7 +62,7 @@ export default function SscCalendarArticle() {
       <Helmet>
         <title>SSC Exam Calendar 2026-2027 | Notification, Last Date, Admit Card, Exam Date, Result</title>
         <meta name="description" content="Check the latest SSC Exam Calendar with notification dates, application deadlines, admit cards, exam schedules, answer keys, results, official PDFs, monthly timelines, and live status updates." />
-        <link rel="canonical" href="https://newvacancyalert.in/ssc-exam-calendar" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/ssc-exam-calendar" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

@@ -60,44 +60,86 @@ export function getPageMetaData(urlPath: string) {
   if (cleanPath === "" || cleanPath === "index.html") {
     // Home page - default title & description
   }
-  else if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks") {
+  else if (cleanPath === "norcet-cutoff" || cleanPath === "norcet-previous-year-cutoff" || cleanPath === "aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "aiims-norcet-11-cutoff-marks" || cleanPath === "articles/aiims-norcet-11-nursing-officer-2026/cutoff" || cleanPath === "articles/aiims-norcet-11-cutoff-marks") {
     title = "AIIMS NORCET Previous Year Cutoff (Last 3 Exams) | NewVacancyAlert";
     description =
       "Detailed category-wise analysis of NORCET 8, 9, and 10 cutoffs. Predict expected cutoffs for NORCET 11 and download solved question papers PDF.";
-    ogUrl = "https://newvacancyalert.in/aiims-norcet-11-nursing-officer-2026/cutoff";
+    ogUrl = "https://newvacancyalert.in/articles/aiims-norcet-11-nursing-officer-2026/cutoff";
   } 
-  else if (cleanPath === "salary-calculator" || cleanPath === "govt-job-salary-calculator") {
+  else if (cleanPath === "salary-calculator" || cleanPath === "govt-job-salary-calculator" || cleanPath === "articles/salary-calculator") {
     title = "7th Pay Commission Salary Calculator 2026 | NewVacancyAlert";
     description = "Calculate exact net in-hand salary for central and state government jobs including basic pay, DA, HRA, TA, and deductions.";
-    ogUrl = "https://newvacancyalert.in/salary-calculator";
+    ogUrl = "https://newvacancyalert.in/articles/salary-calculator";
   }
-  else if (cleanPath === "ssc-exam-calendar" || cleanPath === "ssc-exam-calendar-2026-27") {
+  else if (cleanPath === "ssc-exam-calendar" || cleanPath === "ssc-exam-calendar-2026-27" || cleanPath === "articles/ssc-exam-calendar") {
     title = "SSC Exam Calendar 2026-27 Notification Dates | NewVacancyAlert";
     description = "Complete official exam dates, notification releases, and application schedules for SSC CGL, CHSL, MTS, CPO, and GD Constable.";
-    ogUrl = "https://newvacancyalert.in/ssc-exam-calendar";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-exam-calendar";
   }
-  else if (cleanPath === "rrb-exam-calendar-2026-27") {
+  else if (cleanPath === "rrb-exam-calendar-2026-27" || cleanPath === "articles/rrb-exam-calendar-2026-27") {
     title = "RRB Railway Exam Calendar 2026-27 Official Dates | NewVacancyAlert";
     description = "Official annual schedule for Railway Recruitment Board (RRB) exams including NTPC, ALP, Technician, Group D, and JE vacancies.";
+    ogUrl = "https://newvacancyalert.in/articles/rrb-exam-calendar-2026-27";
   }
-  else if (cleanPath === "best-books-for-rrb-ntpc" || cleanPath === "rrb-ntpc-best-books") {
+  else if (cleanPath === "best-books-for-rrb-ntpc" || cleanPath === "rrb-ntpc-best-books" || cleanPath === "articles/best-books-for-rrb-ntpc") {
     title = "Best Books for RRB NTPC 2026: Subject-Wise Maths, Reasoning, GK & PYQs | NewVacancyAlert";
     description = "Complete guide to the best books for RRB NTPC 2026 preparation: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies.";
-    ogUrl = "https://newvacancyalert.in/best-books-for-rrb-ntpc";
+    ogUrl = "https://newvacancyalert.in/articles/best-books-for-rrb-ntpc";
   }
-  else if (cleanPath === "best-books-for-mpesb" || cleanPath === "best-books-for-mpesb-group-3" || cleanPath === "mpesb-best-books") {
+  else if (cleanPath === "best-books-for-mpesb" || cleanPath === "best-books-for-mpesb-group-3" || cleanPath === "mpesb-best-books" || cleanPath === "articles/best-books-for-mpesb") {
     title = "Best Books for MPESB 2026: Subject-Wise Books for MPESB Group 3 Preparation | NewVacancyAlert";
     description = "Looking for the best books for MPESB 2026? Check the best MPESB books for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer and Group 3 technical preparation.";
-    ogUrl = "https://newvacancyalert.in/best-books-for-mpesb";
+    ogUrl = "https://newvacancyalert.in/articles/best-books-for-mpesb";
   }
-  else if (cleanPath === "best-books-for-bihar-bsfc" || cleanPath === "bihar-bsfc-best-books" || cleanPath === "best-books-for-bsfc") {
+  else if (cleanPath === "best-books-for-bihar-bsfc" || cleanPath === "bihar-bsfc-best-books" || cleanPath === "best-books-for-bsfc" || cleanPath === "articles/best-books-for-bihar-bsfc") {
     title = "Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Asst Manager, Accountant | NewVacancyAlert";
     description = "Looking for the best books for Bihar BSFC 2026? Check the best BSFC books for LDC, Assistant Manager, Accountant, Assistant Accounts Officer and Quality Controller preparation.";
-    ogUrl = "https://newvacancyalert.in/best-books-for-bihar-bsfc";
+    ogUrl = "https://newvacancyalert.in/articles/best-books-for-bihar-bsfc";
+  }
+  else if (cleanPath === "ssc-cgl-master-guide" || cleanPath === "articles/ssc-cgl-master-guide") {
+    title = "The Ultimate SSC CGL Master Guide: 360° Complete Handbook & Resource Hub";
+    description = "The definitive compendium for SSC CGL: Notification timelines, post directories, 7th Pay Commission salaries, physical standards, new 390-mark exam pattern, books, and preparation roadmap.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-master-guide";
+  }
+  else if (cleanPath === "ssc-cgl-notification-vacancies-trend" || cleanPath === "articles/ssc-cgl-notification-vacancies-trend") {
+    title = "SSC CGL Notification Dates & 5-Year Vacancy Trends (2022-2027) | Complete Analysis";
+    description = "Exhaustive analysis of SSC CGL notification timelines, 5-year vacancy trends (2022-2027), initial vs final vacancy increases, and realistic schedule projections from official records.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-notification-vacancies-trend";
+  }
+  else if (cleanPath === "ssc-cgl-posts-salary-pay-scale-hierarchy" || cleanPath === "articles/ssc-cgl-posts-salary-pay-scale-hierarchy") {
+    title = "SSC CGL Posts Directory, Hierarchy & 7th Pay Commission Salary Structure";
+    description = "Complete directory of all 34+ SSC CGL posts across Level 8 to Level 4 with starting basic, in-hand salary for X/Y/Z cities, DA (53%), allowances, and promotion paths.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-posts-salary-pay-scale-hierarchy";
+  }
+  else if (cleanPath === "ssc-cgl-eligibility-physical-standards-pst-pet" || cleanPath === "articles/ssc-cgl-eligibility-physical-standards-pst-pet") {
+    title = "SSC CGL Eligibility Criteria, Age Limits & Physical Standards (PST/PET) Guide";
+    description = "Complete guide to SSC CGL educational eligibility, crucial cut-off dates, category age relaxations, and male/female Physical Measurement and Endurance Standards (PST/PET).";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-eligibility-physical-standards-pst-pet";
+  }
+  else if (cleanPath === "ssc-cgl-exam-pattern-syllabus-dest-typing" || cleanPath === "articles/ssc-cgl-exam-pattern-syllabus-dest-typing") {
+    title = "SSC CGL New Exam Pattern, Syllabus & DEST Typing Speed Test Guide";
+    description = "Detailed analysis of SSC CGL Tier-I (qualifying) and Tier-II (390 marks merit) pattern, section-wise syllabus, Computer Knowledge CPT rules, and DEST typing error benchmarks.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-exam-pattern-syllabus-dest-typing";
+  }
+  else if (cleanPath === "ssc-cgl-cutoffs-post-preference-ranking-guide" || cleanPath === "articles/ssc-cgl-cutoffs-post-preference-ranking-guide") {
+    title = "SSC CGL Post Preference & Career Ranking Guide | Home State vs Salary vs Promotion";
+    description = "Master post preference guide for SSC CGL: How to choose between ASO CSS, MEA, Income Tax, GST Inspector, and AAO based on home state, salary, and career growth.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-cutoffs-post-preference-ranking-guide";
+  }
+  else if (cleanPath === "ssc-cgl-preparation-strategy-study-plan-books-mocks" || cleanPath === "articles/ssc-cgl-preparation-strategy-study-plan-books-mocks") {
+    title = "SSC CGL 12-Month Preparation Roadmap, Books & Mock Strategy | Study Plan";
+    description = "Step-by-step SSC CGL study plan: 12-month zero-to-hero roadmap, daily 8-hour timetable, subject-wise booklist, and 3-round mock test taking technique.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-preparation-strategy-study-plan-books-mocks";
+  }
+  else if (cleanPath === "ssc-cgl-admit-card-selection-dv-checklist" || cleanPath === "articles/ssc-cgl-admit-card-selection-dv-checklist") {
+    title = "SSC CGL Admit Card, Selection Process & Document Verification (DV) Checklist";
+    description = "Complete guide to SSC CGL admit card release, examination stages from Tier-I to joining, departmental Document Verification (DV) checklist, and crucial certificate validity rules.";
+    ogUrl = "https://newvacancyalert.in/articles/ssc-cgl-admit-card-selection-dv-checklist";
   }
   else if (cleanPath === "articles") {
     title = "Syllabus, Exam Strategy & Recruitment Guides | NewVacancyAlert";
     description = "Read expert articles on government job preparations, exam patterns, cutoff trends, and career advice.";
+    ogUrl = "https://newvacancyalert.in/articles";
   }
   else if (cleanPath === "about") {
     title = "About Us | NewVacancyAlert - Verified Govt Job Portal";

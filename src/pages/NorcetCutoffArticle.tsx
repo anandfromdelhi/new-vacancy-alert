@@ -285,7 +285,7 @@ export default function NorcetCutoffArticle() {
       <Helmet>
         <title>AIIMS NORCET Previous Year Cutoff (Last 3 Exams) - Trend Analysis & PDF</title>
         <meta name="description" content="Compare category-wise cutoffs, vacancy trends, qualifying criteria, and official PDFs for NORCET 8, 9, and 10. Ultimate guide for Nursing Officer aspirants." />
-        <link rel="canonical" href="https://newvacancyalert.in/aiims-norcet-11-nursing-officer-2026/cutoff" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/aiims-norcet-11-nursing-officer-2026/cutoff" />
         <meta property="og:title" content="AIIMS NORCET Previous Year Cutoff (Last 3 Exams)" />
         <meta property="og:description" content="Detailed analysis of NORCET 8, 9, and 10 cutoffs. Predict expected cutoffs for NORCET 11 and prepare efficiently." />
         <meta property="og:type" content="article" />

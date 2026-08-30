@@ -134,7 +134,7 @@ export default function MpesbBestBooksPage() {
       <Helmet>
         <title>Best Books for MPESB 2026: Subject-Wise Books for MPESB Group 3 Preparation | NewVacancyAlert</title>
         <meta name="description" content="Looking for the best books for MPESB 2026? Check the best MPESB books for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer and Group 3 technical preparation." />
-        <link rel="canonical" href="https://newvacancyalert.in/best-books-for-mpesb" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/best-books-for-mpesb" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>

@@ -27,7 +27,7 @@ interface ArticleItem {
 const ARTICLES_LIST: ArticleItem[] = [
   {
     id: 'ssc-cgl-master-guide',
-    slug: '/ssc-cgl-master-guide',
+    slug: '/articles/ssc-cgl-master-guide',
     title: 'The Ultimate SSC CGL Master Guide: Complete 360° Handbook & Resource Hub',
     excerpt: 'The complete compendium for SSC CGL: Notification timelines, 34+ post directories, 7th Pay Commission salaries, physical standards, new 390-mark exam pattern, and preparation roadmap.',
     category: 'SSC',
@@ -41,7 +41,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'ssc-cgl-posts-salary',
-    slug: '/ssc-cgl-posts-salary-pay-scale-hierarchy',
+    slug: '/articles/ssc-cgl-posts-salary-pay-scale-hierarchy',
     title: 'SSC CGL Posts Directory, Hierarchy & 7th Pay Salary Structure (Levels 4 to 8)',
     excerpt: 'Exhaustive guide to all 34+ SSC CGL posts across Level 8, 7, 6, 5, and 4 with 7th Pay Commission in-hand salary calculations, DA (53%), HRA, and career hierarchy.',
     category: 'SSC',
@@ -55,7 +55,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'ssc-cgl-exam-pattern',
-    slug: '/ssc-cgl-exam-pattern-syllabus-dest-typing',
+    slug: '/articles/ssc-cgl-exam-pattern-syllabus-dest-typing',
     title: 'SSC CGL New Exam Pattern, Detailed Syllabus & DEST Typing Benchmark',
     excerpt: 'Detailed analysis of SSC CGL Tier-I qualifying structure, Tier-II 390-mark composite merit scheme, Computer Knowledge CPT rules, and DEST typing error benchmarks.',
     category: 'SSC',
@@ -69,7 +69,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'ssc-cgl-prep-strategy',
-    slug: '/ssc-cgl-preparation-strategy-study-plan-books-mocks',
+    slug: '/articles/ssc-cgl-preparation-strategy-study-plan-books-mocks',
     title: 'SSC CGL 12-Month Preparation Roadmap, Daily Study Plan & Booklist',
     excerpt: 'Step-by-step SSC CGL study plan: 12-month zero-to-hero roadmap, daily 8-hour timetable, subject-wise booklist, and 3-round mock test taking technique.',
     category: 'SSC',
@@ -83,7 +83,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'salary-calculator-2026',
-    slug: '/salary-calculator',
+    slug: '/articles/salary-calculator',
     title: '7th Pay Commission Salary Calculator 2026: DA, HRA, NPS & In-Hand Salary',
     excerpt: 'Calculate exact Central and State Government employee salary. Determine Gross Pay, DA, HRA, TA, NPS deductions, and final In-Hand Net Salary across all Pay Levels.',
     category: 'General',
@@ -97,7 +97,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'ssc-calendar-2026',
-    slug: '/ssc-exam-calendar',
+    slug: '/articles/ssc-exam-calendar',
     title: 'SSC Exam Calendar 2026-2027: Notification, Last Date, Admit Card, Exam Date',
     excerpt: 'Check the latest SSC Exam Calendar with notification dates, application deadlines, admit cards, exam schedules, and results updated direct from ssc.gov.in.',
     category: 'SSC',
@@ -111,7 +111,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'rrb-calendar-2026',
-    slug: '/rrb-exam-calendar-2026-27',
+    slug: '/articles/rrb-exam-calendar-2026-27',
     title: 'RRB Exam Calendar 2026-27: Complete Notification, Exam Date, Admit Card & Result Timeline',
     excerpt: 'Comprehensive official & expected schedule for all Railway Recruitment Board exams including RRB NTPC, Group D, ALP, Technician, JE, and Paramedical. Updated for 2026-27.',
     category: 'Railway',
@@ -125,7 +125,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'best-books-for-rrb-ntpc',
-    slug: '/best-books-for-rrb-ntpc',
+    slug: '/articles/best-books-for-rrb-ntpc',
     title: 'Best Books for RRB NTPC 2026: Subject-Wise Best Books for Maths, Reasoning, GK & Previous Year Papers',
     excerpt: 'Comprehensive guide to the best books for RRB NTPC 2026: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies.',
     category: 'Railway',
@@ -139,7 +139,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'best-books-for-mpesb',
-    slug: '/best-books-for-mpesb',
+    slug: '/articles/best-books-for-mpesb',
     title: 'Best Books for MPESB 2026: Subject-Wise Best Books for MPESB Group 3 Preparation',
     excerpt: 'Complete guide to the best books for MPESB 2026: Subject-wise breakdown for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer, and Group 3 Sub Engineer technical preparation.',
     category: 'General',
@@ -153,7 +153,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'best-books-for-bihar-bsfc',
-    slug: '/best-books-for-bihar-bsfc',
+    slug: '/articles/best-books-for-bihar-bsfc',
     title: 'Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Assistant Manager, Accountant & Other Posts',
     excerpt: 'Complete guide to the best books for Bihar BSFC 2026: Subject-wise breakdown for LDC, Assistant Manager, Accountant, AAO, Quality Controller, Bihar GK, and 30-day study plan.',
     category: 'General',
@@ -167,7 +167,7 @@ const ARTICLES_LIST: ArticleItem[] = [
   },
   {
     id: 'aiims-norcet-11-cutoff',
-    slug: '/aiims-norcet-11-nursing-officer-2026/cutoff',
+    slug: '/articles/aiims-norcet-11-nursing-officer-2026/cutoff',
     title: 'AIIMS NORCET 11 Expected Cutoff Marks & Rank Analysis 2026',
     excerpt: 'Detailed institute-wise cutoff analysis for AIIMS NORCET-11 Nursing Officer recruitment across 19 AIIMS, qualifying percentile guidelines, and category-wise expected safe scores.',
     category: 'Medical',

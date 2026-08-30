@@ -68,7 +68,7 @@ export default function SscCglExamPatternSyllabusPage() {
       <Helmet>
         <title>SSC CGL New Exam Pattern, Syllabus & DEST Typing Speed Test Guide</title>
         <meta name="description" content="Detailed analysis of SSC CGL Tier-I (qualifying) and Tier-II (390 marks merit) pattern, section-wise syllabus, Computer Knowledge CPT rules, and DEST typing error benchmarks." />
-        <link rel="canonical" href="https://newvacancyalert.in/ssc-cgl-exam-pattern-syllabus-dest-typing" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/ssc-cgl-exam-pattern-syllabus-dest-typing" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -80,7 +80,7 @@ export default function SscCglExamPatternSyllabusPage() {
             <span>/</span>
             <Link to="/articles" className="hover:text-white transition">Articles</Link>
             <span>/</span>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
             <span>/</span>
             <span className="text-slate-400 truncate">Chapter 4: Exam Pattern & Syllabus</span>
           </div>
@@ -115,13 +115,13 @@ export default function SscCglExamPatternSyllabusPage() {
 
           {/* Quick Nav */}
           <div className="pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs font-bold">
-            <Link to="/ssc-cgl-eligibility-physical-standards-pst-pet" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-eligibility-physical-standards-pst-pet" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               <ArrowLeft className="w-3.5 h-3.5" /> Prev: Eligibility & PST
             </Link>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
               <BookOpen className="w-3.5 h-3.5" /> Master Hub
             </Link>
-            <Link to="/ssc-cgl-cutoffs-post-preference-ranking-guide" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-cutoffs-post-preference-ranking-guide" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               Next: Cutoffs & Preference <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -351,7 +351,7 @@ export default function SscCglExamPatternSyllabusPage() {
             <h4 className="text-lg sm:text-xl font-black">Chapter 5: Cut-Off Trends & Post Preference Ranking Strategy</h4>
           </div>
           <Link
-            to="/ssc-cgl-cutoffs-post-preference-ranking-guide"
+            to="/articles/ssc-cgl-cutoffs-post-preference-ranking-guide"
             className="px-5 py-2.5 bg-white text-blue-800 hover:bg-blue-50 font-black text-xs sm:text-sm rounded-xl shadow-xs transition flex items-center gap-1.5 shrink-0"
           >
             <span>Read Chapter 5</span>

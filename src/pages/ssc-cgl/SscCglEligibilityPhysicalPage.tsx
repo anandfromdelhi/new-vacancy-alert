@@ -64,7 +64,7 @@ export default function SscCglEligibilityPhysicalPage() {
       <Helmet>
         <title>SSC CGL Eligibility Criteria, Age Limits & Physical Standards (PST/PET) Guide</title>
         <meta name="description" content="Complete guide to SSC CGL educational eligibility, crucial cut-off dates, category age relaxations, and male/female Physical Measurement and Endurance Standards (PST/PET)." />
-        <link rel="canonical" href="https://newvacancyalert.in/ssc-cgl-eligibility-physical-standards-pst-pet" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/ssc-cgl-eligibility-physical-standards-pst-pet" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -76,7 +76,7 @@ export default function SscCglEligibilityPhysicalPage() {
             <span>/</span>
             <Link to="/articles" className="hover:text-white transition">Articles</Link>
             <span>/</span>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-400 hover:underline font-bold">SSC CGL Master Guide</Link>
             <span>/</span>
             <span className="text-slate-400 truncate">Chapter 3: Eligibility & Physical Standards</span>
           </div>
@@ -111,13 +111,13 @@ export default function SscCglEligibilityPhysicalPage() {
 
           {/* Quick Nav */}
           <div className="pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs font-bold">
-            <Link to="/ssc-cgl-posts-salary-pay-scale-hierarchy" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-posts-salary-pay-scale-hierarchy" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               <ArrowLeft className="w-3.5 h-3.5" /> Prev: Posts & Salary
             </Link>
-            <Link to="/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-master-guide" className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-200 hover:bg-blue-100 transition flex items-center gap-1">
               <BookOpen className="w-3.5 h-3.5" /> Master Hub
             </Link>
-            <Link to="/ssc-cgl-exam-pattern-syllabus-dest-typing" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
+            <Link to="/articles/ssc-cgl-exam-pattern-syllabus-dest-typing" className="text-slate-700 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 hover:bg-slate-200 transition flex items-center gap-1">
               Next: Pattern & Syllabus <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -327,7 +327,7 @@ export default function SscCglEligibilityPhysicalPage() {
             <h4 className="text-lg sm:text-xl font-black">Chapter 4: New Exam Pattern, Detailed Syllabus & DEST Typing Benchmark</h4>
           </div>
           <Link
-            to="/ssc-cgl-exam-pattern-syllabus-dest-typing"
+            to="/articles/ssc-cgl-exam-pattern-syllabus-dest-typing"
             className="px-5 py-2.5 bg-white text-blue-800 hover:bg-blue-50 font-black text-xs sm:text-sm rounded-xl shadow-xs transition flex items-center gap-1.5 shrink-0"
           >
             <span>Read Chapter 4</span>

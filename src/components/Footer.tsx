@@ -99,19 +99,22 @@ export default function Footer() {
               <Link to="/articles" className="hover:text-blue-400 transition">All Articles & Guides</Link>
             </li>
             <li>
-              <Link to="/best-books-for-rrb-ntpc" className="hover:text-blue-400 transition">Best Books for RRB NTPC</Link>
+              <Link to="/articles/ssc-cgl-master-guide" className="hover:text-blue-400 transition">SSC CGL Master Guide</Link>
             </li>
             <li>
-              <Link to="/rrb-exam-calendar-2026-27" className="hover:text-blue-400 transition">RRB Exam Calendar 2026-27</Link>
+              <Link to="/articles/best-books-for-rrb-ntpc" className="hover:text-blue-400 transition">Best Books for RRB NTPC</Link>
             </li>
             <li>
-              <Link to="/ssc-exam-calendar" className="hover:text-blue-400 transition">SSC Exam Calendar 2026</Link>
+              <Link to="/articles/rrb-exam-calendar-2026-27" className="hover:text-blue-400 transition">RRB Exam Calendar 2026-27</Link>
             </li>
             <li>
-              <Link to="/salary-calculator" className="hover:text-blue-400 transition">7th CPC Salary Calculator</Link>
+              <Link to="/articles/ssc-exam-calendar" className="hover:text-blue-400 transition">SSC Exam Calendar 2026</Link>
             </li>
             <li>
-              <Link to="/aiims-norcet-11-nursing-officer-2026/cutoff" className="hover:text-blue-400 transition">AIIMS NORCET Cutoff & Rank</Link>
+              <Link to="/articles/salary-calculator" className="hover:text-blue-400 transition">7th CPC Salary Calculator</Link>
+            </li>
+            <li>
+              <Link to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff" className="hover:text-blue-400 transition">AIIMS NORCET Cutoff & Rank</Link>
             </li>
           </ul>
         </div>

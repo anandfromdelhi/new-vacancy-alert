@@ -354,11 +354,11 @@ export default function RrbCalendarArticle() {
         <title>RRB Exam Calendar 2026-27: Notification, Admit Card, Exam Date, Result Schedule</title>
         <meta name="description" content="RRB Exam Calendar 2026-27 with complete notification schedule, application dates, admit cards, CBT exams, answer keys, results, expected recruitment timeline, and latest Railway Recruitment Board updates." />
         <meta name="keywords" content="RRB Calendar 2026, RRB Exam Calendar, Railway Calendar, RRB Notification 2026, Railway Recruitment Calendar, RRB Recruitment Calendar, RRB Exam Date, RRB Admit Card, RRB Result Date, RRB CBT, RRB Group D, RRB NTPC, RRB Technician, RRB ALP, RRB JE, RRB Paramedical, RRB Ministerial, Railway Vacancy, RRB Calendar 2026 PDF" />
-        <link rel="canonical" href="https://newvacancyalert.in/rrb-exam-calendar-2026-27" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/rrb-exam-calendar-2026-27" />
         <meta property="og:title" content="RRB Exam Calendar 2026-27: Notification, Admit Card, Exam Date, Result Schedule" />
         <meta property="og:description" content="Official & Expected Railway Recruitment Board Exam Schedule 2026-27 for NTPC, Group D, ALP, Technician, JE, and Paramedical posts." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://newvacancyalert.in/rrb-exam-calendar-2026-27" />
+        <meta property="og:url" content="https://newvacancyalert.in/articles/rrb-exam-calendar-2026-27" />
         
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

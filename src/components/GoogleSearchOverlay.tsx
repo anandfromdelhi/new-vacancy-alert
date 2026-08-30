@@ -135,35 +135,35 @@ const ADDITIONAL_PAGES: AdditionalSearchPage[] = [
     id: 'aiims-norcet-11-cutoff-marks',
     title: 'AIIMS NORCET-11 Cutoff Marks & Rank Predictor',
     category: 'Medical Article',
-    path: '/aiims-norcet-11-nursing-officer-2026/cutoff',
+    path: '/articles/aiims-norcet-11-nursing-officer-2026/cutoff',
     subtitle: 'Nursing Officer expected cut-off percentile and qualifying marks'
   },
   {
     id: 'rrb-exam-calendar-2026-27',
     title: 'RRB Exam Calendar 2026-27 & Railway Schedule',
     category: 'Railway Alert',
-    path: '/rrb-exam-calendar-2026-27',
+    path: '/articles/rrb-exam-calendar-2026-27',
     subtitle: 'Official RRB recruitment schedules, ALP, NTPC & Group D dates'
   },
   {
     id: 'ssc-exam-calendar-2026-27',
     title: 'SSC Exam Calendar 2026-27 – CGL, CHSL, MTS & CPO Dates',
     category: 'SSC Alert',
-    path: '/ssc-exam-calendar',
+    path: '/articles/ssc-exam-calendar',
     subtitle: 'Staff Selection Commission notification and exam dates'
   },
   {
     id: 'govt-job-salary-calculator',
     title: '7th Pay Commission Salary Calculator 2026',
     category: 'Tool',
-    path: '/salary-calculator',
+    path: '/articles/salary-calculator',
     subtitle: 'Calculate in-hand pay, DA (53%), HRA, TA & Grade Pay'
   },
   {
     id: 'ssc-cgl-master-guide',
     title: 'The Ultimate SSC CGL Master Guide (360° Handbook & Strategy)',
     category: 'SSC Flagship',
-    path: '/ssc-cgl-master-guide',
+    path: '/articles/ssc-cgl-master-guide',
     subtitle: 'Notification, salary levels 4-8, physical standards, 390-mark pattern, books & DV checklist'
   },
   {

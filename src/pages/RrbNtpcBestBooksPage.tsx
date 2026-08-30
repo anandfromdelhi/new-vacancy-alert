@@ -150,7 +150,7 @@ export default function RrbNtpcBestBooksPage() {
       <Helmet>
         <title>Best Books for RRB NTPC 2026: Subject-Wise Maths, Reasoning, GK & PYQs</title>
         <meta name="description" content="Choosing the best books for RRB NTPC 2026: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, CBT 1 & CBT 2 study strategies." />
-        <link rel="canonical" href="https://newvacancyalert.in/best-books-for-rrb-ntpc" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/best-books-for-rrb-ntpc" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -1261,13 +1261,13 @@ export default function RrbNtpcBestBooksPage() {
           <div className="pt-4 border-t border-slate-100">
             <h3 className="text-sm font-bold text-slate-900 mb-3">Recommended Reading & Resources:</h3>
             <div className="flex flex-wrap gap-2 text-xs font-semibold">
-              <Link to="/rrb-exam-calendar-2026-27" className="px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition border border-blue-200/60">
+              <Link to="/articles/rrb-exam-calendar-2026-27" className="px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition border border-blue-200/60">
                 🚆 RRB Exam Calendar 2026-27
               </Link>
-              <Link to="/salary-calculator" className="px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition border border-emerald-200/60">
+              <Link to="/articles/salary-calculator" className="px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition border border-emerald-200/60">
                 💰 7th Pay Salary Calculator
               </Link>
-              <Link to="/ssc-exam-calendar" className="px-3 py-1.5 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">
+              <Link to="/articles/ssc-exam-calendar" className="px-3 py-1.5 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 transition">
                 📅 SSC Exam Calendar
               </Link>
               <Link to="/articles" className="px-3 py-1.5 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition border border-amber-200/60">

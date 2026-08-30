@@ -133,7 +133,7 @@ export default function BiharBsfcBestBooksPage() {
       <Helmet>
         <title>Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Asst Manager, Accountant | NewVacancyAlert</title>
         <meta name="description" content="Looking for the best books for Bihar BSFC 2026? Check the best BSFC books for LDC, Assistant Manager, Accountant, Assistant Accounts Officer and Quality Controller preparation." />
-        <link rel="canonical" href="https://newvacancyalert.in/best-books-for-bihar-bsfc" />
+        <link rel="canonical" href="https://newvacancyalert.in/articles/best-books-for-bihar-bsfc" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
