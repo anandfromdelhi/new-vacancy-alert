@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "income-tax-kolkata-sports-quot-tax-assistant-mts-recruitment-2026",
+    "b": "Income Tax Kolkata Sports Quota",
+    "t": "Income Tax Kolkata Sports Quota Recruitment 2026 – Apply for 82 Tax Assistant, MTS Posts",
+    "d": "30 August 2026",
+    "l": "30.09.2026",
+    "a": "INCOME-TAX-KOL/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Income Tax Kolkata Sports Quota has officially released employment advertisement notification INCOME-TAX-KOL/2026 for the recruitment of 82 vacancies for Tax Assistant, MTS posts.",
+    "u": "https://www.incometaxindia.gov.in/documents/d/guest/english-version-with-annexures-1-pdf"
+},
+  {
+    "id": "rg-kar-medical-college-molecular-biologist-recruitment-2026",
+    "b": "R.G. Kar Medical College",
+    "t": "R.G. Kar Medical College Recruitment 2026 – Apply for 1 Molecular Biologist Posts",
+    "d": "30 August 2026",
+    "l": "18 September 2026",
+    "a": "RKC/3403",
+    "q": "Post Graduate degree in Microbiology or Biotechnology",
+    "desc": "R.G. Kar Medical College has officially released employment advertisement notification RKC/3403 for the recruitment of 1 vacancies for Molecular Biologist posts.",
+    "u": "https://www.wbhealth.gov.in/FileServer/UploadedFiles/Recruitments/Recruitment_a5b9ea19-5a47-4ede-887b-f55fb490957e.pdf"
+},
+  {
+    "id": "uco-bank-manager-20-recruitment-2026",
+    "b": "UCO Bank Manager",
+    "t": "UCO Bank Manager Recruitment 2026 – Apply for 20 20 Posts",
+    "d": "30 August 2026",
+    "l": "18.09.2026",
+    "a": "HO/HRM/RECR/2026-27/COM-01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "UCO Bank Manager has officially released employment advertisement notification HO/HRM/RECR/2026-27/COM-01 for the recruitment of 20 vacancies for 20 posts.",
+    "u": "https://uco.bank.in/documents/20120/1530093/Recruitment+Advertisement+Specialist+IT+AI+ML+and+Cyber+Security.pdf/e1dd13e1-13de-33df-68f6-b23e5718a6b3?t=1787982612460"
+},
+  {
+    "id": "all-india-institute-of-medical-project-technical-support-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh)",
+    "t": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh) Recruitment 2026 – Apply for 3 Project Technical Support Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Three-year Graduate Degree in Life Sciences, Postgraduate Degree in relevant ...",
+    "desc": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 3 vacancies for Project Technical Support posts.",
+    "u": "https://aiimsrishikesh.edu.in/images/upload_documents/Advertisement%20.pdf"
+},
+  {
+    "id": "g-b-pant-university-of-agricul-project-assistant-recruitment-2026",
+    "b": "G. B. Pant University of Agriculture & Technology (GBPUAT)",
+    "t": "G. B. Pant University of Agriculture & Technology (GBPUAT) Recruitment 2026 – Apply for 1 Project Assistant Posts",
+    "d": "30 August 2026",
+    "l": "09 September 2026",
+    "a": "G-B-PANT-UNIVE/2026",
+    "q": "BSc Ag, BSc ZBC",
+    "desc": "G. B. Pant University of Agriculture & Technology (GBPUAT) has officially released employment advertisement notification G-B-PANT-UNIVE/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://www.gbpuat.ac.in/employments/employ-27-08-26.jpg"
+},
+  {
+    "id": "chhatrapati-shahu-ji-maharaj-u-deo-technical-assistant-and-mo-recruitment-2026",
+    "b": "Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur (formerly Kanpur University)",
+    "t": "Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur (formerly Kanpur University) Recruitment 2026 – Apply for 18 DEO, Technical Assistant and More Posts",
+    "d": "30 August 2026",
+    "l": "30 September 2026",
+    "a": "CSJMU/SFS/973/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur (formerly Kanpur University) has officially released employment advertisement notification CSJMU/SFS/973/2026 for the recruitment of 18 vacancies for DEO, Technical Assistant and More posts.",
+    "u": "https://csjmu.ac.in/wp-content/uploads/docs/2026/08/Recruitment-Notice-For-Non-Teaching-Postition-2026.pdf"
+},
+  {
+    "id": "office-of-the-district-program-122-recruitment-2026",
+    "b": "Office of the District Programme Officer, Banda, Uttar Pradesh",
+    "t": "Office of the District Programme Officer, Banda, Uttar Pradesh Recruitment 2026 – Apply for 122 122 Posts",
+    "d": "30 August 2026",
+    "l": "22 September 2026, till midnight (12:00 AM)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Office of the District Programme Officer, Banda, Uttar Pradesh has officially released employment advertisement notification OFFICE-OF-THE-/2026 for the recruitment of 122 vacancies for 122 posts.",
+    "u": "https://cdn.s3waas.gov.in/s326657d5ff9020d2abefe558796b99584/uploads/2026/08/17875882309618.pdf"
+},
+  {
+    "id": "krishak-bharati-cooperative-kr-agronomist-recruitment-2026",
+    "b": "Krishak Bharati Cooperative (KRIBHCO)",
+    "t": "Krishak Bharati Cooperative (KRIBHCO) Recruitment 2026 – Apply for 1 Agronomist Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "KRISHAK-BHARAT/2026",
+    "q": "B.Sc. Agriculture with minimum two years experience in potato contract farmin...",
+    "desc": "Krishak Bharati Cooperative (KRIBHCO) has officially released employment advertisement notification KRISHAK-BHARAT/2026 for the recruitment of 1 vacancies for Agronomist posts.",
+    "u": "https://www.kribhco.net/pages/other/Agronomist.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-assistant-jra-recruitment-2026",
+    "b": "Indian Institute of Technology Banaras Hindu University (IIT BHU)",
+    "t": "Indian Institute of Technology Banaras Hindu University (IIT BHU) Recruitment 2026 – Apply for 1 Junior Research Assistant (JRA) Posts",
+    "d": "30 August 2026",
+    "l": "21 September 2026",
+    "a": "2026RPMS00001611)",
+    "q": "B.E. / B.Tech in Electrical Engineering, Electronics & Communication Engineering",
+    "desc": "Indian Institute of Technology Banaras Hindu University (IIT BHU) has officially released employment advertisement notification 2026RPMS00001611) for the recruitment of 1 vacancies for Junior Research Assistant (JRA) posts.",
+    "u": "https://iitbhu.ac.in/contents/institute/2026/project/project_eee_jra_upcst_arupkr.pdf"
+},
+  {
+    "id": "jangaon-district-unskilled-sanitation-workers-e-recruitment-2026",
+    "b": "Jangaon District",
+    "t": "Jangaon District Recruitment 2026 – Apply for 54 Unskilled Sanitation Workers, Electricians, Heavy Vehicle Drivers Posts",
+    "d": "30 August 2026",
+    "l": "06 September 2026",
+    "a": "JANGAON-DISTRI/2026",
+    "q": "10th, ITI",
+    "desc": "Jangaon District has officially released employment advertisement notification JANGAON-DISTRI/2026 for the recruitment of 54 vacancies for Unskilled Sanitation Workers, Electricians, Heavy Vehicle Drivers posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e2c420d928d4bf8ce0ff2ec19b371514/uploads/2026/08/17878249969067.pdf"
+},
+  {
     "id": "gmc-narayanpet-professor-associate-professor-recruitment-2026",
     "b": "GMC Narayanpet",
     "t": "GMC Narayanpet Recruitment 2026 – Apply for 1 Professor, Associate Professor and More Posts",
