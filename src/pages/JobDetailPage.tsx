@@ -4918,20 +4918,35 @@ export default function JobDetailPage() {
               <LinkIcon className="h-4.5 w-4.5 text-blue-600" /> Official Links
             </h3>
             <div className="flex flex-col gap-2">
-              {(job.officialLinks || job.urls || []).map((link, idx) => (
-                <a 
-                  key={idx}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 hover:border-blue-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
-                >
-                  <span className="flex items-center gap-2">
-                    <ShieldCheck className="h-4 w-4 shrink-0" /> {link.label}
-                  </span>
-                  <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
-                </a>
-              ))}
+              {(job.officialLinks || job.urls || []).map((link, idx) => {
+                const linkText = link.label || link.title || 'Official Link';
+                const isInternal = typeof link.url === 'string' && link.url.startsWith('/');
+                return isInternal ? (
+                  <Link
+                    key={idx}
+                    to={link.url}
+                    className="bg-amber-50 hover:bg-amber-600 text-amber-900 hover:text-white border border-amber-200 hover:border-amber-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                  >
+                    <span className="flex items-center gap-2">
+                      <BookOpen className="h-4 w-4 shrink-0 text-amber-600 group-hover:text-white" /> {linkText}
+                    </span>
+                    <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                ) : (
+                  <a 
+                    key={idx}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 hover:border-blue-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                  >
+                    <span className="flex items-center gap-2">
+                      <ShieldCheck className="h-4 w-4 shrink-0" /> {linkText}
+                    </span>
+                    <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                  </a>
+                );
+              })}
               
               {id === 'aiims-norcet-11-nursing-officer-2026' && (
                 <Link 
