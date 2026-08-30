@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-institute-of-homoeopa-assistant-professor-consultant-recruitment-2026",
+    "b": "National Institute of Homoeopathy",
+    "t": "National Institute of Homoeopathy Recruitment 2026 – Apply for 4 Assistant Professor & Consultant Posts",
+    "d": "30 August 2026",
+    "l": "21 September 2026",
+    "a": "Con. Eng/02/2026, Con./NIH-D/02/2026, Con. Eng/03/2026",
+    "q": "Graduation/Post-graduation in Homoeopathy",
+    "desc": "National Institute of Homoeopathy has officially released employment advertisement notification Con. Eng/02/2026, Con./NIH-D/02/2026, Con. Eng/03/2026 for the recruitment of 4 vacancies for Assistant Professor & Consultant posts.",
+    "u": "https://nih.ayush.gov.in/"
+},
+  {
     "id": "income-tax-kolkata-sports-quot-tax-assistant-mts-recruitment-2026",
     "b": "Income Tax Kolkata Sports Quota",
     "t": "Income Tax Kolkata Sports Quota Recruitment 2026 – Apply for 82 Tax Assistant, MTS Posts",
