@@ -1432,6 +1432,12 @@ export default function JobDetailPage() {
                   </p>
                 </div>
                 <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <Link
+                    to="/best-books-for-bihar-bsfc"
+                    className="bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 border border-amber-400/40 font-bold px-4 py-3 rounded-xl transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <BookOpen className="h-4 w-4" /> Best Books &amp; Prep Guide
+                  </Link>
                   <a 
                     href="https://bceceboard.bihar.gov.in" 
                     target="_blank" 
@@ -1439,6 +1445,52 @@ export default function JobDetailPage() {
                     className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
                   >
                     <Send className="h-4 w-4" /> Apply on BCECEB Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {id === 'mpesb-group-3-sub-engineer-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl shadow-xl border-2 border-indigo-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      MPESB Group 3 Combined Exam 2026
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      1,700 Total Vacancies
+                    </span>
+                    <span className="bg-blue-500/20 text-blue-300 border border-blue-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Pay Level 4 to Level 8
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Exam: 07 Oct 2026
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    MPESB Group-3 Sub Engineer, Draftsman &amp; Lab Technician Recruitment 2026
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Direct recruitment for <strong>1,700 Sub Engineers, Draftsman &amp; Lab Technicians</strong> across Madhya Pradesh departments. 200-Mark single CBT exam.
+                  </p>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <Link
+                    to="/best-books-for-mpesb"
+                    className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <BookOpen className="h-4 w-4" /> Best Books &amp; Prep Guide
+                  </Link>
+                  <a 
+                    href="https://esb.mp.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-white/10 hover:bg-white/20 text-white font-bold px-4 py-3 rounded-xl border border-white/20 transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> MP Online Portal
                   </a>
                 </div>
               </div>
@@ -4170,6 +4222,48 @@ export default function JobDetailPage() {
                 subtitle="Download 8+ Full Solved Question Papers with Answer Keys (AIIMS Raipur, Jodhpur, Bhopal, Delhi, NORCET 2020–2023)."
               />
             </>
+          )}
+
+          {/* MPESB Group 3 Best Books & Preparation Guide Promo */}
+          {id === 'mpesb-group-3-sub-engineer-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl shadow-lg border-2 border-indigo-500/50 p-6 sm:p-8 relative overflow-hidden print:hidden my-6">
+              <div className="absolute bottom-0 right-0 w-48 h-48 bg-indigo-500 rounded-full blur-[60px] opacity-25 -mr-10 -mb-10 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-400 text-slate-950 rounded-full text-xs font-black">
+                    <Flame className="w-3.5 h-3.5" /> MPESB 2026 Recommended Resource
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-black text-white">Targeting MPESB Group 3 Sub Engineer 2026?</h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-xl leading-relaxed">
+                    Get the complete subject-wise booklist for General Aptitude (100 Marks) &amp; Technical Stream (100 Marks: Civil, Mech, Elect, CS), along with MP GK, PYQs, and 30-day preparation timetable.
+                  </p>
+                </div>
+                <Link to="/best-books-for-mpesb" className="shrink-0 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                  <BookOpen className="h-5 w-5" /> Read Best Books Guide
+                </Link>
+              </div>
+            </div>
+          )}
+
+          {/* Bihar BSFC Best Books & Preparation Guide Promo */}
+          {id === 'bihar-state-food-civil-supplies-corporation-ltd-bsfc-under-the-food-consumer-protection-department-govt-of-bihar-259-accountant-lower-grade-cle-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-orange-950 rounded-2xl shadow-lg border-2 border-amber-500/50 p-6 sm:p-8 relative overflow-hidden print:hidden my-6">
+              <div className="absolute bottom-0 right-0 w-48 h-48 bg-amber-500 rounded-full blur-[60px] opacity-25 -mr-10 -mb-10 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="space-y-2">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-400 text-slate-950 rounded-full text-xs font-black">
+                    <Flame className="w-3.5 h-3.5" /> Bihar BSFC 2026 Recommended Resource
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-black text-white">Targeting Bihar BSFC LDC, Assistant Manager or Accountant?</h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-xl leading-relaxed">
+                    Check the tailored book recommendations for LDC (Computer &amp; Typing), Assistant Manager (Management &amp; Economy), Accountant (Accounting &amp; Auditing), and Quality Controller (Agriculture).
+                  </p>
+                </div>
+                <Link to="/best-books-for-bihar-bsfc" className="shrink-0 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-6 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
+                  <BookOpen className="h-5 w-5" /> Read BSFC Best Books Guide
+                </Link>
+              </div>
+            </div>
           )}
 
           {/* Syllabus */}
