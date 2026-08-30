@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "india-post-gds-recruitment-2026",
+    "b": "Department of Posts (India Post)",
+    "t": "India Post GDS Recruitment 2026 – Apply Online for 23,757 BPM, ABPM & Dak Sevak Posts",
+    "d": "20 August 2026",
+    "l": "21 September 2026",
+    "a": "17-12/2026-GDS (Schedule-II)",
+    "q": "10th Standard (Matriculation) Pass with Maths, English & Local Language",
+    "desc": "India Post invites online applications for 23,757 Gramin Dak Sevak (BPM/ABPM/Dak Sevak) vacancies across 23 Circles. 100% 10th Marks Merit Selection (No Exam, No Interview).",
+    "u": "https://indiapost.gov.in/gdsonlineengagement"
+},
+  {
     "id": "mpesb-group-3-sub-engineer-recruitment-2026",
     "b": "Madhya Pradesh Employees Selection Board (MPESB)",
     "t": "MPESB Group-3 Sub Engineer, Draftsman & Lab Tech Recruitment 2026 – Apply Online for 1,700 Posts",
@@ -439,17 +450,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Engineering Graduate or Chartered Accountant or Cost Accountant or Post Gradu...",
     "desc": "AI Assets Holding (AIAHL) has officially released employment advertisement notification AI-ASSETS-HOLD/2026 for the recruitment of 1 vacancies for Chairman & Managing Director posts.",
     "u": "https://www.aiasl.in/resources/Advertisement%20for%20post%20of%20CMD%20-%20AIAHL.pdf"
-},
-  {
-    "id": "department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026",
-    "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
-    "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 – Apply for 23 BPM, ABPM & Dak Sevak Posts",
-    "d": "30 August 2026",
-    "l": "Refer Official Notification",
-    "a": "17-12/2026-GDS",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially released employment advertisement notification 17-12/2026-GDS for the recruitment of 23 vacancies for BPM, ABPM & Dak Sevak posts.",
-    "u": "https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf"
 },
   {
     "id": "agricultural-and-processed-foo-associate-legal-recruitment-2026",
