@@ -15,19 +15,19 @@ import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export const BSFC_BOOK_LINKS = {
-  LUCENT_GK: "https://www.amazon.in/s?k=Lucent+General+Knowledge+2026&tag=newvacancyale-21",
-  MANOHAR_PANDEY_GS: "https://www.amazon.in/s?k=Objective+General+Studies+Manohar+Pandey+Arihant&tag=newvacancyale-21",
-  BIHAR_GK: "https://www.amazon.in/s?k=Bihar+Samagra+KBC+Nano+Bihar+GK&tag=newvacancyale-21",
-  RS_REASONING: "https://www.amazon.in/s?k=RS+Aggarwal+Verbal+and+Non+Verbal+Reasoning&tag=newvacancyale-21",
-  SAMANYA_HINDI: "https://www.amazon.in/s?k=Lucent+Samanya+Hindi&tag=newvacancyale-21",
-  SP_BAKSHI_ENGLISH: "https://www.amazon.in/s?k=Objective+General+English+SP+Bakshi+Arihant&tag=newvacancyale-21",
-  MANAGEMENT_BOOK: "https://www.amazon.in/s?k=Principles+and+Practice+of+Management+Book&tag=newvacancyale-21",
-  TS_GREWAL_ACCOUNTANCY: "https://www.amazon.in/s?k=TS+Grewal+Accountancy+Book&tag=newvacancyale-21",
-  AGRICULTURE_BOOK: "https://www.amazon.in/s?k=Competitive+Book+of+Agriculture+Nem+Raj+Sunda&tag=newvacancyale-21",
-  COMPUTER_AWARENESS: "https://www.amazon.in/s?k=Objective+Computer+Awareness+Arihant&tag=newvacancyale-21",
+  LUCENT_GK: "https://www.amazon.in/Lucents-Samanya-Gyan-General-Knowledge/dp/B0H9YWR411?crid=1H46AX0W9A6T&dib=eyJ2IjoiMSJ9.z9CRJK3L9Cx3omeaNBhHEk_QmZcXvUc8eulhUdeH3alQirQCLgKY0SmEvPfOAKTdfXzdSFQrfiZDWPXaKA-uIDYiSzdZiZ0Hpa596KI7VlRoKEPgdaecKYmWe3MR2kEScIGnt4zKOuopifOI0D9Ogfw5hf0a6ojMmdmNVfWu6Np7LQ4Q-rH-91Va_F-mEla-oFi6YhQe8sArAEqrguk0C_Hbtud2MtjntLQyOYIzUys.3yiE1JwzZOoGwE5rfaCwWhtbsuh515jhLYr_HE-J26Q&dib_tag=se&keywords=Lucent%27s+General+Knowledge+%28%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%29+Lucent+Publications+%28Hindi+%2F+English%29&nsdOptOutParam=true&qid=1788087831&sprefix=lucent%27s+general+knowledge+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8+lucent+publications+hindi+%2F+english+%2Caps%2C293&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=84d16809b7758140eff60e074dc967fb&ref_=as_li_ss_tl",
+  MANOHAR_PANDEY_GS: "https://www.amazon.in/Objective-Chapterwise-Complete-Geography-Competitive/dp/9378169147?crid=1SHKI7H9UN2OS&dib=eyJ2IjoiMSJ9.Dg7urUPUOthJGhI4bwunOxA0DJBAM1OT2tn31k73ePCPNS3Cm2aMKV_4WXvZr7WTCn1Tr3zuC_8sdPplfzsvAvJ85PIuuZQebc7UOzwj9zq3F8qWdXaoGYeLG_gqyrcOgoE08O0rrLlT6x8K3K9NfoSXdvaCWe7d0jDumMxk_Pk117g1VXXQEispqft9rnUPckBIBmmNAhnx9DznQ-auS3gzQQuAwIFiw2C2F-aAbNI.f-WkG5alquulhsRgB8CWBC3IAfI18FADrVCDImrAkdk&dib_tag=se&keywords=Objective+General+Studies+%2814000%2B+MCQs%29+Manohar+Pandey+%28Arihant+Publications%29&nsdOptOutParam=true&qid=1788087868&sprefix=objective+general+studies+14000%2B+mcqs+manohar+pandey+arihant+publications+%2Caps%2C257&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=aba01b3ed871159e90da05a55889fe8a&ref_=as_li_ss_tl",
+  BIHAR_GK: "https://www.amazon.in/Samagra-Revised-Updated-Anisha-Bharti/dp/B0H3J16Q6P?crid=OGYKB5HLUJGQ&dib=eyJ2IjoiMSJ9.zt7Lix6MvhuWcU41mCyshhPqUJ7YksEmN2V4Pb3IiSknSutqFCeCa-55XMBgqSsp8zt4bgFjiZSO-vDJxpchfbIMsYoTzJ0tEN7clv6Mq4DaEOpSSFcphwwxBJ67L1sbxz8NoaVyRtnYIoRVgjNF5n132EabqY4Wp8_rUJTvvZVJ--ZK5HFHEf-O9MN02uXYrhUGGGOrV-XMfMvcCUbOVxyFA4dpFm15_h5Vov-dQ4w.C_7BB55N7Ky4NQ7JbHxCMw3QllwhdaNLNAQJv7lDcdc&dib_tag=se&keywords=Bihar+GK+%2F+Bihar+Samagra+%28%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0%29+KBC+Nano+%2F+Dr.+Manish+Rannjan+%2F+Crown&nsdOptOutParam=true&qid=1788087899&sprefix=bihar+gk+%2F+bihar+samagra+%E0%A4%AC%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0+%E0%A4%B8%E0%A4%AE%E0%A4%97%E0%A5%8D%E0%A4%B0+kbc+nano+%2F+dr.+manish+rannjan+%2F+crown%2Caps%2C319&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=fa54392a9068b50816df86a67eb08aa8&ref_=as_li_ss_tl",
+  RS_REASONING: "https://www.amazon.in/Approach-Non-Verbal-Reasoning-Questions-Competitive/dp/B0CVGWMLQL?crid=24KNJLYBTJMWS&dib=eyJ2IjoiMSJ9.6D3cK_BLJrnvFNU3fxPIwVmCO6ETfmzNwpLahKlwuA3kqZZqhCCe5i3Hcp2OzvpH49gssuhV-RzKhmz_sQwvTLvqvpmW6zDuZXoF7m8eQfGYpC-GjFDPKJXmjgFgb5kK-zp6Sl56JVcHmNlUiRFZGnFsW-Nn8jqzwHUAVXLeLzWWN2knyX5wPL7HP2PZk5gXiVuLl7DsG031WbVntTQrC8W9lkd2vAyTuaP-Wb5NWPo.QrhK0Mhmdzw2eA3l5xCfgiTvTEQrX09reiMop7gV3SI&dib_tag=se&keywords=Verbal+%26+Non-Verbal+Reasoning+R.S.+Aggarwal+%28S.+Chand%29&nsdOptOutParam=true&qid=1788087937&sprefix=verbal+%26+non-verbal+reasoning+r.s.+aggarwal+s.+chand+%2Caps%2C310&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=4bb1345f632edf58998f47f82ee06a02&ref_=as_li_ss_tl",
+  SAMANYA_HINDI: "https://www.amazon.in/Lucents-Samanya-Gyan-General-Knowledge/dp/B0H9YWR411?crid=45PBG1R7RG63&dib=eyJ2IjoiMSJ9.c44HM_orYU87W7HghU23I4cDUAcnqXRmQXYTERPfKnMe28M250l9QnMxYHd07_2afcmOA-IU85AFm6__tTJ8xweuFuMff8NTDgVwJogAM1lgcrYrNNzG06LttpwZIfUHKBagI27nOU_UKW0vsaRduhOc3gZFXkKBmqnJzIZMe8TAMl8dwRDBpce41iSlT__Ip4gL1Cg2ok5Rect0-t2GHwjrcEtgpLNldqH0FvbwQ4s.D0ioVEALEZLL7fE2c4U78S8iKzhdo911IbMWmPD-h_w&dib_tag=se&keywords=Samanya+Hindi+%28%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80%29+Lucent%27s+Samanya+Hindi+%2F+Arihant&nsdOptOutParam=true&qid=1788087974&sprefix=samanya+hindi+%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF+%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80+lucent%27s+samanya+hindi+%2F+arihant%2Caps%2C253&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=a2e02a9d1a5f51cd24dce99711f58b53&ref_=as_li_ss_tl",
+  SP_BAKSHI_ENGLISH: "https://www.amazon.in/Objective-General-English-SP-Bakshi/dp/9325791714?crid=394MS3RK0NU4W&dib=eyJ2IjoiMSJ9.lrl6m-oNeAwW63a3AzrzbRy7yA0r2fogOGb4OiwWpifovmGy1LwoesuUbit4D9kOq4wyVKssJTEuY_Ui5HIZXNsEo9xRarRbp2H_NWkZllBu_Vjp5WuxP1BIY0U33eBdMBoatbHKZpFh-KthiXMcoHkYmKUS3Rk5r9hN8M8Mnu1qVeYava3IkPmSQdaiz9Oqnz9avXbSSaWgphNdsfMQuR1ti09cwQDQTSJOjnPkj4w.B9R-JaxSz45G2wI3wvrkPPyYHvJD1USBORjY5g5c6Pw&dib_tag=se&keywords=Objective+General+English+S.P.+Bakshi+%28Arihant+Publications%29&qid=1788088008&sprefix=objective+general+english+s.p.+bakshi+arihant+publications+%2Caps%2C291&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=596f3bae6269f5ada895bcc31d5e07c6&ref_=as_li_ss_tl",
+  MANAGEMENT_BOOK: "https://www.amazon.in/Principles-Practice-Management-Dr-Prasad/dp/9391820875?crid=1GXSG0J8T0JMZ&dib=eyJ2IjoiMSJ9.K0kv6LtqkLSjdh62uYlZtk0YFtfDw98JyJYku-bhvUsIPt7U40f2Rk9sINhcyISLYxc4lBdW0i3ldIwquK6pTPvTfViWurdVGbE4RFa_EwvbNgAkhFw6UQj2ssZKL0iGkkUkTLWEK3nVexvYNlR62pB3KzVs07WUPkuuRcyPAq6B9vON1Fy5Qs81OT5FQT3Z6XChSR1HoLFPDX0cotbocqrsXTh8pC7zdYDJULYqwbk.1CusqpAnJsjt5kEHKe1JDFrYJVAI7rsHRsKflz3WNnA&dib_tag=se&keywords=Management+%28Principles+%26+Practice%29+Fundamentals+of+Management+%2F+Principles+of+Management+%28L.M.+Prasad+%2F+T.N.+Chhabra+%2F+C.B.+Gupta%29&nsdOptOutParam=true&qid=1788088169&sprefix=management+principles+%26+practice+fundamentals+of+management+%2F+principles+of+management+l.m.+prasad+%2F+t.n.+chhabra+%2F+c.b.+gupta+%2Caps%2C261&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=ca405a4496fed546349f66d2192570df&ref_=as_li_ss_tl",
+  TS_GREWAL_ACCOUNTANCY: "https://www.amazon.in/Grewals-Double-Entry-Keeping-Textbook/dp/9347471283?crid=3VA0TGY5OW8JJ&dib=eyJ2IjoiMSJ9.YeaQ_Bl80DPUgm7xv5qwhvRBIdnpaS3fGCyfWKrZDCy5LhFJolxjcHz0kPbi4c0TNpGQabdnLp4cjMoTMkv79RwzEsxzNkJWTHpJzytT2Yy239Sn9kUexFrXixrti6CMnLz63QM2rVQV-m97JrcXoETTjkmgAGTh3kv749sjIPuWBy_gseinjpE03d518RkHYr7V1D8STZhpFNwnwry99C684mjVqiYLowbWyZEV1Uc.CMM4tq7g79kSEK9wsPf_rWXlt1Mii-4gKPyqINMduhI&dib_tag=se&keywords=Financial+Accounting+Double+Entry+Book+Keeping+%2F+Accountancy+%E2%80%93+T.S.+Grewal+%28or+D.K.+Goel%29&nsdOptOutParam=true&qid=1788088232&sprefix=financial+accounting+double+entry+book+keeping+%2F+accountancy+t.s.+grewal+or+d.k.+goel+%2Caps%2C299&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=d3ebb4ad57b88afb258e0a9471c388ec&ref_=as_li_ss_tl",
+  AGRICULTURE_BOOK: "https://www.amazon.in/Nem-Raj-Sunda-Competitive-HOLOGRAM-TOP/dp/B0GQBQ6RDP?crid=2E927JENF77OD&dib=eyJ2IjoiMSJ9.j5zQIbdr02sZjxxqzwxcUa8Ix1Vh34OqtbzA53v5x55tO6atugj7YIc_RmoDDPIRqKKfeVsWYSUlwli7-Q-uTiq9ED9Wgr--T3e68fQCGJzcHxRDPR3Q5HEd0Rmhdq_VItdFaMeeUrbNjtzLbdUz5BUF1eRne3FaPjRHpDGy7UViJhE02lNO3RzNX1SyE261zFuSsVqf8LBZGG3zvQOo2bvyATDGwMtFIEyVtCaI7QM.wn5SGrljBQ2RLvpk-P-KFAGQ8M1y4_kHSZKoXg5Ol2Y&dib_tag=se&keywords=ndian+Agriculture+A+Competitive+Book+of+Agriculture+%E2%80%93+Nem+Raj+Sunda&nsdOptOutParam=true&qid=1788088197&sprefix=ndian+agriculture+a+competitive+book+of+agriculture+nem+raj+sunda%2Caps%2C259&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=44b00541a24cb2c26c3df73498352000&ref_=as_li_ss_tl",
+  COMPUTER_AWARENESS: "https://www.amazon.in/Arihant-Computer-Awareness-Revised-Flowcharts/dp/9368405069?crid=2ACMPIR9K68HM&dib=eyJ2IjoiMSJ9.cocIbOfHucOL-kwTsrGE8y1AqaQY4yyeePxgK0G4uGa0bvwGri3an77GlQbP9t_bXFfzyPrWJ6Vkd1ePWiCz8qHdgYRtbC_eNGAOsGe_-Ff-F4CUjqCyzABQ8D4-3s3NUxU7CcgJm4HdJJg7o6csu0yVw_gltA7iTzMscXAgRr0uo2ufo2XF4BcQkFCnupTPlySb1mxGdKSvqAhYJTq-sxuHgjBJf2-enyG3aa18ogc.PQmbZV5waLG7UZRUEiBrSruETma9kfT0UTYZkYrWf6c&dib_tag=se&keywords=Objective+Computer+Awareness+Arihant+%2F+Lucent+Computer&qid=1788088045&sprefix=objective+computer+awareness+arihant+%2F+lucent+computer%2Caps%2C269&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=b9253081abaffe33107257ad23ed4d23&ref_=as_li_ss_tl",
   BSFC_PYQ: "https://www.amazon.in/s?k=Bihar+BSFC+BCECEB+Previous+Year+Solved+Papers&tag=newvacancyale-21",
-  AUDITING_BOOK: "https://www.amazon.in/s?k=Principles+of+Auditing+Book&tag=newvacancyale-21",
-  TAXATION_BOOK: "https://www.amazon.in/s?k=Income+Tax+and+GST+Book+for+Competitive+Exams&tag=newvacancyale-21"
+  AUDITING_BOOK: "https://www.amazon.in/Auditing-Assurance-B-Com-Third-Pearson/dp/9353942195?crid=20K42IM00ZSIH&dib=eyJ2IjoiMSJ9.kkO2P7yTNJYCrLwPF3v5hPParn6hKW15RN4o1c2Zar_bSyEJ3xor1retDLD56ipgcbUUuC90EohI9JYsaE0Uky8LaCOfhv7rF6dIHa4rj_4HAKWVkO6_dlOv4hJW5XHvIHoBgkz62t4S64_IcRvdHR4KV1ErPvZ7YhTdn6-Uj-sehljJzerkqPyb9GeyDO_cEUk3orFAyylhwmL-ZWI-sSrUkG7DiZqJ0xJS1uaOejU.4oOo6CCNGq4jtF-fGxGUt_8D-yjolixhpZE02Wcl3h4&dib_tag=se&keywords=Auditing+%26+Assurance+Principles+of+Auditing+%2F+Practical+Auditing+%28B.N.+Tandon+%2F+S.K.+Basu+%2F+Taxmann%29&nsdOptOutParam=true&qid=1788088258&sprefix=auditing+%26+assurance+principles+of+auditing+%2F+practical+auditing+b.n.+tandon+%2F+s.k.+basu+%2F+taxmann+%2Caps%2C263&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=e82df1334dcbd24b21c5a148b5200524&ref_=as_li_ss_tl",
+  TAXATION_BOOK: "https://www.amazon.in/Systematic-Approach-Indirect-Taxation-Containing/dp/9356036896?crid=3LPBIAB8S1E5R&dib=eyJ2IjoiMSJ9.Lth5to9vCqWy-armv27dRvQPPdzPoBvYy2uI0EnAaq5ZHjlnkEqRzrH0aleNbvgW0DNQ82_buxLGydLxUmippvsZd5F2CmyGQ6H73OguVYIX_AX_W0d8UNCB2Ir9QmWQKNWgQENFxZsRu9jpYjMY4Wugi5u2LAYitp66dspA_FU-NmqtJTsUpqo9GOhlBMvTSyDGwcBvN382pqmY4Ies4EtFAk0pAW0bwTDpJadyNSw.BbyuKifSNGsTdMh3Dq94kOzjK-pLAretIJSL4dKWt1A&dib_tag=se&keywords=Direct+%26+Indirect+Taxation+%28GST+%2B+Income+Tax%29+Systematic+Approach+to+Income+Tax+%26+GST+%28Girish+Ahuja+%2F+V.K.+Singhania%29&nsdOptOutParam=true&qid=1788088287&sprefix=direct+%26+indirect+taxation+gst+%2B+income+tax+systematic+approach+to+income+tax+%26+gst+girish+ahuja+%2F+v.k.+singhania+%2Caps%2C252&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=ad0896c5650e49940faec39a37f6af1b&ref_=as_li_ss_tl"
 };
 
 export default function BiharBsfcBestBooksPage() {
@@ -589,13 +589,18 @@ export default function BiharBsfcBestBooksPage() {
               The Lower Division Clerk is the largest vacancy category with <strong>123 posts</strong>. The exam tests <strong>General Studies & Mental Ability, Indian Language, and Computer Proficiency</strong>.
             </p>
 
-            <div className="bg-blue-50/60 p-4 rounded-xl border border-blue-200 space-y-2">
-              <h4 className="font-black text-blue-950 text-sm flex items-center gap-1.5">
-                <Cpu className="w-4 h-4 text-blue-600" /> Best Computer Book for BSFC LDC:
-              </h4>
-              <p className="text-xs sm:text-sm text-blue-900">
-                Use <strong>Objective Computer Awareness by Arihant / Lucent</strong> covering: Hardware/Software, CPU, Memory, Windows OS, MS Word, MS Excel, MS PowerPoint, Internet/Email protocols, Cyber Security, and Keyboard Shortcuts (<code>Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z, Ctrl+A, Ctrl+S, Ctrl+P, Alt+Tab</code>).
-              </p>
+            <div className="bg-blue-50/60 p-4 rounded-xl border border-blue-200 space-y-3">
+              <div className="space-y-1.5">
+                <h4 className="font-black text-blue-950 text-sm flex items-center gap-1.5">
+                  <Cpu className="w-4 h-4 text-blue-600" /> Best Computer Book for BSFC LDC:
+                </h4>
+                <p className="text-xs sm:text-sm text-blue-900">
+                  Use <strong>Objective Computer Awareness by Arihant / Lucent</strong> covering: Hardware/Software, CPU, Memory, Windows OS, MS Word, MS Excel, MS PowerPoint, Internet/Email protocols, Cyber Security, and Keyboard Shortcuts (<code>Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z, Ctrl+A, Ctrl+S, Ctrl+P, Alt+Tab</code>).
+                </p>
+              </div>
+              <a href={BSFC_BOOK_LINKS.COMPUTER_AWARENESS} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-lg shadow-xs transition">
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy Computer Awareness on Amazon
+              </a>
             </div>
 
             <div className="text-xs text-slate-600">
@@ -638,13 +643,21 @@ export default function BiharBsfcBestBooksPage() {
               </div>
             </div>
 
-            <div className="bg-indigo-50/60 p-4 rounded-xl border border-indigo-200 space-y-2 text-xs sm:text-sm text-indigo-950">
+            <div className="bg-indigo-50/60 p-4 rounded-xl border border-indigo-200 space-y-3 text-xs sm:text-sm text-indigo-950">
               <h4 className="font-black text-indigo-900">Key Domain Resources for Assistant Manager:</h4>
-              <ul className="list-disc pl-5 space-y-1 text-indigo-900 font-medium">
-                <li><strong>Management:</strong> Fundamentals of Management (Planning, Organizing, Staffing, Directing, Controlling, Leadership, Motivation, Decision Making).</li>
+              <ul className="list-disc pl-5 space-y-1.5 text-indigo-900 font-medium">
+                <li><strong>Management (Section B):</strong> Fundamentals of Management (Planning, Organizing, Staffing, Directing, Controlling, Leadership, Motivation, Decision Making).</li>
                 <li><strong>Indian Economy:</strong> NCERT Economics + Competitive Indian Economy (GDP, Inflation, Banking, Monetary Policy, Food Security).</li>
-                <li><strong>Indian Agriculture:</strong> A Competitive Book of Agriculture by Nem Raj Sunda (Cropping patterns, irrigation, fertilizers, agricultural marketing, food storage).</li>
+                <li><strong>Indian Agriculture (Section C):</strong> A Competitive Book of Agriculture by Nem Raj Sunda (Cropping patterns, irrigation, fertilizers, agricultural marketing, food storage).</li>
               </ul>
+              <div className="flex flex-wrap gap-2 pt-1">
+                <a href={BSFC_BOOK_LINKS.MANAGEMENT_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-lg shadow-xs transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy Management Book
+                </a>
+                <a href={BSFC_BOOK_LINKS.AGRICULTURE_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-lg shadow-xs transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy Agriculture Book
+                </a>
+              </div>
             </div>
           </div>
 
@@ -669,17 +682,32 @@ export default function BiharBsfcBestBooksPage() {
             </p>
 
             <div className="grid sm:grid-cols-3 gap-3 text-xs sm:text-sm">
-              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-1">
-                <span className="font-black text-slate-900 block">1. Accountancy</span>
-                <p className="text-slate-600">Journal, Ledger, Trial Balance, Final Accounts, Depreciation, Bank Reconciliation, Partnership & Company Accounts (T.S. Grewal).</p>
+              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-2 flex flex-col justify-between">
+                <div>
+                  <span className="font-black text-slate-900 block">1. Accountancy</span>
+                  <p className="text-slate-600">Journal, Ledger, Trial Balance, Final Accounts, Depreciation, Bank Reconciliation, Partnership & Company Accounts (T.S. Grewal).</p>
+                </div>
+                <a href={BSFC_BOOK_LINKS.TS_GREWAL_ACCOUNTANCY} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy Accountancy Book
+                </a>
               </div>
-              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-1">
-                <span className="font-black text-slate-900 block">2. Auditing</span>
-                <p className="text-slate-600">Audit principles, internal control, vouching, verification of assets & liabilities, auditor responsibilities.</p>
+              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-2 flex flex-col justify-between">
+                <div>
+                  <span className="font-black text-slate-900 block">2. Auditing</span>
+                  <p className="text-slate-600">Audit principles, internal control, vouching, verification of assets & liabilities, auditor responsibilities.</p>
+                </div>
+                <a href={BSFC_BOOK_LINKS.AUDITING_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy Auditing Book
+                </a>
               </div>
-              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-1">
-                <span className="font-black text-slate-900 block">3. Taxation & GST</span>
-                <p className="text-slate-600">Income Tax basics, GST mechanisms, TDS deductions, return filing rules, and corporate taxation basics.</p>
+              <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-2 flex flex-col justify-between">
+                <div>
+                  <span className="font-black text-slate-900 block">3. Taxation & GST</span>
+                  <p className="text-slate-600">Income Tax basics, GST mechanisms, TDS deductions, return filing rules, and corporate taxation basics.</p>
+                </div>
+                <a href={BSFC_BOOK_LINKS.TAXATION_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy Taxation Book
+                </a>
               </div>
             </div>
           </div>
@@ -704,11 +732,16 @@ export default function BiharBsfcBestBooksPage() {
               The Quality Controller examination allocates <strong>50 marks for General Studies & Mental Ability, 20 marks for Indian Language, and 30 marks for Indian Agriculture</strong>.
             </p>
 
-            <div className="bg-emerald-50/60 p-4 rounded-xl border border-emerald-200 space-y-1 text-xs sm:text-sm text-emerald-950">
-              <h4 className="font-black text-emerald-900">Recommended Agriculture Resource:</h4>
-              <p>
-                <strong>A Competitive Book of Agriculture by Nem Raj Sunda</strong> covers Agronomy, Soil Science, Horticulture, Plant Pathology, Entomology, Food Grain Storage & Pest Management, Seed Technology, and Agricultural Economics.
-              </p>
+            <div className="bg-emerald-50/60 p-4 rounded-xl border border-emerald-200 space-y-3 text-xs sm:text-sm text-emerald-950">
+              <div className="space-y-1">
+                <h4 className="font-black text-emerald-900">Recommended Agriculture Resource:</h4>
+                <p>
+                  <strong>A Competitive Book of Agriculture by Nem Raj Sunda</strong> covers Agronomy, Soil Science, Horticulture, Plant Pathology, Entomology, Food Grain Storage & Pest Management, Seed Technology, and Agricultural Economics.
+                </p>
+              </div>
+              <a href={BSFC_BOOK_LINKS.AGRICULTURE_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-lg shadow-xs transition">
+                <ShoppingCart className="w-3.5 h-3.5" /> Buy Nem Raj Sunda Agriculture on Amazon
+              </a>
             </div>
           </div>
         </section>
