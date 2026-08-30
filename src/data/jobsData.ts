@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iob-generalist-so-recruitment-2026",
+    "b": "Indian Overseas Bank (IOB)",
+    "t": "IOB Generalist & Specialist Officer Recruitment 2026 – Apply Online for 291 Posts",
+    "d": "29 August 2026",
+    "l": "15 September 2026",
+    "a": "HRDD/RECT/04/2026-27",
+    "q": "Graduation / B.Tech / MCA / MBA / CA with Relevant Experience",
+    "desc": "Indian Overseas Bank invites online applications for 291 Generalist & SO vacancies (Manager, Senior Manager, Asst Manager) in JMGS I, MMGS II & MMGS III scales.",
+    "u": "https://www.iob.bank.in"
+},
+  {
     "id": "iit-goa-sports-coach-recruitment-2026",
     "b": "Indian Institute of Technology Goa (IIT Goa)",
     "t": "IIT Goa Sports Coach Recruitment 2026 – Walk-in Interview for 3 Posts",
@@ -3776,14 +3787,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "bob-local-bank-officer-lbo-recruitment-2026",
     "b": "Bank of Baroda (BOB)",
-    "t": "Bank of Baroda LBO Recruitment 2026 – Apply Online for 2,482 Local Bank Officer (Scale-I) Posts | Advt: BOB/HRM/REC/ADVT/2026/16 (Last Date: 07 September 2026)",
+    "t": "Bank of Baroda (BOB) Local Bank Officer (LBO) Recruitment 2026 – Apply Online for 2482 Posts",
     "d": "18 August 2026",
     "l": "07 September 2026",
     "a": "BOB/HRM/REC/ADVT/2026/16",
-    "q": "Graduation in any discipline + Min 1 Year Officer Exp in Scheduled Commercial Bank",
-    "desc": "Bank of Baroda (BOB), one of India's premier and largest Public Sector Scheduled Commercial Banks ('India's International Bank'), has released notification BOB/HRM/REC/ADVT/2026/16 for the recruitment of Local Bank Officers (LBO) in Junior Management Grade / Scale-I (JMG/S-I) on a regular full-time basis.",
-    "u": "https://www.bankofbaroda.bank.in/Career.htm"
-  },
+    "q": "Graduation in any discipline + 1 Year Officer Experience in Scheduled Bank",
+    "desc": "Bank of Baroda invites online applications for 2,482 Local Bank Officer (LBO) regular vacancies in JMG/S-I scale (₹48,480–₹85,920 + 1 advance increment) across 20 States.",
+    "u": "https://www.bankofbaroda.bank.in"
+},
   {
     "id": "ngel-engineer-executive-re-recruitment-2026",
     "b": "NTPC Green Energy Limited (NGEL)",
