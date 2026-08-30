@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-post-doctoral-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 – Apply for 1 Post Doctoral Research Fellow (Coal Supply Chain Optimization using AI) Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D. in Artificial Intelligence / Generative AI with BE/BTech/Equivalent in ...",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Post Doctoral Research Fellow (Coal Supply Chain Optimization using AI) posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/Applications_Invited_forPost-Docg795.pdf"
+},
+  {
+    "id": "tmb-agricultural-officer-specialis-recruitment-2026",
+    "b": "TMB",
+    "t": "TMB Recruitment 2026 – Apply for 1 Agricultural Officer, Specialist Officer and More Posts",
+    "d": "30 August 2026",
+    "l": "06-09-2026",
+    "a": "TMB/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "TMB has officially released employment advertisement notification TMB/2026 for the recruitment of 1 vacancies for Agricultural Officer, Specialist Officer and More posts.",
+    "u": "https://www.ib.tmbonline.bank.in/tmb_careers/doc/ADV_SFF20262701.pdf"
+},
+  {
+    "id": "esic-tamil-nadu-advocates-124-recruitment-2026",
+    "b": "ESIC Tamil Nadu Advocates",
+    "t": "ESIC Tamil Nadu Advocates Recruitment 2026 – Apply for 124 124 Posts",
+    "d": "30 August 2026",
+    "l": "08.09.2026",
+    "a": "ESIC-TAMIL-NAD/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "ESIC Tamil Nadu Advocates has officially released employment advertisement notification ESIC-TAMIL-NAD/2026 for the recruitment of 124 vacancies for 124 posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Notice_for_Empanelment_of_Advocates_2026_for_TN_Region_1787809271.pdf"
+},
+  {
+    "id": "bharathiar-university-guest-faculty-placement-office-recruitment-2026",
+    "b": "Bharathiar University",
+    "t": "Bharathiar University Recruitment 2026 – Apply for 5 Guest Faculty / Placement Officer Posts",
+    "d": "30 August 2026",
+    "l": "05 September 2026",
+    "a": "BHARATHIAR-UNI/2026",
+    "q": "Master in Electronics / Electrical & Communication / Electrical and Instrumen...",
+    "desc": "Bharathiar University has officially released employment advertisement notification BHARATHIAR-UNI/2026 for the recruitment of 5 vacancies for Guest Faculty / Placement Officer posts.",
+    "u": "https://b-u.ac.in"
+},
+  {
+    "id": "district-legal-services-author-para-legal-volunteer-adhikar-m-recruitment-2026",
+    "b": "District Legal Services Authority Barnala (DLSA Barnala)",
+    "t": "District Legal Services Authority Barnala (DLSA Barnala) Recruitment 2026 – Apply for 1 Para-Legal Volunteer (Adhikar Mitra) Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Literate preferably matriculate, Various eligible categories including teache...",
+    "desc": "District Legal Services Authority Barnala (DLSA Barnala) has officially released employment advertisement notification DISTRICT-LEGAL/2026 for the recruitment of 1 vacancies for Para-Legal Volunteer (Adhikar Mitra) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec037371364b3d72ac9a3ed8638e6f0b/uploads/2026/08/2026082773.pdf"
+},
+  {
+    "id": "amritsar-district-court-counsellor-recruitment-2026",
+    "b": "Amritsar District Court",
+    "t": "Amritsar District Court Recruitment 2026 – Apply for 3 Counsellor Posts",
+    "d": "30 August 2026",
+    "l": "14 September 2026",
+    "a": "AMRITSAR-DISTR/2026",
+    "q": "Graduate degree of recognized university preferably with Social Science/Socio...",
+    "desc": "Amritsar District Court has officially released employment advertisement notification AMRITSAR-DISTR/2026 for the recruitment of 3 vacancies for Counsellor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03f8037f94e53f17a2cc301033ca86/uploads/2026/08/2026082418.pdf"
+},
+  {
+    "id": "yudhistir-mishra-law-college-principal-and-assistant-profes-recruitment-2026",
+    "b": "Yudhistir Mishra Law College",
+    "t": "Yudhistir Mishra Law College Recruitment 2026 – Apply for 3 Principal and Assistant Professor in Law Posts",
+    "d": "30 August 2026",
+    "l": "25 September 2026",
+    "a": "YUDHISTIR-MISH/2026",
+    "q": "Ph.D. in concerned discipline, LL.M. with 55% marks",
+    "desc": "Yudhistir Mishra Law College has officially released employment advertisement notification YUDHISTIR-MISH/2026 for the recruitment of 3 vacancies for Principal and Assistant Professor in Law posts.",
+    "u": "https://www.balangirlawcollege.in/downloads/d0541e2b3daf4ac9d6ef6c2ab6316604.pdf"
+},
+  {
+    "id": "koraput-district-court-junior-clerk-cum-copyist-recruitment-2026",
+    "b": "Koraput District Court",
+    "t": "Koraput District Court Recruitment 2026 – Apply for 3 Junior Clerk-cum-Copyist Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "4 of 2026",
+    "q": "+3 Examination or equivalent from recognized University, Diploma in Computer ...",
+    "desc": "Koraput District Court has officially released employment advertisement notification 4 of 2026 for the recruitment of 3 vacancies for Junior Clerk-cum-Copyist posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02747d3443e319a22747fbb873e8b2/uploads/2026/08/2026082545.pdf"
+},
+  {
+    "id": "nuapada-district-court-group-d-daily-wage-recruitment-2026",
+    "b": "Nuapada District Court",
+    "t": "Nuapada District Court Recruitment 2026 – Apply for 17 Group D (Daily Wage) Posts",
+    "d": "30 August 2026",
+    "l": "3 September 2026",
+    "a": "NUAPADA-DISTRI/2026",
+    "q": "Class VIII (M.E. Standard)",
+    "desc": "Nuapada District Court has officially released employment advertisement notification NUAPADA-DISTRI/2026 for the recruitment of 17 vacancies for Group D (Daily Wage) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec019a96a2c73c0d477ff2a6da3bf538/uploads/2026/08/2026082014.pdf"
+},
+  {
+    "id": "malegaon-municipal-corporation-educational-qualification-recruitment-2026",
+    "b": "Malegaon Municipal Corporation",
+    "t": "Malegaon Municipal Corporation Recruitment 2026 – Apply for 1 Educational Qualification Posts",
+    "d": "30 August 2026",
+    "l": "3:00 PM - 5:00 PM",
+    "a": "MALEGAON-MUNIC/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Malegaon Municipal Corporation has officially released employment advertisement notification MALEGAON-MUNIC/2026 for the recruitment of 1 vacancies for Educational Qualification posts.",
+    "u": "https://malegaoncorporation.org//latest/2%20bharti.pdf"
+},
+  {
     "id": "konkan-railway-corporation-lim-office-boyhelperkhalasi-recruitment-2026",
     "b": "Konkan Railway Corporation Limited (KRCL) - a Government of India Undertaking, Ministry of Railways",
     "t": "Konkan Railway Corporation Limited (KRCL) - a Government of India Undertaking, Ministry of Railways Recruitment 2026 – Apply for 30 Office Boy/Helper/Khalasi Posts",
