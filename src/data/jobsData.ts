@@ -630,12 +630,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "iob-generalist-so-recruitment-2026",
     "b": "Indian Overseas Bank (IOB)",
-    "t": "IOB Generalist & Specialist Officer Recruitment 2026 – Apply Online for 291 Posts",
-    "d": "29 August 2026",
+    "t": "Indian Overseas Bank (IOB) Generalist & SO Recruitment 2026 – Apply Online for 291 Posts",
+    "d": "28 August 2026",
     "l": "15 September 2026",
     "a": "HRDD/RECT/04/2026-27",
-    "q": "Graduation / B.Tech / MCA / MBA / CA with Relevant Experience",
-    "desc": "Indian Overseas Bank invites online applications for 291 Generalist & SO vacancies (Manager, Senior Manager, Asst Manager) in JMGS I, MMGS II & MMGS III scales.",
+    "q": "Graduation / B.Tech / MCA / M.Sc / MBA (Finance) / CA / CMA + Experience",
+    "desc": "IOB invites online applications for 291 Generalist & Specialist Officer vacancies in Scale I, II & III (Pay ₹48,480–₹1,05,280). Apply online before 15 Sept 2026.",
     "u": "https://www.iob.bank.in"
 },
   {
