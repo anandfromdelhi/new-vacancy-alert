@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rrc-ncr-prayagraj-act-apprentice-recruitment-2026",
+    "b": "Railway Recruitment Cell NCR (RRC NCR)",
+    "t": "RRC NCR Prayagraj Act Apprentice Recruitment 2026 – Apply Online for 1,853 Slots (Extended)",
+    "d": "07 July 2026",
+    "l": "31 August 2026",
+    "a": "RRC/NCR/Act. Apprentice 01/2026",
+    "q": "10th Class (Min 50%) + ITI Pass in Relevant Trade (NCVT/SCVT)",
+    "desc": "RRC NCR invites online applications for 1,853 Act Apprentice slots across Prayagraj, Jhansi, Agra Divisions & Jhansi Workshop. 100% 10th+ITI Merit Selection.",
+    "u": "https://www.rrcpryj.org"
+},
+  {
     "id": "esic-tamil-nadu-advocates-empanelment-2026",
     "b": "Employees' State Insurance Corporation (ESIC)",
     "t": "ESIC Tamil Nadu Advocates Empanelment 2026 – Apply for 124 Panel Counsel Posts",
@@ -109,17 +120,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "BAMS/BHMS/BSMS with 5 years research experience OR Post-graduate degree in Ph...",
     "desc": "Central Ayurveda Research Institute (CARI) has officially released employment advertisement notification CENTRAL-AYURVE/2026 for the recruitment of 2 vacancies for Consultant (Ayush disciplines) & Junior Research Fellow (Pharmacology) posts.",
     "u": "https://ccras.nic.in/wp-content/uploads/2026/08/27082026-Cari-Delhi.pdf"
-},
-  {
-    "id": "railway-recruitment-cell-north-act-apprentice-apprentices-act-recruitment-2026",
-    "b": "Railway Recruitment Cell, North Central Railway (RRC NCR)",
-    "t": "Railway Recruitment Cell, North Central Railway (RRC NCR) Recruitment 2026 – Apply for 1853 Act Apprentice (Apprentices Act, 1961) Posts",
-    "d": "30 August 2026",
-    "l": "07.08.2026 @ 23:59 hrs",
-    "a": "RRC/NCR/Act. Apprentice 01/2026, dated 07.07.2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Railway Recruitment Cell, North Central Railway (RRC NCR) has officially released employment advertisement notification RRC/NCR/Act. Apprentice 01/2026, dated 07.07.2026 for the recruitment of 1853 vacancies for Act Apprentice (Apprentices Act, 1961) posts.",
-    "u": "https://rrcpryj.org/wp-content/uploads/2026/07/Notification-act-apprentice-2026.pdf"
 },
   {
     "id": "csc-e-governance-services-indi-aadhaar-supervisoroperator-dis-recruitment-2026",
