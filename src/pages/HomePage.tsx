@@ -423,22 +423,21 @@ export default function HomePage() {
           {/* Chrome Browser Tabs Strip Header */}
           <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col md:flex-row md:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
             
-            {/* 3 Main Chrome Tabs */}
-            <div className="grid grid-cols-3 gap-1 sm:flex sm:items-end sm:gap-2 w-full sm:w-auto">
+            {/* 3 Main Chrome Tabs (Full visible titles with smooth horizontal scrolling on small screens) */}
+            <div className="flex items-end gap-1.5 sm:gap-2 w-full sm:w-auto overflow-x-auto no-scrollbar scroll-smooth pb-0.5 sm:pb-0">
               
               {/* Tab 1: Qualification Wise */}
               <button
                 onClick={() => setActiveTab('qualification')}
-                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
                   activeTab === 'qualification'
                     ? 'bg-white border-t-blue-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
                     : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
                 }`}
               >
                 <GraduationCap className="h-4 w-4 text-blue-600 shrink-0" />
-                <span className="truncate tracking-tight">
-                  <span className="inline sm:hidden">Qualification</span>
-                  <span className="hidden sm:inline">Qualification Wise</span>
+                <span className="tracking-tight whitespace-nowrap">
+                  Qualification Wise
                 </span>
                 <span
                   className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
@@ -454,16 +453,15 @@ export default function HomePage() {
               {/* Tab 2: State Wise */}
               <button
                 onClick={() => setActiveTab('state')}
-                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
                   activeTab === 'state'
                     ? 'bg-white border-t-amber-500 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
                     : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
                 }`}
               >
                 <MapPin className="h-4 w-4 text-amber-600 shrink-0" />
-                <span className="truncate tracking-tight">
-                  <span className="inline sm:hidden">State</span>
-                  <span className="hidden sm:inline">State Wise</span>
+                <span className="tracking-tight whitespace-nowrap">
+                  State Wise
                 </span>
                 <span
                   className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
@@ -479,16 +477,15 @@ export default function HomePage() {
               {/* Tab 3: Board Wise */}
               <button
                 onClick={() => setActiveTab('board')}
-                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
                   activeTab === 'board'
                     ? 'bg-white border-t-emerald-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
                     : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
                 }`}
               >
                 <Building2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span className="truncate tracking-tight">
-                  <span className="inline sm:hidden">Board</span>
-                  <span className="hidden sm:inline">Board Wise</span>
+                <span className="tracking-tight whitespace-nowrap">
+                  Board Wise
                 </span>
                 <span
                   className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${

@@ -48,6 +48,17 @@
   animation: fadeIn 0.2s ease-out forwards;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 @media print {
   /* Force exact color reproduction (background colors, gradients, text colors, borders, badges) */
   *, *::before, *::after {
