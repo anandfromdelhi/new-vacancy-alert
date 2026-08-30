@@ -1026,7 +1026,12 @@ export default function BiharBsfcBestBooksPage() {
         </section>
 
         {/* Comments Section */}
-        <CommentsSection articleId="best-books-for-bihar-bsfc" />
+        <div id="comments-section">
+          <CommentsSection 
+            pageId="best-books-for-bihar-bsfc" 
+            pageTitle="Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Assistant Manager, Accountant & Other Posts"
+          />
+        </div>
 
         {/* Subscription Newsletter */}
         <SubscribeWidget />
@@ -1035,9 +1040,8 @@ export default function BiharBsfcBestBooksPage() {
 
       {/* Sticky Bottom Bar */}
       <ArticleStickyBottomBar 
-        title="Best Books for Bihar BSFC 2026 Guide"
-        readTime="18 min read"
-        topPickUrl={BSFC_BOOK_LINKS.BSFC_PYQ}
+        title="Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Assistant Manager, Accountant"
+        description="Comprehensive guide to the best books for Bihar BSFC 2026 preparation: Subject-wise book recommendations for LDC, AM, Accountant, and Quality Controller."
       />
     </div>
   );

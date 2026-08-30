@@ -1009,7 +1009,12 @@ export default function MpesbBestBooksPage() {
         </section>
 
         {/* Comments Section */}
-        <CommentsSection articleId="best-books-for-mpesb" />
+        <div id="comments-section">
+          <CommentsSection 
+            pageId="best-books-for-mpesb" 
+            pageTitle="Best Books for MPESB 2026: Subject-Wise Best Books for MPESB Group 3 Preparation"
+          />
+        </div>
 
         {/* Subscription Newsletter */}
         <SubscribeWidget />
@@ -1018,9 +1023,8 @@ export default function MpesbBestBooksPage() {
 
       {/* Sticky Bottom Bar */}
       <ArticleStickyBottomBar 
-        title="Best Books for MPESB 2026 Guide"
-        readTime="18 min read"
-        topPickUrl={MPESB_BOOK_LINKS.EXAMCART_PYQ}
+        title="Best Books for MPESB 2026: Subject-Wise Best Books for MPESB Group 3 Preparation"
+        description="Comprehensive guide to the best books for MPESB Group 3 Preparation: Subject-wise book recommendations, MP GK, PYQs, and 30-day study timetable."
       />
     </div>
   );
