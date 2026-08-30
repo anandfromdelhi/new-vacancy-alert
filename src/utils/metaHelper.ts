@@ -90,6 +90,11 @@ export function getPageMetaData(urlPath: string) {
     description = "Looking for the best books for MPESB 2026? Check the best MPESB books for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer and Group 3 technical preparation.";
     ogUrl = "https://newvacancyalert.in/best-books-for-mpesb";
   }
+  else if (cleanPath === "best-books-for-bihar-bsfc" || cleanPath === "bihar-bsfc-best-books" || cleanPath === "best-books-for-bsfc") {
+    title = "Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Asst Manager, Accountant | NewVacancyAlert";
+    description = "Looking for the best books for Bihar BSFC 2026? Check the best BSFC books for LDC, Assistant Manager, Accountant, Assistant Accounts Officer and Quality Controller preparation.";
+    ogUrl = "https://newvacancyalert.in/best-books-for-bihar-bsfc";
+  }
   else if (cleanPath === "articles") {
     title = "Syllabus, Exam Strategy & Recruitment Guides | NewVacancyAlert";
     description = "Read expert articles on government job preparations, exam patterns, cutoff trends, and career advice.";

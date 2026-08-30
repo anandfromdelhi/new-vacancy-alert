@@ -345,6 +345,7 @@ async function prerender() {
     { url: '/rrb-exam-calendar-2026-27', priority: '0.8', changefreq: 'monthly' },
     { url: '/best-books-for-rrb-ntpc', priority: '0.8', changefreq: 'weekly' },
     { url: '/best-books-for-mpesb', priority: '0.8', changefreq: 'weekly' },
+    { url: '/best-books-for-bihar-bsfc', priority: '0.8', changefreq: 'weekly' },
     { url: '/aiims-norcet-11-nursing-officer-2026/cutoff', priority: '0.8', changefreq: 'monthly' },
     { url: '/about', priority: '0.5', changefreq: 'monthly' },
     { url: '/contact', priority: '0.5', changefreq: 'monthly' },

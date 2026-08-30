@@ -152,6 +152,20 @@ const ARTICLES_LIST: ArticleItem[] = [
     views: '24.8K Views'
   },
   {
+    id: 'best-books-for-bihar-bsfc',
+    slug: '/best-books-for-bihar-bsfc',
+    title: 'Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Assistant Manager, Accountant & Other Posts',
+    excerpt: 'Complete guide to the best books for Bihar BSFC 2026: Subject-wise breakdown for LDC, Assistant Manager, Accountant, AAO, Quality Controller, Bihar GK, and 30-day study plan.',
+    category: 'General',
+    author: 'NewVacancyAlert Editorial Team',
+    date: '30th August 2026',
+    readTime: '18 min read',
+    featured: true,
+    badge: '🔥 State Exam Guide',
+    icon: BookOpen,
+    views: '19.6K Views'
+  },
+  {
     id: 'aiims-norcet-11-cutoff',
     slug: '/aiims-norcet-11-nursing-officer-2026/cutoff',
     title: 'AIIMS NORCET 11 Expected Cutoff Marks & Rank Analysis 2026',

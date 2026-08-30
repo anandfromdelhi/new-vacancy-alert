@@ -23,6 +23,7 @@ const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
 const SalaryCalculatorArticle = lazy(() => import('./pages/SalaryCalculatorArticle'));
 const RrbNtpcBestBooksPage = lazy(() => import('./pages/RrbNtpcBestBooksPage'));
 const MpesbBestBooksPage = lazy(() => import('./pages/MpesbBestBooksPage'));
+const BiharBsfcBestBooksPage = lazy(() => import('./pages/BiharBsfcBestBooksPage'));
 
 // SSC CGL Master Guide Hub & 7 Child Chapter Articles
 const SscCglMasterGuidePage = lazy(() => import('./pages/ssc-cgl/SscCglMasterGuidePage'));
@@ -122,6 +123,9 @@ export default function App() {
                   <Route path="best-books-for-mpesb" element={<MpesbBestBooksPage />} />
                   <Route path="best-books-for-mpesb-group-3" element={<Navigate to="/best-books-for-mpesb" replace />} />
                   <Route path="mpesb-best-books" element={<Navigate to="/best-books-for-mpesb" replace />} />
+                  <Route path="best-books-for-bihar-bsfc" element={<BiharBsfcBestBooksPage />} />
+                  <Route path="bihar-bsfc-best-books" element={<Navigate to="/best-books-for-bihar-bsfc" replace />} />
+                  <Route path="best-books-for-bsfc" element={<Navigate to="/best-books-for-bihar-bsfc" replace />} />
                   <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
                   <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
 
