@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-goa-sports-coach-recruitment-2026",
+    "b": "Indian Institute of Technology Goa (IIT Goa)",
+    "t": "IIT Goa Sports Coach Recruitment 2026 – Walk-in Interview for 3 Posts",
+    "d": "28 August 2026",
+    "l": "07 September 2026",
+    "a": "IITGoa/RECT/NT-CON/2026-08",
+    "q": "Graduate in Physical Education / NIS Diploma with 2 Years Experience",
+    "desc": "IIT Goa invites applications for Walk-in Interview on 07.09.2026 for 3 Sports Coach posts (Badminton, Football, Lawn Tennis) with honorarium ₹385/Hour.",
+    "u": "https://iitgoa.ac.in"
+},
+  {
+    "id": "ahvd-assam-vfa-recruitment-2026",
+    "b": "Directorate of Animal Husbandry & Veterinary, Assam",
+    "t": "AHVD Assam Veterinary Field Assistant (VFA) Recruitment 2026 – Apply Online for 200 Posts",
+    "d": "26 August 2026",
+    "l": "23 September 2026",
+    "a": "No. E-543943/71",
+    "q": "HSSLC (12th) Science with Biology & Assam PRC Domicile",
+    "desc": "Directorate of Animal Husbandry & Veterinary Assam invites online applications for 200 Veterinary Field Assistant (VFA) vacancies in Pay Band-2 (₹14,000-₹70,000 + GP ₹6,200).",
+    "u": "https://animalhusbandry.assam.gov.in"
+},
+  {
     "id": "aiims-raebareli-senior-resident-recruitment-2026",
     "b": "All India Institute of Medical Sciences (AIIMS), Raebareli",
     "t": "AIIMS Raebareli Senior Resident Recruitment 2026 – Walk-in Interview for 108 Posts",
@@ -450,17 +472,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Sc. in a relevant discipline with 2 year's experience in Microbiology, 10th...",
     "desc": "Post Graduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POST-GRADUATE-/2026 for the recruitment of 2 vacancies for Research Scientist, Helping Attendant posts.",
     "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=Medmicro28Aug2026121133.pdf&PathKey=VACANCY_PATH"
-},
-  {
-    "id": "directorate-of-animal-husbandr-veterinary-field-assistant-vfa-recruitment-2026",
-    "b": "Directorate of Animal Husbandry and Veterinary, Government of Assam",
-    "t": "Directorate of Animal Husbandry and Veterinary, Government of Assam Recruitment 2026 – Apply for 200 Veterinary Field Assistant (VFA) and its allied cadre posts Posts",
-    "d": "30 August 2026",
-    "l": "23 September 2026, 23:59 hrs",
-    "a": "E-543943/71",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Directorate of Animal Husbandry and Veterinary, Government of Assam has officially released employment advertisement notification E-543943/71 for the recruitment of 200 vacancies for Veterinary Field Assistant (VFA) and its allied cadre posts posts.",
-    "u": "https://animalhusbandry.assam.gov.in/sites/default/files/swf_utility_folder/departments/ahvetdept_webcomindia_org_oid_3/menu/document/advertisement_for_recruitment_of_200_nos._of_vfas.pdf"
 },
   {
     "id": "mahapurusha-srimanta-sankarade-faculty-for-four-year-integrat-recruitment-2026",
