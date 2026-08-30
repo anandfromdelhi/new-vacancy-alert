@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "employee-state-insurance-corpo-scientist-grade-i-embryologist-recruitment-2026",
+    "b": "Employee State Insurance Corporation Delhi (ESIC Delhi)",
+    "t": "Employee State Insurance Corporation Delhi (ESIC Delhi) Recruitment 2026 – Apply for 1 Scientist Grade-I (Embryologist) Posts",
+    "d": "30 August 2026",
+    "l": "15 September 2026",
+    "a": "F.No. DM(H)A-11/13/01/2019-MED(H)-Part(1)",
+    "q": "Post-graduate in Clinical Embryology with 3 years ART lab experience OR Ph.D....",
+    "desc": "Employee State Insurance Corporation Delhi (ESIC Delhi) has officially released employment advertisement notification F.No. DM(H)A-11/13/01/2019-MED(H)-Part(1) for the recruitment of 1 vacancies for Scientist Grade-I (Embryologist) posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/RECRUITMENT_FOR_THE_POST_OF_SCIENTIST_GRADE_I_EMBRYOLOGIST_ON_CONTRACTUAL_BASIS_1787899677.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 – Apply for 1 Senior Research Fellow Posts",
+    "d": "30 August 2026",
+    "l": "11 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M Sc/ B Tech in Physics/ EP/ Electronics with 80% marks and 02 years minimum ...",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Senior Research Fellow posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1787911554547_akxu0pt.pdf"
+},
+  {
+    "id": "indira-gandhi-hospital-dwarka-senior-resident-recruitment-2026",
+    "b": "Indira Gandhi Hospital Dwarka (IGH Dwarka)",
+    "t": "Indira Gandhi Hospital Dwarka (IGH Dwarka) Recruitment 2026 – Apply for 5 Senior Resident Posts",
+    "d": "30 August 2026",
+    "l": "03.09.2026",
+    "a": "F.No.2/16(280)/Estt./Aptt./SR/2026-IGH/13876-86",
+    "q": "MBBS with PG Degree/Diploma in the concerned specialty.",
+    "desc": "Indira Gandhi Hospital Dwarka (IGH Dwarka) has officially released employment advertisement notification F.No.2/16(280)/Estt./Aptt./SR/2026-IGH/13876-86 for the recruitment of 5 vacancies for Senior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wigh_34.pdf"
+},
+  {
+    "id": "hudco-senior-manager-deputy-general-recruitment-2026",
+    "b": "HUDCO",
+    "t": "HUDCO Recruitment 2026 – Apply for 8 Senior Manager, Deputy General Manager and More Posts",
+    "d": "30 August 2026",
+    "l": "16.09.2026, till 18:00 hrs",
+    "a": "HUDCO/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "HUDCO has officially released employment advertisement notification HUDCO/2026 for the recruitment of 8 vacancies for Senior Manager, Deputy General Manager and More posts.",
+    "u": "https://hudco.org.in/writereaddata/Detailed-Advertisement.pdf"
+},
+  {
+    "id": "driver-driver-and-frash-recruitment-2026",
+    "b": "Driver",
+    "t": "Driver Recruitment 2026 – Apply for 56 Driver and Frash Posts",
+    "d": "30 August 2026",
+    "l": "18/09/2026, 11:59 P.M.",
+    "a": "04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Driver has officially released employment advertisement notification 04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026 for the recruitment of 56 vacancies for Driver and Frash posts.",
+    "u": "https://highcourtchd.gov.in/sub_pages/left_menu/recruitments/staff/openings_pdf/drivr_advt_28082026_b8a83.pdf"
+},
+  {
+    "id": "bbmb-hindi-translator-online-recruitment-2026",
+    "b": "BBMB Hindi Translator",
+    "t": "BBMB Hindi Translator Recruitment 2026 – Apply for 1 Online Posts",
+    "d": "30 August 2026",
+    "l": "21 September 2026, up to 11:59 PM",
+    "a": "BBMB-HINDI-TRA/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "BBMB Hindi Translator has officially released employment advertisement notification BBMB-HINDI-TRA/2026 for the recruitment of 1 vacancies for Online posts.",
+    "u": "https://bbmb.gov.in/writereaddata/Portal/JobOpening/124_1_Final_Detailed_Advt._2_of_2026__English.pdf"
+},
+  {
+    "id": "stpi-assistant-administrative-offic-recruitment-2026",
+    "b": "STPI",
+    "t": "STPI Recruitment 2026 – Apply for 1 Assistant, Administrative Officer and More Posts",
+    "d": "30 August 2026",
+    "l": "29 August 2026",
+    "a": "STPI/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "STPI has officially released employment advertisement notification STPI/2026 for the recruitment of 1 vacancies for Assistant, Administrative Officer and More posts.",
+    "u": "https://stpi.in/sites/default/files/career-documents/notice_26.pdf"
+},
+  {
+    "id": "foreigners-tribunal-goalpara-data-entry-operator-recruitment-2026",
+    "b": "Foreigners Tribunal Goalpara",
+    "t": "Foreigners Tribunal Goalpara Recruitment 2026 – Apply for 1 Data Entry Operator Posts",
+    "d": "30 August 2026",
+    "l": "08 September 2026",
+    "a": "FT (G-4)2026/2671 (A-L))",
+    "q": "HS Passed from a recognized Board/Council, Minimum 6 months Computer Diploma ...",
+    "desc": "Foreigners Tribunal Goalpara has officially released employment advertisement notification FT (G-4)2026/2671 (A-L)) for the recruitment of 1 vacancies for Data Entry Operator posts.",
+    "u": "https://goalpara.assam.gov.in/sites/default/files/public_utility/ft.pdf"
+},
+  {
+    "id": "csir-north-east-institute-of-s-junior-stenographer-junior-sec-recruitment-2026",
+    "b": "CSIR-North East Institute of Science and Technology, Jorhat",
+    "t": "CSIR-North East Institute of Science and Technology, Jorhat Recruitment 2026 – Apply for 4 Junior Stenographer, Junior Secretariat Assistant, Junior Hindi Translator Posts",
+    "d": "30 August 2026",
+    "l": "28 September 2026",
+    "a": "05/2026-REC & 06/2026-REC",
+    "q": "10+2/XII or equivalent with stenography proficiency, 10+2/XII or equivalent w...",
+    "desc": "CSIR-North East Institute of Science and Technology, Jorhat has officially released employment advertisement notification 05/2026-REC & 06/2026-REC for the recruitment of 4 vacancies for Junior Stenographer, Junior Secretariat Assistant, Junior Hindi Translator posts.",
+    "u": "https://Candidates should ensure that they fulfill the prescribed age criteria. Calculate your exact age using our Age Calculator before submitting your application to confirm your eligibility."
+},
+  {
+    "id": "rajiv-gandhi-university-rgu-research-associate-iii-recruitment-2026",
+    "b": "Rajiv Gandhi University (RGU)",
+    "t": "Rajiv Gandhi University (RGU) Recruitment 2026 – Apply for 1 Research Associate III Posts",
+    "d": "30 August 2026",
+    "l": "07 September 2026",
+    "a": "RAJIV-GANDHI-U/2026",
+    "q": "First Class Post Graduate Degree or Integrated Post Graduate Degree in Tribal...",
+    "desc": "Rajiv Gandhi University (RGU) has officially released employment advertisement notification RAJIV-GANDHI-U/2026 for the recruitment of 1 vacancies for Research Associate III posts.",
+    "u": "https://rgu.ac.in/uploads/notices/28-08-2026%20Notification%20Walk-in-Interview%20as%20Research%20Associate%20Dept%20of%20AITS,%20JR(Project).pdf"
+},
+  {
     "id": "rrc-ncr-prayagraj-act-apprentice-recruitment-2026",
     "b": "Railway Recruitment Cell NCR (RRC NCR)",
     "t": "RRC NCR Prayagraj Act Apprentice Recruitment 2026 – Apply Online for 1,853 Slots (Extended)",
