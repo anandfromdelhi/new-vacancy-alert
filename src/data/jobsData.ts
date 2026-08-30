@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mpesb-group-3-sub-engineer-recruitment-2026",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB)",
+    "t": "MPESB Group-3 Sub Engineer, Draftsman & Lab Tech Recruitment 2026 – Apply Online for 1,700 Posts",
+    "d": "28 August 2026",
+    "l": "12 September 2026",
+    "a": "समूह-03 संयुक्त भर्ती परीक्षा-2026 (द्वितीय)",
+    "q": "3-Year Diploma in Engineering or B.E./B.Tech + MP Rojgar Registration",
+    "desc": "MPESB invites online applications for 1,700 Sub Engineer, Draftsman & Lab Technician vacancies in Level-8 (₹32,800–₹1,03,600). Exam starts 07 October 2026 across 11 cities.",
+    "u": "https://www.esb.mp.gov.in"
+},
+  {
     "id": "nic-scientific-technical-assistant-recruitment-2026",
     "b": "National Informatics Centre (NIC), MeitY",
     "t": "NIC Scientific/Technical Assistant-A Recruitment 2026 – Apply Online for 376 Posts",
@@ -263,17 +274,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Sc. (Environmental Science/ Life Science/Chemistry) from recognized Univers...",
     "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially released employment advertisement notification RECRUIT_SD_7A_CEPED_27082026_D for the recruitment of 1 vacancies for Project Assistant-II posts.",
     "u": "https://recruitment.neeri.res.in/appform/Recruit/RECRUIT_SD_7A_CEPED_27082026_D.pdf"
-},
-  {
-    "id": "mpesb-group-3-sub-engineer-sub-engineer-upyantri-draftsma-recruitment-2026",
-    "b": "MPESB Group-3 Sub Engineer",
-    "t": "MPESB Group-3 Sub Engineer Recruitment 2026 – Apply for 1700 Sub Engineer (Upyantri), Draftsman/Cartographer, Laboratory Technician, Technical Assistant, Surveyor, Mineral Surveyor, and other equivalent posts Posts",
-    "d": "30 August 2026",
-    "l": "12-09-2026",
-    "a": "MPESB-GROUP-3-/2026",
-    "q": "Diploma/degree in the relevant engineering or technical discipline (varies by...",
-    "desc": "MPESB Group-3 Sub Engineer has officially released employment advertisement notification MPESB-GROUP-3-/2026 for the recruitment of 1700 vacancies for Sub Engineer (Upyantri), Draftsman/Cartographer, Laboratory Technician, Technical Assistant, Surveyor, Mineral Surveyor, and other equivalent posts posts.",
-    "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf"
 },
   {
     "id": "indian-institute-of-management-admin-associate-recruitment-2026",
