@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-raebareli-senior-resident-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), Raebareli",
+    "t": "AIIMS Raebareli Senior Resident Recruitment 2026 – Walk-in Interview for 108 Posts",
+    "d": "27 August 2026",
+    "l": "08 September 2026",
+    "a": "AIIMS/RBL/REC/SR/2026/480",
+    "q": "MD / MS / DNB / DM / M.Ch in concerned speciality & Medical Council Registration",
+    "desc": "AIIMS Raebareli invites eligible medical postgraduates for Walk-in Interview on 08.09.2026 to fill 108 Senior Resident (Non-Academic) vacancies across 35 departments in Pay Matrix Level-11 (₹67,700 + NPA).",
+    "u": "https://aiimsrbl.edu.in"
+},
+  {
     "id": "central-ayurveda-research-inst-consultant-ayush-disciplines-j-recruitment-2026",
     "b": "Central Ayurveda Research Institute (CARI)",
     "t": "Central Ayurveda Research Institute (CARI) Recruitment 2026 – Apply for 2 Consultant (Ayush disciplines) & Junior Research Fellow (Pharmacology) Posts",
@@ -32,17 +43,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
     "desc": "Railway Recruitment Cell, North Central Railway (RRC NCR) has officially released employment advertisement notification RRC/NCR/Act. Apprentice 01/2026, dated 07.07.2026 for the recruitment of 1853 vacancies for Act Apprentice (Apprentices Act, 1961) posts.",
     "u": "https://rrcpryj.org/wp-content/uploads/2026/07/Notification-act-apprentice-2026.pdf"
-},
-  {
-    "id": "aiims-raebareli-senior-residen-108-recruitment-2026",
-    "b": "AIIMS Raebareli Senior Resident",
-    "t": "AIIMS Raebareli Senior Resident Recruitment 2026 – Apply for 108 108 Posts",
-    "d": "30 August 2026",
-    "l": "08.09.2026, from 03:00 PM onwards",
-    "a": "AIIMS/RBL/REC/SR/2026/480",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "AIIMS Raebareli Senior Resident has officially released employment advertisement notification AIIMS/RBL/REC/SR/2026/480 for the recruitment of 108 vacancies for 108 posts.",
-    "u": "https://aiimsrbl.edu.in/"
 },
   {
     "id": "csc-e-governance-services-indi-aadhaar-supervisoroperator-dis-recruitment-2026",
