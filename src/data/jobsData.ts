@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "department-of-telecommunicatio-stenographer-grade-i-sr-accoun-recruitment-2026",
+    "b": "Department of Telecommunications (DoT)",
+    "t": "Department of Telecommunications (DoT) Recruitment 2026 – Apply for 31 Stenographer Grade-I, Sr. Accountant, Junior Accountant, Stenographer Grade-II & LDC Posts",
+    "d": "30 August 2026",
+    "l": "30 September 2026",
+    "a": "EN 22/52",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Department of Telecommunications (DoT) has officially released employment advertisement notification EN 22/52 for the recruitment of 31 vacancies for Stenographer Grade-I, Sr. Accountant, Junior Accountant, Stenographer Grade-II & LDC posts.",
+    "u": "https://www.dot.gov.in/"
+},
+  {
+    "id": "central-bank-of-india-officer-contractual-recruitment-2026",
+    "b": "Central Bank of India",
+    "t": "Central Bank of India Recruitment 2026 – Apply for 1 Officer (Contractual) Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "CENTRAL-BANK-O/2026",
+    "q": "Graduation degree from a recognized University, Computer Knowledge / Literacy",
+    "desc": "Central Bank of India has officially released employment advertisement notification CENTRAL-BANK-O/2026 for the recruitment of 1 vacancies for Officer (Contractual) posts.",
+    "u": "https://centralbank.bank.in/"
+},
+  {
+    "id": "state-health-society-mumbai-sh-content-researcher-recruitment-2026",
+    "b": "State Health Society Mumbai (SHS Mumbai)",
+    "t": "State Health Society Mumbai (SHS Mumbai) Recruitment 2026 – Apply for 1 Content Researcher Posts",
+    "d": "30 August 2026",
+    "l": "01 September 2026",
+    "a": "STATE-HEALTH-S/2026",
+    "q": "Bachelor's Degree in Public Administration / Public Policy / Political Scienc...",
+    "desc": "State Health Society Mumbai (SHS Mumbai) has officially released employment advertisement notification STATE-HEALTH-S/2026 for the recruitment of 1 vacancies for Content Researcher posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3f3ac63c91272f19ce97c7397825cc15f/uploads/2026/08/20260828511537053.pdf"
+},
+  {
+    "id": "tata-institute-of-fundamental-project-engineer-recruitment-2026",
+    "b": "Tata Institute of Fundamental Research (TIFR)",
+    "t": "Tata Institute of Fundamental Research (TIFR) Recruitment 2026 – Apply for 1 Project Engineer Posts",
+    "d": "30 August 2026",
+    "l": "30 September 2026",
+    "a": "2026/26",
+    "q": "B.E. / B.Tech. in Electronics Engineering or Electronics",
+    "desc": "Tata Institute of Fundamental Research (TIFR) has officially released employment advertisement notification 2026/26 for the recruitment of 1 vacancies for Project Engineer posts.",
+    "u": "https://www.tifr.res.in/maincampus/viewNoticeFile.php?f=TlNiRUFmaWxPK0lONU1DYVZ5ZWdsZz09&s=WFdXaTkwL1ZDTGdxaHp6eHA1bkh1QT09"
+},
+  {
+    "id": "mumbai-railway-vikas-corporati-project-engineer-signal-teleco-recruitment-2026",
+    "b": "Mumbai Railway Vikas Corporation. (MRVC)",
+    "t": "Mumbai Railway Vikas Corporation. (MRVC) Recruitment 2026 – Apply for 9 Project Engineer (Signal & Telecom) Posts",
+    "d": "30 August 2026",
+    "l": "27 September 2026",
+    "a": "MRVC/E/PE(S&T)/21/2026",
+    "q": "Four years Bachelor's Degree in Electrical/Electronics/Information Technology...",
+    "desc": "Mumbai Railway Vikas Corporation. (MRVC) has officially released employment advertisement notification MRVC/E/PE(S&T)/21/2026 for the recruitment of 9 vacancies for Project Engineer (Signal & Telecom) posts.",
+    "u": "https://mrvc.indianrailways.gov.in/uploads/files/V_No21-2026.pdf"
+},
+  {
+    "id": "national-health-mission-dharas-super-specialist-specialist-me-recruitment-2026",
+    "b": "National Health Mission Dharashiv (NHM Dharashiv)",
+    "t": "National Health Mission Dharashiv (NHM Dharashiv) Recruitment 2026 – Apply for 12 Super Specialist / Specialist / Medical Officer Posts",
+    "d": "30 August 2026",
+    "l": "01 September 2026",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "DM Nephrology, DM Cardiology, MD/MS Gyn/DGO/DNB, MD Paed/DCH/DNB, MD Anesthes...",
+    "desc": "National Health Mission Dharashiv (NHM Dharashiv) has officially released employment advertisement notification NATIONAL-HEALT/2026 for the recruitment of 12 vacancies for Super Specialist / Specialist / Medical Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3642e92efb79421734881b53e1e1b18b6/uploads/2026/08/17878260799529.pdf"
+},
+  {
+    "id": "ratnagiri-district-court-contractual-employee-for-e-sev-recruitment-2026",
+    "b": "Ratnagiri District Court",
+    "t": "Ratnagiri District Court Recruitment 2026 – Apply for 1 Contractual Employee for e-Seva Kendra Port Cabins Posts",
+    "d": "30 August 2026",
+    "l": "15 September 2026",
+    "a": "RATNAGIRI-DIST/2026",
+    "q": "Graduate from any branch, Computer knowledge certificate",
+    "desc": "Ratnagiri District Court has officially released employment advertisement notification RATNAGIRI-DIST/2026 for the recruitment of 1 vacancies for Contractual Employee for e-Seva Kendra Port Cabins posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec04dbb422937d7ff56e049d61da730b/uploads/2026/08/2026082831.pdf"
+},
+  {
+    "id": "indian-institute-of-management-107-recruitment-2026",
+    "b": "Indian Institute of Management Indore (IIM Indore)",
+    "t": "Indian Institute of Management Indore (IIM Indore) Recruitment 2026 – Apply for 107 107 Posts",
+    "d": "30 August 2026",
+    "l": "7 September 2026",
+    "a": "Advertisement for Project Positions",
+    "q": "Indian nationals, qualification and experience varying by position",
+    "desc": "Indian Institute of Management Indore (IIM Indore) has officially released employment advertisement notification Advertisement for Project Positions for the recruitment of 107 vacancies for 107 posts.",
+    "u": "https://iimidr.ac.in"
+},
+  {
+    "id": "office-of-the-principal-distri-typist-peon-and-more-recruitment-2026",
+    "b": "Office of the Principal District and Sessions Judge, Yadgir",
+    "t": "Office of the Principal District and Sessions Judge, Yadgir Recruitment 2026 – Apply for 23 Typist, Peon and More Posts",
+    "d": "30 August 2026",
+    "l": "30 September 2026, 11:59 PM",
+    "a": "J.Nyaya.Aadalita 03/2026 (Typist), 04/2026 (Typist Copyist), 05/2026 (Process Server), 06/2026 (Peon)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Office of the Principal District and Sessions Judge, Yadgir has officially released employment advertisement notification J.Nyaya.Aadalita 03/2026 (Typist), 04/2026 (Typist Copyist), 05/2026 (Process Server), 06/2026 (Peon) for the recruitment of 23 vacancies for Typist, Peon and More posts.",
+    "u": "https://yadgir.dcourts.gov.in/online-recruitment/"
+},
+  {
+    "id": "bharat-electronics-limited-bel-various-posts-recruitment-2026",
+    "b": "Bharat Electronics Limited (BEL) - a Navaratna, Government of India Public Sector Company under the Ministry of Defence",
+    "t": "Bharat Electronics Limited (BEL) - a Navaratna, Government of India Public Sector Company under the Ministry of Defence Recruitment 2026 – Apply for 1 Various Posts Posts",
+    "d": "30 August 2026",
+    "l": "10 September 2026",
+    "a": "1410/CLD/HR/MIT/2026-27/01",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Bharat Electronics Limited (BEL) - a Navaratna, Government of India Public Sector Company under the Ministry of Defence has officially released employment advertisement notification 1410/CLD/HR/MIT/2026-27/01 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://bel-india.in/wp-content/uploads/2026/08/Advertisement-280820261.pdf"
+},
+  {
     "id": "asc-centre-south-bangalore-gro-fireman-librarian-and-more-recruitment-2026",
     "b": "ASC Centre South Bangalore Group C",
     "t": "ASC Centre South Bangalore Group C Recruitment 2026 – Apply for 31 Fireman, Librarian and More Posts",
