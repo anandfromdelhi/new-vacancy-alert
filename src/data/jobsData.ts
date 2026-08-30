@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "esic-tamil-nadu-advocates-empanelment-2026",
+    "b": "Employees' State Insurance Corporation (ESIC)",
+    "t": "ESIC Tamil Nadu Advocates Empanelment 2026 – Apply for 124 Panel Counsel Posts",
+    "d": "25 August 2026",
+    "l": "08 September 2026",
+    "a": "Notice Dated 25.08.2026",
+    "q": "Bachelor's Degree in Law (LL.B.) + 5 to 10 Years Bar Practice",
+    "desc": "ESIC Regional Office Chennai invites applications for Empanelment of 124 Advocates (2026-2029) for Madras High Court, CAT, NCLT, Labour & EI Courts across Tamil Nadu.",
+    "u": "https://www.rotamilnadu.esic.gov.in"
+},
+  {
     "id": "india-post-gds-recruitment-2026",
     "b": "Department of Posts (India Post)",
     "t": "India Post GDS Recruitment 2026 – Apply Online for 23,757 BPM, ABPM & Dak Sevak Posts",
@@ -142,17 +153,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
     "desc": "TMB has officially released employment advertisement notification TMB/2026 for the recruitment of 1 vacancies for Agricultural Officer, Specialist Officer and More posts.",
     "u": "https://www.ib.tmbonline.bank.in/tmb_careers/doc/ADV_SFF20262701.pdf"
-},
-  {
-    "id": "esic-tamil-nadu-advocates-124-recruitment-2026",
-    "b": "ESIC Tamil Nadu Advocates",
-    "t": "ESIC Tamil Nadu Advocates Recruitment 2026 – Apply for 124 124 Posts",
-    "d": "30 August 2026",
-    "l": "08.09.2026",
-    "a": "ESIC-TAMIL-NAD/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "ESIC Tamil Nadu Advocates has officially released employment advertisement notification ESIC-TAMIL-NAD/2026 for the recruitment of 124 vacancies for 124 posts.",
-    "u": "https://esic.gov.in/attachments/recruitmentfile/Notice_for_Empanelment_of_Advocates_2026_for_TN_Region_1787809271.pdf"
 },
   {
     "id": "bharathiar-university-guest-faculty-placement-office-recruitment-2026",
