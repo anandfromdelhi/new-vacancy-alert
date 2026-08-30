@@ -397,17 +397,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.aiasl.in/resources/Advertisement%20for%20post%20of%20CMD%20-%20AIAHL.pdf"
 },
   {
-    "id": "ngel-engineer-executive-recruitment-2026",
-    "b": "NGEL",
-    "t": "NGEL Recruitment 2026 – Apply for 1 Engineer, Executive Posts",
-    "d": "30 August 2026",
-    "l": "07.09.2026 (till 18:00 Hrs)",
-    "a": "NGEL/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "NGEL has officially released employment advertisement notification NGEL/2026 for the recruitment of 1 vacancies for Engineer, Executive posts.",
-    "u": "https://www.ngel.in/public/career/1/9bef2e6c3c/9bef2e6c3c.pdf"
-},
-  {
     "id": "department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026",
     "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
     "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 – Apply for 23 BPM, ABPM & Dak Sevak Posts",
@@ -3787,14 +3776,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "ngel-engineer-executive-re-recruitment-2026",
     "b": "NTPC Green Energy Limited (NGEL)",
-    "t": "NGEL Engineer & Executive (Renewable Energy) Recruitment 2026 – Apply Online for 147 Posts (Advt No: 04/26 | Last Date: 07 September 2026)",
-    "d": "21 August 2026",
-    "l": "07 September 2026 (Till 18:00 Hrs)",
+    "t": "NGEL Engineer & Executive (Renewable Energy) Recruitment 2026 – Apply Online for 147 Posts",
+    "d": "18 August 2026",
+    "l": "07 September 2026",
     "a": "Advt. No. 04/26",
-    "q": "B.E./B.Tech/B.Sc (Engg) / CA/CMA / MBA/PGDM (HR/CSR) / MA (Hindi/English) + Experience",
-    "desc": "NTPC Green Energy Limited (NGEL), an umbrella green subsidiary of Maharatna PSU NTPC Limited dedicated to renewable power, Battery Energy Storage Systems (BESS), and green hydrogen generation to achieve 60 GW capacity by 2032, has released recruitment notification Advt. No. 04/26.",
+    "q": "BE / B.Tech / CA / CMA / MBA / MSW / Master's Degree (65% marks, 55% for SC/ST/PwBD)",
+    "desc": "NTPC Green Energy Limited (NGEL), a green subsidiary of Maharatna PSU NTPC Limited, invites online applications for 147 Engineer & Executive vacancies across Civil, Electrical, Mechanical, Safety, HR, Finance, CSR & Rajbhasha with CTC ₹11 LPA.",
     "u": "https://www.ngel.in"
-  },
+},
   {
     "id": "powergrid-nr1-apprenticeship-recruitment-2026",
     "b": "Power Grid Corporation of India Limited (POWERGRID)",
