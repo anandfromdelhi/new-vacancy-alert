@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Link } from 'react-router';
@@ -145,7 +145,11 @@ function CategorySectionCard({
     : 'hover:bg-emerald-600 hover:text-white hover:border-emerald-600';
 
   return (
-    <div className={`bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder}`}>
+    <div 
+      id={`section-${section.slug}`}
+      data-section-slug={section.slug}
+      className={`bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder} scroll-mt-20 sm:scroll-mt-24`}
+    >
       {/* Section Header */}
       <div>
         <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b border-slate-200/80">
@@ -186,6 +190,11 @@ export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTab, setActiveTab] = useState<'qualification' | 'state' | 'board'>('qualification');
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
+  const [isHeroScrolledPast, setIsHeroScrolledPast] = useState(false);
+  const [activeSectionSlug, setActiveSectionSlug] = useState<string>('');
+
+  const heroRef = useRef<HTMLDivElement>(null);
+  const bottomBarNavRef = useRef<HTMLDivElement>(null);
 
   // Active non-expired jobs list
   const activeJobsData = useMemo(() => {
@@ -298,8 +307,63 @@ export default function HomePage() {
     return boardSections;
   }, [activeTab, qualificationSections, stateSections, boardSections]);
 
+  // Scroll monitoring for floating search bar & active section indicator
+  useEffect(() => {
+    const handleScroll = () => {
+      // 1. Detect if scrolled past hero
+      if (heroRef.current) {
+        const heroRect = heroRef.current.getBoundingClientRect();
+        setIsHeroScrolledPast(heroRect.bottom < 50);
+      } else {
+        setIsHeroScrolledPast(window.scrollY > 300);
+      }
+
+      // 2. Detect active section
+      if (currentSections.length === 0) return;
+      const scrollPos = window.scrollY + 140;
+      let active = currentSections[0].slug;
+
+      for (const sec of currentSections) {
+        const el = document.getElementById(`section-${sec.slug}`);
+        if (el) {
+          if (el.offsetTop <= scrollPos) {
+            active = sec.slug;
+          } else {
+            break;
+          }
+        }
+      }
+      setActiveSectionSlug(active);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [currentSections]);
+
+  // Keep the active pill centered in the bottom sticky bar
+  useEffect(() => {
+    if (!activeSectionSlug) return;
+    const activePill = document.getElementById(`bottom-pill-${activeSectionSlug}`);
+    if (activePill && bottomBarNavRef.current) {
+      activePill.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'center',
+        block: 'nearest'
+      });
+    }
+  }, [activeSectionSlug]);
+
+  const scrollToSection = (slug: string) => {
+    setActiveSectionSlug(slug);
+    const element = document.getElementById(`section-${slug}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
-    <main className="flex-1 flex flex-col w-full bg-slate-50">
+    <main className="flex-1 flex flex-col w-full bg-slate-50 relative">
       <Helmet>
         <title>Latest Government Jobs 2026 & Free Job Alerts | NewVacancyAlert</title>
         <meta name="description" content="Access active central and state government recruitment notifications for 2026. Search engineering, banking, railway, defense, and public sector job vacancies." />
@@ -357,8 +421,49 @@ export default function HomePage() {
         </script>
       </Helmet>
 
-      {/* Hero Header Area without 3 buttons below search */}
-      <div className="w-full bg-[#1e40af] text-white py-10 sm:py-14 px-4 sm:px-6 relative overflow-hidden shrink-0 border-b-4 border-[#16a34a]">
+      {/* Floating Search Bar (Appears when scrolled past Hero section with margins around it) */}
+      <div 
+        className={`fixed top-3 inset-x-0 mx-auto z-40 w-[92%] sm:w-[85%] max-w-2xl transition-all duration-300 transform ${
+          isHeroScrolledPast 
+            ? 'translate-y-0 opacity-100 pointer-events-auto' 
+            : '-translate-y-6 opacity-0 pointer-events-none'
+        }`}
+      >
+        <div 
+          onClick={() => setIsGoogleSearchOpen(true)}
+          className="relative flex items-center bg-white/95 backdrop-blur-md rounded-2xl p-1.5 sm:p-2 shadow-2xl border-2 border-emerald-500/80 focus-within:border-emerald-500 focus-within:ring-4 focus-within:ring-emerald-400/30 transition-all text-slate-800 cursor-pointer"
+        >
+          <Search className="absolute left-3.5 sm:left-4.5 top-1/2 -translate-y-1/2 h-4 sm:h-5 w-4 sm:w-5 text-blue-600 shrink-0" />
+          <input 
+            type="text" 
+            placeholder="Search jobs, board, post, qualification or advt no..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            onFocus={() => setIsGoogleSearchOpen(true)}
+            className="w-full pl-9 sm:pl-12 pr-20 sm:pr-28 py-2 sm:py-2.5 text-slate-900 placeholder-slate-400 font-bold text-xs sm:text-sm bg-transparent focus:outline-none cursor-pointer"
+          />
+          {searchTerm && (
+            <button 
+              onClick={(e) => { e.stopPropagation(); setSearchTerm(''); }}
+              className="absolute right-20 sm:right-28 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 font-bold p-1 rounded-full hover:bg-slate-100 transition-all"
+              title="Clear search"
+            >
+              <RotateCcw className="h-3.5 w-3.5" />
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); setIsGoogleSearchOpen(true); }}
+            className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs sm:text-sm px-3 sm:px-5 py-2 rounded-xl flex items-center gap-1.5 shrink-0 shadow-md transition-all cursor-pointer"
+          >
+            <Search className="h-3.5 w-3.5 hidden sm:inline" />
+            <span>Search</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Hero Header Area */}
+      <div ref={heroRef} className="w-full bg-[#1e40af] text-white py-10 sm:py-14 px-4 sm:px-6 relative overflow-hidden shrink-0 border-b-4 border-[#16a34a]">
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-500 rounded-full filter blur-3xl opacity-20 -ml-16 -mb-16"></div>
         
@@ -694,6 +799,50 @@ export default function HomePage() {
         onClose={() => setIsGoogleSearchOpen(false)} 
         initialQuery={searchTerm}
       />
+
+      {/* Mobile Bottom Sticky Section Navigator Bar (Horizontal quick-jump bar with auto active sync) */}
+      {currentSections.length > 0 && (
+        <div className="fixed bottom-3 inset-x-0 mx-auto z-40 w-[94%] max-w-lg lg:hidden transition-all duration-300 pointer-events-auto">
+          <div className="bg-slate-900/95 backdrop-blur-md text-white rounded-2xl p-2 shadow-2xl border border-slate-700/90 flex items-center gap-2">
+            {/* Quick Icon / Category Indicator */}
+            <div className="shrink-0 pl-1 flex items-center gap-1 text-[11px] font-black text-emerald-400 uppercase tracking-wider">
+              {activeTab === 'qualification' && <GraduationCap className="w-3.5 h-3.5 text-blue-400 shrink-0" />}
+              {activeTab === 'state' && <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />}
+              {activeTab === 'board' && <Building2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />}
+              <span className="hidden min-[360px]:inline text-[10px] text-slate-300 font-extrabold">Sections</span>
+            </div>
+
+            {/* Horizontally scrolling pill list */}
+            <div 
+              ref={bottomBarNavRef}
+              className="flex items-center gap-1.5 overflow-x-auto no-scrollbar scroll-smooth flex-1 min-w-0 py-0.5"
+            >
+              {currentSections.map((sec) => {
+                const isActive = activeSectionSlug === sec.slug;
+                return (
+                  <button
+                    key={`bottom-pill-${sec.slug}`}
+                    id={`bottom-pill-${sec.slug}`}
+                    onClick={() => scrollToSection(sec.slug)}
+                    className={`shrink-0 px-2.5 py-1 rounded-xl text-xs font-black transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5 ${
+                      isActive
+                        ? 'bg-emerald-500 text-slate-950 shadow-md font-black ring-2 ring-emerald-300 scale-105'
+                        : 'bg-slate-800/90 text-slate-300 hover:text-white hover:bg-slate-700/90 border border-slate-700/80'
+                    }`}
+                  >
+                    <span>{sec.name}</span>
+                    <span className={`text-[9px] px-1.5 py-0.2 rounded-full font-bold ${
+                      isActive ? 'bg-emerald-800 text-white' : 'bg-slate-700 text-slate-400'
+                    }`}>
+                      {sec.count}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
