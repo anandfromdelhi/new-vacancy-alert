@@ -59,6 +59,12 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+/* Optimize paint and layout for off-screen category cards */
+.category-card-contain {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 280px;
+}
+
 @media print {
   /* Force exact color reproduction (background colors, gradients, text colors, borders, badges) */
   *, *::before, *::after {

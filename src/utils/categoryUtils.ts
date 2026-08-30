@@ -246,6 +246,101 @@ export function getJobsForQualification(jobs: JobEntry[], slug: string): JobEntr
   return jobs.filter(job => matchesQualification(job, slug));
 }
 
+export interface GroupedCategory {
+  name: string;
+  slug: string;
+  count: number;
+  jobs: JobEntry[];
+  moreUrl: string;
+}
+
+/**
+ * Builds all board groups in a single O(N) pass.
+ */
+export function getBoardGroups(jobs: JobEntry[]): GroupedCategory[] {
+  const map = new Map<string, { name: string; slug: string; jobs: JobEntry[] }>();
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i];
+    const boardName = getBoardNameFromJob(job);
+    const slug = toSlug(boardName);
+    let entry = map.get(slug);
+    if (!entry) {
+      entry = { name: boardName, slug, jobs: [] };
+      map.set(slug, entry);
+    }
+    entry.jobs.push(job);
+  }
+  return Array.from(map.values())
+    .map(e => ({
+      name: e.name,
+      slug: e.slug,
+      count: e.jobs.length,
+      jobs: e.jobs,
+      moreUrl: `/board/${e.slug}`
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Builds all state groups in a single O(N) pass.
+ */
+export function getStateGroups(jobs: JobEntry[]): GroupedCategory[] {
+  const map = new Map<string, { name: string; slug: string; jobs: JobEntry[] }>();
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i];
+    const stateName = getStateFromJob(job);
+    const slug = toSlug(stateName);
+    let entry = map.get(slug);
+    if (!entry) {
+      entry = { name: stateName, slug, jobs: [] };
+      map.set(slug, entry);
+    }
+    entry.jobs.push(job);
+  }
+  return Array.from(map.values())
+    .map(e => ({
+      name: e.name,
+      slug: e.slug,
+      count: e.jobs.length,
+      jobs: e.jobs,
+      moreUrl: `/state/${e.slug}`
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/**
+ * Builds all qualification groups in a single O(N) pass.
+ */
+export function getQualificationGroups(jobs: JobEntry[]): GroupedCategory[] {
+  const map = new Map<string, { name: string; slug: string; jobs: JobEntry[] }>();
+  for (let c = 0; c < QUAL_CATEGORIES.length; c++) {
+    const cat = QUAL_CATEGORIES[c];
+    map.set(cat.slug, { name: cat.name, slug: cat.slug, jobs: [] });
+  }
+
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i];
+    const text = `${job.q || ''} ${job.t || ''} ${job.b || ''} ${job.desc || ''}`.toLowerCase();
+    for (let c = 0; c < QUAL_CATEGORIES.length; c++) {
+      const cat = QUAL_CATEGORIES[c];
+      if (cat.keywords.some(kw => containsKeyword(text, kw))) {
+        map.get(cat.slug)!.jobs.push(job);
+      }
+    }
+  }
+
+  return Array.from(map.values())
+    .filter(e => e.jobs.length > 0)
+    .map(e => ({
+      name: e.name,
+      slug: e.slug,
+      count: e.jobs.length,
+      jobs: e.jobs,
+      moreUrl: `/jobs-for/${e.slug}`
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
 /**
  * Given a list of active jobs, returns all qualifications present across active jobs with their vacancy counts.
  */

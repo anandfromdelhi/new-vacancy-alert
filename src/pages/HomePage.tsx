@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef, useEffect } from 'react';
+import React, { useState, useMemo, useRef, useEffect, useDeferredValue } from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Link } from 'react-router';
@@ -18,7 +18,11 @@ import {
   getBoardsWithCounts,
   getJobsForQualification,
   getJobsForState,
-  getJobsForBoard
+  getJobsForBoard,
+  getBoardGroups,
+  getStateGroups,
+  getQualificationGroups,
+  GroupedCategory
 } from '../utils/categoryUtils';
 import { useNavigationLoader } from '../context/NavigationContext';
 import { 
@@ -118,7 +122,8 @@ interface SectionData {
  */
 function CategorySectionCard({ 
   section, 
-  activeTab 
+  activeTab,
+  key
 }: { 
   section: SectionData; 
   activeTab: 'qualification' | 'state' | 'board';
@@ -148,7 +153,7 @@ function CategorySectionCard({
     <div 
       id={`section-${section.slug}`}
       data-section-slug={section.slug}
-      className={`bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder} scroll-mt-20 sm:scroll-mt-24`}
+      className={`category-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder} scroll-mt-20 sm:scroll-mt-24`}
     >
       {/* Section Header */}
       <div>
@@ -188,124 +193,68 @@ function CategorySectionCard({
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
+  const deferredSearch = useDeferredValue(searchTerm);
   const [activeTab, setActiveTab] = useState<'qualification' | 'state' | 'board'>('qualification');
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
   const [isHeroScrolledPast, setIsHeroScrolledPast] = useState(false);
   const [activeSectionSlug, setActiveSectionSlug] = useState<string>('');
+  const [visibleBoardCount, setVisibleBoardCount] = useState<number>(24);
 
   const heroRef = useRef<HTMLDivElement>(null);
   const bottomBarNavRef = useRef<HTMLDivElement>(null);
 
-  // Active non-expired jobs list
+  // Active non-expired jobs list - PRE-SORTED ONCE by newest first
   const activeJobsData = useMemo(() => {
-    return JOBS_DATA.filter(job => !isJobExpired(job.l));
+    return JOBS_DATA.filter(job => !isJobExpired(job.l))
+      .sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
   }, []);
 
-  // 1. Qualification Sections (arranged alphabetically)
-  const qualificationSections = useMemo(() => {
-    const qualCounts = getQualificationsWithCounts(activeJobsData);
-    const searchLower = searchTerm.toLowerCase().trim();
+  // Master group caches (computed once in O(N) single-pass)
+  const allQualGroups = useMemo(() => getQualificationGroups(activeJobsData), [activeJobsData]);
+  const allStateGroups = useMemo(() => getStateGroups(activeJobsData), [activeJobsData]);
+  const allBoardGroups = useMemo(() => getBoardGroups(activeJobsData), [activeJobsData]);
 
-    return qualCounts
-      .map(qual => {
-        let matchingJobs = getJobsForQualification(activeJobsData, qual.slug);
-        
-        if (searchLower) {
-          matchingJobs = matchingJobs.filter(job => 
-            job.b.toLowerCase().includes(searchLower) ||
-            job.t.toLowerCase().includes(searchLower) ||
-            job.q.toLowerCase().includes(searchLower) ||
-            job.a.toLowerCase().includes(searchLower)
-          );
-        }
-
-        // Sort top jobs by date posted descending (most recently published first)
-        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
-
-        return {
-          name: qual.name,
-          slug: qual.slug,
-          count: matchingJobs.length,
-          jobs: matchingJobs,
-          moreUrl: `/jobs-for/${qual.slug}`
-        };
-      })
-      .filter(sec => sec.count > 0)
-      .sort((a, b) => a.name.localeCompare(b.name));
-  }, [activeJobsData, searchTerm]);
-
-  // 2. State Sections (arranged alphabetically)
-  const stateSections = useMemo(() => {
-    const stateCounts = getStatesWithCounts(activeJobsData);
-    const searchLower = searchTerm.toLowerCase().trim();
-
-    return stateCounts
-      .map(state => {
-        let matchingJobs = getJobsForState(activeJobsData, state.slug);
-
-        if (searchLower) {
-          matchingJobs = matchingJobs.filter(job => 
-            job.b.toLowerCase().includes(searchLower) ||
-            job.t.toLowerCase().includes(searchLower) ||
-            job.q.toLowerCase().includes(searchLower) ||
-            job.a.toLowerCase().includes(searchLower)
-          );
-        }
-
-        // Sort top jobs by date posted descending (most recently published first)
-        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
-
-        return {
-          name: state.name,
-          slug: state.slug,
-          count: matchingJobs.length,
-          jobs: matchingJobs,
-          moreUrl: `/state/${state.slug}`
-        };
-      })
-      .filter(sec => sec.count > 0)
-      .sort((a, b) => a.name.localeCompare(b.name));
-  }, [activeJobsData, searchTerm]);
-
-  // 3. Board Sections (arranged alphabetically)
-  const boardSections = useMemo(() => {
-    const boardCounts = getBoardsWithCounts(activeJobsData);
-    const searchLower = searchTerm.toLowerCase().trim();
-
-    return boardCounts
-      .map(board => {
-        let matchingJobs = getJobsForBoard(activeJobsData, board.slug);
-
-        if (searchLower) {
-          matchingJobs = matchingJobs.filter(job => 
-            job.b.toLowerCase().includes(searchLower) ||
-            job.t.toLowerCase().includes(searchLower) ||
-            job.q.toLowerCase().includes(searchLower) ||
-            job.a.toLowerCase().includes(searchLower)
-          );
-        }
-
-        // Sort top jobs by date posted descending (most recently published first)
-        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
-
-        return {
-          name: board.name,
-          slug: board.slug,
-          count: matchingJobs.length,
-          jobs: matchingJobs,
-          moreUrl: `/board/${board.slug}`
-        };
-      })
-      .filter(sec => sec.count > 0)
-      .sort((a, b) => a.name.localeCompare(b.name));
-  }, [activeJobsData, searchTerm]);
-
-  // Currently active section list
+  // Compute filtered sections ONLY for the active tab using deferredSearch
   const currentSections = useMemo(() => {
-    if (activeTab === 'qualification') return qualificationSections;
-    if (activeTab === 'state') return stateSections;
-    return boardSections;
-  }, [activeTab, qualificationSections, stateSections, boardSections]);
+    const searchLower = deferredSearch.toLowerCase().trim();
+    let baseGroups: SectionData[] = [];
+
+    if (activeTab === 'qualification') {
+      baseGroups = allQualGroups;
+    } else if (activeTab === 'state') {
+      baseGroups = allStateGroups;
+    } else {
+      baseGroups = allBoardGroups;
+    }
+
+    if (!searchLower) {
+      return baseGroups;
+    }
+
+    return baseGroups
+      .map(group => {
+        const matchingJobs = group.jobs.filter(job => 
+          job.b.toLowerCase().includes(searchLower) ||
+          job.t.toLowerCase().includes(searchLower) ||
+          job.q.toLowerCase().includes(searchLower) ||
+          job.a.toLowerCase().includes(searchLower)
+        );
+        return {
+          ...group,
+          count: matchingJobs.length,
+          jobs: matchingJobs
+        };
+      })
+      .filter(group => group.count > 0);
+  }, [activeTab, deferredSearch, allQualGroups, allStateGroups, allBoardGroups]);
+
+  // Sliced sections for Board Wise to keep DOM lightweight on initial render
+  const displayedSections = useMemo(() => {
+    if (activeTab === 'board' && !deferredSearch) {
+      return currentSections.slice(0, visibleBoardCount);
+    }
+    return currentSections;
+  }, [activeTab, deferredSearch, currentSections, visibleBoardCount]);
 
   // Scroll monitoring for floating search bar & active section indicator
   useEffect(() => {
@@ -319,11 +268,11 @@ export default function HomePage() {
       }
 
       // 2. Detect active section
-      if (currentSections.length === 0) return;
+      if (displayedSections.length === 0) return;
       const scrollPos = window.scrollY + 140;
-      let active = currentSections[0].slug;
+      let active = displayedSections[0].slug;
 
-      for (const sec of currentSections) {
+      for (const sec of displayedSections) {
         const el = document.getElementById(`section-${sec.slug}`);
         if (el) {
           if (el.offsetTop <= scrollPos) {
@@ -339,7 +288,7 @@ export default function HomePage() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [currentSections]);
+  }, [displayedSections]);
 
   // Keep the active pill centered in the bottom sticky bar
   useEffect(() => {
@@ -551,7 +500,7 @@ export default function HomePage() {
                       : 'bg-slate-300/80 text-slate-700'
                   }`}
                 >
-                  {qualificationSections.length}
+                  {allQualGroups.length}
                 </span>
               </button>
 
@@ -575,7 +524,7 @@ export default function HomePage() {
                       : 'bg-slate-300/80 text-slate-700'
                   }`}
                 >
-                  {stateSections.length}
+                  {allStateGroups.length}
                 </span>
               </button>
 
@@ -599,7 +548,7 @@ export default function HomePage() {
                       : 'bg-slate-300/80 text-slate-700'
                   }`}
                 >
-                  {boardSections.length}
+                  {allBoardGroups.length}
                 </span>
               </button>
             </div>
@@ -612,10 +561,10 @@ export default function HomePage() {
 
           {/* Main Content Grid: 1 col on mobile, 2 cols on tablet, 3 cols on large screen, NO horizontal scrolling */}
           <div className="bg-white p-4 sm:p-6 rounded-b-2xl">
-            {searchTerm && (
+            {deferredSearch && (
               <div className="mb-5 p-3 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-between">
                 <span className="text-xs font-bold text-blue-900">
-                  Showing matching sections for: <span className="font-black">"{searchTerm}"</span> ({currentSections.length} sections found)
+                  Showing matching sections for: <span className="font-black">"{deferredSearch}"</span> ({currentSections.length} sections found)
                 </span>
                 <button
                   onClick={() => setSearchTerm('')}
@@ -627,16 +576,31 @@ export default function HomePage() {
               </div>
             )}
 
-            {currentSections.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
-                {currentSections.map((section) => (
-                  <CategorySectionCard
-                    key={section.slug}
-                    section={section}
-                    activeTab={activeTab}
-                  />
-                ))}
-              </div>
+            {displayedSections.length > 0 ? (
+              <>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
+                  {displayedSections.map((section) => (
+                    <CategorySectionCard
+                      key={section.slug}
+                      section={section}
+                      activeTab={activeTab}
+                    />
+                  ))}
+                </div>
+
+                {/* Progressive Show More for Board Wise */}
+                {activeTab === 'board' && !deferredSearch && visibleBoardCount < currentSections.length && (
+                  <div className="pt-8 text-center">
+                    <button
+                      onClick={() => setVisibleBoardCount(prev => prev + 24)}
+                      className="px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs sm:text-sm shadow-md hover:shadow-lg transition-all cursor-pointer inline-flex items-center gap-2"
+                    >
+                      <span>Show More Boards (Displaying {visibleBoardCount} of {currentSections.length})</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </button>
+                  </div>
+                )}
+              </>
             ) : (
               <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4 my-8">
                 <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
@@ -644,7 +608,7 @@ export default function HomePage() {
                 </div>
                 <h4 className="text-lg font-black text-slate-800">No Matching Vacancies Found</h4>
                 <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{searchTerm}</span>" under {activeTab === 'qualification' ? 'Qualification Wise' : activeTab === 'state' ? 'State Wise' : 'Board Wise'} categories.
+                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{deferredSearch}</span>" under {activeTab === 'qualification' ? 'Qualification Wise' : activeTab === 'state' ? 'State Wise' : 'Board Wise'} categories.
                 </p>
                 <button 
                   onClick={() => setSearchTerm('')}
@@ -816,7 +780,7 @@ export default function HomePage() {
               ref={bottomBarNavRef}
               className="flex items-center gap-1.5 overflow-x-auto no-scrollbar scroll-smooth flex-1 min-w-0 py-0.5"
             >
-              {currentSections.map((sec) => {
+              {displayedSections.map((sec) => {
                 const isActive = activeSectionSlug === sec.slug;
                 return (
                   <button
