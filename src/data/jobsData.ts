@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "zilla-panchayat-shivamogga-off-bill-collector-data-entry-oper-recruitment-2026",
+    "b": "Zilla Panchayat, Shivamogga (Office at Post Box No. 127, Kuvempu Road, Shivamogga - 577201)",
+    "t": "Zilla Panchayat, Shivamogga (Office at Post Box No. 127, Kuvempu Road, Shivamogga - 577201) Recruitment 2026 – Apply for 52 Bill Collector, Data Entry Operator Posts",
+    "d": "30 August 2026",
+    "l": "25 September 2026",
+    "a": "ZP SHI/ABHI(4) VIVA-13/2026-27",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Zilla Panchayat, Shivamogga (Office at Post Box No. 127, Kuvempu Road, Shivamogga - 577201) has officially released employment advertisement notification ZP SHI/ABHI(4) VIVA-13/2026-27 for the recruitment of 52 vacancies for Bill Collector, Data Entry Operator posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d4c2e4a3297fe25a71d030b67eb83bfc/uploads/2026/08/17876326549264.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-project-assistant-recruitment-2026",
+    "b": "National Institute of Technology Jamshedpur",
+    "t": "National Institute of Technology Jamshedpur Recruitment 2026 – Apply for 1 Project Assistant Posts",
+    "d": "30 August 2026",
+    "l": "15 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Bachelor's degree in Life Science or other related field. Master's degree in ...",
+    "desc": "National Institute of Technology Jamshedpur has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://nitjsr.ac.in/backend/uploads/recruitments/6bc50759-f83d-45e1-b1f1-ccfb39b8a97e-Project_assistant_recruitment.pdf"
+},
+  {
+    "id": "himachal-pradesh-university-hp-assistant-professor-recruitment-2026",
+    "b": "Himachal Pradesh University (HPU)",
+    "t": "Himachal Pradesh University (HPU) Recruitment 2026 – Apply for 26 Assistant Professor Posts",
+    "d": "30 August 2026",
+    "l": "07 September 2026",
+    "a": "Rectt.- 30 /2026",
+    "q": "As per UGC Regulations, 2018 (NET/Ph.D. as per norms)",
+    "desc": "Himachal Pradesh University (HPU) has officially released employment advertisement notification Rectt.- 30 /2026 for the recruitment of 26 vacancies for Assistant Professor posts.",
+    "u": "https://recruitment.hpushimla.in/Online/ImageHandler.ashx?img=KF%2fZPZFaGzyA6s2xO04zK8l%2fxn50YqXDC1DbCCtjpWhSqoV9wJwMpQ%3d%3d&ImgType=InstructionsFolder"
+},
+  {
+    "id": "office-of-the-district-session-stenographer-grade-iii-ad-hoc-recruitment-2026",
+    "b": "Office of the District & Sessions Judge, Rewari",
+    "t": "Office of the District & Sessions Judge, Rewari Recruitment 2026 – Apply for 18 Stenographer Grade III (Ad-hoc Basis) Posts",
+    "d": "30 August 2026",
+    "l": "17.09.2026, up to 5:00 P.M.",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Office of the District & Sessions Judge, Rewari has officially released employment advertisement notification OFFICE-OF-THE-/2026 for the recruitment of 18 vacancies for Stenographer Grade III (Ad-hoc Basis) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03980a875ff6ef9c2d75e74307cbf5/uploads/2026/08/2026082752.pdf"
+},
+  {
+    "id": "chaudhary-charan-singh-haryana-iti-apprentice-recruitment-2026",
+    "b": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar",
+    "t": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar Recruitment 2026 – Apply for 377 ITI Apprentice Posts",
+    "d": "30 August 2026",
+    "l": "13-09-2026 up to 12:00 Noon",
+    "a": "CHAUDHARY-CHAR/2026",
+    "q": "Matric / 10th and ITI Pass in Relevant Trade",
+    "desc": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar has officially released employment advertisement notification CHAUDHARY-CHAR/2026 for the recruitment of 377 vacancies for ITI Apprentice posts.",
+    "u": "https://hau.ac.in/"
+},
+  {
+    "id": "nabfins-limited-customer-service-officer-cso-c-recruitment-2026",
+    "b": "NABFINS Limited",
+    "t": "NABFINS Limited Recruitment 2026 – Apply for 1 Customer Service Officer (CSO), Customer Service Executive (CSE) Posts",
+    "d": "30 August 2026",
+    "l": "01 September 2026",
+    "a": "NABFINS-LIMITE/2026",
+    "q": "PUC/10+2 Completed, Graduate in any discipline (10+2+3)",
+    "desc": "NABFINS Limited has officially released employment advertisement notification NABFINS-LIMITE/2026 for the recruitment of 1 vacancies for Customer Service Officer (CSO), Customer Service Executive (CSE) posts.",
+    "u": "https://nabfins.org/Careers/"
+},
+  {
+    "id": "sggu-assistant-professor-31-recruitment-2026",
+    "b": "SGGU Assistant Professor",
+    "t": "SGGU Assistant Professor Recruitment 2026 – Apply for 31 31 Posts",
+    "d": "30 August 2026",
+    "l": "17 September 2026",
+    "a": "06/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "SGGU Assistant Professor has officially released employment advertisement notification 06/2026 for the recruitment of 31 vacancies for 31 posts.",
+    "u": "https://www.sggu.ac.in/uploads/recruitement/1787805724_06_2026.pdf"
+},
+  {
+    "id": "mormugao-port-authority-officer-environmental-recruitment-2026",
+    "b": "Mormugao Port Authority",
+    "t": "Mormugao Port Authority Recruitment 2026 – Apply for 2 Officer (Environmental) Posts",
+    "d": "30 August 2026",
+    "l": "03 September 2026",
+    "a": "MORMUGAO-PORT-/2026",
+    "q": "MSc. in Environmental Science from Goa University",
+    "desc": "Mormugao Port Authority has officially released employment advertisement notification MORMUGAO-PORT-/2026 for the recruitment of 2 vacancies for Officer (Environmental) posts.",
+    "u": "https://mormugaoport.gov.in/careers_doc/view/1787832172808462.pdf"
+},
+  {
+    "id": "aadhaar-supervisor-various-posts-recruitment-2026",
+    "b": "Aadhaar Supervisor",
+    "t": "Aadhaar Supervisor Recruitment 2026 – Apply for 1 Various Posts Posts",
+    "d": "30 August 2026",
+    "l": "31 August 2026",
+    "a": "AADHAAR-SUPERV/2026",
+    "q": "Details",
+    "desc": "Aadhaar Supervisor has officially released employment advertisement notification AADHAAR-SUPERV/2026 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://cscspv.in/ask-job.html"
+},
+  {
+    "id": "national-highways-authority-of-senior-pavement-design-cum-mat-recruitment-2026",
+    "b": "National Highways Authority of India (NHAI)",
+    "t": "National Highways Authority of India (NHAI) Recruitment 2026 – Apply for 2 Senior Pavement Design cum Material Expert and Quantity Surveyor Posts",
+    "d": "30 August 2026",
+    "l": "28 September 2026",
+    "a": "NATIONAL-HIGHW/2026",
+    "q": "Graduate in Civil Engineering or equivalent, Postgraduate (ME/M Tech)",
+    "desc": "National Highways Authority of India (NHAI) has officially released employment advertisement notification NATIONAL-HIGHW/2026 for the recruitment of 2 vacancies for Senior Pavement Design cum Material Expert and Quantity Surveyor posts.",
+    "u": "https://nhai.gov.in/nhai/sites/default/files/vacancy_files/advertisement.pdf"
+},
+  {
     "id": "ai-assets-holding-aiahl-chairman-managing-director-recruitment-2026",
     "b": "AI Assets Holding (AIAHL)",
     "t": "AI Assets Holding (AIAHL) Recruitment 2026 – Apply for 1 Chairman & Managing Director Posts",
