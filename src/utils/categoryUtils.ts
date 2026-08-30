@@ -229,22 +229,33 @@ export const QUAL_CATEGORIES = [
 ];
 
 /**
+ * Checks if a job matches a specific qualification category slug.
+ */
+export function matchesQualification(job: JobEntry, slug: string): boolean {
+  const text = `${job.q || ''} ${job.t || ''} ${job.b || ''} ${job.desc || ''}`.toLowerCase();
+  const cat = QUAL_CATEGORIES.find(c => c.slug === slug);
+  if (!cat) return false;
+
+  return cat.keywords.some(kw => containsKeyword(text, kw));
+}
+
+/**
+ * Returns all jobs matching the given qualification category slug.
+ */
+export function getJobsForQualification(jobs: JobEntry[], slug: string): JobEntry[] {
+  return jobs.filter(job => matchesQualification(job, slug));
+}
+
+/**
  * Given a list of active jobs, returns all qualifications present across active jobs with their vacancy counts.
  */
 export function getQualificationsWithCounts(jobs: JobEntry[]): QualificationCount[] {
   return QUAL_CATEGORIES
-    .map(cat => {
-      const count = jobs.filter(job => {
-        const text = `${job.q || ''} ${job.t || ''} ${job.desc || ''}`.toLowerCase();
-        return cat.keywords.some(kw => containsKeyword(text, kw));
-      }).length;
-
-      return {
-        name: cat.name,
-        slug: cat.slug,
-        count
-      };
-    })
+    .map(cat => ({
+      name: cat.name,
+      slug: cat.slug,
+      count: jobs.filter(job => matchesQualification(job, cat.slug)).length
+    }))
     .filter(q => q.count > 0)
     .sort((a, b) => a.name.localeCompare(b.name));
 }

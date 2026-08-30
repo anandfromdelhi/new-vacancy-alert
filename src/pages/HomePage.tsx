@@ -1,105 +1,31 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
-import { Link, useNavigate } from 'react-router';
-import { JobCard, JobTable, getBoardAcronym } from '../components/JobList';
+import { Link } from 'react-router';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
-import jobsIndexData from '../data/jobs-index-generated.json';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
-import CategoriesSection from '../components/CategoriesSection';
 import AdsterraBanner from '../components/AdsterraBanner';
-import { getStateFromJob } from '../utils/categoryUtils';
 import { 
-  Search, Calendar, Briefcase, FileText, CheckCircle2, ChevronRight, ChevronDown,
-  Clock, ArrowRight, Building2, ShieldAlert, Rocket, BookOpen, Users, 
-  AlertCircle, Filter, Sparkles, RotateCcw, ArrowUp, LayoutGrid, TableProperties, HelpCircle,
-  Facebook, Instagram, Globe, Flag, MapPin
+  getBoardAcronym, 
+  getNumberOfPostsInfo, 
+  formatLastDateOnly, 
+  getCategoryAndColor 
+} from '../components/JobList';
+import { 
+  getStateFromJob,
+  getQualificationsWithCounts,
+  getStatesWithCounts,
+  getBoardsWithCounts,
+  getJobsForQualification,
+  getJobsForState,
+  getJobsForBoard
+} from '../utils/categoryUtils';
+import { useNavigationLoader } from '../context/NavigationContext';
+import { 
+  Search, Clock, ArrowRight, Building2, GraduationCap, MapPin, 
+  Sparkles, RotateCcw, AlertCircle, ChevronRight, CheckCircle2, 
+  HelpCircle, Facebook, Instagram, BookOpen
 } from 'lucide-react';
-
-function getCategoryAndColor(board: string, title: string) {
-  const b = board.toLowerCase();
-  const t = title.toLowerCase();
-  
-  if (b.includes('bank') || b.includes('rbi') || b.includes('sbi') || b.includes('iob') || b.includes('ibps') || b.includes('insurance') || b.includes('nicl')) {
-    return { cat: 'Banking', icon: Building2, color: 'text-emerald-600 bg-emerald-50 border-emerald-200', textClr: 'text-emerald-700', border: 'border-l-emerald-500', pill: 'bg-emerald-50/80 border-emerald-200/50 text-emerald-800' };
-  }
-  if (b.includes('army') || b.includes('navy') || b.includes('iaf') || b.includes('air force') || b.includes('defense') || b.includes('soldier') || b.includes('territorial')) {
-    return { cat: 'Defense', icon: ShieldAlert, color: 'text-rose-600 bg-rose-50 border-rose-200', textClr: 'text-rose-700', border: 'border-l-rose-500', pill: 'bg-rose-50/80 border-rose-200/50 text-rose-800' };
-  }
-  if (b.includes('rrb') || b.includes('railway') || b.includes('nfr')) {
-    return { cat: 'Railway', icon: Rocket, color: 'text-amber-600 bg-amber-50 border-amber-200', textClr: 'text-amber-700', border: 'border-l-amber-500', pill: 'bg-amber-50/80 border-amber-200/50 text-amber-800' };
-  }
-  if (b.includes('iit') || b.includes('school') || b.includes('university') || b.includes('teaching') || b.includes('professor') || b.includes('assistant editor')) {
-    return { cat: 'Education', icon: BookOpen, color: 'text-purple-600 bg-purple-50 border-purple-200', textClr: 'text-purple-700', border: 'border-l-purple-500', pill: 'bg-purple-50/80 border-purple-200/50 text-purple-800' };
-  }
-  if (b.includes('medical') || b.includes('esic') || b.includes('ccrum') || b.includes('nurse') || b.includes('doctor')) {
-    return { cat: 'Medical', icon: Users, color: 'text-pink-600 bg-pink-50 border-pink-200', textClr: 'text-pink-700', border: 'border-l-pink-500', pill: 'bg-pink-50/80 border-pink-200/50 text-pink-800' };
-  }
-  if (t.includes('engineer') || t.includes('technician') || t.includes('apprentice') || b.includes('fagmil') || b.includes('ongc') || b.includes('rites') || b.includes('isro') || b.includes('hpcl') || b.includes('vssc') || b.includes('pdil') || b.includes('iocl') || b.includes('nhsrcl') || b.includes('nhidcl') || b.includes('wcl')) {
-    return { cat: 'Technical', icon: Rocket, color: 'text-blue-600 bg-blue-50 border-blue-200', textClr: 'text-blue-700', border: 'border-l-blue-500', pill: 'bg-blue-50/80 border-blue-200/50 text-blue-800' };
-  }
-  return { cat: 'Government Job', icon: Briefcase, color: 'text-indigo-600 bg-indigo-50 border-indigo-200', textClr: 'text-indigo-700', border: 'border-l-indigo-500', pill: 'bg-indigo-50/80 border-indigo-200/50 text-indigo-800' };
-}
-
-
-
-function getCompactQualification(q: string): string {
-  const lower = q.toLowerCase();
-  
-  if (lower.includes('b.e/b.tech/m.e/m.tech or ca/icwa')) return 'Engg / CA + Exp';
-  if (lower.includes('graduate in commerce') || lower.includes('b.com')) {
-    if (lower.includes('3 years') || lower.includes('3 yr')) return 'B.Com + 3 Yrs Exp';
-    return 'B.Com';
-  }
-  if (lower.includes('chartered accountant')) return 'CA';
-  if (lower.includes('working railway employee')) return 'Rly Emp (5 Yrs)';
-  if (lower.includes('ncc c certificate')) return 'Grad + NCC C';
-  if (lower.includes('music proficiency')) return '10th + Music';
-  if (lower.includes('ph.d')) return 'PhD';
-  
-  let res = q
-    .replace(/Graduation/gi, 'Grad')
-    .replace(/Graduate/gi, 'Grad')
-    .replace(/Post Graduate/gi, 'PG')
-    .replace(/Post Graduation/gi, 'PG')
-    .replace(/Matriculation/gi, '10th')
-    .replace(/Diploma/gi, 'Dip')
-    .replace(/Experience/gi, 'Exp')
-    .replace(/Years/gi, 'Yrs')
-    .replace(/Year/gi, 'Yr');
-
-  if (res.split(',').length > 3) {
-    return res.split(',').slice(0, 3).map(s => s.trim()).join('/') + '+';
-  }
-  
-  if (res.length > 25) {
-    return res.substring(0, 25).trim() + '...';
-  }
-  return res;
-}
-
-function getNumberOfPosts(title: string, jobId?: string): number {
-  const indexObj = (jobsIndexData as Record<string, any>);
-  if (jobId && indexObj[jobId]) {
-    const v = indexObj[jobId].vacancies;
-    if (typeof v === 'number') return v;
-    if (typeof v === 'string') {
-      const trimmed = v.trim();
-      const match = trimmed.match(/^(\d+[\d,]*)/) || trimmed.match(/(\d+[\d,]*)\s*Posts?/i);
-      if (match) {
-        const num = parseInt(match[1].replace(/,/g, ''), 10);
-        if (num < 50000) return num;
-      }
-    }
-  }
-
-  const match = title.match(/(\d+[\d,]*)\s*\+?\s*(?:Posts?|Vacanc|Positions?|Contractual Posts?|Profiles?|Seats?|Openings?)/i)
-             || title.match(/–\s*(\d+[\d,]*)\s*Posts?/i);
-  if (match) {
-    return parseInt(match[1].replace(/,/g, ''), 10);
-  }
-  return 1;
-}
 
 function parseDateString(dateStr: string): Date {
   if (!dateStr || dateStr === '–' || dateStr.trim() === '' || dateStr.toLowerCase().includes('instant')) {
@@ -109,7 +35,7 @@ function parseDateString(dateStr: string): Date {
   const parts = cleanStr.split('-');
   if (parts.length === 3) {
     const day = parseInt(parts[0], 10);
-    const month = parseInt(parts[1], 10) - 1; // 0-indexed month
+    const month = parseInt(parts[1], 10) - 1;
     const year = parseInt(parts[2], 10);
     if (!isNaN(day) && !isNaN(month) && !isNaN(year) && year > 1000) {
       return new Date(year, month, day);
@@ -125,135 +51,252 @@ function parseDateString(dateStr: string): Date {
 function isJobExpired(lastDateStr: string): boolean {
   if (!lastDateStr) return false;
   const parsed = parseDateString(lastDateStr);
-  if (parsed.getFullYear() < 2000) return false; // Non-standard or ongoing schedule links
+  if (parsed.getFullYear() < 2000) return false;
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   return parsed < today;
 }
 
-function isAllIndiaJob(job: JobEntry): boolean {
-  return getStateFromJob(job) === 'All India';
+/**
+ * Compact preview tile for individual jobs inside each category section
+ */
+function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
+  const { startLoading } = useNavigationLoader();
+  const boardAcronym = getBoardAcronym(job.b);
+  const postsInfo = getNumberOfPostsInfo(job.t, job.id);
+  const formattedLastDate = formatLastDateOnly(job.l);
+
+  return (
+    <Link
+      to={`/${job.id}`}
+      onClick={() => startLoading(`Loading ${boardAcronym} Details...`)}
+      className="group block bg-white hover:bg-blue-50/50 border border-slate-200/90 hover:border-blue-400 rounded-xl p-3 sm:p-3.5 shadow-2xs hover:shadow-sm transition-all duration-150 relative overflow-hidden"
+    >
+      {/* Top row: Board Badge + Vacancy Count */}
+      <div className="flex items-center justify-between gap-2 mb-1.5">
+        <span className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200/80 max-w-[65%] truncate">
+          <Building2 className="w-3 h-3 shrink-0 text-blue-600" />
+          <span className="truncate">{boardAcronym}</span>
+        </span>
+        {postsInfo.display && (
+          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+            🔥 {postsInfo.display}
+          </span>
+        )}
+      </div>
+
+      {/* Job Title */}
+      <h4 className="text-xs sm:text-[13px] font-black text-slate-800 group-hover:text-blue-700 leading-snug line-clamp-2 mb-2 transition-colors">
+        {job.t}
+      </h4>
+
+      {/* Bottom meta: Last Date + Details link */}
+      <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 pt-1.5 border-t border-slate-100">
+        <span className="inline-flex items-center gap-1 text-rose-600 font-extrabold text-[10.5px]">
+          <Clock className="w-3 h-3 shrink-0" />
+          <span>Last Date: {formattedLastDate}</span>
+        </span>
+        <span className="inline-flex items-center gap-0.5 text-blue-600 group-hover:translate-x-0.5 transition-transform text-[11px] font-black">
+          <span>Details</span>
+          <ChevronRight className="w-3.5 h-3.5" />
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+interface SectionData {
+  name: string;
+  slug: string;
+  count: number;
+  jobs: JobEntry[];
+  moreUrl: string;
+}
+
+/**
+ * Section box for a category featuring its top 3 most recently published jobs + View More button
+ */
+function CategorySectionCard({ 
+  section, 
+  activeTab 
+}: { 
+  section: SectionData; 
+  activeTab: 'qualification' | 'state' | 'board';
+  key?: React.Key;
+}) {
+  const Icon = activeTab === 'qualification' ? GraduationCap : activeTab === 'state' ? MapPin : Building2;
+  
+  const themeBorder = activeTab === 'qualification' 
+    ? 'border-t-blue-600 hover:border-blue-400' 
+    : activeTab === 'state' 
+    ? 'border-t-amber-500 hover:border-amber-400' 
+    : 'border-t-emerald-600 hover:border-emerald-400';
+    
+  const themeIconBg = activeTab === 'qualification'
+    ? 'bg-blue-50 text-blue-600 border-blue-200'
+    : activeTab === 'state'
+    ? 'bg-amber-50 text-amber-600 border-amber-200'
+    : 'bg-emerald-50 text-emerald-600 border-emerald-200';
+
+  const themeBtn = activeTab === 'qualification'
+    ? 'hover:bg-blue-600 hover:text-white hover:border-blue-600'
+    : activeTab === 'state'
+    ? 'hover:bg-amber-600 hover:text-white hover:border-amber-600'
+    : 'hover:bg-emerald-600 hover:text-white hover:border-emerald-600';
+
+  return (
+    <div className={`bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder}`}>
+      {/* Section Header */}
+      <div>
+        <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b border-slate-200/80">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className={`p-2 rounded-xl border ${themeIconBg} shrink-0`}>
+              <Icon className="w-4 h-4" />
+            </div>
+            <h3 className="text-sm sm:text-base font-black text-slate-800 tracking-tight truncate">
+              {section.name}
+            </h3>
+          </div>
+          <span className="shrink-0 px-2.5 py-0.5 rounded-full text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
+            {section.count} {section.count === 1 ? 'Job' : 'Jobs'}
+          </span>
+        </div>
+
+        {/* Top 3 Job Tiles */}
+        <div className="space-y-2.5 mb-4">
+          {section.jobs.slice(0, 3).map((job, idx) => (
+            <JobTile key={job.id || `${section.slug}-${idx}`} job={job} />
+          ))}
+        </div>
+      </div>
+
+      {/* View More Button */}
+      <Link
+        to={section.moreUrl}
+        className={`w-full py-2.5 px-4 rounded-xl bg-white text-slate-800 font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-slate-200 ${themeBtn}`}
+      >
+        <span>View All {section.count} {section.name} Jobs</span>
+        <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+      </Link>
+    </div>
+  );
 }
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
-  const [selectedScope, setSelectedScope] = useState<'all_india' | 'state_specific'>('all_india');
-  const [sortBy, setSortBy] = useState<string>('date_posted_desc');
-  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'qualification' | 'state' | 'board'>('qualification');
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
-  const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
-  const [visibleCount, setVisibleCount] = useState<number>(5);
-  const navigate = useNavigate();
 
   // Active non-expired jobs list
   const activeJobsData = useMemo(() => {
     return JOBS_DATA.filter(job => !isJobExpired(job.l));
   }, []);
 
-  // Region Scope counts for filtering
-  const scopeCounts = useMemo(() => {
-    let allIndia = 0;
-    let stateSpecific = 0;
-    activeJobsData.forEach(job => {
-      if (isAllIndiaJob(job)) {
-        allIndia++;
-      } else {
-        stateSpecific++;
-      }
-    });
-    return { allIndia, stateSpecific };
-  }, [activeJobsData]);
+  // 1. Qualification Sections (arranged alphabetically)
+  const qualificationSections = useMemo(() => {
+    const qualCounts = getQualificationsWithCounts(activeJobsData);
+    const searchLower = searchTerm.toLowerCase().trim();
 
-  // Categories list and counts for filtering
-  const categoryCounts = useMemo(() => {
-    const counts: Record<string, number> = { All: activeJobsData.length };
-    activeJobsData.forEach(job => {
-      const { cat } = getCategoryAndColor(job.b, job.t);
-      counts[cat] = (counts[cat] || 0) + 1;
-    });
-    return counts;
-  }, [activeJobsData]);
-
-  const categoriesList = useMemo(() => {
-    const list = new Set<string>();
-    list.add('All');
-    activeJobsData.forEach(job => {
-      const { cat } = getCategoryAndColor(job.b, job.t);
-      list.add(cat);
-    });
-    return Array.from(list);
-  }, [activeJobsData]);
-
-  const { filteredJobs, allIndiaJobs, stateJobs } = useMemo(() => {
-    // 1. Filter jobs
-    let result = activeJobsData.filter(job => {
-      const { cat } = getCategoryAndColor(job.b, job.t);
-      const matchesCategory = selectedCategory === 'All' || cat === selectedCategory;
-      const matchesSearch = 
-        job.b.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        job.t.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        job.q.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        job.a.toLowerCase().includes(searchTerm.toLowerCase());
-      
-      return matchesCategory && matchesSearch;
-    });
-
-    // 2. Apply sorting
-    if (sortBy === 'posts_desc') {
-      result.sort((a, b) => getNumberOfPosts(b.t, b.id) - getNumberOfPosts(a.t, a.id));
-    } else if (sortBy === 'posts_asc') {
-      result.sort((a, b) => getNumberOfPosts(a.t, a.id) - getNumberOfPosts(b.t, b.id));
-    } else if (sortBy === 'date_posted_desc') {
-      result.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
-    } else if (sortBy === 'date_posted_asc') {
-      result.sort((a, b) => parseDateString(a.d).getTime() - parseDateString(b.d).getTime());
-    } else if (sortBy === 'last_date_soonest') {
-      result.sort((a, b) => {
-        const timeA = parseDateString(a.l).getTime();
-        const timeB = parseDateString(b.l).getTime();
-        const invalidTime = new Date(1970, 0, 1).getTime();
+    return qualCounts
+      .map(qual => {
+        let matchingJobs = getJobsForQualification(activeJobsData, qual.slug);
         
-        if (timeA === invalidTime && timeB === invalidTime) return 0;
-        if (timeA === invalidTime) return 1;
-        if (timeB === invalidTime) return -1;
-        return timeA - timeB;
-      });
-    } else if (sortBy === 'last_date_latest') {
-      result.sort((a, b) => {
-        const timeA = parseDateString(a.l).getTime();
-        const timeB = parseDateString(b.l).getTime();
-        const invalidTime = new Date(1970, 0, 1).getTime();
-        
-        if (timeA === invalidTime && timeB === invalidTime) return 0;
-        if (timeA === invalidTime) return 1;
-        if (timeB === invalidTime) return -1;
-        return timeB - timeA;
-      });
-    }
+        if (searchLower) {
+          matchingJobs = matchingJobs.filter(job => 
+            job.b.toLowerCase().includes(searchLower) ||
+            job.t.toLowerCase().includes(searchLower) ||
+            job.q.toLowerCase().includes(searchLower) ||
+            job.a.toLowerCase().includes(searchLower)
+          );
+        }
 
-    const allIndia = result.filter(j => isAllIndiaJob(j));
-    const state = result.filter(j => !isAllIndiaJob(j));
+        // Sort top jobs by date posted descending (most recently published first)
+        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
 
-    return { filteredJobs: result, allIndiaJobs: allIndia, stateJobs: state };
-  }, [searchTerm, selectedCategory, sortBy]);
+        return {
+          name: qual.name,
+          slug: qual.slug,
+          count: matchingJobs.length,
+          jobs: matchingJobs,
+          moreUrl: `/jobs-for/${qual.slug}`
+        };
+      })
+      .filter(sec => sec.count > 0)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [activeJobsData, searchTerm]);
 
-  // Reset visible cards count back when search, category, scope, sort order, or viewMode changes
-  useEffect(() => {
-    setVisibleCount(viewMode === 'table' ? 10 : 5);
-  }, [searchTerm, selectedCategory, selectedScope, sortBy, viewMode]);
+  // 2. State Sections (arranged alphabetically)
+  const stateSections = useMemo(() => {
+    const stateCounts = getStatesWithCounts(activeJobsData);
+    const searchLower = searchTerm.toLowerCase().trim();
 
-  // Automatically switch tabs (All India vs State Specific) when searching or filtering
-  // if the currently active scope has 0 matching jobs but the other scope has matching jobs.
-  useEffect(() => {
-    if (searchTerm.trim() !== '' || selectedCategory !== 'All') {
-      if (selectedScope === 'all_india' && allIndiaJobs.length === 0 && stateJobs.length > 0) {
-        setSelectedScope('state_specific');
-      } else if (selectedScope === 'state_specific' && stateJobs.length === 0 && allIndiaJobs.length > 0) {
-        setSelectedScope('all_india');
-      }
-    }
-  }, [searchTerm, selectedCategory, allIndiaJobs.length, stateJobs.length, selectedScope]);
+    return stateCounts
+      .map(state => {
+        let matchingJobs = getJobsForState(activeJobsData, state.slug);
+
+        if (searchLower) {
+          matchingJobs = matchingJobs.filter(job => 
+            job.b.toLowerCase().includes(searchLower) ||
+            job.t.toLowerCase().includes(searchLower) ||
+            job.q.toLowerCase().includes(searchLower) ||
+            job.a.toLowerCase().includes(searchLower)
+          );
+        }
+
+        // Sort top jobs by date posted descending (most recently published first)
+        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
+
+        return {
+          name: state.name,
+          slug: state.slug,
+          count: matchingJobs.length,
+          jobs: matchingJobs,
+          moreUrl: `/state/${state.slug}`
+        };
+      })
+      .filter(sec => sec.count > 0)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [activeJobsData, searchTerm]);
+
+  // 3. Board Sections (arranged alphabetically)
+  const boardSections = useMemo(() => {
+    const boardCounts = getBoardsWithCounts(activeJobsData);
+    const searchLower = searchTerm.toLowerCase().trim();
+
+    return boardCounts
+      .map(board => {
+        let matchingJobs = getJobsForBoard(activeJobsData, board.slug);
+
+        if (searchLower) {
+          matchingJobs = matchingJobs.filter(job => 
+            job.b.toLowerCase().includes(searchLower) ||
+            job.t.toLowerCase().includes(searchLower) ||
+            job.q.toLowerCase().includes(searchLower) ||
+            job.a.toLowerCase().includes(searchLower)
+          );
+        }
+
+        // Sort top jobs by date posted descending (most recently published first)
+        matchingJobs.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
+
+        return {
+          name: board.name,
+          slug: board.slug,
+          count: matchingJobs.length,
+          jobs: matchingJobs,
+          moreUrl: `/board/${board.slug}`
+        };
+      })
+      .filter(sec => sec.count > 0)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [activeJobsData, searchTerm]);
+
+  // Currently active section list
+  const currentSections = useMemo(() => {
+    if (activeTab === 'qualification') return qualificationSections;
+    if (activeTab === 'state') return stateSections;
+    return boardSections;
+  }, [activeTab, qualificationSections, stateSections, boardSections]);
 
   return (
     <main className="flex-1 flex flex-col w-full bg-slate-50">
@@ -314,7 +357,7 @@ export default function HomePage() {
         </script>
       </Helmet>
 
-      {/* Hero Header Area */}
+      {/* Hero Header Area without 3 buttons below search */}
       <div className="w-full bg-[#1e40af] text-white py-10 sm:py-14 px-4 sm:px-6 relative overflow-hidden shrink-0 border-b-4 border-[#16a34a]">
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl opacity-20 -mr-16 -mt-16"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-500 rounded-full filter blur-3xl opacity-20 -ml-16 -mb-16"></div>
@@ -331,8 +374,8 @@ export default function HomePage() {
             Your ultimate portal for verified <strong>Free Job Alerts</strong>, latest recruitments, active notifications, and public service pathways across India.
           </p>
 
-          {/* Prominent Hero Search Bar */}
-          <div className="max-w-4xl 2xl:max-w-5xl mx-auto pt-2 space-y-3">
+          {/* Prominent Hero Search Bar (Clean search without buttons below) */}
+          <div className="max-w-4xl 2xl:max-w-5xl mx-auto pt-2">
             <div 
               onClick={() => setIsGoogleSearchOpen(true)}
               className="relative flex items-center bg-white rounded-2xl p-2 shadow-2xl border-2 border-emerald-400/60 focus-within:border-emerald-400 focus-within:ring-4 focus-within:ring-emerald-400/30 transition-all text-slate-800 cursor-pointer"
@@ -364,606 +407,291 @@ export default function HomePage() {
                 <span>Search</span>
               </button>
             </div>
-
-            {/* Categories Section (Qualification Wise, State Wise, Board Wise popups) */}
-            <CategoriesSection activeJobs={activeJobsData} />
-
-
           </div>
         </div>
       </div>
 
-      {/* Main Interactive Dashboard Grid with Sidebar for Web View */}
-      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] 3xl:max-w-[2200px] mx-auto p-4 sm:p-6 2xl:p-8 pb-24 md:pb-8">
-        <div className="lg:grid lg:grid-cols-12 lg:gap-6 xl:gap-8 2xl:gap-10 lg:items-start space-y-6 lg:space-y-0">
+      {/* Main Dashboard Container */}
+      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto p-4 sm:p-6 2xl:p-8 pb-24 md:pb-8 space-y-6">
+        
+        {/* Adsterra Display Banner */}
+        <AdsterraBanner />
+
+        {/* Connected Tabs & Category Sections Container */}
+        <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">
           
-          {/* Left Sticky Sidebar (Web View Filter Section - Desktop Only) */}
-          <aside className="hidden lg:block lg:col-span-4 xl:col-span-3 2xl:col-span-3 3xl:col-span-2 space-y-6 lg:sticky lg:top-20 lg:self-start">
-            <div className="bg-white border-2 border-slate-200 rounded-2xl p-4 sm:p-5 shadow-xs space-y-5">
-              {/* Sidebar Header */}
-              <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                <div className="flex items-center gap-2">
-                  <Filter className="h-4.5 w-4.5 text-blue-600" />
-                  <h2 className="text-sm font-black text-slate-800 tracking-tight uppercase">
-                    Filter & Sort Alerts
-                  </h2>
-                </div>
-                {(selectedCategory !== 'All' || searchTerm !== '' || sortBy !== 'date_posted_desc') && (
-                  <button
-                    onClick={() => { setSearchTerm(''); setSelectedCategory('All'); setSelectedScope('all_india'); setSortBy('date_posted_desc'); }}
-                    className="text-[11px] font-bold text-rose-600 hover:underline flex items-center gap-1 cursor-pointer"
-                    title="Reset all filters"
-                  >
-                    <RotateCcw className="h-3 w-3" />
-                    <span>Reset All</span>
-                  </button>
-                )}
-              </div>
-
-              {/* Active Filter Summary Box */}
-              {(selectedCategory !== 'All' || searchTerm !== '') && (
-                <div className="bg-blue-50/80 border border-blue-200/80 rounded-xl p-3 space-y-1.5">
-                  <span className="text-[10px] font-black text-blue-800 uppercase tracking-wider block">
-                    Active Filters
-                  </span>
-                  <div className="flex flex-wrap gap-1.5">
-                    {selectedCategory !== 'All' && (
-                      <span className="inline-flex items-center gap-1 bg-white border border-blue-300 text-blue-700 font-bold text-[11px] px-2 py-0.5 rounded-md shadow-3xs">
-                        {selectedCategory}
-                        <button onClick={() => setSelectedCategory('All')} className="hover:text-rose-600 ml-0.5 font-black">×</button>
-                      </span>
-                    )}
-                    {searchTerm && (
-                      <span className="inline-flex items-center gap-1 bg-white border border-blue-300 text-blue-700 font-bold text-[11px] px-2 py-0.5 rounded-md shadow-3xs">
-                        "{searchTerm}"
-                        <button onClick={() => setSearchTerm('')} className="hover:text-rose-600 ml-0.5 font-black">×</button>
-                      </span>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Region / Location Scope Filter */}
-              <div className="space-y-2 border-b border-slate-100 pb-4">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-wider block">
-                  Job Location Scope
-                </span>
-                <div className="space-y-1.5">
-                  {[
-                    { label: '🇮🇳 All India / Central Govt', value: 'all_india', count: scopeCounts.allIndia },
-                    { label: '🏛️ State Wise / Local Body', value: 'state_specific', count: scopeCounts.stateSpecific }
-                  ].map((opt) => {
-                    const isSelected = selectedScope === opt.value;
-                    return (
-                      <button
-                        key={opt.value}
-                        onClick={() => setSelectedScope(opt.value as any)}
-                        className={`w-full text-left px-3 py-2 rounded-xl text-xs font-black transition-all cursor-pointer border flex items-center justify-between ${
-                          isSelected
-                            ? 'bg-blue-600 border-blue-600 text-white shadow-xs'
-                            : 'bg-slate-50 hover:bg-slate-100 border-slate-200/80 text-slate-700 hover:text-slate-900'
-                        }`}
-                      >
-                        <span>{opt.label}</span>
-                        <span className={`px-1.5 py-0.5 rounded text-[10px] font-extrabold ${
-                          isSelected ? 'bg-blue-700 text-white' : 'bg-slate-200/80 text-slate-600'
-                        }`}>
-                          {opt.count}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* Sort Order Selector */}
-              <div className="space-y-2">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-wider block">
-                  Sort List Order
-                </span>
-                <div className="space-y-1.5">
-                  {[
-                    { label: '⭐ Default List Order', value: 'default' },
-                    { label: '📅 Date Posted: Newest First', value: 'date_posted_desc' },
-                    { label: '⏳ Date Posted: Oldest First', value: 'date_posted_asc' },
-                    { label: '🔥 Posts: High to Low', value: 'posts_desc' },
-                    { label: '📉 Posts: Low to High', value: 'posts_asc' },
-                    { label: '⏰ Deadline: Soonest First', value: 'last_date_soonest' },
-                    { label: '📅 Deadline: Furthest First', value: 'last_date_latest' }
-                  ].map((opt) => {
-                    const isSelected = sortBy === opt.value;
-                    return (
-                      <button
-                        key={opt.value}
-                        onClick={() => setSortBy(opt.value)}
-                        className={`w-full text-left px-3 py-2 rounded-xl text-xs font-black transition-all cursor-pointer border flex items-center justify-between ${
-                          isSelected
-                            ? 'bg-blue-600 border-blue-600 text-white shadow-xs'
-                            : 'bg-slate-50 hover:bg-slate-100 border-slate-200/80 text-slate-700 hover:text-slate-900'
-                        }`}
-                      >
-                        <span>{opt.label}</span>
-                        {isSelected && (
-                          <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0"></span>
-                        )}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-            </div>
-
-            {/* Official Social Handles Sidebar Card */}
-            <div className="bg-gradient-to-br from-blue-600 via-indigo-700 to-blue-800 rounded-2xl p-4 text-white shadow-md space-y-3 border border-blue-500/30">
-              <div className="flex items-center gap-2">
-                <span className="p-1.5 rounded-lg bg-white/20 backdrop-blur-xs text-white">
-                  <Sparkles className="h-4 w-4" />
-                </span>
-                <div>
-                  <h3 className="text-[11px] font-black uppercase tracking-wider text-blue-200">Official Social Handles</h3>
-                  <p className="text-xs font-black text-white">Follow NewVacancyAlert.in</p>
-                </div>
-              </div>
-              <p className="text-[11px] text-blue-100 font-medium leading-relaxed">
-                Get daily government job alerts and instant vacancy notifications directly on your feed!
-              </p>
-              <div className="space-y-2 pt-1">
-                <a
-                  href="https://www.facebook.com/profile.php?id=61592714690988"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between p-2.5 rounded-xl bg-white text-blue-900 hover:bg-blue-50 font-black text-xs transition shadow-2xs group"
-                >
-                  <div className="flex items-center gap-2">
-                    <Facebook className="h-4 w-4 text-blue-600 fill-current" />
-                    <span>Facebook Page</span>
-                  </div>
-                  <ChevronRight className="h-4 w-4 text-slate-400 group-hover:translate-x-0.5 transition-transform" />
-                </a>
-                <a
-                  href="https://www.instagram.com/newvacancyalert.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between p-2.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-95 font-black text-xs transition shadow-2xs group"
-                >
-                  <div className="flex items-center gap-2">
-                    <Instagram className="h-4 w-4 text-white" />
-                    <span>Instagram Profile</span>
-                  </div>
-                  <ChevronRight className="h-4 w-4 text-white/80 group-hover:translate-x-0.5 transition-transform" />
-                </a>
-              </div>
-            </div>
+          {/* Chrome Browser Tabs Strip Header */}
+          <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col md:flex-row md:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
             
-            {/* Marketing Partner Link for Desktop Sidebar */}
-            <div className="text-center mt-2 px-2 hidden lg:block">
-              <Link to="/marketing-partner" className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2 decoration-slate-300">
-                Become a Marketing Partner & Earn Rewards
-              </Link>
-            </div>
-          </aside>
-
-          {/* Right Main Column (Listings & Table View) */}
-          <main className="lg:col-span-8 xl:col-span-9 2xl:col-span-9 3xl:col-span-10 space-y-6">
-            {/* Adsterra Display Banner */}
-            <AdsterraBanner />
-
-            {/* Connected Tabs & Listings Container */}
-            <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">
-              {/* Scope Navigation Tabs & Layout Toggle Header - Authentic Connected Chrome Browser Tabs */}
-              <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col md:flex-row md:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
-                {/* Chrome Browser Tabs Strip */}
-                <div className="grid grid-cols-2 gap-1 sm:flex sm:items-end sm:gap-1.5 w-full sm:w-auto">
-                  {/* All India Chrome Tab */}
-                  <button
-                    onClick={() => setSelectedScope('all_india')}
-                    className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
-                      selectedScope === 'all_india'
-                        ? 'bg-white border-t-blue-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
-                        : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
-                    }`}
-                  >
-                    <span className="text-base sm:text-lg leading-none shrink-0">🇮🇳</span>
-                    <span className="truncate tracking-tight">
-                      <span className="inline sm:hidden">All India</span>
-                      <span className="hidden sm:inline">All India Jobs</span>
-                    </span>
-                    <span
-                      className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
-                        selectedScope === 'all_india'
-                          ? 'bg-blue-600 text-white shadow-2xs'
-                          : 'bg-slate-300/80 text-slate-700'
-                      }`}
-                    >
-                      {allIndiaJobs.length}
-                    </span>
-                  </button>
-
-                  {/* State Wise Chrome Tab */}
-                  <button
-                    onClick={() => setSelectedScope('state_specific')}
-                    className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
-                      selectedScope === 'state_specific'
-                        ? 'bg-white border-t-amber-500 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
-                        : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
-                    }`}
-                  >
-                    <span className="text-base sm:text-lg leading-none shrink-0">🏛️</span>
-                    <span className="truncate tracking-tight">
-                      <span className="inline sm:hidden">State Wise</span>
-                      <span className="hidden sm:inline">State Specific Jobs</span>
-                    </span>
-                    <span
-                      className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
-                        selectedScope === 'state_specific'
-                          ? 'bg-amber-600 text-white shadow-2xs'
-                          : 'bg-slate-300/80 text-slate-700'
-                      }`}
-                    >
-                      {stateJobs.length}
-                    </span>
-                  </button>
-                </div>
-
-                {/* Layout Toggle (Detailed View vs Table View) - Chrome Toolbar Controls Style */}
-                <div className="hidden lg:flex items-center bg-white/90 border border-slate-300 p-1 rounded-xl mb-1.5 shadow-2xs shrink-0">
-                  <button
-                    onClick={() => setViewMode('card')}
-                    className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      viewMode === 'card'
-                        ? 'bg-slate-800 text-white shadow-2xs'
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-                    }`}
-                    title="Detailed View"
-                  >
-                    <LayoutGrid className="h-3.5 w-3.5" />
-                    <span>Detailed View</span>
-                  </button>
-                  <button
-                    onClick={() => setViewMode('table')}
-                    className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
-                      viewMode === 'table'
-                        ? 'bg-slate-800 text-white shadow-2xs'
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-                    }`}
-                    title="Table View"
-                  >
-                    <TableProperties className="h-3.5 w-3.5" />
-                    <span>Table View</span>
-                  </button>
-                </div>
-              </div>
-
-              {/* Main Table/Cards Content Panel - Directly connected to active Chrome tab above */}
-              <div className="bg-white p-3 sm:p-5">
-                {selectedScope === 'all_india' ? (
-                  allIndiaJobs.length > 0 ? (
-                    <div className="space-y-4">
-                      {/* Mobile View: Strictly Card View */}
-                      <div className="lg:hidden space-y-3">
-                        {allIndiaJobs.slice(0, visibleCount).map((job, idx) => (
-                          <JobCard key={`ai-mob-${job.id || idx}`} job={job} />
-                        ))}
-                      </div>
-
-                      {/* Desktop View: Card or Table View depending on viewMode */}
-                      <div className="hidden lg:block">
-                        {viewMode === 'card' ? (
-                          <div className="space-y-3">
-                            {allIndiaJobs.slice(0, visibleCount).map((job, idx) => (
-                              <JobCard key={`ai-desk-${job.id || idx}`} job={job} />
-                            ))}
-                          </div>
-                        ) : (
-                          <JobTable jobs={allIndiaJobs.slice(0, visibleCount)} navigate={navigate} />
-                        )}
-                      </div>
-
-                      {/* View More Button */}
-                      {allIndiaJobs.length > visibleCount && (
-                        <div className="pt-4 pb-1 flex flex-col items-center justify-center gap-2 border-t border-slate-100">
-                          <button
-                            onClick={() => setVisibleCount(prev => prev + (viewMode === 'table' ? 10 : 5))}
-                            className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer border border-blue-500"
-                          >
-                            <span>View More ({allIndiaJobs.length - visibleCount} remaining)</span>
-                            <ChevronDown className="h-4 w-4 text-blue-100" />
-                          </button>
-                          <span className="text-[11px] font-bold text-slate-500">
-                            Showing {Math.min(visibleCount, allIndiaJobs.length)} of {allIndiaJobs.length} All India jobs
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4">
-                      <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
-                        <AlertCircle className="h-8 w-8" />
-                      </div>
-                      <h4 className="text-lg font-black text-slate-800">No All India Recruitments Found</h4>
-                      <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                        We couldn't find any notifications matching "<span className="font-bold text-slate-700">{searchTerm}</span>" under the selected category.
-                      </p>
-                      <button 
-                        onClick={() => { setSearchTerm(''); setSelectedCategory('All'); setSelectedScope('all_india'); setSortBy('date_posted_desc'); }}
-                        className="bg-blue-600 hover:bg-blue-500 text-white font-black text-xs px-4 py-2 rounded-xl cursor-pointer"
-                      >
-                        Reset All Filters
-                      </button>
-                    </div>
-                  )
-                ) : (
-                  stateJobs.length > 0 ? (
-                    <div className="space-y-4">
-                      {/* Mobile View: Strictly Card View */}
-                      <div className="lg:hidden space-y-3">
-                        {stateJobs.slice(0, visibleCount).map((job, idx) => (
-                          <JobCard key={`state-mob-${job.id || idx}`} job={job} />
-                        ))}
-                      </div>
-
-                      {/* Desktop View: Card or Table View depending on viewMode */}
-                      <div className="hidden lg:block">
-                        {viewMode === 'card' ? (
-                          <div className="space-y-3">
-                            {stateJobs.slice(0, visibleCount).map((job, idx) => (
-                              <JobCard key={`state-desk-${job.id || idx}`} job={job} />
-                            ))}
-                          </div>
-                        ) : (
-                          <JobTable jobs={stateJobs.slice(0, visibleCount)} navigate={navigate} />
-                        )}
-                      </div>
-
-                      {/* View More Button */}
-                      {stateJobs.length > visibleCount && (
-                        <div className="pt-4 pb-1 flex flex-col items-center justify-center gap-2 border-t border-slate-100">
-                          <button
-                            onClick={() => setVisibleCount(prev => prev + (viewMode === 'table' ? 10 : 5))}
-                            className="w-full sm:w-auto px-6 py-3 bg-amber-600 hover:bg-amber-700 active:scale-95 text-white font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer border border-amber-500"
-                          >
-                            <span>View More ({stateJobs.length - visibleCount} remaining)</span>
-                            <ChevronDown className="h-4 w-4 text-amber-100" />
-                          </button>
-                          <span className="text-[11px] font-bold text-slate-500">
-                            Showing {Math.min(visibleCount, stateJobs.length)} of {stateJobs.length} State Specific jobs
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4">
-                      <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
-                        <AlertCircle className="h-8 w-8" />
-                      </div>
-                      <h4 className="text-lg font-black text-slate-800">No State Specific Recruitments Found</h4>
-                      <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                        We couldn't find any notifications matching "<span className="font-bold text-slate-700">{searchTerm}</span>" under the selected category.
-                      </p>
-                      <button 
-                        onClick={() => { setSearchTerm(''); setSelectedCategory('All'); setSelectedScope('state_specific'); setSortBy('date_posted_desc'); }}
-                        className="bg-blue-600 hover:bg-blue-500 text-white font-black text-xs px-4 py-2 rounded-xl cursor-pointer"
-                      >
-                        Reset All Filters
-                      </button>
-                    </div>
-                  )
-                )}
-              </div>
-            </div>
-
-          {/* SEO Information & FAQ Section for Search Engine Optimization */}
-          <section className="bg-white border-2 border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-6 mt-8">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg sm:text-xl font-black text-slate-800 tracking-tight flex items-center gap-2">
-                <HelpCircle className="h-5 w-5 text-blue-600 shrink-0" />
-                Frequently Asked Questions & Free Government Job Alerts 2026
-              </h2>
-              <p className="text-xs font-semibold text-slate-500 mt-1">
-                Essential guide to applying for active Central and State Public Sector vacancies across India.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-700">
-              <div className="space-y-1.5">
-                <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                  How do I receive instant free government job alerts for 2026?
-                </h3>
-                <p className="text-xs font-medium leading-relaxed text-slate-600">
-                  Enable push notifications on NewVacancyAlert.in or save our portal to your home screen. We issue immediate alerts for active vacancies across HAL, ICSI, AAI, ISRO (VSSC), Railway Recruitment Boards, and Defense Services.
-                </p>
-              </div>
-
-              <div className="space-y-1.5">
-                <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                  Are official notifications verified with direct PDF sources?
-                </h3>
-                <p className="text-xs font-medium leading-relaxed text-slate-600">
-                  Yes. Every job entry is verified against recruiting board portals with explicit advertisement numbers, academic qualification rules, age limits, pay scales, and official direct PDF links.
-                </p>
-              </div>
-
-              <div className="space-y-1.5">
-                <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                  Which qualifications are eligible for public sector jobs?
-                </h3>
-                <p className="text-xs font-medium leading-relaxed text-slate-600">
-                  Vacancies cover 10th Pass, 12th Pass, ITI, Diploma, B.E/B.Tech, B.Com, MBA, M.Sc, CA/ICWA, and Medical degrees. Use our domain filter buttons to view vacancies matching your qualification.
-                </p>
-              </div>
-
-              <div className="space-y-1.5">
-                <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                  How can I sort job listings by application last date?
-                </h3>
-                <p className="text-xs font-medium leading-relaxed text-slate-600">
-                  Select "Last Date: Soonest First" from the list sort dropdown menu to immediately prioritize application deadlines that are closing soon.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Mobile Social Handles Banner - Placed at Bottom of Home Page Above Footer */}
-          <div className="bg-gradient-to-r from-blue-900 via-slate-900 to-indigo-900 text-white rounded-2xl p-3.5 shadow-sm border border-slate-800/60 flex flex-col gap-2.5 lg:hidden mt-8">
-            <div className="flex items-center justify-between gap-2">
-              <div className="flex items-center gap-2">
-                <span className="p-1.5 rounded-lg bg-blue-500/20 text-blue-300">
-                  <Sparkles className="h-4 w-4" />
+            {/* 3 Main Chrome Tabs */}
+            <div className="grid grid-cols-3 gap-1 sm:flex sm:items-end sm:gap-2 w-full sm:w-auto">
+              
+              {/* Tab 1: Qualification Wise */}
+              <button
+                onClick={() => setActiveTab('qualification')}
+                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                  activeTab === 'qualification'
+                    ? 'bg-white border-t-blue-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
+                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
+                }`}
+              >
+                <GraduationCap className="h-4 w-4 text-blue-600 shrink-0" />
+                <span className="truncate tracking-tight">
+                  <span className="inline sm:hidden">Qualification</span>
+                  <span className="hidden sm:inline">Qualification Wise</span>
                 </span>
-                <div>
-                  <p className="text-xs font-black text-white">Follow Us for Daily Alerts</p>
-                  <p className="text-[10px] text-blue-200 font-medium">@NewVacancyAlert</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-1.5 shrink-0">
-                <a
-                  href="https://www.facebook.com/profile.php?id=61592714690988"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-2.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black transition flex items-center gap-1 text-[11px] border border-blue-400/30"
-                  title="Facebook Page"
+                <span
+                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
+                    activeTab === 'qualification'
+                      ? 'bg-blue-600 text-white shadow-2xs'
+                      : 'bg-slate-300/80 text-slate-700'
+                  }`}
                 >
-                  <Facebook className="h-3.5 w-3.5 fill-current" />
-                  <span>Facebook</span>
-                </a>
-                <a
-                  href="https://www.instagram.com/newvacancyalert.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-2.5 py-1.5 rounded-xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 hover:opacity-90 text-white font-black transition flex items-center gap-1 text-[11px] border border-pink-400/30"
-                  title="Instagram Profile"
+                  {qualificationSections.length}
+                </span>
+              </button>
+
+              {/* Tab 2: State Wise */}
+              <button
+                onClick={() => setActiveTab('state')}
+                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                  activeTab === 'state'
+                    ? 'bg-white border-t-amber-500 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
+                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
+                }`}
+              >
+                <MapPin className="h-4 w-4 text-amber-600 shrink-0" />
+                <span className="truncate tracking-tight">
+                  <span className="inline sm:hidden">State</span>
+                  <span className="hidden sm:inline">State Wise</span>
+                </span>
+                <span
+                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
+                    activeTab === 'state'
+                      ? 'bg-amber-600 text-white shadow-2xs'
+                      : 'bg-slate-300/80 text-slate-700'
+                  }`}
                 >
-                  <Instagram className="h-3.5 w-3.5" />
-                  <span>Instagram</span>
-                </a>
-              </div>
-            </div>
+                  {stateSections.length}
+                </span>
+              </button>
 
-            {/* Articles Button Below Follow Us */}
-            <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between">
-              <span className="text-[11px] font-bold text-blue-200">Exam Guides & Calendars:</span>
-              <Link
-                to="/articles"
-                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-black uppercase tracking-wider bg-amber-400 text-blue-950 border border-amber-300 shadow-xs"
+              {/* Tab 3: Board Wise */}
+              <button
+                onClick={() => setActiveTab('board')}
+                className={`group relative flex items-center justify-center sm:justify-start gap-1.5 sm:gap-2 px-3 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x ${
+                  activeTab === 'board'
+                    ? 'bg-white border-t-emerald-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
+                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
+                }`}
               >
-                <BookOpen className="w-3.5 h-3.5 text-blue-950 shrink-0" />
-                <span>Read Articles</span>
-              </Link>
-            </div>
-          </div>
-
-          {/* Mobile Marketing Partner Link - Below Follow Us Section */}
-          <div className="lg:hidden text-center mt-3">
-            <Link to="/marketing-partner" className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2 decoration-slate-300">
-              Become a Marketing Partner & Earn Rewards
-            </Link>
-          </div>
-          </main>
-        </div>
-      </div>
-
-      {/* Floating Action Button at Bottom Right for Mobile View */}
-      <button
-        onClick={() => setIsMobileFiltersOpen(true)}
-        className="fixed bottom-6 right-5 z-40 lg:hidden bg-blue-600 hover:bg-blue-700 active:scale-95 text-white p-3.5 sm:p-4 rounded-full shadow-2xl border-2 border-white flex items-center gap-2 cursor-pointer transition-all hover:shadow-blue-500/25"
-        aria-label="Sort Vacancies"
-      >
-        <Filter className="h-5 w-5 text-white shrink-0" />
-        <span className="text-xs font-black pr-1 hidden sm:inline">Sort Options</span>
-        <span className="text-xs font-black pr-0.5 sm:hidden">Sort</span>
-        {sortBy !== 'date_posted_desc' && (
-          <span className="w-2.5 h-2.5 rounded-full bg-rose-500 border border-white animate-pulse"></span>
-        )}
-      </button>
-
-      {/* Mobile Popup Modal / Drawer for Sort Options */}
-      {isMobileFiltersOpen && (
-        <div className="fixed inset-0 z-50 lg:hidden flex flex-col justify-end">
-          {/* Backdrop Overlay */}
-          <div 
-            className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity duration-300" 
-            onClick={() => setIsMobileFiltersOpen(false)}
-          />
-          
-          {/* Slide-Up Bottom Sheet Modal Container */}
-          <div className="relative bg-white rounded-t-3xl max-h-[88vh] overflow-y-auto shadow-2xl p-5 border-t border-slate-200 z-10 flex flex-col gap-4 animate-in slide-in-from-bottom duration-300">
-            {/* Modal Header */}
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <div className="flex items-center gap-2">
-                <div className="p-1.5 rounded-lg bg-blue-50 border border-blue-100 text-blue-600">
-                  <Filter className="h-4 w-4" />
-                </div>
-                <div>
-                  <h2 className="font-black text-slate-800 text-sm leading-none">Sort Job Alerts</h2>
-                  <span className="text-[10px] text-slate-400 font-semibold">{filteredJobs.length} Alerts Shown</span>
-                </div>
-              </div>
-              <button 
-                onClick={() => setIsMobileFiltersOpen(false)}
-                className="text-xs font-black text-slate-500 hover:text-slate-800 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 rounded-xl cursor-pointer transition-all"
-              >
-                ✕ Close
+                <Building2 className="h-4 w-4 text-emerald-600 shrink-0" />
+                <span className="truncate tracking-tight">
+                  <span className="inline sm:hidden">Board</span>
+                  <span className="hidden sm:inline">Board Wise</span>
+                </span>
+                <span
+                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
+                    activeTab === 'board'
+                      ? 'bg-emerald-600 text-white shadow-2xs'
+                      : 'bg-slate-300/80 text-slate-700'
+                  }`}
+                >
+                  {boardSections.length}
+                </span>
               </button>
             </div>
 
-            {/* Sort Order Option Buttons */}
-            <div className="space-y-2">
-              <span className="text-[10px] font-black text-slate-400 uppercase tracking-wider block">
-                Choose Sorting Order
-              </span>
-              <div className="grid grid-cols-1 gap-2">
-                {[
-                  { id: 'date_posted_desc', label: '📅 Date Posted: Newest First' },
-                  { id: 'date_posted_asc', label: '⏳ Date Posted: Oldest First' },
-                  { id: 'posts_desc', label: '🔥 Number of Posts: High to Low' },
-                  { id: 'posts_asc', label: '📉 Number of Posts: Low to High' },
-                  { id: 'last_date_soonest', label: '⏰ Deadline: Soonest First' },
-                  { id: 'last_date_latest', label: '📅 Deadline: Furthest First' },
-                  { id: 'default', label: '⭐ Default List Order' }
-                ].map((option) => (
-                  <button
-                    key={option.id}
-                    onClick={() => setSortBy(option.id)}
-                    className={`w-full text-left px-3.5 py-2.5 rounded-xl text-xs font-black transition-all border cursor-pointer flex items-center justify-between ${
-                      sortBy === option.id
-                        ? 'bg-blue-600 border-blue-600 text-white shadow-xs'
-                        : 'bg-slate-50 hover:bg-slate-100 border-slate-200/90 text-slate-700'
-                    }`}
-                  >
-                    <span>{option.label}</span>
-                    {sortBy === option.id && <span className="text-white text-xs font-black">✓</span>}
-                  </button>
+            {/* Quick Helper Text / Active Status */}
+            <div className="hidden lg:flex items-center text-xs font-black text-slate-600 px-3 py-1.5 mb-1.5 bg-white/70 rounded-xl border border-slate-300/60 shadow-3xs">
+              <span>Arranged Alphabetically (A–Z)</span>
+            </div>
+          </div>
+
+          {/* Main Content Grid: 1 col on mobile, 2 cols on tablet, 3 cols on large screen, NO horizontal scrolling */}
+          <div className="bg-white p-4 sm:p-6 rounded-b-2xl">
+            {searchTerm && (
+              <div className="mb-5 p-3 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-between">
+                <span className="text-xs font-bold text-blue-900">
+                  Showing matching sections for: <span className="font-black">"{searchTerm}"</span> ({currentSections.length} sections found)
+                </span>
+                <button
+                  onClick={() => setSearchTerm('')}
+                  className="text-xs font-black text-rose-600 hover:underline flex items-center gap-1 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  <span>Clear Search</span>
+                </button>
+              </div>
+            )}
+
+            {currentSections.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
+                {currentSections.map((section) => (
+                  <CategorySectionCard
+                    key={section.slug}
+                    section={section}
+                    activeTab={activeTab}
+                  />
                 ))}
               </div>
-            </div>
+            ) : (
+              <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4 my-8">
+                <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
+                  <AlertCircle className="h-8 w-8" />
+                </div>
+                <h4 className="text-lg font-black text-slate-800">No Matching Vacancies Found</h4>
+                <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{searchTerm}</span>" under {activeTab === 'qualification' ? 'Qualification Wise' : activeTab === 'state' ? 'State Wise' : 'Board Wise'} categories.
+                </p>
+                <button 
+                  onClick={() => setSearchTerm('')}
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-black text-xs px-5 py-2.5 rounded-xl cursor-pointer transition shadow-sm"
+                >
+                  Clear Search Filter
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
 
-            {/* Bottom Modal Actions */}
-            <div className="grid grid-cols-2 gap-2.5 pt-2 border-t border-slate-100 pb-safe">
-              <button
-                onClick={() => {
-                  setSortBy('date_posted_desc');
-                }}
-                className="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-extrabold text-xs rounded-xl cursor-pointer border border-slate-200 text-center transition-all"
+        {/* Official Social Handles & Marketing Partner Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
+          
+          {/* Social Handles Box */}
+          <div className="bg-gradient-to-br from-blue-700 via-indigo-800 to-blue-900 rounded-2xl p-5 text-white shadow-md space-y-3.5 border border-blue-600/40">
+            <div className="flex items-center gap-2">
+              <span className="p-2 rounded-xl bg-white/20 backdrop-blur-xs text-white">
+                <Sparkles className="h-5 w-5" />
+              </span>
+              <div>
+                <h3 className="text-xs font-black uppercase tracking-wider text-blue-200">Official Social Handles</h3>
+                <p className="text-sm font-black text-white">Follow NewVacancyAlert.in</p>
+              </div>
+            </div>
+            <p className="text-xs text-blue-100 font-medium leading-relaxed">
+              Get instant government job notifications, admit cards, and application deadline alerts directly on your feed!
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+              <a
+                href="https://www.facebook.com/profile.php?id=61592714690988"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-3 rounded-xl bg-white text-blue-950 hover:bg-blue-50 font-black text-xs transition shadow-2xs group"
               >
-                Reset Sort
-              </button>
-              <button
-                onClick={() => setIsMobileFiltersOpen(false)}
-                className="w-full py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-xs rounded-xl cursor-pointer text-center shadow-md transition-all"
+                <div className="flex items-center gap-2">
+                  <Facebook className="h-4 w-4 text-blue-600 fill-current" />
+                  <span>Facebook Page</span>
+                </div>
+                <ChevronRight className="h-4 w-4 text-slate-400 group-hover:translate-x-0.5 transition-transform" />
+              </a>
+              <a
+                href="https://www.instagram.com/newvacancyalert.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-95 font-black text-xs transition shadow-2xs group"
               >
-                Apply & Close
-              </button>
+                <div className="flex items-center gap-2">
+                  <Instagram className="h-4 w-4 text-white" />
+                  <span>Instagram Profile</span>
+                </div>
+                <ChevronRight className="h-4 w-4 text-white/80 group-hover:translate-x-0.5 transition-transform" />
+              </a>
+            </div>
+          </div>
+
+          {/* Exam Guides & Marketing Partner Banner */}
+          <div className="bg-white border-2 border-slate-200 rounded-2xl p-5 shadow-xs flex flex-col justify-between space-y-4">
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-slate-800">
+                <div className="p-2 rounded-xl bg-amber-50 text-amber-600 border border-amber-200 shrink-0">
+                  <BookOpen className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-xs font-black uppercase tracking-wider text-slate-400">Exam Guides & Calendars</h3>
+                  <p className="text-sm font-black text-slate-800">Read Official Preparation Articles</p>
+                </div>
+              </div>
+              <p className="text-xs text-slate-600 font-medium leading-relaxed">
+                Explore in-depth syllabus breakdowns, previous cutoffs, RRB/SSC annual calendars, and salary calculators.
+              </p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-2 border-t border-slate-100">
+              <Link
+                to="/articles"
+                className="w-full sm:w-auto px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-blue-950 font-black text-xs transition shadow-xs text-center border border-amber-300"
+              >
+                Browse Articles & Guides
+              </Link>
+              <Link 
+                to="/marketing-partner" 
+                className="text-[11px] font-bold text-slate-500 hover:text-blue-600 underline underline-offset-2"
+              >
+                Become a Marketing Partner
+              </Link>
             </div>
           </div>
         </div>
-      )}
 
-      {/* Google-like Mobile & Desktop Fullscreen Search Overlay */}
+        {/* SEO Information & FAQ Section for Search Engine Optimization */}
+        <section className="bg-white border-2 border-slate-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-6 mt-8">
+          <div className="border-b border-slate-100 pb-4">
+            <h2 className="text-lg sm:text-xl font-black text-slate-800 tracking-tight flex items-center gap-2">
+              <HelpCircle className="h-5 w-5 text-blue-600 shrink-0" />
+              Frequently Asked Questions & Free Government Job Alerts 2026
+            </h2>
+            <p className="text-xs font-semibold text-slate-500 mt-1">
+              Essential guide to applying for active Central and State Public Sector vacancies across India.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-700">
+            <div className="space-y-1.5">
+              <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
+                How do I receive instant free government job alerts for 2026?
+              </h3>
+              <p className="text-xs font-medium leading-relaxed text-slate-600">
+                Enable push notifications on NewVacancyAlert.in or save our portal to your home screen. We issue immediate alerts for active vacancies across HAL, ICSI, AAI, ISRO (VSSC), Railway Recruitment Boards, and Defense Services.
+              </p>
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
+                Are official notifications verified with direct PDF sources?
+              </h3>
+              <p className="text-xs font-medium leading-relaxed text-slate-600">
+                Yes. Every job entry is verified against recruiting board portals with explicit advertisement numbers, academic qualification rules, age limits, pay scales, and official direct PDF links.
+              </p>
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
+                Which qualifications are eligible for public sector jobs?
+              </h3>
+              <p className="text-xs font-medium leading-relaxed text-slate-600">
+                Vacancies cover 10th Pass, 12th Pass, ITI, Diploma, B.E/B.Tech, B.Com, MBA, M.Sc, CA/ICWA, and Medical degrees. Use our Qualification Wise tab to view vacancies matching your qualification.
+              </p>
+            </div>
+
+            <div className="space-y-1.5">
+              <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
+                How can I sort job listings by application last date?
+              </h3>
+              <p className="text-xs font-medium leading-relaxed text-slate-600">
+                Click on "View All Jobs" on any category section card to open the dedicated page where you can sort by "Last Date: Soonest First", "Date Posted", or "Number of Posts".
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      {/* Fullscreen Google Search Overlay */}
       <GoogleSearchOverlay 
         isOpen={isGoogleSearchOpen} 
         onClose={() => setIsGoogleSearchOpen(false)} 
@@ -972,3 +700,4 @@ export default function HomePage() {
     </main>
   );
 }
+
