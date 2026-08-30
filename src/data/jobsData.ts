@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "konkan-railway-corporation-lim-office-boyhelperkhalasi-recruitment-2026",
+    "b": "Konkan Railway Corporation Limited (KRCL) - a Government of India Undertaking, Ministry of Railways",
+    "t": "Konkan Railway Corporation Limited (KRCL) - a Government of India Undertaking, Ministry of Railways Recruitment 2026 – Apply for 30 Office Boy/Helper/Khalasi Posts",
+    "d": "30 August 2026",
+    "l": "Refer Official Notification",
+    "a": "CO/P-R/17C/2026 (Ref: CO-13032/8/2026-PERS)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Konkan Railway Corporation Limited (KRCL) - a Government of India Undertaking, Ministry of Railways has officially released employment advertisement notification CO/P-R/17C/2026 (Ref: CO-13032/8/2026-PERS) for the recruitment of 30 vacancies for Office Boy/Helper/Khalasi posts.",
+    "u": "https://konkanrailway.com/sites/default/files/2026-08/17C.pdf"
+},
+  {
+    "id": "brihanmumbai-municipal-corpora-assistant-pathologist-assistan-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporation (BMC)",
+    "t": "Brihanmumbai Municipal Corporation (BMC) Recruitment 2026 – Apply for 6 Assistant Pathologist, Assistant Physician, Assistant Surgeon, Assistant Pediatrician Posts",
+    "d": "30 August 2026",
+    "l": "09 September 2026",
+    "a": "HO / 4292 / K.H. dt. 24.08.2026",
+    "q": "MD (Radiology), MD (Medicine), MS (Surgery), MD (Pediatrics)",
+    "desc": "Brihanmumbai Municipal Corporation (BMC) has officially released employment advertisement notification HO / 4292 / K.H. dt. 24.08.2026 for the recruitment of 6 vacancies for Assistant Pathologist, Assistant Physician, Assistant Surgeon, Assistant Pediatrician posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/Honarary%20adv12.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-project-associate-i-and-field-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur)",
+    "t": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) Recruitment 2026 – Apply for 2 Project Associate I and Field Investigator Posts",
+    "d": "30 August 2026",
+    "l": "08 September 2026",
+    "a": "AIIMS/NGP/DCM/2026/",
+    "q": "Any graduate with MPH, Any graduate with MSW",
+    "desc": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has officially released employment advertisement notification AIIMS/NGP/DCM/2026/ for the recruitment of 2 vacancies for Project Associate I and Field Investigator posts.",
+    "u": "https://aiimsnagpur.edu.in/upload/recruitment/Advertisement_DST.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-scientific-assistant-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 – Apply for 1 Scientific Assistant Posts",
+    "d": "30 August 2026",
+    "l": "08 September 2026",
+    "a": "OS-A/CCE/01/2026",
+    "q": "M.Sc. Statistics, M.Sc. IT, M.Sc. Computer Science, M.Sc. Public Health, M. T...",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially released employment advertisement notification OS-A/CCE/01/2026 for the recruitment of 1 vacancies for Scientific Assistant posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=wUxCQ8chZ34II5kP5hvPDQ=="
+},
+  {
+    "id": "national-environmental-enginee-project-assistant-ii-recruitment-2026",
+    "b": "National Environmental Engineering Research Institute (CSIR NEERI)",
+    "t": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 – Apply for 1 Project Assistant-II Posts",
+    "d": "30 August 2026",
+    "l": "03 September 2026",
+    "a": "RECRUIT_SD_7A_CEPED_27082026_D",
+    "q": "B.Sc. (Environmental Science/ Life Science/Chemistry) from recognized Univers...",
+    "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially released employment advertisement notification RECRUIT_SD_7A_CEPED_27082026_D for the recruitment of 1 vacancies for Project Assistant-II posts.",
+    "u": "https://recruitment.neeri.res.in/appform/Recruit/RECRUIT_SD_7A_CEPED_27082026_D.pdf"
+},
+  {
+    "id": "mpesb-group-3-sub-engineer-sub-engineer-upyantri-draftsma-recruitment-2026",
+    "b": "MPESB Group-3 Sub Engineer",
+    "t": "MPESB Group-3 Sub Engineer Recruitment 2026 – Apply for 1700 Sub Engineer (Upyantri), Draftsman/Cartographer, Laboratory Technician, Technical Assistant, Surveyor, Mineral Surveyor, and other equivalent posts Posts",
+    "d": "30 August 2026",
+    "l": "12-09-2026",
+    "a": "MPESB-GROUP-3-/2026",
+    "q": "Diploma/degree in the relevant engineering or technical discipline (varies by...",
+    "desc": "MPESB Group-3 Sub Engineer has officially released employment advertisement notification MPESB-GROUP-3-/2026 for the recruitment of 1700 vacancies for Sub Engineer (Upyantri), Draftsman/Cartographer, Laboratory Technician, Technical Assistant, Surveyor, Mineral Surveyor, and other equivalent posts posts.",
+    "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf"
+},
+  {
+    "id": "indian-institute-of-management-admin-associate-recruitment-2026",
+    "b": "Indian Institute of Management Kozhikode (IIM Kozhikode)",
+    "t": "Indian Institute of Management Kozhikode (IIM Kozhikode) Recruitment 2026 – Apply for 4 Admin. Associate Posts",
+    "d": "30 August 2026",
+    "l": "16 September 2026",
+    "a": "C - 67/2026-IIMK.HR",
+    "q": "Post-Graduation with minimum two years experience in Clerical duties/office a...",
+    "desc": "Indian Institute of Management Kozhikode (IIM Kozhikode) has officially released employment advertisement notification C - 67/2026-IIMK.HR for the recruitment of 4 vacancies for Admin. Associate posts.",
+    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6ImVLUk0vV0RrM1NDdkRSajBXeDVXaVE9PSIsInZhbHVlIjoia3BSdHdIVnBGbW81OWRjbGFzWFVIQT09IiwibWFjIjoiZDBhZmVjZTJlZjRhMDVhNGJlNTBmYjg1MDM1YjI0OWViMGQxYjk2ZDU5MDFmZDNhNWZiNDcxZmRiMmYzMGJhMSIsInRhZyI6IiJ9"
+},
+  {
+    "id": "indian-institute-of-management-executive-care-recruitment-2026",
+    "b": "Indian Institute of Management Kozhikode",
+    "t": "Indian Institute of Management Kozhikode Recruitment 2026 – Apply for 3 Executive (C.A.R.E) Posts",
+    "d": "30 August 2026",
+    "l": "16 September 2026",
+    "a": "C-66/2026-IIMK.HR",
+    "q": "Master's Degree (two-year full-time programme) in Management",
+    "desc": "Indian Institute of Management Kozhikode has officially released employment advertisement notification C-66/2026-IIMK.HR for the recruitment of 3 vacancies for Executive (C.A.R.E) posts.",
+    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6ImpIa2dMdzdndE93Ulk3dUxuWnc2bEE9PSIsInZhbHVlIjoib3h0VjRsRzdmdVhub2tvTjA4anhtdz09IiwibWFjIjoiY2YxMjVkMDhlMDM5ODYwM2Q0ODc4MjZiMTBhYjRjNzI0MzlmNmI5ZjNjNDJmM2YzZGNhZjBiY2ZmNmRkNjU5YyIsInRhZyI6IiJ9"
+},
+  {
+    "id": "karnataka-state-audit-accounts-assistant-controller-group-a-a-recruitment-2026",
+    "b": "Karnataka State Audit & Accounts Department",
+    "t": "Karnataka State Audit & Accounts Department Recruitment 2026 – Apply for 68 Assistant Controller (Group A), Audit Officer (Group B) - Residual Parent Cadre (RPC) Posts",
+    "d": "30 August 2026",
+    "l": "26-09-2026",
+    "a": "KPSCKA/EXA2/PRSL/10/2026-EXAM2/251 dated 27-08-2026",
+    "q": "Master's degree in Commerce/MBA (Finance) or equivalent, or ICAI/ICMAI member...",
+    "desc": "Karnataka State Audit & Accounts Department has officially released employment advertisement notification KPSCKA/EXA2/PRSL/10/2026-EXAM2/251 dated 27-08-2026 for the recruitment of 68 vacancies for Assistant Controller (Group A), Audit Officer (Group B) - Residual Parent Cadre (RPC) posts.",
+    "u": "https://kpsc.kar.nic.in/SAAD%20RPC%20Notification%20dt%2027-08-2026.pdf"
+},
+  {
+    "id": "karnataka-school-education-dep-graduate-primary-teacher-gpt-a-recruitment-2026",
+    "b": "Karnataka School Education Department (Department of Public Instruction)",
+    "t": "Karnataka School Education Department (Department of Public Instruction) Recruitment 2026 – Apply for 15 Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) Posts",
+    "d": "30 August 2026",
+    "l": "7 September 2026",
+    "a": "KARNATAKA-SCHO/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Karnataka School Education Department (Department of Public Instruction) has officially released employment advertisement notification KARNATAKA-SCHO/2026 for the recruitment of 15 vacancies for Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) posts.",
+    "u": "https://erajyapatra.karnataka.gov.in/%28S%28opczidrprdv4yhn2gn1d3ayc%29%29/RecentUploads.aspx?Category=6"
+},
+  {
     "id": "zilla-panchayat-shivamogga-off-bill-collector-data-entry-oper-recruitment-2026",
     "b": "Zilla Panchayat, Shivamogga (Office at Post Box No. 127, Kuvempu Road, Shivamogga - 577201)",
     "t": "Zilla Panchayat, Shivamogga (Office at Post Box No. 127, Kuvempu Road, Shivamogga - 577201) Recruitment 2026 – Apply for 52 Bill Collector, Data Entry Operator Posts",
