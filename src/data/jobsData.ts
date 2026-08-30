@@ -507,17 +507,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://webadmin.mssv.ac.in/media-library/uploads/7YhGHi8QgkomPnEJPAtYwuRg4bsM3X22HKI9QMl3.pdf"
 },
   {
-    "id": "railway-recruitment-boards-rrb-junior-engineer-recruitment-2026",
-    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
-    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 – Apply for 4029 Junior Engineer Posts",
-    "d": "30 August 2026",
-    "l": "13.09.2026 (23:59 hrs)",
-    "a": "CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA)",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially released employment advertisement notification CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA) for the recruitment of 4029 vacancies for Junior Engineer posts.",
-    "u": "https://rrb.indianrailways.gov.in/-/image/1786627574998CEN_04_2026_JE_DMS_English.pdf/examsDocuments"
-},
-  {
     "id": "indian-institute-of-engineerin-junior-research-fellow-recruitment-2026",
     "b": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur)",
     "t": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) Recruitment 2026 – Apply for 2 Junior Research Fellow Posts",
@@ -3863,15 +3852,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "rrb-je-dms-recruitment-2026",
-    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
-    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026: Apply Online for 3,993 Vacancies | CEN No. 04/2026",
-    "d": "25 July 2026",
+    "b": "Railway Recruitment Boards (RRBs)",
+    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent Recruitment 2026 – Apply Online for 3,993 Posts",
+    "d": "14 August 2026",
     "l": "13 September 2026",
     "a": "CEN No. 04/2026 (JE/DMS)",
-    "q": "Diploma in Engineering / B.E. / B.Tech (Civil, Mech, Elect, ECE, CS/IT)",
-    "desc": "Railway Recruitment Boards (RRBs) have issued the detailed Centralised Employment Notice CEN No. 04/2026 for the recruitment of 3,993 vacancies for various posts of Junior Engineer (JE) and Depot Material Superintendent (DMS) across 21 Railway Recruitment Boards.",
+    "q": "3-Year Diploma in Engineering or B.E. / B.Tech in Relevant Stream",
+    "desc": "Railway Recruitment Boards invite online applications for 3,993 Junior Engineer & DMS vacancies in Level-6 (₹35,400 basic) across all 21 RRBs. CBT-1, CBT-2 & DV Selection.",
     "u": "https://rrbapply.gov.in"
-  },
+},
   {
     "id": "aai-northern-region-apprentice-recruitment-2026",
     "b": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi",
