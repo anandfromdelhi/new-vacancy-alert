@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "central-ayurveda-research-inst-consultant-ayush-disciplines-j-recruitment-2026",
+    "b": "Central Ayurveda Research Institute (CARI)",
+    "t": "Central Ayurveda Research Institute (CARI) Recruitment 2026 – Apply for 2 Consultant (Ayush disciplines) & Junior Research Fellow (Pharmacology) Posts",
+    "d": "30 August 2026",
+    "l": "8 September 2026",
+    "a": "CENTRAL-AYURVE/2026",
+    "q": "BAMS/BHMS/BSMS with 5 years research experience OR Post-graduate degree in Ph...",
+    "desc": "Central Ayurveda Research Institute (CARI) has officially released employment advertisement notification CENTRAL-AYURVE/2026 for the recruitment of 2 vacancies for Consultant (Ayush disciplines) & Junior Research Fellow (Pharmacology) posts.",
+    "u": "https://ccras.nic.in/wp-content/uploads/2026/08/27082026-Cari-Delhi.pdf"
+},
+  {
+    "id": "railway-recruitment-cell-north-act-apprentice-apprentices-act-recruitment-2026",
+    "b": "Railway Recruitment Cell, North Central Railway (RRC NCR)",
+    "t": "Railway Recruitment Cell, North Central Railway (RRC NCR) Recruitment 2026 – Apply for 1853 Act Apprentice (Apprentices Act, 1961) Posts",
+    "d": "30 August 2026",
+    "l": "07.08.2026 @ 23:59 hrs",
+    "a": "RRC/NCR/Act. Apprentice 01/2026, dated 07.07.2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Railway Recruitment Cell, North Central Railway (RRC NCR) has officially released employment advertisement notification RRC/NCR/Act. Apprentice 01/2026, dated 07.07.2026 for the recruitment of 1853 vacancies for Act Apprentice (Apprentices Act, 1961) posts.",
+    "u": "https://rrcpryj.org/wp-content/uploads/2026/07/Notification-act-apprentice-2026.pdf"
+},
+  {
+    "id": "aiims-raebareli-senior-residen-108-recruitment-2026",
+    "b": "AIIMS Raebareli Senior Resident",
+    "t": "AIIMS Raebareli Senior Resident Recruitment 2026 – Apply for 108 108 Posts",
+    "d": "30 August 2026",
+    "l": "08.09.2026, from 03:00 PM onwards",
+    "a": "AIIMS/RBL/REC/SR/2026/480",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "AIIMS Raebareli Senior Resident has officially released employment advertisement notification AIIMS/RBL/REC/SR/2026/480 for the recruitment of 108 vacancies for 108 posts.",
+    "u": "https://aiimsrbl.edu.in/"
+},
+  {
+    "id": "csc-e-governance-services-indi-aadhaar-supervisoroperator-dis-recruitment-2026",
+    "b": "CSC e-Governance Services India Limited (CSC)",
+    "t": "CSC e-Governance Services India Limited (CSC) Recruitment 2026 – Apply for 5 Aadhaar Supervisor/Operator - District Posts",
+    "d": "30 August 2026",
+    "l": "11-09-2026",
+    "a": "CSC-E-GOVERNAN/2026",
+    "q": "12th pass, or Matriculation + 2 years ITI, or Matriculation + 3 years Polytec...",
+    "desc": "CSC e-Governance Services India Limited (CSC) has officially released employment advertisement notification CSC-E-GOVERNAN/2026 for the recruitment of 5 vacancies for Aadhaar Supervisor/Operator - District posts.",
+    "u": "https://career.csccloud.in/job-post/MTM4Mg=="
+},
+  {
     "id": "indian-institute-of-technology-post-doctoral-research-fellow-recruitment-2026",
     "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
     "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 – Apply for 1 Post Doctoral Research Fellow (Coal Supply Chain Optimization using AI) Posts",
