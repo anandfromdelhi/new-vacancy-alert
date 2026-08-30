@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "osssc-radiographer-recruitment-2026",
+    "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
+    "t": "OSSSC Radiographer Recruitment 2026 – Apply Online for 240 District Cadre Group-C Posts",
+    "d": "28 August 2026",
+    "l": "30 September 2026",
+    "a": "IIE-60/2026-2630/OSSSC",
+    "q": "+2 Science + DMRT or BMRT Degree + Odisha Radiographers Council Registration",
+    "desc": "OSSSC invites online applications for 240 Radiographer posts in Pay Level-7 (₹25,500–₹81,100) across 30 districts in Odisha. ₹500 fee is 100% refunded upon appearing in exam.",
+    "u": "https://www.osssc.gov.in"
+},
+  {
     "id": "national-institute-of-homoeopa-assistant-professor-consultant-recruitment-2026",
     "b": "National Institute of Homoeopathy",
     "t": "National Institute of Homoeopathy Recruitment 2026 – Apply for 4 Assistant Professor & Consultant Posts",
@@ -186,17 +197,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Post-Graduation in English with B.Ed for PGT, Graduation with SST with B.Ed f...",
     "desc": "Rashtriya Military School Dholpur has officially released employment advertisement notification EN 22/54 for the recruitment of 3 vacancies for Teacher posts.",
     "u": "https://www.rashtriyamilitaryschools.edu.in/"
-},
-  {
-    "id": "odisha-sub-ordinate-staff-sele-radiographer-recruitment-2026",
-    "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
-    "t": "Odisha Sub-ordinate Staff Selection Commission (OSSSC) Recruitment 2026 – Apply for 240 Radiographer Posts",
-    "d": "30 August 2026",
-    "l": "31.08.2026",
-    "a": "IIE-60/2026-2630/OSSSC",
-    "q": "+2 Science + DMRT/BMRT + Radiographers Council registration",
-    "desc": "Odisha Sub-ordinate Staff Selection Commission (OSSSC) has officially released employment advertisement notification IIE-60/2026-2630/OSSSC for the recruitment of 240 vacancies for Radiographer posts.",
-    "u": "http://www.osssc.gov.in"
 },
   {
     "id": "central-university-of-odisha-c-guest-faculty-recruitment-2026",
