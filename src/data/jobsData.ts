@@ -3776,14 +3776,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "iocl-executive-cbt-recruitment-2026",
     "b": "Indian Oil Corporation Limited (IOCL)",
-    "t": "IOCL Executive Recruitment 2026 through CBT – Apply Online for Graduate & Diploma Engineers, Officers & AQCO Posts | Advt No: IOCL/CO-HR/RECTT/2026/01 (Last Date: 03 September 2026)",
+    "t": "IOCL Executive Recruitment 2026 through CBT – Apply Online for Graduate & Diploma Engineers, Officers & AQCO Posts",
     "d": "14 August 2026",
-    "l": "03 September 2026 (Till 17:00 Hrs)",
+    "l": "03 September 2026",
     "a": "IOCL/CO-HR/RECTT/2026/01",
-    "q": "B.E./B.Tech/Diploma (Engg) / MBA (Marketing) / LLB / M.Sc (Chemistry)",
-    "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India’s premier energy flagship company ranked among Fortune Global 500 enterprises, has officially announced the recruitment of Executives through Computer Based Test (CBT) - 2026 under Advertisement No. IOCL/CO-HR/RECTT/2026/01.",
+    "q": "B.E./B.Tech / MBA (Marketing) / LLB / M.Sc Chemistry / 3-Year Diploma in Engg",
+    "desc": "IOCL invites online applications for Executive posts in Grade A, A0 & E0 (₹11.1 LPA to ₹18.4 LPA CTC) through nationwide Computer Based Test on 24.09.2026 across 83 cities.",
     "u": "https://iocl.com/latest-job-opening"
-  },
+},
   {
     "id": "bob-local-bank-officer-lbo-recruitment-2026",
     "b": "Bank of Baroda (BOB)",
@@ -3959,17 +3959,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass + Regular Full-Time ITI (NCVT/SCVT) in relevant trade",
     "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has published official circular No. TP: HR: R: AA113 inviting online applications for engagement of 380 Trade Apprentices under the Apprentices Act, 1961 for the training year 2026-27.",
     "u": "https://trichy.bhel.com"
-  },
-  {
-    "id": "iocl-executives-cbt-recruitment-2026",
-    "b": "Indian Oil Corporation Limited (IOCL), Corporate Office, New Delhi",
-    "t": "IOCL Executive Recruitment 2026 Notification Out for Graduate Engineer, Marketing, Law, Quality Control & Diploma Engineers (Advt No: IOCL/CO-HR/RECTT/2026/01)",
-    "d": "14 August 2026",
-    "l": "03 September 2026 (till 17:00 Hrs)",
-    "a": "IOCL/CO-HR/RECTT/2026/01",
-    "q": "See eligibility",
-    "desc": "Indian Oil Corporation Limited (IndianOil), a Maharatna Central Public Sector Enterprise and India's flagship energy major, has released detailed advertisement Advt. No.: IOCL/CO-HR/RECTT/2026/01 for recruitment of dynamic and enthusiastic Executives across various disciplines through Computer Based Test (CBT) - 2026.",
-    "u": "https://www.iocl.com/latest-job-opening"
   },
   {
     "id": "up-muzaffarnagar-anganwadi-recruitment-2026",
