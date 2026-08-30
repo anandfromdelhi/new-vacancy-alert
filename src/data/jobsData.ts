@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "meghalaya-home-guards-border-wing-guardsman-recruitment-2026",
+    "b": "Civil Defence & Home Guards Meghalaya",
+    "t": "Meghalaya Border Wing Home Guards Recruitment 2026 – Enrolment for 558 Guardsman Posts",
+    "d": "27 August 2026",
+    "l": "28 September 2026",
+    "a": "Memo No. E.1/2026/95-A",
+    "q": "Trained Home Guards Volunteer + Basic Training Certificate + Meghalaya Domicile",
+    "desc": "Meghalaya Civil Defence & Home Guards invites applications for 558 Part-Time Guardsman vacancies in Border Wing Battalion. Highly Skilled wages + Risk allowance.",
+    "u": "https://meghhomeguards.gov.in"
+},
+  {
     "id": "iim-indore-project-engineers-experts-recruitment-2026",
     "b": "Indian Institute of Management Indore (IIM Indore)",
     "t": "IIM Indore Recruitment 2026 – Apply for 107 Project Engineers, Experts & Project Manager Posts",
@@ -241,17 +252,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "PG in Science with NET",
     "desc": "Nagaland University has officially released employment advertisement notification NAGALAND-UNIVE/2026 for the recruitment of 1 vacancies for Project Associate I posts.",
     "u": "https://nagalanduniversity.ac.in/file/information/documents/20260827-prjassocanrf.pdf"
-},
-  {
-    "id": "meghalaya-home-guards-558-recruitment-2026",
-    "b": "Meghalaya Home Guards",
-    "t": "Meghalaya Home Guards Recruitment 2026 – Apply for 558 558 Posts",
-    "d": "30 August 2026",
-    "l": "28.09.2026",
-    "a": "MEGHALAYA-HOME/2026",
-    "q": "Trained Home Guards Volunteers who are Indian citizens domiciled in Meghalaya",
-    "desc": "Meghalaya Home Guards has officially released employment advertisement notification MEGHALAYA-HOME/2026 for the recruitment of 558 vacancies for 558 posts.",
-    "u": "https://meghomeguards.gov.in/sites/default/files/notice-enrolment-website-copy.pdf"
 },
   {
     "id": "department-of-telecommunicatio-stenographer-grade-i-sr-accoun-recruitment-2026",
