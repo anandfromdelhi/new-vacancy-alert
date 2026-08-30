@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "gmc-narayanpet-professor-associate-professor-recruitment-2026",
+    "b": "GMC Narayanpet",
+    "t": "GMC Narayanpet Recruitment 2026 – Apply for 1 Professor, Associate Professor and More Posts",
+    "d": "30 August 2026",
+    "l": "02.09.2026",
+    "a": "GMC-NARAYANPET/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "GMC Narayanpet has officially released employment advertisement notification GMC-NARAYANPET/2026 for the recruitment of 1 vacancies for Professor, Associate Professor and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s343feaeeecd7b2fe2ae2e26d917b6477d/uploads/2026/08/17876351768779.pdf"
+},
+  {
+    "id": "state-bank-of-india-sbi-trade-finance-officer-ibg-tfo-recruitment-2026",
+    "b": "State Bank of India (SBI)",
+    "t": "State Bank of India (SBI) Recruitment 2026 – Apply for 35 Trade Finance Officer - IBG (TFO-IBG), JMGS-I & MMGS-II Posts",
+    "d": "30 August 2026",
+    "l": "19.09.2026",
+    "a": "CRPD/SCO/2026-27/15",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "State Bank of India (SBI) has officially released employment advertisement notification CRPD/SCO/2026-27/15 for the recruitment of 35 vacancies for Trade Finance Officer - IBG (TFO-IBG), JMGS-I & MMGS-II posts.",
+    "u": "https://sbi.bank.in/documents/77530/57941334/29082026_FINAL+ADVT+TFO+IBG_SCO+15.pdf/222db64b-91da-cbe8-c439-9af6b1dd06b2?t=1787986916149"
+},
+  {
+    "id": "government-sivaganga-medical-c-various-contractual-posts-unde-recruitment-2026",
+    "b": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga)",
+    "t": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga) Recruitment 2026 – Apply for 11 Various Contractual Posts under NHM Posts",
+    "d": "30 August 2026",
+    "l": "11 September 2026",
+    "a": "GOVERNMENT-SIV/2026",
+    "q": "Bachelor Degree in Speech & Language pathology/ B.Sc, Bachelor Degree in Phys...",
+    "desc": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga) has officially released employment advertisement notification GOVERNMENT-SIV/2026 for the recruitment of 11 vacancies for Various Contractual Posts under NHM posts.",
+    "u": "https://cdn.s3waas.gov.in/s31a5b1e4daae265b790965a275b53ae50/uploads/2026/08/17879151145536.pdf"
+},
+  {
+    "id": "district-health-society-mayila-various-health-posts-recruitment-2026",
+    "b": "District Health Society Mayiladuthurai (DHS Mayiladuthurai)",
+    "t": "District Health Society Mayiladuthurai (DHS Mayiladuthurai) Recruitment 2026 – Apply for 24 Various Health Posts Posts",
+    "d": "30 August 2026",
+    "l": "11 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "+2 with Biology/Botany/Zoology, Tamil in SSLC, 2 years MPHW/HI/SI training, G...",
+    "desc": "District Health Society Mayiladuthurai (DHS Mayiladuthurai) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 24 vacancies for Various Health Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s33871bd64012152bfb53fdf04b401193f/uploads/2026/08/17879194094755.pdf"
+},
+  {
+    "id": "rashtriya-military-school-dhol-teacher-recruitment-2026",
+    "b": "Rashtriya Military School Dholpur",
+    "t": "Rashtriya Military School Dholpur Recruitment 2026 – Apply for 3 Teacher Posts",
+    "d": "30 August 2026",
+    "l": "7 days from the date of publication",
+    "a": "EN 22/54",
+    "q": "Post-Graduation in English with B.Ed for PGT, Graduation with SST with B.Ed f...",
+    "desc": "Rashtriya Military School Dholpur has officially released employment advertisement notification EN 22/54 for the recruitment of 3 vacancies for Teacher posts.",
+    "u": "https://www.rashtriyamilitaryschools.edu.in/"
+},
+  {
+    "id": "odisha-sub-ordinate-staff-sele-radiographer-recruitment-2026",
+    "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
+    "t": "Odisha Sub-ordinate Staff Selection Commission (OSSSC) Recruitment 2026 – Apply for 240 Radiographer Posts",
+    "d": "30 August 2026",
+    "l": "31.08.2026",
+    "a": "IIE-60/2026-2630/OSSSC",
+    "q": "+2 Science + DMRT/BMRT + Radiographers Council registration",
+    "desc": "Odisha Sub-ordinate Staff Selection Commission (OSSSC) has officially released employment advertisement notification IIE-60/2026-2630/OSSSC for the recruitment of 240 vacancies for Radiographer posts.",
+    "u": "http://www.osssc.gov.in"
+},
+  {
+    "id": "central-university-of-odisha-c-guest-faculty-recruitment-2026",
+    "b": "Central University of Odisha (CUO)",
+    "t": "Central University of Odisha (CUO) Recruitment 2026 – Apply for 4 Guest Faculty Posts",
+    "d": "30 August 2026",
+    "l": "01 September 2026",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "Master's degree with 55% marks in concerned specialization, NET/CSIR NET or P...",
+    "desc": "Central University of Odisha (CUO) has officially released employment advertisement notification CENTRAL-UNIVER/2026 for the recruitment of 4 vacancies for Guest Faculty posts.",
+    "u": "https://www.cuo.ac.in/Recruitment/2026/Notification_Walk-in_GF__LSCM.pdf"
+},
+  {
+    "id": "icar-national-research-centre-young-professional-ii-yp-ii-un-recruitment-2026",
+    "b": "ICAR National Research Centre",
+    "t": "ICAR National Research Centre Recruitment 2026 – Apply for 1 Young Professional II (YP II) Under ITMU Cell Posts",
+    "d": "30 August 2026",
+    "l": "16 September 2026",
+    "a": "NRCM(G)194/2026(Vol.VI)",
+    "q": "M.Tech in Biotechnology, M.Sc in Biotechnology, M.Sc in Life Science, M.V.Sc....",
+    "desc": "ICAR National Research Centre has officially released employment advertisement notification NRCM(G)194/2026(Vol.VI) for the recruitment of 1 vacancies for Young Professional II (YP II) Under ITMU Cell posts.",
+    "u": "https://www.nrcm.org.in"
+},
+  {
+    "id": "nagaland-university-project-associate-i-recruitment-2026",
+    "b": "Nagaland University",
+    "t": "Nagaland University Recruitment 2026 – Apply for 1 Project Associate I Posts",
+    "d": "30 August 2026",
+    "l": "01 September 2026",
+    "a": "NAGALAND-UNIVE/2026",
+    "q": "PG in Science with NET",
+    "desc": "Nagaland University has officially released employment advertisement notification NAGALAND-UNIVE/2026 for the recruitment of 1 vacancies for Project Associate I posts.",
+    "u": "https://nagalanduniversity.ac.in/file/information/documents/20260827-prjassocanrf.pdf"
+},
+  {
+    "id": "meghalaya-home-guards-558-recruitment-2026",
+    "b": "Meghalaya Home Guards",
+    "t": "Meghalaya Home Guards Recruitment 2026 – Apply for 558 558 Posts",
+    "d": "30 August 2026",
+    "l": "28.09.2026",
+    "a": "MEGHALAYA-HOME/2026",
+    "q": "Trained Home Guards Volunteers who are Indian citizens domiciled in Meghalaya",
+    "desc": "Meghalaya Home Guards has officially released employment advertisement notification MEGHALAYA-HOME/2026 for the recruitment of 558 vacancies for 558 posts.",
+    "u": "https://meghomeguards.gov.in/sites/default/files/notice-enrolment-website-copy.pdf"
+},
+  {
     "id": "department-of-telecommunicatio-stenographer-grade-i-sr-accoun-recruitment-2026",
     "b": "Department of Telecommunications (DoT)",
     "t": "Department of Telecommunications (DoT) Recruitment 2026 – Apply for 31 Stenographer Grade-I, Sr. Accountant, Junior Accountant, Stenographer Grade-II & LDC Posts",
