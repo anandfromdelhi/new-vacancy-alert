@@ -804,12 +804,11 @@ export default function HomePage() {
       {currentSections.length > 0 && (
         <div className="fixed bottom-3 inset-x-0 mx-auto z-40 w-[94%] max-w-lg lg:hidden transition-all duration-300 pointer-events-auto">
           <div className="bg-slate-900/95 backdrop-blur-md text-white rounded-2xl p-2 shadow-2xl border border-slate-700/90 flex items-center gap-2">
-            {/* Quick Icon / Category Indicator */}
-            <div className="shrink-0 pl-1 flex items-center gap-1 text-[11px] font-black text-emerald-400 uppercase tracking-wider">
-              {activeTab === 'qualification' && <GraduationCap className="w-3.5 h-3.5 text-blue-400 shrink-0" />}
-              {activeTab === 'state' && <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />}
-              {activeTab === 'board' && <Building2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />}
-              <span className="hidden min-[360px]:inline text-[10px] text-slate-300 font-extrabold">Sections</span>
+            {/* Quick Icon Indicator */}
+            <div className="shrink-0 pl-1.5 pr-0.5 flex items-center">
+              {activeTab === 'qualification' && <GraduationCap className="w-4 h-4 text-blue-400 shrink-0" />}
+              {activeTab === 'state' && <MapPin className="w-4 h-4 text-amber-400 shrink-0" />}
+              {activeTab === 'board' && <Building2 className="w-4 h-4 text-emerald-400 shrink-0" />}
             </div>
 
             {/* Horizontally scrolling pill list */}
