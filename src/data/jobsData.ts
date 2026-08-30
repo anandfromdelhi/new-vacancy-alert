@@ -596,14 +596,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "mpesb-group-3-sub-engineer-recruitment-2026",
-    "b": "Madhya Pradesh Employees Selection Board (MPESB)",
-    "t": "MPESB Group-3 Sub Engineer, Draftsman & Lab Tech Recruitment 2026 – Apply Online for 1,700 Posts",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal)",
+    "t": "MPESB Group-3 Sub Engineer, Draftsman & Lab Technician Recruitment 2026 – Apply Online for 1,700 Posts (Exam From 07 October 2026)",
     "d": "28 August 2026",
     "l": "12 September 2026",
-    "a": "समूह-03 संयुक्त भर्ती परीक्षा-2026 (द्वितीय)",
-    "q": "3-Year Diploma in Engineering or B.E./B.Tech + MP Rojgar Registration",
-    "desc": "MPESB invites online applications for 1,700 Sub Engineer, Draftsman & Lab Technician vacancies in Level-8 (₹32,800–₹1,03,600). Exam starts 07 October 2026 across 11 cities.",
-    "u": "https://www.esb.mp.gov.in"
+    "a": "समूह-03 संयुक्त भर्ती परीक्षा-2026 (द्वितीय) / Group-03 Combined Recruitment Test 2026 (II)",
+    "q": "3-Year Diploma in Engineering or B.E./B.Tech / Degree in relevant engineering stream",
+    "desc": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal has officially released the detailed 116-page rulebook and initiated the online application process for the 'Group-03 Sub-Engineer (उपयंत्री), Draftsman (मानचित्रकार), Laboratory Technician (प्रयोगशाला तकनीशियन) and Other Equivalent Posts Combined Recruitment Examination 2026 (II)' to fill 1,700 vacancies across MP government engineering departments, municipal corporations, development authorities, and government polytechnic colleges.",
+    "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group3_2026_Rulebook.pdf"
 },
   {
     "id": "nic-scientific-technical-assistant-recruitment-2026",
