@@ -18,7 +18,7 @@ export const MPESB_BOOK_LINKS = {
   EXAMCART_PYQ: "https://www.amazon.in/Examcart-Syllabus-Questions-Chapterwise-Solutions/dp/9375165132?crid=2LKUQ05ZI6F1Y&dib=eyJ2IjoiMSJ9.oMhH3q3KUnMOfKv3e2lfPSaKNZAkWLQ14TbagB-ZxGEq4Sx9WBm6pXpkosPJNpGekntAo_QShGpGEdj6wmHV3w.svSn_fC2aiSZoMPKVCPFAKKkN2G4xqSJqqeVOzrzXY8&dib_tag=se&keywords=Examcart+MPESB+Chapterwise+Solved+PYQs+%282016%E2%80%932025%29&qid=1788086696&sprefix=examcart+mpesb+chapterwise+solved+pyqs+2016+2025+%2Caps%2C750&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=72149f1c1b928253393a3ddf6a83dc5e&ref_=as_li_ss_tl",
   LUCENT_GK: "https://www.amazon.in/Lucents-General-Knowledge-2026-Competitive/dp/B0GDQLFJSB?crid=364TXC0L3MTLS&dib=eyJ2IjoiMSJ9.z9CRJK3L9Cx3omeaNBhHEhOQH87J21zjBZxR9mZOQWNE_wkVo9XxrRcecuA_mjlvCifdA91ZMYfrAwy3udSDhoD7NUAs0t7qjZODn7KwZVfme3NlGdu7Crhwz8bQ9ihNQO1vm8XEm1pzef8LLpDJ5sfHZDGCs4aqcqAQFWQWR0Qpx2d5fyOiXrxaqwNaA4fPlz15_a1bRcvIhLiixmjL_19u4xcBDy3UgPcVktyRGkQ.XVbPFDyMnYKIWigPm6qvBT87fTUTAsadxD5HerTqybQ&dib_tag=se&keywords=Lucent%27s+General+Knowledge+%28Hindi+or+English%29&qid=1788086773&sprefix=lucent%27s+general+knowledge+hindi+or+english+%2Caps%2C252&sr=8-2&linkCode=ll2&tag=newvacancyale-21&linkId=342c07210bab59ac77f4272d42266265&ref_=as_li_ss_tl",
   MCGRAW_HILL_MP_GK: "https://www.amazon.in/Introduction-Pradesh-General-Knowledge-English/dp/935532054X?crid=23EG2N99Q2RWB&dib=eyJ2IjoiMSJ9.u3XsPlyl_qrX0NybjJ5iSA.yLEcu2bEzQBJUwTGPzxSnj9V95UOQOyL82cFPYEFWt8&dib_tag=se&keywords=McGraw+Hill+%E2%80%93+An+Introduction+to+MP+GK+%287th+Ed%29+%2F+Parikshadham+2026&nsdOptOutParam=true&qid=1788086735&sprefix=mcgraw+hill+an+introduction+to+mp+gk+7th+ed+%2F+parikshadham+2026%2Caps%2C269&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=ada6412081f48476416b967dc5d9f822&ref_=as_li_ss_tl",
-  PARIKSHADHAM_MP_GK: "https://www.amazon.in/s?k=Parikshadham+Madhya+Pradesh+GK+2026&tag=newvacancyale-21",
+  PARIKSHADHAM_MP_GK: "https://www.amazon.in/Parikshadham-Hindi-Mppsc-Exams-Other/dp/B0GC5FPXJZ?crid=26FSKPJ1FEI24&dib=eyJ2IjoiMSJ9.D5kg7cxiYLpjlE7KKaKLcrR9N-zU2yl3xloP5z8NctONEt0rRIA5qW6bMfopthsqKbPxCI4E-3hGb6uqV9ixObEvUo69Ad8CDo3texf_WCYAIBfxvAsXuo4x384UAMCVTEbEyVc1u-QHDclkGhE2GkzRu6cpcrTyMM2oNLiFzNoOQzk-Db8xjShMsi_XNgQ25juuPoMzaFRK0pSXP47vNV-51swl-wSuMi0mBqpvaO4.E4zLHSGB2erz_iAcrOrvigMep-yaz4M9HMQAKkY9iSY&dib_tag=se&keywords=MP+Parikshadham+GK+2026+%285th+Edition%29&qid=1788087366&sprefix=mp+parikshadham+gk+2026+5th+edition+%2Caps%2C372&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=e1a7705071641fe8a181623e1b216d8e&ref_=as_li_ss_tl",
   MP_ATLAS: "https://www.amazon.in/s?k=Madhya+Pradesh+Atlas+Map+Book&tag=newvacancyale-21",
   RS_MATHS: "https://www.amazon.in/Quantitative-Aptitude-Revised-2025-Competitive/dp/B0D6VFV3ZP?crid=9PPVBZPHD02C&dib=eyJ2IjoiMSJ9.VkujiB2B1ecVnsMClRRrpNeHUstiJWme5OSH-29Vgk_UwTWBHS_CivtAtcBXwRJ_w8hSbGpmcFeLJkV-B6LaXPKkQxDJu2oHOfXOiiphrzLCNxR26xe85ISG3qp-GNnJCPCLdpA-Hgj6ts_jI4rjrKDDfcyh1x-SE5leBHTXBNRPb1Owjv6zbm-1u1H7NAKe7Yr_qXdIzST6BthuU0B8cVBoBF5S5vKJT9ZcF1NrjR4.KzLY54tiKStrLv_DcD3jXf_nsVFxiyuW2aJVaQOUq4A&dib_tag=se&keywords=R.S.+Aggarwal+%E2%80%93+Quantitative+Aptitude&qid=1788086826&sprefix=r.s.+aggarwal+quantitative+aptitude%2Caps%2C259&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=711b6d22e620612da968c29d77648a1f&ref_=as_li_ss_tl",
   RS_REASONING: "https://www.amazon.in/Approach-Non-Verbal-Reasoning-Questions-Competitive/dp/B0CVGWMLQL?crid=3MVXTGC94A2YR&dib=eyJ2IjoiMSJ9.6D3cK_BLJrnvFNU3fxPIwVmCO6ETfmzNwpLahKlwuA0vPEtzn2rHLN6__wRKznfRCo6srI0aUXRSzbOSf7G9vDiYlmak089WwxFR5whGsebqfqie1HayP-nic8ugYApkgdpML76Hwrgq-Y_tUKIJl7LUy98jamtr3ZYOCDOfQq0zo-DRCclo8qKKzuWDLsvCl1P4sw9VOSKFmpOV2CzV5L9X-MATJt-6miyV0QO23JA.6qUBk_qrVVoWE7i0ztmYOstrHeOotoxslszwqZvUgqk&dib_tag=se&keywords=R.S.+Aggarwal+%E2%80%93+Verbal+%26+Non-Verbal+Reasoning&qid=1788086870&sprefix=r.s.+aggarwal+verbal+%26+non-verbal+reasoning%2Caps%2C298&sr=8-3&linkCode=ll2&tag=newvacancyale-21&linkId=93cb307f912bc4071d5c4e16e82ef083&ref_=as_li_ss_tl",
@@ -26,10 +26,10 @@ export const MPESB_BOOK_LINKS = {
   LUCENT_HINDI: "https://www.amazon.in/Lucents-Samanya-Gyan-General-Knowledge/dp/B0H9YWR411?crid=1255NHHOV3AQL&dib=eyJ2IjoiMSJ9.TNftVf6msRjczKAEirlX0wlqa65V3csauLDKrosC-GpYr4gxJylyKt2fxsQdmylsU7KEpRVsF6y2RGGd-obYy4ADORzLWa2pdGBozvHzfxBm3pp0mfQdjDmrTc1QxItYildvsC4OY70HItC4jN1CA2VR_CMELsHHrDl6LX1wpDHhLi1dl1CbeydG04-1jygPEw8rnm3esqk6eBj_aAGza8TqxofMTIVzwKLaq4Zrr6Q.PZFIxxjWNQyX2DS-ZgKGOA2zQux1wIDm3Zb1O9vohEg&dib_tag=se&keywords=Lucent%27s+Samanya+Hindi+%2F+Arihant+Samanya+Hindi&qid=1788086909&sprefix=lucent%27s+samanya+hindi+%2F+arihant+samanya+hindi%2Caps%2C260&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=2203b02fd8e40ed60f073e5058679e6a&ref_=as_li_ss_tl",
   NCERT_SCIENCE: "https://www.amazon.in/Study-Package-Science-Objective-Questions/dp/9389187745?crid=25OR3L6CSRTYE&dib=eyJ2IjoiMSJ9.ipgjD6iWItHeTjX9_O7y3jJPw4xXfiiVZ-C-_UzhxoE5XLTuej0Y-7nNIRtPC2r-A8aX86GTZkeHnc0-6JPlDJW9_8jDMrLleCl0Se_zYEgwINVxAOp7M27UpUdQmasy9vLQL10mkBAGhTrWtW04NYjrt3D1um6LAx44u3EfXNxUDjXjbgoBy5NiOwziJ_OteX6Q20tmb7_p_T4FpqlZ6dRHTGHqtKuP57PF8bYSlBB4.bwYFtgnRRENY1cHLqGxraYjNw5UCl9dOyvxS-AiwT-o&dib_tag=se&keywords=NCERT+Class+9+%26+10+Science+%2B+Objective+Practice&nsdOptOutParam=true&qid=1788086980&sprefix=ncert+class+9+%26+10+science+%2B+objective+practice%2Caps%2C269&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=e5063b88515a2fa744d2c28442f2501a&ref_=as_li_ss_tl",
   COMPUTER_AWARENESS: "https://www.amazon.in/Arihant-Computer-Awareness-Revised-Flowcharts/dp/9368405069?crid=1GKG61INS8KEI&dib=eyJ2IjoiMSJ9.cocIbOfHucOL-kwTsrGE8y1AqaQY4yyeePxgK0G4uGb5SvkjVnTUJI4nYSKQxmbRXFfzyPrWJ6Vkd1ePWiCz8ukGr7lLyPn-9vZN-XQnK4_Wgse6GHWpTO3LdUdWE0rj0GSNik77s1x0-q6X982nyKDm7xll1l9-sMuWc0wD-8qrL1VVSjraO34O2UqG1AZwG_E1Qn9tqz-Wk5l-b6eO9a47DbSds_oIRCsxYSE5MTg.dFyZ-YiSSZkL85xBTe_GOydnFn9v2AYrcR8I60IAuY0&dib_tag=se&keywords=Arihant+%2F+Lucent%27s+Computer+Awareness+%2F+Pariksha+Manthan&nsdOptOutParam=true&qid=1788087053&sprefix=arihant+%2F+lucent%27s+computer+awareness+%2F+pariksha+manthan%2Caps%2C312&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=439911cf3ff849c347d60e7db55bee77&ref_=as_li_ss_tl",
-  CIVIL_ENGG_BOOK: "https://www.amazon.in/s?k=Civil+Engineering+Handbook+MCQs+Youth+Competition+Times&tag=newvacancyale-21",
-  MECH_ENGG_BOOK: "https://www.amazon.in/s?k=Mechanical+Engineering+Objective+Book+RK+Jain+RS+Khurmi&tag=newvacancyale-21",
-  ELECT_ENGG_BOOK: "https://www.amazon.in/s?k=Electrical+Engineering+Objective+Book+JB+Gupta+VK+Mehta&tag=newvacancyale-21",
-  CS_ENGG_BOOK: "https://www.amazon.in/s?k=Computer+Science+IT+Objective+MCQ+Made+Easy&tag=newvacancyale-21"
+  CIVIL_ENGG_BOOK: "https://www.amazon.in/Competition-Engineering-Chapterwise-Objective-Questions/dp/B0H25XX8TB?crid=1XH8KA220TTWX&dib=eyJ2IjoiMSJ9.c-b4Ga8Iq2wCsxrut0IcGg8T8zWBZf5CEp_nOWml27Y1U3HyYAXu4AFQK58pdmThd0AlsIRLCqUOJmrw3zO_OUfObxiSYkvycOxTyf8PsaRdKd_TU8mfHt-tgChqyflSm6HIfLT13mlyjnVbJLyL3_GF9_-fEddGfoe2uSZf74wmA5XmU7kA5aoANNv8Fg_qH_cSyPnGzvpxkeTp3Y2NJSpsagqnDqkRAbR-iDJcHFs.o6yJumnEhffO0rBCKj89D2UFY5XGab6VbHcxVlnC2CE&dib_tag=se&keywords=Youth+Competition+Times+%28YCT%29+Civil+Engineering+%2F+Made+Easy+Objective&nsdOptOutParam=true&qid=1788087406&sprefix=youth+competition+times+yct+civil+engineering+%2F+made+easy+objective%2Caps%2C283&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=d84545eec77a612b01a54d543ca8badc&ref_=as_li_ss_tl",
+  MECH_ENGG_BOOK: "https://www.amazon.in/Conventional-Mechanical-Engineering-Competitions-Preparation/dp/938739476X?crid=11KZS2403LW6B&dib=eyJ2IjoiMSJ9.nFCznzobuN57FTSL72jHCglz7NHjYalgQ5zCES-w66wTqI8HKzEuJ_zt5eEkEhPkJI1T8ixqioXX6VAduYHN0nVbrXZw4IdUv_4gkeqhkj2qVMygpwQ0nFT_KBpxoGOjvM1u3tuO1OsofwOH1oYJYYJ3SIbnsboN-4U-TgashX0cQkaPbkiAd_cd6k9SOXgvFNQyBFzLHv-ZcyOR5-5_Kx1-CMUarNYW7c28k0dLuT0.z9pa7fB6vkQkytqh4aCBamRHBHSwPPsCnUdNzqCcDC0&dib_tag=se&keywords=R.K.+Jain+Objective+%2F+R.S.+Khurmi+Mechanical+Engineering&nsdOptOutParam=true&qid=1788087440&sprefix=r.k.+jain+objective+%2F+r.s.+khurmi+mechanical+engineering%2Caps%2C249&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=fb0c6e6f45e9ecc9383dd69647e172f5&ref_=as_li_ss_tl",
+  ELECT_ENGG_BOOK: "https://www.amazon.in/Objective-Electrical-Technology-Questions-BOOK/dp/B0FC2RTJ5H?crid=2LX4RHCRWKI3N&dib=eyJ2IjoiMSJ9.1qflvrgatmNjkq4wLF-Cucl8drEISg2t9rEkTlgO16OxfVerWxKN3weSObqdomWyurvk31VHTwoT_KlxGkmljnC7fUtHXLjA8YJ9Ib1v5Pm6SZjdIhy6xxQpd2z_a3RPTGw9WP5SHniztlWKTeJuujoaXEC3WHy78_FAv9t6bXeCckSR5kz8mU19tz4DssrLJdTGUji1Vcc44l6avnGZNZw7QWsULZZHnuUOBNQlvok.Qej8fm8MitLAFywcIlCyQtzuQVcWl7dJz3K_CX-7ssQ&dib_tag=se&keywords=J.B.+Gupta+Objective+%2F+V.K.+Mehta+Electrical+Engineering&nsdOptOutParam=true&qid=1788087478&sprefix=j.b.+gupta+objective+%2F+v.k.+mehta+electrical+engineering%2Caps%2C245&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=40f89d9d65959db54a7f4638694c0af2&ref_=as_li_ss_tl",
+  CS_ENGG_BOOK: "https://www.amazon.in/Mcq-Cs-ME-Editorial-Board/dp/9351473260?crid=2NBS5D3WSETCV&dib=eyJ2IjoiMSJ9.0QeaehK1MbZ5xdH6M8oFtw.SNdQhdhDuQdVbUfM5-aIyjbYr_ktEQBze20dVkXGniE&dib_tag=se&keywords=Made+Easy+%2F+Arihant+CS+%26+IT+Objective&nsdOptOutParam=true&qid=1788087509&sprefix=made+easy+%2F+arihant+cs+%26+it+objective%2Caps%2C266&sr=8-1&linkCode=ll2&tag=newvacancyale-21&linkId=3c13fccbb56c1e98aadd029ebafdb8a7&ref_=as_li_ss_tl"
 };
 
 export default function MpesbBestBooksPage() {
@@ -713,23 +713,49 @@ export default function MpesbBestBooksPage() {
               <Wrench className="w-5 h-5" /> Discipline-Wise Recommended Books for Sub Engineer:
             </h3>
 
-            <div className="grid md:grid-cols-3 gap-3.5 text-xs">
-              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-1.5">
-                <span className="font-black text-cyan-300 block text-sm">Civil Engineering</span>
-                <p className="text-slate-300">Building Materials, Surveying, Strength of Materials (SOM), RCC & Steel Design, Hydraulics, Soil Mechanics, Highway Engg.</p>
-                <p className="text-amber-300 font-bold pt-1">Recommended: Youth Competition Times Civil Engg / Made Easy Objective</p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3.5 text-xs">
+              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-2 flex flex-col justify-between">
+                <div className="space-y-1.5">
+                  <span className="font-black text-cyan-300 block text-sm">Civil Engineering</span>
+                  <p className="text-slate-300">Building Materials, Surveying, Strength of Materials (SOM), RCC & Steel Design, Hydraulics, Soil Mechanics, Highway Engg.</p>
+                  <p className="text-amber-300 font-bold pt-1">Youth Competition Times (YCT) / Made Easy</p>
+                </div>
+                <a href={MPESB_BOOK_LINKS.CIVIL_ENGG_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon
+                </a>
               </div>
 
-              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-1.5">
-                <span className="font-black text-emerald-300 block text-sm">Mechanical Engineering</span>
-                <p className="text-slate-300">Engineering Mechanics, SOM, Thermodynamics, IC Engines, Fluid Mechanics, Theory of Machines, Manufacturing Science.</p>
-                <p className="text-amber-300 font-bold pt-1">Recommended: R.K. Jain Objective / R.S. Khurmi Mechanical</p>
+              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-2 flex flex-col justify-between">
+                <div className="space-y-1.5">
+                  <span className="font-black text-emerald-300 block text-sm">Mechanical Engineering</span>
+                  <p className="text-slate-300">Engineering Mechanics, SOM, Thermodynamics, IC Engines, Fluid Mechanics, Theory of Machines, Manufacturing Science.</p>
+                  <p className="text-amber-300 font-bold pt-1">R.K. Jain Objective / R.S. Khurmi</p>
+                </div>
+                <a href={MPESB_BOOK_LINKS.MECH_ENGG_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon
+                </a>
               </div>
 
-              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-1.5">
-                <span className="font-black text-purple-300 block text-sm">Electrical Engineering</span>
-                <p className="text-slate-300">Circuits & Fields, AC/DC Machines, Power Systems, Transmission & Distribution, Measurements, Power Electronics, Control.</p>
-                <p className="text-amber-300 font-bold pt-1">Recommended: J.B. Gupta Objective / V.K. Mehta Electrical</p>
+              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-2 flex flex-col justify-between">
+                <div className="space-y-1.5">
+                  <span className="font-black text-purple-300 block text-sm">Electrical Engineering</span>
+                  <p className="text-slate-300">Circuits & Fields, AC/DC Machines, Power Systems, Transmission & Distribution, Measurements, Power Electronics, Control.</p>
+                  <p className="text-amber-300 font-bold pt-1">J.B. Gupta Objective / V.K. Mehta</p>
+                </div>
+                <a href={MPESB_BOOK_LINKS.ELECT_ENGG_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon
+                </a>
+              </div>
+
+              <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 space-y-2 flex flex-col justify-between">
+                <div className="space-y-1.5">
+                  <span className="font-black text-rose-300 block text-sm">Computer Science & IT</span>
+                  <p className="text-slate-300">Data Structures, DBMS, Computer Networks, Operating Systems, Software Engg, Programming in C/C++, Web Tech.</p>
+                  <p className="text-amber-300 font-bold pt-1">Made Easy / Arihant CS Objective</p>
+                </div>
+                <a href={MPESB_BOOK_LINKS.CS_ENGG_BOOK} target="_blank" rel="noopener noreferrer nofollow" className="mt-2 w-full py-1.5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-lg flex items-center justify-center gap-1 transition">
+                  <ShoppingCart className="w-3.5 h-3.5" /> Buy on Amazon
+                </a>
               </div>
             </div>
           </div>
