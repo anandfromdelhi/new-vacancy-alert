@@ -58,7 +58,9 @@ def update_job_entry(json_filepath):
         closing_found = False
         for dt in dates:
             ev = dt.get("event", "").lower()
-            if any(k in ev for k in ["last date", "closing", "end date", "submission", "deadline", "walk-in", "receipt"]):
+            if any(k in ev for k in ["start", "commence", "release", "opening", "begins"]):
+                continue
+            if any(k in ev for k in ["last date", "closing", "end date", "deadline", "walk-in", "receipt", "submission"]):
                 last_date = dt.get("date", "")
                 closing_found = True
                 break

@@ -4336,13 +4336,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "sbi-junior-associate-clerk-recruitment-2026",
-    "b": "State Bank of India (SBI)",
-    "t": "SBI Junior Associate (Customer Support & Sales) Recruitment 2026 – Apply Online for 9,766 Posts",
+    "b": "State Bank of India (SBI), Corporate Centre, Mumbai",
+    "t": "SBI Junior Associate (Customer Support & Sales) Recruitment 2026 – Apply Online for 9,766 Vacancies (Advt No: CRPD/CR/2026-27/17)",
     "d": "11 August 2026",
     "l": "31 August 2026",
     "a": "CRPD/CR/2026-27/17",
     "q": "Graduation in any discipline (Passing on or before 31.12.2026)",
-    "desc": "SBI invites online applications for 9,766 Junior Associates (7,680 Regular + 2,086 Backlog) in clerical cadre across 24 States/UTs. Starting basic ₹26,730 (Gross ~₹46,000/mo).",
+    "desc": "State Bank of India (SBI), the country's premier public commercial bank recognized as the World's Best Consumer Bank 2026, has released official notification Advt. No. CRPD/CR/2026-27/17 for the recruitment of Junior Associates (Customer Support & Sales) in the clerical cadre.",
     "u": "https://sbi.bank.in/web/careers/current-openings"
 },
   {
