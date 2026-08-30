@@ -22,6 +22,7 @@ const ContactPage = lazy(() => import('./pages/ContactPage'));
 const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
 const SalaryCalculatorArticle = lazy(() => import('./pages/SalaryCalculatorArticle'));
 const RrbNtpcBestBooksPage = lazy(() => import('./pages/RrbNtpcBestBooksPage'));
+const MpesbBestBooksPage = lazy(() => import('./pages/MpesbBestBooksPage'));
 
 // SSC CGL Master Guide Hub & 7 Child Chapter Articles
 const SscCglMasterGuidePage = lazy(() => import('./pages/ssc-cgl/SscCglMasterGuidePage'));
@@ -118,6 +119,9 @@ export default function App() {
                   <Route path="rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />
                   <Route path="best-books-for-rrb-ntpc" element={<RrbNtpcBestBooksPage />} />
                   <Route path="rrb-ntpc-best-books" element={<Navigate to="/best-books-for-rrb-ntpc" replace />} />
+                  <Route path="best-books-for-mpesb" element={<MpesbBestBooksPage />} />
+                  <Route path="best-books-for-mpesb-group-3" element={<Navigate to="/best-books-for-mpesb" replace />} />
+                  <Route path="mpesb-best-books" element={<Navigate to="/best-books-for-mpesb" replace />} />
                   <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
                   <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
 

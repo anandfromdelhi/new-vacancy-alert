@@ -138,6 +138,20 @@ const ARTICLES_LIST: ArticleItem[] = [
     views: '38.4K Views'
   },
   {
+    id: 'best-books-for-mpesb',
+    slug: '/best-books-for-mpesb',
+    title: 'Best Books for MPESB 2026: Subject-Wise Best Books for MPESB Group 3 Preparation',
+    excerpt: 'Complete guide to the best books for MPESB 2026: Subject-wise breakdown for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer, and Group 3 Sub Engineer technical preparation.',
+    category: 'General',
+    author: 'NewVacancyAlert Editorial Team',
+    date: '30th August 2026',
+    readTime: '18 min read',
+    featured: true,
+    badge: '🔥 State Exam Guide',
+    icon: BookOpen,
+    views: '24.8K Views'
+  },
+  {
     id: 'aiims-norcet-11-cutoff',
     slug: '/aiims-norcet-11-nursing-officer-2026/cutoff',
     title: 'AIIMS NORCET 11 Expected Cutoff Marks & Rank Analysis 2026',

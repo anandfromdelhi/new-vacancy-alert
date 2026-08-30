@@ -85,6 +85,11 @@ export function getPageMetaData(urlPath: string) {
     description = "Complete guide to the best books for RRB NTPC 2026 preparation: Detailed subject-wise breakdown for Mathematics, Reasoning, General Awareness, PYQs, and CBT 1 & CBT 2 study strategies.";
     ogUrl = "https://newvacancyalert.in/best-books-for-rrb-ntpc";
   }
+  else if (cleanPath === "best-books-for-mpesb" || cleanPath === "best-books-for-mpesb-group-3" || cleanPath === "mpesb-best-books") {
+    title = "Best Books for MPESB 2026: Subject-Wise Books for MPESB Group 3 Preparation | NewVacancyAlert";
+    description = "Looking for the best books for MPESB 2026? Check the best MPESB books for GK, MP GK, Maths, Reasoning, Hindi, English, Science, Computer and Group 3 technical preparation.";
+    ogUrl = "https://newvacancyalert.in/best-books-for-mpesb";
+  }
   else if (cleanPath === "articles") {
     title = "Syllabus, Exam Strategy & Recruitment Guides | NewVacancyAlert";
     description = "Read expert articles on government job preparations, exam patterns, cutoff trends, and career advice.";
