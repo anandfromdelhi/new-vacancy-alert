@@ -28,7 +28,7 @@ import { useNavigationLoader } from '../context/NavigationContext';
 import { 
   Search, Clock, ArrowRight, Building2, GraduationCap, MapPin, 
   Sparkles, RotateCcw, AlertCircle, ChevronRight, CheckCircle2, 
-  HelpCircle, Facebook, Instagram, BookOpen
+  HelpCircle, Facebook, Instagram, BookOpen, LayoutGrid, Maximize2, X
 } from 'lucide-react';
 
 function parseDateString(dateStr: string): Date {
@@ -199,6 +199,8 @@ export default function HomePage() {
   const [isHeroScrolledPast, setIsHeroScrolledPast] = useState(false);
   const [activeSectionSlug, setActiveSectionSlug] = useState<string>('');
   const [visibleBoardCount, setVisibleBoardCount] = useState<number>(24);
+  const [isSectionPickerOpen, setIsSectionPickerOpen] = useState(false);
+  const [pickerSearchQuery, setPickerSearchQuery] = useState('');
 
   const heroRef = useRef<HTMLDivElement>(null);
   const bottomBarNavRef = useRef<HTMLDivElement>(null);
@@ -309,6 +311,27 @@ export default function HomePage() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  };
+
+  const handleSelectSection = (slug: string) => {
+    setIsSectionPickerOpen(false);
+    setPickerSearchQuery('');
+    setActiveSectionSlug(slug);
+
+    // If target section is beyond current visibleBoardCount on board tab, expand count
+    if (activeTab === 'board') {
+      const targetIndex = currentSections.findIndex(s => s.slug === slug);
+      if (targetIndex >= visibleBoardCount) {
+        setVisibleBoardCount(Math.ceil((targetIndex + 1) / 24) * 24);
+      }
+    }
+
+    setTimeout(() => {
+      const element = document.getElementById(`section-${slug}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 40);
   };
 
   return (
@@ -768,12 +791,16 @@ export default function HomePage() {
       {currentSections.length > 0 && (
         <div className="fixed bottom-3 inset-x-0 mx-auto z-40 w-[94%] max-w-lg lg:hidden transition-all duration-300 pointer-events-auto">
           <div className="bg-slate-900/95 backdrop-blur-md text-white rounded-2xl p-2 shadow-2xl border border-slate-700/90 flex items-center gap-2">
-            {/* Quick Icon Indicator */}
-            <div className="shrink-0 pl-1.5 pr-0.5 flex items-center">
-              {activeTab === 'qualification' && <GraduationCap className="w-4 h-4 text-blue-400 shrink-0" />}
-              {activeTab === 'state' && <MapPin className="w-4 h-4 text-amber-400 shrink-0" />}
-              {activeTab === 'board' && <Building2 className="w-4 h-4 text-emerald-400 shrink-0" />}
-            </div>
+            {/* Expand / Grid Button: Opens full scrollable section picker popup */}
+            <button
+              type="button"
+              onClick={() => setIsSectionPickerOpen(true)}
+              className="shrink-0 p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-600 text-emerald-400 border border-slate-700 hover:border-emerald-500/60 shadow-xs transition-all cursor-pointer flex items-center justify-center group"
+              title="View All Sections"
+              aria-label="View All Sections"
+            >
+              <LayoutGrid className="w-4 h-4 group-hover:scale-110 transition-transform" />
+            </button>
 
             {/* Horizontally scrolling pill list */}
             <div 
@@ -802,6 +829,101 @@ export default function HomePage() {
                   </button>
                 );
               })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Section Picker Bottom Sheet Modal (Opens on expand icon click) */}
+      {isSectionPickerOpen && (
+        <div className="fixed inset-0 z-50 flex flex-col justify-end bg-black/60 backdrop-blur-xs transition-opacity lg:hidden animate-fadeIn">
+          {/* Backdrop click to dismiss */}
+          <div 
+            className="fixed inset-0"
+            onClick={() => { setIsSectionPickerOpen(false); setPickerSearchQuery(''); }}
+          />
+
+          {/* Modal Container */}
+          <div className="relative z-10 w-full max-w-lg mx-auto bg-white rounded-t-3xl shadow-2xl border-t border-slate-200 flex flex-col max-h-[82vh] overflow-hidden animate-slideInUp">
+            {/* Modal Header */}
+            <div className="p-4 border-b border-slate-200/90 flex items-center justify-between bg-slate-50/90">
+              <div className="flex items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 border border-emerald-200 shrink-0">
+                  {activeTab === 'qualification' && <GraduationCap className="w-4 h-4" />}
+                  {activeTab === 'state' && <MapPin className="w-4 h-4" />}
+                  {activeTab === 'board' && <Building2 className="w-4 h-4" />}
+                </div>
+                <div className="min-w-0">
+                  <h3 className="text-sm font-black text-slate-800 leading-tight truncate">
+                    All {activeTab === 'qualification' ? 'Qualification' : activeTab === 'state' ? 'State' : 'Board'} Sections
+                  </h3>
+                  <p className="text-[11px] font-bold text-slate-500">
+                    Tap any section to jump directly ({currentSections.length} available)
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => { setIsSectionPickerOpen(false); setPickerSearchQuery(''); }}
+                className="p-1.5 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-200 transition-colors cursor-pointer shrink-0"
+                aria-label="Close section picker"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Live Filter Search inside Modal */}
+            <div className="p-3 border-b border-slate-100 bg-white">
+              <div className="relative flex items-center">
+                <Search className="absolute left-3 w-4 h-4 text-slate-400" />
+                <input
+                  type="text"
+                  placeholder={`Search ${activeTab === 'qualification' ? 'qualifications' : activeTab === 'state' ? 'states' : 'boards'}...`}
+                  value={pickerSearchQuery}
+                  onChange={(e) => setPickerSearchQuery(e.target.value)}
+                  className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:bg-white"
+                />
+                {pickerSearchQuery && (
+                  <button
+                    type="button"
+                    onClick={() => setPickerSearchQuery('')}
+                    className="absolute right-2.5 text-slate-400 hover:text-slate-600 p-1"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Scrollable Section Items List */}
+            <div className="p-3 overflow-y-auto space-y-1.5 max-h-[58vh]">
+              {currentSections
+                .filter(sec => 
+                  !pickerSearchQuery || 
+                  sec.name.toLowerCase().includes(pickerSearchQuery.toLowerCase().trim())
+                )
+                .map((sec) => {
+                  const isActive = activeSectionSlug === sec.slug;
+                  return (
+                    <button
+                      key={`modal-item-${sec.slug}`}
+                      type="button"
+                      onClick={() => handleSelectSection(sec.slug)}
+                      className={`w-full p-3 rounded-xl flex items-center justify-between text-left transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-emerald-500 text-slate-950 font-black shadow-xs ring-1 ring-emerald-400'
+                          : 'bg-slate-50 hover:bg-blue-50/70 text-slate-800 font-extrabold hover:text-blue-700 border border-slate-200/80'
+                      }`}
+                    >
+                      <span className="text-xs">{sec.name}</span>
+                      <span className={`text-[10px] px-2 py-0.5 rounded-full font-black ${
+                        isActive ? 'bg-emerald-700 text-white' : 'bg-white text-slate-600 border border-slate-200'
+                      }`}>
+                        {sec.count} {sec.count === 1 ? 'Job' : 'Jobs'}
+                      </span>
+                    </button>
+                  );
+                })}
             </div>
           </div>
         </div>
