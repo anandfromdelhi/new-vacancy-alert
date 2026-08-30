@@ -4051,14 +4051,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "sbi-junior-associate-clerk-recruitment-2026",
     "b": "State Bank of India (SBI)",
-    "t": "SBI Junior Associate (Customer Support & Sales) Recruitment 2026 – Apply Online for 7,680 Regular & 2,086 Backlog Vacancies",
+    "t": "SBI Junior Associate (Customer Support & Sales) Recruitment 2026 – Apply Online for 9,766 Posts",
     "d": "11 August 2026",
     "l": "31 August 2026",
     "a": "CRPD/CR/2026-27/17",
-    "q": "Graduation in any discipline from a recognized University",
-    "desc": "State Bank of India (SBI), Central Recruitment & Promotion Department (CRPD), Corporate Centre, Mumbai has released Advertisement No. CRPD/CR/2026-27/17 for the recruitment of Junior Associates (Customer Support & Sales) in clerical cadre across various circles in India.",
+    "q": "Graduation in any discipline (Passing on or before 31.12.2026)",
+    "desc": "SBI invites online applications for 9,766 Junior Associates (7,680 Regular + 2,086 Backlog) in clerical cadre across 24 States/UTs. Starting basic ₹26,730 (Gross ~₹46,000/mo).",
     "u": "https://sbi.bank.in/web/careers/current-openings"
-  },
+},
   {
     "id": "bmc-mumbai-shikshan-sevak-recruitment-2026",
     "b": "Brihanmumbai Municipal Corporation (BMC / MCGM) – Education Department, Mumbai",
