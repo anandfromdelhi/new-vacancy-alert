@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iim-indore-project-engineers-experts-recruitment-2026",
+    "b": "Indian Institute of Management Indore (IIM Indore)",
+    "t": "IIM Indore Recruitment 2026 – Apply for 107 Project Engineers, Experts & Project Manager Posts",
+    "d": "28 August 2026",
+    "l": "07 September 2026",
+    "a": "Advertisement for Project Positions",
+    "q": "B.Tech (3rd/4th Yr or Freshers) / ITI / PG / Ph.D. in Engg/Management",
+    "desc": "IIM Indore invites email applications for 107 project positions (90 B.Tech/ITI Engineers, 10 Experts, 4 Advisors, 2 M&E, 1 PM). Excellent consolidated remuneration.",
+    "u": "https://iimidr.ac.in/careers/advertisement-for-project-positions/"
+},
+  {
     "id": "osssc-radiographer-recruitment-2026",
     "b": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
     "t": "OSSSC Radiographer Recruitment 2026 – Apply Online for 240 District Cadre Group-C Posts",
@@ -318,17 +329,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduate from any branch, Computer knowledge certificate",
     "desc": "Ratnagiri District Court has officially released employment advertisement notification RATNAGIRI-DIST/2026 for the recruitment of 1 vacancies for Contractual Employee for e-Seva Kendra Port Cabins posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec04dbb422937d7ff56e049d61da730b/uploads/2026/08/2026082831.pdf"
-},
-  {
-    "id": "indian-institute-of-management-107-recruitment-2026",
-    "b": "Indian Institute of Management Indore (IIM Indore)",
-    "t": "Indian Institute of Management Indore (IIM Indore) Recruitment 2026 – Apply for 107 107 Posts",
-    "d": "30 August 2026",
-    "l": "7 September 2026",
-    "a": "Advertisement for Project Positions",
-    "q": "Indian nationals, qualification and experience varying by position",
-    "desc": "Indian Institute of Management Indore (IIM Indore) has officially released employment advertisement notification Advertisement for Project Positions for the recruitment of 107 vacancies for 107 posts.",
-    "u": "https://iimidr.ac.in"
 },
   {
     "id": "office-of-the-principal-distri-typist-peon-and-more-recruitment-2026",
