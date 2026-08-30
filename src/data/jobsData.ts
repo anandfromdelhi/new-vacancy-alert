@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "asc-centre-south-bangalore-gro-fireman-librarian-and-more-recruitment-2026",
+    "b": "ASC Centre South Bangalore Group C",
+    "t": "ASC Centre South Bangalore Group C Recruitment 2026 – Apply for 31 Fireman, Librarian and More Posts",
+    "d": "30 August 2026",
+    "l": "18 September 2026",
+    "a": "ASC-CENTRE-SOU/2026",
+    "q": "Matriculation 10th or equivalent + post-specific requirements",
+    "desc": "ASC Centre South Bangalore Group C has officially released employment advertisement notification ASC-CENTRE-SOU/2026 for the recruitment of 31 vacancies for Fireman, Librarian and More posts.",
+    "u": "https://indianarmy.nic.in"
+},
+  {
+    "id": "beml-limited-a-government-of-i-non-executive-on-tenure-basis-recruitment-2026",
+    "b": "BEML Limited (A Government of India Undertaking, Ministry of Defence)",
+    "t": "BEML Limited (A Government of India Undertaking, Ministry of Defence) Recruitment 2026 – Apply for 10 Non Executive on Tenure Basis Posts",
+    "d": "30 August 2026",
+    "l": "8 September 2026, up to 18:00 Hrs",
+    "a": "KP/S/14/2026 (Draft Advt)",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "BEML Limited (A Government of India Undertaking, Ministry of Defence) has officially released employment advertisement notification KP/S/14/2026 (Draft Advt) for the recruitment of 10 vacancies for Non Executive on Tenure Basis posts.",
+    "u": "https://bemlindia.in/wp-content/plugins/career/WCP/DATA//Writereaddata/Career/KP_S_14_2026Final.pdf"
+},
+  {
+    "id": "srinagar-district-court-process-server-orderly-chowkid-recruitment-2026",
+    "b": "Srinagar District Court",
+    "t": "Srinagar District Court Recruitment 2026 – Apply for 17 Process Server, Orderly, Chowkidar Posts",
+    "d": "30 August 2026",
+    "l": "22 September 2026",
+    "a": "04",
+    "q": "10+2 from recognised Board, 10th Pass from recognised Board",
+    "desc": "Srinagar District Court has officially released employment advertisement notification 04 for the recruitment of 17 vacancies for Process Server, Orderly, Chowkidar posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec04d494020ff8ec181ef98ed97ac3f2/uploads/2026/08/2026082382.pdf"
+},
+  {
+    "id": "himachal-pradesh-jal-shakti-vi-para-pump-operator-para-fitter-recruitment-2026",
+    "b": "Himachal Pradesh Jal Shakti Vibhag",
+    "t": "Himachal Pradesh Jal Shakti Vibhag Recruitment 2026 – Apply for 12 Para Pump Operator, Para Fitter, Multipurpose Worker, Para Cook, Para Helper Posts",
+    "d": "30 August 2026",
+    "l": "21 September 2026",
+    "a": "HIMACHAL-PRADE/2026",
+    "q": "Matriculation, ITI, Middle Pass, Degree/Diploma.",
+    "desc": "Himachal Pradesh Jal Shakti Vibhag has officially released employment advertisement notification HIMACHAL-PRADE/2026 for the recruitment of 12 vacancies for Para Pump Operator, Para Fitter, Multipurpose Worker, Para Cook, Para Helper posts.",
+    "u": "https://jsv.hp.gov.in/"
+},
+  {
+    "id": "national-innovation-foundation-scientist-recruitment-2026",
+    "b": "National Innovation Foundation India (NIF)",
+    "t": "National Innovation Foundation India (NIF) Recruitment 2026 – Apply for 10 Scientist Posts",
+    "d": "30 August 2026",
+    "l": "29-09-2026",
+    "a": "02/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "National Innovation Foundation India (NIF) has officially released employment advertisement notification 02/2026 for the recruitment of 10 vacancies for Scientist posts.",
+    "u": "https://www.nif.org.in"
+},
+  {
+    "id": "gujarat-police-lokrakshak-cadr-3000-recruitment-2026",
+    "b": "Gujarat Police Lokrakshak Cadre",
+    "t": "Gujarat Police Lokrakshak Cadre Recruitment 2026 – Apply for 0 3,000 Posts",
+    "d": "30 August 2026",
+    "l": "Refer Official Notification",
+    "a": "GUJARAT-POLICE/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Gujarat Police Lokrakshak Cadre has officially released employment advertisement notification GUJARAT-POLICE/2026 for the recruitment of 0 vacancies for 3,000 posts.",
+    "u": "https://gprb.gujarat.gov.in/"
+},
+  {
+    "id": "indian-institute-of-technology-sports-coach-recruitment-2026",
+    "b": "Indian Institute of Technology Goa (IIT Goa)",
+    "t": "Indian Institute of Technology Goa (IIT Goa) Recruitment 2026 – Apply for 3 Sports Coach Posts",
+    "d": "30 August 2026",
+    "l": "07 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Graduate in Physical Education, NIS coaching diploma / NIS certificate course...",
+    "desc": "Indian Institute of Technology Goa (IIT Goa) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 3 vacancies for Sports Coach posts.",
+    "u": "https://iitgoa.ac.in/wp-content/uploads/IITGoaRECTNT-CON2026-08.pdf"
+},
+  {
+    "id": "reserve-bank-of-india-rbi-banks-medical-consultant-recruitment-2026",
+    "b": "Reserve Bank of India (RBI)",
+    "t": "Reserve Bank of India (RBI) Recruitment 2026 – Apply for 1 Bank's Medical Consultant Posts",
+    "d": "30 August 2026",
+    "l": "16 September 2026",
+    "a": "RESERVE-BANK-O/2026",
+    "q": "MBBS degree recognized by Medical Council of India with minimum 2 years post ...",
+    "desc": "Reserve Bank of India (RBI) has officially released employment advertisement notification RESERVE-BANK-O/2026 for the recruitment of 1 vacancies for Bank's Medical Consultant posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/BMCGOA260620266F24CBFC1D5A4796AE5C835CFDABD23A.PDF"
+},
+  {
+    "id": "national-jute-board-njb-consultant-and-young-professio-recruitment-2026",
+    "b": "National Jute Board (NJB)",
+    "t": "National Jute Board (NJB) Recruitment 2026 – Apply for 14 Consultant and Young Professional Posts",
+    "d": "30 August 2026",
+    "l": "18 September 2026",
+    "a": "NATIONAL-JUTE-/2026",
+    "q": "Retired from Govt. posts, CA/CMA/B.Com with MBA, MBA (Marketing), M.Tech/ME.",
+    "desc": "National Jute Board (NJB) has officially released employment advertisement notification NATIONAL-JUTE-/2026 for the recruitment of 14 vacancies for Consultant and Young Professional posts.",
+    "u": "https://www.jute.com"
+},
+  {
+    "id": "directorate-of-enforcement-additional-director-of-enforce-recruitment-2026",
+    "b": "Directorate of Enforcement",
+    "t": "Directorate of Enforcement Recruitment 2026 – Apply for 38 Additional Director of Enforcement and Joint Director of Enforcement Posts",
+    "d": "30 August 2026",
+    "l": "28 September 2026",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
+    "desc": "Directorate of Enforcement has officially released employment advertisement notification DIRECTORATE-OF/2026 for the recruitment of 38 vacancies for Additional Director of Enforcement and Joint Director of Enforcement posts.",
+    "u": "https://www.enforcementdirectorate.gov.in/"
+},
+  {
     "id": "employee-state-insurance-corpo-scientist-grade-i-embryologist-recruitment-2026",
     "b": "Employee State Insurance Corporation Delhi (ESIC Delhi)",
     "t": "Employee State Insurance Corporation Delhi (ESIC Delhi) Recruitment 2026 – Apply for 1 Scientist Grade-I (Embryologist) Posts",
