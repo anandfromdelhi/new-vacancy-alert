@@ -933,6 +933,7 @@ export default function AdminPage() {
                     <th className="py-3 px-3 w-28">Status</th>
                     <th className="py-3 px-3 w-32">Upload Date</th>
                     <th className="py-3 px-3 min-w-[260px]">Job Title & Post</th>
+                    <th className="py-3 px-3 min-w-[240px]">Job URL</th>
                     <th className="py-3 px-3 min-w-[180px]">Organization / Board</th>
                     <th className="py-3 px-3 text-center w-28">
                       <div className="flex items-center justify-center gap-1">
@@ -949,7 +950,7 @@ export default function AdminPage() {
                 <tbody className="divide-y divide-slate-200/70">
                   {paginatedJobs.length === 0 ? (
                     <tr>
-                      <td colSpan={9} className="py-12 text-center text-slate-400 font-medium">
+                      <td colSpan={10} className="py-12 text-center text-slate-400 font-medium">
                         No job notifications matched the selected filters.
                       </td>
                     </tr>
@@ -995,6 +996,39 @@ export default function AdminPage() {
                             <span className="text-[10px] text-slate-400 font-mono block mt-0.5">
                               /{job.id}
                             </span>
+                          </td>
+
+                          {/* Job URL & Copy Button */}
+                          <td className="py-3 px-3">
+                            <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg p-1.5 max-w-[280px]">
+                              <span
+                                className="text-[11px] font-mono text-slate-600 truncate flex-1 select-all"
+                                title={`https://newvacancyalert.in/${job.id}`}
+                              >
+                                https://newvacancyalert.in/{job.id}
+                              </span>
+                              <button
+                                onClick={() => handleCopyLink(job.id || '')}
+                                className={`px-2 py-1 rounded-md text-[10px] font-bold flex items-center gap-1 transition shrink-0 ${
+                                  copiedSlug === job.id
+                                    ? 'bg-emerald-600 text-white shadow-xs'
+                                    : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 shadow-2xs'
+                                }`}
+                                title="Copy Full URL"
+                              >
+                                {copiedSlug === job.id ? (
+                                  <>
+                                    <Check className="w-3 h-3 text-white" />
+                                    <span>Copied</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <Copy className="w-3 h-3 text-slate-500" />
+                                    <span>Copy</span>
+                                  </>
+                                )}
+                              </button>
+                            </div>
                           </td>
 
                           {/* Board */}
