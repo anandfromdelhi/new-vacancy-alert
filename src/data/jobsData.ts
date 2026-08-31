@@ -156,14 +156,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "bpsc-tre-4-school-teacher-recruitment-2026",
-    "b": "Bihar Public Service Commission (BPSC) / Education Department, Bihar",
-    "t": "BPSC TRE 4.0 Recruitment 2026 Notification Out for 32,388 School Teacher Posts (Class 1 to 12)",
+    "b": "Bihar Public Service Commission (BPSC), Patna",
+    "t": "BPSC TRE 4.0 School Teacher Recruitment 2026 Notification Out for 32,388 Posts (Class 1 to 12) | Apply Online",
     "d": "18 August 2026",
-    "l": "29 September 2026",
+    "l": "30 September 2026",
     "a": "Advt. No. 14/2026 Dated 18.08.2026",
-    "q": "12th / Degree / PG + D.El.Ed / B.Ed + CTET / BTET / STET",
-    "desc": "Bihar Public Service Commission (BPSC), Patna has released the official Teacher Recruitment Examination 4.0 (TRE-4.0) Notification under Advertisement No. 14/2026 for a massive 32,388 School Teacher vacancies under the Education Department, Government of Bihar.",
-    "u": "https://bpsconline.bihar.gov.in/"
+    "q": "D.El.Ed / B.Ed / 4-Yr B.El.Ed / Master's + CTET / BTET / STET (Level-Wise)",
+    "desc": "Bihar Public Service Commission (BPSC), Patna has officially published the comprehensive 24-page notification (Advt. No. 14/2026) for the Fourth Phase School Teacher Recruitment Examination (TRE-4.0) to fill 32,388 School Teacher vacancies under the Education Department, Government of Bihar.",
+    "u": "https://onlinebpsc.bihar.gov.in"
 },
   {
     "id": "goalpara-district-copyist-recruitment-2026",
