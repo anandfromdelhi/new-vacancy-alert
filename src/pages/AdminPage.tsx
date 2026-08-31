@@ -1034,8 +1034,8 @@ export default function AdminPage() {
       )}
 
       {/* Top Navigation Bar */}
-      <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+      <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-xs w-full">
+        <div className="w-full max-w-[98vw] 2xl:max-w-[99vw] mx-auto px-3 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md">
               <Shield className="w-5 h-5" />
@@ -1076,7 +1076,7 @@ export default function AdminPage() {
         </div>
 
         {/* Navigation Tabs */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-1 overflow-x-auto border-t border-slate-100 pt-1">
+        <div className="w-full max-w-[98vw] 2xl:max-w-[99vw] mx-auto px-3 sm:px-6 lg:px-8 flex items-center gap-1 overflow-x-auto border-t border-slate-100 pt-1">
           <button
             onClick={() => setActiveTab('jobs')}
             className={`flex items-center gap-2 py-2.5 px-4 text-xs font-black uppercase tracking-wider border-b-2 transition whitespace-nowrap ${
@@ -1127,8 +1127,8 @@ export default function AdminPage() {
         </div>
       </header>
 
-      {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 space-y-6">
+      {/* Main Content Area - Full Screen Responsive Width */}
+      <main className="w-full max-w-[98vw] 2xl:max-w-[99vw] mx-auto px-2 sm:px-4 lg:px-6 pt-6 space-y-6">
         {/* Metric Cards Row */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
           <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
@@ -1598,7 +1598,7 @@ export default function AdminPage() {
 
                           {/* Job URL & Copy Button */}
                           <td className="py-3 px-3">
-                            <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg p-1.5 max-w-[280px]">
+                            <div className="flex items-center gap-1.5 bg-slate-50 border border-slate-200/90 rounded-lg p-1.5 w-full min-w-[240px] max-w-[450px]">
                               <span
                                 className="text-[11px] font-mono text-slate-600 truncate flex-1 select-all"
                                 title={`https://newvacancyalert.in/${job.id}`}
