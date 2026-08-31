@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bank-of-india-so-specialist-officers-recruitment-2026",
+    "b": "Bank of India (BOI)",
+    "t": "Bank of India (BOI) SO Recruitment 2026 Notification Out for 205 Specialist Officer Posts (Scale I to IV)",
+    "d": "01 August 2026",
+    "l": "25 September 2026",
+    "a": "Project No. 2026-27/02 Dated 01.08.2026",
+    "q": "B.E. / B.Tech (IT/CS/ECE/Civil/Fire) / MCA / LLB / Graduate",
+    "desc": "Bank of India (BOI), a premier Public Sector Bank headquartered in Mumbai, has published an official recruitment advertisement under Project No. 2026-27/02 on 01 August 2026 for 205 Specialist Officer (SO) vacancies across 48 specialised positions in Scale I, Scale II, Scale III, and Scale IV.",
+    "u": "https://bankofindia.bank.in/"
+},
+  {
+    "id": "tmc-muzaffarpur-quality-manager-supervisor-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC) / Homi Bhabha Cancer Hospital & Research Centre, Muzaffarpur",
+    "t": "Tata Memorial Centre (TMC) Muzaffarpur Recruitment 2026 Notification Out for Quality Manager & Linen Laundry Supervisor Posts",
+    "d": "31 August 2026",
+    "l": "07 September 2026",
+    "a": "Advt. No. OS/MUZ/2026/82 Dated 31.08.2026",
+    "q": "M.Sc / Master in Hospital Admin / Graduate in Science",
+    "desc": "Tata Memorial Centre (TMC), an autonomous grant-in-aid institution under the Department of Atomic Energy, Government of India, has published recruitment advertisement No. OS/MUZ/2026/82 on 31 August 2026 for contractual positions at Homi Bhabha Cancer Hospital and Research Centre, SKMCH Campus, Muzaffarpur, Bihar.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=/KrmvkjGEej4g6Hw/tnm7A=="
+},
+  {
+    "id": "bpsc-tre-4-school-teacher-recruitment-2026",
+    "b": "Bihar Public Service Commission (BPSC) / Education Department, Bihar",
+    "t": "BPSC TRE 4.0 Recruitment 2026 Notification Out for 32,388 School Teacher Posts (Class 1 to 12)",
+    "d": "18 August 2026",
+    "l": "29 September 2026",
+    "a": "Advt. No. 14/2026 Dated 18.08.2026",
+    "q": "12th / Degree / PG + D.El.Ed / B.Ed + CTET / BTET / STET",
+    "desc": "Bihar Public Service Commission (BPSC), Patna has released the official Teacher Recruitment Examination 4.0 (TRE-4.0) Notification under Advertisement No. 14/2026 for a massive 32,388 School Teacher vacancies under the Education Department, Government of Bihar.",
+    "u": "https://bpsconline.bihar.gov.in/"
+},
+  {
+    "id": "goalpara-district-copyist-recruitment-2026",
+    "b": "District Administration / Foreigners Tribunal No. 8, Goalpara, Assam",
+    "t": "Goalpara District Recruitment 2026 Notification Out for Copyist Post | Walk-in Interview",
+    "d": "27 August 2026",
+    "l": "10 September 2026",
+    "a": "Advt. No. F.T(8)/E-17/2026/9 Dated 27.08.2026",
+    "q": "12th Pass (10+2) + 6-Month Diploma in Computer Application",
+    "desc": "Office of the Member, Foreigners Tribunal No. 8, Goalpara under the District Administration of Goalpara, Government of Assam, has issued an official recruitment advertisement (Advt. No. F.T(8)/E-17/2026/9) on 27 August 2026 for 1 vacancy of Copyist on a purely contractual basis.",
+    "u": "https://goalpara.assam.gov.in/sites/default/files/public_utility/Advertisement_0.pdf"
+},
+  {
+    "id": "acab-cooperative-intern-specialist-recruitment-2026",
+    "b": "The Assam Co-operative Apex Bank Ltd. (ACAB)",
+    "t": "Assam Co-operative Apex Bank (ACAB) Recruitment 2026 Notification Out for Cooperative Intern & Specialist Posts",
+    "d": "24 August 2026",
+    "l": "10 September 2026",
+    "a": "Advt. No. 03/2026 & 04/2026 Dated 24.08.2026",
+    "q": "MBA / PGDM / Graduate in Agriculture / Rural Development / Social Work",
+    "desc": "The Assam Co-operative Apex Bank Ltd. (ACAB), premier state cooperative bank in Assam, has released recruitment notifications (Advt. No. 03/2026 & 04/2026) on 24 August 2026 inviting offline applications for the contractual engagement of Cooperative Intern and Specialist (Social Mobilisation).",
+    "u": "https://www.acab.bank.in/Cooperative%20%20Intern%20Notification%20and%20application%20format_25-08-2026.pdf"
+},
+  {
+    "id": "esic-guwahati-teaching-faculty-recruitment-2026",
+    "b": "Employees State Insurance Corporation (ESIC), Guwahati",
+    "t": "ESIC Guwahati Teaching Faculty Recruitment 2026 Notification Out for 33 Posts | Walk-in Interview",
+    "d": "28 August 2026",
+    "l": "15 September 2026 (09:00 AM onwards)",
+    "a": "Advt No. 432-A-12/12/692/2025-Estt Dated 28.08.2026",
+    "q": "MD / MS / DNB in relevant specialty as per NMC norms",
+    "desc": "Employees State Insurance Corporation (ESIC), under the Ministry of Labour & Employment, Government of India, has issued an official recruitment notification (Advt No. 432-A-12/12/692/2025-Estt) on 28 August 2026 for the engagement of 33 Teaching Faculty members on a contractual basis for ESIC Medical College & Hospital, Beltola, Guwahati.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/ENGAGEMENT_OF_TEACHING_FACULTY_ON_CONTRACTUAL_BASIS_FOR_ESIC_MEDICAL_COLLEGE_amp_HOSPITAL_BELTOLA_GUWAHATI_22_1788005742.pdf"
+},
+  {
+    "id": "hpcl-visakh-refinery-ta-consultant-recruitment-2026",
+    "b": "Hindustan Petroleum Corporation Limited (HPCL), Visakh Refinery",
+    "t": "HPCL Visakh Refinery Turnaround (TA) Consultant Recruitment 2026 Notification Out for 24 Posts",
+    "d": "August 2026",
+    "l": "12 September 2026",
+    "a": "Advertisement - VR TA Consultant 2026 v1",
+    "q": "See eligibility",
+    "desc": "Hindustan Petroleum Corporation Limited (HPCL), a Maharatna Central Public Sector Enterprise, has released an official recruitment notification for the engagement of 24 Turnaround Consultants on a short-term contract basis at its Visakh Refinery in Visakhapatnam, Andhra Pradesh.",
+    "u": "https://www.hindustanpetroleum.com/documents/pdf/English%20Advertisement%20-%20VR%20TA%20Consultant%202026%20v1.pdf"
+},
+  {
+    "id": "iit-tirupati-non-teaching-recruitment-2026",
+    "b": "Indian Institute of Technology Tirupati (IIT Tirupati)",
+    "t": "IIT Tirupati Non-Teaching Recruitment 2026 Notification Out for 13 Various Posts (Group A, B & C)",
+    "d": "31 August 2026",
+    "l": "30 September 2026",
+    "a": "Advt. No. IITT/STAFFREC/01/2026 Dated 31.08.2026",
+    "q": "BE/B.Tech/Master Degree/M.Sc/MCA/Degree/Diploma/ITI in relevant field",
+    "desc": "Indian Institute of Technology Tirupati (IIT Tirupati), an Institute of National Importance under the Ministry of Education, Government of India, has released official advertisement No. IITT/STAFFREC/01/2026 on 31 August 2026 for the recruitment of 13 Non-Teaching staff positions on regular / direct recruitment basis.",
+    "u": "https://iittp.ac.in/"
+},
+  {
+    "id": "an-dhs-anm-laboratory-assistant-recruitment-2026",
+    "b": "Directorate of Health Services (DHS), Andaman and Nicobar Administration",
+    "t": "A&N DHS Recruitment 2026 Notification Out for 65 ANM & Laboratory Assistant Posts on Contract Basis",
+    "d": "27 August 2026",
+    "l": "21 September 2026 (04:00 PM)",
+    "a": "Official Notice Dated 27.08.2026",
+    "q": "12th Pass + ANM Certificate / 2-Year Diploma in MLT (DMLT)",
+    "desc": "Directorate of Health Services, Andaman and Nicobar Administration (DHS A&N) has released an official recruitment notice on 27 August 2026 inviting applications for 65 vacancies of Auxiliary Nurse Midwifery (ANM) and Laboratory Assistant on a 6-month contract basis (or until regular appointments are made).",
+    "u": "https://img2.freejobalert.com/news/2026/08/48484-6a9529845eccb90384561.pdf"
+},
+  {
+    "id": "southern-railway-act-apprentice-recruitment-2026",
+    "b": "Southern Railway (SR), Carriage & Wagon Works, Perambur, Chennai",
+    "t": "Southern Railway Act Apprentice Recruitment 2026 Notification Out for 4471 Posts (Fresher & Ex-ITI Slots)",
+    "d": "28 August 2026",
+    "l": "27 September 2026 (05:00 PM)",
+    "a": "Notification No. 01/2026 (CPB/P1/98/Act/TP/Vol.XXI)",
+    "q": "10th Pass (50% min) / 12th with PCB / ITI in Relevant Trade",
+    "desc": "Southern Railway (SR), through the Office of the Chief Workshop Manager, Carriage & Wagon Works, Perambur, has released official Notification No. 01/2026 inviting online applications from eligible candidates for engagement as Act Apprentices under the Apprentices Act, 1961. A total of 4,471 apprentice slots are notified across various Workshops, Divisions, and Production Units located within the geographical jurisdiction of Southern Railway.",
+    "u": "https://sronline.etrpindia.com/rrcchennaiapprentice26/recruitmentIndex"
+},
+  {
     "id": "meghalaya-home-guards-border-wing-guardsman-recruitment-2026",
     "b": "Civil Defence & Home Guards Meghalaya",
     "t": "Meghalaya Border Wing Home Guards Recruitment 2026 – Enrolment for 558 Guardsman Posts",
@@ -940,7 +1050,7 @@ export const JOBS_DATA: JobEntry[] = [
     "b": "NABFINS Limited",
     "t": "NABFINS Limited Recruitment 2026 – Apply for 1 Customer Service Officer (CSO), Customer Service Executive (CSE) Posts",
     "d": "30 August 2026",
-    "l": "01 September 2026",
+    "l": "07 September 2026",
     "a": "NABFINS-LIMITE/2026",
     "q": "PUC/10+2 Completed, Graduate in any discipline (10+2+3)",
     "desc": "NABFINS Limited has officially released employment advertisement notification NABFINS-LIMITE/2026 for the recruitment of 1 vacancies for Customer Service Officer (CSO), Customer Service Executive (CSE) posts.",
