@@ -129,10 +129,10 @@ export default function AdminPage() {
   // Jobs State & Multi-Level Filters (Excel-style)
   // -------------------------------------------------------------
   const [jobSearch, setJobSearch] = useState('');
-  const [jobSortPreset, setJobSortPreset] = useState<string>('combo-vacancies-upload');
+  const [jobSortPreset, setJobSortPreset] = useState<string>('combo-upload-vacancies');
   const [sortLevels, setSortLevels] = useState<SortLevel[]>([
-    { column: 'vacancies', order: 'desc' },
-    { column: 'uploadDate', order: 'desc' }
+    { column: 'uploadDate', order: 'desc' },
+    { column: 'vacancies', order: 'desc' }
   ]);
   const [isSortModalOpen, setIsSortModalOpen] = useState(false);
   const [openColumnFilter, setOpenColumnFilter] = useState<SortColumnKey | null>(null);
@@ -1012,10 +1012,10 @@ export default function AdminPage() {
               <button
                 onClick={() => {
                   setSortLevels([
-                    { column: 'vacancies', order: 'desc' },
-                    { column: 'uploadDate', order: 'desc' }
+                    { column: 'uploadDate', order: 'desc' },
+                    { column: 'vacancies', order: 'desc' }
                   ]);
-                  setJobSortPreset('combo-vacancies-upload');
+                  setJobSortPreset('combo-upload-vacancies');
                 }}
                 className="px-3.5 py-2 text-xs font-bold text-slate-500 hover:text-slate-800 transition"
               >
@@ -1264,12 +1264,12 @@ export default function AdminPage() {
                   onChange={e => applySortPreset(e.target.value)}
                   className="w-full py-1.5 px-2 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="combo-vacancies-upload">🔥 Post High to Low + 🆕 Newest</option>
-                  <option value="combo-upload-vacancies">🆕 Newest First + 🔥 Post High to Low</option>
+                  <option value="combo-upload-vacancies">🆕 Newest First + 🔥 Post High to Low (Default)</option>
+                  <option value="combo-vacancies-upload">🔥 Post High to Low + 🆕 Newest First</option>
                   <option value="combo-lastdate-vacancies">⏰ Last Date Soon + 🔥 Post High to Low</option>
+                  <option value="upload-desc">🆕 Upload Date: Newest First Only</option>
                   <option value="vacancies-desc">🔥 Post High to Low (Vacancies Only)</option>
                   <option value="vacancies-asc">📉 Post Low to High (Vacancies Only)</option>
-                  <option value="upload-desc">🆕 Upload Date: Newest First</option>
                   <option value="upload-asc">⏳ Upload Date: Oldest First</option>
                   <option value="lastdate-soon">⏰ Last Date: Expiring Soonest</option>
                   <option value="title-asc">🔤 Title (A to Z)</option>
@@ -1386,7 +1386,7 @@ export default function AdminPage() {
                 </span>
               )}
 
-              {(jobSearch || statusFilter !== 'all' || qualificationFilter !== 'all' || minVacanciesFilter !== null || sortLevels.length > 2) && (
+              {(jobSearch || statusFilter !== 'all' || qualificationFilter !== 'all' || minVacanciesFilter !== null || sortLevels.length > 2 || jobSortPreset !== 'combo-upload-vacancies') && (
                 <button
                   onClick={() => {
                     setJobSearch('');
@@ -1395,7 +1395,7 @@ export default function AdminPage() {
                     setMinVacanciesFilter(null);
                     setUploadDateFilter('all');
                     setLastDateFilter('all');
-                    applySortPreset('combo-vacancies-upload');
+                    applySortPreset('combo-upload-vacancies');
                   }}
                   className="text-xs text-red-600 hover:text-red-700 font-bold ml-auto transition flex items-center gap-1"
                 >
