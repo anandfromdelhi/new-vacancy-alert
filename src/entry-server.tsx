@@ -32,6 +32,7 @@ import SscCglSelectionDvPage from './pages/ssc-cgl/SscCglSelectionDvPage';
 import MarketingPartnerPage from './pages/marketing/MarketingPartnerPage';
 import MarketingDashboardPage from './pages/marketing/MarketingDashboardPage';
 import MarketingTermsPage from './pages/marketing/MarketingTermsPage';
+import AdminPage from './pages/AdminPage';
 import RssFeedPage from './pages/RssFeedPage';
 import QualificationJobsPage from './pages/QualificationJobsPage';
 import StateJobsPage from './pages/StateJobsPage';
@@ -130,6 +131,7 @@ export function render(url: string) {
                   <Route path="marketing-partner" element={<MarketingPartnerPage />} />
                   <Route path="marketing-partner/dashboard" element={<MarketingDashboardPage />} />
                   <Route path="marketing-partner/terms" element={<MarketingTermsPage />} />
+                  <Route path="anand" element={<AdminPage />} />
                   <Route path="articles/salary-calculator" element={<SalaryCalculatorArticle />} />
                   <Route path="articles/ssc-exam-calendar" element={<SscCalendarArticle />} />
                   <Route path="articles/rrb-exam-calendar-2026-27" element={<RrbCalendarArticle />} />

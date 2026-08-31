@@ -38,6 +38,7 @@ const SscCglSelectionDvPage = lazy(() => import('./pages/ssc-cgl/SscCglSelection
 const MarketingPartnerPage = lazy(() => import('./pages/marketing/MarketingPartnerPage'));
 const MarketingDashboardPage = lazy(() => import('./pages/marketing/MarketingDashboardPage'));
 const MarketingTermsPage = lazy(() => import('./pages/marketing/MarketingTermsPage'));
+const AdminPage = lazy(() => import('./pages/AdminPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
 const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage'));
 const StateJobsPage = lazy(() => import('./pages/StateJobsPage'));
@@ -153,6 +154,7 @@ export default function App() {
                   <Route path="marketing-partner" element={<MarketingPartnerPage />} />
                   <Route path="marketing-partner/dashboard" element={<MarketingDashboardPage />} />
                   <Route path="marketing-partner/terms" element={<MarketingTermsPage />} />
+                  <Route path="anand" element={<AdminPage />} />
 
                   {/* RRB Technician Notification Detailed Sub-Pages */}
                   <Route path="rrb-technician-cen-02-2026/posts-and-vacancies" element={<PostsAndVacancies />} />
