@@ -69,12 +69,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "tnpsc-ctse-interview-posts-recruitment-2026",
     "b": "Tamil Nadu Public Service Commission (TNPSC)",
-    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 Technical & Officer Posts | Apply Online",
+    "t": "TNPSC Combined Technical Services Examination (Interview Posts) 2026 Notification Out for 170 Vacancies across 31 Cadres | Apply Online",
     "d": "31 August 2026",
     "l": "06 October 2026 (11:59 PM)",
-    "a": "Advertisement No. 741 | Notification No. 08/2026 Dated 31.08.2026",
-    "q": "See eligibility",
-    "desc": "Tamil Nadu Public Service Commission (TNPSC) has issued an official recruitment notification (Notification No. 08/2026 / Advt. No. 741) on 31 August 2026 for the Combined Technical Services Examination (Interview Posts) - CTSE 2026 to fill 170 prestigious officer and technical vacancies.",
+    "a": "Advertisement No. 741 | Notification No. 8/2026 Dated 31.08.2026",
+    "q": "B.V.Sc / B.E / B.Tech / CA / ICWA / Master's Degree / Bachelor's with Shorthand (Post-wise)",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has officially published the comprehensive 134-page notification (Advertisement No. 741 / Notification No. 8/2026) on 31 August 2026 for direct recruitment to 170 vacancies in Combined Technical Services Examination (Interview Posts) across various State Departments, Boards, and Public Sector Undertakings.",
     "u": "https://www.tnpscexams.in"
 },
   {
