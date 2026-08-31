@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ibps-rrb-crp-xv-officer-office-assistant-recruitment-2026",
+    "b": "Institute of Banking Personnel Selection (IBPS)",
+    "t": "IBPS RRB CRP-XV Recruitment 2026 Notification Out for Group A Officers (Scale I, II, III) & Group B Office Assistant (Multipurpose) Posts | Apply Online",
+    "d": "31 August 2026",
+    "l": "21 September 2026 (11:59 PM)",
+    "a": "CRP RRBs-XV (2026-27) Notification Dated 31.08.2026",
+    "q": "Bachelor's Degree in any discipline + Local Language Proficiency",
+    "desc": "Institute of Banking Personnel Selection (IBPS) has officially released the Common Recruitment Process notification for Regional Rural Banks (CRP RRBs-XV) on 31 August 2026 for over 10,500 vacancies across 43 Regional Rural Banks (Gramin Banks) nationwide.",
+    "u": "https://www.ibps.in"
+},
+  {
     "id": "rvunl-junior-engineer-accountant-assistant-recruitment-2026",
     "b": "Rajasthan State Power Sector Companies (RVUNL, RVPNL, JVVNL, AVVNL, JdVVNL)",
     "t": "RVUNL Recruitment 2026 Notification Out for 2,005 Junior Engineer, Junior Accountant & Commercial Assistant Posts across 5 Rajasthan Power Companies | Apply Online",
