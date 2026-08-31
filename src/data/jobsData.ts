@@ -3676,14 +3676,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "telangana-anganwadi-teacher-vacancies-recruitment-2026",
-    "b": "Telangana Anganwadi Teacher",
-    "t": "Telangana Anganwadi Teacher Recruitment 2026 – Apply Online for 1 Vacancies Posts",
-    "d": "24 August 2026",
-    "l": "02.09.2026, up to 5:00 PM",
-    "a": "TELANGANA-/Rectt/2026",
-    "q": "Intermediate (12th class) or equivalent",
-    "desc": "Telangana Anganwadi Teacher has officially published an employment notification (Advertisement No: TELANGANA-/Rectt/2026) for the recruitment of 1 Vacancies vacancies.",
-    "u": "https://mis.tgwdcw.in/AWTNotification2026/JAYASHANKAR_BHUPALAPALLI_NOTIFICATION_21.08.2026.jpeg"
+    "b": "Department of Women, Child, Disabled and Senior Citizens Welfare, Rangareddy District (Government of Telangana)",
+    "t": "Telangana WDCW Rangareddy Anganwadi Teacher Recruitment 2026 Notification Out for 125 Posts across 7 ICDS Projects | Apply Online",
+    "d": "29 August 2026",
+    "l": "10 September 2026 (05:00 PM)",
+    "a": "File No. 359/ICDS/2026 Dated 29.08.2026",
+    "q": "SSC / 10th Class Pass from recognized Board",
+    "desc": "Department of Women, Child, Disabled and Senior Citizens Welfare (WDCW), Rangareddy District, Government of Telangana has officially released the recruitment notification (File No. 359/ICDS/2026) on 29 August 2026 inviting online applications from eligible local female candidates for filling 125 Anganwadi Teacher (AWT) vacancies across 7 ICDS projects in the district.",
+    "u": "https://mis.tgwdcw.in/"
 },
   {
     "id": "district-health-society-cuddalore-dhs-cuddalore---under-national-monthly-salary-rs-recruitment-2026",
