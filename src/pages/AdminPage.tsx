@@ -8,7 +8,8 @@ import {
   CheckCircle2, User, LogOut, Clock, Calendar, Briefcase, Building2,
   MessageSquare, Flag, RefreshCw, Layers, Sparkles, ChevronLeft,
   ChevronRight, X, Download, Home, GraduationCap, Flame, ThumbsUp,
-  FileText, CornerDownRight, CheckSquare, Square
+  FileText, CornerDownRight, CheckSquare, Square, SlidersHorizontal,
+  Plus, ChevronDown, Hash, Sliders
 } from 'lucide-react';
 import {
   collection, query, orderBy, limit, deleteDoc, doc, getDocs,
@@ -106,6 +107,13 @@ function isJobExpired(lastDateStr?: string): boolean {
   return ts + 24 * 60 * 60 * 1000 < now;
 }
 
+export type SortColumnKey = 'vacancies' | 'uploadDate' | 'lastDate' | 'title' | 'board' | 'status';
+
+export interface SortLevel {
+  column: SortColumnKey;
+  order: 'asc' | 'desc';
+}
+
 export default function AdminPage() {
   const { user, loading, loginWithGoogle, logout, openLoginModal } = useAuth();
 
@@ -118,12 +126,19 @@ export default function AdminPage() {
   const [activeTab, setActiveTab] = useState<'jobs' | 'comments' | 'reports' | 'tools'>('jobs');
 
   // -------------------------------------------------------------
-  // Jobs State & Filters
+  // Jobs State & Multi-Level Filters (Excel-style)
   // -------------------------------------------------------------
   const [jobSearch, setJobSearch] = useState('');
-  const [jobSortBy, setJobSortBy] = useState<
-    'vacancies-desc' | 'vacancies-asc' | 'upload-desc' | 'upload-asc' | 'lastdate-soon' | 'lastdate-late' | 'title-asc'
-  >('vacancies-desc');
+  const [jobSortPreset, setJobSortPreset] = useState<string>('combo-vacancies-upload');
+  const [sortLevels, setSortLevels] = useState<SortLevel[]>([
+    { column: 'vacancies', order: 'desc' },
+    { column: 'uploadDate', order: 'desc' }
+  ]);
+  const [isSortModalOpen, setIsSortModalOpen] = useState(false);
+  const [openColumnFilter, setOpenColumnFilter] = useState<SortColumnKey | null>(null);
+  const [minVacanciesFilter, setMinVacanciesFilter] = useState<number | null>(null);
+  const [uploadDateFilter, setUploadDateFilter] = useState<'all' | '7days' | '30days' | 'this_month' | 'this_year'>('all');
+  const [lastDateFilter, setLastDateFilter] = useState<'all' | 'active_7days' | 'active_15days' | 'active_30days' | 'expired'>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'expired'>('all');
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [qualificationFilter, setQualificationFilter] = useState('all');
@@ -242,6 +257,91 @@ export default function AdminPage() {
     setTimeout(() => setCopiedSlug(null), 2500);
   };
 
+  // Preset Sort Handlers
+  const applySortPreset = (preset: string) => {
+    setJobSortPreset(preset);
+    setCurrentPage(1);
+    switch (preset) {
+      case 'combo-vacancies-upload':
+        setSortLevels([
+          { column: 'vacancies', order: 'desc' },
+          { column: 'uploadDate', order: 'desc' }
+        ]);
+        break;
+      case 'combo-upload-vacancies':
+        setSortLevels([
+          { column: 'uploadDate', order: 'desc' },
+          { column: 'vacancies', order: 'desc' }
+        ]);
+        break;
+      case 'combo-lastdate-vacancies':
+        setSortLevels([
+          { column: 'lastDate', order: 'asc' },
+          { column: 'vacancies', order: 'desc' }
+        ]);
+        break;
+      case 'vacancies-desc':
+        setSortLevels([{ column: 'vacancies', order: 'desc' }]);
+        break;
+      case 'vacancies-asc':
+        setSortLevels([{ column: 'vacancies', order: 'asc' }]);
+        break;
+      case 'upload-desc':
+        setSortLevels([{ column: 'uploadDate', order: 'desc' }]);
+        break;
+      case 'upload-asc':
+        setSortLevels([{ column: 'uploadDate', order: 'asc' }]);
+        break;
+      case 'lastdate-soon':
+        setSortLevels([{ column: 'lastDate', order: 'asc' }]);
+        break;
+      case 'lastdate-late':
+        setSortLevels([{ column: 'lastDate', order: 'desc' }]);
+        break;
+      case 'title-asc':
+        setSortLevels([{ column: 'title', order: 'asc' }]);
+        break;
+      case 'board-asc':
+        setSortLevels([{ column: 'board', order: 'asc' }]);
+        break;
+      case 'custom':
+        setIsSortModalOpen(true);
+        break;
+      default:
+        break;
+    }
+  };
+
+  // Clickable Header Sort Handler (Shift+Click to Multi-Sort like Excel)
+  const handleColumnHeaderClick = (column: SortColumnKey, isShiftKey: boolean) => {
+    setCurrentPage(1);
+    setJobSortPreset('custom');
+    setSortLevels(prev => {
+      const idx = prev.findIndex(l => l.column === column);
+      if (isShiftKey) {
+        if (idx >= 0) {
+          const nextOrder = prev[idx].order === 'desc' ? 'asc' : 'desc';
+          const clone = [...prev];
+          clone[idx] = { column, order: nextOrder };
+          return clone;
+        } else {
+          return [...prev, { column, order: 'desc' }];
+        }
+      } else {
+        if (idx === 0) {
+          const nextOrder = prev[0].order === 'desc' ? 'asc' : 'desc';
+          return [{ column, order: nextOrder }, ...prev.slice(1)];
+        } else if (idx > 0) {
+          const item = prev[idx];
+          const others = prev.filter((_, i) => i !== idx);
+          return [item, ...others];
+        } else {
+          return [{ column, order: 'desc' }];
+        }
+      }
+    });
+  };
+
   // -------------------------------------------------------------
   // Jobs Calculations & Filtering
   // -------------------------------------------------------------
@@ -287,6 +387,15 @@ export default function AdminPage() {
     };
   }, [enrichedJobs, comments, reports]);
 
+  // Unique Boards list for Excel Filter
+  const allBoardsList = useMemo(() => {
+    const set = new Set<string>();
+    enrichedJobs.forEach(j => {
+      if (j.b) set.add(j.b);
+    });
+    return Array.from(set).sort();
+  }, [enrichedJobs]);
+
   // Filtered & Sorted Jobs
   const filteredJobs = useMemo(() => {
     let list = [...enrichedJobs];
@@ -321,32 +430,90 @@ export default function AdminPage() {
       list = list.filter(j => j.q && j.q.toLowerCase().includes(qLower));
     }
 
-    // Sorting
-    list.sort((a, b) => {
-      switch (jobSortBy) {
-        case 'vacancies-desc':
-          return b.vacancies - a.vacancies;
-        case 'vacancies-asc':
-          return a.vacancies - b.vacancies;
-        case 'upload-desc':
-          return b.uploadTimestamp - a.uploadTimestamp;
-        case 'upload-asc':
-          return a.uploadTimestamp - b.uploadTimestamp;
-        case 'lastdate-soon':
-          if (a.lastDateTimestamp === 0) return 1;
-          if (b.lastDateTimestamp === 0) return -1;
-          return a.lastDateTimestamp - b.lastDateTimestamp;
-        case 'lastdate-late':
-          return b.lastDateTimestamp - a.lastDateTimestamp;
-        case 'title-asc':
-          return (a.t || '').localeCompare(b.t || '');
-        default:
-          return 0;
+    // Min Vacancies filter
+    if (minVacanciesFilter !== null && minVacanciesFilter > 0) {
+      list = list.filter(j => j.vacancies >= minVacanciesFilter);
+    }
+
+    // Upload Date filter preset
+    if (uploadDateFilter !== 'all') {
+      const now = Date.now();
+      const ONE_DAY = 24 * 60 * 60 * 1000;
+      if (uploadDateFilter === '7days') {
+        list = list.filter(j => j.uploadTimestamp >= now - 7 * ONE_DAY);
+      } else if (uploadDateFilter === '30days') {
+        list = list.filter(j => j.uploadTimestamp >= now - 30 * ONE_DAY);
+      } else if (uploadDateFilter === 'this_month') {
+        const thisMonthStart = new Date(new Date().getFullYear(), new Date().getMonth(), 1).getTime();
+        list = list.filter(j => j.uploadTimestamp >= thisMonthStart);
+      } else if (uploadDateFilter === 'this_year') {
+        const thisYearStart = new Date(new Date().getFullYear(), 0, 1).getTime();
+        list = list.filter(j => j.uploadTimestamp >= thisYearStart);
       }
+    }
+
+    // Last Date filter preset
+    if (lastDateFilter !== 'all') {
+      const now = Date.now();
+      const ONE_DAY = 24 * 60 * 60 * 1000;
+      if (lastDateFilter === 'expired') {
+        list = list.filter(j => j.expired);
+      } else if (lastDateFilter === 'active_7days') {
+        list = list.filter(j => !j.expired && j.lastDateTimestamp > 0 && j.lastDateTimestamp <= now + 7 * ONE_DAY);
+      } else if (lastDateFilter === 'active_15days') {
+        list = list.filter(j => !j.expired && j.lastDateTimestamp > 0 && j.lastDateTimestamp <= now + 15 * ONE_DAY);
+      } else if (lastDateFilter === 'active_30days') {
+        list = list.filter(j => !j.expired && j.lastDateTimestamp > 0 && j.lastDateTimestamp <= now + 30 * ONE_DAY);
+      }
+    }
+
+    // Multi-Level Sort
+    list.sort((a, b) => {
+      for (const level of sortLevels) {
+        let diff = 0;
+        switch (level.column) {
+          case 'vacancies':
+            diff = a.vacancies - b.vacancies;
+            break;
+          case 'uploadDate':
+            diff = a.uploadTimestamp - b.uploadTimestamp;
+            break;
+          case 'lastDate':
+            if (a.lastDateTimestamp === 0 && b.lastDateTimestamp !== 0) diff = 1;
+            else if (b.lastDateTimestamp === 0 && a.lastDateTimestamp !== 0) diff = -1;
+            else diff = a.lastDateTimestamp - b.lastDateTimestamp;
+            break;
+          case 'title':
+            diff = (a.t || '').localeCompare(b.t || '');
+            break;
+          case 'board':
+            diff = (a.b || '').localeCompare(b.b || '');
+            break;
+          case 'status':
+            diff = (a.expired ? 1 : 0) - (b.expired ? 1 : 0);
+            break;
+          default:
+            diff = 0;
+        }
+        if (diff !== 0) {
+          return level.order === 'asc' ? diff : -diff;
+        }
+      }
+      return 0;
     });
 
     return list;
-  }, [enrichedJobs, jobSearch, statusFilter, categoryFilter, qualificationFilter, jobSortBy]);
+  }, [
+    enrichedJobs,
+    jobSearch,
+    statusFilter,
+    categoryFilter,
+    qualificationFilter,
+    minVacanciesFilter,
+    uploadDateFilter,
+    lastDateFilter,
+    sortLevels
+  ]);
 
   // Paginated Jobs
   const paginatedJobs = useMemo(() => {
@@ -651,6 +818,221 @@ export default function AdminPage() {
         </div>
       )}
 
+      {/* Excel Custom Multi-Level Sort Modal */}
+      {isSortModalOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl max-w-xl w-full p-6 shadow-2xl border border-slate-200 space-y-5 max-h-[90vh] overflow-y-auto">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-sm">
+                  <SlidersHorizontal className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-black text-slate-900 text-base">Excel Multi-Level Sort</h3>
+                  <p className="text-[11px] text-slate-500">Configure hierarchical sorting criteria for vacancy listings</p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsSortModalOpen(false)}
+                className="p-1.5 rounded-lg text-slate-400 hover:bg-slate-100 transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Quick Presets Row */}
+            <div className="space-y-2">
+              <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider">Quick Sort Presets</span>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => {
+                    setSortLevels([
+                      { column: 'vacancies', order: 'desc' },
+                      { column: 'uploadDate', order: 'desc' }
+                    ]);
+                    setJobSortPreset('combo-vacancies-upload');
+                  }}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-bold border flex items-center gap-1.5 transition ${
+                    sortLevels.length === 2 && sortLevels[0].column === 'vacancies' && sortLevels[1].column === 'uploadDate'
+                      ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                      : 'bg-blue-50 hover:bg-blue-100 text-blue-700 border-blue-200'
+                  }`}
+                >
+                  <Flame className="w-3.5 h-3.5 text-amber-500" />
+                  <span>🔥 Post High to Low + 🆕 Newest First</span>
+                </button>
+                <button
+                  onClick={() => {
+                    setSortLevels([
+                      { column: 'uploadDate', order: 'desc' },
+                      { column: 'vacancies', order: 'desc' }
+                    ]);
+                    setJobSortPreset('combo-upload-vacancies');
+                  }}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-bold border flex items-center gap-1.5 transition ${
+                    sortLevels.length === 2 && sortLevels[0].column === 'uploadDate' && sortLevels[1].column === 'vacancies'
+                      ? 'bg-indigo-600 text-white border-indigo-600 shadow-xs'
+                      : 'bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border-indigo-200'
+                  }`}
+                >
+                  <Clock className="w-3.5 h-3.5 text-indigo-500" />
+                  <span>🆕 Newest First + 🔥 Post High to Low</span>
+                </button>
+                <button
+                  onClick={() => {
+                    setSortLevels([
+                      { column: 'lastDate', order: 'asc' },
+                      { column: 'vacancies', order: 'desc' }
+                    ]);
+                    setJobSortPreset('combo-lastdate-vacancies');
+                  }}
+                  className={`px-2.5 py-1.5 rounded-lg text-xs font-bold border flex items-center gap-1.5 transition ${
+                    sortLevels.length === 2 && sortLevels[0].column === 'lastDate' && sortLevels[1].column === 'vacancies'
+                      ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                      : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200'
+                  }`}
+                >
+                  <Calendar className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>⏰ Last Date Soonest + 🔥 Post High to Low</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Sort Level Rows List */}
+            <div className="space-y-3 pt-2 border-t border-slate-100">
+              <span className="text-[10px] font-black uppercase text-slate-400 tracking-wider">Active Sort Levels (Evaluated in Order)</span>
+              
+              {sortLevels.map((lvl, idx) => (
+                <div key={idx} className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-50 border border-slate-200">
+                  <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-black text-xs flex items-center justify-center shrink-0 shadow-2xs">
+                    {idx + 1}
+                  </div>
+
+                  <span className="text-xs font-bold text-slate-500 w-16 shrink-0">
+                    {idx === 0 ? 'Sort by' : 'Then by'}
+                  </span>
+
+                  {/* Column Select */}
+                  <select
+                    value={lvl.column}
+                    onChange={e => {
+                      const updated = [...sortLevels];
+                      updated[idx].column = e.target.value as SortColumnKey;
+                      setSortLevels(updated);
+                      setJobSortPreset('custom');
+                    }}
+                    className="flex-1 py-1.5 px-2.5 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value="vacancies">Total Posts / Vacancies</option>
+                    <option value="uploadDate">Upload Date</option>
+                    <option value="lastDate">Application Last Date</option>
+                    <option value="title">Job Title</option>
+                    <option value="board">Organization / Board</option>
+                    <option value="status">Status (Active / Expired)</option>
+                  </select>
+
+                  {/* Order Select */}
+                  <select
+                    value={lvl.order}
+                    onChange={e => {
+                      const updated = [...sortLevels];
+                      updated[idx].order = e.target.value as 'asc' | 'desc';
+                      setSortLevels(updated);
+                      setJobSortPreset('custom');
+                    }}
+                    className="w-36 py-1.5 px-2.5 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                  >
+                    {lvl.column === 'vacancies' && (
+                      <>
+                        <option value="desc">High to Low (Largest)</option>
+                        <option value="asc">Low to High (Smallest)</option>
+                      </>
+                    )}
+                    {lvl.column === 'uploadDate' && (
+                      <>
+                        <option value="desc">Newest to Oldest</option>
+                        <option value="asc">Oldest to Newest</option>
+                      </>
+                    )}
+                    {lvl.column === 'lastDate' && (
+                      <>
+                        <option value="asc">Closing Soonest</option>
+                        <option value="desc">Closing Latest</option>
+                      </>
+                    )}
+                    {(lvl.column === 'title' || lvl.column === 'board') && (
+                      <>
+                        <option value="asc">A to Z</option>
+                        <option value="desc">Z to A</option>
+                      </>
+                    )}
+                    {lvl.column === 'status' && (
+                      <>
+                        <option value="asc">Active First</option>
+                        <option value="desc">Expired First</option>
+                      </>
+                    )}
+                  </select>
+
+                  {/* Delete Level */}
+                  {sortLevels.length > 1 && (
+                    <button
+                      onClick={() => {
+                        const updated = sortLevels.filter((_, i) => i !== idx);
+                        setSortLevels(updated);
+                        setJobSortPreset('custom');
+                      }}
+                      className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition"
+                      title="Remove Sort Level"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+              ))}
+
+              {sortLevels.length < 5 && (
+                <button
+                  onClick={() => {
+                    const availableCols: SortColumnKey[] = ['vacancies', 'uploadDate', 'lastDate', 'title', 'board'];
+                    const used = new Set(sortLevels.map(l => l.column));
+                    const nextCol = availableCols.find(c => !used.has(c)) || 'uploadDate';
+                    setSortLevels([...sortLevels, { column: nextCol, order: 'desc' }]);
+                    setJobSortPreset('custom');
+                  }}
+                  className="w-full py-2 border-2 border-dashed border-slate-200 hover:border-blue-400 hover:bg-blue-50/50 rounded-xl text-xs font-bold text-slate-600 hover:text-blue-600 flex items-center justify-center gap-1.5 transition"
+                >
+                  <Plus className="w-3.5 h-3.5" />
+                  <span>Add Another Sort Level</span>
+                </button>
+              )}
+            </div>
+
+            <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+              <button
+                onClick={() => {
+                  setSortLevels([
+                    { column: 'vacancies', order: 'desc' },
+                    { column: 'uploadDate', order: 'desc' }
+                  ]);
+                  setJobSortPreset('combo-vacancies-upload');
+                }}
+                className="px-3.5 py-2 text-xs font-bold text-slate-500 hover:text-slate-800 transition"
+              >
+                Reset to Default
+              </button>
+
+              <button
+                onClick={() => setIsSortModalOpen(false)}
+                className="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold transition shadow-sm"
+              >
+                Apply & Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Top Navigation Bar */}
       <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
@@ -813,12 +1195,21 @@ export default function AdminPage() {
                   </span>
                 </h2>
                 <p className="text-xs text-slate-500 mt-0.5">
-                  Complete directory of all job listings with site upload dates, vacancies count, and filters.
+                  Excel-style multi-level sorting and filtering for all live and archived government vacancy notices.
                 </p>
               </div>
 
               {/* Action Buttons */}
               <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setIsSortModalOpen(true)}
+                  className="px-3.5 py-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-xl text-xs font-bold transition flex items-center gap-1.5 border border-blue-200 shadow-2xs"
+                  title="Configure Multi-Level Sort"
+                >
+                  <SlidersHorizontal className="w-3.5 h-3.5" />
+                  <span>Custom Sort ({sortLevels.length} Levels)</span>
+                </button>
+
                 <button
                   onClick={() => {
                     const csvContent = "data:text/csv;charset=utf-8," + 
@@ -840,8 +1231,8 @@ export default function AdminPage() {
               </div>
             </div>
 
-            {/* Filter & Sort Controls Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 bg-slate-50/80 p-3.5 rounded-xl border border-slate-200">
+            {/* Filter & Multi-Sort Controls Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 bg-slate-50/80 p-3.5 rounded-xl border border-slate-200">
               {/* Search Bar */}
               <div className="lg:col-span-2 relative">
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
@@ -857,26 +1248,56 @@ export default function AdminPage() {
                 />
               </div>
 
-              {/* Sort By Filter (Includes "Post High to Low") */}
+              {/* Excel Multi-Sort Preset Selector */}
               <div>
-                <label className="text-[10px] font-black uppercase text-slate-400 block mb-1">
-                  Sort Vacancies / Dates
+                <label className="text-[10px] font-black uppercase text-slate-400 block mb-1 flex items-center justify-between">
+                  <span>Excel Sorting Preset</span>
+                  <button
+                    onClick={() => setIsSortModalOpen(true)}
+                    className="text-blue-600 hover:underline text-[10px] font-bold lowercase"
+                  >
+                    edit
+                  </button>
                 </label>
                 <select
-                  value={jobSortBy}
+                  value={jobSortPreset}
+                  onChange={e => applySortPreset(e.target.value)}
+                  className="w-full py-1.5 px-2 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                >
+                  <option value="combo-vacancies-upload">🔥 Post High to Low + 🆕 Newest</option>
+                  <option value="combo-upload-vacancies">🆕 Newest First + 🔥 Post High to Low</option>
+                  <option value="combo-lastdate-vacancies">⏰ Last Date Soon + 🔥 Post High to Low</option>
+                  <option value="vacancies-desc">🔥 Post High to Low (Vacancies Only)</option>
+                  <option value="vacancies-asc">📉 Post Low to High (Vacancies Only)</option>
+                  <option value="upload-desc">🆕 Upload Date: Newest First</option>
+                  <option value="upload-asc">⏳ Upload Date: Oldest First</option>
+                  <option value="lastdate-soon">⏰ Last Date: Expiring Soonest</option>
+                  <option value="title-asc">🔤 Title (A to Z)</option>
+                  <option value="board-asc">🏢 Board / Org (A to Z)</option>
+                  <option value="custom">⚙️ Custom ({sortLevels.length} Levels)...</option>
+                </select>
+              </div>
+
+              {/* Min Vacancies Filter */}
+              <div>
+                <label className="text-[10px] font-black uppercase text-slate-400 block mb-1">
+                  Min Vacancies
+                </label>
+                <select
+                  value={minVacanciesFilter === null ? 'all' : String(minVacanciesFilter)}
                   onChange={e => {
-                    setJobSortBy(e.target.value as any);
+                    const val = e.target.value;
+                    setMinVacanciesFilter(val === 'all' ? null : parseInt(val, 10));
                     setCurrentPage(1);
                   }}
                   className="w-full py-1.5 px-2 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="vacancies-desc">🔥 Post High to Low (Vacancies)</option>
-                  <option value="vacancies-asc">📉 Post Low to High (Vacancies)</option>
-                  <option value="upload-desc">🆕 Upload Date: Newest First</option>
-                  <option value="upload-asc">⏳ Upload Date: Oldest First</option>
-                  <option value="lastdate-soon">⏰ Last Date: Expiring Soonest</option>
-                  <option value="lastdate-late">📅 Last Date: Latest</option>
-                  <option value="title-asc">🔤 Title (A to Z)</option>
+                  <option value="all">All Post Counts</option>
+                  <option value="500">≥ 500+ Posts</option>
+                  <option value="1000">≥ 1,000+ Posts</option>
+                  <option value="5000">≥ 5,000+ Posts</option>
+                  <option value="10000">≥ 10,000+ Posts</option>
+                  <option value="20000">≥ 20,000+ Posts</option>
                 </select>
               </div>
 
@@ -893,7 +1314,7 @@ export default function AdminPage() {
                   }}
                   className="w-full py-1.5 px-2 text-xs bg-white border border-slate-300 rounded-lg text-slate-800 font-bold focus:outline-hidden focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="all">All Vacancies</option>
+                  <option value="all">All Status</option>
                   <option value="active">Active Only</option>
                   <option value="expired">Expired Only</option>
                 </select>
@@ -924,26 +1345,203 @@ export default function AdminPage() {
               </div>
             </div>
 
-            {/* Jobs Data Table */}
+            {/* Active Sort & Filters Pill Bar */}
+            <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
+              <span className="text-[11px] font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1">
+                <Sliders className="w-3.5 h-3.5 text-blue-600" />
+                <span>Active Sort Rules:</span>
+              </span>
+
+              {sortLevels.map((lvl, idx) => (
+                <span
+                  key={idx}
+                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-blue-50 text-blue-800 border border-blue-200/80 shadow-2xs"
+                >
+                  <span className="w-4 h-4 rounded-full bg-blue-600 text-white text-[10px] font-black flex items-center justify-center">
+                    {idx + 1}
+                  </span>
+                  <span>
+                    {lvl.column === 'vacancies' && 'Total Posts'}
+                    {lvl.column === 'uploadDate' && 'Upload Date'}
+                    {lvl.column === 'lastDate' && 'Last Date'}
+                    {lvl.column === 'title' && 'Job Title'}
+                    {lvl.column === 'board' && 'Board'}
+                    {lvl.column === 'status' && 'Status'}
+                  </span>
+                  <span className="text-[10px] text-blue-600 font-medium">
+                    ({lvl.order === 'desc' ? 'High/Newest' : 'Low/Oldest'})
+                  </span>
+                </span>
+              ))}
+
+              {minVacanciesFilter !== null && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                  <span>Min {minVacanciesFilter.toLocaleString()}+ Posts</span>
+                  <button
+                    onClick={() => setMinVacanciesFilter(null)}
+                    className="hover:text-amber-950 transition"
+                  >
+                    <X className="w-3 h-3" />
+                  </button>
+                </span>
+              )}
+
+              {(jobSearch || statusFilter !== 'all' || qualificationFilter !== 'all' || minVacanciesFilter !== null || sortLevels.length > 2) && (
+                <button
+                  onClick={() => {
+                    setJobSearch('');
+                    setStatusFilter('all');
+                    setQualificationFilter('all');
+                    setMinVacanciesFilter(null);
+                    setUploadDateFilter('all');
+                    setLastDateFilter('all');
+                    applySortPreset('combo-vacancies-upload');
+                  }}
+                  className="text-xs text-red-600 hover:text-red-700 font-bold ml-auto transition flex items-center gap-1"
+                >
+                  <RefreshCw className="w-3 h-3" />
+                  <span>Reset All Filters & Sort</span>
+                </button>
+              )}
+            </div>
+
+            {/* Jobs Data Table with Clickable Sort Headers & Excel Badges */}
             <div className="overflow-x-auto border border-slate-200 rounded-xl">
               <table className="w-full text-left text-xs border-collapse">
                 <thead>
-                  <tr className="bg-slate-50 border-b border-slate-200 text-[11px] font-black text-slate-600 uppercase tracking-wider">
+                  <tr className="bg-slate-50 border-b border-slate-200 text-[11px] font-black text-slate-600 uppercase tracking-wider select-none">
                     <th className="py-3 px-3 text-center w-12">#</th>
-                    <th className="py-3 px-3 w-28">Status</th>
-                    <th className="py-3 px-3 w-32">Upload Date</th>
-                    <th className="py-3 px-3 min-w-[260px]">Job Title & Post</th>
-                    <th className="py-3 px-3 min-w-[240px]">Job URL</th>
-                    <th className="py-3 px-3 min-w-[180px]">Organization / Board</th>
-                    <th className="py-3 px-3 text-center w-28">
-                      <div className="flex items-center justify-center gap-1">
-                        <span>Total Posts</span>
-                        {jobSortBy === 'vacancies-desc' && <ArrowDown className="w-3 h-3 text-blue-600" />}
-                        {jobSortBy === 'vacancies-asc' && <ArrowUp className="w-3 h-3 text-blue-600" />}
+                    
+                    {/* Status Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('status', e.shiftKey)}
+                      className="py-3 px-3 w-28 cursor-pointer hover:bg-slate-100 transition group"
+                      title="Click to sort by Status. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-between gap-1">
+                        <span>Status</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'status');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
                       </div>
                     </th>
-                    <th className="py-3 px-3 min-w-[160px]">Qualification</th>
-                    <th className="py-3 px-3 w-32">Last Date</th>
+
+                    {/* Upload Date Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('uploadDate', e.shiftKey)}
+                      className="py-3 px-3 w-36 cursor-pointer hover:bg-slate-100 transition group"
+                      title="Click to sort by Upload Date. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-between gap-1">
+                        <span>Upload Date</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'uploadDate');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white shadow-2xs">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
+                      </div>
+                    </th>
+
+                    {/* Job Title Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('title', e.shiftKey)}
+                      className="py-3 px-3 min-w-[260px] cursor-pointer hover:bg-slate-100 transition group"
+                      title="Click to sort alphabetically by Title. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-between gap-1">
+                        <span>Job Title & Post</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'title');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white shadow-2xs">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
+                      </div>
+                    </th>
+
+                    {/* Job URL Column */}
+                    <th className="py-3 px-3 min-w-[240px]">
+                      <span>Job URL</span>
+                    </th>
+
+                    {/* Organization / Board Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('board', e.shiftKey)}
+                      className="py-3 px-3 min-w-[180px] cursor-pointer hover:bg-slate-100 transition group"
+                      title="Click to sort by Organization / Board. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-between gap-1">
+                        <span>Organization / Board</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'board');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white shadow-2xs">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
+                      </div>
+                    </th>
+
+                    {/* Total Posts Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('vacancies', e.shiftKey)}
+                      className="py-3 px-3 text-center w-32 cursor-pointer hover:bg-slate-100 transition group bg-blue-50/40"
+                      title="Click to sort by Total Vacancies. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-center gap-1.5">
+                        <span>Total Posts</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'vacancies');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white shadow-2xs">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
+                      </div>
+                    </th>
+
+                    {/* Qualification Column */}
+                    <th className="py-3 px-3 min-w-[160px]">
+                      <span>Qualification</span>
+                    </th>
+
+                    {/* Last Date Column */}
+                    <th
+                      onClick={(e) => handleColumnHeaderClick('lastDate', e.shiftKey)}
+                      className="py-3 px-3 w-32 cursor-pointer hover:bg-slate-100 transition group"
+                      title="Click to sort by Last Date. Hold Shift to multi-sort."
+                    >
+                      <div className="flex items-center justify-between gap-1">
+                        <span>Last Date</span>
+                        {(() => {
+                          const idx = sortLevels.findIndex(l => l.column === 'lastDate');
+                          if (idx === -1) return <ArrowUpDown className="w-3 h-3 text-slate-300 group-hover:text-slate-500" />;
+                          return (
+                            <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[9px] font-black bg-blue-600 text-white shadow-2xs">
+                              #{idx + 1} {sortLevels[idx].order === 'desc' ? '▼' : '▲'}
+                            </span>
+                          );
+                        })()}
+                      </div>
+                    </th>
+
                     <th className="py-3 px-3 text-center w-36">Actions</th>
                   </tr>
                 </thead>
