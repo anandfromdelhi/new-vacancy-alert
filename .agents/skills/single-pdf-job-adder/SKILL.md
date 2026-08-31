@@ -20,11 +20,14 @@ Use this skill whenever the user uploads a single PDF vacancy notification, scre
    - **Right Sidebar Strict Vertical Tiling Rule**: Any widgets placed inside the right sidebar (such as **Related & Trending Government Vacancies 2026**, author cards, social handles) MUST ALWAYS tile vertically in a single column (`flex flex-col space-y-2.5` or `grid grid-cols-1 gap-2.5`). **NEVER** use horizontal multi-column classes (`grid-cols-2`, `grid-cols-3`, `lg:grid-cols-3`) inside the sidebar, which makes cards unreadable and squished in desktop view.
    - **Visual Callouts & Badge Clusters**: Highlight critical clauses (bonds, physical cut-offs, typing metrics, certificate validity dates) using alert badges (`border-l-4`, badge chips `bg-emerald-50 text-emerald-700 border-emerald-200`, `bg-amber-50`, `bg-indigo-50`).
    - **No Horizontal Scroll**: Guarantees all tables, cards, and grids are 100% responsive (`w-full`, `max-w-full`, `break-words`, `overflow-hidden`).
-6. **Full SSG Pre-rendering & SEO Optimization**:
+6. **Prominent "Click to Apply" CTA / Button / Section**:
+   - Include a prominent "Click to Apply" / "Apply Online" action button or section placed just below the Important Dates section, directing applicants straight to the official government application portal.
+   - Extract the apply URL from the PDF / official notification text (e.g. within "How to Apply" guidelines, official portal URLs, or online registration links); only if no application URL is found anywhere in the notice, omit this button.
+7. **Full SSG Pre-rendering & SEO Optimization**:
    - Pre-renders full raw HTML markup into `dist/<job-id>/index.html` and `dist/<job-id>.html` so search engines (Googlebot) can index 100% of the job content without executing client JavaScript.
    - Generates route-specific `<title>`, `<meta name="description">`, Open Graph, Twitter, and Schema.org JSON-LD tags (`JobPosting`, `FAQPage`, `BreadcrumbList`).
    - Injects `__SSR_JOB_DATA__` for immediate client-side React 19 hydration via `hydrateRoot`.
-7. **Dynamic Sitemap & Robots Synchronization**: Automatically updates `public/sitemap.xml`, `dist/sitemap.xml`, and `robots.txt` with the new vacancy URL.
+8. **Dynamic Sitemap & Robots Synchronization**: Automatically updates `public/sitemap.xml`, `dist/sitemap.xml`, and `robots.txt` with the new vacancy URL.
 
 ## Fast Workflow
 
