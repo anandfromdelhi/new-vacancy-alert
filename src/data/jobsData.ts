@@ -816,14 +816,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "india-post-gds-recruitment-2026",
-    "b": "Department of Posts (India Post)",
-    "t": "India Post GDS Recruitment 2026 – Apply Online for 23,757 BPM, ABPM & Dak Sevak Posts",
+    "b": "Department of Posts, Ministry of Communications (Government of India)",
+    "t": "India Post GDS Recruitment 2026 Notification Out for 23,757 BPM, ABPM & Dak Sevak Posts (Schedule-II, July-2026) | Apply Online",
     "d": "20 August 2026",
-    "l": "21 September 2026",
-    "a": "17-12/2026-GDS (Schedule-II)",
-    "q": "10th Standard (Matriculation) Pass with Maths, English & Local Language",
-    "desc": "India Post invites online applications for 23,757 Gramin Dak Sevak (BPM/ABPM/Dak Sevak) vacancies across 23 Circles. 100% 10th Marks Merit Selection (No Exam, No Interview).",
-    "u": "https://indiapost.gov.in/gdsonlineengagement"
+    "l": "21 September 2026 (05:00 PM)",
+    "a": "Notification No: 17-12/2026-GDS (Schedule-II, July-2026) Dated 20.08.2026",
+    "q": "10th Standard (SSE) with passing marks in Mathematics & English + Local Language",
+    "desc": "Department of Posts (DoP), Ministry of Communications, Government of India has officially published the detailed notification (Notification No: 17-12/2026-GDS, Schedule-II, July-2026) on 20 August 2026 for the online engagement of 23,757 Gramin Dak Sevaks (GDSs) including Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), and Dak Sevaks across 23 Postal Circles nationwide.",
+    "u": "https://indiapostgdsonline.gov.in"
 },
   {
     "id": "mpesb-group-3-sub-engineer-recruitment-2026",
