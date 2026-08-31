@@ -233,14 +233,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "southern-railway-act-apprentice-recruitment-2026",
-    "b": "Southern Railway (SR), Carriage & Wagon Works, Perambur, Chennai",
-    "t": "Southern Railway Act Apprentice Recruitment 2026 Notification Out for 4471 Posts (Fresher & Ex-ITI Slots)",
+    "b": "Southern Railway (Carriage & Wagon Works, Perambur, Chennai)",
+    "t": "Southern Railway Act Apprentice Recruitment 2026 Notification Out for 4,471 Posts (163 Freshers & 4,308 Ex-ITI Slots) | Apply Online",
     "d": "28 August 2026",
     "l": "27 September 2026 (05:00 PM)",
-    "a": "Notification No. 01/2026 (CPB/P1/98/Act/TP/Vol.XXI)",
-    "q": "10th Pass (50% min) / 12th with PCB / ITI in Relevant Trade",
-    "desc": "Southern Railway (SR), through the Office of the Chief Workshop Manager, Carriage & Wagon Works, Perambur, has released official Notification No. 01/2026 inviting online applications from eligible candidates for engagement as Act Apprentices under the Apprentices Act, 1961. A total of 4,471 apprentice slots are notified across various Workshops, Divisions, and Production Units located within the geographical jurisdiction of Southern Railway.",
-    "u": "https://sronline.etrpindia.com/rrcchennaiapprentice26/recruitmentIndex"
+    "a": "Notification No. 01/2026 (No. CPB/P1/98/Act/TP/Vol.XXI) Dated 28.08.2026",
+    "q": "10th Pass (min 50%) / 12th Pass (PCB for MLT) / ITI (NCVT/SCVT)",
+    "desc": "Southern Railway, Office of the Chief Workshop Manager, Carriage & Wagon Works, Personnel Branch, Perambur, Chennai has officially released Notification No. 01/2026 on 28 August 2026 for the engagement of 4,471 Act Apprentices under the Apprentices Act, 1961 across various Workshops, Divisions, and Units.",
+    "u": "https://iroams.com/"
 },
   {
     "id": "meghalaya-home-guards-border-wing-guardsman-recruitment-2026",
