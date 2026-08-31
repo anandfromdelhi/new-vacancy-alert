@@ -191,6 +191,7 @@ async function prerender() {
     '/marketing-partner',
     '/marketing-partner/dashboard',
     '/marketing-partner/terms',
+    '/anand',
   ]);
 
   // 1. Qualification Category Routes
@@ -469,7 +470,9 @@ async function prerender() {
     fs.promises.writeFile(path.join(distDir, 'sitemap.xml'), xml),
     fs.promises.writeFile(path.join(distDir, 'rss.xml'), rssXmlContent),
     fs.promises.writeFile(path.join(distDir, 'feed.xml'), rssXmlContent),
-    fs.promises.writeFile(path.join(distDir, 'robots.txt'), robotsTxt)
+    fs.promises.writeFile(path.join(distDir, 'robots.txt'), robotsTxt),
+    fs.promises.writeFile(path.join(distDir, '404.html'), rawTemplate),
+    fs.promises.writeFile(path.join(distDir, '200.html'), rawTemplate)
   ]);
   console.log('✅ Sitemap, RSS feeds & robots.txt generated.');
 }

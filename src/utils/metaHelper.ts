@@ -178,6 +178,12 @@ export function getPageMetaData(urlPath: string) {
     title = `${stateName} Government Jobs 2026 Notifications | NewVacancyAlert`;
     description = `Find all active public sector, state PSC, and government job vacancies in ${stateName}. Direct PDF notifications, eligibility, and apply online links.`;
   }
+  else if (cleanPath === "anand") {
+    title = "Admin Dashboard | NewVacancyAlert";
+    description = "NewVacancyAlert Admin Management Portal";
+    ogUrl = "https://newvacancyalert.in/anand";
+    isNotFound = false;
+  }
   else if (cleanPath.startsWith("board/")) {
     const rawBoard = cleanPath.replace("board/", "").replace(/-/g, " ").toUpperCase();
     title = `${rawBoard} Recruitment 2026 Notifications & Results | NewVacancyAlert`;
