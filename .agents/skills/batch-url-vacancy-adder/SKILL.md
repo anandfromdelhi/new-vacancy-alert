@@ -45,6 +45,7 @@ Use this skill whenever the user provides a list of multiple webpage URLs and as
      - `overview` (2-3 detailed paragraphs)
      - `highlights` (10-12 key parameters)
      - `importantDates` (all key milestones)
+     - **Prominent "Click to Apply" CTA / Button / Section**: Include a prominent "Click to Apply" / "Apply Online" action button or section placed just below the Important Dates section, directing applicants straight to the official government application portal. Extract the apply URL from the page text (e.g. within "How to Apply" steps, application links, or table notes); only if no application URL is found anywhere on the webpage, omit this button.
      - `vacanciesDetails` (complete category/post breakdown)
      - `eligibility` (`education`, `ageLimit`, `medicalStandards`)
      - `salary` (`payLevel`, `initialPay`, `allowances`)
@@ -53,7 +54,7 @@ Use this skill whenever the user provides a list of multiple webpage URLs and as
      - `howToApplySteps` (step-by-step application instructions)
      - `documentsRequired` (certificates, photo/sign specifications)
      - `faqs` (15-20+ practical FAQs addressing all candidate questions)
-     - `urls` (official government recruitment portals)
+     - `urls` (official government recruitment and application portals)
 
 ---
 
