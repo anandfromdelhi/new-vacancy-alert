@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rvunl-junior-engineer-accountant-assistant-recruitment-2026",
+    "b": "Rajasthan State Power Sector Companies (RVUNL, RVPNL, JVVNL, AVVNL, JdVVNL)",
+    "t": "RVUNL Recruitment 2026 Notification Out for 2,005 Junior Engineer, Junior Accountant & Commercial Assistant Posts across 5 Rajasthan Power Companies | Apply Online",
+    "d": "25 June 2026",
+    "l": "31 August 2026 (12:00 Midnight)",
+    "a": "Advt. No. RVUN/P&A/Rectt./2026/01-03 Dated 2026",
+    "q": "B.E/B.Tech (JE) | B.Com/BBA (Accountant) | 12th Pass (Commercial Asst) + Computer Cert",
+    "desc": "Rajasthan Rajya Vidyut Utpadan Nigam Limited (RVUNL), as the nodal agency on behalf of five Rajasthan State Power Companies (RVUN, RVPN, JVVN, AVVN, and JdVVN), has released a mega common recruitment notification for 2,005 vacancies of Junior Engineer-I (869 Posts), Junior Accountant (371 Posts), and Junior Assistant / Commercial Assistant-II (765 Posts).",
+    "u": "https://energy.rajasthan.gov.in/"
+},
+  {
+    "id": "district-court-warangal-senior-superintendent-recruitment-2026",
+    "b": "Principal District and Sessions Court, Warangal (Telangana Judicial Department)",
+    "t": "District Court Warangal Recruitment 2026 Notification Out for Senior Superintendent (Head Clerk) Post | Apply Offline",
+    "d": "28 August 2026",
+    "l": "21 September 2026 (05:00 PM)",
+    "a": "Dis. No. 4393/2026/Admin/Estt Dated 28.08.2026",
+    "q": "See eligibility",
+    "desc": "Principal District and Sessions Judge, Warangal has issued an official recruitment notification for filling 1 post of Senior Superintendent (Head Clerk) on a contract basis in the Fast Track Special Court (FTSC) under the Telangana Judicial Ministerial Service.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0451e6d6e679953c6311757004d8cb/uploads/2026/08/2026082950.pdf"
+},
+  {
+    "id": "dlsa-ferozepur-para-legal-volunteer-recruitment-2026",
+    "b": "District Legal Services Authority Ferozepur (DLSA Ferozepur, Punjab)",
+    "t": "DLSA Ferozepur Recruitment 2026 Notification Out for Para Legal Volunteer (PLV) Posts | Apply Offline",
+    "d": "28 August 2026",
+    "l": "05 September 2026 (05:00 PM)",
+    "a": "Notice No. DLSA/FZR/PLV/2026 Dated August 2026",
+    "q": "10th Pass (Matriculation) with Punjabi language",
+    "desc": "District Legal Services Authority (DLSA) Ferozepur, functioning under the aegis of Punjab State Legal Services Authority (PULSA) and NALSA, has invited offline applications for empanelment of Para Legal Volunteers (PLVs) across Ferozepur district.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03b58ac8403eb9cf17fae1dcd16df7/uploads/2026/08/2026082892.pdf"
+},
+  {
+    "id": "kerala-psc-various-posts-recruitment-2026",
+    "b": "Kerala Public Service Commission (Kerala PSC)",
+    "t": "Kerala PSC Recruitment 2026 Notification Out for 31 Various Posts (Extraordinary Gazette 31.08.2026) | Apply Online",
+    "d": "31 August 2026",
+    "l": "07 October 2026 (12:00 Midnight)",
+    "a": "Extra Ordinary Gazette Notification Dated 31.08.2026",
+    "q": "SSLC / ITI / Diploma / Degree / Master's Degree (Post-wise)",
+    "desc": "Kerala Public Service Commission (Kerala PSC) has officially released the Extra Ordinary Gazette Recruitment Notification on 31 August 2026 announcing 31 vacancies across various State Government Departments and Public Sector Undertakings.",
+    "u": "https://thulasi.psc.kerala.gov.in"
+},
+  {
+    "id": "tnpsc-ctse-interview-posts-recruitment-2026",
+    "b": "Tamil Nadu Public Service Commission (TNPSC)",
+    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 Technical & Officer Posts | Apply Online",
+    "d": "31 August 2026",
+    "l": "06 October 2026 (11:59 PM)",
+    "a": "Advertisement No. 741 | Notification No. 08/2026 Dated 31.08.2026",
+    "q": "See eligibility",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has issued an official recruitment notification (Notification No. 08/2026 / Advt. No. 741) on 31 August 2026 for the Combined Technical Services Examination (Interview Posts) - CTSE 2026 to fill 170 prestigious officer and technical vacancies.",
+    "u": "https://www.tnpscexams.in"
+},
+  {
+    "id": "aiims-patna-senior-resident-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Patna (AIIMS Patna)",
+    "t": "AIIMS Patna Recruitment 2026 Notification Out for 68 Senior Resident Posts | Walk-in Interview",
+    "d": "29 August 2026",
+    "l": "31 July 2026",
+    "a": "Advt. No. SR-rec-walkin-interview-29082026 Dated August 2026",
+    "q": "MD / MS / DNB in concerned specialty + NMC/SMC Registration",
+    "desc": "All India Institute of Medical Sciences, Patna (AIIMS Patna), an autonomous Institute of National Importance under the Ministry of Health & Family Welfare, Government of India, has announced 68 vacancies for Senior Residents (Adhoc) across 16 clinical and para-clinical departments.",
+    "u": "https://api.aiimspatna.edu.in/advertisement/SR-rec-walkin-interview-29082026.pdf"
+},
+  {
+    "id": "iit-delhi-senior-research-fellow-srf-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi) / IRD",
+    "t": "IIT Delhi Recruitment 2026 Notification Out for Senior Research Fellow (SRF) Post | Apply by Email",
+    "d": "28 August 2026",
+    "l": "11 September 2026 (05:00 PM)",
+    "a": "Advt. No. IITD/IRD/Project-Position/2026",
+    "q": "M.Sc / B.Tech in Physics/EP/Electronics (Min 80% marks) + 2 Yrs Exp",
+    "desc": "Industrial Research and Development (IRD) Unit at the Indian Institute of Technology Delhi (IIT Delhi) has invited applications from qualified Indian nationals for 1 Senior Research Fellow (SRF) position under an advanced sponsored research project.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1787911554547_akxu0pt.pdf"
+},
+  {
+    "id": "iit-madras-senior-research-fellow-srf-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras) / IC&SR",
+    "t": "IIT Madras Recruitment 2026 Notification Out for Senior Research Fellow (SRF) Post | Apply Online",
+    "d": "28 August 2026",
+    "l": "11 September 2026 (05:00 PM)",
+    "a": "Advt. No. ICSR/PR/Advt.164/2026 Dated 28.08.2026",
+    "q": "M.Sc / M.Tech / M.E / M.V.Sc with min 80% marks + 2 Yrs Research Experience",
+    "desc": "Centre for Industrial Consultancy and Sponsored Research (IC&SR) at the Indian Institute of Technology Madras (IIT Madras) has released an official recruitment advertisement (Advt. No. ICSR/PR/Advt.164/2026) on 28 August 2026 for 1 Senior Research Fellow (SRF) post on a contractual project basis.",
+    "u": "https://icandsr.iitm.ac.in/careers"
+},
+  {
+    "id": "nit-jamshedpur-guest-sports-coach-recruitment-2026",
+    "b": "National Institute of Technology Jamshedpur (NIT Jamshedpur)",
+    "t": "NIT Jamshedpur Recruitment 2026 Notification Out for 10 Guest Sports Coach Posts | Walk-in Interview",
+    "d": "28 August 2026",
+    "l": "02 September 2026 (10:00 AM)",
+    "a": "Advt. No. NITJSR/Notice/Guest Coaches/2026",
+    "q": "Coaching Diploma / Certificate / National or State Level Player",
+    "desc": "National Institute of Technology Jamshedpur (NIT Jamshedpur), an Institute of National Importance under the Ministry of Education, Government of India, has issued an official recruitment notice for 10 vacancies of Guest Sports Coaches across various athletic disciplines on a contractual basis.",
+    "u": "https://nitjsr.ac.in/backend/uploads/recruitments/88c52d32-d774-4573-a6c2-9a27d123ee28-Notice_Guest%20Coaches.pdf"
+},
+  {
+    "id": "iit-roorkee-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee (IIT Roorkee)",
+    "t": "IIT Roorkee Recruitment 2026 Notification Out for Junior Research Fellow (JRF) Post",
+    "d": "18 August 2026",
+    "l": "07 September 2026",
+    "a": "Advt. No. PPE/2026/adv20082026 Dated 18.08.2026",
+    "q": "M.Tech (Chemical/Ceramic/Mech) OR M.Sc (Chemistry/Applied Chemistry)",
+    "desc": "Indian Institute of Technology Roorkee (IIT Roorkee), an Institute of National Importance under the Ministry of Education, has released an official recruitment notification (Advt. No. PPE/2026/adv20082026) on 18 August 2026 for 1 Junior Research Fellow (JRF) position under a sponsored research project.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/PPE/2026/adv20082026.pdf"
+},
+  {
     "id": "bank-of-india-so-specialist-officers-recruitment-2026",
     "b": "Bank of India (BOI)",
     "t": "Bank of India (BOI) SO Recruitment 2026 Notification Out for 205 Specialist Officer Posts (Scale I to IV)",
