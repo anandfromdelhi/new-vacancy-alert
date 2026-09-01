@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ballia-civil-court-part-time-contractual-sweeper-recruitment-2026",
+    "b": "Ballia Civil Court",
+    "t": "Ballia Civil Court Recruitment 2026 Notification Out for 9 Part-time Contractual Sweeper Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "08 September 2026",
+    "a": "BALLIA-CIVIL-C/2026",
+    "q": "Class 6 pass",
+    "desc": "Ballia Civil Court has officially released employment advertisement notification BALLIA-CIVIL-C/2026 for the recruitment of 9 vacancies for Part-time Contractual Sweeper posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec05967990de5b3eac7b87d49a13c683/uploads/2026/08/2026082175.pdf"
+},
+  {
+    "id": "atal-awas-vidyalaya-muzaffarna-guest-faculty-teacher-tgtpgt-recruitment-2026",
+    "b": "Atal Awas Vidyalaya Muzaffarnagar",
+    "t": "Atal Awas Vidyalaya Muzaffarnagar Recruitment 2026 Notification Out for 9 Guest Faculty Teacher (TGT/PGT) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "07 September 2026",
+    "a": "1/719787/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Atal Awas Vidyalaya Muzaffarnagar has officially released employment advertisement notification 1/719787/2026 for the recruitment of 9 vacancies for Guest Faculty Teacher (TGT/PGT) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3335f5352088d7d9bf74191e006d8e24c/uploads/2026/08/17872974524638.pdf"
+},
+  {
+    "id": "chief-medical-office-chitrakoo-medical-officer-mbbs-recruitment-2026",
+    "b": "Chief Medical Office Chitrakoot (CMO Chitrakoot)",
+    "t": "Chief Medical Office Chitrakoot (CMO Chitrakoot) Recruitment 2026 Notification Out for 11 Medical Officer (MBBS) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "CHIEF-MEDICAL-/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Chief Medical Office Chitrakoot (CMO Chitrakoot) has officially released employment advertisement notification CHIEF-MEDICAL-/2026 for the recruitment of 11 vacancies for Medical Officer (MBBS) posts.",
+    "u": "https://cdn.s3waas.gov.in/s33b8a614226a953a8cd9526fca6fe9ba5/uploads/2026/08/17880038828605.pdf"
+},
+  {
+    "id": "chief-medical-office-farrukhab-district-grievance-manager-recruitment-2026",
+    "b": "Chief Medical Office Farrukhabad (CMO Farrukhabad)",
+    "t": "Chief Medical Office Farrukhabad (CMO Farrukhabad) Recruitment 2026 Notification Out for 1 District Grievance Manager Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "17 September 2026",
+    "a": "CHIEF-MEDICAL-/2026",
+    "q": "Diploma | MBA / BBA | Master's / PG Degree",
+    "desc": "Chief Medical Office Farrukhabad (CMO Farrukhabad) has officially released employment advertisement notification CHIEF-MEDICAL-/2026 for the recruitment of 1 vacancies for District Grievance Manager posts.",
+    "u": "https://cdn.s3waas.gov.in/s37a614fd06c325499f1680b9896beedeb/uploads/2026/08/17881682296485.pdf"
+},
+  {
+    "id": "atal-awasiya-vidyalaya-lalitpu-guest-faculty-pgttgt-recruitment-2026",
+    "b": "Atal Awasiya Vidyalaya Lalitpur",
+    "t": "Atal Awasiya Vidyalaya Lalitpur Recruitment 2026 Notification Out for 13 Guest Faculty (PGT/TGT) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "05 September 2026",
+    "a": "ATAL-AWASIYA-V/2026",
+    "q": "B.Sc | M.Sc | M.Com",
+    "desc": "Atal Awasiya Vidyalaya Lalitpur has officially released employment advertisement notification ATAL-AWASIYA-V/2026 for the recruitment of 13 vacancies for Guest Faculty (PGT/TGT) posts.",
+    "u": "https://lalitpur.nic.in/event/%e0%a4%85%e0%a4%9f%e0%a4%b2-%e0%a4%86%e0%a4%b5%e0%a4%be%e0%a4%b8%e0%a5%80%e0%a4%af-%e0%a4%b5%e0%a4%bf%e0%a4%a6%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%97%e0%a5%8d%e0%a4%b0%e0%a4%be-4/"
+},
+  {
+    "id": "upsssc-pet-2026-notification-o-various-posts-recruitment-2026",
+    "b": "UPSSSC PET 2026 Notification Out",
+    "t": "UPSSSC PET 2026 Notification Out Recruitment 2026 Notification Out for 1 Various Posts Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07.09.2026",
+    "a": "16-Exam/2026",
+    "q": "10th / 8th Pass",
+    "desc": "UPSSSC PET 2026 Notification Out has officially released employment advertisement notification 16-Exam/2026 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://upsssc.gov.in/ViewPdf.aspx?LJ0+xev5beONonuJqHYqzalkDoiHjXjUT+IVyXzTJGE="
+},
+  {
+    "id": "indian-institute-of-technology-project-research-scientist-i-n-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad",
+    "t": "Indian Institute of Technology Hyderabad Recruitment 2026 Notification Out for 1 Project Research Scientist - I (Non-Medical) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "03 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Research Scientist - I (Non-Medical) posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/PRS-I_ADVT.pdf"
+},
+  {
+    "id": "khammam-district-court-special-judicial-magistrate-of-recruitment-2026",
+    "b": "Khammam District Court",
+    "t": "Khammam District Court Recruitment 2026 Notification Out for 1 Special Judicial Magistrate of Second Class Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "21 September 2026",
+    "a": "Dis No. 3663",
+    "q": "Retired Judicial Officer or equivalent as per High Court ROC No.2589/95/...",
+    "desc": "Khammam District Court has officially released employment advertisement notification Dis No. 3663 for the recruitment of 1 vacancies for Special Judicial Magistrate of Second Class posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02e8bf0f27d70d480d3ab793bb7619/uploads/2026/08/2026082117.pdf"
+},
+  {
+    "id": "bric-national-institute-of-ani-project-technical-support-iii-recruitment-2026",
+    "b": "BRIC National Institute of Animal Biotechnology (BRIC NIAB)",
+    "t": "BRIC National Institute of Animal Biotechnology (BRIC NIAB) Recruitment 2026 Notification Out for 1 Project Technical Support III Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "04 September 2026",
+    "a": "20 / 2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "BRIC National Institute of Animal Biotechnology (BRIC NIAB) has officially released employment advertisement notification 20 / 2026 for the recruitment of 1 vacancies for Project Technical Support III posts.",
+    "u": "https://www.niab.org.in/Notifications/Advt_20_2026/Notification_20_2026.pdf"
+},
+  {
+    "id": "vo-chidambaranar-port-authorit-senior-deputy-secretary-recruitment-2026",
+    "b": "V.O. Chidambaranar Port Authority (VOCPA)",
+    "t": "V.O. Chidambaranar Port Authority (VOCPA) Recruitment 2026 Notification Out for 1 Senior Deputy Secretary Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "29 September 2026",
+    "a": "VO-CHIDAMBARAN/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "V.O. Chidambaranar Port Authority (VOCPA) has officially released employment advertisement notification VO-CHIDAMBARAN/2026 for the recruitment of 1 vacancies for Senior Deputy Secretary posts.",
+    "u": "https://docs.google.com/viewer?url=https%3A%2F%2Fwww.vocport.gov.in%2Fapi%2Ffiles%2Fcareers%2Fcareer-1788160631047-654451472.pdf&embedded=true"
+},
+  {
     "id": "district-social-welfare-office-case-worker-security-recruitment-2026",
     "b": "District Social Welfare Office Kanchipuram (DSWO Kanchipuram)",
     "t": "District Social Welfare Office Kanchipuram (DSWO Kanchipuram) Recruitment 2026 Notification Out for 3 Case Worker, Security Posts | Apply Offline",
