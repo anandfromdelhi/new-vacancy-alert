@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kamala-nehru-college-delhi-assistant-professor-recruitment-2026",
+    "b": "Kamala Nehru College Delhi",
+    "t": "Kamala Nehru College Delhi Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "KNC/2026/",
+    "q": "As per UGC Regulations and University of Delhi norms/guidelines for Assi...",
+    "desc": "Kamala Nehru College Delhi has officially released employment advertisement notification KNC/2026/ for the recruitment of 1 vacancies for Assistant Professor posts.",
+    "u": "https://www.du.ac.in/uploads/2026/31082026-kamala-Advertisement%20pol.sc.-2.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-project-assistant-admin-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi",
+    "t": "Indian Institute of Technology Delhi Recruitment 2026 Notification Out for 1 Senior Project Assistant (Admin.) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "02 September 2026",
+    "a": "IITD/IRD/220/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Delhi has officially released employment advertisement notification IITD/IRD/220/2026 for the recruitment of 1 vacancies for Senior Project Assistant (Admin.) posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1787116158446_yc308p5.pdf"
+},
+  {
+    "id": "gail-india-limited-a-governmen-online-recruitment-2026",
+    "b": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU)",
+    "t": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU) Recruitment 2026 Notification Out for 1 Online Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "18 March 2027, 6:00 PM",
+    "a": "GAIL/OPEN/ET/1/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU) has officially released employment advertisement notification GAIL/OPEN/ET/1/2026 for the recruitment of 1 vacancies for Online posts.",
+    "u": "https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01-09-2026.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-project-technical-support-ii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 2 Project Technical Support II Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 2 vacancies for Project Technical Support II posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/physiology-1-9-26.pdf"
+},
+  {
+    "id": "government-college-daman-assistant-professor-recruitment-2026",
+    "b": "Government College Daman",
+    "t": "Government College Daman Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "15 September 2026",
+    "a": "GC/DMN/PG/Application STC/2026-27/693",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Government College Daman has officially released employment advertisement notification GC/DMN/PG/Application STC/2026-27/693 for the recruitment of 1 vacancies for Assistant Professor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/08/202608311835181932.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-assistant-training-and-placeme-recruitment-2026",
+    "b": "Indian Institute of Technology Bhilai (IIT Bhilai)",
+    "t": "Indian Institute of Technology Bhilai (IIT Bhilai) Recruitment 2026 Notification Out for 1 Assistant Training and Placement Officer Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "14 September 2026",
+    "a": "IITBhilai/ESTT/Staff-Rec./2026/131",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Bhilai (IIT Bhilai) has officially released employment advertisement notification IITBhilai/ESTT/Staff-Rec./2026/131 for the recruitment of 1 vacancies for Assistant Training and Placement Officer posts.",
+    "u": "https://www.iitbhilai.ac.in/index.php?pid=adv_atpo_240826"
+},
+  {
+    "id": "women-and-child-development-de-security-guard-night-guard-recruitment-2026",
+    "b": "Women and Child Development Department Dhamtari",
+    "t": "Women and Child Development Department Dhamtari Recruitment 2026 Notification Out for 1 Security Guard/ Night Guard Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "WOMEN-AND-CHIL/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Women and Child Development Department Dhamtari has officially released employment advertisement notification WOMEN-AND-CHIL/2026 for the recruitment of 1 vacancies for Security Guard/ Night Guard posts.",
+    "u": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/08/17881497866971.pdf"
+},
+  {
+    "id": "industrial-training-institute-guest-lecturer-copa-recruitment-2026",
+    "b": "Industrial Training Institute Kondagaon",
+    "t": "Industrial Training Institute Kondagaon Recruitment 2026 Notification Out for 1 Guest Lecturer (COPA) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "12 September 2026",
+    "a": "Order No. 931 dated 06-08-2026",
+    "q": "ITI | MCA / BCA | Any Bachelor's Degree",
+    "desc": "Industrial Training Institute Kondagaon has officially released employment advertisement notification Order No. 931 dated 06-08-2026 for the recruitment of 1 vacancies for Guest Lecturer (COPA) posts.",
+    "u": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/09/17882446195030.pdf"
+},
+  {
+    "id": "sainik-school-ambikapur-laboratory-assistant-biology-p-recruitment-2026",
+    "b": "Sainik School Ambikapur",
+    "t": "Sainik School Ambikapur Recruitment 2026 Notification Out for 7 Laboratory Assistant (Biology), PE/MATH cum Matron (Female only), Band Master/Music Teacher, Ward Boy (General service) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "11 September 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Sainik School Ambikapur has officially released employment advertisement notification SAINIK-SCHOOL-/2026 for the recruitment of 7 vacancies for Laboratory Assistant (Biology), PE/MATH cum Matron (Female only), Band Master/Music Teacher, Ward Boy (General service) posts.",
+    "u": "https://sainikschoolambikapur.org.in/pdf/Recruit%20of%20Staff_2026.pdf"
+},
+  {
     "id": "postgraduate-institute-of-medi-senior-resident-recruitment-2026",
     "b": "Postgraduate Institute of Medical Education & Research (PGIMER)",
     "t": "Postgraduate Institute of Medical Education & Research (PGIMER) Recruitment 2026 Notification Out for 1 Senior Resident Posts | Apply Online",
