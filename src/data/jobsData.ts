@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-project-office-helper-project-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur)",
+    "t": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) Recruitment 2026 Notification Out for 1 Project Office Helper (Project Support Staff-I) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "AIIMS/NGP/Pathology/Rec/2026/PSS-I-01",
+    "q": "10th / 8th Pass | 12th Pass | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has officially released employment advertisement notification AIIMS/NGP/Pathology/Rec/2026/PSS-I-01 for the recruitment of 1 vacancies for Project Office Helper (Project Support Staff-I) posts.",
+    "u": "https://aiimsnagpur.edu.in/upload/recruitment/AIIMS_Nagpur_Project_Office_Helper_Recruitment_Notification_Proper_Format.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-project-co-ordinator-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Project Co-ordinator Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "ADVANCED-CENTR/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially released employment advertisement notification ADVANCED-CENTR/2026 for the recruitment of 1 vacancies for Project Co-ordinator posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-08/Walk%20in%20Project%20Co-ordinator%2010.09.2026.pdf"
+},
+  {
+    "id": "rashtriya-chemicals-and-fertil-advisor-secretarial-recruitment-2026",
+    "b": "Rashtriya Chemicals and Fertilizers (RCFL)",
+    "t": "Rashtriya Chemicals and Fertilizers (RCFL) Recruitment 2026 Notification Out for 1 Advisor - Secretarial Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07 September 2026",
+    "a": "RASHTRIYA-CHEM/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Rashtriya Chemicals and Fertilizers (RCFL) has officially released employment advertisement notification RASHTRIYA-CHEM/2026 for the recruitment of 1 vacancies for Advisor - Secretarial posts.",
+    "u": "https://www.rcfltd.com/files/Advertisement%20-%20Advisor%20-%20Secretarial.pdf"
+},
+  {
+    "id": "employees-state-insurance-soci-speciality-medical-officer-gyn-recruitment-2026",
+    "b": "Employees State Insurance Society Hospital (ESIS Hospital Mulund)",
+    "t": "Employees State Insurance Society Hospital (ESIS Hospital Mulund) Recruitment 2026 Notification Out for 1 Speciality Medical Officer - Gynecology Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "02 September 2026 (Walk-in)",
+    "a": "EMPLOYEES-STAT/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Employees State Insurance Society Hospital (ESIS Hospital Mulund) has officially released employment advertisement notification EMPLOYEES-STAT/2026 for the recruitment of 1 vacancies for Speciality Medical Officer - Gynecology posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interviews_for_appointment_of_Speciality_Medical_Officer_on_Contract_basis_in_ESI_Society_Hospital_Mulund_1788246336.pdf"
+},
+  {
+    "id": "indian-institute-of-management-assistant-engineer-audio-visua-recruitment-2026",
+    "b": "Indian Institute of Management Indore (IIM Indore)",
+    "t": "Indian Institute of Management Indore (IIM Indore) Recruitment 2026 Notification Out for 1 Assistant Engineer (Audio Visual) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "17 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Indore (IIM Indore) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Assistant Engineer (Audio Visual) posts.",
+    "u": "https://iimidr.ac.in/careers/manpower-agency-vacancies/assistant-engineer-audio-visual/"
+},
+  {
+    "id": "indian-institute-of-management-post-doctoral-fellow-pdf-opera-recruitment-2026",
+    "b": "Indian Institute of Management Indore (IIM Indore)",
+    "t": "Indian Institute of Management Indore (IIM Indore) Recruitment 2026 Notification Out for 1 Post-Doctoral Fellow (PDF) Operations Management & Quantitative Techniques Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "20 September 2026",
+    "a": "06/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Indore (IIM Indore) has officially released employment advertisement notification 06/2026 for the recruitment of 1 vacancies for Post-Doctoral Fellow (PDF) Operations Management & Quantitative Techniques posts.",
+    "u": "https://iimidr.ac.in/careers/recruitment-notification-no-06-2026-advertisement-for-post-doctoral-fellow-pdf-operations-management-quantitative-techniques-area/"
+},
+  {
+    "id": "gas-authority-of-india-gail-part-time-visiting-medical-con-recruitment-2026",
+    "b": "Gas Authority of India (GAIL)",
+    "t": "Gas Authority of India (GAIL) Recruitment 2026 Notification Out for 1 Part Time Visiting Medical Consultant - MD (Medicine) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "GAIL/ BHOPAL/ MED/ PART CONSL/ 01/ 2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Gas Authority of India (GAIL) has officially released employment advertisement notification GAIL/ BHOPAL/ MED/ PART CONSL/ 01/ 2026 for the recruitment of 1 vacancies for Part Time Visiting Medical Consultant - MD (Medicine) posts.",
+    "u": "https://www.gailonline.com/careers/currentOpnning/Detailed-Adv-01-09-26.pdf"
+},
+  {
+    "id": "dr-harisingh-gour-vishwavidyal-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU)",
+    "t": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "16 September 2026",
+    "a": "ANRF-ARG/ENVS/2026/607",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU) has officially released employment advertisement notification ANRF-ARG/ENVS/2026/607 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://dhsgsu.edu.in/images/2026/September-26/01/Advertisment_ANRF_Environmental-Sciences.pdf"
+},
+  {
+    "id": "lakshadweep-administration-senior-energy-consultant-and-a-recruitment-2026",
+    "b": "Lakshadweep Administration",
+    "t": "Lakshadweep Administration Recruitment 2026 Notification Out for 2 Senior Energy Consultant and Assistant Energy Consultant Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "20 September 2026",
+    "a": "LD/9/2026-LED-ELECTRICITY",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Lakshadweep Administration has officially released employment advertisement notification LD/9/2026-LED-ELECTRICITY for the recruitment of 2 vacancies for Senior Energy Consultant and Assistant Energy Consultant posts.",
+    "u": "https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2026/08/17881701498041.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-project-associate-i-recruitment-2026",
+    "b": "National Institute of Technology Calicut",
+    "t": "National Institute of Technology Calicut Recruitment 2026 Notification Out for 2 Project Associate I Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "13 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "National Institute of Technology Calicut has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 2 vacancies for Project Associate I posts.",
+    "u": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__395e0d5b-b079-469a-abb9-2d1f3cfa2147_.pdf"
+},
+  {
     "id": "kerala-public-service-commissi-junior-assistant-beat-forest-o-recruitment-2026",
     "b": "Kerala Public Service Commission (Kerala PSC)",
     "t": "Kerala Public Service Commission (Kerala PSC) Recruitment 2026 Notification Out for 31 Junior Assistant, Beat Forest Officer and More Posts Posts | Apply Online",
