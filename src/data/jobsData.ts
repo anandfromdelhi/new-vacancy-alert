@@ -12,6 +12,83 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-social-welfare-office-case-worker-security-recruitment-2026",
+    "b": "District Social Welfare Office Kanchipuram (DSWO Kanchipuram)",
+    "t": "District Social Welfare Office Kanchipuram (DSWO Kanchipuram) Recruitment 2026 Notification Out for 3 Case Worker, Security Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "DISTRICT-SOCIA/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "District Social Welfare Office Kanchipuram (DSWO Kanchipuram) has officially released employment advertisement notification DISTRICT-SOCIA/2026 for the recruitment of 3 vacancies for Case Worker, Security posts.",
+    "u": "https://cdn.s3waas.gov.in/s31543843a4723ed2ab08e18053ae6dc5b/uploads/2026/08/17879187064745.pdf"
+},
+  {
+    "id": "district-health-society-kanche-district-programme-manager-yog-recruitment-2026",
+    "b": "District Health Society Kancheepuram (DHS Kancheepuram)",
+    "t": "District Health Society Kancheepuram (DHS Kancheepuram) Recruitment 2026 Notification Out for 2 District Programme Manager, Yoga and Naturopathy Therapeutic Assistant Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "11 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "Diploma | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "District Health Society Kancheepuram (DHS Kancheepuram) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for District Programme Manager, Yoga and Naturopathy Therapeutic Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s31543843a4723ed2ab08e18053ae6dc5b/uploads/2026/08/17881776532793.pdf"
+},
+  {
+    "id": "tnpsc-ctse-interview-posts-research-assistant-assistant-m-recruitment-2026",
+    "b": "TNPSC CTSE Interview Posts",
+    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 Research Assistant, Assistant Manager and More Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "06.10.2026, 11:59 PM",
+    "a": "741",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "TNPSC CTSE Interview Posts has officially released employment advertisement notification 741 for the recruitment of 170 vacancies for Research Assistant, Assistant Manager and More posts.",
+    "u": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf"
+},
+  {
+    "id": "indian-institute-of-management-research-assistant-ra-recruitment-2026",
+    "b": "Indian Institute of Management Udaipur (IIM Udaipur)",
+    "t": "Indian Institute of Management Udaipur (IIM Udaipur) Recruitment 2026 Notification Out for 2 Research Assistant (RA) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Udaipur (IIM Udaipur) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 2 vacancies for Research Assistant (RA) posts.",
+    "u": "https://www.iimu.ac.in/applications-are-invited-for-research-associate-centre-for-development-policy-and-management-cdpm-aug-2026/"
+},
+  {
+    "id": "birla-institute-of-technology-junior-research-fellow-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology and Science, Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "20 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Birla Institute of Technology and Science, Pilani (BITS Pilani) has officially released employment advertisement notification BIRLA-INSTITUT/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/ADVERTISEMENT_BITS-IITRProf-Arnab-Hazra-on-19-08-2026.pdf"
+},
+  {
+    "id": "icmr-national-institute-of-hea-program-coordinator-research-a-recruitment-2026",
+    "b": "ICMR National Institute of Health Research (ICMR-NIHR)",
+    "t": "ICMR National Institute of Health Research (ICMR-NIHR) Recruitment 2026 Notification Out for 4 Program Coordinator, Research Associate Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "ICMR-NATIONAL-/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICMR National Institute of Health Research (ICMR-NIHR) has officially released employment advertisement notification ICMR-NATIONAL-/2026 for the recruitment of 4 vacancies for Program Coordinator, Research Associate posts.",
+    "u": "https://nihrjodhpur.icmr.org.in/admin/en_doc/surakshaadv.pdf"
+},
+  {
+    "id": "sssb-punjab-je-educationaltechnical-qualifica-recruitment-2026",
+    "b": "SSSB Punjab JE",
+    "t": "SSSB Punjab JE Recruitment 2026 Notification Out for 1 Educational/Technical Qualification Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "06 April 2026",
+    "a": "SSSB-PUNJAB-JE/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "SSSB Punjab JE has officially released employment advertisement notification SSSB-PUNJAB-JE/2026 for the recruitment of 1 vacancies for Educational/Technical Qualification posts.",
+    "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/09/%E0%A8%B8%E0%A9%8B%E0%A8%A7-%E0%A8%AA%E0%A9%B1%E0%A8%A4%E0%A8%B0-1.pdf"
+},
+  {
     "id": "family-court-kapurthala-counsellor-recruitment-2026",
     "b": "Family Court Kapurthala",
     "t": "Family Court Kapurthala Recruitment 2026 Notification Out for 1 Counsellor Posts | Apply Offline",
