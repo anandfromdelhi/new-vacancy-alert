@@ -12,6 +12,94 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-ports-association-ipa-senior-consultant-consultant-recruitment-2026",
+    "b": "Indian Ports Association (IPA)",
+    "t": "Indian Ports Association (IPA) Recruitment 2026 Notification Out for 5 Senior Consultant / Consultant Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "18 September 2026",
+    "a": "IPA/ IC-CONSULTANTS- MoPSW/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Ports Association (IPA) has officially released employment advertisement notification IPA/ IC-CONSULTANTS- MoPSW/2026 for the recruitment of 5 vacancies for Senior Consultant / Consultant posts.",
+    "u": "https://www.ipa.org.in"
+},
+  {
+    "id": "ircon-renewable-power-irpl-finance-assistant-company-secr-recruitment-2026",
+    "b": "Ircon Renewable Power (IRPL)",
+    "t": "Ircon Renewable Power (IRPL) Recruitment 2026 Notification Out for 2 Finance Assistant, Company Secretary Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "28 September 2026",
+    "a": "IRPL/C02/2026",
+    "q": "12th Pass",
+    "desc": "Ircon Renewable Power (IRPL) has officially released employment advertisement notification IRPL/C02/2026 for the recruitment of 2 vacancies for Finance Assistant, Company Secretary posts.",
+    "u": "https://www.ircon.org/sites/default/files/2026-08/Advt%20%20No%20IRPL%20C02%202026.pdf"
+},
+  {
+    "id": "digital-india-corporation-dic-assistant-manager-future-skill-recruitment-2026",
+    "b": "Digital India Corporation (DIC)",
+    "t": "Digital India Corporation (DIC) Recruitment 2026 Notification Out for 2 Assistant Manager - Future Skills Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "11 September 2026",
+    "a": "INDAI/160/2026-INDAI",
+    "q": "Any Bachelor's Degree",
+    "desc": "Digital India Corporation (DIC) has officially released employment advertisement notification INDAI/160/2026-INDAI for the recruitment of 2 vacancies for Assistant Manager - Future Skills posts.",
+    "u": "https://dicmedia.digitalindiacorporation.in/JD-Asst.-Manager-Future-Skill.pdf"
+},
+  {
+    "id": "delhi-college-of-arts-commerce-guest-faculty-recruitment-2026",
+    "b": "Delhi College of Arts & Commerce (DCAC)",
+    "t": "Delhi College of Arts & Commerce (DCAC) Recruitment 2026 Notification Out for 4 Guest Faculty Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "08 September 2026 (Walk-in)",
+    "a": "#DCAC/GUEST/2026/724",
+    "q": "Eligibility criteria are same as prescribed for regular Assistant Profes...",
+    "desc": "Delhi College of Arts & Commerce (DCAC) has officially released employment advertisement notification #DCAC/GUEST/2026/724 for the recruitment of 4 vacancies for Guest Faculty posts.",
+    "u": "https://www.du.ac.in/uploads/2026/31082026-dcac-Notice_Guest_English_2026.pdf"
+},
+  {
+    "id": "hll-maximum-age-as-on-01082026-recruitment-2026",
+    "b": "HLL",
+    "t": "HLL Recruitment 2026 Notification Out for 1 Maximum Age (as on 01.08.2026) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "23 September 2026",
+    "a": "HLL/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "HLL has officially released employment advertisement notification HLL/2026 for the recruitment of 1 vacancies for Maximum Age (as on 01.08.2026) posts.",
+    "u": "https://www.lifecarehll.com/careers/view/reference/03f544613917945245041ea1581df0c2hX-Kgg"
+},
+  {
+    "id": "delhi-university-junior-research-fellow-jrf-and-recruitment-2026",
+    "b": "Delhi University",
+    "t": "Delhi University Recruitment 2026 Notification Out for 3 Junior Research Fellow (JRF) and Research Intern (RI) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026 (21 days from advertisement)",
+    "a": "DELHI-UNIVERSI/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Delhi University has officially released employment advertisement notification DELHI-UNIVERSI/2026 for the recruitment of 3 vacancies for Junior Research Fellow (JRF) and Research Intern (RI) posts.",
+    "u": "https://www.du.ac.in/uploads/2026/31082026-cic-JRF-RI%20Advt..pdf"
+},
+  {
+    "id": "delhi-university-music-teacher-part-time-recruitment-2026",
+    "b": "Delhi University",
+    "t": "Delhi University Recruitment 2026 Notification Out for 1 Music Teacher (Part-Time) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "DELHI-UNIVERSI/2026",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Delhi University has officially released employment advertisement notification DELHI-UNIVERSI/2026 for the recruitment of 1 vacancies for Music Teacher (Part-Time) posts.",
+    "u": "https://www.du.ac.in/uploads/2026/25082026_CIE-Advertisement_Music_Teacher.pdf"
+},
+  {
+    "id": "icar-indian-agricultural-resea-junior-research-fellowsenior-r-recruitment-2026",
+    "b": "ICAR Indian Agricultural Research Institute",
+    "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 Notification Out for 3 Junior Research Fellow/Senior Research Fellow and Field Assistant Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "ICAR-INDIAN-AG/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "ICAR Indian Agricultural Research Institute has officially released employment advertisement notification ICAR-INDIAN-AG/2026 for the recruitment of 3 vacancies for Junior Research Fellow/Senior Research Fellow and Field Assistant posts.",
+    "u": "https://iari.res.in/files/jobs/Advertisement_IARI_website_31082026.pdf"
+},
+  {
     "id": "kamala-nehru-college-delhi-assistant-professor-recruitment-2026",
     "b": "Kamala Nehru College Delhi",
     "t": "Kamala Nehru College Delhi Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
