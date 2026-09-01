@@ -1944,6 +1944,21 @@ export default function JobDetailPage() {
                     <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform shrink-0" />
                   </Link>
                 )}
+
+                {id === 'bpsc-tre-4-school-teacher-recruitment-2026' && (
+                  <Link 
+                    to="/articles/best-books-for-bpsc-tre-4"
+                    className="bg-purple-50 hover:bg-purple-600 text-purple-900 hover:text-white border-2 border-purple-200 hover:border-purple-600 transition-all rounded-xl p-3.5 sm:p-4 flex items-center justify-between group font-bold text-xs sm:text-sm shadow-xs"
+                  >
+                    <span className="flex items-center gap-2.5 sm:gap-3">
+                      <div className="p-2 rounded-lg bg-white/80 group-hover:bg-white/20 text-purple-600 group-hover:text-white transition-colors shrink-0">
+                        <BookOpen className="h-4 w-4 sm:h-5 sm:w-5" />
+                      </div>
+                      <span className="leading-snug">Best Books for PRT, TGT &amp; PGT 2026</span>
+                    </span>
+                    <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform shrink-0" />
+                  </Link>
+                )}
               </div>
             </section>
           )}
@@ -5059,6 +5074,18 @@ export default function JobDetailPage() {
                     >
                       <span className="flex items-center gap-2">
                         <TrendingUp className="h-4 w-4 shrink-0" /> Previous Cutoff Analysis
+                      </span>
+                      <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  )}
+
+                  {id === 'bpsc-tre-4-school-teacher-recruitment-2026' && (
+                    <Link 
+                      to="/articles/best-books-for-bpsc-tre-4"
+                      className="bg-purple-50 hover:bg-purple-600 text-purple-700 hover:text-white border border-purple-200 hover:border-purple-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                    >
+                      <span className="flex items-center gap-2">
+                        <BookOpen className="h-4 w-4 shrink-0 text-purple-600 group-hover:text-white" /> Best Books for PRT, TGT &amp; PGT
                       </span>
                       <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
                     </Link>

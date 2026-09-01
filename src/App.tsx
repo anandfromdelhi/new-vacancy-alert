@@ -24,6 +24,7 @@ const SalaryCalculatorArticle = lazy(() => import('./pages/SalaryCalculatorArtic
 const RrbNtpcBestBooksPage = lazy(() => import('./pages/RrbNtpcBestBooksPage'));
 const MpesbBestBooksPage = lazy(() => import('./pages/MpesbBestBooksPage'));
 const BiharBsfcBestBooksPage = lazy(() => import('./pages/BiharBsfcBestBooksPage'));
+const BpscTre4BestBooksPage = lazy(() => import('./pages/BpscTre4BestBooksPage'));
 
 // SSC CGL Master Guide Hub & 7 Child Chapter Articles
 const SscCglMasterGuidePage = lazy(() => import('./pages/ssc-cgl/SscCglMasterGuidePage'));
@@ -113,6 +114,8 @@ export default function App() {
                   <Route path="articles/best-books-for-rrb-ntpc" element={<RrbNtpcBestBooksPage />} />
                   <Route path="articles/best-books-for-mpesb" element={<MpesbBestBooksPage />} />
                   <Route path="articles/best-books-for-bihar-bsfc" element={<BiharBsfcBestBooksPage />} />
+                  <Route path="articles/best-books-for-bpsc-tre-4" element={<BpscTre4BestBooksPage />} />
+                  <Route path="articles/bpsc-tre-4-best-books" element={<BpscTre4BestBooksPage />} />
                   <Route path="articles/aiims-norcet-11-nursing-officer-2026/cutoff" element={<NorcetCutoffArticle />} />
                   <Route path="articles/aiims-norcet-11-cutoff-marks" element={<NorcetCutoffArticle />} />
 
@@ -140,6 +143,9 @@ export default function App() {
                   <Route path="best-books-for-bihar-bsfc" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
                   <Route path="bihar-bsfc-best-books" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
                   <Route path="best-books-for-bsfc" element={<Navigate to="/articles/best-books-for-bihar-bsfc" replace />} />
+                  <Route path="best-books-for-bpsc-tre-4" element={<Navigate to="/articles/best-books-for-bpsc-tre-4" replace />} />
+                  <Route path="bpsc-tre-4-best-books" element={<Navigate to="/articles/best-books-for-bpsc-tre-4" replace />} />
+                  <Route path="bpsc-tre-4-books" element={<Navigate to="/articles/best-books-for-bpsc-tre-4" replace />} />
                   <Route path="aiims-norcet-11-nursing-officer-2026/cutoff" element={<Navigate to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff" replace />} />
                   <Route path="aiims-norcet-11-cutoff-marks" element={<Navigate to="/articles/aiims-norcet-11-cutoff-marks" replace />} />
                   <Route path="ssc-cgl-master-guide" element={<Navigate to="/articles/ssc-cgl-master-guide" replace />} />

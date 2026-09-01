@@ -26,6 +26,20 @@ interface ArticleItem {
 
 const ARTICLES_LIST: ArticleItem[] = [
   {
+    id: 'bpsc-tre-4-best-books',
+    slug: '/articles/best-books-for-bpsc-tre-4',
+    title: 'BPSC TRE 4.0 Best Books 2026: Subject-Wise Books for PRT, TGT & PGT',
+    excerpt: 'Detailed BPSC TRE 4.0 booklist covering NCERT, Lucent GK, Bihar GK, CDP, Hindi, Maths, Science & subject textbooks for PRT, TGT & PGT with 90-day study plan.',
+    category: 'General',
+    author: 'Bihar Exams Desk',
+    date: '1st September 2026',
+    readTime: '18 min read',
+    featured: true,
+    badge: '🔥 32,388+ Teacher Vacancy',
+    icon: BookOpen,
+    views: '88.5K Views'
+  },
+  {
     id: 'ssc-cgl-master-guide',
     slug: '/articles/ssc-cgl-master-guide',
     title: 'The Ultimate SSC CGL Master Guide: Complete 360° Handbook & Resource Hub',
