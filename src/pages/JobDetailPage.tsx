@@ -620,12 +620,22 @@ export default function JobDetailPage() {
     : defaultHowToApply;
   const hasHowToApply = activeHowToApply.length > 0;
 
+  const rawOfficialLinks = (Array.isArray(job.officialLinks) && job.officialLinks.length > 0)
+    ? job.officialLinks
+    : (Array.isArray(job.urls) && job.urls.length > 0)
+    ? job.urls
+    : (job.u ? [{ label: `${job.board || 'Official'} Recruitment Portal`, url: job.u }] : []);
+
+  const activeOfficialLinks = rawOfficialLinks.filter(item => item && !isNoData(item.url) && !isNoData(item.label || (item as any).title));
+  const hasOfficialLinks = activeOfficialLinks.length > 0 || id === 'aiims-norcet-11-nursing-officer-2026';
+
   const hasFaqs = job.faqs && job.faqs.length > 0;
 
   const sectionsToSearch = [
     { id: 'overview', title: 'Recruitment Overview', desc: 'Detailed introductory summary and background', show: activeOverview.length > 0 },
     { id: 'highlights', title: 'Quick Highlights', desc: 'A quick summary card with key parameters', show: activeHighlights.length > 0 },
     { id: 'dates', title: 'Important Dates', desc: 'Application start, deadline, timeline and crucial dates', show: activeDates.length > 0 },
+    { id: 'official-links', title: 'Official Links', desc: 'Apply online, notification PDF and official website portal', show: hasOfficialLinks },
     { id: 'vacancies', title: 'Vacancy Details', desc: 'Specialty-wise and category-wise post distributions', show: hasVacancies },
     { id: 'eligibility', title: 'Eligibility Criteria', desc: 'Academic qualification, experience and medical standards', show: hasEligibility },
     { id: 'salary', title: 'Salary & Allowances', desc: 'Pay level, basic pay scale and financial perquisites', show: hasSalary },
@@ -666,6 +676,7 @@ export default function JobDetailPage() {
     { id: 'overview', label: 'Overview', icon: FileText, show: activeOverview.length > 0 },
     { id: 'highlights', label: 'Highlights', icon: Target, show: activeHighlights.length > 0 },
     { id: 'dates', label: 'Dates', icon: Calendar, show: activeDates.length > 0 },
+    { id: 'official-links', label: 'Official Links', icon: LinkIcon, show: hasOfficialLinks },
     { id: 'vacancies', label: 'Vacancies', icon: Briefcase, show: hasVacancies },
     { id: 'eligibility', label: 'Eligibility', icon: Award, show: hasEligibility },
     { id: 'salary', label: 'Salary', icon: DollarSign, show: hasSalary },
@@ -1845,6 +1856,97 @@ export default function JobDetailPage() {
             </section>
           )}
 
+          {/* Official Links */}
+          {hasOfficialLinks && (
+            <section 
+              id="official-links" 
+              className={`bg-white rounded-xl sm:rounded-2xl shadow-sm border p-4 sm:p-6 md:p-8 scroll-mt-24 transition-all duration-500 ${
+                flashedSection === 'official-links' 
+                  ? 'ring-4 ring-blue-500 ring-offset-2 border-blue-500 bg-blue-50/20 shadow-md' 
+                  : 'border-slate-200'
+              }`}
+            >
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 sm:mb-6">
+                <h2 className="text-base sm:text-xl md:text-2xl font-black text-slate-800 flex items-center gap-2 sm:gap-3">
+                  <div className="bg-blue-100 p-1.5 sm:p-2 rounded-md sm:rounded-lg text-blue-600">
+                    <LinkIcon className="h-4 w-4 sm:h-5 sm:w-5" />
+                  </div>
+                  Official Links &amp; Portals
+                </h2>
+                <span className="text-[10px] sm:text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-lg w-fit">
+                  Direct Official Sources
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+                {activeOfficialLinks.map((link: any, idx: number) => {
+                  const linkText = link.label || link.title || 'Official Link';
+                  const isInternal = typeof link.url === 'string' && link.url.startsWith('/');
+                  const isPdf = typeof link.url === 'string' && (link.url.toLowerCase().endsWith('.pdf') || linkText.toLowerCase().includes('pdf') || linkText.toLowerCase().includes('notification'));
+                  const isApply = typeof link.url === 'string' && (linkText.toLowerCase().includes('apply') || linkText.toLowerCase().includes('registration') || linkText.toLowerCase().includes('otr'));
+
+                  return isInternal ? (
+                    <Link
+                      key={idx}
+                      to={link.url}
+                      className="bg-amber-50 hover:bg-amber-600 text-amber-900 hover:text-white border-2 border-amber-200 hover:border-amber-600 transition-all rounded-xl p-3.5 sm:p-4 flex items-center justify-between group font-bold text-xs sm:text-sm shadow-xs"
+                    >
+                      <span className="flex items-center gap-2.5 sm:gap-3">
+                        <div className="p-2 rounded-lg bg-white/80 group-hover:bg-white/20 text-amber-600 group-hover:text-white transition-colors shrink-0">
+                          <BookOpen className="h-4 w-4 sm:h-5 sm:w-5" />
+                        </div>
+                        <span className="leading-snug">{linkText}</span>
+                      </span>
+                      <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform shrink-0" />
+                    </Link>
+                  ) : (
+                    <a
+                      key={idx}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`transition-all rounded-xl p-3.5 sm:p-4 flex items-center justify-between group font-bold text-xs sm:text-sm shadow-xs border-2 ${
+                        isApply
+                          ? 'bg-blue-50 hover:bg-blue-600 text-blue-900 hover:text-white border-blue-200 hover:border-blue-600'
+                          : isPdf
+                          ? 'bg-purple-50 hover:bg-purple-600 text-purple-900 hover:text-white border-purple-200 hover:border-purple-600'
+                          : 'bg-emerald-50 hover:bg-emerald-600 text-emerald-900 hover:text-white border-emerald-200 hover:border-emerald-600'
+                      }`}
+                    >
+                      <span className="flex items-center gap-2.5 sm:gap-3">
+                        <div className={`p-2 rounded-lg bg-white/80 group-hover:bg-white/20 transition-colors shrink-0 ${
+                          isApply
+                            ? 'text-blue-600 group-hover:text-white'
+                            : isPdf
+                            ? 'text-purple-600 group-hover:text-white'
+                            : 'text-emerald-600 group-hover:text-white'
+                        }`}>
+                          <ShieldCheck className="h-4 w-4 sm:h-5 sm:w-5" />
+                        </div>
+                        <span className="leading-snug">{linkText}</span>
+                      </span>
+                      <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform shrink-0" />
+                    </a>
+                  );
+                })}
+
+                {id === 'aiims-norcet-11-nursing-officer-2026' && (
+                  <Link 
+                    to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff"
+                    className="bg-emerald-50 hover:bg-emerald-600 text-emerald-900 hover:text-white border-2 border-emerald-200 hover:border-emerald-600 transition-all rounded-xl p-3.5 sm:p-4 flex items-center justify-between group font-bold text-xs sm:text-sm shadow-xs"
+                  >
+                    <span className="flex items-center gap-2.5 sm:gap-3">
+                      <div className="p-2 rounded-lg bg-white/80 group-hover:bg-white/20 text-emerald-600 group-hover:text-white transition-colors shrink-0">
+                        <TrendingUp className="h-4 w-4 sm:h-5 sm:w-5" />
+                      </div>
+                      <span className="leading-snug">Previous Cutoff Analysis</span>
+                    </span>
+                    <ChevronRight className="h-4 w-4 group-hover:translate-x-1 transition-transform shrink-0" />
+                  </Link>
+                )}
+              </div>
+            </section>
+          )}
 
           {/* Vacancy Details */}
           {hasVacancies && (
@@ -4914,54 +5016,58 @@ export default function JobDetailPage() {
             </div>
 
             {/* Important Links */}
-            <h3 className="text-sm font-black text-slate-800 flex items-center gap-2">
-              <LinkIcon className="h-4.5 w-4.5 text-blue-600" /> Official Links
-            </h3>
-            <div className="flex flex-col gap-2">
-              {(job.officialLinks || job.urls || []).map((link, idx) => {
-                const linkText = link.label || link.title || 'Official Link';
-                const isInternal = typeof link.url === 'string' && link.url.startsWith('/');
-                return isInternal ? (
-                  <Link
-                    key={idx}
-                    to={link.url}
-                    className="bg-amber-50 hover:bg-amber-600 text-amber-900 hover:text-white border border-amber-200 hover:border-amber-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
-                  >
-                    <span className="flex items-center gap-2">
-                      <BookOpen className="h-4 w-4 shrink-0 text-amber-600 group-hover:text-white" /> {linkText}
-                    </span>
-                    <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                ) : (
-                  <a 
-                    key={idx}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 hover:border-blue-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
-                  >
-                    <span className="flex items-center gap-2">
-                      <ShieldCheck className="h-4 w-4 shrink-0" /> {linkText}
-                    </span>
-                    <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
-                  </a>
-                );
-              })}
-              
-              {id === 'aiims-norcet-11-nursing-officer-2026' && (
-                <Link 
-                  to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff"
-                  className="bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-200 hover:border-emerald-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
-                >
-                  <span className="flex items-center gap-2">
-                    <TrendingUp className="h-4 w-4 shrink-0" /> Previous Cutoff Analysis
-                  </span>
-                  <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              )}
-            </div>
-            
-            <hr className="my-2 border-slate-100" />
+            {hasOfficialLinks && (
+              <>
+                <h3 className="text-sm font-black text-slate-800 flex items-center gap-2">
+                  <LinkIcon className="h-4.5 w-4.5 text-blue-600" /> Official Links
+                </h3>
+                <div className="flex flex-col gap-2">
+                  {activeOfficialLinks.map((link: any, idx: number) => {
+                    const linkText = link.label || link.title || 'Official Link';
+                    const isInternal = typeof link.url === 'string' && link.url.startsWith('/');
+                    return isInternal ? (
+                      <Link
+                        key={idx}
+                        to={link.url}
+                        className="bg-amber-50 hover:bg-amber-600 text-amber-900 hover:text-white border border-amber-200 hover:border-amber-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                      >
+                        <span className="flex items-center gap-2">
+                          <BookOpen className="h-4 w-4 shrink-0 text-amber-600 group-hover:text-white" /> {linkText}
+                        </span>
+                        <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                      </Link>
+                    ) : (
+                      <a 
+                        key={idx}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 hover:border-blue-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                      >
+                        <span className="flex items-center gap-2">
+                          <ShieldCheck className="h-4 w-4 shrink-0" /> {linkText}
+                        </span>
+                        <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                      </a>
+                    );
+                  })}
+                  
+                  {id === 'aiims-norcet-11-nursing-officer-2026' && (
+                    <Link 
+                      to="/articles/aiims-norcet-11-nursing-officer-2026/cutoff"
+                      className="bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-200 hover:border-emerald-600 transition-all rounded-xl p-3 flex items-center justify-between group font-bold text-xs shadow-3xs"
+                    >
+                      <span className="flex items-center gap-2">
+                        <TrendingUp className="h-4 w-4 shrink-0" /> Previous Cutoff Analysis
+                      </span>
+                      <ChevronRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  )}
+                </div>
+                
+                <hr className="my-2 border-slate-100" />
+              </>
+            )}
             
             {/* Sidebar Table of Contents */}
             <h3 className="text-sm font-black text-slate-800 flex items-center gap-2">
