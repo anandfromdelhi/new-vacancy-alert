@@ -41,6 +41,63 @@ def slugify(text):
     text = re.sub(r'[\s-]+', '-', text)
     return text.strip('-')
 
+def format_clean_date(date_str):
+    if not date_str:
+        return "Refer Notification"
+    date_str = clean_text(date_str)
+    m = re.search(r'(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})', date_str)
+    if m:
+        try:
+            day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            dt = datetime.date(year, month, day)
+            formatted = dt.strftime("%d %B %Y")
+            extra = date_str[m.end():].strip()
+            if extra:
+                return f"{formatted} {extra}"
+            return formatted
+        except Exception:
+            pass
+    return date_str
+
+def format_short_qualification(qual_text):
+    if not qual_text:
+        return "See eligibility criteria"
+    clean_q = clean_text(qual_text)
+    degrees = []
+    patterns = [
+        (r'\b10th\b|\bMatriculation\b|\bSecondary\b|\b8th\b', '10th / 8th Pass'),
+        (r'\b12th\b|\bIntermediate\b|\b10\+2\b|\bPUC\b', '12th Pass'),
+        (r'\bITI\b|\bNAC\b|\bNTC\b', 'ITI'),
+        (r'\bDiploma\b|\bPolytechnic\b', 'Diploma'),
+        (r'\bB\.?E\b|\bB\.?Tech\b|\bEngineering\b', 'B.Tech / B.E'),
+        (r'\bM\.?E\b|\bM\.?Tech\b', 'M.Tech / M.E'),
+        (r'\bB\.?Sc\b|\bBSc\b', 'B.Sc'),
+        (r'\bM\.?Sc\b|\bMSc\b', 'M.Sc'),
+        (r'\bB\.?Com\b|\bBCom\b', 'B.Com'),
+        (r'\bM\.?Com\b|\bMCom\b', 'M.Com'),
+        (r'\bBBA\b|\bMBA\b|\bPGDM\b', 'MBA / BBA'),
+        (r'\bBCA\b|\bMCA\b', 'MCA / BCA'),
+        (r'\bB\.?Ed\b|\bBEd\b|\bCTET\b|\bTET\b', 'B.Ed / Teacher'),
+        (r'\bLL\.?B\b|\bLLB\b|\bLL\.?M\b|\bLaw\b', 'Law (LL.B / LL.M)'),
+        (r'\bMBBS\b|\bMD\b|\bMS\b|\bDNB\b|\bMedical\b', 'MBBS / Medical PG'),
+        (r'\bB\.?Pharm\b|\bD\.?Pharm\b|\bPharmacy\b', 'B.Pharm / D.Pharm'),
+        (r'\bGNM\b|\bANM\b|\bNursing\b', 'Nursing (GNM / B.Sc)'),
+        (r'\bBDS\b|\bMDS\b|\bDental\b', 'BDS / Dental'),
+        (r'\bPh\.?D\b|\bDoctorate\b', 'Ph.D / Doctorate'),
+        (r'\bGraduate\b|\bGraduation\b|\bDegree\b|\bBachelor\'?s?\b', "Any Bachelor's Degree"),
+        (r'\bMaster\'?s?\b|\bPost Graduat\w+', "Master's / PG Degree"),
+    ]
+    for pat, label in patterns:
+        if re.search(pat, clean_q, re.IGNORECASE):
+            if label not in degrees:
+                degrees.append(label)
+                
+    if degrees:
+        return " | ".join(degrees[:3])
+    if len(clean_q) > 75:
+        return clean_q[:72] + "..."
+    return clean_q
+
 def load_existing_db():
     existing_jobs = {}
     if os.path.exists(DETAILS_FILE):
@@ -283,17 +340,17 @@ def parse_vacancy_data(html, url):
     for row in date_rows:
         if len(row) >= 2:
             important_dates.append({
-                "event": row[0],
-                "date": row[1]
+                "event": clean_text(row[0]),
+                "date": format_clean_date(row[1])
             })
             
     walkin_date = ""
     last_date = ""
     for k, v in overview_kv.items():
         if 'walk-in' in k or 'walkin' in k:
-            walkin_date = v
+            walkin_date = format_clean_date(v)
         elif 'last date' in k or 'closing' in k:
-            last_date = v
+            last_date = format_clean_date(v)
 
     if not important_dates:
         if walkin_date:
@@ -309,13 +366,13 @@ def parse_vacancy_data(html, url):
 
     summary_last_date = "Refer Notification"
     if walkin_date:
-        summary_last_date = walkin_date
+        summary_last_date = f"{walkin_date} (Walk-in)"
     elif last_date:
         summary_last_date = last_date
     else:
         for dt in important_dates:
             ev = dt.get("event", "").lower()
-            if any(k in ev for k in ["last date", "closing", "deadline", "walk-in", "walkin", "end date"]):
+            if any(k in ev for k in ["last date", "closing", "deadline", "walk-in", "walkin", "end date", "receipt"]):
                 summary_last_date = dt.get("date", "Refer Notification")
                 break
         if summary_last_date == "Refer Notification" and len(important_dates) > 1:
@@ -345,9 +402,9 @@ def parse_vacancy_data(html, url):
     vacancies_details = []
     if vacancy_rows:
         for r in vacancy_rows:
-            p_name = r[0]
-            v_cnt = r[1] if len(r) > 1 else "1"
-            q_spec = r[2] if len(r) > 2 else qual_text
+            p_name = clean_text(r[0])
+            v_cnt = clean_text(r[1]) if len(r) > 1 else "1"
+            q_spec = clean_text(r[2]) if len(r) > 2 else qual_text
             vacancies_details.append({
                 "postName": p_name,
                 "vacancies": v_cnt,
@@ -377,9 +434,17 @@ def parse_vacancy_data(html, url):
             "url": url
         })
 
+    apply_action = "Apply Online"
+    if "walk-in" in apply_mode.lower() or "walkin" in apply_mode.lower():
+        apply_action = "Walk-in Interview"
+    elif "offline" in apply_mode.lower():
+        apply_action = "Apply Offline"
+
+    title_str = f"{board} Recruitment 2026 Notification Out for {vacancies_num} {post_name} Posts | {apply_action}"
+
     return {
         "board": board,
-        "title": f"{board} Recruitment 2026 – Apply for {vacancies_num} {post_name} Posts",
+        "title": title_str,
         "postName": post_name,
         "vacancies": vacancies_num,
         "advtNo": advt_no,
@@ -656,17 +721,12 @@ def add_job_to_system(job_schema):
         jobs_text = f.read()
 
     if f'"id": "{job_id}"' not in jobs_text:
-        qual_val = job_schema.get("eligibility", {}).get("education", "See eligibility")
-        if len(qual_val) > 80:
-            qual_val = qual_val[:77] + "..."
+        qual_val = format_short_qualification(job_schema.get("eligibility", {}).get("education", "See eligibility"))
             
         post_date = datetime.datetime.now().strftime("%d %B %Y")
-        last_date = job_schema.get("importantDates", [{}])[-1].get("date", "See details")
-        for dt in job_schema.get("importantDates", []):
-            ev = dt.get("event", "").lower()
-            if any(k in ev for k in ["last date", "closing", "end date", "submission", "deadline", "walk-in", "walkin"]):
-                last_date = dt.get("date", last_date)
-                break
+        last_date = job_schema.get("applicationStatus", "").replace("Active - Apply before ", "").strip()
+        if not last_date or "Refer" in last_date:
+            last_date = job_schema.get("importantDates", [{}])[-1].get("date", "Refer Notification")
                 
         summary_entry = {
             "id": job_id,
@@ -739,7 +799,9 @@ def main():
             continue
 
         existing_jobs, existing_list = load_existing_db()
-        candidate_id = f"{slugify(raw_data['board'])[:30]}-{slugify(raw_data['postName'])[:30]}-recruitment-2026"
+        b_slug = slugify(raw_data['board'])[:35].strip('-')
+        p_slug = slugify(raw_data['postName'])[:35].strip('-')
+        candidate_id = f"{b_slug}-{p_slug}-recruitment-2026"
         candidate_id = re.sub(r'-+', '-', candidate_id).strip('-')
 
         is_dup, dup_reason = check_duplicate(candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"], existing_jobs, existing_list)

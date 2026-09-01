@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "postgraduate-institute-of-medi-senior-resident-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education & Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education & Research (PGIMER) Recruitment 2026 Notification Out for 1 Senior Resident Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "05 September 2026",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Postgraduate Institute of Medical Education & Research (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 1 vacancies for Senior Resident posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=sangrur%20bioch27Aug2026113650.pdf&PathKey=VACANCY_PATH"
+},
+  {
+    "id": "pgimer-mts-pharmacist-and-more-recruitment-2026",
+    "b": "PGIMER",
+    "t": "PGIMER Recruitment 2026 Notification Out for 60 MTS, Pharmacist and More Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "19.10.2026",
+    "a": "PGI/RC/053/2026/2192, dated 01.09.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "PGIMER has officially released employment advertisement notification PGI/RC/053/2026/2192, dated 01.09.2026 for the recruitment of 60 vacancies for MTS, Pharmacist and More posts.",
+    "u": "https://pgimer.edu.in/"
+},
+  {
+    "id": "postgraduate-institute-of-medi-lab-technician-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER) Recruitment 2026 Notification Out for 2 Lab Technician Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "15 September 2026",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "Diploma | B.Sc | MBBS / Medical PG",
+    "desc": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 2 vacancies for Lab Technician posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15555"
+},
+  {
+    "id": "bihar-state-power-holding-comp-managerhr-recruitment-2026",
+    "b": "Bihar State Power (Holding) Company Limited (BSPHCL)",
+    "t": "Bihar State Power (Holding) Company Limited (BSPHCL) Recruitment 2026 Notification Out for 1 Manager(HR) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "05/2026 (Contract)",
+    "q": "Retired officer from Human Resource (HR) Department (Secretariat Cadre) ...",
+    "desc": "Bihar State Power (Holding) Company Limited (BSPHCL) has officially released employment advertisement notification 05/2026 (Contract) for the recruitment of 1 vacancies for Manager(HR) posts.",
+    "u": "https://www.bsphcl.co.in/Docs/Recruitment/RN-03-01-09-2026.pdf"
+},
+  {
+    "id": "munger-district-attenders-recruitment-2026",
+    "b": "Munger District",
+    "t": "Munger District Recruitment 2026 Notification Out for 31 Attenders Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "09 September 2026",
+    "a": "MUNGER-DISTRIC/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Munger District has officially released employment advertisement notification MUNGER-DISTRIC/2026 for the recruitment of 31 vacancies for Attenders posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e0c641195b27425bb056ac56f8953d24/uploads/2026/08/17880019882288.pdf"
+},
+  {
+    "id": "tezpur-university-assistant-professor-and-guest-recruitment-2026",
+    "b": "Tezpur University",
+    "t": "Tezpur University Recruitment 2026 Notification Out for 2 Assistant Professor and Guest Faculty Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "27/2026",
+    "q": "Diploma | B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Tezpur University has officially released employment advertisement notification 27/2026 for the recruitment of 2 vacancies for Assistant Professor and Guest Faculty posts.",
+    "u": "https://www.tezu.ernet.in/Admin/Advt_No_27_2026_Design_AssistantProfessor_Contractual.pdf"
+},
+  {
+    "id": "central-agricultural-universit-project-assistant-young-profes-recruitment-2026",
+    "b": "Central Agricultural University Imphal (CAU Imphal)",
+    "t": "Central Agricultural University Imphal (CAU Imphal) Recruitment 2026 Notification Out for 4 Project Assistant, Young Professional I, Field Assistant Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "CENTRAL-AGRICU/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Central Agricultural University Imphal (CAU Imphal) has officially released employment advertisement notification CENTRAL-AGRICU/2026 for the recruitment of 4 vacancies for Project Assistant, Young Professional I, Field Assistant posts.",
+    "u": "https://cau.ac.in/walk-in-interview-for-project-assistant-young-professional-i-yp-i-field-assistant-for-college-of-agriculture-pasighat-arunachal-pradesh/"
+},
+  {
+    "id": "indian-institute-of-technology-research-associate-recruitment-2026",
+    "b": "Indian Institute of Technology Tirupati",
+    "t": "Indian Institute of Technology Tirupati Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "14 September 2026",
+    "a": "Advt/ IITT/CSRC/26-27/11",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Tirupati has officially released employment advertisement notification Advt/ IITT/CSRC/26-27/11 for the recruitment of 1 vacancies for Research Associate posts.",
+    "u": "https://files.iittp.ac.in/2026/recruitment/project/AdvtIITTCSRC26-2711.pdf"
+},
+  {
+    "id": "ap-police-prakasam-district-record-assistant-sweeper-and-m-recruitment-2026",
+    "b": "AP Police Prakasam District",
+    "t": "AP Police Prakasam District Recruitment 2026 Notification Out for 37 Record Assistant, Sweeper and More Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "11.09.2026",
+    "a": "AP-POLICE-PRAK/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "AP Police Prakasam District has officially released employment advertisement notification AP-POLICE-PRAK/2026 for the recruitment of 37 vacancies for Record Assistant, Sweeper and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f3f27a324736617f20abbf2ffd806f6d/uploads/2026/08/17881893171148.pdf"
+},
+  {
+    "id": "acharya-ng-ranga-agricultural-research-associate-agricultura-recruitment-2026",
+    "b": "Acharya N.G. Ranga Agricultural University (ANGRAU)",
+    "t": "Acharya N.G. Ranga Agricultural University (ANGRAU) Recruitment 2026 Notification Out for 1 Research Associate (Agricultural Engineering with specialization of Farm Machinery & Power Engineering (FMPE)) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "08 September 2026 (Walk-in)",
+    "a": "ACHARYA-NG-RAN/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Acharya N.G. Ranga Agricultural University (ANGRAU) has officially released employment advertisement notification ACHARYA-NG-RAN/2026 for the recruitment of 1 vacancies for Research Associate (Agricultural Engineering with specialization of Farm Machinery & Power Engineering (FMPE)) posts.",
+    "u": "https://angrau.ac.in/UPLOADS/CareersPDFs/RARS_FMPE_29_08.pdf"
+},
+  {
     "id": "ibps-rrb-crp-xv-officer-office-assistant-recruitment-2026",
     "b": "Institute of Banking Personnel Selection (IBPS)",
     "t": "IBPS RRB CRP-XV Recruitment 2026 Notification Out for Group A Officers (Scale I, II, III) & Group B Office Assistant (Multipurpose) Posts | Apply Online",
