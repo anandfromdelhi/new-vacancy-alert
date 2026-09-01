@@ -407,10 +407,10 @@ export default function BpscTre4BestBooksPage() {
                             <a
                               href={row.link}
                               target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-[11px] font-bold text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-200 transition-colors"
+                              rel="noopener noreferrer nofollow"
+                              className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all active:scale-95"
                             >
-                              Check Price <ExternalLink className="h-3 w-3" />
+                              <ShoppingCart className="h-3.5 w-3.5" /> Buy on Amazon
                             </a>
                           ) : (
                             <span className="text-[10px] font-bold text-slate-400">Library / PDF</span>
@@ -476,6 +476,23 @@ export default function BpscTre4BestBooksPage() {
               <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 text-xs sm:text-sm text-emerald-950 font-medium">
                 <strong>Why NCERT?</strong> NCERT is useful because it explains fundamental concepts in comparatively simple language. Candidates can then use advanced reference books for topics requiring additional depth.
               </div>
+
+              {/* NCERT Amazon Product Card */}
+              <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border-2 border-emerald-200 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded uppercase">Foundation Essential</span>
+                  <h4 className="text-sm font-black text-slate-900">NCERT Complete Textbooks Set (Class 6 to 12)</h4>
+                  <p className="text-xs text-slate-600">Complete paperback set for History, Geography, Polity, Science &amp; Maths.</p>
+                </div>
+                <a
+                  href={BPSC_TRE4_BOOK_LINKS.NCERT_SET}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs px-4 py-2.5 rounded-xl transition-all shrink-0 flex items-center gap-1.5 shadow-sm active:scale-95"
+                >
+                  <ShoppingCart className="h-4 w-4" /> Check Price on Amazon
+                </a>
+              </div>
             </section>
 
             {/* Subject 2: Lucent's GK */}
@@ -500,6 +517,23 @@ export default function BpscTre4BestBooksPage() {
                 <p className="text-xs sm:text-sm text-slate-700 font-semibold">
                   Use: <span className="text-blue-600 font-bold">NCERT → Lucent → PYQs</span>. NCERT should be used for understanding concepts, while Lucent can be used for rapid revision and factual preparation. Do not treat Lucent as a complete replacement for NCERT.
                 </p>
+              </div>
+
+              {/* Lucent GK Amazon Buy Card */}
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-black text-amber-800 bg-amber-100 px-2 py-0.5 rounded uppercase">Bestseller GK Guide</span>
+                  <h4 className="text-sm font-black text-slate-900">Lucent's Samanya Gyan (General Knowledge)</h4>
+                  <p className="text-xs text-slate-600">Updated edition covering Indian History, Geography, Polity, Science &amp; Static GK.</p>
+                </div>
+                <a
+                  href={BPSC_TRE4_BOOK_LINKS.LUCENT_GK}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs px-4 py-2.5 rounded-xl transition-all shrink-0 flex items-center gap-1.5 shadow-sm active:scale-95"
+                >
+                  <ShoppingCart className="h-4 w-4" /> Check Price on Amazon
+                </a>
               </div>
             </section>
 
@@ -542,6 +576,23 @@ export default function BpscTre4BestBooksPage() {
               <div className="bg-blue-50 border border-blue-200 rounded-2xl p-4 text-xs sm:text-sm text-blue-950 font-medium">
                 <strong>Recommended Combination:</strong> Bihar-specific GK book (such as KBC Nano, Dr. Manish Ranjan, or Crown) + Bihar SCERT textbooks + current affairs. Look for a recent edition containing objective questions and updated census/economic survey facts.
               </div>
+
+              {/* Bihar GK Amazon Buy Card */}
+              <div className="bg-gradient-to-r from-rose-50 to-pink-50 border-2 border-rose-200 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-black text-rose-700 bg-rose-100 px-2 py-0.5 rounded uppercase">Bihar State Special</span>
+                  <h4 className="text-sm font-black text-slate-900">Bihar Samagra / Bihar GK (Dr. Manish Ranjan / Crown / KBC Nano)</h4>
+                  <p className="text-xs text-slate-600">Complete Bihar history, geography, rivers, economy, budget, census and state schemes.</p>
+                </div>
+                <a
+                  href={BPSC_TRE4_BOOK_LINKS.BIHAR_GK}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs px-4 py-2.5 rounded-xl transition-all shrink-0 flex items-center gap-1.5 shadow-sm active:scale-95"
+                >
+                  <ShoppingCart className="h-4 w-4" /> Check Price on Amazon
+                </a>
+              </div>
             </section>
 
             {/* Subject 4: Hindi */}
@@ -561,13 +612,33 @@ export default function BpscTre4BestBooksPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">1. Samanya Hindi – Lucent</h3>
-                  <p className="text-xs text-slate-600 font-medium">Useful for Hindi grammar, vocabulary, synonyms, antonyms, sentence correction, and objective practice.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">1. Samanya Hindi – Lucent</h3>
+                    <p className="text-xs text-slate-600 font-medium">Useful for Hindi grammar, vocabulary, synonyms, antonyms, sentence correction, and objective practice.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.LUCENT_HINDI}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Buy on Amazon
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">2. Hindi Vyakaran – Hardev Bahri</h3>
-                  <p className="text-xs text-slate-600 font-medium">Useful when you want deeper, comprehensive coverage of standard Hindi grammar and linguistic rules.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">2. Hindi Vyakaran – Hardev Bahri</h3>
+                    <p className="text-xs text-slate-600 font-medium">Useful when you want deeper, comprehensive coverage of standard Hindi grammar and linguistic rules.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.HARDEV_BAHRI_HINDI}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Buy on Amazon
+                  </a>
                 </div>
               </div>
 
@@ -603,13 +674,33 @@ export default function BpscTre4BestBooksPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">Wren &amp; Martin – High School Grammar</h3>
-                  <p className="text-xs text-slate-600 font-medium">A useful reference for Parts of speech, Tenses, Articles, Prepositions, Conjunctions, Active/Passive voice, Direct/Indirect speech, and Sentence structure.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">Wren &amp; Martin – High School Grammar</h3>
+                    <p className="text-xs text-slate-600 font-medium">A useful reference for Parts of speech, Tenses, Articles, Prepositions, Conjunctions, Active/Passive voice, Direct/Indirect speech, and Sentence structure.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.WREN_MARTIN_ENGLISH}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Buy on Amazon
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">Objective General English – S.P. Bakshi</h3>
-                  <p className="text-xs text-slate-600 font-medium">Particularly useful for competitive-exam practice: Error detection, Fill in the blanks, Vocabulary, Sentence correction, Grammar, Comprehension &amp; MCQs.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">Objective General English – S.P. Bakshi</h3>
+                    <p className="text-xs text-slate-600 font-medium">Particularly useful for competitive-exam practice: Error detection, Fill in the blanks, Vocabulary, Sentence correction, Grammar, Comprehension &amp; MCQs.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.SP_BAKSHI_ENGLISH}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Buy on Amazon
+                  </a>
                 </div>
               </div>
 
@@ -655,6 +746,23 @@ export default function BpscTre4BestBooksPage() {
               <div className="bg-violet-50 border border-violet-200 rounded-2xl p-4 text-xs sm:text-sm text-violet-950 font-medium">
                 <strong>Preparation Strategy:</strong> Don't just memorize theory names. Understand: <span className="font-bold">Theory → Main concept → Classroom application → Objective questions</span>.
               </div>
+
+              {/* CDP Amazon Buy Card */}
+              <div className="bg-gradient-to-r from-violet-50 to-purple-50 border-2 border-violet-200 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-black text-violet-700 bg-violet-100 px-2 py-0.5 rounded uppercase">Teaching Pedagogy</span>
+                  <h4 className="text-sm font-black text-slate-900">Child Development &amp; Pedagogy (Arihant)</h4>
+                  <p className="text-xs text-slate-600">Theory, learning concepts, classroom application &amp; chapter-wise MCQs.</p>
+                </div>
+                <a
+                  href={BPSC_TRE4_BOOK_LINKS.CDP_ARIHANT_KIRAN}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs px-4 py-2.5 rounded-xl transition-all shrink-0 flex items-center gap-1.5 shadow-sm active:scale-95"
+                >
+                  <ShoppingCart className="h-4 w-4" /> Check Price on Amazon
+                </a>
+              </div>
             </section>
 
             {/* Subject 7: Mathematics */}
@@ -674,17 +782,37 @@ export default function BpscTre4BestBooksPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">For Basic / PRT Level</h3>
-                  <p className="text-xs text-slate-600 font-medium">
-                    Focus on relevant NCERT Mathematics textbooks + <strong>R.S. Aggarwal Quantitative Aptitude</strong> (Percentage, Ratio, Average, Profit & Loss, SI/CI, Time & Work, Speed & Distance, Number System, Basic Algebra, Geometry).
-                  </p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">For Basic / PRT Level</h3>
+                    <p className="text-xs text-slate-600 font-medium">
+                      Focus on relevant NCERT Mathematics textbooks + <strong>R.S. Aggarwal Quantitative Aptitude</strong> (Percentage, Ratio, Average, Profit &amp; Loss, SI/CI, Time &amp; Work, Speed &amp; Distance, Number System, Basic Algebra, Geometry).
+                    </p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.RS_MATHS}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Buy R.S. Aggarwal Maths
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2">
-                  <h3 className="text-xs sm:text-sm font-black text-slate-900">For TGT / PGT Mathematics</h3>
-                  <p className="text-xs text-slate-600 font-medium">
-                    Use <strong>NCERT Class 9–12 + standard higher-level textbooks + PYQs</strong>. For senior-level mathematics, conceptual depth matters much more than solving thousands of basic arithmetic questions.
-                  </p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xs sm:text-sm font-black text-slate-900">For TGT / PGT Mathematics</h3>
+                    <p className="text-xs text-slate-600 font-medium">
+                      Use <strong>NCERT Class 9–12 + standard higher-level textbooks + PYQs</strong>. For senior-level mathematics, conceptual depth matters much more than solving thousands of basic arithmetic questions.
+                    </p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.NCERT_SET}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Check NCERT Math Set
+                  </a>
                 </div>
               </div>
             </section>
@@ -706,20 +834,50 @@ export default function BpscTre4BestBooksPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-1.5">
-                  <span className="text-[10px] font-black text-blue-600 uppercase">Physics</span>
-                  <h3 className="text-xs font-black text-slate-900">NCERT + H.C. Verma</h3>
-                  <p className="text-[11px] text-slate-600">Concepts of Physics for conceptual clarity when required by the syllabus.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-blue-600 uppercase">Physics</span>
+                    <h3 className="text-xs font-black text-slate-900">NCERT + H.C. Verma</h3>
+                    <p className="text-[11px] text-slate-600">Concepts of Physics for conceptual clarity when required by the syllabus.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.HC_VERMA_PHYSICS}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-2.5 py-1 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Buy H.C. Verma
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-1.5">
-                  <span className="text-[10px] font-black text-emerald-600 uppercase">Chemistry</span>
-                  <h3 className="text-xs font-black text-slate-900">NCERT Chemistry</h3>
-                  <p className="text-[11px] text-slate-600">Class 6–10 for general science, Class 11–12 + degree texts for TGT/PGT.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-emerald-600 uppercase">Chemistry</span>
+                    <h3 className="text-xs font-black text-slate-900">NCERT Chemistry</h3>
+                    <p className="text-[11px] text-slate-600">Class 6–10 for general science, Class 11–12 + degree texts for TGT/PGT.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.NCERT_SCIENCE}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-2.5 py-1 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Buy NCERT Science
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-1.5">
-                  <span className="text-[10px] font-black text-rose-600 uppercase">Biology</span>
-                  <h3 className="text-xs font-black text-slate-900">NCERT Biology</h3>
-                  <p className="text-[11px] text-slate-600">Cell, Genetics, Human & Plant Physiology, Ecology, Reproduction, Health & Biotech.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-rose-600 uppercase">Biology</span>
+                    <h3 className="text-xs font-black text-slate-900">NCERT Biology</h3>
+                    <p className="text-[11px] text-slate-600">Cell, Genetics, Human &amp; Plant Physiology, Ecology, Reproduction &amp; Biotech.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.NCERT_SCIENCE}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-2.5 py-1 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Buy NCERT Science
+                  </a>
                 </div>
               </div>
             </section>
@@ -732,37 +890,61 @@ export default function BpscTre4BestBooksPage() {
               </h2>
 
               <div className="space-y-4">
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-2">
-                  <h3 className="text-sm font-black text-slate-900 flex items-center justify-between">
-                    <span>9. History: NCERT + Spectrum + PYQs</span>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-sm font-black text-slate-900">9. History: NCERT + Spectrum + PYQs</h3>
                     <span className="text-amber-500 font-bold text-xs">⭐⭐⭐⭐⭐</span>
-                  </h3>
+                  </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     <strong>Spectrum – A Brief History of Modern India</strong> is particularly useful for Modern Indian History (British expansion, 1857 revolt, INC, Swadeshi, Gandhian movements, Revolutionary movements, Constitutional developments, Quit India, Independence).
                   </p>
                   <p className="text-xs text-indigo-900 font-bold bg-indigo-50 p-2 rounded-lg">
                     Tip: Don't memorize the entire history book word-for-word. Create notes: <em>Year → Event → Person → Organization → Significance</em>.
                   </p>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.SPECTRUM_HISTORY}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Check Price on Amazon (Spectrum History)
+                  </a>
                 </div>
 
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-2">
-                  <h3 className="text-sm font-black text-slate-900 flex items-center justify-between">
-                    <span>10. Indian Polity: M. Laxmikanth + NCERT Civics</span>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-sm font-black text-slate-900">10. Indian Polity: M. Laxmikanth + NCERT Civics</h3>
                     <span className="text-amber-500 font-bold text-xs">⭐⭐⭐⭐⭐</span>
-                  </h3>
+                  </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     <strong>M. Laxmikanth</strong> is the standard reference for Constitution, Fundamental Rights, Duties, DPSP, President, Parliament, Judiciary, Election Commission, Panchayati Raj, and Emergency provisions.
                   </p>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.LAXMIKANTH_POLITY}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Check Price on Amazon (M. Laxmikanth Polity)
+                  </a>
                 </div>
 
-                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-2">
-                  <h3 className="text-sm font-black text-slate-900 flex items-center justify-between">
-                    <span>11. Geography: NCERT Geography + G.C. Leong + Bihar GK</span>
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-sm font-black text-slate-900">11. Geography: NCERT Geography + G.C. Leong + Bihar GK</h3>
                     <span className="text-amber-500 font-bold text-xs">⭐⭐⭐⭐⭐</span>
-                  </h3>
+                  </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     <strong>G.C. Leong</strong> is useful for physical geography concepts (Earth, climate, soil, vegetation), combined with NCERT Indian Geography and Bihar-specific sources for Bihar rivers, soil, agriculture, and districts.
                   </p>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.GC_LEONG_GEO}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center gap-1.5 text-xs font-black text-slate-950 bg-amber-400 hover:bg-amber-500 px-3 py-1.5 rounded-lg shadow-xs transition-all w-fit"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" /> Check Price on Amazon (G.C. Leong Geography)
+                  </a>
                 </div>
               </div>
             </section>
@@ -829,8 +1011,18 @@ export default function BpscTre4BestBooksPage() {
                       <li>• <strong>Practice:</strong> TRE Previous Papers</li>
                     </ul>
                   </div>
-                  <div className="bg-blue-100/60 p-2.5 rounded-xl text-[11px] font-bold text-blue-900">
-                    PRT Rule: Don't study at graduation level when the syllabus requires school-level clarity.
+                  <div className="space-y-2">
+                    <div className="bg-blue-100/60 p-2.5 rounded-xl text-[11px] font-bold text-blue-900">
+                      PRT Rule: Don't study at graduation level when the syllabus requires school-level clarity.
+                    </div>
+                    <a
+                      href={BPSC_TRE4_BOOK_LINKS.CDP_ARIHANT_KIRAN}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="w-full py-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-xl transition-all text-center flex items-center justify-center gap-1.5 shadow-xs"
+                    >
+                      <ShoppingCart className="h-3.5 w-3.5" /> Buy PRT CDP on Amazon
+                    </a>
                   </div>
                 </div>
 
@@ -846,8 +1038,18 @@ export default function BpscTre4BestBooksPage() {
                       <li>• <strong>Practice:</strong> Subject-specific PYQs + Mocks</li>
                     </ul>
                   </div>
-                  <div className="bg-purple-100/60 p-2.5 rounded-xl text-[11px] font-bold text-purple-900">
-                    TGT Rule: Don't stop after generic GS. Allocate major time to your concerned subject.
+                  <div className="space-y-2">
+                    <div className="bg-purple-100/60 p-2.5 rounded-xl text-[11px] font-bold text-purple-900">
+                      TGT Rule: Don't stop after generic GS. Allocate major time to your concerned subject.
+                    </div>
+                    <a
+                      href={BPSC_TRE4_BOOK_LINKS.NCERT_SET}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="w-full py-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-xl transition-all text-center flex items-center justify-center gap-1.5 shadow-xs"
+                    >
+                      <ShoppingCart className="h-3.5 w-3.5" /> Buy TGT NCERT Set
+                    </a>
                   </div>
                 </div>
 
@@ -863,8 +1065,18 @@ export default function BpscTre4BestBooksPage() {
                       <li>• <strong>Testing:</strong> Advanced PYQs &amp; mock series</li>
                     </ul>
                   </div>
-                  <div className="bg-emerald-100/60 p-2.5 rounded-xl text-[11px] font-bold text-emerald-900">
-                    PGT Rule: Avoid relying solely on "one-book guides" for a specialist subject.
+                  <div className="space-y-2">
+                    <div className="bg-emerald-100/60 p-2.5 rounded-xl text-[11px] font-bold text-emerald-900">
+                      PGT Rule: Avoid relying solely on "one-book guides" for a specialist subject.
+                    </div>
+                    <a
+                      href={BPSC_TRE4_BOOK_LINKS.BPSC_TRE_PYQ}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="w-full py-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs rounded-xl transition-all text-center flex items-center justify-center gap-1.5 shadow-xs"
+                    >
+                      <ShoppingCart className="h-3.5 w-3.5" /> Buy PGT PYQ Book
+                    </a>
                   </div>
                 </div>
 
@@ -886,6 +1098,23 @@ export default function BpscTre4BestBooksPage() {
                 <p className="text-xs sm:text-sm font-black text-white">
                   Attempt → Check → Analyse → Identify Topic → Re-read Concept → Make Short Note
                 </p>
+              </div>
+
+              {/* PYQ Amazon Buy Card */}
+              <div className="bg-gradient-to-r from-rose-50 to-orange-50 border-2 border-rose-200 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-black text-rose-700 bg-rose-100 px-2 py-0.5 rounded uppercase">Must-Have Practice Set</span>
+                  <h4 className="text-sm font-black text-slate-900">BPSC TRE Previous Years Solved Papers &amp; Practice Sets</h4>
+                  <p className="text-xs text-slate-600">TRE 1.0, TRE 2.0 &amp; TRE 3.0 authentic solved papers with 100% detailed explanations.</p>
+                </div>
+                <a
+                  href={BPSC_TRE4_BOOK_LINKS.BPSC_TRE_PYQ}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs px-4 py-2.5 rounded-xl transition-all shrink-0 flex items-center gap-1.5 shadow-sm active:scale-95"
+                >
+                  <ShoppingCart className="h-4 w-4" /> Check Price on Amazon
+                </a>
               </div>
             </section>
 
@@ -1010,25 +1239,57 @@ export default function BpscTre4BestBooksPage() {
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2">
-                  <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">₹0 – ₹500</span>
-                  <h4 className="text-xs font-black text-slate-900">Zero / Minimal Cost</h4>
-                  <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Free NCERT PDFs, Bihar SCERT material, official portals, past question PDFs, own notes.</p>
+                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">₹0 – ₹500</span>
+                    <h4 className="text-xs font-black text-slate-900">Zero / Minimal Cost</h4>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Free NCERT PDFs, Bihar SCERT material, official portals, past question PDFs, own notes.</p>
+                  </div>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2">
-                  <span className="text-[10px] font-black text-blue-700 bg-blue-100 px-2 py-0.5 rounded">₹500 – ₹1,000</span>
-                  <h4 className="text-xs font-black text-slate-900">Essential Kit</h4>
-                  <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Bihar GK book, one Hindi grammar book, one BPSC TRE PYQ practice book + Free NCERTs.</p>
+                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-blue-700 bg-blue-100 px-2 py-0.5 rounded">₹500 – ₹1,000</span>
+                    <h4 className="text-xs font-black text-slate-900">Essential Kit</h4>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Bihar GK book, one Hindi grammar book, one BPSC TRE PYQ practice book + Free NCERTs.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.BIHAR_GK}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center justify-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 py-1.5 px-2 rounded-lg shadow-xs transition-all mt-1"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Get Bihar GK
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2">
-                  <span className="text-[10px] font-black text-purple-700 bg-purple-100 px-2 py-0.5 rounded">₹1,000 – ₹2,000</span>
-                  <h4 className="text-xs font-black text-slate-900">Standard Kit</h4>
-                  <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Lucent GK, Bihar GK, CDP book, Hindi grammar, English book + PYQ practice sets.</p>
+                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-purple-700 bg-purple-100 px-2 py-0.5 rounded">₹1,000 – ₹2,000</span>
+                    <h4 className="text-xs font-black text-slate-900">Standard Kit</h4>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Lucent GK, Bihar GK, CDP book, Hindi grammar, English book + PYQ practice sets.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.LUCENT_GK}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center justify-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 py-1.5 px-2 rounded-lg shadow-xs transition-all mt-1"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Get Lucent GK
+                  </a>
                 </div>
-                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2">
-                  <span className="text-[10px] font-black text-amber-700 bg-amber-100 px-2 py-0.5 rounded">₹2,000+</span>
-                  <h4 className="text-xs font-black text-slate-900">Comprehensive Kit</h4>
-                  <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Standard subject textbooks, Laxmikanth, Spectrum, G.C. Leong, PYQ book, mock test series.</p>
+                <div className="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-2 flex flex-col justify-between">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black text-amber-700 bg-amber-100 px-2 py-0.5 rounded">₹2,000+</span>
+                    <h4 className="text-xs font-black text-slate-900">Comprehensive Kit</h4>
+                    <p className="text-[11px] text-slate-600 font-medium leading-relaxed">Standard subject textbooks, Laxmikanth, Spectrum, G.C. Leong, PYQ book, mock test series.</p>
+                  </div>
+                  <a
+                    href={BPSC_TRE4_BOOK_LINKS.BPSC_TRE_PYQ}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center justify-center gap-1 text-[11px] font-black text-slate-950 bg-amber-400 hover:bg-amber-500 py-1.5 px-2 rounded-lg shadow-xs transition-all mt-1"
+                  >
+                    <ShoppingCart className="h-3 w-3" /> Get TRE PYQ Set
+                  </a>
                 </div>
               </div>
             </section>
