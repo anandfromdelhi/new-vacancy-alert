@@ -33,53 +33,54 @@ def parse_date(date_str):
     ]):
         return None
 
+    found_dates = []
+
     # 1. DD Month YYYY (e.g. 28 September 2026, 05-Aug-2026, 1st July 2026)
-    m = re.search(r'(\d{1,2})(?:st|nd|rd|th)?[\s\-\/]+([a-z]+)[\s\-\/]+(\d{4})', s)
-    if m:
+    for m in re.finditer(r'(\d{1,2})(?:st|nd|rd|th)?[\s\-\/]+([a-z]+)[\s\-\/]+(\d{4})', s):
         day = int(m.group(1))
         mon_str = m.group(2)[:3]
         year = int(m.group(3))
         if mon_str in MONTHS and 1 <= day <= 31:
             try:
-                return datetime(year, MONTHS[mon_str], day)
+                found_dates.append(datetime(year, MONTHS[mon_str], day))
             except ValueError:
                 pass
 
     # 2. Month DD, YYYY (e.g. September 28, 2026)
-    m = re.search(r'([a-z]+)[\s\-\/]+(\d{1,2})(?:st|nd|rd|th)?[\s\-\/,]+(\d{4})', s)
-    if m:
+    for m in re.finditer(r'([a-z]+)[\s\-\/]+(\d{1,2})(?:st|nd|rd|th)?[\s\-\/,]+(\d{4})', s):
         mon_str = m.group(1)[:3]
         day = int(m.group(2))
         year = int(m.group(3))
         if mon_str in MONTHS and 1 <= day <= 31:
             try:
-                return datetime(year, MONTHS[mon_str], day)
+                found_dates.append(datetime(year, MONTHS[mon_str], day))
             except ValueError:
                 pass
 
     # 3. Numeric DD/MM/YYYY or DD-MM-YYYY
-    m = re.search(r'(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})', s)
-    if m:
+    for m in re.finditer(r'(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})', s):
         day = int(m.group(1))
         mon = int(m.group(2))
         year = int(m.group(3))
         if 1 <= mon <= 12 and 1 <= day <= 31:
             try:
-                return datetime(year, mon, day)
+                found_dates.append(datetime(year, mon, day))
             except ValueError:
                 pass
 
     # 4. Numeric YYYY-MM-DD
-    m = re.search(r'(\d{4})[\/\-\.](\d{1,2})[\/\-\.](\d{1,2})', s)
-    if m:
+    for m in re.finditer(r'(\d{4})[\/\-\.](\d{1,2})[\/\-\.](\d{1,2})', s):
         year = int(m.group(1))
         mon = int(m.group(2))
         day = int(m.group(3))
         if 1 <= mon <= 12 and 1 <= day <= 31:
             try:
-                return datetime(year, mon, day)
+                found_dates.append(datetime(year, mon, day))
             except ValueError:
                 pass
+
+    if found_dates:
+        return max(found_dates)
 
     return None
 
