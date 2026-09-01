@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kerala-public-service-commissi-junior-assistant-beat-forest-o-recruitment-2026",
+    "b": "Kerala Public Service Commission (Kerala PSC)",
+    "t": "Kerala Public Service Commission (Kerala PSC) Recruitment 2026 Notification Out for 31 Junior Assistant, Beat Forest Officer and More Posts Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07 October 2026",
+    "a": "KERALA-PUBLIC-/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Kerala Public Service Commission (Kerala PSC) has officially released employment advertisement notification KERALA-PUBLIC-/2026 for the recruitment of 31 vacancies for Junior Assistant, Beat Forest Officer and More Posts posts.",
+    "u": "https://www.keralapsc.gov.in/extra-ordinary-gazette-date-31082026"
+},
+  {
+    "id": "mahatma-gandhi-university-mgu-assistant-professor-recruitment-2026",
+    "b": "Mahatma Gandhi University (MGU)",
+    "t": "Mahatma Gandhi University (MGU) Recruitment 2026 Notification Out for 6 Assistant Professor Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "5931/ADA7-1/2026/AD A7",
+    "q": "As per UGC norms",
+    "desc": "Mahatma Gandhi University (MGU) has officially released employment advertisement notification 5931/ADA7-1/2026/AD A7 for the recruitment of 6 vacancies for Assistant Professor posts.",
+    "u": "https://www.mgu.ac.in/uploads/2026/09/Re-notification-No-5931-Dated-31-August-2026_Assistant-Professor-on-contract-IIRBS_GS_NIPST.pdf?x85863"
+},
+  {
+    "id": "spices-board-trainee-qel-chemistry-recruitment-2026",
+    "b": "Spices Board",
+    "t": "Spices Board Recruitment 2026 Notification Out for 2 Trainee (QEL Chemistry) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "11 September 2026",
+    "a": "SPICES-BOARD/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Spices Board has officially released employment advertisement notification SPICES-BOARD/2026 for the recruitment of 2 vacancies for Trainee (QEL Chemistry) posts.",
+    "u": "https://www.indianspices.com/opportunities/details.html?id=897"
+},
+  {
+    "id": "drdo-npol-junior-research-fell-various-posts-recruitment-2026",
+    "b": "DRDO NPOL Junior Research Fellow",
+    "t": "DRDO NPOL Junior Research Fellow Recruitment 2026 Notification Out for 1 Various Posts Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 October 2026 (Saturday) at 09:30 hrs",
+    "a": "DRDO-NPOL-JUNI/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DRDO NPOL Junior Research Fellow has officially released employment advertisement notification DRDO-NPOL-JUNI/2026 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtNPOL01092026.pdf"
+},
+  {
+    "id": "karnataka-public-service-commi-group-a-b-recruitment-2026",
+    "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001",
+    "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 Recruitment 2026 Notification Out for 319 Group A & B Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "31 August 2026 07-09-2026",
+    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 has officially released employment advertisement notification KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026 for the recruitment of 319 vacancies for Group A & B posts.",
+    "u": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf"
+},
+  {
+    "id": "junior-plant-protection-office-crop-protector-kamdar-recruitment-2026",
+    "b": "Junior Plant Protection Office Dhanbad",
+    "t": "Junior Plant Protection Office Dhanbad Recruitment 2026 Notification Out for 4 Crop Protector (Kamdar) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "25 September 2026",
+    "a": "10/2026-27",
+    "q": "10th / 8th Pass",
+    "desc": "Junior Plant Protection Office Dhanbad has officially released employment advertisement notification 10/2026-27 for the recruitment of 4 vacancies for Crop Protector (Kamdar) posts.",
+    "u": "https://cdn.s3waas.gov.in/s337f0e884fbad9667e38940169d0a3c95/uploads/17881693369160.pdf"
+},
+  {
+    "id": "district-health-society-koderm-medical-specialists-and-icu-st-recruitment-2026",
+    "b": "District Health Society Koderma (DHS Koderma)",
+    "t": "District Health Society Koderma (DHS Koderma) Recruitment 2026 Notification Out for 24 Medical Specialists and ICU Staff Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "03 September 2026 (Walk-in)",
+    "a": "02/2026",
+    "q": "Diploma | MBBS / Medical PG",
+    "desc": "District Health Society Koderma (DHS Koderma) has officially released employment advertisement notification 02/2026 for the recruitment of 24 vacancies for Medical Specialists and ICU Staff posts.",
+    "u": "https://cdn.s3waas.gov.in/s3087408522c31eeb1f982bc0eaf81d35f/uploads/2026/08/17876578175362.pdf"
+},
+  {
+    "id": "civil-court-khunti-peon-driver-and-more-posts-recruitment-2026",
+    "b": "Civil Court Khunti",
+    "t": "Civil Court Khunti Recruitment 2026 Notification Out for 7 Peon, Driver and More Posts Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "CIVIL-COURT-KH/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Civil Court Khunti has officially released employment advertisement notification CIVIL-COURT-KH/2026 for the recruitment of 7 vacancies for Peon, Driver and More Posts posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0239ae2ed11b14a4ccb41d35e9d1ba/uploads/2026/08/2026081374.pdf"
+},
+  {
+    "id": "indian-institute-of-management-medical-officer-recruitment-2026",
+    "b": "Indian Institute of Management Jammu (IIM Jammu)",
+    "t": "Indian Institute of Management Jammu (IIM Jammu) Recruitment 2026 Notification Out for 2 Medical Officer Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "03 September 2026 (Walk-in)",
+    "a": "IIMJ/Advt/Non-Faculty-Rect/2026/03",
+    "q": "M.B.B.S. with at least 60% marks including completion of compulsory rota...",
+    "desc": "Indian Institute of Management Jammu (IIM Jammu) has officially released employment advertisement notification IIMJ/Advt/Non-Faculty-Rect/2026/03 for the recruitment of 2 vacancies for Medical Officer posts.",
+    "u": "https://www.iimj.ac.in/web-advertisement-non-faculty-positions.php"
+},
+  {
     "id": "district-legal-services-author-for-legal-volunteer-recruitment-2026",
     "b": "District Legal Services Authority Mandi (DLSA Mandi)",
     "t": "District Legal Services Authority Mandi (DLSA Mandi) Recruitment 2026 Notification Out for 1 For Legal Volunteer Posts | Apply Online",
