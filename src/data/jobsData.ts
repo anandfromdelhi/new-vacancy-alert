@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "family-court-kapurthala-counsellor-recruitment-2026",
+    "b": "Family Court Kapurthala",
+    "t": "Family Court Kapurthala Recruitment 2026 Notification Out for 1 Counsellor Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "14 September 2026",
+    "a": "FAMILY-COURT-K/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Family Court Kapurthala has officially released employment advertisement notification FAMILY-COURT-K/2026 for the recruitment of 1 vacancies for Counsellor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2026/08/2026083116.pdf"
+},
+  {
+    "id": "women-and-child-development-de-anganwadi-worker-recruitment-2026",
+    "b": "Women and Child Development Department Odisha",
+    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 3 Anganwadi Worker Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "17 September 2026",
+    "a": "1010",
+    "q": "As per notification for each post",
+    "desc": "Women and Child Development Department Odisha has officially released employment advertisement notification 1010 for the recruitment of 3 vacancies for Anganwadi Worker posts.",
+    "u": "https://engagement-awc.odisha.gov.in/download-aww-event-document?awwEventHistoryId=170865"
+},
+  {
+    "id": "icar-central-rice-research-ins-senior-research-fellow-srf-recruitment-2026",
+    "b": "ICAR Central Rice Research Institute Cuttack",
+    "t": "ICAR Central Rice Research Institute Cuttack Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "27/SRF/2026-27",
+    "q": "B.Sc | M.Sc | Ph.D / Doctorate",
+    "desc": "ICAR Central Rice Research Institute Cuttack has officially released employment advertisement notification 27/SRF/2026-27 for the recruitment of 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/08/EAP-415.pdf"
+},
+  {
+    "id": "sail-rsp-igh-trainee-medical-attendant-hospital-adm-recruitment-2026",
+    "b": "SAIL RSP IGH Trainee",
+    "t": "SAIL RSP IGH Trainee Recruitment 2026 Notification Out for 1 Medical Attendant, Hospital Administration & OT/Anesthesia Training Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "20 September 2026",
+    "a": "Ref",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "SAIL RSP IGH Trainee has officially released employment advertisement notification Ref for the recruitment of 1 vacancies for Medical Attendant, Hospital Administration & OT/Anesthesia Training posts.",
+    "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/RSP_News%20&%20Jobs_31082026_181349.pdf"
+},
+  {
+    "id": "utkal-university-project-assistant-recruitment-2026",
+    "b": "Utkal University",
+    "t": "Utkal University Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "09 September 2026 (Walk-in)",
+    "a": "UTKAL-UNIVERSI/2026",
+    "q": "M.Sc",
+    "desc": "Utkal University has officially released employment advertisement notification UTKAL-UNIVERSI/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://utkaluniversity.ac.in/wp-content/uploads/2026/08/Manpower-2025-2026-MRIP.pdf"
+},
+  {
+    "id": "meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026",
+    "b": "Meghalaya Civil Secretariat",
+    "t": "Meghalaya Civil Secretariat Recruitment 2026 Notification Out for 153 Peon, Chowkidar and More Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "18.09.2026, up to 5:00 PM (17:00 hrs)",
+    "a": "SAN.66/2019/89, dated 17.08.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Meghalaya Civil Secretariat has officially released employment advertisement notification SAN.66/2019/89, dated 17.08.2026 for the recruitment of 153 vacancies for Peon, Chowkidar and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17873105015989.pdf"
+},
+  {
+    "id": "district-medical-health-office-medical-officer-recruitment-2026",
+    "b": "District Medical & Health Office Ri Bhoi (DMHO Ri Bhoi)",
+    "t": "District Medical & Health Office Ri Bhoi (DMHO Ri Bhoi) Recruitment 2026 Notification Out for 4 Medical Officer Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "02 September 2026 (Walk-in)",
+    "a": "DMHO/RBD/NHM/HR/38/2026/1091",
+    "q": "MBBS / Medical PG",
+    "desc": "District Medical & Health Office Ri Bhoi (DMHO Ri Bhoi) has officially released employment advertisement notification DMHO/RBD/NHM/HR/38/2026/1091 for the recruitment of 4 vacancies for Medical Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17876554025085.pdf"
+},
+  {
+    "id": "vehicle-research-and-developme-junior-research-fellow-recruitment-2026",
+    "b": "Vehicle Research and Development Organization (VRDE DRDO)",
+    "t": "Vehicle Research and Development Organization (VRDE DRDO) Recruitment 2026 Notification Out for 5 Junior Research Fellow Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "VEHICLE-RESEAR/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Vehicle Research and Development Organization (VRDE DRDO) has officially released employment advertisement notification VEHICLE-RESEAR/2026 for the recruitment of 5 vacancies for Junior Research Fellow posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtVRDE31082026En.pdf"
+},
+  {
+    "id": "brihanmumbai-municipal-corpora-d-category-contractual-worker-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporatio (BMC)",
+    "t": "Brihanmumbai Municipal Corporatio (BMC) Recruitment 2026 Notification Out for 6 D Category Contractual Worker Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "12 September 2026",
+    "a": "HO/548/MRMAH dt. 27.08.2026",
+    "q": "As per rules for D category contractual workers under BMC",
+    "desc": "Brihanmumbai Municipal Corporatio (BMC) has officially released employment advertisement notification HO/548/MRMAH dt. 27.08.2026 for the recruitment of 6 vacancies for D Category Contractual Worker posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/%e0%a4%b8%e0%a4%82%e0%a4%95%e0%a5%87%e0%a4%a4%e0%a4%b8%e0%a5%8d_%e0%a4%a5%e0%a4%b3%e0%a4%be%e0%a4%b5%e0%a4%b0%20%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b8%e0%a4%bf%e0%a4%a7%e0%a5%8d_%e0%a4%a6%20%e0%a4%95%e0%a4%b0%e0%a4%be%e0%a4%b5%e0%a4%af321.pdf"
+},
+  {
+    "id": "rajkot-nagarik-sahakari-bank-r-jr-executive-trainee-recruitment-2026",
+    "b": "Rajkot Nagarik Sahakari Bank (RNSB)",
+    "t": "Rajkot Nagarik Sahakari Bank (RNSB) Recruitment 2026 Notification Out for 1 Jr. Executive (Trainee) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "08 September 2026",
+    "a": "RAJKOT-NAGARIK/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Rajkot Nagarik Sahakari Bank (RNSB) has officially released employment advertisement notification RAJKOT-NAGARIK/2026 for the recruitment of 1 vacancies for Jr. Executive (Trainee) posts.",
+    "u": "https://jobs.rnsb.bank.in/CurrentOpening.aspx"
+},
+  {
     "id": "all-india-institute-of-medical-project-office-helper-project-recruitment-2026",
     "b": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur)",
     "t": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) Recruitment 2026 Notification Out for 1 Project Office Helper (Project Support Staff-I) Posts | Apply Online",
