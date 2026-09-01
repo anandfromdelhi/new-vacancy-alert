@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "csir-cmeri-centre-of-excellenc-senior-project-associate-proje-recruitment-2026",
+    "b": "CSIR CMERI Centre of Excellence for Farm Machinery (CMERI CoEFM)",
+    "t": "CSIR CMERI Centre of Excellence for Farm Machinery (CMERI CoEFM) Recruitment 2026 Notification Out for 7 Senior Project Associate / Project Associate / Project Assistant Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "02 September 2026 (Walk-in)",
+    "a": "CMERI/CoEFM/2026/03",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "CSIR CMERI Centre of Excellence for Farm Machinery (CMERI CoEFM) has officially released employment advertisement notification CMERI/CoEFM/2026/03 for the recruitment of 7 vacancies for Senior Project Associate / Project Associate / Project Assistant posts.",
+    "u": "https://www.cmeri.res.in/sites/default/files/vacancy/Advertisment_CoEFM_2026_03.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 Project Engineer Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Kharagpur has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Engineer posts.",
+    "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
+},
+  {
+    "id": "uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026",
+    "b": "UKSSSC Inter Level Group C",
+    "t": "UKSSSC Inter Level Group C Recruitment 2026 Notification Out for 553 Junior Assistant, Registrar Clerk and More Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "07.10.2026",
+    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UKSSSC Inter Level Group C has officially released employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 for the recruitment of 553 vacancies for Junior Assistant, Registrar Clerk and More posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311041608906.pdf"
+},
+  {
+    "id": "esic-hospital-rudrapur-specialist-senior-resident-recruitment-2026",
+    "b": "ESIC Hospital Rudrapur",
+    "t": "ESIC Hospital Rudrapur Recruitment 2026 Notification Out for 46 Specialist, Senior Resident Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "08 September 2026 , 09-09-2026, 10-09-2026, 11-09-2026 (Walk-in)",
+    "a": "ESIC-HOSPITAL-/2026",
+    "q": "Diploma | MBBS / Medical PG | BDS / Dental",
+    "desc": "ESIC Hospital Rudrapur has officially released employment advertisement notification ESIC-HOSPITAL-/2026 for the recruitment of 46 vacancies for Specialist, Senior Resident posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/walk_in_interview_Specialist_SR_with_application_form_1788256353.pdf"
+},
+  {
+    "id": "allahabad-university-junior-research-assistant-jra-recruitment-2026",
+    "b": "Allahabad University",
+    "t": "Allahabad University Recruitment 2026 Notification Out for 1 Junior Research Assistant (JRA) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "15 September 2026",
+    "a": "ALLAHABAD-UNIV/2026",
+    "q": "M.Sc",
+    "desc": "Allahabad University has officially released employment advertisement notification ALLAHABAD-UNIV/2026 for the recruitment of 1 vacancies for Junior Research Assistant (JRA) posts.",
+    "u": "https://allduniv.ac.in/upload/file_collection/JRA%20ADV.%20%20UPCST%203108.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-scientist-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Project Scientist Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "09 September 2026",
+    "a": "P.Rect./R&D/2026/161",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Kanpur has officially released employment advertisement notification P.Rect./R&D/2026/161 for the recruitment of 1 vacancies for Project Scientist posts.",
+    "u": "https://www.iitk.ac.in/dord/project/scdt-ps-31-06-26.html"
+},
+  {
+    "id": "up-anganwadi-helper-544-recruitment-2026",
+    "b": "UP Anganwadi Helper",
+    "t": "UP Anganwadi Helper Recruitment 2026 Notification Out for 544 544 Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "13 September 2026, till midnight 12:00 AM",
+    "a": "539/D",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UP Anganwadi Helper has officially released employment advertisement notification 539/D for the recruitment of 544 vacancies for 544 posts.",
+    "u": "https://upanganwadibharti.in/helper-v2/uploadOrder/ordercopy1787989107.pdf"
+},
+  {
+    "id": "hamirpur-up-anganwadi-worker-80-recruitment-2026",
+    "b": "Hamirpur UP Anganwadi Worker",
+    "t": "Hamirpur UP Anganwadi Worker Recruitment 2026 Notification Out for 80 80 Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "16 September 2026 (till 12:00 midnight)",
+    "a": "HAMIRPUR-UP-AN/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Hamirpur UP Anganwadi Worker has officially released employment advertisement notification HAMIRPUR-UP-AN/2026 for the recruitment of 80 vacancies for 80 posts.",
+    "u": "https://upanganwadibharti.in/worker-v4/uploadOrder/ordercopy_1787817543_42faee29.pdf"
+},
+  {
+    "id": "indian-veterinary-research-ins-young-professional-ii-recruitment-2026",
+    "b": "Indian Veterinary Research Institute (ICAR IVRI)",
+    "t": "Indian Veterinary Research Institute (ICAR IVRI) Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "INDIAN-VETERIN/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Veterinary Research Institute (ICAR IVRI) has officially released employment advertisement notification INDIAN-VETERIN/2026 for the recruitment of 1 vacancies for Young Professional-II posts.",
+    "u": "https://www.ivri.nic.in/jobs/Walk%20in%20Interview%20for%20Young%20Professional%20II.pdf"
+},
+  {
     "id": "ballia-civil-court-part-time-contractual-sweeper-recruitment-2026",
     "b": "Ballia Civil Court",
     "t": "Ballia Civil Court Recruitment 2026 Notification Out for 9 Part-time Contractual Sweeper Posts | Apply Offline",
