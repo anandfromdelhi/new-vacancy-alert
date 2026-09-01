@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-legal-services-author-for-legal-volunteer-recruitment-2026",
+    "b": "District Legal Services Authority Mandi (DLSA Mandi)",
+    "t": "District Legal Services Authority Mandi (DLSA Mandi) Recruitment 2026 Notification Out for 1 For Legal Volunteer Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "03 October 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Legal Services Authority Mandi (DLSA Mandi) has officially released employment advertisement notification DISTRICT-LEGAL/2026 for the recruitment of 1 vacancies for For Legal Volunteer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03645e6bfdd05d1a69c5e47b20f0a9/uploads/2026/08/2026082234.pdf"
+},
+  {
+    "id": "regional-centre-for-biotechnol-project-associate-ii-recruitment-2026",
+    "b": "Regional Centre for Biotechnology (RCB)",
+    "t": "Regional Centre for Biotechnology (RCB) Recruitment 2026 Notification Out for 1 Project Associate II Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "28/Project/2026/HR",
+    "q": "M.Sc",
+    "desc": "Regional Centre for Biotechnology (RCB) has officially released employment advertisement notification 28/Project/2026/HR for the recruitment of 1 vacancies for Project Associate II posts.",
+    "u": "https://rcb.res.in/files/advertisement-files/advt._no._28_project_2026_hr.pdf"
+},
+  {
+    "id": "national-brain-research-centre-research-associate-i-project-recruitment-2026",
+    "b": "National Brain Research Centre (NBRC)",
+    "t": "National Brain Research Centre (NBRC) Recruitment 2026 Notification Out for 1 Research Associate-I (Project) Posts | Apply Offline",
+    "d": "01 September 2026",
+    "l": "16 September 2026",
+    "a": "NATIONAL-BRAIN/2026",
+    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
+    "desc": "National Brain Research Centre (NBRC) has officially released employment advertisement notification NATIONAL-BRAIN/2026 for the recruitment of 1 vacancies for Research Associate-I (Project) posts.",
+    "u": "https://www.nbrc.ac.in/newweb/wp-content/uploads/2026/08/Dr-sourav-lab-RA1.pdf"
+},
+  {
+    "id": "rail-india-technical-and-econo-gm-team-leader-metro-works-jgm-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 3 GM (Team Leader / Metro works), JGM (Geotechnical Expert / Metro works), DGM (Architect / Metro works) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "30 September 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially released employment advertisement notification RAIL-INDIA-TEC/2026 for the recruitment of 3 vacancies for GM (Team Leader / Metro works), JGM (Geotechnical Expert / Metro works), DGM (Architect / Metro works) posts.",
+    "u": "https://www.rites.com/Upload/Career/Final_ad_(1)_pdf-2026-Sep-01-11-36-31.pdf"
+},
+  {
+    "id": "rail-india-technical-and-econo-individual-consultant-nx-desig-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 4 Individual Consultant: NX Design Engineer Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "15 September 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially released employment advertisement notification RAIL-INDIA-TEC/2026 for the recruitment of 4 vacancies for Individual Consultant: NX Design Engineer posts.",
+    "u": "https://www.rites.com/Upload/Career/Advt_YP_13-R1_25_(1)_pdf-2026-Sep-01-16-25-56.pdf"
+},
+  {
+    "id": "central-salt-marine-chemicals-project-associate-i-pat-i-recruitment-2026",
+    "b": "Central Salt & Marine Chemicals Research Institute",
+    "t": "Central Salt & Marine Chemicals Research Institute Recruitment 2026 Notification Out for 1 Project Associate - I (PAT-I) Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "30 September 2026",
+    "a": "CENTRAL-SALT-M/2026",
+    "q": "B.Tech / B.E | M.Sc | Any Bachelor's Degree",
+    "desc": "Central Salt & Marine Chemicals Research Institute has officially released employment advertisement notification CENTRAL-SALT-M/2026 for the recruitment of 1 vacancies for Project Associate - I (PAT-I) posts.",
+    "u": "https://www.csmcri.res.in/node/11046"
+},
+  {
+    "id": "birla-institute-of-technology-research-associate-recruitment-2026",
+    "b": "Birla Institute of Technology & Science, Pilani K K Birla Goa Campus",
+    "t": "Birla Institute of Technology & Science, Pilani K K Birla Goa Campus Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "10 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Birla Institute of Technology & Science, Pilani K K Birla Goa Campus has officially released employment advertisement notification BIRLA-INSTITUT/2026 for the recruitment of 1 vacancies for Research Associate posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/RA-Advertisement-for-ICSSR-Project.pdf"
+},
+  {
+    "id": "indian-agricultural-research-i-senior-research-fellow-recruitment-2026",
+    "b": "Indian Agricultural Research Institute (ICAR IARI)",
+    "t": "Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 Notification Out for 2 Senior Research Fellow Posts | Apply Online",
+    "d": "01 September 2026",
+    "l": "28 September 2026",
+    "a": "INDIAN-AGRICUL/2026",
+    "q": "B.Tech / B.E | MCA / BCA | Any Bachelor's Degree",
+    "desc": "Indian Agricultural Research Institute (ICAR IARI) has officially released employment advertisement notification INDIAN-AGRICUL/2026 for the recruitment of 2 vacancies for Senior Research Fellow posts.",
+    "u": "https://iari.res.in/files/jobs/2026_Application_SRF_31082026.pdf"
+},
+  {
+    "id": "sardar-vallabh-bhai-patel-hosp-junior-resident-dental-recruitment-2026",
+    "b": "Sardar Vallabh Bhai Patel Hospital Delhi",
+    "t": "Sardar Vallabh Bhai Patel Hospital Delhi Recruitment 2026 Notification Out for 1 Junior Resident (Dental) Posts | Walk-in Interview",
+    "d": "01 September 2026",
+    "l": "03 September 2026 (Walk-in)",
+    "a": "SARDAR-VALLABH/2026",
+    "q": "BDS / Dental | Any Bachelor's Degree",
+    "desc": "Sardar Vallabh Bhai Patel Hospital Delhi has officially released employment advertisement notification SARDAR-VALLABH/2026 for the recruitment of 1 vacancies for Junior Resident (Dental) posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsvbp_51.pdf"
+},
+  {
     "id": "indian-ports-association-ipa-senior-consultant-consultant-recruitment-2026",
     "b": "Indian Ports Association (IPA)",
     "t": "Indian Ports Association (IPA) Recruitment 2026 Notification Out for 5 Senior Consultant / Consultant Posts | Apply Offline",
