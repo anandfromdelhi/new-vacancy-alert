@@ -85149,7 +85149,7 @@
       }
     ],
     "eligibility": {
-      "education": "Details",
+      "education": "12th Pass / Any Graduate + UIDAI Certificate",
       "ageLimit": "As per government recruitment norms (+ standard relaxation for SC/ST/OBC/PwBD categories)",
       "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
     },
@@ -89719,7 +89719,7 @@
       }
     ],
     "eligibility": {
-      "education": "Class VIII (M.E. Standard)",
+      "education": "8th Pass / Middle Standard (Class VIII Pass)",
       "ageLimit": "Min: 18 years, Max: 42 years",
       "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
     },
@@ -107460,13 +107460,7 @@
       }
     ],
     "eligibility": {
-      "education": [
-        "Superannuated / Retired employees from HPCL or other Public Sector Oil & Gas Companies (such as IOCL, BPCL, ONGC, GAIL, CPCL, MRPL, etc.).",
-        "Candidates must have worked in the relevant department/division in Refinery Maintenance or Operations as per the role applied for.",
-        "Minimum of 5 years of experience in the respective department with substantial hands-on experience in major Refinery Shutdowns / Turnarounds (TA).",
-        "A minimum cooling period of 2 months is mandatory between retirement and re-engagement.",
-        "Applicants must have clean vigilance record with no major penalty awarded during service period and no minor penalty in the last 10 years."
-      ],
+      "education": "Diploma / B.Tech / B.E Engineering (Retired PSU Technical Officer / Consultant)",
       "ageLimit": "The applicant shall not be more than 64 years of age as on 31 July 2026.",
       "medicalStandards": [
         "Engagement is subject to medical fitness to discharge turnaround duties in refinery environment."
@@ -124259,7 +124253,7 @@
       }
     ],
     "eligibility": {
-      "education": "As per rules for D category contractual workers under BMC",
+      "education": "10th Pass / Secondary Pass (Group D / Sweeper / Gardener)",
       "ageLimit": "Min: 18 years, Max: 38 years",
       "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
     },
@@ -130308,7 +130302,7 @@
       }
     ],
     "eligibility": {
-      "education": "Class 6 pass",
+      "education": "Class 6th / 8th Pass (Literate)",
       "ageLimit": "Min: 18 years, Max: 40 years",
       "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
     },

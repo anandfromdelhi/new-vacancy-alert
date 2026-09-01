@@ -117,7 +117,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "01 September 2026",
     "l": "08 September 2026",
     "a": "BALLIA-CIVIL-C/2026",
-    "q": "Class 6 pass",
+    "q": "Class 6th / 8th Pass (Literate)",
     "desc": "Ballia Civil Court has officially released employment advertisement notification BALLIA-CIVIL-C/2026 for the recruitment of 9 vacancies for Part-time Contractual Sweeper posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec05967990de5b3eac7b87d49a13c683/uploads/2026/08/2026082175.pdf"
 },
@@ -392,7 +392,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "01 September 2026",
     "l": "12 September 2026",
     "a": "HO/548/MRMAH dt. 27.08.2026",
-    "q": "As per rules for D category contractual workers under BMC",
+    "q": "10th Pass / Secondary Pass (Group D / Sweeper / Gardener)",
     "desc": "Brihanmumbai Municipal Corporatio (BMC) has officially released employment advertisement notification HO/548/MRMAH dt. 27.08.2026 for the recruitment of 6 vacancies for D Category Contractual Worker posts.",
     "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/%e0%a4%b8%e0%a4%82%e0%a4%95%e0%a5%87%e0%a4%a4%e0%a4%b8%e0%a5%8d_%e0%a4%a5%e0%a4%b3%e0%a4%be%e0%a4%b5%e0%a4%b0%20%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b8%e0%a4%bf%e0%a4%a7%e0%a5%8d_%e0%a4%a6%20%e0%a4%95%e0%a4%b0%e0%a4%be%e0%a4%b5%e0%a4%af321.pdf"
 },
@@ -1206,7 +1206,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "August 2026",
     "l": "12 September 2026",
     "a": "Advertisement - VR TA Consultant 2026 v1",
-    "q": "See eligibility",
+    "q": "Diploma / B.Tech / B.E Engineering (Retired PSU Technical Officer / Consultant)",
     "desc": "Hindustan Petroleum Corporation Limited (HPCL), a Maharatna Central Public Sector Enterprise, has released an official recruitment notification for the engagement of 24 Turnaround Consultants on a short-term contract basis at its Visakh Refinery in Visakhapatnam, Andhra Pradesh.",
     "u": "https://www.hindustanpetroleum.com/documents/pdf/English%20Advertisement%20-%20VR%20TA%20Consultant%202026%20v1.pdf"
 },
@@ -1998,7 +1998,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "30 August 2026",
     "l": "3 September 2026",
     "a": "NUAPADA-DISTRI/2026",
-    "q": "Class VIII (M.E. Standard)",
+    "q": "8th Pass / Middle Standard (Class VIII Pass)",
     "desc": "Nuapada District Court has officially released employment advertisement notification NUAPADA-DISTRI/2026 for the recruitment of 17 vacancies for Group D (Daily Wage) posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec019a96a2c73c0d477ff2a6da3bf538/uploads/2026/08/2026082014.pdf"
 },
@@ -2207,7 +2207,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "30 August 2026",
     "l": "31 August 2026",
     "a": "AADHAAR-SUPERV/2026",
-    "q": "Details",
+    "q": "12th Pass / Any Graduate + UIDAI Certificate",
     "desc": "Aadhaar Supervisor has officially released employment advertisement notification AADHAAR-SUPERV/2026 for the recruitment of 1 vacancies for Various Posts posts.",
     "u": "https://cscspv.in/ask-job.html"
 },

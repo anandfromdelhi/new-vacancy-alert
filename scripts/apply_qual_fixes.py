@@ -9,7 +9,12 @@ fixes = {
     'national-health-mission-nhm-chhattisgarh---office-of-the-vacancies-recruitment-2026': 'MBBS / B.Sc Nursing / GNM / Paramedical Degree',
     'central-pollution-control-board-cpcb-ministry-of-environment-forest-climate-monthly-emoluments-consolidated-recruitment-2026': 'B.Tech / B.E / B.Sc / Post Graduate in Environmental Science / Engineering',
     'esic-medical-college-hospital-bihta-patna-under-the-employees-state-vacancies-recruitment-2026': 'MBBS / MD / MS / Medical Post Graduate Degree',
-    'nalanda-university-vacancies-recruitment-2026': "Any Graduate / Post Graduate / Master's Degree"
+    'nalanda-university-vacancies-recruitment-2026': "Any Graduate / Post Graduate / Master's Degree",
+    'ballia-civil-court-part-time-contractual-sweeper-recruitment-2026': 'Class 6th / 8th Pass (Literate)',
+    'brihanmumbai-municipal-corpora-d-category-contractual-worker-recruitment-2026': '10th Pass / Secondary Pass (Group D / Sweeper / Gardener)',
+    'hpcl-visakh-refinery-ta-consultant-recruitment-2026': 'Diploma / B.Tech / B.E Engineering (Retired PSU Technical Officer / Consultant)',
+    'nuapada-district-court-group-d-daily-wage-recruitment-2026': '8th Pass / Middle Standard (Class VIII Pass)',
+    'aadhaar-supervisor-various-posts-recruitment-2026': '12th Pass / Any Graduate + UIDAI Certificate'
 }
 
 # Update jobDetails.json
