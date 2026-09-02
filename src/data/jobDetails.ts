@@ -19,7 +19,20 @@ export interface JobDetail {
   overview: string[];
   highlights: { label: string; value: string }[];
   importantDates: { event: string; date: string }[];
-  vacanciesDetails: { category: string; count: number | string }[];
+  vacanciesDetails: { 
+    category?: string; 
+    count?: number | string; 
+    postName?: string; 
+    total?: number | string; 
+    ur?: number | string; 
+    obc?: number | string; 
+    sc?: number | string; 
+    st?: number | string; 
+    ews?: number | string; 
+    qualification?: string; 
+    payScale?: string; 
+    [key: string]: any;
+  }[];
   regionWiseVacancies?: { region: string; count: number | string }[];
   eligibility?: {
     education: string[];

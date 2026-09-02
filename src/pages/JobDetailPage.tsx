@@ -571,8 +571,26 @@ export default function JobDetailPage() {
   const activeOverview = (Array.isArray(job.overview) ? job.overview : []).filter(p => !isNoData(p));
   const activeHighlights = (Array.isArray(job.highlights) ? job.highlights : []).filter(item => !isNoData(item?.value));
   const activeDates = (Array.isArray(job.importantDates) ? job.importantDates : []).filter(item => !isNoData(item?.date) && !isNoData(item?.event));
-  
-  const activeVacancyDetails = (Array.isArray(job.vacanciesDetails) ? job.vacanciesDetails : []).filter(item => !isNoData(item?.count) && !isNoData(item?.category));
+  const activeVacancyDetails = (Array.isArray(job.vacanciesDetails) ? job.vacanciesDetails : []).map((item: any) => {
+    const category = item?.category || item?.postName || item?.post || item?.name || '';
+    const count = item?.count !== undefined ? item?.count : (item?.total !== undefined ? item?.total : (item?.vacancies !== undefined ? item?.vacancies : ''));
+    return {
+      ...item,
+      category,
+      count,
+      postName: item?.postName || item?.post || item?.category || item?.name || '',
+      total: item?.total !== undefined ? item?.total : (item?.count !== undefined ? item?.count : (item?.vacancies !== undefined ? item?.vacancies : count)),
+      ur: item?.ur,
+      obc: item?.obc,
+      sc: item?.sc,
+      st: item?.st,
+      ews: item?.ews,
+      qualification: item?.qualification,
+      payScale: item?.payScale
+    };
+  }).filter((item: any) => !isNoData(item.count) && !isNoData(item.category));
+
+  const isPostWiseMatrix = activeVacancyDetails.some((item: any) => item.ur !== undefined || item.obc !== undefined || item.qualification || item.payScale);
   const activeRegionWiseVacancies = (Array.isArray(job.regionWiseVacancies) ? job.regionWiseVacancies : []).filter(item => !isNoData(item?.count) && !isNoData(item?.region));
   const hasVacancies = activeVacancyDetails.length > 0 || activeRegionWiseVacancies.length > 0;
 
@@ -1993,24 +2011,61 @@ export default function JobDetailPage() {
 
               {activeVacancyDetails.length > 0 && (
                 <>
-                  <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-2">Category-wise Distribution</h3>
+                  <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-2">
+                    {isPostWiseMatrix ? 'Post-wise & Category-wise Vacancy Breakdown' : 'Category-wise Distribution'}
+                  </h3>
                   <div className="overflow-x-auto mb-6 sm:mb-8 rounded-xl border border-slate-200">
                     <table className="w-full text-left border-collapse">
                       <thead>
                         <tr className="bg-slate-50">
-                          <th className="py-2.5 px-3 sm:py-3 sm:px-5 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200">Category</th>
-                          <th className="py-2.5 px-3 sm:py-3 sm:px-5 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-right">Vacancies</th>
+                          <th className="py-2.5 px-3 sm:py-3 sm:px-5 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200">
+                            {isPostWiseMatrix ? 'Post Name / Cadre' : 'Category'}
+                          </th>
+                          {isPostWiseMatrix && (
+                            <>
+                              <th className="py-2.5 px-2 sm:py-3 sm:px-3 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-center">UR</th>
+                              <th className="py-2.5 px-2 sm:py-3 sm:px-3 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-center">OBC</th>
+                              <th className="py-2.5 px-2 sm:py-3 sm:px-3 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-center">SC</th>
+                              <th className="py-2.5 px-2 sm:py-3 sm:px-3 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-center">ST</th>
+                              <th className="py-2.5 px-2 sm:py-3 sm:px-3 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-center">EWS</th>
+                            </>
+                          )}
+                          <th className="py-2.5 px-3 sm:py-3 sm:px-5 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200 text-right">
+                            {isPostWiseMatrix ? 'Total' : 'Vacancies'}
+                          </th>
+                          {isPostWiseMatrix && activeVacancyDetails.some(item => item.qualification || item.payScale) && (
+                            <th className="py-2.5 px-3 sm:py-3 sm:px-5 text-[10px] sm:text-xs font-black text-slate-600 uppercase tracking-wider border-b border-slate-200">
+                              Qualification & Pay Scale
+                            </th>
+                          )}
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-100">
                         {activeVacancyDetails.map((item, idx) => (
                           <tr key={idx} className={item.category === 'Total Vacancies' ? 'bg-blue-50/40 font-black' : 'hover:bg-slate-50/50'}>
                             <td className={`py-2 px-3 sm:py-3.5 sm:px-5 text-xs sm:text-sm ${item.category === 'Total Vacancies' ? 'font-black text-blue-800' : 'font-bold text-slate-700'}`}>
-                              {item.category}
+                              {item.postName || item.category}
                             </td>
+                            {isPostWiseMatrix && (
+                              <>
+                                <td className="py-2 px-2 sm:py-3 sm:px-3 text-center text-xs font-semibold text-slate-600">{item.ur !== undefined ? item.ur : '-'}</td>
+                                <td className="py-2 px-2 sm:py-3 sm:px-3 text-center text-xs font-semibold text-slate-600">{item.obc !== undefined ? item.obc : '-'}</td>
+                                <td className="py-2 px-2 sm:py-3 sm:px-3 text-center text-xs font-semibold text-slate-600">{item.sc !== undefined ? item.sc : '-'}</td>
+                                <td className="py-2 px-2 sm:py-3 sm:px-3 text-center text-xs font-semibold text-slate-600">{item.st !== undefined ? item.st : '-'}</td>
+                                <td className="py-2 px-2 sm:py-3 sm:px-3 text-center text-xs font-semibold text-slate-600">{item.ews !== undefined ? item.ews : '-'}</td>
+                              </>
+                            )}
                             <td className={`py-2 px-3 sm:py-3.5 sm:px-5 text-right text-xs sm:text-sm ${item.category === 'Total Vacancies' ? 'font-black text-blue-800 text-sm sm:text-base' : 'font-extrabold text-slate-600'}`}>
-                              {item.count}
+                              <span className="bg-blue-50 border border-blue-100 text-blue-800 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md text-[11px] sm:text-xs font-black inline-block min-w-8 text-center">
+                                {item.count}
+                              </span>
                             </td>
+                            {isPostWiseMatrix && activeVacancyDetails.some(i => i.qualification || i.payScale) && (
+                              <td className="py-2 px-3 sm:py-3.5 sm:px-5 text-xs text-slate-600">
+                                {item.qualification && <span className="block font-medium text-slate-700">{item.qualification}</span>}
+                                {item.payScale && <span className="block text-[11px] text-slate-500 font-semibold">{item.payScale}</span>}
+                              </td>
+                            )}
                           </tr>
                         ))}
                       </tbody>
