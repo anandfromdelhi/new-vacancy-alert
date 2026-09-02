@@ -167,7 +167,9 @@ Save the complete enriched JSON structure to `scratch/temp_job.json` using the *
   "eligibility": {
     "education": ["..."],
     "ageLimit": "...",
-    "ageRelaxation": ["..."]
+    "ageRelaxation": ["..."],
+    "experience": ["..."],
+    "medicalStandards": ["..."]
   },
   "salary": {
     "payScale": "...",
@@ -180,6 +182,12 @@ Save the complete enriched JSON structure to `scratch/temp_job.json` using the *
     {"category": "UR / OBC / EWS", "fee": "..."},
     {"category": "SC / ST / PwBD / Ex-SM", "fee": "..."}
   ],
+  "howToPayFee": [
+    "Fee can be paid online using Net Banking, Debit/Credit Card, or UPI payment gateways."
+  ],
+  "examCentres": {
+    "details": "City 1, City 2, City 3"
+  },
   "selectionProcess": [
     {"stage": "Stage 1", "description": "..."},
     {"stage": "Stage 2", "description": "..."}

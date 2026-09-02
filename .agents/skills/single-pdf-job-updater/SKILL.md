@@ -147,7 +147,9 @@ Construct the updated JSON payload ensuring the **exact existing `id`** is used.
   "eligibility": {
     "education": ["..."],
     "ageLimit": "...",
-    "ageRelaxation": ["..."]
+    "ageRelaxation": ["..."],
+    "experience": ["..."],
+    "medicalStandards": ["..."]
   },
   "salary": {
     "payScale": "...",
@@ -161,6 +163,12 @@ Construct the updated JSON payload ensuring the **exact existing `id`** is used.
     {"category": "SC / ST / PwBD / Ex-SM", "fee": "..."},
     {"category": "Female (All Categories)", "fee": "..."}
   ],
+  "howToPayFee": [
+    "Fee can be paid online using Net Banking, Debit/Credit Card, or UPI payment gateways."
+  ],
+  "examCentres": {
+    "details": "City 1, City 2, City 3"
+  },
   "selectionProcess": [
     {"stage": "Stage 1", "description": "..."},
     {"stage": "Stage 2", "description": "..."},

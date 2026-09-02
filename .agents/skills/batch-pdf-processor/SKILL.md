@@ -41,9 +41,10 @@ Construct complete detailed entries for the new vacancy:
    - `highlights` array (10-12 key-value pairs)
    - `importantDates` array
    - `vacanciesDetails` array: MUST ALWAYS be structured with explicit keys for every post (`postName`, `total`, `ur`, `obc`, `sc`, `st`, `ews`, `qualification`, `payScale`) or categories (`category`, `count`) so the interactive post-wise seat matrix table renders on the live page without omission.
-   - `eligibility` object (`education`, `ageLimit`, `ageRelaxation`)
-   - `salary` object
-   - `applicationFee` array
+   - `eligibility` object (`education`, `ageLimit`, `ageRelaxation`, `experience`, `medicalStandards`)
+   - `salary` object (`payScale`/`payLevel`, `basicPay`/`initialPay`, `gradePay`, `inHandSalary`, `allowances`)
+   - `applicationFee` array & `howToPayFee` array (net banking, UPI, cards)
+   - `examCentres` object (`details`, `centres`)
    - `selectionProcess` array
    - `howToApply` array
    - `documentsRequired` array

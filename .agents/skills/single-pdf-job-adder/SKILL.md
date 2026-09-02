@@ -51,8 +51,127 @@ python scripts/extract_pdf_data.py "<path_to_pdf>"
 ```
 - Identify both standard sections and any **unique / non-standard tables or atypical clauses** (e.g. PET/PST standards, Typing speeds, Medical standards, Discipline matrices, Service bond terms, Document upload specs).
 
-### Step 3: Create Job JSON & Execute Automated Inserter
-Save complete job schema JSON to `scratch/temp_job.json` and run:
+### Step 3: Create Full Job JSON & Execute Automated Inserter
+Save complete job schema JSON to `scratch/temp_job.json`:
+
+```json
+{
+  "id": "<generated-unique-job-id>",
+  "seoTitle": "<Target Keyword Optimized Title> | NewVacancyAlert",
+  "seoDescription": "<150-160 char meta description with exact vacancies, qualification, pay scale, and last date>",
+  "focusKeywords": "<Primary keywords>",
+  "lsiKeywords": "<Secondary LSI keywords>",
+  "title": "<Full Post Title with Total Vacancies and Call to Action>",
+  "board": "<Full Board / Department / Commission Name>",
+  "advtNo": "<Official Advertisement / Notification Number>",
+  "vacancies": 0,
+  "jobLocation": "<State / All India>",
+  "applicationMode": "Online",
+  "applicationStatus": "Online Registration Opens DD.MM.YYYY to DD.MM.YYYY",
+  "lastUpdated": "YYYY-MM-DD",
+  "overview": [
+    "<Paragraph 1: Official notification announcement, board, post names, pay scale, vacancy count>",
+    "<Paragraph 2: Educational qualifications, age criteria, reservation categories>",
+    "<Paragraph 3: Selection stages, exam pattern, official portal URL, and application deadline>"
+  ],
+  "highlights": [
+    {"label": "Recruiting Organization", "value": "..."},
+    {"label": "Post Name", "value": "..."},
+    {"label": "Advertisement No.", "value": "..."},
+    {"label": "Total Vacancies", "value": "..."},
+    {"label": "Pay Scale / Salary", "value": "..."},
+    {"label": "Educational Qualification", "value": "..."},
+    {"label": "Age Limit (as on crucial date)", "value": "..."},
+    {"label": "Application Mode", "value": "Online"},
+    {"label": "Application Fee", "value": "..."},
+    {"label": "Online Application Dates", "value": "DD.MM.YYYY to DD.MM.YYYY"},
+    {"label": "Selection Process", "value": "..."},
+    {"label": "Official Website", "value": "..."}
+  ],
+  "importantDates": [
+    {"event": "Notification Published", "date": "..."},
+    {"event": "Online Application Commencement", "date": "..."},
+    {"event": "Last Date for Online Application", "date": "..."},
+    {"event": "Last Date for Application Fee Payment", "date": "..."},
+    {"event": "Application Correction Window", "date": "..."},
+    {"event": "Written Examination / Skill Test Date", "date": "..."}
+  ],
+  "vacanciesDetails": [
+    {
+      "postName": "...",
+      "total": 0,
+      "ur": 0,
+      "obc": 0,
+      "sc": 0,
+      "st": 0,
+      "ews": 0,
+      "qualification": "...",
+      "payScale": "..."
+    }
+  ],
+  "eligibility": {
+    "education": ["..."],
+    "ageLimit": "...",
+    "ageRelaxation": [
+      "SC / ST Candidates: 5 Years",
+      "OBC Candidates: 3 Years",
+      "PwBD Candidates: 10 Years"
+    ],
+    "experience": ["..."],
+    "medicalStandards": ["..."]
+  },
+  "salary": {
+    "payScale": "...",
+    "basicPay": "...",
+    "gradePay": "...",
+    "inHandSalary": "...",
+    "allowances": ["Dearness Allowance (DA)", "House Rent Allowance (HRA)", "Transport Allowance"]
+  },
+  "applicationFee": [
+    {"category": "General / OBC / EWS", "fee": "..."},
+    {"category": "SC / ST / PwBD / Ex-SM", "fee": "..."}
+  ],
+  "howToPayFee": [
+    "Fee can be paid online using Net Banking, Debit/Credit Card, or UPI payment gateways.",
+    "Keep transaction reference number / receipt for future verification."
+  ],
+  "examCentres": {
+    "details": "City 1, City 2, City 3, City 4"
+  },
+  "selectionProcess": [
+    {"stage": "Stage 1: Written Competitive Examination", "description": "..."},
+    {"stage": "Stage 2: Skill / Typing / Practical Test", "description": "..."},
+    {"stage": "Stage 3: Document Verification (DV)", "description": "Verification of original certificates"},
+    {"stage": "Stage 4: Medical Examination", "description": "Standard medical fitness check"}
+  ],
+  "howToApply": [
+    "Visit the official website at ...",
+    "Complete registration and fill in all educational and personal details.",
+    "Upload required documents, photograph, and signature.",
+    "Pay the prescribed application fee and submit the application form."
+  ],
+  "documentsRequired": [
+    "10th / Matriculation Certificate for Date of Birth verification.",
+    "Educational Qualification Passing Certificates & Marksheets.",
+    "Caste / EWS / Disability Certificate if claiming reservation.",
+    "Valid Photo ID Proof (Aadhaar / Voter ID / Passport)."
+  ],
+  "importantInstructions": [
+    "Ensure all uploaded documents are legible and valid on the crucial date.",
+    "Submit the online form before the closing date to avoid last-minute server rush."
+  ],
+  "urls": [
+    {"title": "Official Online Application Portal", "url": "..."},
+    {"title": "Download Official Notification PDF", "url": "..."}
+  ],
+  "faqs": [
+    {"question": "...", "answer": "..."},
+    {"question": "...", "answer": "..."}
+  ]
+}
+```
+
+Run automated inserter:
 ```bash
 python scripts/add_job_entry.py scratch/temp_job.json
 ```
