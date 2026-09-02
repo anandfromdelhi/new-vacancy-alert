@@ -1,6 +1,36 @@
 import json
 import sys
-import os
+import re
+
+MONTHS_MAP = {
+    '01': 'January', '02': 'February', '03': 'March', '04': 'April',
+    '05': 'May', '06': 'June', '07': 'July', '08': 'August',
+    '09': 'September', '10': 'October', '11': 'November', '12': 'December',
+    '1': 'January', '2': 'February', '3': 'March', '4': 'April',
+    '5': 'May', '6': 'June', '7': 'July', '8': 'August',
+    '9': 'September'
+}
+
+def format_date_str(s):
+    if not isinstance(s, str):
+        return s
+    def repl(m):
+        d, mon, y = m.group(1), m.group(2), m.group(3)
+        mon_name = MONTHS_MAP.get(mon, mon)
+        return f"{int(d):02d} {mon_name} {y}"
+    # match DD.MM.YYYY or DD/MM/YYYY
+    return re.sub(r'\b([0-3]?[0-9])[\./]([0-1]?[0-9])[\./](202[4-9])\b', repl, s)
+
+def normalize_job_dates(job):
+    if "importantDates" in job and isinstance(job["importantDates"], list):
+        for item in job["importantDates"]:
+            if "date" in item:
+                item["date"] = format_date_str(item["date"])
+    if "highlights" in job and isinstance(job["highlights"], list):
+        for h in job["highlights"]:
+            if "date" in h.get("label", "").lower() and "value" in h:
+                h["value"] = format_date_str(h["value"])
+    return job
 
 def add_job_entry(json_filepath):
     if not os.path.exists(json_filepath):
@@ -9,6 +39,8 @@ def add_job_entry(json_filepath):
 
     with open(json_filepath, 'r', encoding='utf-8') as f:
         job = json.load(f)
+
+    job = normalize_job_dates(job)
 
     job_id = job.get("id")
     if not job_id:

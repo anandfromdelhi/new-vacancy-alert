@@ -19,9 +19,11 @@ Use this skill whenever the user provides a list of multiple webpage URLs and as
    - Note it in the summary as skipped (Duplicate) and proceed directly to the next URL.
 3. **Zero-Loss Data Extraction**:
    - Extracts every post code, pay level, qualification, date, fee structure, syllabus, and document rule from the webpage.
-4. **Strict Application Closing Date (`l` field)**:
+4. **Strict Application Closing Date (`l` field) & Mandatory Spelled-Out Month Formatting**:
    - In `jobsData.ts`, **ALWAYS** set `l` to the actual application closing / last date (e.g. `16 September 2026`).
    - **NEVER** set `l` to the notification release date or application start date — putting a release date in `l` causes `isJobExpired()` to prematurely hide active jobs from the Home Page!
+   - **MANDATORY: NEVER USE NUMERIC DATES** like `DD.MM.YYYY` or `DD/MM/YYYY` (e.g. `06.10.2026` or `06/10/2026`). In Indian government notices, `06.10.2026` is 06 October, NOT 10 June. Numeric dates cause severe user confusion with US `MM/DD` format.
+   - **ALWAYS spell out the English month name in full** across all fields (`importantDates`, `highlights`, `jobsData.ts` `l` & `d`, `overview`, and `faqs`): e.g. **`06 October 2026 (11:59 PM)`**, **`07 September 2026`**, **`31 August 2026`**.
 5. **Adaptive Representation of Unique Tables & Atypical Data**:
    - Many webpage notifications feature specialized tables and uncommon data structures (e.g., Physical Measurement & Endurance Standards / PET / PST, Typing / Stenography speed benchmarks, Medical & Eye Vision criteria, Trade / Discipline / Branch seat matrices, Service Bonds & Training Stipend terms, Multi-stage marking schemes, or Photo/Signature upload specs).
    - Never omit or flatten these unique tables into plain paragraphs. Convert them into structured data and render them with tailored, visually appealing UI elements.

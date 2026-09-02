@@ -10,7 +10,10 @@ Use this skill whenever the user uploads a single PDF vacancy notification, scre
 ## Key Goals & Principles
 1. **Instant Duplicate Check**: Ensures job is not already on the site.
 2. **Zero-Loss Data Extraction**: Extracts every post code, pay level, qualification, date, fee structure, syllabus, and document rule from the PDF.
-3. **Strict Application Closing Date (`l` field)**: MUST set `l` in `jobsData.ts` to the **actual application closing/last date** (e.g. `16 September 2026`). **NEVER** set `l` to the notification release date or application start date — putting a release date in `l` causes `isJobExpired()` to prematurely hide active jobs from the Home Page!
+3. **Strict Application Closing Date (`l` field) & Mandatory Spelled-Out Month Formatting**:
+   - MUST set `l` in `jobsData.ts` to the **actual application closing/last date** (e.g. `16 September 2026`). **NEVER** set `l` to the notification release date or application start date — putting a release date in `l` causes `isJobExpired()` to prematurely hide active jobs from the Home Page!
+   - **MANDATORY: NEVER USE NUMERIC DATES** like `DD.MM.YYYY` or `DD/MM/YYYY` (e.g. `06.10.2026` or `06/10/2026`). In Indian government notices, `06.10.2026` is 06 October, NOT 10 June. Numeric dates cause severe user confusion with US `MM/DD` format.
+   - **ALWAYS spell out the English month name in full** across all fields (`importantDates`, `highlights`, `jobsData.ts` `l` & `d`, `overview`, and `faqs`): e.g. **`06 October 2026 (11:59 PM)`**, **`07 September 2026`**, **`31 August 2026`**.
 4. **Adaptive Representation of Unique Tables & Atypical Data**:
    - Many PDF notifications feature specialized tables and uncommon data structures unlike standard notifications (e.g., Physical Measurement & Endurance Standards / PET / PST, Typing / Stenography speed benchmarks, Medical & Eye Vision criteria, Trade / Discipline / Branch seat matrices, Service Bonds & Training Stipend terms, Multi-stage marking & weightage schemes, or Photo/Signature/Thumb/Live-photo capture specifications).
    - Never omit or flatten these unique tables into plain paragraphs. Convert them into structured data and render them with tailored, visually appealing UI elements.

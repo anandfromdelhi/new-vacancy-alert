@@ -43,7 +43,7 @@ Organize the extracted web page information into standard recruitment fields:
 4. **Total Vacancies & Post-wise Breakdown**
 5. **Educational & Experience Eligibility**
 6. **Pay Scale / Salary / Monthly Stipend**
-7. **Important Dates** (Start date, Last date to apply, Exam/Interview dates)
+7. **Important Dates**: Start date, Last date to apply, Exam/Interview dates (**MANDATORY: ALWAYS spell out the English month in full, e.g. `06 October 2026`; NEVER use numeric dates like `06.10.2026` or `06/10/2026`**).
 8. **Application Fee & Mode of Payment**
 9. **Selection Process** (Written test, GATE score, Interview, Physical test)
 10. **Official URLs** (Apply link & Notification PDF link)

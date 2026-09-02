@@ -33,7 +33,7 @@ python scripts/check_duplicate_vacancy.py "<Title/Text>" "<Board Name>" "<Advt N
 
 ### Step 3: Create Full Job Schema & Entry
 Construct complete detailed entries for the new vacancy:
-1. **`jobsData.ts`**: Add unique `id`, `b` (board), `t` (title with post count & last date), `d` (post date), `l` (actual closing/last date, e.g. `16 September 2026` — NEVER use release or start date for `l`), `a` (advt no), `q` (qualification summary), `desc` (rich description), `u` (official website).
+1. **`jobsData.ts`**: Add unique `id`, `b` (board), `t` (title with post count & last date), `d` (post date, e.g. `31 August 2026`), `l` (actual closing/last date, e.g. `16 September 2026` — NEVER use release/start date for `l`, and NEVER use numeric `DD.MM.YYYY` / `DD/MM/YYYY` format; always spell out the month in full), `a` (advt no), `q` (qualification summary), `desc` (rich description), `u` (official website).
 2. **`jobDetails.ts`**: Add full `JobDetail` schema containing:
    - `id`, `seoTitle`, `seoDescription`, `focusKeywords`, `lsiKeywords`
    - `title`, `board`, `advtNo`, `vacancies`, `jobLocation`, `applicationMode`, `applicationStatus`, `lastUpdated`

@@ -36,9 +36,11 @@ Trigger this skill whenever:
      - Full multi-stage selection process and detailed syllabus/exam pattern.
      - Application fees, how to apply steps, document specifications, and 4–6 comprehensive FAQs.
 
-4. **Strict Application Closing Date (`l` field)**:
+4. **Strict Application Closing Date (`l` field) & Mandatory Spelled-Out Month Formatting**:
    - MUST set `l` in `jobsData.ts` to the **actual application closing/last date** (e.g., `30 September 2026`).
    - **NEVER** set `l` to the notification release date or application start date.
+   - **MANDATORY: NEVER USE NUMERIC DATES** like `DD.MM.YYYY` or `DD/MM/YYYY` (e.g. `06.10.2026` or `06/10/2026`). In Indian government notices, `06.10.2026` is 06 October, NOT 10 June. Numeric dates cause severe user confusion with US `MM/DD` format.
+   - **ALWAYS spell out the English month name in full** across all fields (`importantDates`, `highlights`, `jobsData.ts` `l` & `d`, `overview`, and `faqs`): e.g. **`06 October 2026 (11:59 PM)`**, **`07 September 2026`**, **`31 August 2026`**.
 
 5. **Right Sidebar Strict Vertical Tiling Rule**:
    - Any widgets placed inside the right sidebar (such as **Related & Trending Government Vacancies 2026**) MUST ALWAYS tile vertically in a single column (`flex flex-col space-y-2.5` or `grid grid-cols-1 gap-2.5`). **NEVER** use horizontal multi-column classes (`grid-cols-2`, `grid-cols-3`, `lg:grid-cols-3`) inside the sidebar.
