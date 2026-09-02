@@ -2,10 +2,17 @@ import pypdf
 import sys
 import os
 
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
+
 def extract_pdf_fast(pdf_path, max_pages=None):
     if not os.path.exists(pdf_path):
         print(f"Error: File not found - {pdf_path}")
-        return
+        return ""
         
     reader = pypdf.PdfReader(pdf_path)
     total_pages = len(reader.pages)
@@ -23,7 +30,6 @@ def extract_pdf_fast(pdf_path, max_pages=None):
     for page_idx in range(pages_to_read):
         page = reader.pages[page_idx]
         text = page.extract_text() or ""
-        # Preserve full UTF-8 Unicode text (Hindi, Kannada, Marathi, etc.)
         clean_text = text.strip()
         print(f"--- PAGE {page_idx + 1} OF {total_pages} ---")
         if clean_text:

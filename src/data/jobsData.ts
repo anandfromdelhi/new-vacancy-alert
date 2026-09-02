@@ -35,14 +35,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026",
-    "b": "UKSSSC Inter Level Group C",
-    "t": "UKSSSC Inter Level Group C Recruitment 2026 Notification Out for 553 Junior Assistant, Registrar Clerk and More Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "07.10.2026",
-    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "UKSSSC Inter Level Group C has officially released employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 for the recruitment of 553 vacancies for Junior Assistant, Registrar Clerk and More posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311041608906.pdf"
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "UKSSSC Group C Intermediate Level Recruitment 2026: 553 Junior Assistant, Registration Clerk, Survey Lekhpal & Other Posts | Apply Online",
+    "d": "31 August 2026",
+    "l": "07 October 2026",
+    "a": "Advt No. 80 / उ०अ०से०च०आ० / 2026, Dated 31.08.2026",
+    "q": "Intermediate (12th Pass) + Computer Typing (Hindi/English)",
+    "desc": "The Uttarakhand Subordinate Service Selection Commission (UKSSSC) has released Advertisement No. 80/2026 announcing direct recruitment for 553 Group 'C' (समूह 'ग') vacancies across various state government departments.",
+    "u": "https://www.sssc.uk.gov.in"
 },
   {
     "id": "esic-hospital-rudrapur-specialist-senior-resident-recruitment-2026",
@@ -79,25 +79,25 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "up-anganwadi-helper-544-recruitment-2026",
-    "b": "UP Anganwadi Helper",
-    "t": "UP Anganwadi Helper Recruitment 2026 Notification Out for 544 544 Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "13 September 2026, till midnight 12:00 AM",
-    "a": "539/D",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "UP Anganwadi Helper has officially released employment advertisement notification 539/D for the recruitment of 544 vacancies for 544 posts.",
-    "u": "https://upanganwadibharti.in/helper-v2/uploadOrder/ordercopy1787989107.pdf"
+    "b": "Child Development Services & Nutrition (ICDS), Uttar Pradesh",
+    "t": "UP Anganwadi Sahayika (Helper) Recruitment 2026: 544 Vacancies across 11 Project Blocks | Apply Online",
+    "d": "August 2026",
+    "l": "13 September 2026 (12:00 Midnight)",
+    "a": "Order No. S-64 / Ba.Vi.Pa. / 2026-27 | Notification Ref: 1092245/2025/3313/58-1-2025(1917687)",
+    "q": "Intermediate (10+2 / 12th Pass) from recognized Board",
+    "desc": "The Department of Women and Child Development & ICDS, Uttar Pradesh, has issued official vacancy notification for 544 Anganwadi Sahayika (Helper) posts across 11 rural and urban project development blocks.",
+    "u": "http://upanganwadibharti.in"
 },
   {
     "id": "hamirpur-up-anganwadi-worker-80-recruitment-2026",
-    "b": "Hamirpur UP Anganwadi Worker",
-    "t": "Hamirpur UP Anganwadi Worker Recruitment 2026 Notification Out for 80 80 Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "16 September 2026 (till 12:00 midnight)",
-    "a": "HAMIRPUR-UP-AN/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Hamirpur UP Anganwadi Worker has officially released employment advertisement notification HAMIRPUR-UP-AN/2026 for the recruitment of 80 vacancies for 80 posts.",
-    "u": "https://upanganwadibharti.in/worker-v4/uploadOrder/ordercopy_1787817543_42faee29.pdf"
+    "b": "Child Development Services & Nutrition (ICDS), Hamirpur District, Uttar Pradesh",
+    "t": "UP Hamirpur Anganwadi Karyakatri (Worker) Recruitment 2026: 80 Vacancies across Project Blocks | Apply Online",
+    "d": "25 August 2026",
+    "l": "16 September 2026 (12:00 Midnight)",
+    "a": "Order No. 1787817543 / Ba.Vi.Pa. / Vigyapti / 2026-27 | Ref: 2025/3313/58-1-2025(1917687)",
+    "q": "Intermediate (Class 12th / 10+2 Pass)",
+    "desc": "The Office of the District Program Officer (ICDS), Hamirpur, Uttar Pradesh, has released the official notification for recruitment to 80 vacancies of Anganwadi Karyakatri (Worker) across rural and urban project areas in Hamirpur district.",
+    "u": "https://upanganwadibharti.in"
 },
   {
     "id": "indian-veterinary-research-ins-young-professional-ii-recruitment-2026",
@@ -343,14 +343,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026",
-    "b": "Meghalaya Civil Secretariat",
-    "t": "Meghalaya Civil Secretariat Recruitment 2026 Notification Out for 153 Peon, Chowkidar and More Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "18.09.2026, up to 5:00 PM (17:00 hrs)",
+    "b": "Secretariat Administration Department (Nazarat), Meghalaya Civil Secretariat",
+    "t": "Meghalaya Civil Secretariat Grade IV Recruitment 2026: 153 Peon, Cleaner, Sweeper, Chowkidar and Mali Posts | Apply Online",
+    "d": "17 August 2026",
+    "l": "18 September 2026 (5:00 PM)",
     "a": "SAN.66/2019/89, dated 17.08.2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Meghalaya Civil Secretariat has officially released employment advertisement notification SAN.66/2019/89, dated 17.08.2026 for the recruitment of 153 vacancies for Peon, Chowkidar and More posts.",
-    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17873105015989.pdf"
+    "q": "Class VI (6th) Passed",
+    "desc": "The Secretariat Administration Department (Nazarat), Government of Meghalaya, has released an official recruitment notification (Advt No. SAN.66/2019/89) for 153 Grade IV vacancies in the Meghalaya Civil Secretariat. The advertised posts include Peon (124 posts), Cleaner (17 posts), Sweeper (6 posts), Chowkidar (3 posts), and Mali (3 posts).",
+    "u": "https://rpa.imeghalaya.gov.in/"
 },
   {
     "id": "district-medical-health-office-medical-officer-recruitment-2026",
@@ -552,14 +552,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "karnataka-public-service-commi-group-a-b-recruitment-2026",
-    "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001",
-    "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 Recruitment 2026 Notification Out for 319 Group A & B Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "31 August 2026 07-09-2026",
-    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 has officially released employment advertisement notification KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026 for the recruitment of 319 vacancies for Group A & B posts.",
-    "u": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf"
+    "b": "Karnataka Public Service Commission (KPSC)",
+    "t": "KPSC Gazetted Probationers (KAS) Recruitment 2026: 319 Group A & Group B Vacancies | Apply Online",
+    "d": "31 July 2026",
+    "l": "31 August 2026 (Extended)",
+    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026, Dated 31.07.2026",
+    "q": "Any Bachelor's Degree / Graduation from recognized University",
+    "desc": "The Karnataka Public Service Commission (KPSC) has released the official recruitment notification (No. KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026) for the Gazetted Probationers Examination 2026-27 (Karnataka Administrative Services - KAS) to fill 319 Group 'A' and Group 'B' vacancies across state civil departments.",
+    "u": "https://kpsc.kar.nic.in"
 },
   {
     "id": "junior-plant-protection-office-crop-protector-kamdar-recruitment-2026",
@@ -904,14 +904,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "pgimer-mts-pharmacist-and-more-recruitment-2026",
-    "b": "PGIMER",
-    "t": "PGIMER Recruitment 2026 Notification Out for 60 MTS, Pharmacist and More Posts | Apply Online",
+    "b": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh",
+    "t": "PGIMER Chandigarh Recruitment 2026: 60 MTS, Pharmacist, Medical Officer, Computer Programmer Posts | Apply Online",
     "d": "01 September 2026",
-    "l": "19.10.2026",
+    "l": "19 October 2026",
     "a": "PGI/RC/053/2026/2192, dated 01.09.2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "PGIMER has officially released employment advertisement notification PGI/RC/053/2026/2192, dated 01.09.2026 for the recruitment of 60 vacancies for MTS, Pharmacist and More posts.",
-    "u": "https://pgimer.edu.in/"
+    "q": "10th Pass / Diploma / Degree / MBBS (as per post)",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh has released official notification Advt No. PGI/RC/053/2026/2192 inviting online applications for 60 vacancies on a direct recruitment basis. The advertised vacancies include 57 Group 'C' posts for PGIMER Chandigarh and 3 Group 'A', 'B' & 'C' posts for PGI Satellite Centre, Sangrur (Punjab).",
+    "u": "https://pgimer.edu.in"
 },
   {
     "id": "postgraduate-institute-of-medi-lab-technician-recruitment-2026",
@@ -1048,12 +1048,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "tnpsc-ctse-interview-posts-recruitment-2026",
     "b": "Tamil Nadu Public Service Commission (TNPSC)",
-    "t": "TNPSC Combined Technical Services Examination (Interview Posts) 2026 Notification Out for 170 Vacancies across 31 Cadres | Apply Online",
+    "t": "TNPSC Combined Technical Services Examination (Interview Posts) 2026: 170 Vacancies across 31 Technical Cadres | Apply Online",
     "d": "31 August 2026",
     "l": "06 October 2026 (11:59 PM)",
-    "a": "Advertisement No. 741 | Notification No. 8/2026 Dated 31.08.2026",
-    "q": "B.V.Sc / B.E / B.Tech / CA / ICWA / Master's Degree / Bachelor's with Shorthand (Post-wise)",
-    "desc": "Tamil Nadu Public Service Commission (TNPSC) has officially published the comprehensive 134-page notification (Advertisement No. 741 / Notification No. 8/2026) on 31 August 2026 for direct recruitment to 170 vacancies in Combined Technical Services Examination (Interview Posts) across various State Departments, Boards, and Public Sector Undertakings.",
+    "a": "Advertisement No. 741 | Notification No. 8/2026, Dated 31.08.2026",
+    "q": "Degree / PG / B.E. / B.Tech / B.V.Sc / CA / ICWA (Cadre-specific)",
+    "desc": "The Tamil Nadu Public Service Commission (TNPSC) has released official Notification No. 8/2026 (Advt No. 741) inviting online applications for 170 vacancies across 31 technical cadres under the Combined Technical Services Examination (Interview Posts) 2026.",
     "u": "https://www.tnpscexams.in"
 },
   {
