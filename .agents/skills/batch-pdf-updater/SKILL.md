@@ -43,6 +43,12 @@ Trigger this skill whenever:
 5. **Right Sidebar Strict Vertical Tiling Rule**:
    - Any widgets placed inside the right sidebar (such as **Related & Trending Government Vacancies 2026**) MUST ALWAYS tile vertically in a single column (`flex flex-col space-y-2.5` or `grid grid-cols-1 gap-2.5`). **NEVER** use horizontal multi-column classes (`grid-cols-2`, `grid-cols-3`, `lg:grid-cols-3`) inside the sidebar.
 
+6. **Mandatory Post-wise & Category Seat Matrix Representation (`vacanciesDetails`)**:
+   - MUST ALWAYS structure `vacanciesDetails` with explicit fields for every post:
+     `{"postName": "...", "total": N, "ur": X, "obc": Y, "sc": Z, "st": W, "ews": V, "qualification": "...", "payScale": "..."}`
+   - Alternatively for simple category quotas: `{"category": "UR", "count": N}`.
+   - Every single post and quota announced in the PDF must be populated so the interactive seat matrix table is 100% rendered on the live page without omission.
+
 ---
 
 ## Step-by-Step Batch Execution Protocol

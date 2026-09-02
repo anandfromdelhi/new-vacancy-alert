@@ -40,7 +40,7 @@ Construct complete detailed entries for the new vacancy:
    - `overview` (3-4 paragraphs)
    - `highlights` array (10-12 key-value pairs)
    - `importantDates` array
-   - `vacanciesDetails` array
+   - `vacanciesDetails` array: MUST ALWAYS be structured with explicit keys for every post (`postName`, `total`, `ur`, `obc`, `sc`, `st`, `ews`, `qualification`, `payScale`) or categories (`category`, `count`) so the interactive post-wise seat matrix table renders on the live page without omission.
    - `eligibility` object (`education`, `ageLimit`, `ageRelaxation`)
    - `salary` object
    - `applicationFee` array

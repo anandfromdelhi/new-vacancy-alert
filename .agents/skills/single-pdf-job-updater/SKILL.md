@@ -45,12 +45,18 @@ Trigger this skill whenever:
    - **Visual Callouts & Badge Clusters**: Highlight critical clauses (bonds, physical cut-offs, typing metrics, certificate validity dates) using alert badges (`border-l-4`, badge chips `bg-emerald-50 text-emerald-700 border-emerald-200`, `bg-amber-50`, `bg-indigo-50`).
    - **No Horizontal Scroll**: Guarantees all tables, cards, and grids are 100% responsive (`w-full`, `max-w-full`, `break-words`, `overflow-hidden`).
 
-6. **Full SSG Pre-rendering & SEO Optimization**:
+6. **Mandatory Post-wise & Category Seat Matrix Representation (`vacanciesDetails`)**:
+   - MUST ALWAYS structure `vacanciesDetails` with explicit fields for every post:
+     `{"postName": "...", "total": N, "ur": X, "obc": Y, "sc": Z, "st": W, "ews": V, "qualification": "...", "payScale": "..."}`
+   - Alternatively for simple category quotas: `{"category": "UR", "count": N}`.
+   - Ensure every single post, cadre, and reservation quota announced in the PDF is populated so the interactive seat matrix table renders completely on the page without missing rows.
+
+7. **Full SSG Pre-rendering & SEO Optimization**:
    - Pre-renders full raw HTML markup into `dist/<job-id>/index.html` and `dist/<job-id>.html` so search engines index updated content immediately without client JavaScript.
    - Updates route-specific `<title>`, `<meta name="description">`, Open Graph, Twitter, and Schema.org JSON-LD tags (`JobPosting`, `FAQPage`, `BreadcrumbList`).
    - Synchronizes `__SSR_JOB_DATA__` for immediate client-side React 19 hydration.
 
-7. **Dynamic Sitemap & Robots Synchronization**:
+8. **Dynamic Sitemap & Robots Synchronization**:
    - Automatically synchronizes `public/sitemap.xml`, `dist/sitemap.xml`, and `robots.txt`.
 
 ---
