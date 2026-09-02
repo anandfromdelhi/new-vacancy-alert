@@ -596,18 +596,57 @@ export default function JobDetailPage() {
 
   const activeEducation = (Array.isArray(job.eligibility?.education) ? job.eligibility.education : []).filter(item => !isNoData(item));
   const hasAgeLimit = !isNoData(job.eligibility?.ageLimit);
-  const activeAgeRelaxation = (Array.isArray(job.eligibility?.ageRelaxation) ? job.eligibility.ageRelaxation : []).filter(item => !isNoData(item?.relaxation) && !isNoData(item?.category));
+  const activeAgeRelaxation = (Array.isArray(job.eligibility?.ageRelaxation) ? job.eligibility.ageRelaxation : []).map((item: any) => {
+    if (typeof item === 'string') {
+      const parts = item.split(':');
+      if (parts.length > 1) {
+        return { category: parts[0].trim(), relaxation: parts.slice(1).join(':').trim() };
+      }
+      return { category: item, relaxation: 'Applicable' };
+    }
+    return item;
+  }).filter(item => item && !isNoData(item?.relaxation) && !isNoData(item?.category));
+  
   const activeMedical = (Array.isArray(job.eligibility?.medicalStandards) ? job.eligibility.medicalStandards : []).filter(item => !isNoData(item));
-  const hasEligibility = activeEducation.length > 0 || hasAgeLimit || activeAgeRelaxation.length > 0 || activeMedical.length > 0;
+  const activeExperience = (Array.isArray(job.eligibility?.experience) ? job.eligibility.experience : []).filter(item => !isNoData(item));
+  const hasEligibility = activeEducation.length > 0 || hasAgeLimit || activeAgeRelaxation.length > 0 || activeMedical.length > 0 || activeExperience.length > 0;
 
-  const hasSalary = job.salary && (!isNoData(job.salary.payLevel) || !isNoData(job.salary.initialPay));
+  const salaryPayLevel = job.salary?.payLevel || job.salary?.payScale || '';
+  const salaryInitialPay = job.salary?.initialPay || job.salary?.basicPay || '';
+  const salaryInHand = job.salary?.inHandSalary || '';
+  const salaryGradePay = job.salary?.gradePay || '';
+  const activeAllowances = Array.isArray(job.salary?.allowances) 
+    ? job.salary.allowances.filter((a: any) => !isNoData(a)) 
+    : (typeof job.salary?.allowances === 'string' && !isNoData(job.salary.allowances) ? [job.salary.allowances] : []);
+  const hasSalary = job.salary && (!isNoData(salaryPayLevel) || !isNoData(salaryInitialPay) || !isNoData(salaryInHand) || activeAllowances.length > 0);
 
   const activeFees = Array.isArray(job.applicationFee) 
-    ? job.applicationFee.filter(item => !isNoData(item?.fee) && !isNoData(item?.category)) 
+    ? job.applicationFee.map((item: any) => {
+        if (typeof item === 'string') {
+          const parts = item.split(':');
+          return parts.length > 1 ? { category: parts[0].trim(), fee: parts.slice(1).join(':').trim() } : { category: 'Application Fee', fee: item };
+        }
+        return {
+          category: item?.category || 'Category',
+          fee: item?.fee || item?.amount || item?.charge || '',
+          refund: item?.refund
+        };
+      }).filter(item => !isNoData(item?.fee) && !isNoData(item?.category)) 
     : [];
+  const activeHowToPayFee = Array.isArray(job.howToPayFee) 
+    ? job.howToPayFee.filter((item: any) => !isNoData(item)) 
+    : (typeof job.howToPayFee === 'string' && !isNoData(job.howToPayFee) ? [job.howToPayFee] : []);
   const hasFees = activeFees.length > 0 || (typeof job.applicationFee === 'object' && job.applicationFee !== null);
 
-  const activeSelection = (Array.isArray(job.selectionProcess) ? job.selectionProcess : []).filter(item => !isNoData(item?.stage) && !isNoData(item?.description));
+  const activeSelection = (Array.isArray(job.selectionProcess) ? job.selectionProcess : []).map((item: any) => {
+    if (typeof item === 'string') {
+      return { stage: item, description: '' };
+    }
+    return {
+      stage: item?.stage || item?.step || item?.name || 'Selection Stage',
+      description: item?.description || item?.details || ''
+    };
+  }).filter(item => !isNoData(item?.stage) || !isNoData(item?.description));
   const hasSelection = activeSelection.length > 0;
 
   const hasExamPattern = job.examPattern && !isNoData(job.examPattern.duration) && job.examPattern.sections && job.examPattern.sections.length > 0;
@@ -621,7 +660,14 @@ export default function JobDetailPage() {
   const activeReservationDetails = (job.reservation?.detailsList || []).filter(item => !isNoData(item));
   const hasReservation = activeReservationDetails.length > 0;
 
-  const hasExamCentres = job.examCentres && !isNoData(job.examCentres.details);
+  const normalizedExamCentres = job.examCentres ? (
+    typeof job.examCentres === 'string' 
+      ? { details: job.examCentres, title: 'Examination & Test Centres' }
+      : Array.isArray(job.examCentres)
+      ? { details: job.examCentres.join(', '), title: 'Examination & Test Centres' }
+      : job.examCentres
+  ) : null;
+  const hasExamCentres = normalizedExamCentres && !isNoData(normalizedExamCentres.details);
 
   const defaultHowToApply = [
     `Visit the official recruitment portal of ${job.board || 'the organization'} at ${job.officialLinks?.[0]?.url || job.u || 'the official website'}.`,
@@ -3792,45 +3838,32 @@ export default function JobDetailPage() {
                       <div className="mt-5 space-y-4">
                         <div className="flex items-center justify-between border-b border-slate-200 pb-2">
                           <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
-                            <ShieldCheck className="h-4 w-4 text-emerald-600" /> Medical Standards &amp; LASIK Surgery Eligibility Rules
+                            <ShieldCheck className="h-4 w-4 text-emerald-600" /> RRB JE Medical Standards Overview
                           </h4>
-                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">IRMM Vol-1 Chapter 5</span>
                         </div>
-
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                          <div className="bg-white border-2 border-rose-200 rounded-xl p-3.5 shadow-xs">
-                            <div className="flex items-center justify-between mb-1.5">
-                              <span className="bg-rose-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard A-3</span>
-                              <span className="text-[10px] font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Highest Acuity</span>
-                            </div>
-                            <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/9, 6/9 (Lens &le; 2D)</h5>
+                          <div className="bg-slate-50 border border-slate-200 rounded-xl p-3">
+                            <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded tracking-wider inline-block mb-1">Standard A-3</span>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Physically Fit in All Respects</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
-                              Near Vision: 0.6, 0.6. Must pass Colour, Binocular, Night &amp; Mesopic tests.
+                              Distant Vision: 6/9, 6/9 with/without glasses. Must pass Color Vision, Binocular &amp; Mesopic tests.
                             </p>
-                            <div className="bg-rose-100 text-rose-900 font-black text-[10px] p-2 rounded-lg border border-rose-300">
-                              ⚠️ LASIK SURGERY: Strictly INELIGIBLE for A-3 posts!
+                            <div className="bg-emerald-100 text-emerald-900 font-black text-[10px] p-2 rounded-lg border border-emerald-300">
+                              Essential for Track Machine, Electrical &amp; S&amp;T field posts.
                             </div>
                           </div>
-
-                          <div className="bg-white border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
-                            <div className="flex items-center justify-between mb-1.5">
-                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard B-1</span>
-                              <span className="text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Moderate</span>
-                            </div>
-                            <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/9, 6/12 (Lens &le; 4D)</h5>
+                          <div className="bg-slate-50 border border-slate-200 rounded-xl p-3">
+                            <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded tracking-wider inline-block mb-1">Standard B-1</span>
+                            <h5 className="font-black text-slate-900 text-xs mb-1">Physically Fit in All Respects</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
-                              Near Vision: 0.6, 0.6. Must pass Colour, Binocular, Night &amp; Mesopic vision tests.
+                              Distant Vision: 6/9, 6/12 with/without glasses. Must pass Night &amp; Mesopic Vision tests.
                             </p>
                             <div className="bg-amber-100 text-amber-900 font-black text-[10px] p-2 rounded-lg border border-amber-300">
-                              ✅ LASIK: Allowed if &ge;1 yr old, corneal thickness &ge;425&mu;m &amp; normal fundus.
+                              Required for Carriage &amp; Wagon, Bridge, Works &amp; Mechanical.
                             </div>
                           </div>
-
-                          <div className="bg-white border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
-                            <div className="flex items-center justify-between mb-1.5">
-                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Standard C-1</span>
-                              <span className="text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded">Workshop / Stores</span>
-                            </div>
+                          <div className="bg-slate-50 border border-slate-200 rounded-xl p-3">
+                            <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded tracking-wider inline-block mb-1">Standard B-2 / C-1</span>
                             <h5 className="font-black text-slate-900 text-xs mb-1">Distance 6/12, 6/18 with/without glasses</h5>
                             <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
                               Near Vision: 0.6, 0.6 with/without glasses for reading or close work.
@@ -3842,6 +3875,26 @@ export default function JobDetailPage() {
                         </div>
                       </div>
                     )}
+                  </div>
+                )}
+
+                {activeExperience.length > 0 && (
+                  <div>
+                    <h3 className="text-sm sm:text-lg font-black text-slate-800 mb-3 sm:mb-4 flex items-center gap-1.5 sm:gap-2 border-b border-slate-100 pb-2">
+                      <Briefcase className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-500" /> Work Experience & Additional Requirements
+                    </h3>
+                    <div className="bg-indigo-50/40 border border-indigo-100 rounded-lg sm:rounded-xl p-3.5 sm:p-5">
+                      <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm">
+                        {activeExperience.map((item, idx) => (
+                          <li key={idx} className="flex items-start gap-2 sm:gap-3">
+                            <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-indigo-500 shrink-0 mt-0.5" />
+                            <span className="font-medium text-slate-700 leading-relaxed text-justify">
+                              {item}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 )}
               </div>
@@ -3862,30 +3915,54 @@ export default function JobDetailPage() {
                 <div className="bg-emerald-100 p-1.5 sm:p-2 rounded-md sm:rounded-lg text-emerald-600"><DollarSign className="h-4 w-4 sm:h-5 sm:w-5" /></div>
                 Salary & Pay Scale
               </h2>
-              <div className="flex flex-col md:flex-row gap-4 sm:gap-6">
-                {!isNoData(job.salary?.payLevel) && (
-                  <div className="flex-1 bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex items-center gap-3 sm:gap-5 shadow-xs">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                {!isNoData(salaryPayLevel) && (
+                  <div className="bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex items-center gap-3 sm:gap-5 shadow-xs">
                     <div className="w-10 h-10 sm:w-14 sm:h-14 bg-white rounded-lg sm:rounded-xl flex items-center justify-center shadow-sm text-emerald-600 shrink-0 border border-emerald-100">
                       <TrendingUp className="h-5 w-5 sm:h-7 sm:w-7" />
                     </div>
                     <div>
-                      <p className="text-[9px] sm:text-[10px] font-black text-emerald-800 uppercase tracking-wider mb-0.5">Pay Matrix Level</p>
-                      <p className="text-base sm:text-xl font-black text-slate-800">{job.salary?.payLevel}</p>
+                      <p className="text-[9px] sm:text-[10px] font-black text-emerald-800 uppercase tracking-wider mb-0.5">Pay Matrix Level / Scale</p>
+                      <p className="text-sm sm:text-lg font-black text-slate-800">{salaryPayLevel}</p>
                     </div>
                   </div>
                 )}
-                {!isNoData(job.salary?.initialPay) && (
-                  <div className="flex-1 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex items-center gap-3 sm:gap-5 shadow-xs">
+                {!isNoData(salaryInitialPay) && (
+                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex items-center gap-3 sm:gap-5 shadow-xs">
                     <div className="w-10 h-10 sm:w-14 sm:h-14 bg-white rounded-lg sm:rounded-xl flex items-center justify-center shadow-sm text-blue-600 shrink-0 border border-blue-100">
                       <DollarSign className="h-5 w-5 sm:h-7 sm:w-7" />
                     </div>
                     <div>
-                      <p className="text-[9px] sm:text-[10px] font-black text-blue-800 uppercase tracking-wider mb-0.5">Emoluments & Perquisites</p>
-                      <p className="text-xs sm:text-sm font-semibold text-slate-700 leading-relaxed text-justify">{job.salary?.initialPay}</p>
+                      <p className="text-[9px] sm:text-[10px] font-black text-blue-800 uppercase tracking-wider mb-0.5">Basic / Initial Pay</p>
+                      <p className="text-xs sm:text-sm font-semibold text-slate-700 leading-relaxed text-justify">{salaryInitialPay}</p>
+                    </div>
+                  </div>
+                )}
+                {!isNoData(salaryInHand) && (
+                  <div className="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 rounded-xl sm:rounded-2xl p-4 sm:p-6 flex items-center gap-3 sm:gap-5 shadow-xs">
+                    <div className="w-10 h-10 sm:w-14 sm:h-14 bg-white rounded-lg sm:rounded-xl flex items-center justify-center shadow-sm text-amber-600 shrink-0 border border-amber-100">
+                      <DollarSign className="h-5 w-5 sm:h-7 sm:w-7" />
+                    </div>
+                    <div>
+                      <p className="text-[9px] sm:text-[10px] font-black text-amber-800 uppercase tracking-wider mb-0.5">Estimated In-Hand Salary</p>
+                      <p className="text-xs sm:text-sm font-semibold text-slate-700 leading-relaxed text-justify">{salaryInHand}</p>
                     </div>
                   </div>
                 )}
               </div>
+
+              {activeAllowances.length > 0 && (
+                <div className="mt-4 sm:mt-6 bg-slate-50 border border-slate-200 rounded-xl sm:rounded-2xl p-4 sm:p-5">
+                  <p className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider mb-2 sm:mb-3">Allowances & Benefits</p>
+                  <div className="flex flex-wrap gap-2">
+                    {activeAllowances.map((allowance: string, idx: number) => (
+                      <span key={idx} className="bg-white border border-slate-200 text-slate-700 text-xs font-semibold px-2.5 py-1 rounded-md shadow-xs">
+                        {allowance}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {id === 'aiims-norcet-11-nursing-officer-2026' && (
                 <div className="mt-6 bg-slate-900 text-white rounded-2xl p-5 border border-slate-800">
@@ -3944,6 +4021,22 @@ export default function JobDetailPage() {
                   </div>
                 ))}
               </div>
+
+              {activeHowToPayFee.length > 0 && (
+                <div className="mt-4 sm:mt-6 bg-slate-50 border border-slate-200 rounded-xl sm:rounded-2xl p-4 sm:p-6">
+                  <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider mb-2 sm:mb-3 flex items-center gap-2">
+                    <CreditCard className="h-4 w-4 text-orange-600" /> Fee Payment Instructions & Modes
+                  </h4>
+                  <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
+                    {activeHowToPayFee.map((item: string, idx: number) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <CheckCircle2 className="h-4 w-4 text-orange-500 shrink-0 mt-0.5" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </section>
           )}
 
