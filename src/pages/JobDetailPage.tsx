@@ -4354,6 +4354,72 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 )}
+
+                {id === 'dc-solapur-aaple-sarkar-seva-k-592-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <FileCheck className="h-4 w-4 text-purple-600" /> Solapur ASSK Mandatory In-Person Submission &amp; Selection Protocol
+                      </h4>
+                      <span className="text-[10px] font-bold text-purple-900 bg-purple-100 px-2 py-0.5 rounded-md">592 Centers / 11 Talukas</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                      <div className="bg-rose-50/80 border-2 border-rose-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-rose-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Strict Rule</span>
+                          <span className="text-[10px] font-bold text-rose-800">In-Person Only</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Physical Submission at Collector Office</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          Application form must be downloaded from solapur.gov.in, filled in legible handwriting, and submitted strictly <strong>in person (समक्ष)</strong>.
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-rose-900 border border-rose-200">
+                          Venue: Setu Sankalan, Revenue Branch, 1st Floor, Collector Office, Saat Rasta, Solapur. Applications sent by post will be rejected!
+                        </div>
+                      </div>
+
+                      <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Inspection &amp; Plan</span>
+                          <span className="text-[10px] font-bold text-blue-800">Mandatory</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Parishisht-A &amp; Parishisht-B Reports</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          Applicant must attach two official appendices with the application dossier before submission.
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-blue-900 border border-blue-200 space-y-1">
+                          <div>• <strong>Parishisht-A:</strong> Mandal Adhikari Physical Infrastructure Inspection Report.</div>
+                          <div>• <strong>Parishisht-B:</strong> Center Business Plan &amp; Financial Sustainability Details.</div>
+                        </div>
+                      </div>
+
+                      <div className="bg-amber-50/80 border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Residency Norms</span>
+                          <span className="text-[10px] font-bold text-amber-800">Min 2 Proofs</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Local Residence &amp; SMC Zone Proof</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          Must attach 2 residence proofs (tax receipt, 3-month light bill, DL, Voter ID, Domicile, Bank passbook).
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-amber-900 border border-amber-200">
+                          SMC Zone 1–8: Residence certificate from concerned Solapur Municipal Corporation Zone Office is strictly mandatory!
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-purple-50 to-indigo-50 border border-purple-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-purple-900 block text-xs sm:text-sm font-bold">Offline Application Submission Window:</strong>
+                        <span>Submit in person from <strong>01 September 2026 to 30 September 2026</strong> (Working Days: 11:00 AM to 05:00 PM). Chaired by Shri S. Karthikeyan IAS, District Collector &amp; Chairman, District Setu Committee Solapur.</span>
+                      </div>
+                      <span className="shrink-0 bg-purple-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        Deadline: 30 September 2026 (05:00 PM)
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}

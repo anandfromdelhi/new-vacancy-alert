@@ -761,13 +761,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "dc-solapur-aaple-sarkar-seva-k-592-recruitment-2026",
-    "b": "DC Solapur Aaple Sarkar Seva Kendra",
-    "t": "DC Solapur Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 592 592 Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "30 September 2026, 5:00 PM",
-    "a": "DC-SOLAPUR-AAP/2026",
-    "q": "12th Pass",
-    "desc": "DC Solapur Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-SOLAPUR-AAP/2026 for the recruitment of 592 vacancies for 592 posts.",
+    "b": "Collector & District Magistrate Office, Solapur (जिल्हाधिकारी तथा अध्यक्ष, जिल्हा सेतू समिती सोलापूर)",
+    "t": "Collector Office Solapur Recruitment 2026: 592 Aaple Sarkar Seva Kendra (ASSK) Operator Posts across 11 Talukas & SMC | Apply Offline",
+    "d": "31 August 2026",
+    "l": "30 September 2026 (05:00 PM)",
+    "a": "पत्रजाक्र-२०२६/मशा/कार्या-५/सेतू/प्रक्र-३६/आरआर-६७१ (दि. ३१ ऑगस्ट २०२६)",
+    "q": "Higher Secondary Certificate Examination (12th Pass / HSC)",
+    "desc": "The Collector and District Magistrate Office, Solapur (District Setu Committee) has officially issued recruitment proclamation notice No. पत्रजाक्र-२०२६/मशा/कार्या-५/सेतू/प्रक्र-३६/आरआर-६७१ dated 31 August 2026 for establishing 592 Aaple Sarkar Seva Kendras (ASSK / Maha e-Seva Kendra / Village Level Entrepreneur Centers) across rural Gram Panchayats and urban local bodies in Solapur district.",
     "u": "https://cdn.s3waas.gov.in/s3acc3e0404646c57502b480dc052c4fe1/uploads/2026/09/17882418299850.pdf"
 },
   {
