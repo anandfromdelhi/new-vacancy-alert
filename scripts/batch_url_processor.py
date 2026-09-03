@@ -45,19 +45,19 @@ def format_clean_date(date_str):
     if not date_str:
         return "Refer Notification"
     date_str = clean_text(date_str)
-    m = re.search(r'(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})', date_str)
-    if m:
+
+    def _replace_num_date(match):
+        d_val, m_val, y_val = int(match.group(1)), int(match.group(2)), int(match.group(3))
+        if m_val > 12 and d_val <= 12:
+            d_val, m_val = m_val, d_val
         try:
-            day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
-            dt = datetime.date(year, month, day)
-            formatted = dt.strftime("%d %B %Y")
-            extra = date_str[m.end():].strip()
-            if extra:
-                return f"{formatted} {extra}"
-            return formatted
+            dt = datetime.date(y_val, m_val, d_val)
+            return dt.strftime("%d %B %Y")
         except Exception:
-            pass
-    return date_str
+            return match.group(0)
+
+    formatted = re.sub(r'(\d{1,2})[-\/\.](\d{1,2})[-\/\.](\d{4})', _replace_num_date, date_str)
+    return formatted
 
 def format_short_qualification(qual_text):
     if not qual_text:
@@ -727,6 +727,7 @@ def add_job_to_system(job_schema):
         last_date = job_schema.get("applicationStatus", "").replace("Active - Apply before ", "").strip()
         if not last_date or "Refer" in last_date:
             last_date = job_schema.get("importantDates", [{}])[-1].get("date", "Refer Notification")
+        last_date = format_clean_date(last_date)
                 
         summary_entry = {
             "id": job_id,

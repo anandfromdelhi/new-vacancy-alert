@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-health-systems-resour-consultant-advisor-and-more-recruitment-2026",
+    "b": "National Health Systems Resource Centre (NHSRC)",
+    "t": "National Health Systems Resource Centre (NHSRC) Recruitment 2026 Notification Out for 1 Consultant, Advisor and More Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "22nd September 2026",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Health Systems Resource Centre (NHSRC) has officially released employment advertisement notification NATIONAL-HEALT/2026 for the recruitment of 1 vacancies for Consultant, Advisor and More posts.",
+    "u": "https://recruitment.nhsrcindia.org/my/job"
+},
+  {
+    "id": "chief-medical-and-health-offic-specialist-doctors-recruitment-2026",
+    "b": "Chief Medical and Health Office Bilaspur (CMHO Bilaspur)",
+    "t": "Chief Medical and Health Office Bilaspur (CMHO Bilaspur) Recruitment 2026 Notification Out for 4 Specialist Doctors Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "03 September 2026 (Walk-in)",
+    "a": "CHIEF-MEDICAL-/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Chief Medical and Health Office Bilaspur (CMHO Bilaspur) has officially released employment advertisement notification CHIEF-MEDICAL-/2026 for the recruitment of 4 vacancies for Specialist Doctors posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d82c8d1619ad8176d665453cfb2e55f0/uploads/2026/08/17878203827548.pdf"
+},
+  {
+    "id": "guru-ghasidas-vishwavidyalaya-finance-officer-professors-ass-recruitment-2026",
+    "b": "Guru Ghasidas Vishwavidyalaya",
+    "t": "Guru Ghasidas Vishwavidyalaya Recruitment 2026 Notification Out for 1 Finance Officer, Professors, Associate Professors, Assistant Professors Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "21 September 2026",
+    "a": "6995/Rec/Admn/2026)",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Guru Ghasidas Vishwavidyalaya has officially released employment advertisement notification 6995/Rec/Admn/2026) for the recruitment of 1 vacancies for Finance Officer, Professors, Associate Professors, Assistant Professors posts.",
+    "u": "https://www.ggu.ac.in/media/recruitment/1._advertizemnt-English_TLPGcuE.pdf"
+},
+  {
+    "id": "bihar-public-service-commissio-school-teacher-vidyalaya-adhya-recruitment-2026",
+    "b": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001",
+    "t": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 Recruitment 2026 Notification Out for 32 School Teacher / Vidyalaya Adhyapak (TRE-4.0) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "Announced Soon",
+    "a": "14/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 has officially released employment advertisement notification 14/2026 for the recruitment of 32 vacancies for School Teacher / Vidyalaya Adhyapak (TRE-4.0) posts.",
+    "u": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-142026-TRE-4.0_BPSC-20260818-jwk5si.pdf"
+},
+  {
+    "id": "bihar-vidyalaya-pariksha-samit-various-posts-recruitment-2026",
+    "b": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board)",
+    "t": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) Recruitment 2026 Notification Out for 1 Various Posts Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "31 August 2026",
+    "a": "P.R. 183/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) has officially released employment advertisement notification P.R. 183/2026 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://secondary.biharboardonline.com/"
+},
+  {
+    "id": "district-child-protection-unit-support-person-recruitment-2026",
+    "b": "District Child Protection Unit Kaimur (DCPU Kaimur)",
+    "t": "District Child Protection Unit Kaimur (DCPU Kaimur) Recruitment 2026 Notification Out for 25 Support Person Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "26 September 2026",
+    "a": "01/ 2026",
+    "q": "Diploma | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Kaimur (DCPU Kaimur) has officially released employment advertisement notification 01/ 2026 for the recruitment of 25 vacancies for Support Person posts.",
+    "u": "https://cdn.s3waas.gov.in/s3daca41214b39c5dc66674d09081940f0/uploads/2026/08/17878051758264.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-junior-research-fellow-jrf-recruitment-2026",
+    "b": "National Institute of Technology Silchar",
+    "t": "National Institute of Technology Silchar Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "NITS/ Dean(R&C)/ Chemistry/ 723/ 01/ 2026",
+    "q": "M.Sc",
+    "desc": "National Institute of Technology Silchar has officially released employment advertisement notification NITS/ Dean(R&C)/ Chemistry/ 723/ 01/ 2026 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.nits.ac.in/storage/CareerDocument/Career_6a96a0e41377f.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-associate-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Project Associate Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Sc",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Associate posts.",
+    "u": "https://www.iitg.ac.in/pdf/7c2fc48272dac5f3061c520a72e68363.pdf"
+},
+  {
+    "id": "tata-institute-of-social-scien-assistant-professor-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "16 September 2026",
+    "a": "ADVT/ACAD/TISS-GC/SEPT/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially released employment advertisement notification ADVT/ACAD/TISS-GC/SEPT/2026 for the recruitment of 1 vacancies for Assistant Professor posts.",
+    "u": "https://tiss.ac.in/uploads/files/Advt._Assistant_Professor_Sociology_TISS_GC_1.9.2026.pdf"
+},
+  {
+    "id": "arunachal-pradesh-psc-group-a-agriculture-development-office-recruitment-2026",
+    "b": "Arunachal Pradesh PSC Group A & Group B",
+    "t": "Arunachal Pradesh PSC Group A & Group B Recruitment 2026 Notification Out for 155 Agriculture Development Officer, Horticulture Development Officer, Veterinary Officer, Assistant Director (Sericulture), Dairy Development Officer Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "30 September 2026, 5:00 PM",
+    "a": "04/2026, dated 01.09.2026",
+    "q": "Arunachal Pradesh PRC + APST Certificate + Indigenous Tribal Language pr...",
+    "desc": "Arunachal Pradesh PSC Group A & Group B has officially released employment advertisement notification 04/2026, dated 01.09.2026 for the recruitment of 155 vacancies for Agriculture Development Officer, Horticulture Development Officer, Veterinary Officer, Assistant Director (Sericulture), Dairy Development Officer posts.",
+    "u": "https://appsc.gov.in/upload/RECINS001/group_a_b_advertisement_2026_20260901_193712.pdf"
+},
+  {
     "id": "csir-cmeri-centre-of-excellenc-senior-project-associate-proje-recruitment-2026",
     "b": "CSIR CMERI Centre of Excellence for Farm Machinery (CMERI CoEFM)",
     "t": "CSIR CMERI Centre of Excellence for Farm Machinery (CMERI CoEFM) Recruitment 2026 Notification Out for 7 Senior Project Associate / Project Associate / Project Assistant Posts | Walk-in Interview",
