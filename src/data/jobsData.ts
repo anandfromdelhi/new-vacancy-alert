@@ -12,6 +12,94 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "himachal-pradesh-public-servic-deputy-director-class-i-gazett-recruitment-2026",
+    "b": "Himachal Pradesh Public Service Commission (HPPSC)",
+    "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 Notification Out for 4 Deputy Director, Class-I (Gazetted), Group-A (Job Trainee) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "29 September 2026 (11:59 PM)",
+    "a": "60/9-2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Himachal Pradesh Public Service Commission (HPPSC) has officially released employment advertisement notification 60/9-2026 for the recruitment of 4 vacancies for Deputy Director, Class-I (Gazetted), Group-A (Job Trainee) posts.",
+    "u": "https://hppsc.hp.gov.in/CommonControls/ViewCMSFile?qs=KI3gZ53zz1wSGo29lXLTBfw1DHezN8KfEg%2BrikZhi%2FLLqiZME0%2BQRfdkGlH8WWhtZ6yT8GJ18LCaAcw%2F5Y%2BoDQd5Z0v908e3ZJyFRBKQAkw%3D"
+},
+  {
+    "id": "pucb-junior-accountant-senior-clerk-recruitment-2026",
+    "b": "PUCB",
+    "t": "PUCB Recruitment 2026 Notification Out for 19 Junior Accountant, Senior Clerk and More Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "15 September 2026 (up to 5:00 p.m.)",
+    "a": "PUCB/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "PUCB has officially released employment advertisement notification PUCB/2026 for the recruitment of 19 vacancies for Junior Accountant, Senior Clerk and More posts.",
+    "u": "https://pucb.in/career/images/Application.pdf"
+},
+  {
+    "id": "central-salt-marine-chemicals-project-associate-i-field-assi-recruitment-2026",
+    "b": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI)",
+    "t": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) Recruitment 2026 Notification Out for 3 Project Associate I / Field Assistant / Senior Project Associate Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "23 September 2026",
+    "a": "CENTRAL-SALT-M/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) has officially released employment advertisement notification CENTRAL-SALT-M/2026 for the recruitment of 3 vacancies for Project Associate I / Field Assistant / Senior Project Associate posts.",
+    "u": "https://www.csmcri.res.in/node/11047"
+},
+  {
+    "id": "s-d-agricultural-university-sd-young-professional-i-recruitment-2026",
+    "b": "S. D. Agricultural University (SDAU)",
+    "t": "S. D. Agricultural University (SDAU) Recruitment 2026 Notification Out for 2 Young Professional-I Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "SDAU/BSRC/1257/2026",
+    "q": "M.Sc",
+    "desc": "S. D. Agricultural University (SDAU) has officially released employment advertisement notification SDAU/BSRC/1257/2026 for the recruitment of 2 vacancies for Young Professional-I posts.",
+    "u": "https://dcs.sdau.edu.in/Uploads/news/advertisement%20for%20YP%201.pdf"
+},
+  {
+    "id": "national-institute-of-technolo-faculty-recruitment-2026",
+    "b": "National Institute of Technology Goa (NIT Goa)",
+    "t": "National Institute of Technology Goa (NIT Goa) Recruitment 2026 Notification Out for 1 Faculty Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "08 September 2026 (Walk-in)",
+    "a": "NITGOA/RECT/CONT/2026/57",
+    "q": "M.Sc | Ph.D / Doctorate",
+    "desc": "National Institute of Technology Goa (NIT Goa) has officially released employment advertisement notification NITGOA/RECT/CONT/2026/57 for the recruitment of 1 vacancies for Faculty posts.",
+    "u": "https://nitgoa.ac.in/uploads/Advt_Maths%2031august2026.pdf"
+},
+  {
+    "id": "sanjay-gandhi-memorial-hospita-senior-resident-dental-oral-ma-recruitment-2026",
+    "b": "Sanjay Gandhi Memorial Hospital (SGMH Delhi)",
+    "t": "Sanjay Gandhi Memorial Hospital (SGMH Delhi) Recruitment 2026 Notification Out for 4 Senior Resident, Dental (Oral & Maxillofacial Surgeon) Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "14 September 2026",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "BDS / Dental",
+    "desc": "Sanjay Gandhi Memorial Hospital (SGMH Delhi) has officially released employment advertisement notification SANJAY-GANDHI-/2026 for the recruitment of 4 vacancies for Senior Resident, Dental (Oral & Maxillofacial Surgeon) posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsgm_12.pdf"
+},
+  {
+    "id": "edcil-kvs-pmu-architect-senior-engineer-civi-recruitment-2026",
+    "b": "EdCIL KVS PMU",
+    "t": "EdCIL KVS PMU Recruitment 2026 Notification Out for 1 Architect, Senior Engineer (Civil), Engineer (Civil), Junior Engineer (Civil), AutoCAD/Revit Operator, Young Professional (Data Management & Web Monitoring) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "EdCIL/TSG/KVS/PMU/2026-01, dated 02.09.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "EdCIL KVS PMU has officially released employment advertisement notification EdCIL/TSG/KVS/PMU/2026-01, dated 02.09.2026 for the recruitment of 1 vacancies for Architect, Senior Engineer (Civil), Engineer (Civil), Junior Engineer (Civil), AutoCAD/Revit Operator, Young Professional (Data Management & Web Monitoring) posts.",
+    "u": "https://www.edcilindia.co.in/Default/ViewFile/?id=1788277002955_KVS%20-%20complete%20ad%20(1).pdf&path=TCareer"
+},
+  {
+    "id": "news-services-division-akashva-production-assistant-recruitment-2026",
+    "b": "News Services Division Akashvani",
+    "t": "News Services Division Akashvani Recruitment 2026 Notification Out for 1 Production Assistant Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "NEWS-SERVICES-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "News Services Division Akashvani has officially released employment advertisement notification NEWS-SERVICES-/2026 for the recruitment of 1 vacancies for Production Assistant posts.",
+    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/09/Empanelment_of_Casual_Assignees.pdf"
+},
+  {
     "id": "national-health-systems-resour-consultant-advisor-and-more-recruitment-2026",
     "b": "National Health Systems Resource Centre (NHSRC)",
     "t": "National Health Systems Resource Centre (NHSRC) Recruitment 2026 Notification Out for 1 Consultant, Advisor and More Posts | Apply Online",
