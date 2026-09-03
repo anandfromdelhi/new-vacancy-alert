@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sree-chitra-tirunal-institute-project-assistant-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "P&A.II/34/PA/P.8264/BMT-SCTIMST/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology has officially released employment advertisement notification P&A.II/34/PA/P.8264/BMT-SCTIMST/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://www.sctimst.ac.in/recruitment/RESOURCES/B_2026-27_1589.pdf"
+},
+  {
+    "id": "pathanamthitta-district-court-computer-assistant-ld-typist-recruitment-2026",
+    "b": "Pathanamthitta District Court",
+    "t": "Pathanamthitta District Court Recruitment 2026 Notification Out for 1 Computer Assistant/ LD Typist Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "09 September 2026",
+    "a": "PATHANAMTHITTA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Pathanamthitta District Court has officially released employment advertisement notification PATHANAMTHITTA/2026 for the recruitment of 1 vacancies for Computer Assistant/ LD Typist posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec037a4bf9ba2bd774068ad50351fb89/uploads/2026/09/2026090193.pdf"
+},
+  {
+    "id": "kerala-high-court-various-posts-recruitment-2026",
+    "b": "Kerala High Court",
+    "t": "Kerala High Court Recruitment 2026 Notification Out for 1 Various Posts Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "03 October 2026",
+    "a": "01/2026",
+    "q": "12th Pass",
+    "desc": "Kerala High Court has officially released employment advertisement notification 01/2026 for the recruitment of 1 vacancies for Various Posts posts.",
+    "u": "https://highcourt.kerala.gov.in/"
+},
+  {
+    "id": "national-institute-of-mental-h-research-associate-grade-iii-recruitment-2026",
+    "b": "National Institute of Mental Health and Neuro Sciences (NIMHANS)",
+    "t": "National Institute of Mental Health and Neuro Sciences (NIMHANS) Recruitment 2026 Notification Out for 1 Research Associate Grade III Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "12 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
+    "desc": "National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Research Associate Grade III posts.",
+    "u": "https://nimhansbkt.demo-appiness.com/prodnimhans/documents/announcements/dca82742462645a7a76f8f739c307f89.pdf"
+},
+  {
+    "id": "kodagu-district-court-typist-driver-process-server-p-recruitment-2026",
+    "b": "Kodagu District Court",
+    "t": "Kodagu District Court Recruitment 2026 Notification Out for 39 Typist, Driver, Process Server, Peon/Attender Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "03 October 2026, up to 11:59 PM",
+    "a": "KODAGU-DISTRIC/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Kodagu District Court has officially released employment advertisement notification KODAGU-DISTRIC/2026 for the recruitment of 39 vacancies for Typist, Driver, Process Server, Peon/Attender posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec01be767243ca8f574c740fb4c26cc6/uploads/2026/07/2026090161.pdf"
+},
+  {
+    "id": "national-assessment-and-accred-project-assistant-recruitment-2026",
+    "b": "National Assessment and Accreditation Council (NAAC)",
+    "t": "National Assessment and Accreditation Council (NAAC) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "09 September 2026",
+    "a": "NAAC/Admin/Proj. Asst./2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Assessment and Accreditation Council (NAAC) has officially released employment advertisement notification NAAC/Admin/Proj. Asst./2026 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://naac.gov.in/images/docs/Recruitment/Revised_Vacancy_Circular_Advertisement_copy-project_assistant_re_advertisement.pdf"
+},
+  {
+    "id": "uttara-kannada-district-court-process-server-peon-recruitment-2026",
+    "b": "Uttara Kannada District Court",
+    "t": "Uttara Kannada District Court Recruitment 2026 Notification Out for 1 Process Server & Peon Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "16 September 2026, 11:59 PM",
+    "a": "1/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Uttara Kannada District Court has officially released employment advertisement notification 1/2026 for the recruitment of 1 vacancies for Process Server & Peon posts.",
+    "u": "https://uttarakannada.dcourts.gov.in/notice-category/recruitments/"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-jrf-sen-recruitment-2026",
+    "b": "Indian Institute of Technology (ISM) Dhanbad",
+    "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 Notification Out for 3 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) and Postdoctoral Fellow (PDF) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "DST/OTC/NOWO/A/2026/01 (G)",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology (ISM) Dhanbad has officially released employment advertisement notification DST/OTC/NOWO/A/2026/01 (G) for the recruitment of 3 vacancies for Junior Research Fellow (JRF) / Senior Research Fellow (SRF) and Postdoctoral Fellow (PDF) posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1733/Project%20JRF_2026-09-01_13-43-44.pdf"
+},
+  {
+    "id": "sail-bokaro-general-hospital-s-audiologist-recruitment-2026",
+    "b": "SAIL Bokaro General Hospital (SAIL BSL)",
+    "t": "SAIL Bokaro General Hospital (SAIL BSL) Recruitment 2026 Notification Out for 2 Audiologist Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "19 September 2026 (Walk-in)",
+    "a": "BSL/R-C/2026-08",
+    "q": "M.Sc | Master's / PG Degree",
+    "desc": "SAIL Bokaro General Hospital (SAIL BSL) has officially released employment advertisement notification BSL/R-C/2026-08 for the recruitment of 2 vacancies for Audiologist posts.",
+    "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BSP_News%20&%20Jobs_01092026_163338.pdf"
+},
+  {
+    "id": "jkssb-class-iv-mts-class-iv-mts-sanitation-worker-recruitment-2026",
+    "b": "JKSSB Class IV MTS",
+    "t": "JKSSB Class IV MTS Recruitment 2026 Notification Out for 2863 Class-IV (MTS), Sanitation Worker Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "03 November 2026",
+    "a": "09 of 2026, dated 01.09.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "JKSSB Class IV MTS has officially released employment advertisement notification 09 of 2026, dated 01.09.2026 for the recruitment of 2863 vacancies for Class-IV (MTS), Sanitation Worker posts.",
+    "u": "https://www.jkssb.nic.in/Pdf/ADVT_09OF2026_01092026.pdf"
+},
+  {
     "id": "himachal-pradesh-public-servic-deputy-director-class-i-gazett-recruitment-2026",
     "b": "Himachal Pradesh Public Service Commission (HPPSC)",
     "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 Notification Out for 4 Deputy Director, Class-I (Gazetted), Group-A (Job Trainee) Posts | Apply Online",
