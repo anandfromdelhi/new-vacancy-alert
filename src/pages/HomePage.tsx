@@ -742,7 +742,7 @@ export default function HomePage() {
                 How do I receive instant free government job alerts for 2026?
               </h3>
               <p className="text-xs font-medium leading-relaxed text-slate-600">
-                Enable push notifications on NewVacancyAlert.in or save our portal to your home screen. We issue immediate alerts for active vacancies across HAL, ICSI, AAI, ISRO (VSSC), Railway Recruitment Boards, and Defense Services.
+                Bookmark NewVacancyAlert.in or save our portal to your home screen. We issue immediate alerts for active vacancies across HAL, ICSI, AAI, ISRO (VSSC), Railway Recruitment Boards, and Defense Services.
               </p>
             </div>
 

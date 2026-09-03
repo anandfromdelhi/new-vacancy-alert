@@ -55,15 +55,17 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
 
-      // Check stored user consent
-      var savedConsent = localStorage.getItem('cookie_consent') || localStorage.getItem('cookie_consent_accepted');
-      var isGranted = savedConsent === 'accepted' || savedConsent === 'true';
+      // Grant cookies and consent to all by default without asking
+      try {
+        localStorage.setItem('cookie_consent', 'accepted');
+        localStorage.setItem('cookie_consent_accepted', 'true');
+      } catch (e) {}
 
       gtag('consent', 'default', {
-        'analytics_storage': isGranted ? 'granted' : 'denied',
-        'ad_storage': isGranted ? 'granted' : 'denied',
-        'ad_user_data': isGranted ? 'granted' : 'denied',
-        'ad_personalization': isGranted ? 'granted' : 'denied'
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted'
       });
 
       gtag('js', new Date());
@@ -106,7 +108,13 @@
               await OneSignal.init({
                 appId: "b029dded-2fe5-44d0-b008-53af8f492b98",
                 allowLocalhostAsSecureOrigin: true,
-                autoRegister: false, // Ensure we do not auto-prompt users
+                autoRegister: false,
+                autoResubscribe: false,
+                promptOptions: {
+                  slidedown: {
+                    prompts: []
+                  }
+                }
               });
             } catch (err) {
               console.warn("OneSignal initialization skipped/failed:", err);

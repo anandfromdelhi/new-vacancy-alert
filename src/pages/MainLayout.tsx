@@ -2,7 +2,6 @@ import React from 'react';
 import { Outlet, useLocation, useNavigate, Link } from 'react-router';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import CookieConsent from '../components/CookieConsent';
 import AdsterraBanner from '../components/AdsterraBanner';
 import { ArrowLeft, Home } from 'lucide-react';
 
@@ -51,7 +50,6 @@ export default function MainLayout() {
       </div>
 
       <Footer />
-      <CookieConsent />
     </div>
   );
 }
