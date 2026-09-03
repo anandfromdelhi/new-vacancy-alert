@@ -12,6 +12,94 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "south-eastern-railway-ser-various-posts-recruitment-2026",
+    "b": "South Eastern Railway (SER)",
+    "t": "South Eastern Railway (SER) Recruitment 2026 Notification Out for 10 Various Posts Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "06 October 2026",
+    "a": "RRC/SER/S&G Quota/2026-27",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "South Eastern Railway (SER) has officially released employment advertisement notification RRC/SER/S&G Quota/2026-27 for the recruitment of 10 vacancies for Various Posts posts.",
+    "u": "https://rrcser.co.in/pdf/Notification%20for%20Scouts%20&%20Guides%20Quota%202026-27%20SER.pdf"
+},
+  {
+    "id": "kalyani-university-coach-recruitment-2026",
+    "b": "Kalyani University",
+    "t": "Kalyani University Recruitment 2026 Notification Out for 13 Coach Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "07 September 2026",
+    "a": "KALYANI-UNIVER/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Kalyani University has officially released employment advertisement notification KALYANI-UNIVER/2026 for the recruitment of 13 vacancies for Coach posts.",
+    "u": "https://klyuniv.ac.in/app/uploads/2026/08/IMG_20260825_0006.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-research-associate-i-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Research Associate-I Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "20 September 2026",
+    "a": "P.Rect./R&D/2026/168",
+    "q": "M.Tech / M.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially released employment advertisement notification P.Rect./R&D/2026/168 for the recruitment of 1 vacancies for Research Associate-I posts.",
+    "u": "https://www.iitk.ac.in/dord/project/me-ra-I-01-09-26.html"
+},
+  {
+    "id": "motilal-nehru-national-institu-junior-research-fellow-jrf-or-recruitment-2026",
+    "b": "Motilal Nehru National Institute of Technology Allahabad",
+    "t": "Motilal Nehru National Institute of Technology Allahabad Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) or Project Associate-I Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "78/Chem/2026-27",
+    "q": "Any Bachelor's Degree",
+    "desc": "Motilal Nehru National Institute of Technology Allahabad has officially released employment advertisement notification 78/Chem/2026-27 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) or Project Associate-I posts.",
+    "u": "https://mnnit.ac.in/images/newstories/2026/JobMnnit/ANRF-ECRG-2025-002671-CS__JRF_or_Project_Associate_Advertisement_28082026.pdf"
+},
+  {
+    "id": "atal-residential-school-gonda-guest-faculty-teacher-pgttgt-recruitment-2026",
+    "b": "Atal Residential School Gonda",
+    "t": "Atal Residential School Gonda Recruitment 2026 Notification Out for 11 Guest Faculty Teacher (PGT/TGT) Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "11 September 2026",
+    "a": "18580/AtalAwasiya0/Kya/2026-27",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Atal Residential School Gonda has officially released employment advertisement notification 18580/AtalAwasiya0/Kya/2026-27 for the recruitment of 11 vacancies for Guest Faculty Teacher (PGT/TGT) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3ca46c1b9512a7a8315fa3c5a946e8265/uploads/2026/09/17883293529672.pdf"
+},
+  {
+    "id": "tripura-university-crs-project-fellow-junior-i-recruitment-2026",
+    "b": "Tripura University",
+    "t": "Tripura University Recruitment 2026 Notification Out for 1 CRS Project Fellow (Junior I) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "10 September 2026",
+    "a": "TRIPURA-UNIVER/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Tripura University has officially released employment advertisement notification TRIPURA-UNIVER/2026 for the recruitment of 1 vacancies for CRS Project Fellow (Junior I) posts.",
+    "u": "https://tripurauniv.ac.in/site//images/contentpdf/1788250918_advertisement_crs_project_fellow_2026.pdf"
+},
+  {
+    "id": "gmc-nalgonda-associate-professor-assistant-recruitment-2026",
+    "b": "GMC Nalgonda",
+    "t": "GMC Nalgonda Recruitment 2026 Notification Out for 57 Associate Professor, Assistant Professor and More Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "10 September 2026, up to 2:00 PM",
+    "a": "GMC-NALGONDA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GMC Nalgonda has officially released employment advertisement notification GMC-NALGONDA/2026 for the recruitment of 57 vacancies for Associate Professor, Assistant Professor and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s374071a673307ca7459bcf75fbd024e09/uploads/2026/09/17882612431338.pdf"
+},
+  {
+    "id": "drdo-cvrde-iti-apprentice-trai-93-recruitment-2026",
+    "b": "DRDO CVRDE ITI Apprentice Trainees",
+    "t": "DRDO CVRDE ITI Apprentice Trainees Recruitment 2026 Notification Out for 93 93 Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "08 September 2026 and 09 September 2026, 9:00 AM to 5:00 PM (Walk-in)",
+    "a": "CVRDE/ADMIN/2026-27 by the Director",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DRDO CVRDE ITI Apprentice Trainees has officially released employment advertisement notification CVRDE/ADMIN/2026-27 by the Director for the recruitment of 93 vacancies for 93 posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCVRDE02092026.pdf"
+},
+  {
     "id": "punjab-agricultural-university-senior-research-fellow-recruitment-2026",
     "b": "Punjab Agricultural University (PAU)",
     "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Offline",
