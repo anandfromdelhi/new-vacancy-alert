@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tamil-nadu-state-planning-comm-sector-expert-it-data-analyst-recruitment-2026",
+    "b": "Tamil Nadu State Planning Commission",
+    "t": "Tamil Nadu State Planning Commission Recruitment 2026 Notification Out for 1 Sector Expert (IT & Data Analyst) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "13 September 2026",
+    "a": "3/A2/SPC/2026",
+    "q": "Diploma | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Tamil Nadu State Planning Commission has officially released employment advertisement notification 3/A2/SPC/2026 for the recruitment of 1 vacancies for Sector Expert (IT & Data Analyst) posts.",
+    "u": "https://spc.tn.gov.in/wp-content/uploads/Notification-SIT.pdf"
+},
+  {
+    "id": "dhs-thiruvarur-medical-officer-hospital-worke-recruitment-2026",
+    "b": "DHS Thiruvarur",
+    "t": "DHS Thiruvarur Recruitment 2026 Notification Out for 1 Medical Officer, Hospital Worker and More Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "16 September 2026, up to 5:45 PM",
+    "a": "DHS-THIRUVARUR/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DHS Thiruvarur has officially released employment advertisement notification DHS-THIRUVARUR/2026 for the recruitment of 1 vacancies for Medical Officer, Hospital Worker and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e46de7e1bcaaced9a54f1e9d0d2f800d/uploads/2026/09/17883521608313.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-cyber-security-consulta-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Senior Cyber Security Consultant Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "07 September 2026",
+    "a": "ICSR/PR/Advt.166/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially released employment advertisement notification ICSR/PR/Advt.166/2026 for the recruitment of 1 vacancies for Senior Cyber Security Consultant posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788264976.pdf"
+},
+  {
+    "id": "indian-railway-catering-and-to-consultant-for-control-office-recruitment-2026",
+    "b": "Indian Railway Catering and Tourism Corporation (IRCTC)",
+    "t": "Indian Railway Catering and Tourism Corporation (IRCTC) Recruitment 2026 Notification Out for 1 Consultant for Control Office Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "17 September 2026",
+    "a": "No. IRCTC\\/SZ\\/116\\/Re-Engagement\\/Consultant\\/Control",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "Indian Railway Catering and Tourism Corporation (IRCTC) has officially released employment advertisement notification No. IRCTC\\/SZ\\/116\\/Re-Engagement\\/Consultant\\/Control for the recruitment of 1 vacancies for Consultant for Control Office posts.",
+    "u": "https://www.irctc.com/assets/images2/NotificationforConsultantsMAS(2Sep26).pdf"
+},
+  {
+    "id": "indian-institute-of-informatio-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+    "t": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "20 September 2026",
+    "a": "IIITDMK/PR/JRF/A30/2026",
+    "q": "M.Tech / M.E",
+    "desc": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram has officially released employment advertisement notification IIITDMK/PR/JRF/A30/2026 for the recruitment of 2 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://drive.google.com/file/d/1mwhydmUNTgryf01G1NyVurju9iILQKfT/view"
+},
+  {
+    "id": "central-university-of-tamil-na-jrfproject-fellow-recruitment-2026",
+    "b": "Central University of Tamil Nadu (CUTN)",
+    "t": "Central University of Tamil Nadu (CUTN) Recruitment 2026 Notification Out for 1 JRF/Project Fellow Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "11 September 2026",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Tamil Nadu (CUTN) has officially released employment advertisement notification CENTRAL-UNIVER/2026 for the recruitment of 1 vacancies for JRF/Project Fellow posts.",
+    "u": "https://cutn.ac.in/wp-content/uploads/2026/09/Adv_Letter_IUAC_project-final_R5_01092026.pdf"
+},
+  {
+    "id": "district-health-society-sivaga-district-public-private-mix-co-recruitment-2026",
+    "b": "District Health Society Sivagangai (DHS Sivagangai)",
+    "t": "District Health Society Sivagangai (DHS Sivagangai) Recruitment 2026 Notification Out for 2 District Public-Private Mix Coordinator (DPPM) and Driver Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "11 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Health Society Sivagangai (DHS Sivagangai) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for District Public-Private Mix Coordinator (DPPM) and Driver posts.",
+    "u": "https://cdn.s3waas.gov.in/s31a5b1e4daae265b790965a275b53ae50/uploads/2026/08/17876516432185.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-jrf-fie-recruitment-2026",
+    "b": "Indian Institute of Technology Ropar (IIT Ropar)",
+    "t": "Indian Institute of Technology Ropar (IIT Ropar) Recruitment 2026 Notification Out for 4 Junior Research Fellow (JRF), Field Assistant, Project Assistant Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "14 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Ropar (IIT Ropar) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 4 vacancies for Junior Research Fellow (JRF), Field Assistant, Project Assistant posts.",
+    "u": "https://www.iitrpr.ac.in/api/v2/files/download/201"
+},
+  {
+    "id": "odisha-state-health-family-wel-medical-officer-ayush-homeopat-recruitment-2026",
+    "b": "Odisha State Health & Family Welfare Kalahandi",
+    "t": "Odisha State Health & Family Welfare Kalahandi Recruitment 2026 Notification Out for 6 Medical Officer, AYUSH (Homeopathy)-Mobile Health Unit (MHU) & Sentinel Site Malaria Technician-cum-Coordinator (SSMTC)-NVBDCP Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "3658/DPMU (NHM)",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Odisha State Health & Family Welfare Kalahandi has officially released employment advertisement notification 3658/DPMU (NHM) for the recruitment of 6 vacancies for Medical Officer, AYUSH (Homeopathy)-Mobile Health Unit (MHU) & Sentinel Site Malaria Technician-cum-Coordinator (SSMTC)-NVBDCP posts.",
+    "u": "https://kalahandi.odisha.gov.in/sites/default/files/2026-09/Advertisement%203658%20total_0001.pdf"
+},
+  {
     "id": "office-of-the-district-judge-m-junior-clerk-cum-copyist-grade-recruitment-2026",
     "b": "Office of the District Judge, Mayurbhanj, Baripada",
     "t": "Office of the District Judge, Mayurbhanj, Baripada Recruitment 2026 Notification Out for 23 Junior Clerk-Cum-Copyist, Grade-III Stenographer, Junior Typist, Salaried Amin Posts | Apply Offline",
