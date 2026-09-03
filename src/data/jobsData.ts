@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "maharashtra-state-electricity-wireman-apprentice-recruitment-2026",
+    "b": "Maharashtra State Electricity Transmission Company (MSETCL)",
+    "t": "Maharashtra State Electricity Transmission Company (MSETCL) Recruitment 2026 Notification Out for 24 Wireman Apprentice Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "06 September 2026",
+    "a": "MAHARASHTRA-ST/2026",
+    "q": "ITI",
+    "desc": "Maharashtra State Electricity Transmission Company (MSETCL) has officially released employment advertisement notification MAHARASHTRA-ST/2026 for the recruitment of 24 vacancies for Wireman Apprentice posts.",
+    "u": "https://www.mahatransco.in/uploads/career/career_1788251786.pdf"
+},
+  {
+    "id": "homi-bhabha-centre-for-science-scientific-assistant-b-recruitment-2026",
+    "b": "Homi Bhabha Centre for Science Education (HBCSE)",
+    "t": "Homi Bhabha Centre for Science Education (HBCSE) Recruitment 2026 Notification Out for 1 Scientific Assistant (B) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "19 September 2026",
+    "a": "03/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Homi Bhabha Centre for Science Education (HBCSE) has officially released employment advertisement notification 03/2026 for the recruitment of 1 vacancies for Scientific Assistant (B) posts.",
+    "u": "https://www.hbcse.tifr.res.in/get-involved/work-at-hbcse/permanant-advt_03-2026.pdf"
+},
+  {
+    "id": "dc-solapur-aaple-sarkar-seva-k-592-recruitment-2026",
+    "b": "DC Solapur Aaple Sarkar Seva Kendra",
+    "t": "DC Solapur Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 592 592 Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "30 September 2026, 5:00 PM",
+    "a": "DC-SOLAPUR-AAP/2026",
+    "q": "12th Pass",
+    "desc": "DC Solapur Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-SOLAPUR-AAP/2026 for the recruitment of 592 vacancies for 592 posts.",
+    "u": "https://cdn.s3waas.gov.in/s3acc3e0404646c57502b480dc052c4fe1/uploads/2026/09/17882418299850.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-trial-coordinator-recruitment-2026",
+    "b": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+    "t": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 Notification Out for 1 Trial Coordinator Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "ADVANCED-CENTR/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially released employment advertisement notification ADVANCED-CENTR/2026 for the recruitment of 1 vacancies for Trial Coordinator posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Revised%20Final%20Advt-182-%20Trial%20Coordinator.pdf"
+},
+  {
+    "id": "ordnance-factory-hospital-dehu-mbbs-doctor-recruitment-2026",
+    "b": "Ordnance Factory Hospital Dehu",
+    "t": "Ordnance Factory Hospital Dehu Recruitment 2026 Notification Out for 1 MBBS Doctor Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "04 September 2026 (Walk-in)",
+    "a": "ORDNANCE-FACTO/2026",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Ordnance Factory Hospital Dehu has officially released employment advertisement notification ORDNANCE-FACTO/2026 for the recruitment of 1 vacancies for MBBS Doctor posts.",
+    "u": "https://ddpdoo.gov.in/storage/document/6a97f421515a2.pdf"
+},
+  {
+    "id": "mp-police-si-subedar-sub-inspector-safdefar-recruitment-2026",
+    "b": "MP Police SI",
+    "t": "MP Police SI Recruitment 2026 Notification Out for 507 Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "23 September 2026",
+    "a": "MP-POLICE-SI/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "MP Police SI has officially released employment advertisement notification MP-POLICE-SI/2026 for the recruitment of 507 vacancies for Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) posts.",
+    "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook_2026_01092026.pdf"
+},
+  {
+    "id": "ncl-pmis-intern-73-recruitment-2026",
+    "b": "NCL PMIS Intern",
+    "t": "NCL PMIS Intern Recruitment 2026 Notification Out for 73 73 Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "06 September 2026",
+    "a": "NCL-PMIS-INTER/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "NCL PMIS Intern has officially released employment advertisement notification NCL-PMIS-INTER/2026 for the recruitment of 73 vacancies for 73 posts.",
+    "u": "https://www.nclcil.in/media/documents/PMIS_Notification.pdf"
+},
+  {
+    "id": "northern-coalfields-ncl-executive-programme-exam-passe-recruitment-2026",
+    "b": "Northern Coalfields (NCL)",
+    "t": "Northern Coalfields (NCL) Recruitment 2026 Notification Out for 1 Executive Programme Exam Passed Trainee (Company Secretary) Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "06 September 2026",
+    "a": "NCL/HRD/CETI/2026-27/598",
+    "q": "Passed Executive Programme and completed Executive Development Programme...",
+    "desc": "Northern Coalfields (NCL) has officially released employment advertisement notification NCL/HRD/CETI/2026-27/598 for the recruitment of 1 vacancies for Executive Programme Exam Passed Trainee (Company Secretary) posts.",
+    "u": "https://www.nclcil.in/media/documents/Company_Secretary_Notifications.pdf"
+},
+  {
+    "id": "lakshadweep-energy-development-senior-energy-consultant-and-a-recruitment-2026",
+    "b": "Lakshadweep Energy Development Agency (LEDA)",
+    "t": "Lakshadweep Energy Development Agency (LEDA) Recruitment 2026 Notification Out for 2 Senior Energy Consultant and Assistant Energy Consultant Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "20 September 2026",
+    "a": "LAKSHADWEEP-EN/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Lakshadweep Energy Development Agency (LEDA) has officially released employment advertisement notification LAKSHADWEEP-EN/2026 for the recruitment of 2 vacancies for Senior Energy Consultant and Assistant Energy Consultant posts.",
+    "u": "https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2026/08/17881701498041.pdf"
+},
+  {
+    "id": "bharat-electronics-limited-bel-deputy-engineer-e-ii-fte-recruitment-2026",
+    "b": "Bharat Electronics Limited (BEL)",
+    "t": "Bharat Electronics Limited (BEL) Recruitment 2026 Notification Out for 14 Deputy Engineer E-II (FTE) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "23 September 2026",
+    "a": "No.383/HR/DE-FTE/NS-S&CS/2026-27",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bharat Electronics Limited (BEL) has officially released employment advertisement notification No.383/HR/DE-FTE/NS-S&CS/2026-27 for the recruitment of 14 vacancies for Deputy Engineer E-II (FTE) posts.",
+    "u": "https://bel-india.in/wp-content/uploads/2026/09/E-II-adv-14FTE-02092026-Final-1-1.pdf"
+},
+  {
     "id": "sree-chitra-tirunal-institute-project-assistant-recruitment-2026",
     "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
     "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
