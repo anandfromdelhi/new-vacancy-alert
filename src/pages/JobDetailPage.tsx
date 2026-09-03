@@ -4110,6 +4110,128 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 ))}
+
+                {id === 'dc-thane-aaple-sarkar-seva-ken-381-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <Award className="h-4 w-4 text-amber-600" /> 100-Marks Comprehensive Evaluation Matrix (शासन शुध्दीपत्रक दि. ०९ जुलै २०२६)
+                      </h4>
+                      <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">Total 100 Marks</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div className="bg-white border-2 border-blue-100 hover:border-blue-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 1</span>
+                          <span className="text-xs font-black text-blue-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Educational Qualification</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          HSC (12th Pass) = Base Eligibility | Graduation = +2 Additional Marks | Post-Graduation = +5 Additional Marks.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-indigo-100 hover:border-indigo-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 2</span>
+                          <span className="text-xs font-black text-indigo-700">15 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Computer &amp; Digital Literacy</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          MSCIT or equivalent certificate, computer handling, online portal form filling, and cyber security awareness.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 3</span>
+                          <span className="text-xs font-black text-emerald-700">15 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Infrastructure &amp; Amenities</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Min 100 sq ft office, 2 PCs/laptops, printer, scanner, biometric device, webcam, UPS, CCTV &amp; disabled friendly access.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-cyan-100 hover:border-cyan-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-cyan-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 4</span>
+                          <span className="text-xs font-black text-cyan-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Financial Capability</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Required investment capacity and financial strength to sustain and run the center for minimum 6 to 12 months.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-purple-100 hover:border-purple-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-purple-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 5</span>
+                          <span className="text-xs font-black text-purple-700">20 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Citizen Service &amp; Interview</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Structured oral interview evaluating communication skills, problem solving, citizen-centric attitude &amp; honesty.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-amber-100 hover:border-amber-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 6</span>
+                          <span className="text-xs font-black text-amber-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Relevant Industry Experience</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Experience as CSC operator, Maha e-Seva Kendra, Banking Correspondent (BC), or e-Governance service delivery.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-teal-100 hover:border-teal-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-teal-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 7</span>
+                          <span className="text-xs font-black text-teal-700">5 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Business Plan &amp; Viability</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Center expansion strategy, citizen awareness initiatives, financial feasibility, and long-term planning.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-rose-100 hover:border-rose-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-rose-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 8</span>
+                          <span className="text-xs font-black text-rose-700">5 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Social Inclusivity Preference</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Priority given to Persons with Benchmark Disabilities (Divyang), Ex-Servicemen, Women, SHG members &amp; local youth.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-slate-200 hover:border-slate-400 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-slate-700 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 9</span>
+                          <span className="text-xs font-black text-slate-800">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Police Character Verification</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Verification of character and antecedents. Clean record with zero history of fraud, cybercrime, or blacklisting.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-amber-900 block text-xs sm:text-sm font-bold">Mandatory Two-Step Application Process:</strong>
+                        <span>1. Fill online Google Form by <strong>20 September 2026</strong> → 2. Submit printed form &amp; self-attested documents to respective <strong>Taluka Resident Naib Tehsildar (निवासी नायब तहसीलदार)</strong> by <strong>22 September 2026 (6:15 PM)</strong>.</span>
+                      </div>
+                      <span className="shrink-0 bg-amber-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        6 Talukas / 381 Gram Panchayats
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}

@@ -288,13 +288,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "dc-thane-aaple-sarkar-seva-ken-381-recruitment-2026",
-    "b": "DC Thane Aaple Sarkar Seva Kendra",
-    "t": "DC Thane Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 381 381 Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "22 September 2026, during office hours (9:45 AM to 6:15 PM)",
-    "a": "DC-THANE-AAPLE/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "DC Thane Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-THANE-AAPLE/2026 for the recruitment of 381 vacancies for 381 posts.",
+    "b": "Collector & District Magistrate Office, Thane (जिल्हाधिकारी व जिल्हादंडाधिकारी कार्यालय, ठाणे)",
+    "t": "Collector Office Thane Recruitment 2026: 381 Aaple Sarkar Seva Kendra (ASSK) Operator Posts across 6 Talukas | Apply Online & Offline",
+    "d": "18 August 2026",
+    "l": "22 September 2026 (6:15 PM)",
+    "a": "कक्षा-४/सेतू/कावि ०८/२०२६",
+    "q": "Higher Secondary (HSC / 12th Pass) + MSCIT or equivalent certificate",
+    "desc": "The Collector and District Magistrate Office, Thane (जिल्हाधिकारी व जिल्हादंडाधिकारी कार्यालय, ठाणे) has officially issued recruitment advertisement notice No. कक्ष-४/सेतू/कावि ०८/२०२६ for the establishment of 381 Aaple Sarkar Seva Kendras (ASSK / Maha e-Seva Kendra) across rural Gram Panchayats in Thane district.",
     "u": "https://cdn.s3waas.gov.in/s31afa34a7f984eeabdbb0a7d494132ee5/uploads/2026/08/17871349117548.pdf"
 },
   {
