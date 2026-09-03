@@ -3875,6 +3875,48 @@ export default function JobDetailPage() {
                         </div>
                       </div>
                     )}
+
+                    {id === 'mecl-non-executive-technician-assistant-and-more-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-emerald-600" /> MECL Mandatory Medical &amp; Operational Safety Criteria
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">100% Medical Fee Reimbursed</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-rose-50/80 border-2 border-rose-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-rose-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Mandatory Safety Protocol</span>
+                              <span className="text-[10px] font-bold text-rose-800">Clause 7(ii)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Strict Absence of Colour &amp; Night Blindness</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Candidates applying for field, driving, mechanical, and drilling roles MUST possess normal color and night vision.
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-rose-900 border border-rose-200">
+                              Applicable To: Junior Driver (W-3), Mechanic (W-4), Mechanic-cum-Operator Drilling (W-4), Machinist (W-4), Technician Drilling (W-4), and Electrician (W-4).
+                            </div>
+                          </div>
+
+                          <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Selection Scheme</span>
+                              <span className="text-[10px] font-bold text-blue-800">100% Weightage</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Nagpur Written Examination &amp; Cut-Offs</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Written Test conducted at Nagpur City only under &lsquo;The Public Examination (Prevention of Unfair Means) Act, 2024&rsquo;.
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-blue-900 border border-blue-200 space-y-1">
+                              <div>• Qualifying Cut-Off: <strong>50%</strong> (UR/OBC/EWS) | <strong>45%</strong> (SC/ST)</div>
+                              <div>• DV Calling Ratio: <strong>1:7</strong> per vacancy in order of merit</div>
+                              <div>• Skill/Trade Test: <strong>Qualifying Nature</strong> (Suitable / Not Suitable)</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 )}
 

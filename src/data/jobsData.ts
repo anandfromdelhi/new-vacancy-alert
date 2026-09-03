@@ -244,14 +244,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "mecl-non-executive-technician-assistant-and-more-recruitment-2026",
-    "b": "MECL Non Executive",
-    "t": "MECL Non Executive Recruitment 2026 Notification Out for 122 Technician, Assistant and More Posts | Apply Online",
-    "d": "03 September 2026",
+    "b": "Mineral Exploration & Consultancy Limited (MECL) - Ministry of Mines, Govt. of India",
+    "t": "MECL Non-Executive Recruitment 2026 Notification Out for 122 Posts: Accountant, Technician, Assistant, Electrician & Driver | Apply Online",
+    "d": "01 September 2026",
     "l": "11 October 2026",
     "a": "03/Rectt./2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "MECL Non Executive has officially released employment advertisement notification 03/Rectt./2026 for the recruitment of 122 vacancies for Technician, Assistant and More posts.",
-    "u": "https://www.mecl.co.in"
+    "q": "Accountant (W-7): Graduation from a recognized University AND Intermediate pass of CA / ICWA with minimum 45% qualifying",
+    "desc": "Mineral Exploration & Consultancy Limited (MECL), formerly Mineral Exploration Corporation Limited, a prestigious Miniratna-I Central Public Sector Enterprise under the administrative control of the Ministry of Mines, Government of India, has officially released detailed Employment Advertisement Notification No. 03/Rectt./2026 for the direct recruitment of 122 Non-Executive Personnel across Grades W-7, W-4, and W-3.",
+    "u": "https://www.mecl.co.in/Careers.aspx"
 },
   {
     "id": "dr-balasaheb-sawant-konkan-kri-agromet-observer-recruitment-2026",
