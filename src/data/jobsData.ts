@@ -277,13 +277,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "dc-latur-aaple-sarkar-seva-ken-640-recruitment-2026",
-    "b": "DC Latur Aaple Sarkar Seva Kendra",
-    "t": "DC Latur Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 640 640 Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026, 5:00 PM",
-    "a": "DC-LATUR-AAPLE/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "DC Latur Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-LATUR-AAPLE/2026 for the recruitment of 640 vacancies for 640 posts.",
+    "b": "Collector & District Magistrate Office, Latur (ई-गव्हर्नन्स विभाग, जिल्हाधिकारी कार्यालय, लातूर)",
+    "t": "Collector Office Latur Recruitment 2026: 640 Aaple Sarkar Seva Kendra (ASSK) Operator Posts across 10 Talukas & Urban Bodies | Apply Online",
+    "d": "24 August 2026",
+    "l": "15 September 2026 (05:00 PM)",
+    "a": "जा.क्र. २०२६/ई-गव्हर्नन्स/कावी-१७६ (दि. २४ ऑगस्ट २०२६)",
+    "q": "Higher Secondary Certificate (HSC / 12th Pass) from recognized Board",
+    "desc": "The Collector and District Magistrate Office, Latur (e-Governance Branch) has officially issued recruitment advertisement notice No. जा.क्र. २०२६/ई-गव्हर्नन्स/कावी-१७६ dated 24 August 2026 for establishing 640 Aaple Sarkar Seva Kendras (ASSK / Maha e-Seva Kendra / Village Level Entrepreneur Centers) across Latur district.",
     "u": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2026/08/17876348886669.pdf"
 },
   {

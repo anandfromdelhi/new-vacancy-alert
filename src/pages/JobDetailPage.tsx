@@ -4232,6 +4232,128 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 )}
+
+                {id === 'dc-latur-aaple-sarkar-seva-ken-640-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <Award className="h-4 w-4 text-emerald-600" /> Latur ASSK 100-Marks Selection Matrix (शासन शुध्दीपत्रक दि. ०९ जुलै २०२६)
+                      </h4>
+                      <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">Total 100 Marks</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div className="bg-white border-2 border-blue-100 hover:border-blue-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 1</span>
+                          <span className="text-xs font-black text-blue-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Educational Qualification</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          12th Pass (HSC) = 5 Marks | Graduation Degree = 7 Marks (+2 extra) | Post-Graduation = 10 Marks (+3 extra).
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-indigo-100 hover:border-indigo-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 2</span>
+                          <span className="text-xs font-black text-indigo-700">15 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Computer &amp; Cyber Literacy</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          MSCIT or CCC Certificate = 13 Marks | Cyber Security Certificate / Verified Knowledge = 2 Marks.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 3</span>
+                          <span className="text-xs font-black text-emerald-700">15 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Infrastructure &amp; Amenities</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          100 sq ft office, 2 PCs/laptops, printer, scanner, biometric scanner, webcam, UPS, CCTV, 10-20 Mbps broadband &amp; waiting room.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-cyan-100 hover:border-cyan-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-cyan-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 4</span>
+                          <span className="text-xs font-black text-cyan-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Financial Capability</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Investment ability &amp; working capital to sustain center for 6-12 months. Evaluated via 6-month bank statement &amp; ITR.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-purple-100 hover:border-purple-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-purple-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 5</span>
+                          <span className="text-xs font-black text-purple-700">20 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Citizen Service &amp; Interview</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Structured oral interview assessing scheme knowledge (4), service mindset (4), digital systems (4), ethics &amp; privacy (8).
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-amber-100 hover:border-amber-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 6</span>
+                          <span className="text-xs font-black text-amber-700">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Relevant Industry Experience</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          CSC Operator, Maha e-Seva Kendra, Bank Correspondent (BC), or e-Governance: 1 Experience = 5 Marks | 2+ Experiences = 10 Marks.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-teal-100 hover:border-teal-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-teal-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 7</span>
+                          <span className="text-xs font-black text-teal-700">5 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Business Plan &amp; Viability</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Action plan for rural service outreach (1), awareness of govt schemes (1), viability (1), planning (1), innovative ideas (1).
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-rose-100 hover:border-rose-300 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-rose-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 8</span>
+                          <span className="text-xs font-black text-rose-700">5 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Social Inclusivity Preference</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Direct 5 marks preference for Women, Persons with Disabilities (Divyang), Ex-Servicemen, SHG members &amp; local entrepreneurs.
+                        </p>
+                      </div>
+
+                      <div className="bg-white border-2 border-slate-200 hover:border-slate-400 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-slate-700 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Criterion 9</span>
+                          <span className="text-xs font-black text-slate-800">10 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Police Character Verification</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Police station character certificate (8 Marks) + Declaration of never being blacklisted by Government (2 Marks).
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-emerald-900 block text-xs sm:text-sm font-bold">Online Portal Registration &amp; QR Code Fee Protocol:</strong>
+                        <span>Apply online at <strong>setusamitilatur.in</strong> by <strong>15 September 2026 (05:00 PM)</strong>. Fee of ₹500 must be paid through QR Code <strong>from applicant&apos;s own bank account</strong> with receipt attached.</span>
+                      </div>
+                      <span className="shrink-0 bg-emerald-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        640 Centers (599 GP + 10 NP + 31 LMC)
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}
