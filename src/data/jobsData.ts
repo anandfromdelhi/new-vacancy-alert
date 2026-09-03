@@ -1146,13 +1146,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "arunachal-pradesh-psc-group-a-agriculture-development-office-recruitment-2026",
-    "b": "Arunachal Pradesh PSC Group A & Group B",
-    "t": "Arunachal Pradesh PSC Group A & Group B Recruitment 2026 Notification Out for 155 Agriculture Development Officer, Horticulture Development Officer, Veterinary Officer, Assistant Director (Sericulture), Dairy Development Officer Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "30 September 2026, 5:00 PM",
-    "a": "04/2026, dated 01.09.2026",
-    "q": "Arunachal Pradesh PRC + APST Certificate + Indigenous Tribal Language pr...",
-    "desc": "Arunachal Pradesh PSC Group A & Group B has officially released employment advertisement notification 04/2026, dated 01.09.2026 for the recruitment of 155 vacancies for Agriculture Development Officer, Horticulture Development Officer, Veterinary Officer, Assistant Director (Sericulture), Dairy Development Officer posts.",
+    "b": "Arunachal Pradesh Public Service Commission (APPSC), Itanagar",
+    "t": "APPSC Common Recruitment Examination 2026 (Group-A & Group-B Gazetted Technical): Apply Online for 155 ADO, HDO, VO, Assistant Director & DDO Posts",
+    "d": "01 September 2026",
+    "l": "30 September 2026 (05:00 PM)",
+    "a": "Advertisement No. 04/2026 (No. PSC-R(B)/04/2025, Dated 01.09.2026)",
+    "q": "B.Sc (Agri), B.Sc (Horti), B.V.Sc & AH, B.Sc + PGDS, B.Tech (Dairy Tech / Food Tech)",
+    "desc": "The Arunachal Pradesh Public Service Commission (APPSC), Itanagar has officially announced Advertisement No. 04/2026 dated 01 September 2026 for the Common Recruitment Examination for Group-A & Group-B, Gazetted, (Technical) Posts-2026 (Part-I) to fill 155 vacancies in various Government Departments.",
     "u": "https://appsc.gov.in/upload/RECINS001/group_a_b_advertisement_2026_20260901_193712.pdf"
 },
   {

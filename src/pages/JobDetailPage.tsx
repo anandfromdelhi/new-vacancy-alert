@@ -4591,6 +4591,70 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 )}
+
+                {id === 'arunachal-pradesh-psc-group-a-agriculture-development-office-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <GraduationCap className="h-4 w-4 text-emerald-600" /> APPSC 500-Marks Examination Scheme &amp; Mandatory Criteria
+                      </h4>
+                      <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">155 Gazetted Posts</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                      <div className="bg-rose-50/80 border-2 border-rose-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-rose-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Mandatory Criteria</span>
+                          <span className="text-[10px] font-bold text-rose-800">Govt Notification</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">3-Fold Indigenous Eligibility</h5>
+                        <div className="space-y-1.5 text-[11px] text-slate-600">
+                          <div>• <strong>PRC:</strong> Permanent Residence Certificate of Arunachal Pradesh.</div>
+                          <div>• <strong>APST:</strong> Original inhabitant APST Scheduled Tribe status.</div>
+                          <div>• <strong>Language:</strong> Fluency in an Indigenous Tribal Language of Arunachal Pradesh.</div>
+                        </div>
+                      </div>
+
+                      <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Written Exam</span>
+                          <span className="text-xs font-black text-blue-800">450 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Main Written Exam Papers</h5>
+                        <div className="space-y-1 text-[11px] text-slate-600">
+                          <div>• <strong>Paper 1:</strong> Gen English &amp; GS (Objective): 150 Marks</div>
+                          <div>• <strong>Paper 2:</strong> Concerned Subject Paper-I (Descriptive): 150 Marks</div>
+                          <div>• <strong>Paper 3:</strong> Concerned Subject Paper-II (Descriptive): 150 Marks</div>
+                          <div className="text-[10px] font-bold text-blue-900 mt-1">Min Qualifying: 33% aggregate (20% each paper)</div>
+                        </div>
+                      </div>
+
+                      <div className="bg-emerald-50/80 border-2 border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Pay &amp; Viva-Voce</span>
+                          <span className="text-xs font-black text-emerald-800">50 Marks</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Viva-Voce &amp; 7th CPC Pay Scale</h5>
+                        <div className="space-y-1 text-[11px] text-slate-600">
+                          <div>• <strong>Viva-Voce / Interview:</strong> 50 Marks (1:3 calling ratio)</div>
+                          <div>• <strong>Group-A Level 10:</strong> ₹56,100–1,77,500 (ADO, HDO, VO, Asst Dir)</div>
+                          <div>• <strong>Group-B Level 6:</strong> ₹35,400–1,12,400 (DDO)</div>
+                          <div className="text-[10px] font-bold text-emerald-900 mt-1">One-time age relaxation for cancelled exams</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-emerald-900 block text-xs sm:text-sm font-bold">Online Application Dates:</strong>
+                        <span>Application portal active from <strong>10 September 2026 (05:00 PM)</strong> to <strong>30 September 2026 (05:00 PM)</strong> on <strong>appsc.gov.in</strong>. Application Fee: ₹200 (PwBD Exempted).</span>
+                      </div>
+                      <span className="shrink-0 bg-emerald-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        Closes: 30 Sep 2026
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}
