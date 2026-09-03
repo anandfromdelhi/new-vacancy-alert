@@ -112,14 +112,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "gmc-mahabubnagar-junior-resident-assistant-prof-recruitment-2026",
-    "b": "GMC Mahabubnagar",
-    "t": "GMC Mahabubnagar Recruitment 2026 Notification Out for 149 Junior Resident, Assistant Professor and More Posts | Walk-in Interview",
+    "b": "Government Medical College & General Hospital, Mahabubnagar (Director of Medical Education, Govt. of Telangana)",
+    "t": "GMC Mahabubnagar Recruitment 2026: 149 Professor, Associate Professor, Assistant Professor, Tutor & Junior Resident Posts | Walk-in Interview on 15 September 2026",
     "d": "03 September 2026",
-    "l": "15 September 2026, 9:00 AM to 3:00 PM (Walk-in)",
-    "a": "02/GMC-MBNR/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "GMC Mahabubnagar has officially released employment advertisement notification 02/GMC-MBNR/2026 for the recruitment of 149 vacancies for Junior Resident, Assistant Professor and More posts.",
-    "u": "https://cdn.s3waas.gov.in/s3e00da03b685a0dd18fb6a08af0923de0/uploads/2026/09/17884294198503.pdf"
+    "l": "15 September 2026 (09:00 AM to 03:00 PM)",
+    "a": "Notification No. 02/GMC-MBNR/2026 (Dt. 03.09.2026)",
+    "q": "MBBS / MD / MS / DNB in concerned specialty as per NMC TEQ Regulations 2025",
+    "desc": "Government Medical College & General Hospital, Mahabubnagar, under the administrative control of the Director of Medical Education (DME), Government of Telangana, has officially released Notification No. 02/GMC-MBNR/2026 dated 03 September 2026 for walk-in interviews to recruit 149 positions on a contractual basis.",
+    "u": "http://www.gmcmbnr-ts.org/"
 },
   {
     "id": "tamil-nadu-state-planning-comm-sector-expert-it-data-analyst-recruitment-2026",

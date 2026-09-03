@@ -4420,6 +4420,104 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 )}
+
+                {id === 'gmc-mahabubnagar-junior-resident-assistant-prof-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <Stethoscope className="h-4 w-4 text-emerald-600" /> GMC Mahabubnagar Walk-in Interview &amp; Pay Matrix (G.O. Rt. 1276)
+                      </h4>
+                      <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">149 Vacancies / 22 Depts</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div className="bg-emerald-50/70 border-2 border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Senior Faculty</span>
+                          <span className="text-xs font-black text-emerald-700">₹1,90,000 / mo</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Professor (08 Posts)</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          MD/MS/DNB + 3 yrs as Assoc Prof + 2 research publications + BCBR &amp; BCME. Age below 69 years.
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-emerald-900 border border-emerald-200">
+                          Depts: Physiology, Forensic, Gen Medicine, Resp Med, Anesthesia, Radio-Diagnosis, Emergency &amp; Transfusion Med.
+                        </div>
+                      </div>
+
+                      <div className="bg-blue-50/70 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Mid Faculty</span>
+                          <span className="text-xs font-black text-blue-700">₹1,50,000 / mo</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Associate Professor (19 Posts)</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          MD/MS/DNB + 4 yrs as Asst Prof (5 yrs if direct Govt appointee) + 2 publications + BCBR &amp; BCME.
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-blue-900 border border-blue-200">
+                          Depts: Gen Med (4), Gen Surg (2), Comm Med (2), Biochem, Pharma, Path, Micro, DVL, Psych, Ortho, ENT, Opthal, EM, TM.
+                        </div>
+                      </div>
+
+                      <div className="bg-indigo-50/70 border-2 border-indigo-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Core Faculty</span>
+                          <span className="text-xs font-black text-indigo-700">₹1,25,000 / mo</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Assistant Professor (62 Posts)</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed mb-2">
+                          MD/MS/DNB + 1 yr as Senior Resident. (SR completing in 1st wk Dec 2026 also eligible if needed).
+                        </p>
+                        <div className="bg-white/80 rounded-lg p-2 text-[10px] font-bold text-indigo-900 border border-indigo-200">
+                          Depts: Gen Surgery (9), Orthopedics (8), OBG (8), Gen Medicine (6), Pediatrics (4), Anesthesia (3), Pharma (3).
+                        </div>
+                      </div>
+
+                      <div className="bg-purple-50/70 border-2 border-purple-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-purple-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Junior Faculty</span>
+                          <span className="text-xs font-black text-purple-700">₹55,000 / mo</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Tutor (10 Posts)</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          MBBS or Equivalent Medical Degree recognized by NMC. Registered with TGMC. Age below 45 years.
+                        </p>
+                      </div>
+
+                      <div className="bg-teal-50/70 border-2 border-teal-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-teal-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Resident Doctors</span>
+                          <span className="text-xs font-black text-teal-700">₹46,000 / mo</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Junior Resident (50 Posts)</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          MBBS Degree recognized by NMC. Registered with TGMC. Selection based on MBBS qualifying marks.
+                        </p>
+                      </div>
+
+                      <div className="bg-amber-50/70 border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Terms &amp; Bond</span>
+                          <span className="text-xs font-black text-amber-700">Tenure: 31.03.2027</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs mb-1">Service Bond &amp; TGMC Registration</h5>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          ₹100 Stamp Paper Bond (3 months salary penalty for breach; 1 mo notice to resign). 15 days cumulative leave/year.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-emerald-900 block text-xs sm:text-sm font-bold">Walk-in Interview Details:</strong>
+                        <span>Date: <strong>15 September 2026 (09:00 AM to 03:00 PM)</strong> | Venue: <strong>Office of the Director, Govt. Medical College, Edira campus, Thirulmalla Hills, Mahabubnagar District</strong>. Results on 17.09.2026, Joining by 30.09.2026.</span>
+                      </div>
+                      <span className="shrink-0 bg-emerald-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        Walk-in: 15 Sep 2026
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}
