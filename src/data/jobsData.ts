@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-senior-research-fellow-srf-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
+    "t": "Indian Institute of Technology Kharagpur (IIT Kharagpur) Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "21 September 2026",
+    "a": "IIT/SRIC/R/WQM/2026/103",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has officially released employment advertisement notification IIT/SRIC/R/WQM/2026/103 for the recruitment of 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
+},
+  {
+    "id": "indian-institute-of-technology-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 JRF Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "ANRF-2856-CED-TSAH/25-26",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification ANRF-2856-CED-TSAH/25-26 for the recruitment of 1 vacancies for JRF posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CE/2026/adv01092026.pdf"
+},
+  {
+    "id": "animal-husbandry-department-ut-veterinary-pharmacy-officer-recruitment-2026",
+    "b": "Animal Husbandry Department Uttarakhand",
+    "t": "Animal Husbandry Department Uttarakhand Recruitment 2026 Notification Out for 28 Veterinary Pharmacy Officer Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "12 September 2026",
+    "a": "2256/स्था०एक/प०चि०का०अ०/2026-27",
+    "q": "12th Pass | Diploma | B.Pharm / D.Pharm",
+    "desc": "Animal Husbandry Department Uttarakhand has officially released employment advertisement notification 2256/स्था०एक/प०चि०का०अ०/2026-27 for the recruitment of 28 vacancies for Veterinary Pharmacy Officer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2026/07/202607311223705680.pdf"
+},
+  {
+    "id": "tehri-garhwal-district-contract-sports-trainer-recruitment-2026",
+    "b": "Tehri Garhwal District",
+    "t": "Tehri Garhwal District Recruitment 2026 Notification Out for 3 Contract Sports Trainer Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "10 September 2026",
+    "a": "357/Pr0Shi0P0/2026-27",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tehri Garhwal District has officially released employment advertisement notification 357/Pr0Shi0P0/2026-27 for the recruitment of 3 vacancies for Contract Sports Trainer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3258be18e31c8188555c2ff05b4d542c3/uploads/2026/09/17883504297801.pdf"
+},
+  {
+    "id": "up-anganwadi-495-anganwadi-worker-helper-in-recruitment-2026",
+    "b": "UP Anganwadi",
+    "t": "UP Anganwadi Recruitment 2026 Notification Out for 236 495 Anganwadi Worker & Helper in Balrampur District Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "23 September 2026",
+    "a": "UP-ANGANWADI/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UP Anganwadi has officially released employment advertisement notification UP-ANGANWADI/2026 for the recruitment of 236 vacancies for 495 Anganwadi Worker & Helper in Balrampur District posts.",
+    "u": "https://upanganwadibharti.in/worker-v4/uploadOrder/ordercopy_1788411165_47190b41.pdf"
+},
+  {
+    "id": "office-of-the-advocate-general-12-recruitment-2026",
+    "b": "Office of the Advocate General, Allahabad High Court, Uttar Pradesh",
+    "t": "Office of the Advocate General, Allahabad High Court, Uttar Pradesh Recruitment 2026 Notification Out for 12 12 Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "28 September 2026",
+    "a": "20-Pariksha/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Office of the Advocate General, Allahabad High Court, Uttar Pradesh has officially released employment advertisement notification 20-Pariksha/2026 for the recruitment of 12 vacancies for 12 posts.",
+    "u": "https://upsssc.gov.in/"
+},
+  {
+    "id": "state-health-family-welfare-so-counsellor-clinical-psychologi-recruitment-2026",
+    "b": "State Health & Family Welfare Society Tripura (SHFWS Tripura)",
+    "t": "State Health & Family Welfare Society Tripura (SHFWS Tripura) Recruitment 2026 Notification Out for 13 Counsellor & Clinical Psychologist/Psychiatric Social Worker/Psychiatric Nurse Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "F.95/TMHP/Recruitment/2026 Part (1)",
+    "q": "M.Sc | MBBS / Medical PG | Nursing (GNM / B.Sc)",
+    "desc": "State Health & Family Welfare Society Tripura (SHFWS Tripura) has officially released employment advertisement notification F.95/TMHP/Recruitment/2026 Part (1) for the recruitment of 13 vacancies for Counsellor & Clinical Psychologist/Psychiatric Social Worker/Psychiatric Nurse posts.",
+    "u": "https://health.tripura.gov.in/sites/default/files/Notice%20for%20Recruitment_0.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-senior-consultant-corporate-re-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 1 Senior Consultant - Corporate Relations Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "22 September 2026",
+    "a": "IITH/CS/58",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially released employment advertisement notification IITH/CS/58 for the recruitment of 1 vacancies for Senior Consultant - Corporate Relations posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/Adv_CS_58_SeniorConsultant.pdf"
+},
+  {
+    "id": "gmc-kb-asifabad-professor-assistant-professor-recruitment-2026",
+    "b": "GMC KB Asifabad",
+    "t": "GMC KB Asifabad Recruitment 2026 Notification Out for 99 Professor, Assistant Professor and More Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "11 September 2026, 11:00 AM to 3:00 PM (Walk-in)",
+    "a": "01/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GMC KB Asifabad has officially released employment advertisement notification 01/2026 for the recruitment of 99 vacancies for Professor, Assistant Professor and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s382cec96096d4281b7c95cd7e74623496/uploads/2026/09/17882612955235.pdf"
+},
+  {
+    "id": "gmc-mahabubnagar-junior-resident-assistant-prof-recruitment-2026",
+    "b": "GMC Mahabubnagar",
+    "t": "GMC Mahabubnagar Recruitment 2026 Notification Out for 149 Junior Resident, Assistant Professor and More Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "15 September 2026, 9:00 AM to 3:00 PM (Walk-in)",
+    "a": "02/GMC-MBNR/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GMC Mahabubnagar has officially released employment advertisement notification 02/GMC-MBNR/2026 for the recruitment of 149 vacancies for Junior Resident, Assistant Professor and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e00da03b685a0dd18fb6a08af0923de0/uploads/2026/09/17884294198503.pdf"
+},
+  {
     "id": "tamil-nadu-state-planning-comm-sector-expert-it-data-analyst-recruitment-2026",
     "b": "Tamil Nadu State Planning Commission",
     "t": "Tamil Nadu State Planning Commission Recruitment 2026 Notification Out for 1 Sector Expert (IT & Data Analyst) Posts | Apply Online",
