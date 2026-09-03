@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "punjab-agricultural-university-senior-research-fellow-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "16 September 2026",
+    "a": "PUNJAB-AGRICUL/2026",
+    "q": "B.Sc | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification PUNJAB-AGRICUL/2026 for the recruitment of 1 vacancies for Senior Research Fellow posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7548"
+},
+  {
+    "id": "punjab-remote-sensing-centre-p-clerk-lab-attendant-more-recruitment-2026",
+    "b": "Punjab Remote Sensing Centre (PRSC)",
+    "t": "Punjab Remote Sensing Centre (PRSC) Recruitment 2026 Notification Out for 6 Clerk, Lab Attendant & More Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "05 October 2026",
+    "a": "4/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Punjab Remote Sensing Centre (PRSC) has officially released employment advertisement notification 4/2026 for the recruitment of 6 vacancies for Clerk, Lab Attendant & More posts.",
+    "u": "https://prsc.punjab.gov.in/images/Advertisements/Final%20Advertisement_English%2031082026.pdf"
+},
+  {
+    "id": "pondicherry-institute-of-hotel-assistant-lecturer-recruitment-2026",
+    "b": "Pondicherry Institute of Hotel Management and Catering Technology (PIHMCT)",
+    "t": "Pondicherry Institute of Hotel Management and Catering Technology (PIHMCT) Recruitment 2026 Notification Out for 3 Assistant Lecturer Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "25 October 2026",
+    "a": "PONDICHERRY-IN/2026",
+    "q": "Diploma | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Pondicherry Institute of Hotel Management and Catering Technology (PIHMCT) has officially released employment advertisement notification PONDICHERRY-IN/2026 for the recruitment of 3 vacancies for Assistant Lecturer posts.",
+    "u": "https://py.gov.in/sites/default/files/pihmct18082026rec.pdf"
+},
+  {
+    "id": "central-institute-of-freshwate-young-professional-ii-recruitment-2026",
+    "b": "Central Institute of Freshwater Aquaculture (ICAR CIFA)",
+    "t": "Central Institute of Freshwater Aquaculture (ICAR CIFA) Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "F.No.467/CIFA/Estt/2017/ (Advt. 15/2026-27)",
+    "q": "M.Sc | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central Institute of Freshwater Aquaculture (ICAR CIFA) has officially released employment advertisement notification F.No.467/CIFA/Estt/2017/ (Advt. 15/2026-27) for the recruitment of 1 vacancies for Young Professional-II posts.",
+    "u": "https://cifa.nic.in/cifa/wp-content/uploads/2026/08/CABin-Advt.-1.pdf"
+},
+  {
+    "id": "odisha-public-service-commissi-geologist-recruitment-2026",
+    "b": "Odisha Public Service Commission (OPSC)",
+    "t": "Odisha Public Service Commission (OPSC) Recruitment 2026 Notification Out for 5 Geologist Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "08 October 2026",
+    "a": "10 of 2026-27",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha Public Service Commission (OPSC) has officially released employment advertisement notification 10 of 2026-27 for the recruitment of 5 vacancies for Geologist posts.",
+    "u": "https://www.opsc.gov.in/"
+},
+  {
+    "id": "csir-institute-of-minerals-and-project-assistant-ii-project-a-recruitment-2026",
+    "b": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar",
+    "t": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar Recruitment 2026 Notification Out for 38 Project Assistant II, Project Associate and More Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026 up to 5:00 PM",
+    "a": "PME/P86/2026",
+    "q": "Bonafide Indian citizens meeting the prescribed qualification, experienc...",
+    "desc": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar has officially released employment advertisement notification PME/P86/2026 for the recruitment of 38 vacancies for Project Assistant II, Project Associate and More posts.",
+    "u": "https://rects.immt.res.in/advt/advt_P86.pdf"
+},
+  {
+    "id": "district-magistrate-balangir-subject-teacher-recruitment-2026",
+    "b": "District Magistrate Balangir",
+    "t": "District Magistrate Balangir Recruitment 2026 Notification Out for 16 Subject Teacher Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "2303",
+    "q": "B.Sc | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "District Magistrate Balangir has officially released employment advertisement notification 2303 for the recruitment of 16 vacancies for Subject Teacher posts.",
+    "u": "https://balangir.odisha.gov.in/sites/default/files/2026-09/Subject%20teacher.pdf"
+},
+  {
+    "id": "dharanidhar-medical-college-ho-medical-officer-recruitment-2026",
+    "b": "Dharanidhar Medical College & Hospital, Kendujhar",
+    "t": "Dharanidhar Medical College & Hospital, Kendujhar Recruitment 2026 Notification Out for 3 Medical Officer Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "09 September 2026 (Walk-in)",
+    "a": "298/ DDMC&H, Kendujhar",
+    "q": "Diploma | MBBS / Medical PG",
+    "desc": "Dharanidhar Medical College & Hospital, Kendujhar has officially released employment advertisement notification 298/ DDMC&H, Kendujhar for the recruitment of 3 vacancies for Medical Officer posts.",
+    "u": "https://kendujhar.odisha.gov.in/sites/default/files/2026-09/publication%20of%20advertisement%20for%20wail%20in%20interview%20for%20the%20post%20of%20medical%20officer%20MNCU%20%26NURSERY%20UNIT%20at%20DDMCH%2C%20Keonjhar.pdf"
+},
+  {
+    "id": "north-eastern-hill-university-project-research-scientist-non-recruitment-2026",
+    "b": "North Eastern Hill University (NEHU)",
+    "t": "North Eastern Hill University (NEHU) Recruitment 2026 Notification Out for 1 Project Research Scientist [Non Medical (NM)] I Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "11 September 2026",
+    "a": "NORTH-EASTERN-/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "North Eastern Hill University (NEHU) has officially released employment advertisement notification NORTH-EASTERN-/2026 for the recruitment of 1 vacancies for Project Research Scientist [Non Medical (NM)] I posts.",
+    "u": "https://nehu.ac.in/public/assets/files/advertisements/20260901093936_ICMR-Advt.pdf"
+},
+  {
+    "id": "meghalaya-tourism-development-contractual-posts-recruitment-2026",
+    "b": "Meghalaya Tourism Development Corporation",
+    "t": "Meghalaya Tourism Development Corporation Recruitment 2026 Notification Out for 16 Contractual Posts Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "11 September 2026",
+    "a": "MTDC/PER/470/Advertisement/2018-2019/",
+    "q": "Any Bachelor's Degree",
+    "desc": "Meghalaya Tourism Development Corporation has officially released employment advertisement notification MTDC/PER/470/Advertisement/2018-2019/ for the recruitment of 16 vacancies for Contractual Posts posts.",
+    "u": "https://rpa.meghalaya.gov.in/docs/MTDC_ADV_AUG2026.pdf"
+},
+  {
     "id": "maharashtra-state-electricity-wireman-apprentice-recruitment-2026",
     "b": "Maharashtra State Electricity Transmission Company (MSETCL)",
     "t": "Maharashtra State Electricity Transmission Company (MSETCL) Recruitment 2026 Notification Out for 24 Wireman Apprentice Posts | Apply Online",
