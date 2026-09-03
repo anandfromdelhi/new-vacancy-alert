@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-project-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu",
+    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "IITJMU/RC/SF-100081/A-41",
+    "q": "M.Sc",
+    "desc": "Indian Institute of Technology Jammu has officially released employment advertisement notification IITJMU/RC/SF-100081/A-41 for the recruitment of 1 vacancies for Project Assistant posts.",
+    "u": "https://www.iitjammu.ac.in/Advertisements/Contract/2026/IITJMURCSF-100081A-41.pdf"
+},
+  {
+    "id": "district-legal-services-author-para-legal-volunteer-recruitment-2026",
+    "b": "District Legal Services Authority Chamba",
+    "t": "District Legal Services Authority Chamba Recruitment 2026 Notification Out for 1 Para Legal Volunteer Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "25 September 2026",
+    "a": "Secy/DLSA/CBA/2026/",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Legal Services Authority Chamba has officially released employment advertisement notification Secy/DLSA/CBA/2026/ for the recruitment of 1 vacancies for Para Legal Volunteer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03946e3ece1fc8b24bd656449d88ec/uploads/2026/09/2026090389.pdf"
+},
+  {
+    "id": "maharshi-dayanand-university-r-field-investigator-recruitment-2026",
+    "b": "Maharshi Dayanand University Rohtak (MDU Rohtak)",
+    "t": "Maharshi Dayanand University Rohtak (MDU Rohtak) Recruitment 2026 Notification Out for 1 Field Investigator Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "MAHARSHI-DAYAN/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Maharshi Dayanand University Rohtak (MDU Rohtak) has officially released employment advertisement notification MAHARSHI-DAYAN/2026 for the recruitment of 1 vacancies for Field Investigator posts.",
+    "u": "https://mdu.ac.in/UpFiles/UpPdfFiles/2026/Sep/4_09-02-2026_14-55-06_Dr%20Vanita%20Rose%20Project%20advertisment.pdf"
+},
+  {
+    "id": "amc-medical-education-trust-dean-cardiologist-recruitment-2026",
+    "b": "AMC Medical Education Trust",
+    "t": "AMC Medical Education Trust Recruitment 2026 Notification Out for 3 Dean, Cardiologist Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "17 September 2026",
+    "a": "02/2026-27 and 01/2026-27",
+    "q": "MBBS / Medical PG | BDS / Dental",
+    "desc": "AMC Medical Education Trust has officially released employment advertisement notification 02/2026-27 and 01/2026-27 for the recruitment of 3 vacancies for Dean, Cardiologist posts.",
+    "u": "https://www.amcmet.org/recruitment/"
+},
+  {
+    "id": "tourism-corporation-of-gujarat-office-assistant-project-engin-recruitment-2026",
+    "b": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking",
+    "t": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking Recruitment 2026 Notification Out for 47 Office Assistant, Project Engineer and More Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "Refer Notification",
+    "a": "TOURISM-CORPOR/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking has officially released employment advertisement notification TOURISM-CORPOR/2026 for the recruitment of 47 vacancies for Office Assistant, Project Engineer and More posts.",
+    "u": "https://gujarattourism.com/content/dam/gujrattourism/images/career/TCGL-Walk-in-Interview-detail.pdf"
+},
+  {
+    "id": "veer-narmad-south-gujarat-univ-temporary-assistant-professor-recruitment-2026",
+    "b": "Veer Narmad South Gujarat University (VNSGU)",
+    "t": "Veer Narmad South Gujarat University (VNSGU) Recruitment 2026 Notification Out for 3 Temporary Assistant Professor / Temporary Teaching Assistant Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "Gen/Est/TA/TTA/20182/2026",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "Veer Narmad South Gujarat University (VNSGU) has officially released employment advertisement notification Gen/Est/TA/TTA/20182/2026 for the recruitment of 3 vacancies for Temporary Assistant Professor / Temporary Teaching Assistant posts.",
+    "u": "https://www.vnsgu.ac.in/uploads/assetlinks/f4ba5a8c-91fe-47b7-991a-c268269240a1.pdf"
+},
+  {
+    "id": "gujarat-mineral-development-co-manager-chemical-coal-gasifica-recruitment-2026",
+    "b": "Gujarat Mineral Development Corporation (GMDC)",
+    "t": "Gujarat Mineral Development Corporation (GMDC) Recruitment 2026 Notification Out for 7 Manager - Chemical (Coal Gasification), Manager - Mechanical (Coal Gasification), DGM - Coal Gasification Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "03 October 2026",
+    "a": "GUJARAT-MINERA/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Gujarat Mineral Development Corporation (GMDC) has officially released employment advertisement notification GUJARAT-MINERA/2026 for the recruitment of 7 vacancies for Manager - Chemical (Coal Gasification), Manager - Mechanical (Coal Gasification), DGM - Coal Gasification posts.",
+    "u": "https://www.gmdcltd.com/"
+},
+  {
+    "id": "goa-samagra-shiksha-gss-direct-teacher-foundational-stage-recruitment-2026",
+    "b": "Goa Samagra Shiksha (GSS), Directorate of Education, Goa",
+    "t": "Goa Samagra Shiksha (GSS), Directorate of Education, Goa Recruitment 2026 Notification Out for 78 Teacher (Foundational Stage) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "04 September 2026",
+    "a": "No.GSS/EST/Filling up of posts/MDY/PPT/422/2026-27/2587",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Goa Samagra Shiksha (GSS), Directorate of Education, Goa has officially released employment advertisement notification No.GSS/EST/Filling up of posts/MDY/PPT/422/2026-27/2587 for the recruitment of 78 vacancies for Teacher (Foundational Stage) posts.",
+    "u": "https://www.goa.gov.in/wp-content/uploads/2026/08/GSS-Advertisement-2026-27.pdf"
+},
+  {
+    "id": "goa-state-biodiversity-board-g-finance-controller-recruitment-2026",
+    "b": "Goa State Biodiversity Board (Goa SBB)",
+    "t": "Goa State Biodiversity Board (Goa SBB) Recruitment 2026 Notification Out for 1 Finance Controller Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "12-4-2024/GSBB/Project/295",
+    "q": "Any Bachelor's Degree",
+    "desc": "Goa State Biodiversity Board (Goa SBB) has officially released employment advertisement notification 12-4-2024/GSBB/Project/295 for the recruitment of 1 vacancies for Finance Controller posts.",
+    "u": "https://www.goa.gov.in/wp-content/uploads/2026/08/FC-Advertisement-Web-Govan.pdf"
+},
+  {
     "id": "goa-shipyard-limited-gsl-trainee-project-executive-recruitment-2026",
     "b": "Goa Shipyard Limited (GSL)",
     "t": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 31 Trainee Project Executive Posts | Apply Online",
