@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "office-of-the-district-judge-m-junior-clerk-cum-copyist-grade-recruitment-2026",
+    "b": "Office of the District Judge, Mayurbhanj, Baripada",
+    "t": "Office of the District Judge, Mayurbhanj, Baripada Recruitment 2026 Notification Out for 23 Junior Clerk-Cum-Copyist, Grade-III Stenographer, Junior Typist, Salaried Amin Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "07 September 2026",
+    "a": "02/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Office of the District Judge, Mayurbhanj, Baripada has officially released employment advertisement notification 02/2026 for the recruitment of 23 vacancies for Junior Clerk-Cum-Copyist, Grade-III Stenographer, Junior Typist, Salaried Amin posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02d87c68a56bc8eb803b44f25abb62/uploads/2026/08/2026080722.pdf"
+},
+  {
+    "id": "district-medical-health-office-anm-recruitment-2026",
+    "b": "District Medical & Health Officer Ri Bhoi",
+    "t": "District Medical & Health Officer Ri Bhoi Recruitment 2026 Notification Out for 3 ANM Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "10 September 2026",
+    "a": "DMHO/RBD/NHM/HR-UHWC/253/2626-27",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "District Medical & Health Officer Ri Bhoi has officially released employment advertisement notification DMHO/RBD/NHM/HR-UHWC/253/2626-27 for the recruitment of 3 vacancies for ANM posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17876554888935.pdf"
+},
+  {
+    "id": "mecl-non-executive-technician-assistant-and-more-recruitment-2026",
+    "b": "MECL Non Executive",
+    "t": "MECL Non Executive Recruitment 2026 Notification Out for 122 Technician, Assistant and More Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "11 October 2026",
+    "a": "03/Rectt./2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "MECL Non Executive has officially released employment advertisement notification 03/Rectt./2026 for the recruitment of 122 vacancies for Technician, Assistant and More posts.",
+    "u": "https://www.mecl.co.in"
+},
+  {
+    "id": "dr-balasaheb-sawant-konkan-kri-agromet-observer-recruitment-2026",
+    "b": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth",
+    "t": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth Recruitment 2026 Notification Out for 1 Agromet Observer Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "10 September 2026",
+    "a": "No.ACD/AGRO/GKMS/503/2026",
+    "q": "12th Pass | MBBS / Medical PG",
+    "desc": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth has officially released employment advertisement notification No.ACD/AGRO/GKMS/503/2026 for the recruitment of 1 vacancies for Agromet Observer posts.",
+    "u": "https://www.dbskkv.org"
+},
+  {
+    "id": "tata-institute-of-social-scien-senior-administrative-assistan-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 6 Senior Administrative Assistant (Academic) and Administrative Assistant (Academic/Admission) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026",
+    "a": "ADVT/TISS/ADMIN/SAAA/ACAD/SEPT/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially released employment advertisement notification ADVT/TISS/ADMIN/SAAA/ACAD/SEPT/2026 for the recruitment of 6 vacancies for Senior Administrative Assistant (Academic) and Administrative Assistant (Academic/Admission) posts.",
+    "u": "https://tiss.ac.in/uploads/files/Advt_Sr_Admn_Assist_and_Admn_Assist_Academic.pdf"
+},
+  {
+    "id": "dc-latur-aaple-sarkar-seva-ken-640-recruitment-2026",
+    "b": "DC Latur Aaple Sarkar Seva Kendra",
+    "t": "DC Latur Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 640 640 Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "15 September 2026, 5:00 PM",
+    "a": "DC-LATUR-AAPLE/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DC Latur Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-LATUR-AAPLE/2026 for the recruitment of 640 vacancies for 640 posts.",
+    "u": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2026/08/17876348886669.pdf"
+},
+  {
+    "id": "dc-thane-aaple-sarkar-seva-ken-381-recruitment-2026",
+    "b": "DC Thane Aaple Sarkar Seva Kendra",
+    "t": "DC Thane Aaple Sarkar Seva Kendra Recruitment 2026 Notification Out for 381 381 Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "22 September 2026, during office hours (9:45 AM to 6:15 PM)",
+    "a": "DC-THANE-AAPLE/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DC Thane Aaple Sarkar Seva Kendra has officially released employment advertisement notification DC-THANE-AAPLE/2026 for the recruitment of 381 vacancies for 381 posts.",
+    "u": "https://cdn.s3waas.gov.in/s31afa34a7f984eeabdbb0a7d494132ee5/uploads/2026/08/17871349117548.pdf"
+},
+  {
+    "id": "indian-institute-of-management-senior-advisor-development-recruitment-2026",
+    "b": "Indian Institute of Management Kozhikode",
+    "t": "Indian Institute of Management Kozhikode Recruitment 2026 Notification Out for 1 Senior Advisor (Development) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "30 September 2026",
+    "a": "C-70/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Kozhikode has officially released employment advertisement notification C-70/2026 for the recruitment of 1 vacancies for Senior Advisor (Development) posts.",
+    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6IlpBaXhYU3Vkb3lTWFcwSEVVekIvbWc9PSIsInZhbHVlIjoiL3MwU2VoQ3RQLzJsYVVjR2FaVWdLZz09IiwibWFjIjoiMTEzNmNjYTRiMTQ4ZmM0OTE4YWUzYmUwM2M2OWViMjBhMGIwY2I1ZDE2OTNjZGY1MzY1ZDU0ZDU4NjlhMDM5OSIsInRhZyI6IiJ9"
+},
+  {
+    "id": "jawaharlal-nehru-centre-for-ad-arf-scientific-instrumentation-recruitment-2026",
+    "b": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR)",
+    "t": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) Recruitment 2026 Notification Out for 1 ARF Scientific Instrumentation Specialist Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "16 September 2026",
+    "a": "JNC/AO/Advt.No.19/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) has officially released employment advertisement notification JNC/AO/Advt.No.19/2026 for the recruitment of 1 vacancies for ARF Scientific Instrumentation Specialist posts.",
+    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-09/Advertisement%20-%20cleanroom%20facility.pdf"
+},
+  {
+    "id": "raman-research-institute-rri-research-assistant-recruitment-2026",
+    "b": "Raman Research Institute (RRI)",
+    "t": "Raman Research Institute (RRI) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "05 October 2026",
+    "a": "22/2026",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "Raman Research Institute (RRI) has officially released employment advertisement notification 22/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
+    "u": "https://www.rri.res.in/sites/default/files/other-openings/Advt_22_2026.pdf"
+},
+  {
     "id": "indian-institute-of-technology-project-assistant-recruitment-2026",
     "b": "Indian Institute of Technology Jammu",
     "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
