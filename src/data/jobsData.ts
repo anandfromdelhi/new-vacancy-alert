@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "goa-shipyard-limited-gsl-trainee-project-executive-recruitment-2026",
+    "b": "Goa Shipyard Limited (GSL)",
+    "t": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 31 Trainee Project Executive Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "03 October 2026",
+    "a": "05/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Goa Shipyard Limited (GSL) has officially released employment advertisement notification 05/2026 for the recruitment of 31 vacancies for Trainee Project Executive posts.",
+    "u": "https://goashipyard.in/storage/clients_logo/1788345486.pdf"
+},
+  {
+    "id": "guru-gobind-singh-government-h-senior-resident-recruitment-2026",
+    "b": "Guru Gobind Singh Government Hospital (GGSGH)",
+    "t": "Guru Gobind Singh Government Hospital (GGSGH) Recruitment 2026 Notification Out for 26 Senior Resident Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "F. 3/3/155/2026/Estt./PI/GGSGH/Interview SR/Adhoc basis/ -1081/-69",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Guru Gobind Singh Government Hospital (GGSGH) has officially released employment advertisement notification F. 3/3/155/2026/Estt./PI/GGSGH/Interview SR/Adhoc basis/ -1081/-69 for the recruitment of 26 vacancies for Senior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wggsg_80.pdf"
+},
+  {
+    "id": "nmdc-apollo-central-hospital-medical-professionals-recruitment-2026",
+    "b": "NMDC Apollo Central Hospital",
+    "t": "NMDC Apollo Central Hospital Recruitment 2026 Notification Out for 1 Medical Professionals Posts | Walk-in Interview",
+    "d": "03 September 2026",
+    "l": "10 September 2026",
+    "a": "03/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "NMDC Apollo Central Hospital has officially released employment advertisement notification 03/2026 for the recruitment of 1 vacancies for Medical Professionals posts.",
+    "u": "https://www.nmdc.co.in/cms-admin/Upload/Career_Documents/28ea4c84a45c44cf8add519cd122c2e7_20260902155609408.pdf"
+},
+  {
+    "id": "district-child-protection-unit-nurse-doctor-part-time-ayah-ch-recruitment-2026",
+    "b": "District Child Protection Unit Sheikhpura (DCPU Sheikhpura)",
+    "t": "District Child Protection Unit Sheikhpura (DCPU Sheikhpura) Recruitment 2026 Notification Out for 4 Nurse, Doctor (Part Time), Ayah, Chowkidar Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "30 September 2026",
+    "a": "09/SARA (Misc)-09/2017(Part-1)-498",
+    "q": "10th / 8th Pass | 12th Pass | Nursing (GNM / B.Sc)",
+    "desc": "District Child Protection Unit Sheikhpura (DCPU Sheikhpura) has officially released employment advertisement notification 09/SARA (Misc)-09/2017(Part-1)-498 for the recruitment of 4 vacancies for Nurse, Doctor (Part Time), Ayah, Chowkidar posts.",
+    "u": "https://cdn.s3waas.gov.in/s30bb4aec1710521c12ee76289d9440817/uploads/2026/09/17882512057204.pdf"
+},
+  {
+    "id": "one-stop-center-khagaria-centre-administrator-recruitment-2026",
+    "b": "One Stop Center Khagaria",
+    "t": "One Stop Center Khagaria Recruitment 2026 Notification Out for 1 Centre Administrator Posts | Apply Offline",
+    "d": "03 September 2026",
+    "l": "12 September 2026",
+    "a": "02/26",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "One Stop Center Khagaria has officially released employment advertisement notification 02/26 for the recruitment of 1 vacancies for Centre Administrator posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d61e4bbd6393c9111e6526ea173a7c8b/uploads/2026/08/17871382741249.pdf"
+},
+  {
+    "id": "national-institute-of-pharmace-project-research-scientist-pro-recruitment-2026",
+    "b": "National Institute of Pharmaceutical Education and Research",
+    "t": "National Institute of Pharmaceutical Education and Research Recruitment 2026 Notification Out for 2 Project Research Scientist / Project Technical Support Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "08 September 2026",
+    "a": "NIPER-HJP/PA/ICMR/FIW/2026-27/CDR-91",
+    "q": "12th Pass | Diploma | B.Pharm / D.Pharm",
+    "desc": "National Institute of Pharmaceutical Education and Research has officially released employment advertisement notification NIPER-HJP/PA/ICMR/FIW/2026-27/CDR-91 for the recruitment of 2 vacancies for Project Research Scientist / Project Technical Support posts.",
+    "u": "https://niperhajipur.ac.in/wp-content/uploads/2026/08/FIW_Adv_notice-02-post.pdf"
+},
+  {
+    "id": "upsc-cgse-2027-notification-ou-127-recruitment-2026",
+    "b": "UPSC CGSE 2027 Notification Out",
+    "t": "UPSC CGSE 2027 Notification Out Recruitment 2026 Notification Out for 127 127 Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "22 September 2026, up to 6:00 PM",
+    "a": "01/2027-GEOL and File No",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UPSC CGSE 2027 Notification Out has officially released employment advertisement notification 01/2027-GEOL and File No for the recruitment of 127 vacancies for 127 posts.",
+    "u": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf"
+},
+  {
+    "id": "pfrda-officer-grade-a-assistant-mana-recruitment-2026",
+    "b": "PFRDA",
+    "t": "PFRDA Recruitment 2026 Notification Out for 30 Officer Grade 'A' (Assistant Manager) Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "24 September 2026",
+    "a": "03/2026, dated 03.09.2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "PFRDA has officially released employment advertisement notification 03/2026, dated 03.09.2026 for the recruitment of 30 vacancies for Officer Grade 'A' (Assistant Manager) posts.",
+    "u": "https://pfrda.org.in/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026?p_l_back_url=%2Fget-to-know%2Fcareers%2Fvacancies&p_l_back_url_title=Vacancies"
+},
+  {
+    "id": "department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026",
+    "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
+    "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 Notification Out for 23 BPM, ABPM & Dak Sevak Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "Refer Official Notification",
+    "a": "17-12/2026-GDS",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially released employment advertisement notification 17-12/2026-GDS for the recruitment of 23 vacancies for BPM, ABPM & Dak Sevak posts.",
+    "u": "https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf"
+},
+  {
+    "id": "staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026",
+    "b": "Staff Selection Commission (SSC)",
+    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 1748 1,748 Junior Engineer Posts | Apply Online",
+    "d": "03 September 2026",
+    "l": "22 September 2026 (23:00 hours)",
+    "a": "STAFF-SELECTIO/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Staff Selection Commission (SSC) has officially released employment advertisement notification STAFF-SELECTIO/2026 for the recruitment of 1748 vacancies for 1,748 Junior Engineer posts.",
+    "u": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf"
+},
+  {
     "id": "south-eastern-railway-ser-various-posts-recruitment-2026",
     "b": "South Eastern Railway (SER)",
     "t": "South Eastern Railway (SER) Recruitment 2026 Notification Out for 10 Various Posts Posts | Apply Online",
