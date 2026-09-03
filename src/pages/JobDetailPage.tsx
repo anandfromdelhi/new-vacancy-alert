@@ -4518,6 +4518,79 @@ export default function JobDetailPage() {
                     </div>
                   </div>
                 )}
+
+                {id === 'jkssb-class-iv-mts-class-iv-mts-sanitation-worker-recruitment-2026' && (
+                  <div className="mt-6 space-y-4">
+                    <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                        <Award className="h-4 w-4 text-blue-600" /> JKSSB Class-IV Selection Criteria &amp; Socio-Economic Weightage (S.O. 184 of 2020)
+                      </h4>
+                      <span className="text-[10px] font-bold text-blue-900 bg-blue-100 px-2 py-0.5 rounded-md">2,863 Posts / 3 Cadres</span>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                      <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">UT Cadre</span>
+                          <span className="text-xs font-black text-blue-800">105 Posts</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">UT Cadre Evaluation (100 Marks)</h5>
+                        <div className="space-y-1 text-[11px] text-slate-600">
+                          <div>• Written Test (Objective MCQ): <strong>85 Marks</strong></div>
+                          <div>• No Family Member in Govt Service: <strong>05 Marks</strong></div>
+                          <div>• Widows / Divorced / Orphan Girls: <strong>05 Marks</strong></div>
+                          <div>• Casual Worker (5+ Years engagement): <strong>05 Marks</strong></div>
+                        </div>
+                      </div>
+
+                      <div className="bg-indigo-50/80 border-2 border-indigo-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">Divisional Cadre</span>
+                          <span className="text-xs font-black text-indigo-800">1,990 Posts</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Divisional Evaluation (100 Marks)</h5>
+                        <div className="space-y-1 text-[11px] text-slate-600">
+                          <div>• Written Test (Objective MCQ): <strong>80 Marks</strong></div>
+                          <div>• Candidate of Home Division: <strong>05 Marks</strong></div>
+                          <div>• No Family Member in Govt Service: <strong>05 Marks</strong></div>
+                          <div>• Widows / Divorced / Orphan Girls: <strong>05 Marks</strong></div>
+                          <div>• Casual Worker (5+ Years engagement): <strong>05 Marks</strong></div>
+                        </div>
+                        <div className="mt-2 text-[10px] font-bold text-indigo-900 bg-white/80 p-1.5 rounded border border-indigo-200">
+                          Jammu Division: 1,093 Posts | Kashmir Division: 897 Posts
+                        </div>
+                      </div>
+
+                      <div className="bg-emerald-50/80 border-2 border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-1.5 py-0.5 rounded">District Cadre</span>
+                          <span className="text-xs font-black text-emerald-800">768 Posts</span>
+                        </div>
+                        <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">District Evaluation (100 Marks)</h5>
+                        <div className="space-y-1 text-[11px] text-slate-600">
+                          <div>• Written Test (Objective MCQ): <strong>75 Marks</strong></div>
+                          <div>• Candidate of Home District: <strong>10 Marks</strong></div>
+                          <div>• No Family Member in Govt Service: <strong>05 Marks</strong></div>
+                          <div>• Widows / Divorced / Orphan Girls: <strong>05 Marks</strong></div>
+                          <div>• Casual Worker (5+ Years engagement): <strong>05 Marks</strong></div>
+                        </div>
+                        <div className="mt-2 text-[10px] font-bold text-emerald-900 bg-white/80 p-1.5 rounded border border-emerald-200">
+                          Spread across all 20 Districts of Jammu &amp; Kashmir
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 text-xs font-medium text-slate-700 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                      <div>
+                        <strong className="text-amber-900 block text-xs sm:text-sm font-bold">Statutory Maximum Qualification Rule:</strong>
+                        <span>Class-IV (MTS): <strong>Min Matric (10th) &amp; Max 10+2</strong> | Sanitation Worker: <strong>Min 8th Pass &amp; Max 10+2</strong>. Candidates possessing higher degrees (Graduation/Post-Graduation/Diploma) are strictly <strong>ineligible</strong> under S.O. 184 of 2020.</span>
+                      </div>
+                      <span className="shrink-0 bg-amber-600 text-white font-bold text-[10px] sm:text-xs px-3 py-1.5 rounded-lg">
+                        Pay Level SL-1 (₹14,800–47,100)
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </section>
           )}

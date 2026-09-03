@@ -948,13 +948,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "jkssb-class-iv-mts-class-iv-mts-sanitation-worker-recruitment-2026",
-    "b": "JKSSB Class IV MTS",
-    "t": "JKSSB Class IV MTS Recruitment 2026 Notification Out for 2863 Class-IV (MTS), Sanitation Worker Posts | Apply Online",
-    "d": "03 September 2026",
+    "b": "Jammu and Kashmir Services Selection Board (JKSSB)",
+    "t": "JKSSB Class-IV (MTS) & Sanitation Worker Recruitment 2026 Notification Out for 2863 Posts across UT, Divisional & District Cadres | Apply Online",
+    "d": "01 September 2026",
     "l": "03 November 2026",
-    "a": "09 of 2026, dated 01.09.2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "JKSSB Class IV MTS has officially released employment advertisement notification 09 of 2026, dated 01.09.2026 for the recruitment of 2863 vacancies for Class-IV (MTS), Sanitation Worker posts.",
+    "a": "Advertisement Notification No. 09 of 2026 (Dated 01.09.2026)",
+    "q": "Class-IV (MTS): Min Matric & Max 10+2 | Sanitation Worker: Min 8th & Max 10+2",
+    "desc": "The Jammu and Kashmir Services Selection Board (JKSSB) has officially published mega Advertisement Notification No. 09 of 2026 dated 01 September 2026 for the direct recruitment of 2,863 Class-IV (Multi-Tasking Staff - MTS) and Sanitation Worker vacancies in various Government Departments across UT, Divisional, and District Cadres.",
     "u": "https://www.jkssb.nic.in/Pdf/ADVT_09OF2026_01092026.pdf"
 },
   {
