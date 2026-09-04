@@ -431,20 +431,18 @@ export default function QualificationJobsPage() {
       entry.count++;
     }
 
-    return Array.from(map.values()).sort((a, b) => {
-      // 1. User's detected home state first (before All India)
-      if (userStateSlug) {
-        if (a.stateSlug === userStateSlug) return -1;
-        if (b.stateSlug === userStateSlug) return 1;
-      }
+    const list = Array.from(map.values());
+    const userStateEntry = userStateSlug ? list.find(s => s.stateSlug === userStateSlug) : null;
+    const allIndiaEntry = list.find(s => s.isAllIndia);
+    const otherEntries = list
+      .filter(s => s !== userStateEntry && s !== allIndiaEntry)
+      .sort((a, b) => a.stateName.localeCompare(b.stateName));
 
-      // 2. All India comes second
-      if (a.isAllIndia) return -1;
-      if (b.isAllIndia) return 1;
-
-      // 3. Other states alphabetically
-      return a.stateName.localeCompare(b.stateName);
-    });
+    const result: { stateName: string; stateSlug: string; isAllIndia: boolean; count: number }[] = [];
+    if (userStateEntry) result.push(userStateEntry);
+    if (allIndiaEntry) result.push(allIndiaEntry);
+    result.push(...otherEntries);
+    return result;
   }, [qualificationActiveJobs, userStateSlug]);
 
   // Filtered jobs according to search & optional selected state filter
@@ -507,20 +505,18 @@ export default function QualificationJobsPage() {
       totalVacancies: e.jobs.reduce((sum, j) => sum + getVacancyCount(j.t), 0)
     }));
 
-    return list.sort((a, b) => {
-      // 1. User's detected home state is #1 at the very top (before All India)
-      if (userStateSlug) {
-        if (a.stateSlug === userStateSlug) return -1;
-        if (b.stateSlug === userStateSlug) return 1;
-      }
+    const userStateSection = userStateSlug ? list.find(s => s.stateSlug === userStateSlug) : null;
+    const allIndiaSection = list.find(s => s.isAllIndia);
+    const otherSections = list
+      .filter(s => s !== userStateSection && s !== allIndiaSection)
+      .sort((a, b) => a.stateName.localeCompare(b.stateName));
 
-      // 2. All India comes second
-      if (a.isAllIndia) return -1;
-      if (b.isAllIndia) return 1;
+    const result: StateJobSection[] = [];
+    if (userStateSection) result.push(userStateSection);
+    if (allIndiaSection) result.push(allIndiaSection);
+    result.push(...otherSections);
 
-      // 3. Other states alphabetically
-      return a.stateName.localeCompare(b.stateName);
-    });
+    return result;
   }, [filteredJobs, userStateSlug]);
 
   const scrollToState = (stateSlug: string) => {
