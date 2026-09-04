@@ -497,13 +497,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "upsc-cgse-2027-notification-ou-127-recruitment-2026",
-    "b": "UPSC CGSE 2027 Notification Out",
-    "t": "UPSC CGSE 2027 Notification Out Recruitment 2026 Notification Out for 127 127 Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "22 September 2026, up to 6:00 PM",
-    "a": "01/2027-GEOL and File No",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "UPSC CGSE 2027 Notification Out has officially released employment advertisement notification 01/2027-GEOL and File No for the recruitment of 127 vacancies for 127 posts.",
+    "b": "Union Public Service Commission (UPSC)",
+    "t": "UPSC Combined Geo-Scientist Examination (CGSE) 2027 – Apply Online for 127 Group 'A' & 'B' Posts in GSI & CGWB (Notice No. 01/2027-GEOL)",
+    "d": "02 September 2026",
+    "l": "22 September 2026 (till 18:00 Hours)",
+    "a": "Notice No. 01/2027-GEOL (File No. 04/01/2026-E.I(B))",
+    "q": "Master's Degree (M.Sc / M.Tech) in Geology / Geophysics / Chemistry / Physics / Applied Geology / Hydrogeology",
+    "desc": "The Union Public Service Commission (UPSC) has officially published Examination Notice No. 01/2027-GEOL (File No. 04/01/2026-E.I(B)) for the Combined Geo-Scientist Examination, 2027 (CGSE 2027). This nationwide prestigious competitive examination is conducted for direct recruitment to 127 Group 'A' and Group 'B' gazetted scientific positions in the Geological Survey of India (GSI), Ministry of Mines, and the Central Ground Water Board (CGWB), Department of Water Resources, River Development & Ganga Rejuvenation, Ministry of Jal Shakti.",
     "u": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf"
 },
   {

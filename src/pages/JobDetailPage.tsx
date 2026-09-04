@@ -3541,6 +3541,82 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'upsc-cgse-2027-notification-ou-127-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-emerald-600" /> Category-I (GSI) &amp; Category-II (CGWB) Stream Allocation (Para 2 &amp; 3)
+                          </h4>
+                          <span className="text-[10px] font-bold text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-md">127 Total Vacancies</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                          {/* Stream-I: Geology & Hydrogeology */}
+                          <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Stream I</span>
+                              <span className="text-[11px] font-bold text-emerald-700">75 Posts Total</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Geology &amp; Hydrogeology</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              M.Sc. in Geology, Applied Geology, Marine Geology, Earth Science, Geo-Exploration, Mineral Exploration, or Hydrogeology.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800 space-y-0.5">
+                              <div>• GSI: Geologist Gr 'A' (29) + Asst Geologist Gr 'B' (34)</div>
+                              <div>• CGWB: Scientist 'B' (05) + Asst Hydrogeologist (07)</div>
+                            </div>
+                          </div>
+
+                          {/* Stream-II: Geophysics */}
+                          <div className="bg-white border-2 border-sky-100 hover:border-sky-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-sky-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Stream II</span>
+                              <span className="text-[11px] font-bold text-sky-700">37 Posts Total</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Geophysics &amp; Applied Physics</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              M.Sc. in Physics, Applied Physics, Geophysics, Exploration Geophysics, Marine Geophysics, or M.Sc. (Tech) Applied Geophysics.
+                            </p>
+                            <div className="bg-sky-50 rounded-lg p-2 text-[10px] font-bold text-sky-800 space-y-0.5">
+                              <div>• GSI: Assistant Geophysicist Gr 'B' (35)</div>
+                              <div>• CGWB: Scientist 'B' (01) + Asst Geophysicist (01)</div>
+                            </div>
+                          </div>
+
+                          {/* Stream-III: Chemistry */}
+                          <div className="bg-white border-2 border-indigo-100 hover:border-indigo-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Stream III</span>
+                              <span className="text-[11px] font-bold text-indigo-700">15 Posts Total</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Chemical &amp; Applied Chemistry</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              M.Sc. in Chemistry, Applied Chemistry, Analytical Chemistry, Physical, Inorganic, Organic, or Hydro-Chemistry.
+                            </p>
+                            <div className="bg-indigo-50 rounded-lg p-2 text-[10px] font-bold text-indigo-800 space-y-0.5">
+                              <div>• GSI: Chemist Gr 'A' (07) + Asst Chemist Gr 'B' (06)</div>
+                              <div>• CGWB: Scientist 'B' (01) + Asst Chemist (01)</div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Crucial Single Stream & Common Fee Note */}
+                        <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                          <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                            <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                              <Info className="h-4 w-4" /> Important UPSC CGSE Candidate Instructions
+                            </h4>
+                            <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">Single Stream Policy</span>
+                          </div>
+                          <div className="text-xs text-slate-300 leading-relaxed space-y-1.5 mt-2">
+                            <p>• <strong>One Stream Application:</strong> Candidates with M.Sc in Geo-Exploration or Applied Geology may qualify for multiple disciplines, but can apply under <strong>ONLY ONE Stream</strong> (Geology or Geophysics).</p>
+                            <p>• <strong>Common Application &amp; Single Fee:</strong> Candidates applying for both Category-I (GSI) and Category-II (CGWB) posts within their stream need to submit only ONE application form and pay the ₹200 fee once.</p>
+                            <p>• <strong>Final Year / Result Awaited:</strong> Eligible to apply provisionally; proof of passing must be uploaded within 10 days of Stage-II Main result declaration on the CAF module.</p>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
                     {(id === 'powergrid-nr1-apprenticeship-recruitment-2026' || id === 'powergrid-nr3-apprenticeship-recruitment-2026') && (
                       <div className="my-6 space-y-4">
                         <div className="flex items-center justify-between border-b border-slate-200 pb-2">
@@ -4963,6 +5039,89 @@ export default function JobDetailPage() {
                       <p>• <strong>Online Option Form:</strong> Candidates must submit priority preferences of posts and departments on ssc.gov.in before FRTA declaration. Preferences once submitted are final and irrevocable.</p>
                       <p>• <strong>Sliding Mechanism:</strong> SSC fills notified vacancies to maximum using sliding allocations. No waiting/reserve list is maintained.</p>
                       <p>• <strong>Document Verification (DV):</strong> Conducted directly by individual user departments (BRO, CPWD, MES, CWC, etc.) after declaration of final results.</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'upsc-cgse-2027-notification-ou-127-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {/* Stage-I Prelims Card */}
+                    <div className="bg-gradient-to-br from-blue-50/80 to-slate-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-100 pb-2.5">
+                        <div>
+                          <span className="bg-blue-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 1</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">Preliminary Exam (Objective)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-blue-800 bg-blue-100 px-2.5 py-1 rounded-lg">400 Marks</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Format:</strong> OMR Sheet (2 Papers, 2 Hours each)</li>
+                        <li><strong>Paper-I:</strong> General Studies (100 Marks)</li>
+                        <li><strong>Paper-II:</strong> Stream Discipline (300 Marks)</li>
+                        <li><strong>Negative Marking:</strong> 1/3rd (0.33) mark per wrong answer</li>
+                        <li><strong>Calculators:</strong> Strictly NOT permitted</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Merit Counted: Stage-I marks are COUNTED in the Final 1,200 aggregate score!
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Stage-II Main Card */}
+                    <div className="bg-gradient-to-br from-indigo-50/80 to-slate-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-indigo-100 pb-2.5">
+                        <div>
+                          <span className="bg-indigo-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 2</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">Main Exam (Descriptive)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-lg">600 Marks</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Format:</strong> Conventional Pen-Paper (3 Papers)</li>
+                        <li><strong>Duration:</strong> 3 Hours per paper (9 Hours total)</li>
+                        <li><strong>Papers:</strong> 3 Papers × 200 Marks each</li>
+                        <li><strong>Language:</strong> English only</li>
+                        <li><strong>Calculators:</strong> Non-programmable pocket calculators allowed</li>
+                        <li className="bg-indigo-100/70 p-2 rounded-lg text-indigo-950 font-extrabold border border-indigo-200">
+                          Shortlist Ratio: 6 to 7 times the total vacancies admitted to Stage-II.
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Stage-III Personality Test Card */}
+                    <div className="bg-gradient-to-br from-emerald-50/80 to-slate-50 border-2 border-emerald-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-emerald-100 pb-2.5">
+                        <div>
+                          <span className="bg-emerald-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 3</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">Personality Test / Interview</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-lg">200 Marks</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Format:</strong> In-person interview by UPSC Board</li>
+                        <li><strong>Assessment:</strong> Leadership, field life aptitude, intellectual curiosity &amp; integrity</li>
+                        <li><strong>Shortlist Ratio:</strong> Approx. twice (2x) the number of vacancies</li>
+                        <li><strong>Min Qualifying:</strong> No minimum qualifying cutoff in Interview</li>
+                        <li className="bg-emerald-100/70 p-2 rounded-lg text-emerald-950 font-extrabold border border-emerald-200">
+                          Grand Total: Final Merit is out of 1,200 Marks (400 + 600 + 200).
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Tie-Breaking Principles Card */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <ListChecks className="h-4 w-4" /> UPSC CGSE 2027 Tie-Breaking Principles (Para 12)
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">Order of Resolution</span>
+                    </div>
+                    <div className="text-xs text-slate-300 leading-relaxed space-y-1.5 mt-2">
+                      <p>• <strong>1st Priority:</strong> Candidate securing more marks in subject specific papers (Prelims Paper-II + Mains Papers I, II &amp; III) plus Personality Test marks put together will be ranked higher.</p>
+                      <p>• <strong>2nd Priority:</strong> Candidate securing more marks in subject specific papers alone (Prelims Paper-II + Mains Papers I, II &amp; III) put together will be ranked higher.</p>
+                      <p>• <strong>3rd Priority:</strong> If still tied, candidate senior in age will be ranked higher.</p>
                     </div>
                   </div>
                 </div>
