@@ -63,7 +63,7 @@ app.use((req, res, next) => {
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com data:",
     "img-src 'self' data: blob: https: http:",
-    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://onesignal.com https://*.onesignal.com https://pagead2.googlesyndication.com https://mittengulped.com",
+    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://onesignal.com https://*.onesignal.com https://pagead2.googlesyndication.com https://mittengulped.com https://get.geojs.io https://*.geojs.io https://ipapi.co",
     "frame-src 'self' https://*.firebaseapp.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://mittengulped.com",
     "object-src 'none'",
     "base-uri 'self'",
@@ -76,6 +76,31 @@ app.use((req, res, next) => {
 });
 
 export { escapeHtml, getPageMetaData, injectMetaTags };
+
+// Geo-IP endpoint for location detection (zero external calls on Vercel/Cloudflare, fallback to GeoJS)
+app.get("/api/geo", async (req, res) => {
+  const vercelRegion = req.headers["x-vercel-ip-country-region"] as string;
+  const cfRegion = req.headers["cf-region"] as string;
+  if (vercelRegion || cfRegion) {
+    return res.json({ region: vercelRegion || cfRegion });
+  }
+
+  try {
+    const forwarded = req.headers["x-forwarded-for"] as string;
+    const clientIp = (forwarded || req.socket?.remoteAddress || "").split(",")[0].trim();
+    const isLocal = !clientIp || clientIp === "::1" || clientIp === "127.0.0.1" || clientIp.startsWith("192.168.") || clientIp.startsWith("10.");
+    const geoUrl = isLocal ? "https://get.geojs.io/v1/ip/geo.json" : `https://get.geojs.io/v1/ip/geo/${clientIp}.json`;
+    const response = await fetch(geoUrl);
+    if (response.ok) {
+      const data: any = await response.json();
+      return res.json({ region: data.region, city: data.city });
+    }
+  } catch (err) {
+    // fallback silently
+  }
+
+  res.json({ region: null });
+});
 
 // RSS Feed endpoint
 app.get(["/rss.xml", "/feed.xml", "/rss", "/feed"], (_req, res) => {

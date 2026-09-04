@@ -13,8 +13,11 @@ import {
 } from '../components/JobList';
 import { 
   getQualificationGroups,
-  GroupedCategory
+  GroupedCategory,
+  getStateFromJob,
+  toSlug
 } from '../utils/categoryUtils';
+import { useUserLocation } from '../utils/useUserLocation';
 import { useNavigationLoader } from '../context/NavigationContext';
 import { 
   Search, Clock, ArrowRight, Building2, GraduationCap, 
@@ -55,7 +58,10 @@ function isJobExpired(lastDateStr: string): boolean {
 /**
  * Compact preview tile for individual jobs inside each category section
  */
-function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
+/**
+ * Compact preview tile for individual jobs inside each category section
+ */
+function JobTile({ job, isLocal }: { job: JobEntry; isLocal?: boolean; key?: React.Key }) {
   const { startLoading } = useNavigationLoader();
   const boardAcronym = getBoardAcronym(job.b);
   const postsInfo = getNumberOfPostsInfo(job.t, job.id);
@@ -65,14 +71,29 @@ function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
     <Link
       to={`/${job.id}`}
       onClick={() => startLoading(`Loading ${boardAcronym} Details...`)}
-      className="group block bg-white hover:bg-blue-50/50 border border-slate-200/90 hover:border-blue-400 rounded-xl p-3 sm:p-3.5 shadow-2xs hover:shadow-sm transition-all duration-150 relative overflow-hidden"
+      className={`group block rounded-xl p-3 sm:p-3.5 transition-all duration-150 relative overflow-hidden ${
+        isLocal
+          ? 'bg-emerald-50/80 hover:bg-emerald-100/70 border-2 border-emerald-500 shadow-xs ring-2 ring-emerald-400/20'
+          : 'bg-white hover:bg-blue-50/50 border border-slate-200/90 hover:border-blue-400 shadow-2xs hover:shadow-sm'
+      }`}
     >
-      {/* Top row: Board Badge + Vacancy Count */}
+      {/* Top row: Board Badge + Local Badge + Vacancy Count */}
       <div className="flex items-center justify-between gap-2 mb-1.5">
-        <span className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200/80 max-w-[65%] truncate">
-          <Building2 className="w-3 h-3 shrink-0 text-blue-600" />
-          <span className="truncate">{boardAcronym}</span>
-        </span>
+        <div className="flex items-center gap-1.5 min-w-0 max-w-[72%]">
+          <span className={`inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md border truncate ${
+            isLocal 
+              ? 'bg-emerald-100 text-emerald-900 border-emerald-300' 
+              : 'bg-blue-50 text-blue-700 border-blue-200/80'
+          }`}>
+            <Building2 className={`w-3 h-3 shrink-0 ${isLocal ? 'text-emerald-700' : 'text-blue-600'}`} />
+            <span className="truncate">{boardAcronym}</span>
+          </span>
+          {isLocal && (
+            <span className="shrink-0 inline-flex items-center gap-0.5 text-[9.5px] font-black px-1.5 py-0.5 rounded-md bg-emerald-600 text-white shadow-2xs">
+              <span>📍 Your State</span>
+            </span>
+          )}
+        </div>
         {postsInfo.display && (
           <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
             🔥 {postsInfo.display}
@@ -81,17 +102,23 @@ function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
       </div>
 
       {/* Job Title */}
-      <h4 className="text-xs sm:text-[13px] font-black text-slate-800 group-hover:text-blue-700 leading-snug line-clamp-2 mb-2 transition-colors">
+      <h4 className={`text-xs sm:text-[13px] font-black leading-snug line-clamp-2 mb-2 transition-colors ${
+        isLocal ? 'text-slate-900 group-hover:text-emerald-800' : 'text-slate-800 group-hover:text-blue-700'
+      }`}>
         {job.t}
       </h4>
 
       {/* Bottom meta: Last Date + Details link */}
-      <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 pt-1.5 border-t border-slate-100">
+      <div className={`flex items-center justify-between text-[11px] font-bold pt-1.5 border-t ${
+        isLocal ? 'border-emerald-200/60 text-emerald-900' : 'border-slate-100 text-slate-500'
+      }`}>
         <span className="inline-flex items-center gap-1 text-rose-600 font-extrabold text-[10.5px]">
           <Clock className="w-3 h-3 shrink-0" />
           <span>Last Date: {formattedLastDate}</span>
         </span>
-        <span className="inline-flex items-center gap-0.5 text-blue-600 group-hover:translate-x-0.5 transition-transform text-[11px] font-black">
+        <span className={`inline-flex items-center gap-0.5 group-hover:translate-x-0.5 transition-transform text-[11px] font-black ${
+          isLocal ? 'text-emerald-700' : 'text-blue-600'
+        }`}>
           <span>Details</span>
           <ChevronRight className="w-3.5 h-3.5" />
         </span>
@@ -110,15 +137,36 @@ interface SectionData {
 
 /**
  * Section box for a qualification category featuring its top 3 most recently published jobs + View More button
- * Clicking the header or the View More button navigates to the dedicated qualification page with state-wise sections.
+ * If user has a detected state, entries from that state appear at the top of the 3 preview jobs and are highlighted.
  */
 function CategorySectionCard({ 
   section, 
+  userStateSlug,
   key
 }: { 
   section: SectionData; 
+  userStateSlug?: string | null;
   key?: React.Key;
 }) {
+  // Prioritize user's local state entries into the top 3 preview jobs
+  const topPreviewJobs = useMemo(() => {
+    if (!userStateSlug) return section.jobs.slice(0, 3);
+
+    const localJobs: JobEntry[] = [];
+    const otherJobs: JobEntry[] = [];
+
+    for (let i = 0; i < section.jobs.length; i++) {
+      const j = section.jobs[i];
+      if (toSlug(getStateFromJob(j)) === userStateSlug) {
+        localJobs.push(j);
+      } else {
+        otherJobs.push(j);
+      }
+    }
+
+    return [...localJobs, ...otherJobs].slice(0, 3);
+  }, [section.jobs, userStateSlug]);
+
   return (
     <div 
       id={`section-${section.slug}`}
@@ -152,9 +200,12 @@ function CategorySectionCard({
 
         {/* Top 3 Job Tiles */}
         <div className="space-y-2.5 mb-4">
-          {section.jobs.slice(0, 3).map((job, idx) => (
-            <JobTile key={job.id || `${section.slug}-${idx}`} job={job} />
-          ))}
+          {topPreviewJobs.map((job, idx) => {
+            const isLocal = !!userStateSlug && toSlug(getStateFromJob(job)) === userStateSlug;
+            return (
+              <JobTile key={job.id || `${section.slug}-${idx}`} job={job} isLocal={isLocal} />
+            );
+          })}
         </div>
       </div>
 
@@ -171,6 +222,9 @@ function CategorySectionCard({
 }
 
 export default function HomePage() {
+  const { userLocation } = useUserLocation();
+  const userStateSlug = userLocation?.stateSlug;
+
   const [searchTerm, setSearchTerm] = useState('');
   const deferredSearch = useDeferredValue(searchTerm);
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
@@ -470,6 +524,7 @@ export default function HomePage() {
                 <CategorySectionCard
                   key={section.slug}
                   section={section}
+                  userStateSlug={userStateSlug}
                 />
               ))}
             </div>

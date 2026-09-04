@@ -6,6 +6,7 @@ import { JobTile } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
 import { QUAL_CATEGORIES, getStateFromJob, toSlug } from '../utils/categoryUtils';
+import { useUserLocation } from '../utils/useUserLocation';
 import { 
   Search, GraduationCap, ArrowLeft, RotateCcw,
   Sparkles, AlertCircle, ChevronDown, ChevronUp, CheckCircle2, Building2, MapPin
@@ -255,11 +256,13 @@ function StateSectionCard({
   section,
   meta,
   isExpanded,
+  isUserLocalState,
   onToggleExpand
 }: {
   section: StateJobSection;
   meta: QualificationMeta;
   isExpanded: boolean;
+  isUserLocalState?: boolean;
   onToggleExpand: () => void;
   key?: React.Key;
 }) {
@@ -270,19 +273,38 @@ function StateSectionCard({
     <div 
       id={`state-section-${section.stateSlug}`}
       data-state-slug={section.stateSlug}
-      className={`state-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${
-        section.isAllIndia ? 'border-t-blue-600' : 'border-t-indigo-600'
-      } hover:border-blue-400 scroll-mt-24`}
+      className={`state-card-contain rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${
+        isUserLocalState
+          ? 'bg-emerald-50/70 border-2 border-emerald-500 border-t-emerald-600 ring-2 ring-emerald-400/30 shadow-md'
+          : section.isAllIndia 
+            ? 'bg-slate-50/70 border-2 border-slate-200/90 border-t-blue-600 hover:border-blue-400' 
+            : 'bg-slate-50/70 border-2 border-slate-200/90 border-t-indigo-600 hover:border-blue-400'
+      } scroll-mt-24`}
     >
       <div>
+        {/* User Local State Badge */}
+        {isUserLocalState && (
+          <div className="flex items-center justify-between gap-2 pb-2 mb-2.5 border-b border-emerald-200/70">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-black bg-emerald-600 text-white shadow-2xs">
+              <Sparkles className="w-3 h-3 text-amber-300" />
+              <span>Vacancies in Your State ({section.stateName})</span>
+            </span>
+            <span className="text-[10px] font-black text-emerald-800 bg-emerald-100/90 px-2 py-0.5 rounded-md border border-emerald-300/80">
+              📍 Auto-Detected
+            </span>
+          </div>
+        )}
+
         {/* Section Header */}
         <div className="pb-3 mb-3 border-b border-slate-200/80">
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2.5 min-w-0">
               <div className={`p-2 rounded-xl border shrink-0 ${
-                section.isAllIndia 
-                  ? 'bg-blue-50 text-blue-600 border-blue-200' 
-                  : 'bg-indigo-50 text-indigo-700 border-indigo-200'
+                isUserLocalState
+                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300'
+                  : section.isAllIndia 
+                    ? 'bg-blue-50 text-blue-600 border-blue-200' 
+                    : 'bg-indigo-50 text-indigo-700 border-indigo-200'
               }`}>
                 {section.isAllIndia ? <Building2 className="w-4 h-4" /> : <MapPin className="w-4 h-4" />}
               </div>
@@ -350,6 +372,9 @@ export default function QualificationJobsPage() {
   const slug = (qualification || '10th-pass').toLowerCase();
   const meta = QUALIFICATION_MAP[slug];
 
+  const { userLocation } = useUserLocation();
+  const userStateSlug = userLocation?.stateSlug;
+
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedState, setSelectedState] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('date_posted_desc');
@@ -407,11 +432,20 @@ export default function QualificationJobsPage() {
     }
 
     return Array.from(map.values()).sort((a, b) => {
+      // 1. User's detected home state first (before All India)
+      if (userStateSlug) {
+        if (a.stateSlug === userStateSlug) return -1;
+        if (b.stateSlug === userStateSlug) return 1;
+      }
+
+      // 2. All India comes second
       if (a.isAllIndia) return -1;
       if (b.isAllIndia) return 1;
+
+      // 3. Other states alphabetically
       return a.stateName.localeCompare(b.stateName);
     });
-  }, [qualificationActiveJobs]);
+  }, [qualificationActiveJobs, userStateSlug]);
 
   // Filtered jobs according to search & optional selected state filter
   const filteredJobs = useMemo(() => {
@@ -474,11 +508,20 @@ export default function QualificationJobsPage() {
     }));
 
     return list.sort((a, b) => {
+      // 1. User's detected home state is #1 at the very top (before All India)
+      if (userStateSlug) {
+        if (a.stateSlug === userStateSlug) return -1;
+        if (b.stateSlug === userStateSlug) return 1;
+      }
+
+      // 2. All India comes second
       if (a.isAllIndia) return -1;
       if (b.isAllIndia) return 1;
+
+      // 3. Other states alphabetically
       return a.stateName.localeCompare(b.stateName);
     });
-  }, [filteredJobs]);
+  }, [filteredJobs, userStateSlug]);
 
   const scrollToState = (stateSlug: string) => {
     setSelectedState('all');
@@ -607,25 +650,35 @@ export default function QualificationJobsPage() {
               >
                 All States ({qualificationActiveJobs.length})
               </button>
-              {availableStates.map((st) => (
-                <button
-                  key={`jump-${st.stateSlug}`}
-                  type="button"
-                  onClick={() => scrollToState(st.stateSlug)}
-                  className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer border flex items-center gap-1.5 ${
-                    st.isAllIndia
-                      ? 'bg-blue-50 text-blue-900 border-blue-200 hover:bg-blue-100'
-                      : 'bg-slate-50 hover:bg-amber-50 text-slate-800 border-slate-200 hover:border-amber-300'
-                  }`}
-                >
-                  <span>{st.stateName}</span>
-                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${
-                    st.isAllIndia ? 'bg-blue-200 text-blue-900' : 'bg-slate-200 text-slate-700'
-                  }`}>
-                    {st.count}
-                  </span>
-                </button>
-              ))}
+              {availableStates.map((st) => {
+                const isLocalPill = !!userStateSlug && st.stateSlug === userStateSlug;
+                return (
+                  <button
+                    key={`jump-${st.stateSlug}`}
+                    type="button"
+                    onClick={() => scrollToState(st.stateSlug)}
+                    className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer border flex items-center gap-1.5 ${
+                      isLocalPill
+                        ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-950 border-emerald-400 ring-2 ring-emerald-300/40'
+                        : st.isAllIndia
+                          ? 'bg-blue-50 text-blue-900 border-blue-200 hover:bg-blue-100'
+                          : 'bg-slate-50 hover:bg-amber-50 text-slate-800 border-slate-200 hover:border-amber-300'
+                    }`}
+                  >
+                    <span>{st.stateName}</span>
+                    {isLocalPill && <span className="text-[10px]">📍</span>}
+                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${
+                      isLocalPill
+                        ? 'bg-emerald-200 text-emerald-900'
+                        : st.isAllIndia 
+                          ? 'bg-blue-200 text-blue-900' 
+                          : 'bg-slate-200 text-slate-700'
+                    }`}>
+                      {st.count}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}
@@ -790,12 +843,14 @@ export default function QualificationJobsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 items-start">
                 {stateSections.map((section) => {
                   const isExpanded = !!expandedStates[section.stateSlug] || (selectedState !== 'all' && selectedState === section.stateSlug);
+                  const isUserLocalState = !!userStateSlug && section.stateSlug === userStateSlug;
                   return (
                     <StateSectionCard
                       key={section.stateSlug}
                       section={section}
                       meta={meta}
                       isExpanded={isExpanded}
+                      isUserLocalState={isUserLocalState}
                       onToggleExpand={() => toggleStateExpanded(section.stateSlug)}
                     />
                   );
