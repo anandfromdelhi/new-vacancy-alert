@@ -8,7 +8,7 @@ import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
 import { QUAL_CATEGORIES, getStateFromJob, toSlug } from '../utils/categoryUtils';
 import { 
   Search, GraduationCap, ArrowLeft, RotateCcw, LayoutGrid, TableProperties,
-  Sparkles, AlertCircle, ChevronDown, CheckCircle2, Building2, MapPin,
+  Sparkles, AlertCircle, ChevronDown, ChevronUp, CheckCircle2, Building2, MapPin,
   ArrowUp
 } from 'lucide-react';
 
@@ -257,8 +257,16 @@ export default function QualificationJobsPage() {
   const [selectedState, setSelectedState] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('date_posted_desc');
   const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
+  const [expandedStates, setExpandedStates] = useState<Record<string, boolean>>({});
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
   const navigate = useNavigate();
+
+  const toggleStateExpanded = (stateSlug: string) => {
+    setExpandedStates(prev => ({
+      ...prev,
+      [stateSlug]: !prev[stateSlug]
+    }));
+  };
 
   // Redirect if unknown qualification slug
   if (!meta) {
@@ -571,7 +579,7 @@ export default function QualificationJobsPage() {
         </div>
 
         {/* Results Overview Bar */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <h2 className="text-sm font-black text-slate-800 flex items-center gap-2">
             <span>{meta.badge} Active Jobs (State Wise)</span>
             <span className="text-xs px-2.5 py-0.5 bg-blue-100 text-blue-800 border border-blue-200 rounded-full font-extrabold">
@@ -579,103 +587,164 @@ export default function QualificationJobsPage() {
             </span>
           </h2>
 
-          {(searchTerm || selectedState !== 'all' || sortBy !== 'date_posted_desc') && (
-            <button
-              onClick={() => {
-                setSearchTerm('');
-                setSelectedState('all');
-                setSortBy('date_posted_desc');
-              }}
-              className="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 cursor-pointer"
-            >
-              <RotateCcw className="h-3.5 w-3.5" />
-              <span>Reset Filters</span>
-            </button>
-          )}
+          <div className="flex items-center gap-2.5 flex-wrap">
+            {stateSections.some(s => s.jobs.length > 3) && (
+              <button
+                type="button"
+                onClick={() => {
+                  const anyUnexpanded = stateSections.some(s => s.jobs.length > 3 && !expandedStates[s.stateSlug]);
+                  if (anyUnexpanded) {
+                    const all: Record<string, boolean> = {};
+                    stateSections.forEach(s => { all[s.stateSlug] = true; });
+                    setExpandedStates(all);
+                  } else {
+                    setExpandedStates({});
+                  }
+                }}
+                className="text-xs font-black text-slate-700 hover:text-blue-700 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-xl border border-slate-200 transition-colors cursor-pointer flex items-center gap-1.5 shadow-3xs"
+              >
+                {stateSections.some(s => s.jobs.length > 3 && !expandedStates[s.stateSlug]) ? (
+                  <>
+                    <ChevronDown className="w-3.5 h-3.5" />
+                    <span>Expand All States</span>
+                  </>
+                ) : (
+                  <>
+                    <ChevronUp className="w-3.5 h-3.5" />
+                    <span>Collapse to 3 Each</span>
+                  </>
+                )}
+              </button>
+            )}
+
+            {(searchTerm || selectedState !== 'all' || sortBy !== 'date_posted_desc') && (
+              <button
+                onClick={() => {
+                  setSearchTerm('');
+                  setSelectedState('all');
+                  setSortBy('date_posted_desc');
+                }}
+                className="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 cursor-pointer"
+              >
+                <RotateCcw className="h-3.5 w-3.5" />
+                <span>Reset Filters</span>
+              </button>
+            )}
+          </div>
         </div>
 
         {/* State Sections Container */}
         {stateSections.length > 0 ? (
           <div className="space-y-6">
-            {stateSections.map((section) => (
-              <section 
-                key={section.stateSlug}
-                id={`state-section-${section.stateSlug}`}
-                className="bg-white border-2 border-slate-200/90 rounded-2xl overflow-hidden shadow-xs scroll-mt-24 transition-all"
-              >
-                {/* State Section Header */}
-                <div className={`p-4 sm:p-5 border-b border-slate-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
-                  section.isAllIndia 
-                    ? 'bg-gradient-to-r from-blue-50/80 via-indigo-50/40 to-white' 
-                    : 'bg-gradient-to-r from-amber-50/50 via-slate-50 to-white'
-                }`}>
-                  <div className="flex items-center gap-3 min-w-0">
-                    <div className={`p-2.5 rounded-xl border shrink-0 ${
-                      section.isAllIndia 
-                        ? 'bg-blue-600 text-white border-blue-700 shadow-xs' 
-                        : 'bg-amber-500 text-slate-950 border-amber-600 shadow-xs'
-                    }`}>
-                      {section.isAllIndia ? <Building2 className="w-5 h-5" /> : <MapPin className="w-5 h-5" />}
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <h3 className="text-base sm:text-lg font-black text-slate-900 tracking-tight">
-                          {section.isAllIndia ? 'All India (Central Government Recruitments)' : `${section.stateName} Government Jobs`}
-                        </h3>
-                        <span className="text-[10px] sm:text-xs font-black px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 border border-blue-200">
-                          {meta.shortLabel}
-                        </span>
+            {stateSections.map((section) => {
+              const isExpanded = expandedStates[section.stateSlug] || (selectedState !== 'all' && selectedState === section.stateSlug);
+              const displayedJobs = isExpanded ? section.jobs : section.jobs.slice(0, 3);
+
+              return (
+                <section 
+                  key={section.stateSlug}
+                  id={`state-section-${section.stateSlug}`}
+                  className="bg-white border-2 border-slate-200/90 rounded-2xl overflow-hidden shadow-xs scroll-mt-24 transition-all"
+                >
+                  {/* State Section Header */}
+                  <div className={`p-4 sm:p-5 border-b border-slate-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+                    section.isAllIndia 
+                      ? 'bg-gradient-to-r from-blue-50/80 via-indigo-50/40 to-white' 
+                      : 'bg-gradient-to-r from-amber-50/50 via-slate-50 to-white'
+                  }`}>
+                    <div className="flex items-center gap-3 min-w-0">
+                      <div className={`p-2.5 rounded-xl border shrink-0 ${
+                        section.isAllIndia 
+                          ? 'bg-blue-600 text-white border-blue-700 shadow-xs' 
+                          : 'bg-amber-500 text-slate-950 border-amber-600 shadow-xs'
+                      }`}>
+                        {section.isAllIndia ? <Building2 className="w-5 h-5" /> : <MapPin className="w-5 h-5" />}
                       </div>
-                      <p className="text-xs font-semibold text-slate-500 mt-0.5">
-                        {section.isAllIndia 
-                          ? 'Nationwide open recruitments across central ministries, PSUs, RRB, SSC, AIIMS & defence boards' 
-                          : `State public service commission, departmental, and public sector vacancies based in ${section.stateName}`
-                        }
-                      </p>
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="text-base sm:text-lg font-black text-slate-900 tracking-tight">
+                            {section.isAllIndia ? 'All India (Central Government Recruitments)' : `${section.stateName} Government Jobs`}
+                          </h3>
+                          <span className="text-[10px] sm:text-xs font-black px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 border border-blue-200">
+                            {meta.shortLabel}
+                          </span>
+                        </div>
+                        <p className="text-xs font-semibold text-slate-500 mt-0.5">
+                          {section.isAllIndia 
+                            ? 'Nationwide open recruitments across central ministries, PSUs, RRB, SSC, AIIMS & defence boards' 
+                            : `State public service commission, departmental, and public sector vacancies based in ${section.stateName}`
+                          }
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 shrink-0 self-start sm:self-auto">
+                      <span className="px-3 py-1 rounded-xl text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
+                        {section.jobs.length} {section.jobs.length === 1 ? 'Job' : 'Jobs'}
+                      </span>
+                      {section.totalVacancies > 0 && (
+                        <span className="px-3 py-1 rounded-xl text-xs font-black bg-emerald-50 text-emerald-800 border border-emerald-200 shadow-3xs">
+                          🔥 {section.totalVacancies.toLocaleString()} Posts
+                        </span>
+                      )}
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-2 shrink-0 self-start sm:self-auto">
-                    <span className="px-3 py-1 rounded-xl text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
-                      {section.jobs.length} {section.jobs.length === 1 ? 'Job' : 'Jobs'}
-                    </span>
-                    {section.totalVacancies > 0 && (
-                      <span className="px-3 py-1 rounded-xl text-xs font-black bg-emerald-50 text-emerald-800 border border-emerald-200 shadow-3xs">
-                        🔥 {section.totalVacancies.toLocaleString()} Posts
-                      </span>
+                  {/* State Section Jobs List: Shows 3 latest posted vacancies by default */}
+                  <div className="p-4 sm:p-5 space-y-3">
+                    {viewMode === 'card' ? (
+                      <div className="space-y-3">
+                        {displayedJobs.map((job, idx) => (
+                          <JobCard key={`job-${job.id || idx}`} job={job} />
+                        ))}
+                      </div>
+                    ) : (
+                      <JobTable jobs={displayedJobs} navigate={navigate} />
+                    )}
+
+                    {/* View More / Show Less Button if section has more than 3 jobs */}
+                    {section.jobs.length > 3 && (
+                      <div className="pt-2 flex items-center justify-center">
+                        <button
+                          type="button"
+                          onClick={() => toggleStateExpanded(section.stateSlug)}
+                          className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white font-black text-xs transition-all flex items-center justify-center gap-2 border border-blue-200 hover:border-blue-600 shadow-2xs cursor-pointer group"
+                        >
+                          {isExpanded ? (
+                            <>
+                              <span>Show Less (Displaying 3 Latest)</span>
+                              <ChevronUp className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
+                            </>
+                          ) : (
+                            <>
+                              <span>View More ({section.jobs.length - 3} More {section.stateName} Vacancies)</span>
+                              <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
+                            </>
+                          )}
+                        </button>
+                      </div>
                     )}
                   </div>
-                </div>
 
-                {/* State Section Jobs List */}
-                <div className="p-4 sm:p-5">
-                  {viewMode === 'card' ? (
-                    <div className="space-y-3">
-                      {section.jobs.map((job, idx) => (
-                        <JobCard key={`job-${job.id || idx}`} job={job} />
-                      ))}
-                    </div>
-                  ) : (
-                    <JobTable jobs={section.jobs} navigate={navigate} />
-                  )}
-                </div>
-
-                {/* Section Bottom Quick Link */}
-                <div className="px-4 sm:px-5 py-2.5 bg-slate-50/70 border-t border-slate-100 flex items-center justify-between text-xs">
-                  <span className="font-bold text-slate-500">
-                    Showing all {section.jobs.length} {meta.shortLabel} vacancies in {section.stateName}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                    className="font-black text-blue-600 hover:text-blue-700 inline-flex items-center gap-1 cursor-pointer"
-                  >
-                    <span>Back to Top</span>
-                    <ArrowUp className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              </section>
-            ))}
+                  {/* Section Bottom Quick Link */}
+                  <div className="px-4 sm:px-5 py-2.5 bg-slate-50/70 border-t border-slate-100 flex items-center justify-between text-xs">
+                    <span className="font-bold text-slate-500">
+                      {isExpanded || section.jobs.length <= 3
+                        ? `Showing all ${section.jobs.length} ${meta.shortLabel} vacancies in ${section.stateName}`
+                        : `Showing 3 of ${section.jobs.length} latest ${meta.shortLabel} vacancies in ${section.stateName}`}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                      className="font-black text-blue-600 hover:text-blue-700 inline-flex items-center gap-1 cursor-pointer"
+                    >
+                      <span>Back to Top</span>
+                      <ArrowUp className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </section>
+              );
+            })}
           </div>
         ) : (
           <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4">
