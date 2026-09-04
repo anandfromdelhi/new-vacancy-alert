@@ -445,76 +445,51 @@ export default function HomePage() {
         {/* Adsterra Display Banner */}
         <AdsterraBanner />
 
-        {/* Connected Tabs & Category Sections Container */}
-        <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">
+        {/* Category Sections Container */}
+        <div className="bg-white rounded-2xl shadow-xs border border-slate-200/90 p-4 sm:p-6">
           
-          {/* Header Strip */}
-          <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
-            
-            {/* Qualification Wise Header Tab */}
-            <div className="flex items-end gap-2">
-              <div className="group relative flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-6 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm bg-white border-t-2 border-t-blue-600 border-x border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2">
-                <GraduationCap className="h-4 w-4 text-blue-600 shrink-0" />
-                <span className="tracking-tight whitespace-nowrap">
-                  Qualification Wise
-                </span>
-                <span className="shrink-0 px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs font-black bg-blue-600 text-white shadow-2xs">
-                  {allQualGroups.length}
-                </span>
-              </div>
+
+          {deferredSearch && (
+            <div className="mb-5 p-3 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-between">
+              <span className="text-xs font-bold text-blue-900">
+                Showing matching sections for: <span className="font-black">"{deferredSearch}"</span> ({currentSections.length} sections found)
+              </span>
+              <button
+                onClick={() => setSearchTerm('')}
+                className="text-xs font-black text-rose-600 hover:underline flex items-center gap-1 cursor-pointer"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Clear Search</span>
+              </button>
             </div>
+          )}
 
-            {/* Quick Helper Text */}
-            <div className="flex items-center gap-2 text-xs font-black text-slate-600 px-3 py-1.5 mb-1.5 bg-white/80 rounded-xl border border-slate-300/60 shadow-3xs">
-              <Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-              <span>Click any qualification to browse vacancies grouped by state</span>
+          {displayedSections.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
+              {displayedSections.map((section) => (
+                <CategorySectionCard
+                  key={section.slug}
+                  section={section}
+                />
+              ))}
             </div>
-          </div>
-
-          {/* Main Content Grid: 1 col on mobile, 2 cols on tablet, 3 cols on large screen, NO horizontal scrolling */}
-          <div className="bg-white p-4 sm:p-6 rounded-b-2xl">
-            {deferredSearch && (
-              <div className="mb-5 p-3 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-between">
-                <span className="text-xs font-bold text-blue-900">
-                  Showing matching sections for: <span className="font-black">"{deferredSearch}"</span> ({currentSections.length} sections found)
-                </span>
-                <button
-                  onClick={() => setSearchTerm('')}
-                  className="text-xs font-black text-rose-600 hover:underline flex items-center gap-1 cursor-pointer"
-                >
-                  <RotateCcw className="w-3.5 h-3.5" />
-                  <span>Clear Search</span>
-                </button>
+          ) : (
+            <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4 my-8">
+              <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
+                <AlertCircle className="h-8 w-8" />
               </div>
-            )}
-
-            {displayedSections.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
-                {displayedSections.map((section) => (
-                  <CategorySectionCard
-                    key={section.slug}
-                    section={section}
-                  />
-                ))}
-              </div>
-            ) : (
-              <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4 my-8">
-                <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
-                  <AlertCircle className="h-8 w-8" />
-                </div>
-                <h4 className="text-lg font-black text-slate-800">No Matching Vacancies Found</h4>
-                <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{deferredSearch}</span>" under Qualification Wise categories.
-                </p>
-                <button 
-                  onClick={() => setSearchTerm('')}
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-black text-xs px-5 py-2.5 rounded-xl cursor-pointer transition shadow-sm"
-                >
-                  Clear Search Filter
-                </button>
-              </div>
-            )}
-          </div>
+              <h4 className="text-lg font-black text-slate-800">No Matching Vacancies Found</h4>
+              <p className="text-xs text-slate-500 font-medium leading-relaxed">
+                We couldn't find any notifications matching "<span className="font-bold text-slate-700">{deferredSearch}</span>".
+              </p>
+              <button 
+                onClick={() => setSearchTerm('')}
+                className="bg-blue-600 hover:bg-blue-700 text-white font-black text-xs px-5 py-2.5 rounded-xl cursor-pointer transition shadow-sm"
+              >
+                Clear Search Filter
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Official Social Handles & Marketing Partner Section */}
