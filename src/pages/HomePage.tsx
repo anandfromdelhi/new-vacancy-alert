@@ -12,21 +12,12 @@ import {
   getCategoryAndColor 
 } from '../components/JobList';
 import { 
-  getStateFromJob,
-  getQualificationsWithCounts,
-  getStatesWithCounts,
-  getBoardsWithCounts,
-  getJobsForQualification,
-  getJobsForState,
-  getJobsForBoard,
-  getBoardGroups,
-  getStateGroups,
   getQualificationGroups,
   GroupedCategory
 } from '../utils/categoryUtils';
 import { useNavigationLoader } from '../context/NavigationContext';
 import { 
-  Search, Clock, ArrowRight, Building2, GraduationCap, MapPin, 
+  Search, Clock, ArrowRight, Building2, GraduationCap, 
   Sparkles, RotateCcw, AlertCircle, ChevronRight, CheckCircle2, 
   HelpCircle, Facebook, Instagram, BookOpen, LayoutGrid, Maximize2, X
 } from 'lucide-react';
@@ -118,58 +109,46 @@ interface SectionData {
 }
 
 /**
- * Section box for a category featuring its top 3 most recently published jobs + View More button
+ * Section box for a qualification category featuring its top 3 most recently published jobs + View More button
+ * Clicking the header or the View More button navigates to the dedicated qualification page with state-wise sections.
  */
 function CategorySectionCard({ 
   section, 
-  activeTab,
   key
 }: { 
   section: SectionData; 
-  activeTab: 'qualification' | 'state' | 'board';
   key?: React.Key;
 }) {
-  const Icon = activeTab === 'qualification' ? GraduationCap : activeTab === 'state' ? MapPin : Building2;
-  
-  const themeBorder = activeTab === 'qualification' 
-    ? 'border-t-blue-600 hover:border-blue-400' 
-    : activeTab === 'state' 
-    ? 'border-t-amber-500 hover:border-amber-400' 
-    : 'border-t-emerald-600 hover:border-emerald-400';
-    
-  const themeIconBg = activeTab === 'qualification'
-    ? 'bg-blue-50 text-blue-600 border-blue-200'
-    : activeTab === 'state'
-    ? 'bg-amber-50 text-amber-600 border-amber-200'
-    : 'bg-emerald-50 text-emerald-600 border-emerald-200';
-
-  const themeBtn = activeTab === 'qualification'
-    ? 'hover:bg-blue-600 hover:text-white hover:border-blue-600'
-    : activeTab === 'state'
-    ? 'hover:bg-amber-600 hover:text-white hover:border-amber-600'
-    : 'hover:bg-emerald-600 hover:text-white hover:border-emerald-600';
-
   return (
     <div 
       id={`section-${section.slug}`}
       data-section-slug={section.slug}
-      className={`category-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${themeBorder} scroll-mt-20 sm:scroll-mt-24`}
+      className="category-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 border-t-blue-600 hover:border-blue-400 scroll-mt-20 sm:scroll-mt-24"
     >
-      {/* Section Header */}
+      {/* Section Header - Clickable to open dedicated qualification page */}
       <div>
-        <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b border-slate-200/80">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <div className={`p-2 rounded-xl border ${themeIconBg} shrink-0`}>
-              <Icon className="w-4 h-4" />
+        <Link 
+          to={section.moreUrl}
+          className="group/header block pb-3 mb-3 border-b border-slate-200/80 hover:bg-blue-50/60 rounded-xl p-1.5 -m-1.5 transition-colors"
+          title={`Browse all ${section.name} jobs grouped by state`}
+        >
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className="p-2 rounded-xl border bg-blue-50 text-blue-600 border-blue-200 shrink-0 group-hover/header:bg-blue-600 group-hover/header:text-white transition-colors">
+                <GraduationCap className="w-4 h-4" />
+              </div>
+              <h3 className="text-sm sm:text-base font-black text-slate-800 group-hover/header:text-blue-600 tracking-tight truncate transition-colors">
+                {section.name}
+              </h3>
             </div>
-            <h3 className="text-sm sm:text-base font-black text-slate-800 tracking-tight truncate">
-              {section.name}
-            </h3>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs group-hover/header:border-blue-300">
+                {section.count} {section.count === 1 ? 'Job' : 'Jobs'}
+              </span>
+              <ChevronRight className="w-4 h-4 text-slate-400 group-hover/header:text-blue-600 group-hover/header:translate-x-0.5 transition-all" />
+            </div>
           </div>
-          <span className="shrink-0 px-2.5 py-0.5 rounded-full text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
-            {section.count} {section.count === 1 ? 'Job' : 'Jobs'}
-          </span>
-        </div>
+        </Link>
 
         {/* Top 3 Job Tiles */}
         <div className="space-y-2.5 mb-4">
@@ -182,9 +161,9 @@ function CategorySectionCard({
       {/* View More Button */}
       <Link
         to={section.moreUrl}
-        className={`w-full py-2.5 px-4 rounded-xl bg-white text-slate-800 font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-slate-200 ${themeBtn}`}
+        className="w-full py-2.5 px-4 rounded-xl bg-white text-slate-800 font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600"
       >
-        <span>View All {section.count} {section.name} Jobs</span>
+        <span>View All {section.count} {section.name} Jobs (State Wise)</span>
         <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
       </Link>
     </div>
@@ -194,11 +173,9 @@ function CategorySectionCard({
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
   const deferredSearch = useDeferredValue(searchTerm);
-  const [activeTab, setActiveTab] = useState<'qualification' | 'state' | 'board'>('qualification');
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
   const [isHeroScrolledPast, setIsHeroScrolledPast] = useState(false);
   const [activeSectionSlug, setActiveSectionSlug] = useState<string>('');
-  const [visibleBoardCount, setVisibleBoardCount] = useState<number>(24);
   const [isSectionPickerOpen, setIsSectionPickerOpen] = useState(false);
   const [pickerSearchQuery, setPickerSearchQuery] = useState('');
 
@@ -211,29 +188,17 @@ export default function HomePage() {
       .sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
   }, []);
 
-  // Master group caches (computed once in O(N) single-pass)
+  // Master qualification group cache (computed once in O(N) single-pass)
   const allQualGroups = useMemo(() => getQualificationGroups(activeJobsData), [activeJobsData]);
-  const allStateGroups = useMemo(() => getStateGroups(activeJobsData), [activeJobsData]);
-  const allBoardGroups = useMemo(() => getBoardGroups(activeJobsData), [activeJobsData]);
 
-  // Compute filtered sections ONLY for the active tab using deferredSearch
+  // Compute filtered sections using deferredSearch
   const currentSections = useMemo(() => {
     const searchLower = deferredSearch.toLowerCase().trim();
-    let baseGroups: SectionData[] = [];
-
-    if (activeTab === 'qualification') {
-      baseGroups = allQualGroups;
-    } else if (activeTab === 'state') {
-      baseGroups = allStateGroups;
-    } else {
-      baseGroups = allBoardGroups;
-    }
-
     if (!searchLower) {
-      return baseGroups;
+      return allQualGroups;
     }
 
-    return baseGroups
+    return allQualGroups
       .map(group => {
         const matchingJobs = group.jobs.filter(job => 
           job.b.toLowerCase().includes(searchLower) ||
@@ -248,15 +213,9 @@ export default function HomePage() {
         };
       })
       .filter(group => group.count > 0);
-  }, [activeTab, deferredSearch, allQualGroups, allStateGroups, allBoardGroups]);
+  }, [deferredSearch, allQualGroups]);
 
-  // Sliced sections for Board Wise to keep DOM lightweight on initial render
-  const displayedSections = useMemo(() => {
-    if (activeTab === 'board' && !deferredSearch) {
-      return currentSections.slice(0, visibleBoardCount);
-    }
-    return currentSections;
-  }, [activeTab, deferredSearch, currentSections, visibleBoardCount]);
+  const displayedSections = currentSections;
 
   // Scroll monitoring for floating search bar & active section indicator
   useEffect(() => {
@@ -317,14 +276,6 @@ export default function HomePage() {
     setIsSectionPickerOpen(false);
     setPickerSearchQuery('');
     setActiveSectionSlug(slug);
-
-    // If target section is beyond current visibleBoardCount on board tab, expand count
-    if (activeTab === 'board') {
-      const targetIndex = currentSections.findIndex(s => s.slug === slug);
-      if (targetIndex >= visibleBoardCount) {
-        setVisibleBoardCount(Math.ceil((targetIndex + 1) / 24) * 24);
-      }
-    }
 
     setTimeout(() => {
       const element = document.getElementById(`section-${slug}`);
@@ -497,88 +448,26 @@ export default function HomePage() {
         {/* Connected Tabs & Category Sections Container */}
         <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">
           
-          {/* Chrome Browser Tabs Strip Header */}
-          <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col md:flex-row md:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
+          {/* Header Strip */}
+          <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
             
-            {/* 3 Main Chrome Tabs (Full visible titles with smooth horizontal scrolling on small screens) */}
-            <div className="flex items-end gap-1.5 sm:gap-2 w-full sm:w-auto overflow-x-auto no-scrollbar scroll-smooth pb-0.5 sm:pb-0">
-              
-              {/* Tab 1: Qualification Wise */}
-              <button
-                onClick={() => setActiveTab('qualification')}
-                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
-                  activeTab === 'qualification'
-                    ? 'bg-white border-t-blue-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
-                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
-                }`}
-              >
+            {/* Qualification Wise Header Tab */}
+            <div className="flex items-end gap-2">
+              <div className="group relative flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-6 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm bg-white border-t-2 border-t-blue-600 border-x border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2">
                 <GraduationCap className="h-4 w-4 text-blue-600 shrink-0" />
                 <span className="tracking-tight whitespace-nowrap">
                   Qualification Wise
                 </span>
-                <span
-                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
-                    activeTab === 'qualification'
-                      ? 'bg-blue-600 text-white shadow-2xs'
-                      : 'bg-slate-300/80 text-slate-700'
-                  }`}
-                >
+                <span className="shrink-0 px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs font-black bg-blue-600 text-white shadow-2xs">
                   {allQualGroups.length}
                 </span>
-              </button>
-
-              {/* Tab 2: State Wise */}
-              <button
-                onClick={() => setActiveTab('state')}
-                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
-                  activeTab === 'state'
-                    ? 'bg-white border-t-amber-500 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
-                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
-                }`}
-              >
-                <MapPin className="h-4 w-4 text-amber-600 shrink-0" />
-                <span className="tracking-tight whitespace-nowrap">
-                  State Wise
-                </span>
-                <span
-                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
-                    activeTab === 'state'
-                      ? 'bg-amber-600 text-white shadow-2xs'
-                      : 'bg-slate-300/80 text-slate-700'
-                  }`}
-                >
-                  {allStateGroups.length}
-                </span>
-              </button>
-
-              {/* Tab 3: Board Wise */}
-              <button
-                onClick={() => setActiveTab('board')}
-                className={`group relative flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-t-2 border-x shrink-0 whitespace-nowrap ${
-                  activeTab === 'board'
-                    ? 'bg-white border-t-emerald-600 border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2'
-                    : 'bg-slate-300/60 hover:bg-slate-300/90 border-t-transparent border-x-transparent text-slate-600 hover:text-slate-900 z-0'
-                }`}
-              >
-                <Building2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span className="tracking-tight whitespace-nowrap">
-                  Board Wise
-                </span>
-                <span
-                  className={`shrink-0 px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-black transition-colors ${
-                    activeTab === 'board'
-                      ? 'bg-emerald-600 text-white shadow-2xs'
-                      : 'bg-slate-300/80 text-slate-700'
-                  }`}
-                >
-                  {allBoardGroups.length}
-                </span>
-              </button>
+              </div>
             </div>
 
-            {/* Quick Helper Text / Active Status */}
-            <div className="hidden lg:flex items-center text-xs font-black text-slate-600 px-3 py-1.5 mb-1.5 bg-white/70 rounded-xl border border-slate-300/60 shadow-3xs">
-              <span>Arranged Alphabetically (A–Z)</span>
+            {/* Quick Helper Text */}
+            <div className="flex items-center gap-2 text-xs font-black text-slate-600 px-3 py-1.5 mb-1.5 bg-white/80 rounded-xl border border-slate-300/60 shadow-3xs">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+              <span>Click any qualification to browse vacancies grouped by state</span>
             </div>
           </div>
 
@@ -600,30 +489,14 @@ export default function HomePage() {
             )}
 
             {displayedSections.length > 0 ? (
-              <>
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
-                  {displayedSections.map((section) => (
-                    <CategorySectionCard
-                      key={section.slug}
-                      section={section}
-                      activeTab={activeTab}
-                    />
-                  ))}
-                </div>
-
-                {/* Progressive Show More for Board Wise */}
-                {activeTab === 'board' && !deferredSearch && visibleBoardCount < currentSections.length && (
-                  <div className="pt-8 text-center">
-                    <button
-                      onClick={() => setVisibleBoardCount(prev => prev + 24)}
-                      className="px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs sm:text-sm shadow-md hover:shadow-lg transition-all cursor-pointer inline-flex items-center gap-2"
-                    >
-                      <span>Show More Boards (Displaying {visibleBoardCount} of {currentSections.length})</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </button>
-                  </div>
-                )}
-              </>
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
+                {displayedSections.map((section) => (
+                  <CategorySectionCard
+                    key={section.slug}
+                    section={section}
+                  />
+                ))}
+              </div>
             ) : (
               <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4 my-8">
                 <div className="bg-slate-50 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto text-slate-400">
@@ -631,7 +504,7 @@ export default function HomePage() {
                 </div>
                 <h4 className="text-lg font-black text-slate-800">No Matching Vacancies Found</h4>
                 <p className="text-xs text-slate-500 font-medium leading-relaxed">
-                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{deferredSearch}</span>" under {activeTab === 'qualification' ? 'Qualification Wise' : activeTab === 'state' ? 'State Wise' : 'Board Wise'} categories.
+                  We couldn't find any notifications matching "<span className="font-bold text-slate-700">{deferredSearch}</span>" under Qualification Wise categories.
                 </p>
                 <button 
                   onClick={() => setSearchTerm('')}
@@ -762,17 +635,17 @@ export default function HomePage() {
                 Which qualifications are eligible for public sector jobs?
               </h3>
               <p className="text-xs font-medium leading-relaxed text-slate-600">
-                Vacancies cover 10th Pass, 12th Pass, ITI, Diploma, B.E/B.Tech, B.Com, MBA, M.Sc, CA/ICWA, and Medical degrees. Use our Qualification Wise tab to view vacancies matching your qualification.
+                Vacancies cover 10th Pass, 12th Pass, ITI, Diploma, B.E/B.Tech, B.Com, MBA, M.Sc, CA/ICWA, and Medical degrees. Click on your qualification from the Qualification Wise section on the home page to view all vacancies organized into state-wise sections.
               </p>
             </div>
 
             <div className="space-y-1.5">
               <h3 className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-1.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                How can I sort job listings by application last date?
+                How are jobs organized when I click on a qualification?
               </h3>
               <p className="text-xs font-medium leading-relaxed text-slate-600">
-                Click on "View All Jobs" on any category section card to open the dedicated page where you can sort by "Last Date: Soonest First", "Date Posted", or "Number of Posts".
+                Clicking on any qualification section opens a dedicated page containing state-wise sections (including All India central government jobs and individual state recruitments), allowing you to quickly find openings in your state.
               </p>
             </div>
           </div>
@@ -848,17 +721,15 @@ export default function HomePage() {
             {/* Modal Header */}
             <div className="p-4 border-b border-slate-200/90 flex items-center justify-between bg-slate-50/90">
               <div className="flex items-center gap-2.5 min-w-0">
-                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700 border border-emerald-200 shrink-0">
-                  {activeTab === 'qualification' && <GraduationCap className="w-4 h-4" />}
-                  {activeTab === 'state' && <MapPin className="w-4 h-4" />}
-                  {activeTab === 'board' && <Building2 className="w-4 h-4" />}
+                <div className="p-2 rounded-xl bg-blue-50 text-blue-700 border border-blue-200 shrink-0">
+                  <GraduationCap className="w-4 h-4" />
                 </div>
                 <div className="min-w-0">
                   <h3 className="text-sm font-black text-slate-800 leading-tight truncate">
-                    All {activeTab === 'qualification' ? 'Qualification' : activeTab === 'state' ? 'State' : 'Board'} Sections
+                    All Qualification Sections
                   </h3>
                   <p className="text-[11px] font-bold text-slate-500">
-                    Tap any section to jump directly ({currentSections.length} available)
+                    Tap any qualification to jump directly ({currentSections.length} available)
                   </p>
                 </div>
               </div>
@@ -878,10 +749,10 @@ export default function HomePage() {
                 <Search className="absolute left-3 w-4 h-4 text-slate-400" />
                 <input
                   type="text"
-                  placeholder={`Search ${activeTab === 'qualification' ? 'qualifications' : activeTab === 'state' ? 'states' : 'boards'}...`}
+                  placeholder="Search qualifications..."
                   value={pickerSearchQuery}
                   onChange={(e) => setPickerSearchQuery(e.target.value)}
-                  className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:bg-white"
+                  className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:bg-white"
                 />
                 {pickerSearchQuery && (
                   <button

@@ -10,7 +10,8 @@ import {
   Search, ChevronRight, CheckCircle2, AlertTriangle, AlertCircle, Info,
   TrendingUp, Users, BookOpen, Layers, Target, FileSignature, UploadCloud, 
   CreditCard, Send, Building2, Share2, Bookmark, Printer, Copy, ArrowUp, Check,
-  Home, Facebook, Instagram, MessageCircle, Download, MessageSquare, Flame
+  Home, Facebook, Instagram, MessageCircle, Download, MessageSquare, Flame,
+  FileCheck, Stethoscope, GraduationCap
 } from 'lucide-react';
 import jobsIndexData from '../data/jobs-index-generated.json';
 import SubscribeWidget from '../components/SubscribeWidget';
