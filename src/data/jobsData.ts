@@ -531,12 +531,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026",
     "b": "Staff Selection Commission (SSC)",
-    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 1748 1,748 Junior Engineer Posts | Apply Online",
-    "d": "03 September 2026",
+    "t": "SSC Junior Engineer (JE) & Scientific Assistant (IMD) Recruitment 2026 – Apply Online for 1,748 Vacancies (Notice No. HQ-C-3019/1/2026-C-3)",
+    "d": "02 September 2026",
     "l": "22 September 2026 (23:00 hours)",
-    "a": "STAFF-SELECTIO/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Staff Selection Commission (SSC) has officially released employment advertisement notification STAFF-SELECTIO/2026 for the recruitment of 1748 vacancies for 1,748 Junior Engineer posts.",
+    "a": "F. No. HQ-C-3019/1/2026-C-3",
+    "q": "Degree or 3-Year Diploma in Civil / Electrical / Mechanical / Electronics / Telecom / CS / IT or B.Sc Physics",
+    "desc": "Staff Selection Commission (SSC), Ministry of Personnel, Public Grievances & Pensions, Department of Personnel and Training, Government of India has officially released the detailed notification for the Junior Engineer Examination, 2026 (Notice No. HQ-C-3019/1/2026-C-3). The commission is conducting an open competitive examination for direct recruitment to 1,748 tentative vacancies for the posts of Junior Engineer (Civil, Electrical, Mechanical, Telecommunication) across key central government ministries and departments, along with Scientific Assistant in India Meteorological Department (IMD).",
     "u": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf"
 },
   {

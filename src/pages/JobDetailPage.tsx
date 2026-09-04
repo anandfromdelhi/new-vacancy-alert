@@ -3464,6 +3464,83 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-blue-600" /> Department-wise Experience &amp; Qualification Criteria (Para 2)
+                          </h4>
+                          <span className="text-[10px] font-bold text-blue-900 bg-blue-100 px-2 py-0.5 rounded-md">14 Central Departments</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          {/* Fresh Degree & Diploma Eligible */}
+                          <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Freshers Eligible</span>
+                              <span className="text-[11px] font-bold text-emerald-700">0 Experience Needed</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">CPWD, CWC, CWPRS, NTRO, DoT, IMD, Fisheries &amp; Farakka</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Both Degree (B.E./B.Tech) and 3-Year Diploma holders are fully eligible without any past experience. IMD accepts B.Sc with Physics or Degree in CS/IT/Electronics.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Age Limit: Up to 32 Years for CPWD &amp; DGLL; Up to 30 Years for CWC, CWPRS, NTRO, DoT, IMD &amp; Fisheries.
+                            </div>
+                          </div>
+
+                          {/* Experience Required for Diploma Only */}
+                          <div className="bg-white border-2 border-amber-100 hover:border-amber-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Experience Clause</span>
+                              <span className="text-[11px] font-bold text-amber-700">Diploma Holders Only</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">BRO, MES, DGQA-Naval &amp; DGLL</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Degree holders require <strong>ZERO experience</strong>. Diploma holders require 2 Years experience for BRO, MES, and DGQA-Naval, and 3 Years for DGLL.
+                            </p>
+                            <div className="bg-amber-50 rounded-lg p-2 text-[10px] font-bold text-amber-800">
+                              Crucial Qualification Cut-Off Date: Must acquire degree/diploma and results on or before 22 September 2026.
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Border Roads Organization (BRO) Physical Efficiency & Medical Card */}
+                        <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                          <div className="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+                            <div>
+                              <span className="bg-amber-500 text-slate-950 font-black text-[9px] px-2 py-0.5 rounded uppercase mr-2">Annexure-XVI</span>
+                              <h4 className="text-xs sm:text-sm font-black text-white inline-block">Border Roads Organization (BRO) Physical Standards</h4>
+                            </div>
+                            <span className="text-[10px] font-bold text-rose-300 bg-rose-950 border border-rose-800 px-2 py-0.5 rounded">Male Only</span>
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-center text-xs">
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-amber-400 font-black block uppercase">PET Test</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">1 Mile (1.6 km) Run</strong>
+                              <span className="text-[10px] text-slate-400">Within 10 Minutes (Qualifying)</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-sky-400 font-black block uppercase">West Plain Region</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Height 162.5 cm</strong>
+                              <span className="text-[10px] text-slate-400">Chest 76 cm (+5cm) | Wt 50 kg</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-emerald-400 font-black block uppercase">Eastern &amp; Central Plain</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Height 157 cm</strong>
+                              <span className="text-[10px] text-slate-400">Chest 75 cm (+5cm) | Wt 50 kg</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-indigo-400 font-black block uppercase">Himalayan &amp; Gorkha</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Height 152–158 cm</strong>
+                              <span className="text-[10px] text-slate-400">Chest 75 cm (+5cm) | Wt 47.5 kg</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
                     {(id === 'powergrid-nr1-apprenticeship-recruitment-2026' || id === 'powergrid-nr3-apprenticeship-recruitment-2026') && (
                       <div className="my-6 space-y-4">
                         <div className="flex items-center justify-between border-b border-slate-200 pb-2">
@@ -4825,6 +4902,67 @@ export default function JobDetailPage() {
                         <span className="text-[10px] text-amber-400 font-bold block">Mt</span>
                         <span className="text-[10px] text-slate-300">Mean of Top 0.1%</span>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {/* Paper-I Screening Card */}
+                    <div className="bg-gradient-to-br from-blue-50/80 to-slate-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-100 pb-2.5">
+                        <div>
+                          <span className="bg-blue-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 1</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm md:text-base mt-1">Paper-I (Computer Based Screening)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-blue-800 bg-blue-100 px-2.5 py-1 rounded-lg">120 Mins</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Total Questions:</strong> 200 MCQs (200 Marks)</li>
+                        <li><strong>Subjects:</strong> Reasoning (50 Qs), General Awareness (50 Qs), Domain Engg (100 Qs)</li>
+                        <li><strong>Negative Marking:</strong> 0.25 Mark deducted per incorrect response</li>
+                        <li><strong>Standard of Paper:</strong> Diploma Level for Civil/Elect/Mech; Degree level for CS/IT/Physics/Telecom</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Screening Nature: Paper-I marks are purely qualifying to shortlist candidates for Paper-II.
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Paper-II Merit Determining Card */}
+                    <div className="bg-gradient-to-br from-indigo-50/80 to-slate-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-indigo-100 pb-2.5">
+                        <div>
+                          <span className="bg-indigo-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 2</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm md:text-base mt-1">Paper-II (Core Technical Merit Exam)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-lg">120 Mins</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Total Questions:</strong> 100 MCQs (300 Marks – 3 marks each)</li>
+                        <li><strong>Engineering Domain:</strong> Part-A Civil / Part-B Electrical / Part-C Mech / Part-D,E,F IMD / Part-G Telecom</li>
+                        <li><strong>Negative Marking:</strong> 1.00 Mark deducted per incorrect answer</li>
+                        <li><strong>On-Screen Console Tools:</strong> Virtual Scientific Calculator and IS 456 / Steam Tables provided on screen!</li>
+                        <li className="bg-indigo-100/70 p-2 rounded-lg text-indigo-950 font-extrabold border border-indigo-200">
+                          Final Merit Determining: Paper-II normalized score EXCLUSIVELY decides final merit rank &amp; post allocation!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Sliding Mechanism & Option Form Callout */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <ListChecks className="h-4 w-4" /> First Round of Tentative Allocation (FRTA) &amp; Post Preferences
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">Sliding Mechanism</span>
+                    </div>
+                    <div className="text-xs text-slate-300 leading-relaxed space-y-1.5 mt-2">
+                      <p>• <strong>Online Option Form:</strong> Candidates must submit priority preferences of posts and departments on ssc.gov.in before FRTA declaration. Preferences once submitted are final and irrevocable.</p>
+                      <p>• <strong>Sliding Mechanism:</strong> SSC fills notified vacancies to maximum using sliding allocations. No waiting/reserve list is maintained.</p>
+                      <p>• <strong>Document Verification (DV):</strong> Conducted directly by individual user departments (BRO, CPWD, MES, CWC, etc.) after declaration of final results.</p>
                     </div>
                   </div>
                 </div>
