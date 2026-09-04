@@ -794,13 +794,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "mp-police-si-subedar-sub-inspector-safdefar-recruitment-2026",
-    "b": "MP Police SI",
-    "t": "MP Police SI Recruitment 2026 Notification Out for 507 Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) Posts | Apply Online",
-    "d": "03 September 2026",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal)",
+    "t": "MP Police Subedar & Sub-Inspector (SI) Recruitment 2026 – Apply Online for 507 Posts (DEF/SAF/Arms/Photo/QD/Finger Print) | MPESB Rulebook",
+    "d": "01 September 2026",
     "l": "23 September 2026",
-    "a": "MP-POLICE-SI/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "MP Police SI has officially released employment advertisement notification MP-POLICE-SI/2026 for the recruitment of 507 vacancies for Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) posts.",
+    "a": "PHQ Letter No. पुमु/2-चयन/स-1/997/26 dated 30.07.2026",
+    "q": "Graduation Degree (Any Discipline) for Non-Tech | Mech Diploma / B.Sc PCM for Tech",
+    "desc": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal) on behalf of Police Headquarters, Home (Police) Department, Government of Madhya Pradesh has officially released the detailed Rulebook and examination notification for the Subedar / Sub-Inspector Cadre Recruitment Test - 2026 (सूबेदार/उप निरीक्षक संवर्ग भर्ती परीक्षा-2026) vide PHQ Letter No. पुमु/2-चयन/स-1/997/26. A total of 507 vacancies have been notified across non-technical and technical branches of Madhya Pradesh Police.",
     "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook_2026_01092026.pdf"
 },
   {

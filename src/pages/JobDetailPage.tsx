@@ -3617,6 +3617,100 @@ export default function JobDetailPage() {
                       </div>
                     )}
 
+                    {id === 'mp-police-si-subedar-sub-inspector-safdefar-recruitment-2026' && (
+                      <div className="my-6 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <Layers className="h-4 w-4 text-blue-600" /> Cadre-Wise Posts, Qualifications &amp; Gender Rules (Rulebook 2026)
+                          </h4>
+                          <span className="text-[10px] font-bold text-blue-900 bg-blue-100 px-2 py-0.5 rounded-md">507 Total Posts</span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                          {/* Non-Technical Cadre */}
+                          <div className="bg-white border-2 border-blue-100 hover:border-blue-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Non-Technical</span>
+                              <span className="text-[11px] font-bold text-blue-700">462 Posts</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Subedar, SI (DEF) &amp; SI (SAF)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Bachelor's Degree in ANY discipline from a recognized University. 35% horizontal reservation for females in Subedar (28) &amp; DEF (109).
+                            </p>
+                            <div className="bg-blue-50 rounded-lg p-2 text-[10px] font-bold text-blue-800 space-y-0.5">
+                              <div>• Subedar: 81 Posts | SI (DEF): 312 Posts</div>
+                              <div className="text-rose-700 font-extrabold">• SI (SAF): 69 Posts (MALE ONLY)</div>
+                            </div>
+                          </div>
+
+                          {/* Technical Group-1 (Arms) */}
+                          <div className="bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Group-1 Technical</span>
+                              <span className="text-[11px] font-bold text-emerald-700">10 Posts</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Sub-Inspector (Arms / आयुध)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              3-Year Diploma in Mechanical Engineering from a recognized technical board/university. Open for both male and female candidates.
+                            </p>
+                            <div className="bg-emerald-50 rounded-lg p-2 text-[10px] font-bold text-emerald-800">
+                              Mains Paper 3: Dedicated Mechanical Engineering examination (300 Marks).
+                            </div>
+                          </div>
+
+                          {/* Technical Group-2 (Photo, QD, Finger Print) */}
+                          <div className="bg-white border-2 border-indigo-100 hover:border-indigo-300 rounded-xl p-4 shadow-xs transition-all">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] px-2 py-0.5 rounded uppercase">Group-2 Technical</span>
+                              <span className="text-[11px] font-bold text-indigo-700">35 Posts</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">SI Photo, Q.D. &amp; Finger Print</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Bachelor's Degree in Science (B.Sc.) with Physics, Chemistry, and Mathematics (PCM) from a recognized University.
+                            </p>
+                            <div className="bg-indigo-50 rounded-lg p-2 text-[10px] font-bold text-indigo-800 space-y-0.5">
+                              <div>• Finger Print: 22 | Photo: 9 | Q.D.: 4</div>
+                              <div>• Mains Paper 3: Graduate PCM syllabus (300 Marks).</div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Physical Measurement Test (PMT) & Medical Card */}
+                        <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                          <div className="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+                            <div>
+                              <span className="bg-amber-500 text-slate-950 font-black text-[9px] px-2 py-0.5 rounded uppercase mr-2">Rule 19 Standards</span>
+                              <h4 className="text-xs sm:text-sm font-black text-white inline-block">Mandatory Physical &amp; Medical Measurement Criteria</h4>
+                            </div>
+                            <span className="text-[10px] font-bold text-amber-300 bg-amber-950 border border-amber-800 px-2 py-0.5 rounded">No Height Relaxation</span>
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 text-center text-xs">
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-sky-400 font-black block uppercase">Male Height &amp; Chest</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Height: 167.5 cm Min</strong>
+                              <span className="text-[10px] text-slate-400">Chest: 81 cm (86 cm exp, min 5 cm)</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-emerald-400 font-black block uppercase">Female Height</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Height: 152.4 cm Min</strong>
+                              <span className="text-[10px] text-slate-400">Chest measurement not applicable</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-amber-400 font-black block uppercase">Eye Vision Standards</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">6/9 and 6/12</strong>
+                              <span className="text-[10px] text-slate-400">Without glasses; No Color Blindness</span>
+                            </div>
+                            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700">
+                              <span className="text-[10px] text-rose-400 font-black block uppercase">Disqualification Check</span>
+                              <strong className="text-slate-100 text-xs sm:text-sm block mt-1">Knock-Knee &amp; Flat Foot</strong>
+                              <span className="text-[10px] text-slate-400">Strictly disqualified in medical</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
                     {(id === 'powergrid-nr1-apprenticeship-recruitment-2026' || id === 'powergrid-nr3-apprenticeship-recruitment-2026') && (
                       <div className="my-6 space-y-4">
                         <div className="flex items-center justify-between border-b border-slate-200 pb-2">
@@ -5122,6 +5216,88 @@ export default function JobDetailPage() {
                       <p>• <strong>1st Priority:</strong> Candidate securing more marks in subject specific papers (Prelims Paper-II + Mains Papers I, II &amp; III) plus Personality Test marks put together will be ranked higher.</p>
                       <p>• <strong>2nd Priority:</strong> Candidate securing more marks in subject specific papers alone (Prelims Paper-II + Mains Papers I, II &amp; III) put together will be ranked higher.</p>
                       <p>• <strong>3rd Priority:</strong> If still tied, candidate senior in age will be ranked higher.</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {id === 'mp-police-si-subedar-sub-inspector-safdefar-recruitment-2026' && (
+                <div className="space-y-4 my-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {/* Stage 1 Prelims */}
+                    <div className="bg-gradient-to-br from-blue-50/80 to-slate-50 border-2 border-blue-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-blue-100 pb-2.5">
+                        <div>
+                          <span className="bg-blue-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 1</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">Preliminary Exam (Screening)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-blue-800 bg-blue-100 px-2.5 py-1 rounded-lg">100 Marks</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Format:</strong> 100 MCQs / 100 Marks / 2 Hours</li>
+                        <li><strong>Subjects:</strong> Hindi, English, GK, History, Geography, Science, Civics, Computer, Reasoning, CA</li>
+                        <li><strong>Negative Marking:</strong> NO Negative Marking in Prelims</li>
+                        <li><strong>Bonus Marks:</strong> 5% bonus marks for NCC 'C' certificate holders</li>
+                        <li className="bg-blue-100/70 p-2 rounded-lg text-blue-950 font-extrabold border border-blue-200">
+                          Shortlist Ratio: 10 times the category-wise vacancies called for Stage 2 Mains!
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Stage 2 Mains */}
+                    <div className="bg-gradient-to-br from-indigo-50/80 to-slate-50 border-2 border-indigo-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-indigo-100 pb-2.5">
+                        <div>
+                          <span className="bg-indigo-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 2</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">Main Written Exam (Objective)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-indigo-800 bg-indigo-100 px-2.5 py-1 rounded-lg">600/900 M</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>Paper 1 (GS - 300 M):</strong> History/Society (150 M) &amp; Polity/Governance (150 M)</li>
+                        <li><strong>Paper 2 (GS - 300 M):</strong> CA/Tech/Security (150 M) &amp; Maths/Stats/Reasoning (150 M)</li>
+                        <li><strong>Paper 3 (Tech - 300 M):</strong> Mech Engg (Arms) OR PCM (Photo/QD/Finger Print)</li>
+                        <li><strong>Negative Marking:</strong> 1/3rd (0.33) marks deducted per wrong answer</li>
+                        <li className="bg-indigo-100/70 p-2 rounded-lg text-indigo-950 font-extrabold border border-indigo-200">
+                          Shortlist Ratio: 3 times vacancies called for Physical (PET) &amp; Interview.
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Stage 3 Physical & Interview */}
+                    <div className="bg-gradient-to-br from-emerald-50/80 to-slate-50 border-2 border-emerald-200 rounded-2xl p-4 sm:p-5 shadow-xs">
+                      <div className="flex items-center justify-between mb-3 border-b border-emerald-100 pb-2.5">
+                        <div>
+                          <span className="bg-emerald-600 text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase">Stage 3</span>
+                          <h4 className="font-black text-slate-800 text-xs sm:text-sm mt-1">PET (100 M) + Interview (50 M)</h4>
+                        </div>
+                        <span className="text-[10px] sm:text-xs font-black text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-lg">150 Marks</span>
+                      </div>
+                      <ul className="space-y-2 text-xs font-semibold text-slate-700">
+                        <li><strong>800m Run (40 M):</strong> Single chance (timed benchmark scoring)</li>
+                        <li><strong>Long Jump (30 M):</strong> 3 chances allowed</li>
+                        <li><strong>Shot Put (30 M):</strong> 3 chances (Men 7.26 kg, Women 4.0 kg)</li>
+                        <li><strong>Min Qualifying PET:</strong> Min 30 Marks for Non-Tech | Min 20 Marks for Tech</li>
+                        <li><strong>Interview (50 M):</strong> Personality test by State Selection Committee</li>
+                        <li className="bg-emerald-100/70 p-2 rounded-lg text-emerald-950 font-extrabold border border-emerald-200">
+                          Final Merit: Mains T-Score + PET Marks (100) + Interview Marks (50)!
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* MPESB NEP Scaling & Selection Formula Card */}
+                  <div className="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 border border-slate-800">
+                    <div className="flex items-center justify-between mb-2 border-b border-slate-800 pb-2">
+                      <h4 className="text-xs sm:text-sm font-black text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                        <ListChecks className="h-4 w-4" /> MPESB Multi-Stage Normalised Equi-Percentile (NEP) Scaling Method
+                      </h4>
+                      <span className="text-[10px] font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded">Para 2.7(b) Formula</span>
+                    </div>
+                    <div className="text-xs text-slate-300 leading-relaxed space-y-1 mt-2">
+                      <p>• <strong>Z-Score Calculation:</strong> Z = ROUND(NORMSINV(Percentile/100 - 0.0000005), 6).</p>
+                      <p>• <strong>T-Score Conversion:</strong> T = AM + ASD × (Z), where AM = Max Marks / 2 and ASD = Max Marks / 10.</p>
+                      <p>• <strong>Composite Final Score:</strong> Final Rank = T-score (Mains Written Exam) + Physical Efficiency Score (out of 100) + Personality Test Score (out of 50).</p>
                     </div>
                   </div>
                 </div>
