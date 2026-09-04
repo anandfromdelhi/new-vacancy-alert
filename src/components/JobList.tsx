@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { 
-  Building2, Calendar, Clock, ArrowRight, 
+  Building2, Calendar, Clock, ArrowRight, ChevronRight,
   Briefcase, GraduationCap, Shield, HeartPulse, HardHat, Scale, UploadCloud
 } from 'lucide-react';
 import jobsIndexData from '../data/jobs-index-generated.json';
@@ -441,5 +441,54 @@ export function JobTable({ jobs, navigate }: { jobs: JobEntry[]; navigate: (path
         </table>
       </div>
     </div>
+  );
+}
+
+/**
+ * Compact preview tile for individual jobs inside each category / state section
+ * Minimal info: Board acronym, vacancies, job title, last date, and details link.
+ */
+export function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
+  const { startLoading } = useNavigationLoader();
+  const boardAcronym = getBoardAcronym(job.b);
+  const postsInfo = getNumberOfPostsInfo(job.t, job.id);
+  const formattedLastDate = formatLastDateOnly(job.l);
+
+  return (
+    <Link
+      to={`/${job.id}`}
+      onClick={() => startLoading(`Loading ${boardAcronym} Details...`)}
+      className="group block bg-white hover:bg-blue-50/50 border border-slate-200/90 hover:border-blue-400 rounded-xl p-3 sm:p-3.5 shadow-2xs hover:shadow-sm transition-all duration-150 relative overflow-hidden"
+    >
+      {/* Top row: Board Badge + Vacancy Count */}
+      <div className="flex items-center justify-between gap-2 mb-1.5">
+        <span className="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200/80 max-w-[65%] truncate">
+          <Building2 className="w-3 h-3 shrink-0 text-blue-600" />
+          <span className="truncate">{boardAcronym}</span>
+        </span>
+        {postsInfo.display && (
+          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+            🔥 {postsInfo.display}
+          </span>
+        )}
+      </div>
+
+      {/* Job Title */}
+      <h4 className="text-xs sm:text-[13px] font-black text-slate-800 group-hover:text-blue-700 leading-snug line-clamp-2 mb-2 transition-colors">
+        {job.t}
+      </h4>
+
+      {/* Bottom meta: Last Date + Details link */}
+      <div className="flex items-center justify-between text-[11px] font-bold text-slate-500 pt-1.5 border-t border-slate-100">
+        <span className="inline-flex items-center gap-1 text-rose-600 font-extrabold text-[10.5px]">
+          <Clock className="w-3 h-3 shrink-0" />
+          <span>Last Date: {formattedLastDate}</span>
+        </span>
+        <span className="inline-flex items-center gap-0.5 text-blue-600 group-hover:translate-x-0.5 transition-transform text-[11px] font-black">
+          <span>Details</span>
+          <ChevronRight className="w-3.5 h-3.5" />
+        </span>
+      </div>
+    </Link>
   );
 }

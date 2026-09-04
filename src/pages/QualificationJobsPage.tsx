@@ -1,15 +1,14 @@
-import React, { useState, useMemo, useEffect } from 'react';
-import { useParams, Link, useNavigate, Navigate } from 'react-router';
+import React, { useState, useMemo } from 'react';
+import { useParams, Link, Navigate } from 'react-router';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
-import { JobCard, JobTable } from '../components/JobList';
+import { JobTile } from '../components/JobList';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import { GoogleSearchOverlay } from '../components/GoogleSearchOverlay';
 import { QUAL_CATEGORIES, getStateFromJob, toSlug } from '../utils/categoryUtils';
 import { 
-  Search, GraduationCap, ArrowLeft, RotateCcw, LayoutGrid, TableProperties,
-  Sparkles, AlertCircle, ChevronDown, ChevronUp, CheckCircle2, Building2, MapPin,
-  ArrowUp
+  Search, GraduationCap, ArrowLeft, RotateCcw,
+  Sparkles, AlertCircle, ChevronDown, ChevronUp, CheckCircle2, Building2, MapPin
 } from 'lucide-react';
 
 interface QualificationMeta {
@@ -248,6 +247,104 @@ interface StateJobSection {
   totalVacancies: number;
 }
 
+/**
+ * State section card matching the Home Page category section layout with minimal info
+ * Displays 3 latest posted jobs by default using JobTile + View More inline expansion
+ */
+function StateSectionCard({
+  section,
+  meta,
+  isExpanded,
+  onToggleExpand
+}: {
+  section: StateJobSection;
+  meta: QualificationMeta;
+  isExpanded: boolean;
+  onToggleExpand: () => void;
+  key?: React.Key;
+}) {
+  const displayedJobs = isExpanded ? section.jobs : section.jobs.slice(0, 3);
+  const remainingCount = section.jobs.length - 3;
+
+  return (
+    <div 
+      id={`state-section-${section.stateSlug}`}
+      data-state-slug={section.stateSlug}
+      className={`state-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${
+        section.isAllIndia ? 'border-t-blue-600' : 'border-t-indigo-600'
+      } hover:border-blue-400 scroll-mt-24`}
+    >
+      <div>
+        {/* Section Header */}
+        <div className="pb-3 mb-3 border-b border-slate-200/80">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className={`p-2 rounded-xl border shrink-0 ${
+                section.isAllIndia 
+                  ? 'bg-blue-50 text-blue-600 border-blue-200' 
+                  : 'bg-indigo-50 text-indigo-700 border-indigo-200'
+              }`}>
+                {section.isAllIndia ? <Building2 className="w-4 h-4" /> : <MapPin className="w-4 h-4" />}
+              </div>
+              <div className="min-w-0">
+                <h3 className="text-sm sm:text-base font-black text-slate-800 tracking-tight truncate" title={section.isAllIndia ? 'All India (Central Government Recruitments)' : `${section.stateName} Jobs`}>
+                  {section.isAllIndia ? 'All India (Central)' : section.stateName}
+                </h3>
+                <span className="text-[10.5px] font-bold text-slate-500 truncate block">
+                  {meta.shortLabel} Vacancies
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
+                {section.jobs.length} {section.jobs.length === 1 ? 'Job' : 'Jobs'}
+              </span>
+              {section.totalVacancies > 0 && (
+                <span className="hidden sm:inline-flex px-2 py-0.5 rounded-full text-[10px] font-black bg-emerald-50 text-emerald-800 border border-emerald-200">
+                  🔥 {section.totalVacancies.toLocaleString()}
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Minimal info JobTiles - 3 latest posted by default */}
+        <div className="space-y-2.5 mb-4">
+          {displayedJobs.map((job, idx) => (
+            <JobTile key={job.id || `${section.stateSlug}-${idx}`} job={job} />
+          ))}
+        </div>
+      </div>
+
+      {/* View More / Show Less Button */}
+      {section.jobs.length > 3 ? (
+        <button
+          type="button"
+          onClick={onToggleExpand}
+          className="w-full py-2.5 px-4 rounded-xl bg-white text-slate-800 font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600 cursor-pointer"
+        >
+          {isExpanded ? (
+            <>
+              <span>Show Less (Displaying 3 Latest)</span>
+              <ChevronUp className="w-3.5 h-3.5 group-hover:-translate-y-0.5 transition-transform" />
+            </>
+          ) : (
+            <>
+              <span>View More ({remainingCount} More {section.stateName} Jobs)</span>
+              <ChevronDown className="w-3.5 h-3.5 group-hover:translate-y-0.5 transition-transform" />
+            </>
+          )}
+        </button>
+      ) : (
+        <div className="w-full py-2 text-center text-[11px] font-bold text-slate-400 border-t border-slate-100">
+          Showing all {section.jobs.length} {section.jobs.length === 1 ? 'vacancy' : 'vacancies'}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function QualificationJobsPage() {
   const { qualification } = useParams<{ qualification: string }>();
   const slug = (qualification || '10th-pass').toLowerCase();
@@ -256,10 +353,8 @@ export default function QualificationJobsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedState, setSelectedState] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('date_posted_desc');
-  const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
   const [expandedStates, setExpandedStates] = useState<Record<string, boolean>>({});
   const [isGoogleSearchOpen, setIsGoogleSearchOpen] = useState(false);
-  const navigate = useNavigate();
 
   const toggleStateExpanded = (stateSlug: string) => {
     setExpandedStates(prev => ({
@@ -423,24 +518,6 @@ export default function QualificationJobsPage() {
               </p>
             </div>
           </div>
-
-          {/* Quick Qualification Switcher Bar - Fully responsive, no horizontal scroll */}
-          <div className="pt-2 flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs">
-            <span className="font-bold text-blue-200 shrink-0 mr-1">Switch Qualification:</span>
-            {Object.values(QUALIFICATION_MAP).map(item => (
-              <Link
-                key={item.slug}
-                to={`/jobs-for/${item.slug}`}
-                className={`px-3 py-1 rounded-xl text-xs font-black transition-all border ${
-                  item.slug === slug
-                    ? 'bg-emerald-400 text-slate-950 border-emerald-300 shadow-sm'
-                    : 'bg-white/10 hover:bg-white/25 border-white/20 text-blue-100 hover:text-white'
-                }`}
-              >
-                {item.shortLabel}
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -541,28 +618,6 @@ export default function QualificationJobsPage() {
                 ))}
               </select>
 
-              {/* Card / Table View Toggle */}
-              <div className="hidden sm:flex items-center p-1 bg-slate-100 border border-slate-200 rounded-xl">
-                <button
-                  onClick={() => setViewMode('card')}
-                  className={`p-1.5 rounded-lg transition-all cursor-pointer ${
-                    viewMode === 'card' ? 'bg-white text-blue-600 shadow-xs' : 'text-slate-500 hover:text-slate-800'
-                  }`}
-                  title="Card View"
-                >
-                  <LayoutGrid className="h-4 w-4" />
-                </button>
-                <button
-                  onClick={() => setViewMode('table')}
-                  className={`p-1.5 rounded-lg transition-all cursor-pointer ${
-                    viewMode === 'table' ? 'bg-white text-blue-600 shadow-xs' : 'text-slate-500 hover:text-slate-800'
-                  }`}
-                  title="Table View"
-                >
-                  <TableProperties className="h-4 w-4" />
-                </button>
-              </div>
-
               {/* Sort Select */}
               <select
                 value={sortBy}
@@ -583,7 +638,7 @@ export default function QualificationJobsPage() {
           <h2 className="text-sm font-black text-slate-800 flex items-center gap-2">
             <span>{meta.badge} Active Jobs (State Wise)</span>
             <span className="text-xs px-2.5 py-0.5 bg-blue-100 text-blue-800 border border-blue-200 rounded-full font-extrabold">
-              {filteredJobs.length} Notifications across {stateSections.length} {stateSections.length === 1 ? 'State Section' : 'State Sections'}
+              {filteredJobs.length} {filteredJobs.length === 1 ? 'Job' : 'Jobs'} across {stateSections.length} {stateSections.length === 1 ? 'State' : 'States'}
             </span>
           </h2>
 
@@ -601,7 +656,7 @@ export default function QualificationJobsPage() {
                     setExpandedStates({});
                   }
                 }}
-                className="text-xs font-black text-slate-700 hover:text-blue-700 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-xl border border-slate-200 transition-colors cursor-pointer flex items-center gap-1.5 shadow-3xs"
+                className="text-xs font-black text-slate-700 hover:text-blue-700 bg-white hover:bg-slate-100 px-3 py-1.5 rounded-xl border border-slate-200 transition-colors cursor-pointer flex items-center gap-1.5 shadow-2xs"
               >
                 {stateSections.some(s => s.jobs.length > 3 && !expandedStates[s.stateSlug]) ? (
                   <>
@@ -633,118 +688,45 @@ export default function QualificationJobsPage() {
           </div>
         </div>
 
-        {/* State Sections Container */}
+        {/* State Sections Container - Styled similarly to Home Page Category Sections */}
         {stateSections.length > 0 ? (
-          <div className="space-y-6">
-            {stateSections.map((section) => {
-              const isExpanded = expandedStates[section.stateSlug] || (selectedState !== 'all' && selectedState === section.stateSlug);
-              const displayedJobs = isExpanded ? section.jobs : section.jobs.slice(0, 3);
+          <div className="rounded-2xl shadow-xs overflow-hidden border-2 border-slate-300 bg-slate-200/90">
+            {/* Header Strip */}
+            <div className="p-1.5 sm:p-2 sm:pb-0 flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-300 relative z-10">
+              <div className="flex items-end gap-2">
+                <div className="group relative flex items-center justify-center gap-1.5 sm:gap-2 px-4 sm:px-6 pt-2.5 pb-2.5 sm:pt-3 sm:pb-3 rounded-t-xl sm:rounded-t-2xl font-black text-xs sm:text-sm bg-white border-t-2 border-t-blue-600 border-x border-x-slate-300 text-slate-900 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-20 -mb-2">
+                  <MapPin className="h-4 w-4 text-blue-600 shrink-0" />
+                  <span className="tracking-tight whitespace-nowrap">
+                    State Wise Vacancies
+                  </span>
+                  <span className="text-[10px] font-extrabold px-1.5 py-0.2 rounded-full bg-blue-100 text-blue-800">
+                    {stateSections.length}
+                  </span>
+                </div>
+              </div>
 
-              return (
-                <section 
-                  key={section.stateSlug}
-                  id={`state-section-${section.stateSlug}`}
-                  className="bg-white border-2 border-slate-200/90 rounded-2xl overflow-hidden shadow-xs scroll-mt-24 transition-all"
-                >
-                  {/* State Section Header */}
-                  <div className={`p-4 sm:p-5 border-b border-slate-200/90 flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
-                    section.isAllIndia 
-                      ? 'bg-gradient-to-r from-blue-50/80 via-indigo-50/40 to-white' 
-                      : 'bg-gradient-to-r from-amber-50/50 via-slate-50 to-white'
-                  }`}>
-                    <div className="flex items-center gap-3 min-w-0">
-                      <div className={`p-2.5 rounded-xl border shrink-0 ${
-                        section.isAllIndia 
-                          ? 'bg-blue-600 text-white border-blue-700 shadow-xs' 
-                          : 'bg-amber-500 text-slate-950 border-amber-600 shadow-xs'
-                      }`}>
-                        {section.isAllIndia ? <Building2 className="w-5 h-5" /> : <MapPin className="w-5 h-5" />}
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <h3 className="text-base sm:text-lg font-black text-slate-900 tracking-tight">
-                            {section.isAllIndia ? 'All India (Central Government Recruitments)' : `${section.stateName} Government Jobs`}
-                          </h3>
-                          <span className="text-[10px] sm:text-xs font-black px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 border border-blue-200">
-                            {meta.shortLabel}
-                          </span>
-                        </div>
-                        <p className="text-xs font-semibold text-slate-500 mt-0.5">
-                          {section.isAllIndia 
-                            ? 'Nationwide open recruitments across central ministries, PSUs, RRB, SSC, AIIMS & defence boards' 
-                            : `State public service commission, departmental, and public sector vacancies based in ${section.stateName}`
-                          }
-                        </p>
-                      </div>
-                    </div>
+              <div className="hidden sm:flex items-center gap-2 px-3 py-1 text-xs font-bold text-slate-600 pb-1.5">
+                <span>{meta.shortLabel} recruitments organized by state with 3 latest vacancies</span>
+              </div>
+            </div>
 
-                    <div className="flex items-center gap-2 shrink-0 self-start sm:self-auto">
-                      <span className="px-3 py-1 rounded-xl text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs">
-                        {section.jobs.length} {section.jobs.length === 1 ? 'Job' : 'Jobs'}
-                      </span>
-                      {section.totalVacancies > 0 && (
-                        <span className="px-3 py-1 rounded-xl text-xs font-black bg-emerald-50 text-emerald-800 border border-emerald-200 shadow-3xs">
-                          🔥 {section.totalVacancies.toLocaleString()} Posts
-                        </span>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* State Section Jobs List: Shows 3 latest posted vacancies by default */}
-                  <div className="p-4 sm:p-5 space-y-3">
-                    {viewMode === 'card' ? (
-                      <div className="space-y-3">
-                        {displayedJobs.map((job, idx) => (
-                          <JobCard key={`job-${job.id || idx}`} job={job} />
-                        ))}
-                      </div>
-                    ) : (
-                      <JobTable jobs={displayedJobs} navigate={navigate} />
-                    )}
-
-                    {/* View More / Show Less Button if section has more than 3 jobs */}
-                    {section.jobs.length > 3 && (
-                      <div className="pt-2 flex items-center justify-center">
-                        <button
-                          type="button"
-                          onClick={() => toggleStateExpanded(section.stateSlug)}
-                          className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white font-black text-xs transition-all flex items-center justify-center gap-2 border border-blue-200 hover:border-blue-600 shadow-2xs cursor-pointer group"
-                        >
-                          {isExpanded ? (
-                            <>
-                              <span>Show Less (Displaying 3 Latest)</span>
-                              <ChevronUp className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
-                            </>
-                          ) : (
-                            <>
-                              <span>View More ({section.jobs.length - 3} More {section.stateName} Vacancies)</span>
-                              <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
-                            </>
-                          )}
-                        </button>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Section Bottom Quick Link */}
-                  <div className="px-4 sm:px-5 py-2.5 bg-slate-50/70 border-t border-slate-100 flex items-center justify-between text-xs">
-                    <span className="font-bold text-slate-500">
-                      {isExpanded || section.jobs.length <= 3
-                        ? `Showing all ${section.jobs.length} ${meta.shortLabel} vacancies in ${section.stateName}`
-                        : `Showing 3 of ${section.jobs.length} latest ${meta.shortLabel} vacancies in ${section.stateName}`}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                      className="font-black text-blue-600 hover:text-blue-700 inline-flex items-center gap-1 cursor-pointer"
-                    >
-                      <span>Back to Top</span>
-                      <ArrowUp className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                </section>
-              );
-            })}
+            {/* Main Content Grid: 1 col on mobile, 2 cols on tablet, 3 cols on desktop */}
+            <div className="bg-white p-4 sm:p-6 rounded-b-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6 items-start">
+                {stateSections.map((section) => {
+                  const isExpanded = !!expandedStates[section.stateSlug] || (selectedState !== 'all' && selectedState === section.stateSlug);
+                  return (
+                    <StateSectionCard
+                      key={section.stateSlug}
+                      section={section}
+                      meta={meta}
+                      isExpanded={isExpanded}
+                      onToggleExpand={() => toggleStateExpanded(section.stateSlug)}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           </div>
         ) : (
           <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center max-w-xl mx-auto space-y-4">
