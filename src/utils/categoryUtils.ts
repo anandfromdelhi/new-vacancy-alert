@@ -37,38 +37,40 @@ const ALL_INDIA_KEYWORDS = [
 
 // State & UT mapping keywords
 export const STATE_MAP: Record<string, string[]> = {
-  'Andhra Pradesh': ['andhra pradesh', 'apcrda', 'apsp', 'rajamahendravaram', 'visakhapatnam', 'chintapalle', 'tirupati', 'vijayawada', 'guntur', 'kurnool', 'anantapur', 'sri sathya sai', 'kadapa', 'rars chintapalle', 'sbc visakhapatnam'],
+  'Andaman & Nicobar Islands': ['andaman and nicobar', 'andaman & nicobar', 'andaman', 'nicobar', 'sri vijaya puram', 'port blair', 'a&n dhs'],
+  'Andhra Pradesh': ['andhra pradesh', 'apcrda', 'apsp', 'rajamahendravaram', 'visakhapatnam', 'chintapalle', 'tirupati', 'vijayawada', 'guntur', 'kurnool', 'anantapur', 'sri sathya sai', 'kadapa', 'rars chintapalle', 'sbc visakhapatnam', 'prakasam', 'angrau', 'acharya n.g. ranga'],
   'Arunachal Pradesh': ['arunachal pradesh', 'arunachal', 'itanagar', 'rgu', 'rajiv gandhi university', 'changlang', 'pallong', 'emrs pallong'],
-  'Assam': ['assam', 'apsc', 'amtron', 'guwahati', 'rnu guwahati', 'dme assam', 'tezpur', 'fremaa', 'tezpur university', 'iit guwahati'],
-  'Bihar': ['bihar', 'bpsc', 'bceceb', 'patna', 'bhagalpur', 'gaya', 'muzaffarpur', 'nalanda', 'bihta', 'bsfc', 'cusb', 'iiit bhagalpur', 'iit patna', 'jamui', 'dcpu'],
-  'Chandigarh': ['chandigarh', 'pgimer', 'panjab university'],
-  'Chhattisgarh': ['chhattisgarh', 'cgpsc', 'cgvyapam', 'raipur', 'nit raipur', 'bhilai', 'bilaspur', 'balodabazar', 'baloda bazar', 'bastar', 'surguja', 'ambikapur', 'durg', 'iit bhilai', 'cmho balodabazar', 'cgssb', 'janjgir', 'mungeli', 'degs mungeli'],
+  'Assam': ['assam', 'apsc', 'amtron', 'guwahati', 'rnu guwahati', 'dme assam', 'tezpur', 'fremaa', 'tezpur university', 'iit guwahati', 'goalpara', 'foreigners tribunal', 'csir-neist', 'neist', 'jorhat', 'nit silchar', 'silchar'],
+  'Bihar': ['bihar', 'bpsc', 'bceceb', 'patna', 'bhagalpur', 'gaya', 'muzaffarpur', 'nalanda', 'bihta', 'bsfc', 'cusb', 'iiit bhagalpur', 'iit patna', 'jamui', 'dcpu', 'munger', 'sheikhpura', 'khagaria'],
+  'Chandigarh': ['chandigarh', 'pgimer', 'panjab university', 'bbmb', 'bhakra beas'],
+  'Chhattisgarh': ['chhattisgarh', 'cgpsc', 'cgvyapam', 'raipur', 'nit raipur', 'bhilai', 'bilaspur', 'balodabazar', 'baloda bazar', 'bastar', 'surguja', 'ambikapur', 'durg', 'iit bhilai', 'cmho balodabazar', 'cgssb', 'janjgir', 'mungeli', 'degs mungeli', 'dhamtari', 'kondagaon', 'jashpur', 'guru ghasidas', 'dantewada', 'bacheli', 'nmdc apollo'],
   'Dadra & Nagar Haveli and Daman & Diu': ['dadra and nagar haveli', 'dadra & nagar haveli', 'dadra', 'daman', 'dnh', 'dnhdd', 'diu'],
-  'Delhi': ['delhi', 'new delhi', 'igdtuw', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi', 'niscpr', 'sspl', 'dpcc', 'delhi university', 'cerc', 'wdra', 'nhai', 'supreme court', 'aiims delhi', 'jnu', 'aud', 'karmayogi bharat', 'icar-iari', 'iari', 'irfc', 'dmrc', 'nic', 'iit delhi'],
-  'Goa': ['goa', 'panaji', 'echs panaji', 'nhm goa', 'csir-nio', 'nio', 'ncpor', 'vasco'],
-  'Gujarat': ['gujarat', 'gpsc', 'gsssb', 'ahmedabad', 'gandhinagar', 'surat', 'vadodara', 'bhavnagar', 'rajkot', 'svnit', 'iiit vadodara', 'bhavnagar municipal', 'cug', 'central university of gujarat', 'iima', 'iit gandhinagar'],
-  'Haryana': ['haryana', 'hpsc', 'hssc', 'wcd haryana', 'hartron', 'kurukshetra', 'nit kurukshetra', 'panchkula', 'gurugram', 'gurgaon', 'jhajjar', 'nbrc', 'bric-nbrc', 'aiims jhajjar'],
-  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur', 'hppsc', 'hprca', 'dharamshala'],
+  'Delhi': ['delhi', 'new delhi', 'igdtuw', 'sddmasc', 'rtrmh', 'dhas', 'pmmh', 'university of delhi', 'nct of delhi', 'niscpr', 'sspl', 'dpcc', 'delhi university', 'cerc', 'wdra', 'nhai', 'supreme court', 'aiims delhi', 'jnu', 'karmayogi bharat', 'icar-iari', 'iari', 'icar indian agricultural research', 'irfc', 'dmrc', 'iit delhi', 'national informatics centre', 'ambedkar university delhi', 'guru gobind singh', 'dr hedgewar', 'hedgewar', 'abgh', 'acharyashree bhikshu', 'slbsnsu', 'lal bahadur shastri national sanskrit', 'icsil', 'aiia', 'all india institute of ayurveda'],
+  'Goa': ['goa', 'panaji', 'echs panaji', 'nhm goa', 'csir-nio', 'nio', 'ncpor', 'vasco', 'goa ssc', 'gss', 'bits pilani goa', 'bits goa'],
+  'Gujarat': ['gujarat', 'gpsc', 'gsssb', 'ahmedabad', 'gandhinagar', 'surat', 'vadodara', 'bhavnagar', 'rajkot', 'svnit', 'iiit vadodara', 'bhavnagar municipal', 'cug', 'central university of gujarat', 'iima', 'iit gandhinagar', 'iim ahmedabad', 'amc medical education trust', 'sdau', 's. d. agricultural university', 'sggu', 'godhra', 'govind guru university', 'csmcri', 'csir-csmcri', 'central salt & marine', 'nfsu', 'national forensic sciences'],
+  'Haryana': ['haryana', 'hpsc', 'hssc', 'wcd haryana', 'hartron', 'kurukshetra', 'nit kurukshetra', 'panchkula', 'gurugram', 'gurgaon', 'jhajjar', 'nbrc', 'bric-nbrc', 'aiims jhajjar', 'national brain research centre', 'rohtak', 'mdu rohtak', 'maharshi dayanand university', 'rewari', 'faridabad', 'thsti', 'rcb', 'regional centre for biotechnology'],
+  'Himachal Pradesh': ['himachal pradesh', 'hpjsv', 'shimla', 'hamirpur', 'hppsc', 'hprca', 'dharamshala', 'mandi', 'iit mandi', 'solan', 'nrtc', 'dlsa solan', 'dlsa mandi', 'dlsa kangra', 'chamba', 'dlsa chamba'],
   'Jammu & Kashmir': ['jammu and kashmir', 'jammu & kashmir', 'jammu', 'kashmir', 'jkpsc', 'jkssb', 'j&k', 'iit jammu', 'srinagar'],
-  'Jharkhand': ['jharkhand', 'jpsc', 'jssc', 'ranchi', 'dhanbad', 'jamshedpur', 'bokaro', 'hazaribagh', 'chatra', 'dumka', 'iit ism', 'ism dhanbad', 'dmft chatra'],
-  'Karnataka': ['karnataka', 'kpsc', 'kea', 'bengaluru', 'bangalore', 'mysuru', 'mysore', 'jncasr', 'samagra shiksha karnataka', 'sanjiveeni', 'nrlm karnataka', 'cbsl', 'mangalore', 'hubli', 'belagavi', 'chikkaballapur', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'sjicr', 'dudc', 'cims', 'ursc', 'cftri', 'csir-cftri'],
-  'Kerala': ['kerala', 'kpsc kerala', 'thiruvananthapuram', 'kochi', 'cochin', 'calicut', 'kase', 'istc', 'cmd kerala', 'cusat', 'cochin port', 'cochin shipyard', 'csl pmis'],
-  'Madhya Pradesh': ['madhya pradesh', 'mppsc', 'bhopal', 'aiims bhopal', 'manit bhopal', 'indore', 'gwalior', 'jabalpur', 'ujjain', 'katni', 'igntu', 'amarkantak', 'mpypil', 'mpesb', 'ordnance factory katni', 'dhsgsu', 'sagar'],
-  'Maharashtra': ['maharashtra', 'mpsc', 'mumbai', 'pune', 'nagpur', 'moil', 'iim nagpur', 'icar-circot', 'circot', 'sgnp', 'borivali', 'mpkv', 'rahuri', 'aurangabad', 'chhatrapati sambhajinagar', 'nashik', 'navi mumbai', 'thane', 'solapur', 'actrec', 'neeri', 'csir-neeri', 'rcfl', 'msrlm', 'sindhudurg', 'dehu road', 'thane municipal'],
+  'Jharkhand': ['jharkhand', 'jpsc', 'jssc', 'ranchi', 'dhanbad', 'jamshedpur', 'bokaro', 'hazaribagh', 'chatra', 'dumka', 'iit ism', 'ism dhanbad', 'dmft chatra', 'deoghar', 'aiims deoghar', 'koderma', 'dhs koderma', 'khunti'],
+  'Karnataka': ['karnataka', 'kpsc', 'kea', 'bengaluru', 'bangalore', 'mysuru', 'mysore', 'jncasr', 'samagra shiksha karnataka', 'sanjiveeni', 'nrlm karnataka', 'cbsl', 'mangalore', 'hubli', 'belagavi', 'chikkaballapur', 'dharwad', 'davanagere', 'vijayapura', 'chamarajanagar', 'ramanagara', 'yadgir', 'bidar', 'sjicr', 'dudc', 'cims', 'ursc', 'cftri', 'csir-cftri', 'kodagu', 'shivamogga', 'instem', 'bric instem', 'uttara kannada', 'nimhans', 'mental health and neuro sciences', 'naac', 'national assessment and accreditation', 'raman research institute', 'debel'],
+  'Kerala': ['kerala', 'kpsc kerala', 'thiruvananthapuram', 'kochi', 'cochin', 'calicut', 'kase', 'istc', 'cmd kerala', 'cusat', 'cochin port', 'cochin shipyard', 'csl pmis', 'kozhikode', 'iim kozhikode', 'npol', 'drdo-npol', 'drdo npol', 'pathanamthitta', 'sree chitra tirunal', 'sctimst', 'mahatma gandhi university', 'spices board'],
+  'Lakshadweep': ['lakshadweep', 'kavaratti', 'leda', 'lakshadweep energy'],
+  'Madhya Pradesh': ['madhya pradesh', 'mppsc', 'bhopal', 'aiims bhopal', 'manit bhopal', 'indore', 'gwalior', 'jabalpur', 'ujjain', 'katni', 'igntu', 'amarkantak', 'mpypil', 'mpesb', 'ordnance factory katni', 'dhsgsu', 'sagar', 'sgtps', 'birsinghpur'],
+  'Maharashtra': ['maharashtra', 'mpsc', 'mumbai', 'pune', 'nagpur', 'moil', 'iim nagpur', 'icar-circot', 'circot', 'sgnp', 'borivali', 'mpkv', 'rahuri', 'aurangabad', 'chhatrapati sambhajinagar', 'nashik', 'navi mumbai', 'thane', 'solapur', 'actrec', 'neeri', 'csir-neeri', 'rcfl', 'msrlm', 'sindhudurg', 'dehu road', 'thane municipal', 'esic pune', 'malegaon', 'malegaon municipal', 'mahatransco', 'latur', 'dc latur', 'ofdr', 'brihanmumbai', 'hbcse', 'homi bhabha centre', 'dehu', 'tiss', 'tata institute of social sciences', 'dapoli', 'konkan krishi', 'ratnagiri', 'ahmednagar', 'vrde', 'mulund', 'esis hospital'],
   'Manipur': ['manipur', 'mssc', 'imphal', 'cau imphal', 'central agricultural university', 'tamenglong'],
-  'Meghalaya': ['meghalaya', 'mpsc', 'shillong', 'neigrihms', 'nehu', 'tura'],
+  'Meghalaya': ['meghalaya', 'mpsc', 'shillong', 'neigrihms', 'nehu', 'tura', 'ri bhoi'],
   'Mizoram': ['mizoram public service', 'mizoram', 'aizawl'],
   'Nagaland': ['nagaland', 'nit nagaland', 'dimapur', 'kohima'],
-  'Odisha': ['odisha', 'opsc', 'ossc', 'bhubaneswar', 'aiims bhubaneswar', 'cuttack', 'rourkela', 'mayurbhanj', 'balangir', 'garudabasa', 'bhalubasa', 'shirsa', 'morada', 'bhadrak', 'oav', 'adarsha vidyalaya', 'gopabandhu', 'titia', 'sarifpur', 'wcd odisha'],
+  'Odisha': ['odisha', 'opsc', 'ossc', 'bhubaneswar', 'aiims bhubaneswar', 'cuttack', 'rourkela', 'mayurbhanj', 'balangir', 'garudabasa', 'bhalubasa', 'shirsa', 'morada', 'bhadrak', 'oav', 'adarsha vidyalaya', 'gopabandhu', 'titia', 'sarifpur', 'wcd odisha', 'sail rsp', 'igh rourkela', 'koraput', 'csir-immt', 'immt', 'dist court bhadrak', 'kendujhar', 'keonjhar', 'dharanidhar', 'utkal university', 'yudhistir mishra', 'cifa', 'central institute of freshwater'],
   'Puducherry': ['puducherry', 'pondicherry', 'jipmer', 'karaikal'],
-  'Punjab': ['punjab', 'ppsc', 'psssb', 'chandigarh', 'pau', 'pau ludhiana', 'ludhiana', 'amritsar', 'jalandhar', 'patiala', 'bathinda', 'faridkot', 'ggsmch', 'mohali', 'sas nagar', 'sikhiya bharti', 'verka', 'milkfed'],
-  'Rajasthan': ['rajasthan', 'rpsc', 'rsmssb', 'jaipur', 'jodhpur', 'aiims jodhpur', 'udaipur', 'kota', 'bikaner', 'ajmer', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn', 'dlb rajasthan'],
-  'Tamil Nadu': ['tamil nadu', 'chennai', 'iit madras', 'madras university', 'chennai port', 'tnau', 'coimbatore', 'madurai', 'tiruchirappalli', 'trichy', 'nit trichy', 'vocpa', 'tuticorin', 'thoothukudi', 'erode', 'pudukkottai', 'cuddalore', 'salem', 'vellore', 'thanjavur', 'tnstc', 'tnsrlm', 'tnuavc', 'cutn', 'thiruvarur', 'tmb', 'bits pilani'],
-  'Telangana': ['telangana', 'tspsc', 'hyderabad', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal', 'wanaparthy', 'drdl', 'ngri', 'nit warangal', 'warangal', 'rfcl', 'ramagundam', 'mahabubabad', 'wd&cw mahabubabad', 'wdcw mahabubabad'],
+  'Punjab': ['punjab', 'ppsc', 'psssb', 'chandigarh', 'pau', 'pau ludhiana', 'ludhiana', 'amritsar', 'jalandhar', 'patiala', 'bathinda', 'faridkot', 'ggsmch', 'mohali', 'sas nagar', 'sikhiya bharti', 'verka', 'milkfed', 'ropar', 'iit ropar', 'ferozepur', 'dlsa ferozepur', 'high court of punjab and haryana', 'punjab and haryana high court', 'kapurthala', 'barnala', 'dlsa barnala', 'sangrur', 'homi bhabha cancer hospital sangrur'],
+  'Rajasthan': ['rajasthan', 'rpsc', 'rsmssb', 'jaipur', 'jodhpur', 'aiims jodhpur', 'udaipur', 'kota', 'bikaner', 'ajmer', 'rvunl', 'rvun', 'rvpn', 'jvvn', 'avvn', 'jdvvn', 'dlb rajasthan', 'bits pilani'],
+  'Tamil Nadu': ['tamil nadu', 'chennai', 'madras', 'iit madras', 'madras university', 'chennai port', 'tnau', 'coimbatore', 'madurai', 'tiruchirappalli', 'trichy', 'nit trichy', 'vocpa', 'tuticorin', 'thoothukudi', 'erode', 'pudukkottai', 'cuddalore', 'salem', 'vellore', 'thanjavur', 'tnstc', 'tnsrlm', 'tnuavc', 'cutn', 'thiruvarur', 'tnpsc', 'sivaganga', 'sivagangai', 'kancheepuram', 'kanchipuram', 'mayiladuthurai', 'ramanathapuram'],
+  'Telangana': ['telangana', 'tspsc', 'hyderabad', 'karimnagar', 'tslprb', 'medchal-malkajgiri', 'medchal', 'wanaparthy', 'drdl', 'ngri', 'nit warangal', 'warangal', 'rfcl', 'ramagundam', 'mahabubabad', 'wd&cw mahabubabad', 'wdcw mahabubabad', 'asifabad', 'kb asifabad', 'gmc asifabad', 'khammam', 'nfc hyderabad', 'nuclear fuel complex', 'nalgonda', 'gmc nalgonda', 'jangaon'],
   'Tripura': ['tripura', 'tpsc', 'agartala', 'nit agartala', 'iiit agartala'],
-  'Uttar Pradesh': ['uttar pradesh', 'uppsc', 'upsssc', 'lucknow', 'drrmlims', 'rmlims', 'kanpur', 'varanasi', 'mpmmcc', 'prayagraj', 'allahabad', 'mnnit', 'mnnit allahabad', 'iit bhu', 'aiims raebareli', 'raebareli', 'atal awasiya', 'agra', 'noida', 'greater noida', 'ghaziabad', 'meerut', 'aligarh', 'azamgarh', 'jhansi', 'bareilly', 'bhu', 'ksssci', 'iit kanpur', 'atal residential school', 'aligarh muslim university', 'amu', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur'],
-  'Uttarakhand': ['uttarakhand', 'ukpsc', 'roorkee', 'iit roorkee', 'nit uttarakhand', 'almora', 'dehradun', 'haridwar', 'nainital', 'rishikesh', 'garhwal'],
-  'West Bengal': ['west bengal', 'wbpsc', 'wbhrb', 'kolkata', 'iit kharagpur', 'kharagpur', 'presidency university', 'cnci', 'nit durgapur', 'durgapur', 'howrah', 'kalyani', 'siliguri', 'asansol', 'bitm', 'aiims kalyani', 'clw', 'chittaranjan', 'contai', 'purba medinipur', 'nscbi', 'sinp']
+  'Uttar Pradesh': ['uttar pradesh', 'uppsc', 'upsssc', 'lucknow', 'drrmlims', 'rmlims', 'kanpur', 'varanasi', 'mpmmcc', 'prayagraj', 'allahabad', 'mnnit', 'mnnit allahabad', 'iit bhu', 'aiims raebareli', 'raebareli', 'atal awasiya', 'agra', 'noida', 'greater noida', 'ghaziabad', 'meerut', 'aligarh', 'azamgarh', 'jhansi', 'bareilly', 'bhu', 'ksssci', 'iit kanpur', 'atal residential school', 'aligarh muslim university', 'amu', 'bulandshahr', 'banda', 'farrukhabad', 'sant kabir nagar', 'hapur', 'up anganwadi', 'anganwadi karyakartri', 'amroha', 'kushinagar', 'ipc', 'indian pharmacopoeia commission', 'banaras', 'gorakhpur', 'aiims gorakhpur', 'nmrc', 'noida metro', 'atal awas vidyalaya', 'muzaffarnagar', 'ballia', 'chitrakoot', 'ivri', 'indian veterinary research', 'igrua', 'indira gandhi rashtriya uran'],
+  'Uttarakhand': ['uttarakhand', 'ukpsc', 'roorkee', 'iit roorkee', 'nit uttarakhand', 'almora', 'dehradun', 'haridwar', 'nainital', 'rishikesh', 'garhwal', 'rudrapur', 'kashipur', 'iim kashipur', 'pucb', 'pithoragarh', 'pantnagar', 'gbpuat', 'g. b. pant university'],
+  'West Bengal': ['west bengal', 'wbpsc', 'wbhrb', 'kolkata', 'iit kharagpur', 'kharagpur', 'presidency university', 'cnci', 'nit durgapur', 'durgapur', 'howrah', 'kalyani', 'siliguri', 'asansol', 'bitm', 'aiims kalyani', 'clw', 'chittaranjan', 'contai', 'purba medinipur', 'nscbi', 'sinp', 'shibpur', 'iiest shibpur', 'iiest', 'rg kar', 'r.g. kar']
 };
 
 /**
@@ -85,25 +87,33 @@ function containsKeyword(text: string, keyword: string): boolean {
  * Returns the Indian state/UT name (or 'All India') for a given job.
  * Classification logic:
  * 1. Explicit Nationwide Combined Exams (NORCET, SSC CGL/CHSL, RRB, IBPS, SBI Clerk/PO) -> 'All India'.
- * 2. Explicit State / City Location match in Board/Title/ID -> State (e.g. AIIMS Raipur -> Chhattisgarh, ESIC Pune -> Maharashtra).
+ * 2. Explicit State / City Location match in Board/Title/Desc/ID -> State (e.g. AIIMS Raipur -> Chhattisgarh, ESIC Pune -> Maharashtra).
  * 3. General All-India Central Bodies -> 'All India'.
  * 4. Fallback -> 'All India'.
  */
 export function getStateFromJob(job: JobEntry): string {
   const idStr = job.id || '';
-  const text = `${job.b} ${job.t} ${idStr}`.toLowerCase();
+  const text = `${job.b} ${job.t} ${job.desc || ''} ${idStr}`.toLowerCase();
+
+  // Check if job is from a State Public Service Commission or State Subordinate Board
+  const isStatePSC = /\b(tnpsc|uppsc|bpsc|mpsc|appsc|tspsc|jkpsc|jkssb|ossc|opsc|hpsc|hssc|rpsc|rsmssb|gpsc|gsssb|kpsc|wbpsc|cgpsc|mppsc|ukpsc|apsc)\b/i.test(text);
 
   // Explicit Nationwide Combined Exams / All-India Multi-State Drives
-  const nationwideExams = [
-    'norcet', 'civil services examination', 'combined graduate level', 'ssc cgl', 'ssc chsl',
-    'rrb technician', 'ibps clerk', 'ibps po', 'sbi clerk', 'sbi po', 'crp csa'
-  ];
+  if (!isStatePSC) {
+    const nationwideExams = [
+      'norcet', 'upsc civil services', 'combined graduate level', 'ssc cgl', 'ssc chsl',
+      'rrb technician', 'ibps clerk', 'ibps po', 'sbi clerk', 'sbi po', 'crp csa',
+      'capf medical', 'central armed police',
+      'northern region apprentice', 'eastern region apprentice', 'western region apprentice', 'southern region apprentice',
+      'act apprentice 25 designated trades', 'southern railway act apprentice'
+    ];
 
-  if (nationwideExams.some(kw => text.includes(kw))) {
-    return 'All India';
+    if (nationwideExams.some(kw => text.includes(kw))) {
+      return 'All India';
+    }
   }
 
-  // FIRST: Check if job explicitly specifies a State/UT or regional city in board/title
+  // FIRST: Check if job explicitly specifies a State/UT or regional city in board/title/desc
   for (const [state, keywords] of Object.entries(STATE_MAP)) {
     for (const kw of keywords) {
       if (containsKeyword(text, kw)) {
@@ -128,6 +138,20 @@ export function getBoardNameFromJob(job: JobEntry): string {
   const b = job.b;
 
   // Manual overrides for long, complex names without clear acronyms
+  if (b.includes('High Court of Punjab and Haryana') || b.includes('Punjab and Haryana High Court')) return 'Punjab & Haryana High Court';
+  if (b.includes('Tamil Nadu Public Service Commission') || b.includes('TNPSC')) return 'TNPSC';
+  if (b.includes('IIEST Shibpur') || b.includes('Indian Institute of Engineering Science and Technology')) return 'IIEST Shibpur';
+  if (b.includes('BITS Pilani') || b.includes('Birla Institute of Technology and Science, Pilani')) return 'BITS Pilani';
+  if (b.includes('SAIL RSP') || b.includes('SAIL RSP IGH')) return 'SAIL RSP IGH';
+  if (b.includes('Nuclear Fuel Complex') || b.includes('NFC')) return 'NFC Hyderabad';
+  if (b.includes('BRIC INSTEM') || b.includes('BRIC-inStem') || b.includes('Institute for Stem Cell Science')) return 'BRIC-inStem Bengaluru';
+  if (b.includes('CSIR-NEIST') || b.includes('North East Institute of Science and Technology')) return 'CSIR-NEIST Jorhat';
+  if (b.includes('Dr Hedgewar Arogya Sansthan')) return 'Dr. Hedgewar Arogya Sansthan';
+  if (b.includes('Guru Gobind Singh')) return 'GGS Govt Hospital Delhi';
+  if (b.includes('UP Anganwadi')) return 'UP Anganwadi';
+  if (b.includes('Atal Awas Vidyalaya') || b.includes('Atal Residential School')) return 'Atal Awas Vidyalaya';
+  if (b.includes('Malegaon Municipal Corporation')) return 'Malegaon Municipal Corp';
+  if (b.includes('Directorate of Health Services') && b.includes('Andaman')) return 'A&N DHS';
   if (b.includes('Central Armed Police Forces Medical Officer Selection Board')) return 'CAPF MOSB';
   if (b.includes('NIScPR')) return 'CSIR-NIScPR';
   if (b.includes('Milk Producers') || b.includes('MILKFED')) return 'Verka MILKFED Punjab';
@@ -206,14 +230,14 @@ export interface QualificationCount {
 }
 
 export const QUAL_CATEGORIES = [
-  { name: '10th Pass', slug: '10th-pass', keywords: ['10th', 'matriculation', 'matric', 'secondary', '8th', 'sslc', 'literate', 'pourakarmika', 'safai', 'soldier', 'cook', 'attendant', 'helper', 'warden', 'swayampaki', 'chowkidar', 'anganwadi', 'support staff'] },
+  { name: '10th Pass', slug: '10th-pass', keywords: ['10th', 'matriculation', 'matric', 'secondary', '8th', 'sslc', 'literate', 'pourakarmika', 'safai', 'soldier', 'cook', 'attendant', 'helper', 'warden', 'swayampaki', 'chowkidar', 'anganwadi', 'support staff', 'peon', 'sewadar', 'cleaner', 'frash'] },
   { name: '12th Pass', slug: '12th-pass', keywords: ['12th', 'intermediate', 'higher secondary', '10+2', 'puc', 'hsc', 'h.s.c', 'plus two', 'plus 2', 'inter', 'senior secondary'] },
   { name: 'Any Graduate', slug: 'ba', keywords: ['graduation', 'graduate', 'degree', 'b.a', 'ba', 'any degree', 'bachelor', 'b.lib', 'blib'] },
   { name: 'B.Tech / B.E', slug: 'btech', keywords: ['b.tech', 'b.e', 'btech', 'be', 'engineering', 'b.arch', 'b.plan', 'engineer', 'section engineer', 'executive engineer', 'assistant engineer', 'project engineer'] },
   { name: 'B.Sc / Science', slug: 'bsc', keywords: ['b.sc', 'bsc', 'b.vsc', 'bvsc', 'science', 'agriculture', 'botany', 'zoology', 'chemistry', 'physics', 'biochemistry', 'biotechnology', 'microbiology', 'horticulture', 'forestry', 'fisheries', 'plant physiology', 'agronomy'] },
   { name: 'B.Com / Commerce', slug: 'bcom', keywords: ['b.com', 'bcom', 'commerce', 'accountant', 'accounts', 'bba', 'bms'] },
   { name: 'Diploma', slug: 'diploma', keywords: ['diploma', 'polytechnic', 'd.pharm', 'dmlt', 'gnm', 'd.el.ed'] },
-  { name: 'ITI / NAC', slug: 'iti', keywords: ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice', 'fitter', 'electrician', 'welder', 'turner', 'machinist', 'diesel mechanic', 'draughtsman', 'wireman'] },
+  { name: 'ITI / NAC', slug: 'iti', keywords: ['iti', 'nac', 'ntc', 'trade certificate', 'apprentice', 'fitter', 'electrician', 'welder', 'turner', 'machinist', 'diesel mechanic', 'draughtsman', 'wireman', 'plumber', 'lineman', 'copa'] },
   { name: 'Post Graduate / Master\'s', slug: 'post-graduation', keywords: ['master', 'post graduation', 'pg', 'm.sc', 'm.tech', 'm.com', 'mca', 'mba', 'pgdm', 'm.arch', 'm.plan', 'mvsc', 'm.v.sc', 'm.ch', 'm.des', 'mdes', 'm.lib', 'mlib', 'post graduate', 'm.ed', 'med'] },
   { name: 'MBBS / Doctor', slug: 'mbbs-doctor', keywords: ['mbbs', 'md', 'ms', 'dnb', 'dm', 'medical officer', 'senior resident', 'junior resident', 'resident doctor', 'tutor', 'registrar', 'demonstrator', 'bams', 'bhms', 'bums', 'ayush', 'ayurveda', 'homeopathy', 'amc', 'specialist doctor'] },
   { name: 'Nursing / GNM / ANM', slug: 'nursing', keywords: ['nursing', 'gnm', 'anm', 'b.sc nursing', 'm.sc nursing', 'staff nurse', 'nurse', 'fmphw', 'mmphw', 'nursing officer', 'community health officer', 'cho'] },

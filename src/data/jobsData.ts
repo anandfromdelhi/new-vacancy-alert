@@ -95,7 +95,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "06 September 2026",
     "l": "07 September 2026 (Walk-in)",
     "a": "INDIAN-PHARMAC/2026",
-    "q": "10th / 8th Pass",
+    "q": "10th / 8th Pass | ITI",
     "desc": "Indian Pharmacopoeia Commission (IPC) has officially released employment advertisement notification INDIAN-PHARMAC/2026 for the recruitment of 1 vacancies for Plumber posts.",
     "u": "https://ipc.gov.in/images/Vacancy/Plumber.pdf"
 },
@@ -1019,7 +1019,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "03 September 2026",
     "l": "30 September 2026",
     "a": "09/SARA (Misc)-09/2017(Part-1)-498",
-    "q": "10th / 8th Pass | 12th Pass | Nursing (GNM / B.Sc)",
+    "q": "10th / 8th Pass | Nursing (GNM / B.Sc) | MBBS / Doctor",
     "desc": "District Child Protection Unit Sheikhpura (DCPU Sheikhpura) has officially released employment advertisement notification 09/SARA (Misc)-09/2017(Part-1)-498 for the recruitment of 4 vacancies for Nurse, Doctor (Part Time), Ayah, Chowkidar posts.",
     "u": "https://cdn.s3waas.gov.in/s30bb4aec1710521c12ee76289d9440817/uploads/2026/09/17882512057204.pdf"
 },
@@ -1228,7 +1228,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "03 September 2026",
     "l": "15 September 2026 up to 5:00 PM",
     "a": "PME/P86/2026",
-    "q": "Bonafide Indian citizens meeting the prescribed qualification, experienc...",
+    "q": "Diploma | B.Tech / B.E | M.Sc",
     "desc": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar has officially released employment advertisement notification PME/P86/2026 for the recruitment of 38 vacancies for Project Assistant II, Project Associate and More posts.",
     "u": "https://rects.immt.res.in/advt/advt_P86.pdf"
 },
@@ -1921,7 +1921,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "01 September 2026",
     "l": "17 September 2026",
     "a": "1010",
-    "q": "As per notification for each post",
+    "q": "10th / 8th Pass | 12th Pass",
     "desc": "Women and Child Development Department Odisha has officially released employment advertisement notification 1010 for the recruitment of 3 vacancies for Anganwadi Worker posts.",
     "u": "https://engagement-awc.odisha.gov.in/download-aww-event-document?awwEventHistoryId=170865"
 },
@@ -2306,7 +2306,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "01 September 2026",
     "l": "08 September 2026 (Walk-in)",
     "a": "#DCAC/GUEST/2026/724",
-    "q": "Eligibility criteria are same as prescribed for regular Assistant Profes...",
+    "q": "Master's / PG Degree | Ph.D / Doctorate",
     "desc": "Delhi College of Arts & Commerce (DCAC) has officially released employment advertisement notification #DCAC/GUEST/2026/724 for the recruitment of 4 vacancies for Guest Faculty posts.",
     "u": "https://www.du.ac.in/uploads/2026/31082026-dcac-Notice_Guest_English_2026.pdf"
 },
@@ -2559,7 +2559,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "28 August 2026",
     "l": "21 September 2026 (05:00 PM)",
     "a": "Dis. No. 4393/2026/Admin/Estt Dated 28.08.2026",
-    "q": "See eligibility",
+    "q": "Any Bachelor's Degree | Law (LL.B)",
     "desc": "Principal District and Sessions Judge, Warangal has issued an official recruitment notification for filling 1 post of Senior Superintendent (Head Clerk) on a contract basis in the Fast Track Special Court (FTSC) under the Telangana Judicial Ministerial Service.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec0451e6d6e679953c6311757004d8cb/uploads/2026/08/2026082950.pdf"
 },
@@ -3148,13 +3148,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "driver-driver-and-frash-recruitment-2026",
-    "b": "Driver",
-    "t": "Driver Recruitment 2026 – Apply for 56 Driver and Frash Posts",
+    "b": "Punjab and Haryana High Court",
+    "t": "Punjab and Haryana High Court Recruitment 2026 – Apply for 56 Driver and Frash Posts",
     "d": "30 August 2026",
     "l": "18 September 2026, 11:59 P.M.",
     "a": "04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Driver has officially released employment advertisement notification 04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026 for the recruitment of 56 vacancies for Driver and Frash posts.",
+    "q": "10th / 8th Pass | Driver / Heavy Vehicle",
+    "desc": "High Court of Punjab and Haryana at Chandigarh has officially released employment advertisement notification 04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026 for the recruitment of 56 vacancies for Driver and Frash posts.",
     "u": "https://highcourtchd.gov.in/sub_pages/left_menu/recruitments/staff/openings_pdf/drivr_advt_28082026_b8a83.pdf"
 },
   {
@@ -5078,7 +5078,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "22 September 2026",
     "a": "NOIDA-METR/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Diploma",
     "desc": "Noida Metro Rail Corporation Limited (NMRC) has officially published an employment notification (Advertisement No: NOIDA-METR/Rectt/2026) for the recruitment of 34 Senior Section Engineer, Senior Section Officer vacancies.",
     "u": "https://www.nmrcnoida.com/Upload/CareersRecentItems/47/Advertisement%2022.08.2026.pdf"
 },
@@ -5089,7 +5089,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "UP-ANGANWA/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "10th / 8th Pass",
     "desc": "UP Anganwadi Helper has officially published an employment notification (Advertisement No: UP-ANGANWA/Rectt/2026) for the recruitment of 214 Anganwadi Helper vacancies.",
     "u": "https://upanganwadibharti.in/helper-v2/uploadOrder/ordercopy1787223480.pdf"
 },
@@ -5144,7 +5144,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "SUBORDINAT/Rectt/2026",
-    "q": "Matriculation with Punjabi as a subject (exemptions apply - see Eligibility)",
+    "q": "10th / 8th Pass",
     "desc": "Subordinate Services Selection Board, Punjab (SSSB Punjab / PSSSB) has officially published an employment notification (Advertisement No: SUBORDINAT/Rectt/2026) for the recruitment of 1401 Group-D (Common Cadre - Sewadar, Chowkidar, Safai Sewak, and other Group-D designations) vacancies.",
     "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/02/Advertisement-Group-D-1.pdf"
 },
@@ -5188,7 +5188,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "BOMBAY-HIG/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "10th / 8th Pass",
     "desc": "Bombay High Court, Aurangabad Bench has officially published an employment notification (Advertisement No: BOMBAY-HIG/Rectt/2026) for the recruitment of 1 Swayampaki (Cook) vacancies.",
     "u": "https://bombayhighcourt.gov.in/bhc/notification/download/eyJpdiI6IklmMy96dHEzTFQ1V1RMT2hCZDNEWlE9PSIsInZhbHVlIjoidlpqdEt0OHVVZ2xwTzcybDVxOFkydz09IiwibWFjIjoiYjdjODc2OTgxYzRjMmRhYmRhNDcxYTRkNWYzNWFlNWJjYmM1ZGM2MjEwMWNiMzU2NjM2ODYzYzhjZmE1N2Q3MyIsInRhZyI6IiJ9"
 },
@@ -5210,7 +5210,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "MAHARASHTR/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "ITI | Diploma",
     "desc": "Maharashtra State Electricity Transmission Company Limited (MAHATRANSCO) has officially published an employment notification (Advertisement No: MAHARASHTR/Rectt/2026) for the recruitment of 1 Apprentice vacancies.",
     "u": "https://www.mahatransco.in/uploads/career/career_1787311668.pdf"
 },
@@ -5221,7 +5221,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "SANJAY-GAN/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "ITI",
     "desc": "Sanjay Gandhi Thermal Power Station (SGTPS), Birsinghpur, under Madhya Pradesh Power Generation Company Limited (MPPGCL) has officially published an employment notification (Advertisement No: SANJAY-GAN/Rectt/2026) for the recruitment of 1 ITI Apprentice (under the Apprentices Act, 1961) vacancies.",
     "u": "https://mppgcl.mp.gov.in/CAREER/APPRENTICE_ADVT_SGTPS_MPPGCL_BIRSINGHPUR_212_213_20082026.pdf"
 },
@@ -5254,7 +5254,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "INSTITUTE-/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "B.Sc | M.Sc | B.Tech / B.E",
     "desc": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM) has officially published an employment notification (Advertisement No: INSTITUTE-/Rectt/2026) for the recruitment of 14 Essential Qualification & Experience vacancies.",
     "u": "http://www.instem.res.in"
 },
@@ -5441,7 +5441,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "24 August 2026",
     "l": "Refer Notification",
     "a": "VISAKHAPAT/Rectt/2026",
-    "q": "Refer to official notification",
+    "q": "ITI",
     "desc": "Visakhapatnam Port Authority (VPA) has officially published an employment notification (Advertisement No: VISAKHAPAT/Rectt/2026) for the recruitment of 20 Trade Apprentice vacancies.",
     "u": "https://vpt.shipping.gov.in/admin_assets/uploads/1787294729_210826.pdf"
 },
@@ -5485,7 +5485,7 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "22 August 2026",
     "l": "14 September 2026 (23:00 hrs)",
     "a": "3201/2026",
-    "q": "See eligibility",
+    "q": "10th / 8th Pass | ITI | Driver",
     "desc": "Ship Building Centre (SBC), Visakhapatnam, a premier strategic work centre operating under the Ministry of Defence (Research & Development), Government of India, has published an official employment notification (Advt. No. 3201/2026) inviting online applications from Indian citizens for General Central Service Group 'C' Technical and Non-Technical (Non-Gazetted, Non-Ministerial) positions.",
     "u": "https://sbcrecruitment.in"
 },
