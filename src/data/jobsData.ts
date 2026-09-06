@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-mand-non-teaching-positions-recruitment-2026",
+    "b": "Indian Institute of Technology Mandi (IIT Mandi)",
+    "t": "Indian Institute of Technology Mandi (IIT Mandi) Recruitment 2026 Notification Out for 8 Non-Teaching Positions Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "24 September 2026",
+    "a": "IIT Mandi/Recruit./NTS/2026/04",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Mandi (IIT Mandi) has officially released employment advertisement notification IIT Mandi/Recruit./NTS/2026/04 for the recruitment of 8 vacancies for Non-Teaching Positions posts.",
+    "u": "https://iitmandi.ac.in/recruitment/Advt_2026_04.pdf"
+},
+  {
+    "id": "national-research-technology-consor-junior-engineer-operator-and-more-p-recruitment-2026",
+    "b": "National Research & Technology Consortium (NRTC)",
+    "t": "National Research & Technology Consortium (NRTC) Recruitment 2026 Notification Out for 11 Junior Engineer, Operator and More Posts Posts | Walk-in Interview",
+    "d": "06 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "NATIONAL-RESEA/2026",
+    "q": "10th / 8th Pass | ITI | B.Tech / B.E",
+    "desc": "National Research & Technology Consortium (NRTC) has officially released employment advertisement notification NATIONAL-RESEA/2026 for the recruitment of 11 vacancies for Junior Engineer, Operator and More Posts posts.",
+    "u": "https://nrtc.hp.gov.in/Pdf/Expression%20of%20Interest%20(3).pdf"
+},
+  {
+    "id": "indian-institute-of-technology-gand-post-doctoral-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Post-Doctoral Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "SPON/63024/Adv/0310 DATED 02.09.2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Gandhinagar has officially released employment advertisement notification SPON/63024/Adv/0310 DATED 02.09.2026 for the recruitment of 1 vacancies for Post-Doctoral Fellow posts.",
+    "u": "https://drive.google.com/file/d/1IJmzV9nh4egB-6shT8TuJ4-bqUE1_Cax/view"
+},
+  {
+    "id": "goa-ssc-group-c-data-entry-operator-junior-assistan-recruitment-2026",
+    "b": "Goa SSC Group C",
+    "t": "Goa SSC Group C Recruitment 2026 Notification Out for 1 Data Entry Operator, Junior Assistant and More Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "02 October 2026",
+    "a": "3 of Year 2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Goa SSC Group C has officially released employment advertisement notification 3 of Year 2026 for the recruitment of 1 vacancies for Data Entry Operator, Junior Assistant and More posts.",
+    "u": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026-brief-advertisement-dated-04.09.2026_compressed.pdf"
+},
+  {
+    "id": "national-institute-of-oceanography-project-associate-i-recruitment-2026",
+    "b": "National Institute of Oceanography (NIO)",
+    "t": "National Institute of Oceanography (NIO) Recruitment 2026 Notification Out for 2 Project Associate - I Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "13 September 2026",
+    "a": "GAP003897/3303-26",
+    "q": "M.Sc",
+    "desc": "National Institute of Oceanography (NIO) has officially released employment advertisement notification GAP003897/3303-26 for the recruitment of 2 vacancies for Project Associate - I posts.",
+    "u": "https://www.nio.res.in/vacancies/temporary/1737780"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-senior-project-assistant-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Senior Project Assistant Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "11 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "12th Pass | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Senior Project Assistant posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/gyne-5-9-26.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-administrative-assistant-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Administrative Assistant Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "20 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Administrative Assistant posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/peadsurg-5-9-26.pdf"
+},
+  {
+    "id": "delhi-high-court-senior-personal-as-senior-personal-assistant-spa-perso-recruitment-2026",
+    "b": "Delhi High Court Senior Personal Assistant & Personal Assistant",
+    "t": "Delhi High Court Senior Personal Assistant & Personal Assistant Recruitment 2026 Notification Out for 150 Senior Personal Assistant (SPA), Personal Assistant (PA) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "05 October 2026",
+    "a": "DELHI-HIGH-COU/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Delhi High Court Senior Personal Assistant & Personal Assistant has officially released employment advertisement notification DELHI-HIGH-COU/2026 for the recruitment of 150 vacancies for Senior Personal Assistant (SPA), Personal Assistant (PA) posts.",
+    "u": "https://www.delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf"
+},
+  {
+    "id": "health-family-welfare-department-go-medical-health-officer-i-mho-i-or-e-recruitment-2026",
+    "b": "Health & Family Welfare Department, Government of Assam",
+    "t": "Health & Family Welfare Department, Government of Assam Recruitment 2026 Notification Out for 560 Medical & Health Officer-I (M&HO-I) or equivalent Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "20 September 2026",
+    "a": "HEALTH-FAMILY-/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Health & Family Welfare Department, Government of Assam has officially released employment advertisement notification HEALTH-FAMILY-/2026 for the recruitment of 560 vacancies for Medical & Health Officer-I (M&HO-I) or equivalent posts.",
+    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/uploadAdmin/uploads/job177-doc-1.pdf"
+},
+  {
+    "id": "industrial-development-bank-of-indi-part-time-doctor-recruitment-2026",
+    "b": "Industrial Development Bank of India (IDBI Bank)",
+    "t": "Industrial Development Bank of India (IDBI Bank) Recruitment 2026 Notification Out for 1 Part Time Doctor Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "12 September 2026",
+    "a": "4/2026-27",
+    "q": "MBBS / Medical PG",
+    "desc": "Industrial Development Bank of India (IDBI Bank) has officially released employment advertisement notification 4/2026-27 for the recruitment of 1 vacancies for Part Time Doctor posts.",
+    "u": "https://www.idbi.bank.in/pdf/careers/Detailed-Advertisement-BMO-Guwahati.pdf"
+},
+  {
     "id": "indian-institute-of-senior-research-fellow-recruitment-2026",
     "b": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur)",
     "t": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Online",

@@ -22,15 +22,22 @@ DETAILS_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobDetails.json')
 JOBS_DATA_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobsData.ts')
 UPLOAD_DATES_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobUploadDates.json')
 URLS_FILE = os.path.join(PROJECT_ROOT, 'scripts', 'urls_to_process.json')
-GIT_PATH = r"C:\Users\Administrator\MinGit\cmd\git.exe"
+GIT_PATH = r"C:\Users\Administrator\MinGit\cmd\git.exe" if os.name == 'nt' else "git"
+NPM_CMD = "npm.cmd" if os.name == 'nt' else "npm"
+NPX_CMD = "npx.cmd" if os.name == 'nt' else "npx"
 
 with open(URLS_FILE, 'r', encoding='utf-8-sig') as f:
     INPUT_URLS = json.load(f)
 
 
+
 def clean_text(text):
     if not text:
         return ""
+    if isinstance(text, list):
+        text = " | ".join(str(item) for item in text if item)
+    elif not isinstance(text, str):
+        text = str(text)
     text = text.replace('\xa0', ' ').replace('\u2013', '-').replace('\u2014', '-').replace('\ufffd', ' ')
     text = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', text)
     return re.sub(r'\s+', ' ', text).strip()
@@ -57,6 +64,20 @@ def format_clean_date(date_str):
             return match.group(0)
 
     formatted = re.sub(r'(\d{1,2})[-\/\.](\d{1,2})[-\/\.](\d{4})', _replace_num_date, date_str)
+    
+    month_map = {
+        'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April',
+        'may': 'May', 'jun': 'June', 'jul': 'July', 'aug': 'August',
+        'sep': 'September', 'sept': 'September', 'oct': 'October',
+        'nov': 'November', 'dec': 'December'
+    }
+    formatted = re.sub(
+        r'\b(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)\b(?:\.?)',
+        lambda m: month_map[m.group(1).lower()],
+        formatted,
+        flags=re.IGNORECASE
+    )
+    formatted = re.sub(r'(\d{1,2})-(January|February|March|April|May|June|July|August|September|October|November|December)-(\d{4})', r'\1 \2 \3', formatted)
     return formatted
 
 def format_short_qualification(qual_text):
@@ -676,7 +697,7 @@ def generate_rich_job_schema(data):
         "importantDates": important_dates,
         "vacanciesDetails": vacancies_details,
         "eligibility": {
-            "education": qualification,
+            "education": [qualification] if isinstance(qualification, str) else qualification,
             "ageLimit": age_limit,
             "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
         },
@@ -840,7 +861,7 @@ def main():
         candidate_id = f"{b_slug}-{p_slug}-recruitment-2026"
         candidate_id = re.sub(r'-+', '-', candidate_id).strip('-')
 
-        is_dup, dup_reason = check_duplicate(candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"], existing_jobs, existing_list)
+        is_dup, dup_reason = check_duplicate(candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"], existing_jobs, existing_list, post_name=raw_data["postName"])
         if is_dup:
             print(f"⏩ [SKIPPED DUPLICATE] {raw_data['board']} - {raw_data['postName']}: {dup_reason}")
             skipped_jobs.append({
@@ -851,8 +872,16 @@ def main():
             })
             continue
 
+        # Ensure unique candidate_id if base collision exists
+        base_id = candidate_id
+        counter = 1
+        while candidate_id in existing_jobs:
+            candidate_id = f"{base_id}-{counter}"
+            counter += 1
+
         # Generate rich schema
         schema = generate_rich_job_schema(raw_data)
+        schema["id"] = candidate_id
         add_job_to_system(schema)
         added_jobs_count += 1
         print(f"✅ [ADDED #{added_jobs_count}] {schema['id']} | {raw_data['board']} | {raw_data['vacancies']} Vacancies | Closing: {schema['applicationStatus']}")
@@ -871,7 +900,7 @@ def main():
             
             # 1. Build
             print("  -> Running npm run build...")
-            b_ok, b_out, b_err = run_cmd(["npm.cmd", "run", "build"])
+            b_ok, b_out, b_err = run_cmd([NPM_CMD, "run", "build"])
             if not b_ok:
                 print(f"  [BUILD WARNING/ERROR]: {b_err[:300]}")
             else:
@@ -895,12 +924,12 @@ def main():
 
     # 1. Regenerate sitemap
     print("\n[1/3] Regenerating Sitemap & RSS Feeds...")
-    s_ok, s_out, s_err = run_cmd(["npx.cmd", "tsx", "scripts/generate-sitemap.ts"])
+    s_ok, s_out, s_err = run_cmd([NPX_CMD, "tsx", "scripts/generate-sitemap.ts"])
     print(s_out if s_ok else f"Sitemap error: {s_err}")
 
     # 2. Production build
     print("\n[2/3] Running final Production Build...")
-    b_ok, b_out, b_err = run_cmd(["npm.cmd", "run", "build"])
+    b_ok, b_out, b_err = run_cmd([NPM_CMD, "run", "build"])
     if not b_ok:
         print(f"Final Build Error: {b_err[:400]}")
     else:
