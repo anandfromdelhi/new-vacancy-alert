@@ -12,6 +12,61 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-engineering-sci-junior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
+    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 2 Junior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026 (Walk-in)",
+    "a": "CH 1955",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially released employment advertisement notification CH 1955 for the recruitment of 2 vacancies for Junior Research Fellow posts.",
+    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788355182_Website%20Copy,%20Nanda%20Dulal%20Paul,%20Chemistry,%2031.08.2026.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-roor-project-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Project Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "SRIC/06",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification SRIC/06 for the recruitment of 1 vacancies for Project Fellow posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv010920268.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-madr-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Madras",
+    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "17 September 2026",
+    "a": "ICSR/PR/Adv. 172/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Madras has officially released employment advertisement notification ICSR/PR/Adv. 172/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788442097.pdf"
+},
+  {
+    "id": "esic-pune-professor-associate-professor-and-m-recruitment-2026",
+    "b": "ESIC Pune",
+    "t": "ESIC Pune Recruitment 2026 Notification Out for 1 Professor, Associate Professor and More Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "07 September 2026",
+    "a": "ESIC-PUNE/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ESIC Pune has officially released employment advertisement notification ESIC-PUNE/2026 for the recruitment of 1 vacancies for Professor, Associate Professor and More posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_for_Recruitment_of_Teaching_Faculties_and_Senior_Residents_SRs_in_ESIC_Medical_College_amp_Hospital_Bibvewadi_Pune_1788590033.pdf"
+},
+  {
+    "id": "karnataka-state-rural-livelihood-pr-district-manager-taluk-program-mana-recruitment-2026",
+    "b": "Karnataka State Rural Livelihood Promotion Society (KSRLPS)",
+    "t": "Karnataka State Rural Livelihood Promotion Society (KSRLPS) Recruitment 2026 Notification Out for 34 District Manager, Taluk Program Manager, Block Manager, Cluster Supervisor, MIS Assistant, DEO, Office Assistant Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "11 September 2026",
+    "a": "KARNATAKA-STAT/2026",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "Karnataka State Rural Livelihood Promotion Society (KSRLPS) has officially released employment advertisement notification KARNATAKA-STAT/2026 for the recruitment of 34 vacancies for District Manager, Taluk Program Manager, Block Manager, Cluster Supervisor, MIS Assistant, DEO, Office Assistant posts.",
+    "u": "https://jobsksrlps.karnataka.gov.in/"
+},
+  {
     "id": "up-anganwadi-anganwadi-karyakartri-anganwadi-wor-recruitment-2026",
     "b": "UP Anganwadi",
     "t": "UP Anganwadi Recruitment 2026 Notification Out for 105 Anganwadi Karyakartri (Anganwadi Worker), honorarium-based Posts | Apply Online",

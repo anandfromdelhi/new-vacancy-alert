@@ -146,7 +146,7 @@ STOPWORDS = {
     'department', 'recruitment', 'online', 'offline', 'posts', 'post', 'vacancies',
     'vacancy', '2026', 'total', 'various', 'apply', 'walkin', 'walk-in', 'notification',
     'notice', 'dated', 'govt', 'government', 'state', 'central', 'commission', 'board',
-    'office', 'officer', 'national', 'assistant', 'selection', 'public', 'service'
+    'national', 'public'
 }
 
 CAMPUS_CITIES = [
@@ -156,7 +156,8 @@ CAMPUS_CITIES = [
     'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
     'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
     'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
-    'khammam', 'prakasam', 'shibpur', 'kolkata'
+    'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
+    'deoghar', 'kozhikode'
 ]
 
 def extract_distinctive_tokens(text):
@@ -165,16 +166,18 @@ def extract_distinctive_tokens(text):
     tokens = set(re.findall(r'[a-z0-9]{3,}', text.lower()))
     return tokens - STOPWORDS
 
+GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}
+
 def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list, post_name=""):
     # 1. Authoritative Advt No Match
     a_norm = re.sub(r'[^a-z0-9]', '', advt_no.lower()) if advt_no else ""
-    if a_norm and len(a_norm) >= 5 and not a_norm.endswith("2026") and a_norm not in ["notification2026", "advtno", "various", "notice"]:
+    if a_norm and len(a_norm) >= 5 and not a_norm.endswith("2026") and a_norm not in GENERIC_ADVTS:
         for jid, j in existing_jobs.items():
             ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
-            if ex_advt and ex_advt == a_norm:
+            if ex_advt and ex_advt not in GENERIC_ADVTS and ex_advt == a_norm:
                 return True, f"Advt No '{j.get('advtNo')}' matches existing '{jid}'"
 
-    # 2. Check campus mismatch (e.g. IIT Delhi vs IIT Tirupati)
+    # 2. Check campus/city mismatch
     q_lower = f"{board} {title}".lower()
     query_campus = [c for c in CAMPUS_CITIES if c in q_lower]
 
@@ -199,11 +202,29 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
                 board_match = True
 
         if board_match:
+            ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
+            # If both have explicit different Advt Nos, they are not duplicates
+            if a_norm and ex_advt and len(a_norm) >= 5 and len(ex_advt) >= 5 and a_norm not in GENERIC_ADVTS and ex_advt not in GENERIC_ADVTS:
+                if a_norm != ex_advt:
+                    continue
+
             ex_post_tokens = extract_distinctive_tokens(ex_title) - ex_board_tokens
             if post_tokens and ex_post_tokens:
+                # Disambiguate Junior vs Senior
+                if ('junior' in post_tokens and 'senior' in ex_post_tokens) or ('senior' in post_tokens and 'junior' in ex_post_tokens):
+                    continue
+                # Disambiguate Assistant vs Associate vs Fellow vs Scientist
+                if ('assistant' in post_tokens and any(k in ex_post_tokens for k in ['associate', 'fellow', 'scientist'])) or \
+                   ('associate' in post_tokens and any(k in ex_post_tokens for k in ['assistant', 'fellow', 'scientist'])):
+                    continue
+
                 common_post = post_tokens.intersection(ex_post_tokens)
-                if len(common_post) >= max(1, len(post_tokens) * 0.65):
-                    return True, f"Same board '{ex_board}' and matching post designation with '{jid}'"
+                if len(post_tokens) <= 2:
+                    if common_post == post_tokens and len(ex_post_tokens) <= 3:
+                        return True, f"Same board '{ex_board}' and matching post designation with '{jid}'"
+                else:
+                    if len(common_post) >= max(2, len(post_tokens) * 0.7):
+                        return True, f"Same board '{ex_board}' and matching post designation with '{jid}'"
 
     return False, ""
 
