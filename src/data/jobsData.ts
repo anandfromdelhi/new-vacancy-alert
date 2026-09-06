@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "birla-institute-of-techno-junior-research-fellow-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology and Science, Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "20 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Birla Institute of Technology and Science, Pilani (BITS Pilani) has officially released employment advertisement notification BIRLA-INSTITUT/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/ADVERTISEMENT_BITS-IITRProf-Arnab-Hazra-on-19-08-2026.pdf"
+},
+  {
+    "id": "sssb-punjab-je-educationaltechnical-qual-recruitment-2026",
+    "b": "SSSB Punjab JE",
+    "t": "SSSB Punjab JE Recruitment 2026 Notification Out for 1 Educational/Technical Qualification Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "Refer Official Notification",
+    "a": "SSSB-PUNJAB-JE/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "SSSB Punjab JE has officially released employment advertisement notification SSSB-PUNJAB-JE/2026 for the recruitment of 1 vacancies for Educational/Technical Qualification posts.",
+    "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/09/%E0%A8%B8%E0%A9%8B%E0%A8%A7-%E0%A8%AA%E0%A9%B1%E0%A8%A4%E0%A8%B0-1.pdf"
+},
+  {
+    "id": "secretariat-administratio-peon-cleaner-sweeper-chow-recruitment-2026",
+    "b": "Secretariat Administration Department (Nazarat), Government of Meghalaya",
+    "t": "Secretariat Administration Department (Nazarat), Government of Meghalaya Recruitment 2026 Notification Out for 153 Peon, Cleaner, Sweeper, Chowkidar, Mali (Grade IV) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "18 September 2026, up to 5:00 PM (17:00 hrs)",
+    "a": "SAN.66/2019/89, dated 17.08.2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Secretariat Administration Department (Nazarat), Government of Meghalaya has officially released employment advertisement notification SAN.66/2019/89, dated 17.08.2026 for the recruitment of 153 vacancies for Peon, Cleaner, Sweeper, Chowkidar, Mali (Grade IV) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17873105015989.pdf"
+},
+  {
+    "id": "karnataka-public-service-group-a-b-recruitment-2026",
+    "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001",
+    "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 Recruitment 2026 Notification Out for 319 Group A & B Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "31 August 2026 07 September 2026",
+    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 has officially released employment advertisement notification KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026 for the recruitment of 319 vacancies for Group A & B posts.",
+    "u": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf"
+},
+  {
+    "id": "indian-institute-of-techn-junior-research-fellow-jr-recruitment-2026",
+    "b": "Indian Institute of Technology Mandi (IIT Mandi)",
+    "t": "Indian Institute of Technology Mandi (IIT Mandi) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "20 September 2026",
+    "a": "IITM/DST-NQM/JSN/615",
+    "q": "B.Tech / B.E | M.Sc",
+    "desc": "Indian Institute of Technology Mandi (IIT Mandi) has officially released employment advertisement notification IITM/DST-NQM/JSN/615 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://iitmandi.ac.in/recruitment/IITM_DST_NQM_JSN_615.pdf"
+},
+  {
+    "id": "central-university-of-har-associate-professor-and-a-recruitment-2026",
+    "b": "Central University of Haryana (CUH)",
+    "t": "Central University of Haryana (CUH) Recruitment 2026 Notification Out for 14 Associate Professor and Assistant Professor Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "30 September 2026",
+    "a": "CUH/04/R/T/2026, CUH/05/R/T/2026, CUH/06/R/T/2026",
+    "q": "UGC Regulations on Minimum Qualifications for Appointment of T...",
+    "desc": "Central University of Haryana (CUH) has officially released employment advertisement notification CUH/04/R/T/2026, CUH/05/R/T/2026, CUH/06/R/T/2026 for the recruitment of 14 vacancies for Associate Professor and Assistant Professor posts.",
+    "u": "https://file.cuh.ac.in/recruitment/advt_no_6a967f6987473.pdf"
+},
+  {
+    "id": "institute-of-banking-pers-office-assistant-multipur-recruitment-2026",
+    "b": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs)",
+    "t": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs) Recruitment 2026 Notification Out for 13 Office Assistant (Multipurpose); Officer Scale-I, II & III Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "21 September 2026",
+    "a": "INSTITUTE-OF-B/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs) has officially released employment advertisement notification INSTITUTE-OF-B/2026 for the recruitment of 13 vacancies for Office Assistant (Multipurpose); Officer Scale-I, II & III posts.",
+    "u": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf"
+},
+  {
+    "id": "national-institute-of-tec-junior-research-fellow-jr-recruitment-2026",
+    "b": "National Institute of Technology Delhi (NIT Delhi)",
+    "t": "National Institute of Technology Delhi (NIT Delhi) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Walk-in Interview",
+    "d": "06 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "RES-VSSC-2024-008",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Technology Delhi (NIT Delhi) has officially released employment advertisement notification RES-VSSC-2024-008 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/Attachement%201%20-Advt%20ISRO%20RESPOND%20and%20Application%20form@nitdelhi68cba949-8a85-425d-8caf-e9c7914f0d6c.pdf"
+},
+  {
+    "id": "indian-institute-of-techn-research-associate-recruitment-2026",
+    "b": "Indian Institute of Technology Tirupati",
+    "t": "Indian Institute of Technology Tirupati Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "Advt/ IITT/CSRC/26-27/11",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Tirupati has officially released employment advertisement notification Advt/ IITT/CSRC/26-27/11 for the recruitment of 1 vacancies for Research Associate posts.",
+    "u": "https://files.iittp.ac.in/2026/recruitment/project/AdvtIITTCSRC26-2711.pdf"
+},
+  {
+    "id": "andhra-pradesh-police-dep-37-recruitment-2026",
+    "b": "Andhra Pradesh Police Department - 7th (IR) Battalion, APSP, Maddipadu, Prakasam District",
+    "t": "Andhra Pradesh Police Department - 7th (IR) Battalion, APSP, Maddipadu, Prakasam District Recruitment 2026 Notification Out for 37 37 Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "11 September 2026",
+    "a": "G.O.Ms.No. 120, Home (SER-III) Department, dt. 26.06.2023",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Andhra Pradesh Police Department - 7th (IR) Battalion, APSP, Maddipadu, Prakasam District has officially released employment advertisement notification G.O.Ms.No. 120, Home (SER-III) Department, dt. 26.06.2023 for the recruitment of 37 vacancies for 37 posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f3f27a324736617f20abbf2ffd806f6d/uploads/2026/08/17881893171148.pdf"
+},
+  {
     "id": "indian-institute-of-technology-senior-research-fellow-srf-recruitment-2026",
     "b": "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
     "t": "Indian Institute of Technology Kharagpur (IIT Kharagpur) Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
