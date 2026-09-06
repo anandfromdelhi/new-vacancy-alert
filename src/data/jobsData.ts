@@ -12,6 +12,61 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "up-anganwadi-anganwadi-karyakartri-anganwadi-wor-recruitment-2026",
+    "b": "UP Anganwadi",
+    "t": "UP Anganwadi Recruitment 2026 Notification Out for 105 Anganwadi Karyakartri (Anganwadi Worker), honorarium-based Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "24 September 2026 (till 12:00 midnight)",
+    "a": "C-679/Zi",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UP Anganwadi has officially released employment advertisement notification C-679/Zi for the recruitment of 105 vacancies for Anganwadi Karyakartri (Anganwadi Worker), honorarium-based posts.",
+    "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788441669_4a5e701d.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-kanp-project-multi-skilled-worker-level-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Project Multi Skilled Worker (Level 1) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "P.Rect./R&D/2026/170",
+    "q": "10th / 8th Pass",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially released employment advertisement notification P.Rect./R&D/2026/170 for the recruitment of 1 vacancies for Project Multi Skilled Worker (Level 1) posts.",
+    "u": "https://www.iitk.ac.in/dord/project/cse-pmsw-05-09-26.html"
+},
+  {
+    "id": "indian-pharmacopoeia-commission-ipc-plumber-recruitment-2026",
+    "b": "Indian Pharmacopoeia Commission (IPC)",
+    "t": "Indian Pharmacopoeia Commission (IPC) Recruitment 2026 Notification Out for 1 Plumber Posts | Walk-in Interview",
+    "d": "06 September 2026",
+    "l": "07 September 2026 (Walk-in)",
+    "a": "INDIAN-PHARMAC/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Indian Pharmacopoeia Commission (IPC) has officially released employment advertisement notification INDIAN-PHARMAC/2026 for the recruitment of 1 vacancies for Plumber posts.",
+    "u": "https://ipc.gov.in/images/Vacancy/Plumber.pdf"
+},
+  {
+    "id": "csir-ngri-technician-21-recruitment-2026",
+    "b": "CSIR NGRI Technician",
+    "t": "CSIR NGRI Technician Recruitment 2026 Notification Out for 21 21 Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "04 October 2026 (06:00 PM)",
+    "a": "01/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "CSIR NGRI Technician has officially released employment advertisement notification 01/2026 for the recruitment of 21 vacancies for 21 posts.",
+    "u": "https://www.ngri.res.in/upload/uploadfiles/files/NGRI-Technician1-012026-05092026-eng.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-madr-project-associate-ii-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "21 September 2026",
+    "a": "ICSR/PR/Advt.175/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially released employment advertisement notification ICSR/PR/Advt.175/2026 for the recruitment of 1 vacancies for Project Associate-II posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788518034.pdf"
+},
+  {
     "id": "national-institute-of-technology-tr-junior-research-fellow-jrf-project-recruitment-2026",
     "b": "National Institute of Technology Trichy (NIT Trichy)",
     "t": "National Institute of Technology Trichy (NIT Trichy) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF)/ Project Associate-1 Posts | Apply Online",
