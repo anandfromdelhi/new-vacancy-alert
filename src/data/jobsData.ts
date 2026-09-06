@@ -12,6 +12,94 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-senior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur)",
+    "t": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "CH 1953",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Engineering Science & Technology Shibpur (IIEST Shibpur) has officially released employment advertisement notification CH 1953 for the recruitment of 1 vacancies for Senior Research Fellow posts.",
+    "u": "https://data.iiests.ac.in/uploads/announcements/files/1787929042_Website%20Copy,%20Chirasree%20Roychaudhuri,%20ETC,%2024.08.2026.pdf"
+},
+  {
+    "id": "indian-institute-of-junior-research-fellow-recruitment-2026-3065788",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "19 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Kharagpur has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
+},
+  {
+    "id": "indian-institute-of-project-scientist-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Project Scientist Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "09 September 2026",
+    "a": "P.Rect./R&D/2026/161",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Kanpur has officially released employment advertisement notification P.Rect./R&D/2026/161 for the recruitment of 1 vacancies for Project Scientist posts.",
+    "u": "https://www.iitk.ac.in/dord/project/scdt-ps-31-06-26.html"
+},
+  {
+    "id": "indian-institute-of-junior-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Banaras Hindu University",
+    "t": "Indian Institute of Technology Banaras Hindu University Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Banaras Hindu University has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://Candidates should ensure that they meet the prescribed age limit as on the specified cut-off date. You can use our Age Calculator to check your exact age and confirm your eligibility before applying."
+},
+  {
+    "id": "indian-institute-of-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
+    "t": "Indian Institute of Technology (Indian School of Mines) Dhanbad Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "07 September 2026",
+    "a": "SERB(CRG)(417)/2023-2024/1086/AGL",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology (Indian School of Mines) Dhanbad has officially released employment advertisement notification SERB(CRG)(417)/2023-2024/1086/AGL for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/861/Project%20JRF_2026-08-31_15-48-29.pdf"
+},
+  {
+    "id": "national-institute-o-project-associate-research-ass-recruitment-2026",
+    "b": "National Institute of Technology Delhi",
+    "t": "National Institute of Technology Delhi Recruitment 2026 Notification Out for 3 Project Associate / Research Associate Posts | Walk-in Interview",
+    "d": "06 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "National Institute of Technology Delhi has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 3 vacancies for Project Associate / Research Associate posts.",
+    "u": "https://To avoid any confusion regarding age eligibility, candidates can use our Age Calculator to calculate their exact age based on the prescribed cut-off date before applying."
+},
+  {
+    "id": "all-india-institute-research-associate-iii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Research Associate-III Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Research Associate-III posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/peadsurg-31-8-26.pdf"
+},
+  {
+    "id": "all-india-institute-project-research-scientist-i-m-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Medical) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "15 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Project Research Scientist-I (Medical) posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/psy-1-9-26.pdf"
+},
+  {
     "id": "uttarakhand-subordinate-s-computer-assistant-junior-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
     "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 553 Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) Posts | Apply Online",
