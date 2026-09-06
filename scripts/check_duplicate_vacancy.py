@@ -44,13 +44,43 @@ def load_jobs_data():
 
     return jobs
 
+STOPWORDS = {
+    'all', 'india', 'institute', 'technology', 'medical', 'sciences', 'university',
+    'department', 'recruitment', 'online', 'offline', 'posts', 'post', 'vacancies',
+    'vacancy', '2026', 'total', 'various', 'apply', 'walkin', 'walk-in', 'notification',
+    'notice', 'dated', 'govt', 'government', 'state', 'central', 'commission', 'board',
+    'office', 'officer', 'national', 'assistant', 'selection', 'public', 'service'
+}
+
+CAMPUS_CITIES = [
+    'delhi', 'new delhi', 'tirupati', 'mandi', 'kanpur', 'roorkee', 'kharagpur',
+    'dhanbad', 'bhu', 'banaras', 'varanasi', 'bhilai', 'indore', 'amritsar',
+    'udaipur', 'jodhpur', 'rishikesh', 'nagpur', 'bhubaneswar', 'guwahati',
+    'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
+    'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
+    'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
+    'khammam', 'prakasam', 'shibpur', 'kolkata'
+]
+
+def extract_distinctive_tokens(text):
+    if not text:
+        return set()
+    tokens = set(re.findall(r'[a-z0-9]{3,}', text.lower()))
+    return tokens - STOPWORDS
+
 def check_duplicate(query_text, board_query="", advt_query=""):
     jobs = load_jobs_data()
     matches = []
     
-    query_tokens = set(re.findall(r'\w+', query_text.lower()))
-    board_tokens = set(re.findall(r'\w+', board_query.lower())) if board_query else set()
-    advt_tokens = set(re.findall(r'\w+', advt_query.lower())) if advt_query else set()
+    clean_advt_query = re.sub(r'[^a-z0-9]', '', advt_query.lower()) if advt_query else ""
+    is_valid_advt = bool(clean_advt_query and len(clean_advt_query) >= 5 and not clean_advt_query.endswith("2026") and clean_advt_query not in ["advtno", "various", "notice", "notification"])
+    
+    board_tokens = extract_distinctive_tokens(board_query)
+    post_tokens = extract_distinctive_tokens(query_text) - board_tokens
+
+    # Detect if query specifies a particular city/campus
+    q_lower = f"{query_text} {board_query}".lower()
+    query_campus = [c for c in CAMPUS_CITIES if c in q_lower]
 
     for job in jobs:
         score = 0
@@ -61,31 +91,53 @@ def check_duplicate(query_text, board_query="", advt_query=""):
         job_board = job['board'].lower()
         job_advt = job['advtNo'].lower()
         
-        # 1. Exact or partial Advt No / Letter No match (highest confidence)
-        if advt_query:
-            clean_advt = re.sub(r'[^a-z0-9]', '', advt_query.lower())
+        # 1. Exact or authoritative Advt No match
+        if is_valid_advt:
             clean_job_advt = re.sub(r'[^a-z0-9]', '', job_advt)
-            clean_job_title = re.sub(r'[^a-z0-9]', '', job_title)
-            
-            if clean_advt and len(clean_advt) >= 4:
-                if clean_advt in clean_job_advt or clean_advt in clean_job_title:
-                    score += 50
-                    reasons.append(f"Advt/Letter No. match ({advt_query})")
-        
-        # 2. Board / Department match
-        if board_query:
-            if board_query.lower() in job_board or board_query.lower() in job_title or job_board in board_query.lower():
-                score += 30
-                reasons.append(f"Board match ({board_query})")
-        
-        # 3. Text query word overlap
-        if query_text:
-            text_matches = [w for w in query_tokens if len(w) > 3 and (w in job_id or w in job_title or w in job_board)]
-            if text_matches:
-                score += len(text_matches) * 5
-                reasons.append(f"Keyword matches: {', '.join(text_matches[:5])}")
+            if clean_job_advt and clean_advt_query == clean_job_advt:
+                score += 55
+                reasons.append(f"Exact Advt No. match ({advt_query})")
 
-        if score >= 15:
+        # 2. Check campus mismatch (e.g. IIT Delhi vs IIT Tirupati)
+        job_full_text = f"{job_id} {job_title} {job_board}"
+        job_campus = [c for c in CAMPUS_CITIES if c in job_full_text]
+        if query_campus and job_campus:
+            # If both specify a campus/city and they do not overlap, these are DIFFERENT campuses!
+            if not set(query_campus).intersection(set(job_campus)):
+                # Do NOT match across different campuses of the same institute
+                continue
+
+        # 3. Organization match
+        job_board_tokens = extract_distinctive_tokens(job_board)
+        board_match = False
+        if board_tokens and job_board_tokens:
+            common_board = board_tokens.intersection(job_board_tokens)
+            if len(common_board) >= max(1, min(len(board_tokens), len(job_board_tokens)) * 0.6):
+                board_match = True
+
+        # 4. Post designation match
+        job_title_tokens = extract_distinctive_tokens(job_title) - job_board_tokens
+        post_match = False
+        post_overlap_count = 0
+        if post_tokens and job_title_tokens:
+            common_post = post_tokens.intersection(job_title_tokens)
+            post_overlap_count = len(common_post)
+            # Require at least 60% overlap on post designation words
+            if post_overlap_count >= max(1, len(post_tokens) * 0.6):
+                post_match = True
+
+        if board_match and post_match:
+            score += 45
+            reasons.append(f"Same Board and matching Post designation ({', '.join(post_tokens.intersection(job_title_tokens))})")
+        elif board_match and not post_match:
+            # Same board, but DIFFERENT post: only give minimal score (cannot trigger duplicate)
+            score += 15
+            reasons.append(f"Board match only ({board_query}), post appears distinct")
+        elif post_match and not board_match:
+            score += 10
+            reasons.append("Post keyword overlap only, different board")
+
+        if score >= 40:
             matches.append({
                 'score': score,
                 'id': job['id'],
@@ -95,7 +147,6 @@ def check_duplicate(query_text, board_query="", advt_query=""):
                 'reasons': reasons
             })
 
-    # Sort matches by score descending
     matches.sort(key=lambda x: x['score'], reverse=True)
     return matches
 

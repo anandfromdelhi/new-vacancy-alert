@@ -120,35 +120,70 @@ def load_existing_db():
             
     return existing_jobs, existing_list
 
-def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list):
-    # 1. Exact ID match
-    if candidate_id in existing_jobs:
-        return True, f"Exact ID '{candidate_id}' already exists in jobDetails.json"
-        
-    for j in existing_list:
-        if j['id'] == candidate_id:
-            return True, f"Exact ID '{candidate_id}' already exists in jobsData.ts"
-            
-    # 2. Check by distinct Advt No
+STOPWORDS = {
+    'all', 'india', 'institute', 'technology', 'medical', 'sciences', 'university',
+    'department', 'recruitment', 'online', 'offline', 'posts', 'post', 'vacancies',
+    'vacancy', '2026', 'total', 'various', 'apply', 'walkin', 'walk-in', 'notification',
+    'notice', 'dated', 'govt', 'government', 'state', 'central', 'commission', 'board',
+    'office', 'officer', 'national', 'assistant', 'selection', 'public', 'service'
+}
+
+CAMPUS_CITIES = [
+    'delhi', 'new delhi', 'tirupati', 'mandi', 'kanpur', 'roorkee', 'kharagpur',
+    'dhanbad', 'bhu', 'banaras', 'varanasi', 'bhilai', 'indore', 'amritsar',
+    'udaipur', 'jodhpur', 'rishikesh', 'nagpur', 'bhubaneswar', 'guwahati',
+    'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
+    'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
+    'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
+    'khammam', 'prakasam', 'shibpur', 'kolkata'
+]
+
+def extract_distinctive_tokens(text):
+    if not text:
+        return set()
+    tokens = set(re.findall(r'[a-z0-9]{3,}', text.lower()))
+    return tokens - STOPWORDS
+
+def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list, post_name=""):
+    # 1. Authoritative Advt No Match
     a_norm = re.sub(r'[^a-z0-9]', '', advt_no.lower()) if advt_no else ""
-    if a_norm and len(a_norm) > 5 and not a_norm.endswith("rec2026") and not a_norm.endswith("2026") and a_norm not in ["notification2026", "advtno", "various"]:
+    if a_norm and len(a_norm) >= 5 and not a_norm.endswith("2026") and a_norm not in ["notification2026", "advtno", "various", "notice"]:
         for jid, j in existing_jobs.items():
             ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
             if ex_advt and ex_advt == a_norm:
                 return True, f"Advt No '{j.get('advtNo')}' matches existing '{jid}'"
-                
-    # 3. Same Board & Same Post Check
-    b_norm = re.sub(r'[^a-z0-9]', '', board.lower())
+
+    # 2. Check campus mismatch (e.g. IIT Delhi vs IIT Tirupati)
+    q_lower = f"{board} {title}".lower()
+    query_campus = [c for c in CAMPUS_CITIES if c in q_lower]
+
+    board_tokens = extract_distinctive_tokens(board)
+    post_tokens = extract_distinctive_tokens(post_name if post_name else title) - board_tokens
+
     for jid, j in existing_jobs.items():
-        ex_b_norm = re.sub(r'[^a-z0-9]', '', j.get('board', '').lower())
-        # Check if the board is genuinely the same organization
-        if b_norm == ex_b_norm or (len(b_norm) > 12 and b_norm in ex_b_norm) or (len(ex_b_norm) > 12 and ex_b_norm in b_norm):
-            p1_tokens = set(re.findall(r'[a-z0-9]{3,}', title.lower())) - {'recruitment', 'apply', 'online', 'offline', 'walkin', 'posts', 'post', 'vacancies', 'vacancy', '2026', 'total', 'various'}
-            p2_tokens = set(re.findall(r'[a-z0-9]{3,}', j.get('title', '').lower())) - {'recruitment', 'apply', 'online', 'offline', 'walkin', 'posts', 'post', 'vacancies', 'vacancy', '2026', 'total', 'various'}
-            common = p1_tokens.intersection(p2_tokens)
-            if p1_tokens and len(common) / len(p1_tokens) >= 0.7:
-                return True, f"Same board '{j.get('board')}' and matching post with '{jid}'"
-                
+        ex_board = j.get('board', '')
+        ex_title = j.get('title', '')
+        ex_lower = f"{jid} {ex_board} {ex_title}".lower()
+        
+        job_campus = [c for c in CAMPUS_CITIES if c in ex_lower]
+        if query_campus and job_campus:
+            if not set(query_campus).intersection(set(job_campus)):
+                continue
+
+        ex_board_tokens = extract_distinctive_tokens(ex_board)
+        board_match = False
+        if board_tokens and ex_board_tokens:
+            common_board = board_tokens.intersection(ex_board_tokens)
+            if len(common_board) >= max(1, min(len(board_tokens), len(ex_board_tokens)) * 0.6):
+                board_match = True
+
+        if board_match:
+            ex_post_tokens = extract_distinctive_tokens(ex_title) - ex_board_tokens
+            if post_tokens and ex_post_tokens:
+                common_post = post_tokens.intersection(ex_post_tokens)
+                if len(common_post) >= max(1, len(post_tokens) * 0.65):
+                    return True, f"Same board '{ex_board}' and matching post designation with '{jid}'"
+
     return False, ""
 
 def fetch_page(url, ctx):

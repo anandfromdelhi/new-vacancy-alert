@@ -37,13 +37,29 @@ Use this skill whenever the user provides a list of multiple webpage URLs and as
      ```
    - Use the extracted PDF content to populate the full vacancy matrix, syllabus, exam pattern, and eligibility criteria so the page has complete, 100% verified information without guesswork.
 
-4. **Mandatory Duplicate Check & Auto-Skip**:
+4. **Mandatory Duplicate Check & Anti-False-Positive Rules**:
    - **BEFORE** adding any new vacancy, always run the duplicate checker:
      ```bash
-     python scripts/check_duplicate_vacancy.py "<Job Title / Board>" "<Board Name>" "<Advt No>"
+     python scripts/check_duplicate_vacancy.py "<Job Title / Post Name>" "<Board Name>" "<Advt No>"
      ```
-   - If a duplicate is detected (Score >= 50 or matching Board + Advt No / Title in `jobsData.ts` / `jobDetails.json`), **IMMEDIATELY SKIP** that job.
-   - Note it in the summary as skipped (Duplicate) and proceed directly to the next URL.
+   - **CRITICAL ANTI-FALSE-POSITIVE PRINCIPLES (NEVER SKIP DISTINCT POSTS)**:
+     1. **Same Board != Same Vacancy**:
+        - Major institutions (IITs, NITs, AIIMS, CSIR labs, Universities, State Health Societies, District Courts, PSUs) frequently publish dozens of separate, concurrent recruitments for completely different positions (e.g. `Project Research Scientist` vs `Technical Support`, or `JRF` vs `Project Engineer`, or `Doctor` vs `Sweeper`).
+        - A duplicate is **ONLY valid if the specific post designation / trade / project** is the same!
+        - **NEVER** mark a job as a duplicate solely because the organization name or location matches.
+     2. **Post Designation Isolation**:
+        - Strip the organization name and boilerplate words (`recruitment`, `notification`, `posts`, `apply`, `online`, `offline`) from both candidate and existing titles before comparing.
+        - A duplicate requires $\ge 60\%$ overlap on the *specific post designation tokens*. If the post designations are distinct (e.g., `Research Associate` vs `Project Scientist`), it is a NEW vacancy.
+     3. **Campus / City Disambiguation**:
+        - For multi-campus or decentralized institutions (IIT, NIT, AIIMS, Central Universities, District Courts, Anganwadi), verify the specific campus, district, or city (e.g. IIT Kanpur vs IIT Dhanbad; AIIMS Delhi vs AIIMS Rishikesh). Different campuses are independent employers and must NEVER be conflated.
+     4. **No Slug Truncation Collisions**:
+        - Candidate slugs (`id`) must preserve distinctive campus, city, and post identifiers (e.g., `iit-dhanbad-jrf-2026` vs `iit-kanpur-project-scientist-2026`). Never truncate away the campus or post name into a generic prefix.
+        - If a generated slug already exists in `jobDetails.json`, check whether the post or Advt No is distinct. If distinct, append a specific discriminator (e.g. `-articleId`, `-postCode`, or `-dept`) rather than discarding the vacancy!
+     5. **Authoritative Advt No Matching**:
+        - Advt No matches are only valid if the number contains $\ge 5$ characters and is not a generic placeholder (`2026`, `ADVT2026`, `NOTICE2026`).
+   - If and only if a true duplicate is confirmed:
+     - Log: `[SKIPPED DUPLICATE] <Job Title> (<Board Name>) already exists.`
+     - Proceed directly to the next URL.
 
 5. **Exhaustive Zero-Loss Data Extraction (No Skipping or Summarizing)**:
    - **Zero Truncation**: Never compress, omit, or summarize tables.
@@ -134,17 +150,17 @@ Use `read_url_content` or `python scripts/extract_web_vacancy.py "<URL>"` to fet
      ```
   3. Combine webpage text and official PDF text for 100% complete, verified extraction without guesswork.
 
-#### Step 3: Duplicate Check (Look Before Adding)
-Run the duplicate checker:
+#### Step 3: Duplicate Check (With Post-Designation Precision)
+Run the duplicate checker passing the specific post designation, board, and advertisement number:
 ```bash
-python scripts/check_duplicate_vacancy.py "<Job Title / Board>" "<Board Name>" "<Advt No>"
+python scripts/check_duplicate_vacancy.py "<Specific Post Name / Designation>" "<Board Name>" "<Advt No>"
 ```
-- **If duplicate is found (Score >= 50 or exact match)**:
-  - Log: `[SKIPPED DUPLICATE] <Job Title> (<Board Name>) already exists.`
+- **If a genuine duplicate is verified (Matching Board AND matching Post Designation, or authoritative Advt No)**:
+  - Log: `[SKIPPED DUPLICATE] <Specific Post Name> (<Board Name>) already exists.`
   - **Do NOT add.**
   - **Move immediately to the next URL.**
-- **If no duplicate**:
-  - Proceed to Step 4.
+- **If no duplicate (or different post at the same board)**:
+  - Proceed to Step 4. Ensure the generated candidate `id` incorporates the specific campus/city and post name to prevent slug collisions.
 
 #### Step 4: Build Complete Grounded Job JSON Schema
 Save complete job schema JSON to `scratch/temp_job.json`:
