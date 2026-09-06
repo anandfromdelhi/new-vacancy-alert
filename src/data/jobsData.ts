@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-institute-of-technology-tr-junior-research-fellow-jrf-project-recruitment-2026",
+    "b": "National Institute of Technology Trichy (NIT Trichy)",
+    "t": "National Institute of Technology Trichy (NIT Trichy) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF)/ Project Associate-1 Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "17 September 2026",
+    "a": "NITT/SEED/TIDE/DST/2026/GC",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "National Institute of Technology Trichy (NIT Trichy) has officially released employment advertisement notification NITT/SEED/TIDE/DST/2026/GC for the recruitment of 1 vacancies for Junior Research Fellow (JRF)/ Project Associate-1 posts.",
+    "u": "https://nitt.edu/home/other/jobs/ICE_JRF_PA-I_SEP_2026_v2.pdf"
+},
+  {
+    "id": "indian-institute-of-management-udai-research-assistantassociate-recruitment-2026",
+    "b": "Indian Institute of Management Udaipur (IIM Udaipur)",
+    "t": "Indian Institute of Management Udaipur (IIM Udaipur) Recruitment 2026 Notification Out for 1 Research Assistant/Associate Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA | Master's / PG Degree",
+    "desc": "Indian Institute of Management Udaipur (IIM Udaipur) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Research Assistant/Associate posts.",
+    "u": "https://www.iimu.ac.in/research-assistant-associate-position-under-finance-accounting-sept-2026/"
+},
+  {
+    "id": "psssb-group-d-group-d-sewadar-chowkidar-safai-sew-recruitment-2026",
+    "b": "PSSSB Group D",
+    "t": "PSSSB Group D Recruitment 2026 Notification Out for 2 Group-D (Sewadar, Chowkidar, Safai Sewak, and other Group-D posts) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "14 September 2026",
+    "a": "04 of 2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "PSSSB Group D has officially released employment advertisement notification 04 of 2026 for the recruitment of 2 vacancies for Group-D (Sewadar, Chowkidar, Safai Sewak, and other Group-D posts) posts.",
+    "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/02/Advertisement-Group-D-1.pdf"
+},
+  {
+    "id": "punjab-agricultural-university-pau-junior-fieldlab-helper-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Junior Field/Lab Helper Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "1768-1858",
+    "q": "Middle with Punjabi",
+    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification 1768-1858 for the recruitment of 1 vacancies for Junior Field/Lab Helper posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7556"
+},
+  {
+    "id": "national-institute-of-science-educa-special-work-based-consultant-recruitment-2026",
+    "b": "National Institute of Science Education and Research Bhubaneswar (NISER)",
+    "t": "National Institute of Science Education and Research Bhubaneswar (NISER) Recruitment 2026 Notification Out for 1 Special Work-based Consultant Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "15 September 2026",
+    "a": "NISER / R&D-317 / BL2501 / 14 / 2026-27",
+    "q": "M.Sc",
+    "desc": "National Institute of Science Education and Research Bhubaneswar (NISER) has officially released employment advertisement notification NISER / R&D-317 / BL2501 / 14 / 2026-27 for the recruitment of 1 vacancies for Special Work-based Consultant posts.",
+    "u": "https://www.niser.ac.in/readpdf.php"
+},
+  {
+    "id": "ordnance-factory-dehu-road-graduatediploma-project-engineer-recruitment-2026",
+    "b": "Ordnance Factory Dehu Road",
+    "t": "Ordnance Factory Dehu Road Recruitment 2026 Notification Out for 10 Graduate/Diploma Project Engineer Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "23 September 2026",
+    "a": "1914/02/OFDR/Tenure Based/Project Engineer / 2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Ordnance Factory Dehu Road has officially released employment advertisement notification 1914/02/OFDR/Tenure Based/Project Engineer / 2026 for the recruitment of 10 vacancies for Graduate/Diploma Project Engineer posts.",
+    "u": "https://munitionsindia.in/"
+},
+  {
+    "id": "indian-institute-of-management-kozh-support-engineer-it-recruitment-2026",
+    "b": "Indian Institute of Management Kozhikode",
+    "t": "Indian Institute of Management Kozhikode Recruitment 2026 Notification Out for 1 Support Engineer (IT) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "07 September 2026",
+    "a": "C-65/2026-IIMK.HR",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Indian Institute of Management Kozhikode has officially released employment advertisement notification C-65/2026-IIMK.HR for the recruitment of 1 vacancies for Support Engineer (IT) posts.",
+    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6Ill5bkxZdFRwUzBhVnEreWg5RDk2QkE9PSIsInZhbHVlIjoiRnpsVlkvVnhnaXdibE9OSklXNDUvZz09IiwibWFjIjoiYTkxZTNhYzliNDdlNmQyNDJiNmJhYTZmNzZkNDUxODYxOWIxYzk1ZGU2NTc3NTI0NzM3NjIzZjc0MmE4YTIxYyIsInRhZyI6IiJ9"
+},
+  {
+    "id": "kea-principal-principal-government-pre-university-recruitment-2026",
+    "b": "KEA Principal",
+    "t": "KEA Principal Recruitment 2026 Notification Out for 247 Principal, Government Pre-University Colleges Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "04 October 2026",
+    "a": "ED/KEA/29/Recruitment/2026-KK)",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "KEA Principal has officially released employment advertisement notification ED/KEA/29/Recruitment/2026-KK) for the recruitment of 247 vacancies for Principal, Government Pre-University Colleges posts.",
+    "u": "https://cetonline.karnataka.gov.in/kea/"
+},
+  {
+    "id": "jawaharlal-nehru-centre-for-advance-junior-research-fellow-recruitment-2026",
+    "b": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
+    "t": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "20 September 2026",
+    "a": "NCU-EMR-176",
+    "q": "B.Tech / B.E | M.Sc | Any Bachelor's Degree",
+    "desc": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released employment advertisement notification NCU-EMR-176 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-09/NCU-EMR-176_0.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-data-entry-operator-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Deoghar",
+    "t": "All India Institute of Medical Sciences Deoghar Recruitment 2026 Notification Out for 1 Data Entry Operator Posts | Walk-in Interview",
+    "d": "06 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "AIIMS/Deo/ICMR-IIRPIG/Recruit(I)/01-02138/2024-25/73",
+    "q": "12th Pass | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Deoghar has officially released employment advertisement notification AIIMS/Deo/ICMR-IIRPIG/Recruit(I)/01-02138/2024-25/73 for the recruitment of 1 vacancies for Data Entry Operator posts.",
+    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/walkin_interview_for_the_post_of_deo_dated_18_092026_05092026022143975.pdf"
+},
+  {
     "id": "indian-institute-of-technology-mand-non-teaching-positions-recruitment-2026",
     "b": "Indian Institute of Technology Mandi (IIT Mandi)",
     "t": "Indian Institute of Technology Mandi (IIT Mandi) Recruitment 2026 Notification Out for 8 Non-Teaching Positions Posts | Apply Online",
