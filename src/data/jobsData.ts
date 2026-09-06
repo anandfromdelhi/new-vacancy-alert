@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "uttarakhand-subordinate-s-computer-assistant-junior-recruitment-2026",
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 553 Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "07 October 2026",
+    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially released employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 for the recruitment of 553 vacancies for Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311041608906.pdf"
+},
+  {
+    "id": "indian-institute-of-techn-project-positions-under-q-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 7 Project Positions under QUEST Project Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "07 September 2026",
+    "a": "SRIC/06",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification SRIC/06 for the recruitment of 7 vacancies for Project Positions under QUEST Project posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv29082026.pdf"
+},
+  {
+    "id": "rural-development-and-pan-record-clerk-recruitment-2026",
+    "b": "Rural Development and Panchayat Department Sivaganga (TNRD Sivaganga)",
+    "t": "Rural Development and Panchayat Department Sivaganga (TNRD Sivaganga) Recruitment 2026 Notification Out for 1 Record Clerk Posts | Apply Offline",
+    "d": "06 September 2026",
+    "l": "30 September 2026",
+    "a": "A1.1607.2026",
+    "q": "10th / 8th Pass",
+    "desc": "Rural Development and Panchayat Department Sivaganga (TNRD Sivaganga) has officially released employment advertisement notification A1.1607.2026 for the recruitment of 1 vacancies for Record Clerk posts.",
+    "u": "https://cdn.s3waas.gov.in/s31a5b1e4daae265b790965a275b53ae50/uploads/2026/09/17882415823878.pdf"
+},
+  {
+    "id": "tnpsc-ctse-interview-post-31-different-post-names-recruitment-2026",
+    "b": "TNPSC CTSE Interview Posts",
+    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 31 different post names Posts | Apply Online",
+    "d": "06 September 2026",
+    "l": "06 October 2026, 11:59 PM",
+    "a": "741",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "TNPSC CTSE Interview Posts has officially released employment advertisement notification 741 for the recruitment of 170 vacancies for 31 different post names posts.",
+    "u": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf"
+},
+  {
     "id": "birla-institute-of-techno-junior-research-fellow-recruitment-2026",
     "b": "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
     "t": "Birla Institute of Technology and Science, Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
