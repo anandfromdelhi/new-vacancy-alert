@@ -49,7 +49,7 @@ STOPWORDS = {
     'department', 'recruitment', 'online', 'offline', 'posts', 'post', 'vacancies',
     'vacancy', '2026', 'total', 'various', 'apply', 'walkin', 'walk-in', 'notification',
     'notice', 'dated', 'govt', 'government', 'state', 'central', 'commission', 'board',
-    'office', 'officer', 'national', 'assistant', 'selection', 'public', 'service'
+    'national', 'public'
 }
 
 CAMPUS_CITIES = [
@@ -59,8 +59,11 @@ CAMPUS_CITIES = [
     'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
     'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
     'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
-    'khammam', 'prakasam', 'shibpur', 'kolkata'
+    'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
+    'deoghar', 'kozhikode'
 ]
+
+GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}
 
 def extract_distinctive_tokens(text):
     if not text:
@@ -73,7 +76,7 @@ def check_duplicate(query_text, board_query="", advt_query=""):
     matches = []
     
     clean_advt_query = re.sub(r'[^a-z0-9]', '', advt_query.lower()) if advt_query else ""
-    is_valid_advt = bool(clean_advt_query and len(clean_advt_query) >= 5 and not clean_advt_query.endswith("2026") and clean_advt_query not in ["advtno", "various", "notice", "notification"])
+    is_valid_advt = bool(clean_advt_query and len(clean_advt_query) >= 5 and not clean_advt_query.endswith("2026") and clean_advt_query not in GENERIC_ADVTS)
     
     board_tokens = extract_distinctive_tokens(board_query)
     post_tokens = extract_distinctive_tokens(query_text) - board_tokens
@@ -92,9 +95,9 @@ def check_duplicate(query_text, board_query="", advt_query=""):
         job_advt = job['advtNo'].lower()
         
         # 1. Exact or authoritative Advt No match
-        if is_valid_advt:
-            clean_job_advt = re.sub(r'[^a-z0-9]', '', job_advt)
-            if clean_job_advt and clean_advt_query == clean_job_advt:
+        clean_job_advt = re.sub(r'[^a-z0-9]', '', job_advt)
+        if is_valid_advt and clean_job_advt and clean_job_advt not in GENERIC_ADVTS:
+            if clean_advt_query == clean_job_advt:
                 score += 55
                 reasons.append(f"Exact Advt No. match ({advt_query})")
 
@@ -102,9 +105,7 @@ def check_duplicate(query_text, board_query="", advt_query=""):
         job_full_text = f"{job_id} {job_title} {job_board}"
         job_campus = [c for c in CAMPUS_CITIES if c in job_full_text]
         if query_campus and job_campus:
-            # If both specify a campus/city and they do not overlap, these are DIFFERENT campuses!
             if not set(query_campus).intersection(set(job_campus)):
-                # Do NOT match across different campuses of the same institute
                 continue
 
         # 3. Organization match
@@ -118,19 +119,32 @@ def check_duplicate(query_text, board_query="", advt_query=""):
         # 4. Post designation match
         job_title_tokens = extract_distinctive_tokens(job_title) - job_board_tokens
         post_match = False
-        post_overlap_count = 0
-        if post_tokens and job_title_tokens:
-            common_post = post_tokens.intersection(job_title_tokens)
-            post_overlap_count = len(common_post)
-            # Require at least 60% overlap on post designation words
-            if post_overlap_count >= max(1, len(post_tokens) * 0.6):
-                post_match = True
+        if board_match:
+            if is_valid_advt and clean_job_advt and clean_job_advt not in GENERIC_ADVTS:
+                if clean_advt_query != clean_job_advt:
+                    continue
+
+            if post_tokens and job_title_tokens:
+                # Disambiguate Junior vs Senior
+                if ('junior' in post_tokens and 'senior' in job_title_tokens) or ('senior' in post_tokens and 'junior' in job_title_tokens):
+                    continue
+                # Disambiguate Assistant vs Associate vs Fellow vs Scientist
+                if ('assistant' in post_tokens and any(k in job_title_tokens for k in ['associate', 'fellow', 'scientist'])) or \
+                   ('associate' in post_tokens and any(k in job_title_tokens for k in ['assistant', 'fellow', 'scientist'])):
+                    continue
+
+                common_post = post_tokens.intersection(job_title_tokens)
+                if len(post_tokens) <= 2:
+                    if common_post == post_tokens and len(job_title_tokens) <= 3:
+                        post_match = True
+                else:
+                    if len(common_post) >= max(2, len(post_tokens) * 0.7):
+                        post_match = True
 
         if board_match and post_match:
             score += 45
             reasons.append(f"Same Board and matching Post designation ({', '.join(post_tokens.intersection(job_title_tokens))})")
         elif board_match and not post_match:
-            # Same board, but DIFFERENT post: only give minimal score (cannot trigger duplicate)
             score += 15
             reasons.append(f"Board match only ({board_query}), post appears distinct")
         elif post_match and not board_match:
