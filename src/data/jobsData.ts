@@ -321,14 +321,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "health-family-welfare-department-go-medical-health-officer-i-mho-i-or-e-recruitment-2026",
-    "b": "Health & Family Welfare Department, Government of Assam",
-    "t": "Health & Family Welfare Department, Government of Assam Recruitment 2026 Notification Out for 560 Medical & Health Officer-I (M&HO-I) or equivalent Posts | Apply Online",
-    "d": "06 September 2026",
+    "b": "Medical and Health Recruitment Board (MHRB), Government of Assam",
+    "t": "Medical and Health Recruitment Board (MHRB), Assam Recruitment 2026 Notification Out for 560 Medical & Health Officer–I (M&HO-I) Posts | Apply Online",
+    "d": "03 September 2026",
     "l": "20 September 2026",
-    "a": "HEALTH-FAMILY-/2026",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree",
-    "desc": "Health & Family Welfare Department, Government of Assam has officially released employment advertisement notification HEALTH-FAMILY-/2026 for the recruitment of 560 vacancies for Medical & Health Officer-I (M&HO-I) or equivalent posts.",
-    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/uploadAdmin/uploads/job177-doc-1.pdf"
+    "a": "No. MHRB/73/M&HO-I/2026/5051, Dated 03.09.2026",
+    "q": "MBBS Degree (MCI-recognized) + Assam Medical Council Registration",
+    "desc": "Medical and Health Recruitment Board (MHRB), Assam, operating under the Health & Family Welfare Department, Government of Assam, has published official recruitment advertisement No. MHRB/73/M&HO-I/2026/5051 dated 3rd September 2026 inviting online applications from eligible Indian citizens for filling up 560 vacancies of Medical & Health Officer–I (M&HO-I) or its equivalent ranks. Selected candidates will be placed in the scale of pay of Rs. 30,000/- to Rs. 1,10,000/- with Grade Pay of Rs. 12,700/- plus admissible allowances under the Government of Assam Rules.",
+    "u": "https://nhm.assam.gov.in/"
 },
   {
     "id": "industrial-development-bank-of-indi-part-time-doctor-recruitment-2026",
