@@ -499,12 +499,12 @@ export const JOBS_DATA: JobEntry[] = [
     "id": "secretariat-administratio-peon-cleaner-sweeper-chow-recruitment-2026",
     "b": "Secretariat Administration Department (Nazarat), Government of Meghalaya",
     "t": "Secretariat Administration Department (Nazarat), Government of Meghalaya Recruitment 2026 Notification Out for 153 Peon, Cleaner, Sweeper, Chowkidar, Mali (Grade IV) Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "18 September 2026, up to 5:00 PM (17:00 hrs)",
+    "d": "17 August 2026",
+    "l": "18 September 2026 (5:00 PM)",
     "a": "SAN.66/2019/89, dated 17.08.2026",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "Secretariat Administration Department (Nazarat), Government of Meghalaya has officially released employment advertisement notification SAN.66/2019/89, dated 17.08.2026 for the recruitment of 153 vacancies for Peon, Cleaner, Sweeper, Chowkidar, Mali (Grade IV) posts.",
-    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/08/17873105015989.pdf"
+    "q": "Class VI Passed",
+    "desc": "Government of Meghalaya, Secretariat Administration Department (Nazarat), Meghalaya Civil Secretariat, Shillong has issued official employment advertisement No. SAN.66/2019/89 dated 17th August 2026 inviting online applications from eligible Indian citizens for 153 Grade IV vacancies. The advertised positions comprise 124 posts of Peon, 17 posts of Cleaner, 6 posts of Sweeper, 3 posts of Chowkidar, and 3 posts of Mali in Level-1 of the Pay Matrix plus usual allowances admissible under the Meghalaya Government Rules.",
+    "u": "https://rpa.meghalaya.gov.in/"
 },
   {
     "id": "karnataka-public-service-group-a-b-recruitment-2026",
@@ -1960,14 +1960,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026",
-    "b": "Secretariat Administration Department (Nazarat), Meghalaya Civil Secretariat",
+    "b": "Secretariat Administration Department (Nazarat), Government of Meghalaya",
     "t": "Meghalaya Civil Secretariat Grade IV Recruitment 2026: 153 Peon, Cleaner, Sweeper, Chowkidar and Mali Posts | Apply Online",
     "d": "17 August 2026",
     "l": "18 September 2026 (5:00 PM)",
     "a": "SAN.66/2019/89, dated 17.08.2026",
-    "q": "Class VI (6th) Passed",
-    "desc": "The Secretariat Administration Department (Nazarat), Government of Meghalaya, has released an official recruitment notification (Advt No. SAN.66/2019/89) for 153 Grade IV vacancies in the Meghalaya Civil Secretariat. The advertised posts include Peon (124 posts), Cleaner (17 posts), Sweeper (6 posts), Chowkidar (3 posts), and Mali (3 posts).",
-    "u": "https://rpa.imeghalaya.gov.in/"
+    "q": "Class VI Passed",
+    "desc": "Government of Meghalaya, Secretariat Administration Department (Nazarat), Meghalaya Civil Secretariat, Shillong has issued official employment advertisement No. SAN.66/2019/89 dated 17th August 2026 inviting online applications from eligible Indian citizens for 153 Grade IV vacancies. The advertised positions comprise 124 posts of Peon, 17 posts of Cleaner, 6 posts of Sweeper, 3 posts of Chowkidar, and 3 posts of Mali in Level-1 of the Pay Matrix plus usual allowances admissible under the Meghalaya Government Rules.",
+    "u": "https://rpa.meghalaya.gov.in/"
 },
   {
     "id": "vehicle-research-and-developme-junior-research-fellow-recruitment-2026",
