@@ -467,7 +467,7 @@ export function JobTile({ job }: { job: JobEntry; key?: React.Key }) {
           <span className="truncate">{boardAcronym}</span>
         </span>
         {postsInfo.display && (
-          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-50 text-amber-900 border border-amber-200/80">
             🔥 {postsInfo.display}
           </span>
         )}

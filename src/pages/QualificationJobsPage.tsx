@@ -275,7 +275,7 @@ function StateSectionCard({
       data-state-slug={section.stateSlug}
       className={`state-card-contain rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 ${
         isUserLocalState
-          ? 'bg-emerald-50/70 border-2 border-emerald-500 border-t-emerald-600 ring-2 ring-emerald-400/30 shadow-md'
+          ? 'bg-indigo-50/40 border-2 border-indigo-200/90 border-t-indigo-600 ring-2 ring-indigo-200/30 shadow-xs'
           : section.isAllIndia 
             ? 'bg-slate-50/70 border-2 border-slate-200/90 border-t-blue-600 hover:border-blue-400' 
             : 'bg-slate-50/70 border-2 border-slate-200/90 border-t-indigo-600 hover:border-blue-400'
@@ -284,12 +284,12 @@ function StateSectionCard({
       <div>
         {/* User Local State Badge */}
         {isUserLocalState && (
-          <div className="flex items-center justify-between gap-2 pb-2 mb-2.5 border-b border-emerald-200/70">
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-black bg-emerald-600 text-white shadow-2xs">
+          <div className="flex items-center justify-between gap-2 pb-2 mb-2.5 border-b border-indigo-200/60">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10.5px] font-black bg-indigo-600 text-white shadow-2xs">
               <Sparkles className="w-3 h-3 text-amber-300" />
               <span>Vacancies in Your State ({section.stateName})</span>
             </span>
-            <span className="text-[10px] font-black text-emerald-800 bg-emerald-100/90 px-2 py-0.5 rounded-md border border-emerald-300/80">
+            <span className="text-[10px] font-black text-indigo-800 bg-indigo-100/90 px-2 py-0.5 rounded-md border border-indigo-200">
               📍 Auto-Detected
             </span>
           </div>
@@ -301,7 +301,7 @@ function StateSectionCard({
             <div className="flex items-center gap-2.5 min-w-0">
               <div className={`p-2 rounded-xl border shrink-0 ${
                 isUserLocalState
-                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300'
+                  ? 'bg-indigo-100 text-indigo-800 border-indigo-200'
                   : section.isAllIndia 
                     ? 'bg-blue-50 text-blue-600 border-blue-200' 
                     : 'bg-indigo-50 text-indigo-700 border-indigo-200'
@@ -655,7 +655,7 @@ export default function QualificationJobsPage() {
                     onClick={() => scrollToState(st.stateSlug)}
                     className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer border flex items-center gap-1.5 ${
                       isLocalPill
-                        ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-950 border-emerald-400 ring-2 ring-emerald-300/40'
+                        ? 'bg-indigo-50 hover:bg-indigo-100 text-indigo-950 border-indigo-300 ring-2 ring-indigo-200/40'
                         : st.isAllIndia
                           ? 'bg-blue-50 text-blue-900 border-blue-200 hover:bg-blue-100'
                           : 'bg-slate-50 hover:bg-amber-50 text-slate-800 border-slate-200 hover:border-amber-300'
@@ -665,7 +665,7 @@ export default function QualificationJobsPage() {
                     {isLocalPill && <span className="text-[10px]">📍</span>}
                     <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-bold ${
                       isLocalPill
-                        ? 'bg-emerald-200 text-emerald-900'
+                        ? 'bg-indigo-200 text-indigo-900'
                         : st.isAllIndia 
                           ? 'bg-blue-200 text-blue-900' 
                           : 'bg-slate-200 text-slate-700'

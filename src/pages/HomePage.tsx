@@ -73,7 +73,7 @@ function JobTile({ job, isLocal }: { job: JobEntry; isLocal?: boolean; key?: Rea
       onClick={() => startLoading(`Loading ${boardAcronym} Details...`)}
       className={`group block rounded-xl p-3 sm:p-3.5 transition-all duration-150 relative overflow-hidden ${
         isLocal
-          ? 'bg-emerald-50/80 hover:bg-emerald-100/70 border-2 border-emerald-500 shadow-xs ring-2 ring-emerald-400/20'
+          ? 'bg-indigo-50/35 hover:bg-indigo-50/60 border border-indigo-200/90 hover:border-indigo-400 shadow-2xs ring-1 ring-indigo-200/40'
           : 'bg-white hover:bg-blue-50/50 border border-slate-200/90 hover:border-blue-400 shadow-2xs hover:shadow-sm'
       }`}
     >
@@ -82,20 +82,20 @@ function JobTile({ job, isLocal }: { job: JobEntry; isLocal?: boolean; key?: Rea
         <div className="flex items-center gap-1.5 min-w-0 max-w-[72%]">
           <span className={`inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md border truncate ${
             isLocal 
-              ? 'bg-emerald-100 text-emerald-900 border-emerald-300' 
+              ? 'bg-indigo-50 text-indigo-700 border-indigo-200/80' 
               : 'bg-blue-50 text-blue-700 border-blue-200/80'
           }`}>
-            <Building2 className={`w-3 h-3 shrink-0 ${isLocal ? 'text-emerald-700' : 'text-blue-600'}`} />
+            <Building2 className={`w-3 h-3 shrink-0 ${isLocal ? 'text-indigo-600' : 'text-blue-600'}`} />
             <span className="truncate">{boardAcronym}</span>
           </span>
           {isLocal && (
-            <span className="shrink-0 inline-flex items-center gap-0.5 text-[9.5px] font-black px-1.5 py-0.5 rounded-md bg-emerald-600 text-white shadow-2xs">
+            <span className="shrink-0 inline-flex items-center gap-0.5 text-[9.5px] font-black px-1.5 py-0.5 rounded-md bg-indigo-600 text-white shadow-3xs">
               <span>📍 Your State</span>
             </span>
           )}
         </div>
         {postsInfo.display && (
-          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+          <span className="shrink-0 inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-50 text-amber-900 border border-amber-200/80">
             🔥 {postsInfo.display}
           </span>
         )}
@@ -103,21 +103,21 @@ function JobTile({ job, isLocal }: { job: JobEntry; isLocal?: boolean; key?: Rea
 
       {/* Job Title */}
       <h4 className={`text-xs sm:text-[13px] font-black leading-snug line-clamp-2 mb-2 transition-colors ${
-        isLocal ? 'text-slate-900 group-hover:text-emerald-800' : 'text-slate-800 group-hover:text-blue-700'
+        isLocal ? 'text-slate-900 group-hover:text-indigo-700' : 'text-slate-800 group-hover:text-blue-700'
       }`}>
         {job.t}
       </h4>
 
       {/* Bottom meta: Last Date + Details link */}
       <div className={`flex items-center justify-between text-[11px] font-bold pt-1.5 border-t ${
-        isLocal ? 'border-emerald-200/60 text-emerald-900' : 'border-slate-100 text-slate-500'
+        isLocal ? 'border-indigo-100/70 text-slate-500' : 'border-slate-100 text-slate-500'
       }`}>
         <span className="inline-flex items-center gap-1 text-rose-600 font-extrabold text-[10.5px]">
           <Clock className="w-3 h-3 shrink-0" />
           <span>Last Date: {formattedLastDate}</span>
         </span>
         <span className={`inline-flex items-center gap-0.5 group-hover:translate-x-0.5 transition-transform text-[11px] font-black ${
-          isLocal ? 'text-emerald-700' : 'text-blue-600'
+          isLocal ? 'text-indigo-600 group-hover:text-indigo-800' : 'text-blue-600 group-hover:text-blue-700'
         }`}>
           <span>Details</span>
           <ChevronRight className="w-3.5 h-3.5" />
@@ -171,26 +171,26 @@ function CategorySectionCard({
     <div 
       id={`section-${section.slug}`}
       data-section-slug={section.slug}
-      className="category-card-contain bg-slate-50/70 border-2 border-slate-200/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between shadow-2xs hover:shadow-md transition-all duration-200 border-t-4 border-t-blue-600 hover:border-blue-400 scroll-mt-20 sm:scroll-mt-24"
+      className="category-card-contain bg-transparent sm:bg-slate-50/70 border-0 sm:border-2 border-slate-200/90 sm:border-t-4 sm:border-t-blue-600 rounded-none sm:rounded-2xl p-0 sm:p-5 flex flex-col justify-between shadow-none sm:shadow-2xs hover:shadow-md transition-all duration-200 border-t-blue-600 hover:border-blue-400 scroll-mt-20 sm:scroll-mt-24 pb-6 mb-2 border-b border-slate-200/80 sm:border-b-0 sm:pb-0 sm:mb-0"
     >
       {/* Section Header - Clickable to open dedicated qualification page */}
       <div>
         <Link 
           to={section.moreUrl}
-          className="group/header block pb-3 mb-3 border-b border-slate-200/80 hover:bg-blue-50/60 rounded-xl p-1.5 -m-1.5 transition-colors"
+          className="group/header block pb-2.5 mb-2.5 sm:pb-3 sm:mb-3 border-b border-slate-200/80 hover:bg-blue-50/60 rounded-xl p-0.5 sm:p-1.5 sm:-m-1.5 transition-colors"
           title={`Browse all ${section.name} jobs grouped by state`}
         >
           <div className="flex items-center justify-between gap-2">
-            <div className="flex items-center gap-2.5 min-w-0">
-              <div className="p-2 rounded-xl border bg-blue-50 text-blue-600 border-blue-200 shrink-0 group-hover/header:bg-blue-600 group-hover/header:text-white transition-colors">
+            <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+              <div className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl border bg-blue-50 text-blue-600 border-blue-200 shrink-0 group-hover/header:bg-blue-600 group-hover/header:text-white transition-colors">
                 <GraduationCap className="w-4 h-4" />
               </div>
-              <h3 className="text-sm sm:text-base font-black text-slate-800 group-hover/header:text-blue-600 tracking-tight truncate transition-colors">
+              <h3 className="text-sm sm:text-base font-black text-slate-900 sm:text-slate-800 group-hover/header:text-blue-600 tracking-tight truncate transition-colors">
                 {section.name}
               </h3>
             </div>
             <div className="flex items-center gap-1.5 shrink-0">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-white border border-slate-200 text-slate-700 shadow-3xs group-hover/header:border-blue-300">
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] sm:text-xs font-black bg-blue-50 sm:bg-white border border-blue-200 sm:border-slate-200 text-blue-700 sm:text-slate-700 shadow-3xs group-hover/header:border-blue-300">
                 {section.count} {section.count === 1 ? 'Job' : 'Jobs'}
               </span>
               <ChevronRight className="w-4 h-4 text-slate-400 group-hover/header:text-blue-600 group-hover/header:translate-x-0.5 transition-all" />
@@ -199,7 +199,7 @@ function CategorySectionCard({
         </Link>
 
         {/* Top 3 Job Tiles */}
-        <div className="space-y-2.5 mb-4">
+        <div className="space-y-2 sm:space-y-2.5 mb-3 sm:mb-4">
           {topPreviewJobs.map((job, idx) => {
             const isLocal = !!userStateSlug && toSlug(getStateFromJob(job)) === userStateSlug;
             return (
@@ -212,7 +212,7 @@ function CategorySectionCard({
       {/* View More Button */}
       <Link
         to={section.moreUrl}
-        className="w-full py-2.5 px-4 rounded-xl bg-white text-slate-800 font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-slate-200 hover:bg-blue-600 hover:text-white hover:border-blue-600"
+        className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-700 sm:text-slate-800 hover:text-white font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-2xs group border border-blue-200 sm:border-slate-200 hover:bg-blue-600 hover:border-blue-600"
       >
         <span>View All {section.count} {section.name} Jobs (State Wise)</span>
         <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -494,13 +494,13 @@ export default function HomePage() {
       </div>
 
       {/* Main Dashboard Container */}
-      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto p-4 sm:p-6 2xl:p-8 pb-24 md:pb-8 space-y-6">
+      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto px-2.5 sm:px-6 2xl:px-8 py-3 sm:py-6 2xl:py-8 pb-24 md:pb-8 space-y-4 sm:space-y-6">
         
         {/* Adsterra Display Banner */}
         <AdsterraBanner />
 
         {/* Category Sections Container */}
-        <div className="bg-white rounded-2xl shadow-xs border border-slate-200/90 p-4 sm:p-6">
+        <div className="bg-transparent sm:bg-white rounded-none sm:rounded-2xl shadow-none sm:shadow-xs border-0 sm:border border-slate-200/90 p-0 sm:p-6">
           
 
           {deferredSearch && (
