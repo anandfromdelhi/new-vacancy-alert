@@ -5908,7 +5908,105 @@ export default function JobDetailPage() {
               </div>
             )}
 
-                            {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
+                            {id === 'pmbi-recruitment-2026-manager-executive-pharmacist-178-posts' && (
+              <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800 space-y-5">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+                  <h4 className="text-xs sm:text-sm font-black text-emerald-400 flex items-center gap-2">
+                    <Building2 className="h-4.5 w-4.5 text-emerald-400" /> PMBI 178 Posts Department Matrix &amp; Key Highlights
+                  </h4>
+                  <span className="text-[10px] font-bold text-emerald-950 bg-emerald-400 px-2.5 py-0.5 rounded-full w-fit">
+                    12 Specialized Departments
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5">
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Sales &amp; Marketing</div>
+                    <div className="text-lg font-black text-emerald-400">68 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹1.58 Lakh</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Quality</div>
+                    <div className="text-lg font-black text-emerald-400">49 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹1.58 Lakh</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Procurement</div>
+                    <div className="text-lg font-black text-emerald-400">13 Posts</div>
+                    <div className="text-[10px] text-slate-400">Pharma &amp; Veterinary</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Finance &amp; Accounts</div>
+                    <div className="text-lg font-black text-emerald-400">14 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹1.13 Lakh</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Logistics &amp; SCM</div>
+                    <div className="text-lg font-black text-emerald-400">9 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹53,000</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">IT &amp; MIS</div>
+                    <div className="text-lg font-black text-emerald-400">8 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹1.13 Lakh</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">HR &amp; Admin</div>
+                    <div className="text-lg font-black text-emerald-400">4 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹67,000</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Grievance Division</div>
+                    <div className="text-lg font-black text-emerald-400">4 Posts</div>
+                    <div className="text-[10px] text-slate-400">RTI &amp; CPGRAM</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Legal</div>
+                    <div className="text-lg font-black text-emerald-400">3 Posts</div>
+                    <div className="text-[10px] text-slate-400">LL.B / LL.M</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">International Assistance</div>
+                    <div className="text-lg font-black text-emerald-400">3 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹1.13 Lakh</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Coordination Cell</div>
+                    <div className="text-lg font-black text-emerald-400">2 Posts</div>
+                    <div className="text-[10px] text-slate-400">Salary up to ₹90,000</div>
+                  </div>
+                  <div className="bg-slate-800/80 border border-slate-700/80 p-3 rounded-xl">
+                    <div className="text-[11px] font-bold text-slate-300">Media</div>
+                    <div className="text-lg font-black text-emerald-400">1 Post</div>
+                    <div className="text-[10px] text-slate-400">Mass Comm / PR</div>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+                  <div className="bg-slate-800/90 border border-amber-500/30 p-3.5 rounded-xl">
+                    <div className="flex items-center gap-1.5 text-amber-400 font-black text-xs mb-1.5">
+                      <Send className="h-4 w-4" /> Postal Dispatch Guidelines (Offline Only)
+                    </div>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Send completed proforma + documents via Speed Post/Courier to:<br />
+                      <strong className="text-white">CEO, PMBI, B-500, Tower B, 5th Floor, World Trade Centre, Nauroji Nagar, New Delhi - 110029</strong>.<br />
+                      Envelope must be superscribed: <em>&quot;Application for the post of [Post Name]&quot;</em>.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/90 border border-rose-500/30 p-3.5 rounded-xl">
+                    <div className="flex items-center gap-1.5 text-rose-400 font-black text-xs mb-1.5">
+                      <AlertCircle className="h-4 w-4" /> Demand Draft &amp; Strict Rejection Rules
+                    </div>
+                    <p className="text-[11px] text-slate-300 font-medium leading-relaxed">
+                      Must enclose original <strong>Demand Draft of ₹100/-</strong> in name of <em>&quot;Pharmaceuticals &amp; Medical Devices Bureau of India (PMBI)&quot;</em>.<br />
+                      Email applications or forms without original DD will be <strong>rejected outright</strong>. Last Date: <strong>24 September 2026 (05:00 PM)</strong>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
               <div className="my-6 bg-slate-900 text-white rounded-2xl p-4 sm:p-6 shadow-md border border-slate-800">
                 <h4 className="text-xs sm:text-sm font-black text-orange-400 mb-3 flex items-center gap-2">
                   <FileSignature className="h-4.5 w-4.5 text-orange-400" /> CGSSB LST26 Exam Pattern &amp; Photo Guidelines

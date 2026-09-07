@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "pmbi-recruitment-2026-manager-executive-pharmacist-178-posts",
+    "b": "Pharmaceuticals & Medical Devices Bureau of India (PMBI)",
+    "t": "PMBI Recruitment 2026: Apply Offline for 178 Manager, Senior Executive, Pharmacist & Other Posts",
+    "d": "07 September 2026",
+    "l": "24 September 2026 (05:00 PM)",
+    "a": "02/2026",
+    "q": "B.Pharma / M.Pharma / Graduate / B.Com / B.Tech / MCA / LLB / BVSc & AH",
+    "desc": "Pharmaceuticals & Medical Devices Bureau of India (PMBI), the implementing agency of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana registered under the Societies Registration Act 1860, has released Vacancy Circular Advt. No. 02/2026 inviting offline applications from eligible candidates for 178 contractual positions.",
+    "u": "https://www.pmbi.co.in/index.aspx"
+},
+  {
     "id": "indian-institute-of-engineering-sci-junior-research-fellow-recruitment-2026",
     "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
     "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 2 Junior Research Fellow Posts | Apply Online",
