@@ -310,13 +310,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "delhi-high-court-senior-personal-as-senior-personal-assistant-spa-perso-recruitment-2026",
-    "b": "Delhi High Court Senior Personal Assistant & Personal Assistant",
-    "t": "Delhi High Court Senior Personal Assistant & Personal Assistant Recruitment 2026 Notification Out for 150 Senior Personal Assistant (SPA), Personal Assistant (PA) Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "05 October 2026",
-    "a": "DELHI-HIGH-COU/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Delhi High Court Senior Personal Assistant & Personal Assistant has officially released employment advertisement notification DELHI-HIGH-COU/2026 for the recruitment of 150 vacancies for Senior Personal Assistant (SPA), Personal Assistant (PA) posts.",
+    "b": "High Court of Delhi : New Delhi",
+    "t": "Delhi High Court Senior Personal Assistant (SPA) & Personal Assistant (PA) Recruitment 2026 Notification Out for 150 Group 'B' Posts | Apply Online",
+    "d": "02 September 2026",
+    "l": "05 October 2026 (11:00 PM)",
+    "a": "Senior Personal Assistant & Personal Assistant Examination 2026, Dated 02.09.2026",
+    "q": "Graduate Degree + English Shorthand (110/100 wpm) & Typing (40 wpm)",
+    "desc": "High Court of Delhi has officially published the employment Vacancy Notice dated 02 September 2026 for the Senior Personal Assistant and Personal Assistant Examination 2026 to fill 150 existing Group 'B' Gazetted/Non-Gazetted vacancies and prepare a select panel thereof. The recruitment drive encompasses 117 vacancies for Senior Personal Assistant (SPA) in Pay Level 8 and 33 vacancies for Personal Assistant (PA) in Pay Level 7 of the 7th CPC Pay Matrix.",
     "u": "https://www.delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf"
 },
   {
