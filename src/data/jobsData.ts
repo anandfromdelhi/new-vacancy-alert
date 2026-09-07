@@ -464,14 +464,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "tnpsc-ctse-interview-post-31-different-post-names-recruitment-2026",
-    "b": "TNPSC CTSE Interview Posts",
-    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 31 different post names Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "06 October 2026, 11:59 PM",
-    "a": "741",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "TNPSC CTSE Interview Posts has officially released employment advertisement notification 741 for the recruitment of 170 vacancies for 31 different post names posts.",
-    "u": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf"
+    "b": "Tamil Nadu Public Service Commission (TNPSC)",
+    "t": "TNPSC Combined Technical Services Examination (Interview Posts) 2026: 170 Vacancies across 31 Technical Cadres | Apply Online",
+    "d": "31 August 2026",
+    "l": "06 October 2026 (11:59 PM)",
+    "a": "Advertisement No. 741 | Notification No. 8/2026, Dated 31.08.2026",
+    "q": "B.E / B.Tech / PG / B.V.Sc / CA / ICWA / M.Lib / Degree (Cadre-specific)",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has officially published Advertisement No. 741 (Notification No. 8/2026) dated 31st August 2026 inviting online applications from eligible candidates for direct recruitment to 170 vacancies across 31 prestigious technical cadres through the Combined Technical Services Examination (Interview Posts). The advertised positions span diverse state departments, statutory boards, and public sector undertakings including Animal Husbandry, Industries & Commerce, Economics & Statistics, Town & Country Planning, Public Health, HR&CE, Legislative Assembly, SIPCOT, TIDCO, TANCEM, TIIC, and ELCOT.",
+    "u": "https://www.tnpscexams.in/"
 },
   {
     "id": "birla-institute-of-techno-junior-research-fellow-recruitment-2026",
@@ -1861,14 +1861,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "tnpsc-ctse-interview-posts-research-assistant-assistant-m-recruitment-2026",
-    "b": "TNPSC CTSE Interview Posts",
-    "t": "TNPSC CTSE Interview Posts Recruitment 2026 Notification Out for 170 Research Assistant, Assistant Manager and More Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "06 October 2026, 11:59 PM",
-    "a": "741",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "TNPSC CTSE Interview Posts has officially released employment advertisement notification 741 for the recruitment of 170 vacancies for Research Assistant, Assistant Manager and More posts.",
-    "u": "https://tnpsc.gov.in/document/english/CTSE%20(Interview%20Posts)%20%20English.pdf"
+    "b": "Tamil Nadu Public Service Commission (TNPSC)",
+    "t": "TNPSC Combined Technical Services Examination (Interview Posts) 2026: 170 Vacancies across 31 Technical Cadres | Apply Online",
+    "d": "31 August 2026",
+    "l": "06 October 2026 (11:59 PM)",
+    "a": "Advertisement No. 741 | Notification No. 8/2026, Dated 31.08.2026",
+    "q": "B.E / B.Tech / PG / B.V.Sc / CA / ICWA / M.Lib / Degree (Cadre-specific)",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has officially published Advertisement No. 741 (Notification No. 8/2026) dated 31st August 2026 inviting online applications from eligible candidates for direct recruitment to 170 vacancies across 31 prestigious technical cadres through the Combined Technical Services Examination (Interview Posts). The advertised positions span diverse state departments, statutory boards, and public sector undertakings including Animal Husbandry, Industries & Commerce, Economics & Statistics, Town & Country Planning, Public Health, HR&CE, Legislative Assembly, SIPCOT, TIDCO, TANCEM, TIIC, and ELCOT.",
+    "u": "https://www.tnpscexams.in/"
 },
   {
     "id": "indian-institute-of-management-research-assistant-ra-recruitment-2026",
@@ -2581,9 +2581,9 @@ export const JOBS_DATA: JobEntry[] = [
     "d": "31 August 2026",
     "l": "06 October 2026 (11:59 PM)",
     "a": "Advertisement No. 741 | Notification No. 8/2026, Dated 31.08.2026",
-    "q": "Degree / PG / B.E. / B.Tech / B.V.Sc / CA / ICWA (Cadre-specific)",
-    "desc": "The Tamil Nadu Public Service Commission (TNPSC) has released official Notification No. 8/2026 (Advt No. 741) inviting online applications for 170 vacancies across 31 technical cadres under the Combined Technical Services Examination (Interview Posts) 2026.",
-    "u": "https://www.tnpscexams.in"
+    "q": "B.E / B.Tech / PG / B.V.Sc / CA / ICWA / M.Lib / Degree (Cadre-specific)",
+    "desc": "Tamil Nadu Public Service Commission (TNPSC) has officially published Advertisement No. 741 (Notification No. 8/2026) dated 31st August 2026 inviting online applications from eligible candidates for direct recruitment to 170 vacancies across 31 prestigious technical cadres through the Combined Technical Services Examination (Interview Posts). The advertised positions span diverse state departments, statutory boards, and public sector undertakings including Animal Husbandry, Industries & Commerce, Economics & Statistics, Town & Country Planning, Public Health, HR&CE, Legislative Assembly, SIPCOT, TIDCO, TANCEM, TIIC, and ELCOT.",
+    "u": "https://www.tnpscexams.in/"
 },
   {
     "id": "iit-delhi-senior-research-fellow-srf-recruitment-2026",
