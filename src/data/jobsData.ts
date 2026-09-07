@@ -68,13 +68,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "up-anganwadi-anganwadi-karyakartri-anganwadi-wor-recruitment-2026",
-    "b": "UP Anganwadi",
-    "t": "UP Anganwadi Recruitment 2026 Notification Out for 105 Anganwadi Karyakartri (Anganwadi Worker), honorarium-based Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "24 September 2026 (till 12:00 midnight)",
-    "a": "C-679/Zi",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "UP Anganwadi has officially released employment advertisement notification C-679/Zi for the recruitment of 105 vacancies for Anganwadi Karyakartri (Anganwadi Worker), honorarium-based posts.",
+    "b": "Child Development Services and Nutrition (ICDS), District Amroha, Government of Uttar Pradesh",
+    "t": "UP Amroha Anganwadi Karyakatri (Worker) Recruitment 2026 Notification Out for 105 Posts across 7 Projects | Apply Online",
+    "d": "03 September 2026",
+    "l": "24 September 2026 (12:00 Midnight)",
+    "a": "C-671 / जि०का०अधि० / बा०वि०परि० / विज्ञप्ति / 2026-27, Dated 03.09.2026",
+    "q": "Minimum Intermediate (10+2 / 12th Pass) from a recognized Board",
+    "desc": "Office of the District Programme Officer, Amroha, Uttar Pradesh (कार्यालय : जिला कार्यक्रम अधिकारी, अमरोहा) has officially released employment advertisement notification No. C-671 / जि०का०अधि० / बा०वि०परि० / विज्ञप्ति / 2026-27 dated 03 September 2026 in accordance with UP Government Order No. 1/1092245/2025/3313/58-1-2025 (197687) dated 17 September 2025. Online applications are invited on http://upanganwadibharti.in for the direct recruitment of 105 vacancies for the honorarium-based post of Anganwadi Karyakatri (आंगनबाड़ी कार्यकत्री / Worker) across seven child development projects in Amroha district.",
     "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788441669_4a5e701d.pdf"
 },
   {
