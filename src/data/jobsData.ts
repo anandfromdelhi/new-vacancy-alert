@@ -508,14 +508,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "karnataka-public-service-group-a-b-recruitment-2026",
-    "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001",
-    "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 Recruitment 2026 Notification Out for 319 Group A & B Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "31 August 2026 07 September 2026",
-    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560 001 has officially released employment advertisement notification KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026 for the recruitment of 319 vacancies for Group A & B posts.",
-    "u": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf"
+    "b": "Karnataka Public Service Commission (KPSC)",
+    "t": "Karnataka Public Service Commission (KPSC) Gazetted Probationers Recruitment 2026 Notification Out for 319 Group 'A' & 'B' (KAS) Posts | Apply Online",
+    "d": "31 July 2026",
+    "l": "31 August 2026",
+    "a": "KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026, Dated 31.07.2026",
+    "q": "Any Bachelor's Degree or Master's Degree (Final Year Appearing Eligible)",
+    "desc": "Karnataka Public Service Commission (KPSC), 'Udyoga Soudha', Bengaluru has issued official notification No. KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026 dated 31st July 2026 for the recruitment of 319 Gazetted Probationers (Group 'A' & Group 'B' - KAS) for the 2026-27 recruitment cycle under the Karnataka Recruitment of Gazetted Probationers (Appointment by Competitive Examinations) Rules. The recruitment encompasses 117 Group 'A' posts (including 39 Assistant Commissioners, 50 Assistant Commissioners of Commercial Taxes, 15 Executive Officers / Assistant Secretaries RDPR, 11 Assistant Directors Social Welfare) and 202 Group 'B' posts (including 74 Commercial Tax Officers, 25 Tahsildars Grade-2, 21 Assistant Registrars of Cooperative Societies, 20 Chief Officers Grade-1, 12 Assistant Treasury Officers, and other executive cadres).",
+    "u": "https://kpsconline.karnataka.gov.in/"
 },
   {
     "id": "indian-institute-of-techn-junior-research-fellow-jr-recruitment-2026",
