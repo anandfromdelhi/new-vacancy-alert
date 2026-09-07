@@ -200,13 +200,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "kea-principal-principal-government-pre-university-recruitment-2026",
-    "b": "KEA Principal",
-    "t": "KEA Principal Recruitment 2026 Notification Out for 247 Principal, Government Pre-University Colleges Posts | Apply Online",
-    "d": "06 September 2026",
+    "b": "Karnataka Examination Authority (KEA) / Department of School Education (Pre-University)",
+    "t": "Karnataka Examination Authority (KEA) Pre-University College Principal Recruitment 2026 Notification Out for 247 Group 'A' Posts | Apply Online",
+    "d": "03 September 2026",
     "l": "04 October 2026",
-    "a": "ED/KEA/29/Recruitment/2026-KK)",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "KEA Principal has officially released employment advertisement notification ED/KEA/29/Recruitment/2026-KK) for the recruitment of 247 vacancies for Principal, Government Pre-University Colleges posts.",
+    "a": "ED/KEA/28/Recruitment/2026 (RPC) & ED/KEA/29/Recruitment/2026 (KK), Dated 03.09.2026",
+    "q": "In-Service Govt PU College Lecturers with Minimum 10 Years Service",
+    "desc": "Karnataka Examination Authority (KEA), Bengaluru, in coordination with the Department of School Education (Pre-University), Government of Karnataka, has officially released employment advertisement notifications No. ED/KEA/28/Recruitment/2026 (RPC) and ED/KEA/29/Recruitment/2026 (KK) dated 03 September 2026 for the recruitment of 247 Group 'A' Principal (ಪ್ರಾಂಶುಪಾಲರು) vacancies under the Direct Recruitment Quota in Government Pre-University Colleges across the state.",
     "u": "https://cetonline.karnataka.gov.in/kea/"
 },
   {
