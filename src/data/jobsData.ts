@@ -432,13 +432,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "uttarakhand-subordinate-s-computer-assistant-junior-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
-    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 553 Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) Posts | Apply Online",
-    "d": "06 September 2026",
+    "t": "UKSSSC Group C Intermediate Recruitment 2026: 553 Junior Assistant, Registration Clerk, Survey Lekhpal & Other Posts | Apply Online",
+    "d": "31 August 2026",
     "l": "07 October 2026",
-    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially released employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 for the recruitment of 553 vacancies for Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311041608906.pdf"
+    "a": "80 / उ०अ०से०च०आ० / 2026, Dated 31.08.2026",
+    "q": "Intermediate (10+2) Passed + Computer Hindi Typing 4000 KDPH",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC), Raipur, Dehradun has issued official employment notification Advt No. 80/उ०अ०से०च०आ०/2026 dated 31st August 2026 for direct recruitment of 553 vacancies in Group 'C' (समूह 'ग') cadres across various state government departments. The advertised positions include Junior Assistant (कनिष्ठ सहायक - 402 posts across directorates and district magistrate offices), Registration Clerk (निबन्धन लिपिक - 55 posts), Assistant Mining Inspector (सहायक खनिज पर्यवेक्षक - 22 posts), Survey Lekhpal (सर्वे लेखपाल - 16 posts), Junior Assistant cum Computer Operator (14 posts), Computer Assistant (09 posts), Land Acquisition Amin (08 posts), and others across Pay Level-2 (₹19,900 - ₹63,200), Pay Level-3 (₹21,700 - ₹69,100), Pay Level-4 (₹25,500 - ₹81,100), and Pay Level-5 (₹29,200 - ₹92,300).",
+    "u": "https://sssc.uk.gov.in/"
 },
   {
     "id": "indian-institute-of-techn-project-positions-under-q-recruitment-2026",
@@ -1689,10 +1689,10 @@ export const JOBS_DATA: JobEntry[] = [
     "t": "UKSSSC Group C Intermediate Level Recruitment 2026: 553 Junior Assistant, Registration Clerk, Survey Lekhpal & Other Posts | Apply Online",
     "d": "31 August 2026",
     "l": "07 October 2026",
-    "a": "Advt No. 80 / उ०अ०से०च०आ० / 2026, Dated 31.08.2026",
-    "q": "Intermediate (12th Pass) + Computer Typing (Hindi/English)",
-    "desc": "The Uttarakhand Subordinate Service Selection Commission (UKSSSC) has released Advertisement No. 80/2026 announcing direct recruitment for 553 Group 'C' (समूह 'ग') vacancies across various state government departments.",
-    "u": "https://www.sssc.uk.gov.in"
+    "a": "80 / उ०अ०से०च०आ० / 2026, Dated 31.08.2026",
+    "q": "Intermediate (10+2) Passed + Computer Hindi Typing 4000 KDPH",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC), Raipur, Dehradun has issued official employment notification Advt No. 80/उ०अ०से०च०आ०/2026 dated 31st August 2026 for direct recruitment of 553 vacancies in Group 'C' (समूह 'ग') cadres across various state government departments. The advertised positions include Junior Assistant (कनिष्ठ सहायक - 402 posts across directorates and district magistrate offices), Registration Clerk (निबन्धन लिपिक - 55 posts), Assistant Mining Inspector (सहायक खनिज पर्यवेक्षक - 22 posts), Survey Lekhpal (सर्वे लेखपाल - 16 posts), Junior Assistant cum Computer Operator (14 posts), Computer Assistant (09 posts), Land Acquisition Amin (08 posts), and others across Pay Level-2 (₹19,900 - ₹63,200), Pay Level-3 (₹21,700 - ₹69,100), Pay Level-4 (₹25,500 - ₹81,100), and Pay Level-5 (₹29,200 - ₹92,300).",
+    "u": "https://sssc.uk.gov.in/"
 },
   {
     "id": "esic-hospital-rudrapur-specialist-senior-resident-recruitment-2026",
