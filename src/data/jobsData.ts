@@ -1576,7 +1576,7 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "gsrtc-helper-helper-recruitment-2026",
     "b": "Gujarat State Road Transport Corporation (GSRTC)",
-    "t": "GSRTC Recruitment 2026: Apply Online for 2,510 Helper Posts (Advt GSRTC/202627/47)",
+    "t": "GSRTC Recruitment 2026 Notification Out for 2510 Helper Posts | Apply Online at ojas.gujarat.gov.in",
     "d": "07 September 2026",
     "l": "06 October 2026",
     "a": "GSRTC/202627/47",

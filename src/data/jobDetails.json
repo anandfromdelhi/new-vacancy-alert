@@ -140331,11 +140331,11 @@
   },
   "gsrtc-helper-helper-recruitment-2026": {
     "id": "gsrtc-helper-helper-recruitment-2026",
-    "seoTitle": "GSRTC Helper Recruitment 2026: Apply Online for 2510 Posts | NewVacancyAlert",
-    "seoDescription": "Gujarat State Road Transport Corporation (GSRTC) Helper Recruitment 2026 notification for 2,510 vacancies. Fixed pay ₹21,100/-, ITI qualification, selection pattern. Apply online by 06 October 2026.",
+    "seoTitle": "GSRTC Helper Recruitment 2026 (2510 Posts) Apply Online | NewVacancyAlert",
+    "seoDescription": "GSRTC Helper Recruitment 2026: Apply online for 2510 Helper posts on OJAS Gujarat. Check ITI eligibility, ₹21100 fixed pay, syllabus, exam pattern & last date 06 October 2026.",
     "focusKeywords": "GSRTC Helper Recruitment 2026, GSRTC Helper Vacancy 2026, Gujarat GSRTC Recruitment 2026, OJAS GSRTC Helper Apply Online, GSRTC 2510 Helper Posts",
     "lsiKeywords": "GSRTC Helper syllabus, GSRTC ITI Helper salary, ojas gujarat gov in GSRTC helper, GSRTC Helper notification pdf download, Gujarat Roadways helper jobs 2026",
-    "title": "GSRTC Recruitment 2026: Apply Online for 2,510 Helper Posts (Advt GSRTC/202627/47)",
+    "title": "GSRTC Recruitment 2026 Notification Out for 2510 Helper Posts | Apply Online at ojas.gujarat.gov.in",
     "board": "Gujarat State Road Transport Corporation (GSRTC)",
     "advtNo": "GSRTC/202627/47",
     "vacancies": 2510,
@@ -140395,11 +140395,11 @@
       },
       {
         "label": "Online Application Dates",
-        "value": "07 September 2026 to 06 October 2026"
+        "value": "07 September 2026 to 06 October 2026 (11:59 PM)"
       },
       {
         "label": "Fee Payment Last Date",
-        "value": "08 October 2026"
+        "value": "08 October 2026 (11:59 PM)"
       },
       {
         "label": "Official Websites",
@@ -140413,11 +140413,15 @@
       },
       {
         "event": "Last Date for Online Application Submission",
-        "date": "06 October 2026"
+        "date": "06 October 2026 (11:59 PM)"
       },
       {
         "event": "Last Date for Online Process Fee Payment",
-        "date": "08 October 2026"
+        "date": "08 October 2026 (11:59 PM)"
+      },
+      {
+        "event": "Age Reckoning Crucial Date",
+        "date": "06 October 2026"
       },
       {
         "event": "Written Examination (OMR / CBRT) Schedule",
@@ -140712,6 +140716,51 @@
         "question": "Where can candidates download the official notification and apply?",
         "answer": "Candidates can download the official notification and apply online on the OJAS Gujarat portal at https://ojas.gujarat.gov.in and check regular updates on https://gsrtc.in."
       }
+    ],
+    "examPattern": [
+      {
+        "subject": "General Knowledge, Gujarat History, Geography & Current Affairs of Gujarat (Class 10 Level)",
+        "questions": 30,
+        "marks": 30
+      },
+      {
+        "subject": "Gujarati Grammar (Class 10 Level)",
+        "questions": 5,
+        "marks": 5
+      },
+      {
+        "subject": "English Grammar (Class 10 Level)",
+        "questions": 5,
+        "marks": 5
+      },
+      {
+        "subject": "Trade / Technical Subject Questions (લાયકાતના વિષય વસ્તુને લગતા પ્રશ્નો)",
+        "questions": 50,
+        "marks": 50
+      },
+      {
+        "subject": "Basic Computer Knowledge & Usage",
+        "questions": 10,
+        "marks": 10
+      }
+    ],
+    "syllabus": {
+      "General Knowledge & Gujarat Affairs": "Gujarat History, Geography, Culture, Heritage, Administrative Setup, Important Monuments, Rivers, Dams, State Government Welfare Schemes, and Current Affairs of Gujarat and India (Class 10 Standard).",
+      "Gujarati Grammar": "Class 10 Standard Gujarati Vyakaran covering Sandhi, Samas, Alankar, Chhand, Jodni (Spelling rules), Samanarthi (Synonyms), Viruddharthi (Antonyms), Shabda Samuh mate Ek Shabda, and Ruhiprayogo.",
+      "English Grammar": "Class 10 Standard English Grammar including Tenses, Articles (A, An, The), Prepositions, Active and Passive Voice, Direct and Indirect Speech, Spotting Errors, Spelling Correction, and Basic Vocabulary.",
+      "Trade & Technical Subject": "Trade-specific technical questions based on ITI curriculum for Mechanic Motor Vehicle, Diesel Mechanic, Fitter, Turner, Electrician, Welder, Machinist, Carpenter, Sheet Metal Worker, and Painter (Engines, Cooling/Lubrication, Fuel Systems, Electrical Circuits, Workshop Tools, Safety Practices, Measuring Instruments, Maintenance).",
+      "Basic Computer Knowledge": "Fundamental computer concepts, Windows OS, MS Office (Word, Excel, PowerPoint), Web Browsing, Email, Internet Banking, File Management, and Keyboard Shortcuts."
+    },
+    "howToApplySteps": [
+      "Visit the official OJAS Gujarat portal at https://ojas.gujarat.gov.in.",
+      "Click on \"Apply Online\" in the main navigation bar and select \"GSRTC\" as the recruiting department.",
+      "Find Advertisement No: GSRTC/202627/47 for Helper (હેલ્પર) and click \"Apply Now\" to open the application format.",
+      "Enter your personal details accurately (mandatory fields marked with red asterisk *).",
+      "Fill in Educational Qualification: Select your ITI Trade, enter passing marks, total marks, percentage, institute name, and passing year. Also declare NCVT Apprenticeship and Computer knowledge details under Additional Qualifications.",
+      "Check the Self Declaration, accept the conditions by clicking \"Yes\", and click \"Save\" to generate your unique Application Number.",
+      "Click on \"Upload Photograph & Signature\", enter your Application Number and Date of Birth, and upload JPG photo (max 10 KB, 5.0 cm x 3.6 cm) and signature (max 10 KB, 2.5 cm x 7.5 cm).",
+      "Click \"Confirm Application\", preview your submitted details carefully, and confirm to generate your permanent Confirmation Number.",
+      "Click \"Online Payment of Fees\", enter your Confirmation Number and DOB, and pay the process fee (₹300 + GST for Unreserved; ₹200 + GST for Reserved/Women/PwD/Ex-SM) via Online Payment Gateway before 08 October 2026. Print and save the confirmation receipt."
     ]
   },
   "s-d-agricultural-university-sdau-junior-research-fellow-recruitment-2026": {
