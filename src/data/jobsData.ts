@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "anna-university-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Anna University",
+    "t": "Anna University Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "ANNA-UNIVERSIT/2026",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Anna University has officially released employment advertisement notification ANNA-UNIVERSIT/2026 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.annauniv.edu/pdf/02%20Adverisement%20for%20JRF.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-madr-junior-executive-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 2 Junior Executive Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "23 September 2026",
+    "a": "ICSR/PR/Advt.170/2026",
+    "q": "B.Tech / B.E | B.Com | M.Com",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially released employment advertisement notification ICSR/PR/Advt.170/2026 for the recruitment of 2 vacancies for Junior Executive posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788435078.pdf"
+},
+  {
+    "id": "tnfwccb-deo-data-analyst-and-more-recruitment-2026",
+    "b": "TNFWCCB",
+    "t": "TNFWCCB Recruitment 2026 Notification Out for 11 DEO, Data Analyst and More Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "19 September 2026 (Saturday), 05:00 PM",
+    "a": "01/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "TNFWCCB has officially released employment advertisement notification 01/2026 for the recruitment of 11 vacancies for DEO, Data Analyst and More posts.",
+    "u": "https://tnfwccb.com/recruitment/"
+},
+  {
+    "id": "bharat-heavy-electricals-bhel-part-time-medical-consultant-recruitment-2026",
+    "b": "Bharat Heavy Electricals (BHEL)",
+    "t": "Bharat Heavy Electricals (BHEL) Recruitment 2026 Notification Out for 1 Part Time Medical Consultant Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "PSSR:HR:301.04",
+    "q": "MBBS / Medical PG",
+    "desc": "Bharat Heavy Electricals (BHEL) has officially released employment advertisement notification PSSR:HR:301.04 for the recruitment of 1 vacancies for Part Time Medical Consultant posts.",
+    "u": "https://careers.bhel.in/static/PTMC%20Advt.-%20English_PSSR_092026.pdf"
+},
+  {
+    "id": "department-of-economics-and-statist-office-assistant-recruitment-2026",
+    "b": "Department of Economics and Statistics Chennai (DES Chennai)",
+    "t": "Department of Economics and Statistics Chennai (DES Chennai) Recruitment 2026 Notification Out for 1 Office Assistant Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "01/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Department of Economics and Statistics Chennai (DES Chennai) has officially released employment advertisement notification 01/2026 for the recruitment of 1 vacancies for Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2026/09/17884179192756.pdf"
+},
+  {
+    "id": "district-health-society-coimbatore-microbiologist-and-driver-recruitment-2026",
+    "b": "District Health Society Coimbatore",
+    "t": "District Health Society Coimbatore Recruitment 2026 Notification Out for 2 Microbiologist and Driver Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "M.Sc | MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "District Health Society Coimbatore has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for Microbiologist and Driver posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2026/09/17883419054897.pdf"
+},
+  {
+    "id": "rural-development-and-panchayat-dep-record-clerk-recruitment-2026",
+    "b": "Rural Development and Panchayat Department Thiruvarur",
+    "t": "Rural Development and Panchayat Department Thiruvarur Recruitment 2026 Notification Out for 1 Record Clerk Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "2541/2026/A3",
+    "q": "10th / 8th Pass",
+    "desc": "Rural Development and Panchayat Department Thiruvarur has officially released employment advertisement notification 2541/2026/A3 for the recruitment of 1 vacancies for Record Clerk posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e46de7e1bcaaced9a54f1e9d0d2f800d/uploads/2026/08/17878077174830.pdf"
+},
+  {
+    "id": "the-institute-of-mathematical-scien-project-associate-i-research-associ-recruitment-2026",
+    "b": "The Institute of Mathematical Sciences (IMSc)",
+    "t": "The Institute of Mathematical Sciences (IMSc) Recruitment 2026 Notification Out for 3 Project Associate - I, Research Associate - I, Project Technical Assistant [Level-II] Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "16 September 2026",
+    "a": "03-R/IMSc/2026",
+    "q": "Diploma | B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "The Institute of Mathematical Sciences (IMSc) has officially released employment advertisement notification 03-R/IMSc/2026 for the recruitment of 3 vacancies for Project Associate - I, Research Associate - I, Project Technical Assistant [Level-II] posts.",
+    "u": "https://www.imsc.res.in/~office/jobs/2026/Advt_03_R_02092026/Advt_03-R_02092026"
+},
+  {
+    "id": "uiic-ao-administrative-officer-scale-i-gene-recruitment-2026",
+    "b": "UIIC AO",
+    "t": "UIIC AO Recruitment 2026 Notification Out for 225 Administrative Officer (Scale I) - Generalists & Hindi Officers Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "28th September 2026",
+    "a": "UIIC-AO/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "UIIC AO has officially released employment advertisement notification UIIC-AO/2026 for the recruitment of 225 vacancies for Administrative Officer (Scale I) - Generalists & Hindi Officers posts.",
+    "u": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-finance-administrative-officer-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Finance & Administrative Officer Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "12 September 2026 (Walk-in)",
+    "a": "251) for 1 vacancy",
+    "q": "B.Sc | MCA / BCA | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification 251) for 1 vacancy for the recruitment of 1 vacancies for Finance & Administrative Officer posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788759334_Advertsiement%20Notice%20Finance%20Administrative%20Officer-070926.pdf"
+},
+  {
     "id": "all-india-institute-of-medical-scie-research-assistant-recruitment-2026",
     "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
     "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Walk-in Interview",
