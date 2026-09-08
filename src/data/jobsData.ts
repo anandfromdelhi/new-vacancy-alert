@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sikkim-university-research-assistant-and-field-i-recruitment-2026",
+    "b": "Sikkim University",
+    "t": "Sikkim University Recruitment 2026 Notification Out for 5 Research Assistant and Field Investigator Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "SIKKIM-UNIVERS/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sikkim University has officially announced employment advertisement notification SIKKIM-UNIVERS/2026 inviting applications for 5 vacancies for Research Assistant and Field Investigator posts.",
+    "u": "https://cus.ac.in/images/content/dynamic/noti/2026/Sept/Website%2C%20Project%20Recruitment%20Advertisement%20Final.pdf"
+},
+  {
+    "id": "birla-institute-of-technology-project-assistant-recruitment-2026",
+    "b": "Birla Institute of Technology and Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology and Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Sc | Any Bachelor's Degree",
+    "desc": "Birla Institute of Technology and Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Project_Assistant-Ad-Sandhya-Marathe-ANRF-Project-ADV-7-9-2026.pdf"
+},
+  {
+    "id": "indira-gandhi-national-centre-private-secretary-to-regional-recruitment-2026",
+    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
+    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 2 Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "15 September 2026 (Private Secretary), 16 September 2026 (Accounts Officer/ Project Assistant) (Walk-in)",
+    "a": "INDIRA-GANDHI-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially announced employment advertisement notification INDIRA-GANDHI-/2026 inviting applications for 2 vacancies for Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) posts.",
+    "u": "https://ignca.gov.in/vaccancy/01092026-Adv-RC-Puducherry.pdf"
+},
+  {
+    "id": "jawaharlal-institute-of-postgr-project-nurse-ii-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 Notification Out for 1 Project Nurse-II Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "JIP/MED/CHANGING/Staff/2026/1",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially announced employment advertisement notification JIP/MED/CHANGING/Staff/2026/1 inviting applications for 1 vacancies for Project Nurse-II posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScn6pHWP_dk7KMsmjNyI2ljrPrJc2SNkSHEmKH1aAumgKE7-Q/viewform"
+},
+  {
+    "id": "women-and-child-development-de-anganwadi-helper-recruitment-2026-3066686",
+    "b": "Women and Child Development Department Odisha",
+    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 8 Anganwadi Helper Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "WCD-ICDS-G-MISC-0033-2022 4970/WCD",
+    "q": "10th / 8th Pass",
+    "desc": "Women and Child Development Department Odisha has officially announced employment advertisement notification WCD-ICDS-G-MISC-0033-2022 4970/WCD inviting applications for 8 vacancies for Anganwadi Helper posts.",
+    "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
+},
+  {
+    "id": "nabard-financial-services-nabf-customer-service-officer-cso-recruitment-2026",
+    "b": "NABARD Financial Services (NABFINS)",
+    "t": "NABARD Financial Services (NABFINS) Recruitment 2026 Notification Out for 1 Customer Service Officer (CSO) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "12 September 2026",
+    "a": "Nabhins/OPS/1069",
+    "q": "12th Pass",
+    "desc": "NABARD Financial Services (NABFINS) has officially announced employment advertisement notification Nabhins/OPS/1069 inviting applications for 1 vacancies for Customer Service Officer (CSO) posts.",
+    "u": "https://nabfins.org/Careers/form.php?id=1069"
+},
+  {
+    "id": "women-and-child-development-de-anganwadi-helper-recruitment-2026",
+    "b": "Women and Child Development Department Odisha (WCD Odisha)",
+    "t": "Women and Child Development Department Odisha (WCD Odisha) Recruitment 2026 Notification Out for 2 Anganwadi Helper Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "WOMEN-AND-CHIL/2026",
+    "q": "M.Tech / M.E",
+    "desc": "Women and Child Development Department Odisha (WCD Odisha) has officially announced employment advertisement notification WOMEN-AND-CHIL/2026 inviting applications for 2 vacancies for Anganwadi Helper posts.",
+    "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
+},
+  {
+    "id": "all-india-institute-of-medical-research-assistant-and-laborat-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhubaneswar",
+    "t": "All India Institute of Medical Sciences Bhubaneswar Recruitment 2026 Notification Out for 8 Research Assistant and Laboratory Technician Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "12 September 2026",
+    "a": "AIIMS/BBSR/CM&FM/RIHSE/NACO/117/",
+    "q": "12th Pass | B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences Bhubaneswar has officially announced employment advertisement notification AIIMS/BBSR/CM&FM/RIHSE/NACO/117/ inviting applications for 8 vacancies for Research Assistant and Laboratory Technician posts.",
+    "u": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/09/cmfm-2.pdf"
+},
+  {
+    "id": "utkarsh-government-iti-balangi-guest-instructor-recruitment-2026",
+    "b": "Utkarsh Government ITI Balangir",
+    "t": "Utkarsh Government ITI Balangir Recruitment 2026 Notification Out for 2 Guest Instructor Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "UTKARSH-GOVERN/2026",
+    "q": "ITI | Diploma | Any Bachelor's Degree",
+    "desc": "Utkarsh Government ITI Balangir has officially announced employment advertisement notification UTKARSH-GOVERN/2026 inviting applications for 2 vacancies for Guest Instructor posts.",
+    "u": "https://balangir.odisha.gov.in/sites/default/files/2026-09/WALK-IN-INTERVIEW%20NOTICE.pdf"
+},
+  {
+    "id": "maharashtra-public-service-com-assistant-language-director-tr-recruitment-2026",
+    "b": "Maharashtra Public Service Commission (MPSC)",
+    "t": "Maharashtra Public Service Commission (MPSC) Recruitment 2026 Notification Out for 2 Assistant Language Director (Translation and Terminology) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "29 September 2026",
+    "a": "011/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Maharashtra Public Service Commission (MPSC) has officially announced employment advertisement notification 011/2026 inviting applications for 2 vacancies for Assistant Language Director (Translation and Terminology) posts.",
+    "u": "https://mpsc.gov.in"
+},
+  {
     "id": "zilla-parishad-dhule-legal-officer-contractual-recruitment-2026",
     "b": "Zilla Parishad Dhule",
     "t": "Zilla Parishad Dhule Recruitment 2026 Notification Out for 1 Legal Officer (Contractual) Posts | Apply Offline",
