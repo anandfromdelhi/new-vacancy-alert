@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "zilla-parishad-dhule-legal-officer-contractual-recruitment-2026",
+    "b": "Zilla Parishad Dhule",
+    "t": "Zilla Parishad Dhule Recruitment 2026 Notification Out for 1 Legal Officer (Contractual) Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "11 September 2026",
+    "a": "J.No.S.P.R./Judge/Pro.No.2/248/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Zilla Parishad Dhule has officially announced employment advertisement notification J.No.S.P.R./Judge/Pro.No.2/248/2026 inviting applications for 1 vacancies for Legal Officer (Contractual) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3a86c450b76fb8c371afead6410d55534/uploads/2026/08/17872883268804.pdf"
+},
+  {
+    "id": "indian-institute-of-banking-an-chief-technology-officer-recruitment-2026",
+    "b": "Indian Institute of Banking and Finance (IIBF)",
+    "t": "Indian Institute of Banking and Finance (IIBF) Recruitment 2026 Notification Out for 1 Chief Technology Officer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | MCA / BCA | Any Bachelor's Degree",
+    "desc": "Indian Institute of Banking and Finance (IIBF) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Chief Technology Officer posts.",
+    "u": "https://iibf.esdsconnect.com/careers/cto"
+},
+  {
+    "id": "indian-institute-of-banking-fi-faculty-member-recruitment-2026",
+    "b": "Indian Institute of Banking & Finance (IIBF)",
+    "t": "Indian Institute of Banking & Finance (IIBF) Recruitment 2026 Notification Out for 2 Faculty Member Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Banking & Finance (IIBF) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Faculty Member posts.",
+    "u": "https://www.iibf.org.in/"
+},
+  {
+    "id": "tata-institute-of-social-scien-senior-research-associate-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Senior Research Associate Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "TISS/ADVT/HRM& LR/September 2026",
+    "q": "Ph.D / Doctorate | Master's / PG Degree",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially announced employment advertisement notification TISS/ADVT/HRM& LR/September 2026 inviting applications for 1 vacancies for Senior Research Associate posts.",
+    "u": "https://recruitment.tiss.edu/"
+},
+  {
+    "id": "indian-institute-of-banking-an-assistant-director-academicstr-recruitment-2026",
+    "b": "Indian Institute of Banking and Finance (IIBF)",
+    "t": "Indian Institute of Banking and Finance (IIBF) Recruitment 2026 Notification Out for 1 Assistant Director (Academics/Training) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Banking and Finance (IIBF) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Assistant Director (Academics/Training) posts.",
+    "u": "https://iibf.esdsconnect.com/careers/assistant_director_academics"
+},
+  {
+    "id": "indian-institute-of-banking-fi-director-training-recruitment-2026",
+    "b": "Indian Institute of Banking & Finance (IIBF)",
+    "t": "Indian Institute of Banking & Finance (IIBF) Recruitment 2026 Notification Out for 1 Director (Training) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA",
+    "desc": "Indian Institute of Banking & Finance (IIBF) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Director (Training) posts.",
+    "u": "https://www.iibf.org.in/"
+},
+  {
+    "id": "maharashtra-public-service-com-deputy-medical-superintendent-recruitment-2026",
+    "b": "Maharashtra Public Service Commission (MPSC)",
+    "t": "Maharashtra Public Service Commission (MPSC) Recruitment 2026 Notification Out for 2 Deputy Medical Superintendent on Establishment of Suburban Hospitals Group-B Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "29 September 2026",
+    "a": "०२०/२०२६",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Maharashtra Public Service Commission (MPSC) has officially announced employment advertisement notification ०२०/२०२६ inviting applications for 2 vacancies for Deputy Medical Superintendent on Establishment of Suburban Hospitals Group-B posts.",
+    "u": "https://mpsc.gov.in"
+},
+  {
+    "id": "tata-memorial-hospital-junior-engineer-mechanical-recruitment-2026",
+    "b": "Tata Memorial Hospital",
+    "t": "Tata Memorial Hospital Recruitment 2026 Notification Out for 1 Junior Engineer Mechanical Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "09 September 2026 (Walk-in)",
+    "a": "OS/TMH/55/2026",
+    "q": "Diploma",
+    "desc": "Tata Memorial Hospital has officially announced employment advertisement notification OS/TMH/55/2026 inviting applications for 1 vacancies for Junior Engineer Mechanical posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=5Hk2CSIIbK1KH007WCmOwA=="
+},
+  {
+    "id": "jawaharlal-nehru-port-authorit-pilot-recruitment-2026",
+    "b": "Jawaharlal Nehru Port Authority (JNPA)",
+    "t": "Jawaharlal Nehru Port Authority (JNPA) Recruitment 2026 Notification Out for 1 Pilot Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "12 October 2026",
+    "a": "JAWAHARLAL-NEH/2026",
+    "q": "Master's / PG Degree",
+    "desc": "Jawaharlal Nehru Port Authority (JNPA) has officially announced employment advertisement notification JAWAHARLAL-NEH/2026 inviting applications for 1 vacancies for Pilot posts.",
+    "u": "https://www.jnport.gov.in/uploads/content_manager/Application_format_for_the_post_of_Pilot_and_form.pdf"
+},
+  {
+    "id": "esic-indore-maximum-age-recruitment-2026",
+    "b": "ESIC Indore",
+    "t": "ESIC Indore Recruitment 2026 Notification Out for 1 Maximum Age Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "Refer Official Notification",
+    "a": "07 of 2026 (F",
+    "q": "B.Tech / B.E | MBBS / Medical PG",
+    "desc": "ESIC Indore has officially announced employment advertisement notification 07 of 2026 (F inviting applications for 1 vacancies for Maximum Age posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_interview_for_Recruitment_of_Teaching_Faculty_and_Senior_Residents_on_contract_basis_at_ESIC_Medical_College_amp_Hospital_Indore_M_P_1788782441.pdf"
+},
+  {
     "id": "national-institute-of-technolo-junior-research-fellow-recruitment-2026",
     "b": "National Institute of Technology Calicut",
     "t": "National Institute of Technology Calicut Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
