@@ -894,12 +894,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "bihar-police-subordinate-services-c-gulma-samadesta-company-commander-recruitment-2026",
     "b": "Bihar Police Subordinate Services Commission (BPSSC)",
-    "t": "Bihar Police Subordinate Services Commission (BPSSC) Recruitment 2026 Notification Out for 65 Gulma Samadesta (Company Commander) Posts | Apply Online",
-    "d": "08 September 2026",
+    "t": "Bihar Police Subordinate Services Commission (BPSSC) Recruitment 2026: Apply Online for 65 Gulma Samadesta (Company Commander) Posts",
+    "d": "07 September 2026",
     "l": "10 October 2026",
     "a": "11/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Bihar Police Subordinate Services Commission (BPSSC) has officially released employment advertisement notification 11/2026 for the recruitment of 65 vacancies for Gulma Samadesta (Company Commander) posts.",
+    "q": "Bachelor's Degree (Graduation) in any discipline as on 01.08.2026",
+    "desc": "Bihar Police Subordinate Services Commission (BPSSC), Patna has officially published employment notification Advt. No. 11/2026 for the recruitment of 65 vacancies for the post of Gulma Samadesta / Company Commander (गुल्म समादेशक) under the Home Department (Special Branch), Government of Bihar in the Bihar Home Guard Service Cadre (बिहार गृह रक्षा वाहिनी सेवा संवर्ग). The recruitment is specifically conducted for eligible enrolled and trained Home Guards (including daily duty allowance sports personnel) possessing a graduate degree and minimum 5 years of duty experience.",
     "u": "https://bpssc.bihar.gov.in/Notices/Advt%20No.-11-2026.pdf"
 },
   {
