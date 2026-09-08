@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "odisha-adarsha-vidyalaya-keonjhar-assistant-cook-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Keonjhar",
+    "t": "Odisha Adarsha Vidyalaya Keonjhar Recruitment 2026 Notification Out for 2 Assistant Cook Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "25 September 2026",
+    "a": "ODISHA-ADARSHA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha Adarsha Vidyalaya Keonjhar has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 2 vacancies for Assistant Cook posts.",
+    "u": "https://kendujhar.odisha.gov.in/sites/default/files/2026-09/OAV%20TIKIRA%2CGTN-pages_0.pdf"
+},
+  {
+    "id": "national-health-mission-chandigarh-qualified-contractual-staff-recruitment-2026",
+    "b": "National Health Mission Chandigarh",
+    "t": "National Health Mission Chandigarh Recruitment 2026 Notification Out for 6 QUALIFIED CONTRACTUAL STAFF Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "10 September 2026",
+    "a": "NHM-UT/12/2026-27",
+    "q": "12th Pass | Diploma | B.Sc",
+    "desc": "National Health Mission Chandigarh has officially released employment advertisement notification NHM-UT/12/2026-27 for the recruitment of 6 vacancies for QUALIFIED CONTRACTUAL STAFF posts.",
+    "u": "https://nrhmchd.gov.in/cadmin/uploads/filemanagers/1788262542.pdf"
+},
+  {
     "id": "steel-authority-of-india-sail-advisor-recruitment-2026",
     "b": "Steel Authority of India (SAIL)",
     "t": "Steel Authority of India (SAIL) Recruitment 2026 Notification Out for 5 Advisor Posts | Apply Offline",
