@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tsu-anand-non-teaching-resident-engineer-senior-officer-an-recruitment-2026",
+    "b": "TSU Anand Non Teaching",
+    "t": "TSU Anand Non Teaching Recruitment 2026 Notification Out for 17 Resident Engineer, Senior Officer and More Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30th September 2026, 23:59 hrs",
+    "a": "TSU-ANAND-NON-/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "TSU Anand Non Teaching has officially released employment advertisement notification TSU-ANAND-NON-/2026 for the recruitment of 17 vacancies for Resident Engineer, Senior Officer and More posts.",
+    "u": "https://tsu.ac.in/careers/careers.php"
+},
+  {
+    "id": "sardar-vallabhbhai-national-institu-registrar-recruitment-2026",
+    "b": "Sardar Vallabhbhai National Institute of Technology Surat (SVNIT)",
+    "t": "Sardar Vallabhbhai National Institute of Technology Surat (SVNIT) Recruitment 2026 Notification Out for 1 Registrar Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "19 October 2026",
+    "a": "Estt. /2026/Gr_A (R)/1330",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sardar Vallabhbhai National Institute of Technology Surat (SVNIT) has officially released employment advertisement notification Estt. /2026/Gr_A (R)/1330 for the recruitment of 1 vacancies for Registrar posts.",
+    "u": "https://www.svnit.ac.in/Data/jobs/2026/September/Registrar%20post%20advertisement%202026.pdf"
+},
+  {
+    "id": "s-d-agricultural-university-sdau-junior-research-fellow-recruitment-2026",
+    "b": "S. D. Agricultural University (SDAU)",
+    "t": "S. D. Agricultural University (SDAU) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "25 August 2026 (Walk-in)",
+    "a": "S-D-AGRICULTUR/2026",
+    "q": "M.Sc",
+    "desc": "S. D. Agricultural University (SDAU) has officially released employment advertisement notification S-D-AGRICULTUR/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://dcs.sdau.edu.in/Uploads/news/advertisement%20for%20jrf%20soil.pdf"
+},
+  {
+    "id": "gsrtc-helper-helper-recruitment-2026",
+    "b": "GSRTC Helper",
+    "t": "GSRTC Helper Recruitment 2026 Notification Out for 2510 Helper Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "8th October 2026 (up to 23:59 hrs)",
+    "a": "GSRTC-HELPER/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GSRTC Helper has officially released employment advertisement notification GSRTC-HELPER/2026 for the recruitment of 2510 vacancies for Helper posts.",
+    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSRTC_202627_47.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-goa-registrar-superintending-engineer-t-recruitment-2026",
+    "b": "Indian Institute of Technology Goa (IIT Goa)",
+    "t": "Indian Institute of Technology Goa (IIT Goa) Recruitment 2026 Notification Out for 3 Registrar, Superintending Engineer, Technical Officer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "02 October 2026",
+    "a": "IITGoa/RECT/2026/05",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Goa (IIT Goa) has officially released employment advertisement notification IITGoa/RECT/2026/05 for the recruitment of 3 vacancies for Registrar, Superintending Engineer, Technical Officer posts.",
+    "u": "https://iitgoa.ac.in/wp-content/uploads/IITGOA_staff-recruitment_-Advt.-2026-05.pdf"
+},
+  {
+    "id": "csir-national-institute-of-oceanogr-project-associate-ii-recruitment-2026",
+    "b": "CSIR National Institute of Oceanography",
+    "t": "CSIR National Institute of Oceanography Recruitment 2026 Notification Out for 2 Project Associate - II Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "13 September 2026",
+    "a": "GAP003897/3301-26",
+    "q": "M.Sc",
+    "desc": "CSIR National Institute of Oceanography has officially released employment advertisement notification GAP003897/3301-26 for the recruitment of 2 vacancies for Project Associate - II posts.",
+    "u": "https://www.nio.res.in/vacancies/temporary/1747280"
+},
+  {
+    "id": "punjab-sind-bank-chief-risk-officer-recruitment-2026",
+    "b": "Punjab & Sind Bank",
+    "t": "Punjab & Sind Bank Recruitment 2026 Notification Out for 1 Chief Risk Officer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "12 September 2026",
+    "a": "PUNJAB-SIND-BA/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Punjab & Sind Bank has officially released employment advertisement notification PUNJAB-SIND-BA/2026 for the recruitment of 1 vacancies for Chief Risk Officer posts.",
+    "u": "https://punjabandsind.bank.in/system/uploads/recruitment/7932_2026090317360729759.pdf"
+},
+  {
+    "id": "indian-railway-catering-and-tourism-tourism-monitor-recruitment-2026",
+    "b": "Indian Railway Catering and Tourism Corporation (IRCTC)",
+    "t": "Indian Railway Catering and Tourism Corporation (IRCTC) Recruitment 2026 Notification Out for 9 Tourism Monitor Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "22 & 23, September 2026 (Walk-in)",
+    "a": "INDIAN-RAILWAY/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Indian Railway Catering and Tourism Corporation (IRCTC) has officially released employment advertisement notification INDIAN-RAILWAY/2026 for the recruitment of 9 vacancies for Tourism Monitor posts.",
+    "u": "https://www.irctc.com/assets/images2/interviewTourismMonitorcontractualIRCTCNorthZone6sep26.pdf"
+},
+  {
+    "id": "indian-council-of-medical-research-young-professional-ii-recruitment-2026",
+    "b": "Indian Council of Medical Research (ICMR)",
+    "t": "Indian Council of Medical Research (ICMR) Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "ICMD/DataCenter/RIO/Staff",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Council of Medical Research (ICMR) has officially released employment advertisement notification ICMD/DataCenter/RIO/Staff for the recruitment of 1 vacancies for Young Professional-II posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1788430542_yp-iiadvertismentenglish.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-pts-iii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 7 PTS-III Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 7 vacancies for PTS-III posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/ccm-3-9-26.pdf"
+},
+  {
     "id": "nspcl-sr-assistant-officer-sr-assistant-e-recruitment-2026",
     "b": "NSPCL",
     "t": "NSPCL Recruitment 2026 Notification Out for 1 Sr. Assistant Officer & Sr. Assistant Engineer Posts | Apply Online",
