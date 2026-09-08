@@ -299,14 +299,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "uiic-ao-administrative-officer-scale-i-gene-recruitment-2026",
-    "b": "UIIC AO",
-    "t": "UIIC AO Recruitment 2026 Notification Out for 225 Administrative Officer (Scale I) - Generalists & Hindi Officers Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "28th September 2026",
-    "a": "UIIC-AO/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "UIIC AO has officially released employment advertisement notification UIIC-AO/2026 for the recruitment of 225 vacancies for Administrative Officer (Scale I) - Generalists & Hindi Officers posts.",
-    "u": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf"
+    "b": "United India Insurance Company Limited (UIIC)",
+    "t": "UIIC AO Recruitment 2026: Apply Online for 225 Administrative Officer (Scale-I) Posts (Generalists & Hindi Officers)",
+    "d": "07 September 2026",
+    "l": "28 September 2026",
+    "a": "HO:HRM:REC:AO:1:2026",
+    "q": "Bachelor's / Master's Degree in any discipline (min 60% marks, 55% for SC/ST/PwBD)",
+    "desc": "United India Insurance Company Limited (UIIC), a premier wholly-owned Government of India Public Sector General Insurance Company headquartered in Chennai, has officially announced employment notification Ref: HO:HRM:REC:AO:1:2026 (dated 07 September 2026) for open market recruitment of 225 Administrative Officers (Scale-I) in Generalists and Hindi Officer disciplines.",
+    "u": "https://uiic.co.in"
 },
   {
     "id": "all-india-institute-of-medical-scie-finance-administrative-officer-recruitment-2026",
