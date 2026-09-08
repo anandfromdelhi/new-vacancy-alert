@@ -971,12 +971,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "office-of-the-district-women-child-anganwadi-worker-helper-recruitment-2026",
     "b": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District",
-    "t": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District Recruitment 2026 Notification Out for 70 Anganwadi Worker & Helper Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "18 September 2026, 5:00 P.M.",
+    "t": "Nandyal District Anganwadi Recruitment 2026: Apply Offline for 70 Anganwadi Worker & Helper Posts",
+    "d": "02 September 2026",
+    "l": "18 September 2026 (05:00 PM)",
     "a": "WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District has officially released employment advertisement notification WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL for the recruitment of 70 vacancies for Anganwadi Worker & Helper posts.",
+    "q": "10th Class (SSC) Passed (Local Married Female Resident)",
+    "desc": "The Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District, Government of Andhra Pradesh has officially issued notification WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL (dated 02 September 2026) for filling 70 vacancies across 6 ICDS Projects. The recruitment drive covers 3 posts of Main Anganwadi Worker (మేయిన్ అంగన్వాడీ కార్యకర్త) and 67 posts of Anganwadi Helper / Ayah (అంగన్వాడీ ఆయా) across Anganwadi Centres located in Atmakur, Nandyal, Dhone, Allagadda, Banaganapalli, and Nandikotkur Projects.",
     "u": "https://cdn.s3waas.gov.in/s319b650660b253761af189682e03501dd/uploads/2026/09/17884355642604.pdf"
 },
   {
