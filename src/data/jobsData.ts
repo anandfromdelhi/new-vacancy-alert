@@ -431,13 +431,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "maharashtra-metro-rail-corporation-mts-junior-engineer-and-more-recruitment-2026",
-    "b": "Maharashtra Metro Rail Corporation Limited (MAHA Metro)",
-    "t": "Maharashtra Metro Rail Corporation Limited (MAHA Metro) Recruitment 2026 Notification Out for 56 MTS, Junior Engineer and More Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "25 September 2026 at 18:00 hrs",
-    "a": "MAHA Metro/ N/ HR/ 05/ 2026",
-    "q": "Experienced persons of Indian Nationality from Metro Rail/ Railway/ Rail...",
-    "desc": "Maharashtra Metro Rail Corporation Limited (MAHA Metro) has officially released employment advertisement notification MAHA Metro/ N/ HR/ 05/ 2026 for the recruitment of 56 vacancies for MTS, Junior Engineer and More posts.",
+    "b": "Maharashtra Metro Rail Corporation Limited (MAHA-Metro)",
+    "t": "Maharashtra Metro Rail Corporation Limited (MAHA-Metro) Recruitment 2026: Apply Offline for 56 JE, Technician, Office Assistant & Attendant Posts",
+    "d": "10 August 2026",
+    "l": "25 September 2026 (18:00 hrs)",
+    "a": "MAHA-Metro/N/HR/05/2026",
+    "q": "B.E. / B.Tech / Diploma / ITI / Graduate / HSC / SSC with Driving License",
+    "desc": "Maharashtra Metro Rail Corporation Limited (MAHA-Metro), a premier 50:50 Joint Venture Company of the Government of India and the Government of Maharashtra implementing prestigious metro projects including Nagpur Metro, Pune Metro, Thane Integral Ring Metro, and O&M of Navi Mumbai Metro Line-1, has officially released recruitment advertisement MAHA-Metro/N/HR/05/2026 (dated 10 August 2026). The notification invites offline applications from experienced personnel of Indian nationality holding Maharashtra domicile for 56 supervisory and non-supervisory positions on a 3-year contract basis.",
     "u": "https://www.mahametro.org/pdf/Advt.%20N_HR_05%20%20with%20form%203.pdf"
 },
   {
