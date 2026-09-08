@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nspcl-sr-assistant-officer-sr-assistant-e-recruitment-2026",
+    "b": "NSPCL",
+    "t": "NSPCL Recruitment 2026 Notification Out for 1 Sr. Assistant Officer & Sr. Assistant Engineer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "22 September 2026 (till 06:00 PM)",
+    "a": "01/2026) to fill 17 vacancies for Sr",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "NSPCL has officially released employment advertisement notification 01/2026) to fill 17 vacancies for Sr for the recruitment of 1 vacancies for Sr. Assistant Officer & Sr. Assistant Engineer posts.",
+    "u": "https://www.nspcl.co.in/storage/app/public/uploads/careers/NSPCL_website.pdf"
+},
+  {
+    "id": "india-infrastructure-finance-compan-deputy-general-manager-grade-d-recruitment-2026",
+    "b": "India Infrastructure Finance Company (IIFCL)",
+    "t": "India Infrastructure Finance Company (IIFCL) Recruitment 2026 Notification Out for 5 Deputy General Manager (Grade D) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "IIFCL/HCMD/2026/08",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "India Infrastructure Finance Company (IIFCL) has officially released employment advertisement notification IIFCL/HCMD/2026/08 for the recruitment of 5 vacancies for Deputy General Manager (Grade D) posts.",
+    "u": "https://iifcl.in/images/FileUploaded/HindiDGMRecruitmentAdvertisementSeptember2026pdf03092026192115.pdf"
+},
+  {
+    "id": "vivekananda-college-delhi-assistant-professor-guest-faculty-recruitment-2026",
+    "b": "Vivekananda College Delhi",
+    "t": "Vivekananda College Delhi Recruitment 2026 Notification Out for 3 Assistant Professor (Guest Faculty) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "10 September 2026",
+    "a": "VIVEKANANDA-CO/2026",
+    "q": "As per UGC Regulations, 2018 and as adopted by the University of Delhi/UGC",
+    "desc": "Vivekananda College Delhi has officially released employment advertisement notification VIVEKANANDA-CO/2026 for the recruitment of 3 vacancies for Assistant Professor (Guest Faculty) posts.",
+    "u": "https://www.du.ac.in/uploads/uploads/07092026-Notice-Guest%20Fac-Commerce-vivekananda.pdf"
+},
+  {
+    "id": "bhaskaracharya-college-of-applied-s-guest-faculty-recruitment-2026",
+    "b": "Bhaskaracharya College of Applied Sciences",
+    "t": "Bhaskaracharya College of Applied Sciences Recruitment 2026 Notification Out for 1 Guest Faculty Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "10 September 2026",
+    "a": "BCAS/17(6)/2026/MB/Guest",
+    "q": "B.Tech / B.E",
+    "desc": "Bhaskaracharya College of Applied Sciences has officially released employment advertisement notification BCAS/17(6)/2026/MB/Guest for the recruitment of 1 vacancies for Guest Faculty posts.",
+    "u": "https://www.du.ac.in/uploads/uploads/07092026-bcas-Guest_Ad_MB.pdf"
+},
+  {
+    "id": "telecommunications-consultants-indi-tech-team-hackathon-project-support-recruitment-2026",
+    "b": "Telecommunications Consultants India (TCIL)",
+    "t": "Telecommunications Consultants India (TCIL) Recruitment 2026 Notification Out for 3 TECH Team, Hackathon & Project Support Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "TELECOMMUNICAT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
+    "desc": "Telecommunications Consultants India (TCIL) has officially released employment advertisement notification TELECOMMUNICAT/2026 for the recruitment of 3 vacancies for TECH Team, Hackathon & Project Support posts.",
+    "u": "https://www.tcil.net.in/docs/career/07092026.pdf"
+},
+  {
+    "id": "export-import-bank-of-india-exim-ba-deputy-manager-manager-recruitment-2026",
+    "b": "Export-Import Bank of India (Exim Bank)",
+    "t": "Export-Import Bank of India (Exim Bank) Recruitment 2026 Notification Out for 8 Deputy Manager & Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "10 October 2026",
+    "a": "HRM/DM & M/SRD/2026-27/04",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Export-Import Bank of India (Exim Bank) has officially released employment advertisement notification HRM/DM & M/SRD/2026-27/04 for the recruitment of 8 vacancies for Deputy Manager & Manager posts.",
+    "u": "https://www.eximbankindia.in/sites/default/files/2026-09/Detailed%20SRD%20Advertisement%20for%20Website.pdf"
+},
+  {
+    "id": "samagra-shiksha-bemetara-music-instructor-recruitment-2026",
+    "b": "Samagra Shiksha Bemetara",
+    "t": "Samagra Shiksha Bemetara Recruitment 2026 Notification Out for 7 Music Instructor Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "489/समग्र शिक्षा/पीएम श्री/स्था./भर्ती/2026-27",
+    "q": "Any Bachelor's Degree",
+    "desc": "Samagra Shiksha Bemetara has officially released employment advertisement notification 489/समग्र शिक्षा/पीएम श्री/स्था./भर्ती/2026-27 for the recruitment of 7 vacancies for Music Instructor posts.",
+    "u": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/09/17884137367113.pdf"
+},
+  {
+    "id": "guru-ghasidas-vishwavidyalaya-finance-officer-professors-associat-recruitment-2026",
+    "b": "Guru Ghasidas Vishwavidyalaya",
+    "t": "Guru Ghasidas Vishwavidyalaya Recruitment 2026 Notification Out for 1 Finance Officer, Professors, Associate Professors, Assistant Professors Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "6995/Rec/Admn/2026)",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Guru Ghasidas Vishwavidyalaya has officially released employment advertisement notification 6995/Rec/Admn/2026) for the recruitment of 1 vacancies for Finance Officer, Professors, Associate Professors, Assistant Professors posts.",
+    "u": "https://www.ggu.ac.in/media/recruitment/1._advertizemnt-English_TLPGcuE.pdf"
+},
+  {
+    "id": "prasar-bharati-correspondent-recruitment-2026",
+    "b": "Prasar Bharati",
+    "t": "Prasar Bharati Recruitment 2026 Notification Out for 1 Correspondent Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "PRASAR-BHARATI/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Prasar Bharati has officially released employment advertisement notification PRASAR-BHARATI/2026 for the recruitment of 1 vacancies for Correspondent posts.",
+    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/09/NIA-Correspondent-DD-News.pdf"
+},
+  {
+    "id": "postgraduate-institute-of-medical-e-senior-resident-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 5 Senior Resident Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 5 vacancies for Senior Resident posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=SR%20ADHOC%20ADVT%20AN05Sep2026125911.pdf&PathKey=VACANCY_PATH"
+},
+  {
     "id": "government-medical-college-hospital-project-technical-support-iii-proje-recruitment-2026",
     "b": "Government Medical College Hospital Government Medical College Hospital Chandigarh",
     "t": "Government Medical College Hospital Government Medical College Hospital Chandigarh Recruitment 2026 Notification Out for 9 Project Technical Support-III, Project Nurse-III Posts | Apply Offline",
