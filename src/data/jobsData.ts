@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-project-research-scientist-2-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist-2 Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "M.Tech / M.E | M.Sc | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Research Scientist-2 posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pead-7-9-26.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-jr-research-fellow-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Jr. Research Fellow Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "IITD/IRD/239/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IITD/IRD/239/2026 inviting applications for 1 vacancies for Jr. Research Fellow posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1788777931523_0foijxn.pdf"
+},
+  {
+    "id": "ai-assets-holding-aiahl-medical-officer-recruitment-2026",
+    "b": "AI Assets Holding (AIAHL)",
+    "t": "AI Assets Holding (AIAHL) Recruitment 2026 Notification Out for 1 Medical Officer Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "AI-ASSETS-HOLD/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "AI Assets Holding (AIAHL) has officially announced employment advertisement notification AI-ASSETS-HOLD/2026 inviting applications for 1 vacancies for Medical Officer posts.",
+    "u": "https://www.aiasl.in/resources/Advertisemnt%20for%20Medical%20Officer%2007.09.26.pdf"
+},
+  {
+    "id": "national-bal-bhavan-various-posts-recruitment-2026",
+    "b": "National Bal Bhavan",
+    "t": "National Bal Bhavan Recruitment 2026 Notification Out for 168701 Various Posts Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "26 October 2026",
+    "a": "NATIONAL-BAL-B/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Bal Bhavan has officially announced employment advertisement notification NATIONAL-BAL-B/2026 inviting applications for 168701 vacancies for Various Posts posts.",
+    "u": "https://www.nationalbalbhavan.nic.in/Files/notice-2026/Recruitment%20to%20various%20posts%20in%20the%20National%20Bal%20Bhavan%20on%20a%20Direct%20Recruitment.jpeg"
+},
+  {
+    "id": "national-institute-of-immunolo-project-technical-support-iii-recruitment-2026",
+    "b": "National Institute of Immunology (NII)",
+    "t": "National Institute of Immunology (NII) Recruitment 2026 Notification Out for 2 Project Technical Support III / Project Technical Support I Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "National Institute of Immunology (NII) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 2 vacancies for Project Technical Support III / Project Technical Support I posts.",
+    "u": "https://www.nii.res.in/sites/default/files/announcement/events/PTS-III%20%26%20I%20%28ICMR%20Sep%2026%29%20.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-scientist-recruitment-2026-3066818",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Project Scientist Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "IITD/IRD/238/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IITD/IRD/238/2026 inviting applications for 1 vacancies for Project Scientist posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1788775274753_xtsihms.pdf"
+},
+  {
+    "id": "becil-technical-assistant-ent-emt-te-recruitment-2026",
+    "b": "BECIL",
+    "t": "BECIL Recruitment 2026 Notification Out for 41 Technical Assistant ENT, EMT Technician, Patient Care Manager, Lab Attendant, Dental Technician, Food Bearer, OT Technologist, Jr. Physiotherapist, Pharmacist, Radiographer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026 (18:00 Hrs)",
+    "a": "556",
+    "q": "Only Indian Nationals are eligible to apply. Educational qualification r...",
+    "desc": "BECIL has officially announced employment advertisement notification 556 inviting applications for 41 vacancies for Technical Assistant ENT, EMT Technician, Patient Care Manager, Lab Attendant, Dental Technician, Food Bearer, OT Technologist, Jr. Physiotherapist, Pharmacist, Radiographer posts.",
+    "u": "https://becilregistration.in/"
+},
+  {
+    "id": "eil-experienced-personnel-engineer-deputy-manager-manage-recruitment-2026",
+    "b": "EIL Experienced Personnel",
+    "t": "EIL Experienced Personnel Recruitment 2026 Notification Out for 61 Engineer, Deputy Manager, Manager, Senior Manager (22 positions) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "25 September 2026 (2359 hrs)",
+    "a": "HRD/Rectt./Advt./2026-27/08",
+    "q": "B.Tech / B.E | B.Sc | Ph.D / Doctorate",
+    "desc": "EIL Experienced Personnel has officially announced employment advertisement notification HRD/Rectt./Advt./2026-27/08 inviting applications for 61 vacancies for Engineer, Deputy Manager, Manager, Senior Manager (22 positions) posts.",
+    "u": "https://recruitment.eil.co.in/"
+},
+  {
+    "id": "all-india-institute-of-medical-project-coordinator-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Coordinator Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Coordinator posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/set%20fac.-8-9-26.pdf"
+},
+  {
+    "id": "directorate-of-education-lecturer-recruitment-2026",
+    "b": "Directorate of Education",
+    "t": "Directorate of Education Recruitment 2026 Notification Out for 2 Lecturer Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Directorate of Education has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 2 vacancies for Lecturer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/20260901202969884.pdf"
+},
+  {
     "id": "government-higher-secondary-sc-high-class-teacher-subject-exp-recruitment-2026",
     "b": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar",
     "t": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar Recruitment 2026 Notification Out for 11 High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part-time Music Teacher Posts | Apply Offline",
