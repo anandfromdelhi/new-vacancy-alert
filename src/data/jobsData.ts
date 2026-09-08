@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-senior-project-assistant-resea-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 Senior Project Assistant - Research Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "IIT/SRIC/R/IRNO/2026/102",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Kharagpur has officially announced employment advertisement notification IIT/SRIC/R/IRNO/2026/102 inviting applications for 1 vacancies for Senior Project Assistant - Research posts.",
+    "u": "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Login.jsp?ref_no=IIT/SRIC/R/IRNO/2026/102"
+},
+  {
+    "id": "academy-of-weapon-technology-m-electrical-fitter-mechanical-f-recruitment-2026",
+    "b": "Academy of Weapon Technology & Management (AWTM), Ichapur - a unit of AWEIL, Ministry of Defence",
+    "t": "Academy of Weapon Technology & Management (AWTM), Ichapur - a unit of AWEIL, Ministry of Defence Recruitment 2026 Notification Out for 40 Electrical Fitter, Mechanical Fitter, Machinist, Turner, Electroplater, Heat Treatment Operator Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "30 days from the date of publication of this advertisement in Employment News (07 October 2026)",
+    "a": "01/Hiring-GSF/AWTM/2026-27",
+    "q": "10th / 8th Pass | ITI",
+    "desc": "Academy of Weapon Technology & Management (AWTM), Ichapur - a unit of AWEIL, Ministry of Defence has officially announced employment advertisement notification 01/Hiring-GSF/AWTM/2026-27 inviting applications for 40 vacancies for Electrical Fitter, Mechanical Fitter, Machinist, Turner, Electroplater, Heat Treatment Operator posts.",
+    "u": "https://www.aweil.in/download/recruitment/2026/Filling-of-Technical-Posts-on-Contractual-Basis-for-production-at-GSF-en-hi.pdf?v=1.4.89"
+},
+  {
+    "id": "bengal-chemicals-pharmaceutica-assistant-hindi-officer-hindi-recruitment-2026",
+    "b": "Bengal Chemicals & Pharmaceuticals",
+    "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Assistant Hindi Officer/ Hindi Officer Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "PER/0106/2026-2027/1) for 1 vacancy",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bengal Chemicals & Pharmaceuticals has officially announced employment advertisement notification PER/0106/2026-2027/1) for 1 vacancy inviting applications for 1 vacancies for Assistant Hindi Officer/ Hindi Officer posts.",
+    "u": "https://apps.bengalchemicals.co.in/uploads/job-file/NXBYSO8UVA-20260819-075353.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-researc-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 3 Junior Research Fellow / Research Associate Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Junior Research Fellow / Research Associate posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ECE/2026/adv060920261.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-laboratory-assistanttechnician-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Laboratory Assistant/Technician/Technical assistant/Field Assistant Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Laboratory Assistant/Technician/Technical assistant/Field Assistant posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/AR/2026/adv060920262.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-project-assistant-recruitment-2026-3066756",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 2 Project Assistant Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Project Assistant posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/SRIC/2026/adv07092026.pdf"
+},
+  {
+    "id": "aryabhatta-research-institute-project-associate-ii-recruitment-2026",
+    "b": "Aryabhatta Research Institute of Observational Sciences (ARIES)",
+    "t": "Aryabhatta Research Institute of Observational Sciences (ARIES) Recruitment 2026 Notification Out for 1 Project Associate II Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "ARYABHATTA-RES/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Aryabhatta Research Institute of Observational Sciences (ARIES) has officially announced employment advertisement notification ARYABHATTA-RES/2026 inviting applications for 1 vacancies for Project Associate II posts.",
+    "u": "https://www.aries.res.in/project_associate_LAWP"
+},
+  {
+    "id": "uttarakhand-subordinate-servic-computer-assistant-junior-assi-recruitment-2026",
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 553 Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "07 October 2026",
+    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 inviting applications for 553 vacancies for Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) posts.",
+    "u": "https://ukssscrecruitment.in/"
+},
+  {
+    "id": "uttarakhand-subordinate-servic-personal-assistant-stenographe-recruitment-2026",
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 101 Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 October 2026",
+    "a": "81/UOSSC/CHA/2026",
+    "q": "12th Pass | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 81/UOSSC/CHA/2026 inviting applications for 101 vacancies for Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 posts.",
+    "u": "https://sssc.uk.gov.in/"
+},
+  {
+    "id": "government-institute-of-medica-scientist-b-medical-recruitment-2026",
+    "b": "Government Institute of Medical Sciences (GIMS)",
+    "t": "Government Institute of Medical Sciences (GIMS) Recruitment 2026 Notification Out for 1 Scientist B (Medical) Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "29 October 2026",
+    "a": "GIMS/ 2026/ 12",
+    "q": "MBBS / Medical PG | BDS / Dental | Any Bachelor's Degree",
+    "desc": "Government Institute of Medical Sciences (GIMS) has officially announced employment advertisement notification GIMS/ 2026/ 12 inviting applications for 1 vacancies for Scientist B (Medical) posts.",
+    "u": "https://www.gims.ac.in/assets/pdf/Advt%202025-VRDL%20Scientist%20B.pdf"
+},
+  {
     "id": "uttar-pradesh-adhinasth-seva-c-computer-operator-grade-a-assi-recruitment-2026",
     "b": "Uttar Pradesh Adhinasth Seva Chayan Ayog (UPSSSC), Lucknow",
     "t": "Uttar Pradesh Adhinasth Seva Chayan Ayog (UPSSSC), Lucknow Recruitment 2026 Notification Out for 12 Computer Operator Grade-A, Assistant Computer Operator Posts | Apply Online",
