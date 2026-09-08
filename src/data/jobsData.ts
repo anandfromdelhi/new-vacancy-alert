@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-court-thalassery-court-attender-recruitment-2026",
+    "b": "District Court Thalassery",
+    "t": "District Court Thalassery Recruitment 2026 Notification Out for 2 Court Attender Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "11 September 2026",
+    "a": "DCTLY/8927/2026-JS1",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Court Thalassery has officially released employment advertisement notification DCTLY/8927/2026-JS1 for the recruitment of 2 vacancies for Court Attender posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0379514e888b8f2acacc68738d0cbb/uploads/2026/09/2026090317.pdf"
+},
+  {
+    "id": "kerala-agricultural-university-kau-assistant-professor-recruitment-2026",
+    "b": "Kerala Agricultural University (KAU)",
+    "t": "Kerala Agricultural University (KAU) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "FLORI 01/26) for 1 vacancy",
+    "q": "M.Sc | Ph.D / Doctorate",
+    "desc": "Kerala Agricultural University (KAU) has officially released employment advertisement notification FLORI 01/26) for 1 vacancy for the recruitment of 1 vacancies for Assistant Professor posts.",
+    "u": "https://www.kau.in/sites/default/files/announcements/notification_assistant_professor.pdf"
+},
+  {
+    "id": "jawaharlal-nehru-centre-for-advance-rd-assistant-recruitment-2026",
+    "b": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
+    "t": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) Recruitment 2026 Notification Out for 1 R&D Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "16 September 2026",
+    "a": "CPMU[EMR]bs]26-27",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released employment advertisement notification CPMU[EMR]bs]26-27 for the recruitment of 1 vacancies for R&D Assistant posts.",
+    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-09/EMR%2065%20R%26D%20Assistant.pdf"
+},
+  {
+    "id": "csir-central-food-technological-res-project-associate-ii-project-assist-recruitment-2026",
+    "b": "CSIR Central Food Technological Research Institute",
+    "t": "CSIR Central Food Technological Research Institute Recruitment 2026 Notification Out for 2 Project Associate II & Project Assistant II Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "PAT 56/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "CSIR Central Food Technological Research Institute has officially released employment advertisement notification PAT 56/2026 for the recruitment of 2 vacancies for Project Associate II & Project Assistant II posts.",
+    "u": "https://cftri.res.in/ApplicationForm/0_84453300_1788434435.pdf"
+},
+  {
+    "id": "electronics-radar-development-estab-junior-research-fellow-jrf-ece-recruitment-2026",
+    "b": "Electronics & Radar Development Establishment (LRDE DRDO)",
+    "t": "Electronics & Radar Development Establishment (LRDE DRDO) Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) - ECE Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "08 October 2026 (Walk-in)",
+    "a": "03/2026/JRF",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Electronics & Radar Development Establishment (LRDE DRDO) has officially released employment advertisement notification 03/2026/JRF for the recruitment of 2 vacancies for Junior Research Fellow (JRF) - ECE posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtLRDE07092026.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-lab-assistant-cum-data-entry-operat-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar)",
+    "t": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) Recruitment 2026 Notification Out for 1 Lab Assistant Cum Data Entry Operator Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "AIIMS/DEO/MRU/2026",
+    "q": "Diploma | B.Sc | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) has officially released employment advertisement notification AIIMS/DEO/MRU/2026 for the recruitment of 1 vacancies for Lab Assistant Cum Data Entry Operator posts.",
+    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/advertisement_for_the_mru_dept_project_1_1_03092026040746891.pdf"
+},
+  {
+    "id": "high-court-of-jharkhand-ranchi-law-researcher-research-associate-recruitment-2026",
+    "b": "High Court of Jharkhand, Ranchi",
+    "t": "High Court of Jharkhand, Ranchi Recruitment 2026 Notification Out for 25 Law Researcher / Research Associate Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "01/Recruitment Cell/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "High Court of Jharkhand, Ranchi has officially released employment advertisement notification 01/Recruitment Cell/2026 for the recruitment of 25 vacancies for Law Researcher / Research Associate posts.",
+    "u": "https://www.jharkhandhighcourt.nic.in/pdfview.php?pdfnm=recruitment/Recruitment_Cell_2026_LRA_05092026"
+},
+  {
+    "id": "indira-gandhi-national-centre-for-t-project-manager-project-coordinator-recruitment-2026",
+    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
+    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 15 Project Manager, Project Coordinator & Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "09 September 2026",
+    "a": "INDIRA-GANDHI-/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially released employment advertisement notification INDIRA-GANDHI-/2026 for the recruitment of 15 vacancies for Project Manager, Project Coordinator & Assistant posts.",
+    "u": "https://ignca.gov.in/vaccancy/03092026-Adv-Conservation.pdf"
+},
+  {
+    "id": "himachal-pradesh-state-cooperative-cooperative-intern-recruitment-2026",
+    "b": "Himachal Pradesh State Cooperative Bank (HPSCB)",
+    "t": "Himachal Pradesh State Cooperative Bank (HPSCB) Recruitment 2026 Notification Out for 2 Cooperative Intern Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "HIMACHAL-PRADE/2026",
+    "q": "MBA / BBA",
+    "desc": "Himachal Pradesh State Cooperative Bank (HPSCB) has officially released employment advertisement notification HIMACHAL-PRADE/2026 for the recruitment of 2 vacancies for Cooperative Intern posts.",
+    "u": "https://hpscb.bank.in/upload/notification/doc/V4rVvuShovrM2F5CWU3sUHhQOX1IEwORYeIvOMVL.pdf"
+},
+  {
+    "id": "central-university-of-haryana-cuh-finance-officer-controller-of-exami-recruitment-2026",
+    "b": "Central University of Haryana (CUH)",
+    "t": "Central University of Haryana (CUH) Recruitment 2026 Notification Out for 3 Finance Officer, Controller of Examinations, Internal Audit Officer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "07 October 2026",
+    "a": "01/NT/R/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Haryana (CUH) has officially released employment advertisement notification 01/NT/R/2026 for the recruitment of 3 vacancies for Finance Officer, Controller of Examinations, Internal Audit Officer posts.",
+    "u": "https://file.cuh.ac.in/recruitment/advt_no_6a9e8e696c3b1.pdf"
+},
+  {
     "id": "tsu-anand-non-teaching-resident-engineer-senior-officer-an-recruitment-2026",
     "b": "TSU Anand Non Teaching",
     "t": "TSU Anand Non Teaching Recruitment 2026 Notification Out for 17 Resident Engineer, Senior Officer and More Posts | Apply Online",
