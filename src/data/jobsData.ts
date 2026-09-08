@@ -12,6 +12,72 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "steel-authority-of-india-sail-advisor-recruitment-2026",
+    "b": "Steel Authority of India (SAIL)",
+    "t": "Steel Authority of India (SAIL) Recruitment 2026 Notification Out for 5 Advisor Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "19 September 2026",
+    "a": "DSP/HR-OD/Advisor/2026/1781",
+    "q": "Ex-executive from SAIL in E-7 or below grades",
+    "desc": "Steel Authority of India (SAIL) has officially released employment advertisement notification DSP/HR-OD/Advisor/2026/1781 for the recruitment of 5 vacancies for Advisor posts.",
+    "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/DSP_News%20&%20Jobs_03092026_092741.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-project-technical-support-iii-proje-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
+    "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 3 Project Technical Support III, Project Nurse II Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 3 vacancies for Project Technical Support III, Project Nurse II posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/abignet_recruitment_advertisement_3_20260907_120218_c08d1999.pdf"
+},
+  {
+    "id": "eastern-coalfields-advisor-mm-recruitment-2026",
+    "b": "Eastern Coalfields",
+    "t": "Eastern Coalfields Recruitment 2026 Notification Out for 1 Advisor (MM) Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "EASTERN-COALFI/2026",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Eastern Coalfields has officially released employment advertisement notification EASTERN-COALFI/2026 for the recruitment of 1 vacancies for Advisor (MM) posts.",
+    "u": "https://www.easterncoalfields.in/storage/media/notice/1788763781_notice_fl_en.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-roor-project-associate-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Project Associate Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Associate posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv010920265.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-project-research-scientist-i-non-me-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur)",
+    "t": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-Medical) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "25 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Project Research Scientist I (Non-Medical) posts.",
+    "u": "https://aiimsgorakhpur.edu.in/wp-content/uploads/2026/09/icmr_interview.pdf"
+},
+  {
+    "id": "indira-gandhi-rashtriya-uran-akadem-simulator-engineer-i-recruitment-2026",
+    "b": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+    "t": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) Recruitment 2026 Notification Out for 1 Simulator Engineer I Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "26 September 2026",
+    "a": "IGRUA/ ADVT/ 29/ 2026",
+    "q": "B.Tech / B.E | B.Sc",
+    "desc": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) has officially released employment advertisement notification IGRUA/ ADVT/ 29/ 2026 for the recruitment of 1 vacancies for Simulator Engineer I posts.",
+    "u": "https://igrua.gov.in/sites/default/files/QR%20SE.pdf"
+},
+  {
     "id": "central-electronics-cel-deputy-engineer-on-contract-basis-recruitment-2026",
     "b": "Central Electronics (CEL)",
     "t": "Central Electronics (CEL) Recruitment 2026 Notification Out for 8 Deputy Engineer on Contract Basis Posts | Apply Offline",
