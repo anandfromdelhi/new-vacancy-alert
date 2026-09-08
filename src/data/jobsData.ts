@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "damodar-valley-corporation-dvc-expert-finance-for-sap-recruitment-2026",
+    "b": "Damodar Valley Corporation (DVC)",
+    "t": "Damodar Valley Corporation (DVC) Recruitment 2026 Notification Out for 1 Expert Finance (For SAP) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "27 September 2026",
+    "a": "PLR/Retired/04/2026/06",
+    "q": "Any Bachelor's Degree",
+    "desc": "Damodar Valley Corporation (DVC) has officially announced employment advertisement notification PLR/Retired/04/2026/06 inviting applications for 1 vacancies for Expert Finance (For SAP) posts.",
+    "u": "https://www.dvc.gov.in/cms-web/recruitment_dvc"
+},
+  {
     "id": "indian-institute-of-technology-senior-project-assistant-resea-recruitment-2026",
     "b": "Indian Institute of Technology Kharagpur",
     "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 Senior Project Assistant - Research Posts | Apply Online",
