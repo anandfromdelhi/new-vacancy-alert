@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "uttar-pradesh-adhinasth-seva-c-computer-operator-grade-a-assi-recruitment-2026",
+    "b": "Uttar Pradesh Adhinasth Seva Chayan Ayog (UPSSSC), Lucknow",
+    "t": "Uttar Pradesh Adhinasth Seva Chayan Ayog (UPSSSC), Lucknow Recruitment 2026 Notification Out for 12 Computer Operator Grade-A, Assistant Computer Operator Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "20-Pariksha/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Uttar Pradesh Adhinasth Seva Chayan Ayog (UPSSSC), Lucknow has officially announced employment advertisement notification 20-Pariksha/2026 inviting applications for 12 vacancies for Computer Operator Grade-A, Assistant Computer Operator posts.",
+    "u": "https://upsssc.gov.in/AllNotifications.aspx"
+},
+  {
+    "id": "indian-institute-of-technology-research-associate-recruitment-2026-3066722",
+    "b": "Indian Institute of Technology (BHU), Varanasi",
+    "t": "Indian Institute of Technology (BHU), Varanasi Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "11 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | MBBS / Medical PG",
+    "desc": "Indian Institute of Technology (BHU), Varanasi has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeje9gyJxCt62I3xoIFvq98m0nDFNvrO-Z1JQSJHtZFZr0nbQ/viewform?usp=publish-editor"
+},
+  {
+    "id": "csir-national-botanical-resear-project-associate-i-project-as-recruitment-2026",
+    "b": "CSIR National Botanical Research Institute",
+    "t": "CSIR National Botanical Research Institute Recruitment 2026 Notification Out for 7 Project Associate I, Project Associate II, Project Assistant II Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "09/Project/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "CSIR National Botanical Research Institute has officially announced employment advertisement notification 09/Project/2026 inviting applications for 7 vacancies for Project Associate I, Project Associate II, Project Assistant II posts.",
+    "u": "https://nbri.res.in/uploads/RecruitmentFile/1788841194.pdf"
+},
+  {
+    "id": "district-legal-services-author-peon-recruitment-2026",
+    "b": "District Legal Services Authority Bijnor",
+    "t": "District Legal Services Authority Bijnor Recruitment 2026 Notification Out for 1 Peon Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "DLSA-Bijnor/2026",
+    "q": "Retired employee from Civil Court/Collectorate/Court",
+    "desc": "District Legal Services Authority Bijnor has officially announced employment advertisement notification DLSA-Bijnor/2026 inviting applications for 1 vacancies for Peon posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26777_07-09-2026.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-assistant-project-manager-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Assistant Project Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "P/Rect./R&D/2026/169",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P/Rect./R&D/2026/169 inviting applications for 1 vacancies for Assistant Project Manager posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScDk8ckNJh_0EHOaEkRg1zSaI29hR4hnqzFW4Kk_hfJ2g9SlQ/viewform"
+},
+  {
+    "id": "government-medical-college-raj-professor-associate-professor-recruitment-2026",
+    "b": "Government Medical College Rajanna Sircilla",
+    "t": "Government Medical College Rajanna Sircilla Recruitment 2026 Notification Out for 37 Professor, Associate Professor, Assistant Professor & CAS Specialist Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "10 September 2026",
+    "a": "05/2026",
+    "q": "Diploma | M.Sc | MBBS / Medical PG",
+    "desc": "Government Medical College Rajanna Sircilla has officially announced employment advertisement notification 05/2026 inviting applications for 37 vacancies for Professor, Associate Professor, Assistant Professor & CAS Specialist posts.",
+    "u": "https://cdn.s3waas.gov.in/s38f14e45fceea167a5a36dedd4bea2543/uploads/2026/08/17873013448129.pdf"
+},
+  {
+    "id": "national-institute-of-animal-b-senior-research-fellow-senior-recruitment-2026",
+    "b": "National Institute of Animal Biotechnology (NIAB)",
+    "t": "National Institute of Animal Biotechnology (NIAB) Recruitment 2026 Notification Out for 2 Senior Research Fellow, Senior Project Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "23 September 2026",
+    "a": "21 / 2026",
+    "q": "M.Tech / M.E | M.Sc | Any Bachelor's Degree",
+    "desc": "National Institute of Animal Biotechnology (NIAB) has officially announced employment advertisement notification 21 / 2026 inviting applications for 2 vacancies for Senior Research Fellow, Senior Project Assistant posts.",
+    "u": "https://www.niab.org.in/Notifications_21_2026.aspx"
+},
+  {
+    "id": "district-welfare-officer-women-anganwadi-teacher-awt-anganwad-recruitment-2026",
+    "b": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District",
+    "t": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District Recruitment 2026 Notification Out for 255 Anganwadi Teacher (AWT), Anganwadi Helper (AWH) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026 (5:00 PM)",
+    "a": "185/A/DWO-NGKL/2026, dated 03 September 2026",
+    "q": "10th / 8th Pass | 12th Pass | B.Tech / B.E",
+    "desc": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District has officially announced employment advertisement notification 185/A/DWO-NGKL/2026, dated 03 September 2026 inviting applications for 255 vacancies for Anganwadi Teacher (AWT), Anganwadi Helper (AWH) posts.",
+    "u": "https://mis.tgwdcw.in/"
+},
+  {
+    "id": "c-dac-chennai-project-associate-fresher-proj-recruitment-2026",
+    "b": "C-DAC Chennai",
+    "t": "C-DAC Chennai Recruitment 2026 Notification Out for 59 Project Associate (Fresher), Project Engineer, Senior Project Engineer, Project Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "22 September 2026, 17:00 hrs",
+    "a": "C-DAC/CHN/02/RCT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "C-DAC Chennai has officially announced employment advertisement notification C-DAC/CHN/02/RCT/2026 inviting applications for 59 vacancies for Project Associate (Fresher), Project Engineer, Senior Project Engineer, Project Manager posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfAK7K9rJ4a0PedX97b5br0hUimfeoNm5S6Ms08T9IpSVhRIQ/viewform"
+},
+  {
+    "id": "district-health-society-krishn-25-posts-including-medical-off-recruitment-2026",
+    "b": "District Health Society, Krishnagiri (National Health Mission, Tamil Nadu)",
+    "t": "District Health Society, Krishnagiri (National Health Mission, Tamil Nadu) Recruitment 2026 Notification Out for 69 25 posts, including Medical Officer, Dentist, Lab Technician Gr-2, Health Inspector Gr-II, Microbiologist, MLHP, and various Therapeutic/Support posts Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "22 September 2026 (by 5:00 PM)",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Health Society, Krishnagiri (National Health Mission, Tamil Nadu) has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 69 vacancies for 25 posts, including Medical Officer, Dentist, Lab Technician Gr-2, Health Inspector Gr-II, Microbiologist, MLHP, and various Therapeutic/Support posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s37eacb532570ff6858afd2723755ff790/uploads/2026/09/17888648455373.pdf"
+},
+  {
     "id": "sikkim-university-research-assistant-and-field-i-recruitment-2026",
     "b": "Sikkim University",
     "t": "Sikkim University Recruitment 2026 Notification Out for 5 Research Assistant and Field Investigator Posts | Apply Online",
