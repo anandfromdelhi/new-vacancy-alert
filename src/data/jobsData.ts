@@ -377,13 +377,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "central-university-of-punjab-cupb-b-contractual-faculty-part-time-facul-recruitment-2026",
     "b": "Central University of Punjab (CUPB), Bathinda",
-    "t": "Central University of Punjab (CUPB), Bathinda Recruitment 2026 Notification Out for 205 Contractual Faculty, Part-Time Faculty, Senior Analyst, Laboratory Assistant & Laboratory Attendant Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026 / 15 September 2026",
+    "t": "Central University of Punjab (CUPB) Recruitment 2026: Walk-in Interview for 15 Teaching & Non-Teaching Posts",
+    "d": "02 September 2026",
+    "l": "15 September 2026 (Walk-in)",
     "a": "CUPB/26-27/012",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Central University of Punjab (CUPB), Bathinda has officially released employment advertisement notification CUPB/26-27/012 for the recruitment of 205 vacancies for Contractual Faculty, Part-Time Faculty, Senior Analyst, Laboratory Assistant & Laboratory Attendant posts.",
-    "u": "https://cup.edu.in/sites/default/files/Contract%20NT_09_2026.pdf"
+    "q": "Ph.D. / NET / Master's / B.Tech / Bachelor's / 10+2 Science as per post",
+    "desc": "Central University of Punjab (CUPB), Bathinda (a premier Central University established by an Act of Parliament) has officially issued employment notification Advt. No. CUPB/26-27/012 (dated 02 September 2026) for filling 15 Teaching and Non-Teaching positions purely on temporary and contractual basis. The positions include 1 Contractual Faculty (Self-Finance) in B.Tech Computer Science & Engineering, 8 Part-Time Faculty positions on lecture basis across Music, Law, Physics, Mathematics, Chemistry, Zoology, Botany, and Economics for ITEP B.Sc.-B.Ed. / B.A.-B.Ed., and 6 Contractual Non-Teaching positions (Senior Analyst, Laboratory Assistant, and Laboratory Attendant).",
+    "u": "https://cuprec.samarth.edu.in/"
 },
   {
     "id": "women-and-child-development-departm-anganwadi-worker-recruitment-2026",
