@@ -859,14 +859,14 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://rgu.ac.in/uploads/notices/03-09-2026%20Notice%20Walk-in-Interview%20as%20JRF,%20JR(Project).pdf"
 },
   {
-    "id": "staff-selection-commission-ssc-combined-higher-secondary-102-recruitment-2026",
+    "id": "ssc-chsl-2026-recruitment",
     "b": "Staff Selection Commission (SSC)",
-    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 2536 Combined Higher Secondary (10+2) Level Examination, 2026 Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "07 October 2026 (23:00 Hours)",
-    "a": "STAFF-SELECTIO/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 2536 vacancies for Combined Higher Secondary (10+2) Level Examination, 2026 posts.",
+    "t": "SSC CHSL Recruitment 2026 Notification Out for 2536 LDC, JSA & DEO Posts | Apply Online at ssc.gov.in",
+    "d": "07 September 2026",
+    "l": "07 October 2026",
+    "a": "F. No. HQ-C1102/5/2026-C-1",
+    "q": "12th Standard Pass (Intermediate) or equivalent from a recognized Board",
+    "desc": "Staff Selection Commission (SSC), Department of Personnel and Training (DoP&T), Government of India has officially announced the Combined Higher Secondary (10+2) Level Examination, 2026 (Advt No: F. No. HQ-C1102/5/2026-C-1) on 07 September 2026, inviting online applications for approximately 2,536 tentative vacancies across Ministries, Departments, Constitutional Bodies, and Tribunals.",
     "u": "https://ssc.gov.in/login"
 },
   {
