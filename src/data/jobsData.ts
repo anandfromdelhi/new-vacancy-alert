@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "central-electronics-cel-deputy-engineer-on-contract-basis-recruitment-2026",
+    "b": "Central Electronics (CEL)",
+    "t": "Central Electronics (CEL) Recruitment 2026 Notification Out for 8 Deputy Engineer on Contract Basis Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "120/Pers/3/2026",
+    "q": "B.Tech / B.E | MBA / BBA",
+    "desc": "Central Electronics (CEL) has officially released employment advertisement notification 120/Pers/3/2026 for the recruitment of 8 vacancies for Deputy Engineer on Contract Basis posts.",
+    "u": "https://www.celindia.co.in"
+},
+  {
+    "id": "motilal-nehru-national-institute-of-jrfpa-iira-i-recruitment-2026",
+    "b": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
+    "t": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) Recruitment 2026 Notification Out for 4 JRF/PA-II/RA-I Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "16 September 2026",
+    "a": "560/AMD/Project Staff/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) has officially released employment advertisement notification 560/AMD/Project Staff/2026 for the recruitment of 4 vacancies for JRF/PA-II/RA-I posts.",
+    "u": "https://mnnit.ac.in/images/newstories/2026/Project_Project/JRF_PA_RA_Advertisement.pdf"
+},
+  {
+    "id": "uttar-pradesh-gramin-bank-upgb-financial-literacy-counselor-recruitment-2026",
+    "b": "Uttar Pradesh Gramin Bank (UPGB)",
+    "t": "Uttar Pradesh Gramin Bank (UPGB) Recruitment 2026 Notification Out for 20 Financial Literacy Counselor Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "23 September 2026",
+    "a": "UTTAR-PRADESH-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Uttar Pradesh Gramin Bank (UPGB) has officially released employment advertisement notification UTTAR-PRADESH-/2026 for the recruitment of 20 vacancies for Financial Literacy Counselor posts.",
+    "u": "https://upgb.bank.in/pdf/FLC_August_2026_0001.pdf"
+},
+  {
+    "id": "national-institute-of-health-resear-project-research-scientist-iii-non-recruitment-2026",
+    "b": "National Institute of Health Research (ICMR NIHR)",
+    "t": "National Institute of Health Research (ICMR NIHR) Recruitment 2026 Notification Out for 5 Project Research Scientist-III (Non-Medical), Project Research Scientist-II (Non-Medical), Administrative Officer, Field Officer Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "22 September 2026 to 25 September 2026 (Walk-in)",
+    "a": "A.12017/1/2025-Estt.Recruitment/380",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Health Research (ICMR NIHR) has officially released employment advertisement notification A.12017/1/2025-Estt.Recruitment/380 for the recruitment of 5 vacancies for Project Research Scientist-III (Non-Medical), Project Research Scientist-II (Non-Medical), Administrative Officer, Field Officer posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1788754688_recruitmentadopt.pdf"
+},
+  {
+    "id": "gliders-india-limited-gil-kanpur-dgm-senior-manager-and-manager-post-recruitment-2026",
+    "b": "Gliders India Limited (GIL), Kanpur",
+    "t": "Gliders India Limited (GIL), Kanpur Recruitment 2026 Notification Out for 8 DGM, Senior Manager and Manager Posts Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "Vacancy Notification No. 04/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Gliders India Limited (GIL), Kanpur has officially released employment advertisement notification Vacancy Notification No. 04/2026 for the recruitment of 8 vacancies for DGM, Senior Manager and Manager Posts posts.",
+    "u": "https://www.glidersindia.in/pages/pdfs/Adv_04_2026.pdf"
+},
+  {
+    "id": "rajiv-gandhi-national-aviation-univ-non-teaching-technical-personnel-in-recruitment-2026",
+    "b": "Rajiv Gandhi National Aviation University (RGNAU)",
+    "t": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 3 Non-Teaching Technical Personnel in IT/CIC Areas Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "06 November 2026",
+    "a": "RGNAU/5139/04/ADMIN/520",
+    "q": "B.Tech / B.E | M.Sc | MCA / BCA",
+    "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially released employment advertisement notification RGNAU/5139/04/ADMIN/520 for the recruitment of 3 vacancies for Non-Teaching Technical Personnel in IT/CIC Areas posts.",
+    "u": "https://rgnau.ac.in/sites/default/files/inline-files/Engagement%20of%20Contractual%20Positions%20in%20IT%20%26%20CIC%20Areas-03.09.2026.pdf"
+},
+  {
+    "id": "aligarh-muslim-university-amu-assistant-engineer-civil-recruitment-2026",
+    "b": "Aligarh Muslim University (AMU)",
+    "t": "Aligarh Muslim University (AMU) Recruitment 2026 Notification Out for 6 Assistant Engineer (Civil) Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "ALIGARH-MUSLIM/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Aligarh Muslim University (AMU) has officially released employment advertisement notification ALIGARH-MUSLIM/2026 for the recruitment of 6 vacancies for Assistant Engineer (Civil) posts.",
+    "u": "https://api.amu.ac.in/storage/file/10350/jobs/1788607034.pdf"
+},
+  {
+    "id": "government-medical-college-khammam-associate-professor-assistant-profe-recruitment-2026",
+    "b": "Government Medical College Khammam (GMC Khammam)",
+    "t": "Government Medical College Khammam (GMC Khammam) Recruitment 2026 Notification Out for 28 Associate Professor, Assistant Professor, CAS Specialist under ICU Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "08 September 2026 (Walk-in)",
+    "a": "01/2026",
+    "q": "Diploma | MBBS / Medical PG",
+    "desc": "Government Medical College Khammam (GMC Khammam) has officially released employment advertisement notification 01/2026 for the recruitment of 28 vacancies for Associate Professor, Assistant Professor, CAS Specialist under ICU posts.",
+    "u": "https://cdn.s3waas.gov.in/s31c383cd30b7c298ab50293adfecb7b18/uploads/2026/09/17883353962683.pdf"
+},
+  {
+    "id": "district-medical-and-health-office-medical-officer-recruitment-2026",
+    "b": "District Medical and Health Office Mahabubnagar",
+    "t": "District Medical and Health Office Mahabubnagar Recruitment 2026 Notification Out for 1 Medical Officer Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "08 September 2026 (Walk-in)",
+    "a": "Rc.No.3204/E1/DM&HO/MBNR/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "District Medical and Health Office Mahabubnagar has officially released employment advertisement notification Rc.No.3204/E1/DM&HO/MBNR/2026 for the recruitment of 1 vacancies for Medical Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e00da03b685a0dd18fb6a08af0923de0/uploads/2026/09/17886084213453.pdf"
+},
+  {
+    "id": "district-legal-services-authority-m-junior-assistant-and-typist-cum-ass-recruitment-2026",
+    "b": "District Legal Services Authority Mahabubnagar (DLSA Mahabubnagar)",
+    "t": "District Legal Services Authority Mahabubnagar (DLSA Mahabubnagar) Recruitment 2026 Notification Out for 2 Junior Assistant and Typist Cum Assistant Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "01/2026) for 2 vacancies",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Legal Services Authority Mahabubnagar (DLSA Mahabubnagar) has officially released employment advertisement notification 01/2026) for 2 vacancies for the recruitment of 2 vacancies for Junior Assistant and Typist Cum Assistant posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec028c9a14ffebb7677d033ffce84799/uploads/2026/09/2026090755.pdf"
+},
+  {
     "id": "anna-university-junior-research-fellow-jrf-recruitment-2026",
     "b": "Anna University",
     "t": "Anna University Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
