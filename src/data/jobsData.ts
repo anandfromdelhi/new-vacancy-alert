@@ -684,14 +684,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "gsrtc-helper-helper-recruitment-2026",
-    "b": "GSRTC Helper",
-    "t": "GSRTC Helper Recruitment 2026 Notification Out for 2510 Helper Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "8th October 2026 (up to 23:59 hrs)",
-    "a": "GSRTC-HELPER/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "GSRTC Helper has officially released employment advertisement notification GSRTC-HELPER/2026 for the recruitment of 2510 vacancies for Helper posts.",
-    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/GSRTC_202627_47.pdf"
+    "b": "Gujarat State Road Transport Corporation (GSRTC)",
+    "t": "GSRTC Recruitment 2026: Apply Online for 2,510 Helper Posts (Advt GSRTC/202627/47)",
+    "d": "07 September 2026",
+    "l": "06 October 2026",
+    "a": "GSRTC/202627/47",
+    "q": "ITI in Motor Mechanic / Diesel / Fitter / Electrician / Welder / Turner / relevant trades",
+    "desc": "Gujarat State Road Transport Corporation (GSRTC), Central Office, Ranip, Ahmedabad has officially published a massive employment notification (Advt. No. GSRTC/202627/47) for the direct recruitment of 2,510 Helper (હેલ્પર) positions. The recruitment is open for candidates possessing ITI trade certifications in designated mechanical, automotive, and electrical trades. Selected candidates will be appointed on a 5-year contractual basis with a fixed monthly remuneration of ₹21,100/-, after which they will be absorbed into regular pay scales upon satisfactory service.",
+    "u": "https://ojas.gujarat.gov.in/"
 },
   {
     "id": "indian-institute-of-technology-goa-registrar-superintending-engineer-t-recruitment-2026",
