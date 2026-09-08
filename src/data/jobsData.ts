@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "national-institute-of-technolo-junior-research-fellow-recruitment-2026",
+    "b": "National Institute of Technology Calicut",
+    "t": "National Institute of Technology Calicut Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "M.Sc",
+    "desc": "National Institute of Technology Calicut has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__39eddb2b-4ef7-4e23-966e-ee55610ad2f0_.pdf"
+},
+  {
+    "id": "kerala-agricultural-university-field-assistant-daily-wages-recruitment-2026",
+    "b": "Kerala Agricultural University (KAU)",
+    "t": "Kerala Agricultural University (KAU) Recruitment 2026 Notification Out for 1 Field Assistant (Daily Wages) Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "KERALA-AGRICUL/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Kerala Agricultural University (KAU) has officially announced employment advertisement notification KERALA-AGRICUL/2026 inviting applications for 1 vacancies for Field Assistant (Daily Wages) posts.",
+    "u": "https://www.kau.in/sites/default/files/announcements/img_20260903_0002.pdf"
+},
+  {
+    "id": "kerala-university-of-digital-s-gym-trainer-recruitment-2026",
+    "b": "Kerala University of Digital Sciences Innovation and Technology",
+    "t": "Kerala University of Digital Sciences Innovation and Technology Recruitment 2026 Notification Out for 1 Gym Trainer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "KUDGIT/518/AD A IV/2024) for 1 vacancy",
+    "q": "Certified personal trainer from a recognized institution in India",
+    "desc": "Kerala University of Digital Sciences Innovation and Technology has officially announced employment advertisement notification KUDGIT/518/AD A IV/2024) for 1 vacancy inviting applications for 1 vacancies for Gym Trainer posts.",
+    "u": "https://duk.ac.in/careers/apply/"
+},
+  {
+    "id": "national-ayurveda-research-ins-consultant-pathologist-recruitment-2026",
+    "b": "National Ayurveda Research Institute for Panchakarma (NARIP)",
+    "t": "National Ayurveda Research Institute for Panchakarma (NARIP) Recruitment 2026 Notification Out for 1 Consultant (Pathologist) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "NATIONAL-AYURV/2026",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "National Ayurveda Research Institute for Panchakarma (NARIP) has officially announced employment advertisement notification NATIONAL-AYURV/2026 inviting applications for 1 vacancies for Consultant (Pathologist) posts.",
+    "u": "https://ccras.nic.in/wp-content/uploads/2026/09/07092026-Narip-Cheruthuruthy.pdf"
+},
+  {
+    "id": "national-institute-of-mental-h-yoga-therapist-and-junior-rese-recruitment-2026",
+    "b": "National Institute of Mental Health and Neuro Sciences (NIMHANS)",
+    "t": "National Institute of Mental Health and Neuro Sciences (NIMHANS) Recruitment 2026 Notification Out for 3 Yoga Therapist and Junior Research Fellow Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "26 September 2026 (Walk-in)",
+    "a": "NIMH/PROJ/TATA/YT/JRF/01550/C3-C16/NOTIF/2026-2027",
+    "q": "M.Sc",
+    "desc": "National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially announced employment advertisement notification NIMH/PROJ/TATA/YT/JRF/01550/C3-C16/NOTIF/2026-2027 inviting applications for 3 vacancies for Yoga Therapist and Junior Research Fellow posts.",
+    "u": "https://nimhansbkt.demo-appiness.com/prodnimhans/documents/announcements/c1dec223b95e4737a9627a296151ad29.pdf"
+},
+  {
+    "id": "yadgir-district-court-typist-typist-copyist-process-recruitment-2026",
+    "b": "Yadgir District Court",
+    "t": "Yadgir District Court Recruitment 2026 Notification Out for 18 Typist, Typist Copyist & Process Server Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "03/2026, 04/2026, 05/2026",
+    "q": "12th Pass",
+    "desc": "Yadgir District Court has officially announced employment advertisement notification 03/2026, 04/2026, 05/2026 inviting applications for 18 vacancies for Typist, Typist Copyist & Process Server posts.",
+    "u": "https://yadgir.dcourts.gov.in/online-recruitment/"
+},
+  {
+    "id": "national-centre-for-biological-facility-assistant-em-recruitment-2026",
+    "b": "National Centre for Biological Sciences (NCBS)",
+    "t": "National Centre for Biological Sciences (NCBS) Recruitment 2026 Notification Out for 1 Facility Assistant (EM) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "11/2026",
+    "q": "Master's / PG Degree",
+    "desc": "National Centre for Biological Sciences (NCBS) has officially announced employment advertisement notification 11/2026 inviting applications for 1 vacancies for Facility Assistant (EM) posts.",
+    "u": "https://www.ncbs.res.in/jobportal/node/add/application/146420"
+},
+  {
+    "id": "national-forensic-sciences-uni-assistant-professor-recruitment-2026",
+    "b": "National Forensic Sciences University Dharwad",
+    "t": "National Forensic Sciences University Dharwad Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "FN206/NFSU/DHARWAD/ADM/REC/CF/2026-27/2",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "National Forensic Sciences University Dharwad has officially announced employment advertisement notification FN206/NFSU/DHARWAD/ADM/REC/CF/2026-27/2 inviting applications for 2 vacancies for Assistant Professor posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSd6dLsov9tJ1J3qrZH6wwU6-9Ed0KE8_yFy7RoD0mLqe6jEsA/viewform"
+},
+  {
+    "id": "jharkhand-rural-health-mission-9-accounts-management-position-recruitment-2026",
+    "b": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand",
+    "t": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand Recruitment 2026 Notification Out for 51 9 Accounts & Management positions at State, District, and Block level Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "13 September 2026 (11:59 PM)",
+    "a": "JHARKHAND-RURA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand has officially announced employment advertisement notification JHARKHAND-RURA/2026 inviting applications for 51 vacancies for 9 Accounts & Management positions at State, District, and Block level posts.",
+    "u": "https://recruitment.jharkhand.gov.in/"
+},
+  {
+    "id": "indian-institute-of-technology-junior-research-fellow-jrf-and-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu (IIT Jammu)",
+    "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 Notification Out for 3 Junior Research Fellow (JRF) and Research Associate-III (RA-III) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "22 September 2026",
+    "a": "IITJMU/R&C/RP-100385/A-47",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially announced employment advertisement notification IITJMU/R&C/RP-100385/A-47 inviting applications for 3 vacancies for Junior Research Fellow (JRF) and Research Associate-III (RA-III) posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
     "id": "indian-institute-of-technology-research-assistant-recruitment-2026",
     "b": "Indian Institute of Technology Jammu",
     "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 2 Research Assistant Posts | Apply Online",
