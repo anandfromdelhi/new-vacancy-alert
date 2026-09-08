@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "maharashtra-metro-rail-corporation-mts-junior-engineer-and-more-recruitment-2026",
+    "b": "Maharashtra Metro Rail Corporation Limited (MAHA Metro)",
+    "t": "Maharashtra Metro Rail Corporation Limited (MAHA Metro) Recruitment 2026 Notification Out for 56 MTS, Junior Engineer and More Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "25 September 2026 at 18:00 hrs",
+    "a": "MAHA Metro/ N/ HR/ 05/ 2026",
+    "q": "Experienced persons of Indian Nationality from Metro Rail/ Railway/ Rail...",
+    "desc": "Maharashtra Metro Rail Corporation Limited (MAHA Metro) has officially released employment advertisement notification MAHA Metro/ N/ HR/ 05/ 2026 for the recruitment of 56 vacancies for MTS, Junior Engineer and More posts.",
+    "u": "https://www.mahametro.org/pdf/Advt.%20N_HR_05%20%20with%20form%203.pdf"
+},
+  {
+    "id": "brihanmumbai-mahanagarpalika-bmc-multi-purpose-worker-recruitment-2026",
+    "b": "Brihanmumbai Mahanagarpalika (BMC)",
+    "t": "Brihanmumbai Mahanagarpalika (BMC) Recruitment 2026 Notification Out for 6 Multi Purpose Worker Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "08 September 2026",
+    "a": "BRIHANMUMBAI-M/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Brihanmumbai Mahanagarpalika (BMC) has officially released employment advertisement notification BRIHANMUMBAI-M/2026 for the recruitment of 6 vacancies for Multi Purpose Worker posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/tender%20choksy.pdf"
+},
+  {
+    "id": "tata-institute-of-fundamental-resea-tradesman-trainees-trade-apprentice-recruitment-2026",
+    "b": "Tata Institute of Fundamental Research (TIFR)",
+    "t": "Tata Institute of Fundamental Research (TIFR) Recruitment 2026 Notification Out for 10 Tradesman Trainees - Trade Apprentices Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "2026/24",
+    "q": "ITI",
+    "desc": "Tata Institute of Fundamental Research (TIFR) has officially released employment advertisement notification 2026/24 for the recruitment of 10 vacancies for Tradesman Trainees - Trade Apprentices posts.",
+    "u": "https://www.tifr.res.in/maincampus/viewNoticeFile.php?f=ZnBBSHJTd3FoU25sV0taMjduZVlJZz09&s=WFdXaTkwL1ZDTGdxaHp6eHA1bkh1QT09"
+},
+  {
+    "id": "brihanmumbai-municipal-corporation-chief-clerk-qualified-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporation (BMC)",
+    "t": "Brihanmumbai Municipal Corporation (BMC) Recruitment 2026 Notification Out for 1 Chief Clerk (Qualified) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "06 October 2026",
+    "a": "साप्रवि/३७६/मप dated 03-04-2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Brihanmumbai Municipal Corporation (BMC) has officially released employment advertisement notification साप्रवि/३७६/मप dated 03-04-2026 for the recruitment of 1 vacancies for Chief Clerk (Qualified) posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/GAD_376_ME%20Dt.03.09.2026%20%e0%a4%ae%e0%a5%81%e0%a4%96%e0%a5%8d%e0%a4%af%20%e0%a4%b2%e0%a4%bf%e0%a4%aa%e0%a4%bf%e0%a4%95%20%e0%a4%aa%e0%a4%b0%e0%a5%80%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%be%202026.pdf"
+},
+  {
+    "id": "steel-authority-of-india-sail-proficiency-training-of-dresser-cum-recruitment-2026",
+    "b": "Steel Authority of India (SAIL)",
+    "t": "Steel Authority of India (SAIL) Recruitment 2026 Notification Out for 4 Proficiency Training of Dresser cum Compounder (Male) and Nurse (Female) Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "CFP/HR-NW/RECTT/2026(September)/246",
+    "q": "12th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Steel Authority of India (SAIL) has officially released employment advertisement notification CFP/HR-NW/RECTT/2026(September)/246 for the recruitment of 4 vacancies for Proficiency Training of Dresser cum Compounder (Male) and Nurse (Female) posts.",
+    "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/SAIL-CFP_News%20&%20Jobs_03092026_124046.pdf"
+},
+  {
+    "id": "pune-municipal-corporation-pmc-pune-veterinary-officer-technical-assist-recruitment-2026",
+    "b": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika",
+    "t": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika Recruitment 2026 Notification Out for 7 Veterinary Officer, Technical Assistant and More Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "PUNE-MUNICIPAL/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika has officially released employment advertisement notification PUNE-MUNICIPAL/2026 for the recruitment of 7 vacancies for Veterinary Officer, Technical Assistant and More posts.",
+    "u": "https://webadmin.pmc.gov.in/sites/default/files/2026-08/MSU%20Advertisement.pdf"
+},
+  {
+    "id": "aai-apprentice-graduate-apprentice-diploma-apprent-recruitment-2026",
+    "b": "AAI Apprentice",
+    "t": "AAI Apprentice Recruitment 2026 Notification Out for 1 Graduate Apprentice & Diploma Apprentice Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30th September 2026",
+    "a": "01/2026/APPRENTICE (Graduate/Diploma)/Nagpur",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "AAI Apprentice has officially released employment advertisement notification 01/2026/APPRENTICE (Graduate/Diploma)/Nagpur for the recruitment of 1 vacancies for Graduate Apprentice & Diploma Apprentice posts.",
+    "u": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/BOAT%20ADVERTISEMENT%202026%20-%2027.pdf"
+},
+  {
+    "id": "tata-memorial-hospital-tmc-project-assistant-admin-recruitment-2026",
+    "b": "Tata Memorial Hospital (TMC)",
+    "t": "Tata Memorial Hospital (TMC) Recruitment 2026 Notification Out for 1 Project Assistant (Admin) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "TMC/AD/158/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Tata Memorial Hospital (TMC) has officially released employment advertisement notification TMC/AD/158/2026 for the recruitment of 1 vacancies for Project Assistant (Admin) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=5KBxtz8yAQyhWXxP1ZeH9Q=="
+},
+  {
+    "id": "kerala-high-court-registrar-protocol-security-control-recruitment-2026",
+    "b": "Kerala High Court",
+    "t": "Kerala High Court Recruitment 2026 Notification Out for 1 Registrar (Protocol & Security Control) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "03 October 2026",
+    "a": "HCKL/7373/2026-REC1-HC KERALA",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Kerala High Court has officially released employment advertisement notification HCKL/7373/2026-REC1-HC KERALA for the recruitment of 1 vacancies for Registrar (Protocol & Security Control) posts.",
+    "u": "https://hckrecruitment.keralacourts.in/hckrecruitment/Recruitment/notifications"
+},
+  {
+    "id": "directorate-of-tourism-government-o-green-marshal-recruitment-2026",
+    "b": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD)",
+    "t": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD) Recruitment 2026 Notification Out for 162 Green Marshal Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "11 September 2026, 05:00 P.M.",
+    "a": "CMD/DoT/01/2026",
+    "q": "SSLC Pass",
+    "desc": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD) has officially released employment advertisement notification CMD/DoT/01/2026 for the recruitment of 162 vacancies for Green Marshal posts.",
+    "u": "https://cmd.kerala.gov.in/wp-content/uploads/2026/09/Green_Marshal_Notification_2026_v4_0509.pdf"
+},
+  {
     "id": "district-court-thalassery-court-attender-recruitment-2026",
     "b": "District Court Thalassery",
     "t": "District Court Thalassery Recruitment 2026 Notification Out for 2 Court Attender Posts | Apply Offline",
