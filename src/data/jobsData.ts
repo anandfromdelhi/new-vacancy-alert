@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "government-higher-secondary-sc-high-class-teacher-subject-exp-recruitment-2026",
+    "b": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar",
+    "t": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar Recruitment 2026 Notification Out for 11 High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part-time Music Teacher Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "719 / Stha",
+    "q": "12th Pass | ITI | Diploma",
+    "desc": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar has officially announced employment advertisement notification 719 / Stha inviting applications for 11 vacancies for High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part-time Music Teacher posts.",
+    "u": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/09/17887794511007.pdf"
+},
+  {
+    "id": "indira-gandhi-institute-of-med-senior-resident-recruitment-2026",
+    "b": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS)",
+    "t": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS) Recruitment 2026 Notification Out for 10 Senior Resident Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "12 September 2026 (Walk-in)",
+    "a": "04/RIO/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS) has officially announced employment advertisement notification 04/RIO/2026 inviting applications for 10 vacancies for Senior Resident posts.",
+    "u": "https://www.igims.org/resources/uploads/TenderManagement/178876470221.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-associate-project-engineer-ass-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 2 Associate Project Engineer / Associate Project Scientist Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "IITG/I&S1/Project Staff Rectt-2026/146",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/I&S1/Project Staff Rectt-2026/146 inviting applications for 2 vacancies for Associate Project Engineer / Associate Project Scientist posts.",
+    "u": "https://www.iitg.ac.in/"
+},
+  {
+    "id": "sri-sri-aniruddhadeva-sports-u-professor-in-sports-management-recruitment-2026",
+    "b": "Sri Sri Aniruddhadeva Sports University (SASU)",
+    "t": "Sri Sri Aniruddhadeva Sports University (SASU) Recruitment 2026 Notification Out for 3 Professor in Sports Management, Finance & Accounts Officer (FAO) & Librarian Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "21 September 2026",
+    "a": "SRI-SRI-ANIRUD/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sri Sri Aniruddhadeva Sports University (SASU) has officially announced employment advertisement notification SRI-SRI-ANIRUD/2026 inviting applications for 3 vacancies for Professor in Sports Management, Finance & Accounts Officer (FAO) & Librarian posts.",
+    "u": "https://sasurec.samarth.edu.in/"
+},
+  {
+    "id": "arunachal-pradesh-public-servi-arunachal-pradesh-public-servi-recruitment-2026",
+    "b": "Arunachal Pradesh Public Service Commission (APPSC)",
+    "t": "Arunachal Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 13 Arunachal Pradesh Public Service Combined Competitive Examination-2026 (APPSCCE-2026) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 October 2026 (1700 Hours)",
+    "a": "5/2026 (No. PSC-R/13/2026, dated 07 September 2026)",
+    "q": "B.Tech / B.E",
+    "desc": "Arunachal Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 5/2026 (No. PSC-R/13/2026, dated 07 September 2026) inviting applications for 13 vacancies for Arunachal Pradesh Public Service Combined Competitive Examination-2026 (APPSCCE-2026) posts.",
+    "u": "https://appsc.gov.in"
+},
+  {
+    "id": "rajiv-gandhi-university-rgu-junior-research-fellow-recruitment-2026",
+    "b": "Rajiv Gandhi University (RGU)",
+    "t": "Rajiv Gandhi University (RGU) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026 (Walk-in)",
+    "a": "RAJIV-GANDHI-U/2026",
+    "q": "M.Sc",
+    "desc": "Rajiv Gandhi University (RGU) has officially announced employment advertisement notification RAJIV-GANDHI-U/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://rgu.ac.in/uploads/notices/03-09-2026%20Notice%20Walk-in-Interview%20as%20JRF,%20JR(Project).pdf"
+},
+  {
+    "id": "staff-selection-commission-ssc-combined-higher-secondary-102-recruitment-2026",
+    "b": "Staff Selection Commission (SSC)",
+    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 2536 Combined Higher Secondary (10+2) Level Examination, 2026 Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "07 October 2026 (23:00 Hours)",
+    "a": "STAFF-SELECTIO/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 2536 vacancies for Combined Higher Secondary (10+2) Level Examination, 2026 posts.",
+    "u": "https://ssc.gov.in/login"
+},
+  {
+    "id": "district-women-and-child-welfa-security-guard-case-workers-an-recruitment-2026",
+    "b": "District Women and Child Welfare and Empowerment Chittoor",
+    "t": "District Women and Child Welfare and Empowerment Chittoor Recruitment 2026 Notification Out for 12 Security Guard, Case Workers and More Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "RcNo.02/A2/OSC/KPM/2026",
+    "q": "Diploma | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Women and Child Welfare and Empowerment Chittoor has officially announced employment advertisement notification RcNo.02/A2/OSC/KPM/2026 inviting applications for 12 vacancies for Security Guard, Case Workers and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s333e75ff09dd601bbe69f351039152189/uploads/2026/09/17886047128190.pdf"
+},
+  {
+    "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways Recruitment 2026 Notification Out for 560 RRB Paramedical Recruitment 2026 Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 October 2026 (23:59 hrs) (Tentative)",
+    "a": "CEN No. 05/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways has officially announced employment advertisement notification CEN No. 05/2026 inviting applications for 560 vacancies for RRB Paramedical Recruitment 2026 posts.",
+    "u": "https://www.rrbapply.gov.in/#/auth/landing"
+},
+  {
+    "id": "prasar-bharati-marketing-executive-sales-divi-recruitment-2026",
+    "b": "Prasar Bharati",
+    "t": "Prasar Bharati Recruitment 2026 Notification Out for 20 Marketing Executive, Sales Division Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "Within 15 days from the date of publication in Newspaper (specific date not mentioned in the notification)",
+    "a": "[E-340102] A-10/016/28/2026-TM&SO, dated 07 September 2026 (Advt No. NIA/2026/10/Sales)",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Prasar Bharati has officially announced employment advertisement notification [E-340102] A-10/016/28/2026-TM&SO, dated 07 September 2026 (Advt No. NIA/2026/10/Sales) inviting applications for 20 vacancies for Marketing Executive, Sales Division posts.",
+    "u": "https://avedan.prasarbharati.org/"
+},
+  {
     "id": "odisha-adarsha-vidyalaya-keonjhar-assistant-cook-recruitment-2026",
     "b": "Odisha Adarsha Vidyalaya Keonjhar",
     "t": "Odisha Adarsha Vidyalaya Keonjhar Recruitment 2026 Notification Out for 2 Assistant Cook Posts | Apply Offline",
