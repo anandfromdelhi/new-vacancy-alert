@@ -530,14 +530,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "directorate-of-tourism-government-o-green-marshal-recruitment-2026",
-    "b": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD)",
-    "t": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD) Recruitment 2026 Notification Out for 162 Green Marshal Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "11 September 2026, 05:00 P.M.",
+    "b": "Directorate of Tourism, Government of Kerala (CMD)",
+    "t": "Kerala Tourism Recruitment 2026: Apply Online for 162 Green Marshal Posts (Advt CMD/DoT/01/2026)",
+    "d": "05 September 2026",
+    "l": "11 September 2026",
     "a": "CMD/DoT/01/2026",
-    "q": "SSLC Pass",
-    "desc": "Directorate of Tourism, Government of Kerala (recruitment process conducted by Centre for Management Development - CMD) has officially released employment advertisement notification CMD/DoT/01/2026 for the recruitment of 162 vacancies for Green Marshal posts.",
-    "u": "https://cmd.kerala.gov.in/wp-content/uploads/2026/09/Green_Marshal_Notification_2026_v4_0509.pdf"
+    "q": "SSLC Pass (Class 10th Pass) or equivalent",
+    "desc": "The Directorate of Tourism, Government of Kerala, in coordination with the Centre for Management Development (CMD), Thiruvananthapuram, has issued official recruitment notification No. CMD/DoT/01/2026 (dated 05 September 2026) for the engagement of 162 Green Marshals on a daily wage basis for a period of one year. Green Marshals will be deployed across designated tourist destinations and eco-tourism sites throughout all 14 districts of Kerala to enforce sustainable tourism practices and the state's Green Protocol in coordination with District Tourism Promotion Councils (DTPCs).",
+    "u": "https://www.cmd.kerala.gov.in"
 },
   {
     "id": "district-court-thalassery-court-attender-recruitment-2026",
