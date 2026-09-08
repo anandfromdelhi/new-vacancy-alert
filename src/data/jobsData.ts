@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "all-india-institute-of-medical-scie-research-assistant-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "1298AIIMS/JDH/COE/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification 1298AIIMS/JDH/COE/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788759675_R.A.%20recruitment%2007-09-2026.pdf"
+},
+  {
+    "id": "baroda-swarojgar-vikas-sansthan-attender-recruitment-2026",
+    "b": "Baroda Swarojgar Vikas Sansthan",
+    "t": "Baroda Swarojgar Vikas Sansthan Recruitment 2026 Notification Out for 1 Attender Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "BARODA-SWAROJG/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Baroda Swarojgar Vikas Sansthan has officially released employment advertisement notification BARODA-SWAROJG/2026 for the recruitment of 1 vacancies for Attender posts.",
+    "u": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-09/Annexure-A-01-24.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-ropa-junior-research-fellow-jrf-senior-r-recruitment-2026",
+    "b": "Indian Institute of Technology Ropar (IIT Ropar)",
+    "t": "Indian Institute of Technology Ropar (IIT Ropar) Recruitment 2026 Notification Out for 7 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E",
+    "desc": "Indian Institute of Technology Ropar (IIT Ropar) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 7 vacancies for Junior Research Fellow (JRF) / Senior Research Fellow (SRF) posts.",
+    "u": "https://www.iitrpr.ac.in/api/v2/files/download/202"
+},
+  {
+    "id": "national-institute-of-secondary-ste-technical-manager-technical-assista-recruitment-2026",
+    "b": "National Institute of Secondary Steel Technology (NISST)",
+    "t": "National Institute of Secondary Steel Technology (NISST) Recruitment 2026 Notification Out for 4 Technical Manager, Technical Assistant, Assistant Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "28 September 2026",
+    "a": "NISST/P&A/RECT/CON/2026-27/3",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Secondary Steel Technology (NISST) has officially released employment advertisement notification NISST/P&A/RECT/CON/2026-27/3 for the recruitment of 4 vacancies for Technical Manager, Technical Assistant, Assistant posts.",
+    "u": "https://nisst.org/wp-content/uploads/2026/09/Advertisement-modified-2026-for-4-posts.pdf"
+},
+  {
+    "id": "all-india-institute-of-medical-scie-technical-assistant-project-associa-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bathinda",
+    "t": "All India Institute of Medical Sciences Bathinda Recruitment 2026 Notification Out for 3 Technical Assistant, Project Associate Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "AIIMS/BTI/DEAN(RES)/2026/92",
+    "q": "Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Bathinda has officially released employment advertisement notification AIIMS/BTI/DEAN(RES)/2026/92 for the recruitment of 3 vacancies for Technical Assistant, Project Associate posts.",
+    "u": "https://aiimsbathinda.edu.in/images/Reqruitment/20260907105410.pdf"
+},
+  {
+    "id": "central-university-of-punjab-cupb-b-contractual-faculty-part-time-facul-recruitment-2026",
+    "b": "Central University of Punjab (CUPB), Bathinda",
+    "t": "Central University of Punjab (CUPB), Bathinda Recruitment 2026 Notification Out for 205 Contractual Faculty, Part-Time Faculty, Senior Analyst, Laboratory Assistant & Laboratory Attendant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026 / 15 September 2026",
+    "a": "CUPB/26-27/012",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Punjab (CUPB), Bathinda has officially released employment advertisement notification CUPB/26-27/012 for the recruitment of 205 vacancies for Contractual Faculty, Part-Time Faculty, Senior Analyst, Laboratory Assistant & Laboratory Attendant posts.",
+    "u": "https://cup.edu.in/sites/default/files/Contract%20NT_09_2026.pdf"
+},
+  {
+    "id": "women-and-child-development-departm-anganwadi-worker-recruitment-2026",
+    "b": "Women and Child Development Department Odisha",
+    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 5 Anganwadi Worker Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "16 September 2026",
+    "a": "WOMEN-AND-CHIL/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "Women and Child Development Department Odisha has officially released employment advertisement notification WOMEN-AND-CHIL/2026 for the recruitment of 5 vacancies for Anganwadi Worker posts.",
+    "u": "https://engagement-awc.odisha.gov.in/download-aww-event-document?awwEventHistoryId=171381"
+},
+  {
+    "id": "agharkar-research-institute-pune-ar-junior-research-fellow-recruitment-2026",
+    "b": "Agharkar Research Institute Pune (ARI Pune)",
+    "t": "Agharkar Research Institute Pune (ARI Pune) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "ADVT/RecT/ANRF/13/SP-363/2026-27",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Agharkar Research Institute Pune (ARI Pune) has officially released employment advertisement notification ADVT/RecT/ANRF/13/SP-363/2026-27 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://aripune.res.in/wp-content/uploads/2026/09/AdvTRecT_13-SP-363_JRF-2026-27-Final.pdf/wp-content/uploads/2026/09/AdvTRecT_13-SP-363_JRF-2026-27-Final.pdf"
+},
+  {
+    "id": "state-bank-of-india-sbi-group-ciso-chief-information-securi-recruitment-2026",
+    "b": "State Bank of India (SBI)",
+    "t": "State Bank of India (SBI) Recruitment 2026 Notification Out for 1 Group CISO (Chief Information Security Officer) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "24 September 2026",
+    "a": "CRPD/SCO/2026-27/21",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "State Bank of India (SBI) has officially released employment advertisement notification CRPD/SCO/2026-27/21 for the recruitment of 1 vacancies for Group CISO (Chief Information Security Officer) posts.",
+    "u": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853"
+},
+  {
+    "id": "visvesvaraya-national-institute-of-training-and-placement-manager-recruitment-2026",
+    "b": "Visvesvaraya National Institute of Technology (VNIT)",
+    "t": "Visvesvaraya National Institute of Technology (VNIT) Recruitment 2026 Notification Out for 1 Training and Placement Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "16 September 2026",
+    "a": "VISVESVARAYA-N/2026",
+    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Visvesvaraya National Institute of Technology (VNIT) has officially released employment advertisement notification VISVESVARAYA-N/2026 for the recruitment of 1 vacancies for Training and Placement Manager posts.",
+    "u": "https://drive.google.com/file/d/1ED7UK_eaE4fbYp_ztLc8TMdSyixWMe_4/view"
+},
+  {
     "id": "maharashtra-metro-rail-corporation-mts-junior-engineer-and-more-recruitment-2026",
     "b": "Maharashtra Metro Rail Corporation Limited (MAHA Metro)",
     "t": "Maharashtra Metro Rail Corporation Limited (MAHA Metro) Recruitment 2026 Notification Out for 56 MTS, Junior Engineer and More Posts | Apply Offline",
