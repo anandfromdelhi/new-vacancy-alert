@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-of-technology-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu",
+    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 2 Research Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "IITJMU/RC/RP-100330/DRDL/A-46",
+    "q": "M.Tech / M.E | M.Sc | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Jammu has officially announced employment advertisement notification IITJMU/RC/RP-100330/DRDL/A-46 inviting applications for 2 vacancies for Research Assistant posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "baba-ghulam-shah-badshah-unive-junior-research-assistant-recruitment-2026",
+    "b": "Baba Ghulam Shah Badshah University",
+    "t": "Baba Ghulam Shah Badshah University Recruitment 2026 Notification Out for 1 Junior Research Assistant Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "BABA-GHULAM-SH/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Baba Ghulam Shah Badshah University has officially announced employment advertisement notification BABA-GHULAM-SH/2026 inviting applications for 1 vacancies for Junior Research Assistant posts.",
+    "u": "https://www.bgsbu.ac.in/api/files/32953/view"
+},
+  {
+    "id": "bric-translational-health-scie-sib-biodesign-fellow-recruitment-2026",
+    "b": "BRIC Translational Health Science and Technology Institute (THSTI)",
+    "t": "BRIC Translational Health Science and Technology Institute (THSTI) Recruitment 2026 Notification Out for 4 SIB (Biodesign) Fellow Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "23 September 2026",
+    "a": "BRIC-TRANSLATI/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "BRIC Translational Health Science and Technology Institute (THSTI) has officially announced employment advertisement notification BRIC-TRANSLATI/2026 inviting applications for 4 vacancies for SIB (Biodesign) Fellow posts.",
+    "u": "https://recruitment.thsti.in/public/upload/job_pdf/178834600847web-advt-RN-15-26.pdf"
+},
+  {
+    "id": "international-advanced-researc-senior-manager-manager-technic-recruitment-2026",
+    "b": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
+    "t": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) Recruitment 2026 Notification Out for 7 Senior Manager, Manager, Technical Coordinator Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "17 September 2026",
+    "a": "ARCI/HRD/MCC/RECT/1/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) has officially announced employment advertisement notification ARCI/HRD/MCC/RECT/1/2026 inviting applications for 7 vacancies for Senior Manager, Manager, Technical Coordinator posts.",
+    "u": "https://arci.res.in/careers/vacancies"
+},
+  {
+    "id": "indian-institute-of-technology-project-manager-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Project Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "20 September 2026",
+    "a": "CON/10084/Advt0313 DATED 07.09.2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification CON/10084/Advt0313 DATED 07.09.2026 inviting applications for 1 vacancies for Project Manager posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "indian-institute-of-technology-project-assistant-i-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Project Assistant I Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "OTH/ 12286/ Adv0312",
+    "q": "10th / 8th Pass | 12th Pass | B.Tech / B.E",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification OTH/ 12286/ Adv0312 inviting applications for 1 vacancies for Project Assistant I posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "district-legal-services-author-legal-aid-panel-lawyer-recruitment-2026",
+    "b": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad)",
+    "t": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad) Recruitment 2026 Notification Out for 1 Legal Aid Panel Lawyer Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "25 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Legal Aid Panel Lawyer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec011aa057313c28fa4a40c5bc084b11/uploads/2026/09/2026090516.pdf"
+},
+  {
+    "id": "birla-institute-of-technology-jr-officer-recruitment-2026",
+    "b": "Birla Institute of Technology & Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology & Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Jr. Officer Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "12 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "M.Com",
+    "desc": "Birla Institute of Technology & Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Jr. Officer posts.",
+    "u": "https://www.bits-pilani.ac.in/careers/jr-officer-accounts-gcir/"
+},
+  {
+    "id": "gims-staff-nurse-staff-nurse-non-teaching-recruitment-2026",
+    "b": "GIMS Staff Nurse",
+    "t": "GIMS Staff Nurse Recruitment 2026 Notification Out for 100 Staff Nurse (Non-Teaching) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30 October 2026",
+    "a": "GIMS/2026/Manpower/NT-03/10, dated 09.08.2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "GIMS Staff Nurse has officially announced employment advertisement notification GIMS/2026/Manpower/NT-03/10, dated 09.08.2026 inviting applications for 100 vacancies for Staff Nurse (Non-Teaching) posts.",
+    "u": "http://www.gims.ac.in/assets/pdf/DetailedAdv1.pdf"
+},
+  {
+    "id": "army-college-of-medical-scienc-administrative-staff-recruitment-2026",
+    "b": "Army College of Medical Sciences (ACMS)",
+    "t": "Army College of Medical Sciences (ACMS) Recruitment 2026 Notification Out for 2 Administrative Staff Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "30 September 2026",
+    "a": "ARMY-COLLEGE-O/2026",
+    "q": "ESM (JCO) with minimum 20 years of service for Estate Supervisor, ESM (H...",
+    "desc": "Army College of Medical Sciences (ACMS) has officially announced employment advertisement notification ARMY-COLLEGE-O/2026 inviting applications for 2 vacancies for Administrative Staff posts.",
+    "u": "https://theacms.in/assets/admin/vacancy//449441788836434.pdf"
+},
+  {
     "id": "all-india-institute-of-medical-project-research-scientist-2-recruitment-2026",
     "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
     "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist-2 Posts | Apply Offline",
