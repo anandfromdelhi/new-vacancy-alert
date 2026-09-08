@@ -1,6 +1,11 @@
-import pypdf
+import subprocess
 import sys
 import os
+
+try:
+    import pypdf
+except ImportError:
+    pypdf = None
 
 if hasattr(sys.stdout, 'reconfigure'):
     try:
@@ -14,8 +19,22 @@ def extract_pdf_fast(pdf_path, max_pages=None):
         print(f"Error: File not found - {pdf_path}")
         return ""
         
-    reader = pypdf.PdfReader(pdf_path)
-    total_pages = len(reader.pages)
+    # First try pdftotext
+    try:
+        cmd = ["pdftotext"]
+        if max_pages:
+            cmd.extend(["-l", str(max_pages)])
+        cmd.extend([pdf_path, "-"])
+        res = subprocess.run(cmd, capture_output=True, text=True, errors="ignore")
+        if res.returncode == 0 and res.stdout.strip():
+            print(f"[OK] pdftotext extracted {len(res.stdout)} chars from {pdf_path}")
+            return res.stdout
+    except Exception as e:
+        pass
+
+    if pypdf is None:
+        print("[ERROR] Neither pdftotext nor pypdf available.")
+        return ""
     
     print(f"\n=======================================================")
     print(f"      FAST PDF DATA EXTRACTOR REPORT                   ")

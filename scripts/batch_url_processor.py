@@ -327,8 +327,8 @@ def parse_vacancy_data(html, url):
     # 4. Extract Board
     board = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['company', 'organization', 'board', 'institute', 'department', 'particulars']):
-            if len(v) > 2 and v.lower() not in ['details', 'various']:
+        if any(term in k for term in ['authority', 'organization', 'company', 'board', 'institute', 'department', 'commission', 'court']):
+            if len(v) > 2 and v.lower() not in ['details', 'various', 'given below']:
                 board = v
                 break
     if not board:
@@ -458,11 +458,12 @@ def parse_vacancy_data(html, url):
     # 12. Advt No
     advt_no = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['advt', 'advertisement', 'notification no', 'notice no']):
-            advt_no = v
-            break
+        if any(term in k for term in ['advt', 'advertisement', 'notification no', 'notice no', 'notification number', 'notice number', 'employment notice']) or ('notification' in k and 'date' not in k and 'period' not in k):
+            if v and v.lower() not in ['details', 'various', 'given below', 'refer notification']:
+                advt_no = v
+                break
     if not advt_no:
-        advt_match = re.search(r'(?:Advt\.?\s*No\.?|Advertisement\s*No\.?|Notification\s*No\.?|Notice\s*No\.?)\s*[:\-]?\s*([A-Za-z0-9\/\-\_\.\(\)\s]+?)(?:\s+dated|\s+Dated|\n|\.|\,|$)', html, re.IGNORECASE)
+        advt_match = re.search(r'(?:Advt\.?\s*No\.?|Advertisement\s*No\.?|Notification\s*No\.?|Notification\s*Number|Notice\s*No\.?)\s*[:\-]?\s*([A-Za-z0-9\/\-\_\.\(\)\s]+?)(?:\s+dated|\s+Dated|\n|\.|\,|$)', html, re.IGNORECASE)
         if advt_match:
             advt_candidate = advt_match.group(1).strip()
             if 3 <= len(advt_candidate) <= 40 and not any(bad in advt_candidate.lower() for bad in ['pdf', 'click', 'freejob', 'http', 'table', 'details']):
@@ -482,16 +483,26 @@ def parse_vacancy_data(html, url):
             p_name = clean_text(r[0])
             v_cnt = clean_text(r[1]) if len(r) > 1 else "1"
             q_spec = clean_text(r[2]) if len(r) > 2 else qual_text
+            num_match = re.search(r'\d+', v_cnt)
+            cnt_num = int(num_match.group(0)) if num_match else 1
             vacancies_details.append({
                 "postName": p_name,
                 "vacancies": v_cnt,
-                "qualification": q_spec
+                "total": cnt_num,
+                "qualification": q_spec,
+                "payScale": salary_text
             })
+        if vacancies_num <= 1:
+            sum_cnt = sum(vd['total'] for vd in vacancies_details if isinstance(vd.get('total'), int))
+            if sum_cnt > vacancies_num:
+                vacancies_num = sum_cnt
     else:
         vacancies_details.append({
             "postName": post_name,
             "vacancies": str(vacancies_num),
-            "qualification": qual_text
+            "total": vacancies_num,
+            "qualification": qual_text,
+            "payScale": salary_text
         })
 
     urls_list = []
@@ -728,9 +739,20 @@ def generate_rich_job_schema(data):
             "allowances": "DA, HRA, Medical and other allowances as applicable per government rules."
         },
         "applicationFee": fee_details,
+        "howToPayFee": [
+            "Online via Net Banking, Debit Card, Credit Card or UPI payment gateways.",
+            "Offline via Demand Draft / Postal Order / Challan if specified in official notification.",
+            "Retain transaction e-receipt and registration slip for future recruitment stages."
+        ],
         "selectionProcess": selection_stages,
+        "howToApply": how_to_apply,
         "howToApplySteps": how_to_apply,
         "documentsRequired": docs_required,
+        "importantInstructions": [
+            "Verify all eligibility criteria, educational certificates, and age limits before submitting the application.",
+            "Complete and submit application forms well before the deadline to avoid server overload or transit delays.",
+            "Ensure that email addresses and phone numbers provided remain active for official interview communications."
+        ],
         "faqs": faqs,
         "urls": urls
     }
@@ -896,8 +918,13 @@ def main():
         # Ensure unique candidate_id if base collision exists
         base_id = candidate_id
         counter = 1
+        m_art = re.search(r'-(\d{5,8})(?:/|$)', url)
+        art_id = m_art.group(1) if m_art else ""
         while candidate_id in existing_jobs:
-            candidate_id = f"{base_id}-{counter}"
+            if art_id and counter == 1:
+                candidate_id = f"{base_id}-{art_id}"
+            else:
+                candidate_id = f"{base_id}-{counter}"
             counter += 1
 
         # Generate rich schema

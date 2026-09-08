@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "government-medical-college-hospital-project-technical-support-iii-proje-recruitment-2026",
+    "b": "Government Medical College Hospital Government Medical College Hospital Chandigarh",
+    "t": "Government Medical College Hospital Government Medical College Hospital Chandigarh Recruitment 2026 Notification Out for 9 Project Technical Support-III, Project Nurse-III Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "GOVERNMENT-MED/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Government Medical College Hospital Government Medical College Hospital Chandigarh has officially released employment advertisement notification GOVERNMENT-MED/2026 for the recruitment of 9 vacancies for Project Technical Support-III, Project Nurse-III posts.",
+    "u": "https://gmch.gov.in/sites/default/files/jobs/Advt%20PBC.pdf"
+},
+  {
+    "id": "panjab-university-guest-faculty-in-chemical-engineeri-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 Notification Out for 2 Guest Faculty in Chemical Engineering Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 2 vacancies for Guest Faculty in Chemical Engineering posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260907153530-Walk-in-Interview%20for%20appointing%20of%20Guest%20Faculty%20in%20Chemical%20Engineering.pdf"
+},
+  {
+    "id": "bihar-police-subordinate-services-c-gulma-samadesta-company-commander-recruitment-2026",
+    "b": "Bihar Police Subordinate Services Commission (BPSSC)",
+    "t": "Bihar Police Subordinate Services Commission (BPSSC) Recruitment 2026 Notification Out for 65 Gulma Samadesta (Company Commander) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "10 October 2026",
+    "a": "11/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bihar Police Subordinate Services Commission (BPSSC) has officially released employment advertisement notification 11/2026 for the recruitment of 65 vacancies for Gulma Samadesta (Company Commander) posts.",
+    "u": "https://bpssc.bihar.gov.in/Notices/Advt%20No.-11-2026.pdf"
+},
+  {
+    "id": "national-health-mission-assam-nhm-a-medical-officer-mbbs-recruitment-2026",
+    "b": "National Health Mission Assam (NHM Assam)",
+    "t": "National Health Mission Assam (NHM Assam) Recruitment 2026 Notification Out for 1 Medical Officer (MBBS) Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "14 September 2026",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "National Health Mission Assam (NHM Assam) has officially released employment advertisement notification NATIONAL-HEALT/2026 for the recruitment of 1 vacancies for Medical Officer (MBBS) posts.",
+    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/uploadAdmin/uploads/job178-doc-1.pdf"
+},
+  {
+    "id": "north-eastern-regional-agricultural-business-development-executive-mark-recruitment-2026",
+    "b": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC)",
+    "t": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) Recruitment 2026 Notification Out for 1 Business Development Executive - (Marketing - Retail) Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "NORTH-EASTERN-/2026",
+    "q": "MBA / BBA",
+    "desc": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) has officially released employment advertisement notification NORTH-EASTERN-/2026 for the recruitment of 1 vacancies for Business Development Executive - (Marketing - Retail) posts.",
+    "u": "https://neramac.com/files/userfiles/2026/09/03/files/BDE_-_Marketing_-_Retail__1_.pdf"
+},
+  {
+    "id": "district-legal-services-authority-b-driver-recruitment-2026",
+    "b": "District Legal Services Authority Biswanath (DLSA Biswanath)",
+    "t": "District Legal Services Authority Biswanath (DLSA Biswanath) Recruitment 2026 Notification Out for 1 Driver Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "19 September 2026",
+    "a": "DLSA(BN) I/26/1461) for 1 vacancy",
+    "q": "Class X pass with valid LMV driving license",
+    "desc": "District Legal Services Authority Biswanath (DLSA Biswanath) has officially released employment advertisement notification DLSA(BN) I/26/1461) for 1 vacancy for the recruitment of 1 vacancies for Driver posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0552c409f1571f500e28f490a302a1/uploads/2026/09/2026090370.pdf"
+},
+  {
+    "id": "north-eastern-regional-agricultural-assistant-manager-civil-engineer-recruitment-2026",
+    "b": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC)",
+    "t": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) Recruitment 2026 Notification Out for 1 Assistant Manager - Civil Engineer Posts | Walk-in Interview",
+    "d": "08 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "P&A/48/I-V/Part-III/375",
+    "q": "B.Tech / B.E",
+    "desc": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) has officially released employment advertisement notification P&A/48/I-V/Part-III/375 for the recruitment of 1 vacancies for Assistant Manager - Civil Engineer posts.",
+    "u": "https://neramac.com/files/userfiles/2026/09/03/files/Asst_Manager_-_Civil_Engg__1_.pdf"
+},
+  {
+    "id": "digital-india-bhashini-division-dib-ecosystem-engagement-manager-recruitment-2026",
+    "b": "Digital India Bhashini Division (DIBD)",
+    "t": "Digital India Bhashini Division (DIBD) Recruitment 2026 Notification Out for 2 Ecosystem Engagement Manager Posts | Apply Online",
+    "d": "08 September 2026",
+    "l": "08 September 2026",
+    "a": "DIB/ 36/ 2023-DIB/ 05",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Digital India Bhashini Division (DIBD) has officially released employment advertisement notification DIB/ 36/ 2023-DIB/ 05 for the recruitment of 2 vacancies for Ecosystem Engagement Manager posts.",
+    "u": "https://bhashinimigrationns.sosnm1.shakticloud.ai:9024/bhashinistaticassets/bhashiniportal/Ecosystem%20Engagement%20Manager-%20NER%2805%29-new.pdf"
+},
+  {
+    "id": "chittoor-district-record-assistant-office-subordinate-recruitment-2026",
+    "b": "Chittoor District",
+    "t": "Chittoor District Recruitment 2026 Notification Out for 37 Record Assistant, Office Subordinate, Sweepers, Scavengers, Cooks, Dhobis and Barbers Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "15 September 2026",
+    "a": "01/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Chittoor District has officially released employment advertisement notification 01/2026 for the recruitment of 37 vacancies for Record Assistant, Office Subordinate, Sweepers, Scavengers, Cooks, Dhobis and Barbers posts.",
+    "u": "https://cdn.s3waas.gov.in/s333e75ff09dd601bbe69f351039152189/uploads/2026/09/17886028883993.pdf"
+},
+  {
+    "id": "office-of-the-district-women-child-anganwadi-worker-helper-recruitment-2026",
+    "b": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District",
+    "t": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District Recruitment 2026 Notification Out for 70 Anganwadi Worker & Helper Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "18 September 2026, 5:00 P.M.",
+    "a": "WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District has officially released employment advertisement notification WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL for the recruitment of 70 vacancies for Anganwadi Worker & Helper posts.",
+    "u": "https://cdn.s3waas.gov.in/s319b650660b253761af189682e03501dd/uploads/2026/09/17884355642604.pdf"
+},
+  {
     "id": "pmbi-recruitment-2026-manager-executive-pharmacist-178-posts",
     "b": "Pharmaceuticals & Medical Devices Bureau of India (PMBI)",
     "t": "PMBI Recruitment 2026: Apply Offline for 178 Manager, Senior Executive, Pharmacist & Other Posts",
