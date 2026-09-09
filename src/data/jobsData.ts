@@ -12,6 +12,50 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bengal-chemicals-pharmaceutica-quality-assurance-officer-recruitment-2026",
+    "b": "Bengal Chemicals & Pharmaceuticals",
+    "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Quality Assurance Officer Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "21 September 2026",
+    "a": "PER/0106/2026-2027/3",
+    "q": "M.Sc",
+    "desc": "Bengal Chemicals & Pharmaceuticals has officially announced employment advertisement notification PER/0106/2026-2027/3 inviting applications for 1 vacancies for Quality Assurance Officer posts.",
+    "u": "https://bengalchemicals.co.in/"
+},
+  {
+    "id": "all-india-institute-of-medical-project-staff-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
+    "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 2 Project Staff Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "16 September 2026",
+    "a": "AIIMSK/MICRO/VRDL/E 1250",
+    "q": "12th Pass | B.Sc | MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) has officially announced employment advertisement notification AIIMSK/MICRO/VRDL/E 1250 inviting applications for 2 vacancies for Project Staff posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/vrdl_advertisement_proforma_scientistb_labtechnician_september_2026_20260907_181159_7c9d06f4.pdf"
+},
+  {
+    "id": "bengal-chemicals-pharmaceutica-legal-retainer-recruitment-2026",
+    "b": "Bengal Chemicals & Pharmaceuticals",
+    "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Legal Retainer Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "PER/0106/2026-2027/2",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Bengal Chemicals & Pharmaceuticals has officially announced employment advertisement notification PER/0106/2026-2027/2 inviting applications for 1 vacancies for Legal Retainer posts.",
+    "u": "https://apps.bengalchemicals.co.in/uploads/job-file/MNUYQ4TE8P-20260819-075325.pdf"
+},
+  {
+    "id": "indian-institute-of-informatio-assistant-registrar-recruitment-2026",
+    "b": "Indian Institute of Information Technology Kalyani (IIIT Kalyani)",
+    "t": "Indian Institute of Information Technology Kalyani (IIIT Kalyani) Recruitment 2026 Notification Out for 1 Assistant Registrar Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "18 September 2026",
+    "a": "IIITK/NON-FAC.RECT/R20/2026/09",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Information Technology Kalyani (IIIT Kalyani) has officially announced employment advertisement notification IIITK/NON-FAC.RECT/R20/2026/09 inviting applications for 1 vacancies for Assistant Registrar posts.",
+    "u": "https://iiitkalyani.ac.in/api/serve/2026/08/29/Advertisement_-_T_P_1787978635_0daca02d.pdf"
+},
+  {
     "id": "nainital-bank-hr-advisor-recruitment-2026",
     "b": "Nainital Bank",
     "t": "Nainital Bank Recruitment 2026 Notification Out for 1 HR Advisor Posts | Apply Online",
