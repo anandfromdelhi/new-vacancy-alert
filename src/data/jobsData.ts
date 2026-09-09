@@ -211,14 +211,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "district-welfare-officer-women-anganwadi-teacher-awt-anganwad-recruitment-2026",
-    "b": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District",
-    "t": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District Recruitment 2026 Notification Out for 255 Anganwadi Teacher (AWT), Anganwadi Helper (AWH) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "21 September 2026 (5:00 PM)",
-    "a": "185/A/DWO-NGKL/2026, dated 03 September 2026",
-    "q": "10th / 8th Pass | 12th Pass | B.Tech / B.E",
-    "desc": "District Welfare Officer, Women, Children, Disabled & Senior Citizens Welfare (ICDS), Nagarkurnool District has officially announced employment advertisement notification 185/A/DWO-NGKL/2026, dated 03 September 2026 inviting applications for 255 vacancies for Anganwadi Teacher (AWT), Anganwadi Helper (AWH) posts.",
-    "u": "https://mis.tgwdcw.in/"
+    "b": "Women Development & Child Welfare Department (ICDS), Nagarkurnool District, Telangana",
+    "t": "Nagarkurnool District Anganwadi Recruitment 2026: Apply Online for 255 Anganwadi Teacher (AWT) & Helper (AWH) Posts across 5 ICDS Projects",
+    "d": "03 September 2026",
+    "l": "21 September 2026 (05:00 PM)",
+    "a": "Notification No. 185/A/DWO-NGKL/2026 (DIPR R.O. No. 9373-PP/CL/ADVT/2026-27), Dated 03.09.2026",
+    "q": "Minimum SSC (Class 10th) Pass from a recognized Board",
+    "desc": "The Government of Telangana, through the District Welfare Officer (DWO), Women, Child, Disabled and Senior Citizens Welfare Department, Integrated Child Development Services (ICDS), Nagarkurnool District, has officially issued Employment Notification No. 185/A/DWO-NGKL/2026 (DIPR R.O. No. 9373-PP/CL/ADVT/2026-27 dated 03 September 2026) for the direct recruitment of 255 Anganwadi staff vacancies. The positions encompass 148 posts of Anganwadi Teacher (AWT) and 107 posts of Anganwadi Helper / Aayah (AWH) under ITDA & ST Sub-Plan areas across 5 key ICDS project jurisdictions in Nagarkurnool District.",
+    "u": "http://wdcw.tg.nic.in"
 },
   {
     "id": "c-dac-chennai-project-associate-fresher-proj-recruitment-2026",
