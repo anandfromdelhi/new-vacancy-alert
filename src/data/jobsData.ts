@@ -113,13 +113,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "uttarakhand-subordinate-servic-personal-assistant-stenographe-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
-    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 101 Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 Posts | Apply Online",
+    "t": "UKSSSC Personal Assistant & Stenographer Recruitment 2026: Apply Online for 101 Group 'C' Posts (Advt No. 81/2026)",
     "d": "08 September 2026",
     "l": "14 October 2026",
-    "a": "81/UOSSC/CHA/2026",
-    "q": "12th Pass | B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 81/UOSSC/CHA/2026 inviting applications for 101 vacancies for Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 posts.",
-    "u": "https://sssc.uk.gov.in/"
+    "a": "81 / उ०अ०से०च०आ० / 2026 (Advt. No. 81/UKSSSC/2026)",
+    "q": "Intermediate (10+2) / Bachelor's Degree + Steno 80 wpm & Computer Typing 4000 KDPH",
+    "desc": "The Uttarakhand Subordinate Service Selection Commission (UKSSSC - उत्तराखण्ड अधीनस्थ सेवा चयन आयोग), Dehradun has officially released Advertisement No. 81/उ०अ०से०च०आ०/2026 (dated 08 September 2026) inviting online applications for direct recruitment to 101 Group 'C' (समूह 'ग') vacancies. The recruitment drive covers posts of Personal Assistant (वैयक्तिक सहायक), Stenographer (आशुलिपिक), Stenographer Grade-3 (आशुलिपिक ग्रेड-तृतीय), and Stenographer Grade-2 (आशुलिपिक ग्रेड-2 / ब्रिडकुल) across 19 departments and regional development authorities in Uttarakhand.",
+    "u": "https://sssc.uk.gov.in"
 },
   {
     "id": "government-institute-of-medica-scientist-b-medical-recruitment-2026",
