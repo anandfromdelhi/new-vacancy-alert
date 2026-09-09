@@ -662,14 +662,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "gims-staff-nurse-staff-nurse-non-teaching-recruitment-2026",
-    "b": "GIMS Staff Nurse",
-    "t": "GIMS Staff Nurse Recruitment 2026 Notification Out for 100 Staff Nurse (Non-Teaching) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "30 October 2026",
-    "a": "GIMS/2026/Manpower/NT-03/10, dated 09.08.2026",
-    "q": "Diploma | B.Tech / B.E | B.Sc",
-    "desc": "GIMS Staff Nurse has officially announced employment advertisement notification GIMS/2026/Manpower/NT-03/10, dated 09.08.2026 inviting applications for 100 vacancies for Staff Nurse (Non-Teaching) posts.",
-    "u": "http://www.gims.ac.in/assets/pdf/DetailedAdv1.pdf"
+    "b": "Government Institute of Medical Sciences (GIMS), Greater Noida, Uttar Pradesh",
+    "t": "GIMS Greater Noida Staff Nurse Recruitment 2026: Apply Online for 100 Non-Teaching Posts (Advt No. GIMS/2026/Manpower/NT-03/10)",
+    "d": "09 August 2026",
+    "l": "07 September 2026",
+    "a": "Advt. No. GIMS/2026/Manpower/NT-03/10, Dated 09.08.2026",
+    "q": "B.Sc Nursing / Post Basic B.Sc Nursing OR GNM Diploma + 2 Yrs Experience (50-bed hospital)",
+    "desc": "The Government Institute of Medical Sciences (GIMS), Greater Noida, Gautam Buddha Nagar, an autonomous premier medical institute under the Government of Uttar Pradesh (established on the lines of S.G.P.G.I. Lucknow), has officially released Advertisement No. GIMS/2026/Manpower/NT-03/10 (dated 09 August 2026) for direct recruitment to 100 Non-Teaching Posts of Staff Nurse (स्टाफ नर्स) through a Computer Based Test (CBT) Examination-2026.",
+    "u": "https://www.gims.ac.in"
 },
   {
     "id": "army-college-of-medical-scienc-administrative-staff-recruitment-2026",
@@ -7582,12 +7582,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "gims-greater-noida-staff-nurse-recruitment-2026",
     "b": "Government Institute of Medical Sciences (GIMS), Greater Noida, Uttar Pradesh",
-    "t": "GIMS Greater Noida Staff Nurse Recruitment 2026 Notification Out for 100 Non-Teaching Vacancies in UP Medical Sciences Institute",
+    "t": "GIMS Greater Noida Staff Nurse Recruitment 2026: Apply Online for 100 Non-Teaching Posts (Advt No. GIMS/2026/Manpower/NT-03/10)",
     "d": "09 August 2026",
     "l": "07 September 2026",
-    "a": "GIMS/2026/Manpower/NT-03/10",
-    "q": "B.Sc. Nursing / Post Basic B.Sc. Nursing OR GNM Diploma + 2 Yrs Hospital Exp (min 50 beds)",
-    "desc": "Government Institute of Medical Sciences (GIMS), Greater Noida, Gautam Buddha Nagar, an autonomous institute under the Government of Uttar Pradesh (established on the lines of SGPGI Lucknow), has issued official notification GIMS/2026/Manpower/NT-03/10 for direct recruitment of 100 Staff Nurse vacancies.",
+    "a": "Advt. No. GIMS/2026/Manpower/NT-03/10, Dated 09.08.2026",
+    "q": "B.Sc Nursing / Post Basic B.Sc Nursing OR GNM Diploma + 2 Yrs Experience (50-bed hospital)",
+    "desc": "The Government Institute of Medical Sciences (GIMS), Greater Noida, Gautam Buddha Nagar, an autonomous premier medical institute under the Government of Uttar Pradesh (established on the lines of S.G.P.G.I. Lucknow), has officially released Advertisement No. GIMS/2026/Manpower/NT-03/10 (dated 09 August 2026) for direct recruitment to 100 Non-Teaching Posts of Staff Nurse (स्टाफ नर्स) through a Computer Based Test (CBT) Examination-2026.",
     "u": "https://www.gims.ac.in"
 },
   {
