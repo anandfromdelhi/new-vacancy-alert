@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nainital-bank-hr-advisor-recruitment-2026",
+    "b": "Nainital Bank",
+    "t": "Nainital Bank Recruitment 2026 Notification Out for 1 HR Advisor Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "19 September 2026",
+    "a": "NAINITAL-BANK/2026",
+    "q": "Superannuated/ retired/ VRS Optee in Grade/Scale of AGM and above from p...",
+    "desc": "Nainital Bank has officially announced employment advertisement notification NAINITAL-BANK/2026 inviting applications for 1 vacancies for HR Advisor posts.",
+    "u": "https://www.nainitalbank.bank.in/pdf/Notification%20n%20Application%20Advisor%20HR.pdf"
+},
+  {
+    "id": "doon-university-project-assistant-recruitment-2026",
+    "b": "Doon University",
+    "t": "Doon University Recruitment 2026 Notification Out for 2 Project Assistant Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "12 September 2026",
+    "a": "Email",
+    "q": "M.Sc",
+    "desc": "Doon University has officially announced employment advertisement notification Email inviting applications for 2 vacancies for Project Assistant posts.",
+    "u": "https://doonuniversity.ac.in/admin/assets/uploads/docs/2026090213584776c6702637.pdf"
+},
+  {
+    "id": "uttarakhand-public-service-com-uttarakhand-combined-state-civ-recruitment-2026",
+    "b": "Uttarakhand Public Service Commission (UKPSC)",
+    "t": "Uttarakhand Public Service Commission (UKPSC) Recruitment 2026 Notification Out for 67 Uttarakhand Combined State Civil/Upper Subordinate Services Examination 2026 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "29 September 2026 (11:59:59 PM)",
+    "a": "A-1/E-1/2026-27",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Uttarakhand Public Service Commission (UKPSC) has officially announced employment advertisement notification A-1/E-1/2026-27 inviting applications for 67 vacancies for Uttarakhand Combined State Civil/Upper Subordinate Services Examination 2026 posts.",
+    "u": "https://pscuk.net.in/"
+},
+  {
+    "id": "uttar-pradesh-education-servic-assistant-professor-selection-recruitment-2026",
+    "b": "Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj",
+    "t": "Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj Recruitment 2026 Notification Out for 1936 Assistant Professor Selection Exam 2026 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "11 October 2026",
+    "a": "04/2026",
+    "q": "Law (LL.B / LL.M) | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj has officially announced employment advertisement notification 04/2026 inviting applications for 1936 vacancies for Assistant Professor Selection Exam 2026 posts.",
+    "u": "https://www.upessc.up.gov.in"
+},
+  {
+    "id": "office-of-the-district-program-anganwadi-sahayika-anganwadi-h-recruitment-2026",
+    "b": "Office of the District Programme Officer, Child Development, Bareilly (Bal Vikas Seva evam Pushtahar)",
+    "t": "Office of the District Programme Officer, Child Development, Bareilly (Bal Vikas Seva evam Pushtahar) Recruitment 2026 Notification Out for 171 Anganwadi Sahayika (Anganwadi Helper) - honorarium-based Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "29 September 2026",
+    "a": "पत्रांक /जि0का0का0/बा0वि0परि0/आ0वा0सहा0/विज्ञप्ति/2026-27 dated 08.09.2026",
+    "q": "12th Pass | B.Tech / B.E",
+    "desc": "Office of the District Programme Officer, Child Development, Bareilly (Bal Vikas Seva evam Pushtahar) has officially announced employment advertisement notification पत्रांक /जि0का0का0/बा0वि0परि0/आ0वा0सहा0/विज्ञप्ति/2026-27 dated 08.09.2026 inviting applications for 171 vacancies for Anganwadi Sahayika (Anganwadi Helper) - honorarium-based posts.",
+    "u": "https://bareilly.nic.in/"
+},
+  {
+    "id": "banaras-hindu-university-bhu-raja-jwala-prasad-post-doctora-recruitment-2026",
+    "b": "Banaras Hindu University (BHU)",
+    "t": "Banaras Hindu University (BHU) Recruitment 2026 Notification Out for 1 Raja Jwala Prasad Post-Doctoral Fellowship Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "28 September 2026",
+    "a": "SRICC/IoE/RJP-PDF/2026-27/3298",
+    "q": "Ph.D / Doctorate",
+    "desc": "Banaras Hindu University (BHU) has officially announced employment advertisement notification SRICC/IoE/RJP-PDF/2026-27/3298 inviting applications for 1 vacancies for Raja Jwala Prasad Post-Doctoral Fellowship posts.",
+    "u": "https://www.bhu.ac.in/Site/TempVacancyDetail/1_2_16?2118"
+},
+  {
+    "id": "motor-accident-claims-tribunal-assistant-accountant-recruitment-2026",
+    "b": "Motor Accident Claims Tribunal Baghpat",
+    "t": "Motor Accident Claims Tribunal Baghpat Recruitment 2026 Notification Out for 1 Assistant Accountant Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "0/58/NACT/2026",
+    "q": "Retired government servant, Computer knowledge in UP Treasury Portal and...",
+    "desc": "Motor Accident Claims Tribunal Baghpat has officially announced employment advertisement notification 0/58/NACT/2026 inviting applications for 1 vacancies for Assistant Accountant posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26793_08-09-2026.pdf"
+},
+  {
+    "id": "rajiv-gandhi-national-aviation-visiting-medical-consultant-vi-recruitment-2026",
+    "b": "Rajiv Gandhi National Aviation University (RGNAU)",
+    "t": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 3 Visiting Medical Consultant / Visiting Health Inspector Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "06 November 2026",
+    "a": "RGNAU/ 5132/ 03/ ADMIN/ 517",
+    "q": "Diploma | MBBS / Medical PG",
+    "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially announced employment advertisement notification RGNAU/ 5132/ 03/ ADMIN/ 517 inviting applications for 3 vacancies for Visiting Medical Consultant / Visiting Health Inspector posts.",
+    "u": "https://rgnaunt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "bel-apprentice-diploma-apprentice-mechanical-recruitment-2026",
+    "b": "BEL Apprentice",
+    "t": "BEL Apprentice Recruitment 2026 Notification Out for 38 Diploma Apprentice (Mechanical, Computer Science, Electronics, Civil Engineering trades) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "25 September 2026",
+    "a": "12930/64/HRD/GAD/02, dated 07.09.2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "BEL Apprentice has officially announced employment advertisement notification 12930/64/HRD/GAD/02, dated 07.09.2026 inviting applications for 38 vacancies for Diploma Apprentice (Mechanical, Computer Science, Electronics, Civil Engineering trades) posts.",
+    "u": "https://nats.education.gov.in/"
+},
+  {
+    "id": "cihts-teaching-professor-associate-professor-recruitment-2026",
+    "b": "CIHTS Teaching",
+    "t": "CIHTS Teaching Recruitment 2026 Notification Out for 59 Professor, Associate Professor, Assistant Professor (40 subject/post combinations) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "07 October 2026",
+    "a": "CIHTS/Acad./Rectt./01/2026",
+    "q": "B.Tech / B.E",
+    "desc": "CIHTS Teaching has officially announced employment advertisement notification CIHTS/Acad./Rectt./01/2026 inviting applications for 59 vacancies for Professor, Associate Professor, Assistant Professor (40 subject/post combinations) posts.",
+    "u": "https://cihtsrec.samarth.edu.in/"
+},
+  {
     "id": "motilal-nehru-national-institu-junior-research-assistant-jra-recruitment-2026",
     "b": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
     "t": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) Recruitment 2026 Notification Out for 1 Junior Research Assistant (JRA) Posts | Apply Online",
