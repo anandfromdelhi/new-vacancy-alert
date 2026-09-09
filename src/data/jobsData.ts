@@ -883,13 +883,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026",
     "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
-    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways Recruitment 2026 Notification Out for 560 RRB Paramedical Recruitment 2026 Posts | Apply Online",
-    "d": "08 September 2026",
+    "t": "Railway Recruitment Boards (RRBs) CEN 05/2026 Paramedical Categories Recruitment 2026 Notification Out for 560 Posts | Apply Online",
+    "d": "12 September 2026",
     "l": "14 October 2026 (23:59 hrs) (Tentative)",
-    "a": "CEN No. 05/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways has officially announced employment advertisement notification CEN No. 05/2026 inviting applications for 560 vacancies for RRB Paramedical Recruitment 2026 posts.",
-    "u": "https://www.rrbapply.gov.in/#/auth/landing"
+    "a": "CEN No. 05/2026 (No. RRB/RNC/Advt./CEN/05/2026)",
+    "q": "Diploma / Degree / GNM / B.Sc Nursing / D.Pharm / B.Pharm / DMLT (As per Detailed CEN No. 05/2026)",
+    "desc": "The Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India, have officially released the Centralised Employment Notification (CEN) No. 05/2026 (Indicative Notice Ref No. RRB/RNC/Advt./CEN/05/2026 dated 12 September 2026) for the open-market recruitment to Various Posts of Paramedical Categories across Railway Recruitment Boards nationwide. An aggregate of 560 tentative vacancies has been notified under 7th CPC Pay Level 3 to Pay Level 7.",
+    "u": "https://www.rrbapply.gov.in"
 },
   {
     "id": "prasar-bharati-marketing-executive-sales-divi-recruitment-2026",
