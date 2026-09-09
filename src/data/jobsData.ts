@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "vasantrao-naik-marathwada-kris-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV)",
+    "t": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "VASANTRAO-NAIK/2026",
+    "q": "M.Sc",
+    "desc": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) has officially announced employment advertisement notification VASANTRAO-NAIK/2026 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.vnmkv.ac.in"
+},
+  {
+    "id": "mahila-mahavidyalaya-karad-assistant-professor-recruitment-2026",
+    "b": "Mahila Mahavidyalaya Karad",
+    "t": "Mahila Mahavidyalaya Karad Recruitment 2026 Notification Out for 11 Assistant Professor Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "23 September 2026",
+    "a": "MAHILA-MAHAVID/2026",
+    "q": "As per university website www.unishivaji.ac.in",
+    "desc": "Mahila Mahavidyalaya Karad has officially announced employment advertisement notification MAHILA-MAHAVID/2026 inviting applications for 11 vacancies for Assistant Professor posts.",
+    "u": "https://www.mahilamahavidyalaya.com/MCK%20Ad%20for%20Website.pdf"
+},
+  {
+    "id": "central-bureau-of-investigatio-special-public-prosecutor-spp-recruitment-2026",
+    "b": "Central Bureau of Investigation (CBI), Policy Division, New Delhi",
+    "t": "Central Bureau of Investigation (CBI), Policy Division, New Delhi Recruitment 2026 Notification Out for 1 Special Public Prosecutor (SPP), CBI - to conduct trial of Lokpal-referred CBI cases Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "08 October 2026 (all four locations)",
+    "a": "CENTRAL-BUREAU/2026",
+    "q": "B.Tech / B.E | Law (LL.B / LL.M)",
+    "desc": "Central Bureau of Investigation (CBI), Policy Division, New Delhi has officially announced employment advertisement notification CENTRAL-BUREAU/2026 inviting applications for 1 vacancies for Special Public Prosecutor (SPP), CBI - to conduct trial of Lokpal-referred CBI cases posts.",
+    "u": "https://cbi.gov.in/vacancy-list/MQ=="
+},
+  {
+    "id": "district-legal-services-author-para-legal-volunteer-recruitment-2026-3067032",
+    "b": "District Legal Services Authority Indore (DLSA Indore)",
+    "t": "District Legal Services Authority Indore (DLSA Indore) Recruitment 2026 Notification Out for 1 Para-Legal Volunteer Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "17 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Legal Services Authority Indore (DLSA Indore) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Para-Legal Volunteer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02b299ad862b6f12cb57679f0538ec/uploads/2026/08/2026083126.pdf"
+},
+  {
+    "id": "madhya-pradesh-police-home-pol-constable-gd-recruitment-2026",
+    "b": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal",
+    "t": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal Recruitment 2026 Notification Out for 7500 Constable (GD) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "6 October 2026",
+    "a": "MADHYA-PRADESH/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 7500 vacancies for Constable (GD) posts.",
+    "u": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx"
+},
+  {
+    "id": "kannur-university-junior-research-fellow-jrf-recruitment-2026",
+    "b": "Kannur University",
+    "t": "Kannur University Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "25 September 2026",
+    "a": "ANRF/ECRG/2025/002450/PMS",
+    "q": "M.Sc",
+    "desc": "Kannur University has officially announced employment advertisement notification ANRF/ECRG/2025/002450/PMS inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.kannuruniversity.ac.in/media/documents/JRF_appoinment_VK.pdf"
+},
+  {
+    "id": "karnataka-veterinary-animal-an-assistant-professor-recruitment-2026",
+    "b": "Karnataka Veterinary Animal and Fisheries Sciences University (KVAFSU)",
+    "t": "Karnataka Veterinary Animal and Fisheries Sciences University (KVAFSU) Recruitment 2026 Notification Out for 4 Assistant Professor Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "10 September 2026 (Walk-in)",
+    "a": "KARNATAKA-VETE/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Karnataka Veterinary Animal and Fisheries Sciences University (KVAFSU) has officially announced employment advertisement notification KARNATAKA-VETE/2026 inviting applications for 4 vacancies for Assistant Professor posts.",
+    "u": "https://kvafsu.edu.in/notification/2026/recruitment/contract/Revised%20notification%20%20-%20entrusting%20the%20UG%20teaching%20work%20on%20contract%20basis%20at%20VCB.pdf"
+},
+  {
+    "id": "bharat-electronics-limited-bel-senior-engineer-e-iii-recruitment-2026",
+    "b": "Bharat Electronics Limited (BEL)",
+    "t": "Bharat Electronics Limited (BEL) Recruitment 2026 Notification Out for 12 Senior Engineer / E-III Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "29 September 2026",
+    "a": "BGEM/2627/09/01",
+    "q": "B.Tech / B.E | B.Sc",
+    "desc": "Bharat Electronics Limited (BEL) has officially announced employment advertisement notification BGEM/2627/09/01 inviting applications for 12 vacancies for Senior Engineer / E-III posts.",
+    "u": "https://jobapply.in/BEL2026JALAHALLIEXPORT"
+},
+  {
+    "id": "district-court-yadgir-typist-typist-copyist-recruitment-2026",
+    "b": "District Court Yadgir",
+    "t": "District Court Yadgir Recruitment 2026 Notification Out for 9 Typist, Typist Copyist Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "30 September 2026",
+    "a": "03/2026, 04/2026, 05/2026",
+    "q": "12th Pass | Diploma",
+    "desc": "District Court Yadgir has officially announced employment advertisement notification 03/2026, 04/2026, 05/2026 inviting applications for 9 vacancies for Typist, Typist Copyist posts.",
+    "u": "https://yadgir.dcourts.gov.in"
+},
+  {
+    "id": "dvc-cil-power-private-limited-consultant-senior-consultant-a-recruitment-2026",
+    "b": "DVC CIL Power Private Limited (DCPPL)",
+    "t": "DVC CIL Power Private Limited (DCPPL) Recruitment 2026 Notification Out for 5 Consultant / Senior Consultant / Advisor / Senior Advisor Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "18 September 2026",
+    "a": "DCPLL/2026/01",
+    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
+    "desc": "DVC CIL Power Private Limited (DCPPL) has officially announced employment advertisement notification DCPLL/2026/01 inviting applications for 5 vacancies for Consultant / Senior Consultant / Advisor / Senior Advisor posts.",
+    "u": "https://www.dvc.gov.in/storage/app/notice_qr/notice_52519c92ae51c9d0ae114226ceff8390614.pdf"
+},
+  {
     "id": "jammu-and-kashmir-anganwadi-anganwadi-helper-sahayika-recruitment-2026",
     "b": "Jammu and Kashmir Anganwadi",
     "t": "Jammu and Kashmir Anganwadi Recruitment 2026 Notification Out for 3 Anganwadi Helper (Sahayika) Posts | Apply Offline",
