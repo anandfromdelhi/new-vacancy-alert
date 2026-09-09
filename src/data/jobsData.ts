@@ -102,13 +102,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "uttarakhand-subordinate-servic-computer-assistant-junior-assi-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
-    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 553 Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) Posts | Apply Online",
-    "d": "08 September 2026",
+    "t": "UKSSSC Group 'C' Intermediate Recruitment 2026: Apply Online for 553 Junior Assistant, Computer Assistant, Registration Clerk & Other Posts (Advt No. 80/2026)",
+    "d": "31 August 2026",
     "l": "07 October 2026",
-    "a": "80/उ0अ0से0च0आ0/2026, dated 31.08.2026",
-    "q": "12th Pass | Diploma | B.Tech / B.E",
-    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 80/उ0अ0से0च0आ0/2026, dated 31.08.2026 inviting applications for 553 vacancies for Computer Assistant, Junior Assistant/Data Entry Operator, Pravar Sahayak/Senior Assistant, Registration Clerk, Junior Assistant, Junior Assistant-cum-Computer Operator, Computer Operator, Telephone Operator, Assistant Mineral Supervisor, Land Acquisition Amin/Inspector, Ahalmad & Cashier, Store Keeper, Grihamata, Survey Lekhpal (Group C) posts.",
-    "u": "https://ukssscrecruitment.in/"
+    "a": "80 / उ०अ०से०च०आ० / 2026, Dated 31.08.2026",
+    "q": "Intermediate (10+2) Pass + Computer Hindi Typing 4000 KDPH",
+    "desc": "The Uttarakhand Subordinate Service Selection Commission (UKSSSC - उत्तराखण्ड अधीनस्थ सेवा चयन आयोग), Dehradun has officially published Advertisement No. 80/उ०अ०से०च०आ०/2026 dated 31 August 2026 inviting online applications for direct recruitment to 553 Group 'C' (समूह 'ग') Intermediate Level posts across various government departments and collectorates in Uttarakhand.",
+    "u": "https://sssc.uk.gov.in"
 },
   {
     "id": "uttarakhand-subordinate-servic-personal-assistant-stenographe-recruitment-2026",
