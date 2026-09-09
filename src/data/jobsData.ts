@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "government-institute-of-medica-audiologist-audiometry-technic-recruitment-2026",
+    "b": "Government Institute of Medical Sciences (GIMS)",
+    "t": "Government Institute of Medical Sciences (GIMS) Recruitment 2026 Notification Out for 5 Audiologist / Audiometry Technician Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "1st and 3rd Monday (21 September 2026)",
+    "a": "GIMS/2026/12",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "Government Institute of Medical Sciences (GIMS) has officially announced employment advertisement notification GIMS/2026/12 inviting applications for 5 vacancies for Audiologist / Audiometry Technician posts.",
+    "u": "https://www.gims.ac.in/assets/pdf/Recruitement%20of%20Audiologist,%20speech%20therapist.pdf"
+},
+  {
+    "id": "chief-medical-office-prayagraj-mbbs-mo-recruitment-2026",
+    "b": "Chief Medical Office Prayagraj (CMO Prayagraj)",
+    "t": "Chief Medical Office Prayagraj (CMO Prayagraj) Recruitment 2026 Notification Out for 25 MBBS MO Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "28 September 2026, 29 September 2026 (Walk-in)",
+    "a": "CHIEF-MEDICAL-/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Chief Medical Office Prayagraj (CMO Prayagraj) has officially announced employment advertisement notification CHIEF-MEDICAL-/2026 inviting applications for 25 vacancies for MBBS MO posts.",
+    "u": "https://cdn.s3waas.gov.in/s3cd00692c3bfe59267d5ecfac5310286c/uploads/2026/09/17885976038724.pdf"
+},
+  {
     "id": "bengal-chemicals-pharmaceutica-quality-assurance-officer-recruitment-2026",
     "b": "Bengal Chemicals & Pharmaceuticals",
     "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Quality Assurance Officer Posts | Apply Offline",
