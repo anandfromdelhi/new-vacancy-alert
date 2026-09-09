@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "jammu-and-kashmir-anganwadi-anganwadi-helper-sahayika-recruitment-2026",
+    "b": "Jammu and Kashmir Anganwadi",
+    "t": "Jammu and Kashmir Anganwadi Recruitment 2026 Notification Out for 3 Anganwadi Helper (Sahayika) Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "CDPO/SOP/Estt/2026/538-48",
+    "q": "10th / 8th Pass",
+    "desc": "Jammu and Kashmir Anganwadi has officially announced employment advertisement notification CDPO/SOP/Estt/2026/538-48 inviting applications for 3 vacancies for Anganwadi Helper (Sahayika) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3884d247c6f65a96a7da4d1105d584ddd/uploads/2026/08/17879971123876.pdf"
+},
+  {
+    "id": "district-development-commissio-motivator-recruitment-2026",
+    "b": "District Development Commissioner Ganderbal",
+    "t": "District Development Commissioner Ganderbal Recruitment 2026 Notification Out for 1 Motivator Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "30 September 2026",
+    "a": "DISTRICT-DEVEL/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Development Commissioner Ganderbal has officially announced employment advertisement notification DISTRICT-DEVEL/2026 inviting applications for 1 vacancies for Motivator posts.",
+    "u": "https://cdn.s3waas.gov.in/s3192fc044e74dffea144f9ac5dc9f3395/uploads/2026/09/17889432857213.pdf"
+},
+  {
+    "id": "guru-jambheshwar-university-of-part-time-teacher-recruitment-2026",
+    "b": "Guru Jambheshwar University of Science & Technology (GJUST)",
+    "t": "Guru Jambheshwar University of Science & Technology (GJUST) Recruitment 2026 Notification Out for 33 Part Time Teacher Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "12 September 2026, 14 September 2026, 15 September 2026 (Walk-in)",
+    "a": "Teachers",
+    "q": "As per UGC/AICTE/RCI/NCAHP for Assistant Professor",
+    "desc": "Guru Jambheshwar University of Science & Technology (GJUST) has officially announced employment advertisement notification Teachers inviting applications for 33 vacancies for Part Time Teacher posts.",
+    "u": "https://gjust.ac.in/portal/upload/Notice-Panel%20of%20Experts-2026-27_03September2026_18-19-24-13.pdf"
+},
+  {
+    "id": "directorate-of-urban-local-bod-taxation-experts-taxation-asso-recruitment-2026",
+    "b": "Directorate of Urban Local Bodies, Haryana, Panchkula",
+    "t": "Directorate of Urban Local Bodies, Haryana, Panchkula Recruitment 2026 Notification Out for 195 Taxation Experts, Taxation Associates, Sanitation Experts/Associates Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "30 September 2026",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Directorate of Urban Local Bodies, Haryana, Panchkula has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 195 vacancies for Taxation Experts, Taxation Associates, Sanitation Experts/Associates posts.",
+    "u": "https://ulbharyana.gov.in/AdminDashboard/ViewUploadFile?fileName=CONTENTFILES%5Cada650decc3d44419e806081a845ca6c.pdf"
+},
+  {
+    "id": "gujarat-subordinate-service-se-research-assistant-statistical-recruitment-2026",
+    "b": "Gujarat Subordinate Service Selection Board (GSSSB)",
+    "t": "Gujarat Subordinate Service Selection Board (GSSSB) Recruitment 2026 Notification Out for 41 Research Assistant, Statistical Assistant (Class-3) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "23 September 2026 (11:59 PM)",
+    "a": "457/202627",
+    "q": "The same educational qualification applies to both Research Assistant an...",
+    "desc": "Gujarat Subordinate Service Selection Board (GSSSB) has officially announced employment advertisement notification 457/202627 inviting applications for 41 vacancies for Research Assistant, Statistical Assistant (Class-3) posts.",
+    "u": "https://ojas.gujarat.gov.in/"
+},
+  {
+    "id": "maharaja-sayajirao-university-survey-cataloguing-expert-recruitment-2026",
+    "b": "Maharaja Sayajirao University of Baroda (MSU Baroda)",
+    "t": "Maharaja Sayajirao University of Baroda (MSU Baroda) Recruitment 2026 Notification Out for 5 Survey & Cataloguing Expert Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "25 September 2026",
+    "a": "MAHARAJA-SAYAJ/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Maharaja Sayajirao University of Baroda (MSU Baroda) has officially announced employment advertisement notification MAHARAJA-SAYAJ/2026 inviting applications for 5 vacancies for Survey & Cataloguing Expert posts.",
+    "u": "https://msubaroda.ac.in/NotificationDetails?id=10166"
+},
+  {
+    "id": "maharaja-sayajirao-university-temporary-assistant-professor-recruitment-2026",
+    "b": "Maharaja Sayajirao University Baroda (MSU Baroda)",
+    "t": "Maharaja Sayajirao University Baroda (MSU Baroda) Recruitment 2026 Notification Out for 2 Temporary Assistant Professor Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "FFCSc./383",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Maharaja Sayajirao University Baroda (MSU Baroda) has officially announced employment advertisement notification FFCSc./383 inviting applications for 2 vacancies for Temporary Assistant Professor posts.",
+    "u": "https://msubaroda.ac.in/NotificationDetails?id=10164"
+},
+  {
+    "id": "kamdhenu-university-field-assistant-recruitment-2026",
+    "b": "Kamdhenu University",
+    "t": "Kamdhenu University Recruitment 2026 Notification Out for 1 Field Assistant Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "KAMDHENU-UNIVE/2026",
+    "q": "Diploma",
+    "desc": "Kamdhenu University has officially announced employment advertisement notification KAMDHENU-UNIVE/2026 inviting applications for 1 vacancies for Field Assistant posts.",
+    "u": "https://www.kamdhenuuni.edu.in/Content/images/2026/1729.pdf"
+},
+  {
+    "id": "regional-commissioner-of-munic-zonal-manager-uwm-sbm-recruitment-2026",
+    "b": "Regional Commissioner of Municipalities Bhavnagar",
+    "t": "Regional Commissioner of Municipalities Bhavnagar Recruitment 2026 Notification Out for 1 Zonal Manager-UWM (SBM) Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "14 September 2026",
+    "a": "08/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Regional Commissioner of Municipalities Bhavnagar has officially announced employment advertisement notification 08/2026 inviting applications for 1 vacancies for Zonal Manager-UWM (SBM) posts.",
+    "u": "https://rcmbhavnagar.gujarat.gov.in/Docs/08-2026%20Zonal%20Manager%20(UWM)%20Advertisement.pdf"
+},
+  {
+    "id": "directorate-of-lighthouses-and-navigational-assistant-grade-i-recruitment-2026",
+    "b": "Directorate of Lighthouses and Lightships (DGLL)",
+    "t": "Directorate of Lighthouses and Lightships (DGLL) Recruitment 2026 Notification Out for 2 Navigational Assistant Grade III / Technician (Electronics) Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "28 October 2026",
+    "a": "04/2026",
+    "q": "Diploma",
+    "desc": "Directorate of Lighthouses and Lightships (DGLL) has officially announced employment advertisement notification 04/2026 inviting applications for 2 vacancies for Navigational Assistant Grade III / Technician (Electronics) posts.",
+    "u": "https://dgll.nic.in/sites/default/files/2026-08/doc%20new.pdf"
+},
+  {
     "id": "veer-narmad-south-gujarat-univ-temporary-assistant-professor-recruitment-2026-3067053",
     "b": "Veer Narmad South Gujarat University (VNSGU)",
     "t": "Veer Narmad South Gujarat University (VNSGU) Recruitment 2026 Notification Out for 1 Temporary Assistant Professor Posts | Walk-in Interview",
