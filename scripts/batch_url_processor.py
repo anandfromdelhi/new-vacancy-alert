@@ -22,6 +22,7 @@ DETAILS_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobDetails.json')
 JOBS_DATA_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobsData.ts')
 UPLOAD_DATES_FILE = os.path.join(PROJECT_ROOT, 'src', 'data', 'jobUploadDates.json')
 URLS_FILE = os.path.join(PROJECT_ROOT, 'scripts', 'urls_to_process.json')
+PROGRESS_FILE = os.path.join(PROJECT_ROOT, 'scratch', 'batch_progress.json')
 GIT_PATH = r"C:\Users\Administrator\MinGit\cmd\git.exe" if os.name == 'nt' else "git"
 NPM_CMD = "npm.cmd" if os.name == 'nt' else "npm"
 NPX_CMD = "npx.cmd" if os.name == 'nt' else "npx"
@@ -258,7 +259,31 @@ def fetch_page(url, ctx):
                 return None
             time.sleep(1.0)
 
-def parse_vacancy_data(html, url):
+def try_extract_advt_from_pdf(pdf_url, ctx):
+    if not pdf_url or not pdf_url.startswith('http') or not pdf_url.lower().endswith('.pdf'):
+        return ""
+    try:
+        req = urllib.request.Request(pdf_url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, context=ctx, timeout=8) as resp:
+            data = resp.read(2 * 1024 * 1024)
+        if not data.startswith(b'%PDF'):
+            return ""
+        tmp_path = os.path.join(PROJECT_ROOT, 'scratch', 'temp_notice.pdf')
+        with open(tmp_path, 'wb') as f:
+            f.write(data)
+        res = subprocess.run(['pdftotext', '-l', '2', tmp_path, '-'], capture_output=True, text=True, errors='ignore', timeout=5)
+        text = res.stdout if res.returncode == 0 else ""
+        if text:
+            m = re.search(r'(?:Advt\.?\s*No\.?|Advertisement\s*No\.?|Notification\s*No\.?|Notice\s*No\.?|CEN\s*No\.?|Rc\s*No\.?|No\.)\s*[:\-]?\s*([A-Za-z0-9\/\-\_\.\(\)]+)', text, re.IGNORECASE)
+            if m:
+                cand = clean_text(m.group(1))
+                if 4 <= len(cand) <= 45 and not any(bad in cand.lower() for bad in ['pdf', 'click', 'freejob', 'http', 'table', 'details', 'page', 'date']):
+                    return cand
+    except Exception:
+        pass
+    return ""
+
+def parse_vacancy_data(html, url, ctx=None):
     soup = BeautifulSoup(html, 'html.parser')
     for tag in soup(["script", "style", "nav", "footer", "iframe"]):
         tag.extract()
@@ -269,6 +294,8 @@ def parse_vacancy_data(html, url):
     overview_kv = {}
     vacancy_rows = []
     date_rows = []
+    post_salary_map = {}
+    post_qual_map = {}
     
     for t in tables:
         rows = t.find_all('tr')
@@ -289,16 +316,35 @@ def parse_vacancy_data(html, url):
             continue
         first_row_cells = [clean_text(c.get_text()).lower() for c in rows[0].find_all(['td', 'th'])]
         
-        if any(k in c for c in first_row_cells for k in ['post name', 'station', 'division', 'discipline', 'trade', 'category']) and any(k in c for c in first_row_cells for k in ['post', 'position', 'vacancy', 'total', 'no of']):
+        # Check if salary table: ['Post Name', 'Salary']
+        if any(k in c for c in first_row_cells for k in ['post name', 'post', 'position', 'trade']) and any(k in c for c in first_row_cells for k in ['salary', 'pay', 'scale', 'remuneration', 'stipend']):
             for r in rows[1:]:
                 cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
-                if len(cols) >= 2 and cols[0].lower() != 'total':
-                    vacancy_rows.append(cols)
-        elif any('event' in c or 'important date' in c for c in first_row_cells) or any('date' in c for c in first_row_cells):
+                if len(cols) >= 2:
+                    p_key = slugify(cols[0])
+                    post_salary_map[p_key] = cols[1]
+        # Check if qualification table: ['Post Name', 'Qualification']
+        elif any(k in c for c in first_row_cells for k in ['post name', 'post', 'position', 'trade']) and any(k in c for c in first_row_cells for k in ['qualification', 'eligibility', 'education']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 2:
+                    p_key = slugify(cols[0])
+                    post_qual_map[p_key] = cols[1]
+        # Check if event/date table: ['Event', 'Date']
+        elif any('event' in c or 'activity' in c or 'important date' in c for c in first_row_cells) or (len(first_row_cells) == 2 and 'date' in first_row_cells[1]):
             for r in rows[1:]:
                 cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
                 if len(cols) >= 2:
                     date_rows.append(cols)
+        # Check if vacancy count table: ['Post Name', 'Total Posts']
+        elif any(k in c for c in first_row_cells for k in ['post name', 'station', 'division', 'discipline', 'trade', 'category']) and any(k in c for c in first_row_cells for k in ['post', 'position', 'vacancy', 'total', 'no of', 'vacancies']):
+            if not any(k in c for c in first_row_cells for k in ['salary', 'pay', 'stipend', 'qualification', 'eligibility']):
+                for r in rows[1:]:
+                    cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                    if len(cols) >= 2 and cols[0].lower() not in ['total', 's. no.', 's.no.']:
+                        if cols[0].isdigit() and len(cols) > 2:
+                            cols = cols[1:]
+                        vacancy_rows.append(cols)
 
     official_pdf_url = ""
     official_site_url = ""
@@ -384,10 +430,12 @@ def parse_vacancy_data(html, url):
                 post_name = v
                 break
                 
-    if not post_name:
+    if not post_name or post_name.lower() in ['various posts', 'various']:
         m = re.search(r'(?:Apply\s+Online|Walkin|Apply\s+Offline|Apply)\s+(?:for\s+)?(?:\d+\s+)?(.*?)(?:\s+Posts|\s+2026|$)', page_title, re.IGNORECASE)
         if m:
-            post_name = m.group(1).strip()
+            cand_p = clean_text(m.group(1))
+            if cand_p and len(cand_p) > 2 and cand_p.lower() not in ['various', 'posts']:
+                post_name = cand_p
     if not post_name or re.match(r'^\d+$', post_name):
         post_name = "Various Posts"
 
@@ -501,16 +549,17 @@ def parse_vacancy_data(html, url):
         elif 'last date' in k or 'closing' in k:
             last_date = format_clean_date(v)
 
+    curr_month_year = datetime.datetime.now().strftime("%B %Y")
     if not important_dates:
         if walkin_date:
-            important_dates.append({"event": "Notification Release Date", "date": "August 2026"})
+            important_dates.append({"event": "Notification Release Date", "date": curr_month_year})
             important_dates.append({"event": "Walk-in Interview Date", "date": walkin_date})
         elif last_date:
-            important_dates.append({"event": "Notification Release Date", "date": "August 2026"})
-            important_dates.append({"event": "Application Start Date", "date": "August 2026"})
+            important_dates.append({"event": "Notification Release Date", "date": curr_month_year})
+            important_dates.append({"event": "Application Start Date", "date": curr_month_year})
             important_dates.append({"event": "Last Date to Apply", "date": last_date})
         else:
-            important_dates.append({"event": "Notification Release Date", "date": "August 2026"})
+            important_dates.append({"event": "Notification Release Date", "date": curr_month_year})
             important_dates.append({"event": "Application Closing Date", "date": "Refer Official Notification"})
 
     summary_last_date = "Refer Notification"
@@ -539,6 +588,10 @@ def parse_vacancy_data(html, url):
             advt_candidate = clean_text(advt_match.group(1))
             if 3 <= len(advt_candidate) <= 45 and not any(bad in advt_candidate.lower() for bad in ['pdf', 'click', 'freejob', 'http', 'table', 'details']):
                 advt_no = advt_candidate
+    if official_pdf_url and (not advt_no or advt_no.endswith('/2026')):
+        pdf_advt = try_extract_advt_from_pdf(official_pdf_url, ctx)
+        if pdf_advt:
+            advt_no = pdf_advt
     if not advt_no:
         advt_no = f"{slugify(board)[:14].upper()}/2026"
 
@@ -558,7 +611,9 @@ def parse_vacancy_data(html, url):
         for r in vacancy_rows:
             p_name = clean_text(r[0])
             v_cnt = clean_text(r[1]) if len(r) > 1 else "1"
-            q_spec = clean_text(r[2]) if len(r) > 2 else qual_text
+            p_key = slugify(p_name)
+            p_sal = post_salary_map.get(p_key, salary_text)
+            p_q = post_qual_map.get(p_key, clean_text(r[2]) if len(r) > 2 else qual_text)
             clean_v_str = v_cnt.replace(',', '')
             num_match = re.search(r'\d+', clean_v_str)
             cnt_num = int(num_match.group(0)) if num_match else 1
@@ -566,8 +621,8 @@ def parse_vacancy_data(html, url):
                 "postName": p_name,
                 "vacancies": v_cnt,
                 "total": cnt_num,
-                "qualification": q_spec,
-                "payScale": salary_text
+                "qualification": p_q,
+                "payScale": p_sal
             })
         if vacancies_num <= 1:
             sum_cnt = sum(vd['total'] for vd in vacancies_details if isinstance(vd.get('total'), int))
@@ -610,7 +665,13 @@ def parse_vacancy_data(html, url):
     elif "offline" in apply_mode.lower():
         apply_action = "Apply Offline"
 
-    title_str = f"{board} Recruitment 2026 Notification Out for {vacancies_num} {post_name} Posts | {apply_action}"
+    clean_post_for_title = post_name
+    if clean_post_for_title.lower().endswith(" posts"):
+        clean_post_for_title = clean_post_for_title[:-6].strip()
+    elif clean_post_for_title.lower().endswith(" post"):
+        clean_post_for_title = clean_post_for_title[:-5].strip()
+
+    title_str = f"{board} Recruitment 2026 Notification Out for {vacancies_num} {clean_post_for_title} Posts | {apply_action}"
 
     return {
         "board": board,
@@ -966,19 +1027,39 @@ def main():
     added_jobs = []
     skipped_jobs = []
     added_jobs_count = 0
+    processed_urls = set()
+
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
+                prog = json.load(f)
+                added_jobs = prog.get('added_jobs', [])
+                skipped_jobs = prog.get('skipped_jobs', [])
+                added_jobs_count = len(added_jobs)
+                processed_urls = set(prog.get('processed_urls', []))
+                print(f"[RESUME] Resuming from progress file: {added_jobs_count} added, {len(skipped_jobs)} skipped, {len(processed_urls)} processed.\n")
+        except Exception:
+            pass
 
     for idx, url in enumerate(unique_urls, 1):
+        if url in processed_urls:
+            continue
+
         print(f"\n[{idx}/{len(unique_urls)}] Processing URL: {url}")
         html = fetch_page(url, ctx)
         if not html:
             skipped_jobs.append({"url": url, "title": "N/A", "board": "N/A", "reason": "Failed to fetch webpage"})
+            processed_urls.add(url)
+            safe_write_json(PROGRESS_FILE, {"processed_urls": list(processed_urls), "added_jobs": added_jobs, "skipped_jobs": skipped_jobs})
             continue
 
         try:
-            raw_data = parse_vacancy_data(html, url)
+            raw_data = parse_vacancy_data(html, url, ctx=ctx)
         except Exception as e:
             print(f"[PARSE ERROR] {url}: {e}")
             skipped_jobs.append({"url": url, "title": "N/A", "board": "N/A", "reason": f"Parsing exception: {e}"})
+            processed_urls.add(url)
+            safe_write_json(PROGRESS_FILE, {"processed_urls": list(processed_urls), "added_jobs": added_jobs, "skipped_jobs": skipped_jobs})
             continue
 
         existing_jobs, existing_list = load_existing_db()
@@ -996,6 +1077,8 @@ def main():
                 "board": raw_data["board"],
                 "reason": f"Duplicate ({dup_reason})"
             })
+            processed_urls.add(url)
+            safe_write_json(PROGRESS_FILE, {"processed_urls": list(processed_urls), "added_jobs": added_jobs, "skipped_jobs": skipped_jobs})
             continue
 
         # Ensure unique candidate_id if base collision exists
@@ -1015,6 +1098,7 @@ def main():
         schema["id"] = candidate_id
         add_job_to_system(schema)
         added_jobs_count += 1
+        processed_urls.add(url)
         print(f"✅ [ADDED #{added_jobs_count}] {schema['id']} | {raw_data['board']} | {raw_data['vacancies']} Vacancies | Closing: {schema['applicationStatus']}")
         added_jobs.append({
             "id": schema["id"],
@@ -1024,6 +1108,8 @@ def main():
             "closing": raw_data["summaryLastDate"],
             "link": raw_data["urls"][0]["url"] if raw_data["urls"] else ""
         })
+
+        safe_write_json(PROGRESS_FILE, {"processed_urls": list(processed_urls), "added_jobs": added_jobs, "skipped_jobs": skipped_jobs})
 
         # Periodic Git commit & push every 10 added jobs
         if added_jobs_count > 0 and added_jobs_count % 10 == 0:
@@ -1045,7 +1131,7 @@ def main():
             if p_ok:
                 print("  -> Successfully pushed to GitHub main branch!\n")
             else:
-                print(f"  -> Push failed: {p_err}\n")
+                print(f"  -> Push output: {p_out} {p_err}\n")
 
     print("\n================================================================")
     print("         ALL URLS PROCESSED - FINALIZING PIPELINE               ")
@@ -1069,12 +1155,16 @@ def main():
     # 3. Final Git Push
     print("\n[3/3] Final Git Commit & Push...")
     run_cmd([GIT_PATH, "add", "."])
-    run_cmd([GIT_PATH, "commit", "-m", f"feat(jobs): update sitemap and final batch add remaining vacancies from official portals (total added: {added_jobs_count})"])
-    p_ok, p_out, p_err = run_cmd([GIT_PATH, "push", "origin", "main"])
-    if p_ok:
-        print("Final push succeeded!")
+    _, st_out, _ = run_cmd([GIT_PATH, "status", "--porcelain"])
+    if st_out.strip():
+        run_cmd([GIT_PATH, "commit", "-m", f"feat(jobs): update sitemap and final batch add remaining vacancies from official portals (total added: {added_jobs_count})"])
+        p_ok, p_out, p_err = run_cmd([GIT_PATH, "push", "origin", "main"])
+        if p_ok:
+            print("Final push succeeded!")
+        else:
+            print(f"Final push output: {p_out} {p_err}")
     else:
-        print(f"Final push output: {p_out} {p_err}")
+        print("Working directory clean, nothing new to commit.")
 
     # Save summary report
     results_path = os.path.join(PROJECT_ROOT, "scripts", "batch_url_results.json")
@@ -1086,8 +1176,8 @@ def main():
         "added_jobs": added_jobs,
         "skipped_jobs": skipped_jobs
     }
-    with open(results_path, "w", encoding="utf-8") as f:
-        json.dump(summary_report, f, indent=2, ensure_ascii=False)
+    safe_write_json(results_path, summary_report)
+    safe_write_json(os.path.join(PROJECT_ROOT, "scratch", "batch_summary_report.json"), summary_report)
     print(f"\nBatch URL Vacancy Adder completed successfully! Summary saved to {results_path}")
 
 if __name__ == "__main__":

@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "central-silk-board-csb-ministr-young-professional-grade-3-recruitment-2026",
+    "b": "Central Silk Board (CSB), Ministry of Textiles, Government of India",
+    "t": "Central Silk Board (CSB), Ministry of Textiles, Government of India Recruitment 2026 Notification Out for 14 Young Professional-Grade-3 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "07 October 2026",
+    "a": "CSB/YP/03/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central Silk Board (CSB), Ministry of Textiles, Government of India has officially announced employment advertisement notification CSB/YP/03/2026 inviting applications for 14 vacancies for Young Professional-Grade-3 posts.",
+    "u": "https://csb.gov.in/sites/default/files/what_s_new/files/Advertisement%20for%20Finance%2008.09.2026.pdf"
+},
+  {
+    "id": "postgraduate-institute-of-medi-nursing-officer-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh",
+    "t": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh Recruitment 2026 Notification Out for 243 Nursing Officer Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "03 October 2026",
+    "a": "PGI/RC/055/2026/2276",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh has officially announced employment advertisement notification PGI/RC/055/2026/2276 inviting applications for 243 vacancies for Nursing Officer posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/home.jsp"
+},
+  {
+    "id": "all-india-institute-of-medical-project-research-scientist-i-m-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati)",
+    "t": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) Recruitment 2026 Notification Out for 3 Project Research Scientist I (Medical), Project Technical Support I, Project Nurse I Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "23 September 2026",
+    "a": "Biochem/ AIIMSG/ 26-27/ 1077",
+    "q": "Diploma | MBBS / Medical PG | Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) has officially announced employment advertisement notification Biochem/ AIIMSG/ 26-27/ 1077 inviting applications for 3 vacancies for Project Research Scientist I (Medical), Project Technical Support I, Project Nurse I posts.",
+    "u": "https://aiimsguwahati.in/viewfile.aspx?fname=8582ef01.pdf&ftype=pdf&rdoctype=cms"
+},
+  {
+    "id": "bank-of-baroda-so-wealth-executive-credit-analys-recruitment-2026",
+    "b": "Bank of Baroda SO",
+    "t": "Bank of Baroda SO Recruitment 2026 Notification Out for 1100 Wealth Executive, Credit Analyst - C&IC Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "24 September 2026",
+    "a": "BOB/HRM/REC/ADVT/2026/17",
+    "q": "01.09.2026",
+    "desc": "Bank of Baroda SO has officially announced employment advertisement notification BOB/HRM/REC/ADVT/2026/17 inviting applications for 1100 vacancies for Wealth Executive, Credit Analyst - C&IC posts.",
+    "u": "https://ibpsreg.ibps.in/bonwejul26/"
+},
+  {
+    "id": "staff-selection-commission-ssc-je-civil-je-electrical-je-mech-recruitment-2026",
+    "b": "Staff Selection Commission (SSC)",
+    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 1748 JE (Civil), JE (Electrical), JE (Mechanical), JE (Electrical & Mechanical), JE (Telecom), Scientific Assistant (IMD) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "22 September 2026 (23:00 hours)",
+    "a": "STAFF-SELECTIO/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 1748 vacancies for JE (Civil), JE (Electrical), JE (Mechanical), JE (Electrical & Mechanical), JE (Telecom), Scientific Assistant (IMD) posts.",
+    "u": "https://ssc.gov.in/login"
+},
+  {
+    "id": "department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026",
+    "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
+    "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 Notification Out for 23757 Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), Dak Sevak Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "31 December 2026 (engagement process closes after this date)",
+    "a": "17-12/2026-GDS dated 20 August 2026",
+    "q": "Eligibility for all GDS posts (BPM/ABPM/Dak Sevak) is assessed as on the...",
+    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially announced employment advertisement notification 17-12/2026-GDS dated 20 August 2026 inviting applications for 23757 vacancies for Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), Dak Sevak posts.",
+    "u": "https://ibpsreg.ibps.in/rrboaxvaug26/"
+},
+  {
+    "id": "staff-selection-commission-ssc-combined-higher-secondary-102-recruitment-2026",
+    "b": "Staff Selection Commission (SSC)",
+    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 2536 Combined Higher Secondary (10+2) Level Examination, 2026 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "07 October 2026 (23:00 Hours)",
+    "a": "STAFF-SELECTIO/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 2536 vacancies for Combined Higher Secondary (10+2) Level Examination, 2026 posts.",
+    "u": "https://ssc.gov.in/login"
+},
+  {
+    "id": "balmer-lawrie-co-ltd-miniratna-junior-officer-assistant-manag-recruitment-2026",
+    "b": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas)",
+    "t": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas) Recruitment 2026 Notification Out for 38 Junior Officer, Assistant Manager and More Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "29 September 2026 (11:59 PM)",
+    "a": "BL/HR/CHR/RECT/RECFT/202627/0003",
+    "q": "MBA / BBA",
+    "desc": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas) has officially announced employment advertisement notification BL/HR/CHR/RECT/RECFT/202627/0003 inviting applications for 38 vacancies for Junior Officer, Assistant Manager and More posts.",
+    "u": "https://www.balmerlawrie.com/careers/current-openings"
+},
+  {
+    "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026-3066740",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways Recruitment 2026 Notification Out for 560 RRB Paramedical Recruitment 2026 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "14 October 2026 (23:59 hrs) (Tentative)",
+    "a": "CEN No. 05/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways has officially announced employment advertisement notification CEN No. 05/2026 inviting applications for 560 vacancies for RRB Paramedical Recruitment 2026 posts.",
+    "u": "https://www.rrbapply.gov.in/#/auth/landing"
+},
+  {
+    "id": "visakhapatnam-port-authority-deputy-chief-law-officer-recruitment-2026",
+    "b": "Visakhapatnam Port Authority",
+    "t": "Visakhapatnam Port Authority Recruitment 2026 Notification Out for 1 Deputy Chief Law Officer Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "09 October 2026",
+    "a": "C2lRect/Dy.CLO/GAD/2026l",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Visakhapatnam Port Authority has officially announced employment advertisement notification C2lRect/Dy.CLO/GAD/2026l inviting applications for 1 vacancies for Deputy Chief Law Officer posts.",
+    "u": "https://vpt.shipping.gov.in/admin_assets/uploads/1788918633_VPA_Vacancy_Notification_Dt_08092026__Dy_Chief_Law_Officer___DR.pdf"
+},
+  {
     "id": "damodar-valley-corporation-dvc-expert-finance-for-sap-recruitment-2026",
     "b": "Damodar Valley Corporation (DVC)",
     "t": "Damodar Valley Corporation (DVC) Recruitment 2026 Notification Out for 1 Expert Finance (For SAP) Posts | Apply Online",
