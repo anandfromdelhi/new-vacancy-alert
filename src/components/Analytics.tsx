@@ -1,17 +1,24 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router';
 import { doc, updateDoc, increment, setDoc } from 'firebase/firestore';
 import { db } from '../lib/firebase';
 
 export default function Analytics() {
   const location = useLocation();
+  const isFirstMount = useRef(true);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // Wait for gtag to be available on window
-    if (typeof window !== 'undefined' && (window as any).gtag) {
+
+    // Skip the first render because gtag('config', 'G-Y0ZRZMMFSP') in index.html already records the initial landing pageview.
+    // All subsequent client-side SPA route navigations are tracked cleanly.
+    if (isFirstMount.current) {
+      isFirstMount.current = false;
+    } else if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'page_view', {
         page_path: location.pathname + location.search,
+        page_location: window.location.href,
+        page_title: document.title,
       });
     }
 
