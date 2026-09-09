@@ -863,9 +863,9 @@ export const JOBS_DATA: JobEntry[] = [
     "b": "Staff Selection Commission (SSC)",
     "t": "SSC CHSL Recruitment 2026 Notification Out for 2536 LDC, JSA & DEO Posts | Apply Online at ssc.gov.in",
     "d": "07 September 2026",
-    "l": "07 October 2026",
+    "l": "07 October 2026 (23:00 Hours)",
     "a": "F. No. HQ-C1102/5/2026-C-1",
-    "q": "12th Standard Pass (Intermediate) or equivalent from a recognized Board",
+    "q": "12th Standard Pass (Intermediate) or equivalent from a recognized Board (Science with Maths for specific DEO posts)",
     "desc": "Staff Selection Commission (SSC), Department of Personnel and Training (DoP&T), Government of India has officially announced the Combined Higher Secondary (10+2) Level Examination, 2026 (Advt No: F. No. HQ-C1102/5/2026-C-1) on 07 September 2026, inviting online applications for approximately 2,536 tentative vacancies across Ministries, Departments, Constitutional Bodies, and Tribunals.",
     "u": "https://ssc.gov.in/login"
 },

@@ -178554,7 +178554,7 @@
     "jobLocation": "Across India (All India Service Liability)",
     "applicationMode": "Online",
     "applicationStatus": "Active - Apply before 07 October 2026",
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "overview": [
       "Staff Selection Commission (SSC), Department of Personnel and Training (DoP&T), Government of India has officially announced the Combined Higher Secondary (10+2) Level Examination, 2026 (Advt No: F. No. HQ-C1102/5/2026-C-1) on 07 September 2026, inviting online applications for approximately 2,536 tentative vacancies across Ministries, Departments, Constitutional Bodies, and Tribunals.",
       "The recruitment drive fills prestigious Central Government Group 'C' positions including Lower Division Clerk (LDC), Junior Secretariat Assistant (JSA), Data Entry Operator (DEO), and Data Entry Operator Grade 'A'. Candidates who have passed or appeared in Class 12 (with results declared on or before 07 October 2026) within the age bracket of 18 to 27 years (as on 01 August 2026) are eligible to participate.",
@@ -178616,11 +178616,11 @@
         "date": "07 September 2026"
       },
       {
-        "event": "Online Application Submission Period",
-        "date": "07 September 2026 to 07 October 2026 (23:00 Hours)"
+        "event": "Online Application Starting Date",
+        "date": "07 September 2026"
       },
       {
-        "event": "Last Date for Online Application Receipt",
+        "event": "Last Date to Apply Online",
         "date": "07 October 2026 (23:00 Hours)"
       },
       {
@@ -178845,6 +178845,159 @@
         "title": "Staff Selection Commission (SSC) Official Website",
         "url": "https://ssc.gov.in/"
       }
-    ]
+    ],
+    "examPattern": {
+      "tier1": {
+        "mode": "Computer Based Examination (CBE) - Objective Multiple Choice",
+        "totalQuestions": 100,
+        "totalMarks": 200,
+        "duration": "60 Minutes (with 15-minute sectional timer for each subject; 80 minutes for eligible PwBD candidates with scribe)",
+        "negativeMarking": "0.50 marks deducted for each wrong answer",
+        "sections": [
+          {
+            "part": "Part-I",
+            "subject": "English Language (Basic Knowledge)",
+            "questions": 25,
+            "marks": 50,
+            "time": "15 Minutes"
+          },
+          {
+            "part": "Part-II",
+            "subject": "General Intelligence",
+            "questions": 25,
+            "marks": 50,
+            "time": "15 Minutes"
+          },
+          {
+            "part": "Part-III",
+            "subject": "Quantitative Aptitude (Basic Arithmetic Skill)",
+            "questions": 25,
+            "marks": 50,
+            "time": "15 Minutes"
+          },
+          {
+            "part": "Part-IV",
+            "subject": "General Awareness",
+            "questions": 25,
+            "marks": 50,
+            "time": "15 Minutes"
+          }
+        ]
+      },
+      "tier2": {
+        "mode": "Computer Based Examination (CBE) - Session I & Session II on Same Day",
+        "session1": {
+          "duration": "2 Hours 15 Minutes (135 Minutes)",
+          "sections": [
+            {
+              "section": "Section-I (1 Hour)",
+              "module1": "Module-I: Mathematical Abilities (30 Questions, 90 Marks, 30 min timer)",
+              "module2": "Module-II: Reasoning and General Intelligence (30 Questions, 90 Marks, 30 min timer)",
+              "totalQuestions": 60,
+              "totalMarks": 180,
+              "negativeMarking": "1 mark deducted per wrong answer"
+            },
+            {
+              "section": "Section-II (1 Hour)",
+              "module1": "Module-I: English Language and Comprehension (40 Questions, 120 Marks, 40 min timer)",
+              "module2": "Module-II: General Awareness (20 Questions, 60 Marks, 20 min timer)",
+              "totalQuestions": 60,
+              "totalMarks": 180,
+              "negativeMarking": "1 mark deducted per wrong answer"
+            },
+            {
+              "section": "Section-III (15 Minutes)",
+              "module": "Computer Knowledge Module (15 Questions, 45 Marks)",
+              "totalQuestions": 15,
+              "totalMarks": 45,
+              "nature": "Mandatory but Qualifying in nature",
+              "negativeMarking": "1 mark deducted per wrong answer"
+            }
+          ]
+        },
+        "session2": {
+          "section": "Section-IV: Skill Test / Typing Test Module (Qualifying)",
+          "parts": [
+            {
+              "part": "Part A: Skill Test for DEO in specified Ministries (MoCAF&PD, SSC, MoCulture)",
+              "speed": "15,000 Key Depressions Per Hour (KDPH) on Computer",
+              "duration": "15 Minutes (Printed passage of 3700-4000 key depressions)"
+            },
+            {
+              "part": "Part B: Skill Test for DEO in other Ministries / Departments",
+              "speed": "8,000 Key Depressions Per Hour (KDPH) on Computer",
+              "duration": "15 Minutes (Printed passage of 2000-2200 key depressions)"
+            },
+            {
+              "part": "Part C: Typing Test for LDC / JSA",
+              "speed": "English Typing @ 35 w.p.m. (10,500 KDPH) OR Hindi Typing @ 30 w.p.m. (9,000 KDPH in Mangal Font)",
+              "duration": "10 Minutes (15 minutes for eligible PwBD scribe candidates)"
+            }
+          ]
+        }
+      }
+    },
+    "physicalStandards": {
+      "borderRoadsOrganization": {
+        "applicability": "Applicable exclusively to male candidates opting for Lower Division Clerk (LDC) in Border Roads Organization (BRO / GREF)",
+        "physicalEfficiencyTest": {
+          "event": "One Mile Run",
+          "timeAllowed": "10 Minutes",
+          "location": "GREF Centre, Dighi Camp, Pune",
+          "nature": "Passing the 1-Mile run is mandatory to undergo further medical examination; qualifying in nature"
+        },
+        "regionWisePhysicalStandards": [
+          {
+            "region": "Western Himalayan Region",
+            "states": "J&K, Himachal Pradesh, Punjab Hills (Mukerian, Hoshiarpur, Garh Shankar, Ropar, Chandigarh), Uttarakhand",
+            "minHeight": "158 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "47.5 kgs"
+          },
+          {
+            "region": "Eastern Himalayan Region",
+            "states": "Sikkim, Nagaland, Arunachal Pradesh, Manipur, Tripura, Mizoram, Meghalaya, Assam, Hill region of West Bengal (Darjeeling & Kalimpong), Andaman & Nicobar",
+            "minHeight": "152 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "47.5 kgs"
+          },
+          {
+            "region": "West Plain Region",
+            "states": "Punjab, Haryana, Chandigarh, Delhi, Rajasthan, Western UP",
+            "minHeight": "162.5 cms",
+            "chest": "76 cms unexpanded (+5 cms expansion)",
+            "minWeight": "50 kgs"
+          },
+          {
+            "region": "Eastern Plain",
+            "states": "Eastern UP, Bihar, West Bengal, Odisha, Jharkhand",
+            "minHeight": "157 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "50 kgs"
+          },
+          {
+            "region": "Central Region",
+            "states": "Gujarat, Maharashtra, Madhya Pradesh, Dadra & Nagar Haveli, Daman & Diu, Chhattisgarh",
+            "minHeight": "157 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "50 kgs"
+          },
+          {
+            "region": "Southern Region",
+            "states": "Andhra Pradesh, Karnataka, Tamil Nadu, Telangana",
+            "minHeight": "157 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "50 kgs"
+          },
+          {
+            "region": "Gorkhas (Indian Domicile)",
+            "states": "Indian Domicile Gorkha candidates",
+            "minHeight": "152 cms",
+            "chest": "75 cms unexpanded (+5 cms expansion)",
+            "minWeight": "47.5 kgs"
+          }
+        ]
+      }
+    }
   }
 }
