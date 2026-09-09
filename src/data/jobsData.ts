@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "young-india-skills-university-lab-assistant-bio-laboratory-recruitment-2026",
+    "b": "Young India Skills University",
+    "t": "Young India Skills University Recruitment 2026 Notification Out for 1 Lab Assistant -Bio Laboratory Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "11 September 2026",
+    "a": "Advt/CA-NT/2026/05",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Young India Skills University has officially announced employment advertisement notification Advt/CA-NT/2026/05 inviting applications for 1 vacancies for Lab Assistant -Bio Laboratory posts.",
+    "u": "https://yisu.in/pdfs/lab-assistant-bio-laboratory.pdf"
+},
+  {
+    "id": "combat-vehicles-research-devel-various-posts-recruitment-2026",
+    "b": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO",
+    "t": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO Recruitment 2026 Notification Out for 35 Various Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "Within 10 days from publication date on DRDO website",
+    "a": "CVRDE/HRD/PAID",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO has officially announced employment advertisement notification CVRDE/HRD/PAID inviting applications for 35 vacancies for Various Posts posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCVRDE08092026.pdf"
+},
+  {
+    "id": "indian-institute-of-technology-assistant-manager-facilities-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Assistant Manager - Facilities Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "17 September 2026",
+    "a": "ICSR/PR/Advt.171/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt.171/2026 inviting applications for 1 vacancies for Assistant Manager - Facilities posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/index.php"
+},
+  {
+    "id": "tamil-nadu-newsprint-and-paper-assistant-general-manager-chie-recruitment-2026",
+    "b": "Tamil Nadu Newsprint and Papers (TNPL)",
+    "t": "Tamil Nadu Newsprint and Papers (TNPL) Recruitment 2026 Notification Out for 5 Assistant General Manager, Chief Manager, Manager /Deputy Manager, Deputy Manager/ Assistant Manager, Assistant Manager (Secretarial) Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "23 September 2026",
+    "a": "Name",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Tamil Nadu Newsprint and Papers (TNPL) has officially announced employment advertisement notification Name inviting applications for 5 vacancies for Assistant General Manager, Chief Manager, Manager /Deputy Manager, Deputy Manager/ Assistant Manager, Assistant Manager (Secretarial) posts.",
+    "u": "https://tnpl.com/wp-content/uploads/2026/09/TNPL_Marketing_-Secretarial-Advt_design_-norms.pdf"
+},
+  {
+    "id": "district-child-protection-unit-social-worker-recruitment-2026",
+    "b": "District Child Protection Unit Ranipet (DCPU Ranipet)",
+    "t": "District Child Protection Unit Ranipet (DCPU Ranipet) Recruitment 2026 Notification Out for 2 Social Worker Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "23 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Ranipet (DCPU Ranipet) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 2 vacancies for Social Worker posts.",
+    "u": "https://cdn.s3waas.gov.in/s32723d092b63885e0d7c260cc007e8b9d/uploads/2026/09/17889503501734.pdf"
+},
+  {
+    "id": "regional-ayurveda-research-ins-consultant-recruitment-2026",
+    "b": "Regional Ayurveda Research Institute (RARI)",
+    "t": "Regional Ayurveda Research Institute (RARI) Recruitment 2026 Notification Out for 1 Consultant Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "03592-231494",
+    "q": "Any Bachelor's Degree",
+    "desc": "Regional Ayurveda Research Institute (RARI) has officially announced employment advertisement notification 03592-231494 inviting applications for 1 vacancies for Consultant posts.",
+    "u": "https://ccras.nic.in/wp-content/uploads/2026/09/08092026-Advt.-RARI-Gangtok.pdf"
+},
+  {
+    "id": "tata-memorial-centre-tmc-foreman-mechanical-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC)",
+    "t": "Tata Memorial Centre (TMC) Recruitment 2026 Notification Out for 1 Foreman (Mechanical) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "OS/MUL/38/2026",
+    "q": "ITI",
+    "desc": "Tata Memorial Centre (TMC) has officially announced employment advertisement notification OS/MUL/38/2026 inviting applications for 1 vacancies for Foreman (Mechanical) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=BJcYBSGQ6oYJ6Q9mvx02Eg=="
+},
+  {
+    "id": "guru-nanak-dev-university-gndu-junior-technician-recruitment-2026",
+    "b": "Guru Nanak Dev University (GNDU)",
+    "t": "Guru Nanak Dev University (GNDU) Recruitment 2026 Notification Out for 1 Junior Technician Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "11 September 2026",
+    "a": "12/2026",
+    "q": "Diploma | B.Sc",
+    "desc": "Guru Nanak Dev University (GNDU) has officially announced employment advertisement notification 12/2026 inviting applications for 1 vacancies for Junior Technician posts.",
+    "u": "https://digital.gndu.ac.in/pdf/news/Advt._No._12_(2026)_20260820151330443.pdf"
+},
+  {
+    "id": "homi-bhabha-cancer-hospital-re-foreman-mechanical-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital & Research Centre (HBCHRC)",
+    "t": "Homi Bhabha Cancer Hospital & Research Centre (HBCHRC) Recruitment 2026 Notification Out for 1 Foreman (Mechanical) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "OS/MUL/38/2026",
+    "q": "ITI",
+    "desc": "Homi Bhabha Cancer Hospital & Research Centre (HBCHRC) has officially announced employment advertisement notification OS/MUL/38/2026 inviting applications for 1 vacancies for Foreman (Mechanical) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=BJcYBSGQ6oYJ6Q9mvx02Eg=="
+},
+  {
+    "id": "dasmesh-girls-college-principal-recruitment-2026",
+    "b": "Dasmesh Girls College",
+    "t": "Dasmesh Girls College Recruitment 2026 Notification Out for 1 Principal Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "06 October 2026",
+    "a": "DASMESH-GIRLS-/2026",
+    "q": "U.G.C. qualifications, NCTE qualifications, State Govt qualifications, P...",
+    "desc": "Dasmesh Girls College has officially announced employment advertisement notification DASMESH-GIRLS-/2026 inviting applications for 1 vacancies for Principal posts.",
+    "u": "https://facultyjobs.puchd.ac.in"
+},
+  {
     "id": "government-ssd-higher-secondar-guest-teacher-recruitment-2026",
     "b": "Government SSD Higher Secondary School Nuapada",
     "t": "Government SSD Higher Secondary School Nuapada Recruitment 2026 Notification Out for 3 Guest Teacher Posts | Apply Offline",
