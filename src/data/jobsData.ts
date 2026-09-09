@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "government-ssd-higher-secondar-guest-teacher-recruitment-2026",
+    "b": "Government SSD Higher Secondary School Nuapada",
+    "t": "Government SSD Higher Secondary School Nuapada Recruitment 2026 Notification Out for 3 Guest Teacher Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "23 September 2026",
+    "a": "2060 / SSD",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Government SSD Higher Secondary School Nuapada has officially announced employment advertisement notification 2060 / SSD inviting applications for 3 vacancies for Guest Teacher posts.",
+    "u": "https://nuapada.odisha.gov.in/sites/default/files/2026-09/2060.pdf"
+},
+  {
+    "id": "central-sanskrit-university-part-time-teacher-recruitment-2026",
+    "b": "Central Sanskrit University",
+    "t": "Central Sanskrit University Recruitment 2026 Notification Out for 3 Part-Time Teacher Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "015",
+    "q": "UGC norms for Part-Time Teacher",
+    "desc": "Central Sanskrit University has officially announced employment advertisement notification 015 inviting applications for 3 vacancies for Part-Time Teacher posts.",
+    "u": "https://csu-puri.edu.in/docs/70417.pdf"
+},
+  {
+    "id": "central-institute-of-petrochem-lecturer-instructor-recruitment-2026",
+    "b": "Central Institute of Petrochemicals Engineering & Technology (CIPET)",
+    "t": "Central Institute of Petrochemicals Engineering & Technology (CIPET) Recruitment 2026 Notification Out for 7 Lecturer, Instructor Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "28 September 2026",
+    "a": "CIPET/BLS/ADMIN/CIPET_Contr./01",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central Institute of Petrochemicals Engineering & Technology (CIPET) has officially announced employment advertisement notification CIPET/BLS/ADMIN/CIPET_Contr./01 inviting applications for 7 vacancies for Lecturer, Instructor posts.",
+    "u": "https://www.cipet.gov.in/job-opportunities/downloads/07-09-2026-006/Advertisement.pdf"
+},
+  {
+    "id": "women-and-child-development-de-anganwadi-worker-and-helper-recruitment-2026",
+    "b": "Women and Child Development Department Odisha (WCD Odisha)",
+    "t": "Women and Child Development Department Odisha (WCD Odisha) Recruitment 2026 Notification Out for 3 Anganwadi Worker and Helper Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "18 September 2026",
+    "a": "WOMEN-AND-CHIL/2026",
+    "q": "M.Tech / M.E",
+    "desc": "Women and Child Development Department Odisha (WCD Odisha) has officially announced employment advertisement notification WOMEN-AND-CHIL/2026 inviting applications for 3 vacancies for Anganwadi Worker and Helper posts.",
+    "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
+},
+  {
+    "id": "utkal-university-project-assistant-recruitment-2026-3066963",
+    "b": "Utkal University",
+    "t": "Utkal University Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "BOTU/MRIP/VFW/03/2026",
+    "q": "M.Sc",
+    "desc": "Utkal University has officially announced employment advertisement notification BOTU/MRIP/VFW/03/2026 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://utkaluniversity.ac.in/wp-content/uploads/2026/09/website-pdf.pdf"
+},
+  {
+    "id": "central-agricultural-universit-computer-operator-recruitment-2026",
+    "b": "Central Agricultural University Imphal (CAU Imphal)",
+    "t": "Central Agricultural University Imphal (CAU Imphal) Recruitment 2026 Notification Out for 1 Computer Operator Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "CAU/CoVSc-Jlk/Estt/Rect/2026/",
+    "q": "Any Bachelor's Degree",
+    "desc": "Central Agricultural University Imphal (CAU Imphal) has officially announced employment advertisement notification CAU/CoVSc-Jlk/Estt/Rect/2026/ inviting applications for 1 vacancies for Computer Operator posts.",
+    "u": "https://cau.ac.in/walk-in-interview-for-the-post-of-1-computer-operator-in-contractual-for-college-of-veterinary-sciences-ah-jalukie-nagaland/"
+},
+  {
+    "id": "national-sports-university-man-project-lab-technician-recruitment-2026",
+    "b": "National Sports University Manipur (NSU Manipur)",
+    "t": "National Sports University Manipur (NSU Manipur) Recruitment 2026 Notification Out for 1 Project Lab Technician Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "16 September 2026",
+    "a": "INLEADS-02/2025",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "National Sports University Manipur (NSU Manipur) has officially announced employment advertisement notification INLEADS-02/2025 inviting applications for 1 vacancies for Project Lab Technician posts.",
+    "u": "https://www.nsu.ac.in/sites/default/files/recruitment/Vacancy%20Notification%20for%20Project%20Technician%20INLEADs.pdf"
+},
+  {
+    "id": "employee-state-insurance-socie-contractual-medical-officer-recruitment-2026",
+    "b": "Employee State Insurance Society Thane (ESIC Thane)",
+    "t": "Employee State Insurance Society Thane (ESIC Thane) Recruitment 2026 Notification Out for 8 Contractual Medical Officer Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "09 September 2026 (Walk-in)",
+    "a": "EMPLOYEE-STATE/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Employee State Insurance Society Thane (ESIC Thane) has officially announced employment advertisement notification EMPLOYEE-STATE/2026 inviting applications for 8 vacancies for Contractual Medical Officer posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/WALK_IN_INTERVIWE_FOR_POST_OF_CONTRACTUA_OFFICER_1788858261.pdf"
+},
+  {
+    "id": "icar-central-institute-for-res-senior-research-fellow-srf-recruitment-2026",
+    "b": "ICAR Central Institute for Research on Cotton Technology",
+    "t": "ICAR Central Institute for Research on Cotton Technology Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "A-12024/1/2026-Adm-I-CIRCOT",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR Central Institute for Research on Cotton Technology has officially announced employment advertisement notification A-12024/1/2026-Adm-I-CIRCOT inviting applications for 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://circot.icar.gov.in/sites/default/files/Walk_In-Interview_SRF_23_09_2026.pdf"
+},
+  {
+    "id": "advanced-centre-for-treatment-lab-technician-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Lab Technician Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "OS-A/102/2026",
+    "q": "B.Sc | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/102/2026 inviting applications for 1 vacancies for Lab Technician posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20Lab%20Technician-%20Mircrobiology%2021.09.2026.pdf"
+},
+  {
     "id": "vasantrao-naik-marathwada-kris-junior-research-fellow-jrf-recruitment-2026",
     "b": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV)",
     "t": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
