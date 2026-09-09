@@ -839,12 +839,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "arunachal-pradesh-public-servi-arunachal-pradesh-public-servi-recruitment-2026",
     "b": "Arunachal Pradesh Public Service Commission (APPSC)",
-    "t": "Arunachal Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 13 Arunachal Pradesh Public Service Combined Competitive Examination-2026 (APPSCCE-2026) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "20 October 2026 (1700 Hours)",
-    "a": "5/2026 (No. PSC-R/13/2026, dated 07 September 2026)",
-    "q": "B.Tech / B.E",
-    "desc": "Arunachal Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 5/2026 (No. PSC-R/13/2026, dated 07 September 2026) inviting applications for 13 vacancies for Arunachal Pradesh Public Service Combined Competitive Examination-2026 (APPSCCE-2026) posts.",
+    "t": "APPSC Combined Competitive Examination (APPSCCE) 2026: Apply Online for 135 Civil Service, Police Service & Group A/B Posts (Advt No. 5/2026)",
+    "d": "07 September 2026",
+    "l": "20 October 2026 (05:00 PM)",
+    "a": "Advertisement No. 5/2026 (No. PSC-R/13/2026, Dated 07.09.2026)",
+    "q": "Graduation / Bachelor's Degree in any discipline from a UGC recognized University",
+    "desc": "The Arunachal Pradesh Public Service Commission (APPSC), Itanagar has officially issued Advertisement No. 5/2026 (Ref No. PSC-R/13/2026 dated 07 September 2026) inviting online applications from eligible citizens of India who are Permanent Residents of Arunachal Pradesh holding APST status for the Arunachal Pradesh Public Service Combined Competitive Examination-2026 (APPSCCE-2026). A total of 135 premier Group 'A' and Group 'B' vacancies have been announced across key administrative, police, developmental, and secretariat cadres of the Government of Arunachal Pradesh.",
     "u": "https://appsc.gov.in"
 },
   {
