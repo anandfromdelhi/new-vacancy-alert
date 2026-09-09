@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "motilal-nehru-national-institu-junior-research-assistant-jra-recruitment-2026",
+    "b": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
+    "t": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) Recruitment 2026 Notification Out for 1 Junior Research Assistant (JRA) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "22 September 2026",
+    "a": "1643/ BT/ 2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) has officially announced employment advertisement notification 1643/ BT/ 2026 inviting applications for 1 vacancies for Junior Research Assistant (JRA) posts.",
+    "u": "https://mnnit.ac.in/images/newstories/2026/notices/Advt_and_Form_edited.pdf"
+},
+  {
+    "id": "atal-awasiya-vidyalaya-bareill-pgt-and-tgt-recruitment-2026",
+    "b": "Atal Awasiya Vidyalaya Bareilly",
+    "t": "Atal Awasiya Vidyalaya Bareilly Recruitment 2026 Notification Out for 12 PGT and TGT Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "24 September 2026",
+    "a": "ATAL-AWASIYA-V/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Atal Awasiya Vidyalaya Bareilly has officially announced employment advertisement notification ATAL-AWASIYA-V/2026 inviting applications for 12 vacancies for PGT and TGT posts.",
+    "u": "https://cdn.s3waas.gov.in/s31d7f7abc18fcb43975065399b0d1e48e/uploads/2026/09/17888624065877.pdf"
+},
+  {
+    "id": "office-of-the-district-program-anganwadi-karyakatri-worker-an-recruitment-2026",
+    "b": "Office of the District Programme Officer, Gautam Buddha Nagar",
+    "t": "Office of the District Programme Officer, Gautam Buddha Nagar Recruitment 2026 Notification Out for 267 Anganwadi Karyakatri (Worker) and Anganwadi Sahayika (Helper) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "28 September 2026, midnight (12-00 AM)",
+    "a": "Letter No. सी/530/जि0का0अ0/आ0वा0का0/सहा0चयन भर्ती/2026-27, dated 07.09.2026",
+    "q": "12th Pass | B.Tech / B.E",
+    "desc": "Office of the District Programme Officer, Gautam Buddha Nagar has officially announced employment advertisement notification Letter No. सी/530/जि0का0अ0/आ0वा0का0/सहा0चयन भर्ती/2026-27, dated 07.09.2026 inviting applications for 267 vacancies for Anganwadi Karyakatri (Worker) and Anganwadi Sahayika (Helper) posts.",
+    "u": "https://upanganwadibharti.in/helper-v2/uploadOrder/ordercopy1788845599.pdf"
+},
+  {
+    "id": "babasaheb-bhimrao-ambedkar-uni-teaching-positions-and-non-tea-recruitment-2026",
+    "b": "Babasaheb Bhimrao Ambedkar University (BBAU), Lucknow (A Central University)",
+    "t": "Babasaheb Bhimrao Ambedkar University (BBAU), Lucknow (A Central University) Recruitment 2026 Notification Out for 30 Teaching Positions and Non Teaching Positions Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "19 October 2026 (23:59:59 hrs)",
+    "a": "BBAU/T/01/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Babasaheb Bhimrao Ambedkar University (BBAU), Lucknow (A Central University) has officially announced employment advertisement notification BBAU/T/01/2026 inviting applications for 30 vacancies for Teaching Positions and Non Teaching Positions posts.",
+    "u": "https://www.bbau.ac.in/Docs/Career/teaching26/ADVERTISEMENT-TEACHING-2026.pdf"
+},
+  {
+    "id": "uttar-pradesh-subordinate-serv-pashudhan-prasar-adhikari-mukh-recruitment-2026",
+    "b": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
+    "t": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) Recruitment 2026 Notification Out for 1251 Pashudhan Prasar Adhikari Mukhya Pariksha (PA0O0P0-2025)/17 Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "06 October 2026",
+    "a": "17-Pariksha/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) has officially announced employment advertisement notification 17-Pariksha/2026 inviting applications for 1251 vacancies for Pashudhan Prasar Adhikari Mukhya Pariksha (PA0O0P0-2025)/17 posts.",
+    "u": "https://upsssc.gov.in/AllNotifications.aspx"
+},
+  {
+    "id": "centre-for-good-governance-cgg-data-analyst-research-associat-recruitment-2026",
+    "b": "Centre for Good Governance (CGG)",
+    "t": "Centre for Good Governance (CGG) Recruitment 2026 Notification Out for 1 Data Analyst, Research Associate and More Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "CENTRE-FOR-GOO/2026",
+    "q": "B.Tech / B.E | MCA / BCA | MBBS / Medical PG",
+    "desc": "Centre for Good Governance (CGG) has officially announced employment advertisement notification CENTRE-FOR-GOO/2026 inviting applications for 1 vacancies for Data Analyst, Research Associate and More Posts posts.",
+    "u": "https://virtuo.cgg.gov.in/beforeLogin/profileUploadForm"
+},
+  {
+    "id": "centre-for-good-governance-cgg-plsql-developer-business-techn-recruitment-2026",
+    "b": "Centre for Good Governance (CGG)",
+    "t": "Centre for Good Governance (CGG) Recruitment 2026 Notification Out for 2 PLSQL Developer, Business Technical Analyst Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "CENTRE-FOR-GOO/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
+    "desc": "Centre for Good Governance (CGG) has officially announced employment advertisement notification CENTRE-FOR-GOO/2026 inviting applications for 2 vacancies for PLSQL Developer, Business Technical Analyst posts.",
+    "u": "https://virtuo.cgg.gov.in/beforeLogin/profileUploadForm"
+},
+  {
+    "id": "drdo-young-scientists-laborato-junior-research-fellow-jrf-recruitment-2026",
+    "b": "DRDO Young Scientists Laboratory for Smart Materials (DRDO DYSL SM)",
+    "t": "DRDO Young Scientists Laboratory for Smart Materials (DRDO DYSL SM) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "DYSL-SM/HRD/JRF/REC/2026/1",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "DRDO Young Scientists Laboratory for Smart Materials (DRDO DYSL SM) has officially announced employment advertisement notification DYSL-SM/HRD/JRF/REC/2026/1 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDYSLSM08092026.pdf"
+},
+  {
+    "id": "english-and-foreign-languages-tutor-recruitment-2026",
+    "b": "English and Foreign Languages University (EFL University)",
+    "t": "English and Foreign Languages University (EFL University) Recruitment 2026 Notification Out for 1 Tutor Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "30 September 2026",
+    "a": "No.EFLU/Admin./F.24/2026/4-84",
+    "q": "Any Bachelor's Degree",
+    "desc": "English and Foreign Languages University (EFL University) has officially announced employment advertisement notification No.EFLU/Admin./F.24/2026/4-84 inviting applications for 1 vacancies for Tutor posts.",
+    "u": "https://www.efluniversity.ac.in/uploads/notices/TeluguNotification.pdf"
+},
+  {
+    "id": "birla-institute-of-technology-officer-sr-officer-education-o-recruitment-2026",
+    "b": "Birla Institute of Technology and Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology and Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 3 Officer/ Sr. Officer Education - Operations Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "10 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Birla Institute of Technology and Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 3 vacancies for Officer/ Sr. Officer Education - Operations posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScIxW3WK37oyUiITMd0_KBTrl78kloqXwtYPnzIAS4Vo8Oprg/viewform"
+},
+  {
     "id": "young-india-skills-university-lab-assistant-bio-laboratory-recruitment-2026",
     "b": "Young India Skills University",
     "t": "Young India Skills University Recruitment 2026 Notification Out for 1 Lab Assistant -Bio Laboratory Posts | Apply Online",
