@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "veer-narmad-south-gujarat-univ-temporary-assistant-professor-recruitment-2026-3067053",
+    "b": "Veer Narmad South Gujarat University (VNSGU)",
+    "t": "Veer Narmad South Gujarat University (VNSGU) Recruitment 2026 Notification Out for 1 Temporary Assistant Professor Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "VEER-NARMAD-SO/2026",
+    "q": "Marketing Management/ General Management",
+    "desc": "Veer Narmad South Gujarat University (VNSGU) has officially announced employment advertisement notification VEER-NARMAD-SO/2026 inviting applications for 1 vacancies for Temporary Assistant Professor posts.",
+    "u": "https://vnsgu.ac.in/uploads/assetlinks/c814a3e8-2017-4b68-98de-7e122a10fd1c.pdf"
+},
+  {
+    "id": "goa-university-junior-research-fellow-recruitment-2026",
+    "b": "Goa University",
+    "t": "Goa University Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "11 September 2026",
+    "a": "GU/DTT/RDRM/19010/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Goa University has officially announced employment advertisement notification GU/DTT/RDRM/19010/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.unigoa.ac.in"
+},
+  {
+    "id": "all-india-institute-of-medical-laboratory-technician-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Laboratory Technician Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "21 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "12th Pass | Diploma",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Laboratory Technician posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pharma-8-9-26.pdf"
+},
+  {
+    "id": "zakir-husain-delhi-college-assistant-professor-guest-facu-recruitment-2026",
+    "b": "Zakir Husain Delhi College",
+    "t": "Zakir Husain Delhi College Recruitment 2026 Notification Out for 2 Assistant Professor (Guest Faculty) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "12 September 2026 (Walk-in)",
+    "a": "ZHDC(E)/2026/Notice/62",
+    "q": "As per UGC Regulations 2018 for Assistant Professor of Colleges",
+    "desc": "Zakir Husain Delhi College has officially announced employment advertisement notification ZHDC(E)/2026/Notice/62 inviting applications for 2 vacancies for Assistant Professor (Guest Faculty) posts.",
+    "u": "https://www.du.ac.in/uploads/uploads/07092026-Notice-Ass-Prof-Guest-Hist-ZHDCE.pdf"
+},
+  {
+    "id": "commission-for-air-quality-man-advisor-media-iec-activities-recruitment-2026",
+    "b": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM)",
+    "t": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM) Recruitment 2026 Notification Out for 1 Advisor (Media & IEC Activities) Posts | Apply Offline",
+    "d": "09 September 2026",
+    "l": "15 September 2026",
+    "a": "A-12011/01/2022-Estt.-Part(1)",
+    "q": "Retired Government servants (Director to the Gol and above) with experie...",
+    "desc": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM) has officially announced employment advertisement notification A-12011/01/2022-Estt.-Part(1) inviting applications for 1 vacancies for Advisor (Media & IEC Activities) posts.",
+    "u": "https://caqm.nic.in/FileUploadDomain/WebsiteDocument/Opportunities/Vacancies/81578e25-9484-496f-874a-f34a380cb01b.pdf"
+},
+  {
+    "id": "directorate-of-education-ut-ad-pre-school-teacher-caretakerhe-recruitment-2026",
+    "b": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha)",
+    "t": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha) Recruitment 2026 Notification Out for 74 Pre-School Teacher, Caretaker/Helper (Female) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "16, 17 & 18 September 2026 (Walk-in)",
+    "a": "DNH-DD/DOE/SS/ECCE/RECRUITMENT/2026-27/3427",
+    "q": "10th / 8th Pass | Diploma | B.Tech / B.E",
+    "desc": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha) has officially announced employment advertisement notification DNH-DD/DOE/SS/ECCE/RECRUITMENT/2026-27/3427 inviting applications for 74 vacancies for Pre-School Teacher, Caretaker/Helper (Female) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/202609091065091729.pdf"
+},
+  {
+    "id": "district-education-office-dant-guest-teacher-english-recruitment-2026",
+    "b": "District Education Office Dantewada",
+    "t": "District Education Office Dantewada Recruitment 2026 Notification Out for 1 Guest Teacher (English) Posts | Walk-in Interview",
+    "d": "09 September 2026",
+    "l": "11 September 2026 (Walk-in)",
+    "a": "DISTRICT-EDUCA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "District Education Office Dantewada has officially announced employment advertisement notification DISTRICT-EDUCA/2026 inviting applications for 1 vacancies for Guest Teacher (English) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
+},
+  {
+    "id": "railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 Notification Out for 4029 Junior Engineer (37 discipline/department categories), Depot Material Superintendent, Chemical & Metallurgical Assistant (added by Corrigendum-1) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "13 September 2026 (23:59 hrs)",
+    "a": "CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA)",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially announced employment advertisement notification CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA) inviting applications for 4029 vacancies for Junior Engineer (37 discipline/department categories), Depot Material Superintendent, Chemical & Metallurgical Assistant (added by Corrigendum-1) posts.",
+    "u": "https://www.rrbapply.gov.in/assets/forms/CEN_04_2026_Corrigendum_1.pdf"
+},
+  {
+    "id": "director-general-of-foreign-tr-young-professional-recruitment-2026",
+    "b": "Director General of Foreign Trade (DGFT)",
+    "t": "Director General of Foreign Trade (DGFT) Recruitment 2026 Notification Out for 2 Young Professional Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "16 September 2026",
+    "a": "DIRECTOR-GENER/2026",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Director General of Foreign Trade (DGFT) has officially announced employment advertisement notification DIRECTOR-GENER/2026 inviting applications for 2 vacancies for Young Professional posts.",
+    "u": "https://www.dgft.gov.in/"
+},
+  {
+    "id": "bcpl-non-executive-minimum-essential-educational-recruitment-2026",
+    "b": "BCPL Non Executive",
+    "t": "BCPL Non Executive Recruitment 2026 Notification Out for 1 Minimum Essential Educational Qualification Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "09 October 2026, 17:00 hours",
+    "a": "BCPL-NE/06/2026)",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "BCPL Non Executive has officially announced employment advertisement notification BCPL-NE/06/2026) inviting applications for 1 vacancies for Minimum Essential Educational Qualification posts.",
+    "u": "https://bcplonline.co.in/UploadFiles/Downloads/BCPL-NE062026.pdf"
+},
+  {
     "id": "central-silk-board-csb-ministr-young-professional-grade-3-recruitment-2026",
     "b": "Central Silk Board (CSB), Ministry of Textiles, Government of India",
     "t": "Central Silk Board (CSB), Ministry of Textiles, Government of India Recruitment 2026 Notification Out for 14 Young Professional-Grade-3 Posts | Apply Online",
