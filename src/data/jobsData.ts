@@ -637,7 +637,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "CA / MBA (Finance) / PGDM (Finance) / Bachelor's in Environmental Science & Engg (Top 50 NIRF)",
     "desc": "Directorate of Urban Local Bodies (DULB), Haryana, Panchkula has officially invited online applications for the engagement of 195 professional posts on a contract basis across 87 urban local bodies (11 Municipal Corporations, 25 Municipal Councils, and 51 Municipal Committees) in the State of Haryana. The recruitment drive includes 62 Taxation Experts, 76 Taxation Associates, and 57 Sanitation Experts/Associates to enhance municipal financial management, revenue collection, and solid waste sanitation infrastructure.",
     "u": "https://recruitment.ulbharyana.gov.in"
-},
+  },
   {
     "id": "gujarat-subordinate-service-se-research-assistant-statistical-recruitment-2026",
     "b": "Gujarat Subordinate Service Selection Board (GSSSB)",
@@ -868,17 +868,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBA / BBA",
     "desc": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas) has officially announced employment advertisement notification BL/HR/CHR/RECT/RECFT/202627/0003 inviting applications for 38 vacancies for Junior Officer, Assistant Manager and More posts.",
     "u": "https://www.balmerlawrie.com/careers/current-openings"
-  },
-  {
-    "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026-3066740",
-    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
-    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways Recruitment 2026 Notification Out for 560 RRB Paramedical Recruitment 2026 Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "14 October 2026 (23:59 hrs) (Tentative)",
-    "a": "CEN No. 05/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways has officially announced employment advertisement notification CEN No. 05/2026 inviting applications for 560 vacancies for RRB Paramedical Recruitment 2026 posts.",
-    "u": "https://www.rrbapply.gov.in/#/auth/landing"
   },
   {
     "id": "visakhapatnam-port-authority-deputy-chief-law-officer-recruitment-2026",
@@ -1743,7 +1732,7 @@ export const JOBS_DATA: JobEntry[] = [
     "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
     "t": "Railway Recruitment Boards (RRBs) CEN 05/2026 Paramedical Categories Recruitment 2026 Notification Out for 560 Posts | Apply Online",
     "d": "12 September 2026",
-    "l": "14 October 2026 (23:59 hrs) (Tentative)",
+    "l": "14 October 2026",
     "a": "CEN No. 05/2026 (No. RRB/RNC/Advt./CEN/05/2026)",
     "q": "Diploma / Degree / GNM / B.Sc Nursing / D.Pharm / B.Pharm / DMLT (As per Detailed CEN No. 05/2026)",
     "desc": "The Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India, have officially released the Centralised Employment Notification (CEN) No. 05/2026 (Indicative Notice Ref No. RRB/RNC/Advt./CEN/05/2026 dated 12 September 2026) for the open-market recruitment to Various Posts of Paramedical Categories across Railway Recruitment Boards nationwide. An aggregate of 560 tentative vacancies has been notified under 7th CPC Pay Level 3 to Pay Level 7.",

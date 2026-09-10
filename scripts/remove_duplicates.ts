@@ -93,7 +93,11 @@ export const DUPLICATE_MAPPINGS: Record<string, string> = {
 
   // 19. UPSSSC Pashudhan Prasar Adhikari
   'uttar-pradesh-subordinate-serv-pashudhan-prasar-adhikari-mukh-recruitment-2026':
-    'upsssc-pashudhan-prasar-adhikari-recruitment-2026'
+    'upsssc-pashudhan-prasar-adhikari-recruitment-2026',
+
+  // 20. RRB Paramedical CEN 05/2026
+  'railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026-3066740':
+    'railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026'
 };
 
 const duplicatesToRemove = Object.keys(DUPLICATE_MAPPINGS);
