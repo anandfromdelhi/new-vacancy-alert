@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mgcu-jrfproject-fellow-recruitment-2026",
+    "b": "Mahatma Gandhi Central University (MGCU)",
+    "t": "Mahatma Gandhi Central University (MGCU) Recruitment 2026 Notification Out for 1 JRF/Project Fellow Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "UFR-75325",
+    "q": "M.Sc",
+    "desc": "Mahatma Gandhi Central University (MGCU) has officially announced employment advertisement notification UFR-75325 inviting applications for 1 vacancies for JRF/Project Fellow posts.",
+    "u": "https://mgcub.ac.in/storage/content_files/1788783319_Re-advertisement%20Project%20Fellow.pdf"
+},
+  {
+    "id": "sibsagar-universit-controller-of-recruitment-2026",
+    "b": "Sibsagar University",
+    "t": "Sibsagar University Recruitment 2026 Notification Out for 3 Controller of Examinations, Deputy Registrar, Deputy Controller of Examinations Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "30 September 2026",
+    "a": "SU/F&AO/GIA-Recruit-Advt/14/2026/30",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sibsagar University has officially announced employment advertisement notification SU/F&AO/GIA-Recruit-Advt/14/2026/30 inviting applications for 3 vacancies for Controller of Examinations, Deputy Registrar, Deputy Controller of Examinations posts.",
+    "u": "https://sibsagaruniversity.ac.in/upload/notice/1788965049.pdf"
+},
+  {
+    "id": "iit-team-leader-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Team Leader cum Civil Engineer Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "14 September 2026",
+    "a": "IITG/II&SI/Project Staff Rectt-2026/149",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/149 inviting applications for 1 vacancies for Team Leader cum Civil Engineer posts.",
+    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
+},
+  {
+    "id": "iit-research-associate-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "IITG/II&SI/Project Staff Rectt-2026/148",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/148 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://iitg.ac.in/rndproj/recruitment"
+},
+  {
+    "id": "pgimer-nursing-officer-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh",
+    "t": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh Recruitment 2026 Notification Out for 243 Nursing Officer Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "03 October 2026",
+    "a": "PGI/RC/055/2026/2276",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh has officially announced employment advertisement notification PGI/RC/055/2026/2276 inviting applications for 243 vacancies for Nursing Officer posts.",
+    "u": "https://cdn.digialm.com//EForms/configuredHtml/2650/102253/Index.html"
+},
+  {
+    "id": "district-commissio-co-ordinator-recruitment-2026",
+    "b": "District Commissioner Lakhimpur",
+    "t": "District Commissioner Lakhimpur Recruitment 2026 Notification Out for 2 Co-ordinator FRA and MIS/FRA Associate Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "25 September 2026",
+    "a": "DEV/736/2025-DEVB-LKPR/558262",
+    "q": "Diploma | B.Sc | Master's / PG Degree",
+    "desc": "District Commissioner Lakhimpur has officially announced employment advertisement notification DEV/736/2025-DEVB-LKPR/558262 inviting applications for 2 vacancies for Co-ordinator FRA and MIS/FRA Associate posts.",
+    "u": "https://lakhimpur.assam.gov.in/sites/default/files/public_utility/FRA%20advertisement.pdf"
+},
+  {
+    "id": "appsc-common-examination-recruitment-2026",
+    "b": "Arunachal Pradesh Public Service Commission (APPSC)",
+    "t": "Arunachal Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 37 Common Recruitment Examination for Group-A & Group-B, Gazetted (Technical) Posts-2026 (Part-II) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "12 October 2026 (5:00 PM)",
+    "a": "06/2026 (No. PSC-R(B)/04/2025)",
+    "q": "B.Tech / B.E",
+    "desc": "Arunachal Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 06/2026 (No. PSC-R(B)/04/2025) inviting applications for 37 vacancies for Common Recruitment Examination for Group-A & Group-B, Gazetted (Technical) Posts-2026 (Part-II) posts.",
+    "u": "https://appsc.gov.in"
+},
+  {
+    "id": "indian-institute-o-project-assistant-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Tirupati",
+    "t": "Indian Institute of Science Education and Research Tirupati Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "66/2026",
+    "q": "B.Sc | Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Tirupati has officially announced employment advertisement notification 66/2026 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/08/Advt_662026.pdf"
+},
+  {
+    "id": "indian-institute-o-jrf-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati)",
+    "t": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati) Recruitment 2026 Notification Out for 1 Project Associate-I / Junior Research Fellow Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026",
+    "a": "73/2026",
+    "q": "M.Sc",
+    "desc": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati) has officially announced employment advertisement notification 73/2026 inviting applications for 1 vacancies for Project Associate-I / Junior Research Fellow posts.",
+    "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/09/Advt_732026.pdf"
+},
+  {
+    "id": "ssc-si-gd-recruitment-2026",
+    "b": "Staff Selection Commission (SSC)",
+    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 1871 SI (GD) in CAPFs, SI (Executive) in Delhi Police (Male/Female), SI (Fire) in CISF (Male) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "30 September 2026 (23:00 hrs)",
+    "a": "STAFF-SELECTIO/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 1871 vacancies for SI (GD) in CAPFs, SI (Executive) in Delhi Police (Male/Female), SI (Fire) in CISF (Male) posts.",
+    "u": "https://ssc.gov.in/login"
+},
+  {
     "id": "government-institute-of-medica-audiologist-audiometry-technic-recruitment-2026",
     "b": "Government Institute of Medical Sciences (GIMS)",
     "t": "Government Institute of Medical Sciences (GIMS) Recruitment 2026 Notification Out for 5 Audiologist / Audiometry Technician Posts | Walk-in Interview",
