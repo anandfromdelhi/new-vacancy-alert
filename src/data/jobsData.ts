@@ -629,15 +629,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "directorate-of-urban-local-bod-taxation-experts-taxation-asso-recruitment-2026",
-    "b": "Directorate of Urban Local Bodies, Haryana, Panchkula",
-    "t": "Directorate of Urban Local Bodies, Haryana, Panchkula Recruitment 2026 Notification Out for 195 Taxation Experts, Taxation Associates, Sanitation Experts/Associates Posts | Apply Online",
-    "d": "09 September 2026",
+    "b": "Directorate of Urban Local Bodies (DULB), Haryana, Panchkula",
+    "t": "Haryana DULB Recruitment 2026 – Apply Online for 195 Taxation & Sanitation Experts / Associates Posts (Salary up to ₹1,00,000/-)",
+    "d": "08 September 2026",
     "l": "30 September 2026",
-    "a": "DIRECTORATE-OF/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Directorate of Urban Local Bodies, Haryana, Panchkula has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 195 vacancies for Taxation Experts, Taxation Associates, Sanitation Experts/Associates posts.",
-    "u": "https://ulbharyana.gov.in/AdminDashboard/ViewUploadFile?fileName=CONTENTFILES%5Cada650decc3d44419e806081a845ca6c.pdf"
-  },
+    "a": "Notice Dated 08.09.2026",
+    "q": "CA / MBA (Finance) / PGDM (Finance) / Bachelor's in Environmental Science & Engg (Top 50 NIRF)",
+    "desc": "Directorate of Urban Local Bodies (DULB), Haryana, Panchkula has officially invited online applications for the engagement of 195 professional posts on a contract basis across 87 urban local bodies (11 Municipal Corporations, 25 Municipal Councils, and 51 Municipal Committees) in the State of Haryana. The recruitment drive includes 62 Taxation Experts, 76 Taxation Associates, and 57 Sanitation Experts/Associates to enhance municipal financial management, revenue collection, and solid waste sanitation infrastructure.",
+    "u": "https://recruitment.ulbharyana.gov.in"
+},
   {
     "id": "gujarat-subordinate-service-se-research-assistant-statistical-recruitment-2026",
     "b": "Gujarat Subordinate Service Selection Board (GSSSB)",

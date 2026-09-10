@@ -1585,12 +1585,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://newvacancyalert.in/board/directorate-of-urban-local-bodies</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://newvacancyalert.in/board/district-administration-foreigners-tribunal-no-8</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>daily</changefreq>
@@ -1796,6 +1790,12 @@
   </url>
   <url>
     <loc>https://newvacancyalert.in/board/drdo-young-scientists-laboratory-for-smart-materials</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://newvacancyalert.in/board/dulb-haryana</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -8474,7 +8474,7 @@
   </url>
   <url>
     <loc>https://newvacancyalert.in/directorate-of-urban-local-bod-taxation-experts-taxation-asso-recruitment-2026</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
