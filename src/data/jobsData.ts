@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-madras-simulation-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Simulation Engineer Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "ICSR/PR/Advt.",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt. inviting applications for 1 vacancies for Simulation Engineer posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/index.php"
+},
+  {
+    "id": "district-child-pro-case-worker-recruitment-2026",
+    "b": "District Child Protection Unit Tiruvallur",
+    "t": "District Child Protection Unit Tiruvallur Recruitment 2026 Notification Out for 3 Case Worker, Outreach Worker Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "21 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Tiruvallur has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 3 vacancies for Case Worker, Outreach Worker posts.",
+    "u": "https://cdn.s3waas.gov.in/s39431c87f273e507e6040fcb07dcb4509/uploads/2026/09/17889398437048.pdf"
+},
+  {
+    "id": "rural-development-jeep-driver-recruitment-2026",
+    "b": "Rural Development and Panchayat Unit Tiruchirappalli",
+    "t": "Rural Development and Panchayat Unit Tiruchirappalli Recruitment 2026 Notification Out for 1 Jeep Driver Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "09 October 2026",
+    "a": "RURAL-DEVELOPM/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Rural Development and Panchayat Unit Tiruchirappalli has officially announced employment advertisement notification RURAL-DEVELOPM/2026 inviting applications for 1 vacancies for Jeep Driver posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f73b76ce8949fe29bf2a537cfa420e8f/uploads/2026/09/17888651777315.pdf"
+},
+  {
+    "id": "anna-university-eiacp-coordinator-recruitment-2026",
+    "b": "Anna University",
+    "t": "Anna University Recruitment 2026 Notification Out for 4 EIACP Coordinator Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "25 September 2026",
+    "a": "001/ IOM/ EIACP PC RP/ Temporary Staff/ 2026-2027",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Anna University has officially announced employment advertisement notification 001/ IOM/ EIACP PC RP/ Temporary Staff/ 2026-2027 inviting applications for 4 vacancies for EIACP Coordinator posts.",
+    "u": "https://www.annauniv.edu/pdf/ReAdvertisement.pdf"
+},
+  {
+    "id": "cutn-project-associate-recruitment-2026",
+    "b": "Central University of Tamil Nadu (CUTN)",
+    "t": "Central University of Tamil Nadu (CUTN) Recruitment 2026 Notification Out for 1 Project Associate Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
+    "desc": "Central University of Tamil Nadu (CUTN) has officially announced employment advertisement notification CENTRAL-UNIVER/2026 inviting applications for 1 vacancies for Project Associate posts.",
+    "u": "https://cutn.ac.in/wp-content/uploads/2026/09/Advertisement-for-the-position-of-Project-Associate-PA-in-the-Department-of-Geology_09092026.pdf"
+},
+  {
+    "id": "curaj-sports-manager-recruitment-2026",
+    "b": "Central University of Rajasthan (CURAJ)",
+    "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 Notification Out for 3 Sports Manager, Store In-Charge, Consultant (Store) Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "10 October 2026",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Rajasthan (CURAJ) has officially announced employment advertisement notification CENTRAL-UNIVER/2026 inviting applications for 3 vacancies for Sports Manager, Store In-Charge, Consultant (Store) posts.",
+    "u": "https://curaj.ac.in/sites/default/files/Advt.No.%206842%20dated%20%2009.09.2026%20for%20the%20post%20of%20Sports%20%28contractual%20basis%29%20%281%29%20%281%29.pdf"
+},
+  {
+    "id": "aiims-jodhpur-project-research-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Project Research Scientist I (Medical) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "AIIMS/JDH/CMFM/PRR-Res-Adv./39",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification AIIMS/JDH/CMFM/PRR-Res-Adv./39 inviting applications for 1 vacancies for Project Research Scientist I (Medical) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1789032294_PRR-Res-Adv-39.pdf"
+},
+  {
+    "id": "aiims-jodhpur-project-technical-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Project Technical Support-I (X-ray Technician) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "AIIMS/JDH/CMFM/PRR-Res-Adv./40",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification AIIMS/JDH/CMFM/PRR-Res-Adv./40 inviting applications for 1 vacancies for Project Technical Support-I (X-ray Technician) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1789032346_PRR-Res-Adv-40.pdf"
+},
+  {
+    "id": "indian-institute-o-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Management Amritsar (IIM Amritsar)",
+    "t": "Indian Institute of Management Amritsar (IIM Amritsar) Recruitment 2026 Notification Out for 2 Research Assistant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "IIMASR/HR/Rectt./RA/2026/09",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Amritsar (IIM Amritsar) has officially announced employment advertisement notification IIMASR/HR/Rectt./RA/2026/09 inviting applications for 2 vacancies for Research Assistant posts.",
+    "u": "https://iimamritsar.ac.in"
+},
+  {
+    "id": "punjabi-university-lecturer-sociology-recruitment-2026",
+    "b": "Punjabi University",
+    "t": "Punjabi University Recruitment 2026 Notification Out for 1 Lecturer (Sociology) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "PUNJABI-UNIVER/2026",
+    "q": "Please refer to the official notification for eligibility criteria details.",
+    "desc": "Punjabi University has officially announced employment advertisement notification PUNJABI-UNIVER/2026 inviting applications for 1 vacancies for Lecturer (Sociology) posts.",
+    "u": "https://www.punjabiuniversity.ac.in/Pages/SF/TQR/P9C3AD95B.pdf"
+},
+  {
     "id": "ouat-guest-faculty-recruitment-2026",
     "b": "Odisha University of Agriculture and Technology (OUAT)",
     "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 10 Guest Faculty Posts | Walk-in Interview",
