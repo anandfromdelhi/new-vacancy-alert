@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mpmrcl-general-manager-recruitment-2026",
+    "b": "Madhya Pradesh Metro Rail Corporation (MPMRCL)",
+    "t": "Madhya Pradesh Metro Rail Corporation (MPMRCL) Recruitment 2026 Notification Out for 2 General Manager, Deputy General Manager Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "10 October 2026",
+    "a": "4662/HRD/MPMRCL-079/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Madhya Pradesh Metro Rail Corporation (MPMRCL) has officially announced employment advertisement notification 4662/HRD/MPMRCL-079/2026 inviting applications for 2 vacancies for General Manager, Deputy General Manager posts.",
+    "u": "https://www.mpmetrorail.com"
+},
+  {
+    "id": "iit-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Indore",
+    "t": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 12 Junior Research Fellow Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "20 September 2026",
+    "a": "IIT/RND/PRJ/NOM/2026-27/001",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Indore has officially announced employment advertisement notification IIT/RND/PRJ/NOM/2026-27/001 inviting applications for 12 vacancies for Junior Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSd8G8oHygjpTuMDNNlBYmGvBhey0YpsbFes4q8FzIJexK4_EA/viewform"
+},
+  {
+    "id": "aiims-project-research-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 1 Project Research Scientist-1 (non-medical) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "AIIMS Bhopal/ PSY/471",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has officially announced employment advertisement notification AIIMS Bhopal/ PSY/471 inviting applications for 1 vacancies for Project Research Scientist-1 (non-medical) posts.",
+    "u": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Advertisement_staff_ICMR_cognitive_control_5.8.24-2.pdf"
+},
+  {
+    "id": "c-dac-consultant-part-recruitment-2026",
+    "b": "Centre for Development of Advanced Computing (C-DAC)",
+    "t": "Centre for Development of Advanced Computing (C-DAC) Recruitment 2026 Notification Out for 1 Consultant (Part Time/Visiting) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "CDAC (T)/HR/RCT/Con/02/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Centre for Development of Advanced Computing (C-DAC) has officially announced employment advertisement notification CDAC (T)/HR/RCT/Con/02/2026 inviting applications for 1 vacancies for Consultant (Part Time/Visiting) posts.",
+    "u": "https://www.cdac.in/index.aspx?id=ca_NotificationConsultant09092026"
+},
+  {
+    "id": "kudumbashree-integrated-farming-recruitment-2026",
+    "b": "Kudumbashree",
+    "t": "Kudumbashree Recruitment 2026 Notification Out for 15 Integrated Farming Clusters (IFC) - IFC Anchor, Senior CRP Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "17 September 2026",
+    "a": "KSTVM/61/2024-E1",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Kudumbashree has officially announced employment advertisement notification KSTVM/61/2024-E1 inviting applications for 15 vacancies for Integrated Farming Clusters (IFC) - IFC Anchor, Senior CRP posts.",
+    "u": "https://www.kudumbashree.org/storage//files/i2ano_vacancy-notification-ifc_anchor-senior_crp-kudumbashree-tvm-district-mission.pdf"
+},
+  {
+    "id": "kudumbashree-animator-recruitment-2026",
+    "b": "Kudumbashree",
+    "t": "Kudumbashree Recruitment 2026 Notification Out for 1 Animator Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "24 September 2026",
+    "a": "KUDUMBASHREE/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Kudumbashree has officially announced employment advertisement notification KUDUMBASHREE/2026 inviting applications for 1 vacancies for Animator posts.",
+    "u": "https://www.kudumbashree.org/storage//files/htbtw_vacancy-notification-st-animator-kudumbashree-tvm-district-mission.pdf"
+},
+  {
+    "id": "sree-chitra-tiruna-project-research-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology Recruitment 2026 Notification Out for 1 Project Research Scientist II (Non Medical) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "SREE-CHITRA-TI/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology has officially announced employment advertisement notification SREE-CHITRA-TI/2026 inviting applications for 1 vacancies for Project Research Scientist II (Non Medical) posts.",
+    "u": "https://sctimst.ac.in/recruitment/RESOURCES/H_2026-27_1703.pdf"
+},
+  {
+    "id": "rgipt-training-placement-recruitment-2026",
+    "b": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+    "t": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT) Recruitment 2026 Notification Out for 1 Training & Placement Officer (On Contract) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "30 September 2026",
+    "a": "RGIPT/NTS/TPO/2026/07",
+    "q": "MBA / BBA | Master's / PG Degree",
+    "desc": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT) has officially announced employment advertisement notification RGIPT/NTS/TPO/2026/07 inviting applications for 1 vacancies for Training & Placement Officer (On Contract) posts.",
+    "u": "https://rgiptnt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "spices-board-sample-receipt-recruitment-2026",
+    "b": "Spices Board",
+    "t": "Spices Board Recruitment 2026 Notification Out for 1 Sample Receipt Desk Trainee Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "06 October 2026",
+    "a": "06/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Spices Board has officially announced employment advertisement notification 06/2026 inviting applications for 1 vacancies for Sample Receipt Desk Trainee posts.",
+    "u": "http://spicesboard.in/recruitment/"
+},
+  {
+    "id": "aiims-deoghar-project-technical-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar)",
+    "t": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) Recruitment 2026 Notification Out for 1 Project Technical Support I Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Technical Support I posts.",
+    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/re_advertisement_for_vacancy_in_an_ntepfunded_project_coping_with_multidrug_resistant_tuberculosis_a_mixed_methods_study_from_patients_perspective_09092026115626489.pdf"
+},
+  {
     "id": "kisce-high-performance-recruitment-2026",
     "b": "Khelo India State Centre of Excellence (KISCE)",
     "t": "Khelo India State Centre of Excellence (KISCE) Recruitment 2026 Notification Out for 7 High Performance Director, Head Coach, Physiologist, Masseur, Doctor Posts | Apply Online",
