@@ -136,7 +136,105 @@ interface SectionData {
 }
 
 /**
- * Section box for a qualification category featuring its top 3 most recently published jobs + View More button
+ * Intelligently selects top 3 preview vacancies for each category section on the home page.
+ * Guarantees that the top 3 vacancies are not only the latest notifications,
+ * but also prominently feature the recruitments with higher number of posts / vacancies.
+ * If user has a detected state, relevant state entries are prioritized.
+ */
+function selectTop3PreviewJobs(jobs: JobEntry[], userStateSlug?: string | null): JobEntry[] {
+  if (!jobs || jobs.length <= 3) return jobs || [];
+
+  // Helper to pick 3 jobs balancing latest announcement date and highest vacancy count
+  const pickTop3 = (jobList: JobEntry[]): JobEntry[] => {
+    if (jobList.length <= 3) return jobList;
+
+    // jobList is pre-sorted by date descending (newest first)
+    const byDate = jobList;
+    const byPosts = [...jobList].sort((a, b) => {
+      const pB = getNumberOfPostsInfo(b.t, b.id).count;
+      const pA = getNumberOfPostsInfo(a.t, a.id).count;
+      if (pB !== pA) return pB - pA;
+      return parseDateString(b.d).getTime() - parseDateString(a.d).getTime();
+    });
+
+    const chosen: JobEntry[] = [];
+    const chosenIds = new Set<string>();
+
+    // 1. Always include the latest job (#1 newest) so fresh updates are immediately visible
+    chosen.push(byDate[0]);
+    chosenIds.add(byDate[0].id);
+
+    // 2. Include the highest vacancy recruitment (if not already #1 newest)
+    for (const j of byPosts) {
+      if (!chosenIds.has(j.id)) {
+        chosen.push(j);
+        chosenIds.add(j.id);
+        break;
+      }
+    }
+
+    // 3. For the 3rd slot: evaluate next highest vacancy vs next latest
+    const nextByPost = byPosts.find(j => !chosenIds.has(j.id));
+    const nextByDate = byDate.find(j => !chosenIds.has(j.id));
+
+    if (nextByPost && nextByDate) {
+      const postCount = getNumberOfPostsInfo(nextByPost.t, nextByPost.id).count;
+      const datePostCount = getNumberOfPostsInfo(nextByDate.t, nextByDate.id).count;
+      // If nextByPost has substantial vacancies (> 5 posts and > nextByDate), prioritize higher vacancies
+      if (postCount > 5 && postCount > datePostCount) {
+        chosen.push(nextByPost);
+      } else {
+        chosen.push(nextByDate);
+      }
+    } else if (nextByPost) {
+      chosen.push(nextByPost);
+    } else if (nextByDate) {
+      chosen.push(nextByDate);
+    }
+
+    // Sort the selected 3 chronologically (newest first) for consistent UX
+    return chosen.sort((a, b) => parseDateString(b.d).getTime() - parseDateString(a.d).getTime());
+  };
+
+  // If no userStateSlug, simply return smart top 3
+  if (!userStateSlug) {
+    return pickTop3(jobs);
+  }
+
+  // If userStateSlug is present, prioritize local state jobs
+  const localJobs: JobEntry[] = [];
+  const otherJobs: JobEntry[] = [];
+
+  for (let i = 0; i < jobs.length; i++) {
+    const j = jobs[i];
+    if (toSlug(getStateFromJob(j)) === userStateSlug) {
+      localJobs.push(j);
+    } else {
+      otherJobs.push(j);
+    }
+  }
+
+  if (localJobs.length === 0) {
+    return pickTop3(jobs);
+  }
+
+  // Select up to 2 local jobs smartly (latest + highest posts among local)
+  const chosenLocal = pickTop3(localJobs).slice(0, 2);
+  const chosenIds = new Set(chosenLocal.map(j => j.id));
+
+  // Fill remaining slot(s) with highest post / latest jobs from otherJobs
+  const remainingSlots = 3 - chosenLocal.length;
+  if (remainingSlots > 0) {
+    const availableOther = otherJobs.filter(j => !chosenIds.has(j.id));
+    const otherChosen = pickTop3(availableOther).slice(0, remainingSlots);
+    return [...chosenLocal, ...otherChosen];
+  }
+
+  return chosenLocal;
+}
+
+/**
+ * Section box for a qualification category featuring its top 3 preview jobs (latest & high-vacancy) + View More button
  * If user has a detected state, entries from that state appear at the top of the 3 preview jobs and are highlighted.
  */
 function CategorySectionCard({ 
@@ -148,23 +246,9 @@ function CategorySectionCard({
   userStateSlug?: string | null;
   key?: React.Key;
 }) {
-  // Prioritize user's local state entries into the top 3 preview jobs
+  // Select top 3 preview jobs combining latest announcements and higher vacancy recruitments
   const topPreviewJobs = useMemo(() => {
-    if (!userStateSlug) return section.jobs.slice(0, 3);
-
-    const localJobs: JobEntry[] = [];
-    const otherJobs: JobEntry[] = [];
-
-    for (let i = 0; i < section.jobs.length; i++) {
-      const j = section.jobs[i];
-      if (toSlug(getStateFromJob(j)) === userStateSlug) {
-        localJobs.push(j);
-      } else {
-        otherJobs.push(j);
-      }
-    }
-
-    return [...localJobs, ...otherJobs].slice(0, 3);
+    return selectTop3PreviewJobs(section.jobs, userStateSlug);
   }, [section.jobs, userStateSlug]);
 
   return (
