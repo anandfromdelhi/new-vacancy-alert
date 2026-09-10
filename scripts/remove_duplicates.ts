@@ -85,7 +85,11 @@ export const DUPLICATE_MAPPINGS: Record<string, string> = {
 
   // 17. Yadgir District Court (Subset 9 vs All 18)
   'district-court-yadgir-typist-typist-copyist-recruitment-2026':
-    'yadgir-district-court-typist-typist-copyist-process-recruitment-2026'
+    'yadgir-district-court-typist-typist-copyist-process-recruitment-2026',
+
+  // 18. RRB JE (CEN 04/2026 duplicate)
+  'railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026':
+    'rrb-je-dms-recruitment-2026'
 };
 
 const duplicatesToRemove = Object.keys(DUPLICATE_MAPPINGS);

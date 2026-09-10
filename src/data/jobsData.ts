@@ -131,7 +131,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Pass / Intermediate (Female Candidates Only)",
     "desc": "Office of the District Programme Officer, Child Development, Bareilly (Bal Vikas Seva Evam Pushtahar, Government of Uttar Pradesh) has officially published employment notification (Advt No. पत्रांक /जि0का0का0/बा0वि0परि0/आ0वा0सहा0/विज्ञप्ति/2026-27, dated 08 September 2026) for direct recruitment of 171 contractual Anganwadi Sahayika (Anganwadi Helper) vacancies on an honorarium basis across 16 urban and rural Child Development Projects in Bareilly district.",
     "u": "https://cdn.s3waas.gov.in/s31d7f7abc18fcb43975065399b0d1e48e/uploads/2026/09/17888619244782.pdf"
-},
+  },
   {
     "id": "banaras-hindu-university-bhu-raja-jwala-prasad-post-doctora-recruitment-2026",
     "b": "Banaras Hindu University (BHU)",
@@ -219,7 +219,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Pass / Intermediate (Female Candidates Only)",
     "desc": "Office of the District Programme Officer, Gautam Buddha Nagar (Bal Vikas Seva Evam Pushtahar, Government of Uttar Pradesh) has officially released employment advertisement notification (Letter No. सी/530/जि0का0अ0/आ0वा0का0/सहा0चयन भर्ती/2026-27, dated 07 September 2026) for direct recruitment of 267 contractual vacancies of Anganwadi Karyakatri (Worker - 84 Posts) and Anganwadi Sahayika (Helper - 183 Posts) across urban and rural project blocks in Gautam Buddha Nagar district.",
     "u": "https://upanganwadibharti.in/helper-v2/uploadOrder/ordercopy1788845599.pdf"
-},
+  },
   {
     "id": "babasaheb-bhimrao-ambedkar-uni-teaching-positions-and-non-tea-recruitment-2026",
     "b": "Babasaheb Bhimrao Ambedkar University (BBAU), Lucknow (A Central University)",
@@ -793,17 +793,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
   },
   {
-    "id": "railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026",
-    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
-    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 Notification Out for 4029 Junior Engineer (37 discipline/department categories), Depot Material Superintendent, Chemical & Metallurgical Assistant (added by Corrigendum-1) Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "13 September 2026 (23:59 hrs)",
-    "a": "CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA)",
-    "q": "Diploma | B.Tech / B.E | B.Sc",
-    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially announced employment advertisement notification CEN No. 04/2026 (JE/DMS), read with Corrigendum-1 - now CEN No. 04/2026 (JE/DMS/CMA) inviting applications for 4029 vacancies for Junior Engineer (37 discipline/department categories), Depot Material Superintendent, Chemical & Metallurgical Assistant (added by Corrigendum-1) posts.",
-    "u": "https://www.rrbapply.gov.in/assets/forms/CEN_04_2026_Corrigendum_1.pdf"
-  },
-  {
     "id": "director-general-of-foreign-tr-young-professional-recruitment-2026",
     "b": "Director General of Foreign Trade (DGFT)",
     "t": "Director General of Foreign Trade (DGFT) Recruitment 2026 Notification Out for 2 Young Professional Posts | Apply Online",
@@ -846,7 +835,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Sc. Nursing / Post Basic B.Sc. OR GNM with 1 Yr Exp in 50-bed Hospital + RN/RM",
     "desc": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh, an Institute of National Importance (INI) under the Ministry of Health & Family Welfare, Government of India, has officially announced recruitment notification Advt No. PGI/RC/055/2026/2276 dated 09 September 2026. The institute invites online applications from eligible Indian citizens for direct recruitment to 243 posts of Nursing Officer (Group 'B') earmarked for the newly established Advanced Mother & Child (MCH) Centre at PGIMER, Chandigarh.",
     "u": "https://pgimer.edu.in"
-},
+  },
   {
     "id": "all-india-institute-of-medical-project-research-scientist-i-m-recruitment-2026",
     "b": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati)",
@@ -868,7 +857,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduation + NISM/IC-38 (Wealth Exec) | Graduation + CA (Credit Analyst)",
     "desc": "Bank of Baroda (BOB), one of India's premier public sector commercial banks, has officially released recruitment notification Advt No. BOB/HRM/REC/ADVT/2026/17 for regular human resource appointments across specialized departments. The drive invites online applications for a total of 1100 Specialist Officer vacancies, comprising 1000 posts of Wealth Executive (JMG/S-I) under Wealth Management Services and 100 posts of Credit Analyst – C&IC (MMG/S-II) under Corporate & Institutional Credit.",
     "u": "https://ibpsreg.ibps.in/bonwejul26/"
-},
+  },
   {
     "id": "department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026",
     "b": "India Post (Department of Posts)",
@@ -879,7 +868,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Standard Pass (with Mathematics & English) + Local Language",
     "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially published employment notification No. 17-12/2026-GDS dated 20 August 2026 for Gramin Dak Sevak (GDS) Online Engagement Schedule-II, July-2026. The national recruitment drive invites online applications to fill 23,757 tentative vacancies across Postal Circles for the posts of Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), and Dak Sevak.",
     "u": "https://indiapost.gov.in/gdsonlineengagement"
-},
+  },
   {
     "id": "balmer-lawrie-co-ltd-miniratna-junior-officer-assistant-manag-recruitment-2026",
     "b": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas)",
@@ -8176,12 +8165,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "rrb-je-dms-recruitment-2026",
     "b": "Railway Recruitment Boards (RRBs)",
-    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026 – Apply Online for 3,993 Vacancies (CEN No. 04/2026)",
+    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026: Apply Online for 3,993 Vacancies (CEN No. 04/2026)",
     "d": "14 August 2026",
     "l": "13 September 2026",
     "a": "CEN No. 04/2026 (JE/DMS)",
     "q": "3-Year Diploma in Engineering or B.E. / B.Tech in Relevant Stream",
-    "desc": "Government of India, Ministry of Railways has released Detailed Centralised Employment Notice (CEN) No. 04/2026 for the direct recruitment of 3,993 Junior Engineers (JE) and Depot Material Superintendents (DMS) across all 21 Railway Recruitment Boards (RRBs).",
+    "desc": "Government of India, Ministry of Railways, Railway Recruitment Boards (RRBs) has released the Detailed Centralised Employment Notice (CEN No. 04/2026) for direct recruitment to 3,993 posts of Junior Engineer (JE) and Depot Material Superintendent (DMS) across all 21 Railway Recruitment Boards. (Note: Corrigendum-1 subsequently added 36 posts of Chemical & Metallurgical Assistant, revising total vacancies to 4,029).",
     "u": "https://rrbapply.gov.in"
   },
   {

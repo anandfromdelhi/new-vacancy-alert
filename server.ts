@@ -94,7 +94,8 @@ export const REDIRECTS_MAP: Record<string, string> = {
   "regional-agricultural-research-station-chintapalle-rars-chintapalle-salary-recruitment-2026": "regional-agricultural-research-teaching-associate-and-teachin-recruitment-2026",
   "bastar-district-salary-per-month-recruitment-2026": "bastar-district-high-class-teacher-subject-exp-recruitment-2026",
   "container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026": "container-corporation-of-india-management-trainee-assistant-o-recruitment-2026",
-  "district-court-yadgir-typist-typist-copyist-recruitment-2026": "yadgir-district-court-typist-typist-copyist-process-recruitment-2026"
+  "district-court-yadgir-typist-typist-copyist-recruitment-2026": "yadgir-district-court-typist-typist-copyist-process-recruitment-2026",
+  "railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026": "rrb-je-dms-recruitment-2026"
 };
 
 // 301 Permanent Redirects for merged/removed duplicate vacancies
