@@ -89,7 +89,11 @@ export const DUPLICATE_MAPPINGS: Record<string, string> = {
 
   // 18. RRB JE (CEN 04/2026 duplicate)
   'railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026':
-    'rrb-je-dms-recruitment-2026'
+    'rrb-je-dms-recruitment-2026',
+
+  // 19. UPSSSC Pashudhan Prasar Adhikari
+  'uttar-pradesh-subordinate-serv-pashudhan-prasar-adhikari-mukh-recruitment-2026':
+    'upsssc-pashudhan-prasar-adhikari-recruitment-2026'
 };
 
 const duplicatesToRemove = Object.keys(DUPLICATE_MAPPINGS);

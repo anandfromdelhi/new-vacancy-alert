@@ -95,7 +95,8 @@ export const REDIRECTS_MAP: Record<string, string> = {
   "bastar-district-salary-per-month-recruitment-2026": "bastar-district-high-class-teacher-subject-exp-recruitment-2026",
   "container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026": "container-corporation-of-india-management-trainee-assistant-o-recruitment-2026",
   "district-court-yadgir-typist-typist-copyist-recruitment-2026": "yadgir-district-court-typist-typist-copyist-process-recruitment-2026",
-  "railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026": "rrb-je-dms-recruitment-2026"
+  "railway-recruitment-boards-rrb-junior-engineer-37-disciplined-recruitment-2026": "rrb-je-dms-recruitment-2026",
+  "uttar-pradesh-subordinate-serv-pashudhan-prasar-adhikari-mukh-recruitment-2026": "upsssc-pashudhan-prasar-adhikari-recruitment-2026"
 };
 
 // 301 Permanent Redirects for merged/removed duplicate vacancies

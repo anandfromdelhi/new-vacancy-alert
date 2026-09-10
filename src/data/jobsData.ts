@@ -232,17 +232,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.bbau.ac.in/Docs/Career/teaching26/ADVERTISEMENT-TEACHING-2026.pdf"
   },
   {
-    "id": "uttar-pradesh-subordinate-serv-pashudhan-prasar-adhikari-mukh-recruitment-2026",
-    "b": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC)",
-    "t": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) Recruitment 2026 Notification Out for 1251 Pashudhan Prasar Adhikari Mukhya Pariksha (PA0O0P0-2025)/17 Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "06 October 2026",
-    "a": "17-Pariksha/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Uttar Pradesh Subordinate Service Selection Commission (UPSSSC) has officially announced employment advertisement notification 17-Pariksha/2026 inviting applications for 1251 vacancies for Pashudhan Prasar Adhikari Mukhya Pariksha (PA0O0P0-2025)/17 posts.",
-    "u": "https://upsssc.gov.in/AllNotifications.aspx"
-  },
-  {
     "id": "centre-for-good-governance-cgg-data-analyst-research-associat-recruitment-2026",
     "b": "Centre for Good Governance (CGG)",
     "t": "Centre for Good Governance (CGG) Recruitment 2026 Notification Out for 1 Data Analyst, Research Associate and More Posts | Apply Online",
@@ -560,7 +549,7 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass (10+2 System) / Higher Secondary (8th Pass for ST Candidates)",
     "desc": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal) and Police Headquarters, Home (Police) Department, Government of Madhya Pradesh have officially released the comprehensive examination rulebook for the Direct Recruitment of Police Constable (General Duty) Examination 2026 (आरक्षक (जी.डी.) की सीधी भर्ती हेतु चयन परीक्षा 2026, Notice No: पुमु/2/चयन/स-3/583/2026). A total of 7,500 Constable (GD) vacancies are announced across Special Armed Force (SAF - 700 male posts) and District Executive Force (DEF - 6,800 posts for male and female candidates).",
     "u": "https://esb.mp.gov.in"
-},
+  },
   {
     "id": "kannur-university-junior-research-fellow-jrf-recruitment-2026",
     "b": "Kannur University",
@@ -8275,12 +8264,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "upsssc-pashudhan-prasar-adhikari-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-    "t": "UPSSSC Pashudhan Prasar Adhikari (Livestock Extension Officer) Mains Recruitment 2026 – Apply Online for 1,251 Vacancies",
+    "t": "UPSSSC Pashudhan Prasar Adhikari (Livestock Extension Officer) Mains Recruitment 2026 – Apply Online for 1,251 Vacancies (Advt No. 17-Exam/2026)",
     "d": "10 August 2026",
     "l": "29 September 2026",
     "a": "17-Exam/2026 (17-परीक्षा/2026)",
-    "q": "10+2 Science (Biology) + 2-Year Pashudhan Prasar Diploma",
-    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued Notification No. 17-Exam/2026 for the recruitment of 1,251 Pashudhan Prasar Adhikari (Livestock Extension Officer) posts under the Directorate of Animal Husbandry, Uttar Pradesh.",
+    "q": "Intermediate (10+2) with Biology/Science + 2-Year Diploma in Livestock Extension + Hindi Knowledge",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has officially announced the detailed notification for the Pashudhan Prasar Adhikari (Livestock Extension Officer) Mains Examination 2026 (Advt No: 17-Exam/2026, पशुधन प्रसार अधिकारी मुख्य परीक्षा (प्रा०अ०प०-2025)/17). A total of 1,251 vacancies are being recruited under the Directorate of Animal Husbandry, Uttar Pradesh (पशुपालन निदेशालय, उत्तर प्रदेश), comprising 1,248 posts under General Recruitment and 3 backlog posts under Special Recruitment.",
     "u": "https://upsssc.gov.in"
   },
   {
