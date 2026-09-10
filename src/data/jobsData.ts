@@ -839,14 +839,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "postgraduate-institute-of-medi-nursing-officer-recruitment-2026",
     "b": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh",
-    "t": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh Recruitment 2026 Notification Out for 243 Nursing Officer Posts | Apply Online",
+    "t": "PGIMER Chandigarh Nursing Officer Recruitment 2026: Apply Online for 243 Group 'B' Posts",
     "d": "09 September 2026",
     "l": "03 October 2026",
-    "a": "PGI/RC/055/2026/2276",
-    "q": "Diploma | B.Tech / B.E | B.Sc",
-    "desc": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh has officially announced employment advertisement notification PGI/RC/055/2026/2276 inviting applications for 243 vacancies for Nursing Officer posts.",
-    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/home.jsp"
-  },
+    "a": "Advertisement No. PGI/RC/055/2026/2276 (Dated 09.09.2026)",
+    "q": "B.Sc. Nursing / Post Basic B.Sc. OR GNM with 1 Yr Exp in 50-bed Hospital + RN/RM",
+    "desc": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh, an Institute of National Importance (INI) under the Ministry of Health & Family Welfare, Government of India, has officially announced recruitment notification Advt No. PGI/RC/055/2026/2276 dated 09 September 2026. The institute invites online applications from eligible Indian citizens for direct recruitment to 243 posts of Nursing Officer (Group 'B') earmarked for the newly established Advanced Mother & Child (MCH) Centre at PGIMER, Chandigarh.",
+    "u": "https://pgimer.edu.in"
+},
   {
     "id": "all-india-institute-of-medical-project-research-scientist-i-m-recruitment-2026",
     "b": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati)",
