@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-delhi-project-scientist-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 3 Project Scientist Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "21 September 2026",
+    "a": "IITD/IRD/240/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IITD/IRD/240/2026 inviting applications for 3 vacancies for Project Scientist posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1788868816386_gxn1p53.pdf"
+},
+  {
+    "id": "sai-section-officer-recruitment-2026",
+    "b": "Sports Authority of India (SAI)",
+    "t": "Sports Authority of India (SAI) Recruitment 2026 Notification Out for 20 Section Officer Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "08 October 2026",
+    "a": "01-04001(03)/7/2025-HO",
+    "q": "Officers in Level-07 or 5 years in Level-06",
+    "desc": "Sports Authority of India (SAI) has officially announced employment advertisement notification 01-04001(03)/7/2025-HO inviting applications for 20 vacancies for Section Officer posts.",
+    "u": "https://www.sportsauthorityofindia.nic.in"
+},
+  {
+    "id": "icar-iari-young-professional-recruitment-2026",
+    "b": "Indian Agricultural Research Institute (ICAR IARI)",
+    "t": "Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 Notification Out for 1 Young Professional II Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "20 September 2026",
+    "a": "INDIAN-AGRICUL/2026",
+    "q": "Master's / PG Degree",
+    "desc": "Indian Agricultural Research Institute (ICAR IARI) has officially announced employment advertisement notification INDIAN-AGRICUL/2026 inviting applications for 1 vacancies for Young Professional II posts.",
+    "u": "https://iari.res.in/files/jobs/YP_II_IT_Cell_09092026.pdf"
+},
+  {
+    "id": "iit-delhi-clinical-psychologis-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 4 Clinical Psychologist and Male Counsellor Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "22 September 2026",
+    "a": "llTD/lRD/24112026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification llTD/lRD/24112026 inviting applications for 4 vacancies for Clinical Psychologist and Male Counsellor posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSda6vxglX6IzavG7oGSsWsK4w2dgwL2LT6TVUgPhB1GBGBaGA/viewform"
+},
+  {
+    "id": "rites-individual-consultan-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 3 Individual Consultant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "04 October 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RAIL-INDIA-TEC/2026 inviting applications for 3 vacancies for Individual Consultant posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "iit-delhi-consultant-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 2 Consultant Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "30 September 2026",
+    "a": "E-II/28/2026(W)",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification E-II/28/2026(W) inviting applications for 2 vacancies for Consultant posts.",
+    "u": "https://home.iitd.ac.in/jobs-iitd/uploads/Advt.%20No.%20E-II.28.2026(W)%20Dated%2010.09.2026.pdf"
+},
+  {
+    "id": "eklavya-model-resi-pgt-history-recruitment-2026",
+    "b": "Eklavya Model Residential School Bedma",
+    "t": "Eklavya Model Residential School Bedma Recruitment 2026 Notification Out for 1 PGT History Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "EKLAVYA-MODEL-/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Eklavya Model Residential School Bedma has officially announced employment advertisement notification EKLAVYA-MODEL-/2026 inviting applications for 1 vacancies for PGT History posts.",
+    "u": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/09/17889554975903.pdf"
+},
+  {
+    "id": "pgimer-senior-resident-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 7 Senior Resident Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "M.S. (General Surgery)",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially announced employment advertisement notification POSTGRADUATE-I/2026 inviting applications for 7 vacancies for Senior Resident posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=DocScanner%20S026%201224%20PM09Sep2026142947.pdf&PathKey=VACANCY_PATH"
+},
+  {
+    "id": "indian-institute-o-management-trainee-recruitment-2026",
+    "b": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya)",
+    "t": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya) Recruitment 2026 Notification Out for 1 Management Trainee cum Counsellor - Clinical/ Counselling Psychology Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "13 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Management Trainee cum Counsellor - Clinical/ Counselling Psychology posts.",
+    "u": "https://iimbg.ac.in/wp-content/uploads/2026/09/RoR-MT-Clinical-Counselling-Psychology-05-09-2026.pdf"
+},
+  {
+    "id": "icar-iari-yp-ii-recruitment-2026",
+    "b": "Indian Agricultural Research Institute (ICAR IARI)",
+    "t": "Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 Notification Out for 1 YP-II Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "INDIAN-AGRICUL/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Agricultural Research Institute (ICAR IARI) has officially announced employment advertisement notification INDIAN-AGRICUL/2026 inviting applications for 1 vacancies for YP-II posts.",
+    "u": "https://iari.res.in"
+},
+  {
     "id": "mgcu-jrfproject-fellow-recruitment-2026",
     "b": "Mahatma Gandhi Central University (MGCU)",
     "t": "Mahatma Gandhi Central University (MGCU) Recruitment 2026 Notification Out for 1 JRF/Project Fellow Posts | Apply Online",
