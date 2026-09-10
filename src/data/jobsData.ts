@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "hcl-general-manager-recruitment-2026",
+    "b": "HCL",
+    "t": "HCL Recruitment 2026 Notification Out for 10 General Manager and Deputy General Manager Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "08 October 2026",
+    "a": "Estt./1/2035/2026-27",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "HCL has officially announced employment advertisement notification Estt./1/2035/2026-27 inviting applications for 10 vacancies for General Manager and Deputy General Manager posts.",
+    "u": "https://www.hindustancopper.com/Upload/Notice/0-639245853054020000-NoticeFILE.pdf"
+},
+  {
     "id": "indian-institute-o-je-recruitment-2026-3067168",
     "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
     "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Junior Engineer - Civil Posts | Apply Online",
