@@ -33,7 +33,7 @@ def normalize_job_dates(job):
                 h["value"] = format_date_str(h["value"])
     return job
 
-def add_job_entry(json_filepath):
+def add_job_entry(json_filepath, force=False):
     if not os.path.exists(json_filepath):
         print(f"[ERROR] File not found: {json_filepath}")
         sys.exit(1)
@@ -47,6 +47,46 @@ def add_job_entry(json_filepath):
     if not job_id:
         print("[ERROR] Job JSON must contain an 'id' field!")
         sys.exit(1)
+
+    # Automated Duplicate Verification Guard
+    if not force:
+        try:
+            from scripts.check_duplicate_vacancy import check_duplicate
+        except ImportError:
+            try:
+                from check_duplicate_vacancy import check_duplicate
+            except ImportError:
+                check_duplicate = None
+
+        if check_duplicate:
+            target_url = ""
+            for u_obj in job.get("urls", []):
+                if isinstance(u_obj, dict) and u_obj.get("url"):
+                    u_str = u_obj.get("url")
+                    if u_str.endswith(".pdf") or "notification" in u_obj.get("title", "").lower():
+                        target_url = u_str
+                        break
+            if not target_url and job.get("u"):
+                target_url = job.get("u")
+
+            results = check_duplicate(
+                query_text=job.get("title", ""),
+                board_query=job.get("board", ""),
+                advt_query=job.get("advtNo", ""),
+                url_query=target_url,
+                vacancies_query=job.get("vacancies", "")
+            )
+            dup_matches = [m for m in results if m['score'] >= 70 and m['id'] != job_id]
+            if dup_matches:
+                top_m = dup_matches[0]
+                print(f"\n[BLOCKED] DUPLICATE VACANCY DETECTED! Insertion Aborted.")
+                print(f"  Existing Job ID : {top_m['id']}")
+                print(f"  Existing Title  : {top_m['title']}")
+                print(f"  Existing Board  : {top_m['board']}")
+                print(f"  Match Score     : {top_m['score']}")
+                print(f"  Reasons         : {', '.join(top_m['reasons'])}")
+                print(f"\nIf you deliberately want to overwrite or add anyway, run with '--force'.\n")
+                sys.exit(1)
 
     # 1. Update jobDetails.json
     details_file = "src/data/jobDetails.json"
@@ -130,6 +170,8 @@ def add_job_entry(json_filepath):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python scripts/add_job_entry.py <path_to_job_json>")
+        print("Usage: python scripts/add_job_entry.py <path_to_job_json> [--force]")
         sys.exit(1)
-    add_job_entry(sys.argv[1])
+    force_flag = "--force" in sys.argv
+    target_path = [arg for arg in sys.argv[1:] if arg != "--force"][0]
+    add_job_entry(target_path, force=force_flag)

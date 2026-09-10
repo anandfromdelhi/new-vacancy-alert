@@ -52,9 +52,13 @@ Use this skill whenever the user provides a list of multiple webpage URLs and as
         - A duplicate requires $\ge 60\%$ overlap on the *specific post designation tokens*. If the post designations are distinct (e.g., `Research Associate` vs `Project Scientist`), it is a NEW vacancy.
      3. **Campus / City Disambiguation**:
         - For multi-campus or decentralized institutions (IIT, NIT, AIIMS, Central Universities, District Courts, Anganwadi), verify the specific campus, district, or city (e.g. IIT Kanpur vs IIT Dhanbad; AIIMS Delhi vs AIIMS Rishikesh). Different campuses are independent employers and must NEVER be conflated.
-     4. **No Slug Truncation Collisions**:
-        - Candidate slugs (`id`) must preserve distinctive campus, city, and post identifiers (e.g., `iit-dhanbad-jrf-2026` vs `iit-kanpur-project-scientist-2026`). Never truncate away the campus or post name into a generic prefix.
-        - If a generated slug already exists in `jobDetails.json`, check whether the post or Advt No is distinct. If distinct, append a specific discriminator (e.g. `-articleId`, `-postCode`, or `-dept`) rather than discarding the vacancy!
+     4. **Short Acronym-First Slugs & Year Inclusion (`id` field)**:
+        - **MANDATORY**: URLs must be **short, clean, and concise (< 45 characters)**.
+        - **Prioritize Board Acronyms**: E.g. `ssc` (not `staff-selection-commission`), `upsc` (not `union-public-service-commission`), `rrb` (not `railway-recruitment-board`), `uksssc` (not `uttarakhand-subordinate-service-selection-commission`), `tnpsc` (not `tamil-nadu-public-service-commission`), `gims` (not `government-institute-of-medical-sciences`), `iit-<city>`, `aiims-<city>`, `concor`, `drdo`, `isro`, `tmc`, `bel`, `sail`, `iibf`, `psssb`.
+        - **Prioritize Exam / Post Acronyms**: E.g. `je`, `cgl`, `chsl`, `mts`, `alp`, `ntpc`, `ctse`, `srf`, `jrf`, `mo`, `gds`, `patwari`, `constable`, `staff-nurse`.
+        - **Always Include Year**: End with `-<year>` (e.g. `-2026`).
+        - **Formula**: `<board-acronym>-[campus-]<post-or-exam-acronym>-recruitment-<year>` (e.g. `ssc-je-recruitment-2026`, `tnpsc-ctse-recruitment-2026`, `iit-goa-sports-coach-2026`).
+        - If a generated slug already exists in `jobDetails.json`, check whether the post or Advt No is distinct. If distinct, append a specific discriminator (e.g. `-postCode`, `-dept`) rather than truncating words arbitrarily!
      5. **Authoritative Advt No Matching**:
         - Advt No matches are only valid if the number contains $\ge 5$ characters and is not a generic placeholder (`2026`, `ADVT2026`, `NOTICE2026`).
    - If and only if a true duplicate is confirmed:
@@ -150,24 +154,24 @@ Use `read_url_content` or `python scripts/extract_web_vacancy.py "<URL>"` to fet
      ```
   3. Combine webpage text and official PDF text for 100% complete, verified extraction without guesswork.
 
-#### Step 3: Duplicate Check (With Post-Designation Precision)
-Run the duplicate checker passing the specific post designation, board, and advertisement number:
+#### Step 3: Duplicate Check (With Post-Designation & Official URL Precision)
+Run the duplicate checker passing the specific post designation, board, advertisement number, official PDF/page URL, and total vacancies:
 ```bash
-python scripts/check_duplicate_vacancy.py "<Specific Post Name / Designation>" "<Board Name>" "<Advt No>"
+python scripts/check_duplicate_vacancy.py "<Specific Post Name / Designation>" "<Board Name or Acronym>" "<Advt No>" "<Discovered PDF URL or Target URL>" "<Total Vacancies>"
 ```
-- **If a genuine duplicate is verified (Matching Board AND matching Post Designation, or authoritative Advt No)**:
+- **If a genuine duplicate is verified (Matching PDF URL, exact Advt No, or matching Board + matching Post Designation)**:
   - Log: `[SKIPPED DUPLICATE] <Specific Post Name> (<Board Name>) already exists.`
   - **Do NOT add.**
   - **Move immediately to the next URL.**
 - **If no duplicate (or different post at the same board)**:
-  - Proceed to Step 4. Ensure the generated candidate `id` incorporates the specific campus/city and post name to prevent slug collisions.
+  - Proceed to Step 4. Ensure the generated candidate `id` incorporates the specific campus/city and post name to prevent slug collisions. Notice that `scripts/add_job_entry.py` also validates against duplicates before committing to `jobDetails.json`.
 
 #### Step 4: Build Complete Grounded Job JSON Schema
 Save complete job schema JSON to `scratch/temp_job.json`:
 
 ```json
 {
-  "id": "<generated-unique-slug-id>",
+  "id": "<short-acronym-slug-with-year e.g. ssc-je-recruitment-2026 or tnpsc-ctse-2026>",
   "seoTitle": "<Optimized Title with Board & Year> | NewVacancyAlert",
   "seoDescription": "<150-160 char meta description with exact vacancies, qualification, pay scale, and last date>",
   "focusKeywords": "<Primary keywords>",

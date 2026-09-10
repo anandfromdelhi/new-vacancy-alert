@@ -24,16 +24,16 @@ python scripts/extract_pdf_data.py "<pdf_filepath>"
 Extract key parameters: Board Name, Advt/Letter No., Post Titles, Total Vacancies, Application Dates, Qualification, Age Limit, Fee, Salary/Stipend, Selection Scheme, and Documents.
 
 ### Step 2: Duplicate Check
-Run the duplicate scanner against `jobsData.ts`:
+Run the multi-factor duplicate scanner against `jobsData.ts` and `jobDetails.json`:
 ```bash
-python scripts/check_duplicate_vacancy.py "<Title/Text>" "<Board Name>" "<Advt No>"
+python scripts/check_duplicate_vacancy.py "<Title/Text>" "<Board Name or Acronym>" "<Advt No>" "<PDF or Official URL>" "<Total Vacancies>"
 ```
-- **If Duplicate (Score >= 50 or matching Advt No)**: Mark file as `DUPLICATE SKIPPED` or update existing entry.
-- **If New (NO MATCH)**: Proceed to generate full job entry.
+- **If Duplicate (Score >= 70 or matching Advt No / PDF URL)**: Mark file as `DUPLICATE SKIPPED` (or update existing entry if newer dates/corrigendum).
+- **If New (NO MATCH or Score < 40)**: Proceed to generate full job entry. Notice that `scripts/add_job_entry.py` also features an automated duplicate guard to prevent accidental duplicate insertions.
 
 ### Step 3: Create Full Job Schema & Entry
 Construct complete detailed entries for the new vacancy:
-1. **`jobsData.ts`**: Add unique `id`, `b` (board), `t` (title with post count & last date), `d` (post date, e.g. `31 August 2026`), `l` (actual closing/last date, e.g. `16 September 2026` — NEVER use release/start date for `l`, and NEVER use numeric `DD.MM.YYYY` / `DD/MM/YYYY` format; always spell out the month in full), `a` (advt no), `q` (qualification summary), `desc` (rich description), `u` (official website).
+1. **`jobsData.ts`**: Add unique `id` (**MANDATORY: Keep URL slug short (< 45 chars), prioritizing board & exam acronyms and always ending with year**, e.g. `ssc-je-recruitment-2026`, `tnpsc-ctse-recruitment-2026`, `iit-delhi-srf-2026`, `gims-staff-nurse-2026` — never use 80+ char unwieldy names like `staff-selection-commission-...`), `b` (board), `t` (title with post count & last date), `d` (post date, e.g. `31 August 2026`), `l` (actual closing/last date, e.g. `16 September 2026` — NEVER use release/start date for `l`, and NEVER use numeric `DD.MM.YYYY` / `DD/MM/YYYY` format; always spell out the month in full), `a` (advt no), `q` (qualification summary), `desc` (rich description), `u` (official website).
 2. **`jobDetails.ts`**: Add full `JobDetail` schema containing:
    - `id`, `seoTitle`, `seoDescription`, `focusKeywords`, `lsiKeywords`
    - `title`, `board`, `advtNo`, `vacancies`, `jobLocation`, `applicationMode`, `applicationStatus`, `lastUpdated`

@@ -56,6 +56,90 @@ def slugify(text):
     text = re.sub(r'[\s-]+', '-', text)
     return text.strip('-')
 
+BOARD_ACRONYM_MAP = {
+    'staff selection commission': 'ssc',
+    'union public service commission': 'upsc',
+    'railway recruitment board': 'rrb',
+    'uttarakhand subordinate service selection commission': 'uksssc',
+    'tamil nadu public service commission': 'tnpsc',
+    'government institute of medical sciences': 'gims',
+    'tata memorial centre': 'tmc',
+    'homi bhabha cancer hospital': 'hbchrc',
+    'lakshadweep energy development': 'leda',
+    'container corporation of india': 'concor',
+    'subordinate services selection board punjab': 'psssb',
+    'rajasthan staff selection board': 'rsmssb',
+    'madhya pradesh employees selection board': 'mpesb',
+    'national institute of technology': 'nit',
+    'indian institute of technology': 'iit',
+    'all india institute of medical sciences': 'aiims',
+    'institute of banking personnel selection': 'ibps',
+    'defence research and development': 'drdo',
+    'indian space research': 'isro',
+    'bharat electronics limited': 'bel',
+    'bharat heavy electricals': 'bhel',
+    'steel authority of india': 'sail',
+    'oil and natural gas': 'ongc'
+}
+
+EXAM_ACRONYM_MAP = {
+    'junior engineer': 'je',
+    'combined graduate level': 'cgl',
+    'combined higher secondary level': 'chsl',
+    'combined higher secondary': 'chsl',
+    'multi tasking staff': 'mts',
+    'assistant loco pilot': 'alp',
+    'non technical popular categories': 'ntpc',
+    'combined technical services': 'ctse',
+    'senior research fellow': 'srf',
+    'junior research fellow': 'jrf',
+    'medical officer': 'mo',
+    'general duty': 'gd',
+    'central police': 'cpo',
+    'gramin dak sevak': 'gds'
+}
+
+def generate_short_slug(board, post_name, year="2026"):
+    b_lower = board.lower()
+    p_lower = post_name.lower()
+
+    b_key = None
+    m_paren = re.search(r'\(([A-Z0-9\s-]{2,10})\)', board)
+    if m_paren:
+        cand = slugify(m_paren.group(1))
+        if 2 <= len(cand) <= 12:
+            b_key = cand
+
+    if not b_key:
+        for full_name, acro in BOARD_ACRONYM_MAP.items():
+            if full_name in b_lower:
+                b_key = acro
+                for city in ['delhi', 'mandi', 'kanpur', 'roorkee', 'kharagpur', 'madras', 'bombay', 'goa', 'tirupati', 'patna', 'bhubaneswar', 'rishikesh', 'jodhpur', 'deoghar']:
+                    if city in b_lower:
+                        b_key = f"{acro}-{city}"
+                        break
+                break
+
+    if not b_key:
+        b_key = slugify(board)[:18].strip('-')
+
+    p_key = None
+    for full_exam, acro in EXAM_ACRONYM_MAP.items():
+        if full_exam in p_lower:
+            p_key = acro
+            break
+
+    if not p_key:
+        p_clean = slugify(post_name)
+        p_clean = re.sub(r'(recruitment|notification|apply|online|offline|posts?|vacanc\w*|total)', '', p_clean)
+        p_words = [w for w in p_clean.split('-') if len(w) > 1]
+        p_key = '-'.join(p_words[:2]) if p_words else 'jobs'
+
+    p_key = p_key[:20].strip('-')
+    slug = f"{b_key}-{p_key}-recruitment-{year}"
+    slug = re.sub(r'-+', '-', slug).strip('-')
+    return slug
+
 def format_clean_date(date_str):
     if not date_str:
         return "Refer Notification"
@@ -707,10 +791,7 @@ def generate_rich_job_schema(data):
     urls = data["urls"]
     last_date = data["summaryLastDate"]
 
-    b_slug = slugify(board)[:25].strip('-')
-    p_slug = slugify(post_name)[:25].strip('-')
-    job_id = f"{b_slug}-{p_slug}-recruitment-2026"
-    job_id = re.sub(r'-+', '-', job_id).strip('-')
+    job_id = generate_short_slug(board, post_name, year="2026")
 
     seo_title = f"{board} Recruitment 2026 ({vacancies} {post_name} Posts) {app_mode} | NewVacancyAlert"
     seo_desc = f"{board} recruitment 2026 notification for {vacancies} {post_name} vacancies. Check eligibility criteria, salary, qualification, age limit & application details. Apply before {last_date}."
@@ -1063,10 +1144,7 @@ def main():
             continue
 
         existing_jobs, existing_list = load_existing_db()
-        b_slug = slugify(raw_data['board'])[:30].strip('-')
-        p_slug = slugify(raw_data['postName'])[:30].strip('-')
-        candidate_id = f"{b_slug}-{p_slug}-recruitment-2026"
-        candidate_id = re.sub(r'-+', '-', candidate_id).strip('-')
+        candidate_id = generate_short_slug(raw_data['board'], raw_data['postName'], year="2026")
 
         is_dup, dup_reason = check_duplicate(candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"], existing_jobs, existing_list, post_name=raw_data["postName"])
         if is_dup:

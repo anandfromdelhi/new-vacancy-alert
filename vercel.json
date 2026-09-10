@@ -1,6 +1,27 @@
 {
   "buildCommand": "npm run build",
   "installCommand": "npm install",
+  "redirects": [
+    { "source": "/guru-ghasidas-vishwavidyalaya-finance-officer-professors-ass-recruitment-2026", "destination": "/guru-ghasidas-vishwavidyalaya-finance-officer-professors-associat-recruitment-2026", "permanent": true },
+    { "source": "/gims-staff-nurse-staff-nurse-non-teaching-recruitment-2026", "destination": "/gims-greater-noida-staff-nurse-recruitment-2026", "permanent": true },
+    { "source": "/tnpsc-ctse-interview-posts-research-assistant-assistant-m-recruitment-2026", "destination": "/tnpsc-ctse-interview-posts-recruitment-2026", "permanent": true },
+    { "source": "/tnpsc-ctse-interview-post-31-different-post-names-recruitment-2026", "destination": "/tnpsc-ctse-interview-posts-recruitment-2026", "permanent": true },
+    { "source": "/uttarakhand-subordinate-s-computer-assistant-junior-recruitment-2026", "destination": "/uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026", "permanent": true },
+    { "source": "/uttarakhand-subordinate-servic-computer-assistant-junior-assi-recruitment-2026", "destination": "/uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026", "permanent": true },
+    { "source": "/secretariat-administratio-peon-cleaner-sweeper-chow-recruitment-2026", "destination": "/meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026", "permanent": true },
+    { "source": "/indian-institute-of-technology-sports-coach-recruitment-2026", "destination": "/iit-goa-sports-coach-recruitment-2026", "permanent": true },
+    { "source": "/staff-selection-commission-ssc-je-civil-je-electrical-je-mech-recruitment-2026", "destination": "/staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026", "permanent": true },
+    { "source": "/staff-selection-commission-ssc-combined-higher-secondary-102-recruitment-2026", "destination": "/ssc-chsl-2026-recruitment", "permanent": true },
+    { "source": "/indian-institute-of-technology-senior-research-fellow-recruitment-2026", "destination": "/iit-delhi-senior-research-fellow-srf-recruitment-2026", "permanent": true },
+    { "source": "/homi-bhabha-cancer-hospital-re-foreman-mechanical-recruitment-2026", "destination": "/tata-memorial-centre-tmc-foreman-mechanical-recruitment-2026", "permanent": true },
+    { "source": "/andhra-pradesh-police-dep-37-recruitment-2026", "destination": "/ap-police-prakasam-district-record-assistant-sweeper-and-m-recruitment-2026", "permanent": true },
+    { "source": "/lakshadweep-administration-senior-energy-consultant-and-a-recruitment-2026", "destination": "/lakshadweep-energy-development-senior-energy-consultant-and-a-recruitment-2026", "permanent": true },
+    { "source": "/department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026", "destination": "/department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026", "permanent": true },
+    { "source": "/regional-agricultural-research-station-chintapalle-rars-chintapalle-salary-recruitment-2026", "destination": "/regional-agricultural-research-teaching-associate-and-teachin-recruitment-2026", "permanent": true },
+    { "source": "/bastar-district-salary-per-month-recruitment-2026", "destination": "/bastar-district-high-class-teacher-subject-exp-recruitment-2026", "permanent": true },
+    { "source": "/container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026", "destination": "/container-corporation-of-india-management-trainee-assistant-o-recruitment-2026", "permanent": true },
+    { "source": "/district-court-yadgir-typist-typist-copyist-recruitment-2026", "destination": "/yadgir-district-court-typist-typist-copyist-process-recruitment-2026", "permanent": true }
+  ],
   "rewrites": [
     {
       "source": "/((?!assets/|.*\\..*).*)",

@@ -75,6 +75,37 @@ app.use((req, res, next) => {
   next();
 });
 
+export const REDIRECTS_MAP: Record<string, string> = {
+  "guru-ghasidas-vishwavidyalaya-finance-officer-professors-ass-recruitment-2026": "guru-ghasidas-vishwavidyalaya-finance-officer-professors-associat-recruitment-2026",
+  "gims-staff-nurse-staff-nurse-non-teaching-recruitment-2026": "gims-greater-noida-staff-nurse-recruitment-2026",
+  "tnpsc-ctse-interview-posts-research-assistant-assistant-m-recruitment-2026": "tnpsc-ctse-interview-posts-recruitment-2026",
+  "tnpsc-ctse-interview-post-31-different-post-names-recruitment-2026": "tnpsc-ctse-interview-posts-recruitment-2026",
+  "uttarakhand-subordinate-s-computer-assistant-junior-recruitment-2026": "uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026",
+  "uttarakhand-subordinate-servic-computer-assistant-junior-assi-recruitment-2026": "uksssc-inter-level-group-c-junior-assistant-registrar-cle-recruitment-2026",
+  "secretariat-administratio-peon-cleaner-sweeper-chow-recruitment-2026": "meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026",
+  "indian-institute-of-technology-sports-coach-recruitment-2026": "iit-goa-sports-coach-recruitment-2026",
+  "staff-selection-commission-ssc-je-civil-je-electrical-je-mech-recruitment-2026": "staff-selection-commission-ssc-1748-junior-engineer-recruitment-2026",
+  "staff-selection-commission-ssc-combined-higher-secondary-102-recruitment-2026": "ssc-chsl-2026-recruitment",
+  "indian-institute-of-technology-senior-research-fellow-recruitment-2026": "iit-delhi-senior-research-fellow-srf-recruitment-2026",
+  "homi-bhabha-cancer-hospital-re-foreman-mechanical-recruitment-2026": "tata-memorial-centre-tmc-foreman-mechanical-recruitment-2026",
+  "andhra-pradesh-police-dep-37-recruitment-2026": "ap-police-prakasam-district-record-assistant-sweeper-and-m-recruitment-2026",
+  "lakshadweep-administration-senior-energy-consultant-and-a-recruitment-2026": "lakshadweep-energy-development-senior-energy-consultant-and-a-recruitment-2026",
+  "department-of-posts-ministry-o-bpm-abpm-dak-sevak-recruitment-2026": "department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026",
+  "regional-agricultural-research-station-chintapalle-rars-chintapalle-salary-recruitment-2026": "regional-agricultural-research-teaching-associate-and-teachin-recruitment-2026",
+  "bastar-district-salary-per-month-recruitment-2026": "bastar-district-high-class-teacher-subject-exp-recruitment-2026",
+  "container-corporation-of-india-ltd-concor-no-of-posts-recruitment-2026": "container-corporation-of-india-management-trainee-assistant-o-recruitment-2026",
+  "district-court-yadgir-typist-typist-copyist-recruitment-2026": "yadgir-district-court-typist-typist-copyist-process-recruitment-2026"
+};
+
+// 301 Permanent Redirects for merged/removed duplicate vacancies
+app.use((req, res, next) => {
+  const cleanPath = req.path.replace(/^\/+|\/+$/g, "");
+  if (REDIRECTS_MAP[cleanPath]) {
+    return res.redirect(301, `/${REDIRECTS_MAP[cleanPath]}`);
+  }
+  next();
+});
+
 export { escapeHtml, getPageMetaData, injectMetaTags };
 
 // Geo-IP endpoint for location detection (zero external calls on Vercel/Cloudflare, fallback to GeoJS)

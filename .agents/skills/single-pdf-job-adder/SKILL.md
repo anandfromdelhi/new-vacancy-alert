@@ -36,16 +36,34 @@ Use this skill whenever the user uploads a single PDF vacancy notification, scre
    - Generates route-specific `<title>`, `<meta name="description">`, Open Graph, Twitter, and Schema.org JSON-LD tags (`JobPosting`, `FAQPage`, `BreadcrumbList`).
    - Injects `__SSR_JOB_DATA__` for immediate client-side React 19 hydration via `hydrateRoot`.
 9. **Dynamic Sitemap & Robots Synchronization**: Automatically updates `public/sitemap.xml`, `dist/sitemap.xml`, and `robots.txt` with the new vacancy URL.
+10. **Short, Acronym-First URL Slug Standard (`id` field)**:
+    - **MANDATORY**: Keep generated URL slugs **short, clean, human-readable, and concise (< 45 characters)**.
+    - **Board Acronym Priority**: Always use the official board/organization acronym instead of typing out long repetitive names:
+      - E.g. use `ssc` (not `staff-selection-commission`), `upsc` (not `union-public-service-commission`), `rrb` (not `railway-recruitment-board`), `uksssc` (not `uttarakhand-subordinate-service-selection-commission`), `tnpsc` (not `tamil-nadu-public-service-commission`), `gims` (not `government-institute-of-medical-sciences`), `iit-<city>` (e.g. `iit-delhi`, `iit-goa`), `aiims-<city>` (e.g. `aiims-delhi`), `concor`, `bel`, `bhel`, `sail`, `ongc`, `drdo`, `isro`, `tmc`, `iibf`, `psssb`.
+    - **Recruitment / Exam Acronym Priority**: Use standard exam/post acronyms where available:
+      - E.g. `je`, `cgl`, `chsl`, `mts`, `cpo`, `alp`, `ntpc`, `ctse`, `srf`, `jrf`, `mo`, `gds`, `patwari`, `constable`, `staff-nurse`.
+    - **Always Include the Year**: Always end the slug with the recruitment year (`-<year>`, e.g. `-2026`).
+    - **Formula**: `<board-acronym>-[campus-]<post-or-exam-acronym>-recruitment-<year>` (or `<board-acronym>-<post-or-exam-acronym>-<year>`).
+    - **Target Length**: 25–45 characters. Never exceed 50 characters.
+    - **Good vs Bad Slug Examples**:
+      - ✅ `ssc-je-recruitment-2026` *(Bad: `staff-selection-commission-ssc-je-civil-je-electrical-je-mech-recruitment-2026`)*
+      - ✅ `tnpsc-ctse-recruitment-2026` *(Bad: `tnpsc-ctse-interview-posts-research-assistant-assistant-m-recruitment-2026`)*
+      - ✅ `uksssc-group-c-intermediate-2026` *(Bad: `uttarakhand-subordinate-servic-computer-assistant-junior-assi-recruitment-2026`)*
+      - ✅ `gims-staff-nurse-recruitment-2026` *(Bad: `gims-staff-nurse-staff-nurse-non-teaching-recruitment-2026`)*
+      - ✅ `iit-goa-sports-coach-2026` *(Bad: `indian-institute-of-technology-sports-coach-recruitment-2026`)*
+      - ✅ `concor-management-trainee-2026` *(Bad: `container-corporation-of-india-management-trainee-assistant-o-recruitment-2026`)*
+      - ✅ `india-post-gds-recruitment-2026` *(Bad: `department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026`)*
 
 ## Fast Workflow
 
 ### Step 1: Duplicate Scan
-Run the fast duplicate checker:
+Run the multi-factor duplicate checker passing Title, Board, Advt No, and PDF URL/vacancies:
 ```bash
-python scripts/check_duplicate_vacancy.py "<Full Title or Text>" "<Board Name>" "<Advt / Letter No>"
+python scripts/check_duplicate_vacancy.py "<Full Title or Text>" "<Board Name or Acronym>" "<Advt / Letter No>" "<PDF or Official URL>" "<Total Vacancies>"
 ```
-- If duplicate is found (Score >= 50), report existing job ID to user and ask if update is needed.
-- If match score < 20, proceed to Step 2.
+- If duplicate is found (Score >= 70 or matching PDF URL / Advt No), **DO NOT create a duplicate entry**. Report the existing job ID to user and ask if an update is needed.
+- Note: `scripts/add_job_entry.py` contains an automated insertion guard and will block additions if a duplicate is detected.
+- If match score < 40 and no URL/Advt match, proceed to Step 2.
 
 ### Step 2: PDF Text & Table Extraction
 Run fast PDF extractor:
@@ -59,7 +77,7 @@ Save complete job schema JSON to `scratch/temp_job.json`:
 
 ```json
 {
-  "id": "<generated-unique-job-id>",
+  "id": "<short-acronym-slug-with-year e.g. ssc-je-recruitment-2026 or iit-delhi-srf-2026>",
   "seoTitle": "<Target Keyword Optimized Title> | NewVacancyAlert",
   "seoDescription": "<150-160 char meta description with exact vacancies, qualification, pay scale, and last date>",
   "focusKeywords": "<Primary keywords>",

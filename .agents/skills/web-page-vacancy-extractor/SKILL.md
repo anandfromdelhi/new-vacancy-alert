@@ -49,13 +49,33 @@ Organize the extracted web page information into standard recruitment fields:
 10. **Official URLs** (Apply link & Notification PDF link)
 
 ### Step 4: Run Duplicate Checker & Create Site Entry
-1. Run `check_duplicate_vacancy` to ensure the job isn't already present on the site:
+1. **MANDATORY Duplicate Scan**: Run `check_duplicate_vacancy.py` with all 5 parameters to prevent duplicate entries:
    ```bash
-   python scripts/check_duplicate_vacancy.py "<Job Title or Board Name>" "<Board>" "<Advt No>"
+   python scripts/check_duplicate_vacancy.py "<Job Title>" "<Board>" "<Advt No>" "<PDF/Page URL>" "<Total Vacancies>"
    ```
-2. Format and add the entry to:
-   - `src/data/jobsData.ts` (Quick summary listing)
-   - `src/data/jobDetails.ts` (Full detailed schema with FAQs, highlights, eligibility, salary, and official links)
+   If a match is found with score >= 70% or matching PDF URL / Advt No: **DO NOT CREATE A DUPLICATE ENTRY.** Update the existing entry or ask the user.
+
+2. **Short, Acronym-First URL Slug Standard (< 45 chars) with Year**:
+   - URL slug (`id`) MUST be concise, prioritize **board and exam/post acronyms**, and include the recruitment year (e.g. `-2026`).
+   - Formula: `<board-acronym>-[campus-]<exam-or-post-acronym>-recruitment-<year>`
+   - Examples:
+     - `ssc-je-recruitment-2026` (instead of `staff-selection-commission-junior-engineer-...`)
+     - `upsc-cse-recruitment-2026` (instead of `union-public-service-commission-civil-services-...`)
+     - `aiims-delhi-sr-recruitment-2026` (instead of `all-india-institute-of-medical-sciences-delhi-senior-resident-...`)
+     - `tnpsc-ctse-recruitment-2026` (instead of `tamil-nadu-public-service-commission-combined-technical-...`)
+
+3. **Save and Ingest**:
+   - Save the formatted JSON to `scratch/temp_job.json`
+   - Ingest into the database using:
+     ```bash
+     python scripts/add_job_entry.py scratch/temp_job.json
+     ```
+     *(This script automatically runs duplicate verification and date normalization).*
 
 ### Step 5: Build and Push
-Run `npm run build` to verify TypeScript compilation and update sitemap/RSS feeds, then commit and push to GitHub.
+Run:
+```bash
+npm run prebuild
+npm run build
+```
+Verify TypeScript compilation and verify that per-job JSON files in `src/data/jobs-generated/` and sitemap are refreshed, then commit and push.
