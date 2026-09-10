@@ -871,15 +871,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026",
-    "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
-    "t": "Department of Posts, Ministry of Communications, Government of India (GDS Section) Recruitment 2026 Notification Out for 23757 Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), Dak Sevak Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "31 December 2026 (engagement process closes after this date)",
-    "a": "17-12/2026-GDS dated 20 August 2026",
-    "q": "Eligibility for all GDS posts (BPM/ABPM/Dak Sevak) is assessed as on the...",
-    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially announced employment advertisement notification 17-12/2026-GDS dated 20 August 2026 inviting applications for 23757 vacancies for Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), Dak Sevak posts.",
-    "u": "https://ibpsreg.ibps.in/rrboaxvaug26/"
-  },
+    "b": "India Post (Department of Posts)",
+    "t": "India Post GDS Recruitment 2026: Apply Online for 23,757 Gramin Dak Sevak (BPM, ABPM, Dak Sevak) Posts",
+    "d": "20 August 2026",
+    "l": "21 September 2026",
+    "a": "Notification No. 17-12/2026-GDS (Schedule-II, July-2026)",
+    "q": "10th Standard Pass (with Mathematics & English) + Local Language",
+    "desc": "Department of Posts, Ministry of Communications, Government of India (GDS Section) has officially published employment notification No. 17-12/2026-GDS dated 20 August 2026 for Gramin Dak Sevak (GDS) Online Engagement Schedule-II, July-2026. The national recruitment drive invites online applications to fill 23,757 tentative vacancies across Postal Circles for the posts of Branch Postmaster (BPM), Assistant Branch Postmaster (ABPM), and Dak Sevak.",
+    "u": "https://indiapost.gov.in/gdsonlineengagement"
+},
   {
     "id": "balmer-lawrie-co-ltd-miniratna-junior-officer-assistant-manag-recruitment-2026",
     "b": "Balmer Lawrie & Co. Ltd. (Miniratna-1 PSU, Ministry of Petroleum & Natural Gas)",
