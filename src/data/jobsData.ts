@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "icar-central-insti-young-professional-recruitment-2026",
+    "b": "ICAR Central Institute of Fisheries Education",
+    "t": "ICAR Central Institute of Fisheries Education Recruitment 2026 Notification Out for 1 Young Professional-II (YP-II) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "022-26361446/7/8",
+    "q": "MBA / BBA | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR Central Institute of Fisheries Education has officially announced employment advertisement notification 022-26361446/7/8 inviting applications for 1 vacancies for Young Professional-II (YP-II) posts.",
+    "u": "https://cife.edu.in/sites/default/files/2_YP%20-II%20advertisement_08-09_2026.pdf"
+},
+  {
+    "id": "rcfl-assistant-off-various-recruitment-2026",
+    "b": "RCFL Assistant Officer",
+    "t": "RCFL Assistant Officer Recruitment 2026 Notification Out for 10 Various Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "26 September 2026, 5:00 PM",
+    "a": "01072026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "RCFL Assistant Officer has officially announced employment advertisement notification 01072026 inviting applications for 10 vacancies for Various Posts posts.",
+    "u": "https://ibpsreg.ibps.in/rcfaojul26/"
+},
+  {
+    "id": "iit-bombay-assistant-professor-recruitment-2026",
+    "b": "Indian Institute of Technology Bombay (IIT Bombay)",
+    "t": "Indian Institute of Technology Bombay (IIT Bombay) Recruitment 2026 Notification Out for 1 Assistant Professor, Associate Professor, Professor Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "31 December 2026",
+    "a": "L-10/25-26",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Bombay (IIT Bombay) has officially announced employment advertisement notification L-10/25-26 inviting applications for 1 vacancies for Assistant Professor, Associate Professor, Professor posts.",
+    "u": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26"
+},
+  {
+    "id": "sindhudurg-dcc-ban-number-of-recruitment-2026",
+    "b": "Sindhudurg DCC Bank Clerk",
+    "t": "Sindhudurg DCC Bank Clerk Recruitment 2026 Notification Out for 67 Number of Vacancies Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "17 September 2026 (11:59 PM)",
+    "a": "SINDHUDURG-DCC/2026",
+    "q": "10th / 8th Pass | B.Tech / B.E | B.Sc",
+    "desc": "Sindhudurg DCC Bank Clerk has officially announced employment advertisement notification SINDHUDURG-DCC/2026 inviting applications for 67 vacancies for Number of Vacancies posts.",
+    "u": "https://sindhudurgdcc.bank.in/public/uploads/General_Condition.pdf"
+},
+  {
+    "id": "indian-institute-o-counsellor-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Pune (IISER Pune)",
+    "t": "Indian Institute of Science Education and Research Pune (IISER Pune) Recruitment 2026 Notification Out for 4 Counsellor Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "75/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Science Education and Research Pune (IISER Pune) has officially announced employment advertisement notification 75/2026 inviting applications for 4 vacancies for Counsellor posts.",
+    "u": "https://www.iiserpune.ac.in/storage/recruitment/job-posts/2304/documents/ebbca723-72d9-45f4-99fa-941f2e4c65b7.pdf"
+},
+  {
+    "id": "district-hospital-mo-recruitment-2026",
+    "b": "District Hospital Nanded",
+    "t": "District Hospital Nanded Recruitment 2026 Notification Out for 5 Medical Officer (Specialist) Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "DISTRICT-HOSPI/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "District Hospital Nanded has officially announced employment advertisement notification DISTRICT-HOSPI/2026 inviting applications for 5 vacancies for Medical Officer (Specialist) posts.",
+    "u": "https://cdn.s3waas.gov.in/s32b24d495052a8ce66358eb576b8912c8/uploads/2026/09/17890247667591.pdf"
+},
+  {
+    "id": "bhai-tukaram-kolek-assistant-professor-recruitment-2026",
+    "b": "Bhai Tukaram Kolekar College",
+    "t": "Bhai Tukaram Kolekar College Recruitment 2026 Notification Out for 6 Assistant Professor Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "24 September 2026",
+    "a": "Name",
+    "q": "As prescribed by Apex body, Govt. of Maharashtra and Shivaji University,...",
+    "desc": "Bhai Tukaram Kolekar College has officially announced employment advertisement notification Name inviting applications for 6 vacancies for Assistant Professor posts.",
+    "u": "https://www.unishivaji.ac.in/uploads/recruitment/2026/Sept/10-sept/Bhai%20Tukaram%20Kolekar%20College%20Nesari%20%202026.pdf"
+},
+  {
+    "id": "mpesb-subedar-sub-recruitment-2026",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB), for Police Headquarters, Home (Police) Department",
+    "t": "Madhya Pradesh Employees Selection Board (MPESB), for Police Headquarters, Home (Police) Department Recruitment 2026 Notification Out for 507 Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "MADHYA-PRADESH/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Madhya Pradesh Employees Selection Board (MPESB), for Police Headquarters, Home (Police) Department has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 507 vacancies for Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) posts.",
+    "u": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx"
+},
+  {
+    "id": "nabfins-customer-service-recruitment-2026",
+    "b": "NABARD Financial Services (NABFINS)",
+    "t": "NABARD Financial Services (NABFINS) Recruitment 2026 Notification Out for 1 Customer Service Executive (CSE) - IBL & HL Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026",
+    "a": "NABARD-FINANCI/2026",
+    "q": "12th Pass | Any Bachelor's Degree",
+    "desc": "NABARD Financial Services (NABFINS) has officially announced employment advertisement notification NABARD-FINANCI/2026 inviting applications for 1 vacancies for Customer Service Executive (CSE) - IBL & HL posts.",
+    "u": "https://nabfins.org/Careers/"
+},
+  {
+    "id": "indian-institute-o-jrf-recruitment-2026-3067177",
+    "b": "Indian Institute of Science Education and Research Bhopal",
+    "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 3 Junior Research Fellow and Lab Assistant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "17 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | B.Sc | M.Sc",
+    "desc": "Indian Institute of Science Education and Research Bhopal has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Junior Research Fellow and Lab Assistant posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSek0ObLQXUcPLEyN05qqjUFhXeyXHnzWZnivEWe74n3v1R4IQ/viewform"
+},
+  {
     "id": "mpmrcl-general-manager-recruitment-2026",
     "b": "Madhya Pradesh Metro Rail Corporation (MPMRCL)",
     "t": "Madhya Pradesh Metro Rail Corporation (MPMRCL) Recruitment 2026 Notification Out for 2 General Manager, Deputy General Manager Posts | Apply Online",
