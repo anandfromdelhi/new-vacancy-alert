@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-institute-o-je-recruitment-2026-3067168",
+    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
+    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Junior Engineer - Civil Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "14 September 2026 (Walk-in)",
+    "a": "RO/SE/26/31",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially announced employment advertisement notification RO/SE/26/31 inviting applications for 1 vacancies for Junior Engineer - Civil posts.",
+    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788526142_engineer.pdf"
+},
+  {
+    "id": "indian-museum-kolk-library-and-recruitment-2026",
+    "b": "Indian Museum Kolkata",
+    "t": "Indian Museum Kolkata Recruitment 2026 Notification Out for 5 Library and Information Officer, Head Modeller, Hindi Translator, Modeller, Driver-cum-Mechanic Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 October 2026",
+    "a": "04/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Museum Kolkata has officially announced employment advertisement notification 04/2026 inviting applications for 5 vacancies for Library and Information Officer, Head Modeller, Hindi Translator, Modeller, Driver-cum-Mechanic posts.",
+    "u": "https://indianmuseumkolkata.org/im_cont/uploads/2026/09/Detail-advertisement-for-website-for-5-posts.pdf"
+},
+  {
+    "id": "indian-institute-o-project-assistant-recruitment-2026-3067300",
+    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
+    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "CH 1960) for 1 vacancy",
+    "q": "M.Sc",
+    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially announced employment advertisement notification CH 1960) for 1 vacancy inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788873356_Website%20Copy,%20Dipankar%20Mondal,%20Chemistry,%2008.09.2026.pdf"
+},
+  {
+    "id": "nit-counsellor-recruitment-2026",
+    "b": "National Institute of Technology Uttarakhand",
+    "t": "National Institute of Technology Uttarakhand Recruitment 2026 Notification Out for 1 Counsellor Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "06/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Technology Uttarakhand has officially announced employment advertisement notification 06/2026 inviting applications for 1 vacancies for Counsellor posts.",
+    "u": "https://nituk.ac.in/uploads/topics/17887835737029.pdf"
+},
+  {
+    "id": "pm-shri-kendriya-v-pgt-sociology-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya Dehradun",
+    "t": "PM SHRI Kendriya Vidyalaya Dehradun Recruitment 2026 Notification Out for 1 PGT (Sociology) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "फा. संविदा सा०/पीएम श्री के०वि० / आईटीबीपी /2026-27/",
+    "q": "PG",
+    "desc": "PM SHRI Kendriya Vidyalaya Dehradun has officially announced employment advertisement notification फा. संविदा सा०/पीएम श्री के०वि० / आईटीबीपी /2026-27/ inviting applications for 1 vacancies for PGT (Sociology) posts.",
+    "u": "https://samvida-sathi.kvs.gov.in/"
+},
+  {
+    "id": "up-anganwadi-worke-in-amethi-recruitment-2026",
+    "b": "UP Anganwadi Worker",
+    "t": "UP Anganwadi Worker Recruitment 2026 Notification Out for 172 Posts in Amethi District Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "21 September 2026, till midnight 12:00 AM",
+    "a": "UP-ANGANWADI-W/2026",
+    "q": "12th Pass | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "UP Anganwadi Worker has officially announced employment advertisement notification UP-ANGANWADI-W/2026 inviting applications for 172 vacancies for Posts in Amethi District posts.",
+    "u": "https://bareilly.nic.in/"
+},
+  {
+    "id": "mmmut-junior-research-recruitment-2026",
+    "b": "Madan Mohan Malaviya University of Technology (MMMUT)",
+    "t": "Madan Mohan Malaviya University of Technology (MMMUT) Recruitment 2026 Notification Out for 1 Junior Research Assistant Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "MUT/ECED/R&D/2026-01",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Madan Mohan Malaviya University of Technology (MMMUT) has officially announced employment advertisement notification MUT/ECED/R&D/2026-01 inviting applications for 1 vacancies for Junior Research Assistant posts.",
+    "u": "https://www.mmmut.ac.in/News_content/50234advertisment_09092026.pdf"
+},
+  {
+    "id": "banda-district-assistant-accountant-recruitment-2026",
+    "b": "Banda District",
+    "t": "Banda District Recruitment 2026 Notification Out for 1 Assistant Accountant Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "18 September 2026",
+    "a": "354/MoD/Appointment/2026-27",
+    "q": "Knowledge of computer typing and file making. Preference to retired Civi...",
+    "desc": "Banda District has officially announced employment advertisement notification 354/MoD/Appointment/2026-27 inviting applications for 1 vacancies for Assistant Accountant posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26810_09-09-2026.pdf"
+},
+  {
+    "id": "iit-kanpur-project-multi-recruitment-2026-3067225",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Project Multi-Skilled Worker- L3 Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "17 September 2026",
+    "a": "P.Rect./R&D/2026/175",
+    "q": "10th / 8th Pass",
+    "desc": "Indian Institute of Technology Kanpur has officially announced employment advertisement notification P.Rect./R&D/2026/175 inviting applications for 1 vacancies for Project Multi-Skilled Worker- L3 posts.",
+    "u": "https://www.iitk.ac.in/dord/project/ee-pmsw-l-3-28-08-2026.html"
+},
+  {
+    "id": "mmmut-senior-research-recruitment-2026",
+    "b": "Madan Mohan Malaviya University of Technology (MMMUT)",
+    "t": "Madan Mohan Malaviya University of Technology (MMMUT) Recruitment 2026 Notification Out for 1 Senior Research Assistant (SRA) Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "MMMUT/CESD/R&D/........",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "Madan Mohan Malaviya University of Technology (MMMUT) has officially announced employment advertisement notification MMMUT/CESD/R&D/........ inviting applications for 1 vacancies for Senior Research Assistant (SRA) posts.",
+    "u": "https://www.mmmut.ac.in/News_content/12253advertisment_09102026.pdf"
+},
+  {
     "id": "iit-kanpur-project-multi-recruitment-2026",
     "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
     "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 2 Project Multi Skilled Worker (Level 1) Posts | Apply Online",
