@@ -860,15 +860,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "bank-of-baroda-so-wealth-executive-credit-analys-recruitment-2026",
-    "b": "Bank of Baroda SO",
-    "t": "Bank of Baroda SO Recruitment 2026 Notification Out for 1100 Wealth Executive, Credit Analyst - C&IC Posts | Apply Online",
-    "d": "09 September 2026",
+    "b": "Bank of Baroda (BOB)",
+    "t": "Bank of Baroda Specialist Officer Recruitment 2026: Apply Online for 1100 Wealth Executive & Credit Analyst Posts",
+    "d": "04 September 2026",
     "l": "24 September 2026",
-    "a": "BOB/HRM/REC/ADVT/2026/17",
-    "q": "01.09.2026",
-    "desc": "Bank of Baroda SO has officially announced employment advertisement notification BOB/HRM/REC/ADVT/2026/17 inviting applications for 1100 vacancies for Wealth Executive, Credit Analyst - C&IC posts.",
+    "a": "BOB/HRM/REC/ADVT/2026/17 (Dated 04.09.2026)",
+    "q": "Graduation + NISM/IC-38 (Wealth Exec) | Graduation + CA (Credit Analyst)",
+    "desc": "Bank of Baroda (BOB), one of India's premier public sector commercial banks, has officially released recruitment notification Advt No. BOB/HRM/REC/ADVT/2026/17 for regular human resource appointments across specialized departments. The drive invites online applications for a total of 1100 Specialist Officer vacancies, comprising 1000 posts of Wealth Executive (JMG/S-I) under Wealth Management Services and 100 posts of Credit Analyst – C&IC (MMG/S-II) under Corporate & Institutional Credit.",
     "u": "https://ibpsreg.ibps.in/bonwejul26/"
-  },
+},
   {
     "id": "department-of-posts-ministry-o-branch-postmaster-bpm-assistan-recruitment-2026",
     "b": "Department of Posts, Ministry of Communications, Government of India (GDS Section)",
