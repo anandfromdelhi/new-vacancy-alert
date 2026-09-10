@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kisce-high-performance-recruitment-2026",
+    "b": "Khelo India State Centre of Excellence (KISCE)",
+    "t": "Khelo India State Centre of Excellence (KISCE) Recruitment 2026 Notification Out for 7 High Performance Director, Head Coach, Physiologist, Masseur, Doctor Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "30 September 2026",
+    "a": "KHELO-INDIA-ST/2026",
+    "q": "12th Pass | Diploma | MBA / BBA",
+    "desc": "Khelo India State Centre of Excellence (KISCE) has officially announced employment advertisement notification KHELO-INDIA-ST/2026 inviting applications for 7 vacancies for High Performance Director, Head Coach, Physiologist, Masseur, Doctor posts.",
+    "u": "https://sportsauthorityofindia.nic.in/"
+},
+  {
+    "id": "iit-project-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu (IIT Jammu)",
+    "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "22 September 2026",
+    "a": "IITJMU/ RC/ 100352/ A-48",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially announced employment advertisement notification IITJMU/ RC/ 100352/ A-48 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "jkssb-horticulture-technic-recruitment-2026",
+    "b": "JKSSB",
+    "t": "JKSSB Recruitment 2026 Notification Out for 518 Horticulture Technician, Junior Staff Nurse and More Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "9 October 2026",
+    "a": "tification No",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "JKSSB has officially announced employment advertisement notification tification No inviting applications for 518 vacancies for Horticulture Technician, Junior Staff Nurse and More posts.",
+    "u": "https://jkssb.nic.in/dynamic-jkssb-test/pages/login.aspx"
+},
+  {
+    "id": "csir-institute-of-various-project-recruitment-2026",
+    "b": "CSIR Institute of Himalayan Bioresource Technology",
+    "t": "CSIR Institute of Himalayan Bioresource Technology Recruitment 2026 Notification Out for 16 Various Project Positions Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "21 September 2026, 22 September 2026, 23 September 2026, 24 September 2026 (Walk-in)",
+    "a": "16/2026",
+    "q": "B.Tech / B.E | M.Sc | Ph.D / Doctorate",
+    "desc": "CSIR Institute of Himalayan Bioresource Technology has officially announced employment advertisement notification 16/2026 inviting applications for 16 vacancies for Various Project Positions posts.",
+    "u": "https://www.ihbt.res.in/components/com_chronoforms5/chronoforms/uploads/Recruitment/20260908154239_1_Final_Advt_no._16_by__2026_with_Application_Form.pdf"
+},
+  {
+    "id": "cuh-srf-recruitment-2026",
+    "b": "Central University of Haryana (CUH)",
+    "t": "Central University of Haryana (CUH) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Haryana (CUH) has officially announced employment advertisement notification CENTRAL-UNIVER/2026 inviting applications for 1 vacancies for Senior Research Fellow posts.",
+    "u": "https://file.cuh.ac.in/recruitment/advt_no_6aa22c8c3acd2.pdf"
+},
+  {
+    "id": "rites-engineering-professi-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 7 Engineering Professionals Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "05 October 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RAIL-INDIA-TEC/2026 inviting applications for 7 vacancies for Engineering Professionals posts.",
+    "u": "https://www.rites.com/Upload/Career/RG_25-29_26_Highway_adv_pdf-2026-Sep-10-12-45-28.pdf"
+},
+  {
+    "id": "isro-sac-jrf-recruitment-2026",
+    "b": "ISRO SAC",
+    "t": "ISRO SAC Recruitment 2026 Notification Out for 48 Junior Research Fellow (JRF), Research Associate (RA), Project Scientist-I (PS-I) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "30 September 2026 (1700 hrs)",
+    "a": "SAC:02:2026, dated 10.09.2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "ISRO SAC has officially announced employment advertisement notification SAC:02:2026, dated 10.09.2026 inviting applications for 48 vacancies for Junior Research Fellow (JRF), Research Associate (RA), Project Scientist-I (PS-I) posts.",
+    "u": "https://www.sac.gov.in/"
+},
+  {
+    "id": "gujarat-university-teaching-assistant-recruitment-2026",
+    "b": "Gujarat University",
+    "t": "Gujarat University Recruitment 2026 Notification Out for 3 Teaching Assistant in Psychology Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "GUJARAT-UNIVER/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Gujarat University has officially announced employment advertisement notification GUJARAT-UNIVER/2026 inviting applications for 3 vacancies for Teaching Assistant in Psychology posts.",
+    "u": "https://beta.gujaratuniversity.ac.in/data/pdfs/Recruitment/TA%20final%20123.pdf"
+},
+  {
+    "id": "indian-institute-o-je-recruitment-2026",
+    "b": "Indian Institute of Information Technology Surat (IIIT Surat)",
+    "t": "Indian Institute of Information Technology Surat (IIIT Surat) Recruitment 2026 Notification Out for 1 Junior Engineer (Civil/Architect) Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "03 October 2026",
+    "a": "IIITS/RNF/2026-27/02",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Information Technology Surat (IIIT Surat) has officially announced employment advertisement notification IIITS/RNF/2026-27/02 inviting applications for 1 vacancies for Junior Engineer (Civil/Architect) posts.",
+    "u": "https://iiitsurat.ac.in/Recruitment_Advertisement_Junior_Engineer_(CivilArchitectural).pdf"
+},
+  {
+    "id": "bhagwan-mahavir-ho-senior-resident-recruitment-2026",
+    "b": "Bhagwan Mahavir Hospital (BMH Delhi)",
+    "t": "Bhagwan Mahavir Hospital (BMH Delhi) Recruitment 2026 Notification Out for 2 Senior Resident (Dental - Oral & Maxillofacial Surgery) Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "12 September 2026",
+    "a": "BHAGWAN-MAHAVI/2026",
+    "q": "BDS / Dental | Any Bachelor's Degree",
+    "desc": "Bhagwan Mahavir Hospital (BMH Delhi) has officially announced employment advertisement notification BHAGWAN-MAHAVI/2026 inviting applications for 2 vacancies for Senior Resident (Dental - Oral & Maxillofacial Surgery) posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wbmh_27.pdf"
+},
+  {
     "id": "iit-delhi-project-scientist-recruitment-2026",
     "b": "Indian Institute of Technology Delhi (IIT Delhi)",
     "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 3 Project Scientist Posts | Apply Online",
