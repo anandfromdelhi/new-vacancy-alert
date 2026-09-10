@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-kanpur-project-multi-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 2 Project Multi Skilled Worker (Level 1) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026",
+    "a": "P.Rect./R&D/2026/181",
+    "q": "10th / 8th Pass",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P.Rect./R&D/2026/181 inviting applications for 2 vacancies for Project Multi Skilled Worker (Level 1) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdIN5ubxylfbulIq7nf3-T9TejL7KB4iWbTrDsv048eWjvVBw/viewform"
+},
+  {
+    "id": "iit-project-associate-recruitment-2026",
+    "b": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+    "t": "Indian Institute of Technology (Banaras Hindu University) Varanasi Recruitment 2026 Notification Out for 3 Project Associate I, Project Assistant Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "27 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology (Banaras Hindu University) Varanasi has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Project Associate I, Project Assistant posts.",
+    "u": "https://iitbhu.ac.in/contents/institute/2026/project/project_pa_che_green.pdf"
+},
+  {
+    "id": "iit-research-associate-recruitment-2026-3067144",
+    "b": "Indian Institute of Technology Hyderabad",
+    "t": "Indian Institute of Technology Hyderabad Recruitment 2026 Notification Out for 1 Research Associate-I Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "22 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate-I posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/Advertizement_RA_Atanu.pdf"
+},
+  {
+    "id": "iit-doctoral-research-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad",
+    "t": "Indian Institute of Technology Hyderabad Recruitment 2026 Notification Out for 1 Postdoctoral Research Associate Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Postdoctoral Research Associate posts.",
+    "u": "https://www.iith.ac.in/assets/files/careers/staff/Advertisment_quantum.pdf"
+},
+  {
+    "id": "csir-national-geop-technician-recruitment-2026",
+    "b": "CSIR-National Geophysical Research Institute",
+    "t": "CSIR-National Geophysical Research Institute Recruitment 2026 Notification Out for 21 Technician-1 Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "04 October 2026",
+    "a": "01/2026",
+    "q": "10th / 8th Pass | ITI",
+    "desc": "CSIR-National Geophysical Research Institute has officially announced employment advertisement notification 01/2026 inviting applications for 21 vacancies for Technician-1 posts.",
+    "u": "https://tiru.ngri.res.in/ngri_tech/"
+},
+  {
+    "id": "tslprb-police-constable-recruitment-2026-3056807",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
+    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Recruitment 2026 Notification Out for 325 Police Constable, ASI, Station Fire Officer & More Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "Rc. No. 225/Rect./Rect.-1/2026 (SI Civil, RSI, SPF SI, SFO, Deputy Jailor); Rc. No. 234/Rect./Rect.-3/2026 (PC Mechanic & Driver); Rc. No. 279/Rect./Rect.-3/2026 (ASI FPB)",
+    "q": "Local candidature and reservation rules under the Presidential Order 201...",
+    "desc": "Telangana State Level Police Recruitment Board (TSLPRB) has officially announced employment advertisement notification Rc. No. 225/Rect./Rect.-1/2026 (SI Civil, RSI, SPF SI, SFO, Deputy Jailor); Rc. No. 234/Rect./Rect.-3/2026 (PC Mechanic & Driver); Rc. No. 279/Rect./Rect.-3/2026 (ASI FPB) inviting applications for 325 vacancies for Police Constable, ASI, Station Fire Officer & More posts.",
+    "u": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20Second%20Supplementary%20Notification%202026%20%20dated%2010%20Sep%202026.pdf"
+},
+  {
+    "id": "tslprb-police-constable-recruitment-2026",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
+    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Recruitment 2026 Notification Out for 7112 Police Constable, SPF Constable, Fire Fighter and Warder Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "Rc No. 189 / Rect. / Rect-2 / 2026",
+    "q": "12th Pass",
+    "desc": "Telangana State Level Police Recruitment Board (TSLPRB) has officially announced employment advertisement notification Rc No. 189 / Rect. / Rect-2 / 2026 inviting applications for 7112 vacancies for Police Constable, SPF Constable, Fire Fighter and Warder posts.",
+    "u": "https://www.tgprb.in/"
+},
+  {
+    "id": "district-child-pro-assistant-cum-recruitment-2026",
+    "b": "District Child Protection Unit Chengalpattu",
+    "t": "District Child Protection Unit Chengalpattu Recruitment 2026 Notification Out for 3 Assistant Cum Bench Clerk, Office Assistant and Junior Assistant Cum Record Clerk Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "22 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Chengalpattu has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 3 vacancies for Assistant Cum Bench Clerk, Office Assistant and Junior Assistant Cum Record Clerk posts.",
+    "u": "https://cdn.s3waas.gov.in/s39778d5d219c5080b9a6a17bef029331c/uploads/2026/09/17888498617183.pdf"
+},
+  {
+    "id": "government-industr-office-assistant-recruitment-2026",
+    "b": "Government Industrial Training Institute Kanchipuram",
+    "t": "Government Industrial Training Institute Kanchipuram Recruitment 2026 Notification Out for 1 Office Assistant Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "30 September 2026",
+    "a": "GOVERNMENT-IND/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Government Industrial Training Institute Kanchipuram has officially announced employment advertisement notification GOVERNMENT-IND/2026 inviting applications for 1 vacancies for Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s31543843a4723ed2ab08e18053ae6dc5b/uploads/2026/09/17889586153196.pdf"
+},
+  {
+    "id": "district-health-so-multipurpose-worker-recruitment-2026",
+    "b": "District Health Society Kallakurichi (DHS Kallakurichi)",
+    "t": "District Health Society Kallakurichi (DHS Kallakurichi) Recruitment 2026 Notification Out for 22 Multipurpose Worker, DEO and More Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "23 September 2026",
+    "a": "02/2026",
+    "q": "B.Sc | Master's / PG Degree",
+    "desc": "District Health Society Kallakurichi (DHS Kallakurichi) has officially announced employment advertisement notification 02/2026 inviting applications for 22 vacancies for Multipurpose Worker, DEO and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c7e1249ffc03eb9ded908c236bd1996d/uploads/2026/09/17890157973665.pdf"
+},
+  {
     "id": "iit-madras-simulation-engineer-recruitment-2026",
     "b": "Indian Institute of Technology Madras (IIT Madras)",
     "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Simulation Engineer Posts | Apply Online",
