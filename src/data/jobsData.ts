@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ouat-guest-faculty-recruitment-2026",
+    "b": "Odisha University of Agriculture and Technology (OUAT)",
+    "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 10 Guest Faculty Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "ODISHA-UNIVERS/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha University of Agriculture and Technology (OUAT) has officially announced employment advertisement notification ODISHA-UNIVERS/2026 inviting applications for 10 vacancies for Guest Faculty posts.",
+    "u": "https://ouat.ac.in/wp-content/uploads/2026/09/4336-CA.pdf"
+},
+  {
+    "id": "nit-jrf-recruitment-2026-3067131",
+    "b": "National Institute of Technology Rourkela",
+    "t": "National Institute of Technology Rourkela Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "22 September 2026",
+    "a": "NITR/SR/2026/Advt. - 26FP002/I/075",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "National Institute of Technology Rourkela has officially announced employment advertisement notification NITR/SR/2026/Advt. - 26FP002/I/075 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/09092026175045067.pdf"
+},
+  {
+    "id": "nit-jrf-recruitment-2026",
+    "b": "National Institute of Technology Rourkela (NIT Rourkela)",
+    "t": "National Institute of Technology Rourkela (NIT Rourkela) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "20 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "National Institute of Technology Rourkela (NIT Rourkela) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/09092026174418941.pdf"
+},
+  {
+    "id": "public-health-engi-technician-electric-recruitment-2026",
+    "b": "Public Health Engineering Department Mizoram",
+    "t": "Public Health Engineering Department Mizoram Recruitment 2026 Notification Out for 6 Technician, Electric Lineman and Switchboard Operator Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "09 October 2026",
+    "a": "4 of 2026",
+    "q": "ITI",
+    "desc": "Public Health Engineering Department Mizoram has officially announced employment advertisement notification 4 of 2026 inviting applications for 6 vacancies for Technician, Electric Lineman and Switchboard Operator posts.",
+    "u": "https://recruitment.msegs.in/"
+},
+  {
+    "id": "boi-officers-in-recruitment-2026",
+    "b": "Bank of India (BOI)",
+    "t": "Bank of India (BOI) Recruitment 2026 Notification Out for 205 Officers in various Specialist streams (48 posts, Scale I to IV) Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "25 September 2026",
+    "a": "BANK-OF-INDIA-/2026",
+    "q": "B.Tech / B.E | M.Sc | MCA / BCA",
+    "desc": "Bank of India (BOI) has officially announced employment advertisement notification BANK-OF-INDIA-/2026 inviting applications for 205 vacancies for Officers in various Specialist streams (48 posts, Scale I to IV) posts.",
+    "u": "https://ibpsreg.ibps.in/boiaug26/"
+},
+  {
+    "id": "csir-national-envi-project-assistant-recruitment-2026",
+    "b": "CSIR National Environmental Engineering Research Institute",
+    "t": "CSIR National Environmental Engineering Research Institute Recruitment 2026 Notification Out for 1 Project Assistant II Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "16 September 2026",
+    "a": "RECRUIT_SD_4A_SHWMD_09092026",
+    "q": "B.Sc",
+    "desc": "CSIR National Environmental Engineering Research Institute has officially announced employment advertisement notification RECRUIT_SD_4A_SHWMD_09092026 inviting applications for 1 vacancies for Project Assistant II posts.",
+    "u": "https://recruitment.neeri.res.in/appform/Pa_Agecheck.php"
+},
+  {
+    "id": "sanjay-gandhi-nati-deputy-director-recruitment-2026",
+    "b": "Sanjay Gandhi National Park Borivali (SGNP Borivali)",
+    "t": "Sanjay Gandhi National Park Borivali (SGNP Borivali) Recruitment 2026 Notification Out for 1 Deputy Director Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "18 September 2026",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sanjay Gandhi National Park Borivali (SGNP Borivali) has officially announced employment advertisement notification SANJAY-GANDHI-/2026 inviting applications for 1 vacancies for Deputy Director posts.",
+    "u": "https://mahaforest.gov.in/writereaddata/fckimagefile/Advertiesment_Tulsi_7-8_0001.pdf"
+},
+  {
+    "id": "coep-technological-jrf-recruitment-2026",
+    "b": "COEP Technological University Pune",
+    "t": "COEP Technological University Pune Recruitment 2026 Notification Out for 2 Research Associate / Junior Research Fellow Posts | Apply Offline",
+    "d": "10 September 2026",
+    "l": "20 September 2026",
+    "a": "COEP_TECH: Registrar Office/ANRF-PAIR Projects/Recruitment/ December 2025/",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "COEP Technological University Pune has officially announced employment advertisement notification COEP_TECH: Registrar Office/ANRF-PAIR Projects/Recruitment/ December 2025/ inviting applications for 2 vacancies for Research Associate / Junior Research Fellow posts.",
+    "u": "https://www.coeptech.ac.in/wp-content/uploads/2026/09/Rolling-advertisements_COEP-TU_ANRF-PAIR_Project-UID-01-RA-Position_Sep-2026_updated-on-07-09-2026.pdf"
+},
+  {
+    "id": "zilla-parishad-sat-mo-recruitment-2026",
+    "b": "Zilla Parishad Satara",
+    "t": "Zilla Parishad Satara Recruitment 2026 Notification Out for 1 Medical Officer Posts | Walk-in Interview",
+    "d": "10 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "Health/Establishment-1/2865/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Zilla Parishad Satara has officially announced employment advertisement notification Health/Establishment-1/2865/2026 inviting applications for 1 vacancies for Medical Officer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s37cac11e2f46ed46c339ec3d569853759/uploads/2026/09/2026090887610504.pdf"
+},
+  {
+    "id": "iim-mumbai-non-tea-jobs-recruitment-2026",
+    "b": "IIM Mumbai Non Teaching",
+    "t": "IIM Mumbai Non Teaching Recruitment 2026 Notification Out for 1 Total Posts | Apply Online",
+    "d": "10 September 2026",
+    "l": "29 September 2026 (05:00 PM)",
+    "a": "Admn/Rectt/2026/33",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "IIM Mumbai Non Teaching has officially announced employment advertisement notification Admn/Rectt/2026/33 inviting applications for 1 vacancies for Total posts.",
+    "u": "https://iimmumbai.ac.in/storage/uploads/careers/2410/17889347987.pdf"
+},
+  {
     "id": "icar-central-insti-young-professional-recruitment-2026",
     "b": "ICAR Central Institute of Fisheries Education",
     "t": "ICAR Central Institute of Fisheries Education Recruitment 2026 Notification Out for 1 Young Professional-II (YP-II) Posts | Walk-in Interview",
