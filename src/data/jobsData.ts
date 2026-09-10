@@ -552,15 +552,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "madhya-pradesh-police-home-pol-constable-gd-recruitment-2026",
-    "b": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal",
-    "t": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal Recruitment 2026 Notification Out for 7500 Constable (GD) Posts | Apply Online",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal) / MP Police",
+    "t": "MP Police Constable (GD) Recruitment 2026 – Apply Online for 7,500 Vacancies (SAF & DEF Cadres) | MPESB Rulebook",
     "d": "09 September 2026",
-    "l": "6 October 2026",
-    "a": "MADHYA-PRADESH/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Madhya Pradesh Police, Home (Police) Department; exam conducted by MP Karmachari Chayan Mandal (MPESB), Bhopal has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 7500 vacancies for Constable (GD) posts.",
-    "u": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx"
-  },
+    "l": "06 October 2026",
+    "a": "Letter No. पुमु/2/चयन/स-3/583/2026 (Rulebook 2026)",
+    "q": "10th Pass (10+2 System) / Higher Secondary (8th Pass for ST Candidates)",
+    "desc": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal) and Police Headquarters, Home (Police) Department, Government of Madhya Pradesh have officially released the comprehensive examination rulebook for the Direct Recruitment of Police Constable (General Duty) Examination 2026 (आरक्षक (जी.डी.) की सीधी भर्ती हेतु चयन परीक्षा 2026, Notice No: पुमु/2/चयन/स-3/583/2026). A total of 7,500 Constable (GD) vacancies are announced across Special Armed Force (SAF - 700 male posts) and District Executive Force (DEF - 6,800 posts for male and female candidates).",
+    "u": "https://esb.mp.gov.in"
+},
   {
     "id": "kannur-university-junior-research-fellow-jrf-recruitment-2026",
     "b": "Kannur University",
