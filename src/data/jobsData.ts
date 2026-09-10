@@ -3767,7 +3767,7 @@ export const JOBS_DATA: JobEntry[] = [
     "b": "Staff Selection Commission (SSC)",
     "t": "SSC Junior Engineer (JE) & Scientific Assistant (IMD) Recruitment 2026 – Apply Online for 1,748 Vacancies (Notice No. HQ-C-3019/1/2026-C-3)",
     "d": "02 September 2026",
-    "l": "22 September 2026 (23:00 hours)",
+    "l": "22 September 2026",
     "a": "F. No. HQ-C-3019/1/2026-C-3",
     "q": "Degree or 3-Year Diploma in Civil / Electrical / Mechanical / Electronics / Telecom / CS / IT or B.Sc Physics",
     "desc": "Staff Selection Commission (SSC), Ministry of Personnel, Public Grievances & Pensions, Department of Personnel and Training, Government of India has officially released the detailed notification for the Junior Engineer Examination, 2026 (Notice No. HQ-C-3019/1/2026-C-3). The commission is conducting an open competitive examination for direct recruitment to 1,748 tentative vacancies for the posts of Junior Engineer (Civil, Electrical, Mechanical, Telecommunication) across key central government ministries and departments, along with Scientific Assistant in India Meteorological Department (IMD).",
