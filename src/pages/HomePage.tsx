@@ -329,21 +329,21 @@ export default function HomePage() {
   // Master qualification group cache (computed once in O(N) single-pass)
   const allQualGroups = useMemo(() => getQualificationGroups(activeJobsData), [activeJobsData]);
 
-  // Compute filtered sections using deferredSearch
+  // Compute filtered sections using deferredSearch with multi-token out-of-order matching
   const currentSections = useMemo(() => {
-    const searchLower = deferredSearch.toLowerCase().trim();
-    if (!searchLower) {
+    const trimmed = deferredSearch.trim().toLowerCase();
+    if (!trimmed) {
       return allQualGroups;
     }
 
+    const tokens = trimmed.split(/\s+/).filter(Boolean);
+
     return allQualGroups
       .map(group => {
-        const matchingJobs = group.jobs.filter(job => 
-          job.b.toLowerCase().includes(searchLower) ||
-          job.t.toLowerCase().includes(searchLower) ||
-          job.q.toLowerCase().includes(searchLower) ||
-          job.a.toLowerCase().includes(searchLower)
-        );
+        const matchingJobs = group.jobs.filter(job => {
+          const haystack = [job.b, job.t, job.q, job.a, job.desc, job.id].filter(Boolean).join(' ').toLowerCase();
+          return tokens.every(token => haystack.includes(token));
+        });
         return {
           ...group,
           count: matchingJobs.length,
@@ -354,6 +354,9 @@ export default function HomePage() {
   }, [deferredSearch, allQualGroups]);
 
   const displayedSections = currentSections;
+
+  const isManualScrollingRef = useRef(false);
+  const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Scroll monitoring for floating search bar & active section indicator
   useEffect(() => {
@@ -366,15 +369,27 @@ export default function HomePage() {
         setIsHeroScrolledPast(window.scrollY > 300);
       }
 
-      // 2. Detect active section
-      if (displayedSections.length === 0) return;
-      const scrollPos = window.scrollY + 140;
-      let active = displayedSections[0].slug;
+      // 2. Suppress active section override while smooth scrolling from a button click
+      if (isManualScrollingRef.current) return;
 
-      for (const sec of displayedSections) {
+      // 3. Detect active section
+      if (displayedSections.length === 0) return;
+
+      // If user has scrolled near bottom of page, activate the last section
+      const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 70;
+      if (isAtBottom) {
+        setActiveSectionSlug(displayedSections[displayedSections.length - 1].slug);
+        return;
+      }
+
+      // Viewport-based detection: section whose top is closest to reading line (<= 140px)
+      let active = displayedSections[0].slug;
+      for (let i = 0; i < displayedSections.length; i++) {
+        const sec = displayedSections[i];
         const el = document.getElementById(`section-${sec.slug}`);
         if (el) {
-          if (el.offsetTop <= scrollPos) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 140) {
             active = sec.slug;
           } else {
             break;
@@ -386,7 +401,12 @@ export default function HomePage() {
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeoutRef.current) {
+        clearTimeout(scrollTimeoutRef.current);
+      }
+    };
   }, [displayedSections]);
 
   // Keep the active pill centered in the bottom sticky bar
@@ -403,24 +423,39 @@ export default function HomePage() {
   }, [activeSectionSlug]);
 
   const scrollToSection = (slug: string) => {
-    setActiveSectionSlug(slug);
     const element = document.getElementById(`section-${slug}`);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!element) return;
+
+    // Suppress scroll listener from changing activeSectionSlug during smooth scroll
+    isManualScrollingRef.current = true;
+    setActiveSectionSlug(slug);
+
+    if (scrollTimeoutRef.current) {
+      clearTimeout(scrollTimeoutRef.current);
     }
+
+    // Measure exact position with getBoundingClientRect + scrollY, accounting for fixed headers & search bar
+    const headerOffset = 80;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+    window.scrollTo({
+      top: Math.max(0, offsetPosition),
+      behavior: 'smooth'
+    });
+
+    scrollTimeoutRef.current = setTimeout(() => {
+      isManualScrollingRef.current = false;
+    }, 850);
   };
 
   const handleSelectSection = (slug: string) => {
     setIsSectionPickerOpen(false);
     setPickerSearchQuery('');
-    setActiveSectionSlug(slug);
 
     setTimeout(() => {
-      const element = document.getElementById(`section-${slug}`);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 40);
+      scrollToSection(slug);
+    }, 60);
   };
 
   return (
@@ -578,7 +613,7 @@ export default function HomePage() {
       </div>
 
       {/* Main Dashboard Container */}
-      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto px-2.5 sm:px-6 2xl:px-8 py-3 sm:py-6 2xl:py-8 pb-24 md:pb-8 space-y-4 sm:space-y-6">
+      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto px-2.5 sm:px-6 2xl:px-8 py-3 sm:py-6 2xl:py-8 pb-36 md:pb-8 space-y-4 sm:space-y-6">
         
         {/* Adsterra Display Banner */}
         <AdsterraBanner />

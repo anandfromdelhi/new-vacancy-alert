@@ -230,38 +230,44 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
   if (!isOpen) return null;
 
   const cleanQuery = query.trim().toLowerCase();
+  const queryTokens = cleanQuery ? cleanQuery.split(/\s+/).filter(Boolean) : [];
 
   // Target jobs pool: If customJobsPool is passed, use ONLY that pool
   const jobsPool = customJobsPool || JOBS_DATA;
 
-  // Search logic for jobs
-  const jobResults = cleanQuery
-    ? jobsPool.filter(job => {
-        const board = (job.b || '').toLowerCase();
-        const title = (job.t || '').toLowerCase();
-        const qual = (job.q || '').toLowerCase();
-        const advt = (job.a || '').toLowerCase();
-        const desc = (job.desc || '').toLowerCase();
-        const id = (job.id || '').toLowerCase();
+  // Search logic for jobs: all query tokens must match anywhere in the job (regardless of order)
+  const jobResults = queryTokens.length > 0
+    ? jobsPool
+        .filter(job => {
+          const haystack = [
+            job.t,
+            job.b,
+            job.q,
+            job.a,
+            job.desc,
+            job.id
+          ].filter(Boolean).join(' ').toLowerCase();
 
-        return (
-          title.includes(cleanQuery) ||
-          board.includes(cleanQuery) ||
-          qual.includes(cleanQuery) ||
-          advt.includes(cleanQuery) ||
-          desc.includes(cleanQuery) ||
-          id.includes(cleanQuery)
-        );
-      }).slice(0, 20)
+          return queryTokens.every(token => haystack.includes(token));
+        })
+        .sort((a, b) => {
+          // Prioritize exact phrase matches first
+          const hayA = [a.t, a.b, a.q, a.a].filter(Boolean).join(' ').toLowerCase();
+          const hayB = [b.t, b.b, b.q, b.a].filter(Boolean).join(' ').toLowerCase();
+          const exactA = hayA.includes(cleanQuery) ? 1 : 0;
+          const exactB = hayB.includes(cleanQuery) ? 1 : 0;
+          if (exactA !== exactB) return exactB - exactA;
+          return parseDateString(b.d).getTime() - parseDateString(a.d).getTime();
+        })
+        .slice(0, 25)
     : [];
 
   // Search logic for additional pages (disabled when customJobsPool is active)
-  const pageResults = (!customJobsPool && cleanQuery)
-    ? ADDITIONAL_PAGES.filter(p => 
-        p.title.toLowerCase().includes(cleanQuery) ||
-        p.category.toLowerCase().includes(cleanQuery) ||
-        (p.subtitle && p.subtitle.toLowerCase().includes(cleanQuery))
-      )
+  const pageResults = (!customJobsPool && queryTokens.length > 0)
+    ? ADDITIONAL_PAGES.filter(p => {
+        const haystack = `${p.title} ${p.category} ${p.subtitle || ''}`.toLowerCase();
+        return queryTokens.every(token => haystack.includes(token));
+      })
     : [];
 
   const totalResultsCount = jobResults.length + pageResults.length;
@@ -293,21 +299,28 @@ export const GoogleSearchOverlay: React.FC<GoogleSearchOverlayProps> = ({
     inputRef.current?.focus();
   };
 
-  // Utility to highlight search query within text
-  const renderHighlightedText = (text: string, highlight: string) => {
-    if (!highlight) return text;
-    const index = text.toLowerCase().indexOf(highlight.toLowerCase());
-    if (index === -1) return text;
+  // Utility to highlight search query tokens within text
+  const renderHighlightedText = (text: string, queryString: string) => {
+    if (!queryString || !text) return text;
+    const tokens = queryString.trim().toLowerCase().split(/\s+/).filter(t => t.length > 0);
+    if (tokens.length === 0) return text;
 
-    const before = text.substring(0, index);
-    const match = text.substring(index, index + highlight.length);
-    const after = text.substring(index + highlight.length);
+    const escapedTokens = tokens.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const regex = new RegExp(`(${escapedTokens.join('|')})`, 'gi');
+    const parts = text.split(regex);
 
     return (
       <>
-        {before}
-        <span className="text-blue-600 font-extrabold underline decoration-blue-500/40 underline-offset-2">{match}</span>
-        {after}
+        {parts.map((part, i) => {
+          const isMatch = tokens.includes(part.toLowerCase());
+          return isMatch ? (
+            <span key={i} className="text-blue-600 font-extrabold underline decoration-blue-500/40 underline-offset-2">
+              {part}
+            </span>
+          ) : (
+            <React.Fragment key={i}>{part}</React.Fragment>
+          );
+        })}
       </>
     );
   };
