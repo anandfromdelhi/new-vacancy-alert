@@ -189,14 +189,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "tslprb-police-constable-recruitment-2026-3056807",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Recruitment 2026 Notification Out for 325 Police Constable, ASI, Station Fire Officer & More Posts | Apply Online",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
+    "t": "Telangana Police (TSLPRB) SI, ASI, Station Fire Officer & Constable Recruitment 2026 – Apply Online for 325 Posts Across 3 Notifications",
     "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "Rc. No. 225/Rect./Rect.-1/2026 (SI Civil, RSI, SPF SI, SFO, Deputy Jailor); Rc. No. 234/Rect./Rect.-3/2026 (PC Mechanic & Driver); Rc. No. 279/Rect./Rect.-3/2026 (ASI FPB)",
-    "q": "Local candidature and reservation rules under the Presidential Order 201...",
-    "desc": "Telangana State Level Police Recruitment Board (TSLPRB) has officially announced employment advertisement notification Rc. No. 225/Rect./Rect.-1/2026 (SI Civil, RSI, SPF SI, SFO, Deputy Jailor); Rc. No. 234/Rect./Rect.-3/2026 (PC Mechanic & Driver); Rc. No. 279/Rect./Rect.-3/2026 (ASI FPB) inviting applications for 325 vacancies for Police Constable, ASI, Station Fire Officer & More posts.",
-    "u": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20Second%20Supplementary%20Notification%202026%20%20dated%2010%20Sep%202026.pdf"
+    "l": "16 September 2026 (05:00 PM)",
+    "a": "Rc. Nos. 225/Rect./Rect-1/2026, 279/Rect./Rect-3/2026 & 234/Rect./Rect-3/2026 (Dated 29.07.2026) & Press Note Dated 10.09.2026",
+    "q": "Any Degree for SI/SFO/Jailor; B.E./B.Tech/B.Sc (IT/CS) for ASI FPB; SSC + ITI / Inter + Driving License for PC",
+    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued three major detailed recruitment notifications (Rc. Nos. 225, 279, and 234/Rect./2026) dated 29th July 2026 along with an official Press Note dated 10th September 2026 for direct recruitment to 325 executive and technical posts across the Telangana Police Department, Telangana Special Protection Force (TSPF), Telangana State Disaster Response & Fire Services Department, and Telangana Prisons & Correctional Services Department.",
+    "u": "https://www.tgprb.in"
 },
   {
     "id": "tslprb-police-constable-recruitment-2026",
@@ -9495,15 +9495,15 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "tslprb-si-asi-constable-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) SI, ASI & Constable Recruitment 2026 – 325 Posts Across 3 Notifications",
-    "d": "29-07-2026",
-    "l": "To Be Announced (Online Portal)",
-    "a": "Notification Nos. 225, 279 & 234/Rect./2026 dated 29-07-2026",
-    "q": "Degree / B.E / B.Tech / B.Sc (CS) / 10th / Intermediate + ITI / Driving License",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued three major recruitment notifications (Rc. Nos. 225, 279, and 234/Rect./2026) dated 29th July 2026 for direct recruitment to 325 executive and technical posts across Police, Fire Services, Prisons, and Special Protection Force Departments.",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
+    "t": "Telangana Police (TSLPRB) SI, ASI, Station Fire Officer & Constable Recruitment 2026 – Apply Online for 325 Posts Across 3 Notifications",
+    "d": "29 July 2026",
+    "l": "16 September 2026 (05:00 PM)",
+    "a": "Rc. Nos. 225/Rect./Rect-1/2026, 279/Rect./Rect-3/2026 & 234/Rect./Rect-3/2026 (Dated 29.07.2026) & Press Note Dated 10.09.2026",
+    "q": "Any Degree for SI/SFO/Jailor; B.E./B.Tech/B.Sc (IT/CS) for ASI FPB; SSC + ITI / Inter + Driving License for PC",
+    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued three major detailed recruitment notifications (Rc. Nos. 225, 279, and 234/Rect./2026) dated 29th July 2026 along with an official Press Note dated 10th September 2026 for direct recruitment to 325 executive and technical posts across the Telangana Police Department, Telangana Special Protection Force (TSPF), Telangana State Disaster Response & Fire Services Department, and Telangana Prisons & Correctional Services Department.",
     "u": "https://www.tgprb.in"
-  },
+},
   {
     "id": "rajasthan-safai-karmchari-recruitment-2026",
     "d": "27 jul 2026",
