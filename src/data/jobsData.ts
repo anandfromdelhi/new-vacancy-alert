@@ -398,13 +398,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "boi-officers-in-recruitment-2026",
-    "b": "Bank of India (BOI)",
-    "t": "Bank of India (BOI) Recruitment 2026 Notification Out for 205 Officers in various Specialist streams (48 posts, Scale I to IV) Posts | Apply Online",
+    "b": "Bank of India (BOI), Head Office Mumbai",
+    "t": "Bank of India (BOI) Specialist Officers (SO) Recruitment 2026 (Project No. 2026-27/02) – Apply Online for 205 Posts (Scale I to IV)",
     "d": "10 September 2026",
     "l": "25 September 2026",
-    "a": "BANK-OF-INDIA-/2026",
-    "q": "B.Tech / B.E | M.Sc | MCA / BCA",
-    "desc": "Bank of India (BOI) has officially announced employment advertisement notification BANK-OF-INDIA-/2026 inviting applications for 205 vacancies for Officers in various Specialist streams (48 posts, Scale I to IV) posts.",
+    "a": "Project No. 2026-27/02 Notice dated 01.08.2026",
+    "q": "B.E./B.Tech (IT/CS/ECE/Civil/Fire) / MCA / M.Sc / LLB / Certifications (CISA/CISM/CISSP)",
+    "desc": "Bank of India (BOI), a leading premier Public Sector Bank headquartered at Star House, Bandra-Kurla Complex, Mumbai, has published official recruitment notification under Project No. 2026-27/02 dated 01.08.2026 for direct recruitment of 205 Specialist Officers in various professional streams across Junior Management Grade Scale-I, Middle Management Grade Scale-II & III, and Senior Management Grade Scale-IV.",
     "u": "https://ibpsreg.ibps.in/boiaug26/"
 },
   {
@@ -6250,15 +6250,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "bank-of-india-so-specialist-officers-recruitment-2026",
-    "b": "Bank of India (BOI)",
-    "t": "Bank of India (BOI) SO Recruitment 2026 Notification Out for 205 Specialist Officer Posts (Scale I to IV)",
+    "b": "Bank of India (BOI), Head Office Mumbai",
+    "t": "Bank of India (BOI) Specialist Officers (SO) Recruitment 2026 (Project No. 2026-27/02) – Apply Online for 205 Posts (Scale I to IV)",
     "d": "01 August 2026",
     "l": "25 September 2026",
-    "a": "Project No. 2026-27/02 Dated 01.08.2026",
-    "q": "B.E. / B.Tech (IT/CS/ECE/Civil/Fire) / MCA / LLB / Graduate",
-    "desc": "Bank of India (BOI), a premier Public Sector Bank headquartered in Mumbai, has published an official recruitment advertisement under Project No. 2026-27/02 on 01 August 2026 for 205 Specialist Officer (SO) vacancies across 48 specialised positions in Scale I, Scale II, Scale III, and Scale IV.",
-    "u": "https://bankofindia.bank.in/"
-  },
+    "a": "Project No. 2026-27/02 Notice dated 01.08.2026",
+    "q": "B.E./B.Tech (IT/CS/ECE/Civil/Fire) / MCA / M.Sc / LLB / Certifications (CISA/CISM/CISSP)",
+    "desc": "Bank of India (BOI), a leading premier Public Sector Bank headquartered at Star House, Bandra-Kurla Complex, Mumbai, has published official recruitment notification under Project No. 2026-27/02 dated 01.08.2026 for direct recruitment of 205 Specialist Officers in various professional streams across Junior Management Grade Scale-I, Middle Management Grade Scale-II & III, and Senior Management Grade Scale-IV.",
+    "u": "https://ibpsreg.ibps.in/boiaug26/"
+},
   {
     "id": "tmc-muzaffarpur-quality-manager-supervisor-recruitment-2026",
     "b": "Tata Memorial Centre (TMC) / Homi Bhabha Cancer Hospital & Research Centre, Muzaffarpur",
