@@ -79,14 +79,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "up-anganwadi-worke-in-amethi-recruitment-2026",
-    "b": "UP Anganwadi Worker",
-    "t": "UP Anganwadi Worker Recruitment 2026 Notification Out for 172 Posts in Amethi District Posts | Apply Online",
+    "b": "Bal Vikas Seva Evam Pushtahar Vibhag, Uttar Pradesh (District Programme Office, Amethi)",
+    "t": "UP Anganwadi Recruitment 2026 (District Amethi) – Apply Online for 172 Anganwadi Karyakatri (Worker) Posts",
     "d": "10 September 2026",
-    "l": "21 September 2026, till midnight 12:00 AM",
-    "a": "UP-ANGANWADI-W/2026",
-    "q": "12th Pass | B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "UP Anganwadi Worker has officially announced employment advertisement notification UP-ANGANWADI-W/2026 inviting applications for 172 vacancies for Posts in Amethi District posts.",
-    "u": "https://bareilly.nic.in/"
+    "l": "21 September 2026 (11:59 PM)",
+    "a": "पत्रांक C-2615 / जि०का०अधि० / आ०बा०भर्ती / 2026-27 (Dated 31.08.2026) & Corrigendum C-2667 (Dated 05.09.2026)",
+    "q": "Intermediate (10+2 / 12th Pass) or equivalent (Merit calculated from 12th up to Post Graduation)",
+    "desc": "District Programme Officer, Amethi (Bal Vikas Seva Evam Pushtahar Vibhag, Government of Uttar Pradesh) has officially announced direct recruitment advertisement notification (Letter No. C-2615 dated 31.08.2026 and corrigendum C-2667 dated 05.09.2026) inviting online applications from eligible female candidates for 172 vacancies of Anganwadi Karyakatri (Honorarium / Contractual basis) across 13 Child Development Projects (Blocks) in Amethi district.",
+    "u": "http://upanganwadibharti.in"
 },
   {
     "id": "mmmut-junior-research-recruitment-2026",
