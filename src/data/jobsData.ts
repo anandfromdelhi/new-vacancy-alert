@@ -200,13 +200,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "tslprb-police-constable-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Recruitment 2026 Notification Out for 7112 Police Constable, SPF Constable, Fire Fighter and Warder Posts | Apply Online",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
+    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable, SPF Constable, Fire Fighter & Warder Recruitment 2026 – Apply Online for 7,112 Posts",
     "d": "10 September 2026",
     "l": "16 September 2026",
-    "a": "Rc No. 189 / Rect. / Rect-2 / 2026",
-    "q": "12th Pass",
-    "desc": "Telangana State Level Police Recruitment Board (TSLPRB) has officially announced employment advertisement notification Rc No. 189 / Rect. / Rect-2 / 2026 inviting applications for 7112 vacancies for Police Constable, SPF Constable, Fire Fighter and Warder posts.",
+    "a": "Rc No. 189 / Rect. / Rect-2 / 2026 dated 29.07.2026",
+    "q": "Intermediate (10+2) or equivalent (+ Valid LMV License for Fire Fighter)",
+    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has released official recruitment notification Rc No. 189 / Rect. / Rect-2 / 2026 dated 29th July 2026 inviting online applications for direct recruitment to 7,112 executive and uniformed posts across Telangana Police Department, Special Protection Force (TSPF), Telangana Fire & Disaster Response Department, and Prisons & Correctional Services Department.",
     "u": "https://www.tgprb.in/"
 },
   {
@@ -9484,15 +9484,15 @@ export const JOBS_DATA: JobEntry[] = [
   },
   {
     "id": "tslprb-constable-firemen-warder-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable, Fire Fighter & Warder Recruitment 2026 – 7,112 Posts",
-    "d": "29-07-2026",
-    "l": "To Be Announced (Online Portal)",
+    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
+    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable, SPF Constable, Fire Fighter & Warder Recruitment 2026 – Apply Online for 7,112 Posts",
+    "d": "29 July 2026",
+    "l": "16 September 2026",
     "a": "Rc No. 189 / Rect. / Rect-2 / 2026 dated 29.07.2026",
-    "q": "Intermediate (10+2) or equivalent (Valid LMV driving license for Fire Fighter)",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued recruitment notification Rc No. 189/Rect./Rect-2/2026 dated 29th July 2026 for direct recruitment to 7,112 executive and technical posts across Police, Fire Services, Prisons, and Special Protection Force Departments.",
-    "u": "https://www.tgprb.in"
-  },
+    "q": "Intermediate (10+2) or equivalent (+ Valid LMV License for Fire Fighter)",
+    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has released official recruitment notification Rc No. 189 / Rect. / Rect-2 / 2026 dated 29th July 2026 inviting online applications for direct recruitment to 7,112 executive and uniformed posts across Telangana Police Department, Special Protection Force (TSPF), Telangana Fire & Disaster Response Department, and Prisons & Correctional Services Department.",
+    "u": "https://www.tgprb.in/"
+},
   {
     "id": "tslprb-si-asi-constable-recruitment-2026",
     "b": "Telangana State Level Police Recruitment Board (TSLPRB)",
