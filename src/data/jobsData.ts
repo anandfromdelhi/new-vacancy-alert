@@ -706,14 +706,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "jkssb-horticulture-technic-recruitment-2026",
-    "b": "JKSSB",
-    "t": "JKSSB Recruitment 2026 Notification Out for 518 Horticulture Technician, Junior Staff Nurse and More Posts | Apply Online",
+    "b": "Jammu & Kashmir Services Selection Board (JKSSB)",
+    "t": "Jammu & Kashmir Services Selection Board (JKSSB) UT, Divisional & District Cadre Recruitment 2026 (Advt No. 08 of 2026) – Apply Online for 518 Posts",
     "d": "10 September 2026",
-    "l": "9 October 2026",
-    "a": "tification No",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "JKSSB has officially announced employment advertisement notification tification No inviting applications for 518 vacancies for Horticulture Technician, Junior Staff Nurse and More posts.",
-    "u": "https://jkssb.nic.in/dynamic-jkssb-test/pages/login.aspx"
+    "l": "09 October 2026",
+    "a": "Advertisement Notification No. 08 of 2026 Dated 04.08.2026",
+    "q": "Matric / 10+2 with Diploma/Training / B.Sc Science Degree + J&K Domicile",
+    "desc": "The Jammu and Kashmir Services Selection Board (JKSSB), Muthi, Akhnoor Road, Jammu / ZamZam Complex Rambagh, Srinagar, has issued Advertisement Notification No. 08 of 2026 dated 04th August 2026 for direct recruitment to 518 UT, Divisional, and District Cadre posts across four key government departments: Health and Medical Education (421 posts), Higher Education (48 posts), Agriculture Production (46 posts), and Labour and Employment (3 posts).",
+    "u": "https://jkssb.nic.in/Pdf/Advertisement_08OF2026_04082026.pdf"
 },
   {
     "id": "csir-institute-of-various-project-recruitment-2026",
@@ -9364,14 +9364,14 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "jkssb-district-divisional-ut-cadre-recruitment-2026",
     "b": "Jammu & Kashmir Services Selection Board (JKSSB)",
-    "t": "JKSSB UT, Divisional & District Cadre Recruitment 2026 (Advt 08 of 2026) – 518 Vacancies",
-    "d": "04-08-2026",
+    "t": "Jammu & Kashmir Services Selection Board (JKSSB) UT, Divisional & District Cadre Recruitment 2026 (Advt No. 08 of 2026) – Apply Online for 518 Posts",
+    "d": "04 August 2026",
     "l": "09 October 2026",
     "a": "Advertisement Notification No. 08 of 2026 Dated 04.08.2026",
-    "q": "10th / 10+2 with Basic Horticulture Training / ITI / Diploma in Pharmacy / GNM / Lab Tech / B.Sc Science Degree + J&K Domicile",
-    "desc": "Jammu and Kashmir Services Selection Board (JKSSB) has issued Advertisement Notification No. 08 of 2026 for direct recruitment to 518 UT, Divisional, and District Cadre posts across various J&K Government Departments.",
-    "u": "https://jkssb.nic.in"
-  },
+    "q": "Matric / 10+2 with Diploma/Training / B.Sc Science Degree + J&K Domicile",
+    "desc": "The Jammu and Kashmir Services Selection Board (JKSSB), Muthi, Akhnoor Road, Jammu / ZamZam Complex Rambagh, Srinagar, has issued Advertisement Notification No. 08 of 2026 dated 04th August 2026 for direct recruitment to 518 UT, Divisional, and District Cadre posts across four key government departments: Health and Medical Education (421 posts), Higher Education (48 posts), Agriculture Production (46 posts), and Labour and Employment (3 posts).",
+    "u": "https://jkssb.nic.in/Pdf/Advertisement_08OF2026_04082026.pdf"
+},
   {
     "id": "opsc-assistant-executive-engineer-civil-recruitment-2026",
     "b": "Odisha Public Service Commission (OPSC)",
