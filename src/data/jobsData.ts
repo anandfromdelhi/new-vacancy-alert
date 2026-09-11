@@ -1004,13 +1004,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "ssc-si-gd-recruitment-2026",
     "b": "Staff Selection Commission (SSC)",
-    "t": "Staff Selection Commission (SSC) Recruitment 2026 Notification Out for 1871 SI (GD) in CAPFs, SI (Executive) in Delhi Police (Male/Female), SI (Fire) in CISF (Male) Posts | Apply Online",
+    "t": "Staff Selection Commission (SSC) Sub-Inspector (SI) in Delhi Police and Central Armed Police Forces (CAPFs) Examination, 2026 – Apply Online for 1,871 Posts",
     "d": "10 September 2026",
-    "l": "30 September 2026 (23:00 hrs)",
-    "a": "STAFF-SELECTIO/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Staff Selection Commission (SSC) has officially announced employment advertisement notification STAFF-SELECTIO/2026 inviting applications for 1871 vacancies for SI (GD) in CAPFs, SI (Executive) in Delhi Police (Male/Female), SI (Fire) in CISF (Male) posts.",
-    "u": "https://ssc.gov.in/login"
+    "l": "30 September 2026 (11:00 PM)",
+    "a": "Notice No. E/37/2026-C-2 SECTION (Dated 10.09.2026)",
+    "q": "Bachelor's Degree in any discipline (Valid LMV Driving License mandatory for Delhi Police Male SI); B.Sc PCM or Engineering Diploma for CISF SI (Fire)",
+    "desc": "The Staff Selection Commission (SSC) has officially released the detailed notification for the Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026 (Notice No. E/37/2026-C-2 dated 10.09.2026) to recruit 1,871 Sub-Inspectors across Delhi Police, BSF, CISF, CRPF, ITBP, and SSB under Level-6 of the 7th CPC Pay Matrix (₹35,400 to ₹1,12,400).",
+    "u": "https://ssc.gov.in"
 },
   {
     "id": "government-institute-of-medica-audiologist-audiometry-technic-recruitment-2026",
