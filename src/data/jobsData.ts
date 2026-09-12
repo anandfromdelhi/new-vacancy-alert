@@ -542,13 +542,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "upsc-specialist-assistant-recruitment-2026",
     "b": "Union Public Service Commission (UPSC)",
-    "t": "Union Public Service Commission (UPSC) Recruitment 2026 Notification Out for 212 Specialist, Assistant Professor and More Posts | Apply Online",
+    "t": "Union Public Service Commission (UPSC) Recruitment 2026 Notification Out for 212 Assistant Public Prosecutor, Assistant Professor, Specialist & Law Officer Posts (Advt No. 11/2026) | Apply Online",
     "d": "12 September 2026",
-    "l": "09 October 2026",
+    "l": "02 October 2026 (18:00 HRS)",
     "a": "11/2026",
-    "q": "Diploma | B.Tech / B.E | M.Sc",
-    "desc": "Union Public Service Commission (UPSC) has officially announced employment advertisement notification 11/2026 inviting applications for 212 vacancies for Specialist, Assistant Professor and More posts.",
-    "u": "https://upsconline.nic.in/candidate/realms/candidate-portal/protocol/openid-connect/auth?client_id=account&redirect_uri=https%3A%2F%2Fupsconline.nic.in%2Fcandidate%2Frealms%2Fcandidate-portal%2Faccount%2Flogin-redirect&state=0%2F7e9ebe66-9192-399c-852f-3c3aba4df57e&response_type=code&scope=openid"
+    "q": "Assistant Public Prosecutor (140 Posts): Degree in Law (LL.B) from a recognized University/Institute. Three years active",
+    "desc": "Union Public Service Commission (UPSC) has officially published Advertisement No. 11/2026 inviting Online Recruitment Applications (ORA) for direct recruitment by selection to 212 prestigious Group 'A' and Group 'B' Gazetted positions across various Central Government Ministries, Departments, Union Territories, and Autonomous Councils through the official Commission portal at https://upsconline.nic.in.",
+    "u": "https://upsconline.nic.in"
 },
   {
     "id": "ncrtc-supervisor-and-recruitment-2026",
