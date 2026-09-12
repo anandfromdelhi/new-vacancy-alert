@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bharatratna-atal-b-assistant-professor-recruitment-2026",
+    "b": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune)",
+    "t": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune) Recruitment 2026 Notification Out for 1 Assistant Professor (Community Medicine - UHTC) Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "11201",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune) has officially announced employment advertisement notification 11201 inviting applications for 1 vacancies for Assistant Professor (Community Medicine - UHTC) posts.",
+    "u": "https://www.bavmcpune.edu.in/wp-content/uploads/2026/09/%E0%A4%AE%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%96%E0%A4%A4-%E0%A4%B5%E0%A5%87%E0%A4%B3%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95-%E0%A4%B6%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95.pdf"
+},
+  {
+    "id": "csir-neeri-project-associate-recruitment-2026",
+    "b": "National Environmental Engineering Research Institute (CSIR NEERI)",
+    "t": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "16 September 2026",
+    "a": "RECRUIT_SD_2A_WESD_09092026",
+    "q": "B.Tech / B.E",
+    "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially announced employment advertisement notification RECRUIT_SD_2A_WESD_09092026 inviting applications for 1 vacancies for Project Associate-II posts.",
+    "u": "https://recruitment.neeri.res.in"
+},
+  {
+    "id": "csir-neeri-technical-assistant-recruitment-2026",
+    "b": "National Environmental Engineering Research Institute (CSIR NEERI)",
+    "t": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 Notification Out for 13 Technical Assistant Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "15 October 2026",
+    "a": "NEERI/2020",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially announced employment advertisement notification NEERI/2020 inviting applications for 13 vacancies for Technical Assistant posts.",
+    "u": "https://www.freejobalert.com/articles/csir-neeri-technical-assistant-recruitment-2026-apply-online-for-13-posts-3067488"
+},
+  {
+    "id": "indian-institute-o-assistant-programme-recruitment-2026",
+    "b": "Indian Institute of Management Nagpur (IIM Nagpur)",
+    "t": "Indian Institute of Management Nagpur (IIM Nagpur) Recruitment 2026 Notification Out for 1 Assistant Programme Administrator Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Nagpur (IIM Nagpur) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Assistant Programme Administrator posts.",
+    "u": "https://iimnagpurnt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "aiims-bhopal-project-research-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 3 Project Research Scientist I (Medical) and Project Technical Support II Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "AIIMS/BPL/",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has officially announced employment advertisement notification AIIMS/BPL/ inviting applications for 3 vacancies for Project Research Scientist I (Medical) and Project Technical Support II posts.",
+    "u": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Project_Advert_(1).pdf"
+},
+  {
+    "id": "indian-institute-o-project-research-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+    "t": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal) Recruitment 2026 Notification Out for 1 Project Research Scientist-III (Non-Medical) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "23 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Research Scientist-III (Non-Medical) posts.",
+    "u": "https://forms.gle/UCXghjtKvwPZMZ1e8"
+},
+  {
+    "id": "indian-institute-o-jrf-recruitment-2026-3067420",
+    "b": "Indian Institute of Science Education and Research Bhopal",
+    "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Project Junior Research Fellow Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "20 September 2026",
+    "a": "CHM/MK/2026/01",
+    "q": "M.Sc",
+    "desc": "Indian Institute of Science Education and Research Bhopal has officially announced employment advertisement notification CHM/MK/2026/01 inviting applications for 1 vacancies for Project Junior Research Fellow posts.",
+    "u": "https://www.iiserb.ac.in/assets_external/vacancy/r&d/bd04da1433fe77491edef191fe83595c.pdf"
+},
+  {
+    "id": "security-paper-mil-mo-recruitment-2026",
+    "b": "Security Paper Mill Narmadapuram",
+    "t": "Security Paper Mill Narmadapuram Recruitment 2026 Notification Out for 2 Medical Officer and Consultant (Civil) Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "12 October 2026",
+    "a": "SECURITY-PAPER/2026",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Security Paper Mill Narmadapuram has officially announced employment advertisement notification SECURITY-PAPER/2026 inviting applications for 2 vacancies for Medical Officer and Consultant (Civil) posts.",
+    "u": "https://spmnarmadapuram.spmcil.com"
+},
+  {
+    "id": "national-institute-faculty-designer-recruitment-2026",
+    "b": "National Institute of Design Madhya Pradesh (NID Madhya Pradesh)",
+    "t": "National Institute of Design Madhya Pradesh (NID Madhya Pradesh) Recruitment 2026 Notification Out for 7 Faculty / Designer Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "30 October 2026",
+    "a": "NIDMP/1-70/ (25) Rectt",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Design Madhya Pradesh (NID Madhya Pradesh) has officially announced employment advertisement notification NIDMP/1-70/ (25) Rectt inviting applications for 7 vacancies for Faculty / Designer posts.",
+    "u": "https://nidmp.ac.in/wp-content/uploads/2026/09/Recruitment-to-the-various-Posts-of-Faculty-dated-03.09.2026.pdf"
+},
+  {
+    "id": "csl-nurse-male-recruitment-2026",
+    "b": "Cochin Shipyard (CSL)",
+    "t": "Cochin Shipyard (CSL) Recruitment 2026 Notification Out for 1 Nurse (Male) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "03 October 2026",
+    "a": "CSL/P",
+    "q": "Diploma | Nursing (GNM / B.Sc)",
+    "desc": "Cochin Shipyard (CSL) has officially announced employment advertisement notification CSL/P inviting applications for 1 vacancies for Nurse (Male) posts.",
+    "u": "https://csl.cochinshipyard.in:8000/sap/bc/webdynpro/sap/hrrcf_a_candidate_registration?sap-language=EN#"
+},
+  {
     "id": "cochin-port-author-assistant-marine-recruitment-2026",
     "b": "Cochin Port Authority",
     "t": "Cochin Port Authority Recruitment 2026 Notification Out for 7 Assistant Marine Services Officer (AMSO) Posts | Apply Online",
