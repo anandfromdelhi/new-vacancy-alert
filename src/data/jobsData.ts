@@ -278,13 +278,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "optcl-degree-engineering-recruitment-2026",
     "b": "Odisha Power Transmission Corporation Limited (OPTCL)",
-    "t": "Odisha Power Transmission Corporation Limited (OPTCL) Recruitment 2026 Notification Out for 100 Degree Engineering Apprentice, Degree Non-Engineering Apprentice, Diploma Technician Apprentice, ITI Trade Apprentice Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "11:59 PM, 1 October 2026 (Thursday)",
-    "a": "OPTCL-14013/9/2026-T AND D - Part (1) - 14389",
-    "q": "B.Tech / B.E | B.Sc | B.Com",
-    "desc": "Odisha Power Transmission Corporation Limited (OPTCL) has officially announced employment advertisement notification OPTCL-14013/9/2026-T AND D - Part (1) - 14389 inviting applications for 100 vacancies for Degree Engineering Apprentice, Degree Non-Engineering Apprentice, Diploma Technician Apprentice, ITI Trade Apprentice posts.",
-    "u": "https://www.optcl.co.in/Writereaddata/Downloads/Full_Advt_2026-27.pdf"
+    "t": "Odisha Power Transmission Corporation Limited (OPTCL) Recruitment 2026 Notification Out for 100 Graduate, Diploma & ITI Trade Apprentice Posts | Apply Online",
+    "d": "29 August 2026",
+    "l": "01 October 2026 (11:59 PM)",
+    "a": "OPTCL-14013/9/2026-T AND D – Part (1) - 14389",
+    "q": "Degree Engineering Apprentices: B.E. / B.Tech in Electrical, Electrical & Electronics, Computer Science, IT, Electronics",
+    "desc": "Odisha Power Transmission Corporation Limited (OPTCL), a premier State-owned Power Transmission Utility under the Government of Odisha, has officially released employment advertisement notification No. OPTCL-14013/9/2026-T AND D – Part (1) - 14389 dated 29 August 2026 for engagement of 100 Graduate (Engineering & Non-Engineering), Diploma Technician, and Trade (ITI) Apprentices for a one-year apprenticeship training period under The Apprentices Act, 1961 (as amended in 1961, 1973 & 2014).",
+    "u": "https://www.optcl.co.in"
 },
   {
     "id": "icar-crri-young-professional-recruitment-2026",
