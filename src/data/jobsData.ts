@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-legal-ser-para-legal-recruitment-2026",
+    "b": "District Legal Services Authority Kalimpong (DLSA Kalimpong)",
+    "t": "District Legal Services Authority Kalimpong (DLSA Kalimpong) Recruitment 2026 Notification Out for 13 Para Legal Volunteers/ Adhikar Saathi Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "15 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Legal Services Authority Kalimpong (DLSA Kalimpong) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 13 vacancies for Para Legal Volunteers/ Adhikar Saathi posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec056915849303a3fe93657587cb9c46/uploads/2026/08/2026081743.pdf"
+},
+  {
+    "id": "bckv-young-professional-recruitment-2026",
+    "b": "Bidhan Chandra Krishi Viswavidyalaya (BCKV)",
+    "t": "Bidhan Chandra Krishi Viswavidyalaya (BCKV) Recruitment 2026 Notification Out for 1 Young Professional I (YP I) Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "22 September 2026",
+    "a": "BIDHAN-CHANDRA/2026",
+    "q": "M.Sc",
+    "desc": "Bidhan Chandra Krishi Viswavidyalaya (BCKV) has officially announced employment advertisement notification BIDHAN-CHANDRA/2026 inviting applications for 1 vacancies for Young Professional I (YP I) posts.",
+    "u": "https://www.bckv.edu.in//images/contentfiles/1789036834_dr_671.pdf"
+},
+  {
+    "id": "aliah-university-visiting-faculty-recruitment-2026",
+    "b": "Aliah University",
+    "t": "Aliah University Recruitment 2026 Notification Out for 1 Visiting Faculty Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "AU/Apptt.-16/2026",
+    "q": "As per UGC guidelines",
+    "desc": "Aliah University has officially announced employment advertisement notification AU/Apptt.-16/2026 inviting applications for 1 vacancies for Visiting Faculty posts.",
+    "u": "https://aliah.ac.in//upload/media/10-09-26_1789032674.pdf"
+},
+  {
+    "id": "aycl-officerasst-managerd-recruitment-2026",
+    "b": "Andrew Yule & Company Limited (AYCL)",
+    "t": "Andrew Yule & Company Limited (AYCL) Recruitment 2026 Notification Out for 1 Officer/Asst. Manager/Dy. Manager (Personnel & Administration) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "04 October 2026",
+    "a": "2026/13",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Andrew Yule & Company Limited (AYCL) has officially announced employment advertisement notification 2026/13 inviting applications for 1 vacancies for Officer/Asst. Manager/Dy. Manager (Personnel & Administration) posts.",
+    "u": "https://www.andrewyule.com/pdf/Matter%20for%20Website%20regular_PnA_2026_13.pdf"
+},
+  {
+    "id": "kalyani-university-project-assistant-recruitment-2026",
+    "b": "Kalyani University",
+    "t": "Kalyani University Recruitment 2026 Notification Out for 1 Project Assistant (PA) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "21 September 2026",
+    "a": "PA/Advt./Chemistry/2026/OP-586",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "Kalyani University has officially announced employment advertisement notification PA/Advt./Chemistry/2026/OP-586 inviting applications for 1 vacancies for Project Assistant (PA) posts.",
+    "u": "https://klyuniv.ac.in/app/uploads/2026/09/09-11.pdf"
+},
+  {
+    "id": "indian-institute-o-librarian-recruitment-2026",
+    "b": "Indian Institute of Engineering Science and Technology, Shibpur",
+    "t": "Indian Institute of Engineering Science and Technology, Shibpur Recruitment 2026 Notification Out for 1 Librarian Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "07 October 2026",
+    "a": "RO/SE/26/32",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Engineering Science and Technology, Shibpur has officially announced employment advertisement notification RO/SE/26/32 inviting applications for 1 vacancies for Librarian posts.",
+    "u": "https://forms.gle/5v4rjB3QkmK7a3MSA"
+},
+  {
+    "id": "doon-university-young-professional-recruitment-2026",
+    "b": "Doon University",
+    "t": "Doon University Recruitment 2026 Notification Out for 1 Young Professional I (YP I) Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "26 September 2026 (Walk-in)",
+    "a": "DOON-UNIVERSIT/2026",
+    "q": "M.Sc | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Doon University has officially announced employment advertisement notification DOON-UNIVERSIT/2026 inviting applications for 1 vacancies for Young Professional I (YP I) posts.",
+    "u": "https://doonuniversity.ac.in/admin/assets/uploads/docs/20260911075331860da77875.pdf"
+},
+  {
+    "id": "iit-roorkee-project-consultant-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee (IIT Roorkee)",
+    "t": "Indian Institute of Technology Roorkee (IIT Roorkee) Recruitment 2026 Notification Out for 1 Project Consultant Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Roorkee (IIT Roorkee) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Consultant posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/EQ/2026/adv110920268.pdf"
+},
+  {
+    "id": "iol-project-technician-recruitment-2026",
+    "b": "India Optel Limited (IOL)",
+    "t": "India Optel Limited (IOL) Recruitment 2026 Notification Out for 160 Project Technician, Junior Project Engineer, Welfare Officer & Consultant Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "21 Days from Publication of Advertisement in Employment News",
+    "a": "IOL/Hqrs/100(6)/2026-Rectt.",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "India Optel Limited (IOL) has officially announced employment advertisement notification IOL/Hqrs/100(6)/2026-Rectt. inviting applications for 160 vacancies for Project Technician, Junior Project Engineer, Welfare Officer & Consultant posts.",
+    "u": "https://indiaoptel.in/"
+},
+  {
     "id": "upsssc-state-rural-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "t": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) Recruitment 2026 Notification Out for 132 State Rural Development Institute (Senior Instructor Cadre) Main Examination (PET-2025)/21 Posts | Apply Online",
