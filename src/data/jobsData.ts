@@ -321,13 +321,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "rcfl-mt-management-trainee-recruitment-2026",
-    "b": "RCFL MT",
-    "t": "RCFL MT Recruitment 2026 Notification Out for 94 Management Trainee Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "24 August 2026, 5:00 pm",
+    "b": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) - A Government of India Undertaking",
+    "t": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) Recruitment 2026 Notification Out for 94 Management Trainee Posts (Advt No. 16022026) | Apply Online",
+    "d": "01 February 2026",
+    "l": "24 August 2026 (5:00 PM) / Extended Window as notified",
     "a": "16022026",
-    "q": "Diploma | Any Bachelor's Degree",
-    "desc": "RCFL MT has officially announced employment advertisement notification 16022026 inviting applications for 94 vacancies for Management Trainee posts.",
+    "q": "Engineering MT Posts (Chemical, Mechanical, Electrical, Instrumentation, Civil, Fire, IT, Materials, Boiler, IE): 4-year",
+    "desc": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), a leading profit-making 'Navratna' Central Public Sector Undertaking under the Government of India with annual operational revenues exceeding ₹18,690 crores, has officially published recruitment advertisement No. 16022026. The enterprise invites applications from dynamic, qualified, and ambitious Indian Nationals for engagement as Management Trainees (MT) across 14 specialized engineering, scientific, and corporate disciplines.",
     "u": "https://ibpsreg.ibps.in/rcfmtfeb26/"
 },
   {
