@@ -552,13 +552,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "ncrtc-supervisor-and-recruitment-2026",
-    "b": "NCRTC",
-    "t": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I and Junior Maintainer Posts | Apply Online",
-    "d": "12 September 2026",
+    "b": "National Capital Region Transport Corporation (NCRTC)",
+    "t": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I & Junior Maintainer Posts (Advt 32/2026 & 33/2026) | Apply Online",
+    "d": "10 September 2026",
     "l": "09 October 2026 (23:55 hrs)",
-    "a": "NCRTC/2026",
-    "q": "ITI | Diploma | B.Tech / B.E",
-    "desc": "NCRTC has officially announced employment advertisement notification NCRTC/2026 inviting applications for 90 vacancies for Supervisor-I and Junior Maintainer posts.",
+    "a": "Vacancy Notice No. 32/2026 & 33/2026",
+    "q": "Diploma / Degree in Engg (for Supervisors) | ITI in Electrician/Fitter/RAC/Electronics (for Maintainers)",
+    "desc": "National Capital Region Transport Corporation (NCRTC) – a Joint Venture of Government of India and the participating State Governments of Delhi, Haryana, Rajasthan, and Uttar Pradesh under the administrative control of the Ministry of Housing and Urban Affairs (MoHUA) – has issued official recruitment notifications Vacancy Notice No. 32/2026 and Vacancy Notice No. 33/2026 dated 10 September 2026 for the induction of Operations & Maintenance (O&M) and Technical staff for the Namo Bharat Regional Rapid Transit System (RRTS) Project.",
     "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html"
 },
   {

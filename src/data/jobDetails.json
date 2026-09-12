@@ -182765,279 +182765,485 @@
   },
   "ncrtc-supervisor-and-recruitment-2026": {
     "id": "ncrtc-supervisor-and-recruitment-2026",
-    "seoTitle": "NCRTC Recruitment 2026 (90 Supervisor-I and Junior Maintainer Posts) Apply Online | NewVacancyAlert",
-    "seoDescription": "NCRTC recruitment 2026 notification for 90 Supervisor-I and Junior Maintainer vacancies. Check eligibility criteria, salary, qualification, age limit & applicatio...",
-    "focusKeywords": "NCRTC Recruitment 2026, NCRTC Supervisor-I and Junior Maintainer Vacancy 2026, NCRTC Notification 2026, Supervisor-I and Junior Maintainer Jobs 2026",
-    "lsiKeywords": "NCRTC Eligibility Criteria, NCRTC Salary Pay Scale, NCRTC Selection Process, NCRTC Apply Apply Online, NCRTC Advt NCRTC/2026",
-    "title": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I and Junior Maintainer Posts | Apply Online",
-    "board": "NCRTC",
-    "advtNo": "NCRTC/2026",
+    "seoTitle": "NCRTC Recruitment 2026 – Apply Online for 90 Supervisor-I & Junior Maintainer Posts (Advt 32/2026 & 33/2026) | NewVacancyAlert",
+    "seoDescription": "NCRTC Recruitment 2026 Notification (Advt 32/2026 & 33/2026). Apply online for 90 Supervisor-I and Junior Maintainer posts in Namo Bharat RRTS before 09 October 2026.",
+    "focusKeywords": "NCRTC Recruitment 2026, NCRTC Vacancy Notice 32/2026, NCRTC Vacancy Notice 33/2026, NCRTC Supervisor-I Vacancy, NCRTC Junior Maintainer Bharti",
+    "lsiKeywords": "Namo Bharat RRTS recruitment 2026, NCRTC O&M Staff apply online, ncrtc.in careers 2026, NCRTC syllabus CBT pattern 2026",
+    "title": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I & Junior Maintainer Posts (Advt 32/2026 & 33/2026) | Apply Online",
+    "board": "National Capital Region Transport Corporation (NCRTC)",
+    "advtNo": "Vacancy Notice No. 32/2026 & 33/2026",
     "vacancies": 90,
-    "jobLocation": "Any NCRTC office/workplace/project unit or subsidiary/JV (Namo Bharat corridors in NCR)",
-    "applicationMode": "Apply Online",
-    "applicationStatus": "Active - Apply before 09 October 2026 (23:55 hrs)",
+    "jobLocation": "Delhi NCR (Namo Bharat RRTS Corridors - Delhi, Meerut, Alwar, Panipat, Karnal)",
+    "applicationMode": "Online via ncrtc.in / TCS iON Portal",
+    "applicationStatus": "Online Registration Active – Apply before 09 October 2026 (23:55 hrs)",
     "lastUpdated": "2026-09-12",
     "overview": [
-      "NCRTC has officially announced employment advertisement notification NCRTC/2026 inviting applications for 90 vacancies for Supervisor-I and Junior Maintainer posts.",
-      "Candidates meeting the prescribed eligibility conditions (Eligibility is assessed as on the cut-off date, 10.09.2026. Only Full Time Regular Courses are considered; only Indian N...) and age requirements can submit their candidature via Apply Online. The closing deadline / scheduled date is 09 October 2026 (23:55 hrs).",
-      "Selected appointees will be stationed in Any NCRTC office/workplace/project unit or subsidiary/JV (Namo Bharat corridors in NCR), receiving official compensation (In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VD), statutory allowances, and established public service benefits as per organizational regulations."
+      "National Capital Region Transport Corporation (NCRTC) – a Joint Venture of Government of India and the participating State Governments of Delhi, Haryana, Rajasthan, and Uttar Pradesh under the administrative control of the Ministry of Housing and Urban Affairs (MoHUA) – has issued official recruitment notifications Vacancy Notice No. 32/2026 and Vacancy Notice No. 33/2026 dated 10 September 2026 for the induction of Operations & Maintenance (O&M) and Technical staff for the Namo Bharat Regional Rapid Transit System (RRTS) Project.",
+      "A total of 90 vacancies are announced across two categories: 67 posts on Direct Recruitment (Regular) basis under Vacancy Notice No. 32/2026 (Supervisor-I Operations, Electronics, Electrical, Mechanical, Civil and Junior Maintainer Electrical, Fitter, RAC, Electronics) and 23 posts on Contract (Regular Pay Scale) basis for a 5-year tenure under Vacancy Notice No. 33/2026 (Supervisor-I IT, Full Stack Developer, AFC & NCMC, Corporate Hospitality, Corporate Communications, Electrical, Civil and Junior Maintainer Electrical, Fitter). Selected candidates will draw attractive IDA pay scales of Level S1 (Rs. 37,000–Rs. 1,15,000) for Supervisors and Level NS3 (Rs. 18,250–Rs. 59,200) for Junior Maintainers, supplemented by Variable DA, HRA, and cafeteria perks.",
+      "Candidates holding relevant 3-year Engineering Diplomas, Engineering Degrees (B.E./B.Tech/B.Sc Engg), ITI (NCVT/SCVT) certificates, or specialized qualifications up to 28 years of age (as on 10 September 2026) are eligible to apply. Selection will be conducted through an objective Computer Based Test (CBT) of 100 questions with NO negative marking, followed by comprehensive medical fitness examination (Standards A-3, B-1, or C-1 as per IRMM). Online applications are accepted from 10 September 2026 to 09 October 2026 up to 23:55 hrs."
     ],
     "highlights": [
       {
-        "label": "Recruitment Authority",
-        "value": "NCRTC"
+        "label": "Recruitment Organization",
+        "value": "National Capital Region Transport Corporation (NCRTC) - Joint Venture of MoHUA, Govt of India & State Govts"
       },
       {
-        "label": "Post Name",
-        "value": "Supervisor-I and Junior Maintainer"
+        "label": "Vacancy Notice Numbers",
+        "value": "Vacancy Notice No. 32/2026 (Direct Recruitment) & No. 33/2026 (Contract - Regular Pay Scale)"
       },
       {
-        "label": "Advertisement No.",
-        "value": "NCRTC/2026"
+        "label": "Project & Corridors",
+        "value": "Namo Bharat RRTS (Delhi–Meerut, Delhi–SNB–Alwar, Delhi–Panipat–Karnal Corridors)"
       },
       {
         "label": "Total Vacancies",
-        "value": "90 Posts"
+        "value": "90 Posts (Notice 32/2026: 67 Posts | Notice 33/2026: 23 Posts)"
+      },
+      {
+        "label": "Vertical Reservation (Total)",
+        "value": "UR: 65, EWS: 02, OBC (NCL): 15, SC: 06, ST: 02"
+      },
+      {
+        "label": "Horizontal Reservation",
+        "value": "04 Posts Reserved for PwBD (Notice 32: 3 Posts, Notice 33: 1 Post)"
+      },
+      {
+        "label": "Posts Covered",
+        "value": "Supervisor-I (Operations, Electronics, Electrical, Mechanical, Civil, IT, Hospitality, PR) & Junior Maintainer"
+      },
+      {
+        "label": "Pay Scale & Level",
+        "value": "Supervisor-I: S1 (Rs. 37,000 - Rs. 1,15,000) | Junior Maintainer: NS3 (Rs. 18,250 - Rs. 59,200) IDA Pay Scale"
       },
       {
         "label": "Educational Qualification",
-        "value": "Eligibility is assessed as on the cut-off date, 10.09.2026. Only Full Time Regular Courses are considered; only Indian Nationals above 18 years of age"
+        "value": "Diploma / Degree in Engg (for Supervisors) | ITI in Electrician/Fitter/RAC/Electronics (for Maintainers)"
       },
       {
-        "label": "Age Limit",
-        "value": "The maximum age limit for all posts under both notices is 28 years , as on 10.09.2026. Cumulative relaxation for candidates falling under more than one category is admissible. However, the maximum upp"
+        "label": "Age Limit (as on 10.09.2026)",
+        "value": "18 to 28 Years (Born between 11 September 1998 and 10 September 2008; Age relaxations applicable)"
       },
       {
-        "label": "Salary / Remuneration",
-        "value": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und"
+        "label": "Surety Bond",
+        "value": "Supervisors: Rs. 4,00,000/- for 3 Years | Junior Maintainers: Rs. 3,00,000/- for 3 Years"
       },
       {
-        "label": "Job Location",
-        "value": "Any NCRTC office/workplace/project unit or subsidiary/JV (Namo Bharat corridors in NCR)"
+        "label": "Application Fee",
+        "value": "Rs. 500 + GST for UR / OBC / EWS / Ex-SM | NIL for SC / ST / PwBD"
       },
       {
-        "label": "Application Mode",
-        "value": "Apply Online"
+        "label": "Online Application Dates",
+        "value": "10 September 2026 to 09 October 2026 (23:55 hrs)"
       },
       {
-        "label": "Important Date / Deadline",
-        "value": "09 October 2026 (23:55 hrs)"
+        "label": "Tentative CBT Schedule",
+        "value": "November / December 2026"
       },
       {
-        "label": "Official Website",
-        "value": "https://ncrtc.in"
+        "label": "Marking Scheme in CBT",
+        "value": "100 Questions, 100 Marks, 90 Mins, NO NEGATIVE MARKING"
+      },
+      {
+        "label": "Direct Application Portal",
+        "value": "https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html"
       }
     ],
     "importantDates": [
       {
-        "event": "Notice Release Date (both notices)",
+        "event": "Official Vacancy Notices Issued (No. 32/2026 & 33/2026)",
         "date": "10 September 2026"
       },
       {
-        "event": "Online Registration Start Date",
+        "event": "Commencement of Online Registration & Application Submission",
         "date": "10 September 2026"
       },
       {
-        "event": "Last Date for Online Application",
+        "event": "Closing Date of Online Application Submission & Fee Payment",
         "date": "09 October 2026 (23:55 hrs)"
       },
       {
-        "event": "Cut-off Date for Eligibility",
+        "event": "Crucial Date for Age & Educational Eligibility",
         "date": "10 September 2026"
       },
       {
-        "event": "Tentative Computer Based Test (CBT) Date",
-        "date": "November/December 2026"
+        "event": "Tentative Date of Computer Based Test (CBT)",
+        "date": "November / December 2026"
       }
     ],
     "vacanciesDetails": [
       {
-        "postName": "33/2026",
-        "vacancies": "Supervisor (C01-C08)",
-        "total": 1,
-        "qualification": "₹4,00,000",
-        "payScale": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und"
+        "postName": "[Notice 32/2026 - Direct] Supervisor-I (Operations) [Post Code-D01]",
+        "total": 2,
+        "ur": 2,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "Any Engineering Degree / Engineering Diploma (Full Time). Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
       },
       {
-        "postName": "33/2026",
-        "vacancies": "Non-Supervisor (C09-C10)",
-        "total": 9,
-        "qualification": "₹3,00,000",
-        "payScale": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und"
+        "postName": "[Notice 32/2026 - Direct] Supervisor-I (Electronics) [Post Code-D02]",
+        "total": 18,
+        "ur": 10,
+        "obc": 4,
+        "sc": 2,
+        "st": 1,
+        "ews": 1,
+        "qualification": "03 years Diploma in Electronics Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. PwBD: 1 post reserved. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
       },
       {
-        "postName": "32/2026",
-        "vacancies": "Supervisor (D01-D05)",
-        "total": 1,
-        "qualification": "₹4,00,000",
-        "payScale": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und"
+        "postName": "[Notice 32/2026 - Direct] Supervisor-I (Electrical) [Post Code-D03]",
+        "total": 14,
+        "ur": 8,
+        "obc": 3,
+        "sc": 1,
+        "st": 1,
+        "ews": 1,
+        "qualification": "03 years Diploma in Electrical Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. PwBD: 1 post reserved. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
       },
       {
-        "postName": "32/2026",
-        "vacancies": "Non-Supervisor (D06-D09)",
+        "postName": "[Notice 32/2026 - Direct] Supervisor-I (Mechanical) [Post Code-D04]",
+        "total": 3,
+        "ur": 3,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 years Diploma in Mechanical Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 32/2026 - Direct] Supervisor-I (Civil) [Post Code-D05]",
         "total": 6,
-        "qualification": "₹3,00,000",
-        "payScale": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und"
+        "ur": 5,
+        "obc": 1,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 years Diploma in Civil Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. PwBD: 1 post reserved. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 32/2026 - Direct] Junior Maintainer (Electrical) [Post Code-D06]",
+        "total": 8,
+        "ur": 5,
+        "obc": 2,
+        "sc": 1,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Electrician trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
+      },
+      {
+        "postName": "[Notice 32/2026 - Direct] Junior Maintainer (Fitter) [Post Code-D07]",
+        "total": 9,
+        "ur": 6,
+        "obc": 2,
+        "sc": 1,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Fitter trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
+      },
+      {
+        "postName": "[Notice 32/2026 - Direct] Junior Maintainer (RAC) [Post Code-D08]",
+        "total": 5,
+        "ur": 4,
+        "obc": 1,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Refrigeration & Air-Conditioning trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
+      },
+      {
+        "postName": "[Notice 32/2026 - Direct] Junior Maintainer (Electronics) [Post Code-D09]",
+        "total": 2,
+        "ur": 2,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Electronics Mechanic trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (Information Technology) [Post Code-C01]",
+        "total": 5,
+        "ur": 4,
+        "obc": 1,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in CS / IT or B.C.A. / B.Sc (IT) or B.E. / B.Tech (CS / IT / Electronics) or M.C.A. or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (IT - Full Stack Developer) [Post Code-C02]",
+        "total": 1,
+        "ur": 1,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in CS / IT or B.C.A. / B.Sc (IT) or B.E. / B.Tech (CS / IT / Electronics) or M.C.A. or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (IT - Full Stack Developer - ITMS) [Post Code-C03]",
+        "total": 1,
+        "ur": 1,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in CS / IT or B.C.A. / B.Sc (IT) or B.E. / B.Tech (CS / IT / Electronics) or M.C.A. or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (IT - AFC & NCMC - ITMS) [Post Code-C04]",
+        "total": 1,
+        "ur": 1,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in CS / IT or B.C.A. / B.Sc (IT) or B.E. / B.Tech (CS / IT / Electronics) or M.C.A. or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (Corporate Hospitality) [Post Code-C05]",
+        "total": 1,
+        "ur": 1,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "Graduate in Hospitality and Hotel Administration / Hospitality Management / Hotel Management or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (Corporate Communications) [Post Code-C06]",
+        "total": 1,
+        "ur": 1,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "Graduate and P.G. Degree / P.G. Diploma in Mass Communication / Public Relations or equivalent (Full Time). Medical Standard: C-1. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (Electrical) [Post Code-C07]",
+        "total": 2,
+        "ur": 2,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in Electrical Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Supervisor-I (Civil) [Post Code-C08]",
+        "total": 7,
+        "ur": 5,
+        "obc": 1,
+        "sc": 1,
+        "st": 0,
+        "ews": 0,
+        "qualification": "03 Years Diploma in Civil Engineering or equivalent (Full Time). B.E./B.Tech/B.Sc (Engg) also permitted. PwBD: 1 post reserved. Medical Standard: A-3. Surety Bond: Rs. 4 Lakhs for 3 years.",
+        "payScale": "Level S1 (Rs. 37,000 - Rs. 1,15,000), Basic Rs. 37,000/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Junior Maintainer (Electrical) [Post Code-C09]",
+        "total": 2,
+        "ur": 2,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Electrician trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
+      },
+      {
+        "postName": "[Notice 33/2026 - Contract] Junior Maintainer (Fitter) [Post Code-C10]",
+        "total": 2,
+        "ur": 2,
+        "obc": 0,
+        "sc": 0,
+        "st": 0,
+        "ews": 0,
+        "qualification": "ITI (NCVT/SCVT) Certificate in Fitter trade or equivalent (Full Time). Medical Standard: B-1. Surety Bond: Rs. 3 Lakhs for 3 years.",
+        "payScale": "Level NS3 (Rs. 18,250 - Rs. 59,200), Basic Rs. 18,250/-"
       }
     ],
     "eligibility": {
       "education": [
-        "Eligibility is assessed as on the cut-off date, 10.09.2026. Only Full Time Regular Courses are considered; only Indian Nationals above 18 years of age are eligible. For Post Codes C07 and C08, a B.E./B.Tech/B.Sc. (Engg.) (Full Time) in the relevant discipline is also permitted in place of the Diploma. For Post Codes C09 and C10, the ITI qualification is mandatory - a higher qualification will not be considered as a substitute. For Post Codes D02 to D05, a B.E./B.Tech/B.Sc. (Engg.) (Full Time) in the relevant discipline is also permitted in place of the Diploma. For Post Codes D06 to D09, the ITI qualification is mandatory. All qualifications must be from a UGC-recognised Indian University/Deemed University or an AICTE-approved course from an autonomous Indian institution. Where CGPA/OGPA/CPI or a grade is awarded, the equivalent percentage as per the University/Institute's norms must be indicated in the application."
+        "Crucial Date: All educational qualifications must be completed on or before 10 September 2026.",
+        "Full-Time Courses Only: Only Full-Time Regular courses from UGC recognized universities or AICTE approved institutions are acceptable.",
+        "Supervisor-I (Operations) [Post Code-D01]: Any Full-Time Engineering Degree or Engineering Diploma.",
+        "Supervisor-I (Electronics, Electrical, Mechanical, Civil) [Post Codes D02-D05, C07-C08]: 03 Years Full-Time Diploma in the respective Engineering branch (Electronics / Electrical / Mechanical / Civil) or equivalent. B.E. / B.Tech / B.Sc (Engg) Full Time in the relevant discipline is also permitted.",
+        "Supervisor-I (Information Technology / Full Stack / ITMS / AFC & NCMC) [Post Codes C01-C04]: 03 Years Diploma in CS / IT or B.C.A. / B.Sc (IT) or B.E. / B.Tech (CS / IT / Electronics) or M.C.A. or equivalent (Full Time).",
+        "Supervisor-I (Corporate Hospitality) [Post Code-C05]: Full-Time Graduate in Hospitality and Hotel Administration / Hospitality Management / Hotel Management or equivalent.",
+        "Supervisor-I (Corporate Communications) [Post Code-C06]: Full-Time Graduate AND P.G. Degree / P.G. Diploma in Mass Communication / Public Relations or equivalent.",
+        "Junior Maintainer (Electrical, Fitter, RAC, Electronics) [Post Codes D06-D09, C09-C10]: Full-Time ITI (NCVT / SCVT) Certificate in the respective trade (Electrician / Fitter / Refrigeration & Air-Conditioning / Electronics Mechanic). Note: Candidates must possess the mandatory ITI certificate; higher qualification without ITI will not be considered."
       ],
-      "ageLimit": "The maximum age limit for all posts under both notices is 28 years , as on 10.09.2026. Cumulative relaxation for candidates falling under more than one category is admissible. However, the maximum upp",
-      "medicalStandards": "Standard physical and medical fitness as per organizational regulations."
+      "ageLimit": "Minimum 18 Years, Maximum 28 Years as on 10 September 2026. Candidate must have been born between 11 September 1998 and 10 September 2008.",
+      "ageRelaxation": [
+        "Scheduled Caste / Scheduled Tribe (SC / ST): 05 Years upper age relaxation.",
+        "Other Backward Classes (Non-Creamy Layer) (OBC-NCL): 03 Years upper age relaxation.",
+        "Ex-Servicemen: Length of military service + 3 Years (Subject to maximum age of 50 years).",
+        "PwBD (UR / EWS): 10 Years upper age relaxation.",
+        "PwBD (OBC-NCL): 13 Years upper age relaxation.",
+        "PwBD (SC / ST): 15 Years upper age relaxation.",
+        "NCRTC Employees (with >= 1 year service): Age relaxation to the extent of completed years of service; full-time course requirement is also relaxed.",
+        "Absolute Maximum Age: Under no circumstances will the upper age exceed 50 years after all concessions."
+      ],
+      "experience": [
+        "Fresh candidates meeting the educational qualifications are eligible. No mandatory prior work experience is required for any of the advertised posts."
+      ],
+      "medicalStandards": "Comprehensive Medical Fitness Test as per Indian Railway Medical Manual (IRMM): Standard A-3 for D01-D05, C07-C08 (Distant vision 6/9, 6/9 with or without glasses +/-2D, colour/night vision present, LASIK NOT ALLOWED); Standard B-1 for D06-D09, C09-C10 (Distant vision 6/9, 6/12 +/-4D, LASIK NOT ALLOWED); Standard C-1 for C01-C06 (Distant vision 6/12, 6/18)."
     },
     "salary": {
-      "payLevel": "As per institutional scales",
-      "initialPay": "In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und",
-      "allowances": "DA, HRA, Medical and other allowances as applicable per government rules."
+      "payLevel": "Supervisor-I: Level S1 | Junior Maintainer: Level NS3 (IDA Pay Pattern)",
+      "basicPay": "Supervisor-I: Rs. 37,000 - Rs. 1,15,000 (Initial Basic: Rs. 37,000/-) | Junior Maintainer: Rs. 18,250 - Rs. 59,200 (Initial Basic: Rs. 18,250/-)",
+      "inHandSalary": "Supervisor-I: Approx. Rs. 55,000 - Rs. 62,000 per month | Junior Maintainer: Approx. Rs. 28,000 - Rs. 34,000 per month",
+      "allowances": [
+        "Variable Dearness Allowance (VDA)",
+        "House Rent Allowance (HRA) as applicable",
+        "Perks and Allowances under Cafeteria Approach",
+        "Comprehensive Medical Facilities, Group Insurance, and Provident Fund (PF) as per NCRTC rules"
+      ]
     },
     "applicationFee": [
       {
-        "category": "General / OBC / EWS Candidates",
-        "fee": "As per official notification guidelines / Exempted if unspecified"
+        "category": "Unreserved (UR) / OBC (NCL) / EWS / Ex-Servicemen",
+        "fee": "Rs. 500.00 (Exclusive of transaction processing charges + GST as applicable)"
       },
       {
-        "category": "SC / ST / PwBD / Female Candidates",
-        "fee": "Exempted / Concessional as per government norms"
+        "category": "SC / ST / Persons with Benchmark Disabilities (PwBD)",
+        "fee": "NIL (Exempted from payment of application fee)"
       }
     ],
     "howToPayFee": [
-      "Online via Net Banking, Debit Card, Credit Card or UPI payment gateways.",
-      "Offline via Demand Draft / Postal Order / Challan if specified in official notification.",
-      "Retain transaction e-receipt and registration slip for future recruitment stages."
+      "Application fee can be paid online via Net Banking, Debit Card, or Credit Card through the integrated payment gateway on the application portal.",
+      "If applying for more than one post, candidates must submit separate applications and pay the application fee for each post separately.",
+      "Application fee once paid is strictly non-refundable."
     ],
+    "examCentres": {
+      "details": "Candidates must give preference of five (05) cities while applying online. Available test cities (22 options): Delhi-NCR, Lucknow, Ahmedabad, Bhopal, Mumbai, Kolkata, Bhubaneswar, Hyderabad, Bengaluru, Chennai, Kanpur, Agra, Vadodara, Indore, Thane, Pune, Guwahati, Raipur (Chhattisgarh), Cuttack, Harohalli, Jaipur, and Patiala."
+    },
     "selectionProcess": [
-      "Screening and verification of minimum educational eligibility criteria and submitted application credentials.",
-      "Shortlisting based on academic merit, research publications, or written examination / skill assessment (where applicable).",
-      "Personal Interview / Walk-in Interview / Practical Assessment conducted by the Selection Committee.",
-      "Document Verification of original academic degrees, caste/category certificates, and experience records.",
-      "Final Medical Fitness Examination and issuance of official appointment letter."
+      {
+        "stage": "Stage 1: Computer Based Test (CBT)",
+        "description": "Objective online test of 100 questions carrying 100 marks (01 mark each) for 90 minutes. Available in English & Hindi. NO NEGATIVE MARKING. Minimum qualifying marks: 60% for UR/OBC/EWS; 50% for SC/ST/PwBD/Ex-SM."
+      },
+      {
+        "stage": "Stage 2: Medical Fitness Examination",
+        "description": "Shortlisted candidates will undergo strict medical examination in prescribed standards (A-3, B-1, or C-1) as per Indian Railway Medical Manual (IRMM). First-time medical exam cost is borne by NCRTC."
+      },
+      {
+        "stage": "Stage 3: Document Verification (DV)",
+        "description": "Verification of original academic marksheets, degree/diploma/ITI certificates, age proof, caste/EWS certificates, and photo ID. Candidates failing verification will be summarily rejected."
+      },
+      {
+        "stage": "Stage 4: Execution of Surety Bond & Joining",
+        "description": "Appointees must execute a Surety Bond to serve NCRTC for a minimum of 3 years (Rs. 4 Lakhs for Supervisors, Rs. 3 Lakhs for Junior Maintainers) with 1 month prior notice requirement."
+      }
     ],
+    "examPattern": {
+      "duration": "90 Minutes (1.5 Hours)",
+      "totalQuestions": 100,
+      "totalMarks": 100,
+      "questionType": "Objective Multiple Choice Questions (CBT)",
+      "markingScheme": "+1 mark for each correct response; NO NEGATIVE MARKING for incorrect answers",
+      "language": "Bilingual (English and Hindi)",
+      "qualifyingMarks": "UR / OBC (NCL) / EWS: 60% (60/100) | SC / ST / PwBD / Ex-SM: 50% (50/100)",
+      "testCitiesCount": "22 Cities across India (5 preferences mandatory during form submission)"
+    },
     "howToApply": [
-      "Visit the official portal or access the notification link provided at https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html.",
-      "Carefully read the official advertisement guidelines, terms of engagement, and eligibility conditions before applying.",
-      "For Apply Online: Ensure all required bio-data forms, online registration, or prescribed proforma are accurately completed.",
-      "Attach/Upload clear scanned copies of required educational certificates, mark sheets, age proof, identity proof, and photographs.",
-      "Pay the prescribed application fee (if applicable) through official designated payment channels.",
-      "Submit the application form or report to the designated interview venue on the scheduled date with original credentials and self-attested copies.",
-      "Retain an acknowledgement receipt or printed copy of the submitted application for subsequent stages."
+      "Step 1: Visit the official website of NCRTC at https://ncrtc.in and click on the 'Career' section, or directly access https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html.",
+      "Step 2: Choose Vacancy Notice No. 32/2026 (for Direct Recruitment) or Vacancy Notice No. 33/2026 (for Contract Basis) and click on the registration link.",
+      "Step 3: Register by providing your active Email ID and Mobile Number. A unique Application Number / Login ID and Password will be generated and dispatched.",
+      "Step 4: Login and fill in personal details, category, educational qualifications (Degree/Diploma/ITI details, marks, passing year), and select 5 preferred CBT exam cities.",
+      "Step 5: Upload scanned photograph (100 KB to 200 KB in JPG/JPEG), signature (80 KB to 150 KB in JPG/JPEG), and category/educational certificates (100 KB to 1000 KB in JPG/JPEG/PDF).",
+      "Step 6: Preview the application carefully. Once submitted, details cannot be edited.",
+      "Step 7: Pay the application fee of Rs. 500 + GST (if applicable) through Net Banking, Debit Card, or Credit Card.",
+      "Step 8: Download and take a printout of the submitted application form and payment acknowledgment receipt for future recruitment reference."
     ],
     "howToApplySteps": [
-      "Visit the official portal or access the notification link provided at https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html.",
-      "Carefully read the official advertisement guidelines, terms of engagement, and eligibility conditions before applying.",
-      "For Apply Online: Ensure all required bio-data forms, online registration, or prescribed proforma are accurately completed.",
-      "Attach/Upload clear scanned copies of required educational certificates, mark sheets, age proof, identity proof, and photographs.",
-      "Pay the prescribed application fee (if applicable) through official designated payment channels.",
-      "Submit the application form or report to the designated interview venue on the scheduled date with original credentials and self-attested copies.",
-      "Retain an acknowledgement receipt or printed copy of the submitted application for subsequent stages."
+      "Visit ncrtc.in -> Career -> Click on Vacancy Notice No. 32/2026 or 33/2026.",
+      "Register with mobile and email to receive Login ID and password.",
+      "Fill online application form, select 5 CBT exam city preferences, and enter academic details.",
+      "Upload photo (100-200 KB), signature (80-150 KB), and certificates (100-1000 KB).",
+      "Pay application fee (Rs. 500 for UR/OBC/EWS/Ex-SM; NIL for SC/ST/PwBD).",
+      "Download and print final application acknowledgment before 09 October 2026 (23:55 hrs)."
     ],
     "documentsRequired": [
-      "Signed Application Form in prescribed format / Online Application Printout.",
-      "Class 10th (Matriculation) Certificate as proof of Date of Birth.",
-      "All Academic Marksheets and Degree/Diploma Certificates (Graduation/Post Graduation/Technical Qualifications).",
-      "Relevant Experience Certificates and NOC from current employer (if employed in Govt/PSU).",
-      "Valid Category / Caste Certificate (SC/ST/OBC-NCL/EWS) issued by competent authority.",
-      "Recent Passport Size Color Photographs and valid Photo ID Proof (Aadhaar/PAN/Voter ID/Passport)."
+      "High School (10th Standard) Marksheet & Certificate as proof of Date of Birth.",
+      "Qualifying Examination Certificate and Marksheets (Engineering Degree, 3-Year Engineering Diploma, ITI NCVT/SCVT Certificate, Hotel Management Degree, or Mass Communication Degree/Diploma as applicable).",
+      "Conversion formula certificate from University/Institute if CGPA/OGPA/CPI is awarded.",
+      "Caste Certificate in Central Government format for SC / ST / OBC (NCL) candidates.",
+      "EWS Income and Asset Certificate valid for the current financial year in Government of India format.",
+      "Disability Certificate (minimum 40% disability) for PwBD candidates in prescribed format.",
+      "Discharge Certificate / PPO for Ex-Servicemen candidates.",
+      "Recent Passport Size Color Photograph (100 KB - 200 KB).",
+      "Scanned Signature (80 KB - 150 KB).",
+      "Valid Photo ID Proof (Aadhaar Card, Voter Card, Driving License, or Passport)."
     ],
     "importantInstructions": [
-      "Verify all eligibility criteria, educational certificates, and age limits before submitting the application.",
-      "Complete and submit application forms well before the deadline to avoid server overload or transit delays.",
-      "Ensure that email addresses and phone numbers provided remain active for official interview communications."
+      "Two Separate Vacancy Notices: Notice 32/2026 covers 67 Regular O&M posts, while Notice 33/2026 covers 23 Contractual posts on regular IDA pay scales for a 5-year term.",
+      "Strict No Negative Marking: Unlike many metro exams, NCRTC CBT has NO negative marking for incorrect answers.",
+      "Multi-Post Applications: Candidates can apply for more than one post by submitting separate application forms and fees, but CBT for multiple posts may be scheduled on the same date/shift.",
+      "Lasik Surgery Barred for A-3 & B-1: Candidates who have undergone LASIK surgery or radial keratotomy are disqualified from technical posts requiring A-3 and B-1 medical standards.",
+      "Surety Bond Mandate: Selected candidates must serve NCRTC for a minimum of 3 years or pay the bond penalty (Rs. 4 Lakhs for Supervisors, Rs. 3 Lakhs for Maintainers).",
+      "Closing Deadline: Applications close promptly at 23:55 hrs on 09 October 2026."
     ],
     "faqs": [
       {
-        "question": "What is the total number of vacancies announced for NCRTC Recruitment 2026?",
-        "answer": "A total of 90 vacancies have been officially announced for Supervisor-I and Junior Maintainer under NCRTC Recruitment 2026."
+        "question": "What is the total number of vacancies announced by NCRTC in 2026?",
+        "answer": "A total of 90 vacancies have been announced across two notifications: 67 posts under Vacancy Notice No. 32/2026 (Direct Recruitment / Regular O&M Staff) and 23 posts under Vacancy Notice No. 33/2026 (Contractual on Regular Pay Scale Basis for 5 Years)."
       },
       {
-        "question": "What is the official Advertisement Number for this NCRTC recruitment drive?",
-        "answer": "The official advertisement number for this recruitment notification is NCRTC/2026."
+        "question": "What are the posts available in NCRTC Recruitment 2026?",
+        "answer": "The positions include Supervisor-I (Operations, Electronics, Electrical, Mechanical, Civil, IT, Full Stack Developer, Corporate Hospitality, Corporate Communications) in IDA Level S1 (Rs. 37,000–Rs. 1,15,000) and Junior Maintainer (Electrical, Fitter, RAC, Electronics) in IDA Level NS3 (Rs. 18,250–Rs. 59,200)."
       },
       {
-        "question": "What educational qualification is required to apply for Supervisor-I and Junior Maintainer in NCRTC?",
-        "answer": "Candidates must possess Eligibility is assessed as on the cut-off date, 10.09.2026. Only Full Time Regular Courses are considered; only Indian Nationals above 18 years of age are eligible. For Post Codes C07 and C08, a B.E./B.Tech/B.Sc. (Engg.) (Full Time) in the relevant discipline is also permitted in place of the Diploma. For Post Codes C09 and C10, the ITI qualification is mandatory - a higher qualification will not be considered as a substitute. For Post Codes D02 to D05, a B.E./B.Tech/B.Sc. (Engg.) (Full Time) in the relevant discipline is also permitted in place of the Diploma. For Post Codes D06 to D09, the ITI qualification is mandatory. All qualifications must be from a UGC-recognised Indian University/Deemed University or an AICTE-approved course from an autonomous Indian institution. Where CGPA/OGPA/CPI or a grade is awarded, the equivalent percentage as per the University/Institute's norms must be indicated in the application.. Please refer to the official notification PDF for complete discipline-specific details."
+        "question": "What is the age limit and cut-off date for NCRTC Recruitment 2026?",
+        "answer": "The age limit is 18 to 28 years as on the cut-off date of 10 September 2026 (born between 11.09.1998 and 10.09.2008). Relaxation is admissible for SC/ST (5 years), OBC-NCL (3 years), PwBD (10-15 years), and Ex-SM as per Central Government rules."
       },
       {
-        "question": "What is the prescribed age limit for NCRTC Supervisor-I and Junior Maintainer posts?",
-        "answer": "The prescribed age limit is The maximum age limit for all posts under both notices is 28 years , as on 10.09.2026. Cumulative relaxation for candidates falling under more than one category is admissible. However, the maximum upp. Standard age relaxations apply for SC, ST, OBC, PwBD, and Ex-Servicemen as per government norms."
+        "question": "Is there any negative marking in the NCRTC Computer Based Test (CBT)?",
+        "answer": "No, there is NO negative marking in the NCRTC CBT. Each of the 100 questions carries 1 mark, with an exam duration of 90 minutes."
       },
       {
-        "question": "What is the monthly salary or pay scale offered for Supervisor-I and Junior Maintainer in NCRTC?",
-        "answer": "Selected candidates will receive In addition to Basic Pay, selected candidates will receive Variable Dearness Allowance (VDA), House Rent Allowance (HRA), and Perks and Allowances und, along with admissible allowances as per official organizational policy."
+        "question": "Can B.E. / B.Tech degree holders apply for Supervisor posts?",
+        "answer": "Yes, for Supervisor-I (Operations), any Engineering Degree or Diploma is eligible. For Supervisor-I in Electronics, Electrical, Mechanical, and Civil, candidates with full-time B.E. / B.Tech / B.Sc (Engg) in the relevant discipline are explicitly permitted. However, for Junior Maintainer posts, an ITI qualification is strictly mandatory."
       },
       {
-        "question": "What is the mode of application for NCRTC Recruitment 2026?",
-        "answer": "The application mode is Apply Online. Candidates should follow the official submission guidelines carefully."
+        "question": "What is the surety bond amount in NCRTC?",
+        "answer": "Selected candidates must execute a Surety Bond to serve NCRTC for a minimum of 3 years: Rs. 4,00,000/- for Supervisor-I posts and Rs. 3,00,000/- for Junior Maintainer posts, along with a 1-month prior notice requirement before resignation."
       },
       {
-        "question": "What is the last date to apply or interview date for NCRTC Supervisor-I and Junior Maintainer?",
-        "answer": "The last date for application submission or scheduled event date is 09 October 2026 (23:55 hrs)."
-      },
-      {
-        "question": "What is the selection process for NCRTC Supervisor-I and Junior Maintainer recruitment?",
-        "answer": "The selection process involves initial scrutiny of qualifications, shortlisting, personal interview / skill assessment / written test, and document verification."
-      },
-      {
-        "question": "Where will the selected candidates be posted for this NCRTC vacancy?",
-        "answer": "The selected candidates will be posted in Any NCRTC office/workplace/project unit or subsidiary/JV (Namo Bharat corridors in NCR) or designated project sites/campuses under NCRTC."
-      },
-      {
-        "question": "Is there any application fee for NCRTC Supervisor-I and Junior Maintainer Recruitment 2026?",
-        "answer": "Application fee details are specified in the official notification. Reserved categories and female applicants are generally exempt or entitled to concessions."
-      },
-      {
-        "question": "Are candidates in their final year/semester eligible to apply?",
-        "answer": "Candidates must possess the requisite degree and final mark sheet on or before the crucial closing date specified in the notification."
-      },
-      {
-        "question": "Is age relaxation applicable for reserved category applicants?",
-        "answer": "Yes, standard age relaxations (5 years for SC/ST, 3 years for OBC-NCL, and 10+ years for PwBD) are applicable as per Central/State Government rules."
-      },
-      {
-        "question": "What documents are required during interview and verification?",
-        "answer": "Candidates must carry 10th certificate for DOB proof, degree certificates, all semester mark sheets, caste certificate, experience certificates, photo ID proof, and self-attested photocopies."
-      },
-      {
-        "question": "Can candidates currently employed in Government/PSU apply?",
-        "answer": "Yes, candidates working in Central/State Government or PSUs can apply provided they produce a 'No Objection Certificate' (NOC) from their employer at the time of interview."
-      },
-      {
-        "question": "How can I download the official notification PDF for NCRTC Recruitment 2026?",
-        "answer": "The official notification PDF can be downloaded directly from the official link: https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html."
-      },
-      {
-        "question": "Is this a permanent post or contractual engagement in NCRTC?",
-        "answer": "Please refer to the official advertisement (NCRTC/2026) for the precise tenure and engagement terms (regular/contractual/project-basis) for Supervisor-I and Junior Maintainer."
-      },
-      {
-        "question": "Where can I check updates regarding admit cards, interview schedules, or results for NCRTC?",
-        "answer": "All official updates, interview lists, and result notices will be published directly on the official NCRTC recruitment portal: https://ncrtc.in."
-      },
-      {
-        "question": "Can candidates from all states and UTs in India apply for NCRTC vacancies?",
-        "answer": "Yes, Indian citizens fulfilling the required educational qualification, age limit, and language proficiency criteria are eligible to apply."
-      },
-      {
-        "question": "What should I do if there is a discrepancy in my online application details?",
-        "answer": "Candidates must verify all details before final submission. In case of corrections, check the official NCRTC portal during the edit window if provided."
-      },
-      {
-        "question": "Who can be contacted for technical assistance regarding NCRTC recruitment application?",
-        "answer": "Candidates may contact the official helpdesk or email address provided on the NCRTC official website."
+        "question": "What is the last date to apply online for NCRTC Recruitment 2026?",
+        "answer": "The closing date for online application submission and fee payment is 09 October 2026 up to 23:55 hrs."
       }
     ],
     "urls": [
       {
-        "title": "Apply Online - NCRTC",
+        "title": "Apply Online Portal - NCRTC 2026 Recruitment (TCS iON / Digialm)",
         "url": "https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html"
       },
       {
-        "title": "Download NCRTC Official Notification PDF",
+        "title": "Download NCRTC Vacancy Notice No. 32/2026 Official PDF (Direct Recruitment)",
         "url": "https://ncrtc.in/elementor-39298/"
       },
       {
-        "title": "NCRTC Official Website / Portal",
+        "title": "NCRTC Official Website & Career Portal",
         "url": "https://ncrtc.in"
       }
     ]
