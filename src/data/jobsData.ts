@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "drdo-asl-jrf-recruitment-2026",
+    "b": "Advanced Systems Laboratory (DRDO ASL)",
+    "t": "Advanced Systems Laboratory (DRDO ASL) Recruitment 2026 Notification Out for 17 Junior Research Fellow (JRF) and Research Associate (RA) Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "03 October 2026",
+    "a": "ASL/2026/JRF/Adv/01",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Advanced Systems Laboratory (DRDO ASL) has officially announced employment advertisement notification ASL/2026/JRF/Adv/01 inviting applications for 17 vacancies for Junior Research Fellow (JRF) and Research Associate (RA) posts.",
+    "u": "https://drdo.gov.in/"
+},
+  {
+    "id": "rural-development-office-assistant-recruitment-2026",
+    "b": "Rural Development and Panchayat Raj Department, Madurai",
+    "t": "Rural Development and Panchayat Raj Department, Madurai Recruitment 2026 Notification Out for 4 Office Assistant, Record Clerk and Driver Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "10 October 2026",
+    "a": "1817/2026/A1, 01/2026/A1, 1115/2026/A1, 02/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Rural Development and Panchayat Raj Department, Madurai has officially announced employment advertisement notification 1817/2026/A1, 01/2026/A1, 1115/2026/A1, 02/2026 inviting applications for 4 vacancies for Office Assistant, Record Clerk and Driver posts.",
+    "u": "https://madurai.nic.in/notice_category/recruitment/"
+},
+  {
+    "id": "cpcl-je-recruitment-2026",
+    "b": "Chennai Petroleum Corporation Limited (CPCL), a Navratna Public Sector Organization and Group Company of Indian Oil Corporation Ltd.",
+    "t": "Chennai Petroleum Corporation Limited (CPCL), a Navratna Public Sector Organization and Group Company of Indian Oil Corporation Ltd. Recruitment 2026 Notification Out for 60 Junior Engineering Assistant-IV (Production / Mechanical / Electrical / Instrumentation) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "30 September 2026 (23:59 Hrs)",
+    "a": "01 of 2026 - CPCL/HRD:03:055",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Chennai Petroleum Corporation Limited (CPCL), a Navratna Public Sector Organization and Group Company of Indian Oil Corporation Ltd. has officially announced employment advertisement notification 01 of 2026 - CPCL/HRD:03:055 inviting applications for 60 vacancies for Junior Engineering Assistant-IV (Production / Mechanical / Electrical / Instrumentation) posts.",
+    "u": "https://www.cpcl.co.in/wp-content/uploads/2026/08/Detailed-Adertisement-for-Recruitment-of-Non-Executive-Personnel-2026.pdf"
+},
+  {
+    "id": "iprc-technical-assistant-recruitment-2026",
+    "b": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India",
+    "t": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India Recruitment 2026 Notification Out for 22 Technical Assistant, Technician & Skilled Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "5 October 2026",
+    "a": "IPRC/RMT/2026/01",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India has officially announced employment advertisement notification IPRC/RMT/2026/01 inviting applications for 22 vacancies for Technical Assistant, Technician & Skilled posts.",
+    "u": "https://www.iprc.gov.in/"
+},
+  {
+    "id": "aiims-jodhpur-research-associate-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Research Associate-III Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "Dr.Jaykaran/Recruitment/2024/43",
+    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification Dr.Jaykaran/Recruitment/2024/43 inviting applications for 1 vacancies for Research Associate-III posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788930859_Doc_527-090926.pdf"
+},
+  {
+    "id": "optcl-degree-engineering-recruitment-2026",
+    "b": "Odisha Power Transmission Corporation Limited (OPTCL)",
+    "t": "Odisha Power Transmission Corporation Limited (OPTCL) Recruitment 2026 Notification Out for 100 Degree Engineering Apprentice, Degree Non-Engineering Apprentice, Diploma Technician Apprentice, ITI Trade Apprentice Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "11:59 PM, 1 October 2026 (Thursday)",
+    "a": "OPTCL-14013/9/2026-T AND D - Part (1) - 14389",
+    "q": "B.Tech / B.E | B.Sc | B.Com",
+    "desc": "Odisha Power Transmission Corporation Limited (OPTCL) has officially announced employment advertisement notification OPTCL-14013/9/2026-T AND D - Part (1) - 14389 inviting applications for 100 vacancies for Degree Engineering Apprentice, Degree Non-Engineering Apprentice, Diploma Technician Apprentice, ITI Trade Apprentice posts.",
+    "u": "https://www.optcl.co.in/Writereaddata/Downloads/Full_Advt_2026-27.pdf"
+},
+  {
+    "id": "icar-crri-young-professional-recruitment-2026",
+    "b": "Central Rice Research Institute (ICAR CRRI)",
+    "t": "Central Rice Research Institute (ICAR CRRI) Recruitment 2026 Notification Out for 1 Young Professional-I Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "28/YP-I/2026-27",
+    "q": "B.Sc",
+    "desc": "Central Rice Research Institute (ICAR CRRI) has officially announced employment advertisement notification 28/YP-I/2026-27 inviting applications for 1 vacancies for Young Professional-I posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-469.pdf"
+},
+  {
+    "id": "icar-central-rice-project-assistant-recruitment-2026",
+    "b": "ICAR Central Rice Research Institute",
+    "t": "ICAR Central Rice Research Institute Recruitment 2026 Notification Out for 1 Project Assistant (PA) Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "30/PA/2026-27",
+    "q": "B.Sc",
+    "desc": "ICAR Central Rice Research Institute has officially announced employment advertisement notification 30/PA/2026-27 inviting applications for 1 vacancies for Project Assistant (PA) posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-471.pdf"
+},
+  {
+    "id": "emrs-manipur-teach-staff-nurse-recruitment-2026",
+    "b": "EMRS Manipur Teaching and Non Teaching Staff",
+    "t": "EMRS Manipur Teaching and Non Teaching Staff Recruitment 2026 Notification Out for 30 Staff Nurse, Chowkidar and More Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "Tuesday, 25th September 2026",
+    "a": "EMRS-MANIPUR-T/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "EMRS Manipur Teaching and Non Teaching Staff has officially announced employment advertisement notification EMRS-MANIPUR-T/2026 inviting applications for 30 vacancies for Staff Nurse, Chowkidar and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s36e2713a6efee97bacb63e52c54f0ada0/uploads/2026/09/17890431161898.pdf"
+},
+  {
+    "id": "rcfl-mt-management-trainee-recruitment-2026",
+    "b": "RCFL MT",
+    "t": "RCFL MT Recruitment 2026 Notification Out for 94 Management Trainee Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "24 August 2026, 5:00 pm",
+    "a": "16022026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "RCFL MT has officially announced employment advertisement notification 16022026 inviting applications for 94 vacancies for Management Trainee posts.",
+    "u": "https://ibpsreg.ibps.in/rcfmtfeb26/"
+},
+  {
     "id": "bharatratna-atal-b-assistant-professor-recruitment-2026",
     "b": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune)",
     "t": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune) Recruitment 2026 Notification Out for 1 Assistant Professor (Community Medicine - UHTC) Posts | Walk-in Interview",
