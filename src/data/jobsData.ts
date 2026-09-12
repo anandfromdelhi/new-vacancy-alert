@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "upsssc-state-rural-recruitment-2026",
+    "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "t": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) Recruitment 2026 Notification Out for 132 State Rural Development Institute (Senior Instructor Cadre) Main Examination (PET-2025)/21 Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "05 October 2026",
+    "a": "21-Pareeksha/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially announced employment advertisement notification 21-Pareeksha/2026 inviting applications for 132 vacancies for State Rural Development Institute (Senior Instructor Cadre) Main Examination (PET-2025)/21 posts.",
+    "u": "https://upsssc.gov.in/AllNotifications.aspx"
+},
+  {
+    "id": "lucknow-university-subject-expert-recruitment-2026",
+    "b": "Lucknow University",
+    "t": "Lucknow University Recruitment 2026 Notification Out for 9 Subject Expert Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "LUCKNOW-UNIVER/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Lucknow University has officially announced employment advertisement notification LUCKNOW-UNIVER/2026 inviting applications for 9 vacancies for Subject Expert posts.",
+    "u": "https://lkouniv.ac.in/site/writereaddata/siteContent/202609071753596538VACANCY_070926.pdf"
+},
+  {
+    "id": "prayagraj-district-special-judicial-recruitment-2026",
+    "b": "Prayagraj District Court",
+    "t": "Prayagraj District Court Recruitment 2026 Notification Out for 1 Special Judicial Magistrate Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "17 October 2026",
+    "a": "PRAYAGRAJ-DIST/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Prayagraj District Court has officially announced employment advertisement notification PRAYAGRAJ-DIST/2026 inviting applications for 1 vacancies for Special Judicial Magistrate posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02e8258e5140317ff36c7f8225a3bf/uploads/2026/08/2026082516.pdf"
+},
+  {
+    "id": "upcbl-cooperative-intern-recruitment-2026",
+    "b": "Uttar Pradesh State Cooperative Bank (UPCBL)",
+    "t": "Uttar Pradesh State Cooperative Bank (UPCBL) Recruitment 2026 Notification Out for 5 Cooperative Intern Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "24 September 2026",
+    "a": "UTTAR-PRADESH-/2026",
+    "q": "MBA / BBA",
+    "desc": "Uttar Pradesh State Cooperative Bank (UPCBL) has officially announced employment advertisement notification UTTAR-PRADESH-/2026 inviting applications for 5 vacancies for Cooperative Intern posts.",
+    "u": "https://www.upcbl.in/pdf/co-operative_080926.pdf"
+},
+  {
+    "id": "jalaun-up-anganwad-anganwadi-worker-recruitment-2026",
+    "b": "Jalaun UP Anganwadi",
+    "t": "Jalaun UP Anganwadi Recruitment 2026 Notification Out for 110 Anganwadi Worker and Helper Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "30 September 2026",
+    "a": "JALAUN-UP-ANGA/2026",
+    "q": "12th Pass",
+    "desc": "Jalaun UP Anganwadi has officially announced employment advertisement notification JALAUN-UP-ANGA/2026 inviting applications for 110 vacancies for Anganwadi Worker and Helper posts.",
+    "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788958383_41995cb1.pdf"
+},
+  {
+    "id": "blw-sports-quota-sportspersons-recruitment-2026",
+    "b": "BLW Sports Quota",
+    "t": "BLW Sports Quota Recruitment 2026 Notification Out for 25 Sportspersons Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "12 October 2026",
+    "a": "Sports Quota/02/2026-27 (No. BLW(P)/Recruitment/Sports/KOTA/2026-27), dated 24.08.2026",
+    "q": "B.Tech / B.E",
+    "desc": "BLW Sports Quota has officially announced employment advertisement notification Sports Quota/02/2026-27 (No. BLW(P)/Recruitment/Sports/KOTA/2026-27), dated 24.08.2026 inviting applications for 25 vacancies for Sportspersons posts.",
+    "u": "https://blw.indianrailways.gov.in"
+},
+  {
+    "id": "iit-kanpur-project-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "30 September 2026",
+    "a": "P.Rect./IP/DOAD/2026/31",
+    "q": "B.Sc | MBA / BBA | MCA / BCA",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P.Rect./IP/DOAD/2026/31 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfTM95rdvg5WXwe1k9O-ca8BVeiiAjEJFibqLzjAxZpMVw4-g/viewform"
+},
+  {
+    "id": "nit-technician-lab-recruitment-2026",
+    "b": "National Institute of Technology (NIT) Agartala",
+    "t": "National Institute of Technology (NIT) Agartala Recruitment 2026 Notification Out for 51 Technician, Lab Attendant and More Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "20 October 2026, 5:00 PM",
+    "a": "F.NITA.2(519-Estt)/2019/Vol-III/4473",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "National Institute of Technology (NIT) Agartala has officially announced employment advertisement notification F.NITA.2(519-Estt)/2019/Vol-III/4473 inviting applications for 51 vacancies for Technician, Lab Attendant and More posts.",
+    "u": "https://nita.ac.in/MO_10-09-2026_Advt-GrBGrC-Technical-Sept26_admin.pdf"
+},
+  {
+    "id": "tripura-university-guest-instructor-recruitment-2026",
+    "b": "Tripura University",
+    "t": "Tripura University Recruitment 2026 Notification Out for 2 Guest Instructor Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "TRIPURA-UNIVER/2026",
+    "q": "M.A. in Instrumental Music (Violin), M.A. in Hindustani Classical Vocal ...",
+    "desc": "Tripura University has officially announced employment advertisement notification TRIPURA-UNIVER/2026 inviting applications for 2 vacancies for Guest Instructor posts.",
+    "u": "https://tripurauniv.ac.in/site//images/contentpdf/1789052772_assignment_of_guest_instructor_in_the_department_of_music__tripura_university.pdf"
+},
+  {
+    "id": "international-inst-library-assistant-recruitment-2026",
+    "b": "International Institute of Information Technology Hyderabad (IIIT Hyderabad)",
+    "t": "International Institute of Information Technology Hyderabad (IIIT Hyderabad) Recruitment 2026 Notification Out for 1 Library Assistant Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "IIITH/HR/Lib/037",
+    "q": "Diploma | Master's / PG Degree",
+    "desc": "International Institute of Information Technology Hyderabad (IIIT Hyderabad) has officially announced employment advertisement notification IIITH/HR/Lib/037 inviting applications for 1 vacancies for Library Assistant posts.",
+    "u": "https://cdn.iiit.ac.in/cdn/www.iiit.ac.in/wp-content/uploads/2026/09/JD-Library-Assistant-10-Sep-2026.pdf"
+},
+  {
     "id": "drdo-asl-jrf-recruitment-2026",
     "b": "Advanced Systems Laboratory (DRDO ASL)",
     "t": "Advanced Systems Laboratory (DRDO ASL) Recruitment 2026 Notification Out for 17 Junior Research Fellow (JRF) and Research Associate (RA) Posts | Apply Offline",
