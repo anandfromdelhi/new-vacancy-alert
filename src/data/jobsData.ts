@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ncrtc-supervisor-and-recruitment-2026",
+    "b": "NCRTC",
+    "t": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I and Junior Maintainer Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "09 October 2026 (23:55 hrs)",
+    "a": "NCRTC/2026",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "NCRTC has officially announced employment advertisement notification NCRTC/2026 inviting applications for 90 vacancies for Supervisor-I and Junior Maintainer posts.",
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/102029/Index.html"
+},
+  {
+    "id": "sidbi-project-manager-recruitment-2026",
+    "b": "Small Industries Development Bank of India (SIDBI)",
+    "t": "Small Industries Development Bank of India (SIDBI) Recruitment 2026 Notification Out for 2 Project Manager/ Project Coordinator Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "01 October 2026",
+    "a": "GCFV/10092026/OUT/83314",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Small Industries Development Bank of India (SIDBI) has officially announced employment advertisement notification GCFV/10092026/OUT/83314 inviting applications for 2 vacancies for Project Manager/ Project Coordinator posts.",
+    "u": "https://www.sidbi.in/head/uploads/career_document/TOR_Hiring_10_09_2026.pdf"
+},
+  {
+    "id": "ignca-project-manager-recruitment-2026",
+    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
+    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 1 Project Manager Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "12/333/2025-SD/AM",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially announced employment advertisement notification 12/333/2025-SD/AM inviting applications for 1 vacancies for Project Manager posts.",
+    "u": "https://ignca.gov.in/vaccancy/10092026-ABCD-Project.pdf"
+},
+  {
+    "id": "icsil-data-entry-recruitment-2026",
+    "b": "Intelligent Communication Systems India (ICSIL)",
+    "t": "Intelligent Communication Systems India (ICSIL) Recruitment 2026 Notification Out for 3 Data Entry Operator Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "ICSIL/RC/10-A/NHMCH/MANPOWER/2026-2027",
+    "q": "Any Bachelor's Degree",
+    "desc": "Intelligent Communication Systems India (ICSIL) has officially announced employment advertisement notification ICSIL/RC/10-A/NHMCH/MANPOWER/2026-2027 inviting applications for 3 vacancies for Data Entry Operator posts.",
+    "u": "https://icsil.in/sites/default/files/2026-09/Nehru%20Homoeopathic%20Medical%20College%20Hospital%20%28NHMCH%29-DEO.pdf"
+},
+  {
+    "id": "dtu-data-scientist-recruitment-2026",
+    "b": "Delhi Technological University (DTU)",
+    "t": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 1 Data Scientist Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "20 September 2026",
+    "a": "DTU/ CSE/ 2026/ 641/ 02-B",
+    "q": "M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Delhi Technological University (DTU) has officially announced employment advertisement notification DTU/ CSE/ 2026/ 641/ 02-B inviting applications for 1 vacancies for Data Scientist posts.",
+    "u": "https://dtu.ac.in/Web/upload/jobs/2026/sep/file0903.pdf"
+},
+  {
+    "id": "national-forensic-teaching-positions-recruitment-2026",
+    "b": "National Forensic Sciences University",
+    "t": "National Forensic Sciences University Recruitment 2026 Notification Out for 1 Teaching Positions Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "21 September 2026",
+    "a": "NATIONAL-FOREN/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Forensic Sciences University has officially announced employment advertisement notification NATIONAL-FOREN/2026 inviting applications for 1 vacancies for Teaching Positions posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdU_LjXvXTZBdQyQhwJPsAHtL5N6mXQHS56Q2Ey2lW7DeBF-A/viewform"
+},
+  {
+    "id": "rmlau-guest-facultyinstruc-recruitment-2026",
+    "b": "Dr. Ram Manohar Lohia Avadh University Ayodhya (RMLAU)",
+    "t": "Dr. Ram Manohar Lohia Avadh University Ayodhya (RMLAU) Recruitment 2026 Notification Out for 19 Guest Faculty/Instructor Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "RMLAU/ADMIN/2026/433",
+    "q": "Any Bachelor's Degree",
+    "desc": "Dr. Ram Manohar Lohia Avadh University Ayodhya (RMLAU) has officially announced employment advertisement notification RMLAU/ADMIN/2026/433 inviting applications for 19 vacancies for Guest Faculty/Instructor posts.",
+    "u": "https://www.rmlau.ac.in/news/RMLCareer_100926051228.pdf"
+},
+  {
+    "id": "aiims-delhi-srf-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) (non-medical) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "21 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "M.Sc",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Senior Research Fellow (SRF) (non-medical) posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/rpc-9-9-26.pdf"
+},
+  {
+    "id": "gail-india-limited-executive-trainee-recruitment-2026",
+    "b": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU)",
+    "t": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU) Recruitment 2026 Notification Out for 1 Executive Trainee (ET) - Chemical, Electrical, Instrumentation, Mechanical Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "18 March 2027, 6:00 PM",
+    "a": "GAIL/OPEN/ET/1/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "GAIL (India) Limited (A Government of India Undertaking, Maharatna PSU) has officially announced employment advertisement notification GAIL/OPEN/ET/1/2026 inviting applications for 1 vacancies for Executive Trainee (ET) - Chemical, Electrical, Instrumentation, Mechanical posts.",
+    "u": "https://www.gailonline.com"
+},
+  {
+    "id": "ndmc-executive-engineer-recruitment-2026",
+    "b": "New Delhi Municipal Council (NDMC)",
+    "t": "New Delhi Municipal Council (NDMC) Recruitment 2026 Notification Out for 2 Executive Engineer (Civil) Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "21 September 2026",
+    "a": "NEW-DELHI-MUNI/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "New Delhi Municipal Council (NDMC) has officially announced employment advertisement notification NEW-DELHI-MUNI/2026 inviting applications for 2 vacancies for Executive Engineer (Civil) posts.",
+    "u": "https://www.ndmc.gov.in/"
+},
+  {
     "id": "dcpw-assistant-assistant-recruitment-2026",
     "b": "Directorate of Coordination Police Wireless (DCPW)",
     "t": "Directorate of Coordination Police Wireless (DCPW) Recruitment 2026 Notification Out for 61 Assistant, Assistant Communication Officer Posts | Apply Offline",
