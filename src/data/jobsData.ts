@@ -156,14 +156,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "jalaun-up-anganwad-anganwadi-worker-recruitment-2026",
-    "b": "Jalaun UP Anganwadi",
-    "t": "Jalaun UP Anganwadi Recruitment 2026 Notification Out for 110 Anganwadi Worker and Helper Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "30 September 2026",
-    "a": "JALAUN-UP-ANGA/2026",
-    "q": "12th Pass",
-    "desc": "Jalaun UP Anganwadi has officially announced employment advertisement notification JALAUN-UP-ANGA/2026 inviting applications for 110 vacancies for Anganwadi Worker and Helper posts.",
-    "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788958383_41995cb1.pdf"
+    "b": "District Programme Office, Jalaun (Bal Vikas Seva evam Pushtahar, Uttar Pradesh)",
+    "t": "Jalaun UP Anganwadi Recruitment 2026 Notification Out for 110 Anganwadi Karyakatri (Worker) & Sahayika (Helper) Posts | Apply Online",
+    "d": "09 September 2026",
+    "l": "30 September 2026 (12:00 Midnight)",
+    "a": "Letter No. C-2117/Ji.Ka./Ba.Vi.Pari./A.Ba.Chayan/2026-27",
+    "q": "Intermediate (10+2 / 12th Pass) or equivalent recognized qualification",
+    "desc": "Office of the District Programme Officer, Jalaun (Bal Vikas Seva evam Pushtahar, Government of Uttar Pradesh) has officially published employment press notice Letter No. C-2117/Ji.Ka./Ba.Vi.Pari./A.Ba.Chayan/2026-27 dated 09 September 2026 pursuant to Government Order No. 2025/3313(1)/58-1-2025(1917687) dated 17 September 2025. Online applications are invited through the official departmental portal at https://www.upanganwadibharti.in for direct recruitment to 110 honorarium-based vacancies of Anganwadi Karyakatri (Worker) and Anganwadi Sahayika (Helper) in urban and rural Child Development Projects across District Jalaun.",
+    "u": "https://www.upanganwadibharti.in"
 },
   {
     "id": "blw-sports-quota-sportspersons-recruitment-2026",
