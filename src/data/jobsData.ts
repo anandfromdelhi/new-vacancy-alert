@@ -101,14 +101,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "iol-project-technician-recruitment-2026",
-    "b": "India Optel Limited (IOL)",
+    "b": "India Optel Limited (IOL) - A Govt. of India Enterprise, Ministry of Defence",
     "t": "India Optel Limited (IOL) Recruitment 2026 Notification Out for 160 Project Technician, Junior Project Engineer, Welfare Officer & Consultant Posts | Apply Offline",
     "d": "12 September 2026",
-    "l": "21 Days from Publication of Advertisement in Employment News",
-    "a": "IOL/Hqrs/100(6)/2026-Rectt.",
-    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "India Optel Limited (IOL) has officially announced employment advertisement notification IOL/Hqrs/100(6)/2026-Rectt. inviting applications for 160 vacancies for Project Technician, Junior Project Engineer, Welfare Officer & Consultant posts.",
-    "u": "https://indiaoptel.in/"
+    "l": "02 October 2026 (5:00 PM)",
+    "a": "IOLHqrs/100(6)/2026-Rectt.",
+    "q": "ITI / NAC / Diploma / B.E. / B.Tech / Degree in relevant discipline",
+    "desc": "India Optel Limited (IOL), a premier Defence Public Sector Undertaking (DPSU) under the Ministry of Defence, Government of India, has officially released employment advertisement notice No. IOLHqrs/100(6)/2026-Rectt. (CBC 10622/11/0050/2627, EN 24/36). The organization invites offline applications from eligible Indian Nationals for engagement of 160 professionals across various technical, engineering, and administrative disciplines on temporary basis through Fixed Term Contract.",
+    "u": "https://www.indiaoptel.in"
 },
   {
     "id": "upsssc-state-rural-recruitment-2026",
