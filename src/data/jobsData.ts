@@ -113,12 +113,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "upsssc-state-rural-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-    "t": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) Recruitment 2026 Notification Out for 132 State Rural Development Institute (Senior Instructor Cadre) Main Examination (PET-2025)/21 Posts | Apply Online",
-    "d": "12 September 2026",
+    "t": "UPSSSC Senior Instructor Recruitment 2026 Notification Out for 132 Posts under DDU SIRD (Advt 21-Exam/2026) | Apply Online",
+    "d": "10 September 2026",
     "l": "05 October 2026",
-    "a": "21-Pareeksha/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially announced employment advertisement notification 21-Pareeksha/2026 inviting applications for 132 vacancies for State Rural Development Institute (Senior Instructor Cadre) Main Examination (PET-2025)/21 posts.",
+    "a": "21-Exam/2026 (21-परीक्षा/2026)",
+    "q": "UPSSSC PET-2025 + Degree / Diploma in relevant discipline (Agri / Engg / Sci / Arts)",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has officially published Advertisement No. 21-Exam/2026 (विज्ञापन संख्या-21-परीक्षा/2026) for the State Institute of Rural Development (Senior Instructor Cadre) Main Examination (PET-2025)/21 [राज्य ग्राम्य विकास संस्थान (ज्येष्ठ अनुदेशक संवर्ग) मुख्य परीक्षा (प्रा0अ0प0-2025)/21]. Online applications are invited from eligible Indian citizens for direct recruitment to 132 permanent Group 'C' posts of Senior Instructor (ज्येष्ठ अनुदेशक) across 13 specialized disciplines under the Director General, Deen Dayal Upadhyaya State Institute of Rural Development (DDU SIRD), Bakshi Ka Talab, Lucknow.",
     "u": "https://upsssc.gov.in/AllNotifications.aspx"
 },
   {
