@@ -114,9 +114,9 @@ def generate_short_slug(board, post_name, year="2026"):
         for full_name, acro in BOARD_ACRONYM_MAP.items():
             if full_name in b_lower:
                 b_key = acro
-                for city in ['delhi', 'mandi', 'kanpur', 'roorkee', 'kharagpur', 'madras', 'bombay', 'goa', 'tirupati', 'patna', 'bhubaneswar', 'rishikesh', 'jodhpur', 'deoghar']:
+                for city in CAMPUS_CITIES:
                     if city in b_lower:
-                        b_key = f"{acro}-{city}"
+                        b_key = f"{acro}-{slugify(city)}"
                         break
                 break
 
@@ -250,7 +250,10 @@ CAMPUS_CITIES = [
     'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
     'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
     'deoghar', 'kozhikode', 'chittoor', 'dharwad', 'calicut', 'jammu', 'gandhinagar',
-    'bijnor', 'balangir', 'krishnagiri', 'nagarkurnool', 'kashipur'
+    'bijnor', 'balangir', 'krishnagiri', 'nagarkurnool', 'kashipur', 'silchar',
+    'srinagar', 'agartala', 'surathkal', 'rourkela', 'warangal', 'durgapur',
+    'kurukshetra', 'jalandhar', 'jaipur', 'allahabad', 'prayagraj', 'hyderabad',
+    'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack'
 ]
 
 GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}

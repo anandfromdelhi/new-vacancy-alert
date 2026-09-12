@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "dcpw-assistant-assistant-recruitment-2026",
+    "b": "Directorate of Coordination Police Wireless (DCPW)",
+    "t": "Directorate of Coordination Police Wireless (DCPW) Recruitment 2026 Notification Out for 61 Assistant, Assistant Communication Officer Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "10 November 2026",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Directorate of Coordination Police Wireless (DCPW) has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 61 vacancies for Assistant, Assistant Communication Officer posts.",
+    "u": "https://www.dcpw.gov.in"
+},
+  {
+    "id": "national-communica-teaching-associates-recruitment-2026",
+    "b": "National Communications Academy - Finance",
+    "t": "National Communications Academy - Finance Recruitment 2026 Notification Out for 2 Teaching Associates Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "01 October 2026",
+    "a": "NATIONAL-COMMU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Communications Academy - Finance has officially announced employment advertisement notification NATIONAL-COMMU/2026 inviting applications for 2 vacancies for Teaching Associates posts.",
+    "u": "https://www.nicf.gov.in"
+},
+  {
+    "id": "icgeb-research-associate-recruitment-2026",
+    "b": "International Centre for Genetic Engineering and Biotechnology (ICGEB)",
+    "t": "International Centre for Genetic Engineering and Biotechnology (ICGEB) Recruitment 2026 Notification Out for 3 Research Associate / Research Fellow Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "20 September 2026",
+    "a": "INTERNATIONAL-/2026",
+    "q": "M.Sc | Ph.D / Doctorate",
+    "desc": "International Centre for Genetic Engineering and Biotechnology (ICGEB) has officially announced employment advertisement notification INTERNATIONAL-/2026 inviting applications for 3 vacancies for Research Associate / Research Fellow posts.",
+    "u": "https://www.icgeb.org/wp-content/uploads/2026/09/Vacancy-Notice-for-ICGEB-Biofoundry-Sep-2026.1.pdf"
+},
+  {
+    "id": "panjab-university-phd-research-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 Notification Out for 2 Ph.D. Research Fellow Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "B.Pharm / D.Pharm | Ph.D / Doctorate",
+    "desc": "Panjab University has officially announced employment advertisement notification PANJAB-UNIVERS/2026 inviting applications for 2 vacancies for Ph.D. Research Fellow posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260911090430-20260910173112-kidarnathgaind.pdf"
+},
+  {
+    "id": "central-silk-board-various-on-recruitment-2026",
+    "b": "Central Silk Board",
+    "t": "Central Silk Board Recruitment 2026 Notification Out for 17 Various Posts on Deputation Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "09 October 2026",
+    "a": "CSB/01/2026",
+    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Central Silk Board has officially announced employment advertisement notification CSB/01/2026 inviting applications for 17 vacancies for Various Posts on Deputation posts.",
+    "u": "https://csb.gov.in/sites/default/files/what_s_new/files/Deputation%20advt.%20CSB_01_2026.pdf"
+},
+  {
+    "id": "oil-india-deputy-chief-recruitment-2026",
+    "b": "Oil India",
+    "t": "Oil India Recruitment 2026 Notification Out for 3 Deputy Chief Chemist / Deputy Chief Engineer (Reservoir) / Economist Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "10 October 2026",
+    "a": "HRAQ/ REC-EX-B/ 2026-02",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Oil India has officially announced employment advertisement notification HRAQ/ REC-EX-B/ 2026-02 inviting applications for 3 vacancies for Deputy Chief Chemist / Deputy Chief Engineer (Reservoir) / Economist posts.",
+    "u": "https://oileservice.oilindia.in/HRARecruitmentPortal/Account/?id=1e7b719a-cf70-4d05-96c8-46ef9cc4a80c"
+},
+  {
+    "id": "iit-guwahati-assistant-project-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 2 Assistant Project Engineer Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "16 September 2026",
+    "a": "IITG/II&SI/Project Staff Rectt-2026/147",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/147 inviting applications for 2 vacancies for Assistant Project Engineer posts.",
+    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
+},
+  {
+    "id": "national-test-hous-young-professionals-recruitment-2026",
+    "b": "National Test House",
+    "t": "National Test House Recruitment 2026 Notification Out for 36 Young Professionals Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "15 days from the date of publication (26 September 2026)",
+    "a": "NATIONAL-TEST-/2026",
+    "q": "Master's / PG Degree",
+    "desc": "National Test House has officially announced employment advertisement notification NATIONAL-TEST-/2026 inviting applications for 36 vacancies for Young Professionals posts.",
+    "u": "https://www.nth.gov.in"
+},
+  {
+    "id": "nit-silchar-project-associate-recruitment-2026",
+    "b": "National Institute of Technology Silchar",
+    "t": "National Institute of Technology Silchar Recruitment 2026 Notification Out for 1 Project Associate-I Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "NITS/Dean",
+    "q": "B.Tech / B.E",
+    "desc": "National Institute of Technology Silchar has officially announced employment advertisement notification NITS/Dean inviting applications for 1 vacancies for Project Associate-I posts.",
+    "u": "https://www.nits.ac.in/storage/CareerDocument/Career_6aa289bc7e51d.pdf"
+},
+  {
+    "id": "sainik-school-koru-trained-graduate-recruitment-2026",
+    "b": "Sainik School Korukonda",
+    "t": "Sainik School Korukonda Recruitment 2026 Notification Out for 1 Trained Graduate Teacher (TGT) Mathematics Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "02 October 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Sainik School Korukonda has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 1 vacancies for Trained Graduate Teacher (TGT) Mathematics posts.",
+    "u": "https://www.sainikschoolkorukonda.org"
+},
+  {
     "id": "hcl-general-manager-recruitment-2026",
     "b": "HCL",
     "t": "HCL Recruitment 2026 Notification Out for 10 General Manager and Deputy General Manager Posts | Apply Offline",
