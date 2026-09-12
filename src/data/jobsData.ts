@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "cochin-port-author-assistant-marine-recruitment-2026",
+    "b": "Cochin Port Authority",
+    "t": "Cochin Port Authority Recruitment 2026 Notification Out for 7 Assistant Marine Services Officer (AMSO) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "12 October 2026",
+    "a": "A3/Contract/Marine/Foreman/2026/S",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Cochin Port Authority has officially announced employment advertisement notification A3/Contract/Marine/Foreman/2026/S inviting applications for 7 vacancies for Assistant Marine Services Officer (AMSO) posts.",
+    "u": "https://career.itiltd.in/careers_cochin_port/login_form.php?id=Mzc="
+},
+  {
+    "id": "cochin-port-author-dredger-commander-recruitment-2026",
+    "b": "Cochin Port Authority",
+    "t": "Cochin Port Authority Recruitment 2026 Notification Out for 1 Dredger Commander Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "12 October 2026",
+    "a": "No.A3/43/Contract Dredger Commander/2026-S",
+    "q": "Master's / PG Degree",
+    "desc": "Cochin Port Authority has officially announced employment advertisement notification No.A3/43/Contract Dredger Commander/2026-S inviting applications for 1 vacancies for Dredger Commander posts.",
+    "u": "https://career.itiltd.in/careers_cochin_port/login_form.php?id=MzU="
+},
+  {
+    "id": "sns-bank-vijayapur-junior-assistant-recruitment-2026",
+    "b": "SNS Bank Vijayapura",
+    "t": "SNS Bank Vijayapura Recruitment 2026 Notification Out for 18 Junior Assistant, Sepoy/ Watchman Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "28 September 2026, up to 5:30 PM",
+    "a": "SNS-BANK-VIJAY/2026",
+    "q": "10th / 8th Pass | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "SNS Bank Vijayapura has officially announced employment advertisement notification SNS-BANK-VIJAY/2026 inviting applications for 18 vacancies for Junior Assistant, Sepoy/ Watchman posts.",
+    "u": "https://snsbankvijayapur.com/public/assets/adisuchane.pdf"
+},
+  {
+    "id": "nabhins-finance-li-senior-manager-recruitment-2026",
+    "b": "Nabhins Finance Limited (Nabfins)",
+    "t": "Nabhins Finance Limited (Nabfins) Recruitment 2026 Notification Out for 1 Senior Manager Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "Nabhins/OPS/1149",
+    "q": "CA",
+    "desc": "Nabhins Finance Limited (Nabfins) has officially announced employment advertisement notification Nabhins/OPS/1149 inviting applications for 1 vacancies for Senior Manager posts.",
+    "u": "https://nabfins.org/Careers/form.php?id=1149"
+},
+  {
+    "id": "ncbs-scientific-assistant-recruitment-2026",
+    "b": "National Centre for Biological Sciences (NCBS)",
+    "t": "National Centre for Biological Sciences (NCBS) Recruitment 2026 Notification Out for 1 Scientific Assistant (Electronic workshop) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "09 October 2026",
+    "a": "12/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "National Centre for Biological Sciences (NCBS) has officially announced employment advertisement notification 12/2026 inviting applications for 1 vacancies for Scientific Assistant (Electronic workshop) posts.",
+    "u": "https://www.ncbs.res.in/jobportal/node/add/application/146659"
+},
+  {
+    "id": "nit-srinagar-temporary-teaching-recruitment-2026",
+    "b": "National Institute of Technology Srinagar",
+    "t": "National Institute of Technology Srinagar Recruitment 2026 Notification Out for 2 Temporary Teaching Staff Posts | Walk-in Interview",
+    "d": "12 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "NITS/Admn/167/2026-PD/353",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "National Institute of Technology Srinagar has officially announced employment advertisement notification NITS/Admn/167/2026-PD/353 inviting applications for 2 vacancies for Temporary Teaching Staff posts.",
+    "u": "https://nitsri.ac.in/uploaded_files/Notice_for_Walk-in-Interview_for_Temporary_Faculty_Positions.pdf"
+},
+  {
+    "id": "jammu-and-kashmir-zonal-security-recruitment-2026",
+    "b": "Jammu and Kashmir Bank",
+    "t": "Jammu and Kashmir Bank Recruitment 2026 Notification Out for 8 Zonal Security Officer, FL Counsellor Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "25 September 2026",
+    "a": "JKB/HR/Rectt/2026-412",
+    "q": "Any Bachelor's Degree",
+    "desc": "Jammu and Kashmir Bank has officially announced employment advertisement notification JKB/HR/Rectt/2026-412 inviting applications for 8 vacancies for Zonal Security Officer, FL Counsellor posts.",
+    "u": "https://jkb.bank.in"
+},
+  {
+    "id": "icar-indian-agricu-young-professional-recruitment-2026",
+    "b": "ICAR Indian Agricultural Research Institute",
+    "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "Position",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "ICAR Indian Agricultural Research Institute has officially announced employment advertisement notification Position inviting applications for 1 vacancies for Young Professional-II posts.",
+    "u": "https://www.iari.res.in/files/jobs/Young_Professional_II_RS_Shimla_03092026.pdf"
+},
+  {
+    "id": "gujarat-biotechnol-jrf-recruitment-2026",
+    "b": "Gujarat Biotechnology University",
+    "t": "Gujarat Biotechnology University Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "01 October 2026",
+    "a": "GBU/Admn/e-file/265/2025/0474/Admin",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Gujarat Biotechnology University has officially announced employment advertisement notification GBU/Admn/e-file/265/2025/0474/Admin inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdsPM1HOTwh_cNLnhy7Q9VbNWxvivKGFiK4M3o-hAz0e1ep8A/viewform?usp=send_form"
+},
+  {
+    "id": "upsc-specialist-assistant-recruitment-2026",
+    "b": "Union Public Service Commission (UPSC)",
+    "t": "Union Public Service Commission (UPSC) Recruitment 2026 Notification Out for 212 Specialist, Assistant Professor and More Posts | Apply Online",
+    "d": "12 September 2026",
+    "l": "09 October 2026",
+    "a": "11/2026",
+    "q": "Diploma | B.Tech / B.E | M.Sc",
+    "desc": "Union Public Service Commission (UPSC) has officially announced employment advertisement notification 11/2026 inviting applications for 212 vacancies for Specialist, Assistant Professor and More posts.",
+    "u": "https://upsconline.nic.in/candidate/realms/candidate-portal/protocol/openid-connect/auth?client_id=account&redirect_uri=https%3A%2F%2Fupsconline.nic.in%2Fcandidate%2Frealms%2Fcandidate-portal%2Faccount%2Flogin-redirect&state=0%2F7e9ebe66-9192-399c-852f-3c3aba4df57e&response_type=code&scope=openid"
+},
+  {
     "id": "ncrtc-supervisor-and-recruitment-2026",
     "b": "NCRTC",
     "t": "NCRTC Recruitment 2026 Notification Out for 90 Supervisor-I and Junior Maintainer Posts | Apply Online",
