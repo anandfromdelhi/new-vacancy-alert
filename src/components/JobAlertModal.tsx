@@ -2,9 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router';
 import { 
   Bell, CheckCircle2, X, Sparkles, Check, 
-  ExternalLink, Loader2, AlertCircle, ArrowRight, ShieldCheck 
+  ExternalLink, Loader2, AlertCircle, ArrowRight, ShieldCheck, Send 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { useTelegram } from '../context/TelegramContext';
 import { getJobAlertOptions } from '../utils/alertOptionsExtractor';
 import { 
   subscribeToAlertCombinations, 
@@ -21,6 +22,7 @@ interface JobAlertModalProps {
 
 export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalProps) {
   const { user, loginWithGoogle } = useAuth();
+  const { isTelegramConnected, telegramLink, openTelegramModal } = useTelegram();
 
   // Extract structured options from the job
   const alertOptions: JobAlertOptions = useMemo(() => {
@@ -119,6 +121,16 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
   const handleSubscribe = async () => {
     if (!user?.uid) {
       handleGoogleLogin();
+      return;
+    }
+
+    if (!isTelegramConnected) {
+      setErrorMessage('Telegram must be connected before subscribing to alerts.');
+      openTelegramModal(
+        () => handleSubscribe(),
+        'Connect Telegram to Subscribe',
+        'Link in 3 simple steps to activate instant job alerts'
+      );
       return;
     }
 
@@ -268,8 +280,8 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
             </div>
           ) : (
             <>
-              {/* Not Logged In Banner */}
-              {!user && (
+              {/* Google Sign-in / Telegram Status Banner */}
+              {!user ? (
                 <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 flex items-start gap-2.5">
                   <ShieldCheck className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
                   <div className="text-xs">
@@ -278,6 +290,31 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
                       Sign in with your Google account to save and manage your personalized vacancy notifications.
                     </p>
                   </div>
+                </div>
+              ) : !isTelegramConnected ? (
+                <div className="bg-sky-50 border border-sky-200 rounded-xl p-3 flex items-start gap-2.5">
+                  <div className="p-1.5 rounded-lg bg-sky-500 text-white shrink-0 mt-0.5 shadow-xs">
+                    <Send className="h-3.5 w-3.5" />
+                  </div>
+                  <div className="text-xs">
+                    <p className="font-extrabold text-sky-950">Telegram Connection Required</p>
+                    <p className="text-sky-800 text-[11px] mt-0.5 leading-relaxed">
+                      Job alerts are delivered directly to your Telegram chat. Connect your Telegram account to activate instant updates.
+                    </p>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-emerald-50 border border-emerald-200 rounded-xl px-3 py-2 flex items-center justify-between text-xs">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="font-black text-emerald-950">Telegram Connected</span>
+                    {telegramLink?.telegramUsername && (
+                      <span className="text-emerald-700 font-bold">(@{telegramLink.telegramUsername})</span>
+                    )}
+                  </div>
+                  <span className="text-[10px] font-black uppercase tracking-wider text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded border border-emerald-300">
+                    Ready
+                  </span>
                 </div>
               )}
 
@@ -460,30 +497,7 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
 
               {/* Action Buttons */}
               <div className="pt-2">
-                {user ? (
-                  <button
-                    type="button"
-                    onClick={handleSubscribe}
-                    disabled={isSubmitting || selectedValidCombinations.length === 0}
-                    className="w-full py-3 px-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {isSubmitting ? (
-                      <>
-                        <Loader2 className="h-4 w-4 animate-spin" />
-                        <span>Saving Subscriptions...</span>
-                      </>
-                    ) : (
-                      <>
-                        <Bell className="h-4 w-4 fill-white" />
-                        <span>
-                          {alertOptions.isSingleCombination
-                            ? 'Subscribe to Alerts'
-                            : `Subscribe to ${selectedValidCombinations.length} Selected Alerts`}
-                        </span>
-                      </>
-                    )}
-                  </button>
-                ) : (
+                {!user ? (
                   <button
                     type="button"
                     onClick={handleGoogleLogin}
@@ -508,6 +522,44 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
                       />
                     </svg>
                     <span>Sign in with Google to Enable Alerts</span>
+                  </button>
+                ) : !isTelegramConnected ? (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openTelegramModal(
+                        () => handleSubscribe(),
+                        'Connect Telegram to Subscribe',
+                        'Link in 3 simple steps to activate instant job alerts'
+                      )
+                    }
+                    className="w-full py-3 px-4 bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-600 hover:from-sky-600 hover:to-indigo-700 text-white font-black text-xs sm:text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-98"
+                  >
+                    <Send className="h-4 w-4 text-white" />
+                    <span>Connect Telegram to Subscribe</span>
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleSubscribe}
+                    disabled={isSubmitting || selectedValidCombinations.length === 0}
+                    className="w-full py-3 px-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs sm:text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                        <span>Saving Subscriptions...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Bell className="h-4 w-4 fill-white" />
+                        <span>
+                          {alertOptions.isSingleCombination
+                            ? 'Subscribe to Alerts'
+                            : `Subscribe to ${selectedValidCombinations.length} Selected Alerts`}
+                        </span>
+                      </>
+                    )}
                   </button>
                 )}
               </div>

@@ -46,6 +46,20 @@ export async function subscribeToAlertCombinations(params: {
     return { savedCount: 0, alreadyActiveCount: 0, errors: ['No combinations provided'] };
   }
 
+  // Enforce Telegram connection requirement: candidates must connect Telegram before subscribing
+  try {
+    const telegramDoc = await getDoc(doc(db, 'telegram_links', userId));
+    if (!telegramDoc.exists() || !telegramDoc.data()?.isActive) {
+      return {
+        savedCount: 0,
+        alreadyActiveCount: 0,
+        errors: ['Telegram account must be connected to subscribe to job alerts.']
+      };
+    }
+  } catch (telErr: any) {
+    console.warn('Telegram link verification check error:', telErr?.message || telErr);
+  }
+
   let savedCount = 0;
   let alreadyActiveCount = 0;
   const errors: string[] = [];
@@ -215,6 +229,19 @@ export async function addManualSubscription(params: {
   if (locationSlug !== 'all-india') {
     const matchedState = Object.keys(STATE_MAP).find((s) => toSlug(s) === locationSlug);
     locationLabel = matchedState || locationSlug;
+  }
+
+  // Enforce Telegram connection requirement: candidates must connect Telegram before adding alerts
+  try {
+    const telegramDoc = await getDoc(doc(db, 'telegram_links', userId));
+    if (!telegramDoc.exists() || !telegramDoc.data()?.isActive) {
+      return {
+        success: false,
+        message: 'Telegram account must be connected before adding job alerts.'
+      };
+    }
+  } catch (telErr: any) {
+    console.warn('Telegram link verification check error:', telErr?.message || telErr);
   }
 
   const combination: AlertCombination = {

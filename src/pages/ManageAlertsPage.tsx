@@ -6,20 +6,18 @@ import {
   Bell, CheckCircle2, PauseCircle, PlayCircle, Trash2, 
   Plus, AlertCircle, Loader2, ArrowLeft, ShieldCheck, 
   Send, Sparkles, MapPin, GraduationCap, RefreshCw,
-  X, Check, ExternalLink, Copy, Unlink
+  X, Check, Unlink
 } from 'lucide-react';
-import { doc, onSnapshot } from 'firebase/firestore';
-import { db } from '../lib/firebase';
 import { useAuth } from '../context/AuthContext';
+import { useTelegram } from '../context/TelegramContext';
 import { 
   getUserSubscriptions, 
   toggleSubscriptionStatus, 
   deleteSubscription, 
   addManualSubscription 
 } from '../services/alertSubscriptionService';
-import { JobAlertSubscription, TelegramLink } from '../types/alertTypes';
+import { JobAlertSubscription } from '../types/alertTypes';
 import { QUAL_CATEGORIES, STATE_MAP, toSlug } from '../utils/categoryUtils';
-import { API_BASE_URL } from '../utils/apiConfig';
 
 export default function ManageAlertsPage() {
   const { user, loginWithGoogle } = useAuth();
@@ -32,219 +30,64 @@ export default function ManageAlertsPage() {
   const [isSubmittingManual, setIsSubmittingManual] = useState<boolean>(false);
   const [statusMessage, setStatusMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
-  // Telegram Connection State
-  const [telegramLink, setTelegramLink] = useState<TelegramLink | null>(null);
-  const [telegramLoading, setTelegramLoading] = useState<boolean>(true);
-  const [isTelegramModalOpen, setIsTelegramModalOpen] = useState<boolean>(false);
-  const [pairingData, setPairingData] = useState<{ token: string; deepLink: string; expiresAt: string; botUsername: string } | null>(null);
-  const [pairingLoading, setPairingLoading] = useState<boolean>(false);
-  const [disconnectLoading, setDisconnectLoading] = useState<boolean>(false);
-  const [copiedLink, setCopiedLink] = useState<boolean>(false);
-  const [timeLeftSeconds, setTimeLeftSeconds] = useState<number>(600);
+  // Centralized Telegram Connection State
+  const {
+    telegramLink,
+    isTelegramConnected,
+    telegramLoading,
+    checkTelegramStatus,
+    openTelegramModal,
+    disconnectTelegram,
+    disconnectLoading
+  } = useTelegram();
 
-  // Server-verified Telegram status check with automatic modal sync
-  const checkTelegramStatus = useCallback(async () => {
-    if (!user) return;
-    try {
-      const idToken = await user.getIdToken();
-      const res = await fetch(`${API_BASE_URL}/api/telegram/user-status`, {
-        headers: {
-          'Authorization': `Bearer ${idToken}`
-        }
-      });
-      if (res.ok) {
-        const data = await res.json();
-        if (data.success) {
-          if (data.link && data.link.isActive) {
-            setTelegramLink(data.link);
-            if (isTelegramModalOpen) {
-              setIsTelegramModalOpen(false);
-              setStatusMessage({
-                type: 'success',
-                text: 'Telegram connected successfully! Your job alerts are now active on Telegram.'
-              });
-              setTimeout(() => setStatusMessage(null), 5000);
-            }
-          } else {
-            setTelegramLink(null);
-          }
-        }
-      }
-    } catch (err) {
-      console.warn('Notice checking Telegram status from API:', err);
-    } finally {
-      setTelegramLoading(false);
-    }
-  }, [user, isTelegramModalOpen]);
-
-  // Real-time listener and window focus synchronization for Telegram connection status
-  useEffect(() => {
-    if (!user?.uid) {
-      setTelegramLink(null);
-      setTelegramLoading(false);
-      return;
-    }
-
-    setTelegramLoading(true);
-    // Initial check from server API
-    checkTelegramStatus();
-
-    // Real-time Firestore snapshot listener
-    let unsub = () => {};
-    try {
-      unsub = onSnapshot(
-        doc(db, 'telegram_links', user.uid),
-        (snap) => {
-          if (snap.exists()) {
-            const data = snap.data() as TelegramLink;
-            setTelegramLink(data);
-            if (data.isActive && isTelegramModalOpen) {
-              setIsTelegramModalOpen(false);
-              setStatusMessage({
-                type: 'success',
-                text: 'Telegram connected successfully! Your job alerts are now active on Telegram.'
-              });
-              setTimeout(() => setStatusMessage(null), 5000);
-            }
-          } else {
-            // Verify with API before concluding not connected
-            checkTelegramStatus();
-          }
-          setTelegramLoading(false);
-        },
-        () => {
-          // If Firestore direct read encounters permission or network issue, verify with API
-          checkTelegramStatus();
-        }
-      );
-    } catch {
-      checkTelegramStatus();
-    }
-
-    // Refresh immediately when returning to tab from Telegram app
-    const handleFocus = () => {
-      checkTelegramStatus();
-    };
-
-    window.addEventListener('focus', handleFocus);
-    document.addEventListener('visibilitychange', handleFocus);
-
-    return () => {
-      unsub();
-      window.removeEventListener('focus', handleFocus);
-      document.removeEventListener('visibilitychange', handleFocus);
-    };
-  }, [user?.uid, isTelegramModalOpen, checkTelegramStatus]);
-
-  // Fast polling (every 2.5s) while Telegram pairing modal is open
-  useEffect(() => {
-    if (!isTelegramModalOpen || !user) return;
-
-    const pollInterval = setInterval(() => {
-      checkTelegramStatus();
-    }, 2500);
-
-    return () => clearInterval(pollInterval);
-  }, [isTelegramModalOpen, user, checkTelegramStatus]);
-
-  // Expiration countdown timer for Telegram pairing modal
-  useEffect(() => {
-    if (!isTelegramModalOpen || !pairingData) return;
-
-    const interval = setInterval(() => {
-      const remaining = Math.max(0, Math.floor((new Date(pairingData.expiresAt).getTime() - Date.now()) / 1000));
-      setTimeLeftSeconds(remaining);
-      if (remaining <= 0) {
-        clearInterval(interval);
-      }
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, [isTelegramModalOpen, pairingData]);
-
-  // Request new pairing token from server
-  const handleOpenTelegramModal = async () => {
+  // Handler to open Add Alert modal guarded strictly by Telegram connection
+  const handleOpenAddModal = () => {
     if (!user) {
       loginWithGoogle();
       return;
     }
 
-    setPairingLoading(true);
-    try {
-      const idToken = await user.getIdToken();
-      const res = await fetch(`${API_BASE_URL}/api/telegram/create-pairing-token`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${idToken}`,
-          'Content-Type': 'application/json'
-        }
-      });
-
-      const data = await res.json();
-      if (data.success && data.deepLink) {
-        setPairingData(data);
-        const remaining = Math.max(0, Math.floor((new Date(data.expiresAt).getTime() - Date.now()) / 1000));
-        setTimeLeftSeconds(remaining);
-        setIsTelegramModalOpen(true);
-      } else {
-        setStatusMessage({
-          type: 'error',
-          text: data.error || 'Failed to generate Telegram connection link.'
-        });
-        setTimeout(() => setStatusMessage(null), 5000);
-      }
-    } catch (err: any) {
+    if (!isTelegramConnected) {
       setStatusMessage({
         type: 'error',
-        text: err.message || 'Network error while connecting to Telegram.'
+        text: 'Please connect your Telegram account first to add job alerts.'
       });
-      setTimeout(() => setStatusMessage(null), 5000);
-    } finally {
-      setPairingLoading(false);
-    }
-  };
-
-  // Disconnect Telegram via authenticated server endpoint (preserves all job subscriptions)
-  const handleDisconnectTelegram = async () => {
-    if (!user) return;
-    if (!window.confirm('Are you sure you want to disconnect Telegram notifications?\n\nNote: Your active job alert subscriptions will remain completely intact.')) {
+      openTelegramModal(
+        () => setIsAddModalOpen(true),
+        'Connect Telegram to Add Alerts',
+        'Connect Telegram first so you can receive your custom job notifications'
+      );
       return;
     }
 
-    setDisconnectLoading(true);
-    try {
-      const idToken = await user.getIdToken();
-      const res = await fetch(`${API_BASE_URL}/api/telegram/disconnect`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${idToken}`,
-          'Content-Type': 'application/json'
-        }
-      });
+    setIsAddModalOpen(true);
+  };
 
-      const data = await res.json();
-      if (data.success) {
-        setTelegramLink((prev) => prev ? { ...prev, isActive: false } : null);
-        setStatusMessage({
-          type: 'success',
-          text: 'Telegram account disconnected. Your job alert subscriptions remain saved.'
-        });
-        setTimeout(() => setStatusMessage(null), 5000);
-      } else {
-        setStatusMessage({
-          type: 'error',
-          text: data.error || 'Failed to disconnect Telegram.'
-        });
-        setTimeout(() => setStatusMessage(null), 5000);
-      }
-    } catch (err: any) {
+  // Disconnect Telegram via authenticated context (preserves all job subscriptions)
+  const handleDisconnectTelegram = async () => {
+    if (!user) return;
+    if (
+      !window.confirm(
+        'Are you sure you want to disconnect Telegram notifications?\n\nNote: Your active job alert subscriptions will remain completely intact.'
+      )
+    ) {
+      return;
+    }
+
+    const success = await disconnectTelegram();
+    if (success) {
       setStatusMessage({
-        type: 'error',
-        text: err.message || 'Network error while disconnecting Telegram.'
+        type: 'success',
+        text: 'Telegram account disconnected. Your job alert subscriptions remain saved.'
       });
       setTimeout(() => setStatusMessage(null), 5000);
-    } finally {
-      setDisconnectLoading(false);
+    } else {
+      setStatusMessage({
+        type: 'error',
+        text: 'Failed to disconnect Telegram.'
+      });
+      setTimeout(() => setStatusMessage(null), 5000);
     }
   };
 
@@ -305,6 +148,20 @@ export default function ManageAlertsPage() {
   const handleAddManualAlert = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!user?.uid) return;
+
+    if (!isTelegramConnected) {
+      setStatusMessage({
+        type: 'error',
+        text: 'Telegram account must be connected to add alerts.'
+      });
+      setIsAddModalOpen(false);
+      openTelegramModal(
+        () => setIsAddModalOpen(true),
+        'Connect Telegram to Add Alerts',
+        'Connect Telegram first so you can receive your custom job notifications'
+      );
+      return;
+    }
 
     setIsSubmittingManual(true);
     try {
@@ -372,7 +229,7 @@ export default function ManageAlertsPage() {
 
             {user && (
               <button
-                onClick={() => setIsAddModalOpen(true)}
+                onClick={handleOpenAddModal}
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-black rounded-xl shadow-lg transition-all cursor-pointer shrink-0"
               >
                 <Plus className="w-4 h-4" />
@@ -501,7 +358,7 @@ export default function ManageAlertsPage() {
                 ) : (
                   <button
                     type="button"
-                    onClick={handleOpenTelegramModal}
+                    onClick={() => openTelegramModal()}
                     disabled={pairingLoading}
                     className="w-full sm:w-auto px-4 py-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-black text-xs rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
                   >
@@ -583,7 +440,7 @@ export default function ManageAlertsPage() {
               </p>
             </div>
             <button
-              onClick={() => setIsAddModalOpen(true)}
+              onClick={handleOpenAddModal}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-black rounded-xl shadow-md transition-all cursor-pointer"
             >
               <Plus className="w-4 h-4" />
@@ -685,7 +542,7 @@ export default function ManageAlertsPage() {
               {/* Add New Alert Card alongside added alerts */}
               <button
                 type="button"
-                onClick={() => setIsAddModalOpen(true)}
+                onClick={handleOpenAddModal}
                 className="bg-white hover:bg-blue-50/50 rounded-2xl border-2 border-dashed border-blue-200 hover:border-blue-500 p-4 sm:p-5 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col items-center justify-center text-center gap-2 group cursor-pointer min-h-[140px]"
               >
                 <div className="w-12 h-12 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center transition-all duration-200 shadow-xs group-hover:scale-110">
@@ -766,24 +623,49 @@ export default function ManageAlertsPage() {
                 </select>
               </div>
 
+              {!isTelegramConnected && (
+                <div className="p-3 bg-sky-50 border border-sky-200 rounded-xl text-xs flex items-start gap-2 text-sky-900 font-medium">
+                  <Send className="w-4 h-4 text-sky-600 shrink-0 mt-0.5" />
+                  <span>Telegram must be connected before you can save alerts.</span>
+                </div>
+              )}
+
               <div className="pt-2 flex gap-2">
-                <button
-                  type="submit"
-                  disabled={isSubmittingManual}
-                  className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50"
-                >
-                  {isSubmittingManual ? (
-                    <>
-                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                      <span>Activating...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Check className="w-3.5 h-3.5" />
-                      <span>Save Alert</span>
-                    </>
-                  )}
-                </button>
+                {!isTelegramConnected ? (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsAddModalOpen(false);
+                      openTelegramModal(
+                        () => setIsAddModalOpen(true),
+                        'Connect Telegram to Add Alerts',
+                        'Connect Telegram first so you can receive your custom job notifications'
+                      );
+                    }}
+                    className="flex-1 py-2.5 px-4 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    <span>Connect Telegram First</span>
+                  </button>
+                ) : (
+                  <button
+                    type="submit"
+                    disabled={isSubmittingManual}
+                    className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50"
+                  >
+                    {isSubmittingManual ? (
+                      <>
+                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                        <span>Activating...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Check className="w-3.5 h-3.5" />
+                        <span>Save Alert</span>
+                      </>
+                    )}
+                  </button>
+                )}
                 <button
                   type="button"
                   onClick={() => setIsAddModalOpen(false)}
@@ -793,108 +675,6 @@ export default function ManageAlertsPage() {
                 </button>
               </div>
             </form>
-          </div>
-        </div>
-      )}
-
-      {/* Connect Telegram Modal */}
-      {isTelegramModalOpen && pairingData && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-xs animate-in fade-in duration-150"
-          onClick={() => setIsTelegramModalOpen(false)}
-        >
-          <div
-            className="bg-white rounded-2xl max-w-md w-full shadow-2xl border border-slate-200 overflow-hidden animate-in zoom-in-95 duration-150"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="bg-gradient-to-r from-sky-600 to-blue-700 p-5 text-white flex items-center justify-between">
-              <div className="flex items-center gap-2.5">
-                <div className="p-2 rounded-xl bg-white/15 border border-white/20">
-                  <Send className="w-4 h-4 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-base font-black">Connect Telegram</h3>
-                  <p className="text-[11px] text-sky-100 font-medium">Link in 3 simple steps</p>
-                </div>
-              </div>
-              <button
-                onClick={() => setIsTelegramModalOpen(false)}
-                className="text-white/80 hover:text-white p-1 cursor-pointer"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            <div className="p-5 space-y-4">
-              <div className="space-y-3">
-                <div className="flex items-start gap-2.5 text-xs text-slate-700">
-                  <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 font-black flex items-center justify-center shrink-0 text-[11px]">1</span>
-                  <span>Click <strong>"Open Telegram"</strong> below to launch our verified bot chat.</span>
-                </div>
-                <div className="flex items-start gap-2.5 text-xs text-slate-700">
-                  <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 font-black flex items-center justify-center shrink-0 text-[11px]">2</span>
-                  <span>In Telegram, press the <strong>"START"</strong> button at the bottom of the screen.</span>
-                </div>
-                <div className="flex items-start gap-2.5 text-xs text-slate-700">
-                  <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 font-black flex items-center justify-center shrink-0 text-[11px]">3</span>
-                  <span>Return to this page. Your account will link automatically.</span>
-                </div>
-              </div>
-
-              {/* Countdown timer */}
-              <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 flex items-center justify-between text-xs font-bold text-slate-600">
-                <span>Link valid for:</span>
-                <span className={`font-mono font-black ${timeLeftSeconds < 120 ? 'text-rose-600' : 'text-blue-700'}`}>
-                  {Math.floor(timeLeftSeconds / 60)}:{(timeLeftSeconds % 60).toString().padStart(2, '0')}
-                </span>
-              </div>
-
-              {/* Action Buttons */}
-              <div className="space-y-2 pt-1">
-                <a
-                  href={pairingData.deepLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full py-3 px-4 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-black text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer text-center"
-                >
-                  <Send className="w-4 h-4" />
-                  <span>Open Telegram</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-
-                <button
-                  type="button"
-                  onClick={() => { setTelegramLoading(true); checkTelegramStatus(); }}
-                  disabled={telegramLoading}
-                  className="w-full py-2.5 px-4 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
-                >
-                  <RefreshCw className={`w-3.5 h-3.5 ${telegramLoading ? 'animate-spin' : ''}`} />
-                  <span>{telegramLoading ? 'Verifying...' : "I've pressed Start in Telegram (Check Status)"}</span>
-                </button>
-
-                <button
-                  type="button"
-                  onClick={() => {
-                    navigator.clipboard.writeText(pairingData.deepLink);
-                    setCopiedLink(true);
-                    setTimeout(() => setCopiedLink(false), 3000);
-                  }}
-                  className="w-full py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
-                >
-                  {copiedLink ? (
-                    <>
-                      <Check className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="text-emerald-700">Link Copied!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="w-3.5 h-3.5" />
-                      <span>Copy Connection Link</span>
-                    </>
-                  )}
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       )}
