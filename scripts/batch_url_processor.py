@@ -62,6 +62,22 @@ BOARD_ACRONYM_MAP = {
     'railway recruitment board': 'rrb',
     'uttarakhand subordinate service selection commission': 'uksssc',
     'tamil nadu public service commission': 'tnpsc',
+    'chhattisgarh public service commission': 'cgpsc',
+    'delhi development authority': 'dda',
+    'india optel': 'iol',
+    'punjab agricultural university': 'pau',
+    'junagadh agricultural university': 'jau',
+    'maharaja ranjit singh punjab technical university': 'mrsptu',
+    'central university of jharkhand': 'cuj',
+    'central university of odisha': 'cuo',
+    'aligarh muslim university': 'amu',
+    'manipal academy of higher education': 'mahe',
+    'mineral exploration corporation': 'mecl',
+    'army public school': 'aps',
+    'indira gandhi national centre for the arts': 'ignca',
+    'national health mission': 'nhm',
+    'goa staff selection commission': 'goa-ssc',
+    'sainik school': 'sainik-school',
     'government institute of medical sciences': 'gims',
     'tata memorial centre': 'tmc',
     'homi bhabha cancer hospital': 'hbchrc',
@@ -72,6 +88,8 @@ BOARD_ACRONYM_MAP = {
     'madhya pradesh employees selection board': 'mpesb',
     'national institute of technology': 'nit',
     'indian institute of technology': 'iit',
+    'indian institute of management': 'iim',
+    'indian institute of science education and research': 'iiser',
     'all india institute of medical sciences': 'aiims',
     'institute of banking personnel selection': 'ibps',
     'defence research and development': 'drdo',
@@ -93,6 +111,14 @@ EXAM_ACRONYM_MAP = {
     'combined technical services': 'ctse',
     'senior research fellow': 'srf',
     'junior research fellow': 'jrf',
+    'research associate': 'ra',
+    'project associate': 'pa',
+    'project assistant': 'pa',
+    'technical assistant': 'ta',
+    'young professional': 'yp',
+    'assistant professor': 'ap',
+    'data entry operator': 'deo',
+    'field investigator': 'fi',
     'medical officer': 'mo',
     'general duty': 'gd',
     'central police': 'cpo',
@@ -104,7 +130,7 @@ def generate_short_slug(board, post_name, year="2026"):
     p_lower = post_name.lower()
 
     b_key = None
-    m_paren = re.search(r'\(([A-Z0-9\s-]{2,10})\)', board)
+    m_paren = re.search(r'\(([A-Za-z0-9\s-]{2,12})\)', board)
     if m_paren:
         cand = slugify(m_paren.group(1))
         if 2 <= len(cand) <= 12:
@@ -253,7 +279,8 @@ CAMPUS_CITIES = [
     'bijnor', 'balangir', 'krishnagiri', 'nagarkurnool', 'kashipur', 'silchar',
     'srinagar', 'agartala', 'surathkal', 'rourkela', 'warangal', 'durgapur',
     'kurukshetra', 'jalandhar', 'jaipur', 'allahabad', 'prayagraj', 'hyderabad',
-    'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack'
+    'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack',
+    'assam', 'uttarakhand', 'bengaluru', 'bangalore', 'bijapur', 'bengdubi'
 ]
 
 GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}

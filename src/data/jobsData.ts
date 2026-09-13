@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "esic-pmu-professionals-recruitment-2026",
+    "b": "Employees' State Insurance Corporation (ESIC)",
+    "t": "Employees' State Insurance Corporation (ESIC) Recruitment 2026 Notification Out for 25 PMU Professionals, Project Management Unit (PMU), ICT Division Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "Within 21 days of publication - approximately 30 September 2026 (exact closing date is calculated from the publication date, which is Not Explicitly Stated separately from the advertisement date; candidates should verify the precise last date on www.esic.gov.in)",
+    "a": "A-12016/23/2025-E-III, 1418806",
+    "q": "ITI | B.Tech / B.E | MBA / BBA",
+    "desc": "Employees' State Insurance Corporation (ESIC) has officially announced employment advertisement notification A-12016/23/2025-E-III, 1418806 inviting applications for 25 vacancies for PMU Professionals, Project Management Unit (PMU), ICT Division posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Recruitment_for_engagement_against_25_vacant_positions_in_the_Project_Management_Unit_PMU_ICT_regarding_1789117508.pdf"
+},
+  {
+    "id": "vardhman-mahavir-m-nurse-infection-recruitment-2026",
+    "b": "Vardhman Mahavir Medical College & Safdarjung Hospital",
+    "t": "Vardhman Mahavir Medical College & Safdarjung Hospital Recruitment 2026 Notification Out for 1 Nurse (Infection Control) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "24 September 2026",
+    "a": "VARDHMAN-MAHAV/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "Vardhman Mahavir Medical College & Safdarjung Hospital has officially announced employment advertisement notification VARDHMAN-MAHAV/2026 inviting applications for 1 vacancies for Nurse (Infection Control) posts.",
+    "u": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Notice%20dated%2011.09.2026%20-%20Advertisement%20for%20the%20post%20of%20Nurse%20%28Infection%20Control%29%20on%20Contract%20basis%20for%20a%20project%20in%20Department%20of%20Microbiology.pdf"
+},
+  {
+    "id": "dda-yp-recruitment-2026",
+    "b": "Delhi Development Authority (DDA)",
+    "t": "Delhi Development Authority (DDA) Recruitment 2026 Notification Out for 1 Young Professional (Communications) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "17 September 2026",
+    "a": "07/Consultant/2026/Rectt. Cell/Pers./DDA",
+    "q": "Any Bachelor's Degree",
+    "desc": "Delhi Development Authority (DDA) has officially announced employment advertisement notification 07/Consultant/2026/Rectt. Cell/Pers./DDA inviting applications for 1 vacancies for Young Professional (Communications) posts.",
+    "u": "https://dda.gov.in/sites/default/files/latest_jobs/notification_01_yp_communications_11.09.2026.pdf"
+},
+  {
+    "id": "iit-delhi-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 3 Jr. Research Fellow, Research Associate Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "25 September 2026",
+    "a": "IRD/REC",
+    "q": "B.Tech / B.E | M.Sc | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IRD/REC inviting applications for 3 vacancies for Jr. Research Fellow, Research Associate posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1789101954679_sdsl163.pdf"
+},
+  {
+    "id": "cgpsc-microbiologist-recruitment-2026",
+    "b": "Chhattisgarh Public Service Commission (CGPSC)",
+    "t": "Chhattisgarh Public Service Commission (CGPSC) Recruitment 2026 Notification Out for 5 Microbiologist Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "09 October 2026",
+    "a": "05/2026",
+    "q": "M.Sc",
+    "desc": "Chhattisgarh Public Service Commission (CGPSC) has officially announced employment advertisement notification 05/2026 inviting applications for 5 vacancies for Microbiologist posts.",
+    "u": "https://online.ecgpsconline.in/"
+},
+  {
+    "id": "principal-chief-co-computer-assistant-recruitment-2026",
+    "b": "Principal Chief Conservator of Forests and Head of Forest Force Assam (PCCF & HoFF Assam)",
+    "t": "Principal Chief Conservator of Forests and Head of Forest Force Assam (PCCF & HoFF Assam) Recruitment 2026 Notification Out for 3 Computer Assistant and GIS Analyst Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "21 September 2026",
+    "a": "(Off.)0361-2333252",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Principal Chief Conservator of Forests and Head of Forest Force Assam (PCCF & HoFF Assam) has officially announced employment advertisement notification (Off.)0361-2333252 inviting applications for 3 vacancies for Computer Assistant and GIS Analyst posts.",
+    "u": "https://www.asbb.gov.in/pdf/whats_new/110926/Add110926.pdf"
+},
+  {
+    "id": "iit-guwahati-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "IITG/II&SI/Project Staff Rectt-2026/151",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/151 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
+},
+  {
+    "id": "nhm-assam-mo-recruitment-2026-3066466",
+    "b": "National Health Mission Assam (NHM Assam)",
+    "t": "National Health Mission Assam (NHM Assam) Recruitment 2026 Notification Out for 1 Medical Officer (MBBS) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "14 September 2026",
+    "a": "NHM-31013(11)/87/2023-HRD-NHM",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "National Health Mission Assam (NHM Assam) has officially announced employment advertisement notification NHM-31013(11)/87/2023-HRD-NHM inviting applications for 1 vacancies for Medical Officer (MBBS) posts.",
+    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/recruiteCRP/"
+},
+  {
+    "id": "nhm-assam-mo-recruitment-2026",
+    "b": "National Health Mission, Assam (NHM Assam)",
+    "t": "National Health Mission, Assam (NHM Assam) Recruitment 2026 Notification Out for 78 Medical Officer (MBBS) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "22 September 2026",
+    "a": "NHM-31013(11)/3/65/2025-HRD-NHM [ECF : 385294]",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "National Health Mission, Assam (NHM Assam) has officially announced employment advertisement notification NHM-31013(11)/3/65/2025-HRD-NHM [ECF : 385294] inviting applications for 78 vacancies for Medical Officer (MBBS) posts.",
+    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/onlineRecruitement/index.php/home/index"
+},
+  {
+    "id": "iiser-tirupati-ra-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Tirupati",
+    "t": "Indian Institute of Science Education and Research Tirupati Recruitment 2026 Notification Out for 1 Research Associate 1 Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "18 September 2026",
+    "a": "71/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Tirupati has officially announced employment advertisement notification 71/2026 inviting applications for 1 vacancies for Research Associate 1 posts.",
+    "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/09/Advt_712026.pdf"
+},
+  {
     "id": "district-legal-ser-para-legal-recruitment-2026",
     "b": "District Legal Services Authority Kalimpong (DLSA Kalimpong)",
     "t": "District Legal Services Authority Kalimpong (DLSA Kalimpong) Recruitment 2026 Notification Out for 13 Para Legal Volunteers/ Adhikar Saathi Posts | Apply Offline",
