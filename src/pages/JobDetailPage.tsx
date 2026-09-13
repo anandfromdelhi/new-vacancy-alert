@@ -2030,6 +2030,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'lpssrb-constable-level-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-950 via-slate-900 to-sky-950 rounded-2xl shadow-xl border-2 border-sky-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-sky-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-sky-500 to-blue-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Ladakh Police Advt 02 of 2026
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      331 Constable Posts (141 General + 168 Border + 22 Women)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      10th Pass (8th for SPOs)
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: 18–28 Years (SPO/VHG 37 Yrs)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Ladakh Police Subordinate Service – 331 Constables (Level-02)
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Advertisement No. <strong>02 of 2026</strong>. Direct recruitment for 141 General Cadre, 168 Border Battalion (Nubra, Changthang, Sham, Kargil, Drass), and 22 Women Battalion. Selection via Transparent Recruitment Process (TRP) with RFID timing, PST/PET starting <strong>22 September 2026</strong>, and 100-mark written test (bilingual, no negative marking). Mandatory UT of Ladakh Domicile required. Apply online by <strong>15 September 2026</strong>.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-sky-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-sky-400" /> UT of Ladakh (Leh &amp; Kargil Centres)</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-sky-400" /> Deadline: 15 September 2026</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://police.ladakh.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-sky-500 hover:bg-sky-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply Online Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4617,6 +4662,54 @@ export default function JobDetailPage() {
                               <div>• <strong>PwD Experience Exemption:</strong> PwD candidates 100% exempted from 1-yr experience vide Order No. 1/8/2023-PER/2792.</div>
                               <div>• <strong>15-Year Domicile:</strong> Valid 15-year Goa Residence Certificate &amp; active Employment Exchange card mandatory.</div>
                               <div>• <strong>Languages:</strong> Knowledge of Konkani is Essential; Marathi is Desirable.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'lpssrb-constable-level-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-sky-600" /> Ladakh Police Constable PST, PET &amp; Selection Framework
+                          </h4>
+                          <span className="text-[10px] font-bold text-sky-900 bg-sky-100 px-2 py-0.5 rounded-md">Advt No. 02 of 2026</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-sky-50/80 border-2 border-sky-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-sky-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Physical Standards &amp; Endurance</span>
+                              <span className="text-[10px] font-bold text-sky-800">PST &amp; PET (Qualifying)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">PST Standards &amp; PET Benchmark Tests</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Conducted from 22 September 2026 under Transparent Recruitment Process (TRP) with RFID:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-sky-950 border border-sky-200 space-y-1">
+                              <div>• <strong>Male Height:</strong> Minimum 162 cm | <strong>Chest:</strong> 81 cm unexpanded / 85 cm expanded (min 4 cm)</div>
+                              <div>• <strong>Male PET Events:</strong> 1600m race in 7m 30s | Long Jump 12 ft (3 attempts) | 20 Push-ups</div>
+                              <div>• <strong>Female Height:</strong> Minimum 152 cm (Chest measurement not applicable)</div>
+                              <div>• <strong>Female PET Events:</strong> 1200m race in 7m 30s | Long Jump 9 ft (3 attempts) | Shot Put 4 kg 14.5 ft</div>
+                              <div>• <strong>TRP Protocol:</strong> RFID timing tags, sensor fall detection, biometric authentication &amp; CCTV video</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-emerald-50/80 border-2 border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Written Exam &amp; Incentives</span>
+                              <span className="text-[10px] font-bold text-emerald-800">100 Marks (No -ve)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Exam Pattern, Incentives &amp; Reservation</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Bilingual (English/Hindi) 80-minute objective test at Matriculation standard:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-emerald-950 border border-emerald-200 space-y-1">
+                              <div>• <strong>Exam Syllabus:</strong> General Knowledge (60 marks with Ladakh section), Arithmetic (15), Reasoning (15), General Science (10)</div>
+                              <div>• <strong>Desired Qualification (Max 5%):</strong> LMV Driving Licence with transport endorsement OR 1-Yr AICTE Computer Diploma</div>
+                              <div>• <strong>NCC Certificate Bonus:</strong> NCC &apos;C&apos; (5 marks / 5%) | NCC &apos;B&apos; (3 marks) | NCC &apos;A&apos; (2 marks)</div>
+                              <div>• <strong>Battalion Quotas:</strong> 141 General Cadre + 168 Border Bn (Nubra 71, Changthang 40, Sham 13, Kargil 43, Drass 1) + 22 Women Bn</div>
+                              <div>• <strong>Special Quotas:</strong> 15% SPOs (8th pass &amp; age 37), 4% VHGs (age 37), 20% Ex-Agniveers, 6% ESM, 4% OSP</div>
                             </div>
                           </div>
                         </div>

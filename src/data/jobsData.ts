@@ -410,13 +410,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "lpssrb-constable-level-recruitment-2026",
     "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
-    "t": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 331 Constable (Level-02), General Cadre (Executive, Armed/IRP, SDRF, Women and Border Battalions) Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "15 September 2026 (confirmed, no further extension)",
-    "a": "02 of 2026, dated 24.08.2026",
-    "q": "10th / 8th Pass",
-    "desc": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) has officially announced employment advertisement notification 02 of 2026, dated 24.08.2026 inviting applications for 331 vacancies for Constable (Level-02), General Cadre (Executive, Armed/IRP, SDRF, Women and Border Battalions) posts.",
-    "u": "https://police.ladakh.gov.in/pages/recruitment.html"
+    "t": "Ladakh Police Constable Recruitment 2026 Notification Out for 331 Posts (Executive, Armed/IRP, SDRF, Border & Women Battalions) | Apply Online",
+    "d": "24 August 2026",
+    "l": "15 September 2026",
+    "a": "Advertisement Notification No. 02 of 2026 (Dated 24 August 2026)",
+    "q": "10th Class / Matriculation Passed (8th Pass for Serving SPOs with 3+ Years Service)",
+    "desc": "The Administration of Union Territory of Ladakh, Office of the Chairman, Ladakh Police Subordinate Service Recruitment Board (LPSSRB), has released Advertisement Notification No. 02 of 2026 dated 24 August 2026 inviting online applications for direct recruitment to 331 vacancies of Constable (Level-02), General Cadre in Ladakh Police. The recruitment drive encompasses 141 vacancies in the Executive, Armed/IRP, and SDRF cadres, 168 vacancies in the Border Battalion across 5 border districts (Nubra, Changthang, Sham, Kargil, and Drass), and 22 vacancies in the Women Battalion across 7 districts (Leh, Nubra, Changthang, Zanskar, and Drass) under the Ladakh Police (Subordinate) Service Recruitment (Revised) Rules, 2026.",
+    "u": "https://police.ladakh.gov.in"
 },
   {
     "id": "jau-pa-recruitment-2026",
