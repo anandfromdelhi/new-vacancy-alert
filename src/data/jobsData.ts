@@ -156,14 +156,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "district-health-so-contractualtemporary-recruitment-2026",
-    "b": "District Health Society (through the respective District Health Office)",
-    "t": "District Health Society (through the respective District Health Office) Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
-    "d": "13 September 2026",
-    "l": "25 September 2026, 5:00 PM",
-    "a": "DISTRICT-HEALT/2026",
-    "q": "B.Sc | Nursing (GNM / B.Sc)",
-    "desc": "District Health Society (through the respective District Health Office) has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
-    "u": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2026/09/17892112894083.pdf"
+    "b": "National Health Mission Tamil Nadu (NHM-TN) / District Health Society",
+    "t": "NHM Tamil Nadu (District Health Society) Recruitment 2026 Notification Out for 4724 Contractual Staff Nurse Posts | Apply Offline",
+    "d": "12 September 2026",
+    "l": "25 September 2026 (5:00 PM)",
+    "a": "DIPR/802/DISPLAY/2026",
+    "q": "GNM / B.Sc Nursing + Tamil Nadu Nurses and Midwives Council Registration",
+    "desc": "Government of Tamil Nadu, Health and Family Welfare Department, and National Health Mission - Tamil Nadu (NHM-TN) / State Health Society (மாநில நலவாழ்வு சங்கம், தமிழ்நாடு) have officially released employment notification DIPR/802/DISPLAY/2026 inviting applications for 4,724 vacancies for the post of Contractual / Temporary Staff Nurse (ஒப்பந்த / தற்காலிக செவிலியர்). These positions are purely contractual and temporary under the respective District Health Societies (DHS).",
+    "u": "https://nhm.tn.gov.in"
 },
   {
     "id": "aps-tgt-pet-recruitment-2026",

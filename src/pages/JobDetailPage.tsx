@@ -1850,6 +1850,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'district-health-so-contractualtemporary-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-teal-950 to-emerald-950 rounded-2xl shadow-xl border-2 border-teal-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Tamil Nadu DHS Recruitment 2026
+                    </span>
+                    <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      4,724 Staff Nurses (GNM / B.Sc)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      No Application Fee (₹0 Free)
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: Up to 50 Years
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    National Health Mission Tamil Nadu – 4,724 Staff Nurses (ஒப்பந்த செவிலியர்)
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Advt Ref: <strong>DIPR/802/DISPLAY/2026</strong>. Contractual deployment across DPH, DMS, DME&amp;R institutions and Greater Chennai Corporation (GCC). Requires GNM/B.Sc Nursing with Tamil Nadu Nursing Council registration. Submit filled form to your respective District Health Office before <strong>25 September 2026, 5:00 PM</strong>.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-teal-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-teal-400" /> Across Tamil Nadu (Excluding Tiruppur &amp; Chengalpattu)</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-teal-400" /> Deadline: 25 September 2026 (5:00 PM Offline)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://nhm.tn.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-teal-500 hover:bg-teal-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Building2 className="h-4 w-4" /> NHM-TN Official Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4248,6 +4293,52 @@ export default function JobDetailPage() {
                               <div>• Age Tie-Breaker: <strong>Older candidate</strong> preferred if service duration is equal</div>
                               <div>• Lottery Draw: Invoked if both <strong>service duration and age</strong> are identical</div>
                               <div>• Waiting List: <strong>20% Additional Reserve List</strong> active for 1 year</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'district-health-so-contractualtemporary-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-teal-600" /> NHM-TN Staff Nurse Key Recruitment Criteria &amp; Rules
+                          </h4>
+                          <span className="text-[10px] font-bold text-teal-900 bg-teal-100 px-2 py-0.5 rounded-md">Notification: DIPR/802/DISPLAY/2026</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-teal-50/80 border-2 border-teal-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-teal-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Deploying Authorities</span>
+                              <span className="text-[10px] font-bold text-teal-800">4 Major Directorates</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Statewide Healthcare Facility Deployment</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Recruited contractual Staff Nurses are stationed across diverse public medical institutions:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-teal-950 border border-teal-200 space-y-1">
+                              <div>• <strong>DPH:</strong> Primary &amp; Urban Primary Health Centres (PHCs / UPHCs)</div>
+                              <div>• <strong>DMS:</strong> District Headquarters &amp; Sub-District Taluk Hospitals</div>
+                              <div>• <strong>DME&amp;R:</strong> Government Medical Colleges &amp; Teaching Hospitals</div>
+                              <div>• <strong>GCC:</strong> Greater Chennai Corporation Urban Health Facilities</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-amber-50/80 border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Mandatory Conditions</span>
+                              <span className="text-[10px] font-bold text-amber-800">TNC Registration &amp; MCC Rules</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Registration &amp; District Restrictions</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Must hold valid Tamil Nadu Nurses and Midwives Council (TNC) registration and observe election guidelines.
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-amber-950 border border-amber-200 space-y-1">
+                              <div>• <strong>TNC Registration:</strong> Mandatory active registration with Tamil Nadu Nursing Council</div>
+                              <div>• <strong>MCC Restriction:</strong> Not applicable to <strong>Tiruppur &amp; Chengalpattu</strong> districts</div>
+                              <div>• <strong>Submission:</strong> Directly to Executive Secretary, District Health Office</div>
+                              <div>• <strong>Application Deadline:</strong> 25 September 2026 before 5:00 PM</div>
                             </div>
                           </div>
                         </div>
