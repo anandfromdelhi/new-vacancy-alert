@@ -264,18 +264,7 @@ export const JOBS_DATA: JobEntry[] = [
     "desc": "ICAR Central Rice Research Institute has officially announced employment advertisement notification ICAR-CENTRAL-R/2026 inviting applications for 4 vacancies for Young Professional I, Field Assistant posts.",
     "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-473.pdf"
 },
-  {
-    "id": "mecl-non-executive-accountant-technicia-recruitment-2026",
-    "b": "MECL Non Executive",
-    "t": "MECL Non Executive Recruitment 2026 Notification Out for 122 Accountant, Technician-Survey, Technician-Sampling, Technician-Laboratory, Assistant-Materials, Assistant-Accounts, Stenographer-English, Assistant-Hindi, Electrician, Machinist, Technician-Drilling, Mechanic, Mechanic-cum-Operator Drilling, Junior Driver, Assistant-IT, Assistant-HR Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "11 October 2026",
-    "a": "03/Rectt./2026",
-    "q": "12th Pass | ITI | Diploma",
-    "desc": "MECL Non Executive has officially announced employment advertisement notification 03/Rectt./2026 inviting applications for 122 vacancies for Accountant, Technician-Survey, Technician-Sampling, Technician-Laboratory, Assistant-Materials, Assistant-Accounts, Stenographer-English, Assistant-Hindi, Electrician, Machinist, Technician-Drilling, Mechanic, Mechanic-cum-Operator Drilling, Junior Driver, Assistant-IT, Assistant-HR posts.",
-    "u": "https://ibpsreg.ibps.in/mecljul26/"
-},
-  {
+    {
     "id": "vamnicom-ap-recruitment-2026",
     "b": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM)",
     "t": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM) Recruitment 2026 Notification Out for 9 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
@@ -5491,14 +5480,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "mecl-non-executive-technician-assistant-and-more-recruitment-2026",
-    "b": "Mineral Exploration & Consultancy Limited (MECL) - Ministry of Mines, Govt. of India",
+    "b": "Mineral Exploration & Consultancy Limited (MECL)",
     "t": "MECL Non-Executive Recruitment 2026 Notification Out for 122 Posts: Accountant, Technician, Assistant, Electrician & Driver | Apply Online",
-    "d": "01 September 2026",
+    "d": "12 September 2026",
     "l": "11 October 2026",
     "a": "03/Rectt./2026",
-    "q": "Accountant (W-7): Graduation from a recognized University AND Intermediate pass of CA / ICWA with minimum 45% qualifying",
-    "desc": "Mineral Exploration & Consultancy Limited (MECL), formerly Mineral Exploration Corporation Limited, a prestigious Miniratna-I Central Public Sector Enterprise under the administrative control of the Ministry of Mines, Government of India, has officially released detailed Employment Advertisement Notification No. 03/Rectt./2026 for the direct recruitment of 122 Non-Executive Personnel across Grades W-7, W-4, and W-3.",
-    "u": "https://www.mecl.co.in/Careers.aspx"
+    "q": "10th / ITI / Diploma / Any Bachelor's Degree / B.Com / B.Sc",
+    "desc": "Mineral Exploration & Consultancy Limited (MECL), a Miniratna-I CPSE under the Ministry of Mines, has released Advertisement No. 03/Rectt./2026 inviting online applications for 122 Non-Executive vacancies across 16 trades.",
+    "u": "https://ibpsreg.ibps.in/mecljul26/"
 },
   {
     "id": "tata-institute-of-social-scien-senior-administrative-assistan-recruitment-2026",
