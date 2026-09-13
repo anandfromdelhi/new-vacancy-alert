@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sainik-school-bijapur-pgt-tgt-recruitment-2026",
+    "b": "Sainik School Bijapur (Joint venture of Ministry of Defence and Govt of Karnataka)",
+    "t": "Sainik School Bijapur (Joint venture of Ministry of Defence and Govt of Karnataka) Recruitment 2026 Notification Out for 11 PGT, TGT, Nursing Assistant and More Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "21 days from the date of publication of the advertisement (exact date not specified)",
+    "a": "01/2026",
+    "q": "Age is reckoned as on 01 October 2026. To avoid any confusion regarding ...",
+    "desc": "Sainik School Bijapur (Joint venture of Ministry of Defence and Govt of Karnataka) has officially announced employment advertisement notification 01/2026 inviting applications for 11 vacancies for PGT, TGT, Nursing Assistant and More posts.",
+    "u": "https://ssbj.in/attached_assets/Advt_Regular_post_for_website_1788760050052.pdf"
+},
+  {
+    "id": "kea-water-supply-recruitment-2026",
+    "b": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka",
+    "t": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka Recruitment 2026 Notification Out for 210 Water Supply Operator, Electrician Grade-1, Assistant Water Supply Operator, Electrician Grade-2 Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "01 October 2026",
+    "a": "ED/KEA1/46/NEV/2026(KK)",
+    "q": "B.Tech / B.E | MBBS / Medical PG",
+    "desc": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka has officially announced employment advertisement notification ED/KEA1/46/NEV/2026(KK) inviting applications for 210 vacancies for Water Supply Operator, Electrician Grade-1, Assistant Water Supply Operator, Electrician Grade-2 posts.",
+    "u": "https://cetonline.karnataka.gov.in/"
+},
+  {
+    "id": "mysuru-mahanagara-ugd-helper-recruitment-2026",
+    "b": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC)",
+    "t": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC) Recruitment 2026 Notification Out for 116 UGD Helper (Under Ground Drainage Helper) Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "9 October 2026, 5:30 PM",
+    "a": "No. C.E.S.T(5):C.R:03:2026-27 dated 08-09-2026",
+    "q": "B.Tech / B.E",
+    "desc": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC) has officially announced employment advertisement notification No. C.E.S.T(5):C.R:03:2026-27 dated 08-09-2026 inviting applications for 116 vacancies for UGD Helper (Under Ground Drainage Helper) posts.",
+    "u": "http://www.mysurucity.mrc.gov.in/"
+},
+  {
+    "id": "cuj-ap-recruitment-2026",
+    "b": "Central University of Jharkhand (CUJ)",
+    "t": "Central University of Jharkhand (CUJ) Recruitment 2026 Notification Out for 2 Assistant Professor (Temporary) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "CUJ/Advt./2026-27/03",
+    "q": "B. E. / B. Tech. / B. S. and M. E. / M. Tech. / M. S. or Integrated M. T...",
+    "desc": "Central University of Jharkhand (CUJ) has officially announced employment advertisement notification CUJ/Advt./2026-27/03 inviting applications for 2 vacancies for Assistant Professor (Temporary) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScjjdC1hZCLkPYU7aU3wfkblC7o9xoXvnvdKDQXZH276ZzpDg/viewform"
+},
+  {
+    "id": "civil-surgeon-cum-mo-recruitment-2026",
+    "b": "Civil Surgeon cum Chief Medical Office Saraikela Kharsawan",
+    "t": "Civil Surgeon cum Chief Medical Office Saraikela Kharsawan Recruitment 2026 Notification Out for 7 Medical Officer (Part-time), Doctor (Empanelled) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "471 (DHS)",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Civil Surgeon cum Chief Medical Office Saraikela Kharsawan has officially announced employment advertisement notification 471 (DHS) inviting applications for 7 vacancies for Medical Officer (Part-time), Doctor (Empanelled) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3b337e84de8752b27eda3a12363109e80/uploads/2026/09/17892046485901.pdf"
+},
+  {
+    "id": "jgrv-home-guard-recruitment-2026",
+    "b": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar",
+    "t": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar Recruitment 2026 Notification Out for 772 Home Guard (Grih Rakshak) - Rural & Urban Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "26 October 2026 up to 5:00 PM",
+    "a": "01/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar has officially announced employment advertisement notification 01/2026 inviting applications for 772 vacancies for Home Guard (Grih Rakshak) - Rural & Urban posts.",
+    "u": "https://recruitment.jharkhand.gov.in/"
+},
+  {
+    "id": "lpssrb-constable-level-recruitment-2026",
+    "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
+    "t": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 331 Constable (Level-02), General Cadre (Executive, Armed/IRP, SDRF, Women and Border Battalions) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "15 September 2026 (confirmed, no further extension)",
+    "a": "02 of 2026, dated 24.08.2026",
+    "q": "10th / 8th Pass",
+    "desc": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) has officially announced employment advertisement notification 02 of 2026, dated 24.08.2026 inviting applications for 331 vacancies for Constable (Level-02), General Cadre (Executive, Armed/IRP, SDRF, Women and Border Battalions) posts.",
+    "u": "https://police.ladakh.gov.in/pages/recruitment.html"
+},
+  {
+    "id": "jau-pa-recruitment-2026",
+    "b": "Junagadh Agricultural University (JAU)",
+    "t": "Junagadh Agricultural University (JAU) Recruitment 2026 Notification Out for 8 Project Assistant Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "JUNAGADH-AGRIC/2026",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "Junagadh Agricultural University (JAU) has officially announced employment advertisement notification JUNAGADH-AGRIC/2026 inviting applications for 8 vacancies for Project Assistant posts.",
+    "u": "https://www.jau.in/storage/document/dynamic_document//cotton_pa_spa_jpa_26_20260911_1965.pdf"
+},
+  {
+    "id": "goa-ssc-group-c-deo-recruitment-2026",
+    "b": "Goa SSC Group C",
+    "t": "Goa SSC Group C Recruitment 2026 Notification Out for 222 Data Entry Operator, Junior Assistant and More Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "02/ 10/ 2026",
+    "a": "3 of Year 2026 (No",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Goa SSC Group C has officially announced employment advertisement notification 3 of Year 2026 (No inviting applications for 222 vacancies for Data Entry Operator, Junior Assistant and More posts.",
+    "u": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf"
+},
+  {
+    "id": "bits-pilani-fi-recruitment-2026",
+    "b": "Birla Institute of Technology & Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology & Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Field Investigator Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "23 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Birla Institute of Technology & Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Field Investigator posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfqfvEvKIOre23LTf3mec30DizXXh4_4folOY-B7fpbDB4TSw/viewform"
+},
+  {
     "id": "esic-pmu-professionals-recruitment-2026",
     "b": "Employees' State Insurance Corporation (ESIC)",
     "t": "Employees' State Insurance Corporation (ESIC) Recruitment 2026 Notification Out for 25 PMU Professionals, Project Management Unit (PMU), ICT Division Posts | Apply Online",
