@@ -20,6 +20,14 @@ const ABSOLUTE_MAX_BATCH_SIZE = 500;
 const MAX_EXECUTION_TIMEOUT_MS = 60_000; // 60 seconds
 const INTER_MESSAGE_DELAY_MS = 75; // ~13 msgs/sec, safe under Telegram's 30/sec limit
 
+/**
+ * In-Flight Claim Lease Duration (Crash Recovery Lease).
+ * If a process claims an alert slot and crashes/exits before completion,
+ * the claim lease expires after 5 minutes. A subsequent dispatch can then
+ * safely reclaim and deliver the notification without permanently locking it up.
+ */
+export const IN_FLIGHT_LEASE_MS = 5 * 60 * 1000; // 5 minutes
+
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -211,11 +219,21 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
     if (dryRun) {
       // In dry run, check if log already exists without modifying it
       const existingSnap = await logRef.get();
-      if (existingSnap.exists && existingSnap.data()?.status === 'sent') {
-        metrics.duplicates++;
-      } else {
-        metrics.sent++;
+      if (existingSnap.exists) {
+        const data = existingSnap.data();
+        if (data?.status === 'sent') {
+          metrics.duplicates++;
+          continue;
+        }
+        if (data?.status === 'in-flight') {
+          const claimedAtMs = new Date(data.claimedAt || 0).getTime();
+          if (Date.now() - claimedAtMs < IN_FLIGHT_LEASE_MS) {
+            metrics.duplicates++;
+            continue;
+          }
+        }
       }
+      metrics.sent++;
       continue;
     }
 
@@ -236,12 +254,14 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
           }
           if (data?.status === 'in-flight') {
             const claimedAtMs = new Date(data.claimedAt || 0).getTime();
-            // If claimed less than 2 minutes ago, another process is actively delivering
-            if (Date.now() - claimedAtMs < 120_000) {
+            // If claimed within lease duration, another process is actively delivering
+            if (Date.now() - claimedAtMs < IN_FLIGHT_LEASE_MS) {
               canSend = false;
               skipReason = 'in_flight';
               return;
             }
+            // Expired lease: previous worker must have crashed/timed out. Reclaim safely.
+            console.warn(`[JobAlertDispatcher] Reclaiming stale in-flight slot ${logId} (stale since ${data.claimedAt})`);
           }
         }
 
