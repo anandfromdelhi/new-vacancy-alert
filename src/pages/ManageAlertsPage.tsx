@@ -681,6 +681,25 @@ export default function ManageAlertsPage() {
                   </div>
                 </div>
               ))}
+
+              {/* Add New Alert Card alongside added alerts */}
+              <button
+                type="button"
+                onClick={() => setIsAddModalOpen(true)}
+                className="bg-white hover:bg-blue-50/50 rounded-2xl border-2 border-dashed border-blue-200 hover:border-blue-500 p-4 sm:p-5 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col items-center justify-center text-center gap-2 group cursor-pointer min-h-[140px]"
+              >
+                <div className="w-12 h-12 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white flex items-center justify-center transition-all duration-200 shadow-xs group-hover:scale-110">
+                  <Plus className="w-6 h-6 stroke-[2.5]" />
+                </div>
+                <div>
+                  <span className="text-xs sm:text-sm font-black text-slate-800 group-hover:text-blue-600 transition-colors block">
+                    Add New Alert
+                  </span>
+                  <span className="text-[11px] font-medium text-slate-400 group-hover:text-slate-500 transition-colors block mt-0.5">
+                    Select qualification & location
+                  </span>
+                </div>
+              </button>
             </div>
           </div>
         )}
