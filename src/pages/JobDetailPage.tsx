@@ -2075,6 +2075,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'kea-water-supply-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-950 via-blue-950 to-teal-950 rounded-2xl shadow-xl border-2 border-teal-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-teal-500 to-cyan-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      KEA Advt 46/2026(KK)
+                    </span>
+                    <span className="bg-teal-500/20 text-teal-300 border border-teal-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      210 Group &apos;C&apos; Posts (80 Operator + 122 Asst Operator + 8 Electrician)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      SSLC + ITI (Electrical / Fitter)
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: 18–40 Yrs (GM) / 45 Yrs (SC/ST)
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    KEA Karnataka Municipal Administration – 210 Group &apos;C&apos; Vacancies (KK Cadre)
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Notification No. <strong>ED/KEA/46/Rect/2026(KK)</strong>. Direct recruitment in Urban Local Bodies across Kalyana-Karnataka under Article 371(J). Selection via Competitive Exam (Paper 1 GK + Paper 2 Technical, 200 marks total) with negative marking (0.25 marks) and Compulsory Kannada test. Online application window active from <strong>16 September 2026 to 30 September 2026</strong>.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-teal-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-teal-400" /> Kalyana-Karnataka ULBs, Karnataka</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-teal-400" /> Deadline: 30 September 2026 (Fee: 01 October)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://cetonline.karnataka.gov.in/kea/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-teal-500 hover:bg-teal-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply Online Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4710,6 +4755,54 @@ export default function JobDetailPage() {
                               <div>• <strong>NCC Certificate Bonus:</strong> NCC &apos;C&apos; (5 marks / 5%) | NCC &apos;B&apos; (3 marks) | NCC &apos;A&apos; (2 marks)</div>
                               <div>• <strong>Battalion Quotas:</strong> 141 General Cadre + 168 Border Bn (Nubra 71, Changthang 40, Sham 13, Kargil 43, Drass 1) + 22 Women Bn</div>
                               <div>• <strong>Special Quotas:</strong> 15% SPOs (8th pass &amp; age 37), 4% VHGs (age 37), 20% Ex-Agniveers, 6% ESM, 4% OSP</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'kea-water-supply-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-teal-600" /> KEA Municipal Technical Qualifications &amp; Examination Framework
+                          </h4>
+                          <span className="text-[10px] font-bold text-teal-900 bg-teal-100 px-2 py-0.5 rounded-md">Advt: 46/2026(KK)</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-teal-50/80 border-2 border-teal-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-teal-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Technical Trade Standards</span>
+                              <span className="text-[10px] font-bold text-teal-800">SSLC + ITI + NAC</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Post-Wise Qualification &amp; Apprenticeship Norms</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Prescribed qualification benchmarks across the 210 Group &apos;C&apos; vacancies:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-teal-950 border border-teal-200 space-y-1">
+                              <div>• <strong>Water Supply Operator (80 Posts):</strong> SSLC + 2-Yr ITI (Electrical/Fitter) NTC + 1-Yr Apprenticeship (NAC).</div>
+                              <div>• <strong>Electrician Grade-1 (03 Posts):</strong> SSLC + 2-Yr ITI (Electrical) NTC + 1-Yr Apprenticeship (NAC).</div>
+                              <div>• <strong>Asst Water Supply Operator (122 Posts):</strong> SSLC + 2-Yr ITI (Electrical/Fitter) NTC (Apprenticeship NOT required).</div>
+                              <div>• <strong>Electrician Grade-2 (05 Posts):</strong> SSLC + 2-Yr ITI (Electrical) NTC (Apprenticeship NOT required).</div>
+                              <div>• <strong>Article 371(J) Domicile:</strong> Valid Annexure-A (ಅನುಬಂಧ-ಎ) certificate with RD number is strictly mandatory.</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-sky-50/80 border-2 border-sky-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-sky-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Exam Scheme &amp; Marking</span>
+                              <span className="text-[10px] font-bold text-sky-800">200 Marks (0.25 -ve)</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Competitive Exam Pattern &amp; 5th Option Rule</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              KEA examination structure scheduled for November 2026:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-sky-950 border border-sky-200 space-y-1">
+                              <div>• <strong>Compulsory Kannada Test:</strong> 150 Marks (50 qualifying score). Exempted for candidates with Kannada in SSLC.</div>
+                              <div>• <strong>Paper-1 (General Knowledge):</strong> 100 Marks (100 MCQs, 2 Hours) – Karnataka history, geography, constitution &amp; PR.</div>
+                              <div>• <strong>Paper-2 (Specific Technical Subject):</strong> 100 Marks (100 MCQs, 2 Hours) – ITI Trade core syllabus.</div>
+                              <div>• <strong>Negative Marking &amp; 5th Option:</strong> 0.25 marks penalty per wrong answer. Unshaded 5th option circle also penalised by 0.25.</div>
+                              <div>• <strong>Qualifying Cut-off:</strong> Minimum 35% marks required in the competitive exam to qualify for selection.</div>
                             </div>
                           </div>
                         </div>

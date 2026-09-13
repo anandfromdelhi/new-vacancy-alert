@@ -355,13 +355,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "kea-water-supply-recruitment-2026",
     "b": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka",
-    "t": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka Recruitment 2026 Notification Out for 210 Water Supply Operator, Electrician Grade-1, Assistant Water Supply Operator, Electrician Grade-2 Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "01 October 2026",
-    "a": "ED/KEA1/46/NEV/2026(KK)",
-    "q": "B.Tech / B.E | MBBS / Medical PG",
-    "desc": "Karnataka Examinations Authority (KEA), on behalf of the Directorate of Municipal Administration, Government of Karnataka has officially announced employment advertisement notification ED/KEA1/46/NEV/2026(KK) inviting applications for 210 vacancies for Water Supply Operator, Electrician Grade-1, Assistant Water Supply Operator, Electrician Grade-2 posts.",
-    "u": "https://cetonline.karnataka.gov.in/"
+    "t": "KEA Karnataka Municipal Administration Recruitment 2026 Notification Out for 210 Group 'C' Posts (Water Supply Operator & Electrician) | Apply Online",
+    "d": "11 September 2026",
+    "l": "30 September 2026",
+    "a": "Notification No. ED/KEA/46/Rect/2026(KK) [ಇಡಿ/ಕೆಇಎ/46/ನೇ.ವಿ./2026(ಕೆಕೆ)] dated 11/09/2026",
+    "q": "SSLC (10th) + 2-Year ITI (Electrical / Fitter) NTC (+ 1-Yr NAC Apprenticeship for Operator & Gr-1)",
+    "desc": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Directorate of Municipal Administration (ಪೌರಾಡಳಿತ ನಿರ್ದೇಶನಾಲಯ), Government of Karnataka, has officially released Notification No. ED/KEA/46/Rect/2026(KK) dated 11 September 2026 inviting online applications for direct recruitment to 210 Group 'C' vacancies in Urban Local Bodies (City Municipal Councils, Town Municipal Councils, and Town Panchayats) under the Kalyana-Karnataka (Hyderabad-Karnataka) local cadre under Article 371(J). The advertised posts comprise 80 vacancies of Water Supply Operator (ನೀರು ಸರಬರಾಜು ಆಪರೇಟರ್), 3 vacancies of Electrician Grade-1 (ಎಲೆಕ್ಟ್ರಿಷಿಯನ್ ಗ್ರೇಡ್-1), 122 vacancies of Assistant Water Supply Operator (ಸಹಾಯಕ ನೀರು ಸರಬರಾಜು ಆಪರೇಟರ್), and 5 vacancies of Electrician Grade-2 (ಎಲೆಕ್ಟ್ರಿಷಿಯನ್ ಗ್ರೇಡ್-2).",
+    "u": "https://cetonline.karnataka.gov.in/kea/"
 },
   {
     "id": "mysuru-mahanagara-ugd-helper-recruitment-2026",
