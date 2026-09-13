@@ -9,7 +9,8 @@ import {
   MessageSquare, Flag, RefreshCw, Layers, Sparkles, ChevronLeft,
   ChevronRight, X, Download, Home, GraduationCap, Flame, ThumbsUp,
   FileText, CornerDownRight, CheckSquare, Square, SlidersHorizontal,
-  Plus, ChevronDown, Hash, Sliders
+  Plus, ChevronDown, Hash, Sliders, Send, Users, Bell, MapPin,
+  TrendingUp, BarChart2, XCircle
 } from 'lucide-react';
 import {
   collection, query, orderBy, limit, deleteDoc, doc, getDocs,
@@ -20,6 +21,7 @@ import { useAuth } from '../context/AuthContext';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import jobsIndexData from '../data/jobs-index-generated.json';
 import { getJobUploadDate } from '../utils/jobUploadDate';
+import { JobAlertSubscription, TelegramLink } from '../types/alertTypes';
 
 interface CommentRecord {
   id: string;
@@ -122,8 +124,8 @@ export default function AdminPage() {
     user && user.email && user.email.toLowerCase() === ADMIN_EMAIL.toLowerCase()
   );
 
-  // Navigation tabs: 'jobs' | 'comments' | 'reports' | 'tools'
-  const [activeTab, setActiveTab] = useState<'jobs' | 'comments' | 'reports' | 'tools'>('jobs');
+  // Navigation tabs: 'jobs' | 'comments' | 'reports' | 'tools' | 'alerts'
+  const [activeTab, setActiveTab] = useState<'jobs' | 'comments' | 'reports' | 'tools' | 'alerts'>('jobs');
 
   // -------------------------------------------------------------
   // Jobs State & Multi-Level Filters (Excel-style)
@@ -165,6 +167,27 @@ export default function AdminPage() {
   // -------------------------------------------------------------
   const [reports, setReports] = useState<ReportRecord[]>([]);
   const [loadingReports, setLoadingReports] = useState(false);
+
+  // -------------------------------------------------------------
+  // Telegram & Alert Subscriptions State
+  // -------------------------------------------------------------
+  const [telegramLinks, setTelegramLinks] = useState<TelegramLink[]>([]);
+  const [alertSubscriptions, setAlertSubscriptions] = useState<JobAlertSubscription[]>([]);
+  const [loadingAlerts, setLoadingAlerts] = useState(false);
+  const [subscriberSearch, setSubscriberSearch] = useState('');
+  const [subscriberStatusFilter, setSubscriberStatusFilter] = useState<'all' | 'connected' | 'not_connected'>('all');
+  const [subscriberQualFilter, setSubscriberQualFilter] = useState('all');
+  const [subscriberLocFilter, setSubscriberLocFilter] = useState('all');
+  const [subscriberPage, setSubscriberPage] = useState(1);
+  const SUBSCRIBER_PAGE_SIZE = 25;
+  const [copiedText, setCopiedText] = useState<string | null>(null);
+
+  const handleCopyText = (text: string, label: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedText(text);
+    showToast(`Copied ${label} to clipboard!`);
+    setTimeout(() => setCopiedText(null), 2500);
+  };
 
   // Trigger Toast Notification
   const showToast = useCallback((text: string, type: 'success' | 'error' = 'success') => {
@@ -221,6 +244,49 @@ export default function AdminPage() {
     );
 
     return () => unsubscribe();
+  }, [isAuthorized]);
+
+  // Fetch Telegram Links & Alert Subscriptions (Only if Authorized)
+  useEffect(() => {
+    if (!isAuthorized) return;
+
+    setLoadingAlerts(true);
+    const unsubTg = onSnapshot(
+      collection(db, 'telegram_links'),
+      snapshot => {
+        const list: TelegramLink[] = snapshot.docs.map(d => ({
+          userId: d.id,
+          ...(d.data() as any)
+        }));
+        setTelegramLinks(list);
+        setLoadingAlerts(false);
+      },
+      err => {
+        console.error('Error fetching telegram_links:', err);
+        setLoadingAlerts(false);
+      }
+    );
+
+    const unsubAlerts = onSnapshot(
+      collection(db, 'job_alert_subscriptions'),
+      snapshot => {
+        const list: JobAlertSubscription[] = snapshot.docs.map(d => ({
+          id: d.id,
+          ...(d.data() as any)
+        }));
+        setAlertSubscriptions(list);
+        setLoadingAlerts(false);
+      },
+      err => {
+        console.error('Error fetching job_alert_subscriptions:', err);
+        setLoadingAlerts(false);
+      }
+    );
+
+    return () => {
+      unsubTg();
+      unsubAlerts();
+    };
   }, [isAuthorized]);
 
   // Delete Comment Action
@@ -386,6 +452,198 @@ export default function AdminPage() {
       totalReports: reports.length
     };
   }, [enrichedJobs, comments, reports]);
+
+  // -------------------------------------------------------------
+  // Telegram & Alert Subscriptions Analytics
+  // -------------------------------------------------------------
+  interface CandidateProfile {
+    userId: string;
+    email: string;
+    name?: string;
+    telegram?: TelegramLink;
+    subscriptions: JobAlertSubscription[];
+    activeSubscriptionsCount: number;
+    lastActive: string;
+  }
+
+  const alertAnalytics = useMemo(() => {
+    const activeTelegramUsers = telegramLinks.filter(t => t.isActive).length;
+    const totalTelegramUsers = telegramLinks.length;
+    const activeSubscriptions = alertSubscriptions.filter(s => s.isActive);
+    const totalSubscriptions = alertSubscriptions.length;
+
+    // Group into Candidate Profiles
+    const profileMap = new Map<string, CandidateProfile>();
+
+    telegramLinks.forEach(tg => {
+      profileMap.set(tg.userId, {
+        userId: tg.userId,
+        email: '',
+        name: tg.telegramFirstName || '',
+        telegram: tg,
+        subscriptions: [],
+        activeSubscriptionsCount: 0,
+        lastActive: tg.connectedAt || tg.updatedAt || ''
+      });
+    });
+
+    alertSubscriptions.forEach(sub => {
+      let profile = profileMap.get(sub.userId);
+      if (!profile) {
+        profile = {
+          userId: sub.userId,
+          email: sub.userEmail || '',
+          name: sub.userName || '',
+          subscriptions: [],
+          activeSubscriptionsCount: 0,
+          lastActive: sub.createdAt || ''
+        };
+        profileMap.set(sub.userId, profile);
+      } else {
+        if (!profile.email && sub.userEmail) profile.email = sub.userEmail;
+        if (!profile.name && sub.userName) profile.name = sub.userName;
+        if (sub.createdAt && (!profile.lastActive || sub.createdAt > profile.lastActive)) {
+          profile.lastActive = sub.createdAt;
+        }
+      }
+      profile.subscriptions.push(sub);
+      if (sub.isActive) {
+        profile.activeSubscriptionsCount++;
+      }
+    });
+
+    const candidates = Array.from(profileMap.values()).sort((a, b) => {
+      // Sort by active telegram first, then active subscriptions count, then lastActive
+      if (a.telegram?.isActive && !b.telegram?.isActive) return -1;
+      if (!a.telegram?.isActive && b.telegram?.isActive) return 1;
+      if (b.activeSubscriptionsCount !== a.activeSubscriptionsCount) {
+        return b.activeSubscriptionsCount - a.activeSubscriptionsCount;
+      }
+      return (b.lastActive || '').localeCompare(a.lastActive || '');
+    });
+
+    // Top Qualifications
+    const qualCountMap = new Map<string, { slug: string; label: string; count: number }>();
+    // Top Locations
+    const locCountMap = new Map<string, { slug: string; label: string; count: number }>();
+    // Top Combinations
+    const comboCountMap = new Map<string, { qualLabel: string; locLabel: string; count: number }>();
+    // Top Source Jobs
+    const sourceJobMap = new Map<string, { title: string; count: number }>();
+
+    activeSubscriptions.forEach(sub => {
+      const qSlug = sub.qualification || 'other';
+      const qLabel = sub.qualificationLabel || sub.qualification || 'General';
+      const qCurr = qualCountMap.get(qSlug) || { slug: qSlug, label: qLabel, count: 0 };
+      qCurr.count++;
+      qualCountMap.set(qSlug, qCurr);
+
+      const lSlug = sub.location || 'all-india';
+      const lLabel = sub.locationLabel || sub.location || 'All India';
+      const lCurr = locCountMap.get(lSlug) || { slug: lSlug, label: lLabel, count: 0 };
+      lCurr.count++;
+      locCountMap.set(lSlug, lCurr);
+
+      const cKey = `${qLabel} • ${lLabel}`;
+      const cCurr = comboCountMap.get(cKey) || { qualLabel: qLabel, locLabel: lLabel, count: 0 };
+      cCurr.count++;
+      comboCountMap.set(cKey, cCurr);
+
+      if (sub.sourceJobTitle) {
+        const jCurr = sourceJobMap.get(sub.sourceJobTitle) || { title: sub.sourceJobTitle, count: 0 };
+        jCurr.count++;
+        sourceJobMap.set(sub.sourceJobTitle, jCurr);
+      }
+    });
+
+    const totalActiveSubs = activeSubscriptions.length;
+
+    const topQualifications = Array.from(qualCountMap.values())
+      .sort((a, b) => b.count - a.count)
+      .map(item => ({
+        ...item,
+        percentage: totalActiveSubs > 0 ? Math.round((item.count / totalActiveSubs) * 100) : 0
+      }));
+
+    const topLocations = Array.from(locCountMap.values())
+      .sort((a, b) => b.count - a.count)
+      .map(item => ({
+        ...item,
+        percentage: totalActiveSubs > 0 ? Math.round((item.count / totalActiveSubs) * 100) : 0
+      }));
+
+    const topCombinations = Array.from(comboCountMap.entries())
+      .sort((a, b) => b[1].count - a[1].count)
+      .slice(0, 8)
+      .map(([key, val]) => ({ key, ...val }));
+
+    const topSourceJobs = Array.from(sourceJobMap.values())
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 6);
+
+    const connectedCandidatesCount = candidates.filter(c => c.telegram?.isActive).length;
+
+    return {
+      totalTelegramUsers,
+      activeTelegramUsers,
+      totalSubscriptions,
+      activeSubscriptions: totalActiveSubs,
+      totalCandidates: candidates.length,
+      connectedCandidatesCount,
+      coveredLocationsCount: locCountMap.size,
+      candidates,
+      topQualifications,
+      topLocations,
+      topCombinations,
+      topSourceJobs
+    };
+  }, [telegramLinks, alertSubscriptions]);
+
+  // Filtered Candidates
+  const filteredCandidates = useMemo(() => {
+    let list = alertAnalytics.candidates;
+
+    if (subscriberSearch.trim()) {
+      const q = subscriberSearch.trim().toLowerCase();
+      list = list.filter(c => {
+        const inEmail = (c.email || '').toLowerCase().includes(q);
+        const inName = (c.name || '').toLowerCase().includes(q);
+        const inUid = c.userId.toLowerCase().includes(q);
+        const inTgUser = (c.telegram?.telegramUsername || '').toLowerCase().includes(q);
+        const inTgFirst = (c.telegram?.telegramFirstName || '').toLowerCase().includes(q);
+        const inTgChat = (c.telegram?.telegramChatId || '').toLowerCase().includes(q);
+        const inSub = c.subscriptions.some(s =>
+          (s.qualificationLabel || '').toLowerCase().includes(q) ||
+          (s.locationLabel || '').toLowerCase().includes(q) ||
+          (s.sourceJobTitle || '').toLowerCase().includes(q)
+        );
+        return inEmail || inName || inUid || inTgUser || inTgFirst || inTgChat || inSub;
+      });
+    }
+
+    if (subscriberStatusFilter === 'connected') {
+      list = list.filter(c => Boolean(c.telegram?.isActive));
+    } else if (subscriberStatusFilter === 'not_connected') {
+      list = list.filter(c => !c.telegram?.isActive);
+    }
+
+    if (subscriberQualFilter !== 'all') {
+      list = list.filter(c => c.subscriptions.some(s => s.qualification === subscriberQualFilter));
+    }
+
+    if (subscriberLocFilter !== 'all') {
+      list = list.filter(c => c.subscriptions.some(s => s.location === subscriberLocFilter));
+    }
+
+    return list;
+  }, [alertAnalytics.candidates, subscriberSearch, subscriberStatusFilter, subscriberQualFilter, subscriberLocFilter]);
+
+  const paginatedCandidates = useMemo(() => {
+    const startIndex = (subscriberPage - 1) * SUBSCRIBER_PAGE_SIZE;
+    return filteredCandidates.slice(startIndex, startIndex + SUBSCRIBER_PAGE_SIZE);
+  }, [filteredCandidates, subscriberPage]);
+
+  const totalCandidatePages = Math.ceil(filteredCandidates.length / SUBSCRIBER_PAGE_SIZE) || 1;
 
   // Unique Boards list for Excel Filter
   const allBoardsList = useMemo(() => {
@@ -1114,6 +1372,18 @@ export default function AdminPage() {
           </button>
 
           <button
+            onClick={() => setActiveTab('alerts')}
+            className={`flex items-center gap-2 py-2.5 px-4 text-xs font-black uppercase tracking-wider border-b-2 transition whitespace-nowrap ${
+              activeTab === 'alerts'
+                ? 'border-sky-600 text-sky-600 bg-sky-50/50'
+                : 'border-transparent text-slate-500 hover:text-slate-800'
+            }`}
+          >
+            <Send className="w-4 h-4 text-sky-500" />
+            <span>Telegram & Alerts ({alertAnalytics.activeTelegramUsers})</span>
+          </button>
+
+          <button
             onClick={() => setActiveTab('tools')}
             className={`flex items-center gap-2 py-2.5 px-4 text-xs font-black uppercase tracking-wider border-b-2 transition whitespace-nowrap ${
               activeTab === 'tools'
@@ -1130,7 +1400,7 @@ export default function AdminPage() {
       {/* Main Content Area - Full Screen Responsive Width */}
       <main className="w-full max-w-[98vw] 2xl:max-w-[99vw] mx-auto px-2 sm:px-4 lg:px-6 pt-6 space-y-6">
         {/* Metric Cards Row */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">
           <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
             <div className="flex items-center justify-between text-slate-400 mb-1">
               <span className="text-[11px] font-bold uppercase tracking-wider">Total Jobs</span>
@@ -1153,6 +1423,33 @@ export default function AdminPage() {
               <CheckCircle2 className="w-4 h-4 text-emerald-500" />
             </div>
             <p className="text-xl sm:text-2xl font-black text-emerald-600">{metrics.activeCount.toLocaleString()}</p>
+          </div>
+
+          {/* Telegram Users Metric Card */}
+          <div
+            onClick={() => setActiveTab('alerts')}
+            className={`bg-white p-4 rounded-2xl border shadow-xs cursor-pointer transition hover:scale-[1.01] ${
+              activeTab === 'alerts'
+                ? 'border-sky-500 ring-2 ring-sky-500/20 bg-sky-50/20'
+                : 'border-slate-200 hover:border-sky-400'
+            }`}
+          >
+            <div className="flex items-center justify-between text-slate-400 mb-1">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-sky-700 flex items-center gap-1.5">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                Telegram Users
+              </span>
+              <Send className="w-4 h-4 text-sky-500" />
+            </div>
+            <p className="text-xl sm:text-2xl font-black text-sky-700">
+              {loadingAlerts ? '...' : alertAnalytics.activeTelegramUsers.toLocaleString()}
+            </p>
+            <p className="text-[10px] text-slate-400 mt-0.5 font-semibold">
+              {alertAnalytics.activeSubscriptions} active alert rules
+            </p>
           </div>
 
           <div className="bg-white p-4 rounded-2xl border border-slate-200 shadow-xs">
@@ -2018,7 +2315,623 @@ export default function AdminPage() {
         )}
 
         {/* ------------------------------------------------------------- */}
-        {/* TAB 4: SITE OVERVIEW & TOOLS */}
+        {/* TAB 4: TELEGRAM SUBSCRIBERS & TOP SUBSCRIBED SECTIONS */}
+        {/* ------------------------------------------------------------- */}
+        {activeTab === 'alerts' && (
+          <div className="space-y-6">
+            {/* Top Alert Subscriptions Header Bar */}
+            <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <div className="flex items-start gap-3.5">
+                  <div className="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center shrink-0 border border-sky-100 shadow-2xs">
+                    <Send className="w-6 h-6 text-sky-600" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h2 className="text-xl font-black text-slate-900 tracking-tight">
+                        Telegram Subscribers & Alert Insights
+                      </h2>
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                        </span>
+                        Live Firestore Sync
+                      </span>
+                    </div>
+                    <p className="text-xs text-slate-500 mt-1">
+                      Real-time breakdown of connected Telegram candidates, high-demand qualifications, top states, and alert conversion sources.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 self-start md:self-auto">
+                  <button
+                    onClick={() => {
+                      showToast('Subscriber list synced from Firestore!');
+                    }}
+                    className="px-3 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 text-xs font-bold text-slate-700 transition flex items-center gap-1.5 shadow-2xs"
+                  >
+                    <RefreshCw className={`w-3.5 h-3.5 ${loadingAlerts ? 'animate-spin text-sky-600' : 'text-slate-400'}`} />
+                    <span>Refresh</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* 4 KPI Hero Stats */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mt-6 pt-6 border-t border-slate-100">
+                <div className="bg-sky-50/50 rounded-xl p-3.5 border border-sky-100/80">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-sky-900">Active Telegram Users</span>
+                    <Send className="w-4 h-4 text-sky-600" />
+                  </div>
+                  <p className="text-2xl font-black text-sky-700">
+                    {alertAnalytics.activeTelegramUsers.toLocaleString()}
+                  </p>
+                  <p className="text-[11px] text-sky-600/80 font-semibold mt-0.5">
+                    {alertAnalytics.totalTelegramUsers} total connected accounts
+                  </p>
+                </div>
+
+                <div className="bg-purple-50/50 rounded-xl p-3.5 border border-purple-100/80">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-purple-900">Active Alert Rules</span>
+                    <Bell className="w-4 h-4 text-purple-600" />
+                  </div>
+                  <p className="text-2xl font-black text-purple-700">
+                    {alertAnalytics.activeSubscriptions.toLocaleString()}
+                  </p>
+                  <p className="text-[11px] text-purple-600/80 font-semibold mt-0.5">
+                    {alertAnalytics.totalSubscriptions} total subscriptions configured
+                  </p>
+                </div>
+
+                <div className="bg-blue-50/50 rounded-xl p-3.5 border border-blue-100/80">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-blue-900">Total Candidates</span>
+                    <Users className="w-4 h-4 text-blue-600" />
+                  </div>
+                  <p className="text-2xl font-black text-blue-700">
+                    {alertAnalytics.totalCandidates.toLocaleString()}
+                  </p>
+                  <p className="text-[11px] text-blue-600/80 font-semibold mt-0.5">
+                    {alertAnalytics.connectedCandidatesCount} with Telegram active
+                  </p>
+                </div>
+
+                <div className="bg-emerald-50/50 rounded-xl p-3.5 border border-emerald-100/80">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-emerald-900">State / Area Reach</span>
+                    <MapPin className="w-4 h-4 text-emerald-600" />
+                  </div>
+                  <p className="text-2xl font-black text-emerald-700">
+                    {alertAnalytics.coveredLocationsCount.toLocaleString()}
+                  </p>
+                  <p className="text-[11px] text-emerald-600/80 font-semibold mt-0.5">
+                    States & UTs actively tracked
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Top Subscribed Sections Analytics (Grid of Qualifications & Locations) */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {/* Card 1: Top Qualifications in Demand */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                      <GraduationCap className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h3 className="font-black text-slate-900 text-sm">Top Subscribed Qualifications</h3>
+                      <p className="text-[11px] text-slate-500">Highest alert demand across candidate profiles</p>
+                    </div>
+                  </div>
+                  <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
+                    {alertAnalytics.topQualifications.length} types
+                  </span>
+                </div>
+
+                {alertAnalytics.topQualifications.length === 0 ? (
+                  <div className="py-8 text-center text-slate-400 text-xs font-medium">
+                    No qualification alert subscriptions created yet.
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {alertAnalytics.topQualifications.slice(0, 7).map((item, idx) => (
+                      <div key={item.slug} className="space-y-1">
+                        <div className="flex items-center justify-between text-xs">
+                          <div className="flex items-center gap-2">
+                            <span className={`w-5 h-5 rounded-md flex items-center justify-center font-black text-[10px] ${
+                              idx === 0
+                                ? 'bg-amber-100 text-amber-800 font-black'
+                                : idx === 1
+                                ? 'bg-slate-200 text-slate-700'
+                                : idx === 2
+                                ? 'bg-amber-50 text-amber-700'
+                                : 'bg-slate-100 text-slate-500'
+                            }`}>
+                              #{idx + 1}
+                            </span>
+                            <span className="font-bold text-slate-800">{item.label}</span>
+                          </div>
+                          <div className="flex items-center gap-2 font-mono">
+                            <span className="font-bold text-slate-900">{item.count}</span>
+                            <span className="text-[10px] text-slate-400">({item.percentage}%)</span>
+                          </div>
+                        </div>
+                        <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                          <div
+                            className="bg-indigo-600 h-full rounded-full transition-all duration-500"
+                            style={{ width: `${Math.max(item.percentage, 4)}%` }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Card 2: Top Locations in Demand */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                      <MapPin className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h3 className="font-black text-slate-900 text-sm">Top Subscribed States & Regions</h3>
+                      <p className="text-[11px] text-slate-500">Highest alert density by geographical location</p>
+                    </div>
+                  </div>
+                  <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
+                    {alertAnalytics.topLocations.length} locations
+                  </span>
+                </div>
+
+                {alertAnalytics.topLocations.length === 0 ? (
+                  <div className="py-8 text-center text-slate-400 text-xs font-medium">
+                    No location alert subscriptions created yet.
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    {alertAnalytics.topLocations.slice(0, 7).map((item, idx) => (
+                      <div key={item.slug} className="space-y-1">
+                        <div className="flex items-center justify-between text-xs">
+                          <div className="flex items-center gap-2">
+                            <span className={`w-5 h-5 rounded-md flex items-center justify-center font-black text-[10px] ${
+                              idx === 0
+                                ? 'bg-emerald-100 text-emerald-800'
+                                : idx === 1
+                                ? 'bg-slate-200 text-slate-700'
+                                : idx === 2
+                                ? 'bg-emerald-50 text-emerald-700'
+                                : 'bg-slate-100 text-slate-500'
+                            }`}>
+                              #{idx + 1}
+                            </span>
+                            <span className="font-bold text-slate-800">{item.label}</span>
+                          </div>
+                          <div className="flex items-center gap-2 font-mono">
+                            <span className="font-bold text-slate-900">{item.count}</span>
+                            <span className="text-[10px] text-slate-400">({item.percentage}%)</span>
+                          </div>
+                        </div>
+                        <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                          <div
+                            className="bg-emerald-600 h-full rounded-full transition-all duration-500"
+                            style={{ width: `${Math.max(item.percentage, 4)}%` }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Top Combinations & Top Source Jobs Row */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {/* Top Qualification + Location Combinations */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center">
+                      <TrendingUp className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h3 className="font-black text-slate-900 text-sm">Top Alert Combinations</h3>
+                      <p className="text-[11px] text-slate-500">Most frequent Qualification + State alert pairs</p>
+                    </div>
+                  </div>
+                </div>
+
+                {alertAnalytics.topCombinations.length === 0 ? (
+                  <div className="py-6 text-center text-slate-400 text-xs font-medium">
+                    No combination data available yet.
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    {alertAnalytics.topCombinations.map((combo) => (
+                      <div
+                        key={combo.key}
+                        className="p-2.5 rounded-xl border border-slate-200 bg-slate-50/60 hover:bg-sky-50/40 transition flex items-center justify-between gap-2"
+                      >
+                        <div className="min-w-0">
+                          <span className="text-xs font-bold text-slate-800 truncate block">
+                            {combo.qualLabel}
+                          </span>
+                          <span className="text-[10px] text-slate-500 flex items-center gap-1 font-medium">
+                            <MapPin className="w-2.5 h-2.5 text-slate-400" />
+                            {combo.locLabel}
+                          </span>
+                        </div>
+                        <span className="px-2 py-1 rounded-lg bg-white border border-slate-200 font-mono text-xs font-black text-sky-700 shrink-0 shadow-2xs">
+                          {combo.count}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Top Source Jobs Driving Alert Subscriptions */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-5 sm:p-6 space-y-4">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center">
+                      <Flame className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h3 className="font-black text-slate-900 text-sm">Top Source Vacancies Driving Signups</h3>
+                      <p className="text-[11px] text-slate-500">Recruitment notification pages where candidates activated alerts</p>
+                    </div>
+                  </div>
+                </div>
+
+                {alertAnalytics.topSourceJobs.length === 0 ? (
+                  <div className="py-6 text-center text-slate-400 text-xs font-medium">
+                    Subscriptions are direct or from general landing pages.
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    {alertAnalytics.topSourceJobs.map((item, idx) => (
+                      <div
+                        key={idx}
+                        className="p-2.5 rounded-xl border border-slate-200 bg-slate-50/50 flex items-center justify-between gap-3 text-xs"
+                      >
+                        <div className="min-w-0">
+                          <p className="font-bold text-slate-800 truncate">{item.title}</p>
+                          <span className="text-[10px] text-slate-400 font-medium">Source Post</span>
+                        </div>
+                        <span className="px-2 py-1 rounded-lg bg-amber-50 text-amber-800 border border-amber-200 text-xs font-mono font-black shrink-0">
+                          +{item.count} alerts
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Candidate Directory (Subscribers List) */}
+            <div className="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden space-y-4 p-5 sm:p-6">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-slate-100 pb-4">
+                <div>
+                  <h3 className="font-black text-slate-900 text-base tracking-tight flex items-center gap-2">
+                    <Users className="w-5 h-5 text-sky-600" />
+                    <span>Candidate Subscribers Directory</span>
+                    <span className="text-xs bg-sky-100 text-sky-800 font-bold px-2 py-0.5 rounded-full">
+                      {filteredCandidates.length} Candidates
+                    </span>
+                  </h3>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    Direct list of registered candidates, linked Telegram profiles, and configured qualification/state alerts.
+                  </p>
+                </div>
+
+                {/* Status Filter Tabs */}
+                <div className="flex items-center gap-1.5 p-1 bg-slate-100 rounded-xl self-start md:self-auto">
+                  <button
+                    onClick={() => { setSubscriberStatusFilter('all'); setSubscriberPage(1); }}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
+                      subscriberStatusFilter === 'all'
+                        ? 'bg-white text-slate-900 shadow-xs'
+                        : 'text-slate-500 hover:text-slate-800'
+                    }`}
+                  >
+                    All ({alertAnalytics.candidates.length})
+                  </button>
+                  <button
+                    onClick={() => { setSubscriberStatusFilter('connected'); setSubscriberPage(1); }}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1 ${
+                      subscriberStatusFilter === 'connected'
+                        ? 'bg-emerald-600 text-white shadow-xs'
+                        : 'text-slate-500 hover:text-slate-800'
+                    }`}
+                  >
+                    <Send className="w-3 h-3" />
+                    <span>Telegram Active ({alertAnalytics.connectedCandidatesCount})</span>
+                  </button>
+                  <button
+                    onClick={() => { setSubscriberStatusFilter('not_connected'); setSubscriberPage(1); }}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
+                      subscriberStatusFilter === 'not_connected'
+                        ? 'bg-white text-slate-900 shadow-xs'
+                        : 'text-slate-500 hover:text-slate-800'
+                    }`}
+                  >
+                    Not Connected ({alertAnalytics.candidates.length - alertAnalytics.connectedCandidatesCount})
+                  </button>
+                </div>
+              </div>
+
+              {/* Search and Filters Toolbar */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                {/* Search */}
+                <div className="lg:col-span-2 relative">
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Search candidate email, name, Telegram username, chat ID, qualification..."
+                    value={subscriberSearch}
+                    onChange={e => { setSubscriberSearch(e.target.value); setSubscriberPage(1); }}
+                    className="w-full pl-9 pr-3.5 py-2 rounded-xl border border-slate-200 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 text-xs text-slate-800 font-medium"
+                  />
+                  {subscriberSearch && (
+                    <button
+                      onClick={() => setSubscriberSearch('')}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  )}
+                </div>
+
+                {/* Qualification Filter */}
+                <div>
+                  <select
+                    value={subscriberQualFilter}
+                    onChange={e => { setSubscriberQualFilter(e.target.value); setSubscriberPage(1); }}
+                    className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 bg-white"
+                  >
+                    <option value="all">All Qualifications ({alertAnalytics.topQualifications.length})</option>
+                    {alertAnalytics.topQualifications.map(q => (
+                      <option key={q.slug} value={q.slug}>
+                        {q.label} ({q.count})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Location Filter */}
+                <div>
+                  <select
+                    value={subscriberLocFilter}
+                    onChange={e => { setSubscriberLocFilter(e.target.value); setSubscriberPage(1); }}
+                    className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 bg-white"
+                  >
+                    <option value="all">All States & UTs ({alertAnalytics.topLocations.length})</option>
+                    {alertAnalytics.topLocations.map(l => (
+                      <option key={l.slug} value={l.slug}>
+                        {l.label} ({l.count})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              {/* Table of Candidates */}
+              <div className="overflow-x-auto border border-slate-200 rounded-xl">
+                <table className="w-full text-left text-xs text-slate-600">
+                  <thead className="bg-slate-50 border-b border-slate-200 text-slate-700 uppercase font-black tracking-wider text-[10px]">
+                    <tr>
+                      <th className="py-3 px-4">Candidate Profile</th>
+                      <th className="py-3 px-4">Telegram Connection</th>
+                      <th className="py-3 px-4">Subscribed Alerts</th>
+                      <th className="py-3 px-4">Last Activity</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100">
+                    {paginatedCandidates.length === 0 ? (
+                      <tr>
+                        <td colSpan={4} className="py-12 text-center text-slate-400">
+                          <Users className="w-8 h-8 text-slate-300 mx-auto mb-2" />
+                          <p className="font-bold text-sm text-slate-600">No candidates match your criteria</p>
+                          <p className="text-xs text-slate-400 mt-1">Try clearing or broadening your search filters</p>
+                        </td>
+                      </tr>
+                    ) : (
+                      paginatedCandidates.map(c => {
+                        const tg = c.telegram;
+                        const hasTelegram = Boolean(tg && tg.isActive);
+
+                        return (
+                          <tr key={c.userId} className="hover:bg-slate-50/80 transition">
+                            {/* Candidate Profile */}
+                            <td className="py-3.5 px-4">
+                              <div className="space-y-0.5">
+                                <div className="flex items-center gap-1.5">
+                                  <span className="font-black text-slate-900 text-xs">
+                                    {c.name || (c.email ? c.email.split('@')[0] : 'Candidate')}
+                                  </span>
+                                </div>
+                                {c.email ? (
+                                  <p className="text-xs text-slate-500 font-medium">{c.email}</p>
+                                ) : (
+                                  <p className="text-[11px] text-slate-400 italic">No email stored</p>
+                                )}
+                                <div className="flex items-center gap-1 text-[10px] text-slate-400 font-mono">
+                                  <span>UID: {c.userId.slice(0, 10)}...</span>
+                                  <button
+                                    onClick={() => handleCopyText(c.userId, 'User UID')}
+                                    className="hover:text-slate-700 transition"
+                                    title="Copy UID"
+                                  >
+                                    <Copy className="w-2.5 h-2.5" />
+                                  </button>
+                                </div>
+                              </div>
+                            </td>
+
+                            {/* Telegram Connection */}
+                            <td className="py-3.5 px-4">
+                              {hasTelegram ? (
+                                <div className="space-y-1">
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                                      <Check className="w-3 h-3" />
+                                      Connected
+                                    </span>
+                                    {tg?.telegramUsername && (
+                                      <a
+                                        href={`https://t.me/${tg.telegramUsername}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-1 text-sky-600 hover:text-sky-800 font-bold hover:underline"
+                                      >
+                                        <Send className="w-3 h-3" />
+                                        <span>@{tg.telegramUsername}</span>
+                                      </a>
+                                    )}
+                                  </div>
+                                  <div className="flex items-center gap-1.5 text-[11px] text-slate-500">
+                                    <span className="font-mono">Chat ID: {tg?.telegramChatId}</span>
+                                    <button
+                                      onClick={() => handleCopyText(tg?.telegramChatId || '', 'Telegram Chat ID')}
+                                      className="p-1 hover:bg-slate-100 rounded text-slate-400 hover:text-slate-700"
+                                      title="Copy Chat ID"
+                                    >
+                                      <Copy className="w-3 h-3" />
+                                    </button>
+                                  </div>
+                                  {tg?.telegramFirstName && (
+                                    <p className="text-[10px] text-slate-400">Name: {tg.telegramFirstName}</p>
+                                  )}
+                                </div>
+                              ) : tg && !tg.isActive ? (
+                                <div>
+                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200">
+                                    <AlertTriangle className="w-3 h-3" />
+                                    Disconnected
+                                  </span>
+                                  <p className="text-[10px] text-slate-400 mt-1">Previously linked</p>
+                                </div>
+                              ) : (
+                                <div>
+                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-600 border border-slate-200">
+                                    <XCircle className="w-3 h-3 text-slate-400" />
+                                    Not Linked
+                                  </span>
+                                </div>
+                              )}
+                            </td>
+
+                            {/* Subscribed Alerts */}
+                            <td className="py-3.5 px-4 max-w-xs">
+                              {c.subscriptions.length === 0 ? (
+                                <span className="text-[11px] text-slate-400 italic">No alert rules configured</span>
+                              ) : (
+                                <div className="space-y-1.5">
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="px-2 py-0.5 rounded-full text-[10px] font-black bg-purple-50 text-purple-700 border border-purple-200">
+                                      {c.activeSubscriptionsCount} Active / {c.subscriptions.length} Total
+                                    </span>
+                                  </div>
+                                  <div className="flex flex-wrap gap-1">
+                                    {c.subscriptions.slice(0, 3).map(sub => (
+                                      <span
+                                        key={sub.id}
+                                        className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold ${
+                                          sub.isActive
+                                            ? 'bg-slate-100 text-slate-800 border border-slate-200'
+                                            : 'bg-slate-50 text-slate-400 line-through'
+                                        }`}
+                                      >
+                                        <span>{sub.qualificationLabel || sub.qualification}</span>
+                                        <span className="text-slate-400">•</span>
+                                        <span className="text-slate-600">{sub.locationLabel || sub.location}</span>
+                                      </span>
+                                    ))}
+                                    {c.subscriptions.length > 3 && (
+                                      <span className="text-[10px] text-slate-400 font-bold px-1 py-0.5">
+                                        +{c.subscriptions.length - 3} more
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                              )}
+                            </td>
+
+                            {/* Last Activity */}
+                            <td className="py-3.5 px-4 whitespace-nowrap text-slate-500 text-xs">
+                              {c.lastActive ? (
+                                <div>
+                                  <p className="font-medium text-slate-700">
+                                    {new Date(c.lastActive).toLocaleDateString(undefined, {
+                                      day: 'numeric',
+                                      month: 'short',
+                                      year: 'numeric'
+                                    })}
+                                  </p>
+                                  <p className="text-[10px] text-slate-400 font-mono">
+                                    {new Date(c.lastActive).toLocaleTimeString([], {
+                                      hour: '2-digit',
+                                      minute: '2-digit'
+                                    })}
+                                  </p>
+                                </div>
+                              ) : (
+                                <span className="text-slate-400 text-[11px]">—</span>
+                              )}
+                            </td>
+                          </tr>
+                        );
+                      })
+                    )}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Pagination Controls */}
+              {totalCandidatePages > 1 && (
+                <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+                  <span className="text-xs text-slate-500 font-medium">
+                    Showing {(subscriberPage - 1) * SUBSCRIBER_PAGE_SIZE + 1} to{' '}
+                    {Math.min(subscriberPage * SUBSCRIBER_PAGE_SIZE, filteredCandidates.length)} of{' '}
+                    {filteredCandidates.length} candidates
+                  </span>
+
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      onClick={() => setSubscriberPage(p => Math.max(p - 1, 1))}
+                      disabled={subscriberPage === 1}
+                      className="px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-bold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition flex items-center gap-1"
+                    >
+                      <ChevronLeft className="w-3.5 h-3.5" />
+                      <span>Previous</span>
+                    </button>
+                    <span className="text-xs font-bold text-slate-700 px-2">
+                      Page {subscriberPage} of {totalCandidatePages}
+                    </span>
+                    <button
+                      onClick={() => setSubscriberPage(p => Math.min(p + 1, totalCandidatePages))}
+                      disabled={subscriberPage === totalCandidatePages}
+                      className="px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-bold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition flex items-center gap-1"
+                    >
+                      <span>Next</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* ------------------------------------------------------------- */}
+        {/* TAB 5: SITE OVERVIEW & TOOLS */}
         {/* ------------------------------------------------------------- */}
         {activeTab === 'tools' && (
           <div className="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden space-y-6 p-4 sm:p-6">
