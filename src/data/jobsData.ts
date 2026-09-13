@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nit-pa-recruitment-2026",
+    "b": "National Institute of Technology Tiruchirappalli",
+    "t": "National Institute of Technology Tiruchirappalli Recruitment 2026 Notification Out for 2 Project Associate & Project Assistant Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "21 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
+    "desc": "National Institute of Technology Tiruchirappalli has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 2 vacancies for Project Associate & Project Assistant posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfOlVP0wHYzaRFO2m5wwzUUP20zYhS1spG9W6OFKlEAATAKWw/viewform"
+},
+  {
+    "id": "bharathidasan-univ-pa-recruitment-2026",
+    "b": "Bharathidasan University",
+    "t": "Bharathidasan University Recruitment 2026 Notification Out for 3 Project Associate II, Project Associate I, Project Assistant Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "BHARATHIDASAN-/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Bharathidasan University has officially announced employment advertisement notification BHARATHIDASAN-/2026 inviting applications for 3 vacancies for Project Associate II, Project Associate I, Project Assistant posts.",
+    "u": "https://www.bdu.ac.in/docs/employment/PP-06-DBT-Microbiology-21092026.pdf"
+},
+  {
+    "id": "district-health-so-contractualtemporary-recruitment-2026",
+    "b": "District Health Society (through the respective District Health Office)",
+    "t": "District Health Society (through the respective District Health Office) Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "25 September 2026, 5:00 PM",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "District Health Society (through the respective District Health Office) has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2026/09/17892112894083.pdf"
+},
+  {
+    "id": "aps-tgt-pet-recruitment-2026",
+    "b": "Army Public School Lalgarh Jattan",
+    "t": "Army Public School Lalgarh Jattan Recruitment 2026 Notification Out for 1 TGT, PET, Health & Wellness Teacher Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "20 September 2026",
+    "a": "ARMY-PUBLIC-SC/2026",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Army Public School Lalgarh Jattan has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 1 vacancies for TGT, PET, Health & Wellness Teacher posts.",
+    "u": "https://www.apslalgarh.com/storage/app/public/employments/pdf1_1788318178.pdf"
+},
+  {
+    "id": "pau-jrf-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "PUNJAB-AGRICUL/2026",
+    "q": "B.Tech / B.E | B.Sc",
+    "desc": "Punjab Agricultural University (PAU) has officially announced employment advertisement notification PUNJAB-AGRICUL/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7566"
+},
+  {
+    "id": "mrsptu-ap-recruitment-2026",
+    "b": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU)",
+    "t": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU) Recruitment 2026 Notification Out for 1 Assistant Professor (Guest Faculty) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "MRSPTU/ SASE/ 26/ 265",
+    "q": "M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU) has officially announced employment advertisement notification MRSPTU/ SASE/ 26/ 265 inviting applications for 1 vacancies for Assistant Professor (Guest Faculty) posts.",
+    "u": "https://mrsptu.ac.in/uploads2026/jobs/Walk_in_Interview_SASE_08092026.pdf"
+},
+  {
+    "id": "ignca-pa-recruitment-2026",
+    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
+    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 2 Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "15 September 2026 (Private Secretary), 16 September 2026 (Accounts Officer/ Project Assistant) (Walk-in)",
+    "a": "12/157/2023-SD/AM",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially announced employment advertisement notification 12/157/2023-SD/AM inviting applications for 2 vacancies for Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) posts.",
+    "u": "https://ignca.gov.in/vaccancy/01092026-Adv-RC-Puducherry.pdf"
+},
+  {
+    "id": "nit-rourkela-fi-recruitment-2026",
+    "b": "National Institute of Technology Rourkela (NIT Rourkela)",
+    "t": "National Institute of Technology Rourkela (NIT Rourkela) Recruitment 2026 Notification Out for 1 Field Investigator Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Technology Rourkela (NIT Rourkela) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Field Investigator posts.",
+    "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/11092026181420722.pdf"
+},
+  {
+    "id": "cuo-guest-faculty-recruitment-2026",
+    "b": "Central University of Odisha (CUO)",
+    "t": "Central University of Odisha (CUO) Recruitment 2026 Notification Out for 2 Guest Faculty Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "CUO/Admn/EGF/116",
+    "q": "B.Sc | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Central University of Odisha (CUO) has officially announced employment advertisement notification CUO/Admn/EGF/116 inviting applications for 2 vacancies for Guest Faculty posts.",
+    "u": "https://cuo.ac.in/Recruitment/2026/Agriculture_Walk-In_GuestFaculty.pdf"
+},
+  {
+    "id": "icar-central-rice-yp-recruitment-2026-3067575",
+    "b": "ICAR-Central Rice Research Institute",
+    "t": "ICAR-Central Rice Research Institute Recruitment 2026 Notification Out for 2 Young Professional-I (YP-I) / Field Operator (FO) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "15 September 2026 & 16 September 2026 (Walk-in)",
+    "a": "29/YP-I/FO/2026-27",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "ICAR-Central Rice Research Institute has officially announced employment advertisement notification 29/YP-I/FO/2026-27 inviting applications for 2 vacancies for Young Professional-I (YP-I) / Field Operator (FO) posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-486.pdf"
+},
+  {
     "id": "iiswc-srf-recruitment-2026",
     "b": "ICAR-Indian Institute of Soil and Water Conservation (IISWC)",
     "t": "ICAR-Indian Institute of Soil and Water Conservation (IISWC) Recruitment 2026 Notification Out for 2 Senior Research Fellow (SRF) and Young Professional-II (YP-II) Posts | Walk-in Interview",
