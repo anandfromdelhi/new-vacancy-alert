@@ -33,6 +33,7 @@ import SscCglSelectionDvPage from './pages/ssc-cgl/SscCglSelectionDvPage';
 import MarketingPartnerPage from './pages/marketing/MarketingPartnerPage';
 import MarketingDashboardPage from './pages/marketing/MarketingDashboardPage';
 import MarketingTermsPage from './pages/marketing/MarketingTermsPage';
+import ManageAlertsPage from './pages/ManageAlertsPage';
 import AdminPage from './pages/AdminPage';
 import RssFeedPage from './pages/RssFeedPage';
 import QualificationJobsPage from './pages/QualificationJobsPage';
@@ -206,6 +207,9 @@ export function render(url: string) {
                   <Route path="rrb-technician-cen-02-2026/post-parameters" element={<PostParameters />} />
                   <Route path="rrb-technician-cen-02-2026/zone-wise-vacancy" element={<ZoneWiseVacancy />} />
                   <Route path="rrb-technician-cen-02-2026/merged-post-categories" element={<MergedPostCategories />} />
+
+                  {/* Personalized Job Alert Subscriptions Management */}
+                  <Route path="manage-alerts" element={<ManageAlertsPage />} />
 
                   {/* Single Segment ID Route for Job Detail Pages */}
                   <Route path=":id" element={<JobDetailPage />} />

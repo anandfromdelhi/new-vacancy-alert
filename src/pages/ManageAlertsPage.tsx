@@ -38,7 +38,8 @@ export default function ManageAlertsPage() {
     checkTelegramStatus,
     openTelegramModal,
     disconnectTelegram,
-    disconnectLoading
+    disconnectLoading,
+    pairingLoading
   } = useTelegram();
 
   // Handler to open Add Alert modal guarded strictly by Telegram connection
@@ -303,7 +304,7 @@ export default function ManageAlertsPage() {
                     )}
                     <button
                       type="button"
-                      onClick={() => { setTelegramLoading(true); checkTelegramStatus(); }}
+                      onClick={() => { checkTelegramStatus(); }}
                       disabled={telegramLoading}
                       title="Refresh connection status"
                       className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition inline-flex items-center justify-center cursor-pointer"
