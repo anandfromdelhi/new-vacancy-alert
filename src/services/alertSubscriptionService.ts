@@ -57,10 +57,21 @@ export async function subscribeToAlertCombinations(params: {
       const docRef = doc(db, SUBSCRIPTIONS_COLLECTION, docId);
 
       // Check if this subscription already exists
-      const existingSnap = await getDoc(docRef);
+      let docExists = false;
+      let existingData: any = null;
 
-      if (existingSnap.exists()) {
-        const existingData = existingSnap.data();
+      try {
+        const existingSnap = await getDoc(docRef);
+        if (existingSnap.exists()) {
+          docExists = true;
+          existingData = existingSnap.data();
+        }
+      } catch (checkErr: any) {
+        // If getDoc encountered an error on non-existent document, log warning and proceed to setDoc
+        console.warn('Existing subscription check encountered:', checkErr?.message || checkErr);
+      }
+
+      if (docExists && existingData) {
         if (existingData.isActive) {
           alreadyActiveCount++;
           continue;

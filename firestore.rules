@@ -132,19 +132,30 @@ service cloud.firestore {
     // 4. JOB ALERT SUBSCRIPTIONS (Personalized Alerts)
     // =========================================================================
     match /job_alert_subscriptions/{subscriptionId} {
-      // 4a. A user can read only their own subscriptions (or admin)
-      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+      // 4a. A user can read (get) their own subscription doc, or check existence before creation
+      allow get: if request.auth != null && (
+        resource == null || 
+        resource.data.userId == request.auth.uid || 
+        isAdmin()
+      );
 
-      // 4b. A user can create subscriptions only for themselves
+      // 4b. A user can query (list) only their own subscriptions
+      allow list: if request.auth != null && (
+        resource.data.userId == request.auth.uid || 
+        isAdmin()
+      );
+
+      // 4c. A user can create subscriptions only for themselves with matching doc ID
       allow create: if request.auth != null 
-                    && request.resource.data.userId == request.auth.uid;
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.id == subscriptionId;
 
-      // 4c. A user can modify or toggle only their own subscriptions
+      // 4d. A user can modify or toggle only their own subscriptions
       allow update: if request.auth != null 
                     && (resource.data.userId == request.auth.uid || isAdmin())
                     && request.resource.data.userId == resource.data.userId;
 
-      // 4d. A user can delete only their own subscriptions
+      // 4e. A user can delete only their own subscriptions
       allow delete: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
     }
 
