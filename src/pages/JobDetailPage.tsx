@@ -14,7 +14,6 @@ import {
   FileCheck, Stethoscope, GraduationCap
 } from 'lucide-react';
 import jobsIndexData from '../data/jobs-index-generated.json';
-import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
@@ -7272,11 +7271,6 @@ export default function JobDetailPage() {
           onCountChange={setCommentCount}
           hideFloatingButton={true}
         />
-      </div>
-
-      {/* Priority OneSignal Subscription Settings (Bottom of Sub-page, visible only when subscribed, spanning full layout width) */}
-      <div className="max-w-6xl mx-auto px-4 mt-8 pb-12 print:hidden">
-        <SubscribeWidget mode="bottom" />
       </div>
 
       {/* Mobile Sticky Bottom Navigation Bar */}

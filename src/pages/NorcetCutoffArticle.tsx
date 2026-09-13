@@ -14,7 +14,6 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer,
   BarChart, Bar
 } from 'recharts';
-import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
@@ -775,7 +774,7 @@ export default function NorcetCutoffArticle() {
           <NorcetPdfDownloadWidget 
             variant="compact"
             title="Practice NORCET Previous Papers PDF Download"
-            subtitle="Get instant access to verified past year nursing officer questions. Subscribe to notifications to unlock."
+            subtitle="Get instant access to verified past year nursing officer questions and official answer keys."
           />
 
           {/* FAQs */}
@@ -871,13 +870,8 @@ export default function NorcetCutoffArticle() {
 
 
       {/* Comments & Discussion */}
-      <div id="comments-section" className="max-w-6xl mx-auto px-4 mt-8 print:hidden">
+      <div id="comments-section" className="max-w-6xl mx-auto px-4 mt-8 pb-12 print:hidden">
         <CommentsSection pageId="norcet-cutoff" pageTitle="AIIMS NORCET Cutoff Marks & Analysis" />
-      </div>
-
-      {/* Priority Push Notification Subscription Settings at Bottom */}
-      <div className="max-w-6xl mx-auto px-4 mt-8 pb-24 print:hidden">
-        <SubscribeWidget mode="bottom" />
       </div>
 
       {/* Sticky Bottom Action Bar */}

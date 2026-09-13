@@ -59,11 +59,11 @@ app.use((req, res, next) => {
 
   const cspHeader = [
     "default-src 'self'",
-    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://cdn.onesignal.com https://mittengulped.com https://apis.google.com https://*.firebaseapp.com",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://mittengulped.com https://apis.google.com https://*.firebaseapp.com",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com data:",
     "img-src 'self' data: blob: https: http:",
-    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://onesignal.com https://*.onesignal.com https://pagead2.googlesyndication.com https://mittengulped.com https://get.geojs.io https://*.geojs.io https://ipapi.co",
+    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://pagead2.googlesyndication.com https://mittengulped.com https://get.geojs.io https://*.geojs.io https://ipapi.co",
     "frame-src 'self' https://*.firebaseapp.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://mittengulped.com",
     "object-src 'none'",
     "base-uri 'self'",

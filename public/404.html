@@ -78,73 +78,22 @@
       })(window, document, "clarity", "script", "ygdfkgmdg4");
     </script>
     
-    <!-- OneSignal Web SDK Page v16 -->
+    <!-- Clean up any legacy OneSignal Service Workers and cached subscription flags -->
     <script>
       (function() {
-        var isProd = window.location.hostname === 'newvacancyalert.in';
-        var isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.indexOf('192.168.') === 0;
-        
-        if (isProd || isLocal) {
-          // Dynamically load OneSignal SDK only on supported domains
-          var script = document.createElement('script');
-          script.src = "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js";
-          script.defer = true;
-          document.head.appendChild(script);
-
-          window.OneSignalDeferred = window.OneSignalDeferred || [];
-          window.OneSignalDeferred.push(async function(OneSignal) {
-            try {
-              await OneSignal.init({
-                appId: "b029dded-2fe5-44d0-b008-53af8f492b98",
-                allowLocalhostAsSecureOrigin: true,
-                autoRegister: false,
-                autoResubscribe: false,
-                promptOptions: {
-                  slidedown: {
-                    prompts: []
-                  }
+        try {
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              for (var i = 0; i < regs.length; i++) {
+                if (regs[i].active && regs[i].active.scriptURL && regs[i].active.scriptURL.indexOf('OneSignal') !== -1) {
+                  regs[i].unregister();
                 }
-              });
-            } catch (err) {
-              console.warn("OneSignal initialization skipped/failed:", err);
-            }
-          });
-        } else {
-          console.log("OneSignal push notifications are mocked on this development sandbox domain:", window.location.hostname);
-          // Safe Mock fallback for sandbox preview/testing
-          var mockSubscription = {
-            optedIn: false,
-            optIn: async function() {
-              this.optedIn = true;
-              triggerMockChange(true);
-            },
-            optOut: async function() {
-              this.optedIn = false;
-              triggerMockChange(false);
-            },
-            addEventListener: function(event, cb) {
-              window.__oneSignalMockListeners = window.__oneSignalMockListeners || [];
-              window.__oneSignalMockListeners.push(cb);
-            }
-          };
-
-          window.OneSignal = {
-            isMock: true,
-            User: {
-              PushSubscription: mockSubscription
-            }
-          };
-
-          function triggerMockChange(val) {
-            if (window.__oneSignalMockListeners) {
-              window.__oneSignalMockListeners.forEach(function(cb) {
-                try {
-                  cb({ current: { optedIn: val } });
-                } catch(e){}
-              });
-            }
+              }
+            }).catch(function() {});
           }
-        }
+          localStorage.removeItem('norcet_subscribed_push');
+          localStorage.removeItem('user_subscribed_notifications');
+        } catch(e) {}
       })();
     </script>
   </head>

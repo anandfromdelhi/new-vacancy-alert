@@ -29,7 +29,6 @@ import SalaryComparison from '../components/salary/SalaryComparison';
 import CityComparisonCard from '../components/salary/CityComparisonCard';
 import TaxRegimeComparison from '../components/salary/TaxRegimeComparison';
 import JobsByLevelSection from '../components/salary/JobsByLevelSection';
-import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
@@ -732,9 +731,6 @@ export default function SalaryCalculatorArticle() {
         <div id="comments-section">
           <CommentsSection pageId="salary-calculator" pageTitle="7th CPC Salary Calculator" />
         </div>
-
-        {/* Priority Push Notification Subscription Bar */}
-        <SubscribeWidget mode="bottom" />
 
       </div>
 

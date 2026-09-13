@@ -7,7 +7,6 @@ import {
   Sparkles, Tag, ShieldCheck, Flame, Star, Award, Rocket, GraduationCap,
   Building2, Users, FileText, CheckCircle2, Calculator
 } from 'lucide-react';
-import SubscribeWidget from '../components/SubscribeWidget';
 
 interface ArticleItem {
   id: string;
@@ -403,10 +402,6 @@ export default function ArticlesPage() {
             </button>
           </div>
         )}
-
-        {/* Priority Push Notification Subscription Bar at Bottom */}
-        <SubscribeWidget mode="bottom" />
-
       </div>
     </div>
   );

@@ -9,7 +9,6 @@ import {
   ArrowUpRight, Copy, Share2, Timer, BookOpen
 } from 'lucide-react';
 import { sscCalendarData, sscRevisionHistory, sscFaqs, SscExamEvent } from '../data/sscCalendarData';
-import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 import { useAuth } from '../context/AuthContext';
@@ -471,9 +470,6 @@ export default function SscCalendarArticle() {
         <div id="comments-section">
           <CommentsSection pageId="ssc-calendar" pageTitle="SSC Exam Calendar" />
         </div>
-
-        {/* Subscribe Widget at Bottom */}
-        <SubscribeWidget mode="bottom" />
 
       </div>
 

@@ -154,7 +154,7 @@ export function getPageMetaData(urlPath: string) {
     description = "Privacy policy and terms of service for users of NewVacancyAlert recruitment portal.";
   }
   else if (cleanPath === "rss-feed") {
-    title = "RSS Feed & Notification Subscriptions | NewVacancyAlert";
+    title = "RSS Feed & Live Job Alerts | NewVacancyAlert";
     description = "Subscribe to live RSS job feeds for central and state government recruitment updates.";
   }
   else if (cleanPath === "marketing-partner" || cleanPath === "marketing-partner/dashboard" || cleanPath === "marketing-partner/terms") {

@@ -11,7 +11,6 @@ import {
   ShoppingCart, ExternalLink, Cpu, Sprout, Landmark, Users, ClipboardCheck
 } from 'lucide-react';
 import CommentsSection from '../components/CommentsSection';
-import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export const BSFC_BOOK_LINKS = {
@@ -1065,9 +1064,6 @@ export default function BiharBsfcBestBooksPage() {
             pageTitle="Best Books for Bihar BSFC 2026: Subject-Wise Books for LDC, Assistant Manager, Accountant & Other Posts"
           />
         </div>
-
-        {/* Subscription Newsletter */}
-        <SubscribeWidget />
 
       </div>
 

@@ -11,7 +11,6 @@ import {
   ShoppingCart, ExternalLink
 } from 'lucide-react';
 import CommentsSection from '../components/CommentsSection';
-import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export const RRB_NTPC_BOOK_LINKS = {
@@ -1310,9 +1309,6 @@ export default function RrbNtpcBestBooksPage() {
             ))}
           </div>
         </section>
-
-        {/* Subscribe Widget */}
-        <SubscribeWidget />
 
         {/* Comments Section */}
         <div id="comments-section">

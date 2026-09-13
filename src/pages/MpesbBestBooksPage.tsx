@@ -11,7 +11,6 @@ import {
   ShoppingCart, ExternalLink, Cpu, Wrench, Building2, Microscope, Scale
 } from 'lucide-react';
 import CommentsSection from '../components/CommentsSection';
-import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export const MPESB_BOOK_LINKS = {
@@ -1041,9 +1040,6 @@ export default function MpesbBestBooksPage() {
             pageTitle="Best Books for MPESB 2026: Subject-Wise Best Books for MPESB Group 3 Preparation"
           />
         </div>
-
-        {/* Subscription Newsletter */}
-        <SubscribeWidget />
 
       </div>
 

@@ -28,7 +28,7 @@ Use this skill whenever the user provides two text files (or text inputs) — **
    - **Charts & Visual Meters**: Lightweight, pure Tailwind CSS progress bars, bar comparison metrics, and visual score distributions.
    - **Interactive FAQ Accordion**: Expandable/collapsible FAQ questions with question pills and clean typography.
    - **Sticky Bottom Action Bar & Navigation Index**: Include `<ArticleStickyBottomBar />` and sidebar navigation for seamless reading.
-   - **Community & Social Widgets**: `<CommentsSection articleId="..." />`, `<SubscribeWidget />`, author bio box, and social share handles.
+   - **Community & Social Widgets**: `<CommentsSection articleId="..." />`, author bio box, and social share handles.
 
 4. **Super SEO-Friendly Architecture & Full SSG Pre-Rendering**:
    - React Helmet async `<Helmet>` with custom `<title>`, `<meta name="description">`, `<link rel="canonical">`, Open Graph, and Twitter tags.
@@ -81,7 +81,7 @@ Create a new file in `src/pages/` containing:
 - Visual breakdown boxes, pros & cons, and study timetable grids.
 - Interactive FAQ accordion with expand/collapse states.
 - Author Bio (`Anand Kumar Mehta` / Government Exam Researcher).
-- `<CommentsSection articleId="..." />` and `<SubscribeWidget />`.
+- `<CommentsSection articleId="..." />`.
 - `<ArticleStickyBottomBar />`.
 
 ---

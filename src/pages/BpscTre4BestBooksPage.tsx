@@ -12,7 +12,6 @@ import {
   BrainCircuit, History, Globe2, Landmark, Atom, Cpu, CheckCheck
 } from 'lucide-react';
 import CommentsSection from '../components/CommentsSection';
-import SubscribeWidget from '../components/SubscribeWidget';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 
 export const BPSC_TRE4_BOOK_LINKS = {
@@ -1381,9 +1380,6 @@ export default function BpscTre4BestBooksPage() {
                 </p>
               </div>
             </div>
-
-            {/* Subscribe Widget */}
-            <SubscribeWidget />
 
             {/* Comments Section */}
             <div id="comments-section">

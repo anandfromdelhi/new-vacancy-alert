@@ -9,7 +9,6 @@ import {
   Building2, Users, Layers, Target, FileCheck, ArrowUp, Flag, MapPin, Sparkles,
   Info, Bell, Zap, Eye, RefreshCw, Sun, Moon, ListFilter, Bookmark
 } from 'lucide-react';
-import SubscribeWidget from '../components/SubscribeWidget';
 import CommentsSection from '../components/CommentsSection';
 import ArticleStickyBottomBar from '../components/ArticleStickyBottomBar';
 import { useAuth } from '../context/AuthContext';
@@ -1184,9 +1183,6 @@ export default function RrbCalendarArticle() {
         <div id="comments-section">
           <CommentsSection pageId="rrb-calendar" pageTitle="RRB Exam Calendar 2026-27" />
         </div>
-
-        {/* Push Notification Subscription Bar at Bottom */}
-        <SubscribeWidget mode="bottom" />
 
       </div>
 
