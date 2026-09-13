@@ -20,10 +20,19 @@ interface JobAlertModalProps {
 }
 
 export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalProps) {
-  const { user, loginWithGoogle, isLoginModalOpen } = useAuth();
+  const { user, loginWithGoogle } = useAuth();
 
-  const [selectedQuals, setSelectedQuals] = useState<string[]>([]);
-  const [selectedLocs, setSelectedLocs] = useState<string[]>([]);
+  // Extract structured options from the job
+  const alertOptions: JobAlertOptions = useMemo(() => {
+    return getJobAlertOptions(job);
+  }, [job]);
+
+  const [selectedQuals, setSelectedQuals] = useState<string[]>(() =>
+    alertOptions.qualifications.map((q) => q.slug)
+  );
+  const [selectedLocs, setSelectedLocs] = useState<string[]>(() =>
+    alertOptions.locations.map((l) => l.slug)
+  );
   const [existingDocIds, setExistingDocIds] = useState<Set<string>>(new Set());
   const [isLoadingExisting, setIsLoadingExisting] = useState<boolean>(false);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
@@ -31,10 +40,15 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
   const [successResult, setSuccessResult] = useState<{ saved: number; active: number } | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // Extract structured options from the job
-  const alertOptions: JobAlertOptions = useMemo(() => {
-    return getJobAlertOptions(job);
-  }, [job]);
+  // Compute the valid combinations that intersect the user's selected qualifications and locations
+  const selectedValidCombinations = useMemo(() => {
+    return alertOptions.validCombinations.filter((combo) => {
+      return (
+        selectedQuals.includes(combo.qualificationSlug) &&
+        selectedLocs.includes(combo.locationSlug)
+      );
+    });
+  }, [alertOptions.validCombinations, selectedQuals, selectedLocs]);
 
   // Pre-select all available options when modal opens or job changes
   useEffect(() => {
@@ -78,16 +92,6 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
   }, [isOpen, user?.uid]);
 
   if (!isOpen) return null;
-
-  // Compute the valid combinations that intersect the user's selected qualifications and locations
-  const selectedValidCombinations = useMemo(() => {
-    return alertOptions.validCombinations.filter((combo) => {
-      return (
-        selectedQuals.includes(combo.qualificationSlug) &&
-        selectedLocs.includes(combo.locationSlug)
-      );
-    });
-  }, [alertOptions.validCombinations, selectedQuals, selectedLocs]);
 
   const toggleQual = (slug: string) => {
     setSelectedQuals((prev) =>

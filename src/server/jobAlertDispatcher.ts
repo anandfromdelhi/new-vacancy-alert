@@ -43,6 +43,21 @@ export function escapeHtml(text: string): string {
     .replace(/>/g, '&gt;');
 }
 
+export function maskId(id: string): string {
+  if (!id || id.length <= 8) return '****';
+  return `${id.slice(0, 4)}...${id.slice(-4)}`;
+}
+
+export function maskSubscriptionId(id: string): string {
+  if (!id) return '****';
+  const parts = id.split('_');
+  if (parts.length >= 3) {
+    const [uid, ...rest] = parts;
+    return `${maskId(uid)}_${rest.join('_')}`;
+  }
+  return maskId(id);
+}
+
 /**
  * Generates the deterministic collision-safe notification log ID.
  */
@@ -99,7 +114,11 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
 
   const metrics: DispatchMetrics = {
     jobId,
+    totalActiveSubscriptionsQueried: 0,
+    jobCombinations: [],
     matchedSubscriptions: 0,
+    rejectedSubscriptions: 0,
+    rejectionSample: [],
     telegramConnected: 0,
     sent: 0,
     skipped: 0,
@@ -128,6 +147,7 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
   for (const combo of validCombinations) {
     validComboMap.set(`${combo.qualificationSlug}_${combo.locationSlug}`, combo);
   }
+  metrics.jobCombinations = Array.from(validComboMap.keys());
 
   const db = getAdminDb();
   if (!db) {
@@ -139,6 +159,8 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
     .where('isActive', '==', true)
     .get();
 
+  metrics.totalActiveSubscriptionsQueried = subsSnap.size;
+
   if (subsSnap.empty) {
     console.log(`[JobAlertDispatcher] No active subscriptions found in database.`);
     metrics.durationMs = Date.now() - startTime;
@@ -147,9 +169,13 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
 
   // 4. In-memory matching against explicit valid combinations
   const matchedSubscriptions: (JobAlertSubscription & { combo: AlertCombination })[] = [];
+  const rejectionSample: string[] = [];
+
   for (const doc of subsSnap.docs) {
     const data = doc.data() as JobAlertSubscription;
-    const key = `${data.qualification}_${data.location}`;
+    const qualSlug = data.qualification || (data as any).qualificationSlug;
+    const locSlug = data.location || (data as any).locationSlug;
+    const key = `${qualSlug}_${locSlug}`;
     const matchedCombo = validComboMap.get(key);
     if (matchedCombo) {
       matchedSubscriptions.push({
@@ -157,12 +183,19 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
         id: doc.id,
         combo: matchedCombo
       });
+    } else {
+      if (rejectionSample.length < 5) {
+        rejectionSample.push(`${key} (mismatches job combos)`);
+      }
     }
   }
 
   metrics.matchedSubscriptions = matchedSubscriptions.length;
+  metrics.rejectedSubscriptions = subsSnap.size - matchedSubscriptions.length;
+  metrics.rejectionSample = rejectionSample;
+
   if (matchedSubscriptions.length === 0) {
-    console.log(`[JobAlertDispatcher] Zero subscriptions matched valid combinations for job ${jobId}.`);
+    console.log(`[JobAlertDispatcher] Zero subscriptions matched valid combinations for job ${jobId}. Evaluated ${subsSnap.size} active subscriptions.`);
     metrics.durationMs = Date.now() - startTime;
     return metrics;
   }
@@ -217,6 +250,16 @@ export async function dispatchJobAlert(options: DispatchOptions): Promise<Dispat
     });
 
     if (dryRun) {
+      metrics.matchedSummary = metrics.matchedSummary || [];
+      metrics.matchedSummary.push({
+        maskedUserId: maskId(sub.userId),
+        maskedSubscriptionId: maskSubscriptionId(sub.id),
+        qualificationLabel: sub.combo.qualificationLabel || sub.qualificationLabel,
+        locationLabel: sub.combo.locationLabel || sub.locationLabel,
+        isActive: sub.isActive,
+        sameUserTelegramActive: Boolean(telegramLink && telegramLink.isActive)
+      });
+
       // In dry run, check if log already exists without modifying it
       const existingSnap = await logRef.get();
       if (existingSnap.exists) {

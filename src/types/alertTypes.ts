@@ -45,10 +45,24 @@ export interface TelegramSendResult {
   error?: string;
 }
 
+export interface MatchedSubscriptionDiagnostic {
+  maskedUserId: string;
+  maskedSubscriptionId: string;
+  qualificationLabel: string;
+  locationLabel: string;
+  isActive: boolean;
+  sameUserTelegramActive: boolean;
+}
+
 export interface DispatchMetrics {
   jobId: string;
   jobTitle?: string;
+  totalActiveSubscriptionsQueried?: number;
+  jobCombinations?: string[];
   matchedSubscriptions: number;
+  rejectedSubscriptions?: number;
+  rejectionSample?: string[];
+  matchedSummary?: MatchedSubscriptionDiagnostic[];
   telegramConnected: number;
   sent: number;
   skipped: number;
