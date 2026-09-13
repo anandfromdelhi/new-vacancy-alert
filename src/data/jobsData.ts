@@ -366,12 +366,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "mysuru-mahanagara-ugd-helper-recruitment-2026",
     "b": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC)",
-    "t": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC) Recruitment 2026 Notification Out for 116 UGD Helper (Under Ground Drainage Helper) Posts | Apply Offline",
-    "d": "13 September 2026",
-    "l": "9 October 2026, 5:30 PM",
-    "a": "No. C.E.S.T(5):C.R:03:2026-27 dated 08-09-2026",
-    "q": "B.Tech / B.E",
-    "desc": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC) has officially announced employment advertisement notification No. C.E.S.T(5):C.R:03:2026-27 dated 08-09-2026 inviting applications for 116 vacancies for UGD Helper (Under Ground Drainage Helper) posts.",
+    "t": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC) Recruitment 2026 Notification Out for 116 UGD Helper Posts | Apply Offline",
+    "d": "08 September 2026",
+    "l": "09 October 2026 (5:30 PM)",
+    "a": "No. CEST (5) : CR : 03 : 2026-27 dated 08-09-2026",
+    "q": "Kannada Speaking Knowledge + 2 Years Service in MCC as UGD Helper (Excluding STP/Wet Well)",
+    "desc": "Mysuru Mahanagara Palike (Mysore City Corporation, MCC), Administration Division, has officially released employment notification No. CEST (5) : CR : 03 : 2026-27 dated 08 September 2026 announcing a Special Direct Recruitment drive for 116 vacancies of UGD Helpers (Under Ground Drainage Helpers / ಯುಜಿಡಿ ಹೆಲ್ಪರ್ಸ್). This recruitment is being conducted pursuant to the Karnataka Municipal Corporations (Recruitment of UGD Helpers in City Corporations of the State) (Except Greater Bengaluru Authority) (Special) Recruitment Rules 2026 and Directorate of Municipal Administration (DMA) Revised Proceeding Order No. 1359725/DMA/EST/3/Others/53/2024 dated 24 August 2026.",
     "u": "http://www.mysurucity.mrc.gov.in/"
 },
   {

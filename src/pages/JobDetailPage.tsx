@@ -1805,6 +1805,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'mysuru-mahanagara-ugd-helper-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-amber-950 to-stone-900 rounded-2xl shadow-xl border-2 border-amber-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Special Direct Recruitment 2026
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      116 UGD Helpers (₹27,000–₹46,675)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      No Application Fee (₹0 Free)
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: 18–55 Years
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Mysuru Mahanagara Palike – UGD Helpers (ಯುಜಿಡಿ ಹೆಲ್ಪರ್ಸ್)
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Advt No. <strong>CEST (5) : CR : 03 : 2026-27</strong> dated 08-09-2026. Open exclusively for existing UGD Helpers with minimum 2 years continuous service in MCC (direct pay, welfare, daily wage, contract, or outsourced). STP &amp; Wet Well personnel excluded. Selection is 100% based on continuous service length seniority.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-amber-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-amber-400" /> MCC Head Office, Sayyaji Rao Road, Mysuru</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-amber-400" /> Last Date: 09 October 2026 (5:30 PM In-Person)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="http://www.mysurucity.mrc.gov.in/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Building2 className="h-4 w-4" /> MCC Official Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4160,6 +4205,49 @@ export default function JobDetailPage() {
                               <div>• Qualifying Cut-Off: <strong>50%</strong> (UR/OBC/EWS) | <strong>45%</strong> (SC/ST)</div>
                               <div>• DV Calling Ratio: <strong>1:7</strong> per vacancy in order of merit</div>
                               <div>• Skill/Trade Test: <strong>Qualifying Nature</strong> (Suitable / Not Suitable)</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'mysuru-mahanagara-ugd-helper-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-amber-600" /> MCC UGD Helper Special Recruitment Rules 2026
+                          </h4>
+                          <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">Govt Order: UDD 70 MNY 2018(E)</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-amber-50/80 border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">In-Service Eligibility</span>
+                              <span className="text-[10px] font-bold text-amber-800">Minimum 2 Years MCC Service</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Serving UGD Helpers in Mysuru City Corporation</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Open strictly to in-service UGD Helpers under direct pay, welfare, daily wage, contract, or outsourced basis with certified PF/ESI contributions.
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-rose-900 border border-rose-200">
+                              ⚠️ Strict Exclusion: Helpers deployed at Sewage Treatment Plants (STP) and Wet Wells are NOT eligible to apply.
+                            </div>
+                          </div>
+
+                          <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Merit Determination</span>
+                              <span className="text-[10px] font-bold text-blue-800">100% Service Seniority</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Service Length Weightage &amp; Tie-Breakers</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Rankings are established strictly according to the length of continuous service rendered in Mysuru Mahanagara Palike.
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-blue-900 border border-blue-200 space-y-1">
+                              <div>• Priority Order: <strong>Longer continuous service</strong> in MCC gets top ranking</div>
+                              <div>• Age Tie-Breaker: <strong>Older candidate</strong> preferred if service duration is equal</div>
+                              <div>• Lottery Draw: Invoked if both <strong>service duration and age</strong> are identical</div>
+                              <div>• Waiting List: <strong>20% Additional Reserve List</strong> active for 1 year</div>
                             </div>
                           </div>
                         </div>
