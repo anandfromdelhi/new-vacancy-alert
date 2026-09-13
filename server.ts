@@ -1,9 +1,7 @@
 import express from "express";
 import fs from "fs";
 import path from "path";
-import { createServer as createViteServer } from "vite";
 import { generateRssXml } from "./src/utils/rssGenerator.js";
-import { getPageMetaData, injectMetaTags, escapeHtml } from "./src/utils/metaHelper.js";
 import { verifyFirebaseIdToken } from "./src/server/firebaseAdmin.js";
 import {
   createPairingToken,
@@ -146,8 +144,6 @@ app.use((req, res, next) => {
   next();
 });
 
-export { escapeHtml, getPageMetaData, injectMetaTags };
-
 // Geo-IP endpoint for location detection (zero external calls on Vercel/Cloudflare, fallback to GeoJS)
 app.get("/api/geo", async (req, res) => {
   const vercelRegion = req.headers["x-vercel-ip-country-region"] as string;
@@ -270,10 +266,12 @@ app.get("/api/telegram/status", (_req, res) => {
 });
 
 export async function startServer() {
-  const isProduction = process.env.NODE_ENV === "production";
+  const isDev = process.env.NODE_ENV === "development" || 
+                (process.env.NODE_ENV !== "production" && !__filename.endsWith(".cjs"));
 
-  if (!isProduction) {
+  if (isDev) {
     // Development mode with Vite middleware
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
@@ -281,7 +279,7 @@ export async function startServer() {
 
     app.use(vite.middlewares);
 
-    // Serve HTML with dynamic meta tags on non-static asset routes
+    // Serve HTML for dynamic client-side SPA navigation
     app.use("*", async (req, res, next) => {
       const url = req.originalUrl;
       if (url.includes(".") && !url.endsWith(".html")) {
@@ -291,9 +289,7 @@ export async function startServer() {
       try {
         let template = fs.readFileSync(path.resolve(process.cwd(), "index.html"), "utf-8");
         template = await vite.transformIndexHtml(url, template);
-        const meta = getPageMetaData(url);
-        const html = injectMetaTags(template, meta);
-        res.status(200).set({ "Content-Type": "text/html" }).end(html);
+        res.status(200).set({ "Content-Type": "text/html" }).end(template);
       } catch (e: any) {
         vite.ssrFixStacktrace(e);
         next(e);
@@ -304,36 +300,34 @@ export async function startServer() {
     const distPath = path.join(process.cwd(), "dist");
     const indexHtmlPath = path.join(distPath, "index.html");
 
-    // Serve pre-rendered HTML pages for routes
-    app.get("*", (req, res, next) => {
-      const url = req.path;
-      // Skip static assets with file extensions (e.g. .js, .css, .png)
-      if (url.includes(".") && !url.endsWith(".html")) {
-        return next();
-      }
+    if (fs.existsSync(indexHtmlPath)) {
+      // If frontend static assets exist, serve pre-rendered HTML pages
+      app.get("*", (req, res, next) => {
+        const url = req.path;
+        // Skip static assets with file extensions (e.g. .js, .css, .png)
+        if (url.includes(".") && !url.endsWith(".html")) {
+          return next();
+        }
 
-      const cleanPath = url.replace(/^\/+|\/+$/g, "");
-      const staticFile = cleanPath === "" 
-        ? path.resolve(distPath, "index.html")
-        : path.resolve(distPath, cleanPath, "index.html");
+        const cleanPath = url.replace(/^\/+|\/+$/g, "");
+        const staticFile = cleanPath === "" 
+          ? path.resolve(distPath, "index.html")
+          : path.resolve(distPath, cleanPath, "index.html");
 
-      if (fs.existsSync(staticFile)) {
-        return res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).sendFile(staticFile);
-      }
+        if (fs.existsSync(staticFile)) {
+          return res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).sendFile(staticFile);
+        }
 
-      // Fallback for dynamic / unlisted routes
-      const meta = getPageMetaData(url);
-      try {
-        const rawHtml = fs.readFileSync(indexHtmlPath, "utf-8");
-        const html = injectMetaTags(rawHtml, meta);
-        const statusCode = meta.isNotFound ? 404 : 200;
-        res.status(statusCode).set({ "Content-Type": "text/html; charset=utf-8" }).send(html);
-      } catch (err) {
-        res.status(500).send("Error loading application");
-      }
-    });
+        return res.status(200).set({ "Content-Type": "text/html; charset=utf-8" }).sendFile(indexHtmlPath);
+      });
 
-    app.use(express.static(distPath, { index: false, redirect: false }));
+      app.use(express.static(distPath, { index: false, redirect: false }));
+    } else {
+      // Standalone API Web Service mode (returns 404 for unhandled non-API paths)
+      app.use("*", (req, res) => {
+        res.status(404).json({ error: "Not Found", path: req.originalUrl });
+      });
+    }
   }
 
   app.listen(PORT, "0.0.0.0", () => {
