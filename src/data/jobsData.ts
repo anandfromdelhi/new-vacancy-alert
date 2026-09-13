@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "doon-university-yp-recruitment-2026",
+    "b": "Doon University",
+    "t": "Doon University Recruitment 2026 Notification Out for 1 Young Professional I (YP I) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "26 September 2026 (Walk-in)",
+    "a": "DOON-UNIVERSIT/2026",
+    "q": "M.Sc | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Doon University has officially announced employment advertisement notification DOON-UNIVERSIT/2026 inviting applications for 1 vacancies for Young Professional I (YP I) posts.",
+    "u": "https://doonuniversity.ac.in/admin/assets/uploads/docs/20260911075331860da77875.pdf"
+},
+  {
+    "id": "nit-uttarakhand-ra-recruitment-2026",
+    "b": "National Institute of Technology Uttarakhand",
+    "t": "National Institute of Technology Uttarakhand Recruitment 2026 Notification Out for 2 Project Associate / JRF / Research Associate Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "09/ 2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "National Institute of Technology Uttarakhand has officially announced employment advertisement notification 09/ 2026 inviting applications for 2 vacancies for Project Associate / JRF / Research Associate posts.",
+    "u": "https://nituk.ac.in/uploads/topics/17891900012695.pdf"
+},
+  {
+    "id": "aiims-rishikesh-project-research-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh)",
+    "t": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh) Recruitment 2026 Notification Out for 3 Project Research Scientist II, Project Technical Support III, Project Technical Support I Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "1719_12",
+    "q": "MBBS / Medical PG | BDS / Dental",
+    "desc": "All India Institute of Medical Sciences Rishikesh (AIIMS Rishikesh) has officially announced employment advertisement notification 1719_12 inviting applications for 3 vacancies for Project Research Scientist II, Project Technical Support III, Project Technical Support I posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSca_AQ3oB4D20sVDZ7g8B5zk9lWyEwSVEHuLkdWCOovoetHhA/viewform"
+},
+  {
+    "id": "iit-roorkee-srf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "14 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ECE/2026/adv1109202611.pdf"
+},
+  {
+    "id": "amu-ap-recruitment-2026",
+    "b": "Aligarh Muslim University (AMU)",
+    "t": "Aligarh Muslim University (AMU) Recruitment 2026 Notification Out for 1 Assistant Professor (Contractual) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "02/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Aligarh Muslim University (AMU) has officially announced employment advertisement notification 02/2026 inviting applications for 1 vacancies for Assistant Professor (Contractual) posts.",
+    "u": "https://careers.amuonline.ac.in/"
+},
+  {
+    "id": "jalaun-up-anganwad-anganwadi-worker-recruitment-2026-3067458",
+    "b": "Jalaun UP Anganwadi",
+    "t": "Jalaun UP Anganwadi Recruitment 2026 Notification Out for 110 Anganwadi Worker and Helper Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "30 September 2026",
+    "a": "JALAUN-UP-ANGA/2026",
+    "q": "12th Pass",
+    "desc": "Jalaun UP Anganwadi has officially announced employment advertisement notification JALAUN-UP-ANGA/2026 inviting applications for 110 vacancies for Anganwadi Worker and Helper posts.",
+    "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788958383_41995cb1.pdf"
+},
+  {
+    "id": "nit-warangal-jrf-recruitment-2026",
+    "b": "National Institute of Technology Warangal",
+    "t": "National Institute of Technology Warangal Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "28 September 2026",
+    "a": "MME/ RAK-BSR/ SMST/ RS-26009/ JRF/",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "National Institute of Technology Warangal has officially announced employment advertisement notification MME/ RAK-BSR/ SMST/ RS-26009/ JRF/ inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdfqzF-CahgLEQvwbqNUhSY9mb9riDEt7Ur23klGZZqN1EEWQ/viewform?usp=send_form"
+},
+  {
+    "id": "iit-madras-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Madras",
+    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "17 September 2026",
+    "a": "ICSR/PR/Adv.",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Madras has officially announced employment advertisement notification ICSR/PR/Adv. inviting applications for 1 vacancies for Research Assistant posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/index.php"
+},
+  {
+    "id": "district-health-so-various-contractual-recruitment-2026",
+    "b": "District Health Society Pudukkottai",
+    "t": "District Health Society Pudukkottai Recruitment 2026 Notification Out for 54 Various Contractual Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "29 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "District Health Society Pudukkottai has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 54 vacancies for Various Contractual Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s342e7aaa88b48137a16a1acd04ed91125/uploads/2026/09/17891323693887.pdf"
+},
+  {
+    "id": "district-health-so-dental-surgeon-recruitment-2026",
+    "b": "District Health Society Thanjavur (DHS Thanjavur)",
+    "t": "District Health Society Thanjavur (DHS Thanjavur) Recruitment 2026 Notification Out for 18 Dental Surgeon, Health Inspector Grade II Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "30 September 2026",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "12th Pass | BDS / Dental",
+    "desc": "District Health Society Thanjavur (DHS Thanjavur) has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 18 vacancies for Dental Surgeon, Health Inspector Grade II posts.",
+    "u": "https://cdn.s3waas.gov.in/s3b7b16ecf8ca53723593894116071700c/uploads/2026/09/17890417588299.pdf"
+},
+  {
     "id": "nit-pa-recruitment-2026",
     "b": "National Institute of Technology Tiruchirappalli",
     "t": "National Institute of Technology Tiruchirappalli Recruitment 2026 Notification Out for 2 Project Associate & Project Assistant Posts | Apply Online",
