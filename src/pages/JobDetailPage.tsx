@@ -1651,6 +1651,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'karnataka-school-e-graduate-primary-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-2xl shadow-xl border-2 border-indigo-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Karnataka State Gazette 2026
+                    </span>
+                    <span className="bg-indigo-500/20 text-indigo-300 border border-indigo-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      15,000 Teacher Posts (GPT / PST / PET / CS)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Scale: ₹27,650 – ₹78,200
+                    </span>
+                    <span className="bg-rose-500/20 text-rose-300 border border-rose-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Deadline Extended: 25 Sept 2026
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Karnataka 15,000 School Teacher Recruitment 2026–27
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Notified under Karnataka Education Department Special Rules 2026 across 35+ educational districts. Covers Graduate Primary (6–8), Primary (1–5), Computer Science &amp; PET Grade-II cadres with 371(J) Kalyana Karnataka &amp; RPC quotas.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-indigo-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-indigo-400" /> Across 35+ Educational Districts in Karnataka</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-indigo-400" /> Extended Last Date: 25 September 2026 (11:59 PM)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://schooleducation.karnataka.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-indigo-600 hover:bg-indigo-500 text-white font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply on Official Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
                     {id === 'cgssb-chhattisgarh-teacher-recruitment-2026' && (
             <div className="bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 rounded-2xl shadow-xl border-2 border-orange-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
@@ -4339,6 +4384,54 @@ export default function JobDetailPage() {
                               <div>• <strong>MCC Restriction:</strong> Not applicable to <strong>Tiruppur &amp; Chengalpattu</strong> districts</div>
                               <div>• <strong>Submission:</strong> Directly to Executive Secretary, District Health Office</div>
                               <div>• <strong>Application Deadline:</strong> 25 September 2026 before 5:00 PM</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'karnataka-school-e-graduate-primary-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-indigo-600" /> Karnataka Education Department Special Rules 2026
+                          </h4>
+                          <span className="text-[10px] font-bold text-indigo-900 bg-indigo-100 px-2 py-0.5 rounded-md">Gazette No. 93 &amp; 94</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-indigo-50/80 border-2 border-indigo-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Cadre Classification</span>
+                              <span className="text-[10px] font-bold text-indigo-800">15,000 Posts Across 5 Cadres</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">State Teaching Cadre Structure</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Vacancies sanctioned across 35+ educational districts in Karnataka under 2026–27 recruitment rules:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-indigo-950 border border-indigo-200 space-y-1">
+                              <div>• <strong>GPT (6th–8th):</strong> 8,500 Posts (Degree + B.Ed + K-TET/CTET Paper-II)</div>
+                              <div>• <strong>PST (1st–5th):</strong> 3,500 Posts (PUC + D.El.Ed + K-TET/CTET Paper-I)</div>
+                              <div>• <strong>Computer Science:</strong> 1,200 Posts (B.Sc CS / BCA / B.Tech / B.E)</div>
+                              <div>• <strong>PET Grade-II:</strong> 1,000 Posts (PUC + D.P.Ed / B.P.Ed)</div>
+                              <div>• <strong>High School Grade-1:</strong> 800 Posts (Degree/PG + B.Ed in Subject)</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-blue-50/80 border-2 border-blue-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-blue-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Selection Weightage</span>
+                              <span className="text-[10px] font-bold text-blue-800">Composite Formula</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Aggregate Merit Calculation (50:20:20:10)</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Merit rankings are formulated through a transparent multi-component academic formula:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-blue-950 border border-blue-200 space-y-1">
+                              <div>• <strong>Competitive Exam:</strong> 50% Weightage (Paper-1 &amp; Paper-2)</div>
+                              <div>• <strong>Teacher Eligibility Test:</strong> 20% Weightage (K-TET / CTET)</div>
+                              <div>• <strong>Basic Degree / PUC:</strong> 20% Weightage (Academic Qualifying Marks)</div>
+                              <div>• <strong>Professional Training:</strong> 10% Weightage (B.Ed / D.El.Ed Marks)</div>
+                              <div>• <strong>Article 371(J):</strong> 80% Local Cadre (KK) &amp; 92% RPC (Statewide)</div>
                             </div>
                           </div>
                         </div>

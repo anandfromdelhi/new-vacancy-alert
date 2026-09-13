@@ -333,13 +333,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "karnataka-school-e-graduate-primary-recruitment-2026",
     "b": "Karnataka School Education Department (Department of Public Instruction)",
-    "t": "Karnataka School Education Department (Department of Public Instruction) Recruitment 2026 Notification Out for 15000 Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "25 September 2026",
-    "a": "KARNATAKA-SCHO/2026",
-    "q": "12th Pass | Diploma | B.Tech / B.E",
-    "desc": "Karnataka School Education Department (Department of Public Instruction) has officially announced employment advertisement notification KARNATAKA-SCHO/2026 inviting applications for 15000 vacancies for Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) posts.",
-    "u": "https://schooleducation.karnataka.gov.in/"
+    "t": "Karnataka School Education Department Recruitment 2026 Notification Out for 15,000 Teacher Posts (GPT, PST, PET, Computer Science) | Apply Online",
+    "d": "10 August 2026",
+    "l": "25 September 2026 (11:59 PM)",
+    "a": "Special Rules 2026 (Gazette No. 93 & 94) & District Gazettes dated 10-08-2026 to 12-08-2026",
+    "q": "PUC / D.El.Ed / Graduation + B.Ed + K-TET / CTET (Post-Specific)",
+    "desc": "Government of Karnataka, School Education Department (Department of Public Instruction) has officially notified 15,000 teaching posts across 35+ educational districts in Karnataka under the 'Karnataka Education Department Services (Department of Public Instruction) (Recruitment to Certain Teaching Posts) (Special) Rules, 2026' and 'Karnataka Education Department Services (Department of Public Instruction) (Recruitment) (Amendment) Rules, 2026'. These statutory rules and district-wise employment gazettes were officially published in the Karnataka State Gazette (ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪತ್ರ - erajyapatra.karnataka.gov.in) between 10 August 2026 and 12 August 2026 for the 2026–27 academic recruitment cycle.",
+    "u": "https://schooleducation.karnataka.gov.in"
 },
   {
     "id": "sainik-school-bijapur-pgt-tgt-recruitment-2026",
