@@ -7,7 +7,8 @@ import {
   createPairingToken,
   processTelegramWebhook,
   disconnectTelegram,
-  getBotUsername
+  getBotUsername,
+  getTelegramLink
 } from "./src/server/telegramService.js";
 
 export const app = express();
@@ -263,6 +264,34 @@ app.get("/api/telegram/status", (_req, res) => {
     botUsername: getBotUsername(),
     isConfigured: Boolean(process.env.TELEGRAM_BOT_TOKEN)
   });
+});
+
+// 5. Get authenticated user's Telegram connection status (Server-Verified)
+app.get("/api/telegram/user-status", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    return res.status(401).json({ success: false, error: "Authentication required" });
+  }
+
+  const idToken = authHeader.split("Bearer ")[1].trim();
+  const verifiedUser = await verifyFirebaseIdToken(idToken);
+
+  if (!verifiedUser || !verifiedUser.uid) {
+    return res.status(401).json({ success: false, error: "Invalid session." });
+  }
+
+  try {
+    const link = await getTelegramLink(verifiedUser.uid);
+    return res.status(200).json({
+      success: true,
+      userId: verifiedUser.uid,
+      isConnected: Boolean(link && link.isActive),
+      link: link || null
+    });
+  } catch (err: any) {
+    console.error("Error fetching telegram user-status:", err);
+    return res.status(500).json({ success: false, error: "Failed to fetch link status" });
+  }
 });
 
 export async function startServer() {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import * as ReactHelmetAsync from 'react-helmet-async';
 const { Helmet } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { Link } from 'react-router';
@@ -42,7 +42,42 @@ export default function ManageAlertsPage() {
   const [copiedLink, setCopiedLink] = useState<boolean>(false);
   const [timeLeftSeconds, setTimeLeftSeconds] = useState<number>(600);
 
-  // Real-time listener for Telegram connection status
+  // Server-verified Telegram status check with automatic modal sync
+  const checkTelegramStatus = useCallback(async () => {
+    if (!user) return;
+    try {
+      const idToken = await user.getIdToken();
+      const res = await fetch(`${API_BASE_URL}/api/telegram/user-status`, {
+        headers: {
+          'Authorization': `Bearer ${idToken}`
+        }
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.success) {
+          if (data.link && data.link.isActive) {
+            setTelegramLink(data.link);
+            if (isTelegramModalOpen) {
+              setIsTelegramModalOpen(false);
+              setStatusMessage({
+                type: 'success',
+                text: 'Telegram connected successfully! Your job alerts are now active on Telegram.'
+              });
+              setTimeout(() => setStatusMessage(null), 5000);
+            }
+          } else {
+            setTelegramLink(null);
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('Notice checking Telegram status from API:', err);
+    } finally {
+      setTelegramLoading(false);
+    }
+  }, [user, isTelegramModalOpen]);
+
+  // Real-time listener and window focus synchronization for Telegram connection status
   useEffect(() => {
     if (!user?.uid) {
       setTelegramLink(null);
@@ -51,33 +86,66 @@ export default function ManageAlertsPage() {
     }
 
     setTelegramLoading(true);
-    const unsub = onSnapshot(
-      doc(db, 'telegram_links', user.uid),
-      (snap) => {
-        if (snap.exists()) {
-          const data = snap.data() as TelegramLink;
-          setTelegramLink(data);
-          // If modal was open and user just paired, auto-close modal and notify!
-          if (data.isActive && isTelegramModalOpen) {
-            setIsTelegramModalOpen(false);
-            setStatusMessage({
-              type: 'success',
-              text: 'Telegram connected successfully! Your job alerts are now active on Telegram.'
-            });
-            setTimeout(() => setStatusMessage(null), 5000);
-          }
-        } else {
-          setTelegramLink(null);
-        }
-        setTelegramLoading(false);
-      },
-      () => {
-        setTelegramLoading(false);
-      }
-    );
+    // Initial check from server API
+    checkTelegramStatus();
 
-    return () => unsub();
-  }, [user?.uid, isTelegramModalOpen]);
+    // Real-time Firestore snapshot listener
+    let unsub = () => {};
+    try {
+      unsub = onSnapshot(
+        doc(db, 'telegram_links', user.uid),
+        (snap) => {
+          if (snap.exists()) {
+            const data = snap.data() as TelegramLink;
+            setTelegramLink(data);
+            if (data.isActive && isTelegramModalOpen) {
+              setIsTelegramModalOpen(false);
+              setStatusMessage({
+                type: 'success',
+                text: 'Telegram connected successfully! Your job alerts are now active on Telegram.'
+              });
+              setTimeout(() => setStatusMessage(null), 5000);
+            }
+          } else {
+            // Verify with API before concluding not connected
+            checkTelegramStatus();
+          }
+          setTelegramLoading(false);
+        },
+        () => {
+          // If Firestore direct read encounters permission or network issue, verify with API
+          checkTelegramStatus();
+        }
+      );
+    } catch {
+      checkTelegramStatus();
+    }
+
+    // Refresh immediately when returning to tab from Telegram app
+    const handleFocus = () => {
+      checkTelegramStatus();
+    };
+
+    window.addEventListener('focus', handleFocus);
+    document.addEventListener('visibilitychange', handleFocus);
+
+    return () => {
+      unsub();
+      window.removeEventListener('focus', handleFocus);
+      document.removeEventListener('visibilitychange', handleFocus);
+    };
+  }, [user?.uid, isTelegramModalOpen, checkTelegramStatus]);
+
+  // Fast polling (every 2.5s) while Telegram pairing modal is open
+  useEffect(() => {
+    if (!isTelegramModalOpen || !user) return;
+
+    const pollInterval = setInterval(() => {
+      checkTelegramStatus();
+    }, 2500);
+
+    return () => clearInterval(pollInterval);
+  }, [isTelegramModalOpen, user, checkTelegramStatus]);
 
   // Expiration countdown timer for Telegram pairing modal
   useEffect(() => {
@@ -376,6 +444,15 @@ export default function ManageAlertsPage() {
                         🔴 Telegram Not Connected
                       </span>
                     )}
+                    <button
+                      type="button"
+                      onClick={() => { setTelegramLoading(true); checkTelegramStatus(); }}
+                      disabled={telegramLoading}
+                      title="Refresh connection status"
+                      className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition inline-flex items-center justify-center cursor-pointer"
+                    >
+                      <RefreshCw className={`w-3.5 h-3.5 ${telegramLoading ? 'animate-spin' : ''}`} />
+                    </button>
                   </div>
 
                   <p className="text-xs text-slate-600 leading-relaxed max-w-xl">
@@ -765,6 +842,16 @@ export default function ManageAlertsPage() {
                   <span>Open Telegram</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+
+                <button
+                  type="button"
+                  onClick={() => { setTelegramLoading(true); checkTelegramStatus(); }}
+                  disabled={telegramLoading}
+                  className="w-full py-2.5 px-4 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 font-bold text-xs rounded-xl transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+                >
+                  <RefreshCw className={`w-3.5 h-3.5 ${telegramLoading ? 'animate-spin' : ''}`} />
+                  <span>{telegramLoading ? 'Verifying...' : "I've pressed Start in Telegram (Check Status)"}</span>
+                </button>
 
                 <button
                   type="button"

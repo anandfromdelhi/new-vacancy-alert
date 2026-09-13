@@ -25,15 +25,34 @@ export function initFirebaseAdmin(): boolean {
 
   try {
     let credential: Credential | null = null;
+    let targetProjectId = FIREBASE_PROJECT_ID;
 
     if (process.env.FIREBASE_SERVICE_ACCOUNT) {
       const raw = process.env.FIREBASE_SERVICE_ACCOUNT.trim();
+      let parsed: any = null;
       if (raw.startsWith('{')) {
-        const parsed = JSON.parse(raw);
-        credential = cert(parsed);
+        parsed = JSON.parse(raw);
       } else if (fs.existsSync(raw)) {
         const fileContent = fs.readFileSync(raw, 'utf-8');
-        credential = cert(JSON.parse(fileContent));
+        parsed = JSON.parse(fileContent);
+      } else {
+        // Attempt base64 decoding if pasted as base64 in environment variables
+        try {
+          const decoded = Buffer.from(raw, 'base64').toString('utf-8');
+          if (decoded.startsWith('{')) {
+            parsed = JSON.parse(decoded);
+          }
+        } catch {}
+      }
+
+      if (parsed) {
+        if (parsed.private_key && typeof parsed.private_key === 'string') {
+          parsed.private_key = parsed.private_key.replace(/\\n/g, '\n');
+        }
+        if (parsed.project_id) {
+          targetProjectId = parsed.project_id;
+        }
+        credential = cert(parsed);
       }
     } else if (process.env.FIREBASE_CLIENT_EMAIL && process.env.FIREBASE_PRIVATE_KEY) {
       credential = cert({
@@ -49,13 +68,13 @@ export function initFirebaseAdmin(): boolean {
       const existingApps = getApps();
       adminApp = existingApps.length > 0 ? existingApps[0] : initializeApp({
         credential,
-        projectId: FIREBASE_PROJECT_ID
+        projectId: targetProjectId
       });
       isFirebaseAdminInitialized = true;
       hasValidCredentials = true;
       adminFirestoreInstance = getFirestore(adminApp);
       adminAuthInstance = getAuth(adminApp);
-      console.log('✅ Firebase Admin SDK successfully initialized with service credentials.');
+      console.log(`✅ Firebase Admin SDK successfully initialized for project: ${targetProjectId}`);
       return true;
     } else {
       isFirebaseAdminInitialized = true;

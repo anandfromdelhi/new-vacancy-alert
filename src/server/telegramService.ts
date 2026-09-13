@@ -192,9 +192,12 @@ export async function saveTelegramLink(link: TelegramLink): Promise<void> {
   if (db) {
     try {
       await db.collection(TELEGRAM_LINKS_COLLECTION).doc(link.userId).set(link);
-    } catch {
-      // ignore
+      console.log(`[Firestore] Successfully saved telegram_links/${link.userId}`);
+    } catch (err: any) {
+      console.error('[Firestore] Failed to save telegram link to Firestore:', err.message);
     }
+  } else {
+    console.warn(`[Firestore] getAdminDb() is null - saving telegram_links/${link.userId} to local fallback store`);
   }
 
   const store = readDevStore();
@@ -215,13 +218,23 @@ export async function getTelegramLink(userId: string): Promise<TelegramLink | nu
       if (docSnap.exists) {
         return docSnap.data() as TelegramLink;
       }
-    } catch {
-      // ignore
+    } catch (err: any) {
+      console.error('[Firestore] Error reading telegram link from Firestore:', err.message);
     }
   }
 
   const store = readDevStore();
-  return store.links[userId] || null;
+  const fallbackLink = store.links[userId] || null;
+
+  // Auto-sync: If found in fallback store and Firestore is active, copy to Firestore
+  if (fallbackLink && db) {
+    try {
+      await db.collection(TELEGRAM_LINKS_COLLECTION).doc(userId).set(fallbackLink);
+      console.log(`[Firestore] Synced local store telegram link to Firestore for ${userId}`);
+    } catch {}
+  }
+
+  return fallbackLink;
 }
 
 /**
