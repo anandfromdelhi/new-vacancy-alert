@@ -1985,6 +1985,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'goa-ssc-group-c-deo-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-cyan-950 rounded-2xl shadow-xl border-2 border-cyan-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-cyan-500 to-blue-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Goa SSC Advt 3 of Year 2026
+                    </span>
+                    <span className="bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      222 Group &apos;C&apos; Posts (204 LDC + 13 Jr Asst + 3 DTP + 2 DEO)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      12th / Diploma + Computer Course
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: Up to 45 Years
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Goa Staff Selection Commission – 222 Group &apos;C&apos; Vacancies
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Notification No. <strong>1/164/2026-GSSC/883</strong>. Direct recruitment across 35 Goa Government departments. Two-Tier CBT examination (CBT-I screening with mandatory Konkani cutoff + CBT-II merit) and skill/typing test. Requires 15-year Goa residence certificate and valid Employment Exchange card. Apply online by <strong>02 October 2026 (23:59 Hrs)</strong>.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-cyan-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-cyan-400" /> Goa Statewide (35 State Departments)</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-cyan-400" /> Deadline: 02 October 2026 (23:59 Hrs)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://gssc.goa.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply Online Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4524,6 +4569,54 @@ export default function JobDetailPage() {
                               <div>• <strong>Long Jump:</strong> Up to 10 marks (Min 12&prime; Men / Min 9&prime; Women)</div>
                               <div>• <strong>Shot Put:</strong> 16 lbs min 16&prime; (Men) | 10 lbs min 10&prime; (Women)</div>
                               <div>• <strong>Hindi Test:</strong> 100 Marks (30 marks qualifying score)</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'goa-ssc-group-c-deo-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-cyan-600" /> Goa SSC Group &apos;C&apos; Examination &amp; Eligibility Framework
+                          </h4>
+                          <span className="text-[10px] font-bold text-cyan-900 bg-cyan-100 px-2 py-0.5 rounded-md">Advt No. 3 of 2026</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-sky-50/80 border-2 border-sky-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-sky-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Two-Tier CBT Scheme</span>
+                              <span className="text-[10px] font-bold text-sky-800">CBT-I &amp; CBT-II</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">CBT Pattern &amp; Konkani Cut-off Rule</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Mandatory screening and merit standards specified in GSSC guidelines:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-sky-950 border border-sky-200 space-y-1">
+                              <div>• <strong>CBT-I Screening:</strong> 60 Marks (75 Mins) – Objective MCQs, no negative marking.</div>
+                              <div>• <strong>Mandatory Konkani Rule:</strong> Q1 to Q10 are Konkani; minimum 4/10 marks required or candidate will NOT be evaluated further.</div>
+                              <div>• <strong>CBT-I Cut-offs:</strong> UR 45% (27 marks) | OBC 40% (24 marks) | SC/ST/PwD 35% (21 marks).</div>
+                              <div>• <strong>CBT-II Merit Test:</strong> 80 Marks (100 Mins) for candidates shortlisted from CBT-I.</div>
+                              <div>• <strong>Typing Test:</strong> Qualifying English typing (30 wpm for LDC/DEO; 40 wpm for DTP).</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-indigo-50/80 border-2 border-indigo-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-indigo-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Crucial Qualifications</span>
+                              <span className="text-[10px] font-bold text-indigo-800">Domicile &amp; Exemptions</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Eligibility &amp; Exemption Directives</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Mandatory state rules, domicile verification, and experience norms:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-indigo-950 border border-indigo-200 space-y-1">
+                              <div>• <strong>Education:</strong> HSSC / 12th or AICTE Diploma + 6-month Computer Diploma + 30 wpm Typing.</div>
+                              <div>• <strong>Computer Exemption:</strong> Degree/Diploma in CS/IT or ITI COPA holders exempted from computer diploma.</div>
+                              <div>• <strong>PwD Experience Exemption:</strong> PwD candidates 100% exempted from 1-yr experience vide Order No. 1/8/2023-PER/2792.</div>
+                              <div>• <strong>15-Year Domicile:</strong> Valid 15-year Goa Residence Certificate &amp; active Employment Exchange card mandatory.</div>
+                              <div>• <strong>Languages:</strong> Knowledge of Konkani is Essential; Marathi is Desirable.</div>
                             </div>
                           </div>
                         </div>

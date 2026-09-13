@@ -431,14 +431,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "goa-ssc-group-c-deo-recruitment-2026",
-    "b": "Goa SSC Group C",
-    "t": "Goa SSC Group C Recruitment 2026 Notification Out for 222 Data Entry Operator, Junior Assistant and More Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "02 October 2026",
-    "a": "3 of Year 2026 (No",
-    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
-    "desc": "Goa SSC Group C has officially announced employment advertisement notification 3 of Year 2026 (No inviting applications for 222 vacancies for Data Entry Operator, Junior Assistant and More posts.",
-    "u": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf"
+    "b": "Goa Staff Selection Commission (GSSC)",
+    "t": "Goa Staff Selection Commission (GSSC) Recruitment 2026 Notification Out for 222 Group 'C' Posts (LDC, Jr Assistant, DTP Operator, DEO) | Apply Online",
+    "d": "11 September 2026",
+    "l": "02 October 2026 (23:59 Hrs)",
+    "a": "Advertisement No. 3 of Year 2026 (No. 1/164/2026-GSSC/883 dated 11/09/2026)",
+    "q": "12th / HSSC / Diploma + 6 Months Computer Course + Typing (30/40 wpm) + Konkani Knowledge",
+    "desc": "Goa Staff Selection Commission (GSSC), Panaji, has officially announced employment Advertisement No. 3 of Year 2026 (Notification No. 1/164/2026-GSSC/883 dated 11 September 2026) inviting online applications from eligible candidates for direct recruitment to 222 Group 'C' vacancies across various departments of the Government of Goa. The advertised positions include 204 posts of Lower Division Clerk / Recovery Clerk across 35 state departments, 13 posts of Junior Assistant (General Administration Department and Lok Bhavan), 3 posts of Desktop Publishing Operator (Department of Printing & Stationery), and 2 posts of Data Entry Operator (Chief Electoral Officer and Directorate of Mines & Geology).",
+    "u": "https://gssc.goa.gov.in"
 },
   {
     "id": "bits-pilani-fi-recruitment-2026",
