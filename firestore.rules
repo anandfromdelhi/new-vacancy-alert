@@ -171,15 +171,27 @@ service cloud.firestore {
     }
 
     // =========================================================================
-    // 6. TELEGRAM ACCOUNT LINKS (Strictly Server-Controlled)
+    // 6. TELEGRAM ACCOUNT LINKS (Personalized Alert Delivery)
     // =========================================================================
     match /telegram_links/{userId} {
       // Users can read only their own connection record to check active status
       allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
       
-      // Clients CANNOT create, update, or forge telegram identities directly.
-      // All link creation and disconnection must go through the authenticated server endpoints.
-      allow write: if isAdmin();
+      // Allow authenticated candidates to disconnect / deactivate their own Telegram connection
+      allow update: if request.auth != null && (
+        isAdmin() ||
+        (
+          request.auth.uid == userId
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['isActive', 'updatedAt'])
+          && request.resource.data.isActive == false
+        )
+      );
+
+      // Allow candidates to delete their own Telegram link record when disconnecting
+      allow delete: if request.auth != null && (request.auth.uid == userId || isAdmin());
+
+      // Only verified server webhook / admin can create new paired connection records
+      allow create: if isAdmin();
     }
 
     // =========================================================================

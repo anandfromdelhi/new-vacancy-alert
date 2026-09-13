@@ -118,16 +118,16 @@ export default function JobAlertModal({ isOpen, onClose, job }: JobAlertModalPro
     }
   };
 
-  const handleSubscribe = async () => {
+  const handleSubscribe = async (bypassTelegramCheck: boolean = false) => {
     if (!user?.uid) {
       handleGoogleLogin();
       return;
     }
 
-    if (!isTelegramConnected) {
+    if (!bypassTelegramCheck && !isTelegramConnected) {
       setErrorMessage('Telegram must be connected before subscribing to alerts.');
       openTelegramModal(
-        () => handleSubscribe(),
+        () => handleSubscribe(true),
         'Connect Telegram to Subscribe',
         'Link in 3 simple steps to activate instant job alerts'
       );

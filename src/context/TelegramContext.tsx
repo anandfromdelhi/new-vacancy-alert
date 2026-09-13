@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
-import { doc, onSnapshot } from 'firebase/firestore';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef, ReactNode } from 'react';
+import { doc, onSnapshot, getDoc, updateDoc, deleteDoc } from 'firebase/firestore';
 import { db } from '../lib/firebase';
 import { useAuth } from './AuthContext';
 import { TelegramLink } from '../types/alertTypes';
@@ -35,54 +35,79 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
   const [pairingLoading, setPairingLoading] = useState<boolean>(false);
   const [disconnectLoading, setDisconnectLoading] = useState<boolean>(false);
   const [timeLeftSeconds, setTimeLeftSeconds] = useState<number>(600);
-  const [pendingAction, setPendingAction] = useState<(() => void) | null>(null);
+  const pendingActionRef = useRef<(() => void) | null>(null);
 
   const isTelegramConnected = Boolean(telegramLink && telegramLink.isActive);
 
-  // Server-verified Telegram status check with automatic modal sync
+  // Server & Firestore verified Telegram status check with automatic modal sync
   const checkTelegramStatus = useCallback(async (): Promise<TelegramLink | null> => {
-    if (!user) {
+    if (!user?.uid) {
       setTelegramLink(null);
       setTelegramLoading(false);
       return null;
     }
+    setTelegramLoading(true);
     try {
-      const idToken = await user.getIdToken();
-      const res = await fetch(`${API_BASE_URL}/api/telegram/user-status`, {
-        headers: {
-          'Authorization': `Bearer ${idToken}`
-        }
-      });
-      if (res.ok) {
-        const data = await res.json();
-        if (data.success) {
-          if (data.link && data.link.isActive) {
-            setTelegramLink(data.link);
-            if (isTelegramModalOpen) {
-              setIsTelegramModalOpen(false);
-            }
-            if (pendingAction) {
-              const actionToRun = pendingAction;
-              setPendingAction(null);
-              setTimeout(() => {
+      // 1. Direct Firestore check (fastest, most reliable)
+      const snap = await getDoc(doc(db, 'telegram_links', user.uid));
+      if (snap.exists()) {
+        const data = snap.data() as TelegramLink;
+        setTelegramLink(data);
+        if (data.isActive) {
+          setIsTelegramModalOpen(false);
+          if (pendingActionRef.current) {
+            const actionToRun = pendingActionRef.current;
+            pendingActionRef.current = null;
+            setTimeout(() => {
+              try {
                 actionToRun();
+              } catch (err) {
+                console.error('Error running pending action after Telegram connection:', err);
+              }
+            }, 150);
+          }
+          return data;
+        }
+      }
+
+      // 2. Fallback check to API if configured
+      if (API_BASE_URL) {
+        const idToken = await user.getIdToken();
+        const res = await fetch(`${API_BASE_URL}/api/telegram/user-status`, {
+          headers: {
+            'Authorization': `Bearer ${idToken}`
+          }
+        });
+        const contentType = res.headers.get('content-type') || '';
+        if (res.ok && contentType.includes('application/json')) {
+          const data = await res.json();
+          if (data.success && data.link && data.link.isActive) {
+            setTelegramLink(data.link);
+            setIsTelegramModalOpen(false);
+            if (pendingActionRef.current) {
+              const actionToRun = pendingActionRef.current;
+              pendingActionRef.current = null;
+              setTimeout(() => {
+                try {
+                  actionToRun();
+                } catch (err) {
+                  console.error('Error running pending action after Telegram connection:', err);
+                }
               }, 150);
             }
             return data.link;
-          } else {
-            setTelegramLink(null);
           }
         }
       }
     } catch (err) {
-      console.warn('Notice checking Telegram status from API:', err);
+      console.warn('Notice checking Telegram status:', err);
     } finally {
       setTelegramLoading(false);
     }
     return null;
-  }, [user, isTelegramModalOpen, pendingAction]);
+  }, [user]);
 
-  // Real-time listener and window focus synchronization
+  // Real-time listener: strictly decoupled from modal & pending action states to prevent loop
   useEffect(() => {
     if (!user?.uid) {
       setTelegramLink(null);
@@ -91,8 +116,6 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
     }
 
     setTelegramLoading(true);
-    // Initial check from server API
-    checkTelegramStatus();
 
     // Real-time Firestore snapshot listener
     let unsub = () => {};
@@ -104,32 +127,39 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
             const data = snap.data() as TelegramLink;
             setTelegramLink(data);
             if (data.isActive) {
-              if (isTelegramModalOpen) {
-                setIsTelegramModalOpen(false);
-              }
-              if (pendingAction) {
-                const actionToRun = pendingAction;
-                setPendingAction(null);
+              setIsTelegramModalOpen(false);
+              if (pendingActionRef.current) {
+                const actionToRun = pendingActionRef.current;
+                pendingActionRef.current = null;
                 setTimeout(() => {
-                  actionToRun();
+                  try {
+                    actionToRun();
+                  } catch (err) {
+                    console.error('Error running pending action after Telegram connection:', err);
+                  }
                 }, 150);
               }
             }
           } else {
-            checkTelegramStatus();
+            setTelegramLink(null);
           }
           setTelegramLoading(false);
         },
-        () => {
-          checkTelegramStatus();
+        (error) => {
+          console.warn('Firestore telegram link listener notice:', error.message);
+          setTelegramLoading(false);
         }
       );
     } catch {
-      checkTelegramStatus();
+      setTelegramLoading(false);
     }
 
-    // Refresh immediately when returning to tab from Telegram app
+    // Refresh when returning to tab from Telegram app (debounced to 2s to prevent multiple rapid triggers)
+    let lastFocusTime = 0;
     const handleFocus = () => {
+      const now = Date.now();
+      if (now - lastFocusTime < 2000) return;
+      lastFocusTime = now;
       checkTelegramStatus();
     };
 
@@ -145,9 +175,9 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
         document.removeEventListener('visibilitychange', handleFocus);
       }
     };
-  }, [user?.uid, isTelegramModalOpen, pendingAction, checkTelegramStatus]);
+  }, [user?.uid, checkTelegramStatus]);
 
-  // Fast polling (every 2.5s) while Telegram pairing modal is open
+  // Fast polling (every 2.5s) ONLY while Telegram pairing modal is open
   useEffect(() => {
     if (!isTelegramModalOpen || !user) return;
 
@@ -180,9 +210,9 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
     subtitle?: string
   ) => {
     if (onSuccessAction) {
-      setPendingAction(() => onSuccessAction);
+      pendingActionRef.current = onSuccessAction;
     } else {
-      setPendingAction(null);
+      pendingActionRef.current = null;
     }
 
     if (title) setModalTitle(title);
@@ -212,6 +242,11 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
         }
       });
 
+      const contentType = res.headers.get('content-type') || '';
+      if (!contentType.includes('application/json')) {
+        throw new Error('API server returned unexpected response format. Please verify connection.');
+      }
+
       const data = await res.json();
       if (data.success && data.deepLink) {
         setPairingData(data);
@@ -232,14 +267,35 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
 
   const closeTelegramModal = () => {
     setIsTelegramModalOpen(false);
-    setPendingAction(null);
+    pendingActionRef.current = null;
   };
 
-  // Disconnect Telegram via authenticated server endpoint
+  // Disconnect Telegram: updates Firestore directly via client SDK and notifies server
   const disconnectTelegram = async (): Promise<boolean> => {
-    if (!user) return false;
+    if (!user?.uid) return false;
 
     setDisconnectLoading(true);
+    let firestoreUpdated = false;
+
+    // 1. Direct client-side Firestore update (works instantly across all deployments)
+    try {
+      const linkDocRef = doc(db, 'telegram_links', user.uid);
+      await updateDoc(linkDocRef, {
+        isActive: false,
+        updatedAt: new Date().toISOString()
+      });
+      firestoreUpdated = true;
+    } catch (err: any) {
+      try {
+        const linkDocRef = doc(db, 'telegram_links', user.uid);
+        await deleteDoc(linkDocRef);
+        firestoreUpdated = true;
+      } catch (delErr: any) {
+        console.warn('Client-side direct Firestore disconnect notice:', delErr.message);
+      }
+    }
+
+    // 2. Also notify backend API (in case backend synchronization is active)
     try {
       const idToken = await user.getIdToken();
       const res = await fetch(`${API_BASE_URL}/api/telegram/disconnect`, {
@@ -249,19 +305,22 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
           'Content-Type': 'application/json'
         }
       });
-
-      const data = await res.json();
-      if (data.success) {
-        setTelegramLink((prev) => prev ? { ...prev, isActive: false } : null);
-        return true;
+      const contentType = res.headers.get('content-type') || '';
+      if (res.ok && contentType.includes('application/json')) {
+        const data = await res.json();
+        if (data.success) {
+          firestoreUpdated = true;
+        }
       }
-      return false;
-    } catch (err) {
-      console.error('Network error while disconnecting Telegram:', err);
-      return false;
+    } catch {
+      // Ignore network errors if backend is not deployed as a separate service
     } finally {
       setDisconnectLoading(false);
     }
+
+    // 3. Immediately set state to disconnected
+    setTelegramLink((prev) => (prev ? { ...prev, isActive: false } : null));
+    return firestoreUpdated;
   };
 
   return (
