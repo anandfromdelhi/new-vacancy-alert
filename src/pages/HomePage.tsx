@@ -353,7 +353,68 @@ export default function HomePage() {
       .filter(group => group.count > 0);
   }, [deferredSearch, allQualGroups]);
 
-  const displayedSections = currentSections;
+  const INITIAL_MOBILE_SECTIONS = 5;
+
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth < 768;
+    }
+    return false;
+  });
+
+  const [visibleSectionCount, setVisibleSectionCount] = useState(() => {
+    if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+      return 100;
+    }
+    return INITIAL_MOBILE_SECTIONS;
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      const mobile = window.innerWidth < 768;
+      setIsMobile(mobile);
+      if (!mobile) {
+        setVisibleSectionCount(100);
+      }
+    };
+    window.addEventListener('resize', handleResize, { passive: true });
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const renderedSections = useMemo(() => {
+    if (!isMobile || deferredSearch) {
+      return currentSections;
+    }
+    return currentSections.slice(0, visibleSectionCount);
+  }, [isMobile, deferredSearch, currentSections, visibleSectionCount]);
+
+  const loadMoreSentinelRef = useRef<HTMLDivElement>(null);
+
+  // Lazy loading on scroll down in mobile view
+  useEffect(() => {
+    if (!isMobile || deferredSearch) return;
+    if (visibleSectionCount >= currentSections.length) return;
+
+    const sentinel = loadMoreSentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setVisibleSectionCount((prev) => Math.min(prev + 4, currentSections.length));
+        }
+      },
+      {
+        root: null,
+        rootMargin: '500px 0px',
+        threshold: 0
+      }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [isMobile, deferredSearch, visibleSectionCount, currentSections.length]);
 
   const isManualScrollingRef = useRef(false);
   const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -372,20 +433,20 @@ export default function HomePage() {
       // 2. Suppress active section override while smooth scrolling from a button click
       if (isManualScrollingRef.current) return;
 
-      // 3. Detect active section
-      if (displayedSections.length === 0) return;
+      // 3. Detect active section among rendered sections
+      if (renderedSections.length === 0) return;
 
-      // If user has scrolled near bottom of page, activate the last section
+      // If user has scrolled near bottom of page, activate the last rendered section
       const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 70;
       if (isAtBottom) {
-        setActiveSectionSlug(displayedSections[displayedSections.length - 1].slug);
+        setActiveSectionSlug(renderedSections[renderedSections.length - 1].slug);
         return;
       }
 
       // Viewport-based detection: section whose top is closest to reading line (<= 140px)
-      let active = displayedSections[0].slug;
-      for (let i = 0; i < displayedSections.length; i++) {
-        const sec = displayedSections[i];
+      let active = renderedSections[0].slug;
+      for (let i = 0; i < renderedSections.length; i++) {
+        const sec = renderedSections[i];
         const el = document.getElementById(`section-${sec.slug}`);
         if (el) {
           const rect = el.getBoundingClientRect();
@@ -407,7 +468,7 @@ export default function HomePage() {
         clearTimeout(scrollTimeoutRef.current);
       }
     };
-  }, [displayedSections]);
+  }, [renderedSections]);
 
   // Keep the active pill centered in the bottom sticky bar
   useEffect(() => {
@@ -422,7 +483,7 @@ export default function HomePage() {
     }
   }, [activeSectionSlug]);
 
-  const scrollToSection = (slug: string) => {
+  const doScrollToElement = (slug: string) => {
     const element = document.getElementById(`section-${slug}`);
     if (!element) return;
 
@@ -447,6 +508,22 @@ export default function HomePage() {
     scrollTimeoutRef.current = setTimeout(() => {
       isManualScrollingRef.current = false;
     }, 850);
+  };
+
+  const scrollToSection = (slug: string) => {
+    // If the section is beyond currently rendered sections on mobile, expand immediately
+    const targetIndex = currentSections.findIndex((s) => s.slug === slug);
+    if (isMobile && !deferredSearch && targetIndex !== -1 && targetIndex >= visibleSectionCount) {
+      setVisibleSectionCount(Math.max(visibleSectionCount, targetIndex + 2));
+      // Give React a tick to mount the newly added DOM element before scrolling
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          doScrollToElement(slug);
+        }, 40);
+      });
+      return;
+    }
+    doScrollToElement(slug);
   };
 
   const handleSelectSection = (slug: string) => {
@@ -637,9 +714,9 @@ export default function HomePage() {
             </div>
           )}
 
-          {displayedSections.length > 0 ? (
+          {renderedSections.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 sm:gap-6">
-              {displayedSections.map((section) => (
+              {renderedSections.map((section) => (
                 <CategorySectionCard
                   key={section.slug}
                   section={section}
@@ -661,6 +738,22 @@ export default function HomePage() {
                 className="bg-blue-600 hover:bg-blue-700 text-white font-black text-xs px-5 py-2.5 rounded-xl cursor-pointer transition shadow-sm"
               >
                 Clear Search Filter
+              </button>
+            </div>
+          )}
+
+          {/* Lazy Loading Sentinel & Load More on Mobile */}
+          {isMobile && !deferredSearch && visibleSectionCount < currentSections.length && (
+            <div className="pt-6 pb-2 text-center">
+              {/* Invisible sentinel for scroll-based auto-expansion */}
+              <div ref={loadMoreSentinelRef} className="h-6 w-full pointer-events-none" />
+              <button
+                type="button"
+                onClick={() => setVisibleSectionCount((prev) => Math.min(prev + 5, currentSections.length))}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 text-xs font-black transition-all shadow-xs cursor-pointer active:scale-98"
+              >
+                <span>Load More Categories ({currentSections.length - visibleSectionCount} remaining)</span>
+                <ChevronRight className="w-4 h-4" />
               </button>
             </div>
           )}
@@ -829,7 +922,7 @@ export default function HomePage() {
               ref={bottomBarNavRef}
               className="flex items-center gap-1.5 overflow-x-auto no-scrollbar scroll-smooth flex-1 min-w-0 py-0.5"
             >
-              {displayedSections.map((sec) => {
+              {currentSections.map((sec) => {
                 const isActive = activeSectionSlug === sec.slug;
                 return (
                   <button
