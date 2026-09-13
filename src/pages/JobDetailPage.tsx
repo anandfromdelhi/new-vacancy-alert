@@ -11,12 +11,13 @@ import {
   TrendingUp, Users, BookOpen, Layers, Target, FileSignature, UploadCloud, 
   CreditCard, Send, Building2, Share2, Bookmark, Printer, Copy, ArrowUp, Check,
   Home, Facebook, Instagram, MessageCircle, Download, MessageSquare, Flame,
-  FileCheck, Stethoscope, GraduationCap
+  FileCheck, Stethoscope, GraduationCap, Bell
 } from 'lucide-react';
 import jobsIndexData from '../data/jobs-index-generated.json';
 import CommentsSection from '../components/CommentsSection';
 import NorcetPdfDownloadWidget from '../components/NorcetPdfDownloadWidget';
 import AdsterraBanner from '../components/AdsterraBanner';
+import JobAlertModal from '../components/JobAlertModal';
 import { useAuth } from '../context/AuthContext';
 import { getJobUploadDate } from '../utils/jobUploadDate';
 
@@ -69,6 +70,7 @@ export default function JobDetailPage() {
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
   const [pdfProgress, setPdfProgress] = useState(0);
+  const [isAlertModalOpen, setIsAlertModalOpen] = useState(false);
 
   // Smart Multi-Tier Job ID Resolution
   const rawId = (id || '').trim().toLowerCase().replace(/\/$/, '');
@@ -1141,6 +1143,16 @@ export default function JobDetailPage() {
                 <div className="flex justify-between items-center">
                   <span className="text-blue-200 print:text-slate-600 font-medium">Last Updated</span>
                   <span className="text-white print:text-black font-extrabold">{job.lastUpdated}</span>
+                </div>
+                <div className="pt-3 border-t border-white/10 print:hidden">
+                  <button
+                    type="button"
+                    onClick={() => setIsAlertModalOpen(true)}
+                    className="w-full py-2.5 px-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98"
+                  >
+                    <Bell className="h-4 w-4 fill-slate-950" />
+                    <span>Get Job Alerts for this Post</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -6910,7 +6922,31 @@ export default function JobDetailPage() {
           {/* Action Buttons Box */}
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 sticky top-20 space-y-4">
             
-            {/* Top of Sidebar - Download as PDF Banner */}
+            {/* Top of Sidebar - Personalized Job Alerts Card */}
+            <div className="bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-900 text-white rounded-2xl p-4 border border-blue-600/50 shadow-md space-y-2.5 relative overflow-hidden">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 bg-gradient-to-br from-amber-400 to-orange-500 text-slate-950 rounded-xl shadow-xs shrink-0">
+                  <Bell className="h-4.5 w-4.5 fill-slate-950" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-black uppercase tracking-widest text-amber-300">Direct Notifications</span>
+                  <h4 className="text-xs font-black text-white">Personalized Job Alerts</h4>
+                </div>
+              </div>
+              <p className="text-[11px] text-blue-100 font-medium leading-snug">
+                Never miss similar vacancies matching your exact qualification and state.
+              </p>
+              <button
+                type="button"
+                onClick={() => setIsAlertModalOpen(true)}
+                className="w-full py-2.5 px-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-xs rounded-xl transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer active:scale-98"
+              >
+                <Bell className="h-4 w-4 fill-slate-950" />
+                <span>Get Free Job Alerts</span>
+              </button>
+            </div>
+
+            {/* Download as PDF Banner */}
             <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 text-white rounded-2xl p-4 border border-indigo-700/60 shadow-md space-y-3 relative overflow-hidden group">
               <div className="flex items-center gap-3">
                 <div className="p-2.5 bg-indigo-600/90 text-white rounded-xl shadow-xs border border-indigo-400/30 shrink-0">
@@ -7313,6 +7349,16 @@ export default function JobDetailPage() {
             <span className="text-[9px] mt-0.5">Comments</span>
           </button>
 
+          {/* Alerts Button */}
+          <button
+            onClick={() => setIsAlertModalOpen(true)}
+            className="flex flex-col items-center justify-center py-0.5 px-1.5 rounded-lg cursor-pointer transition-colors text-amber-600 hover:text-amber-700 font-extrabold"
+            title="Job Alerts"
+          >
+            <Bell className="h-4 w-4 fill-amber-500 text-amber-600" />
+            <span className="text-[9px]">Alerts</span>
+          </button>
+
           {/* More Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -7593,6 +7639,13 @@ export default function JobDetailPage() {
           </div>
         </div>
       )}
+
+      {/* Personalized Job Alert Modal */}
+      <JobAlertModal
+        isOpen={isAlertModalOpen}
+        onClose={() => setIsAlertModalOpen(false)}
+        job={job}
+      />
     </div>
   );
 }

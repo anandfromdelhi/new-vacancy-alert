@@ -4,6 +4,13 @@ import path from "path";
 import { createServer as createViteServer } from "vite";
 import { generateRssXml } from "./src/utils/rssGenerator.js";
 import { getPageMetaData, injectMetaTags, escapeHtml } from "./src/utils/metaHelper.js";
+import { verifyFirebaseIdToken } from "./src/server/firebaseAdmin.js";
+import {
+  createPairingToken,
+  processTelegramWebhook,
+  disconnectTelegram,
+  getBotUsername
+} from "./src/server/telegramService.js";
 
 export const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -37,6 +44,36 @@ function rateLimiter(req: express.Request, res: express.Response, next: express.
 
 app.use(rateLimiter);
 
+// CORS Configuration: strictly allow only https://newvacancyalert.in (and localhost during development)
+const ALLOWED_ORIGINS = new Set([
+  "https://newvacancyalert.in",
+  "https://www.newvacancyalert.in",
+  ...(process.env.NODE_ENV !== "production" ? ["http://localhost:5173", "http://localhost:3000"] : [])
+]);
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+
+  if (origin && ALLOWED_ORIGINS.has(origin)) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    res.setHeader("Access-Control-Max-Age", "86400");
+  }
+
+  // Handle preflight OPTIONS requests
+  if (req.method === "OPTIONS") {
+    if (origin && ALLOWED_ORIGINS.has(origin)) {
+      return res.status(204).end();
+    }
+    return res.status(403).end();
+  }
+
+  next();
+});
+
+app.use(express.json());
+
 // Security: Block any requests for source maps (.map files)
 app.use((req, res, next) => {
   if (req.path.endsWith(".map")) {
@@ -55,7 +92,7 @@ app.use((req, res, next) => {
   res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
   res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=()");
   res.setHeader("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
-  res.setHeader("Cross-Origin-Resource-Policy", "same-origin");
+  res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
 
   const cspHeader = [
     "default-src 'self'",
@@ -63,7 +100,7 @@ app.use((req, res, next) => {
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com data:",
     "img-src 'self' data: blob: https: http:",
-    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://pagead2.googlesyndication.com https://mittengulped.com https://get.geojs.io https://*.geojs.io https://ipapi.co",
+    "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebase.com https://identitytoolkit.googleapis.com https://firestore.googleapis.com https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://pagead2.googlesyndication.com https://mittengulped.com https://get.geojs.io https://*.geojs.io https://ipapi.co https://api.newvacancyalert.in https://*.onrender.com",
     "frame-src 'self' https://*.firebaseapp.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://mittengulped.com",
     "object-src 'none'",
     "base-uri 'self'",
@@ -136,11 +173,100 @@ app.get("/api/geo", async (req, res) => {
   res.json({ region: null });
 });
 
+// Root health check endpoint (for Render Web Service & uptime monitoring)
+app.get("/", (_req, res) => {
+  return res.status(200).json({
+    status: "ok",
+    service: "newvacancyalert-api"
+  });
+});
+
 // RSS Feed endpoint
 app.get(["/rss.xml", "/feed.xml", "/rss", "/feed"], (_req, res) => {
   const rssXml = generateRssXml();
   res.setHeader("Content-Type", "application/rss+xml; charset=utf-8");
   res.status(200).send(rssXml);
+});
+
+// -----------------------------------------------------------------------------
+// TELEGRAM ACCOUNT PAIRING & WEBHOOK ENDPOINTS (PHASE 2)
+// -----------------------------------------------------------------------------
+
+// 1. Generate secure one-time pairing token for authenticated Firebase user
+app.post("/api/telegram/create-pairing-token", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    return res.status(401).json({ success: false, error: "Authentication required" });
+  }
+
+  const idToken = authHeader.split("Bearer ")[1].trim();
+  const verifiedUser = await verifyFirebaseIdToken(idToken);
+
+  if (!verifiedUser || !verifiedUser.uid) {
+    return res.status(401).json({ success: false, error: "Invalid or expired session. Please sign in again." });
+  }
+
+  try {
+    const pairingData = await createPairingToken(verifiedUser.uid);
+    return res.status(200).json({
+      success: true,
+      ...pairingData
+    });
+  } catch (err: any) {
+    console.error("Error generating pairing token:", err);
+    return res.status(500).json({ success: false, error: "Failed to generate pairing token" });
+  }
+});
+
+// 2. Telegram Webhook Endpoint
+app.post("/api/telegram/webhook", async (req, res) => {
+  // Validate secret token if configured
+  const secretHeader = req.headers["x-telegram-bot-api-secret-token"] as string;
+  const configuredSecret = process.env.TELEGRAM_WEBHOOK_SECRET;
+
+  if (configuredSecret && secretHeader !== configuredSecret) {
+    console.warn("⚠️ Unauthorized Telegram webhook attempt with invalid secret token.");
+    return res.status(403).send("Forbidden");
+  }
+
+  try {
+    const result = await processTelegramWebhook(req.body);
+    return res.status(200).json({ ok: true, ...result });
+  } catch (err) {
+    console.error("Error processing Telegram webhook:", err);
+    return res.status(200).json({ ok: false });
+  }
+});
+
+// 3. Disconnect Telegram Account (strictly server-controlled)
+app.post("/api/telegram/disconnect", async (req, res) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    return res.status(401).json({ success: false, error: "Authentication required" });
+  }
+
+  const idToken = authHeader.split("Bearer ")[1].trim();
+  const verifiedUser = await verifyFirebaseIdToken(idToken);
+
+  if (!verifiedUser || !verifiedUser.uid) {
+    return res.status(401).json({ success: false, error: "Invalid or expired session." });
+  }
+
+  try {
+    const result = await disconnectTelegram(verifiedUser.uid);
+    return res.status(200).json(result);
+  } catch (err: any) {
+    console.error("Error disconnecting Telegram:", err);
+    return res.status(500).json({ success: false, error: "Failed to disconnect Telegram" });
+  }
+});
+
+// 4. Telegram Config & Status Info
+app.get("/api/telegram/status", (_req, res) => {
+  return res.json({
+    botUsername: getBotUsername(),
+    isConfigured: Boolean(process.env.TELEGRAM_BOT_TOKEN)
+  });
 });
 
 export async function startServer() {

@@ -39,6 +39,7 @@ const SscCglSelectionDvPage = lazy(() => import('./pages/ssc-cgl/SscCglSelection
 const MarketingPartnerPage = lazy(() => import('./pages/marketing/MarketingPartnerPage'));
 const MarketingDashboardPage = lazy(() => import('./pages/marketing/MarketingDashboardPage'));
 const MarketingTermsPage = lazy(() => import('./pages/marketing/MarketingTermsPage'));
+const ManageAlertsPage = lazy(() => import('./pages/ManageAlertsPage'));
 const AdminPage = lazy(() => import('./pages/AdminPage'));
 const RssFeedPage = lazy(() => import('./pages/RssFeedPage'));
 const QualificationJobsPage = lazy(() => import('./pages/QualificationJobsPage'));
@@ -195,6 +196,9 @@ export default function App() {
                   <Route path="rrb-technician-cen-02-2026/post-parameters" element={<PostParameters />} />
                   <Route path="rrb-technician-cen-02-2026/zone-wise-vacancy" element={<ZoneWiseVacancy />} />
                   <Route path="rrb-technician-cen-02-2026/merged-post-categories" element={<MergedPostCategories />} />
+
+                  {/* Personalized Job Alert Subscriptions Management */}
+                  <Route path="manage-alerts" element={<ManageAlertsPage />} />
 
                   {/* Single Segment ID Route for Job Detail Pages */}
                   <Route path=":id" element={<JobDetailPage />} />

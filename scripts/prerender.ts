@@ -196,6 +196,7 @@ async function prerender() {
     '/marketing-partner',
     '/marketing-partner/dashboard',
     '/marketing-partner/terms',
+    '/manage-alerts',
     '/anand',
   ]);
 

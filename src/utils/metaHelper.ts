@@ -161,6 +161,11 @@ export function getPageMetaData(urlPath: string) {
     title = "Marketing Partner Program | NewVacancyAlert";
     description = "Partner with NewVacancyAlert to reach lakhs of government exam aspirants across India.";
   }
+  else if (cleanPath === "manage-alerts") {
+    title = "My Job Alerts & Subscriptions | NewVacancyAlert";
+    description = "Manage your active government job alert preferences. Choose specific qualifications and states to receive verified vacancy updates.";
+    ogUrl = "https://newvacancyalert.in/manage-alerts";
+  }
   else if (cleanPath.startsWith("rrb-technician-cen-02-2026/")) {
     const subSlug = cleanPath.replace("rrb-technician-cen-02-2026/", "");
     if (notificationSubPagesMeta[subSlug]) {

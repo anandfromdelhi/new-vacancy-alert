@@ -129,7 +129,58 @@ service cloud.firestore {
     }
 
     // =========================================================================
-    // 4. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
+    // 4. JOB ALERT SUBSCRIPTIONS (Personalized Alerts)
+    // =========================================================================
+    match /job_alert_subscriptions/{subscriptionId} {
+      // 4a. A user can read only their own subscriptions (or admin)
+      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+
+      // 4b. A user can create subscriptions only for themselves
+      allow create: if request.auth != null 
+                    && request.resource.data.userId == request.auth.uid;
+
+      // 4c. A user can modify or toggle only their own subscriptions
+      allow update: if request.auth != null 
+                    && (resource.data.userId == request.auth.uid || isAdmin())
+                    && request.resource.data.userId == resource.data.userId;
+
+      // 4d. A user can delete only their own subscriptions
+      allow delete: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+    }
+
+    // =========================================================================
+    // 5. NOTIFICATION LOGS (Telegram / Alert Delivery History)
+    // =========================================================================
+    match /notification_logs/{logId} {
+      // Users can only view their own notification delivery logs (or admin)
+      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+      
+      // Client cannot write notification logs directly; only backend dispatch / Admin SDK
+      allow write: if isAdmin();
+    }
+
+    // =========================================================================
+    // 6. TELEGRAM ACCOUNT LINKS (Strictly Server-Controlled)
+    // =========================================================================
+    match /telegram_links/{userId} {
+      // Users can read only their own connection record to check active status
+      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
+      
+      // Clients CANNOT create, update, or forge telegram identities directly.
+      // All link creation and disconnection must go through the authenticated server endpoints.
+      allow write: if isAdmin();
+    }
+
+    // =========================================================================
+    // 7. TELEGRAM PAIRING TOKENS (Strictly Private to Server)
+    // =========================================================================
+    match /telegram_pairing_tokens/{token} {
+      // Clients have zero direct access to connection tokens in Firestore.
+      allow read, write: if isAdmin();
+    }
+
+    // =========================================================================
+    // 8. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
     // =========================================================================
     match /{document=**} {
       allow read, write: if false;
