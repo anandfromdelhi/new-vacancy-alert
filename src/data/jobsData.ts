@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aps-bengdubi-vice-principal-recruitment-2026",
+    "b": "Army Public School, Bengdubi",
+    "t": "Army Public School, Bengdubi Recruitment 2026 Notification Out for 1 Vice Principal Posts | Apply Offline",
+    "d": "13 September 2026",
+    "l": "13 September 2026",
+    "a": "ARMY-PUBLIC-SC/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Army Public School, Bengdubi has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 1 vacancies for Vice Principal posts.",
+    "u": "https://apsbengdubi.org/uploads/2026/aug/APS_VP_Vacancy.pdf"
+},
+  {
     "id": "doon-university-yp-recruitment-2026",
     "b": "Doon University",
     "t": "Doon University Recruitment 2026 Notification Out for 1 Young Professional I (YP I) Posts | Walk-in Interview",
