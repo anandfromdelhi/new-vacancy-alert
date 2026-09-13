@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { generateRssXml } from "./src/utils/rssGenerator.js";
-import { verifyFirebaseIdToken } from "./src/server/firebaseAdmin.js";
+import { verifyFirebaseIdToken, isUserAdmin } from "./src/server/firebaseAdmin.js";
 import {
   createPairingToken,
   processTelegramWebhook,
@@ -10,6 +10,13 @@ import {
   getBotUsername,
   getTelegramLink
 } from "./src/server/telegramService.js";
+import { resolveJobById } from "./src/server/jobResolver.js";
+import {
+  dispatchJobAlert,
+  dispatchTestJobAlertToAdmin,
+  formatTelegramJobAlert
+} from "./src/server/jobAlertDispatcher.js";
+import { extractValidCombinations } from "./src/utils/alertOptionsExtractor.js";
 
 export const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -294,9 +301,134 @@ app.get("/api/telegram/user-status", async (req, res) => {
   }
 });
 
+// -----------------------------------------------------------------------------
+// PHASE 3: ADMIN JOB ALERT DISPATCHER ENDPOINTS
+// -----------------------------------------------------------------------------
+
+/**
+ * Reusable Admin Authentication Guard.
+ * Requires valid Firebase ID token and strictly checks email === 'anand.textme@gmail.com'.
+ */
+async function requireAdminAuth(
+  req: express.Request,
+  res: express.Response
+): Promise<{ uid: string; email: string } | null> {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+    res.status(401).json({ success: false, error: "Authentication required" });
+    return null;
+  }
+
+  const idToken = authHeader.split("Bearer ")[1].trim();
+  const verifiedUser = await verifyFirebaseIdToken(idToken);
+
+  if (!verifiedUser || !verifiedUser.uid) {
+    res.status(401).json({ success: false, error: "Invalid or expired session. Please sign in again." });
+    return null;
+  }
+
+  if (!isUserAdmin(verifiedUser.email)) {
+    res.status(403).json({ success: false, error: "Forbidden: Administrator privileges required." });
+    return null;
+  }
+
+  return { uid: verifiedUser.uid, email: verifiedUser.email! };
+}
+
+// 1. Preview Job Alert (Inspection only, zero messages sent, zero logs written)
+app.post("/api/admin/preview-job-alert", async (req, res) => {
+  const admin = await requireAdminAuth(req, res);
+  if (!admin) return;
+
+  const { jobId } = req.body;
+  if (!jobId || typeof jobId !== "string") {
+    return res.status(400).json({ success: false, error: "Missing or invalid 'jobId' in request body." });
+  }
+
+  const job = resolveJobById(jobId);
+  if (!job) {
+    return res.status(404).json({ success: false, error: `Job not found with canonical ID: ${jobId}` });
+  }
+
+  const validCombinations = extractValidCombinations(job);
+  const primaryCombo = validCombinations[0] || {
+    qualificationSlug: "any",
+    qualificationLabel: "All Candidates",
+    locationSlug: "all-india",
+    locationLabel: "All India"
+  };
+
+  const sampleMessage = formatTelegramJobAlert({
+    job,
+    qualificationLabel: primaryCombo.qualificationLabel,
+    locationLabel: primaryCombo.locationLabel
+  });
+
+  return res.status(200).json({
+    success: true,
+    jobId: job.id,
+    jobTitle: job.title,
+    board: job.board,
+    lastDate: job.lastDate,
+    canonicalUrl: job.canonicalUrl,
+    matches: validCombinations,
+    telegramMessage: sampleMessage
+  });
+});
+
+// 2. Safe Admin Test Mode (Sends ONLY to the admin's own connected Telegram account)
+app.post("/api/admin/test-job-alert", async (req, res) => {
+  const admin = await requireAdminAuth(req, res);
+  if (!admin) return;
+
+  const { jobId } = req.body;
+  if (!jobId || typeof jobId !== "string") {
+    return res.status(400).json({ success: false, error: "Missing or invalid 'jobId' in request body." });
+  }
+
+  try {
+    const testResult = await dispatchTestJobAlertToAdmin({
+      adminUserId: admin.uid,
+      adminEmail: admin.email,
+      jobId
+    });
+    return res.status(200).json(testResult);
+  } catch (err: any) {
+    console.error("[AdminTestAlert] Error:", err.message);
+    return res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+// 3. Manual Admin Dispatch Endpoint (Supports dryRun: true or real production delivery)
+app.post("/api/admin/dispatch-job-alert", async (req, res) => {
+  const admin = await requireAdminAuth(req, res);
+  if (!admin) return;
+
+  const { jobId, dryRun = false, limit } = req.body;
+  if (!jobId || typeof jobId !== "string") {
+    return res.status(400).json({ success: false, error: "Missing or invalid 'jobId' in request body." });
+  }
+
+  try {
+    const metrics = await dispatchJobAlert({
+      jobId,
+      dryRun: Boolean(dryRun),
+      limit: typeof limit === "number" ? limit : undefined
+    });
+    return res.status(200).json({
+      success: true,
+      ...metrics
+    });
+  } catch (err: any) {
+    console.error("[AdminDispatch] Error:", err.message);
+    return res.status(400).json({ success: false, error: err.message });
+  }
+});
+
 export async function startServer() {
+  const isCjs = typeof __filename !== "undefined" && __filename.endsWith(".cjs");
   const isDev = process.env.NODE_ENV === "development" || 
-                (process.env.NODE_ENV !== "production" && !__filename.endsWith(".cjs"));
+                (process.env.NODE_ENV !== "production" && !isCjs);
 
   if (isDev) {
     // Development mode with Vite middleware
@@ -364,8 +496,8 @@ export async function startServer() {
   });
 }
 
-// Only auto-start server if not running in Vercel serverless function environment
-if (!process.env.VERCEL) {
+// Only auto-start server if not running in Vercel serverless function or test environments
+if (!process.env.VERCEL && process.env.NODE_ENV !== "test") {
   startServer().catch(console.error);
 }
 

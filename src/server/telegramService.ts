@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { getAdminDb } from './firebaseAdmin';
-import { TelegramLink, TelegramPairingToken } from '../types/alertTypes';
+import { TelegramLink, TelegramPairingToken, TelegramSendResult } from '../types/alertTypes';
 
 export const TELEGRAM_LINKS_COLLECTION = 'telegram_links';
 export const PAIRING_TOKENS_COLLECTION = 'telegram_pairing_tokens';
@@ -42,13 +42,17 @@ export function getBotUsername(): string {
 
 /**
  * Sends a message to a Telegram chat using Telegram Bot API.
+ * Handles rate limits, block detection, and HTML parse failures without leaking secrets.
  */
-export async function sendTelegramMessage(chatId: string | number, text: string): Promise<boolean> {
+export async function sendTelegramMessage(
+  chatId: string | number,
+  text: string
+): Promise<TelegramSendResult> {
   const botToken = process.env.TELEGRAM_BOT_TOKEN;
 
   if (!botToken) {
-    console.warn(`[Telegram Mock] TELEGRAM_BOT_TOKEN is not set. Simulated sending to chat ${chatId}: "${text}"`);
-    return true;
+    console.warn(`[Telegram Mock] TELEGRAM_BOT_TOKEN is not set. Simulated sending to chat ${chatId}`);
+    return { success: true, messageId: 1 };
   }
 
   try {
@@ -59,20 +63,58 @@ export async function sendTelegramMessage(chatId: string | number, text: string)
       body: JSON.stringify({
         chat_id: chatId,
         text,
-        parse_mode: 'HTML'
+        parse_mode: 'HTML',
+        disable_web_page_preview: false
       })
     });
 
-    if (!response.ok) {
-      const errBody = await response.text();
-      console.error(`Failed to send Telegram message to ${chatId}:`, errBody);
-      return false;
+    const responseText = await response.text();
+    let data: any = null;
+    try {
+      data = JSON.parse(responseText);
+    } catch {
+      data = null;
     }
 
-    return true;
-  } catch (err) {
-    console.error(`Error in sendTelegramMessage to ${chatId}:`, err);
-    return false;
+    if (!response.ok) {
+      const safeErrorText = responseText.replace(new RegExp(botToken, 'g'), '[REDACTED_BOT_TOKEN]');
+      console.error(`[Telegram API Error] Status ${response.status} sending to ${chatId}:`, safeErrorText);
+
+      // Check if user blocked or deactivated bot
+      const description = (data?.description || '').toLowerCase();
+      const isBlockedOrDeactivated =
+        response.status === 403 ||
+        description.includes('blocked') ||
+        description.includes('deactivated') ||
+        description.includes('chat not found');
+
+      // Check for rate limiting
+      const isRateLimited = response.status === 429;
+      const retryAfterSeconds = data?.parameters?.retry_after || (isRateLimited ? 5 : undefined);
+
+      return {
+        success: false,
+        blockedOrDeactivated: isBlockedOrDeactivated,
+        rateLimited: isRateLimited,
+        retryAfterSeconds,
+        error: data?.description || `HTTP ${response.status} error`
+      };
+    }
+
+    return {
+      success: true,
+      messageId: data?.result?.message_id
+    };
+  } catch (err: any) {
+    const safeMsg = (err?.message || 'Unknown network error').replace(
+      new RegExp(botToken, 'g'),
+      '[REDACTED_BOT_TOKEN]'
+    );
+    console.error(`[Telegram Error] Network failure sending to ${chatId}:`, safeMsg);
+    return {
+      success: false,
+      error: safeMsg
+    };
   }
 }
 

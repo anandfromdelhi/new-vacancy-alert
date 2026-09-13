@@ -151,3 +151,14 @@ export async function verifyFirebaseIdToken(idToken: string): Promise<{ uid: str
 
   return null;
 }
+
+/**
+ * Checks whether the verified user email has administrator authority.
+ * Uses the canonical admin email 'anand.textme@gmail.com' consistent with firestore.rules.
+ */
+export function isUserAdmin(email?: string | null): boolean {
+  if (!email || typeof email !== 'string') {
+    return false;
+  }
+  return email.trim().toLowerCase() === 'anand.textme@gmail.com';
+}
