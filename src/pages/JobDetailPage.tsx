@@ -1940,6 +1940,51 @@ export default function JobDetailPage() {
             </div>
           )}
 
+          {id === 'jgrv-home-guard-recruitment-2026' && (
+            <div className="bg-gradient-to-r from-slate-900 via-stone-900 to-amber-950 rounded-2xl shadow-xl border-2 border-amber-500/40 p-5 sm:p-8 relative overflow-hidden mb-6 print:hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-950 font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-xs">
+                      Deoghar Home Guard Advt 01/2026
+                    </span>
+                    <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      772 Total Posts (635 Rural + 137 Urban)
+                    </span>
+                    <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      7th Pass (Rural) / 10th Pass (Urban)
+                    </span>
+                    <span className="bg-sky-500/20 text-sky-300 border border-sky-400/30 font-bold text-[10px] px-2.5 py-1 rounded-md">
+                      Age: 19–40 Years
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-2xl font-black text-white leading-tight">
+                    Jharkhand Griha Raksha Vahini, Deoghar – 772 Home Guards
+                  </h3>
+                  <p className="text-slate-300 font-medium text-xs sm:text-sm max-w-2xl leading-relaxed">
+                    Enrollment of 635 Rural Home Guards across 10 blocks and 137 Urban Home Guards in Deoghar &amp; Madhupur. 50% reservation for female candidates. Online application portal opens <strong>11 October 2026 to 26 October 2026 (5:00 PM)</strong>.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-2 pt-1 text-[11px] text-amber-200/90 font-semibold">
+                    <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-amber-400" /> Deoghar District, Jharkhand</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5 text-amber-400" /> Deadline: 26 October 2026 (5:00 PM)</span>
+                  </div>
+                </div>
+                <div className="shrink-0 w-full md:w-auto flex flex-col sm:flex-row gap-3">
+                  <a 
+                    href="https://recruitment.jharkhand.gov.in" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-5 py-3 rounded-xl shadow-lg transition-all text-xs sm:text-sm text-center flex items-center justify-center gap-2"
+                  >
+                    <Send className="h-4 w-4" /> Apply Online Portal
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Quick Highlights */}
           {activeHighlights.length > 0 && (
             <section 
@@ -4432,6 +4477,53 @@ export default function JobDetailPage() {
                               <div>• <strong>Basic Degree / PUC:</strong> 20% Weightage (Academic Qualifying Marks)</div>
                               <div>• <strong>Professional Training:</strong> 10% Weightage (B.Ed / D.El.Ed Marks)</div>
                               <div>• <strong>Article 371(J):</strong> 80% Local Cadre (KK) &amp; 92% RPC (Statewide)</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {id === 'jgrv-home-guard-recruitment-2026' && (
+                      <div className="mt-5 space-y-4">
+                        <div className="flex items-center justify-between border-b border-slate-200 pb-2">
+                          <h4 className="text-xs sm:text-sm font-black text-slate-800 uppercase tracking-wider flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-amber-600" /> JGRV Deoghar Physical &amp; Selection Criteria
+                          </h4>
+                          <span className="text-[10px] font-bold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md">Notification: 01/2026</span>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          <div className="bg-amber-50/80 border-2 border-amber-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-amber-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Physical Standards (PST)</span>
+                              <span className="text-[10px] font-bold text-amber-800">Height &amp; Chest</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">Mandatory Measurement Criteria</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Applicable uniformly to Rural and Urban Home Guard applicants:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-amber-950 border border-amber-200 space-y-1">
+                              <div>• <strong>Male Height:</strong> 162 cm (Gen/OBC/BC) | 157 cm (SC/ST)</div>
+                              <div>• <strong>Male Chest:</strong> 79 cm (Gen/OBC/BC) | 76 cm (SC/ST)</div>
+                              <div>• <strong>Female Height:</strong> 148 cm (All Categories)</div>
+                              <div>• <strong>Female Quota:</strong> 50% reservation (386 posts) + 5% for Widows</div>
+                            </div>
+                          </div>
+
+                          <div className="bg-emerald-50/80 border-2 border-emerald-200 rounded-xl p-3.5 shadow-xs">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="bg-emerald-600 text-white font-black text-[9px] uppercase px-2 py-0.5 rounded tracking-wider">Physical Efficiency (PET)</span>
+                              <span className="text-[10px] font-bold text-emerald-800">Up to 30 Marks</span>
+                            </div>
+                            <h5 className="font-black text-slate-900 text-xs sm:text-sm mb-1">PET Test Scoring Benchmarks</h5>
+                            <p className="text-[11px] text-slate-600 font-medium leading-relaxed mb-2">
+                              Competitive scores compiled across track and field events:
+                            </p>
+                            <div className="bg-white/80 rounded-lg p-2.5 text-[11px] font-bold text-emerald-950 border border-emerald-200 space-y-1">
+                              <div>• <strong>1-Mile Race:</strong> 20 marks (&le;5 min Men / &le;8 min Women)</div>
+                              <div>• <strong>High Jump:</strong> Up to 10 marks (Min 4&prime; Men / Min 3&prime; Women)</div>
+                              <div>• <strong>Long Jump:</strong> Up to 10 marks (Min 12&prime; Men / Min 9&prime; Women)</div>
+                              <div>• <strong>Shot Put:</strong> 16 lbs min 16&prime; (Men) | 10 lbs min 10&prime; (Women)</div>
+                              <div>• <strong>Hindi Test:</strong> 100 Marks (30 marks qualifying score)</div>
                             </div>
                           </div>
                         </div>

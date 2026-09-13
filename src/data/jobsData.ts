@@ -399,13 +399,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "jgrv-home-guard-recruitment-2026",
     "b": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar",
-    "t": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar Recruitment 2026 Notification Out for 772 Home Guard (Grih Rakshak) - Rural & Urban Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "26 October 2026 up to 5:00 PM",
+    "t": "Jharkhand Griha Raksha Vahini (JGRV) Deoghar Recruitment 2026 Notification Out for 772 Home Guard (Rural & Urban) Posts | Apply Online",
+    "d": "05 September 2026",
+    "l": "26 October 2026 (5:00 PM)",
     "a": "01/2026",
-    "q": "10th / 8th Pass",
-    "desc": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar has officially announced employment advertisement notification 01/2026 inviting applications for 772 vacancies for Home Guard (Grih Rakshak) - Rural & Urban posts.",
-    "u": "https://recruitment.jharkhand.gov.in/"
+    "q": "7th Pass (Rural Home Guard) | 10th/Matric Pass (Urban Home Guard)",
+    "desc": "Jharkhand Griha Raksha Vahini (JGRV), District Commandant Office, Deoghar, has officially released employment advertisement notification No. 01/2026 inviting online applications for 772 vacancies for the enrollment of Home Guards (Grih Rakshak - ग्रामीण एवं शहरी गृह रक्षक) across Deoghar district. This recruitment drive offers 635 vacancies for Rural Home Guards across 10 blocks and 137 vacancies for Urban Home Guards across Deoghar and Madhupur municipal areas.",
+    "u": "https://recruitment.jharkhand.gov.in"
 },
   {
     "id": "lpssrb-constable-level-recruitment-2026",
