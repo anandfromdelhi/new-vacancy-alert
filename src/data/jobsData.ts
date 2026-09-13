@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iiswc-srf-recruitment-2026",
+    "b": "ICAR-Indian Institute of Soil and Water Conservation (IISWC)",
+    "t": "ICAR-Indian Institute of Soil and Water Conservation (IISWC) Recruitment 2026 Notification Out for 2 Senior Research Fellow (SRF) and Young Professional-II (YP-II) Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "01/ICAR-IISWC (REWARD)/2026-27",
+    "q": "B.Sc | M.Sc",
+    "desc": "ICAR-Indian Institute of Soil and Water Conservation (IISWC) has officially announced employment advertisement notification 01/ICAR-IISWC (REWARD)/2026-27 inviting applications for 2 vacancies for Senior Research Fellow (SRF) and Young Professional-II (YP-II) posts.",
+    "u": "http://www.cswcrtiweb.org/Recruitment/INSTITUTE/2026/Sept/kpt_REWARD_SRF_YP_10_sept_2026.pdf"
+},
+  {
+    "id": "icar-central-rice-yp-recruitment-2026",
+    "b": "ICAR Central Rice Research Institute",
+    "t": "ICAR Central Rice Research Institute Recruitment 2026 Notification Out for 4 Young Professional I, Field Assistant Posts | Walk-in Interview",
+    "d": "13 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "ICAR-CENTRAL-R/2026",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "ICAR Central Rice Research Institute has officially announced employment advertisement notification ICAR-CENTRAL-R/2026 inviting applications for 4 vacancies for Young Professional I, Field Assistant posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-473.pdf"
+},
+  {
+    "id": "mecl-non-executive-accountant-technicia-recruitment-2026",
+    "b": "MECL Non Executive",
+    "t": "MECL Non Executive Recruitment 2026 Notification Out for 122 Accountant, Technician-Survey, Technician-Sampling, Technician-Laboratory, Assistant-Materials, Assistant-Accounts, Stenographer-English, Assistant-Hindi, Electrician, Machinist, Technician-Drilling, Mechanic, Mechanic-cum-Operator Drilling, Junior Driver, Assistant-IT, Assistant-HR Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "11 October 2026",
+    "a": "03/Rectt./2026",
+    "q": "12th Pass | ITI | Diploma",
+    "desc": "MECL Non Executive has officially announced employment advertisement notification 03/Rectt./2026 inviting applications for 122 vacancies for Accountant, Technician-Survey, Technician-Sampling, Technician-Laboratory, Assistant-Materials, Assistant-Accounts, Stenographer-English, Assistant-Hindi, Electrician, Machinist, Technician-Drilling, Mechanic, Mechanic-cum-Operator Drilling, Junior Driver, Assistant-IT, Assistant-HR posts.",
+    "u": "https://ibpsreg.ibps.in/mecljul26/"
+},
+  {
+    "id": "vamnicom-ap-recruitment-2026",
+    "b": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM)",
+    "t": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM) Recruitment 2026 Notification Out for 9 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "11 October 2026",
+    "a": "1/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM) has officially announced employment advertisement notification 1/2026 inviting applications for 9 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://www.vamnicom.info/"
+},
+  {
+    "id": "aiims-nagpur-project-technical-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur)",
+    "t": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) Recruitment 2026 Notification Out for 1 Project Technical Support I Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Technical Support I posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeHLy7GhYT0QLa7dygONTh2WHwcTsoIeW6sgAFtf6S5-XmL2w/viewform"
+},
+  {
+    "id": "mpesb-naib-tehsildar-recruitment-2026",
+    "b": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal",
+    "t": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal Recruitment 2026 Notification Out for 73 Naib Tehsildar Departmental Limited Competitive Examination 2026 Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "1 October 2026",
+    "a": "MADHYA-PRADESH/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 73 vacancies for Naib Tehsildar Departmental Limited Competitive Examination 2026 posts.",
+    "u": "https://esb.mp.gov.in/"
+},
+  {
+    "id": "aiims-bhopal-jrf-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "12 October 2026 (Walk-in)",
+    "a": "AIIMS/BPL/TM/2026/2725",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has officially announced employment advertisement notification AIIMS/BPL/TM/2026/2725 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeTq2H70ce2yUrGqxAsMl6C4iy9q-NeUxkNbP1sUNt-FX5HAw/viewform"
+},
+  {
+    "id": "iimb-ra-recruitment-2026",
+    "b": "Indian Institute of Management Bangalore (IIMB)",
+    "t": "Indian Institute of Management Bangalore (IIMB) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "23 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Bangalore (IIMB) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://fa-erno-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/309/apply/email"
+},
+  {
+    "id": "mahe-project-technical-recruitment-2026",
+    "b": "Manipal Academy of Higher Education (MAHE)",
+    "t": "Manipal Academy of Higher Education (MAHE) Recruitment 2026 Notification Out for 1 Project Technical Support III Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "21 September 2026",
+    "a": "MANIPAL-ACADEM/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Manipal Academy of Higher Education (MAHE) has officially announced employment advertisement notification MANIPAL-ACADEM/2026 inviting applications for 1 vacancies for Project Technical Support III posts.",
+    "u": "https://www.manipal.edu/content/dam/manipal/mu/documents/mahe/Careers/j2026/research/Research%20KMC%20Mpl%20-%20Sep%2011%202026.pdf"
+},
+  {
+    "id": "karnataka-school-e-graduate-primary-recruitment-2026",
+    "b": "Karnataka School Education Department (Department of Public Instruction)",
+    "t": "Karnataka School Education Department (Department of Public Instruction) Recruitment 2026 Notification Out for 15000 Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) Posts | Apply Online",
+    "d": "13 September 2026",
+    "l": "7 September 2026",
+    "a": "KARNATAKA-SCHO/2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "Karnataka School Education Department (Department of Public Instruction) has officially announced employment advertisement notification KARNATAKA-SCHO/2026 inviting applications for 15000 vacancies for Graduate Primary Teacher (GPT), Assistant Master (AM), Primary School Teacher (PST), Physical Education Teacher (PET), Computer Science Teacher (CST) posts.",
+    "u": "https://schooleducation.karnataka.gov.in/"
+},
+  {
     "id": "sainik-school-bijapur-pgt-tgt-recruitment-2026",
     "b": "Sainik School Bijapur (Joint venture of Ministry of Defence and Govt of Karnataka)",
     "t": "Sainik School Bijapur (Joint venture of Ministry of Defence and Govt of Karnataka) Recruitment 2026 Notification Out for 11 PGT, TGT, Nursing Assistant and More Posts | Apply Offline",
