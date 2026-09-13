@@ -1151,7 +1151,7 @@ export default function JobDetailPage() {
                     className="w-full py-2.5 px-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98"
                   >
                     <Bell className="h-4 w-4 fill-slate-950" />
-                    <span>Get Job Alerts for this Post</span>
+                    <span>Get Telegram alerts for jobs like this</span>
                   </button>
                 </div>
               </div>
@@ -6942,7 +6942,7 @@ export default function JobDetailPage() {
                 className="w-full py-2.5 px-3 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-black text-xs rounded-xl transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer active:scale-98"
               >
                 <Bell className="h-4 w-4 fill-slate-950" />
-                <span>Get Free Job Alerts</span>
+                <span>Get Telegram alerts for jobs like this</span>
               </button>
             </div>
 

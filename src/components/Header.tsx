@@ -11,8 +11,8 @@ export default function Header() {
   const isAlertsActive = location.pathname.startsWith('/manage-alerts');
 
   return (
-    <header className="bg-[#1e40af] text-white h-[56px] flex items-center border-b-[3px] border-[#16a34a] sticky top-0 z-50 shrink-0 shadow-md">
-      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto px-4 sm:px-8 2xl:px-12 flex items-center justify-between gap-2">
+    <header className="bg-[#1e40af] text-white min-h-[56px] py-1 sm:py-0 sm:h-[56px] flex items-center border-b-[3px] border-[#16a34a] sticky top-0 z-50 shrink-0 shadow-md">
+      <div className="w-full max-w-[1800px] 2xl:max-w-[2000px] mx-auto px-3 sm:px-8 2xl:px-12 flex items-center justify-between gap-2">
         {/* Left: Brand Logo & Full Title */}
         <Link to="/" className="flex items-center gap-2 shrink-0 group">
           <img 
@@ -25,22 +25,8 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* Right: Articles Nav Link & Google Auth Button */}
-        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-          {/* Job Alerts Link */}
-          <Link
-            to="/manage-alerts"
-            className={`flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-black uppercase tracking-wider transition-all duration-150 border shrink-0 ${
-              isAlertsActive
-                ? 'bg-amber-400 text-blue-950 border-amber-300 shadow-sm'
-                : 'bg-white/10 hover:bg-white/20 text-white border-white/20'
-            }`}
-            title="Manage My Job Alerts"
-          >
-            <Bell className="w-3.5 h-3.5 text-amber-300 fill-amber-300 shrink-0" />
-            <span className="text-[11px] sm:text-xs">Alerts</span>
-          </Link>
-
+        {/* Right: Articles Link & Auth + Alerts Stack (Vertical on Mobile, Horizontal on Desktop) */}
+        <div className="flex flex-col sm:flex-row items-end sm:items-center gap-1 sm:gap-2 shrink-0">
           {/* Articles Link (Desktop only) */}
           <Link
             to="/articles"
@@ -55,27 +41,41 @@ export default function Header() {
             <span className="text-[11px] sm:text-xs">Articles</span>
           </Link>
 
-          {/* Google Auth Button / User Profile */}
+          {/* Job Alerts Link (Top in mobile stack) */}
+          <Link
+            to="/manage-alerts"
+            className={`flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-0.5 sm:px-3 sm:py-1.5 rounded-md sm:rounded-lg text-[10px] sm:text-xs font-black uppercase tracking-wider transition-all duration-150 border shrink-0 w-full sm:w-auto ${
+              isAlertsActive
+                ? 'bg-amber-400 text-blue-950 border-amber-300 shadow-xs'
+                : 'bg-white/10 hover:bg-white/20 text-white border-white/20'
+            }`}
+            title="Manage My Job Alerts"
+          >
+            <Bell className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 fill-amber-300 shrink-0" />
+            <span className="text-[10px] sm:text-xs">Alerts</span>
+          </Link>
+
+          {/* Google Auth Button / User Profile (Bottom in mobile stack) */}
           {user ? (
-            <div className="relative">
+            <div className="relative w-full sm:w-auto">
               <button
                 onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1 rounded-lg bg-blue-900/80 hover:bg-blue-900 text-white border border-blue-400/40 cursor-pointer transition-all"
+                className="flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg bg-blue-900/80 hover:bg-blue-900 text-white border border-blue-400/40 cursor-pointer transition-all w-full sm:w-auto"
                 title={user.displayName || user.email || "Account"}
               >
                 {user.photoURL ? (
                   <img
                     src={user.photoURL}
                     alt={user.displayName || "User"}
-                    className="w-5 h-5 rounded-full object-cover shrink-0 ring-1 ring-amber-400"
+                    className="w-3.5 h-3.5 sm:w-5 sm:h-5 rounded-full object-cover shrink-0 ring-1 ring-amber-400"
                     referrerPolicy="no-referrer"
                   />
                 ) : (
-                  <div className="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-black flex items-center justify-center shrink-0">
+                  <div className="w-3.5 h-3.5 sm:w-5 sm:h-5 rounded-full bg-emerald-600 text-white text-[9px] sm:text-[10px] font-black flex items-center justify-center shrink-0">
                     {(user.displayName || user.email || 'U').charAt(0).toUpperCase()}
                   </div>
                 )}
-                <span className="text-[11px] font-bold max-w-[80px] sm:max-w-[120px] truncate hidden min-[400px]:inline">
+                <span className="text-[10px] sm:text-[11px] font-bold max-w-[75px] sm:max-w-[120px] truncate">
                   {user.displayName?.split(' ')[0] || 'User'}
                 </span>
               </button>
@@ -116,10 +116,10 @@ export default function Header() {
           ) : (
             <button
               onClick={() => openLoginModal()}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-black uppercase tracking-wider transition-all duration-150 bg-white hover:bg-slate-100 text-blue-950 border border-slate-200 shadow-sm cursor-pointer shrink-0"
+              className="flex items-center justify-center gap-1 sm:gap-1.5 px-2 py-0.5 sm:px-3 sm:py-1.5 rounded-md sm:rounded-lg text-[10px] sm:text-xs font-black uppercase tracking-wider transition-all duration-150 bg-white hover:bg-slate-100 text-blue-950 border border-slate-200 shadow-xs cursor-pointer shrink-0 w-full sm:w-auto"
               title="Sign in with Google"
             >
-              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24">
+              <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0" viewBox="0 0 24 24">
                 <path
                   fill="#4285F4"
                   d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
@@ -137,7 +137,7 @@ export default function Header() {
                   d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
                 />
               </svg>
-              <span className="text-[11px] sm:text-xs">Sign In</span>
+              <span className="text-[10px] sm:text-xs">Sign In</span>
             </button>
           )}
         </div>
