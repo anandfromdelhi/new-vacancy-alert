@@ -17,6 +17,10 @@ import {
   formatTelegramJobAlert
 } from "./src/server/jobAlertDispatcher.js";
 import { extractValidCombinations } from "./src/utils/alertOptionsExtractor.js";
+import {
+  runAutomaticJobAlertDispatch,
+  initializeJobAlertBaseline
+} from "./src/server/automaticJobAlertScheduler.js";
 
 export const app = express();
 const PORT = Number(process.env.PORT) || 3000;
@@ -422,6 +426,87 @@ app.post("/api/admin/dispatch-job-alert", async (req, res) => {
   } catch (err: any) {
     console.error("[AdminDispatch] Error:", err.message);
     return res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+// -----------------------------------------------------------------------------
+// PHASE 4: AUTOMATIC JOB ALERT DISPATCHER & BASELINE ENDPOINTS
+// -----------------------------------------------------------------------------
+
+/**
+ * Internal Endpoint: Triggered by GitHub Actions daily scheduler (8:00 AM IST)
+ * Authenticates strictly using ALERT_SCHEDULER_SECRET.
+ * Never prints secret to logs or returns private credentials.
+ */
+app.post("/api/internal/dispatch-new-job-alerts", async (req, res) => {
+  const configuredSecret = process.env.ALERT_SCHEDULER_SECRET;
+  if (!configuredSecret || configuredSecret.trim().length === 0) {
+    console.error("[InternalDispatch] ALERT_SCHEDULER_SECRET is not configured on server.");
+    return res.status(500).json({
+      success: false,
+      error: "Scheduler secret is not configured on the server."
+    });
+  }
+
+  // Support x-scheduler-secret or Authorization: Bearer <secret>
+  const headerSecret = (req.headers["x-scheduler-secret"] as string) || "";
+  const authHeader = req.headers.authorization || "";
+  const bearerSecret = authHeader.startsWith("Bearer ") ? authHeader.split("Bearer ")[1].trim() : "";
+  const providedSecret = headerSecret || bearerSecret;
+
+  if (!providedSecret || providedSecret !== configuredSecret) {
+    console.warn("[InternalDispatch] Unauthorized request: missing or invalid scheduler secret.");
+    return res.status(401).json({
+      success: false,
+      error: "Unauthorized: Invalid or missing scheduler secret."
+    });
+  }
+
+  try {
+    const { dryRun = false, forceRun = false, limitPerJob } = req.body || {};
+    const result = await runAutomaticJobAlertDispatch({
+      dryRun: Boolean(dryRun),
+      forceRun: Boolean(forceRun),
+      limitPerJob: typeof limitPerJob === "number" ? limitPerJob : undefined,
+      trigger: "github_actions"
+    });
+
+    return res.status(200).json(result);
+  } catch (err: any) {
+    console.error("[InternalDispatch] Error during automatic dispatch:", err.message);
+    return res.status(500).json({
+      success: false,
+      error: "Internal error during job alert dispatch: " + err.message
+    });
+  }
+});
+
+/**
+ * Admin Baseline Initialization Endpoint.
+ * Scans all existing canonical jobs and marks them as baselined so they are never blasted on first activation.
+ * Authenticates via ALERT_SCHEDULER_SECRET or Admin session.
+ * SENDS ZERO Telegram messages.
+ */
+app.post("/api/admin/initialize-job-alert-baseline", async (req, res) => {
+  const configuredSecret = process.env.ALERT_SCHEDULER_SECRET;
+  const headerSecret = (req.headers["x-scheduler-secret"] as string) || "";
+  const authHeader = req.headers.authorization || "";
+  const bearerSecret = authHeader.startsWith("Bearer ") ? authHeader.split("Bearer ")[1].trim() : "";
+  const providedSecret = headerSecret || bearerSecret;
+
+  const isSchedulerSecret = Boolean(configuredSecret && configuredSecret.trim().length > 0 && providedSecret === configuredSecret);
+
+  if (!isSchedulerSecret) {
+    const admin = await requireAdminAuth(req, res);
+    if (!admin) return;
+  }
+
+  try {
+    const result = await initializeJobAlertBaseline();
+    return res.status(200).json(result);
+  } catch (err: any) {
+    console.error("[AdminBaseline] Error:", err.message);
+    return res.status(500).json({ success: false, error: err.message });
   }
 });
 

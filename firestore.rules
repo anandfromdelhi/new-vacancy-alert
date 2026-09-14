@@ -203,7 +203,26 @@ service cloud.firestore {
     }
 
     // =========================================================================
-    // 8. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
+    // 8. PHASE 4: JOB ALERT BASELINE & SCHEDULER RUNS
+    // =========================================================================
+    match /job_alert_baseline/{jobId} {
+      // Read & write strictly restricted to Admin (server uses Admin SDK)
+      allow read, write: if isAdmin();
+    }
+
+    match /scheduler_runs/{runId} {
+      // Admin can inspect scheduler run telemetry; client write disabled
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /scheduler_state/{docId} {
+      // Admin can view scheduler state summary
+      allow read, write: if isAdmin();
+    }
+
+    // =========================================================================
+    // 9. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
     // =========================================================================
     match /{document=**} {
       allow read, write: if false;

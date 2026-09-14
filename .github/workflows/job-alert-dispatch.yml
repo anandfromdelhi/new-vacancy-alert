@@ -1,0 +1,86 @@
+name: Automatic 8 AM Job Alert Dispatch
+
+on:
+  schedule:
+    # 8:00 AM IST daily (IST is UTC + 5:30 -> 02:30 AM UTC)
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to execute'
+        required: true
+        default: 'dispatch'
+        type: choice
+        options:
+          - dispatch
+          - initialize_baseline
+      dry_run:
+        description: 'Dry run inspection mode (only for dispatch; true = calculate matches without sending Telegram messages)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  dispatch-job-alerts:
+    name: Job Alert Dispatch / Baseline
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Trigger Job Alert Action via Render API
+        env:
+          ALERT_SCHEDULER_SECRET: ${{ secrets.ALERT_SCHEDULER_SECRET }}
+          API_BASE_URL: ${{ secrets.RENDER_API_BASE_URL || 'https://api.newvacancyalert.in' }}
+          ACTION: ${{ inputs.action || 'dispatch' }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: |
+          set -euo pipefail
+
+          # Verify secret existence without revealing its value
+          if [ -z "${ALERT_SCHEDULER_SECRET:-}" ]; then
+            echo "::error::ALERT_SCHEDULER_SECRET is not configured in GitHub Repository Secrets!"
+            exit 1
+          fi
+
+          if [ "${ACTION}" = "initialize_baseline" ]; then
+            ENDPOINT="${API_BASE_URL}/api/admin/initialize-job-alert-baseline"
+            PAYLOAD="{}"
+            echo "========================================================"
+            echo "Action: INITIALIZE BASELINE (Zero Telegram Messages)"
+            echo "Target API: ${ENDPOINT}"
+            echo "========================================================"
+          else
+            ENDPOINT="${API_BASE_URL}/api/internal/dispatch-new-job-alerts"
+            PAYLOAD="{\"dryRun\": ${DRY_RUN}}"
+            echo "========================================================"
+            echo "Action: DISPATCH JOB ALERTS (Previous 24-Hour Window)"
+            echo "Target API: ${ENDPOINT}"
+            echo "Dry Run: ${DRY_RUN}"
+            echo "Execution Time (UTC): $(date -u)"
+            echo "========================================================"
+          fi
+
+          # Call Render API endpoint
+          # Secret is passed via header and never printed or echoed to logs
+          HTTP_RESPONSE=$(curl -s -S \
+            -w "\n%{http_code}" \
+            -X POST "${ENDPOINT}" \
+            -H "Content-Type: application/json" \
+            -H "x-scheduler-secret: ${ALERT_SCHEDULER_SECRET}" \
+            -d "${PAYLOAD}" \
+            --max-time 300)
+
+          HTTP_STATUS=$(echo "${HTTP_RESPONSE}" | tail -n1)
+          RESPONSE_BODY=$(echo "${HTTP_RESPONSE}" | sed '$d')
+
+          echo "Response HTTP Status: ${HTTP_STATUS}"
+          echo "Response Summary: ${RESPONSE_BODY}"
+
+          if [ "${HTTP_STATUS}" -ne 200 ]; then
+            echo "::error::Action '${ACTION}' failed with HTTP status ${HTTP_STATUS}"
+            exit 1
+          fi
+
+          echo "========================================================"
+          echo "Action '${ACTION}' completed successfully."
+          echo "========================================================"
