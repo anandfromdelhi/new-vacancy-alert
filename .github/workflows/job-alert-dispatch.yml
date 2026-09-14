@@ -30,7 +30,7 @@ jobs:
       - name: Trigger Job Alert Action via Render API
         env:
           ALERT_SCHEDULER_SECRET: ${{ secrets.ALERT_SCHEDULER_SECRET }}
-          API_BASE_URL: ${{ secrets.RENDER_API_BASE_URL || 'https://api.newvacancyalert.in' }}
+          API_BASE_URL: ${{ secrets.RENDER_API_BASE_URL || 'https://newvacancyalert-api.onrender.com' }}
           ACTION: ${{ inputs.action || 'dispatch' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: |
