@@ -19,6 +19,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      force_run:
+        description: 'Force run (bypasses baseline filter to process all jobs within the 24-hour window)'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   dispatch-job-alerts:
@@ -33,6 +38,7 @@ jobs:
           API_BASE_URL: ${{ secrets.RENDER_API_BASE_URL || 'https://newvacancyalert-api.onrender.com' }}
           ACTION: ${{ inputs.action || 'dispatch' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          FORCE_RUN: ${{ inputs.force_run || 'false' }}
         run: |
           set -euo pipefail
 
@@ -51,11 +57,12 @@ jobs:
             echo "========================================================"
           else
             ENDPOINT="${API_BASE_URL}/api/internal/dispatch-new-job-alerts"
-            PAYLOAD="{\"dryRun\": ${DRY_RUN}}"
+            PAYLOAD="{\"dryRun\": ${DRY_RUN}, \"forceRun\": ${FORCE_RUN}}"
             echo "========================================================"
             echo "Action: DISPATCH JOB ALERTS (Previous 24-Hour Window)"
             echo "Target API: ${ENDPOINT}"
             echo "Dry Run: ${DRY_RUN}"
+            echo "Force Run: ${FORCE_RUN}"
             echo "Execution Time (UTC): $(date -u)"
             echo "========================================================"
           fi
