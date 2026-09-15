@@ -3974,13 +3974,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026",
     "b": "Railway Recruitment Boards (RRBs), Ministry of Railways",
-    "t": "Railway Recruitment Boards (RRBs) CEN 05/2026 Paramedical Categories Recruitment 2026 Notification Out for 560 Posts | Apply Online",
+    "t": "Railway Recruitment Boards (RRBs) CEN 05/2026 Paramedical Categories Recruitment 2026 – Detailed Notification Out for 590 Posts | Apply Online",
     "d": "12 September 2026",
-    "l": "14 October 2026",
-    "a": "CEN No. 05/2026 (No. RRB/RNC/Advt./CEN/05/2026)",
-    "q": "Diploma / Degree / GNM / B.Sc Nursing / D.Pharm / B.Pharm / DMLT (As per Detailed CEN No. 05/2026)",
-    "desc": "The Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India, have officially released the Centralised Employment Notification (CEN) No. 05/2026 (Indicative Notice Ref No. RRB/RNC/Advt./CEN/05/2026 dated 12 September 2026) for the open-market recruitment to Various Posts of Paramedical Categories across Railway Recruitment Boards nationwide. An aggregate of 560 tentative vacancies has been notified under 7th CPC Pay Level 3 to Pay Level 7.",
-    "u": "https://www.rrbapply.gov.in"
+    "l": "14 October 2026 (23:59 hours)",
+    "a": "CEN No. 05/2026",
+    "q": "GNM / B.Sc Nursing / B.Pharm / D.Pharm / DMLT / B.Sc MLT / Radiography Diploma / BASLP / 10+2 Science",
+    "desc": "The Railway Recruitment Boards (RRBs), under the Ministry of Railways, Government of India, have officially released the Detailed Centralised Employment Notification (CEN No. 05/2026) for open-market recruitment to 590 vacancies across Various Categories of Para-Medical staff. These vacancies are distributed across 20 participating RRBs and indenting Zonal Railways/Production Units, categorized under Pay Level 3 to Pay Level 7 of the 7th Central Pay Commission (CPC) Pay Matrix with initial basic pay scales ranging from ₹21,700 up to ₹44,900 per month plus admissible Central Government allowances.",
+    "u": "https://rrb.indianrailways.gov.in"
 },
   {
     "id": "prasar-bharati-marketing-executive-sales-divi-recruitment-2026",
