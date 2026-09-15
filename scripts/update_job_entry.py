@@ -137,7 +137,7 @@ def update_job_entry(json_filepath):
             f.write(new_jobs_text)
         print(f"[SUCCESS] Added new summary entry for '{job_id}' in jobsData.ts")
 
-    # 3. Update src/data/jobUploadDates.json (ensure key exists)
+    # 3. Update src/data/jobUploadDates.json to the updated date so Telegram alerts and Latest Vacancies reflect the update
     upload_dates_file = "src/data/jobUploadDates.json"
     if os.path.exists(upload_dates_file):
         try:
@@ -145,10 +145,11 @@ def update_job_entry(json_filepath):
                 upload_dates = json.load(f)
         except Exception:
             upload_dates = {}
-        if job_id not in upload_dates:
-            upload_dates[job_id] = datetime.datetime.now().strftime("%Y-%m-%d")
-            with open(upload_dates_file, 'w', encoding='utf-8') as f:
-                json.dump(upload_dates, f, indent=2, ensure_ascii=False)
+        updated_date = job.get("lastUpdated") or datetime.datetime.now().strftime("%Y-%m-%d")
+        upload_dates[job_id] = updated_date
+        with open(upload_dates_file, 'w', encoding='utf-8') as f:
+            json.dump(upload_dates, f, indent=2, ensure_ascii=False)
+        print(f"[SUCCESS] Updated upload date for '{job_id}' to '{updated_date}' in jobUploadDates.json")
 
     print(f"\n[JOB UPDATED SUCCESSFULLY]")
     print(f"- Job ID: {job_id}")

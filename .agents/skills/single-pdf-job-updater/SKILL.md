@@ -36,29 +36,34 @@ Trigger this skill whenever:
    - **MANDATORY: NEVER USE NUMERIC DATES** like `DD.MM.YYYY` or `DD/MM/YYYY` (e.g. `06.10.2026` or `06/10/2026`). In Indian government notices, `06.10.2026` is 06 October, NOT 10 June. Numeric dates cause severe user confusion with US `MM/DD` format.
    - **ALWAYS spell out the English month name in full** across all fields (`importantDates`, `highlights`, `jobsData.ts` `l` & `d`, `overview`, and `faqs`): e.g. **`06 October 2026 (11:59 PM)`**, **`07 September 2026`**, **`31 August 2026`**.
 
-4. **Adaptive Representation of Unique Tables & Atypical Data**:
+4. **Automatic Upload Date Refresh for Telegram Alert Dispatch (`jobUploadDates.json`)**:
+   - Whenever an existing vacancy is updated or enriched from a detailed PDF / rulebook, its upload date in `src/data/jobUploadDates.json` MUST be updated to the new `lastUpdated` date (today's date in `YYYY-MM-DD` format).
+   - **CRITICAL RATIONALE**: The automated 8 AM Telegram alert dispatcher (`src/server/automaticJobAlertScheduler.ts`) scans canonical jobs and determines 24-hour window eligibility strictly based on `uploadDate` (sourced via `getJobUploadDate()` from `jobUploadDates.json`), NOT `lastUpdated`. Bumping the upload date to today guarantees that the newly updated detailed notification is treated as an active notification in the 24-hour window and dispatched to Telegram alert subscribers!
+   - `scripts/update_job_entry.py` automatically updates `upload_dates[job_id] = updated_date` upon executing.
+
+5. **Adaptive Representation of Unique Tables & Atypical Data**:
    - Specialized tables (e.g., Physical Measurement & Endurance Standards / PET / PST, Typing / Stenography speed benchmarks, Medical & Eye Vision criteria, Trade / Discipline / Branch seat matrices, Service Bonds & Training Stipend terms) must never be flattened into plain text paragraphs.
    - Convert them into structured data and render with tailored visual UI cards.
 
-5. **Lightweight & High-Performance Visual Elements**:
+6. **Lightweight & High-Performance Visual Elements**:
    - **Zero JS Bloat**: Never import external charting libraries or heavy UI dependencies. Use native Tailwind CSS utility classes (`grid`, `flex`, `divide-y`, `rounded-xl`, `border`, `bg-gradient-to-br`, `backdrop-blur-sm`).
    - **Responsive Card Decks & Metric Grids**: Replace wide, horizontally overflowing HTML tables with responsive card grids (`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5`) featuring metric callouts, pill badges, and clean key-value rows.
    - **Right Sidebar Strict Vertical Tiling Rule**: Any widgets placed inside the right sidebar (such as **Related & Trending Government Vacancies 2026**, author cards, social handles) MUST ALWAYS tile vertically in a single column (`flex flex-col space-y-2.5` or `grid grid-cols-1 gap-2.5`). **NEVER** use horizontal multi-column classes (`grid-cols-2`, `grid-cols-3`, `lg:grid-cols-3`) inside the sidebar.
    - **Visual Callouts & Badge Clusters**: Highlight critical clauses (bonds, physical cut-offs, typing metrics, certificate validity dates) using alert badges (`border-l-4`, badge chips `bg-emerald-50 text-emerald-700 border-emerald-200`, `bg-amber-50`, `bg-indigo-50`).
    - **No Horizontal Scroll**: Guarantees all tables, cards, and grids are 100% responsive (`w-full`, `max-w-full`, `break-words`, `overflow-hidden`).
 
-6. **Mandatory Post-wise & Category Seat Matrix Representation (`vacanciesDetails`)**:
+7. **Mandatory Post-wise & Category Seat Matrix Representation (`vacanciesDetails`)**:
    - MUST ALWAYS structure `vacanciesDetails` with explicit fields for every post:
      `{"postName": "...", "total": N, "ur": X, "obc": Y, "sc": Z, "st": W, "ews": V, "qualification": "...", "payScale": "..."}`
    - Alternatively for simple category quotas: `{"category": "UR", "count": N}`.
    - Ensure every single post, cadre, and reservation quota announced in the PDF is populated so the interactive seat matrix table renders completely on the page without missing rows.
 
-7. **Full SSG Pre-rendering & SEO Optimization**:
+8. **Full SSG Pre-rendering & SEO Optimization**:
    - Pre-renders full raw HTML markup into `dist/<job-id>/index.html` and `dist/<job-id>.html` so search engines index updated content immediately without client JavaScript.
    - Updates route-specific `<title>`, `<meta name="description">`, Open Graph, Twitter, and Schema.org JSON-LD tags (`JobPosting`, `FAQPage`, `BreadcrumbList`).
    - Synchronizes `__SSR_JOB_DATA__` for immediate client-side React 19 hydration.
 
-8. **Dynamic Sitemap & Robots Synchronization**:
+9. **Dynamic Sitemap & Robots Synchronization**:
    - Automatically synchronizes `public/sitemap.xml`, `dist/sitemap.xml`, and `robots.txt`.
 
 ---
@@ -202,7 +207,7 @@ python scripts/update_job_entry.py scratch/temp_job.json
 This automatically:
 1. Replaces the full `JobDetail` entry in `src/data/jobDetails.json`.
 2. Locates and updates the summary entry in `src/data/jobsData.ts` (title, closing date `l`, post date `d`, qualification `q`, description `desc`, and official link `u`).
-3. Updates `src/data/jobUploadDates.json`.
+3. Updates `src/data/jobUploadDates.json`: Sets the job's upload date to the updated date (`YYYY-MM-DD`) so the 24-hour Telegram alert dispatch and homepage vacancy feeds immediately recognize the update.
 
 ### Step 5: Verify Visual Elements & Sidebar Rules
 If the PDF contains specialized criteria (e.g. PET/PST standards, Typing speeds, Medical criteria, Discipline matrices, Service bonds):
