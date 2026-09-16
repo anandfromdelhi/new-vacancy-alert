@@ -12,6 +12,28 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "uksssc-pa-recruitment-2026",
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 101 Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "14 October 2026",
+    "a": "81/UOSSC/CHA/2026",
+    "q": "12th Pass",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 81/UOSSC/CHA/2026 inviting applications for 101 vacancies for Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 posts.",
+    "u": "https://ukssscrecruitment.in/"
+},
+  {
+    "id": "gbpuat-ap-recruitment-2026",
+    "b": "Govind Ballabh Pant University of Agriculture & Technology (GBPUAT), Pantnagar",
+    "t": "Govind Ballabh Pant University of Agriculture & Technology (GBPUAT), Pantnagar Recruitment 2026 Notification Out for 63 Assistant Professor (Academic Level-10) Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "16 October 2026 till 5:00 PM",
+    "a": "A-31/2026",
+    "q": "Eligibility for GBPUAT Assistant Professor posts differs by college. The...",
+    "desc": "Govind Ballabh Pant University of Agriculture & Technology (GBPUAT), Pantnagar has officially announced employment advertisement notification A-31/2026 inviting applications for 63 vacancies for Assistant Professor (Academic Level-10) posts.",
+    "u": "https://www.gbpuat.ac.in/employments/A-31-2026,%2014.09.2026,%2012.16%20PM.pdf"
+},
+  {
     "id": "iit-roorkee-jrfsrf-recruitment-2026",
     "b": "Indian Institute of Technology Roorkee",
     "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 JRF/SRF Posts | Apply Online",
