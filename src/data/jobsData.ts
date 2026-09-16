@@ -254,17 +254,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
 },
   {
-    "id": "directorate-of-med-mo-recruitment-2026",
-    "b": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan",
-    "t": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan Recruitment 2026 Notification Out for 600 Medical Officer (Medical) Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "13 October 2026",
-    "a": "F-03(7)DOP/A-II/97",
-    "q": "MBBS / Medical PG",
-    "desc": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan has officially announced employment advertisement notification F-03(7)DOP/A-II/97 inviting applications for 600 vacancies for Medical Officer (Medical) posts.",
-    "u": "https://ruhsmomedical.com/"
-},
-  {
     "id": "gadvasu-steno-typist-recruitment-2026",
     "b": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana",
     "t": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana Recruitment 2026 Notification Out for 45 Steno Typist, Clerk, Storekeeper Posts | Apply Online",
@@ -9429,13 +9418,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "ruhs-medical-officer-recruitment-2026",
-    "b": "Rajasthan University of Health Sciences (RUHS), Jaipur / Medical & Health Services Dept, Govt of Rajasthan",
-    "t": "RUHS Medical Officer Recruitment 2026: Apply Online for 600 Posts | Medical Officer Direct Recruitment Examination 2026",
-    "d": "13 August 2026",
+    "b": "Rajasthan University of Health Sciences (RUHS), Jaipur / Directorate of Medical Health & Family Welfare, Govt. of Rajasthan",
+    "t": "RUHS Medical Officer Recruitment 2026 Notification Out for 600 Posts | MODRE-2026 Exam Date, Eligibility & Apply Online",
+    "d": "14 September 2026",
     "l": "13 October 2026",
-    "a": "F-11()/Entrance & Recruitment Cell/RUHS/2026/1173",
-    "q": "MBBS Degree + Registration with Rajasthan Medical Council (RMC)",
-    "desc": "Rajasthan University of Health Sciences (RUHS), Jaipur has released notification No. F-11()/Entrance & Recruitment Cell/RUHS/2026/1173 dated 13.08.2026 for Medical Officer Direct Recruitment Examination 2026 to fill 600 Posts of Medical Officer (Medical) under the Rajasthan Medical Services Rules-1963 for the Medical, Health & Family Welfare Department, Government of Rajasthan.",
+    "a": "MODRE-2026 (Arthana No. 1669 dt 11.08.2026 & 1675 dt 13.08.2026)",
+    "q": "MBBS Degree + Permanent Registration with Rajasthan Medical Council (RMC)",
+    "desc": "Rajasthan University of Health Sciences (RUHS), Jaipur in compliance with order No. 1669 dated 11.08.2026 and No. 1675 dated 13.08.2026 of the Directorate of Medical Health & Family Welfare, Government of Rajasthan, has officially released the detailed Information Booklet for the Medical Officer Direct Recruitment Examination 2026 (MODRE-2026) for filling 600 Posts of Medical Officer (Medical).",
     "u": "https://www.ruhsraj.org"
 },
   {
