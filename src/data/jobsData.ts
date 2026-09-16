@@ -377,13 +377,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "kbcnmu-ap-recruitment-2026",
     "b": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon",
-    "t": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon Recruitment 2026 Notification Out for 138 Temporary Assistant Professor (Contract) Posts | Apply Online",
-    "d": "16 September 2026",
+    "t": "KBCNMU Jalgaon Recruitment 2026: Apply Online for 138 Assistant Professor (Contract) Posts",
+    "d": "11 September 2026",
     "l": "28 September 2026",
     "a": "ADVT. No. 04/2026",
-    "q": "Eligibility for the post of Assistant Professor is governed by U.G.C., S...",
-    "desc": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon has officially announced employment advertisement notification ADVT. No. 04/2026 inviting applications for 138 vacancies for Temporary Assistant Professor (Contract) posts.",
-    "u": "https://https//apps.nmu.ac.in/recruitment/"
+    "q": "Master's Degree (55% marks) + NET / SET (Maharashtra) / Ph.D. or B.E./B.Tech/M.E./M.Tech/MCA/MBA (as per UGC/AICTE/NCTE norms)",
+    "desc": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon has issued an official recruitment advertisement (Advt. No. 04/2026, Ref No. KBCNMU/3/Advt.No.04/2026/2401/2026) inviting online applications from eligible candidates for 138 Contractual Temporary Assistant Professor posts for the Academic Year 2026-27.",
+    "u": "https://apps.nmu.ac.in/recruitment/"
 },
   {
     "id": "nit-calicut-team-lead-recruitment-2026",
