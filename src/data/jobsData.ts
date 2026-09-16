@@ -14,12 +14,12 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "uksssc-pa-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
-    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 101 Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 Posts | Apply Online",
-    "d": "16 September 2026",
+    "t": "UKSSSC Personal Assistant & Stenographer Recruitment 2026: Apply Online for 101 Group C Posts",
+    "d": "08 September 2026",
     "l": "14 October 2026",
-    "a": "81/UOSSC/CHA/2026",
-    "q": "12th Pass",
-    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 81/UOSSC/CHA/2026 inviting applications for 101 vacancies for Personal Assistant, Stenographer, Stenographer Grade-3, Stenographer Grade-2/Stenographer Grade-2 posts.",
+    "a": "81/UKSSSC/2026 (81/उ०अ०से०च०आ०/2026)",
+    "q": "12th Pass / Graduate with Hindi Shorthand (80 WPM) & Computer Typing (4000 KDPH)",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC / उत्तराखण्ड अधीनस्थ सेवा चयन आयोग) has released an official detailed notification (Advertisement No. 81/UKSSSC/2026, dated 08 September 2026) for direct recruitment to 101 Group 'C' (समूह 'ग') vacancies.",
     "u": "https://ukssscrecruitment.in/"
 },
   {
