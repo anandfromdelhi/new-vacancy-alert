@@ -206,6 +206,12 @@ app.get(["/delhi-hc-delhi-pa-recruitment-2026", "/delhi-hc-delhi-pa-recruitment-
   res.redirect(301, "/delhi-high-court-senior-personal-as-senior-personal-assistant-spa-perso-recruitment-2026");
 });
 
+// Canonical 301 redirect for merged UPSSSC Veterinary Pharmacist vacancy
+app.get(["/upsssc-vet-pharmacist-recruitment-2026", "/upsssc-vet-pharmacist-recruitment-2026/"], (_req, res) => {
+  res.redirect(301, "/upsssc-veterinary-pharmacist-recruitment-2026");
+});
+
+
 
 
 // -----------------------------------------------------------------------------

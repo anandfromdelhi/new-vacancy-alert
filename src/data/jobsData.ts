@@ -67,17 +67,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://iitr.ac.in/Careers/static/Project_Jobs/DoSW/2026/adv150920265.pdf"
 },
   {
-    "id": "upsssc-vet-pharmacist-recruitment-2026",
-    "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow",
-    "t": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow Recruitment 2026 Notification Out for 1686 Veterinary Pharmacist Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "05 October 2026",
-    "a": "18-Pariksha/2026",
-    "q": "Only candidates who appeared in Preliminary Eligibility Test (PET) 2025 ...",
-    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has officially announced employment advertisement notification 18-Pariksha/2026 inviting applications for 1686 vacancies for Veterinary Pharmacist posts.",
-    "u": "https://upsssc.gov.in/AllNotifications.aspx"
-},
-  {
     "id": "iit-kanpur-project-scientist-recruitment-2026",
     "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
     "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 3 Project Scientist / Project Engineer Posts | Apply Online",
@@ -9378,10 +9367,10 @@ export const JOBS_DATA: JobEntry[] = [
     "t": "UPSSSC Veterinary Pharmacist Recruitment 2026: Apply Online for 1,308 Posts | Advt No: 18-Exam/2026",
     "d": "14 August 2026",
     "l": "05 October 2026",
-    "a": "Advt No. 18-Exam/2026 (PET-2025/18)",
-    "q": "12th (Science/Biology) + 2-Yr 3-Mo Diploma in Veterinary Pharmacy",
-    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has issued advertisement Advt No. 18-Exam/2026 for Veterinary Pharmacist Main Examination (PET-2025)/18 to fill 1,308 vacancies of Veterinary Pharmacist under the Directorate of Animal Husbandry, Government of Uttar Pradesh.",
-    "u": "http://upsssc.gov.in"
+    "a": "Advt No. 18-Exam/2026 (18-परीक्षा/2026)",
+    "q": "12th (Biology) + 2-Yr 3-Mo Diploma in Veterinary Pharmacy + UPSSSC PET-2025 Scorecard",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has officially commenced online applications for Advertisement No. 18-Exam/2026 (18-परीक्षा/2026) for the Veterinary Pharmacist Main Examination (PET-2025)/18.",
+    "u": "https://upsssc.gov.in"
 },
   {
     "id": "ruhs-medical-officer-recruitment-2026",
