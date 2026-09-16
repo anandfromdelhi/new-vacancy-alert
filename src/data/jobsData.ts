@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sail-advisor-consultant-recruitment-2026",
+    "b": "Steel Authority of India Limited (SAIL) - IISCO Steel Plant (ISP)",
+    "t": "Steel Authority of India Limited (SAIL) - IISCO Steel Plant (ISP) Recruitment 2026 Notification Out for 14 Advisor / Consultant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "Within 15 days from advertisement date",
+    "a": "SAIL/ISP/HR/OD/CO/2026/1230",
+    "q": "Candidates must possess relevant educational qualifications and experien...",
+    "desc": "Steel Authority of India Limited (SAIL) - IISCO Steel Plant (ISP) has officially announced employment advertisement notification SAIL/ISP/HR/OD/CO/2026/1230 inviting applications for 14 vacancies for Advisor / Consultant posts.",
+    "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/IISCO_News%20&%20Jobs_16092026_095643.pdf"
+},
+  {
+    "id": "kvs-part-time-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya",
+    "t": "PM SHRI Kendriya Vidyalaya Recruitment 2026 Notification Out for 1 Part Time Contractual Teachers Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "10th / 8th Pass | Diploma | B.Tech / B.E",
+    "desc": "PM SHRI Kendriya Vidyalaya has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for Part Time Contractual Teachers posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv02bdab35b082c4d0d8c4b7813dc999/uploads/2026/09/2026091115.pdf"
+},
+  {
+    "id": "uksssc-scaler-recruitment-2026",
+    "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
+    "t": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) Recruitment 2026 Notification Out for 216 Scaler Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "22 October 2026",
+    "a": "82/2026 (post code 548/623/82/2026)",
+    "q": "12th Pass | Law (LL.B / LL.M)",
+    "desc": "Uttarakhand Subordinate Service Selection Commission (UKSSSC) has officially announced employment advertisement notification 82/2026 (post code 548/623/82/2026) inviting applications for 216 vacancies for Scaler posts.",
+    "u": "https://sssc.uk.gov.in/"
+},
+  {
+    "id": "upessc-pravakta-pgtlecturer-recruitment-2026",
+    "b": "Uttar Pradesh Shiksha Seva Chayan Ayog (UPESSC), Prayagraj",
+    "t": "Uttar Pradesh Shiksha Seva Chayan Ayog (UPESSC), Prayagraj Recruitment 2026 Notification Out for 2607 Pravakta (PGT/Lecturer) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "17 October 2026",
+    "a": "06/2026",
+    "q": "B.Ed / Teacher | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Uttar Pradesh Shiksha Seva Chayan Ayog (UPESSC), Prayagraj has officially announced employment advertisement notification 06/2026 inviting applications for 2607 vacancies for Pravakta (PGT/Lecturer) posts.",
+    "u": "https://www.upessc.up.gov.in"
+},
+  {
+    "id": "iit-kanpur-project-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Project Engineer Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "P.Rect./R&D/2026/187",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Kanpur has officially announced employment advertisement notification P.Rect./R&D/2026/187 inviting applications for 1 vacancies for Project Engineer posts.",
+    "u": "https://www.iitk.ac.in/dord/project/che-pe-15-09-26.html"
+},
+  {
+    "id": "upessc-chayan-pariksha-recruitment-2026",
+    "b": "Uttar Pradesh Shiksha Seva Chayan Aayog (UPESSC), Prayagraj",
+    "t": "Uttar Pradesh Shiksha Seva Chayan Aayog (UPESSC), Prayagraj Recruitment 2026 Notification Out for 12405 Chayan Pariksha (Selection Examination), 2026 Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 October 2026",
+    "a": "05/2026",
+    "q": "Maximum age limit up to 60 years",
+    "desc": "Uttar Pradesh Shiksha Seva Chayan Aayog (UPESSC), Prayagraj has officially announced employment advertisement notification 05/2026 inviting applications for 12405 vacancies for Chayan Pariksha (Selection Examination), 2026 posts.",
+    "u": "https://www.upessc.up.gov.in/"
+},
+  {
+    "id": "amu-guest-teacher-recruitment-2026",
+    "b": "Aligarh Muslim University (AMU)",
+    "t": "Aligarh Muslim University (AMU) Recruitment 2026 Notification Out for 2 Guest Teacher-Mathematics Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "23 September 2026",
+    "a": "04WC/2026-2027",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Aligarh Muslim University (AMU) has officially announced employment advertisement notification 04WC/2026-2027 inviting applications for 2 vacancies for Guest Teacher-Mathematics posts.",
+    "u": "https://api.amu.ac.in/storage/file/96/notice-and-circular/1789468094.pdf"
+},
+  {
+    "id": "birla-institute-of-jrf-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani Hyderabad Campus",
+    "t": "Birla Institute of Technology and Science, Pilani Hyderabad Campus Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Birla Institute of Technology and Science, Pilani Hyderabad Campus has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScurbdAhltLLtqxEUxv09RcgPb_8fJ8TCr9sNtLvh3x2RM52w/viewform"
+},
+  {
+    "id": "team-qualification-recruitment-2026",
+    "b": "Telangana Employment Assistants Mission (TEAM), Yadadri Bhuvanagiri District",
+    "t": "Telangana Employment Assistants Mission (TEAM), Yadadri Bhuvanagiri District Recruitment 2026 Notification Out for 70 Qualification Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "23 September 2026 (up to 5:00 PM)",
+    "a": "TELANGANA-EMPL/2026",
+    "q": "B.Tech / B.E | B.Sc | MBBS / Medical PG",
+    "desc": "Telangana Employment Assistants Mission (TEAM), Yadadri Bhuvanagiri District has officially announced employment advertisement notification TELANGANA-EMPL/2026 inviting applications for 70 vacancies for Qualification posts.",
+    "u": "https://cdn.s3waas.gov.in/s3795c7a7a5ec6b460ec00c5841019b9e9/uploads/2026/09/17894711242973.pdf"
+},
+  {
     "id": "nhm-tn-contractualtemporary-recruitment-2026",
     "b": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu",
     "t": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
