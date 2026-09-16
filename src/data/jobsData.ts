@@ -707,13 +707,13 @@ export const JOBS_DATA: JobEntry[] = [
   {
     "id": "appsc-essential-qualificat-recruitment-2026",
     "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
-    "t": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada Recruitment 2026 Notification Out for 299 Essential Qualification Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "5 November 2026 (up to 11:59 PM)",
-    "a": "Brief Notification (Detailed Notification to follow by 16 October 2026)",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada has officially announced employment advertisement notification Brief Notification (Detailed Notification to follow by 16 October 2026) inviting applications for 299 vacancies for Essential Qualification posts.",
-    "u": "https://portal-psc.ap.gov.in/"
+    "t": "APPSC Recruitment 2026: Apply Online for 299 Forest Range Officer, Executive Officer, Supervisor & Other Posts",
+    "d": "15 September 2026",
+    "l": "05 November 2026 (11:59 PM)",
+    "a": "Brief Notifications 12, 13, 15, 16, 17, 18, 23 & 24 of 2026",
+    "q": "ITI / Intermediate / Bachelor's Degree / Master's Degree (Post-wise)",
+    "desc": "The Andhra Pradesh Public Service Commission (APPSC), Vijayawada has released eight official Brief Notifications (Notification Nos. 12, 13, 15, 16, 17, 18, 23, and 24 of 2026, dated 15 September 2026) for direct recruitment to a total of 299 provisional vacancies across eight subordinate services of the Government of Andhra Pradesh.",
+    "u": "https://psc.ap.gov.in"
 },
   {
     "id": "appsc-inspector-assistant-recruitment-2026",
