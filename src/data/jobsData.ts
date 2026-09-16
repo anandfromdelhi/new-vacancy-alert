@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "eil-associate-engineer-recruitment-2026",
+    "b": "Engineers India Limited (EIL)",
+    "t": "Engineers India Limited (EIL) Recruitment 2026 Notification Out for 15 Associate Engineer Grade II and Associate Engineer Grade III Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "29 September 2026",
+    "a": "HRD/Rectt./Advt./2026-27/09",
+    "q": "B.Tech / B.E | B.Sc",
+    "desc": "Engineers India Limited (EIL) has officially announced employment advertisement notification HRD/Rectt./Advt./2026-27/09 inviting applications for 15 vacancies for Associate Engineer Grade II and Associate Engineer Grade III posts.",
+    "u": "https://recruitment.eil.co.in"
+},
+  {
+    "id": "employee-state-ins-ap-recruitment-2026",
+    "b": "Employee State Insurance Corporation Delhi",
+    "t": "Employee State Insurance Corporation Delhi Recruitment 2026 Notification Out for 53 Professor, Associate Professor and Assistant Professor Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "A-12016/7/2022-PGIMSR-Part(3)",
+    "q": "As per latest NMC (MCI) notifications. Candidates should fulfill prescri...",
+    "desc": "Employee State Insurance Corporation Delhi has officially announced employment advertisement notification A-12016/7/2022-PGIMSR-Part(3) inviting applications for 53 vacancies for Professor, Associate Professor and Assistant Professor posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Application_Form_1789380765.pdf"
+},
+  {
+    "id": "nhai-draftsman-recruitment-2026",
+    "b": "National Highways Authority of India (NHAI)",
+    "t": "National Highways Authority of India (NHAI) Recruitment 2026 Notification Out for 1 Draftsman Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "16 October 2026",
+    "a": "Name",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "National Highways Authority of India (NHAI) has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Draftsman posts.",
+    "u": "https://nhai.gov.in"
+},
+  {
+    "id": "drrmlims-non-pg-recruitment-2026",
+    "b": "Dr. Ram Manohar Lohia Institute of Medical Sciences",
+    "t": "Dr. Ram Manohar Lohia Institute of Medical Sciences Recruitment 2026 Notification Out for 1 Non-PG Junior Resident Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "19 September 2026 (Walk-in)",
+    "a": "522-6692000",
+    "q": "MBBS / Medical PG",
+    "desc": "Dr. Ram Manohar Lohia Institute of Medical Sciences has officially announced employment advertisement notification 522-6692000 inviting applications for 1 vacancies for Non-PG Junior Resident posts.",
+    "u": "https://www.drrmlims.ac.in/Assets/pages/recruitment/Short-term-appointment_Non_PG_JR.pdf"
+},
+  {
+    "id": "aiesl-senior-executive-recruitment-2026",
+    "b": "AI Engineering Services (AIESL)",
+    "t": "AI Engineering Services (AIESL) Recruitment 2026 Notification Out for 6 Senior Executive Finance, Executive Finance Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "AIESL/HR-HQ/2026/532",
+    "q": "MBA / BBA",
+    "desc": "AI Engineering Services (AIESL) has officially announced employment advertisement notification AIESL/HR-HQ/2026/532 inviting applications for 6 vacancies for Senior Executive Finance, Executive Finance posts.",
+    "u": "https://aiahl.in/public/uploads/recruitments/Notification%20%20Finance%20Department%20September%202026%20R.pdf"
+},
+  {
+    "id": "echs-medical-para-recruitment-2026",
+    "b": "Ex-Servicemen Contributory Health Scheme",
+    "t": "Ex-Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 30 Medical, Para Medical & Non Medical Staff Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "26 September 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Ex-Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 30 vacancies for Medical, Para Medical & Non Medical Staff posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/Advertisment%20for%20Emp%20of%20ECHS%20Contractual%20Staff%20-%20Stn%20HQ,%20Delhi%20Cantt%20-%20Aug%202026.pdf"
+},
+  {
+    "id": "nlud-research-teaching-recruitment-2026",
+    "b": "National Law University Delhi (NLUD)",
+    "t": "National Law University Delhi (NLUD) Recruitment 2026 Notification Out for 1 Research & Teaching Associate Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "27 September 2026",
+    "a": "NATIONAL-LAW-U/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Law University Delhi (NLUD) has officially announced employment advertisement notification NATIONAL-LAW-U/2026 inviting applications for 1 vacancies for Research & Teaching Associate posts.",
+    "u": "https://careers.nludelhi.ac.in/login.php?msg=please_login"
+},
+  {
+    "id": "aiasl-chief-financial-recruitment-2026",
+    "b": "AI Airport Services (AIASL)",
+    "t": "AI Airport Services (AIASL) Recruitment 2026 Notification Out for 2 Chief Financial Officer (CFO) / Deputy Chief Financial Officer (Dy.CFO) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "07 October 2026",
+    "a": "AIASL/05-03/417 and AIASL/05-03/418",
+    "q": "Qualified Chartered Accountant (CA) from ICAI, Qualified Cost Accountant...",
+    "desc": "AI Airport Services (AIASL) has officially announced employment advertisement notification AIASL/05-03/417 and AIASL/05-03/418 inviting applications for 2 vacancies for Chief Financial Officer (CFO) / Deputy Chief Financial Officer (Dy.CFO) posts.",
+    "u": "https://www.aiasl.in/resources/Dy.CFO%20%20Recruitment%20exercise%20-%20AIASL.pdf"
+},
+  {
+    "id": "employees-state-in-specialist-senior-recruitment-2026",
+    "b": "Employees State Insurance Corporation Bhilai",
+    "t": "Employees State Insurance Corporation Bhilai Recruitment 2026 Notification Out for 23 Specialist, Senior Resident Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "EMPLOYEES-STAT/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Employees State Insurance Corporation Bhilai has officially announced employment advertisement notification EMPLOYEES-STAT/2026 inviting applications for 23 vacancies for Specialist, Senior Resident posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_interview_for_contractual_specialist_and_SR_on_23_September_2026_1789374935.pdf"
+},
+  {
+    "id": "exim-bank-business-development-recruitment-2026",
+    "b": "Export-Import Bank of India (Exim Bank)",
+    "t": "Export-Import Bank of India (Exim Bank) Recruitment 2026 Notification Out for 24 Business Development Officer (BDO) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "October 15, 2026",
+    "a": "EXPORT-IMPORT-/2026",
+    "q": "Exim Bank BDO eligibility 2026 is based on educational qualification, ac...",
+    "desc": "Export-Import Bank of India (Exim Bank) has officially announced employment advertisement notification EXPORT-IMPORT-/2026 inviting applications for 24 vacancies for Business Development Officer (BDO) posts.",
+    "u": "https://www.eximbankindia.in/sites/default/files/2026-09/Advertisement%20for%20upload.pdf"
+},
+  {
     "id": "niper-temporary-staff-recruitment-2026",
     "b": "National Institute of Pharmaceutical Education and Research",
     "t": "National Institute of Pharmaceutical Education and Research Recruitment 2026 Notification Out for 1 Temporary Staff Nurse Posts | Apply Online",
