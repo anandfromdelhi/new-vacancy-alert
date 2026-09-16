@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nhm-tn-contractualtemporary-recruitment-2026",
+    "b": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu",
+    "t": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026, 5:00 PM",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Candidates should check both the qualification and age requirements belo...",
+    "desc": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c203d8a151612acf12457e4d67635a95/uploads/2026/09/17894562807955.pdf"
+},
+  {
+    "id": "dcpu-kallakurichi-junior-assistant-recruitment-2026",
+    "b": "District Child Protection Unit Kallakurichi (DCPU Kallakurichi)",
+    "t": "District Child Protection Unit Kallakurichi (DCPU Kallakurichi) Recruitment 2026 Notification Out for 2 Junior Assistant Cum Record Clerk and Office Assistant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "28 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "SSLC (Class 10) or equivalent with Computer Proficiency and Typing prefe...",
+    "desc": "District Child Protection Unit Kallakurichi (DCPU Kallakurichi) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 2 vacancies for Junior Assistant Cum Record Clerk and Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c7e1249ffc03eb9ded908c236bd1996d/uploads/2026/09/17894600111099.pdf"
+},
+  {
+    "id": "oav-pakidi-hostel-staff-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Pakidi Hill (OAV Pakidi Hill)",
+    "t": "Odisha Adarsha Vidyalaya Pakidi Hill (OAV Pakidi Hill) Recruitment 2026 Notification Out for 5 Hostel Staff Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "389/OAVPHS/2026",
+    "q": "B.Sc",
+    "desc": "Odisha Adarsha Vidyalaya Pakidi Hill (OAV Pakidi Hill) has officially announced employment advertisement notification 389/OAVPHS/2026 inviting applications for 5 vacancies for Hostel Staff posts.",
+    "u": "https://ganjam.odisha.gov.in/sites/default/files/2026-09/Application%20Form%20%281%29_1.pdf"
+},
+  {
+    "id": "dmho-staff-nurse-recruitment-2026",
+    "b": "District Medical & Health Office Ri Bhoi",
+    "t": "District Medical & Health Office Ri Bhoi Recruitment 2026 Notification Out for 20 Staff Nurse Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "DMHO/RBD/Appt/Contractual/259/2026/3601",
+    "q": "B.Tech / B.E | B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "District Medical & Health Office Ri Bhoi has officially announced employment advertisement notification DMHO/RBD/Appt/Contractual/259/2026/3601 inviting applications for 20 vacancies for Staff Nurse posts.",
+    "u": "https://cdn.s3waas.gov.in/s3fe8c15fed5f808006ce95eddb7366e35/uploads/2026/09/17891065768641.pdf"
+},
+  {
+    "id": "mpkv-ap-recruitment-2026",
+    "b": "Mahatma Phule Krishi Vidyapeeth (MPKV)",
+    "t": "Mahatma Phule Krishi Vidyapeeth (MPKV) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "28 September 2026",
+    "a": "ACD \\/EST\\/Notification\\/Contract AP\\/2768\\/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Mahatma Phule Krishi Vidyapeeth (MPKV) has officially announced employment advertisement notification ACD \\/EST\\/Notification\\/Contract AP\\/2768\\/2026 inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://mpkv.ac.in/Uploads/AKMU/20260915_180645_d2a1bc084431404293ede071c3f03ec1.pdf"
+},
+  {
+    "id": "diat-pa-recruitment-2026",
+    "b": "Defence Institute of Advanced Technology (DIAT)",
+    "t": "Defence Institute of Advanced Technology (DIAT) Recruitment 2026 Notification Out for 2 Project Assistant (PA) & Analyst Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "26-2026/PA/Analyst/DIAT",
+    "q": "MBA / BBA",
+    "desc": "Defence Institute of Advanced Technology (DIAT) has officially announced employment advertisement notification 26-2026/PA/Analyst/DIAT inviting applications for 2 vacancies for Project Assistant (PA) & Analyst posts.",
+    "u": "https://diat.ac.in/wp-content/uploads/2026/09/Advertisement-26-2026-PA-Analyst.pdf"
+},
+  {
+    "id": "tmc-actrec-lab-technician-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Lab Technician Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "OS-A/115/2026",
+    "q": "B.Sc",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/115/2026 inviting applications for 1 vacancies for Lab Technician posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20Lab%20Technician%20Surgical%20Path%2023.09.2026.pdf"
+},
+  {
+    "id": "nliu-bhopal-office-assistants-recruitment-2026",
+    "b": "National Law Institute University, Bhopal (NLIU Bhopal)",
+    "t": "National Law Institute University, Bhopal (NLIU Bhopal) Recruitment 2026 Notification Out for 9 Office Assistants, Network Assistant, Multitasking Staff Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "2/05/NLIU",
+    "q": "10th / 8th Pass | 12th Pass | ITI",
+    "desc": "National Law Institute University, Bhopal (NLIU Bhopal) has officially announced employment advertisement notification 2/05/NLIU inviting applications for 9 vacancies for Office Assistants, Network Assistant, Multitasking Staff posts.",
+    "u": "https://nliu.ac.in/wp-content/uploads/2026/09/Recruitment-Notification-2-1.pdf"
+},
+  {
+    "id": "csl-trade-apprentice-recruitment-2026",
+    "b": "Cochin Shipyard Limited (CSL)",
+    "t": "Cochin Shipyard Limited (CSL) Recruitment 2026 Notification Out for 210 Technician (Vocational)/Trade Apprentice Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "08 October 2026",
+    "a": "CSL/P&A/APPE/SEL. DESIGNTD/-DESIGNATED/2022/2",
+    "q": "ITI",
+    "desc": "Cochin Shipyard Limited (CSL) has officially announced employment advertisement notification CSL/P&A/APPE/SEL. DESIGNTD/-DESIGNATED/2022/2 inviting applications for 210 vacancies for Technician (Vocational)/Trade Apprentice posts.",
+    "u": "https://csl.cochinshipyard.in:8000/sap/bc/webdynpro/sap/hrrcf_a_startpage_ext_cand?sap-language=EN"
+},
+  {
+    "id": "esic-ezhukone-specialists-full-recruitment-2026",
+    "b": "ESIC Hospital Ezhukone",
+    "t": "ESIC Hospital Ezhukone Recruitment 2026 Notification Out for 18 Specialists (Full Time/Part Time) & Senior Residents (1 Year) Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "545/A/11/11/Gr.",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "ESIC Hospital Ezhukone has officially announced employment advertisement notification 545/A/11/11/Gr. inviting applications for 18 vacancies for Specialists (Full Time/Part Time) & Senior Residents (1 Year) posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/NOTIFICATION_FOR_WALK_IN_INTERVIEW_ON_2_5_09_2026_FOR_ENGAGEMENT_OF_SPECIALISTS_FULL_TIME_PART_TIME_amp_SENIOR_RESIDENTS_1_YEAR_ON_CONTRACTUAL_BASIS_FOR_ESIC_HOSPITAL_EZHUKONE_KOLLAM_1789537379.pdf"
+},
+  {
     "id": "employees-state-in-ap-recruitment-2026",
     "b": "Employees State Insurance Corporation Dental College & Hospital, Kalaburagi",
     "t": "Employees State Insurance Corporation Dental College & Hospital, Kalaburagi Recruitment 2026 Notification Out for 4 Professor and Assistant Professor Posts | Walk-in Interview",
