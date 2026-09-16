@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "directorate-of-med-mo-recruitment-2026",
+    "b": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan",
+    "t": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan Recruitment 2026 Notification Out for 600 Medical Officer (Medical) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "13 October 2026",
+    "a": "F-03(7)DOP/A-II/97",
+    "q": "MBBS / Medical PG",
+    "desc": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan has officially announced employment advertisement notification F-03(7)DOP/A-II/97 inviting applications for 600 vacancies for Medical Officer (Medical) posts.",
+    "u": "https://ruhsmomedical.com/"
+},
+  {
+    "id": "gadvasu-steno-typist-recruitment-2026",
+    "b": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana",
+    "t": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana Recruitment 2026 Notification Out for 45 Steno Typist, Clerk, Storekeeper Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "21 October 2026 (4:00 PM)",
+    "a": "03/2026",
+    "q": "B.Com | Any Bachelor's Degree",
+    "desc": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU), Ludhiana has officially announced employment advertisement notification 03/2026 inviting applications for 45 vacancies for Steno Typist, Clerk, Storekeeper posts.",
+    "u": "https://www.gadvasu.in/"
+},
+  {
+    "id": "punjabi-univ-patiala-law-officer-recruitment-2026",
+    "b": "Punjabi University Patiala",
+    "t": "Punjabi University Patiala Recruitment 2026 Notification Out for 1 Law Officer (Legal Advisor) Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "05 October 2026",
+    "a": "214114/DPR",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Punjabi University Patiala has officially announced employment advertisement notification 214114/DPR inviting applications for 1 vacancies for Law Officer (Legal Advisor) posts.",
+    "u": "https://www.punjabiuniversity.ac.in/Pages/SF/TQR/P188103F9.pdf"
+},
+  {
+    "id": "cup-contractual-faculty-recruitment-2026",
+    "b": "Central University of Punjab (CUP)",
+    "t": "Central University of Punjab (CUP) Recruitment 2026 Notification Out for 1 Contractual Faculty Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "CUPB/26-27/013",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Punjab (CUP) has officially announced employment advertisement notification CUPB/26-27/013 inviting applications for 1 vacancies for Contractual Faculty posts.",
+    "u": "https://cup.edu.in/sites/default/files/Contractual%20Faculty%2014_09_2026.pdf"
+},
+  {
+    "id": "gadvasu-ap-recruitment-2026",
+    "b": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU)",
+    "t": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU) Recruitment 2026 Notification Out for 8 Registrar, Director of Research, Associate Professor (3 disciplines), Assistant Professor (2 disciplines), Scientist (Dairy Technology) Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "08 October 2026, up to 4:00 p.m.",
+    "a": "04/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU) has officially announced employment advertisement notification 04/2026 inviting applications for 8 vacancies for Registrar, Director of Research, Associate Professor (3 disciplines), Assistant Professor (2 disciplines), Scientist (Dairy Technology) posts.",
+    "u": "https://www.gadvasu.in/assests/uploads/images/ADVT.%2004-2026.pdf"
+},
+  {
+    "id": "icar-cuttack-yp-recruitment-2026",
+    "b": "ICAR Central Rice Research Institute Cuttack",
+    "t": "ICAR Central Rice Research Institute Cuttack Recruitment 2026 Notification Out for 2 Young Professional-I (YP-I) / Field Assistant (FA) Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "15 September 2026 (Walk-in)",
+    "a": "26/YP-I/FA/2026-27",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "ICAR Central Rice Research Institute Cuttack has officially announced employment advertisement notification 26/YP-I/FA/2026-27 inviting applications for 2 vacancies for Young Professional-I (YP-I) / Field Assistant (FA) posts.",
+    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-474.pdf"
+},
+  {
+    "id": "utkal-balashram-brahmapur-probation-officer-recruitment-2026",
+    "b": "Utkal Balashram Brahmapur",
+    "t": "Utkal Balashram Brahmapur Recruitment 2026 Notification Out for 9 Probation Officer cum Child Welfare Officer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "16 September 2026",
+    "a": "826",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Utkal Balashram Brahmapur has officially announced employment advertisement notification 826 inviting applications for 9 vacancies for Probation Officer cum Child Welfare Officer posts.",
+    "u": "https://ganjam.odisha.gov.in/sites/default/files/2026-09/ADVERTISEMENT%20FOR%20VACANCY%20FILL%20UP%20AT%20VIKAS%20BALASHRAM%20BERHAMPUR%20ODISHA_0.pdf"
+},
+  {
+    "id": "nit-rourkela-research-assistant-recruitment-2026",
+    "b": "National Institute of Technology Rourkela",
+    "t": "National Institute of Technology Rourkela Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Technology Rourkela has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Research Assistant posts.",
+    "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/11092026181122821.pdf"
+},
+  {
+    "id": "kvs-bhu-teachers-vocational-recruitment-2026",
+    "b": "PM Shri Kendriya Vidyalaya Bhubaneswar",
+    "t": "PM Shri Kendriya Vidyalaya Bhubaneswar Recruitment 2026 Notification Out for 1 Teachers (Vocational Instructor, Educational Counsellor, Work Experience Teacher, TGT Special Educator) Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "1500017",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "PM Shri Kendriya Vidyalaya Bhubaneswar has officially announced employment advertisement notification 1500017 inviting applications for 1 vacancies for Teachers (Vocational Instructor, Educational Counsellor, Work Experience Teacher, TGT Special Educator) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv021547eda79191b9c0d7e1d6e9d56d/uploads/2026/09/2026091395.pdf"
+},
+  {
+    "id": "mpsc-lower-division-recruitment-2026",
+    "b": "Mizoram Public Service Commission (MPSC)",
+    "t": "Mizoram Public Service Commission (MPSC) Recruitment 2026 Notification Out for 4 Lower Division Clerk (LDC) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "12 October 2026",
+    "a": "25 of 2026 - 2027",
+    "q": "10th / 8th Pass | Diploma",
+    "desc": "Mizoram Public Service Commission (MPSC) has officially announced employment advertisement notification 25 of 2026 - 2027 inviting applications for 4 vacancies for Lower Division Clerk (LDC) posts.",
+    "u": "https://mpsconline.mizoram.gov.in/"
+},
+  {
     "id": "mpsc-mizoram-peon-recruitment-2026",
     "b": "Mizoram Public Service Commission",
     "t": "Mizoram Public Service Commission Recruitment 2026 Notification Out for 3 Peon Posts | Apply Online",
