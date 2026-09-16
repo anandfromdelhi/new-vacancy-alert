@@ -739,14 +739,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "appsc-group-services-recruitment-2026",
-    "b": "Andhra Pradesh Public Service Commission (APPSC)",
-    "t": "Andhra Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 163 Group-I Services (13 post categories) Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "27 October 2026, up to 11:59 PM",
-    "a": "07/2026",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Andhra Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 07/2026 inviting applications for 163 vacancies for Group-I Services (13 post categories) posts.",
-    "u": "https://psc.ap.gov.in/Documents/NotificationDocuments/Group_I_072026.pdf"
+    "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
+    "t": "APPSC Group 1 Recruitment 2026: Apply Online for 163 Deputy Collector, DSP, CTO & Group-I Services Posts",
+    "d": "15 September 2026",
+    "l": "27 October 2026 (11:59 PM)",
+    "a": "Brief Notification No. 07/2026 (Dated 15/09/2026)",
+    "q": "Any Bachelor's Degree (B.E./B.Tech in ECE/Telecom for DSP Communications)",
+    "desc": "The Andhra Pradesh Public Service Commission (APPSC), Vijayawada has released Brief Notification No. 07/2026 (dated 15 September 2026) for direct recruitment to 163 prestigious Group-I Services vacancies in the Government of Andhra Pradesh.",
+    "u": "https://psc.ap.gov.in"
 },
   {
     "id": "appsc-hwo-recruitment-2026",
