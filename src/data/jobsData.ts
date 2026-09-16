@@ -717,14 +717,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "appsc-inspector-assistant-recruitment-2026",
-    "b": "Andhra Pradesh Public Service Commission (APPSC)",
-    "t": "Andhra Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 255 Inspector, Assistant Statistical Officer and More Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "2 November 2026, up to 11:59 PM",
-    "a": "14/2026",
-    "q": "B.Tech / B.E",
-    "desc": "Andhra Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 14/2026 inviting applications for 255 vacancies for Inspector, Assistant Statistical Officer and More posts.",
-    "u": "https://psc.ap.gov.in/Documents/NotificationDocuments/Inspector_of_Factories_142026.pdf"
+    "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
+    "t": "APPSC Recruitment 2026: Apply Online for 255 Assistant Statistical Officer, Inspector of Factories & Other Posts",
+    "d": "15 September 2026",
+    "l": "02 November 2026 (11:59 PM)",
+    "a": "Brief Notifications 09, 10, 14, 20, 21 & 22 of 2026",
+    "q": "Bachelor's Degree (Statistics / Maths / Economics / Commerce / CS / Science / Engg) or Master's Degree (Post-wise)",
+    "desc": "The Andhra Pradesh Public Service Commission (APPSC), Vijayawada has released six official Brief Notifications (Notification Nos. 09/2026, 10/2026, 14/2026, 20/2026, 21/2026, and 22/2026, dated 15 September 2026) for direct recruitment to 255 provisional vacancies across various state services.",
+    "u": "https://psc.ap.gov.in"
 },
   {
     "id": "appsc-horticulture-officer-recruitment-2026",
