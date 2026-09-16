@@ -90,13 +90,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "bsa-pgt-peon-recruitment-2026",
-    "b": "District Basic Education Officer (BSA), Gorakhpur",
-    "t": "District Basic Education Officer (BSA), Gorakhpur Recruitment 2026 Notification Out for 132 PGT, Peon and More Posts | Apply Offline",
-    "d": "16 September 2026",
+    "b": "Office of District Basic Education Officer (BSA), Gorakhpur / Samagra Shiksha UP",
+    "t": "BSA Gorakhpur KGBV Teacher & Staff Recruitment 2026",
+    "d": "14 September 2026",
     "l": "30 September 2026, 5:00 PM",
-    "a": "SSSO/BASHI/6585-92",
-    "q": "Female candidates only",
-    "desc": "District Basic Education Officer (BSA), Gorakhpur has officially announced employment advertisement notification SSSO/BASHI/6585-92 inviting applications for 132 vacancies for PGT, Peon and More posts.",
+    "a": "SSA/BASHI/6585-92/2026-27",
+    "q": "8th Pass / 12th / Graduate / B.Com / PG with B.Ed / TET (Post-wise)",
+    "desc": "Office of the District Basic Education Officer (BSA), Gorakhpur has published an official notification (Letter No. SSA/BASHI/6585-92/2026-27) inviting offline applications from eligible female candidates for contractual engagement in 20 Kasturba Gandhi Balika Vidyalayas (KGBVs) across District Gorakhpur.",
     "u": "https://cdn.s3waas.gov.in/s301386bd6d8e091c2ab4c7c7de644d37b/uploads/2026/09/17893904192270.pdf"
 },
   {
