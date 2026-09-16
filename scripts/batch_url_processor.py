@@ -131,7 +131,39 @@ BOARD_ACRONYM_MAP = {
     'kavayitri bahinabai chaudhari north maharashtra university': 'kbcnmu',
     'north eastern hill university': 'nehu',
     'utkal balashram': 'utkal-balashram',
-    'kasturba gandhi balika vidyalaya': 'kgbv'
+    'kasturba gandhi balika vidyalaya': 'kgbv',
+    'airports authority of india': 'aai',
+    'state level police recruitment board': 'slprb',
+    'andhra pradesh police': 'ap-police',
+    'grid controller of india': 'grid-india',
+    'west assam milk producers': 'wamul',
+    'national institute of pharmaceutical education and research': 'niper',
+    'export-import bank of india': 'exim-bank',
+    'ai airport services': 'aiasl',
+    'ai engineering services': 'aiesl',
+    'national law university delhi': 'nlud',
+    'echs': 'echs',
+    'ex-servicemen contributory health scheme': 'echs',
+    'dr. ram manohar lohia': 'drrmlims',
+    'ram manohar lohia institute': 'drrmlims',
+    'national highways authority of india': 'nhai',
+    'engineers india limited': 'eil',
+    'delhi transco limited': 'delhi-transco',
+    'haryana state pollution control board': 'hspcb',
+    'reserve bank of india': 'rbi',
+    'central food technological research institute': 'csir-cftri',
+    'microwave tube research & development establishment': 'drdo-mtrdc',
+    'hindustan aeronautics': 'hal',
+    'udupi cochin shipyard': 'ucsl',
+    'cochin shipyard': 'csl',
+    'national law institute university': 'nliu',
+    'advanced centre for treatment': 'actrec',
+    'defence institute of advanced technology': 'diat',
+    'mahatma phule krishi vidyapeeth': 'mpkv',
+    'odisha adarsha vidyalaya': 'oav',
+    'district medical & health': 'dmho',
+    'uttar pradesh shiksha seva chayan aayog': 'upessc',
+    'telangana employment association': 'team'
 }
 
 CAMPUS_CITIES = [
@@ -149,7 +181,10 @@ CAMPUS_CITIES = [
     'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack',
     'assam', 'uttarakhand', 'bengaluru', 'bangalore', 'bijapur', 'bengdubi',
     'tirupathur', 'chengalpattu', 'salem', 'jhajjar', 'rohtak', 'gorakhpur',
-    'nirmal', 'narayanpet', 'daman', 'hazaribagh', 'patiala', 'brahmapur'
+    'nirmal', 'narayanpet', 'daman', 'hazaribagh', 'patiala', 'brahmapur',
+    'kallakurichi', 'ganjam', 'mayurbhanj', 'begusarai', 'ezhukone', 'kalaburagi',
+    'margao', 'hajipur', 'ri-bhoi', 'yadadri', 'bhuvanagiri', 'burnpur',
+    'udupi', 'malpe', 'pakidi', 'morada', 'garudabasa', 'lucknow', 'pilani'
 ]
 
 EXAM_ACRONYM_MAP = {
@@ -346,7 +381,30 @@ def extract_distinctive_tokens(text):
     tokens = set(re.findall(r'[a-z0-9]{3,}', text.lower()))
     return tokens - STOPWORDS
 
-def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list, post_name="", date_str=""):
+def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list, post_name="", date_str="", pdf_url="", source_url=""):
+    # 0. Official Notification PDF URL Match
+    if pdf_url and len(pdf_url) > 15:
+        clean_pdf = re.sub(r'^https?://(www\.)?', '', pdf_url.lower()).rstrip('/')
+        for jid, j in existing_jobs.items():
+            for u_obj in j.get('urls', []):
+                ex_u = u_obj.get('url', '').strip()
+                if ex_u and len(ex_u) > 15:
+                    clean_ex_u = re.sub(r'^https?://(www\.)?', '', ex_u.lower()).rstrip('/')
+                    if clean_ex_u.endswith('.gov.in') or clean_ex_u.endswith('.nic.in') or clean_ex_u.endswith('.ac.in'):
+                        continue
+                    if clean_pdf == clean_ex_u or (clean_pdf.endswith('.pdf') and clean_pdf in clean_ex_u) or (clean_ex_u.endswith('.pdf') and clean_ex_u in clean_pdf):
+                        return True, f"Identical notification PDF URL matches existing '{jid}'"
+
+    if source_url and len(source_url) > 20:
+        clean_src = re.sub(r'^https?://(www\.)?', '', source_url.lower()).rstrip('/')
+        for jid, j in existing_jobs.items():
+            for u_obj in j.get('urls', []):
+                ex_u = u_obj.get('url', '').strip()
+                if ex_u and len(ex_u) > 20:
+                    clean_ex_u = re.sub(r'^https?://(www\.)?', '', ex_u.lower()).rstrip('/')
+                    if clean_src == clean_ex_u:
+                        return True, f"Identical source URL matches existing '{jid}'"
+
     a_norm = re.sub(r'[^a-z0-9]', '', advt_no.lower()) if advt_no else ""
     post_tokens = extract_distinctive_tokens(post_name if post_name else title)
     board_tokens = extract_distinctive_tokens(board)
@@ -362,7 +420,12 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
                 if post_tokens and ex_post_tokens:
                     common = post_tokens.intersection(ex_post_tokens)
                     if not common:
-                        # Distinct posts in same institution (e.g. Patent Agent vs Simulation Engineer)
+                        continue
+                # If both have distinct PDFs, they are distinct circulars under same file number
+                if pdf_url and len(pdf_url) > 15:
+                    clean_pdf = re.sub(r'^https?://(www\.)?', '', pdf_url.lower()).rstrip('/')
+                    ex_pdfs = [re.sub(r'^https?://(www\.)?', '', uo.get('url', '').lower()).rstrip('/') for uo in j.get('urls', []) if uo.get('url', '').lower().endswith('.pdf')]
+                    if ex_pdfs and all(clean_pdf != ep for ep in ex_pdfs):
                         continue
                 return True, f"Advt No '{j.get('advtNo')}' matches existing '{jid}'"
 
@@ -379,6 +442,16 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
             if not set(query_campus).intersection(set(job_campus)):
                 continue
 
+        # Specific institution / district / school disambiguation
+        if ('adarsha vidyalaya' in q_lower and 'adarsha vidyalaya' in ex_lower) or \
+           ('child protection' in q_lower and 'child protection' in ex_lower) or \
+           ('district medical' in q_lower and 'district medical' in ex_lower) or \
+           ('kendriya vidyalaya' in q_lower and 'kendriya vidyalaya' in ex_lower):
+            cand_dist = set(re.findall(r'[a-z]{3,}', q_lower)) - {'district', 'child', 'protection', 'unit', 'dcpu', 'recruitment', 'posts', 'odisha', 'adarsha', 'vidyalaya', 'medical', 'health', 'kendriya', 'shri', 'pm', 'notice'}
+            ex_dist = set(re.findall(r'[a-z]{3,}', ex_lower)) - {'district', 'child', 'protection', 'unit', 'dcpu', 'recruitment', 'posts', 'odisha', 'adarsha', 'vidyalaya', 'medical', 'health', 'kendriya', 'shri', 'pm', 'notice'}
+            if cand_dist and ex_dist and not cand_dist.intersection(ex_dist):
+                continue
+
         ex_board_tokens = extract_distinctive_tokens(ex_board)
         board_match = False
         if board_tokens and ex_board_tokens:
@@ -387,6 +460,13 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
                 board_match = True
 
         if board_match:
+            # If both have specific PDFs and they are completely different, distinct notices
+            if pdf_url and len(pdf_url) > 15:
+                clean_pdf = re.sub(r'^https?://(www\.)?', '', pdf_url.lower()).rstrip('/')
+                ex_pdfs = [re.sub(r'^https?://(www\.)?', '', uo.get('url', '').lower()).rstrip('/') for uo in j.get('urls', []) if uo.get('url', '').lower().endswith('.pdf')]
+                if ex_pdfs and all(clean_pdf != ep for ep in ex_pdfs):
+                    continue
+
             ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
             if a_norm and ex_advt and len(a_norm) >= 5 and len(ex_advt) >= 5 and a_norm not in GENERIC_ADVTS and ex_advt not in GENERIC_ADVTS:
                 if a_norm != ex_advt:
@@ -398,6 +478,15 @@ def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing
                     continue
                 if ('assistant' in post_tokens and any(k in ex_post_tokens for k in ['associate', 'fellow', 'scientist'])) or \
                    ('associate' in post_tokens and any(k in ex_post_tokens for k in ['assistant', 'fellow', 'scientist'])):
+                    continue
+                if ('apprentice' in post_tokens and 'apprentice' not in ex_post_tokens) or \
+                   ('apprentice' not in post_tokens and 'apprentice' in ex_post_tokens):
+                    continue
+                if ('nurse' in post_tokens and 'nurse' not in ex_post_tokens) or \
+                   ('nurse' not in post_tokens and 'nurse' in ex_post_tokens):
+                    continue
+                if ('ports' in post_tokens and 'ports' not in ex_post_tokens) or \
+                   ('ports' not in post_tokens and 'ports' in ex_post_tokens):
                     continue
                 num_q = set(re.findall(r'\b(?:1|2|3|4|5|i|ii|iii|iv|v)\b', (post_name or title).lower()))
                 num_ex = set(re.findall(r'\b(?:1|2|3|4|5|i|ii|iii|iv|v)\b', ex_title.lower()))
@@ -514,7 +603,7 @@ def parse_vacancy_data(html, url, ctx=None):
             continue
 
         # A. 2-column key-value tables
-        if len(first_row_cells) == 2 and any(k in first_row_cells[0] for k in ['particular', 'criteria', 'requirement', 'detail', 'information', 'post', 'category', 'parameter', 'company', 'organisation', 'organization', 'board', 'institute', 'department', 'recruiting']):
+        if len(first_row_cells) == 2 and any(k in first_row_cells[0] for k in ['particular', 'criteria', 'requirement', 'detail', 'information', 'post', 'category', 'parameter', 'company', 'organisation', 'organization', 'board', 'institute', 'department', 'recruiting', 'condition']):
             if not any(k in first_row_cells[1] for k in ['total posts', 'vacancies', 'scale of pay', 'no of post']):
                 for r in rows:
                     cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
@@ -649,11 +738,13 @@ def parse_vacancy_data(html, url, ctx=None):
     if not board or len(board) < 3:
         board = title_board
     board = re.sub(r'\s*\(India[\'\w\s]+\)\s*', '', board).strip()
+    board = re.sub(r'\s*-\s*Schedule\s*[‘\'"][A-Z][’\'"].*$', '', board).strip()
+    board = re.sub(r'\s*\(A Govt\. of India Enterprise.*?\)', '', board, flags=re.IGNORECASE).strip()
 
     # 5. Resolve Post Name
     post_name = ""
     for k, v in overview_kv.items():
-        if any(term == k for term in ['post', 'posts', 'post name', 'post names', 'name of post', 'name of posts', 'name of exam', 'exam name']):
+        if any(term == k for term in ['post', 'posts', 'post name', 'post names', 'name of post', 'name of posts', 'name of exam', 'exam name', 'position', 'positions', 'designation', 'designations']):
             if v and not re.match(r'^\d+$', v) and v.lower() not in ['total posts', 'no of posts', 'salary', 'various', 'posts', 'details', 'given below', 'educational qualification', 'pay scale (rs.)', 'upper age limit', 'contract (samvida) basis']:
                 post_name = v
                 break
@@ -1254,9 +1345,17 @@ def main():
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
+    input_list = INPUT_URLS
+    if os.path.exists(URLS_FILE):
+        try:
+            with open(URLS_FILE, 'r', encoding='utf-8-sig') as f:
+                input_list = json.load(f)
+        except Exception:
+            pass
+
     seen_urls = set()
     unique_urls = []
-    for u in INPUT_URLS:
+    for u in input_list:
         if u not in seen_urls:
             seen_urls.add(u)
             unique_urls.append(u)
@@ -1303,8 +1402,18 @@ def main():
 
         existing_jobs, existing_list = load_existing_db()
         candidate_id = generate_short_slug(raw_data['board'], raw_data['postName'], year="2026")
-
-        is_dup, dup_reason = check_duplicate(candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"], existing_jobs, existing_list, post_name=raw_data["postName"])
+        target_pdf_url = ""
+        for u_obj in raw_data.get("urls", []):
+            if isinstance(u_obj, dict) and u_obj.get("url"):
+                u_str = u_obj.get("url")
+                if u_str.endswith(".pdf") or "notification" in u_obj.get("title", "").lower() or "form.php" in u_str:
+                    target_pdf_url = u_str
+                    break
+        is_dup, dup_reason = check_duplicate(
+            candidate_id, raw_data["board"], raw_data["title"], raw_data["advtNo"],
+            existing_jobs, existing_list, post_name=raw_data["postName"],
+            pdf_url=target_pdf_url, source_url=url
+        )
         if is_dup:
             print(f"⏩ [SKIPPED DUPLICATE] {raw_data['board']} - {raw_data['postName']}: {dup_reason}")
             skipped_jobs.append({

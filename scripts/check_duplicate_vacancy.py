@@ -113,7 +113,13 @@ CAMPUS_CITIES = [
     'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
     'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
     'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
-    'deoghar', 'kozhikode', 'greater noida', 'chintapalle', 'yadgir'
+    'deoghar', 'kozhikode', 'greater noida', 'chintapalle', 'yadgir',
+    'assam', 'uttarakhand', 'bengaluru', 'bangalore', 'bijapur', 'bengdubi',
+    'tirupathur', 'chengalpattu', 'salem', 'jhajjar', 'rohtak', 'gorakhpur',
+    'nirmal', 'narayanpet', 'daman', 'hazaribagh', 'patiala', 'brahmapur',
+    'kallakurichi', 'ganjam', 'mayurbhanj', 'begusarai', 'ezhukone', 'kalaburagi',
+    'margao', 'hajipur', 'ri-bhoi', 'yadadri', 'bhuvanagiri', 'burnpur',
+    'udupi', 'malpe', 'pakidi', 'morada', 'garudabasa', 'lucknow', 'pilani'
 ]
 
 GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}
@@ -169,7 +175,7 @@ def check_duplicate(query_text, board_query="", advt_query="", url_query="", vac
         # 2. Exact or authoritative Advt No match
         clean_job_advt = re.sub(r'[^a-z0-9]', '', job_advt)
         if is_valid_advt and clean_job_advt and clean_job_advt not in GENERIC_ADVTS:
-            if clean_advt_query == clean_job_advt or clean_job_advt.startswith(clean_advt_query) or clean_advt_query.startswith(clean_job_advt):
+            if clean_advt_query == clean_job_advt:
                 score += 55
                 reasons.append(f"Exact Advt No. match ({advt_query})")
 

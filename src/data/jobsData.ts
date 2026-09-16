@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "niper-temporary-staff-recruitment-2026",
+    "b": "National Institute of Pharmaceutical Education and Research",
+    "t": "National Institute of Pharmaceutical Education and Research Recruitment 2026 Notification Out for 1 Temporary Staff Nurse Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "14 October 2026",
+    "a": "NIPER/HJP/HEALTHCENTRE/2026-27/4",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "National Institute of Pharmaceutical Education and Research has officially announced employment advertisement notification NIPER/HJP/HEALTHCENTRE/2026-27/4 inviting applications for 1 vacancies for Temporary Staff Nurse posts.",
+    "u": "https://niperhajipur.ac.in/wp-content/uploads/2026/09/NIPER-Hajipur-Temporary-Staff-Nurse-Notification-15092026-2.pdf"
+},
+  {
+    "id": "bihar-vidyalaya-pa-secondary-teacher-recruitment-2026",
+    "b": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board)",
+    "t": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) Recruitment 2026 Notification Out for 1 Secondary Teacher Eligibility Test (STET), 2026 Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "31 August 2026",
+    "a": "P.R. 183/2026",
+    "q": "10th / 8th Pass | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) has officially announced employment advertisement notification P.R. 183/2026 inviting applications for 1 vacancies for Secondary Teacher Eligibility Test (STET), 2026 posts.",
+    "u": "https://stetregistration.cbrt.co.in/"
+},
+  {
+    "id": "dcpu-begusarai-support-person-recruitment-2026",
+    "b": "District Child Protection Unit Begusarai (DCPU Begusarai)",
+    "t": "District Child Protection Unit Begusarai (DCPU Begusarai) Recruitment 2026 Notification Out for 30 Support Person Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 days from notification date",
+    "a": "02/2026",
+    "q": "Diploma | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Begusarai (DCPU Begusarai) has officially announced employment advertisement notification 02/2026 inviting applications for 30 vacancies for Support Person posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f4be00279ee2e0a53eafdaa94a151e2c/uploads/2026/09/17894680789427.pdf"
+},
+  {
+    "id": "rites-sr-manager-recruitment-2026",
+    "b": "RITES Limited",
+    "t": "RITES Limited Recruitment 2026 Notification Out for 5 Sr. Manager (Ports & Waterways), Assistant Manager (Ports & Waterways), Assistant Manager (Coastal Modelling) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "08 October 2026",
+    "a": "RITES-LIMITED/2026",
+    "q": "5 years",
+    "desc": "RITES Limited has officially announced employment advertisement notification RITES-LIMITED/2026 inviting applications for 5 vacancies for Sr. Manager (Ports & Waterways), Assistant Manager (Ports & Waterways), Assistant Manager (Coastal Modelling) posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "wamul-assistant-billing-recruitment-2026",
+    "b": "West Assam Milk Producers' Co-operative Union (WAMUL)",
+    "t": "West Assam Milk Producers' Co-operative Union (WAMUL) Recruitment 2026 Notification Out for 1 Assistant-I Billing (Procurement & Input) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "WAMUL/2026-27/12",
+    "q": "B.Com",
+    "desc": "West Assam Milk Producers' Co-operative Union (WAMUL) has officially announced employment advertisement notification WAMUL/2026-27/12 inviting applications for 1 vacancies for Assistant-I Billing (Procurement & Input) posts.",
+    "u": "https://recruitment.purabi.coop/active-registration-form/new?job_title=assistant-i-billing-pi"
+},
+  {
+    "id": "grid-india-executive-trainee-recruitment-2026",
+    "b": "Grid Controller of India Limited (GRID-INDIA)",
+    "t": "Grid Controller of India Limited (GRID-INDIA) Recruitment 2026 Notification Out for 91 Executive Trainee (Electrical / Computer Science) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "14 August 2027 (for provisionally eligible final year candidates)",
+    "a": "CC/26/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Grid Controller of India Limited (GRID-INDIA) has officially announced employment advertisement notification CC/26/2026 inviting applications for 91 vacancies for Executive Trainee (Electrical / Computer Science) posts.",
+    "u": "https://webcdn.grid-india.in/files/grdw/2026/09/Detailed%20Advt_GATE%202027_187.pdf"
+},
+  {
+    "id": "directorate-of-hea-mo-recruitment-2026",
+    "b": "Directorate of Health Services Arunachal Pradesh",
+    "t": "Directorate of Health Services Arunachal Pradesh Recruitment 2026 Notification Out for 5 Medical Officer Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "MMMSYS/GDMO-Recruitment/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Directorate of Health Services Arunachal Pradesh has officially announced employment advertisement notification MMMSYS/GDMO-Recruitment/2026 inviting applications for 5 vacancies for Medical Officer posts.",
+    "u": "https://nhm.arunachal.gov.in/public/upload/document/event/AdvtMONMHP.pdf"
+},
+  {
+    "id": "bel-senior-deputy-recruitment-2026",
+    "b": "Bharat Electronics Limited (BEL)",
+    "t": "Bharat Electronics Limited (BEL) Recruitment 2026 Notification Out for 6 Senior Deputy General Manager (Sr. DGM) - E-VIA Grade Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "BHARAT-ELECTRO/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Bharat Electronics Limited (BEL) has officially announced employment advertisement notification BHARAT-ELECTRO/2026 inviting applications for 6 vacancies for Senior Deputy General Manager (Sr. DGM) - E-VIA Grade posts.",
+    "u": "https://jobapply.in/bel2026delhidgm/"
+},
+  {
+    "id": "slprb-si-reserve-recruitment-2026",
+    "b": "State Level Police Recruitment Board (SLPRB), Andhra Pradesh, Mangalagiri",
+    "t": "State Level Police Recruitment Board (SLPRB), Andhra Pradesh, Mangalagiri Recruitment 2026 Notification Out for 2050 SI, Reserve SI, SI (SPF), SI (Communications), SI (PTO), Police Constable (Civil/AR/Communications/Mechanics/Drivers), Fireman, Warder, Scientific Assistant (FSL) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "Refer Official Notification",
+    "a": "91/SLPRB/Rect.2/2026, 92/SLPRB/Rect.2/2026, 93/SLPRB/Rect.2/2026, 81/SLPRB/Rect.1/2026, 82/SLPRB/Rect.1/2026, 83/SLPRB/Rect.1/2026 - all dated 16.09.2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "State Level Police Recruitment Board (SLPRB), Andhra Pradesh, Mangalagiri has officially announced employment advertisement notification 91/SLPRB/Rect.2/2026, 92/SLPRB/Rect.2/2026, 93/SLPRB/Rect.2/2026, 81/SLPRB/Rect.1/2026, 82/SLPRB/Rect.1/2026, 83/SLPRB/Rect.1/2026 - all dated 16.09.2026 inviting applications for 2050 vacancies for SI, Reserve SI, SI (SPF), SI (Communications), SI (PTO), Police Constable (Civil/AR/Communications/Mechanics/Drivers), Fireman, Warder, Scientific Assistant (FSL) posts.",
+    "u": "https://slprb.ap.gov.in/2026_PDFS/PressNote_dated_16092026.pdf"
+},
+  {
+    "id": "aai-consultant-sscos-recruitment-2026",
+    "b": "Airports Authority of India (AAI)",
+    "t": "Airports Authority of India (AAI) Recruitment 2026 Notification Out for 39 Consultant - SSCOs (Short Service Commission Officers), on contract basis Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "1 October 2026",
+    "a": "14/2026/CHQ/SSCOs",
+    "q": "Any Bachelor's Degree",
+    "desc": "Airports Authority of India (AAI) has officially announced employment advertisement notification 14/2026/CHQ/SSCOs inviting applications for 39 vacancies for Consultant - SSCOs (Short Service Commission Officers), on contract basis posts.",
+    "u": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Advt%20No%2014-2026-CHQ-SSCOs%20for%20engagement%20of%20Short%20Service%20Commission%20Officers%20in%20AAI.pdf"
+},
+  {
     "id": "uksssc-pa-recruitment-2026",
     "b": "Uttarakhand Subordinate Service Selection Commission (UKSSSC)",
     "t": "UKSSSC Personal Assistant & Stenographer Recruitment 2026: Apply Online for 101 Group C Posts",
