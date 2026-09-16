@@ -376,14 +376,14 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "cpri-engineering-officer-recruitment-2026",
-    "b": "Central Power Research Institute (CPRI)",
-    "t": "Central Power Research Institute (CPRI) Recruitment 2026 Notification Out for 110 Engineering Officer, Engineering Assistant, Scientific Assistant, Technician, Technical Attendant, Assistant & Multi-Tasking Staff Posts | Apply Online",
+    "b": "Central Power Research Institute (CPRI), Ministry of Power, Govt. of India",
+    "t": "Central Power Research Institute (CPRI) Recruitment 2026 Out for 110 Engineering Officer, Assistant, Technician, Attendant & MTS Posts",
     "d": "16 September 2026",
-    "l": "Refer Official Notification",
+    "l": "19 October 2026 (Tentative)",
     "a": "CPRI/06/2026",
-    "q": "ITI | Diploma | B.Tech / B.E",
-    "desc": "Central Power Research Institute (CPRI) has officially announced employment advertisement notification CPRI/06/2026 inviting applications for 110 vacancies for Engineering Officer, Engineering Assistant, Scientific Assistant, Technician, Technical Attendant, Assistant & Multi-Tasking Staff posts.",
-    "u": "https://cpri.res.in/"
+    "q": "10th Pass / ITI / Diploma / B.Sc Chemistry / Graduate Degree / B.E. / B.Tech",
+    "desc": "Central Power Research Institute (CPRI), an autonomous premier research society under the Ministry of Power, Government of India, has officially issued Employment Advertisement No. CPRI/06/2026 announcing direct recruitment for 110 vacancies. The recruitment drive spans executive, supervisory, administrative, and technical support positions across its Bangalore headquarters and regional testing laboratories.",
+    "u": "https://cpri.res.in/en/career"
 },
   {
     "id": "mahe-project-technical-recruitment-2026-3067687",
