@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "junior-plant-prote-crop-guard-recruitment-2026",
+    "b": "Junior Plant Protection Office Hazaribagh",
+    "t": "Junior Plant Protection Office Hazaribagh Recruitment 2026 Notification Out for 5 Crop Guard Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "03 October 2026",
+    "a": "JUNIOR-PLANT-P/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Junior Plant Protection Office Hazaribagh has officially announced employment advertisement notification JUNIOR-PLANT-P/2026 inviting applications for 5 vacancies for Crop Guard posts.",
+    "u": "https://cdn.s3waas.gov.in/s3ed265bc903a5a097f61d3ec064d96d2e/uploads/2026/09/17892097098106.pdf"
+},
+  {
+    "id": "iit-jammu-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu (IIT Jammu)",
+    "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 Notification Out for 1 Research Associate(RA) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026",
+    "a": "IIT JMU/RP00202/A-44",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially announced employment advertisement notification IIT JMU/RP00202/A-44 inviting applications for 1 vacancies for Research Associate(RA) posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "iust-jrf-recruitment-2026",
+    "b": "Islamic University of Science & Technology (IUST)",
+    "t": "Islamic University of Science & Technology (IUST) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026",
+    "a": "01 of 2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Islamic University of Science & Technology (IUST) has officially announced employment advertisement notification 01 of 2026 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.iust.ac.in/Notifications/Jobs/260914145747.pdf"
+},
+  {
+    "id": "csir-ihbt-pa-recruitment-2026",
+    "b": "CSIR-Institute of Himalayan Bioresource Technology (CSIR IHBT), Palampur",
+    "t": "CSIR-Institute of Himalayan Bioresource Technology (CSIR IHBT), Palampur Recruitment 2026 Notification Out for 7 Project Associate PAT I, Project Associate PAT II, Project Assistant-I (PA-I) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026",
+    "a": "15/ 2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "CSIR-Institute of Himalayan Bioresource Technology (CSIR IHBT), Palampur has officially announced employment advertisement notification 15/ 2026 inviting applications for 7 vacancies for Project Associate PAT I, Project Associate PAT II, Project Assistant-I (PA-I) posts.",
+    "u": "https://www.ihbt.res.in/components/com_chronoforms5/chronoforms/uploads/Recruitment/20260915141709_Final_Advt._no._15_by__2026_with_Application_Form.pdf"
+},
+  {
+    "id": "nit-kurukshetra-je-recruitment-2026",
+    "b": "National Institute of Technology Kurukshetra",
+    "t": "National Institute of Technology Kurukshetra Recruitment 2026 Notification Out for 4 Junior Engineer Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "28/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "National Institute of Technology Kurukshetra has officially announced employment advertisement notification 28/2026 inviting applications for 4 vacancies for Junior Engineer posts.",
+    "u": "https://nitkkr.ac.in/wp-content/uploads/2026/09/Instruction-Sheet-for-JE-Advt.-No.28.2026-1.pdf"
+},
+  {
+    "id": "aiims-jhajjar-pts-iii-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar)",
+    "t": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar) Recruitment 2026 Notification Out for 1 PTS III (Project Technical Support III) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "28 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc) | BDS / Dental",
+    "desc": "All India Institute of Medical Sciences Jhajjar (AIIMS Jhajjar) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for PTS III (Project Technical Support III) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScKvdi2EsMtdLCw0yRIklbLCmWhJHoxM-ldGePl7O50UQttog/viewform"
+},
+  {
+    "id": "skau-consultanttechnical-recruitment-2026",
+    "b": "Shri Krishna AYUSH University Kurukshetra (SKAU)",
+    "t": "Shri Krishna AYUSH University Kurukshetra (SKAU) Recruitment 2026 Notification Out for 2 Consultant,Technical Advisor Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "CSP-08/2026",
+    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
+    "desc": "Shri Krishna AYUSH University Kurukshetra (SKAU) has officially announced employment advertisement notification CSP-08/2026 inviting applications for 2 vacancies for Consultant,Technical Advisor posts.",
+    "u": "https://skau.ac.in/downloads/files/n6aa7d4ec942a0.pdf"
+},
+  {
+    "id": "jc-bose-university-research-assistantpr-recruitment-2026",
+    "b": "J.C. Bose University of Science and Technology",
+    "t": "J.C. Bose University of Science and Technology Recruitment 2026 Notification Out for 1 Research Assistant/Project Fellow Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "18 September 2026 (Walk-in)",
+    "a": "399/15",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "J.C. Bose University of Science and Technology has officially announced employment advertisement notification 399/15 inviting applications for 1 vacancies for Research Assistant/Project Fellow posts.",
+    "u": "https://jcboseust.ac.in/assets/files/Research_Assistant_cum_project_fellow_under_HSRF_project_1.pdf"
+},
+  {
+    "id": "pgims-rohtak-ayushman-mitra-recruitment-2026",
+    "b": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences Rohtak (PGIMS Rohtak)",
+    "t": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences Rohtak (PGIMS Rohtak) Recruitment 2026 Notification Out for 20 Ayushman Mitra Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "28 September 2026",
+    "a": "PGIMS/AB/26/849",
+    "q": "Any Bachelor's Degree",
+    "desc": "Pandit Bhagwat Dayal Sharma Post Graduate Institute of Medical Sciences Rohtak (PGIMS Rohtak) has officially announced employment advertisement notification PGIMS/AB/26/849 inviting applications for 20 vacancies for Ayushman Mitra posts.",
+    "u": "https://www.uhsr.ac.in/sites/default/files/2026-09/140926ayushmanadvt.pdf"
+},
+  {
+    "id": "iibf-in-charge-recruitment-2026",
+    "b": "Indian Institute of Banking & Finance (IIBF)",
+    "t": "Indian Institute of Banking & Finance (IIBF) Recruitment 2026 Notification Out for 1 In charge, Professional Development Centre Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Banking & Finance (IIBF) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for In charge, Professional Development Centre posts.",
+    "u": "https://iibf.esdsconnect.com/careers/head_pdc_gift_city_gandhinagar"
+},
+  {
     "id": "iim-centre-research-recruitment-2026",
     "b": "Indian Institute of Management Ahmedabad (IIM Ahmedabad)",
     "t": "Indian Institute of Management Ahmedabad (IIM Ahmedabad) Recruitment 2026 Notification Out for 2 Centre Research Fellow Posts | Apply Online",
