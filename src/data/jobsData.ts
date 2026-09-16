@@ -188,17 +188,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://career.iprc.gov.in/"
 },
   {
-    "id": "nhm-tn-contractualtemporary-recruitment-2026",
-    "b": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu",
-    "t": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
-    "d": "16 September 2026",
-    "l": "25 September 2026, 5:00 PM",
-    "a": "NATIONAL-HEALT/2026",
-    "q": "Candidates should check both the qualification and age requirements belo...",
-    "desc": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
-    "u": "https://cdn.s3waas.gov.in/s37eacb532570ff6858afd2723755ff790/uploads/2026/09/17892143249930.pdf"
-},
-  {
     "id": "dcpu-tirupathur-junior-assistant-recruitment-2026",
     "b": "District Child Protection Unit Tirupathur (DCPU Tirupathur)",
     "t": "District Child Protection Unit Tirupathur (DCPU Tirupathur) Recruitment 2026 Notification Out for 2 Junior Assistant Cum Bench Clerk and Office Assistant Posts | Apply Offline",
@@ -937,13 +926,13 @@ export const JOBS_DATA: JobEntry[] = [
 },
   {
     "id": "district-health-so-contractualtemporary-recruitment-2026",
-    "b": "National Health Mission Tamil Nadu (NHM-TN) / District Health Society",
-    "t": "NHM Tamil Nadu (District Health Society) Recruitment 2026 Notification Out for 4724 Contractual Staff Nurse Posts | Apply Offline",
+    "b": "National Health Mission - Tamil Nadu (NHM-TN) / Health and Family Welfare Dept, Govt of Tamil Nadu",
+    "t": "NHM Tamil Nadu Staff Nurse Recruitment 2026 Notification Out for 4,724 Posts (DIPR/802/DISPLAY/2026) | GNM / B.Sc Nursing | Apply Offline",
     "d": "12 September 2026",
     "l": "25 September 2026 (5:00 PM)",
     "a": "DIPR/802/DISPLAY/2026",
-    "q": "GNM / B.Sc Nursing + Tamil Nadu Nurses and Midwives Council Registration",
-    "desc": "Government of Tamil Nadu, Health and Family Welfare Department, and National Health Mission - Tamil Nadu (NHM-TN) / State Health Society (மாநில நலவாழ்வு சங்கம், தமிழ்நாடு) have officially released employment notification DIPR/802/DISPLAY/2026 inviting applications for 4,724 vacancies for the post of Contractual / Temporary Staff Nurse (ஒப்பந்த / தற்காலிக செவிலியர்). These positions are purely contractual and temporary under the respective District Health Societies (DHS).",
+    "q": "GNM / B.Sc. Nursing + Active Registration with Tamil Nadu Nurses & Midwives Council",
+    "desc": "Government of Tamil Nadu, Health and Family Welfare Department, and National Health Mission - Tamil Nadu (NHM-TN) / State Health Society (மாநில நலவாழ்வு சங்கம், தமிழ்நாடு) have officially released employment notification DIPR/802/DISPLAY/2026 inviting applications for 4,724 vacancies for the post of Contractual / Temporary Staff Nurse (ஒப்பந்த / தற்காலிக செவிலியர்). These appointments are purely on a contract basis and temporary in nature under the respective District Health Societies (DHS).",
     "u": "https://nhm.tn.gov.in"
 },
   {
