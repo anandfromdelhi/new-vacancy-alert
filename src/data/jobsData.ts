@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iim-centre-research-recruitment-2026",
+    "b": "Indian Institute of Management Ahmedabad (IIM Ahmedabad)",
+    "t": "Indian Institute of Management Ahmedabad (IIM Ahmedabad) Recruitment 2026 Notification Out for 2 Centre Research Fellow Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "15 October 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Ahmedabad (IIM Ahmedabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Centre Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdsR8u68eO41wVWbT5bPfYfgdmTUN9UMLFUoby2zuDWdiiKVg/viewform"
+},
+  {
+    "id": "iima-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Management Ahmedabad (IIMA)",
+    "t": "Indian Institute of Management Ahmedabad (IIMA) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "15 October 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Ahmedabad (IIMA) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Assistant posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScCqqaSdOF3u78DBp2vty08R4f2WmWrwALpx3uk4wQXe6xpag/viewform"
+},
+  {
+    "id": "vmc-15-urban-recruitment-2026",
+    "b": "Vadodara Mahanagar Palika (Vadodara Municipal Corporation)",
+    "t": "Vadodara Mahanagar Palika (Vadodara Municipal Corporation) Recruitment 2026 Notification Out for 178 15 posts (Urban Planner, Archaeology and Museology Officer, Environmental Engineer, GIS Operator/Expert, Garden Supervisor, Librarian, Work Assistant, Draftsman, Surveyor, and others) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "Refer Official Notification",
+    "a": "382/2025-27",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Vadodara Mahanagar Palika (Vadodara Municipal Corporation) has officially announced employment advertisement notification 382/2025-27 inviting applications for 178 vacancies for 15 posts (Urban Planner, Archaeology and Museology Officer, Environmental Engineer, GIS Operator/Expert, Garden Supervisor, Librarian, Work Assistant, Draftsman, Surveyor, and others) posts.",
+    "u": "https://vmc.gov.in/Recruitment/"
+},
+  {
+    "id": "csir-nio-pa-recruitment-2026",
+    "b": "National Institute of Oceanography (CSIR NIO)",
+    "t": "National Institute of Oceanography (CSIR NIO) Recruitment 2026 Notification Out for 1 Project Associate I Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "20 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Oceanography (CSIR NIO) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Project Associate I posts.",
+    "u": "https://www.nio.res.in/vacancies/temporary/1806804"
+},
+  {
+    "id": "tnau-ra-recruitment-2026",
+    "b": "Tamil Nadu Agricultural University (TNAU)",
+    "t": "Tamil Nadu Agricultural University (TNAU) Recruitment 2026 Notification Out for 2 Research Associate, Food Analyst Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "16 September 2026 (Walk-in)",
+    "a": "TAMIL-NADU-AGR/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tamil Nadu Agricultural University (TNAU) has officially announced employment advertisement notification TAMIL-NADU-AGR/2026 inviting applications for 2 vacancies for Research Associate, Food Analyst posts.",
+    "u": "https://tnau.ac.in/site/csw/job-opportunities/"
+},
+  {
+    "id": "army-dental-corps-short-service-recruitment-2026",
+    "b": "Army Dental Corps",
+    "t": "Army Dental Corps Recruitment 2026 Notification Out for 37 Short Service Commissioned Officer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "22 October 2026",
+    "a": "CBC 10601/11/0027/2627 | EN 25/71",
+    "q": "BDS / Dental",
+    "desc": "Army Dental Corps has officially announced employment advertisement notification CBC 10601/11/0027/2627 | EN 25/71 inviting applications for 37 vacancies for Short Service Commissioned Officer posts.",
+    "u": "https://joinindianarmy.nic.in/dental/"
+},
+  {
+    "id": "delhi-hc-delhi-pa-recruitment-2026",
+    "b": "High Court of Delhi, New Delhi",
+    "t": "High Court of Delhi, New Delhi Recruitment 2026 Notification Out for 150 Senior Personal Assistant (SPA), Personal Assistant (PA) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "05 October 2026",
+    "a": "HIGH-COURT-OF-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "High Court of Delhi, New Delhi has officially announced employment advertisement notification HIGH-COURT-OF-/2026 inviting applications for 150 vacancies for Senior Personal Assistant (SPA), Personal Assistant (PA) posts.",
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/33131/102306/Index.html"
+},
+  {
+    "id": "icar-iari-yp-recruitment-2026",
+    "b": "ICAR Indian Agricultural Research Institute (ICAR IARI)",
+    "t": "ICAR Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 Notification Out for 1 Young Professional II Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026",
+    "a": "ICAR-INDIAN-AG/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR Indian Agricultural Research Institute (ICAR IARI) has officially announced employment advertisement notification ICAR-INDIAN-AG/2026 inviting applications for 1 vacancies for Young Professional II posts.",
+    "u": "https://iari.res.in/files/jobs/YP_II_interview_advertisement_15092026.pdf"
+},
+  {
+    "id": "esic-ap-recruitment-2026",
+    "b": "ESIC Medical College & Hospital Basaidarapur",
+    "t": "ESIC Medical College & Hospital Basaidarapur Recruitment 2026 Notification Out for 31 Teaching Faculty (Professor, Associate Professor, Assistant Professor) Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "A-12016/7/2022-PGIMSR-Part(3)",
+    "q": "As per latest NMC (MCI) notifications",
+    "desc": "ESIC Medical College & Hospital Basaidarapur has officially announced employment advertisement notification A-12016/7/2022-PGIMSR-Part(3) inviting applications for 31 vacancies for Teaching Faculty (Professor, Associate Professor, Assistant Professor) posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Engagement_of_teaching_faculty_super_speciality_departments_on_contractual_basis_1789401112.pdf"
+},
+  {
+    "id": "government-enginee-ap-recruitment-2026",
+    "b": "Government Engineering College Daman",
+    "t": "Government Engineering College Daman Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "09 October 2026",
+    "a": "1.0-EST-GEC/Volume-III/2026-27/495",
+    "q": "B.Tech / B.E | M.Tech / M.E | MBBS / Medical PG",
+    "desc": "Government Engineering College Daman has officially announced employment advertisement notification 1.0-EST-GEC/Volume-III/2026-27/495 inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/202609151431689579.pdf"
+},
+  {
     "id": "rites-manager-assistant-recruitment-2026",
     "b": "RITES",
     "t": "RITES Recruitment 2026 Notification Out for 33 Manager, Assistant Manager, DGM Posts | Apply Online",
