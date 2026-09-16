@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mpsc-mizoram-peon-recruitment-2026",
+    "b": "Mizoram Public Service Commission",
+    "t": "Mizoram Public Service Commission Recruitment 2026 Notification Out for 3 Peon Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "13 October 2026",
+    "a": "No.A.12026/33/2026-MPSC(PRE)",
+    "q": "Class-VIII certificate or above",
+    "desc": "Mizoram Public Service Commission has officially announced employment advertisement notification No.A.12026/33/2026-MPSC(PRE) inviting applications for 3 vacancies for Peon posts.",
+    "u": "https://mpsconline.mizoram.gov.in"
+},
+  {
+    "id": "nehu-pa-recruitment-2026",
+    "b": "North Eastern Hill University (NEHU)",
+    "t": "North Eastern Hill University (NEHU) Recruitment 2026 Notification Out for 1 Project Assistant/ Intern Posts | Walk-in Interview",
+    "d": "16 September 2026",
+    "l": "17 September 2026 (Walk-in)",
+    "a": "TC/NEHU/ABMFT/IKS-2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "North Eastern Hill University (NEHU) has officially announced employment advertisement notification TC/NEHU/ABMFT/IKS-2026 inviting applications for 1 vacancies for Project Assistant/ Intern posts.",
+    "u": "https://nehu.ac.in/public/assets/files/advertisements/20260914122336_IKS-CENTRE-ABMFT-advt-project-assistant.pdf"
+},
+  {
+    "id": "csir-neeri-ta-recruitment-2026",
+    "b": "CSIR National Environmental Engineering Research Institute (CSIR NEERI)",
+    "t": "CSIR National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 Notification Out for 13 Technical Assistant and Technical Officer (across eight post codes/ disciplines) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "15 October 2026, 05:00 P.M.",
+    "a": "CSIR NEERI/ 1/ 2026",
+    "q": "B.Sc | MBA / BBA",
+    "desc": "CSIR National Environmental Engineering Research Institute (CSIR NEERI) has officially announced employment advertisement notification CSIR NEERI/ 1/ 2026 inviting applications for 13 vacancies for Technical Assistant and Technical Officer (across eight post codes/ disciplines) posts.",
+    "u": "https://www.neeri.res.in/file_homes/45139759_ADVt-%20to%20be%20forwarded%20to%20CFTRI-Sd.pdf"
+},
+  {
+    "id": "kbcnmu-ap-recruitment-2026",
+    "b": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon",
+    "t": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon Recruitment 2026 Notification Out for 138 Temporary Assistant Professor (Contract) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "28 September 2026",
+    "a": "ADVT. No. 04/2026",
+    "q": "Eligibility for the post of Assistant Professor is governed by U.G.C., S...",
+    "desc": "Kavayitri Bahinabai Chaudhari North Maharashtra University (KBCNMU), Jalgaon has officially announced employment advertisement notification ADVT. No. 04/2026 inviting applications for 138 vacancies for Temporary Assistant Professor (Contract) posts.",
+    "u": "https://https//apps.nmu.ac.in/recruitment/"
+},
+  {
+    "id": "nit-calicut-team-lead-recruitment-2026",
+    "b": "National Institute of Technology Calicut",
+    "t": "National Institute of Technology Calicut Recruitment 2026 Notification Out for 3 Team Lead / Junior Web Developer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "P1/Adhoc/Recr/2026-27",
+    "q": "ITI | Diploma | Any Bachelor's Degree",
+    "desc": "National Institute of Technology Calicut has officially announced employment advertisement notification P1/Adhoc/Recr/2026-27 inviting applications for 3 vacancies for Team Lead / Junior Web Developer posts.",
+    "u": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__0de5e58c-88ef-46b7-9b26-951c667c2ab0_.pdf"
+},
+  {
+    "id": "cpri-engineering-officer-recruitment-2026",
+    "b": "Central Power Research Institute (CPRI)",
+    "t": "Central Power Research Institute (CPRI) Recruitment 2026 Notification Out for 110 Engineering Officer, Engineering Assistant, Scientific Assistant, Technician, Technical Attendant, Assistant & Multi-Tasking Staff Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "Refer Official Notification",
+    "a": "CPRI/06/2026",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "Central Power Research Institute (CPRI) has officially announced employment advertisement notification CPRI/06/2026 inviting applications for 110 vacancies for Engineering Officer, Engineering Assistant, Scientific Assistant, Technician, Technical Attendant, Assistant & Multi-Tasking Staff posts.",
+    "u": "https://cpri.res.in/"
+},
+  {
+    "id": "mahe-project-technical-recruitment-2026-3067687",
+    "b": "Manipal Academy of Higher Education (MAHE)",
+    "t": "Manipal Academy of Higher Education (MAHE) Recruitment 2026 Notification Out for 1 Project Technical Support - III (JRF equivalent) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "21 September 2026",
+    "a": "MANIPAL-ACADEM/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Manipal Academy of Higher Education (MAHE) has officially announced employment advertisement notification MANIPAL-ACADEM/2026 inviting applications for 1 vacancies for Project Technical Support - III (JRF equivalent) posts.",
+    "u": "https://www.manipal.edu/content/dam/manipal/mu/documents/mahe/Careers/j2026/research/Research%20MIT%20Mpl%20-%20Sep%2011%202026.pdf"
+},
+  {
+    "id": "iisc-software-eng-recruitment-2026",
+    "b": "Indian Institute of Science (IISc)",
+    "t": "Indian Institute of Science (IISc) Recruitment 2026 Notification Out for 4 Software Engineer (SAP Functional Analyst) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "06 October 2026",
+    "a": "R(HR)Temp-16(SE-DIGITS)/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Indian Institute of Science (IISc) has officially announced employment advertisement notification R(HR)Temp-16(SE-DIGITS)/2026 inviting applications for 4 vacancies for Software Engineer (SAP Functional Analyst) posts.",
+    "u": "https://recruitment.iisc.ac.in/Temporary_Positions/"
+},
+  {
+    "id": "casdic-drdo-paid-intern-recruitment-2026",
+    "b": "Combat Aircraft System Development and Integration Centre (CASDIC DRDO)",
+    "t": "Combat Aircraft System Development and Integration Centre (CASDIC DRDO) Recruitment 2026 Notification Out for 30 Paid Intern Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "11 October 2026",
+    "a": "CASDIC/HRG/PDINTERN/2026/01",
+    "q": "B.Tech / B.E | M.Sc",
+    "desc": "Combat Aircraft System Development and Integration Centre (CASDIC DRDO) has officially announced employment advertisement notification CASDIC/HRG/PDINTERN/2026/01 inviting applications for 30 vacancies for Paid Intern posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCASDIC14092026.pdf"
+},
+  {
+    "id": "iit-dhanbad-pa-recruitment-2026",
+    "b": "Indian Institute of TechnologyDhanbad",
+    "t": "Indian Institute of TechnologyDhanbad Recruitment 2026 Notification Out for 1 ANRF Project Associate-I Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "ANRF/ARG/2025/006925/ENS",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of TechnologyDhanbad has officially announced employment advertisement notification ANRF/ARG/2025/006925/ENS inviting applications for 1 vacancies for ANRF Project Associate-I posts.",
+    "u": "https://www.iitism.ac.in/"
+},
+  {
     "id": "junior-plant-prote-crop-guard-recruitment-2026",
     "b": "Junior Plant Protection Office Hazaribagh",
     "t": "Junior Plant Protection Office Hazaribagh Recruitment 2026 Notification Out for 5 Crop Guard Posts | Apply Offline",
