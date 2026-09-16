@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "women-child-disabl-anganwadi-teacher-recruitment-2026",
+    "b": "Women, Child, Disabled and Senior Citizens Welfare Department, Nirmal District, Government of Telangana",
+    "t": "Women, Child, Disabled and Senior Citizens Welfare Department, Nirmal District, Government of Telangana Recruitment 2026 Notification Out for 89 Anganwadi Teacher (AWT) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026, up to 5:00 PM",
+    "a": "A/255/2026",
+    "q": "12th Pass | B.Tech / B.E",
+    "desc": "Women, Child, Disabled and Senior Citizens Welfare Department, Nirmal District, Government of Telangana has officially announced employment advertisement notification A/255/2026 inviting applications for 89 vacancies for Anganwadi Teacher (AWT) posts.",
+    "u": "https://mis.tgwdcw.in"
+},
+  {
+    "id": "department-of-wome-anganwadi-teacher-recruitment-2026",
+    "b": "Department of Women, Child, Disabled and Senior Citizens Welfare, Narayanpet District, Telangana",
+    "t": "Department of Women, Child, Disabled and Senior Citizens Welfare, Narayanpet District, Telangana Recruitment 2026 Notification Out for 65 Anganwadi Teacher, Anganwadi Helper Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "30 September 2026 (Wednesday), up to 5:00 PM",
+    "a": "740/AR/2026",
+    "q": "12th Pass",
+    "desc": "Department of Women, Child, Disabled and Senior Citizens Welfare, Narayanpet District, Telangana has officially announced employment advertisement notification 740/AR/2026 inviting applications for 65 vacancies for Anganwadi Teacher, Anganwadi Helper posts.",
+    "u": "https://mis.tgwdcw.in/AWTNotification2026/NARAYANPET_NOTIFICATION_15.09.2026.jpeg"
+},
+  {
+    "id": "iit-hyderabad-doctoral-research-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 1 Postdoctoral Research Fellow Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Postdoctoral Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSc4IZTNRahxycxmmG4RqUhXsF83MC7tRohYzFdV2h2vkKuNTA/viewform?usp=dialog"
+},
+  {
+    "id": "iprc-essential-qualificat-recruitment-2026",
+    "b": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India",
+    "t": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India Recruitment 2026 Notification Out for 22 Essential Qualification Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "5 October 2026",
+    "a": "IPRC/RMT/2026/01",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "ISRO Propulsion Complex (IPRC), Indian Space Research Organisation, Department of Space, Government of India has officially announced employment advertisement notification IPRC/RMT/2026/01 inviting applications for 22 vacancies for Essential Qualification posts.",
+    "u": "https://career.iprc.gov.in/"
+},
+  {
+    "id": "nhm-tn-contractualtemporary-recruitment-2026",
+    "b": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu",
+    "t": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "25 September 2026, 5:00 PM",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Candidates should check both the qualification and age requirements belo...",
+    "desc": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
+    "u": "https://cdn.s3waas.gov.in/s37eacb532570ff6858afd2723755ff790/uploads/2026/09/17892143249930.pdf"
+},
+  {
+    "id": "dcpu-tirupathur-junior-assistant-recruitment-2026",
+    "b": "District Child Protection Unit Tirupathur (DCPU Tirupathur)",
+    "t": "District Child Protection Unit Tirupathur (DCPU Tirupathur) Recruitment 2026 Notification Out for 2 Junior Assistant Cum Bench Clerk and Office Assistant Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "SSLC (Class 10) or equivalent with Computer Proficiency and Typing Certi...",
+    "desc": "District Child Protection Unit Tirupathur (DCPU Tirupathur) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 2 vacancies for Junior Assistant Cum Bench Clerk and Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s37f6ffaa6bb0b408017b62254211691b5/uploads/2026/09/17894524591170.pdf"
+},
+  {
+    "id": "bhavini-trade-apprentice-recruitment-2026",
+    "b": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)",
+    "t": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI) Recruitment 2026 Notification Out for 50 Trade Apprentice Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "1 October 2026",
+    "a": "BHAVINI/HR/TA-V/2026-2027",
+    "q": "10th / 8th Pass | 12th Pass | ITI",
+    "desc": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI) has officially announced employment advertisement notification BHAVINI/HR/TA-V/2026-2027 inviting applications for 50 vacancies for Trade Apprentice posts.",
+    "u": "https://www.apprenticeshipindia.gov.in/candidate-login"
+},
+  {
+    "id": "tnsffcc-ta-recruitment-2026",
+    "b": "Tamil Nadu State Forest Fire Control Centre (TNSFFCC)",
+    "t": "Tamil Nadu State Forest Fire Control Centre (TNSFFCC) Recruitment 2026 Notification Out for 9 GIS Expert, Technical Assistant and More Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "29 September 2026",
+    "a": "01/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tamil Nadu State Forest Fire Control Centre (TNSFFCC) has officially announced employment advertisement notification 01/2026 inviting applications for 9 vacancies for GIS Expert, Technical Assistant and More Posts posts.",
+    "u": "https://forests.tn.gov.in"
+},
+  {
+    "id": "dcpu-salem-case-worker-recruitment-2026",
+    "b": "District Child Protection Unit Salem (DCPU Salem)",
+    "t": "District Child Protection Unit Salem (DCPU Salem) Recruitment 2026 Notification Out for 1 Case Worker Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "12th Pass",
+    "desc": "District Child Protection Unit Salem (DCPU Salem) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 1 vacancies for Case Worker posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/09/17891995611477.pdf"
+},
+  {
+    "id": "iit-madras-patent-agent-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Patent Agent Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "29 September 2026",
+    "a": "ICSR/PR/Advt",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt inviting applications for 1 vacancies for Patent Agent posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
     "id": "directorate-of-med-mo-recruitment-2026",
     "b": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan",
     "t": "Directorate of Medical Health & Family Welfare Services, Government of Rajasthan Recruitment 2026 Notification Out for 600 Medical Officer (Medical) Posts | Apply Online",
