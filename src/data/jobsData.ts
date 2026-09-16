@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "employees-state-in-ap-recruitment-2026",
+    "b": "Employees State Insurance Corporation Dental College & Hospital, Kalaburagi",
+    "t": "Employees State Insurance Corporation Dental College & Hospital, Kalaburagi Recruitment 2026 Notification Out for 4 Professor and Assistant Professor Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "532/GLBDC/A/12(1)/2021-22/Estt/Vol-II",
+    "q": "BDS / Dental",
+    "desc": "Employees State Insurance Corporation Dental College & Hospital, Kalaburagi has officially announced employment advertisement notification 532/GLBDC/A/12(1)/2021-22/Estt/Vol-II inviting applications for 4 vacancies for Professor and Assistant Professor posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_amp_ndash_Professor_amp_Assistant_Professor_1_Year_Contract_Extendable_up_to_2_Years_amp_ndash_ESIC_Dental_College_Kalaburagi_1789374455.pdf"
+},
+  {
+    "id": "ucsl-iti-trade-recruitment-2026",
+    "b": "Udupi Cochin Shipyard Limited (UCSL)",
+    "t": "Udupi Cochin Shipyard Limited (UCSL) Recruitment 2026 Notification Out for 12 ITI Trade, Graduate/Technician Apprentices Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "14 October 2026",
+    "a": "Designated",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "Udupi Cochin Shipyard Limited (UCSL) has officially announced employment advertisement notification Designated inviting applications for 12 vacancies for ITI Trade, Graduate/Technician Apprentices posts.",
+    "u": "https://udupicsl.com/wp-content/uploads/2026/09/App-ITI-Application-form.pdf"
+},
+  {
+    "id": "hal-visiting-consultant-recruitment-2026",
+    "b": "Hindustan Aeronautics (HAL)",
+    "t": "Hindustan Aeronautics (HAL) Recruitment 2026 Notification Out for 1 Visiting Consultant (Neuro Surgeon) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "IHC/HR/25/18/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Hindustan Aeronautics (HAL) has officially announced employment advertisement notification IHC/HR/25/18/2026 inviting applications for 1 vacancies for Visiting Consultant (Neuro Surgeon) posts.",
+    "u": "https://hal-india.co.in/backend//wp-content/uploads/career/Neuro%20Surgeon_1789536260.pdf"
+},
+  {
+    "id": "drdo-mtrdc-jrf-recruitment-2026",
+    "b": "DRDO MTRDC",
+    "t": "DRDO MTRDC Recruitment 2026 Notification Out for 3 Junior Research Fellow Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "15 October 2026 (Walk-in)",
+    "a": "Name",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "DRDO MTRDC has officially announced employment advertisement notification Name inviting applications for 3 vacancies for Junior Research Fellow posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtMTRDC16092026.pdf"
+},
+  {
+    "id": "csir-pa-recruitment-2026",
+    "b": "CSIR Central Food Technological Research Institute",
+    "t": "CSIR Central Food Technological Research Institute Recruitment 2026 Notification Out for 1 Project Associate II (PAT-II) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "PAT 58/2026",
+    "q": "M.Sc",
+    "desc": "CSIR Central Food Technological Research Institute has officially announced employment advertisement notification PAT 58/2026 inviting applications for 1 vacancies for Project Associate II (PAT-II) posts.",
+    "u": "https://cftri.res.in/ApplicationForm/0_25693000_1789560451.pdf"
+},
+  {
+    "id": "rbi-medical-consultant-recruitment-2026",
+    "b": "Reserve Bank of India (RBI)",
+    "t": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 1 Medical Consultant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "08 October 2026",
+    "a": "RESERVE-BANK-O/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Reserve Bank of India (RBI) has officially announced employment advertisement notification RESERVE-BANK-O/2026 inviting applications for 1 vacancies for Medical Consultant posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/ABMCS16092026FE3930297B4AD465D994AC5D5F9DA0D48.PDF"
+},
+  {
+    "id": "hspcb-pa-recruitment-2026",
+    "b": "Haryana State Pollution Control Board (HSPCB)",
+    "t": "Haryana State Pollution Control Board (HSPCB) Recruitment 2026 Notification Out for 76 Chief Scientific Officer, Senior Scientist, Environmental Engineer, Assistant Environmental Engineer, Scientist B, Private Secretary, Personal Assistant, Senior Scale Stenographer, Junior Scale, Stenographer, Steno-typist, Assistant, Accountant, Accounts Clerk Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "HSPCB/Estt./2026/5563",
+    "q": "B.Tech / B.E | M.Sc | B.Com",
+    "desc": "Haryana State Pollution Control Board (HSPCB) has officially announced employment advertisement notification HSPCB/Estt./2026/5563 inviting applications for 76 vacancies for Chief Scientific Officer, Senior Scientist, Environmental Engineer, Assistant Environmental Engineer, Scientist B, Private Secretary, Personal Assistant, Senior Scale Stenographer, Junior Scale, Stenographer, Steno-typist, Assistant, Accountant, Accounts Clerk posts.",
+    "u": "https://hpgcl.org.in/uploads/fileupload/5563-64_Deputation_Circular_0001.pdf"
+},
+  {
+    "id": "esic-margao-ap-recruitment-2026",
+    "b": "ESIC Medical College & Hospital Margao",
+    "t": "ESIC Medical College & Hospital Margao Recruitment 2026 Notification Out for 32 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "22 September 2026",
+    "a": "323 (Dean-Goa) /Rectt. Adv -02/2026",
+    "q": "Diploma | M.Sc | MBBS / Medical PG",
+    "desc": "ESIC Medical College & Hospital Margao has officially announced employment advertisement notification 323 (Dean-Goa) /Rectt. Adv -02/2026 inviting applications for 32 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Faculty_Recruitment_Advertisement_for_Proposed_ESIC_Medical_College_Hospital_Margao_Goa_02_2026_1789537791.pdf"
+},
+  {
+    "id": "iit-goa-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Goa (IIT Goa)",
+    "t": "Indian Institute of Technology Goa (IIT Goa) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "IITGoa/DoRD/020/REC/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Indian Institute of Technology Goa (IIT Goa) has officially announced employment advertisement notification IITGoa/DoRD/020/REC/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://iitgoa.ac.in/wp-content/uploads/IITGoaDoRD020REC2026.pdf"
+},
+  {
+    "id": "dtl-asstt-manager-recruitment-2026",
+    "b": "Delhi Transco Limited (DTL)",
+    "t": "Delhi Transco Limited (DTL) Recruitment 2026 Notification Out for 65 Asstt. Manager (T) Trainee-Electrical, Asstt. Manager (T) Trainee-Non-Electrical, Asstt. Manager (Civil) Trainee Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 days from the date of publication of this notice in Employment News (29 September 2026)",
+    "a": "DELHI-TRANSCO-/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Delhi Transco Limited (DTL) has officially announced employment advertisement notification DELHI-TRANSCO-/2026 inviting applications for 65 vacancies for Asstt. Manager (T) Trainee-Electrical, Asstt. Manager (T) Trainee-Non-Electrical, Asstt. Manager (Civil) Trainee posts.",
+    "u": "https://dtl.gov.in/WriteReadData/Career/DTL-CR-73-170826.pdf"
+},
+  {
     "id": "eil-associate-engineer-recruitment-2026",
     "b": "Engineers India Limited (EIL)",
     "t": "Engineers India Limited (EIL) Recruitment 2026 Notification Out for 15 Associate Engineer Grade II and Associate Engineer Grade III Posts | Apply Online",
