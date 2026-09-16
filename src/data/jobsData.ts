@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-roorkee-jrfsrf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 JRF/SRF Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "ISR-2733-DMC/25-26/JRF/INT/A",
+    "q": "M.Tech / M.E | B.Sc | M.Sc",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification ISR-2733-DMC/25-26/JRF/INT/A inviting applications for 1 vacancies for JRF/SRF posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CoEDMM/2026/adv150920264.pdf"
+},
+  {
+    "id": "iit-roorkee-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 2 JRF Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "16 October 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for JRF posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ES/2026/adv150920262.pdf"
+},
+  {
+    "id": "iit-roorkee-project-officer-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 3 Project officer (Clinical Psychologist) Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "22 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Phil. in Clinical Psychology or equivalent with at least 55% marks fro...",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Project officer (Clinical Psychologist) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/DoSW/2026/adv150920265.pdf"
+},
+  {
+    "id": "upsssc-vet-pharmacist-recruitment-2026",
+    "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow",
+    "t": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow Recruitment 2026 Notification Out for 1686 Veterinary Pharmacist Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "05 October 2026",
+    "a": "18-Pariksha/2026",
+    "q": "Only candidates who appeared in Preliminary Eligibility Test (PET) 2025 ...",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC), Lucknow has officially announced employment advertisement notification 18-Pariksha/2026 inviting applications for 1686 vacancies for Veterinary Pharmacist posts.",
+    "u": "https://upsssc.gov.in/AllNotifications.aspx"
+},
+  {
+    "id": "iit-kanpur-project-scientist-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 3 Project Scientist / Project Engineer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "P.Rect./R&D/2026/182",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P.Rect./R&D/2026/182 inviting applications for 3 vacancies for Project Scientist / Project Engineer posts.",
+    "u": "https://www.iitk.ac.in/dord/project/ncg-ps-pe-11-09-26.html"
+},
+  {
+    "id": "bsa-pgt-peon-recruitment-2026",
+    "b": "District Basic Education Officer (BSA), Gorakhpur",
+    "t": "District Basic Education Officer (BSA), Gorakhpur Recruitment 2026 Notification Out for 132 PGT, Peon and More Posts | Apply Offline",
+    "d": "16 September 2026",
+    "l": "30 September 2026, 5:00 PM",
+    "a": "SSSO/BASHI/6585-92",
+    "q": "Female candidates only",
+    "desc": "District Basic Education Officer (BSA), Gorakhpur has officially announced employment advertisement notification SSSO/BASHI/6585-92 inviting applications for 132 vacancies for PGT, Peon and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s301386bd6d8e091c2ab4c7c7de644d37b/uploads/2026/09/17893904192270.pdf"
+},
+  {
+    "id": "iit-kanpur-senior-project-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 2 Senior Project Scientist / Senior Project Engineer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "P.Rect./R&D/2026/183",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Kanpur has officially announced employment advertisement notification P.Rect./R&D/2026/183 inviting applications for 2 vacancies for Senior Project Scientist / Senior Project Engineer posts.",
+    "u": "https://www.iitk.ac.in/dord/project/ncg-sps-spe-11-09-26.html"
+},
+  {
+    "id": "office-of-the-dist-anganwadi-karyakatri-recruitment-2026",
+    "b": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh",
+    "t": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh Recruitment 2026 Notification Out for 267 Anganwadi Karyakatri (Worker), Anganwadi Sahayika (Helper) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "28 September 2026, midnight (12:00 AM)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "12th Pass | B.Tech / B.E",
+    "desc": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 267 vacancies for Anganwadi Karyakatri (Worker), Anganwadi Sahayika (Helper) posts.",
+    "u": "http://upanganwadibharti.in"
+},
+  {
+    "id": "aiims-ap-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), Gorakhpur, Uttar Pradesh",
+    "t": "All India Institute of Medical Sciences (AIIMS), Gorakhpur, Uttar Pradesh Recruitment 2026 Notification Out for 68 Professor, Additional Professor, Associate Professor, Assistant Professor (Group-A Faculty) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "13 October 2026",
+    "a": "AIIMS/GKP/RECT/FACULTY/2026-27/239, dated 14.09.2026",
+    "q": "MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences (AIIMS), Gorakhpur, Uttar Pradesh has officially announced employment advertisement notification AIIMS/GKP/RECT/FACULTY/2026-27/239, dated 14.09.2026 inviting applications for 68 vacancies for Professor, Additional Professor, Associate Professor, Assistant Professor (Group-A Faculty) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfeIbw1dOl0AogMX8K7w9AakKvtnuo5rUL4NZFs-MwhED9nTA/viewform"
+},
+  {
+    "id": "iit-hyderabad-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 1 Research Associate 2 Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "25 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate 2 posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSc4IZTNRahxycxmmG4RqUhXsF83MC7tRohYzFdV2h2vkKuNTA/viewform"
+},
+  {
     "id": "women-child-disabl-anganwadi-teacher-recruitment-2026",
     "b": "Women, Child, Disabled and Senior Citizens Welfare Department, Nirmal District, Government of Telangana",
     "t": "Women, Child, Disabled and Senior Citizens Welfare Department, Nirmal District, Government of Telangana Recruitment 2026 Notification Out for 89 Anganwadi Teacher (AWT) Posts | Apply Online",
