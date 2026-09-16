@@ -196,6 +196,18 @@ app.get(["/rss.xml", "/feed.xml", "/rss", "/feed"], (_req, res) => {
   res.status(200).send(rssXml);
 });
 
+// Canonical 301 redirect for merged Gautam Buddha Nagar Anganwadi vacancy
+app.get(["/office-of-the-dist-anganwadi-karyakatri-recruitment-2026", "/office-of-the-dist-anganwadi-karyakatri-recruitment-2026/"], (_req, res) => {
+  res.redirect(301, "/office-of-the-district-program-anganwadi-karyakatri-worker-an-recruitment-2026");
+});
+
+// Canonical 301 redirect for merged Delhi High Court PA/SPA vacancy
+app.get(["/delhi-hc-delhi-pa-recruitment-2026", "/delhi-hc-delhi-pa-recruitment-2026/"], (_req, res) => {
+  res.redirect(301, "/delhi-high-court-senior-personal-as-senior-personal-assistant-spa-perso-recruitment-2026");
+});
+
+
+
 // -----------------------------------------------------------------------------
 // TELEGRAM ACCOUNT PAIRING & WEBHOOK ENDPOINTS (PHASE 2)
 // -----------------------------------------------------------------------------

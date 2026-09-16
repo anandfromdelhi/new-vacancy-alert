@@ -111,17 +111,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iitk.ac.in/dord/project/ncg-sps-spe-11-09-26.html"
 },
   {
-    "id": "office-of-the-dist-anganwadi-karyakatri-recruitment-2026",
-    "b": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh",
-    "t": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh Recruitment 2026 Notification Out for 267 Anganwadi Karyakatri (Worker), Anganwadi Sahayika (Helper) Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "28 September 2026, midnight (12:00 AM)",
-    "a": "OFFICE-OF-THE-/2026",
-    "q": "12th Pass | B.Tech / B.E",
-    "desc": "Office of the District Programme Officer (Jila Karyakram Adhikari), Gautam Buddha Nagar, Uttar Pradesh has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 267 vacancies for Anganwadi Karyakatri (Worker), Anganwadi Sahayika (Helper) posts.",
-    "u": "http://upanganwadibharti.in"
-},
-  {
     "id": "aiims-ap-recruitment-2026",
     "b": "All India Institute of Medical Sciences (AIIMS), Gorakhpur, Uttar Pradesh",
     "t": "All India Institute of Medical Sciences (AIIMS), Gorakhpur, Uttar Pradesh Recruitment 2026 Notification Out for 68 Professor, Additional Professor, Associate Professor, Assistant Professor (Group-A Faculty) Posts | Apply Online",
@@ -626,17 +615,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "BDS / Dental",
     "desc": "Army Dental Corps has officially announced employment advertisement notification CBC 10601/11/0027/2627 | EN 25/71 inviting applications for 37 vacancies for Short Service Commissioned Officer posts.",
     "u": "https://joinindianarmy.nic.in/dental/"
-},
-  {
-    "id": "delhi-hc-delhi-pa-recruitment-2026",
-    "b": "High Court of Delhi, New Delhi",
-    "t": "High Court of Delhi, New Delhi Recruitment 2026 Notification Out for 150 Senior Personal Assistant (SPA), Personal Assistant (PA) Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "05 October 2026",
-    "a": "HIGH-COURT-OF-/2026",
-    "q": "Any Bachelor's Degree",
-    "desc": "High Court of Delhi, New Delhi has officially announced employment advertisement notification HIGH-COURT-OF-/2026 inviting applications for 150 vacancies for Senior Personal Assistant (SPA), Personal Assistant (PA) posts.",
-    "u": "https://cdn.digialm.com/EForms/configuredHtml/33131/102306/Index.html"
 },
   {
     "id": "icar-iari-yp-recruitment-2026",
@@ -5905,7 +5883,7 @@ export const JOBS_DATA: JobEntry[] = [
     "a": "Senior Personal Assistant & Personal Assistant Examination 2026, Dated 02.09.2026",
     "q": "Graduate Degree + English Shorthand (110/100 wpm) & Typing (40 wpm)",
     "desc": "High Court of Delhi has officially published the employment Vacancy Notice dated 02 September 2026 for the Senior Personal Assistant and Personal Assistant Examination 2026 to fill 150 existing Group 'B' Gazetted/Non-Gazetted vacancies and prepare a select panel thereof. The recruitment drive encompasses 117 vacancies for Senior Personal Assistant (SPA) in Pay Level 8 and 33 vacancies for Personal Assistant (PA) in Pay Level 7 of the 7th CPC Pay Matrix.",
-    "u": "https://www.delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf"
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/33131/102306/Index.html"
 },
   {
     "id": "health-family-welfare-department-go-medical-health-officer-i-mho-i-or-e-recruitment-2026",
