@@ -27,8 +27,11 @@ GIT_PATH = r"C:\Users\Administrator\MinGit\cmd\git.exe" if os.name == 'nt' else 
 NPM_CMD = "npm.cmd" if os.name == 'nt' else "npm"
 NPX_CMD = "npx.cmd" if os.name == 'nt' else "npx"
 
-with open(URLS_FILE, 'r', encoding='utf-8-sig') as f:
-    INPUT_URLS = json.load(f)
+if os.path.exists(URLS_FILE):
+    with open(URLS_FILE, 'r', encoding='utf-8-sig') as f:
+        INPUT_URLS = json.load(f)
+else:
+    INPUT_URLS = []
 
 MONTHS_MAP = {
     '01': 'January', '02': 'February', '03': 'March', '04': 'April',
@@ -62,26 +65,31 @@ BOARD_ACRONYM_MAP = {
     'railway recruitment board': 'rrb',
     'uttarakhand subordinate service selection commission': 'uksssc',
     'tamil nadu public service commission': 'tnpsc',
+    'andhra pradesh public service commission': 'appsc',
     'chhattisgarh public service commission': 'cgpsc',
+    'mizoram public service commission': 'mpsc-mizoram',
     'delhi development authority': 'dda',
     'india optel': 'iol',
     'punjab agricultural university': 'pau',
     'junagadh agricultural university': 'jau',
-    'maharaja ranjit singh punjab technical university': 'mrsptu',
+    'punjabi university': 'punjabi-univ',
+    'central university of punjab': 'cup',
+    'guru angad dev veterinary': 'gadvasu',
+    'gb pant university': 'gbpuat',
+    'govind ballabh pant university': 'gbpuat',
     'central university of jharkhand': 'cuj',
     'central university of odisha': 'cuo',
     'aligarh muslim university': 'amu',
     'manipal academy of higher education': 'mahe',
     'mineral exploration corporation': 'mecl',
     'army public school': 'aps',
-    'indira gandhi national centre for the arts': 'ignca',
+    'kendriya vidyalaya': 'kvs',
+    'pm shri kendriya vidyalaya': 'kvs',
     'national health mission': 'nhm',
     'goa staff selection commission': 'goa-ssc',
-    'sainik school': 'sainik-school',
     'government institute of medical sciences': 'gims',
     'tata memorial centre': 'tmc',
     'homi bhabha cancer hospital': 'hbchrc',
-    'lakshadweep energy development': 'leda',
     'container corporation of india': 'concor',
     'subordinate services selection board punjab': 'psssb',
     'rajasthan staff selection board': 'rsmssb',
@@ -89,22 +97,65 @@ BOARD_ACRONYM_MAP = {
     'national institute of technology': 'nit',
     'indian institute of technology': 'iit',
     'indian institute of management': 'iim',
-    'indian institute of science education and research': 'iiser',
+    'indian institute of science': 'iisc',
     'all india institute of medical sciences': 'aiims',
     'institute of banking personnel selection': 'ibps',
+    'indian institute of banking and finance': 'iibf',
     'defence research and development': 'drdo',
+    'combat aircraft system development': 'casdic-drdo',
     'indian space research': 'isro',
+    'isro propulsion complex': 'isro-iprc',
     'bharat electronics limited': 'bel',
     'bharat heavy electricals': 'bhel',
     'steel authority of india': 'sail',
-    'oil and natural gas': 'ongc'
+    'oil and natural gas': 'ongc',
+    'rites limited': 'rites',
+    'rites': 'rites',
+    'csir': 'csir',
+    'icar': 'icar',
+    'esic': 'esic',
+    'delhi high court': 'delhi-hc',
+    'high court of delhi': 'delhi-hc',
+    'madhya pradesh high court': 'mp-hc',
+    'vadodara mahanagar palika': 'vmc',
+    'uttar pradesh subordinate services selection commission': 'upsssc',
+    'district child protection unit': 'dcpu',
+    'rajasthan university of health sciences': 'ruhs',
+    'andaman & nicobar islands institute of medical sciences': 'aniims',
+    'gayatri co-operative urban bank': 'gayatri-bank',
+    'central power research institute': 'cpri',
+    'bhavini': 'bhavini',
+    'tamil nadu state forest': 'tnsffcc',
+    'shri krishna ayush university': 'skau',
+    'islamic university of science': 'iust',
+    'kavayitri bahinabai chaudhari north maharashtra university': 'kbcnmu',
+    'north eastern hill university': 'nehu',
+    'utkal balashram': 'utkal-balashram',
+    'kasturba gandhi balika vidyalaya': 'kgbv'
 }
+
+CAMPUS_CITIES = [
+    'delhi', 'new delhi', 'tirupati', 'mandi', 'kanpur', 'roorkee', 'kharagpur',
+    'dhanbad', 'bhu', 'banaras', 'varanasi', 'bhilai', 'indore', 'amritsar',
+    'udaipur', 'jodhpur', 'rishikesh', 'nagpur', 'bhubaneswar', 'guwahati',
+    'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
+    'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
+    'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
+    'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
+    'deoghar', 'kozhikode', 'chittoor', 'dharwad', 'calicut', 'jammu', 'gandhinagar',
+    'bijnor', 'balangir', 'krishnagiri', 'nagarkurnool', 'kashipur', 'silchar',
+    'srinagar', 'agartala', 'surathkal', 'rourkela', 'warangal', 'durgapur',
+    'kurukshetra', 'jalandhar', 'jaipur', 'allahabad', 'prayagraj', 'hyderabad',
+    'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack',
+    'assam', 'uttarakhand', 'bengaluru', 'bangalore', 'bijapur', 'bengdubi',
+    'tirupathur', 'chengalpattu', 'salem', 'jhajjar', 'rohtak', 'gorakhpur',
+    'nirmal', 'narayanpet', 'daman', 'hazaribagh', 'patiala', 'brahmapur'
+]
 
 EXAM_ACRONYM_MAP = {
     'junior engineer': 'je',
     'combined graduate level': 'cgl',
     'combined higher secondary level': 'chsl',
-    'combined higher secondary': 'chsl',
     'multi tasking staff': 'mts',
     'assistant loco pilot': 'alp',
     'non technical popular categories': 'ntpc',
@@ -115,6 +166,7 @@ EXAM_ACRONYM_MAP = {
     'project associate': 'pa',
     'project assistant': 'pa',
     'technical assistant': 'ta',
+    'technical officer': 'to',
     'young professional': 'yp',
     'assistant professor': 'ap',
     'data entry operator': 'deo',
@@ -122,7 +174,22 @@ EXAM_ACRONYM_MAP = {
     'medical officer': 'mo',
     'general duty': 'gd',
     'central police': 'cpo',
-    'gramin dak sevak': 'gds'
+    'gramin dak sevak': 'gds',
+    'patent agent': 'patent-agent',
+    'personal assistant': 'pa',
+    'senior personal assistant': 'spa',
+    'stenographer': 'steno',
+    'veterinary pharmacist': 'vet-pharmacist',
+    'horticulture officer': 'horticulture-officer',
+    'assistant environmental engineer': 'aee',
+    'hostel welfare officer': 'hwo',
+    'anganwadi teacher': 'anganwadi-teacher',
+    'anganwadi worker': 'anganwadi-worker',
+    'case worker': 'case-worker',
+    'software engineer': 'software-eng',
+    'trade apprentice': 'trade-apprentice',
+    'ayushman mitra': 'ayushman-mitra',
+    'crop guard': 'crop-guard'
 }
 
 def generate_short_slug(board, post_name, year="2026"):
@@ -267,23 +334,11 @@ STOPWORDS = {
     'national', 'public', 'for', 'and', 'the', 'under'
 }
 
-CAMPUS_CITIES = [
-    'delhi', 'new delhi', 'tirupati', 'mandi', 'kanpur', 'roorkee', 'kharagpur',
-    'dhanbad', 'bhu', 'banaras', 'varanasi', 'bhilai', 'indore', 'amritsar',
-    'udaipur', 'jodhpur', 'rishikesh', 'nagpur', 'bhubaneswar', 'guwahati',
-    'patna', 'raipur', 'bhopal', 'farrukhabad', 'chitrakoot', 'muzaffarnagar',
-    'hamirpur', 'mathura', 'ballia', 'dhamtari', 'kondagaon', 'ambikapur',
-    'munger', 'sangrur', 'kapurthala', 'sivaganga', 'kancheepuram', 'kanchipuram',
-    'khammam', 'prakasam', 'shibpur', 'kolkata', 'pune', 'mumbai', 'trichy', 'madras',
-    'deoghar', 'kozhikode', 'chittoor', 'dharwad', 'calicut', 'jammu', 'gandhinagar',
-    'bijnor', 'balangir', 'krishnagiri', 'nagarkurnool', 'kashipur', 'silchar',
-    'srinagar', 'agartala', 'surathkal', 'rourkela', 'warangal', 'durgapur',
-    'kurukshetra', 'jalandhar', 'jaipur', 'allahabad', 'prayagraj', 'hyderabad',
-    'korukonda', 'kalyani', 'madurai', 'narmadapuram', 'vijayapura', 'cuttack',
-    'assam', 'uttarakhand', 'bengaluru', 'bangalore', 'bijapur', 'bengdubi'
-]
-
-GENERIC_ADVTS = {"notification2026", "advtno", "various", "notice", "sric06", "sric", "sricrev0917", "rev0917"}
+GENERIC_ADVTS = {
+    "notification2026", "advtno", "various", "notice", "sric06", "sric",
+    "sricrev0917", "rev0917", "icsrpradvt", "icsrpr", "icsr", "advertisement",
+    "recruitment", "walkin", "notice2026", "advt2026"
+}
 
 def extract_distinctive_tokens(text):
     if not text:
@@ -293,17 +348,26 @@ def extract_distinctive_tokens(text):
 
 def check_duplicate(candidate_id, board, title, advt_no, existing_jobs, existing_list, post_name="", date_str=""):
     a_norm = re.sub(r'[^a-z0-9]', '', advt_no.lower()) if advt_no else ""
+    post_tokens = extract_distinctive_tokens(post_name if post_name else title)
+    board_tokens = extract_distinctive_tokens(board)
+    post_tokens = post_tokens - board_tokens
+
+    # Advt No match check (Must not be generic prefix)
     if a_norm and len(a_norm) >= 6 and not a_norm.endswith("2026") and a_norm not in GENERIC_ADVTS:
         for jid, j in existing_jobs.items():
             ex_advt = re.sub(r'[^a-z0-9]', '', j.get('advtNo', '').lower())
             if ex_advt and ex_advt not in GENERIC_ADVTS and ex_advt == a_norm:
+                # Disambiguate if post designations are completely distinct
+                ex_post_tokens = extract_distinctive_tokens(j.get('title', '')) - extract_distinctive_tokens(j.get('board', ''))
+                if post_tokens and ex_post_tokens:
+                    common = post_tokens.intersection(ex_post_tokens)
+                    if not common:
+                        # Distinct posts in same institution (e.g. Patent Agent vs Simulation Engineer)
+                        continue
                 return True, f"Advt No '{j.get('advtNo')}' matches existing '{jid}'"
 
     q_lower = f"{board} {title}".lower()
     query_campus = [c for c in CAMPUS_CITIES if c in q_lower]
-
-    board_tokens = extract_distinctive_tokens(board)
-    post_tokens = extract_distinctive_tokens(post_name if post_name else title) - board_tokens
 
     for jid, j in existing_jobs.items():
         ex_board = j.get('board', '')
@@ -404,242 +468,287 @@ def parse_vacancy_data(html, url, ctx=None):
         
     page_title = clean_text(soup.title.string) if soup.title and soup.title.string else ""
     
+    # 1. Parse Title Metadata for Ground Truth
+    clean_title_str = page_title.replace('–', '-').replace('—', '-').strip()
+    
+    title_vacancies = 0
+    m_vac = re.search(r'\bfor\s+(\d+)\s+', clean_title_str, re.IGNORECASE)
+    if not m_vac:
+        m_vac = re.search(r'\b(?!202[4-9])(\d+)\s+(?:[A-Za-z0-9\s,\/&-]{0,35}?)\s*posts\b', clean_title_str, re.IGNORECASE)
+    if m_vac:
+        title_vacancies = int(m_vac.group(1))
+
+    title_post = ""
+    m_post = re.search(r'(?:for\s+(?:\d+\s+)?|walkin\s+for\s+)(.*?)(?:\s+posts|\s+vacanc\w*|\s+2026|$)', clean_title_str, re.IGNORECASE)
+    if m_post:
+        cand_p = clean_text(m_post.group(1))
+        cand_p = re.sub(r'^(apply\s+online|apply\s+offline|walkin)\s+(?:for\s+)?', '', cand_p, flags=re.I)
+        if cand_p and len(cand_p) > 2 and cand_p.lower() not in ['posts', 'various', 'various posts']:
+            title_post = cand_p
+
+    title_board = ""
+    m_board = re.search(r'^(.*?)\s+Recruitment', clean_title_str, re.IGNORECASE)
+    if m_board:
+        title_board = clean_text(m_board.group(1))
+    else:
+        title_board = clean_title_str.split('-')[0].strip()
+
+    # 2. Extract Data from All Tables
     tables = soup.find_all('table')
     overview_kv = {}
     vacancy_rows = []
     date_rows = []
     post_salary_map = {}
     post_qual_map = {}
-    
-    for t in tables:
+    fee_rows = []
+    age_rows = []
+    exam_pattern_rows = []
+    selection_stage_rows = []
+
+    for idx, t in enumerate(tables):
         rows = t.find_all('tr')
         if not rows:
             continue
         first_row_cells = [clean_text(c.get_text()).lower() for c in rows[0].find_all(['td', 'th'])]
-        
-        if len(first_row_cells) == 2 and any(k in first_row_cells[0] for k in ['company', 'organization', 'particulars', 'post', 'salary', 'qualification', 'age', 'apply', 'walk-in', 'last date', 'recruiting']):
-            for r in rows:
-                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
-                if len(cols) == 2 and cols[0].lower() not in overview_kv:
-                    overview_kv[cols[0].lower()] = cols[1]
-            break
-            
-    for t in tables[1:]:
-        rows = t.find_all('tr')
-        if not rows:
+        if not first_row_cells:
             continue
-        first_row_cells = [clean_text(c.get_text()).lower() for c in rows[0].find_all(['td', 'th'])]
-        
-        # Check if salary table: ['Post Name', 'Salary']
-        if any(k in c for c in first_row_cells for k in ['post name', 'post', 'position', 'trade']) and any(k in c for c in first_row_cells for k in ['salary', 'pay', 'scale', 'remuneration', 'stipend']):
+
+        # A. 2-column key-value tables
+        if len(first_row_cells) == 2 and any(k in first_row_cells[0] for k in ['particular', 'criteria', 'requirement', 'detail', 'information', 'post', 'category', 'parameter', 'company', 'organisation', 'organization', 'board', 'institute', 'department', 'recruiting']):
+            if not any(k in first_row_cells[1] for k in ['total posts', 'vacancies', 'scale of pay', 'no of post']):
+                for r in rows:
+                    cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                    if len(cols) == 2 and cols[0].lower() not in overview_kv:
+                        overview_kv[cols[0].lower()] = cols[1]
+
+        # B. Salary Table
+        if any(k in c for c in first_row_cells for k in ['post', 'position', 'trade', 'category', 'designation', 'vc no']) and \
+           any(k in c for c in first_row_cells for k in ['salary', 'pay', 'scale', 'remuneration', 'stipend', 'honorarium', 'emoluments']):
             for r in rows[1:]:
                 cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
                 if len(cols) >= 2:
                     p_key = slugify(cols[0])
                     post_salary_map[p_key] = cols[1]
-        # Check if qualification table: ['Post Name', 'Qualification']
-        elif any(k in c for c in first_row_cells for k in ['post name', 'post', 'position', 'trade']) and any(k in c for c in first_row_cells for k in ['qualification', 'eligibility', 'education']):
+
+        # C. Qualification Table
+        elif any(k in c for c in first_row_cells for k in ['post', 'position', 'trade', 'category', 'designation', 'vc no']) and \
+             any(k in c for c in first_row_cells for k in ['qualification', 'eligibility', 'education']):
             for r in rows[1:]:
                 cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
                 if len(cols) >= 2:
                     p_key = slugify(cols[0])
                     post_qual_map[p_key] = cols[1]
-        # Check if event/date table: ['Event', 'Date']
-        elif any('event' in c or 'activity' in c or 'important date' in c for c in first_row_cells) or (len(first_row_cells) == 2 and 'date' in first_row_cells[1]):
+
+        # D. Fee Table
+        elif any(k in c for c in first_row_cells for k in ['category', 'candidate']) and any(k in c for c in first_row_cells for k in ['fee', 'total fee', 'application fee']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 2:
+                    fee_rows.append({"category": cols[0], "fee": cols[-1]})
+
+        # E. Age Limit Table
+        elif any(k in c for c in first_row_cells for k in ['post', 'category']) and any(k in c for c in first_row_cells for k in ['age limit', 'upper age', 'maximum age', 'age relaxation']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 2:
+                    age_rows.append(f"{cols[0]}: {cols[1]}")
+
+        # F. Exam Pattern Table
+        elif any(k in c for c in first_row_cells for k in ['paper', 'part']) and any(k in c for c in first_row_cells for k in ['subject', 'topic']) and any(k in c for c in first_row_cells for k in ['mark', 'question', 'duration']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 3:
+                    exam_pattern_rows.append({
+                        "paper": cols[0],
+                        "subject": cols[1],
+                        "details": " | ".join(cols[2:])
+                    })
+
+        # G. Selection Stage Table
+        elif any(k in c for c in first_row_cells for k in ['stage']) and any(k in c for c in first_row_cells for k in ['detail', 'name', 'test', 'criteria']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 2:
+                    selection_stage_rows.append(f"{cols[0]}: {cols[1]}")
+
+        # H. Important Dates Table
+        elif (any(k in c for c in first_row_cells for k in ['event', 'activity', 'important date']) or \
+              (len(first_row_cells) == 2 and re.search(r'\b(date|dates|schedule|timeline|deadline)\b', first_row_cells[1]))) and \
+             not any(k in c for c in first_row_cells for k in ['pay', 'salary', 'stipend', 'remuneration', 'honorarium', 'emoluments', 'qualification', 'marks', 'weightage', 'fee']):
             for r in rows[1:]:
                 cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
                 if len(cols) >= 2:
                     date_rows.append(cols)
-        # Check if vacancy count table: ['Post Name', 'Total Posts']
-        elif any(k in c for c in first_row_cells for k in ['post name', 'station', 'division', 'discipline', 'trade', 'category']) and any(k in c for c in first_row_cells for k in ['post', 'position', 'vacancy', 'total', 'no of', 'vacancies']):
-            if not any(k in c for c in first_row_cells for k in ['salary', 'pay', 'stipend', 'qualification', 'eligibility']):
-                for r in rows[1:]:
-                    cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
-                    if len(cols) >= 2 and cols[0].lower() not in ['total', 's. no.', 's.no.']:
-                        if cols[0].isdigit() and len(cols) > 2:
-                            cols = cols[1:]
-                        vacancy_rows.append(cols)
 
+        # I. Vacancy Count Table
+        elif any(k in c for c in first_row_cells for k in ['post name', 'name of the post', 'post', 'position', 'discipline', 'trade', 'department', 'cadre']) and \
+             any(k in c for c in first_row_cells for k in ['vacancies', 'vacancy', 'total posts', 'total post', 'posts', 'no of post', 'no. of post', 'seats', 'total']) and \
+             not any(k in c for c in first_row_cells for k in ['salary', 'pay', 'stipend', 'honorarium', 'remuneration', 'emoluments', 'qualification', 'weightage', 'marks', 'fee', 'event', 'paper', 'stage']):
+            for r in rows[1:]:
+                cols = [clean_text(c.get_text()) for c in r.find_all(['td', 'th'])]
+                if len(cols) >= 2 and cols[0].lower() not in ['total', 's. no.', 's.no.', 'sl. no.']:
+                    # Handle sl no in first column
+                    if cols[0].isdigit() and len(cols) > 2:
+                        cols = cols[1:]
+                    vacancy_rows.append(cols)
+
+    # 3. Discovered Official URLs
     official_pdf_url = ""
     official_site_url = ""
     official_apply_url = ""
     
     for h in soup.find_all(["h2", "h3"]):
         if "important link" in h.get_text().lower():
-            ul = h.find_next("ul")
+            ul = h.find_next(["ul", "table"])
             if ul:
-                for li in ul.find_all("li"):
-                    txt = li.get_text(" ", strip=True).lower()
-                    a = li.find("a", href=True)
-                    if not a:
-                        continue
+                for a in ul.find_all("a", href=True):
                     href = clean_text(a["href"])
+                    txt = a.get_text(" ", strip=True).lower()
+                    parent_txt = a.parent.get_text(" ", strip=True).lower()
+                    combined_txt = f"{txt} {parent_txt}"
                     if any(ign in href for ign in ['freejobalert', 'play.google.com', 'whatsapp', 'telegram', 'instagram', 'facebook', 'twitter', 'arattai', 'sarkariresult']):
                         continue
                     if not href.startswith('http'):
                         continue
-                    if 'notification' in txt or 'pdf' in txt or href.endswith('.pdf'):
+                    if 'notification' in combined_txt or 'pdf' in combined_txt or href.endswith('.pdf'):
                         if not official_pdf_url:
                             official_pdf_url = href
-                    elif 'apply' in txt or 'portal' in txt or 'registration' in txt:
+                    elif 'apply' in combined_txt or 'portal' in combined_txt or 'registration' in combined_txt:
                         if not official_apply_url:
                             official_apply_url = href
-                    elif 'official' in txt or 'website' in txt:
+                    elif 'official' in combined_txt or 'website' in combined_txt:
                         if not official_site_url:
                             official_site_url = href
             break
-            
-    for t in tables:
-        for r in t.find_all('tr'):
-            cells = r.find_all(['td', 'th'])
-            if len(cells) >= 2:
-                row_label = clean_text(cells[0].get_text()).lower()
-                row_links = [clean_text(a['href']) for a in r.find_all('a', href=True)]
-                for href in row_links:
-                    if any(ign in href for ign in ['freejobalert', 'play.google.com', 'whatsapp', 'telegram', 'instagram', 'facebook', 'twitter', 'arattai', 'sarkariresult']):
-                        continue
-                    if not href.startswith('http'):
-                        continue
-                    if 'notification' in row_label or 'pdf' in row_label or href.endswith('.pdf'):
-                        if not official_pdf_url:
-                            official_pdf_url = href
-                    elif 'apply' in row_label or 'registration' in row_label:
-                        if not official_apply_url:
-                            official_apply_url = href
-                    elif any(k in row_label for k in ['website', 'portal', 'official']):
-                        if not official_site_url:
-                            official_site_url = href
 
-    if not official_pdf_url or not official_site_url:
+    if not official_pdf_url or not official_site_url or not official_apply_url:
         for a in soup.find_all('a', href=True):
             href = clean_text(a['href'])
             txt = clean_text(a.get_text()).lower()
+            tr_parent = a.find_parent('tr')
+            row_txt = clean_text(tr_parent.get_text()).lower() if tr_parent else ""
+            combined_txt = f"{txt} {row_txt}"
             if any(ign in href for ign in ['freejobalert', 'play.google.com', 'whatsapp', 'telegram', 'instagram', 'facebook', 'twitter', 'arattai', 'sarkariresult']):
                 continue
             if not href.startswith('http'):
                 continue
-            if (href.endswith('.pdf') or 'notification' in href or 'pdf' in txt) and not official_pdf_url:
+            if (href.endswith('.pdf') or 'notification' in combined_txt or 'pdf' in combined_txt) and not official_pdf_url:
                 official_pdf_url = href
-            elif any(k in txt for k in ['official website', 'apply online', 'portal', 'website']) and not official_site_url:
+            elif ('apply' in combined_txt or 'registration' in combined_txt or 'portal' in combined_txt) and not official_apply_url:
+                official_apply_url = href
+            elif any(k in combined_txt for k in ['official website', 'portal', 'website']) and not official_site_url:
                 official_site_url = href
 
+    # 4. Resolve Board Name
     board = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['recruiting body', 'recruiting organization', 'recruitment board', 'authority', 'organization', 'company', 'board', 'institute', 'department', 'commission', 'court', 'university', 'society', 'centre', 'corporation']):
-            if len(v) > 2 and v.lower() not in ['details', 'various', 'given below']:
+        if any(term in k for term in ['recruiting body', 'recruiting organization', 'recruiting organisation', 'recruitment board', 'organization', 'organisation', 'authority', 'company', 'board', 'institute', 'department', 'commission', 'court', 'university', 'society', 'centre', 'corporation']):
+            if len(v) > 2 and v.lower() not in ['details', 'various', 'given below', ' samvida) basis', ' samvida)']:
                 board = v
                 break
-    if not board:
-        m = re.match(r'^(.*?)\s+Recruitment', page_title, re.IGNORECASE)
-        if m:
-            board = m.group(1).strip()
-        else:
-            board = page_title.split('-')[0].strip()
+    if not board or len(board) < 3:
+        board = title_board
     board = re.sub(r'\s*\(India[\'\w\s]+\)\s*', '', board).strip()
 
+    # 5. Resolve Post Name
     post_name = ""
     for k, v in overview_kv.items():
         if any(term == k for term in ['post', 'posts', 'post name', 'post names', 'name of post', 'name of posts', 'name of exam', 'exam name']):
-            if v and not re.match(r'^\d+$', v) and v.lower() not in ['total posts', 'no of posts', 'salary', 'various', 'posts', 'details']:
+            if v and not re.match(r'^\d+$', v) and v.lower() not in ['total posts', 'no of posts', 'salary', 'various', 'posts', 'details', 'given below', 'educational qualification', 'pay scale (rs.)', 'upper age limit', 'contract (samvida) basis']:
                 post_name = v
                 break
-                
-    if not post_name or post_name.lower() in ['various posts', 'various']:
-        m = re.search(r'(?:Apply\s+Online|Walkin|Apply\s+Offline|Apply)\s+(?:for\s+)?(?:\d+\s+)?(.*?)(?:\s+Posts|\s+2026|$)', page_title, re.IGNORECASE)
-        if m:
-            cand_p = clean_text(m.group(1))
-            if cand_p and len(cand_p) > 2 and cand_p.lower() not in ['various', 'posts']:
-                post_name = cand_p
+    if not post_name or post_name.lower() in ['various posts', 'various', 'no. of posts']:
+        if title_post:
+            post_name = title_post
     if not post_name or re.match(r'^\d+$', post_name):
         post_name = "Various Posts"
 
+    # 6. Resolve Vacancies Count
     vacancies_num = 1
+    # Check overview_kv first for exact 'total posts'
     for k, v in overview_kv.items():
-        if any(term in k for term in ['no of post', 'vacancies', 'total post', 'total vacancies']):
+        if any(term in k for term in ['total post', 'total vacancies', 'no of post', 'vacancies']):
             clean_num_str = v.replace(',', '')
             vm = re.search(r'\d+', clean_num_str)
             if vm:
-                vacancies_num = int(vm.group(0))
-                break
-    if vacancies_num == 1:
-        clean_title_str = page_title.replace(',', '')
-        vm = re.search(r'(\d+)\s+(?:posts|vacancies)', clean_title_str, re.IGNORECASE)
-        if vm:
-            vacancies_num = int(vm.group(1))
+                cand_v = int(vm.group(0))
+                # Protect against salary figures or postal codes
+                if cand_v < 50000:
+                    vacancies_num = cand_v
+                    break
 
+    # If vacancies_num is 1 and title_vacancies is valid
+    if vacancies_num == 1 and title_vacancies > 0 and title_vacancies < 50000:
+        vacancies_num = title_vacancies
+
+    # Check sum of vacancy_rows
+    if vacancy_rows:
+        sum_rows = 0
+        for r in vacancy_rows:
+            v_str = r[1].replace(',', '') if len(r) > 1 else "1"
+            m = re.search(r'\d+', v_str)
+            if m:
+                sum_rows += int(m.group(0))
+        if sum_rows > 0 and sum_rows < 50000:
+            if vacancies_num <= 1 or vacancies_num < sum_rows:
+                vacancies_num = sum_rows
+
+    # Final guard against year being mistaken for vacancy
+    if vacancies_num in [2025, 2026, 2027]:
+        vacancies_num = 1 if title_vacancies <= 0 else title_vacancies
+
+    # 7. Salary
     salary_text = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['salary', 'stipend', 'pay', 'remuneration', 'scale of pay']):
-            salary_text = v
-            break
-            
-    if not salary_text or salary_text.lower() in ['details', 'various', 'as per norms']:
-        for h in soup.find_all(['h2', 'h3']):
-            if 'salary' in h.get_text().lower() or 'remuneration' in h.get_text().lower() or 'pay scale' in h.get_text().lower():
-                curr = h.next_sibling
-                sal_parts = []
-                while curr and curr.name not in ['h2']:
-                    if curr.name in ['p', 'table', 'ul']:
-                        sal_parts.append(curr.get_text(' ', strip=True))
-                    curr = curr.next_sibling
-                if sal_parts:
-                    salary_text = clean_text(" ".join(sal_parts))[:150]
+        if any(term in k for term in ['salary', 'stipend', 'pay', 'remuneration', 'scale of pay', 'honorarium', 'emoluments']):
+            if len(v) > 2 and v.lower() not in ['details', 'various', 'given below']:
+                salary_text = v
                 break
-
+    if not salary_text and post_salary_map:
+        salary_text = " | ".join([f"{k.title()}: {v}" for k, v in list(post_salary_map.items())[:3]])
     if not salary_text:
         salary_text = "As per official institutional pay scale rules"
 
+    # 8. Qualification
     qual_text = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['qualification', 'eligibility', 'education']):
-            qual_text = v
-            break
-            
-    if not qual_text or qual_text.lower() in ['details', 'various', 'given below']:
-        for h in soup.find_all(['h2', 'h3']):
-            if 'qualification' in h.get_text().lower() or 'eligibility' in h.get_text().lower():
-                curr = h.next_sibling
-                q_parts = []
-                while curr and curr.name not in ['h2']:
-                    if curr.name in ['p', 'ul', 'ol']:
-                        q_parts.append(curr.get_text(' ', strip=True))
-                    curr = curr.next_sibling
-                if q_parts:
-                    qual_text = clean_text(" ".join(q_parts))
+        if any(term in k for term in ['qualification', 'eligibility', 'education', 'academic qualification']):
+            if len(v) > 3 and v.lower() not in ['details', 'various', 'given below']:
+                qual_text = v
                 break
-
+    if not qual_text and post_qual_map:
+        qual_text = " | ".join([f"{k.title()}: {v}" for k, v in list(post_qual_map.items())[:3]])
+    if not qual_text:
+        for h in soup.find_all(['h2', 'h3']):
+            if any(term in h.get_text().lower() for term in ['qualification', 'eligibility']):
+                curr = h.find_next(['p', 'ul', 'ol', 'table'])
+                if curr:
+                    qual_text = clean_text(curr.get_text(' ', strip=True))[:300]
+                    break
     if not qual_text:
         qual_text = "Degree / Diploma / Post Graduation or equivalent from a recognized University / Board as per official notification."
 
+    # 9. Age Limit
     age_text = ""
     for k, v in overview_kv.items():
-        if 'age limit' in k or 'age' in k:
-            age_text = v
-            break
-            
-    if not age_text or age_text.lower() in ['details', 'as per rules']:
-        for h in soup.find_all(['h2', 'h3']):
-            if 'age limit' in h.get_text().lower() or 'age criteria' in h.get_text().lower():
-                curr = h.next_sibling
-                age_parts = []
-                while curr and curr.name not in ['h2']:
-                    if curr.name in ['p', 'ul']:
-                        age_parts.append(curr.get_text(' ', strip=True))
-                    curr = curr.next_sibling
-                if age_parts:
-                    age_text = clean_text(" ".join(age_parts))[:200]
+        if 'age limit' in k or 'age criteria' in k:
+            if len(v) > 2 and v.lower() not in ['details', 'as per rules']:
+                age_text = v
                 break
-
+    if not age_text and age_rows:
+        age_text = " | ".join(age_rows[:3])
     if not age_text:
         age_text = "As per government recruitment norms (+ standard relaxation for SC/ST/OBC/PwBD categories)"
 
+    # 10. Application Mode
     apply_mode = "Online via Official Portal"
     for k, v in overview_kv.items():
-        if 'apply mode' in k:
+        if 'apply mode' in k or 'mode of application' in k:
             apply_mode = v
             break
         elif 'walk-in' in k or 'walkin' in k:
             apply_mode = "Walk-in Interview"
+            break
     if 'walkin' in page_title.lower() or 'walk-in' in page_title.lower():
         apply_mode = "Walk-in Interview"
     elif 'offline' in page_title.lower():
@@ -647,14 +756,18 @@ def parse_vacancy_data(html, url, ctx=None):
     elif 'online' in page_title.lower():
         apply_mode = "Apply Online"
 
+    # 11. Important Dates
     important_dates = []
     for row in date_rows:
         if len(row) >= 2:
-            important_dates.append({
-                "event": clean_text(row[0]),
-                "date": format_clean_date(row[1])
-            })
-            
+            ev_title = clean_text(row[0])
+            d_val = format_clean_date(row[1])
+            if ev_title and d_val:
+                important_dates.append({
+                    "event": ev_title,
+                    "date": d_val
+                })
+
     walkin_date = ""
     last_date = ""
     for k, v in overview_kv.items():
@@ -690,14 +803,15 @@ def parse_vacancy_data(html, url, ctx=None):
         if summary_last_date == "Refer Notification" and len(important_dates) > 1:
             summary_last_date = important_dates[-1].get("date", "Refer Notification")
 
+    # 12. Advt No
     advt_no = ""
     for k, v in overview_kv.items():
-        if any(term in k for term in ['advt', 'advertisement', 'notification no', 'notice no', 'cen no', 'nia no', 'rcno', 'employment notice']) or ('notification' in k and 'date' not in k and 'period' not in k) or k == 'no':
-            if v and v.lower() not in ['details', 'various', 'given below', 'refer notification']:
+        if any(term in k for term in ['advt', 'advertisement', 'notification no', 'notice no', 'cen no', 'nia no', 'rcno', 'employment notice', 'f.no']) or ('notification' in k and 'date' not in k and 'period' not in k) or k == 'no':
+            if v and v.lower() not in ['details', 'various', 'given below', 'refer notification', 'contract (samvida) basis']:
                 advt_no = v
                 break
     if not advt_no:
-        advt_match = re.search(r'(?:Advt\.?\s*No\.?|Advertisement\s*No\.?|Notification\s*No\.?|Notice\s*No\.?|CEN\s*No\.?|NIA\s*No\.?)\s*[:\-]?\s*([A-Za-z0-9\/\-\_\.\(\)\,\s]+?)(?:\s+dated|\s+Dated|\n|\.|\,|$)', html, re.IGNORECASE)
+        advt_match = re.search(r'(?:Advt\.?\s*No\.?|Advertisement\s*No\.?|Notification\s*No\.?|Notice\s*No\.?|CEN\s*No\.?|NIA\s*No\.?|F\.No\.?)\s*[:\-]?\s*([A-Za-z0-9\/\-\_\.\(\)\,\s]+?)(?:\s+dated|\s+Dated|\n|\.|\,|$)', html, re.IGNORECASE)
         if advt_match:
             advt_candidate = clean_text(advt_match.group(1))
             if 3 <= len(advt_candidate) <= 45 and not any(bad in advt_candidate.lower() for bad in ['pdf', 'click', 'freejob', 'http', 'table', 'details']):
@@ -709,6 +823,7 @@ def parse_vacancy_data(html, url, ctx=None):
     if not advt_no:
         advt_no = f"{slugify(board)[:14].upper()}/2026"
 
+    # 13. Location
     location = "India"
     for k, v in overview_kv.items():
         if any(term in k for term in ['job location', 'location', 'place of posting']):
@@ -716,10 +831,11 @@ def parse_vacancy_data(html, url, ctx=None):
                 location = clean_text(v)
                 break
     if location == "India":
-        loc_matches = re.findall(r'\b(Andhra Pradesh|Arunachal Pradesh|Assam|Bihar|Chhattisgarh|Goa|Gujarat|Haryana|Himachal Pradesh|Jharkhand|Karnataka|Kerala|Madhya Pradesh|Maharashtra|Manipur|Meghalaya|Mizoram|Nagaland|Odisha|Punjab|Rajasthan|Sikkim|Tamil Nadu|Telangana|Tripura|Uttar Pradesh|Uttarakhand|West Bengal|Delhi|New Delhi|Chandigarh|Puducherry|Raebareli|Kozhikode|Rewari|Barnala|Amritsar|Nuapada|Koraput|Malegaon|Shivamogga|Nagpur|Raipur|Patna|Dhanbad|Jamshedpur|Dehradun|Roorkee|Kashipur|Haldwani|Almora|Nainital|Kolkata|Kalyani|Shibpur|Malda|Santiniketan|Kharagpur|Jadavpur|Visakhapatnam|Chintapalle|Hyderabad|Hanumakonda|Warangal|Bengaluru|Bangalore|Raichur|Hassan|Chikkaballapur|Mysuru|Belagavi|Bhopal|Indore|Jabalpur|Gwalior|Katni|Mumbai|Pune|Sangli|Bhubaneswar|Rourkela|Cuttack|Mayurbhanj|Balangir|Jaipur|Jodhpur|Ajmer|Kota|Chennai|Madurai|Coimbatore|Erode|Pudukkottai|Ramanathapuram|Tiruchirappalli|Itanagar|Guwahati|Tezpur|Bhagalpur|Gaya|Jashpur|Bilaspur|Durg|Bhilai|Balodabazar|Bastar|Mungeli|Gandhinagar|Ahmedabad|Vadodara|Surat|Bhavnagar|Gurugram|Jhajjar|Rohtak|Kurukshetra|Ranchi|Chatra|Kochi|Thiruvananthapuram|Aizawl|Sangrur|Mohali|Ludhiana|Patiala|Agartala|Lucknow|Kanpur|Varanasi|Gorakhpur|Azamgarh|Prayagraj|Allahabad|Aligarh)\b', page_title + " " + board + " " + html[:2000], re.IGNORECASE)
+        loc_matches = re.findall(r'\b(Andhra Pradesh|Arunachal Pradesh|Assam|Bihar|Chhattisgarh|Goa|Gujarat|Haryana|Himachal Pradesh|Jharkhand|Karnataka|Kerala|Madhya Pradesh|Maharashtra|Manipur|Meghalaya|Mizoram|Nagaland|Odisha|Punjab|Rajasthan|Sikkim|Tamil Nadu|Telangana|Tripura|Uttar Pradesh|Uttarakhand|West Bengal|Delhi|New Delhi|Chandigarh|Puducherry|Daman|Andaman & Nicobar|Port Blair|Gorakhpur|Salem|Tirupathur|Vijayawada|Kolkata|Hyderabad|Bengaluru|Ranchi|Patna|Bhopal|Dehradun|Roorkee|Ahmedabad|Vadodara|Kurukshetra|Jammu|Nirmal|Narayanpet)\b', page_title + " " + board + " " + html[:2500], re.IGNORECASE)
         if loc_matches:
             location = loc_matches[0].title()
 
+    # 14. Vacancies Details Breakdown
     vacancies_details = []
     if vacancy_rows:
         for r in vacancy_rows:
@@ -738,10 +854,6 @@ def parse_vacancy_data(html, url, ctx=None):
                 "qualification": p_q,
                 "payScale": p_sal
             })
-        if vacancies_num <= 1:
-            sum_cnt = sum(vd['total'] for vd in vacancies_details if isinstance(vd.get('total'), int))
-            if sum_cnt > vacancies_num:
-                vacancies_num = sum_cnt
     else:
         vacancies_details.append({
             "postName": post_name,
@@ -751,6 +863,7 @@ def parse_vacancy_data(html, url, ctx=None):
             "payScale": salary_text
         })
 
+    # 15. URLs List
     urls_list = []
     if official_apply_url:
         urls_list.append({
@@ -802,6 +915,9 @@ def parse_vacancy_data(html, url, ctx=None):
         "vacanciesDetails": vacancies_details,
         "jobLocation": location,
         "urls": urls_list,
+        "feeDetails": fee_rows,
+        "examPattern": exam_pattern_rows,
+        "selectionStages": selection_stage_rows,
         "sourceUrl": url
     }
 
@@ -820,6 +936,9 @@ def generate_rich_job_schema(data):
     vacancies_details = data["vacanciesDetails"]
     urls = data["urls"]
     last_date = data["summaryLastDate"]
+    fee_details_extracted = data.get("feeDetails", [])
+    exam_pattern_extracted = data.get("examPattern", [])
+    selection_stages_extracted = data.get("selectionStages", [])
 
     job_id = generate_short_slug(board, post_name, year="2026")
 
@@ -851,18 +970,24 @@ def generate_rich_job_schema(data):
         {"label": "Official Website", "value": urls[-1]["url"] if urls else "Official Government Portal"}
     ]
 
-    fee_details = [
-        {"category": "General / OBC / EWS Candidates", "fee": "As per official notification guidelines / Exempted if unspecified"},
-        {"category": "SC / ST / PwBD / Female Candidates", "fee": "Exempted / Concessional as per government norms"}
-    ]
+    if fee_details_extracted:
+        fee_details = fee_details_extracted
+    else:
+        fee_details = [
+            {"category": "General / OBC / EWS Candidates", "fee": "As per official notification guidelines / Exempted if unspecified"},
+            {"category": "SC / ST / PwBD / Female Candidates", "fee": "Exempted / Concessional as per government norms"}
+        ]
 
-    selection_stages = [
-        "Screening and verification of minimum educational eligibility criteria and submitted application credentials.",
-        "Shortlisting based on academic merit, research publications, or written examination / skill assessment (where applicable).",
-        "Personal Interview / Walk-in Interview / Practical Assessment conducted by the Selection Committee.",
-        "Document Verification of original academic degrees, caste/category certificates, and experience records.",
-        "Final Medical Fitness Examination and issuance of official appointment letter."
-    ]
+    if selection_stages_extracted:
+        selection_stages = selection_stages_extracted
+    else:
+        selection_stages = [
+            "Screening and verification of minimum educational eligibility criteria and submitted application credentials.",
+            "Shortlisting based on academic merit, research publications, or written examination / skill assessment (where applicable).",
+            "Personal Interview / Walk-in Interview / Practical Assessment conducted by the Selection Committee.",
+            "Document Verification of original academic degrees, caste/category certificates, and experience records.",
+            "Final Medical Fitness Examination and issuance of official appointment letter."
+        ]
 
     how_to_apply = [
         f"Visit the official portal or access the notification link provided at {urls[0]['url'] if urls else 'official website'}.",
@@ -1012,6 +1137,9 @@ def generate_rich_job_schema(data):
         "faqs": faqs,
         "urls": urls
     }
+
+    if exam_pattern_extracted:
+        schema["examPattern"] = exam_pattern_extracted
 
     return schema
 

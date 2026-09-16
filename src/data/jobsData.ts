@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rites-manager-assistant-recruitment-2026",
+    "b": "RITES",
+    "t": "RITES Recruitment 2026 Notification Out for 33 Manager, Assistant Manager, DGM Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "8 October 2026",
+    "a": "RITES/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "RITES has officially announced employment advertisement notification RITES/2026 inviting applications for 33 vacancies for Manager, Assistant Manager, DGM posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "rrbs-paramedical-nursing-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 Notification Out for 590 9 Paramedical posts (Nursing Superintendent, Dialysis Technician, Health & Malaria Inspector Gr II, Audiologist & Speech Therapist, Pharmacist, Radiographer X-Ray Technician, ECG Technician, Optometrist, Lab Assistant Gr II) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "14 October 2026 (23:59 hrs)",
+    "a": "Centralised Employment Notification (CEN) No. 05/2026 - Recruitment of Paramedical Categories",
+    "q": "ITI | Diploma | B.Sc",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially announced employment advertisement notification Centralised Employment Notification (CEN) No. 05/2026 - Recruitment of Paramedical Categories inviting applications for 590 vacancies for 9 Paramedical posts (Nursing Superintendent, Dialysis Technician, Health & Malaria Inspector Gr II, Audiologist & Speech Therapist, Pharmacist, Radiographer X-Ray Technician, ECG Technician, Optometrist, Lab Assistant Gr II) posts.",
+    "u": "https://www.rrbapply.gov.in/#/auth/home"
+},
+  {
+    "id": "nit-pa-recruitment-2026-3067660",
+    "b": "National Institute of Technology Andhra Pradesh",
+    "t": "National Institute of Technology Andhra Pradesh Recruitment 2026 Notification Out for 1 Project Associate-1 Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "18 September 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "B.Tech / B.E",
+    "desc": "National Institute of Technology Andhra Pradesh has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Project Associate-1 posts.",
+    "u": "http://www.nitandhra.ac.in"
+},
+  {
+    "id": "appsc-essential-qualificat-recruitment-2026",
+    "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
+    "t": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada Recruitment 2026 Notification Out for 299 Essential Qualification Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "5 November 2026 (up to 11:59 PM)",
+    "a": "Brief Notification (Detailed Notification to follow by 16 October 2026)",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada has officially announced employment advertisement notification Brief Notification (Detailed Notification to follow by 16 October 2026) inviting applications for 299 vacancies for Essential Qualification posts.",
+    "u": "https://portal-psc.ap.gov.in/"
+},
+  {
+    "id": "appsc-inspector-assistant-recruitment-2026",
+    "b": "Andhra Pradesh Public Service Commission (APPSC)",
+    "t": "Andhra Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 255 Inspector, Assistant Statistical Officer and More Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "2 November 2026, up to 11:59 PM",
+    "a": "14/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Andhra Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 14/2026 inviting applications for 255 vacancies for Inspector, Assistant Statistical Officer and More posts.",
+    "u": "https://psc.ap.gov.in/Documents/NotificationDocuments/Inspector_of_Factories_142026.pdf"
+},
+  {
+    "id": "appsc-horticulture-officer-recruitment-2026",
+    "b": "APPSC",
+    "t": "APPSC Recruitment 2026 Notification Out for 85 Horticulture Officer, AEE and Assistant Director Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "27 October 2026, up to 11:59 PM",
+    "a": "08/2026 (Assistant Environmental Engineer",
+    "q": "B.Tech / B.E | B.Sc | M.Sc",
+    "desc": "APPSC has officially announced employment advertisement notification 08/2026 (Assistant Environmental Engineer inviting applications for 85 vacancies for Horticulture Officer, AEE and Assistant Director posts.",
+    "u": "https://psc.ap.gov.in/"
+},
+  {
+    "id": "appsc-group-services-recruitment-2026",
+    "b": "Andhra Pradesh Public Service Commission (APPSC)",
+    "t": "Andhra Pradesh Public Service Commission (APPSC) Recruitment 2026 Notification Out for 163 Group-I Services (13 post categories) Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "27 October 2026, up to 11:59 PM",
+    "a": "07/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Andhra Pradesh Public Service Commission (APPSC) has officially announced employment advertisement notification 07/2026 inviting applications for 163 vacancies for Group-I Services (13 post categories) posts.",
+    "u": "https://psc.ap.gov.in/Documents/NotificationDocuments/Group_I_072026.pdf"
+},
+  {
+    "id": "appsc-hwo-recruitment-2026",
+    "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
+    "t": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada Recruitment 2026 Notification Out for 90 Assistant Social Welfare Officer, Assistant Tribal Welfare Officer, Hostel Welfare Officer Grade-II Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "29 October 2026 (up to 11:59 PM)",
+    "a": "Brief Notification (Detailed Notification to follow by 9 October 2026)",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada has officially announced employment advertisement notification Brief Notification (Detailed Notification to follow by 9 October 2026) inviting applications for 90 vacancies for Assistant Social Welfare Officer, Assistant Tribal Welfare Officer, Hostel Welfare Officer Grade-II posts.",
+    "u": "https://psc.ap.gov.in/"
+},
+  {
+    "id": "gayatri-bank-qualifiedsemi-qualif-recruitment-2026",
+    "b": "The Gayatri Co-operative Urban Bank Ltd.",
+    "t": "The Gayatri Co-operative Urban Bank Ltd. Recruitment 2026 Notification Out for 1 Qualified/Semi-Qualified CA's, Junior Software Associate, Law Officer Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "21 September 2026 (all three posts)",
+    "a": "THE-GAYATRI-CO/2026",
+    "q": "Qualified Chartered Accountant, OR Qualified Company Secretary, OR Semi-...",
+    "desc": "The Gayatri Co-operative Urban Bank Ltd. has officially announced employment advertisement notification THE-GAYATRI-CO/2026 inviting applications for 1 vacancies for Qualified/Semi-Qualified CA's, Junior Software Associate, Law Officer posts.",
+    "u": "https://gayatri.bank.in/careers/"
+},
+  {
+    "id": "aniims-senior-resident-recruitment-2026",
+    "b": "Andaman & Nicobar Islands Institute of Medical Sciences (ANIIMS)",
+    "t": "Andaman & Nicobar Islands Institute of Medical Sciences (ANIIMS) Recruitment 2026 Notification Out for 56 Senior Resident / Demonstrator Posts | Apply Online",
+    "d": "16 September 2026",
+    "l": "05 October 2026",
+    "a": "F.No.1-14/ANIIMS/JR/SR/Residents/2026-27/929",
+    "q": "MBBS / Medical PG",
+    "desc": "Andaman & Nicobar Islands Institute of Medical Sciences (ANIIMS) has officially announced employment advertisement notification F.No.1-14/ANIIMS/JR/SR/Residents/2026-27/929 inviting applications for 56 vacancies for Senior Resident / Demonstrator posts.",
+    "u": "https://andamannicobar.gov.in/admin-pannel/vacancy/1-867-SR%20Advertisement.pdf"
+},
+  {
     "id": "aps-bengdubi-vice-principal-recruitment-2026",
     "b": "Army Public School, Bengdubi",
     "t": "Army Public School, Bengdubi Recruitment 2026 Notification Out for 1 Vice Principal Posts | Apply Offline",
