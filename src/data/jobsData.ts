@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "svnirtar-lecturer-prosthetics-recruitment-2026",
+    "b": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR)",
+    "t": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR) Recruitment 2026 Notification Out for 4 Lecturer (Prosthetics & Orthotics), Clinical Psychologist-cum- Junior Lecturer, Demonstrator in Physiotherapy, Cashier Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "26 October 2026",
+    "a": "AD6B10/08/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR) has officially announced employment advertisement notification AD6B10/08/2026 inviting applications for 4 vacancies for Lecturer (Prosthetics & Orthotics), Clinical Psychologist-cum- Junior Lecturer, Demonstrator in Physiotherapy, Cashier posts.",
+    "u": "https://www.svnirtar.nic.in/"
+},
+  {
+    "id": "iim-mumbai-manager-ug-recruitment-2026",
+    "b": "Indian Institute of Management Mumbai (IIM Mumbai)",
+    "t": "Indian Institute of Management Mumbai (IIM Mumbai) Recruitment 2026 Notification Out for 2 Manager (UG Programs) and Associate Manager (UG Programs) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "05 October 2026",
+    "a": "Admn/Rectt/2026/38",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Mumbai (IIM Mumbai) has officially announced employment advertisement notification Admn/Rectt/2026/38 inviting applications for 2 vacancies for Manager (UG Programs) and Associate Manager (UG Programs) posts.",
+    "u": "https://iimmumbai.ac.in/careers"
+},
+  {
+    "id": "sbi-dean-sbil-recruitment-2026",
+    "b": "State Bank of India (SBI), Central Recruitment & Promotion Department, Corporate Centre, Mumbai",
+    "t": "State Bank of India (SBI), Central Recruitment & Promotion Department, Corporate Centre, Mumbai Recruitment 2026 Notification Out for 7 Dean (SBIL), Faculty (SBIL), Marketing Executive (SBIL); Deputy Vice President (IT Risk); Assistant Vice President (IT Risk) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "CRPD/SCO/2026-27/20 (SBIL Kolkata posts) and CRPD/SCO/2026-27/22 (IT Risk posts)",
+    "q": "31.08.2026",
+    "desc": "State Bank of India (SBI), Central Recruitment & Promotion Department, Corporate Centre, Mumbai has officially announced employment advertisement notification CRPD/SCO/2026-27/20 (SBIL Kolkata posts) and CRPD/SCO/2026-27/22 (IT Risk posts) inviting applications for 7 vacancies for Dean (SBIL), Faculty (SBIL), Marketing Executive (SBIL); Deputy Vice President (IT Risk); Assistant Vice President (IT Risk) posts.",
+    "u": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply"
+},
+  {
+    "id": "office-of-the-prin-steno-recruitment-2026",
+    "b": "Office of the Principal Chief Commissioner of Income Tax (Pr.CCIT), Pune Region",
+    "t": "Office of the Principal Chief Commissioner of Income Tax (Pr.CCIT), Pune Region Recruitment 2026 Notification Out for 85 Stenographer Grade-II, Tax Assistant, Multi-Tasking Staff Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026 (extended)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "10th / 8th Pass | 12th Pass | Any Bachelor's Degree",
+    "desc": "Office of the Principal Chief Commissioner of Income Tax (Pr.CCIT), Pune Region has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 85 vacancies for Stenographer Grade-II, Tax Assistant, Multi-Tasking Staff posts.",
+    "u": "https://www.itsportsrecruitmentpune.com/"
+},
+  {
+    "id": "bmc-staff-nurse-recruitment-2026",
+    "b": "Brihanmumbai Municipal Corporation (BMC)",
+    "t": "Brihanmumbai Municipal Corporation (BMC) Recruitment 2026 Notification Out for 2 Staff Nurse (Paricharika) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "21 September 2026",
+    "a": "BRIHANMUMBAI-M/2026",
+    "q": "12th Pass | Diploma | MBBS / Medical PG",
+    "desc": "Brihanmumbai Municipal Corporation (BMC) has officially announced employment advertisement notification BRIHANMUMBAI-M/2026 inviting applications for 2 vacancies for Staff Nurse (Paricharika) posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/staffnurse%20adv%20sep%202026.pdf"
+},
+  {
+    "id": "mumbai-port-author-junior-professional-recruitment-2026",
+    "b": "Mumbai Port Authority",
+    "t": "Mumbai Port Authority Recruitment 2026 Notification Out for 25 Junior Professional Intern (Administrative Assistance) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "CE.Con.02/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Mumbai Port Authority has officially announced employment advertisement notification CE.Con.02/2026 inviting applications for 25 vacancies for Junior Professional Intern (Administrative Assistance) posts.",
+    "u": "https://mumbaiport.gov.in/WriteReadData/RTF1984/1789135123.pdf"
+},
+  {
+    "id": "government-medical-professor-and-recruitment-2026",
+    "b": "Government Medical College, Jalgaon",
+    "t": "Government Medical College, Jalgaon Recruitment 2026 Notification Out for 21 Professor and Associate Professor Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026",
+    "a": "GOVERNMENT-MED/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Government Medical College, Jalgaon has officially announced employment advertisement notification GOVERNMENT-MED/2026 inviting applications for 21 vacancies for Professor and Associate Professor posts.",
+    "u": "https://dmer.maharashtra.gov.in/"
+},
+  {
+    "id": "gmc-jalgaon-ap-recruitment-2026",
+    "b": "Government Medical College, Jalgaon (GMC Jalgaon)",
+    "t": "Government Medical College, Jalgaon (GMC Jalgaon) Recruitment 2026 Notification Out for 14 Assistant Professor Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026",
+    "a": "J.No. Sharvimaj/Establishment 1-2/Sixth District/Advertisement/Contract/364 Days/7774/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Government Medical College, Jalgaon (GMC Jalgaon) has officially announced employment advertisement notification J.No. Sharvimaj/Establishment 1-2/Sixth District/Advertisement/Contract/364 Days/7774/2026 inviting applications for 14 vacancies for Assistant Professor posts.",
+    "u": "https://www.gmcjalgaon.org"
+},
+  {
+    "id": "dot-je-recruitment-2026",
+    "b": "Department of Telecommunications (DoT)",
+    "t": "Department of Telecommunications (DoT) Recruitment 2026 Notification Out for 3 Junior Engineer (Telecom)[JE(T)] Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "DoT/Pune/Admin-100/Consultant",
+    "q": "MBBS / Medical PG",
+    "desc": "Department of Telecommunications (DoT) has officially announced employment advertisement notification DoT/Pune/Admin-100/Consultant inviting applications for 3 vacancies for Junior Engineer (Telecom)[JE(T)] posts.",
+    "u": "https://www.dot.gov.in/static/uploads/2026/09/3dedfdde4cd741de02b3678245b4b97e.pdf"
+},
+  {
+    "id": "actrec-project-technical-recruitment-2026",
+    "b": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+    "t": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 Notification Out for 1 Project Technical Support - II Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "ACTREC/Advt-190/2026",
+    "q": "12th Pass | B.Sc",
+    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced employment advertisement notification ACTREC/Advt-190/2026 inviting applications for 1 vacancies for Project Technical Support - II posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/FinalAdvt%20PTS%20II.pdf"
+},
+  {
     "id": "central-railway-senior-resident-recruitment-2026",
     "b": "Central Railway",
     "t": "Central Railway Recruitment 2026 Notification Out for 2 Senior Resident Posts | Walk-in Interview",
