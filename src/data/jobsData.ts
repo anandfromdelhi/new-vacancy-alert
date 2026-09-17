@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "davcmc-ldc-pgt-recruitment-2026",
+    "b": "DAV College Managing Committee (DAVCMC)",
+    "t": "DAV College Managing Committee (DAVCMC) Recruitment 2026 Notification Out for 1 LDC, PGT, PRT and More Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "08 October 2026",
+    "a": "DAV-COLLEGE-MA/2026",
+    "q": "The eligibility criteria for each post are not specified in the official...",
+    "desc": "DAV College Managing Committee (DAVCMC) has officially announced employment advertisement notification DAV-COLLEGE-MA/2026 inviting applications for 1 vacancies for LDC, PGT, PRT and More posts.",
+    "u": "https://davrecruit.davcmc.in/CBT/"
+},
+  {
+    "id": "iit-delhi-principal-project-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 3 Principal Project Scientist / Sr. Project Scientist / Project Scientist Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "21 September 2026",
+    "a": "rrrD/rRD/RM0o164N/",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification rrrD/rRD/RM0o164N/ inviting applications for 3 vacancies for Principal Project Scientist / Sr. Project Scientist / Project Scientist posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1789556417024_v1xnwwz.pdf"
+},
+  {
+    "id": "india-assistant-manager-recruitment-2026",
+    "b": "Engineering Projects (India) Limited",
+    "t": "Engineering Projects (India) Limited Recruitment 2026 Notification Out for 12 Assistant Manager, Manager Grade-II, Manager Grade-I and Senior Manager Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "29 September 2026 at 5:30 PM",
+    "a": "HRM/REC/07/2026",
+    "q": "B.Tech / B.E | MBA / BBA",
+    "desc": "Engineering Projects (India) Limited has officially announced employment advertisement notification HRM/REC/07/2026 inviting applications for 12 vacancies for Assistant Manager, Manager Grade-II, Manager Grade-I and Senior Manager posts.",
+    "u": "https://epi.gov.in/career-opening/hrm-rec-07-2026-recruitment-of-assistant-manager-finance-at-e-1-level-manager-gr-ii-finance-civil-mechanical-electrical-at-e-2-level-manager-gr-i-civil-electrical-mechanical-at-e-3-level-and-senior-manager-civil-at-e-4-level-on-fixed-term-basis-in-epi/"
+},
+  {
+    "id": "nalsa-steno-recruitment-2026",
+    "b": "National Legal Services Authority (NALSA)",
+    "t": "National Legal Services Authority (NALSA) Recruitment 2026 Notification Out for 12 Assistant, Stenographer and More Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "10 October 2026",
+    "a": "A/02/2025-NALSA",
+    "q": "MBA / BBA | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "National Legal Services Authority (NALSA) has officially announced employment advertisement notification A/02/2025-NALSA inviting applications for 12 vacancies for Assistant, Stenographer and More Posts posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3f8df2e15374e3dc37766e59ac494f0fd/uploads/2026/09/20260916127904788.pdf"
+},
+  {
+    "id": "nhsrc-consultant-senior-recruitment-2026",
+    "b": "National Health Systems Resource Centre (NHSRC)",
+    "t": "National Health Systems Resource Centre (NHSRC) Recruitment 2026 Notification Out for 1 Consultant / Senior Consultant (NUHM) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Health Systems Resource Centre (NHSRC) has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 1 vacancies for Consultant / Senior Consultant (NUHM) posts.",
+    "u": "https://recruitment.nhsrcindia.org/web/login"
+},
+  {
+    "id": "stpinext-incubation-manager-recruitment-2026",
+    "b": "Software Technology Parks of India Next (STPINEXT)",
+    "t": "Software Technology Parks of India Next (STPINEXT) Recruitment 2026 Notification Out for 1 Incubation Manager Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "04 October 2026",
+    "a": "STPI/NOI/COE/EPD/2025-2026/7",
+    "q": "Any Bachelor's Degree",
+    "desc": "Software Technology Parks of India Next (STPINEXT) has officially announced employment advertisement notification STPI/NOI/COE/EPD/2025-2026/7 inviting applications for 1 vacancies for Incubation Manager posts.",
+    "u": "https://recruitment.stpi.in/coe/epdel/?_gl=1*1hxfwyx*_ga*ODAxOTQ1MTI4LjE3ODkwMzUzMTE.*_ga_HMXXYT8XE5*czE3ODk2Mjg4NDEkbzEkZzEkdDE3ODk2Mjg5ODckajU0JGwwJGgw"
+},
+  {
+    "id": "jmi-teaching-professor-associate-recruitment-2026",
+    "b": "JMI Teaching",
+    "t": "JMI Teaching Recruitment 2026 Notification Out for 46 Professor, Associate Professor and More Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "Refer Official Notification",
+    "a": "01/2026-27",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "JMI Teaching has officially announced employment advertisement notification 01/2026-27 inviting applications for 46 vacancies for Professor, Associate Professor and More posts.",
+    "u": "https://curec.samarth.ac.in/index.php/search/site/index"
+},
+  {
+    "id": "jmi-asstt-professorcontr-recruitment-2026",
+    "b": "Jamia Millia Islamia (JMI)",
+    "t": "Jamia Millia Islamia (JMI) Recruitment 2026 Notification Out for 7 Asstt. Professor(Contractual-SFS)/Guest Faculty Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "21 September 2026",
+    "a": "LOCAL ADVT. NO. 06/2026-27",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Jamia Millia Islamia (JMI) has officially announced employment advertisement notification LOCAL ADVT. NO. 06/2026-27 inviting applications for 7 vacancies for Asstt. Professor(Contractual-SFS)/Guest Faculty posts.",
+    "u": "https://www.jmi.ac.in/upload/advertisement/jobs_advt6_2026september14.pdf"
+},
+  {
+    "id": "aiims-delhi-project-research-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 5 Project Research Scientist-II (Non-Medical) - AI/ML Scientist Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "I-1875",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification I-1875 inviting applications for 5 vacancies for Project Research Scientist-II (Non-Medical) - AI/ML Scientist posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/derma-17-9-26.pdf"
+},
+  {
+    "id": "total-various-recruitment-2026",
+    "b": "Total",
+    "t": "Total Recruitment 2026 Notification Out for 52 Various Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "Refer Official Notification",
+    "a": "TOTAL/2026",
+    "q": "Candidates must satisfy the following educational and registration requi...",
+    "desc": "Total has officially announced employment advertisement notification TOTAL/2026 inviting applications for 52 vacancies for Various Posts posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsgmh_18.pdf"
+},
+  {
     "id": "aiims-delhi-pa-recruitment-2026",
     "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
     "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
