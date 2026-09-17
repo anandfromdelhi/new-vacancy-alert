@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-delhi-pa-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "DHR-1868",
+    "q": "Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification DHR-1868 inviting applications for 1 vacancies for Project Associate-II posts.",
+    "u": "https://digitalpsychiatry.in/jobs/"
+},
+  {
+    "id": "government-polytec-lecturer-in-recruitment-2026",
+    "b": "Government Polytechnic Daman",
+    "t": "Government Polytechnic Daman Recruitment 2026 Notification Out for 1 Lecturer in Plastic Engineering Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "15 October 2026",
+    "a": "39.1-EST-GP(Vol.3)/2026-27/658",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Government Polytechnic Daman has officially announced employment advertisement notification 39.1-EST-GP(Vol.3)/2026-27/658 inviting applications for 1 vacancies for Lecturer in Plastic Engineering posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/202609151067779559.pdf"
+},
+  {
+    "id": "chief-medical-and-mo-recruitment-2026",
+    "b": "Chief Medical and Health Office Surajpur (CMHO Surajpur)",
+    "t": "Chief Medical and Health Office Surajpur (CMHO Surajpur) Recruitment 2026 Notification Out for 4 Medical Officer, Staff Nurse, Pharmacist cum Administrative Staff, Driver cum Support Staff Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "29 September 2026, 30 September 2026 (Walk-in)",
+    "a": "6642/Red Cross Society-MMU/2026",
+    "q": "10th / 8th Pass | Diploma | B.Sc",
+    "desc": "Chief Medical and Health Office Surajpur (CMHO Surajpur) has officially announced employment advertisement notification 6642/Red Cross Society-MMU/2026 inviting applications for 4 vacancies for Medical Officer, Staff Nurse, Pharmacist cum Administrative Staff, Driver cum Support Staff posts.",
+    "u": "https://cdn.s3waas.gov.in/s345645a27c4f1adc8a7a835976064a86d/uploads/2026/09/17894704571714.pdf"
+},
+  {
+    "id": "pgimer-deo-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 1 Project Technical Support-I (Data Entry Operator) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "24 September 2026",
+    "a": "Int.Med/VD/ICMR/26/2 Dt.15.09.2026",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially announced employment advertisement notification Int.Med/VD/ICMR/26/2 Dt.15.09.2026 inviting applications for 1 vacancies for Project Technical Support-I (Data Entry Operator) posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15669"
+},
+  {
+    "id": "government-medical-project-research-recruitment-2026",
+    "b": "Government Medical College and Hospital Chandigarh (GMCH Chandigarh)",
+    "t": "Government Medical College and Hospital Chandigarh (GMCH Chandigarh) Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Non-medical) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "24 September 2026",
+    "a": "G.M.C.H-Med-2026/395",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Government Medical College and Hospital Chandigarh (GMCH Chandigarh) has officially announced employment advertisement notification G.M.C.H-Med-2026/395 inviting applications for 1 vacancies for Project Research Scientist-I (Non-medical) posts.",
+    "u": "https://gmch.gov.in/sites/default/files/jobs/notice.pdf"
+},
+  {
+    "id": "railway-recruitmen-je-recruitment-2026",
+    "b": "Railway Recruitment Cell, East Central Railway",
+    "t": "Railway Recruitment Cell, East Central Railway Recruitment 2026 Notification Out for 1465 ALP, Technician, Junior Engineer, DMS, Station Master, Goods Train Manager, Clerk and other Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 October 2026 at 23:59 hours",
+    "a": "RRC/ECR/HRD/Rectt/GDCE/2026",
+    "q": "10th / 8th Pass | 12th Pass | ITI",
+    "desc": "Railway Recruitment Cell, East Central Railway has officially announced employment advertisement notification RRC/ECR/HRD/Rectt/GDCE/2026 inviting applications for 1465 vacancies for ALP, Technician, Junior Engineer, DMS, Station Master, Goods Train Manager, Clerk and other posts posts.",
+    "u": "https://ecr.indianrailways.gov.in"
+},
+  {
+    "id": "iit-guwahati-project-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 2 Project Engineer Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "20 September 2026",
+    "a": "IITG/II&SI/Project Staff Rectt-2026/153",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/153 inviting applications for 2 vacancies for Project Engineer posts.",
+    "u": "https://www.iitg.ac.in/pdf/3c0e2d073f1a1b72c43dd747a22aad67.pdf"
+},
+  {
+    "id": "stpi-apprentice-trainee-recruitment-2026",
+    "b": "Software Technology Parks of India (STPI)",
+    "t": "Software Technology Parks of India (STPI) Recruitment 2026 Notification Out for 15 Apprentice Trainee Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "On or before 30 September 2026",
+    "a": "7(1)/I/STPI-HQ/2026-27",
+    "q": "STPI Apprentice Trainee eligibility 2026 is based on educational qualifi...",
+    "desc": "Software Technology Parks of India (STPI) has officially announced employment advertisement notification 7(1)/I/STPI-HQ/2026-27 inviting applications for 15 vacancies for Apprentice Trainee posts.",
+    "u": "https://recruitment.stpi.in/app/index1"
+},
+  {
+    "id": "irctc-hospitality-monitors-recruitment-2026",
+    "b": "IRCTC",
+    "t": "IRCTC Recruitment 2026 Notification Out for 28 Hospitality Monitors and Tourism Monitors Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "Refer Official Notification",
+    "a": "2025/IRCTC/HRD/SCZ/Rectt",
+    "q": "B.Sc | MBA / BBA",
+    "desc": "IRCTC has officially announced employment advertisement notification 2025/IRCTC/HRD/SCZ/Rectt inviting applications for 28 vacancies for Hospitality Monitors and Tourism Monitors posts.",
+    "u": "https://www.irctc.com/assets/images2/Notification_Hospitality_Monitor_contractbasisSCZ%2816Sep26%29.pdf"
+},
+  {
+    "id": "high-court-of-andh-civil-judge-recruitment-2026",
+    "b": "High Court of Andhra Pradesh at Amaravati",
+    "t": "High Court of Andhra Pradesh at Amaravati Recruitment 2026 Notification Out for 16 Civil Judge (Senior Division) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "1 October 2026, up to 5:00 PM",
+    "a": "R.O.C. No. 366/2026-RC",
+    "q": "Serving Civil Judges (Junior Division) with at least three years of service",
+    "desc": "High Court of Andhra Pradesh at Amaravati has officially announced employment advertisement notification R.O.C. No. 366/2026-RC inviting applications for 16 vacancies for Civil Judge (Senior Division) posts.",
+    "u": "https://aphc.gov.in/docs/notification_1789636027_0.pdf"
+},
+  {
     "id": "sail-advisor-consultant-recruitment-2026",
     "b": "Steel Authority of India Limited (SAIL) - IISCO Steel Plant (ISP)",
     "t": "Steel Authority of India Limited (SAIL) - IISCO Steel Plant (ISP) Recruitment 2026 Notification Out for 14 Advisor / Consultant Posts | Apply Offline",
