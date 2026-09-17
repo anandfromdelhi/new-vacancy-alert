@@ -12,6 +12,17 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "hcl-various-recruitment-2026",
+    "b": "Hindustan Copper Limited (HCL), a multi-unit, Schedule-A Miniratna Category-I Central Public Sector Enterprise",
+    "t": "Hindustan Copper Limited (HCL), a multi-unit, Schedule-A Miniratna Category-I Central Public Sector Enterprise Recruitment 2026 Notification Out for 45 Various Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "5 October 2026, till 11:00 PM",
+    "a": "Estt./1/2036/2026-27",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Hindustan Copper Limited (HCL), a multi-unit, Schedule-A Miniratna Category-I Central Public Sector Enterprise has officially announced employment advertisement notification Estt./1/2036/2026-27 inviting applications for 45 vacancies for Various Posts posts.",
+    "u": "https://www.hindustancopper.com"
+},
+  {
     "id": "badrinath-forest-d-subject-matter-recruitment-2026",
     "b": "Badrinath Forest Division",
     "t": "Badrinath Forest Division Recruitment 2026 Notification Out for 1 Subject Matter Expert (Silviculture & Forest Management) Posts | Apply Offline",
