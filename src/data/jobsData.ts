@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "nhm-ladakh-manager-recruitment-2026",
+    "b": "National Health Mission Ladakh (NHM Ladakh)",
+    "t": "National Health Mission Ladakh (NHM Ladakh) Recruitment 2026 Notification Out for 4 Manager Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "40",
+    "q": "B.Tech / B.E | MBA / BBA | Law (LL.B / LL.M)",
+    "desc": "National Health Mission Ladakh (NHM Ladakh) has officially announced employment advertisement notification 40 inviting applications for 4 vacancies for Manager posts.",
+    "u": "https://www.nhmladakh.in/Advertisement40_0001.pdf"
+},
+  {
+    "id": "rites-dgm-civil-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 1 DGM (Civil - Marine Structural Expert) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "19 October 2026",
+    "a": "RG/18-R3/25",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RG/18-R3/25 inviting applications for 1 vacancies for DGM (Civil - Marine Structural Expert) posts.",
+    "u": "https://www.rites.com/Upload/Career/RG_18-R3_25_final_adv_pdf-2026-Sep-17-11-52-21.pdf"
+},
+  {
+    "id": "iocl-ra-recruitment-2026",
+    "b": "Indian Oil Corporation (IOCL)",
+    "t": "Indian Oil Corporation (IOCL) Recruitment 2026 Notification Out for 2 Research Associate Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "INDIAN-OIL-COR/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Oil Corporation (IOCL) has officially announced employment advertisement notification INDIAN-OIL-COR/2026 inviting applications for 2 vacancies for Research Associate posts.",
+    "u": "https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/23d0be749dcf4f249c80cbf76769fca1.pdf"
+},
+  {
+    "id": "jawahar-navodaya-v-dance-expert-recruitment-2026",
+    "b": "Jawahar Navodaya Vidyalaya",
+    "t": "Jawahar Navodaya Vidyalaya Recruitment 2026 Notification Out for 5 Dance Expert, TGT (CS), TGT (Art), Hostel Superintendent Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "JAWAHAR-NAVODA/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Jawahar Navodaya Vidyalaya has officially announced employment advertisement notification JAWAHAR-NAVODA/2026 inviting applications for 5 vacancies for Dance Expert, TGT (CS), TGT (Art), Hostel Superintendent posts.",
+    "u": "https://navodaya.gov.in"
+},
+  {
+    "id": "csir-csmcri-pa-recruitment-2026",
+    "b": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI)",
+    "t": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) Recruitment 2026 Notification Out for 9 Project Associate -I , Senior Project Associate, Project Scientist -I , Project Scientist -II Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "CSIR-CSMCRI/MEAD/ULIP/2026-27/01",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) has officially announced employment advertisement notification CSIR-CSMCRI/MEAD/ULIP/2026-27/01 inviting applications for 9 vacancies for Project Associate -I , Senior Project Associate, Project Scientist -I , Project Scientist -II posts.",
+    "u": "https://www.csmcri.res.in/node/11062"
+},
+  {
+    "id": "gacl-officer-purchase-recruitment-2026",
+    "b": "Gujarat Alkalies and Chemicals Limited (GACL)",
+    "t": "Gujarat Alkalies and Chemicals Limited (GACL) Recruitment 2026 Notification Out for 1 Officer (Purchase)- Import, Executive Trainee (Marketing) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "27 September 2026",
+    "a": "GUJARAT-ALKALI/2026",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Gujarat Alkalies and Chemicals Limited (GACL) has officially announced employment advertisement notification GUJARAT-ALKALI/2026 inviting applications for 1 vacancies for Officer (Purchase)- Import, Executive Trainee (Marketing) posts.",
+    "u": "https://gaclportal.gacl.co.in/hrportal/#b"
+},
+  {
+    "id": "aiims-senior-resident-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Rajkot",
+    "t": "All India Institute of Medical Sciences, Rajkot Recruitment 2026 Notification Out for 64 Senior Resident (Non-Academic) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "3 October 2026 at 11:00 AM",
+    "a": "AIIMS/RJT/AS/SR/R-3/2026/3194",
+    "q": "M.Sc | MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences, Rajkot has officially announced employment advertisement notification AIIMS/RJT/AS/SR/R-3/2026/3194 inviting applications for 64 vacancies for Senior Resident (Non-Academic) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScHiSj5DWMxfa2hpIsYTgwUgfzC9z0xlddodTe8LttYvIjncw/viewform"
+},
+  {
+    "id": "iit-gandhinagar-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Project Associate - I Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "25 September 2026",
+    "a": "SPON/10388/Advt0320 DATED 17.09.2026",
+    "q": "B.Tech / B.E | B.Pharm / D.Pharm | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification SPON/10388/Advt0320 DATED 17.09.2026 inviting applications for 1 vacancies for Project Associate - I posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "up-to-5-years-engineering-services-recruitment-2026",
+    "b": "Up to 5 years",
+    "t": "Up to 5 years Recruitment 2026 Notification Out for 480 Engineering Services Examination Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "02/2027-ENGG",
+    "q": "B.Tech / B.E",
+    "desc": "Up to 5 years has officially announced employment advertisement notification 02/2027-ENGG inviting applications for 480 vacancies for Engineering Services Examination posts.",
+    "u": "https://upsconline.nic.in/candidate/realms/candidate-portal/protocol/openid-connect/auth?client_id=account&redirect_uri=https%3A%2F%2Fupsconline.nic.in%2Fcandidate%2Frealms%2Fcandidate-portal%2Faccount%2Flogin-redirect&state=0%2F1b9502e8-7844-22f1-18e3-e0ea149a3fa1&response_type=code&scope=openid"
+},
+  {
+    "id": "upsc-various-recruitment-2026",
+    "b": "Union Public Service Commission (UPSC)",
+    "t": "Union Public Service Commission (UPSC) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "06 October 2026 (till 06:00 PM)",
+    "a": "9/02/2026-E",
+    "q": "B.Tech / B.E",
+    "desc": "Union Public Service Commission (UPSC) has officially announced employment advertisement notification 9/02/2026-E inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://upsconline.nic.in"
+},
+  {
     "id": "davcmc-ldc-pgt-recruitment-2026",
     "b": "DAV College Managing Committee (DAVCMC)",
     "t": "DAV College Managing Committee (DAVCMC) Recruitment 2026 Notification Out for 1 LDC, PGT, PRT and More Posts | Apply Online",
