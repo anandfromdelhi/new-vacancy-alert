@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "greater-chennai-co-contractual-temporar-recruitment-2026",
+    "b": "Greater Chennai Corporation - Chennai City Urban Health Mission",
+    "t": "Greater Chennai Corporation - Chennai City Urban Health Mission Recruitment 2026 Notification Out for 512 Contractual / Temporary Staff Nurse Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026, 5:00 PM",
+    "a": "Post",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "Greater Chennai Corporation - Chennai City Urban Health Mission has officially announced employment advertisement notification Post inviting applications for 512 vacancies for Contractual / Temporary Staff Nurse posts.",
+    "u": "https://chennaicorporation.gov.in/gcc/pdf/StaffNurseNotification.pdf"
+},
+  {
+    "id": "dcpu-assistant-cum-recruitment-2026",
+    "b": "District Child Protection Unit Cuddalore (DCPU Cuddalore)",
+    "t": "District Child Protection Unit Cuddalore (DCPU Cuddalore) Recruitment 2026 Notification Out for 3 Assistant cum Bench Clerk, Office Assistant and Junior Assistant cum Record Clerk Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Cuddalore (DCPU Cuddalore) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 3 vacancies for Assistant cum Bench Clerk, Office Assistant and Junior Assistant cum Record Clerk posts.",
+    "u": "https://cdn.s3waas.gov.in/s3a96b65a721e561e1e3de768ac819ffbb/uploads/2026/09/17896252416177.pdf"
+},
+  {
+    "id": "juvenile-justice-b-assistant-and-recruitment-2026",
+    "b": "Juvenile Justice Board Thanjavur",
+    "t": "Juvenile Justice Board Thanjavur Recruitment 2026 Notification Out for 3 Assistant and Session Clerk, Court Assistant combined with Record Clerk, Office Assistant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "JUVENILE-JUSTI/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "Juvenile Justice Board Thanjavur has officially announced employment advertisement notification JUVENILE-JUSTI/2026 inviting applications for 3 vacancies for Assistant and Session Clerk, Court Assistant combined with Record Clerk, Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3b7b16ecf8ca53723593894116071700c/uploads/2026/09/17894728707369.pdf"
+},
+  {
+    "id": "nhm-tn-contractualtemporary-recruitment-2026-3067564",
+    "b": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu",
+    "t": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu Recruitment 2026 Notification Out for 4724 Contractual/Temporary Staff Nurse Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "25 September 2026, 5:00 PM",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Candidates should check both the qualification and age requirements belo...",
+    "desc": "National Health Mission - Tamil Nadu (NHM-TN), Health and Family Welfare Department, Government of Tamil Nadu has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 4724 vacancies for Contractual/Temporary Staff Nurse posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c86a7ee3d8ef0b551ed58e354a836f2b/uploads/2026/09/17892905941691.pdf"
+},
+  {
+    "id": "dcpu-assistant-and-recruitment-2026",
+    "b": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi)",
+    "t": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi) Recruitment 2026 Notification Out for 3 Assistant and Session Clerk, Junior Assistant Attached Registry Clerk, Office assistant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "29 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 3 vacancies for Assistant and Session Clerk, Junior Assistant Attached Registry Clerk, Office assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3019d385eb67632a7e958e23f24bd07d7/uploads/2026/09/17894584575924.pdf"
+},
+  {
+    "id": "dcpu-kancheepuram-junior-assistant-recruitment-2026",
+    "b": "District Child Protection Unit Kancheepuram (DCPU Kancheepuram)",
+    "t": "District Child Protection Unit Kancheepuram (DCPU Kancheepuram) Recruitment 2026 Notification Out for 2 Junior Assistant-cum-Record Clerk / Office Assistant Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "Designation",
+    "q": "10th / 8th Pass",
+    "desc": "District Child Protection Unit Kancheepuram (DCPU Kancheepuram) has officially announced employment advertisement notification Designation inviting applications for 2 vacancies for Junior Assistant-cum-Record Clerk / Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s31543843a4723ed2ab08e18053ae6dc5b/uploads/2026/09/17894556103866.pdf"
+},
+  {
+    "id": "chennai-metropolit-graduate-apprentice-recruitment-2026",
+    "b": "Chennai Metropolitan Water Supply and Sewerage Board",
+    "t": "Chennai Metropolitan Water Supply and Sewerage Board Recruitment 2026 Notification Out for 108 Graduate Apprentice and Technician Diploma Apprentice Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "17 October 2026",
+    "a": "CHENNAI-METROP/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Chennai Metropolitan Water Supply and Sewerage Board has officially announced employment advertisement notification CHENNAI-METROP/2026 inviting applications for 108 vacancies for Graduate Apprentice and Technician Diploma Apprentice posts.",
+    "u": "https://nats.education.gov.in/"
+},
+  {
+    "id": "sikkim-university-ra-recruitment-2026",
+    "b": "Sikkim University",
+    "t": "Sikkim University Recruitment 2026 Notification Out for 6 Research Associate, Research Assistant, Field Investigator Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "F. No. 22/2025-26/ICSSR/RP/MJ",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sikkim University has officially announced employment advertisement notification F. No. 22/2025-26/ICSSR/RP/MJ inviting applications for 6 vacancies for Research Associate, Research Assistant, Field Investigator posts.",
+    "u": "https://cus.ac.in/images/content/dynamic/noti/2026/Sept/advertisement%20FPO%20icssr%20project.pdf"
+},
+  {
+    "id": "prl-telescope-operator-recruitment-2026",
+    "b": "Physical Research Laboratory (PRL)",
+    "t": "Physical Research Laboratory (PRL) Recruitment 2026 Notification Out for 8 Telescope Operator Trainee Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 October 2026 (Walk-in)",
+    "a": "11/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Physical Research Laboratory (PRL) has officially announced employment advertisement notification 11/2026 inviting applications for 8 vacancies for Telescope Operator Trainee posts.",
+    "u": "https://www.prl.res.in/~notices/websitedocs/2026/09/15/TOT-Mt-Abu-Advt-No.11-2026-15-09-2026-15-08-27.pdf"
+},
+  {
+    "id": "zss-khordha-counselor-physiother-recruitment-2026",
+    "b": "Zilla Swasthya Samiti Khordha (ZSS Khordha)",
+    "t": "Zilla Swasthya Samiti Khordha (ZSS Khordha) Recruitment 2026 Notification Out for 5 Counselor, Physiotherapist, WIC Operator, Data Assistant-cum-Accountant Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "1849/1/DPMUKHD",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Zilla Swasthya Samiti Khordha (ZSS Khordha) has officially announced employment advertisement notification 1849/1/DPMUKHD inviting applications for 5 vacancies for Counselor, Physiotherapist, WIC Operator, Data Assistant-cum-Accountant posts.",
+    "u": "https://khordha.odisha.gov.in/sites/default/files/2026-09/Annex%20A%20for%20In%20House.pdf"
+},
+  {
     "id": "svnirtar-lecturer-prosthetics-recruitment-2026",
     "b": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR)",
     "t": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR) Recruitment 2026 Notification Out for 4 Lecturer (Prosthetics & Orthotics), Clinical Psychologist-cum- Junior Lecturer, Demonstrator in Physiotherapy, Cashier Posts | Apply Online",
