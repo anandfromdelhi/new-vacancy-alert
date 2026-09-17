@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "badrinath-forest-d-subject-matter-recruitment-2026",
+    "b": "Badrinath Forest Division",
+    "t": "Badrinath Forest Division Recruitment 2026 Notification Out for 1 Subject Matter Expert (Silviculture & Forest Management) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "21 September 2026",
+    "a": "179/19-1",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Badrinath Forest Division has officially announced employment advertisement notification 179/19-1 inviting applications for 1 vacancies for Subject Matter Expert (Silviculture & Forest Management) posts.",
+    "u": "https://forest.uk.gov.in"
+},
+  {
+    "id": "district-legal-ser-office-peon-recruitment-2026",
+    "b": "District Legal Services Authority Rudraprayag",
+    "t": "District Legal Services Authority Rudraprayag Recruitment 2026 Notification Out for 2 Office Peon Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "19 September 2026",
+    "a": "115 / DLSA Rudraprayag / 2026",
+    "q": "12th Pass",
+    "desc": "District Legal Services Authority Rudraprayag has officially announced employment advertisement notification 115 / DLSA Rudraprayag / 2026 inviting applications for 2 vacancies for Office Peon posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03c4b43ae017af4001c5193d310bf0/uploads/2026/09/2026091474.pdf"
+},
+  {
+    "id": "iit-roorkee-scientific-administr-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Scientific Administrative Assistant Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Scientific Administrative Assistant posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CSE/2026/adv170920262.pdf"
+},
+  {
+    "id": "fddi-junior-faculty-recruitment-2026",
+    "b": "Footwear Design & Development Institute (FDDI)",
+    "t": "Footwear Design & Development Institute (FDDI) Recruitment 2026 Notification Out for 2 Junior Faculty Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "27 September 2026",
+    "a": "FDDI-ND/(1)/HR/Ad-hoc/2026-27/02",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Footwear Design & Development Institute (FDDI) has officially announced employment advertisement notification FDDI-ND/(1)/HR/Ad-hoc/2026-27/02 inviting applications for 2 vacancies for Junior Faculty posts.",
+    "u": "https://fddiindia.com/uploads/career/Vacancy_Notice_Noida_16-09-2026.pdf"
+},
+  {
+    "id": "dmsrde-paid-internship-recruitment-2026",
+    "b": "Defence Materials and Stores Research & Development Establishment (DMSRDE)",
+    "t": "Defence Materials and Stores Research & Development Establishment (DMSRDE) Recruitment 2026 Notification Out for 9 Paid Internship Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "28 September 2026",
+    "a": "DMSRDE(HRD)/Paid Internship/2026/02",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Defence Materials and Stores Research & Development Establishment (DMSRDE) has officially announced employment advertisement notification DMSRDE(HRD)/Paid Internship/2026/02 inviting applications for 9 vacancies for Paid Internship posts.",
+    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMSRDE16092026.pdf"
+},
+  {
+    "id": "office-of-the-dist-anganwadi-worker-recruitment-2026",
+    "b": "Office of the District Programme Officer, Gorakhpur (Bal Vikas Seva evam Pushtahar Vibhag, Uttar Pradesh)",
+    "t": "Office of the District Programme Officer, Gorakhpur (Bal Vikas Seva evam Pushtahar Vibhag, Uttar Pradesh) Recruitment 2026 Notification Out for 326 Anganwadi Karyakatri (Anganwadi Worker) - honorarium-based / contractual Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "5 October 2026, up to 12:00 midnight",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Office of the District Programme Officer, Gorakhpur (Bal Vikas Seva evam Pushtahar Vibhag, Uttar Pradesh) has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 326 vacancies for Anganwadi Karyakatri (Anganwadi Worker) - honorarium-based / contractual posts.",
+    "u": "https://upanganwadibharti.in"
+},
+  {
+    "id": "child-development-anganwadi-sahayika-recruitment-2026",
+    "b": "Child Development Services and Nutrition Department, Uttar Pradesh",
+    "t": "Child Development Services and Nutrition Department, Uttar Pradesh Recruitment 2026 Notification Out for 207 Anganwadi Sahayika Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "5 October 2026, up to 12:00 midnight",
+    "a": "CHILD-DEVELOPM/2026",
+    "q": "12th Pass",
+    "desc": "Child Development Services and Nutrition Department, Uttar Pradesh has officially announced employment advertisement notification CHILD-DEVELOPM/2026 inviting applications for 207 vacancies for Anganwadi Sahayika posts.",
+    "u": "https://upanganwadibharti.in"
+},
+  {
+    "id": "uppsc-deputy-secretary-recruitment-2026",
+    "b": "Uttar Pradesh Public Service Commission (UPPSC)",
+    "t": "Uttar Pradesh Public Service Commission (UPPSC) Recruitment 2026 Notification Out for 1 Deputy Secretary Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "14 October 2026",
+    "a": "D-2/E-1/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Uttar Pradesh Public Service Commission (UPPSC) has officially announced employment advertisement notification D-2/E-1/2026 inviting applications for 1 vacancies for Deputy Secretary posts.",
+    "u": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+},
+  {
+    "id": "bhu-project-research-recruitment-2026",
+    "b": "Banaras Hindu University (BHU)",
+    "t": "Banaras Hindu University (BHU) Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Medical) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "06 October 2026",
+    "a": "DEV/2026/NIRF BHU 2 PN(291026)",
+    "q": "MBBS / Medical PG | BDS / Dental",
+    "desc": "Banaras Hindu University (BHU) has officially announced employment advertisement notification DEV/2026/NIRF BHU 2 PN(291026) inviting applications for 1 vacancies for Project Research Scientist-I (Medical) posts.",
+    "u": "https://www.bhu.ac.in/Images/files/SKR%20ICMR%20PS.pdf"
+},
+  {
+    "id": "irctc-qualified-cacma-recruitment-2026",
+    "b": "Indian Railway Catering and Tourism Corporation (IRCTC)",
+    "t": "Indian Railway Catering and Tourism Corporation (IRCTC) Recruitment 2026 Notification Out for 2 Qualified CA/CMA Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "2025/IRCTC/3/HRD/SCZ/Contractual/Finance/CA_CMA",
+    "q": "Chartered Accountant (CA), Cost & Management Accountant (CMA)",
+    "desc": "Indian Railway Catering and Tourism Corporation (IRCTC) has officially announced employment advertisement notification 2025/IRCTC/3/HRD/SCZ/Contractual/Finance/CA_CMA inviting applications for 2 vacancies for Qualified CA/CMA posts.",
+    "u": "https://www.irctc.com/assets/images2/Notification_Qualified_CA-CMA_contractbasisSCZ(16Sep26).pdf"
+},
+  {
     "id": "greater-chennai-co-contractual-temporar-recruitment-2026",
     "b": "Greater Chennai Corporation - Chennai City Urban Health Mission",
     "t": "Greater Chennai Corporation - Chennai City Urban Health Mission Recruitment 2026 Notification Out for 512 Contractual / Temporary Staff Nurse Posts | Apply Offline",
