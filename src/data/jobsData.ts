@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "digital-university-project-technical-recruitment-2026",
+    "b": "Digital University Kerala",
+    "t": "Digital University Kerala Recruitment 2026 Notification Out for 2 Project Technical Support-II, Project Technical Support-III Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "22 September 2026",
+    "a": "KUDSIT/64/AD",
+    "q": "B.Tech / B.E | M.Tech / M.E | MBBS / Medical PG",
+    "desc": "Digital University Kerala has officially announced employment advertisement notification KUDSIT/64/AD inviting applications for 2 vacancies for Project Technical Support-II, Project Technical Support-III posts.",
+    "u": "https://duk.ac.in/data/2026/09/Walkin-interview-notification-KUDSIT-64-AD_AIII-2026.pdf"
+},
+  {
+    "id": "office-of-the-depu-pourakarmika-municip-recruitment-2026",
+    "b": "Office of the Deputy Commissioner, District Urban Development Cell, Gadag, Karnataka",
+    "t": "Office of the Deputy Commissioner, District Urban Development Cell, Gadag, Karnataka Recruitment 2026 Notification Out for 154 Pourakarmika (Municipal Sanitation Worker) Posts | Apply Offline",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "Ji.Na.Ko/Sibbandi/Pou-14/2026-27, dated 29.08.2026",
+    "q": "Pourakarmika: 154",
+    "desc": "Office of the Deputy Commissioner, District Urban Development Cell, Gadag, Karnataka has officially announced employment advertisement notification Ji.Na.Ko/Sibbandi/Pou-14/2026-27, dated 29.08.2026 inviting applications for 154 vacancies for Pourakarmika (Municipal Sanitation Worker) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3912d2b1c7b2826caf99687388d2e8f7c/uploads/2026/09/17885195189168.pdf"
+},
+  {
+    "id": "ntpc-diploma-trainee-recruitment-2026",
+    "b": "National Thermal Power Corporation (NTPC)",
+    "t": "National Thermal Power Corporation (NTPC) Recruitment 2026 Notification Out for 1 Diploma Trainee (C&I) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "03 October 2026",
+    "a": "Kudgi: 02/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "National Thermal Power Corporation (NTPC) has officially announced employment advertisement notification Kudgi: 02/2026 inviting applications for 1 vacancies for Diploma Trainee (C&I) posts.",
+    "u": "https://careers.ntpc.co.in/recruitment/pdf_viewer.php?token=aFIvOGpxRU9XWEl2ZmE2VWZBcytnZGdNTHplVmJaK29NNU1wMGhRRHcvVmx2Z0c1ZG9BY05wTDVNN1czYUFPVW9DWkNZL1FHNDJua3VHejlGTlJZbENJVnpoMFBJeFFsdTFYQnZwUnQ2MGpaVlhWTjhsSEpGNnFpZVBRUExqaTU6OjRYbTJvbFZ2UW93MWovbWpDSmtZblE9PQ%3D%3D"
+},
+  {
+    "id": "ucsl-diploma-apprentice-recruitment-2026",
+    "b": "Udupi Cochin Shipyard (UCSL)",
+    "t": "Udupi Cochin Shipyard (UCSL) Recruitment 2026 Notification Out for 3 Diploma Apprentice Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "14 October 2026",
+    "a": "UCSL/HR/APP/VN-ReN-GAT/DAT/2026/96",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Udupi Cochin Shipyard (UCSL) has officially announced employment advertisement notification UCSL/HR/APP/VN-ReN-GAT/DAT/2026/96 inviting applications for 3 vacancies for Diploma Apprentice posts.",
+    "u": "https://udupicsl.com/wp-content/uploads/2026/09/VN-96-GAT_DAT.pdf"
+},
+  {
+    "id": "iia-pa-recruitment-2026",
+    "b": "Indian Institute of Astrophysics (IIA)",
+    "t": "Indian Institute of Astrophysics (IIA) Recruitment 2026 Notification Out for 2 Project Assistant Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "IIA/11/2026-27",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Indian Institute of Astrophysics (IIA) has officially announced employment advertisement notification IIA/11/2026-27 inviting applications for 2 vacancies for Project Assistant posts.",
+    "u": "https://www.iiap.res.in/iia_jobs/sites/default/files/Project_Assistant.pdf"
+},
+  {
+    "id": "national-rural-liv-multiple-positions-recruitment-2026",
+    "b": "National Rural Livelihood Mission Karnataka (NRLM Karnataka)",
+    "t": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) Recruitment 2026 Notification Out for 34 Multiple Positions Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "24 September 2026",
+    "a": "NATIONAL-RURAL/2026",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) has officially announced employment advertisement notification NATIONAL-RURAL/2026 inviting applications for 34 vacancies for Multiple Positions posts.",
+    "u": "https://jobsksrlps.karnataka.gov.in/Auth/Login?returnUrl=%2FApplicant%2FApplications%2FApply%2Fx5Oi1Pw70DTMtuwwkG7SaQ"
+},
+  {
+    "id": "jscps-social-worker-recruitment-2026",
+    "b": "Jharkhand State Child Protection Society (JSCPS)",
+    "t": "Jharkhand State Child Protection Society (JSCPS) Recruitment 2026 Notification Out for 11 Social Worker Member / Chairperson / Member Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "15 October 2026",
+    "a": "3062",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Jharkhand State Child Protection Society (JSCPS) has officially announced employment advertisement notification 3062 inviting applications for 11 vacancies for Social Worker Member / Chairperson / Member posts.",
+    "u": "https://recruitment.jharkhand.gov.in"
+},
+  {
+    "id": "jkpsc-ap-recruitment-2026-3061264",
+    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
+    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 70 Assistant Professor (Backlog Vacancies) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "18 September 2026",
+    "a": "06-PSC(DR-P) of 2026",
+    "q": "As on the last date of online application submission",
+    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification 06-PSC(DR-P) of 2026 inviting applications for 70 vacancies for Assistant Professor (Backlog Vacancies) posts.",
+    "u": "https://jkpsc.nic.in/home.html"
+},
+  {
+    "id": "jkpsc-ap-recruitment-2026-3061196",
+    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
+    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 205 Assistant Professor, College Director of Physical Education & Sports, Librarian Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "18 September 2026",
+    "a": "05-PSC(DR-P) OF 2026, dated 31-07-2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification 05-PSC(DR-P) OF 2026, dated 31-07-2026 inviting applications for 205 vacancies for Assistant Professor, College Director of Physical Education & Sports, Librarian posts.",
+    "u": "https://jkpsc.nic.in/home.html"
+},
+  {
+    "id": "jkpsc-ap-recruitment-2026",
+    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
+    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 6 Assistant Professor/Librarian Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "18 September 2026 (Extended)",
+    "a": "JAMMU-AND-KASH/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification JAMMU-AND-KASH/2026 inviting applications for 6 vacancies for Assistant Professor/Librarian posts.",
+    "u": "https://jkpsc.nic.in/PDF/AP_LIB_BACKLOG_2026.PDF"
+},
+  {
     "id": "nhm-ladakh-manager-recruitment-2026",
     "b": "National Health Mission Ladakh (NHM Ladakh)",
     "t": "National Health Mission Ladakh (NHM Ladakh) Recruitment 2026 Notification Out for 4 Manager Posts | Apply Offline",
