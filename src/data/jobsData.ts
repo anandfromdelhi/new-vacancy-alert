@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "central-railway-senior-resident-recruitment-2026",
+    "b": "Central Railway",
+    "t": "Central Railway Recruitment 2026 Notification Out for 2 Senior Resident Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "BY. HE. Sr. Resident/Adv.-September -2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Central Railway has officially announced employment advertisement notification BY. HE. Sr. Resident/Adv.-September -2026 inviting applications for 2 vacancies for Senior Resident posts.",
+    "u": "https://cr.indianrailways.gov.in/cris//uploads/files/1789456035625-Senior%20resident%20interview%2022.09.2026.pdf"
+},
+  {
+    "id": "iim-mumbai-ra-recruitment-2026",
+    "b": "Indian Institute of Management Mumbai (IIM Mumbai)",
+    "t": "Indian Institute of Management Mumbai (IIM Mumbai) Recruitment 2026 Notification Out for 17 Senior Associate (Policy), Associate (Evaluation and Data), Research Associate, Project Manager Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "09 October 2026",
+    "a": "IIMM-CRISP/MahaTAC/2026-27/01",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Mumbai (IIM Mumbai) has officially announced employment advertisement notification IIMM-CRISP/MahaTAC/2026-27/01 inviting applications for 17 vacancies for Senior Associate (Policy), Associate (Evaluation and Data), Research Associate, Project Manager posts.",
+    "u": "https://mahatac.crispindia.net/"
+},
+  {
+    "id": "diat-srf-recruitment-2026",
+    "b": "Defence Institute of Advanced Technology (DIAT)",
+    "t": "Defence Institute of Advanced Technology (DIAT) Recruitment 2026 Notification Out for 7 Senior Research Fellow, Junior Research Fellow, Project Assistant Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "30 September 2026",
+    "a": "25-2026/SRF/JRF/PA/DIAT",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Defence Institute of Advanced Technology (DIAT) has officially announced employment advertisement notification 25-2026/SRF/JRF/PA/DIAT inviting applications for 7 vacancies for Senior Research Fellow, Junior Research Fellow, Project Assistant posts.",
+    "u": "https://diat.ac.in/wp-content/uploads/2026/09/Advt-No.25-2026-SRF-JRF-PA-DIAT-2.pdf"
+},
+  {
+    "id": "icfre-tfri-jrf-recruitment-2026",
+    "b": "ICFRE Tropical Forest Research Institute (ICFRE-TFRI)",
+    "t": "ICFRE Tropical Forest Research Institute (ICFRE-TFRI) Recruitment 2026 Notification Out for 10 Senior Project Fellow, Project Assistant, Junior Research Fellow/Junior Project Fellow, Field Assistant Posts | Walk-in Interview",
+    "d": "17 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "ICFRE-TROPICAL/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "ICFRE Tropical Forest Research Institute (ICFRE-TFRI) has officially announced employment advertisement notification ICFRE-TROPICAL/2026 inviting applications for 10 vacancies for Senior Project Fellow, Project Assistant, Junior Research Fellow/Junior Project Fellow, Field Assistant posts.",
+    "u": "https://tfrienglish.icfre.gov.in/jobs/vacancy147.pdf"
+},
+  {
+    "id": "csl-officer-skill-recruitment-2026",
+    "b": "Cochin Shipyard (CSL)",
+    "t": "Cochin Shipyard (CSL) Recruitment 2026 Notification Out for 2 Officer (Skill Development) on contract basis Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "CSL/P&A/RECTT/CONTRACT/Officer SD/2026/14",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Cochin Shipyard (CSL) has officially announced employment advertisement notification CSL/P&A/RECTT/CONTRACT/Officer SD/2026/14 inviting applications for 2 vacancies for Officer (Skill Development) on contract basis posts.",
+    "u": "https://cochinshipyard.in/careerdetail/career_locations/816"
+},
+  {
+    "id": "istc-chief-executive-recruitment-2026",
+    "b": "India Ship Technology Centre (ISTC)",
+    "t": "India Ship Technology Centre (ISTC) Recruitment 2026 Notification Out for 1 Chief Executive Officer (CEO) Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "28 September 2026",
+    "a": "ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A)",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "India Ship Technology Centre (ISTC) has officially announced employment advertisement notification ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A) inviting applications for 1 vacancies for Chief Executive Officer (CEO) posts.",
+    "u": "https://cochinshipyard.in/uploads/career/8cc7186549152ef7ac7dbb7ccd01e3ed.pdf"
+},
+  {
+    "id": "kfon-district-telecom-recruitment-2026",
+    "b": "Kerala Fibre Optic Network (KFON)",
+    "t": "Kerala Fibre Optic Network (KFON) Recruitment 2026 Notification Out for 1 District Telecom Executive Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "CMD/KFON/01/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Kerala Fibre Optic Network (KFON) has officially announced employment advertisement notification CMD/KFON/01/2026 inviting applications for 1 vacancies for District Telecom Executive posts.",
+    "u": "https://cmd.kerala.gov.in/wp-content/uploads/2026/09/Notification-KFON-DTE-Recruitment-v2.pdf"
+},
+  {
+    "id": "csl-faculty-recruitment-2026",
+    "b": "Cochin Shipyard (CSL)",
+    "t": "Cochin Shipyard (CSL) Recruitment 2026 Notification Out for 3 Faculty Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "CSL/P&A/RECTT/CONTRACT/FACULTY (METI)/2022/1",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Cochin Shipyard (CSL) has officially announced employment advertisement notification CSL/P&A/RECTT/CONTRACT/FACULTY (METI)/2022/1 inviting applications for 3 vacancies for Faculty posts.",
+    "u": "https://csl.cochinshipyard.in:8000/sap/bc/webdynpro/sap/hrrcf_a_startpage_ext_cand?sap-language=EN"
+},
+  {
+    "id": "csl-female-hostel-recruitment-2026",
+    "b": "Cochin Shipyard (CSL)",
+    "t": "Cochin Shipyard (CSL) Recruitment 2026 Notification Out for 1 Female Hostel Superintendent / Warden Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "01 October 2026",
+    "a": "CSL/P&A/RECTT/CONTRACT/METI/2025/12",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Cochin Shipyard (CSL) has officially announced employment advertisement notification CSL/P&A/RECTT/CONTRACT/METI/2025/12 inviting applications for 1 vacancies for Female Hostel Superintendent / Warden posts.",
+    "u": "https://csl.cochinshipyard.in:8000/sap/bc/webdynpro/sap/hrrcf_a_startpage_ext_cand?sap-language=EN"
+},
+  {
+    "id": "high-court-of-kera-office-attendant-recruitment-2026",
+    "b": "High Court of Kerala",
+    "t": "High Court of Kerala Recruitment 2026 Notification Out for 17 Office Attendant Posts | Apply Online",
+    "d": "17 September 2026",
+    "l": "26 October 2026",
+    "a": "21/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "High Court of Kerala has officially announced employment advertisement notification 21/2026 inviting applications for 17 vacancies for Office Attendant posts.",
+    "u": "https://hckrecruitment.keralacourts.in/hckrecruitment/Recruitment/notifications"
+},
+  {
     "id": "digital-university-project-technical-recruitment-2026",
     "b": "Digital University Kerala",
     "t": "Digital University Kerala Recruitment 2026 Notification Out for 2 Project Technical Support-II, Project Technical Support-III Posts | Walk-in Interview",
