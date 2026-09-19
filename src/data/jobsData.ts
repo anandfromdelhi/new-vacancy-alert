@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "zss-khordha-mo-recruitment-2026",
+    "b": "Zilla Swasthya Samiti Khordha (ZSS Khordha)",
+    "t": "Zilla Swasthya Samiti Khordha (ZSS Khordha) Recruitment 2026 Notification Out for 2 Medical Officer Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "1948 / DPMUKHD",
+    "q": "MBBS / Medical PG",
+    "desc": "Zilla Swasthya Samiti Khordha (ZSS Khordha) has officially announced employment advertisement notification 1948 / DPMUKHD inviting applications for 2 vacancies for Medical Officer posts.",
+    "u": "https://khordha.odisha.gov.in/sites/default/files/2026-09/Annex%20A%20for%20Medical%20Officer.pdf"
+},
+  {
+    "id": "ghs-hatibari-part-time-recruitment-2026",
+    "b": "Government High School Hatibari",
+    "t": "Government High School Hatibari Recruitment 2026 Notification Out for 1 Part Time Teacher (Sanskrit) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "06 October 2026",
+    "a": "3549",
+    "q": "B.A with Sanskrit/ Sahityacharya",
+    "desc": "Government High School Hatibari has officially announced employment advertisement notification 3549 inviting applications for 1 vacancies for Part Time Teacher (Sanskrit) posts.",
+    "u": "https://jajpur.odisha.gov.in/sites/default/files/2026-09/Advertisement_3549_17-09-26_DPC.pdf"
+},
+  {
+    "id": "ss-jajpur-agra-part-time-recruitment-2026",
+    "b": "Samagra Shiksha Jajpur",
+    "t": "Samagra Shiksha Jajpur Recruitment 2026 Notification Out for 1 Part time Teacher (Sanskrit) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "06 October 2026",
+    "a": "3519",
+    "q": "B.A with Sanskrit/ Sahityacharya",
+    "desc": "Samagra Shiksha Jajpur has officially announced employment advertisement notification 3519 inviting applications for 1 vacancies for Part time Teacher (Sanskrit) posts.",
+    "u": "https://osepa.odisha.gov.in/webadmin/News_pdf/03_43_58pm9dad52bdf86de95b5beac6e5cb0d109a.pdf"
+},
+  {
+    "id": "district-hea-gnm-ophthalmic-recruitment-2026",
+    "b": "District Health Society South Garo Hills (DHS South Garo Hills)",
+    "t": "District Health Society South Garo Hills (DHS South Garo Hills) Recruitment 2026 Notification Out for 14 GNM, Ophthalmic Assistant and More Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "DMA/HSO/SGH/NHM/Appt/26/2026",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "District Health Society South Garo Hills (DHS South Garo Hills) has officially announced employment advertisement notification DMA/HSO/SGH/NHM/Appt/26/2026 inviting applications for 14 vacancies for GNM, Ophthalmic Assistant and More Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s3a67f096809415ca1c9f112d96d27689b/uploads/2026/09/17897195233633.pdf"
+},
+  {
+    "id": "centbank-financial-manager-recruitment-2026",
+    "b": "Centbank Financial Services Limited",
+    "t": "Centbank Financial Services Limited Recruitment 2026 Notification Out for 4 Manager Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "20 September 2026",
+    "a": "CENTFIN: 2026-27:2",
+    "q": "B.Tech / B.E",
+    "desc": "Centbank Financial Services Limited has officially announced employment advertisement notification CENTFIN: 2026-27:2 inviting applications for 4 vacancies for Manager posts.",
+    "u": "https://careers.cfsl.in/"
+},
+  {
+    "id": "aiims-nagpur-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur)",
+    "t": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) Recruitment 2026 Notification Out for 5 Project Research Scientist II (Medical) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Sc | MBBS / Medical PG | BDS / Dental",
+    "desc": "All India Institute of Medical Sciences Nagpur (AIIMS Nagpur) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 5 vacancies for Project Research Scientist II (Medical) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSf8HWpjEn2GI-r5fBGUQWFeLHYvJFbcyfEJUE5swQUU6eXDVA/viewform"
+},
+  {
+    "id": "mahatran-electrician-appren-recruitment-2026",
+    "b": "Maharashtra State Electricity Transmission Company Limited",
+    "t": "Maharashtra State Electricity Transmission Company Limited Recruitment 2026 Notification Out for 25 Electrician Apprentice Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "15 October 2026 up to 6:00 PM",
+    "a": "MAHARASHTRA-ST/2026",
+    "q": "ITI",
+    "desc": "Maharashtra State Electricity Transmission Company Limited has officially announced employment advertisement notification MAHARASHTRA-ST/2026 inviting applications for 25 vacancies for Electrician Apprentice posts.",
+    "u": "https://www.apprenticeshipindia.gov.in/"
+},
+  {
+    "id": "nfdc-content-writer-recruitment-2026",
+    "b": "National Film Development Corporation (NFDC)",
+    "t": "National Film Development Corporation (NFDC) Recruitment 2026 Notification Out for 4 Sr. Executive Assistant, Content Writer and More Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "27 September 2026",
+    "a": "ADV-68/Contractual/17/09/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Film Development Corporation (NFDC) has officially announced employment advertisement notification ADV-68/Contractual/17/09/2026 inviting applications for 4 vacancies for Sr. Executive Assistant, Content Writer and More Posts posts.",
+    "u": "https://in.linkedin.com/company/nfdcindia"
+},
+  {
+    "id": "hal-visiting-consultan-recruitment-2026",
+    "b": "Hindustan Aeronautics (HAL)",
+    "t": "Hindustan Aeronautics (HAL) Recruitment 2026 Notification Out for 2 Visiting Consultants (Psychiatrist & Endocrinologist) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "26 September 2026",
+    "a": "NK/1209(6)/VC/2026/03",
+    "q": "Diploma | MBBS / Medical PG",
+    "desc": "Hindustan Aeronautics (HAL) has officially announced employment advertisement notification NK/1209(6)/VC/2026/03 inviting applications for 2 vacancies for Visiting Consultants (Psychiatrist & Endocrinologist) posts.",
+    "u": "https://hal-india.co.in/backend//wp-content/uploads/career/Notification%2018.09.2026_1789697768.pdf"
+},
+  {
+    "id": "kvic-yp-recruitment-2026",
+    "b": "Khadi and Village Industries Commission",
+    "t": "Khadi and Village Industries Commission Recruitment 2026 Notification Out for 100 Young Professional, Advisor and Senior Consultant Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026 up to 11:59 PM",
+    "a": "KHADI-AND-VILL/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Khadi and Village Industries Commission has officially announced employment advertisement notification KHADI-AND-VILL/2026 inviting applications for 100 vacancies for Young Professional, Advisor and Senior Consultant posts.",
+    "u": "https://apps.kvic.gov.in/KVIC-RECRUITMENT/"
+},
+  {
     "id": "mbpa-mumbai-jr-planner-recruitment-2026",
     "b": "Mumbai Port Authority",
     "t": "Mumbai Port Authority Recruitment 2026 Notification Out for 13 Advisor (Planning), Chief Manager (Planning)-I, Chief Manager (Planning)-II, Manager (Planning), Associate Planner, Urban Designer, Deputy Planner, Junior Planner, Document Controller, Clerk Posts | Apply Offline",
