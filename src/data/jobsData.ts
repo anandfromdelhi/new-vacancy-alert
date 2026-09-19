@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mbpa-mumbai-jr-planner-recruitment-2026",
+    "b": "Mumbai Port Authority",
+    "t": "Mumbai Port Authority Recruitment 2026 Notification Out for 13 Advisor (Planning), Chief Manager (Planning)-I, Chief Manager (Planning)-II, Manager (Planning), Associate Planner, Urban Designer, Deputy Planner, Junior Planner, Document Controller, Clerk Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "12 October 2026",
+    "a": "CE.CON.03/ 2026",
+    "q": "01.09.2026",
+    "desc": "Mumbai Port Authority has officially announced employment advertisement notification CE.CON.03/ 2026 inviting applications for 13 vacancies for Advisor (Planning), Chief Manager (Planning)-I, Chief Manager (Planning)-II, Manager (Planning), Associate Planner, Urban Designer, Deputy Planner, Junior Planner, Document Controller, Clerk posts.",
+    "u": "https://mumbaiport.gov.in/WriteReadData/RTF1984/1789653579.pdf"
+},
+  {
+    "id": "ofa-ambarnath-lwo-recruitment-2026",
+    "b": "Ordnance Factory Ambarnath",
+    "t": "Ordnance Factory Ambarnath Recruitment 2026 Notification Out for 1 Labour Welfare Officer (LWO) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "03 October 2026",
+    "a": "OFA/ESTT/8017/Hiring/LWO/2026",
+    "q": "Diploma | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Ordnance Factory Ambarnath has officially announced employment advertisement notification OFA/ESTT/8017/Hiring/LWO/2026 inviting applications for 1 vacancies for Labour Welfare Officer (LWO) posts.",
+    "u": "https://ddpdoo.gov.in"
+},
+  {
+    "id": "drdo-vrde-jrf-recruitment-2026",
+    "b": "Vehicles Research & Development Organization (DRDO VRDE)",
+    "t": "Vehicles Research & Development Organization (DRDO VRDE) Recruitment 2026 Notification Out for 5 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "VEHICLES-RESEA/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Vehicles Research & Development Organization (DRDO VRDE) has officially announced employment advertisement notification VEHICLES-RESEA/2026 inviting applications for 5 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.drdo.gov.in"
+},
+  {
+    "id": "mp-police-steno-recruitment-2026",
+    "b": "Madhya Pradesh Police Department",
+    "t": "Madhya Pradesh Police Department Recruitment 2026 Notification Out for 1310 Subedar (Ministerial) Stenographer and Assistant Sub-Inspector (Ministerial) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "13 October 2026",
+    "a": "MADHYA-PRADESH/2026",
+    "q": "12th Pass",
+    "desc": "Madhya Pradesh Police Department has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 1310 vacancies for Subedar (Ministerial) Stenographer and Assistant Sub-Inspector (Ministerial) posts.",
+    "u": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx"
+},
+  {
+    "id": "bmhrc-group-b-c-jobs-recruitment-2026",
+    "b": "BMHRC Group B & C",
+    "t": "BMHRC Group B & C Recruitment 2026 Notification Out for 148 Total Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "16 October 2026 up to 5:00 PM",
+    "a": "BMHRC-GROUP-B-/2026",
+    "q": "B.Tech / B.E | B.Sc | M.Sc",
+    "desc": "BMHRC Group B & C has officially announced employment advertisement notification BMHRC-GROUP-B-/2026 inviting applications for 148 vacancies for Total posts.",
+    "u": "https://bmhrc.onlineapplication.org.in/#/"
+},
+  {
+    "id": "nepa-shift-incharge-recruitment-2026",
+    "b": "National Newsprint and Paper Mills (NEPA)",
+    "t": "National Newsprint and Paper Mills (NEPA) Recruitment 2026 Notification Out for 2 Senior Shift Incharge Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "21 September 2026",
+    "a": "06/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Newsprint and Paper Mills (NEPA) has officially announced employment advertisement notification 06/2026 inviting applications for 2 vacancies for Senior Shift Incharge posts.",
+    "u": "https://www.nepamills.co.in/allpdf/advertisement062026.pdf"
+},
+  {
+    "id": "open-ap-recruitment-2026",
+    "b": "Madhya Pradesh Bhoj (Open) University, Bhopal (MPBOU)",
+    "t": "Madhya Pradesh Bhoj (Open) University, Bhopal (MPBOU) Recruitment 2026 Notification Out for 40 Professor, Associate Professor, Assistant Professor Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "12 October 2026, 6:00 PM",
+    "a": "748/ MPBOU/ 2026",
+    "q": "Eligibility for all posts is governed by the UGC Regulations on Minimum ...",
+    "desc": "Madhya Pradesh Bhoj (Open) University, Bhopal (MPBOU) has officially announced employment advertisement notification 748/ MPBOU/ 2026 inviting applications for 40 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://mpbou.edu.in/uploads/recognition/dd0160655c3f563743f649e46ff9fe4e.pdf"
+},
+  {
+    "id": "iit-indore-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Indore (IIT Indore)",
+    "t": "Indian Institute of Technology Indore (IIT Indore) Recruitment 2026 Notification Out for 1 Research Associate (RA) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "22 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | MBBS / Medical PG | BDS / Dental",
+    "desc": "Indian Institute of Technology Indore (IIT Indore) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate (RA) posts.",
+    "u": "https://www.iiti.ac.in/uploads/career/2026/Sep/2ef1b82da87b4ae8cf2ff6483a31fe7e.pdf"
+},
+  {
+    "id": "kvs-adoor-special-educator-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya Adoor",
+    "t": "PM SHRI Kendriya Vidyalaya Adoor Recruitment 2026 Notification Out for 1 PGT Chemistry, Counsellor, Special Educator Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "19 September 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "Diploma | B.Sc | B.Ed / Teacher",
+    "desc": "PM SHRI Kendriya Vidyalaya Adoor has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for PGT Chemistry, Counsellor, Special Educator posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv01cdbc592d2dac9484a21730663c2b/uploads/2026/09/2026091752.pdf"
+},
+  {
+    "id": "dc-thrissur-court-asst-recruitment-2026",
+    "b": "District Court Thrissur",
+    "t": "District Court Thrissur Recruitment 2026 Notification Out for 7 Confidential Assistant, Court Assistant, Office Attendant Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "24 September 2026",
+    "a": "HC-20/2026",
+    "q": "Retired from Courts or similar government departments",
+    "desc": "District Court Thrissur has officially announced employment advertisement notification HC-20/2026 inviting applications for 7 vacancies for Confidential Assistant, Court Assistant, Office Attendant posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0379514e888b8f2acacc68738d0cbb/uploads/2026/09/2026091858.pdf"
+},
+  {
     "id": "calicut-univ-ap-recruitment-2026",
     "b": "Calicut University",
     "t": "Calicut University Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Walk-in Interview",
