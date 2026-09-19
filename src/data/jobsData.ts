@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rrc-nursing-superinten-recruitment-2026",
+    "b": "Railway Recruitment Cell (RRC), South Central Railway, Secunderabad",
+    "t": "Railway Recruitment Cell (RRC), South Central Railway, Secunderabad Recruitment 2026 Notification Out for 33 Nursing Superintendent, Health & Malaria Inspector Gr. II, Commercial cum Ticket Clerk (CCTC) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "17 October 2026, 23:59 Hrs",
+    "a": "RRC/SCR/GDCE-02/2026, dated 17.09.2026",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "Railway Recruitment Cell (RRC), South Central Railway, Secunderabad has officially announced employment advertisement notification RRC/SCR/GDCE-02/2026, dated 17.09.2026 inviting applications for 33 vacancies for Nursing Superintendent, Health & Malaria Inspector Gr. II, Commercial cum Ticket Clerk (CCTC) posts.",
+    "u": "https://scr.indianrailways.gov.in/"
+},
+  {
+    "id": "c-met-ps-recruitment-2026",
+    "b": "Centre for Materials for Electronics Technology (C-MET)",
+    "t": "Centre for Materials for Electronics Technology (C-MET) Recruitment 2026 Notification Out for 5 Project Scientist, Project Staff Technical, Project Staff Admin Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "22 September 2026 (Walk-in)",
+    "a": "HD/02/Rectt/4/SP-48/2026",
+    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
+    "desc": "Centre for Materials for Electronics Technology (C-MET) has officially announced employment advertisement notification HD/02/Rectt/4/SP-48/2026 inviting applications for 5 vacancies for Project Scientist, Project Staff Technical, Project Staff Admin posts.",
+    "u": "https://cmet.gov.in/sites/default/files/jobs/WALK-IN-INTERVIEW-22092026.pdf"
+},
+  {
+    "id": "dh-mancherial-cas-recruitment-2026",
+    "b": "District Hospital Mancherial",
+    "t": "District Hospital Mancherial Recruitment 2026 Notification Out for 3 Civil Assistant Surgeon Specialist Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "431/E1/DHQH MNCL/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "District Hospital Mancherial has officially announced employment advertisement notification 431/E1/DHQH MNCL/2026 inviting applications for 3 vacancies for Civil Assistant Surgeon Specialist posts.",
+    "u": "https://cdn.s3waas.gov.in/s33dd48ab31d016ffcbf3314df2b3cb9ce/uploads/2026/09/17897091848136.pdf"
+},
+  {
+    "id": "birla-institute-of-jrf-recruitment-2026-3068230",
+    "b": "Birla Institute of Technology and Science, Pilani - Hyderabad Campus",
+    "t": "Birla Institute of Technology and Science, Pilani - Hyderabad Campus Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "M.Sc",
+    "desc": "Birla Institute of Technology and Science, Pilani - Hyderabad Campus has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSefpfoNtvCNsUDTJjZPjA5yMYf-lglF6COenVCZ-oAUGL1dZg/viewform"
+},
+  {
+    "id": "saird-senior-scientist-recruitment-2026",
+    "b": "Sri Aurobindo Institute of Rural Development (SAIRD)",
+    "t": "Sri Aurobindo Institute of Rural Development (SAIRD) Recruitment 2026 Notification Out for 2 Senior Scientist cum-Head KVK / Subject Matter Specialist Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "03 October 2026",
+    "a": "EN 25/38",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Sri Aurobindo Institute of Rural Development (SAIRD) has officially announced employment advertisement notification EN 25/38 inviting applications for 2 vacancies for Senior Scientist cum-Head KVK / Subject Matter Specialist posts.",
+    "u": "https://www.saird.org"
+},
+  {
+    "id": "tgpsc-manager-engineerin-recruitment-2026",
+    "b": "Telangana Public Service Commission",
+    "t": "Telangana Public Service Commission Recruitment 2026 Notification Out for 130 Manager (Engineering) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "17 October 2026 at 5:00 PM",
+    "a": "04/OG/HM/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Telangana Public Service Commission has officially announced employment advertisement notification 04/OG/HM/2026 inviting applications for 130 vacancies for Manager (Engineering) posts.",
+    "u": "https://www.tgpsc.gov.in/"
+},
+  {
+    "id": "district-health-so-mo-recruitment-2026",
+    "b": "District Health Society, Kanyakumari",
+    "t": "District Health Society, Kanyakumari Recruitment 2026 Notification Out for 81 Medical Officer, Consultant, Counselor, Health Inspector, ANM, Pharmacist, DEO and other Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "5:00 PM",
+    "a": "1195/A5/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "District Health Society, Kanyakumari has officially announced employment advertisement notification 1195/A5/2026 inviting applications for 81 vacancies for Medical Officer, Consultant, Counselor, Health Inspector, ANM, Pharmacist, DEO and other posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s38fe0093bb30d6f8c31474bd0764e6ac0/uploads/2026/09/17895487738495.pdf"
+},
+  {
+    "id": "imh-chenn-senior-consultant-recruitment-2026",
+    "b": "Institute of Mental Health Chennai (IMH Chennai)",
+    "t": "Institute of Mental Health Chennai (IMH Chennai) Recruitment 2026 Notification Out for 5 Senior Consultant in Psychiatry Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "Post",
+    "q": "Diploma | B.Tech / B.E | M.Sc",
+    "desc": "Institute of Mental Health Chennai (IMH Chennai) has officially announced employment advertisement notification Post inviting applications for 5 vacancies for Senior Consultant in Psychiatry posts.",
+    "u": "https://tnhealth.tn.gov.in/online_notification/notification/N26094727.pdf"
+},
+  {
+    "id": "tanuvas-ap-recruitment-2026",
+    "b": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS)",
+    "t": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) Recruitment 2026 Notification Out for 12 Assistant Professor Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "09 October 2026 (Walk-in)",
+    "a": "No. 3190 / VCRI / Udumalpet / Recruitment / 2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) has officially announced employment advertisement notification No. 3190 / VCRI / Udumalpet / Recruitment / 2026 inviting applications for 12 vacancies for Assistant Professor posts.",
+    "u": "https://tanuvas.ac.in/admin/uploads/vacancies/1789659380.pdf"
+},
+  {
+    "id": "gmc-thiruvallur-van-driver-recruitment-2026",
+    "b": "Government Medical College Thiruvallur",
+    "t": "Government Medical College Thiruvallur Recruitment 2026 Notification Out for 4 Van Driver (Contract), Lab Technician Grade II Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "28 September 2026",
+    "a": "GOVERNMENT-MED/2026",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Government Medical College Thiruvallur has officially announced employment advertisement notification GOVERNMENT-MED/2026 inviting applications for 4 vacancies for Van Driver (Contract), Lab Technician Grade II posts.",
+    "u": "https://cdn.s3waas.gov.in/s39431c87f273e507e6040fcb07dcb4509/uploads/2026/09/17897072887105.pdf"
+},
+  {
     "id": "szcc-steno-recruitment-2026",
     "b": "South Zone Cultural Centre",
     "t": "South Zone Cultural Centre Recruitment 2026 Notification Out for 25 Deputy Director, Assistant Director, Stenographer, Programme Executive, Assistant, Assistant Engineer, Documentation Officer, Junior Hindi Translator and other Posts | Apply Offline",
