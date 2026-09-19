@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "szcc-steno-recruitment-2026",
+    "b": "South Zone Cultural Centre",
+    "t": "South Zone Cultural Centre Recruitment 2026 Notification Out for 25 Deputy Director, Assistant Director, Stenographer, Programme Executive, Assistant, Assistant Engineer, Documentation Officer, Junior Hindi Translator and other Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "Within 45 days from publication in Employment News/Rozgar Samachar",
+    "a": "SZCC-01/2026",
+    "q": "The short recruitment notice does not provide post-wise educational qual...",
+    "desc": "South Zone Cultural Centre has officially announced employment advertisement notification SZCC-01/2026 inviting applications for 25 vacancies for Deputy Director, Assistant Director, Stenographer, Programme Executive, Assistant, Assistant Engineer, Documentation Officer, Junior Hindi Translator and other posts posts.",
+    "u": "https://szccindia.org/"
+},
+  {
+    "id": "curaj-pa-recruitment-2026",
+    "b": "Central University of Rajasthan (CURAJ)",
+    "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "25 September 2026",
+    "a": "CURAJ/BIOCHEM/JA/ANRF/01",
+    "q": "M.Sc",
+    "desc": "Central University of Rajasthan (CURAJ) has officially announced employment advertisement notification CURAJ/BIOCHEM/JA/ANRF/01 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://www.curaj.ac.in/sites/default/files/Advertisement%20for%20ANRF%20PA_ANRF%20ECRG_Dr%20Joydeep%20Aoun_Biochemistry%2C%20CURAJ.pdf"
+},
+  {
+    "id": "ss-kapurthala-lab-assistant-recruitment-2026",
+    "b": "Sainik School Kapurthala",
+    "t": "Sainik School Kapurthala Recruitment 2026 Notification Out for 6 Lab Assistant, Cook, Carpenter Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "10 October 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Sainik School Kapurthala has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 6 vacancies for Lab Assistant, Cook, Carpenter posts.",
+    "u": "https://www.sskapurthala.com/assets/Docu/news-event/recruitment-form.pdf"
+},
+  {
+    "id": "akashvani-jalandh-part-time-recruitment-2026",
+    "b": "Akashvani Jalandhar",
+    "t": "Akashvani Jalandhar Recruitment 2026 Notification Out for 1 Part Time Correspondent (PTC) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "07 October 2026",
+    "a": "AKASHVANI-JALA/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Akashvani Jalandhar has officially announced employment advertisement notification AKASHVANI-JALA/2026 inviting applications for 1 vacancies for Part Time Correspondent (PTC) posts.",
+    "u": "https://newsonair.gov.in/wp-content/uploads/2026/09/Jalandhar-8.pdf"
+},
+  {
+    "id": "pau-pa-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "05 October 2026",
+    "a": "E.2.2026/3613-23",
+    "q": "B.Sc | M.Sc",
+    "desc": "Punjab Agricultural University (PAU) has officially announced employment advertisement notification E.2.2026/3613-23 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7574"
+},
+  {
+    "id": "echs-deo-recruitment-2026",
+    "b": "Ex-Servicemen Contributory Health Scheme",
+    "t": "Ex-Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 5 Medical Specialist, Dental Asst/Tech/Hyg, Clerk/Data Entry Operator Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "Diploma | MBBS / Medical PG | BDS / Dental",
+    "desc": "Ex-Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 5 vacancies for Medical Specialist, Dental Asst/Tech/Hyg, Clerk/Data Entry Operator posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/EMPLOYMENT%20NOTICE_removed.pdf"
+},
+  {
+    "id": "jipmer-prs-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 Notification Out for 1 Project Research Scientist I (PRS I) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "28 September 2026",
+    "a": "JIP/NCG/POICE-2024/ Sept 2026/PRS-1",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially announced employment advertisement notification JIP/NCG/POICE-2024/ Sept 2026/PRS-1 inviting applications for 1 vacancies for Project Research Scientist I (PRS I) posts.",
+    "u": "https://jipmer.edu.in/sites/default/files/A.%20REC-02%20POICE%2017%209%202026%20PRS%20I.pdf"
+},
+  {
+    "id": "ouat-guest-faculty-recruitment-2026-3068154",
+    "b": "Odisha University of Agriculture and Technology (OUAT)",
+    "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 5 Guest Faculty Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "1094/PM",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha University of Agriculture and Technology (OUAT) has officially announced employment advertisement notification 1094/PM inviting applications for 5 vacancies for Guest Faculty posts.",
+    "u": "https://ouat.ac.in/"
+},
+  {
+    "id": "rbi-banks-medical-recruitment-2026",
+    "b": "Reserve Bank of India (RBI)",
+    "t": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 1 Bank's Medical Consultant (BMC) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "04 October 2026",
+    "a": "RESERVE-BANK-O/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Reserve Bank of India (RBI) has officially announced employment advertisement notification RESERVE-BANK-O/2026 inviting applications for 1 vacancies for Bank's Medical Consultant (BMC) posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/BMCB1809202614943E37509249D2B3F4295D2396F34C.PDF"
+},
+  {
+    "id": "oav-rajapur-warden-head-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Rajapur (OAV Rajapur)",
+    "t": "Odisha Adarsha Vidyalaya Rajapur (OAV Rajapur) Recruitment 2026 Notification Out for 5 Warden, Head Cook and More Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "03 October 2026",
+    "a": "339/OAVR/2026",
+    "q": "B.Sc",
+    "desc": "Odisha Adarsha Vidyalaya Rajapur (OAV Rajapur) has officially announced employment advertisement notification 339/OAVR/2026 inviting applications for 5 vacancies for Warden, Head Cook and More Posts posts.",
+    "u": "https://ganjam.odisha.gov.in/sites/default/files/2026-09/Application%20form%20for%20engagement%20of%20Warden%2CHead%20Cook%2CAsst.%20Cook%20and%20Chowkidar%20for%20the%20Boys%27%20Hostel%20%28Non-KGBV%29%20of%20OAV%20Rajapur%2CBeguniapada%2CGanjam_0.pdf"
+},
+  {
     "id": "zss-khordha-mo-recruitment-2026",
     "b": "Zilla Swasthya Samiti Khordha (ZSS Khordha)",
     "t": "Zilla Swasthya Samiti Khordha (ZSS Khordha) Recruitment 2026 Notification Out for 2 Medical Officer Posts | Walk-in Interview",
