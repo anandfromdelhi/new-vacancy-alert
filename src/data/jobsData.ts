@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "calicut-univ-ap-recruitment-2026",
+    "b": "Calicut University",
+    "t": "Calicut University Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "SoD/HoD/157811/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Calicut University has officially announced employment advertisement notification SoD/HoD/157811/2026 inviting applications for 2 vacancies for Assistant Professor posts.",
+    "u": "https://docs.uoc.ac.in/website/vacancies/2026-09-18%2012:51:30_vac2111.pdf"
+},
+  {
+    "id": "kvs-adoo-contractual-teache-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya Adoor",
+    "t": "PM SHRI Kendriya Vidyalaya Adoor Recruitment 2026 Notification Out for 1 Contractual Teachers Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "19 September 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "12th Pass",
+    "desc": "PM SHRI Kendriya Vidyalaya Adoor has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for Contractual Teachers posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv01cdbc592d2dac9484a21730663c2b/uploads/2026/09/2026091716.pdf"
+},
+  {
+    "id": "sr-various-recruitment-2026",
+    "b": "Southern Railway",
+    "t": "Southern Railway Recruitment 2026 Notification Out for 17 Various Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "18 October 2026 at 11:59 PM",
+    "a": "RRC-01/S&G/2026-27",
+    "q": "10th / 8th Pass | 12th Pass | ITI",
+    "desc": "Southern Railway has officially announced employment advertisement notification RRC-01/S&G/2026-27 inviting applications for 17 vacancies for Various Posts posts.",
+    "u": "https://sr.indianrailways.gov.in/"
+},
+  {
+    "id": "npol-jrf-recruitment-2026",
+    "b": "Naval Physical and Oceanographic Laboratory (NPOL), DRDO, Ministry of Defence",
+    "t": "Naval Physical and Oceanographic Laboratory (NPOL), DRDO, Ministry of Defence Recruitment 2026 Notification Out for 4 Junior Research Fellow (JRF) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "10 October 2026 (Saturday) at 0930 hrs (Walk-in)",
+    "a": "NPOL/JRF/01/2026",
+    "q": "Eligibility is discipline-specific and detailed in the vacancy table abo...",
+    "desc": "Naval Physical and Oceanographic Laboratory (NPOL), DRDO, Ministry of Defence has officially announced employment advertisement notification NPOL/JRF/01/2026 inviting applications for 4 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.indiascienceandtechnology.gov.in/"
+},
+  {
+    "id": "ucsl-draftsman-recruitment-2026",
+    "b": "Udupi Cochin Shipyard (UCSL)",
+    "t": "Udupi Cochin Shipyard (UCSL) Recruitment 2026 Notification Out for 1 Draftsman (Mechanical) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "08 October 2026",
+    "a": "UCSL/IMS/HR/VN/F/11- DRFT/MCL/95",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Udupi Cochin Shipyard (UCSL) has officially announced employment advertisement notification UCSL/IMS/HR/VN/F/11- DRFT/MCL/95 inviting applications for 1 vacancies for Draftsman (Mechanical) posts.",
+    "u": "https://udupicsl.com/wp-content/uploads/2026/09/VN95-_draftsman.pdf"
+},
+  {
+    "id": "ucsl-supervisor-recruitment-2026",
+    "b": "Udupi Cochin Shipyard Limited (UCSL)",
+    "t": "Udupi Cochin Shipyard Limited (UCSL) Recruitment 2026 Notification Out for 4 Supervisor (Mechanical) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "08 October 2026",
+    "a": "UCSL/IMS/HR/VN/F/11-SUP/MECH/91",
+    "q": "ITI | Diploma | B.Tech / B.E",
+    "desc": "Udupi Cochin Shipyard Limited (UCSL) has officially announced employment advertisement notification UCSL/IMS/HR/VN/F/11-SUP/MECH/91 inviting applications for 4 vacancies for Supervisor (Mechanical) posts.",
+    "u": "https://csl.cochinshipyard.in:8000/sap/bc/webdynpro/sap/hrrcf_a_unreg_job_search?sap-language=EN#"
+},
+  {
+    "id": "iit-dharwad-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Dharwad",
+    "t": "Indian Institute of Technology Dharwad Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "02 October 2026",
+    "a": "IITD/H/EECE/VRP/8.247/DRDO-AR&DB/2026-27/001",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Dharwad has officially announced employment advertisement notification IITD/H/EECE/VRP/8.247/DRDO-AR&DB/2026-27/001 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeGMLbnhPZu5iKea6gixxc8hAKH5aa0HM11BGjaV25e2ihiOw/viewform"
+},
+  {
+    "id": "aiims-deogh-medical-faculty-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar)",
+    "t": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) Recruitment 2026 Notification Out for 69 Medical Faculty and Nursing Faculty Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "15 October 2026",
+    "a": "AIIMS/Deo/Rect.Cell/2026-27/377/Phase",
+    "q": "M.Sc | MBBS / Medical PG | Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) has officially announced employment advertisement notification AIIMS/Deo/Rect.Cell/2026-27/377/Phase inviting applications for 69 vacancies for Medical Faculty and Nursing Faculty posts.",
+    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/9th_rolling_phase_2_faculty_advertisement_14092026091141380.pdf"
+},
+  {
+    "id": "aiims-demonstrator-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), Vijaypur, Jammu-181134",
+    "t": "All India Institute of Medical Sciences (AIIMS), Vijaypur, Jammu-181134 Recruitment 2026 Notification Out for 86 Senior Resident (Medical candidates) / Senior Demonstrator (Non-Medical candidates) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026 (Wednesday)",
+    "a": "No. 04/2026 (No. AIIMS/JMU/Rec.SR2/2026/01), dated 17.09.2026 - Cycle-2 of Rolling Advertisement",
+    "q": "30.09.2026 (Wednesday)",
+    "desc": "All India Institute of Medical Sciences (AIIMS), Vijaypur, Jammu-181134 has officially announced employment advertisement notification No. 04/2026 (No. AIIMS/JMU/Rec.SR2/2026/01), dated 17.09.2026 - Cycle-2 of Rolling Advertisement inviting applications for 86 vacancies for Senior Resident (Medical candidates) / Senior Demonstrator (Non-Medical candidates) posts.",
+    "u": "https://www.aiimsjammu.edu.in"
+},
+  {
+    "id": "employees-state-in-sr-recruitment-2026",
+    "b": "Employees State Insurance Corporation Hospital Kala Amb",
+    "t": "Employees State Insurance Corporation Hospital Kala Amb Recruitment 2026 Notification Out for 42 Contractual Specialists/ Senior Residents Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "21 September 2026 (Walk-in)",
+    "a": "01/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Employees State Insurance Corporation Hospital Kala Amb has officially announced employment advertisement notification 01/2026 inviting applications for 42 vacancies for Contractual Specialists/ Senior Residents posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_for_recruitment_to_the_post_of_contractual_specialists_senior_residents_in_ESIC_Hospital_Kala_Amb_Himachal_Pradesh_1789376158.pdf"
+},
+  {
     "id": "hppsc-mo-recruitment-2026",
     "b": "Himachal Pradesh Public Service Commission",
     "t": "Himachal Pradesh Public Service Commission Recruitment 2026 Notification Out for 228 Medical Officer (General Wing) Posts | Apply Online",
