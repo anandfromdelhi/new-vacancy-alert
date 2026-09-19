@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bckv-fieldlab-assistant-recruitment-2026",
+    "b": "Bidhan Chandra Krishi Viswavidyalaya (BCKV)",
+    "t": "Bidhan Chandra Krishi Viswavidyalaya (BCKV) Recruitment 2026 Notification Out for 2 Field/Lab Assistant Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "28 September 2026",
+    "a": "DR/S-2046(ICAR)/26/688",
+    "q": "Any Bachelor's Degree",
+    "desc": "Bidhan Chandra Krishi Viswavidyalaya (BCKV) has officially announced employment advertisement notification DR/S-2046(ICAR)/26/688 inviting applications for 2 vacancies for Field/Lab Assistant posts.",
+    "u": "https://www.bckv.edu.in//images/contentfiles/1789639606_dr_688.pdf"
+},
+  {
+    "id": "aps-bengdubi-headmaster-recruitment-2026",
+    "b": "Army Public School Bengdubi",
+    "t": "Army Public School Bengdubi Recruitment 2026 Notification Out for 1 Headmaster/ Headmistress Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "through",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Army Public School Bengdubi has officially announced employment advertisement notification through inviting applications for 1 vacancies for Headmaster/ Headmistress posts.",
+    "u": "https://apsbengdubi.org/uploads/2026/sep/00815412251.pdf"
+},
+  {
+    "id": "district-healt-phlebotomist-recruitment-2026",
+    "b": "District Health and Family Welfare Samiti, Cooch Behar (DHFWS Cooch Behar)",
+    "t": "District Health and Family Welfare Samiti, Cooch Behar (DHFWS Cooch Behar) Recruitment 2026 Notification Out for 1 Phlebotomist Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "23 September 2026",
+    "a": "DH&FW/COB/5406",
+    "q": "Passed Madhyamik or equivalent examination, Successfully completed a Phl...",
+    "desc": "District Health and Family Welfare Samiti, Cooch Behar (DHFWS Cooch Behar) has officially announced employment advertisement notification DH&FW/COB/5406 inviting applications for 1 vacancies for Phlebotomist posts.",
+    "u": "https://www.wbhealth.gov.in/"
+},
+  {
+    "id": "csir-cgcri-ra-recruitment-2026",
+    "b": "Central Glass & Ceramic Research Institute (CSIR CGCRI)",
+    "t": "Central Glass & Ceramic Research Institute (CSIR CGCRI) Recruitment 2026 Notification Out for 1 Research Associate - I Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "43/2627/MSTD/GAP3104/SG",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Central Glass & Ceramic Research Institute (CSIR CGCRI) has officially announced employment advertisement notification 43/2627/MSTD/GAP3104/SG inviting applications for 1 vacancies for Research Associate - I posts.",
+    "u": "https://www.cgcri.res.in/wp-content/uploads/2026/career/Adv%2043_2627_01.pdf"
+},
+  {
+    "id": "csir-cgcri-pa-recruitment-2026",
+    "b": "Central Glass & Ceramic Research Institute (CSIR CGCRI)",
+    "t": "Central Glass & Ceramic Research Institute (CSIR CGCRI) Recruitment 2026 Notification Out for 1 Project Associate - I Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "07 October 2026 (Walk-in)",
+    "a": "39/2627/ACCD/FIR010405/YN",
+    "q": "B.Tech / B.E | M.Sc",
+    "desc": "Central Glass & Ceramic Research Institute (CSIR CGCRI) has officially announced employment advertisement notification 39/2627/ACCD/FIR010405/YN inviting applications for 1 vacancies for Project Associate - I posts.",
+    "u": "https://www.cgcri.res.in/wp-content/uploads/2026/career/Adv%2039_2627_01.pdf"
+},
+  {
+    "id": "cnci-security-guard-recruitment-2026",
+    "b": "Chittaranjan National Cancer Institute (CNCI)",
+    "t": "Chittaranjan National Cancer Institute (CNCI) Recruitment 2026 Notification Out for 13 Security Guard Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "CNCI/Outsourcing/2026/Security",
+    "q": "Ex-servicemen / Ex-policemen / ex-paramilitary personnel / Agni veer / N...",
+    "desc": "Chittaranjan National Cancer Institute (CNCI) has officially announced employment advertisement notification CNCI/Outsourcing/2026/Security inviting applications for 13 vacancies for Security Guard posts.",
+    "u": "https://cnci.ac.in/backend/uploads/2026/09/18/Advt.%20SmartSecurity-CNCI_1.pdf"
+},
+  {
+    "id": "iisc-kolkata-je-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Kolkata (IISER Kolkata)",
+    "t": "Indian Institute of Science Education and Research Kolkata (IISER Kolkata) Recruitment 2026 Notification Out for 17 Junior Assistant, Junior Engineer and More Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "19 October 2026, 17:30 Hrs",
+    "a": "IISER-K/Admn./NT-04/2026",
+    "q": "The qualification for each post is not specified in the provided notific...",
+    "desc": "Indian Institute of Science Education and Research Kolkata (IISER Kolkata) has officially announced employment advertisement notification IISER-K/Admn./NT-04/2026 inviting applications for 17 vacancies for Junior Assistant, Junior Engineer and More posts.",
+    "u": "https://www.iiserkol.ac.in/"
+},
+  {
+    "id": "gbpuat-ap-recruitment-2026-3068155",
+    "b": "GBPUAT",
+    "t": "GBPUAT Recruitment 2026 Notification Out for 68 Associate Professor and Assistant Professor Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "Refer Official Notification",
+    "a": "A-32/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "GBPUAT has officially announced employment advertisement notification A-32/2026 inviting applications for 68 vacancies for Associate Professor and Assistant Professor posts.",
+    "u": "https://www.gbpuat.ac.in/employments/A-32-2026,%2016.09.2026,%2017.19.pdf"
+},
+  {
+    "id": "iit-roor-project-consultant-recruitment-2026",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Project Consultant Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "21 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Consultant posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/AR/2026/adv170920261.pdf"
+},
+  {
     "id": "kgbv-agra-various-teaching-recruitment-2026",
     "b": "Kasturba Gandhi Balika Vidyalayas Agra (KGBV Agra)",
     "t": "Kasturba Gandhi Balika Vidyalayas Agra (KGBV Agra) Recruitment 2026 Notification Out for 34 Various Teaching and Non Teaching Posts | Apply Offline",
