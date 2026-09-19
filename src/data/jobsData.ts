@@ -408,17 +408,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://jipmer.edu.in/sites/default/files/A.%20REC-02%20POICE%2017%209%202026%20PRS%20I.pdf"
 },
   {
-    "id": "ouat-guest-faculty-recruitment-2026-3068154",
-    "b": "Odisha University of Agriculture and Technology (OUAT)",
-    "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 5 Guest Faculty Posts | Walk-in Interview",
-    "d": "19 September 2026",
-    "l": "30 September 2026 (Walk-in)",
-    "a": "1094/PM",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Odisha University of Agriculture and Technology (OUAT) has officially announced employment advertisement notification 1094/PM inviting applications for 5 vacancies for Guest Faculty posts.",
-    "u": "https://ouat.ac.in/"
-},
-  {
     "id": "rbi-banks-medical-recruitment-2026",
     "b": "Reserve Bank of India (RBI)",
     "t": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 1 Bank's Medical Consultant (BMC) Posts | Apply Offline",
@@ -1519,39 +1508,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.jharkhand.gov.in"
 },
   {
-    "id": "jkpsc-ap-recruitment-2026-3061264",
-    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
-    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 70 Assistant Professor (Backlog Vacancies) Posts | Apply Online",
-    "d": "17 September 2026",
-    "l": "18 September 2026",
-    "a": "06-PSC(DR-P) of 2026",
-    "q": "As on the last date of online application submission",
-    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification 06-PSC(DR-P) of 2026 inviting applications for 70 vacancies for Assistant Professor (Backlog Vacancies) posts.",
-    "u": "https://jkpsc.nic.in/home.html"
-},
-  {
-    "id": "jkpsc-ap-recruitment-2026-3061196",
-    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
-    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 205 Assistant Professor, College Director of Physical Education & Sports, Librarian Posts | Apply Online",
-    "d": "17 September 2026",
-    "l": "18 September 2026",
-    "a": "05-PSC(DR-P) OF 2026, dated 31-07-2026",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification 05-PSC(DR-P) OF 2026, dated 31-07-2026 inviting applications for 205 vacancies for Assistant Professor, College Director of Physical Education & Sports, Librarian posts.",
-    "u": "https://jkpsc.nic.in/home.html"
-},
-  {
-    "id": "jkpsc-ap-recruitment-2026",
-    "b": "Jammu and Kashmir Public Service Commission (JKPSC)",
-    "t": "Jammu and Kashmir Public Service Commission (JKPSC) Recruitment 2026 Notification Out for 6 Assistant Professor/Librarian Posts | Apply Online",
-    "d": "17 September 2026",
-    "l": "18 September 2026 (Extended)",
-    "a": "JAMMU-AND-KASH/2026",
-    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Jammu and Kashmir Public Service Commission (JKPSC) has officially announced employment advertisement notification JAMMU-AND-KASH/2026 inviting applications for 6 vacancies for Assistant Professor/Librarian posts.",
-    "u": "https://jkpsc.nic.in/PDF/AP_LIB_BACKLOG_2026.PDF"
-},
-  {
     "id": "nhm-ladakh-manager-recruitment-2026",
     "b": "National Health Mission Ladakh (NHM Ladakh)",
     "t": "National Health Mission Ladakh (NHM Ladakh) Recruitment 2026 Notification Out for 4 Manager Posts | Apply Offline",
@@ -2212,17 +2168,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.eil.co.in"
 },
   {
-    "id": "employee-state-ins-ap-recruitment-2026",
-    "b": "Employee State Insurance Corporation Delhi",
-    "t": "Employee State Insurance Corporation Delhi Recruitment 2026 Notification Out for 53 Professor, Associate Professor and Assistant Professor Posts | Walk-in Interview",
-    "d": "17 September 2026",
-    "l": "25 September 2026 (Walk-in)",
-    "a": "A-12016/7/2022-PGIMSR-Part(3)",
-    "q": "As per latest NMC (MCI) notifications. Candidates should fulfill prescri...",
-    "desc": "Employee State Insurance Corporation Delhi has officially announced employment advertisement notification A-12016/7/2022-PGIMSR-Part(3) inviting applications for 53 vacancies for Professor, Associate Professor and Assistant Professor posts.",
-    "u": "https://esic.gov.in/attachments/recruitmentfile/Application_Form_1789380765.pdf"
-},
-  {
     "id": "nhai-draftsman-recruitment-2026",
     "b": "National Highways Authority of India (NHAI)",
     "t": "National Highways Authority of India (NHAI) Recruitment 2026 Notification Out for 1 Draftsman Posts | Apply Online",
@@ -2320,17 +2265,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Sc | Nursing (GNM / B.Sc)",
     "desc": "National Institute of Pharmaceutical Education and Research has officially announced employment advertisement notification NIPER/HJP/HEALTHCENTRE/2026-27/4 inviting applications for 1 vacancies for Temporary Staff Nurse posts.",
     "u": "https://niperhajipur.ac.in/wp-content/uploads/2026/09/NIPER-Hajipur-Temporary-Staff-Nurse-Notification-15092026-2.pdf"
-},
-  {
-    "id": "bihar-vidyalaya-pa-secondary-teacher-recruitment-2026",
-    "b": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board)",
-    "t": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) Recruitment 2026 Notification Out for 1 Secondary Teacher Eligibility Test (STET), 2026 Posts | Apply Online",
-    "d": "17 September 2026",
-    "l": "31 August 2026",
-    "a": "P.R. 183/2026",
-    "q": "10th / 8th Pass | B.Ed / Teacher | Any Bachelor's Degree",
-    "desc": "Bihar Vidyalaya Pariksha Samiti (Bihar School Examination Board) has officially announced employment advertisement notification P.R. 183/2026 inviting applications for 1 vacancies for Secondary Teacher Eligibility Test (STET), 2026 posts.",
-    "u": "https://stetregistration.cbrt.co.in/"
 },
   {
     "id": "dcpu-begusarai-support-person-recruitment-2026",
@@ -2674,28 +2608,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.gadvasu.in/assests/uploads/images/ADVT.%2004-2026.pdf"
 },
   {
-    "id": "icar-cuttack-yp-recruitment-2026",
-    "b": "ICAR Central Rice Research Institute Cuttack",
-    "t": "ICAR Central Rice Research Institute Cuttack Recruitment 2026 Notification Out for 2 Young Professional-I (YP-I) / Field Assistant (FA) Posts | Walk-in Interview",
-    "d": "16 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "26/YP-I/FA/2026-27",
-    "q": "10th / 8th Pass | Diploma | B.Sc",
-    "desc": "ICAR Central Rice Research Institute Cuttack has officially announced employment advertisement notification 26/YP-I/FA/2026-27 inviting applications for 2 vacancies for Young Professional-I (YP-I) / Field Assistant (FA) posts.",
-    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-474.pdf"
-},
-  {
-    "id": "utkal-balashram-brahmapur-probation-officer-recruitment-2026",
-    "b": "Utkal Balashram Brahmapur",
-    "t": "Utkal Balashram Brahmapur Recruitment 2026 Notification Out for 9 Probation Officer cum Child Welfare Officer Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "16 September 2026",
-    "a": "826",
-    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
-    "desc": "Utkal Balashram Brahmapur has officially announced employment advertisement notification 826 inviting applications for 9 vacancies for Probation Officer cum Child Welfare Officer posts.",
-    "u": "https://ganjam.odisha.gov.in/sites/default/files/2026-09/ADVERTISEMENT%20FOR%20VACANCY%20FILL%20UP%20AT%20VIKAS%20BALASHRAM%20BERHAMPUR%20ODISHA_0.pdf"
-},
-  {
     "id": "nit-rourkela-research-assistant-recruitment-2026",
     "b": "National Institute of Technology Rourkela",
     "t": "National Institute of Technology Rourkela Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
@@ -2738,17 +2650,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Class-VIII certificate or above",
     "desc": "Mizoram Public Service Commission has officially announced employment advertisement notification No.A.12026/33/2026-MPSC(PRE) inviting applications for 3 vacancies for Peon posts.",
     "u": "https://mpsconline.mizoram.gov.in"
-},
-  {
-    "id": "nehu-pa-recruitment-2026",
-    "b": "North Eastern Hill University (NEHU)",
-    "t": "North Eastern Hill University (NEHU) Recruitment 2026 Notification Out for 1 Project Assistant/ Intern Posts | Walk-in Interview",
-    "d": "16 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "TC/NEHU/ABMFT/IKS-2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "North Eastern Hill University (NEHU) has officially announced employment advertisement notification TC/NEHU/ABMFT/IKS-2026 inviting applications for 1 vacancies for Project Assistant/ Intern posts.",
-    "u": "https://nehu.ac.in/public/assets/files/advertisements/20260914122336_IKS-CENTRE-ABMFT-advt-project-assistant.pdf"
 },
   {
     "id": "csir-neeri-ta-recruitment-2026",
@@ -3070,17 +2971,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.rrbapply.gov.in/#/auth/home"
 },
   {
-    "id": "nit-pa-recruitment-2026-3067660",
-    "b": "National Institute of Technology Andhra Pradesh",
-    "t": "National Institute of Technology Andhra Pradesh Recruitment 2026 Notification Out for 1 Project Associate-1 Posts | Apply Online",
-    "d": "16 September 2026",
-    "l": "18 September 2026",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "B.Tech / B.E",
-    "desc": "National Institute of Technology Andhra Pradesh has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Project Associate-1 posts.",
-    "u": "http://www.nitandhra.ac.in"
-},
-  {
     "id": "appsc-essential-qualificat-recruitment-2026",
     "b": "Andhra Pradesh Public Service Commission (APPSC), Vijayawada",
     "t": "APPSC Recruitment 2026: Apply Online for 299 Forest Range Officer, Executive Officer, Supervisor & Other Posts",
@@ -3156,17 +3046,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / Medical PG",
     "desc": "Andaman & Nicobar Islands Institute of Medical Sciences (ANIIMS) has officially announced employment advertisement notification F.No.1-14/ANIIMS/JR/SR/Residents/2026-27/929 inviting applications for 56 vacancies for Senior Resident / Demonstrator posts.",
     "u": "https://andamannicobar.gov.in/admin-pannel/vacancy/1-867-SR%20Advertisement.pdf"
-},
-  {
-    "id": "aps-bengdubi-vice-principal-recruitment-2026",
-    "b": "Army Public School, Bengdubi",
-    "t": "Army Public School, Bengdubi Recruitment 2026 Notification Out for 1 Vice Principal Posts | Apply Offline",
-    "d": "13 September 2026",
-    "l": "13 September 2026",
-    "a": "ARMY-PUBLIC-SC/2026",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Army Public School, Bengdubi has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 1 vacancies for Vice Principal posts.",
-    "u": "https://apsbengdubi.org/uploads/2026/aug/APS_VP_Vacancy.pdf"
 },
   {
     "id": "doon-university-yp-recruitment-2026",
@@ -3246,17 +3125,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://docs.google.com/forms/d/e/1FAIpQLSdfqzF-CahgLEQvwbqNUhSY9mb9riDEt7Ur23klGZZqN1EEWQ/viewform?usp=send_form"
 },
   {
-    "id": "iit-madras-research-assistant-recruitment-2026",
-    "b": "Indian Institute of Technology Madras",
-    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "17 September 2026",
-    "a": "ICSR/PR/Adv.",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Madras has officially announced employment advertisement notification ICSR/PR/Adv. inviting applications for 1 vacancies for Research Assistant posts.",
-    "u": "https://icandsr.iitm.ac.in/careers/index.php"
-},
-  {
     "id": "district-health-so-various-contractual-recruitment-2026",
     "b": "District Health Society Pudukkottai",
     "t": "District Health Society Pudukkottai Recruitment 2026 Notification Out for 54 Various Contractual Posts | Apply Offline",
@@ -3334,28 +3202,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7566"
 },
   {
-    "id": "mrsptu-ap-recruitment-2026",
-    "b": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU)",
-    "t": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU) Recruitment 2026 Notification Out for 1 Assistant Professor (Guest Faculty) Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "MRSPTU/ SASE/ 26/ 265",
-    "q": "M.Tech / M.E | Ph.D / Doctorate",
-    "desc": "Maharaja Ranjit Singh Punjab Technical University (MRSPTU) has officially announced employment advertisement notification MRSPTU/ SASE/ 26/ 265 inviting applications for 1 vacancies for Assistant Professor (Guest Faculty) posts.",
-    "u": "https://mrsptu.ac.in/uploads2026/jobs/Walk_in_Interview_SASE_08092026.pdf"
-},
-  {
-    "id": "ignca-pa-recruitment-2026",
-    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
-    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 2 Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) Posts | Walk-in Interview",
-    "d": "13 September 2026",
-    "l": "15 September 2026 (Private Secretary), 16 September 2026 (Accounts Officer/ Project Assistant) (Walk-in)",
-    "a": "12/157/2023-SD/AM",
-    "q": "Any Bachelor's Degree",
-    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially announced employment advertisement notification 12/157/2023-SD/AM inviting applications for 2 vacancies for Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) posts.",
-    "u": "https://ignca.gov.in/vaccancy/01092026-Adv-RC-Puducherry.pdf"
-},
-  {
     "id": "nit-rourkela-fi-recruitment-2026",
     "b": "National Institute of Technology Rourkela (NIT Rourkela)",
     "t": "National Institute of Technology Rourkela (NIT Rourkela) Recruitment 2026 Notification Out for 1 Field Investigator Posts | Apply Online",
@@ -3365,28 +3211,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree | Master's / PG Degree",
     "desc": "National Institute of Technology Rourkela (NIT Rourkela) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Field Investigator posts.",
     "u": "https://www.nitrkl.ac.in/docs/Career/ProjectFelow/2026/11092026181420722.pdf"
-},
-  {
-    "id": "cuo-guest-faculty-recruitment-2026",
-    "b": "Central University of Odisha (CUO)",
-    "t": "Central University of Odisha (CUO) Recruitment 2026 Notification Out for 2 Guest Faculty Posts | Walk-in Interview",
-    "d": "13 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "CUO/Admn/EGF/116",
-    "q": "B.Sc | Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Central University of Odisha (CUO) has officially announced employment advertisement notification CUO/Admn/EGF/116 inviting applications for 2 vacancies for Guest Faculty posts.",
-    "u": "https://cuo.ac.in/Recruitment/2026/Agriculture_Walk-In_GuestFaculty.pdf"
-},
-  {
-    "id": "icar-central-rice-yp-recruitment-2026-3067575",
-    "b": "ICAR-Central Rice Research Institute",
-    "t": "ICAR-Central Rice Research Institute Recruitment 2026 Notification Out for 2 Young Professional-I (YP-I) / Field Operator (FO) Posts | Walk-in Interview",
-    "d": "13 September 2026",
-    "l": "15 September 2026 & 16 September 2026 (Walk-in)",
-    "a": "29/YP-I/FO/2026-27",
-    "q": "10th / 8th Pass | Diploma | B.Sc",
-    "desc": "ICAR-Central Rice Research Institute has officially announced employment advertisement notification 29/YP-I/FO/2026-27 inviting applications for 2 vacancies for Young Professional-I (YP-I) / Field Operator (FO) posts.",
-    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-486.pdf"
 },
   {
     "id": "iiswc-srf-recruitment-2026",
@@ -3400,17 +3224,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "http://www.cswcrtiweb.org/Recruitment/INSTITUTE/2026/Sept/kpt_REWARD_SRF_YP_10_sept_2026.pdf"
 },
   {
-    "id": "icar-central-rice-yp-recruitment-2026",
-    "b": "ICAR Central Rice Research Institute",
-    "t": "ICAR Central Rice Research Institute Recruitment 2026 Notification Out for 4 Young Professional I, Field Assistant Posts | Walk-in Interview",
-    "d": "13 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "ICAR-CENTRAL-R/2026",
-    "q": "10th / 8th Pass | Diploma | B.Sc",
-    "desc": "ICAR Central Rice Research Institute has officially announced employment advertisement notification ICAR-CENTRAL-R/2026 inviting applications for 4 vacancies for Young Professional I, Field Assistant posts.",
-    "u": "https://icar-crri.in/wp-content/uploads/2026/09/EAP-473.pdf"
-},
-    {
     "id": "vamnicom-ap-recruitment-2026",
     "b": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM)",
     "t": "Vaikunth Mehta National Institute of Cooperative Management (VAMNICOM) Recruitment 2026 Notification Out for 9 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
@@ -3554,17 +3367,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.jharkhand.gov.in"
 },
   {
-    "id": "lpssrb-constable-level-recruitment-2026",
-    "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
-    "t": "Ladakh Police Constable Recruitment 2026 Notification Out for 331 Posts (Executive, Armed/IRP, SDRF, Border & Women Battalions) | Apply Online",
-    "d": "24 August 2026",
-    "l": "15 September 2026",
-    "a": "Advertisement Notification No. 02 of 2026 (Dated 24 August 2026)",
-    "q": "10th Class / Matriculation Passed (8th Pass for Serving SPOs with 3+ Years Service)",
-    "desc": "The Administration of Union Territory of Ladakh, Office of the Chairman, Ladakh Police Subordinate Service Recruitment Board (LPSSRB), has released Advertisement Notification No. 02 of 2026 dated 24 August 2026 inviting online applications for direct recruitment to 331 vacancies of Constable (Level-02), General Cadre in Ladakh Police. The recruitment drive encompasses 141 vacancies in the Executive, Armed/IRP, and SDRF cadres, 168 vacancies in the Border Battalion across 5 border districts (Nubra, Changthang, Sham, Kargil, and Drass), and 22 vacancies in the Women Battalion across 7 districts (Leh, Nubra, Changthang, Zanskar, and Drass) under the Ladakh Police (Subordinate) Service Recruitment (Revised) Rules, 2026.",
-    "u": "https://police.ladakh.gov.in"
-},
-  {
     "id": "jau-pa-recruitment-2026",
     "b": "Junagadh Agricultural University (JAU)",
     "t": "Junagadh Agricultural University (JAU) Recruitment 2026 Notification Out for 8 Project Assistant Posts | Walk-in Interview",
@@ -3620,17 +3422,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Notice%20dated%2011.09.2026%20-%20Advertisement%20for%20the%20post%20of%20Nurse%20%28Infection%20Control%29%20on%20Contract%20basis%20for%20a%20project%20in%20Department%20of%20Microbiology.pdf"
 },
   {
-    "id": "dda-yp-recruitment-2026",
-    "b": "Delhi Development Authority (DDA)",
-    "t": "Delhi Development Authority (DDA) Recruitment 2026 Notification Out for 1 Young Professional (Communications) Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "17 September 2026",
-    "a": "07/Consultant/2026/Rectt. Cell/Pers./DDA",
-    "q": "Any Bachelor's Degree",
-    "desc": "Delhi Development Authority (DDA) has officially announced employment advertisement notification 07/Consultant/2026/Rectt. Cell/Pers./DDA inviting applications for 1 vacancies for Young Professional (Communications) posts.",
-    "u": "https://dda.gov.in/sites/default/files/latest_jobs/notification_01_yp_communications_11.09.2026.pdf"
-},
-  {
     "id": "iit-delhi-ra-recruitment-2026",
     "b": "Indian Institute of Technology Delhi (IIT Delhi)",
     "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 3 Jr. Research Fellow, Research Associate Posts | Apply Online",
@@ -3664,28 +3455,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.asbb.gov.in/pdf/whats_new/110926/Add110926.pdf"
 },
   {
-    "id": "iit-guwahati-ra-recruitment-2026",
-    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
-    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "21 September 2026 (Walk-in)",
-    "a": "IITG/II&SI/Project Staff Rectt-2026/151",
-    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/151 inviting applications for 1 vacancies for Research Associate posts.",
-    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
-},
-  {
-    "id": "nhm-assam-mo-recruitment-2026-3066466",
-    "b": "National Health Mission Assam (NHM Assam)",
-    "t": "National Health Mission Assam (NHM Assam) Recruitment 2026 Notification Out for 1 Medical Officer (MBBS) Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "14 September 2026",
-    "a": "NHM-31013(11)/87/2023-HRD-NHM",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree",
-    "desc": "National Health Mission Assam (NHM Assam) has officially announced employment advertisement notification NHM-31013(11)/87/2023-HRD-NHM inviting applications for 1 vacancies for Medical Officer (MBBS) posts.",
-    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/recruiteCRP/"
-},
-  {
     "id": "nhm-assam-mo-recruitment-2026",
     "b": "National Health Mission, Assam (NHM Assam)",
     "t": "National Health Mission, Assam (NHM Assam) Recruitment 2026 Notification Out for 78 Medical Officer (MBBS) Posts | Apply Online",
@@ -3695,28 +3464,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / Medical PG | Any Bachelor's Degree",
     "desc": "National Health Mission, Assam (NHM Assam) has officially announced employment advertisement notification NHM-31013(11)/3/65/2025-HRD-NHM [ECF : 385294] inviting applications for 78 vacancies for Medical Officer (MBBS) posts.",
     "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/onlineRecruitement/index.php/home/index"
-},
-  {
-    "id": "iiser-tirupati-ra-recruitment-2026",
-    "b": "Indian Institute of Science Education and Research Tirupati",
-    "t": "Indian Institute of Science Education and Research Tirupati Recruitment 2026 Notification Out for 1 Research Associate 1 Posts | Apply Online",
-    "d": "13 September 2026",
-    "l": "18 September 2026",
-    "a": "71/2026",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Indian Institute of Science Education and Research Tirupati has officially announced employment advertisement notification 71/2026 inviting applications for 1 vacancies for Research Associate 1 posts.",
-    "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/09/Advt_712026.pdf"
-},
-  {
-    "id": "district-legal-ser-para-legal-recruitment-2026",
-    "b": "District Legal Services Authority Kalimpong (DLSA Kalimpong)",
-    "t": "District Legal Services Authority Kalimpong (DLSA Kalimpong) Recruitment 2026 Notification Out for 13 Para Legal Volunteers/ Adhikar Saathi Posts | Apply Offline",
-    "d": "12 September 2026",
-    "l": "15 September 2026",
-    "a": "DISTRICT-LEGAL/2026",
-    "q": "10th / 8th Pass",
-    "desc": "District Legal Services Authority Kalimpong (DLSA Kalimpong) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 13 vacancies for Para Legal Volunteers/ Adhikar Saathi posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec056915849303a3fe93657587cb9c46/uploads/2026/08/2026081743.pdf"
 },
   {
     "id": "bckv-young-professional-recruitment-2026",
@@ -3783,17 +3530,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Sc | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Doon University has officially announced employment advertisement notification DOON-UNIVERSIT/2026 inviting applications for 1 vacancies for Young Professional I (YP I) posts.",
     "u": "https://doonuniversity.ac.in/admin/assets/uploads/docs/20260911075331860da77875.pdf"
-},
-  {
-    "id": "iit-roorkee-project-consultant-recruitment-2026",
-    "b": "Indian Institute of Technology Roorkee (IIT Roorkee)",
-    "t": "Indian Institute of Technology Roorkee (IIT Roorkee) Recruitment 2026 Notification Out for 1 Project Consultant Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "24 September 2026 (Walk-in)",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Roorkee (IIT Roorkee) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Consultant posts.",
-    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/EQ/2026/adv110920268.pdf"
 },
   {
     "id": "iol-project-technician-recruitment-2026",
@@ -3895,17 +3631,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://nita.ac.in/MO_10-09-2026_Advt-GrBGrC-Technical-Sept26_admin.pdf"
 },
   {
-    "id": "tripura-university-guest-instructor-recruitment-2026",
-    "b": "Tripura University",
-    "t": "Tripura University Recruitment 2026 Notification Out for 2 Guest Instructor Posts | Walk-in Interview",
-    "d": "12 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "TRIPURA-UNIVER/2026",
-    "q": "M.A. in Instrumental Music (Violin), M.A. in Hindustani Classical Vocal ...",
-    "desc": "Tripura University has officially announced employment advertisement notification TRIPURA-UNIVER/2026 inviting applications for 2 vacancies for Guest Instructor posts.",
-    "u": "https://tripurauniv.ac.in/site//images/contentpdf/1789052772_assignment_of_guest_instructor_in_the_department_of_music__tripura_university.pdf"
-},
-  {
     "id": "international-inst-library-assistant-recruitment-2026",
     "b": "International Institute of Information Technology Hyderabad (IIIT Hyderabad)",
     "t": "International Institute of Information Technology Hyderabad (IIIT Hyderabad) Recruitment 2026 Notification Out for 1 Library Assistant Posts | Apply Online",
@@ -3961,17 +3686,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iprc.gov.in/"
 },
   {
-    "id": "aiims-jodhpur-research-associate-recruitment-2026",
-    "b": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur)",
-    "t": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Research Associate-III Posts | Walk-in Interview",
-    "d": "12 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "Dr.Jaykaran/Recruitment/2024/43",
-    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
-    "desc": "All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification Dr.Jaykaran/Recruitment/2024/43 inviting applications for 1 vacancies for Research Associate-III posts.",
-    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788930859_Doc_527-090926.pdf"
-},
-  {
     "id": "optcl-degree-engineering-recruitment-2026",
     "b": "Odisha Power Transmission Corporation Limited (OPTCL)",
     "t": "Odisha Power Transmission Corporation Limited (OPTCL) Recruitment 2026 Notification Out for 100 Graduate, Diploma & ITI Trade Apprentice Posts | Apply Online",
@@ -4014,39 +3728,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "EMRS Manipur Teaching and Non Teaching Staff has officially announced employment advertisement notification EMRS-MANIPUR-T/2026 inviting applications for 30 vacancies for Staff Nurse, Chowkidar and More posts.",
     "u": "https://cdn.s3waas.gov.in/s36e2713a6efee97bacb63e52c54f0ada0/uploads/2026/09/17890431161898.pdf"
-},
-  {
-    "id": "rcfl-mt-management-trainee-recruitment-2026",
-    "b": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) - A Government of India Undertaking",
-    "t": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd) Recruitment 2026 Notification Out for 94 Management Trainee Posts (Advt No. 16022026) | Apply Online",
-    "d": "01 February 2026",
-    "l": "24 August 2026 (5:00 PM) / Extended Window as notified",
-    "a": "16022026",
-    "q": "Engineering MT Posts (Chemical, Mechanical, Electrical, Instrumentation, Civil, Fire, IT, Materials, Boiler, IE): 4-year",
-    "desc": "Rashtriya Chemicals and Fertilizers Limited (RCF Ltd), a leading profit-making 'Navratna' Central Public Sector Undertaking under the Government of India with annual operational revenues exceeding ₹18,690 crores, has officially published recruitment advertisement No. 16022026. The enterprise invites applications from dynamic, qualified, and ambitious Indian Nationals for engagement as Management Trainees (MT) across 14 specialized engineering, scientific, and corporate disciplines.",
-    "u": "https://ibpsreg.ibps.in/rcfmtfeb26/"
-},
-  {
-    "id": "bharatratna-atal-b-assistant-professor-recruitment-2026",
-    "b": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune)",
-    "t": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune) Recruitment 2026 Notification Out for 1 Assistant Professor (Community Medicine - UHTC) Posts | Walk-in Interview",
-    "d": "12 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "11201",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Bharatratna Atal Bihari Vajpayee Medical College Pune (BAVMC Pune) has officially announced employment advertisement notification 11201 inviting applications for 1 vacancies for Assistant Professor (Community Medicine - UHTC) posts.",
-    "u": "https://www.bavmcpune.edu.in/wp-content/uploads/2026/09/%E0%A4%AE%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%96%E0%A4%A4-%E0%A4%B5%E0%A5%87%E0%A4%B3%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95-%E0%A4%B6%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95.pdf"
-},
-  {
-    "id": "csir-neeri-project-associate-recruitment-2026",
-    "b": "National Environmental Engineering Research Institute (CSIR NEERI)",
-    "t": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "16 September 2026",
-    "a": "RECRUIT_SD_2A_WESD_09092026",
-    "q": "B.Tech / B.E",
-    "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially announced employment advertisement notification RECRUIT_SD_2A_WESD_09092026 inviting applications for 1 vacancies for Project Associate-II posts.",
-    "u": "https://recruitment.neeri.res.in"
 },
   {
     "id": "csir-neeri-technical-assistant-recruitment-2026",
@@ -4192,17 +3873,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.ncbs.res.in/jobportal/node/add/application/146659"
 },
   {
-    "id": "nit-srinagar-temporary-teaching-recruitment-2026",
-    "b": "National Institute of Technology Srinagar",
-    "t": "National Institute of Technology Srinagar Recruitment 2026 Notification Out for 2 Temporary Teaching Staff Posts | Walk-in Interview",
-    "d": "12 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "NITS/Admn/167/2026-PD/353",
-    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
-    "desc": "National Institute of Technology Srinagar has officially announced employment advertisement notification NITS/Admn/167/2026-PD/353 inviting applications for 2 vacancies for Temporary Teaching Staff posts.",
-    "u": "https://nitsri.ac.in/uploaded_files/Notice_for_Walk-in-Interview_for_Temporary_Faculty_Positions.pdf"
-},
-  {
     "id": "jammu-and-kashmir-zonal-security-recruitment-2026",
     "b": "Jammu and Kashmir Bank",
     "t": "Jammu and Kashmir Bank Recruitment 2026 Notification Out for 8 Zonal Security Officer, FL Counsellor Posts | Apply Online",
@@ -4212,17 +3882,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree",
     "desc": "Jammu and Kashmir Bank has officially announced employment advertisement notification JKB/HR/Rectt/2026-412 inviting applications for 8 vacancies for Zonal Security Officer, FL Counsellor posts.",
     "u": "https://jkb.bank.in"
-},
-  {
-    "id": "icar-indian-agricu-young-professional-recruitment-2026",
-    "b": "ICAR Indian Agricultural Research Institute",
-    "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "28 September 2026 (Walk-in)",
-    "a": "Position",
-    "q": "M.Sc | Any Bachelor's Degree",
-    "desc": "ICAR Indian Agricultural Research Institute has officially announced employment advertisement notification Position inviting applications for 1 vacancies for Young Professional-II posts.",
-    "u": "https://www.iari.res.in/files/jobs/Young_Professional_II_RS_Shimla_03092026.pdf"
 },
   {
     "id": "gujarat-biotechnol-jrf-recruitment-2026",
@@ -4423,17 +4082,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://oileservice.oilindia.in/HRARecruitmentPortal/Account/?id=1e7b719a-cf70-4d05-96c8-46ef9cc4a80c"
 },
   {
-    "id": "iit-guwahati-assistant-project-recruitment-2026",
-    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
-    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 2 Assistant Project Engineer Posts | Apply Online",
-    "d": "12 September 2026",
-    "l": "16 September 2026",
-    "a": "IITG/II&SI/Project Staff Rectt-2026/147",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/147 inviting applications for 2 vacancies for Assistant Project Engineer posts.",
-    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
-},
-  {
     "id": "national-test-hous-young-professionals-recruitment-2026",
     "b": "National Test House",
     "t": "National Test House Recruitment 2026 Notification Out for 36 Young Professionals Posts | Apply Offline",
@@ -4478,17 +4126,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.hindustancopper.com/Upload/Notice/0-639245853054020000-NoticeFILE.pdf"
 },
   {
-    "id": "indian-institute-o-je-recruitment-2026-3067168",
-    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
-    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Junior Engineer - Civil Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "14 September 2026 (Walk-in)",
-    "a": "RO/SE/26/31",
-    "q": "Diploma | B.Tech / B.E",
-    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially announced employment advertisement notification RO/SE/26/31 inviting applications for 1 vacancies for Junior Engineer - Civil posts.",
-    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788526142_engineer.pdf"
-},
-  {
     "id": "indian-museum-kolk-library-and-recruitment-2026",
     "b": "Indian Museum Kolkata",
     "t": "Indian Museum Kolkata Recruitment 2026 Notification Out for 5 Library and Information Officer, Head Modeller, Hindi Translator, Modeller, Driver-cum-Mechanic Posts | Apply Online",
@@ -4500,17 +4137,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://indianmuseumkolkata.org/im_cont/uploads/2026/09/Detail-advertisement-for-website-for-5-posts.pdf"
 },
   {
-    "id": "indian-institute-o-project-assistant-recruitment-2026-3067300",
-    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
-    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "CH 1960) for 1 vacancy",
-    "q": "M.Sc",
-    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially announced employment advertisement notification CH 1960) for 1 vacancy inviting applications for 1 vacancies for Project Assistant posts.",
-    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788873356_Website%20Copy,%20Dipankar%20Mondal,%20Chemistry,%2008.09.2026.pdf"
-},
-  {
     "id": "nit-counsellor-recruitment-2026",
     "b": "National Institute of Technology Uttarakhand",
     "t": "National Institute of Technology Uttarakhand Recruitment 2026 Notification Out for 1 Counsellor Posts | Apply Online",
@@ -4520,17 +4146,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "National Institute of Technology Uttarakhand has officially announced employment advertisement notification 06/2026 inviting applications for 1 vacancies for Counsellor posts.",
     "u": "https://nituk.ac.in/uploads/topics/17887835737029.pdf"
-},
-  {
-    "id": "pm-shri-kendriya-v-pgt-sociology-recruitment-2026",
-    "b": "PM SHRI Kendriya Vidyalaya Dehradun",
-    "t": "PM SHRI Kendriya Vidyalaya Dehradun Recruitment 2026 Notification Out for 1 PGT (Sociology) Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "फा. संविदा सा०/पीएम श्री के०वि० / आईटीबीपी /2026-27/",
-    "q": "PG",
-    "desc": "PM SHRI Kendriya Vidyalaya Dehradun has officially announced employment advertisement notification फा. संविदा सा०/पीएम श्री के०वि० / आईटीबीपी /2026-27/ inviting applications for 1 vacancies for PGT (Sociology) posts.",
-    "u": "https://samvida-sathi.kvs.gov.in/"
 },
   {
     "id": "up-anganwadi-worke-in-amethi-recruitment-2026",
@@ -4553,50 +4168,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | M.Tech / M.E",
     "desc": "Madan Mohan Malaviya University of Technology (MMMUT) has officially announced employment advertisement notification MUT/ECED/R&D/2026-01 inviting applications for 1 vacancies for Junior Research Assistant posts.",
     "u": "https://www.mmmut.ac.in/News_content/50234advertisment_09092026.pdf"
-},
-  {
-    "id": "banda-district-assistant-accountant-recruitment-2026",
-    "b": "Banda District",
-    "t": "Banda District Recruitment 2026 Notification Out for 1 Assistant Accountant Posts | Apply Offline",
-    "d": "10 September 2026",
-    "l": "18 September 2026",
-    "a": "354/MoD/Appointment/2026-27",
-    "q": "Knowledge of computer typing and file making. Preference to retired Civi...",
-    "desc": "Banda District has officially announced employment advertisement notification 354/MoD/Appointment/2026-27 inviting applications for 1 vacancies for Assistant Accountant posts.",
-    "u": "https://www.allahabadhighcourt.in/event/event_26810_09-09-2026.pdf"
-},
-  {
-    "id": "iit-kanpur-project-multi-recruitment-2026-3067225",
-    "b": "Indian Institute of Technology Kanpur",
-    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Project Multi-Skilled Worker- L3 Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "17 September 2026",
-    "a": "P.Rect./R&D/2026/175",
-    "q": "10th / 8th Pass",
-    "desc": "Indian Institute of Technology Kanpur has officially announced employment advertisement notification P.Rect./R&D/2026/175 inviting applications for 1 vacancies for Project Multi-Skilled Worker- L3 posts.",
-    "u": "https://www.iitk.ac.in/dord/project/ee-pmsw-l-3-28-08-2026.html"
-},
-  {
-    "id": "mmmut-senior-research-recruitment-2026",
-    "b": "Madan Mohan Malaviya University of Technology (MMMUT)",
-    "t": "Madan Mohan Malaviya University of Technology (MMMUT) Recruitment 2026 Notification Out for 1 Senior Research Assistant (SRA) Posts | Apply Offline",
-    "d": "10 September 2026",
-    "l": "30 September 2026 (Walk-in)",
-    "a": "MMMUT/CESD/R&D/........",
-    "q": "M.Sc | Any Bachelor's Degree",
-    "desc": "Madan Mohan Malaviya University of Technology (MMMUT) has officially announced employment advertisement notification MMMUT/CESD/R&D/........ inviting applications for 1 vacancies for Senior Research Assistant (SRA) posts.",
-    "u": "https://www.mmmut.ac.in/News_content/12253advertisment_09102026.pdf"
-},
-  {
-    "id": "iit-kanpur-project-multi-recruitment-2026",
-    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
-    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 2 Project Multi Skilled Worker (Level 1) Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026",
-    "a": "P.Rect./R&D/2026/181",
-    "q": "10th / 8th Pass",
-    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P.Rect./R&D/2026/181 inviting applications for 2 vacancies for Project Multi Skilled Worker (Level 1) posts.",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdIN5ubxylfbulIq7nf3-T9TejL7KB4iWbTrDsv048eWjvVBw/viewform"
 },
   {
     "id": "iit-project-associate-recruitment-2026",
@@ -4641,28 +4212,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass | ITI",
     "desc": "CSIR-National Geophysical Research Institute has officially announced employment advertisement notification 01/2026 inviting applications for 21 vacancies for Technician-1 posts.",
     "u": "https://tiru.ngri.res.in/ngri_tech/"
-},
-  {
-    "id": "tslprb-police-constable-recruitment-2026-3056807",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
-    "t": "Telangana Police (TSLPRB) SI, ASI, Station Fire Officer & Constable Recruitment 2026 – Apply Online for 325 Posts Across 3 Notifications",
-    "d": "10 September 2026",
-    "l": "16 September 2026 (05:00 PM)",
-    "a": "Rc. Nos. 225/Rect./Rect-1/2026, 279/Rect./Rect-3/2026 & 234/Rect./Rect-3/2026 (Dated 29.07.2026) & Press Note Dated 10.09.2026",
-    "q": "Any Degree for SI/SFO/Jailor; B.E./B.Tech/B.Sc (IT/CS) for ASI FPB; SSC + ITI / Inter + Driving License for PC",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued three major detailed recruitment notifications (Rc. Nos. 225, 279, and 234/Rect./2026) dated 29th July 2026 along with an official Press Note dated 10th September 2026 for direct recruitment to 325 executive and technical posts across the Telangana Police Department, Telangana Special Protection Force (TSPF), Telangana State Disaster Response & Fire Services Department, and Telangana Prisons & Correctional Services Department.",
-    "u": "https://www.tgprb.in"
-},
-  {
-    "id": "tslprb-police-constable-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable, SPF Constable, Fire Fighter & Warder Recruitment 2026 – Apply Online for 7,112 Posts",
-    "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "Rc No. 189 / Rect. / Rect-2 / 2026 dated 29.07.2026",
-    "q": "Intermediate (10+2) or equivalent (+ Valid LMV License for Fire Fighter)",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has released official recruitment notification Rc No. 189 / Rect. / Rect-2 / 2026 dated 29th July 2026 inviting online applications for direct recruitment to 7,112 executive and uniformed posts across Telangana Police Department, Special Protection Force (TSPF), Telangana Fire & Disaster Response Department, and Prisons & Correctional Services Department.",
-    "u": "https://www.tgprb.in/"
 },
   {
     "id": "district-child-pro-assistant-cum-recruitment-2026",
@@ -4742,17 +4291,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.annauniv.edu/pdf/ReAdvertisement.pdf"
 },
   {
-    "id": "cutn-project-associate-recruitment-2026",
-    "b": "Central University of Tamil Nadu (CUTN)",
-    "t": "Central University of Tamil Nadu (CUTN) Recruitment 2026 Notification Out for 1 Project Associate Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "CENTRAL-UNIVER/2026",
-    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
-    "desc": "Central University of Tamil Nadu (CUTN) has officially announced employment advertisement notification CENTRAL-UNIVER/2026 inviting applications for 1 vacancies for Project Associate posts.",
-    "u": "https://cutn.ac.in/wp-content/uploads/2026/09/Advertisement-for-the-position-of-Project-Associate-PA-in-the-Department-of-Geology_09092026.pdf"
-},
-  {
     "id": "curaj-sports-manager-recruitment-2026",
     "b": "Central University of Rajasthan (CURAJ)",
     "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 Notification Out for 3 Sports Manager, Store In-Charge, Consultant (Store) Posts | Apply Offline",
@@ -4795,17 +4333,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | Any Bachelor's Degree",
     "desc": "Indian Institute of Management Amritsar (IIM Amritsar) has officially announced employment advertisement notification IIMASR/HR/Rectt./RA/2026/09 inviting applications for 2 vacancies for Research Assistant posts.",
     "u": "https://iimamritsar.ac.in"
-},
-  {
-    "id": "punjabi-university-lecturer-sociology-recruitment-2026",
-    "b": "Punjabi University",
-    "t": "Punjabi University Recruitment 2026 Notification Out for 1 Lecturer (Sociology) Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "PUNJABI-UNIVER/2026",
-    "q": "Please refer to the official notification for eligibility criteria details.",
-    "desc": "Punjabi University has officially announced employment advertisement notification PUNJABI-UNIVER/2026 inviting applications for 1 vacancies for Lecturer (Sociology) posts.",
-    "u": "https://www.punjabiuniversity.ac.in/Pages/SF/TQR/P9C3AD95B.pdf"
 },
   {
     "id": "ouat-guest-faculty-recruitment-2026",
@@ -4861,28 +4388,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E./B.Tech (IT/CS/ECE/Civil/Fire) / MCA / M.Sc / LLB / Certifications (CISA/CISM/CISSP)",
     "desc": "Bank of India (BOI), a leading premier Public Sector Bank headquartered at Star House, Bandra-Kurla Complex, Mumbai, has published official recruitment notification under Project No. 2026-27/02 dated 01.08.2026 for direct recruitment of 205 Specialist Officers in various professional streams across Junior Management Grade Scale-I, Middle Management Grade Scale-II & III, and Senior Management Grade Scale-IV.",
     "u": "https://ibpsreg.ibps.in/boiaug26/"
-},
-  {
-    "id": "csir-national-envi-project-assistant-recruitment-2026",
-    "b": "CSIR National Environmental Engineering Research Institute",
-    "t": "CSIR National Environmental Engineering Research Institute Recruitment 2026 Notification Out for 1 Project Assistant II Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "RECRUIT_SD_4A_SHWMD_09092026",
-    "q": "B.Sc",
-    "desc": "CSIR National Environmental Engineering Research Institute has officially announced employment advertisement notification RECRUIT_SD_4A_SHWMD_09092026 inviting applications for 1 vacancies for Project Assistant II posts.",
-    "u": "https://recruitment.neeri.res.in/appform/Pa_Agecheck.php"
-},
-  {
-    "id": "sanjay-gandhi-nati-deputy-director-recruitment-2026",
-    "b": "Sanjay Gandhi National Park Borivali (SGNP Borivali)",
-    "t": "Sanjay Gandhi National Park Borivali (SGNP Borivali) Recruitment 2026 Notification Out for 1 Deputy Director Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026",
-    "a": "SANJAY-GANDHI-/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Sanjay Gandhi National Park Borivali (SGNP Borivali) has officially announced employment advertisement notification SANJAY-GANDHI-/2026 inviting applications for 1 vacancies for Deputy Director posts.",
-    "u": "https://mahaforest.gov.in/writereaddata/fckimagefile/Advertiesment_Tulsi_7-8_0001.pdf"
 },
   {
     "id": "coep-technological-jrf-recruitment-2026",
@@ -4951,17 +4456,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26"
 },
   {
-    "id": "sindhudurg-dcc-ban-number-of-recruitment-2026",
-    "b": "Sindhudurg DCC Bank Clerk",
-    "t": "Sindhudurg DCC Bank Clerk Recruitment 2026 Notification Out for 67 Number of Vacancies Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "17 September 2026 (11:59 PM)",
-    "a": "SINDHUDURG-DCC/2026",
-    "q": "10th / 8th Pass | B.Tech / B.E | B.Sc",
-    "desc": "Sindhudurg DCC Bank Clerk has officially announced employment advertisement notification SINDHUDURG-DCC/2026 inviting applications for 67 vacancies for Number of Vacancies posts.",
-    "u": "https://sindhudurgdcc.bank.in/public/uploads/General_Condition.pdf"
-},
-  {
     "id": "indian-institute-o-counsellor-recruitment-2026",
     "b": "Indian Institute of Science Education and Research Pune (IISER Pune)",
     "t": "Indian Institute of Science Education and Research Pune (IISER Pune) Recruitment 2026 Notification Out for 4 Counsellor Posts | Walk-in Interview",
@@ -5004,28 +4498,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E",
     "desc": "Madhya Pradesh Employees Selection Board (MPESB), for Police Headquarters, Home (Police) Department has officially announced employment advertisement notification MADHYA-PRADESH/2026 inviting applications for 507 vacancies for Subedar, Sub Inspector (SAF/DEF/Arms/Photo/QD/Finger Print) posts.",
     "u": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx"
-},
-  {
-    "id": "nabfins-customer-service-recruitment-2026",
-    "b": "NABARD Financial Services (NABFINS)",
-    "t": "NABARD Financial Services (NABFINS) Recruitment 2026 Notification Out for 1 Customer Service Executive (CSE) - IBL & HL Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026",
-    "a": "NABARD-FINANCI/2026",
-    "q": "12th Pass | Any Bachelor's Degree",
-    "desc": "NABARD Financial Services (NABFINS) has officially announced employment advertisement notification NABARD-FINANCI/2026 inviting applications for 1 vacancies for Customer Service Executive (CSE) - IBL & HL posts.",
-    "u": "https://nabfins.org/Careers/"
-},
-  {
-    "id": "indian-institute-o-jrf-recruitment-2026-3067177",
-    "b": "Indian Institute of Science Education and Research Bhopal",
-    "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 3 Junior Research Fellow and Lab Assistant Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "17 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "M.Tech / M.E | B.Sc | M.Sc",
-    "desc": "Indian Institute of Science Education and Research Bhopal has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Junior Research Fellow and Lab Assistant posts.",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLSek0ObLQXUcPLEyN05qqjUFhXeyXHnzWZnivEWe74n3v1R4IQ/viewform"
 },
   {
     "id": "mpmrcl-general-manager-recruitment-2026",
@@ -5072,17 +4544,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.cdac.in/index.aspx?id=ca_NotificationConsultant09092026"
 },
   {
-    "id": "kudumbashree-integrated-farming-recruitment-2026",
-    "b": "Kudumbashree",
-    "t": "Kudumbashree Recruitment 2026 Notification Out for 15 Integrated Farming Clusters (IFC) - IFC Anchor, Senior CRP Posts | Apply Offline",
-    "d": "10 September 2026",
-    "l": "17 September 2026",
-    "a": "KSTVM/61/2024-E1",
-    "q": "Diploma | Any Bachelor's Degree",
-    "desc": "Kudumbashree has officially announced employment advertisement notification KSTVM/61/2024-E1 inviting applications for 15 vacancies for Integrated Farming Clusters (IFC) - IFC Anchor, Senior CRP posts.",
-    "u": "https://www.kudumbashree.org/storage//files/i2ano_vacancy-notification-ifc_anchor-senior_crp-kudumbashree-tvm-district-mission.pdf"
-},
-  {
     "id": "kudumbashree-animator-recruitment-2026",
     "b": "Kudumbashree",
     "t": "Kudumbashree Recruitment 2026 Notification Out for 1 Animator Posts | Apply Offline",
@@ -5125,17 +4586,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree",
     "desc": "Spices Board has officially announced employment advertisement notification 06/2026 inviting applications for 1 vacancies for Sample Receipt Desk Trainee posts.",
     "u": "http://spicesboard.in/recruitment/"
-},
-  {
-    "id": "aiims-deoghar-project-technical-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar)",
-    "t": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) Recruitment 2026 Notification Out for 1 Project Technical Support I Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "10th / 8th Pass | ITI | Diploma",
-    "desc": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Technical Support I posts.",
-    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/re_advertisement_for_vacancy_in_an_ntepfunded_project_coping_with_multidrug_resistant_tuberculosis_a_mixed_methods_study_from_patients_perspective_09092026115626489.pdf"
 },
   {
     "id": "kisce-high-performance-recruitment-2026",
@@ -5215,17 +4665,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.sac.gov.in/"
 },
   {
-    "id": "gujarat-university-teaching-assistant-recruitment-2026",
-    "b": "Gujarat University",
-    "t": "Gujarat University Recruitment 2026 Notification Out for 3 Teaching Assistant in Psychology Posts | Apply Offline",
-    "d": "10 September 2026",
-    "l": "16 September 2026",
-    "a": "GUJARAT-UNIVER/2026",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Gujarat University has officially announced employment advertisement notification GUJARAT-UNIVER/2026 inviting applications for 3 vacancies for Teaching Assistant in Psychology posts.",
-    "u": "https://beta.gujaratuniversity.ac.in/data/pdfs/Recruitment/TA%20final%20123.pdf"
-},
-  {
     "id": "indian-institute-o-je-recruitment-2026",
     "b": "Indian Institute of Information Technology Surat (IIIT Surat)",
     "t": "Indian Institute of Information Technology Surat (IIIT Surat) Recruitment 2026 Notification Out for 1 Junior Engineer (Civil/Architect) Posts | Apply Offline",
@@ -5235,17 +4674,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
     "desc": "Indian Institute of Information Technology Surat (IIIT Surat) has officially announced employment advertisement notification IIITS/RNF/2026-27/02 inviting applications for 1 vacancies for Junior Engineer (Civil/Architect) posts.",
     "u": "https://iiitsurat.ac.in/Recruitment_Advertisement_Junior_Engineer_(CivilArchitectural).pdf"
-},
-  {
-    "id": "bhagwan-mahavir-ho-senior-resident-recruitment-2026",
-    "b": "Bhagwan Mahavir Hospital (BMH Delhi)",
-    "t": "Bhagwan Mahavir Hospital (BMH Delhi) Recruitment 2026 Notification Out for 2 Senior Resident (Dental - Oral & Maxillofacial Surgery) Posts | Apply Offline",
-    "d": "10 September 2026",
-    "l": "12 September 2026",
-    "a": "BHAGWAN-MAHAVI/2026",
-    "q": "BDS / Dental | Any Bachelor's Degree",
-    "desc": "Bhagwan Mahavir Hospital (BMH Delhi) has officially announced employment advertisement notification BHAGWAN-MAHAVI/2026 inviting applications for 2 vacancies for Senior Resident (Dental - Oral & Maxillofacial Surgery) posts.",
-    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wbmh_27.pdf"
 },
   {
     "id": "iit-delhi-project-scientist-recruitment-2026",
@@ -5325,28 +4753,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/09/17889554975903.pdf"
 },
   {
-    "id": "pgimer-senior-resident-recruitment-2026",
-    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
-    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 7 Senior Resident Posts | Walk-in Interview",
-    "d": "10 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "POSTGRADUATE-I/2026",
-    "q": "M.S. (General Surgery)",
-    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially announced employment advertisement notification POSTGRADUATE-I/2026 inviting applications for 7 vacancies for Senior Resident posts.",
-    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=DocScanner%20S026%201224%20PM09Sep2026142947.pdf&PathKey=VACANCY_PATH"
-},
-  {
-    "id": "indian-institute-o-management-trainee-recruitment-2026",
-    "b": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya)",
-    "t": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya) Recruitment 2026 Notification Out for 1 Management Trainee cum Counsellor - Clinical/ Counselling Psychology Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "13 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Indian Institute of Management Bodh Gaya (IIM Bodh Gaya) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Management Trainee cum Counsellor - Clinical/ Counselling Psychology posts.",
-    "u": "https://iimbg.ac.in/wp-content/uploads/2026/09/RoR-MT-Clinical-Counselling-Psychology-05-09-2026.pdf"
-},
-  {
     "id": "icar-iari-yp-ii-recruitment-2026",
     "b": "Indian Agricultural Research Institute (ICAR IARI)",
     "t": "Indian Agricultural Research Institute (ICAR IARI) Recruitment 2026 Notification Out for 1 YP-II Posts | Walk-in Interview",
@@ -5378,28 +4784,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Sibsagar University has officially announced employment advertisement notification SU/F&AO/GIA-Recruit-Advt/14/2026/30 inviting applications for 3 vacancies for Controller of Examinations, Deputy Registrar, Deputy Controller of Examinations posts.",
     "u": "https://sibsagaruniversity.ac.in/upload/notice/1788965049.pdf"
-},
-  {
-    "id": "iit-team-leader-recruitment-2026",
-    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
-    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Team Leader cum Civil Engineer Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "14 September 2026",
-    "a": "IITG/II&SI/Project Staff Rectt-2026/149",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/149 inviting applications for 1 vacancies for Team Leader cum Civil Engineer posts.",
-    "u": "https://iitg.ac.in/rndproj/recruitment?page=1&limit=10"
-},
-  {
-    "id": "iit-research-associate-recruitment-2026",
-    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
-    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "IITG/II&SI/Project Staff Rectt-2026/148",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/II&SI/Project Staff Rectt-2026/148 inviting applications for 1 vacancies for Research Associate posts.",
-    "u": "https://iitg.ac.in/rndproj/recruitment"
 },
   {
     "id": "pgimer-nursing-officer-recruitment-2026",
@@ -5446,17 +4830,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/08/Advt_662026.pdf"
 },
   {
-    "id": "indian-institute-o-jrf-recruitment-2026",
-    "b": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati)",
-    "t": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati) Recruitment 2026 Notification Out for 1 Project Associate-I / Junior Research Fellow Posts | Apply Online",
-    "d": "10 September 2026",
-    "l": "18 September 2026",
-    "a": "73/2026",
-    "q": "M.Sc",
-    "desc": "Indian Institute of Science Education and Research Tirupati (IISER Tirupati) has officially announced employment advertisement notification 73/2026 inviting applications for 1 vacancies for Project Associate-I / Junior Research Fellow posts.",
-    "u": "https://www.iisertirupati.ac.in/wp-content/uploads/2026/09/Advt_732026.pdf"
-},
-  {
     "id": "ssc-si-gd-recruitment-2026",
     "b": "Staff Selection Commission (SSC)",
     "t": "Staff Selection Commission (SSC) Sub-Inspector (SI) in Delhi Police and Central Armed Police Forces (CAPFs) Examination, 2026 – Apply Online for 1,871 Posts",
@@ -5501,39 +4874,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://bengalchemicals.co.in/"
 },
   {
-    "id": "all-india-institute-of-medical-project-staff-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
-    "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 2 Project Staff Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "16 September 2026",
-    "a": "AIIMSK/MICRO/VRDL/E 1250",
-    "q": "12th Pass | B.Sc | MBBS / Medical PG",
-    "desc": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) has officially announced employment advertisement notification AIIMSK/MICRO/VRDL/E 1250 inviting applications for 2 vacancies for Project Staff posts.",
-    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/vrdl_advertisement_proforma_scientistb_labtechnician_september_2026_20260907_181159_7c9d06f4.pdf"
-},
-  {
-    "id": "bengal-chemicals-pharmaceutica-legal-retainer-recruitment-2026",
-    "b": "Bengal Chemicals & Pharmaceuticals",
-    "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Legal Retainer Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "PER/0106/2026-2027/2",
-    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
-    "desc": "Bengal Chemicals & Pharmaceuticals has officially announced employment advertisement notification PER/0106/2026-2027/2 inviting applications for 1 vacancies for Legal Retainer posts.",
-    "u": "https://apps.bengalchemicals.co.in/uploads/job-file/MNUYQ4TE8P-20260819-075325.pdf"
-},
-  {
-    "id": "indian-institute-of-informatio-assistant-registrar-recruitment-2026",
-    "b": "Indian Institute of Information Technology Kalyani (IIIT Kalyani)",
-    "t": "Indian Institute of Information Technology Kalyani (IIIT Kalyani) Recruitment 2026 Notification Out for 1 Assistant Registrar Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "18 September 2026",
-    "a": "IIITK/NON-FAC.RECT/R20/2026/09",
-    "q": "Any Bachelor's Degree",
-    "desc": "Indian Institute of Information Technology Kalyani (IIIT Kalyani) has officially announced employment advertisement notification IIITK/NON-FAC.RECT/R20/2026/09 inviting applications for 1 vacancies for Assistant Registrar posts.",
-    "u": "https://iiitkalyani.ac.in/api/serve/2026/08/29/Advertisement_-_T_P_1787978635_0daca02d.pdf"
-},
-  {
     "id": "nainital-bank-hr-advisor-recruitment-2026",
     "b": "Nainital Bank",
     "t": "Nainital Bank Recruitment 2026 Notification Out for 1 HR Advisor Posts | Apply Online",
@@ -5543,17 +4883,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Superannuated/ retired/ VRS Optee in Grade/Scale of AGM and above from p...",
     "desc": "Nainital Bank has officially announced employment advertisement notification NAINITAL-BANK/2026 inviting applications for 1 vacancies for HR Advisor posts.",
     "u": "https://www.nainitalbank.bank.in/pdf/Notification%20n%20Application%20Advisor%20HR.pdf"
-},
-  {
-    "id": "doon-university-project-assistant-recruitment-2026",
-    "b": "Doon University",
-    "t": "Doon University Recruitment 2026 Notification Out for 2 Project Assistant Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "12 September 2026",
-    "a": "Email",
-    "q": "M.Sc",
-    "desc": "Doon University has officially announced employment advertisement notification Email inviting applications for 2 vacancies for Project Assistant posts.",
-    "u": "https://doonuniversity.ac.in/admin/assets/uploads/docs/2026090213584776c6702637.pdf"
 },
   {
     "id": "uttarakhand-public-service-com-uttarakhand-combined-state-civ-recruitment-2026",
@@ -5598,17 +4927,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ph.D / Doctorate",
     "desc": "Banaras Hindu University (BHU) has officially announced employment advertisement notification SRICC/IoE/RJP-PDF/2026-27/3298 inviting applications for 1 vacancies for Raja Jwala Prasad Post-Doctoral Fellowship posts.",
     "u": "https://www.bhu.ac.in/Site/TempVacancyDetail/1_2_16?2118"
-},
-  {
-    "id": "motor-accident-claims-tribunal-assistant-accountant-recruitment-2026",
-    "b": "Motor Accident Claims Tribunal Baghpat",
-    "t": "Motor Accident Claims Tribunal Baghpat Recruitment 2026 Notification Out for 1 Assistant Accountant Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "0/58/NACT/2026",
-    "q": "Retired government servant, Computer knowledge in UP Treasury Portal and...",
-    "desc": "Motor Accident Claims Tribunal Baghpat has officially announced employment advertisement notification 0/58/NACT/2026 inviting applications for 1 vacancies for Assistant Accountant posts.",
-    "u": "https://www.allahabadhighcourt.in/event/event_26793_08-09-2026.pdf"
 },
   {
     "id": "rajiv-gandhi-national-aviation-visiting-medical-consultant-vi-recruitment-2026",
@@ -5688,28 +5006,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.bbau.ac.in/Docs/Career/teaching26/ADVERTISEMENT-TEACHING-2026.pdf"
 },
   {
-    "id": "centre-for-good-governance-cgg-data-analyst-research-associat-recruitment-2026",
-    "b": "Centre for Good Governance (CGG)",
-    "t": "Centre for Good Governance (CGG) Recruitment 2026 Notification Out for 1 Data Analyst, Research Associate and More Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "CENTRE-FOR-GOO/2026",
-    "q": "B.Tech / B.E | MCA / BCA | MBBS / Medical PG",
-    "desc": "Centre for Good Governance (CGG) has officially announced employment advertisement notification CENTRE-FOR-GOO/2026 inviting applications for 1 vacancies for Data Analyst, Research Associate and More Posts posts.",
-    "u": "https://virtuo.cgg.gov.in/beforeLogin/profileUploadForm"
-},
-  {
-    "id": "centre-for-good-governance-cgg-plsql-developer-business-techn-recruitment-2026",
-    "b": "Centre for Good Governance (CGG)",
-    "t": "Centre for Good Governance (CGG) Recruitment 2026 Notification Out for 2 PLSQL Developer, Business Technical Analyst Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "CENTRE-FOR-GOO/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
-    "desc": "Centre for Good Governance (CGG) has officially announced employment advertisement notification CENTRE-FOR-GOO/2026 inviting applications for 2 vacancies for PLSQL Developer, Business Technical Analyst posts.",
-    "u": "https://virtuo.cgg.gov.in/beforeLogin/profileUploadForm"
-},
-  {
     "id": "drdo-young-scientists-laborato-junior-research-fellow-jrf-recruitment-2026",
     "b": "DRDO Young Scientists Laboratory for Smart Materials (DRDO DYSL SM)",
     "t": "DRDO Young Scientists Laboratory for Smart Materials (DRDO DYSL SM) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Walk-in Interview",
@@ -5732,17 +5028,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.efluniversity.ac.in/uploads/notices/TeluguNotification.pdf"
 },
   {
-    "id": "young-india-skills-university-lab-assistant-bio-laboratory-recruitment-2026",
-    "b": "Young India Skills University",
-    "t": "Young India Skills University Recruitment 2026 Notification Out for 1 Lab Assistant -Bio Laboratory Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "11 September 2026",
-    "a": "Advt/CA-NT/2026/05",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Young India Skills University has officially announced employment advertisement notification Advt/CA-NT/2026/05 inviting applications for 1 vacancies for Lab Assistant -Bio Laboratory posts.",
-    "u": "https://yisu.in/pdfs/lab-assistant-bio-laboratory.pdf"
-},
-  {
     "id": "combat-vehicles-research-devel-various-posts-recruitment-2026",
     "b": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO",
     "t": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO Recruitment 2026 Notification Out for 35 Various Posts | Apply Offline",
@@ -5752,17 +5037,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | M.Tech / M.E",
     "desc": "Combat Vehicles Research & Development Establishment (CVRDE), DRDO has officially announced employment advertisement notification CVRDE/HRD/PAID inviting applications for 35 vacancies for Various Posts posts.",
     "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCVRDE08092026.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-assistant-manager-facilities-recruitment-2026",
-    "b": "Indian Institute of Technology Madras (IIT Madras)",
-    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Assistant Manager - Facilities Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "17 September 2026",
-    "a": "ICSR/PR/Advt.171/2026",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt.171/2026 inviting applications for 1 vacancies for Assistant Manager - Facilities posts.",
-    "u": "https://icandsr.iitm.ac.in/careers/index.php"
 },
   {
     "id": "tamil-nadu-newsprint-and-paper-assistant-general-manager-chie-recruitment-2026",
@@ -5798,28 +5072,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://ccras.nic.in/wp-content/uploads/2026/09/08092026-Advt.-RARI-Gangtok.pdf"
 },
   {
-    "id": "tata-memorial-centre-tmc-foreman-mechanical-recruitment-2026",
-    "b": "Tata Memorial Centre (TMC)",
-    "t": "Tata Memorial Centre (TMC) Recruitment 2026 Notification Out for 1 Foreman (Mechanical) Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "OS/MUL/38/2026",
-    "q": "ITI",
-    "desc": "Tata Memorial Centre (TMC) has officially announced employment advertisement notification OS/MUL/38/2026 inviting applications for 1 vacancies for Foreman (Mechanical) posts.",
-    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=BJcYBSGQ6oYJ6Q9mvx02Eg=="
-},
-  {
-    "id": "guru-nanak-dev-university-gndu-junior-technician-recruitment-2026",
-    "b": "Guru Nanak Dev University (GNDU)",
-    "t": "Guru Nanak Dev University (GNDU) Recruitment 2026 Notification Out for 1 Junior Technician Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "11 September 2026",
-    "a": "12/2026",
-    "q": "Diploma | B.Sc",
-    "desc": "Guru Nanak Dev University (GNDU) has officially announced employment advertisement notification 12/2026 inviting applications for 1 vacancies for Junior Technician posts.",
-    "u": "https://digital.gndu.ac.in/pdf/news/Advt._No._12_(2026)_20260820151330443.pdf"
-},
-  {
     "id": "dasmesh-girls-college-principal-recruitment-2026",
     "b": "Dasmesh Girls College",
     "t": "Dasmesh Girls College Recruitment 2026 Notification Out for 1 Principal Posts | Apply Online",
@@ -5842,17 +5094,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://nuapada.odisha.gov.in/sites/default/files/2026-09/2060.pdf"
 },
   {
-    "id": "central-sanskrit-university-part-time-teacher-recruitment-2026",
-    "b": "Central Sanskrit University",
-    "t": "Central Sanskrit University Recruitment 2026 Notification Out for 3 Part-Time Teacher Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "015",
-    "q": "UGC norms for Part-Time Teacher",
-    "desc": "Central Sanskrit University has officially announced employment advertisement notification 015 inviting applications for 3 vacancies for Part-Time Teacher posts.",
-    "u": "https://csu-puri.edu.in/docs/70417.pdf"
-},
-  {
     "id": "central-institute-of-petrochem-lecturer-instructor-recruitment-2026",
     "b": "Central Institute of Petrochemicals Engineering & Technology (CIPET)",
     "t": "Central Institute of Petrochemicals Engineering & Technology (CIPET) Recruitment 2026 Notification Out for 7 Lecturer, Instructor Posts | Apply Online",
@@ -5862,50 +5103,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Central Institute of Petrochemicals Engineering & Technology (CIPET) has officially announced employment advertisement notification CIPET/BLS/ADMIN/CIPET_Contr./01 inviting applications for 7 vacancies for Lecturer, Instructor posts.",
     "u": "https://www.cipet.gov.in/job-opportunities/downloads/07-09-2026-006/Advertisement.pdf"
-},
-  {
-    "id": "women-and-child-development-de-anganwadi-worker-and-helper-recruitment-2026",
-    "b": "Women and Child Development Department Odisha (WCD Odisha)",
-    "t": "Women and Child Development Department Odisha (WCD Odisha) Recruitment 2026 Notification Out for 3 Anganwadi Worker and Helper Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "18 September 2026",
-    "a": "WOMEN-AND-CHIL/2026",
-    "q": "M.Tech / M.E",
-    "desc": "Women and Child Development Department Odisha (WCD Odisha) has officially announced employment advertisement notification WOMEN-AND-CHIL/2026 inviting applications for 3 vacancies for Anganwadi Worker and Helper posts.",
-    "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
-},
-  {
-    "id": "utkal-university-project-assistant-recruitment-2026-3066963",
-    "b": "Utkal University",
-    "t": "Utkal University Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "BOTU/MRIP/VFW/03/2026",
-    "q": "M.Sc",
-    "desc": "Utkal University has officially announced employment advertisement notification BOTU/MRIP/VFW/03/2026 inviting applications for 1 vacancies for Project Assistant posts.",
-    "u": "https://utkaluniversity.ac.in/wp-content/uploads/2026/09/website-pdf.pdf"
-},
-  {
-    "id": "central-agricultural-universit-computer-operator-recruitment-2026",
-    "b": "Central Agricultural University Imphal (CAU Imphal)",
-    "t": "Central Agricultural University Imphal (CAU Imphal) Recruitment 2026 Notification Out for 1 Computer Operator Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "CAU/CoVSc-Jlk/Estt/Rect/2026/",
-    "q": "Any Bachelor's Degree",
-    "desc": "Central Agricultural University Imphal (CAU Imphal) has officially announced employment advertisement notification CAU/CoVSc-Jlk/Estt/Rect/2026/ inviting applications for 1 vacancies for Computer Operator posts.",
-    "u": "https://cau.ac.in/walk-in-interview-for-the-post-of-1-computer-operator-in-contractual-for-college-of-veterinary-sciences-ah-jalukie-nagaland/"
-},
-  {
-    "id": "national-sports-university-man-project-lab-technician-recruitment-2026",
-    "b": "National Sports University Manipur (NSU Manipur)",
-    "t": "National Sports University Manipur (NSU Manipur) Recruitment 2026 Notification Out for 1 Project Lab Technician Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "16 September 2026",
-    "a": "INLEADS-02/2025",
-    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
-    "desc": "National Sports University Manipur (NSU Manipur) has officially announced employment advertisement notification INLEADS-02/2025 inviting applications for 1 vacancies for Project Lab Technician posts.",
-    "u": "https://www.nsu.ac.in/sites/default/files/recruitment/Vacancy%20Notification%20for%20Project%20Technician%20INLEADs.pdf"
 },
   {
     "id": "employee-state-insurance-socie-contractual-medical-officer-recruitment-2026",
@@ -5941,17 +5138,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20Lab%20Technician-%20Mircrobiology%2021.09.2026.pdf"
 },
   {
-    "id": "vasantrao-naik-marathwada-kris-junior-research-fellow-jrf-recruitment-2026",
-    "b": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV)",
-    "t": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "VASANTRAO-NAIK/2026",
-    "q": "M.Sc",
-    "desc": "Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) has officially announced employment advertisement notification VASANTRAO-NAIK/2026 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
-    "u": "https://www.vnmkv.ac.in"
-},
-  {
     "id": "mahila-mahavidyalaya-karad-assistant-professor-recruitment-2026",
     "b": "Mahila Mahavidyalaya Karad",
     "t": "Mahila Mahavidyalaya Karad Recruitment 2026 Notification Out for 11 Assistant Professor Posts | Apply Offline",
@@ -5972,17 +5158,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | Law (LL.B / LL.M)",
     "desc": "Central Bureau of Investigation (CBI), Policy Division, New Delhi has officially announced employment advertisement notification CENTRAL-BUREAU/2026 inviting applications for 1 vacancies for Special Public Prosecutor (SPP), CBI - to conduct trial of Lokpal-referred CBI cases posts.",
     "u": "https://cbi.gov.in/vacancy-list/MQ=="
-},
-  {
-    "id": "district-legal-services-author-para-legal-volunteer-recruitment-2026-3067032",
-    "b": "District Legal Services Authority Indore (DLSA Indore)",
-    "t": "District Legal Services Authority Indore (DLSA Indore) Recruitment 2026 Notification Out for 1 Para-Legal Volunteer Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "17 September 2026",
-    "a": "DISTRICT-LEGAL/2026",
-    "q": "10th / 8th Pass",
-    "desc": "District Legal Services Authority Indore (DLSA Indore) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Para-Legal Volunteer posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec02b299ad862b6f12cb57679f0538ec/uploads/2026/08/2026083126.pdf"
 },
   {
     "id": "madhya-pradesh-police-home-pol-constable-gd-recruitment-2026",
@@ -6018,28 +5193,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://jobapply.in/BEL2026JALAHALLIEXPORT"
 },
   {
-    "id": "dvc-cil-power-private-limited-consultant-senior-consultant-a-recruitment-2026",
-    "b": "DVC CIL Power Private Limited (DCPPL)",
-    "t": "DVC CIL Power Private Limited (DCPPL) Recruitment 2026 Notification Out for 5 Consultant / Senior Consultant / Advisor / Senior Advisor Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "18 September 2026",
-    "a": "DCPLL/2026/01",
-    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
-    "desc": "DVC CIL Power Private Limited (DCPPL) has officially announced employment advertisement notification DCPLL/2026/01 inviting applications for 5 vacancies for Consultant / Senior Consultant / Advisor / Senior Advisor posts.",
-    "u": "https://www.dvc.gov.in/storage/app/notice_qr/notice_52519c92ae51c9d0ae114226ceff8390614.pdf"
-},
-  {
-    "id": "jammu-and-kashmir-anganwadi-anganwadi-helper-sahayika-recruitment-2026",
-    "b": "Jammu and Kashmir Anganwadi",
-    "t": "Jammu and Kashmir Anganwadi Recruitment 2026 Notification Out for 3 Anganwadi Helper (Sahayika) Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "CDPO/SOP/Estt/2026/538-48",
-    "q": "10th / 8th Pass",
-    "desc": "Jammu and Kashmir Anganwadi has officially announced employment advertisement notification CDPO/SOP/Estt/2026/538-48 inviting applications for 3 vacancies for Anganwadi Helper (Sahayika) posts.",
-    "u": "https://cdn.s3waas.gov.in/s3884d247c6f65a96a7da4d1105d584ddd/uploads/2026/08/17879971123876.pdf"
-},
-  {
     "id": "district-development-commissio-motivator-recruitment-2026",
     "b": "District Development Commissioner Ganderbal",
     "t": "District Development Commissioner Ganderbal Recruitment 2026 Notification Out for 1 Motivator Posts | Apply Online",
@@ -6049,17 +5202,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass",
     "desc": "District Development Commissioner Ganderbal has officially announced employment advertisement notification DISTRICT-DEVEL/2026 inviting applications for 1 vacancies for Motivator posts.",
     "u": "https://cdn.s3waas.gov.in/s3192fc044e74dffea144f9ac5dc9f3395/uploads/2026/09/17889432857213.pdf"
-},
-  {
-    "id": "guru-jambheshwar-university-of-part-time-teacher-recruitment-2026",
-    "b": "Guru Jambheshwar University of Science & Technology (GJUST)",
-    "t": "Guru Jambheshwar University of Science & Technology (GJUST) Recruitment 2026 Notification Out for 33 Part Time Teacher Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "Teachers",
-    "q": "As per UGC/AICTE/RCI/NCAHP for Assistant Professor",
-    "desc": "Guru Jambheshwar University of Science & Technology (GJUST) has officially announced employment advertisement notification Teachers inviting applications for 33 vacancies for Part Time Teacher posts.",
-    "u": "https://gjust.ac.in/portal/upload/Notice-Panel%20of%20Experts-2026-27_03September2026_18-19-24-13.pdf"
 },
   {
     "id": "directorate-of-urban-local-bod-taxation-experts-taxation-asso-recruitment-2026",
@@ -6106,28 +5248,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://msubaroda.ac.in/NotificationDetails?id=10164"
 },
   {
-    "id": "kamdhenu-university-field-assistant-recruitment-2026",
-    "b": "Kamdhenu University",
-    "t": "Kamdhenu University Recruitment 2026 Notification Out for 1 Field Assistant Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "KAMDHENU-UNIVE/2026",
-    "q": "Diploma",
-    "desc": "Kamdhenu University has officially announced employment advertisement notification KAMDHENU-UNIVE/2026 inviting applications for 1 vacancies for Field Assistant posts.",
-    "u": "https://www.kamdhenuuni.edu.in/Content/images/2026/1729.pdf"
-},
-  {
-    "id": "regional-commissioner-of-munic-zonal-manager-uwm-sbm-recruitment-2026",
-    "b": "Regional Commissioner of Municipalities Bhavnagar",
-    "t": "Regional Commissioner of Municipalities Bhavnagar Recruitment 2026 Notification Out for 1 Zonal Manager-UWM (SBM) Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "14 September 2026",
-    "a": "08/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "Regional Commissioner of Municipalities Bhavnagar has officially announced employment advertisement notification 08/2026 inviting applications for 1 vacancies for Zonal Manager-UWM (SBM) posts.",
-    "u": "https://rcmbhavnagar.gujarat.gov.in/Docs/08-2026%20Zonal%20Manager%20(UWM)%20Advertisement.pdf"
-},
-  {
     "id": "directorate-of-lighthouses-and-navigational-assistant-grade-i-recruitment-2026",
     "b": "Directorate of Lighthouses and Lightships (DGLL)",
     "t": "Directorate of Lighthouses and Lightships (DGLL) Recruitment 2026 Notification Out for 2 Navigational Assistant Grade III / Technician (Electronics) Posts | Apply Offline",
@@ -6139,28 +5259,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://dgll.nic.in/sites/default/files/2026-08/doc%20new.pdf"
 },
   {
-    "id": "veer-narmad-south-gujarat-univ-temporary-assistant-professor-recruitment-2026-3067053",
-    "b": "Veer Narmad South Gujarat University (VNSGU)",
-    "t": "Veer Narmad South Gujarat University (VNSGU) Recruitment 2026 Notification Out for 1 Temporary Assistant Professor Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "VEER-NARMAD-SO/2026",
-    "q": "Marketing Management/ General Management",
-    "desc": "Veer Narmad South Gujarat University (VNSGU) has officially announced employment advertisement notification VEER-NARMAD-SO/2026 inviting applications for 1 vacancies for Temporary Assistant Professor posts.",
-    "u": "https://vnsgu.ac.in/uploads/assetlinks/c814a3e8-2017-4b68-98de-7e122a10fd1c.pdf"
-},
-  {
-    "id": "goa-university-junior-research-fellow-recruitment-2026",
-    "b": "Goa University",
-    "t": "Goa University Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "11 September 2026",
-    "a": "GU/DTT/RDRM/19010/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Goa University has officially announced employment advertisement notification GU/DTT/RDRM/19010/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
-    "u": "https://www.unigoa.ac.in"
-},
-  {
     "id": "all-india-institute-of-medical-laboratory-technician-recruitment-2026",
     "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
     "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Laboratory Technician Posts | Apply Online",
@@ -6170,61 +5268,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Pass | Diploma",
     "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Laboratory Technician posts.",
     "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/pharma-8-9-26.pdf"
-},
-  {
-    "id": "zakir-husain-delhi-college-assistant-professor-guest-facu-recruitment-2026",
-    "b": "Zakir Husain Delhi College",
-    "t": "Zakir Husain Delhi College Recruitment 2026 Notification Out for 2 Assistant Professor (Guest Faculty) Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "12 September 2026 (Walk-in)",
-    "a": "ZHDC(E)/2026/Notice/62",
-    "q": "As per UGC Regulations 2018 for Assistant Professor of Colleges",
-    "desc": "Zakir Husain Delhi College has officially announced employment advertisement notification ZHDC(E)/2026/Notice/62 inviting applications for 2 vacancies for Assistant Professor (Guest Faculty) posts.",
-    "u": "https://www.du.ac.in/uploads/uploads/07092026-Notice-Ass-Prof-Guest-Hist-ZHDCE.pdf"
-},
-  {
-    "id": "commission-for-air-quality-man-advisor-media-iec-activities-recruitment-2026",
-    "b": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM)",
-    "t": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM) Recruitment 2026 Notification Out for 1 Advisor (Media & IEC Activities) Posts | Apply Offline",
-    "d": "09 September 2026",
-    "l": "15 September 2026",
-    "a": "A-12011/01/2022-Estt.-Part(1)",
-    "q": "Retired Government servants (Director to the Gol and above) with experie...",
-    "desc": "Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM) has officially announced employment advertisement notification A-12011/01/2022-Estt.-Part(1) inviting applications for 1 vacancies for Advisor (Media & IEC Activities) posts.",
-    "u": "https://caqm.nic.in/FileUploadDomain/WebsiteDocument/Opportunities/Vacancies/81578e25-9484-496f-874a-f34a380cb01b.pdf"
-},
-  {
-    "id": "directorate-of-education-ut-ad-pre-school-teacher-caretakerhe-recruitment-2026",
-    "b": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha)",
-    "t": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha) Recruitment 2026 Notification Out for 74 Pre-School Teacher, Caretaker/Helper (Female) Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "DNH-DD/DOE/SS/ECCE/RECRUITMENT/2026-27/3427",
-    "q": "10th / 8th Pass | Diploma | B.Tech / B.E",
-    "desc": "Directorate of Education, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu (Samagra Shiksha) has officially announced employment advertisement notification DNH-DD/DOE/SS/ECCE/RECRUITMENT/2026-27/3427 inviting applications for 74 vacancies for Pre-School Teacher, Caretaker/Helper (Female) posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/202609091065091729.pdf"
-},
-  {
-    "id": "district-education-office-dant-guest-teacher-english-recruitment-2026",
-    "b": "District Education Office Dantewada",
-    "t": "District Education Office Dantewada Recruitment 2026 Notification Out for 1 Guest Teacher (English) Posts | Walk-in Interview",
-    "d": "09 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "DISTRICT-EDUCA/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "District Education Office Dantewada has officially announced employment advertisement notification DISTRICT-EDUCA/2026 inviting applications for 1 vacancies for Guest Teacher (English) posts.",
-    "u": "https://cdn.s3waas.gov.in/s3556f391937dfd4398cbac35e050a2177/uploads/2026/09/17888653473846.pdf"
-},
-  {
-    "id": "director-general-of-foreign-tr-young-professional-recruitment-2026",
-    "b": "Director General of Foreign Trade (DGFT)",
-    "t": "Director General of Foreign Trade (DGFT) Recruitment 2026 Notification Out for 2 Young Professional Posts | Apply Online",
-    "d": "09 September 2026",
-    "l": "16 September 2026",
-    "a": "DIRECTOR-GENER/2026",
-    "q": "Diploma | B.Tech / B.E | MBA / BBA",
-    "desc": "Director General of Foreign Trade (DGFT) has officially announced employment advertisement notification DIRECTOR-GENER/2026 inviting applications for 2 vacancies for Young Professional posts.",
-    "u": "https://www.dgft.gov.in/"
 },
   {
     "id": "bcpl-non-executive-minimum-essential-educational-recruitment-2026",
@@ -6348,17 +5391,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.aweil.in/download/recruitment/2026/Filling-of-Technical-Posts-on-Contractual-Basis-for-production-at-GSF-en-hi.pdf?v=1.4.89"
 },
   {
-    "id": "bengal-chemicals-pharmaceutica-assistant-hindi-officer-hindi-recruitment-2026",
-    "b": "Bengal Chemicals & Pharmaceuticals",
-    "t": "Bengal Chemicals & Pharmaceuticals Recruitment 2026 Notification Out for 1 Assistant Hindi Officer/ Hindi Officer Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "PER/0106/2026-2027/1) for 1 vacancy",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Bengal Chemicals & Pharmaceuticals has officially announced employment advertisement notification PER/0106/2026-2027/1) for 1 vacancy inviting applications for 1 vacancies for Assistant Hindi Officer/ Hindi Officer posts.",
-    "u": "https://apps.bengalchemicals.co.in/uploads/job-file/NXBYSO8UVA-20260819-075353.pdf"
-},
-  {
     "id": "indian-institute-of-technology-junior-research-fellow-researc-recruitment-2026",
     "b": "Indian Institute of Technology Roorkee",
     "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 3 Junior Research Fellow / Research Associate Posts | Apply Online",
@@ -6368,28 +5400,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Tech / M.E | M.Sc | MCA / BCA",
     "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 3 vacancies for Junior Research Fellow / Research Associate posts.",
     "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ECE/2026/adv060920261.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-laboratory-assistanttechnician-recruitment-2026",
-    "b": "Indian Institute of Technology Roorkee",
-    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Laboratory Assistant/Technician/Technical assistant/Field Assistant Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "Diploma | B.Tech / B.E | B.Sc",
-    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Laboratory Assistant/Technician/Technical assistant/Field Assistant posts.",
-    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/AR/2026/adv060920262.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-project-assistant-recruitment-2026-3066756",
-    "b": "Indian Institute of Technology, Roorkee",
-    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 2 Project Assistant Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "MBA / BBA | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Project Assistant posts.",
-    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/SRIC/2026/adv07092026.pdf"
 },
   {
     "id": "aryabhatta-research-institute-project-associate-ii-recruitment-2026",
@@ -6436,17 +5446,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://upsssc.gov.in/AllNotifications.aspx"
 },
   {
-    "id": "indian-institute-of-technology-research-associate-recruitment-2026-3066722",
-    "b": "Indian Institute of Technology (BHU), Varanasi",
-    "t": "Indian Institute of Technology (BHU), Varanasi Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "11 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | MBBS / Medical PG",
-    "desc": "Indian Institute of Technology (BHU), Varanasi has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Research Associate posts.",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeje9gyJxCt62I3xoIFvq98m0nDFNvrO-Z1JQSJHtZFZr0nbQ/viewform?usp=publish-editor"
-},
-  {
     "id": "csir-national-botanical-resear-project-associate-i-project-as-recruitment-2026",
     "b": "CSIR National Botanical Research Institute",
     "t": "CSIR National Botanical Research Institute Recruitment 2026 Notification Out for 7 Project Associate I, Project Associate II, Project Assistant II Posts | Walk-in Interview",
@@ -6467,17 +5466,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Retired employee from Civil Court/Collectorate/Court",
     "desc": "District Legal Services Authority Bijnor has officially announced employment advertisement notification DLSA-Bijnor/2026 inviting applications for 1 vacancies for Peon posts.",
     "u": "https://www.allahabadhighcourt.in/event/event_26777_07-09-2026.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-assistant-project-manager-recruitment-2026",
-    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
-    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Assistant Project Manager Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "P/Rect./R&D/2026/169",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P/Rect./R&D/2026/169 inviting applications for 1 vacancies for Assistant Project Manager posts.",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLScDk8ckNJh_0EHOaEkRg1zSaI29hR4hnqzFW4Kk_hfJ2g9SlQ/viewform"
 },
   {
     "id": "national-institute-of-animal-b-senior-research-fellow-senior-recruitment-2026",
@@ -6524,50 +5512,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s37eacb532570ff6858afd2723755ff790/uploads/2026/09/17888648455373.pdf"
 },
   {
-    "id": "sikkim-university-research-assistant-and-field-i-recruitment-2026",
-    "b": "Sikkim University",
-    "t": "Sikkim University Recruitment 2026 Notification Out for 5 Research Assistant and Field Investigator Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026 (Walk-in)",
-    "a": "SIKKIM-UNIVERS/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Sikkim University has officially announced employment advertisement notification SIKKIM-UNIVERS/2026 inviting applications for 5 vacancies for Research Assistant and Field Investigator posts.",
-    "u": "https://cus.ac.in/images/content/dynamic/noti/2026/Sept/Website%2C%20Project%20Recruitment%20Advertisement%20Final.pdf"
-},
-  {
-    "id": "birla-institute-of-technology-project-assistant-recruitment-2026",
-    "b": "Birla Institute of Technology and Science Pilani (BITS Pilani)",
-    "t": "Birla Institute of Technology and Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "BIRLA-INSTITUT/2026",
-    "q": "B.Sc | Any Bachelor's Degree",
-    "desc": "Birla Institute of Technology and Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Project Assistant posts.",
-    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Project_Assistant-Ad-Sandhya-Marathe-ANRF-Project-ADV-7-9-2026.pdf"
-},
-  {
-    "id": "indira-gandhi-national-centre-private-secretary-to-regional-recruitment-2026",
-    "b": "Indira Gandhi National Centre for the Arts (IGNCA)",
-    "t": "Indira Gandhi National Centre for the Arts (IGNCA) Recruitment 2026 Notification Out for 2 Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "INDIRA-GANDHI-/2026",
-    "q": "Any Bachelor's Degree",
-    "desc": "Indira Gandhi National Centre for the Arts (IGNCA) has officially announced employment advertisement notification INDIRA-GANDHI-/2026 inviting applications for 2 vacancies for Private Secretary to Regional Director, Accounts Officer/ Project Assistant (Accounts) posts.",
-    "u": "https://ignca.gov.in/vaccancy/01092026-Adv-RC-Puducherry.pdf"
-},
-  {
-    "id": "jawaharlal-institute-of-postgr-project-nurse-ii-recruitment-2026",
-    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
-    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 Notification Out for 1 Project Nurse-II Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "JIP/MED/CHANGING/Staff/2026/1",
-    "q": "B.Sc | Nursing (GNM / B.Sc)",
-    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially announced employment advertisement notification JIP/MED/CHANGING/Staff/2026/1 inviting applications for 1 vacancies for Project Nurse-II posts.",
-    "u": "https://docs.google.com/forms/d/e/1FAIpQLScn6pHWP_dk7KMsmjNyI2ljrPrJc2SNkSHEmKH1aAumgKE7-Q/viewform"
-},
-  {
     "id": "women-and-child-development-de-anganwadi-helper-recruitment-2026-3066686",
     "b": "Women and Child Development Department Odisha",
     "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 8 Anganwadi Helper Posts | Apply Online",
@@ -6577,39 +5521,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass",
     "desc": "Women and Child Development Department Odisha has officially announced employment advertisement notification WCD-ICDS-G-MISC-0033-2022 4970/WCD inviting applications for 8 vacancies for Anganwadi Helper posts.",
     "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
-},
-  {
-    "id": "nabard-financial-services-nabf-customer-service-officer-cso-recruitment-2026",
-    "b": "NABARD Financial Services (NABFINS)",
-    "t": "NABARD Financial Services (NABFINS) Recruitment 2026 Notification Out for 1 Customer Service Officer (CSO) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "12 September 2026",
-    "a": "Nabhins/OPS/1069",
-    "q": "12th Pass",
-    "desc": "NABARD Financial Services (NABFINS) has officially announced employment advertisement notification Nabhins/OPS/1069 inviting applications for 1 vacancies for Customer Service Officer (CSO) posts.",
-    "u": "https://nabfins.org/Careers/form.php?id=1069"
-},
-  {
-    "id": "women-and-child-development-de-anganwadi-helper-recruitment-2026",
-    "b": "Women and Child Development Department Odisha (WCD Odisha)",
-    "t": "Women and Child Development Department Odisha (WCD Odisha) Recruitment 2026 Notification Out for 1 Anganwadi Helper Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "WOMEN-AND-CHIL/2026",
-    "q": "M.Tech / M.E",
-    "desc": "Women and Child Development Department Odisha (WCD Odisha) has officially announced employment advertisement notification WOMEN-AND-CHIL/2026 inviting applications for 1 vacancies for Anganwadi Helper posts.",
-    "u": "https://engagement-awc.odisha.gov.in/wcdUserlogin"
-},
-  {
-    "id": "all-india-institute-of-medical-research-assistant-and-laborat-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Bhubaneswar",
-    "t": "All India Institute of Medical Sciences Bhubaneswar Recruitment 2026 Notification Out for 8 Research Assistant and Laboratory Technician Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "12 September 2026",
-    "a": "AIIMS/BBSR/CM&FM/RIHSE/NACO/117/",
-    "q": "12th Pass | B.Sc | Nursing (GNM / B.Sc)",
-    "desc": "All India Institute of Medical Sciences Bhubaneswar has officially announced employment advertisement notification AIIMS/BBSR/CM&FM/RIHSE/NACO/117/ inviting applications for 8 vacancies for Research Assistant and Laboratory Technician posts.",
-    "u": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/09/cmfm-2.pdf"
 },
   {
     "id": "utkarsh-government-iti-balangi-guest-instructor-recruitment-2026",
@@ -6632,17 +5543,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Maharashtra Public Service Commission (MPSC) has officially announced employment advertisement notification 011/2026 inviting applications for 2 vacancies for Assistant Language Director (Translation and Terminology) posts.",
     "u": "https://mpsc.gov.in"
-},
-  {
-    "id": "zilla-parishad-dhule-legal-officer-contractual-recruitment-2026",
-    "b": "Zilla Parishad Dhule",
-    "t": "Zilla Parishad Dhule Recruitment 2026 Notification Out for 1 Legal Officer (Contractual) Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "11 September 2026",
-    "a": "J.No.S.P.R./Judge/Pro.No.2/248/2026",
-    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
-    "desc": "Zilla Parishad Dhule has officially announced employment advertisement notification J.No.S.P.R./Judge/Pro.No.2/248/2026 inviting applications for 1 vacancies for Legal Officer (Contractual) posts.",
-    "u": "https://cdn.s3waas.gov.in/s3a86c450b76fb8c371afead6410d55534/uploads/2026/08/17872883268804.pdf"
 },
   {
     "id": "indian-institute-of-banking-an-chief-technology-officer-recruitment-2026",
@@ -6744,28 +5644,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__39eddb2b-4ef7-4e23-966e-ee55610ad2f0_.pdf"
 },
   {
-    "id": "kerala-university-of-digital-s-gym-trainer-recruitment-2026",
-    "b": "Kerala University of Digital Sciences Innovation and Technology",
-    "t": "Kerala University of Digital Sciences Innovation and Technology Recruitment 2026 Notification Out for 1 Gym Trainer Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "KUDGIT/518/AD A IV/2024) for 1 vacancy",
-    "q": "Certified personal trainer from a recognized institution in India",
-    "desc": "Kerala University of Digital Sciences Innovation and Technology has officially announced employment advertisement notification KUDGIT/518/AD A IV/2024) for 1 vacancy inviting applications for 1 vacancies for Gym Trainer posts.",
-    "u": "https://duk.ac.in/careers/apply/"
-},
-  {
-    "id": "national-ayurveda-research-ins-consultant-pathologist-recruitment-2026",
-    "b": "National Ayurveda Research Institute for Panchakarma (NARIP)",
-    "t": "National Ayurveda Research Institute for Panchakarma (NARIP) Recruitment 2026 Notification Out for 1 Consultant (Pathologist) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "NATIONAL-AYURV/2026",
-    "q": "MBBS / Medical PG | Ph.D / Doctorate",
-    "desc": "National Ayurveda Research Institute for Panchakarma (NARIP) has officially announced employment advertisement notification NATIONAL-AYURV/2026 inviting applications for 1 vacancies for Consultant (Pathologist) posts.",
-    "u": "https://ccras.nic.in/wp-content/uploads/2026/09/07092026-Narip-Cheruthuruthy.pdf"
-},
-  {
     "id": "national-institute-of-mental-h-yoga-therapist-and-junior-rese-recruitment-2026",
     "b": "National Institute of Mental Health and Neuro Sciences (NIMHANS)",
     "t": "National Institute of Mental Health and Neuro Sciences (NIMHANS) Recruitment 2026 Notification Out for 3 Yoga Therapist and Junior Research Fellow Posts | Walk-in Interview",
@@ -6788,17 +5666,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://yadgir.dcourts.gov.in/online-recruitment/"
 },
   {
-    "id": "national-centre-for-biological-facility-assistant-em-recruitment-2026",
-    "b": "National Centre for Biological Sciences (NCBS)",
-    "t": "National Centre for Biological Sciences (NCBS) Recruitment 2026 Notification Out for 1 Facility Assistant (EM) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "11/2026",
-    "q": "Master's / PG Degree",
-    "desc": "National Centre for Biological Sciences (NCBS) has officially announced employment advertisement notification 11/2026 inviting applications for 1 vacancies for Facility Assistant (EM) posts.",
-    "u": "https://www.ncbs.res.in/jobportal/node/add/application/146420"
-},
-  {
     "id": "national-forensic-sciences-uni-assistant-professor-recruitment-2026",
     "b": "National Forensic Sciences University Dharwad",
     "t": "National Forensic Sciences University Dharwad Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Apply Online",
@@ -6808,17 +5675,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Tech / M.E | M.Sc | MCA / BCA",
     "desc": "National Forensic Sciences University Dharwad has officially announced employment advertisement notification FN206/NFSU/DHARWAD/ADM/REC/CF/2026-27/2 inviting applications for 2 vacancies for Assistant Professor posts.",
     "u": "https://docs.google.com/forms/d/e/1FAIpQLSd6dLsov9tJ1J3qrZH6wwU6-9Ed0KE8_yFy7RoD0mLqe6jEsA/viewform"
-},
-  {
-    "id": "jharkhand-rural-health-mission-9-accounts-management-position-recruitment-2026",
-    "b": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand",
-    "t": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand Recruitment 2026 Notification Out for 51 9 Accounts & Management positions at State, District, and Block level Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "13 September 2026 (11:59 PM)",
-    "a": "JHARKHAND-RURA/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Jharkhand Rural Health Mission Society, National Health Mission (NHM), Department of Health, Medical Education & Family Welfare, Government of Jharkhand has officially announced employment advertisement notification JHARKHAND-RURA/2026 inviting applications for 51 vacancies for 9 Accounts & Management positions at State, District, and Block level posts.",
-    "u": "https://recruitment.jharkhand.gov.in/"
 },
   {
     "id": "indian-institute-of-technology-junior-research-fellow-jrf-and-recruitment-2026",
@@ -6832,28 +5688,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://apply.iitjammu.ac.in/#/home"
 },
   {
-    "id": "indian-institute-of-technology-research-assistant-recruitment-2026",
-    "b": "Indian Institute of Technology Jammu",
-    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 2 Research Assistant Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "IITJMU/RC/RP-100330/DRDL/A-46",
-    "q": "M.Tech / M.E | M.Sc | Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Jammu has officially announced employment advertisement notification IITJMU/RC/RP-100330/DRDL/A-46 inviting applications for 2 vacancies for Research Assistant posts.",
-    "u": "https://apply.iitjammu.ac.in/#/home"
-},
-  {
-    "id": "baba-ghulam-shah-badshah-unive-junior-research-assistant-recruitment-2026",
-    "b": "Baba Ghulam Shah Badshah University",
-    "t": "Baba Ghulam Shah Badshah University Recruitment 2026 Notification Out for 1 Junior Research Assistant Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "BABA-GHULAM-SH/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "Baba Ghulam Shah Badshah University has officially announced employment advertisement notification BABA-GHULAM-SH/2026 inviting applications for 1 vacancies for Junior Research Assistant posts.",
-    "u": "https://www.bgsbu.ac.in/api/files/32953/view"
-},
-  {
     "id": "bric-translational-health-scie-sib-biodesign-fellow-recruitment-2026",
     "b": "BRIC Translational Health Science and Technology Institute (THSTI)",
     "t": "BRIC Translational Health Science and Technology Institute (THSTI) Recruitment 2026 Notification Out for 4 SIB (Biodesign) Fellow Posts | Apply Online",
@@ -6863,17 +5697,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
     "desc": "BRIC Translational Health Science and Technology Institute (THSTI) has officially announced employment advertisement notification BRIC-TRANSLATI/2026 inviting applications for 4 vacancies for SIB (Biodesign) Fellow posts.",
     "u": "https://recruitment.thsti.in/public/upload/job_pdf/178834600847web-advt-RN-15-26.pdf"
-},
-  {
-    "id": "international-advanced-researc-senior-manager-manager-technic-recruitment-2026",
-    "b": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
-    "t": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) Recruitment 2026 Notification Out for 7 Senior Manager, Manager, Technical Coordinator Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "ARCI/HRD/MCC/RECT/1/2026",
-    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
-    "desc": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) has officially announced employment advertisement notification ARCI/HRD/MCC/RECT/1/2026 inviting applications for 7 vacancies for Senior Manager, Manager, Technical Coordinator posts.",
-    "u": "https://arci.res.in/careers/vacancies"
 },
   {
     "id": "indian-institute-of-technology-project-manager-recruitment-2026",
@@ -6887,17 +5710,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
 },
   {
-    "id": "indian-institute-of-technology-project-assistant-i-recruitment-2026",
-    "b": "Indian Institute of Technology Gandhinagar",
-    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Project Assistant I Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "OTH/ 12286/ Adv0312",
-    "q": "10th / 8th Pass | 12th Pass | B.Tech / B.E",
-    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification OTH/ 12286/ Adv0312 inviting applications for 1 vacancies for Project Assistant I posts.",
-    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
-},
-  {
     "id": "district-legal-services-author-legal-aid-panel-lawyer-recruitment-2026",
     "b": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad)",
     "t": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad) Recruitment 2026 Notification Out for 1 Legal Aid Panel Lawyer Posts | Apply Offline",
@@ -6907,17 +5719,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
     "desc": "District Legal Services Authority Ahmedabad (DLSA Ahmedabad) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Legal Aid Panel Lawyer posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec011aa057313c28fa4a40c5bc084b11/uploads/2026/09/2026090516.pdf"
-},
-  {
-    "id": "birla-institute-of-technology-jr-officer-recruitment-2026",
-    "b": "Birla Institute of Technology & Science Pilani (BITS Pilani)",
-    "t": "Birla Institute of Technology & Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Jr. Officer Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "12 September 2026",
-    "a": "BIRLA-INSTITUT/2026",
-    "q": "M.Com",
-    "desc": "Birla Institute of Technology & Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Jr. Officer posts.",
-    "u": "https://www.bits-pilani.ac.in/careers/jr-officer-accounts-gcir/"
 },
   {
     "id": "army-college-of-medical-scienc-administrative-staff-recruitment-2026",
@@ -6986,17 +5787,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.nii.res.in/sites/default/files/announcement/events/PTS-III%20%26%20I%20%28ICMR%20Sep%2026%29%20.pdf"
 },
   {
-    "id": "indian-institute-of-technology-project-scientist-recruitment-2026-3066818",
-    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
-    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Project Scientist Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "IITD/IRD/238/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IITD/IRD/238/2026 inviting applications for 1 vacancies for Project Scientist posts.",
-    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1788775274753_xtsihms.pdf"
-},
-  {
     "id": "becil-technical-assistant-ent-emt-te-recruitment-2026",
     "b": "BECIL",
     "t": "BECIL Recruitment 2026 Notification Out for 41 Technical Assistant ENT, EMT Technician, Patient Care Manager, Lab Attendant, Dental Technician, Food Bearer, OT Technologist, Jr. Physiotherapist, Pharmacist, Radiographer Posts | Apply Online",
@@ -7019,17 +5809,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.eil.co.in/"
 },
   {
-    "id": "all-india-institute-of-medical-project-coordinator-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
-    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Coordinator Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
-    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Coordinator posts.",
-    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/set%20fac.-8-9-26.pdf"
-},
-  {
     "id": "directorate-of-education-lecturer-recruitment-2026",
     "b": "Directorate of Education",
     "t": "Directorate of Education Recruitment 2026 Notification Out for 2 Lecturer Posts | Apply Offline",
@@ -7039,39 +5818,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Directorate of Education has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 2 vacancies for Lecturer posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/09/20260901202969884.pdf"
-},
-  {
-    "id": "government-higher-secondary-sc-high-class-teacher-subject-exp-recruitment-2026",
-    "b": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar",
-    "t": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar Recruitment 2026 Notification Out for 11 High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part-time Music Teacher Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "719 / Stha",
-    "q": "12th Pass | ITI | Diploma",
-    "desc": "Government Higher Secondary School for the Visually and Hearing Impaired Bastar has officially announced employment advertisement notification 719 / Stha inviting applications for 11 vacancies for High Class Teacher / Subject Expert / Integrated Teacher / Computer Instructor / Vocational Sewing Instructor / Part-time Music Teacher posts.",
-    "u": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/09/17887794511007.pdf"
-},
-  {
-    "id": "indira-gandhi-institute-of-med-senior-resident-recruitment-2026",
-    "b": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS)",
-    "t": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS) Recruitment 2026 Notification Out for 10 Senior Resident Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "12 September 2026 (Walk-in)",
-    "a": "04/RIO/2026",
-    "q": "MBBS / Medical PG",
-    "desc": "Indira Gandhi Institute of Medical Sciences Patna (IGIMS) has officially announced employment advertisement notification 04/RIO/2026 inviting applications for 10 vacancies for Senior Resident posts.",
-    "u": "https://www.igims.org/resources/uploads/TenderManagement/178876470221.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-associate-project-engineer-ass-recruitment-2026",
-    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
-    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 2 Associate Project Engineer / Associate Project Scientist Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "IITG/I&S1/Project Staff Rectt-2026/146",
-    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
-    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification IITG/I&S1/Project Staff Rectt-2026/146 inviting applications for 2 vacancies for Associate Project Engineer / Associate Project Scientist posts.",
-    "u": "https://www.iitg.ac.in/"
 },
   {
     "id": "sri-sri-aniruddhadeva-sports-u-professor-in-sports-management-recruitment-2026",
@@ -7105,17 +5851,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Standard Pass (Intermediate) or equivalent from a recognized Board (Science with Maths for specific DEO posts)",
     "desc": "Staff Selection Commission (SSC), Department of Personnel and Training (DoP&T), Government of India has officially announced the Combined Higher Secondary (10+2) Level Examination, 2026 (Advt No: F. No. HQ-C1102/5/2026-C-1) on 07 September 2026, inviting online applications for approximately 2,536 tentative vacancies across Ministries, Departments, Constitutional Bodies, and Tribunals.",
     "u": "https://ssc.gov.in/login"
-},
-  {
-    "id": "district-women-and-child-welfa-security-guard-case-workers-an-recruitment-2026",
-    "b": "District Women and Child Welfare and Empowerment Chittoor",
-    "t": "District Women and Child Welfare and Empowerment Chittoor Recruitment 2026 Notification Out for 12 Security Guard, Case Workers and More Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "RcNo.02/A2/OSC/KPM/2026",
-    "q": "Diploma | Law (LL.B / LL.M) | Any Bachelor's Degree",
-    "desc": "District Women and Child Welfare and Empowerment Chittoor has officially announced employment advertisement notification RcNo.02/A2/OSC/KPM/2026 inviting applications for 12 vacancies for Security Guard, Case Workers and More posts.",
-    "u": "https://cdn.s3waas.gov.in/s333e75ff09dd601bbe69f351039152189/uploads/2026/09/17886047128190.pdf"
 },
   {
     "id": "railway-recruitment-boards-rrb-rrb-paramedical-recruitment-20-recruitment-2026",
@@ -7173,17 +5908,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.easterncoalfields.in/storage/media/notice/1788763781_notice_fl_en.pdf"
 },
   {
-    "id": "indian-institute-of-technology-roor-project-associate-recruitment-2026",
-    "b": "Indian Institute of Technology Roorkee",
-    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 Project Associate Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "B.Tech / B.E | Master's / PG Degree",
-    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Project Associate posts.",
-    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv010920265.pdf"
-},
-  {
     "id": "all-india-institute-of-medical-scie-project-research-scientist-i-non-me-recruitment-2026",
     "b": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur)",
     "t": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-Medical) Posts | Apply Online",
@@ -7204,28 +5928,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | B.Sc",
     "desc": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) has officially released employment advertisement notification IGRUA/ ADVT/ 29/ 2026 for the recruitment of 1 vacancies for Simulator Engineer I posts.",
     "u": "https://igrua.gov.in/sites/default/files/QR%20SE.pdf"
-},
-  {
-    "id": "central-electronics-cel-deputy-engineer-on-contract-basis-recruitment-2026",
-    "b": "Central Electronics (CEL)",
-    "t": "Central Electronics (CEL) Recruitment 2026 Notification Out for 8 Deputy Engineer on Contract Basis Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "120/Pers/3/2026",
-    "q": "B.Tech / B.E | MBA / BBA",
-    "desc": "Central Electronics (CEL) has officially released employment advertisement notification 120/Pers/3/2026 for the recruitment of 8 vacancies for Deputy Engineer on Contract Basis posts.",
-    "u": "https://www.celindia.co.in"
-},
-  {
-    "id": "motilal-nehru-national-institute-of-jrfpa-iira-i-recruitment-2026",
-    "b": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad)",
-    "t": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) Recruitment 2026 Notification Out for 4 JRF/PA-II/RA-I Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "16 September 2026",
-    "a": "560/AMD/Project Staff/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
-    "desc": "Motilal Nehru National Institute of Technology Allahabad (MNNIT Allahabad) has officially released employment advertisement notification 560/AMD/Project Staff/2026 for the recruitment of 4 vacancies for JRF/PA-II/RA-I posts.",
-    "u": "https://mnnit.ac.in/images/newstories/2026/Project_Project/JRF_PA_RA_Advertisement.pdf"
 },
   {
     "id": "uttar-pradesh-gramin-bank-upgb-financial-literacy-counselor-recruitment-2026",
@@ -7270,17 +5972,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | M.Sc | MCA / BCA",
     "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially released employment advertisement notification RGNAU/5139/04/ADMIN/520 for the recruitment of 3 vacancies for Non-Teaching Technical Personnel in IT/CIC Areas posts.",
     "u": "https://rgnau.ac.in/sites/default/files/inline-files/Engagement%20of%20Contractual%20Positions%20in%20IT%20%26%20CIC%20Areas-03.09.2026.pdf"
-},
-  {
-    "id": "aligarh-muslim-university-amu-assistant-engineer-civil-recruitment-2026",
-    "b": "Aligarh Muslim University (AMU)",
-    "t": "Aligarh Muslim University (AMU) Recruitment 2026 Notification Out for 6 Assistant Engineer (Civil) Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "ALIGARH-MUSLIM/2026",
-    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Aligarh Muslim University (AMU) has officially released employment advertisement notification ALIGARH-MUSLIM/2026 for the recruitment of 6 vacancies for Assistant Engineer (Civil) posts.",
-    "u": "https://api.amu.ac.in/storage/file/10350/jobs/1788607034.pdf"
 },
   {
     "id": "district-legal-services-authority-m-junior-assistant-and-typist-cum-ass-recruitment-2026",
@@ -7338,28 +6029,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://careers.bhel.in/static/PTMC%20Advt.-%20English_PSSR_092026.pdf"
 },
   {
-    "id": "department-of-economics-and-statist-office-assistant-recruitment-2026",
-    "b": "Department of Economics and Statistics Chennai (DES Chennai)",
-    "t": "Department of Economics and Statistics Chennai (DES Chennai) Recruitment 2026 Notification Out for 1 Office Assistant Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "01/2026",
-    "q": "10th / 8th Pass",
-    "desc": "Department of Economics and Statistics Chennai (DES Chennai) has officially released employment advertisement notification 01/2026 for the recruitment of 1 vacancies for Office Assistant posts.",
-    "u": "https://cdn.s3waas.gov.in/s313f3cf8c531952d72e5847c4183e6910/uploads/2026/09/17884179192756.pdf"
-},
-  {
-    "id": "district-health-society-coimbatore-microbiologist-and-driver-recruitment-2026",
-    "b": "District Health Society Coimbatore",
-    "t": "District Health Society Coimbatore Recruitment 2026 Notification Out for 2 Microbiologist and Driver Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "DISTRICT-HEALT/2026",
-    "q": "M.Sc | MBBS / Medical PG | Ph.D / Doctorate",
-    "desc": "District Health Society Coimbatore has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for Microbiologist and Driver posts.",
-    "u": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2026/09/17883419054897.pdf"
-},
-  {
     "id": "rural-development-and-panchayat-dep-record-clerk-recruitment-2026",
     "b": "Rural Development and Panchayat Department Thiruvarur",
     "t": "Rural Development and Panchayat Department Thiruvarur Recruitment 2026 Notification Out for 1 Record Clerk Posts | Apply Offline",
@@ -7371,17 +6040,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s3e46de7e1bcaaced9a54f1e9d0d2f800d/uploads/2026/08/17878077174830.pdf"
 },
   {
-    "id": "the-institute-of-mathematical-scien-project-associate-i-research-associ-recruitment-2026",
-    "b": "The Institute of Mathematical Sciences (IMSc)",
-    "t": "The Institute of Mathematical Sciences (IMSc) Recruitment 2026 Notification Out for 3 Project Associate - I, Research Associate - I, Project Technical Assistant [Level-II] Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "16 September 2026",
-    "a": "03-R/IMSc/2026",
-    "q": "Diploma | B.Tech / B.E | Ph.D / Doctorate",
-    "desc": "The Institute of Mathematical Sciences (IMSc) has officially released employment advertisement notification 03-R/IMSc/2026 for the recruitment of 3 vacancies for Project Associate - I, Research Associate - I, Project Technical Assistant [Level-II] posts.",
-    "u": "https://www.imsc.res.in/~office/jobs/2026/Advt_03_R_02092026/Advt_03-R_02092026"
-},
-  {
     "id": "uiic-ao-administrative-officer-scale-i-gene-recruitment-2026",
     "b": "United India Insurance Company Limited (UIIC)",
     "t": "UIIC AO Recruitment 2026: Apply Online for 225 Administrative Officer (Scale-I) Posts (Generalists & Hindi Officers)",
@@ -7391,50 +6049,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor's / Master's Degree in any discipline (min 60% marks, 55% for SC/ST/PwBD)",
     "desc": "United India Insurance Company Limited (UIIC), a premier wholly-owned Government of India Public Sector General Insurance Company headquartered in Chennai, has officially announced employment notification Ref: HO:HRM:REC:AO:1:2026 (dated 07 September 2026) for open market recruitment of 225 Administrative Officers (Scale-I) in Generalists and Hindi Officer disciplines.",
     "u": "https://uiic.co.in"
-},
-  {
-    "id": "all-india-institute-of-medical-scie-finance-administrative-officer-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
-    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Finance & Administrative Officer Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "12 September 2026 (Walk-in)",
-    "a": "251) for 1 vacancy",
-    "q": "B.Sc | MCA / BCA | Master's / PG Degree",
-    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification 251) for 1 vacancy for the recruitment of 1 vacancies for Finance & Administrative Officer posts.",
-    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788759334_Advertsiement%20Notice%20Finance%20Administrative%20Officer-070926.pdf"
-},
-  {
-    "id": "all-india-institute-of-medical-scie-research-assistant-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
-    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "1298AIIMS/JDH/COE/2026",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially released employment advertisement notification 1298AIIMS/JDH/COE/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
-    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1788759675_R.A.%20recruitment%2007-09-2026.pdf"
-},
-  {
-    "id": "baroda-swarojgar-vikas-sansthan-attender-recruitment-2026",
-    "b": "Baroda Swarojgar Vikas Sansthan",
-    "t": "Baroda Swarojgar Vikas Sansthan Recruitment 2026 Notification Out for 1 Attender Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "BARODA-SWAROJG/2026",
-    "q": "10th / 8th Pass",
-    "desc": "Baroda Swarojgar Vikas Sansthan has officially released employment advertisement notification BARODA-SWAROJG/2026 for the recruitment of 1 vacancies for Attender posts.",
-    "u": "https://bankofbaroda.bank.in/-/media/Project/BOB/CountryWebsites/India/Career/2026/26-09/Annexure-A-01-24.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-ropa-junior-research-fellow-jrf-senior-r-recruitment-2026",
-    "b": "Indian Institute of Technology Ropar (IIT Ropar)",
-    "t": "Indian Institute of Technology Ropar (IIT Ropar) Recruitment 2026 Notification Out for 7 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "M.Tech / M.E",
-    "desc": "Indian Institute of Technology Ropar (IIT Ropar) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 7 vacancies for Junior Research Fellow (JRF) / Senior Research Fellow (SRF) posts.",
-    "u": "https://www.iitrpr.ac.in/api/v2/files/download/202"
 },
   {
     "id": "national-institute-of-secondary-ste-technical-manager-technical-assista-recruitment-2026",
@@ -7459,28 +6073,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cuprec.samarth.edu.in/"
 },
   {
-    "id": "women-and-child-development-departm-anganwadi-worker-recruitment-2026",
-    "b": "Women and Child Development Department Odisha",
-    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 5 Anganwadi Worker Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "16 September 2026",
-    "a": "WOMEN-AND-CHIL/2026",
-    "q": "10th / 8th Pass | Any Bachelor's Degree",
-    "desc": "Women and Child Development Department Odisha has officially released employment advertisement notification WOMEN-AND-CHIL/2026 for the recruitment of 5 vacancies for Anganwadi Worker posts.",
-    "u": "https://engagement-awc.odisha.gov.in/download-aww-event-document?awwEventHistoryId=171381"
-},
-  {
-    "id": "agharkar-research-institute-pune-ar-junior-research-fellow-recruitment-2026",
-    "b": "Agharkar Research Institute Pune (ARI Pune)",
-    "t": "Agharkar Research Institute Pune (ARI Pune) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "ADVT/RecT/ANRF/13/SP-363/2026-27",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Agharkar Research Institute Pune (ARI Pune) has officially released employment advertisement notification ADVT/RecT/ANRF/13/SP-363/2026-27 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
-    "u": "https://aripune.res.in/wp-content/uploads/2026/09/AdvTRecT_13-SP-363_JRF-2026-27-Final.pdf/wp-content/uploads/2026/09/AdvTRecT_13-SP-363_JRF-2026-27-Final.pdf"
-},
-  {
     "id": "state-bank-of-india-sbi-group-ciso-chief-information-securi-recruitment-2026",
     "b": "State Bank of India (SBI)",
     "t": "State Bank of India (SBI) Recruitment 2026 Notification Out for 1 Group CISO (Chief Information Security Officer) Posts | Apply Online",
@@ -7490,17 +6082,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "State Bank of India (SBI) has officially released employment advertisement notification CRPD/SCO/2026-27/21 for the recruitment of 1 vacancies for Group CISO (Chief Information Security Officer) posts.",
     "u": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853"
-},
-  {
-    "id": "visvesvaraya-national-institute-of-training-and-placement-manager-recruitment-2026",
-    "b": "Visvesvaraya National Institute of Technology (VNIT)",
-    "t": "Visvesvaraya National Institute of Technology (VNIT) Recruitment 2026 Notification Out for 1 Training and Placement Manager Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "16 September 2026",
-    "a": "VISVESVARAYA-N/2026",
-    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
-    "desc": "Visvesvaraya National Institute of Technology (VNIT) has officially released employment advertisement notification VISVESVARAYA-N/2026 for the recruitment of 1 vacancies for Training and Placement Manager posts.",
-    "u": "https://drive.google.com/file/d/1ED7UK_eaE4fbYp_ztLc8TMdSyixWMe_4/view"
 },
   {
     "id": "maharashtra-metro-rail-corporation-mts-junior-engineer-and-more-recruitment-2026",
@@ -7547,17 +6128,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/SAIL-CFP_News%20&%20Jobs_03092026_124046.pdf"
 },
   {
-    "id": "pune-municipal-corporation-pmc-pune-veterinary-officer-technical-assist-recruitment-2026",
-    "b": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika",
-    "t": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika Recruitment 2026 Notification Out for 7 Veterinary Officer, Technical Assistant and More Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "PUNE-MUNICIPAL/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Pune Municipal Corporation (PMC)/ Pune Mahanagarpalika has officially released employment advertisement notification PUNE-MUNICIPAL/2026 for the recruitment of 7 vacancies for Veterinary Officer, Technical Assistant and More posts.",
-    "u": "https://webadmin.pmc.gov.in/sites/default/files/2026-08/MSU%20Advertisement.pdf"
-},
-  {
     "id": "aai-apprentice-graduate-apprentice-diploma-apprent-recruitment-2026",
     "b": "AAI Apprentice",
     "t": "AAI Apprentice Recruitment 2026 Notification Out for 1 Graduate Apprentice & Diploma Apprentice Posts | Apply Online",
@@ -7567,17 +6137,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "AAI Apprentice has officially released employment advertisement notification 01/2026/APPRENTICE (Graduate/Diploma)/Nagpur for the recruitment of 1 vacancies for Graduate Apprentice & Diploma Apprentice posts.",
     "u": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/BOAT%20ADVERTISEMENT%202026%20-%2027.pdf"
-},
-  {
-    "id": "tata-memorial-hospital-tmc-project-assistant-admin-recruitment-2026",
-    "b": "Tata Memorial Hospital (TMC)",
-    "t": "Tata Memorial Hospital (TMC) Recruitment 2026 Notification Out for 1 Project Assistant (Admin) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "17 September 2026",
-    "a": "TMC/AD/158/2026",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree",
-    "desc": "Tata Memorial Hospital (TMC) has officially released employment advertisement notification TMC/AD/158/2026 for the recruitment of 1 vacancies for Project Assistant (Admin) posts.",
-    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=5KBxtz8yAQyhWXxP1ZeH9Q=="
 },
   {
     "id": "kerala-high-court-registrar-protocol-security-control-recruitment-2026",
@@ -7591,28 +6150,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://hckrecruitment.keralacourts.in/hckrecruitment/Recruitment/notifications"
 },
   {
-    "id": "directorate-of-tourism-government-o-green-marshal-recruitment-2026",
-    "b": "Directorate of Tourism, Government of Kerala (CMD)",
-    "t": "Kerala Tourism Recruitment 2026: Apply Online for 162 Green Marshal Posts (Advt CMD/DoT/01/2026)",
-    "d": "05 September 2026",
-    "l": "11 September 2026",
-    "a": "CMD/DoT/01/2026",
-    "q": "SSLC Pass (Class 10th Pass) or equivalent",
-    "desc": "The Directorate of Tourism, Government of Kerala, in coordination with the Centre for Management Development (CMD), Thiruvananthapuram, has issued official recruitment notification No. CMD/DoT/01/2026 (dated 05 September 2026) for the engagement of 162 Green Marshals on a daily wage basis for a period of one year. Green Marshals will be deployed across designated tourist destinations and eco-tourism sites throughout all 14 districts of Kerala to enforce sustainable tourism practices and the state's Green Protocol in coordination with District Tourism Promotion Councils (DTPCs).",
-    "u": "https://www.cmd.kerala.gov.in"
-},
-  {
-    "id": "district-court-thalassery-court-attender-recruitment-2026",
-    "b": "District Court Thalassery",
-    "t": "District Court Thalassery Recruitment 2026 Notification Out for 2 Court Attender Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "11 September 2026",
-    "a": "DCTLY/8927/2026-JS1",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "District Court Thalassery has officially released employment advertisement notification DCTLY/8927/2026-JS1 for the recruitment of 2 vacancies for Court Attender posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0379514e888b8f2acacc68738d0cbb/uploads/2026/09/2026090317.pdf"
-},
-  {
     "id": "kerala-agricultural-university-kau-assistant-professor-recruitment-2026",
     "b": "Kerala Agricultural University (KAU)",
     "t": "Kerala Agricultural University (KAU) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
@@ -7624,28 +6161,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.kau.in/sites/default/files/announcements/notification_assistant_professor.pdf"
 },
   {
-    "id": "jawaharlal-nehru-centre-for-advance-rd-assistant-recruitment-2026",
-    "b": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
-    "t": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) Recruitment 2026 Notification Out for 1 R&D Assistant Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "16 September 2026",
-    "a": "CPMU[EMR]bs]26-27",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR) has officially released employment advertisement notification CPMU[EMR]bs]26-27 for the recruitment of 1 vacancies for R&D Assistant posts.",
-    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-09/EMR%2065%20R%26D%20Assistant.pdf"
-},
-  {
-    "id": "csir-central-food-technological-res-project-associate-ii-project-assist-recruitment-2026",
-    "b": "CSIR Central Food Technological Research Institute",
-    "t": "CSIR Central Food Technological Research Institute Recruitment 2026 Notification Out for 2 Project Associate II & Project Assistant II Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "PAT 56/2026",
-    "q": "Diploma | B.Tech / B.E | B.Sc",
-    "desc": "CSIR Central Food Technological Research Institute has officially released employment advertisement notification PAT 56/2026 for the recruitment of 2 vacancies for Project Associate II & Project Assistant II posts.",
-    "u": "https://cftri.res.in/ApplicationForm/0_84453300_1788434435.pdf"
-},
-  {
     "id": "electronics-radar-development-estab-junior-research-fellow-jrf-ece-recruitment-2026",
     "b": "Electronics & Radar Development Establishment (LRDE DRDO)",
     "t": "Electronics & Radar Development Establishment (LRDE DRDO) Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) - ECE Posts | Apply Online",
@@ -7655,17 +6170,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | M.Tech / M.E",
     "desc": "Electronics & Radar Development Establishment (LRDE DRDO) has officially released employment advertisement notification 03/2026/JRF for the recruitment of 2 vacancies for Junior Research Fellow (JRF) - ECE posts.",
     "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtLRDE07092026.pdf"
-},
-  {
-    "id": "all-india-institute-of-medical-scie-lab-assistant-cum-data-entry-operat-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar)",
-    "t": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) Recruitment 2026 Notification Out for 1 Lab Assistant Cum Data Entry Operator Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "AIIMS/DEO/MRU/2026",
-    "q": "Diploma | B.Sc | Any Bachelor's Degree",
-    "desc": "All India Institute of Medical Sciences Deoghar (AIIMS Deoghar) has officially released employment advertisement notification AIIMS/DEO/MRU/2026 for the recruitment of 1 vacancies for Lab Assistant Cum Data Entry Operator posts.",
-    "u": "https://www.aiimsdeoghar.edu.in/Content/resources/document/Recruitment/advertisement_for_the_mru_dept_project_1_1_03092026040746891.pdf"
 },
   {
     "id": "high-court-of-jharkhand-ranchi-law-researcher-research-associate-recruitment-2026",
@@ -7756,28 +6260,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://iitgoa.ac.in/wp-content/uploads/IITGOA_staff-recruitment_-Advt.-2026-05.pdf"
 },
   {
-    "id": "csir-national-institute-of-oceanogr-project-associate-ii-recruitment-2026",
-    "b": "CSIR National Institute of Oceanography",
-    "t": "CSIR National Institute of Oceanography Recruitment 2026 Notification Out for 2 Project Associate - II Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "13 September 2026",
-    "a": "GAP003897/3301-26",
-    "q": "M.Sc",
-    "desc": "CSIR National Institute of Oceanography has officially released employment advertisement notification GAP003897/3301-26 for the recruitment of 2 vacancies for Project Associate - II posts.",
-    "u": "https://www.nio.res.in/vacancies/temporary/1747280"
-},
-  {
-    "id": "punjab-sind-bank-chief-risk-officer-recruitment-2026",
-    "b": "Punjab & Sind Bank",
-    "t": "Punjab & Sind Bank Recruitment 2026 Notification Out for 1 Chief Risk Officer Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "12 September 2026",
-    "a": "PUNJAB-SIND-BA/2026",
-    "q": "Any Bachelor's Degree",
-    "desc": "Punjab & Sind Bank has officially released employment advertisement notification PUNJAB-SIND-BA/2026 for the recruitment of 1 vacancies for Chief Risk Officer posts.",
-    "u": "https://punjabandsind.bank.in/system/uploads/recruitment/7932_2026090317360729759.pdf"
-},
-  {
     "id": "indian-railway-catering-and-tourism-tourism-monitor-recruitment-2026",
     "b": "Indian Railway Catering and Tourism Corporation (IRCTC)",
     "t": "Indian Railway Catering and Tourism Corporation (IRCTC) Recruitment 2026 Notification Out for 9 Tourism Monitor Posts | Walk-in Interview",
@@ -7798,17 +6280,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Indian Council of Medical Research (ICMR) has officially released employment advertisement notification ICMD/DataCenter/RIO/Staff for the recruitment of 1 vacancies for Young Professional-II posts.",
     "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1788430542_yp-iiadvertismentenglish.pdf"
-},
-  {
-    "id": "all-india-institute-of-medical-scie-pts-iii-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
-    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 7 PTS-III Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 7 vacancies for PTS-III posts.",
-    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/ccm-3-9-26.pdf"
 },
   {
     "id": "nspcl-sr-assistant-officer-sr-assistant-e-recruitment-2026",
@@ -7855,17 +6326,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.eximbankindia.in/sites/default/files/2026-09/Detailed%20SRD%20Advertisement%20for%20Website.pdf"
 },
   {
-    "id": "samagra-shiksha-bemetara-music-instructor-recruitment-2026",
-    "b": "Samagra Shiksha Bemetara",
-    "t": "Samagra Shiksha Bemetara Recruitment 2026 Notification Out for 7 Music Instructor Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "489/समग्र शिक्षा/पीएम श्री/स्था./भर्ती/2026-27",
-    "q": "Any Bachelor's Degree",
-    "desc": "Samagra Shiksha Bemetara has officially released employment advertisement notification 489/समग्र शिक्षा/पीएम श्री/स्था./भर्ती/2026-27 for the recruitment of 7 vacancies for Music Instructor posts.",
-    "u": "https://cdn.s3waas.gov.in/s36a10bbd480e4c5573d8f3af73ae0454b/uploads/2026/09/17884137367113.pdf"
-},
-  {
     "id": "guru-ghasidas-vishwavidyalaya-finance-officer-professors-associat-recruitment-2026",
     "b": "Guru Ghasidas Vishwavidyalaya",
     "t": "Guru Ghasidas Vishwavidyalaya Recruitment 2026 Notification Out for 1 Finance Officer, Professors, Associate Professors, Assistant Professors Posts | Apply Online",
@@ -7877,50 +6337,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.ggu.ac.in/media/recruitment/1._advertizemnt-English_TLPGcuE.pdf"
 },
   {
-    "id": "prasar-bharati-correspondent-recruitment-2026",
-    "b": "Prasar Bharati",
-    "t": "Prasar Bharati Recruitment 2026 Notification Out for 1 Correspondent Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "18 September 2026",
-    "a": "PRASAR-BHARATI/2026",
-    "q": "Diploma | Any Bachelor's Degree",
-    "desc": "Prasar Bharati has officially released employment advertisement notification PRASAR-BHARATI/2026 for the recruitment of 1 vacancies for Correspondent posts.",
-    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/09/NIA-Correspondent-DD-News.pdf"
-},
-  {
-    "id": "postgraduate-institute-of-medical-e-senior-resident-recruitment-2026",
-    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
-    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 5 Senior Resident Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "POSTGRADUATE-I/2026",
-    "q": "MBBS / Medical PG",
-    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 5 vacancies for Senior Resident posts.",
-    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=SR%20ADHOC%20ADVT%20AN05Sep2026125911.pdf&PathKey=VACANCY_PATH"
-},
-  {
-    "id": "government-medical-college-hospital-project-technical-support-iii-proje-recruitment-2026",
-    "b": "Government Medical College Hospital Government Medical College Hospital Chandigarh",
-    "t": "Government Medical College Hospital Government Medical College Hospital Chandigarh Recruitment 2026 Notification Out for 9 Project Technical Support-III, Project Nurse-III Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "GOVERNMENT-MED/2026",
-    "q": "Diploma | Any Bachelor's Degree",
-    "desc": "Government Medical College Hospital Government Medical College Hospital Chandigarh has officially released employment advertisement notification GOVERNMENT-MED/2026 for the recruitment of 9 vacancies for Project Technical Support-III, Project Nurse-III posts.",
-    "u": "https://gmch.gov.in/sites/default/files/jobs/Advt%20PBC.pdf"
-},
-  {
-    "id": "panjab-university-guest-faculty-in-chemical-engineeri-recruitment-2026",
-    "b": "Panjab University",
-    "t": "Panjab University Recruitment 2026 Notification Out for 2 Guest Faculty in Chemical Engineering Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "PANJAB-UNIVERS/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "Panjab University has officially released employment advertisement notification PANJAB-UNIVERS/2026 for the recruitment of 2 vacancies for Guest Faculty in Chemical Engineering posts.",
-    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260907153530-Walk-in-Interview%20for%20appointing%20of%20Guest%20Faculty%20in%20Chemical%20Engineering.pdf"
-},
-  {
     "id": "bihar-police-subordinate-services-c-gulma-samadesta-company-commander-recruitment-2026",
     "b": "Bihar Police Subordinate Services Commission (BPSSC)",
     "t": "Bihar Police Subordinate Services Commission (BPSSC) Recruitment 2026: Apply Online for 65 Gulma Samadesta (Company Commander) Posts",
@@ -7930,28 +6346,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor's Degree (Graduation) in any discipline as on 01.08.2026",
     "desc": "Bihar Police Subordinate Services Commission (BPSSC), Patna has officially published employment notification Advt. No. 11/2026 for the recruitment of 65 vacancies for the post of Gulma Samadesta / Company Commander (गुल्म समादेशक) under the Home Department (Special Branch), Government of Bihar in the Bihar Home Guard Service Cadre (बिहार गृह रक्षा वाहिनी सेवा संवर्ग). The recruitment is specifically conducted for eligible enrolled and trained Home Guards (including daily duty allowance sports personnel) possessing a graduate degree and minimum 5 years of duty experience.",
     "u": "https://bpssc.bihar.gov.in/Notices/Advt%20No.-11-2026.pdf"
-},
-  {
-    "id": "national-health-mission-assam-nhm-a-medical-officer-mbbs-recruitment-2026",
-    "b": "National Health Mission Assam (NHM Assam)",
-    "t": "National Health Mission Assam (NHM Assam) Recruitment 2026 Notification Out for 1 Medical Officer (MBBS) Posts | Apply Online",
-    "d": "08 September 2026",
-    "l": "14 September 2026",
-    "a": "NATIONAL-HEALT/2026",
-    "q": "MBBS / Medical PG | Any Bachelor's Degree",
-    "desc": "National Health Mission Assam (NHM Assam) has officially released employment advertisement notification NATIONAL-HEALT/2026 for the recruitment of 1 vacancies for Medical Officer (MBBS) posts.",
-    "u": "https://nhmssd.assam.gov.in/eHRMIS_latest/uploadAdmin/uploads/job178-doc-1.pdf"
-},
-  {
-    "id": "north-eastern-regional-agricultural-business-development-executive-mark-recruitment-2026",
-    "b": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC)",
-    "t": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) Recruitment 2026 Notification Out for 1 Business Development Executive - (Marketing - Retail) Posts | Walk-in Interview",
-    "d": "08 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "NORTH-EASTERN-/2026",
-    "q": "MBA / BBA",
-    "desc": "North Eastern Regional Agricultural Marketing Corporation (NERAMAC) has officially released employment advertisement notification NORTH-EASTERN-/2026 for the recruitment of 1 vacancies for Business Development Executive - (Marketing - Retail) posts.",
-    "u": "https://neramac.com/files/userfiles/2026/09/03/files/BDE_-_Marketing_-_Retail__1_.pdf"
 },
   {
     "id": "district-legal-services-authority-b-driver-recruitment-2026",
@@ -7976,28 +6370,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://neramac.com/files/userfiles/2026/09/03/files/Asst_Manager_-_Civil_Engg__1_.pdf"
 },
   {
-    "id": "chittoor-district-record-assistant-office-subordinate-recruitment-2026",
-    "b": "Chittoor District",
-    "t": "Chittoor District Recruitment 2026 Notification Out for 37 Record Assistant, Office Subordinate, Sweepers, Scavengers, Cooks, Dhobis and Barbers Posts | Apply Offline",
-    "d": "08 September 2026",
-    "l": "15 September 2026",
-    "a": "01/2026",
-    "q": "10th / 8th Pass",
-    "desc": "Chittoor District has officially released employment advertisement notification 01/2026 for the recruitment of 37 vacancies for Record Assistant, Office Subordinate, Sweepers, Scavengers, Cooks, Dhobis and Barbers posts.",
-    "u": "https://cdn.s3waas.gov.in/s333e75ff09dd601bbe69f351039152189/uploads/2026/09/17886028883993.pdf"
-},
-  {
-    "id": "office-of-the-district-women-child-anganwadi-worker-helper-recruitment-2026",
-    "b": "Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District",
-    "t": "Nandyal District Anganwadi Recruitment 2026: Apply Offline for 70 Anganwadi Worker & Helper Posts",
-    "d": "02 September 2026",
-    "l": "18 September 2026 (05:00 PM)",
-    "a": "WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL",
-    "q": "10th Class (SSC) Passed (Local Married Female Resident)",
-    "desc": "The Office of the District Women & Child Welfare and Empowerment Officer, Nandyal District, Government of Andhra Pradesh has officially issued notification WDC02-ESTOAS(AWS)/1/2025-SA(1)-WDCWNDL (dated 02 September 2026) for filling 70 vacancies across 6 ICDS Projects. The recruitment drive covers 3 posts of Main Anganwadi Worker (మేయిన్ అంగన్వాడీ కార్యకర్త) and 67 posts of Anganwadi Helper / Ayah (అంగన్వాడీ ఆయా) across Anganwadi Centres located in Atmakur, Nandyal, Dhone, Allagadda, Banaganapalli, and Nandikotkur Projects.",
-    "u": "https://cdn.s3waas.gov.in/s319b650660b253761af189682e03501dd/uploads/2026/09/17884355642604.pdf"
-},
-  {
     "id": "pmbi-recruitment-2026-manager-executive-pharmacist-178-posts",
     "b": "Pharmaceuticals & Medical Devices Bureau of India (PMBI)",
     "t": "PMBI Recruitment 2026: Apply Offline for 178 Manager, Senior Executive, Pharmacist & Other Posts",
@@ -8009,39 +6381,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.pmbi.co.in/index.aspx"
 },
   {
-    "id": "indian-institute-of-engineering-sci-junior-research-fellow-recruitment-2026",
-    "b": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur)",
-    "t": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) Recruitment 2026 Notification Out for 2 Junior Research Fellow Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026 (Walk-in)",
-    "a": "CH 1955",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Indian Institute of Engineering Science and Technology Shibpur (IIEST Shibpur) has officially released employment advertisement notification CH 1955 for the recruitment of 2 vacancies for Junior Research Fellow posts.",
-    "u": "https://data.iiests.ac.in/uploads/announcements/files/1788355182_Website%20Copy,%20Nanda%20Dulal%20Paul,%20Chemistry,%2031.08.2026.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-madr-research-assistant-recruitment-2026",
-    "b": "Indian Institute of Technology Madras",
-    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "17 September 2026",
-    "a": "ICSR/PR/Adv. 172/2026",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Madras has officially released employment advertisement notification ICSR/PR/Adv. 172/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
-    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788442097.pdf"
-},
-  {
-    "id": "karnataka-state-rural-livelihood-pr-district-manager-taluk-program-mana-recruitment-2026",
-    "b": "Karnataka State Rural Livelihood Promotion Society (KSRLPS)",
-    "t": "Karnataka State Rural Livelihood Promotion Society (KSRLPS) Recruitment 2026 Notification Out for 34 District Manager, Taluk Program Manager, Block Manager, Cluster Supervisor, MIS Assistant, DEO, Office Assistant Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "11 September 2026",
-    "a": "KARNATAKA-STAT/2026",
-    "q": "Diploma | B.Sc | M.Sc",
-    "desc": "Karnataka State Rural Livelihood Promotion Society (KSRLPS) has officially released employment advertisement notification KARNATAKA-STAT/2026 for the recruitment of 34 vacancies for District Manager, Taluk Program Manager, Block Manager, Cluster Supervisor, MIS Assistant, DEO, Office Assistant posts.",
-    "u": "https://jobsksrlps.karnataka.gov.in/"
-},
-  {
     "id": "up-anganwadi-anganwadi-karyakartri-anganwadi-wor-recruitment-2026",
     "b": "Child Development Services and Nutrition (ICDS), District Amroha, Government of Uttar Pradesh",
     "t": "UP Amroha Anganwadi Karyakatri (Worker) Recruitment 2026 Notification Out for 105 Posts across 7 Projects | Apply Online",
@@ -8051,17 +6390,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Minimum Intermediate (10+2 / 12th Pass) from a recognized Board",
     "desc": "Office of the District Programme Officer, Amroha, Uttar Pradesh (कार्यालय : जिला कार्यक्रम अधिकारी, अमरोहा) has officially released employment advertisement notification No. C-671 / जि०का०अधि० / बा०वि०परि० / विज्ञप्ति / 2026-27 dated 03 September 2026 in accordance with UP Government Order No. 1/1092245/2025/3313/58-1-2025 (197687) dated 17 September 2025. Online applications are invited on http://upanganwadibharti.in for the direct recruitment of 105 vacancies for the honorarium-based post of Anganwadi Karyakatri (आंगनबाड़ी कार्यकत्री / Worker) across seven child development projects in Amroha district.",
     "u": "https://upanganwadibharti.in/workernew/uploadOrder/ordercopy_1788441669_4a5e701d.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-kanp-project-multi-skilled-worker-level-recruitment-2026",
-    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
-    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Project Multi Skilled Worker (Level 1) Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "P.Rect./R&D/2026/170",
-    "q": "10th / 8th Pass",
-    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially released employment advertisement notification P.Rect./R&D/2026/170 for the recruitment of 1 vacancies for Project Multi Skilled Worker (Level 1) posts.",
-    "u": "https://www.iitk.ac.in/dord/project/cse-pmsw-05-09-26.html"
 },
   {
     "id": "indian-pharmacopoeia-commission-ipc-plumber-recruitment-2026",
@@ -8095,61 +6423,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Indian Institute of Technology Madras (IIT Madras) has officially released employment advertisement notification ICSR/PR/Advt.175/2026 for the recruitment of 1 vacancies for Project Associate-II posts.",
     "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1788518034.pdf"
-},
-  {
-    "id": "national-institute-of-technology-tr-junior-research-fellow-jrf-project-recruitment-2026",
-    "b": "National Institute of Technology Trichy (NIT Trichy)",
-    "t": "National Institute of Technology Trichy (NIT Trichy) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF)/ Project Associate-1 Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "17 September 2026",
-    "a": "NITT/SEED/TIDE/DST/2026/GC",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "National Institute of Technology Trichy (NIT Trichy) has officially released employment advertisement notification NITT/SEED/TIDE/DST/2026/GC for the recruitment of 1 vacancies for Junior Research Fellow (JRF)/ Project Associate-1 posts.",
-    "u": "https://nitt.edu/home/other/jobs/ICE_JRF_PA-I_SEP_2026_v2.pdf"
-},
-  {
-    "id": "indian-institute-of-management-udai-research-assistantassociate-recruitment-2026",
-    "b": "Indian Institute of Management Udaipur (IIM Udaipur)",
-    "t": "Indian Institute of Management Udaipur (IIM Udaipur) Recruitment 2026 Notification Out for 1 Research Assistant/Associate Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "MBA / BBA | Master's / PG Degree",
-    "desc": "Indian Institute of Management Udaipur (IIM Udaipur) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Research Assistant/Associate posts.",
-    "u": "https://www.iimu.ac.in/research-assistant-associate-position-under-finance-accounting-sept-2026/"
-},
-  {
-    "id": "psssb-group-d-group-d-sewadar-chowkidar-safai-sew-recruitment-2026",
-    "b": "PSSSB Group D",
-    "t": "PSSSB Group D Recruitment 2026 Notification Out for 2 Group-D (Sewadar, Chowkidar, Safai Sewak, and other Group-D posts) Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "04 of 2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "PSSSB Group D has officially released employment advertisement notification 04 of 2026 for the recruitment of 2 vacancies for Group-D (Sewadar, Chowkidar, Safai Sewak, and other Group-D posts) posts.",
-    "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/02/Advertisement-Group-D-1.pdf"
-},
-  {
-    "id": "punjab-agricultural-university-pau-junior-fieldlab-helper-recruitment-2026",
-    "b": "Punjab Agricultural University (PAU)",
-    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Junior Field/Lab Helper Posts | Apply Offline",
-    "d": "06 September 2026",
-    "l": "15 September 2026 (Walk-in)",
-    "a": "1768-1858",
-    "q": "Middle with Punjabi",
-    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification 1768-1858 for the recruitment of 1 vacancies for Junior Field/Lab Helper posts.",
-    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7556"
-},
-  {
-    "id": "national-institute-of-science-educa-special-work-based-consultant-recruitment-2026",
-    "b": "National Institute of Science Education and Research Bhubaneswar (NISER)",
-    "t": "National Institute of Science Education and Research Bhubaneswar (NISER) Recruitment 2026 Notification Out for 1 Special Work-based Consultant Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "15 September 2026",
-    "a": "NISER / R&D-317 / BL2501 / 14 / 2026-27",
-    "q": "M.Sc",
-    "desc": "National Institute of Science Education and Research Bhubaneswar (NISER) has officially released employment advertisement notification NISER / R&D-317 / BL2501 / 14 / 2026-27 for the recruitment of 1 vacancies for Special Work-based Consultant posts.",
-    "u": "https://www.niser.ac.in/readpdf.php"
 },
   {
     "id": "ordnance-factory-dehu-road-graduatediploma-project-engineer-recruitment-2026",
@@ -8218,17 +6491,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://nrtc.hp.gov.in/Pdf/Expression%20of%20Interest%20(3).pdf"
 },
   {
-    "id": "indian-institute-of-technology-gand-post-doctoral-fellow-recruitment-2026",
-    "b": "Indian Institute of Technology Gandhinagar",
-    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Post-Doctoral Fellow Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "SPON/63024/Adv/0310 DATED 02.09.2026",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Gandhinagar has officially released employment advertisement notification SPON/63024/Adv/0310 DATED 02.09.2026 for the recruitment of 1 vacancies for Post-Doctoral Fellow posts.",
-    "u": "https://drive.google.com/file/d/1IJmzV9nh4egB-6shT8TuJ4-bqUE1_Cax/view"
-},
-  {
     "id": "goa-ssc-group-c-data-entry-operator-junior-assistan-recruitment-2026",
     "b": "Goa SSC Group C",
     "t": "Goa SSC Group C Recruitment 2026 Notification Out for 1 Data Entry Operator, Junior Assistant and More Posts | Apply Online",
@@ -8238,28 +6500,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Goa SSC Group C has officially released employment advertisement notification 3 of Year 2026 for the recruitment of 1 vacancies for Data Entry Operator, Junior Assistant and More posts.",
     "u": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026-brief-advertisement-dated-04.09.2026_compressed.pdf"
-},
-  {
-    "id": "national-institute-of-oceanography-project-associate-i-recruitment-2026",
-    "b": "National Institute of Oceanography (NIO)",
-    "t": "National Institute of Oceanography (NIO) Recruitment 2026 Notification Out for 2 Project Associate - I Posts | Apply Offline",
-    "d": "06 September 2026",
-    "l": "13 September 2026",
-    "a": "GAP003897/3303-26",
-    "q": "M.Sc",
-    "desc": "National Institute of Oceanography (NIO) has officially released employment advertisement notification GAP003897/3303-26 for the recruitment of 2 vacancies for Project Associate - I posts.",
-    "u": "https://www.nio.res.in/vacancies/temporary/1737780"
-},
-  {
-    "id": "all-india-institute-of-medical-scie-senior-project-assistant-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
-    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Senior Project Assistant Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "11 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "12th Pass | Any Bachelor's Degree",
-    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Senior Project Assistant posts.",
-    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/gyne-5-9-26.pdf"
 },
   {
     "id": "all-india-institute-of-medical-scie-administrative-assistant-recruitment-2026",
@@ -8295,17 +6535,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://nhm.assam.gov.in/"
 },
   {
-    "id": "industrial-development-bank-of-indi-part-time-doctor-recruitment-2026",
-    "b": "Industrial Development Bank of India (IDBI Bank)",
-    "t": "Industrial Development Bank of India (IDBI Bank) Recruitment 2026 Notification Out for 1 Part Time Doctor Posts | Apply Offline",
-    "d": "06 September 2026",
-    "l": "12 September 2026",
-    "a": "4/2026-27",
-    "q": "MBBS / Medical PG",
-    "desc": "Industrial Development Bank of India (IDBI Bank) has officially released employment advertisement notification 4/2026-27 for the recruitment of 1 vacancies for Part Time Doctor posts.",
-    "u": "https://www.idbi.bank.in/pdf/careers/Detailed-Advertisement-BMO-Guwahati.pdf"
-},
-  {
     "id": "indian-institute-of-junior-research-fellow-recruitment-2026-3065788",
     "b": "Indian Institute of Technology Kharagpur",
     "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
@@ -8315,50 +6544,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Indian Institute of Technology Kharagpur has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
     "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
-},
-  {
-    "id": "indian-institute-of-junior-research-fellow-recruitment-2026",
-    "b": "Indian Institute of Technology Banaras Hindu University",
-    "t": "Indian Institute of Technology Banaras Hindu University Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "Indian Institute of Technology Banaras Hindu University has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
-    "u": "https://Candidates should ensure that they meet the prescribed age limit as on the specified cut-off date. You can use our Age Calculator to check your exact age and confirm your eligibility before applying."
-},
-  {
-    "id": "national-institute-o-project-associate-research-ass-recruitment-2026",
-    "b": "National Institute of Technology Delhi",
-    "t": "National Institute of Technology Delhi Recruitment 2026 Notification Out for 3 Project Associate / Research Associate Posts | Walk-in Interview",
-    "d": "06 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
-    "desc": "National Institute of Technology Delhi has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 3 vacancies for Project Associate / Research Associate posts.",
-    "u": "https://To avoid any confusion regarding age eligibility, candidates can use our Age Calculator to calculate their exact age based on the prescribed cut-off date before applying."
-},
-  {
-    "id": "all-india-institute-research-associate-iii-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
-    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Research Associate-III Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
-    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Research Associate-III posts.",
-    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/peadsurg-31-8-26.pdf"
-},
-  {
-    "id": "all-india-institute-project-research-scientist-i-m-recruitment-2026",
-    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
-    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Medical) Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "15 September 2026",
-    "a": "ALL-INDIA-INST/2026",
-    "q": "MBBS / Medical PG",
-    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially released employment advertisement notification ALL-INDIA-INST/2026 for the recruitment of 1 vacancies for Project Research Scientist-I (Medical) posts.",
-    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/psy-1-9-26.pdf"
 },
   {
     "id": "rural-development-and-pan-record-clerk-recruitment-2026",
@@ -8438,17 +6623,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/Attachement%201%20-Advt%20ISRO%20RESPOND%20and%20Application%20form@nitdelhi68cba949-8a85-425d-8caf-e9c7914f0d6c.pdf"
 },
   {
-    "id": "indian-institute-of-techn-research-associate-recruitment-2026",
-    "b": "Indian Institute of Technology Tirupati",
-    "t": "Indian Institute of Technology Tirupati Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
-    "d": "06 September 2026",
-    "l": "14 September 2026",
-    "a": "Advt/ IITT/CSRC/26-27/11",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Tirupati has officially released employment advertisement notification Advt/ IITT/CSRC/26-27/11 for the recruitment of 1 vacancies for Research Associate posts.",
-    "u": "https://files.iittp.ac.in/2026/recruitment/project/AdvtIITTCSRC26-2711.pdf"
-},
-  {
     "id": "indian-institute-of-technology-senior-research-fellow-srf-recruitment-2026",
     "b": "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
     "t": "Indian Institute of Technology Kharagpur (IIT Kharagpur) Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
@@ -8458,28 +6632,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Indian Institute of Technology Kharagpur (IIT Kharagpur) has officially released employment advertisement notification IIT/SRIC/R/WQM/2026/103 for the recruitment of 1 vacancies for Senior Research Fellow (SRF) posts.",
     "u": "https://erp.iitkgp.ac.in/SricWeb/temporaryJobs.htm"
-},
-  {
-    "id": "indian-institute-of-technology-jrf-recruitment-2026",
-    "b": "Indian Institute of Technology Roorkee",
-    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 JRF Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "ANRF-2856-CED-TSAH/25-26",
-    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
-    "desc": "Indian Institute of Technology Roorkee has officially released employment advertisement notification ANRF-2856-CED-TSAH/25-26 for the recruitment of 1 vacancies for JRF posts.",
-    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CE/2026/adv01092026.pdf"
-},
-  {
-    "id": "animal-husbandry-department-ut-veterinary-pharmacy-officer-recruitment-2026",
-    "b": "Animal Husbandry Department Uttarakhand",
-    "t": "Animal Husbandry Department Uttarakhand Recruitment 2026 Notification Out for 28 Veterinary Pharmacy Officer Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "12 September 2026",
-    "a": "2256/स्था०एक/प०चि०का०अ०/2026-27",
-    "q": "12th Pass | Diploma | B.Pharm / D.Pharm",
-    "desc": "Animal Husbandry Department Uttarakhand has officially released employment advertisement notification 2256/स्था०एक/प०चि०का०अ०/2026-27 for the recruitment of 28 vacancies for Veterinary Pharmacy Officer posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s31fb2a1c37b18aa4611c3949d6148d0f8/uploads/2026/07/202607311223705680.pdf"
 },
   {
     "id": "up-anganwadi-495-anganwadi-worker-helper-in-recruitment-2026",
@@ -8526,50 +6678,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s382cec96096d4281b7c95cd7e74623496/uploads/2026/09/17882612955235.pdf"
 },
   {
-    "id": "gmc-mahabubnagar-junior-resident-assistant-prof-recruitment-2026",
-    "b": "Government Medical College & General Hospital, Mahabubnagar (Director of Medical Education, Govt. of Telangana)",
-    "t": "GMC Mahabubnagar Recruitment 2026: 149 Professor, Associate Professor, Assistant Professor, Tutor & Junior Resident Posts | Walk-in Interview on 15 September 2026",
-    "d": "03 September 2026",
-    "l": "15 September 2026 (09:00 AM to 03:00 PM)",
-    "a": "Notification No. 02/GMC-MBNR/2026 (Dt. 03.09.2026)",
-    "q": "MBBS / MD / MS / DNB in concerned specialty as per NMC TEQ Regulations 2025",
-    "desc": "Government Medical College & General Hospital, Mahabubnagar, under the administrative control of the Director of Medical Education (DME), Government of Telangana, has officially released Notification No. 02/GMC-MBNR/2026 dated 03 September 2026 for walk-in interviews to recruit 149 positions on a contractual basis.",
-    "u": "http://www.gmcmbnr-ts.org/"
-},
-  {
-    "id": "tamil-nadu-state-planning-comm-sector-expert-it-data-analyst-recruitment-2026",
-    "b": "Tamil Nadu State Planning Commission",
-    "t": "Tamil Nadu State Planning Commission Recruitment 2026 Notification Out for 1 Sector Expert (IT & Data Analyst) Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "13 September 2026",
-    "a": "3/A2/SPC/2026",
-    "q": "Diploma | MBA / BBA | Any Bachelor's Degree",
-    "desc": "Tamil Nadu State Planning Commission has officially released employment advertisement notification 3/A2/SPC/2026 for the recruitment of 1 vacancies for Sector Expert (IT & Data Analyst) posts.",
-    "u": "https://spc.tn.gov.in/wp-content/uploads/Notification-SIT.pdf"
-},
-  {
-    "id": "dhs-thiruvarur-medical-officer-hospital-worke-recruitment-2026",
-    "b": "DHS Thiruvarur",
-    "t": "DHS Thiruvarur Recruitment 2026 Notification Out for 1 Medical Officer, Hospital Worker and More Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "16 September 2026, up to 5:45 PM",
-    "a": "DHS-THIRUVARUR/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "DHS Thiruvarur has officially released employment advertisement notification DHS-THIRUVARUR/2026 for the recruitment of 1 vacancies for Medical Officer, Hospital Worker and More posts.",
-    "u": "https://cdn.s3waas.gov.in/s3e46de7e1bcaaced9a54f1e9d0d2f800d/uploads/2026/09/17883521608313.pdf"
-},
-  {
-    "id": "indian-railway-catering-and-to-consultant-for-control-office-recruitment-2026",
-    "b": "Indian Railway Catering and Tourism Corporation (IRCTC)",
-    "t": "Indian Railway Catering and Tourism Corporation (IRCTC) Recruitment 2026 Notification Out for 1 Consultant for Control Office Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "17 September 2026",
-    "a": "No. IRCTC\\/SZ\\/116\\/Re-Engagement\\/Consultant\\/Control",
-    "q": "10th / 8th Pass | Any Bachelor's Degree",
-    "desc": "Indian Railway Catering and Tourism Corporation (IRCTC) has officially released employment advertisement notification No. IRCTC/SZ/116/Re-Engagement/Consultant/Control for the recruitment of 1 vacancies for Consultant for Control Office posts.",
-    "u": "https://www.irctc.com/assets/images2/NotificationforConsultantsMAS(2Sep26).pdf"
-},
-  {
     "id": "indian-institute-of-informatio-junior-research-fellow-jrf-recruitment-2026",
     "b": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
     "t": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) Posts | Apply Online",
@@ -8579,39 +6687,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Tech / M.E",
     "desc": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram has officially released employment advertisement notification IIITDMK/PR/JRF/A30/2026 for the recruitment of 2 vacancies for Junior Research Fellow (JRF) posts.",
     "u": "https://drive.google.com/file/d/1mwhydmUNTgryf01G1NyVurju9iILQKfT/view"
-},
-  {
-    "id": "central-university-of-tamil-na-jrfproject-fellow-recruitment-2026",
-    "b": "Central University of Tamil Nadu (CUTN)",
-    "t": "Central University of Tamil Nadu (CUTN) Recruitment 2026 Notification Out for 1 JRF/Project Fellow Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "11 September 2026",
-    "a": "CENTRAL-UNIVER/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Central University of Tamil Nadu (CUTN) has officially released employment advertisement notification CENTRAL-UNIVER/2026 for the recruitment of 1 vacancies for JRF/Project Fellow posts.",
-    "u": "https://cutn.ac.in/wp-content/uploads/2026/09/Adv_Letter_IUAC_project-final_R5_01092026.pdf"
-},
-  {
-    "id": "district-health-society-sivaga-district-public-private-mix-co-recruitment-2026",
-    "b": "District Health Society Sivagangai (DHS Sivagangai)",
-    "t": "District Health Society Sivagangai (DHS Sivagangai) Recruitment 2026 Notification Out for 2 District Public-Private Mix Coordinator (DPPM) and Driver Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "11 September 2026",
-    "a": "DISTRICT-HEALT/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "District Health Society Sivagangai (DHS Sivagangai) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for District Public-Private Mix Coordinator (DPPM) and Driver posts.",
-    "u": "https://cdn.s3waas.gov.in/s31a5b1e4daae265b790965a275b53ae50/uploads/2026/08/17876516432185.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-junior-research-fellow-jrf-fie-recruitment-2026",
-    "b": "Indian Institute of Technology Ropar (IIT Ropar)",
-    "t": "Indian Institute of Technology Ropar (IIT Ropar) Recruitment 2026 Notification Out for 4 Junior Research Fellow (JRF), Field Assistant, Project Assistant Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "14 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
-    "desc": "Indian Institute of Technology Ropar (IIT Ropar) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 4 vacancies for Junior Research Fellow (JRF), Field Assistant, Project Assistant posts.",
-    "u": "https://www.iitrpr.ac.in/api/v2/files/download/201"
 },
   {
     "id": "odisha-state-health-family-wel-medical-officer-ayush-homeopat-recruitment-2026",
@@ -8636,28 +6711,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://ibpsreg.ibps.in/mecljul26/"
 },
   {
-    "id": "tata-institute-of-social-scien-senior-administrative-assistan-recruitment-2026",
-    "b": "Tata Institute of Social Sciences (TISS)",
-    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 6 Senior Administrative Assistant (Academic) and Administrative Assistant (Academic/Admission) Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "ADVT/TISS/ADMIN/SAAA/ACAD/SEPT/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Tata Institute of Social Sciences (TISS) has officially released employment advertisement notification ADVT/TISS/ADMIN/SAAA/ACAD/SEPT/2026 for the recruitment of 6 vacancies for Senior Administrative Assistant (Academic) and Administrative Assistant (Academic/Admission) posts.",
-    "u": "https://tiss.ac.in/uploads/files/Advt_Sr_Admn_Assist_and_Admn_Assist_Academic.pdf"
-},
-  {
-    "id": "dc-latur-aaple-sarkar-seva-ken-640-recruitment-2026",
-    "b": "Collector & District Magistrate Office, Latur (ई-गव्हर्नन्स विभाग, जिल्हाधिकारी कार्यालय, लातूर)",
-    "t": "Collector Office Latur Recruitment 2026: 640 Aaple Sarkar Seva Kendra (ASSK) Operator Posts across 10 Talukas & Urban Bodies | Apply Online",
-    "d": "24 August 2026",
-    "l": "15 September 2026 (05:00 PM)",
-    "a": "जा.क्र. २०२६/ई-गव्हर्नन्स/कावी-१७६ (दि. २४ ऑगस्ट २०२६)",
-    "q": "Higher Secondary Certificate (HSC / 12th Pass) from recognized Board",
-    "desc": "The Collector and District Magistrate Office, Latur (e-Governance Branch) has officially issued recruitment advertisement notice No. जा.क्र. २०२६/ई-गव्हर्नन्स/कावी-१७६ dated 24 August 2026 for establishing 640 Aaple Sarkar Seva Kendras (ASSK / Maha e-Seva Kendra / Village Level Entrepreneur Centers) across Latur district.",
-    "u": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2026/08/17876348886669.pdf"
-},
-  {
     "id": "dc-thane-aaple-sarkar-seva-ken-381-recruitment-2026",
     "b": "Collector & District Magistrate Office, Thane (जिल्हाधिकारी व जिल्हादंडाधिकारी कार्यालय, ठाणे)",
     "t": "Collector Office Thane Recruitment 2026: 381 Aaple Sarkar Seva Kendra (ASSK) Operator Posts across 6 Talukas | Apply Online & Offline",
@@ -8680,17 +6733,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6IlpBaXhYU3Vkb3lTWFcwSEVVekIvbWc9PSIsInZhbHVlIjoiL3MwU2VoQ3RQLzJsYVVjR2FaVWdLZz09IiwibWFjIjoiMTEzNmNjYTRiMTQ4ZmM0OTE4YWUzYmUwM2M2OWViMjBhMGIwY2I1ZDE2OTNjZGY1MzY1ZDU0ZDU4NjlhMDM5OSIsInRhZyI6IiJ9"
 },
   {
-    "id": "jawaharlal-nehru-centre-for-ad-arf-scientific-instrumentation-recruitment-2026",
-    "b": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR)",
-    "t": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) Recruitment 2026 Notification Out for 1 ARF Scientific Instrumentation Specialist Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "16 September 2026",
-    "a": "JNC/AO/Advt.No.19/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
-    "desc": "Jawaharlal Nehru Centre For Advanced Scientific Research (JNCASR) has officially released employment advertisement notification JNC/AO/Advt.No.19/2026 for the recruitment of 1 vacancies for ARF Scientific Instrumentation Specialist posts.",
-    "u": "https://www.jncasr.ac.in/sites/default/files/Join_Us/Opportunities/2026-09/Advertisement%20-%20cleanroom%20facility.pdf"
-},
-  {
     "id": "raman-research-institute-rri-research-assistant-recruitment-2026",
     "b": "Raman Research Institute (RRI)",
     "t": "Raman Research Institute (RRI) Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Online",
@@ -8700,17 +6742,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Sc | Any Bachelor's Degree",
     "desc": "Raman Research Institute (RRI) has officially released employment advertisement notification 22/2026 for the recruitment of 1 vacancies for Research Assistant posts.",
     "u": "https://www.rri.res.in/sites/default/files/other-openings/Advt_22_2026.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-project-assistant-recruitment-2026",
-    "b": "Indian Institute of Technology Jammu",
-    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "IITJMU/RC/SF-100081/A-41",
-    "q": "M.Sc",
-    "desc": "Indian Institute of Technology Jammu has officially released employment advertisement notification IITJMU/RC/SF-100081/A-41 for the recruitment of 1 vacancies for Project Assistant posts.",
-    "u": "https://www.iitjammu.ac.in/Advertisements/Contract/2026/IITJMURCSF-100081A-41.pdf"
 },
   {
     "id": "district-legal-services-author-para-legal-volunteer-recruitment-2026",
@@ -8724,17 +6755,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec03946e3ece1fc8b24bd656449d88ec/uploads/2026/09/2026090389.pdf"
 },
   {
-    "id": "amc-medical-education-trust-dean-cardiologist-recruitment-2026",
-    "b": "AMC Medical Education Trust",
-    "t": "AMC Medical Education Trust Recruitment 2026 Notification Out for 3 Dean, Cardiologist Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "17 September 2026",
-    "a": "02/2026-27 and 01/2026-27",
-    "q": "MBBS / Medical PG | BDS / Dental",
-    "desc": "AMC Medical Education Trust has officially released employment advertisement notification 02/2026-27 and 01/2026-27 for the recruitment of 3 vacancies for Dean, Cardiologist posts.",
-    "u": "https://www.amcmet.org/recruitment/"
-},
-  {
     "id": "tourism-corporation-of-gujarat-office-assistant-project-engin-recruitment-2026",
     "b": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking",
     "t": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking Recruitment 2026 Notification Out for 47 Office Assistant, Project Engineer and More Posts | Apply Online",
@@ -8744,17 +6764,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Tourism Corporation of Gujarat Limited (TCGL), Government of Gujarat undertaking has officially released employment advertisement notification TOURISM-CORPOR/2026 for the recruitment of 47 vacancies for Office Assistant, Project Engineer and More posts.",
     "u": "https://gujarattourism.com/content/dam/gujrattourism/images/career/TCGL-Walk-in-Interview-detail.pdf"
-},
-  {
-    "id": "veer-narmad-south-gujarat-univ-temporary-assistant-professor-recruitment-2026",
-    "b": "Veer Narmad South Gujarat University (VNSGU)",
-    "t": "Veer Narmad South Gujarat University (VNSGU) Recruitment 2026 Notification Out for 3 Temporary Assistant Professor / Temporary Teaching Assistant Posts | Walk-in Interview",
-    "d": "03 September 2026",
-    "l": "17 September 2026 (Walk-in)",
-    "a": "Gen/Est/TA/TTA/20182/2026",
-    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
-    "desc": "Veer Narmad South Gujarat University (VNSGU) has officially released employment advertisement notification Gen/Est/TA/TTA/20182/2026 for the recruitment of 3 vacancies for Temporary Assistant Professor / Temporary Teaching Assistant posts.",
-    "u": "https://www.vnsgu.ac.in/uploads/assetlinks/f4ba5a8c-91fe-47b7-991a-c268269240a1.pdf"
 },
   {
     "id": "gujarat-mineral-development-co-manager-chemical-coal-gasifica-recruitment-2026",
@@ -8799,17 +6808,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass | Nursing (GNM / B.Sc) | MBBS / Doctor",
     "desc": "District Child Protection Unit Sheikhpura (DCPU Sheikhpura) has officially released employment advertisement notification 09/SARA (Misc)-09/2017(Part-1)-498 for the recruitment of 4 vacancies for Nurse, Doctor (Part Time), Ayah, Chowkidar posts.",
     "u": "https://cdn.s3waas.gov.in/s30bb4aec1710521c12ee76289d9440817/uploads/2026/09/17882512057204.pdf"
-},
-  {
-    "id": "one-stop-center-khagaria-centre-administrator-recruitment-2026",
-    "b": "One Stop Center Khagaria",
-    "t": "One Stop Center Khagaria Recruitment 2026 Notification Out for 1 Centre Administrator Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "12 September 2026",
-    "a": "02/26",
-    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "One Stop Center Khagaria has officially released employment advertisement notification 02/26 for the recruitment of 1 vacancies for Centre Administrator posts.",
-    "u": "https://cdn.s3waas.gov.in/s3d61e4bbd6393c9111e6526ea173a7c8b/uploads/2026/08/17871382741249.pdf"
 },
   {
     "id": "upsc-cgse-2027-notification-ou-127-recruitment-2026",
@@ -8867,39 +6865,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iitk.ac.in/dord/project/me-ra-I-01-09-26.html"
 },
   {
-    "id": "motilal-nehru-national-institu-junior-research-fellow-jrf-or-recruitment-2026",
-    "b": "Motilal Nehru National Institute of Technology Allahabad",
-    "t": "Motilal Nehru National Institute of Technology Allahabad Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) or Project Associate-I Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "78/Chem/2026-27",
-    "q": "Any Bachelor's Degree",
-    "desc": "Motilal Nehru National Institute of Technology Allahabad has officially released employment advertisement notification 78/Chem/2026-27 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) or Project Associate-I posts.",
-    "u": "https://mnnit.ac.in/images/newstories/2026/JobMnnit/ANRF-ECRG-2025-002671-CS__JRF_or_Project_Associate_Advertisement_28082026.pdf"
-},
-  {
-    "id": "atal-residential-school-gonda-guest-faculty-teacher-pgttgt-recruitment-2026",
-    "b": "Atal Residential School Gonda",
-    "t": "Atal Residential School Gonda Recruitment 2026 Notification Out for 11 Guest Faculty Teacher (PGT/TGT) Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "11 September 2026",
-    "a": "18580/AtalAwasiya0/Kya/2026-27",
-    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Atal Residential School Gonda has officially released employment advertisement notification 18580/AtalAwasiya0/Kya/2026-27 for the recruitment of 11 vacancies for Guest Faculty Teacher (PGT/TGT) posts.",
-    "u": "https://cdn.s3waas.gov.in/s3ca46c1b9512a7a8315fa3c5a946e8265/uploads/2026/09/17883293529672.pdf"
-},
-  {
-    "id": "punjab-agricultural-university-senior-research-fellow-recruitment-2026",
-    "b": "Punjab Agricultural University (PAU)",
-    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "16 September 2026",
-    "a": "PUNJAB-AGRICUL/2026",
-    "q": "B.Sc | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification PUNJAB-AGRICUL/2026 for the recruitment of 1 vacancies for Senior Research Fellow posts.",
-    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7548"
-},
-  {
     "id": "punjab-remote-sensing-centre-p-clerk-lab-attendant-more-recruitment-2026",
     "b": "Punjab Remote Sensing Centre (PRSC)",
     "t": "Punjab Remote Sensing Centre (PRSC) Recruitment 2026 Notification Out for 6 Clerk, Lab Attendant & More Posts | Apply Offline",
@@ -8944,39 +6909,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.opsc.gov.in/"
 },
   {
-    "id": "csir-institute-of-minerals-and-project-assistant-ii-project-a-recruitment-2026",
-    "b": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar",
-    "t": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar Recruitment 2026 Notification Out for 38 Project Assistant II, Project Associate and More Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026 up to 5:00 PM",
-    "a": "PME/P86/2026",
-    "q": "Diploma | B.Tech / B.E | M.Sc",
-    "desc": "CSIR Institute of Minerals and Materials Technology (CSIR IMMT), Bhubaneswar has officially released employment advertisement notification PME/P86/2026 for the recruitment of 38 vacancies for Project Assistant II, Project Associate and More posts.",
-    "u": "https://rects.immt.res.in/advt/advt_P86.pdf"
-},
-  {
-    "id": "north-eastern-hill-university-project-research-scientist-non-recruitment-2026",
-    "b": "North Eastern Hill University (NEHU)",
-    "t": "North Eastern Hill University (NEHU) Recruitment 2026 Notification Out for 1 Project Research Scientist [Non Medical (NM)] I Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "11 September 2026",
-    "a": "NORTH-EASTERN-/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
-    "desc": "North Eastern Hill University (NEHU) has officially released employment advertisement notification NORTH-EASTERN-/2026 for the recruitment of 1 vacancies for Project Research Scientist [Non Medical (NM)] I posts.",
-    "u": "https://nehu.ac.in/public/assets/files/advertisements/20260901093936_ICMR-Advt.pdf"
-},
-  {
-    "id": "meghalaya-tourism-development-contractual-posts-recruitment-2026",
-    "b": "Meghalaya Tourism Development Corporation",
-    "t": "Meghalaya Tourism Development Corporation Recruitment 2026 Notification Out for 16 Contractual Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "11 September 2026",
-    "a": "MTDC/PER/470/Advertisement/2018-2019/",
-    "q": "Any Bachelor's Degree",
-    "desc": "Meghalaya Tourism Development Corporation has officially released employment advertisement notification MTDC/PER/470/Advertisement/2018-2019/ for the recruitment of 16 vacancies for Contractual Posts posts.",
-    "u": "https://rpa.meghalaya.gov.in/docs/MTDC_ADV_AUG2026.pdf"
-},
-  {
     "id": "homi-bhabha-centre-for-science-scientific-assistant-b-recruitment-2026",
     "b": "Homi Bhabha Centre for Science Education (HBCSE)",
     "t": "Homi Bhabha Centre for Science Education (HBCSE) Recruitment 2026 Notification Out for 1 Scientific Assistant (B) Posts | Apply Online",
@@ -8997,17 +6929,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Higher Secondary Certificate Examination (12th Pass / HSC)",
     "desc": "The Collector and District Magistrate Office, Solapur (District Setu Committee) has officially issued recruitment proclamation notice No. पत्रजाक्र-२०२६/मशा/कार्या-५/सेतू/प्रक्र-३६/आरआर-६७१ dated 31 August 2026 for establishing 592 Aaple Sarkar Seva Kendras (ASSK / Maha e-Seva Kendra / Village Level Entrepreneur Centers) across rural Gram Panchayats and urban local bodies in Solapur district.",
     "u": "https://cdn.s3waas.gov.in/s3acc3e0404646c57502b480dc052c4fe1/uploads/2026/09/17882418299850.pdf"
-},
-  {
-    "id": "advanced-centre-for-treatment-trial-coordinator-recruitment-2026",
-    "b": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
-    "t": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 Notification Out for 1 Trial Coordinator Posts | Walk-in Interview",
-    "d": "03 September 2026",
-    "l": "16 September 2026 (Walk-in)",
-    "a": "ADVANCED-CENTR/2026",
-    "q": "Diploma | Any Bachelor's Degree",
-    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially released employment advertisement notification ADVANCED-CENTR/2026 for the recruitment of 1 vacancies for Trial Coordinator posts.",
-    "u": "https://actrec.gov.in/sites/default/files/2026-09/Revised%20Final%20Advt-182-%20Trial%20Coordinator.pdf"
 },
   {
     "id": "ordnance-factory-hospital-dehu-mbbs-doctor-recruitment-2026",
@@ -9054,17 +6975,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://bel-india.in/wp-content/uploads/2026/09/E-II-adv-14FTE-02092026-Final-1-1.pdf"
 },
   {
-    "id": "sree-chitra-tirunal-institute-project-assistant-recruitment-2026",
-    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
-    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
-    "d": "03 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "P&A.II/34/PA/P.8264/BMT-SCTIMST/2026",
-    "q": "Diploma | B.Tech / B.E",
-    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology has officially released employment advertisement notification P&A.II/34/PA/P.8264/BMT-SCTIMST/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
-    "u": "https://www.sctimst.ac.in/recruitment/RESOURCES/B_2026-27_1589.pdf"
-},
-  {
     "id": "kerala-high-court-various-posts-recruitment-2026",
     "b": "Kerala High Court",
     "t": "Kerala High Court Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
@@ -9076,17 +6986,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://highcourt.kerala.gov.in/"
 },
   {
-    "id": "national-institute-of-mental-h-research-associate-grade-iii-recruitment-2026",
-    "b": "National Institute of Mental Health and Neuro Sciences (NIMHANS)",
-    "t": "National Institute of Mental Health and Neuro Sciences (NIMHANS) Recruitment 2026 Notification Out for 1 Research Associate Grade III Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "12 September 2026",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
-    "desc": "National Institute of Mental Health and Neuro Sciences (NIMHANS) has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Research Associate Grade III posts.",
-    "u": "https://nimhansbkt.demo-appiness.com/prodnimhans/documents/announcements/dca82742462645a7a76f8f739c307f89.pdf"
-},
-  {
     "id": "kodagu-district-court-typist-driver-process-server-p-recruitment-2026",
     "b": "Kodagu District Court",
     "t": "Kodagu District Court Recruitment 2026 Notification Out for 39 Typist, Driver, Process Server, Peon/Attender Posts | Apply Online",
@@ -9096,28 +6995,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Kodagu District Court has officially released employment advertisement notification KODAGU-DISTRIC/2026 for the recruitment of 39 vacancies for Typist, Driver, Process Server, Peon/Attender posts.",
     "u": "https://cdnbbsr.s3waas.gov.in/s3ec01be767243ca8f574c740fb4c26cc6/uploads/2026/07/2026090161.pdf"
-},
-  {
-    "id": "uttara-kannada-district-court-process-server-peon-recruitment-2026",
-    "b": "Uttara Kannada District Court",
-    "t": "Uttara Kannada District Court Recruitment 2026 Notification Out for 1 Process Server & Peon Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "16 September 2026, 11:59 PM",
-    "a": "1/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Uttara Kannada District Court has officially released employment advertisement notification 1/2026 for the recruitment of 1 vacancies for Process Server & Peon posts.",
-    "u": "https://uttarakannada.dcourts.gov.in/notice-category/recruitments/"
-},
-  {
-    "id": "indian-institute-of-technology-junior-research-fellow-jrf-sen-recruitment-2026",
-    "b": "Indian Institute of Technology (ISM) Dhanbad",
-    "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 Notification Out for 3 Junior Research Fellow (JRF) / Senior Research Fellow (SRF) and Postdoctoral Fellow (PDF) Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "DST/OTC/NOWO/A/2026/01 (G)",
-    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology (ISM) Dhanbad has officially released employment advertisement notification DST/OTC/NOWO/A/2026/01 (G) for the recruitment of 3 vacancies for Junior Research Fellow (JRF) / Senior Research Fellow (SRF) and Postdoctoral Fellow (PDF) posts.",
-    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1733/Project%20JRF_2026-09-01_13-43-44.pdf"
 },
   {
     "id": "sail-bokaro-general-hospital-s-audiologist-recruitment-2026",
@@ -9153,17 +7030,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://hppsc.hp.gov.in/CommonControls/ViewCMSFile?qs=KI3gZ53zz1wSGo29lXLTBfw1DHezN8KfEg%2BrikZhi%2FLLqiZME0%2BQRfdkGlH8WWhtZ6yT8GJ18LCaAcw%2F5Y%2BoDQd5Z0v908e3ZJyFRBKQAkw%3D"
 },
   {
-    "id": "pucb-junior-accountant-senior-clerk-recruitment-2026",
-    "b": "PUCB",
-    "t": "PUCB Recruitment 2026 Notification Out for 19 Junior Accountant, Senior Clerk and More Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "15 September 2026 (up to 5:00 p.m.)",
-    "a": "PUCB/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "PUCB has officially released employment advertisement notification PUCB/2026 for the recruitment of 19 vacancies for Junior Accountant, Senior Clerk and More posts.",
-    "u": "https://pucb.in/career/images/Application.pdf"
-},
-  {
     "id": "central-salt-marine-chemicals-project-associate-i-field-assi-recruitment-2026",
     "b": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI)",
     "t": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI) Recruitment 2026 Notification Out for 3 Project Associate I / Field Assistant / Senior Project Associate Posts | Apply Online",
@@ -9184,39 +7050,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "M.Sc | Ph.D / Doctorate",
     "desc": "National Institute of Technology Goa (NIT Goa) has officially released employment advertisement notification NITGOA/RECT/CONT/2026/57 for the recruitment of 1 vacancies for Faculty posts.",
     "u": "https://nitgoa.ac.in/uploads/Advt_Maths%2031august2026.pdf"
-},
-  {
-    "id": "sanjay-gandhi-memorial-hospita-senior-resident-dental-oral-ma-recruitment-2026",
-    "b": "Sanjay Gandhi Memorial Hospital (SGMH Delhi)",
-    "t": "Sanjay Gandhi Memorial Hospital (SGMH Delhi) Recruitment 2026 Notification Out for 4 Senior Resident, Dental (Oral & Maxillofacial Surgeon) Posts | Apply Offline",
-    "d": "03 September 2026",
-    "l": "14 September 2026",
-    "a": "SANJAY-GANDHI-/2026",
-    "q": "BDS / Dental",
-    "desc": "Sanjay Gandhi Memorial Hospital (SGMH Delhi) has officially released employment advertisement notification SANJAY-GANDHI-/2026 for the recruitment of 4 vacancies for Senior Resident, Dental (Oral & Maxillofacial Surgeon) posts.",
-    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsgm_12.pdf"
-},
-  {
-    "id": "edcil-kvs-pmu-architect-senior-engineer-civi-recruitment-2026",
-    "b": "EdCIL KVS PMU",
-    "t": "EdCIL KVS PMU Recruitment 2026 Notification Out for 1 Architect, Senior Engineer (Civil), Engineer (Civil), Junior Engineer (Civil), AutoCAD/Revit Operator, Young Professional (Data Management & Web Monitoring) Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "EdCIL/TSG/KVS/PMU/2026-01, dated 02.09.2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "EdCIL KVS PMU has officially released employment advertisement notification EdCIL/TSG/KVS/PMU/2026-01, dated 02.09.2026 for the recruitment of 1 vacancies for Architect, Senior Engineer (Civil), Engineer (Civil), Junior Engineer (Civil), AutoCAD/Revit Operator, Young Professional (Data Management & Web Monitoring) posts.",
-    "u": "https://www.edcilindia.co.in/Default/ViewFile/?id=1788277002955_KVS%20-%20complete%20ad%20(1).pdf&path=TCareer"
-},
-  {
-    "id": "news-services-division-akashva-production-assistant-recruitment-2026",
-    "b": "News Services Division Akashvani",
-    "t": "News Services Division Akashvani Recruitment 2026 Notification Out for 1 Production Assistant Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "NEWS-SERVICES-/2026",
-    "q": "Any Bachelor's Degree",
-    "desc": "News Services Division Akashvani has officially released employment advertisement notification NEWS-SERVICES-/2026 for the recruitment of 1 vacancies for Production Assistant posts.",
-    "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/09/Empanelment_of_Casual_Assignees.pdf"
 },
   {
     "id": "national-health-systems-resour-consultant-advisor-and-more-recruitment-2026",
@@ -9263,28 +7096,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s3daca41214b39c5dc66674d09081940f0/uploads/2026/08/17878051758264.pdf"
 },
   {
-    "id": "national-institute-of-technolo-junior-research-fellow-jrf-recruitment-2026",
-    "b": "National Institute of Technology Silchar",
-    "t": "National Institute of Technology Silchar Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "15 September 2026",
-    "a": "NITS/ Dean(R&C)/ Chemistry/ 723/ 01/ 2026",
-    "q": "M.Sc",
-    "desc": "National Institute of Technology Silchar has officially released employment advertisement notification NITS/ Dean(R&C)/ Chemistry/ 723/ 01/ 2026 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
-    "u": "https://www.nits.ac.in/storage/CareerDocument/Career_6a96a0e41377f.pdf"
-},
-  {
-    "id": "tata-institute-of-social-scien-assistant-professor-recruitment-2026",
-    "b": "Tata Institute of Social Sciences (TISS)",
-    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Online",
-    "d": "03 September 2026",
-    "l": "16 September 2026",
-    "a": "ADVT/ACAD/TISS-GC/SEPT/2026",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Tata Institute of Social Sciences (TISS) has officially released employment advertisement notification ADVT/ACAD/TISS-GC/SEPT/2026 for the recruitment of 1 vacancies for Assistant Professor posts.",
-    "u": "https://tiss.ac.in/uploads/files/Advt._Assistant_Professor_Sociology_TISS_GC_1.9.2026.pdf"
-},
-  {
     "id": "arunachal-pradesh-psc-group-a-agriculture-development-office-recruitment-2026",
     "b": "Arunachal Pradesh Public Service Commission (APPSC), Itanagar",
     "t": "APPSC Common Recruitment Examination 2026 (Group-A & Group-B Gazetted Technical): Apply Online for 155 ADO, HDO, VO, Assistant Director & DDO Posts",
@@ -9318,39 +7129,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://esic.gov.in/attachments/recruitmentfile/walk_in_interview_Specialist_SR_with_application_form_1788256353.pdf"
 },
   {
-    "id": "allahabad-university-junior-research-assistant-jra-recruitment-2026",
-    "b": "Allahabad University",
-    "t": "Allahabad University Recruitment 2026 Notification Out for 1 Junior Research Assistant (JRA) Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "15 September 2026",
-    "a": "ALLAHABAD-UNIV/2026",
-    "q": "M.Sc",
-    "desc": "Allahabad University has officially released employment advertisement notification ALLAHABAD-UNIV/2026 for the recruitment of 1 vacancies for Junior Research Assistant (JRA) posts.",
-    "u": "https://allduniv.ac.in/upload/file_collection/JRA%20ADV.%20%20UPCST%203108.pdf"
-},
-  {
-    "id": "up-anganwadi-helper-544-recruitment-2026",
-    "b": "Child Development Services & Nutrition (ICDS), Uttar Pradesh",
-    "t": "UP Anganwadi Sahayika (Helper) Recruitment 2026: 544 Vacancies across 11 Project Blocks | Apply Online",
-    "d": "August 2026",
-    "l": "13 September 2026 (12:00 Midnight)",
-    "a": "Order No. S-64 / Ba.Vi.Pa. / 2026-27 | Notification Ref: 1092245/2025/3313/58-1-2025(1917687)",
-    "q": "Intermediate (10+2 / 12th Pass) from recognized Board",
-    "desc": "The Department of Women and Child Development & ICDS, Uttar Pradesh, has issued official vacancy notification for 544 Anganwadi Sahayika (Helper) posts across 11 rural and urban project development blocks.",
-    "u": "http://upanganwadibharti.in"
-},
-  {
-    "id": "hamirpur-up-anganwadi-worker-80-recruitment-2026",
-    "b": "Child Development Services & Nutrition (ICDS), Hamirpur District, Uttar Pradesh",
-    "t": "UP Hamirpur Anganwadi Karyakatri (Worker) Recruitment 2026: 80 Vacancies across Project Blocks | Apply Online",
-    "d": "25 August 2026",
-    "l": "16 September 2026 (12:00 Midnight)",
-    "a": "Order No. 1787817543 / Ba.Vi.Pa. / Vigyapti / 2026-27 | Ref: 2025/3313/58-1-2025(1917687)",
-    "q": "Intermediate (Class 12th / 10+2 Pass)",
-    "desc": "The Office of the District Program Officer (ICDS), Hamirpur, Uttar Pradesh, has released the official notification for recruitment to 80 vacancies of Anganwadi Karyakatri (Worker) across rural and urban project areas in Hamirpur district.",
-    "u": "https://upanganwadibharti.in"
-},
-  {
     "id": "indian-veterinary-research-ins-young-professional-ii-recruitment-2026",
     "b": "Indian Veterinary Research Institute (ICAR IVRI)",
     "t": "Indian Veterinary Research Institute (ICAR IVRI) Recruitment 2026 Notification Out for 1 Young Professional-II Posts | Walk-in Interview",
@@ -9371,17 +7149,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS / Medical PG | Any Bachelor's Degree",
     "desc": "Chief Medical Office Chitrakoot (CMO Chitrakoot) has officially released employment advertisement notification CHIEF-MEDICAL-/2026 for the recruitment of 11 vacancies for Medical Officer (MBBS) posts.",
     "u": "https://cdn.s3waas.gov.in/s33b8a614226a953a8cd9526fca6fe9ba5/uploads/2026/08/17880038828605.pdf"
-},
-  {
-    "id": "chief-medical-office-farrukhab-district-grievance-manager-recruitment-2026",
-    "b": "Chief Medical Office Farrukhabad (CMO Farrukhabad)",
-    "t": "Chief Medical Office Farrukhabad (CMO Farrukhabad) Recruitment 2026 Notification Out for 1 District Grievance Manager Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "17 September 2026",
-    "a": "CHIEF-MEDICAL-/2026",
-    "q": "Diploma | MBA / BBA | Master's / PG Degree",
-    "desc": "Chief Medical Office Farrukhabad (CMO Farrukhabad) has officially released employment advertisement notification CHIEF-MEDICAL-/2026 for the recruitment of 1 vacancies for District Grievance Manager posts.",
-    "u": "https://cdn.s3waas.gov.in/s37a614fd06c325499f1680b9896beedeb/uploads/2026/08/17881682296485.pdf"
 },
   {
     "id": "khammam-district-court-special-judicial-magistrate-of-recruitment-2026",
@@ -9406,17 +7173,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://docs.google.com/viewer?url=https%3A%2F%2Fwww.vocport.gov.in%2Fapi%2Ffiles%2Fcareers%2Fcareer-1788160631047-654451472.pdf&embedded=true"
 },
   {
-    "id": "district-health-society-kanche-district-programme-manager-yog-recruitment-2026",
-    "b": "District Health Society Kancheepuram (DHS Kancheepuram)",
-    "t": "District Health Society Kancheepuram (DHS Kancheepuram) Recruitment 2026 Notification Out for 2 District Programme Manager, Yoga and Naturopathy Therapeutic Assistant Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "11 September 2026",
-    "a": "DISTRICT-HEALT/2026",
-    "q": "Diploma | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
-    "desc": "District Health Society Kancheepuram (DHS Kancheepuram) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 2 vacancies for District Programme Manager, Yoga and Naturopathy Therapeutic Assistant posts.",
-    "u": "https://cdn.s3waas.gov.in/s31543843a4723ed2ab08e18053ae6dc5b/uploads/2026/08/17881776532793.pdf"
-},
-  {
     "id": "birla-institute-of-technology-junior-research-fellow-recruitment-2026",
     "b": "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
     "t": "Birla Institute of Technology and Science, Pilani, K K Birla Goa Campus Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
@@ -9437,28 +7193,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "ICMR National Institute of Health Research (ICMR-NIHR) has officially released employment advertisement notification ICMR-NATIONAL-/2026 for the recruitment of 4 vacancies for Program Coordinator, Research Associate posts.",
     "u": "https://nihrjodhpur.icmr.org.in/admin/en_doc/surakshaadv.pdf"
-},
-  {
-    "id": "family-court-kapurthala-counsellor-recruitment-2026",
-    "b": "Family Court Kapurthala",
-    "t": "Family Court Kapurthala Recruitment 2026 Notification Out for 1 Counsellor Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "14 September 2026",
-    "a": "FAMILY-COURT-K/2026",
-    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
-    "desc": "Family Court Kapurthala has officially released employment advertisement notification FAMILY-COURT-K/2026 for the recruitment of 1 vacancies for Counsellor posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2026/08/2026083116.pdf"
-},
-  {
-    "id": "women-and-child-development-de-anganwadi-worker-recruitment-2026",
-    "b": "Women and Child Development Department Odisha",
-    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 3 Anganwadi Worker Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "17 September 2026",
-    "a": "1010",
-    "q": "10th / 8th Pass | 12th Pass",
-    "desc": "Women and Child Development Department Odisha has officially released employment advertisement notification 1010 for the recruitment of 3 vacancies for Anganwadi Worker posts.",
-    "u": "https://engagement-awc.odisha.gov.in/download-aww-event-document?awwEventHistoryId=170865"
 },
   {
     "id": "icar-central-rice-research-ins-senior-research-fellow-srf-recruitment-2026",
@@ -9483,17 +7217,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/RSP_News%20&%20Jobs_31082026_181349.pdf"
 },
   {
-    "id": "meghalaya-civil-secretariat-peon-chowkidar-and-more-recruitment-2026",
-    "b": "Secretariat Administration Department (Nazarat), Government of Meghalaya",
-    "t": "Meghalaya Civil Secretariat Grade IV Recruitment 2026: 153 Peon, Cleaner, Sweeper, Chowkidar and Mali Posts | Apply Online",
-    "d": "17 August 2026",
-    "l": "18 September 2026 (5:00 PM)",
-    "a": "SAN.66/2019/89, dated 17.08.2026",
-    "q": "Class VI Passed",
-    "desc": "Government of Meghalaya, Secretariat Administration Department (Nazarat), Meghalaya Civil Secretariat, Shillong has issued official employment advertisement No. SAN.66/2019/89 dated 17th August 2026 inviting online applications from eligible Indian citizens for 153 Grade IV vacancies. The advertised positions comprise 124 posts of Peon, 17 posts of Cleaner, 6 posts of Sweeper, 3 posts of Chowkidar, and 3 posts of Mali in Level-1 of the Pay Matrix plus usual allowances admissible under the Meghalaya Government Rules.",
-    "u": "https://rpa.meghalaya.gov.in/"
-},
-  {
     "id": "vehicle-research-and-developme-junior-research-fellow-recruitment-2026",
     "b": "Vehicle Research and Development Organization (VRDE DRDO)",
     "t": "Vehicle Research and Development Organization (VRDE DRDO) Recruitment 2026 Notification Out for 5 Junior Research Fellow Posts | Walk-in Interview",
@@ -9505,17 +7228,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtVRDE31082026En.pdf"
 },
   {
-    "id": "brihanmumbai-municipal-corpora-d-category-contractual-worker-recruitment-2026",
-    "b": "Brihanmumbai Municipal Corporatio (BMC)",
-    "t": "Brihanmumbai Municipal Corporatio (BMC) Recruitment 2026 Notification Out for 6 D Category Contractual Worker Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "12 September 2026",
-    "a": "HO/548/MRMAH dt. 27.08.2026",
-    "q": "10th Pass / Secondary Pass (Group D / Sweeper / Gardener)",
-    "desc": "Brihanmumbai Municipal Corporatio (BMC) has officially released employment advertisement notification HO/548/MRMAH dt. 27.08.2026 for the recruitment of 6 vacancies for D Category Contractual Worker posts.",
-    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/%e0%a4%b8%e0%a4%82%e0%a4%95%e0%a5%87%e0%a4%a4%e0%a4%b8%e0%a5%8d_%e0%a4%a5%e0%a4%b3%e0%a4%be%e0%a4%b5%e0%a4%b0%20%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b8%e0%a4%bf%e0%a4%a7%e0%a5%8d_%e0%a4%a6%20%e0%a4%95%e0%a4%b0%e0%a4%be%e0%a4%b5%e0%a4%af321.pdf"
-},
-  {
     "id": "employees-state-insurance-soci-speciality-medical-officer-gyn-recruitment-2026",
     "b": "Employees State Insurance Society Hospital (ESIS Hospital Mulund)",
     "t": "Employees State Insurance Society Hospital (ESIS Hospital Mulund) Recruitment 2026 Notification Out for 1 Speciality Medical Officer - Gynecology Posts | Walk-in Interview",
@@ -9525,17 +7237,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
     "desc": "Employees State Insurance Society Hospital (ESIS Hospital Mulund) has officially released employment advertisement notification EMPLOYEES-STAT/2026 for the recruitment of 1 vacancies for Speciality Medical Officer - Gynecology posts.",
     "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interviews_for_appointment_of_Speciality_Medical_Officer_on_Contract_basis_in_ESI_Society_Hospital_Mulund_1788246336.pdf"
-},
-  {
-    "id": "indian-institute-of-management-assistant-engineer-audio-visua-recruitment-2026",
-    "b": "Indian Institute of Management Indore (IIM Indore)",
-    "t": "Indian Institute of Management Indore (IIM Indore) Recruitment 2026 Notification Out for 1 Assistant Engineer (Audio Visual) Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "17 September 2026",
-    "a": "INDIAN-INSTITU/2026",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Indian Institute of Management Indore (IIM Indore) has officially released employment advertisement notification INDIAN-INSTITU/2026 for the recruitment of 1 vacancies for Assistant Engineer (Audio Visual) posts.",
-    "u": "https://iimidr.ac.in/careers/manpower-agency-vacancies/assistant-engineer-audio-visual/"
 },
   {
     "id": "indian-institute-of-management-post-doctoral-fellow-pdf-opera-recruitment-2026",
@@ -9560,28 +7261,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.gailonline.com/careers/currentOpnning/Detailed-Adv-01-09-26.pdf"
 },
   {
-    "id": "dr-harisingh-gour-vishwavidyal-junior-research-fellow-jrf-recruitment-2026",
-    "b": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU)",
-    "t": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "16 September 2026",
-    "a": "ANRF-ARG/ENVS/2026/607",
-    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
-    "desc": "Dr. Harisingh Gour Vishwavidyalaya (DHSGSU) has officially released employment advertisement notification ANRF-ARG/ENVS/2026/607 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
-    "u": "https://dhsgsu.edu.in/images/2026/September-26/01/Advertisment_ANRF_Environmental-Sciences.pdf"
-},
-  {
-    "id": "national-institute-of-technolo-project-associate-i-recruitment-2026",
-    "b": "National Institute of Technology Calicut",
-    "t": "National Institute of Technology Calicut Recruitment 2026 Notification Out for 2 Project Associate I Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "13 September 2026",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "B.Tech / B.E | M.Tech / M.E",
-    "desc": "National Institute of Technology Calicut has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 2 vacancies for Project Associate I posts.",
-    "u": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__395e0d5b-b079-469a-abb9-2d1f3cfa2147_.pdf"
-},
-  {
     "id": "kerala-public-service-commissi-junior-assistant-beat-forest-o-recruitment-2026",
     "b": "Kerala Public Service Commission (Kerala PSC)",
     "t": "Kerala Public Service Commission (Kerala PSC) Recruitment 2026 Notification Out for 31 Junior Assistant, Beat Forest Officer and More Posts | Apply Online",
@@ -9591,17 +7270,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass | 12th Pass | Diploma",
     "desc": "Kerala Public Service Commission (Kerala PSC) has officially released employment advertisement notification KERALA-PUBLIC-/2026 for the recruitment of 31 vacancies for Junior Assistant, Beat Forest Officer and More Posts posts.",
     "u": "https://www.keralapsc.gov.in/extra-ordinary-gazette-date-31082026"
-},
-  {
-    "id": "spices-board-trainee-qel-chemistry-recruitment-2026",
-    "b": "Spices Board",
-    "t": "Spices Board Recruitment 2026 Notification Out for 2 Trainee (QEL Chemistry) Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "11 September 2026",
-    "a": "SPICES-BOARD/2026",
-    "q": "Any Bachelor's Degree",
-    "desc": "Spices Board has officially released employment advertisement notification SPICES-BOARD/2026 for the recruitment of 2 vacancies for Trainee (QEL Chemistry) posts.",
-    "u": "https://www.indianspices.com/opportunities/details.html?id=897"
 },
   {
     "id": "drdo-npol-junior-research-fell-various-posts-recruitment-2026",
@@ -9648,17 +7316,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://rcb.res.in/files/advertisement-files/advt._no._28_project_2026_hr.pdf"
 },
   {
-    "id": "national-brain-research-centre-research-associate-i-project-recruitment-2026",
-    "b": "National Brain Research Centre (NBRC)",
-    "t": "National Brain Research Centre (NBRC) Recruitment 2026 Notification Out for 1 Research Associate-I (Project) Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "16 September 2026",
-    "a": "NATIONAL-BRAIN/2026",
-    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
-    "desc": "National Brain Research Centre (NBRC) has officially released employment advertisement notification NATIONAL-BRAIN/2026 for the recruitment of 1 vacancies for Research Associate-I (Project) posts.",
-    "u": "https://www.nbrc.ac.in/newweb/wp-content/uploads/2026/08/Dr-sourav-lab-RA1.pdf"
-},
-  {
     "id": "rail-india-technical-and-econo-gm-team-leader-metro-works-jgm-recruitment-2026",
     "b": "Rail India Technical and Economic Service (RITES)",
     "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 3 GM (Team Leader / Metro works), JGM (Geotechnical Expert / Metro works), DGM (Architect / Metro works) Posts | Apply Online",
@@ -9668,17 +7325,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
     "desc": "Rail India Technical and Economic Service (RITES) has officially released employment advertisement notification RAIL-INDIA-TEC/2026 for the recruitment of 3 vacancies for GM (Team Leader / Metro works), JGM (Geotechnical Expert / Metro works), DGM (Architect / Metro works) posts.",
     "u": "https://www.rites.com/Upload/Career/Final_ad_(1)_pdf-2026-Sep-01-11-36-31.pdf"
-},
-  {
-    "id": "rail-india-technical-and-econo-individual-consultant-nx-desig-recruitment-2026",
-    "b": "Rail India Technical and Economic Service (RITES)",
-    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 4 Individual Consultant: NX Design Engineer Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "15 September 2026",
-    "a": "RAIL-INDIA-TEC/2026",
-    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Rail India Technical and Economic Service (RITES) has officially released employment advertisement notification RAIL-INDIA-TEC/2026 for the recruitment of 4 vacancies for Individual Consultant: NX Design Engineer posts.",
-    "u": "https://www.rites.com/Upload/Career/Advt_YP_13-R1_25_(1)_pdf-2026-Sep-01-16-25-56.pdf"
 },
   {
     "id": "central-salt-marine-chemicals-project-associate-i-pat-i-recruitment-2026",
@@ -9703,17 +7349,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://iari.res.in/files/jobs/2026_Application_SRF_31082026.pdf"
 },
   {
-    "id": "indian-ports-association-ipa-senior-consultant-consultant-recruitment-2026",
-    "b": "Indian Ports Association (IPA)",
-    "t": "Indian Ports Association (IPA) Recruitment 2026 Notification Out for 5 Senior Consultant / Consultant Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "18 September 2026",
-    "a": "IPA/ IC-CONSULTANTS- MoPSW/2026",
-    "q": "Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Indian Ports Association (IPA) has officially released employment advertisement notification IPA/ IC-CONSULTANTS- MoPSW/2026 for the recruitment of 5 vacancies for Senior Consultant / Consultant posts.",
-    "u": "https://www.ipa.org.in"
-},
-  {
     "id": "ircon-renewable-power-irpl-finance-assistant-company-secr-recruitment-2026",
     "b": "Ircon Renewable Power (IRPL)",
     "t": "Ircon Renewable Power (IRPL) Recruitment 2026 Notification Out for 2 Finance Assistant, Company Secretary Posts | Apply Offline",
@@ -9723,17 +7358,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "12th Pass",
     "desc": "Ircon Renewable Power (IRPL) has officially released employment advertisement notification IRPL/C02/2026 for the recruitment of 2 vacancies for Finance Assistant, Company Secretary posts.",
     "u": "https://www.ircon.org/sites/default/files/2026-08/Advt%20%20No%20IRPL%20C02%202026.pdf"
-},
-  {
-    "id": "digital-india-corporation-dic-assistant-manager-future-skill-recruitment-2026",
-    "b": "Digital India Corporation (DIC)",
-    "t": "Digital India Corporation (DIC) Recruitment 2026 Notification Out for 2 Assistant Manager - Future Skills Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "11 September 2026",
-    "a": "INDAI/160/2026-INDAI",
-    "q": "Any Bachelor's Degree",
-    "desc": "Digital India Corporation (DIC) has officially released employment advertisement notification INDAI/160/2026-INDAI for the recruitment of 2 vacancies for Assistant Manager - Future Skills posts.",
-    "u": "https://dicmedia.digitalindiacorporation.in/JD-Asst.-Manager-Future-Skill.pdf"
 },
   {
     "id": "delhi-college-of-arts-commerce-guest-faculty-recruitment-2026",
@@ -9758,17 +7382,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.lifecarehll.com/careers/view/reference/03f544613917945245041ea1581df0c2hX-Kgg"
 },
   {
-    "id": "delhi-university-music-teacher-part-time-recruitment-2026",
-    "b": "Delhi University",
-    "t": "Delhi University Recruitment 2026 Notification Out for 1 Music Teacher (Part-Time) Posts | Walk-in Interview",
-    "d": "01 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "DELHI-UNIVERSI/2026",
-    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
-    "desc": "Delhi University has officially released employment advertisement notification DELHI-UNIVERSI/2026 for the recruitment of 1 vacancies for Music Teacher (Part-Time) posts.",
-    "u": "https://www.du.ac.in/uploads/2026/25082026_CIE-Advertisement_Music_Teacher.pdf"
-},
-  {
     "id": "icar-indian-agricultural-resea-junior-research-fellowsenior-r-recruitment-2026",
     "b": "ICAR Indian Agricultural Research Institute",
     "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 Notification Out for 3 Junior Research Fellow/Senior Research Fellow and Field Assistant Posts | Apply Online",
@@ -9791,61 +7404,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01-09-2026.pdf"
 },
   {
-    "id": "government-college-daman-assistant-professor-recruitment-2026",
-    "b": "Government College Daman",
-    "t": "Government College Daman Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "15 September 2026",
-    "a": "GC/DMN/PG/Application STC/2026-27/693",
-    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "Government College Daman has officially released employment advertisement notification GC/DMN/PG/Application STC/2026-27/693 for the recruitment of 1 vacancies for Assistant Professor posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/08/202608311835181932.pdf"
-},
-  {
-    "id": "indian-institute-of-technology-assistant-training-and-placeme-recruitment-2026",
-    "b": "Indian Institute of Technology Bhilai (IIT Bhilai)",
-    "t": "Indian Institute of Technology Bhilai (IIT Bhilai) Recruitment 2026 Notification Out for 1 Assistant Training and Placement Officer Posts | Apply Online",
-    "d": "01 September 2026",
-    "l": "14 September 2026",
-    "a": "IITBhilai/ESTT/Staff-Rec./2026/131",
-    "q": "B.Tech / B.E | Any Bachelor's Degree",
-    "desc": "Indian Institute of Technology Bhilai (IIT Bhilai) has officially released employment advertisement notification IITBhilai/ESTT/Staff-Rec./2026/131 for the recruitment of 1 vacancies for Assistant Training and Placement Officer posts.",
-    "u": "https://www.iitbhilai.ac.in/index.php?pid=adv_atpo_240826"
-},
-  {
-    "id": "women-and-child-development-de-security-guard-night-guard-recruitment-2026",
-    "b": "Women and Child Development Department Dhamtari",
-    "t": "Women and Child Development Department Dhamtari Recruitment 2026 Notification Out for 1 Security Guard/ Night Guard Posts | Walk-in Interview",
-    "d": "01 September 2026",
-    "l": "11 September 2026 (Walk-in)",
-    "a": "WOMEN-AND-CHIL/2026",
-    "q": "10th / 8th Pass",
-    "desc": "Women and Child Development Department Dhamtari has officially released employment advertisement notification WOMEN-AND-CHIL/2026 for the recruitment of 1 vacancies for Security Guard/ Night Guard posts.",
-    "u": "https://cdn.s3waas.gov.in/s3b5dc4e5d9b495d0196f61d45b26ef33e/uploads/2026/08/17881497866971.pdf"
-},
-  {
-    "id": "industrial-training-institute-guest-lecturer-copa-recruitment-2026",
-    "b": "Industrial Training Institute Kondagaon",
-    "t": "Industrial Training Institute Kondagaon Recruitment 2026 Notification Out for 1 Guest Lecturer (COPA) Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "12 September 2026",
-    "a": "Order No. 931 dated 06-08-2026",
-    "q": "ITI | MCA / BCA | Any Bachelor's Degree",
-    "desc": "Industrial Training Institute Kondagaon has officially released employment advertisement notification Order No. 931 dated 06-08-2026 for the recruitment of 1 vacancies for Guest Lecturer (COPA) posts.",
-    "u": "https://cdn.s3waas.gov.in/s36ea9ab1baa0efb9e19094440c317e21b/uploads/2026/09/17882446195030.pdf"
-},
-  {
-    "id": "sainik-school-ambikapur-laboratory-assistant-biology-p-recruitment-2026",
-    "b": "Sainik School Ambikapur",
-    "t": "Sainik School Ambikapur Recruitment 2026 Notification Out for 7 Laboratory Assistant (Biology), PE/MATH cum Matron (Female only), Band Master/Music Teacher, Ward Boy (General service) Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "11 September 2026",
-    "a": "SAINIK-SCHOOL-/2026",
-    "q": "10th / 8th Pass | 12th Pass | Diploma",
-    "desc": "Sainik School Ambikapur has officially released employment advertisement notification SAINIK-SCHOOL-/2026 for the recruitment of 7 vacancies for Laboratory Assistant (Biology), PE/MATH cum Matron (Female only), Band Master/Music Teacher, Ward Boy (General service) posts.",
-    "u": "https://sainikschoolambikapur.org.in/pdf/Recruit%20of%20Staff_2026.pdf"
-},
-  {
     "id": "pgimer-mts-pharmacist-and-more-recruitment-2026",
     "b": "Postgraduate Institute of Medical Education & Research (PGIMER), Chandigarh",
     "t": "PGIMER Chandigarh Recruitment 2026: 60 MTS, Pharmacist, Medical Officer, Computer Programmer Posts | Apply Online",
@@ -9855,17 +7413,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass / Diploma / Degree / MBBS (as per post)",
     "desc": "Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh has released official notification Advt No. PGI/RC/053/2026/2192 inviting online applications for 60 vacancies on a direct recruitment basis. The advertised vacancies include 57 Group 'C' posts for PGIMER Chandigarh and 3 Group 'A', 'B' & 'C' posts for PGI Satellite Centre, Sangrur (Punjab).",
     "u": "https://pgimer.edu.in"
-},
-  {
-    "id": "postgraduate-institute-of-medi-lab-technician-recruitment-2026",
-    "b": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER)",
-    "t": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER) Recruitment 2026 Notification Out for 2 Lab Technician Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "15 September 2026",
-    "a": "POSTGRADUATE-I/2026",
-    "q": "Diploma | B.Sc | MBBS / Medical PG",
-    "desc": "Postgraduate Institute of Medical Education & Research Chandigarh (PGIMER) has officially released employment advertisement notification POSTGRADUATE-I/2026 for the recruitment of 2 vacancies for Lab Technician posts.",
-    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15555"
 },
   {
     "id": "bihar-state-power-holding-comp-managerhr-recruitment-2026",
@@ -9888,28 +7435,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Any Bachelor's Degree",
     "desc": "Central Agricultural University Imphal (CAU Imphal) has officially released employment advertisement notification CENTRAL-AGRICU/2026 for the recruitment of 4 vacancies for Project Assistant, Young Professional I, Field Assistant posts.",
     "u": "https://cau.ac.in/walk-in-interview-for-project-assistant-young-professional-i-yp-i-field-assistant-for-college-of-agriculture-pasighat-arunachal-pradesh/"
-},
-  {
-    "id": "indian-institute-of-technology-research-associate-recruitment-2026",
-    "b": "Indian Institute of Technology Tirupati",
-    "t": "Indian Institute of Technology Delhi Recruitment 2026 Notification Out for 1 Research Associate Posts | Walk-in Interview",
-    "d": "01 September 2026",
-    "l": "14 September 2026",
-    "a": "Advt/ IITT/CSRC/26-27/11",
-    "q": "Ph.D / Doctorate",
-    "desc": "Indian Institute of Technology Delhi has officially released employment advertisement notification IITD/IRD/228/2026 for the recruitment of 1 vacancies for Research Associate posts.",
-    "u": "https://files.iittp.ac.in/2026/recruitment/project/AdvtIITTCSRC26-2711.pdf"
-},
-  {
-    "id": "ap-police-prakasam-district-record-assistant-sweeper-and-m-recruitment-2026",
-    "b": "AP Police Prakasam District",
-    "t": "AP Police Prakasam District Recruitment 2026 Notification Out for 37 Record Assistant, Sweeper and More Posts | Apply Offline",
-    "d": "01 September 2026",
-    "l": "11 September 2026",
-    "a": "AP-POLICE-PRAK/2026",
-    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
-    "desc": "AP Police Prakasam District has officially released employment advertisement notification AP-POLICE-PRAK/2026 for the recruitment of 37 vacancies for Record Assistant, Sweeper and More posts.",
-    "u": "https://cdn.s3waas.gov.in/s3f3f27a324736617f20abbf2ffd806f6d/uploads/2026/08/17881893171148.pdf"
 },
   {
     "id": "ibps-rrb-crp-xv-officer-office-assistant-recruitment-2026",
@@ -9956,28 +7481,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.tnpscexams.in/"
 },
   {
-    "id": "iit-delhi-senior-research-fellow-srf-recruitment-2026",
-    "b": "Indian Institute of Technology Delhi (IIT Delhi) / IRD",
-    "t": "IIT Delhi Recruitment 2026 Notification Out for Senior Research Fellow (SRF) Post | Apply by Email",
-    "d": "28 August 2026",
-    "l": "11 September 2026 (05:00 PM)",
-    "a": "Advt. No. IITD/IRD/Project-Position/2026",
-    "q": "M.Sc / B.Tech in Physics/EP/Electronics (Min 80% marks) + 2 Yrs Exp",
-    "desc": "Industrial Research and Development (IRD) Unit at the Indian Institute of Technology Delhi (IIT Delhi) has invited applications from qualified Indian nationals for 1 Senior Research Fellow (SRF) position under an advanced sponsored research project.",
-    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1787911554547_akxu0pt.pdf"
-},
-  {
-    "id": "iit-madras-senior-research-fellow-srf-recruitment-2026",
-    "b": "Indian Institute of Technology Madras (IIT Madras) / IC&SR",
-    "t": "IIT Madras Recruitment 2026 Notification Out for Senior Research Fellow (SRF) Post | Apply Online",
-    "d": "28 August 2026",
-    "l": "11 September 2026 (05:00 PM)",
-    "a": "Advt. No. ICSR/PR/Advt.164/2026 Dated 28.08.2026",
-    "q": "M.Sc / M.Tech / M.E / M.V.Sc with min 80% marks + 2 Yrs Research Experience",
-    "desc": "Centre for Industrial Consultancy and Sponsored Research (IC&SR) at the Indian Institute of Technology Madras (IIT Madras) has released an official recruitment advertisement (Advt. No. ICSR/PR/Advt.164/2026) on 28 August 2026 for 1 Senior Research Fellow (SRF) post on a contractual project basis.",
-    "u": "https://icandsr.iitm.ac.in/careers"
-},
-  {
     "id": "bank-of-india-so-specialist-officers-recruitment-2026",
     "b": "Bank of India (BOI), Head Office Mumbai",
     "t": "Bank of India (BOI) Specialist Officers (SO) Recruitment 2026 (Project No. 2026-27/02) – Apply Online for 205 Posts (Scale I to IV)",
@@ -9998,28 +7501,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "D.El.Ed / B.Ed / 4-Yr B.El.Ed / Master's + CTET / BTET / STET (Level-Wise)",
     "desc": "Bihar Public Service Commission (BPSC), Patna has officially published the comprehensive 24-page notification (Advt. No. 14/2026) for the Fourth Phase School Teacher Recruitment Examination (TRE-4.0) to fill 32,388 School Teacher vacancies under the Education Department, Government of Bihar.",
     "u": "https://onlinebpsc.bihar.gov.in"
-},
-  {
-    "id": "esic-guwahati-teaching-faculty-recruitment-2026",
-    "b": "Employees State Insurance Corporation (ESIC), Guwahati",
-    "t": "ESIC Guwahati Teaching Faculty Recruitment 2026 Notification Out for 33 Posts | Walk-in Interview",
-    "d": "28 August 2026",
-    "l": "15 September 2026 (09:00 AM onwards)",
-    "a": "Advt No. 432-A-12/12/692/2025-Estt Dated 28.08.2026",
-    "q": "MD / MS / DNB in relevant specialty as per NMC norms",
-    "desc": "Employees State Insurance Corporation (ESIC), under the Ministry of Labour & Employment, Government of India, has issued an official recruitment notification (Advt No. 432-A-12/12/692/2025-Estt) on 28 August 2026 for the engagement of 33 Teaching Faculty members on a contractual basis for ESIC Medical College & Hospital, Beltola, Guwahati.",
-    "u": "https://esic.gov.in/attachments/recruitmentfile/ENGAGEMENT_OF_TEACHING_FACULTY_ON_CONTRACTUAL_BASIS_FOR_ESIC_MEDICAL_COLLEGE_amp_HOSPITAL_BELTOLA_GUWAHATI_22_1788005742.pdf"
-},
-  {
-    "id": "hpcl-visakh-refinery-ta-consultant-recruitment-2026",
-    "b": "Hindustan Petroleum Corporation Limited (HPCL), Visakh Refinery",
-    "t": "HPCL Visakh Refinery Turnaround (TA) Consultant Recruitment 2026 Notification Out for 24 Posts",
-    "d": "August 2026",
-    "l": "12 September 2026",
-    "a": "Advertisement - VR TA Consultant 2026 v1",
-    "q": "Diploma / B.Tech / B.E Engineering (Retired PSU Technical Officer / Consultant)",
-    "desc": "Hindustan Petroleum Corporation Limited (HPCL), a Maharatna Central Public Sector Enterprise, has released an official recruitment notification for the engagement of 24 Turnaround Consultants on a short-term contract basis at its Visakh Refinery in Visakhapatnam, Andhra Pradesh.",
-    "u": "https://www.hindustanpetroleum.com/documents/pdf/English%20Advertisement%20-%20VR%20TA%20Consultant%202026%20v1.pdf"
 },
   {
     "id": "iit-tirupati-non-teaching-recruitment-2026",
@@ -10099,28 +7580,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.incometaxindia.gov.in/documents/d/guest/english-version-with-annexures-1-pdf"
 },
   {
-    "id": "rg-kar-medical-college-molecular-biologist-recruitment-2026",
-    "b": "R.G. Kar Medical College",
-    "t": "R.G. Kar Medical College Recruitment 2026 – Apply for 1 Molecular Biologist Posts",
-    "d": "30 August 2026",
-    "l": "18 September 2026",
-    "a": "RKC/3403",
-    "q": "Post Graduate degree in Microbiology or Biotechnology",
-    "desc": "R.G. Kar Medical College has officially released employment advertisement notification RKC/3403 for the recruitment of 1 vacancies for Molecular Biologist posts.",
-    "u": "https://www.wbhealth.gov.in/FileServer/UploadedFiles/Recruitments/Recruitment_a5b9ea19-5a47-4ede-887b-f55fb490957e.pdf"
-},
-  {
-    "id": "uco-bank-manager-20-recruitment-2026",
-    "b": "UCO Bank Manager",
-    "t": "UCO Bank Manager Recruitment 2026 – Apply for 20 20 Posts",
-    "d": "30 August 2026",
-    "l": "18 September 2026",
-    "a": "HO/HRM/RECR/2026-27/COM-01",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "UCO Bank Manager has officially released employment advertisement notification HO/HRM/RECR/2026-27/COM-01 for the recruitment of 20 vacancies for 20 posts.",
-    "u": "https://uco.bank.in/documents/20120/1530093/Recruitment+Advertisement+Specialist+IT+AI+ML+and+Cyber+Security.pdf/e1dd13e1-13de-33df-68f6-b23e5718a6b3?t=1787982612460"
-},
-  {
     "id": "chhatrapati-shahu-ji-maharaj-u-deo-technical-assistant-and-mo-recruitment-2026",
     "b": "Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur (formerly Kanpur University)",
     "t": "Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur (formerly Kanpur University) Recruitment 2026 – Apply for 18 DEO, Technical Assistant and More Posts",
@@ -10165,39 +7624,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://sbi.bank.in/documents/77530/57941334/29082026_FINAL+ADVT+TFO+IBG_SCO+15.pdf/222db64b-91da-cbe8-c439-9af6b1dd06b2?t=1787986916149"
 },
   {
-    "id": "government-sivaganga-medical-c-various-contractual-posts-unde-recruitment-2026",
-    "b": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga)",
-    "t": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga) Recruitment 2026 – Apply for 11 Various Contractual Posts under NHM Posts",
-    "d": "30 August 2026",
-    "l": "11 September 2026",
-    "a": "GOVERNMENT-SIV/2026",
-    "q": "Bachelor Degree in Speech & Language pathology/ B.Sc, Bachelor Degree in Phys...",
-    "desc": "Government Sivaganga Medical College Hospital Sivaganga (GMCH Sivaganga) has officially released employment advertisement notification GOVERNMENT-SIV/2026 for the recruitment of 11 vacancies for Various Contractual Posts under NHM posts.",
-    "u": "https://cdn.s3waas.gov.in/s31a5b1e4daae265b790965a275b53ae50/uploads/2026/08/17879151145536.pdf"
-},
-  {
-    "id": "district-health-society-mayila-various-health-posts-recruitment-2026",
-    "b": "District Health Society Mayiladuthurai (DHS Mayiladuthurai)",
-    "t": "District Health Society Mayiladuthurai (DHS Mayiladuthurai) Recruitment 2026 – Apply for 24 Various Health Posts",
-    "d": "30 August 2026",
-    "l": "11 September 2026",
-    "a": "DISTRICT-HEALT/2026",
-    "q": "+2 with Biology/Botany/Zoology, Tamil in SSLC, 2 years MPHW/HI/SI training, G...",
-    "desc": "District Health Society Mayiladuthurai (DHS Mayiladuthurai) has officially released employment advertisement notification DISTRICT-HEALT/2026 for the recruitment of 24 vacancies for Various Health Posts posts.",
-    "u": "https://cdn.s3waas.gov.in/s33871bd64012152bfb53fdf04b401193f/uploads/2026/08/17879194094755.pdf"
-},
-  {
-    "id": "icar-national-research-centre-young-professional-ii-yp-ii-un-recruitment-2026",
-    "b": "ICAR National Research Centre",
-    "t": "ICAR National Research Centre Recruitment 2026 – Apply for 1 Young Professional II (YP II) Under ITMU Cell Posts",
-    "d": "30 August 2026",
-    "l": "16 September 2026",
-    "a": "NRCM(G)194/2026(Vol.VI)",
-    "q": "M.Tech in Biotechnology, M.Sc in Biotechnology, M.Sc in Life Science, M.V.Sc....",
-    "desc": "ICAR National Research Centre has officially released employment advertisement notification NRCM(G)194/2026(Vol.VI) for the recruitment of 1 vacancies for Young Professional II (YP II) Under ITMU Cell posts.",
-    "u": "https://www.nrcm.org.in"
-},
-  {
     "id": "department-of-telecommunicatio-stenographer-grade-i-sr-accoun-recruitment-2026",
     "b": "Department of Telecommunications (DoT)",
     "t": "Department of Telecommunications (DoT) Recruitment 2026 – Apply for 31 Stenographer Grade-I, Sr. Accountant, Junior Accountant, Stenographer Grade-II & LDC Posts",
@@ -10231,17 +7657,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://mrvc.indianrailways.gov.in/uploads/files/V_No21-2026.pdf"
 },
   {
-    "id": "ratnagiri-district-court-contractual-employee-for-e-sev-recruitment-2026",
-    "b": "Ratnagiri District Court",
-    "t": "Ratnagiri District Court Recruitment 2026 – Apply for 1 Contractual Employee for e-Seva Kendra Port Cabins Posts",
-    "d": "30 August 2026",
-    "l": "15 September 2026",
-    "a": "RATNAGIRI-DIST/2026",
-    "q": "Graduate from any branch, Computer knowledge certificate",
-    "desc": "Ratnagiri District Court has officially released employment advertisement notification RATNAGIRI-DIST/2026 for the recruitment of 1 vacancies for Contractual Employee for e-Seva Kendra Port Cabins posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec04dbb422937d7ff56e049d61da730b/uploads/2026/08/2026082831.pdf"
-},
-  {
     "id": "office-of-the-principal-distri-typist-peon-and-more-recruitment-2026",
     "b": "Office of the Principal District and Sessions Judge, Yadgir",
     "t": "Office of the Principal District and Sessions Judge, Yadgir Recruitment 2026 – Apply for 23 Typist, Peon and More Posts",
@@ -10251,17 +7666,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
     "desc": "Office of the Principal District and Sessions Judge, Yadgir has officially released employment advertisement notification J.Nyaya.Aadalita 03/2026 (Typist), 04/2026 (Typist Copyist), 05/2026 (Process Server), 06/2026 (Peon) for the recruitment of 23 vacancies for Typist, Peon and More posts.",
     "u": "https://yadgir.dcourts.gov.in/online-recruitment/"
-},
-  {
-    "id": "asc-centre-south-bangalore-gro-fireman-librarian-and-more-recruitment-2026",
-    "b": "ASC Centre South Bangalore Group C",
-    "t": "ASC Centre South Bangalore Group C Recruitment 2026 – Apply for 31 Fireman, Librarian and More Posts",
-    "d": "30 August 2026",
-    "l": "18 September 2026",
-    "a": "ASC-CENTRE-SOU/2026",
-    "q": "Matriculation 10th or equivalent + post-specific requirements",
-    "desc": "ASC Centre South Bangalore Group C has officially released employment advertisement notification ASC-CENTRE-SOU/2026 for the recruitment of 31 vacancies for Fireman, Librarian and More posts.",
-    "u": "https://indianarmy.nic.in"
 },
   {
     "id": "srinagar-district-court-process-server-orderly-chowkid-recruitment-2026",
@@ -10308,28 +7712,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://gprb.gujarat.gov.in/"
 },
   {
-    "id": "reserve-bank-of-india-rbi-banks-medical-consultant-recruitment-2026",
-    "b": "Reserve Bank of India (RBI)",
-    "t": "Reserve Bank of India (RBI) Recruitment 2026 – Apply for 1 Bank's Medical Consultant Posts",
-    "d": "30 August 2026",
-    "l": "16 September 2026",
-    "a": "RESERVE-BANK-O/2026",
-    "q": "MBBS degree recognized by Medical Council of India with minimum 2 years post ...",
-    "desc": "Reserve Bank of India (RBI) has officially released employment advertisement notification RESERVE-BANK-O/2026 for the recruitment of 1 vacancies for Bank's Medical Consultant posts.",
-    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/BMCGOA260620266F24CBFC1D5A4796AE5C835CFDABD23A.PDF"
-},
-  {
-    "id": "national-jute-board-njb-consultant-and-young-professio-recruitment-2026",
-    "b": "National Jute Board (NJB)",
-    "t": "National Jute Board (NJB) Recruitment 2026 – Apply for 14 Consultant and Young Professional Posts",
-    "d": "30 August 2026",
-    "l": "18 September 2026",
-    "a": "NATIONAL-JUTE-/2026",
-    "q": "Retired from Govt. posts, CA/CMA/B.Com with MBA, MBA (Marketing), M.Tech/ME.",
-    "desc": "National Jute Board (NJB) has officially released employment advertisement notification NATIONAL-JUTE-/2026 for the recruitment of 14 vacancies for Consultant and Young Professional posts.",
-    "u": "https://www.jute.com"
-},
-  {
     "id": "directorate-of-enforcement-additional-director-of-enforce-recruitment-2026",
     "b": "Directorate of Enforcement",
     "t": "Directorate of Enforcement Recruitment 2026 – Apply for 38 Additional Director of Enforcement and Joint Director of Enforcement Posts",
@@ -10339,39 +7721,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
     "desc": "Directorate of Enforcement has officially released employment advertisement notification DIRECTORATE-OF/2026 for the recruitment of 38 vacancies for Additional Director of Enforcement and Joint Director of Enforcement posts.",
     "u": "https://www.enforcementdirectorate.gov.in/"
-},
-  {
-    "id": "employee-state-insurance-corpo-scientist-grade-i-embryologist-recruitment-2026",
-    "b": "Employee State Insurance Corporation Delhi (ESIC Delhi)",
-    "t": "Employee State Insurance Corporation Delhi (ESIC Delhi) Recruitment 2026 – Apply for 1 Scientist Grade-I (Embryologist) Posts",
-    "d": "30 August 2026",
-    "l": "15 September 2026",
-    "a": "F.No. DM(H)A-11/13/01/2019-MED(H)-Part(1)",
-    "q": "Post-graduate in Clinical Embryology with 3 years ART lab experience OR Ph.D....",
-    "desc": "Employee State Insurance Corporation Delhi (ESIC Delhi) has officially released employment advertisement notification F.No. DM(H)A-11/13/01/2019-MED(H)-Part(1) for the recruitment of 1 vacancies for Scientist Grade-I (Embryologist) posts.",
-    "u": "https://esic.gov.in/attachments/recruitmentfile/RECRUITMENT_FOR_THE_POST_OF_SCIENTIST_GRADE_I_EMBRYOLOGIST_ON_CONTRACTUAL_BASIS_1787899677.pdf"
-},
-  {
-    "id": "hudco-senior-manager-deputy-general-recruitment-2026",
-    "b": "HUDCO",
-    "t": "HUDCO Recruitment 2026 – Apply for 8 Senior Manager, Deputy General Manager and More Posts",
-    "d": "30 August 2026",
-    "l": "16 September 2026, till 18:00 hrs",
-    "a": "HUDCO/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "HUDCO has officially released employment advertisement notification HUDCO/2026 for the recruitment of 8 vacancies for Senior Manager, Deputy General Manager and More posts.",
-    "u": "https://hudco.org.in/writereaddata/Detailed-Advertisement.pdf"
-},
-  {
-    "id": "driver-driver-and-frash-recruitment-2026",
-    "b": "Punjab and Haryana High Court",
-    "t": "Punjab and Haryana High Court Recruitment 2026 – Apply for 56 Driver and Frash Posts",
-    "d": "30 August 2026",
-    "l": "18 September 2026, 11:59 P.M.",
-    "a": "04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026",
-    "q": "10th / 8th Pass | Driver / Heavy Vehicle",
-    "desc": "High Court of Punjab and Haryana at Chandigarh has officially released employment advertisement notification 04/DRV/HC/2026 dated 28/08/2026 & 05/Frash/HC/2026 dated 28/08/2026 for the recruitment of 56 vacancies for Driver and Frash posts.",
-    "u": "https://highcourtchd.gov.in/sub_pages/left_menu/recruitments/staff/openings_pdf/drivr_advt_28082026_b8a83.pdf"
 },
   {
     "id": "bbmb-hindi-translator-online-recruitment-2026",
@@ -10407,17 +7756,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://indiapostgdsonline.gov.in"
 },
   {
-    "id": "mpesb-group-3-sub-engineer-recruitment-2026",
-    "b": "Madhya Pradesh Employees Selection Board (MPESB, Bhopal)",
-    "t": "MPESB Group-3 Sub Engineer, Draftsman & Lab Technician Recruitment 2026 – Apply Online for 1,700 Posts (Exam From 07 October 2026)",
-    "d": "28 August 2026",
-    "l": "12 September 2026",
-    "a": "समूह-03 संयुक्त भर्ती परीक्षा-2026 (द्वितीय) / Group-03 Combined Recruitment Test 2026 (II)",
-    "q": "3-Year Diploma in Engineering or B.E./B.Tech / Degree in relevant engineering stream",
-    "desc": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal has officially released the detailed 116-page rulebook and initiated the online application process for the 'Group-03 Sub-Engineer (उपयंत्री), Draftsman (मानचित्रकार), Laboratory Technician (प्रयोगशाला तकनीशियन) and Other Equivalent Posts Combined Recruitment Examination 2026 (II)' to fill 1,700 vacancies across MP government engineering departments, municipal corporations, development authorities, and government polytechnic colleges.",
-    "u": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group3_2026_Rulebook.pdf"
-},
-  {
     "id": "nic-scientific-technical-assistant-recruitment-2026",
     "b": "National Informatics Centre (NIC), MeitY",
     "t": "NIC Scientific/Technical Assistant-A Recruitment 2026 – Apply Online for 376 Posts (Advt No: NIC/STA/2026/2)",
@@ -10429,17 +7767,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://recruitment.nic.in"
 },
   {
-    "id": "iob-generalist-so-recruitment-2026",
-    "b": "Indian Overseas Bank (IOB)",
-    "t": "Indian Overseas Bank (IOB) Generalist & SO Recruitment 2026 – Apply Online for 291 Posts in Scale I, II & III (Advt No: HRDD/RECT/04/2026-27)",
-    "d": "28 August 2026",
-    "l": "15 September 2026",
-    "a": "HRDD/RECT/04/2026-27",
-    "q": "Graduation / B.Tech / MCA / M.Sc / MBA (Finance) / CA / CMA + Experience",
-    "desc": "Indian Overseas Bank (IOB), a premier public sector commercial bank with headquarters in Chennai, has released official advertisement No. HRDD/RECT/04/2026-27 dated 28th August 2026 for the recruitment of 291 Generalist and Specialist Officers in Junior Management Grade Scale I (JMGS I), Middle Management Grade Scale II (MMGS II), and Middle Management Grade Scale III (MMGS III).",
-    "u": "https://www.iob.bank.in"
-},
-  {
     "id": "ahvd-assam-vfa-recruitment-2026",
     "b": "Directorate of Animal Husbandry & Veterinary, Assam",
     "t": "AHVD Assam Veterinary Field Assistant (VFA) Recruitment 2026 – Apply Online for 200 Posts (Advt No: E-543943/71)",
@@ -10449,28 +7776,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "HSSLC (12th) Science with Biology & Assam PRC Domicile",
     "desc": "In pursuance of approval of the Government of Assam vide letter No. E-837098/34 dated Dispur the 26th August 2026, the Directorate of Animal Husbandry and Veterinary, Assam, Chenikuthi, Guwahati-03 has released official employment advertisement No. E-543943/71 inviting online applications from eligible Indian citizens who are permanent residents of Assam.",
     "u": "https://animalhusbandry.assam.gov.in"
-},
-  {
-    "id": "csc-e-governance-services-indi-aadhaar-supervisoroperator-dis-recruitment-2026",
-    "b": "CSC e-Governance Services India Limited (CSC)",
-    "t": "CSC e-Governance Services India Limited (CSC) Recruitment 2026 – Apply for 5 Aadhaar Supervisor/Operator - District Posts",
-    "d": "30 August 2026",
-    "l": "11 September 2026",
-    "a": "CSC-E-GOVERNAN/2026",
-    "q": "12th pass, or Matriculation + 2 years ITI, or Matriculation + 3 years Polytec...",
-    "desc": "CSC e-Governance Services India Limited (CSC) has officially released employment advertisement notification CSC-E-GOVERNAN/2026 for the recruitment of 5 vacancies for Aadhaar Supervisor/Operator - District posts.",
-    "u": "https://career.csccloud.in/job-post/MTM4Mg=="
-},
-  {
-    "id": "amritsar-district-court-counsellor-recruitment-2026",
-    "b": "Amritsar District Court",
-    "t": "Amritsar District Court Recruitment 2026 – Apply for 3 Counsellor Posts",
-    "d": "30 August 2026",
-    "l": "14 September 2026",
-    "a": "AMRITSAR-DISTR/2026",
-    "q": "Graduate degree of recognized university preferably with Social Science/Socio...",
-    "desc": "Amritsar District Court has officially released employment advertisement notification AMRITSAR-DISTR/2026 for the recruitment of 3 vacancies for Counsellor posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03f8037f94e53f17a2cc301033ca86/uploads/2026/08/2026082418.pdf"
 },
   {
     "id": "yudhistir-mishra-law-college-principal-and-assistant-profes-recruitment-2026",
@@ -10506,28 +7811,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://konkanrailway.com/sites/default/files/2026-08/17C.pdf"
 },
   {
-    "id": "indian-institute-of-management-admin-associate-recruitment-2026",
-    "b": "Indian Institute of Management Kozhikode (IIM Kozhikode)",
-    "t": "Indian Institute of Management Kozhikode (IIM Kozhikode) Recruitment 2026 – Apply for 4 Admin. Associate Posts",
-    "d": "30 August 2026",
-    "l": "16 September 2026",
-    "a": "C - 67/2026-IIMK.HR",
-    "q": "Post-Graduation with minimum two years experience in Clerical duties/office a...",
-    "desc": "Indian Institute of Management Kozhikode (IIM Kozhikode) has officially released employment advertisement notification C - 67/2026-IIMK.HR for the recruitment of 4 vacancies for Admin. Associate posts.",
-    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6ImVLUk0vV0RrM1NDdkRSajBXeDVXaVE9PSIsInZhbHVlIjoia3BSdHdIVnBGbW81OWRjbGFzWFVIQT09IiwibWFjIjoiZDBhZmVjZTJlZjRhMDVhNGJlNTBmYjg1MDM1YjI0OWViMGQxYjk2ZDU5MDFmZDNhNWZiNDcxZmRiMmYzMGJhMSIsInRhZyI6IiJ9"
-},
-  {
-    "id": "indian-institute-of-management-executive-care-recruitment-2026",
-    "b": "Indian Institute of Management Kozhikode",
-    "t": "Indian Institute of Management Kozhikode Recruitment 2026 – Apply for 3 Executive (C.A.R.E) Posts",
-    "d": "30 August 2026",
-    "l": "16 September 2026",
-    "a": "C-66/2026-IIMK.HR",
-    "q": "Master's Degree (two-year full-time programme) in Management",
-    "desc": "Indian Institute of Management Kozhikode has officially released employment advertisement notification C-66/2026-IIMK.HR for the recruitment of 3 vacancies for Executive (C.A.R.E) posts.",
-    "u": "https://webapps.iimk.ac.in/jobportal/vacancy_details/eyJpdiI6ImpIa2dMdzdndE93Ulk3dUxuWnc2bEE9PSIsInZhbHVlIjoib3h0VjRsRzdmdVhub2tvTjA4anhtdz09IiwibWFjIjoiY2YxMjVkMDhlMDM5ODYwM2Q0ODc4MjZiMTBhYjRjNzI0MzlmNmI5ZjNjNDJmM2YzZGNhZjBiY2ZmNmRkNjU5YyIsInRhZyI6IiJ9"
-},
-  {
     "id": "karnataka-state-audit-accounts-assistant-controller-group-a-a-recruitment-2026",
     "b": "Karnataka State Audit & Accounts Department",
     "t": "Karnataka State Audit & Accounts Department Recruitment 2026 – Apply for 68 Assistant Controller (Group A), Audit Officer (Group B) - Residual Parent Cadre (RPC) Posts",
@@ -10550,50 +7833,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://cdn.s3waas.gov.in/s3d4c2e4a3297fe25a71d030b67eb83bfc/uploads/2026/08/17876326549264.pdf"
 },
   {
-    "id": "national-institute-of-technolo-project-assistant-recruitment-2026",
-    "b": "National Institute of Technology Jamshedpur",
-    "t": "National Institute of Technology Jamshedpur Recruitment 2026 – Apply for 1 Project Assistant Posts",
-    "d": "30 August 2026",
-    "l": "15 September 2026",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "Bachelor's degree in Life Science or other related field. Master's degree in ...",
-    "desc": "National Institute of Technology Jamshedpur has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Project Assistant posts.",
-    "u": "https://nitjsr.ac.in/backend/uploads/recruitments/6bc50759-f83d-45e1-b1f1-ccfb39b8a97e-Project_assistant_recruitment.pdf"
-},
-  {
-    "id": "office-of-the-district-session-stenographer-grade-iii-ad-hoc-recruitment-2026",
-    "b": "Office of the District & Sessions Judge, Rewari",
-    "t": "Office of the District & Sessions Judge, Rewari Recruitment 2026 – Apply for 18 Stenographer Grade III (Ad-hoc Basis) Posts",
-    "d": "30 August 2026",
-    "l": "17 September 2026, up to 5:00 P.M.",
-    "a": "OFFICE-OF-THE-/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Office of the District & Sessions Judge, Rewari has officially released employment advertisement notification OFFICE-OF-THE-/2026 for the recruitment of 18 vacancies for Stenographer Grade III (Ad-hoc Basis) posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec03980a875ff6ef9c2d75e74307cbf5/uploads/2026/08/2026082752.pdf"
-},
-  {
-    "id": "chaudhary-charan-singh-haryana-iti-apprentice-recruitment-2026",
-    "b": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar",
-    "t": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar Recruitment 2026 – Apply for 377 ITI Apprentice Posts",
-    "d": "30 August 2026",
-    "l": "13 September 2026 (12:00 Noon)",
-    "a": "CHAUDHARY-CHAR/2026",
-    "q": "Matric / 10th and ITI Pass in Relevant Trade",
-    "desc": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU), Hisar has officially released employment advertisement notification CHAUDHARY-CHAR/2026 for the recruitment of 377 vacancies for ITI Apprentice posts.",
-    "u": "https://hau.ac.in/"
-},
-  {
-    "id": "sggu-assistant-professor-31-recruitment-2026",
-    "b": "SGGU Assistant Professor",
-    "t": "SGGU Assistant Professor Recruitment 2026 – Apply for 31 31 Posts",
-    "d": "30 August 2026",
-    "l": "17 September 2026",
-    "a": "06/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "SGGU Assistant Professor has officially released employment advertisement notification 06/2026 for the recruitment of 31 vacancies for 31 posts.",
-    "u": "https://www.sggu.ac.in/uploads/recruitement/1787805724_06_2026.pdf"
-},
-  {
     "id": "national-highways-authority-of-senior-pavement-design-cum-mat-recruitment-2026",
     "b": "National Highways Authority of India (NHAI)",
     "t": "National Highways Authority of India (NHAI) Recruitment 2026 – Apply for 2 Senior Pavement Design cum Material Expert and Quantity Surveyor Posts",
@@ -10603,17 +7842,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Graduate in Civil Engineering or equivalent, Postgraduate (ME/M Tech)",
     "desc": "National Highways Authority of India (NHAI) has officially released employment advertisement notification NATIONAL-HIGHW/2026 for the recruitment of 2 vacancies for Senior Pavement Design cum Material Expert and Quantity Surveyor posts.",
     "u": "https://nhai.gov.in/nhai/sites/default/files/vacancy_files/advertisement.pdf"
-},
-  {
-    "id": "post-graduate-institute-of-med-research-scientist-helping-att-recruitment-2026",
-    "b": "Post Graduate Institute of Medical Education and Research (PGIMER)",
-    "t": "Post Graduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 – Apply for 2 Research Scientist, Helping Attendant Posts",
-    "d": "30 August 2026",
-    "l": "12 September 2026",
-    "a": "POST-GRADUATE-/2026",
-    "q": "M.Sc. in a relevant discipline with 2 year's experience in Microbiology, 10th...",
-    "desc": "Post Graduate Institute of Medical Education and Research (PGIMER) has officially released employment advertisement notification POST-GRADUATE-/2026 for the recruitment of 2 vacancies for Research Scientist, Helping Attendant posts.",
-    "u": "https://pgimer.edu.in/PGIMER_PORTAL/AbstractFilePath?FileType=E&FileName=Medmicro28Aug2026121133.pdf&PathKey=VACANCY_PATH"
 },
   {
     "id": "all-india-institute-of-medical-tutor-non-academic-recruitment-2026",
@@ -10627,50 +7855,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/tutor_walkin_interview_advertisement_2_20260825_211321_2e24f507.pdf"
 },
   {
-    "id": "indian-institute-of-management-library-apprentice-recruitment-2026",
-    "b": "Indian Institute of Management Kashipur (IIM Kashipur)",
-    "t": "Indian Institute of Management Kashipur (IIM Kashipur) Recruitment 2026 – Apply for 1 Library Apprentice Posts",
-    "d": "29 August 2026",
-    "l": "14 September 2026",
-    "a": "LA-01/2026",
-    "q": "Bachelor's degree in library and information science with minimum 60% marks o...",
-    "desc": "Indian Institute of Management Kashipur (IIM Kashipur) has officially released employment advertisement notification LA-01/2026 for the recruitment of 1 vacancies for Library Apprentice posts.",
-    "u": "https://iimkashipur.ac.in/uploads/fo/178764946311.pdf"
-},
-  {
-    "id": "icmr-national-institute-of-hea-consultant-young-professional-recruitment-2026",
-    "b": "ICMR National Institute of Health Research (ICMR NIHR)",
-    "t": "ICMR National Institute of Health Research (ICMR NIHR) Recruitment 2026 – Apply for 4 Consultant & Young Professional Posts",
-    "d": "29 August 2026",
-    "l": "11 September 2026",
-    "a": "ICMR-NATIONAL-/2026",
-    "q": "Post-graduates in Life Sciences/ Pharmacy / Statistics / Social works/ Sociol...",
-    "desc": "ICMR National Institute of Health Research (ICMR NIHR) has officially released employment advertisement notification ICMR-NATIONAL-/2026 for the recruitment of 4 vacancies for Consultant & Young Professional posts.",
-    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1787805689_advertisementofconsultantandyps.pdf"
-},
-  {
-    "id": "nuclear-fuel-complex-nfc-depar-iti-trade-apprentice-recruitment-2026",
-    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy (DAE), Hyderabad",
-    "t": "Nuclear Fuel Complex (NFC) Hyderabad ITI Trade Apprentice Recruitment 2026 – Apply Online for 432 Posts",
-    "d": "27 August 2026",
-    "l": "16 September 2026",
-    "a": "NFC/R-III/1/08/2026 dated 27-08-2026",
-    "q": "10th / SSC Pass & ITI in relevant designated trade (NCVT/SCVT)",
-    "desc": "Nuclear Fuel Complex (NFC), Hyderabad, a premier industrial constituent unit of the Department of Atomic Energy (DAE), Government of India, has officially released advertisement notification NFC/R-III/1/08/2026 dated August 27, 2026 for engagement of ITI Trade Apprentices for the training year 2026-27 under the Apprentices Act 1961.",
-    "u": "https://www.apprenticeshipindia.gov.in/"
-},
-  {
-    "id": "nuclear-fuel-complex-nfc-depar-diploma-graduate-engineering-recruitment-2026",
-    "b": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India",
-    "t": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India Recruitment 2026 – Apply for 106 Diploma & Graduate Engineering Posts",
-    "d": "29 August 2026",
-    "l": "16 September 2026",
-    "a": "NFC/R-III/1/08/2026/365",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Nuclear Fuel Complex (NFC), Department of Atomic Energy, Government of India has officially released employment advertisement notification NFC/R-III/1/08/2026/365 for the recruitment of 106 vacancies for Diploma & Graduate Engineering posts.",
-    "u": "https://www.nfc.gov.in/pdf/recruitment-advt/2026/nfc-r3-1-08-2026-365.pdf"
-},
-  {
     "id": "rural-development-and-panchaya-record-clerk-recruitment-2026",
     "b": "Rural Development and Panchayat Raj Department Ramanathapuram (TNRD Ramanathapuram)",
     "t": "Rural Development and Panchayat Raj Department Ramanathapuram Recruitment 2026 Notification Out for 1 Record Clerk Posts | Apply Offline",
@@ -10680,17 +7864,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th Pass",
     "desc": "Rural Development and Panchayat Raj Department Ramanathapuram has officially released employment advertisement notification A1/2543/2026 for the recruitment of 1 vacancies for Record Clerk posts.",
     "u": "https://cdn.s3waas.gov.in/s3f9b902fc3289af4dd08de5d1de54f68f/uploads/2026/08/17872307478076.pdf"
-},
-  {
-    "id": "central-university-of-rajastha-junior-research-fellow-recruitment-2026",
-    "b": "Central University of Rajasthan (CURAJ)",
-    "t": "Central University of Rajasthan (CURAJ) Recruitment 2026 – Apply for 1 Junior Research Fellow Posts",
-    "d": "29 August 2026",
-    "l": "15 September 2026",
-    "a": "CURAJ/BME/ANRF/Ovadetect/01",
-    "q": "M.Tech/M.E. or equivalent in Biomedical Engineering or related fields with va...",
-    "desc": "Central University of Rajasthan (CURAJ) has officially released employment advertisement notification CURAJ/BME/ANRF/Ovadetect/01 for the recruitment of 1 vacancies for Junior Research Fellow posts.",
-    "u": "https://www.curaj.ac.in/sites/default/files/JRF%20Advertisement_CURaj.pdf"
 },
   {
     "id": "railway-recruitment-cell-weste-64-recruitment-2026",
@@ -10726,17 +7899,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://konkanrailway.com/sites/default/files/2026-08/16C.pdf"
 },
   {
-    "id": "defence-bioengineering-and-ele-junior-research-fellow-recruitment-2026",
-    "b": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL)",
-    "t": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL) Recruitment 2026 – Apply for 2 Junior Research Fellow Posts",
-    "d": "29 August 2026",
-    "l": "18 September 2026",
-    "a": "DEBEL/ HRD/ 1/ JRF-1/ 2026",
-    "q": "BE/ BTech or ME/ MTech in Mechanical Engineering with 1st Division and valid ...",
-    "desc": "Defence Bioengineering and Electromedical Laboratory (DRDO DEBEL) has officially released employment advertisement notification DEBEL/ HRD/ 1/ JRF-1/ 2026 for the recruitment of 2 vacancies for Junior Research Fellow posts.",
-    "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDEBEL27082026.pdf"
-},
-  {
     "id": "karnataka-public-service-commi-audit-officer-group-b-hyderaba-recruitment-2026",
     "b": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560001",
     "t": "Karnataka Public Service Commission (KPSC), \"Udyoga Soudha\", Bengaluru-560001 Recruitment 2026 – Apply for 15 Audit Officer, Group 'B' (Hyderabad-Karnataka Cadre) Posts",
@@ -10748,50 +7910,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://kpsc.kar.nic.in/SAAD%20HK%20Notification%20dt%2027-08-2026.pdf"
 },
   {
-    "id": "isro-icrb-scientistengineer-scientistengineer-sc-electroni-recruitment-2026",
-    "b": "Indian Space Research Organisation (ISRO) – ISRO Centralised Recruitment Board (ICRB)",
-    "t": "ISRO ICRB Scientist/Engineer 'SC' Recruitment 2026 – Apply Online for 175 Posts in Electronics, Mechanical & Computer Science",
-    "d": "27 August 2026",
-    "l": "16 September 2026 (11:55 PM)",
-    "a": "ISRO:ICRB:03(EMC):2026 dated 27-08-2026",
-    "q": "BE / B.Tech in Electronics / Mechanical / CS with min 65% marks or CGPA 6.84/10",
-    "desc": "Indian Space Research Organisation (ISRO), Department of Space, Government of India, through the ISRO Centralised Recruitment Board (ICRB), has officially released employment advertisement notification ISRO:ICRB:03(EMC):2026 dated 27-08-2026 for recruitment to the prestigious Group 'A' Gazetted/Non-Gazetted posts of Scientist/Engineer 'SC' in Level 10 of the Pay Matrix.",
-    "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/102146/Index.html"
-},
-  {
-    "id": "principal-district-and-session-peon-sevaka-attender-class-ivg-recruitment-2026",
-    "b": "Principal District and Sessions Court, Hassan, Karnataka",
-    "t": "Principal District and Sessions Court, Hassan, Karnataka Recruitment 2026 – Apply for 48 Peon / Sevaka (Attender), Class-IV/Group-D Posts",
-    "d": "29 August 2026",
-    "l": "17 September 2026, 11:59 PM",
-    "a": "Administration/01/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Principal District and Sessions Court, Hassan, Karnataka has officially released employment advertisement notification Administration/01/2026 for the recruitment of 48 vacancies for Peon / Sevaka (Attender), Class-IV/Group-D posts.",
-    "u": "https://cdnbbsr.s3waas.gov.in/s3ec01bbb001ba009ed11717eaec9305b2/uploads/2026/08/2026081979.pdf"
-},
-  {
-    "id": "bhavnagar-municipal-corporatio-mphw-executive-engineer-and-mo-recruitment-2026",
-    "b": "Bhavnagar Municipal Corporation (BMC), Gujarat",
-    "t": "Bhavnagar Municipal Corporation (BMC), Gujarat Recruitment 2026 – Apply for 80 MPHW, Executive Engineer and More Posts",
-    "d": "29 August 2026",
-    "l": "15 September 2026, 23:59 hrs",
-    "a": "/BMC/2026-27/16 (Executive Engineer-Civil); /BMC/2026-27/15 (Sanitary Sub Inspector); /BMC/2026-27/14 (MPHW-Male, Urban Malaria)",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Bhavnagar Municipal Corporation (BMC), Gujarat has officially released employment advertisement notification /BMC/2026-27/16 (Executive Engineer-Civil); /BMC/2026-27/15 (Sanitary Sub Inspector); /BMC/2026-27/14 (MPHW-Male, Urban Malaria) for the recruitment of 80 vacancies for MPHW, Executive Engineer and More posts.",
-    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/BMC_202627_16.pdf"
-},
-  {
-    "id": "gujarat-police-recruitment-boa-legal-executive-recruitment-2026",
-    "b": "Gujarat Police Recruitment Board (GPRB)",
-    "t": "Gujarat Police Recruitment Board (GPRB) Recruitment 2026 – Apply for 2 Legal Executive Posts",
-    "d": "29 August 2026",
-    "l": "15 September 2026",
-    "a": "GPRB/01/Contract/2026",
-    "q": "Law Graduate from recognized University, Registered with Bar Council of Gujar...",
-    "desc": "Gujarat Police Recruitment Board (GPRB) has officially released employment advertisement notification GPRB/01/Contract/2026 for the recruitment of 2 vacancies for Legal Executive posts.",
-    "u": "https://gprb.gujarat.gov.in/"
-},
-  {
     "id": "ex-servicemen-contributory-hea-medical-officer-clerk-female-a-recruitment-2026",
     "b": "Ex Servicemen Contributory Health Scheme (ECHS)",
     "t": "Ex Servicemen Contributory Health Scheme (ECHS) Recruitment 2026 – Apply for 5 Medical Officer, Clerk, Female Attendant, Peon Posts",
@@ -10801,28 +7919,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "MBBS with 3 years experience, Graduate with 5 years clerical experience, Class 8",
     "desc": "Ex Servicemen Contributory Health Scheme (ECHS) has officially released employment advertisement notification 225/ECHS/Vasco/Advt/15) for 5 vacancies for the recruitment of 5 vacancies for Medical Officer, Clerk, Female Attendant, Peon posts.",
     "u": "https://www.echs.gov.in/assets/advertisement/INS%20Gomantak%2023%20Sep.pdf"
-},
-  {
-    "id": "national-institute-of-technolo-project-engineer-project-atten-recruitment-2026",
-    "b": "National Institute of Technology Delhi",
-    "t": "National Institute of Technology Delhi Recruitment 2026 – Apply for 10 Project Engineer, Project Attendant and More Posts",
-    "d": "29 August 2026",
-    "l": "11 September 2026",
-    "a": "NITD/Dean(R&C)/CE/TPQA/2026/02",
-    "q": "B. Tech. (Electrical/ Mechanical), B. Tech. (Civil), Diploma or Equivalent or...",
-    "desc": "National Institute of Technology Delhi has officially released employment advertisement notification NITD/Dean(R&C)/CE/TPQA/2026/02 for the recruitment of 10 vacancies for Project Engineer, Project Attendant and More Posts posts.",
-    "u": "https://media.nitdelhi.ac.in/uploads/announcements/Recruitment/Recruitment%20Advertisement%20TPQA%2002@nitdelhi49535133-2c77-4a96-964b-a7033543fb2e.pdf"
-},
-  {
-    "id": "national-institute-of-technolo-project-technical-assistant-recruitment-2026",
-    "b": "National Institute of Technology Raipur",
-    "t": "National Institute of Technology Raipur Recruitment 2026 – Apply for 1 Project Technical Assistant Posts",
-    "d": "29 August 2026",
-    "l": "11 September 2026",
-    "a": "NATIONAL-INSTI/2026",
-    "q": "12th with at least 2 years of work experience in welding trade, ITI (2-years ...",
-    "desc": "National Institute of Technology Raipur has officially released employment advertisement notification NATIONAL-INSTI/2026 for the recruitment of 1 vacancies for Project Technical Assistant posts.",
-    "u": "https://nitrr.ac.in/others/announcement_docs/1787314582_5675.pdf"
 },
   {
     "id": "all-india-institute-of-medical-various-non-faculty-posts-recruitment-2026",
@@ -10869,61 +7965,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://chennaiport.gov.in/api/static/default/career/secivil.pdf"
 },
   {
-    "id": "punjab-agricultural-university-female-gym-trainer-recruitment-2026",
-    "b": "Punjab Agricultural University (PAU)",
-    "t": "Punjab Agricultural University (PAU) Recruitment 2026 – Apply for 1 Female Gym Trainer Posts",
-    "d": "27 August 2026",
-    "l": "18 September 2026",
-    "a": "DSW.A.I/2026",
-    "q": "Bachelor Degree, Diploma in Fitness Training, 2 years experience, Punjabi lan...",
-    "desc": "Punjab Agricultural University (PAU) has officially released employment advertisement notification DSW.A.I/2026 for the recruitment of 1 vacancies for Female Gym Trainer posts.",
-    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7536"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-mayur-support-staff-warden-head-cook-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj)",
-    "t": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) Recruitment 2026 – Apply for 5 Support Staff (Warden, Head Cook, Assistant Cook, Chowkidar-cum-Sweeper) Posts",
-    "d": "27 August 2026",
-    "l": "15 September 2026",
-    "a": "ODISHA-ADARSHA/2026",
-    "q": "HSC to B.A./ B.Sc.",
-    "desc": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 5 vacancies for Support Staff (Warden, Head Cook, Assistant Cook, Chowkidar-cum-Sweeper) posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20Bhaliasole%20Suliapada.pdf"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-titia-support-staff-for-boys-hostel-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Titia",
-    "t": "Odisha Adarsha Vidyalaya Titia Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
-    "d": "27 August 2026",
-    "l": "12 September 2026",
-    "a": "315/OAV TITIA/2026",
-    "q": "HSC, B.A./B.Sc.",
-    "desc": "Odisha Adarsha Vidyalaya Titia has officially released employment advertisement notification 315/OAV TITIA/2026 for the recruitment of 5 vacancies for Support Staff for Boys' Hostel posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20GBNagar.pdf"
-},
-  {
-    "id": "manganese-ore-india-moil-chief-general-manager-personne-recruitment-2026",
-    "b": "Manganese Ore India (MOIL)",
-    "t": "Manganese Ore India (MOIL) Recruitment 2026 – Apply for 1 Chief General Manager (Personnel) Posts",
-    "d": "27 August 2026",
-    "l": "17 September 2026",
-    "a": "CGM(P)/08/2026",
-    "q": "PG Degree in Social Work with specialization in Labour Welfare, Personnel Man...",
-    "desc": "Manganese Ore India (MOIL) has officially released employment advertisement notification CGM(P)/08/2026 for the recruitment of 1 vacancies for Chief General Manager (Personnel) posts.",
-    "u": "https://www.moil.nic.in"
-},
-  {
-    "id": "maulana-azad-national-institut-junior-research-fellow-jrf-recruitment-2026",
-    "b": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal)",
-    "t": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) Recruitment 2026 – Apply for 1 Junior Research Fellow (JRF) Posts",
-    "d": "27 August 2026",
-    "l": "15 September 2026",
-    "a": "ARMREB/ASE/2025/327 dated 03/12/2025",
-    "q": "B.E./B.Tech in Any field of Engineering with valid Gate Score, M.E./M.Tech/M....",
-    "desc": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) has officially released employment advertisement notification ARMREB/ASE/2025/327 dated 03/12/2025 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
-    "u": "https://www.manit.ac.in/sites/default/files/documents/DRDO_Project_JRF_Advertisement.pdf"
-},
-  {
     "id": "all-india-institute-of-medical-project-technical-support-iii-recruitment-2026",
     "b": "All India Institute of Medical Sciences Bhopal (AIIMS)",
     "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 2 Project Technical Support-III and Data Entry Operator Posts | Walk-in Interview",
@@ -10944,39 +7985,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / ITI (NTC) / 12th (HSE) / Diploma in Engg / Any Graduate (Non-B.Tech) / MA",
     "desc": "Cochin Shipyard Limited (CSL), a listed premier Miniratna Schedule 'A' Central Public Sector Enterprise under the Ministry of Ports, Shipping and Waterways, Government of India, has officially released notification CSL/P&A/HRM/HRM GENERAL/PM_INTERNSHIP_SCHEME/2024/45 dated 26 August 2026 for the engagement of 227 interns under the Prime Minister's Internship Scheme (PMIS).",
     "u": "https://cochinshipyard.in/uploads/career/cd5346e2da18d06f6905eb292e8ce195.pdf"
-},
-  {
-    "id": "cochin-university-of-science-a-course-in-charge-recruitment-2026",
-    "b": "Cochin University of Science and Technology (CUSAT)",
-    "t": "Cochin University of Science and Technology (CUSAT) Recruitment 2026 – Apply for 1 Course in Charge Posts",
-    "d": "27 August 2026",
-    "l": "15 September 2026",
-    "a": "Ad.F1/Notification of Contract Teachers/2012 (I)",
-    "q": "B.Tech in Marine/Mechanical Engineering/ Naval Architecture / Extra First Cla...",
-    "desc": "Cochin University of Science and Technology (CUSAT) has officially released employment advertisement notification Ad.F1/Notification of Contract Teachers/2012 (I) for the recruitment of 1 vacancies for Course in Charge posts.",
-    "u": "https://recruit.cusat.ac.in/files/NOTIFICATION_479.pdf"
-},
-  {
-    "id": "india-ship-technology-centre-i-chief-executive-officer-ceo-recruitment-2026",
-    "b": "India Ship Technology Centre (ISTC)",
-    "t": "India Ship Technology Centre (ISTC) Recruitment 2026 – Apply for 1 Chief Executive Officer (CEO) Posts",
-    "d": "27 August 2026",
-    "l": "18 September 2026",
-    "a": "ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A)",
-    "q": "Degree in Naval Architecture Engineering/Marine Engineering/Ocean Engineering...",
-    "desc": "India Ship Technology Centre (ISTC) has officially released employment advertisement notification ISTC / HR / 01 / 2026-27 / RECRUITMENT PH. 1 (A) for the recruitment of 1 vacancies for Chief Executive Officer (CEO) posts.",
-    "u": "https://cochinshipyard.in/uploads/career/6961e237ed7cdf161777db34e98c0109.pdf"
-},
-  {
-    "id": "canara-bank-securities-limited-avp-operations-cs-compliance-o-recruitment-2026",
-    "b": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL",
-    "t": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL Recruitment 2026 – Apply for 10 AVP Operations; CS & Compliance Officer; Assistant Manager/Officer/Junior Officer on Contract (DP Back Office Operations, Risk Management, Compliance, Institutional Dealer, Research) Posts",
-    "d": "27 August 2026",
-    "l": "15 September 2026, till 6:00 PM",
-    "a": "CANARA-BANK-SE/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Canara Bank Securities Limited (CBSL), a wholly owned subsidiary of Canara Bank; Member BSE, NSE; DP: NSDL has officially released employment advertisement notification CANARA-BANK-SE/2026 for the recruitment of 10 vacancies for AVP Operations; CS & Compliance Officer; Assistant Manager/Officer/Junior Officer on Contract (DP Back Office Operations, Risk Management, Compliance, Institutional Dealer, Research) posts.",
-    "u": "https://www.canmoney.in/pdf/Vacancy/NOTIFICATION%20OF%20GENERAL%20AND%20SPECIAL%20RECRUITMENT.pdf"
 },
   {
     "id": "himachal-pradesh-public-servic-tehsildar-bdo-and-more-recruitment-2026",
@@ -11001,28 +8009,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.iima.ac.in/sites/default/files/2026-08/CIA_RA_Aug_2026_IIMA.pdf"
 },
   {
-    "id": "national-health-mission-nhm-di-staff-nurse-support-staff-and-recruitment-2026",
-    "b": "National Health Mission (NHM), Directorate of Health Services, Panaji, Goa",
-    "t": "National Health Mission (NHM) Goa Recruitment 2026 – Apply Online for 135 CHO, Medical Officer, Staff Nurse, Pharmacist & Various Posts",
-    "d": "26 August 2026",
-    "l": "18 September 2026",
-    "a": "DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537",
-    "q": "8th / 10th / 12th / GNM / B.Sc Nursing / DMLT / B.Pharm / B.Com / B.Sc / MCA / MBBS / MD",
-    "desc": "National Health Mission (NHM), Directorate of Health Services (DHS), State Health Society, Panaji, Goa has officially issued recruitment notification DHS/NHM-ADM/29/Staff-Recruitment/2026-27/1537 dated 26 August 2026 inviting online applications for 135 contractual vacancies across 28 diverse clinical, nursing, paramedical, managerial, and support designations for a period of one (1) year.",
-    "u": "https://nhm.goa.gov.in/wp-content/uploads/2026/08/Advertisement-26-08-2026-1537-2026-27-1.pdf"
-},
-  {
-    "id": "delhi-metro-rail-corporation-d-supervisor-p-way-recruitment-2026",
-    "b": "Delhi Metro Rail Corporation (DMRC)",
-    "t": "Delhi Metro Rail Corporation (DMRC) Recruitment 2026 – Apply for 4 Supervisor (P. Way) Posts",
-    "d": "27 August 2026",
-    "l": "15 September 2026",
-    "a": "DMRC/PERS/22/HR/2026 (233)",
-    "q": "Graduate (Experience in P.Way department in Indian Railways)",
-    "desc": "Delhi Metro Rail Corporation (DMRC) has officially released employment advertisement notification DMRC/PERS/22/HR/2026 (233) for the recruitment of 4 vacancies for Supervisor (P. Way) posts.",
-    "u": "https://backend.delhimetrorail.com/documents/11556/Advertisement_233_Supervisor_P_Way_PRCE_04_posts.pdf"
-},
-  {
     "id": "indian-railway-finance-corpora-head-of-internal-audit-hia-recruitment-2026",
     "b": "Indian Railway Finance Corporation (IRFC)",
     "t": "Indian Railway Finance Corporation (IRFC) Recruitment 2026 – Apply for 1 Head of Internal Audit (HIA) Posts",
@@ -11045,17 +8031,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://iari.res.in/files/jobs/Senior_Research_25082026.pdf"
 },
   {
-    "id": "karmayogi-bharat-aiml-chatbot-ai-dashboard-deve-recruitment-2026",
-    "b": "Karmayogi Bharat",
-    "t": "Karmayogi Bharat Recruitment 2026 – Apply for 14 AI/ML-Chatbot & AI Dashboard Developer, Mobile App Developer, Project Manager, Senior Technical Support Engineer, Senior Business Analyst, Onboarding and Capacity Building Trainer, Technical Support Engineer Posts",
-    "d": "27 August 2026",
-    "l": "14 September 2026",
-    "a": "KARMAYOGI-BHAR/2026",
-    "q": "Bachelor's Degree in Computer Science / Engineering / Mathematics / or a rela...",
-    "desc": "Karmayogi Bharat has officially released employment advertisement notification KARMAYOGI-BHAR/2026 for the recruitment of 14 vacancies for AI/ML-Chatbot & AI Dashboard Developer, Mobile App Developer, Project Manager, Senior Technical Support Engineer, Senior Business Analyst, Onboarding and Capacity Building Trainer, Technical Support Engineer posts.",
-    "u": "https://karmayogibharat.gov.in"
-},
-  {
     "id": "rnu-guwahati-stenographer-cg-operator-and-m-recruitment-2026",
     "b": "RNU Guwahati",
     "t": "RNU Guwahati Recruitment 2026 – Apply for 1 Stenographer, CG Operator and More Posts",
@@ -11067,116 +8042,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://prasarbharati.gov.in/wp-content/uploads/2026/08/Notification_Adv_RNU_Guwahati.pdf"
 },
   {
-    "id": "uttarakhand-public-service-com-veterinary-officer-recruitment-2026",
-    "b": "Uttarakhand Public Service Commission (UKPSC)",
-    "t": "Uttarakhand Public Service Commission (UKPSC) Recruitment 2026 – Apply for 25 Veterinary Officer Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026 (11:59:59 PM)",
-    "a": "A-2/DR(VO)/S-1/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Uttarakhand Public Service Commission (UKPSC) has officially released employment advertisement notification A-2/DR(VO)/S-1/2026 for the recruitment of 25 vacancies for Veterinary Officer posts.",
-    "u": "https://psc.uk.gov.in/candidate-corner/recruitment"
-},
-  {
-    "id": "indian-overseas-bank-iob-a-gov-security-guard-subordinate-sta-recruitment-2026",
-    "b": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai",
-    "t": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai Recruitment 2026 – Apply for 25 Security Guard (Subordinate Staff Cadre) Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026",
-    "a": "HRMD/SS/RECT/01/2026-27",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Indian Overseas Bank (IOB), a Government of India Undertaking, Central Office, Chennai has officially released employment advertisement notification HRMD/SS/RECT/01/2026-27 for the recruitment of 25 vacancies for Security Guard (Subordinate Staff Cadre) posts.",
-    "u": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement"
-},
-  {
-    "id": "tamil-nadu-unmanned-aerial-veh-drone-pilot-drone-co-pilot-car-recruitment-2026",
-    "b": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC)",
-    "t": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC) Recruitment 2026 – Apply for 36 Drone Pilot, Drone Co-Pilot, Car Driver, Cook Helper, Tender Executive, RPTO Instructor, Supervisor, Cook, House Keeping, RPTO Supervisor Posts",
-    "d": "26 August 2026",
-    "l": "18 September 2026, 5:00 PM",
-    "a": "TAMIL-NADU-UNM/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Tamil Nadu Unmanned Aerial Vehicles Corporation (TNUAVC) has officially released employment advertisement notification TAMIL-NADU-UNM/2026 for the recruitment of 36 vacancies for Drone Pilot, Drone Co-Pilot, Car Driver, Cook Helper, Tender Executive, RPTO Instructor, Supervisor, Cook, House Keeping, RPTO Supervisor posts.",
-    "u": "https://www.tnuavcorp.com/careers.html"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-garud-hostel-support-staff-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Garudabasa",
-    "t": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply for 5 Hostel Support Staff Posts",
-    "d": "26 August 2026",
-    "l": "11 September 2026",
-    "a": "01",
-    "q": "B.A. / B.Sc. from recognized university, HSC Examination from recognized board",
-    "desc": "Odisha Adarsha Vidyalaya Garudabasa has officially released employment advertisement notification 01 for the recruitment of 5 vacancies for Hostel Support Staff posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20Garudabasa%20Betnoti.pdf"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-morad-support-staff-for-boys-hostel-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Morada (OAV Morada)",
-    "t": "Odisha Adarsha Vidyalaya Morada (OAV Morada) Recruitment 2026 – Apply for 5 Support Staff for Boys' Hostel Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026",
-    "a": "OAVM/554/2026",
-    "q": "B.A. / B.Sc., HSC Examination",
-    "desc": "Odisha Adarsha Vidyalaya Morada (OAV Morada) has officially released employment advertisement notification OAVM/554/2026 for the recruitment of 5 vacancies for Support Staff for Boys' Hostel posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/OAVM_2026_554%20NIC%20Advertisement%20%26%20Application%20Form%20for%20Boys%27%20Hostel%20OAV%20MORADA.pdf"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-shirs-support-staff-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa)",
-    "t": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa) Recruitment 2026 – Apply for 5 Support Staff Posts",
-    "d": "26 August 2026",
-    "l": "12 September 2026",
-    "a": "ADVERTISEMENT-1",
-    "q": "B.A. / B.Sc., HSC, Cooking experience",
-    "desc": "Odisha Adarsha Vidyalaya Shirsa (OAV Shirsa) has officially released employment advertisement notification ADVERTISEMENT-1 for the recruitment of 5 vacancies for Support Staff posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20Ad.%2BApplication%20Form%20for%20Boys%27%20Hostel.OAV%20Shirsa.pdf"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-mayur-support-staff-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj)",
-    "t": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) Recruitment 2026 – Apply for 5 Support Staff Posts",
-    "d": "26 August 2026",
-    "l": "12 September 2026",
-    "a": "ODISHA-ADARSHA/2026",
-    "q": "10th-pass to B.A./B.Sc.",
-    "desc": "Odisha Adarsha Vidyalaya Mayurbhanj (OAV Mayurbhanj) has officially released employment advertisement notification ODISHA-ADARSHA/2026 for the recruitment of 5 vacancies for Support Staff posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/Advertisement%20boys%27%20hostel.pdf"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-bhalu-supporting-staff-warden-chowki-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Bhalubasa",
-    "t": "Odisha Adarsha Vidyalaya Bhalubasa Recruitment 2026 – Apply for 5 Supporting Staff (Warden, Chowkidar-cum-Sweeper, Head Cook, Assistant Cook) Posts",
-    "d": "26 August 2026",
-    "l": "12 September 2026",
-    "a": "ADVERTISEMENT - 01",
-    "q": "B.A./B.Sc. for Warden, HSC for Chowkidar-cum-Sweeper, No specific qualificati...",
-    "desc": "Odisha Adarsha Vidyalaya Bhalubasa has officially released employment advertisement notification ADVERTISEMENT - 01 for the recruitment of 5 vacancies for Supporting Staff (Warden, Chowkidar-cum-Sweeper, Head Cook, Assistant Cook) posts.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/BOYS%20HOSTEL%20ADVERTISEMENT.pdf"
-},
-  {
-    "id": "ordnance-factory-katni-labour-welfare-officer-recruitment-2026",
-    "b": "Ordnance Factory Katni",
-    "t": "Ordnance Factory Katni Recruitment 2026 – Apply for 1 Labour Welfare Officer Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026",
-    "a": "ORDNANCE-FACTO/2026",
-    "q": "Bachelor's Degree and Postgraduate Degree/Diploma in Social Work or Social Sc...",
-    "desc": "Ordnance Factory Katni has officially released employment advertisement notification ORDNANCE-FACTO/2026 for the recruitment of 1 vacancies for Labour Welfare Officer posts.",
-    "u": "https://ddpdoo.gov.in/storage/document/6a8c21cbc8297.pdf"
-},
-  {
-    "id": "karnataka-examinations-authori-residential-school-teacher-vas-recruitment-2026",
-    "b": "Karnataka Examinations Authority (KEA), Bengaluru",
-    "t": "KEA Karnataka Residential School Teacher Recruitment 2026 – Apply Online for 140 Posts (Social Welfare Dept, RPC & KK Cadres)",
-    "d": "21 August 2026",
-    "l": "18 September 2026",
-    "a": "ED/KEA/38/RECT/2026(RPC) & ED/KEA/39/RECT/2026(KK)",
-    "q": "PUC (10+2 with 50%) + D.El.Ed / B.El.Ed / Special D.Ed + KARTET / CTET Passed",
-    "desc": "Karnataka Examinations Authority (KEA), Bengaluru, on behalf of the Department of Social Welfare, Government of Karnataka (ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ), has officially published two recruitment notifications (No. ED/KEA/38/RECT/2026(RPC) & No. ED/KEA/39/RECT/2026(KK) dated 20.08.2026) for the direct recruitment of 140 Residential School Teachers (ವಸತಿ ಶಾಲಾ ಶಿಕ್ಷಕರು - Vasathi Shala Shikshakaru) through a competitive examination.",
-    "u": "https://cetonline.karnataka.gov.in/kea/"
-},
-  {
     "id": "indian-institute-of-technology-junior-research-fellow-jrf-recruitment-2026",
     "b": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
     "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
@@ -11186,28 +8051,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "B.E. / B.Tech. in Mining Engineering or Civil Engineering, M.Sc./M.Sc. Tech./...",
     "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially released employment advertisement notification IITJMU/R&C/RP-100323/A-42 for the recruitment of 1 vacancies for Junior Research Fellow (JRF) posts.",
     "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1754/Project%20JRF_2026-08-21_15-12-12.pdf"
-},
-  {
-    "id": "engineers-india-limited-eil-a-associate-engineer-grade-i-pip-recruitment-2026",
-    "b": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company",
-    "t": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company Recruitment 2026 – Apply for 12 Associate Engineer Grade I (Pipeline/Piping Engineer, Offshore Structural Engineer, Project Engineer) Posts",
-    "d": "26 August 2026",
-    "l": "08 September 2026",
-    "a": "HRD/Rectt./Advt./2026-27/07",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Engineers India Limited (EIL), a Navratna PSU and Total Solutions Engineering Consultancy Company has officially released employment advertisement notification HRD/Rectt./Advt./2026-27/07 for the recruitment of 12 vacancies for Associate Engineer Grade I (Pipeline/Piping Engineer, Offshore Structural Engineer, Project Engineer) posts.",
-    "u": "https://recruitment.eil.co.in/hrdnew/others/73.pdf"
-},
-  {
-    "id": "indian-institute-of-informatio-assistant-professor-grade-ii-recruitment-2026",
-    "b": "Indian Institute of Information Technology Vadodara (IIIT Vadodara)",
-    "t": "Indian Institute of Information Technology Vadodara (IIIT Vadodara) Recruitment 2026 – Apply for 25 Assistant Professor Grade - II Posts",
-    "d": "26 August 2026",
-    "l": "15 September 2026",
-    "a": "IITV/ESTT/RECT/FACULTY/26-27/01",
-    "q": "Ph.D. in the appropriate branch with first class or equivalent (in terms of g...",
-    "desc": "Indian Institute of Information Technology Vadodara (IIIT Vadodara) has officially released employment advertisement notification IITV/ESTT/RECT/FACULTY/26-27/01 for the recruitment of 25 vacancies for Assistant Professor Grade - II posts.",
-    "u": "https://www.iiitvadodara.ac.in"
 },
   {
     "id": "warehousing-development-and-re-consultant-banking-recruitment-2026",
@@ -11276,17 +8119,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.du.ac.in/uploads/2026/25082026-biochem-Advt-%20JRF.pdf"
 },
   {
-    "id": "indian-oil-corporation-limited-production-manager-senior-prod-recruitment-2026",
-    "b": "Indian Oil Corporation Limited (IOCL)",
-    "t": "Indian Oil Corporation Limited (IOCL) Recruitment 2026 – Apply for 1 Production Manager, Senior Production Manager & Senior Manager (PBR-Marketing) Posts",
-    "d": "26 August 2026",
-    "l": "16 September 2026 (Tentative)",
-    "a": "IOCL/CO-HR/Rectt/2026/02",
-    "q": "Relevant Qualification and Experience as per IOCL Recruitment Rules",
-    "desc": "Indian Oil Corporation Limited (IOCL) has officially released employment advertisement notification IOCL/CO-HR/Rectt/2026/02 for the recruitment of 1 vacancies for Production Manager, Senior Production Manager & Senior Manager (PBR-Marketing) posts.",
-    "u": "https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/c3f5a41b620e4380b6883c0b62dc7d63.jpeg"
-},
-  {
     "id": "container-corporation-of-india-management-trainee-assistant-o-recruitment-2026",
     "b": "Container Corporation of India Ltd. (CONCOR)",
     "t": "Container Corporation of India Ltd. (CONCOR) Recruitment 2026 – Apply for 77 Management Trainee & Assistant Officer Posts",
@@ -11296,28 +8128,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Relevant Degree / Engineering / MBA / Professional Qualification as per post",
     "desc": "Container Corporation of India Ltd. (CONCOR) has officially released employment advertisement notification 05/2026 for the recruitment of 77 vacancies for Management Trainee & Assistant Officer posts.",
     "u": "https://cms.concorindia.co.in:8000/uploads/cms/pdf/Ai2ZjNLaEQ8lyUd_IndicativeAdvt(nationaldailies).pdf"
-},
-  {
-    "id": "central-university-of-south-bi-crs-project-fellow-junior-recruitment-2026",
-    "b": "Central University of South Bihar (CUSB)",
-    "t": "Central University of South Bihar (CUSB) Recruitment 2026 – Apply for 1 CRS Project Fellow (Junior) Posts",
-    "d": "26 August 2026",
-    "l": "11 September 2026",
-    "a": "CRS/2025-26/01/1671/274",
-    "q": "M.Sc. Physics with minimum 55% marks (not earlier than 3 years)",
-    "desc": "Central University of South Bihar (CUSB) has officially released employment advertisement notification CRS/2025-26/01/1671/274 for the recruitment of 1 vacancies for CRS Project Fellow (Junior) posts.",
-    "u": "https://cusb.ac.in/index.php?option=com_content&view=article&id=1084:re-advertisement-for-the-post-of-crs-project-fellow-junior-i-crs-project-fellow-junior-ii-01-post-under-under-ugc-dae-csr-funded-project-cusb-rp-124&catid=48&Itemid=587"
-},
-  {
-    "id": "ship-building-centre-visakhapa-construction-assistant-a-caa-c-recruitment-2026",
-    "b": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D)",
-    "t": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D) Recruitment 2026 – Apply for 9 Construction Assistant 'A' (CA'A'), Construction Handler (CH), Fire Engine Driver-OG (FED-OG), Civilian Motor Transport Driver-OG (CMTD-OG) Posts",
-    "d": "26 August 2026",
-    "l": "14 Sep 2026 (23:00 hrs)",
-    "a": "3201/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Ship Building Centre, Visakhapatnam (Ministry of Defence, R&D) has officially released employment advertisement notification 3201/2026 for the recruitment of 9 vacancies for Construction Assistant 'A' (CA'A'), Construction Handler (CH), Fire Engine Driver-OG (FED-OG), Civilian Motor Transport Driver-OG (CMTD-OG) posts.",
-    "u": "https://sbcrecruitment.in/assets/advertisement%20sbc_2026.pdf"
 },
   {
     "id": "birla-industrial-and-technolog-junior-mentor-recruitment-2026",
@@ -11331,28 +8141,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://bitm.gov.in/wp-content/uploads/2026/08/MENTOR-Website-Text-24.08.2026.pdf"
 },
   {
-    "id": "bharat-electronics-limited-bel-havildar-security-recruitment-2026",
-    "b": "Bharat Electronics Limited (BEL)",
-    "t": "Bharat Electronics Limited (BEL) Recruitment 2026 – Apply for 5 Havildar (Security) Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026",
-    "a": "21001/KOT/HR/SECURITY/2026/01",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Bharat Electronics Limited (BEL) has officially released employment advertisement notification 21001/KOT/HR/SECURITY/2026/01 for the recruitment of 5 vacancies for Havildar (Security) posts.",
-    "u": "https://bel-india.in/wp-content/uploads/2026/08/Deatiled-Security-Havildar-Advertisment.pdf"
-},
-  {
-    "id": "oil-india-limited-oil-india-consultant-land-coordination-recruitment-2026",
-    "b": "Oil India Limited (Oil India)",
-    "t": "Oil India Limited (Oil India) Recruitment 2026 – Apply for 1 Consultant (Land & Coordination) Posts",
-    "d": "26 August 2026",
-    "l": "18 September 2026",
-    "a": "HRAQ/CONT-EX-B/26-305",
-    "q": "Graduate/Post-Graduate (any discipline) as Full-time Regular course from Inst...",
-    "desc": "Oil India Limited (Oil India) has officially released employment advertisement notification HRAQ/CONT-EX-B/26-305 for the recruitment of 1 vacancies for Consultant (Land & Coordination) posts.",
-    "u": "https://www.oil-india.com/"
-},
-  {
     "id": "defence-institute-of-biodefenc-research-associate-junior-rese-recruitment-2026",
     "b": "Defence Institute of Biodefence Technologies",
     "t": "Defence Institute of Biodefence Technologies Recruitment 2026 – Apply for 5 Research Associate & Junior Research Fellow Posts",
@@ -11362,28 +8150,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "PhD in Food Processing Engineering / Food Engineering & Technology / Food Eng...",
     "desc": "Defence Institute of Biodefence Technologies has officially released employment advertisement notification DEFENCE-INSTIT/2026 for the recruitment of 5 vacancies for Research Associate & Junior Research Fellow posts.",
     "u": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDIBT25082026.pdf"
-},
-  {
-    "id": "rites-engineer-engineer-ut-testing-recruitment-2026",
-    "b": "RITES Engineer",
-    "t": "RITES Engineer Recruitment 2026 – Apply for 8 Engineer-UT Testing Posts",
-    "d": "26 August 2026",
-    "l": "14 September 2026",
-    "a": "RITES-ENGINEER/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "RITES Engineer has officially released employment advertisement notification RITES-ENGINEER/2026 for the recruitment of 8 vacancies for Engineer-UT Testing posts.",
-    "u": "https://www.rites.com/Upload/Career/Advertisement_for_CL_08_26_pdf-2026-Aug-24-16-15-2.pdf"
-},
-  {
-    "id": "bhavnagar-municipal-corporatio-executive-engineer-civil-multi-recruitment-2026",
-    "b": "Bhavnagar Municipal Corporation (BMC)",
-    "t": "Bhavnagar Municipal Corporation (BMC) Recruitment 2026 – Apply for 80 Executive Engineer (Civil), Multi Purpose Health Worker (Urban Malaria) (Male), Sanitary Sub Inspector Posts",
-    "d": "26 August 2026",
-    "l": "17 September 2026",
-    "a": "BHAVNAGAR-MUNI/2026",
-    "q": "Degree / Diploma / Post Graduation or equivalent from a recognized University...",
-    "desc": "Bhavnagar Municipal Corporation (BMC) has officially released employment advertisement notification BHAVNAGAR-MUNI/2026 for the recruitment of 80 vacancies for Executive Engineer (Civil), Multi Purpose Health Worker (Urban Malaria) (Male), Sanitary Sub Inspector posts.",
-    "u": "https://ojas.gujarat.gov.in/ojas1/AdvtDetailFiles/85386281_ccp.pdf"
 },
   {
     "id": "national-highways-authority-of-manager-legal-and-senior-libra-recruitment-2026",
@@ -11494,28 +8260,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "10th / 8th Pass",
     "desc": "Subordinate Services Selection Board, Punjab (SSSB Punjab / PSSSB) has officially published an employment notification (Advertisement No: SUBORDINAT/Rectt/2026) for the recruitment of 1401 Group-D (Common Cadre - Sewadar, Chowkidar, Safai Sewak, and other Group-D designations) vacancies.",
     "u": "https://sssb.punjab.gov.in/wp-content/uploads/2026/02/Advertisement-Group-D-1.pdf"
-},
-  {
-    "id": "east-coast-railway-ecor-act-apprentice-25-designated-trades-recruitment-2026",
-    "b": "East Coast Railway (ECoR) - RRC Bhubaneswar",
-    "t": "East Coast Railway (ECoR) Recruitment 2026 – Apply Online for 1599 Act Apprentice (25 Designated Trades) Posts",
-    "d": "21 August 2026",
-    "l": "15 September 2026",
-    "a": "ECoR/Pers/RRC/Act Apprentice/2026-27",
-    "q": "10th Pass (50%) + ITI (Relevant Trade) / 12th Pass PCB",
-    "desc": "Railway Recruitment Cell (RRC), East Coast Railway (ECoR), Bhubaneswar has published a centralized employment notification (Notification No. ECoR/Pers/RRC/Act Apprentice/2026-27 dated 21/08/2026) for the engagement of Act Apprentices under the Apprentices Act, 1961 for the training year 2026–2027.",
-    "u": "https://www.rrcbbs.org.in/"
-},
-  {
-    "id": "odisha-adarsha-vidyalaya-garudabasa-total-posts-recruitment-2026",
-    "b": "Odisha Adarsha Vidyalaya Garudabasa",
-    "t": "Odisha Adarsha Vidyalaya Garudabasa Recruitment 2026 – Apply Offline for 1 Posts",
-    "d": "24 August 2026",
-    "l": "11 September 2026",
-    "a": "02",
-    "q": "B.A. / B.Sc. from recognized university, At least two years in hostel management",
-    "desc": "Odisha Adarsha Vidyalaya Garudabasa has officially published an employment notification (Advertisement No: 02) for the recruitment of 1 Total Posts vacancies.",
-    "u": "https://mayurbhanj.odisha.gov.in/sites/default/files/2026-08/NIC%20Advertisement%20%26%20Application%20Form%20for%20Girls%27%20Hostel%20OAV%20Garudabasa%20Betnoti.pdf"
 },
   {
     "id": "bombay-high-court-aurangabad-bench-swayampaki-cook-recruitment-2026",
@@ -11738,17 +8482,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://angrau.ac.in/UPLOADS/CareersPDFs/RARS_Lam_22_08.pdf"
 },
   {
-    "id": "nit-raipur-research-associate-recruitment-2026",
-    "b": "National Institute of Technology (NIT), Raipur, Ministry of Education, Government of India",
-    "t": "NIT Raipur Recruitment 2026 – Apply for Research Associate (Department of Mathematics) Post (Stipend ₹58,800/- + HRA)",
-    "d": "20 August 2026",
-    "l": "14 September 2026 (5:00 PM)",
-    "a": "NITRR/Maths/2026/448",
-    "q": "Ph.D. in Mathematics from an INI/Recognized University",
-    "desc": "National Institute of Technology (NIT), Raipur, an Institute of National Importance (INI) under the Ministry of Education, Government of India, has released an official recruitment advertisement (Advt. No. NITRR/Maths/2026/448) for the temporary position of Research Associate (RA) in the Department of Mathematics.",
-    "u": "https://www.nitrr.ac.in"
-},
-  {
     "id": "niper-guwahati-secretary-to-registrar-recruitment-2026",
     "b": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, Ministry of Chemicals & Fertilizers, Govt. of India",
     "t": "NIPER Guwahati Recruitment 2026 – Apply Online for Secretary to Registrar (Pay Level-8, 7th CPC) Post",
@@ -11758,17 +8491,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Bachelor's Degree in any discipline from a recognized University",
     "desc": "National Institute of Pharmaceutical Education and Research (NIPER), Guwahati, an Autonomous Institute of National Importance under the Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, Government of India, has published an official employment notification (Advt. Phase-14/2026) for the regular appointment of Secretary to Registrar.",
     "u": "https://www.niperguwahati.ac.in"
-},
-  {
-    "id": "sbc-visakhapatnam-group-c-recruitment-2026",
-    "b": "Ship Building Centre (SBC), Visakhapatnam, Ministry of Defence (R&D), Government of India",
-    "t": "SBC Visakhapatnam Group C Recruitment 2026 – Apply Online for 9 Construction Assistant, Handler, Fire Engine Driver & CMTD Posts (Advt. No. 3201/2026)",
-    "d": "22 August 2026",
-    "l": "14 September 2026 (23:00 hrs)",
-    "a": "3201/2026",
-    "q": "10th / 8th Pass | ITI | Driver",
-    "desc": "Ship Building Centre (SBC), Visakhapatnam, a premier strategic work centre operating under the Ministry of Defence (Research & Development), Government of India, has published an official employment notification (Advt. No. 3201/2026) inviting online applications from Indian citizens for General Central Service Group 'C' Technical and Non-Technical (Non-Gazetted, Non-Ministerial) positions.",
-    "u": "https://sbcrecruitment.in"
 },
   {
     "id": "upsssc-veterinary-pharmacist-recruitment-2026",
@@ -11793,94 +8515,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.ruhsraj.org"
 },
   {
-    "id": "rrb-je-dms-recruitment-2026",
-    "b": "Railway Recruitment Boards (RRBs)",
-    "t": "RRB Junior Engineer (JE) & Depot Material Superintendent (DMS) Recruitment 2026: Apply Online for 3,993 Vacancies (CEN No. 04/2026)",
-    "d": "14 August 2026",
-    "l": "13 September 2026",
-    "a": "CEN No. 04/2026 (JE/DMS)",
-    "q": "3-Year Diploma in Engineering or B.E. / B.Tech in Relevant Stream",
-    "desc": "Government of India, Ministry of Railways, Railway Recruitment Boards (RRBs) has released the Detailed Centralised Employment Notice (CEN No. 04/2026) for direct recruitment to 3,993 posts of Junior Engineer (JE) and Depot Material Superintendent (DMS) across all 21 Railway Recruitment Boards. (Note: Corrigendum-1 subsequently added 36 posts of Chemical & Metallurgical Assistant, revising total vacancies to 4,029).",
-    "u": "https://rrbapply.gov.in"
-},
-  {
-    "id": "aai-northern-region-apprentice-recruitment-2026",
-    "b": "Airports Authority of India (AAI), Regional Headquarters (Northern Region), New Delhi",
-    "t": "AAI Northern Region Apprentice Recruitment 2026: Apply Online for 205 Vacancies (Graduate, Diploma & ITI Trade) | Advt No: 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR",
-    "d": "15 August 2026",
-    "l": "16 September 2026",
-    "a": "01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR",
-    "q": "Regular Degree (B.E/B.Tech/BCA/B.Com/B.Arch) / Diploma / ITI passed in 2024 or later",
-    "desc": "Airports Authority of India (AAI), Regional Headquarter (Northern Region), New Delhi, a Schedule 'A' Miniratna Category-1 Public Sector Enterprise, has issued advertisement Advt. No. 01/2026/APPRENTICE/GRADUATE/DIPLOMA/ITI/NR for 1-year apprenticeship training of 205 Graduate, Diploma, and ITI Trade Apprentices for the year 2026-27 under the Apprentices Act, 1961.",
-    "u": "https://nats.education.gov.in"
-},
-  {
-    "id": "rsmssb-junior-engineer-jen-recruitment-2026",
-    "b": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur",
-    "t": "RSMSSB Junior Engineer (JEN) Joint Recruitment 2026: Apply Online for 874 Vacancies (Civil, Mechanical & Electrical) | Advt No: 10/2026",
-    "d": "15 August 2026",
-    "l": "14 September 2026 (till 23:59 Hrs)",
-    "a": "Advt. No. 10/2026",
-    "q": "Degree (B.E/B.Tech) or Diploma in Civil / Mechanical / Electrical Engineering",
-    "desc": "Rajasthan Staff Selection Board (RSSB / RSMSSB), Jaipur has released detailed advertisement Advt. No. 10/2026 for Junior Engineer Joint Direct Recruitment 2026 (कनिष्ठ अभियंता संयुक्त सीधी भर्ती-2026) for 874 vacancies across PWD, Water Resources Department, and PHED.",
-    "u": "http://sso.rajasthan.gov.in"
-},
-  {
-    "id": "mp-high-court-assistant-grade-3-recruitment-2026",
-    "b": "High Court of Madhya Pradesh (MPHC), Jabalpur",
-    "t": "MP High Court Assistant Grade-III Recruitment 2026: Apply Online for 1,174 Vacancies in MP District Courts | Advt No: 614/Exam/2026",
-    "d": "14 August 2026",
-    "l": "15 September 2026 (17:00 Hrs)",
-    "a": "614 / परीक्षा / 2026",
-    "q": "Graduation Degree + CPCT Scorecard (MAP-IT) + 1-Year Computer Diploma",
-    "desc": "High Court of Madhya Pradesh (MPHC), Jabalpur has published official advertisement Advt. No. 614/Exam/2026 dated 14.08.2026 for direct recruitment of 1,174 Assistant Grade-III (Sahayak Grade-3) vacancies in District and Sessions Courts of Madhya Pradesh for the recruitment year 2026.",
-    "u": "https://www.mphc.gov.in"
-},
-  {
-    "id": "bhel-trichy-graduate-apprentice-recruitment-2026",
-    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
-    "t": "BHEL Trichy Graduate Apprentice Recruitment 2026: Apply Online for 90 Vacancies (BE/B.Tech, B.Com Accountant & B.A Asst-HR) | Circular TP: HR: R: GA 2026-27",
-    "d": "14 August 2026",
-    "l": "12 September 2026 (23:45 Hrs)",
-    "a": "TP: HR: R: GA 2026-27",
-    "q": "Regular Full-Time B.E / B.Tech / B.Com / B.A (Passed in 2022 to 2026)",
-    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: GA 2026-27 for engagement of 90 Graduate Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
-    "u": "https://trichy.bhel.com"
-},
-  {
-    "id": "bhel-trichy-technician-diploma-apprentice-recruitment-2026",
-    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
-    "t": "BHEL Trichy Technician (Diploma) Apprentice Recruitment 2026: Apply Online for 60 Vacancies (Mechanical, Civil, EEE, ECE, Computer) | Circular TP: HR: R: TA 2026-27",
-    "d": "14 August 2026",
-    "l": "12 September 2026 (23:45 Hrs)",
-    "a": "TP: HR: R: TA 2026-27",
-    "q": "Regular Full-Time Diploma in Engineering (Passed in 2022 to 2026)",
-    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has issued circular No. TP: HR: R: TA 2026-27 for engagement of 60 Technician (Diploma) Apprentices under the Apprentices (Amendment) Act, 1973 for the training year 2026-2027.",
-    "u": "https://trichy.bhel.com"
-},
-  {
-    "id": "bhel-trichy-trade-apprentice-recruitment-2026",
-    "b": "Bharat Heavy Electricals Limited (BHEL), HPBP, Tiruchirappalli, Tamil Nadu",
-    "t": "BHEL Trichy Trade Apprentice Recruitment 2026: Apply Online for 380 Vacancies (Fitter, Welder, Electrician, COPA & Others) | Circular TP: HR: R: AA113",
-    "d": "14 August 2026",
-    "l": "12 September 2026 (23:45 Hrs)",
-    "a": "TP: HR: R: AA113",
-    "q": "10th Pass + Regular Full-Time ITI (NCVT/SCVT) in relevant trade",
-    "desc": "Bharat Heavy Electricals Limited (BHEL), High Pressure Boiler Plant (HPBP), Tiruchirappalli has published official circular No. TP: HR: R: AA113 inviting online applications for engagement of 380 Trade Apprentices under the Apprentices Act, 1961 for the training year 2026-27.",
-    "u": "https://trichy.bhel.com"
-},
-  {
-    "id": "dlsa-sheikhpura-plv-recruitment-2026",
-    "b": "District Legal Services Authority (DLSA), Sheikhpura, Bihar",
-    "t": "DLSA Sheikhpura Para Legal Volunteer (PLV) Recruitment 2026: Notification Out for 100 Vacancies (10th Pass Eligible)",
-    "d": "11 August 2026",
-    "l": "11 September 2026 (till 05:00 PM)",
-    "a": "01/2026",
-    "q": "Matriculation (10th Pass) or equivalent",
-    "desc": "Office of the District Legal Services Authority (DLSA), Sheikhpura (Bihar) has released official notification Advt No. 01/2026 for empanelment of 100 Para Legal Volunteers (PLV) / पारा विधिक स्वयं सेवक across the district.",
-    "u": "https://sheikhpura.dcourts.gov.in"
-},
-  {
     "id": "upsssc-pashudhan-prasar-adhikari-recruitment-2026",
     "b": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "t": "UPSSSC Pashudhan Prasar Adhikari (Livestock Extension Officer) Mains Recruitment 2026 – Apply Online for 1,251 Vacancies (Advt No. 17-Exam/2026)",
@@ -11903,17 +8537,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://portal.mcgm.gov.in"
 },
   {
-    "id": "ecor-gdce-railway-recruitment-2026",
-    "b": "Railway Recruitment Cell (RRC), East Coast Railway, Bhubaneswar",
-    "t": "East Coast Railway (ECoR) GDCE Recruitment 2026 Notification Out for 1,421 Vacancies (ALP, Station Master, Goods Guard, JE, Technicians)",
-    "d": "07 August 2026",
-    "l": "14 September 2026",
-    "a": "ECoR/Pers/RRC-GDCE/2026",
-    "q": "10th+ITI / Diploma / B.E / B.Tech / 12th Pass / Degree (Post-wise)",
-    "desc": "Railway Recruitment Cell (RRC), East Coast Railway (ECoR), Bhubaneswar has published official notification ECoR/Pers/RRC-GDCE/2026 for General Departmental Competitive Examination (GDCE 2026) to fill 1,421 vacancies against 25% Direct Recruitment Quota.",
-    "u": "https://www.rrcbbs.org.in"
-},
-  {
     "id": "army-aoc-group-c-recruitment-2026",
     "b": "Army Ordnance Corps (AOC), Ministry of Defence",
     "t": "Army AOC Group C Recruitment 2026 Notification Out for 2,615 Tradesman Mate, Fireman, JOA, MTS & Material Assistant Posts",
@@ -11925,17 +8548,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://aocrecruitment.gov.in"
 },
   {
-    "id": "aiims-bhubaneswar-group-a-b-c-deputation-recruitment-2026",
-    "b": "All India Institute of Medical Sciences (AIIMS), Bhubaneswar",
-    "t": "AIIMS Bhubaneswar Group A, B & C Deputation Recruitment 2026 (Advt No. DEPUTATION/02/2026) – 61 Vacancies",
-    "d": "04-08-2026",
-    "l": "18 September 2026",
-    "a": "Advt No. - DEPUTATION/02/2026",
-    "q": "Officers from Central / State Govt / Autonomous Bodies holding Analogous Posts or requisite Regular Service",
-    "desc": "All India Institute of Medical Sciences (AIIMS), Bhubaneswar, an Autonomous Institute of National Importance under Ministry of Health & Family Welfare, Govt. of India, invites applications in prescribed pro-forma (Hard Copy Only) from eligible officials of Central / State / UT Governments, Statutory / Autonomous Bodies, Universities, and R&D Organizations for filling up various Group \"A\", \"B\", and \"C\" posts on Deputation Basis.",
-    "u": "https://aiimsbhubaneswar.nic.in"
-},
-  {
     "id": "jkssb-district-divisional-ut-cadre-recruitment-2026",
     "b": "Jammu & Kashmir Services Selection Board (JKSSB)",
     "t": "Jammu & Kashmir Services Selection Board (JKSSB) UT, Divisional & District Cadre Recruitment 2026 (Advt No. 08 of 2026) – Apply Online for 518 Posts",
@@ -11945,17 +8557,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Matric / 10+2 with Diploma/Training / B.Sc Science Degree + J&K Domicile",
     "desc": "The Jammu and Kashmir Services Selection Board (JKSSB), Muthi, Akhnoor Road, Jammu / ZamZam Complex Rambagh, Srinagar, has issued Advertisement Notification No. 08 of 2026 dated 04th August 2026 for direct recruitment to 518 UT, Divisional, and District Cadre posts across four key government departments: Health and Medical Education (421 posts), Higher Education (48 posts), Agriculture Production (46 posts), and Labour and Employment (3 posts).",
     "u": "https://jkssb.nic.in/Pdf/Advertisement_08OF2026_04082026.pdf"
-},
-  {
-    "id": "opsc-assistant-executive-engineer-civil-recruitment-2026",
-    "b": "Odisha Public Service Commission (OPSC)",
-    "t": "OPSC Assistant Executive Engineer (Civil) Group-A Recruitment 2026 (Advt No. 07 of 2026-27) – 46 Vacancies",
-    "d": "04-08-2026",
-    "l": "11 September 2026 (until 05:00 PM)",
-    "a": "ADVERTISEMENT NO. 07 OF 2026-27 (Notice No. 4430/PSC)",
-    "q": "Graduate in Civil Engineering (B.E / B.Tech Civil) OR Associated Member of IEI in Civil (Must read/write/speak Odia)",
-    "desc": "Odisha Public Service Commission (OPSC), Cuttack has issued Advertisement No. 07 of 2026-27 (Notice No. 4430/PSC) for recruitment to 46 Group-A posts of Assistant Executive Engineer (Civil) in the Odisha Municipal Engineering Service Cadre under Housing & Urban Development Department, Govt. of Odisha.",
-    "u": "https://www.opsc.gov.in"
 },
   {
     "id": "jipmer-puducherry-karaikal-deputation-recruitment-2026",
@@ -11991,28 +8592,6 @@ export const JOBS_DATA: JobEntry[] = [
     "u": "https://www.indiapost.gov.in"
 },
   {
-    "id": "stpi-chief-administrative-officer-registrar-recruitment-2026",
-    "b": "Software Technology Parks of India (STPI), MeitY, Govt of India",
-    "t": "STPI Chief Administrative Officer-cum-Registrar Recruitment 2026 (Notice No. 2(3)/I/STPI-HQ/2026-2027) – Apply Online for Group A Level-13 Post",
-    "d": "03-08-2026",
-    "l": "14 September 2026 (23:00 Hrs)",
-    "a": "Employment Notice No. 2(3)/I/STPI-HQ/2026-2027",
-    "q": "MBA / Post Graduate / Graduate with PG Diploma + 15 Yrs Experience (Age Max 50 Yrs for Direct, 56 Yrs for Deputation)",
-    "desc": "Software Technology Parks of India (STPI), an Autonomous Society under the Ministry of Electronics and Information Technology (MeitY), Government of India, has published an official Employment Notification No. 2(3)/I/STPI-HQ/2026-2027 for the recruitment of Group A Non-S&T vacancy for the post of Chief Administrative Officer-cum-Registrar (A-VIII).",
-    "u": "https://www.stpi.in"
-},
-  {
-    "id": "sinp-kolkata-scientist-scientific-assistant-technician-ldc-recruitment-2026",
-    "b": "Saha Institute of Nuclear Physics (SINP), Kolkata, Dept of Atomic Energy (DAE), Govt of India",
-    "t": "Saha Institute of Nuclear Physics (SINP), Kolkata Recruitment 2026 – 62 Vacancies for Scientist 'C', Scientific Assistant 'B', Technician 'B', LDC, Security Guard 'A', Work Assistant 'A' & Halwai-cum-Cook | Apply Online at saha.ac.in by 15 September 2026",
-    "d": "31-07-2026",
-    "l": "15 September 2026 (03:00 PM)",
-    "a": "Advt. No. SINP/Estt./Advt./11/2026 Dated 31/07/2026",
-    "q": "M.Sc in Physics / Diploma in Engineering / ITI / Graduation / 10th Pass (Age 25 - 33 Yrs)",
-    "desc": "Saha Institute of Nuclear Physics (SINP), Kolkata, an autonomous grant-in-aid institution under the Department of Atomic Energy (DAE), Government of India, has published recruitment advertisement SINP/Estt./Advt./11/2026 dated 31.07.2026.",
-    "u": "https://www.saha.ac.in"
-},
-  {
     "id": "ofdr-pune-munitions-india-dbw-recruitment-2026",
     "b": "Ordnance Factory Dehu Road (OFDR), Pune, Maharashtra (Unit of Munitions India Limited, Ministry of Defence, Govt. of India)",
     "t": "Ordnance Factory Dehu Road (OFDR) Pune Recruitment 2026 – 14 Vacancies for Tenure-Based Danger Building Worker (DBW) Skilled Posts | Basic Pay Rs. 19,900/- + DA | Apply Offline (Zero Application Fee)",
@@ -12033,28 +8612,6 @@ export const JOBS_DATA: JobEntry[] = [
     "q": "Ongoing B.E./B.Tech or M.Sc./M.Tech (Final Year / Last Semester Students Only)",
     "desc": "Solid State Physics Laboratory (SSPL), Delhi, a premier research laboratory under the Defence Research & Development Organisation (DRDO), Ministry of Defence, is engaged in pioneering research in advanced semiconductor materials and devices.",
     "u": "https://www.drdo.gov.in"
-},
-  {
-    "id": "tslprb-constable-firemen-warder-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
-    "t": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable, SPF Constable, Fire Fighter & Warder Recruitment 2026 – Apply Online for 7,112 Posts",
-    "d": "29 July 2026",
-    "l": "16 September 2026",
-    "a": "Rc No. 189 / Rect. / Rect-2 / 2026 dated 29.07.2026",
-    "q": "Intermediate (10+2) or equivalent (+ Valid LMV License for Fire Fighter)",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has released official recruitment notification Rc No. 189 / Rect. / Rect-2 / 2026 dated 29th July 2026 inviting online applications for direct recruitment to 7,112 executive and uniformed posts across Telangana Police Department, Special Protection Force (TSPF), Telangana Fire & Disaster Response Department, and Prisons & Correctional Services Department.",
-    "u": "https://www.tgprb.in/"
-},
-  {
-    "id": "tslprb-si-asi-constable-recruitment-2026",
-    "b": "Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad",
-    "t": "Telangana Police (TSLPRB) SI, ASI, Station Fire Officer & Constable Recruitment 2026 – Apply Online for 325 Posts Across 3 Notifications",
-    "d": "29 July 2026",
-    "l": "16 September 2026 (05:00 PM)",
-    "a": "Rc. Nos. 225/Rect./Rect-1/2026, 279/Rect./Rect-3/2026 & 234/Rect./Rect-3/2026 (Dated 29.07.2026) & Press Note Dated 10.09.2026",
-    "q": "Any Degree for SI/SFO/Jailor; B.E./B.Tech/B.Sc (IT/CS) for ASI FPB; SSC + ITI / Inter + Driving License for PC",
-    "desc": "The Telangana State Level Police Recruitment Board (TSLPRB), DGP Office Complex, Lakdi-Ka-Pul, Hyderabad, has issued three major detailed recruitment notifications (Rc. Nos. 225, 279, and 234/Rect./2026) dated 29th July 2026 along with an official Press Note dated 10th September 2026 for direct recruitment to 325 executive and technical posts across the Telangana Police Department, Telangana Special Protection Force (TSPF), Telangana State Disaster Response & Fire Services Department, and Telangana Prisons & Correctional Services Department.",
-    "u": "https://www.tgprb.in"
 },
   {
     "id": "rajasthan-safai-karmchari-recruitment-2026",

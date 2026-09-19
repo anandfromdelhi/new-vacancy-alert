@@ -138,7 +138,7 @@ def parse_jobs_data_ts(file_path):
 
     return job_blocks, content
 
-def remove_expired_jobs(apply_changes=False, grace_days=0):
+def remove_expired_jobs(apply_changes=False, grace_days=0, only_yesterday=False):
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     jobs_data_file = os.path.join(root_dir, 'src', 'data', 'jobsData.ts')
     details_file = os.path.join(root_dir, 'src', 'data', 'jobDetails.json')
@@ -173,7 +173,8 @@ def remove_expired_jobs(apply_changes=False, grace_days=0):
         if last_dt:
             # Calculate difference in days
             delta = (today_date_only - last_dt).days
-            if delta > grace_days: # Expired before today (or past grace days)
+            is_match = (delta == 1) if only_yesterday else (delta > grace_days)
+            if is_match: # Expired
                 expired_jobs.append({
                     'id': job_id,
                     'title': job_summary.get('t', ''),
@@ -299,6 +300,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Lightning-Fast Expired Jobs Cleaner")
     parser.add_argument('--apply', action='store_true', help="Apply changes and remove expired jobs from database files")
     parser.add_argument('--grace-days', type=int, default=0, help="Grace days past last date before marking expired (default: 0)")
+    parser.add_argument('--only-yesterday', action='store_true', help="Only remove jobs whose last date was specifically yesterday (18 September 2026)")
     args = parser.parse_args()
 
-    remove_expired_jobs(apply_changes=args.apply, grace_days=args.grace_days)
+    remove_expired_jobs(apply_changes=args.apply, grace_days=args.grace_days, only_yesterday=args.only_yesterday)
