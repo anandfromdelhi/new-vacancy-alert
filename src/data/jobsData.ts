@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kgbv-agra-various-teaching-recruitment-2026",
+    "b": "Kasturba Gandhi Balika Vidyalayas Agra (KGBV Agra)",
+    "t": "Kasturba Gandhi Balika Vidyalayas Agra (KGBV Agra) Recruitment 2026 Notification Out for 34 Various Teaching and Non Teaching Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "KASTURBA-GANDH/2026",
+    "q": "BPED/ CPED/ DPED for Physical Education, Class 8 pass for support staff.",
+    "desc": "Kasturba Gandhi Balika Vidyalayas Agra (KGBV Agra) has officially announced employment advertisement notification KASTURBA-GANDH/2026 inviting applications for 34 vacancies for Various Teaching and Non Teaching Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s36855456e2fe46a9d49d3d3af4f57443d/uploads/2026/09/17894597472959.pdf"
+},
+  {
+    "id": "prayagraj-distric-counselor-recruitment-2026",
+    "b": "Prayagraj District Court",
+    "t": "Prayagraj District Court Recruitment 2026 Notification Out for 3 Counselor Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "PRAYAGRAJ-DIST/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Prayagraj District Court has officially announced employment advertisement notification PRAYAGRAJ-DIST/2026 inviting applications for 3 vacancies for Counselor posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26891_17-09-2026.pdf"
+},
+  {
+    "id": "rmlau-ap-recruitment-2026",
+    "b": "Dr. Rammanohar Lohia Avadh University (RMLAU)",
+    "t": "Dr. Rammanohar Lohia Avadh University (RMLAU) Recruitment 2026 Notification Out for 1 Professor, Associate Professor, Assistant Professor, Contractual Teachers Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "05 October 2026",
+    "a": "01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Dr. Rammanohar Lohia Avadh University (RMLAU) has officially announced employment advertisement notification 01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026 inviting applications for 1 vacancies for Professor, Associate Professor, Assistant Professor, Contractual Teachers posts.",
+    "u": "https://www.rmlau.ac.in/news/RMLCareer_170926024429.pdf"
+},
+  {
+    "id": "sgpgims-sr-recruitment-2026",
+    "b": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS)",
+    "t": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS) Recruitment 2026 Notification Out for 17 Senior Resident / Junior Resident Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "The specific eligibility criteria, including educational qualifications ...",
+    "desc": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS) has officially announced employment advertisement notification SANJAY-GANDHI-/2026 inviting applications for 17 vacancies for Senior Resident / Junior Resident posts.",
+    "u": "https://sgpgims.org.in/Home/recruit/sr/2026/17.09.2026_SRHS%20JRNA%20Rolling%20Advt_180926.pdf"
+},
+  {
+    "id": "upsssc-je-recruitment-2026",
+    "b": "Uttar Pradesh Adhinasth Seva Chayan Aayog (UPSSSC), Lucknow",
+    "t": "Uttar Pradesh Adhinasth Seva Chayan Aayog (UPSSSC), Lucknow Recruitment 2026 Notification Out for 134 Avar Abhiyanta (Krishi) / Junior Engineer (Agriculture) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "7 October 2026",
+    "a": "19-Pariksha/2026",
+    "q": "Only PET-2025 appeared and shortlisted candidates",
+    "desc": "Uttar Pradesh Adhinasth Seva Chayan Aayog (UPSSSC), Lucknow has officially announced employment advertisement notification 19-Pariksha/2026 inviting applications for 134 vacancies for Avar Abhiyanta (Krishi) / Junior Engineer (Agriculture) posts.",
+    "u": "https://upsssc.gov.in/AllNotifications.aspx"
+},
+  {
+    "id": "ss-mainpuri-counsellor-recruitment-2026",
+    "b": "Sainik School Mainpuri",
+    "t": "Sainik School Mainpuri Recruitment 2026 Notification Out for 2 TGT English and Counsellor Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "10 October 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Sainik School Mainpuri has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 2 vacancies for TGT English and Counsellor posts.",
+    "u": "https://www.sainikschoolmainpuri.com/files/news/NEWS_20260918_6aacbf017b48a.pdf"
+},
+  {
+    "id": "mdcsu-guest-faculty-recruitment-2026",
+    "b": "Major Dhyan Chand Sports University",
+    "t": "Major Dhyan Chand Sports University Recruitment 2026 Notification Out for 1 Guest Faculty Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "21 September 2026",
+    "a": "661/MDSU/Est.2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Major Dhyan Chand Sports University has officially announced employment advertisement notification 661/MDSU/Est.2026 inviting applications for 1 vacancies for Guest Faculty posts.",
+    "u": "https://sportsuniup.com/index.php/2026/09/10/notification-for-guest-faculty-anatomy-and-physiology/"
+},
+  {
+    "id": "cmo-ballia-urban-asha-recruitment-2026",
+    "b": "Chief Medical Office Ballia (CMO Ballia)",
+    "t": "Chief Medical Office Ballia (CMO Ballia) Recruitment 2026 Notification Out for 19 Urban ASHA Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "01 October 2026",
+    "a": "मु०चि०अ०/शहरी आशा चयन/2026-27/५७४०",
+    "q": "High School",
+    "desc": "Chief Medical Office Ballia (CMO Ballia) has officially announced employment advertisement notification मु०चि०अ०/शहरी आशा चयन/2026-27/५७४० inviting applications for 19 vacancies for Urban ASHA posts.",
+    "u": "https://cdn.s3waas.gov.in/s32b44928ae11fb9384c4cf38708677c48/uploads/2026/09/17897117117037.pdf"
+},
+  {
+    "id": "iit-kanpur-ap-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "31 October 2026",
+    "a": "2026-001",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification 2026-001 inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://pingala.iitk.ac.in/IITKFR-0/login"
+},
+  {
+    "id": "tngcl-am-recruitment-2026",
+    "b": "Tripura Natural Gas Company Limited (TNGCL)",
+    "t": "Tripura Natural Gas Company Limited (TNGCL) Recruitment 2026 Notification Out for 3 Deputy General Manager (O & M) Grade-M7, Assistant Manager-BIS Grade-M2, Assistant Manager-Fire & Safety, Grade-M2 Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "09 October 2026",
+    "a": "TNGCL/OFEM/MISC/III/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Tripura Natural Gas Company Limited (TNGCL) has officially announced employment advertisement notification TNGCL/OFEM/MISC/III/2026 inviting applications for 3 vacancies for Deputy General Manager (O & M) Grade-M7, Assistant Manager-BIS Grade-M2, Assistant Manager-Fire & Safety, Grade-M2 posts.",
+    "u": "https://www.tngclonline.com"
+},
+  {
     "id": "rrc-nursing-superinten-recruitment-2026",
     "b": "Railway Recruitment Cell (RRC), South Central Railway, Secunderabad",
     "t": "Railway Recruitment Cell (RRC), South Central Railway, Secunderabad Recruitment 2026 Notification Out for 33 Nursing Superintendent, Health & Malaria Inspector Gr. II, Commercial cum Ticket Clerk (CCTC) Posts | Apply Online",
