@@ -162,7 +162,74 @@ BOARD_ACRONYM_MAP = {
     'mahatma phule krishi vidyapeeth': 'mpkv',
     'odisha adarsha vidyalaya': 'oav',
     'district medical & health': 'dmho',
-    'uttar pradesh shiksha seva chayan aayog': 'upessc',
+    'tribal development branch': 'tdb',
+    'national centre for disease control': 'ncdc',
+    'indira gandhi national open university': 'ignou',
+    'grih kalyan kendra': 'gkk',
+    'intelligent communication systems india': 'icsil',
+    'rail land development authority': 'rlda',
+    'ifci limited': 'ifci',
+    'ifci': 'ifci',
+    'deendayal port authority': 'dpa',
+    'haryana public service commission': 'hpsc',
+    'translational health science': 'thsti',
+    'chaudhary charan singh haryana agricultural': 'ccshau',
+    'wapcos limited': 'wapcos',
+    'wapcos': 'wapcos',
+    'himachal pradesh public service commission': 'hppsc',
+    'naval physical and oceanographic laboratory': 'drdo-npol',
+    'southern railway': 'sr',
+    'calicut university': 'calicut-univ',
+    'university of calicut': 'calicut-univ',
+    'district court thrissur': 'dc-thrissur',
+    'madhya pradesh bhoj open university': 'mpbou',
+    'nepa limited': 'nepa',
+    'bhopal memorial hospital': 'bmhrc',
+    'madhya pradesh police': 'mp-police',
+    'vehicles research and development establishment': 'drdo-vrde',
+    'ordnance factory ambarnath': 'ofa',
+    'mumbai port authority': 'mbpa',
+    'khadi and village industries commission': 'kvic',
+    'national film development corporation': 'nfdc',
+    'maharashtra state electricity transmission': 'mahatransco',
+    'central forensic science laboratory': 'cfsl',
+    'directorate of health services south garo hills': 'dhs-sgh',
+    'samagra shiksha jajpur': 'ss-jajpur',
+    'government high school hatibari': 'ghs-hatibari',
+    'zilla swasthya samiti': 'zss',
+    'orissa university of agriculture and technology': 'ouat',
+    'jawaharlal institute of postgraduate medical education': 'jipmer',
+    'sainik school kapurthala': 'ss-kapurthala',
+    'sainik school mainpuri': 'ss-mainpuri',
+    'sainik school': 'sainik-school',
+    'central university of rajasthan': 'curaj',
+    'south zone cultural centre': 'szcc',
+    'government medical college thiruvallur': 'gmc-thiruvallur',
+    'tamil nadu veterinary and animal sciences university': 'tanuvas',
+    'institute of mental health chennai': 'imh-chennai',
+    'directorate of health services kanyakumari': 'dhs-kanyakumari',
+    'district child welfare and special services': 'dcwss',
+    'telangana public service commission': 'tgpsc',
+    'society for agriculture and rural development': 'saird',
+    'bits pilani': 'bits-pilani',
+    'district hospital mancherial': 'dh-mancherial',
+    'centre for materials for electronics technology': 'c-met',
+    'rrc south central railway': 'rrc-scr',
+    'south central railway': 'scr',
+    'tripura natural gas company': 'tngcl',
+    'chief medical officer ballia': 'cmo-ballia',
+    'major dhyan chand sports university': 'mdcsu',
+    'sanjay gandhi postgraduate institute': 'sgpgims',
+    'dr. rammanohar lohia avadh university': 'rmlau',
+    'district court prayagraj': 'dc-prayagraj',
+    'kasturba gandhi balika vidyalaya agra': 'kgbv-agra',
+    'indian institute of science education and research': 'iiser',
+    'iiser kolkata': 'iiser-kolkata',
+    'chittaranjan national cancer institute': 'cnci',
+    'central glass and ceramic research institute': 'csir-cgcri',
+    'district health & family welfare samiti': 'dhfws',
+    'army public school bengdubi': 'aps-bengdubi',
+    'bidhan chandra krishi viswavidyalaya': 'bckv',
     'telangana employment association': 'team'
 }
 
@@ -184,7 +251,10 @@ CAMPUS_CITIES = [
     'nirmal', 'narayanpet', 'daman', 'hazaribagh', 'patiala', 'brahmapur',
     'kallakurichi', 'ganjam', 'mayurbhanj', 'begusarai', 'ezhukone', 'kalaburagi',
     'margao', 'hajipur', 'ri-bhoi', 'yadadri', 'bhuvanagiri', 'burnpur',
-    'udupi', 'malpe', 'pakidi', 'morada', 'garudabasa', 'lucknow', 'pilani'
+    'udupi', 'malpe', 'pakidi', 'morada', 'garudabasa', 'lucknow', 'pilani',
+    'visakhapatnam', 'shahdara', 'adoor', 'thrissur', 'jajpur', 'khordha',
+    'cuddalore', 'thanjavur', 'mancherial', 'mainpuri', 'agra', 'cooch behar',
+    'ambarnath', 'balod'
 ]
 
 EXAM_ACRONYM_MAP = {
@@ -224,7 +294,43 @@ EXAM_ACRONYM_MAP = {
     'software engineer': 'software-eng',
     'trade apprentice': 'trade-apprentice',
     'ayushman mitra': 'ayushman-mitra',
-    'crop guard': 'crop-guard'
+    'crop guard': 'crop-guard',
+    'vocational instructor': 'voc-instructor',
+    'project research scientist': 'prs',
+    'principal project scientist': 'pps',
+    'project scientist': 'ps',
+    'food safety officer': 'fso',
+    'store keeper': 'store-keeper',
+    'library assistant': 'lib-asst',
+    'technical advisor': 'tech-advisor',
+    'lab attendant': 'lab-attendant',
+    'sports coach': 'coach',
+    'office assistant': 'office-asst',
+    'assistant manager': 'am',
+    'homeopathy doctor': 'doctor',
+    'associate director': 'assoc-dir',
+    'senior associate': 'sr-assoc',
+    'demonstrator': 'demonstrator',
+    'senior resident': 'sr',
+    'junior resident': 'jr',
+    'draftsman': 'draftsman',
+    'supervisor': 'supervisor',
+    'special educator': 'special-educator',
+    'court assistant': 'court-asst',
+    'office attendant': 'office-attendant',
+    'counsellor': 'counsellor',
+    'shift incharge': 'shift-incharge',
+    'subedar': 'subedar',
+    'labour welfare officer': 'lwo',
+    'junior planner': 'jr-planner',
+    'content writer': 'content-writer',
+    'executive assistant': 'exec-asst',
+    'phlebotomist': 'phlebotomist',
+    'headmaster': 'headmaster',
+    'headmistress': 'headmistress',
+    'field assistant': 'field-asst',
+    'civil judge': 'civil-judge',
+    'civil assistant surgeon': 'cas'
 }
 
 def generate_short_slug(board, post_name, year="2026"):
@@ -243,7 +349,7 @@ def generate_short_slug(board, post_name, year="2026"):
             if full_name in b_lower:
                 b_key = acro
                 for city in CAMPUS_CITIES:
-                    if city in b_lower:
+                    if city in b_lower and city not in acro:
                         b_key = f"{acro}-{slugify(city)}"
                         break
                 break
@@ -252,8 +358,9 @@ def generate_short_slug(board, post_name, year="2026"):
         b_key = slugify(board)[:18].strip('-')
 
     p_key = None
+    p_normalized = p_lower.replace('-', ' ')
     for full_exam, acro in EXAM_ACRONYM_MAP.items():
-        if full_exam in p_lower:
+        if full_exam in p_lower or full_exam in p_normalized:
             p_key = acro
             break
 
@@ -263,9 +370,14 @@ def generate_short_slug(board, post_name, year="2026"):
         p_words = [w for w in p_clean.split('-') if len(w) > 1]
         p_key = '-'.join(p_words[:2]) if p_words else 'jobs'
 
-    p_key = p_key[:20].strip('-')
+    p_key = p_key[:18].strip('-')
     slug = f"{b_key}-{p_key}-recruitment-{year}"
     slug = re.sub(r'-+', '-', slug).strip('-')
+    if len(slug) > 44:
+        excess = len(slug) - 44
+        b_trim = b_key[:max(6, len(b_key)-excess)].strip('-')
+        slug = f"{b_trim}-{p_key}-recruitment-{year}"
+        slug = re.sub(r'-+', '-', slug).strip('-')
     return slug
 
 def format_clean_date(date_str):
@@ -735,7 +847,9 @@ def parse_vacancy_data(html, url, ctx=None):
             if len(v) > 2 and v.lower() not in ['details', 'various', 'given below', ' samvida) basis', ' samvida)']:
                 board = v
                 break
-    if not board or len(board) < 3:
+    if 'workplace' in overview_kv and (not board or any(bad in board.lower() for bad in ['m/s', 'services', 'private limited', 'pvt', 'agency', 'contractor'])):
+        board = overview_kv['workplace']
+    elif not board or len(board) < 3:
         board = title_board
     board = re.sub(r'\s*\(India[\'\w\s]+\)\s*', '', board).strip()
     board = re.sub(r'\s*-\s*Schedule\s*[‘\'"][A-Z][’\'"].*$', '', board).strip()

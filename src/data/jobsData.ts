@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rlda-doctor-recruitment-2026",
+    "b": "Rail Land Development Authority (RLDA)",
+    "t": "Rail Land Development Authority (RLDA) Recruitment 2026 Notification Out for 1 Homeopathy Doctor (Consultant) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "16 October 2026",
+    "a": "22/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Rail Land Development Authority (RLDA) has officially announced employment advertisement notification 22/2026 inviting applications for 1 vacancies for Homeopathy Doctor (Consultant) posts.",
+    "u": "https://rlda.indianrailways.gov.in/uploads/VNN_22_2026.pdf"
+},
+  {
+    "id": "rites-am-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 3 Assistant Manager / Transaction Advisory Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "08 October 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RAIL-INDIA-TEC/2026 inviting applications for 3 vacancies for Assistant Manager / Transaction Advisory posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "kvs-shahdara-voc-instructor-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya Shahdara",
+    "t": "PM SHRI Kendriya Vidyalaya Shahdara Recruitment 2026 Notification Out for 1 Vocational Instructor Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "B.Tech / B.E",
+    "desc": "PM SHRI Kendriya Vidyalaya Shahdara has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for Vocational Instructor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv0464eb851c527370afbd19e928f470/uploads/2026/09/2026091776.pdf"
+},
+  {
+    "id": "icsil-driver-recruitment-2026",
+    "b": "Intelligent Communication Systems India (ICSIL)",
+    "t": "Intelligent Communication Systems India (ICSIL) Recruitment 2026 Notification Out for 1 Driver Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "ICSIL/RC/10-A/DRIVER/DTTDC/2026-27",
+    "q": "10th / 8th Pass",
+    "desc": "Intelligent Communication Systems India (ICSIL) has officially announced employment advertisement notification ICSIL/RC/10-A/DRIVER/DTTDC/2026-27 inviting applications for 1 vacancies for Driver posts.",
+    "u": "https://icsil.in/sites/default/files/2026-09/DTTDC%20DRIVER%20SEPTEMBER%20%202026%20walk%20in%20advt.pdf"
+},
+  {
+    "id": "gkk-deo-recruitment-2026",
+    "b": "Grih Kalyan Kendra",
+    "t": "Grih Kalyan Kendra Recruitment 2026 Notification Out for 1 Office Assistant, Accounts Assistant, Zonal Assistant, Craft Teacher, Day Care Teacher, Day Care Attendant, Data Entry Operator, Peon, Nursery Teacher, Nursery Attendant, Booking Clerk and Caretaker Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "28 September 2026",
+    "a": "GRIH-KALYAN-KE/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Grih Kalyan Kendra has officially announced employment advertisement notification GRIH-KALYAN-KE/2026 inviting applications for 1 vacancies for Office Assistant, Accounts Assistant, Zonal Assistant, Craft Teacher, Day Care Teacher, Day Care Attendant, Data Entry Operator, Peon, Nursery Teacher, Nursery Attendant, Booking Clerk and Caretaker posts.",
+    "u": "https://grihkalyankendra.gov.in/"
+},
+  {
+    "id": "ignou-ap-recruitment-2026",
+    "b": "Indira Gandhi National Open University (IGNOU)",
+    "t": "Indira Gandhi National Open University (IGNOU) Recruitment 2026 Notification Out for 42 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "20 October 2026, or 30 days from the date of publication of the advertisement in Employment News, whichever is later",
+    "a": "01/2026/ACD, dated 19.09.2026",
+    "q": "B.Tech / B.E",
+    "desc": "Indira Gandhi National Open University (IGNOU) has officially announced employment advertisement notification 01/2026/ACD, dated 19.09.2026 inviting applications for 42 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://www.ignou.ac.in"
+},
+  {
+    "id": "ncdc-various-contractua-recruitment-2026",
+    "b": "National Centre for Disease Control (NCDC)",
+    "t": "National Centre for Disease Control (NCDC) Recruitment 2026 Notification Out for 16 Various Contractual Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "29 September 2026",
+    "a": "NATIONAL-CENTR/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Centre for Disease Control (NCDC) has officially announced employment advertisement notification NATIONAL-CENTR/2026 inviting applications for 16 vacancies for Various Contractual Posts posts.",
+    "u": "https://ncdc.mohfw.gov.in/"
+},
+  {
+    "id": "tdb-balod-coach-recruitment-2026",
+    "b": "Tribal Development Branch Balod Chhattisgarh",
+    "t": "Tribal Development Branch Balod Chhattisgarh Recruitment 2026 Notification Out for 1 Sports Coach Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "28 September 2026",
+    "a": "739 / A.J.K. / 2026-27",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tribal Development Branch Balod Chhattisgarh has officially announced employment advertisement notification 739 / A.J.K. / 2026-27 inviting applications for 1 vacancies for Sports Coach posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/09/17896378984006.pdf"
+},
+  {
+    "id": "cpri-mts-recruitment-2026",
+    "b": "Central Power Research Institute (CPRI), Ministry of Power, Govt. of India",
+    "t": "Central Power Research Institute (CPRI), Ministry of Power, Govt. of India Recruitment 2026 Notification Out for 110 Engineering Officer Gr.1 (Electrical/Civil), Engineering Assistant (Electrical/Mechanical), Scientific Assistant, Technician Gr.1 (Electrical/Mechanical), Technical Attendant Gr.1, Assistant Gr. II, Multi-Tasking Staff (MTS) Gr.1 Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "12 October 2026 (05:00 PM)",
+    "a": "CPRI/06/2026 (Dated 19.09.2026)",
+    "q": "Indian Nationals aged 18 years and above, meeting the post-specific educ...",
+    "desc": "Central Power Research Institute (CPRI), Ministry of Power, Govt. of India has officially announced employment advertisement notification CPRI/06/2026 (Dated 19.09.2026) inviting applications for 110 vacancies for Engineering Officer Gr.1 (Electrical/Civil), Engineering Assistant (Electrical/Mechanical), Scientific Assistant, Technician Gr.1 (Electrical/Mechanical), Technical Attendant Gr.1, Assistant Gr. II, Multi-Tasking Staff (MTS) Gr.1 posts.",
+    "u": "https://cpri.res.in/"
+},
+  {
+    "id": "hbchrc-mts-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital & Research Centre",
+    "t": "Homi Bhabha Cancer Hospital & Research Centre Recruitment 2026 Notification Out for 7 Multi-Tasking Staff (Housekeeping) Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "OS/VIZAG/26/31",
+    "q": "SSC with one year of experience",
+    "desc": "Homi Bhabha Cancer Hospital & Research Centre has officially announced employment advertisement notification OS/VIZAG/26/31 inviting applications for 7 vacancies for Multi-Tasking Staff (Housekeeping) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=tIkkGdkGbiLW4qF/GuXlBA=="
+},
+  {
     "id": "hcl-various-recruitment-2026",
     "b": "Hindustan Copper Limited (HCL), a multi-unit, Schedule-A Miniratna Category-I Central Public Sector Enterprise",
     "t": "Hindustan Copper Limited (HCL), a multi-unit, Schedule-A Miniratna Category-I Central Public Sector Enterprise Recruitment 2026 Notification Out for 45 Various Posts | Apply Online",
