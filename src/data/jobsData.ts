@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "hppsc-mo-recruitment-2026",
+    "b": "Himachal Pradesh Public Service Commission",
+    "t": "Himachal Pradesh Public Service Commission Recruitment 2026 Notification Out for 228 Medical Officer (General Wing) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "16 October 2026 up to 11:59 PM",
+    "a": "62/9-2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Himachal Pradesh Public Service Commission has officially announced employment advertisement notification 62/9-2026 inviting applications for 228 vacancies for Medical Officer (General Wing) posts.",
+    "u": "https://hppsc.hp.gov.in"
+},
+  {
+    "id": "wapcos-yp-recruitment-2026",
+    "b": "Water and Power Consultancy Services (WAPCOS)",
+    "t": "Water and Power Consultancy Services (WAPCOS) Recruitment 2026 Notification Out for 37 Young Professional Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "08 October 2026",
+    "a": "WAP/HR/Empt./Advt./2026-03",
+    "q": "B.Tech / B.E | M.Com | MBA / BBA",
+    "desc": "Water and Power Consultancy Services (WAPCOS) has officially announced employment advertisement notification WAP/HR/Empt./Advt./2026-03 inviting applications for 37 vacancies for Young Professional posts.",
+    "u": "https://www.wapcos.co.in/english/doc/b606c05c-3da8-4481-ae81-d056021dbebf/"
+},
+  {
+    "id": "thsti-lab-attendant-recruitment-2026",
+    "b": "Translational Health Science and Technology Institute (THSTI)",
+    "t": "Translational Health Science and Technology Institute (THSTI) Recruitment 2026 Notification Out for 1 Semi-Skilled (Lab Attendant) Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "12 October 2026 (Walk-in)",
+    "a": "Name",
+    "q": "B.Sc",
+    "desc": "Translational Health Science and Technology Institute (THSTI) has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Semi-Skilled (Lab Attendant) posts.",
+    "u": "https://recruitment.thsti.in/public/upload/job_pdf/Advertisement%20Dr.%20Dinesh%20Sep%202026.pdf"
+},
+  {
+    "id": "ccs-hau-yp-recruitment-2026",
+    "b": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU)",
+    "t": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU) Recruitment 2026 Notification Out for 1 Young Professional-II (YP-II) Posts | Apply Offline",
+    "d": "19 September 2026",
+    "l": "25 September 2026",
+    "a": "CHAUDHARY-CHAR/2026",
+    "q": "M.Sc",
+    "desc": "Chaudhary Charan Singh Haryana Agricultural University (CCS HAU) has officially announced employment advertisement notification CHAUDHARY-CHAR/2026 inviting applications for 1 vacancies for Young Professional-II (YP-II) posts.",
+    "u": "https://hau.ac.in/public/notification-documents/5691/1789639576.pdf"
+},
+  {
+    "id": "skau-kurukshet-store-keeper-recruitment-2026",
+    "b": "Shri Krishna AYUSH University, Kurukshetra",
+    "t": "Shri Krishna AYUSH University, Kurukshetra Recruitment 2026 Notification Out for 10 Assistant Registrar, SDE (Civil), JE (Civil), JE (Electrical), Library Assistant, Library Counter Clerk, Library Restorer, Store Keeper Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "26 October 2026 (04:00 PM)",
+    "a": "NT-04/2026 to NT-11/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Shri Krishna AYUSH University, Kurukshetra has officially announced employment advertisement notification NT-04/2026 to NT-11/2026 inviting applications for 10 vacancies for Assistant Registrar, SDE (Civil), JE (Civil), JE (Electrical), Library Assistant, Library Counter Clerk, Library Restorer, Store Keeper posts.",
+    "u": "https://recruitment.skau.ac.in"
+},
+  {
+    "id": "thsti-exec-asst-recruitment-2026",
+    "b": "Translational Health Science and Technology Institute (THSTI)",
+    "t": "Translational Health Science and Technology Institute (THSTI) Recruitment 2026 Notification Out for 1 Highly Skilled (Executive Assistant) Posts | Walk-in Interview",
+    "d": "19 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "Name",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Translational Health Science and Technology Institute (THSTI) has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Highly Skilled (Executive Assistant) posts.",
+    "u": "https://recruitment.thsti.in/public/upload/job_pdf/Advertisement%20Academics%20Aug%202026%20(1).pdf"
+},
+  {
+    "id": "hpsc-fso-recruitment-2026",
+    "b": "Haryana Public Service Commission (HPSC)",
+    "t": "Haryana Public Service Commission (HPSC) Recruitment 2026 Notification Out for 45 Food Safety Officer (Group-B) Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "19 October 2026 up to 5:00 PM",
+    "a": "25/2026",
+    "q": "Candidates applying for HPSC FSO Recruitment 2026 must meet the followin...",
+    "desc": "Haryana Public Service Commission (HPSC) has officially announced employment advertisement notification 25/2026 inviting applications for 45 vacancies for Food Safety Officer (Group-B) posts.",
+    "u": "https://hpsc.gov.in/en-us/Instructions"
+},
+  {
+    "id": "dpa-pilot-recruitment-2026",
+    "b": "Deendayal Port Authority",
+    "t": "Deendayal Port Authority Recruitment 2026 Notification Out for 8 Pilot Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "17 October 2026",
+    "a": "GA/PS/1736/Pilot(DR)/2025/3191",
+    "q": "Master's / PG Degree",
+    "desc": "Deendayal Port Authority has officially announced employment advertisement notification GA/PS/1736/Pilot(DR)/2025/3191 inviting applications for 8 vacancies for Pilot posts.",
+    "u": "https://www.deendayalport.gov.in/recruitment/apply"
+},
+  {
+    "id": "iit-delhi-pps-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 2 Principal Project Scientist Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "30 September 2026",
+    "a": "IITD/IRD/248/2026",
+    "q": "Ph.D / Doctorate | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification IITD/IRD/248/2026 inviting applications for 2 vacancies for Principal Project Scientist posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1789624485283_54c93vu.pdf"
+},
+  {
+    "id": "ifci-assoc-dir-recruitment-2026",
+    "b": "IFCI Limited",
+    "t": "IFCI Limited Recruitment 2026 Notification Out for 14 Associate Director and Senior Associate Posts | Apply Online",
+    "d": "19 September 2026",
+    "l": "27 September 2026",
+    "a": "IFCI/2026-27/02",
+    "q": "B.Tech / B.E | B.Com | MBA / BBA",
+    "desc": "IFCI Limited has officially announced employment advertisement notification IFCI/2026-27/02 inviting applications for 14 vacancies for Associate Director and Senior Associate posts.",
+    "u": "https://career.ifciltd.com/"
+},
+  {
     "id": "rlda-doctor-recruitment-2026",
     "b": "Rail Land Development Authority (RLDA)",
     "t": "Rail Land Development Authority (RLDA) Recruitment 2026 Notification Out for 1 Homeopathy Doctor (Consultant) Posts | Apply Online",
