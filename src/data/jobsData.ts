@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "karnataka-pri-jailor-warder-recruitment-2026",
+    "b": "Karnataka Prisons Department",
+    "t": "Karnataka Prisons Department Recruitment 2026 Notification Out for 869 Jailor, Warder (Vikshakaru), Warder cum Nursing, Second Grade Teacher/Instructor Grade-II Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "16 October 2026",
+    "a": "ED/KEA/22/Ne.Vi/2026(R.P.C.) - General/Rest-of-State cadre; ED/KEA/23/Ne.Vi/2026(K.K.) - Kalyana Karnataka cadre (both dated 18.09.2026)",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Karnataka Prisons Department has officially announced employment advertisement notification ED/KEA/22/Ne.Vi/2026(R.P.C.) - General/Rest-of-State cadre; ED/KEA/23/Ne.Vi/2026(K.K.) - Kalyana Karnataka cadre (both dated 18.09.2026) inviting applications for 869 vacancies for Jailor, Warder (Vikshakaru), Warder cum Nursing, Second Grade Teacher/Instructor Grade-II posts.",
+    "u": "https://cetonline.karnataka.gov.in/"
+},
+  {
+    "id": "beml-chief-general-recruitment-2026",
+    "b": "Bharat Earth Movers (BEML)",
+    "t": "Bharat Earth Movers (BEML) Recruitment 2026 Notification Out for 2 Chief General Manager - HR Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "30 September 2026",
+    "a": "KP/S/16/2026",
+    "q": "Diploma | B.Tech / B.E | MBA / BBA",
+    "desc": "Bharat Earth Movers (BEML) has officially announced employment advertisement notification KP/S/16/2026 inviting applications for 2 vacancies for Chief General Manager - HR posts.",
+    "u": "https://beml.registrationform.in/"
+},
+  {
+    "id": "kslu-ap-recruitment-2026",
+    "b": "KSLU",
+    "t": "KSLU Recruitment 2026 Notification Out for 31 Assistant Professor and Guest Faculty Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "25 September 2026",
+    "a": "KSLU/2026",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "KSLU has officially announced employment advertisement notification KSLU/2026 inviting applications for 31 vacancies for Assistant Professor and Guest Faculty posts.",
+    "u": "https://kslu.karnataka.gov.in/uploads/New%20Doc%2009-18-2026%2018_1789749085.pdf"
+},
+  {
+    "id": "kuvempu-univ-guest-faculty-recruitment-2026",
+    "b": "Kuvempu University",
+    "t": "Kuvempu University Recruitment 2026 Notification Out for 1 Guest Faculty - Environmental Studies Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "21 September 2026",
+    "a": "KUVEMPU-UNIVER/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Kuvempu University has officially announced employment advertisement notification KUVEMPU-UNIVER/2026 inviting applications for 1 vacancies for Guest Faculty - Environmental Studies posts.",
+    "u": "http://www.kuvempu.ac.in/web_notification/Notifi/notification/GL%20Notification.pdf"
+},
+  {
+    "id": "jssc-jharkhand-intermed-recruitment-2026",
+    "b": "Jharkhand Staff Selection Commission (JSSC)",
+    "t": "Jharkhand Staff Selection Commission (JSSC) Recruitment 2026 Notification Out for 326 Jharkhand Intermediate Level Combined Competitive Examination 2026 Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "19 August 2026 29 September 2026 (Extended)",
+    "a": "03/2026",
+    "q": "12th Pass",
+    "desc": "Jharkhand Staff Selection Commission (JSSC) has officially announced employment advertisement notification 03/2026 inviting applications for 326 vacancies for Jharkhand Intermediate Level Combined Competitive Examination 2026 posts.",
+    "u": "https://jssc.jharkhand.gov.in/application-forms-apply"
+},
+  {
+    "id": "employees-state-in-ap-recruitment-2026-3068365",
+    "b": "Employees’ State Insurance Corporation",
+    "t": "Employees’ State Insurance Corporation Recruitment 2026 Notification Out for 85 Professor, Associate Professor, Assistant Professor and Senior Resident Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "21 September 2026",
+    "a": "06 of 2026",
+    "q": "B.Tech / B.E | MBBS / Medical PG",
+    "desc": "Employees’ State Insurance Corporation has officially announced employment advertisement notification 06 of 2026 inviting applications for 85 vacancies for Professor, Associate Professor, Assistant Professor and Senior Resident posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Format_of_application_for_the_advertisement_No_06_of_2026_1789729946.pdf"
+},
+  {
+    "id": "rbi-jamm-medical-consultant-recruitment-2026",
+    "b": "Reserve Bank of India, Jammu",
+    "t": "Reserve Bank of India, Jammu Recruitment 2026 Notification Out for 1 Medical Consultant Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "07 October 2026",
+    "a": "RESERVE-BANK-O/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Reserve Bank of India, Jammu has officially announced employment advertisement notification RESERVE-BANK-O/2026 inviting applications for 1 vacancies for Medical Consultant posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/ABMEDCJAMMMU16092026FB2E0899E28B24140AB0B3A09E766073D.PDF#page=8&zoom=100,93,96"
+},
+  {
+    "id": "hppsc-ap-recruitment-2026",
+    "b": "Himachal Pradesh Public Service Commission",
+    "t": "Himachal Pradesh Public Service Commission Recruitment 2026 Notification Out for 5 Assistant Professor (College Cadre) Anthropology Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "16 October 2026",
+    "a": "61/9-2026",
+    "q": "Candidates must possess the following qualifications as of the closing d...",
+    "desc": "Himachal Pradesh Public Service Commission has officially announced employment advertisement notification 61/9-2026 inviting applications for 5 vacancies for Assistant Professor (College Cadre) Anthropology posts.",
+    "u": "https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login"
+},
+  {
+    "id": "hppsc-mo-recruitment-2026-3068329",
+    "b": "Himachal Pradesh Public Service Commission (HPPSC)",
+    "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 Notification Out for 228 Medical Officer (General Wing) (Job Trainee), Group-A Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "16 October 2026, 11:59 PM",
+    "a": "62/9-2026, dated 19.09.2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Himachal Pradesh Public Service Commission (HPPSC) has officially announced employment advertisement notification 62/9-2026, dated 19.09.2026 inviting applications for 228 vacancies for Medical Officer (General Wing) (Job Trainee), Group-A posts.",
+    "u": "https://hppsc.hp.gov.in"
+},
+  {
+    "id": "icg-foreman-of-recruitment-2026",
+    "b": "Indian Coast Guard",
+    "t": "Indian Coast Guard Recruitment 2026 Notification Out for 4 Foreman of Stores Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "3 November 2026",
+    "a": "INDIAN-COAST-G/2026",
+    "q": "Candidates must satisfy either of the following qualification and experi...",
+    "desc": "Indian Coast Guard has officially announced employment advertisement notification INDIAN-COAST-G/2026 inviting applications for 4 vacancies for Foreman of Stores posts.",
+    "u": "https://indiancoastguard.gov.in/sites/default/files/English%20advertisement%20for%20FOS_0.pdf"
+},
+  {
     "id": "gmrc-draftsman-recruitment-2026",
     "b": "Gujarat Metro Rail Corporation Limited",
     "t": "Gujarat Metro Rail Corporation Limited Recruitment 2026 Notification Out for 48 Manager, Engineer, Draftsman, Surveyor and other Civil Posts | Apply Online",
