@@ -12,6 +12,83 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iisc-kolkata-pay-level-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Kolkata",
+    "t": "Indian Institute of Science Education and Research Kolkata Recruitment 2026 Notification Out for 17 Pay Level under 7th CPC Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "29 October 2026, up to 5:30 PM",
+    "a": "IISER-K/Admn/NT-04/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Science Education and Research Kolkata has officially announced employment advertisement notification IISER-K/Admn/NT-04/2026 inviting applications for 17 vacancies for Pay Level under 7th CPC posts.",
+    "u": "https://iiserkolnt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "cnci-assistant-nursing-recruitment-2026",
+    "b": "Chittaranjan National Cancer Institute",
+    "t": "Chittaranjan National Cancer Institute Recruitment 2026 Notification Out for 12 Assistant Nursing Superintendent, Nursing Sister, Accounts Officer, Administrative Officer and Senior Scientific Assistant Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "30 September 2026",
+    "a": "CHITTARANJAN-N/2026",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "Chittaranjan National Cancer Institute has officially announced employment advertisement notification CHITTARANJAN-N/2026 inviting applications for 12 vacancies for Assistant Nursing Superintendent, Nursing Sister, Accounts Officer, Administrative Officer and Senior Scientific Assistant posts.",
+    "u": "https://cnci.ac.in/backend/uploads/2026/09/19/Internal%20Advertisement%20for%20Promotion%20%20through%20Selection.pdf"
+},
+  {
+    "id": "cb-barra-physiotherapist-an-recruitment-2026",
+    "b": "Cantonment Board Barrackpore",
+    "t": "Cantonment Board Barrackpore Recruitment 2026 Notification Out for 2 Physiotherapist and Radiologist Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "12 October 2026",
+    "a": "E/IV/3/Physiotherapy & Radiological",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Cantonment Board Barrackpore has officially announced employment advertisement notification E/IV/3/Physiotherapy & Radiological inviting applications for 2 vacancies for Physiotherapist and Radiologist posts.",
+    "u": "https://barrackpore.cantt.gov.in/wp-content/uploads/sites/38/2026/09/DocScanner-Sep-17-2026-5-37-PM.pdf"
+},
+  {
+    "id": "amethi-district-part-time-recruitment-2026",
+    "b": "Amethi District",
+    "t": "Amethi District Recruitment 2026 Notification Out for 15 Part Time Yoga Instructor Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "20 October 2026",
+    "a": "114 / B.A.Y.U.Ni.A / B.Ve.Se / Vigyapti / 2026-27",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "Amethi District has officially announced employment advertisement notification 114 / B.A.Y.U.Ni.A / B.Ve.Se / Vigyapti / 2026-27 inviting applications for 15 vacancies for Part Time Yoga Instructor posts.",
+    "u": "https://cdn.s3waas.gov.in/s3cfa0860e83a4c3a763a7e62d825349f7/uploads/2026/09/17896322959679.pdf"
+},
+  {
+    "id": "office-o-anganwadi-sahayika-recruitment-2026",
+    "b": "Office of the District Programme Officer (Jila Karyakram Adhikari), Shahjahanpur, Uttar Pradesh",
+    "t": "Office of the District Programme Officer (Jila Karyakram Adhikari), Shahjahanpur, Uttar Pradesh Recruitment 2026 Notification Out for 460 Anganwadi Sahayika (Helper) Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "08 October 2026, midnight (12:00 AM)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "12th Pass",
+    "desc": "Office of the District Programme Officer (Jila Karyakram Adhikari), Shahjahanpur, Uttar Pradesh has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 460 vacancies for Anganwadi Sahayika (Helper) posts.",
+    "u": "https://upanganwadibharti.in"
+},
+  {
+    "id": "hal-consultant-experim-recruitment-2026",
+    "b": "Hindustan Aeronautics (HAL)",
+    "t": "Hindustan Aeronautics (HAL) Recruitment 2026 Notification Out for 1 Consultant / Experimental Test Pilot (Fixed Wing) Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "01 October 2026",
+    "a": "HAL/HR/36(28)/2026",
+    "q": "Test Pilot on Fixed Wing Aircraft from ASTE, IAF or recognized foreign T...",
+    "desc": "Hindustan Aeronautics (HAL) has officially announced employment advertisement notification HAL/HR/36(28)/2026 inviting applications for 1 vacancies for Consultant / Experimental Test Pilot (Fixed Wing) posts.",
+    "u": "https://hal-india.co.in/backend//wp-content/uploads/career/Notification%20-%20ETP,TAD,%20Kanpur_1789732684.pdf"
+},
+  {
+    "id": "hites-chief-manager-recruitment-2026",
+    "b": "HLL Infra Tech Services Ltd (HITES), a subsidiary of HLL Lifecare Limited, under the aegis of the Ministry of Health & Family Welfare, Government of India",
+    "t": "HLL Infra Tech Services Ltd (HITES), a subsidiary of HLL Lifecare Limited, under the aegis of the Ministry of Health & Family Welfare, Government of India Recruitment 2026 Notification Out for 21 Chief Manager, Senior Operations Manager, and Operations Manager - across Design (Structural, HVAC, Electrical, Plumbing, BME, Quantity Surveying) and Execution (Civil, MEP) disciplines Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "10 October 2026, till 18:00 hours",
+    "a": "Upper",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "HLL Infra Tech Services Ltd (HITES), a subsidiary of HLL Lifecare Limited, under the aegis of the Ministry of Health & Family Welfare, Government of India has officially announced employment advertisement notification Upper inviting applications for 21 vacancies for Chief Manager, Senior Operations Manager, and Operations Manager - across Design (Structural, HVAC, Electrical, Plumbing, BME, Quantity Surveying) and Execution (Civil, MEP) disciplines posts.",
+    "u": "https://hllhites.com/careers"
+},
+  {
     "id": "upcar-steno-recruitment-2026",
     "b": "Uttar Pradesh Council of Agricultural Research (UPCAR)",
     "t": "Uttar Pradesh Council of Agricultural Research (UPCAR) Recruitment 2026 Notification Out for 9 Computer Programmer, Junior Assistant, Computer Operator, EPABX Operator, Accountant, Private Secretary to the Director General, Stenographer, Accounts Clerk Posts | Apply Online",
