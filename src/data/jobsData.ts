@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "upcar-steno-recruitment-2026",
+    "b": "Uttar Pradesh Council of Agricultural Research (UPCAR)",
+    "t": "Uttar Pradesh Council of Agricultural Research (UPCAR) Recruitment 2026 Notification Out for 9 Computer Programmer, Junior Assistant, Computer Operator, EPABX Operator, Accountant, Private Secretary to the Director General, Stenographer, Accounts Clerk Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "09 October 2026",
+    "a": "UPCAR/REC/03/2026",
+    "q": "12th Pass | B.Com | Any Bachelor's Degree",
+    "desc": "Uttar Pradesh Council of Agricultural Research (UPCAR) has officially announced employment advertisement notification UPCAR/REC/03/2026 inviting applications for 9 vacancies for Computer Programmer, Junior Assistant, Computer Operator, EPABX Operator, Accountant, Private Secretary to the Director General, Stenographer, Accounts Clerk posts.",
+    "u": "https://onlineupcar.com/2026upcar/"
+},
+  {
+    "id": "dc-sangareddy-steno-recruitment-2026",
+    "b": "Sangareddy District Court",
+    "t": "Sangareddy District Court Recruitment 2026 Notification Out for 1 Stenographer Grade-III Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "28 September 2026",
+    "a": "Dis.No. 244 /Admn./2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Sangareddy District Court has officially announced employment advertisement notification Dis.No. 244 /Admn./2026 inviting applications for 1 vacancies for Stenographer Grade-III posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec050e7c7d6c41c76b9ee6445ae01cc0/uploads/2026/09/2026091891.pdf"
+},
+  {
+    "id": "c-met-jrf-recruitment-2026",
+    "b": "Centre for Materials for Electronics Technology (C-MET)",
+    "t": "Centre for Materials for Electronics Technology (C-MET) Recruitment 2026 Notification Out for 7 Research Associate (RA), Junior Research Fellow (JRF), Project Assistant Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "16 October 2026",
+    "a": "HD/PN(H.Q.)/SP-102/2026",
+    "q": "Diploma | B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Centre for Materials for Electronics Technology (C-MET) has officially announced employment advertisement notification HD/PN(H.Q.)/SP-102/2026 inviting applications for 7 vacancies for Research Associate (RA), Junior Research Fellow (JRF), Project Assistant posts.",
+    "u": "https://cmet.gov.in/sites/default/files/jobs/Detailed%20Advertisment-RA-JRF.pdf"
+},
+  {
+    "id": "cmch-field-asst-recruitment-2026",
+    "b": "Coimbatore Medical College Hospital",
+    "t": "Coimbatore Medical College Hospital Recruitment 2026 Notification Out for 1 Field Assistant Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "23 September 2026",
+    "a": "COIMBATORE-MED/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Coimbatore Medical College Hospital has officially announced employment advertisement notification COIMBATORE-MED/2026 inviting applications for 1 vacancies for Field Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3d9fc5b73a8d78fad3d6dffe419384e70/uploads/2026/09/17897357015666.pdf"
+},
+  {
+    "id": "aiims-bhu-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Bhubaneswar (AIIMS Bhubaneswar)",
+    "t": "All India Institute of Medical Sciences, Bhubaneswar (AIIMS Bhubaneswar) Recruitment 2026 Notification Out for 5 Project Research Scientist-I(Non-Medical), Project Nurse-III, Project Technical Support-III Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "20435",
+    "q": "Nursing (GNM / B.Sc) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences, Bhubaneswar (AIIMS Bhubaneswar) has officially announced employment advertisement notification 20435 inviting applications for 5 vacancies for Project Research Scientist-I(Non-Medical), Project Nurse-III, Project Technical Support-III posts.",
+    "u": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/09/ped-1.pdf"
+},
+  {
+    "id": "mil-director-dpsu-recruitment-2026",
+    "b": "Munitions India",
+    "t": "Munitions India Recruitment 2026 Notification Out for 1 Director, DPSU Coordination Cell (DCC) Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "12 October 2026",
+    "a": "02-2026/MIL/HR/2026-27/",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Munitions India has officially announced employment advertisement notification 02-2026/MIL/HR/2026-27/ inviting applications for 1 vacancies for Director, DPSU Coordination Cell (DCC) posts.",
+    "u": "https://www.munitionsindia.in"
+},
+  {
+    "id": "actrec-deo-recruitment-2026",
+    "b": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC)",
+    "t": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) Recruitment 2026 Notification Out for 1 Data Entry Operator Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "OS-A/CCE/17/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) has officially announced employment advertisement notification OS-A/CCE/17/2026 inviting applications for 1 vacancies for Data Entry Operator posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/walk%20in%20interview%20of%20Data%20Entry%20Operator.pdf"
+},
+  {
+    "id": "icsi-executive-career-recruitment-2026",
+    "b": "The Institute of Company Secretaries of India (ICSI)",
+    "t": "The Institute of Company Secretaries of India (ICSI) Recruitment 2026 Notification Out for 3 Executive (Career Awareness Programme) Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "26 September 2026",
+    "a": "THE-INSTITUTE-/2026",
+    "q": "Diploma | MBA / BBA | Any Bachelor's Degree",
+    "desc": "The Institute of Company Secretaries of India (ICSI) has officially announced employment advertisement notification THE-INSTITUTE-/2026 inviting applications for 3 vacancies for Executive (Career Awareness Programme) posts.",
+    "u": "https://stimulate.icsi.edu/RECRUITMENT/IndexHome/IndexHome"
+},
+  {
+    "id": "moil-limited-manager-survey-recruitment-2026",
+    "b": "MOIL Limited",
+    "t": "MOIL Limited Recruitment 2026 Notification Out for 3 Manager (Survey) Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "7 October 2026 (Walk-in)",
+    "a": "MGR(SUR)/09/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "MOIL Limited has officially announced employment advertisement notification MGR(SUR)/09/2026 inviting applications for 3 vacancies for Manager (Survey) posts.",
+    "u": "https://www.moil.nic.in/"
+},
+  {
+    "id": "kerala-tet-septemb-various-recruitment-2026",
+    "b": "Kerala TET September Notification 2026 Out",
+    "t": "Kerala TET September Notification 2026 Out Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "3 October 2026",
+    "a": "KERALA-TET-SEP/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Kerala TET September Notification 2026 Out has officially announced employment advertisement notification KERALA-TET-SEP/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://ktet.kerala.gov.in/downloads/sep2026/K-TET%20September%202026-Notification.pdf"
+},
+  {
     "id": "karnataka-pri-jailor-warder-recruitment-2026",
     "b": "Karnataka Prisons Department",
     "t": "Karnataka Prisons Department Recruitment 2026 Notification Out for 869 Jailor, Warder (Vikshakaru), Warder cum Nursing, Second Grade Teacher/Instructor Grade-II Posts | Apply Online",
