@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "gmrc-draftsman-recruitment-2026",
+    "b": "Gujarat Metro Rail Corporation Limited",
+    "t": "Gujarat Metro Rail Corporation Limited Recruitment 2026 Notification Out for 48 Manager, Engineer, Draftsman, Surveyor and other Civil Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "3 October 2026",
+    "a": "GMRCL/HR/RECT/Civil/Sept-2026/25",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Gujarat Metro Rail Corporation Limited has officially announced employment advertisement notification GMRCL/HR/RECT/Civil/Sept-2026/25 inviting applications for 48 vacancies for Manager, Engineer, Draftsman, Surveyor and other Civil posts posts.",
+    "u": "https://careers.gujaratmetrorail.com/User/UserApply?AdvertisementID=MzI1"
+},
+  {
+    "id": "gmrc-am-recruitment-2026",
+    "b": "Gujarat Metro Rail Corporation Limited",
+    "t": "Gujarat Metro Rail Corporation Limited Recruitment 2026 Notification Out for 29 Assistant Manager, Engineer and More Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "3 October 2026",
+    "a": "GMRCL/HR/RECT/Systems/Sept-2026/26",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Gujarat Metro Rail Corporation Limited has officially announced employment advertisement notification GMRCL/HR/RECT/Systems/Sept-2026/26 inviting applications for 29 vacancies for Assistant Manager, Engineer and More posts.",
+    "u": "https://careers.gujaratmetrorail.com/"
+},
+  {
+    "id": "ncert-project-staff-recruitment-2026",
+    "b": "National Council of Educational Research and Training (NCERT)",
+    "t": "National Council of Educational Research and Training (NCERT) Recruitment 2026 Notification Out for 1 Project Staff (SRA/JPF) Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "F. 6-55/Rect.PS/PAC/2026-27/DESM/8798",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Council of Educational Research and Training (NCERT) has officially announced employment advertisement notification F. 6-55/Rect.PS/PAC/2026-27/DESM/8798 inviting applications for 1 vacancies for Project Staff (SRA/JPF) posts.",
+    "u": "https://ncert.nic.in/"
+},
+  {
+    "id": "kvs-delhi-voc-instructor-recruitment-2026",
+    "b": "PM Shri Kendriya Vidyalaya Shahdara, Delhi",
+    "t": "PM Shri Kendriya Vidyalaya Shahdara, Delhi Recruitment 2026 Notification Out for 1 Vocational Instructor Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "B.Tech / B.E",
+    "desc": "PM Shri Kendriya Vidyalaya Shahdara, Delhi has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for Vocational Instructor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv0464eb851c527370afbd19e928f470/uploads/2026/09/2026091716.pdf"
+},
+  {
+    "id": "rites-am-recruitment-2026-3068403",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 3 Assistant Manager Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "08 October 2026",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RAIL-INDIA-TEC/2026 inviting applications for 3 vacancies for Assistant Manager posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "rites-manager-papis-recruitment-2026",
+    "b": "Rail India Technical and Economic Service (RITES)",
+    "t": "Rail India Technical and Economic Service (RITES) Recruitment 2026 Notification Out for 1 Manager-PAPIS Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "08 October 2026 (Walk-in)",
+    "a": "RAIL-INDIA-TEC/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Rail India Technical and Economic Service (RITES) has officially announced employment advertisement notification RAIL-INDIA-TEC/2026 inviting applications for 1 vacancies for Manager-PAPIS posts.",
+    "u": "https://recruit.rites.com/frmRegistration.aspx"
+},
+  {
+    "id": "nbpgr-pa-recruitment-2026",
+    "b": "National Bureau of Plant Genetic Resources (NBPGR)",
+    "t": "National Bureau of Plant Genetic Resources (NBPGR) Recruitment 2026 Notification Out for 5 Project Associate and Project Assistant Posts | Apply Online",
+    "d": "21 September 2026",
+    "l": "12 October 2026 (Walk-in)",
+    "a": "NATIONAL-BUREA/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "National Bureau of Plant Genetic Resources (NBPGR) has officially announced employment advertisement notification NATIONAL-BUREA/2026 inviting applications for 5 vacancies for Project Associate and Project Assistant posts.",
+    "u": "https://nbpgr.org.in/nbpgr2023/physical-online-interview-for-the-positions-of-project-associate-and-project-assistant-under-the-dbt-funded-project-at-icar-nbpgr-new-delhi/"
+},
+  {
+    "id": "ecr-instructorpway-recruitment-2026",
+    "b": "East Central Railway",
+    "t": "East Central Railway Recruitment 2026 Notification Out for 7 Instructor/P.Way Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "15 October 2026",
+    "a": "158555)",
+    "q": "B.Tech / B.E",
+    "desc": "East Central Railway has officially announced employment advertisement notification 158555) inviting applications for 7 vacancies for Instructor/P.Way posts.",
+    "u": "https://ecr.indianrailways.gov.in/cris//uploads/files/1789731105371-ECR-HQ0PERS(SEL)_1_2022-O_o%20Dy.CPO_HQ_ECR_correspondence_I_233624_2026_16-09-2026_11-03-01am.pdf"
+},
+  {
+    "id": "hbchrc-patna-nurse-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital & Research Centre Visakhapatnam",
+    "t": "Homi Bhabha Cancer Hospital & Research Centre Visakhapatnam Recruitment 2026 Notification Out for 6 Nurse Posts | Walk-in Interview",
+    "d": "21 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "OS/VIZAG/26/32",
+    "q": "Diploma | B.Sc | M.Sc",
+    "desc": "Homi Bhabha Cancer Hospital & Research Centre Visakhapatnam has officially announced employment advertisement notification OS/VIZAG/26/32 inviting applications for 6 vacancies for Nurse posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=nxwLnpRLDS9nyyz0iYHdvg=="
+},
+  {
+    "id": "nhm-asha-recruitment-2026",
+    "b": "District Programme Management Unit, National Health Mission",
+    "t": "District Programme Management Unit, National Health Mission Recruitment 2026 Notification Out for 44 ASHA Posts | Apply Offline",
+    "d": "21 September 2026",
+    "l": "25 September 2026",
+    "a": "01/2026",
+    "q": "Class 10 pass",
+    "desc": "District Programme Management Unit, National Health Mission has officially announced employment advertisement notification 01/2026 inviting applications for 44 vacancies for ASHA posts.",
+    "u": "https://cdn.s3waas.gov.in/s36f3ef77ac0e3619e98159e9b6febf557/uploads/2026/09/17896270748303.pdf"
+},
+  {
     "id": "bckv-fieldlab-assistant-recruitment-2026",
     "b": "Bidhan Chandra Krishi Viswavidyalaya (BCKV)",
     "t": "Bidhan Chandra Krishi Viswavidyalaya (BCKV) Recruitment 2026 Notification Out for 2 Field/Lab Assistant Posts | Apply Offline",

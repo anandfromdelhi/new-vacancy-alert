@@ -230,7 +230,27 @@ BOARD_ACRONYM_MAP = {
     'district health & family welfare samiti': 'dhfws',
     'army public school bengdubi': 'aps-bengdubi',
     'bidhan chandra krishi viswavidyalaya': 'bckv',
-    'telangana employment association': 'team'
+    'telangana employment association': 'team',
+    'east central railway': 'ecr',
+    'national bureau of plant genetic resources': 'nbpgr',
+    'gujarat metro rail': 'gmrc',
+    'indian coast guard': 'icg',
+    'jharkhand staff selection commission': 'jssc',
+    'kuvempu university': 'kuvempu-univ',
+    'karnataka state law university': 'kslu',
+    'bharat earth movers': 'beml',
+    'karnataka prisons': 'karnataka-prisons',
+    'manganese ore india': 'moil',
+    'institute of company secretaries of india': 'icsi',
+    'munitions india': 'mil',
+    'coimbatore medical college': 'cmch',
+    'state bank of india': 'sbi',
+    'district court sangareddy': 'dc-sangareddy',
+    'sangareddy district court': 'dc-sangareddy',
+    'up council of agricultural research': 'upcar',
+    'hll infra tech services': 'hites',
+    'cantonment board barrackpore': 'cb-barrackpore',
+    'east godavari district': 'east-godavari'
 }
 
 CAMPUS_CITIES = [
