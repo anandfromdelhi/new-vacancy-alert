@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ouat-guest-faculty-recruitment-2026-3068467",
+    "b": "Odisha University of Agriculture and Technology (OUAT)",
+    "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 6 Guest Faculty Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "03 October 2026 (Walk-in)",
+    "a": "1859/CoF",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha University of Agriculture and Technology (OUAT) has officially announced employment advertisement notification 1859/CoF inviting applications for 6 vacancies for Guest Faculty posts.",
+    "u": "https://ouat.ac.in/wp-content/uploads/2026/09/1859-CoF.pdf"
+},
+  {
+    "id": "employees-state-in-sr-recruitment-2026-3068675",
+    "b": "Employees State Insurance Corporation Hospital Angul",
+    "t": "Employees State Insurance Corporation Hospital Angul Recruitment 2026 Notification Out for 12 Senior Resident Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "443-Z-11/15/35/2024-Med",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Employees State Insurance Corporation Hospital Angul has officially announced employment advertisement notification 443-Z-11/15/35/2024-Med inviting applications for 12 vacancies for Senior Resident posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/WALK_IN_INTERVIEW_ON_06_10_2026_FOR_ENGAGEMENT_OF_SENIOR_RESIDENTS_ON_CONTRACT_BASIS_1789988677.pdf"
+},
+  {
+    "id": "office-of-the-dire-various-recruitment-2026",
+    "b": "Office of the Directorate General Assam Rifles, Shillong - 793010",
+    "t": "Office of the Directorate General Assam Rifles, Shillong - 793010 Recruitment 2026 Notification Out for 354 Various Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "28 October 2026, 23:59 hrs",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "12th Pass | ITI | Diploma",
+    "desc": "Office of the Directorate General Assam Rifles, Shillong - 793010 has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 354 vacancies for Various Posts posts.",
+    "u": "https://www.assamrifles.gov.in/"
+},
+  {
+    "id": "dpar-manipur-cic-recruitment-2026",
+    "b": "Department of Personnel & Administrative Reforms Manipur (DPAR Manipur)",
+    "t": "Department of Personnel & Administrative Reforms Manipur (DPAR Manipur) Recruitment 2026 Notification Out for 1 State Chief Information Commissioner Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "15 October 2026",
+    "a": "ADM2-201/1/2026-AR-AR",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "Department of Personnel & Administrative Reforms Manipur (DPAR Manipur) has officially announced employment advertisement notification ADM2-201/1/2026-AR-AR inviting applications for 1 vacancies for State Chief Information Commissioner posts.",
+    "u": "https://hcmimphal.nic.in/Documents/state%20CICommission.pdf"
+},
+  {
+    "id": "mnlu-mumbai-social-worker-recruitment-2026",
+    "b": "Maharashtra National Law University Mumbai (MNLU Mumbai)",
+    "t": "Maharashtra National Law University Mumbai (MNLU Mumbai) Recruitment 2026 Notification Out for 9 Social Worker, Office Support Staff and More Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "28 September 2026",
+    "a": "MAHARASHTRA-NA/2026",
+    "q": "10th / 8th Pass | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Maharashtra National Law University Mumbai (MNLU Mumbai) has officially announced employment advertisement notification MAHARASHTRA-NA/2026 inviting applications for 9 vacancies for Social Worker, Office Support Staff and More Posts posts.",
+    "u": "https://mnlumumbai.edu.in/pdf/Recruitment%20advertisement-Azim%20Premji.pdf"
+},
+  {
+    "id": "tmc-actrec-plumber-cum-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Plumber cum Pump Operator Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "OS-A/110/2026",
+    "q": "ITI",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/110/2026 inviting applications for 1 vacancies for Plumber cum Pump Operator posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20plumber%20cum%20pump%20operator%2028.09.2026.pdf"
+},
+  {
+    "id": "iim-mumbai-chief-executive-recruitment-2026",
+    "b": "Indian Institute of Management Mumbai (IIM Mumbai)",
+    "t": "Indian Institute of Management Mumbai (IIM Mumbai) Recruitment 2026 Notification Out for 2 Chief Executive Officer (CEO) & Project Manager - Venture Growth & Impact Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "08 October 2026",
+    "a": "Tejas/Rectt/2026/37",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Mumbai (IIM Mumbai) has officially announced employment advertisement notification Tejas/Rectt/2026/37 inviting applications for 2 vacancies for Chief Executive Officer (CEO) & Project Manager - Venture Growth & Impact posts.",
+    "u": "https://iimmumbai.ac.in/storage/uploads/careers/2418/178975399872.pdf"
+},
+  {
+    "id": "tmc-actr-engineer-mechanica-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Engineer (Mechanical) Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "OS-A/106/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/106/2026 inviting applications for 1 vacancies for Engineer (Mechanical) posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20Engineer%20mechanical%2028.09.2026.pdf"
+},
+  {
+    "id": "tmc-actrec-electrician-recruitment-2026",
+    "b": "TMC Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC)",
+    "t": "TMC Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 Electrician Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "OS-A/112/2026",
+    "q": "ITI",
+    "desc": "TMC Advanced Centre for Treatment Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/112/2026 inviting applications for 1 vacancies for Electrician posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20Electrician%2028.09.2026.pdf"
+},
+  {
+    "id": "actrec-diesel-mechanic-recruitment-2026",
+    "b": "Advanced Centre for Treatment Research and Education in Cancer (ACTREC)",
+    "t": "Advanced Centre for Treatment Research and Education in Cancer (ACTREC) Recruitment 2026 Notification Out for 1 Diesel Mechanic Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "OS-A/107/2026",
+    "q": "ITI",
+    "desc": "Advanced Centre for Treatment Research and Education in Cancer (ACTREC) has officially announced employment advertisement notification OS-A/107/2026 inviting applications for 1 vacancies for Diesel Mechanic posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20diesel%20mechanic%2028.09.2026.pdf"
+},
+  {
     "id": "tiss-am-recruitment-2026",
     "b": "Tata Institute of Social Sciences (TISS)",
     "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Assistant Manager-Operations Posts | Apply Online",
