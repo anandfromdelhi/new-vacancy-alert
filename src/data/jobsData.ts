@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mgu-kottayam-high-school-recruitment-2026",
+    "b": "Mahatma Gandhi University (MGU Kottayam)",
+    "t": "Mahatma Gandhi University (MGU Kottayam) Recruitment 2026 Notification Out for 1 High School Assistant Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "62815/SPESS-3/2026/SPESS",
+    "q": "Any Bachelor's Degree",
+    "desc": "Mahatma Gandhi University (MGU Kottayam) has officially announced employment advertisement notification 62815/SPESS-3/2026/SPESS inviting applications for 1 vacancies for High School Assistant posts.",
+    "u": "https://www.mgu.ac.in/uploads/2026/09/library-assistant.pdf?x55437"
+},
+  {
+    "id": "office-of-the-pourakarmika-recruitment-2026",
+    "b": "Office of the Deputy Commissioner, District Urban Development Cell, Koppal, Karnataka",
+    "t": "Office of the Deputy Commissioner, District Urban Development Cell, Koppal, Karnataka Recruitment 2026 Notification Out for 48 Pourakarmika (Municipal Sanitation Worker) Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "22 October 2026",
+    "a": "Ka.Sa.No.507734::KePi-Di-11/23/2026, dated 21.09.2026",
+    "q": "Pourakarmika: 48",
+    "desc": "Office of the Deputy Commissioner, District Urban Development Cell, Koppal, Karnataka has officially announced employment advertisement notification Ka.Sa.No.507734::KePi-Di-11/23/2026, dated 21.09.2026 inviting applications for 48 vacancies for Pourakarmika (Municipal Sanitation Worker) posts.",
+    "u": "https://cdn.s3waas.gov.in/s36cd67d9b6f0150c77bda2eda01ae484c/uploads/2026/09/17899920549227.pdf"
+},
+  {
+    "id": "iim-bangalore-ra-recruitment-2026",
+    "b": "Indian Institute of Management Bangalore",
+    "t": "Indian Institute of Management Bangalore Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "06 October 2026",
+    "a": "IIMB/RA/RECT/2026/53",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Bangalore has officially announced employment advertisement notification IIMB/RA/RECT/2026/53 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://fa-erno-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+},
+  {
+    "id": "bric-ins-essential-qualific-recruitment-2026",
+    "b": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM)",
+    "t": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM) Recruitment 2026 Notification Out for 14 Essential Qualification & Experience Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "02 October 2026",
+    "a": "BRIC INSTEM/02/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Institute for Stem Cell Science and Regenerative Medicine (BRIC INSTEM) has officially announced employment advertisement notification BRIC INSTEM/02/2026 inviting applications for 14 vacancies for Essential Qualification & Experience posts.",
+    "u": "https://dbt.gov.in/storage/media/1m7SsX2wkVmCVOiPPVZG07SwAxDbDSz175wjlHvl.pdf"
+},
+  {
+    "id": "national-r-district-manager-recruitment-2026",
+    "b": "National Rural Livelihood Mission Karnataka (NRLM Karnataka)",
+    "t": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) Recruitment 2026 Notification Out for 13 District Manager-Farm Livelihood Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "02 October 2026",
+    "a": "NATIONAL-RURAL/2026",
+    "q": "B.Sc | M.Sc | Any Bachelor's Degree",
+    "desc": "National Rural Livelihood Mission Karnataka (NRLM Karnataka) has officially announced employment advertisement notification NATIONAL-RURAL/2026 inviting applications for 13 vacancies for District Manager-Farm Livelihood posts.",
+    "u": "https://jobsksrlps.karnataka.gov.in/Auth/Login?returnUrl=%2FApplicant%2FApplications%2FApply%2FV1TktyHspEQ1bo2WljbP4A"
+},
+  {
+    "id": "iit-dhanbad-pa-recruitment-2026-3068947",
+    "b": "Indian Institute of Technology, Dhanbad",
+    "t": "Indian Institute of Technology, Dhanbad Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "SRDP 1267 I",
+    "q": "M Sc in Data Science",
+    "desc": "Indian Institute of Technology, Dhanbad has officially announced employment advertisement notification SRDP 1267 I inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1048/Project%20Assistant_2026-09-18_19-21-46.pdf"
+},
+  {
+    "id": "iim-jammu-pa-recruitment-2026",
+    "b": "Indian Institute of Management Jammu (IIM Jammu)",
+    "t": "Indian Institute of Management Jammu (IIM Jammu) Recruitment 2026 Notification Out for 12 Field Investigator, Project Assistant, Project Associate Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "24 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBA / BBA | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Jammu (IIM Jammu) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 12 vacancies for Field Investigator, Project Assistant, Project Associate posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScUG5FGj1-DPsTFCS56UyJNIDEctQ6SM9RNK_LmPUFGPoJTWQ/viewform"
+},
+  {
+    "id": "iit-jammu-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu (IIT Jammu)",
+    "t": "Indian Institute of Technology Jammu (IIT Jammu) Recruitment 2026 Notification Out for 2 Junior Research Fellow and Senior Project Associate Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "IITJMU/R&C/RP-100369/A-51",
+    "q": "M.Tech / M.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Jammu (IIT Jammu) has officially announced employment advertisement notification IITJMU/R&C/RP-100369/A-51 inviting applications for 2 vacancies for Junior Research Fellow and Senior Project Associate posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "jammu-an-sahayikas-anganwad-recruitment-2026",
+    "b": "Jammu and Kashmir Anganwadi",
+    "t": "Jammu and Kashmir Anganwadi Recruitment 2026 Notification Out for 7 Sahayikas (Anganwadi Helpers) Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "29 September 2026",
+    "a": "05 of 2026",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Jammu and Kashmir Anganwadi has officially announced employment advertisement notification 05 of 2026 inviting applications for 7 vacancies for Sahayikas (Anganwadi Helpers) posts.",
+    "u": "https://www.jkicds.com/pdf/Bkporahelper2merged1509.pdf"
+},
+  {
+    "id": "iit-mandi-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Mandi",
+    "t": "Indian Institute of Technology Mandi Recruitment 2026 Notification Out for 1 Project associate/ JRF Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "IITM",
+    "q": "MCA / BCA | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Mandi has officially announced employment advertisement notification IITM inviting applications for 1 vacancies for Project associate/ JRF posts.",
+    "u": "https://iitmandi.ac.in/recruitment/DRDO_PR_605.pdf"
+},
+  {
     "id": "himachal-pradesh-para-cook-recruitment-2026",
     "b": "Himachal Pradesh Jal Shakti Vibhag",
     "t": "Himachal Pradesh Jal Shakti Vibhag Recruitment 2026 Notification Out for 3 Para Cook and Para Helper Posts | Apply Offline",
