@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iisc-bho-institute-doctoral-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Bhopal",
+    "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Institute Post Doctoral Fellow Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "IISERB/DoFA/2026/2",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Science Education and Research Bhopal has officially announced employment advertisement notification IISERB/DoFA/2026/2 inviting applications for 1 vacancies for Institute Post Doctoral Fellow posts.",
+    "u": "https://www.iiserb.ac.in/assets_external/dofa/18_Sep_2026_15_38_34_Advt_for_IPDF_%28HSS%29.pdf"
+},
+  {
+    "id": "manit-bhopal-jrf-recruitment-2026",
+    "b": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal)",
+    "t": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "MECH/2026/SEP/00272",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) has officially announced employment advertisement notification MECH/2026/SEP/00272 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.manit.ac.in/sites/default/files/documents/ANRF_JRF_Recruitment_ad_2026.pdf"
+},
+  {
+    "id": "lakshadweep-admini-vas-recruitment-2026",
+    "b": "Lakshadweep Administration",
+    "t": "Lakshadweep Administration Recruitment 2026 Notification Out for 1 Veterinary Assistant Surgeon Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "28 September 2026",
+    "a": "A-12011/1/2026-ESTT-AH",
+    "q": "Any Bachelor's Degree",
+    "desc": "Lakshadweep Administration has officially announced employment advertisement notification A-12011/1/2026-ESTT-AH inviting applications for 1 vacancies for Veterinary Assistant Surgeon posts.",
+    "u": "https://cdn.s3waas.gov.in/s358238e9ae2dd305d79c2ebc8c1883422/uploads/2026/09/17897325453391.pdf"
+},
+  {
+    "id": "thrissur-di-contract-driver-recruitment-2026",
+    "b": "Thrissur District Court",
+    "t": "Thrissur District Court Recruitment 2026 Notification Out for 1 Contract Driver Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "26 September 2026",
+    "a": "HC-20/2026",
+    "q": "Retired from courts or similar departments or other government departments",
+    "desc": "Thrissur District Court has officially announced employment advertisement notification HC-20/2026 inviting applications for 1 vacancies for Contract Driver posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0379514e888b8f2acacc68738d0cbb/uploads/2026/09/2026091937.pdf"
+},
+  {
+    "id": "cochin-port-auth-apprentice-recruitment-2026",
+    "b": "Cochin Port Authority",
+    "t": "Cochin Port Authority Recruitment 2026 Notification Out for 20 Apprentice Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "01 October 2026",
+    "a": "Apprentice/Civil/01/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Cochin Port Authority has officially announced employment advertisement notification Apprentice/Civil/01/2026 inviting applications for 20 vacancies for Apprentice posts.",
+    "u": "https://cochinport.gov.in/uploads/tenderfile/careerfile120260921112705.pdf"
+},
+  {
+    "id": "kerala-univer-controller-of-recruitment-2026",
+    "b": "Kerala University",
+    "t": "Kerala University Recruitment 2026 Notification Out for 1 Controller of Examinations and Registrar Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "03 October 2026",
+    "a": "44124/Ad A I/2026/UOK and 40182/Ad A I/2026/UOK",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Kerala University has officially announced employment advertisement notification 44124/Ad A I/2026/UOK and 40182/Ad A I/2026/UOK inviting applications for 1 vacancies for Controller of Examinations and Registrar posts.",
+    "u": "https://recruit.keralauniversity.ac.in/registrar/images/40182-Ad_A_I-2026-UOK_registrar.pdf"
+},
+  {
+    "id": "nam-kerala-deo-recruitment-2026",
+    "b": "National Ayush Mission Kerala (NAM Kerala)",
+    "t": "National Ayush Mission Kerala (NAM Kerala) Recruitment 2026 Notification Out for 1 Data Entry Operator Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "NAM/DPMSU/TVPM/1706/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Ayush Mission Kerala (NAM Kerala) has officially announced employment advertisement notification NAM/DPMSU/TVPM/1706/2026 inviting applications for 1 vacancies for Data Entry Operator posts.",
+    "u": "https://www.nam.kerala.gov.in/images/careers/1789911816390.pdf"
+},
+  {
+    "id": "iimb-resident-hostel-recruitment-2026",
+    "b": "Indian Institute of Management Bangalore (IIMB)",
+    "t": "Indian Institute of Management Bangalore (IIMB) Recruitment 2026 Notification Out for 1 Resident Hostel Warden Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Bangalore (IIMB) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Resident Hostel Warden posts.",
+    "u": "https://www.iimb.ac.in/sites/default/files/inline-files/JD-Resident-Warden_IIMB-UG-2026.pdf"
+},
+  {
+    "id": "echs-karwar-mo-recruitment-2026",
+    "b": "Ex-Servicemen Contributory Health Scheme Karwar (ECHS Karwar)",
+    "t": "Ex-Servicemen Contributory Health Scheme Karwar (ECHS Karwar) Recruitment 2026 Notification Out for 1 Medical Officer Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "10 October 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Ex-Servicemen Contributory Health Scheme Karwar (ECHS Karwar) has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 1 vacancies for Medical Officer posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/Ban.pdf"
+},
+  {
+    "id": "boi-faculty-recruitment-2026",
+    "b": "Bank of India (BOI)",
+    "t": "Bank of India (BOI) Recruitment 2026 Notification Out for 1 Faculty Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "BANK-OF-INDIA-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Bank of India (BOI) has officially announced employment advertisement notification BANK-OF-INDIA-/2026 inviting applications for 1 vacancies for Faculty posts.",
+    "u": "https://bankofindia.bank.in/documents/20121/28761619/Annex-I_Eng.pdf"
+},
+  {
     "id": "ism-pa-recruitment-2026",
     "b": "Indian Institute of Technology (ISM) Dhanbad",
     "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 Notification Out for 1 Senior Project Associate Posts | Apply Online",
