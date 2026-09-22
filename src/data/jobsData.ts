@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "igrua-assistant-library-recruitment-2026",
+    "b": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
+    "t": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) Recruitment 2026 Notification Out for 1 Assistant (Library) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "10 October 2026",
+    "a": "TICE",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) has officially announced employment advertisement notification TICE inviting applications for 1 vacancies for Assistant (Library) posts.",
+    "u": "https://igrua.gov.in/sites/default/files/LIBQR.pdf"
+},
+  {
+    "id": "iit-kanpu-project-executive-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    "t": "Indian Institute of Technology Kanpur (IIT Kanpur) Recruitment 2026 Notification Out for 1 Project Executive Officer Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "P.Rect./R&D/2026/179",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Kanpur (IIT Kanpur) has officially announced employment advertisement notification P.Rect./R&D/2026/179 inviting applications for 1 vacancies for Project Executive Officer posts.",
+    "u": "https://www.iitk.ac.in/dord/project/see-peo-08-09-26.html"
+},
+  {
+    "id": "rgipt-corporate-outreach-recruitment-2026",
+    "b": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+    "t": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT) Recruitment 2026 Notification Out for 1 Corporate Outreach Officer Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "RGIPT/NTS/COO/2026/08",
+    "q": "MBA / BBA | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT) has officially announced employment advertisement notification RGIPT/NTS/COO/2026/08 inviting applications for 1 vacancies for Corporate Outreach Officer posts.",
+    "u": "https://rgiptnt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "niab-ta-recruitment-2026",
+    "b": "National Institute of Animal Biotechnology (NIAB)",
+    "t": "National Institute of Animal Biotechnology (NIAB) Recruitment 2026 Notification Out for 5 Project Research Scientist I, Technical Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "09 October 2026",
+    "a": "24 / 2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Animal Biotechnology (NIAB) has officially announced employment advertisement notification 24 / 2026 inviting applications for 5 vacancies for Project Research Scientist I, Technical Assistant posts.",
+    "u": "https://www.niab.org.in/Notifications/Advt_24_2026/Notification_24_2026.pdf"
+},
+  {
+    "id": "dmho-jangao-ophthalmic-asst-recruitment-2026",
+    "b": "District Medical and Health Office Jangaon (DMHO Jangaon)",
+    "t": "District Medical and Health Office Jangaon (DMHO Jangaon) Recruitment 2026 Notification Out for 1 Ophthalmic Assistant/Optometrist Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "10/2026",
+    "q": "12th Pass | MBBS / Medical PG",
+    "desc": "District Medical and Health Office Jangaon (DMHO Jangaon) has officially announced employment advertisement notification 10/2026 inviting applications for 1 vacancies for Ophthalmic Assistant/Optometrist posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e2c420d928d4bf8ce0ff2ec19b371514/uploads/2026/09/17897602798994.pdf"
+},
+  {
+    "id": "bits-pilani-jrf-recruitment-2026",
+    "b": "Birla Institute of Technology & Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology & Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "07 October 2026",
+    "a": "ISRO/ RES/ 3/ 1110/ 26-27",
+    "q": "M.Tech / M.E",
+    "desc": "Birla Institute of Technology & Science Pilani (BITS Pilani) has officially announced employment advertisement notification ISRO/ RES/ 3/ 1110/ 26-27 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Kurra-Suresh-Advertisement-Research-Staff-Kurra-Suresh.pdf"
+},
+  {
+    "id": "nit-warangal-jrf-recruitment-2026-3068666",
+    "b": "National Institute of Technology Warangal (NIT Warangal)",
+    "t": "National Institute of Technology Warangal (NIT Warangal) Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "03 October 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "National Institute of Technology Warangal (NIT Warangal) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 2 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScn17h57NGdbnwppFAWlAMQ7M7HIBFUFmfysUhhzEipzKerjw/viewform"
+},
+  {
+    "id": "iit-madras-ra-recruitment-2026-3068552",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Research Associate II Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 September 2026",
+    "a": "ICSR/PR/Advt",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt inviting applications for 1 vacancies for Research Associate II posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
+    "id": "iit-madras-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 3 Project Associate-II Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 September 2026",
+    "a": "ICSR/PR/Advt.",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt. inviting applications for 3 vacancies for Project Associate-II posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1789733380.pdf"
+},
+  {
+    "id": "dcpu-probation-officer-recruitment-2026",
+    "b": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi)",
+    "t": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi) Recruitment 2026 Notification Out for 1 Legal cum Probation Officer Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "05 October 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Thoothukudi (DCPU Thoothukudi) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 1 vacancies for Legal cum Probation Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3019d385eb67632a7e958e23f24bd07d7/uploads/2026/09/17897968871769.pdf"
+},
+  {
     "id": "dcpu-theni-office-asst-recruitment-2026",
     "b": "District Child Protection Unit Theni (DCPU Theni)",
     "t": "District Child Protection Unit Theni (DCPU Theni) Recruitment 2026 Notification Out for 2 Junior Assistant cum Record Clerk, Office Assistant Posts | Apply Offline",
