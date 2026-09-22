@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "maitreyi-coll-lab-assistant-recruitment-2026",
+    "b": "Maitreyi College Non Teaching",
+    "t": "Maitreyi College Non Teaching Recruitment 2026 Notification Out for 52 Lab Assistant, Junior Assistant and More Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "9 October 2026",
+    "a": "MAITREYI-COLLE/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Maitreyi College Non Teaching has officially announced employment advertisement notification MAITREYI-COLLE/2026 inviting applications for 52 vacancies for Lab Assistant, Junior Assistant and More posts.",
+    "u": "https://www.maitreyi.ac.in/"
+},
+  {
+    "id": "government-polyte-part-time-recruitment-2026",
+    "b": "Government Polytechnic Marwahi",
+    "t": "Government Polytechnic Marwahi Recruitment 2026 Notification Out for 1 Part Time Lecturer Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "07 October 2026 (Walk-in)",
+    "a": "K/APOM/Estt./2025/580",
+    "q": "B.Tech / B.E | M.Tech / M.E | Any Bachelor's Degree",
+    "desc": "Government Polytechnic Marwahi has officially announced employment advertisement notification K/APOM/Estt./2025/580 inviting applications for 1 vacancies for Part Time Lecturer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3821fa74b50ba3f7cba1e6c53e8fa6845/uploads/2026/09/17899834357850.pdf"
+},
+  {
+    "id": "bastar-district-masseurs-recruitment-2026",
+    "b": "Bastar District",
+    "t": "Bastar District Recruitment 2026 Notification Out for 2 Masseurs Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "स्था. / 2026 / 1/2/1",
+    "q": "10th / 8th Pass",
+    "desc": "Bastar District has officially announced employment advertisement notification स्था. / 2026 / 1/2/1 inviting applications for 2 vacancies for Masseurs posts.",
+    "u": "https://cdn.s3waas.gov.in/s324681928425f5a9133504de568f5f6df/uploads/2026/09/17900687666703.pdf"
+},
+  {
+    "id": "pgimer-project-nurse-recruitment-2026",
+    "b": "Postgraduate Institute of Medical Education and Research (PGIMER)",
+    "t": "Postgraduate Institute of Medical Education and Research (PGIMER) Recruitment 2026 Notification Out for 1 Project Nurse - II Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "POSTGRADUATE-I/2026",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "Postgraduate Institute of Medical Education and Research (PGIMER) has officially announced employment advertisement notification POSTGRADUATE-I/2026 inviting applications for 1 vacancies for Project Nurse - II posts.",
+    "u": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/Vacancies/JSP/ViewAll.jsp?record=15691"
+},
+  {
+    "id": "pu-research-fellow-recruitment-2026",
+    "b": "Panjab University",
+    "t": "Panjab University Recruitment 2026 Notification Out for 1 Research Fellow Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "01 October 2026",
+    "a": "PANJAB-UNIVERS/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Panjab University has officially announced employment advertisement notification PANJAB-UNIVERS/2026 inviting applications for 1 vacancies for Research Fellow posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20260922102141-advertisement%20research%20fellow.pdf"
+},
+  {
+    "id": "cdac-consultant-it-recruitment-2026",
+    "b": "Centre for Development of Advanced Computing",
+    "t": "Centre for Development of Advanced Computing Recruitment 2026 Notification Out for 1 Consultant (IT and Network Engineer) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "CENTRE-FOR-DEV/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Centre for Development of Advanced Computing has officially announced employment advertisement notification CENTRE-FOR-DEV/2026 inviting applications for 1 vacancies for Consultant (IT and Network Engineer) posts.",
+    "u": "https://www.cdac.in/index.aspx?id=pdf_hrd_sil&dynamicId=Advertisement-Consultant.pdf"
+},
+  {
+    "id": "csc-e-governance-supervisor-recruitment-2026",
+    "b": "CSC e-Governance Services India Ltd",
+    "t": "CSC e-Governance Services India Ltd Recruitment 2026 Notification Out for 1 Aadhaar Supervisor/Operator - District Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "3 October 2026",
+    "a": "CSC-E-GOVERNAN/2026",
+    "q": "The minimum age required is 18 years or above .",
+    "desc": "CSC e-Governance Services India Ltd has officially announced employment advertisement notification CSC-E-GOVERNAN/2026 inviting applications for 1 vacancies for Aadhaar Supervisor/Operator - District posts.",
+    "u": "https://career.csccloud.in/job-post/MTM5OQ=="
+},
+  {
+    "id": "angrau-jrf-recruitment-2026",
+    "b": "Acharya N.G. Ranga Agricultural University (ANGRAU)",
+    "t": "Acharya N.G. Ranga Agricultural University (ANGRAU) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "243/Sesame SERB/Admn.II/2024",
+    "q": "M. Sc (Ag) in Genetics & Plant Breeding / Biotechnology / M. Sc (Life Sc...",
+    "desc": "Acharya N.G. Ranga Agricultural University (ANGRAU) has officially announced employment advertisement notification 243/Sesame SERB/Admn.II/2024 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://angrau.ac.in"
+},
+  {
+    "id": "dlsa-prakasam-plv-recruitment-2026",
+    "b": "District Legal Services Authority Prakasam",
+    "t": "District Legal Services Authority Prakasam Recruitment 2026 Notification Out for 1 Para Legal Volunteer Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "12th Pass",
+    "desc": "District Legal Services Authority Prakasam has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Para Legal Volunteer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0151be2fed6c55f5aa0c16ff14c140/uploads/2026/09/2026092136.pdf"
+},
+  {
+    "id": "angrau-yp-recruitment-2026",
+    "b": "Acharya N.G. Ranga Agricultural University (ANGRAU)",
+    "t": "Acharya N.G. Ranga Agricultural University (ANGRAU) Recruitment 2026 Notification Out for 2 Young Professional II (YP II) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "ACHARYA-NG-RAN/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Acharya N.G. Ranga Agricultural University (ANGRAU) has officially announced employment advertisement notification ACHARYA-NG-RAN/2026 inviting applications for 2 vacancies for Young Professional II (YP II) posts.",
+    "u": "https://angrau.ac.in/UPLOADS/CareersPDFs/RARS_21_09.pdf"
+},
+  {
     "id": "aiims-kalyani-guest-faculty-recruitment-2026",
     "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
     "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 1 Guest Faculty of Applied Sociology Posts | Apply Online",
