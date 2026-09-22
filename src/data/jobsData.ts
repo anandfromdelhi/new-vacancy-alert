@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ntpc-limi-assistant-officer-recruitment-2026",
+    "b": "NTPC Limited",
+    "t": "NTPC Limited Recruitment 2026 Notification Out for 15 Assistant Officer (Corporate Communication) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "5 October 2026",
+    "a": "12/26",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "NTPC Limited has officially announced employment advertisement notification 12/26 inviting applications for 15 vacancies for Assistant Officer (Corporate Communication) posts.",
+    "u": "https://careers.ntpc.co.in/recruitment/login.php"
+},
+  {
+    "id": "pt-madan-mohan-mal-sr-recruitment-2026",
+    "b": "Pt. Madan Mohan Malaviya Hospital",
+    "t": "Pt. Madan Mohan Malaviya Hospital Recruitment 2026 Notification Out for 10 Senior Resident Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "12/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Pt. Madan Mohan Malaviya Hospital has officially announced employment advertisement notification 12/2026 inviting applications for 10 vacancies for Senior Resident posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfl4LGQLdMMabMoTmF14xlwMmF-DFNtbzgRz4ijnXy29hhrsw/viewform"
+},
+  {
+    "id": "shri-dada-dev-matr-sr-recruitment-2026",
+    "b": "Shri Dada Dev Matri Avum Shishu Chikitsalaya Delhi",
+    "t": "Shri Dada Dev Matri Avum Shishu Chikitsalaya Delhi Recruitment 2026 Notification Out for 21 Senior Resident Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "F2/14) / 751 / Rectt / SR / Interview / 2026 / Vol-X / 20261 3562",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Shri Dada Dev Matri Avum Shishu Chikitsalaya Delhi has officially announced employment advertisement notification F2/14) / 751 / Rectt / SR / Interview / 2026 / Vol-X / 20261 3562 inviting applications for 21 vacancies for Senior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsddms_5.pdf"
+},
+  {
+    "id": "aiims-delhi-prs-recruitment-2026-3068583",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Non-Medical) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "Name",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Project Research Scientist-I (Non-Medical) posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/obsgyne-11-9-26.pdf"
+},
+  {
+    "id": "dda-yp-recruitment-2026",
+    "b": "Delhi Development Authority (DDA)",
+    "t": "Delhi Development Authority (DDA) Recruitment 2026 Notification Out for 1 Young Professional (GIS) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "26 September 2026",
+    "a": "06/Consultant/2026/Rectt. Cell/Pers./DDA",
+    "q": "Any Bachelor's Degree",
+    "desc": "Delhi Development Authority (DDA) has officially announced employment advertisement notification 06/Consultant/2026/Rectt. Cell/Pers./DDA inviting applications for 1 vacancies for Young Professional (GIS) posts.",
+    "u": "https://dda.gov.in/sites/default/files/latest_jobs/young_professional_gis_21092026.pdf"
+},
+  {
+    "id": "aiims-delhi-crc-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Clinical Research Coordinator Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Nursing (GNM / B.Sc) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Clinical Research Coordinator posts.",
+    "u": "https://aiims.edu/images/pdf/recruitment/advertisement/rheumatology-11-9-26.pdf"
+},
+  {
+    "id": "maids-project-technical-recruitment-2026",
+    "b": "Maulana Azad Institute of Dental Sciences (MAIDS)",
+    "t": "Maulana Azad Institute of Dental Sciences (MAIDS) Recruitment 2026 Notification Out for 1 Project Technical Support-II Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "26 September 2026 (Walk-in)",
+    "a": "MAULANA-AZAD-I/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Maulana Azad Institute of Dental Sciences (MAIDS) has officially announced employment advertisement notification MAULANA-AZAD-I/2026 inviting applications for 1 vacancies for Project Technical Support-II posts.",
+    "u": "https://maids.delhi.gov.in/sites/default/files/maids/circulars-orders/advertisement_with_application_form.pdf"
+},
+  {
+    "id": "iift-residential-librar-recruitment-2026",
+    "b": "Indian Institute of Foreign Trade (IIFT)",
+    "t": "Indian Institute of Foreign Trade (IIFT) Recruitment 2026 Notification Out for 1 Residential Library Information Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Foreign Trade (IIFT) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Residential Library Information Assistant posts.",
+    "u": "https://docs.iift.ac.in/recruit/solo00.asp?jcode=Rlia_26"
+},
+  {
+    "id": "mrs-girdhari-lal-m-sr-recruitment-2026",
+    "b": "Mrs. Girdhari Lal Maternity Hospital, Municipal Corporation of Delhi",
+    "t": "Mrs. Girdhari Lal Maternity Hospital, Municipal Corporation of Delhi Recruitment 2026 Notification Out for 4 Senior Resident Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "09 October 2026 (Walk-in)",
+    "a": "MS-/GLMH/MCD/2026/41",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Mrs. Girdhari Lal Maternity Hospital, Municipal Corporation of Delhi has officially announced employment advertisement notification MS-/GLMH/MCD/2026/41 inviting applications for 4 vacancies for Senior Resident posts.",
+    "u": "https://mcdonline.nic.in/portal/downloadFile/walk-in-interview_for_the_post_of_01_senior_resident_(pediatrics)_and_03_senior_residents_(anesthesia)_on_against_regular_post_at_glmh_26092112150090.pdf"
+},
+  {
+    "id": "nielit-deo-recruitment-2026",
+    "b": "National Institute of Electronics and Information Technology (NIELIT)",
+    "t": "National Institute of Electronics and Information Technology (NIELIT) Recruitment 2026 Notification Out for 1 Data Entry Operator- D Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "07/351/2026/NDL/FM",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Institute of Electronics and Information Technology (NIELIT) has officially announced employment advertisement notification 07/351/2026/NDL/FM inviting applications for 1 vacancies for Data Entry Operator- D posts.",
+    "u": "https://www.nielit.gov.in/Fileviewer?fileId=3fydMPjBugnWLeM5Lll2iw=="
+},
+  {
     "id": "indian-navy-indian-various-recruitment-2026",
     "b": "Indian Navy (Indian Navy Sports Control Board, Naval Headquarters, Ministry of Defence)",
     "t": "Indian Navy (Indian Navy Sports Control Board, Naval Headquarters, Ministry of Defence) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
