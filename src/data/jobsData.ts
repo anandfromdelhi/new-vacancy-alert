@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-bhopal-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 2 Project Research Scientist-II (Medical and Non-Medical) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "12 October 2026",
+    "a": "AIIMS/BPL/CFM/APP/NCD-Ind/2026/01",
+    "q": "MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has officially announced employment advertisement notification AIIMS/BPL/CFM/APP/NCD-Ind/2026/01 inviting applications for 2 vacancies for Project Research Scientist-II (Medical and Non-Medical) posts.",
+    "u": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/NCD-India_Advertisement_21_09.pdf"
+},
+  {
+    "id": "iit-indo-research-assistant-recruitment-2026",
+    "b": "Indian Institute of Technology Indore",
+    "t": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 2 Research Assistant I Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "IITI/R&D/2026-27/CNT/04",
+    "q": "12th Pass | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Indore has officially announced employment advertisement notification IITI/R&D/2026-27/CNT/04 inviting applications for 2 vacancies for Research Assistant I posts.",
+    "u": "https://www.iiti.ac.in/uploads/career/2026/Sep/4027a537814a0250e86bd9c6380863b5.pdf"
+},
+  {
+    "id": "igntu-nursing-tutor-recruitment-2026",
+    "b": "Indira Gandhi National Tribal University (IGNTU)",
+    "t": "Indira Gandhi National Tribal University (IGNTU) Recruitment 2026 Notification Out for 3 Nursing Tutor Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "IGNTU/2026/A",
+    "q": "B.Sc | M.Sc | Nursing (GNM / B.Sc)",
+    "desc": "Indira Gandhi National Tribal University (IGNTU) has officially announced employment advertisement notification IGNTU/2026/A inviting applications for 3 vacancies for Nursing Tutor posts.",
+    "u": "https://portal.igntu.ac.in/upload/notices/Recruitment_Notice/806ead08-14f5-48f1-b7c6-834e4ddae083.pdf"
+},
+  {
+    "id": "echs-chowkidar-radiolog-recruitment-2026",
+    "b": "Ex-Servicemen Contributory Health Scheme",
+    "t": "Ex-Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 9 Chowkidar, Radiologist and More Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "07 October 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "Diploma | MBBS / Medical PG | BDS / Dental",
+    "desc": "Ex-Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 9 vacancies for Chowkidar, Radiologist and More Posts posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/ADVERTISEMENT%20%20TO%20BE%20PUBLISHED%20IN%20ECHS%20WEB%20SITE.pdf"
+},
+  {
+    "id": "iisc-jrf-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Thiruvananthapuram",
+    "t": "Indian Institute of Science Education and Research Thiruvananthapuram Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "04 October 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Thiruvananthapuram has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.iisertvm.ac.in/files/read/opening-jrf-dr-poonam-20260921"
+},
+  {
+    "id": "kspcb-environmental-engi-recruitment-2026",
+    "b": "Kerala State Pollution Control Board (KSPCB)",
+    "t": "Kerala State Pollution Control Board (KSPCB) Recruitment 2026 Notification Out for 1 Environmental Engineer Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "KERALA-STATE-P/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Kerala State Pollution Control Board (KSPCB) has officially announced employment advertisement notification KERALA-STATE-P/2026 inviting applications for 1 vacancies for Environmental Engineer posts.",
+    "u": "http://www.kspcb.kerala.gov.in"
+},
+  {
+    "id": "sctimst-legal-consultant-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) Recruitment 2026 Notification Out for 1 Legal Consultant Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "09 October 2026 (Walk-in)",
+    "a": "0471-2443152",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially announced employment advertisement notification 0471-2443152 inviting applications for 1 vacancies for Legal Consultant posts.",
+    "u": "https://sctimst.ac.in/recruitment/RESOURCES/H_2026-27_1832.pdf"
+},
+  {
+    "id": "sctimst-prs-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) Recruitment 2026 Notification Out for 1 Project Research Scientist III (Non-Medical) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "R&P Cell/40/5449/SCTIMST/2026",
+    "q": "B.Pharm / D.Pharm | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST) has officially announced employment advertisement notification R&P Cell/40/5449/SCTIMST/2026 inviting applications for 1 vacancies for Project Research Scientist III (Non-Medical) posts.",
+    "u": "https://sctimst.ac.in/recruitment/RESOURCES/H_2026-27_1862.pdf"
+},
+  {
+    "id": "iisc-athletic-coach-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Thiruvananthapuram",
+    "t": "Indian Institute of Science Education and Research Thiruvananthapuram Recruitment 2026 Notification Out for 1 Athletic Coach & Mass PT Trainer Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Thiruvananthapuram has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Athletic Coach & Mass PT Trainer posts.",
+    "u": "https://www.iisertvm.ac.in/files/read/opening-athletic-coach-20260922"
+},
+  {
+    "id": "narip-srf-recruitment-2026",
+    "b": "National Ayurveda Research Institute for Panchakarma (NARIP)",
+    "t": "National Ayurveda Research Institute for Panchakarma (NARIP) Recruitment 2026 Notification Out for 1 Senior Research Fellow (Pharmacology) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "05 October 2026 (Walk-in)",
+    "a": "2/1/2026/NARIP/Vol- VII",
+    "q": "M.Sc",
+    "desc": "National Ayurveda Research Institute for Panchakarma (NARIP) has officially announced employment advertisement notification 2/1/2026/NARIP/Vol- VII inviting applications for 1 vacancies for Senior Research Fellow (Pharmacology) posts.",
+    "u": "https://ccras.nic.in/wp-content/uploads/2026/09/21092026-NARIP-Cheruthuruthy-SRF-pharmacology.pdf"
+},
+  {
     "id": "mgu-kottayam-high-school-recruitment-2026",
     "b": "Mahatma Gandhi University (MGU Kottayam)",
     "t": "Mahatma Gandhi University (MGU Kottayam) Recruitment 2026 Notification Out for 1 High School Assistant Posts | Walk-in Interview",
