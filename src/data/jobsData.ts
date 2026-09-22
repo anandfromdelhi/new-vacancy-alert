@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tiss-am-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Assistant Manager-Operations Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "05 October 2026",
+    "a": "TISS/SSE/Sep/2026/01",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially announced employment advertisement notification TISS/SSE/Sep/2026/01 inviting applications for 1 vacancies for Assistant Manager-Operations posts.",
+    "u": "https://tiss.ac.in/uploads/files/Adver_Assistant_Manager_Operations_Sep_2026.pdf"
+},
+  {
+    "id": "tmc-actrec-ac-technician-recruitment-2026",
+    "b": "Advanced Centre for Treatment, Research and Education in Cancer (TMC ACTREC)",
+    "t": "Advanced Centre for Treatment, Research and Education in Cancer (TMC ACTREC) Recruitment 2026 Notification Out for 1 AC Technician Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "OS-A/111/2026",
+    "q": "ITI",
+    "desc": "Advanced Centre for Treatment, Research and Education in Cancer (TMC ACTREC) has officially announced employment advertisement notification OS-A/111/2026 inviting applications for 1 vacancies for AC Technician posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-09/Walk%20in%20AC%20Technician%2028.09.2026.pdf"
+},
+  {
+    "id": "iim-mumbai-exec-asst-recruitment-2026",
+    "b": "Indian Institute of Management Mumbai (IIM Mumbai)",
+    "t": "Indian Institute of Management Mumbai (IIM Mumbai) Recruitment 2026 Notification Out for 2 Executive Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "08 October 2026",
+    "a": "Admn/Rectt/2026/35",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Mumbai (IIM Mumbai) has officially announced employment advertisement notification Admn/Rectt/2026/35 inviting applications for 2 vacancies for Executive Assistant posts.",
+    "u": "https://iimmumbai.ac.in/careers"
+},
+  {
+    "id": "sci-chief-manager-recruitment-2026",
+    "b": "Shipping Corporation of India",
+    "t": "Shipping Corporation of India Recruitment 2026 Notification Out for 1 Chief Manager (Legal) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "13 October 2026",
+    "a": "HR 05/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Shipping Corporation of India has officially announced employment advertisement notification HR 05/2026 inviting applications for 1 vacancies for Chief Manager (Legal) posts.",
+    "u": "https://onlineapply.ind.in/"
+},
+  {
+    "id": "cr-railway-advocate-recruitment-2026",
+    "b": "Central Railway",
+    "t": "Central Railway Recruitment 2026 Notification Out for 33 Railway Advocate Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "23 October 2026",
+    "a": "01/2026",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "Central Railway has officially announced employment advertisement notification 01/2026 inviting applications for 33 vacancies for Railway Advocate posts.",
+    "u": "https://cr.indianrailways.gov.in/cris//uploads/files/1789988441789-BP-70C65_20260921_143612.pdf"
+},
+  {
+    "id": "aiims-bho-project-technical-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
+    "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 1 Project Technical Support - III Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "AIIMS Bhopal/CFM/Projects/AM/ICMR MINDS Project/06",
+    "q": "B.Tech / B.E | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) has officially announced employment advertisement notification AIIMS Bhopal/CFM/Projects/AM/ICMR MINDS Project/06 inviting applications for 1 vacancies for Project Technical Support - III posts.",
+    "u": "https://www.aiimsbhopal.edu.in/AIIMSFiles/career/jonUnderProject/Download/Advertisement_Project_technical_support_-_III.pdf"
+},
+  {
+    "id": "kvs-contractual-teache-recruitment-2026-3068469",
+    "b": "PM SHRI Kendriya Vidyalaya",
+    "t": "PM SHRI Kendriya Vidyalaya Recruitment 2026 Notification Out for 1 Contractual Teachers Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "26 September 2026 (Walk-in)",
+    "a": "F.1-4/KVC/2026-27/",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "PM SHRI Kendriya Vidyalaya has officially announced employment advertisement notification F.1-4/KVC/2026-27/ inviting applications for 1 vacancies for Contractual Teachers posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv03c0e77a996c882f14a259fbf97b56/uploads/2026/09/2026091979.pdf"
+},
+  {
+    "id": "fddi-junior-faculty-recruitment-2026-3068500",
+    "b": "Footwear Design and Development Institute (FDDI)",
+    "t": "Footwear Design and Development Institute (FDDI) Recruitment 2026 Notification Out for 1 Junior Faculty Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "28 September 2026",
+    "a": "FDDI/GUNA/HR/ADHOC/REQ/2026-27/02",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Footwear Design and Development Institute (FDDI) has officially announced employment advertisement notification FDDI/GUNA/HR/ADHOC/REQ/2026-27/02 inviting applications for 1 vacancies for Junior Faculty posts.",
+    "u": "https://fddiindia.com/uploads/career/Application_Form_Guna_21-08-2026.pdf"
+},
+  {
+    "id": "northern-consultant-medical-recruitment-2026",
+    "b": "Northern Coalfields Limited",
+    "t": "Northern Coalfields Limited Recruitment 2026 Notification Out for 40 Consultant (Medical Specialist) and Consultant (GDMO) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "5 October 2026",
+    "a": "NORTHERN-COALF/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Northern Coalfields Limited has officially announced employment advertisement notification NORTHERN-COALF/2026 inviting applications for 40 vacancies for Consultant (Medical Specialist) and Consultant (GDMO) posts.",
+    "u": "https://www.nclcil.in/media/documents/Notification_Medical_Consultant.pdf"
+},
+  {
+    "id": "manit-bho-jrfproject-fellow-recruitment-2026",
+    "b": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal)",
+    "t": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) Recruitment 2026 Notification Out for 1 JRF/Project Fellow Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "CESM/836/19/08/2026 and PDSM/2026/AUG/0015",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Maulana Azad National Institute of Technology Bhopal (MANIT Bhopal) has officially announced employment advertisement notification CESM/836/19/08/2026 and PDSM/2026/AUG/0015 inviting applications for 1 vacancies for JRF/Project Fellow posts.",
+    "u": "https://www.manit.ac.in/sites/default/files/documents/JRF%20_Vacancy.pdf"
+},
+  {
     "id": "iisc-bho-institute-doctoral-recruitment-2026",
     "b": "Indian Institute of Science Education and Research Bhopal",
     "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Institute Post Doctoral Fellow Posts | Apply Online",
