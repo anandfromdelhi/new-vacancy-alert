@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "dcpu-theni-office-asst-recruitment-2026",
+    "b": "District Child Protection Unit Theni (DCPU Theni)",
+    "t": "District Child Protection Unit Theni (DCPU Theni) Recruitment 2026 Notification Out for 2 Junior Assistant cum Record Clerk, Office Assistant Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "01 October 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Child Protection Unit Theni (DCPU Theni) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 2 vacancies for Junior Assistant cum Record Clerk, Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s39a96876e2f8f3dc4f3cf45f02c61c0c1/uploads/2026/09/17896321331787.pdf"
+},
+  {
+    "id": "district-educat-office-asst-recruitment-2026",
+    "b": "District Education Office Thanjavur",
+    "t": "District Education Office Thanjavur Recruitment 2026 Notification Out for 1 Office Assistant Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "05 October 2026",
+    "a": "1/n2/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Education Office Thanjavur has officially announced employment advertisement notification 1/n2/2026 inviting applications for 1 vacancies for Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3b7b16ecf8ca53723593894116071700c/uploads/2026/09/17897344712627.pdf"
+},
+  {
+    "id": "dhs-mo-recruitment-2026",
+    "b": "District Health Society (DHS), Ranipet",
+    "t": "District Health Society (DHS), Ranipet Recruitment 2026 Notification Out for 26 Medical Officer, Lab Attender and More Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "01 October 2026, 5:00 PM",
+    "a": "DISTRICT-HEALT/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "District Health Society (DHS), Ranipet has officially announced employment advertisement notification DISTRICT-HEALT/2026 inviting applications for 26 vacancies for Medical Officer, Lab Attender and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s32723d092b63885e0d7c260cc007e8b9d/uploads/2026/09/17897317778845.pdf"
+},
+  {
+    "id": "iit-madras-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Madras",
+    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 1 Research Associate - III Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 September 2026",
+    "a": "ICSR/PR/Advt",
+    "q": "B.Tech / B.E | M.Tech / M.E | MBBS / Medical PG",
+    "desc": "Indian Institute of Technology Madras has officially announced employment advertisement notification ICSR/PR/Advt inviting applications for 1 vacancies for Research Associate - III posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
+    "id": "iit-madras-prs-recruitment-2026",
+    "b": "Indian Institute Of Technology Madras (IIT Madras)",
+    "t": "Indian Institute Of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-Medical) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "02 October 2026",
+    "a": "ICSR/PR/Advt.",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute Of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt. inviting applications for 1 vacancies for Project Research Scientist I (Non-Medical) posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
+    "id": "repco-am-recruitment-2026",
+    "b": "Repco Bank",
+    "t": "Repco Bank Recruitment 2026 Notification Out for 1 Assistant Managers/ Manager for Accounts and Finance Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "2/Old",
+    "q": "12th Pass",
+    "desc": "Repco Bank has officially announced employment advertisement notification 2/Old inviting applications for 1 vacancies for Assistant Managers/ Manager for Accounts and Finance posts.",
+    "u": "https://s3.ap-south-1.amazonaws.com/rhfl-strapi/Website_Notification_for_Chartered_Accountant_Sept_2026_1f4cd88b35.pdf"
+},
+  {
+    "id": "ex-servicemen-cont-mo-recruitment-2026",
+    "b": "Ex Servicemen Contributory Health Scheme",
+    "t": "Ex Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 3 Officer - in - Charge, Medical Officer and Dental Hygienist/Assistant Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "26 September 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "Diploma | MBBS / Medical PG | BDS / Dental",
+    "desc": "Ex Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 3 vacancies for Officer - in - Charge, Medical Officer and Dental Hygienist/Assistant posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/Hisar%20Advt%2023.pdf"
+},
+  {
+    "id": "iim-amritsar-ra-recruitment-2026",
+    "b": "Indian Institute of Management Amritsar (IIM Amritsar)",
+    "t": "Indian Institute of Management Amritsar (IIM Amritsar) Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "02 October 2026",
+    "a": "IIMASR/HR/Rectt/Res/2026/10",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Management Amritsar (IIM Amritsar) has officially announced employment advertisement notification IIMASR/HR/Rectt/Res/2026/10 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://iimamritsar.ac.in"
+},
+  {
+    "id": "pau-ground-helper-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Ground Helper Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "15 October 2026",
+    "a": "DSW.A-I/2026/7077-7177",
+    "q": "Middle with Punjabi",
+    "desc": "Punjab Agricultural University (PAU) has officially announced employment advertisement notification DSW.A-I/2026/7077-7177 inviting applications for 1 vacancies for Ground Helper posts.",
+    "u": "https://pau.edu/content/banner/7577f.pdf"
+},
+  {
+    "id": "pau-srf-recruitment-2026",
+    "b": "Punjab Agricultural University (PAU)",
+    "t": "Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Senior Research Fellow Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "09 October 2026 (Walk-in)",
+    "a": "PUNJAB-AGRICUL/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Punjab Agricultural University (PAU) has officially announced employment advertisement notification PUNJAB-AGRICUL/2026 inviting applications for 1 vacancies for Senior Research Fellow posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7578"
+},
+  {
     "id": "ouat-guest-faculty-recruitment-2026-3068467",
     "b": "Odisha University of Agriculture and Technology (OUAT)",
     "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 6 Guest Faculty Posts | Walk-in Interview",
