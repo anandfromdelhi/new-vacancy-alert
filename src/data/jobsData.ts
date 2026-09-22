@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "mpkv-ap-recruitment-2026-3068782",
+    "b": "Mahatma Phule Krishi Vidyapeeth Rahuri (MPKV)",
+    "t": "Mahatma Phule Krishi Vidyapeeth Rahuri (MPKV) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "01 October 2026",
+    "a": "PGI/Biotech/Contr. Staff/1824/2026",
+    "q": "M.Sc | Ph.D / Doctorate",
+    "desc": "Mahatma Phule Krishi Vidyapeeth Rahuri (MPKV) has officially announced employment advertisement notification PGI/Biotech/Contr. Staff/1824/2026 inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://mpkv.ac.in/Uploads/AKMU/20260921_110707_fa02386f3e02e931fa9c1051cc5d3d47.pdf"
+},
+  {
+    "id": "csir-neeri-pa-recruitment-2026",
+    "b": "National Environmental Engineering Research Institute (CSIR NEERI)",
+    "t": "National Environmental Engineering Research Institute (CSIR NEERI) Recruitment 2026 Notification Out for 1 Project Associate-II Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "29 September 2026",
+    "a": "RECRUIT_SD_2A_WESD_22092026",
+    "q": "M.Tech / M.E",
+    "desc": "National Environmental Engineering Research Institute (CSIR NEERI) has officially announced employment advertisement notification RECRUIT_SD_2A_WESD_22092026 inviting applications for 1 vacancies for Project Associate-II posts.",
+    "u": "https://recruitment.neeri.res.in/appform/Recruit/RECRUIT_SD_2A_WESD_22092026.pdf"
+},
+  {
+    "id": "tmc-mo-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC)",
+    "t": "Tata Memorial Centre (TMC) Recruitment 2026 Notification Out for 4 Medical Officer Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "163/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Tata Memorial Centre (TMC) has officially announced employment advertisement notification 163/2026 inviting applications for 4 vacancies for Medical Officer posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=gpKGZz6LeDQdeZ9eX7hmtA=="
+},
+  {
+    "id": "mbpa-mumbai-deputy-chief-recruitment-2026",
+    "b": "Mumbai Port Authority",
+    "t": "Mumbai Port Authority Recruitment 2026 Notification Out for 3 Deputy Chief Engineer (Civil) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "21 October 2026",
+    "a": "MUMBAI-PORT-AU/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Mumbai Port Authority has officially announced employment advertisement notification MUMBAI-PORT-AU/2026 inviting applications for 3 vacancies for Deputy Chief Engineer (Civil) posts.",
+    "u": "https://mumbaiport.gov.in/WriteReadData/RTF1984/1789987756.pdf"
+},
+  {
+    "id": "sainik-school-delhi-mo-recruitment-2026",
+    "b": "Sainik School Satara (functioning under Sainik Schools Society, Ministry of Defence, New Delhi)",
+    "t": "Sainik School Satara (functioning under Sainik Schools Society, Ministry of Defence, New Delhi) Recruitment 2026 Notification Out for 8 Medical Officer, Counsellor, Riding Instructor, Quarter Master, Ward Boy, PEM/PTI cum Matron, Nursing Sister Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "09 October 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "10th / 8th Pass | Diploma | B.Tech / B.E",
+    "desc": "Sainik School Satara (functioning under Sainik Schools Society, Ministry of Defence, New Delhi) has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 8 vacancies for Medical Officer, Counsellor, Riding Instructor, Quarter Master, Ward Boy, PEM/PTI cum Matron, Nursing Sister posts.",
+    "u": "https://www.sainiksatara.org/images/AdvtforWebsite_sep_2026.pdf"
+},
+  {
+    "id": "iips-research-officer-recruitment-2026",
+    "b": "International Institute for Population Sciences (IIPS)",
+    "t": "International Institute for Population Sciences (IIPS) Recruitment 2026 Notification Out for 1 Research Officer Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "INTERNATIONAL-/2026",
+    "q": "MBBS / Medical PG | Master's / PG Degree",
+    "desc": "International Institute for Population Sciences (IIPS) has officially announced employment advertisement notification INTERNATIONAL-/2026 inviting applications for 1 vacancies for Research Officer posts.",
+    "u": "https://www.iipsindia.ac.in/sites/default/files/job-listing/Advertisement_for_Research_Officer_PMJAY_Project.pdf"
+},
+  {
+    "id": "becil-supervisor-recruitment-2026",
+    "b": "Broadcast Engineering Consultants India Limited (BECIL)",
+    "t": "Broadcast Engineering Consultants India Limited (BECIL) Recruitment 2026 Notification Out for 10 Supervisor-S&T, Supervisor-Safety, Supervisor-Civil Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "06 October 2026 up to 11:59 PM",
+    "a": "558",
+    "q": "Diploma | B.Tech / B.E | M.Tech / M.E",
+    "desc": "Broadcast Engineering Consultants India Limited (BECIL) has officially announced employment advertisement notification 558 inviting applications for 10 vacancies for Supervisor-S&T, Supervisor-Safety, Supervisor-Civil posts.",
+    "u": "https://becilregistration.in/"
+},
+  {
+    "id": "tiss-field-coordinator-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 1 Field Coordinator Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "26 September 2026",
+    "a": "SIMHA-TISS/16.09.2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially announced employment advertisement notification SIMHA-TISS/16.09.2026 inviting applications for 1 vacancies for Field Coordinator posts.",
+    "u": "https://tiss.ac.in/uploads/files/JD-_FC.docx.pdf"
+},
+  {
+    "id": "abv-iiitm-ap-recruitment-2026",
+    "b": "ABV Indian Institute of Information Technology and Management (ABV IIITM) Gwalior",
+    "t": "ABV Indian Institute of Information Technology and Management (ABV IIITM) Gwalior Recruitment 2026 Notification Out for 24 Assistant Professor (Grade-I) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "12 October 2026 (11:59 PM)",
+    "a": "08/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "ABV Indian Institute of Information Technology and Management (ABV IIITM) Gwalior has officially announced employment advertisement notification 08/2026 inviting applications for 24 vacancies for Assistant Professor (Grade-I) posts.",
+    "u": "https://recruitment.iiitm.ac.in/login"
+},
+  {
+    "id": "nepa-company-secretary-recruitment-2026",
+    "b": "National Newsprint and Paper Mills (NEPA)",
+    "t": "National Newsprint and Paper Mills (NEPA) Recruitment 2026 Notification Out for 3 Company Secretary Management Trainee and CMA Trainee Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "01 October 2026",
+    "a": "07/2026",
+    "q": "12th Pass",
+    "desc": "National Newsprint and Paper Mills (NEPA) has officially announced employment advertisement notification 07/2026 inviting applications for 3 vacancies for Company Secretary Management Trainee and CMA Trainee posts.",
+    "u": "https://www.nepamills.co.in/allpdf/advertisement072026.pdf"
+},
+  {
     "id": "aiims-bhopal-prs-recruitment-2026",
     "b": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal)",
     "t": "All India Institute of Medical Sciences Bhopal (AIIMS Bhopal) Recruitment 2026 Notification Out for 2 Project Research Scientist-II (Medical and Non-Medical) Posts | Apply Online",
