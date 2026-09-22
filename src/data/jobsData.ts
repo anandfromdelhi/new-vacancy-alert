@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "women-and-anganwadi-worker-recruitment-2026",
+    "b": "Women and Child Development Department, Gujarat",
+    "t": "Women and Child Development Department, Gujarat Recruitment 2026 Notification Out for 6843 Anganwadi Worker and Anganwadi Helper Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "14 October 2026",
+    "a": "WOMEN-AND-CHIL/2026",
+    "q": "Class 10 or Class 12, depending on the post",
+    "desc": "Women and Child Development Department, Gujarat has officially announced employment advertisement notification WOMEN-AND-CHIL/2026 inviting applications for 6843 vacancies for Anganwadi Worker and Anganwadi Helper posts.",
+    "u": "https://e-hrms.gujarat.gov.in/Advertisement/Index#"
+},
+  {
+    "id": "iit-gandhinagar-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 2 Junior Research Fellow Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "SPON/62034/Adv0316",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification SPON/62034/Adv0316 inviting applications for 2 vacancies for Junior Research Fellow posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "nbt-editorial-asst-recruitment-2026",
+    "b": "National Book Trust",
+    "t": "National Book Trust Recruitment 2026 Notification Out for 17 Editorial Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "15 days from the date of publication of this advertisement (30 September 2026)",
+    "a": "129/2026/Estt.",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Book Trust has officially announced employment advertisement notification 129/2026/Estt. inviting applications for 17 vacancies for Editorial Assistant posts.",
+    "u": "https://www.nbtindia.gov.in"
+},
+  {
+    "id": "aiims-delhi-project-nurse-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Nurse - III Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Project Nurse - III posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSeM0JaRCTtRnN1NLkeS3BvcSs0VeVPsO14DGRYx8WCeBQ_ifQ/viewform"
+},
+  {
+    "id": "rmlims-ra-recruitment-2026",
+    "b": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS)",
+    "t": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS) Recruitment 2026 Notification Out for 1 Research Associate-III Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "08 October 2026",
+    "a": "19 | R&D (2026) | Research Cell",
+    "q": "M.Tech / M.E | MBBS / Medical PG | BDS / Dental",
+    "desc": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS) has officially announced employment advertisement notification 19 | R&D (2026) | Research Cell inviting applications for 1 vacancies for Research Associate-III posts.",
+    "u": "https://www.drmmlims.ac.in"
+},
+  {
+    "id": "ircon-managerrajbhasha-recruitment-2026",
+    "b": "Indian Railway Construction Company (IRCON)",
+    "t": "Indian Railway Construction Company (IRCON) Recruitment 2026 Notification Out for 1 Manager/Rajbhasha Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "23 October 2026",
+    "a": "10/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Railway Construction Company (IRCON) has officially announced employment advertisement notification 10/2026 inviting applications for 1 vacancies for Manager/Rajbhasha posts.",
+    "u": "https://www.ircon.org/sites/default/files/2026-09/Advt%20No_10_2026.pdf"
+},
+  {
+    "id": "rrb-3477-recruitment-2026",
+    "b": "Railway Recruitment Boards",
+    "t": "Railway Recruitment Boards Recruitment 2026 Notification Out for 3477 3,477 Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "6 November 2026 at 11:59 PM",
+    "a": "CEN No. 06/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Railway Recruitment Boards has officially announced employment advertisement notification CEN No. 06/2026 inviting applications for 3477 vacancies for 3,477 posts.",
+    "u": "https://www.rrbapply.gov.in"
+},
+  {
+    "id": "svbph-sr-recruitment-2026",
+    "b": "Sardar Vallabh Bhai Patel Hospital Delhi (SVBPH)",
+    "t": "Sardar Vallabh Bhai Patel Hospital Delhi (SVBPH) Recruitment 2026 Notification Out for 5 Senior Resident Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "23 September 2026 (Walk-in)",
+    "a": "F.No.5(1)/2026/SVBPH/SR-JR-interview/",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Sardar Vallabh Bhai Patel Hospital Delhi (SVBPH) has officially announced employment advertisement notification F.No.5(1)/2026/SVBPH/SR-JR-interview/ inviting applications for 5 vacancies for Senior Resident posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wsvbp_53.pdf"
+},
+  {
+    "id": "cdac-database-developer-recruitment-2026",
+    "b": "Centre for Development of Advanced Computing (CDAC)",
+    "t": "Centre for Development of Advanced Computing (CDAC) Recruitment 2026 Notification Out for 2 Database Developer, Operations Manager Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "03 October 2026",
+    "a": "PUNE/ CONSULTANT/ 02/ 2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
+    "desc": "Centre for Development of Advanced Computing (CDAC) has officially announced employment advertisement notification PUNE/ CONSULTANT/ 02/ 2026 inviting applications for 2 vacancies for Database Developer, Operations Manager posts.",
+    "u": "https://careers.cdac.in/advt-details/PN-1092026-PUEK2"
+},
+  {
+    "id": "itbp-head-constable-recruitment-2026",
+    "b": "Indo-Tibetan Border Police Force",
+    "t": "Indo-Tibetan Border Police Force Recruitment 2026 Notification Out for 21 Head Constable (Motor Mechanic) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 October 2026",
+    "a": "INDO-TIBETAN-B/2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "Indo-Tibetan Border Police Force has officially announced employment advertisement notification INDO-TIBETAN-B/2026 inviting applications for 21 vacancies for Head Constable (Motor Mechanic) posts.",
+    "u": "https://recruitment.itbpolice.nic.in/"
+},
+  {
     "id": "ntpc-limi-assistant-officer-recruitment-2026",
     "b": "NTPC Limited",
     "t": "NTPC Limited Recruitment 2026 Notification Out for 15 Assistant Officer (Corporate Communication) Posts | Apply Online",
