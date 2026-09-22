@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "office-of-the-dire-lra-recruitment-2026",
+    "b": "Office of the Director of Land Records & Surveys, Assam, Rupnagar, Guwahati-32",
+    "t": "Office of the Director of Land Records & Surveys, Assam, Rupnagar, Guwahati-32 Recruitment 2026 Notification Out for 579 Land Record Assistant (LRA) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "21 October 2026, 5:00 PM",
+    "a": "DLR-11013(21)/50/2025/372, dated 19.09.2026 (supersedes earlier Advt. No. DLR-11013(21)/50/2025/130, dated 14.03.2026)",
+    "q": "Candidates must have passed the Recorders Certificate Class Course (RCCC...",
+    "desc": "Office of the Director of Land Records & Surveys, Assam, Rupnagar, Guwahati-32 has officially announced employment advertisement notification DLR-11013(21)/50/2025/372, dated 19.09.2026 (supersedes earlier Advt. No. DLR-11013(21)/50/2025/130, dated 14.03.2026) inviting applications for 579 vacancies for Land Record Assistant (LRA) posts.",
+    "u": "https://dlrs.assam.gov.in/"
+},
+  {
+    "id": "aiims-guwahati-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati)",
+    "t": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) Recruitment 2026 Notification Out for 2 Project Research Scientist-II (Non-Medical) and Project Technical Support-III Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "03 October 2026",
+    "a": "AIIMSG/CFM/ICMRMINDS/2026/100",
+    "q": "Nursing (GNM / B.Sc) | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Guwahati (AIIMS Guwahati) has officially announced employment advertisement notification AIIMSG/CFM/ICMRMINDS/2026/100 inviting applications for 2 vacancies for Project Research Scientist-II (Non-Medical) and Project Technical Support-III posts.",
+    "u": "https://aiimsguwahati.in/viewfile.aspx?fname=738f0f72.pdf&ftype=pdf&rdoctype=cms"
+},
+  {
+    "id": "dlsa-plv-recruitment-2026",
+    "b": "District Legal Services Authority Kokrajhar",
+    "t": "District Legal Services Authority Kokrajhar Recruitment 2026 Notification Out for 15 Para Legal Volunteer Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "15 October 2026",
+    "a": "01 of 2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Legal Services Authority Kokrajhar has officially announced employment advertisement notification 01 of 2026 inviting applications for 15 vacancies for Para Legal Volunteer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec05cdd0500dc0ef6682fa6ec6d2e6b5/uploads/2026/09/2026092064.pdf"
+},
+  {
+    "id": "dima-hasao-distri-driver-on-recruitment-2026",
+    "b": "Dima Hasao District Court",
+    "t": "Dima Hasao District Court Recruitment 2026 Notification Out for 1 Driver on contingency basis Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "DIMA-HASAO-DIS/2026",
+    "q": "VIII standard passed, Valid LMV Driving License",
+    "desc": "Dima Hasao District Court has officially announced employment advertisement notification DIMA-HASAO-DIS/2026 inviting applications for 1 vacancies for Driver on contingency basis posts.",
+    "u": "https://ghconline.gov.in/Recruitment/Notification-15-09-2026.pdf"
+},
+  {
+    "id": "iit-guwahati-jrf-gate-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "t": "Indian Institute of Technology Guwahati (IIT Guwahati) Recruitment 2026 Notification Out for 1 JRF (GATE) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "23 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Indian Institute of Technology Guwahati (IIT Guwahati) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for JRF (GATE) posts.",
+    "u": "https://www.iitg.ac.in/"
+},
+  {
+    "id": "ncdc-consultant-consult-recruitment-2026",
+    "b": "National Cooperative Development Corporation (NCDC)",
+    "t": "National Cooperative Development Corporation (NCDC) Recruitment 2026 Notification Out for 1 Consultant / Consulting Firm Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "01 October 2026",
+    "a": "NATIONAL-COOPE/2026",
+    "q": "Minimum 1-year experience in DPR/business plan preparation related to Ag...",
+    "desc": "National Cooperative Development Corporation (NCDC) has officially announced employment advertisement notification NATIONAL-COOPE/2026 inviting applications for 1 vacancies for Consultant / Consulting Firm posts.",
+    "u": "https://www.ncdc.in/documents/career/4114210926ilovepdf_merged-(1).pdf"
+},
+  {
+    "id": "iiit-it-support-recruitment-2026",
+    "b": "Indian Institute of Information Technology Sri City (IIIT Sri City)",
+    "t": "Indian Institute of Information Technology Sri City (IIIT Sri City) Recruitment 2026 Notification Out for 1 IT Support Personnel Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "02 October 2026",
+    "a": "Position",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Information Technology Sri City (IIIT Sri City) has officially announced employment advertisement notification Position inviting applications for 1 vacancies for IT Support Personnel posts.",
+    "u": "https://iiits.ac.in/iiits-content/uploads/2026/09/IT-SUPPORT-ADVERTISEMENT.pdf"
+},
+  {
+    "id": "ananthap-computer-assistant-recruitment-2026",
+    "b": "Ananthapuramu District Court",
+    "t": "Ananthapuramu District Court Recruitment 2026 Notification Out for 1 Computer Assistant Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "27 October 2026",
+    "a": "ANANTHAPURAMU-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Ananthapuramu District Court has officially announced employment advertisement notification ANANTHAPURAMU-/2026 inviting applications for 1 vacancies for Computer Assistant posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec030655f117444fc1911ab9c6f6b013/uploads/2026/09/2026091981.pdf"
+},
+  {
+    "id": "echs-minimum-qualificat-recruitment-2026",
+    "b": "Ex-Servicemen Contributory Health Scheme",
+    "t": "Ex-Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 96 Minimum Qualification Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "4 October 2026 up to 6:00 PM",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "MBBS / Medical PG | BDS / Dental",
+    "desc": "Ex-Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 96 vacancies for Minimum Qualification posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/7896523.pdf"
+},
+  {
+    "id": "nabfins-limited-cso-recruitment-2026",
+    "b": "NABFINS Limited",
+    "t": "NABFINS Limited Recruitment 2026 Notification Out for 1 Customer Service Officer (CSO) - Field Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "NABFINS-LIMITE/2026",
+    "q": "12th Pass",
+    "desc": "NABFINS Limited has officially announced employment advertisement notification NABFINS-LIMITE/2026 inviting applications for 1 vacancies for Customer Service Officer (CSO) - Field posts.",
+    "u": "https://nabfins.org/Careers/"
+},
+  {
     "id": "iisc-kolkata-pay-level-recruitment-2026",
     "b": "Indian Institute of Science Education and Research Kolkata",
     "t": "Indian Institute of Science Education and Research Kolkata Recruitment 2026 Notification Out for 17 Pay Level under 7th CPC Posts | Apply Online",
