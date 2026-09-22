@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sggu-professor-and-recruitment-2026",
+    "b": "Shri Govind Guru University Godhra (SGGU)",
+    "t": "Shri Govind Guru University Godhra (SGGU) Recruitment 2026 Notification Out for 2 Professor and Associate Professor Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "11 October 2026",
+    "a": "07/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Shri Govind Guru University Godhra (SGGU) has officially announced employment advertisement notification 07/2026 inviting applications for 2 vacancies for Professor and Associate Professor posts.",
+    "u": "https://sggu.ac.in"
+},
+  {
+    "id": "ex-servi-various-contractua-recruitment-2026",
+    "b": "Ex Servicemen Contributory Health Scheme",
+    "t": "Ex Servicemen Contributory Health Scheme Recruitment 2026 Notification Out for 16 Various Contractual Staff Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "EX-SERVICEMEN-/2026",
+    "q": "Diploma | B.Sc | MBBS / Medical PG",
+    "desc": "Ex Servicemen Contributory Health Scheme has officially announced employment advertisement notification EX-SERVICEMEN-/2026 inviting applications for 16 vacancies for Various Contractual Staff posts.",
+    "u": "https://www.echs.gov.in/assets/advertisement/ADVT%2001%20SEP%202026.pdf"
+},
+  {
+    "id": "sdau-jrf-recruitment-2026",
+    "b": "Centre for Oilseeds Research, S. D. Agricultural University, Sardarkrushinagar (SDAU)",
+    "t": "Centre for Oilseeds Research, S. D. Agricultural University, Sardarkrushinagar (SDAU) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "12 October 2026 (Walk-in)",
+    "a": "SDAU/RS(Oilseeds)/S-4/2026",
+    "q": "B.Sc",
+    "desc": "Centre for Oilseeds Research, S. D. Agricultural University, Sardarkrushinagar (SDAU) has officially announced employment advertisement notification SDAU/RS(Oilseeds)/S-4/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://dcs.sdau.edu.in/Uploads/news/JRF_Advertise.pdf"
+},
+  {
+    "id": "bits-pilani-research-fellow-recruitment-2026",
+    "b": "BITS Pilani",
+    "t": "BITS Pilani Recruitment 2026 Notification Out for 1 Research Fellow Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "25 September 2026",
+    "a": "BITS-PILANI/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "BITS Pilani has officially announced employment advertisement notification BITS-PILANI/2026 inviting applications for 1 vacancies for Research Fellow posts.",
+    "u": "https://forms.gle/nZZ44n8nGvpyhsYk6"
+},
+  {
+    "id": "ibps-office-asst-recruitment-2026",
+    "b": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs)",
+    "t": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs) Recruitment 2026 Notification Out for 27412 Office Assistant (Multipurpose); Officer Scale-I, II & III Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "27 September 2026",
+    "a": "INSTITUTE-OF-B/2026",
+    "q": "B.Tech / B.E | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Institute of Banking Personnel Selection (IBPS), on behalf of 28 Regional Rural Banks (RRBs) has officially announced employment advertisement notification INSTITUTE-OF-B/2026 inviting applications for 27412 vacancies for Office Assistant (Multipurpose); Officer Scale-I, II & III posts.",
+    "u": "https://ibpsreg.ibps.in/rrboaxvaug26/"
+},
+  {
+    "id": "rrb-1688-undergraduate-recruitment-2026",
+    "b": "Railway Recruitment Boards",
+    "t": "Railway Recruitment Boards Recruitment 2026 Notification Out for 3376 1,688 Undergraduate Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "13 November 2026 up to 11:59 PM",
+    "a": "CEN No. 07/2026",
+    "q": "Class 12 or equivalent",
+    "desc": "Railway Recruitment Boards has officially announced employment advertisement notification CEN No. 07/2026 inviting applications for 3376 vacancies for 1,688 Undergraduate posts.",
+    "u": "https://rrb.indianrailways.gov.in/"
+},
+  {
+    "id": "aiims-delhi-crc-recruitment-2026-3068714",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 3 Clinical Research Coordinator / Staff Nurse / Pharmacist Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "01 October 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Diploma | B.Sc | B.Pharm / D.Pharm",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 3 vacancies for Clinical Research Coordinator / Staff Nurse / Pharmacist posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/irch-21-9-26.pdf"
+},
+  {
+    "id": "vmmc-mo-recruitment-2026",
+    "b": "Vardhman Mahavir Medical College & Safdarjung Hospital",
+    "t": "Vardhman Mahavir Medical College & Safdarjung Hospital Recruitment 2026 Notification Out for 1 Medical Officer Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "05 October 2026 (Walk-in)",
+    "a": "VARDHMAN-MAHAV/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Vardhman Mahavir Medical College & Safdarjung Hospital has officially announced employment advertisement notification VARDHMAN-MAHAV/2026 inviting applications for 1 vacancies for Medical Officer posts.",
+    "u": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Notice%20dated%2017.09.2026%20-%20Advertisement%20for%20the%20post%20of%20Medical%20Officer%20on%20Contract%20basis%20for%20Addiction%20Treatment%20Facility%2C%20Department%20of%20Psychiatry.pdf"
+},
+  {
+    "id": "aiims-delhi-prs-recruitment-2026-3068731",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-medical) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "04 October 2026",
+    "a": "I-1703",
+    "q": "M.Tech / M.E | M.Sc | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification I-1703 inviting applications for 1 vacancies for Project Research Scientist I (Non-medical) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSejFn_ydt2k6f6OoBeZZdCyR_S20T3xYSL7pozIyltZ2HsriQ/viewform"
+},
+  {
+    "id": "djb-delhi-law-officer-recruitment-2026",
+    "b": "Delhi Jal Board",
+    "t": "Delhi Jal Board Recruitment 2026 Notification Out for 1 Law Officer (Water) Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "17 October 2026 (30 days from issue)",
+    "a": "DELHI-JAL-BOAR/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Delhi Jal Board has officially announced employment advertisement notification DELHI-JAL-BOAR/2026 inviting applications for 1 vacancies for Law Officer (Water) posts.",
+    "u": "https://delhijalboard.delhi.gov.in/sites/default/files/Jalboard/circulars-orders/law_office_2.pdf"
+},
+  {
     "id": "indian-army-various-recruitment-2026",
     "b": "Indian Army",
     "t": "Indian Army Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
