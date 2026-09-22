@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ism-pa-recruitment-2026",
+    "b": "Indian Institute of Technology (ISM) Dhanbad",
+    "t": "Indian Institute of Technology (ISM) Dhanbad Recruitment 2026 Notification Out for 1 Senior Project Associate Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "07 October 2026",
+    "a": "CC-12008/42/2025-IPC & NATCOM",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology (ISM) Dhanbad has officially announced employment advertisement notification CC-12008/42/2025-IPC & NATCOM inviting applications for 1 vacancies for Senior Project Associate posts.",
+    "u": "https://people.iitism.ac.in/~download/projectOpening//uploads/pdfprj/1150/Project%20Associate_2026-09-19_18-22-48.pdf"
+},
+  {
+    "id": "iit-jammu-ra-recruitment-2026-3068510",
+    "b": "Indian Institute of Technology Jammu",
+    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 1 Research Associate Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "04 October 2026",
+    "a": "IITJMU/ RC/ RP00268/ A-55",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Jammu has officially announced employment advertisement notification IITJMU/ RC/ RP00268/ A-55 inviting applications for 1 vacancies for Research Associate posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "iit-jammu-senior-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Jammu",
+    "t": "Indian Institute of Technology Jammu Recruitment 2026 Notification Out for 3 Senior Engineer, Senior Project Staff and Junior Project Staff / Coordinator Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "28 September 2026",
+    "a": "IITJMU/CP-100561/A-54",
+    "q": "B.Tech / B.E | M.Tech / M.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Jammu has officially announced employment advertisement notification IITJMU/CP-100561/A-54 inviting applications for 3 vacancies for Senior Engineer, Senior Project Staff and Junior Project Staff / Coordinator posts.",
+    "u": "https://apply.iitjammu.ac.in/#/home"
+},
+  {
+    "id": "esic-embryologist-recruitment-2026",
+    "b": "ESIC Medical College and Hospital Faridabad",
+    "t": "ESIC Medical College and Hospital Faridabad Recruitment 2026 Notification Out for 1 Embryologist (Scientist Gr-I) Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "Ad-20/1322/2026-ADMIN",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "ESIC Medical College and Hospital Faridabad has officially announced employment advertisement notification Ad-20/1322/2026-ADMIN inviting applications for 1 vacancies for Embryologist (Scientist Gr-I) posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_on_24_09_2026_For_Post_of_Embryologist_Scientist_Gr_l_on_Contract_Basis_at_ESIC_Medical_College_amp_Hospital_Faridabad_1789968130.pdf"
+},
+  {
+    "id": "esic-ap-recruitment-2026-3068508",
+    "b": "ESIC Medical College & Hospital, Faridabad",
+    "t": "ESIC Medical College & Hospital, Faridabad Recruitment 2026 Notification Out for 49 Professor, Associate Professor, Assistant Professor Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "23 September 2026",
+    "a": "ESIC-MEDICAL-C/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "ESIC Medical College & Hospital, Faridabad has officially announced employment advertisement notification ESIC-MEDICAL-C/2026 inviting applications for 49 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/The_advertisement_for_the_Walk_in_Interview_to_be_held_on_23_09_2026_for_engagement_of_Teaching_Faculty_Broad_Specialty_Departments_on_a_Contract_Basis_a_ESIC_Medical_College_amp_Hospital_Faridabad_1789968182.pdf"
+},
+  {
+    "id": "esic-teaching-faculty-recruitment-2026",
+    "b": "ESIC College & Hospital, Faridabad",
+    "t": "ESIC College & Hospital, Faridabad Recruitment 2026 Notification Out for 33 Teaching Faculty (Super Specialty) Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "134-A/14/13/Roster/2016- Admin",
+    "q": "MBBS / Medical PG",
+    "desc": "ESIC College & Hospital, Faridabad has officially announced employment advertisement notification 134-A/14/13/Roster/2016- Admin inviting applications for 33 vacancies for Teaching Faculty (Super Specialty) posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_on_2409_2026_For_Teaching_Faculty_Super_Specialty_Department_on_Contract_Basis_at_ESIC_Medical_College_amp_Hospital_Faridabad_1789968075.pdf"
+},
+  {
+    "id": "gnlu-senior-clerk-recruitment-2026",
+    "b": "Gujarat National Law University (GNLU)",
+    "t": "Gujarat National Law University (GNLU) Recruitment 2026 Notification Out for 1 Senior Clerk Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "07 October 2026",
+    "a": "GNLU/ AD/ FP-03-Sr. Clerk/ 2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Gujarat National Law University (GNLU) has officially announced employment advertisement notification GNLU/ AD/ FP-03-Sr. Clerk/ 2026 inviting applications for 1 vacancies for Senior Clerk posts.",
+    "u": "https://gnlu.ac.in//Content/gnlu/pdf/careers/215-GLIC%20Senior%20Clerk%20-%20Advertisement.pdf"
+},
+  {
+    "id": "icar-yp-recruitment-2026",
+    "b": "ICAR Indian Institute of Groundnut Research",
+    "t": "ICAR Indian Institute of Groundnut Research Recruitment 2026 Notification Out for 9 Young Professional I, Young Professional II, Lab Assistant, Field Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "27 September 2026",
+    "a": "A-12024/1/2026-Estt.",
+    "q": "Any Bachelor's Degree",
+    "desc": "ICAR Indian Institute of Groundnut Research has officially announced employment advertisement notification A-12024/1/2026-Estt. inviting applications for 9 vacancies for Young Professional I, Young Professional II, Lab Assistant, Field Assistant posts.",
+    "u": "https://icar-iigr.org.in/wp-content/uploads/2026/09/YP-IYP-II-and-Lab-and-Field-assistant-Sep-2026-DFA-Advertisement-for-website.pdf"
+},
+  {
+    "id": "iob-general-manager-recruitment-2026",
+    "b": "Indian Overseas Bank (IOB)",
+    "t": "Indian Overseas Bank (IOB) Recruitment 2026 Notification Out for 1 General Manager - IBU (IFSC Banking Unit) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "05 October 2026",
+    "a": "HRDD/RECT/05/2026-27",
+    "q": "MBA / BBA | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Overseas Bank (IOB) has officially announced employment advertisement notification HRDD/RECT/05/2026-27 inviting applications for 1 vacancies for General Manager - IBU (IFSC Banking Unit) posts.",
+    "u": "https://chris.iob.bank.in:4441/recruitApp/RecApplicationAction.do?Method=MainPageIBU"
+},
+  {
+    "id": "gmrc-chief-general-recruitment-2026",
+    "b": "Gujarat Metro Rail Corporation (GMRC)",
+    "t": "Gujarat Metro Rail Corporation (GMRC) Recruitment 2026 Notification Out for 1 Chief General Manager/General Manager (Corporate Planning) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "09 October 2026",
+    "a": "GMRC/HR/RECT/CP/Sep-2026/24",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Gujarat Metro Rail Corporation (GMRC) has officially announced employment advertisement notification GMRC/HR/RECT/CP/Sep-2026/24 inviting applications for 1 vacancies for Chief General Manager/General Manager (Corporate Planning) posts.",
+    "u": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Notification-of-CGM-CP-1.pdf"
+},
+  {
     "id": "women-and-anganwadi-worker-recruitment-2026",
     "b": "Women and Child Development Department, Gujarat",
     "t": "Women and Child Development Department, Gujarat Recruitment 2026 Notification Out for 6843 Anganwadi Worker and Anganwadi Helper Posts | Apply Online",
