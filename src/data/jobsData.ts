@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-perfusionist-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Bathinda (AIIMS Bathinda)",
+    "t": "All India Institute of Medical Sciences Bathinda (AIIMS Bathinda) Recruitment 2026 Notification Out for 1 Perfusionist Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "20 October 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Sc | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Bathinda (AIIMS Bathinda) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Perfusionist posts.",
+    "u": "https://aiimsbathindant.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "nielit-guest-faculty-recruitment-2026",
+    "b": "National Institute of Electronics and Information Technology (NIELIT)",
+    "t": "National Institute of Electronics and Information Technology (NIELIT) Recruitment 2026 Notification Out for 2 Guest Faculty Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "RC/2026/09/22",
+    "q": "M.Sc | Ph.D / Doctorate",
+    "desc": "National Institute of Electronics and Information Technology (NIELIT) has officially announced employment advertisement notification RC/2026/09/22 inviting applications for 2 vacancies for Guest Faculty posts.",
+    "u": "https://www.nielit.ac.in/pdf/recruitments/tpo/advertisement.pdf"
+},
+  {
+    "id": "hbchrc-dietician-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital & Research Centre Punjab",
+    "t": "Homi Bhabha Cancer Hospital & Research Centre Punjab Recruitment 2026 Notification Out for 1 Assistant Dietician Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "OS/MUL/40/2026",
+    "q": "M.Sc",
+    "desc": "Homi Bhabha Cancer Hospital & Research Centre Punjab has officially announced employment advertisement notification OS/MUL/40/2026 inviting applications for 1 vacancies for Assistant Dietician posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=fcqx6RKmftk/udsMslomiA=="
+},
+  {
+    "id": "ouat-guest-faculty-recruitment-2026-3068765",
+    "b": "Odisha University of Agriculture and Technology (OUAT)",
+    "t": "Odisha University of Agriculture and Technology (OUAT) Recruitment 2026 Notification Out for 5 Guest Faculty Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "06 October 2026 (Walk-in)",
+    "a": "1446 /CAC",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha University of Agriculture and Technology (OUAT) has officially announced employment advertisement notification 1446 /CAC inviting applications for 5 vacancies for Guest Faculty posts.",
+    "u": "https://ouat.ac.in/wp-content/uploads/2026/09/1443.pdf"
+},
+  {
+    "id": "subarnapur-dis-yoga-teacher-recruitment-2026",
+    "b": "Subarnapur District",
+    "t": "Subarnapur District Recruitment 2026 Notification Out for 13 Yoga Teacher Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "972/2026",
+    "q": "Diploma",
+    "desc": "Subarnapur District has officially announced employment advertisement notification 972/2026 inviting applications for 13 vacancies for Yoga Teacher posts.",
+    "u": "https://subarnapur.odisha.gov.in/sites/default/files/2026-09/YOGA%20teacher.pdf"
+},
+  {
+    "id": "svnirtar-mo-recruitment-2026",
+    "b": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR)",
+    "t": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR) Recruitment 2026 Notification Out for 2 General Duty Medical Officer (GDMO) (Consultant) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "AD 6B 19/09/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Swami Vivekanand National Institute of Rehabilitation Training and Research (SVNIRTAR) has officially announced employment advertisement notification AD 6B 19/09/2026 inviting applications for 2 vacancies for General Duty Medical Officer (GDMO) (Consultant) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ee8fe9093fbbb687bef15a38facc44d2/uploads/2026/09/20260921556063810.pdf"
+},
+  {
+    "id": "sainik-school-b-tgt-science-recruitment-2026",
+    "b": "Sainik School Bhubaneswar",
+    "t": "Sainik School Bhubaneswar Recruitment 2026 Notification Out for 1 TGT (Science / Biology) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "07 October 2026 (Walk-in)",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Sainik School Bhubaneswar has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 1 vacancies for TGT (Science / Biology) posts.",
+    "u": "https://www.sainikschoolbhubaneswar.edu.in/adminlogin/uploads/a__Walk-in-interview_Advertisement1_1.pdf"
+},
+  {
+    "id": "nit-naga-research-assistant-recruitment-2026",
+    "b": "NIT Nagaland",
+    "t": "NIT Nagaland Recruitment 2026 Notification Out for 1 Research Assistant Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "NIT-N/Advt./ME/RA/001/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "NIT Nagaland has officially announced employment advertisement notification NIT-N/Advt./ME/RA/001/2026 inviting applications for 1 vacancies for Research Assistant posts.",
+    "u": "https://www.nitnagaland.ac.in/templates/g5_helium/PDF/RECRUITMENT/Institute_Advertisement_TexMin.pdf"
+},
+  {
+    "id": "cwssu-ap-recruitment-2026",
+    "b": "Captain Williamson Sangma State University (CWSSU), Meghalaya",
+    "t": "Captain Williamson Sangma State University (CWSSU), Meghalaya Recruitment 2026 Notification Out for 280 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "Applicant must possess the requisite educational qualification on or before the last date for submission of applications",
+    "a": "21 September 2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Captain Williamson Sangma State University (CWSSU), Meghalaya has officially announced employment advertisement notification 21 September 2026 inviting applications for 280 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://rpa.meghalaya.gov.in/cwssu/"
+},
+  {
+    "id": "jnpa-legal-expert-recruitment-2026",
+    "b": "Jawaharlal Nehru Port Authority (JNPA)",
+    "t": "Jawaharlal Nehru Port Authority (JNPA) Recruitment 2026 Notification Out for 1 Legal Expert Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "09 October 2026",
+    "a": "JAWAHARLAL-NEH/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Jawaharlal Nehru Port Authority (JNPA) has officially announced employment advertisement notification JAWAHARLAL-NEH/2026 inviting applications for 1 vacancies for Legal Expert posts.",
+    "u": "https://www.jnport.gov.in/uploads/content_manager/Advertisement_07092026_1_1.pdf"
+},
+  {
     "id": "mpkv-ap-recruitment-2026-3068782",
     "b": "Mahatma Phule Krishi Vidyapeeth Rahuri (MPKV)",
     "t": "Mahatma Phule Krishi Vidyapeeth Rahuri (MPKV) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Offline",
