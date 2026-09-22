@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "himachal-pradesh-para-cook-recruitment-2026",
+    "b": "Himachal Pradesh Jal Shakti Vibhag",
+    "t": "Himachal Pradesh Jal Shakti Vibhag Recruitment 2026 Notification Out for 3 Para Cook and Para Helper Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "13 October 2026",
+    "a": "JSV-A-F(1)-1/2023",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Himachal Pradesh Jal Shakti Vibhag has officially announced employment advertisement notification JSV-A-F(1)-1/2023 inviting applications for 3 vacancies for Para Cook and Para Helper posts.",
+    "u": "https://jsv.hp.gov.in/CommonControls/ViewCMSFile?qs=KI3gZ53zz1yTV49xNU6QBk0f%2BD9rWV0VhZ%2BdahwEOncXXlmc34oR%2FPcisPcfSvHhoDoX%2FCxwsAsmTL9C%2FVnROhe22h3xEN5NJZemb1xzdS3P%2B0qinFtE9KJBpuaWZmnoZUePFF%2BMPnc%3D"
+},
+  {
+    "id": "thsti-junior-data-recruitment-2026",
+    "b": "Translational Health Science and Technology Institute (THSTI)",
+    "t": "Translational Health Science and Technology Institute (THSTI) Recruitment 2026 Notification Out for 1 Junior Data Scientist Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "12 October 2026 (Walk-in)",
+    "a": "THS-C/RN/18/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Translational Health Science and Technology Institute (THSTI) has officially announced employment advertisement notification THS-C/RN/18/2026 inviting applications for 1 vacancies for Junior Data Scientist posts.",
+    "u": "https://recruitment.thsti.in/public/upload/job_pdf/178997231217Advertisement-THS-C-RN-18-2026.pdf"
+},
+  {
+    "id": "kvs-ambala-special-educator-recruitment-2026",
+    "b": "KVS Ambala Cantt",
+    "t": "KVS Ambala Cantt Recruitment 2026 Notification Out for 1 PGT, TGT, Special Educator, Instructor, Coach, Trainer and Counselor Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "25 September 2026, from 9:00 AM to 1:00 PM",
+    "a": "KVS-AMBALA-CAN/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "KVS Ambala Cantt has officially announced employment advertisement notification KVS-AMBALA-CAN/2026 inviting applications for 1 vacancies for PGT, TGT, Special Educator, Instructor, Coach, Trainer and Counselor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv023124007484607be69495bb8869e3/uploads/2026/09/2026092138.pdf"
+},
+  {
+    "id": "cuh-fi-recruitment-2026",
+    "b": "Central University of Haryana (CUH)",
+    "t": "Central University of Haryana (CUH) Recruitment 2026 Notification Out for 7 Research Assistant, Field Investigator, Casual Research Staff Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "12 October 2026 (Within 21 days of the publication)",
+    "a": "CENTRAL-UNIVER/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Haryana (CUH) has officially announced employment advertisement notification CENTRAL-UNIVER/2026 inviting applications for 7 vacancies for Research Assistant, Field Investigator, Casual Research Staff posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfFQNKz_3xo4m1IM59SVYHwAHL-kXP2NY4yrTDfczBaAGa2kg/viewform"
+},
+  {
+    "id": "niftem-yp-recruitment-2026",
+    "b": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM)",
+    "t": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) Recruitment 2026 Notification Out for 1 Young Professional - Admin Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "06 October 2026",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "MBA / BBA | Any Bachelor's Degree",
+    "desc": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Young Professional - Admin posts.",
+    "u": "https://niftem.ac.in/storage/careers/openings/2kxQXdY5i1gRzTO1uEfdc7YPAkM6LNKgxzS69QSo.pdf"
+},
+  {
+    "id": "haryana-sports-dep-yp-recruitment-2026",
+    "b": "Haryana Sports Department",
+    "t": "Haryana Sports Department Recruitment 2026 Notification Out for 3 Doctor/Sports Injury Management, Strength & Conditioning Expert (Lead), Young Professional Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "29 September 2026",
+    "a": "Sports-Khelo India-KISCE/2026/29695",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Haryana Sports Department has officially announced employment advertisement notification Sports-Khelo India-KISCE/2026/29695 inviting applications for 3 vacancies for Doctor/Sports Injury Management, Strength & Conditioning Expert (Lead), Young Professional posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3e069ea4c9c233d36ff9c7f329bc08ff1/uploads/2026/09/202609211248537190.pdf"
+},
+  {
+    "id": "niftem-srf-recruitment-2026",
+    "b": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM)",
+    "t": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "02 October 2026",
+    "a": "N/E/FST/2025/0156",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) has officially announced employment advertisement notification N/E/FST/2025/0156 inviting applications for 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://career.droniftem.com/"
+},
+  {
+    "id": "iit-gandhinagar-ra-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Research Associate-I - Plasma Process Modeling Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "SPON/10455/Adv0327 DATED 21.09.2026",
+    "q": "10th / 8th Pass | 12th Pass | B.Tech / B.E",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification SPON/10455/Adv0327 DATED 21.09.2026 inviting applications for 1 vacancies for Research Associate-I - Plasma Process Modeling posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "iit-gandhi-project-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Project Engineer Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "09 October 2026",
+    "a": "SPON/10455/Adv0328 DATED 21.09.2026",
+    "q": "M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification SPON/10455/Adv0328 DATED 21.09.2026 inviting applications for 1 vacancies for Project Engineer posts.",
+    "u": "https://recruitment.iitgn.ac.in/projectstaff/login"
+},
+  {
+    "id": "gbu-ra-recruitment-2026",
+    "b": "Gujarat Biotechnology University",
+    "t": "Gujarat Biotechnology University Recruitment 2026 Notification Out for 1 Research Associate I Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "GBU/ACA/e-file/265/2026/0416/Academic",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Gujarat Biotechnology University has officially announced employment advertisement notification GBU/ACA/e-file/265/2026/0416/Academic inviting applications for 1 vacancies for Research Associate I posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSegOY6NowrEdgqThaZ1nJNf-CTBdx5A3ocPGyL-37X_uJj2kg/viewform"
+},
+  {
     "id": "sggu-professor-and-recruitment-2026",
     "b": "Shri Govind Guru University Godhra (SGGU)",
     "t": "Shri Govind Guru University Godhra (SGGU) Recruitment 2026 Notification Out for 2 Professor and Associate Professor Posts | Apply Online",
