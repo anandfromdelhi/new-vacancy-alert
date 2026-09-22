@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-army-various-recruitment-2026",
+    "b": "Indian Army",
+    "t": "Indian Army Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "29 October 2026",
+    "a": "INDIAN-ARMY/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Indian Army has officially announced employment advertisement notification INDIAN-ARMY/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.joinindianarmy.nic.in/"
+},
+  {
+    "id": "icsil-science-graduate-recruitment-2026",
+    "b": "Intelligent Communication Systems India (ICSIL)",
+    "t": "Intelligent Communication Systems India (ICSIL) Recruitment 2026 Notification Out for 3 Science Graduate Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "ICSIL/RC/10-A/Science Graduate/2026-27",
+    "q": "B.Sc | M.Sc",
+    "desc": "Intelligent Communication Systems India (ICSIL) has officially announced employment advertisement notification ICSIL/RC/10-A/Science Graduate/2026-27 inviting applications for 3 vacancies for Science Graduate posts.",
+    "u": "https://icsil.in/sites/default/files/2026-09/DJB%20SCIENCE%20GRADUATE%20SEPTEMBER%202026%20walk-in.pdf"
+},
+  {
+    "id": "ncdc-to-recruitment-2026",
+    "b": "National Centre for Disease Control (NCDC), Integrated Disease Surveillance Programme (IDSP)",
+    "t": "National Centre for Disease Control (NCDC), Integrated Disease Surveillance Programme (IDSP) Recruitment 2026 Notification Out for 16 Senior Public Health Specialist, Public Health Specialist, Microbiologist, Training Manager, Technical Officer (Finance), Technical Officer (IT), Communication Specialist, Data Analyst, Data Manager Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "29 September 2026",
+    "a": "NATIONAL-CENTR/2026",
+    "q": "Eligibility requirements - educational qualification, relevant experienc...",
+    "desc": "National Centre for Disease Control (NCDC), Integrated Disease Surveillance Programme (IDSP) has officially announced employment advertisement notification NATIONAL-CENTR/2026 inviting applications for 16 vacancies for Senior Public Health Specialist, Public Health Specialist, Microbiologist, Training Manager, Technical Officer (Finance), Technical Officer (IT), Communication Specialist, Data Analyst, Data Manager posts.",
+    "u": "https://ncdc.mohfw.gov.in/uploads/vacancies/1789976366_Terms%20of%20Reference_VPD.pdf"
+},
+  {
+    "id": "gem-managersenior-mana-recruitment-2026",
+    "b": "Government eMarketplace (GeM)",
+    "t": "Government eMarketplace (GeM) Recruitment 2026 Notification Out for 1 Manager/Senior Manager - Analytics Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "Name",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Government eMarketplace (GeM) has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Manager/Senior Manager - Analytics posts.",
+    "u": "https://assets-bg.gem.gov.in/resources/upload/shared_doc/revised-template-jd-manager_senior-manager-analyti_1789982382.pdf"
+},
+  {
+    "id": "cabinet-secretari-staff-car-recruitment-2026",
+    "b": "Cabinet Secretariat",
+    "t": "Cabinet Secretariat Recruitment 2026 Notification Out for 4 Staff Car Driver (Ordinary Grade) Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "20 November 2026",
+    "a": "A-12011/01/2024-Ad.I",
+    "q": "10th / 8th Pass",
+    "desc": "Cabinet Secretariat has officially announced employment advertisement notification A-12011/01/2024-Ad.I inviting applications for 4 vacancies for Staff Car Driver (Ordinary Grade) posts.",
+    "u": "https://cabsec.gov.in/writereaddata/vacancies/english/1_Upload_4284.pdf"
+},
+  {
+    "id": "dpsru-je-recruitment-2026",
+    "b": "DPSRU",
+    "t": "DPSRU Recruitment 2026 Notification Out for 96 Junior Steno, Junior Engineer and More Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "10 September 2026",
+    "a": "DPSRU/2026",
+    "q": "Only Indian nationals can apply. Most vacancies are deputation posts and...",
+    "desc": "DPSRU has officially announced employment advertisement notification DPSRU/2026 inviting applications for 96 vacancies for Junior Steno, Junior Engineer and More posts.",
+    "u": "https://admin.dpsru.edu.in/dltemp/Z1PQevpvyRtKKeI9/1790070600000/site-documents/Corrigendum%20to%20Rect.%20Notice%20No.%20DPSRU-NTS-DEP-2026-01%20Recruitment%20of%20Non-Teaching%20Staff%20on%20Deputation%20Direct%20Recruitment%20Contract%20Basis_8_KT9.pdf"
+},
+  {
+    "id": "pci-assistant-section-recruitment-2026",
+    "b": "Press Council of India",
+    "t": "Press Council of India Recruitment 2026 Notification Out for 3 Assistant Section Officer Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "26 October 2026",
+    "a": "F.No.1/6/2020-PCI (Admn.) (Part-III)",
+    "q": "Any Bachelor's Degree",
+    "desc": "Press Council of India has officially announced employment advertisement notification F.No.1/6/2020-PCI (Admn.) (Part-III) inviting applications for 3 vacancies for Assistant Section Officer posts.",
+    "u": "https://presscouncil.nic.in/"
+},
+  {
+    "id": "itbp-counsellor-recruitment-2026",
+    "b": "Indo-Tibetan Border Police Force",
+    "t": "Indo-Tibetan Border Police Force Recruitment 2026 Notification Out for 16 Head Constable (Education and Stress Counsellor) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "27 October 2026",
+    "a": "INDO-TIBETAN-B/2026",
+    "q": "Candidates must possess either of the following qualifications:",
+    "desc": "Indo-Tibetan Border Police Force has officially announced employment advertisement notification INDO-TIBETAN-B/2026 inviting applications for 16 vacancies for Head Constable (Education and Stress Counsellor) posts.",
+    "u": "https://recruitment.itbpolice.nic.in/"
+},
+  {
+    "id": "dgafms-various-recruitment-2026",
+    "b": "Office of the Director General Armed Forces Medical Services (DGAFMS), Indian Army",
+    "t": "Office of the Director General Armed Forces Medical Services (DGAFMS), Indian Army Recruitment 2026 Notification Out for 37 Various Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "22 October 2026",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Office of the Director General Armed Forces Medical Services (DGAFMS), Indian Army has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 37 vacancies for Various Posts posts.",
+    "u": "https://join.afms.gov.in/"
+},
+  {
+    "id": "crpf-gd-recruitment-2026",
+    "b": "Directorate General, Central Reserve Police Force (CRPF), Ministry of Home Affairs",
+    "t": "Directorate General, Central Reserve Police Force (CRPF), Ministry of Home Affairs Recruitment 2026 Notification Out for 1042 Head Constable (General Duty) and Constable (General Duty), Group ‘C’, Non-Gazetted & Non-Ministerial, under Sports Quota Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "11 November 2026, 23:59 hrs",
+    "a": "R.II-21/2026-Sports",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Directorate General, Central Reserve Police Force (CRPF), Ministry of Home Affairs has officially announced employment advertisement notification R.II-21/2026-Sports inviting applications for 1042 vacancies for Head Constable (General Duty) and Constable (General Duty), Group ‘C’, Non-Gazetted & Non-Ministerial, under Sports Quota posts.",
+    "u": "https://rect.crpf.gov.in/"
+},
+  {
     "id": "maitreyi-coll-lab-assistant-recruitment-2026",
     "b": "Maitreyi College Non Teaching",
     "t": "Maitreyi College Non Teaching Recruitment 2026 Notification Out for 52 Lab Assistant, Junior Assistant and More Posts | Apply Online",
