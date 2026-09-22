@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-kalyani-ap-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
+    "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 1 Assistant Professor (Contractual) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "ADMIN/RECT/CONT/1/2026-ADMN/528",
+    "q": "MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) has officially announced employment advertisement notification ADMIN/RECT/CONT/1/2026-ADMN/528 inviting applications for 1 vacancies for Assistant Professor (Contractual) posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/cont_final_ap_radiotherapy_20260921_124410_3a3131cb.pdf"
+},
+  {
+    "id": "aps-headmaster-recruitment-2026",
+    "b": "Army Public School Sukna",
+    "t": "Army Public School Sukna Recruitment 2026 Notification Out for 8 Vice Principal & Headmaster/ Headmistress Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "28 October 2026",
+    "a": "ARMY-PUBLIC-SC/2026",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Army Public School Sukna has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 8 vacancies for Vice Principal & Headmaster/ Headmistress posts.",
+    "u": "https://apssukna.com/vacancy/ADV220926.pdf"
+},
+  {
+    "id": "isi-kolkata-pa-recruitment-2026",
+    "b": "Indian Statistical Institute Kolkata (ISI Kolkata)",
+    "t": "Indian Statistical Institute Kolkata (ISI Kolkata) Recruitment 2026 Notification Out for 4 Postdoctoral Fellow, PA (Project Assistant), Project Linked Personnel Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "PUI/507/ADV/833",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "Indian Statistical Institute Kolkata (ISI Kolkata) has officially announced employment advertisement notification PUI/507/ADV/833 inviting applications for 4 vacancies for Postdoctoral Fellow, PA (Project Assistant), Project Linked Personnel posts.",
+    "u": "https://www.isical.ac.in/public/jobs_view?id=74"
+},
+  {
+    "id": "smp-kolkata-land-revenue-recruitment-2026",
+    "b": "Syama Prasad Mookerjee Port Kolkata (SMP Kolkata)",
+    "t": "Syama Prasad Mookerjee Port Kolkata (SMP Kolkata) Recruitment 2026 Notification Out for 1 Land Revenue & Rent Recovery Officer Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "22 October 2026",
+    "a": "SYAMA-PRASAD-M/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Syama Prasad Mookerjee Port Kolkata (SMP Kolkata) has officially announced employment advertisement notification SYAMA-PRASAD-M/2026 inviting applications for 1 vacancies for Land Revenue & Rent Recovery Officer posts.",
+    "u": "https://smportkolkata.shipping.gov.in/smpk/wp-content/uploads/2026/09/Engagement-of-Land-Revenue-Rent-Recovery-Officer-on-contract-under-KDS-of-SMPA-1_compressed.pdf"
+},
+  {
+    "id": "iit-roorkee-mo-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 1 General Duty Medical Officer Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "09 October 2026 (Walk-in)",
+    "a": "IITR/Rect Cell/GDMO(C)/E-6571/11318",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification IITR/Rect Cell/GDMO(C)/E-6571/11318 inviting applications for 1 vacancies for General Duty Medical Officer posts.",
+    "u": "https://iitr.ac.in/Careers/static/Recruitment/2026/gdmo19092026.pdf"
+},
+  {
+    "id": "directorate-of-urb-je-recruitment-2026",
+    "b": "Directorate of Urban Development, Uttarakhand (UDD Uttarakhand)",
+    "t": "Directorate of Urban Development, Uttarakhand (UDD Uttarakhand) Recruitment 2026 Notification Out for 25 Executive Engineer, Assistant Engineer (Electrical), Junior Engineer (Civil), Junior Engineer (Mechanical), Junior Engineer (Electrical) Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "5 October 2026, by 5:00 PM",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Directorate of Urban Development, Uttarakhand (UDD Uttarakhand) has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 25 vacancies for Executive Engineer, Assistant Engineer (Electrical), Junior Engineer (Civil), Junior Engineer (Mechanical), Junior Engineer (Electrical) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s38208974663db80265e9bfe7b222dcb18/uploads/2026/09/202609211541077784.pdf"
+},
+  {
+    "id": "bbau-junior-research-recruitment-2026",
+    "b": "Babasaheb Bhimrao Ambedkar University (BBAU)",
+    "t": "Babasaheb Bhimrao Ambedkar University (BBAU) Recruitment 2026 Notification Out for 1 Junior Research Assistant Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "07 October 2026 (Walk-in)",
+    "a": "711/DcP/BBAU/2026",
+    "q": "M.Sc",
+    "desc": "Babasaheb Bhimrao Ambedkar University (BBAU) has officially announced employment advertisement notification 711/DcP/BBAU/2026 inviting applications for 1 vacancies for Junior Research Assistant posts.",
+    "u": "https://www.bbau.ac.in/Docs/Career/Project/Walk%20in%20interview%20for%20the%20post%20of%20JRA,%20Physics%20Department.PDF"
+},
+  {
+    "id": "dlsa-kanpur-panel-lawyer-recruitment-2026",
+    "b": "District Legal Services Authority Kanpur Nagar (DLSA Kanpur Nagar)",
+    "t": "District Legal Services Authority Kanpur Nagar (DLSA Kanpur Nagar) Recruitment 2026 Notification Out for 1 Panel Lawyer Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "06 October 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Advocate registered with Bar Council with more than 3 years active exper...",
+    "desc": "District Legal Services Authority Kanpur Nagar (DLSA Kanpur Nagar) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Panel Lawyer posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec017c78335a8924215ea5c22fda1aac/uploads/2026/09/2026092190.pdf"
+},
+  {
+    "id": "kgmu-research-officer-recruitment-2026",
+    "b": "King George Medical University (KGMU), Lucknow",
+    "t": "King George Medical University (KGMU), Lucknow Recruitment 2026 Notification Out for 19 Research Officer (Non-Medical), Research Co-ordinator Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "28 September 2026 up to 2:00 PM",
+    "a": "Download PDF",
+    "q": "The educational qualification differs for the Research Officer and Resea...",
+    "desc": "King George Medical University (KGMU), Lucknow has officially announced employment advertisement notification Download PDF inviting applications for 19 vacancies for Research Officer (Non-Medical), Research Co-ordinator posts.",
+    "u": "https://www.kgmu.org/upload_file/user_download/53b2b46f5930bd0b92077f06eac33bc5.pdf"
+},
+  {
     "id": "aiims-gorakhpur-pts-recruitment-2026",
     "b": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur)",
     "t": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) Recruitment 2026 Notification Out for 2 Project Technical Support-I Posts | Walk-in Interview",
