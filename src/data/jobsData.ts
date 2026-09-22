@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "district-sel-lab-technician-recruitment-2026",
+    "b": "District Selection Committee, Mahabubnagar (Office of DM&HO, Mahabubnagar District)",
+    "t": "District Selection Committee, Mahabubnagar (Office of DM&HO, Mahabubnagar District) Recruitment 2026 Notification Out for 38 Lab Technician, MLHP, Physician (MBBS/MD), Staff Nurse, Physiotherapist, DEIC Manager, Pediatrician, Pharmacist, Radiographer Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "26 September 2026, till 05:00 PM",
+    "a": "Notification - 02/2026, Rc.No.1994/E1&E3/DMHO/MBNR/2026, dated 21.09.2026",
+    "q": "12th Pass | B.Tech / B.E | B.Sc",
+    "desc": "District Selection Committee, Mahabubnagar (Office of DM&HO, Mahabubnagar District) has officially announced employment advertisement notification Notification - 02/2026, Rc.No.1994/E1&E3/DMHO/MBNR/2026, dated 21.09.2026 inviting applications for 38 vacancies for Lab Technician, MLHP, Physician (MBBS/MD), Staff Nurse, Physiotherapist, DEIC Manager, Pediatrician, Pharmacist, Radiographer posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e00da03b685a0dd18fb6a08af0923de0/uploads/2026/09/17900566634385.pdf"
+},
+  {
+    "id": "anna-university-office-asst-recruitment-2026",
+    "b": "Anna University",
+    "t": "Anna University Recruitment 2026 Notification Out for 1 Clerical/ Office Assistant Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "36/EYC-B/Biotechnology/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Anna University has officially announced employment advertisement notification 36/EYC-B/Biotechnology/2026 inviting applications for 1 vacancies for Clerical/ Office Assistant posts.",
+    "u": "https://www.annauniv.edu/pdf/EYC%20Recuritment%20Notification%20dt%2021.09.2026.pdf"
+},
+  {
+    "id": "iiit-kancheepuram-pts-recruitment-2026",
+    "b": "Indian Institute of Information Technology Design and Manufacturing Kancheepuram",
+    "t": "Indian Institute of Information Technology Design and Manufacturing Kancheepuram Recruitment 2026 Notification Out for 1 Project Technical Support - III Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "05 October 2026 (Walk-in)",
+    "a": "IIITDMK/PR/PTSIII/A31/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Information Technology Design and Manufacturing Kancheepuram has officially announced employment advertisement notification IIITDMK/PR/PTSIII/A31/2026 inviting applications for 1 vacancies for Project Technical Support - III posts.",
+    "u": "https://old.iiitdm.ac.in/img/Recruitment/2026/Advt_SRIC_Uttam%20Mrinal_updated.pdf"
+},
+  {
+    "id": "dcpu-office-asst-recruitment-2026",
+    "b": "District Child Protection Unit Tiruchirappalli",
+    "t": "District Child Protection Unit Tiruchirappalli Recruitment 2026 Notification Out for 3 Assistant cum Bench Clerk, Junior Assistant cum Record Clerk, Office Assistant Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "07 October 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Tiruchirappalli has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 3 vacancies for Assistant cum Bench Clerk, Junior Assistant cum Record Clerk, Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s3f73b76ce8949fe29bf2a537cfa420e8f/uploads/2026/09/17899813394239.pdf"
+},
+  {
+    "id": "jjb-office-asst-recruitment-2026",
+    "b": "Juvenile Justice Board Kanniyakumari",
+    "t": "Juvenile Justice Board Kanniyakumari Recruitment 2026 Notification Out for 2 Junior Assistant Cum Record Clerk, Office Assistant Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "JUVENILE-JUSTI/2026",
+    "q": "Pass in X Standard or its equivalent, Pass in VIII Standard or its equiv...",
+    "desc": "Juvenile Justice Board Kanniyakumari has officially announced employment advertisement notification JUVENILE-JUSTI/2026 inviting applications for 2 vacancies for Junior Assistant Cum Record Clerk, Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s38fe0093bb30d6f8c31474bd0764e6ac0/uploads/2026/09/17896304021386.pdf"
+},
+  {
+    "id": "dcpu-data-analyst-recruitment-2026",
+    "b": "District Child Protection Unit Pudukkottai (DCPU Pudukkottai)",
+    "t": "District Child Protection Unit Pudukkottai (DCPU Pudukkottai) Recruitment 2026 Notification Out for 1 Data Analyst Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "DISTRICT-CHILD/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Child Protection Unit Pudukkottai (DCPU Pudukkottai) has officially announced employment advertisement notification DISTRICT-CHILD/2026 inviting applications for 1 vacancies for Data Analyst posts.",
+    "u": "https://cdn.s3waas.gov.in/s342e7aaa88b48137a16a1acd04ed91125/uploads/2026/09/17897147081485.pdf"
+},
+  {
+    "id": "jjb-tenkasi-office-asst-recruitment-2026",
+    "b": "Juvenile Justice Board Tenkasi (JJB Tenkasi)",
+    "t": "Juvenile Justice Board Tenkasi (JJB Tenkasi) Recruitment 2026 Notification Out for 2 Junior Assistant cum Record Clerk, Office Assistant Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "05 October 2026",
+    "a": "JUVENILE-JUSTI/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Juvenile Justice Board Tenkasi (JJB Tenkasi) has officially announced employment advertisement notification JUVENILE-JUSTI/2026 inviting applications for 2 vacancies for Junior Assistant cum Record Clerk, Office Assistant posts.",
+    "u": "https://cdn.s3waas.gov.in/s37cbbc409ec990f19c78c75bd1e06f215/uploads/2026/09/17900722158147.pdf"
+},
+  {
+    "id": "cpcl-trade-apprentice-recruitment-2026",
+    "b": "Chennai Petroleum Corporation Limited (CPCL)",
+    "t": "Chennai Petroleum Corporation Limited (CPCL) Recruitment 2026 Notification Out for 1 Trade Apprentice, Technician Apprentice, Graduate Apprentice (multiple trades) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "12 October 2026",
+    "a": "HRD:03:26, dated 22.09.2026",
+    "q": "ITI",
+    "desc": "Chennai Petroleum Corporation Limited (CPCL) has officially announced employment advertisement notification HRD:03:26, dated 22.09.2026 inviting applications for 1 vacancies for Trade Apprentice, Technician Apprentice, Graduate Apprentice (multiple trades) posts.",
+    "u": "https://www.cpcl.co.in/company/people/careers/"
+},
+  {
+    "id": "aiims-jodhpur-pts-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 1 Project Technical Support-I (Lab Technician cum Research Assistant) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "AIIMS/JDH/CMFM/PRR-Res-Adv./41",
+    "q": "10th / 8th Pass | B.Sc",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification AIIMS/JDH/CMFM/PRR-Res-Adv./41 inviting applications for 1 vacancies for Project Technical Support-I (Lab Technician cum Research Assistant) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1790054331_PRR-Res-Adv-41-220926.pdf"
+},
+  {
+    "id": "aiims-jodhpur-sr-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur)",
+    "t": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) Recruitment 2026 Notification Out for 16 Senior Resident (Non DM/ MCh.) Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "28 September 2026 (Walk-in)",
+    "a": "Academics/ SR/ 63/ 2026-AIIMS.JDH",
+    "q": "M.Sc | MBBS / Medical PG | BDS / Dental",
+    "desc": "All India Institute of Medical Sciences Jodhpur (AIIMS Jodhpur) has officially announced employment advertisement notification Academics/ SR/ 63/ 2026-AIIMS.JDH inviting applications for 16 vacancies for Senior Resident (Non DM/ MCh.) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Residents/2026/1790058233_Walk%20in%20Advt.%20Sept%2026%20vacant%20PDF.pdf"
+},
+  {
     "id": "aiims-perfusionist-recruitment-2026",
     "b": "All India Institute of Medical Sciences Bathinda (AIIMS Bathinda)",
     "t": "All India Institute of Medical Sciences Bathinda (AIIMS Bathinda) Recruitment 2026 Notification Out for 1 Perfusionist Posts | Apply Online",
