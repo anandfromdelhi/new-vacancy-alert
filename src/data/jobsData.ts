@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-kalyani-guest-faculty-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
+    "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 1 Guest Faculty of Applied Sociology Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "05 October 2026 (Walk-in)",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 1 vacancies for Guest Faculty of Applied Sociology posts.",
+    "u": "https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/applied_sociology_guest_faculty_adv_20260919_054906_f1b587c6.pdf"
+},
+  {
+    "id": "iit-roorkee-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 2 Project Assistant (Tech) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "03 October 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Diploma",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Project Assistant (Tech) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/EQ/2026/adv200920261.pdf"
+},
+  {
+    "id": "nit-uttarakhand-ta-recruitment-2026",
+    "b": "National Institute of Technology Uttarakhand",
+    "t": "National Institute of Technology Uttarakhand Recruitment 2026 Notification Out for 38 Superintendent, Technical Assistant, Technician (SG-II), Technician and Junior Assistant Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "11 November 2026 up to 5:30 PM",
+    "a": "08/2026",
+    "q": "For the prescribed qualification under the Recruitment Rules, candidates...",
+    "desc": "National Institute of Technology Uttarakhand has officially announced employment advertisement notification 08/2026 inviting applications for 38 vacancies for Superintendent, Technical Assistant, Technician (SG-II), Technician and Junior Assistant posts.",
+    "u": "https://recruitment-nt.nituk.ac.in/login"
+},
+  {
+    "id": "iit-roorkee-jrf-recruitment-2026-3068544",
+    "b": "Indian Institute of Technology Roorkee",
+    "t": "Indian Institute of Technology Roorkee Recruitment 2026 Notification Out for 2 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "16 October 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ES/2026/adv190920261.pdf"
+},
+  {
+    "id": "g-b-pant-universit-srf-recruitment-2026",
+    "b": "G. B. Pant University of Agriculture & Technology",
+    "t": "G. B. Pant University of Agriculture & Technology Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "CA/Ento.1885",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "G. B. Pant University of Agriculture & Technology has officially announced employment advertisement notification CA/Ento.1885 inviting applications for 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "https://www.gbpuat.ac.in/employments/adv-ento-akp.pdf"
+},
+  {
+    "id": "gims-ap-recruitment-2026",
+    "b": "Government Institute of Medical Sciences (GIMS), Greater Noida - an Autonomous Institute under the UP Government",
+    "t": "Government Institute of Medical Sciences (GIMS), Greater Noida - an Autonomous Institute under the UP Government Recruitment 2026 Notification Out for 65 Professor, Associate Professor, Assistant Professor Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "Refer Official Notification",
+    "a": "GIMS/2026/Manpower-2(Cont.)/11",
+    "q": "MBBS / Medical PG",
+    "desc": "Government Institute of Medical Sciences (GIMS), Greater Noida - an Autonomous Institute under the UP Government has officially announced employment advertisement notification GIMS/2026/Manpower-2(Cont.)/11 inviting applications for 65 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://recruitment.gims.ac.in/"
+},
+  {
+    "id": "family-court-counselor-recruitment-2026",
+    "b": "Office of the Principal Judge (Family Court), Shravasti",
+    "t": "Office of the Principal Judge (Family Court), Shravasti Recruitment 2026 Notification Out for 1 Counselor Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "17 October 2026",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Office of the Principal Judge (Family Court), Shravasti has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 1 vacancies for Counselor posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26922_19-09-2026.pdf"
+},
+  {
+    "id": "dlsa-mainpuri-steno-recruitment-2026",
+    "b": "District Legal Services Authority, Mainpuri (DLSA Mainpuri)",
+    "t": "District Legal Services Authority, Mainpuri (DLSA Mainpuri) Recruitment 2026 Notification Out for 3 Peshkar, Stenographer and Peon Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "22 September 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Retired employees from District Court or Collectorate",
+    "desc": "District Legal Services Authority, Mainpuri (DLSA Mainpuri) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 3 vacancies for Peshkar, Stenographer and Peon posts.",
+    "u": "https://www.allahabadhighcourt.in/event/event_26927_21-09-2026.pdf"
+},
+  {
+    "id": "sgpgims-sr-recruitment-2026-3068600",
+    "b": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS)",
+    "t": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS) Recruitment 2026 Notification Out for 6 Senior Resident (Hospital Services) Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "25 September 2026 (Walk-in)",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "The provided data does not detail specific qualifications for each post....",
+    "desc": "Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGIMS) has officially announced employment advertisement notification SANJAY-GANDHI-/2026 inviting applications for 6 vacancies for Senior Resident (Hospital Services) posts.",
+    "u": "https://sgpgims.org.in/Home/recruit/sr/2026/19.09.2026_SRHS%20Rolling%20Advt%20SUPPLIMENTARY.pdf"
+},
+  {
     "id": "igrua-assistant-library-recruitment-2026",
     "b": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)",
     "t": "Indira Gandhi Rashtriya Uran Akademi (IGRUA) Recruitment 2026 Notification Out for 1 Assistant (Library) Posts | Apply Online",
