@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-gorakhpur-pts-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur)",
+    "t": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) Recruitment 2026 Notification Out for 2 Project Technical Support-I Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Gorakhpur (AIIMS Gorakhpur) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 2 vacancies for Project Technical Support-I posts.",
+    "u": "https://aiimsgorakhpur.edu.in/wp-content/uploads/2026/09/Advertisement_Project-updated.pdf"
+},
+  {
+    "id": "iim-lucknow-junior-manager-recruitment-2026",
+    "b": "Indian Institute of Management Lucknow (IIM Lucknow)",
+    "t": "Indian Institute of Management Lucknow (IIM Lucknow) Recruitment 2026 Notification Out for 1 Junior Manager (Systems & Endpoint Engineer, Server, Data Center & Device Management) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "06 October 2026",
+    "a": "IIML/PERS/2026/123",
+    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
+    "desc": "Indian Institute of Management Lucknow (IIM Lucknow) has officially announced employment advertisement notification IIML/PERS/2026/123 inviting applications for 1 vacancies for Junior Manager (Systems & Endpoint Engineer, Server, Data Center & Device Management) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfeLIXrjVEb06keVHK2nkS8FcqUr7hd_aTi9mYaUICQGXumZw/viewform"
+},
+  {
+    "id": "family-court-lakh-counselor-recruitment-2026",
+    "b": "Family Court Lakhimpur Kheri",
+    "t": "Family Court Lakhimpur Kheri Recruitment 2026 Notification Out for 2 Counselor Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "06 October 2026",
+    "a": "FAMILY-COURT-L/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Family Court Lakhimpur Kheri has officially announced employment advertisement notification FAMILY-COURT-L/2026 inviting applications for 2 vacancies for Counselor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec05da6ea77475918a3d83c7e49223d4/uploads/2026/09/2026092171.pdf"
+},
+  {
+    "id": "cau-yp-recruitment-2026",
+    "b": "Central Agricultural University (CAU)",
+    "t": "Central Agricultural University (CAU) Recruitment 2026 Notification Out for 1 Young Professional I Posts | Walk-in Interview",
+    "d": "23 September 2026",
+    "l": "24 September 2026 (Walk-in)",
+    "a": "CAU-CF/",
+    "q": "Any Bachelor's Degree",
+    "desc": "Central Agricultural University (CAU) has officially announced employment advertisement notification CAU-CF/ inviting applications for 1 vacancies for Young Professional I posts.",
+    "u": "https://cauimphal.online/files/cof_project.pdf"
+},
+  {
+    "id": "bits-pil-academic-associate-recruitment-2026",
+    "b": "Birla Institute of Technology and Science Pilani (BITS Pilani)",
+    "t": "Birla Institute of Technology and Science Pilani (BITS Pilani) Recruitment 2026 Notification Out for 2 Academic Associate / Professor of Practice Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "12 October 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Birla Institute of Technology and Science Pilani (BITS Pilani) has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 2 vacancies for Academic Associate / Professor of Practice posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/LEAD-AA-Advertisement.pdf"
+},
+  {
+    "id": "iit-hyderabad-prs-recruitment-2026-3068801",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 2 Project Research Scientist-I Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "28 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 2 vacancies for Project Research Scientist-I posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScHtFhBjFX7FPEthudqKNlUQiGolqPPwLymAS3re6honT_6rw/viewform"
+},
+  {
+    "id": "iit-hyderabad-pts-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 1 Project Technical Support III Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "25 September 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | M.Sc",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Technical Support III posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSc3YKTetlNT56XNTmbSBKNqt8np2Px9oWnSXFmX2idVC_moww/viewform"
+},
+  {
+    "id": "office-of-the-pr-deo-record-recruitment-2026",
+    "b": "Office of the Principal, Government Medical College, Narayanpet, Telangana",
+    "t": "Office of the Principal, Government Medical College, Narayanpet, Telangana Recruitment 2026 Notification Out for 149 DEO, Record Clerk /Record Assistant and More Posts | Apply Offline",
+    "d": "23 September 2026",
+    "l": "30 September 2026",
+    "a": "Rc.No.82/GMC/NRPT/2026, dated 12.08.2026",
+    "q": "Anaesthesia-Technician: 4 | Audiometry-Technician: 1 | Blood-Bank-Techni...",
+    "desc": "Office of the Principal, Government Medical College, Narayanpet, Telangana has officially announced employment advertisement notification Rc.No.82/GMC/NRPT/2026, dated 12.08.2026 inviting applications for 149 vacancies for DEO, Record Clerk /Record Assistant and More posts.",
+    "u": "https://cdn.s3waas.gov.in/s343feaeeecd7b2fe2ae2e26d917b6477d/uploads/2026/09/17894709519841.pdf"
+},
+  {
+    "id": "niimh-srf-recruitment-2026",
+    "b": "National Institute of Indian Medical Heritage (NIIMH)",
+    "t": "National Institute of Indian Medical Heritage (NIIMH) Recruitment 2026 Notification Out for 1 Senior Research Fellow (Botany) Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "01 October 2026 (Walk-in)",
+    "a": "NIIMH",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Indian Medical Heritage (NIIMH) has officially announced employment advertisement notification NIIMH inviting applications for 1 vacancies for Senior Research Fellow (Botany) posts.",
+    "u": "https://ccras.nic.in/wp-content/uploads/2026/09/18092026-Advt-NIIMH-Hyderabad.pdf"
+},
+  {
+    "id": "iit-hyderabad-prs-recruitment-2026",
+    "b": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "t": "Indian Institute of Technology Hyderabad (IIT Hyderabad) Recruitment 2026 Notification Out for 6 Project Research Scientist - 1 and Project Technical Support-III Posts | Apply Online",
+    "d": "23 September 2026",
+    "l": "29 September 2026 (Walk-in)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "M.Tech / M.E | M.Sc | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Hyderabad (IIT Hyderabad) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 6 vacancies for Project Research Scientist - 1 and Project Technical Support-III posts.",
+    "u": "https://forms.gle/FKKKQRhyVxVEZHzU6"
+},
+  {
     "id": "district-sel-lab-technician-recruitment-2026",
     "b": "District Selection Committee, Mahabubnagar (Office of DM&HO, Mahabubnagar District)",
     "t": "District Selection Committee, Mahabubnagar (Office of DM&HO, Mahabubnagar District) Recruitment 2026 Notification Out for 38 Lab Technician, MLHP, Physician (MBBS/MD), Staff Nurse, Physiotherapist, DEIC Manager, Pediatrician, Pharmacist, Radiographer Posts | Apply Offline",
