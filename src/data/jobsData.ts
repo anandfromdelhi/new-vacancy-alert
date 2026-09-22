@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "indian-navy-indian-various-recruitment-2026",
+    "b": "Indian Navy (Indian Navy Sports Control Board, Naval Headquarters, Ministry of Defence)",
+    "t": "Indian Navy (Indian Navy Sports Control Board, Naval Headquarters, Ministry of Defence) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "15 October 2026 (general); 22 October 2026 (North East states, J&K, Ladakh, Andaman & Nicobar, Lakshadweep & Minicoy Island)",
+    "a": "INDIAN-NAVY-IN/2026",
+    "q": "12th Pass",
+    "desc": "Indian Navy (Indian Navy Sports Control Board, Naval Headquarters, Ministry of Defence) has officially announced employment advertisement notification INDIAN-NAVY-IN/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.joinindiannavy.gov.in/"
+},
+  {
+    "id": "aiims-delhi-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Delhi (AIIMS Delhi)",
+    "t": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) Recruitment 2026 Notification Out for 2 Project Research Scientist-II Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "30 September 2026",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences Delhi (AIIMS Delhi) has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 2 vacancies for Project Research Scientist-II posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/obs&gyne-21-9-26.pdf"
+},
+  {
+    "id": "ongc-green-ca-industrial-recruitment-2026",
+    "b": "Oil and Natural Gas Corporation Green (ONGC Green)",
+    "t": "Oil and Natural Gas Corporation Green (ONGC Green) Recruitment 2026 Notification Out for 2 CA Industrial Trainee Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "25 September 2026",
+    "a": "1/2026 (OGL)",
+    "q": "12th Pass",
+    "desc": "Oil and Natural Gas Corporation Green (ONGC Green) has officially announced employment advertisement notification 1/2026 (OGL) inviting applications for 2 vacancies for CA Industrial Trainee posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScJjb03R8SD6lvdeNUdIctSZybh-qGFo2a3ZjSzir75dlvkng/viewform"
+},
+  {
+    "id": "icar-srf-recruitment-2026",
+    "b": "ICAR Indian Agricultural Research Institute",
+    "t": "ICAR Indian Agricultural Research Institute Recruitment 2026 Notification Out for 2 Research Associate and Senior Research Fellow Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "13 October 2026 (Walk-in)",
+    "a": "Positions",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR Indian Agricultural Research Institute has officially announced employment advertisement notification Positions inviting applications for 2 vacancies for Research Associate and Senior Research Fellow posts.",
+    "u": "https://iari.res.in/files/jobs/Website_matter_21092026.pdf"
+},
+  {
+    "id": "dmrc-head-operations-recruitment-2026",
+    "b": "Delhi Metro Rail Corporation (DMRC)",
+    "t": "Delhi Metro Rail Corporation (DMRC) Recruitment 2026 Notification Out for 1 Head Operations Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "11 October 2026",
+    "a": "DMRC/PERS/22/HR/2026 (234)",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Delhi Metro Rail Corporation (DMRC) has officially announced employment advertisement notification DMRC/PERS/22/HR/2026 (234) inviting applications for 1 vacancies for Head Operations posts.",
+    "u": "https://backend.delhimetrorail.com/documents/11747/Advt-234-Head-Operations.pdf"
+},
+  {
+    "id": "nhm-peer-educator-recruitment-2026",
+    "b": "National Health Mission Chandigarh (NHM Chandigarh)",
+    "t": "National Health Mission Chandigarh (NHM Chandigarh) Recruitment 2026 Notification Out for 1 Peer Educator/ Supporter Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "NATIONAL-HEALT/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Health Mission Chandigarh (NHM Chandigarh) has officially announced employment advertisement notification NATIONAL-HEALT/2026 inviting applications for 1 vacancies for Peer Educator/ Supporter posts.",
+    "u": "https://nrhmchd.gov.in/cadmin/uploads/filemanagers/1789982746.pdf"
+},
+  {
+    "id": "jpu-guest-part-recruitment-2026",
+    "b": "Jai Prakash University (JPU)",
+    "t": "Jai Prakash University (JPU) Recruitment 2026 Notification Out for 6 Guest/ Part Time Faculty Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "30 September 2026 (Walk-in)",
+    "a": "JPU/VOC/2026-27/02",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Jai Prakash University (JPU) has officially announced employment advertisement notification JPU/VOC/2026-27/02 inviting applications for 6 vacancies for Guest/ Part Time Faculty posts.",
+    "u": "https://www.jpv.ac.in/_files/ugd/732218_d18f5c544ebb4b248376bcfe5a686cf0.pdf"
+},
+  {
+    "id": "rbi-medical-consultant-recruitment-2026-3068518",
+    "b": "Reserve Bank of India (RBI)",
+    "t": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 3 Medical Consultant Posts | Apply Offline",
+    "d": "22 September 2026",
+    "l": "05 October 2026",
+    "a": "RESERVE-BANK-O/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Reserve Bank of India (RBI) has officially announced employment advertisement notification RESERVE-BANK-O/2026 inviting applications for 3 vacancies for Medical Consultant posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/MCPATNA21092026CEF163B75E2D4F8C8297F54C0B9DAADA.PDF"
+},
+  {
+    "id": "kvs-contractual-teache-recruitment-2026",
+    "b": "Kendriya Vidyalaya Gaya and Bodhgaya",
+    "t": "Kendriya Vidyalaya Gaya and Bodhgaya Recruitment 2026 Notification Out for 1 Contractual Teachers Posts | Walk-in Interview",
+    "d": "22 September 2026",
+    "l": "25 September 2026 and 26 September 2026 (Walk-in)",
+    "a": "KENDRIYA-VIDYA/2026",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Kendriya Vidyalaya Gaya and Bodhgaya has officially announced employment advertisement notification KENDRIYA-VIDYA/2026 inviting applications for 1 vacancies for Contractual Teachers posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv063f34b8389851317e056eaa25ed02/uploads/2026/09/2026091938.pdf"
+},
+  {
+    "id": "stcl-executive-senior-recruitment-2026",
+    "b": "Sahakar Taxi Cooperative (STCL)",
+    "t": "Sahakar Taxi Cooperative (STCL) Recruitment 2026 Notification Out for 15 Executive, Senior Executive and More Posts | Apply Online",
+    "d": "22 September 2026",
+    "l": "11 October 2026",
+    "a": "SAHAKAR-TAXI-C/2026",
+    "q": "MBA / BBA | Any Bachelor's Degree",
+    "desc": "Sahakar Taxi Cooperative (STCL) has officially announced employment advertisement notification SAHAKAR-TAXI-C/2026 inviting applications for 15 vacancies for Executive, Senior Executive and More Posts posts.",
+    "u": "https://www.ncdc.in/documents/career/1914210926Dy-ManagerAssistant-Manager-(Operation).pdf"
+},
+  {
     "id": "office-of-the-dire-lra-recruitment-2026",
     "b": "Office of the Director of Land Records & Surveys, Assam, Rupnagar, Guwahati-32",
     "t": "Office of the Director of Land Records & Surveys, Assam, Rupnagar, Guwahati-32 Recruitment 2026 Notification Out for 579 Land Record Assistant (LRA) Posts | Apply Online",
