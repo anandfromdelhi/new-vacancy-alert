@@ -5,7 +5,6 @@ import * as ReactHelmetAsync from 'react-helmet-async';
 const { HelmetProvider } = (ReactHelmetAsync as any).default || ReactHelmetAsync;
 import { ThemeProvider } from './components/ThemeProvider';
 import { AuthProvider } from './context/AuthContext';
-import { TelegramProvider } from './context/TelegramContext';
 import MainLayout from './pages/MainLayout';
 
 // Direct synchronous imports for SSR to avoid Suspense fallbacks during renderToString
@@ -115,8 +114,7 @@ export function render(url: string) {
       <HelmetProvider context={helmetContext}>
         <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
           <AuthProvider>
-            <TelegramProvider>
-              <StaticRouter location={url}>
+            <StaticRouter location={url}>
               <Routes>
                 <Route path="/" element={<MainLayout />}>
                   <Route index element={<HomePage />} />
@@ -219,7 +217,6 @@ export function render(url: string) {
                 </Route>
               </Routes>
             </StaticRouter>
-          </TelegramProvider>
         </AuthProvider>
       </ThemeProvider>
       </HelmetProvider>

@@ -21,7 +21,7 @@ import { useAuth } from '../context/AuthContext';
 import { JOBS_DATA, JobEntry } from '../data/jobsData';
 import jobsIndexData from '../data/jobs-index-generated.json';
 import { getJobUploadDate } from '../utils/jobUploadDate';
-import { JobAlertSubscription, TelegramLink } from '../types/alertTypes';
+import { JobAlertSubscription } from '../types/alertTypes';
 
 interface CommentRecord {
   id: string;
@@ -169,15 +169,14 @@ export default function AdminPage() {
   const [loadingReports, setLoadingReports] = useState(false);
 
   // -------------------------------------------------------------
-  // Telegram & Alert Subscriptions State
+  // Alert Subscriptions State
   // -------------------------------------------------------------
-  const [telegramLinks, setTelegramLinks] = useState<TelegramLink[]>([]);
   const [alertSubscriptions, setAlertSubscriptions] = useState<JobAlertSubscription[]>([]);
   const [loadingAlerts, setLoadingAlerts] = useState(false);
   const [subscriberSearch, setSubscriberSearch] = useState('');
-  const [subscriberStatusFilter, setSubscriberStatusFilter] = useState<'all' | 'connected' | 'not_connected'>('all');
   const [subscriberQualFilter, setSubscriberQualFilter] = useState('all');
   const [subscriberLocFilter, setSubscriberLocFilter] = useState('all');
+  const [subscriberStatusFilter, setSubscriberStatusFilter] = useState<'all' | 'active'>('all');
   const [subscriberPage, setSubscriberPage] = useState(1);
   const SUBSCRIBER_PAGE_SIZE = 25;
   const [copiedText, setCopiedText] = useState<string | null>(null);
@@ -246,27 +245,11 @@ export default function AdminPage() {
     return () => unsubscribe();
   }, [isAuthorized]);
 
-  // Fetch Telegram Links & Alert Subscriptions (Only if Authorized)
+  // Fetch Alert Subscriptions (Only if Authorized)
   useEffect(() => {
     if (!isAuthorized) return;
 
     setLoadingAlerts(true);
-    const unsubTg = onSnapshot(
-      collection(db, 'telegram_links'),
-      snapshot => {
-        const list: TelegramLink[] = snapshot.docs.map(d => ({
-          userId: d.id,
-          ...(d.data() as any)
-        }));
-        setTelegramLinks(list);
-        setLoadingAlerts(false);
-      },
-      err => {
-        console.error('Error fetching telegram_links:', err);
-        setLoadingAlerts(false);
-      }
-    );
-
     const unsubAlerts = onSnapshot(
       collection(db, 'job_alert_subscriptions'),
       snapshot => {
@@ -284,7 +267,6 @@ export default function AdminPage() {
     );
 
     return () => {
-      unsubTg();
       unsubAlerts();
     };
   }, [isAuthorized]);
@@ -454,38 +436,23 @@ export default function AdminPage() {
   }, [enrichedJobs, comments, reports]);
 
   // -------------------------------------------------------------
-  // Telegram & Alert Subscriptions Analytics
+  // Alert Subscriptions Analytics
   // -------------------------------------------------------------
   interface CandidateProfile {
     userId: string;
     email: string;
     name?: string;
-    telegram?: TelegramLink;
     subscriptions: JobAlertSubscription[];
     activeSubscriptionsCount: number;
     lastActive: string;
   }
 
   const alertAnalytics = useMemo(() => {
-    const activeTelegramUsers = telegramLinks.filter(t => t.isActive).length;
-    const totalTelegramUsers = telegramLinks.length;
     const activeSubscriptions = alertSubscriptions.filter(s => s.isActive);
     const totalSubscriptions = alertSubscriptions.length;
 
     // Group into Candidate Profiles
     const profileMap = new Map<string, CandidateProfile>();
-
-    telegramLinks.forEach(tg => {
-      profileMap.set(tg.userId, {
-        userId: tg.userId,
-        email: '',
-        name: tg.telegramFirstName || '',
-        telegram: tg,
-        subscriptions: [],
-        activeSubscriptionsCount: 0,
-        lastActive: tg.connectedAt || tg.updatedAt || ''
-      });
-    });
 
     alertSubscriptions.forEach(sub => {
       let profile = profileMap.get(sub.userId);
@@ -513,9 +480,6 @@ export default function AdminPage() {
     });
 
     const candidates = Array.from(profileMap.values()).sort((a, b) => {
-      // Sort by active telegram first, then active subscriptions count, then lastActive
-      if (a.telegram?.isActive && !b.telegram?.isActive) return -1;
-      if (!a.telegram?.isActive && b.telegram?.isActive) return 1;
       if (b.activeSubscriptionsCount !== a.activeSubscriptionsCount) {
         return b.activeSubscriptionsCount - a.activeSubscriptionsCount;
       }
@@ -581,15 +545,10 @@ export default function AdminPage() {
       .sort((a, b) => b.count - a.count)
       .slice(0, 6);
 
-    const connectedCandidatesCount = candidates.filter(c => c.telegram?.isActive).length;
-
     return {
-      totalTelegramUsers,
-      activeTelegramUsers,
       totalSubscriptions,
       activeSubscriptions: totalActiveSubs,
       totalCandidates: candidates.length,
-      connectedCandidatesCount,
       coveredLocationsCount: locCountMap.size,
       candidates,
       topQualifications,
@@ -597,7 +556,7 @@ export default function AdminPage() {
       topCombinations,
       topSourceJobs
     };
-  }, [telegramLinks, alertSubscriptions]);
+  }, [alertSubscriptions]);
 
   // Filtered Candidates
   const filteredCandidates = useMemo(() => {
@@ -609,22 +568,13 @@ export default function AdminPage() {
         const inEmail = (c.email || '').toLowerCase().includes(q);
         const inName = (c.name || '').toLowerCase().includes(q);
         const inUid = c.userId.toLowerCase().includes(q);
-        const inTgUser = (c.telegram?.telegramUsername || '').toLowerCase().includes(q);
-        const inTgFirst = (c.telegram?.telegramFirstName || '').toLowerCase().includes(q);
-        const inTgChat = (c.telegram?.telegramChatId || '').toLowerCase().includes(q);
         const inSub = c.subscriptions.some(s =>
           (s.qualificationLabel || '').toLowerCase().includes(q) ||
           (s.locationLabel || '').toLowerCase().includes(q) ||
           (s.sourceJobTitle || '').toLowerCase().includes(q)
         );
-        return inEmail || inName || inUid || inTgUser || inTgFirst || inTgChat || inSub;
+        return inEmail || inName || inUid || inSub;
       });
-    }
-
-    if (subscriberStatusFilter === 'connected') {
-      list = list.filter(c => Boolean(c.telegram?.isActive));
-    } else if (subscriberStatusFilter === 'not_connected') {
-      list = list.filter(c => !c.telegram?.isActive);
     }
 
     if (subscriberQualFilter !== 'all') {
@@ -635,8 +585,12 @@ export default function AdminPage() {
       list = list.filter(c => c.subscriptions.some(s => s.location === subscriberLocFilter));
     }
 
+    if (subscriberStatusFilter === 'active') {
+      list = list.filter(c => c.activeSubscriptionsCount > 0);
+    }
+
     return list;
-  }, [alertAnalytics.candidates, subscriberSearch, subscriberStatusFilter, subscriberQualFilter, subscriberLocFilter]);
+  }, [alertAnalytics.candidates, subscriberSearch, subscriberQualFilter, subscriberLocFilter, subscriberStatusFilter]);
 
   const paginatedCandidates = useMemo(() => {
     const startIndex = (subscriberPage - 1) * SUBSCRIBER_PAGE_SIZE;
@@ -1375,12 +1329,12 @@ export default function AdminPage() {
             onClick={() => setActiveTab('alerts')}
             className={`flex items-center gap-2 py-2.5 px-4 text-xs font-black uppercase tracking-wider border-b-2 transition whitespace-nowrap ${
               activeTab === 'alerts'
-                ? 'border-sky-600 text-sky-600 bg-sky-50/50'
+                ? 'border-blue-600 text-blue-600 bg-blue-50/50'
                 : 'border-transparent text-slate-500 hover:text-slate-800'
             }`}
           >
-            <Send className="w-4 h-4 text-sky-500" />
-            <span>Telegram & Alerts ({alertAnalytics.activeTelegramUsers})</span>
+            <Bell className="w-4 h-4 text-blue-500" />
+            <span>Job Alerts ({alertAnalytics.totalCandidates})</span>
           </button>
 
           <button
@@ -1425,27 +1379,27 @@ export default function AdminPage() {
             <p className="text-xl sm:text-2xl font-black text-emerald-600">{metrics.activeCount.toLocaleString()}</p>
           </div>
 
-          {/* Telegram Users Metric Card */}
+          {/* Job Alerts Metric Card */}
           <div
             onClick={() => setActiveTab('alerts')}
             className={`bg-white p-4 rounded-2xl border shadow-xs cursor-pointer transition hover:scale-[1.01] ${
               activeTab === 'alerts'
-                ? 'border-sky-500 ring-2 ring-sky-500/20 bg-sky-50/20'
-                : 'border-slate-200 hover:border-sky-400'
+                ? 'border-blue-500 ring-2 ring-blue-500/20 bg-blue-50/20'
+                : 'border-slate-200 hover:border-blue-400'
             }`}
           >
             <div className="flex items-center justify-between text-slate-400 mb-1">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-sky-700 flex items-center gap-1.5">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-blue-700 flex items-center gap-1.5">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                 </span>
-                Telegram Users
+                Subscribers
               </span>
-              <Send className="w-4 h-4 text-sky-500" />
+              <Bell className="w-4 h-4 text-blue-500" />
             </div>
-            <p className="text-xl sm:text-2xl font-black text-sky-700">
-              {loadingAlerts ? '...' : alertAnalytics.activeTelegramUsers.toLocaleString()}
+            <p className="text-xl sm:text-2xl font-black text-blue-700">
+              {loadingAlerts ? '...' : alertAnalytics.totalCandidates.toLocaleString()}
             </p>
             <p className="text-[10px] text-slate-400 mt-0.5 font-semibold">
               {alertAnalytics.activeSubscriptions} active alert rules
@@ -2315,7 +2269,7 @@ export default function AdminPage() {
         )}
 
         {/* ------------------------------------------------------------- */}
-        {/* TAB 4: TELEGRAM SUBSCRIBERS & TOP SUBSCRIBED SECTIONS */}
+        {/* TAB 4: JOB ALERTS & CANDIDATE INSIGHTS */}
         {/* ------------------------------------------------------------- */}
         {activeTab === 'alerts' && (
           <div className="space-y-6">
@@ -2324,12 +2278,12 @@ export default function AdminPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex items-start gap-3.5">
                   <div className="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center shrink-0 border border-sky-100 shadow-2xs">
-                    <Send className="w-6 h-6 text-sky-600" />
+                    <Bell className="w-6 h-6 text-sky-600" />
                   </div>
                   <div>
                     <div className="flex items-center gap-2 flex-wrap">
                       <h2 className="text-xl font-black text-slate-900 tracking-tight">
-                        Telegram Subscribers & Alert Insights
+                        Job Alerts & Candidate Insights
                       </h2>
                       <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
                         <span className="relative flex h-2 w-2">
@@ -2340,7 +2294,7 @@ export default function AdminPage() {
                       </span>
                     </div>
                     <p className="text-xs text-slate-500 mt-1">
-                      Real-time breakdown of connected Telegram candidates, high-demand qualifications, top states, and alert conversion sources.
+                      Real-time breakdown of registered candidates, high-demand qualifications, top states, and alert conversion sources.
                     </p>
                   </div>
                 </div>
@@ -2362,14 +2316,14 @@ export default function AdminPage() {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mt-6 pt-6 border-t border-slate-100">
                 <div className="bg-sky-50/50 rounded-xl p-3.5 border border-sky-100/80">
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-sky-900">Active Telegram Users</span>
-                    <Send className="w-4 h-4 text-sky-600" />
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-sky-900">Total Subscribers</span>
+                    <Users className="w-4 h-4 text-sky-600" />
                   </div>
                   <p className="text-2xl font-black text-sky-700">
-                    {alertAnalytics.activeTelegramUsers.toLocaleString()}
+                    {alertAnalytics.totalCandidates.toLocaleString()}
                   </p>
                   <p className="text-[11px] text-sky-600/80 font-semibold mt-0.5">
-                    {alertAnalytics.totalTelegramUsers} total connected accounts
+                    {alertAnalytics.candidates.filter(c => c.activeSubscriptionsCount > 0).length} with active alerts
                   </p>
                 </div>
 
@@ -2386,19 +2340,6 @@ export default function AdminPage() {
                   </p>
                 </div>
 
-                <div className="bg-blue-50/50 rounded-xl p-3.5 border border-blue-100/80">
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-blue-900">Total Candidates</span>
-                    <Users className="w-4 h-4 text-blue-600" />
-                  </div>
-                  <p className="text-2xl font-black text-blue-700">
-                    {alertAnalytics.totalCandidates.toLocaleString()}
-                  </p>
-                  <p className="text-[11px] text-blue-600/80 font-semibold mt-0.5">
-                    {alertAnalytics.connectedCandidatesCount} with Telegram active
-                  </p>
-                </div>
-
                 <div className="bg-emerald-50/50 rounded-xl p-3.5 border border-emerald-100/80">
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-[11px] font-extrabold uppercase tracking-wider text-emerald-900">State / Area Reach</span>
@@ -2409,6 +2350,19 @@ export default function AdminPage() {
                   </p>
                   <p className="text-[11px] text-emerald-600/80 font-semibold mt-0.5">
                     States & UTs actively tracked
+                  </p>
+                </div>
+
+                <div className="bg-amber-50/50 rounded-xl p-3.5 border border-amber-100/80">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-[11px] font-extrabold uppercase tracking-wider text-amber-900">Top Target Category</span>
+                    <TrendingUp className="w-4 h-4 text-amber-600" />
+                  </div>
+                  <p className="text-lg font-black text-amber-700 truncate">
+                    {alertAnalytics.topQualifications[0]?.label || 'General'}
+                  </p>
+                  <p className="text-[11px] text-amber-600/80 font-semibold mt-0.5">
+                    {alertAnalytics.topQualifications[0]?.count || 0} active subscriptions
                   </p>
                 </div>
               </div>
@@ -2627,7 +2581,7 @@ export default function AdminPage() {
                     </span>
                   </h3>
                   <p className="text-xs text-slate-500 mt-0.5">
-                    Direct list of registered candidates, linked Telegram profiles, and configured qualification/state alerts.
+                    Direct list of registered candidates and configured qualification/state alerts.
                   </p>
                 </div>
 
@@ -2644,25 +2598,15 @@ export default function AdminPage() {
                     All ({alertAnalytics.candidates.length})
                   </button>
                   <button
-                    onClick={() => { setSubscriberStatusFilter('connected'); setSubscriberPage(1); }}
+                    onClick={() => { setSubscriberStatusFilter('active'); setSubscriberPage(1); }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1 ${
-                      subscriberStatusFilter === 'connected'
+                      subscriberStatusFilter === 'active'
                         ? 'bg-emerald-600 text-white shadow-xs'
                         : 'text-slate-500 hover:text-slate-800'
                     }`}
                   >
-                    <Send className="w-3 h-3" />
-                    <span>Telegram Active ({alertAnalytics.connectedCandidatesCount})</span>
-                  </button>
-                  <button
-                    onClick={() => { setSubscriberStatusFilter('not_connected'); setSubscriberPage(1); }}
-                    className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                      subscriberStatusFilter === 'not_connected'
-                        ? 'bg-white text-slate-900 shadow-xs'
-                        : 'text-slate-500 hover:text-slate-800'
-                    }`}
-                  >
-                    Not Connected ({alertAnalytics.candidates.length - alertAnalytics.connectedCandidatesCount})
+                    <Bell className="w-3 h-3" />
+                    <span>Active Alerts ({alertAnalytics.candidates.filter(c => c.activeSubscriptionsCount > 0).length})</span>
                   </button>
                 </div>
               </div>
@@ -2674,7 +2618,7 @@ export default function AdminPage() {
                   <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                   <input
                     type="text"
-                    placeholder="Search candidate email, name, Telegram username, chat ID, qualification..."
+                    placeholder="Search candidate email, name, qualification, state..."
                     value={subscriberSearch}
                     onChange={e => { setSubscriberSearch(e.target.value); setSubscriberPage(1); }}
                     className="w-full pl-9 pr-3.5 py-2 rounded-xl border border-slate-200 focus:border-sky-500 focus:ring-1 focus:ring-sky-500 text-xs text-slate-800 font-medium"
@@ -2728,7 +2672,6 @@ export default function AdminPage() {
                   <thead className="bg-slate-50 border-b border-slate-200 text-slate-700 uppercase font-black tracking-wider text-[10px]">
                     <tr>
                       <th className="py-3 px-4">Candidate Profile</th>
-                      <th className="py-3 px-4">Telegram Connection</th>
                       <th className="py-3 px-4">Subscribed Alerts</th>
                       <th className="py-3 px-4">Last Activity</th>
                     </tr>
@@ -2736,7 +2679,7 @@ export default function AdminPage() {
                   <tbody className="divide-y divide-slate-100">
                     {paginatedCandidates.length === 0 ? (
                       <tr>
-                        <td colSpan={4} className="py-12 text-center text-slate-400">
+                        <td colSpan={3} className="py-12 text-center text-slate-400">
                           <Users className="w-8 h-8 text-slate-300 mx-auto mb-2" />
                           <p className="font-bold text-sm text-slate-600">No candidates match your criteria</p>
                           <p className="text-xs text-slate-400 mt-1">Try clearing or broadening your search filters</p>
@@ -2744,9 +2687,6 @@ export default function AdminPage() {
                       </tr>
                     ) : (
                       paginatedCandidates.map(c => {
-                        const tg = c.telegram;
-                        const hasTelegram = Boolean(tg && tg.isActive);
-
                         return (
                           <tr key={c.userId} className="hover:bg-slate-50/80 transition">
                             {/* Candidate Profile */}
@@ -2773,59 +2713,6 @@ export default function AdminPage() {
                                   </button>
                                 </div>
                               </div>
-                            </td>
-
-                            {/* Telegram Connection */}
-                            <td className="py-3.5 px-4">
-                              {hasTelegram ? (
-                                <div className="space-y-1">
-                                  <div className="flex items-center gap-1.5">
-                                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
-                                      <Check className="w-3 h-3" />
-                                      Connected
-                                    </span>
-                                    {tg?.telegramUsername && (
-                                      <a
-                                        href={`https://t.me/${tg.telegramUsername}`}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-1 text-sky-600 hover:text-sky-800 font-bold hover:underline"
-                                      >
-                                        <Send className="w-3 h-3" />
-                                        <span>@{tg.telegramUsername}</span>
-                                      </a>
-                                    )}
-                                  </div>
-                                  <div className="flex items-center gap-1.5 text-[11px] text-slate-500">
-                                    <span className="font-mono">Chat ID: {tg?.telegramChatId}</span>
-                                    <button
-                                      onClick={() => handleCopyText(tg?.telegramChatId || '', 'Telegram Chat ID')}
-                                      className="p-1 hover:bg-slate-100 rounded text-slate-400 hover:text-slate-700"
-                                      title="Copy Chat ID"
-                                    >
-                                      <Copy className="w-3 h-3" />
-                                    </button>
-                                  </div>
-                                  {tg?.telegramFirstName && (
-                                    <p className="text-[10px] text-slate-400">Name: {tg.telegramFirstName}</p>
-                                  )}
-                                </div>
-                              ) : tg && !tg.isActive ? (
-                                <div>
-                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200">
-                                    <AlertTriangle className="w-3 h-3" />
-                                    Disconnected
-                                  </span>
-                                  <p className="text-[10px] text-slate-400 mt-1">Previously linked</p>
-                                </div>
-                              ) : (
-                                <div>
-                                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-600 border border-slate-200">
-                                    <XCircle className="w-3 h-3 text-slate-400" />
-                                    Not Linked
-                                  </span>
-                                </div>
-                              )}
                             </td>
 
                             {/* Subscribed Alerts */}

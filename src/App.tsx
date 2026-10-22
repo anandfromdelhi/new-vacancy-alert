@@ -7,7 +7,6 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
 import { ThemeProvider } from './components/ThemeProvider';
 import { AuthProvider } from './context/AuthContext';
-import { TelegramProvider } from './context/TelegramContext';
 import { NavigationProvider } from './context/NavigationContext';
 import MainLayout from './pages/MainLayout';
 import Analytics from './components/Analytics';
@@ -94,8 +93,7 @@ export default function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <AuthProvider>
-        <TelegramProvider>
-          <BrowserRouter>
+        <BrowserRouter>
           <NavigationProvider>
             <Analytics />
             <Suspense fallback={<PageLoader />}>
@@ -212,7 +210,6 @@ export default function App() {
             </Suspense>
             </NavigationProvider>
           </BrowserRouter>
-        </TelegramProvider>
       </AuthProvider>
     </ThemeProvider>
   );

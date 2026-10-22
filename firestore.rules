@@ -160,69 +160,7 @@ service cloud.firestore {
     }
 
     // =========================================================================
-    // 5. NOTIFICATION LOGS (Telegram / Alert Delivery History)
-    // =========================================================================
-    match /notification_logs/{logId} {
-      // Users can only view their own notification delivery logs (or admin)
-      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || isAdmin());
-      
-      // Client cannot write notification logs directly; only backend dispatch / Admin SDK
-      allow write: if isAdmin();
-    }
-
-    // =========================================================================
-    // 6. TELEGRAM ACCOUNT LINKS (Personalized Alert Delivery)
-    // =========================================================================
-    match /telegram_links/{userId} {
-      // Users can read only their own connection record to check active status
-      allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
-      
-      // Allow authenticated candidates to disconnect / deactivate their own Telegram connection
-      allow update: if request.auth != null && (
-        isAdmin() ||
-        (
-          request.auth.uid == userId
-          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['isActive', 'updatedAt'])
-          && request.resource.data.isActive == false
-        )
-      );
-
-      // Allow candidates to delete their own Telegram link record when disconnecting
-      allow delete: if request.auth != null && (request.auth.uid == userId || isAdmin());
-
-      // Only verified server webhook / admin can create new paired connection records
-      allow create: if isAdmin();
-    }
-
-    // =========================================================================
-    // 7. TELEGRAM PAIRING TOKENS (Strictly Private to Server)
-    // =========================================================================
-    match /telegram_pairing_tokens/{token} {
-      // Clients have zero direct access to connection tokens in Firestore.
-      allow read, write: if isAdmin();
-    }
-
-    // =========================================================================
-    // 8. PHASE 4: JOB ALERT BASELINE & SCHEDULER RUNS
-    // =========================================================================
-    match /job_alert_baseline/{jobId} {
-      // Read & write strictly restricted to Admin (server uses Admin SDK)
-      allow read, write: if isAdmin();
-    }
-
-    match /scheduler_runs/{runId} {
-      // Admin can inspect scheduler run telemetry; client write disabled
-      allow read: if isAdmin();
-      allow write: if false;
-    }
-
-    match /scheduler_state/{docId} {
-      // Admin can view scheduler state summary
-      allow read, write: if isAdmin();
-    }
-
-    // =========================================================================
-    // 9. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
+    // 5. STRICT DEFAULT DENY FOR ALL OTHER UNMATCHED PATHS
     // =========================================================================
     match /{document=**} {
       allow read, write: if false;

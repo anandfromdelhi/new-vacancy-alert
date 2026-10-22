@@ -9,7 +9,6 @@ import {
   X, Check, Unlink
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { useTelegram } from '../context/TelegramContext';
 import { 
   getUserSubscriptions, 
   toggleSubscriptionStatus, 
@@ -30,66 +29,13 @@ export default function ManageAlertsPage() {
   const [isSubmittingManual, setIsSubmittingManual] = useState<boolean>(false);
   const [statusMessage, setStatusMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
-  // Centralized Telegram Connection State
-  const {
-    telegramLink,
-    isTelegramConnected,
-    telegramLoading,
-    checkTelegramStatus,
-    openTelegramModal,
-    disconnectTelegram,
-    disconnectLoading,
-    pairingLoading
-  } = useTelegram();
-
-  // Handler to open Add Alert modal guarded strictly by Telegram connection
+  // Handler to open Add Alert modal
   const handleOpenAddModal = () => {
     if (!user) {
       loginWithGoogle();
       return;
     }
-
-    if (!isTelegramConnected) {
-      setStatusMessage({
-        type: 'error',
-        text: 'Please connect your Telegram account first to add job alerts.'
-      });
-      openTelegramModal(
-        () => setIsAddModalOpen(true),
-        'Connect Telegram to Add Alerts',
-        'Connect Telegram first so you can receive your custom job notifications'
-      );
-      return;
-    }
-
     setIsAddModalOpen(true);
-  };
-
-  // Disconnect Telegram via authenticated context (preserves all job subscriptions)
-  const handleDisconnectTelegram = async () => {
-    if (!user) return;
-    if (
-      !window.confirm(
-        'Are you sure you want to disconnect Telegram notifications?\n\nNote: Your active job alert subscriptions will remain completely intact.'
-      )
-    ) {
-      return;
-    }
-
-    const success = await disconnectTelegram();
-    if (success) {
-      setStatusMessage({
-        type: 'success',
-        text: 'Telegram account disconnected. Your job alert subscriptions remain saved.'
-      });
-      setTimeout(() => setStatusMessage(null), 5000);
-    } else {
-      setStatusMessage({
-        type: 'error',
-        text: 'Failed to disconnect Telegram.'
-      });
-      setTimeout(() => setStatusMessage(null), 5000);
-    }
   };
 
   // Load subscriptions
@@ -149,20 +95,6 @@ export default function ManageAlertsPage() {
   const handleAddManualAlert = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!user?.uid) return;
-
-    if (!isTelegramConnected) {
-      setStatusMessage({
-        type: 'error',
-        text: 'Telegram account must be connected to add alerts.'
-      });
-      setIsAddModalOpen(false);
-      openTelegramModal(
-        () => setIsAddModalOpen(true),
-        'Connect Telegram to Add Alerts',
-        'Connect Telegram first so you can receive your custom job notifications'
-      );
-      return;
-    }
 
     setIsSubmittingManual(true);
     try {
@@ -266,118 +198,6 @@ export default function ManageAlertsPage() {
             >
               <X className="w-3.5 h-3.5" />
             </button>
-          </div>
-        )}
-
-        {/* Telegram Notifications Status Card */}
-        {user && (
-          <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-3">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div className="flex items-start gap-3">
-                <div className={`w-11 h-11 rounded-xl flex items-center justify-center shrink-0 border ${
-                  telegramLink?.isActive 
-                    ? 'bg-emerald-50 text-emerald-600 border-emerald-200' 
-                    : 'bg-sky-50 text-sky-600 border-sky-200'
-                }`}>
-                  <Send className="w-5 h-5" />
-                </div>
-
-                <div className="space-y-1">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <h3 className="text-sm sm:text-base font-black text-slate-900">
-                      Telegram Notifications
-                    </h3>
-                    {telegramLoading ? (
-                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-600 flex items-center gap-1">
-                        <Loader2 className="w-2.5 h-2.5 animate-spin" /> Checking...
-                      </span>
-                    ) : telegramLink?.isActive ? (
-                      <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                        🟢 Telegram Connected
-                      </span>
-                    ) : (
-                      <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-rose-50 text-rose-700 border border-rose-200 flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
-                        🔴 Telegram Not Connected
-                      </span>
-                    )}
-                    <button
-                      type="button"
-                      onClick={() => { checkTelegramStatus(); }}
-                      disabled={telegramLoading}
-                      title="Refresh connection status"
-                      className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition inline-flex items-center justify-center cursor-pointer"
-                    >
-                      <RefreshCw className={`w-3.5 h-3.5 ${telegramLoading ? 'animate-spin' : ''}`} />
-                    </button>
-                  </div>
-
-                  <p className="text-xs text-slate-600 leading-relaxed max-w-xl">
-                    {telegramLink?.isActive ? (
-                      <>
-                        Notifications will be sent to your connected Telegram account
-                        {telegramLink.telegramUsername ? (
-                          <strong className="text-slate-900"> (@{telegramLink.telegramUsername})</strong>
-                        ) : ''}
-                        .
-                      </>
-                    ) : (
-                      'Connect your Telegram account to receive instant verified job vacancy alerts directly on your smartphone or desktop.'
-                    )}
-                  </p>
-
-                  {telegramLink?.isActive && telegramLink.connectedAt && (
-                    <p className="text-[11px] text-slate-400 font-medium">
-                      Connected since {new Date(telegramLink.connectedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
-                    </p>
-                  )}
-                </div>
-              </div>
-
-              {/* Action Button */}
-              <div className="shrink-0 flex items-center">
-                {telegramLink?.isActive ? (
-                  <button
-                    type="button"
-                    onClick={handleDisconnectTelegram}
-                    disabled={disconnectLoading}
-                    className="w-full sm:w-auto px-4 py-2.5 bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 font-black text-xs rounded-xl transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50"
-                  >
-                    {disconnectLoading ? (
-                      <>
-                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        <span>Disconnecting...</span>
-                      </>
-                    ) : (
-                      <>
-                        <Unlink className="w-3.5 h-3.5" />
-                        <span>Disconnect Telegram</span>
-                      </>
-                    )}
-                  </button>
-                ) : (
-                  <button
-                    type="button"
-                    onClick={() => openTelegramModal()}
-                    disabled={pairingLoading}
-                    className="w-full sm:w-auto px-4 py-2.5 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-black text-xs rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
-                  >
-                    {pairingLoading ? (
-                      <>
-                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        <span>Preparing Link...</span>
-                      </>
-                    ) : (
-                      <>
-                        <Send className="w-3.5 h-3.5" />
-                        <span>Connect Telegram</span>
-                      </>
-                    )}
-                  </button>
-                )}
-              </div>
-            </div>
           </div>
         )}
 
@@ -624,49 +444,24 @@ export default function ManageAlertsPage() {
                 </select>
               </div>
 
-              {!isTelegramConnected && (
-                <div className="p-3 bg-sky-50 border border-sky-200 rounded-xl text-xs flex items-start gap-2 text-sky-900 font-medium">
-                  <Send className="w-4 h-4 text-sky-600 shrink-0 mt-0.5" />
-                  <span>Telegram must be connected before you can save alerts.</span>
-                </div>
-              )}
-
               <div className="pt-2 flex gap-2">
-                {!isTelegramConnected ? (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setIsAddModalOpen(false);
-                      openTelegramModal(
-                        () => setIsAddModalOpen(true),
-                        'Connect Telegram to Add Alerts',
-                        'Connect Telegram first so you can receive your custom job notifications'
-                      );
-                    }}
-                    className="flex-1 py-2.5 px-4 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2"
-                  >
-                    <Send className="w-3.5 h-3.5" />
-                    <span>Connect Telegram First</span>
-                  </button>
-                ) : (
-                  <button
-                    type="submit"
-                    disabled={isSubmittingManual}
-                    className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50"
-                  >
-                    {isSubmittingManual ? (
-                      <>
-                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        <span>Activating...</span>
-                      </>
-                    ) : (
-                      <>
-                        <Check className="w-3.5 h-3.5" />
-                        <span>Save Alert</span>
-                      </>
-                    )}
-                  </button>
-                )}
+                <button
+                  type="submit"
+                  disabled={isSubmittingManual}
+                  className="flex-1 py-2.5 px-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50"
+                >
+                  {isSubmittingManual ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      <span>Activating...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Check className="w-3.5 h-3.5" />
+                      <span>Save Alert</span>
+                    </>
+                  )}
+                </button>
                 <button
                   type="button"
                   onClick={() => setIsAddModalOpen(false)}

@@ -42,9 +42,9 @@ Trigger this skill whenever:
    - **MANDATORY: NEVER USE NUMERIC DATES** like `DD.MM.YYYY` or `DD/MM/YYYY` (e.g. `06.10.2026` or `06/10/2026`). In Indian government notices, `06.10.2026` is 06 October, NOT 10 June. Numeric dates cause severe user confusion with US `MM/DD` format.
    - **ALWAYS spell out the English month name in full** across all fields (`importantDates`, `highlights`, `jobsData.ts` `l` & `d`, `overview`, and `faqs`): e.g. **`06 October 2026 (11:59 PM)`**, **`07 September 2026`**, **`31 August 2026`**.
 
-5. **Automatic Upload Date Refresh for Telegram Alert Dispatch (`jobUploadDates.json`)**:
+5. **Automatic Upload Date Refresh for Latest Vacancy Feeds (`jobUploadDates.json`)**:
    - Whenever an existing vacancy is updated or enriched from a detailed PDF / rulebook, its upload date in `src/data/jobUploadDates.json` MUST be updated to the new `lastUpdated` date (today's date in `YYYY-MM-DD` format).
-   - **CRITICAL RATIONALE**: The automated 8 AM Telegram alert dispatcher (`src/server/automaticJobAlertScheduler.ts`) scans canonical jobs and determines 24-hour window eligibility strictly based on `uploadDate` (sourced via `getJobUploadDate()` from `jobUploadDates.json`), NOT `lastUpdated`. Bumping the upload date to today guarantees that the newly updated detailed notification is treated as an active notification in the 24-hour window and dispatched to Telegram alert subscribers!
+   - **CRITICAL RATIONALE**: Homepage latest vacancy feeds and sorting algorithms scan canonical jobs and determine freshness based on `uploadDate` (sourced via `getJobUploadDate()` from `jobUploadDates.json`), NOT `lastUpdated`. Bumping the upload date to today guarantees that the newly updated detailed notification is treated as a fresh update on the homepage and across category feeds!
    - `scripts/update_job_entry.py` automatically updates `upload_dates[job_id] = updated_date` upon executing.
 
 6. **Right Sidebar Strict Vertical Tiling Rule**:
@@ -219,7 +219,7 @@ Apply the update to `src/data/jobDetails.json`, `src/data/jobsData.ts`, and `src
 ```bash
 python scripts/update_job_entry.py scratch/temp_job.json
 ```
-*(This automatically updates the job's upload date in `jobUploadDates.json` to the updated date `YYYY-MM-DD` so the 24-hour Telegram alert dispatch and homepage latest vacancies immediately reflect the update).*
+*(This automatically updates the job's upload date in `jobUploadDates.json` to the updated date `YYYY-MM-DD` so homepage latest vacancies immediately reflect the update).*
 
 #### 6. Record State & Advance to Next File
 - Log completion of File $i$.
