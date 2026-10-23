@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sctimst-various-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing)",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026, 5.00 pm",
+    "a": "0471-",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing) has officially announced employment advertisement notification 0471- inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.sctimst.ac.in/Recruitment/"
+},
+  {
+    "id": "sctimst-ps-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Bio Medical Technology Wing)",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Bio Medical Technology Wing) Recruitment 2026 Notification Out for 1 Project Scientist (Professional) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026, 5.00 pm",
+    "a": "0471-",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Bio Medical Technology Wing) has officially announced employment advertisement notification 0471- inviting applications for 1 vacancies for Project Scientist (Professional) posts.",
+    "u": "https://www.sctimst.ac.in/Recruitment/"
+},
+  {
+    "id": "principal-dis-typist-typist-recruitment-2026",
+    "b": "Principal District and Sessions Court, Bengaluru Rural District (Bengaluru Rural District Court)",
+    "t": "Principal District and Sessions Court, Bengaluru Rural District (Bengaluru Rural District Court) Recruitment 2026 Notification Out for 86 Typist, Typist-Copyist, Process Server, Peon Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "06 November 2026 (up to 11:59 PM)",
+    "a": "PRINCIPAL-DIST/2026",
+    "q": "12th Pass | Diploma",
+    "desc": "Principal District and Sessions Court, Bengaluru Rural District (Bengaluru Rural District Court) has officially announced employment advertisement notification PRINCIPAL-DIST/2026 inviting applications for 86 vacancies for Typist, Typist-Copyist, Process Server, Peon posts.",
+    "u": "https://bengalururural.dcourts.gov.in/notice-category/recruitments/"
+},
+  {
+    "id": "kfd-forest-observer-recruitment-2026",
+    "b": "Karnataka Forest Department (KFD), Government of Karnataka",
+    "t": "Karnataka Forest Department (KFD), Government of Karnataka Recruitment 2026 Notification Out for 1500 Forest Observer (Forest Watcher - Group D / Aranya Veekshaka) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026 (extended)",
+    "a": "Office of the Principal Chief Conservator of Forests (Head of Forest Force), Aranya Bhavan, 18th Cross, Malleshwaram, Bengaluru - 03",
+    "q": "B.Tech / B.E",
+    "desc": "Karnataka Forest Department (KFD), Government of Karnataka has officially announced employment advertisement notification Office of the Principal Chief Conservator of Forests (Head of Forest Force), Aranya Bhavan, 18th Cross, Malleshwaram, Bengaluru - 03 inviting applications for 1500 vacancies for Forest Observer (Forest Watcher - Group D / Aranya Veekshaka) posts.",
+    "u": "https://recruitment.aranya.gov.in/candidate/login"
+},
+  {
+    "id": "naval-dockyard-kar-various-recruitment-2026",
+    "b": "Naval Dockyard Karwar Trade Apprentice",
+    "t": "Naval Dockyard Karwar Trade Apprentice Recruitment 2026 Notification Out for 210 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "NAVAL-DOCKYARD/2026",
+    "q": "10th / 8th Pass | ITI",
+    "desc": "Naval Dockyard Karwar Trade Apprentice has officially announced employment advertisement notification NAVAL-DOCKYARD/2026 inviting applications for 210 vacancies for Various Posts posts.",
+    "u": "https://indiannavy.gov.in/"
+},
+  {
+    "id": "jepc-je-recruitment-2026",
+    "b": "Jharkhand Education Project Council (JEPC)",
+    "t": "Jharkhand Education Project Council (JEPC) Recruitment 2026 Notification Out for 106 State Programme Manager, District Programme Manager, Assistant Programme Manager, Expert EMIS, Assistant Computer Programmer, Finance Controller, Finance and Accounts Officer, Accounts Officer, Auditor and Junior Engineer Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026, 5:00 PM",
+    "a": "JHARKHAND-EDUC/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Jharkhand Education Project Council (JEPC) has officially announced employment advertisement notification JHARKHAND-EDUC/2026 inviting applications for 106 vacancies for State Programme Manager, District Programme Manager, Assistant Programme Manager, Expert EMIS, Assistant Computer Programmer, Finance Controller, Finance and Accounts Officer, Accounts Officer, Auditor and Junior Engineer posts.",
+    "u": "https://jepc.jharkhand.gov.in/recruitment"
+},
+  {
+    "id": "jrhms-mo-recruitment-2026",
+    "b": "Department of Health, Medical Education & Family Welfare / Jharkhand Rural Health Mission Society (JRHMS), National Health Mission, Government of Jharkhand",
+    "t": "Department of Health, Medical Education & Family Welfare / Jharkhand Rural Health Mission Society (JRHMS), National Health Mission, Government of Jharkhand Recruitment 2026 Notification Out for 306 Specialist Medical Officer (SMO) / Non-Teaching Specialist Medical Officer Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026 (up to 11:59 PM)",
+    "a": "HMFW/2026 (SMO BID) 2755 (MD)",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Department of Health, Medical Education & Family Welfare / Jharkhand Rural Health Mission Society (JRHMS), National Health Mission, Government of Jharkhand has officially announced employment advertisement notification HMFW/2026 (SMO BID) 2755 (MD) inviting applications for 306 vacancies for Specialist Medical Officer (SMO) / Non-Teaching Specialist Medical Officer posts.",
+    "u": "https://jrhms.jharkhand.gov.in/"
+},
+  {
+    "id": "jgrv-home-guard-recruitment-2026-3067607",
+    "b": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar",
+    "t": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar Recruitment 2026 Notification Out for 772 Home Guard (Grih Rakshak) - Rural & Urban Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "26 October 2026 up to 5:00 PM",
+    "a": "01/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar has officially announced employment advertisement notification 01/2026 inviting applications for 772 vacancies for Home Guard (Grih Rakshak) - Rural & Urban posts.",
+    "u": "https://recruitment.jharkhand.gov.in/"
+},
+  {
+    "id": "school-education-r-lib-asst-recruitment-2026",
+    "b": "School Education; Rural Development Department & PR; Handicraft; Ladakh Power Development; PHE/I&FC; Animal Husbandry",
+    "t": "School Education; Rural Development Department & PR; Handicraft; Ladakh Power Development; PHE/I&FC; Animal Husbandry Recruitment 2026 Notification Out for 181 Class-IV, Technician-III, Laboratory Assistant, Attendant, Library Assistant and other posts (20 items) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "27 November 2026 (Friday)",
+    "a": "Advertisement Notice No. 02 of 2026; No. KSSRB/Advert-Posts/2026-27/293-302, dated 21.10.2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "School Education; Rural Development Department & PR; Handicraft; Ladakh Power Development; PHE/I&FC; Animal Husbandry has officially announced employment advertisement notification Advertisement Notice No. 02 of 2026; No. KSSRB/Advert-Posts/2026-27/293-302, dated 21.10.2026 inviting applications for 181 vacancies for Class-IV, Technician-III, Laboratory Assistant, Attendant, Library Assistant and other posts (20 items) posts.",
+    "u": "https://www.dssrbkargil.in/advertisements.aspx"
+},
+  {
+    "id": "lpssrb-assistant-superint-recruitment-2026",
+    "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
+    "t": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 46 Assistant Superintendent Jail, Warder, Computer Assistant, Junior Assistant, Orderly, Barber Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "08 November 2026",
+    "a": "03 of 2026",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) has officially announced employment advertisement notification 03 of 2026 inviting applications for 46 vacancies for Assistant Superintendent Jail, Warder, Computer Assistant, Junior Assistant, Orderly, Barber posts.",
+    "u": "https://prison.lpssrb2026.apply-gov.in/"
+},
+  {
     "id": "lpssrb-fireman-fireman-recruitment-2026",
     "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
     "t": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 17 Fireman, Fireman Driver, Fireman Ministerial, Sweeper/Safaiwala Posts | Apply Online",
