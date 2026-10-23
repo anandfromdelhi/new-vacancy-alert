@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-delhi-project-nurse-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, New Delhi",
+    "t": "All India Institute of Medical Sciences, New Delhi Recruitment 2026 Notification Out for 2 Project Nurse-III Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "27 October 2026, 5.30 pm",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences, New Delhi has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 2 vacancies for Project Nurse-III posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/burnsurg-13-10-26.pdf"
+},
+  {
+    "id": "aiims-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences (AIIMS), Delhi",
+    "t": "All India Institute of Medical Sciences (AIIMS), Delhi Recruitment 2026 Notification Out for 15 Project Research Scientist, Project Technical Support and More Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "27 October 2026, 10:00 PM",
+    "a": "ALL-INDIA-INST/2026",
+    "q": "MBBS / Medical PG | BDS / Dental | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences (AIIMS), Delhi has officially announced employment advertisement notification ALL-INDIA-INST/2026 inviting applications for 15 vacancies for Project Research Scientist, Project Technical Support and More posts.",
+    "u": "https://www.aiims.edu/images/pdf/recruitment/advertisement/irch1-13-10-26.pdf"
+},
+  {
+    "id": "oil-advisor-recruitment-2026",
+    "b": "Oil India Limited (OIL)",
+    "t": "Oil India Limited (OIL) Recruitment 2026 Notification Out for 1 Advisor Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "20 November 2026, 23:59 hours",
+    "a": "CMD/OIL/HR/14(C)/Oct 2026-Advisor",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Oil India Limited (OIL) has officially announced employment advertisement notification CMD/OIL/HR/14(C)/Oct 2026-Advisor inviting applications for 1 vacancies for Advisor posts.",
+    "u": "https://www.oil-india.com/"
+},
+  {
+    "id": "orgi-essential-qualific-recruitment-2026",
+    "b": "Office of the Registrar General, India (ORGI)",
+    "t": "Office of the Registrar General, India (ORGI) Recruitment 2026 Notification Out for 26 Essential Qualification Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 60 days from the date the circular is published in Rozgar Samachar/Employment News",
+    "a": "F.No.A-35013/8/2021-Ad.III (Circular dated 03.10.2026)",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Office of the Registrar General, India (ORGI) has officially announced employment advertisement notification F.No.A-35013/8/2021-Ad.III (Circular dated 03.10.2026) inviting applications for 26 vacancies for Essential Qualification posts.",
+    "u": "https://censusindia.gov.in/nada/index.php/catalog/47178/download/51425/Vacancy_100.pdf"
+},
+  {
+    "id": "dcpw-additional-directo-recruitment-2026",
+    "b": "Directorate of Coordination Police Wireless (DCPW), Ministry of Home Affairs, Government of India",
+    "t": "Directorate of Coordination Police Wireless (DCPW), Ministry of Home Affairs, Government of India Recruitment 2026 Notification Out for 1 Additional Director (General Central Service, Group 'A', Gazetted, Non-ministerial) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Sixty days from the date of advertisement first published in the 'Employment News'",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Any Bachelor's Degree",
+    "desc": "Directorate of Coordination Police Wireless (DCPW), Ministry of Home Affairs, Government of India has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 1 vacancies for Additional Director (General Central Service, Group 'A', Gazetted, Non-ministerial) posts.",
+    "u": "https://xn--i1b5bzbybhfo5c8b4bxh.xn--11b7cb3a6a.xn--h2brj9c/files/vacancies_documents/MHAOMDTD16102026.pdf"
+},
+  {
+    "id": "faculty-of-dentist-various-recruitment-2026",
+    "b": "Faculty of Dentistry, Jamia Millia Islamia",
+    "t": "Faculty of Dentistry, Jamia Millia Islamia Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "16 November 2026, up to 04:00 PM (must be received by then)",
+    "a": "FACULTY-OF-DEN/2026",
+    "q": "BDS / Dental",
+    "desc": "Faculty of Dentistry, Jamia Millia Islamia has officially announced employment advertisement notification FACULTY-OF-DEN/2026 inviting applications for 11 vacancies for Various Posts posts.",
+    "u": "https://jmi.ac.in/upload/advertisement/jobs_bds_internship_2026oct21.pdf"
+},
+  {
+    "id": "mygov-digital-junior-video-recruitment-2026",
+    "b": "MyGov (Digital India Corporation, Ministry of Electronics & Information Technology)",
+    "t": "MyGov (Digital India Corporation, Ministry of Electronics & Information Technology) Recruitment 2026 Notification Out for 5 Junior Video Editor, Video Editor and More Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "03 November 2026",
+    "a": "MYGOV-DIGITAL-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "MyGov (Digital India Corporation, Ministry of Electronics & Information Technology) has officially announced employment advertisement notification MYGOV-DIGITAL-/2026 inviting applications for 5 vacancies for Junior Video Editor, Video Editor and More posts.",
+    "u": "https://negd.gov.in"
+},
+  {
+    "id": "cwc-various-recruitment-2026",
+    "b": "Central Waqf Council (CWC), New Delhi; recruitment by the Ministry of Minority Affairs (Waqf Division), Government of India",
+    "t": "Central Waqf Council (CWC), New Delhi; recruitment by the Ministry of Minority Affairs (Waqf Division), Government of India Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Must reach within 45 days from the date the advertisement is published in Employment News",
+    "a": "CENTRAL-WAQF-C/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Central Waqf Council (CWC), New Delhi; recruitment by the Ministry of Minority Affairs (Waqf Division), Government of India has officially announced employment advertisement notification CENTRAL-WAQF-C/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://minorityaffairs.gov.in/showfile.php?lang=1&level=1&ls_id=1134&lid=1270"
+},
+  {
+    "id": "cwc-am-recruitment-2026",
+    "b": "Central Warehousing Corporation (CWC), a Navratna CPSE",
+    "t": "Central Warehousing Corporation (CWC), a Navratna CPSE Recruitment 2026 Notification Out for 327 Assistant Manager (General, Technical, Finance, Engineering-Civil, Engineering-Electrical, Engineering-Mechanical) and Junior Executive (General, Technical) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "5 years, subject to the ceiling as per Government guidelines",
+    "a": "CWC/I-Manpower/DR/Rectt/2026/01, dated 17.10.2026",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "Central Warehousing Corporation (CWC), a Navratna CPSE has officially announced employment advertisement notification CWC/I-Manpower/DR/Rectt/2026/01, dated 17.10.2026 inviting applications for 327 vacancies for Assistant Manager (General, Technical, Finance, Engineering-Civil, Engineering-Electrical, Engineering-Mechanical) and Junior Executive (General, Technical) posts.",
+    "u": "https://www.cwceportal.com"
+},
+  {
+    "id": "sai-various-recruitment-2026",
+    "b": "Sports Authority of India (SAI)",
+    "t": "Sports Authority of India (SAI) Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Receipt by 20 November 2026 at 05.00 PM",
+    "a": "SPORTS-AUTHORI/2026",
+    "q": "The official notification does not specify the minimum educational quali...",
+    "desc": "Sports Authority of India (SAI) has officially announced employment advertisement notification SPORTS-AUTHORI/2026 inviting applications for 11 vacancies for Various Posts posts.",
+    "u": "https://sportsauthorityofindia.gov.in"
+},
+  {
     "id": "negd-program-manager-recruitment-2026",
     "b": "National e-Governance Division (NeGD), Digital India Corporation",
     "t": "National e-Governance Division (NeGD), Digital India Corporation Recruitment 2026 Notification Out for 1 Program Manager (AI) Posts | Apply Online",
