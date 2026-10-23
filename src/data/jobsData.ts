@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "department-of-plan-ra-recruitment-2026",
+    "b": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola",
+    "t": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola Recruitment 2026 Notification Out for 1 Research Associate under the HORTSAP pest surveillance scheme of Maharashtra Govt. Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "29 October 2026 (Walk-in)",
+    "a": "HD/PP/HORTSAP/682/2026",
+    "q": "M.Sc | MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola has officially announced employment advertisement notification HD/PP/HORTSAP/682/2026 inviting applications for 1 vacancies for Research Associate under the HORTSAP pest surveillance scheme of Maharashtra Govt. posts.",
+    "u": "https://www.pdkv.ac.in/Recruitment/hdppl_advt_682_221026.pdf"
+},
+  {
+    "id": "csir-nee-essential-qualific-recruitment-2026",
+    "b": "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI)",
+    "t": "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI) Recruitment 2026 Notification Out for 2 Essential Qualification Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "29 October 2026",
+    "a": "RECRUIT_SD_10A_CRIAD_22102026",
+    "q": "M.Sc | Master's / PG Degree",
+    "desc": "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI) has officially announced employment advertisement notification RECRUIT_SD_10A_CRIAD_22102026 inviting applications for 2 vacancies for Essential Qualification posts.",
+    "u": "https://www.neeri.res.in"
+},
+  {
+    "id": "kv-khargon-special-educator-recruitment-2026",
+    "b": "KV Khargone",
+    "t": "KV Khargone Recruitment 2026 Notification Out for 1 TGT (English, Sanskrit), PRT (Special Educator), ATL Instructor Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "KV-KHARGONE/2026",
+    "q": "The age limit for interested and eligible candidates across all posts is...",
+    "desc": "KV Khargone has officially announced employment advertisement notification KV-KHARGONE/2026 inviting applications for 1 vacancies for TGT (English, Sanskrit), PRT (Special Educator), ATL Instructor posts.",
+    "u": "https://khargone.kvs.ac.in/"
+},
+  {
+    "id": "nit-bhopal-various-recruitment-2026",
+    "b": "Maulana Azad National Institute of Technology Bhopal",
+    "t": "Maulana Azad National Institute of Technology Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026",
+    "a": "MAULANA-AZAD-N/2026",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "Maulana Azad National Institute of Technology Bhopal has officially announced employment advertisement notification MAULANA-AZAD-N/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.manit.ac.in"
+},
+  {
+    "id": "manit-various-recruitment-2026",
+    "b": "Maulana Azad National Institute of Technology (MANIT) Bhopal",
+    "t": "Maulana Azad National Institute of Technology (MANIT) Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "A/RD/RP-2/450",
+    "q": "B.Tech / B.E | Master's / PG Degree",
+    "desc": "Maulana Azad National Institute of Technology (MANIT) Bhopal has officially announced employment advertisement notification A/RD/RP-2/450 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://forms.gle/C4tkJY4Y49YvKK8K8"
+},
+  {
+    "id": "iit-indore-prs-recruitment-2026",
+    "b": "Indian Institute of Technology Indore",
+    "t": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Project Research Scientist-I Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "October 31, 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Indore has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Research Scientist-I posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScTDX1G8P_I3aHQ3eSmRocrQUx3hvCa9KwMwTjdwfzTyg___Q/viewform?usp=dialog"
+},
+  {
+    "id": "iiit-research-assistant-recruitment-2026",
+    "b": "Atal Bihari Vajpayee-Indian Institute of Information Technology & Management, Gwalior",
+    "t": "Atal Bihari Vajpayee-Indian Institute of Information Technology & Management, Gwalior Recruitment 2026 Notification Out for 1 Research Assistant/Intern Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "29 October 2026 (10 days from the date of advertisement)",
+    "a": "ATAL-BIHARI-VA/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Atal Bihari Vajpayee-Indian Institute of Information Technology & Management, Gwalior has officially announced employment advertisement notification ATAL-BIHARI-VA/2026 inviting applications for 1 vacancies for Research Assistant/Intern posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfAAXSkCTdGcsx-tjdR2SRpoNoPJoGPF013q8pJxMahc0oxdA/viewform?usp=send_form"
+},
+  {
+    "id": "atal-bihari-vajpay-various-recruitment-2026",
+    "b": "Atal Bihari Vajpayee Training Centre for Disability Sports",
+    "t": "Atal Bihari Vajpayee Training Centre for Disability Sports Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 30 days from the date of publication of employment notification in Employment News",
+    "a": "ATAL-BIHARI-VA/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Atal Bihari Vajpayee Training Centre for Disability Sports has officially announced employment advertisement notification ATAL-BIHARI-VA/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdsgwalior.nic.in/"
+},
+  {
+    "id": "kvs-voc-instructor-recruitment-2026",
+    "b": "Kendriya Vidyalaya Sangathan (PM Shri KV AFS Amla)",
+    "t": "Kendriya Vidyalaya Sangathan (PM Shri KV AFS Amla) Recruitment 2026 Notification Out for 1 TGT (Hindi), Primary Teacher (English), Vocational Instructor Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "KENDRIYA-VIDYA/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Kendriya Vidyalaya Sangathan (PM Shri KV AFS Amla) has officially announced employment advertisement notification KENDRIYA-VIDYA/2026 inviting applications for 1 vacancies for TGT (Hindi), Primary Teacher (English), Vocational Instructor posts.",
+    "u": "https://samvida-sathi.kvs.gov.in/register"
+},
+  {
+    "id": "icfre-tf-essential-qualific-recruitment-2026",
+    "b": "ICFRE-Tropical Forest Research Institute (ICFRE-TFRI), Jabalpur",
+    "t": "ICFRE-Tropical Forest Research Institute (ICFRE-TFRI), Jabalpur Recruitment 2026 Notification Out for 2 Essential Qualification Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "26 October 2026",
+    "a": "ICFRE-TROPICAL/2026",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "ICFRE-Tropical Forest Research Institute (ICFRE-TFRI), Jabalpur has officially announced employment advertisement notification ICFRE-TROPICAL/2026 inviting applications for 2 vacancies for Essential Qualification posts.",
+    "u": "https://tfrienglish.icfre.gov.in/jobs/vacancy148.pdf"
+},
+  {
     "id": "iisc-bhopal-jrf-recruitment-2026",
     "b": "Indian Institute of Science Education and Research Bhopal",
     "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
