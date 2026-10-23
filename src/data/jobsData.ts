@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "negd-program-manager-recruitment-2026",
+    "b": "National e-Governance Division (NeGD), Digital India Corporation",
+    "t": "National e-Governance Division (NeGD), Digital India Corporation Recruitment 2026 Notification Out for 1 Program Manager (AI) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "01 November 2026",
+    "a": "N/39/2026-NeGD",
+    "q": "B.Tech / B.E | MBA / BBA | Any Bachelor's Degree",
+    "desc": "National e-Governance Division (NeGD), Digital India Corporation has officially announced employment advertisement notification N/39/2026-NeGD inviting applications for 1 vacancies for Program Manager (AI) posts.",
+    "u": "https://ora.digitalindiacorporation.in/"
+},
+  {
+    "id": "digital-india-corp-devops-recruitment-2026",
+    "b": "Digital India Corporation",
+    "t": "Digital India Corporation Recruitment 2026 Notification Out for 1 DevOps Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026",
+    "a": "N-22030/2/2025-DIC",
+    "q": "B.Tech / B.E | MCA / BCA | Any Bachelor's Degree",
+    "desc": "Digital India Corporation has officially announced employment advertisement notification N-22030/2/2025-DIC inviting applications for 1 vacancies for DevOps posts.",
+    "u": "https://ora.digitalindiacorporation.in/"
+},
+  {
+    "id": "esic-chief-actuary-recruitment-2026",
+    "b": "Employees' State Insurance Corporation (ESIC)",
+    "t": "Employees' State Insurance Corporation (ESIC) Recruitment 2026 Notification Out for 19 Chief Actuary / Actuarial Advisor, Senior Actuarial Specialist, Chief Data & Analytics Officer, Data Governance Officer, Data Engineering Officer, and other Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "12 November 2026",
+    "a": "A-12016/14/2026-E-III",
+    "q": "Any Bachelor's Degree",
+    "desc": "Employees' State Insurance Corporation (ESIC) has officially announced employment advertisement notification A-12016/14/2026-E-III inviting applications for 19 vacancies for Chief Actuary / Actuarial Advisor, Senior Actuarial Specialist, Chief Data & Analytics Officer, Data Governance Officer, Data Engineering Officer, and other posts posts.",
+    "u": "https://portal.esic.gov.in/ESICInsurance1/ESICEngagementRecruitment/Login.aspx"
+},
+  {
+    "id": "nch-deputy-secretary-recruitment-2026",
+    "b": "National Commission for Homoeopathy (NCH)",
+    "t": "National Commission for Homoeopathy (NCH) Recruitment 2026 Notification Out for 8 Deputy Secretary, Section Officer and More Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 30 days from the date of publication of the advertisement in the Employment News",
+    "a": "NATIONAL-COMMI/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Commission for Homoeopathy (NCH) has officially announced employment advertisement notification NATIONAL-COMMI/2026 inviting applications for 8 vacancies for Deputy Secretary, Section Officer and More posts.",
+    "u": "https://nch.org.in/upload/Information-Recruitment.pdf"
+},
+  {
+    "id": "nbt-typesetter-recruitment-2026",
+    "b": "National Book Trust, India (Ministry of Education, Govt. of India)",
+    "t": "National Book Trust, India (Ministry of Education, Govt. of India) Recruitment 2026 Notification Out for 2 Typesetter Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Within 15 days from publication on Trust's website (about about 29 October 2026)",
+    "a": "137/2026/Estt.",
+    "q": "10th / 8th Pass",
+    "desc": "National Book Trust, India (Ministry of Education, Govt. of India) has officially announced employment advertisement notification 137/2026/Estt. inviting applications for 2 vacancies for Typesetter posts.",
+    "u": "https://www.nbtindia.gov.in"
+},
+  {
+    "id": "dic-senior-manager-recruitment-2026",
+    "b": "Digital India Corporation (DIC)",
+    "t": "Digital India Corporation (DIC) Recruitment 2026 Notification Out for 1 Senior Manager - Government Partnerships & Business Development Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "October 29th, 2026",
+    "a": "DIC /10/2026/22",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Digital India Corporation (DIC) has officially announced employment advertisement notification DIC /10/2026/22 inviting applications for 1 vacancies for Senior Manager - Government Partnerships & Business Development posts.",
+    "u": "https://ora.digitalindiacorporation.in/"
+},
+  {
+    "id": "iit-delh-essential-qualific-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Essential Qualification Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026 by 5.00 p.m.",
+    "a": "rrD/rRDlRMool33G/",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification rrD/rRDlRMool33G/ inviting applications for 1 vacancies for Essential Qualification posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792660760045_k7vjqh6.pdf"
+},
+  {
+    "id": "icar-iari-various-recruitment-2026",
+    "b": "ICAR-Indian Agricultural Research Institute (ICAR-IARI)",
+    "t": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "20 November 2026",
+    "a": "15-13/2015/P.V/2025-26",
+    "q": "B.Com | MBA / BBA",
+    "desc": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) has officially announced employment advertisement notification 15-13/2015/P.V/2025-26 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://iari.res.in"
+},
+  {
+    "id": "icar-iari-ra-recruitment-2026",
+    "b": "ICAR-Indian Agricultural Research Institute (ICAR-IARI)",
+    "t": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) Recruitment 2026 Notification Out for 4 Young Professional, Research Associate and More Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "11 November 2026",
+    "a": "Employment News No. 30/55",
+    "q": "B.Tech / B.E | M.Tech / M.E | Ph.D / Doctorate",
+    "desc": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) has officially announced employment advertisement notification Employment News No. 30/55 inviting applications for 4 vacancies for Young Professional, Research Associate and More posts.",
+    "u": "https://forms.gle/fkohJ4DQj1RsspJE7"
+},
+  {
+    "id": "iari-various-recruitment-2026",
+    "b": "ICAR-Indian Agricultural Research Institute (IARI), New Delhi-110012",
+    "t": "ICAR-Indian Agricultural Research Institute (IARI), New Delhi-110012 Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "23 November 2026",
+    "a": "ICAR-INDIAN-AG/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR-Indian Agricultural Research Institute (IARI), New Delhi-110012 has officially announced employment advertisement notification ICAR-INDIAN-AG/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://iari.res.in/files/jobs/advertisement_22102026.pdf"
+},
+  {
     "id": "daulat-ram-college-ap-recruitment-2026",
     "b": "Daulat Ram College (University of Delhi)",
     "t": "Daulat Ram College (University of Delhi) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
