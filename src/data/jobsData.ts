@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "lpssrb-fireman-fireman-recruitment-2026",
+    "b": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
+    "t": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 17 Fireman, Fireman Driver, Fireman Ministerial, Sweeper/Safaiwala Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "08 November 2026",
+    "a": "04 of 2026 (No. LPSSRB/F-P/21-32)",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) has officially announced employment advertisement notification 04 of 2026 (No. LPSSRB/F-P/21-32) inviting applications for 17 vacancies for Fireman, Fireman Driver, Fireman Ministerial, Sweeper/Safaiwala posts.",
+    "u": "https://fire.lpssrb2026.apply-gov.in/insights"
+},
+  {
+    "id": "central-university-srf-recruitment-2026",
+    "b": "Central University of Jammu",
+    "t": "Central University of Jammu Recruitment 2026 Notification Out for 1 Junior Research Fellow / Senior Research Fellow Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "13 November 2026",
+    "a": "CUJ/EVS/ICECRUNCH/2026/Adv02",
+    "q": "M.Sc",
+    "desc": "Central University of Jammu has officially announced employment advertisement notification CUJ/EVS/ICECRUNCH/2026/Adv02 inviting applications for 1 vacancies for Junior Research Fellow / Senior Research Fellow posts.",
+    "u": "https://cujammu.ac.in/media/homepage/jobs/UNIV/221026_Readvertisement_for_JRF_ICE_CRUNCH_final_2115_1792654054.pdf"
+},
+  {
+    "id": "lahd-ssrb-supervisor-recruitment-2026",
+    "b": "Leh Autonomous Hill Development-Subordinate Services Recruitment Board (LAHD-SSRB)",
+    "t": "Leh Autonomous Hill Development-Subordinate Services Recruitment Board (LAHD-SSRB) Recruitment 2026 Notification Out for 216 Driver, Technician, Work Supervisor, Junior Assistant, Patwari, Junior Nurse, Junior Pharmacist and Others Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "27 November 2026",
+    "a": "02 of 2026",
+    "q": "10th / 8th Pass | 12th Pass | ITI",
+    "desc": "Leh Autonomous Hill Development-Subordinate Services Recruitment Board (LAHD-SSRB) has officially announced employment advertisement notification 02 of 2026 inviting applications for 216 vacancies for Driver, Technician, Work Supervisor, Junior Assistant, Patwari, Junior Nurse, Junior Pharmacist and Others posts.",
+    "u": "https://www.lahdssrb.in/"
+},
+  {
+    "id": "himachal-prade-professor-of-recruitment-2026",
+    "b": "Himachal Pradesh National Law University, Shimla",
+    "t": "Himachal Pradesh National Law University, Shimla Recruitment 2026 Notification Out for 2 Professor of Law (Regular) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "21 November 2026 (05:00 P.M.) online; hard copy must reach by 28 November 2026 (05:00 P.M.)",
+    "a": "No. HPNLU-A(7)-11(Advt.)/2022-85, dated 21.10.2026",
+    "q": "B.Tech / B.E | Law (LL.B / LL.M)",
+    "desc": "Himachal Pradesh National Law University, Shimla has officially announced employment advertisement notification No. HPNLU-A(7)-11(Advt.)/2022-85, dated 21.10.2026 inviting applications for 2 vacancies for Professor of Law (Regular) posts.",
+    "u": "https://erphpnlu.in"
+},
+  {
+    "id": "himachal-pra-librarian-peon-recruitment-2026",
+    "b": "Himachal Pradesh High Court",
+    "t": "Himachal Pradesh High Court Recruitment 2026 Notification Out for 15 Librarian, Peon, Mali, Cook-cum-Attendant Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "27 October 2026",
+    "a": "HC-Advt./2026 (3)",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Himachal Pradesh High Court has officially announced employment advertisement notification HC-Advt./2026 (3) inviting applications for 15 vacancies for Librarian, Peon, Mali, Cook-cum-Attendant posts.",
+    "u": "https://www.hphcrecruitment.in/home/index"
+},
+  {
+    "id": "csir-ihbt-pa-recruitment-2026",
+    "b": "CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT)",
+    "t": "CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT) Recruitment 2026 Notification Out for 44 Senior PAT, Project Associate PAT-I, Project Associate PAT-II, Project Assistant-I Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Not specified (walk-in on the interview date for your code)",
+    "a": "17/2026",
+    "q": "17001: Senior PAT | 17002: Project Associate PAT-I | 17003: Senior PAT",
+    "desc": "CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT) has officially announced employment advertisement notification 17/2026 inviting applications for 44 vacancies for Senior PAT, Project Associate PAT-I, Project Associate PAT-II, Project Assistant-I posts.",
+    "u": "https://www.ihbt.res.in"
+},
+  {
+    "id": "aiims-bilas-yoga-instructor-recruitment-2026",
+    "b": "AIIMS Bilaspur Senior Resident",
+    "t": "AIIMS Bilaspur Senior Resident Recruitment 2026 Notification Out for 69 Yoga Instructor Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "26 October 2026 (Walk-in)",
+    "a": "AIIMS-BILASPUR/2026",
+    "q": "The recruitment is for the Yoga Instructor post. Applicants must satisfy...",
+    "desc": "AIIMS Bilaspur Senior Resident has officially announced employment advertisement notification AIIMS-BILASPUR/2026 inviting applications for 69 vacancies for Yoga Instructor posts.",
+    "u": "https://www.nam.kerala.gov.in/images/careers/1791543996456.pdf"
+},
+  {
+    "id": "esic-baddi-chest-pulmonary-recruitment-2026",
+    "b": "Employees' State Insurance Corporation Model Hospital Baddi (ESIC Baddi), Himachal Pradesh",
+    "t": "Employees' State Insurance Corporation Model Hospital Baddi (ESIC Baddi), Himachal Pradesh Recruitment 2026 Notification Out for 45 Chest/ Pulmonary Medicine Specialist, Medicine Specialist, Obs & Gynae Specialist and 12 more Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "08/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Employees' State Insurance Corporation Model Hospital Baddi (ESIC Baddi), Himachal Pradesh has officially announced employment advertisement notification 08/2026 inviting applications for 45 vacancies for Chest/ Pulmonary Medicine Specialist, Medicine Specialist, Obs & Gynae Specialist and 12 more posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_interview_for_the_post_of_SR_Specialist_Superspecialist_Cardiology_on_contract_basis_1792395520.pdf"
+},
+  {
+    "id": "gurugram-pol-special-police-recruitment-2026",
+    "b": "Gurugram Police, Haryana",
+    "t": "Gurugram Police, Haryana Recruitment 2026 Notification Out for 33 Special Police Officer (SPO) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "23 October 2026",
+    "a": "RO 1084/11/5467/2027/50179/19/7",
+    "q": "Retired army personnel, former personnel of HSIF battalion and ex-person...",
+    "desc": "Gurugram Police, Haryana has officially announced employment advertisement notification RO 1084/11/5467/2027/50179/19/7 inviting applications for 33 vacancies for Special Police Officer (SPO) posts.",
+    "u": "https://haryanapolice.gov.in/"
+},
+  {
+    "id": "lala-lajpat-rai-un-various-recruitment-2026",
+    "b": "Lala Lajpat Rai University of Veterinary and Animal Sciences, Hisar",
+    "t": "Lala Lajpat Rai University of Veterinary and Animal Sciences, Hisar Recruitment 2026 Notification Out for 27 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026 up to 05:00 PM",
+    "a": "LUVAS/COVS/TA/2026/01",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Lala Lajpat Rai University of Veterinary and Animal Sciences, Hisar has officially announced employment advertisement notification LUVAS/COVS/TA/2026/01 inviting applications for 27 vacancies for Various Posts posts.",
+    "u": "https://www.luvas.edu.in"
+},
+  {
     "id": "haryana-poli-special-police-recruitment-2026",
     "b": "Haryana Police",
     "t": "Haryana Police Recruitment 2026 Notification Out for 170 Special Police Officer (SPO) Posts | Walk-in Interview",
