@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iim-pay-recruitment-2026",
+    "b": "Indian Institute of Management Tiruchirappalli",
+    "t": "Indian Institute of Management Tiruchirappalli Recruitment 2026 Notification Out for 8 Pay Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 12, 2026 (5.00 pm)",
+    "a": "EST-II/A-02/2026/002, dated 21.10.2026",
+    "q": "Consolidated salary of Rs. 75,000/- to Rs. 90,000/- per month",
+    "desc": "Indian Institute of Management Tiruchirappalli has officially announced employment advertisement notification EST-II/A-02/2026/002, dated 21.10.2026 inviting applications for 8 vacancies for Pay posts.",
+    "u": "https://www.iimtrichy.ac.in/en/careers-non-teaching"
+},
+  {
+    "id": "central-university-various-recruitment-2026",
+    "b": "Central University of Tamil Nadu",
+    "t": "Central University of Tamil Nadu Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026 (closing date of submission of application)",
+    "a": "CUTN/TE/05/2026/",
+    "q": "M.Phil./Psy.D. in Clinical Psychology (RCI-recognised) or one of the oth...",
+    "desc": "Central University of Tamil Nadu has officially announced employment advertisement notification CUTN/TE/05/2026/ inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://cutn.ac.in/wp-content/uploads/2026/10/CUTN_Counsellor_Notification_Applied_Psychology_21102026.pdf"
+},
+  {
+    "id": "iiit-kancheepuram-pts-recruitment-2026",
+    "b": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+    "t": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram Recruitment 2026 Notification Out for 1 Project Technical Support - III Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "10th November 2026",
+    "a": "IIITDMK/PR/PTSIII/A32/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram has officially announced employment advertisement notification IIITDMK/PR/PTSIII/A32/2026 inviting applications for 1 vacancies for Project Technical Support - III posts.",
+    "u": "https://forms.gle/HgkQhQoPURYArW4y6"
+},
+  {
+    "id": "district-climate-c-various-recruitment-2026",
+    "b": "District Climate Change Mission, Coimbatore",
+    "t": "District Climate Change Mission, Coimbatore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026",
+    "a": "Nature",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Climate Change Mission, Coimbatore has officially announced employment advertisement notification Nature inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://coimbatore.nic.in/"
+},
+  {
+    "id": "rrecl-assistant-engineer-recruitment-2026",
+    "b": "Rajasthan Renewable Energy Corporation Limited (RRECL), Jaipur",
+    "t": "Rajasthan Renewable Energy Corporation Limited (RRECL), Jaipur Recruitment 2026 Notification Out for 3 Assistant Engineer / Executive Engineer Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "06 November 2026 (5:00 PM)",
+    "a": "RAJASTHAN-RENE/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rajasthan Renewable Energy Corporation Limited (RRECL), Jaipur has officially announced employment advertisement notification RAJASTHAN-RENE/2026 inviting applications for 3 vacancies for Assistant Engineer / Executive Engineer posts.",
+    "u": "https://jankalyanfile.rajasthan.gov.in/Files//Content/UploadFolder/OrderEntry/RRECL/2026/Recruitment_Related/O_211026_7da11a6a-7c71-4bd5-b875-feca12622473.pdf"
+},
+  {
+    "id": "scl-ta-recruitment-2026",
+    "b": "Semi-Conductor Laboratory (SCL), an autonomous body under MeitY, Govt. of India",
+    "t": "Semi-Conductor Laboratory (SCL), an autonomous body under MeitY, Govt. of India Recruitment 2026 Notification Out for 83 Administrative Officer, Accounts Officer, Purchase & Stores Officer, Junior Personal Assistant, Technical Assistant, Technician ‘B’ Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 November 2026 (17:00 Hrs.)",
+    "a": "SCL:DR:01/2026 dated 24.10.2026",
+    "q": "MBA / BBA | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Semi-Conductor Laboratory (SCL), an autonomous body under MeitY, Govt. of India has officially announced employment advertisement notification SCL:DR:01/2026 dated 24.10.2026 inviting applications for 83 vacancies for Administrative Officer, Accounts Officer, Purchase & Stores Officer, Junior Personal Assistant, Technical Assistant, Technician ‘B’ posts.",
+    "u": "https://www.scl.gov.in/career.html"
+},
+  {
+    "id": "pu-guest-faculty-recruitment-2026",
+    "b": "University Institute of Legal Studies, Panjab University Swami Sarvanand Giri Regional Centre, Hoshiarpur",
+    "t": "University Institute of Legal Studies, Panjab University Swami Sarvanand Giri Regional Centre, Hoshiarpur Recruitment 2026 Notification Out for 1 Guest Faculty in the subject of Law Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "1840/PUSSGRC/LAW, dated 21.10.2026",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "University Institute of Legal Studies, Panjab University Swami Sarvanand Giri Regional Centre, Hoshiarpur has officially announced employment advertisement notification 1840/PUSSGRC/LAW, dated 21.10.2026 inviting applications for 1 vacancies for Guest Faculty in the subject of Law posts.",
+    "u": "https://ssgpurch.puchd.ac.in/includes/noticeboard/2026/20261022131043-venueforinterview.pdf?2026="
+},
+  {
+    "id": "bric-nabi-srf-recruitment-2026",
+    "b": "BRIC NABI",
+    "t": "BRIC NABI Recruitment 2026 Notification Out for 6 Research Associate, Senior Research Fellow, Research Associate-1, Research Associate-I (RA-I), Field/Lab worker Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "NABI/Admin/5(09)/2026-27/Academic-13",
+    "q": "Each position belongs to a separate research project and has its own Pri...",
+    "desc": "BRIC NABI has officially announced employment advertisement notification NABI/Admin/5(09)/2026-27/Academic-13 inviting applications for 6 vacancies for Research Associate, Senior Research Fellow, Research Associate-1, Research Associate-I (RA-I), Field/Lab worker posts.",
+    "u": "https://nabi.res.in/backend/web/img/jobs/jobs-921-Advertisement%2013%20of%202026.pdf"
+},
+  {
+    "id": "iit-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology Ropar",
+    "t": "Indian Institute of Technology Ropar Recruitment 2026 Notification Out for 1 Junior Research Fellow / Project Assistant Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "20 November 2026",
+    "a": "(F. No. ANRF/PAIR/2025/000006/PAIR-A)",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Ropar has officially announced employment advertisement notification (F. No. ANRF/PAIR/2025/000006/PAIR-A) inviting applications for 1 vacancies for Junior Research Fellow / Project Assistant posts.",
+    "u": "https://www.iitrpr.ac.in/api/v2/files/download/225"
+},
+  {
+    "id": "moga-various-recruitment-2026",
+    "b": "Panjab University Constituent College, Patto Hira Singh, Nihal Singh Wala (Moga)",
+    "t": "Panjab University Constituent College, Patto Hira Singh, Nihal Singh Wala (Moga) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "04 November 2026 (5.00 PM)",
+    "a": "NO 96 /D/PUCCNSW",
+    "q": "Post Vacancies Pay Security Guard 1 Daily wages at current D.C. rate of ...",
+    "desc": "Panjab University Constituent College, Patto Hira Singh, Nihal Singh Wala (Moga) has officially announced employment advertisement notification NO 96 /D/PUCCNSW inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://jobs.puchd.ac.in/includes/jobs/2026/20261022154412-security%20guard%20interview.pdf"
+},
+  {
     "id": "hbchrc-one-year-fe-one-year-recruitment-2026",
     "b": "HBCH&RC One Year Fellow",
     "t": "HBCH&RC One Year Fellow Recruitment 2026 Notification Out for 1 One Year Fellow (Hemato-Pathology) Posts | Walk-in Interview",
