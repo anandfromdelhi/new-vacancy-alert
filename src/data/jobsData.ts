@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "haryana-poli-special-police-recruitment-2026",
+    "b": "Haryana Police",
+    "t": "Haryana Police Recruitment 2026 Notification Out for 170 Special Police Officer (SPO) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "5 November 2026",
+    "a": "HARYANA-POLICE/2026",
+    "q": "12th Pass",
+    "desc": "Haryana Police has officially announced employment advertisement notification HARYANA-POLICE/2026 inviting applications for 170 vacancies for Special Police Officer (SPO) posts.",
+    "u": "https://haryanapolice.gov.in/pdf/Engagement%20of%20170%20SPOs%20in%20Haryana%20Police%20Telecommunication%20Wing.pdf"
+},
+  {
+    "id": "office-of-the-join-various-recruitment-2026",
+    "b": "Office of the Joint Director General of Foreign Trade, Panipat",
+    "t": "Office of the Joint Director General of Foreign Trade, Panipat Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026 (on or before)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "B.Tech / B.E | MCA / BCA | Law (LL.B / LL.M)",
+    "desc": "Office of the Joint Director General of Foreign Trade, Panipat has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://content.dgft.gov.in/Website/dgftprod/145faaa8-0bef-43ea-8a71-0becb64a01a8/YP_ADV_RA_PANIPAT.pdf"
+},
+  {
+    "id": "thsti-unskill-lab-attendant-recruitment-2026",
+    "b": "THSTI Unskilled",
+    "t": "THSTI Unskilled Recruitment 2026 Notification Out for 1 Unskilled (Lab Attendant) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "03rd November 2026 (Tuesday) (Walk-in)",
+    "a": "Name",
+    "q": "12th Pass",
+    "desc": "THSTI Unskilled has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Unskilled (Lab Attendant) posts.",
+    "u": "https://recruitment.thsti.in/public/upload/job_pdf/Advertisement%20Dr.%20Amit%20Awasthi%20Oct%202026.pdf"
+},
+  {
+    "id": "csir-csmcri-pa-recruitment-2026",
+    "b": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI), Bhavnagar, Gujarat",
+    "t": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI), Bhavnagar, Gujarat Recruitment 2026 Notification Out for 2 Project Associate-I, Project Assistant-II Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "9 November 2026",
+    "a": "CSIR-CSMCRI/MSST/CLP 1232/2026-27",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI), Bhavnagar, Gujarat has officially announced employment advertisement notification CSIR-CSMCRI/MSST/CLP 1232/2026-27 inviting applications for 2 vacancies for Project Associate-I, Project Assistant-II posts.",
+    "u": "https://www.csmcri.res.in/node/11133"
+},
+  {
+    "id": "tsu-executive-in-recruitment-2026",
+    "b": "\"Tribhuvan\" Sahkari University (TSU), Anand",
+    "t": "\"Tribhuvan\" Sahkari University (TSU), Anand Recruitment 2026 Notification Out for 1 Executive in the Project Management Unit Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 18, 2026",
+    "a": "TRIBHUVAN-SAHK/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "\"Tribhuvan\" Sahkari University (TSU), Anand has officially announced employment advertisement notification TRIBHUVAN-SAHK/2026 inviting applications for 1 vacancies for Executive in the Project Management Unit posts.",
+    "u": "https://form.jotform.com/262812888327064"
+},
+  {
+    "id": "tsu-programme-manager-recruitment-2026",
+    "b": "\"Tribhuvan\" Sahkari University (TSU), Anand",
+    "t": "\"Tribhuvan\" Sahkari University (TSU), Anand Recruitment 2026 Notification Out for 1 Programme Manager Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 18, 2026",
+    "a": "TRIBHUVAN-SAHK/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "\"Tribhuvan\" Sahkari University (TSU), Anand has officially announced employment advertisement notification TRIBHUVAN-SAHK/2026 inviting applications for 1 vacancies for Programme Manager posts.",
+    "u": "https://form.jotform.com/262812888327064"
+},
+  {
+    "id": "tsu-program-trainer-recruitment-2026",
+    "b": "\"Tribhuvan\" Sahkari University (TSU)",
+    "t": "\"Tribhuvan\" Sahkari University (TSU) Recruitment 2026 Notification Out for 1 Program Trainer Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 18, 2026",
+    "a": "TRIBHUVAN-SAHK/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "\"Tribhuvan\" Sahkari University (TSU) has officially announced employment advertisement notification TRIBHUVAN-SAHK/2026 inviting applications for 1 vacancies for Program Trainer posts.",
+    "u": "https://tsu.ac.in/pdf/career_pdf/521_74377.pdf"
+},
+  {
+    "id": "gprb-3000-recruitment-2026",
+    "b": "GPRB",
+    "t": "GPRB Recruitment 2026 Notification Out for 3000 3,000 Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "September / October 2026",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "GPRB has officially announced employment advertisement notification September / October 2026 inviting applications for 3000 vacancies for 3,000 posts.",
+    "u": "https://gprb.gujarat.gov.in/"
+},
+  {
+    "id": "ipr-project-scientific-recruitment-2026",
+    "b": "Institute for Plasma Research (IPR)",
+    "t": "Institute for Plasma Research (IPR) Recruitment 2026 Notification Out for 58 Project Scientific Officer, Project Scientific Assistant, Project Administrative Staff Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "16 November 2026 (till 5:30 PM)",
+    "a": "08/2026",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Institute for Plasma Research (IPR) has officially announced employment advertisement notification 08/2026 inviting applications for 58 vacancies for Project Scientific Officer, Project Scientific Assistant, Project Administrative Staff posts.",
+    "u": "https://erecruit.ipr.res.in/login"
+},
+  {
+    "id": "sggu-ap-recruitment-2026",
+    "b": "Shri Govind Guru University (SGGU), Godhra",
+    "t": "Shri Govind Guru University (SGGU), Godhra Recruitment 2026 Notification Out for 632 Principal, Assistant Professor, Associate Professor, Professor, Librarian, PTI and Tutor Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026",
+    "a": "02/SF/2026",
+    "q": "Applicants must possess the prescribed educational qualifications and ot...",
+    "desc": "Shri Govind Guru University (SGGU), Godhra has officially announced employment advertisement notification 02/SF/2026 inviting applications for 632 vacancies for Principal, Assistant Professor, Associate Professor, Professor, Librarian, PTI and Tutor posts.",
+    "u": "https://www.sggu.ac.in"
+},
+  {
     "id": "gsssb-work-assistant-recruitment-2026",
     "b": "Gujarat Subordinate Service Selection Board (GSSSB)",
     "t": "Gujarat Subordinate Service Selection Board (GSSSB) Recruitment 2026 Notification Out for 1663 Work Assistant, Class 3 Posts | Apply Online",
