@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "gsssb-work-assistant-recruitment-2026",
+    "b": "Gujarat Subordinate Service Selection Board (GSSSB)",
+    "t": "Gujarat Subordinate Service Selection Board (GSSSB) Recruitment 2026 Notification Out for 1663 Work Assistant, Class 3 Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "1 November 2026, 11:59 PM",
+    "a": "461/202627",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Gujarat Subordinate Service Selection Board (GSSSB) has officially announced employment advertisement notification 461/202627 inviting applications for 1663 vacancies for Work Assistant, Class 3 posts.",
+    "u": "https://ojas.gujarat.gov.in/AdvtDetails.aspx?sid=K3JOsteln/k=&yr=iNSQ32x8ipg=&ano=q8t7Um+6PcI="
+},
+  {
+    "id": "nfsu-senior-projec-pa-recruitment-2026",
+    "b": "NFSU Senior Project Associate",
+    "t": "NFSU Senior Project Associate Recruitment 2026 Notification Out for 1 Sr. Project Associate (Full Time) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "30th October 2026 (Walk-in)",
+    "a": "NFSU/GNR/Coe-FF&FP/Recruitment/Contr.-Staff/2026-27/01/65",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "NFSU Senior Project Associate has officially announced employment advertisement notification NFSU/GNR/Coe-FF&FP/Recruitment/Contr.-Staff/2026-27/01/65 inviting applications for 1 vacancies for Sr. Project Associate (Full Time) posts.",
+    "u": "https://beta.nfsu.ac.in/data/pdfs/Contarctual_Recruitment/NOTIFICATION_221026.pdf"
+},
+  {
+    "id": "iit-gandhinagar-various-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar)",
+    "t": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "29 October 2026",
+    "a": "SPON/63043/Advt0350",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) has officially announced employment advertisement notification SPON/63043/Advt0350 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "http://recruitment.iitgn.ac.in/projectstaff/"
+},
+  {
+    "id": "gsl-ta-eligibility-recruitment-2026",
+    "b": "Goa Shipyard Limited (GSL)",
+    "t": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 40 TA Eligibility Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "22 November 2026 (till 17:00 hrs) online. The hard copy must be received on or before 02 December 2026",
+    "a": "06/2026",
+    "q": "Chief-General-Manager-General-Manager: Economy Class Air Fare | Addition...",
+    "desc": "Goa Shipyard Limited (GSL) has officially announced employment advertisement notification 06/2026 inviting applications for 40 vacancies for TA Eligibility posts.",
+    "u": "https://goashipyard.in"
+},
+  {
+    "id": "birla-institute-of-jrf-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani, K. K. Birla Goa Campus",
+    "t": "Birla Institute of Technology and Science, Pilani, K. K. Birla Goa Campus Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "26 October 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Birla Institute of Technology and Science, Pilani, K. K. Birla Goa Campus has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Ashish-Chittora-DRDO-Advertisement-Format-for-Research-Scholars.pdf"
+},
+  {
+    "id": "gsl-desirable-qualific-recruitment-2026",
+    "b": "Goa Shipyard Limited (GSL)",
+    "t": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 3 Desirable Qualification Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "05 November 2026 (last date for GSL to receive the hard copy)",
+    "a": "07/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Goa Shipyard Limited (GSL) has officially announced employment advertisement notification 07/2026 inviting applications for 3 vacancies for Desirable Qualification posts.",
+    "u": "https://goashipyard.in/storage/clients_logo/1792643520.pdf"
+},
+  {
+    "id": "iiitd-various-recruitment-2026",
+    "b": "Indraprastha Institute of Information Technology Delhi (IIITD)",
+    "t": "Indraprastha Institute of Information Technology Delhi (IIITD) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "11 November 2026, 5 PM",
+    "a": "36/ 2026",
+    "q": "The notice gives the following for the Project Engineer and Estate Offic...",
+    "desc": "Indraprastha Institute of Information Technology Delhi (IIITD) has officially announced employment advertisement notification 36/ 2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://iiitd.nurecampus.com/NURE/OnlineRecruitmentApplication.action"
+},
+  {
+    "id": "bhel-artisan-grade-recruitment-2026",
+    "b": "Bharat Heavy Electricals Limited (BHEL)",
+    "t": "Bharat Heavy Electricals Limited (BHEL) Recruitment 2026 Notification Out for 660 Artisan Grade-IV Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "18 November 2026, 11:45 PM",
+    "a": "01/2026",
+    "q": "ITI",
+    "desc": "Bharat Heavy Electricals Limited (BHEL) has officially announced employment advertisement notification 01/2026 inviting applications for 660 vacancies for Artisan Grade-IV posts.",
+    "u": "https://careers.bhel.in/index.jsp"
+},
+  {
+    "id": "rrbs-various-recruitment-2026",
+    "b": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
+    "t": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 Notification Out for 195 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "04 December 2026, 23:59 hours (Tentative)",
+    "a": "Centralised Employment Notification (CEN) No. 09/2026",
+    "q": "Not specified in the notice",
+    "desc": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India has officially announced employment advertisement notification Centralised Employment Notification (CEN) No. 09/2026 inviting applications for 195 vacancies for Various Posts posts.",
+    "u": "https://rrb.indianrailways.gov.in"
+},
+  {
+    "id": "ignca-pa-recruitment-2026",
+    "b": "IGNCA",
+    "t": "IGNCA Recruitment 2026 Notification Out for 7 Project Associate, Domain Experts Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "30 October 2026 (Walk-in)",
+    "a": "12/375/2026-SD/AM for 7 vacancies",
+    "q": "The notification invites applications for a total of 7 contractual vacan...",
+    "desc": "IGNCA has officially announced employment advertisement notification 12/375/2026-SD/AM for 7 vacancies inviting applications for 7 vacancies for Project Associate, Domain Experts posts.",
+    "u": "https://ignca.gov.in"
+},
+  {
     "id": "aiims-delhi-project-nurse-recruitment-2026",
     "b": "All India Institute of Medical Sciences, New Delhi",
     "t": "All India Institute of Medical Sciences, New Delhi Recruitment 2026 Notification Out for 2 Project Nurse-III Posts | Apply Online",
