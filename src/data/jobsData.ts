@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-roorkee-jrf-recruitment-2026",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 15, 2026 by 5 PM",
+    "a": "SRIC/06",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification SRIC/06 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/MI/2026/adv22102026.pdf"
+},
+  {
+    "id": "iit-roorkee-srf-recruitment-2026-3075158",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow/Senior Research Fellow Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026 by 11:59 PM",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Junior Research Fellow/Senior Research Fellow posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CE/2026/adv221020264.pdf"
+},
+  {
+    "id": "iit-roorkee-various-recruitment-2026",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "25 October 2026 by 11:59 PM",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/CSE/2026/adv221020263.pdf"
+},
+  {
+    "id": "sgpgims-lucknow-sr-recruitment-2026",
+    "b": "Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow",
+    "t": "Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow Recruitment 2026 Notification Out for 2 Senior Resident (Hospital Services) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "14.00 hrs to 16.00 hrs (Walk-in)",
+    "a": "Walk in Interview for Short Term Appointment (Supplementary Advertisement), dated 21.10.2026",
+    "q": "B.Tech / B.E",
+    "desc": "Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow has officially announced employment advertisement notification Walk in Interview for Short Term Appointment (Supplementary Advertisement), dated 21.10.2026 inviting applications for 2 vacancies for Senior Resident (Hospital Services) posts.",
+    "u": "https://sgpgims.org.in/Home/recruit/sr/2026/22.10.2026_SRHS%20Rolling%20Advt%20SUPPLIMENTARY_221026.pdf"
+},
+  {
+    "id": "tmc-mpmmcc-ad-hoc-mo-recruitment-2026",
+    "b": "TMC MPMMCC Ad-hoc Medical Officer",
+    "t": "TMC MPMMCC Ad-hoc Medical Officer Recruitment 2026 Notification Out for 1 Ad-hoc Medical Officer (Haemato-pathology) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Wednesday, 04th November 2026 (Walk-in)",
+    "a": "TMC-MPMMCC-AD-/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "TMC MPMMCC Ad-hoc Medical Officer has officially announced employment advertisement notification TMC-MPMMCC-AD-/2026 inviting applications for 1 vacancies for Ad-hoc Medical Officer (Haemato-pathology) posts.",
+    "u": "https://tmc.gov.in"
+},
+  {
+    "id": "hbch-mpm-visiting-consultan-recruitment-2026",
+    "b": "HBCH MPMMCC Visiting Consultant (Radiodiagnosis)",
+    "t": "HBCH MPMMCC Visiting Consultant (Radiodiagnosis) Recruitment 2026 Notification Out for 1 Visiting Consultant (Radiodiagnosis) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "04th November 2026 (Walk-in)",
+    "a": "HBCH-MPMMCC-VI/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "HBCH MPMMCC Visiting Consultant (Radiodiagnosis) has officially announced employment advertisement notification HBCH-MPMMCC-VI/2026 inviting applications for 1 vacancies for Visiting Consultant (Radiodiagnosis) posts.",
+    "u": "https://tmc.gov.in"
+},
+  {
+    "id": "cgst-lucknow-tax-assistant-recruitment-2026",
+    "b": "Office of the Principal Chief Commissioner of CGST & Central Excise Zone Lucknow (CGST Lucknow)",
+    "t": "Office of the Principal Chief Commissioner of CGST & Central Excise Zone Lucknow (CGST Lucknow) Recruitment 2026 Notification Out for 17 Tax Assistant, Havaldar Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "23 November 2026 (17:00 hrs)",
+    "a": "Download Official Notification",
+    "q": "Not specified in the provided notification. See the detailed notice on w...",
+    "desc": "Office of the Principal Chief Commissioner of CGST & Central Excise Zone Lucknow (CGST Lucknow) has officially announced employment advertisement notification Download Official Notification inviting applications for 17 vacancies for Tax Assistant, Havaldar posts.",
+    "u": "https://www.cbic.gov.in"
+},
+  {
+    "id": "maharaja-suheldev-ap-recruitment-2026",
+    "b": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich",
+    "t": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich Recruitment 2026 Notification Out for 53 Professor, Associate Professor, Assistant Professor (contractual) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "27 October 2026, and after that every Tuesday and Friday (Walk-in)",
+    "a": "MAHARAJA-SUHEL/2026",
+    "q": "The table below gives the three faculty posts. The same qualification ru...",
+    "desc": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich has officially announced employment advertisement notification MAHARAJA-SUHEL/2026 inviting applications for 53 vacancies for Professor, Associate Professor, Assistant Professor (contractual) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e96ed478dab8595a7dbda4cbcbee168f/uploads/2026/10/17926496851815.pdf"
+},
+  {
+    "id": "maharaja-suhel-dev-ap-recruitment-2026",
+    "b": "Maharaja Suhel Dev Autonomous State Medical College & Mahrishi Balark Hospitals, Bahraich",
+    "t": "Maharaja Suhel Dev Autonomous State Medical College & Mahrishi Balark Hospitals, Bahraich Recruitment 2026 Notification Out for 56 Professor, Associate Professor, Assistant Professor Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "25 November 2026, till 05:00 p.m.",
+    "a": "21/10/2026",
+    "q": "Professor-Associate-Professor-Assistant-Professor: As per the latest NMC...",
+    "desc": "Maharaja Suhel Dev Autonomous State Medical College & Mahrishi Balark Hospitals, Bahraich has officially announced employment advertisement notification 21/10/2026 inviting applications for 56 vacancies for Professor, Associate Professor, Assistant Professor posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e96ed478dab8595a7dbda4cbcbee168f/uploads/2026/10/17926502502762.pdf"
+},
+  {
+    "id": "rgnau-ap-recruitment-2026",
+    "b": "Rajiv Gandhi National Aviation University (RGNAU)",
+    "t": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 32 Professor, Associate Professor and Assistant Professor Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "22 December 2026",
+    "a": "RGNAU/5360/01/ADMIN/669",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially announced employment advertisement notification RGNAU/5360/01/ADMIN/669 inviting applications for 32 vacancies for Professor, Associate Professor and Assistant Professor posts.",
+    "u": "https://rgnaurec.samarth.edu.in/"
+},
+  {
     "id": "drat-steno-recruitment-2026",
     "b": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India",
     "t": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India Recruitment 2026 Notification Out for 37 Stenographer, UDC and More Posts | Apply Offline",
