@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "daulat-ram-college-ap-recruitment-2026",
+    "b": "Daulat Ram College (University of Delhi)",
+    "t": "Daulat Ram College (University of Delhi) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "28 October 2026 at 11:00 am (Walk-in)",
+    "a": "DAULAT-RAM-COL/2026",
+    "q": "Assistant-Professor-Biochemistry: 1",
+    "desc": "Daulat Ram College (University of Delhi) has officially announced employment advertisement notification DAULAT-RAM-COL/2026 inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://dr.du.ac.in"
+},
+  {
+    "id": "lady-irwin-athletic-basket-recruitment-2026",
+    "b": "Lady Irwin College Delhi",
+    "t": "Lady Irwin College Delhi Recruitment 2026 Notification Out for 3 ATHLETIC / BASKET BALL / BADMINTON Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Monday, 2nd November 2026 (Walk-in)",
+    "a": "LIC/2026/Oct",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Lady Irwin College Delhi has officially announced employment advertisement notification LIC/2026/Oct inviting applications for 3 vacancies for ATHLETIC / BASKET BALL / BADMINTON posts.",
+    "u": "https://www.du.ac.in"
+},
+  {
+    "id": "rrb-station-master-recruitment-2026",
+    "b": "Railway Recruitment Board (RRB), Across India",
+    "t": "Railway Recruitment Board (RRB), Across India Recruitment 2026 Notification Out for 1250 Station Master Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "25 November 2026",
+    "a": "CEN No. 08/2026",
+    "q": "As per detailed CEN",
+    "desc": "Railway Recruitment Board (RRB), Across India has officially announced employment advertisement notification CEN No. 08/2026 inviting applications for 1250 vacancies for Station Master posts.",
+    "u": "https://rrbapply.gov.in"
+},
+  {
+    "id": "rcil-jgm-sr-recruitment-2026",
+    "b": "RailTel Corporation of India Limited (RCIL)",
+    "t": "RailTel Corporation of India Limited (RCIL) Recruitment 2026 Notification Out for 1 JGM / SR DGM Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 30 days from date of notification (about 21 November 2026)",
+    "a": "Vacancy Notice No. 17/2026 [No. RCIL-CO0HR(RENG)/11/2025 (Comp No.52850)]",
+    "q": "The recruitment is conducted for 1 post of JGM / SR DGM (E6/E5) on a dep...",
+    "desc": "RailTel Corporation of India Limited (RCIL) has officially announced employment advertisement notification Vacancy Notice No. 17/2026 [No. RCIL-CO0HR(RENG)/11/2025 (Comp No.52850)] inviting applications for 1 vacancies for JGM / SR DGM posts.",
+    "u": "https://www.railtel.in"
+},
+  {
+    "id": "dtu-ap-recruitment-2026",
+    "b": "Delhi Technological University (DTU)",
+    "t": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 219 Assistant Professor Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "7 December 2026, 5:00 PM",
+    "a": "F.DTU/Rectt./Asst.Prof/2026/F-1018/5602",
+    "q": "Any Bachelor's Degree",
+    "desc": "Delhi Technological University (DTU) has officially announced employment advertisement notification F.DTU/Rectt./Asst.Prof/2026/F-1018/5602 inviting applications for 219 vacancies for Assistant Professor posts.",
+    "u": "https://www.dtu.ac.in/"
+},
+  {
+    "id": "dpr-chhatt-anganwadi-worker-recruitment-2026",
+    "b": "DPR Chhattisgarh Anganwadi Worker",
+    "t": "DPR Chhattisgarh Anganwadi Worker Recruitment 2026 Notification Out for 37 Anganwadi Worker Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "6 November 2026",
+    "a": "DPR-CHHATTISGA/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DPR Chhattisgarh Anganwadi Worker has officially announced employment advertisement notification DPR-CHHATTISGA/2026 inviting applications for 37 vacancies for Anganwadi Worker posts.",
+    "u": "https://aww.e-bharti.in/login"
+},
+  {
+    "id": "icds-janjg-anganwadi-worker-recruitment-2026",
+    "b": "ICDS Janjgir Anganwadi Worker",
+    "t": "ICDS Janjgir Anganwadi Worker Recruitment 2026 Notification Out for 1 Anganwadi Worker (Anganwadi Karyakarta) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026",
+    "a": "Notice dated 21 October 2026 (Janjgir-Champa)",
+    "q": "12th Pass",
+    "desc": "ICDS Janjgir Anganwadi Worker has officially announced employment advertisement notification Notice dated 21 October 2026 (Janjgir-Champa) inviting applications for 1 vacancies for Anganwadi Worker (Anganwadi Karyakarta) posts.",
+    "u": "https://aww.e-bharti.in"
+},
+  {
+    "id": "chhattisgar-legal-assistant-recruitment-2026",
+    "b": "Chhattisgarh High Court",
+    "t": "Chhattisgarh High Court Recruitment 2026 Notification Out for 11 Legal Assistant Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026",
+    "a": "05/Legal Assistant/2026",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "Chhattisgarh High Court has officially announced employment advertisement notification 05/Legal Assistant/2026 inviting applications for 11 vacancies for Legal Assistant posts.",
+    "u": "https://highcourt.cg.gov.in/"
+},
+  {
+    "id": "directorate-of-data-analyst-recruitment-2026",
+    "b": "Directorate of Agriculture Chhattisgarh, Raipur",
+    "t": "Directorate of Agriculture Chhattisgarh, Raipur Recruitment 2026 Notification Out for 4 State Project Officer (State Head), Remote Sensing Specialist, Data Analyst & MIS Specialist and 1 more Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "17 November 2026 (Walk-in)",
+    "a": "DIRECTORATE-OF/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Directorate of Agriculture Chhattisgarh, Raipur has officially announced employment advertisement notification DIRECTORATE-OF/2026 inviting applications for 4 vacancies for State Project Officer (State Head), Remote Sensing Specialist, Data Analyst & MIS Specialist and 1 more posts.",
+    "u": "https://jansampark.cg.gov.in/GetFile.aspx?Id=2e38e67e-fae6-4255-9084-548ef29a4ba5"
+},
+  {
+    "id": "chhattisgar-vice-chancellor-recruitment-2026",
+    "b": "Governor's Secretariat, Lok Bhavan, Raipur (Chhattisgarh)",
+    "t": "Governor's Secretariat, Lok Bhavan, Raipur (Chhattisgarh) Recruitment 2026 Notification Out for 1 Vice-Chancellor Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "29 October 2026",
+    "a": "F 1-5/2026/RS/U-2",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Governor's Secretariat, Lok Bhavan, Raipur (Chhattisgarh) has officially announced employment advertisement notification F 1-5/2026/RS/U-2 inviting applications for 1 vacancies for Vice-Chancellor posts.",
+    "u": "https://igkv.ac.in"
+},
+  {
     "id": "kisce-various-recruitment-2026",
     "b": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council",
     "t": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
