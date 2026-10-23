@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bpsc-school-teacher-recruitment-2026",
+    "b": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001",
+    "t": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 Recruitment 2026 Notification Out for 32388 School Teacher / Vidyalaya Adhyapak (TRE-4.0) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "26 October 2026",
+    "a": "14/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 has officially announced employment advertisement notification 14/2026 inviting applications for 32388 vacancies for School Teacher / Vidyalaya Adhyapak (TRE-4.0) posts.",
+    "u": "https://bpsconline.bihar.gov.in/"
+},
+  {
+    "id": "indira-gandhi-inst-sr-recruitment-2026",
+    "b": "Indira Gandhi Institute of Medical Sciences, Patna-14",
+    "t": "Indira Gandhi Institute of Medical Sciences, Patna-14 Recruitment 2026 Notification Out for 2 Senior Resident (ad-hoc, 89 days Senior Residency Programme), Department of PMR Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "23 November 2026 (Monday), interview at 11:00 AM (Walk-in)",
+    "a": "SR/Ad-hoc/03/PMR/2026 (dated 22/10/2026)",
+    "q": "There are 2 Senior Resident posts in the Department of PMR: 1 for UR and...",
+    "desc": "Indira Gandhi Institute of Medical Sciences, Patna-14 has officially announced employment advertisement notification SR/Ad-hoc/03/PMR/2026 (dated 22/10/2026) inviting applications for 2 vacancies for Senior Resident (ad-hoc, 89 days Senior Residency Programme), Department of PMR posts.",
+    "u": "https://www.igims.org/resources/uploads/TenderManagement/179266285174.pdf"
+},
+  {
+    "id": "nrl-various-recruitment-2026",
+    "b": "Numaligarh Refinery Limited (NRL)",
+    "t": "Numaligarh Refinery Limited (NRL) Recruitment 2026 Notification Out for 5 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "12 November 2026 (up to 23:59 hrs)",
+    "a": "13/2026 (C)",
+    "q": "Diploma | B.Tech / B.E | B.Sc",
+    "desc": "Numaligarh Refinery Limited (NRL) has officially announced employment advertisement notification 13/2026 (C) inviting applications for 5 vacancies for Various Posts posts.",
+    "u": "https://www.nrl.co.in/"
+},
+  {
+    "id": "oil-indi-superintending-res-recruitment-2026",
+    "b": "Oil India Limited",
+    "t": "Oil India Limited Recruitment 2026 Notification Out for 87 Superintending Research Scientist, Senior Officer (Mechanical), Senior Officer (Petroleum), Senior Accounts Officer / Senior Internal Auditor, Hindi Officer (Official Language), Confidential Secretary Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "11:00 hours on 14 November 2026",
+    "a": "HRAQ/REC-EX-B/2026-03",
+    "q": "Diploma | B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Oil India Limited has officially announced employment advertisement notification HRAQ/REC-EX-B/2026-03 inviting applications for 87 vacancies for Superintending Research Scientist, Senior Officer (Mechanical), Senior Officer (Petroleum), Senior Accounts Officer / Senior Internal Auditor, Hindi Officer (Official Language), Confidential Secretary posts.",
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/101869/cLS13NVBAyZXSMfBYd/Index.html"
+},
+  {
+    "id": "gauhati-high-cour-group-mts-recruitment-2026",
+    "b": "Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+    "t": "Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh) Recruitment 2026 Notification Out for 2 Group-D (MTS) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "17 November 2026 till office working hours",
+    "a": "No.HC.XXXVII-19/2026/ 336 /R.Cell, dated 16 October 2026",
+    "q": "10th / 8th Pass | B.Tech / B.E",
+    "desc": "Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh) has officially announced employment advertisement notification No.HC.XXXVII-19/2026/ 336 /R.Cell, dated 16 October 2026 inviting applications for 2 vacancies for Group-D (MTS) posts.",
+    "u": "https://ghconline.gov.in"
+},
+  {
+    "id": "iit-guwahati-qualifications-recruitment-2026",
+    "b": "Indian Institute of Technology Guwahati",
+    "t": "Indian Institute of Technology Guwahati Recruitment 2026 Notification Out for 1 Qualifications Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Walk-in Interview (N-block, Meeting room, BSBE Dept.) (Walk-in)",
+    "a": "xxBSBESPNICMR00913xxSK0014",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Guwahati has officially announced employment advertisement notification xxBSBESPNICMR00913xxSK0014 inviting applications for 1 vacancies for Qualifications posts.",
+    "u": "https://iitg.ac.in/rndproj/recruitment/"
+},
+  {
+    "id": "aps-udc-pre-recruitment-2026",
+    "b": "Army Public School Narangi (Local Screening Board)",
+    "t": "Army Public School Narangi (Local Screening Board) Recruitment 2026 Notification Out for 5 UDC, Pre-Primary Teacher and More Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026 till 2:00 pm",
+    "a": "or the pay",
+    "q": "12th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Army Public School Narangi (Local Screening Board) has officially announced employment advertisement notification or the pay inviting applications for 5 vacancies for UDC, Pre-Primary Teacher and More posts.",
+    "u": "https://www.apsnarangi.com"
+},
+  {
+    "id": "amrita-vi-robotics-engineer-recruitment-2026",
+    "b": "Amrita Vishwa Vidyapeetham",
+    "t": "Amrita Vishwa Vidyapeetham Recruitment 2026 Notification Out for 83 Robotics Engineer, Senior Research Assistant, Research Trainee, Marketing Staff and More Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026",
+    "a": "AMRITA-VISHWA-/2026",
+    "q": "12th Pass | ITI | B.Tech / B.E",
+    "desc": "Amrita Vishwa Vidyapeetham has officially announced employment advertisement notification AMRITA-VISHWA-/2026 inviting applications for 83 vacancies for Robotics Engineer, Senior Research Assistant, Research Trainee, Marketing Staff and More posts.",
+    "u": "https://www.amrita.edu/jobs/"
+},
+  {
+    "id": "visakhapatnam-senior-deputy-recruitment-2026",
+    "b": "Visakhapatnam Port Authority",
+    "t": "Visakhapatnam Port Authority Recruitment 2026 Notification Out for 1 Senior Deputy Secretary (Class - I) (Dy.HoD) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "21 November 2026 (Online closing date); 07 December 2026 (Hard copy receipt date)",
+    "a": "No. C2/Rect/Sr. Dy. Secretary/GAD/2024/4801",
+    "q": "Any Bachelor's Degree",
+    "desc": "Visakhapatnam Port Authority has officially announced employment advertisement notification No. C2/Rect/Sr. Dy. Secretary/GAD/2024/4801 inviting applications for 1 vacancies for Senior Deputy Secretary (Class - I) (Dy.HoD) posts.",
+    "u": "http://onlinevacancy.shipmin.nic.in"
+},
+  {
+    "id": "dcil-trainee-marine-recruitment-2026",
+    "b": "Dredging Corporation of India Limited (DCIL)",
+    "t": "Dredging Corporation of India Limited (DCIL) Recruitment 2026 Notification Out for 34 Trainee Marine Engineer, Trainee Electrical Officer, NCV Trainee and Fleet Personnel Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "Official Recruitment Announcements (Walk-in)",
+    "a": "04/2026",
+    "q": "10th / 8th Pass | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Dredging Corporation of India Limited (DCIL) has officially announced employment advertisement notification 04/2026 inviting applications for 34 vacancies for Trainee Marine Engineer, Trainee Electrical Officer, NCV Trainee and Fleet Personnel posts.",
+    "u": "https://dredge-india.com/files/WebsiteAdvNo042026.pdf"
+},
+  {
     "id": "aiims-kalyani-ap-recruitment-2026",
     "b": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani)",
     "t": "All India Institute of Medical Sciences Kalyani (AIIMS Kalyani) Recruitment 2026 Notification Out for 1 Assistant Professor (Contractual) Posts | Walk-in Interview",
