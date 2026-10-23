@@ -12,6 +12,94 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "dhfws-data-manager-recruitment-2026",
+    "b": "District Health & Family Welfare Samiti, Howrah",
+    "t": "District Health & Family Welfare Samiti, Howrah Recruitment 2026 Notification Out for 156 Multi Rehabilitation Worker, Pharmacist, Staff Nurse, Community Health Assistant, STS, TBHV, Block Data Manager Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026",
+    "a": "DHFWS/HOW/2284",
+    "q": "B.Sc | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "District Health & Family Welfare Samiti, Howrah has officially announced employment advertisement notification DHFWS/HOW/2284 inviting applications for 156 vacancies for Multi Rehabilitation Worker, Pharmacist, Staff Nurse, Community Health Assistant, STS, TBHV, Block Data Manager posts.",
+    "u": "https://wbhealth.gov.in"
+},
+  {
+    "id": "wbpsc-pa-recruitment-2026",
+    "b": "Public Service Commission, West Bengal (WBPSC)",
+    "t": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 266 Personal Assistant in the cadre of Schedule A and Schedule B English Stenographer (Basic Grade) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "7 November 2026, 3:30 PM",
+    "a": "04/2025",
+    "q": "Madhyamik Examination or Equivalent",
+    "desc": "Public Service Commission, West Bengal (WBPSC) has officially announced employment advertisement notification 04/2025 inviting applications for 266 vacancies for Personal Assistant in the cadre of Schedule A and Schedule B English Stenographer (Basic Grade) posts.",
+    "u": "https://psc.wb.gov.in"
+},
+  {
+    "id": "wbpsc-sub-surveyor-recruitment-2026",
+    "b": "Public Service Commission, West Bengal (WBPSC)",
+    "t": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 1145 Sub-Surveyor (permanent post) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "09 November 2026 (up to 3 p.m.)",
+    "a": "22/2024 (in continuation of the Indicative Advertisement No. 22/2024 dated 31.12.2024); notice dated 14.10.2026",
+    "q": "To meet the WBPSC Sub Surveyor eligibility, candidates must satisfy the ...",
+    "desc": "Public Service Commission, West Bengal (WBPSC) has officially announced employment advertisement notification 22/2024 (in continuation of the Indicative Advertisement No. 22/2024 dated 31.12.2024); notice dated 14.10.2026 inviting applications for 1145 vacancies for Sub-Surveyor (permanent post) posts.",
+    "u": "https://psc.wb.gov.in"
+},
+  {
+    "id": "wbpsc-lower-division-recruitment-2026",
+    "b": "Public Service Commission, West Bengal (WBPSC)",
+    "t": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 1 Lower Division Assistant / Lower Division Clerk and similar Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "26 October 2026 (up to 3:30 p.m.)",
+    "a": "12/2024",
+    "q": "Madhyamik or equivalent, with computer operation and typing skill",
+    "desc": "Public Service Commission, West Bengal (WBPSC) has officially announced employment advertisement notification 12/2024 inviting applications for 1 vacancies for Lower Division Assistant / Lower Division Clerk and similar posts posts.",
+    "u": "https://psc.wb.gov.in/"
+},
+  {
+    "id": "armed-forces-tribu-udc-ldc-recruitment-2026",
+    "b": "Armed Forces Tribunal, Regional Bench, Kolkata (Ministry of Defence, Government of India)",
+    "t": "Armed Forces Tribunal, Regional Bench, Kolkata (Ministry of Defence, Government of India) Recruitment 2026 Notification Out for 20 UDC, LDC and More Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "09th December 2026 (Wednesday), the last date for the application to reach the office",
+    "a": "ARMED-FORCES-T/2026",
+    "q": "10th / 8th Pass | 12th Pass | Any Bachelor's Degree",
+    "desc": "Armed Forces Tribunal, Regional Bench, Kolkata (Ministry of Defence, Government of India) has officially announced employment advertisement notification ARMED-FORCES-T/2026 inviting applications for 20 vacancies for UDC, LDC and More posts.",
+    "u": "https://aft.gov.in/public/upload_document/1792654511.pdf"
+},
+  {
+    "id": "iit-kharag-project-engineer-recruitment-2026",
+    "b": "Indian Institute of Technology Kharagpur",
+    "t": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 1) Project Engineer - Research Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "IIT/SRIC/R/GEA/2026/109, DATED",
+    "q": "B.Tech / B.E | M.Tech / M.E | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Kharagpur has officially announced employment advertisement notification IIT/SRIC/R/GEA/2026/109, DATED inviting applications for 1 vacancies for 1) Project Engineer - Research posts.",
+    "u": "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Login.jsp?ref_no=IIT/SRIC/R/GEA/2026/109"
+},
+  {
+    "id": "iit-jrf-recruitment-2026-3074973",
+    "b": "Indian Institute of Technology (IIT) Roorkee",
+    "t": "Indian Institute of Technology (IIT) Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Not specified in the notification",
+    "a": "Download Here",
+    "q": "B.Tech / B.E",
+    "desc": "Indian Institute of Technology (IIT) Roorkee has officially announced employment advertisement notification Download Here inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://iitr.ac.in/Careers/static/Project_Jobs/ECE/2026/adv221020261.pdf"
+},
+  {
+    "id": "iit-roorkee-junior-various-recruitment-2026",
+    "b": "IIT Roorkee Junior Research Fellow",
+    "t": "IIT Roorkee Junior Research Fellow Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "05 November 2026",
+    "a": "IIT-ROORKEE-JU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "IIT Roorkee Junior Research Fellow has officially announced employment advertisement notification IIT-ROORKEE-JU/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://iitr.ac.in"
+},
+  {
     "id": "iit-roorkee-jrf-recruitment-2026",
     "b": "Indian Institute of Technology, Roorkee",
     "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
