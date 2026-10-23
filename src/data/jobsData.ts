@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iisc-bhopal-jrf-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Bhopal",
+    "t": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31st October, 2026",
+    "a": "or the application fee",
+    "q": "B.Tech / B.E | M.Sc | MBBS / Medical PG",
+    "desc": "Indian Institute of Science Education and Research Bhopal has officially announced employment advertisement notification or the application fee inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.iiserb.ac.in"
+},
+  {
+    "id": "aps-gwalior-tg-tgt-sanskrit-recruitment-2026",
+    "b": "APS Gwalior TGT",
+    "t": "APS Gwalior TGT Recruitment 2026 Notification Out for 1 TGT (Sanskrit) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "26 October 2026 (Walk-in)",
+    "a": "7006/APSG for the post of TGT (Sanskrit)",
+    "q": "B.Tech / B.E",
+    "desc": "APS Gwalior TGT has officially announced employment advertisement notification 7006/APSG for the post of TGT (Sanskrit) inviting applications for 1 vacancies for TGT (Sanskrit) posts.",
+    "u": "https://armyschoolgwalior.edu.in/upload/1792641714.pdf"
+},
+  {
+    "id": "rail-vik-executive-director-recruitment-2026",
+    "b": "Rail Vikas Nigam Limited",
+    "t": "Rail Vikas Nigam Limited Recruitment 2026 Notification Out for 1 Executive Director (Civil) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "12 November 2026",
+    "a": "2026/RVNL/64-CIVIL",
+    "q": "B.Tech / B.E",
+    "desc": "Rail Vikas Nigam Limited has officially announced employment advertisement notification 2026/RVNL/64-CIVIL inviting applications for 1 vacancies for Executive Director (Civil) posts.",
+    "u": "https://rvnl.org"
+},
+  {
+    "id": "iaf-hindi-typist-recruitment-2026",
+    "b": "Indian Air Force (IAF)",
+    "t": "Indian Air Force (IAF) Recruitment 2026 Notification Out for 1 Hindi Typist Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 30 days from publication",
+    "a": "04/2026",
+    "q": "12th Pass",
+    "desc": "Indian Air Force (IAF) has officially announced employment advertisement notification 04/2026 inviting applications for 1 vacancies for Hindi Typist posts.",
+    "u": "https://www.freejobalert.com/articles/indian-air-force-hindi-typist-recruitment-2026-3074995"
+},
+  {
+    "id": "mgu-ap-recruitment-2026",
+    "b": "Mahatma Gandhi University (MGU)",
+    "t": "Mahatma Gandhi University (MGU) Recruitment 2026 Notification Out for 3 Assistant Professor (Hindi), Assistant Professor (Microbiology/Biotechnology), Assistant Professor (Environmental Science) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Within 10 days from the date of notification (about about 24 October 2026)",
+    "a": "Re-Notification 3 (5931/ADA7-1/2026/AD A 7)",
+    "q": "Assistant-Professor-Hindi: As per UGC norms | Assistant-Professor-Microb...",
+    "desc": "Mahatma Gandhi University (MGU) has officially announced employment advertisement notification Re-Notification 3 (5931/ADA7-1/2026/AD A 7) inviting applications for 3 vacancies for Assistant Professor (Hindi), Assistant Professor (Microbiology/Biotechnology), Assistant Professor (Environmental Science) posts.",
+    "u": "https://www.mgu.ac.in"
+},
+  {
+    "id": "csl-various-recruitment-2026",
+    "b": "Cochin Shipyard Limited (CSL)",
+    "t": "Cochin Shipyard Limited (CSL) Recruitment 2026 Notification Out for 227 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "COCHIN-SHIPYAR/2026",
+    "q": "ITI",
+    "desc": "Cochin Shipyard Limited (CSL) has officially announced employment advertisement notification COCHIN-SHIPYAR/2026 inviting applications for 227 vacancies for Various Posts posts.",
+    "u": "https://pminternship.mca.gov.in/login/"
+},
+  {
+    "id": "kerala-psc-draftsman-recruitment-2026",
+    "b": "Kerala Public Service Commission (Kerala PSC)",
+    "t": "Kerala Public Service Commission (Kerala PSC) Recruitment 2026 Notification Out for 74 Peon/Watchman, Draftsman, Forest Boat Driver, Higher Secondary School Teacher, Police Constable Driver Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "04 October 2026",
+    "a": "KERALA-PUBLIC-/2026",
+    "q": "Diploma | B.Tech / B.E",
+    "desc": "Kerala Public Service Commission (Kerala PSC) has officially announced employment advertisement notification KERALA-PUBLIC-/2026 inviting applications for 74 vacancies for Peon/Watchman, Draftsman, Forest Boat Driver, Higher Secondary School Teacher, Police Constable Driver posts.",
+    "u": "https://www.keralapsc.gov.in/"
+},
+  {
+    "id": "kmrl-various-recruitment-2026",
+    "b": "Kochi Metro Rail Limited (KMRL)",
+    "t": "Kochi Metro Rail Limited (KMRL) Recruitment 2026 Notification Out for 70 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "10 November 2026",
+    "a": "KMRL/Apprenticeship/2026-27/HR-Admin/01",
+    "q": "ITI | Diploma | Any Bachelor's Degree",
+    "desc": "Kochi Metro Rail Limited (KMRL) has officially announced employment advertisement notification KMRL/Apprenticeship/2026-27/HR-Admin/01 inviting applications for 70 vacancies for Various Posts posts.",
+    "u": "https://apprenticeshipindia.gov.in/"
+},
+  {
+    "id": "cmd-am-recruitment-2026",
+    "b": "Centre for Management Development (CMD) (on behalf of a reputed Public Sector Undertaking)",
+    "t": "Centre for Management Development (CMD) (on behalf of a reputed Public Sector Undertaking) Recruitment 2026 Notification Out for 2 Company Secretary, Assistant Manager Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "November 10, 2026, 05.00 PM",
+    "a": "No.CMD/10/2026/01",
+    "q": "B.Tech / B.E | M.Tech / M.E | MBA / BBA",
+    "desc": "Centre for Management Development (CMD) (on behalf of a reputed Public Sector Undertaking) has officially announced employment advertisement notification No.CMD/10/2026/01 inviting applications for 2 vacancies for Company Secretary, Assistant Manager posts.",
+    "u": "https://cmd.kerala.gov.in"
+},
+  {
+    "id": "kssm-mo-recruitment-2026",
+    "b": "Kerala Social Security Mission (KSSM)",
+    "t": "Kerala Social Security Mission (KSSM) Recruitment 2026 Notification Out for 1 Medical Officer Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026, 05.00 PM",
+    "a": "KERALA-SOCIAL-/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Kerala Social Security Mission (KSSM) has officially announced employment advertisement notification KERALA-SOCIAL-/2026 inviting applications for 1 vacancies for Medical Officer posts.",
+    "u": "https://socialsecuritymission.gov.in/wp-content/uploads/2026/10/notification_with_application_form.pdf"
+},
+  {
     "id": "sctimst-various-recruitment-2026",
     "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing)",
     "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
