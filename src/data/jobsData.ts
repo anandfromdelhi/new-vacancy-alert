@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kisce-various-recruitment-2026",
+    "b": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council",
+    "t": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "2 November 2026, 5:00 PM (receipt)",
+    "a": "CSC-UT-KI-2026-27/2602 dated 16/10/26",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council has officially announced employment advertisement notification CSC-UT-KI-2026-27/2602 dated 16/10/26 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://sportsdeptt.chd.gov.in/uploads/notice/20261021_7ca169ac5da11d738b6f394a.pdf"
+},
+  {
+    "id": "nhm-consultant-materna-recruitment-2026",
+    "b": "National Health Mission, Chandigarh, Health & Family Welfare Department, Chandigarh",
+    "t": "National Health Mission, Chandigarh, Health & Family Welfare Department, Chandigarh Recruitment 2026 Notification Out for 1 Consultant Maternal Health (RCH II Programme) under NHM Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "30 October 2026 (Walk-in)",
+    "a": "NHM-UT/16/2026-27 (dated 22.10.2026)",
+    "q": "The public notice is for qualified contractual staff and has one post: C...",
+    "desc": "National Health Mission, Chandigarh, Health & Family Welfare Department, Chandigarh has officially announced employment advertisement notification NHM-UT/16/2026-27 (dated 22.10.2026) inviting applications for 1 vacancies for Consultant Maternal Health (RCH II Programme) under NHM posts.",
+    "u": "https://nrhmchd.gov.in/cadmin/uploads/filemanagers/1792643946.pdf"
+},
+  {
+    "id": "society-for-centra-clerk-recruitment-2026",
+    "b": "Society for Centralized Recruitment of Staff in Subordinate Courts (S.S.S.C.), High Court of Punjab and Haryana, Chandigarh",
+    "t": "Society for Centralized Recruitment of Staff in Subordinate Courts (S.S.S.C.), High Court of Punjab and Haryana, Chandigarh Recruitment 2026 Notification Out for 1525 Clerk Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "4 November 2026, 4:00 PM",
+    "a": "37C/SSSC/PB/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "Society for Centralized Recruitment of Staff in Subordinate Courts (S.S.S.C.), High Court of Punjab and Haryana, Chandigarh has officially announced employment advertisement notification 37C/SSSC/PB/2026 inviting applications for 1525 vacancies for Clerk posts.",
+    "u": "https://cdn3.digialm.com/EForms/configuredHtml/32046/100408/8QbduJv6oSbKw2p7dK/Index.html"
+},
+  {
+    "id": "pserc-staff-consultant-recruitment-2026",
+    "b": "Punjab State Electricity Regulatory Commission (PSERC)",
+    "t": "Punjab State Electricity Regulatory Commission (PSERC) Recruitment 2026 Notification Out for 3 Staff Consultant, Director Finance and More Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "11 November 2026: the application must reach the Secretary, PSERC by this date",
+    "a": "Recruitment Notice Reference No. 79/2026/10",
+    "q": "MBA / BBA | Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "Punjab State Electricity Regulatory Commission (PSERC) has officially announced employment advertisement notification Recruitment Notice Reference No. 79/2026/10 inviting applications for 3 vacancies for Staff Consultant, Director Finance and More posts.",
+    "u": "https://pserc.punjab.gov.in/pages/Circular79-2026-10.pdf"
+},
+  {
+    "id": "sdh-mani-specialist-paediat-recruitment-2026",
+    "b": "SDH Manimajra",
+    "t": "SDH Manimajra Recruitment 2026 Notification Out for 2 Specialist (Paediatrician), Specialist (Medicine) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "RKS/CH-MM/",
+    "q": "Diploma | B.Tech / B.E | MBBS / Medical PG",
+    "desc": "SDH Manimajra has officially announced employment advertisement notification RKS/CH-MM/ inviting applications for 2 vacancies for Specialist (Paediatrician), Specialist (Medicine) posts.",
+    "u": "https://nrhmchd.gov.in"
+},
+  {
+    "id": "dlsa-sheohar-plv-recruitment-2026",
+    "b": "District Legal Services Authority Sheohar (DLSA Sheohar)",
+    "t": "District Legal Services Authority Sheohar (DLSA Sheohar) Recruitment 2026 Notification Out for 100 Para Legal Volunteer (PLV) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "30 November 2026 up to 05:00 PM",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "Matric pass",
+    "desc": "District Legal Services Authority Sheohar (DLSA Sheohar) has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 100 vacancies for Para Legal Volunteer (PLV) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec0407211688a0869d995947a8fb11b2/uploads/2026/10/2026101655.pdf"
+},
+  {
+    "id": "dlsa-gaya-panel-lawyer-recruitment-2026",
+    "b": "District Legal Services Authority, Gaya (DLSA Gaya)",
+    "t": "District Legal Services Authority, Gaya (DLSA Gaya) Recruitment 2026 Notification Out for 55 Panel Lawyer (District Legal Services Authority, Gaya) and Panel Lawyer (Sub-divisional Legal Services Committee, Sherghati) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "5 November 2026 (up to 5:00 PM)",
+    "a": "02/2024",
+    "q": "Active membership in Bar Association/Sub-divisional Bar Association Sher...",
+    "desc": "District Legal Services Authority, Gaya (DLSA Gaya) has officially announced employment advertisement notification 02/2024 inviting applications for 55 vacancies for Panel Lawyer (District Legal Services Authority, Gaya) and Panel Lawyer (Sub-divisional Legal Services Committee, Sherghati) posts.",
+    "u": "https://gaya.dcourts.gov.in"
+},
+  {
+    "id": "btsc-fso-recruitment-2026",
+    "b": "Bihar Technical Service Commission (BTSC)",
+    "t": "Bihar Technical Service Commission (BTSC) Recruitment 2026 Notification Out for 150 Food Safety Officer (FSO) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "24 October 2026",
+    "a": "29/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Bihar Technical Service Commission (BTSC) has officially announced employment advertisement notification 29/2026 inviting applications for 150 vacancies for Food Safety Officer (FSO) posts.",
+    "u": "https://btsc.pariksha.nic.in/Agencies.aspx?KZhCrm9B4QPkl0gO2rAMuw=="
+},
+  {
+    "id": "btsc-matsya-prasar-recruitment-2026",
+    "b": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna",
+    "t": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna Recruitment 2026 Notification Out for 244 Matsya Prasar Padadhikari (Fisheries Extension Officer) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "23 October 2026",
+    "a": "28/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna has officially announced employment advertisement notification 28/2026 inviting applications for 244 vacancies for Matsya Prasar Padadhikari (Fisheries Extension Officer) posts.",
+    "u": "https://btsc.bihar.gov.in/node/1233"
+},
+  {
+    "id": "btsc-touring-veterinary-recruitment-2026",
+    "b": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna",
+    "t": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna Recruitment 2026 Notification Out for 787 Touring Veterinary Officer (Bharamanshil Pashu Chikitsa Padadhikari) & equivalent, basic cadre of Bihar Veterinary Service Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "23 October 2026",
+    "a": "27/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna has officially announced employment advertisement notification 27/2026 inviting applications for 787 vacancies for Touring Veterinary Officer (Bharamanshil Pashu Chikitsa Padadhikari) & equivalent, basic cadre of Bihar Veterinary Service posts.",
+    "u": "https://btsc.bihar.gov.in/node/1231"
+},
+  {
     "id": "bpsc-school-teacher-recruitment-2026",
     "b": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001",
     "t": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 Recruitment 2026 Notification Out for 32388 School Teacher / Vidyalaya Adhyapak (TRE-4.0) Posts | Apply Online",
