@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "oavs-principal-pgt-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya Sangathan (OAVS)",
+    "t": "Odisha Adarsha Vidyalaya Sangathan (OAVS) Recruitment 2026 Notification Out for 815 Principal, PGT, TGT, Art Teacher, PET and Computer Teacher Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "11 November 2026, 5:00 PM",
+    "a": "1/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha Adarsha Vidyalaya Sangathan (OAVS) has officially announced employment advertisement notification 1/2026 inviting applications for 815 vacancies for Principal, PGT, TGT, Art Teacher, PET and Computer Teacher posts.",
+    "u": "https://oav.edu.in/online-application.php"
+},
+  {
+    "id": "zss-jajpur-case-registry-recruitment-2026",
+    "b": "Zilla Swasthya Samiti Jajpur Case Registry Assistant",
+    "t": "Zilla Swasthya Samiti Jajpur Case Registry Assistant Recruitment 2026 Notification Out for 1 Case Registry Assistant (NMHP) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "31 October 2026 (Walk-in)",
+    "a": "6449",
+    "q": "Any Bachelor's Degree",
+    "desc": "Zilla Swasthya Samiti Jajpur Case Registry Assistant has officially announced employment advertisement notification 6449 inviting applications for 1 vacancies for Case Registry Assistant (NMHP) posts.",
+    "u": "https://jajpur.odisha.gov.in"
+},
+  {
+    "id": "aiims-bhu-maximum-age-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Bhubaneswar",
+    "t": "All India Institute of Medical Sciences, Bhubaneswar Recruitment 2026 Notification Out for 3 Maximum Age Limit Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026 up to 05.00 PM",
+    "a": "AIIMS/BBSR/UROLOGY/RECRUITMENT/2026/01",
+    "q": "12th Pass | Diploma | MBBS / Medical PG",
+    "desc": "All India Institute of Medical Sciences, Bhubaneswar has officially announced employment advertisement notification AIIMS/BBSR/UROLOGY/RECRUITMENT/2026/01 inviting applications for 3 vacancies for Maximum Age Limit posts.",
+    "u": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/10/e2bca50f-6f84-475a-81a5-921f695465eb-1.pdf"
+},
+  {
+    "id": "mmgpa-medical-offi-mo-recruitment-2026",
+    "b": "MMGPA Medical Officer",
+    "t": "MMGPA Medical Officer Recruitment 2026 Notification Out for 2 Medical Officer (Vaidyakiya Adhikari) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "29 October 2026 (Walk-in)",
+    "a": "MMGPA-MEDICAL-/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "MMGPA Medical Officer has officially announced employment advertisement notification MMGPA-MEDICAL-/2026 inviting applications for 2 vacancies for Medical Officer (Vaidyakiya Adhikari) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3d16509f6eaca1022bd8f28d6bc582cae/uploads/2026/10/202610211110373519.pdf"
+},
+  {
+    "id": "tmc-project-manager-recruitment-2026",
+    "b": "Tata Memorial Centre - Centre for Cancer Epidemiology",
+    "t": "Tata Memorial Centre - Centre for Cancer Epidemiology Recruitment 2026 Notification Out for 1 Project Manager Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "02 November 2026 (Walk-in)",
+    "a": "CCE/Advt/375/2026",
+    "q": "Diploma | MBBS / Medical PG | BDS / Dental",
+    "desc": "Tata Memorial Centre - Centre for Cancer Epidemiology has officially announced employment advertisement notification CCE/Advt/375/2026 inviting applications for 1 vacancies for Project Manager posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=5z9OXQGY+WK5ykraP+Ncng=="
+},
+  {
+    "id": "rbi-pharmacist-recruitment-2026",
+    "b": "Reserve Bank of India (RBI)",
+    "t": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 22 Pharmacist Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "03 November 2026, 5:00 PM",
+    "a": "RBI Mumbai Pharmacist Notification 2026",
+    "q": "Diploma | B.Pharm / D.Pharm",
+    "desc": "Reserve Bank of India (RBI) has officially announced employment advertisement notification RBI Mumbai Pharmacist Notification 2026 inviting applications for 22 vacancies for Pharmacist posts.",
+    "u": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/PHARMA13102026DF95644412B34F7FADB5C84B958DF14F.PDF#page=5&zoom=100,0,0"
+},
+  {
+    "id": "diat-srf-recruitment-2026",
+    "b": "Defence Institute of Advanced Technology",
+    "t": "Defence Institute of Advanced Technology Recruitment 2026 Notification Out for 6 Senior Research Fellow & Junior Research Fellow Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "31 October 2026",
+    "a": "29-2026/SRF/JRF/DIAT",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Defence Institute of Advanced Technology has officially announced employment advertisement notification 29-2026/SRF/JRF/DIAT inviting applications for 6 vacancies for Senior Research Fellow & Junior Research Fellow posts.",
+    "u": "https://diat.ac.in/wp-content/uploads/2026/10/Advt.-No29-2026-SRF-JRF.pdf"
+},
+  {
+    "id": "sndt-womens-univer-various-recruitment-2026",
+    "b": "SNDT Women's University (श्रीमती ना. दा. ठाकरसी महिला विद्यापीठ)",
+    "t": "SNDT Women's University (श्रीमती ना. दा. ठाकरसी महिला विद्यापीठ) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "28 October 2026 by 05:00 p.m.",
+    "a": "Estb/Gen-49/2026-27 (Web Notification No. 7 of 2026)",
+    "q": "Diploma | B.Sc",
+    "desc": "SNDT Women's University (श्रीमती ना. दा. ठाकरसी महिला विद्यापीठ) has officially announced employment advertisement notification Estb/Gen-49/2026-27 (Web Notification No. 7 of 2026) inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.sndt.ac.in/pdf/vacancies/2026/advertisement-for-post-of-technical-assistant-on-temporary-basis-on-fixed-honorarium-at-churchgate-campus-of-sndtwu.pdf"
+},
+  {
+    "id": "indian-railways-in-various-recruitment-2026",
+    "b": "Indian Railways Institute of Civil Engineering, Pune - 411001",
+    "t": "Indian Railways Institute of Civil Engineering, Pune - 411001 Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "Within 30 days from issue of the notification",
+    "a": "No. 122/IV/ Technical Assistant (dated 19.10.2026)",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Indian Railways Institute of Civil Engineering, Pune - 411001 has officially announced employment advertisement notification No. 122/IV/ Technical Assistant (dated 19.10.2026) inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.iricen.gov.in/iricen/otm/TA%20NOTIFICATION%20OCT2026117.pdf"
+},
+  {
+    "id": "iips-projec-project-officer-recruitment-2026",
+    "b": "IIPS Project Officer",
+    "t": "IIPS Project Officer Recruitment 2026 Notification Out for 4 Project Officer - Office Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "17 November 2026 (Walk-in)",
+    "a": "IIPS-PROJECT-O/2026",
+    "q": "IIPS has 4 Project Officer - Office positions. The pay is Rs. 40,000/- p...",
+    "desc": "IIPS Project Officer has officially announced employment advertisement notification IIPS-PROJECT-O/2026 inviting applications for 4 vacancies for Project Officer - Office posts.",
+    "u": "https://www.iipsindia.ac.in/sites/default/files/job-listing/Advertisement_LASI_Staff%20_22-10-2026.pdf"
+},
+  {
     "id": "department-of-plan-ra-recruitment-2026",
     "b": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola",
     "t": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola Recruitment 2026 Notification Out for 1 Research Associate under the HORTSAP pest surveillance scheme of Maharashtra Govt. Posts | Walk-in Interview",
