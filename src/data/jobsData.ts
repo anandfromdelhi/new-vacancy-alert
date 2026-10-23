@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "hbchrc-one-year-fe-one-year-recruitment-2026",
+    "b": "HBCH&RC One Year Fellow",
+    "t": "HBCH&RC One Year Fellow Recruitment 2026 Notification Out for 1 One Year Fellow (Hemato-Pathology) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "03 November 2026 (Walk-in)",
+    "a": "HBCHRC-ONE-YEA/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "HBCH&RC One Year Fellow has officially announced employment advertisement notification HBCHRC-ONE-YEA/2026 inviting applications for 1 vacancies for One Year Fellow (Hemato-Pathology) posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=sJwrG8IlkIobMny6NHw3wA=="
+},
+  {
+    "id": "government-of-pudu-various-recruitment-2026",
+    "b": "Government of Puducherry, Directorate of Accounts & Treasuries",
+    "t": "Government of Puducherry, Directorate of Accounts & Treasuries Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "13 November 2026",
+    "a": "1-1/DAT/S",
+    "q": "Stock Verifier/Store Keeper Grade I with 5 years regular service and req...",
+    "desc": "Government of Puducherry, Directorate of Accounts & Treasuries has officially announced employment advertisement notification 1-1/DAT/S inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://dat.py.gov.in/"
+},
+  {
+    "id": "pondicherry-univer-ra-recruitment-2026",
+    "b": "Pondicherry University",
+    "t": "Pondicherry University Recruitment 2026 Notification Out for 3 Research Associate, Project Technical Support Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "10 November 2026 (on or before)",
+    "a": "PU/MB/ UKRI669/2026-27/ for 3 vacancies",
+    "q": "M.Tech / M.E | M.Sc | MBBS / Medical PG",
+    "desc": "Pondicherry University has officially announced employment advertisement notification PU/MB/ UKRI669/2026-27/ for 3 vacancies inviting applications for 3 vacancies for Research Associate, Project Technical Support posts.",
+    "u": "https://www.pondiuni.edu.in/wp-content/uploads/2026/10/Advt_CARMA-PROJECT-DeptofMicrobiology21102026.pdf"
+},
+  {
+    "id": "jipmer-prs-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 Notification Out for 1 Project Research Scientist - III (Non-medical) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "29 October 2026 (Walk-in)",
+    "a": "JIP/PSM/ICMR/MI/001",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) has officially announced employment advertisement notification JIP/PSM/ICMR/MI/001 inviting applications for 1 vacancies for Project Research Scientist - III (Non-medical) posts.",
+    "u": "https://jipmer.edu.in"
+},
+  {
+    "id": "jipmer-essential-qualific-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry Recruitment 2026 Notification Out for 7 Essential Qualification (as printed) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "06 November 2026, up to 05.00 pm",
+    "a": "JIP/PSM/ICMR/MI/001 (dated 03.10.2026)",
+    "q": "Diploma | B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry has officially announced employment advertisement notification JIP/PSM/ICMR/MI/001 (dated 03.10.2026) inviting applications for 7 vacancies for Essential Qualification (as printed) posts.",
+    "u": "https://jipmer.edu.in/sites/default/files/Recruitment_Project_staffs_ICMR_PreMI_Study.pdf"
+},
+  {
+    "id": "csir-bhu-technical-business-recruitment-2026",
+    "b": "CSIR-Institute of Minerals & Materials Technology, Bhubaneswar",
+    "t": "CSIR-Institute of Minerals & Materials Technology, Bhubaneswar Recruitment 2026 Notification Out for 1 Technical & Business Development (Scientific & Technical) Consultant (Post Code C01) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "04 November 2026 at 11:00 A.M. (Walk-in)",
+    "a": "04/2026 dated 21.10.2026",
+    "q": "B.Tech / B.E",
+    "desc": "CSIR-Institute of Minerals & Materials Technology, Bhubaneswar has officially announced employment advertisement notification 04/2026 dated 21.10.2026 inviting applications for 1 vacancies for Technical & Business Development (Scientific & Technical) Consultant (Post Code C01) posts.",
+    "u": "https://www.immt.res.in/webroot/upload/admin/announcement/2026-10-21_announcement_img_1792580835.pdf"
+},
+  {
+    "id": "women-an-anganwadi-sahayika-recruitment-2026",
+    "b": "Women and Child Development Department Odisha",
+    "t": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 3 Anganwadi Sahayika Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "29 October 2026",
+    "a": "1727",
+    "q": "Must have passed Class 7 (+9) examination.",
+    "desc": "Women and Child Development Department Odisha has officially announced employment advertisement notification 1727 inviting applications for 3 vacancies for Anganwadi Sahayika posts.",
+    "u": "https://engagement-awc.odisha.gov.in/modifyawwEventListForOutsider.htm"
+},
+  {
+    "id": "odisha-university-assoc-dir-recruitment-2026",
+    "b": "Odisha University of Agriculture & Technology, Bhubaneswar",
+    "t": "Odisha University of Agriculture & Technology, Bhubaneswar Recruitment 2026 Notification Out for 52 Professor, Associate Director of Research & Equivalent Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "28 October 2026",
+    "a": "No. E-II-II-08/2026//15535 UAT",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Odisha University of Agriculture & Technology, Bhubaneswar has officially announced employment advertisement notification No. E-II-II-08/2026//15535 UAT inviting applications for 52 vacancies for Professor, Associate Director of Research & Equivalent posts.",
+    "u": "https://ouat.ac.in/wp-content/uploads/2026/09/Advt.-of-Professor.pdf"
+},
+  {
+    "id": "ssb-laboratory-assista-recruitment-2026",
+    "b": "State Selection Board (SSB), Department of Higher Education, Odisha",
+    "t": "State Selection Board (SSB), Department of Higher Education, Odisha Recruitment 2026 Notification Out for 435 Laboratory Assistant-cum-Storekeeper (Group B, Level 9) Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "16 November 2026, 11:45 PM",
+    "a": "04/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "State Selection Board (SSB), Department of Higher Education, Odisha has officially announced employment advertisement notification 04/2026 inviting applications for 435 vacancies for Laboratory Assistant-cum-Storekeeper (Group B, Level 9) posts.",
+    "u": "https://ssbodisha.ac.in/"
+},
+  {
+    "id": "opsc-aee-various-recruitment-2026",
+    "b": "OPSC AEE",
+    "t": "OPSC AEE Recruitment 2026 Notification Out for 758 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "Refer Official Notification",
+    "a": "5762/PSC",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "OPSC AEE has officially announced employment advertisement notification 5762/PSC inviting applications for 758 vacancies for Various Posts posts.",
+    "u": "https://opsc.gov.in/"
+},
+  {
     "id": "oavs-principal-pgt-recruitment-2026",
     "b": "Odisha Adarsha Vidyalaya Sangathan (OAVS)",
     "t": "Odisha Adarsha Vidyalaya Sangathan (OAVS) Recruitment 2026 Notification Out for 815 Principal, PGT, TGT, Art Teacher, PET and Computer Teacher Posts | Apply Online",
