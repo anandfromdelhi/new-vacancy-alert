@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "drat-steno-recruitment-2026",
+    "b": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India",
+    "t": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India Recruitment 2026 Notification Out for 37 Stenographer, UDC and More Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "28 December 2026 by 05:30 PM (applications must reach by this time)",
+    "a": "DEBTS-RECOVERY/2026",
+    "q": "Officers holding an analogous post on a regular basis, or with the presc...",
+    "desc": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India has officially announced employment advertisement notification DEBTS-RECOVERY/2026 inviting applications for 37 vacancies for Stenographer, UDC and More posts.",
+    "u": "https://financialservices.gov.in"
+},
+  {
+    "id": "jiit-various-recruitment-2026",
+    "b": "Jaypee Institute of Information Technology (JIIT), a private university, not a government body",
+    "t": "Jaypee Institute of Information Technology (JIIT), a private university, not a government body Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026",
+    "a": "JAYPEE-INSTITU/2026",
+    "q": "Graduates, with at least 10 years of security or patrolling experience",
+    "desc": "Jaypee Institute of Information Technology (JIIT), a private university, not a government body has officially announced employment advertisement notification JAYPEE-INSTITU/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.jiit.ac.in/uploads/Vigilane_Supervisors_Oct26_8e4e438ad1.pdf"
+},
+  {
+    "id": "tmc-essential-educatio-recruitment-2026",
+    "b": "Tata Memorial Centre (TMC) / Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC) / Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi",
+    "t": "Tata Memorial Centre (TMC) / Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC) / Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi Recruitment 2026 Notification Out for 4 Essential Education and Experience Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "28 October 2026 upto 05.00 PM (Indian Standard Time)",
+    "a": "AD/VAR/2026/22, AD/VAR/2026/17, OS/VAR/2026/42, OS/VAR/2026/41",
+    "q": "12th Pass | Diploma | B.Sc",
+    "desc": "Tata Memorial Centre (TMC) / Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC) / Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi has officially announced employment advertisement notification AD/VAR/2026/22, AD/VAR/2026/17, OS/VAR/2026/42, OS/VAR/2026/41 inviting applications for 4 vacancies for Essential Education and Experience posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScdG4VvrbG0jHbGJCcy5EJC0n_n-PJgUIODhZ-n9e7CNewBLg/viewform"
+},
+  {
+    "id": "bric-niab-pts-recruitment-2026",
+    "b": "BRIC-National Institute of Animal Biotechnology (BRIC-NIAB), Hyderabad",
+    "t": "BRIC-National Institute of Animal Biotechnology (BRIC-NIAB), Hyderabad Recruitment 2026 Notification Out for 1 Project Technical Support-1 Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "30 October 2026 by 5 PM",
+    "a": "Advt. No. 30 / 2026",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "BRIC-National Institute of Animal Biotechnology (BRIC-NIAB), Hyderabad has officially announced employment advertisement notification Advt. No. 30 / 2026 inviting applications for 1 vacancies for Project Technical Support-1 posts.",
+    "u": "https://www.niab.res.in/wp-content/uploads/2026/10/Notifications_30_2026.pdf"
+},
+  {
+    "id": "pjtsau-gr-graduate-teaching-recruitment-2026",
+    "b": "PJTSAU Graduate Teaching Assistant",
+    "t": "PJTSAU Graduate Teaching Assistant Recruitment 2026 Notification Out for 1 Graduate Teaching Assistant (On temporary basis) Posts | Walk-in Interview",
+    "d": "23 October 2026",
+    "l": "04 November 2026 (Walk-in)",
+    "a": "PJTSAU-GRADUAT/2026",
+    "q": "B.Tech / B.E | B.Sc | Any Bachelor's Degree",
+    "desc": "PJTSAU Graduate Teaching Assistant has officially announced employment advertisement notification PJTSAU-GRADUAT/2026 inviting applications for 1 vacancies for Graduate Teaching Assistant (On temporary basis) posts.",
+    "u": "https://pjtau.edu.in"
+},
+  {
+    "id": "office-of-the-coll-mo-recruitment-2026",
+    "b": "Office of the Collector and District Magistrate, Siddipet District",
+    "t": "Office of the Collector and District Magistrate, Siddipet District Recruitment 2026 Notification Out for 8 AYUSH Medical Officer, Pharmacist, Psychosocial Counselor, Yoga Professional, Multi-Purpose Worker (MPW) Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026 (05:00 PM)",
+    "a": "Ref: No.2835/E-I/RDDW/SDPT/2026 (Date: 17/10/2026)",
+    "q": "B.Tech / B.E | MBBS / Medical PG | B.Pharm / D.Pharm",
+    "desc": "Office of the Collector and District Magistrate, Siddipet District has officially announced employment advertisement notification Ref: No.2835/E-I/RDDW/SDPT/2026 (Date: 17/10/2026) inviting applications for 8 vacancies for AYUSH Medical Officer, Pharmacist, Psychosocial Counselor, Yoga Professional, Multi-Purpose Worker (MPW) posts.",
+    "u": "https://siddipet.telangana.gov.in/"
+},
+  {
+    "id": "dgft-yp-recruitment-2026",
+    "b": "Directorate General of Foreign Trade (DGFT)",
+    "t": "Directorate General of Foreign Trade (DGFT) Recruitment 2026 Notification Out for 2 Young Professional Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "28 October 2026 on or before 5 PM",
+    "a": "DIRECTORATE-GE/2026",
+    "q": "B.Tech / B.E | MCA / BCA | Master's / PG Degree",
+    "desc": "Directorate General of Foreign Trade (DGFT) has officially announced employment advertisement notification DIRECTORATE-GE/2026 inviting applications for 2 vacancies for Young Professional posts.",
+    "u": "https://forms.gle/mvvLemYJHmCCRkLu9"
+},
+  {
+    "id": "gmc-deo-recruitment-2026",
+    "b": "Government Medical College (GMC), Khammam",
+    "t": "Government Medical College (GMC), Khammam Recruitment 2026 Notification Out for 60 Data Entry Operator, Lab Attendant, Office Subordinate, Nursing Officer, Attendant and Other Posts | Apply Offline",
+    "d": "23 October 2026",
+    "l": "31 October 2026, 5 PM",
+    "a": "Notification-II/2026",
+    "q": "10th / 8th Pass | ITI | Diploma",
+    "desc": "Government Medical College (GMC), Khammam has officially announced employment advertisement notification Notification-II/2026 inviting applications for 60 vacancies for Data Entry Operator, Lab Attendant, Office Subordinate, Nursing Officer, Attendant and Other Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s31c383cd30b7c298ab50293adfecb7b18/uploads/2026/10/17926641879104.pdf"
+},
+  {
+    "id": "lic-hfl-apprentice-recruitment-2026",
+    "b": "LIC Housing Finance Limited (LIC HFL), Across India",
+    "t": "LIC Housing Finance Limited (LIC HFL), Across India Recruitment 2026 Notification Out for 232 Apprentice Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "1 November 2026",
+    "a": "LICHFL Apprenticeship Program-010",
+    "q": "Any Bachelor's Degree",
+    "desc": "LIC Housing Finance Limited (LIC HFL), Across India has officially announced employment advertisement notification LICHFL Apprenticeship Program-010 inviting applications for 232 vacancies for Apprentice posts.",
+    "u": "https://nats.education.gov.in"
+},
+  {
+    "id": "dccm-various-recruitment-2026",
+    "b": "District Climate Change Mission (DCCM), Erode",
+    "t": "District Climate Change Mission (DCCM), Erode Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "23 October 2026",
+    "l": "29 October 2026 (last date for receipt of applications)",
+    "a": "Particulars",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Climate Change Mission (DCCM), Erode has officially announced employment advertisement notification Particulars inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s3bca82e41ee7b0833588399b1fcd177c7/uploads/2026/10/17925875541513.pdf"
+},
+  {
     "id": "iim-pay-recruitment-2026",
     "b": "Indian Institute of Management Tiruchirappalli",
     "t": "Indian Institute of Management Tiruchirappalli Recruitment 2026 Notification Out for 8 Pay Posts | Apply Online",
