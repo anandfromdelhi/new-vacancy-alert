@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "dgma-management-support-recruitment-2026",
+    "b": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra",
+    "t": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra Recruitment 2026 Notification Out for 30 Management Support Associate (MSA) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "12 November 2026",
+    "a": "DIRECTORATE-GE/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra has officially announced employment advertisement notification DIRECTORATE-GE/2026 inviting applications for 30 vacancies for Management Support Associate (MSA) posts.",
+    "u": "https://apps.cbexams.com/EDPSU/DGMaritime/Reg/regstep"
+},
+  {
+    "id": "diat-ap-recruitment-2026",
+    "b": "Defence Institute of Advanced Technology (DIAT), Pune, Maharashtra",
+    "t": "Defence Institute of Advanced Technology (DIAT), Pune, Maharashtra Recruitment 2026 Notification Out for 7 Professor, Assistant Professor, Assistant Professor (Joint appointment, Electronics Engineering with School of Defence Technology & Management) and 3 more Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "24 November 2026",
+    "a": "DIAT/RC/01-FP-2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Defence Institute of Advanced Technology (DIAT), Pune, Maharashtra has officially announced employment advertisement notification DIAT/RC/01-FP-2026 inviting applications for 7 vacancies for Professor, Assistant Professor, Assistant Professor (Joint appointment, Electronics Engineering with School of Defence Technology & Management) and 3 more posts.",
+    "u": "https://diatrec.samarth.edu.in"
+},
+  {
+    "id": "bmc-resident-house-officer-recruitment-2026",
+    "b": "BMC Resident Officer",
+    "t": "BMC Resident Officer Recruitment 2026 Notification Out for 3 House Officer - tenure Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "02 November 2026 (Walk-in)",
+    "a": "BMC-RESIDENT-O/2026",
+    "q": "The hospital has 3 House Officer posts. These are tenure posts. The esse...",
+    "desc": "BMC Resident Officer has officially announced employment advertisement notification BMC-RESIDENT-O/2026 inviting applications for 3 vacancies for House Officer - tenure post posts.",
+    "u": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/%e0%a4%9c%e0%a4%be%e0%a4%b9%e0%a4%bf%e0%a4%b0%e0%a4%be%e0%a4%a4%20HO.pdf"
+},
+  {
+    "id": "icar-various-recruitment-2026",
+    "b": "ICAR: Central Institute of Fisheries Education",
+    "t": "ICAR: Central Institute of Fisheries Education Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "04 November 2026",
+    "a": "F.No.(46)/12-3/2026-27",
+    "q": "B.Com | MBA / BBA",
+    "desc": "ICAR: Central Institute of Fisheries Education has officially announced employment advertisement notification F.No.(46)/12-3/2026-27 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://cife.edu.in"
+},
+  {
+    "id": "cce-counselor-on-recruitment-2026",
+    "b": "Tata Memorial Centre, Centre for Cancer Epidemiology (CCE)",
+    "t": "Tata Memorial Centre, Centre for Cancer Epidemiology (CCE) Recruitment 2026 Notification Out for 2 Counselor (on Project) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "Monday, 16th November 2026 (10.00 a.m.) (Walk-in)",
+    "a": "CCE/Advt/376/2026",
+    "q": "The 2 Counselor posts are project posts based at the Centre for Cancer E...",
+    "desc": "Tata Memorial Centre, Centre for Cancer Epidemiology (CCE) has officially announced employment advertisement notification CCE/Advt/376/2026 inviting applications for 2 vacancies for Counselor (on Project) posts.",
+    "u": "https://actrec.gov.in/sites/default/files/2026-10/Counselor%2016.11.2026.pdf"
+},
+  {
+    "id": "iifm-am-recruitment-2026",
+    "b": "Indian Institute of Forest Management (IIFM)",
+    "t": "Indian Institute of Forest Management (IIFM) Recruitment 2026 Notification Out for 9 Assistant, Assistant Manager and More Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "30 days from the date of advertisement",
+    "a": "01(357)",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Forest Management (IIFM) has officially announced employment advertisement notification 01(357) inviting applications for 9 vacancies for Assistant, Assistant Manager and More posts.",
+    "u": "https://iifm.ac.in"
+},
+  {
+    "id": "iifm-various-recruitment-2026",
+    "b": "Indian Institute of Forest Management (IIFM), Bhopal",
+    "t": "Indian Institute of Forest Management (IIFM), Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Refer Official Notification",
+    "a": "01(357)",
+    "q": "12th Pass",
+    "desc": "Indian Institute of Forest Management (IIFM), Bhopal has officially announced employment advertisement notification 01(357) inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://erp.iifmbhopal.edu.in/iifmapp/apply/218"
+},
+  {
+    "id": "national-g-deputy-registrar-recruitment-2026",
+    "b": "National Green Tribunal, Principal Bench",
+    "t": "National Green Tribunal, Principal Bench Recruitment 2026 Notification Out for 3 Deputy Registrar, Assistant Registrar Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "16 November 2026 (receipt)",
+    "a": "NGT/16/Admn/2016/ Vol. IX/472",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "National Green Tribunal, Principal Bench has officially announced employment advertisement notification NGT/16/Admn/2016/ Vol. IX/472 inviting applications for 3 vacancies for Deputy Registrar, Assistant Registrar posts.",
+    "u": "https://greentribunal.gov.in"
+},
+  {
+    "id": "railtel-cybe-cyber-security-recruitment-2026",
+    "b": "RailTel Cyber Security Expert",
+    "t": "RailTel Cyber Security Expert Recruitment 2026 Notification Out for 1 Cyber Security Expert Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (Walk-in)",
+    "a": "RAILTEL-CYBER-/2026",
+    "q": "B.Tech / B.E | MCA / BCA",
+    "desc": "RailTel Cyber Security Expert has officially announced employment advertisement notification RAILTEL-CYBER-/2026 inviting applications for 1 vacancies for Cyber Security Expert posts.",
+    "u": "https://www.railtel.in"
+},
+  {
+    "id": "iit-indore-various-recruitment-2026-3075387",
+    "b": "Indian Institute of Technology Indore",
+    "t": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Within 7 days from the date of advertisement",
+    "a": "IITI/CRDT/DST-SEED/2026-27/JRF/01",
+    "q": "Candidates must hold an M. Sc. in Organic Chemistry/ Agro-Chemistry with...",
+    "desc": "Indian Institute of Technology Indore has officially announced employment advertisement notification IITI/CRDT/DST-SEED/2026-27/JRF/01 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.iiti.ac.in/"
+},
+  {
     "id": "icmr-national-inst-yp-recruitment-2026",
     "b": "ICMR- National Institute for Tribal Health Research, Jabalpur",
     "t": "ICMR- National Institute for Tribal Health Research, Jabalpur Recruitment 2026 Notification Out for 1 Young Professional-I (Admin) Posts | Walk-in Interview",
