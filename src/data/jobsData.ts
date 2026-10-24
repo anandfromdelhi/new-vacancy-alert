@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "railtel-corpo-chief-manager-recruitment-2026",
+    "b": "RailTel Corporation of India Ltd",
+    "t": "RailTel Corporation of India Ltd Recruitment 2026 Notification Out for 1 Chief Manager / Sr. Manager Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "21 November 2026",
+    "a": "RCIL-CO0HR(RENG)/11/2025 (Comp No.52850) / 18/2026",
+    "q": "Junior Scale (Level-10-CDA) or Group 'B' (Level-9/Level-8) for Chief Man...",
+    "desc": "RailTel Corporation of India Ltd has officially announced employment advertisement notification RCIL-CO0HR(RENG)/11/2025 (Comp No.52850) / 18/2026 inviting applications for 1 vacancies for Chief Manager / Sr. Manager posts.",
+    "u": "https://www.railtel.in/images/careers/18%202026.pdf"
+},
+  {
+    "id": "icmr-assistant-dir-various-recruitment-2026",
+    "b": "ICMR Assistant Director General",
+    "t": "ICMR Assistant Director General Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Within 20 days from the date of publication in Employment News",
+    "a": "ICMR/R",
+    "q": "Any Bachelor's Degree",
+    "desc": "ICMR Assistant Director General has officially announced employment advertisement notification ICMR/R inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792669555_advertisementforadgaondeputationbasis.pdf"
+},
+  {
+    "id": "ilbs-pa-recruitment-2026",
+    "b": "Institute of Liver and Biliary Sciences (ILBS), New Delhi",
+    "t": "Institute of Liver and Biliary Sciences (ILBS), New Delhi Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "03 November 2026, 5:00 pm",
+    "a": "327905/2026/Ronco / 327945/2026/Ronco",
+    "q": "B.Tech / B.E | Nursing (GNM / B.Sc) | Any Bachelor's Degree",
+    "desc": "Institute of Liver and Biliary Sciences (ILBS), New Delhi has officially announced employment advertisement notification 327905/2026/Ronco / 327945/2026/Ronco inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://www.ilbs.in//images/media/project_assistant_22102026.pdf"
+},
+  {
+    "id": "ilbs-fib-fibroscan-technici-recruitment-2026",
+    "b": "ILBS FibroScan Technician",
+    "t": "ILBS FibroScan Technician Recruitment 2026 Notification Out for 1 FibroScan Technician Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "29 October 2026 (Thursday) (Walk-in)",
+    "a": "ILBS-FIBROSCAN/2026",
+    "q": "Perform FibroScan/Liver Elastography and ensure accurate scan acquisitio...",
+    "desc": "ILBS FibroScan Technician has officially announced employment advertisement notification ILBS-FIBROSCAN/2026 inviting applications for 1 vacancies for FibroScan Technician posts.",
+    "u": "https://www.ilbs.in//images/media/FIBROSCAN_TECHNICIAN_22102026.pdf"
+},
+  {
+    "id": "ongc-various-recruitment-2026",
+    "b": "Oil and Natural Gas Corporation Limited (ONGC)",
+    "t": "Oil and Natural Gas Corporation Limited (ONGC) Recruitment 2026 Notification Out for 50 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "15 November 2026",
+    "a": "ONGC/Industrial Trainee/1/2026",
+    "q": "12th Pass",
+    "desc": "Oil and Natural Gas Corporation Limited (ONGC) has officially announced employment advertisement notification ONGC/Industrial Trainee/1/2026 inviting applications for 50 vacancies for Various Posts posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSdRNg7uaPwoEOYGrx_wzhbbdgqvUQHwoAvbCE7RQ1mdcmwzjQ/viewform"
+},
+  {
+    "id": "ncert-various-recruitment-2026",
+    "b": "National Council of Educational Research & Training (NCERT)",
+    "t": "National Council of Educational Research & Training (NCERT) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "01 November 2026 at 11:59 PM",
+    "a": "NATIONAL-COUNC/2026",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "National Council of Educational Research & Training (NCERT) has officially announced employment advertisement notification NATIONAL-COUNC/2026 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://ncert.nic.in"
+},
+  {
+    "id": "nii-various-recruitment-2026",
+    "b": "National Institute of Immunology (NII) / BRIC / DBT",
+    "t": "National Institute of Immunology (NII) / BRIC / DBT Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "30th October, 2026 (Friday) (Walk-in)",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute of Immunology (NII) / BRIC / DBT has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.nii.res.in"
+},
+  {
+    "id": "department-of-phar-various-recruitment-2026",
+    "b": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers",
+    "t": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers Recruitment 2026 Notification Out for 5 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "[11 November 2026]",
+    "a": "22020",
+    "q": "M.Sc | Any Bachelor's Degree",
+    "desc": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers has officially announced employment advertisement notification 22020 inviting applications for 5 vacancies for Various Posts posts.",
+    "u": "https://pharma-dept.gov.in/sites/default/files/Merged%20pdf%20in%20English.pdf"
+},
+  {
+    "id": "university-senior-assistant-recruitment-2026",
+    "b": "University of Delhi",
+    "t": "University of Delhi Recruitment 2026 Notification Out for 126 Senior Assistant and Assistant Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "9 November 2026 or within two weeks of publication in Employment News, whichever is later",
+    "a": "R&P/323/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "University of Delhi has officially announced employment advertisement notification R&P/323/2026 inviting applications for 126 vacancies for Senior Assistant and Assistant posts.",
+    "u": "https://dunt.uod.ac.in/index.php/site/login"
+},
+  {
+    "id": "iit-delhi-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (Industrial Research & Development Unit)",
+    "t": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) Recruitment 2026 Notification Out for 3 JRF/SRF, Junior Project Assistant and More Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "02 November 2026 by 5.00 p.m.",
+    "a": "llTO/1RO",
+    "q": "Diploma | M.Sc | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) has officially announced employment advertisement notification llTO/1RO inviting applications for 3 vacancies for JRF/SRF, Junior Project Assistant and More posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792745731810_mtn50le.pdf"
+},
+  {
     "id": "ilbs-signal-processing-recruitment-2026",
     "b": "ILBS",
     "t": "ILBS Recruitment 2026 Notification Out for 8 Signal Processing Engineer, Bio Medical Data Scientist, Senior AI/ML Engineer, AI/ML Engineer, Clinical Research Nurse Coordinator, Research Assistant/Clinical Coordinator, and Embedded Hardware & Firmware Engineer Posts | Walk-in Interview",
