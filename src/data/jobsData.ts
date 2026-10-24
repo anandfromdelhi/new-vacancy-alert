@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "kau-guest-fac-guest-faculty-recruitment-2026",
+    "b": "KAU Guest Faculty",
+    "t": "KAU Guest Faculty Recruitment 2026 Notification Out for 1 Guest Faculty in Physical Education Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "24 October 2026 (Walk-in)",
+    "a": "KAU-GUEST-FACU/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "KAU Guest Faculty has officially announced employment advertisement notification KAU-GUEST-FACU/2026 inviting applications for 1 vacancies for Guest Faculty in Physical Education posts.",
+    "u": "https://www.kau.in"
+},
+  {
+    "id": "mahe-jrf-recruitment-2026",
+    "b": "Manipal Academy of Higher Education (MAHE) / Manipal Institute of Technology (MIT)",
+    "t": "Manipal Academy of Higher Education (MAHE) / Manipal Institute of Technology (MIT) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "02 November 2026",
+    "a": "MANIPAL-ACADEM/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Manipal Academy of Higher Education (MAHE) / Manipal Institute of Technology (MIT) has officially announced employment advertisement notification MANIPAL-ACADEM/2026 inviting applications for 1 vacancies for Junior Research Fellow (JRF) posts.",
+    "u": "https://www.manipal.edu/"
+},
+  {
+    "id": "rwf-various-recruitment-2026",
+    "b": "Rail Wheel Factory (RWF)",
+    "t": "Rail Wheel Factory (RWF) Recruitment 2026 Notification Out for 11 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026 (17.00 Hrs)",
+    "a": "RWF/RC-1/157",
+    "q": "Post Vacancies Pay Level Junior Engineer (JE) 03 Level-06 Senior Section...",
+    "desc": "Rail Wheel Factory (RWF) has officially announced employment advertisement notification RWF/RC-1/157 inviting applications for 11 vacancies for Various Posts posts.",
+    "u": "https://rwf.indianrailways.gov.in/uploads/uploads/Re-engagement_mech(1).pdf"
+},
+  {
+    "id": "rail-wheel-factory-watcher-recruitment-2026",
+    "b": "Rail Wheel Factory",
+    "t": "Rail Wheel Factory Recruitment 2026 Notification Out for 1 Watcher Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "29 October 2026",
+    "a": "RWF/NG-39/891 Vol. II",
+    "q": "10th / 8th Pass",
+    "desc": "Rail Wheel Factory has officially announced employment advertisement notification RWF/NG-39/891 Vol. II inviting applications for 1 vacancies for Watcher posts.",
+    "u": "https://ecr.indianrailways.gov.in/cris//uploads/files/1792664954516-document%20-%202026-10-21T131852.174.pdf"
+},
+  {
+    "id": "rwf-junior-enginee-various-recruitment-2026",
+    "b": "RWF Junior Engineer",
+    "t": "RWF Junior Engineer Recruitment 2026 Notification Out for 3 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "6 November 2026",
+    "a": "RWF-JUNIOR-ENG/2026",
+    "q": "Junior Engineer: Retired Non-gazetted staff from Electrical department. ...",
+    "desc": "RWF Junior Engineer has officially announced employment advertisement notification RWF-JUNIOR-ENG/2026 inviting applications for 3 vacancies for Various Posts posts.",
+    "u": "https://rwf.indianrailways.gov.in/uploads/uploads/Re-engagement_ele(1).pdf"
+},
+  {
+    "id": "pm-shri-kv-sada-tgt-science-recruitment-2026",
+    "b": "PM SHRI KV Sadalaga",
+    "t": "PM SHRI KV Sadalaga Recruitment 2026 Notification Out for 1 TGT (Science), Vocational Teachers, Computer Instructor Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "31 October 2026 (Walk-in)",
+    "a": "Post",
+    "q": "Any Bachelor's Degree",
+    "desc": "PM SHRI KV Sadalaga has officially announced employment advertisement notification Post inviting applications for 1 vacancies for TGT (Science), Vocational Teachers, Computer Instructor posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv031ac56aa0742fcce3863818a2a19b/uploads/2026/10/2026102264.pdf"
+},
+  {
+    "id": "iia-library-traine-various-recruitment-2026",
+    "b": "IIA Library Trainee",
+    "t": "IIA Library Trainee Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "23 November 2026 at 17:30 hours",
+    "a": "IIA-LIBRARY-TR/2026",
+    "q": "Postgraduate in Library & Information Science (M.L.I.Sc.) from a reputed...",
+    "desc": "IIA Library Trainee has officially announced employment advertisement notification IIA-LIBRARY-TR/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.iiap.res.in/"
+},
+  {
+    "id": "m-s-ramaiah-univer-ra-recruitment-2026",
+    "b": "M S Ramaiah University of Applied Sciences, Bengaluru",
+    "t": "M S Ramaiah University of Applied Sciences, Bengaluru Recruitment 2026 Notification Out for 3 Research Associate & Field Investigator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "30 October 2026",
+    "a": "Position",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "M S Ramaiah University of Applied Sciences, Bengaluru has officially announced employment advertisement notification Position inviting applications for 3 vacancies for Research Associate & Field Investigator posts.",
+    "u": "https://www.msruas.ac.in/uploads/pdf/ICSSR-Recruitment-Ad.pdf"
+},
+  {
+    "id": "nmpa-various-recruitment-2026",
+    "b": "New Mangalore Port Authority (NMPA), Govt. of India (Ministry of Ports, Shipping and Waterways)",
+    "t": "New Mangalore Port Authority (NMPA), Govt. of India (Ministry of Ports, Shipping and Waterways) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "20 November 2026",
+    "a": "NEW-MANGALORE-/2026",
+    "q": "B.Tech / B.E",
+    "desc": "New Mangalore Port Authority (NMPA), Govt. of India (Ministry of Ports, Shipping and Waterways) has officially announced employment advertisement notification NEW-MANGALORE-/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://newmangaloreport.gov.in/sites/default/files/2026-10/Letter%20Dtd.22.10.2026.pdf"
+},
+  {
+    "id": "hll-lifecare-deputy-general-recruitment-2026",
+    "b": "HLL Lifecare Limited",
+    "t": "HLL Lifecare Limited Recruitment 2026 Notification Out for 1 Deputy General Manager (QA & QC) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "31 October 2026",
+    "a": "HLL/HR/083/2026",
+    "q": "B.Pharm / D.Pharm | Master's / PG Degree",
+    "desc": "HLL Lifecare Limited has officially announced employment advertisement notification HLL/HR/083/2026 inviting applications for 1 vacancies for Deputy General Manager (QA & QC) posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSedL47MQRTV2tAabK2rqCGAR8B4Mv1VDocc18OGcaYWl-2__g/viewform"
+},
+  {
     "id": "cmpdi-various-recruitment-2026",
     "b": "Central Mine Planning & Design Institute Limited (CMPDI)",
     "t": "Central Mine Planning & Design Institute Limited (CMPDI) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
