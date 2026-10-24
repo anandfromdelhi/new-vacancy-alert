@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "rajanna-sircilla-d-mo-recruitment-2026",
+    "b": "Rajanna Sircilla District, Telangana",
+    "t": "Rajanna Sircilla District, Telangana Recruitment 2026 Notification Out for 6 AYUSH Doctor with PG Qualification, AYUSH Medical Officer, Dietician and 2 more Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "29 October 2026",
+    "a": "No.2835/E-I/RDDW/SRCL/2026",
+    "q": "Diploma | B.Sc | Any Bachelor's Degree",
+    "desc": "Rajanna Sircilla District, Telangana has officially announced employment advertisement notification No.2835/E-I/RDDW/SRCL/2026 inviting applications for 6 vacancies for AYUSH Doctor with PG Qualification, AYUSH Medical Officer, Dietician and 2 more posts.",
+    "u": "https://cdn.s3waas.gov.in/s38f14e45fceea167a5a36dedd4bea2543/uploads/2026/10/17926637785577.pdf"
+},
+  {
+    "id": "nizams-institute-o-various-recruitment-2026",
+    "b": "Nizam's Institute of Medical Sciences",
+    "t": "Nizam's Institute of Medical Sciences Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "05 November 2026 by 4:00 PM",
+    "a": "File no: SRC/AC3/602/2022",
+    "q": "Any Bachelor's Degree",
+    "desc": "Nizam's Institute of Medical Sciences has officially announced employment advertisement notification File no: SRC/AC3/602/2022 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://nims.edu.in"
+},
+  {
+    "id": "birla-institute-of-am-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani",
+    "t": "Birla Institute of Technology and Science, Pilani Recruitment 2026 Notification Out for 1 Assistant Manager - FAD Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Refer Official Notification",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "MBA / BBA",
+    "desc": "Birla Institute of Technology and Science, Pilani has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Assistant Manager - FAD posts.",
+    "u": "https://www.bits-pilani.ac.in"
+},
+  {
+    "id": "birla-ins-associate-digital-recruitment-2026",
+    "b": "Birla Institute of Technology and Science, Pilani",
+    "t": "Birla Institute of Technology and Science, Pilani Recruitment 2026 Notification Out for 2 Associate- Digital Learning Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Refer Official Notification",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "B.Tech / B.E | B.Sc | M.Sc",
+    "desc": "Birla Institute of Technology and Science, Pilani has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 2 vacancies for Associate- Digital Learning posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLScIxW3WK37oyUiITMd0_KBTrl78kloqXwtYPnzIAS4Vo8Oprg/viewform"
+},
+  {
+    "id": "nims-various-recruitment-2026",
+    "b": "Nizam's Institute of Medical Sciences (NIMS), Hyderabad",
+    "t": "Nizam's Institute of Medical Sciences (NIMS), Hyderabad Recruitment 2026 Notification Out for 2 Various Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "26 October 2026 (Walk-in)",
+    "a": "Rc. No. HR3/28/3642/2017 /BME",
+    "q": "Diploma | B.Tech / B.E | MBBS / Medical PG",
+    "desc": "Nizam's Institute of Medical Sciences (NIMS), Hyderabad has officially announced employment advertisement notification Rc. No. HR3/28/3642/2017 /BME inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://nims.edu.in"
+},
+  {
+    "id": "nit-warangal-various-recruitment-2026",
+    "b": "National Institute of Technology Warangal",
+    "t": "National Institute of Technology Warangal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "8th November 2026 (11:59 PM)",
+    "a": "Name",
+    "q": "M.Sc | MCA / BCA",
+    "desc": "National Institute of Technology Warangal has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://nitw.ac.in/api/static/files/adv_2026_erp_2026-10-23-10-47-48.pdf"
+},
+  {
+    "id": "pjtau-various-recruitment-2026",
+    "b": "Professor Jayashankar Telangana Agricultural University (PJTAU)",
+    "t": "Professor Jayashankar Telangana Agricultural University (PJTAU) Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "30 October 2026 by 5:00 PM (for receipt of applications)",
+    "a": "PROFESSOR-JAYA/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Professor Jayashankar Telangana Agricultural University (PJTAU) has officially announced employment advertisement notification PROFESSOR-JAYA/2026 inviting applications for 4 vacancies for Various Posts posts.",
+    "u": "https://pjtau.edu.in/"
+},
+  {
+    "id": "department-of-multi-purpose-recruitment-2026",
+    "b": "Department of Social Welfare and Women Empowerment, Karur District",
+    "t": "Department of Social Welfare and Women Empowerment, Karur District Recruitment 2026 Notification Out for 3 Multi Purpose Helper, IT Worker Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "09 November 2026, 05.45 PM (Receipt)",
+    "a": "DEPARTMENT-OF-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Department of Social Welfare and Women Empowerment, Karur District has officially announced employment advertisement notification DEPARTMENT-OF-/2026 inviting applications for 3 vacancies for Multi Purpose Helper, IT Worker posts.",
+    "u": "https://cdn.s3waas.gov.in/s3bbf94b34eb32268ada57a3be5062fe7d/uploads/2026/10/17926618735379.pdf"
+},
+  {
+    "id": "tanuvas-young-prof-yp-recruitment-2026",
+    "b": "TANUVAS Young Professional",
+    "t": "TANUVAS Young Professional Recruitment 2026 Notification Out for 1 Young Professional - One Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "05 November 2026 (Thursday) 10:00 AM (Walk-in)",
+    "a": "TANUVAS-YOUNG-/2026",
+    "q": "Post Vacancies Qualification Required Pay Young Professional 1 Graduates...",
+    "desc": "TANUVAS Young Professional has officially announced employment advertisement notification TANUVAS-YOUNG-/2026 inviting applications for 1 vacancies for Young Professional - One post posts.",
+    "u": "https://tanuvas.ac.in/admin/uploads/vacancies/1792668471.pdf"
+},
+  {
+    "id": "dccm-various-recruitment-2026-3075358",
+    "b": "District Climate Change Mission (DCCM), Mayiladuthurai",
+    "t": "District Climate Change Mission (DCCM), Mayiladuthurai Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "27 October 2026 up to 6.00 pm",
+    "a": "DISTRICT-CLIMA/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "District Climate Change Mission (DCCM), Mayiladuthurai has officially announced employment advertisement notification DISTRICT-CLIMA/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s33871bd64012152bfb53fdf04b401193f/uploads/2026/10/17927316711914.pdf"
+},
+  {
     "id": "tamilnad-merca-deputy-chief-recruitment-2026",
     "b": "Tamilnad Mercantile Bank Ltd.",
     "t": "Tamilnad Mercantile Bank Ltd. Recruitment 2026 Notification Out for 1 Deputy Chief Financial Officer (Vice President) Posts | Apply Online",
