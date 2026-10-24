@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "income-tax-departm-various-recruitment-2026",
+    "b": "Income Tax Department Gujarat",
+    "t": "Income Tax Department Gujarat Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "20 November 2026 by 6.00 PM",
+    "a": "No.PCCIT-GUJ/HQ/DC-Co.ord./303/2026-27",
+    "q": "B.Tech / B.E",
+    "desc": "Income Tax Department Gujarat has officially announced employment advertisement notification No.PCCIT-GUJ/HQ/DC-Co.ord./303/2026-27 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://forms.zohopublic.in/ahmedabaddcithqcoordinco1/form/EmpanelmentofCharteredAccountantsus2685ofIncomeTax/formperma/zX8n9V_SqclbaF-WkCKuxCG3KNgrK7l97vxTBRDUrNw"
+},
+  {
+    "id": "iit-gandhinagar-srf-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "05 November 2026",
+    "a": "SPON/63043/Advt0350",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification SPON/63043/Advt0350 inviting applications for 1 vacancies for Senior Research Fellow (SRF) posts.",
+    "u": "http://recruitment.iitgn.ac.in/projectstaff/"
+},
+  {
+    "id": "institute-of-manag-various-recruitment-2026",
+    "b": "Institute of Management, Nirma University",
+    "t": "Institute of Management, Nirma University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "1st November 2026",
+    "a": "INSTITUTE-OF-M/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Institute of Management, Nirma University has officially announced employment advertisement notification INSTITUTE-OF-M/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://docs.google.com/forms/d/e/1FAIpQLSfqENwzCSJLeU0wb1AQYfNzpM80LRjg5u56XKm2OstYEPVaww/viewform"
+},
+  {
+    "id": "iit-gandhinagar-various-recruitment-2026-3075477",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "16 November 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | B.Sc | M.Sc",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "http://recruitment.iitgn.ac.in/projectstaff/"
+},
+  {
+    "id": "iit-gandhinagar-various-recruitment-2026-3075492",
+    "b": "Indian Institute of Technology Gandhinagar",
+    "t": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "17 November 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Sc | M.Sc",
+    "desc": "Indian Institute of Technology Gandhinagar has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "http://recruitment.iitgn.ac.in/projectstaff/"
+},
+  {
+    "id": "iitgn-pa-recruitment-2026",
+    "b": "Indian Institute of Technology Gandhinagar (IITGN)",
+    "t": "Indian Institute of Technology Gandhinagar (IITGN) Recruitment 2026 Notification Out for 1 Project Associate II (Physics) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "19 November 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "B.Tech / B.E | B.Sc | M.Sc",
+    "desc": "Indian Institute of Technology Gandhinagar (IITGN) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Project Associate II (Physics) posts.",
+    "u": "http://recruitment.iitgn.ac.in/projectstaff/"
+},
+  {
+    "id": "mormugao-port-auth-various-recruitment-2026",
+    "b": "Mormugao Port Authority",
+    "t": "Mormugao Port Authority Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "22 November 2026 (Online) / 07 December 2026 (Hard Copy)",
+    "a": "GAD/PC-A/151/2026/07370",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Mormugao Port Authority has officially announced employment advertisement notification GAD/PC-A/151/2026/07370 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://onlinevacancy.shipmin.nic.in"
+},
+  {
+    "id": "mgpa-dy-chief-recruitment-2026",
+    "b": "Mormugao Port Authority (MgPA), Ministry of Ports, Shipping & Waterways, Govt. of India",
+    "t": "Mormugao Port Authority (MgPA), Ministry of Ports, Shipping & Waterways, Govt. of India Recruitment 2026 Notification Out for 1 Dy. Chief Vigilance Officer (Class-I, Selection post) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "04 December 2026 (the application must reach by this date)",
+    "a": "MORMUGAO-PORT-/2026",
+    "q": "Diploma | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Mormugao Port Authority (MgPA), Ministry of Ports, Shipping & Waterways, Govt. of India has officially announced employment advertisement notification MORMUGAO-PORT-/2026 inviting applications for 1 vacancies for Dy. Chief Vigilance Officer (Class-I, Selection post) posts.",
+    "u": "https://mormugaoport.gov.in/careers_doc/view/1792674622860546.pdf"
+},
+  {
+    "id": "goa-univ-minimum-qualificat-recruitment-2026",
+    "b": "Goa University, Taleigao Plateau 403206, Goa",
+    "t": "Goa University, Taleigao Plateau 403206, Goa Recruitment 2026 Notification Out for 2 Minimum Qualification Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "12 November 2026 (within 20 days of the advertisement)",
+    "a": "GU/PhDScheme_2026/Advert/001",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Goa University, Taleigao Plateau 403206, Goa has officially announced employment advertisement notification GU/PhDScheme_2026/Advert/001 inviting applications for 2 vacancies for Minimum Qualification posts.",
+    "u": "https://webassets.unigoa.ac.in/uploads/confg_docs/20261023.154623~Vacancy_PhD_Fellow_PD_26.pdf"
+},
+  {
+    "id": "abgh-junior-reside-jr-recruitment-2026",
+    "b": "ABGH Junior Resident",
+    "t": "ABGH Junior Resident Recruitment 2026 Notification Out for 3 Junior Resident (Adhoc) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "28 October 2026 (Wednesday) (Walk-in)",
+    "a": "No. F.2 (652)/ABGH/Advt./JR/2021/P-IV/ 7093-7099 dated 22 October 2026",
+    "q": "B.Tech / B.E",
+    "desc": "ABGH Junior Resident has officially announced employment advertisement notification No. F.2 (652)/ABGH/Advt./JR/2021/P-IV/ 7093-7099 dated 22 October 2026 inviting applications for 3 vacancies for Junior Resident (Adhoc) posts.",
+    "u": "https://health.delhi.gov.in"
+},
+  {
     "id": "birac-secretarial-intern-recruitment-2026",
     "b": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi",
     "t": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi Recruitment 2026 Notification Out for 1 Secretarial Intern Posts | Apply Online",
