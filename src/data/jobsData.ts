@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ousssc-constable-civil-recruitment-2026",
+    "b": "Odisha Uniformed Services Staff Selection Commission (OUSSSC)",
+    "t": "Odisha Uniformed Services Staff Selection Commission (OUSSSC) Recruitment 2026 Notification Out for 7268 Constable (Civil), Constable (Communication), Constable OISF, Firefighter, Firefighting Driver, Driver PMT and Traffic Constable Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "13 November 2026, 10:00 PM",
+    "a": "01-CRE-2026/OUSSSC",
+    "q": "10th / 8th Pass | 12th Pass",
+    "desc": "Odisha Uniformed Services Staff Selection Commission (OUSSSC) has officially announced employment advertisement notification 01-CRE-2026/OUSSSC inviting applications for 7268 vacancies for Constable (Civil), Constable (Communication), Constable OISF, Firefighter, Firefighting Driver, Driver PMT and Traffic Constable posts.",
+    "u": "https://ousssc.odisha.gov.in/"
+},
+  {
+    "id": "kvs-coach-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya Champhai",
+    "t": "PM SHRI Kendriya Vidyalaya Champhai Recruitment 2026 Notification Out for 5 ATL Instructor, TGT Sanskrit, Sports Coach, Balvatika Care Taker (Aaya), Balvatika Teacher Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (Walk-in)",
+    "a": "9862788140",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "PM SHRI Kendriya Vidyalaya Champhai has officially announced employment advertisement notification 9862788140 inviting applications for 5 vacancies for ATL Instructor, TGT Sanskrit, Sports Coach, Balvatika Care Taker (Aaya), Balvatika Teacher posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv0522f03968ea11f71588a18a10158f/uploads/2026/10/2026102272.pdf"
+},
+  {
+    "id": "rims-ap-recruitment-2026",
+    "b": "Regional Institute of Medical Sciences (RIMS)",
+    "t": "Regional Institute of Medical Sciences (RIMS) Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "30 November 2026",
+    "a": "GEN/APPT/REG(GrpA)/4/2026-EST Sec",
+    "q": "M.D./M.S. in respective discipline with 3 years teaching experience",
+    "desc": "Regional Institute of Medical Sciences (RIMS) has officially announced employment advertisement notification GEN/APPT/REG(GrpA)/4/2026-EST Sec inviting applications for 2 vacancies for Assistant Professor posts.",
+    "u": "https://www.rims.edu.in"
+},
+  {
+    "id": "mumbai-railway-vik-am-recruitment-2026",
+    "b": "Mumbai Railway Vikas Corporation Ltd.",
+    "t": "Mumbai Railway Vikas Corporation Ltd. Recruitment 2026 Notification Out for 3 Assistant Manager (Electrical) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "12 November 2026",
+    "a": "MRVC/E/65/2026/Reg",
+    "q": "B.Tech / B.E",
+    "desc": "Mumbai Railway Vikas Corporation Ltd. has officially announced employment advertisement notification MRVC/E/65/2026/Reg inviting applications for 3 vacancies for Assistant Manager (Electrical) posts.",
+    "u": "https://mrvc.indianrailways.gov.in/uploads/Notification%20No_27%20-%202026%20dated%2022_10_2026%20for%20the%20post%20of%20AM%20(Elect)%20%20(ST)%20Direct%20Recruitment%20in%20E2%20IDA%20Scale.pdf"
+},
+  {
+    "id": "aiims-nagpur-guest-faculty-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Nagpur",
+    "t": "All India Institute of Medical Sciences, Nagpur Recruitment 2026 Notification Out for 1 Guest Faculty (Computer Applications, Health & Nursing Information Technology, Sociology & Applied Sociology) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "30 days from the date of publication of advertisement (about 21 November 2026)",
+    "a": "AIIMS/NGP/Guest",
+    "q": "Nursing (GNM / B.Sc) | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "All India Institute of Medical Sciences, Nagpur has officially announced employment advertisement notification AIIMS/NGP/Guest inviting applications for 1 vacancies for Guest Faculty (Computer Applications, Health & Nursing Information Technology, Sociology & Applied Sociology) posts.",
+    "u": "http://aiimsnagpur.edu.in"
+},
+  {
+    "id": "icar-various-recruitment-2026-3075263",
+    "b": "ICAR - Central Institute of Fisheries Education (Deemed University)",
+    "t": "ICAR - Central Institute of Fisheries Education (Deemed University) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Before 3 November 2026",
+    "a": "F.No. 10(8)2026/Estt. /CSIR-CharacterizationofsulfatedPolysaccharides",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICAR - Central Institute of Fisheries Education (Deemed University) has officially announced employment advertisement notification F.No. 10(8)2026/Estt. /CSIR-CharacterizationofsulfatedPolysaccharides inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cife.edu.in/sites/default/files/CSIR%20Advertisement.pdf"
+},
+  {
+    "id": "icmr-nirrch-various-recruitment-2026",
+    "b": "ICMR-National Institute for Research on Women’s Health (ICMR-NIRRCH)",
+    "t": "ICMR-National Institute for Research on Women’s Health (ICMR-NIRRCH) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06th November, 2026",
+    "a": ", the project title",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "ICMR-National Institute for Research on Women’s Health (ICMR-NIRRCH) has officially announced employment advertisement notification , the project title inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://application.nirrch.res.in/login.php"
+},
+  {
+    "id": "diat-research-asso-ra-recruitment-2026",
+    "b": "DIAT Research Associate",
+    "t": "DIAT Research Associate Recruitment 2026 Notification Out for 1 Research Associate (RA) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30th October, 2026 (Walk-in)",
+    "a": "30-2026/RA/DIAT",
+    "q": "Ph.D / Doctorate",
+    "desc": "DIAT Research Associate has officially announced employment advertisement notification 30-2026/RA/DIAT inviting applications for 1 vacancies for Research Associate (RA) posts.",
+    "u": "https://diat.ac.in/wp-content/uploads/2026/10/Advt-No.30-2026-RA-Walk-In-Interview.pdf"
+},
+  {
+    "id": "railtel-corporatio-sr-dgm-recruitment-2026",
+    "b": "Railtel Corporation of India Ltd",
+    "t": "Railtel Corporation of India Ltd Recruitment 2026 Notification Out for 1 Sr. DGM (E5) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "21 November 2026",
+    "a": "RCIL-CO0HR(RENG)/11/2025 (Comp No.52850) / 19/2026",
+    "q": "Gazetted S&T officers of Railways / Railway PSUs",
+    "desc": "Railtel Corporation of India Ltd has officially announced employment advertisement notification RCIL-CO0HR(RENG)/11/2025 (Comp No.52850) / 19/2026 inviting applications for 1 vacancies for Sr. DGM (E5) posts.",
+    "u": "https://www.railtel.in/images/careers/signed%20vacancy%20notice%20192026.pdf"
+},
+  {
+    "id": "icmr-national-inst-deo-recruitment-2026",
+    "b": "ICMR-National Institute for Research on Women's Health, Mumbai",
+    "t": "ICMR-National Institute for Research on Women's Health, Mumbai Recruitment 2026 Notification Out for 1 Data Entry Operator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06th November, 2026",
+    "a": "ICMR-NATIONAL-/2026",
+    "q": "12th Pass",
+    "desc": "ICMR-National Institute for Research on Women's Health, Mumbai has officially announced employment advertisement notification ICMR-NATIONAL-/2026 inviting applications for 1 vacancies for Data Entry Operator posts.",
+    "u": "https://application.nirrch.res.in/login.php"
+},
+  {
     "id": "dgma-management-support-recruitment-2026",
     "b": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra",
     "t": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra Recruitment 2026 Notification Out for 30 Management Support Associate (MSA) Posts | Apply Online",
