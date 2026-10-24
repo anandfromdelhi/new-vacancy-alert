@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "birac-secretarial-intern-recruitment-2026",
+    "b": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi",
+    "t": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi Recruitment 2026 Notification Out for 1 Secretarial Intern Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "19 November 2026",
+    "a": "BIRAC/VAC/183/Oct-2026-MT",
+    "q": "Any Bachelor's Degree",
+    "desc": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi has officially announced employment advertisement notification BIRAC/VAC/183/Oct-2026-MT inviting applications for 1 vacancies for Secretarial Intern posts.",
+    "u": "https://www.birac.nic.in/recruitlogin.php"
+},
+  {
+    "id": "abgh-delhi-senior-sr-recruitment-2026",
+    "b": "ABGH Delhi Senior Resident",
+    "t": "ABGH Delhi Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident (Gynae, Paeds, Medicine) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "27 October 2026 (Tuesday) (Walk-in)",
+    "a": "ABGH-DELHI-SEN/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "ABGH Delhi Senior Resident has officially announced employment advertisement notification ABGH-DELHI-SEN/2026 inviting applications for 4 vacancies for Senior Resident (Gynae, Paeds, Medicine) posts.",
+    "u": "https://asbh.delhi.gov.in/"
+},
+  {
+    "id": "ddu-hospital-senio-sr-recruitment-2026",
+    "b": "DDU Hospital Senior Resident",
+    "t": "DDU Hospital Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident (Orthopaedics, Dermatology) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "DDU-HOSPITAL-S/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "DDU Hospital Senior Resident has officially announced employment advertisement notification DDU-HOSPITAL-S/2026 inviting applications for 4 vacancies for Senior Resident (Orthopaedics, Dermatology) posts.",
+    "u": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wddu_29.pdf"
+},
+  {
+    "id": "trai-pay-recruitment-2026",
+    "b": "Telecom Regulatory Authority of India (TRAI)",
+    "t": "Telecom Regulatory Authority of India (TRAI) Recruitment 2026 Notification Out for 1 Pay Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "11 November 2026",
+    "a": "1-15/2026-HR",
+    "q": "Any Bachelor's Degree",
+    "desc": "Telecom Regulatory Authority of India (TRAI) has officially announced employment advertisement notification 1-15/2026-HR inviting applications for 1 vacancies for Pay posts.",
+    "u": "https://vacancies.trai.gov.in"
+},
+  {
+    "id": "governme-information-commis-recruitment-2026",
+    "b": "Government of India, Ministry of Personnel, Public Grievances and Pensions (Department of Personnel and Training)",
+    "t": "Government of India, Ministry of Personnel, Public Grievances and Pensions (Department of Personnel and Training) Recruitment 2026 Notification Out for 1 Information Commissioner Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "20 November 2026",
+    "a": "No. 4/1/2026-IR II",
+    "q": "Law (LL.B / LL.M)",
+    "desc": "Government of India, Ministry of Personnel, Public Grievances and Pensions (Department of Personnel and Training) has officially announced employment advertisement notification No. 4/1/2026-IR II inviting applications for 1 vacancies for Information Commissioner posts.",
+    "u": "https://cic.gov.in/sites/default/files/2026-10/Advertisement-ic.pdf"
+},
+  {
+    "id": "dtu-professor-and-recruitment-2026",
+    "b": "Delhi Technological University (DTU)",
+    "t": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 119 Professor and Associate Professor Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "21 December 2026, 5:00 PM",
+    "a": "TICE",
+    "q": "As prescribed in DTU's discipline-specific Recruitment Rules",
+    "desc": "Delhi Technological University (DTU) has officially announced employment advertisement notification TICE inviting applications for 119 vacancies for Professor and Associate Professor posts.",
+    "u": "https://recruitment.dtu.ac.in/"
+},
+  {
+    "id": "esic-delhi-sr-recruitment-2026",
+    "b": "ESIC Delhi",
+    "t": "ESIC Delhi Recruitment 2026 Notification Out for 19 Senior Resident, Full Time Contractual Specialist, Full Time / Part Time Contractual Super Specialist Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "03 November 2026 (Walk-in)",
+    "a": "114-A-11/12/27/2011-OKH for 40 vacancies",
+    "q": "Candidates can review the post-wise vacancy distribution, qualifications...",
+    "desc": "ESIC Delhi has officially announced employment advertisement notification 114-A-11/12/27/2011-OKH for 40 vacancies inviting applications for 19 vacancies for Senior Resident, Full Time Contractual Specialist, Full Time / Part Time Contractual Super Specialist posts.",
+    "u": "https://esic.gov.in"
+},
+  {
+    "id": "iit-delhi-project-manager-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (IIT Delhi)",
+    "t": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Project Manager Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026",
+    "a": "lriottr",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Delhi (IIT Delhi) has officially announced employment advertisement notification lriottr inviting applications for 1 vacancies for Project Manager posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792672068029_al6478e.pdf"
+},
+  {
+    "id": "iit-delh-essential-qualific-recruitment-2026-3075347",
+    "b": "Indian Institute of Technology Delhi",
+    "t": "Indian Institute of Technology Delhi Recruitment 2026 Notification Out for 1 Essential Qualification Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026 by 5.00 p.m.",
+    "a": "rrDi",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indian Institute of Technology Delhi has officially announced employment advertisement notification rrDi inviting applications for 1 vacancies for Essential Qualification posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792671766118_esly9of.pdf"
+},
+  {
+    "id": "abg-hospital-senio-various-recruitment-2026",
+    "b": "ABG Hospital Senior Resident",
+    "t": "ABG Hospital Senior Resident Recruitment 2026 Notification Out for 4 Various Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "27 October 2026",
+    "a": "ABG-HOSPITAL-S/2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "ABG Hospital Senior Resident has officially announced employment advertisement notification ABG-HOSPITAL-S/2026 inviting applications for 4 vacancies for Various Posts posts.",
+    "u": "https://asbh.delhi.gov.in/sites/default/files/asbh/circulars-orders/adver.pdf"
+},
+  {
     "id": "railtel-corpo-chief-manager-recruitment-2026",
     "b": "RailTel Corporation of India Ltd",
     "t": "RailTel Corporation of India Ltd Recruitment 2026 Notification Out for 1 Chief Manager / Sr. Manager Posts | Apply Offline",
