@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "aiims-jodhpur-proj-pts-recruitment-2026",
+    "b": "AIIMS Jodhpur Project Technical Support",
+    "t": "AIIMS Jodhpur Project Technical Support Recruitment 2026 Notification Out for 1 Project Technical Support - III (Occupational Therapist / Psychologist) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "04 November 2026 (Walk-in)",
+    "a": "AIIMS/JDH/2026/10/PMR-327 (Dated: 22/10/2026)",
+    "q": "The only post is Project Technical Support - III (Occupational Therapist...",
+    "desc": "AIIMS Jodhpur Project Technical Support has officially announced employment advertisement notification AIIMS/JDH/2026/10/PMR-327 (Dated: 22/10/2026) inviting applications for 1 vacancies for Project Technical Support - III (Occupational Therapist / Psychologist) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792739120_Recruitment%20for%20the%20following%20posts%20(Occupational%20Therapist)%20on%20purely%20temporary%20basis%20in%20Extramural%20Research%20Project%20NCAHT.pdf"
+},
+  {
+    "id": "aiims-jodhpur-scientist-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Jodhpur",
+    "t": "All India Institute of Medical Sciences, Jodhpur Recruitment 2026 Notification Out for 1 Scientist C Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "02 November 2026 (Walk-in)",
+    "a": "AIIMS/JD/DIAMONDS/85 /2026",
+    "q": "M.Sc | MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "All India Institute of Medical Sciences, Jodhpur has officially announced employment advertisement notification AIIMS/JD/DIAMONDS/85 /2026 inviting applications for 1 vacancies for Scientist C posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792740700_Adv-231026.pdf"
+},
+  {
+    "id": "government-vice-chancellor-recruitment-2026",
+    "b": "Government of India, Ministry of Education, Department of Higher Education",
+    "t": "Government of India, Ministry of Education, Department of Higher Education Recruitment 2026 Notification Out for 1 Vice-Chancellor of Central University of Rajasthan Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "21 November 2026, 17:00 Hours",
+    "a": "GOVERNMENT-OF-/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Government of India, Ministry of Education, Department of Higher Education has officially announced employment advertisement notification GOVERNMENT-OF-/2026 inviting applications for 1 vacancies for Vice-Chancellor of Central University of Rajasthan posts.",
+    "u": "https://vcrec.samarth.ac.in/index.php/"
+},
+  {
+    "id": "punjabi-univ-guest-faculty-recruitment-2026",
+    "b": "Punjabi University, Patiala",
+    "t": "Punjabi University, Patiala Recruitment 2026 Notification Out for 10 Guest Faculty (Punjabi), for Graduate/Post Graduate Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "02 November 2026, 4.00 pm",
+    "a": "PUNJABI-UNIVER/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Punjabi University, Patiala has officially announced employment advertisement notification PUNJABI-UNIVER/2026 inviting applications for 10 vacancies for Guest Faculty (Punjabi), for Graduate/Post Graduate posts.",
+    "u": "https://www.punjabiuniversity.ac.in/Pages/SF/TQR/PC8B7D283.pdf"
+},
+  {
+    "id": "hbchrc-sangrur-supervisor-recruitment-2026",
+    "b": "Homi Bhabha Cancer Hospital, Sangrur, Punjab",
+    "t": "Homi Bhabha Cancer Hospital, Sangrur, Punjab Recruitment 2026 Notification Out for 4 Laundry Supervisor and Laundry Attendant Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "OS/SNG/2026/25",
+    "q": "12th Pass | Any Bachelor's Degree",
+    "desc": "Homi Bhabha Cancer Hospital, Sangrur, Punjab has officially announced employment advertisement notification OS/SNG/2026/25 inviting applications for 4 vacancies for Laundry Supervisor and Laundry Attendant posts.",
+    "u": "https://tmc.gov.in/postmaster/ViewFile?FileId=6Q/F7nIkQfwFK3jAJ/x9ow=="
+},
+  {
+    "id": "pau-field-asst-recruitment-2026",
+    "b": "Reviving Green Revolution Cell / Punjab Agricultural University (PAU)",
+    "t": "Reviving Green Revolution Cell / Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Field Assistant Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "October 30, 2026 (Deactivated by 5 PM)",
+    "a": "REVIVING-GREEN/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Reviving Green Revolution Cell / Punjab Agricultural University (PAU) has officially announced employment advertisement notification REVIVING-GREEN/2026 inviting applications for 1 vacancies for Field Assistant posts.",
+    "u": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7625"
+},
+  {
+    "id": "pondicherry-univer-pa-recruitment-2026",
+    "b": "Pondicherry University",
+    "t": "Pondicherry University Recruitment 2026 Notification Out for 1 Project Associate - I Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "October 28, 2026 (Walk-in)",
+    "a": "Sanction #: DST/FCPM/GEM/ANRF(Grant)2025/1 (ANRF/PAIR/2025/000021/PAIR-A)",
+    "q": "Project-Associate-I: 1",
+    "desc": "Pondicherry University has officially announced employment advertisement notification Sanction #: DST/FCPM/GEM/ANRF(Grant)2025/1 (ANRF/PAIR/2025/000021/PAIR-A) inviting applications for 1 vacancies for Project Associate - I posts.",
+    "u": "https://www.pondiuni.edu.in"
+},
+  {
+    "id": "jipmer-prs-recruitment-2026-3075448",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Medical) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "10 November 2026, up to 5:00 PM",
+    "a": "Name",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry has officially announced employment advertisement notification Name inviting applications for 1 vacancies for Project Research Scientist-I (Medical) posts.",
+    "u": "https://jipmer.edu.in"
+},
+  {
+    "id": "malkangi-wildlife-veterinar-recruitment-2026",
+    "b": "Malkangiri Forest Division, Odisha",
+    "t": "Malkangiri Forest Division, Odisha Recruitment 2026 Notification Out for 1 Wildlife Veterinary Assistant Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "27 October 2026",
+    "a": "5380 / 1F/ACC/SEC/2026",
+    "q": "BVSc & A.H / M.V.Sc from any recognized Institutions.",
+    "desc": "Malkangiri Forest Division, Odisha has officially announced employment advertisement notification 5380 / 1F/ACC/SEC/2026 inviting applications for 1 vacancies for Wildlife Veterinary Assistant posts.",
+    "u": "https://malkangiri.odisha.gov.in/sites/default/files/2026-10/5380.pdf"
+},
+  {
+    "id": "oav-warden-recruitment-2026",
+    "b": "Odisha Adarsha Vidyalaya, Jhulunibahal, Mathili, Malkangiri",
+    "t": "Odisha Adarsha Vidyalaya, Jhulunibahal, Mathili, Malkangiri Recruitment 2026 Notification Out for 5 Warden Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "31 October 2026",
+    "a": "308/26",
+    "q": "B.Sc",
+    "desc": "Odisha Adarsha Vidyalaya, Jhulunibahal, Mathili, Malkangiri has officially announced employment advertisement notification 308/26 inviting applications for 5 vacancies for Warden posts.",
+    "u": "https://malkangiri.odisha.gov.in/sites/default/files/2026-10/BOYS%20HOSTEL%20REQUIREMENT%20OAV%20MATHILI%20.pdf"
+},
+  {
     "id": "ousssc-constable-civil-recruitment-2026",
     "b": "Odisha Uniformed Services Staff Selection Commission (OUSSSC)",
     "t": "Odisha Uniformed Services Staff Selection Commission (OUSSSC) Recruitment 2026 Notification Out for 7268 Constable (Civil), Constable (Communication), Constable OISF, Firefighter, Firefighting Driver, Driver PMT and Traffic Constable Posts | Apply Online",
