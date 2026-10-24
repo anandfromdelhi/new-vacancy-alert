@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tamilnad-merca-deputy-chief-recruitment-2026",
+    "b": "Tamilnad Mercantile Bank Ltd.",
+    "t": "Tamilnad Mercantile Bank Ltd. Recruitment 2026 Notification Out for 1 Deputy Chief Financial Officer (Vice President) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026",
+    "a": "TAMILNAD-MERCA/2026",
+    "q": "Chartered Accountant by Qualification.",
+    "desc": "Tamilnad Mercantile Bank Ltd. has officially announced employment advertisement notification TAMILNAD-MERCA/2026 inviting applications for 1 vacancies for Deputy Chief Financial Officer (Vice President) posts.",
+    "u": "https://apps.tmbdigital.bank.in/tmb_careers/"
+},
+  {
+    "id": "tiruppur-distri-case-worker-recruitment-2026",
+    "b": "Tiruppur District Social Welfare Department (Integrated Service Centre)",
+    "t": "Tiruppur District Social Welfare Department (Integrated Service Centre) Recruitment 2026 Notification Out for 3 Case Worker, Security and MPW Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "5 November 2026 at 5:00 PM",
+    "a": "TIRUPPUR-DISTR/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Tiruppur District Social Welfare Department (Integrated Service Centre) has officially announced employment advertisement notification TIRUPPUR-DISTR/2026 inviting applications for 3 vacancies for Case Worker, Security and MPW posts.",
+    "u": "https://tiruppur.nic.in"
+},
+  {
+    "id": "tamilnad-m-mobile-inspector-recruitment-2026",
+    "b": "Tamilnad Mercantile Bank Ltd.",
+    "t": "Tamilnad Mercantile Bank Ltd. Recruitment 2026 Notification Out for 1 Mobile Inspector of Branches Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026",
+    "a": "TAMILNAD-MERCA/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Tamilnad Mercantile Bank Ltd. has officially announced employment advertisement notification TAMILNAD-MERCA/2026 inviting applications for 1 vacancies for Mobile Inspector of Branches posts.",
+    "u": "https://www.ib.tmbonline.bank.in/tmb_careers/"
+},
+  {
+    "id": "iit-madras-prs-recruitment-2026-3075502",
+    "b": "Indian Institute of Technology Madras",
+    "t": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 2 Project Research Scientist I Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026",
+    "a": "ICSR/PR/Advt.",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indian Institute of Technology Madras has officially announced employment advertisement notification ICSR/PR/Advt. inviting applications for 2 vacancies for Project Research Scientist I posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
+    "id": "divyangjan-ap-recruitment-2026",
+    "b": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan) (NIEPMD)",
+    "t": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan) (NIEPMD) Recruitment 2026 Notification Out for 7 Assistant Professor (Electronics, Otolaryngology, Linguistics, Statistics, Neurology), Ear Mould Technician, Bio-Medical Technician Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Within 10 -days from the date of this advertisement published in Newspaper",
+    "a": "NATIONAL-INSTI/2026",
+    "q": "Diploma | B.Tech / B.E | MBBS / Medical PG",
+    "desc": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan) (NIEPMD) has officially announced employment advertisement notification NATIONAL-INSTI/2026 inviting applications for 7 vacancies for Assistant Professor (Electronics, Otolaryngology, Linguistics, Statistics, Neurology), Ear Mould Technician, Bio-Medical Technician posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2026/09/20260916716488798.pdf"
+},
+  {
+    "id": "iit-madras-prs-recruitment-2026",
+    "b": "Centre for Industrial Consultancy and Sponsored Research (IC&SR), Indian Institute of Technology Madras (IIT Madras)",
+    "t": "Centre for Industrial Consultancy and Sponsored Research (IC&SR), Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 8 Project Research Scientist III, Project Research Scientist II, Project Technical Support III, Project Technical Support II, Project Technical Support I Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026",
+    "a": "ICSR/PR/Advt.",
+    "q": "Eligibility is post-specific. Qualification, experience and age limit fo...",
+    "desc": "Centre for Industrial Consultancy and Sponsored Research (IC&SR), Indian Institute of Technology Madras (IIT Madras) has officially announced employment advertisement notification ICSR/PR/Advt. inviting applications for 8 vacancies for Project Research Scientist III, Project Research Scientist II, Project Technical Support III, Project Technical Support II, Project Technical Support I posts.",
+    "u": "https://icandsr.iitm.ac.in/careers/current_openings.php"
+},
+  {
+    "id": "divyangja-lecturer-clinical-recruitment-2026",
+    "b": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan), Chennai",
+    "t": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan), Chennai Recruitment 2026 Notification Out for 3 Lecturer (Clinical Psychology), Tutor - Clinical Assistant (Occupational Therapy), Rehabilitation Officer - Therapeutics Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Within 21 days from the date of publishing advertisement in the employment news",
+    "a": "07/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan), Chennai has officially announced employment advertisement notification 07/2026 inviting applications for 3 vacancies for Lecturer (Clinical Psychology), Tutor - Clinical Assistant (Occupational Therapy), Rehabilitation Officer - Therapeutics posts.",
+    "u": "https://niepmd.nic.in/notice-category/recruitments./"
+},
+  {
+    "id": "curaj-lower-division-recruitment-2026",
+    "b": "Central University of Rajasthan",
+    "t": "Central University of Rajasthan Recruitment 2026 Notification Out for 1 Lower Division Clerk Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "10 December 2026 (11:59 PM for Online, 05:00 PM on 15 December 2026 for Hardcopy)",
+    "a": "CURAJ/R./F.179/Rectt./2026/7314",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Central University of Rajasthan has officially announced employment advertisement notification CURAJ/R./F.179/Rectt./2026/7314 inviting applications for 1 vacancies for Lower Division Clerk posts.",
+    "u": "http://www.curaj.ac.in/"
+},
+  {
+    "id": "curaj-various-recruitment-2026",
+    "b": "Central University of Rajasthan",
+    "t": "Central University of Rajasthan Recruitment 2026 Notification Out for 8 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "21 November 2026 (11:59 PM) online; hard copy by 26 November 2026 (05:00 PM)",
+    "a": "CURAJ/R/F.179/Rectt./2026/7268 dated 21.10.2026",
+    "q": "Diploma",
+    "desc": "Central University of Rajasthan has officially announced employment advertisement notification CURAJ/R/F.179/Rectt./2026/7268 dated 21.10.2026 inviting applications for 8 vacancies for Various Posts posts.",
+    "u": "https://curaj.ac.in/sites/default/files/Advt.No.%207268%20%20dated%2021.10.2026%20%20for%20the%20post%20of%20Sports%20Coaches%20(contractual%20basis)%20(1).pdf"
+},
+  {
+    "id": "aiims-jodhpur-project-nurse-recruitment-2026",
+    "b": "All India Institute of Medical Sciences, Jodhpur",
+    "t": "All India Institute of Medical Sciences, Jodhpur Recruitment 2026 Notification Out for 1 Project Nurse III (Project Staff Nurse) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "02 November 2026 (Walk-in)",
+    "a": "AIIMS/JDH/NEO/2026/10/741",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "All India Institute of Medical Sciences, Jodhpur has officially announced employment advertisement notification AIIMS/JDH/NEO/2026/10/741 inviting applications for 1 vacancies for Project Nurse III (Project Staff Nurse) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792740630_ICMR-%20RECRUITMENT%20-1%20(1).pdf"
+},
+  {
     "id": "aiims-jodhpur-proj-pts-recruitment-2026",
     "b": "AIIMS Jodhpur Project Technical Support",
     "t": "AIIMS Jodhpur Project Technical Support Recruitment 2026 Notification Out for 1 Project Technical Support - III (Occupational Therapist / Psychologist) Posts | Walk-in Interview",
