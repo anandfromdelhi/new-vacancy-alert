@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iit-kanpur-various-recruitment-2026",
+    "b": "Indian Institute of Technology Kanpur",
+    "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "15 days from the date of advertisement",
+    "a": "P.Rect./R&D/2026/210",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology Kanpur has officially announced employment advertisement notification P.Rect./R&D/2026/210 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://forms.gle/8s7uhQqgi3JtXEAJA"
+},
+  {
+    "id": "icsil-firemen-recruitment-2026",
+    "b": "Intelligent Communication Systems India Limited (ICSIL)",
+    "t": "Intelligent Communication Systems India Limited (ICSIL) Recruitment 2026 Notification Out for 3 Firemen Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "25 October 2026 (6:00 PM)",
+    "a": "ICSIL/RC/10-A/284/CRIH/2026-27",
+    "q": "12th Pass",
+    "desc": "Intelligent Communication Systems India Limited (ICSIL) has officially announced employment advertisement notification ICSIL/RC/10-A/284/CRIH/2026-27 inviting applications for 3 vacancies for Firemen posts.",
+    "u": "https://www.icsil.in/index.php/requirement-careers"
+},
+  {
+    "id": "rgnau-various-recruitment-2026",
+    "b": "Rajiv Gandhi National Aviation University (RGNAU)",
+    "t": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "6th December 2026",
+    "a": "RGNAU/5290/06/ADMIN/672",
+    "q": "Any Bachelor's Degree",
+    "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially announced employment advertisement notification RGNAU/5290/06/ADMIN/672 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://rgnaunt.samarth.edu.in/"
+},
+  {
+    "id": "rgnau-essential-qualific-recruitment-2026",
+    "b": "Rajiv Gandhi National Aviation University (RGNAU)",
+    "t": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 10 Essential Qualification Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "6th December 2026",
+    "a": "RGNAU/5266/05/ADMIN/PT/671 (dated October 23, 2026)",
+    "q": "Diploma | B.Tech / B.E | MBBS / Medical PG",
+    "desc": "Rajiv Gandhi National Aviation University (RGNAU) has officially announced employment advertisement notification RGNAU/5266/05/ADMIN/PT/671 (dated October 23, 2026) inviting applications for 10 vacancies for Essential Qualification posts.",
+    "u": "https://rgnaunt.samarth.edu.in/"
+},
+  {
+    "id": "bhatkhan-qualification-requ-recruitment-2026",
+    "b": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow",
+    "t": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow Recruitment 2026 Notification Out for 14 Qualification Required Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "23 November 2026",
+    "a": "1568/Bha.Sa.Vivi.-1(1)/2025T.C.",
+    "q": "Any Bachelor's Degree",
+    "desc": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow has officially announced employment advertisement notification 1568/Bha.Sa.Vivi.-1(1)/2025T.C. inviting applications for 14 vacancies for Qualification Required posts.",
+    "u": "https://bhatkhandeuniversitynt.samarth.edu.in/index.php/site/login"
+},
+  {
+    "id": "iwai-various-recruitment-2026",
+    "b": "Inland Waterways Authority of India (IWAI)",
+    "t": "Inland Waterways Authority of India (IWAI) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "45 days from date of publication of this advertisement in Employment News",
+    "a": "IWAI-17011/4/2026-ADMIN RECTT Dated 23.10.2026",
+    "q": "Holding analogous posts on regular basis OR holding post in the Level 7 ...",
+    "desc": "Inland Waterways Authority of India (IWAI) has officially announced employment advertisement notification IWAI-17011/4/2026-ADMIN RECTT Dated 23.10.2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://iwai.gov.in"
+},
+  {
+    "id": "government-of-professor-and-recruitment-2026",
+    "b": "Government of Tripura, Directorate of Medical Education",
+    "t": "Government of Tripura, Directorate of Medical Education Recruitment 2026 Notification Out for 5 Professor and Associate Professor Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "10th November, 2026 up to 5 p.m. positively",
+    "a": "GOVERNMENT-OF-/2026",
+    "q": "BDS / Dental | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Government of Tripura, Directorate of Medical Education has officially announced employment advertisement notification GOVERNMENT-OF-/2026 inviting applications for 5 vacancies for Professor and Associate Professor posts.",
+    "u": "https://dme.tripura.gov.in/sites/default/files/2026-10/Employment%20Notification%20for%20contractual%20recruitment%20to%20the%20Post%20of%20Professor%20and%20Associate%20Professor%20in%20different%20disciplines%20of%20AGDC%20&%20IGM%20Hospital,%20Agartala..pdf"
+},
+  {
+    "id": "office-of-special-educator-recruitment-2026",
+    "b": "Office of the District Medical and Health Officer, Rajanna Sircilla District",
+    "t": "Office of the District Medical and Health Officer, Rajanna Sircilla District Recruitment 2026 Notification Out for 48 MLHP / CHO / MO, Palle Dhawakhana, Lab Technician, Staff Nurse, Physiotherapist, ANM, Pharmacist, Audiologist / Speech Therapist, Early interventionist cum Special Educator, Optometrist Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (5:00 PM)",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "Diploma | B.Sc | MBBS / Medical PG",
+    "desc": "Office of the District Medical and Health Officer, Rajanna Sircilla District has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 48 vacancies for MLHP / CHO / MO, Palle Dhawakhana, Lab Technician, Staff Nurse, Physiotherapist, ANM, Pharmacist, Audiologist / Speech Therapist, Early interventionist cum Special Educator, Optometrist posts.",
+    "u": "https://rajannasircilla.telangana.gov.in"
+},
+  {
+    "id": "arci-age-limit-recruitment-2026",
+    "b": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
+    "t": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) Recruitment 2026 Notification Out for 29 Age Limit Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "21 November 2026",
+    "a": "ARCI/HRD/RECT/1/2026",
+    "q": "Qualification and experience differ by post. Candidates should check the...",
+    "desc": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) has officially announced employment advertisement notification ARCI/HRD/RECT/1/2026 inviting applications for 29 vacancies for Age Limit posts.",
+    "u": "https://arci.res.in/careers/vacancies/recruitment-scientific-technical-administrative-support-staff"
+},
+  {
+    "id": "professor-graduate-teaching-recruitment-2026",
+    "b": "Professor Jayashankar Telangana Agricultural University",
+    "t": "Professor Jayashankar Telangana Agricultural University Recruitment 2026 Notification Out for 1 Graduate Teaching Assistant (On temporary basis) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (Walk-in)",
+    "a": "24602/Ser.T/A1/2026",
+    "q": "B.Sc | Any Bachelor's Degree",
+    "desc": "Professor Jayashankar Telangana Agricultural University has officially announced employment advertisement notification 24602/Ser.T/A1/2026 inviting applications for 1 vacancies for Graduate Teaching Assistant (On temporary basis) posts.",
+    "u": "https://pjtau.edu.in/wp-content/uploads/2026/10/Walk-in-interview-Graduate-Teaching-Assistant-17.10.2026.pdf"
+},
+  {
     "id": "rajanna-sircilla-d-mo-recruitment-2026",
     "b": "Rajanna Sircilla District, Telangana",
     "t": "Rajanna Sircilla District, Telangana Recruitment 2026 Notification Out for 6 AYUSH Doctor with PG Qualification, AYUSH Medical Officer, Dietician and 2 more Posts | Apply Offline",
