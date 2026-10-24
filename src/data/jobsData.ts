@@ -12,6 +12,105 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "iim-calcutta-pay-recruitment-2026",
+    "b": "Indian Institute of Management Calcutta (IIM Calcutta)",
+    "t": "Indian Institute of Management Calcutta (IIM Calcutta) Recruitment 2026 Notification Out for 1 Pay Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "On or before 8 November 2026",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Calcutta (IIM Calcutta) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Pay posts.",
+    "u": "https://www.iimcal.ac.in/advertisement-for-position-of-doctors-on-call"
+},
+  {
+    "id": "hll-accounts-assistant-recruitment-2026",
+    "b": "HLL",
+    "t": "HLL Recruitment 2026 Notification Out for 1 Accounts Assistant, Accounts Officer Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "HLL/2026",
+    "q": "B.Com",
+    "desc": "HLL has officially announced employment advertisement notification HLL/2026 inviting applications for 1 vacancies for Accounts Assistant, Accounts Officer posts.",
+    "u": "http://www.lifecarehll.com"
+},
+  {
+    "id": "hll-life-assistant-pharmaci-recruitment-2026",
+    "b": "HLL Lifecare Limited",
+    "t": "HLL Lifecare Limited Recruitment 2026 Notification Out for 1 Assistant Pharmacist and Pharmacist Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "28 October 2026, 29 October 2026, 30 October 2026 (Walk-in)",
+    "a": "HLL-LIFECARE-L/2026",
+    "q": "B.Pharm / D.Pharm",
+    "desc": "HLL Lifecare Limited has officially announced employment advertisement notification HLL-LIFECARE-L/2026 inviting applications for 1 vacancies for Assistant Pharmacist and Pharmacist posts.",
+    "u": "https://www.lifecarehll.com/file/download/reference/0388946ad3ee4d2a9a862fd416fb2589hYSKgns"
+},
+  {
+    "id": "g-b-pant-national-ra-recruitment-2026",
+    "b": "G. B. Pant National Institute of Himalayan Environment",
+    "t": "G. B. Pant National Institute of Himalayan Environment Recruitment 2026 Notification Out for 1 Research Associate-II Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06th November, 2026 (11:59 PM)",
+    "a": "NIHE/HQ-18/26-27",
+    "q": "Any Bachelor's Degree",
+    "desc": "G. B. Pant National Institute of Himalayan Environment has officially announced employment advertisement notification NIHE/HQ-18/26-27 inviting applications for 1 vacancies for Research Associate-II posts.",
+    "u": "https://gbpihed.gov.in/vacancy.php"
+},
+  {
+    "id": "iit-roor-qualification-requ-recruitment-2026",
+    "b": "Indian Institute of Technology, Roorkee",
+    "t": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 4 Qualification Required Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "November 02, 2026 by 5 PM",
+    "a": "HRED/ R-298/ 878",
+    "q": "B.Tech / B.E | Ph.D / Doctorate",
+    "desc": "Indian Institute of Technology, Roorkee has officially announced employment advertisement notification HRED/ R-298/ 878 inviting applications for 4 vacancies for Qualification Required posts.",
+    "u": "https://iitr.ac.in"
+},
+  {
+    "id": "gb-pant-university-mo-recruitment-2026",
+    "b": "G.B. Pant University of Agriculture & Technology, Pantnagar (U.S. Nagar), Uttarakhand - 263145",
+    "t": "G.B. Pant University of Agriculture & Technology, Pantnagar (U.S. Nagar), Uttarakhand - 263145 Recruitment 2026 Notification Out for 1 Emergency Medical Officer Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "16 November 2026 (Walk-in)",
+    "a": "GB-PANT-UNIVER/2026",
+    "q": "MBBS / Medical PG",
+    "desc": "G.B. Pant University of Agriculture & Technology, Pantnagar (U.S. Nagar), Uttarakhand - 263145 has officially announced employment advertisement notification GB-PANT-UNIVER/2026 inviting applications for 1 vacancies for Emergency Medical Officer posts.",
+    "u": "https://www.gbpuat.ac.in/employments/adv-23-10-26.pdf"
+},
+  {
+    "id": "deemed-to-be-various-recruitment-2026",
+    "b": "Graphic Era (Deemed to be) University",
+    "t": "Graphic Era (Deemed to be) University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "2nd November 2026 up to 1700 Hrs.",
+    "a": "GRAPHIC-ERA-DE/2026",
+    "q": "MBA / BBA",
+    "desc": "Graphic Era (Deemed to be) University has officially announced employment advertisement notification GRAPHIC-ERA-DE/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.geu.ac.in"
+},
+  {
+    "id": "banaras-h-salary-fellowship-recruitment-2026",
+    "b": "Banaras Hindu University",
+    "t": "Banaras Hindu University Recruitment 2026 Notification Out for 4 Salary / Fellowship (Rs./month) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Refer Official Notification",
+    "a": "Name",
+    "q": "B.Tech / B.E | M.Tech / M.E | B.Sc",
+    "desc": "Banaras Hindu University has officially announced employment advertisement notification Name inviting applications for 4 vacancies for Salary / Fellowship (Rs./month) posts.",
+    "u": "http://dcs.sdau.edu.in/Uploads/news/YP%20II%20advertisement.pdf"
+},
+  {
+    "id": "iwai-director-recruitment-2026",
+    "b": "Inland Waterways Authority of India (IWAI)",
+    "t": "Inland Waterways Authority of India (IWAI) Recruitment 2026 Notification Out for 1 Director Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Within 45 days of publication in Employment News (about 6 November 2026)",
+    "a": "IWAI-12013/2/2024-ADMIN RECTT-Part(1)",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Inland Waterways Authority of India (IWAI) has officially announced employment advertisement notification IWAI-12013/2/2024-ADMIN RECTT-Part(1) inviting applications for 1 vacancies for Director posts.",
+    "u": "https://www.iwai.gov.in/"
+},
+  {
     "id": "iit-kanpur-various-recruitment-2026",
     "b": "Indian Institute of Technology Kanpur",
     "t": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
