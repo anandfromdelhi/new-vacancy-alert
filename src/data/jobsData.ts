@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "icmr-national-inst-yp-recruitment-2026",
+    "b": "ICMR- National Institute for Tribal Health Research, Jabalpur",
+    "t": "ICMR- National Institute for Tribal Health Research, Jabalpur Recruitment 2026 Notification Out for 1 Young Professional-I (Admin) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "6 November 2026 (Walk-in)",
+    "a": "06/2026-27",
+    "q": "Any Bachelor's Degree",
+    "desc": "ICMR- National Institute for Tribal Health Research, Jabalpur has officially announced employment advertisement notification 06/2026-27 inviting applications for 1 vacancies for Young Professional-I (Admin) posts.",
+    "u": "https://nirth.res.in/"
+},
+  {
+    "id": "icmr-national-in-14-project-recruitment-2026",
+    "b": "ICMR - National Institute for Tribal Health Research, Jabalpur",
+    "t": "ICMR - National Institute for Tribal Health Research, Jabalpur Recruitment 2026 Notification Out for 25 14 project positions, listed in the table below Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "05 November 2026: Project Research Scientist-II, Project Research Scientist-I, Consultant (Medical), Project Nurse-IV, Project Nurse-III. 06 November 2026: Project Field Officer, Project Technical Support-III, Project Assistant Multipurpose (Admin), Project Technical Support-II, Project Lab Technician-2 (Walk-in)",
+    "a": "06/2026-27",
+    "q": "The table lists all 14 posts in the order of the notice, with the projec...",
+    "desc": "ICMR - National Institute for Tribal Health Research, Jabalpur has officially announced employment advertisement notification 06/2026-27 inviting applications for 25 vacancies for 14 project positions, listed in the table below posts.",
+    "u": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792734290_advt06_eng.pdf"
+},
+  {
+    "id": "iit-indore-various-recruitment-2026",
+    "b": "Indian Institute of Technology Indore",
+    "t": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "October 25, 2026",
+    "a": "Applications",
+    "q": "Project-Assistant: M. Sc in chemistry with minimum 60% marks.",
+    "desc": "Indian Institute of Technology Indore has officially announced employment advertisement notification Applications inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://www.iiti.ac.in/uploads/career/2026/Oct/9ba53485a240db51cffd27d46bd3acf0.pdf"
+},
+  {
+    "id": "igntu-fi-recruitment-2026",
+    "b": "Indira Gandhi National Tribal University",
+    "t": "Indira Gandhi National Tribal University Recruitment 2026 Notification Out for 2 Research Assistant, Field Investigator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Within 21 days from the date of the advertisement",
+    "a": "INDIRA-GANDHI-/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Indira Gandhi National Tribal University has officially announced employment advertisement notification INDIRA-GANDHI-/2026 inviting applications for 2 vacancies for Research Assistant, Field Investigator posts.",
+    "u": "https://portal.igntu.ac.in/upload/notices/Recruitment_Notice/73e316b9-1ff5-4f5c-a1c0-31fccb796fc1.pdf"
+},
+  {
+    "id": "iiser-tvm-adhoc-faculty-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)",
+    "t": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) Recruitment 2026 Notification Out for 1 Adhoc Faculty for Teaching Courses in Humanities (2026) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "15 November 2026 (11:59 PM)",
+    "a": "INDIAN-INSTITU/2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) has officially announced employment advertisement notification INDIAN-INSTITU/2026 inviting applications for 1 vacancies for Adhoc Faculty for Teaching Courses in Humanities (2026) posts.",
+    "u": "https://forms.gle/wcBNv91GoLYvyMTc8"
+},
+  {
+    "id": "cochin-p-marine-engineering-recruitment-2026",
+    "b": "Cochin Port Authority",
+    "t": "Cochin Port Authority Recruitment 2026 Notification Out for 1 Marine Engineering Superintendent Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "07 December 2026",
+    "a": "No.A3/Absorption-MES/Marine/2026-S",
+    "q": "B.Tech / B.E",
+    "desc": "Cochin Port Authority has officially announced employment advertisement notification No.A3/Absorption-MES/Marine/2026-S inviting applications for 1 vacancies for Marine Engineering Superintendent posts.",
+    "u": "https://cochinport.gov.in/uploads/tenders_attachments/career_1207_1792668560_589.pdf"
+},
+  {
+    "id": "kerala-agricultura-ap-recruitment-2026",
+    "b": "Kerala Agricultural University",
+    "t": "Kerala Agricultural University Recruitment 2026 Notification Out for 3 Assistant Professor (Contract) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "02 November 2026, 4.00pm",
+    "a": "COAPAD/I",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Kerala Agricultural University has officially announced employment advertisement notification COAPAD/I inviting applications for 3 vacancies for Assistant Professor (Contract) posts.",
+    "u": "https://www.kau.in"
+},
+  {
+    "id": "bric-rgcb-jrf-recruitment-2026",
+    "b": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+    "t": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "November 01, 2026",
+    "a": "19/2026",
+    "q": "B.Tech / B.E | M.Sc | MBBS / Medical PG",
+    "desc": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) has officially announced employment advertisement notification 19/2026 inviting applications for 1 vacancies for Junior Research Fellow posts.",
+    "u": "https://rgcb.res.in/tempposition/"
+},
+  {
+    "id": "bric-rgcb-various-recruitment-2026-3075294",
+    "b": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+    "t": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "November 01, 2026",
+    "a": "# Adv. 18/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) has officially announced employment advertisement notification # Adv. 18/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://rgcb.res.in/tempposition/"
+},
+  {
+    "id": "istc-personal-secr-various-recruitment-2026",
+    "b": "ISTC Personal Secretary",
+    "t": "ISTC Personal Secretary Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "04 November 2026",
+    "a": "ISTC",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "ISTC Personal Secretary has officially announced employment advertisement notification ISTC inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://istcindia.org"
+},
+  {
     "id": "bric-rgcb-various-recruitment-2026-3075298",
     "b": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
     "t": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
