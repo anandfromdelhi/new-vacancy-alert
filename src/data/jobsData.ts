@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "cmpdi-various-recruitment-2026",
+    "b": "Central Mine Planning & Design Institute Limited (CMPDI)",
+    "t": "Central Mine Planning & Design Institute Limited (CMPDI) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "15 November 2026",
+    "a": "Forum",
+    "q": "Advocate-For-Supreme-Court-Of-India: Enrolled under a Bar Council as per...",
+    "desc": "Central Mine Planning & Design Institute Limited (CMPDI) has officially announced employment advertisement notification Forum inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "http://aeap.cmpdi.co.in/"
+},
+  {
+    "id": "dlsa-various-recruitment-2026-3075313",
+    "b": "District Legal Services Authority, Palamau",
+    "t": "District Legal Services Authority, Palamau Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "20 November 2026",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "10th / 8th Pass | B.Tech / B.E",
+    "desc": "District Legal Services Authority, Palamau has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3ec05845f3cb43a07259b2e4724dfa5c5/uploads/2026/10/2026102240.pdf"
+},
+  {
+    "id": "krcl-ssesta-ssesta-st-recruitment-2026",
+    "b": "KRCL SSE/STA",
+    "t": "KRCL SSE/STA Recruitment 2026 Notification Out for 1 SSE/STA (S&T) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "18 November 2026 (Walk-in)",
+    "a": "KR/JK/HO/P-R/1C/2026",
+    "q": "B.Tech / B.E | M.Sc | Any Bachelor's Degree",
+    "desc": "KRCL SSE/STA has officially announced employment advertisement notification KR/JK/HO/P-R/1C/2026 inviting applications for 1 vacancies for SSE/STA (S&T) posts.",
+    "u": "https://konkanrailway.com/sites/default/files/2026-10/1JKNOTIFICATION.pdf"
+},
+  {
+    "id": "hppsc-agriculture-develo-recruitment-2026",
+    "b": "Himachal Pradesh Public Service Commission (HPPSC)",
+    "t": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 Notification Out for 23 Agriculture Development Officer (ADO) Group-A (Job Trainee) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "30 November 2026, 11:59 PM",
+    "a": "63/9-2026",
+    "q": "B.Sc | M.Sc | Any Bachelor's Degree",
+    "desc": "Himachal Pradesh Public Service Commission (HPPSC) has officially announced employment advertisement notification 63/9-2026 inviting applications for 23 vacancies for Agriculture Development Officer (ADO) Group-A (Job Trainee) posts.",
+    "u": "https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login"
+},
+  {
+    "id": "hp-various-recruitment-2026",
+    "b": "Office of Deputy Commissioner, Bilaspur, District Bilaspur (HP)",
+    "t": "Office of Deputy Commissioner, Bilaspur, District Bilaspur (HP) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "20 November 2026 within working hours",
+    "a": "BLS-SK-12(370)/2023-42460-476",
+    "q": "Must have rendered minimum 5 years services in any wing of revenue Depar...",
+    "desc": "Office of Deputy Commissioner, Bilaspur, District Bilaspur (HP) has officially announced employment advertisement notification BLS-SK-12(370)/2023-42460-476 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s38d7d8ee069cb0cbbf816bbb65d56947e/uploads/2026/10/17927432757000.pdf"
+},
+  {
+    "id": "iiit-sonepat-ap-recruitment-2026",
+    "b": "Indian Institute of Information Technology Sonepat (IIIT Sonepat)",
+    "t": "Indian Institute of Information Technology Sonepat (IIIT Sonepat) Recruitment 2026 Notification Out for 7 Associate Professor, Assistant Professor Grade I, Assistant Professor Grade II (On contract) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "21 November 2026 (Online) / 1 December 2026 (Hard Copy)",
+    "a": "27-11/2011 TS",
+    "q": "Ph.D / Doctorate",
+    "desc": "Indian Institute of Information Technology Sonepat (IIIT Sonepat) has officially announced employment advertisement notification 27-11/2011 TS inviting applications for 7 vacancies for Associate Professor, Assistant Professor Grade I, Assistant Professor Grade II (On contract) posts.",
+    "u": "https://iiitsonepatrec.samarth.edu.in/"
+},
+  {
+    "id": "niftem-ap-recruitment-2026",
+    "b": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM)",
+    "t": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "12 November 2026",
+    "a": "AES-17011/8/2026-Conf_hall",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) has officially announced employment advertisement notification AES-17011/8/2026-Conf_hall inviting applications for 1 vacancies for Assistant Professor posts.",
+    "u": "https://niftem.ac.in"
+},
+  {
+    "id": "punjab-nat-faculty-watchman-recruitment-2026",
+    "b": "Punjab National Bank (PNB Bank Rohtak), Rohtak, Haryana",
+    "t": "Punjab National Bank (PNB Bank Rohtak), Rohtak, Haryana Recruitment 2026 Notification Out for 2 Faculty, Watchman / Gardener Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "10 November 2026",
+    "a": "PNB/RSETI/ADV.-2026-27/01",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Punjab National Bank (PNB Bank Rohtak), Rohtak, Haryana has officially announced employment advertisement notification PNB/RSETI/ADV.-2026-27/01 inviting applications for 2 vacancies for Faculty, Watchman / Gardener posts.",
+    "u": "https://pnb.bank.in/"
+},
+  {
+    "id": "surat-municipal-supervisor-recruitment-2026",
+    "b": "Surat Municipal Corporation",
+    "t": "Surat Municipal Corporation Recruitment 2026 Notification Out for 18 Supervisor, Assistant Engineer and More Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "23 November 2026",
+    "a": "P.R.O./301, 29/10/2025",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Surat Municipal Corporation has officially announced employment advertisement notification P.R.O./301, 29/10/2025 inviting applications for 18 vacancies for Supervisor, Assistant Engineer and More posts.",
+    "u": "https://www.smc.gov.in/Information/Recruitment"
+},
+  {
+    "id": "veer-narmad-south-various-recruitment-2026",
+    "b": "Veer Narmad South Gujarat University",
+    "t": "Veer Narmad South Gujarat University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "20th November 2026 (5.00 P.M.)",
+    "a": "VNSGU/CHEM/CRS/PF/2026",
+    "q": "M.Sc",
+    "desc": "Veer Narmad South Gujarat University has officially announced employment advertisement notification VNSGU/CHEM/CRS/PF/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://vnsgu.ac.in/uploads/assetlinks/1b7bebf9-b296-4b9a-89ba-bef19195d8b8.pdf"
+},
+  {
     "id": "income-tax-departm-various-recruitment-2026",
     "b": "Income Tax Department Gujarat",
     "t": "Income Tax Department Gujarat Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
