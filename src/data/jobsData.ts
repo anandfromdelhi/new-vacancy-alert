@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bric-rgcb-various-recruitment-2026-3075298",
+    "b": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+    "t": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "1 November 2026",
+    "a": "14/2026",
+    "q": "B.Tech / B.E | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) has officially announced employment advertisement notification 14/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://rgcb.res.in/tempposition/"
+},
+  {
+    "id": "office-of-the-state-health-recruitment-2026",
+    "b": "Office of the Director of Health Services, Thiruvananthapuram",
+    "t": "Office of the Director of Health Services, Thiruvananthapuram Recruitment 2026 Notification Out for 1 State Health Transport Officer (on deputation) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Must reach within 15 days from the date of publication of the notification",
+    "a": "DHS/11299/2026-ED3",
+    "q": "B.Tech / B.E",
+    "desc": "Office of the Director of Health Services, Thiruvananthapuram has officially announced employment advertisement notification DHS/11299/2026-ED3 inviting applications for 1 vacancies for State Health Transport Officer (on deputation) posts.",
+    "u": "https://dhs.kerala.gov.in/wp-content/uploads/2026/10/11299-2026-ED3.pdf"
+},
+  {
+    "id": "sctimst-project-re-prs-recruitment-2026",
+    "b": "SCTIMST Project Research Scientist I",
+    "t": "SCTIMST Project Research Scientist I Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-Medical) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "05 November 2026 (Walk-in)",
+    "a": "0471-",
+    "q": "B.Tech / B.E | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "SCTIMST Project Research Scientist I has officially announced employment advertisement notification 0471- inviting applications for 1 vacancies for Project Research Scientist I (Non-Medical) posts.",
+    "u": "https://www.sctimst.ac.in/Recruitment/RESOURCES/B_2026-27_2278.pdf"
+},
+  {
+    "id": "sctimst-prs-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (SCTIMST)",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (SCTIMST) Recruitment 2026 Notification Out for 1 Project Research Scientist II (Non-Medical) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "04 November 2026 (Walk-in)",
+    "a": "0471-",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (SCTIMST) has officially announced employment advertisement notification 0471- inviting applications for 1 vacancies for Project Research Scientist II (Non-Medical) posts.",
+    "u": "https://www.sctimst.ac.in"
+},
+  {
+    "id": "iiser-tvm-maximum-age-recruitment-2026",
+    "b": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)",
+    "t": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) Recruitment 2026 Notification Out for 8 Maximum Age Limit Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "11 November 2026, 17:00 hrs (online); hard copy to reach by 18 November 2026, 17:00 hrs",
+    "a": "IISER(T)/HR/002/2026 (dated 22-10-2026)",
+    "q": "Any Bachelor's Degree",
+    "desc": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) has officially announced employment advertisement notification IISER(T)/HR/002/2026 (dated 22-10-2026) inviting applications for 8 vacancies for Maximum Age Limit posts.",
+    "u": "https://staffrecruit.iisertvm.ac.in/index.php/application/login/12"
+},
+  {
+    "id": "sctimst-doctoral-fellow-recruitment-2026",
+    "b": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum",
+    "t": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum Recruitment 2026 Notification Out for 1 Post Doctoral Fellow Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "26 October 2026 (Walk-in)",
+    "a": "R&P Cell/43/5393/SCTIMST/2026",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate",
+    "desc": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum has officially announced employment advertisement notification R&P Cell/43/5393/SCTIMST/2026 inviting applications for 1 vacancies for Post Doctoral Fellow posts.",
+    "u": "https://rect.sctimst.ac.in/showPdf/eyJpdiI6IktZS1VjaWUyNFpjeG9pMmdjdHZZU3c9PSIsInZhbHVlIjoiek5kQ0hrY0lKL0kySGtJeDJoUnNCWHJVYVgya0NscVJLZXRIeCtkSjZnaFNWLzRCZGpiN0hyQ1lwS2V0bk9BS3k3VFB4dXAxUFJKNXl0L2pWYUhzbEtORXNpU043WlgzSk52ODdVQklBT0U9IiwibWFjIjoiYTIyMWVmZGU1ZGUwNmY3YWNlMDExNDYzNGQxM2FiMDU1YjYyNWQ5NzhiODA1MTA2NDM0MWNiMmI0YTY4YjNiZCIsInRhZyI6IiJ9"
+},
+  {
+    "id": "sctimst-project-te-various-recruitment-2026",
+    "b": "SCTIMST Project Technical Support II",
+    "t": "SCTIMST Project Technical Support II Recruitment 2026 Notification Out for 4 Various Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "26 October 2026",
+    "a": "SCTIMST-PROJEC/2026",
+    "q": "B.Sc",
+    "desc": "SCTIMST Project Technical Support II has officially announced employment advertisement notification SCTIMST-PROJEC/2026 inviting applications for 4 vacancies for Various Posts posts.",
+    "u": "https://rect.sctimst.ac.in/showPdf/eyJpdiI6IkhMWnh4TjMzR3BQVmx5VjcwQVZsS3c9PSIsInZhbHVlIjoiZUJFZHVlYnl5S1ZwY1Z2eUpBUy8zK1BoRU94cnJOL2F3aENFUXcyY0dUUnJmUDVpM0xFNVNFNjhaaWJybWJhbWxDV3VOcm1nVmMxeEszb3FBMkZwZS8ya1o4QUYvemQyUEo4Tk96QTluZ0E9IiwibWFjIjoiMTAwZWE0ZDdlMTAxNzE2MWIyMmY5Y2JmM2QxODZkNGRhMWJhN2M1ZTBhNTE5YzM1Y2E4YTU1NjI2ZDAzMTMwZSIsInRhZyI6IiJ9"
+},
+  {
+    "id": "bric-rgcb-various-recruitment-2026",
+    "b": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+    "t": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "1 November 2026",
+    "a": "15/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) has officially announced employment advertisement notification 15/2026 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://rgcb.res.in/tempposition/"
+},
+  {
+    "id": "kudsit-ps-recruitment-2026",
+    "b": "Kerala University of Digital Sciences, Innovation and Technology (KUDSIT), Thiruvananthapuram",
+    "t": "Kerala University of Digital Sciences, Innovation and Technology (KUDSIT), Thiruvananthapuram Recruitment 2026 Notification Out for 2 AI Engineer, Project Scientist Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "6 November 2026",
+    "a": "KUDSIT/821/RO1/2022",
+    "q": "M.Tech / M.E | M.Sc | MCA / BCA",
+    "desc": "Kerala University of Digital Sciences, Innovation and Technology (KUDSIT), Thiruvananthapuram has officially announced employment advertisement notification KUDSIT/821/RO1/2022 inviting applications for 2 vacancies for AI Engineer, Project Scientist posts.",
+    "u": "https://www.duk.ac.in/careers"
+},
+  {
+    "id": "coconut-developmen-various-recruitment-2026",
+    "b": "Coconut Development Board (Ministry of Agriculture and Farmers Welfare, Government of India)",
+    "t": "Coconut Development Board (Ministry of Agriculture and Farmers Welfare, Government of India) Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Must reach within 60 days from the date of appearance of the advertisement in the Employment News",
+    "a": "I/18864/2026 dated 16-10-2026",
+    "q": "Post Vacancies Pay Driver Grade I 7 (one more vacancy is anticipated on ...",
+    "desc": "Coconut Development Board (Ministry of Agriculture and Farmers Welfare, Government of India) has officially announced employment advertisement notification I/18864/2026 dated 16-10-2026 inviting applications for 11 vacancies for Various Posts posts.",
+    "u": "https://coconutboard.gov.in/docs/vacancycirculardriver.pdf"
+},
+  {
     "id": "kau-guest-fac-guest-faculty-recruitment-2026",
     "b": "KAU Guest Faculty",
     "t": "KAU Guest Faculty Recruitment 2026 Notification Out for 1 Guest Faculty in Physical Education Posts | Walk-in Interview",
