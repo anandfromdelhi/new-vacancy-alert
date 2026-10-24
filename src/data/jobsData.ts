@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "tmc-hbch-consultant-radiati-recruitment-2026",
+    "b": "TMC HBCHRC Consultant D",
+    "t": "TMC HBCHRC Consultant D Recruitment 2026 Notification Out for 1 Consultant 'D' (Radiation Oncology) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "Friday, 30 October 2026 (Walk-in)",
+    "a": "TMC-HBCHRC-CON/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "TMC HBCHRC Consultant D has officially announced employment advertisement notification TMC-HBCHRC-CON/2026 inviting applications for 1 vacancies for Consultant 'D' (Radiation Oncology) posts.",
+    "u": "https://tmc.gov.in/"
+},
+  {
+    "id": "esic-sr-recruitment-2026-3074219",
+    "b": "ESIC Medical College and Hospital Beltola Senior Resident",
+    "t": "ESIC Medical College and Hospital Beltola Senior Resident Recruitment 2026 Notification Out for 32 Senior Resident Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (Friday) (Walk-in)",
+    "a": "CG-DL-E-05072025-264399",
+    "q": "MBBS / Medical PG",
+    "desc": "ESIC Medical College and Hospital Beltola Senior Resident has officially announced employment advertisement notification CG-DL-E-05072025-264399 inviting applications for 32 vacancies for Senior Resident posts.",
+    "u": "https://esic.gov.in"
+},
+  {
+    "id": "samagra-sh-special-educator-recruitment-2026",
+    "b": "Samagra Shiksha Assam",
+    "t": "Samagra Shiksha Assam Recruitment 2026 Notification Out for 68 Additional Resource Person (ARP), Assistant Additional Resource Person (AARP), Special Educator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "28 October 2026",
+    "a": "818616",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Samagra Shiksha Assam has officially announced employment advertisement notification 818616 inviting applications for 68 vacancies for Additional Resource Person (ARP), Assistant Additional Resource Person (AARP), Special Educator posts.",
+    "u": "https://ssa.assam.gov.in"
+},
+  {
+    "id": "dlsa-various-recruitment-2026",
+    "b": "District Legal Services Authority, West Karbi Anglong, Hamren",
+    "t": "District Legal Services Authority, West Karbi Anglong, Hamren Recruitment 2026 Notification Out for 20 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "30 November 2026 (till 5.00 pm)",
+    "a": "DISTRICT-LEGAL/2026",
+    "q": "10th / 8th Pass",
+    "desc": "District Legal Services Authority, West Karbi Anglong, Hamren has officially announced employment advertisement notification DISTRICT-LEGAL/2026 inviting applications for 20 vacancies for Various Posts posts.",
+    "u": "https://westkarbianglong.dcourts.gov.in"
+},
+  {
+    "id": "slrc-assam-field-asst-recruitment-2026",
+    "b": "State Level Recruitment Commission for Class-III Posts (SLRC Assam)",
+    "t": "State Level Recruitment Commission for Class-III Posts (SLRC Assam) Recruitment 2026 Notification Out for 72 Field Assistant (Statistics) / Enumerator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "14 November 2026 (23:59 PM)",
+    "a": "No.SLRC-G-III/179/AH & Vety./2026/79",
+    "q": "12th Pass | Any Bachelor's Degree",
+    "desc": "State Level Recruitment Commission for Class-III Posts (SLRC Assam) has officially announced employment advertisement notification No.SLRC-G-III/179/AH & Vety./2026/79 inviting applications for 72 vacancies for Field Assistant (Statistics) / Enumerator posts.",
+    "u": "https://formsrec.in/SLRC_III_FASE/?r"
+},
+  {
+    "id": "dlrs-lra-recruitment-2026",
+    "b": "Directorate of Land Records & Surveys (DLRS), Assam",
+    "t": "Directorate of Land Records & Surveys (DLRS), Assam Recruitment 2026 Notification Out for 579 Land Record Assistant (LRA) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "31 October 2026, 5:00 PM",
+    "a": "DLR-11013(21)/50/2025/372",
+    "q": "Prescribed Six-Month RCCC Training and Proficiency in Survey and Settlement",
+    "desc": "Directorate of Land Records & Surveys (DLRS), Assam has officially announced employment advertisement notification DLR-11013(21)/50/2025/372 inviting applications for 579 vacancies for Land Record Assistant (LRA) posts.",
+    "u": "https://sebaonline.org"
+},
+  {
+    "id": "esic-sr-recruitment-2026",
+    "b": "ESIC Senior Resident",
+    "t": "ESIC Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident against GDMO (Accident & Emergency, Dental, Surgery) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "30 October 2026 (Further interview dates will be intimated as per requirement) (Walk-in)",
+    "a": "432(Tsk) U 16/39/2023 Estt",
+    "q": "The recruitment is purely on a contractual basis for a tenure of 01 (one...",
+    "desc": "ESIC Senior Resident has officially announced employment advertisement notification 432(Tsk) U 16/39/2023 Estt inviting applications for 4 vacancies for Senior Resident against GDMO (Accident & Emergency, Dental, Surgery) posts.",
+    "u": "https://esic.gov.in"
+},
+  {
+    "id": "rajiv-gandhi-unive-fi-recruitment-2026",
+    "b": "Rajiv Gandhi University",
+    "t": "Rajiv Gandhi University Recruitment 2026 Notification Out for 2 Research Assistant, Field Investigator Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "No.RGU/PC/ICSSR/AKK-56512026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Rajiv Gandhi University has officially announced employment advertisement notification No.RGU/PC/ICSSR/AKK-56512026 inviting applications for 2 vacancies for Research Assistant, Field Investigator posts.",
+    "u": "https://rgu.ac.in/uploads/notices/Document%20162.pdf"
+},
+  {
+    "id": "rgu-ra-recruitment-2026",
+    "b": "RGU",
+    "t": "RGU Recruitment 2026 Notification Out for 2 Research Associate, Field Investigator Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "6 November 2026 (Friday) (Walk-in)",
+    "a": "RGU/PC/ICSSR/AKK-651/2026 for 2 vacancies",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "RGU has officially announced employment advertisement notification RGU/PC/ICSSR/AKK-651/2026 for 2 vacancies inviting applications for 2 vacancies for Research Associate, Field Investigator posts.",
+    "u": "https://rgu.ac.in/uploads/notices/Document%20162%20(1).pdf"
+},
+  {
+    "id": "rgu-project-assist-pa-recruitment-2026",
+    "b": "RGU Project Assistant",
+    "t": "RGU Project Assistant Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "29 October 2026 (Thursday) (Walk-in)",
+    "a": "RGU-PROJECT-AS/2026",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "RGU Project Assistant has officially announced employment advertisement notification RGU-PROJECT-AS/2026 inviting applications for 1 vacancies for Project Assistant posts.",
+    "u": "https://rgu.ac.in"
+},
+  {
     "id": "dhfws-data-manager-recruitment-2026",
     "b": "District Health & Family Welfare Samiti, Howrah",
     "t": "District Health & Family Welfare Samiti, Howrah Recruitment 2026 Notification Out for 156 Multi Rehabilitation Worker, Pharmacist, Staff Nurse, Community Health Assistant, STS, TBHV, Block Data Manager Posts | Apply Online",
