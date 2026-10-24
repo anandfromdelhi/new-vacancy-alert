@@ -1,1366 +1,1324 @@
 {
-  "timestamp": "2026-10-23T06:23:58.764780",
-  "total_urls_processed": 170,
-  "total_added": 168,
-  "total_skipped": 2,
+  "timestamp": "2026-10-24T08:09:33.385418",
+  "total_urls_processed": 166,
+  "total_added": 159,
+  "total_skipped": 7,
   "added_jobs": [
     {
-      "id": "dcil-trainee-marine-recruitment-2026",
-      "title": "Dredging Corporation of India Limited (DCIL) Recruitment 2026 Notification Out for 34 Trainee Marine Engineer, Trainee Electrical Officer, NCV Trainee and Fleet Personnel Posts | Walk-in Interview",
-      "board": "Dredging Corporation of India Limited (DCIL)",
-      "vacancies": 34,
-      "closing": "Official Recruitment Announcements (Walk-in)",
-      "link": "https://dredge-india.com/files/WebsiteAdvNo042026.pdf"
-    },
-    {
-      "id": "visakhapatnam-senior-deputy-recruitment-2026",
-      "title": "Visakhapatnam Port Authority Recruitment 2026 Notification Out for 1 Senior Deputy Secretary (Class - I) (Dy.HoD) Posts | Apply Online",
-      "board": "Visakhapatnam Port Authority",
+      "id": "rgu-project-assist-pa-recruitment-2026",
+      "title": "RGU Project Assistant Recruitment 2026 Notification Out for 1 Project Assistant Posts | Walk-in Interview",
+      "board": "RGU Project Assistant",
       "vacancies": 1,
-      "closing": "21 November 2026 (Online closing date); 07 December 2026 (Hard copy receipt date)",
-      "link": "http://onlinevacancy.shipmin.nic.in"
+      "closing": "29 October 2026 (Thursday) (Walk-in)",
+      "link": "https://rgu.ac.in"
     },
     {
-      "id": "amrita-vi-robotics-engineer-recruitment-2026",
-      "title": "Amrita Vishwa Vidyapeetham Recruitment 2026 Notification Out for 83 Robotics Engineer, Senior Research Assistant, Research Trainee, Marketing Staff and More Posts | Apply Online",
-      "board": "Amrita Vishwa Vidyapeetham",
-      "vacancies": 83,
-      "closing": "31 October 2026",
-      "link": "https://www.amrita.edu/jobs/"
-    },
-    {
-      "id": "aps-udc-pre-recruitment-2026",
-      "title": "Army Public School Narangi (Local Screening Board) Recruitment 2026 Notification Out for 5 UDC, Pre-Primary Teacher and More Posts | Apply Offline",
-      "board": "Army Public School Narangi (Local Screening Board)",
-      "vacancies": 5,
-      "closing": "31 October 2026 till 2:00 pm",
-      "link": "https://www.apsnarangi.com"
-    },
-    {
-      "id": "iit-guwahati-qualifications-recruitment-2026",
-      "title": "Indian Institute of Technology Guwahati Recruitment 2026 Notification Out for 1 Qualifications Posts | Walk-in Interview",
-      "board": "Indian Institute of Technology Guwahati",
-      "vacancies": 1,
-      "closing": "Walk-in Interview (N-block, Meeting room, BSBE Dept.) (Walk-in)",
-      "link": "https://iitg.ac.in/rndproj/recruitment/"
-    },
-    {
-      "id": "gauhati-high-cour-group-mts-recruitment-2026",
-      "title": "Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh) Recruitment 2026 Notification Out for 2 Group-D (MTS) Posts | Apply Online",
-      "board": "Gauhati High Court (High Court of Assam, Nagaland, Mizoram and Arunachal Pradesh)",
+      "id": "rgu-ra-recruitment-2026",
+      "title": "RGU Recruitment 2026 Notification Out for 2 Research Associate, Field Investigator Posts | Apply Online",
+      "board": "RGU",
       "vacancies": 2,
-      "closing": "17 November 2026 till office working hours",
-      "link": "https://ghconline.gov.in"
+      "closing": "6 November 2026 (Friday) (Walk-in)",
+      "link": "https://rgu.ac.in/uploads/notices/Document%20162%20(1).pdf"
     },
     {
-      "id": "oil-indi-superintending-res-recruitment-2026",
-      "title": "Oil India Limited Recruitment 2026 Notification Out for 87 Superintending Research Scientist, Senior Officer (Mechanical), Senior Officer (Petroleum), Senior Accounts Officer / Senior Internal Auditor, Hindi Officer (Official Language), Confidential Secretary Posts | Apply Online",
-      "board": "Oil India Limited",
-      "vacancies": 87,
-      "closing": "11:00 hours on 14 November 2026",
-      "link": "https://cdn.digialm.com/EForms/configuredHtml/1258/101869/cLS13NVBAyZXSMfBYd/Index.html"
-    },
-    {
-      "id": "nrl-various-recruitment-2026",
-      "title": "Numaligarh Refinery Limited (NRL) Recruitment 2026 Notification Out for 5 Various Posts | Apply Online",
-      "board": "Numaligarh Refinery Limited (NRL)",
-      "vacancies": 5,
-      "closing": "12 November 2026 (up to 23:59 hrs)",
-      "link": "https://www.nrl.co.in/"
-    },
-    {
-      "id": "indira-gandhi-inst-sr-recruitment-2026",
-      "title": "Indira Gandhi Institute of Medical Sciences, Patna-14 Recruitment 2026 Notification Out for 2 Senior Resident (ad-hoc, 89 days Senior Residency Programme), Department of PMR Posts | Walk-in Interview",
-      "board": "Indira Gandhi Institute of Medical Sciences, Patna-14",
+      "id": "rajiv-gandhi-unive-fi-recruitment-2026",
+      "title": "Rajiv Gandhi University Recruitment 2026 Notification Out for 2 Research Assistant, Field Investigator Posts | Walk-in Interview",
+      "board": "Rajiv Gandhi University",
       "vacancies": 2,
-      "closing": "23 November 2026 (Monday), interview at 11:00 AM (Walk-in)",
-      "link": "https://www.igims.org/resources/uploads/TenderManagement/179266285174.pdf"
+      "closing": "27 October 2026 (Walk-in)",
+      "link": "https://rgu.ac.in/uploads/notices/Document%20162.pdf"
     },
     {
-      "id": "bpsc-school-teacher-recruitment-2026",
-      "title": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001 Recruitment 2026 Notification Out for 32388 School Teacher / Vidyalaya Adhyapak (TRE-4.0) Posts | Apply Online",
-      "board": "Bihar Public Service Commission (BPSC), 15 Nehru Path (Bailey Road), Patna - 800001",
-      "vacancies": 32388,
-      "closing": "26 October 2026",
-      "link": "https://bpsconline.bihar.gov.in/"
-    },
-    {
-      "id": "btsc-touring-veterinary-recruitment-2026",
-      "title": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna Recruitment 2026 Notification Out for 787 Touring Veterinary Officer (Bharamanshil Pashu Chikitsa Padadhikari) & equivalent, basic cadre of Bihar Veterinary Service Posts | Apply Online",
-      "board": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna",
-      "vacancies": 787,
-      "closing": "23 October 2026",
-      "link": "https://btsc.bihar.gov.in/node/1231"
-    },
-    {
-      "id": "btsc-matsya-prasar-recruitment-2026",
-      "title": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna Recruitment 2026 Notification Out for 244 Matsya Prasar Padadhikari (Fisheries Extension Officer) Posts | Apply Online",
-      "board": "Bihar Technical Service Commission (BTSC), 19 Harding Road, Patna",
-      "vacancies": 244,
-      "closing": "23 October 2026",
-      "link": "https://btsc.bihar.gov.in/node/1233"
-    },
-    {
-      "id": "btsc-fso-recruitment-2026",
-      "title": "Bihar Technical Service Commission (BTSC) Recruitment 2026 Notification Out for 150 Food Safety Officer (FSO) Posts | Apply Online",
-      "board": "Bihar Technical Service Commission (BTSC)",
-      "vacancies": 150,
-      "closing": "24 October 2026",
-      "link": "https://btsc.pariksha.nic.in/Agencies.aspx?KZhCrm9B4QPkl0gO2rAMuw=="
-    },
-    {
-      "id": "dlsa-gaya-panel-lawyer-recruitment-2026",
-      "title": "District Legal Services Authority, Gaya (DLSA Gaya) Recruitment 2026 Notification Out for 55 Panel Lawyer (District Legal Services Authority, Gaya) and Panel Lawyer (Sub-divisional Legal Services Committee, Sherghati) Posts | Apply Offline",
-      "board": "District Legal Services Authority, Gaya (DLSA Gaya)",
-      "vacancies": 55,
-      "closing": "5 November 2026 (up to 5:00 PM)",
-      "link": "https://gaya.dcourts.gov.in"
-    },
-    {
-      "id": "dlsa-sheohar-plv-recruitment-2026",
-      "title": "District Legal Services Authority Sheohar (DLSA Sheohar) Recruitment 2026 Notification Out for 100 Para Legal Volunteer (PLV) Posts | Apply Offline",
-      "board": "District Legal Services Authority Sheohar (DLSA Sheohar)",
-      "vacancies": 100,
-      "closing": "30 November 2026 up to 05:00 PM",
-      "link": "https://cdnbbsr.s3waas.gov.in/s3ec0407211688a0869d995947a8fb11b2/uploads/2026/10/2026101655.pdf"
-    },
-    {
-      "id": "sdh-mani-specialist-paediat-recruitment-2026",
-      "title": "SDH Manimajra Recruitment 2026 Notification Out for 2 Specialist (Paediatrician), Specialist (Medicine) Posts | Walk-in Interview",
-      "board": "SDH Manimajra",
-      "vacancies": 2,
-      "closing": "28 October 2026 (Walk-in)",
-      "link": "https://nrhmchd.gov.in"
-    },
-    {
-      "id": "pserc-staff-consultant-recruitment-2026",
-      "title": "Punjab State Electricity Regulatory Commission (PSERC) Recruitment 2026 Notification Out for 3 Staff Consultant, Director Finance and More Posts | Apply Offline",
-      "board": "Punjab State Electricity Regulatory Commission (PSERC)",
-      "vacancies": 3,
-      "closing": "11 November 2026: the application must reach the Secretary, PSERC by this date",
-      "link": "https://pserc.punjab.gov.in/pages/Circular79-2026-10.pdf"
-    },
-    {
-      "id": "society-for-centra-clerk-recruitment-2026",
-      "title": "Society for Centralized Recruitment of Staff in Subordinate Courts (S.S.S.C.), High Court of Punjab and Haryana, Chandigarh Recruitment 2026 Notification Out for 1525 Clerk Posts | Apply Online",
-      "board": "Society for Centralized Recruitment of Staff in Subordinate Courts (S.S.S.C.), High Court of Punjab and Haryana, Chandigarh",
-      "vacancies": 1525,
-      "closing": "4 November 2026, 4:00 PM",
-      "link": "https://cdn3.digialm.com/EForms/configuredHtml/32046/100408/8QbduJv6oSbKw2p7dK/Index.html"
-    },
-    {
-      "id": "nhm-consultant-materna-recruitment-2026",
-      "title": "National Health Mission, Chandigarh, Health & Family Welfare Department, Chandigarh Recruitment 2026 Notification Out for 1 Consultant Maternal Health (RCH II Programme) under NHM Posts | Walk-in Interview",
-      "board": "National Health Mission, Chandigarh, Health & Family Welfare Department, Chandigarh",
-      "vacancies": 1,
-      "closing": "30 October 2026 (Walk-in)",
-      "link": "https://nrhmchd.gov.in/cadmin/uploads/filemanagers/1792643946.pdf"
-    },
-    {
-      "id": "kisce-various-recruitment-2026",
-      "title": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Khelo India State Centre of Excellence (KISCE), Chandigarh - Chandigarh Sports Council",
-      "vacancies": 1,
-      "closing": "2 November 2026, 5:00 PM (receipt)",
-      "link": "https://sportsdeptt.chd.gov.in/uploads/notice/20261021_7ca169ac5da11d738b6f394a.pdf"
-    },
-    {
-      "id": "chhattisgar-vice-chancellor-recruitment-2026",
-      "title": "Governor's Secretariat, Lok Bhavan, Raipur (Chhattisgarh) Recruitment 2026 Notification Out for 1 Vice-Chancellor Posts | Apply Offline",
-      "board": "Governor's Secretariat, Lok Bhavan, Raipur (Chhattisgarh)",
-      "vacancies": 1,
-      "closing": "29 October 2026",
-      "link": "https://igkv.ac.in"
-    },
-    {
-      "id": "directorate-of-data-analyst-recruitment-2026",
-      "title": "Directorate of Agriculture Chhattisgarh, Raipur Recruitment 2026 Notification Out for 4 State Project Officer (State Head), Remote Sensing Specialist, Data Analyst & MIS Specialist and 1 more Posts | Walk-in Interview",
-      "board": "Directorate of Agriculture Chhattisgarh, Raipur",
+      "id": "esic-sr-recruitment-2026",
+      "title": "ESIC Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident against GDMO (Accident & Emergency, Dental, Surgery) Posts | Walk-in Interview",
+      "board": "ESIC Senior Resident",
       "vacancies": 4,
-      "closing": "17 November 2026 (Walk-in)",
-      "link": "https://jansampark.cg.gov.in/GetFile.aspx?Id=2e38e67e-fae6-4255-9084-548ef29a4ba5"
+      "closing": "30 October 2026 (Further interview dates will be intimated as per requirement) (Walk-in)",
+      "link": "https://esic.gov.in"
     },
     {
-      "id": "chhattisgar-legal-assistant-recruitment-2026",
-      "title": "Chhattisgarh High Court Recruitment 2026 Notification Out for 11 Legal Assistant Posts | Apply Offline",
-      "board": "Chhattisgarh High Court",
-      "vacancies": 11,
-      "closing": "31 October 2026",
-      "link": "https://highcourt.cg.gov.in/"
+      "id": "dlrs-lra-recruitment-2026",
+      "title": "Directorate of Land Records & Surveys (DLRS), Assam Recruitment 2026 Notification Out for 579 Land Record Assistant (LRA) Posts | Apply Online",
+      "board": "Directorate of Land Records & Surveys (DLRS), Assam",
+      "vacancies": 579,
+      "closing": "31 October 2026, 5:00 PM",
+      "link": "https://sebaonline.org"
     },
     {
-      "id": "icds-janjg-anganwadi-worker-recruitment-2026",
-      "title": "ICDS Janjgir Anganwadi Worker Recruitment 2026 Notification Out for 1 Anganwadi Worker (Anganwadi Karyakarta) Posts | Apply Online",
-      "board": "ICDS Janjgir Anganwadi Worker",
+      "id": "slrc-assam-field-asst-recruitment-2026",
+      "title": "State Level Recruitment Commission for Class-III Posts (SLRC Assam) Recruitment 2026 Notification Out for 72 Field Assistant (Statistics) / Enumerator Posts | Apply Online",
+      "board": "State Level Recruitment Commission for Class-III Posts (SLRC Assam)",
+      "vacancies": 72,
+      "closing": "14 November 2026 (23:59 PM)",
+      "link": "https://formsrec.in/SLRC_III_FASE/?r"
+    },
+    {
+      "id": "dlsa-various-recruitment-2026",
+      "title": "District Legal Services Authority, West Karbi Anglong, Hamren Recruitment 2026 Notification Out for 20 Various Posts | Apply Offline",
+      "board": "District Legal Services Authority, West Karbi Anglong, Hamren",
+      "vacancies": 20,
+      "closing": "30 November 2026 (till 5.00 pm)",
+      "link": "https://westkarbianglong.dcourts.gov.in"
+    },
+    {
+      "id": "samagra-sh-special-educator-recruitment-2026",
+      "title": "Samagra Shiksha Assam Recruitment 2026 Notification Out for 68 Additional Resource Person (ARP), Assistant Additional Resource Person (AARP), Special Educator Posts | Apply Online",
+      "board": "Samagra Shiksha Assam",
+      "vacancies": 68,
+      "closing": "28 October 2026",
+      "link": "https://ssa.assam.gov.in"
+    },
+    {
+      "id": "esic-sr-recruitment-2026-3074219",
+      "title": "ESIC Medical College and Hospital Beltola Senior Resident Recruitment 2026 Notification Out for 32 Senior Resident Posts | Walk-in Interview",
+      "board": "ESIC Medical College and Hospital Beltola Senior Resident",
+      "vacancies": 32,
+      "closing": "30 October 2026 (Friday) (Walk-in)",
+      "link": "https://esic.gov.in"
+    },
+    {
+      "id": "tmc-hbch-consultant-radiati-recruitment-2026",
+      "title": "TMC HBCHRC Consultant D Recruitment 2026 Notification Out for 1 Consultant 'D' (Radiation Oncology) Posts | Apply Online",
+      "board": "TMC HBCHRC Consultant D",
       "vacancies": 1,
-      "closing": "31 October 2026",
-      "link": "https://aww.e-bharti.in"
+      "closing": "Friday, 30 October 2026 (Walk-in)",
+      "link": "https://tmc.gov.in/"
     },
     {
-      "id": "dpr-chhatt-anganwadi-worker-recruitment-2026",
-      "title": "DPR Chhattisgarh Anganwadi Worker Recruitment 2026 Notification Out for 37 Anganwadi Worker Posts | Apply Online",
-      "board": "DPR Chhattisgarh Anganwadi Worker",
-      "vacancies": 37,
-      "closing": "6 November 2026",
-      "link": "https://aww.e-bharti.in/login"
-    },
-    {
-      "id": "dtu-ap-recruitment-2026",
-      "title": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 219 Assistant Professor Posts | Apply Online",
-      "board": "Delhi Technological University (DTU)",
-      "vacancies": 219,
-      "closing": "7 December 2026, 5:00 PM",
-      "link": "https://www.dtu.ac.in/"
-    },
-    {
-      "id": "rcil-jgm-sr-recruitment-2026",
-      "title": "RailTel Corporation of India Limited (RCIL) Recruitment 2026 Notification Out for 1 JGM / SR DGM Posts | Apply Offline",
-      "board": "RailTel Corporation of India Limited (RCIL)",
-      "vacancies": 1,
-      "closing": "Within 30 days from date of notification (about 21 November 2026)",
-      "link": "https://www.railtel.in"
-    },
-    {
-      "id": "rrb-station-master-recruitment-2026",
-      "title": "Railway Recruitment Board (RRB), Across India Recruitment 2026 Notification Out for 1250 Station Master Posts | Apply Online",
-      "board": "Railway Recruitment Board (RRB), Across India",
-      "vacancies": 1250,
-      "closing": "25 November 2026",
-      "link": "https://rrbapply.gov.in"
-    },
-    {
-      "id": "lady-irwin-athletic-basket-recruitment-2026",
-      "title": "Lady Irwin College Delhi Recruitment 2026 Notification Out for 3 ATHLETIC / BASKET BALL / BADMINTON Posts | Walk-in Interview",
-      "board": "Lady Irwin College Delhi",
-      "vacancies": 3,
-      "closing": "Monday, 2nd November 2026 (Walk-in)",
-      "link": "https://www.du.ac.in"
-    },
-    {
-      "id": "daulat-ram-college-ap-recruitment-2026",
-      "title": "Daulat Ram College (University of Delhi) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Walk-in Interview",
-      "board": "Daulat Ram College (University of Delhi)",
-      "vacancies": 1,
-      "closing": "28 October 2026 at 11:00 am (Walk-in)",
-      "link": "https://dr.du.ac.in"
-    },
-    {
-      "id": "iari-various-recruitment-2026",
-      "title": "ICAR-Indian Agricultural Research Institute (IARI), New Delhi-110012 Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "ICAR-Indian Agricultural Research Institute (IARI), New Delhi-110012",
-      "vacancies": 1,
-      "closing": "23 November 2026",
-      "link": "https://iari.res.in/files/jobs/advertisement_22102026.pdf"
-    },
-    {
-      "id": "icar-iari-ra-recruitment-2026",
-      "title": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) Recruitment 2026 Notification Out for 4 Young Professional, Research Associate and More Posts | Apply Online",
-      "board": "ICAR-Indian Agricultural Research Institute (ICAR-IARI)",
-      "vacancies": 4,
-      "closing": "11 November 2026",
-      "link": "https://forms.gle/fkohJ4DQj1RsspJE7"
-    },
-    {
-      "id": "icar-iari-various-recruitment-2026",
-      "title": "ICAR-Indian Agricultural Research Institute (ICAR-IARI) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
-      "board": "ICAR-Indian Agricultural Research Institute (ICAR-IARI)",
+      "id": "nit-patna-pa-recruitment-2026",
+      "title": "National Institute of Technology Patna Recruitment 2026 Notification Out for 2 Project Assistant, Field Worker Posts | Apply Online",
+      "board": "National Institute of Technology Patna",
       "vacancies": 2,
-      "closing": "20 November 2026",
-      "link": "https://iari.res.in"
+      "closing": "06 November 2026 (EOD)",
+      "link": "https://nitp-database-s3.s3.ap-south-1.amazonaws.com/notices/default/1792667049515-faf025325b08063c.pdf"
     },
     {
-      "id": "iit-delh-essential-qualific-recruitment-2026",
-      "title": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Essential Qualification Posts | Apply Online",
+      "id": "igkv-various-recruitment-2026",
+      "title": "Indira Gandhi Krishi Vishwavidyalaya (IGKV) Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
+      "board": "Indira Gandhi Krishi Vishwavidyalaya (IGKV)",
+      "vacancies": 4,
+      "closing": "Office of the Dean, College of Agriculture, IGKV, Raipur (C.G.) Pin- 492 012 (Walk-in)",
+      "link": "https://igkv.ac.in/_Attachment/web/news_notificaiton/2026/0/2/Recruitment_-_6882_20261023114127_0_53017f5e.pdf"
+    },
+    {
+      "id": "smkv-ta-recruitment-2026",
+      "title": "Shaheed Mahendra Karma Vishwavidyalaya (SMKV), Bastar Recruitment 2026 Notification Out for 69 Peon, Assistant Grade-3, Data Entry Operator, Store Keeper, Technical Assistant, Research Assistant, Laboratory Technician, Laboratory Assistant, Accounts Assistant and Library Assistant Posts | Apply Online",
+      "board": "Shaheed Mahendra Karma Vishwavidyalaya (SMKV), Bastar",
+      "vacancies": 69,
+      "closing": "11:59 PM",
+      "link": "https://www.smkvbastar.ac.in/"
+    },
+    {
+      "id": "district-pan-gram-panchayat-recruitment-2026",
+      "title": "District Panchayat Bastar, Jagdalpur Recruitment 2026 Notification Out for 70 Gram Panchayat Secretary (New Gram Panchayat Secretary) Posts | Apply Offline",
+      "board": "District Panchayat Bastar, Jagdalpur",
+      "vacancies": 70,
+      "closing": "16 November 2026 (up to 5:30 PM)",
+      "link": "https://bastar.gov.in/"
+    },
+    {
+      "id": "chhattisgarh-assistant-cum-recruitment-2026",
+      "title": "District Program Officer, Women and Child Development, District Korba (Chhattisgarh) Recruitment 2026 Notification Out for 2 Assistant cum Night Watchman, Paramedical Staff Posts | Apply Offline",
+      "board": "District Program Officer, Women and Child Development, District Korba (Chhattisgarh)",
+      "vacancies": 2,
+      "closing": "07 November 2026",
+      "link": "https://korba.gov.in/"
+    },
+    {
+      "id": "negd-data-scientist-recruitment-2026",
+      "title": "National e-Governance Division (NeGD), Digital India Corporation Recruitment 2026 Notification Out for 4 Data Scientist (AI & ML) Posts | Apply Online",
+      "board": "National e-Governance Division (NeGD), Digital India Corporation",
+      "vacancies": 4,
+      "closing": "04 November 2026",
+      "link": "https://ora.digitalindiacorporation.in/"
+    },
+    {
+      "id": "vpci-delhi-multi-t-mts-recruitment-2026",
+      "title": "VPCI Delhi Multi-Tasking Staff Recruitment 2026 Notification Out for 1 Multi-Tasking Staff (temporary, VRDL project) Posts | Walk-in Interview",
+      "board": "VPCI Delhi Multi-Tasking Staff",
+      "vacancies": 1,
+      "closing": "11th November 2026 (Walk-in)",
+      "link": "https://www.du.ac.in/uploads/new-web/23102026-advt-Post%20of%20Multi-Tasking%20Staff-%20Virology%20Unit.pdf"
+    },
+    {
+      "id": "pm-shri-kv-special-educator-recruitment-2026",
+      "title": "PM SHRI KV Pragati Vihar Recruitment 2026 Notification Out for 1 PGT (Maths, Computer Science), TGT (Maths), Computer Instructor, Special Educator (PRT) Posts | Walk-in Interview",
+      "board": "PM SHRI KV Pragati Vihar",
+      "vacancies": 1,
+      "closing": "24 October 2026 (Walk-in)",
+      "link": "https://cdnbbsr.s3waas.gov.in/s3kv0434d9cdd4f60980a3df1cdeec7b31/uploads/2026/10/2026102325.pdf"
+    },
+    {
+      "id": "iit-delhi-various-recruitment-2026",
+      "title": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Delhi (Industrial Research & Development Unit)",
+      "vacancies": 1,
+      "closing": "02 November 2026 by 5.00 p.m.",
+      "link": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792745346261_v2frjut.pdf"
+    },
+    {
+      "id": "ilbs-signal-processing-recruitment-2026",
+      "title": "ILBS Recruitment 2026 Notification Out for 8 Signal Processing Engineer, Bio Medical Data Scientist, Senior AI/ML Engineer, AI/ML Engineer, Clinical Research Nurse Coordinator, Research Assistant/Clinical Coordinator, and Embedded Hardware & Firmware Engineer Posts | Walk-in Interview",
+      "board": "ILBS",
+      "vacancies": 8,
+      "closing": "31 October 2026 (Saturday) (Walk-in)",
+      "link": "https://www.ilbs.in"
+    },
+    {
+      "id": "iit-delhi-pa-recruitment-2026",
+      "title": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) Recruitment 2026 Notification Out for 3 JRF/SRF, Junior Project Assistant and More Posts | Apply Online",
+      "board": "Indian Institute of Technology Delhi (Industrial Research & Development Unit)",
+      "vacancies": 3,
+      "closing": "02 November 2026 by 5.00 p.m.",
+      "link": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792745731810_mtn50le.pdf"
+    },
+    {
+      "id": "university-senior-assistant-recruitment-2026",
+      "title": "University of Delhi Recruitment 2026 Notification Out for 126 Senior Assistant and Assistant Posts | Apply Online",
+      "board": "University of Delhi",
+      "vacancies": 126,
+      "closing": "9 November 2026 or within two weeks of publication in Employment News, whichever is later",
+      "link": "https://dunt.uod.ac.in/index.php/site/login"
+    },
+    {
+      "id": "department-of-phar-various-recruitment-2026",
+      "title": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers Recruitment 2026 Notification Out for 5 Various Posts | Apply Offline",
+      "board": "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers",
+      "vacancies": 5,
+      "closing": "[11 November 2026]",
+      "link": "https://pharma-dept.gov.in/sites/default/files/Merged%20pdf%20in%20English.pdf"
+    },
+    {
+      "id": "nii-various-recruitment-2026",
+      "title": "National Institute of Immunology (NII) / BRIC / DBT Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "National Institute of Immunology (NII) / BRIC / DBT",
+      "vacancies": 1,
+      "closing": "30th October, 2026 (Friday) (Walk-in)",
+      "link": "https://www.nii.res.in"
+    },
+    {
+      "id": "ncert-various-recruitment-2026",
+      "title": "National Council of Educational Research & Training (NCERT) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+      "board": "National Council of Educational Research & Training (NCERT)",
+      "vacancies": 2,
+      "closing": "01 November 2026 at 11:59 PM",
+      "link": "https://ncert.nic.in"
+    },
+    {
+      "id": "ongc-various-recruitment-2026",
+      "title": "Oil and Natural Gas Corporation Limited (ONGC) Recruitment 2026 Notification Out for 50 Various Posts | Apply Online",
+      "board": "Oil and Natural Gas Corporation Limited (ONGC)",
+      "vacancies": 50,
+      "closing": "15 November 2026",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdRNg7uaPwoEOYGrx_wzhbbdgqvUQHwoAvbCE7RQ1mdcmwzjQ/viewform"
+    },
+    {
+      "id": "ilbs-fib-fibroscan-technici-recruitment-2026",
+      "title": "ILBS FibroScan Technician Recruitment 2026 Notification Out for 1 FibroScan Technician Posts | Walk-in Interview",
+      "board": "ILBS FibroScan Technician",
+      "vacancies": 1,
+      "closing": "29 October 2026 (Thursday) (Walk-in)",
+      "link": "https://www.ilbs.in//images/media/FIBROSCAN_TECHNICIAN_22102026.pdf"
+    },
+    {
+      "id": "ilbs-pa-recruitment-2026",
+      "title": "Institute of Liver and Biliary Sciences (ILBS), New Delhi Recruitment 2026 Notification Out for 1 Project Assistant Posts | Apply Online",
+      "board": "Institute of Liver and Biliary Sciences (ILBS), New Delhi",
+      "vacancies": 1,
+      "closing": "03 November 2026, 5:00 pm",
+      "link": "https://www.ilbs.in//images/media/project_assistant_22102026.pdf"
+    },
+    {
+      "id": "icmr-assistant-dir-various-recruitment-2026",
+      "title": "ICMR Assistant Director General Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "ICMR Assistant Director General",
+      "vacancies": 1,
+      "closing": "Within 20 days from the date of publication in Employment News",
+      "link": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792669555_advertisementforadgaondeputationbasis.pdf"
+    },
+    {
+      "id": "railtel-corpo-chief-manager-recruitment-2026",
+      "title": "RailTel Corporation of India Ltd Recruitment 2026 Notification Out for 1 Chief Manager / Sr. Manager Posts | Apply Offline",
+      "board": "RailTel Corporation of India Ltd",
+      "vacancies": 1,
+      "closing": "21 November 2026",
+      "link": "https://www.railtel.in/images/careers/18%202026.pdf"
+    },
+    {
+      "id": "abg-hospital-senio-various-recruitment-2026",
+      "title": "ABG Hospital Senior Resident Recruitment 2026 Notification Out for 4 Various Posts | Walk-in Interview",
+      "board": "ABG Hospital Senior Resident",
+      "vacancies": 4,
+      "closing": "27 October 2026",
+      "link": "https://asbh.delhi.gov.in/sites/default/files/asbh/circulars-orders/adver.pdf"
+    },
+    {
+      "id": "iit-delh-essential-qualific-recruitment-2026-3075347",
+      "title": "Indian Institute of Technology Delhi Recruitment 2026 Notification Out for 1 Essential Qualification Posts | Apply Online",
+      "board": "Indian Institute of Technology Delhi",
+      "vacancies": 1,
+      "closing": "06 November 2026 by 5.00 p.m.",
+      "link": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792671766118_esly9of.pdf"
+    },
+    {
+      "id": "iit-delhi-project-manager-recruitment-2026",
+      "title": "Indian Institute of Technology Delhi (IIT Delhi) Recruitment 2026 Notification Out for 1 Project Manager Posts | Apply Online",
       "board": "Indian Institute of Technology Delhi (IIT Delhi)",
       "vacancies": 1,
-      "closing": "05 November 2026 by 5.00 p.m.",
-      "link": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792660760045_k7vjqh6.pdf"
+      "closing": "06 November 2026",
+      "link": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792672068029_al6478e.pdf"
     },
     {
-      "id": "dic-senior-manager-recruitment-2026",
-      "title": "Digital India Corporation (DIC) Recruitment 2026 Notification Out for 1 Senior Manager - Government Partnerships & Business Development Posts | Apply Online",
-      "board": "Digital India Corporation (DIC)",
-      "vacancies": 1,
-      "closing": "October 29th, 2026",
-      "link": "https://ora.digitalindiacorporation.in/"
-    },
-    {
-      "id": "nbt-typesetter-recruitment-2026",
-      "title": "National Book Trust, India (Ministry of Education, Govt. of India) Recruitment 2026 Notification Out for 2 Typesetter Posts | Apply Online",
-      "board": "National Book Trust, India (Ministry of Education, Govt. of India)",
-      "vacancies": 2,
-      "closing": "Within 15 days from publication on Trust's website (about about 29 October 2026)",
-      "link": "https://www.nbtindia.gov.in"
-    },
-    {
-      "id": "nch-deputy-secretary-recruitment-2026",
-      "title": "National Commission for Homoeopathy (NCH) Recruitment 2026 Notification Out for 8 Deputy Secretary, Section Officer and More Posts | Apply Offline",
-      "board": "National Commission for Homoeopathy (NCH)",
-      "vacancies": 8,
-      "closing": "Within 30 days from the date of publication of the advertisement in the Employment News",
-      "link": "https://nch.org.in/upload/Information-Recruitment.pdf"
-    },
-    {
-      "id": "esic-chief-actuary-recruitment-2026",
-      "title": "Employees' State Insurance Corporation (ESIC) Recruitment 2026 Notification Out for 19 Chief Actuary / Actuarial Advisor, Senior Actuarial Specialist, Chief Data & Analytics Officer, Data Governance Officer, Data Engineering Officer, and other Posts | Apply Online",
-      "board": "Employees' State Insurance Corporation (ESIC)",
+      "id": "esic-delhi-sr-recruitment-2026",
+      "title": "ESIC Delhi Recruitment 2026 Notification Out for 19 Senior Resident, Full Time Contractual Specialist, Full Time / Part Time Contractual Super Specialist Posts | Walk-in Interview",
+      "board": "ESIC Delhi",
       "vacancies": 19,
-      "closing": "12 November 2026",
-      "link": "https://portal.esic.gov.in/ESICInsurance1/ESICEngagementRecruitment/Login.aspx"
+      "closing": "03 November 2026 (Walk-in)",
+      "link": "https://esic.gov.in"
     },
     {
-      "id": "digital-india-corp-devops-recruitment-2026",
-      "title": "Digital India Corporation Recruitment 2026 Notification Out for 1 DevOps Posts | Apply Online",
-      "board": "Digital India Corporation",
+      "id": "dtu-professor-and-recruitment-2026",
+      "title": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 119 Professor and Associate Professor Posts | Apply Online",
+      "board": "Delhi Technological University (DTU)",
+      "vacancies": 119,
+      "closing": "21 December 2026, 5:00 PM",
+      "link": "https://recruitment.dtu.ac.in/"
+    },
+    {
+      "id": "governme-information-commis-recruitment-2026",
+      "title": "Government of India, Ministry of Personnel, Public Grievances and Pensions (Department of Personnel and Training) Recruitment 2026 Notification Out for 1 Information Commissioner Posts | Apply Offline",
+      "board": "Government of India, Ministry of Personnel, Public Grievances and Pensions (Department of Personnel and Training)",
       "vacancies": 1,
-      "closing": "05 November 2026",
-      "link": "https://ora.digitalindiacorporation.in/"
+      "closing": "20 November 2026",
+      "link": "https://cic.gov.in/sites/default/files/2026-10/Advertisement-ic.pdf"
     },
     {
-      "id": "negd-program-manager-recruitment-2026",
-      "title": "National e-Governance Division (NeGD), Digital India Corporation Recruitment 2026 Notification Out for 1 Program Manager (AI) Posts | Apply Online",
-      "board": "National e-Governance Division (NeGD), Digital India Corporation",
+      "id": "trai-pay-recruitment-2026",
+      "title": "Telecom Regulatory Authority of India (TRAI) Recruitment 2026 Notification Out for 1 Pay Posts | Apply Offline",
+      "board": "Telecom Regulatory Authority of India (TRAI)",
       "vacancies": 1,
-      "closing": "01 November 2026",
-      "link": "https://ora.digitalindiacorporation.in/"
+      "closing": "11 November 2026",
+      "link": "https://vacancies.trai.gov.in"
     },
     {
-      "id": "sai-various-recruitment-2026",
-      "title": "Sports Authority of India (SAI) Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
-      "board": "Sports Authority of India (SAI)",
-      "vacancies": 11,
-      "closing": "Receipt by 20 November 2026 at 05.00 PM",
-      "link": "https://sportsauthorityofindia.gov.in"
+      "id": "ddu-hospital-senio-sr-recruitment-2026",
+      "title": "DDU Hospital Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident (Orthopaedics, Dermatology) Posts | Walk-in Interview",
+      "board": "DDU Hospital Senior Resident",
+      "vacancies": 4,
+      "closing": "28 October 2026 (Walk-in)",
+      "link": "https://health.delhi.gov.in/sites/default/files/Health/circulars-orders/wddu_29.pdf"
     },
     {
-      "id": "cwc-am-recruitment-2026",
-      "title": "Central Warehousing Corporation (CWC), a Navratna CPSE Recruitment 2026 Notification Out for 327 Assistant Manager (General, Technical, Finance, Engineering-Civil, Engineering-Electrical, Engineering-Mechanical) and Junior Executive (General, Technical) Posts | Apply Online",
-      "board": "Central Warehousing Corporation (CWC), a Navratna CPSE",
-      "vacancies": 327,
-      "closing": "5 years, subject to the ceiling as per Government guidelines",
-      "link": "https://www.cwceportal.com"
+      "id": "abgh-delhi-senior-sr-recruitment-2026",
+      "title": "ABGH Delhi Senior Resident Recruitment 2026 Notification Out for 4 Senior Resident (Gynae, Paeds, Medicine) Posts | Walk-in Interview",
+      "board": "ABGH Delhi Senior Resident",
+      "vacancies": 4,
+      "closing": "27 October 2026 (Tuesday) (Walk-in)",
+      "link": "https://asbh.delhi.gov.in/"
     },
     {
-      "id": "cwc-various-recruitment-2026",
-      "title": "Central Waqf Council (CWC), New Delhi; recruitment by the Ministry of Minority Affairs (Waqf Division), Government of India Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Central Waqf Council (CWC), New Delhi; recruitment by the Ministry of Minority Affairs (Waqf Division), Government of India",
+      "id": "birac-secretarial-intern-recruitment-2026",
+      "title": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi Recruitment 2026 Notification Out for 1 Secretarial Intern Posts | Apply Online",
+      "board": "Biotechnology Industry Research Assistance Council (BIRAC), Delhi",
       "vacancies": 1,
-      "closing": "Must reach within 45 days from the date the advertisement is published in Employment News",
-      "link": "https://minorityaffairs.gov.in/showfile.php?lang=1&level=1&ls_id=1134&lid=1270"
+      "closing": "19 November 2026",
+      "link": "https://www.birac.nic.in/recruitlogin.php"
     },
     {
-      "id": "mygov-digital-junior-video-recruitment-2026",
-      "title": "MyGov (Digital India Corporation, Ministry of Electronics & Information Technology) Recruitment 2026 Notification Out for 5 Junior Video Editor, Video Editor and More Posts | Apply Online",
-      "board": "MyGov (Digital India Corporation, Ministry of Electronics & Information Technology)",
-      "vacancies": 5,
-      "closing": "03 November 2026",
-      "link": "https://negd.gov.in"
-    },
-    {
-      "id": "faculty-of-dentist-various-recruitment-2026",
-      "title": "Faculty of Dentistry, Jamia Millia Islamia Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
-      "board": "Faculty of Dentistry, Jamia Millia Islamia",
-      "vacancies": 11,
-      "closing": "16 November 2026, up to 04:00 PM (must be received by then)",
-      "link": "https://jmi.ac.in/upload/advertisement/jobs_bds_internship_2026oct21.pdf"
-    },
-    {
-      "id": "dcpw-additional-directo-recruitment-2026",
-      "title": "Directorate of Coordination Police Wireless (DCPW), Ministry of Home Affairs, Government of India Recruitment 2026 Notification Out for 1 Additional Director (General Central Service, Group 'A', Gazetted, Non-ministerial) Posts | Apply Offline",
-      "board": "Directorate of Coordination Police Wireless (DCPW), Ministry of Home Affairs, Government of India",
-      "vacancies": 1,
-      "closing": "Sixty days from the date of advertisement first published in the 'Employment News'",
-      "link": "https://xn--i1b5bzbybhfo5c8b4bxh.xn--11b7cb3a6a.xn--h2brj9c/files/vacancies_documents/MHAOMDTD16102026.pdf"
-    },
-    {
-      "id": "orgi-essential-qualific-recruitment-2026",
-      "title": "Office of the Registrar General, India (ORGI) Recruitment 2026 Notification Out for 26 Essential Qualification Posts | Apply Offline",
-      "board": "Office of the Registrar General, India (ORGI)",
-      "vacancies": 26,
-      "closing": "Within 60 days from the date the circular is published in Rozgar Samachar/Employment News",
-      "link": "https://censusindia.gov.in/nada/index.php/catalog/47178/download/51425/Vacancy_100.pdf"
-    },
-    {
-      "id": "oil-advisor-recruitment-2026",
-      "title": "Oil India Limited (OIL) Recruitment 2026 Notification Out for 1 Advisor Posts | Apply Online",
-      "board": "Oil India Limited (OIL)",
-      "vacancies": 1,
-      "closing": "20 November 2026, 23:59 hours",
-      "link": "https://www.oil-india.com/"
-    },
-    {
-      "id": "aiims-prs-recruitment-2026",
-      "title": "All India Institute of Medical Sciences (AIIMS), Delhi Recruitment 2026 Notification Out for 15 Project Research Scientist, Project Technical Support and More Posts | Apply Online",
-      "board": "All India Institute of Medical Sciences (AIIMS), Delhi",
-      "vacancies": 15,
-      "closing": "27 October 2026, 10:00 PM",
-      "link": "https://www.aiims.edu/images/pdf/recruitment/advertisement/irch1-13-10-26.pdf"
-    },
-    {
-      "id": "aiims-delhi-project-nurse-recruitment-2026",
-      "title": "All India Institute of Medical Sciences, New Delhi Recruitment 2026 Notification Out for 2 Project Nurse-III Posts | Apply Online",
-      "board": "All India Institute of Medical Sciences, New Delhi",
-      "vacancies": 2,
-      "closing": "27 October 2026, 5.30 pm",
-      "link": "https://www.aiims.edu/images/pdf/recruitment/advertisement/burnsurg-13-10-26.pdf"
-    },
-    {
-      "id": "ignca-pa-recruitment-2026",
-      "title": "IGNCA Recruitment 2026 Notification Out for 7 Project Associate, Domain Experts Posts | Walk-in Interview",
-      "board": "IGNCA",
-      "vacancies": 7,
-      "closing": "30 October 2026 (Walk-in)",
-      "link": "https://ignca.gov.in"
-    },
-    {
-      "id": "rrbs-various-recruitment-2026",
-      "title": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India Recruitment 2026 Notification Out for 195 Various Posts | Apply Online",
-      "board": "Railway Recruitment Boards (RRBs), Ministry of Railways, Government of India",
-      "vacancies": 195,
-      "closing": "04 December 2026, 23:59 hours (Tentative)",
-      "link": "https://rrb.indianrailways.gov.in"
-    },
-    {
-      "id": "bhel-artisan-grade-recruitment-2026",
-      "title": "Bharat Heavy Electricals Limited (BHEL) Recruitment 2026 Notification Out for 660 Artisan Grade-IV Posts | Apply Online",
-      "board": "Bharat Heavy Electricals Limited (BHEL)",
-      "vacancies": 660,
-      "closing": "18 November 2026, 11:45 PM",
-      "link": "https://careers.bhel.in/index.jsp"
-    },
-    {
-      "id": "iiitd-various-recruitment-2026",
-      "title": "Indraprastha Institute of Information Technology Delhi (IIITD) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "Indraprastha Institute of Information Technology Delhi (IIITD)",
-      "vacancies": 1,
-      "closing": "11 November 2026, 5 PM",
-      "link": "https://iiitd.nurecampus.com/NURE/OnlineRecruitmentApplication.action"
-    },
-    {
-      "id": "gsl-desirable-qualific-recruitment-2026",
-      "title": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 3 Desirable Qualification Posts | Apply Offline",
-      "board": "Goa Shipyard Limited (GSL)",
+      "id": "abgh-junior-reside-jr-recruitment-2026",
+      "title": "ABGH Junior Resident Recruitment 2026 Notification Out for 3 Junior Resident (Adhoc) Posts | Apply Offline",
+      "board": "ABGH Junior Resident",
       "vacancies": 3,
-      "closing": "05 November 2026 (last date for GSL to receive the hard copy)",
-      "link": "https://goashipyard.in/storage/clients_logo/1792643520.pdf"
+      "closing": "28 October 2026 (Wednesday) (Walk-in)",
+      "link": "https://health.delhi.gov.in"
     },
     {
-      "id": "birla-institute-of-jrf-recruitment-2026",
-      "title": "Birla Institute of Technology and Science, Pilani, K. K. Birla Goa Campus Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
-      "board": "Birla Institute of Technology and Science, Pilani, K. K. Birla Goa Campus",
+      "id": "goa-univ-minimum-qualificat-recruitment-2026",
+      "title": "Goa University, Taleigao Plateau 403206, Goa Recruitment 2026 Notification Out for 2 Minimum Qualification Posts | Apply Offline",
+      "board": "Goa University, Taleigao Plateau 403206, Goa",
+      "vacancies": 2,
+      "closing": "12 November 2026 (within 20 days of the advertisement)",
+      "link": "https://webassets.unigoa.ac.in/uploads/confg_docs/20261023.154623~Vacancy_PhD_Fellow_PD_26.pdf"
+    },
+    {
+      "id": "mgpa-dy-chief-recruitment-2026",
+      "title": "Mormugao Port Authority (MgPA), Ministry of Ports, Shipping & Waterways, Govt. of India Recruitment 2026 Notification Out for 1 Dy. Chief Vigilance Officer (Class-I, Selection post) Posts | Apply Offline",
+      "board": "Mormugao Port Authority (MgPA), Ministry of Ports, Shipping & Waterways, Govt. of India",
       "vacancies": 1,
-      "closing": "26 October 2026",
-      "link": "https://www.bits-pilani.ac.in/wp-content/uploads/Ashish-Chittora-DRDO-Advertisement-Format-for-Research-Scholars.pdf"
+      "closing": "04 December 2026 (the application must reach by this date)",
+      "link": "https://mormugaoport.gov.in/careers_doc/view/1792674622860546.pdf"
     },
     {
-      "id": "gsl-ta-eligibility-recruitment-2026",
-      "title": "Goa Shipyard Limited (GSL) Recruitment 2026 Notification Out for 40 TA Eligibility Posts | Apply Online",
-      "board": "Goa Shipyard Limited (GSL)",
-      "vacancies": 40,
-      "closing": "22 November 2026 (till 17:00 hrs) online. The hard copy must be received on or before 02 December 2026",
-      "link": "https://goashipyard.in"
-    },
-    {
-      "id": "iit-gandhinagar-various-recruitment-2026",
-      "title": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar)",
+      "id": "mormugao-port-auth-various-recruitment-2026",
+      "title": "Mormugao Port Authority Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Mormugao Port Authority",
       "vacancies": 1,
-      "closing": "29 October 2026",
+      "closing": "22 November 2026 (Online) / 07 December 2026 (Hard Copy)",
+      "link": "https://onlinevacancy.shipmin.nic.in"
+    },
+    {
+      "id": "iitgn-pa-recruitment-2026",
+      "title": "Indian Institute of Technology Gandhinagar (IITGN) Recruitment 2026 Notification Out for 1 Project Associate II (Physics) Posts | Apply Online",
+      "board": "Indian Institute of Technology Gandhinagar (IITGN)",
+      "vacancies": 1,
+      "closing": "19 November 2026",
       "link": "http://recruitment.iitgn.ac.in/projectstaff/"
     },
     {
-      "id": "nfsu-senior-projec-pa-recruitment-2026",
-      "title": "NFSU Senior Project Associate Recruitment 2026 Notification Out for 1 Sr. Project Associate (Full Time) Posts | Walk-in Interview",
-      "board": "NFSU Senior Project Associate",
+      "id": "iit-gandhinagar-various-recruitment-2026-3075492",
+      "title": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Gandhinagar",
       "vacancies": 1,
-      "closing": "30th October 2026 (Walk-in)",
-      "link": "https://beta.nfsu.ac.in/data/pdfs/Contarctual_Recruitment/NOTIFICATION_221026.pdf"
+      "closing": "17 November 2026",
+      "link": "http://recruitment.iitgn.ac.in/projectstaff/"
     },
     {
-      "id": "gsssb-work-assistant-recruitment-2026",
-      "title": "Gujarat Subordinate Service Selection Board (GSSSB) Recruitment 2026 Notification Out for 1663 Work Assistant, Class 3 Posts | Apply Online",
-      "board": "Gujarat Subordinate Service Selection Board (GSSSB)",
-      "vacancies": 1663,
-      "closing": "1 November 2026, 11:59 PM",
-      "link": "https://ojas.gujarat.gov.in/AdvtDetails.aspx?sid=K3JOsteln/k=&yr=iNSQ32x8ipg=&ano=q8t7Um+6PcI="
-    },
-    {
-      "id": "sggu-ap-recruitment-2026",
-      "title": "Shri Govind Guru University (SGGU), Godhra Recruitment 2026 Notification Out for 632 Principal, Assistant Professor, Associate Professor, Professor, Librarian, PTI and Tutor Posts | Apply Online",
-      "board": "Shri Govind Guru University (SGGU), Godhra",
-      "vacancies": 632,
-      "closing": "30 October 2026",
-      "link": "https://www.sggu.ac.in"
-    },
-    {
-      "id": "ipr-project-scientific-recruitment-2026",
-      "title": "Institute for Plasma Research (IPR) Recruitment 2026 Notification Out for 58 Project Scientific Officer, Project Scientific Assistant, Project Administrative Staff Posts | Apply Online",
-      "board": "Institute for Plasma Research (IPR)",
-      "vacancies": 58,
-      "closing": "16 November 2026 (till 5:30 PM)",
-      "link": "https://erecruit.ipr.res.in/login"
-    },
-    {
-      "id": "gprb-3000-recruitment-2026",
-      "title": "GPRB Recruitment 2026 Notification Out for 3000 3,000 Posts | Apply Online",
-      "board": "GPRB",
-      "vacancies": 3000,
-      "closing": "Refer Official Notification",
-      "link": "https://gprb.gujarat.gov.in/"
-    },
-    {
-      "id": "tsu-program-trainer-recruitment-2026",
-      "title": "\"Tribhuvan\" Sahkari University (TSU) Recruitment 2026 Notification Out for 1 Program Trainer Posts | Apply Online",
-      "board": "\"Tribhuvan\" Sahkari University (TSU)",
+      "id": "iit-gandhinagar-various-recruitment-2026-3075477",
+      "title": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Gandhinagar",
       "vacancies": 1,
-      "closing": "November 18, 2026",
-      "link": "https://tsu.ac.in/pdf/career_pdf/521_74377.pdf"
+      "closing": "16 November 2026",
+      "link": "http://recruitment.iitgn.ac.in/projectstaff/"
     },
     {
-      "id": "tsu-programme-manager-recruitment-2026",
-      "title": "\"Tribhuvan\" Sahkari University (TSU), Anand Recruitment 2026 Notification Out for 1 Programme Manager Posts | Apply Online",
-      "board": "\"Tribhuvan\" Sahkari University (TSU), Anand",
+      "id": "institute-of-manag-various-recruitment-2026",
+      "title": "Institute of Management, Nirma University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Institute of Management, Nirma University",
       "vacancies": 1,
-      "closing": "November 18, 2026",
-      "link": "https://form.jotform.com/262812888327064"
+      "closing": "1st November 2026",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSfqENwzCSJLeU0wb1AQYfNzpM80LRjg5u56XKm2OstYEPVaww/viewform"
     },
     {
-      "id": "tsu-executive-in-recruitment-2026",
-      "title": "\"Tribhuvan\" Sahkari University (TSU), Anand Recruitment 2026 Notification Out for 1 Executive in the Project Management Unit Posts | Apply Online",
-      "board": "\"Tribhuvan\" Sahkari University (TSU), Anand",
+      "id": "iit-gandhinagar-srf-recruitment-2026",
+      "title": "Indian Institute of Technology Gandhinagar Recruitment 2026 Notification Out for 1 Senior Research Fellow (SRF) Posts | Apply Online",
+      "board": "Indian Institute of Technology Gandhinagar",
       "vacancies": 1,
-      "closing": "November 18, 2026",
-      "link": "https://form.jotform.com/262812888327064"
+      "closing": "05 November 2026",
+      "link": "http://recruitment.iitgn.ac.in/projectstaff/"
     },
     {
-      "id": "csir-csmcri-pa-recruitment-2026",
-      "title": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI), Bhavnagar, Gujarat Recruitment 2026 Notification Out for 2 Project Associate-I, Project Assistant-II Posts | Apply Online",
-      "board": "Central Salt & Marine Chemicals Research Institute (CSIR CSMCRI), Bhavnagar, Gujarat",
+      "id": "income-tax-departm-various-recruitment-2026",
+      "title": "Income Tax Department Gujarat Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Income Tax Department Gujarat",
+      "vacancies": 1,
+      "closing": "20 November 2026 by 6.00 PM",
+      "link": "https://forms.zohopublic.in/ahmedabaddcithqcoordinco1/form/EmpanelmentofCharteredAccountantsus2685ofIncomeTax/formperma/zX8n9V_SqclbaF-WkCKuxCG3KNgrK7l97vxTBRDUrNw"
+    },
+    {
+      "id": "veer-narmad-south-various-recruitment-2026",
+      "title": "Veer Narmad South Gujarat University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Veer Narmad South Gujarat University",
+      "vacancies": 1,
+      "closing": "20th November 2026 (5.00 P.M.)",
+      "link": "https://vnsgu.ac.in/uploads/assetlinks/1b7bebf9-b296-4b9a-89ba-bef19195d8b8.pdf"
+    },
+    {
+      "id": "surat-municipal-supervisor-recruitment-2026",
+      "title": "Surat Municipal Corporation Recruitment 2026 Notification Out for 18 Supervisor, Assistant Engineer and More Posts | Apply Online",
+      "board": "Surat Municipal Corporation",
+      "vacancies": 18,
+      "closing": "23 November 2026",
+      "link": "https://www.smc.gov.in/Information/Recruitment"
+    },
+    {
+      "id": "punjab-nat-faculty-watchman-recruitment-2026",
+      "title": "Punjab National Bank (PNB Bank Rohtak), Rohtak, Haryana Recruitment 2026 Notification Out for 2 Faculty, Watchman / Gardener Posts | Apply Offline",
+      "board": "Punjab National Bank (PNB Bank Rohtak), Rohtak, Haryana",
       "vacancies": 2,
-      "closing": "9 November 2026",
-      "link": "https://www.csmcri.res.in/node/11133"
-    },
-    {
-      "id": "thsti-unskill-lab-attendant-recruitment-2026",
-      "title": "THSTI Unskilled Recruitment 2026 Notification Out for 1 Unskilled (Lab Attendant) Posts | Walk-in Interview",
-      "board": "THSTI Unskilled",
-      "vacancies": 1,
-      "closing": "03rd November 2026 (Tuesday) (Walk-in)",
-      "link": "https://recruitment.thsti.in/public/upload/job_pdf/Advertisement%20Dr.%20Amit%20Awasthi%20Oct%202026.pdf"
-    },
-    {
-      "id": "office-of-the-join-various-recruitment-2026",
-      "title": "Office of the Joint Director General of Foreign Trade, Panipat Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
-      "board": "Office of the Joint Director General of Foreign Trade, Panipat",
-      "vacancies": 2,
-      "closing": "31 October 2026 (on or before)",
-      "link": "https://content.dgft.gov.in/Website/dgftprod/145faaa8-0bef-43ea-8a71-0becb64a01a8/YP_ADV_RA_PANIPAT.pdf"
-    },
-    {
-      "id": "haryana-poli-special-police-recruitment-2026",
-      "title": "Haryana Police Recruitment 2026 Notification Out for 170 Special Police Officer (SPO) Posts | Walk-in Interview",
-      "board": "Haryana Police",
-      "vacancies": 170,
-      "closing": "Refer Notification",
-      "link": "https://haryanapolice.gov.in/pdf/Engagement%20of%20170%20SPOs%20in%20Haryana%20Police%20Telecommunication%20Wing.pdf"
-    },
-    {
-      "id": "lala-lajpat-rai-un-various-recruitment-2026",
-      "title": "Lala Lajpat Rai University of Veterinary and Animal Sciences, Hisar Recruitment 2026 Notification Out for 27 Various Posts | Apply Offline",
-      "board": "Lala Lajpat Rai University of Veterinary and Animal Sciences, Hisar",
-      "vacancies": 27,
-      "closing": "31 October 2026 up to 05:00 PM",
-      "link": "https://www.luvas.edu.in"
-    },
-    {
-      "id": "gurugram-pol-special-police-recruitment-2026",
-      "title": "Gurugram Police, Haryana Recruitment 2026 Notification Out for 33 Special Police Officer (SPO) Posts | Apply Offline",
-      "board": "Gurugram Police, Haryana",
-      "vacancies": 33,
-      "closing": "23 October 2026",
-      "link": "https://haryanapolice.gov.in/"
-    },
-    {
-      "id": "esic-baddi-chest-pulmonary-recruitment-2026",
-      "title": "Employees' State Insurance Corporation Model Hospital Baddi (ESIC Baddi), Himachal Pradesh Recruitment 2026 Notification Out for 45 Chest/ Pulmonary Medicine Specialist, Medicine Specialist, Obs & Gynae Specialist and 12 more Posts | Walk-in Interview",
-      "board": "Employees' State Insurance Corporation Model Hospital Baddi (ESIC Baddi), Himachal Pradesh",
-      "vacancies": 45,
-      "closing": "28 October 2026 (Walk-in)",
-      "link": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_interview_for_the_post_of_SR_Specialist_Superspecialist_Cardiology_on_contract_basis_1792395520.pdf"
-    },
-    {
-      "id": "aiims-bilas-yoga-instructor-recruitment-2026",
-      "title": "AIIMS Bilaspur Senior Resident Recruitment 2026 Notification Out for 69 Yoga Instructor Posts | Walk-in Interview",
-      "board": "AIIMS Bilaspur Senior Resident",
-      "vacancies": 69,
-      "closing": "26 October 2026 (Walk-in)",
-      "link": "https://www.nam.kerala.gov.in/images/careers/1791543996456.pdf"
-    },
-    {
-      "id": "csir-ihbt-pa-recruitment-2026",
-      "title": "CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT) Recruitment 2026 Notification Out for 44 Senior PAT, Project Associate PAT-I, Project Associate PAT-II, Project Assistant-I Posts | Walk-in Interview",
-      "board": "CSIR-Institute of Himalayan Bioresource Technology (CSIR-IHBT)",
-      "vacancies": 44,
-      "closing": "Not specified (walk-in on the interview date for your code)",
-      "link": "https://www.ihbt.res.in"
-    },
-    {
-      "id": "himachal-pra-librarian-peon-recruitment-2026",
-      "title": "Himachal Pradesh High Court Recruitment 2026 Notification Out for 15 Librarian, Peon, Mali, Cook-cum-Attendant Posts | Apply Online",
-      "board": "Himachal Pradesh High Court",
-      "vacancies": 15,
-      "closing": "27 October 2026",
-      "link": "https://www.hphcrecruitment.in/home/index"
-    },
-    {
-      "id": "himachal-prade-professor-of-recruitment-2026",
-      "title": "Himachal Pradesh National Law University, Shimla Recruitment 2026 Notification Out for 2 Professor of Law (Regular) Posts | Apply Online",
-      "board": "Himachal Pradesh National Law University, Shimla",
-      "vacancies": 2,
-      "closing": "21 November 2026 (05:00 P.M.) online; hard copy must reach by 28 November 2026 (05:00 P.M.)",
-      "link": "https://erphpnlu.in"
-    },
-    {
-      "id": "lahd-ssrb-supervisor-recruitment-2026",
-      "title": "Leh Autonomous Hill Development-Subordinate Services Recruitment Board (LAHD-SSRB) Recruitment 2026 Notification Out for 216 Driver, Technician, Work Supervisor, Junior Assistant, Patwari, Junior Nurse, Junior Pharmacist and Others Posts | Apply Online",
-      "board": "Leh Autonomous Hill Development-Subordinate Services Recruitment Board (LAHD-SSRB)",
-      "vacancies": 216,
-      "closing": "27 November 2026",
-      "link": "https://www.lahdssrb.in/"
-    },
-    {
-      "id": "central-university-srf-recruitment-2026",
-      "title": "Central University of Jammu Recruitment 2026 Notification Out for 1 Junior Research Fellow / Senior Research Fellow Posts | Apply Online",
-      "board": "Central University of Jammu",
-      "vacancies": 1,
-      "closing": "13 November 2026",
-      "link": "https://cujammu.ac.in/media/homepage/jobs/UNIV/221026_Readvertisement_for_JRF_ICE_CRUNCH_final_2115_1792654054.pdf"
-    },
-    {
-      "id": "lpssrb-fireman-fireman-recruitment-2026",
-      "title": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 17 Fireman, Fireman Driver, Fireman Ministerial, Sweeper/Safaiwala Posts | Apply Online",
-      "board": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
-      "vacancies": 17,
-      "closing": "08 November 2026",
-      "link": "https://fire.lpssrb2026.apply-gov.in/insights"
-    },
-    {
-      "id": "lpssrb-assistant-superint-recruitment-2026",
-      "title": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB) Recruitment 2026 Notification Out for 46 Assistant Superintendent Jail, Warder, Computer Assistant, Junior Assistant, Orderly, Barber Posts | Apply Online",
-      "board": "Ladakh Police Subordinate Service Recruitment Board (LPSSRB)",
-      "vacancies": 46,
-      "closing": "08 November 2026",
-      "link": "https://prison.lpssrb2026.apply-gov.in/"
-    },
-    {
-      "id": "school-education-r-lib-asst-recruitment-2026",
-      "title": "School Education; Rural Development Department & PR; Handicraft; Ladakh Power Development; PHE/I&FC; Animal Husbandry Recruitment 2026 Notification Out for 181 Class-IV, Technician-III, Laboratory Assistant, Attendant, Library Assistant and other posts (20 items) Posts | Apply Online",
-      "board": "School Education; Rural Development Department & PR; Handicraft; Ladakh Power Development; PHE/I&FC; Animal Husbandry",
-      "vacancies": 181,
-      "closing": "27 November 2026 (Friday)",
-      "link": "https://www.dssrbkargil.in/advertisements.aspx"
-    },
-    {
-      "id": "jgrv-home-guard-recruitment-2026-3067607",
-      "title": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar Recruitment 2026 Notification Out for 772 Home Guard (Grih Rakshak) - Rural & Urban Posts | Apply Online",
-      "board": "Jharkhand Griha Raksha Vahini (JGRV), Deoghar",
-      "vacancies": 772,
-      "closing": "26 October 2026 up to 5:00 PM",
-      "link": "https://recruitment.jharkhand.gov.in/"
-    },
-    {
-      "id": "jrhms-mo-recruitment-2026",
-      "title": "Department of Health, Medical Education & Family Welfare / Jharkhand Rural Health Mission Society (JRHMS), National Health Mission, Government of Jharkhand Recruitment 2026 Notification Out for 306 Specialist Medical Officer (SMO) / Non-Teaching Specialist Medical Officer Posts | Apply Online",
-      "board": "Department of Health, Medical Education & Family Welfare / Jharkhand Rural Health Mission Society (JRHMS), National Health Mission, Government of Jharkhand",
-      "vacancies": 306,
-      "closing": "31 October 2026 (up to 11:59 PM)",
-      "link": "https://jrhms.jharkhand.gov.in/"
-    },
-    {
-      "id": "jepc-je-recruitment-2026",
-      "title": "Jharkhand Education Project Council (JEPC) Recruitment 2026 Notification Out for 106 State Programme Manager, District Programme Manager, Assistant Programme Manager, Expert EMIS, Assistant Computer Programmer, Finance Controller, Finance and Accounts Officer, Accounts Officer, Auditor and Junior Engineer Posts | Apply Online",
-      "board": "Jharkhand Education Project Council (JEPC)",
-      "vacancies": 106,
-      "closing": "31 October 2026, 5:00 PM",
-      "link": "https://jepc.jharkhand.gov.in/recruitment"
-    },
-    {
-      "id": "naval-dockyard-kar-various-recruitment-2026",
-      "title": "Naval Dockyard Karwar Trade Apprentice Recruitment 2026 Notification Out for 210 Various Posts | Apply Online",
-      "board": "Naval Dockyard Karwar Trade Apprentice",
-      "vacancies": 210,
-      "closing": "Refer Official Notification",
-      "link": "https://indiannavy.gov.in/"
-    },
-    {
-      "id": "kfd-forest-observer-recruitment-2026",
-      "title": "Karnataka Forest Department (KFD), Government of Karnataka Recruitment 2026 Notification Out for 1500 Forest Observer (Forest Watcher - Group D / Aranya Veekshaka) Posts | Apply Online",
-      "board": "Karnataka Forest Department (KFD), Government of Karnataka",
-      "vacancies": 1500,
-      "closing": "30 October 2026 (extended)",
-      "link": "https://recruitment.aranya.gov.in/candidate/login"
-    },
-    {
-      "id": "principal-dis-typist-typist-recruitment-2026",
-      "title": "Principal District and Sessions Court, Bengaluru Rural District (Bengaluru Rural District Court) Recruitment 2026 Notification Out for 86 Typist, Typist-Copyist, Process Server, Peon Posts | Apply Online",
-      "board": "Principal District and Sessions Court, Bengaluru Rural District (Bengaluru Rural District Court)",
-      "vacancies": 86,
-      "closing": "06 November 2026 (up to 11:59 PM)",
-      "link": "https://bengalururural.dcourts.gov.in/notice-category/recruitments/"
-    },
-    {
-      "id": "sctimst-ps-recruitment-2026",
-      "title": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Bio Medical Technology Wing) Recruitment 2026 Notification Out for 1 Project Scientist (Professional) Posts | Apply Online",
-      "board": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Bio Medical Technology Wing)",
-      "vacancies": 1,
-      "closing": "05 November 2026, 5.00 pm",
-      "link": "https://www.sctimst.ac.in/Recruitment/"
-    },
-    {
-      "id": "sctimst-various-recruitment-2026",
-      "title": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (Biomedical Technology Wing)",
-      "vacancies": 1,
-      "closing": "05 November 2026, 5.00 pm",
-      "link": "https://www.sctimst.ac.in/Recruitment/"
-    },
-    {
-      "id": "kssm-mo-recruitment-2026",
-      "title": "Kerala Social Security Mission (KSSM) Recruitment 2026 Notification Out for 1 Medical Officer Posts | Apply Offline",
-      "board": "Kerala Social Security Mission (KSSM)",
-      "vacancies": 1,
-      "closing": "31 October 2026, 05.00 PM",
-      "link": "https://socialsecuritymission.gov.in/wp-content/uploads/2026/10/notification_with_application_form.pdf"
-    },
-    {
-      "id": "cmd-am-recruitment-2026",
-      "title": "Centre for Management Development (CMD) (on behalf of a reputed Public Sector Undertaking) Recruitment 2026 Notification Out for 2 Company Secretary, Assistant Manager Posts | Apply Online",
-      "board": "Centre for Management Development (CMD) (on behalf of a reputed Public Sector Undertaking)",
-      "vacancies": 2,
-      "closing": "November 10, 2026, 05.00 PM",
-      "link": "https://cmd.kerala.gov.in"
-    },
-    {
-      "id": "kmrl-various-recruitment-2026",
-      "title": "Kochi Metro Rail Limited (KMRL) Recruitment 2026 Notification Out for 70 Various Posts | Apply Online",
-      "board": "Kochi Metro Rail Limited (KMRL)",
-      "vacancies": 70,
       "closing": "10 November 2026",
-      "link": "https://apprenticeshipindia.gov.in/"
+      "link": "https://pnb.bank.in/"
     },
     {
-      "id": "kerala-psc-draftsman-recruitment-2026",
-      "title": "Kerala Public Service Commission (Kerala PSC) Recruitment 2026 Notification Out for 74 Peon/Watchman, Draftsman, Forest Boat Driver, Higher Secondary School Teacher, Police Constable Driver Posts | Apply Online",
-      "board": "Kerala Public Service Commission (Kerala PSC)",
-      "vacancies": 74,
-      "closing": "04 October 2026",
-      "link": "https://www.keralapsc.gov.in/"
-    },
-    {
-      "id": "csl-various-recruitment-2026",
-      "title": "Cochin Shipyard Limited (CSL) Recruitment 2026 Notification Out for 227 Various Posts | Apply Online",
-      "board": "Cochin Shipyard Limited (CSL)",
-      "vacancies": 227,
-      "closing": "Refer Official Notification",
-      "link": "https://pminternship.mca.gov.in/login/"
-    },
-    {
-      "id": "mgu-ap-recruitment-2026",
-      "title": "Mahatma Gandhi University (MGU) Recruitment 2026 Notification Out for 3 Assistant Professor (Hindi), Assistant Professor (Microbiology/Biotechnology), Assistant Professor (Environmental Science) Posts | Apply Online",
-      "board": "Mahatma Gandhi University (MGU)",
-      "vacancies": 3,
-      "closing": "Within 10 days from the date of notification (about about 24 October 2026)",
-      "link": "https://www.mgu.ac.in"
-    },
-    {
-      "id": "iaf-hindi-typist-recruitment-2026",
-      "title": "Indian Air Force (IAF) Recruitment 2026 Notification Out for 1 Hindi Typist Posts | Apply Offline",
-      "board": "Indian Air Force (IAF)",
-      "vacancies": 1,
-      "closing": "Within 30 days from publication",
-      "link": "https://www.freejobalert.com/articles/indian-air-force-hindi-typist-recruitment-2026-3074995"
-    },
-    {
-      "id": "rail-vik-executive-director-recruitment-2026",
-      "title": "Rail Vikas Nigam Limited Recruitment 2026 Notification Out for 1 Executive Director (Civil) Posts | Apply Online",
-      "board": "Rail Vikas Nigam Limited",
+      "id": "niftem-ap-recruitment-2026",
+      "title": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM) Recruitment 2026 Notification Out for 1 Assistant Professor Posts | Apply Online",
+      "board": "National Institute of Food Technology Entrepreneurship and Management (NIFTEM)",
       "vacancies": 1,
       "closing": "12 November 2026",
-      "link": "https://rvnl.org"
+      "link": "https://niftem.ac.in"
     },
     {
-      "id": "aps-gwalior-tg-tgt-sanskrit-recruitment-2026",
-      "title": "APS Gwalior TGT Recruitment 2026 Notification Out for 1 TGT (Sanskrit) Posts | Apply Offline",
-      "board": "APS Gwalior TGT",
+      "id": "iiit-sonepat-ap-recruitment-2026",
+      "title": "Indian Institute of Information Technology Sonepat (IIIT Sonepat) Recruitment 2026 Notification Out for 7 Associate Professor, Assistant Professor Grade I, Assistant Professor Grade II (On contract) Posts | Apply Online",
+      "board": "Indian Institute of Information Technology Sonepat (IIIT Sonepat)",
+      "vacancies": 7,
+      "closing": "21 November 2026 (Online) / 1 December 2026 (Hard Copy)",
+      "link": "https://iiitsonepatrec.samarth.edu.in/"
+    },
+    {
+      "id": "hp-various-recruitment-2026",
+      "title": "Office of Deputy Commissioner, Bilaspur, District Bilaspur (HP) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "Office of Deputy Commissioner, Bilaspur, District Bilaspur (HP)",
       "vacancies": 1,
-      "closing": "26 October 2026 (Walk-in)",
-      "link": "https://armyschoolgwalior.edu.in/upload/1792641714.pdf"
+      "closing": "20 November 2026 within working hours",
+      "link": "https://cdn.s3waas.gov.in/s38d7d8ee069cb0cbbf816bbb65d56947e/uploads/2026/10/17927432757000.pdf"
     },
     {
-      "id": "iisc-bhopal-jrf-recruitment-2026",
-      "title": "Indian Institute of Science Education and Research Bhopal Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-      "board": "Indian Institute of Science Education and Research Bhopal",
+      "id": "hppsc-agriculture-develo-recruitment-2026",
+      "title": "Himachal Pradesh Public Service Commission (HPPSC) Recruitment 2026 Notification Out for 23 Agriculture Development Officer (ADO) Group-A (Job Trainee) Posts | Apply Online",
+      "board": "Himachal Pradesh Public Service Commission (HPPSC)",
+      "vacancies": 23,
+      "closing": "30 November 2026, 11:59 PM",
+      "link": "https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login"
+    },
+    {
+      "id": "krcl-ssesta-ssesta-st-recruitment-2026",
+      "title": "KRCL SSE/STA Recruitment 2026 Notification Out for 1 SSE/STA (S&T) Posts | Walk-in Interview",
+      "board": "KRCL SSE/STA",
       "vacancies": 1,
-      "closing": "31st October, 2026",
-      "link": "https://www.iiserb.ac.in"
+      "closing": "18 November 2026 (Walk-in)",
+      "link": "https://konkanrailway.com/sites/default/files/2026-10/1JKNOTIFICATION.pdf"
     },
     {
-      "id": "icfre-tf-essential-qualific-recruitment-2026",
-      "title": "ICFRE-Tropical Forest Research Institute (ICFRE-TFRI), Jabalpur Recruitment 2026 Notification Out for 2 Essential Qualification Posts | Apply Online",
-      "board": "ICFRE-Tropical Forest Research Institute (ICFRE-TFRI), Jabalpur",
-      "vacancies": 2,
-      "closing": "26 October 2026",
-      "link": "https://tfrienglish.icfre.gov.in/jobs/vacancy148.pdf"
-    },
-    {
-      "id": "kvs-voc-instructor-recruitment-2026",
-      "title": "Kendriya Vidyalaya Sangathan (PM Shri KV AFS Amla) Recruitment 2026 Notification Out for 1 TGT (Hindi), Primary Teacher (English), Vocational Instructor Posts | Walk-in Interview",
-      "board": "Kendriya Vidyalaya Sangathan (PM Shri KV AFS Amla)",
+      "id": "dlsa-various-recruitment-2026-3075313",
+      "title": "District Legal Services Authority, Palamau Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "District Legal Services Authority, Palamau",
       "vacancies": 1,
-      "closing": "27 October 2026 (Walk-in)",
-      "link": "https://samvida-sathi.kvs.gov.in/register"
+      "closing": "20 November 2026",
+      "link": "https://cdnbbsr.s3waas.gov.in/s3ec05845f3cb43a07259b2e4724dfa5c5/uploads/2026/10/2026102240.pdf"
     },
     {
-      "id": "atal-bihari-vajpay-various-recruitment-2026",
-      "title": "Atal Bihari Vajpayee Training Centre for Disability Sports Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Atal Bihari Vajpayee Training Centre for Disability Sports",
+      "id": "cmpdi-various-recruitment-2026",
+      "title": "Central Mine Planning & Design Institute Limited (CMPDI) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Central Mine Planning & Design Institute Limited (CMPDI)",
       "vacancies": 1,
-      "closing": "Within 30 days from the date of publication of employment notification in Employment News",
-      "link": "https://cdsgwalior.nic.in/"
+      "closing": "15 November 2026",
+      "link": "http://aeap.cmpdi.co.in/"
     },
     {
-      "id": "iiit-research-assistant-recruitment-2026",
-      "title": "Atal Bihari Vajpayee-Indian Institute of Information Technology & Management, Gwalior Recruitment 2026 Notification Out for 1 Research Assistant/Intern Posts | Apply Online",
-      "board": "Atal Bihari Vajpayee-Indian Institute of Information Technology & Management, Gwalior",
+      "id": "hll-lifecare-deputy-general-recruitment-2026",
+      "title": "HLL Lifecare Limited Recruitment 2026 Notification Out for 1 Deputy General Manager (QA & QC) Posts | Apply Online",
+      "board": "HLL Lifecare Limited",
       "vacancies": 1,
-      "closing": "29 October 2026 (10 days from the date of advertisement)",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLSfAAXSkCTdGcsx-tjdR2SRpoNoPJoGPF013q8pJxMahc0oxdA/viewform?usp=send_form"
-    },
-    {
-      "id": "iit-indore-prs-recruitment-2026",
-      "title": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Project Research Scientist-I Posts | Apply Online",
-      "board": "Indian Institute of Technology Indore",
-      "vacancies": 1,
-      "closing": "October 31, 2026",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLScTDX1G8P_I3aHQ3eSmRocrQUx3hvCa9KwMwTjdwfzTyg___Q/viewform?usp=dialog"
-    },
-    {
-      "id": "manit-various-recruitment-2026",
-      "title": "Maulana Azad National Institute of Technology (MANIT) Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Walk-in Interview",
-      "board": "Maulana Azad National Institute of Technology (MANIT) Bhopal",
-      "vacancies": 1,
-      "closing": "Refer Official Notification",
-      "link": "https://forms.gle/C4tkJY4Y49YvKK8K8"
-    },
-    {
-      "id": "nit-bhopal-various-recruitment-2026",
-      "title": "Maulana Azad National Institute of Technology Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "Maulana Azad National Institute of Technology Bhopal",
-      "vacancies": 1,
-      "closing": "30 October 2026",
-      "link": "https://www.manit.ac.in"
-    },
-    {
-      "id": "kv-khargon-special-educator-recruitment-2026",
-      "title": "KV Khargone Recruitment 2026 Notification Out for 1 TGT (English, Sanskrit), PRT (Special Educator), ATL Instructor Posts | Walk-in Interview",
-      "board": "KV Khargone",
-      "vacancies": 1,
-      "closing": "28 October 2026 (Walk-in)",
-      "link": "https://khargone.kvs.ac.in/"
-    },
-    {
-      "id": "csir-nee-essential-qualific-recruitment-2026",
-      "title": "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI) Recruitment 2026 Notification Out for 2 Essential Qualification Posts | Apply Online",
-      "board": "CSIR-National Environmental Engineering Research Institute (CSIR-NEERI)",
-      "vacancies": 2,
-      "closing": "29 October 2026",
-      "link": "https://www.neeri.res.in"
-    },
-    {
-      "id": "department-of-plan-ra-recruitment-2026",
-      "title": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola Recruitment 2026 Notification Out for 1 Research Associate under the HORTSAP pest surveillance scheme of Maharashtra Govt. Posts | Walk-in Interview",
-      "board": "Department of Plant Pathology, Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola",
-      "vacancies": 1,
-      "closing": "29 October 2026 (Walk-in)",
-      "link": "https://www.pdkv.ac.in/Recruitment/hdppl_advt_682_221026.pdf"
-    },
-    {
-      "id": "iips-projec-project-officer-recruitment-2026",
-      "title": "IIPS Project Officer Recruitment 2026 Notification Out for 4 Project Officer - Office Posts | Walk-in Interview",
-      "board": "IIPS Project Officer",
-      "vacancies": 4,
-      "closing": "17 November 2026 (Walk-in)",
-      "link": "https://www.iipsindia.ac.in/sites/default/files/job-listing/Advertisement_LASI_Staff%20_22-10-2026.pdf"
-    },
-    {
-      "id": "indian-railways-in-various-recruitment-2026",
-      "title": "Indian Railways Institute of Civil Engineering, Pune - 411001 Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Indian Railways Institute of Civil Engineering, Pune - 411001",
-      "vacancies": 1,
-      "closing": "Within 30 days from issue of the notification",
-      "link": "https://www.iricen.gov.in/iricen/otm/TA%20NOTIFICATION%20OCT2026117.pdf"
-    },
-    {
-      "id": "sndt-womens-univer-various-recruitment-2026",
-      "title": "SNDT Women's University (श्रीमती ना. दा. ठाकरसी महिला विद्यापीठ) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "SNDT Women's University (श्रीमती ना. दा. ठाकरसी महिला विद्यापीठ)",
-      "vacancies": 1,
-      "closing": "28 October 2026 by 05:00 p.m.",
-      "link": "https://www.sndt.ac.in/pdf/vacancies/2026/advertisement-for-post-of-technical-assistant-on-temporary-basis-on-fixed-honorarium-at-churchgate-campus-of-sndtwu.pdf"
-    },
-    {
-      "id": "diat-srf-recruitment-2026",
-      "title": "Defence Institute of Advanced Technology Recruitment 2026 Notification Out for 6 Senior Research Fellow & Junior Research Fellow Posts | Apply Online",
-      "board": "Defence Institute of Advanced Technology",
-      "vacancies": 6,
       "closing": "31 October 2026",
-      "link": "https://diat.ac.in/wp-content/uploads/2026/10/Advt.-No29-2026-SRF-JRF.pdf"
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSedL47MQRTV2tAabK2rqCGAR8B4Mv1VDocc18OGcaYWl-2__g/viewform"
     },
     {
-      "id": "rbi-pharmacist-recruitment-2026",
-      "title": "Reserve Bank of India (RBI) Recruitment 2026 Notification Out for 22 Pharmacist Posts | Apply Online",
-      "board": "Reserve Bank of India (RBI)",
-      "vacancies": 22,
-      "closing": "03 November 2026, 5:00 PM",
-      "link": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/PHARMA13102026DF95644412B34F7FADB5C84B958DF14F.PDF#page=5&zoom=100,0,0"
-    },
-    {
-      "id": "tmc-project-manager-recruitment-2026",
-      "title": "Tata Memorial Centre - Centre for Cancer Epidemiology Recruitment 2026 Notification Out for 1 Project Manager Posts | Walk-in Interview",
-      "board": "Tata Memorial Centre - Centre for Cancer Epidemiology",
+      "id": "nmpa-various-recruitment-2026",
+      "title": "New Mangalore Port Authority (NMPA), Govt. of India (Ministry of Ports, Shipping and Waterways) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "New Mangalore Port Authority (NMPA), Govt. of India (Ministry of Ports, Shipping and Waterways)",
       "vacancies": 1,
-      "closing": "02 November 2026 (Walk-in)",
-      "link": "https://tmc.gov.in/postmaster/ViewFile?FileId=5z9OXQGY+WK5ykraP+Ncng=="
+      "closing": "20 November 2026",
+      "link": "https://newmangaloreport.gov.in/sites/default/files/2026-10/Letter%20Dtd.22.10.2026.pdf"
     },
     {
-      "id": "mmgpa-medical-offi-mo-recruitment-2026",
-      "title": "MMGPA Medical Officer Recruitment 2026 Notification Out for 2 Medical Officer (Vaidyakiya Adhikari) Posts | Walk-in Interview",
-      "board": "MMGPA Medical Officer",
-      "vacancies": 2,
-      "closing": "29 October 2026 (Walk-in)",
-      "link": "https://cdnbbsr.s3waas.gov.in/s3d16509f6eaca1022bd8f28d6bc582cae/uploads/2026/10/202610211110373519.pdf"
-    },
-    {
-      "id": "aiims-bhu-maximum-age-recruitment-2026",
-      "title": "All India Institute of Medical Sciences, Bhubaneswar Recruitment 2026 Notification Out for 3 Maximum Age Limit Posts | Apply Online",
-      "board": "All India Institute of Medical Sciences, Bhubaneswar",
+      "id": "m-s-ramaiah-univer-ra-recruitment-2026",
+      "title": "M S Ramaiah University of Applied Sciences, Bengaluru Recruitment 2026 Notification Out for 3 Research Associate & Field Investigator Posts | Apply Online",
+      "board": "M S Ramaiah University of Applied Sciences, Bengaluru",
       "vacancies": 3,
-      "closing": "30 October 2026 up to 05.00 PM",
-      "link": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/10/e2bca50f-6f84-475a-81a5-921f695465eb-1.pdf"
+      "closing": "30 October 2026",
+      "link": "https://www.msruas.ac.in/uploads/pdf/ICSSR-Recruitment-Ad.pdf"
     },
     {
-      "id": "zss-jajpur-case-registry-recruitment-2026",
-      "title": "Zilla Swasthya Samiti Jajpur Case Registry Assistant Recruitment 2026 Notification Out for 1 Case Registry Assistant (NMHP) Posts | Walk-in Interview",
-      "board": "Zilla Swasthya Samiti Jajpur Case Registry Assistant",
+      "id": "iia-library-traine-various-recruitment-2026",
+      "title": "IIA Library Trainee Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "IIA Library Trainee",
+      "vacancies": 1,
+      "closing": "23 November 2026 at 17:30 hours",
+      "link": "https://www.iiap.res.in/"
+    },
+    {
+      "id": "pm-shri-kv-sada-tgt-science-recruitment-2026",
+      "title": "PM SHRI KV Sadalaga Recruitment 2026 Notification Out for 1 TGT (Science), Vocational Teachers, Computer Instructor Posts | Walk-in Interview",
+      "board": "PM SHRI KV Sadalaga",
       "vacancies": 1,
       "closing": "31 October 2026 (Walk-in)",
-      "link": "https://jajpur.odisha.gov.in"
+      "link": "https://cdnbbsr.s3waas.gov.in/s3kv031ac56aa0742fcce3863818a2a19b/uploads/2026/10/2026102264.pdf"
     },
     {
-      "id": "oavs-principal-pgt-recruitment-2026",
-      "title": "Odisha Adarsha Vidyalaya Sangathan (OAVS) Recruitment 2026 Notification Out for 815 Principal, PGT, TGT, Art Teacher, PET and Computer Teacher Posts | Apply Online",
-      "board": "Odisha Adarsha Vidyalaya Sangathan (OAVS)",
-      "vacancies": 815,
-      "closing": "11 November 2026, 5:00 PM",
-      "link": "https://oav.edu.in/online-application.php"
-    },
-    {
-      "id": "opsc-aee-various-recruitment-2026",
-      "title": "OPSC AEE Recruitment 2026 Notification Out for 758 Various Posts | Apply Online",
-      "board": "OPSC AEE",
-      "vacancies": 758,
-      "closing": "Refer Official Notification",
-      "link": "https://opsc.gov.in/"
-    },
-    {
-      "id": "ssb-laboratory-assista-recruitment-2026",
-      "title": "State Selection Board (SSB), Department of Higher Education, Odisha Recruitment 2026 Notification Out for 435 Laboratory Assistant-cum-Storekeeper (Group B, Level 9) Posts | Apply Online",
-      "board": "State Selection Board (SSB), Department of Higher Education, Odisha",
-      "vacancies": 435,
-      "closing": "16 November 2026, 11:45 PM",
-      "link": "https://ssbodisha.ac.in/"
-    },
-    {
-      "id": "odisha-university-assoc-dir-recruitment-2026",
-      "title": "Odisha University of Agriculture & Technology, Bhubaneswar Recruitment 2026 Notification Out for 52 Professor, Associate Director of Research & Equivalent Posts | Apply Offline",
-      "board": "Odisha University of Agriculture & Technology, Bhubaneswar",
-      "vacancies": 52,
-      "closing": "28 October 2026",
-      "link": "https://ouat.ac.in/wp-content/uploads/2026/09/Advt.-of-Professor.pdf"
-    },
-    {
-      "id": "women-an-anganwadi-sahayika-recruitment-2026",
-      "title": "Women and Child Development Department Odisha Recruitment 2026 Notification Out for 3 Anganwadi Sahayika Posts | Apply Online",
-      "board": "Women and Child Development Department Odisha",
+      "id": "rwf-junior-enginee-various-recruitment-2026",
+      "title": "RWF Junior Engineer Recruitment 2026 Notification Out for 3 Various Posts | Apply Offline",
+      "board": "RWF Junior Engineer",
       "vacancies": 3,
+      "closing": "6 November 2026",
+      "link": "https://rwf.indianrailways.gov.in/uploads/uploads/Re-engagement_ele(1).pdf"
+    },
+    {
+      "id": "rail-wheel-factory-watcher-recruitment-2026",
+      "title": "Rail Wheel Factory Recruitment 2026 Notification Out for 1 Watcher Posts | Apply Offline",
+      "board": "Rail Wheel Factory",
+      "vacancies": 1,
       "closing": "29 October 2026",
-      "link": "https://engagement-awc.odisha.gov.in/modifyawwEventListForOutsider.htm"
+      "link": "https://ecr.indianrailways.gov.in/cris//uploads/files/1792664954516-document%20-%202026-10-21T131852.174.pdf"
     },
     {
-      "id": "csir-bhu-technical-business-recruitment-2026",
-      "title": "CSIR-Institute of Minerals & Materials Technology, Bhubaneswar Recruitment 2026 Notification Out for 1 Technical & Business Development (Scientific & Technical) Consultant (Post Code C01) Posts | Walk-in Interview",
-      "board": "CSIR-Institute of Minerals & Materials Technology, Bhubaneswar",
+      "id": "rwf-various-recruitment-2026",
+      "title": "Rail Wheel Factory (RWF) Recruitment 2026 Notification Out for 11 Various Posts | Apply Online",
+      "board": "Rail Wheel Factory (RWF)",
+      "vacancies": 11,
+      "closing": "06 November 2026 (17.00 Hrs)",
+      "link": "https://rwf.indianrailways.gov.in/uploads/uploads/Re-engagement_mech(1).pdf"
+    },
+    {
+      "id": "mahe-jrf-recruitment-2026",
+      "title": "Manipal Academy of Higher Education (MAHE) / Manipal Institute of Technology (MIT) Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
+      "board": "Manipal Academy of Higher Education (MAHE) / Manipal Institute of Technology (MIT)",
       "vacancies": 1,
-      "closing": "04 November 2026 at 11:00 A.M. (Walk-in)",
-      "link": "https://www.immt.res.in/webroot/upload/admin/announcement/2026-10-21_announcement_img_1792580835.pdf"
+      "closing": "02 November 2026",
+      "link": "https://www.manipal.edu/"
     },
     {
-      "id": "jipmer-essential-qualific-recruitment-2026",
-      "title": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry Recruitment 2026 Notification Out for 7 Essential Qualification (as printed) Posts | Apply Online",
-      "board": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry",
+      "id": "kau-guest-fac-guest-faculty-recruitment-2026",
+      "title": "KAU Guest Faculty Recruitment 2026 Notification Out for 1 Guest Faculty in Physical Education Posts | Walk-in Interview",
+      "board": "KAU Guest Faculty",
+      "vacancies": 1,
+      "closing": "24 October 2026 (Walk-in)",
+      "link": "https://www.kau.in"
+    },
+    {
+      "id": "coconut-developmen-various-recruitment-2026",
+      "title": "Coconut Development Board (Ministry of Agriculture and Farmers Welfare, Government of India) Recruitment 2026 Notification Out for 11 Various Posts | Apply Offline",
+      "board": "Coconut Development Board (Ministry of Agriculture and Farmers Welfare, Government of India)",
+      "vacancies": 11,
+      "closing": "Must reach within 60 days from the date of appearance of the advertisement in the Employment News",
+      "link": "https://coconutboard.gov.in/docs/vacancycirculardriver.pdf"
+    },
+    {
+      "id": "kudsit-ps-recruitment-2026",
+      "title": "Kerala University of Digital Sciences, Innovation and Technology (KUDSIT), Thiruvananthapuram Recruitment 2026 Notification Out for 2 AI Engineer, Project Scientist Posts | Apply Online",
+      "board": "Kerala University of Digital Sciences, Innovation and Technology (KUDSIT), Thiruvananthapuram",
+      "vacancies": 2,
+      "closing": "6 November 2026",
+      "link": "https://www.duk.ac.in/careers"
+    },
+    {
+      "id": "bric-rgcb-various-recruitment-2026",
+      "title": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+      "board": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+      "vacancies": 2,
+      "closing": "1 November 2026",
+      "link": "https://rgcb.res.in/tempposition/"
+    },
+    {
+      "id": "sctimst-project-te-various-recruitment-2026",
+      "title": "SCTIMST Project Technical Support II Recruitment 2026 Notification Out for 4 Various Posts | Walk-in Interview",
+      "board": "SCTIMST Project Technical Support II",
+      "vacancies": 4,
+      "closing": "26 October 2026",
+      "link": "https://rect.sctimst.ac.in/showPdf/eyJpdiI6IkhMWnh4TjMzR3BQVmx5VjcwQVZsS3c9PSIsInZhbHVlIjoiZUJFZHVlYnl5S1ZwY1Z2eUpBUy8zK1BoRU94cnJOL2F3aENFUXcyY0dUUnJmUDVpM0xFNVNFNjhaaWJybWJhbWxDV3VOcm1nVmMxeEszb3FBMkZwZS8ya1o4QUYvemQyUEo4Tk96QTluZ0E9IiwibWFjIjoiMTAwZWE0ZDdlMTAxNzE2MWIyMmY5Y2JmM2QxODZkNGRhMWJhN2M1ZTBhNTE5YzM1Y2E4YTU1NjI2ZDAzMTMwZSIsInRhZyI6IiJ9"
+    },
+    {
+      "id": "sctimst-doctoral-fellow-recruitment-2026",
+      "title": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum Recruitment 2026 Notification Out for 1 Post Doctoral Fellow Posts | Walk-in Interview",
+      "board": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum",
+      "vacancies": 1,
+      "closing": "26 October 2026 (Walk-in)",
+      "link": "https://rect.sctimst.ac.in/showPdf/eyJpdiI6IktZS1VjaWUyNFpjeG9pMmdjdHZZU3c9PSIsInZhbHVlIjoiek5kQ0hrY0lKL0kySGtJeDJoUnNCWHJVYVgya0NscVJLZXRIeCtkSjZnaFNWLzRCZGpiN0hyQ1lwS2V0bk9BS3k3VFB4dXAxUFJKNXl0L2pWYUhzbEtORXNpU043WlgzSk52ODdVQklBT0U9IiwibWFjIjoiYTIyMWVmZGU1ZGUwNmY3YWNlMDExNDYzNGQxM2FiMDU1YjYyNWQ5NzhiODA1MTA2NDM0MWNiMmI0YTY4YjNiZCIsInRhZyI6IiJ9"
+    },
+    {
+      "id": "iiser-tvm-maximum-age-recruitment-2026",
+      "title": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) Recruitment 2026 Notification Out for 8 Maximum Age Limit Posts | Apply Online",
+      "board": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)",
+      "vacancies": 8,
+      "closing": "11 November 2026, 17:00 hrs (online); hard copy to reach by 18 November 2026, 17:00 hrs",
+      "link": "https://staffrecruit.iisertvm.ac.in/index.php/application/login/12"
+    },
+    {
+      "id": "sctimst-prs-recruitment-2026",
+      "title": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (SCTIMST) Recruitment 2026 Notification Out for 1 Project Research Scientist II (Non-Medical) Posts | Walk-in Interview",
+      "board": "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum (SCTIMST)",
+      "vacancies": 1,
+      "closing": "04 November 2026 (Walk-in)",
+      "link": "https://www.sctimst.ac.in"
+    },
+    {
+      "id": "sctimst-project-re-prs-recruitment-2026",
+      "title": "SCTIMST Project Research Scientist I Recruitment 2026 Notification Out for 1 Project Research Scientist I (Non-Medical) Posts | Walk-in Interview",
+      "board": "SCTIMST Project Research Scientist I",
+      "vacancies": 1,
+      "closing": "05 November 2026 (Walk-in)",
+      "link": "https://www.sctimst.ac.in/Recruitment/RESOURCES/B_2026-27_2278.pdf"
+    },
+    {
+      "id": "office-of-the-state-health-recruitment-2026",
+      "title": "Office of the Director of Health Services, Thiruvananthapuram Recruitment 2026 Notification Out for 1 State Health Transport Officer (on deputation) Posts | Apply Offline",
+      "board": "Office of the Director of Health Services, Thiruvananthapuram",
+      "vacancies": 1,
+      "closing": "Must reach within 15 days from the date of publication of the notification",
+      "link": "https://dhs.kerala.gov.in/wp-content/uploads/2026/10/11299-2026-ED3.pdf"
+    },
+    {
+      "id": "bric-rgcb-various-recruitment-2026-3075298",
+      "title": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+      "vacancies": 1,
+      "closing": "1 November 2026",
+      "link": "https://rgcb.res.in/tempposition/"
+    },
+    {
+      "id": "istc-personal-secr-various-recruitment-2026",
+      "title": "ISTC Personal Secretary Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+      "board": "ISTC Personal Secretary",
+      "vacancies": 2,
+      "closing": "04 November 2026",
+      "link": "https://istcindia.org"
+    },
+    {
+      "id": "bric-rgcb-various-recruitment-2026-3075294",
+      "title": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+      "vacancies": 1,
+      "closing": "November 01, 2026",
+      "link": "https://rgcb.res.in/tempposition/"
+    },
+    {
+      "id": "bric-rgcb-jrf-recruitment-2026",
+      "title": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB) Recruitment 2026 Notification Out for 1 Junior Research Fellow Posts | Apply Online",
+      "board": "Rajiv Gandhi Centre for Biotechnology (BRIC-RGCB)",
+      "vacancies": 1,
+      "closing": "November 01, 2026",
+      "link": "https://rgcb.res.in/tempposition/"
+    },
+    {
+      "id": "kerala-agricultura-ap-recruitment-2026",
+      "title": "Kerala Agricultural University Recruitment 2026 Notification Out for 3 Assistant Professor (Contract) Posts | Apply Online",
+      "board": "Kerala Agricultural University",
+      "vacancies": 3,
+      "closing": "02 November 2026, 4.00pm",
+      "link": "https://www.kau.in"
+    },
+    {
+      "id": "cochin-p-marine-engineering-recruitment-2026",
+      "title": "Cochin Port Authority Recruitment 2026 Notification Out for 1 Marine Engineering Superintendent Posts | Apply Offline",
+      "board": "Cochin Port Authority",
+      "vacancies": 1,
+      "closing": "07 December 2026",
+      "link": "https://cochinport.gov.in/uploads/tenders_attachments/career_1207_1792668560_589.pdf"
+    },
+    {
+      "id": "iiser-tvm-adhoc-faculty-recruitment-2026",
+      "title": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM) Recruitment 2026 Notification Out for 1 Adhoc Faculty for Teaching Courses in Humanities (2026) Posts | Apply Online",
+      "board": "Indian Institute of Science Education and Research Thiruvananthapuram (IISER TVM)",
+      "vacancies": 1,
+      "closing": "15 November 2026 (11:59 PM)",
+      "link": "https://forms.gle/wcBNv91GoLYvyMTc8"
+    },
+    {
+      "id": "igntu-fi-recruitment-2026",
+      "title": "Indira Gandhi National Tribal University Recruitment 2026 Notification Out for 2 Research Assistant, Field Investigator Posts | Apply Online",
+      "board": "Indira Gandhi National Tribal University",
+      "vacancies": 2,
+      "closing": "Within 21 days from the date of the advertisement",
+      "link": "https://portal.igntu.ac.in/upload/notices/Recruitment_Notice/73e316b9-1ff5-4f5c-a1c0-31fccb796fc1.pdf"
+    },
+    {
+      "id": "iit-indore-various-recruitment-2026",
+      "title": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Indore",
+      "vacancies": 1,
+      "closing": "October 25, 2026",
+      "link": "https://www.iiti.ac.in/uploads/career/2026/Oct/9ba53485a240db51cffd27d46bd3acf0.pdf"
+    },
+    {
+      "id": "icmr-national-in-14-project-recruitment-2026",
+      "title": "ICMR - National Institute for Tribal Health Research, Jabalpur Recruitment 2026 Notification Out for 25 14 project positions, listed in the table below Posts | Walk-in Interview",
+      "board": "ICMR - National Institute for Tribal Health Research, Jabalpur",
+      "vacancies": 25,
+      "closing": "05 November 2026: Project Research Scientist-II, Project Research Scientist-I, Consultant (Medical), Project Nurse-IV, Project Nurse-III. 06 November 2026: Project Field Officer, Project Technical Support-III, Project Assistant Multipurpose (Admin), Project Technical Support-II, Project Lab Technician-2 (Walk-in)",
+      "link": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1792734290_advt06_eng.pdf"
+    },
+    {
+      "id": "icmr-national-inst-yp-recruitment-2026",
+      "title": "ICMR- National Institute for Tribal Health Research, Jabalpur Recruitment 2026 Notification Out for 1 Young Professional-I (Admin) Posts | Walk-in Interview",
+      "board": "ICMR- National Institute for Tribal Health Research, Jabalpur",
+      "vacancies": 1,
+      "closing": "6 November 2026 (Walk-in)",
+      "link": "https://nirth.res.in/"
+    },
+    {
+      "id": "iit-indore-various-recruitment-2026-3075387",
+      "title": "Indian Institute of Technology Indore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Indore",
+      "vacancies": 1,
+      "closing": "Within 7 days from the date of advertisement",
+      "link": "https://www.iiti.ac.in/"
+    },
+    {
+      "id": "railtel-cybe-cyber-security-recruitment-2026",
+      "title": "RailTel Cyber Security Expert Recruitment 2026 Notification Out for 1 Cyber Security Expert Posts | Walk-in Interview",
+      "board": "RailTel Cyber Security Expert",
+      "vacancies": 1,
+      "closing": "30 October 2026 (Walk-in)",
+      "link": "https://www.railtel.in"
+    },
+    {
+      "id": "national-g-deputy-registrar-recruitment-2026",
+      "title": "National Green Tribunal, Principal Bench Recruitment 2026 Notification Out for 3 Deputy Registrar, Assistant Registrar Posts | Apply Offline",
+      "board": "National Green Tribunal, Principal Bench",
+      "vacancies": 3,
+      "closing": "16 November 2026 (receipt)",
+      "link": "https://greentribunal.gov.in"
+    },
+    {
+      "id": "iifm-various-recruitment-2026",
+      "title": "Indian Institute of Forest Management (IIFM), Bhopal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Forest Management (IIFM), Bhopal",
+      "vacancies": 1,
+      "closing": "Refer Official Notification",
+      "link": "https://erp.iifmbhopal.edu.in/iifmapp/apply/218"
+    },
+    {
+      "id": "iifm-am-recruitment-2026",
+      "title": "Indian Institute of Forest Management (IIFM) Recruitment 2026 Notification Out for 9 Assistant, Assistant Manager and More Posts | Apply Offline",
+      "board": "Indian Institute of Forest Management (IIFM)",
+      "vacancies": 9,
+      "closing": "30 days from the date of advertisement",
+      "link": "https://iifm.ac.in"
+    },
+    {
+      "id": "cce-counselor-on-recruitment-2026",
+      "title": "Tata Memorial Centre, Centre for Cancer Epidemiology (CCE) Recruitment 2026 Notification Out for 2 Counselor (on Project) Posts | Walk-in Interview",
+      "board": "Tata Memorial Centre, Centre for Cancer Epidemiology (CCE)",
+      "vacancies": 2,
+      "closing": "Monday, 16th November 2026 (10.00 a.m.) (Walk-in)",
+      "link": "https://actrec.gov.in/sites/default/files/2026-10/Counselor%2016.11.2026.pdf"
+    },
+    {
+      "id": "icar-various-recruitment-2026",
+      "title": "ICAR: Central Institute of Fisheries Education Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
+      "board": "ICAR: Central Institute of Fisheries Education",
+      "vacancies": 2,
+      "closing": "04 November 2026",
+      "link": "https://cife.edu.in"
+    },
+    {
+      "id": "bmc-resident-house-officer-recruitment-2026",
+      "title": "BMC Resident Officer Recruitment 2026 Notification Out for 3 House Officer - tenure Posts | Walk-in Interview",
+      "board": "BMC Resident Officer",
+      "vacancies": 3,
+      "closing": "02 November 2026 (Walk-in)",
+      "link": "https://www.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Personnel%20Officer/Recruitment%20Notice/%e0%a4%9c%e0%a4%be%e0%a4%b9%e0%a4%bf%e0%a4%b0%e0%a4%be%e0%a4%a4%20HO.pdf"
+    },
+    {
+      "id": "diat-ap-recruitment-2026",
+      "title": "Defence Institute of Advanced Technology (DIAT), Pune, Maharashtra Recruitment 2026 Notification Out for 7 Professor, Assistant Professor, Assistant Professor (Joint appointment, Electronics Engineering with School of Defence Technology & Management) and 3 more Posts | Apply Online",
+      "board": "Defence Institute of Advanced Technology (DIAT), Pune, Maharashtra",
       "vacancies": 7,
-      "closing": "06 November 2026, up to 05.00 pm",
-      "link": "https://jipmer.edu.in/sites/default/files/Recruitment_Project_staffs_ICMR_PreMI_Study.pdf"
+      "closing": "24 November 2026",
+      "link": "https://diatrec.samarth.edu.in"
     },
     {
-      "id": "jipmer-prs-recruitment-2026",
-      "title": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) Recruitment 2026 Notification Out for 1 Project Research Scientist - III (Non-medical) Posts | Walk-in Interview",
-      "board": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)",
+      "id": "dgma-management-support-recruitment-2026",
+      "title": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra Recruitment 2026 Notification Out for 30 Management Support Associate (MSA) Posts | Apply Online",
+      "board": "Directorate General of Maritime Administration (DGMA), Mumbai, Maharashtra",
+      "vacancies": 30,
+      "closing": "12 November 2026",
+      "link": "https://apps.cbexams.com/EDPSU/DGMaritime/Reg/regstep"
+    },
+    {
+      "id": "icmr-national-inst-deo-recruitment-2026",
+      "title": "ICMR-National Institute for Research on Women's Health, Mumbai Recruitment 2026 Notification Out for 1 Data Entry Operator Posts | Apply Online",
+      "board": "ICMR-National Institute for Research on Women's Health, Mumbai",
       "vacancies": 1,
-      "closing": "29 October 2026 (Walk-in)",
+      "closing": "06th November, 2026",
+      "link": "https://application.nirrch.res.in/login.php"
+    },
+    {
+      "id": "railtel-corporatio-sr-dgm-recruitment-2026",
+      "title": "Railtel Corporation of India Ltd Recruitment 2026 Notification Out for 1 Sr. DGM (E5) Posts | Apply Offline",
+      "board": "Railtel Corporation of India Ltd",
+      "vacancies": 1,
+      "closing": "21 November 2026",
+      "link": "https://www.railtel.in/images/careers/signed%20vacancy%20notice%20192026.pdf"
+    },
+    {
+      "id": "diat-research-asso-ra-recruitment-2026",
+      "title": "DIAT Research Associate Recruitment 2026 Notification Out for 1 Research Associate (RA) Posts | Walk-in Interview",
+      "board": "DIAT Research Associate",
+      "vacancies": 1,
+      "closing": "30th October, 2026 (Walk-in)",
+      "link": "https://diat.ac.in/wp-content/uploads/2026/10/Advt-No.30-2026-RA-Walk-In-Interview.pdf"
+    },
+    {
+      "id": "icmr-nirrch-various-recruitment-2026",
+      "title": "ICMR-National Institute for Research on Women’s Health (ICMR-NIRRCH) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "ICMR-National Institute for Research on Women’s Health (ICMR-NIRRCH)",
+      "vacancies": 1,
+      "closing": "06th November, 2026",
+      "link": "https://application.nirrch.res.in/login.php"
+    },
+    {
+      "id": "icar-various-recruitment-2026-3075263",
+      "title": "ICAR - Central Institute of Fisheries Education (Deemed University) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "ICAR - Central Institute of Fisheries Education (Deemed University)",
+      "vacancies": 1,
+      "closing": "Before 3 November 2026",
+      "link": "https://cife.edu.in/sites/default/files/CSIR%20Advertisement.pdf"
+    },
+    {
+      "id": "aiims-nagpur-guest-faculty-recruitment-2026",
+      "title": "All India Institute of Medical Sciences, Nagpur Recruitment 2026 Notification Out for 1 Guest Faculty (Computer Applications, Health & Nursing Information Technology, Sociology & Applied Sociology) Posts | Apply Offline",
+      "board": "All India Institute of Medical Sciences, Nagpur",
+      "vacancies": 1,
+      "closing": "30 days from the date of publication of advertisement (about 21 November 2026)",
+      "link": "http://aiimsnagpur.edu.in"
+    },
+    {
+      "id": "mumbai-railway-vik-am-recruitment-2026",
+      "title": "Mumbai Railway Vikas Corporation Ltd. Recruitment 2026 Notification Out for 3 Assistant Manager (Electrical) Posts | Apply Offline",
+      "board": "Mumbai Railway Vikas Corporation Ltd.",
+      "vacancies": 3,
+      "closing": "12 November 2026",
+      "link": "https://mrvc.indianrailways.gov.in/uploads/Notification%20No_27%20-%202026%20dated%2022_10_2026%20for%20the%20post%20of%20AM%20(Elect)%20%20(ST)%20Direct%20Recruitment%20in%20E2%20IDA%20Scale.pdf"
+    },
+    {
+      "id": "rims-ap-recruitment-2026",
+      "title": "Regional Institute of Medical Sciences (RIMS) Recruitment 2026 Notification Out for 2 Assistant Professor Posts | Apply Online",
+      "board": "Regional Institute of Medical Sciences (RIMS)",
+      "vacancies": 2,
+      "closing": "30 November 2026",
+      "link": "https://www.rims.edu.in"
+    },
+    {
+      "id": "kvs-coach-recruitment-2026",
+      "title": "PM SHRI Kendriya Vidyalaya Champhai Recruitment 2026 Notification Out for 5 ATL Instructor, TGT Sanskrit, Sports Coach, Balvatika Care Taker (Aaya), Balvatika Teacher Posts | Walk-in Interview",
+      "board": "PM SHRI Kendriya Vidyalaya Champhai",
+      "vacancies": 5,
+      "closing": "30 October 2026 (Walk-in)",
+      "link": "https://cdnbbsr.s3waas.gov.in/s3kv0522f03968ea11f71588a18a10158f/uploads/2026/10/2026102272.pdf"
+    },
+    {
+      "id": "ousssc-constable-civil-recruitment-2026",
+      "title": "Odisha Uniformed Services Staff Selection Commission (OUSSSC) Recruitment 2026 Notification Out for 7268 Constable (Civil), Constable (Communication), Constable OISF, Firefighter, Firefighting Driver, Driver PMT and Traffic Constable Posts | Apply Online",
+      "board": "Odisha Uniformed Services Staff Selection Commission (OUSSSC)",
+      "vacancies": 7268,
+      "closing": "13 November 2026, 10:00 PM",
+      "link": "https://ousssc.odisha.gov.in/"
+    },
+    {
+      "id": "oav-warden-recruitment-2026",
+      "title": "Odisha Adarsha Vidyalaya, Jhulunibahal, Mathili, Malkangiri Recruitment 2026 Notification Out for 5 Warden Posts | Apply Offline",
+      "board": "Odisha Adarsha Vidyalaya, Jhulunibahal, Mathili, Malkangiri",
+      "vacancies": 5,
+      "closing": "31 October 2026",
+      "link": "https://malkangiri.odisha.gov.in/sites/default/files/2026-10/BOYS%20HOSTEL%20REQUIREMENT%20OAV%20MATHILI%20.pdf"
+    },
+    {
+      "id": "malkangi-wildlife-veterinar-recruitment-2026",
+      "title": "Malkangiri Forest Division, Odisha Recruitment 2026 Notification Out for 1 Wildlife Veterinary Assistant Posts | Apply Online",
+      "board": "Malkangiri Forest Division, Odisha",
+      "vacancies": 1,
+      "closing": "27 October 2026",
+      "link": "https://malkangiri.odisha.gov.in/sites/default/files/2026-10/5380.pdf"
+    },
+    {
+      "id": "jipmer-prs-recruitment-2026-3075448",
+      "title": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry Recruitment 2026 Notification Out for 1 Project Research Scientist-I (Medical) Posts | Apply Online",
+      "board": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry",
+      "vacancies": 1,
+      "closing": "10 November 2026, up to 5:00 PM",
       "link": "https://jipmer.edu.in"
     },
     {
-      "id": "pondicherry-univer-ra-recruitment-2026",
-      "title": "Pondicherry University Recruitment 2026 Notification Out for 3 Research Associate, Project Technical Support Posts | Apply Offline",
+      "id": "pondicherry-univer-pa-recruitment-2026",
+      "title": "Pondicherry University Recruitment 2026 Notification Out for 1 Project Associate - I Posts | Walk-in Interview",
       "board": "Pondicherry University",
-      "vacancies": 3,
-      "closing": "10 November 2026 (on or before)",
-      "link": "https://www.pondiuni.edu.in/wp-content/uploads/2026/10/Advt_CARMA-PROJECT-DeptofMicrobiology21102026.pdf"
-    },
-    {
-      "id": "government-of-pudu-various-recruitment-2026",
-      "title": "Government of Puducherry, Directorate of Accounts & Treasuries Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Government of Puducherry, Directorate of Accounts & Treasuries",
       "vacancies": 1,
-      "closing": "13 November 2026",
-      "link": "https://dat.py.gov.in/"
+      "closing": "October 28, 2026 (Walk-in)",
+      "link": "https://www.pondiuni.edu.in"
     },
     {
-      "id": "hbchrc-one-year-fe-one-year-recruitment-2026",
-      "title": "HBCH&RC One Year Fellow Recruitment 2026 Notification Out for 1 One Year Fellow (Hemato-Pathology) Posts | Walk-in Interview",
-      "board": "HBCH&RC One Year Fellow",
+      "id": "pau-field-asst-recruitment-2026",
+      "title": "Reviving Green Revolution Cell / Punjab Agricultural University (PAU) Recruitment 2026 Notification Out for 1 Field Assistant Posts | Apply Online",
+      "board": "Reviving Green Revolution Cell / Punjab Agricultural University (PAU)",
       "vacancies": 1,
-      "closing": "03 November 2026 (Walk-in)",
-      "link": "https://tmc.gov.in/postmaster/ViewFile?FileId=sJwrG8IlkIobMny6NHw3wA=="
+      "closing": "October 30, 2026 (Deactivated by 5 PM)",
+      "link": "https://pau.edu/index.php?_act=manageVacancy&DO=viewVacancyDetail&intID=7625"
     },
     {
-      "id": "moga-various-recruitment-2026",
-      "title": "Panjab University Constituent College, Patto Hira Singh, Nihal Singh Wala (Moga) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
-      "board": "Panjab University Constituent College, Patto Hira Singh, Nihal Singh Wala (Moga)",
+      "id": "hbchrc-sangrur-supervisor-recruitment-2026",
+      "title": "Homi Bhabha Cancer Hospital, Sangrur, Punjab Recruitment 2026 Notification Out for 4 Laundry Supervisor and Laundry Attendant Posts | Walk-in Interview",
+      "board": "Homi Bhabha Cancer Hospital, Sangrur, Punjab",
+      "vacancies": 4,
+      "closing": "27 October 2026 (Walk-in)",
+      "link": "https://tmc.gov.in/postmaster/ViewFile?FileId=6Q/F7nIkQfwFK3jAJ/x9ow=="
+    },
+    {
+      "id": "punjabi-univ-guest-faculty-recruitment-2026",
+      "title": "Punjabi University, Patiala Recruitment 2026 Notification Out for 10 Guest Faculty (Punjabi), for Graduate/Post Graduate Posts | Apply Online",
+      "board": "Punjabi University, Patiala",
+      "vacancies": 10,
+      "closing": "02 November 2026, 4.00 pm",
+      "link": "https://www.punjabiuniversity.ac.in/Pages/SF/TQR/PC8B7D283.pdf"
+    },
+    {
+      "id": "government-vice-chancellor-recruitment-2026",
+      "title": "Government of India, Ministry of Education, Department of Higher Education Recruitment 2026 Notification Out for 1 Vice-Chancellor of Central University of Rajasthan Posts | Apply Online",
+      "board": "Government of India, Ministry of Education, Department of Higher Education",
       "vacancies": 1,
-      "closing": "04 November 2026 (5.00 PM)",
-      "link": "https://jobs.puchd.ac.in/includes/jobs/2026/20261022154412-security%20guard%20interview.pdf"
+      "closing": "21 November 2026, 17:00 Hours",
+      "link": "https://vcrec.samarth.ac.in/index.php/"
     },
     {
-      "id": "iit-jrf-recruitment-2026",
-      "title": "Indian Institute of Technology Ropar Recruitment 2026 Notification Out for 1 Junior Research Fellow / Project Assistant Posts | Apply Online",
-      "board": "Indian Institute of Technology Ropar",
+      "id": "aiims-jodhpur-scientist-recruitment-2026",
+      "title": "All India Institute of Medical Sciences, Jodhpur Recruitment 2026 Notification Out for 1 Scientist C Posts | Walk-in Interview",
+      "board": "All India Institute of Medical Sciences, Jodhpur",
       "vacancies": 1,
-      "closing": "20 November 2026",
-      "link": "https://www.iitrpr.ac.in/api/v2/files/download/225"
+      "closing": "02 November 2026 (Walk-in)",
+      "link": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792740700_Adv-231026.pdf"
     },
     {
-      "id": "bric-nabi-srf-recruitment-2026",
-      "title": "BRIC NABI Recruitment 2026 Notification Out for 6 Research Associate, Senior Research Fellow, Research Associate-1, Research Associate-I (RA-I), Field/Lab worker Posts | Apply Online",
-      "board": "BRIC NABI",
-      "vacancies": 6,
-      "closing": "28 October 2026 (Walk-in)",
-      "link": "https://nabi.res.in/backend/web/img/jobs/jobs-921-Advertisement%2013%20of%202026.pdf"
-    },
-    {
-      "id": "pu-guest-faculty-recruitment-2026",
-      "title": "University Institute of Legal Studies, Panjab University Swami Sarvanand Giri Regional Centre, Hoshiarpur Recruitment 2026 Notification Out for 1 Guest Faculty in the subject of Law Posts | Walk-in Interview",
-      "board": "University Institute of Legal Studies, Panjab University Swami Sarvanand Giri Regional Centre, Hoshiarpur",
-      "vacancies": 1,
-      "closing": "Refer Official Notification",
-      "link": "https://ssgpurch.puchd.ac.in/includes/noticeboard/2026/20261022131043-venueforinterview.pdf?2026="
-    },
-    {
-      "id": "scl-ta-recruitment-2026",
-      "title": "Semi-Conductor Laboratory (SCL), an autonomous body under MeitY, Govt. of India Recruitment 2026 Notification Out for 83 Administrative Officer, Accounts Officer, Purchase & Stores Officer, Junior Personal Assistant, Technical Assistant, Technician ‘B’ Posts | Apply Online",
-      "board": "Semi-Conductor Laboratory (SCL), an autonomous body under MeitY, Govt. of India",
-      "vacancies": 83,
-      "closing": "30 November 2026 (17:00 Hrs.)",
-      "link": "https://www.scl.gov.in/career.html"
-    },
-    {
-      "id": "rrecl-assistant-engineer-recruitment-2026",
-      "title": "Rajasthan Renewable Energy Corporation Limited (RRECL), Jaipur Recruitment 2026 Notification Out for 3 Assistant Engineer / Executive Engineer Posts | Apply Online",
-      "board": "Rajasthan Renewable Energy Corporation Limited (RRECL), Jaipur",
-      "vacancies": 3,
-      "closing": "06 November 2026 (5:00 PM)",
-      "link": "https://jankalyanfile.rajasthan.gov.in/Files//Content/UploadFolder/OrderEntry/RRECL/2026/Recruitment_Related/O_211026_7da11a6a-7c71-4bd5-b875-feca12622473.pdf"
-    },
-    {
-      "id": "district-climate-c-various-recruitment-2026",
-      "title": "District Climate Change Mission, Coimbatore Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "District Climate Change Mission, Coimbatore",
-      "vacancies": 1,
-      "closing": "30 October 2026",
-      "link": "https://coimbatore.nic.in/"
-    },
-    {
-      "id": "iiit-kancheepuram-pts-recruitment-2026",
-      "title": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram Recruitment 2026 Notification Out for 1 Project Technical Support - III Posts | Apply Online",
-      "board": "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
-      "vacancies": 1,
-      "closing": "10th November 2026",
-      "link": "https://forms.gle/HgkQhQoPURYArW4y6"
-    },
-    {
-      "id": "central-university-various-recruitment-2026",
-      "title": "Central University of Tamil Nadu Recruitment 2026 Notification Out for 2 Various Posts | Apply Online",
-      "board": "Central University of Tamil Nadu",
-      "vacancies": 2,
-      "closing": "05 November 2026 (closing date of submission of application)",
-      "link": "https://cutn.ac.in/wp-content/uploads/2026/10/CUTN_Counsellor_Notification_Applied_Psychology_21102026.pdf"
-    },
-    {
-      "id": "iim-pay-recruitment-2026",
-      "title": "Indian Institute of Management Tiruchirappalli Recruitment 2026 Notification Out for 8 Pay Posts | Apply Online",
-      "board": "Indian Institute of Management Tiruchirappalli",
-      "vacancies": 8,
-      "closing": "November 12, 2026 (5.00 pm)",
-      "link": "https://www.iimtrichy.ac.in/en/careers-non-teaching"
-    },
-    {
-      "id": "dccm-various-recruitment-2026",
-      "title": "District Climate Change Mission (DCCM), Erode Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "District Climate Change Mission (DCCM), Erode",
-      "vacancies": 1,
-      "closing": "29 October 2026 (last date for receipt of applications)",
-      "link": "https://cdn.s3waas.gov.in/s3bca82e41ee7b0833588399b1fcd177c7/uploads/2026/10/17925875541513.pdf"
-    },
-    {
-      "id": "lic-hfl-apprentice-recruitment-2026",
-      "title": "LIC Housing Finance Limited (LIC HFL), Across India Recruitment 2026 Notification Out for 232 Apprentice Posts | Apply Online",
-      "board": "LIC Housing Finance Limited (LIC HFL), Across India",
-      "vacancies": 232,
-      "closing": "1 November 2026",
-      "link": "https://nats.education.gov.in"
-    },
-    {
-      "id": "gmc-deo-recruitment-2026",
-      "title": "Government Medical College (GMC), Khammam Recruitment 2026 Notification Out for 60 Data Entry Operator, Lab Attendant, Office Subordinate, Nursing Officer, Attendant and Other Posts | Apply Offline",
-      "board": "Government Medical College (GMC), Khammam",
-      "vacancies": 60,
-      "closing": "31 October 2026, 5 PM",
-      "link": "https://cdn.s3waas.gov.in/s31c383cd30b7c298ab50293adfecb7b18/uploads/2026/10/17926641879104.pdf"
-    },
-    {
-      "id": "dgft-yp-recruitment-2026",
-      "title": "Directorate General of Foreign Trade (DGFT) Recruitment 2026 Notification Out for 2 Young Professional Posts | Apply Online",
-      "board": "Directorate General of Foreign Trade (DGFT)",
-      "vacancies": 2,
-      "closing": "28 October 2026 on or before 5 PM",
-      "link": "https://forms.gle/mvvLemYJHmCCRkLu9"
-    },
-    {
-      "id": "office-of-the-coll-mo-recruitment-2026",
-      "title": "Office of the Collector and District Magistrate, Siddipet District Recruitment 2026 Notification Out for 8 AYUSH Medical Officer, Pharmacist, Psychosocial Counselor, Yoga Professional, Multi-Purpose Worker (MPW) Posts | Apply Offline",
-      "board": "Office of the Collector and District Magistrate, Siddipet District",
-      "vacancies": 8,
-      "closing": "31 October 2026 (05:00 PM)",
-      "link": "https://siddipet.telangana.gov.in/"
-    },
-    {
-      "id": "pjtsau-gr-graduate-teaching-recruitment-2026",
-      "title": "PJTSAU Graduate Teaching Assistant Recruitment 2026 Notification Out for 1 Graduate Teaching Assistant (On temporary basis) Posts | Walk-in Interview",
-      "board": "PJTSAU Graduate Teaching Assistant",
+      "id": "aiims-jodhpur-proj-pts-recruitment-2026",
+      "title": "AIIMS Jodhpur Project Technical Support Recruitment 2026 Notification Out for 1 Project Technical Support - III (Occupational Therapist / Psychologist) Posts | Walk-in Interview",
+      "board": "AIIMS Jodhpur Project Technical Support",
       "vacancies": 1,
       "closing": "04 November 2026 (Walk-in)",
-      "link": "https://pjtau.edu.in"
+      "link": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792739120_Recruitment%20for%20the%20following%20posts%20(Occupational%20Therapist)%20on%20purely%20temporary%20basis%20in%20Extramural%20Research%20Project%20NCAHT.pdf"
     },
     {
-      "id": "bric-niab-pts-recruitment-2026",
-      "title": "BRIC-National Institute of Animal Biotechnology (BRIC-NIAB), Hyderabad Recruitment 2026 Notification Out for 1 Project Technical Support-1 Posts | Apply Online",
-      "board": "BRIC-National Institute of Animal Biotechnology (BRIC-NIAB), Hyderabad",
+      "id": "aiims-jodhpur-project-nurse-recruitment-2026",
+      "title": "All India Institute of Medical Sciences, Jodhpur Recruitment 2026 Notification Out for 1 Project Nurse III (Project Staff Nurse) Posts | Walk-in Interview",
+      "board": "All India Institute of Medical Sciences, Jodhpur",
       "vacancies": 1,
-      "closing": "30 October 2026 by 5 PM",
-      "link": "https://www.niab.res.in/wp-content/uploads/2026/10/Notifications_30_2026.pdf"
+      "closing": "02 November 2026 (Walk-in)",
+      "link": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792740630_ICMR-%20RECRUITMENT%20-1%20(1).pdf"
     },
     {
-      "id": "tmc-essential-educatio-recruitment-2026",
-      "title": "Tata Memorial Centre (TMC) / Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC) / Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi Recruitment 2026 Notification Out for 4 Essential Education and Experience Posts | Apply Online",
-      "board": "Tata Memorial Centre (TMC) / Mahamana Pandit Madan Mohan Malaviya Cancer Centre (MPMMCC) / Homi Bhabha Cancer Hospital & Mahamana Pandit Madan Mohan Malaviya Cancer Centre, Varanasi",
-      "vacancies": 4,
-      "closing": "28 October 2026 upto 05.00 PM (Indian Standard Time)",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLScdG4VvrbG0jHbGJCcy5EJC0n_n-PJgUIODhZ-n9e7CNewBLg/viewform"
+      "id": "curaj-various-recruitment-2026",
+      "title": "Central University of Rajasthan Recruitment 2026 Notification Out for 8 Various Posts | Apply Online",
+      "board": "Central University of Rajasthan",
+      "vacancies": 8,
+      "closing": "21 November 2026 (11:59 PM) online; hard copy by 26 November 2026 (05:00 PM)",
+      "link": "https://curaj.ac.in/sites/default/files/Advt.No.%207268%20%20dated%2021.10.2026%20%20for%20the%20post%20of%20Sports%20Coaches%20(contractual%20basis)%20(1).pdf"
     },
     {
-      "id": "jiit-various-recruitment-2026",
-      "title": "Jaypee Institute of Information Technology (JIIT), a private university, not a government body Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "Jaypee Institute of Information Technology (JIIT), a private university, not a government body",
+      "id": "curaj-lower-division-recruitment-2026",
+      "title": "Central University of Rajasthan Recruitment 2026 Notification Out for 1 Lower Division Clerk Posts | Apply Online",
+      "board": "Central University of Rajasthan",
       "vacancies": 1,
-      "closing": "30 October 2026",
-      "link": "https://www.jiit.ac.in/uploads/Vigilane_Supervisors_Oct26_8e4e438ad1.pdf"
+      "closing": "10 December 2026 (11:59 PM for Online, 05:00 PM on 15 December 2026 for Hardcopy)",
+      "link": "http://www.curaj.ac.in/"
     },
     {
-      "id": "drat-steno-recruitment-2026",
-      "title": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India Recruitment 2026 Notification Out for 37 Stenographer, UDC and More Posts | Apply Offline",
-      "board": "Debts Recovery Appellate Tribunal, Allahabad (DRAT), Department of Financial Services, Ministry of Finance, Government of India",
-      "vacancies": 37,
-      "closing": "28 December 2026 by 05:30 PM (applications must reach by this time)",
-      "link": "https://financialservices.gov.in"
+      "id": "divyangja-lecturer-clinical-recruitment-2026",
+      "title": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan), Chennai Recruitment 2026 Notification Out for 3 Lecturer (Clinical Psychology), Tutor - Clinical Assistant (Occupational Therapy), Rehabilitation Officer - Therapeutics Posts | Apply Online",
+      "board": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan), Chennai",
+      "vacancies": 3,
+      "closing": "Within 21 days from the date of publishing advertisement in the employment news",
+      "link": "https://niepmd.nic.in/notice-category/recruitments./"
     },
     {
-      "id": "rgnau-ap-recruitment-2026",
-      "title": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 32 Professor, Associate Professor and Assistant Professor Posts | Apply Online",
-      "board": "Rajiv Gandhi National Aviation University (RGNAU)",
-      "vacancies": 32,
-      "closing": "22 December 2026",
-      "link": "https://rgnaurec.samarth.edu.in/"
+      "id": "iit-madras-prs-recruitment-2026",
+      "title": "Centre for Industrial Consultancy and Sponsored Research (IC&SR), Indian Institute of Technology Madras (IIT Madras) Recruitment 2026 Notification Out for 8 Project Research Scientist III, Project Research Scientist II, Project Technical Support III, Project Technical Support II, Project Technical Support I Posts | Apply Online",
+      "board": "Centre for Industrial Consultancy and Sponsored Research (IC&SR), Indian Institute of Technology Madras (IIT Madras)",
+      "vacancies": 8,
+      "closing": "06 November 2026",
+      "link": "https://icandsr.iitm.ac.in/careers/current_openings.php"
     },
     {
-      "id": "maharaja-suhel-dev-ap-recruitment-2026",
-      "title": "Maharaja Suhel Dev Autonomous State Medical College & Mahrishi Balark Hospitals, Bahraich Recruitment 2026 Notification Out for 56 Professor, Associate Professor, Assistant Professor Posts | Apply Offline",
-      "board": "Maharaja Suhel Dev Autonomous State Medical College & Mahrishi Balark Hospitals, Bahraich",
-      "vacancies": 56,
-      "closing": "25 November 2026, till 05:00 p.m.",
-      "link": "https://cdn.s3waas.gov.in/s3e96ed478dab8595a7dbda4cbcbee168f/uploads/2026/10/17926502502762.pdf"
+      "id": "divyangjan-ap-recruitment-2026",
+      "title": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan) (NIEPMD) Recruitment 2026 Notification Out for 7 Assistant Professor (Electronics, Otolaryngology, Linguistics, Statistics, Neurology), Ear Mould Technician, Bio-Medical Technician Posts | Apply Offline",
+      "board": "National Institute for Empowerment of Persons with Multiple Disabilities (Divyangjan) (NIEPMD)",
+      "vacancies": 7,
+      "closing": "Within 10 -days from the date of this advertisement published in Newspaper",
+      "link": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2026/09/20260916716488798.pdf"
     },
     {
-      "id": "maharaja-suheldev-ap-recruitment-2026",
-      "title": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich Recruitment 2026 Notification Out for 53 Professor, Associate Professor, Assistant Professor (contractual) Posts | Walk-in Interview",
-      "board": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich",
-      "vacancies": 53,
-      "closing": "27 October 2026, and after that every Tuesday and Friday (Walk-in)",
-      "link": "https://cdn.s3waas.gov.in/s3e96ed478dab8595a7dbda4cbcbee168f/uploads/2026/10/17926496851815.pdf"
-    },
-    {
-      "id": "cgst-lucknow-tax-assistant-recruitment-2026",
-      "title": "Office of the Principal Chief Commissioner of CGST & Central Excise Zone Lucknow (CGST Lucknow) Recruitment 2026 Notification Out for 17 Tax Assistant, Havaldar Posts | Apply Offline",
-      "board": "Office of the Principal Chief Commissioner of CGST & Central Excise Zone Lucknow (CGST Lucknow)",
-      "vacancies": 17,
-      "closing": "23 November 2026 (17:00 hrs)",
-      "link": "https://www.cbic.gov.in"
-    },
-    {
-      "id": "hbch-mpm-visiting-consultan-recruitment-2026",
-      "title": "HBCH MPMMCC Visiting Consultant (Radiodiagnosis) Recruitment 2026 Notification Out for 1 Visiting Consultant (Radiodiagnosis) Posts | Walk-in Interview",
-      "board": "HBCH MPMMCC Visiting Consultant (Radiodiagnosis)",
-      "vacancies": 1,
-      "closing": "04th November 2026 (Walk-in)",
-      "link": "https://tmc.gov.in"
-    },
-    {
-      "id": "tmc-mpmmcc-ad-hoc-mo-recruitment-2026",
-      "title": "TMC MPMMCC Ad-hoc Medical Officer Recruitment 2026 Notification Out for 1 Ad-hoc Medical Officer (Haemato-pathology) Posts | Apply Online",
-      "board": "TMC MPMMCC Ad-hoc Medical Officer",
-      "vacancies": 1,
-      "closing": "Wednesday, 04th November 2026 (Walk-in)",
-      "link": "https://tmc.gov.in"
-    },
-    {
-      "id": "sgpgims-lucknow-sr-recruitment-2026",
-      "title": "Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow Recruitment 2026 Notification Out for 2 Senior Resident (Hospital Services) Posts | Walk-in Interview",
-      "board": "Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow",
+      "id": "iit-madras-prs-recruitment-2026-3075502",
+      "title": "Indian Institute of Technology Madras Recruitment 2026 Notification Out for 2 Project Research Scientist I Posts | Apply Online",
+      "board": "Indian Institute of Technology Madras",
       "vacancies": 2,
-      "closing": "14.00 hrs to 16.00 hrs (Walk-in)",
-      "link": "https://sgpgims.org.in/Home/recruit/sr/2026/22.10.2026_SRHS%20Rolling%20Advt%20SUPPLIMENTARY_221026.pdf"
+      "closing": "06 November 2026",
+      "link": "https://icandsr.iitm.ac.in/careers/current_openings.php"
     },
     {
-      "id": "iit-roorkee-various-recruitment-2026",
-      "title": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "id": "tamilnad-m-mobile-inspector-recruitment-2026",
+      "title": "Tamilnad Mercantile Bank Ltd. Recruitment 2026 Notification Out for 1 Mobile Inspector of Branches Posts | Apply Online",
+      "board": "Tamilnad Mercantile Bank Ltd.",
+      "vacancies": 1,
+      "closing": "06 November 2026",
+      "link": "https://www.ib.tmbonline.bank.in/tmb_careers/"
+    },
+    {
+      "id": "tiruppur-distri-case-worker-recruitment-2026",
+      "title": "Tiruppur District Social Welfare Department (Integrated Service Centre) Recruitment 2026 Notification Out for 3 Case Worker, Security and MPW Posts | Apply Offline",
+      "board": "Tiruppur District Social Welfare Department (Integrated Service Centre)",
+      "vacancies": 3,
+      "closing": "5 November 2026 at 5:00 PM",
+      "link": "https://tiruppur.nic.in"
+    },
+    {
+      "id": "tamilnad-merca-deputy-chief-recruitment-2026",
+      "title": "Tamilnad Mercantile Bank Ltd. Recruitment 2026 Notification Out for 1 Deputy Chief Financial Officer (Vice President) Posts | Apply Online",
+      "board": "Tamilnad Mercantile Bank Ltd.",
+      "vacancies": 1,
+      "closing": "06 November 2026",
+      "link": "https://apps.tmbdigital.bank.in/tmb_careers/"
+    },
+    {
+      "id": "dccm-various-recruitment-2026-3075358",
+      "title": "District Climate Change Mission (DCCM), Mayiladuthurai Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "District Climate Change Mission (DCCM), Mayiladuthurai",
+      "vacancies": 1,
+      "closing": "27 October 2026 up to 6.00 pm",
+      "link": "https://cdn.s3waas.gov.in/s33871bd64012152bfb53fdf04b401193f/uploads/2026/10/17927316711914.pdf"
+    },
+    {
+      "id": "tanuvas-young-prof-yp-recruitment-2026",
+      "title": "TANUVAS Young Professional Recruitment 2026 Notification Out for 1 Young Professional - One Posts | Walk-in Interview",
+      "board": "TANUVAS Young Professional",
+      "vacancies": 1,
+      "closing": "05 November 2026 (Thursday) 10:00 AM (Walk-in)",
+      "link": "https://tanuvas.ac.in/admin/uploads/vacancies/1792668471.pdf"
+    },
+    {
+      "id": "department-of-multi-purpose-recruitment-2026",
+      "title": "Department of Social Welfare and Women Empowerment, Karur District Recruitment 2026 Notification Out for 3 Multi Purpose Helper, IT Worker Posts | Apply Offline",
+      "board": "Department of Social Welfare and Women Empowerment, Karur District",
+      "vacancies": 3,
+      "closing": "09 November 2026, 05.45 PM (Receipt)",
+      "link": "https://cdn.s3waas.gov.in/s3bbf94b34eb32268ada57a3be5062fe7d/uploads/2026/10/17926618735379.pdf"
+    },
+    {
+      "id": "pjtau-various-recruitment-2026",
+      "title": "Professor Jayashankar Telangana Agricultural University (PJTAU) Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
+      "board": "Professor Jayashankar Telangana Agricultural University (PJTAU)",
+      "vacancies": 4,
+      "closing": "30 October 2026 by 5:00 PM (for receipt of applications)",
+      "link": "https://pjtau.edu.in/"
+    },
+    {
+      "id": "nit-warangal-various-recruitment-2026",
+      "title": "National Institute of Technology Warangal Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "National Institute of Technology Warangal",
+      "vacancies": 1,
+      "closing": "8th November 2026 (11:59 PM)",
+      "link": "https://nitw.ac.in/api/static/files/adv_2026_erp_2026-10-23-10-47-48.pdf"
+    },
+    {
+      "id": "nims-various-recruitment-2026",
+      "title": "Nizam's Institute of Medical Sciences (NIMS), Hyderabad Recruitment 2026 Notification Out for 2 Various Posts | Walk-in Interview",
+      "board": "Nizam's Institute of Medical Sciences (NIMS), Hyderabad",
+      "vacancies": 2,
+      "closing": "26 October 2026 (Walk-in)",
+      "link": "https://nims.edu.in"
+    },
+    {
+      "id": "birla-ins-associate-digital-recruitment-2026",
+      "title": "Birla Institute of Technology and Science, Pilani Recruitment 2026 Notification Out for 2 Associate- Digital Learning Posts | Apply Online",
+      "board": "Birla Institute of Technology and Science, Pilani",
+      "vacancies": 2,
+      "closing": "Refer Official Notification",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScIxW3WK37oyUiITMd0_KBTrl78kloqXwtYPnzIAS4Vo8Oprg/viewform"
+    },
+    {
+      "id": "birla-institute-of-am-recruitment-2026",
+      "title": "Birla Institute of Technology and Science, Pilani Recruitment 2026 Notification Out for 1 Assistant Manager - FAD Posts | Apply Online",
+      "board": "Birla Institute of Technology and Science, Pilani",
+      "vacancies": 1,
+      "closing": "Refer Official Notification",
+      "link": "https://www.bits-pilani.ac.in"
+    },
+    {
+      "id": "nizams-institute-o-various-recruitment-2026",
+      "title": "Nizam's Institute of Medical Sciences Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "Nizam's Institute of Medical Sciences",
+      "vacancies": 1,
+      "closing": "05 November 2026 by 4:00 PM",
+      "link": "https://nims.edu.in"
+    },
+    {
+      "id": "rajanna-sircilla-d-mo-recruitment-2026",
+      "title": "Rajanna Sircilla District, Telangana Recruitment 2026 Notification Out for 6 AYUSH Doctor with PG Qualification, AYUSH Medical Officer, Dietician and 2 more Posts | Apply Offline",
+      "board": "Rajanna Sircilla District, Telangana",
+      "vacancies": 6,
+      "closing": "29 October 2026",
+      "link": "https://cdn.s3waas.gov.in/s38f14e45fceea167a5a36dedd4bea2543/uploads/2026/10/17926637785577.pdf"
+    },
+    {
+      "id": "professor-graduate-teaching-recruitment-2026",
+      "title": "Professor Jayashankar Telangana Agricultural University Recruitment 2026 Notification Out for 1 Graduate Teaching Assistant (On temporary basis) Posts | Walk-in Interview",
+      "board": "Professor Jayashankar Telangana Agricultural University",
+      "vacancies": 1,
+      "closing": "30 October 2026 (Walk-in)",
+      "link": "https://pjtau.edu.in/wp-content/uploads/2026/10/Walk-in-interview-Graduate-Teaching-Assistant-17.10.2026.pdf"
+    },
+    {
+      "id": "arci-age-limit-recruitment-2026",
+      "title": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI) Recruitment 2026 Notification Out for 29 Age Limit Posts | Apply Online",
+      "board": "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
+      "vacancies": 29,
+      "closing": "21 November 2026",
+      "link": "https://arci.res.in/careers/vacancies/recruitment-scientific-technical-administrative-support-staff"
+    },
+    {
+      "id": "office-of-special-educator-recruitment-2026",
+      "title": "Office of the District Medical and Health Officer, Rajanna Sircilla District Recruitment 2026 Notification Out for 48 MLHP / CHO / MO, Palle Dhawakhana, Lab Technician, Staff Nurse, Physiotherapist, ANM, Pharmacist, Audiologist / Speech Therapist, Early interventionist cum Special Educator, Optometrist Posts | Apply Offline",
+      "board": "Office of the District Medical and Health Officer, Rajanna Sircilla District",
+      "vacancies": 48,
+      "closing": "30 October 2026 (5:00 PM)",
+      "link": "https://rajannasircilla.telangana.gov.in"
+    },
+    {
+      "id": "government-of-professor-and-recruitment-2026",
+      "title": "Government of Tripura, Directorate of Medical Education Recruitment 2026 Notification Out for 5 Professor and Associate Professor Posts | Apply Offline",
+      "board": "Government of Tripura, Directorate of Medical Education",
+      "vacancies": 5,
+      "closing": "10th November, 2026 up to 5 p.m. positively",
+      "link": "https://dme.tripura.gov.in/sites/default/files/2026-10/Employment%20Notification%20for%20contractual%20recruitment%20to%20the%20Post%20of%20Professor%20and%20Associate%20Professor%20in%20different%20disciplines%20of%20AGDC%20&%20IGM%20Hospital,%20Agartala..pdf"
+    },
+    {
+      "id": "iwai-various-recruitment-2026",
+      "title": "Inland Waterways Authority of India (IWAI) Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+      "board": "Inland Waterways Authority of India (IWAI)",
+      "vacancies": 1,
+      "closing": "45 days from date of publication of this advertisement in Employment News",
+      "link": "https://iwai.gov.in"
+    },
+    {
+      "id": "bhatkhan-qualification-requ-recruitment-2026",
+      "title": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow Recruitment 2026 Notification Out for 14 Qualification Required Posts | Apply Online",
+      "board": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow",
+      "vacancies": 14,
+      "closing": "23 November 2026",
+      "link": "https://bhatkhandeuniversitynt.samarth.edu.in/index.php/site/login"
+    },
+    {
+      "id": "rgnau-essential-qualific-recruitment-2026",
+      "title": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 10 Essential Qualification Posts | Apply Online",
+      "board": "Rajiv Gandhi National Aviation University (RGNAU)",
+      "vacancies": 10,
+      "closing": "6th December 2026",
+      "link": "https://rgnaunt.samarth.edu.in/"
+    },
+    {
+      "id": "rgnau-various-recruitment-2026",
+      "title": "Rajiv Gandhi National Aviation University (RGNAU) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Rajiv Gandhi National Aviation University (RGNAU)",
+      "vacancies": 1,
+      "closing": "6th December 2026",
+      "link": "https://rgnaunt.samarth.edu.in/"
+    },
+    {
+      "id": "icsil-firemen-recruitment-2026",
+      "title": "Intelligent Communication Systems India Limited (ICSIL) Recruitment 2026 Notification Out for 3 Firemen Posts | Apply Online",
+      "board": "Intelligent Communication Systems India Limited (ICSIL)",
+      "vacancies": 3,
+      "closing": "25 October 2026 (6:00 PM)",
+      "link": "https://www.icsil.in/index.php/requirement-careers"
+    },
+    {
+      "id": "iit-kanpur-various-recruitment-2026",
+      "title": "Indian Institute of Technology Kanpur Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Indian Institute of Technology Kanpur",
+      "vacancies": 1,
+      "closing": "15 days from the date of advertisement",
+      "link": "https://forms.gle/8s7uhQqgi3JtXEAJA"
+    },
+    {
+      "id": "iwai-director-recruitment-2026",
+      "title": "Inland Waterways Authority of India (IWAI) Recruitment 2026 Notification Out for 1 Director Posts | Apply Offline",
+      "board": "Inland Waterways Authority of India (IWAI)",
+      "vacancies": 1,
+      "closing": "Within 45 days of publication in Employment News (about 6 November 2026)",
+      "link": "https://www.iwai.gov.in/"
+    },
+    {
+      "id": "banaras-h-salary-fellowship-recruitment-2026",
+      "title": "Banaras Hindu University Recruitment 2026 Notification Out for 4 Salary / Fellowship (Rs./month) Posts | Apply Online",
+      "board": "Banaras Hindu University",
+      "vacancies": 4,
+      "closing": "Refer Official Notification",
+      "link": "http://dcs.sdau.edu.in/Uploads/news/YP%20II%20advertisement.pdf"
+    },
+    {
+      "id": "deemed-to-be-various-recruitment-2026",
+      "title": "Graphic Era (Deemed to be) University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Graphic Era (Deemed to be) University",
+      "vacancies": 1,
+      "closing": "2nd November 2026 up to 1700 Hrs.",
+      "link": "https://www.geu.ac.in"
+    },
+    {
+      "id": "gb-pant-university-mo-recruitment-2026",
+      "title": "G.B. Pant University of Agriculture & Technology, Pantnagar (U.S. Nagar), Uttarakhand - 263145 Recruitment 2026 Notification Out for 1 Emergency Medical Officer Posts | Apply Offline",
+      "board": "G.B. Pant University of Agriculture & Technology, Pantnagar (U.S. Nagar), Uttarakhand - 263145",
+      "vacancies": 1,
+      "closing": "16 November 2026 (Walk-in)",
+      "link": "https://www.gbpuat.ac.in/employments/adv-23-10-26.pdf"
+    },
+    {
+      "id": "iit-roor-qualification-requ-recruitment-2026",
+      "title": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 4 Qualification Required Posts | Apply Online",
       "board": "Indian Institute of Technology, Roorkee",
-      "vacancies": 1,
-      "closing": "25 October 2026 by 11:59 PM",
-      "link": "https://iitr.ac.in/Careers/static/Project_Jobs/CSE/2026/adv221020263.pdf"
-    },
-    {
-      "id": "iit-roorkee-srf-recruitment-2026-3075158",
-      "title": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow/Senior Research Fellow Posts | Apply Online",
-      "board": "Indian Institute of Technology, Roorkee",
-      "vacancies": 1,
-      "closing": "05 November 2026 by 11:59 PM",
-      "link": "https://iitr.ac.in/Careers/static/Project_Jobs/CE/2026/adv221020264.pdf"
-    },
-    {
-      "id": "iit-roorkee-jrf-recruitment-2026",
-      "title": "Indian Institute of Technology, Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-      "board": "Indian Institute of Technology, Roorkee",
-      "vacancies": 1,
-      "closing": "November 15, 2026 by 5 PM",
-      "link": "https://iitr.ac.in/Careers/static/Project_Jobs/MI/2026/adv22102026.pdf"
-    },
-    {
-      "id": "iit-roorkee-junior-various-recruitment-2026",
-      "title": "IIT Roorkee Junior Research Fellow Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
-      "board": "IIT Roorkee Junior Research Fellow",
-      "vacancies": 1,
-      "closing": "05 November 2026",
+      "vacancies": 4,
+      "closing": "November 02, 2026 by 5 PM",
       "link": "https://iitr.ac.in"
     },
     {
-      "id": "iit-jrf-recruitment-2026-3074973",
-      "title": "Indian Institute of Technology (IIT) Roorkee Recruitment 2026 Notification Out for 1 Junior Research Fellow (JRF) Posts | Apply Online",
-      "board": "Indian Institute of Technology (IIT) Roorkee",
+      "id": "g-b-pant-national-ra-recruitment-2026",
+      "title": "G. B. Pant National Institute of Himalayan Environment Recruitment 2026 Notification Out for 1 Research Associate-II Posts | Apply Online",
+      "board": "G. B. Pant National Institute of Himalayan Environment",
       "vacancies": 1,
-      "closing": "Not specified in the notification",
-      "link": "https://iitr.ac.in/Careers/static/Project_Jobs/ECE/2026/adv221020261.pdf"
+      "closing": "06th November, 2026 (11:59 PM)",
+      "link": "https://gbpihed.gov.in/vacancy.php"
     },
     {
-      "id": "iit-kharag-project-engineer-recruitment-2026",
-      "title": "Indian Institute of Technology Kharagpur Recruitment 2026 Notification Out for 1 1) Project Engineer - Research Posts | Apply Online",
-      "board": "Indian Institute of Technology Kharagpur",
+      "id": "hll-life-assistant-pharmaci-recruitment-2026",
+      "title": "HLL Lifecare Limited Recruitment 2026 Notification Out for 1 Assistant Pharmacist and Pharmacist Posts | Walk-in Interview",
+      "board": "HLL Lifecare Limited",
       "vacancies": 1,
-      "closing": "Refer Official Notification",
-      "link": "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Login.jsp?ref_no=IIT/SRIC/R/GEA/2026/109"
+      "closing": "28 October 2026, 29 October 2026, 30 October 2026 (Walk-in)",
+      "link": "https://www.lifecarehll.com/file/download/reference/0388946ad3ee4d2a9a862fd416fb2589hYSKgns"
     },
     {
-      "id": "armed-forces-tribu-udc-ldc-recruitment-2026",
-      "title": "Armed Forces Tribunal, Regional Bench, Kolkata (Ministry of Defence, Government of India) Recruitment 2026 Notification Out for 20 UDC, LDC and More Posts | Apply Offline",
-      "board": "Armed Forces Tribunal, Regional Bench, Kolkata (Ministry of Defence, Government of India)",
-      "vacancies": 20,
-      "closing": "09th December 2026 (Wednesday), the last date for the application to reach the office",
-      "link": "https://aft.gov.in/public/upload_document/1792654511.pdf"
-    },
-    {
-      "id": "wbpsc-lower-division-recruitment-2026",
-      "title": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 1 Lower Division Assistant / Lower Division Clerk and similar Posts | Apply Online",
-      "board": "Public Service Commission, West Bengal (WBPSC)",
+      "id": "hll-accounts-assistant-recruitment-2026",
+      "title": "HLL Recruitment 2026 Notification Out for 1 Accounts Assistant, Accounts Officer Posts | Walk-in Interview",
+      "board": "HLL",
       "vacancies": 1,
-      "closing": "26 October 2026 (up to 3:30 p.m.)",
-      "link": "https://psc.wb.gov.in/"
+      "closing": "27 October 2026 (Walk-in)",
+      "link": "http://www.lifecarehll.com"
     },
     {
-      "id": "wbpsc-sub-surveyor-recruitment-2026",
-      "title": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 1145 Sub-Surveyor (permanent post) Posts | Apply Online",
-      "board": "Public Service Commission, West Bengal (WBPSC)",
-      "vacancies": 1145,
-      "closing": "09 November 2026 (up to 3 p.m.)",
-      "link": "https://psc.wb.gov.in"
-    },
-    {
-      "id": "wbpsc-pa-recruitment-2026",
-      "title": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 266 Personal Assistant in the cadre of Schedule A and Schedule B English Stenographer (Basic Grade) Posts | Apply Online",
-      "board": "Public Service Commission, West Bengal (WBPSC)",
-      "vacancies": 266,
-      "closing": "7 November 2026, 3:30 PM",
-      "link": "https://psc.wb.gov.in"
-    },
-    {
-      "id": "dhfws-data-manager-recruitment-2026",
-      "title": "District Health & Family Welfare Samiti, Howrah Recruitment 2026 Notification Out for 156 Multi Rehabilitation Worker, Pharmacist, Staff Nurse, Community Health Assistant, STS, TBHV, Block Data Manager Posts | Apply Online",
-      "board": "District Health & Family Welfare Samiti, Howrah",
-      "vacancies": 156,
-      "closing": "31 October 2026",
-      "link": "https://wbhealth.gov.in"
+      "id": "iim-calcutta-pay-recruitment-2026",
+      "title": "Indian Institute of Management Calcutta (IIM Calcutta) Recruitment 2026 Notification Out for 1 Pay Posts | Apply Online",
+      "board": "Indian Institute of Management Calcutta (IIM Calcutta)",
+      "vacancies": 1,
+      "closing": "On or before 8 November 2026",
+      "link": "https://www.iimcal.ac.in/advertisement-for-position-of-doctors-on-call"
     }
   ],
   "skipped_jobs": [
     {
-      "url": "https://www.freejobalert.com/articles/itbp-head-constable-motor-mechanic-recruitment-2026-apply-online-for-21-posts-3068550",
-      "title": "Indo-Tibetan Border Police Force (ITBPF) Recruitment 2026 Notification Out for 21 Head Constable (Motor Mechanic) Posts | Apply Online",
-      "board": "Indo-Tibetan Border Police Force (ITBPF)",
-      "reason": "Duplicate (Same board 'Indo-Tibetan Border Police Force' and matching post designation with 'itbp-head-constable-recruitment-2026')"
+      "url": "https://www.freejobalert.com/articles/oil-india-executive-recruitment-2026-3073913",
+      "title": "Oil India Limited Recruitment 2026 Notification Out for 87 Superintending Research Scientist, Senior Officer (Mechanical), Senior Officer (Petroleum), Senior Accounts Officer / Senior Internal Auditor, Hindi Officer (Official Language), Confidential Secretary Posts | Apply Online",
+      "board": "Oil India Limited",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'oil-indi-superintending-res-recruitment-2026')"
     },
     {
-      "url": "https://www.freejobalert.com/articles/awtm-recruitment-2026-apply-offline-for-40-mechanical-fitter-electrical-fitter-and-more-posts-3074053",
-      "title": "Academy of Weapon Technology and Management (AWTM), Ishapore Recruitment 2026 Notification Out for 40 Mechanical Fitter, Electrical Fitter and More Posts | Apply Offline",
-      "board": "Academy of Weapon Technology and Management (AWTM), Ishapore",
-      "reason": "Duplicate (Advt No '01/Hiring-GSF/AWTM/2026-27' matches existing 'academy-of-weapon-technology-m-electrical-fitter-mechanical-f-recruitment-2026')"
+      "url": "https://www.freejobalert.com/articles/dtu-assistant-professor-recruitment-2026-3075190",
+      "title": "Delhi Technological University (DTU) Recruitment 2026 Notification Out for 219 Assistant Professor Posts | Apply Online",
+      "board": "Delhi Technological University (DTU)",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'dtu-ap-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/nirma-university-field-investigator-recruitment-2026-3075318",
+      "title": "Institute of Management, Nirma University Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+      "board": "Institute of Management, Nirma University",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'institute-of-manag-various-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/kau-assistant-professor-contract-recruitment-2026-3075259",
+      "title": "Kerala Agricultural University Recruitment 2026 Notification Out for 3 Assistant Professor (Contract) Posts | Apply Online",
+      "board": "Kerala Agricultural University",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'kerala-agricultura-ap-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/rcil-cyber-security-expert-recruitment-2026-walkin-3075213",
+      "title": "RCIL Cyber Security Expert Recruitment 2026 Notification Out for 1 Cyber Security Expert Posts | Walk-in Interview",
+      "board": "RCIL Cyber Security Expert",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'railtel-cybe-cyber-security-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/gbpnihed-research-associate-ii-recruitment-2026-apply-online-3075269",
+      "title": "G. B. Pant National Institute of Himalayan Environment Recruitment 2026 Notification Out for 1 Research Associate-II Posts | Apply Online",
+      "board": "G. B. Pant National Institute of Himalayan Environment",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'g-b-pant-national-ra-recruitment-2026')"
+    },
+    {
+      "url": "https://www.freejobalert.com/articles/wbpsc-clerkship-recruitment-2026-apply-online-for-lda-ldc-posts-3071118",
+      "title": "Public Service Commission, West Bengal (WBPSC) Recruitment 2026 Notification Out for 1 Lower Division Assistant, Lower Division Clerk and Similar Posts | Apply Online",
+      "board": "Public Service Commission, West Bengal (WBPSC)",
+      "reason": "Duplicate (Identical notification PDF URL matches existing 'wbpsc-lower-division-recruitment-2026')"
     }
   ]
 }
