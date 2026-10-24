@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "ilbs-signal-processing-recruitment-2026",
+    "b": "ILBS",
+    "t": "ILBS Recruitment 2026 Notification Out for 8 Signal Processing Engineer, Bio Medical Data Scientist, Senior AI/ML Engineer, AI/ML Engineer, Clinical Research Nurse Coordinator, Research Assistant/Clinical Coordinator, and Embedded Hardware & Firmware Engineer Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "31 October 2026 (Saturday) (Walk-in)",
+    "a": "TICE",
+    "q": "A total of 8 vacancies are available across 7 different designations. Ex...",
+    "desc": "ILBS has officially announced employment advertisement notification TICE inviting applications for 8 vacancies for Signal Processing Engineer, Bio Medical Data Scientist, Senior AI/ML Engineer, AI/ML Engineer, Clinical Research Nurse Coordinator, Research Assistant/Clinical Coordinator, and Embedded Hardware & Firmware Engineer posts.",
+    "u": "https://www.ilbs.in"
+},
+  {
+    "id": "iit-delhi-various-recruitment-2026",
+    "b": "Indian Institute of Technology Delhi (Industrial Research & Development Unit)",
+    "t": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) Recruitment 2026 Notification Out for 1 Various Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "02 November 2026 by 5.00 p.m.",
+    "a": "advenl",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Indian Institute of Technology Delhi (Industrial Research & Development Unit) has officially announced employment advertisement notification advenl inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://ird.iitd.ac.in/api/uploadsProjectPositions/project_position_1792745346261_v2frjut.pdf"
+},
+  {
+    "id": "pm-shri-kv-special-educator-recruitment-2026",
+    "b": "PM SHRI KV Pragati Vihar",
+    "t": "PM SHRI KV Pragati Vihar Recruitment 2026 Notification Out for 1 PGT (Maths, Computer Science), TGT (Maths), Computer Instructor, Special Educator (PRT) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "24 October 2026 (Walk-in)",
+    "a": "1435/PM",
+    "q": "B.Tech / B.E",
+    "desc": "PM SHRI KV Pragati Vihar has officially announced employment advertisement notification 1435/PM inviting applications for 1 vacancies for PGT (Maths, Computer Science), TGT (Maths), Computer Instructor, Special Educator (PRT) posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3kv0434d9cdd4f60980a3df1cdeec7b31/uploads/2026/10/2026102325.pdf"
+},
+  {
+    "id": "vpci-delhi-multi-t-mts-recruitment-2026",
+    "b": "VPCI Delhi Multi-Tasking Staff",
+    "t": "VPCI Delhi Multi-Tasking Staff Recruitment 2026 Notification Out for 1 Multi-Tasking Staff (temporary, VRDL project) Posts | Walk-in Interview",
+    "d": "24 October 2026",
+    "l": "11th November 2026 (Walk-in)",
+    "a": "VPCI-DELHI-MUL/2026",
+    "q": "B.Tech / B.E",
+    "desc": "VPCI Delhi Multi-Tasking Staff has officially announced employment advertisement notification VPCI-DELHI-MUL/2026 inviting applications for 1 vacancies for Multi-Tasking Staff (temporary, VRDL project) posts.",
+    "u": "https://www.du.ac.in/uploads/new-web/23102026-advt-Post%20of%20Multi-Tasking%20Staff-%20Virology%20Unit.pdf"
+},
+  {
+    "id": "negd-data-scientist-recruitment-2026",
+    "b": "National e-Governance Division (NeGD), Digital India Corporation",
+    "t": "National e-Governance Division (NeGD), Digital India Corporation Recruitment 2026 Notification Out for 4 Data Scientist (AI & ML) Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "04 November 2026",
+    "a": "N/39/2026-NeGD",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "National e-Governance Division (NeGD), Digital India Corporation has officially announced employment advertisement notification N/39/2026-NeGD inviting applications for 4 vacancies for Data Scientist (AI & ML) posts.",
+    "u": "https://ora.digitalindiacorporation.in/"
+},
+  {
+    "id": "chhattisgarh-assistant-cum-recruitment-2026",
+    "b": "District Program Officer, Women and Child Development, District Korba (Chhattisgarh)",
+    "t": "District Program Officer, Women and Child Development, District Korba (Chhattisgarh) Recruitment 2026 Notification Out for 2 Assistant cum Night Watchman, Paramedical Staff Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "07 November 2026",
+    "a": "5006/मबावि/स्था./2026-27",
+    "q": "Nursing (GNM / B.Sc)",
+    "desc": "District Program Officer, Women and Child Development, District Korba (Chhattisgarh) has officially announced employment advertisement notification 5006/मबावि/स्था./2026-27 inviting applications for 2 vacancies for Assistant cum Night Watchman, Paramedical Staff posts.",
+    "u": "https://korba.gov.in/"
+},
+  {
+    "id": "district-pan-gram-panchayat-recruitment-2026",
+    "b": "District Panchayat Bastar, Jagdalpur",
+    "t": "District Panchayat Bastar, Jagdalpur Recruitment 2026 Notification Out for 70 Gram Panchayat Secretary (New Gram Panchayat Secretary) Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "16 November 2026 (up to 5:30 PM)",
+    "a": "2434/Z.P./P.A./2026-27",
+    "q": "10th / 8th Pass | Diploma",
+    "desc": "District Panchayat Bastar, Jagdalpur has officially announced employment advertisement notification 2434/Z.P./P.A./2026-27 inviting applications for 70 vacancies for Gram Panchayat Secretary (New Gram Panchayat Secretary) posts.",
+    "u": "https://bastar.gov.in/"
+},
+  {
+    "id": "smkv-ta-recruitment-2026",
+    "b": "Shaheed Mahendra Karma Vishwavidyalaya (SMKV), Bastar",
+    "t": "Shaheed Mahendra Karma Vishwavidyalaya (SMKV), Bastar Recruitment 2026 Notification Out for 69 Peon, Assistant Grade-3, Data Entry Operator, Store Keeper, Technical Assistant, Research Assistant, Laboratory Technician, Laboratory Assistant, Accounts Assistant and Library Assistant Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "11:59 PM",
+    "a": "3660/2026, 3662/2026 and 3666/2026",
+    "q": "10th / 8th Pass | 12th Pass | Diploma",
+    "desc": "Shaheed Mahendra Karma Vishwavidyalaya (SMKV), Bastar has officially announced employment advertisement notification 3660/2026, 3662/2026 and 3666/2026 inviting applications for 69 vacancies for Peon, Assistant Grade-3, Data Entry Operator, Store Keeper, Technical Assistant, Research Assistant, Laboratory Technician, Laboratory Assistant, Accounts Assistant and Library Assistant posts.",
+    "u": "https://www.smkvbastar.ac.in/"
+},
+  {
+    "id": "igkv-various-recruitment-2026",
+    "b": "Indira Gandhi Krishi Vishwavidyalaya (IGKV)",
+    "t": "Indira Gandhi Krishi Vishwavidyalaya (IGKV) Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
+    "d": "24 October 2026",
+    "l": "Office of the Dean, College of Agriculture, IGKV, Raipur (C.G.) Pin- 492 012 (Walk-in)",
+    "a": "No./Dean/Acd/Guest Faculty/I/2026-27/568",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Indira Gandhi Krishi Vishwavidyalaya (IGKV) has officially announced employment advertisement notification No./Dean/Acd/Guest Faculty/I/2026-27/568 inviting applications for 4 vacancies for Various Posts posts.",
+    "u": "https://igkv.ac.in/_Attachment/web/news_notificaiton/2026/0/2/Recruitment_-_6882_20261023114127_0_53017f5e.pdf"
+},
+  {
+    "id": "nit-patna-pa-recruitment-2026",
+    "b": "National Institute of Technology Patna",
+    "t": "National Institute of Technology Patna Recruitment 2026 Notification Out for 2 Project Assistant, Field Worker Posts | Apply Online",
+    "d": "24 October 2026",
+    "l": "06 November 2026 (EOD)",
+    "a": "ANRF/ARG/2025/005917/ENS",
+    "q": "Diploma | B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "National Institute of Technology Patna has officially announced employment advertisement notification ANRF/ARG/2025/005917/ENS inviting applications for 2 vacancies for Project Assistant, Field Worker posts.",
+    "u": "https://nitp-database-s3.s3.ap-south-1.amazonaws.com/notices/default/1792667049515-faf025325b08063c.pdf"
+},
+  {
     "id": "tmc-hbch-consultant-radiati-recruitment-2026",
     "b": "TMC HBCHRC Consultant D",
     "t": "TMC HBCHRC Consultant D Recruitment 2026 Notification Out for 1 Consultant 'D' (Radiation Oncology) Posts | Apply Online",
