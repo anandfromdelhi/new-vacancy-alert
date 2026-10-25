@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "department-of-agri-various-recruitment-2026",
+    "b": "Department of Agriculture & Farmers Welfare, Office of the Chief Agriculture Officer, District Budgam",
+    "t": "Department of Agriculture & Farmers Welfare, Office of the Chief Agriculture Officer, District Budgam Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "30 October 2026 (upto 4:30 PM)",
+    "a": "09 CAOB of 2026-27",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Department of Agriculture & Farmers Welfare, Office of the Chief Agriculture Officer, District Budgam has officially announced employment advertisement notification 09 CAOB of 2026-27 inviting applications for 4 vacancies for Various Posts posts.",
+    "u": "https://budgam.nic.in/"
+},
+  {
+    "id": "himachal-pradesh-j-mpw-para-recruitment-2026",
+    "b": "Himachal Pradesh Jal Shakti Vibhag, Jal Shakti Division, Reckong Peo, Distt. Kinnaur (H.P.)",
+    "t": "Himachal Pradesh Jal Shakti Vibhag, Jal Shakti Division, Reckong Peo, Distt. Kinnaur (H.P.) Recruitment 2026 Notification Out for 20 MPW, Para Pump Operator and More Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "09 November 2026, up to 5:00 P.M. (receipt in the office)",
+    "a": "HIMACHAL-PRADE/2026",
+    "q": "10th / 8th Pass | ITI",
+    "desc": "Himachal Pradesh Jal Shakti Vibhag, Jal Shakti Division, Reckong Peo, Distt. Kinnaur (H.P.) has officially announced employment advertisement notification HIMACHAL-PRADE/2026 inviting applications for 20 vacancies for MPW, Para Pump Operator and More posts.",
+    "u": "https://jsv.hp.gov.in/CommonControls/ViewCMSFile?qs=KI3gZ53zz1yTV49xNU6QBk0f+D9rWV0VhZ+dahwEOncXXlmc34oR/PcisPcfSvHhoDoX/CxwsAsmTL9C/VnROmjUNqQ9PKj485A8QLxlgJDq0Tf5s9Q6fyqE2z44HLzOMuOMIteD54s="
+},
+  {
+    "id": "himachal-pradesh-para-cook-recruitment-2026",
+    "b": "Himachal Pradesh Jal Shakti Vibhag",
+    "t": "Himachal Pradesh Jal Shakti Vibhag Recruitment 2026 Notification Out for 2 Para Cook, Para Helper Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "07 November 2026 up to 5:00 PM (receipt)",
+    "a": "NO.KNR-JSD-PEO-EA-II-Notice- Para Cook & Helpar/2026-27-6580-81",
+    "q": "10th / 8th Pass | Diploma | Any Bachelor's Degree",
+    "desc": "Himachal Pradesh Jal Shakti Vibhag has officially announced employment advertisement notification NO.KNR-JSD-PEO-EA-II-Notice- Para Cook & Helpar/2026-27-6580-81 inviting applications for 2 vacancies for Para Cook, Para Helper posts.",
+    "u": "https://jsv.hp.nic.in/"
+},
+  {
+    "id": "wapcos-office-asst-recruitment-2026",
+    "b": "WAPCOS Limited (A Government of India Undertaking)",
+    "t": "WAPCOS Limited (A Government of India Undertaking) Recruitment 2026 Notification Out for 58 Office Assistant, Civil Engineer, Experts & More Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "07 November 2026",
+    "a": "5/226/Power",
+    "q": "Eligibility depends on the post. Each post has its own qualification and...",
+    "desc": "WAPCOS Limited (A Government of India Undertaking) has officially announced employment advertisement notification 5/226/Power inviting applications for 58 vacancies for Office Assistant, Civil Engineer, Experts & More posts.",
+    "u": "https://www.wapcos.co.in/media/docs/Career/646a5a66adb24b16913d77ac1417ca3b_139985TD_GeeKKx.pdf"
+},
+  {
+    "id": "birla-institute-of-prs-recruitment-2026",
+    "b": "Birla Institute of Technology & Science, Pilani, K K Birla Goa Campus",
+    "t": "Birla Institute of Technology & Science, Pilani, K K Birla Goa Campus Recruitment 2026 Notification Out for 1 Project Research Scientist - I Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "2nd November 2026",
+    "a": "BIRLA-INSTITUT/2026",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Birla Institute of Technology & Science, Pilani, K K Birla Goa Campus has officially announced employment advertisement notification BIRLA-INSTITUT/2026 inviting applications for 1 vacancies for Project Research Scientist - I posts.",
+    "u": "https://www.bits-pilani.ac.in/wp-content/uploads/Advertisement-Format-for-Project-Res-Sci-I.pdf"
+},
+  {
+    "id": "ncdc-data-analyst-recruitment-2026",
+    "b": "National Centre for Disease Control (NCDC)",
+    "t": "National Centre for Disease Control (NCDC) Recruitment 2026 Notification Out for 30 Public Health Specialist, Medical Epidemiologist, Data Analyst, Finance Officer, Microbiologist and Other Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "9 November 2026",
+    "a": "NATIONAL-CENTR/2026",
+    "q": "MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "National Centre for Disease Control (NCDC) has officially announced employment advertisement notification NATIONAL-CENTR/2026 inviting applications for 30 vacancies for Public Health Specialist, Medical Epidemiologist, Data Analyst, Finance Officer, Microbiologist and Other Posts posts.",
+    "u": "https://ncdc.mohfw.gov.in/uploads/vacancies/1792757364_4tmp_CLIMATE_compressed.pdf"
+},
+  {
+    "id": "msme-ceos-in-recruitment-2026",
+    "b": "Government of India, Ministry of Micro, Small & Medium Enterprises, Office of Development Commissioner (MSME), New Delhi",
+    "t": "Government of India, Ministry of Micro, Small & Medium Enterprises, Office of Development Commissioner (MSME), New Delhi Recruitment 2026 Notification Out for 1 CEOs in Autonomous Bodies: General Manager (3), Principal Director (3), Director (1) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "23 November 2026 (last date of receipt of application)",
+    "a": "GOVERNMENT-OF-/2026",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Government of India, Ministry of Micro, Small & Medium Enterprises, Office of Development Commissioner (MSME), New Delhi has officially announced employment advertisement notification GOVERNMENT-OF-/2026 inviting applications for 1 vacancies for CEOs in Autonomous Bodies: General Manager (3), Principal Director (3), Director (1) posts.",
+    "u": "https://www.dcmsme.gov.in"
+},
+  {
+    "id": "national-investiga-deo-recruitment-2026",
+    "b": "National Investigation Agency",
+    "t": "National Investigation Agency Recruitment 2026 Notification Out for 111 Assistant Sub-Inspector, Head Constable & Data Entry Operator Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "20 December 2026",
+    "a": "No.E-96/001/Depu-ASI&HC(C.F.No.11639)/NIA/2026/12943",
+    "q": "12th Pass | Any Bachelor's Degree",
+    "desc": "National Investigation Agency has officially announced employment advertisement notification No.E-96/001/Depu-ASI&HC(C.F.No.11639)/NIA/2026/12943 inviting applications for 111 vacancies for Assistant Sub-Inspector, Head Constable & Data Entry Operator posts.",
+    "u": "https://nia.mha.gov.in/en/secure-pdf/view/59aab6934e369e51881336f64a9205ef"
+},
+  {
+    "id": "national-inve-inspector-sub-recruitment-2026",
+    "b": "National Investigation Agency",
+    "t": "National Investigation Agency Recruitment 2026 Notification Out for 57 Inspector & Sub-Inspector Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "22 November 2026",
+    "a": "No.E-95/002/Depu-Insp & SI(C.F.No.11528)/NIA/2026/12683",
+    "q": "Any Bachelor's Degree",
+    "desc": "National Investigation Agency has officially announced employment advertisement notification No.E-95/002/Depu-Insp & SI(C.F.No.11528)/NIA/2026/12683 inviting applications for 57 vacancies for Inspector & Sub-Inspector posts.",
+    "u": "https://nia.mha.gov.in/en/secure-pdf/view/f4ee93b1255b675ea64a9505182df8c4"
+},
+  {
+    "id": "central-assistant-engineer-recruitment-2026",
+    "b": "Central Water Commission",
+    "t": "Central Water Commission Recruitment 2026 Notification Out for 15 Assistant Engineer (Communication) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "60 Days",
+    "a": "A-12/02/2024-Estt.XIII",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Central Water Commission has officially announced employment advertisement notification A-12/02/2024-Estt.XIII inviting applications for 15 vacancies for Assistant Engineer (Communication) posts.",
+    "u": "https://www.cwc.gov.in/"
+},
+  {
     "id": "supreme-court-court-master-recruitment-2026",
     "b": "Supreme Court of India",
     "t": "Supreme Court of India Recruitment 2026 Notification Out for 52 Court Master (Shorthand) Posts | Apply Online",
