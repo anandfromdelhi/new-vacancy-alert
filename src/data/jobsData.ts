@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "sreenarayanaguru-o-head-of-recruitment-2026",
+    "b": "Sreenarayanaguru Open University, Kollam",
+    "t": "Sreenarayanaguru Open University, Kollam Recruitment 2026 Notification Out for 1 Head of School Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "18 November 2026 at 5 PM",
+    "a": "SREENARAYANAGU/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | M.Sc",
+    "desc": "Sreenarayanaguru Open University, Kollam has officially announced employment advertisement notification SREENARAYANAGU/2026 inviting applications for 1 vacancies for Head of School posts.",
+    "u": "https://sgou.ac.in/"
+},
+  {
+    "id": "keralam-psychiatrist-medic-recruitment-2026",
+    "b": "Keralam State Mental Health Authority",
+    "t": "Keralam State Mental Health Authority Recruitment 2026 Notification Out for 2 Psychiatrist, Medical Practitioner Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "10 November 2026 (Tuesday) before 5.15 PM (last date of submission)",
+    "a": "No. A/514/2026/SMHA dated 23.10.2026",
+    "q": "MBBS / Medical PG",
+    "desc": "Keralam State Mental Health Authority has officially announced employment advertisement notification No. A/514/2026/SMHA dated 23.10.2026 inviting applications for 2 vacancies for Psychiatrist, Medical Practitioner posts.",
+    "u": "https://arogyakeralam.gov.in/wp-content/uploads/2026/10/Notification-letter.pdf"
+},
+  {
+    "id": "kudumbashree-dis-ifc-anchor-recruitment-2026",
+    "b": "Kudumbashree District Mission, Kollam",
+    "t": "Kudumbashree District Mission, Kollam Recruitment 2026 Notification Out for 14 IFC Anchor, Senior CRP Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "7 November 2026",
+    "a": "KSKLM/189/2026-K2",
+    "q": "Diploma | Any Bachelor's Degree",
+    "desc": "Kudumbashree District Mission, Kollam has officially announced employment advertisement notification KSKLM/189/2026-K2 inviting applications for 14 vacancies for IFC Anchor, Senior CRP posts.",
+    "u": "https://www.kudumbashree.org/storage//files/pngnj_vacancy-notification-ifc_anchor-senior_crp-kudumbashree-kollam-district-mission.pdf"
+},
+  {
+    "id": "ksrtc-public-relations-recruitment-2026",
+    "b": "Kerala State Road Transport Corporation (KSRTC)",
+    "t": "Kerala State Road Transport Corporation (KSRTC) Recruitment 2026 Notification Out for 2 Public Relations Officer, Executive Engineer Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "06 November 2026, 05.00 PM",
+    "a": "SOO1/GL02/90/2026-ADM-KSRTC-HQ",
+    "q": "B.Tech / B.E | Any Bachelor's Degree",
+    "desc": "Kerala State Road Transport Corporation (KSRTC) has officially announced employment advertisement notification SOO1/GL02/90/2026-ADM-KSRTC-HQ inviting applications for 2 vacancies for Public Relations Officer, Executive Engineer posts.",
+    "u": "https://www.cmd.kerala.gov.in"
+},
+  {
+    "id": "nsil-essential-qualific-recruitment-2026",
+    "b": "NewSpace India Limited (NSIL), a CPSE company under the Department of Space",
+    "t": "NewSpace India Limited (NSIL), a CPSE company under the Department of Space Recruitment 2026 Notification Out for 1 Essential Qualification Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "25 November 2026, 6:00 PM (online); the hard copy must reach NSIL by 30 November 2026, 6:00 PM",
+    "a": "NSIL/2026/01 dated 23.10.2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "NewSpace India Limited (NSIL), a CPSE company under the Department of Space has officially announced employment advertisement notification NSIL/2026/01 dated 23.10.2026 inviting applications for 1 vacancies for Essential Qualification posts.",
+    "u": "https://www.nsilindia.co.in/sites/default/files/Advertisement_NSIL_2026_01.pdf"
+},
+  {
+    "id": "aps-various-recruitment-2026",
+    "b": "Army Public School, The Maratha LIRC, Belagavi",
+    "t": "Army Public School, The Maratha LIRC, Belagavi Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "18 November 2026 (1400 hrs)",
+    "a": "ARMY-PUBLIC-SC/2026",
+    "q": "10 + 2 with Science and computer literacy",
+    "desc": "Army Public School, The Maratha LIRC, Belagavi has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://apsbelagavi.in/storage/uploads/careers/pdf/careers_6adc385d54e8f4.84301884.pdf"
+},
+  {
+    "id": "sainik-school-pgt-physics-recruitment-2026",
+    "b": "Sainik School Kodagu",
+    "t": "Sainik School Kodagu Recruitment 2026 Notification Out for 7 PGT Physics, TGT English, TGT Hindi, TGT Social Science, Nursing Sister, Ward Boy Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "06 November 2026",
+    "a": "07/OCT 2026",
+    "q": "10th / 8th Pass | Diploma | B.Ed / Teacher",
+    "desc": "Sainik School Kodagu has officially announced employment advertisement notification 07/OCT 2026 inviting applications for 7 vacancies for PGT Physics, TGT English, TGT Hindi, TGT Social Science, Nursing Sister, Ward Boy posts.",
+    "u": "https://www.sainikschoolkodagu.edu.in/"
+},
+  {
+    "id": "isro-technician-heavy-recruitment-2026",
+    "b": "Indian Space Research Organisation (ISRO)",
+    "t": "Indian Space Research Organisation (ISRO) Recruitment 2026 Notification Out for 126 Technician-B, Heavy Vehicle Driver-A, Light Vehicle Driver-A, Staff Car Driver-A Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "13 November 2026",
+    "a": "URSC:04:2026",
+    "q": "10th / 8th Pass | ITI",
+    "desc": "Indian Space Research Organisation (ISRO) has officially announced employment advertisement notification URSC:04:2026 inviting applications for 126 vacancies for Technician-B, Heavy Vehicle Driver-A, Light Vehicle Driver-A, Staff Car Driver-A posts.",
+    "u": "https://cdn.digialm.com/EForms/configuredHtml/1258/102567/istcBOtjGQvBFFaOvU/Index.html"
+},
+  {
+    "id": "sainik-school-mo-recruitment-2026",
+    "b": "Sainik School Tilaiya",
+    "t": "Sainik School Tilaiya Recruitment 2026 Notification Out for 6 TGT (Social Sc), TGT (Maths), Music Teacher, Craft & Workshop Instructor, Medical Officer, Quartermaster Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "17 November 2026",
+    "a": "SAINIK-SCHOOL-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Sainik School Tilaiya has officially announced employment advertisement notification SAINIK-SCHOOL-/2026 inviting applications for 6 vacancies for TGT (Social Sc), TGT (Maths), Music Teacher, Craft & Workshop Instructor, Medical Officer, Quartermaster posts.",
+    "u": "https://www.sainikschooltilaiya.org"
+},
+  {
+    "id": "government-of-jhar-mo-recruitment-2026",
+    "b": "Government of Jharkhand, Office of Civil Surgeon cum Chief Medical Officer Dhanbad",
+    "t": "Government of Jharkhand, Office of Civil Surgeon cum Chief Medical Officer Dhanbad Recruitment 2026 Notification Out for 6 6 Dentist, Specialist Medical Officer Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "Refer Official Notification",
+    "a": "247 UH / 15th FC / 2026",
+    "q": "Diploma | MBBS / Medical PG | Any Bachelor's Degree",
+    "desc": "Government of Jharkhand, Office of Civil Surgeon cum Chief Medical Officer Dhanbad has officially announced employment advertisement notification 247 UH / 15th FC / 2026 inviting applications for 6 vacancies for 6 Dentist, Specialist Medical Officer posts.",
+    "u": "https://cdn.s3waas.gov.in/s337f0e884fbad9667e38940169d0a3c95/uploads/17928278216167.pdf"
+},
+  {
     "id": "department-of-agri-various-recruitment-2026",
     "b": "Department of Agriculture & Farmers Welfare, Office of the Chief Agriculture Officer, District Budgam",
     "t": "Department of Agriculture & Farmers Welfare, Office of the Chief Agriculture Officer, District Budgam Recruitment 2026 Notification Out for 4 Various Posts | Apply Offline",
