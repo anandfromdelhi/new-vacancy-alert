@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "bhatkhande-temporary-guest-recruitment-2026",
+    "b": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow",
+    "t": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow Recruitment 2026 Notification Out for 15 Temporary Guest Teacher (Music Theory, Sitar, Tabla, Computer Science) and Temporary Guest Accompanist (Tabla, Sarangi, Vocal, Harmonium) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "27 October 2026 (Walk-in)",
+    "a": "1196/भा.संविवि- 1(4)/2025/टी.सी, dated 09 October 2026",
+    "q": "All 8 posts are paid the same way: a fixed remuneration (नियत पारिश्रमिक...",
+    "desc": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow has officially announced employment advertisement notification 1196/भा.संविवि- 1(4)/2025/टी.सी, dated 09 October 2026 inviting applications for 15 vacancies for Temporary Guest Teacher (Music Theory, Sitar, Tabla, Computer Science) and Temporary Guest Accompanist (Tabla, Sarangi, Vocal, Harmonium) posts.",
+    "u": "https://www.bhatkhandeuniversity.ac.in"
+},
+  {
+    "id": "maharaja-suheldev-jr-recruitment-2026",
+    "b": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich",
+    "t": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich Recruitment 2026 Notification Out for 5 Non PG Junior Resident (Hospital Administration) Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "27 October 2026, then every Tuesday and Friday (Walk-in)",
+    "a": "महा0सु0स्व0रा0चि0महा0/विज्ञप्ति/जे0आर0अ0प्र0/2026/2716, dated 23/10/2026",
+    "q": "The notice advertises 05 posts of Non PG Junior Resident (Hospital Admin...",
+    "desc": "Maharaja Suheldev Autonomous State Medical College and Maharshi Balark Hospital, Bahraich has officially announced employment advertisement notification महा0सु0स्व0रा0चि0महा0/विज्ञप्ति/जे0आर0अ0प्र0/2026/2716, dated 23/10/2026 inviting applications for 5 vacancies for Non PG Junior Resident (Hospital Administration) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3e96ed478dab8595a7dbda4cbcbee168f/uploads/2026/10/17928232635072.pdf"
+},
+  {
+    "id": "national-institu-lady-staff-recruitment-2026",
+    "b": "National Institute of Rural Development & Panchayati Raj",
+    "t": "National Institute of Rural Development & Panchayati Raj Recruitment 2026 Notification Out for 1 Lady Staff Nurse Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "02 November 2026 (Walk-in)",
+    "a": "22/2026",
+    "q": "B.Sc | Nursing (GNM / B.Sc)",
+    "desc": "National Institute of Rural Development & Panchayati Raj has officially announced employment advertisement notification 22/2026 inviting applications for 1 vacancies for Lady Staff Nurse posts.",
+    "u": "https://www.nirdpr.org.in"
+},
+  {
+    "id": "district-co-support-persons-recruitment-2026",
+    "b": "District Collector, Salem District",
+    "t": "District Collector, Salem District Recruitment 2026 Notification Out for 8 Support Persons (ஆதரவு நபர்கள்) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "02 November 2026, 5.30 PM",
+    "a": "DISTRICT-COLLE/2026",
+    "q": "Law (LL.B / LL.M) | Any Bachelor's Degree",
+    "desc": "District Collector, Salem District has officially announced employment advertisement notification DISTRICT-COLLE/2026 inviting applications for 8 vacancies for Support Persons (ஆதரவு நபர்கள்) posts.",
+    "u": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17921456981494.pdf"
+},
+  {
+    "id": "mepz-special-econo-steno-recruitment-2026",
+    "b": "MEPZ Special Economic Zone Tamil Nadu",
+    "t": "MEPZ Special Economic Zone Tamil Nadu Recruitment 2026 Notification Out for 7 Assistant, Junior Translation Officer, Stenographer Grade II & III, Upper Division Clerk Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "This is an open advertisement for 1 year (from the date of publication in Employment News)",
+    "a": "F.No.01/06/2022-Admin.I/1",
+    "q": "Any Bachelor's Degree",
+    "desc": "MEPZ Special Economic Zone Tamil Nadu has officially announced employment advertisement notification F.No.01/06/2022-Admin.I/1 inviting applications for 7 vacancies for Assistant, Junior Translation Officer, Stenographer Grade II & III, Upper Division Clerk posts.",
+    "u": "https://mepz.gov.in/wp-content/uploads/2026/10/Vacancy-Circular-Asst.-JTO-Steno-UDC-English-and-Hindi.pdf"
+},
+  {
+    "id": "rashtriya-milita-counsellor-recruitment-2026",
+    "b": "Rashtriya Military School Dholpur",
+    "t": "Rashtriya Military School Dholpur Recruitment 2026 Notification Out for 4 Master Gazetted (PGT) (English), Assistant Master (TGT) SST, and School Counsellor (Assistant Master) Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "07 November 2026",
+    "a": "EN 30/82",
+    "q": "Diploma | B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Rashtriya Military School Dholpur has officially announced employment advertisement notification EN 30/82 inviting applications for 4 vacancies for Master Gazetted (PGT) (English), Assistant Master (TGT) SST, and School Counsellor (Assistant Master) posts.",
+    "u": "https://www.rashtriyamilitaryschools.edu.in/"
+},
+  {
+    "id": "aiims-jodhpur-prs-recruitment-2026",
+    "b": "All India Institute of Medical Sciences Jodhpur",
+    "t": "All India Institute of Medical Sciences Jodhpur Recruitment 2026 Notification Out for 1 Project Research Scientist-III (Non-Medical) Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "04 November 2026 (Walk-in)",
+    "a": "AIIMS/JDH/CMFM/PRR-Res-Adv/43",
+    "q": "MBBS / Medical PG | Ph.D / Doctorate | Any Bachelor's Degree",
+    "desc": "All India Institute of Medical Sciences Jodhpur has officially announced employment advertisement notification AIIMS/JDH/CMFM/PRR-Res-Adv/43 inviting applications for 1 vacancies for Project Research Scientist-III (Non-Medical) posts.",
+    "u": "https://aiimsjodhpur.edu.in/recruitment/Research/2026/1792836641_PRR-Res-Adv.43.pdf"
+},
+  {
+    "id": "jagat-guru-nanak-d-ap-recruitment-2026",
+    "b": "Jagat Guru Nanak Dev Punjab State Open University, Patiala",
+    "t": "Jagat Guru Nanak Dev Punjab State Open University, Patiala Recruitment 2026 Notification Out for 20 Assistant Professor, Assistant Registrar, Superintendent, System Administrator, Programmer and other Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "15 November 2026 (online); hard copy by 23 November 2026, up to 5:00 pm",
+    "a": "01/2026",
+    "q": "Ph.D / Doctorate | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Jagat Guru Nanak Dev Punjab State Open University, Patiala has officially announced employment advertisement notification 01/2026 inviting applications for 20 vacancies for Assistant Professor, Assistant Registrar, Superintendent, System Administrator, Programmer and other posts posts.",
+    "u": "https://jobst.psou.ac.in/Download_Format/Advertisement_01_2026.pdf"
+},
+  {
+    "id": "jipmer-maximum-age-recruitment-2026",
+    "b": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry",
+    "t": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry Recruitment 2026 Notification Out for 5 Maximum Age Limit Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "09 November 2026, up to 5:00 PM",
+    "a": "JIPIEMSD/ICMR",
+    "q": "12th Pass | Diploma | B.Tech / B.E",
+    "desc": "Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry has officially announced employment advertisement notification JIPIEMSD/ICMR inviting applications for 5 vacancies for Maximum Age Limit posts.",
+    "u": "https://jipmer.edu.in/sites/default/files/Advertisement%20for%20Recruitment%20to%20Project%20Posts%20(on%20Contract).pdf"
+},
+  {
+    "id": "msdma-structural-mitigat-recruitment-2026",
+    "b": "Meghalaya State Disaster Management Authority (MSDMA), Government of Meghalaya",
+    "t": "Meghalaya State Disaster Management Authority (MSDMA), Government of Meghalaya Recruitment 2026 Notification Out for 2 Structural Mitigation Specialist, Assistant Structural Engineer Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "6 November 2026, 5 PM",
+    "a": "No.SDMA.305/2023/152",
+    "q": "B.Tech / B.E | M.Tech / M.E",
+    "desc": "Meghalaya State Disaster Management Authority (MSDMA), Government of Meghalaya has officially announced employment advertisement notification No.SDMA.305/2023/152 inviting applications for 2 vacancies for Structural Mitigation Specialist, Assistant Structural Engineer posts.",
+    "u": "https://msdma.gov.in/docs/Advertisement23oct2026.pdf"
+},
+  {
     "id": "esic-pune-ap-recruitment-2026",
     "b": "ESIC Pune",
     "t": "ESIC Pune Recruitment 2026 Notification Out for 40 Professor, Associate Professor, Assistant Professor, Senior Resident (3 Years), Senior Resident (1 Year), Medical Officer for DCBO, Part Time Ayurvedic Physician Posts | Walk-in Interview",
