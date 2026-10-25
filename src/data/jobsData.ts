@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "esic-pune-ap-recruitment-2026",
+    "b": "ESIC Pune",
+    "t": "ESIC Pune Recruitment 2026 Notification Out for 40 Professor, Associate Professor, Assistant Professor, Senior Resident (3 Years), Senior Resident (1 Year), Medical Officer for DCBO, Part Time Ayurvedic Physician Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "02 November 2026 and 03 November 2026 (faculty and Senior Resident posts, by department); 03 November 2026 (Medical Officer for DCBO); 04 November 2026 (Part Time Ayurvedic Physician) (Walk-in)",
+    "a": "Advertisement No - 11 of 2026 (dated 23-10-2026)",
+    "q": "MBBS / Medical PG",
+    "desc": "ESIC Pune has officially announced employment advertisement notification Advertisement No - 11 of 2026 (dated 23-10-2026) inviting applications for 40 vacancies for Professor, Associate Professor, Assistant Professor, Senior Resident (3 Years), Senior Resident (1 Year), Medical Officer for DCBO, Part Time Ayurvedic Physician posts.",
+    "u": "https://esic.gov.in/attachments/recruitmentfile/Walk_in_Interview_for_Recruitment_of_Professor_Associate_Professor_Assistant_Professor_Senior_Resident_3_Year_Senior_Resident_1_Year_Medical_Officer_for_ESIC_DCBOs_and_Part_Time_Ayurvedic_Physician_on_contract_basis_1792756161.pdf"
+},
+  {
+    "id": "tiss-cleaner-cum-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 3 Cleaner Cum Hostel Attendant - MTS (MALE Candidates only) Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "10 November 2026",
+    "a": "ADVT/TISS/HOSTEL/OCT/2026",
+    "q": "10th / 8th Pass",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially announced employment advertisement notification ADVT/TISS/HOSTEL/OCT/2026 inviting applications for 3 vacancies for Cleaner Cum Hostel Attendant - MTS (MALE Candidates only) posts.",
+    "u": "https://tiss.ac.in/uploads/files/RCF_Cleancer_cum_Attendant_MTS_Staff_LWYrz6i.pdf"
+},
+  {
+    "id": "moil-project-engineer-recruitment-2026",
+    "b": "Manganese Ore India",
+    "t": "Manganese Ore India Recruitment 2026 Notification Out for 7 Project Engineer and Senior Project Engineer Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "06 November 2026",
+    "a": "FTE/01/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Manganese Ore India has officially announced employment advertisement notification FTE/01/2026 inviting applications for 7 vacancies for Project Engineer and Senior Project Engineer posts.",
+    "u": "https://www.moil.nic.in/public/career/6ad236523d3ec0ea483b100e"
+},
+  {
+    "id": "india-tradesman-trainee-recruitment-2026",
+    "b": "IREL (India) Limited",
+    "t": "IREL (India) Limited Recruitment 2026 Notification Out for 212 Tradesman Trainee Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "9 November 2026",
+    "a": "CO/HRM/36/2026",
+    "q": "12th Pass | ITI",
+    "desc": "IREL (India) Limited has officially announced employment advertisement notification CO/HRM/36/2026 inviting applications for 212 vacancies for Tradesman Trainee posts.",
+    "u": "https://cdn.digialm.com//EForms/configuredHtml/1258/101994/TA4XAJSCUS4lHGarSF/login.html"
+},
+  {
+    "id": "national-test-hous-director-recruitment-2026",
+    "b": "National Test House",
+    "t": "National Test House Recruitment 2026 Notification Out for 1 Director Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "60 Days from Employment News",
+    "a": "F. No. A-32013/06/2016-NTH",
+    "q": "B.Tech / B.E | Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "National Test House has officially announced employment advertisement notification F. No. A-32013/06/2016-NTH inviting applications for 1 vacancies for Director posts.",
+    "u": "https://nth.gov.in/storage/recruitment-notices/6470d1053e3b495bba9704e52d4e39171aa8c8e9_41.pdf"
+},
+  {
+    "id": "maharashtra-electr-various-recruitment-2026",
+    "b": "Maharashtra Electricity Regulatory Commission",
+    "t": "Maharashtra Electricity Regulatory Commission Recruitment 2026 Notification Out for 2 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "25 November 2026 by 05.00 pm",
+    "a": "MAHARASHTRA-EL/2026",
+    "q": "At least 10 years of experience in consumer grievances",
+    "desc": "Maharashtra Electricity Regulatory Commission has officially announced employment advertisement notification MAHARASHTRA-EL/2026 inviting applications for 2 vacancies for Various Posts posts.",
+    "u": "https://merc.gov.in/wp-content/uploads/2026/10/Detailed-Advertisement-Independent-Member-CGRF.pdf"
+},
+  {
+    "id": "merc-chairperson-consum-recruitment-2026",
+    "b": "Maharashtra Electricity Regulatory Commission (MERC)",
+    "t": "Maharashtra Electricity Regulatory Commission (MERC) Recruitment 2026 Notification Out for 33 Chairperson, Consumer Grievance Redressal Forum (CGRF) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "25 November 2026 by 05.00 pm (receipt)",
+    "a": "MAHARASHTRA-EL/2026",
+    "q": "B.Tech / B.E",
+    "desc": "Maharashtra Electricity Regulatory Commission (MERC) has officially announced employment advertisement notification MAHARASHTRA-EL/2026 inviting applications for 33 vacancies for Chairperson, Consumer Grievance Redressal Forum (CGRF) posts.",
+    "u": "https://merc.gov.in/wp-content/uploads/2026/10/Detailed-Advertisement-Chairperson-CGRF.pdf"
+},
+  {
+    "id": "iim-mumb-assistant-coordina-recruitment-2026",
+    "b": "Indian Institute of Management Mumbai",
+    "t": "Indian Institute of Management Mumbai Recruitment 2026 Notification Out for 5 Assistant, Coordinator and More Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "12 November 2026 (5:00 pm)",
+    "a": "Admn/Rectt/2026/40",
+    "q": "MBA / BBA | Any Bachelor's Degree",
+    "desc": "Indian Institute of Management Mumbai has officially announced employment advertisement notification Admn/Rectt/2026/40 inviting applications for 5 vacancies for Assistant, Coordinator and More posts.",
+    "u": "https://iimmumbai.ac.in/careers"
+},
+  {
+    "id": "tiss-senior-research-recruitment-2026",
+    "b": "Tata Institute of Social Sciences (TISS)",
+    "t": "Tata Institute of Social Sciences (TISS) Recruitment 2026 Notification Out for 2 Senior Research Officer, Senior Documentation and Communication Officer Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "31st October, 2026",
+    "a": "ADVT/TISS/PROJECT/PRAYAS/OCTOBER 2026",
+    "q": "Ph.D / Doctorate",
+    "desc": "Tata Institute of Social Sciences (TISS) has officially announced employment advertisement notification ADVT/TISS/PROJECT/PRAYAS/OCTOBER 2026 inviting applications for 2 vacancies for Senior Research Officer, Senior Documentation and Communication Officer posts.",
+    "u": "https://www.tiss.ac.in"
+},
+  {
+    "id": "gmctvm-ecg-t-ecg-technician-recruitment-2026",
+    "b": "GMCTVM ECG Technician",
+    "t": "GMCTVM ECG Technician Recruitment 2026 Notification Out for 2 ECG Technician Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "31 October 2026 (Walk-in)",
+    "a": "GMCTVM-ECG-TEC/2026",
+    "q": "B.Tech / B.E | MBBS / Medical PG",
+    "desc": "GMCTVM ECG Technician has officially announced employment advertisement notification GMCTVM-ECG-TEC/2026 inviting applications for 2 vacancies for ECG Technician posts.",
+    "u": "https://tmc.kerala.gov.in/uploads/forms/7099_20261024_100946.pdf"
+},
+  {
     "id": "sreenarayanaguru-o-head-of-recruitment-2026",
     "b": "Sreenarayanaguru Open University, Kollam",
     "t": "Sreenarayanaguru Open University, Kollam Recruitment 2026 Notification Out for 1 Head of School Posts | Apply Online",
