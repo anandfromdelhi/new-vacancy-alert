@@ -12,6 +12,116 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "supreme-court-court-master-recruitment-2026",
+    "b": "Supreme Court of India",
+    "t": "Supreme Court of India Recruitment 2026 Notification Out for 52 Court Master (Shorthand) Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "15th November, 2026 (upto 11.55 p.m.)",
+    "a": "No.F.6/11/CM(S)/2026-SC (RC)",
+    "q": "Any Bachelor's Degree",
+    "desc": "Supreme Court of India has officially announced employment advertisement notification No.F.6/11/CM(S)/2026-SC (RC) inviting applications for 52 vacancies for Court Master (Shorthand) posts.",
+    "u": "https://cdn3.digialm.com/EForms/configuredHtml/32912/103070/3vdM5J33Gl951V40kH/Index.html"
+},
+  {
+    "id": "ilbs-various-recruitment-2026",
+    "b": "Institute of Liver and Biliary Sciences (ILBS)",
+    "t": "Institute of Liver and Biliary Sciences (ILBS) Recruitment 2026 Notification Out for 3 Various Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "28th October, 2026",
+    "a": "INSTITUTE-OF-L/2026",
+    "q": "Post Post Code Vacancies Pay Age Limit Consultant (Radiology) Grade IV C...",
+    "desc": "Institute of Liver and Biliary Sciences (ILBS) has officially announced employment advertisement notification INSTITUTE-OF-L/2026 inviting applications for 3 vacancies for Various Posts posts.",
+    "u": "https://www.ilbs.in/images/media/inviting-faculty-applications-24102026.pdf"
+},
+  {
+    "id": "cci-pps-office-recruitment-2026",
+    "b": "Competition Commission of India (CCI)",
+    "t": "Competition Commission of India (CCI) Recruitment 2026 Notification Out for 12 PPS, Office Manager and More Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "24 December 2026 (5:00 P.M.), application must reach CCI",
+    "a": "No. A-12011/1/2026-HR (Office Memorandum dated 12th October, 2026)",
+    "q": "Any Bachelor's Degree | Master's / PG Degree",
+    "desc": "Competition Commission of India (CCI) has officially announced employment advertisement notification No. A-12011/1/2026-HR (Office Memorandum dated 12th October, 2026) inviting applications for 12 vacancies for PPS, Office Manager and More posts.",
+    "u": "https://cci.gov.in/images/career/en/filling-up-of-the-posts-in-the-competition-commission-of-india-on-deputation-basis-advt-date121792830080.pdf"
+},
+  {
+    "id": "cci-office-manager-recruitment-2026",
+    "b": "Competition Commission of India (CCI)",
+    "t": "Competition Commission of India (CCI) Recruitment 2026 Notification Out for 29 Office Manager, Additional Director General and More Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "21 December 2026 (5:00 P.M.), last date for the application to reach CCI",
+    "a": "No. A-12011/02/2026-HR (Office Memorandum dated 12th October, 2026)",
+    "q": "Any Bachelor's Degree",
+    "desc": "Competition Commission of India (CCI) has officially announced employment advertisement notification No. A-12011/02/2026-HR (Office Memorandum dated 12th October, 2026) inviting applications for 29 vacancies for Office Manager, Additional Director General and More posts.",
+    "u": "https://cci.gov.in/images/career/en/filling-up-of-posts-in-the-office-of-director-general-cci-on-deputation-basis-advt-date1210201792830152.pdf"
+},
+  {
+    "id": "lnh-senior-residen-sr-recruitment-2026",
+    "b": "LNH Senior Resident",
+    "t": "LNH Senior Resident Recruitment 2026 Notification Out for 49 Senior Resident (ad hoc basis, initially 44 days) Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "27 October 2026 (Last Tuesday of October-2026) (Walk-in)",
+    "a": "F.No.17773 (Part -I)/SR interview/E-I/LNH/2026/2904, dated 23/10/26",
+    "q": "The walk-in is for the post of Senior Resident (SR), against sanctioned ...",
+    "desc": "LNH Senior Resident has officially announced employment advertisement notification F.No.17773 (Part -I)/SR interview/E-I/LNH/2026/2904, dated 23/10/26 inviting applications for 49 vacancies for Senior Resident (ad hoc basis, initially 44 days) posts.",
+    "u": "https://lnjp.delhi.gov.in/sites/default/files/lnjp/universal/advertisement_of_sr_on_ad-hoc_basis.pdf"
+},
+  {
+    "id": "india-consultantexpert-i-recruitment-2026",
+    "b": "Engineering Projects (India) Ltd.",
+    "t": "Engineering Projects (India) Ltd. Recruitment 2026 Notification Out for 1 Consultant/Expert -IT at E8-level/ Level-14 Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "02 November 2026 (05.30 PM)",
+    "a": "HRM/REC/08/2026",
+    "q": "B.Tech / B.E | M.Tech / M.E | MCA / BCA",
+    "desc": "Engineering Projects (India) Ltd. has officially announced employment advertisement notification HRM/REC/08/2026 inviting applications for 1 vacancies for Consultant/Expert -IT at E8-level/ Level-14 posts.",
+    "u": "https://epi.gov.in/admin/image/1792045401_Detailed_Advt_08_2026_for_Consultant_Experts_IT.pdf"
+},
+  {
+    "id": "burari-hospital-go-sr-recruitment-2026",
+    "b": "Burari Hospital (Govt. of NCT of Delhi)",
+    "t": "Burari Hospital (Govt. of NCT of Delhi) Recruitment 2026 Notification Out for 16 Senior Residents (ad-hoc) in OBG and Gen. Surgery Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "30 October 2026 to 20 November 2026 (on Every Friday) (Walk-in)",
+    "a": "BH/Resident/Advt-15/SR/10/2026",
+    "q": "The 16 Senior Resident posts are split between two departments. Both pos...",
+    "desc": "Burari Hospital (Govt. of NCT of Delhi) has officially announced employment advertisement notification BH/Resident/Advt-15/SR/10/2026 inviting applications for 16 vacancies for Senior Residents (ad-hoc) in OBG and Gen. Surgery posts.",
+    "u": "https://burari.delhi.gov.in/sites/default/files/burari/universal/bh_resident_advt_15_sr_10_2026.pdf"
+},
+  {
+    "id": "dlsa-chandigarh-of-various-recruitment-2026",
+    "b": "DLSA Chandigarh Office Assistant/ Clerk",
+    "t": "DLSA Chandigarh Office Assistant/ Clerk Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "30 October 2026",
+    "a": "SLSA-UT/2025(LADCS)/2026/4284",
+    "q": "Any Bachelor's Degree",
+    "desc": "DLSA Chandigarh Office Assistant/ Clerk has officially announced employment advertisement notification SLSA-UT/2025(LADCS)/2026/4284 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://cdnbbsr.s3waas.gov.in/s3a1e926947e6e1f41bee96af62f1cf811/uploads/2026/10/20261023274834452.pdf"
+},
+  {
+    "id": "kvs-pgt-physics-recruitment-2026",
+    "b": "PM SHRI Kendriya Vidyalaya No. 2 Itanagar PGT",
+    "t": "PM SHRI Kendriya Vidyalaya No. 2 Itanagar PGT Recruitment 2026 Notification Out for 1 PGT (PHYSICS) Posts | Walk-in Interview",
+    "d": "25 October 2026",
+    "l": "28 October 2026 (Walk-in)",
+    "a": "PM-SHRI-KENDRI/2026",
+    "q": "Post Vacancies Qualification Required Pay PGT (PHYSICS) Not specified No...",
+    "desc": "PM SHRI Kendriya Vidyalaya No. 2 Itanagar PGT has officially announced employment advertisement notification PM-SHRI-KENDRI/2026 inviting applications for 1 vacancies for PGT (PHYSICS) posts.",
+    "u": "https://samvida-sathi.kvs.gov.in/"
+},
+  {
+    "id": "aai-consultant-sscos-recruitment-2026",
+    "b": "Airports Authority of India (AAI)",
+    "t": "Airports Authority of India (AAI) Recruitment 2026 Notification Out for 39 Consultant - SSCOs (Short Service Commission Officers), on contract basis Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "1 October 2026 11 November 2026",
+    "a": "14/2026/CHQ/SSCOs",
+    "q": "Any Bachelor's Degree",
+    "desc": "Airports Authority of India (AAI) has officially announced employment advertisement notification 14/2026/CHQ/SSCOs inviting applications for 39 vacancies for Consultant - SSCOs (Short Service Commission Officers), on contract basis posts.",
+    "u": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Advt%20No%2014-2026-CHQ-SSCOs%20for%20engagement%20of%20Short%20Service%20Commission%20Officers%20in%20AAI.pdf"
+},
+  {
     "id": "iim-calcutta-pay-recruitment-2026",
     "b": "Indian Institute of Management Calcutta (IIM Calcutta)",
     "t": "Indian Institute of Management Calcutta (IIM Calcutta) Recruitment 2026 Notification Out for 1 Pay Posts | Apply Online",
