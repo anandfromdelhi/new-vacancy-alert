@@ -12,6 +12,83 @@ export interface JobEntry {
 
 export const JOBS_DATA: JobEntry[] = [
   {
+    "id": "wb-polic-driver-contractual-recruitment-2026",
+    "b": "West Bengal Police (WB Police): district police offices, Rapid Action Force and State Armed Police battalions",
+    "t": "West Bengal Police (WB Police): district police offices, Rapid Action Force and State Armed Police battalions Recruitment 2026 Notification Out for 70 Driver (Contractual) Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "Varies by unit. See Important Dates",
+    "a": "4952/E/2026",
+    "q": "Class VIII passed and knowledge of reading and writing Bengali",
+    "desc": "West Bengal Police (WB Police): district police offices, Rapid Action Force and State Armed Police battalions has officially announced employment advertisement notification 4952/E/2026 inviting applications for 70 vacancies for Driver (Contractual) posts.",
+    "u": "https://wbpolice.gov.in/writereaddata/wbp/SAP13TH_driver26.pdf"
+},
+  {
+    "id": "upessc-assistant-teacher-recruitment-2026",
+    "b": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
+    "t": "Uttar Pradesh Education Service Selection Commission (UPESSC) Recruitment 2026 Notification Out for 17735 Assistant Teacher (Graduate Pay Scale / TGT) Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "26 November 2026",
+    "a": "07/2026",
+    "q": "B.Ed / Teacher | Any Bachelor's Degree",
+    "desc": "Uttar Pradesh Education Service Selection Commission (UPESSC) has officially announced employment advertisement notification 07/2026 inviting applications for 17735 vacancies for Assistant Teacher (Graduate Pay Scale / TGT) posts.",
+    "u": "https://apply.upessc.org/"
+},
+  {
+    "id": "upessc-headmaster-recruitment-2026",
+    "b": "Uttar Pradesh Education Service Selection Commission (UPESSC), 23 Elganj, Prayagraj-211002",
+    "t": "Uttar Pradesh Education Service Selection Commission (UPESSC), 23 Elganj, Prayagraj-211002 Recruitment 2026 Notification Out for 2647 Principal, Headmaster Posts | Apply Online",
+    "d": "25 October 2026",
+    "l": "22 November 2026",
+    "a": "08/2026 (Principal) and 09/2026 (Headmaster)",
+    "q": "Citizens of India can apply. Candidates must hold all the qualifications...",
+    "desc": "Uttar Pradesh Education Service Selection Commission (UPESSC), 23 Elganj, Prayagraj-211002 has officially announced employment advertisement notification 08/2026 (Principal) and 09/2026 (Headmaster) inviting applications for 2647 vacancies for Principal, Headmaster posts.",
+    "u": "https://apply.upessc.org/"
+},
+  {
+    "id": "office-of-the-dist-various-recruitment-2026",
+    "b": "Office of the District Basic Education Officer, Moradabad",
+    "t": "Office of the District Basic Education Officer, Moradabad Recruitment 2026 Notification Out for 10 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "05 November 2026, 5:00 PM",
+    "a": "OFFICE-OF-THE-/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Office of the District Basic Education Officer, Moradabad has officially announced employment advertisement notification OFFICE-OF-THE-/2026 inviting applications for 10 vacancies for Various Posts posts.",
+    "u": "https://cdn.s3waas.gov.in/s382161242827b703e6acf9c726942a1e4/uploads/2026/10/17928188256525.pdf"
+},
+  {
+    "id": "pvt-unaided-account-clerk-recruitment-2026",
+    "b": "Army Public School Bareilly (Pvt-Unaided)",
+    "t": "Army Public School Bareilly (Pvt-Unaided) Recruitment 2026 Notification Out for 1 Account Clerk, LDC and More Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "07 November 2026",
+    "a": "ARMY-PUBLIC-SC/2026",
+    "q": "Any Bachelor's Degree",
+    "desc": "Army Public School Bareilly (Pvt-Unaided) has officially announced employment advertisement notification ARMY-PUBLIC-SC/2026 inviting applications for 1 vacancies for Account Clerk, LDC and More posts.",
+    "u": "https://www.armypublicschoolbly.com/slider/rdgttg2b.gtd_Application%20Form%20for%20Administrative%20Staff.pdf"
+},
+  {
+    "id": "cgst-lucknow-tax-assistant-recruitment-2026-3074985",
+    "b": "CGST Lucknow Sports Quota",
+    "t": "CGST Lucknow Sports Quota Recruitment 2026 Notification Out for 17 Tax Assistant, Havaldar Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "23 November 2026 (17:00 hrs)",
+    "a": "CGST-LUCKNOW-S/2026",
+    "q": "10th / 8th Pass | Any Bachelor's Degree",
+    "desc": "CGST Lucknow Sports Quota has officially announced employment advertisement notification CGST-LUCKNOW-S/2026 inviting applications for 17 vacancies for Tax Assistant, Havaldar posts.",
+    "u": "https://www.cbic.gov.in/"
+},
+  {
+    "id": "sgpgims-various-recruitment-2026",
+    "b": "Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS), Lucknow",
+    "t": "Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS), Lucknow Recruitment 2026 Notification Out for 1 Various Posts | Apply Offline",
+    "d": "25 October 2026",
+    "l": "30 November 2026 (Receipt by 5:00 PM)",
+    "a": "SANJAY-GANDHI-/2026",
+    "q": "Master's / PG Degree",
+    "desc": "Sanjay Gandhi Post Graduate Institute of Medical Sciences (SGPGIMS), Lucknow has officially announced employment advertisement notification SANJAY-GANDHI-/2026 inviting applications for 1 vacancies for Various Posts posts.",
+    "u": "https://sgpgims.org.in"
+},
+  {
     "id": "bhatkhande-temporary-guest-recruitment-2026",
     "b": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow",
     "t": "Bhatkhande Sanskriti Vishwavidyalaya, Lucknow Recruitment 2026 Notification Out for 15 Temporary Guest Teacher (Music Theory, Sitar, Tabla, Computer Science) and Temporary Guest Accompanist (Tabla, Sarangi, Vocal, Harmonium) Posts | Apply Offline",
